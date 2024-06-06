@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '567'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Tänk på följande:
 
 * Du kan bara skapa en kalendervy om du har minst två datumfält kopplade till en posttyp. När du har ett eller inga datumfält kopplade till en posttyp är alternativet Kalendervy nedtonat.
+
+  Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna post- eller objekttyper.
 * Följande scenarier finns:
 
    * När både start- och slutdatum saknar värden visas inte posterna i kalendern

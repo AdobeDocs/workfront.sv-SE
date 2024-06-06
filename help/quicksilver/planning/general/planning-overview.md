@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
@@ -283,23 +283,35 @@ Så här hittar du Workfront Planning:
 
    Området Arbetsytor öppnas.
 
+   <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
+
 1. (Valfritt och rekommenderas) Fortsätt med några av följande åtgärder för att skapa din arbetsstruktur:
 
-   1. Skapa en arbetsyta från grunden eller med en mall.
+   1. Skapa en arbetsyta från grunden eller med en mall. Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-   1. Lägg till avsnitt på den nya arbetsytan.
+   1. Lägg till avsnitt på den nya arbetsytan. Mer information finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
    1. Byt namn på befintliga avsnitt på den nya arbetsytan.
-   1. Lägg till posttyper på den nya arbetsytan.
+   1. Lägg till posttyper på den nya arbetsytan. Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
    1. Klicka på namnet på en posttyp för att öppna posttypens sida. Posttypssidan öppnas som standard i tabellvyn.
 
-      Du kan också skapa en tidslinje eller en kalendervy.
+      Du kan också skapa en tidslinje eller en kalendervy. Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
    1. Börja lägga till poster i tabellvyn genom att lägga till rader
 
       eller
 
       Börja lägga till postfält genom att lägga till kolumner.
+
+      Mer information finns i följande artiklar:
+
+      * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
+      * [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront Planning - lanseringsaktivitet
 

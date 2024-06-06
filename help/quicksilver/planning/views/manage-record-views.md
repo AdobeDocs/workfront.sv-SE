@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cbba9d21046d2bf05675cadea9ce706fbde6adc1
+source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -172,14 +172,12 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 >
 >När du skapar en posttyp skapas även tabellvyn som standard.
 >
->Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är tidslinjen och kalenderalternativen nedtonade.
+>Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält.
+>
+>I annat fall är tidslinjen och kalenderalternativen nedtonade.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    Om du vill skapa en tidslinje eller en kalendervy måste posttypen som du skapar vyn för ha minst två datumfält. I annat fall är tidslinjen eller kalenderalternativen nedtonade.
 
 1. (Villkorligt) Klicka **Nästa** när du skapar en tidslinje eller kalendervy.
 
@@ -195,7 +193,7 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
    >[!TIP]
    >
-   >    Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna poster eller objekt.
+   >    Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna post- eller objekttyper.
 
 1. Klicka **Skapa**.
 

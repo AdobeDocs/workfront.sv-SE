@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Bifoga ett påminnelsemeddelande till ett objekt
-description: Påminnelsemeddelanden kan associeras med objekttyperna Projekt, Åtgärder, Problem, Tidrapporter, Mallar, Malluppgifter och Återkommande tidrapportprofiler.
+description: "Du kan associera påminnelsemeddelanden med flera olika objekttyper: Projekt, Åtgärder, Problem, Tidrapporter, Mallar, Malluppgifter och Återkommande tidrapportprofiler."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
 
 # Bifoga ett påminnelsemeddelande till ett objekt
 
-Påminnelsemeddelanden kan associeras med flera olika objekttyper: Projekt, uppgifter, problem, tidrapporter, mallar, malluppgifter och återkommande tidrapportprofiler.
+Du kan associera påminnelsemeddelanden med flera olika objekttyper: Projekt, Åtgärder, Problem, Tidrapporter, Mallar, Malluppgifter och Återkommande tidrapportprofiler.
 
 Innan du kan bifoga påminnelsemeddelanden till ett objekt, [!DNL Adobe Workfront] administratören måste skapa meddelandet enligt beskrivningen i [Ställ in påminnelsemeddelanden](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta din [!DNL Workfront] administratör.
 
 ## Bifoga påminnelsemeddelanden till ett objekt
 

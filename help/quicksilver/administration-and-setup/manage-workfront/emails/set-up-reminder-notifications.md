@@ -1,13 +1,13 @@
 ---
 title: Ställ in påminnelsemeddelanden
-description: Ställ in påminnelsemeddelanden
+description: Påminnelsemeddelanden genererar e-postmeddelanden som skickas till användare baserat på angivna villkor. Påminnelsemeddelanden påminner användarna om en åtgärd som de behöver utföra för en uppgift, utgåva, projekt eller tidrapport.
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,11 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Påminnelsemeddelanden skickar e-postmeddelanden till mottagare baserat på angivna villkor. Du kan associera påminnelsemeddelanden manuellt med dina arbetsobjekt, till exempel projekt, uppgifter, utgåvor och tidrapporter.
+Som Workfront-administratör kan du skapa påminnelsemeddelanden för användare och associera dem med objekt som du vill att dina användare ska vara särskilt uppmärksamma på.
+
+Påminnelsemeddelanden genererar e-postmeddelanden som skickas till användare baserat på angivna villkor. Påminnelsemeddelanden påminner användarna om en åtgärd som de behöver utföra för en uppgift, utgåva, projekt eller tidrapport.
+
+När du har skapat påminnelsemeddelandena kan användarna manuellt koppla dem till arbetsobjekt, till exempel projekt, uppgifter, utgåvor och tidrapporter. Mer information finns i [Bifoga ett påminnelsemeddelande till ett objekt](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 <!--
 DRAFTED IN FLARE:
@@ -36,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront</td> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
@@ -53,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Anpassa påminnelsemeddelandet
 
@@ -126,7 +130,18 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
      </tr> 
      <tr> 
       <td role="rowheader">Mottagare</td> 
-      <td>Välj de typer av användare som du vill ska få meddelandet. Välj bland olika objektintressenter, till exempel ägare, godkännare eller tilldelad.</td> 
+      <td><p>Beroende på vilket objekt påminnelsemeddelandet gäller väljer du bland följande typer av användare som du vill få meddelandet:</p>
+      <ul>
+      <li>Tilldelad till</li>
+      <li>Anges av</li>
+      <li>Projektgruppen (alla användare i projektteamet får påminnelsen)</li>
+      <li>Beroende aktivitetstilldelningar (användare som tilldelats beroende uppgifter får påminnelsen)</li>
+      <li>Projektägare</li>
+      <li>Tilldelad (användare som tilldelats en uppgift eller en utgåva får påminnelsen)</li>
+      <li>Ägare av tidrapport</li>
+      <li>Godkännare av tidrapport</li>
+      <li>Ansvarig för tidrapportsägare</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>
