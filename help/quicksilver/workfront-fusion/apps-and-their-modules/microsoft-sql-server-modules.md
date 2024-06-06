@@ -9,9 +9,9 @@ description: Du kan använda [!DNL Adobe Workfront Fusion] för att ansluta till
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -49,15 +49,27 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+
+
+## Ansluta [!DNL Microsoft SQL Server] service till [!DNL Workfront Fusion]
+
+Instruktioner om hur du ansluter [!DNL Microsoft SQL Server] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 ## Använda [!DNL Microsoft SQL Server] moduler
 

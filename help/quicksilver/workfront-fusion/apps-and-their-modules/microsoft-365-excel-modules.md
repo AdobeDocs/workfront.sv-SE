@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 9aa3739d-6800-4eb1-a17f-32fdfd8ed0f2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2350'
 ht-degree: 0%
 
 ---
@@ -53,19 +53,31 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
 Används [!DNL Microsoft office 365 Excel]måste du ha ett Microsoft-konto.
+
+
+
+## Ansluta [!DNL Office 365 Excel] service till [!DNL Workfront Fusion]
+
+Instruktioner om hur du ansluter [!DNL Office 365 Excel] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 ## [!DNL Microsoft Office 365 Excel] moduler och deras fält
 
@@ -156,7 +168,7 @@ Den här åtgärdsmodulen hämtar innehållet i den angivna Excel-arbetsboken.
    <td role="rowheader">[!UICONTROL Download a workbook]</td> 
    <td> <p>Välj hur du vill identifiera arbetsboken för modulen som ska hämtas.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL By entering an ID manually]</strong> </p> <p>I [!UICONTROL Workbook ID] anger eller mappar du ID:t för den arbetsbok som du vill att modulen ska hämta.</p> </li> 
+     <li> <p><strong>[!UICONTROL By entering an ID manually]</strong> </p> <p>I [!UICONTROL Workbook ID] ska du ange eller mappa ID:t för den arbetsbok som du vill att modulen ska hämta.</p> </li> 
      <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>I [!UICONTROL Workbook] markerar du arbetsboken som du vill att modulen ska hämta.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -175,7 +187,7 @@ Den här åtgärdsmodulen hämtar innehållet i den angivna Excel-arbetsboken.
 
 #### [!UICONTROL Watch Worksheet Rows]
 
-Den här utlösarmodulen startar ett scenario när en ny rad läggs till i bladet.
+Denna utlösarmodul startar ett scenario när en ny rad läggs till i bladet.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -345,7 +357,7 @@ Den här åtgärdsmodulen uppdaterar en befintlig kalkylbladsrad.
   <tr> 
     <td role="rowheader" >[!UICONTROL Row]</td>
     <td>För varje kolumn anger du det värde som du vill att kolumnen ska ha i den nya raden.</td>
-   --&gt; 
+   —&gt; 
   </tr> 
  </tbody> 
 </table>
@@ -390,7 +402,7 @@ Den här åtgärdsmodulen tar bort en rad från ett kalkylblad.
 
 #### [!UICONTROL Watch table rows]
 
-Den här utlösaren startar ett scenario när en ny rad läggs till i en tabell.
+Detta startar ett scenario när en ny rad läggs till i en tabell.
 
 >[!NOTE]
 >
@@ -497,13 +509,13 @@ Den här åtgärdsmodulen hämtar metadata för den angivna tabellen.
    </td> 
    <td> 
      <p>Instruktioner om hur du ansluter Office 365-kontot till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p>
-    --&gt; </td> 
+    —&gt; </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a table]</td> 
    <td> <p>Välj hur du vill identifiera tabellen som du vill hämta.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>I [!UICONTROL Workbook ID] anger eller mappar ID:t för arbetsboken som innehåller tabellen som du vill hämta.</p> <p>I [!UICONTROL Table Name] anger eller mappar namnet på den tabell som du vill hämta.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>I [!UICONTROL Workbook ID] ska du ange eller mappa ID:t för arbetsboken som innehåller tabellen som du vill hämta.</p> <p>I [!UICONTROL Table Name] anger eller mappar namnet på den tabell som du vill hämta.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Markera arbetsboken och kalkylbladet som innehåller tabellen som du vill hämta och markera sedan tabellen.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -688,7 +700,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Ange en sökväg i förhållande till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 

@@ -10,9 +10,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,18 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 För att kunna använda [!DNL Miscrosoft Word Templates] med [!DNL Adobe Workfront Fusion]måste du ha en [!DNL Office 365] konto. Du kan skapa en på www.office.com.
 
+
+
+## Ansluta [!DNL Office] service till [!DNL Workfront Fusion]
+
+Instruktioner om hur du ansluter [!DNL Office] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
+
 ## Använda [!DNL Microsoft Word Templates] moduler
 
 Du kan använda en [!DNL Microsoft Word Template] för att sammanfoga data från flera webbtjänster till en [!DNL Microsoft Word] -dokument.
@@ -93,14 +105,14 @@ A [!DNL Microsoft Word] mallen är en vanlig [!DNL Microsoft Word] -dokument (.d
 En enkel värdetagg ersätts med ett motsvarande värde. Taggens namn motsvarar [!UICONTROL Key] fältets värde, som placeras inom dubbla klammerparenteser, till exempel
 
 
-<pre>&#123;&#123;name&#125;&#125;</pre>
+<pre>{{name}}</pre>
 
 
 .
 
 **Exempel:** Om du vill skapa ett dokument med texten &quot;Hi, Petr!&quot; kan du använda en [!DNL Microsoft Word Template] för att skapa följande mall:
 
-<pre>&gt; Hej &#123;&#123;name&#125;&#125;!</pre>
+<pre>&gt; Hej {{name}}!</pre>
 
 Om du vill göra det ställer du in modulen enligt följande:
 
@@ -111,7 +123,7 @@ Om du vill göra det ställer du in modulen enligt följande:
 Du kan använda ett villkorsmärkord för att figursätta text som bara ska återges när vissa villkor uppfylls. Om du vill radbryta texten placerar du den mellan inledande och avslutande villkorstaggar, till exempel &quot;hasPhone&quot;, om villkoret är huruvida data innehåller ett telefonnummer eller inte. Namnet på en öppningstagg föregås av hash-tecknet #. Namnet på en avslutande tagg föregås av ett snedstreck /, vilket visas i exemplet nedan.
 
 **Exempel:** Om du vill skapa ett dokument som innehåller kundens telefonnummer om indata innehåller ett telefonnummer, men ingen e-postadress, kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
-<pre>&gt; &#123;&#123;#hasPhone&#125;&#125; Telefon: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>&gt; &#123;&#123;#hasEmail&#125;&#125; E-post: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>Om du vill göra det ställer du in modulen enligt följande:
+<pre>&gt; {{#hasPhone}} Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}} E-post: {{email}} {{/hasEmail}}</pre>Om du vill göra det ställer du in modulen enligt följande:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -129,7 +141,7 @@ Du kan använda en loop-tagg, som också kallas avsnittstagg, för att upprepa e
 
 **Exempel:** Om du vill skapa ett dokument med namn och telefonnummer för varje kontakt i en kundlista kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
 
-<pre>&gt; &#123;&#123;#contact&#125;&#125;</pre><pre>&gt;     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>&gt; &#123;&#123;/contact&#125;&#125;</pre>
+<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
 
 Om du vill göra det ställer du in modulen enligt följande:
 

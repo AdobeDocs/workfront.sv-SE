@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion
 exl-id: b7175cb9-aade-49b7-a28b-25fc9805a078
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -68,6 +68,18 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 Används [!DNL Microsoft OneDrive for Business] med [!DNL Adobe Workfront Fusion]behöver du en [!DNL Microsoft] konto.
 
 Instruktioner om hur du ansluter [!DNL OneDrive for Business] konto till [!DNL Workfront Fusion], se [Skapa en anslutning till Adobe [!DNL Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+
+
+## Ansluta [!DNL Microsoft OneDrive for Business] service till [!DNL Workfront Fusion]
+
+Instruktioner om hur du ansluter [!DNL Microsoft OneDrive for Business] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 ## [!DNL Microsoft OneDrive for Business] moduler och deras fält
 
@@ -103,7 +115,7 @@ Den här utlösarmodulen aktiveras när en ny fil läggs till eller uppdateras i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p> Markera mappen som du vill bevaka. I ett scenario kan du bara övervaka en mapp.</p> <p>Tips: Om du vill hålla reda på flera mappar skapar du ett oberoende scenario för var och en av dem.</p> </td> 
+   <td> <p> Markera mappen som du vill bevaka. I ett scenario kan du bara övervaka en mapp.</p> <p>Tips! Om du vill hålla reda på flera mappar skapar du ett oberoende scenario för var och en av dem.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL I want to watch]</p> </td> 
@@ -134,7 +146,7 @@ Den här utlösarmodulen aktiveras när en ny mapp läggs till i den mapp som be
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p> Markera mappen som du vill bevaka. I ett scenario kan du bara övervaka en mapp.</p> <p>Tips: Om du vill hålla reda på flera mappar skapar du ett oberoende scenario för var och en av dem.</p> </td> 
+   <td> <p> Markera mappen som du vill bevaka. I ett scenario kan du bara övervaka en mapp.</p> <p>Tips! Om du vill hålla reda på flera mappar skapar du ett oberoende scenario för var och en av dem.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL I want to watch]</p> </td> 
@@ -200,7 +212,7 @@ Den här åtgärdsmodulen överför en binär fil eller textfil till en angiven 
 
 #### [!UICONTROL Delete a file]
 
-Den här åtgärdsmodulen flyttar den angivna filen till papperskorgen.
+Denna åtgärdsmodul flyttar den angivna filen till papperskorgen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +239,7 @@ Den här åtgärdsmodulen flyttar den angivna filen till papperskorgen.
 
 #### [!UICONTROL Get a file]
 
-Den här åtgärdsmodulen hämtar filen med angivet ID.
+Den här åtgärdsmodulen hämtar filen med det angivna ID:t.
 
 <table style="table-layout:auto"> 
  <col> 

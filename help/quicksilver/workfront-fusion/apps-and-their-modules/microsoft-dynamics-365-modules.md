@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 46c282062ed737be860aeb4af96ac5f5efe9360d
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1544'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,12 @@ Används [!DNL Microsoft Dynamics] 365 måste du ha en [!DNL Microsoft Dynamics 
 ## Anslut Microsoft Dynamics 365 till Workfront Fusion
 
 Du kan skapa en anslutning till [!DNL Microsoft Dynamics 365] direkt inifrån ett [!DNL Microsoft Dynamics 365] -modul.
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 1. I alla [!DNL Microsoft Dynamics 365] modul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] fält.
 1. Ange ett namn för anslutningen.

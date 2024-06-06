@@ -5,13 +5,13 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Microsoft Office 365-e-post
-description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöden som använder e-post i Microsoft Office 365 samt ansluta det till flera tredjepartsprogram och -tjänster.
+description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöden som använder e-post för Microsoft Office 365 samt ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1581'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ För att kunna använda [!UICONTROL Office 365 Email] med [!DNL Adobe Workfront 
 
 Instruktioner om hur du ansluter [!UICONTROL Office 365] konto till [!DNL Workfront Fusion], se [Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-När du har gett ditt samtycke omdirigeras du tillbaka till [!UICONTROL Workfront Fusion] administrationssida där du kan fortsätta att skapa ditt scenario.
+När du har godkänt omdirigeras du tillbaka till [!UICONTROL Workfront Fusion] administrationssida där du kan fortsätta att skapa ditt scenario.
 
 ## Åtkomstkrav
 
@@ -55,19 +55,31 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
 Används [!DNL Microsoft Office 365 Email] moduler, du måste ha en [!DNL Microsoft Office 365 Email] konto.
+
+
+
+## Ansluta [!DNL Office 365 Email] service till [!DNL Workfront Fusion]
+
+Instruktioner om hur du ansluter [!DNL Office 365 Email] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 ## [!DNL Microsoft Office 365 Email] moduler och deras fält
 
@@ -79,7 +91,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 * [Meddelande](#message)
 * [Utkastmeddelande](#draft-message)
-* [Bifogad fil](#attachment)
+* [Bilaga](#attachment)
 * [Övriga](#other)
 
 ### Meddelande
@@ -141,7 +153,7 @@ Söker efter meddelanden baserat på specifika kriterier.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Markera mappen som innehåller de meddelanden som du vill söka i.</p> </td> 
+   <td> <p>Markera den mapp som innehåller de meddelanden som du vill söka i.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
@@ -149,7 +161,7 @@ Söker efter meddelanden baserat på specifika kriterier.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td> <p>Välj hur du vill ordna resultaten:</p> 
+   <td> <p>Välj hur du vill beställa resultaten:</p> 
     <ul> 
      <li>[!UICONTROL Subject (Ascending or descending)]</li> 
      <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
@@ -474,7 +486,7 @@ Uppdaterar ett befintligt meddelande.
  </tbody> 
 </table>
 
-### Bifogad fil
+### Bilaga
 
 * [[!UICONTROL List Attachments]](#list-attachments)
 * [[!UICONTROL Download an Attachment]](#download-an-attachment)
@@ -544,7 +556,7 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg som är relativ till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/messages</code></p> </td> 
+   <td> <p>Ange en sökväg i förhållande till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/messages</code></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 

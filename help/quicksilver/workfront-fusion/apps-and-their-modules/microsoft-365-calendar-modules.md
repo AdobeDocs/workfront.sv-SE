@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 814c285e-c106-458a-a0b1-760677634f4f
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,16 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 ## Förutsättningar
 
 Används [!DNL Microsoft Office 365 Calendar] moduler, du måste ha en [!DNL Microsoft Office 365 Calendar] konto.
+
+## Ansluta [!DNL Office 365 Calendar] service till [!DNL Workfront Fusion]
+
+Instruktioner om hur du ansluter [!DNL Office 365 Calendar] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 ## [!DNL Microsoft Office 365 Calendar] moduler och deras fält
 

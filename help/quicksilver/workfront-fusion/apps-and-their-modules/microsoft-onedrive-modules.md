@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
 workflow-type: tm+mt
-source-wordcount: '3172'
+source-wordcount: '3263'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <td>
    <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
@@ -67,9 +67,18 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 Används [!DNL OneDrive] moduler, du måste ha en [!DNL Microsoft OneDrive] konto.
 
+
+
+
 ## Ansluta [!DNL OneDrive] service till [!DNL Workfront Fusion]
 
 Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Vissa Microsoft-program använder samma anslutning, som är kopplad till individuella användarbehörigheter. När du skapar en anslutning visas därför alla behörigheter som tidigare har beviljats användarens anslutning, förutom de nya behörigheter som krävs för det aktuella programmet.
+>
+>Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
 ## [!DNL Microsoft OneDrive] moduler och deras fält
 
@@ -117,7 +126,7 @@ Den här utlösarmodulen startar ett scenario när en fil eller mapp skapas elle
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] plats]</td> 
-   <td> <p>Välj den plats du vill titta på:</p> 
+   <td> <p>Välj den plats som du vill bevaka:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Välj om modulen ska aktiveras för att ange ett enhets-ID.</p> 
       <ul> 
@@ -156,7 +165,7 @@ Den här sökmodulen returnerar filer och mappar baserat på de villkor du anger
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] plats]</td> 
-   <td> <p>Välj den plats du vill söka efter:</p> 
+   <td> <p>Välj den plats som du vill söka efter:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Välj om modulen ska aktiveras för att ange ett enhets-ID.</p> 
       <ul> 
@@ -205,7 +214,7 @@ Den här åtgärdsmodulen hämtar metadata för en angiven fil.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] plats]</td> 
-   <td> <p>Välj den plats du vill söka efter:</p> 
+   <td> <p>Välj den plats som du vill söka efter:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Välj om modulen ska aktiveras för att ange ett enhets-ID.</p> 
       <ul> 
@@ -306,7 +315,7 @@ Den här åtgärdsmodulen hämtar den angivna filen.
          <li> <p>PPTX</p> </li> 
          <li> <p>RTF</p> </li> 
          <li> <p>XLS</p> </li> 
-         <li> <p>XLSX</p> </li> 
+         <li> <p>XSX</p> </li> 
         </ul> </td> 
       </tr> 
      </tbody> 
@@ -465,7 +474,7 @@ Den här åtgärdsmodulen returnerar en delningslänk för den angivna filen.
 
 #### [!UICONTROL Move a File/Folder]
 
-Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapplats
+Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapp
 
 <table style="table-layout:auto"> 
  <col> 
@@ -546,7 +555,7 @@ Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapplats
 
 #### [!UICONTROL Copy a File]
 
-Den här åtgärdsmodulen kopierar en fil till en ny mapplats
+Den här åtgärdsmodulen kopierar en fil till en ny mapp
 
 <table style="table-layout:auto"> 
  <col> 
@@ -591,7 +600,7 @@ Den här åtgärdsmodulen kopierar en fil till en ny mapplats
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
-   <td> <p>Välj hur du vill ange platsen som du vill kopiera filen till eller till:</p> 
+   <td> <p>Välj hur du vill ange platsen som du vill kopiera filen till:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Välj det här alternativet om du vill ange ID:t eller sökvägen direkt, eller mappa det från en tidigare modul.</p> </li> 
      <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Välj det här alternativet om du vill välja i en lista över tillgängliga mappar. </p> </li> 
@@ -651,7 +660,7 @@ Den här åtgärdsmodulen tar bort den markerade filen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] plats]</td> 
-   <td> <p>Välj den plats du vill söka efter:</p> 
+   <td> <p>Välj den plats som du vill söka efter:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Välj om modulen ska aktiveras för att ange ett enhets-ID.</p> 
       <ul> 
@@ -681,7 +690,7 @@ Den här åtgärdsmodulen tar bort den markerade filen.
 
 #### [!UICONTROL Make an API Call]
 
-Den här modulen utför ett anpassat API-anrop.
+Denna modul utför ett anpassat API-anrop.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -693,7 +702,7 @@ Den här modulen utför ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Ange en sökväg i förhållande till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
@@ -723,6 +732,6 @@ Den här modulen utför ett anpassat API-anrop.
 
 Det finns flera möjliga problem när det inte går att överföra eller uppdatera en fil:
 
-* Den överförda filen är för stor och överskrider den maximala filstorleken för din [!DNL OneDrive] eller så har du använt alla [!DNL OneDrive] kontots lagringskvot. Om du vill ha mer lagringsutrymme tar du bort befintliga filer från [!DNL OneDrive] eller uppgradera [!DNL OneDrive] konto.
+* Den överförda filen är för stor och överskrider den maximala filstorleken för din [!DNL OneDrive] eller så har du använt alla [!DNL OneDrive] kontots lagringsutrymme. Om du vill ha mer lagringsutrymme tar du bort befintliga filer från [!DNL OneDrive] eller uppgradera [!DNL OneDrive] konto.
 * Det går inte att överföra två filer med samma namn till en enda mapp med OneDrive. Om målmappen innehåller en fil med samma namn som den fil som överförs avslutas scenariot med ett fel. Lösningen är att byta namn på filen som överförs. Om du vill uppdatera en fil använder du [!UICONTROL Update a file] åtgärd.
 * Den tidigare markerade mappen, som filen överförs till, finns inte längre. Scenariot stoppas och du måste välja målmappen igen.
