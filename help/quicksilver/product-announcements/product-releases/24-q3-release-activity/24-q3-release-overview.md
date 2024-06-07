@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1362'
 ht-degree: 0%
 
 ---
@@ -98,10 +98,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.6 (20 juni 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -264,7 +261,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tidsgränsen återspeglas nu i arbetsbelastningsutjämnaren</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tidsgränsen återspeglas nu i arbetsbelastningsutjämnaren</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>För att smidigt justera arbete när den primära tilldelaren för en aktivitet har en schemalagd tid inaktiverad, omfördelar nu arbetsbelastningsutjämnaren timmar till både den primära och den sekundära användaren när projekttidslinjen beräknas om.</p>
                     </td>
@@ -274,10 +271,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb lansering: Med version 24.6 (20 juni 2024)</p>
-                            </li>
-                            <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
                             </li>
                         </ul>
                     </td>

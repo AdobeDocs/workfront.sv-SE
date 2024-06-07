@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 1881803a78d1003636da558504e978316e80d064
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Mer information finns i [Dela ett eget formulär](/help/quicksilver/administrati
 
 >[!NOTE]
 >
->Förhandsversion: 6 juni 2024; Produktion för snabb release: Med version 24.6 (20 juni 2024); Produktion för kvartalsvis release: Med version 24.7 (juli 2024)
+>Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)
 
 Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet. På så sätt kan du snabbt skapa återanvändbara anpassade fält.
 
