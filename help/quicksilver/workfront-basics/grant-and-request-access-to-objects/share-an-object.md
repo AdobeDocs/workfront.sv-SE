@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1966'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Du måste ha följande för att kunna dela objekt:
 
    Alla användare kan se objektet baserat på de behörigheter som du anger.
 
-1. (Valfritt och villkorligt) Klicka på **Kugghjul** icon ![](assets/gear-icon-settings.png)och markera sedan rutan intill **Ange som min projektåtkomstmall** för att ange behörigheterna som en mall.
+1. (Valfritt och villkorligt) Klicka på **Kugghjul** icon ![](assets/gear-icon-settings.png)markerar du kryssrutan bredvid **Ange som min projektåtkomstmall** för att ange behörigheterna som en mall.
 
    När du har definierat behörigheter för ett projekt tillämpas dessa behörigheter automatiskt nästa gång du skapar ett projekt från början.
 
@@ -167,7 +167,7 @@ Du måste ha följande för att kunna dela objekt:
 
 ## Dela ett dokument, en portfölj eller ett program från sidan
 
-1. Gå till objektet som du vill dela.
+1. Gå till dokumentets, portföljens eller programmets sida som du vill dela.
 
    Mer information om vilka objekt som kan delas finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 

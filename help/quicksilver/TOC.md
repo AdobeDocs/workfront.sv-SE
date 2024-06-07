@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2eb27afe73a7f46bade832b122159d3f93f7fb37
+source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
 workflow-type: tm+mt
-source-wordcount: '14340'
+source-wordcount: '14345'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 0%
          * [2024 Q3 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [Förbättringar av den ekonomiska förvaltningen under det tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
          * [2024 Q3 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+         * [Förbättrad resurshantering 2024 Q3](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [Andra förbättringar under 2024 års Q3-utgåva](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [Uppdateringar som både ser ut och känns under 2024 års Q3-release](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * 2024 Q2-utgåvan {#release-24-q2}

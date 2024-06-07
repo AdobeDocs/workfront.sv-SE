@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -28,19 +28,19 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
 >
 >| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
->| <ul><li>24.5 (16 maj 2024)</li><li>24.6 (juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 maj 2024)</li><li>24.6 (20 juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
 >
 >Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront-förbättringar
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättrad ekonomisk förvaltning](#financial-management-enhancements)
 * [Projektförbättringar](#project-enhancements)
+* [Förbättrad resurshantering](#resource-management-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
-<!--
-### Administrator enhancements
+### Administratörsförbättringar
 
 <table>
             <col style="width: 50%;" />
@@ -48,37 +48,83 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
             <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <p><span class="bold">Funktion</span>
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Release dates</span>
+                        <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Flytta objekt mellan Workfront-miljöer med miljöfrämjande åtgärder</a></p>
+                        <p>Med miljöfrämjande funktioner kan du flytta objekt från en Workfront-miljö till en annan, till exempel från en sandlådemiljö till en produktionsmiljö. Du kan konfigurera och testa objekt utan risk för organisationens data och poster. Du kan sedan flytta dessa objekt till produktion utan att behöva konfigurera om dem, vilket sparar tid och arbete.</p>
                     </td>
-                    <td><p><b>Available on these dates:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.6 (20 juni 2024)</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Dela anpassade formulär och anpassade fält i den anpassade formulärdesignern</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Nu kan du dela både anpassade formulär och anpassade fält i den nya formulärdesignern. Detta möjliggör bättre samarbete mellan användare i anpassade formulär.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Lägg till ett nytt anpassat fält från området Fält</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet. På så sätt kan du snabbt skapa återanvändbara anpassade fält.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.6 (20 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Flervalsfälttyp som är tillgänglig i formulärdesignern</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>För att du enklare ska kunna definiera listrutefält har vi lagt till flervalsfältet i den anpassade formulärdesignern. Med den här fälttypen kan användare välja mer än ett alternativ i en listruta.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 4 juni 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktion för alla kunder: 4 juni 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Förbättrad ekonomisk förvaltning
 
@@ -141,7 +187,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigera aktiviteten och utfärda datum och villkor för implementering från huvud- eller detaljavsnittet</a></p>
-                        <p><span style="color: #ff0000;"> Nyheter i förhandsvisning!</span></p>
                         <p>För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen.   </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -201,6 +246,45 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
            </tbody>
         </table>
 
+### Förbättrad resurshantering
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Tidsgränsen återspeglas nu i arbetsbelastningsutjämnaren</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>För att smidigt justera arbete när den primära tilldelaren för en aktivitet har en schemalagd tid inaktiverad, omfördelar nu arbetsbelastningsutjämnaren timmar till både den primära och den sekundära användaren när projekttidslinjen beräknas om.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.6 (20 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Andra förbättringar
 
 <table>
@@ -215,6 +299,26 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hjälpknappen har tagits bort från huvudnavigeringsfältet</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Hjälpknappen i huvudnavigeringsfältet har tagits bort för att ge en enhetlig upplevelse för användare som inte använder det enhetliga gränssnittet. Den här knappen, som inte finns för användare i Unified Shell, är länkad till Workfront-dokumentationen och överflödig med en liknande hjälpknapp tillgänglig för alla användare på huvudmenyn.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 6 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för snabb lansering: Med version 24.6 (20 juni 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.7 (juli 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

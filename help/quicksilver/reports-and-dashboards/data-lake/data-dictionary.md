@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,15 @@ Objekt i Workfront (och därför i din datalinje) definieras inte bara av deras 
 >[!IMPORTANT]
 >
 >Entitetsrelationsdiagrammet är ett pågående arbete - därför är det bara till för referens och kan ändras.
+
+## Datumtyper
+
+Det finns ett antal datumobjekt som ger information om när specifika händelser inträffar.
+
+* `DL_LOAD_TIMESTAMP`: Det här datumet används som intern referens och återspeglar när data lästes in i tabellen Aktuell, Händelse eller Daglig historik. Detta datum ska inte användas för dataanalys och ska tas bort under betaversionen av Workfront Data Lake.
+* `CALENDAR_DATE`: Det här datumet finns bara i tabellen Daglig historik. I den här tabellen visas hur data ser ut vid 11:59 UTC för varje datum som anges i `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Daglig historik och registreras exakt när en post ändras _till_ värdet som finns på den aktuella raden.
+* `END_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Daglig historik och registreras exakt när en post ändras _från_ värdet i den aktuella raden till ett värde i en annan rad. Om du vill tillåta mellan frågor på `BEGIN_EFFECTIVE_TIMESTAMP` och `END_EFFECTIVE_TIMESTAMP` det här värdet är aldrig null, även om det inte finns något nytt värde. Om en post fortfarande är giltig (dvs. värdet har inte ändrats), `END_EFFECTIVE_TIMESTAMP` får värdet 2300-01-01.
 
 ## Terminologisk tabell
 
