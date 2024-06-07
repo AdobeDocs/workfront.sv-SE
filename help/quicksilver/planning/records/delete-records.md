@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,11 @@ Du kan ta bort en post från följande områden:
 
 {{step1-to-planning}}
 
-Arbetsytan som du öppnar senast öppnas.
+1. Klicka på arbetsytan vars poster du vill ta bort.
 
-1. Klicka på en posttyp.
+   Arbetsytan öppnas och posttyperna visas som kort.
+
+1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
 1. Gör något av följande:
@@ -126,9 +128,11 @@ Posten tas bort och kan inte återställas.
 
 {{step1-to-planning}}
 
-Arbetsytan som du senast öppnade öppnas.
+1. Klicka på arbetsytan vars poster du vill ta bort.
 
-1. Klicka på en posttyp.
+   Arbetsytan öppnas och posttyperna visas som kort.
+
+1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
 1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre vänstra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.

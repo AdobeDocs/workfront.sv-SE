@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2403'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,9 @@ Så här lägger du till ett filter i en tabellvy:
 1. Markera en tabellvy och klicka sedan på **Filter** i tabellens övre högra hörn.
 1. Klicka **Lägg till villkor** och lägga till följande information:
 
-   * Markera ett fält som du vill filtrera efter <!-- the tip below might change-->
+   * **Markera ett fält** som du vill filtrera efter <!-- the tip below might change-->
 
-   * Välj ett alternativ (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
+   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilket villkor fältet måste uppfylla
 
      Tabellen nedan visar tillgängliga modifierare för varje typ av fält.
 
@@ -387,7 +387,7 @@ Så här lägger du till en gruppering:
 
    Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen.
 
-1. (Valfritt) Upprepa stegen ovan om du vill lägga till upp till tre grupperingar.
+1. (Valfritt) Klicka på **Lägg till villkor** och upprepa stegen ovan för att lägga till upp till tre grupperingar.
 
    Antalet fält som har valts för grupperingen visas bredvid grupperingsikonen.
 
@@ -438,13 +438,13 @@ Sortera <!--ungrouped (add this when sorting for groupings will be available--> 
 
    Håll markören över namnet på en kolumn i tabellvyn, klicka på nedåtpilen till höger om kolumnrubriknamnet och klicka sedan på **Sortera efter det här fältet**. Fältet läggs till som en sorteringsmarkering i sorteringsikonen i tabellvyns övre högra hörn.
 
-1. I **Sortera poster efter** klickar du på ett av de föreslagna fälten eller klickar på **Välj ett annat fält** och söker efter ett annat fält och klickar sedan på det när det visas i listan.
+1. (Villkorligt) I dialogrutan **Sortera poster efter** klickar du på ett av de föreslagna fälten eller klickar på **Välj ett annat fält** och söker efter ett annat fält och klickar sedan på det när det visas i listan.
 
    Sorteringen tillämpas automatiskt på tabellvyn och posterna visas sorterade efter de valda villkoren.
 
    <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
 
-1. (Valfritt) Upprepa stegen ovan om du vill sortera efter ytterligare fält.
+1. (Valfritt) Klicka på **Lägg till villkor** och upprepa stegen ovan för att sortera efter ytterligare fält.
 
    Antalet fält som du sorterar efter visas till vänster om sorteringsikonen i det övre högra hörnet av verktygsfältet. Du kan bara välja fält som visas i kolumnerna i tabellvyn.
 

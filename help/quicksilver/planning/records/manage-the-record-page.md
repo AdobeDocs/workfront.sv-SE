@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -123,9 +123,10 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
 {{step1-to-planning}}
 
-Arbetsytan som du öppnar senast öppnas.
+1. Klicka på kortet för en arbetsyta.
 
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+   Arbetsytan öppnas och posttyperna visas som kort.
+
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
@@ -187,9 +188,10 @@ Alla avsnitt expanderas som standard.
 
 {{step1-to-planning}}
 
-Arbetsytan som du öppnar senast öppnas.
+1. Klicka på kortet för en arbetsyta.
 
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+   Arbetsytan öppnas och posttyperna visas som kort.
+
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.

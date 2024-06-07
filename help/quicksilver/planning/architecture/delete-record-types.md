@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -122,13 +122,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill ta bort posttyper för.
+1. Klicka på arbetsytan vars posttyper du vill ta bort,
+
+   eller
+
+   Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta på en arbetsyta och markera den arbetsyta som du vill ta bort posttyper från.
 
    Arbetsytan öppnas och posttyperna visas.
-1. Klicka på kortet för den posttyp som du vill ta bort.
+1. Gör något av följande:
 
-   Då öppnas posttypens sida.
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Ta bort**. <!--add screen shot when they finalize the UI-->
-1. Typ **Ta bort** i bekräftelserutan klickar du på **Ta bort permanent**.
+   * Håll muspekaren över posttypkortet, klicka på Mer-menyn och sedan **Ta bort**.
+   * Klicka på kortet för den posttyp som du vill ta bort och klicka på knappen **Mer** meny ![](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Ta bort**.
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Typ **delete** i bekräftelserutan klickar du på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort.

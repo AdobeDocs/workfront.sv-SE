@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-Den senast öppnade arbetsytan öppnas som standard.
+1. Klicka på kortet för en arbetsyta.
+
+   Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på kortet för en posttyp som är kopplad till ett Workfront-projekt, en portfölj eller ett program.
 1. Välj en tabellvy på menyn **Visa** listruta.

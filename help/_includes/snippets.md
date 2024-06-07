@@ -1,7 +1,7 @@
 ---
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2193'
+source-wordcount: '2243'
 ht-degree: 0%
 
 ---
@@ -249,20 +249,14 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Planning]**.
 
-   Detta öppnar arbetsyteområdet i Workfront Planning.
+   Startsidan för Workfront Planning öppnas.
 
-<!-- replace sentence above with this and following step:
-   The Workfront Planning landing page opens. 
-    
-1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+1. (Valfritt och villkorligt) Om du är Workfront-administratör klickar du på följande flikar:
 
-   * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-   * **Other workspaces**: Displays all other workspaces in Workfront Planning. 
+   * **Mina arbetsytor**: Visar arbetsytor som du har skapat.
+   * **Andra arbetsytor**: Visar alla arbetsytor i Workfront Planning, inklusive de som delas med dig.
 
-   Otherwise, all workspaces you have view or higher permissions to display in the **Workspaces** area. 
- 
--->
-
+   För alla andra användare visas alla arbetsytor som de har skapat eller som delas med dem i **Arbetsytor** område.
 
 ## Workfront Planning important intro - {#planning-important-intro}
 

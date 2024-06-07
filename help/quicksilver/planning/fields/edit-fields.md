@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '613'
 ht-degree: 0%
 
 ---
@@ -127,13 +127,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill ta bort posttyper för.
+1. Klicka på arbetsytan vars postfält du vill redigera.
 
-   Arbetsytan öppnas och de posttyper som är associerade med den visas.
-1. Klicka på kortet för den posttyp vars fält du vill redigera.
+   Arbetsytan öppnas och alla posttyper i arbetsytan visas på kort.
+
+1. Klicka på kortet för en posttyp.
 
    Då öppnas posttypens sida.
+
 1. (Villkorligt) Klicka på fliken för en **Tabellvy**.
+
+   Alla befintliga poster som är associerade med posttypen visas i tabellvyns rader.
 1. Håll markören över kolumnrubriken för ett fält som du vill redigera, klicka sedan på nedåtpilen efter fältnamnet och klicka sedan på **Redigera fält**
 
    eller
@@ -146,7 +150,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >Du kan inte uppdatera fälttypen efter att fältet har sparats.
+   >* Du kan inte uppdatera fälttypen efter att fältet har sparats.
+   >
+   >* När du ändrar fältkonfigurationer (fältalternativ eller formeluttryck) kommer poster som redan innehåller information i de ändrade fälten att uppdatera sina värden i realtid. Det finns ingen varning och ingen granskningslogg för de värdeändringar som utlöses av fältkonfigurationsändringar. Alla användare som visar fälten ser omedelbart de nya värdena med ändringarna.
 
    Fältinformationen uppdateras för alla som har åtkomst till arbetsytan.
 
@@ -154,9 +160,3 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

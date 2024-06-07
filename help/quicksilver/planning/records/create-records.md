@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '824'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,9 @@ Mer information om hur du redigerar postinformation finns i [Redigera poster](/h
 
 {{step1-to-planning}}
 
-Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klicka på arbetsytan där du vill lägga till poster.
+
+   Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 

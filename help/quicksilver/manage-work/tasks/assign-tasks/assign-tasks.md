@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2021'
 ht-degree: 0%
 
 ---
@@ -168,16 +168,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Tilldela en enskild uppgift
 
 1. Gå till en uppgift som du vill tilldela.
-1. Klicka **Tilldela till** i **Uppdrag** i huvudet på uppgiften eller utgåvan.
+1. Klicka **Tilldela till** i **Uppdrag** fält i uppgiftens huvud
 
    eller
 
    Klicka på uppdragsnamnet om uppgiften eller utgåvan redan har tilldelats.
 
-   Exempelbild i produktionsmiljön:
+   I produktionsmiljön:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
+   <span class="preview">I förhandsvisningsmiljön:</span>
    ![Uppdrag](assets/assignments-box-in-task-header.png)
 
 1. Gör något av följande:

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 8382b69e6a55af69397dd8f566395143f3c1dcd3
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '736'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    Vi rekommenderar att du använder det här alternativet särskilt när du lägger till flera uppgifter i listan.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Villkorligt) Gör något av följande:
 
@@ -141,7 +141,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
          Detta gör den nya uppgiften till en underordnad uppgift eller underuppgift till den föregående uppgiften.
 
-         Mer information om underordnade uppgifter finns i [Översikt över uppgifter](../../../manage-work/tasks/task-information/tasks-overview.md).
+         Mer information om underordnade uppgifter finns i [Skapa underaktiviteter](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
       1. (Villkorligt) Om du har inaktiverat **Spara automatiskt** efter att ha tryckt **Lägg till fler aktiviteter** kan du göra följande:
 

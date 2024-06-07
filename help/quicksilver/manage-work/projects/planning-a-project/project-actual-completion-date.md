@@ -7,7 +7,7 @@ description: Projekt, uppgifter och utgåvor har ett faktiskt slutförandedatum 
 author: Alina
 feature: Work Management
 exl-id: 0baba359-a61d-43d7-8336-1f45c7f34374
-source-git-commit: 3a3dc541219706e3f6a4700889db344c110838bb
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -28,14 +28,14 @@ Du kan inte redigera det faktiska slutförandedatumet för ett projekt manuellt,
 
 Det faktiska slutförandedatumet för ett projekt anges på följande sätt:
 
-* Genom att manuellt uppdatera projektets status: om projektets slutförandeläge är inställt på Manuellt och du manuellt ändrar status för projektet till Fullständigt, utlöser detta det faktiska slutförandedatumet för projektet som ska uppdateras till det datum och den tidpunkt då du ändrar statusen.
-* När den sista uppgiften i projektet slutförs automatiskt: Om projektets slutföringsläge är inställt på Automatiskt och du markerar den senaste uppgiften som slutförd eller uppdaterar det faktiska slutförandedatumet för den senaste aktiviteten, uppdateras även projektets faktiska slutförandedatum med det datumet.
+* Genom att manuellt uppdatera projektets status: Om projektets slutföringsläge är inställt på Manuellt och du manuellt ändrar status för projektet till Fullständigt, utlöser detta projektets faktiska slutförandedatum som ska uppdateras till datumet och tiden för den senaste slutförda uppgiften.
+* När den sista uppgiften i projektet slutförs automatiskt: Om projektets slutföringsläge är inställt på Automatiskt och du markerar den sista uppgiften som Fullständig eller uppdaterar det faktiska slutförandedatumet för den senaste uppgiften, uppdateras även projektets verkliga slutförandedatum med det datumet.
 
-   Mer information om hur du ställer in ett projekts slutföringsläge finns i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Mer information om hur du ställer in ett projekts slutföringsläge finns i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   >[!NOTE]
-   >
-   >Workfront använder det faktiska slutförandedatumet från projektets uppgift som slutfördes sist som det faktiska slutförandedatumet för hela projektet.
+  >[!NOTE]
+  >
+  >Workfront använder det faktiska slutförandedatumet från projektets uppgift som slutfördes sist som det faktiska slutförandedatumet för hela projektet.
 
 En Workfront- eller gruppadministratör avgör om Workfront använder dagens datum, det planerade slutförandedatumet för en uppgift eller ett problem när dessa är inställda på Fullständigt eller Stängt. Mer information om hur du anger inställningar för åtgärder och problem finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
@@ -98,13 +98,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-Då öppnas den senaste arbetsytan som du använde.
+1. Klicka på arbetsytan som du vill ta bort.
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill ta bort.
+   Arbetsytesidan visas.
+
 1. Klicka på **Mer** meny ![](assets/more-menu.png) bredvid arbetsytans namn och klicka sedan på **Ta bort**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Skriv &quot;**delete**&quot; i det tillgängliga utrymmet, klicka sedan på **Ta bort permanent**.
+1. Skriv &quot;**delete**&quot; i det tillgängliga utrymmet, klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Arbetsytan tas bort och kan inte återskapas. Alla posttyper, poster, fält och vyer som är kopplade till dem tas också bort. <!--ensure this is right at or before GA-->

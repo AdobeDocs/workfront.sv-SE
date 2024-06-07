@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 6c50746c4c230d7f9fa2c73b66d13c8b02153b89
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '472'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,12 @@ I den högra panelen för en post visas följande avsnitt:
 
 {{step1-to-planning}}
 
-Den senast öppnade arbetsytan öppnas som standard.
+1. Klicka på kortet för en arbetsyta.
+
+   Arbetsytan öppnas och posttyperna visas på kort.
+
+1. Klicka på ett posttypskort.
+Posttypssidan öppnas och alla poster av den typen visas.
 
 1. Välj en tabellvy på menyn **Visa** listruta.
 1. Klicka på namnet på en post i tabellvyn.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -120,9 +120,9 @@ Du kan redigera en post i följande områden:
 
 {{step1-to-planning}}
 
-Arbetsytan som du senast öppnade öppnas.
+1. Klicka på arbetsytan vars poster du vill redigera
 
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+   Arbetsytan öppnas och posttyperna visas som kort.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
@@ -192,9 +192,9 @@ Arbetsytan som du senast öppnade öppnas.
 
 {{step1-to-planning}}
 
-Arbetsytan som du öppnar senast öppnas.
+1. Klicka på arbetsytan vars poster du vill redigera
 
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+   Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på ett posttypskort.
 
@@ -231,9 +231,9 @@ Arbetsytan som du öppnar senast öppnas.
 
 {{step1-to-planning}}
 
-Arbetsytan som du öppnar senast öppnas.
+1. Klicka på arbetsytan vars poster du vill redigera
 
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+   Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på ett posttypskort.
 

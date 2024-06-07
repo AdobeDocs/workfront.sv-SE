@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
@@ -102,9 +102,13 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
 {{step1-to-planning}}
 
-Arbetsytan som du öppnar senast öppnas.
+1. Klicka på arbetsytan vars poster du vill anpassa,
 
-1. (Valfritt) Klicka på nedåtpilen till höger om arbetsytans namn för att markera arbetsytan vars poster du vill uppdatera.
+   eller
+
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta från en arbetsyta och markera den arbetsyta vars poster du vill anpassa.
+
+   Arbetsytan öppnas och posttyperna visas.
 
 1. Klicka på ett posttypskort.
 

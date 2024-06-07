@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -158,7 +158,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill koppla poster från.
+1. Klicka på arbetsytan vars poster du vill ansluta
+
+   Arbetsytan öppnas och posttyperna visas som kort.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Välj en **Tabell** visa från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 1. (Valfritt) Lägg till poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
@@ -223,7 +225,9 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 {{step1-to-planning}}
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill koppla poster från.
+1. Klicka på arbetsytan vars poster du vill ansluta.
+
+   Arbetsytan öppnas och posttyperna visas som kort.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Välj en **Tabell** visa från **Visa** listruta.
 
@@ -306,7 +310,9 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
 
 {{step1-to-planning}}
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill koppla poster från.
+1. Klicka på arbetsytan vars poster du vill ansluta.
+
+   Arbetsytan öppnas och posttyperna visas.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Välj en **Tabell** visa från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
 

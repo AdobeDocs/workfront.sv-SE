@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta och markera den arbetsyta som du vill redigera posttyper för.
+1. Klicka på arbetsytan vars posttyper du vill redigera,
+
+   eller
+
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta från en arbetsyta och markera arbetsytan vars posttyper du vill redigera.
+
+   Arbetsytan öppnas och posttyperna visas.
 1. Håll muspekaren över ett kort av en posttyp och klicka på knappen **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**.
 
    ![](assets/more-menu-options-from-record-type-card.png)

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Tänk på följande:
 
 {{step1-to-planning}}
 
-1. Välj den arbetsyta vars poster du vill lägga till miniatyrbilder för och klicka sedan på posttypskortet.
+1. Klicka på arbetsytan för vars poster du vill lägga till miniatyrbilder och klicka sedan på posttypskortet.
 
    Då öppnas posttypssidan.
 1. Välj en tabellvy på menyn **Visa** listruta. Alla poster av den typ som du har markerat visas i en tabell.
@@ -145,7 +145,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -180,7 +180,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 

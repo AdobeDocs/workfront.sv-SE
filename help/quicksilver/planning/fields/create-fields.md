@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3287'
 ht-degree: 0%
 
 ---
@@ -117,9 +117,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-Den senast använda arbetsytan bör öppnas som standard.
+1. Klicka på arbetsytan vars poster du vill skapa fält för.
 
-1. (Valfritt) Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta, markera arbetsytan vars posttyper du vill skapa fält för och klicka sedan på posttypen.
+   Arbetsytan öppnas och posttyperna visas.
+
+1. Klicka på kortet för en posttyp.
 
    Alla befintliga poster som är associerade med posttypen visas i tabellvyns rader.
 
@@ -127,8 +129,11 @@ Den senast använda arbetsytan bör öppnas som standard.
    >
    >    Om inga poster visas kanske du inte har några poster än, eller så kanske du har ett filter som begränsar det som visas på skärmen.
 
-   Alla befintliga fält som är associerade med posttypen visas i kolumnerna i tabellvyn. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+   Alla befintliga fält som är associerade med posttypen visas i kolumnerna i tabellvyn.
 
+   >[!TIP]
+   >
+   >    Vissa fält kan vara dolda. Klicka på Fält och aktivera växlingen mellan de fält som du vill visa som kolumner i tabellvyn.
 
 1. Klicka på **+** i tabellvyns övre högra hörn för att lägga till nya fält.
 1. I **Nytt fält** flik, söka efter en fälttyp i **Fälttyp** eller välj någon av följande fälttyper:

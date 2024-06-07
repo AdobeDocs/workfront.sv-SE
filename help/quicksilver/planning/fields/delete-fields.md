@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -113,9 +113,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step1-to-planning}}
 
-Då öppnas den senast använda arbetsytan i Workfront Planning.
-1. Klicka på kortet för en posttyp vars fält du vill ta bort.
-1. (Villkorligt) Välj en **Tabellvy** från **Visa** nedrullningsbar meny i det övre högra hörnet på posttypssidan.
+1. Klicka på arbetsytan vars postfält du vill ta bort.
+
+   Arbetsytan öppnas och posttyperna visas.
+
+1. Klicka på kortet för en posttyp.
+
+1. (Villkorligt) Om det inte redan är markerat klickar du på fliken för en **Tabellvy** på posttypssidan.
+
+   Alla befintliga poster som är associerade med posttypen visas i tabellvyns rader.
+
 1. Leta reda på fältet som du vill ta bort i kolumnrubrikerna, håll markören över kolumnrubriken och klicka sedan på nedåtpilen efter fältnamnet.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

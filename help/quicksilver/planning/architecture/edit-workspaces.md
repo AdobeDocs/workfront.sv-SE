@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -90,6 +90,7 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 {{step1-to-planning}}
 
+1. Klicka på ett arbetsytekort för att öppna arbetsytan.
 1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på **Retur**.
 1. Klicka på **Mer** meny ![](assets/more-menu.png)till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Redigera**.
 
@@ -130,7 +131,7 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 1. (Valfritt) Håll muspekaren över ett posttypskort och klicka på **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Ta bort** om du vill ta bort en posttyp.
 
-   Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Valfritt) Tryck på ett posttypskort för att dra det och släppa det på en ny plats. Du kan dra och släppa posttyper från ett avsnitt på arbetsytan till ett annat.
 

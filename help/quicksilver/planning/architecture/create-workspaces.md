@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -111,19 +111,9 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
 {{step1-to-planning}}
 
-<!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Klicka **Skapa arbetsyta**
 
-1. (Villkorligt) Om du inte har några arbetsytor i din miljö klickar du på **Skapa arbetsyta**
-
-   Eller klicka på nedåtpilen till höger om arbetsytans namn från en befintlig arbetsyta och klicka sedan på **Skapa arbetsyta**.
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   Rutan Skapa arbetsyta visas. Du kan skapa en arbetsyta från grunden eller skapa den med någon av de tillgängliga mallarna.
 
 1. (Valfritt och villkorligt) Klicka på **Förhandsgranska** i någon av följande fördefinierade arbetsytemallar:
 
@@ -131,17 +121,19 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
    * Försäljningshantering
    * Produkthantering
 
+   Förhandsvisningsrutan för mallen öppnas.
+
    Det finns en indikation på vilka operativa posttyper, taxonomier och hur många fält som är associerade med varje mall.
 
    ![](assets/previewing-a-workspace-template.png)
 
    Mer information om mallar för arbetsytan i Workfront Planning finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Klicka **Använd mall** för att börja skapa arbetsytan från den valda mallen
+1. Klicka på **Använd mall** för att börja skapa arbetsytan från den valda mallen
 
    eller
 
-   Klicka **Skapa arbetsyta** för att skapa en arbetsyta från grunden.
+   Klicka **Bakåt** och sedan klicka **Skapa arbetsyta** för att skapa en arbetsyta från grunden.
 
    En av följande typer av arbetsytor skapas:
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: c593eab154a0942995b1f913e7189450913faac0
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -150,9 +150,13 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 {{step1-to-planning}}
 
 
-Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klicka på kortet för en arbetsyta.
 
-1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+   Arbetsytan öppnas och posttyperna visas som kort.
+
+1. Klicka på ett posttypskort.
+
+   Posttypssidan öppnas.
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
@@ -218,11 +222,13 @@ Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur d
 
 {{step1-to-planning}}
 
-Arbetsytan som du senast öppnade öppnas som standard. Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Klicka på kortet för en arbetsyta.
+
+   Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på ett posttypskort.
 
-   Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+   Posttypssidan öppnas.
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
@@ -247,13 +253,14 @@ Delningsbehörigheterna för den ursprungliga vyn överförs inte till den dupli
 
 {{step1-to-planning}}
 
-Arbetsytan som du senast öppnade öppnas som standard.
+1. Klicka på kortet för en arbetsyta.
 
-Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+   Arbetsytan öppnas och posttyperna visas som kort.
 
-1. Klicka på ett posttypskort. Mer information om hur du skapar en posttyp finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Klicka på ett posttypskort.
 
-   Som standard visas alla poster av den valda typen i tabellvyn.
+   Posttypssidan öppnas.
+Som standard visas alla poster av den valda typen i tabellvyn.
 
 1. Håll pekaren över fliken för den vy du vill duplicera och klicka på knappen **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Duplicera**.
 
