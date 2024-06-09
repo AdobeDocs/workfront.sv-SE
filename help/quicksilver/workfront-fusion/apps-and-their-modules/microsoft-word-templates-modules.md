@@ -105,14 +105,14 @@ A [!DNL Microsoft Word] mallen är en vanlig [!DNL Microsoft Word] -dokument (.d
 En enkel värdetagg ersätts med ett motsvarande värde. Taggens namn motsvarar [!UICONTROL Key] fältets värde, som placeras inom dubbla klammerparenteser, till exempel
 
 
-<pre>{{name}}</pre>
+<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
 
 
 .
 
 **Exempel:** Om du vill skapa ett dokument med texten &quot;Hi, Petr!&quot; kan du använda en [!DNL Microsoft Word Template] för att skapa följande mall:
 
-<pre>&gt; Hej {{name}}!</pre>
+<pre>&gt; Hej &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
 
 Om du vill göra det ställer du in modulen enligt följande:
 
@@ -123,7 +123,7 @@ Om du vill göra det ställer du in modulen enligt följande:
 Du kan använda ett villkorsmärkord för att figursätta text som bara ska återges när vissa villkor uppfylls. Om du vill radbryta texten placerar du den mellan inledande och avslutande villkorstaggar, till exempel &quot;hasPhone&quot;, om villkoret är huruvida data innehåller ett telefonnummer eller inte. Namnet på en öppningstagg föregås av hash-tecknet #. Namnet på en avslutande tagg föregås av ett snedstreck /, vilket visas i exemplet nedan.
 
 **Exempel:** Om du vill skapa ett dokument som innehåller kundens telefonnummer om indata innehåller ett telefonnummer, men ingen e-postadress, kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
-<pre>&gt; {{#hasPhone}} Telefon: {{phone}} {{/hasPhone}}</pre><pre>&gt; {{#hasEmail}} E-post: {{email}} {{/hasEmail}}</pre>Om du vill göra det ställer du in modulen enligt följande:
+<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace; Telefon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace; E-post: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Om du vill göra det ställer du in modulen enligt följande:
 
 ![](assets/word-template-conditional-350x501.png)
 
@@ -141,7 +141,7 @@ Du kan använda en loop-tagg, som också kallas avsnittstagg, för att upprepa e
 
 **Exempel:** Om du vill skapa ett dokument med namn och telefonnummer för varje kontakt i en kundlista kan du använda en [!DNL Microsoft Word Template] och skapa följande mall:
 
-<pre>&gt; {{#contact}}</pre><pre>&gt;     {{name}}, {{phone}}</pre><pre>&gt; {{/contact}}</pre>
+<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
 
 Om du vill göra det ställer du in modulen enligt följande:
 
