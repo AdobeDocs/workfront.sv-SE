@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 4e6f4523cd0b52458f8dc445d2b7784126f32a23
+source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 0%
@@ -24,7 +24,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Miljökampanjer kommer att finnas i sandlåda, förhandsgranskning och produktionsmiljöer med version 24.6 (20 juni 2024).
+>Miljökampanjer kommer att finnas i sandlåda, förhandsgranskning och produktionsmiljöer med version 24.6 (13 juni 2024).
 
 Med miljöfrämjande funktioner kan du flytta objekt från en Workfront-miljö till en annan, till exempel från en sandlådemiljö till en produktionsmiljö. Du kan konfigurera och testa objekt utan risk för organisationens data och poster. Du kan sedan flytta dessa objekt till produktion utan att behöva konfigurera om dem, vilket sparar tid och arbete.
 
