@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: c219fb78fec086cdf5cad70da3f86873c5e6fe31
+source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -17,8 +17,6 @@ ht-degree: 0%
 Den här sidan beskriver förbättringar som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
-
-REDAN MESSAGED - NOLAN KAN IGNORERA
 
 ## Adobe Unified Experience finns nu för fler Workfront-organisationer
 
@@ -47,7 +45,7 @@ Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicks
 
 >[!NOTE]
 >
->Förhandsversion: 6 juni 2024; Produktion för snabb release: Med version 24.6 (13 juni 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 6 juni 2024; Produktion för alla kunder: Med version 24.7 (juli 2024)
 
 Hjälpknappen i huvudnavigeringsfältet har tagits bort för att ge en enhetlig upplevelse för användare som inte använder det enhetliga gränssnittet. Den här knappen, som inte finns för användare i Unified Shell, är länkad till Workfront-dokumentationen och överflödig med en liknande hjälpknapp tillgänglig för alla användare på huvudmenyn.
 
