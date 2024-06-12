@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2093'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande:
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
-   <td> Organisationen måste följa den nya prismodellen och ha en Prime- eller Ultimate-plan.
+   <td> Prime eller Ultimate (endast nya planer)
    </td>
   </tr>
   <tr>
