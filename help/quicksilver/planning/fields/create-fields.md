@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -382,9 +382,9 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
 
    >[!NOTE]
    >
-   > Du kan inte lägga till flervalsfält i en formel.
-
-
+   >* Du kan inte lägga till flervalsfält i en formel.
+   >
+   >* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp och aktiviteten är kopplad till produktposttypen som är kopplad till kampanjposttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i formeln som du skapar för aktivitetsposttypen.
 
 1. Klicka **Skapa**.
 

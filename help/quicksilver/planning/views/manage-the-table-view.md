@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2619'
 ht-degree: 0%
 
 ---
@@ -264,6 +264,8 @@ Tänk på följande när du arbetar med filter i tabellvyn:
 
 * Du kan filtrera efter anslutna postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
 
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar ett filter för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i filtret som du skapar för aktivitetsposttypen.
+
 Så här lägger du till ett filter i en tabellvy:
 
 1. Skapa en tabellvy för en posttypsida, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
@@ -373,6 +375,7 @@ Tänk på följande:
 * Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
 * Du kan redigera poster som listas under en gruppering.
 * Du kan gruppera efter kopplade postfält eller sökfält, men inte för de fält som tillåter länkning till flera poster.
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en gruppering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i den gruppering som du skapar för aktivitetsposttypen.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -428,6 +431,8 @@ Tänk på följande när du sorterar poster i tabellvyn:
 * När du tar bort sorteringsvillkor tas de bort från alla som använder samma posttyp som du och samma vy som du använder.
 
 * Du kan sortera efter kopplade postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
+
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en sortering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i den sortering som du skapar för aktivitetsposttypen.
 
 Sortera <!--ungrouped (add this when sorting for groupings will be available--> poster, gör följande:
 
