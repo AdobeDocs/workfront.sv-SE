@@ -8,20 +8,18 @@ description: Funktionen för miljömarknadsföring är avsedd att göra det möj
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 29e2e89d15804d6d4a5e7b0080ab91b98cf7ea2d
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1001'
 ht-degree: 0%
 
 ---
 
 # Översikt över rörliga objekt mellan Workfront-miljöer (miljöfrämjande)
 
-Miljöskyddsfunktionen är avsedd att göra det möjligt att flytta objekt från en Workfront-miljö till en annan. Du kan t.ex. skapa en mall och konfigurera den i sandlådemiljön, i vetskap om att alla tester du gör inte kommer att påverka organisationens faktiska data. När mallen har konfigurerats och testats kan du flytta den till produktionsmiljön, klar att använda.
+Med funktionen för miljöfrämjande åtgärder kan du flytta objekt från en Workfront-miljö till en annan. Du kan t.ex. skapa en mall och konfigurera den i sandlådemiljön, i vetskap om att alla tester du gör inte kommer att påverka organisationens faktiska data. När mallen har konfigurerats och testats kan du flytta den till produktionsmiljön, klar att använda.
 
 Denna process kallas för&quot;miljöfrämjande&quot;.
 

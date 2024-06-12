@@ -8,13 +8,11 @@ description: Funktionen för att främja miljön är avsedd att göra det möjli
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e03573640fd8af9c811cef4cf176cc4f37d757fc
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -26,6 +24,33 @@ Du måste skapa ett paket i miljön som du vill kopiera objekt till **från**. O
 >[!IMPORTANT]
 >
 >Om din anpassade uppdateringssandlåda uppdateras medan du konfigurerar objekt för miljöbefordran, kommer den konfigurationen att förloras vid uppdateringen. Vi rekommenderar att du inte uppdaterar din anpassade uppdateringssandlåda om inte alla utestående miljöbefordringsobjekt och -paket har befordrats.
+
+## Åtkomstkrav
+
+Du måste ha följande:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Organisationen måste följa den nya prismodellen och ha en Prime- eller Ultimate-plan.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td>Du måste vara en [!DNL Workfront] administratör.
+   </td>
+  </tr>
+</table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa ett paket
 

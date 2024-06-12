@@ -8,20 +8,18 @@ description: Funktionen för miljömarknadsföring är avsedd att göra det möj
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: b010a5126a9c7f49128c11b57e5d7b15260e691c
+source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '2103'
 ht-degree: 0%
 
 ---
 
 # Flytta objekt mellan [!DNL Workfront] miljöer som använder [!DNL Workfront] API för miljöerbjudande
 
-Funktionen för miljömarknadsföring är avsedd att göra det möjligt att flytta konfigurationsrelaterade objekt från en miljö till en annan. Du kan flytta dessa objekt med Workfront API enligt beskrivningen i den här artikeln.
+Med funktionen för miljöfrämjande åtgärder kan du flytta konfigurationsrelaterade objekt från en miljö till en annan. Du kan flytta dessa objekt med Workfront API enligt beskrivningen i den här artikeln.
 
 Instruktioner om hur du flyttar objekt mellan miljöer med Workfront finns i:
 
@@ -29,7 +27,32 @@ Instruktioner om hur du flyttar objekt mellan miljöer med Workfront finns i:
 * [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Åtkomstkrav
+
+Du måste ha följande:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Organisationen måste följa den nya prismodellen och ha en Prime- eller Ultimate-plan.
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Konfigurationer på åtkomstnivå
+   </td>
+   <td>Du måste vara en [!DNL Workfront] administratör.
+   </td>
+  </tr>
+</table>
+
+Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
