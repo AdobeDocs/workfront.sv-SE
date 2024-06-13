@@ -6,16 +6,20 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Uppdatera villkor för aktiviteter och ärenden
 
-{{highlighted-preview}}
+<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Villkoret för en aktivitet eller ett problem är en flagga som anger hur den ska gå. Detta skiljer sig från arbetsobjektets status, som anger det aktuella utvecklingssteget för objektet.
 
@@ -136,7 +140,7 @@ Gör något av följande om du vill uppdatera villkoret för en uppgift eller et
 
 1. Så här uppdaterar du villkoret för en aktivitet eller ett problem i avsnittet med information om aktiviteten eller problemet:
 
-   1. (Villkorligt) Om Workfront- eller gruppadministratören har lagt till fältet Villkor i avsnittet Detaljer för en uppgift eller ett problem i layoutmallen klickar du på **Information** i den vänstra panelen klickar du på **Villkor** och välj bland följande alternativ:
+   1. (Villkorligt) Om Workfront- eller gruppadministratören har lagt till fältet Villkor i avsnittet Detaljer för en uppgift eller ett problem i layoutmallen klickar du på **Information** i den vänstra panelen och klickar sedan på **Aktivitetsvillkor** eller **Utgivningsvillkor** och välj bland följande alternativ:
       * Går smidigt
       * Vissa bekymmer
       * Större vägspärrar

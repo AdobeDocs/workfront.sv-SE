@@ -7,7 +7,7 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 6e6115829412b537f6a196a564088c3b6d1d6e8a
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 0%
@@ -69,11 +69,11 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * Uppdragsfältet för ett objekt som visas i hemområdet när du öppnar en uppgift eller ett ärende
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
 
 * Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Kriterier för smarta tilldelningar
@@ -132,7 +132,7 @@ Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Wo
 
 Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
-Uppdrag som identifieras i den här fasen listas i   **Andra uppdrag** (eller Användare och team eller jobbrolltilldelningar) i uppdragsfältet för uppgifter.
+Uppdrag som identifieras i den här fasen listas i   **Andra uppdrag**, **Användare och team**, eller **Jobbrolltilldelningar**  -avsnitt i uppdragsfältet för uppgifter.
 
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 
@@ -142,7 +142,7 @@ Uppdrag som identifieras i den här fasen listas i   **Andra uppdrag** (eller An
 >
 ><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för uppgifter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
 
-![](assets/smart-assignments-issue-header.png)
+<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 
 Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombination av följande kriterier (listas i ordning från viktigaste till minst viktiga):
 

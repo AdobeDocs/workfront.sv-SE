@@ -6,9 +6,9 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 4d76ef1b34d484e3da2af94543a5fd660ad0a4ef
+source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -75,22 +75,29 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
 
 1. Placera markören i uppdragsfältet och vänta i två sekunder.
 
-   <span class="preview">The **Föreslagna uppdrag** visas.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   <div class="preview">
+   Ett eller flera av följande avsnitt med förslag på smarta uppdrag visas:
 
-   >[!TIP]
-   >
-   >   Listrubriken visas **Här är några rekommendationer** i stället för **Föreslagna uppdrag** i en utgivningslista.
+   * **Föreslagna tilldelningar**: Visar för uppgifter.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     >[!TIP]
+     >
+     >   Listrubriken visas **Här är några rekommendationer** i stället för **Föreslagna tilldelningar** i produktionsmiljön.
+     >
+   * **Andra uppdrag**: Visar uppgifter och problem.
+   * **Användare och team**: Visar uppgifter och problem.
+   * **Jobbroller**: Visar för uppgifter och problem.
+   </div>
 
-   Förslag på smarta uppdrag visas i **Föreslagna tilldelningar** område.
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
 
    För uppgifter visas de smarta tilldelningarna i följande avsnitt, beroende på vilken fas av algoritmens beräkning som identifierar tilldelningarna:
 
    * **Föreslagna tilldelningar**: Tilldelningar som identifieras i den första fasen i den smarta uppgiftens algoritmberäkning. <span class="preview">Det här avsnittet är inte tillgängligt för problem.</span>
-   * <span class="preview">**Andra uppdrag** (eller **Användare och team**, eller **Jobbroller**): Tilldelningar som identifieras i den andra fasen av den smarta uppgiftens algoritmberäkning. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Andra uppdrag**, **Användare och team**, eller **Jobbroller**: Tilldelningar som identifieras i den andra fasen av den smarta uppgiftens algoritmberäkning. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
