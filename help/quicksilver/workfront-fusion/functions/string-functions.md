@@ -8,7 +8,7 @@ description: Följande strängfunktioner är tillgängliga på panelen för mapp
 author: Becky
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 33f2a721aa6bc246b27e5f45107619346512318f
+source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 0%
@@ -56,121 +56,6 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL ascii (text; [remove diacritics])]
-
-Tar bort alla icke-ASCII-tecken från en textsträng.
-
->[!INFO]
->
->**Exempel:**
->
->* `ascii(` `Wěošrčkřfžrýoáníté` `)`
->
->   Returnerar: [!DNL Workfront]
->
->* `ascii(` `ěščřž` `;` `true` `)`
->
->   Returnerar: [!UICONTROL escrz]
-
-## [!UICONTROL base64 (text)]
-
-Omformar text till base64.
-
->[!INFO]
->
->**Exempel:**
->
->`base64( workfront )`
->
->Returnerar: d29ya2Zyb250===
-
-## [!UICONTROL capitalize (text)]
-
-Konverterar det första tecknet i en textsträng till versaler.
-
->[!INFO]
->
->**Exempel:**
->
->`capitalize( workfront )`
->
->Returnerar: [!DNL Workfront]
-
-## contains (text; söksträng)
-
-Verifierar om texten innehåller söksträngen.
-
->[!INFO]
->
->**Exempel:**
->
->* `contains( Hello World ; Hello )`
->
->   Returnerar: [!UICONTROL true]
->
->* `contains( Hello World ; Bye )`
->
->   Returnerar: [!UICONTROL false]
-
-## [!UICONTROL decodeURL (text)]
-
-Avkodar specialtecken i en URL till text.
-
->[!INFO]
->
->**Exempel:**
->`decodeURL( Automate%20your%20workflow )`
->
->Returnerar: [!UICONTROL Automate your workflow]
-
-## [!UICONTROL encodeURL (text)]
-
-Kodar specialtecken i text till en giltig URL-adress.
-
-## [!UICONTROL escapeHTML (text)]
-
-Ignorerar alla HTML-taggar i text.
-
->[!INFO]
->
->**Exempel:**
->
->`escapeHTML( <b>Hello</b> )`
->
-> Returnerar: `&lt;b&gt;Hello&lt;/b&gt;`
-
-## [!UICONTROL escapeMarkdown(text)]
-
-Ignorerar alla markeringstaggar i text.
-
->[!INFO]
->
->**Exempel:**
->
->`escapeMarkdown( # Header )`
->
->Returnerar: `&#35; Header`
-
-## [!DNL indexOf (string; value; [start])]
-
-Returnerar positionen för den första förekomsten av ett angivet värde i en sträng. Den här metoden returnerar &#39;-1&#39; om det värde som söks efter inte finns där. Startvärdet anger var i strängen sökningen ska börja.
-
->[!INFO]
->
->**Exempel:**
->
->* `indexOf( Workfront ; o )`
->
->   Returnerar: 1
->
->* `indexOf( Workfront ; x )`
->
->   Returnerar: -1
->
->* `indexOf( Workfront ; o ; 3 )`
->
->   Returer: 6
-
 ## [!UICONTROL length (text or buffer)]
 
 Returnerar längden på textsträngen (antal tecken) eller binär buffert (buffertstorlek i byte).
@@ -195,17 +80,46 @@ Konverterar alla alfabetiska tecken i en textsträng till gemener.
 >
 >Returnerar: hej
 
-## [!UICONTROL md5 (text)]
+## [!UICONTROL capitalize (text)]
 
-Beräknar md5-hash för en sträng.
+Konverterar det första tecknet i en textsträng till versaler.
 
 >[!INFO]
 >
 >**Exempel:**
 >
->`md5( Workfront )`
+>`capitalize( workfront )`
 >
->Returnerar: `1448bbbeaa7a9b8091d426999f1f666b`
+>Returnerar: [!DNL Workfront]
+
+## [!UICONTROL startcase (text)]
+
+Ändrar den första bokstaven i varje ord till versaler och gemener i alla andra bokstäver.
+
+>[!INFO]
+>
+>**Exempel:**
+>`startcase( hello WORLD )`
+>
+>Returnerar: [!UICONTROL Hello World]
+
+## [!UICONTROL ascii (text; [remove diacritics])]
+
+Tar bort alla icke-ASCII-tecken från en textsträng.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `ascii(` `Wěošrčkřfžrýoáníté` `)`
+>
+>   Returnerar: [!DNL Workfront]
+>
+>* `ascii(` `ěščřž` `;` `true` `)`
+>
+>   Returnerar: [!UICONTROL escrz]
+
+
 
 ## [!UICONTROL replace (text;search string; replacement string)]
 
@@ -251,6 +165,169 @@ Ersättningssträngen kan innehålla följande speciella ersättningsmönster:
 >Använd inte namngivna hämtningsgrupper som `/ is (?<number>\d+)/` i ersättningssträngsargumentet. Om du gör det uppstår ett fel.
 
 Mer information om reguljära uttryck finns i [Textparser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL trim (text)]
+
+Tar bort blankstegstecken i början eller slutet av texten.
+
+## [!UICONTROL upper (text)]
+
+Konverterar alla bokstäver i en textsträng till versaler.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`upper( Hello )`
+>
+>Returnerar: [!UICONTROL HELLO]
+
+## [!UICONTROL substring (text; start;end)]
+
+Returnerar en del av en textsträng mellan start- och slutpositionen.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Returnerar: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Returnerar: el
+
+## [!DNL indexOf (string; value; [start])]
+
+Returnerar positionen för den första förekomsten av ett angivet värde i en sträng. Den här metoden returnerar &#39;-1&#39; om det värde som söks efter inte finns där. Startvärdet anger var i strängen sökningen ska börja.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `indexOf( Workfront ; o )`
+>
+>   Returnerar: 1
+>
+>* `indexOf( Workfront ; x )`
+>
+>   Returnerar: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   Returer: 6
+
+## [!UICONTROL toBinary (value)]
+
+Konverterar alla värden till binära data.
+
+Du kan också ange kodning som ett andra argument för att tillämpa binära konverteringar från hex eller base64 på binära data.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `toBinary( Workfront )`
+>
+>   Returnerar: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Returnerar: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (value)]
+
+Konverterar alla värden till en sträng.
+
+## [!UICONTROL encodeURL (text)]
+
+Kodar specialtecken i text till en giltig URL-adress.
+
+## [!UICONTROL decodeURL (text)]
+
+Avkodar specialtecken i en URL till text.
+
+>[!INFO]
+>
+>**Exempel:**
+>`decodeURL( Automate%20your%20workflow )`
+>
+>Returnerar: [!UICONTROL Automate your workflow]
+
+## [!UICONTROL escapeHTML (text)]
+
+Ignorerar alla HTML-taggar i text.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`escapeHTML( <b>Hello</b> )`
+>
+> Returnerar: `&lt;b&gt;Hello&lt;/b&gt;`
+
+## [!UICONTROL escapeMarkdown(text)]
+
+Ignorerar alla markeringstaggar i text.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`escapeMarkdown( # Header )`
+>
+>Returnerar: `&#35; Header`
+
+## [!UICONTROL stripHTML (text)]
+
+Tar bort alla HTML-taggar från text.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Returnerar: Hej
+
+## contains (text; söksträng)
+
+Verifierar om texten innehåller söksträngen.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>* `contains( Hello World ; Hello )`
+>
+>   Returnerar: [!UICONTROL true]
+>
+>* `contains( Hello World ; Bye )`
+>
+>   Returnerar: [!UICONTROL false]
+
+## [!UICONTROL split (text; separator)]
+
+Delar en sträng i en array med strängar genom att dela strängen i delsträngar.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL md5 (text)]
+
+Beräknar md5-hash för en sträng.
+
+>[!INFO]
+>
+>**Exempel:**
+>
+>`md5( Workfront )`
+>
+>Returnerar: `1448bbbeaa7a9b8091d426999f1f666b`
 
 ## [!UICONTROL sha1 (text; [encoding]; [key])]
 
@@ -302,89 +379,14 @@ Vid användning av[!UICONTROL binary]&quot;nyckelkodning, en nyckel måste vara 
 >
 >Returnerar: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119 b85e1e19db58bb44b234493af35fd431639c0345adf2cf7ec26e9f4a7fb19
 
-## [!UICONTROL split (text; separator)]
+## [!UICONTROL base64 (text)]
 
-Delar en sträng i en array med strängar genom att dela strängen i delsträngar.
-
->[!INFO]
->
->**Exempel:**
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase (text)]
-
-Ändrar den första bokstaven i varje ord till versaler och gemener i alla andra bokstäver.
-
->[!INFO]
->
->**Exempel:**
->`startcase( hello WORLD )`
->
->Returnerar: [!UICONTROL Hello World]
-
-## [!UICONTROL stripHTML (text)]
-
-Tar bort alla HTML-taggar från text.
+Omformar text till base64.
 
 >[!INFO]
 >
 >**Exempel:**
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->Returnerar: Hej
-
-## [!UICONTROL substring (text; start;end)]
-
-Returnerar en del av en textsträng mellan start- och slutpositionen.
-
->[!INFO]
->
->**Exempel:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   Returnerar: Hel
->
->* `substring( Hello ; 1 ; 3 )`
->
->   Returnerar: el
-
-## [!UICONTROL toBinary (value)]
-
-Konverterar alla värden till binära data.
-
-Du kan också ange kodning som ett andra argument för att tillämpa binära konverteringar från hex eller base64 på binära data.
-
->[!INFO]
->
->**Exempel:**
->
->* `toBinary( Workfront )`
->
->   Returnerar: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   Returnerar: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (value)]
-
-Konverterar alla värden till en sträng.
-
-## [!UICONTROL trim (text)]
-
-Tar bort blankstegstecken i början eller slutet av texten.
-
-## [!UICONTROL upper (text)]
-
-Konverterar alla bokstäver i en textsträng till versaler.
-
->[!INFO]
->
->**Exempel:**
->
->`upper( Hello )`
->
->Returnerar: [!UICONTROL HELLO]
+>Returnerar: d29ya2Zyb250===
