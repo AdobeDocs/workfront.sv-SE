@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ca7d1276c179ceb5517881d064e431658ea63793
+source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14351'
 ht-degree: 0%
 
 ---
@@ -2744,6 +2744,7 @@ ht-degree: 0%
       * [Alternativkonfiguration för OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
       * [Hämta valutainformation för ett projekt när valutan är null (inte tilldelad)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
       * [API:t för att lägga till en länkad mapp stöds inte](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+      * [Åtgärden moveToFolder för dokumentet fungerar inte](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
    * [ProofHQ API](proofhq-api/proofhq-api.md)
    * Allmänt {#general}
