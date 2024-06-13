@@ -7,7 +7,7 @@ description: När du lägger till ett nytt anpassat fält eller en ny widget i e
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: d80eb802baa6f03ca6e65e542f16b23e9d42444a
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Konfigurera delning för anpassade fält och widgetar med formulärdesignern
-
-{{highlighted-preview-article-level}}
 
 När du lägger till ett nytt anpassat fält eller en ny widget i ett anpassat formulär kan alla i systemet som har tillgång till anpassade formulär redigera egenskaperna för det objektet, till exempel dess etikett och namn. Du kan ändra detta genom att styra vem det kan delas med.
 

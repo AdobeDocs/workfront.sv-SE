@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6ddbe56dd187d62489c41ff721d0f071202e54e4
+source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Dela ett eget formulär
-
-{{highlighted-preview}}
 
 Du kan konfigurera åtkomst för ett anpassat formulär för att styra vem - person, roll, grupp, team, företag - som kan visa, dela och redigera det.
 
@@ -109,8 +107,6 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
 
 1. Klicka **Spara**.
 
-<div class="preview">
-
 ## Dela ett anpassat formulär från formulärdesignern
 
 {{step-1-to-setup}}
@@ -160,8 +156,6 @@ I stället för att lämna ett anpassat formulär i standarddelningsläget (besk
    >Om du är orolig för ett anpassat formulär där användarna kan ange känsliga data när de är kopplade till vissa objekt, begränsar du delning för dessa *objekt* kan vara bättre än att begränsa åtkomsten till själva formuläret.
 
 1. Klicka **Spara**.
-
-</div>
 
 ## Ta bort åtkomst till ett anpassat formulär från listan med formulär
 
