@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: 6f5da5ede6bb8c98b26d7d37366670c89ded6c49
+source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,15 @@ Mer information om status finns i [Status för miljöerbjudande](/help/quicksilv
 
 ## Konflikter
 
-Konflikter inträffar när ett objekt som ingår i installationspaketet har samma namn som ett objekt som redan finns i målmiljön. När detta inträffar kan du välja hur kollisionen ska lösas. Konflikter löses på objektnivå.
+En kollision är ett objekt som finns i målmiljön för en installation som matchar ett av objekten som installeras från källmiljön. Konflikter upptäcks genom att källobjektens namn och ID jämförs med objekten i målmiljön. Konflikter upptäcks också genom att källobjekt jämförs med poster för tidigare installerade objekt.
+
+När en kollision inträffar kan du välja hur kollisionen ska lösas. Konflikter löses på objektnivå.
 
 Du kan visa kollisioner genom att klicka på listrutan bredvid varje objekttyp. Konflikter visas i kolumnen Konflikter.
+
+>[!NOTE]
+>
+>Upptäckta kollisioner kanske inte är de objekt som du vill åsidosätta eller använda i installationen. Vi rekommenderar att du verifierar identifierade konflikter för att säkerställa att installationsmålen är korrekta.
 
 Om du vill lösa en konflikt väljer du en åtgärd i kolumnen Distributionsåtgärd eller använder den standardåtgärd som redan visas.
 
