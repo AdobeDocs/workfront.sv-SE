@@ -7,9 +7,9 @@ description: Workfront Fusion har uppdaterat användargränssnittet för använd
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 2a33e997113e098d0e019c2437795ac481748fc9
+source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,8 @@ Workfront Fusion har uppdaterats för användare som inte har tillgång till Fus
 
 >[!IMPORTANT]
 >
->Den gamla Fusion-upplevelsen kommer att bli inaktuell den 15 augusti 2024.
+>* Den gamla Fusion-upplevelsen kommer att bli inaktuell den 15 augusti 2024.
+>* När du läser in för första gången kan den nya Fusion-upplevelsen läsas in långsamt (30-60 sekunder). Efter första gången laddas Fusion snabbare.
 
 ## Åtkomstkrav
 
