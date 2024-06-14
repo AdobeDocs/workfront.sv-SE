@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -28,15 +28,20 @@ Med miljöfrämjande funktioner kan du flytta objekt från en Workfront-miljö t
 
 Tidigare behövde objekt konfigureras i produktionsmiljöer separat från sandlådemiljöer och förhandsvisningsmiljöer.
 
-Mer information och instruktioner om miljökampanjer kommer att finnas tillgängliga när miljökampanjen publiceras med version 24.6.
+Mer information om miljömarknadsföring finns i [Översikt över rörliga objekt mellan Workfront-miljöer (miljöfrämjande)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
+>[!IMPORTANT]
+>
+>Miljökampanjer är bara tillgängliga för organisationer med nya Prime- eller Ultimate-planer.
+>
 
 ## Dela anpassade formulär och anpassade fält i den anpassade formulärdesignern
 
 >[!NOTE]
 >
->Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: TBD
+>Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: 13 juni
 
 Nu kan du dela både anpassade formulär och anpassade fält i den nya formulärdesignern. Detta möjliggör bättre samarbete mellan användare i anpassade formulär.
 

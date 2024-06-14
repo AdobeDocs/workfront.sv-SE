@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 742de02474455f3518fb9d3422fe38dde59a076e
+source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan innehåller information om funktioner som ingår i utgåvan för tredje kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före tredje kvarteret 2024) markeras med gult.</span>
 
@@ -59,6 +59,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Flytta objekt mellan Workfront-miljöer med miljöfrämjande åtgärder</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Med miljöfrämjande funktioner kan du flytta objekt från en Workfront-miljö till en annan, till exempel från en sandlådemiljö till en produktionsmiljö. Du kan konfigurera och testa objekt utan risk för organisationens data och poster. Du kan sedan flytta dessa objekt till produktion utan att behöva konfigurera om dem, vilket sparar tid och arbete.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -72,7 +73,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Dela anpassade formulär och anpassade fält i den anpassade formulärdesignern</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>Nu kan du dela både anpassade formulär och anpassade fält i den nya formulärdesignern. Detta möjliggör bättre samarbete mellan användare i anpassade formulär.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -81,7 +82,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: TBD</p>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 13 juni</span></p>
                             </li>
                         </ul>
                     </td>
@@ -89,7 +90,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Lägg till ett nytt anpassat fält från området Fält</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet. På så sätt kan du snabbt skapa återanvändbara anpassade fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -142,7 +142,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Fakturerbara och ej fakturerbara utgiftsfält tillgängliga för projekt och uppgifter</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>För att du enklare ska kunna visa utgiftstyper har utgifterna delats upp i fakturerbara och icke-fakturerbara utgifter för projekt och uppgifter. Följande fält är tillgängliga för att du ska kunna lägga till i vyer och rapporter:</p>
                         <ul>
                             <li><p>Planerad fakturerbar utgift</p></li>
@@ -184,7 +184,8 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigera aktiviteten och utfärda datum och villkor för implementering från huvud- eller detaljavsnittet</a></p>
-                        <p>För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen.   </p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
+                        <p>För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -262,7 +263,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tidsgränsen återspeglas nu i arbetsbelastningsutjämnaren</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>För att smidigt justera arbete när den primära tilldelaren för en aktivitet har en schemalagd tid inaktiverad, omfördelar nu arbetsbelastningsutjämnaren timmar till både den primära och den sekundära användaren när projekttidslinjen beräknas om.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -298,7 +298,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience finns nu för fler Workfront-organisationer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -316,7 +315,6 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hjälpknappen har tagits bort från huvudnavigeringsfältet</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
                         <p>Hjälpknappen i huvudnavigeringsfältet har tagits bort för att ge en enhetlig upplevelse för användare som inte använder det enhetliga gränssnittet. Den här knappen, som inte finns för användare i Unified Shell, är länkad till Workfront-dokumentationen och överflödig med en liknande hjälpknapp tillgänglig för alla användare på huvudmenyn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -333,7 +331,7 @@ Den här sidan innehåller information om funktioner som ingår i utgåvan för 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrat användargränssnitt för användare med begränsad objektåtkomst</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>När en användare inte har åtkomst till ett objekt visas"Ingen åtkomst" var som helst där objektnamnet visas i Workfront. Den här förbättrade upplevelsen gäller även Workfront API.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
