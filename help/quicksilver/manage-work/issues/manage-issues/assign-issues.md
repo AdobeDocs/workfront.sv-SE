@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
+
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
@@ -130,7 +132,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
      <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
      <span class="preview">![Uppdragssökning](assets/smart-assignments-issue-header.png)</span>
 
-   * (Villkorligt) Klicka på ett av namnen i dialogrutan **Föreslagna uppdrag** list
+   * (Villkorligt) Klicka på ett av namnen, rollerna eller teamen i de tillgängliga listorna
    * Klicka **Tilldela mig** tilldela den till dig själv
    * Klicka **Avancerat**.
 
@@ -143,6 +145,10 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
      >Användarna måste vara associerade med minst en jobbroll för att kunna visa den när du lägger till dem.
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >
+
+     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. Klicka **Spara** för att slutföra tilldelningen av problemet.

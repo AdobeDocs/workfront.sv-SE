@@ -7,14 +7,16 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
 
 # Översikt över smarta uppdrag
+
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
@@ -122,7 +124,7 @@ Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas 
 
   Om Rick till exempel tilldelades en liknande uppgift tidigare i dag och Jennifer tilldelades en liknande uppgift för två dagar sedan visas Rick först.
 
-* Uppdrag som identifieras i den här fasen listas i    **Föreslagna tilldelningar**  i uppdragsfältet.
+* Uppdrag som identifieras i den här fasen listas i    **Föreslagna tilldelningar**  i uppdragsfältet för uppgifter.
 
 * Om det inte finns några matchningar som använder den här beräkningen startar den andra fasen av smarta tilldelningar, som beräknas med en annan algoritm.
 
@@ -132,7 +134,7 @@ Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Wo
 
 Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
-Uppdrag som identifieras i den här fasen listas i   **Andra uppdrag**, **Användare och team**, eller **Jobbrolltilldelningar**  -avsnitt i uppdragsfältet för uppgifter.
+Uppdrag som identifieras i den här fasen listas i **Användare och team**, **Jobbrolltilldelningar** och **Klassificera kortroller**  i uppdragsfältet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 

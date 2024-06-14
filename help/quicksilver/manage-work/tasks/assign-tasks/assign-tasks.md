@@ -7,14 +7,16 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
 workflow-type: tm+mt
-source-wordcount: '2021'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
 
 # Tilldela uppgifter
+
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
@@ -51,6 +53,8 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
 * [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <!--drafted for P&P - replace table below with this:
 
@@ -112,6 +116,8 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 </table>
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Överväganden för flera tilldelningar till jobbroller, team och användare
 
@@ -191,10 +197,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en roll i listan Jobbroller om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Villkorligt) Klicka på ett av namnen i dialogrutan **Föreslagna tilldelningar** om listan visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Villkorligt) Klicka på ett av namnen i dialogrutan <span class="preview">**Föreslagna tilldelningar**, **Användare och team**, eller **Jobbroller**, eller **Klassificera kortroller**</span> listor när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+     Du kan börja skriva namnet på en användare, ett team eller en jobbroll som ska tilldelas uppgiften och sedan markera den när den visas i listan.
 
    * Klicka **Avancerat**
 

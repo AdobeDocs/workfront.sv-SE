@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
 workflow-type: tm+mt
-source-wordcount: '2249'
+source-wordcount: '2268'
 ht-degree: 0%
 
 ---
@@ -212,6 +212,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * **Beskrivning**: Ytterligare information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Tillåt flera poster**: Välj det här alternativet för att ange att du tillåter att användare kan lägga till flera poster när fältet för länkad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
    * **Välj sökfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på den post som du vill använda. Detta är markerat som standard.
+
+     >[!TIP]
+     >
+     > Du kan inte lägga till följande fälttyper som sökfält:
+     >
+     >    * Folk
+     >    * Skapad av
+     >    * Senast ändrad av
+     >    * Workfront typsnittsfält
 
 1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast objekt som uppfyller dessa villkor** -avsnitt. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
