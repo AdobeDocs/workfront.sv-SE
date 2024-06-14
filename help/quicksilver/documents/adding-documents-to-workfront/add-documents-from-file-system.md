@@ -6,9 +6,9 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 873745b7a7e7902a3617a577b3ed0414f987a4ce
+source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '766'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Det finns inga begränsningar för vilka filtyper och filstorlekar du kan överf
 Om du behöver information om hur du överför nya versioner av ett dokument till Workfront går du till [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -50,15 +52,19 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Lägga till dokument i Workfront
 
 Du kan lägga till nya dokument i Workfront från filsystemet på din arbetsstation. Du kan även länka dokument från tredjepartsprogram som Google Drive och SharePoint.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Även om det inte finns någon storleksgräns för dokumentöverföringar är dokumenthämtningar begränsade till 4 GB.
+>* Du kan överföra upp till 150 dokument samtidigt.
+>* Det finns ingen gräns för filstorleken.
+>* Nedladdningen av dokument är begränsad till 4 GB.
 
 Så här lägger du till ett dokument:
 
