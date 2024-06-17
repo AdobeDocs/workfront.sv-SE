@@ -7,9 +7,9 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: aec61210cf2c17775738db4975ae8d19223153cc
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,8 @@ Du kan lägga till ett befintligt anpassat formulär till något av objekten som
 Du kan bara lägga till ett anpassat formulär till de typer av objekt som formuläret skapades för.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskrivs i den här artikeln:
 
@@ -68,6 +70,8 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

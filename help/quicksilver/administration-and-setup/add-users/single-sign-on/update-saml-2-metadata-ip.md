@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: 96f1d50024605328713ca2019f3b726e27dc569c
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 I följande avsnitt beskrivs hur du uppdaterar SAML 2.0-metadata (Security Assertion Markup Language) när du använder Active Directory Federation Services (ADFS) som identitetsleverantör.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,6 +46,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Använd ADFS som identitetsleverantör
 
 Du kan uppdatera dina ADFS-metadata innan Adobe Workfront uppdaterar SAML 2.0-certifikatet eller senare. Om du väljer att uppdatera ADFS-metadata innan Workfront uppdaterar SAML 2.0-certifikatet krävs ytterligare steg.
@@ -55,21 +59,21 @@ Du kan uppdatera dina ADFS-metadata innan Adobe Workfront uppdaterar SAML 2.0-ce
 
 Slutför stegen i det här avsnittet om du vill att ADFS-metadata ska uppdateras automatiskt.
 
-Som standard är ADFS konfigurerat att automatiskt söka efter uppdateringar av alla sina förlitande partsförtroendemata. Standardinställningen är dock att avsökning sker endast var 24:e timme. Du kan ändra det här värdet med PowerShell-kommandon.
+Som standard är ADFS konfigurerat att automatiskt söka efter uppdateringar av alla sina förlitande part-förtroendemetadata, men standardinställningen är att avsöka endast var 24:e timme. Du kan ändra det här värdet med PowerShell-kommandon.
 
 1. Logga in på ADFS-servern och öppna ADFS-hanteringskonsolen.
-1. Expandera på den vänstra panelen **ADFS 2.0,** expandera **Förtroenderelationer.**
+1. Expandera på den vänstra panelen **ADFS 2.0,** sedan expandera **Förtroenderelationer.**
 
 1. Klicka på **Förlitande part-förtroenden** mapp.
 1. Markera förlitande part-förtroendet som du tidigare konfigurerat för användning med Workfront och klicka sedan på&#x200B;**Uppdatera från federationsmetadata**.
 1. (Villkorligt) Om det här alternativet är nedtonat (vilket innebär att förlitande part-förtroendet tidigare har konfigurerats med en metadatafil) fyller du i följande.
 
-   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+   1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
-   1. Klicka **System** > **enkel inloggning (SSO)**.
+   1. Klicka **System** > **Enkel inloggning (SSO)**.
 
    1. Klicka **Redigera inställningar.**
-   1. Klicka **Redigera konfiguration** väljer **SAML 2.0** i **Typ** nedrullningsbar lista.
+   1. Klicka **Redigera konfiguration** väljer **SAML 2.0** i **Typ** listruta.
 
    1. Kopiera **Metadata URL**, som bör likna följande:
 
@@ -80,16 +84,16 @@ Som standard är ADFS konfigurerat att automatiskt söka efter uppdateringar av 
 
    1. Markera alternativen för att **Övervaka förlitande part** och **Uppdatera förlitande part automatiskt**.
 
-   1. Klicka **OK.**
-   1. Välj förlitande part-förtroendet som du tidigare konfigurerat för användning med Workfront. klicka sedan på **Uppdatera från federationsmetadata.**
+   1. Klicka **Okej.**
+   1. Markera förlitande part-förtroendet som du tidigare konfigurerat för användning med Workfront och klicka sedan på **Uppdatera från federationsmetadata.**
 
-1. Klicka **OK** om du vill ignorera meddelandet om en del av innehållet i federationsmetadata som inte stöds av ADFS 2.0.
+1. Klicka **OK** att ignorera meddelandet om en del av innehållet i federationsmetadata som inte stöds av ADFS 2.0.
 1. Öppna **Windows PowerShell-moduler.**
 1. När alla moduler har lästs in kör du följande kommando i powershell:
 
    `Get-ADFSProperties`
 
-1. Leta efter värdet bredvid **Övervakningsintervall.**
+1. Leta efter värdet intill **Övervakningsintervall.**
 
    Det blir ett tal som representerar antalet minuter mellan omröstningar. Standardvärdet ska vara 1 440 (1 440 minuter = 24 timmar).
 
@@ -99,9 +103,9 @@ Som standard är ADFS konfigurerat att automatiskt söka efter uppdateringar av 
 
    Detta ändrar övervakningsintervallet från 24 timmars till varje minut. Du kan ändra värdet 1 till ett annat större värde om du vill att det ska avfrågas mindre ofta.
 
-1. Använd **Event Viewer** om du vill söka efter följande information i ADFS2.0-loggarna:
+1. För att verifiera att detta fungerar som det ska använder du **Event Viewer** om du vill söka efter följande information i ADFS2.0-loggarna:
 
-   **Händelse-ID 156 och 157**
+   **Event ID 156 och 157**
 
 ### Tvinga ADFS-metadata att uppdatera {#force-your-adfs-metadata-to-update}
 
@@ -128,20 +132,20 @@ Så här tvingar du fram utbyte av metadata mellan Workfront och SAML 2.0-provid
       Så här får du åtkomst till informationen för **Metadata URL**:
 
       1. Klicka **Inställningar** nära Adobe Workfront övre högra hörn på Global Navigation Bar.
-      1. Klicka > **System** > **enkel inloggning (SSO)**.
+      1. Klicka > **System** > **Enkel inloggning (SSO)**.
       1. Klicka **Redigera inställningar.**
-      1. Klicka **Redigera konfiguration** väljer **SAML 2.0** i **Typ** nedrullningsbar lista.
+      1. Klicka **Redigera konfiguration** väljer **SAML 2.0** i **Typ** listruta.
       1. Kopiera **Metadata URL**, som bör likna följande:
 
          `https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData`
+
    1. Högerklicka på förlitande part-förtroendet som du tidigare konfigurerat på ADFS-servern och klicka sedan på **Egenskaper.**
    1. Klicka på **Övervakning** klistra sedan in den URL som du kopierade från Workfront i **URL för förlitande parts federationsmetadata** fält.
    1. Markera alternativen för att **Övervaka förlitande part** och **Uppdatera förlitande part automatiskt**.
    1. Klicka **OK**.
    1. Markera förlitande part-förtroendet som du tidigare konfigurerat för användning med Workfront och klicka sedan på **Uppdatera från federationsmetadata.**
 
-
-1. Klicka **OK** om du vill ignorera meddelandet om en del av innehållet i federationsmetadata som inte stöds av ADFS 2.0.
+1. Klicka **OK** att ignorera meddelandet om en del av innehållet i federationsmetadata som inte stöds av ADFS 2.0.
 1. Klicka **Uppdatera** för att slutföra uppdateringen av federationsmetadata.
 
 Användare som har åtkomst till Workfront via den inbyggda inloggningsskärmen med inloggningsuppgifter för Workfront (detta kan konfigureras från varje användares profilsida på **Åtkomst** -avsnittet) kan logga in med sitt användarnamn och lösenord för Workfront genom att gå till följande URL: `https://<yourdomain>.my.workfront.com/Workfront/login.cmd`.

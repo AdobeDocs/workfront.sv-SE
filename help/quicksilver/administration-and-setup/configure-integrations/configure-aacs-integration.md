@@ -6,9 +6,9 @@ description: Du kan koppla ditt arbete till innehållet i [!DNL Experience Manag
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Du kan koppla ditt arbete till innehållet i [!DNL Experience Manager Assets]&#x
 >Du kan också ansluta flera [!DNL Experience Manager Assets] databaser till en [!UICONTROL Workfront] miljö, eller flera [!DNL Workfront] miljöer till en [!DNL Experience Manager Assets] databas över organisationsnummer. Följ konfigurationsinstruktionerna i den här artikeln för varje integrering som du vill konfigurera.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -74,6 +76,8 @@ Du måste ha följande:
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Förutsättningar

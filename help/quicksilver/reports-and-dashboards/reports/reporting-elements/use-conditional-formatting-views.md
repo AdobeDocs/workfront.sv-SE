@@ -6,9 +6,9 @@ description: När du delar dina rapporter med andra användare i Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 532ec7f7a33e1e1111a31422c5c3c442b2e176b5
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1220'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Med en villkorsstyrd vy kan du:
 De ändringar du gör i rapportvyn börjar bara gälla på rapportens flik Information. De här ändringarna påverkar inte rapportens flikar Sammanfattning, Matris eller Diagram.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -70,6 +72,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förutsättningar
 

@@ -6,9 +6,9 @@ description: Du kan bädda in en extern webbsida i en instrumentpanel för att g
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,8 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande:
 
 <table style="table-layout:auto"> 
@@ -79,6 +81,8 @@ Du måste ha följande:
 </table>
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

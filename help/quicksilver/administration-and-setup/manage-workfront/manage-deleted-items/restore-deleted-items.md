@@ -8,9 +8,9 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1082'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ En gruppadministratör kan också återställa dessa objekt för en grupp som de
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+
++++
 
 ## Information som återställs när du återställer ett projekt, en uppgift eller ett ärende
 

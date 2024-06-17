@@ -6,9 +6,9 @@ description: Du kan installera [!DNL Adobe Workfront for design and video] från
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Du kan installera [!DNL Adobe Workfront for design and video] från [!DNL Adobe 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -60,7 +62,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
+
++++
 
 ## Förutsättningar
 

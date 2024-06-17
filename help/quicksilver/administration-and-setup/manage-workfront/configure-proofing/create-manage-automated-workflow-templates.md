@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2056'
+source-wordcount: '2075'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,9 @@ Mer information om automatiserade arbetsflöden finns i [Översikt över automat
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,6 +59,8 @@ Du måste ha följande:
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa en mall för automatiserat arbetsflöde
 
@@ -170,7 +174,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 ## Ändra en mall för automatiserat arbetsflöde
 
-Som Workfront Korrekturadministratör kan du ändra en mall för automatiserat arbetsflöde. Dina ändringar sparas automatiskt när du gör dem.
+Som Workfront Proof-administratör kan du ändra en mall för automatiserat arbetsflöde. Dina ändringar sparas automatiskt när du gör dem.
 
 {{step1-to-proofing}}
 

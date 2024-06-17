@@ -6,9 +6,9 @@ description: Desktop Proofing Viewer, som huvudsakligen är avsedd för korrektu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
-source-git-commit: f21e87d86e62f85d7661224ac75f06f61caff61e
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,11 @@ Programmet stöds av följande operativsystem:
 * Windows 7 och senare, 32- och 64-bitars
 * Mac OS X 10.9 och senare, 64 bitar
 
+{{latest-version}}
+
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -47,11 +51,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-{{latest-version}}
++++
+
+
 
 ## Installera Desktop Proofing Viewer på Mac
 
-Om Adobe Workfront-administratören eller Workfront Korrekturadministratör har hämtat appen till din arbetsstation och konfigurerat Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur kan du slutföra installationen genom att öppna ett interaktivt korrektur i dokumentområdet.
+Om Adobe Workfront-administratören eller Workfront Proof-administratören har laddat ned appen till din arbetsstation och konfigurerat Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur kan du slutföra installationen genom att öppna ett interaktivt korrektur från dokumentområdet.
 
 Om så inte är fallet kan du följa stegen nedan.
 
@@ -69,11 +75,11 @@ Om så inte är fallet kan du följa stegen nedan.
 
 >[!NOTE]
 >
->Om Desktop Proofing Viewer inte startas när du öppnar ett interaktivt korrektur betyder det förmodligen att Workfront- eller Workfront-administratören måste konfigurera Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur enligt beskrivningen i [Användarinställning för att öppna icke-interaktiva korrektur i korrekturläsaren för skrivbordet](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
+>Om Desktop Proofing Viewer inte startas när du öppnar ett interaktivt korrektur innebär det förmodligen att Workfront- eller Workfront Proof-administratören måste konfigurera Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur enligt beskrivningen i [Användarinställning för att öppna icke-interaktiva korrektur i korrekturläsaren för skrivbordet](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Installera Desktop Proofing Viewer i Windows
 
-Om Workfront- eller Workfront-administratören har laddat ned appen till din arbetsstation och konfigurerat Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur kan du slutföra installationen genom att öppna ett interaktivt korrektur från dokumentområdet.
+Om Workfront- eller Workfront Proof-administratören har laddat ned appen till din arbetsstation och konfigurerat Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur kan du slutföra installationen genom att öppna ett interaktivt korrektur från dokumentområdet.
 
 >[!TIP]
 >
@@ -93,4 +99,4 @@ Om Workfront- eller Workfront-administratören har laddat ned appen till din arb
 1. (Villkorligt) Om du installerar programmet med Internet Explorer uppdaterar du startsidan i webbläsaren när programmet har installerats.
 1. Öppna ett interaktivt korrektur i området Dokument.
 
-När Desktop Proofing Viewer har installerats öppnas alla interaktiva korrektur i Desktop Proofing Viewer. Om Desktop Proofing Viewer inte startas när du öppnar ett interaktivt korrektur betyder det förmodligen att Workfront- eller Workfront-administratören måste konfigurera Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur enligt beskrivningen i [Användarinställning för att öppna icke-interaktiva korrektur i korrekturläsaren för skrivbordet](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+När Desktop Proofing Viewer har installerats öppnas alla interaktiva korrektur i Desktop Proofing Viewer. Om Desktop Proofing Viewer inte startas när du öppnar ett interaktivt korrektur innebär det förmodligen att Workfront- eller Workfront Proof-administratören måste konfigurera Desktop Proofing Viewer som standardvisningsprogram för interaktiva korrektur enligt beskrivningen i [Användarinställning för att öppna icke-interaktiva korrektur i korrekturläsaren för skrivbordet](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).

@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Alla användares standardlayout för Workfront beror på åtkomstnivå och licen
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -64,6 +66,8 @@ Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i
 </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Att tänka på när du skapar och hanterar layoutmallar
 

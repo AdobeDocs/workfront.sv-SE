@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2327'
+source-wordcount: '2338'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Mer information om hur du lägger till en resurswidget i ett anpassat formulär,
 >I ett anpassat formulär som innehåller många anpassade fält eller många alternativ för att markera flera i anpassade fält, kan användare uppleva sämre prestanda när de lägger till eller ändrar värden i dessa fält. Ett formulär som innehåller till exempel 100 anpassade fält, eller anpassade fält som innehåller flera markeringar med fler än 200 alternativ, kan ta längre tid när användarna interagerar med det.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -56,6 +58,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till ett anpassat fält i ett anpassat formulär {#add-custom-field-to-custom-form}
 

@@ -1,5 +1,5 @@
 ---
-title: Skapa en milstolpbana
+title: Skapa en milstolpe-bana
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -8,14 +8,14 @@ author: Alina, Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
 
-# Skapa en milstolpbana
+# Skapa en milstolpe-bana
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -24,6 +24,8 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 Som Adobe Workfront-administratör kan du skapa milstolpar som sedan kan användas i alla projekt i systemet. De ändringar du gör i milstolpbanorna i det här området påverkar hela Workfront-systemet.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Milstolpar och milstolpar
 
 Du kan koppla nyckelåtgärderna i ett projekt till fördefinierade milstolpar. Den här funktionen kan ge chefer och andra intressenter en översikt över hur ett projekt fortskrider.
@@ -56,9 +60,9 @@ Det första steget i att bygga en milstolpe är att identifiera vilka milstolpar
 
 Mer information om hur du associerar en milstolpe-bana med ett projekt och en milstolpe med en uppgift finns i [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-## Skapa en milstolpbana
+## Skapa en milstolpe-bana
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka **Processer** > **Milstolpbanor**.
 1. Klicka **Ny milstolpe-sökväg.**
@@ -105,7 +109,7 @@ Mer information om hur du associerar en milstolpe-bana med ett projekt och en mi
    </table>
 
 1. Klicka **Lägg till milstolpe** och fortsätta lägga till milstolpar efter behov tills banan är klar.
-1. Klicka **Skapa milstolpbana** för att spara ändringarna.
+1. Klicka **Skapa milstolpe-sökväg** för att spara ändringarna.
 
    Din milstolpe-väg är klar att kopplas till ett projekt.
 

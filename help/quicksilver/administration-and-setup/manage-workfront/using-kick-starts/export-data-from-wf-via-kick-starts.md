@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 48c9bb06dff1e8f1260b331ace7843b204b3139e
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Som Adobe Workfront-administratör kan du använda dataexporteraren Quick-Starts
 Att exportera data via snabbstart är också praktiskt när du vill veta vilka fält som är kopplade till varje objekt, hur dessa fält kodas samt hur värdena för dessa fält formateras i databasen.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -56,6 +58,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Fördelar och nackdelar med att använda&quot;kom igång&quot; för att exportera data
 

@@ -6,9 +6,9 @@ description: En baslinje är en ögonblicksbild av ett projekt som representerar
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: bec625b70b39fec9f9a6d4f7b48023702de43675
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ En baslinje är en ögonblicksbild av ett projekt som representerar viktig infor
 Du kan använda baslinjen för att jämföra informationen från den aktuella planen med den ursprungliga planen eller någon annan tidpunkt för att identifiera problemuppgifter, krypning av omfång och andra trender över tiden.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <!--
 drafted for P&P:
@@ -83,6 +85,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du arbetar med baslinjer
 

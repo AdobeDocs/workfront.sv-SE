@@ -6,9 +6,9 @@ description: Föregångare är uppgifter som andra åtgärder är beroende av f�
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
-source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
+source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Du kan använda föregående relation när du anger föregångare för ett proje
 Om en föregångare används kan efterföljande aktivitet inte starta innan föregångaren har slutförts. Om du till exempel tvingar en relation mellan aktivitet A och Aktivitet B (Slutför/Start) innebär det att aktivitet B inte kan starta (statusen måste förbli Ny och Procent slutfört måste vara 0 %) tills Aktivitet A markeras som slutförd. Tvingande relationer gäller för alla föregående typer.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -67,6 +69,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Tvinga en föregångare på aktivitetsnivå
 

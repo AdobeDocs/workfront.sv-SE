@@ -6,9 +6,9 @@ description: Med ett grundläggande arbetsflöde kan du skicka flera granskare t
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1842'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Med ett grundläggande arbetsflöde kan du skicka flera granskare till ett korrektur, men de är inte ordnade i steg. Alla granskare som du lägger till får tillgång till korrekturet direkt när du har skapat det.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,7 +53,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill veta vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skapa ett avancerat korrektur med ett grundläggande arbetsflöde
 
@@ -298,7 +302,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader">Kräv inloggning - korrektur kan bara delas med andra användare</td> 
       <td>När det här alternativet är inaktiverat (standard) kan alla med URL-adressen visa korrekturet. <br>När det här alternativet är markerat:
        <ul>
-        <li>Det är bara Workfront korrekturläsare som kan visa korrekturet.</li>
+        <li>Endast Workfront Proof-användare kan visa korrekturet.</li>
         <li>Användarna kan inte logga in på korrekturet om de inte har lagts till i korrekturet.</li>
         <li>Det går inte att aktivera prenumerationer.</li>
        </ul></td> 

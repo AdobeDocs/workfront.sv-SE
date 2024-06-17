@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Routningsreglerna styr vad Adobe Workfront gör med problem när de skickas till
 Routningsregler skickar problem till specifika användare eller jobbroller som är bäst utrustade för att lösa det skickade problemet eller den skickade förfrågan. Routningsregler är vanligtvis associerade med köämnen, som används för att kontrollera vilken routningsregel som ska användas för utgåvan eller förfrågan.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <!--drafted - replace the table at P&P:
 
@@ -84,6 +86,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa en hanteringsregel
 

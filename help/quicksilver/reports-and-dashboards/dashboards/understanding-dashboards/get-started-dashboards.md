@@ -7,9 +7,9 @@ description: Syftet med en kontrollpanel är att ge snabb åtkomst till informat
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Syftet med en kontrollpanel är att ge snabb åtkomst till information som kommer från flera rapporter. Först kan du samla information i rapporter och sedan montera flera rapporter på kontrollpaneler för att göra informationen enklare att komma åt.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -50,6 +52,8 @@ Du måste ha följande:
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Objekt som du kan lägga till på en kontrollpanel
 

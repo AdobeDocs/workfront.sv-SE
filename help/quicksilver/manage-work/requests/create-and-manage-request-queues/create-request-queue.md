@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2690'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Du kan skapa en frågekö där användare kan ange tillfälliga begäranden som 
 I den här artikeln beskrivs hur du kan skapa en begärandekö där användare kan skicka begäranden. Mer information om hur du skickar en ny begäran till en begärandekö finns i [Kopiera och skicka begäranden](../create-requests/copy-and-submit-requests.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 
 <!--old access levels: 

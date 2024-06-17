@@ -5,9 +5,9 @@ description: Du kan använda ett styrkort för att mäta hur väl ett projekt an
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: db362bd73e51b30090708822876ad02f7804d064
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Du kan använda ett styrkort för att mäta hur väl ett projekt anpassar sig ti
 Mer information om styrkort och hur du kan skapa ett finns i [Skapa ett styrkort](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -54,6 +56,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Projektstyrkort {#project-scorecards}
 

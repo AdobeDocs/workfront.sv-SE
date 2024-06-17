@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Portfolio chefer definierar vanligtvis styrkortsfrågor och svar för att säker
 De frågor och svar som väljs ut för ett styrkort måste vara kvantifierbara för att det ska gå att jämföra olika projekt.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +53,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Skapa ett styrkort
 

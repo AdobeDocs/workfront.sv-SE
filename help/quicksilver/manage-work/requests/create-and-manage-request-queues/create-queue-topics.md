@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Köämnen fungerar tillsammans med routningsregler för att automatiskt tilldela
 Det finns ingen gräns för hur många köämnen som kan tilldelas till en ämnesgrupp eller ett projekt. Köämnen är objekttyper som kan rapporteras.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <!--drafted - replace table with P&P:
 
@@ -81,6 +83,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa ett köämne
 

@@ -6,9 +6,9 @@ description: Referenssamlingar i en rapport
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '2587'
+source-wordcount: '2598'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Om du skapar en rapport i Adobe Workfront kan du visa en uppsättning objekt, de
 Mer information om hur du skapar en rapport i Workfront finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -47,6 +49,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förstå samlingar
 
@@ -419,7 +423,7 @@ Så här lägger du till en referens till en samling i den anpassade uppmaningen
 
    >[!NOTE]
    >
-   Observera att du måste använda **problem** för samlingsobjektets namn. API Explorer har för närvarande inget samlingsobjektsnamn för problem.
+   >Observera att du måste använda **problem** för samlingsobjektets namn. API Explorer har för närvarande inget samlingsobjektsnamn för problem.
 
 1. Klicka **Klar**.
 1. (Valfritt) Fortsätt redigera rapporten.

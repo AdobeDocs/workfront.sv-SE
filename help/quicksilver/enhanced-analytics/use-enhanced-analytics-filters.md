@@ -6,9 +6,9 @@ description: Filtren i området Förbättrad analys i Adobe Workfront hjälper d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1486'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Filtren i området Förbättrad analys i Adobe Workfront hjälper dig att fokuse
 Du kan lägga till och ta bort filter efter behov, så bevarar Workfront de filter som du tillämpar även om du loggar ut.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -60,6 +62,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 

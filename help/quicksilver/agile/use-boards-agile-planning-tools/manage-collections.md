@@ -7,9 +7,9 @@ description: Ett arbetsflöde är en konfigurerbar grupp av brädor och kort fö
 author: Lisa
 feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Mer information finns i [Använda kortlistan](/help/quicksilver/agile/use-boards
 Arbetsströmmar visas på kontrollpanelen tillsammans med enskilda paneler som du har åtkomst till som inte är en del av ett arbetsflöde. Mer information om panelernas kontrollpanel finns i [Använda panelkontrollpanelen](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). Du kan öppna en panel genom att klicka på dess namn.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Skapa ett arbetsflöde
 

@@ -6,9 +6,9 @@ description: Konvertera ett problem till ett projekt i Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b091b62d3afe822c92f96641332077b5a211ee58
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1929'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Du kan konvertera ett ärende till ett nytt projekt eller konvertera det till et
 När du skapar ett projekt från ett problem fylls vissa av fälten i från andra objekt. Mer information finns i avsnittet&quot;Nya standardinställningar för projekt&quot; i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -57,6 +59,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konvertera ett ärende till ett projekt
 

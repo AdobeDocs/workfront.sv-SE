@@ -6,9 +6,9 @@ description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkr
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Alla användare i organisationen kan se det flexibla teamet och se alla flexibla
 * **[!UICONTROL Kanban]:** Team flyttar arbete i Kanban-vyn över förbestämda statusar. Standardstatusvärdena är: eftersläpning, pågående och slutförd. Mer information om hur du hanterar ett Kanban-team finns i [Kanban i ett rörligt team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,7 +53,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+
++++
 
 ## Bestäm en flexibel metod
 

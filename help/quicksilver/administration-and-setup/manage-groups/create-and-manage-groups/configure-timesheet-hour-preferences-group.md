@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: df55d6659fac7588610bc05ea0380a766b4277a2
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1379'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Mer information om hur en Workfront-administratör låser upp en tidrapport och 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Gruppera tidrapport och timinställningar
 
 Tänk på följande information om hur du konfigurerar en olåst tidrapport eller timinställning för en grupp:
@@ -65,7 +69,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
 * Normalt förblir en olåst inställning olåst i oändlighet. Om Workfront-administratören låser om den aktiveras systeminställningen igen och inställningarna som gjorts av gruppadministratörerna går förlorade.
 * En tidrapport ärver tidrapport- och timinställningarna som konfigurerats för tidrapportägarens hemgrupp.
 
-   <!--
+  <!--
   Add example here?
   -->
 
@@ -77,7 +81,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Tidrapport och timmar > Inställningar och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 
 1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
 
@@ -106,7 +110,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
      </tr> 
      <tr> 
       <td role="rowheader">Lägga till utgifter från en tidrapport</td> 
-      <td> <p>Gör att användare kan registrera både tid och utgifter i tidrapporten.</p> 
+      <td> <p>Gör det möjligt för användare att registrera både tid och utgifter i tidrapporten.</p> 
       <p>När den här inställningen är aktiverad för en grupp och gruppen är inställd som hemgrupp för vissa användare, visas en utgiftsikon bredvid projekt och uppgifter på dessa användares tidrapporter. Användarna kan klicka på den här ikonen för att lägga till eller redigera utgifter för projektet eller uppgiften.</p>
       </td> 
      </tr> 
@@ -175,7 +179,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
      </tr> 
      <tr> 
       <td role="rowheader">Aktiviteter och problem som har planerade datum i tidrapportens datumintervall</td> 
-      <td> <p>När du väljer det här alternativet innehåller tidrapporten uppgifter och utgåvor som har antingen ett planerat startdatum eller ett slutförandedatum som ligger inom datumintervallet för tidrapporten.</p> </td> 
+      <td> <p>När det här alternativet är markerat innehåller tidrapporten uppgifter och utgåvor som har antingen ett planerat startdatum eller ett slutförandedatum som ligger inom datumintervallet för tidrapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> Uppgifter som har projektdatum i tidrapportens datumintervall</td> 

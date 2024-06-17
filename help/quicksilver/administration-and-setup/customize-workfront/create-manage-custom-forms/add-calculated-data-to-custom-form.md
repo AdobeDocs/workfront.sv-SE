@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2911'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Mer information om hur du skapar anpassade formulär för din organisation och f
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Lägga till ett beräknat fält i ett anpassat formulär {#add-a-calculated-field-to-a-custom-form}

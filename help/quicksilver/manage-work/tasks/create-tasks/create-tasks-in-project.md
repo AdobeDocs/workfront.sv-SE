@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan ocks
 * Genom att flytta uppgifter från ett projekt till ett annat. Mer information finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,6 +59,8 @@ I den här artikeln beskrivs hur du skapar åtgärder från grunden. Du kan ocks
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa uppgifter i ett projekt
 

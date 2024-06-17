@@ -6,9 +6,9 @@ description: Uppgifter och ärenden kan tilldelas ett smidigt team och läggas t
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 3c7bdcc1dc2a3a0db62a175ec11d4d6701acbb53
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '1260'
+source-wordcount: '1271'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Uppgifter eller problem kan tilldelas teamet (och sedan läggas till i teamets e
 >Om du lägger till flera team i ett eftersläpningsobjekt visas uppgiften eller problemet endast i det primära teamets eftersläpning. Det primära teamet är det som först tilldelats.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -56,6 +58,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa och hantera artiklar i efterloggen
 

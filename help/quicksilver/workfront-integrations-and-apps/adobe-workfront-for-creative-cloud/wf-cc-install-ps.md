@@ -6,9 +6,9 @@ description: Du kan installera plugin-programmet Adobe Workfront for Photoshop f
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 316c85d4809f6833441f63578038624a7ebfcb39
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Du kan installera [!DNL Adobe Workfront for Photoshop] plugin-program från [!DN
 * Koreanska
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,7 +53,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+Kontakta din [!DNL Workfront] administratör.
+
++++
 
 ## Förutsättningar
 

@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Konfigurera e-postaviseringsinställningar i [!DNL Workfront Proof]
-description: E-postmeddelanden som genererats av Workfront Proof informerar medarbetare om den senaste aktiviteten i korrektur, som kommentarer, svar eller beslut.
+description: E-postmeddelanden som genererats från Workfront Proof informerar medarbetarna om den senaste aktiviteten i korrektur, som kommentarer, svar eller beslut.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e80a3ede9ccf6ccf9ea7777aab35cc859f13a6ac
+source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1860'
 ht-degree: 0%
 
 ---
@@ -25,17 +25,6 @@ ht-degree: 0%
 E-postmeddelanden informerar medarbetare om den senaste aktiviteten i korrektur, som kommentarer, svar eller beslut.
 
 Du kan ange e-postmeddelanden för granskare inom följande områden:
-
-## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Produkt</td> 
-   <td>Fristående Workfront Proof</td> 
-  </tr> 
-</table>
 
 E-postmeddelanden till granskarna kan anges på sidan Nytt korrektur. [!UICONTROL New version] och hanteras i [!UICONTROL Workflow] i [!UICONTROL Proof details] sida. Mer information finns i [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -63,9 +52,20 @@ Användare med [!UICONTROL Administrator] eller [!UICONTROL Billing Administrato
 
 Mer information om profiler finns i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Konfigurera standardvärden för korrektur i personliga inställningar ([!DNL Workfront Proof] endast användare)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [Ändra e-postaviseringar för en mottagare](#change-email-alerts-for-a-recipient)
-* [Konfigurera korrekturinställningar för en användare](#configure-proof-defaults-for-a-user)
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Produkt</td> 
+   <td>Fristående Workfront Proof</td> 
+  </tr> 
+</table>
+
++++
 
 ## Konfigurera standardvärden för korrektur i personliga inställningar ([!DNL Workfront Proof] endast användare)
 

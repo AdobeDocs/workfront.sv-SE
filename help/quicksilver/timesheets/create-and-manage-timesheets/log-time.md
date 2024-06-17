@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
 workflow-type: tm+mt
-source-wordcount: '3572'
+source-wordcount: '3583'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Du kan logga tiden för arbetsobjekt i Adobe Workfront för att ange hur många 
 Mer information om vilka timmar du kan logga in i Workfront finns i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln och logga Project Specific hours:
 
@@ -67,6 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Att tänka på när du loggar tid i Workfront
 

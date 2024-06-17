@@ -7,9 +7,9 @@ description: Du kan tillfälligt ändra kolumnbredden genom att dra och släppa 
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 261c1b73d785094de4ee8549c856a091920ba04a
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna 
 Om du vill ändra bredden på en kolumn i en vy permanent måste du använda textläget i kolumnen när du redigerar vyn.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Redigera bredden på en kolumn permanent
 

@@ -6,7 +6,7 @@ description: Du kan lägga till dokument i projekt, uppgifter eller problem i fl
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 187e33c088177affd246aaf90cea33d6201e7a1b
+source-git-commit: c6fc7325700f220fcda5c7cb1b4aa0b94cb67880
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 1%
@@ -53,6 +53,8 @@ Du måste ha följande:
 </table>
 
 Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 +++
 

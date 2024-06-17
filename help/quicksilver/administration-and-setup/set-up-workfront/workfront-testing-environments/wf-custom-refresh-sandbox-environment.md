@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 8ceb370df6ff6f3a7a4376d6086fbabe99609e29
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Sandlådan för anpassad uppdatering är en miljö där du kan testa och arbeta 
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,6 +56,8 @@ Du måste ha följande:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Uppdatera den anpassade uppdateringssandlådan
 

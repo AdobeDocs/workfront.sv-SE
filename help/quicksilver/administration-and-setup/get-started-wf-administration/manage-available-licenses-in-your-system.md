@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 362c538d7680f8d8b85fbd8735e79ec5032d2919
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör har du tillgång till information om ditt Workfront-konto, inklusive antalet licenser som köpts för din organisation, samt antalet licenser som används för närvarande.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -64,6 +66,8 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 >1. Systemadministratörer kan lägga till hemgrupper på sidan Licenser för att visa användningen av licenser i dessa grupper, och de kan också ange licensbegränsningar.
 >2. Gruppadministratörer har tillgång till sidan Licenser och kan visa hur licenserna i de grupper de hanterar har utnyttjats och som har lagts till på sidan Licenser av systemadministratörer.
 >3. Gruppadministratörer kan inte visa information för andra hemgrupper eller lägga till maximumvärden.
+
++++
 
 ## Visa organisationens licenser
 

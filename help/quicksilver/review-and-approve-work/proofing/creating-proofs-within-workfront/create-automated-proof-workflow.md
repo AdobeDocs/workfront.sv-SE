@@ -6,9 +6,9 @@ description: Ett automatiserat arbetsflöde gör det enklare att hantera granskn
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: ccfea4cdf7280f992068bc64bab27e63aaab8b74
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1820'
+source-wordcount: '1831'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Ett automatiserat arbetsflöde gör det enklare att hantera granskningsprocessen om processen är komplex, eller om du skickar innehåll för granskning till samma personer regelbundet. Beviset flyttas från scen till scen och Adobe Workfront meddelar varje användare när det är deras tur att granska det. Mer information om automatiserade arbetsflöden finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -47,6 +49,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa ett avancerat korrektur med ett automatiserat arbetsflöde
 
@@ -121,7 +125,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
         </tr>
         <tr>
          <td role="rowheader">Gör det här steget privat</td>
-         <td>Tillåter endast följande personer att visa kommentarer och beslut som fattas under den här fasen: Supervisors, Workfront administrators och Workfront Proof Administrators</td>
+         <td>Endast följande personer kan se kommentarer och beslut som fattas under den här fasen: Supervisors, Workfront administrators och Workfront Proof administrators</td>
         </tr>
        </tbody>
       </table>
@@ -181,7 +185,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <td role="rowheader">Kräv inloggning - korrektur kan bara delas med andra användare</td> 
       <td>När det här alternativet är inaktiverat (standard) kan alla med URL-adressen visa korrekturet. <br>När det här alternativet är markerat:
        <ul>
-        <li>Det är bara Workfront korrekturläsare som kan visa korrekturet.</li>
+        <li>Endast Workfront Proof-användare kan visa korrekturet.</li>
         <li>Användarna kan inte logga in på korrekturet om de inte har lagts till i korrekturet.</li>
         <li>Det går inte att aktivera prenumerationer.</li>
        </ul></td> 

@@ -7,9 +7,9 @@ description: Lär dig att beräkna tid- och datumskillnader.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 4c12a692971f437a3b248e4a601d4145ce626553
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Du kan beräkna skillnaden mellan följande:
 >Dessa beräkningar visar antalet dagar mellan de två datumen. Resultatet visas i dagar. Tidsstämpeln i datumfältet beaktas också, och antalet dagar kan följas av decimaler om tidsstämpeln inte matchar. Om aktiviteten slutfördes sent visas antalet dagar som ett negativt värde.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -61,6 +63,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Beräkna tiden och datumskillnaden mellan två datumfält i samma objekt
 

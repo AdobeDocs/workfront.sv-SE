@@ -6,9 +6,9 @@ description: Du kan använda Workfront Extension för att exportera digitalt inn
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
 workflow-type: tm+mt
-source-wordcount: '3076'
+source-wordcount: '3087'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Workfront-tillägget stöds för Adobe Creative Cloud 2017 och senare i följand
   >Vi rekommenderar att du använder nya [Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) plugin-program.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -65,6 +67,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Logga in på Workfront Extension från Illustrator eller InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 

@@ -6,14 +6,16 @@ description: Du skapar ett kanban- eller Scrum-team i [!DNL Adobe Workfront].
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
 
 # Konfigurera [!UICONTROL Kanban]
+
+<!--Audited: 12/2023-->
 
 Du kan skapa ett smidigt team i [!DNL Adobe Workfront] enligt beskrivning i [Skapa ett smidigt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). När ni skapar ett smidigt team kan ni välja den metod som teamet använder för att slutföra arbetet. Du kan välja mellan följande alternativ:
 
@@ -33,7 +35,7 @@ Mer information om hur du konfigurerar ett Scrum-team finns i [Konfigurera Scrum
 
 ## Åtkomstkrav
 
-<!--Audited: 12/2023-->
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -64,6 +66,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 *Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+
++++
 
 ## Konfigurera om artiklar ska beräknas i punkter eller timmar
 

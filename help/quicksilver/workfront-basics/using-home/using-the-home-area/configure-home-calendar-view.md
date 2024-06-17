@@ -6,9 +6,9 @@ description: Du kan konfigurera inställningarna för hemkalendern så att de in
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
-source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
+source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Mer information om hemkalendern finns i [[!UICONTROL Home Calendar] visa](../../
 I den här artikeln beskrivs hur du konfigurerar inställningarna för hemkalendern och integrerar hemkalendern med den externa Outlook-kalendern.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 *Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Om integrering [!DNL Microsoft Outlook] kalendrar
 

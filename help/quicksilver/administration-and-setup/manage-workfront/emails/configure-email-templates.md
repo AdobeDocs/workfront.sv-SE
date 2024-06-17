@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: 4016ba2c1b94ba84037612bdc9c1136267513fd5
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Utan en e-postmall levereras påminnelsemeddelandet som tomt innehåll i e-postm
 E-postmallar kan associeras med påminnelsemeddelanden för problem, uppgifter, projekt och tidrapporter. När du skapar e-postmallar kan Workfront-administratören tillhandahålla innehåll för e-postmeddelandet och en ämnesrad.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 *Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa en e-postmall {#create-an-email-template}
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 128082d2af40f1dcbbc058f8bc2fd25deae00809
+source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Inställningarna för uppgifter och utgåvor är som standard låsta och gruppad
 
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -54,6 +56,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Konfigurera inställningar för uppgifter och ärenden för alla i [!DNL Workfront]
 
 {{step-1-to-setup}}
@@ -70,7 +74,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Arbeta på den</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -114,7 +118,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL När ett problem konverteras till en uppgift]</td> 
+    <td role="rowheader" [!UICONTROL>När ett problem konverteras till en uppgift]</td> 
     <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till uppgift:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: När du konverterar ett problem förblir det synligt som ett problem tills det är klart. Status för utgåvan ändras automatiskt till [!UICONTROL Closed] när uppgiften har slutförts. När detta är avmarkerat tas problemet bort.</p> <p><b>ANMÄRKNING</b>:  <p>Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:</p> 
