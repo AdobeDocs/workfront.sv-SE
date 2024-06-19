@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 21ef9365561fca2301223ae79f6371f3c94c7313
+source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1325'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
    >Det finns ett alternativ för att lägga till ytterligare arbetsytor i det här steget. Vi föreslog att vi skulle skapa en arbetsyta för varje utvecklare. På så sätt hålls hemligheter och driftsättningar åtskilda från varandra när designarbete utförs. Du bör namnge arbetsytan med namnet på den utvecklare som använder den. AIO-klippet innehåller alternativ för att byta arbetsyta, som vi senare kommer att gå igenom.
 
 
-1. Lämna **Inkludera körtid** markerat. Jag vet inte varför, faktiskt, men ändra det inte!
+1. Lämna **Inkludera körtid** markerat.
 
 1. Klicka **Spara**.
 
