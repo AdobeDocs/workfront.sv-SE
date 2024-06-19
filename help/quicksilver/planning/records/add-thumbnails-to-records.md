@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Aktuell: Arbete eller högre</p>
+   <p>Nytt: Standard</p>  
   </td>
   </tr>
 
@@ -67,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Contribute eller högre behörighet till en arbetsyta </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -80,23 +81,33 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
+*Mer information finns på [Åtkomstkrav i Workforts dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Att tänka på när du spelar in miniatyrbilder
 
 Om du vill skilja mellan posterna i en tabellvy kan du koppla en unik miniatyrbild till varje post.
 
 Tänk på följande:
 
+* En miniatyrbild är unik för en post och gäller inte för alla poster av samma typ.
 * Du kan bara lägga till bildfiler som miniatyrer.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* Du kan lägga till en miniatyrbild till enskilda poster i tabellvyn.
-* Miniatyrbilder tillhör postinformationen och visas i vyer där posterna visas. Miniatyrbilder visas till exempel tillsammans med postinformation i följande områden:
+* Du kan lägga till en miniatyrbild till enskilda poster i tabellvyn eller från postens sida eller förhandsvisningsruta.
+* Workfront laddar automatiskt upp en miniatyrbild varje gång du skapar en post. Du kan ändra den här bilden senare.
+* Miniatyrbilder tillhör postinformationen och visas i områden där posterna visas. Miniatyrbilder visas till exempel tillsammans med postinformation i följande områden:
 
    * Det primära fältet för en post i tabellvyn
    * Postfältet i tidslinjevyn.
-* Du kan inte lägga till postminiatyrer från postens sida eller från en annan typ av vy.
-* Miniatyrbilder visas inte på postens sida.
+   * Postens förhandsgranskning och sida med information.
 
 ## Lägga till en miniatyrbild i en post
+
+Du kan lägga till en miniatyrbild på följande sätt:
+
+* [Lägga till en miniatyrbild till en post från tabellvyn](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [Lägga till en miniatyrbild till en post från informationssidan](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### Lägga till en miniatyrbild till en post från tabellvyn
 
 {{step1-to-planning}}
 
@@ -110,72 +121,85 @@ Tänk på följande:
 
    >[!TIP]
    >
-   >   Det primära fältet är det fält som visas i den första kolumnen i en tabellvy. Det primära fältet är alltid fryst och kan inte döljas eller flyttas.
+   >   Det primära fältet är det fält som visas i den första kolumnen i en tabellvy. Det primära fältet är alltid fryst och kan inte döljas eller flyttas. Alternativet Miniatyrbilder är inte tillgängligt på menyn Mer när det primära fältet är ett formelfält.
 
-   The **Spela in miniatyrbild** öppnas.
+   The **Överför** öppnas som standard i **Spela in miniatyrbild** box.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
-
-   <!--update screen shot with correct casing-->
-
-1. I **Överför** dra och släpp en fil som du vill lägga till som miniatyrbild eller klicka på **Välj att överföra** och bläddra sedan efter en bildfil att lägga till. Filen måste sparas på datorn.
-1. (Valfritt) Använd storleksförändringsverktyget för att beskära och ändra storlek på bilden.
-1. Klicka **Använd bild** om du vill lägga till bilden som en miniatyrbild.
-Detta stänger **Spela in miniatyrbild** box.
-1. (Villkorligt) Om du har minst Contribute-behörighet till tabellvyn klickar du på **Fält** i tabellvyns övre högra hörn.
-1. Välj **Miniatyrbild** för att visa miniatyrbilden. Detta är som standard avmarkerat.
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   Miniatyrbilden visas till vänster om det primära fältvärdet.
-1. (Valfritt och villkorligt) Om du inte har Contribute eller högre behörighet för vyn väljer du en ny vy i **Visa** eller skapa en vy.
-1. (Valfritt) Om du vill ta bort miniatyrbilden håller du pekaren över det primära fältet och klickar på knappen **Mer** meny ![](assets/more-menu.png)> **Miniatyrbild** > **Ta bort** icon ![](assets/remove-image-icon.png)och sedan klicka **Spara ändringar**.
+   Mer information om att överföra miniatyrbilden finns i avsnittet [Lägga till en miniatyrbild till en post från informationssidan](#add-a-thumbnail-to-a-record-from-the-details-page) i den här artikeln, med början från steg 6. <!--see if this is accurate-->
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### Lägga till en miniatyrbild till en post från informationssidan
 
 {{step1-to-planning}}
 
-1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Klicka på arbetsytan för vars poster du vill lägga till miniatyrbilder och klicka sedan på posttypskortet.
 
-   This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+   Då öppnas posttypssidan.
+1. Öppna en post genom att klicka på den i valfri vy.
 
-   ![](assets/record-more-menu-expanded.png)
+   Förhandsvisningsrutan med information visas.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) längst upp till höger.
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   Postens informationssida öppnas.
+1. Håll pekaren över miniatyrbilden eller ikonen ![](assets/record-thumbnail-icon-on-details-page.png)och klickar sedan på **Mer** meny ![](assets/more-menu.png) > **Redigera miniatyrbild**.
 
-   The **Record thumbnail** box opens.
+   The **Överför** öppnas som standard i **Spela in miniatyrbild** box.
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
+   ![](assets/record-thumbnail-box-for-upload.png)
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+1. Dra och släpp en fil som du vill lägga till som miniatyrbild
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   eller
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   Klicka **Bläddra bland bilder** och bläddra sedan efter en bildfil att lägga till. Filen måste sparas på datorn.
 
+1. (Valfritt) När bilden har överförts i **Spela in miniatyrbild** använder du storleksförändringsverktyget för att beskära och ändra storlek på bilden.
+1. (Valfritt) Klicka på **Överför ny bild** icon ![](assets/upload-new-image-icon.png) för att överföra en annan bild.
+1. (Valfritt) Klicka på **Galleri** och sedan klicka på en bild. Det går inte att ändra bildgalleriet.
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. (Valfritt) Om du vill ta bort miniatyren innan den sparas klickar du på **Ta bort** icon ![](assets/remove-image-icon.png) till höger om bilden.
+
+1. Klicka **Använd bild** om du vill lägga till bilden som en miniatyrbild.
+Detta stänger **Spela in miniatyrbild** box.
+Miniatyrbilden visas i områden i Workfront Planning där posten visas.
+
+   >[!TIP]
+   >
+   >   Du måste aktivera fältet Miniatyrbilder i tabellvyn om du vill visa miniatyrbilder i den här vyn. Det är inaktiverat som standard.
+
+1. (Valfritt) Om du vill ta bort miniatyrbilden när den har sparats klickar du på en post i valfri vy för att öppna informationssidan, håller pekaren över miniatyrbilden och klickar på **Mer** meny ![](assets/more-menu.png)> **Ta bort** icon ![](assets/remove-image-icon.png). Miniatyrbilden tas bort.
+
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

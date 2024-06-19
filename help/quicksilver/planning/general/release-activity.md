@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 216ddc77c76d3e607cc56f32f347aa3544a03ebf
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7510'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Förhandsgranska: Ska bestämmas
 
 Vi har uppdaterat funktionen att lägga till en miniatyrbild eller omslagsbild till en post från informationssidan. Förbättringarna omfattar följande uppdateringar:
 
-* En miniatyrbild tilldelas slumpmässigt till en post när du skapar den. Du kan redigera den här bilden senare.
+* En miniatyrbild och en omslagsbild tilldelas automatiskt till en post när du skapar den. Du kan redigera dessa bilder senare.
 
 * Du kan lägga till en miniatyrbild från detaljsidan. Före den här förbättringen kunde du bara lägga till en miniatyrbild från tabellvyn.
 
@@ -129,7 +129,7 @@ Produktion: 17 juni 2024
 
 Förhandsgranska: Ska bestämmas
 
-Vi har lagt till länken Visa mer/Visa mindre i ett anslutet postfält, när det finns poster som annars skulle visas på mer än två rader.
+Vi har lagt till länken Visa mer/Visa mindre i ett anslutet postfält, när det finns poster som annars skulle visas på mer än två rader på detaljsidan för en post.
 
 Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
 
@@ -169,7 +169,7 @@ Vi presenterar en ny landningssida för Workfront Planning när du har klickat p
 
 En del av informationen på landningssidan innehåller följande:
 
-* Ett område som visar dina arbetsytor och arbetsytor som delas med dig. Ägaren av arbetsytan visas på varje arbetsytekort.
+* Ett område som visar dina arbetsytor och arbetsytor som delas med dig. Arbetsytans ägare visas på varje arbetsytekort.
 
 * Om du är Workfront-administratör visas följande flikar:
 
@@ -324,7 +324,7 @@ Förhandsgranska: Ska bestämmas
 
 För att bättre kunna organisera information på postens sida, för effektivare läsbarhet och navigering, har vi skapat avsnitt på postens sida. Avsnittsrubrikerna fungerar som rubriker som organiserar fälten i olika kategorier. Avsnitten är helt anpassningsbara och kan expanderas eller komprimeras om det behövs.
 
-Mer information finns i [Hantera postsidan](/help/quicksilver/planning/records/manage-the-record-page.md).
+Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ### Realtidsuppdateringar för fältkonfigurationsändringar
 
@@ -433,7 +433,7 @@ Förhandsgranska: Ska bestämmas
 
 Som arbetsytehanterare kan du nu ändra ordning på fälten som visas på postsidan eller förhandsgranskningen. Om du uppdaterar fältordningen ändras fältordningen för alla poster av samma typ, så att alla kan visa postsidan eller postförhandsvisningen.
 
-Mer information finns i [Hantera postsidan](/help/quicksilver/planning/records/manage-the-record-page.md).
+Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 ### Lägg till omslagsbild för att spela in sidor
@@ -444,7 +444,7 @@ Förhandsgranska: Ska bestämmas
 
 När du hanterar postsidor kan du nu lägga till, flytta om och ersätta en omslagsbild på en postsida eller förhandsgranskning för att berika postens presentation och intressenternas engagemang. Omslagsbilder är synliga för alla användare som visar posterna.
 
-Mer information finns i [Hantera postsidan](/help/quicksilver/planning/records/manage-the-record-page.md).
+Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Vecka 25 mars 2024
 

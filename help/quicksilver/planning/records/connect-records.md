@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2415'
+source-wordcount: '2573'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
    <td> <p>Hantera behörigheter till en arbetsyta för att ansluta poster </p>  
-   <p>Visa eller högre behörigheter på en arbetsyta för att visa alla anslutningar till objekt och fält från andra program, oavsett om du har åtkomst till dem i andra program. </p>
+   <p>Visa eller högre behörigheter på en arbetsyta för att visa alla anslutningar till objekt och fält från andra program, oavsett vilken åtkomst du har i det andra programmet. </p>
+   <p>Visa eller ange högre behörigheter för de objekt som du vill länka från Workfront eller Experience Manager Assets. </p>
    <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p>
 </td>
   </tr>
@@ -129,28 +130,41 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * När du har anslutit posttyper visas de kopplade posttyperna som länkade postfält i tabellen med de posttyper som de är länkade från och på posternas sidor.
 * Du kan bläddra bland och lägga till poster och objekt för den länkade posten och objekttyperna från de länkade postfälten.
-* Du kan lägga till fält av de länkade posttyperna i tabellen med den posttyp som du länkar från.
-* Du kan inte uppdatera värdena för länkade fält manuellt på de poster som du länkar från.
+* Du kan lägga till fält (sökfält) för de länkade posttyperna i tabellen med den posttyp som du länkar från.
 
-  Värdena för de länkade fälten för de länkade posterna fyller i den Workfront Planning-post som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
+  Du kan lägga till fält (uppslagsfält) för de posttyper som du länkar från i tabellen med den posttyp som du länkar till.
+
+  Om du till exempel länkar posttypen för Produkt från posttypen för Campaign kan du visa produktfält för kampanjer samt kampanjfält för produkter.
+* Du kan inte uppdatera värdena för uppslagsfält manuellt på de poster som du länkar från.
+
+  Värdena för sökfälten för de länkade posterna fyller i den Workfront Planning-post som du länkar från automatiskt från den ursprungliga posten eller det ursprungliga objektet.
 
 * Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan kan se anslutningarna mellan posterna eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
 * Du kan koppla en post till ett eller flera objekt från ett annat program.
-* Om du vill länka poster till andra poster eller objekt måste du ha följande:
 
-   * Minst en arbetsyta, posttyp och post.
-
-     Mer information finns i följande artiklar:
-
-      * [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
-
-   * Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
 * Du kan koppla objekt från Workfront till Workfront Planning-poster i följande områden:
    * Från en planeringspost i Workfront Planning.
    * Under Planning för ett Workfront-objekt.
+
+* Du kan ansluta Workfront Planning-poster till Experience Manager Assets inom följande områden:
+
+   * Från en planeringspost i Workfront Planning
+
+
+## Krav för att länka poster
+
+Om du vill länka poster till andra poster eller objekt måste du ha följande:
+
+* Minst en arbetsyta, posttyp och post.
+
+  Mer information finns i följande artiklar:
+
+   * [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md)
+   * [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md)
+   * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
+
+* Kopplingar mellan posttyper eller mellan posttyper och objekt från andra program. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Koppla ihop poster från Workfront Planning
 
@@ -186,7 +200,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   >    Du kan öppna en postsida, leta upp det länkade postfältet och klicka **Koppla poster** i fältet för att lägga till poster från den anslutna posten eller objekttypen.
+   >    Du kan öppna en postsida, söka efter det länkade postfältet och klicka på det anslutna fältet (om det redan finns poster anslutna) eller klicka på **Koppla poster** (om fältet är tomt) om du vill lägga till poster från den anslutna posten eller objekttypen.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -307,6 +321,11 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager Assets kan du koppla enskilda poster till Experience Manager-resurser. De resursfält som du anslöt från Experience Manager Assets när du skapade anslutningen fylls automatiskt i på den posttyp som du länkade från.
+
+>[!NOTE]
+>
+>Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architectur
 
 ## Åtkomstkrav
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -58,9 +58,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Aktuell: Arbete eller högre</p>
+   <p>Nytt: Standard</p>  
   </td>
   </tr>
 
@@ -71,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Contribute eller högre behörighet till en arbetsyta </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -84,6 +85,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
+*Mer information finns på [Åtkomstkrav i Workforts dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Att tänka på när det gäller omslagsbilder för postsidor
 
 Du kan anpassa postens sida genom att lägga till en omslagsbild.
@@ -94,7 +97,8 @@ Tänk på följande:
 * Du kan bara lägga till bildfiler som omslagsbilder.
   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * Du kan lägga till en omslagsbild till enskilda poster från postförhandsvisningen i valfri vy eller från postsidan.
-* Du kan inte lägga till omslagsbilder som är infogade från någon postvy.
+* Du kan inte lägga till omslagsbilder från en postvy.
+* Workfront laddar automatiskt upp en omslagsbild varje gång du skapar en post. Du kan ändra den här bilden senare.
 
 ## Lägga till en omslagsbild till en post
 
@@ -118,15 +122,11 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
    eller
 
-   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn.
+   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
 
    Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
-
-   >[!TIP]
-   >
-   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
 
 1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
 
@@ -134,10 +134,25 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
    ![](assets/details-page.png)
 
-1. Klicka på Förhandsgranska post eller på en sida **Lägg till omslag**. <!--check the casing here; I logged a bug for this-->
-The **Postomslag** öppnas.
+1. Klicka på Förhandsgranska post eller på en sida **Lägg till omslag**
 
-1. Klicka **Välj att överföra** och bläddra efter en bild som du vill välja på datorn, lägga till den och klicka sedan på **Använd bild**.
+
+   eller
+
+   Hovra över en befintlig omslagsbild, klicka på **Mer** meny ![](assets/more-menu.png) och sedan klicka **Överför**. <!--check the casing here; I logged a bug for this-->
+The **Postomslag** öppnas i **Överför** -fliken.
+
+   ![](assets/record-cover-box-for-upload.png)
+
+1. Klicka **Bläddra bland bilder** och bläddra efter en bild på datorn för att markera och lägga till den.
+
+1. (Valfritt) Om du vill ta bort bilden innan den sparas klickar du på **Överför ny bild** icon ![](assets/upload-new-image-icon.png) och överför en ny bild.
+
+1. (Valfritt) Klicka på **Galleri** och sedan klicka på en bild i bildgalleriet. Det går inte att ändra bildgalleriet.
+
+   ![](assets/record-cover-box-for-gallery.png)
+
+1. Klicka **Använd bild**.
 
    Bilden överförs högst upp i postens förhandsgranskning eller sida och ändringarna sparas automatiskt.
 

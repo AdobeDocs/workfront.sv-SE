@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2404'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      Om du till exempel ansluter posttypen&quot;Campaign&quot; till posttypen&quot;Product&quot; skapas ett länkat postfält som du kallar&quot;Linked Product&quot; för posttypen Campaign, och en länkad posttyp som automatiskt kallas&quot;Campaign&quot; skapas för posttypen Produkt.
 
-   * **När du ansluter en posttyp med en objekttyp från ett annat program**: Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
+   * **När du ansluter en posttyp med en objekttyp från ett annat program**:
 
-     En ny skrivskyddad posttyp för Workfront Planning skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Workfront Planning-poster.
+      * Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
 
-     Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+      * En ny skrivskyddad posttyp för Workfront Planning skapas endast för det andra programmets objekt när de faktiska objekten är kopplade till Workfront Planning-poster.
+
+        Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+
+      * Det går inte att komma åt planeringsposter eller fält för dem från Workfront.
+      * Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
    * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till posttypen Workfront Planning. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
 
@@ -167,7 +172,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
 
-  Länkade fält föregås av en ikon som anger fälttypen. Till exempel ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
+  Länkade fält föregås av en ikon som anger fälttypen. Länkade (eller uppslag) fält föregås av ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
+
 
 ## Koppla posttyper
 
@@ -220,7 +226,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >    * Folk
      >    * Skapad av
      >    * Senast ändrad av
-     >    * Workfront typsnittsfält
+     >    * Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
 
 1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast objekt som uppfyller dessa villkor** -avsnitt. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
@@ -235,6 +241,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <!--replace the screen shot below when they fix the permissions info icon bug-->
 
    ![](assets/aem-assets-connection-selection.png)
+
+   >[!NOTE]
+   >
+   >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
 
 1. Klicka **Skapa**.
 
@@ -258,6 +279,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Valfritt) Klicka på **Hoppa över** och lägg inte till några fält från den länkade posten eller objektet. The **Namn** av den länkade posten är det enda synliga fältet i den ursprungliga postens tabellvy.
 
 1. (Valfritt och villkorligt) Om du väljer att länka ett tal, en valuta, en procentandel eller ett datumtypsfält, ska du även välja ett aggregeringsvärde. Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett aggregeringsvärde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
+
+   >[!IMPORTANT]
+   >
+   >    Du måste välja ett aggregeringsvärde när du lägger till datumfält, om du vill att fälten ska vara tillgängliga för att lägga till som start- och slutdatum för tidslinjen och kalendervyer.
+
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 

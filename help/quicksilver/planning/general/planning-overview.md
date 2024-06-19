@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1965'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,7 @@ Information om nya funktioner och när de släpps finns på [Adobe Workfront Pla
 | Adobe Workfront Planning modules for Adobe Workfront Fusion | ✓ |                                  |                 |
 | Kopiera och klistra in information från ett fält till ett annat | ✓ |                                  |                 |
 | Få åtkomst till planeringsposter från Workfront-objekt | ✓ |                                  |                 |
+| Anslut planeringsposter från Workfront-objekt | ✓ |                                  |                 |
 
 ## Aktivera Adobe Workfront Planning för användare i din Workfront-instans
 
@@ -208,9 +209,18 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkar samman enskilda poster kan du referera till de länkade posternas fält på den post du ansluter från.
 
-  Om du till exempel ansluter en Campaign-posttyp till en Workfront Project-objekttyp kan du visa fältet Projektägare för anslutna projekt på kampanjposterna.
+  Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna.
 
   ![](assets/add-lookup-fields-modal.png)
+
+  >[!TIP]
+  >
+  > Du kan inte lägga till följande fälttyper som sökfält:
+  >
+  >* Folk
+  >* Skapad av
+  >* Senast ändrad av
+  >* Workfront typsnittsfält (inklusive fält som Projektägare eller Projektsponsor)
 
   Mer information om hur du länkar posttyper, poster och skapar länkade fält finns i följande artiklar:
 
@@ -285,7 +295,7 @@ Så här hittar du Workfront Planning:
 
    ![](assets/planning-landing-page-admin.png)
 
-   1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på någon av följande flikar:
+1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på någon av följande flikar:
    * **Mina arbetsytor**: Visar arbetsytor som du har skapat.
    * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig.
 

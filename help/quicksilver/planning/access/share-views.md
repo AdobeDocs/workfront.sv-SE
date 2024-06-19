@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -130,6 +130,12 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 1. Klicka **Kopiera länk** om du vill kopiera en länk till vyn till Urklipp.
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 1. Klicka **Spara**.
+
+   >[!TIP]
+   >
+   >   Vyer som delas med dig har en personindikator ![](assets/view-shared-with-others-people-icon.png) bredvid visningsikonen. Vyer utan personindikatorn är vyer som du har skapat.
+
+
 
 <!--
 ## Share permissions to a view publicly

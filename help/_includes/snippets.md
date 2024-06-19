@@ -1,7 +1,7 @@
 ---
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '2243'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -256,7 +256,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
    * **Mina arbetsytor**: Visar arbetsytor som du har skapat.
    * **Andra arbetsytor**: Visar alla arbetsytor i Workfront Planning, inklusive de som delas med dig.
 
-   För alla andra användare visas alla arbetsytor som de har skapat eller som delas med dem i **Arbetsytor** område.
+   För alla andra användare visas alla arbetsytor som du har skapat eller som delas med dig i **Arbetsytor** område.
 
 ## Workfront Planning important intro - {#planning-important-intro}
 

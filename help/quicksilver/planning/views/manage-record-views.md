@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
@@ -198,7 +198,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    >[!TIP]
    >
-   >    Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna post- eller objekttyper.
+   >    Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna post- eller objekttyper. Du måste använda aggregerare för datumfält (MAX eller MIN) när du väljer uppslagsfält som start- och slutdatum för tidslinjen och kalendervyer. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 1. Klicka **Skapa**.
 
