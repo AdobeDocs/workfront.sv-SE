@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
 workflow-type: tm+mt
-source-wordcount: '14352'
+source-wordcount: '14364'
 ht-degree: 0%
 
 ---
@@ -162,6 +162,7 @@ ht-degree: 0%
          * [21.1 Andra förbättringar](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Versionsaktivitet för Adobe Workfront Fusion {#fusion-release}
          * [Versionsaktivitet för Adobe Workfront Fusion](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Versionsaktivitet för Workfront Fusion: 17 juni 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-17.md)
          * [Versionsaktivitet för Workfront Fusion: 3 juni 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
          * [Versionsaktivitet för Workfront Fusion: 20 maj 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
          * [Versionsaktivitet för Workfront Fusion: 13 maj 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
@@ -2237,6 +2238,7 @@ ht-degree: 0%
       * [Adobe Creative Cloud Libraries-moduler](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
       * [Adobe Campaign Classic moduler](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets moduler](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+      * [Adobe I/O Events-moduler](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Modulen Adobe Experience Manager Forms](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
       * [Adobe Firefly-moduler](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
       * [Adobe Journey Optimizer moduler](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
