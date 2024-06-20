@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Om du vill använda knappen Indrag/Minska indrag måste du se till att aktivitet
 
 ## Varför kan jag inte ändra projektstatus till Fullständig?
 
-Jag får följande felmeddelande när jag försöker markera projektet som färdigt:
+Jag får följande felmeddelande när jag försöker markera mitt projekt som färdigt:
 
 ![Project_FAQ_Complete_Error_message.png](assets/project-faq-complete-error-message-350x138.png)
 
@@ -51,7 +51,7 @@ Du kan inte ändra status för ett projekt till slutfört om du har något av f�
 
 ### Svar
 
-Om slutförandeläget är inställt på Automatiskt för projektet, när alla uppgifter och ärenden är slutförda, ändras projektets status automatiskt till Fullständigt och du kan inte ändra den till någon annan status. Projektets slutföringsläge måste anges till Manuellt för att ett fullständigt projekt ska kunna ändras till Aktuell. Mer information finns i [Projektstatus ändras inte från Fullständigt till Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Om slutförandeläget är inställt på Automatiskt för projektet, när alla uppgifter och ärenden är slutförda, ändras projektets status automatiskt till Fullständigt och du kan inte ändra den till någon annan status. Slutförandeläget för projektet måste anges till Manuellt för att ett fullständigt projekt ska kunna ändras till Aktuell. Mer information finns i [Projektstatus ändras inte från Fullständigt till Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Varför kan jag inte lägga till ett projekt i en Portfolio trots att jag har rätt behörighet att göra det?
 
@@ -61,7 +61,7 @@ Om slutförandeläget är inställt på Automatiskt för projektet, när alla up
 
 Detta orsakas av att Portfolio-statusen är inaktiv. Så här ändrar du status för Portfolio:
 
-1. Klicka på **Portfolio Details > Overview**.
+1. Klicka på **Information om Portfolio > Översikt**.
 1. Ändra **Status** till **Aktiv.**
 
 1. Klicka **Spara**.\
@@ -85,7 +85,7 @@ Mer information finns i artikeln [Skapa eller redigera en status](../../../admin
 
 ### Svar
 
-Budgetstatus visar om projektet har lagts till i kapacitetsplaneraren och om budgetberäkningen har slutförts.
+Budgetstatus visar om projektet för närvarande har lagts till i kapacitetsplaneraren och om budgetberäkningen har slutförts.
 
 Följande är budgetstatus:
 

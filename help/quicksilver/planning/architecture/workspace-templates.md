@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -100,55 +100,81 @@ You must have the following:
 
 Följande är arbetsytemallar i Workfront Planning och det antal fält de innehåller:
 
-* **Marknadsföringshantering**: Ni kan hantera alla era marknadsföringskampanjer med den här mallen. Mallen innehåller följande:
+* **Grundläggande: Marknadsföringshantering**: Idealiskt för organisationer som bygger grunden för ett grundläggande marknadsföringssystem. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
-      * **Marknadsföringsplan**: 7 fält och 5 länkade fält
-      * **Campaign**: 9 fält och 7 länkade fält
-      * **Program**: 9 fält och 5 länkade fält
-      * **Aktivitet**: 6 fält och 5 länkade fält
+      * **Campaign**: 15 fält
    * Taxonomier:
-      * **Målgrupp**: 3 fält och 3 länkade fält
-      * **Segment**: 5 fält och 1 länkat fält
-      * **Kundresa**: 4 fält
-      * **Erbjudande**: 3 fält och 1 länkat fält
-      * **Län**: 1 fält
-      * **Taktisk**: 1 fält
-      * **Kanaler**: 1 fält och 1 länkat fält
-      * **Affärsenhet**: 1 fält
-      * **Funktion**: 1 fält
 
-* **Försäljningshantering**: Du kan skapa ett omfattande säljsystem som effektiviserar säljprocessen och ökar effektiviteten. Mallen innehåller följande:
+      * **Personas**: 7 fält
+      * **Varumärken**: 6 fält
+      * **Produkter**: 5 fält
+
+* **Avancerat: Marknadsföringshantering**: Lämpligt för team som vill utforska mer nyanserade marknadsföringsstrategier. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
-      * **Möjligheter**: 7 fält och 4 länkade fält
-      * **Aktivitet**: 4 fält och 5 länkade fält
-      * **Campaign**: 5 fält och 3 länkade fält
+      * **Kampanjer**: 14 fält
+      * **Program**: 23 fält
+
    * Taxonomier:
-      * **Konto**: 4 fält och 3 länkade fält
-      * **Lead**: 12 fält och 2 länkade fält
-      * **Kontakt**: 10 fält och 2 länkade fält
-      * **Län**: 1 fält och 2 länkade fält
-      * **Bransch**: 1 fält
+      * **Regioner**: 1 fält
+      * **Kundresefaser**: 4 fält
+      * **Målgrupper**: 8 fält
+      * **Leveranser**: 12 fält
+      * **Varumärken**: 6 fält
+
+* **Enterprise: Marketing Management**: Utformad för stora eller mogna organisationer med komplexa marknadsföringssystem. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
+
+   * Operativa posttyper:
+
+      * **Kampanjer**: 15 fält
+      * **Program**: 15 fält
+      * **Taktik**: 11 fält
+      * **Verksamhet**: 18 fält
+
+   * Taxonomier:
+
+      * **Produkter**: 10 fält
+      * **Leveranser**: 18 fält
+      * **Målgrupper**: 8 fält
+      * **Regioner**: 8 fält
+      * **Underregioner**: 7 fält
+      * **Partners**: 7 fält
+      * **Användningsexempel**: 7 fält
+      * **Kundresefaser**: 3 fält
+
+* **Försäljningshantering**: Du kan skapa ett omfattande säljsystem som effektiviserar säljprocessen och ökar effektiviteten. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
+
+   * Operativa posttyper:
+
+      * **Möjligheter**: 11 fält
+      * **Aktivitet**: 9 fält
+      * **Campaign**: 8 fält
+   * Taxonomier:
+      * **Konto**: 7 fält
+      * **Lead**: 14 fält
+      * **Kontakt**: 12 fält
+      * **Län**: 3 fält
+      * **Bransch**: 2 fält
       * **Buying Center**: 1 fält
       * **Produkt/tjänst**: 1 fält
       * **Konkurrens**: 1 fält
 
-* **Produkthantering**: Du kan skapa en effektiv och strukturerad produkthanteringsprocess med den här mallen. Mallen innehåller följande:
+* **Produkthantering**: Du kan skapa en effektiv och strukturerad produkthanteringsprocess med den här mallen. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
-      * **Tema**: 8 fält och 2 länkade fält
-      * **Initiative**: 8 fält och 2 länkade fält
-      * **Epic**: 9 fält och 3 länkade fält
-      * **Användarberättelse**: 9 fält och 2 länkade fält
+      * **Tema**: 10 fält
+      * **Initiative**: 10 fält
+      * **Epic**: 12 fält
+      * **Användarberättelse**: 11 fält
 
    * Taxonomier:
 
-      * **Kund**: 6 fält och 1 länkat fält
-      * **Sprint**: 7 fält och 1 länkat fält
-      * **Produktgrupp**: 3 fält
-      * **Funktionsförfrågningar**: 8 fält och 1 länkat fält
-      * **Bransch**: 1 fält och 1 länkat fält
+      * **Kund**: 8 fält
+      * **Sprint**: 9 fält
+      * **Produktgrupp**: 4 fält
+      * **Funktionsförfrågningar**: 9 fält
+      * **Bransch**: 2 fält

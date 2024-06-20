@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,9 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
 1. (Valfritt och villkorligt) Klicka på **Förhandsgranska** i någon av följande fördefinierade arbetsytemallar:
 
-   * Marknadsföringshantering
+   * Grundläggande: Marknadsföringshantering
+   * Avancerat: Marknadsföringshantering
+   * Enterprise: Marketing Management
    * Försäljningshantering
    * Produkthantering
 
@@ -133,7 +135,7 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
    eller
 
-   Klicka **Bakåt** och sedan klicka **Skapa arbetsyta** för att skapa en arbetsyta från grunden.
+   Klicka **Bakåt** och sedan klicka **Ny arbetsyta** för att skapa en arbetsyta från grunden.
 
    En av följande typer av arbetsytor skapas:
 

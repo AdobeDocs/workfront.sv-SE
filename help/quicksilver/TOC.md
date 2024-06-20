@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '14351'
+source-wordcount: '14352'
 ht-degree: 0%
 
 ---
@@ -2091,7 +2091,7 @@ ht-degree: 0%
       * [Översikt över avsnittet Historik](planning/records/history-section-overview.md)
       * [Lägga till en miniatyrbild i en post](planning/records/add-thumbnails-to-records.md)
       * [Lägga till en omslagsbild till en post](planning/records/add-a-cover-image-to-a-record.md)
-      * [Hantera postsidan](planning/records/manage-the-record-page.md)
+      * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
       * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
    * Adobe Workfront Planeringsvyer {#adobe-workfront-planning-views}
       * [Vyer: artikelindex](planning/views/views-information.md)

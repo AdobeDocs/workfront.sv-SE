@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1752'
 ht-degree: 0%
 
 ---
@@ -280,7 +280,13 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    * **Standard (grått)**: Färgen på grupperingarna är inställd på grått. Det här är standardinställningen.
    * **Fältvärden**: Färgen på grupperingarna matchar färgen på fältet som du grupperar efter.
-Du kan bara matcha färgen på grupperingarna mot fält med färgkodade alternativ.
+
+     >[!NOTE]
+     >
+     >    * Du kan bara matcha färgen mot fält med färgkodade alternativ. Du kan till exempel matcha färgen mot statusfälten eller fält med alternativ som är kopplade till färger.
+     >    
+     >    * Du kan inte matcha färgen mot uppslagsfält från länkade poster eller objekttyper.
+
 
    Flervalsfält eller envalsfält kan t.ex. ha färgkodade alternativ.
 

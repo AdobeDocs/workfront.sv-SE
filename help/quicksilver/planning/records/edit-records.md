@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -106,14 +106,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Du kan inte redigera flera poster samtidigt. <!--this will probably change-->
 * URL-adresser känns bara igen som länkar i enradiga textfält när de börjar med följande: http://, https://, ftp:// eller www. .
 * Du kan lägga till en omslagsbild till varje post. Bilden är unik för varje post och gäller inte för alla poster samtidigt.
-* Du kan redigera fältordningen på en postsida och lägga till en omslagsbild för en post. Mer information finns i [Hantera postsidan](/help/quicksilver/planning/records/manage-the-record-page.md).
+* Du kan redigera fältordningen på en postsida och lägga till en omslagsbild för en post. Mer information finns i [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Redigera poster
 
 Du kan redigera en post i följande områden:
 
-* [Från tabellvyn för en posttyp](#edit-a-record-from-the-table-view-of-a-record-type)
-* [Från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-box-in-a-view)
+* [Från tabellvyn för en posttyp](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [Från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view)
 * [Från postens sida](#edit-a-record-from-the-records-page)
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
@@ -200,17 +200,17 @@ Du kan redigera en post i följande områden:
 
    Posttypssidan öppnas.
 
-1. Klicka på en post i en vy av valfri typ
+1. Klicka på posten i en vy av valfri typ
 
    eller
 
-   I tabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) till vänster om ett postnamn. Postens förhandsgranskning öppnas i vyn.
+   I tabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen. Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
-   >[!TIP]
-   >
-   >Du kan visa **Öppna detaljer** ikonen till vänster om fältet Namn för en post i en tabellvy enbart när fältet Namn är primärt.
+1. (Valfritt) Klicka på **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
+
+   Postens rubrik är det primära fältet i posten när den visas i en tabellvy. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 1. Börja redigera fältinformationen i postens förhandsgranskning.
 
@@ -218,10 +218,12 @@ Du kan redigera en post i följande områden:
    >
    >  Du kan inte redigera information för följande fält eftersom de är skrivskyddade och Workfront uppdaterar dem automatiskt:
    >  
-   >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Sök efter fält från andra poster som har skapats genom att koppla posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
 
 1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Valfritt) Håll pekaren över miniatyrbildikonen och klicka sedan på **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** om du vill lägga till en miniatyrbild. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront sparar automatiskt ändringarna.
 
@@ -251,6 +253,10 @@ Du kan redigera en post i följande områden:
 
      ![](assets/details-page.png)
 
+1. (Valfritt) Klicka på **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
+
+   Postens rubrik är det primära fältet i posten när den visas i en tabellvy. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+
 1. Klicka på ett redigerbart fält på postsidan för att redigera det.
 
    >[!TIP]
@@ -260,7 +266,17 @@ Du kan redigera en post i följande områden:
    >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
 
-1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+1. (Valfritt) Klicka på **Lägg till omslag** för att lägga till en omslagsbild i posten
+
+   eller
+
+   Hovra över den befintliga omslagsbilden och klicka sedan på **Mer** meny ![](assets/more-menu.png) > **Överför** om du vill lägga till en ny omslagsbild för posten.
+
+   Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+
+1. (Valfritt) Hovra över en befintlig miniatyrbild eller över **miniatyrbildikon** ![](assets/record-thumbnail-icon-on-details-page.png)och klickar sedan på **Mer** meny ![](assets/more-menu.png) > **Redigera miniatyrbild** om du vill lägga till en miniatyrbild för posten.
+
+   Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront sparar automatiskt ändringarna.
 

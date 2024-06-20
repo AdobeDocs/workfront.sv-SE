@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: d0880e0b58a3fb853569e2c09efc495cbd9c38ec
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '2619'
+source-wordcount: '2645'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
      >
      >* Du kan inte flytta fältet Namn till en annan plats om du inte anger ett annat fält som primärt fält. Mer information finns i steg 4. <!--accurate?-->
      >
-     >* Du kan inte dölja eller ta bort ett primärt fält.
      >
-     >* Det primära fältet är fryst och ingår inte i den vågräta rullningen.
 
    * Ersätt fältet i den första kolumnen med ett annat fält genom att ändra det primära fältet. Mer information finns i steg 4. <!--accurate?-->
 
@@ -167,7 +165,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >       * Nummer
    >       * Formel
    >
-   >   * Det primära fältet är alltid fryst och kan inte flyttas. Du kan välja ett annat fält som ska ersätta ett primärt fält om du behöver flytta det till en annan plats.
+   >   * Det primära fältet är alltid fryst och kan inte flyttas eller döljas. Det primära fältet är fryst och ingår inte i den vågräta rullningen. Du kan välja ett annat fält som ska ersätta ett primärt fält om du behöver flytta det till en annan plats.
    >
    >   * Om du ändrar det primära fältet i tabellvyn påverkas vyn för alla andra användare som väljer det.
    >
@@ -176,6 +174,8 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >   * Du kan inte ta bort eller dölja ett primärt fält.
    >
    >   * Värdet i det primära fältet är alltid länkat till postens sida.
+   >
+   >   * Primära fält blir postens titel och visas på postsidorna i postens rubrikområde, och överallt där posterna visas. Postens titel visas till exempel i anslutna fält och i alla vyer.
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
@@ -230,7 +230,7 @@ Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 
    Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om postnamnet för att ändra ordning på raderna.
+1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om posten för att ändra ordning på raderna.
 
    >[!NOTE]
    >
@@ -264,7 +264,7 @@ Tänk på följande när du arbetar med filter i tabellvyn:
 
 * Du kan filtrera efter anslutna postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
 
-* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar ett filter för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i filtret som du skapar för aktivitetsposttypen.
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar ett filter för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets budget i filtret som du skapar för aktivitetsposttypen.
 
 Så här lägger du till ett filter i en tabellvy:
 
@@ -375,7 +375,7 @@ Tänk på följande:
 * Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
 * Du kan redigera poster som listas under en gruppering.
 * Du kan gruppera efter kopplade postfält eller sökfält, men inte för de fält som tillåter länkning till flera poster.
-* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en gruppering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i den gruppering som du skapar för aktivitetsposttypen.
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en gruppering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den gruppering du skapar för aktivitetsposttypen.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -403,7 +403,7 @@ Så här lägger du till en gruppering:
    Klicka **Rensa alla** om du vill ta bort alla fält.
 
 1. Klicka utanför **Gruppera poster efter** för att stänga den.
-1. (Valfritt) Klicka på **+ Ny &lt; posttypnamn >** i slutet av en gruppering för att lägga till nya poster, och sedan uppdatera sidan för att lägga till den nya posten i rätt gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster, och sedan uppdatera sidan för att lägga till den nya posten i rätt gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Lägg till en sortering {#sort-information}
 
@@ -432,7 +432,7 @@ Tänk på följande när du sorterar poster i tabellvyn:
 
 * Du kan sortera efter kopplade postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
 
-* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en sortering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektägaren i den sortering som du skapar för aktivitetsposttypen.
+* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en sortering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den sortering du skapar för aktivitetsposttypen.
 
 Sortera <!--ungrouped (add this when sorting for groupings will be available--> poster, gör följande:
 

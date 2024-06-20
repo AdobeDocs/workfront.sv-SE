@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -121,11 +121,16 @@ Alla poster av den valda typen visas i vyn.
 
       * Klicka **Ny post** i det övre högra hörnet på sidan. Förhandsgranskningsrutan för posten öppnas.
 
-1. Börja skriva information på den nya raden om den nya posten eller i fälten som visas i förhandsvisningsrutan.
+     Workfront överför automatiskt en miniatyrbild och en omslagsbild till varje ny post. Du kan ändra dessa bilder senare. Mer information finns i följande artiklar:
+
+      * [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. Börja skriva information om den nya posten i de fält som visas i förhandsvisningsrutan.
 
    >[!NOTE]
    >
-   >  * Det finns inga obligatoriska fält för poster. Vi rekommenderar dock att du lägger till ett namn för posten, eftersom det är praktiskt att identifiera poster med deras namn när de länkar poster till varandra.
+   >  * Det finns inga obligatoriska fält för poster. Vi rekommenderar dock att du lägger till information för det primära fältet i en post, eftersom det är praktiskt att identifiera poster när du länkar poster till varandra. Mer information om primära fält finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
    >
    >  * Fält som refererar till andra posttyper eller beräknade fält är skrivskyddade fält.
 
@@ -140,7 +145,7 @@ Alla poster av den valda typen visas i vyn.
    >Du kommer åt **Öppna detaljer** -ikonen från postens namnfält när fältet Namn är ett primärt fält.
 
 1. Börja redigera postens information i postens förhandsgranskning. Workfront sparar automatiskt ändringarna.
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan.
+1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten på postsidan. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Valfritt) Använd följande kortkommandon om du vill ångra eller göra om tillägg av nya poster eller deras information när du lägger till dem i tabellvyn:
 
