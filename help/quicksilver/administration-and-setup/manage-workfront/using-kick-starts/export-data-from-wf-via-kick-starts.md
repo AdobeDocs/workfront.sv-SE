@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -330,17 +330,17 @@ Följande begränsningar gäller vid export av data via direktstart (data export
 
    Den exporterade startfilen hämtas till datorn antingen som en Excel-fil eller en . zip-fil som innehåller flera Excel- och egenskapsfiler. Varje Excel-fil är en samling blad, där varje blad representerar ett fält som är associerat med det markerade objektet. Det finns en **Egenskaper** blad som är associerade med varje export.
 
-   The **Kontrollpanel** och **Rapport** Med kan du välja särskilda instrumentpaneler och rapporter som ska inkluderas i hämtningen. Du kan bara exportera instrumentpaneler som är delade i hela systemet.
+   The **Kontrollpanel** och **Rapport** Med kan du välja särskilda instrumentpaneler och rapporter som ska inkluderas i hämtningen. Du kan bara exportera kontrollpaneler som är delade i hela systemet.
 
    Du kan inte exportera matrisrapporter. Mer information om matrisrapporter finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Quick-Starts stöder inte textlägesfilter. Rapporteringsfiltren måste växlas till standardläge för att exporten ska lyckas.
 
    Du kan välja upp till 100 instrumentpaneler och 100 rapporter i en enda export.
 
    ![](assets/kickstart-export-350x381.png)
 
    Du kan exportera flera objekt samtidigt.
-
-
 
 1. (Rekommenderas) Analysera exporterade data för att kontrollera att all information som du förväntar dig har exporterats.
 
