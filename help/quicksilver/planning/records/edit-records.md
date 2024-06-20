@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1678'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,7 @@ Du kan redigera en post i följande områden:
 * [Från tabellvyn för en posttyp](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [Från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view)
 * [Från postens sida](#edit-a-record-from-the-records-page)
+* [Från ett Workfront-objekt i Planning-avsnittet](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
 
@@ -210,7 +211,7 @@ Du kan redigera en post i följande områden:
 
 1. (Valfritt) Klicka på **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
 
-   Postens rubrik är det primära fältet i posten när den visas i en tabellvy. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
+   Postens rubrik är det primära fältet i posten när den visas i en tabellvy. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Börja redigera fältinformationen i postens förhandsgranskning.
 
@@ -280,3 +281,8 @@ Du kan redigera en post i följande områden:
 
    Workfront sparar automatiskt ändringarna.
 
+## Redigera en post från ett Workfront-objekt i planeringsavsnittet
+
+När du har kopplat poster till Workfront-objekt kan du redigera Workfront Planning-poster i Workfront från objektets Planning-avsnitt.
+
+Mer information finns i [Hantera poster i Planning-delen av Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '7510'
+source-wordcount: '7684'
 ht-degree: 0%
 
 ---
@@ -132,6 +132,30 @@ Förhandsgranska: Ska bestämmas
 Vi har lagt till länken Visa mer/Visa mindre i ett anslutet postfält, när det finns poster som annars skulle visas på mer än två rader på detaljsidan för en post.
 
 Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+
+### Fyll i namnfältet automatiskt med postnamnet vid anslutning av posttyper
+
+Produktion: 20 juni 2024
+
+Förhandsgranska: Ska bestämmas
+
+När du skapar en anslutning mellan två poster eller mellan en post och ett objekt från ett annat program fylls anslutningsfältets namn automatiskt i med namnet på den anslutna posten. Före den här förbättringen var du tvungen att lägga till ett namn för anslutningsfältet manuellt.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Definiera hur kopplade poster visas i anslutna fält
+
+Produktion: 20 juni 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du bestämma hur kopplade poster ska visas i anslutna fält. När du lägger till en ny anslutning till en posttyp kan du nu välja att visa den anslutna postens titel och dess miniatyrbild eller bara miniatyrbilden.
+
+En posts titel är antingen postens namn eller ett fält som är angivet som primärt fält i posttypens tabellvy.
+
+Den här förbättringen är tillgänglig för poster som är kopplade från Workfront Planning och för resurser som är kopplade från Adobe Experience Manager.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Vecka 10 juni 2024
 
@@ -563,6 +587,7 @@ Produktion: 14 mars 2024 Förhandsvisning: Ska fastställas
 Vi har uppdaterat vyernas utseende och känsla på posttypssidan. De nya vyerna är dynamiskt responsiva och justeras snabbt till skärmstorleken. Alternativetiketterna för verktygsfält är dolda på mindre skärmar för att göra verktygsfältet enklare att använda.
 
 Mer information finns i följande artiklar:
+
 * [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

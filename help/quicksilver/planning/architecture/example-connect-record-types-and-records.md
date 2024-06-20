@@ -1,13 +1,13 @@
 ---
 title: Exempel på att ansluta posttyper och poster
-description: I den här artikeln beskrivs ett exempel på hur du skapar en anslutning mellan posttypen Adobe Workfornt Planning och en Workfront-projektobjekttyp. Här beskrivs också hur du kan koppla en Workfront Planning-post till ett enskilt projekt.
+description: I den här artikeln beskrivs ett exempel på hur du skapar en anslutning mellan posttypen Adobe Workfront Planning och objekttypen Workfront. Här beskrivs också hur du kan koppla en Workfront Planning-post till ett enskilt projekt.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1834'
 ht-degree: 0%
 
 ---
@@ -49,6 +49,7 @@ Så här gör du:
 
    ![](assets/new-connection-with-product-record-type.png)
 
+1. (Valfritt) Avmarkera **Titel** växla i **Postens utseende** om du bara vill visa postens miniatyrbild i de anslutna fälten. Om det här alternativet är aktiverat visas både miniatyrbilden och titeln. Växlingsknappen är aktiverad som standard.
 1. (Villkorligt) Om du markerade **Välj alternativ för sökfält** i föregående steg, från listan med fält som är kopplade till **Produkt** posttyp, klicka på **+** ikonen för **Budget** fält och klicka sedan på **Lägg till fält**. Detta skapar ett fält med namnet **Budget (från produktinformation)**, vilket är namnet på det länkade fältet. All information för produktbudgeten visas i det här fältet för kampanjposterna.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -57,13 +58,13 @@ Så här gör du:
    >
    >    Om du vill visa budgeten för alla valda produkter som ett totalt tal väljer du **SUM** i listrutan till höger om fältnamnet. När användare väljer flera produkter i **Produktinformation** länkat postfält, **Budget (från produktinformation)** läggs alla deras budgetvärden samman och summan visas. <!-- check the shot below - added a bug with a couple of UI changes here-->
    >
-   > Om du väljer **Ingen**, i stället för **SUM** visas de enskilda budgetarna för de valda produkterna åtskilda med kommatecken.
+   > Om du väljer **Ingen**, i stället för **SUM**, visas de enskilda budgetarna för de valda produkterna åtskilda med kommatecken.
 
    Detta genererar följande fält:
 
    * I registervyn Campaign och på kampanjpostsidan för en kampanj:
 
-      * **Produktinformation** (det länkade postfältet): Detta visar namnen på produkterna när du lägger till dem.
+      * **Produktinformation** (det länkade postfältet): Här visas namnen på produkterna när du lägger till dem.
       * **Budget (från produktinformation)** (det länkade fältet): Här visas budgetarna för de produkter som valts i fältet Produktinformation.
 
    * I produktposttabellvyn och på produktpostsidan för en produkt:
@@ -78,7 +79,7 @@ Så här gör du:
 
 1. Från **Campaign** posttypstabellvy, skapa en kampanj genom att lägga till en ny rad i posttypssidans tabell för Campaign.
 
-1. Dubbelklicka inuti  **Produktinformation** den nya kampanjens kolumn.
+1. Dubbelklicka inuti **Produktinformation** den nya kampanjens kolumn.
 
    ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -166,7 +167,7 @@ Så här gör du:
 
 1. Från **Campaign** posttyptabellvy, skapa en kampanj genom att lägga till en ny rad i tabellen.
 
-1. Dubbelklicka inuti  **Projektinformation** den nya kampanjens kolumn.
+1. Dubbelklicka i kolumnen med projektinformation** i den nya kampanjen.
 
    ![](assets/connect-projects-smaller-box-in-table.png)
 
@@ -204,14 +205,14 @@ Så här gör du:
 
 1. Klicka på namnet på ett projekt i det anslutna postfältet.
 
-   Detta öppnar den skrivskyddade sidan för projektet Woekfront Planning.
+   Detta öppnar den skrivskyddade sidan för Workfront Planning Project.
 Granska information om projektet. Endast markerade projektfält visas på postens sida.
 
 1. Klicka **Gå till källa** i skärmens övre högra hörn för att öppna projektet i Workfront, om du har minst behörigheten Visa för projektet.
 1. (Valfritt) Uppdatera information om projektet i Workfront, om du har behörighet att göra det.
 
 1. (Valfritt) I Campaign-tabellvyn håller du pekaren över **Projektinformation** och klicka på nedåtpilen och klicka sedan på **Redigera uppslagsfält.**
-1. Klicka på **+** ikon för de projektfält som du vill lägga till i projektposten för Workfront Planning i **Omarkerade fält** -avsnitt.
+1. Klicka på **+** ikon för alla projektfält som du vill lägga till i projektposten för Workfront Planning i **Omarkerade fält** -avsnitt.
 1. Klicka på **-** ikon för alla projektfält som du vill ta bort från Workfront Project Planning-posten i **Markerade fält** -avsnitt.
 1. Klicka **Spara**.
 

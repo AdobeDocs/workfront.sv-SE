@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: 0411db95c2c4b85fdc09ec11ca90dec60deacbb7
 workflow-type: tm+mt
-source-wordcount: '14364'
+source-wordcount: '14367'
 ht-degree: 0%
 
 ---
@@ -2074,6 +2074,7 @@ ht-degree: 0%
       * [Redigera fält](planning/fields/edit-fields.md)
       * [Ta bort fält](planning/fields/delete-fields.md)
       * [Översikt över formelfält](planning/fields/formula-fields.md)
+      * [Översikt över primärt fält](planning/fields/primary-field-overview.md)
    * Åtkomst till Adobe Workfront Planning {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning - åtkomstinformation: artikelindex](planning/access/access-information.md)
       * [Åtkomstöversikt](planning/access/access-overview.md)

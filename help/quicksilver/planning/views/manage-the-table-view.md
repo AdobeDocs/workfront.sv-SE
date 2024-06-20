@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2645'
+source-wordcount: '2543'
 ht-degree: 0%
 
 ---
@@ -157,25 +157,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    Fältet blir ett primärt fält, vilket betyder att det visas som den första kolumnen i tabellvyn. Det föregående primära fältet flyttas till den andra kolumnen.
 
-   >[!NOTE]
-   >
-   >   * Endast fält av följande typer kan vara primära fält:
-   >
-   >       * Enkelradig text
-   >       * Nummer
-   >       * Formel
-   >
-   >   * Det primära fältet är alltid fryst och kan inte flyttas eller döljas. Det primära fältet är fryst och ingår inte i den vågräta rullningen. Du kan välja ett annat fält som ska ersätta ett primärt fält om du behöver flytta det till en annan plats.
-   >
-   >   * Om du ändrar det primära fältet i tabellvyn påverkas vyn för alla andra användare som väljer det.
-   >
-   >   * Om du ändrar det primära fältet i en tabellvy påverkas alla tabellvyer.
-   >
-   >   * Du kan inte ta bort eller dölja ett primärt fält.
-   >
-   >   * Värdet i det primära fältet är alltid länkat till postens sida.
-   >
-   >   * Primära fält blir postens titel och visas på postsidorna i postens rubrikområde, och överallt där posterna visas. Postens titel visas till exempel i anslutna fält och i alla vyer.
+   Primära fält blir postens titel och visas i rubrikområdet på postens sida, och överallt där posterna visas. Postens titel visas till exempel i anslutna fält och i alla vyer. Mer information om primära fält finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 

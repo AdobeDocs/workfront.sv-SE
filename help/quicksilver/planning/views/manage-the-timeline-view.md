@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -251,7 +251,7 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
 1. Klicka **Stapelformat** i den vänstra panelen för att ange vilka fält som ska visas i postfälten.
 
-   Fältet Namn är markerat som standard. <!--adjust this when the primary field is released??-->
+   Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard. <!--adjust this when the primary field is released??-->
 
 1. (Valfritt och villkorligt) Om du har lagt till miniatyrbilder i poster, markerar du alternativet Miniatyrbild för att visa den bild som är associerad med posterna i deras postfält.
 

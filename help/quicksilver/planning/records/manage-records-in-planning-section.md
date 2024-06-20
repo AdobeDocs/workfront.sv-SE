@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
 * Du kan visa Planning-avsnittet i ett Workfront-objekt, även när det inte finns några poster kopplade till Workfront-objektet.
 * Du kan koppla planeringsposter till Workfront-objekt från Workfront, i planeringsavsnittet, när det finns minst en post kopplad till Workfront-objektet.
-* Du måste ha Contribute eller högre behörighet för en arbetsyta för att kunna ansluta poster från Workfront-objekten.
+* Du måste ha behörigheten Hantera på en arbetsyta för att kunna ansluta poster från Workfront-objekten.
 
 ## Hantera poster i planeringsavsnittet
 
@@ -138,7 +138,7 @@ Objektets sida öppnas i Workfront Planning.
 
 1. Klicka på ett postkort om du vill visa mer information om posten. Postens förhandsvisningsruta visas.
 1. (Valfritt) Börja ändra fält i postens förhandsvisningsruta. Ändringarna sparas automatiskt.
-1. (Valfritt) Klicka på **Öppna på en ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida.
+1. (Valfritt) Klicka på **Öppna på en ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida. Postens informationssida öppnas i Workfront Planning.
 1. Håll muspekaren över ett minneskort och klicka sedan på ikonen för att koppla från post **-** och sedan klicka **Koppla från**.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
@@ -148,7 +148,7 @@ Följande saker händer:
 
    >[!NOTE]
    >
-   >   Knappen Anslut visas bara för de arbetsytor där du har Contribute-behörighet.
+   >   Knappen Anslut visas bara för de arbetsytor där du har Contribute-behörighet. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Klicka på de poster som du vill ansluta. Följande saker händer:
 

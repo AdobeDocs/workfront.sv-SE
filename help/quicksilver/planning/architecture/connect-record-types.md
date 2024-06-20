@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2486'
 ht-degree: 0%
 
 ---
@@ -30,19 +30,18 @@ author: Alina
 
 {{planning-important-intro}}
 
-Du kan använda Adobe Workfront Planning för att utforma anpassningsbara arbetsytor som innehåller de posttyper som behövs i organisationen. Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyperna Workfront Planning till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
+<!--
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 Du kan koppla posttyper till varandra eller posttyper med objekttyper från andra program.
 
-På så sätt kan du visa fält från den länkade posten eller objekttypen på en Workfront Planning-post.
+I den här artikeln beskrivs hur du kan koppla två Workfront Planning-posttyper till en Workfront Planning-posttyp med ett objekt från ett annat program.
 
-I den här artikeln beskrivs hur du kan koppla två posttyper i Workfront Planning eller en posttyp till ett objekt från ett annat program.
-
-När du har upprättat en anslutning mellan poster eller objekttyper kan du koppla enskilda poster till varandra.
+När du har upprättat anslutningen mellan poster eller objekttyper kan du koppla enskilda poster till varandra och visa fält från den länkade posten eller objekttypen på en Workfront Planning-post.
 
 Mer information om hur du ansluter en Workfront Planning-post till ett objekt från ett annat program finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
 
-Ett exempel på hur du ansluter posttyper finns i [Exempel på att ansluta posttyper och poster](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
+Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att ansluta posttyper och poster](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
@@ -75,9 +74,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Nytt: Standard</p> 
+   <p>Aktuell: Planera</p>
   </td>
   </tr>
 
@@ -100,6 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -122,7 +123,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      Posttyperna måste tillhöra samma arbetsyta.
    * En posttyp och en objekttyp från ett annat program.
 
-* Du kan koppla följande objekttyper från följande program till posttyperna Workfront Planning:
+* Du kan koppla posttyper för Workfront Planning till följande objekttyper från följande program:
 
    * Adobe Workfront:
 
@@ -159,10 +160,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
         Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
 
-      * Det går inte att komma åt planeringsposter eller fält för dem från Workfront.
-      * Planeringsposter och deras fält är tillgängliga från Experience Manager Assets när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * Planeringspostfält är inte tillgängliga från Workfront-objekt.
+      * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **När du lägger till uppslagsfält för posten eller objektet som du ansluter till**: Du kan koppla fält från det andra programmets objekt till posttypen Workfront Planning. De här fälten är länkade eller uppslagsfält. Länkade fält visar automatiskt information från kopplade poster eller objekt när du kopplar ihop posterna eller objekten. De länkade sökfälten är alltid skrivskyddade och fylls i automatiskt med värdena för de kopplade posterna eller objekten.
+   * **När du lägger till länkade (eller sökbara) fält för den post eller det objekt som du ansluter till**: Du kan koppla fält från det andra programmets objekt till posttypen Workfront Planning. Länkade fält är skrivskyddade och visar automatiskt information från kopplade poster eller objekt när du kopplar posterna eller objekten.
 
      Om du t.ex. kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och väljer att överföra fältet Planerat slutförandedatum för projektet till Workfront Planning-posten, skapas automatiskt ett länkat fält med namnet Planerat slutförandedatum (från projekt) för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
 
@@ -195,6 +196,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * En annan posttyp från den del av arbetsytan som du valde
 
+     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
+
      >[!TIP]
      >
      >Det går bara att ansluta till posttyper från den arbetsyta som du har valt.
@@ -202,18 +205,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      >Om du inte har andra posttyper i den valda arbetsytan visas inte arbetsyteavsnittet.
 
    * A **Projekt, Portfolio, Program, Företag**, eller **Grupp** från **Workfront-objekttyper** -avsnitt.
+
+     ![](assets/workfront-project-connection-selection.png)
+
    * **Experience Manager Assets** från **Adobe-program** -avsnitt.
 
-   ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     ![](assets/aem-assets-connection-selection.png)
 
 1. Uppdatera följande information:
 
-   * **Namn**: Namnet på det anslutna fältet, så som det kommer att visas i tabellvyn eller på postsidan av den ursprungliga posttypen. Då skapas den länkade postkolumnen i tabellvyn för den ursprungliga posttypen eller det länkade postfältet för de ursprungliga posterna.
+   * **Namn**: Namnet på det anslutna fältet, så som det kommer att visas i tabellvyn eller på postsidan av den ursprungliga posttypen. Då skapas den länkade postkolumnen i tabellvyn för den ursprungliga posttypen eller det länkade postfältet för de ursprungliga posterna. Som standard är namnet på fältet namnet på den post eller det objekt som du ansluter till.
 
    >[!TIP]
    >
-   >Vi rekommenderar att du tar med namnet på den post som du länkar till i namnet på det anslutna postfältet för att ta reda på vilken posttyp det nya fältet kommer från. Namnet på den länkade posten visas inte i det nya länkade postfältet eller i dess länkade fält.
+   >Du kan ha flera anslutningar till samma post eller objekttyp. Om du inte redigerar namnet på det anslutna fältet lägger Workfront till en siffra efter namnet på den anslutna posten för att ange antalet anslutna posttyper med samma namn.
 
    * **Beskrivning**: Ytterligare information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
    * **Tillåt flera poster**: Välj det här alternativet för att ange att du tillåter att användare kan lägga till flera poster när fältet för länkad posttyp visas på de ursprungliga posterna. Detta är markerat som standard.
@@ -230,32 +235,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Villkorligt och valfritt) Om du valt att ansluta ett Workfront-objekt väljer du en **Eget formulär** från **Länka endast objekt som uppfyller dessa villkor** -avsnitt. Endast objekt som har de markerade anpassade formulären kopplade kan länkas till den valda posttypen. Du kan markera flera formulär.
 
-   ![](assets/workfront-project-connection-selection.png)
-
    >[!NOTE]
    >
    > Du måste skapa anpassade formulär i Workfront för de markerade objekten innan de visas i den här listan.
 
 1. (Villkorligt) Om du valt att ansluta till Experience Manager Assets väljer du en databas i dialogrutan **Experience Manager-databas** nedrullningsbar meny i **Länka resurser från följande databas** -avsnitt. Detta är ett obligatoriskt fält. Endast databaser som du har åtkomst till i Experience Manager Assets visas i det här fältet.
 
-   <!--replace the screen shot below when they fix the permissions info icon bug-->
-
-   ![](assets/aem-assets-connection-selection.png)
-
    >[!NOTE]
    >
    >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+1. (Villkorligt) Om du valt att ansluta till Experience Manager Assets eller till en Workfront Planning-posttyp inaktiverar du **Titel** växla i **Postens utseende** om du inte vill att rubriken för kopplade poster eller resurser ska visas i det länkade fältet. När det här alternativet är inaktiverat visas endast posternas miniatyrbilder i de länkade fälten. Poster utan miniatyrbild visar i stället en bildikon. Växlingsknappen är aktiverad som standard. Ett exempel på hur de anslutna posterna visas i **Postens utseende** område.
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
-
-    >[!TIP]
-    >
-    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
-    >
-    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
--->
+   >[!TIP]
+   >
+   >    När du tillåter att flera poster länkas kan det hända att endast miniatyrbilden sparar utrymme i mindre områden, som i postvyer.
+   >
+   >Titeln på en post är postens primära fält. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klicka **Skapa**.
 
@@ -276,14 +272,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i programmet för de länkade objekttyperna.
 
 
-1. (Valfritt) Klicka på **Hoppa över** och lägg inte till några fält från den länkade posten eller objektet. The **Namn** av den länkade posten är det enda synliga fältet i den ursprungliga postens tabellvy.
+1. (Valfritt) Klicka på **Hoppa över** om du inte vill lägga till fält från den länkade posten eller objekttypen. The **Namn** eller **Titel** för den länkade posten är det enda synliga fältet i tabellvyn för den posttyp som du kopplar från.
 
 1. (Valfritt och villkorligt) Om du väljer att länka ett tal, en valuta, en procentandel eller ett datumtypsfält, ska du även välja ett aggregeringsvärde. Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett aggregeringsvärde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
 
    >[!IMPORTANT]
    >
-   >    Du måste välja ett aggregeringsvärde när du lägger till datumfält, om du vill att fälten ska vara tillgängliga för att lägga till som start- och slutdatum för tidslinjen och kalendervyer.
-
+   >    Du måste välja ett aggregeringsvärde när du lägger till sökdatumfält om du vill att fälten ska vara tillgängliga för att lägga till som start- och slutdatum för tidslinjen och kalendervyer. Du kan till exempel välja MAX eller MIN-aggregering för ett datumsökningsfält.
 
    ![](assets/aggregator-drop-down-for-number-linked-field.png)
 
@@ -321,9 +316,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Följande objekt läggs till:
 
-   * Ett länkat postfält på posttypen som du länkar från. Det länkade postfältet visar enskilda poster av den länkade posttypen efter att du har lagt till dem manuellt. Mer information om hur du lägger till poster finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md). Namnet på det länkade postfältet är det namn du valde i steg 6. <!--accurate-->
+   * Ett länkat postfält på posttypen som du länkar från. Det länkade postfältet visar enskilda poster av den länkade posttypen efter att du har lagt till dem manuellt. Mer information om hur du lägger till poster finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md). Namnet på det länkade postfältet är det namn du valde i steg 7. <!--accurate-->
 
-   * Ett eller flera länkade fält som visar information från fälten för den länkade posten eller objekttypen efter att du manuellt har lagt till posterna eller objekten i det länkade postfältet. De länkade fälten skapas endast när **Välj sökfält** inställningen är markerad när anslutningen skapas. De länkade fälten namnges automatiskt enligt det här mönstret:
+   * Ett länkat (eller sökbart) fält (eller fält) som visar information om den länkade posten eller objekttypen efter att du manuellt har lagt till posterna eller objekten i det länkade postfältet. Uppslagsfält skapas bara när **Välj sökfält** inställningen är markerad när anslutningen skapas. Uppslagsfält får automatiskt namn enligt det här mönstret:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
@@ -339,7 +334,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. (Valfritt och villkorligt) Klicka på nedåtpilen i rubriken för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
 
-   * **Redigera fält**: Du kan bara uppdatera **Namn** och **Beskrivning** information om fältet.
+   * **Redigera fält**: Du kan uppdatera **Namn** och **Beskrivning** information om fältet.
    * **Redigera sökfält**: Lägg till eller ta bort fält för den länkade posten.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
