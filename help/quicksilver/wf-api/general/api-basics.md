@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: fffe92bc21104e297bc9dfcbc399c34b011e3927
+source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
 workflow-type: tm+mt
-source-wordcount: '4386'
+source-wordcount: '4384'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ Du kan hämta anpassade datafält med prefixet&quot;DE:&quot;. Om du till exempe
 #### Använda namngivna frågor
 
 Vissa objekttyper har namngivna sökningar som vanligtvis utförs och som är tillgängliga genom att lägga till frågans namn i slutet av objekttypen URI. Följande begäran hämtar till exempel arbetsobjekten (uppgifter och ärenden) som användaren är tilldelad till:
-<pre>/attask/api/v15.0/work/myWork</pre>Namngivna frågor har stöd för att begära att parametern fields hämtar ytterligare fält. Vissa namngivna frågor accepterar även ytterligare filter. En lista med tillåtna namngivna frågor för ett objekt finns på fliken Åtgärd för objektet i [API-utforskaren](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Namngivna frågor har stöd för att begära att parametern fields hämtar ytterligare fält. Vissa namngivna frågor accepterar även ytterligare filter. En lista med tillåtna namngivna frågor för ett objekt finns på fliken Åtgärd för objektet i [API-utforskaren](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Använda `Count`
 
