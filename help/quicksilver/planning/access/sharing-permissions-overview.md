@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 3856e56036a9845387d7dc6498a6f20728c8234a
+source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -41,20 +41,25 @@ Du kan dela följande objekt:
 
 * Vyer
 
+  Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor. Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+
+Du kan dela en arbetsyta eller vy med följande enheter:
+
+* Användare
+* Grupper
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Att tänka på när du delar objekt i Adobe Workfront Planning
 
-* Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra och hantera objekt när du använder Workfront Planning.
+* Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra till eller hantera arbetsytor och deras objekt.
 
   Information om hur licenstyper påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-* Systemadministratörer kan hantera och dela arbetsytor som andra användare har skapat.
-* Om du inte är systemadministratör kan du bidra till arbetsytor som skapats av andra om de delas med dig.
-* Du kan inte dela arbetsytor eller vyer i grupp.
-* Du kan dela en arbetsyta eller vy med följande enheter:
-   * Användare
-   * Grupper
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-* Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan bara ges behörighet att hantera en vy.
-* Du kan dela en länk till en arbetsyta eller till en vy från en posttypssida med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
+* Systemadministratörer kan hantera alla arbetsytor i systemet, inklusive de som de inte skapade.
+* Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan endast ges behörighet för att hantera en vy.
+* Du kan dela en länk till en arbetsyta eller till en vy med andra.
+
+  Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
 
 ## Delningsbehörigheter för Adobe Workfront Planning-objekt
 
@@ -63,6 +68,8 @@ Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när
 >[!IMPORTANT]
 >
 >Alla användare kan inte ha de behörighetsnivåer som beskrivs nedan. Användarens individuella licens avgör vilken behörighetsnivå de kan få för Workfront Planning-objekt.
+>
+>Endast standardanvändare (eller plananvändare) kan ha Contribute- eller Hantera-behörigheter för arbetsytor.
 >
 >Mer information finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -75,9 +82,6 @@ Du måste ge användarna behörighet till arbetsytor för att de ska kunna få �
 * Posttyper
 * Poster
 * Fält
-* Vyer*
-
-  *Du kan tillåta alla användare med behörigheten Visa eller högre till en arbetsyta att även få åtkomst till vyerna på arbetsytan. Det här är en extra behörighet som du måste aktivera när du delar en vy. Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
 
 Följande behörighetsnivåer gäller för arbetsytor:
 

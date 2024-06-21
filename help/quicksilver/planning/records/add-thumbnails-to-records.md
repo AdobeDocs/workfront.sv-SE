@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '777'
 ht-degree: 0%
 
 ---
@@ -56,9 +56,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Aktuell: Arbete eller högre</p>
-   <p>Nytt: Standard</p>  
-  </td>
+   <p>Nytt: Standard</p> 
+   <p>Aktuell: Planera</p>
+
+</td>
   </tr>
 
 <tr>

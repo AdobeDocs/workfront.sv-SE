@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
 workflow-type: tm+mt
-source-wordcount: '7684'
+source-wordcount: '7781'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,16 @@ En posts titel är antingen postens namn eller ett fält som är angivet som pri
 Den här förbättringen är tillgänglig för poster som är kopplade från Workfront Planning och för resurser som är kopplade från Adobe Experience Manager.
 
 Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+### Endast användare med Standard eller Plan har behörighet att hantera arbetsytor (titel)
+
+Produktion: 21 juni 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har ändrat vilka typer av användare som kan ha fullständig åtkomst till arbetsytor. Nu kan bara användare med Standard- eller Plan-licens ha Hantera-behörighet till arbetsytor. Åtkomsten till posttyper, poster och fält ärvs från en arbetsyta. Alla andra användare har skrivskyddad åtkomst till arbetsytor och deras objekttyper. Innan den här uppdateringen kunde användare med Light- och Worker-licens få Contribute-behörigheter till arbetsytorna.
+
+Mer information finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 ## Vecka 10 juni 2024
 
@@ -366,7 +376,7 @@ När en användare ändrar en fältkonfiguration (namn, beskrivning, alternativl
 >
 >Det finns inget meddelande till andra användare om att fältkonfigurationen har ändrats.
 
-Mer information finns i [Redigera fält](/help/quicksilver/planning/fields/edit-fields.md).
+Mer information finns i [Redigera fältinställningar](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Vecka 6 maj 2024
 

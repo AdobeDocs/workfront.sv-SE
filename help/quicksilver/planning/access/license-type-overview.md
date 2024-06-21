@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: 99b8d6371a718b7268edfda81959ae3170d1962b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 
 Din Adobe Workfront-licenstyp fungerar tillsammans med dina Adobe Workfront Planning-behörigheter så att du kan visa, bidra och hantera arbetsytor. <!--add more objects here when we can grant other object-specific permissions-->
 
+Workfront Planning-behörigheter för att spela in vyer är oberoende av Workfront licenstyper.
+
 Användare med alla licenstyper kan visa, skapa, redigera och hantera Workfront Planning-vyer.
 
 I den här artikeln beskrivs vilka typer av licenser som behövs i Workfront och vilka behörigheter som ges till arbetsytor i Workfront Planning baserat på respektive licenstyp.
@@ -33,7 +35,7 @@ En användare med en lägre licenstyp har begränsade behörigheter till arbetsy
 >
 >Beställare (eller medarbetare, enligt den nya licensmodellen) kan inte bidra till eller hantera arbetsytor och deras objekt.
 >
->Det finns en indikation i delningsrutan om att användare inte kan beviljas behörighet att bidra till eller hantera en arbetsyta när de har en licens på lägre nivå.
+>Det finns en indikation i delningsrutan om att användare inte kan beviljas behörighet att bidra till eller hantera en arbetsyta när de har en licens på lägre nivå, eftersom dessa behörighetsnivåer är nedtonade.
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -47,10 +49,9 @@ Tabellen nedan beskriver förhållandet mellan licenstypen för en användare i 
 Om du ger en användare behörighet till en arbetsyta får den även behörighet att spela in typer, poster och fält.
 
 
-| Adobe Workfront licenstyp* | Tillåtna behörigheter i Adobe Workfront Planning |
+| Adobe Workfront licenstyp* | Högsta tillåtna behörighet i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan skapa och hantera arbetsytor, posttyper och poster.<br> Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade. |
-| Ny: ljus <br> eller <br>Aktuell: Arbete | Användare kan bidra med och visa en arbetsyta som delas med dem samt posttyper och poster från den arbetsytan. <br> Användare kan skapa, redigera och ta bort poster på arbetsytorna där de har Contribute-behörighet. |
-| Nytt: Medarbetare <br> eller <br>Aktuell: Granskare eller begärande | Användarna kan visa de arbetsytor som delas med dem samt deras posttyper och poster. <br> Användarna kan inte skapa, redigera eller ta bort posttyper eller poster. |
+| Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan hantera arbetsytor. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster och fält. <br> Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade. |
+| Nytt: Ljus, Medarbetare <br> eller <br>Aktuell: Arbete, begärande, granskare | Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor. <br> Användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält. |
 
 *Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
