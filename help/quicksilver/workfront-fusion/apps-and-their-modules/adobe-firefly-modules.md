@@ -8,9 +8,10 @@ title: Adobe Firefly-moduler
 description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Firefly], samt ansluta till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c932f869de9ff842a7bbb809bc60ec1d53350b51
+exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
+source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
 workflow-type: tm+mt
-source-wordcount: '1107'
+source-wordcount: '1154'
 ht-degree: 0%
 
 ---
@@ -177,6 +178,10 @@ Den här åtgärdsmodulen expanderar en bild, eventuellt med innehåll från en 
    <td>Ange eller mappa en fråga för innehållet som du vill expandera bilden med. Om ingen fråga visas kommer bilden att expanderas med innehåll som matchar originalbilden.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Ange ett tal mellan 1 och 4. Modulen genererar detta antal expanderade bildvariationer.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Expanded image format]</td> 
    <td>Välj det filformat som den expanderade bilden ska sparas som.</td> 
   </tr> 
@@ -212,6 +217,10 @@ Den här åtgärdsmodulen fyller det maskerade området i en bild, eventuellt me
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Ange eller mappa en fråga för innehållet som du vill fylla bilden med. Om ingen uppmaning visas fylls bilden med innehåll som matchar originalbilden.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Ange ett tal mellan 1 och 4. Modulen genererar det här antalet fyllda bildvariationer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filled image format]</td> 
@@ -253,6 +262,10 @@ Den här åtgärdsmodulen genererar en bild som baseras på en fråga som du ang
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Ange eller mappa en fråga för den bild du vill skapa. Mer detaljskärpa ger dig större kontroll över vad som visas i bilden.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Ange ett tal mellan 1 och 4. Modulen genererar detta antal bildvariationer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generated image format]</td> 
@@ -297,5 +310,3 @@ Den här åtgärdsmodulen genererar en bild som baseras på en fråga som du ang
   </tr> 
  </tbody> 
 </table>
-
-
