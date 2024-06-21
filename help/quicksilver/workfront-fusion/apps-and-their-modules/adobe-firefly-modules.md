@@ -9,9 +9,9 @@ description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arb
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: f1821568ea69d370dc5b2e4cbaaf6b0a72f9fe7f
+source-git-commit: 7013302a6ba903b410ed1fa8948a195083004eb9
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -241,8 +241,8 @@ Den här åtgärdsmodulen fyller det maskerade området i en bild, eventuellt me
    <td>Välj den storlek som du vill att den fyllda bilden ska ha.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Ange eller mappa ett heltal. Du kan använda samma startvärde i en annan expanderingsmodul om du vill generera en liknande bild med olika format. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>Klicka på för varje bild som modulen ska generera <b>Lägg till objekt<b> och ange eller mappa ett heltal. Du kan använda samma startvärde i en annan expanderingsmodul om du vill generera en liknande bild med olika format. Antalet frön som du lägger till måste vara lika med fältet Antal variationer.</td> 
   </tr> 
  </tbody> 
 </table>
