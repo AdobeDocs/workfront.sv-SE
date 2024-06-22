@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: f8cf09b085ad319955afd2b4f8b35b59bcd7d277
+source-git-commit: 9768756ac444bfe5fc21f20c3431c9cb1235a5f4
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,10 @@ Välkommen till betaprogrammet för integrering av Workfront + Frame.io! Som en 
 
 Här hittar du information om den senaste betaversionen samt en kort videogenomgång som hjälper dig att komma igång.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Om du vill delta i betaversionen måste du aktiveras av produktteamet. Kontakta en Customer Success eller Account Manager och be om att få lägga till.
+>Betaversionen är nu stängd och vi tar inte längre emot nya deltagare.
+
 
 ## Maj 2024: Betaversionsuppdateringar i Workfront
 
