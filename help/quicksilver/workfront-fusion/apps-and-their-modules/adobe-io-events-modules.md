@@ -4,13 +4,14 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: "Adobe I/O Events-moduler"
-description: "Med Adobe I/O Events-modulen kan du starta ett Adobe Workfront Fusion-scenario baserat på händelser i dina Adobe-applikationer."
+title: Adobe I/O Events-moduler
+description: Med Adobe I/O Events-modulen kan du starta ett Adobe Workfront Fusion-scenario baserat på händelser i dina Adobe-program.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 508f21b6860f13a9cf2a5b19713ed70aaba638c3
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
+source-git-commit: db322faeb53a0ae4a061076d457f3c10c31ec33c
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -113,7 +114,7 @@ Så här skapar du en anslutning för dina Adobe I/O-händelsemoduler:
       </tr>
       <tr>
         <td role="rowheader">ID för arbetsyta</td>
-        <td>Ange ditt arbetsyte-ID. </td>
+        <td>Om du vill visa projektets arbetsyte-ID hämtar du projektinformationen från projektöversiktssidan i Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
@@ -341,4 +342,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
