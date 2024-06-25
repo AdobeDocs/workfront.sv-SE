@@ -1,7 +1,7 @@
 ---
-source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
+source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
 workflow-type: tm+mt
-source-wordcount: '2333'
+source-wordcount: '2341'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen när man skapar och redigerar anpassade blanketter i Adobe Workfront. Det gamla formulärverktyget är inte längre tillgängligt. Vi rekommenderar att du byter till formulärdesignern nu och utnyttjar dess funktioner.
+>I den kommande releasen den 15 juli (version 24.7) blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen för att skapa och redigera anpassade formulär i Adobe Workfront. Det gamla formulärverktyget är inte längre tillgängligt. Vi rekommenderar att du byter till formulärdesignern nu och utnyttjar dess funktioner.
 >
 >Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
