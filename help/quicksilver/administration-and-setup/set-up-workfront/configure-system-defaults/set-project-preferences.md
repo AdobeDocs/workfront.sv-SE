@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
 workflow-type: tm+mt
-source-wordcount: '2086'
+source-wordcount: '2123'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Konfigurera någon av följande inställningar för nyligen skapade projekt i he
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>Procent färdigt för ett projekt eller en överordnad uppgift baseras på aktiviteternas allmänna förlopp. Den här informationen kan beräknas utifrån varaktigheten eller den planerade timmen för aktiviteterna i ett projekt.</p> <p>Om du väljer [!UICONTROL Duration], bestämmer varaktigheten för varje aktivitet i ett projekt den totala procentandelen färdigt för projektet, och varaktigheten för varje underuppgift avgör den totala procentandelen färdigt för den överordnade aktiviteten.</p> <p>Om du väljer [!UICONTROL Duration]måste du ange [!UICONTROL Typical hours per work day] och [!UICONTROL Typical work days per week] i [!UICONTROL Timelines] -avsnitt. [!DNL Workfront] använder den här informationen när en uppgifts procentandel slutförd beräknas baserat på Varaktighet. </p> <p>Om du väljer [!UICONTROL Planned Hours]ska du se till att alla uppgifter i varje projekt har samma antal [!UICONTROL Planned Hours] och att beloppet inte är noll.</p> </td> 
+   <td> <p>Workfront beräknar procentandelen färdigt för ett projekt eller en överordnad aktivitet med hjälp av procentandelen färdigt för varje uppgift i projektet och antingen varaktigheten eller antalet planerade timmar för varje uppgift.</p><p>Procent färdigt för varje uppgift anges manuellt av uppgiftstilldelningar.</p><p>Här kan du välja om Workfront ska använda aktiviteternas varaktighet eller Planerade timmar för att beräkna hur många procent av projekten som är slutförda.</p> <p>Om du väljer [!UICONTROL Duration], bestämmer varaktigheten för varje aktivitet i ett projekt den totala procentandelen färdigt för projektet, och varaktigheten för varje underuppgift avgör den totala procentandelen färdigt för den överordnade aktiviteten.</p> <p>Om du väljer [!UICONTROL Duration]måste du ange [!UICONTROL Typical hours per work day] och [!UICONTROL Typical work days per week] i [!UICONTROL Timelines] -avsnitt. [!DNL Workfront] använder den här informationen när en uppgifts procentandel slutförd beräknas baserat på Varaktighet. </p> <p>Om du väljer [!UICONTROL Planned Hours]ska du se till att alla uppgifter i varje projekt har samma antal [!UICONTROL Planned Hours] och att beloppet inte är noll.</p><p>Mer information finns i <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Översikt över Procent färdigt i projekt</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
