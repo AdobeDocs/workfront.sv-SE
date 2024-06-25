@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
 workflow-type: tm+mt
 source-wordcount: '2338'
 ht-degree: 0%
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Lägga till ett anpassat fält i ett anpassat formulär med det äldre formulärverktyget
 
 <!-- Audited: 02/2024 -->
+
+{{form-designer-default}}
 
 När du arbetar med ett anpassat formulär kan du skapa ett nytt anpassat fält och lägga till det i ett anpassat formulär.
 

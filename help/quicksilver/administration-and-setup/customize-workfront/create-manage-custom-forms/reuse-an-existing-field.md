@@ -4,18 +4,20 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Återanvända ett anpassat fält eller en resurswidget i ett anpassat formulär med det äldre formulärverktyget
 description: När du skapar eller redigerar ett anpassat formulär kan du lägga till ett anpassat fält eller en anpassad widget som redan har lagts till i ett annat anpassat formulär.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2c617909-48cb-4ee1-b0e8-002f2e57b0f0
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
 
 # Återanvända ett anpassat fält eller en resurswidget i ett anpassat formulär med det äldre formulärverktyget
+
+{{form-designer-default}}
 
 När du skapar eller redigerar ett anpassat formulär kan du lägga till ett anpassat fält eller en resurswidget som redan har lagts till i ett annat anpassat formulär.
 

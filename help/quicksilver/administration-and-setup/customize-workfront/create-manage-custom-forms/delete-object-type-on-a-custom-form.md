@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Ta bort objekttyper i ett anpassat formulär
+
+{{form-designer-default}}
 
 I ett befintligt anpassat formulär kan du ta bort objekttyper som är kopplade till formuläret. När du har gjort det kan användare inte längre bifoga formuläret till objekt av den typen.
 

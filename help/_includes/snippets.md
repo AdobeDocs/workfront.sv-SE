@@ -1,7 +1,7 @@
 ---
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 400b10e2803e7a74e70ccd0a33e55ca7075fdfed
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2333'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,15 @@ ht-degree: 0%
 
 1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
 
+## Formulärdesigner till GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen när man skapar och redigerar anpassade blanketter i Adobe Workfront. Det gamla formulärverktyget är inte längre tillgängligt. Vi rekommenderar att du byter till formulärdesignern nu och utnyttjar dess funktioner.
+>
+>Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+>Den gamla formulärbyggaren togs bort från förhandsgranskningsmiljön den 19 juni 2024 och kommer att tas bort från produktionsmiljön med version 24.7 i juli.
 
 ## Associera rätt grupp med team {#right-group-team}
 

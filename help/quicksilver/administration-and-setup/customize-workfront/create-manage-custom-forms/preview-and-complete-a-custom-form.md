@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Förhandsgranska och fyll i ett anpassat formulär med den äldre formulärbyggaren
 description: När du har skapat eller redigerat ett anpassat formulär kan du förhandsgranska det för att se hur det kommer att se ut för användarna, sedan spara och stänga det.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: d32f274390f6ffc5fdd01c2c9b4b2abd99d7cb10
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -16,6 +16,8 @@ ht-degree: 0%
 ---
 
 # Förhandsgranska och fyll i ett anpassat formulär med den äldre formulärbyggaren
+
+{{form-designer-default}}
 
 När du har skapat eller redigerat ett anpassat formulär kan du förhandsgranska det för att se hur det kommer att se ut för användarna, sedan spara och stänga det.
 
