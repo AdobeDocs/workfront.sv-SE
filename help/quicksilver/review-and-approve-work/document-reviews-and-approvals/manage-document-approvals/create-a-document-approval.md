@@ -6,16 +6,14 @@ description: Du kan begära godkännande från andra användare för ett dokumen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Skapa en begäran om dokumentgranskning eller godkännande
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
 
 Du kan begära godkännande från andra användare eller team för ett dokument i Adobe Workfront, eller begära att de granskar ett dokument utan att behöva godkänna det.
 
@@ -62,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka **Godkännanden** i den vänstra rutan.
 
-1. <span class="preview">(Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.</span>
+1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
 1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
 
@@ -84,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.</span>
+1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
 1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
 
