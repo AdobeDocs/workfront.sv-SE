@@ -8,9 +8,10 @@ title: Adobe Photoshop moduler
 description: Med Adobe Photoshop-modulerna kan du starta ett Adobe Workfront Fusion-scenario baserat på händelser i ditt Adobe Photoshop-konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och överföra dokument.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: 8d6f8217a58459539c9e4f4faa43e01d17d6ecee
+exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
+source-git-commit: 6bcf404432129a812b5e4d840b59e72f036ec723
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1317'
 ht-degree: 0%
 
 ---
@@ -535,4 +536,3 @@ Den här åtgärdsmodulen gör ett anpassat anrop till Photoshop API.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-
