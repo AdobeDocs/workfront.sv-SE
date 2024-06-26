@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: f71460bc3a0f3f93c3922b18d637435f77ca9594
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >* Det enhetliga Adobe-skalet görs tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1.
->* Förhandsversion: 11 juni 2024; Produktionsrelease för angivna kunder: Med version 24.7 (juli 2024)
+>* Förhandsversion: 20 juni 2024; Produktionsrelease för angivna kunder: Med version 24.7 (juli 2024)
 
 För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder.
 

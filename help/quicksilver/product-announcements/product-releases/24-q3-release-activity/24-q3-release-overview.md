@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 42db442966cff841774f894b6538f997de39adfb
 workflow-type: tm+mt
 source-wordcount: '1440'
 ht-degree: 0%
@@ -303,7 +303,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 11 juni 2024</p>
+                                <p>Förhandsversion: 20 juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktion för angivna kunder: Med version 24.7 (juli 2024)</p>
@@ -377,9 +377,9 @@ Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger u
 
 Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### Förbättringar av Workfront-korrektur
+### Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-mål
 
