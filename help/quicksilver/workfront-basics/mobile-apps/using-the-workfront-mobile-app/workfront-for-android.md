@@ -7,9 +7,9 @@ description: The [!DNL Adobe Workfront] kan du komma åt ditt arbete på vilken 
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ The [!UICONTROL Home] kan du arbeta direkt med uppgifter, ärenden och godkänna
    <td> 
     <ul> 
      <li>Uppdatera aktivitets- och utleveransstatus</li> 
-     <li>Publicera i uppdateringsområdet</li> 
+     <li>Post i uppdateringsområdet</li> 
      <li>Visa dokument</li> 
      <li>Bifoga foton</li> 
      <li> <p>Skapa en förfrågan eller en snabbuppgift</p> <p>Obs! Snabbuppgifter som skapas hemma är personliga uppgifter, såvida du inte väljer att tilldela ett projekt.</p> </li> 
@@ -73,7 +73,7 @@ The [!UICONTROL Projects] kan du interagera med och hantera projekt du äger och
     <ul> 
      <li>Uppdatera projektstatus</li> 
      <li>Visa viktig projektinformation</li> 
-     <li>Lägg in i [!UICONTROL Updates] area</li> 
+     <li>POST i [!UICONTROL Updates] area</li> 
      <li>Konvertera uppgifter, ärenden och förfrågningar till projekt</li> 
     </ul> </td> 
    <td> 
@@ -145,7 +145,7 @@ The [!UICONTROL Requests] kan du visa information om begäranden. Från [!UICONT
     </ul> </td>
    <td>
     <ul>
-     <li>Publicera i uppdateringsområdet</li>
+     <li>Post i uppdateringsområdet</li>
      <li>Visa dokument</li>
      <li>Bifoga foton</li>
      <li>Spara en begäran som ett utkast</li>
@@ -160,7 +160,7 @@ The [!UICONTROL Requests] kan du visa information om begäranden. Från [!UICONT
 
 The [!UICONTROL timesheets] kan du visa information om dina tidrapporter. Under Tidrapporter i programmet kan du:
 
-* Lägg in i [!UICONTROL Updates] area
+* POST i [!UICONTROL Updates] area
 * Justera timtyper
 * Ändra den tid du loggade
 * Skriv kommentarer på din tidrapport
@@ -192,21 +192,3 @@ The [!UICONTROL Configuration] kan du
 * Logga ut
 
 ![Konfigurationsområde](assets/android-configuration-area.png)
-
-## [!UICONTROL Virtual Assistant]
-
-Med den virtuella assistenten kan du utföra följande uppgifter med röstkommando:
-
-* [!UICONTROL Show me]
-* [!UICONTROL Delete]
-* [!UICONTROL Search for]
-* [!UICONTROL Help me with commands]
-
-Mer information om Virtual Assist finns i [Adobe [!DNL Workfront] virtuell assistent för mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL Pins]
-
-The [!UICONTROL Pin] kan du komma åt sparade virtuella assistentkommandon samt nålar från webbläsaren.
-![Fäst och spara fråga](assets/pin-and-save-query-adobe-350x285.png)
-
-Mer information om Virtual Assist finns i [Adobe [!DNL Workfront] virtuell assistent för mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '309'
 ht-degree: 0%
 
 ---
@@ -52,5 +52,5 @@ Fäst kommandon
 
 Du kan använda stiftfunktionen för att få tillgång till sparade virtuella assistentkommandon samt nålar från webbläsaren.
 
-Mer information om båda funktionerna finns i [Virtuell assistent för Adobe Workfront mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Obs! Den mobila virtuella assistenten är inaktuell i april 2024.**
 

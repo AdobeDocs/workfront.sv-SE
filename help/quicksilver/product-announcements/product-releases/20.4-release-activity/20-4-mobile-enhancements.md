@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ När du är i mobilappen kan du be den virtuella assistenten att hjälpa dig med
 
 Dessa kommandon visar en lista med de olika saker du kan fråga assistenten om.
 
-En lista med befintliga kommandon finns på [Virtuell assistent för Adobe Workfront mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Obs! Den mobila virtuella assistenten är inaktuell i april 2024.**

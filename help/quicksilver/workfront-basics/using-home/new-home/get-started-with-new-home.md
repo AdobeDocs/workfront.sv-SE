@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar uppgifter som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa en uppgift direkt från widgeten. Du kan även delegera dina uppgifter medan du inte är på kontoret.
 
 * **Mina problem**\
-    Visar problem som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett problem direkt från widgeten. Den här widgeten innehåller bara problem vars associerade projekt är inställda på Aktuell. Du kan även delegera dina ärenden medan du inte är på kontoret.
+    Visar problem som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett problem direkt från widgeten. Den här widgeten innehåller endast problem vars associerade projekt är inställda på Aktuell och inte slutförda projekt. Du kan även delegera dina ärenden medan du inte är på kontoret.
 
 * **Mina förfrågningar**\
     Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningsrutan för en begäran.

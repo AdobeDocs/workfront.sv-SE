@@ -2,14 +2,14 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Använd [!DNL Adobe Workfront] mobilapp
-description: Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen genom [!DNL Adobe Workfront's] mobilapp, tillgänglig på alla iOS- eller Android-enheter.
+description: Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen genom [!DNL Adobe Workfront's] mobilapp, tillgänglig på alla iOS- och Android-enheter.
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-source-git-commit: 32d3cd97fc21b9679e0a615c3c07c3d69cd81225
+source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen genom [!DNL Adobe Workfront's] mobilapp, tillgänglig på alla iOS- eller Android-enheter. Med appen kan du
+Snabba upp engagemanget och effektivisera arbetet för team och enskilda i organisationen genom [!DNL Adobe Workfront's] mobilapp, tillgänglig på alla iOS- och Android-enheter. Med appen kan du
 
 * Hitta viktig information snabbt
 * Håll arbetsflödet igång med enstegsåtgärder
@@ -29,7 +29,7 @@ Du kan hämta och installera programmet från [Apple App Store](https://apps.app
 I mobilappen kan du fylla i arbetsobjekt och visa information som du gör i webbläsarversionen av [!DNL Workfront]. Dessa funktioner och mer finns:
 
 * Arbeta med och tilldela uppgifter och ärenden
-* Bokför uppdateringar
+* Post-uppdateringar
 * Öppna Workfront-ritningar
 * Visa och hantera projekt
 * Visa, kommentera och fatta beslut om korrektur
@@ -62,5 +62,4 @@ Mer information om [!DNL Adobe Workfront] mobilapp kan du läsa följande artikl
 * [Godkännanden i [!DNL Adobe Workfront] mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Konfigurera [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] virtuell assistent för mobilapp](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 

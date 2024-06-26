@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 6ae31d24aaea1d5e94301ec5fd0f840ef45927ca
+source-git-commit: c4ee5b01750d28b2715c35594123ebe8619c2508
 workflow-type: tm+mt
-source-wordcount: '14373'
+source-wordcount: '14367'
 ht-degree: 0%
 
 ---
@@ -267,14 +267,14 @@ ht-degree: 0%
             * [Aktivitet för Adobe Workfront Goals version 21.1: 16 november 2020](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-nov-16.md)
          * [Workfront Goals with the 20.4 release](product-announcements/product-releases/goals-release-activity/goals-release-20-4.md)
          * [Workfront-mål med version 20.3 - 14 augusti 2020](product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)
-      * Workfront-korrekturutgivningsaktivitet {#proof-release}
+      * Versionsaktivitet för Workfront Proof {#proof-release}
          * Korrektur med version 23.3 {#proof-23-3-release}
             * [Adobe Workfront Proof med version 23.3](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-overview.md)
             * [Versionsaktivitet för Adobe Workfront Proof 23.3: 17 juli 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jul-17.md)
             * [Versionsaktivitet för Adobe Workfront Proof 23.3: 5 juni 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-jun-5.md)
             * [Adobe Workfront Proof 23.3-utgåvan: 8 maj 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
-         * [Workfront korrekturutgivningsaktivitet: 17 maj 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
-         * [Workfront korrekturutgivningsaktivitet: 29 november 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+         * [Versionsaktivitet för Workfront Proof: 17 maj 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
+         * [Versionsaktivitet för Workfront Proof: 29 november 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * Kvartalsvis publiceringsarkiv {#quarterly-release}
          * [Kvartalsvis publiceringsarkiv](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4-utgåvan {#release-20-4}
@@ -341,8 +341,8 @@ ht-degree: 0%
          * 2018.3-utgåvan {#release-18-3}
             * [Versionsaktivitet 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [Aktivitetsöversikt för version 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
-            * [Aktivitet, betaversion 2018.3](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [2018.3 Beta 2-lanseringsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [2018.3 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
+            * [2018.3 Beta 2 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
             * [2018.3 Beta 3 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
             * [2018.3 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
@@ -355,15 +355,15 @@ ht-degree: 0%
             * [2018.2 Beta 3 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
             * [2018.2 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
             * [2018.2 Beta 5 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
-            * [2018.2 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
+            * [2018.2 Beta Final Release Activity](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * 2018.1-utgåvan {#release-18-1}
             * [Versionsaktivitet 2018.1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
             * [Aktivitetsöversikt för 2018.1-utgåvan](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md)
-            * [2018.1 Betaversionsaktivitet 1](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
-            * [2018.1 Beta 2-lanseringsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
+            * [2018.1 Beta 1 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md)
+            * [2018.1 Beta 2 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md)
             * [2018.1 Beta 3 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md)
             * [2018.1 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md)
-            * [2018.1 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
+            * [2018.1 Beta Final Release Activity](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-final-release-activity.md)
          * 2017.3-utgåvan {#release-17-3}
             * [Versionsaktivitet 2017.3](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity.md)
             * [Aktivitetsöversikt för 2017.3-utgåvan](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md)
@@ -371,7 +371,7 @@ ht-degree: 0%
             * [2017.3 Beta 2 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md)
             * [2017.3 Beta 3 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md)
             * [2017.3 Beta 4 - versionsaktivitet](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md)
-            * [2017.3 Beta Final release activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
+            * [2017.3 Beta Final Release Activity](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md)
             * [2017.3-utgåvan, webbinarier](product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md)
          * 2017.2-utgåvan {#release-17-2}
             * [Versionsaktivitet 2017.2](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
@@ -409,8 +409,8 @@ ht-degree: 0%
          * [Sofing av e-post och borttagning av POP-svar](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [Kunder som använder kluster 1, 2 och 3 måste uppdatera alla IP-block i tillåtelselista för att förhindra blockering av Adobe Workfront tjänster](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [Ta bort anpassad SMTP som ett alternativ för utgående e-post](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * Betaprogram {#beta}
-      * [Betaprogram](product-announcements/betas/betas.md)
+   * Beta {#beta}
+      * [Beta](product-announcements/betas/betas.md)
       * Betaversion av Canvas Dashboards {#canvas-dashboards-beta}
          * [Betaversionsinformation för Canvas Dashboards](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [Betaversion av Reporting Canvas](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
@@ -982,7 +982,7 @@ ht-degree: 0%
       * Använda Adobe Workfront mobilappar {#use-workfront-mobile-app}
          * [Använda Adobe Workfront mobilapp](workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md)
          * [Adobe Workfront för Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
-         * [Bli betatestare för Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+         * [Bli betatestare av Android](workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
          * [Adobe Workfront för iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
          * [Bli betatestare av iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
          * [Widgetar för Hem](workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md)
@@ -994,7 +994,6 @@ ht-degree: 0%
          * [Kommentera korrektur i iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
          * [Adobe Workfront för hantering av mobila enheter (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
          * [Konfigurera Adobe Workfront för MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-         * [Virtuell assistent för Adobe Workfront mobilapp](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
          * [Godkännanden i Adobe Workfront mobilapp](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
       * Använd Adobe Workfront View {#use-workfront-view}
          * [Använd Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
@@ -1015,7 +1014,7 @@ ht-degree: 0%
       * [Adobe Workfront Status-webbplatsen](workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)
       * [Innovation Lab](workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md)
       * [Arbeta över tidszoner](workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md)
-      * [Felsökning av behörigheter för Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
+      * [Felsökning av behörigheter i Workfront Proof Manager](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Dubblettgodkännandeprocesser som visas i hemarbetslistan](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [Filterknappar visas inte i sidhuvuden](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Projekt jag arbetar med har oväntade resultat](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
@@ -1175,7 +1174,7 @@ ht-degree: 0%
          * [Felsöka Adobe Experience Manager-integreringen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * Migrera från tidigare eller förbättrade anslutningar {#migrate-from-legacy-enhanced-connectors}
       * [Migrera från tidigare eller förbättrade anslutningar](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
-      * [Migrera från den gamla eller förbättrade kopplingen till Workfront för as a Cloud Service integrering av Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
+      * [Migrera från den gamla eller förbättrade kontakten till Workfront för as a Cloud Service integration med Adobe Experience Manager](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [Migrera från den gamla anslutningen till den förbättrade anslutningen](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
       * [Avinstallera Workfront med Adobe Experience Manager äldre anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md)
       * [Avinstallera Workfront med Adobe Experience Manager förbättrad anslutning](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md)
@@ -2220,7 +2219,7 @@ ht-degree: 0%
          * [Scenariomallar](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] mallar, översikt](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
          * [Skapa nya mallar i Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
-         * [Publicera och dela Adobe Workfront Fusion-mallar](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
+         * [Publish och dela Adobe Workfront Fusion-mallar](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
          * [Skapa scenarier med Adobe Workfront Fusion-mallar](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
          * [Visa, redigera och ta bort Adobe Workfront Fusion-mallar](workfront-fusion/scenarios/templates/view-edit-and-delete-fusion-templates.md)
          * [Administrera Adobe Workfront Fusion Templates](workfront-fusion/scenarios/templates/fusion-templates-adminstration.md)
@@ -2232,7 +2231,7 @@ ht-degree: 0%
    * Workfront Fusion Apps och deras moduler {#fusion-apps-and-modules}
       * [Program och deras moduler](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
       * [Adobe Workfront moduler](workfront-fusion/apps-and-their-modules/workfront-modules.md)
-      * [Workfront korrekturmoduler](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+      * [Workfront Proof moduler](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
       * [Adobe Workfront Planning-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
       * [[!DNL Workfront Boards] moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md)
       * [Modulen Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
@@ -2318,7 +2317,7 @@ ht-degree: 0%
       * [SFTP-moduler](workfront-fusion/apps-and-their-modules/sftp.md)
       * [SharePoint moduler](workfront-fusion/apps-and-their-modules/sharepoint-modules.md)
       * [Slack-moduler](workfront-fusion/apps-and-their-modules/slack-modules.md)
-      * [SOAP-modul](workfront-fusion/apps-and-their-modules/soap-module.md)
+      * [SOAP](workfront-fusion/apps-and-their-modules/soap-module.md)
       * [Dela.io-moduler](workfront-fusion/apps-and-their-modules/split-io-modules.md)
       * [Textparser](workfront-fusion/apps-and-their-modules/text-parser.md)
       * [verktyg](workfront-fusion/apps-and-their-modules/tools-modules.md)
@@ -2421,7 +2420,7 @@ ht-degree: 0%
       * [Sök efter Adobe Workfront-objekt från Slack](workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
       * [Åtkomst till Adobe Workfront-objekt från en delad länk i Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
       * [Få tillgång till Adobe Workfront från Slack](workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-      * [Posta en Slack-kommentar som en uppdatering](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+      * [Post en Slack-kommentar som en uppdatering](workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
       * [Få Adobe Workfront-meddelanden i Slack](workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
    * Adobe Workfront med Anaplan {#workfront-with-anaplan}
       * [Adobe Workfront med Anaplan](workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md)
@@ -2434,62 +2433,62 @@ ht-degree: 0%
       * [Skapa ett listobjekt för en Anaplan från en Adobe Workfront-kampanjbegäran](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Använda en Anaplan-budgettilldelning på en Adobe Workfront-kampanjbegäran eller ett kampanjprojekt](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
-   * [Workfront-korrektur: artikelindex](workfront-proof/workfront-proof.md)
+   * [Workfront Proof: artikelindex](workfront-proof/workfront-proof.md)
    * Kom igång med Workfront Proof {#get-started-wf-proof}
       * [Komma igång med Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * Exempel på arbetsflöden {#workflow-examples}
          * [Exempel på arbetsflöden](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
          * [Grundläggande korrekturprocess i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-         * [Intern och extern granskning i Workfront-korrektur](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+         * [Intern och extern granskning i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
          * [Arbeta med designers och projektledare i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
          * [Arbeta med frilansare i Workfront Proof](workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
       * Personliga inställningar i Workfront Proof {#personal-settings-in-wf-proof}
          * [Personliga inställningar i Workfront Proof](workfront-proof/wp-getstarted/personal-settings/personal-settings.md)
-         * [Tillfälligt korrekturläsare i Workfront-korrektur](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
+         * [Ange tillfälliga korrekturägare i Workfront Proof](workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md)
          * [Integreringar - användarinställningar](workfront-proof/wp-getstarted/personal-settings/integrations-user-setup.md)
       * Systeminformation i Workfront Proof {#system-info-wf-proof}
          * [Systeminformation i Workfront Proof](workfront-proof/wp-getstarted/system-information/system-information.md)
          * [Testmiljö för förhandsgranskning av sandlådor - Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Språkinställningar i Workfront Proof](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Kodekar i Workfront Proof](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * Vanliga frågor om Workfront-korrektur {#wf-proof-faq}
-         * [Workfront-korrektur - vanliga frågor](workfront-proof/wp-getstarted/faqs/faqs.md)
+      * WORKFRONT PROOF FAQ {#wf-proof-faq}
+         * [Workfront Proof - Frågor och svar](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [Frågor och svar - Skapa och dela korrektur och filer](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [Frågor och svar - Granska korrektur](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
-         * [Vanliga frågor och svar - Workfront korrekturkonto](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
+         * [Frågor och svar - Workfront Proof-konto](workfront-proof/wp-getstarted/faqs/faq-wp-account.md)
          * [Logga in och ändra ditt lösenord och din e-postadress för Workfront Proof](workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
-         * [Ställa in tidszoner i Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
+         * [Ange tidszoner i Workfront Proof](workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)
    * Arbeta med korrektur och filer i Workfront Proof {#work-with-proofs-in-wf-proof}
       * [Arbeta med korrektur och filer i Workfront Proof](workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md)
       * Automatiserat arbetsflöde i Workfront Proof {#automated-workflow-in-wf-proof}
          * [Automatiserat arbetsflöde i Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
          * [Ställ in ett korrektur med ett automatiserat arbetsflöde i Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
          * [Hantera ett korrektur konfigurerat med ett automatiserat arbetsflöde i Workfront Proof](workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
-      * Grundläggande funktioner i Workfront Proof {#basic-features-in-wf-proof}
-         * [Grundläggande funktioner i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+      * Grundfunktioner i Workfront Proof {#basic-features-in-wf-proof}
+         * [Grundfunktioner i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
          * [Kontrollpanelen i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/dashboard.md)
          * [Sidlayout på fliken Vyer i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md)
-         * [Söker i Workfront korrektur](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
-         * [Så här fungerar Workfront Korrektur för aktivitetsgranskning](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+         * [Söka i Workfront Proof](workfront-proof/wp-work-proofsfiles/basic-features/search.md)
+         * [Förstå Workfront Proof aktivitetsgranskningsspår](workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
       * Skapa korrektur och filer {#create-proofs-and-files}
          * [Skapa korrektur och filer](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
          * [Överför filer och webbinnehåll till Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md)
-         * [Skapa korrektur i Workfront-korrektur](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
-         * [Kopiera korrektur i Workfront-korrektur](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
+         * [Generera korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+         * [Kopiera korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [Dropzone](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
       * Hantera ditt arbete {#manage-your-work}
          * [Hantera ditt arbete](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
          * [Hantera filer i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
-         * [Hantera objekt på sidan Vyer i Workfront-korrektur](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
+         * [Hantera objekt på vysidan i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
          * [Hantera korrekturversioner i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md)
          * [Konfigurera korrekturinställningar i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)
-         * [Skapa och hantera anpassade vyer i Workfront Korrektur](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
-         * [Ladda ned filer som lagras i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
+         * [Skapa och hantera anpassade vyer i Workfront Proof Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)
+         * [Hämta filer som sparats i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md)
          * [Hantera korrekturinformation i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
          * [Visa förlopp och status för ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
          * [Förstå korrekturstatus i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/proof-state.md)
          * [Ta bort ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/delete-proof.md)
-         * [Återställ och tömma papperskorgen i Workfront-korrektur](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
+         * [Återställ och tömma papperskorgen i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)
          * [Kör rapporter i Workfront Proof](workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md)
       * Ordna ditt arbete {#organize-your-work}
          * [Ordna ditt arbete](workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
@@ -2501,15 +2500,15 @@ ht-degree: 0%
          * [Förstå mappbehörigheter i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md)
          * [Skapa och hantera taggar i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)
          * [Arkivera i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
-         * [Säkerhetskopiera Workfront korrekturdata](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
-         * [Skriv ut och exportera kommentarer i Workfront-korrektur](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
+         * [Säkerhetskopiera dina Workfront Proof-data](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
+         * [Skriv ut och exportera kommentarer i Workfront Proof](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
       * Granska korrektur i Desktop Proofing Viewer {#review-proofs-in-viewer}
          * [Granska korrektur i Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [Förstå Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [Konfigurera hur hyperlänkar öppnas i Desktop Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
       * Granska korrektur i webbkorrekturläsaren {#review-proofs-web-proofing-viewer}
          * [Granska korrektur i webbkorrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-         * [Öppna ett korrektur i Workfront](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+         * [Öppna ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [Granska ett arbetsflöde i korrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
          * [Granska ett korrektur samtidigt med flera granskare](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
          * [Visa aktivitet på ett korrektur i korrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -2517,29 +2516,29 @@ ht-degree: 0%
          * [Jämför korrektur i korrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
          * [Visa tidigare korrekturversioner i Web Proofing Viewer](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
          * [Hämta ett korrektur i korrekturläsaren](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-         * [Kortkommandon i Workfront korrekturläsare](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+         * [Kortkommandon i Workfront Proof korrekturläsare](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [Äldre korrekturläsare borttagen](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
       * Dela korrektur och filer {#share-proofs-and-files}
          * [Dela korrektur och filer](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [Dela ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
-         * [Dela korrekturlänkar i Workfront Korrektur](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
+         * [Dela korrekturlänkar i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
          * [Dela den offentliga URL:en i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md)
          * [Dela filer i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)
          * [Få åtkomst till ett korrektur som delas med dig](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md)
          * [Prenumerera på ett korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
          * [Skapa ett Mini-korrektur i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/create-mini-proof.md)
          * [Bädda in ett minikorrektur](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/embed-mini-proof.md)
-         * [Hantera korrekturroller i Workfront-korrektur](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
-   * Kontoadministration för Workfront Proof {#wf-proof-account-admin}
-      * [Kontoadministration för Workfront Proof](workfront-proof/wp-acct-admin/wp-account-admin.md)
+         * [Hantera korrekturroller i Workfront Proof](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+   * Workfront Proof kontoadministration {#wf-proof-account-admin}
+      * [Workfront Proof kontoadministration](workfront-proof/wp-acct-admin/wp-account-admin.md)
       * Kontoinställningar i Workfront Proof {#account-settings-in-wf-proof}
          * [Kontoinställningar i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/account-settings.md)
          * [Hantera Workfront Proof-användare](workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
          * [Konfigurera en användares behörighetsprofil för korrektur i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
          * [Konfigurera anpassade profiler i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-         * [Konfigurera enkel inloggning för Workfront-korrekturanvändare](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
-         * [Enkel inloggning i Workfront-korrektur: AD FS-konfiguration](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
-         * [Behörighetsprofiler i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
+         * [Konfigurera enkel inloggning för Workfront Proof-användare](workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+         * [Enkel inloggning i Workfront Proof: AD FS-konfiguration](workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
+         * [Behörighetsprofiler för korrektur i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
          * [Konfigurera beslutsalternativ för godkännande i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)
          * [Skapa och hantera anpassade fält i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md)
          * [Konfigurera dropzone i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)
@@ -2547,17 +2546,17 @@ ht-degree: 0%
          * [Visa autentiseringsloggar i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/view-auth-logs-in-wp.md)
          * [Visa och redigera din organisations Workfront Proof-kontoinformation](workfront-proof/wp-acct-admin/account-settings/view-edit-org-wp-acct-details.md)
          * [Visa historiken för ditt företags Workfront Proof-administratörskonto](workfront-proof/wp-acct-admin/account-settings/view-org-wp-acct-history.md)
-         * [Kontrollera Workfront Korrekturlagring](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
+         * [Kontrollera din Workfront Proof-lagring](workfront-proof/wp-acct-admin/account-settings/check-workfront-proof-storage.md)
          * [Begär en ny säkerhetskopiering av data i Workfront Proof](workfront-proof/wp-acct-admin/account-settings/request-new-data-backup-in-wp.md)
-      * Varumärkesbevis för Workfront {#branding-wf-proof}
-         * [Varumärkesbevis för Workfront](workfront-proof/wp-acct-admin/branding/branding.md)
-         * [Varumärk Workfront Proof-webbplatsen](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
-         * [Proof-webbplatsen för Workfront - avancerat](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+      * Varumärkning av Workfront Proof {#branding-wf-proof}
+         * [Varumärkning av Workfront Proof](workfront-proof/wp-acct-admin/branding/branding.md)
+         * [Varumärk Workfront Proof webbplats](workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+         * [Varumärk Workfront Proof webbplats - avancerad](workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
       * Hantera säkerhet {#manage-security}
          * [Hantera säkerhet](workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-         * [Korrektur för Workfront](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
-         * [Enkel inloggning i Workfront-korrektur](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
-         * [Understanding electronic signatures in Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+         * [Säkerhetsbevis i Workfront Proof](workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)
+         * [Enkel inloggning i Workfront Proof](workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)
+         * [Elektroniska signaturer i Workfront Proof](workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
       * Partnerkonton i Workfront Proof {#partner-accounts-in-wf-proof}
          * [Partnerkonton i Workfront Proof](workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
          * [Hantera en partnerrelation mellan Workfront Proof-konton](workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
@@ -2567,24 +2566,24 @@ ht-degree: 0%
          * [Satellitkonton i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md)
          * [Konfigurera ett satellitkonto i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/configure-sat-acct-in-wp.md)
          * [Hantera ett satellitkonto i Workfront Proof](workfront-proof/wp-acct-admin/satellite-accounts/manage-sat-acct-in-wp.md)
-      * Tips, tricks och felsökning för kontoadministration av Workfront Proof {#ttt-wf-proof-account-admin}
-         * [Tips, tricks och felsökning för kontoadministration av Workfront Proof](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
-         * [Frågor och svar: Workfront Proof - migrering från USA till EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
-   * Korrekturinställningar för Workfront {#wf-proof-billing-settings}
-      * [Korrekturinställningar för Workfront](workfront-proof/wp-billingsettings/wp-billing-settings.md)
+      * Tips, tricks och felsökning för kontoadministration i Workfront Proof {#ttt-wf-proof-account-admin}
+         * [Tips, tricks och felsökning för kontoadministration i Workfront Proof](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+         * [Vanliga frågor: Migrering mellan Workfront Proof - USA och EMEA](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+   * Faktureringsinställningar för Workfront Proof {#wf-proof-billing-settings}
+      * [Faktureringsinställningar för Workfront Proof](workfront-proof/wp-billingsettings/wp-billing-settings.md)
       * Hantera din fakturering {#manage-billing}
          * [Hantera din fakturering](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
-         * [Workfront Proof Billing-sida](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+         * [Faktureringssidan för Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
          * [Välja betalningsmetod i Workfront Proof](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-         * [Hämtar din Workfront korrekturfaktura](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+         * [Hämtar din Workfront Proof-faktura](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [Stäng ditt Workfront Proof-konto](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
    * Korrekturmeddelanden och påminnelser {#proof-notifications-and-reminders}
       * [Korrekturmeddelanden och påminnelser](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * Undvik skräppostfilter {#avoid-spam-filters}
          * [Undvik skräppostfilter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [Konfigurera skräppostinställningar för vanliga e-postklienter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
-         * [Konfigurera Workfront Proof-e-postmeddelanden för att undvika skräppostfilter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
-         * [Workfront Korrektur för SPF-poster](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
+         * [Konfigurera Workfront Proof e-postmeddelanden för att undvika skräppostfilter](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
+         * [Workfront Proof SPF-poster](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
       * Skicka meddelanden till granskare {#send-messages-to-reviewers}
          * [Skicka meddelanden till granskare](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [Påminn en granskare om tilldelningar i Workfront Proof](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
@@ -2598,7 +2597,7 @@ ht-degree: 0%
    * E-postaviseringar {#email-alerts}
       * [E-postaviseringar](workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
       * [Konfigurera e-postmeddelandeinställningar i Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
-      * [Ändra e-postaviseringsinställningar för ett korrektur i Workfront](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
+      * [Ändra e-postaviseringsinställningar för ett korrektur i Workfront Proof](workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md)
    * Hantera användare och kontakter i Workfront Proof {#managing-users-in-wf-proof}
       * [Hantera användare och kontakter i Workfront Proof](workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
       * Användare {#users}
@@ -2618,20 +2617,20 @@ ht-degree: 0%
          * [Lägg till en gäst i Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
          * [Hantera dina kontakter i Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
          * [Förstå användare, medlemmar och gäster i Workfront Proof](workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
-      * Tips, tricks och felsökning för Workfront-korrekturanvändare och kontakter {#ttt-wf-proof-users-and-contacts}
-         * [Tips, tricks och felsökning för Workfront-korrekturanvändare och kontakter](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
+      * Tips, tricks och felsökning för Workfront Proof-användare och -kontakter {#ttt-wf-proof-users-and-contacts}
+         * [Tips, tricks och felsökning för Workfront Proof-användare och -kontakter](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wfproof.md)
          * [Redigera användarens övriga grupper gruppvis](workfront-proof/wp-mnguserscontacts/tips-tricks-and-troubleshooting/bulk-edit-users-other-groups.md)
    * Workfront Proof Mobile {#wf-proof-mobile}
       * [Workfront Proof Mobile](workfront-proof/wp-mobile/wp-mobile.md)
-      * Workfront Proof-mobilappar {#wf-proof-mobile-apps}
-         * [Workfront Proof-mobilappar](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
-         * [Mobilappen Workfront Proof](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-         * [Workfront Proof-mobilapp för surfplattor](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
-      * Tips, tricks och felsökning för mobilappen Workfront Proof {#ttt-wf-proof-mobile-apps}
-         * [Tips, tricks och felsökning för mobilappen Workfront Proof](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
+      * Workfront Proof mobilappar {#wf-proof-mobile-apps}
+         * [Workfront Proof mobilappar](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-apps.md)
+         * [Workfront Proof mobilapp](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+         * [Workfront Proof mobilapp för surfplattor](workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+      * Tips, tricks och felsökning för Workfront Proof mobilapp {#ttt-wf-proof-mobile-apps}
+         * [Tips, tricks och felsökning för Workfront Proof mobilapp](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-wp-mobile.md)
          * [Det går inte att logga in på Workfront Proof Mobile App](workfront-proof/wp-mobile/tips-tricks-and-troubleshooting/unable-to-log-in.md)
-   * Workfront Korrektur för tekniker {#wf-proof-tech-corner}
-      * [Workfront Korrektur för tekniker](workfront-proof/wp-tech-corner/tech-corner.md)
+   * Workfront Proof teknikhörn {#wf-proof-tech-corner}
+      * [Workfront Proof teknikhörn](workfront-proof/wp-tech-corner/tech-corner.md)
       * Korrekturtyper {#proof-types}
          * [Korrekturtyper](workfront-proof/wp-tech-corner/proof-types/proof-types.md)
          * [Skapa ett statiskt korrektur av en webbplats med Workfront Proof](workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md)
@@ -2640,24 +2639,24 @@ ht-degree: 0%
          * [Felsökning - skadat gränssnittsteckensnitt i korrekturläsare på Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
          * [Förstå hur cache och cookies påverkar Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
          * [Snabba upp problem i Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-         * [Felsökning - Workfront korrekturläsare för korrektur](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
-   * Integrering med Workfront Proof {#wf-proof-integrations}
-      * [Integrering med Workfront Proof](workfront-proof/wp-integrations/wp-integrations.md)
-      * Workfront Proof API {#wf-proof-api}
-         * [Workfront Proof API](workfront-proof/wp-integrations/api/wp-api.md)
-         * [Workfront Proof API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
+         * [Felsökning - Workfront Proof korrekturläsare](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+   * Workfront Proof-integreringar {#wf-proof-integrations}
+      * [Workfront Proof-integreringar](workfront-proof/wp-integrations/wp-integrations.md)
+      * WORKFRONT PROOF API {#wf-proof-api}
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/wp-api.md)
+         * [WORKFRONT PROOF API](workfront-proof/wp-integrations/api/workfront-proof-api.md)
       * Box {#box}
          * [Box](workfront-proof/wp-integrations/box/box.md)
-         * [Introduktion till Workfront Proof and Box-integrering](workfront-proof/wp-integrations/box/introduction-to-box.md)
+         * [Introduktion till integrering av Workfront Proof och Box](workfront-proof/wp-integrations/box/introduction-to-box.md)
          * [Skapa ett korrektur via ditt Box-konto](workfront-proof/wp-integrations/box/create-proof-box-account.md)
-         * [Synkronisera rutmappar med Workfront-korrektur](workfront-proof/wp-integrations/box/sycn-box-folder.md)
+         * [Synkronisera rutmappar med Workfront Proof](workfront-proof/wp-integrations/box/sycn-box-folder.md)
          * [Visa originalkorrekturfilen i rutan](workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
       * Basecamp {#basecamp}
          * [Basecamp](workfront-proof/wp-integrations/basecamp/basecamp.md)
          * [Lägga till ett korrektur i ett basgruppsprojekt](workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
          * [Integrera Workfront Proof med Basecamp](workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
          * [Granska ett korrektur i basstämpel](workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-         * [Förstå integreringen med Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+         * [Förstå integreringen av basecamp med Workfront Proof](workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
       * Klassisk basstämpel {#basecamp-classic}
          * [Klassisk basstämpel](workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)
          * [Lägga till ett korrektur i ett Classic-projekt](workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
