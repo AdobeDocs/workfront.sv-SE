@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a5cdcb89-71c0-43f0-a5cf-dc99fac542ba
-source-git-commit: 2b2424a26ba903cda8f03c468da733732bf6d434
+source-git-commit: 93c50eb6ad2e9693cd9fd104efed2763e07cd418
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1821'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,10 @@ Den här planen innehåller en mall för [!DNL Workfront] En organisation som ar
 
 Denna plan innehåller en enda kontrollpanel med 13 rapporter som hjälper dig att hitta, omfördela eller på annat sätt hantera objekt och uppgifter som är kopplade till en användare som lämnar Workfront. Du kan också använda dessa rapporter för en användare som går in i en ny roll eller grupp för att tilldela om deras arbete.
 
+[!BADGE Nytt]{type=negative}**Instrumentpanel för personhanteraren**
+
+Den här planen innehåller en enda kontrollpanel med 12 rapporter som ger cheferna insyn i de direkta rapporternas arbete.
+
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 Den här planen innehåller en enda mall som organiserar arbetet som en [!DNL Workfront] kunden måste slutföra processen för att kunna hantera utbyggnaden till nästa processer efter den initiala implementeringen.
 
@@ -133,6 +137,10 @@ Denna plan innehåller en enda kontrollpanel med 21 rapporter som hjälper dig a
 **Värderealisering | Leverera instrumentpanel för klientbaserade tjänster**
 
 Denna plan innehåller en enda kontrollpanel med åtta rapporter som hjälper dig att dra nytta av fördelarna med Workfront. Dessa rapporter är utformade för att hjälpa er att omvandla era kundriktade tjänster till mätbart värde som ni kan spåra över tiden för att få bättre resultat.
+
+[!BADGE Nytt]{type=negative}**Värderealisering | Kontrollpanel för arbetsflöden för efterlevnad**
+
+Den här planen innehåller en enda kontrollpanel med 7 rapporter som hjälper dig att förverkliga Workfront. För daglig användning eller i reglerade branscher ger dessa tidsbesparande rapporter ansvarsskyldighet och förbättrar resultaten över tid genom att hjälpa till att spåra och styra arbetsflöden och efterlevnadsbehov.
 
 **Värderealisering | Granska och godkänn kontrollpanelen**
 
