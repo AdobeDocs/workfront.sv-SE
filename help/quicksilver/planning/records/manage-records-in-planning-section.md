@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
    <td> <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program</a> </p> 
-   <p>I Workfront Planning kan du visa eller högre behörigheter för en arbetsyta</a> </p>  
+   <p>I Workfront Planning, Contribute eller högre behörighet till en arbetsyta</a> </p>  
    <p>Systemadministratörer har behörighet till alla Workfront Planning-arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -103,7 +103,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
 * Du kan visa Planning-avsnittet i ett Workfront-objekt, även när det inte finns några poster kopplade till Workfront-objektet.
 * Du kan koppla planeringsposter till Workfront-objekt från Workfront, i planeringsavsnittet, när det finns minst en post kopplad till Workfront-objektet.
-* Du måste ha behörigheten Hantera på en arbetsyta för att kunna ansluta poster från Workfront-objekten.
 
 ## Hantera poster i planeringsavsnittet
 
@@ -114,8 +113,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på kortet för en posttyp som är kopplad till ett Workfront-projekt, en portfölj eller ett program.
-1. Välj en tabellvy på menyn **Visa** listruta.
-1. (Villkorligt) Gå till det anslutna postfältet i tabellen och lägg till ett Workfront-objekt. Klicka sedan på namnet på Workfront-objektet i fältet. Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+1. Gå till ett anslutet postfält som har en anslutning till ett Workfront-objekt, antingen i tabellvyn eller från postens informationssida. Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+1. Klicka på namnet på ett Workfront-objekt i det anslutna postfältet.
 Objektets sida öppnas i Workfront Planning.
 1. Klicka **Gå till källa**, längst upp till höger på skärmen.
 
