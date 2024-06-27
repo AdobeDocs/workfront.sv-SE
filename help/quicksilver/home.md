@@ -3,7 +3,7 @@ title: '''[!DNL Adobe Workfront] dokumentation'
 description: Dokumentation för [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 618267f23e5d080a5c0072370eb31188f86a1700
+source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -94,7 +94,7 @@ Att söka i dokumentation kan vara mer effektivt med några strategiska strategi
 
 ### Utforska utbildningsavsnitten
 
-* **Utbildningsmaterial**: Navigera till [Workfront utbildning](https://experienceleague.adobe.com/en/browse/workfront) sida för ett bibliotek med utbildningsvideor och artiklar som hjälper dig att förstå Workfront funktioner och inställningar bättre. Du kan även få tillgång till utbildningsmaterial på [learning.adobe.com](http://learning.adobe.com/).
+* **Utbildningsmaterial**: Navigera till [Workfront utbildning](https://experienceleague.adobe.com/en/browse/workfront) sida för ett bibliotek med utbildningsvideor och artiklar som hjälper dig att förstå Workfront funktioner och inställningar bättre. Du kan även få tillgång till utbildningsmaterial på [learning.adobe.com](https://learning.adobe.com/).
 * **Kurser**: Sök [strukturerade kurser](https://experienceleague.adobe.com/home?Solution=Workfront#courses) som hjälper dig att använda olika Workfront-funktioner i en logisk sekvens.
 
 ### Hitta svar i communityforum
