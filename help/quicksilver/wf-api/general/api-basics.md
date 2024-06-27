@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 0479d6e2e2781acf8bb1dfbb8b70768516769d3f
+source-git-commit: cf84efd2b1e38e497eb0ac73ce76ed7366901251
 workflow-type: tm+mt
-source-wordcount: '4384'
+source-wordcount: '4395'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Tack vare att du känner till Workfront-schemat kan du förstå de databasrelati
 
 ## Begränsningar och riktlinjer
 
-För att Workfront on demand-system ska fungera på ett enhetligt sätt begränsas varje kund till 10 samtidiga API-trådar. Sandlådemiljön har samma gräns, vilket gör att kunder och partners kan testa API-anrop korrekt innan koden släpps till produktionen.
+För att Workfront on demand-system ska fungera på ett konsekvent sätt begränsar Workfront API-trådar samtidigt. Detta skyddsräcke förhindrar systemproblem som orsakas av felaktiga API-anrop. Sandlådemiljön har samma samtidiga API-trådgräns, vilket gör att kunder och partner kan testa API-anrop korrekt innan kod släpps i produktionen.
 
 I produktions-, förhandsgransknings- och testmiljöer har slutanvändarförfrågningar en maximal URI-längd på 8 892 byte eftersom de dirigeras via Workfront CDN (Akamai). Denna gräns gäller endast URI:er som dirigeras genom CDN.
 
