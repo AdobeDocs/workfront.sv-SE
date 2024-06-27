@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1273'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Mer information om vilka posttyper som ingår i respektive mall finns i [Lista �
 
    eller
 
-   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta från en arbetsyta och markera den arbetsyta där du vill skapa posttyper.
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
 1. Klicka **Lägg till posttyp**.
 1. (Villkorligt) När du skapar posttyper genom att importera en Excel- eller CSV-fil, klickar du på **Från början**. I annat fall **Lägg till posttyp** öppnas.
@@ -230,7 +230,7 @@ Så här importerar du posttyper med en Excel-fil:
 
    eller
 
-   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta från en arbetsyta och markera den arbetsyta där du vill skapa posttyper.
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. Klicka **Lägg till posttyp**.
 1. Klicka **Excel/CSV**.
 1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** för att hitta en.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: f5430d81f1914a3717130de3af54b4b84e0e2d06
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
    eller
 
-   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta från en arbetsyta och markera den arbetsyta vars poster du vill anpassa.
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 
    Arbetsytan öppnas och posttyperna visas.
 

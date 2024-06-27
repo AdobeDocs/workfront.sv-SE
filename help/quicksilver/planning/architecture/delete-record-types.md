@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -126,7 +126,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta på en arbetsyta och markera den arbetsyta som du vill ta bort posttyper från.
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:

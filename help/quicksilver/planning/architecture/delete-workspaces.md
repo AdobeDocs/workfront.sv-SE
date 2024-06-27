@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 0%
@@ -100,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på arbetsytan som du vill ta bort.
 
-   Arbetsytesidan visas.
+   Arbetsytans sida visas.
 
 1. Klicka på **Mer** meny ![](assets/more-menu.png) bredvid arbetsytans namn och klicka sedan på **Ta bort**.
 

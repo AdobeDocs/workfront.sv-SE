@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '3360'
+source-wordcount: '3384'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >    Vissa fält kan vara dolda. Klicka på Fält och aktivera växlingen mellan de fält som du vill visa som kolumner i tabellvyn.
 
-1. Klicka på **+** i tabellvyns övre högra hörn för att lägga till nya fält.
+1. Klicka på **+** i tabellvyns övre högra hörn
+
+   eller
+
+   Håll pekaren över en kolumns sidhuvud, klicka på nedåtpilen efter fältnamnet och klicka sedan på **Infoga vänster** eller **Infoga höger** för att lägga till det nya fältet.
 1. I **Nytt fält** flik, söka efter en fälttyp i **Fälttyp** eller välj någon av följande fälttyper:
 
    * [Enkelradig text](#single-line-text)

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2487'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Expandera den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta på en arbetsyta och markera den arbetsyta som du vill koppla posttyper från.
+   Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
 1. Klicka på **+** i tabellvyns övre högra hörn och klicka sedan på **Ny anslutning** -fliken.
 
