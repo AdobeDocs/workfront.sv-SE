@@ -4,9 +4,10 @@ description: Förbättrad resurshantering i tredje kvartalet 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1881803a78d1003636da558504e978316e80d064
+exl-id: 40ca0460-5a01-4df9-b3dc-72055a272072
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -21,7 +22,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)
+>Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)
 
 För att smidigt justera arbete när den primära tilldelaren för en aktivitet har en schemalagd tid inaktiverad, omfördelar nu arbetsbelastningsutjämnaren timmar till både den primära och den sekundära användaren när projekttidslinjen beräknas om. (Den här funktionen är bara tillgänglig om Workfront-administratören har aktiverat inställningen för användartid av i inställningsområdet för att ta hänsyn till användarens ledig tid.)
 

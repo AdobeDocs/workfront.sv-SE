@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: d75b99987bec596c44454d77073e332441f4ed29
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,20 @@ ht-degree: 0%
 På den här sidan beskrivs alla administratörsförbättringar som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Anpassad formulärdesigner som är allmänt tillgänglig i Adobe Workfront
+
+>[!NOTE]
+>
+>Förhandsversion: 19 juni 2024; Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024).
+
+Den anpassade formulärdesignern lanserades som betaversion i april 2023 (version 23.2) och fler funktioner har lagts till sedan dess, till exempel externa sökfält och inbyggda Workfront-fält. 2024 har formulärdesignern nått funktionell paritet med den äldre formulärskaparen.
+
+Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen när man skapar och redigerar anpassade blanketter i Adobe Workfront. När du skapar ett nytt anpassat formulär eller öppnar ett befintligt, visas formulärdesignerns arbetsyta i arbetsytan.
+
+Efter den här versionen har du inte längre möjlighet att återgå till det tidigare formulärverktyget.
+
+Mer information om formulärdesignern och en videodemonstration finns i [betaversionsinformation för formulärdesigner](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Flytta objekt mellan Workfront-miljöer med miljöfrämjande åtgärder
 
@@ -51,7 +65,7 @@ Mer information finns i [Dela ett eget formulär](/help/quicksilver/administrati
 
 >[!NOTE]
 >
->Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)
+>Förhandsversion: 6 juni 2024; Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)
 
 Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet. På så sätt kan du snabbt skapa återanvändbara anpassade fält.
 

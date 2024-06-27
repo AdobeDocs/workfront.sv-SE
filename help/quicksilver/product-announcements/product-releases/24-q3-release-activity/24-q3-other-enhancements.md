@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >[!NOTE]
 >
 >* Det enhetliga Adobe-skalet görs tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1.
->* Förhandsversion: 20 juni 2024; Produktionsrelease för angivna kunder: Med version 24.7 (juli 2024)
+>* Förhandsversion: 20 juni 2024; Produktionsrelease för angivna kunder: Med version 24.7 (18 juli 2024)
 
 För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder.
 
@@ -45,7 +45,7 @@ Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicks
 
 >[!NOTE]
 >
->Förhandsversion: 6 juni 2024; Produktion för alla kunder: Med version 24.7 (juli 2024)
+>Förhandsversion: 6 juni 2024; Produktion för alla kunder: Med version 24.7 (18 juli 2024)
 
 Hjälpknappen i huvudnavigeringsfältet har tagits bort för att ge en enhetlig upplevelse för användare som inte använder det enhetliga gränssnittet. Den här knappen, som inte finns för användare i Unified Shell, är länkad till Workfront-dokumentationen och överflödig med en liknande hjälpknapp tillgänglig för alla användare på huvudmenyn.
 

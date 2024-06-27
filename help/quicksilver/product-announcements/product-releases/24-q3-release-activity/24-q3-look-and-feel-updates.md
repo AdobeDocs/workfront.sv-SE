@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6ad93735-652f-4a94-bc24-6c22bb2c8826
-source-git-commit: 58c6062ef427d1ef615768a11e7dbd4835aafa5e
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ En lista över alla ändringar som är tillgängliga i den tredje utgåvan av kv
 
 >[!NOTE]
 >
->Förhandsversion: 30 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 30 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (18 juli 2024)
 
 Vi har uppdaterat listan över uppdragsförslag till en mer modern design som är konsekvent i alla delar av Workfront. När du lägger till ett uppdrag till en uppgift eller ett problem från huvudet, listvyn eller skärmen Avancerat uppdrag, är upplevelsen densamma. Förslagen är uppdelade i avsnitt som hjälper dig att snabbt hitta rätt person, team eller jobbroll för uppdraget.
 
@@ -34,7 +34,7 @@ Mer information finns i [Tilldela uppgifter](/help/quicksilver/manage-work/tasks
 
 >[!NOTE]
 >
->Förhandsversion: 29 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 29 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (18 juli 2024)
 
 Vi har uppdaterat sidan Dokumentinformation > Anpassad Forms till en mer modern design som är konsekvent med andra delar av Workfront. Sidan har nu stöd för avancerade anpassade formulärfunktioner som externa uppslagsfält.
 
@@ -44,7 +44,7 @@ Mer information finns i [Översikt över dokumentinformation](/help/quicksilver/
 
 >[!NOTE]
 >
->Förhandsversion: 29 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 29 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (18 juli 2024)
 
 Vi har uppdaterat Iteration Details > Custom Forms page till en modernare design som överensstämmer med andra delar av Workfront. Sidan har nu stöd för avancerade anpassade formulärfunktioner som externa uppslagsfält.
 
@@ -54,7 +54,7 @@ Mer information finns i [Skapa en flexibel artikel i en iteration](/help/quicksi
 
 >[!NOTE]
 >
->Förhandsversion: 18 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 18 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (18 juli 2024)
 
 Vi har uppdaterat huvudgruppslistan i området Inställningar > Grupper till en mer modern design som är förenlig med andra delar av Workfront. Alla dialogrutor för grupper och undergrupper (lägg till, redigera, kopiera, inaktivera, ta bort) har även den uppdaterade designen, oavsett om de finns i grupplistan eller på menyn Mer för en viss grupp eller undergrupp.
 
@@ -64,7 +64,7 @@ Mer information finns i [Skapa en grupp](/help/quicksilver/administration-and-se
 
 >[!NOTE]
 >
->Förhandsversion: 2 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 2 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis version: Med version 24.7 (18 juli 2024)
 
 Vi har uppdaterat Exchange Rates-skärmen till en modernare design som är konsekvent med andra delar av Workfront.
 
@@ -74,7 +74,7 @@ Mer information finns i [Ställ in valutakurser](/help/quicksilver/administratio
 
 >[!NOTE]
 >
->Förhandsversion: 2 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis publicering: Med version 24.7 (juli 2024)
+>Förhandsversion: 2 april 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktion för kvartalsvis version: Med version 24.7 (18 juli 2024)
 
 Vi har uppdaterat skärmen Jobbroller till en modernare design som är konsekvent med andra delar av Workfront.
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 42db442966cff841774f894b6538f997de39adfb
+source-git-commit: d53be1bfb102f4b7fb81bfc9b7dc4bb313dab421
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan innehåller information om funktioner som ingår i utgåvan för tredje kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
 
-Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig för webbinariet här](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstration av 24.7-funktioner här](https://video.tv.adobe.com/v/3430532/%20).
 
 <span class="preview">Funktioner utanför cykeln (de som lanserades till Production före tredje kvarteret 2024) markeras med gult.</span>
 
@@ -28,7 +28,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
 >
 >| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
->| <ul><li>24.5 (16 maj 2024)</li><li>24.6 (13 juni 2024)</li><li>24.7 (juli 2024)</li></ul> | <ul><li>24.7 (juli 2024)</li></ul> |
+>| <ul><li>24.5 (16 maj 2024)</li><li>24.6 (13 juni 2024)</li><li>24.7 (18 juli 2024)</li></ul> | <ul><li>24.7 (18 juli 2024)</li></ul> |
 >
 >Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -36,6 +36,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Förbättrad ekonomisk förvaltning](#financial-management-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Förbättrad resurshantering](#resource-management-enhancements)
 * [Andra förbättringar](#other-enhancements)
@@ -54,6 +55,23 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Anpassad formulärdesigner som är allmänt tillgänglig i Adobe Workfront</a></p>
+                        <p>Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen när man skapar och redigerar anpassade blanketter i Adobe Workfront. När du skapar ett nytt anpassat formulär eller öppnar ett befintligt, visas formulärdesignerns arbetsyta i arbetsytan.</p>
+                        <p>Efter den här versionen har du inte längre möjlighet att återgå till det tidigare formulärverktyget.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 19 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -98,7 +116,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -165,6 +183,46 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
            </tbody>
         </table>
 
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av Workfront för Experience Manager Assets och Assets Essentials</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>Vi har gjort följande förbättringar för integreringen av Workfront för Experience Manager Assets och Assets Essentials:</p>
+                        <ul>
+                            <li><p>Integreringen har nu stöd för GCP som molntjänstleverantör. AWS och Azure stöddes tidigare.</p></li>
+                            <li><p>Storleksgränsen för filer som skickas till Experience Manager via integreringen har ökat till 30 GB. Tidigare var gränsen 5 GB.</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 27 juni 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktion för alla kunder: Med version 24.7 (18 juli 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Projektförbättringar
 
 <table>
@@ -196,7 +254,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Produktion för snabb lansering: Med version 24.6 (13 juni 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -216,7 +274,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +294,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -271,7 +329,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -306,7 +364,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Förhandsversion: 20 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för angivna kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktion för angivna kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                          </ul>
                          <span style="color: #ff0000;">Det enhetliga Adobe-skalet görs tillgängligt i en fasad utrullning. Ytterligare organisationer kommer att ingå i Adobe Unified Shell med versionerna 24.10 och 25.1. </p>
@@ -323,7 +381,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -343,7 +401,7 @@ Webbseminariet 24.7 kommer att vara den 27 juni 2024. Du kan [registrera dig fö
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktion för kvartalsvis lansering: Med version 24.7 </p>
+                                <p>Produktion för kvartalsvis lansering: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>

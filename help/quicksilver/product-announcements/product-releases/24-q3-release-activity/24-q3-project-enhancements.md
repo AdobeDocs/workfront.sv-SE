@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 39f5526a7a816da60cb80ea4fe9313a2773e6398
+source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Förhandsversion: 30 maj 2024; Produktion för snabb version: Med version 24.6 (13 juni 2024); Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
+>Förhandsversion: 30 maj 2024; Produktion för snabb version: Med version 24.6 (13 juni 2024); Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024).
 
 För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen. Före den här förbättringen kunde du inte lägga till villkor och datum för implementering av uppgifter och utgåvor när du anpassade rubrikerna.
 
@@ -38,7 +38,7 @@ Mer information om hur du uppdaterar implementeringsdatum och villkor finns i f�
 
 >[!NOTE]
 >
->Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.7 (juli 2024).
+>Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024).
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 
