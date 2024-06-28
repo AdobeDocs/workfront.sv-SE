@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '138'
+source-wordcount: '146'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,7 @@ Som marknadsledare kan ni använda Adobe Workfront Planning för att organisera 
 Granska följande artiklar:
 
 * [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md)
-* [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/planning/general/release-activity.md)
-* [Adobe Workfront Planning Release Activity för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
+* [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md)
+* [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+

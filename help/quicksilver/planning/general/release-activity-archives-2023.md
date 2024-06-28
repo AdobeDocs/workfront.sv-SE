@@ -1,12 +1,12 @@
 ---
-title: Adobe Workfront Planning Release Activity för 2023
+title: Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023
 description: Adobe Workfront Planning-funktionerna är för närvarande tillgängliga för vissa Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för planeringsfunktionerna.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '2987'
+source-wordcount: '2989'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 I den här artikeln listas de funktioner som har släppts efter lanseringen av Adobe Workfront Planning Program, den 22 maj 2023 för 2023.
 
-Mer information om funktionerna som släpptes 2024 finns i [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+Mer information om funktionerna som släpptes 2024 finns i [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
 
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 

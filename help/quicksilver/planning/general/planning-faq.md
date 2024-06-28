@@ -4,9 +4,9 @@ description: Som marknadsledare kan ni använda Adobe Workfront Planning för at
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d052b883e47f32908e939d64c610427d4475afb3
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1675'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Workfront Planning-modulen är en av tre distinkta, men sammankopplade, Workfron
 
 ## När kommer Workfront Planning att släppas?
 
-Den senaste Workfront Planning-releasen är planerad till 28 augusti 2024. Aktuell information om vilka funktioner som släpps finns i [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+Den senaste Workfront Planning-releasen är planerad till 28 augusti 2024. Aktuell information om vilka funktioner som släpps finns i [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
 
 ## Vad händer efter det att Workfront Planning är klar i ett tidigt skede?
 

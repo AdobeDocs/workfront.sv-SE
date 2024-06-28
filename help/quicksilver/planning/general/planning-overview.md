@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1967'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Nedan följer några av de viktigaste funktionerna:
 
 I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront Planning och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
-Information om nya funktioner och när de släpps finns på [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+Information om nya funktioner och när de släpps finns på [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
 
 | Funktion | Ute nu | Tillgänglig snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -116,7 +116,7 @@ Ramverket för Workfront Planning är helt anpassningsbart. Du kan skapa alla po
 
 Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
-* **Arbetsyta**: En samling posttyper som definierar en viss organisations operativa livscykel. En arbetsyta är en arbetsyta i en organisationsenhet.
+* **Workspace**: En samling posttyper som definierar en viss organisations operativa livscykel. En arbetsyta är en arbetsyta i en organisationsenhet.
 
   En Workfront-instans kan ha högst 1 000 arbetsytor.
 
@@ -144,7 +144,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
-* **Arbetsytemall**: Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna och fälten som finns i en mall eller lägga till egna.
+* **Workspace-mall**: Du kan skapa en arbetsyta med fördefinierade mallar. Du kan använda de fördefinierade posttyperna och fälten som finns i en mall eller lägga till egna.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
@@ -328,5 +328,5 @@ Så här hittar du Workfront Planning:
 
 Vi lanserar regelbundet nya funktioner i Workfront Planning.
 
-En uppdaterad lista över funktioner som släppts finns på [Adobe Workfront Planning - lanseringsaktivitet](/help/quicksilver/planning/general/release-activity.md)
+En uppdaterad lista över funktioner som släppts finns på [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md)
 

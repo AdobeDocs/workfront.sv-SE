@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront Planning - lanseringsaktivitet
+title: Adobe Workfront Planerar aktuell versionsaktivitet
 description: Adobe Workfront Planning-funktionerna är för närvarande tillgängliga för vissa Workfront-kunder. Läs den här artikeln ofta och lär dig mer om de funktioner som nyligen släppts för planeringsfunktionerna.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
 workflow-type: tm+mt
-source-wordcount: '5143'
+source-wordcount: '5234'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Workfront Planning - lanseringsaktivitet
+# Adobe Workfront Planerar aktuell versionsaktivitet
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 I den här artikeln listas de funktioner som släppts till Workfront Planning under 2024.
 
-Workfront planeringsprogram har startat sedan 22 maj 2023. En lista över alla funktioner som släpptes under 2023 finns på [Adobe Workfront Planning Release Activity för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront planeringsprogram har startat sedan 22 maj 2023. En lista över alla funktioner som släpptes under 2023 finns på [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 
@@ -54,6 +54,16 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
 ## Vecka 24 juni 2024
+
+### Workfront AI Assistant (beta) finns nu för Workfront Planning
+
+AI Assistant (beta) finns nu för Workfront Planning.
+
+AI-assistenten fungerar tillsammans med den valda sidan och med din åtkomst- och behörighetsnivå för att utföra följande åtgärder: generera, uppdatera, ta bort eller återställa poster.
+
+AI-assistenten är för närvarande i en betafas och är tillgänglig för utvalda kunder. Kontakta din kontorepresentant för att få veta om du är berättigad att delta i den här fasen.
+
+Mer information finns i [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Ny sökruta när du väljer en arbetsyta eller posttyp
 
