@@ -1,5 +1,5 @@
 ---
-source-git-commit: 9960d5a100e710afefed3036958a3435528cafa3
+source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
 workflow-type: tm+mt
 source-wordcount: '2341'
 ht-degree: 0%
@@ -327,7 +327,7 @@ Du måste installera rätt plugin-program för det Adobe Creative Cloud-program 
 
 ## Senaste DPV-version {#latest-version}
 
-**Senaste versionen**: 2.1.34 per den 3 juni 2024
+**Senaste versionen**: 2.1.35 per den 7 april 2024
 
 <!-- Release -->
 
