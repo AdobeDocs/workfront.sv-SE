@@ -5,13 +5,13 @@ title: Skapa en godkännandemall
 description: Du kan skapa godkännandemallar för att effektivisera godkännandeprocessen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
+source-git-commit: 0d828f8dd316c332b98066a9bb797c534eeace3d
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
-
 
 # Skapa en godkännandemall
 
@@ -37,7 +37,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Standard</p> </td> 
+   <td> <p>Nytt: Standard</p> 
+   <p>eller</p>
+   <p>Aktuell: Planera</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,4 +68,3 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-

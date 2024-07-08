@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 04743d6915c938564dc349db4e438682ea220ebc
+source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,9 @@ Fortsätt läsa nedan för mer information om planerade funktioner och releaser 
 
 ## Versionsplan
 
-Vi håller på att göra nya dokumentgodkännanden tillgängliga för användare i flera versioner. Förutom att lägga till nya funktioner kommer vi också att utöka antalet konton där nya dokumentgodkännanden är tillgängliga i varje release. Kontoadministratörer får ett e-postmeddelande från meddelandecentret som informerar dem om ändringen innan de inkluderas.
+Vi håller på att göra nya dokumentgodkännanden tillgängliga för användare i flera versioner. Förutom att lägga till nya funktioner kommer vi också att utöka antalet konton där nya dokumentgodkännanden är tillgängliga i varje release.
 
 Om du vill aktivera nya dokumentgodkännanden i din produktionsmiljö kontaktar du din kundansvarige eller strategiska kontohanterare.
-
-**Version 1**\
-    Förhandsgranska: 31 maj 2023\
-    Produktion: 14 juni 2023
 
 ## Använda nya dokumentgodkännanden
 
