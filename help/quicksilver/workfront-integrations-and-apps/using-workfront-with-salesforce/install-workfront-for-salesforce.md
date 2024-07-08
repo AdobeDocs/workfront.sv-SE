@@ -6,7 +6,7 @@ description: Installera appen innan den blir tillgänglig i [!DNL Salesforce] Ap
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 1%
@@ -79,11 +79,11 @@ Så här installerar du appen innan den blir tillgänglig:
 
 1. I produktionsmiljön går du till
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
 
    I sandlådemiljön går du till
 
-   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
 
    >[!NOTE]
    >
