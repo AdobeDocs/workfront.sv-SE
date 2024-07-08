@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: abc172f312d9b6695fa57598c2c0396d30ff2a95
+source-git-commit: 0965c9a02496127bbf9b562784ff06c295dc0cf1
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1740'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,23 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Affärsreglerna är nu tillgängliga</a></p>
+                        <p>Administratörer kan nu lägga till affärsregler under Konfigurera i Workfront.</p>
+                        <p>Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Reglerna byggs med en formel som liknar beräkningsfält i anpassade formulär.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 4 juli 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

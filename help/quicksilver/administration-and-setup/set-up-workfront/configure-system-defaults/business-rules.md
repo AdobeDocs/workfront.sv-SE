@@ -7,17 +7,16 @@ description: Du kan välja om du vill få nya Workfront-funktioner månadsvis el
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
-source-git-commit: d96ddcc2f514d9f79e94a3437a3b66e07a270abc
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera affärsregler
+
+{{highlighted-preview-article-level}}
 
 Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Affärsreglerna bidrar till att förbättra datakvaliteten och effektiviteten genom att förhindra åtgärder som kan äventyra dataintegriteten.
 
@@ -25,7 +24,7 @@ En affärsregel kan bara tilldelas ett objekt. Om du t.ex. skapar en affärsrege
 
 Åtkomstnivåer och objektdelning har högre prioritet än affärsregler när en användare interagerar med ett objekt. Om en användare t.ex. har en åtkomstnivå eller behörighet som inte tillåter redigering av ett projekt, har de företräde framför en affärsregel som tillåter redigering av ett projekt under vissa villkor.
 
-En hierarki finns också när mer än en affärsregel används för ett objekt. Du har till exempel två affärsregler. Det finns en begränsning för att skapa utgifter i februari. Den andra förhindrar redigering av ett projekt när projektstatusen är Slutförd. Om en användare försöker lägga till en utgift i ett slutfört projekt i juni, kan utgiften inte läggas till eftersom den har utlöst den andra regeln.
+När mer än en affärsregel gäller för ett objekt följs alla regler, men tillämpas inte i en viss ordning. Du har till exempel två affärsregler. Det finns en begränsning för att skapa utgifter i februari. Den andra förhindrar redigering av ett projekt när projektstatusen är Slutförd. Om en användare försöker lägga till en utgift i ett slutfört projekt i juni, kan utgiften inte läggas till eftersom den har utlöst den andra regeln.
 
 Affärsreglerna gäller för att skapa, redigera och ta bort objekt via API:t och Workfront-gränssnittet.
 
@@ -35,9 +34,9 @@ Affärsreglerna gäller för att skapa, redigera och ta bort objekt via API:t oc
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Utöka för att se åtkomstkraven för funktionen i den här artikeln.
 
-Du måste ha följande för att kunna utföra stegen i den här artikeln:
+Du måste ha följande uppgifter för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,18 +63,36 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 ## Scenarier för affärsregler
 
-Några enkla affärsregelscenarier är:
+Formatet på en affärsregel är&quot;OM det definierade villkoret uppfylls förhindras användaren från att utföra åtgärden på objektet och meddelandet visas.&quot;
 
-* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Denna formel kan anges som: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Användare kan inte redigera ett projekt som har statusen Fullständigt. Denna formel kan anges som: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-Syntaxen för att skapa en affärsregel är densamma som för att skapa ett beräknat fält i en anpassad form. Mer information om syntaxen finns i [Lägg till beräknade fält med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Syntaxen för egenskaperna och andra funktioner i en affärsregel är densamma som syntaxen för ett beräkningsfält i ett anpassat formulär. Mer information om syntaxen finns i [Lägg till beräknade fält med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Mer information om IF-programsatser finns i [Översikt över IF-programsatser](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) och [Villkorsoperatorer i beräknade anpassade fält](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Mer information om användarbaserade jokertecken finns i [Generera rapporter med användarbaserade jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Mer information om datumbaserade jokertecken finns i [Generera rapporter med datumbaserade jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+Ett API-jokertecken finns också i affärsreglerna. Du kan använda `$$ISAPI` om du bara vill aktivera regeln i användargränssnittet eller bara i API:t.
+
+Några enkla affärsregelscenarier är:
+
+* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Denna formel kan anges som: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Användare kan inte redigera ett projekt som har statusen Fullständigt. Denna formel skulle kunna uttryckas som: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+Ett scenario med kapslade IF-satser är:
+
+Användare kan inte redigera slutförda projekt och kan inte redigera projekt med ett planerat slutförandedatum i mars. Denna formel skulle kunna uttryckas som:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Lägg till en ny affärsregel
 

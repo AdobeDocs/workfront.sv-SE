@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,22 @@ ht-degree: 0%
 På den här sidan beskrivs alla administratörsförbättringar som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Affärsreglerna är nu tillgängliga
+
+>[!NOTE]
+>
+>Förhandsversion: 4 juli 2024; Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024).
+
+Administratörer kan nu lägga till affärsregler under Konfigurera i Workfront.
+
+Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Reglerna byggs med en formel som liknar beräkningsfält i anpassade formulär.
+
+Mer information finns i [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Affärsreglerna är endast tillgängliga för organisationer med den nya Ultimate-planen.
 
 ## Anpassad formulärdesigner som är allmänt tillgänglig i Adobe Workfront
 
