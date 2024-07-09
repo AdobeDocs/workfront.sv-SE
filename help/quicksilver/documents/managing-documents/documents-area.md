@@ -7,9 +7,9 @@ description: Under Dokument kan du ordna, hantera och visa metadata för dokumen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,19 @@ Under Dokument kan du ordna, hantera och visa metadata för dokument som överf�
 
 Det finns två typer av dokumentområden. Funktionerna är desamma för båda:
 
-* **Dokumentområde i ett projekt, en uppgift eller ett ärende:** Visar alla dokument som du har tillgång till för ett visst projekt, en viss uppgift eller ett visst ärende. Klicka för att öppna området **Dokument** ![](assets/document-icon-12x14.png) i den vänstra panelen när du visar ett projekt, en uppgift eller ett problem.
+* **Dokumentområde i ett program, en portfölj, ett projekt, en uppgift eller en utgåva:** Visar alla dokument som du har tillgång till för ett visst projekt, en viss uppgift eller ett visst ärende. Klicka för att öppna området **Dokument** ![](assets/document-icon-12x14.png) i den vänstra panelen när du visar ett projekt, en uppgift eller ett problem.
 
 * **Området Globala dokument:** Visar alla dokument som du har tillgång till i Workfront. Klicka för att öppna området **Dokument** ![](assets/document-icon.png) på huvudmenyn ![](assets/main-menu-icon.png).
 
 Information om hur du överför dokument till Workfront finns i [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
+
+Dokumentområdet registrerar ett antal av följande objekt:
+
+* Workfront-mappar
+* Filer som överförts från filsystemet
+* Filer som lagts till i Workfront från integreringar
+* Länkad Experience Manager Assets
 
 ## Panelen Sammanfattning
 
