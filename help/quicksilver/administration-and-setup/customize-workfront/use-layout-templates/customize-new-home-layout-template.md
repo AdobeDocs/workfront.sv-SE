@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 9de4a3729abe0ea2ee89df0be2974b714e65332a
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det användarna ser** och sedan klicka **Arbetsytan Hem**.
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det användarna ser** och sedan klicka **Home Workspace**.
 
 1. Klicka på någon av flikarna till höger **Design och layout** för att välja och ordna widgetar och bakgrund, eller **Widget-inställningar** om du vill hantera inställningar för enskilda widgetar, till exempel tillgängliga filter och grupper.
 
@@ -132,3 +132,8 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
    eller
 
    Om du är klar med anpassningen klickar du på **Spara** längst ned till vänster.
+
+
+>[!NOTE]
+>
+>Administratörer som anpassar sin egen layoutmall måste uppdatera sidan för att kunna se ändringarna.

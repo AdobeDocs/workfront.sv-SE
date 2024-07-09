@@ -6,9 +6,9 @@ description: Med filter- och villkorsmodifierarna kan du skapa filter och skapa 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: d2268e50080ddbe306731d034d88fd29b712b86d
+source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
 workflow-type: tm+mt
-source-wordcount: '1516'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
@@ -127,16 +127,16 @@ Du kan använda följande villkorsmodifierare i filter och villkorsstyrda format
    <td> <p><strong>Inte lika med</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>Det här är <i>skiftlägeskänslig</i> motsatt <strong>in</strong>. Det returnerar bara resultat som inte finns i den angivna listan.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> <p>Obs! <span>Om fältet som du filtrerar efter har flera alternativ filtreras resultaten som innehåller både det alternativ som du anger, samt det alternativ som du anger och eventuella ytterligare alternativ.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>gilla</strong> </p> </td> 
+   <td> <p>Den här modifieraren söker efter delar av en <i>skiftlägeskänslig</i> textsträng på liknande sätt som <strong>innehåller</strong>. Men <strong>gilla</strong> gör att du kan infoga jokertecken för att dela upp texten.</p> <p>Om du till exempel söker efter anteckningar, använda <code>like %Current% %Dead%</code> returnerar alla anteckningar som innehåller frasen"Aktuell till död". Den innehåller inga anteckningar som innehåller"Dead to Current". Varje värde söks igenom i den ordning som det listas. % representerar ett jokertecken som ersätter tecken eller textsegment. Ett understreck kan också användas för ett enda jokertecken, som i <code>like Project_</code> som returnerar både "Projekt" och "Projekt". Om du tänker använda en <strong>gilla</strong> eller <strong>clike</strong> modifierare i din filtrering rekommenderar vi att du undviker %- eller _-tecken i anpassade datafältnamn, parameteralternativvärden eller andra objektnamn.</p><p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>Det här är <i>skiftlägesokänslig</i> version av <strong>gilla</strong>. Till exempel: <code>cilike %Current% %Dead%</code> returnerar alla anteckningar som innehåller <code>Current to Dead</code> eller <code>current to dead</code>.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>gilla</strong> </p> </td> 
-   <td> <p>Den här modifieraren söker efter delar av en <i>skiftlägeskänslig</i> textsträng på liknande sätt som <strong>innehåller</strong>. Men <strong>gilla</strong> gör att du kan infoga jokertecken för att dela upp texten.</p> <p>Om du till exempel söker efter anteckningar, använda <code>like %Current% %Dead%</code> returnerar alla anteckningar som innehåller frasen"Aktuell till död". Den innehåller inga anteckningar som innehåller"Dead to Current". Varje värde söks igenom i den ordning som det listas. % representerar ett jokertecken som ersätter tecken eller textsegment.</p> <p>Den här modifieraren kan bara användas i textlägesfilter. Mer information om textläge i filter finns i <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Redigera ett filter i textläge</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Finns inte</strong> </td> 
