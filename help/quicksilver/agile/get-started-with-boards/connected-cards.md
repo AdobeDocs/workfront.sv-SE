@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1372'
 ht-degree: 0%
 
 ---
@@ -166,8 +166,8 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Formatera texten med formateringsverktygen och klicka på <strong>Lägg till bilaga</strong> icon <img src="assets/attachment-icon.png" alt="Ikon för bifogad fil"> för att bifoga en fil till kommentaren. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
-      <p><strong>OBS!</strong> Kommentarsområdet på kort använder Adobe Workfront nya kommentarsfunktion. Mer information finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
+      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Använd formateringsverktygen för att formatera texten. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen. Taggade användare på anslutna kort får e-postmeddelanden.</p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
+      <p>Mer information om att kommentera finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 
