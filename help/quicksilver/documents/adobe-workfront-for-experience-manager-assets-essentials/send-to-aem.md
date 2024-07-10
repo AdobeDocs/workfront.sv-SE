@@ -6,22 +6,20 @@ description: Du kan skicka dokument från Workfront till Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 7942e77b-9466-4dff-9737-97b17647ac48
-source-git-commit: 7fa4493d269862c9cdece75f0bf216931c671ea6
+source-git-commit: 65805e2ca81a46cce75610ff13b77e3748a6a810
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '915'
 ht-degree: 0%
 
 ---
 
 # Skicka ett dokument till Experience Manager Assets eller Assets Essentials
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
-
 Du kan skicka dokument från Workfront till Experience Manager Assets eller Assets Essentials. Dokument som överförts och skickats från Workfront till Assets Essentials räknas fortfarande mot den totala dokumentlagringen. Assets som är länkat från Assets Essentials räknas inte in i det totala lagringsutrymmet.
 
 Assets som skickas till Experience Manager via den här integreringen har en storleksbegränsning på **5 GB**.
 
-<span class="preview">I förhandsvisningsmiljön har Assets som skickas till Experience Manager via den här integreringen en storleksgräns på **30 GB**.</span>
+I förhandsvisningsmiljön har Assets som skickas till Experience Manager via den här integreringen en storleksgräns på **30 GB**.
 
 Metadatafält mappas först när du skickar en resurs från Workfront till Experience Manager Assets eller Assets Essentials. Alla metadata som har konfigurerats för att mappa för överordnade objekt skickas också. Mer information om hur du konfigurerar metadatamappning finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
@@ -31,7 +29,9 @@ Metadatafält mappas först när du skickar en resurs från Workfront till Exper
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna slutföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -62,6 +62,8 @@ Du måste ha följande:
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förutsättningar
 
