@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
-source-git-commit: 6b2a2160b5daaa94374707bad4b026daa13edf06
+source-git-commit: 02b025f228b6e2abc58dbc30f88c055c7850b803
 workflow-type: tm+mt
-source-wordcount: '2911'
+source-wordcount: '2895'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ Om du till exempel vill referera till det valda alternativet i ett anpassat fäl
 
 ## Beräknade anpassade fält i anpassade formulär med flera objekt {#calculated-custom-fields-in-multi-object-custom-forms}
 
-I ett anpassat formulär med flera objekt måste de valda objekttyperna vara kompatibla med alla fält som refereras i formulärets beräknade anpassade fält. Om det finns inkompatibilitet visas ett meddelande som varnar dig om att göra ändringar.
+I ett anpassat formulär med flera objekt måste de valda objekttyperna vara kompatibla med alla fält som refereras i formulärets beräknade anpassade fält.
 
 >[!INFO]
 >
@@ -310,11 +310,11 @@ I ett anpassat formulär med flera objekt måste de valda objekttyperna vara kom
 >
 >`{assignedTo}.{name}`
 >
->Senare lägger du till objekttypen i det anpassade formuläret. Ett varningsmeddelande anger att projektobjekttypen inte är kompatibel med det beräknade anpassade fältet.
+>Senare lägger du till objektstypen Projekt i det anpassade formuläret, men objekttypen är inte kompatibel med det beräknade anpassade fältet.
 
 När detta inträffar kan du göra något av följande:
 
-* Ta bort ett av de två inkompatibla objekten från det anpassade formuläret, antingen objekttypen eller det refererade beräknade anpassade fältet.
+* Ta bort ett av de två inkompatibla objekten från det anpassade formuläret - antingen objekttypen eller det refererade beräknade anpassade fältet.
 * Behåll båda objekten och använd filtret för jokertecken `$$OBJCODE` som ett villkor i ett IF-uttryck för att skapa två olika versioner av fältet I Charge. Detta gör att fältet kan fungera utan problem, oavsett vilken typ av objekt formuläret är kopplat till.
 
 >[!INFO]
@@ -325,7 +325,7 @@ När detta inträffar kan du göra något av följande:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-Mer information om variabler som `$$OBJCODE,` se [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Mer information om variabler som `$$OBJCODE,` se [Översikt över filtervariabler för jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatiska uppdateringar av beräknade anpassade fält
 
