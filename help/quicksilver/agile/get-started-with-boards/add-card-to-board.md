@@ -6,9 +6,9 @@ description: Du kan snabbt lägga till ett ad hoc-kort till en styrelse och till
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Använd formateringsverktygen för att formatera texten. Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
+      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Använd formateringsverktygen för att formatera texten. (Bilder är inte tillgängliga i kommentarer på ad hoc-kort.) Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
       </p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
       <p>Mer information om att kommentera finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
      </tr>
