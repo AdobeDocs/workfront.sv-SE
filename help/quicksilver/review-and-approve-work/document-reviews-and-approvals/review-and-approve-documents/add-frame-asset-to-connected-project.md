@@ -6,9 +6,9 @@ description: Man kan lägga in material som ska granskas i Frame.io och skicka t
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: cf5e96fc1d0b2f17dcbc6f99dba2d11cc9161103
+source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -55,11 +55,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 ## Förutsättningar
 
-* Du måste ha en Workfront-grupp ansluten till ett Frame.io-team.
-* Du måste ha ett Workfront-projekt anslutet till ett Frame.io-projekt och ha lagts till som användare till en Workfront-uppgift som är aktiverad för Frame.io.
-
-Mer information finns i [Koppla upp Workfront och Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* Du måste konfigurera integreringen mellan Workfront och Frame.io. Mer information finns i [Konfigurera integreringen mellan Workfront och Frame.io](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt
 

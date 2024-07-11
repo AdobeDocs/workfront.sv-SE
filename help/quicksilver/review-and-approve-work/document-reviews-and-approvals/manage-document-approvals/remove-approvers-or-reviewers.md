@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Ta bort godkännare eller granskare från ett dokument
+title: Ta bort godkännare eller granskare från en resurs eller ett dokument
 description: Du kan ta bort enskilda godkännare eller granskare från ett dokument.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
-# Ta bort godkännare eller granskare från ett dokument
+# Ta bort godkännare eller granskare från en resurs eller ett dokument
 
-Du kan ta bort enskilda godkännare eller granskare från ett dokument när de har tilldelats.
+Du kan ta bort enskilda godkännare eller granskare från en resurs eller ett dokument när de har tilldelats.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Ta bort godkännare eller granskare från dokumentsidan
+## Ta bort godkännare eller granskare från sidan Dokumentinformation
 
 1. Gå till dokumentsidan genom att klicka på dokumentets namn och markera sedan den version av dokumentet som du vill ta bort ett godkännande för i versionslistan. Den senaste versionen väljs som standard.
 
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Upprepa föregående steg om du vill ta bort ytterligare godkännare eller granskare.
 
-## Ta bort godkännare eller granskare från rutan Dokumentsammanfattning
+## Ta bort godkännare eller granskare från dokumentsammanfattningen
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 

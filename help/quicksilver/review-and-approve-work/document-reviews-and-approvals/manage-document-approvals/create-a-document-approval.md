@@ -6,16 +6,16 @@ description: Du kan begära godkännande från andra användare för ett dokumen
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 6daf68aee442b3322d186e649e7797cc2e911145
+source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
 
 # Skapa en begäran om dokumentgranskning eller godkännande
 
-Du kan begära godkännande från andra användare eller team för ett dokument i Adobe Workfront, eller begära att de granskar ett dokument utan att behöva godkänna det.
+cDu kan begära godkännande från andra användare eller team för ett dokument i Adobe Workfront, eller begära att de granskar ett dokument utan att behöva godkänna det.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td>  
    <td> <p>Granska eller högre</p> </td> 
   </tr> 
   <tr> 

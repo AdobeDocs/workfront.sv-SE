@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Översikt över nya dokumentgodkännanden
+title: Översikt över godkännande av nya dokument
 description: Du kan lägga till ytterligare godkännare eller granskare i ett dokument som redan har väntande godkännanden.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6758b90636bf1c5b05934150b83f9350d040a38e
+source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
 
-# Översikt över nya dokumentgodkännanden
+# Översikt över godkännande av nya dokument
 
 Godkännanden av nya dokument innebär en helt ny utformning av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
 
@@ -47,9 +47,9 @@ Om du vill aktivera nya dokumentgodkännanden i din produktionsmiljö kontaktar 
 
 ## Använda nya dokumentgodkännanden
 
-Information om användare som vill skapa eller hantera dokumentgodkännanden finns i artiklarna i [Godkänn dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+Information om användare som vill skapa eller hantera dokumentgodkännanden finns i artiklarna i [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Information om användare som vill granska eller godkänna dokument som de har tagit emot en begäran finns i artiklarna i [Granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+Information om användare som vill granska eller godkänna dokument som de har tagit emot en begäran finns i artiklarna i [Godkänn och granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

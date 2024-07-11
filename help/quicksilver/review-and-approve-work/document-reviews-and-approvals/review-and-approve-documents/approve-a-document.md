@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Godkänn ett dokument
+title: Godkänn ett dokument i Workfront
 description: Om du tilldelas som godkännare för ett dokument finns det flera sätt att fatta beslut om godkännande.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: e8116a6778d5952ba583cfdfb94b761757adc030
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1067'
 ht-degree: 0%
 
 ---
 
-# Godkänn ett dokument
+# Godkänn ett dokument i Workfront
 
 Om du tilldelas som godkännare för ett dokument finns det flera sätt att fatta beslut om godkännande.
 

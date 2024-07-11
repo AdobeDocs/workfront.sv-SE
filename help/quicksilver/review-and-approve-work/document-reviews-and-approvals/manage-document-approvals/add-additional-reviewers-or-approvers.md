@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Lägga till ytterligare godkännare eller granskare i ett dokument
+title: Lägga till ytterligare godkännare eller granskare till en resurs eller ett dokument
 description: Du kan lägga till ytterligare godkännare eller granskare i ett dokument som redan har väntande godkännanden.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
 
-# Lägga till ytterligare godkännare eller granskare i ett dokument
+# Lägga till ytterligare godkännare eller granskare till en resurs eller ett dokument
 
-Du kan lägga till ytterligare godkännare eller granskare i ett dokument som redan har väntande godkännanden.
+Du kan lägga till ytterligare godkännare eller granskare för en resurs eller ett dokument som redan har väntande godkännanden.
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Lägg till ytterligare godkännare eller granskare från dokumentsidan
+## Lägg till ytterligare godkännare eller granskare från sidan Dokumentinformation
 
 1. Gå till dokumentsidan genom att klicka på dokumentets namn och markera sedan den version av dokumentet som du vill lägga till en godkännare eller granskare i listrutan version. Den senaste versionen väljs som standard.
 
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
-## Lägg till ytterligare godkännare eller granskare från rutan Dokumentsammanfattning
+## Lägg till ytterligare godkännare eller granskare från dokumentsammanfattningen
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 

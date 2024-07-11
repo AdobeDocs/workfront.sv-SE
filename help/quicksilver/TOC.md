@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9deb747ee9e9598949bcd0b64513b222fa0bc1
+source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
 workflow-type: tm+mt
-source-wordcount: '14395'
+source-wordcount: '14434'
 ht-degree: 0%
 
 ---
@@ -1820,22 +1820,22 @@ ht-degree: 0%
       * [Delegera godkännandebegäran](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [Associera en ny eller befintlig godkännandeprocess med arbete](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [Återkalla inskickade godkännanden](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * Dokumentgranskning och godkännande {#document-reviews-and-approvals}
-      * [Dokumentgranskning och godkännande](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+   * Granskning och godkännande av material och dokument {#document-reviews-and-approvals}
+      * [Resurs- och dokumentgranskning och godkännande: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-      * [Kom igång med granskning och godkännande av resurser med Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-      * Granska dokument {#review-and-approve-documents}
-         * [Granska dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-         * [Connect Workfront and Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-         * [Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * Godkänn dokument {#approve-documents}
-         * [Godkänn dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+      * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Kom igång med granskning och godkännande av material med Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
+      * [Ställ in och hantera godkännande av tillgångar och dokument]{#manage-asset-review-and-approval}
+         * [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Lägga till ytterligare granskare eller godkännare i ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Ta bort godkännare eller granskare från ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Skapa en godkännandemall](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+         * [Skapa en gransknings- eller godkännandebegäran för en Frame.io-resurs](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
+         * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Ta bort godkännare eller granskare från en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Skapa en godkännandemall för resurser och dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+      * Godkänn och granska material och dokument {#review-and-approve-documents}
+         * [Godkänn och granska dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Korrektur {#proofing}
       * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)

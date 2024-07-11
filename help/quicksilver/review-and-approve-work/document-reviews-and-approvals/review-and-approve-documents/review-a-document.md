@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Granska ett dokument
+title: Granska ett dokument i Workfront
 description: Som granskare kan du förhandsgranska ett dokument som har skickats till dig för granskning.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 50a38ad915b639bf742a4b1f18bcb4da88e07d63
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
-# Granska ett dokument
+# Granska ett dokument i Workfront
 
 Som granskare kan du visa ett dokument som har skickats till dig för granskning. Till skillnad från ett godkännande fattar du inget beslut. I stället bekräftar du att du har granskat resursen.
 
