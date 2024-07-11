@@ -6,7 +6,7 @@ description: Gör det möjligt för användare att skicka ett ärende via e-post
 author: Alina
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: dad055b0901cfa8114f7f6b13b6f689d70b31205
+source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 0%
@@ -76,12 +76,12 @@ Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
 >
 >* Workfront tillåter en unik e-postkö per begäran för alla kluster. Om du väljer att inaktivera din begärandekö behåller du den e-postadress du skapade så länge som den fortfarande finns i rutan Ange e-postadress. Om du väljer att inte längre använda e-postadressen måste du ta bort den från fältet Intag-e-post så att den kan användas senare.
 >
->* Om det finns flera köämnen eller ämnesgrupper i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör att det blir svårt att hantera e-postbegäranden.
+>* Om det finns flera köämnen eller ämnesgrupper i kön i begärandekön väljer Workfront slumpmässigt det köämne som förfrågningarna ska gå till, vilket gör det svårt att hantera e-postförfrågningar.
 >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
 1. Klicka **Köinformation** till vänster. Du kan behöva klicka **Visa fler** först.
-1. I **Kötyp** område, markera **Publicera som kö för hjälpbegäran**.
+1. I **Kötyp** område, markera **Publish som kö för hjälpbegäran**.
 
 1. Bläddra nedåt till **E-postköinställningar** område och sedan markera **Aktivera inmatning via e-post**.
 
