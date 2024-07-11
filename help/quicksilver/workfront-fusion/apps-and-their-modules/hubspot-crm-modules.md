@@ -4,9 +4,9 @@ description: The [!DNL Adobe Workfront Fusion] Med HUBspot CRM-modulerna kan du 
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: 5bb394c2fffb4426d66a8b144802db8f7c97afe1
+source-git-commit: 1c56cf8aa9da7ec2644955d5533c71f60160d580
 workflow-type: tm+mt
-source-wordcount: '2140'
+source-wordcount: '2171'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,10 @@ Används [!DNL HubSpot CRM] moduler, du måste ha en [!DNL HubSpot CRM] konto.
 ## Anslut [!DNL Adobe Workfront Fusion] till [!DNL HubSpot CRM]
 
 Instruktioner om hur du ansluter [!DNL HubSpot CRM] konto till [!DNL Workfront Fusion], se [Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>När du konfigurerar en anslutning väljer du **HubSpot CRM** anslutningstyp. HubSpot CRM-typen (utgått) stöder befintliga anslutningar, men vi rekommenderar inte att du använder den för att skapa nya anslutningar.
 
 ## [!DNL HubSpot CRM] moduler och deras fält
 
