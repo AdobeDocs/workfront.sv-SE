@@ -6,9 +6,9 @@ description: Även om det inte finns några begränsningar för vilka typer och 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 5469598d57fec1a744ddb44cf2accb94e1f70941
+source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,12 @@ Du måste ha följande:
 
 ## Kontrollera dokumentlagring
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
 1. Klicka på i den vänstra panelen **System** > **Kundinformation**.
 1. I **Grundläggande information** avsnitt, hitta **Lagringskvot**. Här kan du se hur mycket lagringsutrymme du använder just nu samt hur mycket lagringsutrymme din Workfront-plan omfattar.
 
-   >[!NOTE]
-   >
-   >Denna gräns gäller inte dokument som du länkar till Workfront från någon annan tredjeparts tjänsteleverantör (SharePoint, Google Drive, Webdam, Box, Dropbox eller någon annan leverantör av Document Asset Management).
+Lagringskvoten uppdateras dagligen för att visa det senaste antalet.
+
+>[!NOTE]
+>
+>Denna gräns gäller inte dokument som du länkar till Workfront från någon annan tredjeparts tjänsteleverantör (SharePoint, Google Drive, Webdam, Box, Dropbox eller någon annan leverantör av Document Asset Management).
