@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 81118e794dca746b482b8355c24fa997a9f0edc9
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,17 @@ Om du vill ta reda på vilket utvecklingsstadium ett projekt, en uppgift eller e
 I det här projektet visar till exempel statusen Planering att projektledaren för närvarande planerar aspekter av projektet, till exempel tidslinjen, aktivitetstilldelningar och godkännanden.
 
 ![Exempel på projektstatus](assets/statuses-overview.png)
+
+Du måste ha följande åtkomst och behörigheter till ett projekt, en uppgift eller en utgåva för att kunna se status:
+
+* Visa eller öka din åtkomstnivå till projekt, uppgifter och problem
+* Visa eller högre behörigheter för objektet
+
+Du måste ha följande åtkomst och behörigheter till ett projekt, en uppgift eller ett ärende för att kunna ändra deras status manuellt:
+
+* Redigera åtkomst på din åtkomstnivå till projekt, uppgifter och problem
+* Contribute eller högre behörighet för uppgiften eller problemet
+* Hantera behörigheter för projektet.
 
 Att ändra status för ett projekt, en uppgift eller ett problem är vanligtvis en manuell process. Det finns dock tillfällen då status för ett problem ändras automatiskt, beroende på andra faktorer som inträffar i systemet.
 

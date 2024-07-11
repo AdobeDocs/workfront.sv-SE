@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a923d86f78e6dab4705289a8165c4b31ff68b5a2
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,9 @@ hide: yes
 
 Du kan visa poster och deras fält i en kalendervy från posttypssidan.
 
-Mer information om Adobe Workfront Planning-funktionsvyer och hur du hanterar dem finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+Mer information om Adobe Workfront Planning-vyer och hur du hanterar dem finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -61,33 +59,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
-   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> Det finns inga åtkomstkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till vyn</p>  
+   <td> <p>Hantera behörigheter till en vy</p>  
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hantera en kalendervy {#manage-a-calendar-view}
 
@@ -148,4 +149,6 @@ Tänk på följande när du arbetar med filter i kalendervyn:
 
   Mer information finns i avsnittet&quot;Lägg till filter&quot; i artikeln [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-* Du kan filtrera efter anslutna postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
+* Du kan filtrera efter anslutna postfält eller uppslagsfält.
+
+* Du kan filtrera efter uppslagsfält som visar flera värden.

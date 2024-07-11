@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ I den här artikeln beskrivs följande information om postvyer:
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -69,32 +71,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
-   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> Det finns inga åtkomstkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till vyn</p>  
+   <td> <p>Hantera behörigheter till en vy</p>  
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Att tänka på när du arbetar med postvyer
 

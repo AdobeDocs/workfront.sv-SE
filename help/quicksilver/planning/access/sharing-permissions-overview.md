@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: dc8e6f730ec88fc66c3486987e064b5f0760fb80
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -69,12 +69,14 @@ Tabellerna i följande avsnitt visar vilken behörighetsnivå du kan välja när
 >
 >Alla användare kan inte ha de behörighetsnivåer som beskrivs nedan. Användarens individuella licens avgör vilken behörighetsnivå de kan få för Workfront Planning-objekt.
 >
->Endast standardanvändare (eller plananvändare) kan ha Contribute- eller Hantera-behörigheter för arbetsytor.
+>Endast användare med standardlicens (eller standardlicens) kan ha Contribute- eller Hantera-behörighet till arbetsytor och Hantera-behörighet till vyer.
+> 
+>Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytor och vyer.
 >
 >Mer information finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
-### Behörigheter för arbetsytan
+### Workspace-behörigheter
 
 Du måste ge användarna behörighet till arbetsytor för att de ska kunna få åtkomst till följande enheter:
 
@@ -157,7 +159,8 @@ Följande behörighetsnivåer gäller för vyer och visningselement:
 | Ta bort | ✓ |       |                            |
 | Dela | ✓ |       |                           |
 | Visa | ✓ | ✓ | ✓ |
-| Använd | ✓ | ✓ | ✓ |
+| Åtkomst till vyn | ✓ | ✓ | ✓ |
+| Använd temporära filter, grupperingar, sortera | ✓ | ✓ | ✓ |
 
 *Användarna måste ha behörigheten Visa eller högre för en arbetsyta för att få åtkomst till vyn.
 

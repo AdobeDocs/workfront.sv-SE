@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 64f187ed78b69db9b9ac0259e96ef0bf47abf4f4
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '658'
 ht-degree: 0%
 
 ---
@@ -115,10 +115,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på kortet för en posttyp som är kopplad till ett Workfront-projekt, en portfölj eller ett program.
 1. Gå till ett anslutet postfält som har en anslutning till ett Workfront-objekt, antingen i tabellvyn eller från postens informationssida. Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
 1. Klicka på namnet på ett Workfront-objekt i det anslutna postfältet.
-Objektets sida öppnas i Workfront Planning.
-1. Klicka **Gå till källa**, längst upp till höger på skärmen.
+Objektets sida öppnas i Workfront.
 
-   Objektets sida öppnas i Workfront.
 1. Klicka **Planering** till vänster.
 
    >[!NOTE]

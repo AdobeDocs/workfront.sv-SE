@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: b63b9bcd88eaf70c629dde264656d45567896f2e
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '2585'
+source-wordcount: '2512'
 ht-degree: 0%
 
 ---
@@ -288,19 +288,13 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
 1. (Valfritt) Klicka på namnet på ett Workfront-objekt som är anslutet till en Workfront Planning-post i det länkade fältet i en tabellvy eller från det länkade fältet på postsidan.
 
-   Då öppnas den skrivskyddade postsidan för Workfront Planning för det länkade Workfront-objektet. De fält som du markerade som uppslagsfält när du kopplade posttypen med Workfront-objektet visas på postsidan för Workfront Planning.
+   Då öppnas Workfront-objektet i Workfront, om du har minst behörigheten Visa för objektet.
 
    >[!TIP]
    >
    >* När du aktiverar inställningen Tillåt flera poster visas värdena i uppslagsfälten avgränsade med kommatecken eller aggregeras enligt den aggregator du väljer.
    >
    >* Inget länkat postfält skapas för de länkade Workfront-objekten i Workfront.
-
-1. (Valfritt) Om du vill öppna det länkade Workfront-objektet i Workfront klickar du på **Gå till källa** i det övre högra hörnet på Workfront-objektets postsida.
-
-   ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-   Då öppnas Workfront objektsida, om du har minst behörigheten Visa för att visa objektet. Du kan redigera information om Workfront-objektet om du har behörighet att göra det.
 
 1. (Valfritt) I posttypens tabellvy för du markören över kolumnrubriken för det länkade Workfront-objektet och klickar på listrutan och sedan på **Redigera sökfält**.
 
@@ -345,7 +339,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
    >
    >  Du kan lägga till klicka på **+** -ikonen i fältet för länkade objekt på postsidan för att koppla resurser till posten.
 
-   The **Välj resurser** visas. <!--we might change this to Connect assets-->
+   The **Välj Assets** visas. <!--we might change this to Connect assets-->
 
    ![](assets/select-assets-box-for-aem-record-connections.png)
 
@@ -391,7 +385,7 @@ När du har skapat en anslutning mellan en posttyp och Adobe Experience Manager 
    * Skapad den
    * Ändrat den
 
-1. (Valfritt) Om du vill öppna postsidan för resursposter i Experience Manager i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna** icon ![](assets/open-asset-icon.png) för att öppna resursen.
+1. (Valfritt) Om du vill öppna postsidan för resursposter i Experience Manager i Experience Manager går du till posttypssidan för den post du länkar från, klickar på namnet på en resurs i det länkade postfältet för att öppna popup-fönstret och klickar sedan på **Öppna i AEM** icon ![](assets/open-asset-icon.png) för att öppna resursen.
 
    Då öppnas Experience Manager-resursen i Adobe Experience Manager Assets.
 

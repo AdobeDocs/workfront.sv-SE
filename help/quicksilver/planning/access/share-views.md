@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 8bfada77ac7b1b2a8d8fb2feec8a8167a1397cdc
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Du kan dela en vy med följande enheter:
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera </p> 
   </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> Det finns inga åtkomstkontroller för Adobe Workfront Planning </p>  
+   <td> Det finns inga åtkomstkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Objektbehörigheter</p></td>
-   <td> <p>Hantera behörigheter till en vy</p>
-
+   <td role="rowheader"><p>Behörigheter</p></td>
+   <td> <p>Hantera behörigheter till en vy</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+
 
 ## Dela behörigheter till en vy <!--internally-->
 

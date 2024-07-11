@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1801'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Du vill skapa ett anslutningsfält för posttypen Campaign där du kan visa vär
 
 Så här gör du:
 
-1. Gå till en arbetsyta där du vill koppla posttypen Campaign till Workfront-projekt.
+1. Gå till en Workspace där du vill koppla posttypen Campaign till Workfront-projekt.
 1. Öppna tabellvyn för Campaign-posttypen på den valda arbetsytan.
 1. Klicka på **+** i tabellvyns övre högra hörn för att lägga till ett nytt fält och klicka sedan på **Ny anslutning** och sedan klicka **Projekt** i **Workfront objekttyper** -avsnitt.
 1. Lägg till följande information, till exempel:
@@ -205,10 +205,7 @@ Så här gör du:
 
 1. Klicka på namnet på ett projekt i det anslutna postfältet.
 
-   Detta öppnar den skrivskyddade sidan för Workfront Planning Project.
-Granska information om projektet. Endast markerade projektfält visas på postens sida.
-
-1. Klicka **Gå till källa** i skärmens övre högra hörn för att öppna projektet i Workfront, om du har minst behörigheten Visa för projektet.
+   Då öppnas projektet i Workfront, om du har minst behörigheten Visa för projektet.
 1. (Valfritt) Uppdatera information om projektet i Workfront, om du har behörighet att göra det.
 
 1. (Valfritt) I Campaign-tabellvyn håller du pekaren över **Projektinformation** och klicka på nedåtpilen och klicka sedan på **Redigera uppslagsfält.**

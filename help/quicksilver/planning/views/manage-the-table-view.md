@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 7882b67578cd5b8792ce582ebab118c8993c9214
+source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
 workflow-type: tm+mt
-source-wordcount: '2543'
+source-wordcount: '2569'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Mer information om postvyer och hur du hanterar dem finns i [Hantera postvyer](/
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -61,32 +63,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
-   <p>Systemadministratörer har bara åtkomst till de vyer de har skapat eller som delas med dem. </p>
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera </p> 
   </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Åtkomstnivåkonfiguration</td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workforme-planering</p>  
+   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
+   <td> Det finns inga åtkomstkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till vyn</p>  
+   <td> <p>Hantera behörigheter till en vy</p>  
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layoutmall</td>
-   <td> <p>Systemadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layoutmall</p></td>
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hantera en tabellvy {#manage-a-table-view}
 
@@ -102,7 +108,7 @@ Så här hanterar du en tabellvy:
 
 1. (Valfritt) Klicka på **Radhöjd** väljer du sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
-   * Medel
+   * Medium
    * Hög
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
@@ -244,7 +250,9 @@ Tänk på följande när du arbetar med filter i tabellvyn:
 
 * Att lägga till filter i tabellvyn är detsamma som att lägga till filter i tidslinjevyn.
 
-* Du kan filtrera efter anslutna postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
+* Du kan filtrera efter anslutna postfält eller uppslagsfält.
+
+* Du kan filtrera efter uppslagsfält som visar flera värden.
 
 * Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar ett filter för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets budget i filtret som du skapar för aktivitetsposttypen.
 
@@ -356,7 +364,8 @@ Tänk på följande:
 * Du kan inte namnge grupperingarna som du skapar för en tabellvy.
 * Om du tar bort grupperingar tas de bort från alla som har åtkomst till samma posttyp som du och som visar samma vy som du.
 * Du kan redigera poster som listas under en gruppering.
-* Du kan gruppera efter kopplade postfält eller sökfält, men inte för de fält som tillåter länkning till flera poster.
+* Du kan gruppera efter anslutna postfält eller sökfält.
+* När du grupperar efter uppslagsfält med flera värden (som inte har summerats av en aggregator) grupperas posterna efter varje unik kombination av fältvärden.
 * Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en gruppering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den gruppering du skapar för aktivitetsposttypen.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -408,11 +417,11 @@ Tänk på följande när du sorterar poster i tabellvyn:
 
 * Du kan sortera efter så många fält som du ser i tabellvyn för en posttyp.
 
-* Länkade fält kan bara sorteras om de tillåter enskilda värden, eller om de tillåter flervalsvärden när sammanfattningsalternativet är markerat (summa, medel, max, min).
+* Du kan inte sortera efter anslutna postfält, men du kan sortera efter uppslagsfält från anslutna posttyper.
+
+* När du sorterar efter uppslagsfält med flera värden (som inte har summerats av en aggregator) används det första värdet för sortering.
 
 * När du tar bort sorteringsvillkor tas de bort från alla som använder samma posttyp som du och samma vy som du använder.
-
-* Du kan sortera efter kopplade postfält eller sökfält, men inte efter de fält som tillåter länkning till flera poster.
 
 * Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en sortering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den sortering du skapar för aktivitetsposttypen.
 
