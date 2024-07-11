@@ -8,9 +8,10 @@ title: Modulen Adobe Authenticator
 description: Med Adobe Authenticator-modulen kan du ansluta till alla Adobe-produkter med ett API via en enda anslutning.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 61a579c19228381d0aa06de3db5217614999731b
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
+source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -75,7 +76,7 @@ En lista över tillgängliga Adobe-API:er finns i [Adobe API:er](https://develop
 
 ## Skapa en anslutning
 
-En Adobe Authenticator-anslutning ansluter till ett enda projekt på Adobe Developer Console. Om du vill använda samma anslutning för mer än ett Adobe API lägger du till API:erna i samma projekt och skapar en anslutning till det projektet.
+En Adobe Authenticator-anslutning ansluter till ett enda projekt i Adobe Developer Console. Om du vill använda samma anslutning för mer än ett Adobe API lägger du till API:erna i samma projekt och skapar en anslutning till det projektet.
 
 Du kan skapa separata anslutningar till separata projekt, men du kan inte använda en anslutning för att komma åt ett API som inte finns i det projekt som anges i anslutningen.
 
@@ -157,6 +158,14 @@ Så här skapar du en anslutning:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Base URLs]</td>
+        <td>Du måste lägga till de bas-URL:er som du vill att autentiseraren ska tillåta. När du använder Anpassa API-anropsmodulen senare i scenariot lägger du till en relativ sökväg till den valda URL:en. Genom att ange URL:er här kan du styra vad en anpassad API-anropsmodul kan ansluta till, vilket ökar säkerheten.<p>För varje bas-URL som du vill lägga till i autentiseraren klickar du på <b>Lägg till objekt</b> och ange bas-URL:en.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Lämna det här tomt om du vill använda Adobe IMS-standardautentiserings-URL:en för <code>https://ims-na1.adobelogin.com</code>. Om du inte använder Adobe IMS för autentisering anger du den URL som ska användas för autentisering.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Ange om du ansluter till en produktionsmiljö eller icke-produktionsmiljö.</td>
       </tr>
@@ -229,4 +238,3 @@ Med den här åtgärdsmodulen kan du anropa valfritt Adobe-API.
     </tr>
   </tbody>
 </table>
-
