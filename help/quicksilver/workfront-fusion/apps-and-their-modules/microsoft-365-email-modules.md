@@ -9,14 +9,14 @@ description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöde
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
 workflow-type: tm+mt
-source-wordcount: '1581'
+source-wordcount: '2198'
 ht-degree: 0%
 
 ---
 
-# [!DNL Microsoft Office 365 Email]
+# [!DNL Microsoft Office 365 Email] moduler
 
 I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!UICONTROL Microsoft Office 365 Email], samt ansluta till flera tredjepartsprogram och -tjänster.
 
@@ -96,16 +96,18 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ### Meddelande
 
-* [[!UICONTROL Watch Messages]](#watch-messages)
-* [[!UICONTROL Search messages]](#search-messages)
-* [[!UICONTROL Get a message]](#get-a-message)
-* [[!UICONTROL Create and Send a Message]](#create-and-send-a-message)
-* [[!UICONTROL Move a Message]](#move-a-message)
+* [[!UICONTROL Create and Send a Message (legacy)]](#create-and-send-a-message)
 * [[!UICONTROL Delete a Message]](#delete-a-message)
+* [[!UICONTROL Get a message]](#get-a-message)
+* [[!UICONTROL Move a Message]](#move-a-message)
+* [[!UICONTROL Search messages]](#search-messages)
+* [[!UICONTROL Watch Messages]](#watch-messages)
 
-#### [!UICONTROL Watch Messages]
 
-Utlöses när ett nytt e-postmeddelande skickas eller tas emot.
+
+#### [!UICONTROL Create and Send a Message (legacy)]
+
+Skapar och skickar ett e-postmeddelande.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,85 +118,65 @@ Utlöses när ett nytt e-postmeddelande skickas eller tas emot.
    <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
-   <td> <p>Markera de meddelanden som du vill bevaka:</p> 
+   <td role="rowheader">[!UICONTROL Subject]</td> 
+   <td> <p>Ange eller mappa ämnesraden för meddelandet.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Body Content Type]</td> 
+   <td>Ange om meddelandets brödtext är HTML eller Text.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body content]</td> 
+   <td> <p>Ange eller mappa meddelandetexten i e-postmeddelandet.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Importance]</td> 
+   <td> <p>Välj e-postmeddelandets betydelse</p> 
     <ul> 
-     <li>[!UICONTROL Only Unread]</li> 
-     <li>[!UICONTROL Only read]</li> 
-     <li>[!UICONTROL All]</li> 
+     <li>[!UICONTROL Low]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL High]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Markera den mapp som innehåller de meddelanden som du vill bevaka.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Ange din sökfråga. Mer information om hur du skriver en sökfråga finns i [!DNL Microsoft] supportartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Sök efter e-post och personer i [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal meddelanden [!DNL Workfront Fusion] ska returneras under en körningscykel.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Search messages]
-
-Söker efter meddelanden baserat på specifika kriterier.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Markera den mapp som innehåller de meddelanden som du vill söka i.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Ange din sökfråga. Mer information om hur du skriver en sökfråga finns i [!DNL Microsoft] supportartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Sök efter e-post och personer i [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td> <p>Välj hur du vill beställa resultaten:</p> 
+   <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
+   <td> <p>Lägg till den e-postadress som du vill skicka meddelandena till:</p> 
     <ul> 
-     <li>[!UICONTROL Subject (Ascending or descending)]</li> 
-     <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
-     <li>[!UICONTROL Last Modified Date Time (Ascending or descending)]</li> 
-     <li>[!UICONTROL Received Date Time (Ascending or descending)]</li> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Ange kontaktens namn</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Ange kontaktens e-postadress.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange maximalt antal meddelanden [!DNL Workfront Fusion] ska returneras under en körningscykel.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a message]
-
-Hämtar metadata för ett visst meddelande
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
+   <td> <p>Lägg till de mottagare som du vill ska få en kopia av meddelandet:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Ange kontaktens namn</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Ange kontaktens e-postadress.</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Markera eller mappa ID:t för meddelandet som du vill hämta metadata för.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
+   <td> <p>Lägg till de mottagare som du vill kopiera i meddelandet, utan att tillåta andra mottagare att se sina namn eller e-postadresser:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Ange kontaktens namn</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Ange kontaktens e-postadress.</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Get MIME contents]</td> 
-   <td>Aktivera det här alternativet om du vill hämta data om MIME-innehållet i meddelandet. [!UICONTROL MIME] kan innehålla bilder, ljud, video eller andra typer av filer.</td> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
+   <td> <p>Lägg till de bifogade filerna i e-postmeddelandet:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Ange filnamnet. Exempel: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Ange fildata i fältet eller mappa filens källa.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Internet Message Headers]</td> 
+   <td> <p>Lägg till meddelanderubriker för e-postmeddelandet.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Ange namnet på rubriken</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Ange ett värde för rubriken.</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -272,6 +254,62 @@ Skapar och skickar ett e-postmeddelande.
      <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Ange ett värde för rubriken.</p> </li> 
     </ul> </td> 
   </tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a Message]
+
+Tar bort ett befintligt e-postmeddelande.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Markera eller mappa ID:t för meddelandet som du vill ta bort.</p> </td> 
+  </tr> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a message]
+
+Hämtar metadata för ett visst meddelande
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Markera eller mappa ID:t för meddelandet som du vill hämta metadata för.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get MIME contents]</td> 
+   <td>Aktivera det här alternativet om du vill hämta data om MIME-innehållet i meddelandet. [!UICONTROL MIME] kan innehålla bilder, ljud, video eller andra typer av filer.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -298,9 +336,50 @@ Flyttar ett e-postmeddelande till en markerad mapp i postlådan.
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Message]
+#### [!UICONTROL Search messages]
 
-Tar bort ett befintligt e-postmeddelande.
+Söker efter meddelanden baserat på specifika kriterier.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
+   <td> <p>Markera den mapp som innehåller de meddelanden som du vill söka i.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>Ange din sökfråga. Mer information om hur du skriver en sökfråga finns i [!DNL Microsoft] supportartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Sök efter e-post och personer i [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td> <p>Välj hur du vill beställa resultaten:</p> 
+    <ul> 
+     <li>[!UICONTROL Subject (Ascending or descending)]</li> 
+     <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
+     <li>[!UICONTROL Last Modified Date Time (Ascending or descending)]</li> 
+     <li>[!UICONTROL Received Date Time (Ascending or descending)]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange maximalt antal meddelanden [!DNL Workfront Fusion] ska returneras under en körningscykel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Messages]
+
+Utlöses när ett nytt e-postmeddelande skickas eller tas emot.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -311,8 +390,25 @@ Tar bort ett befintligt e-postmeddelande.
    <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Markera eller mappa ID:t för meddelandet som du vill ta bort.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
+   <td> <p>Markera de meddelanden som du vill bevaka:</p> 
+    <ul> 
+     <li>[!UICONTROL Only Unread]</li> 
+     <li>[!UICONTROL Only read]</li> 
+     <li>[!UICONTROL All]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
+   <td> <p>Markera den mapp som innehåller de meddelanden som du vill bevaka.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>Ange din sökfråga. Mer information om hur du skriver en sökfråga finns i [!DNL Microsoft] supportartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Sök efter e-post och personer i [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Ange maximalt antal meddelanden [!DNL Workfront Fusion] ska returneras under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -388,6 +484,10 @@ Skapar ett nytt e-postmeddelande.
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Ange fildata i fältet eller mappa filens källa.</p> </li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -402,6 +502,10 @@ Skickar ett e-postmeddelande som är i utkast.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Draft Message ID]</td> 
@@ -421,6 +525,10 @@ Uppdaterar ett befintligt meddelande.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a message ID]</td> 
@@ -488,31 +596,8 @@ Uppdaterar ett befintligt meddelande.
 
 ### Bilaga
 
-* [[!UICONTROL List Attachments]](#list-attachments)
 * [[!UICONTROL Download an Attachment]](#download-an-attachment)
-
-#### [!UICONTROL List Attachments]
-
-Den här modulen hämtar en lista med bilagor som tillhör det angivna meddelandet.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Markera eller mappa ID:t för meddelandet som du vill hämta bilagor från.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antalet bilagor som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL List Attachments]](#list-attachments)
 
 #### [!UICONTROL Download an Attachment]
 
@@ -527,6 +612,10 @@ Den här modulen hämtar den angivna bifogade filen.
    <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
    <td> <p> Markera eller mappa ID:t för meddelandet som innehåller den bifogade filen som du vill hämta.</p> </td> 
   </tr> 
@@ -537,10 +626,64 @@ Den här modulen hämtar den angivna bifogade filen.
  </tbody> 
 </table>
 
+#### [!UICONTROL List Attachments]
+
+Den här modulen hämtar en lista med bilagor som tillhör det angivna meddelandet.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Markera eller mappa ID:t för meddelandet som du vill hämta bilagor från.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antalet bilagor som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Övriga
 
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
 * [[!UICONTROL Add an Attachment]](#add-an-attachment)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+
+#### [!UICONTROL Add an Attachment]
+
+Den här modulen lägger till en stor bifogad fil i ett meddelande.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> Om du vill använda en delad e-postadress anger du adressen här. Den användare vars autentiseringsuppgifter används i anslutningen som används för den här modulen måste ha åtkomst till den delade mappen.<p>Lämna det här fältet tomt om du vill använda anslutningsägarens egen e-postadress.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Markera eller mappa ID:t för meddelandet som du vill lägga till en bifogad fil i.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Välj en fil från en tidigare modul eller mappa källfilens namn och data.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Make an API Call]
 
@@ -576,29 +719,6 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add an Attachment]
-
-Den här modulen lägger till en stor bifogad fil i ett meddelande.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Office 365] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Markera eller mappa ID:t för meddelandet som du vill lägga till en bifogad fil i.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Välj en fil från en tidigare modul eller mappa källfilens namn och data.</p> </td> 
   </tr> 
  </tbody> 
 </table>
