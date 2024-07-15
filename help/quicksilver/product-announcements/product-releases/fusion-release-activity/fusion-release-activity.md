@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 3b3dd815b5618853bdf8fc29304ed60d686195c3
+source-git-commit: d38dbad360db7317e05d4b9829c574596cca1c34
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,11 @@ Adobe Workfront Fusion kopplar ihop appar och webbtjänster sömlöst så att du
 Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
 ## Fusion-versioner 2024
+
+### Juli 2024
+
+* [Workfront Fusion-lansering: vecka 8 juli 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
+
 
 ### Juni 2024
 
@@ -124,28 +129,28 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 ### September 2022
 
 * [Versionsaktivitet för Workfront Fusion: 26 september 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-26-22.md)
-* [Versionsaktivitet för Workfront Fusion: 19 september 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
+* [Workfront Fusion-versionsaktivitet: 19 september 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-sept-19-22.md)
 
 ### Juli 2022
 
-* [Versionsaktivitet för Workfront Fusion: 11 juli 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
+* [Workfront Fusion-versionsaktivitet: 11 juli 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-july-11-22.md)
 
 
 ### Juni 2022
 
-* [Versionsaktivitet för Workfront Fusion: 27 juni 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
-* [Versionsaktivitet för Workfront Fusion: 20 juni 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
+* [Workfront Fusion-versionsaktivitet: 27 juni 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-27-22.md)
+* [Aktivitet för Workfront Fusion-release: 20 juni 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-jun-20-22.md)
 
 
 ### Maj 2022
 
-* [Versionsaktivitet för Workfront Fusion: 16 maj 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
-* [Versionsaktivitet för Workfront Fusion: 9 maj 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
+* [Aktivitet för Workfront Fusion: 16 maj 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-16-22.md)
+* [Aktivitet för Workfront Fusion: 9 maj 2022 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-9-22.md)
 
 
 ### April 2022
 
-* [Versionsaktivitet för Workfront Fusion: 25 april 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
+* [Workfront Fusion-versionsaktivitet: 25 april 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-25-22.md)
 * [Versionsaktivitet för Workfront Fusion: 18 april 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-18-22.md)
 
 ### Mars 2022
@@ -154,9 +159,9 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### Februari 2022
 
-* [Versionsaktivitet för Workfront Fusion: 28 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
-* [Versionsaktivitet för Workfront Fusion: 21 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
-* [Versionsaktivitet för Workfront Fusion: 14 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
+* [Workfront Fusion-versionsaktivitet: 28 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-28-22.md)
+* [Workfront Fusion-versionsaktivitet: 21 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-21-22.md)
+* [Workfront Fusion-versionsaktivitet: 14 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-14-22.md)
 * [Versionsaktivitet för Workfront Fusion: 7 februari 2022](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-7-21.md)
 
 ### Januari 2022
@@ -171,8 +176,8 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### November 2021
 
-* [Versionsaktivitet för Workfront Fusion: 29 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
-* [Versionsaktivitet för Workfront Fusion: 15 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
+* [Workfront Fusion-versionsaktivitet: 29 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-29-21.md)
+* [Workfront Fusion-versionsaktivitet: 15 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-15-21.md)
 * [Versionsaktivitet för Workfront Fusion: 8 november 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-nov-8-21.md)
 
 ### Oktober 2021
@@ -185,8 +190,8 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### Augusti 2021
 
-* [Versionsaktivitet för Workfront Fusion: 30 augusti 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
-* [Versionsaktivitet för Workfront Fusion: 23 augusti 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
+* [Workfront Fusion-versionsaktivitet: 30 augusti 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-30-21.md)
+* [Workfront Fusion-versionsaktivitet: 23 augusti 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-23-21.md)
 * [Versionsaktivitet för Workfront Fusion: 2 augusti 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-aug-2.md)
 
 ### Juli 2021
@@ -201,14 +206,14 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### Maj 2021
 
-* [Versionsaktivitet för Workfront Fusion: 17 maj 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
-* [Versionsaktivitet för Workfront Fusion: 10 maj 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
+* [Aktivitet för Workfront Fusion-release: 17 maj 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-17.md)
+* [Aktivitet för Workfront Fusion-release: 10 maj 2021 ](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-10.md)
 * [Versionsaktivitet för Workfront Fusion: 3 maj 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-may-3.md)
 
 ### April 2021
 
-* [Versionsaktivitet för Workfront Fusion: 26 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
-* [Versionsaktivitet för Workfront Fusion: 19 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
+* [Workfront Fusion-versionsaktivitet: 26 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-26.md)
+* [Workfront Fusion-versionsaktivitet: 19 april 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-19.md)
   <!--* [Workfront Fusion release activity: Week of April 12, 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-apr-12.md)-->
 
 ### Mars 2021
@@ -221,10 +226,10 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### Januari 2021
 
-* [Versionsaktivitet för Workfront Fusion: 1 februari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
-* [Versionsaktivitet för Workfront Fusion: 25 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
-* [Versionsaktivitet för Workfront Fusion: 18 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
-* [Versionsaktivitet för Workfront Fusion: 11 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
+* [Workfront Fusion-versionsaktivitet: 1 februari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-feb-1.md)
+* [Workfront Fusion-versionsaktivitet: 25 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-25.md)
+* [Workfront Fusion-versionsaktivitet: 18 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-18.md)
+* [Workfront Fusion-versionsaktivitet: 11 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-11.md)
 * [Versionsaktivitet för Workfront Fusion: 4 januari 2021](../../../product-announcements/product-releases/fusion-release-activity/fusion-jan-4.md)
 
 +++
@@ -239,8 +244,8 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### November 2020
 
-* [Versionsaktivitet för Workfront Fusion: 30 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
-* [Versionsaktivitet för Workfront Fusion: 16 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
+* [Workfront Fusion-versionsaktivitet: 30 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
+* [Workfront Fusion-versionsaktivitet: 16 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
 * [Versionsaktivitet för Workfront Fusion: 2 november 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-2.md)
 
 ### September 2020
@@ -249,7 +254,7 @@ Mer information om hur du använder Workfront Fusion finns i [Adobe Workfront Fu
 
 ### Augusti 2020
 
-* [Versionsaktivitet för Workfront Fusion: 24 augusti 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
+* [Workfront Fusion-versionsaktivitet: 24 augusti 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-24.md)
 * [Versionsaktivitet för Workfront Fusion: 17 augusti 2020](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-aug-17.md)
 
 +++
