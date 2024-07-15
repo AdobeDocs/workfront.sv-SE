@@ -2,19 +2,19 @@
 product-area: workfront-integrations;user-management
 keywords: google,doc,dokument,ark,bild
 navigation-topic: workfront-for-g-suite
-title: Logga in och ut från [!DNL Adobe Workfront] för G Suite
-description: I den här artikeln beskrivs hur du loggar in i eller ut från [!DNL Adobe Workfront for] Integrering med G-sviten.
+title: Logga in och ut från  [!DNL Adobe Workfront] för Google Workspace
+description: I den här artikeln beskrivs hur du loggar in i eller ut ur  [!DNL Adobe Workfront for] Google Workspace-integreringen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
-# Logga in och ut från [!DNL Adobe Workfront for G Suite]
+# Logga in och ut från [!DNL Adobe Workfront for Google Workspace]
 
 >[!NOTE]
 >
@@ -39,36 +39,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Innan du kan logga in eller ut från [!DNL Workfront for G Suite]måste du
+Innan du kan logga in eller ut från [!DNL Workfront for Google Workspace] måste du
 
-* Installera [!DNL Workfront for G suite]\
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installera [!DNL Workfront for Google Workspace]\
+   Instruktioner finns i [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Logga in [!DNL Adobe Workfront for G Suite]
+## Logga in på [!DNL Adobe Workfront for Google Workspace]
 
-1. Klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofält för tillägg längst till höger på [!DNL Gmail], [!DNL Google Calendar], eller [!DNL Google Drive].
+1. Klicka på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger om [!DNL Gmail], [!DNL Google Calendar] eller [!DNL Google Drive].
 
-   Om du precis har installerat [!DNL Workfront for G Suite] kan du inte se den här ikonen, kan du försöka med att uppdatera webbläsarsidan.
+   Om du precis har installerat tillägget [!DNL Workfront for Google Workspace] och du inte kan se den här ikonen kan du försöka med att uppdatera webbläsarsidan.
 
-1. Klicka **[!UICONTROL Log In]** i [!DNL Workfront for G Suite] tillägg.
-1. Skriv [!DNL Workfront] domänadress, till exempel *companyname.my.workfront.com*.
-1. Följ instruktionerna för att logga in på [!DNL Workfront].
+1. Klicka på **[!UICONTROL Log In]** i tillägget [!DNL Workfront for Google Workspace].
+1. Skriv din [!DNL Workfront]-domänadress, till exempel *companyname.my.workfront.com*.
+1. Logga in på [!DNL Workfront] genom att följa anvisningarna.
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] ansluter till [!DNL G Suite] med OAuth 2.0, en säker standard som används av de flesta webbaserade integreringar för autentisering och auktorisering av användare.
-   >* När du uppmanas att ange [domän eller värd] på [!DNL Workfront] konto, skriv in det i följande format: *ditt företag&#39;sDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
+   >* [!DNL Workfront] ansluter till [!DNL Google Workspace] med OAuth 2.0, en säker standard som används av de flesta webbaserade integreringar för autentisering och auktorisering av användare.
+   >* När du uppmanas att ange [domän eller värd] för ditt [!DNL Workfront]-konto skriver du det i det här formatet: *ditt företags sDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
 
 
-## Logga ut från [!DNL Workfront for G Suite]
+## Logga ut från [!DNL Workfront for Google Workspace]
 
-1. Om [!UICONTROL Workfront for G Suite] visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
-1. Klicka på **[!UICONTROL More actions]** ikonen längst upp på [!DNL Workfront for G Suite] -panelen.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Klicka på ikonen **[!UICONTROL More actions]** längst upp på panelen [!DNL Workfront for Google Workspace].
 
-1. Klicka **[!UICONTROL Logout]** på menyn som visas.
+1. Klicka på **[!UICONTROL Logout]** på menyn som visas.
 
-   Du loggas inte ut från [!DNL G Suite].
+   Du loggas inte ut från [!DNL Google Workspace].

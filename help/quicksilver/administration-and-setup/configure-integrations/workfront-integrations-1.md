@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
 workflow-type: tm+mt
 source-wordcount: '1123'
 ht-degree: 0%
@@ -20,13 +20,13 @@ ht-degree: 0%
 
 <!--Audited: 12/2023-->
 
-Ni kan integrera [!DNL Adobe Workfront] med program från tredje part samt andra [!DNL Adobe] produkter. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
+Du kan integrera [!DNL Adobe Workfront] med tredjepartsprogram och andra [!DNL Adobe]-produkter. Integrationer kan göra Workfront ännu bättre och skräddarsy det efter företagets behov.
 
-Integreringarna för [!DNL Workfront] delas in i följande kategorier:
+Integreringarna för [!DNL Workfront] kan delas in i följande kategorier:
 
 ## Inbyggda (inbyggda) integreringar
 
-[!DNL Workfront] innehåller olika integreringar som du kan konfigurera antingen direkt från Workfront eller direkt från ett annat program genom att installera [!DNL Workfront] för det programmet.
+[!DNL Workfront] innehåller olika integreringar som du kan konfigurera antingen direkt från Workfront-programmet eller direkt från ett annat program genom att installera tillägget [!DNL Workfront] för det programmet.
 
 Vissa av dessa integreringar är tillgängliga utan extra kostnad, medan andra integreringar kräver ytterligare köp:
 
@@ -38,25 +38,25 @@ Vissa av dessa integreringar är tillgängliga utan extra kostnad, medan andra i
 
 Så här kommer du igång med inbyggda (inbyggda) integreringar:
 
-1. **Bestäm vilken eller vilka inbyggda integreringar som bäst passar dina behov**
+1. **Bestäm vilken eller vilka systemspecifika integreringar som bäst passar dina behov**
 
-   När du väljer en integrering är det viktigt att du väljer ett program som användare redan använder regelbundet. Integrera [!DNL Workfront] med ett regelbundet eller ofta använt program kommer att öka användarnas acceptans.
+   När du väljer en integrering är det viktigt att du väljer ett program som användare redan använder regelbundet. Om du integrerar [!DNL Workfront] med ett program som används regelbundet eller ofta blir det vanligare för användarna.
 
-   En lista över tillgängliga integreringar finns på [Integrationer utan extra kostnad](#integrations-available-at-no-additional-cost) och [Integreringar som kräver ytterligare köp](#integrations-requiring-an-additional-purchase).
+   En lista över tillgängliga integreringar finns i [Integreringar som är tillgängliga utan extra kostnad](#integrations-available-at-no-additional-cost) och [Integreringar som kräver ytterligare köp](#integrations-requiring-an-additional-purchase).
 
-1. **Identifiera din teknikadministratör**
+1. **Identifiera teknikadministratören**
 
-   Identifiera organisationens teknikadministratör för det program du vill integrera med [!DNL Workfront]. Om du till exempel väljer att integrera med [!DNL Jira]måste du ha kontakt med företagets [!DNL Jira] och engagera dem i alla konfigurationsbehov på deras plattform. Du bör även ta med den här administratören i alla samtal med [!DNL Workfront] Kundsupport.
+   Identifiera organisationens teknikadministratör för programmet som du vill integrera med [!DNL Workfront]. Om du till exempel väljer att integrera med [!DNL Jira] måste du ansluta till företagets [!DNL Jira]-administratör och involvera dem i alla konfigurationsbehov på plattformen. Du bör även ta med den här administratören i alla samtal med [!DNL Workfront] kundsupport.
 
-   För att få igång administratören måste du ge dem de specifika instruktionerna för integreringen. Länkar till dessa instruktioner finns i [Integrationer utan extra kostnad](#integrations-available-at-no-additional-cost).
+   För att få igång administratören måste du ge dem de specifika instruktionerna för integreringen. Länkar till de här instruktionerna finns i [Integreringar som är tillgängliga utan extra kostnad](#integrations-available-at-no-additional-cost).
 
-1. **Engagera med [!DNL Workfront] Kundsupport**
+1. **Delta med [!DNL Workfront] kundsupport**
 
-   Om administratören har problem med den inbyggda integreringskonfigurationen kan du kontakta [!DNL Workfront] Kundsupport för att hjälpa till att vägleda eller felsöka. while [!DNL Workfront] kommer inte att konfigurera integreringen för dig, vi strävar efter att ge dig alla verktyg och resurser du behöver för att göra det själv. Du kan prata direkt med kundsupporten eller utforska de omfattande resursartiklarna som hjälper dig att enkelt konfigurera integreringen.
+   Om administratören har problem med den inbyggda integrationsinställningen kan du kontakta [!DNL Workfront] kundsupport för att få hjälp med att felsöka eller hjälpa till. Även om [!DNL Workfront] inte konfigurerar integreringen för dig, ger vi dig alla verktyg och resurser du behöver för att göra det själv. Du kan prata direkt med kundsupporten eller utforska de omfattande resursartiklarna som hjälper dig att enkelt konfigurera integreringen.
 
-   Om du vill få kontakt med kundsupport går du till [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+   Mer information om hur du ansluter till kundsupport finns i [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
-   Länkar till hjälpartiklar finns på [Integrationer utan extra kostnad](#integrations-available-at-no-additional-cost). och [Integreringar som kräver ytterligare köp](#integrations-requiring-an-additional-purchase).
+   Länkar till hjälpartiklar finns i [Integrationer som är tillgängliga utan extra kostnad](#integrations-available-at-no-additional-cost). och [Integreringar som kräver ytterligare köp](#integrations-requiring-an-additional-purchase).
 
    Instruktioner om hur du skapar ett supportärende finns i [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
@@ -68,7 +68,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
 
 ### Integrationer utan extra kostnad {#integrations-available-at-no-additional-cost}
 
-[!DNL Workfront] innehåller följande inbyggda integreringar utan extra kostnad:
+[!DNL Workfront] tillhandahåller följande inbyggda integreringar utan extra kostnad:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +98,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>After Effects </li>
      </ul>
      <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installera  [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program</a></p> 
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -121,23 +121,23 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL G Suite]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
+   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Lägg till en [!DNL G-Suite] e-post till ett projekt eller en uppgift </li> 
+     <li>Lägg till ett [!DNL Google Workspace]-e-postmeddelande till ett projekt eller en uppgift </li> 
      <li>Visa och hantera [!DNL Workfront] meddelanden i [!DNL Gmail]</li> 
-     <li>Skicka förfrågningar via [!DNL Gmail] </li> 
-    </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for G Suite]</a>.</p> </td> 
+     <li>Skicka begäranden via [!DNL Gmail] </li> 
+    </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] användare måste ha [!DNL Workfront] licens </li> 
+     <li>[!DNL Google Workspace] användare måste ha en [!DNL Workfront]-licens </li> 
      <li>[!DNL Workfront] behörigheter för visning och arbetsdelning måste anges per åtkomstnivå </li> 
      <li> Användaren måste ha ett POP-aktiverat e-postkonto </li> 
      <li>[!DNL Workfront] begäraninställningarna måste innehålla POP-inställningar </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] administratör</li> 
+     <li>[!DNL Google Workspace] administratör</li> 
      <li>[!DNL Workfront] administratör </li> 
     </ul> </td> 
   </tr> 
@@ -155,26 +155,26 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li>Skapa nya biljetter i [!DNL Jira] baserat på uppgifter och problem i [!DNL Workfront]</li> 
-     <li>Synkronisera uppdateringar och status för länkade uppgifter mellan Workfront och [!DNL Jira] </li> 
-     <li>Fungerar på båda [!DNL Jira Server] och [!DNL Jira Cloud] </li> 
+     <li>Synkronisera uppdateringar och status för länkade aktiviteter mellan Workfront och [!DNL Jira] </li> 
+     <li>Fungerar på både [!DNL Jira Server] och [!DNL Jira Cloud] </li> 
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li><p>Ny Workfront-plan: [!UICONTROL Select] [!DNL Workfront] plan eller högre</p><p>Aktuell Workfront-plan: [!UICONTROL Pro] [!DNL Workfront] plan eller högre</p> </li> 
+     <li><p>Ny Workfront-plan: [!UICONTROL Select] [!DNL Workfront] eller senare</p><p>Aktuell Workfront-plan: [!UICONTROL Pro] [!DNL Workfront] eller senare</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> Installation endast av en [!DNL Jira] administratör</li> 
-     <li>Ej[!DNL Jira] administratörer måste begära och få åtkomst från [!DNL Jira] administratör</li> 
+     <li> Installation endast av en [!DNL Jira]-administratör</li> 
+     <li>Administratörer som inte är [!DNL Jira] måste begära och beviljas åtkomst från administratören för [!DNL Jira]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Microsoft] Kalendrar ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
-     <li> <p>Integrera med en webbaserad version av [!DNL Outlook] i molnet [!DNL Office 365] eller [!DNL Outlook Live.] </p> </li> 
-     <li> <p>Visa alla händelser från [!DNL Outlook] kalendrar och associerade kalendrar som du väljer, t.ex. födelsedagar och helgdagar, i [!UICONTROL Home Calendar].</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>: [!UICONTROL Outlook] kalenderkonfigurationen är helt separat från [!DNL Outlook] Tillägg ([!DNL Outlook] Integrering eller [!DNL Workfront for Outlook]). Du behöver inte installera kalendern.</p> <p>Mer information finns i <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Konfigurera [!UICONTROL Home Calendar] visningsinställningar</a>.</p> </td> 
+     <li> <p>Integrera med en webbaserad version av [!DNL Outlook] i molnbaserad [!DNL Office 365] eller [!DNL Outlook Live.] </p> </li> 
+     <li> <p>Visa alla händelser från din [!DNL Outlook]-kalender och alla associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din [!UICONTROL Home Calendar].</p> </li> 
+    </ul> <p><b>Obs!</b>: Kalenderkonfigurationen [!UICONTROL Outlook] är helt separat från [!DNL Outlook]-tillägget ([!DNL Outlook] Integration eller [!DNL Workfront for Outlook]). Du behöver inte installera kalendern.</p> <p>Mer information finns i <a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">Konfigurera [!UICONTROL Home Calendar] visningsinställningar</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -199,9 +199,9 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li>[!DNL Outlook] 2013 eller 2016 för [!DNL Windows] och [!DNL Outlook] 2016 för [!DNL Mac] </li> 
-     <li>[!DNL Outlook] på webben måste [!DNL Exchange] 2016 och [!DNL Office] 365 </li> 
+     <li>[!DNL Outlook] på webben måste vara för [!DNL Exchange] 2016 och [!DNL Office] 365 </li> 
      <li>[!DNL Outlook Web Access] måste vara för [!DNL Exchange] 2013 </li> 
-     <li>Direktanslutning till en [!DNL Exchange] Server eller [!DNL Office 365]</li> 
+     <li>Direktanslutning till en [!DNL Exchange]-server eller [!DNL Office 365]</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -212,9 +212,9 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Hämta [!DNL Workfront] meddelanden i [!DNL Microsoft] Team </li> 
+     <li>Hämta [!DNL Workfront] meddelanden i [!DNL Microsoft] team </li> 
      <li>Fatta godkännandebeslut </li> 
-     <li>Sök efter [!DNL Workfront] projekt, uppgifter och problem </li> 
+     <li>Sök efter [!DNL Workfront] projekt, uppgifter och ärenden </li> 
      <li>Skapa [!DNL Workfront] personliga uppgifter </li> 
      <li>Skicka [!DNL Workfront] förfrågningar </li> 
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: artikelindex</a>.</p> </td> 
@@ -231,12 +231,12 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Skapa nytt [!DNL Workfront] förfrågningar från [!DNL Salesforce] </li> 
+     <li>Skapa nya [!DNL Workfront]-begäranden från [!DNL Salesforce] </li> 
      <li>Skapa [!DNL Workfront] projekt från [!DNL Salesforce]</li> 
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li><p>Ny Workfront-plan: [!UICONTROL Select] [!DNL Workfront] plan eller högre</p><p>Aktuell Workfront-plan: [!UICONTROL Pro] [!DNL Workfront] plan eller högre</p> </li> 
+     <li><p>Ny Workfront-plan: [!UICONTROL Select] [!DNL Workfront] eller senare</p><p>Aktuell Workfront-plan: [!UICONTROL Pro] [!DNL Workfront] eller senare</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -249,7 +249,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
    <td> 
     <ul> 
      <li>Länka dokument och mappar till [!DNL Workfront]</li> 
-    </ul> <p>Mer information finns i <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">Konfigurera [!DNL SharePoint] integration</a>.</p> </td> 
+    </ul> <p>Mer information finns i <a href="../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md" class="MCXref xref">Konfigurera [!DNL SharePoint]-integreringen</a>.</p> </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -259,13 +259,13 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
     <ul> 
      <li>Ta emot [!DNL Workfront] meddelanden i [!DNL Slack] </li> 
      <li>Hantera godkännanden i [!DNL Slack] </li> 
-     <li>Skapa [!DNL Workfront] uppgifter och problem från [!DNL Slack] </li> 
-     <li>Skicka kommentarer till ett projekt eller en uppgift från [!DNL Slack]</li> 
+     <li>Skapa [!DNL Workfront] aktiviteter och ärenden från [!DNL Slack] </li> 
+     <li>Post kommenterar ett projekt eller en uppgift från [!DNL Slack]</li> 
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Slack] administratören måste tillåta att alla Slack-användare kan installera [!DNL Workfront for Slack]</li> 
-     <li>[!DNL Slack] användare måste ha [!DNL Workfront] licens </li> 
+     <li>[!DNL Slack] användare måste ha en [!DNL Workfront]-licens </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -287,31 +287,32 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
 
 ### Integreringar som kräver ytterligare köp {#integrations-requiring-an-additional-purchase}
 
-[!DNL Workfront] gör det möjligt att utnyttja andra inbyggda integreringar och integrerade produkter till en extra kostnad. Kontakta din kontorepresentant för att få prisinformation.
+Med [!DNL Workfront] kan du utnyttja andra inbyggda integreringar och integrerade produkter till en extra kostnad. Kontakta din kontorepresentant för att få prisinformation.
 
 * [!DNL Workfront Fusion]
 
-  [!DNL Adobe Workfront Fusion] länkar åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar data automatiskt. Den har dedikerade anslutningar till många appar, men kan ansluta till alla program med ett offentligt API.
+  [!DNL Adobe Workfront Fusion] länkar åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar dina data automatiskt. Den har dedikerade anslutningar till många appar, men kan ansluta till alla program med ett offentligt API.
 
   Mer information finns i [[!DNL Adobe Workfront Fusion] översikt](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
-* [!DNL Anaplan] (Kräver [!DNL Workfront Fusion])
+* [!DNL Anaplan] (kräver [!DNL Workfront Fusion])
 
 Tack vare integreringen mellan Workfront och Experience Manager Assets eller Assets Essentials kan företag förbättra innehållets hastighet och time-to-market genom att knyta ihop arbete och hantering av digitala resurser.
 
-Mer information finns i [Översikt över integreringar med Adobe Workfront for Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+Mer information finns i [Översikt över integreringar för Adobe Workfront för Experience Manager Assets](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partnerintegreringar
 
-[!DNL Workfront] har många partnerintegreringar som berikar [!DNL Workfront] upplevelse.
+[!DNL Workfront] har många partnerintegreringar som berikar din [!DNL Workfront]-upplevelse.
 
-Exempel på befintliga partnererbjudanden är integreringar med [!DNL Salesforce.com], [!DNL Oracle Responsys]och [!DNL Microsoft Visual Studio].
+Exempel på befintliga partnererbjudanden är integreringar med [!DNL Salesforce.com], [!DNL Oracle Responsys] och [!DNL Microsoft Visual Studio].
 
-Mer information om dessa och andra partnerintegreringar finns i [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Mer information om dessa och andra partnerintegreringar finns på [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
 
-## [!DNL Workfront] API
+## API för [!DNL Workfront]
 
-The [!DNL Workfront] Med API kan du utöka och förbättra [!DNL Workfront] genom att utnyttja vårt publika API. Du kan skapa egna integreringar med vårt öppna API.
+Med API:t [!DNL Workfront] kan du utöka och förbättra din [!DNL Workfront]-upplevelse genom att utnyttja vårt publika API. Du kan skapa egna integreringar med vårt öppna API.
 
-En detaljerad lista över tillgängliga objekt i [!DNL Workfront] API, se [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).
+En detaljerad lista över tillgängliga objekt i API:t [!DNL Workfront] finns i [!DNL Workfront] [API-utforskaren](../../wf-api/general/api-explorer.md).
+

@@ -2,25 +2,25 @@
 product-area: workfront-integrations
 keywords: google,doc,dokument,ark,bild
 navigation-topic: workfront-for-g-suite
-title: Åtkomst [!DNL Adobe Workfront] Heminnehåll från G Suite
-description: Du kan komma åt [!DNL Adobe Workfront] Hemmabruk med uppgifter, ärenden, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna G Suite.
+title: Få åtkomst till [!DNL Adobe Workfront] heminnehåll från Google Workspace
+description: Du kan komma åt ditt [!DNL Adobe Workfront] Home-innehåll, inklusive alla uppgifter, utgåvor, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
 
-# Åtkomst [!DNL Adobe Workfront] [!UICONTROL Home] innehåll från [!DNL G Suite]
+# Åtkomst till [!DNL Adobe Workfront] [!UICONTROL Home]-innehåll från [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
-Du kan komma åt [!DNL Adobe Workfront] [!UICONTROL Home] innehåll, inklusive alla uppgifter, ärenden, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna G Suite.
+Du kan komma åt ditt [!DNL Adobe Workfront] [!UICONTROL Home]-innehåll, inklusive alla uppgifter, ärenden, godkännanden och åtkomstbegäranden som tilldelats dig, utan att lämna Google Workspace.
 
 ## Åtkomstkrav
 
@@ -41,38 +41,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Innan du kan komma åt [!UICONTROL Home] innehåll från [!DNL G Suite]måste du
+Innan du kan komma åt [!UICONTROL Home]-innehåll från [!DNL Google Workspace] måste du
 
-* Installera [!DNL Workfront for G suite]\
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installera [!DNL Workfront for Google Workspace]\
+   Instruktioner finns i [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Åtkomst [!DNL Workfront] [!UICONTROL Home] från [!DNL G Suite]
+## Åtkomst till [!DNL Workfront] [!UICONTROL Home] från [!DNL Google Workspace]
 
-1. Se till att du är inloggad på [!DNL Workfront].
-1. Om [!UICONTROL Workfront for G Suite] visas inte, klicka på [!DNL Workfront] icon ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
-1. Om du ser en vänsterpil högst upp i [!DNL Workfront] for [!DNL G Suite]klickar du på pilen för att gå till [!UICONTROL Home] område.
+1. Kontrollera att du är inloggad på [!DNL Workfront].
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på ikonen [!DNL Workfront] ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace] tillägg längst till höger på sidan.
+1. Om du ser en vänsterpil högst upp i [!DNL Workfront] för [!DNL Google Workspace] klickar du på pilen för att gå till området [!UICONTROL Home].
 
-1. I **[!UICONTROL Sort by]** klickar du på den expanderade pilen ![](assets/dropdown-arrow.png)klickar du sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du vill ha.
+1. Klicka på pilen ![](assets/dropdown-arrow.png) i området **[!UICONTROL Sort by]** och klicka sedan på ett alternativ för att ange hur du vill gruppera dina arbetsobjekt så att du kan hitta det du söker.
 
-   När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** det äldsta arbetsobjektet finns överst.
+   När du sorterar efter **[!UICONTROL Commit date]** eller **[!UICONTROL Planned completion]** datum är de äldsta arbetsobjekten högst upp.
 
-   När du sorterar efter **[!UICONTROL Project]**, visas arbetsobjekt i ordningen för de överordnade projekten, i bokstavsordning från A till Ö. Arbetsobjekt utan överordnat projekt visas under **[!UICONTROL No Project]**.
+   När du sorterar efter **[!UICONTROL Project]** visas arbetsobjekt i ordningen för deras överordnade projekt, i bokstavsordning från A till Z. Arbetsobjekt utan ett överordnat projekt visas under **[!UICONTROL No Project]**.
 
-1. Klicka på expanderingspilen ![](assets/dropdown-arrow.png) för den gruppering som du vill visa.
+1. Klicka på den expanderade pilen ![](assets/dropdown-arrow.png) för den gruppering som du vill visa.
 
-   Antalet objekt i varje grupp visas inom parentes. När du klickar på [!UICONTROL expand] visas alla arbetsobjekt i gruppen.
+   Antalet objekt i varje grupp visas inom parentes. När du klickar på pilen [!UICONTROL expand] visas alla arbetsobjekt i gruppen.
 
    Arbetsobjekt visas enligt följande:
 
-   * ![](assets/task-icon.png) **Uppgifter** visa namnet på det överordnade projektet, aktivitetsnamnet och planerat slutförandedatum.
+   * ![](assets/task-icon.png) **Aktiviteter** visar det överordnade projektnamnet, aktivitetsnamnet och planerat slutdatum.
 
-   * ![](assets/issue-icon.png) **Problem** visa namnet på det överordnade projektet, namnet på utgåvan och datumet för det planerade slutförandet.
+   * ![](assets/issue-icon.png) **Utgåvor** visar det överordnade projektets namn, utgivningsnamn och planerat slutdatum.
 
-   * ![](assets/document-icon.png)  **Godkännanden** visa den sökandes namn, dokumentnamn och överföringsdatum.
-   * **Åtkomstbegäranden** visa den sökandes namn, objektnamn och överföringsdatum. Ikonen för objekttypen visas till vänster.
+   * ![](assets/document-icon.png) **Godkännanden** visar den begärandes namn, dokumentnamn och överföringsdatum.
+   * **Åtkomstbegäranden** visar den begärandes namn, objektnamn och överföringsdatum. Ikonen för objekttypen visas till vänster.
 
 1. Klicka var som helst på en arbetsuppgift för att se information, uppdateringar och dokument.

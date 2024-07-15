@@ -3,13 +3,13 @@ product-area: workfront-integrations
 keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront inbyggda integreringsöversikt
-description: Ni kan integrera [!DNL Adobe Workfront] med program från tredje part. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
+description: Du kan integrera [!DNL Adobe Workfront] med tredjepartsprogram. Dessa integreringar kan utöka verktyget för  [!DNL Workfront]  och anpassa det efter organisationens behov. Om du till exempel arbetar kreativt i marknadsföringsbranschen kan du använda Adobe Creative Cloud-tillägget för att exportera mediefiler direkt från Photoshop till Workfront.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Ni kan integrera [!DNL Adobe Workfront] med program från tredje part samt andra [!DNL Adobe] produkter. Dessa integreringar kan göra att [!DNL Workfront] och skräddarsy den efter organisationens behov. Om du till exempel är kreativ anställd i marknadsföringsbranschen kan du använda [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] program som exporterar resurser direkt från Photoshop till Workfront.
+Du kan integrera [!DNL Adobe Workfront] med tredjepartsprogram och andra [!DNL Adobe]-produkter. Dessa integreringar kan utöka verktyget för [!DNL Workfront] och anpassa det efter organisationens behov. Om du till exempel är kreativ arbetare i marknadsföringsbranschen kan du använda plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program för att exportera resurser direkt från Photoshop till Workfront.
 
-Dina [!DNL Workfront] administratören måste aktivera och konfigurera inbyggda integreringar innan du kan använda dem. Om du vill veta vilka inbyggda integreringar som används i organisationen kontaktar du [!DNL Workfront] administratör.
+Administratören för [!DNL Workfront] måste aktivera och konfigurera inbyggda integreringar innan du kan använda dem. Kontakta [!DNL Workfront]-administratören om du vill veta vilka inbyggda integreringar som används i din organisation.
 
 ## Tillgängliga inbyggda integreringar
 
@@ -44,7 +44,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Hämta/installera från <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installera  [!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program</a>.</p> </td> 
+     <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -64,7 +64,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Lägga till ett G-Suite-e-postmeddelande till ett projekt eller en uppgift </li> 
+     <li>Lägga till ett Google Workspace-e-postmeddelande till ett projekt eller en uppgift </li> 
      <li>Visa och hantera [!DNL Workfront] meddelanden i Gmail</li> 
      <li>Skicka begäranden via Gmail </li> 
     </ul> </td> 
@@ -81,7 +81,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td> 
     <ul> 
      <li>Skapa nya biljetter i [!DNL Jira] baserat på uppgifter och problem i [!DNL Workfront]</li> 
-     <li>Synkronisera uppdateringar och status för länkade uppgifter mellan [!DNL Workfront] och [!DNL Jira] </li> 
+     <li>Synkronisera uppdateringar och status för länkade aktiviteter mellan [!DNL Workfront] och [!DNL Jira] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td> 
     <ul> 
      <li> <p>Integrera med en webbaserad version av Outlook i molnbaserade Office 365 eller Outlook Live. </p> </li> 
-     <li> <p>Visa alla händelser från [!DNL Outlook] kalendrar och associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din hemkalender.</p>  <p>Obs! Outlook-kalenderkonfigurationen är helt separat från Outlook-tillägget (Outlook-integrering eller Workfront för Outlook). Du behöver inte installera kalendern.</p></li> 
+     <li> <p>Visa alla händelser från din [!DNL Outlook]-kalender och alla associerade kalendrar som du väljer, till exempel födelsedagar och helgdagar, i din hemkalender.</p>  <p>Obs! Outlook-kalenderkonfigurationen är helt separat från Outlook-tillägget (Outlook-integrering eller Workfront för Outlook). Du behöver inte installera kalendern.</p></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td> 
     <ul> 
      <li>Uppdatera ett befintligt projekt/en befintlig aktivitet/ett befintligt problem med information från ett e-postmeddelande </li> 
-     <li>Konvertera e-post till [!DNL Workfront] objekt direkt från inkorgen </li> 
+     <li>Konvertera e-postmeddelanden till [!DNL Workfront] objekt direkt från inkorgen </li> 
      <li>Skapa nya uppgifter från ett e-postmeddelande </li> 
      <li>Kommentera [!DNL Workfront] objekt </li> 
     </ul> </td> 
@@ -115,7 +115,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
     <ul> 
      <li>Hämta [!DNL Workfront] meddelanden i [!DNL Microsoft Teams] </li> 
      <li>Fatta godkännandebeslut </li> 
-     <li>Sök efter [!DNL Workfront] projekt, uppgifter och problem </li> 
+     <li>Sök efter [!DNL Workfront] projekt, uppgifter och ärenden </li> 
      <li>Skapa [!DNL Workfront] personliga uppgifter </li> 
      <li>Skicka [!DNL Workfront] förfrågningar </li> 
     </ul> </td> 
@@ -124,7 +124,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
    <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Skapa nytt [!DNL Workfront] förfrågningar från [!DNL Salesforce] </li> 
+     <li>Skapa nya [!DNL Workfront]-begäranden från [!DNL Salesforce] </li> 
      <li>Skapa [!DNL Workfront] projekt från [!DNL Salesforce]</li> 
     </ul> </td> 
   </tr> 
@@ -141,8 +141,8 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
     <ul> 
      <li>Ta emot [!DNL Workfront] meddelanden i [!DNL Slack] </li> 
      <li>Hantera godkännanden i Slack </li> 
-     <li>Skapa [!DNL Workfront] uppgifter och problem från [!DNL Slack] </li> 
-     <li>Skicka kommentarer till ett projekt eller en uppgift från Slack</li> 
+     <li>Skapa [!DNL Workfront] aktiviteter och ärenden från [!DNL Slack] </li> 
+     <li>Post kommentarer till ett projekt eller en uppgift från Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -166,6 +166,6 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
 
 &#42;Tillgängligt till en extra kostnad.
 
-## Övriga [!DNL Workfront] integreringar
+## Andra [!DNL Workfront]-integreringar
 
-Den integrering du vill ha kanske inte är en inbyggd integrering. Men [!DNL Workfront] erbjuder andra sätt att integrera med valfritt program eller webbtjänst. Mer information om andra sätt att integrera med [!DNL Workfront], se [Integreringsmetoder i Adobe Workfront](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).
+Den integrering du vill ha kanske inte är en inbyggd integrering. [!DNL Workfront] erbjuder dock andra sätt att integrera med det program eller den webbtjänst du väljer. Mer information om andra sätt att integrera med [!DNL Workfront] finns i [Integreringsmetoder för Adobe Workfront](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md).

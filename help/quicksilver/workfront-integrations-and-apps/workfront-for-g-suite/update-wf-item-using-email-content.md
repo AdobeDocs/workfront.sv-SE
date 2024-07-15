@@ -2,25 +2,25 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,dokument,ark,bild
 navigation-topic: workfront-for-g-suite
-title: Uppdatera en [!DNL Adobe Workfront] objekt från G Suite med e-postinnehåll
+title: Uppdatera ett [!DNL Adobe Workfront] objekt från Google Workspace med e-postinnehåll
 description: Du kan uppdatera ett befintligt projekt, en uppgift eller ett problem med information från ett e-postmeddelande som inte kommer från Adobe Workfront.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
 
-# Uppdatera en [!DNL Adobe Workfront] objekt från [!DNL G Suite] använda e-postinnehåll
+# Uppdatera ett [!DNL Adobe Workfront]-objekt från [!DNL Google Workspace] med e-postinnehåll
 
 >[!NOTE]
 >
 >Den senaste versionen av Adobe Workfront-pluginprogrammet för Google släpptes den 26 juni 2023.
 
-Du kan uppdatera ett befintligt projekt, en befintlig uppgift eller ett befintligt problem med information från en icke-[!DNL Adobe Workfront] e-post.
+Du kan uppdatera ett befintligt projekt, en uppgift eller ett problem med information från ett e-postmeddelande som inte är [!DNL Adobe Workfront].
 
 ## Åtkomstkrav
 
@@ -41,23 +41,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Innan du kan uppdatera en [!DNL Workfront] objekt med e-postinnehåll från [!DNL G Suite]måste du
+Innan du kan uppdatera ett [!DNL Workfront]-objekt med e-postinnehåll från [!DNL Google Workspace] måste du
 
-* Installera [!DNL Workfront for G suite]\
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Installera [!DNL Workfront for Google Workspace]\
+   Instruktioner finns i [Installera [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Uppdatera en [!DNL Workfront] objekt med e-postinnehåll från [!DNL G Suite]
+## Uppdatera ett [!DNL Workfront]-objekt med e-postinnehåll från [!DNL Google Workspace]
 
-1. Om [!UICONTROL Workfront for G Suite] visas inte. Klicka på Workfront-ikonen ![](assets/wf-lion-icon.png) i [!DNL G Suite] sidofältet för tillägg längst till höger på sidan.
-1. Med e-postmeddelandet öppet i [!DNL G Suite], klicka **[!UICONTROL Post as a new update]** i [!DNL G Suite] -panelen.
-1. Under **[!UICONTROL Type]** klickar du på listrutepilen och sedan på den typ av objekt där du vill lägga till uppdateringen.
-1. Klicka på **[!UICONTROL Search for]** börjar du skriva namnet på objektet där du vill lägga till uppdateringen och markerar sedan objektet när det visas i listan nedan.
+1. Om panelen [!UICONTROL Workfront for Google Workspace] inte visas klickar du på Workfront-ikonen ![](assets/wf-lion-icon.png) i sidofältet för [!DNL Google Workspace]-tillägg längst till höger på sidan.
+1. Öppna e-postmeddelandet i [!DNL Google Workspace] och klicka på **[!UICONTROL Post as a new update]** på panelen [!DNL Google Workspace].
+1. Klicka på listrutepilen under **[!UICONTROL Type]** och klicka sedan på den typ av objekt där du vill lägga till uppdateringen.
+1. Klicka på alternativet **[!UICONTROL Search for]**, börja skriva namnet på objektet där du vill lägga till uppdateringen och markera sedan objektet när det visas i listan nedan.
 
-   Det här alternativet varierar beroende på vad du valde i steg 3. Det kan vara **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]**, eller **[!UICONTROL Search for an issue]**.
+   Det här alternativet varierar beroende på vad du valde i steg 3. Det kan vara **[!UICONTROL Search for a project]**, **[!UICONTROL Search for a task]** eller **[!UICONTROL Search for an issue]**.
 
    >[!NOTE]
    >
@@ -75,30 +75,30 @@ Innan du kan uppdatera en [!DNL Workfront] objekt med e-postinnehåll från [!DN
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td><p>(Endast tillgängligt om e-postmeddelandet innehåller minst en bifogad fil.) Klicka på det här alternativet om du vill spara bilagor i [!UICONTROL Documents] för uppgiften eller problemet. </p><p>Om du inte vill spara en bifogad fil klickar du på krysset till höger om namnet. </p><p>Om e-postmeddelandet innehåller länkar till dokument i [!DNL Google Drive], sparas länkarna i [!UICONTROL Overview] -fliken för den uppgift eller det problem som du skapar. </p><p>Viktigt: <span style="color: #ff1493;"><span style="color: #000000;">För att det ska fungera</span></span>[!DNL Workfront] administratör<span style="color: #ff1493;"><span style="color: #000000;"> måste auktorisera [!DNL Google Drive] att arbeta med [!DNL Workfront]</span></span></p>
+      <td><p>(Endast tillgängligt om e-postmeddelandet innehåller minst en bifogad fil.) Klicka på det här alternativet om du vill spara bifogade filer på fliken [!UICONTROL Documents] för uppgiften eller problemet. </p><p>Om du inte vill spara en bifogad fil klickar du på krysset till höger om namnet. </p><p>Om e-postmeddelandet innehåller länkar till dokument i [!DNL Google Drive] sparas länkarna på fliken [!UICONTROL Overview] för den uppgift eller det problem som du skapar. </p><p>Viktigt: <span style="color: #ff1493;"><span style="color: #000000;">För att det här ska fungera måste </span></span>[!DNL Workfront]-administratören<span style="color: #ff1493;"><span style="color: #000000;"> godkänna att [!DNL Google Drive] arbetar med [!DNL Workfront]</span></span></p>
       <p>Om du aktiverar det här alternativet förblir det aktiverat för andra e-postmeddelanden som du konverterar till uppgifter, utgåvor och uppdateringar.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Meddela</td> 
-      <td>Klicka <strong>[!UICONTROL Notify]</strong>klickar du på <strong>[!UICONTROL Search for a user or team]</strong> som visas börjar du skriva namnet på personen eller teamet och klickar på det när det visas i listan nedan. Upprepa detta för varje person och team som du vill lägga till och klicka sedan på <strong>[!UICONTROL Save]</strong>.</td> 
+      <td>Klicka på <strong>[!UICONTROL Notify]</strong>, klicka på alternativet <strong>[!UICONTROL Search for a user or team]</strong> som visas och börja sedan skriva namnet på personen eller teamet och klicka på det när det visas i listan nedan. Upprepa detta för varje person och team som du vill lägga till och klicka sedan på <strong>[!UICONTROL Save]</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Klicka på **[!UICONTROL Update]**.
 
-   När du uppdaterar webbläsaren visas ett meddelande med en länk längst ned i [!DNL Workfront for G Suite] bekräftar du att du har konverterat e-postmeddelandet till en uppdatering:
+   När du uppdaterar webbläsaren bekräftar ett meddelande med en länk längst ned på panelen [!DNL Workfront for Google Workspace] att du har konverterat e-postmeddelandet till en uppdatering:
 
-   Du kan klicka på länken för att gå till [!UICONTROL Updates] tabba in [!DNL Workfront] för det objekt som du angav i steg 4.
+   Du kan klicka på länken för att gå till fliken [!UICONTROL Updates] i [!DNL Workfront] för objektet som du angav i steg 4.
 
-   Du kan upprepa de här stegen för att konvertera samma e-post till uppdateringar, uppgifter och problem (se [Skapa ett Adobe Workfront-problem i [!DNL G Suite] med e-postinnehåll](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). När du uppdaterar webbläsaren eller återgår till e-postmeddelandet vid ett senare tillfälle visas alla länkar som du har skapat för e-postmeddelandet längst ned i [!UICONTROL Workfront for G Suite] -panelen.
+   Du kan upprepa de här stegen för att konvertera samma e-post till uppdateringar, uppgifter och utgåvor (se [Skapa ett Adobe Workfront-problem i [!DNL Google Workspace] med e-postinnehåll](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). När du uppdaterar webbläsaren eller återgår till e-postmeddelandet vid ett senare tillfälle visas alla länkar som du har skapat för e-postmeddelandet längst ned på panelen [!UICONTROL Workfront for Google Workspace].
 
-1. (Valfritt) Fortsätt arbeta med uppdateringen i dialogrutan [!DNL Workfront] tilläggspanelen på något av följande sätt:
+1. (Valfritt) Fortsätt att arbeta med uppdateringen på tilläggspanelen [!DNL Workfront] genom att göra något av följande:
 
-   * Lägga till en ny uppdatering på **[!UICONTROL Updates]** flik, klicka **[!UICONTROL Start a new update]** och ange informationen.
+   * Om du vill lägga till en ny uppdatering på fliken **[!UICONTROL Updates]** klickar du på **[!UICONTROL Start a new update]** och skriver informationen.
 
-   * Svara på en uppdatering på **[!UICONTROL Updates]** flik, klicka **[!UICONTROL Reply]** och skriv in ditt svar.
+   * Om du vill svara på en uppdatering på fliken **[!UICONTROL Updates]** klickar du på **[!UICONTROL Reply]** och skriver in ditt svar.
 
-     För båda alternativen ovan kan du klicka **[!UICONTROL Notify]** för att ange mottagare för svaret som i steg 5. När du är klar klickar du på **[!UICONTROL Post]** för att lägga till uppdateringen eller svaret.
+     För båda alternativen ovan kan du klicka på **[!UICONTROL Notify]** för att ange mottagare för svaret som i steg 5. När du är klar klickar du på **[!UICONTROL Post]** för att lägga till uppdateringen eller svaret.
 
-   * Klicka på **[!UICONTROL Details]** för att visa information om det nya projektet, uppgiften eller utgåvan.
+   * Klicka på fliken **[!UICONTROL Details]** om du vill visa information om det nya projektet, aktiviteten eller problemet.

@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 0%
@@ -23,9 +23,9 @@ ht-degree: 0%
 >
 >Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->Information om hur du konfigurerar tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som tillåts för Adobe-appar och -tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Mer information om hur du konfigurerar din tillåtelselista om din organisation har anslutit till Adobe Admin Console finns i [Domäner som ska tillåtas för Adobe-program och -tjänster](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -50,8 +50,8 @@ Du måste även öppna vissa portar för att e-postmeddelanden ska kunna krypter
 
 Om din organisation har Enterprise-planen kan du även konfigurera två Workfront-tillåtelselista:
 
-* **E-post tillåtelselista**: Används för att styra var användare kan skicka e-postdata som lagras i Workfront. Mer information finns i [Konfigurera din e-postadress tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-* **IP TILLÅTELSELISTA**: Begränsar åtkomst till Workfront till 45 IP-adresser eller IP-adressintervall som du anger, vilket ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+* **E-post tillåtelselista**: Här kan du styra var användare kan skicka e-postdata som lagras i Workfront. Mer information finns i [Konfigurera e-posttillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **IP-tillåtelselista**: Begränsar åtkomst till Workfront till 45 IP-adresser eller IP-adressintervall som du anger, vilket ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Hitta ditt Workfront-kluster
 
@@ -59,9 +59,9 @@ IP-adresserna som du måste lägga till i tillåtelselista på brandväggen bero
 
 Så här hittar du din organisations kluster:
 
-1. Som Workfront-administratör klickar du på **Huvudmeny** icon ![Huvudmeny](assets/main-menu-icon.png)och sedan klicka **Inställningar**.
-1. Klicka på i den vänstra navigeringen **System** väljer **Kundinformation**.
-1. Leta reda på **Klusterinställning** i det övre högra hörnet på sidan. Organisationens kluster listas här.
+1. Som Workfront-administratör klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Konfigurera** .
+1. Klicka på **System** i den vänstra navigeringen och välj sedan **Kundinformation**.
+1. Leta reda på fältet **Klusterinställning** längst upp till höger på sidan. Organisationens kluster listas här.
 
    CL01 refererar till Cluster 1, CL02 är Cluster 2 osv.
 
@@ -73,11 +73,11 @@ Mer information finns i avsnittet [Visa din organisations kluster och Workfront-
 >
 >Vissa Workfront-integreringar fungerar inte när tillåtelselista är aktiverat eftersom de inte kan konfigureras med en statisk IP-adress. Om du vill använda följande integreringar måste du inaktivera tillåtelselista.
 >
->* Workfront for G Suite
+>* Workfront för Google Workspace
 >* Workfront för Outlook
 >* Workfront för Salesforce
 
-* [IP-adresser som tillåter Kluster 1, 2, 3, 5, 7, 8 och 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
+* [IP-adresser som tillåter kluster 1, 2, 3, 5, 7, 8 och 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-adresser som tillåter kluster 4](#ip-addresses-to-allow-for-cluster-4)
 * [IP-adresser som tillåter kluster 6](#ip-addresses-to-allow-for-cluster-6)
 * [IP-adresser som tillåter en testenhet](#IP%20Addre2)
@@ -126,7 +126,7 @@ Om produktionsmiljön finns i kluster 1, 2, 3, 5 eller 7 måste du tillåta föl
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>Mer information om följande IP-adresser finns i <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nya IP-adresser för Adobe Workfront e-post med version 21.1</a></p> 
+    </ul> <p>Mer information om följande IP-adresser finns i <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">Nya IP-adresser för Adobe Workfront-e-post med version 21.1</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -163,7 +163,7 @@ Om produktionsmiljön finns i kluster 4 lägger du till följande IP-adresser f�
 * 46.51.194.192/32
 * 54.229.129.66/32
 
-Mer information om följande IP-adresser finns i [Nya IP-adresser för Adobe Workfront e-post med version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
+Mer information om följande IP-adresser finns i [Nya IP-adresser för Adobe Workfront-e-post med version 21.1](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99
@@ -511,7 +511,7 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
      <li>*.workfront.com - Krävs för att visa korrektur i Workfront</li> 
      <li>*.proofhq.com - Krävs för att visa korrektur i Workfront Proof</li> 
      <li>*.proofhq.eu - krävs för att visa korrektur i Workfront Proof</li> 
-    </ul> <p><b>ANMÄRKNING</b>:  <p>Vi stöder inte tillägg av IP-adresser till din tillåtelselista för Workfront Proof. De har varit dynamiska sedan Workfront flyttat till AWS. Vi rekommenderar att du bara tillåter Workfront Proof-domäner.</p> <p>Om du har problem med att lägga till de här domänerna på tillåtelselista och du behöver en IP-adress i stället kontaktar du Workfront kundsupport.</p> </p> </td> 
+    </ul> <p><b>OBS</b>:  <p>Vi stöder inte tillägg av IP-adresser till din tillåtelselista för Workfront Proof. De har varit dynamiska sedan Workfront flyttat till AWS. Vi rekommenderar att du bara tillåter Workfront Proof-domäner.</p> <p>Om du har problem med att lägga till de här domänerna på tillåtelselista och du behöver en IP-adress i stället kontaktar du Workfront kundsupport.</p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -520,7 +520,7 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
 
 Du måste lägga till följande IP-adresser i tillåtelselista för att kunna använda olika funktioner.
 
-* [För återanrop och webbinspelningskorrektur](#for-callbacks-and-webcapture-proofs)
+* [För återanrop och korrektur för webbhämtning](#for-callbacks-and-webcapture-proofs)
 * [För utgående e-post](#for-outgoing-email)
 
 ### För återanrop och webbinspelningskorrektur {#for-callbacks-and-webcapture-proofs}
@@ -573,7 +573,7 @@ Du måste lägga till följande IP-adresser i tillåtelselista för att kunna an
      <li>52.30.133.50</li> 
      <li>54.220.93.204</li> 
      <li>34.254.76.122</li> 
-    </ul> <p><b>ANMÄRKNING</b>: DNS-serveralternativ stöds inte längre.</p> </td> 
+    </ul> <p><b>Obs!</b> DNS-serveralternativ stöds inte längre.</p> </td> 
   </tr> 
  </tbody> 
 </table>
