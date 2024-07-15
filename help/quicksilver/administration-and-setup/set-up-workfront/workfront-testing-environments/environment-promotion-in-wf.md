@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Du kan utföra den här processen i Workfront genom att skapa ett paket med obje
    * [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Instruktioner om hur du utför den här processen via Workfront API finns i [Flytta objekt mellan [!DNL Workfront] miljöer som använder [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Instruktioner om hur du utför den här processen via Workfront API finns i [Flytta objekt mellan [!DNL Workfront] miljöer med  [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md) .
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -51,21 +51,21 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 
 | Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
-| Projekt (PROJ) | Projekt<br>Uppgift<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
-| Mall (TMPL) | Mall<br>Malluppgift<br>Mallaktivitetstilldelning<br>Föregångare för mallaktivitet<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Team<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ledig arbetsdag<br>Ködefinition<br>Köämnesgrupp<br>Köämne<br>Cirkulationsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
+| Projekt (PROJ) | Projekt<br>Aktivitet<br>Tilldelning<br>Föregående<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Köteamgrupp<br> 16}Köämne <br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisning |
+| Mall (TMPL) | Mall<br>Mallaktivitet<br>Mallaktivitetstilldelning<br>Malluppgiftsföregångare<br>Företag<br>Åsidosätt hastighet<br>Grupp<br>Roll<br>Grupp<br>Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännande<br>Schema<br>Ej arbetsdag<br>Ködefinition<br>Kö Ämnesgrupp<br>Köämne<br>Routningsregel<br>Sökväg för milstolpe<br>Milstolpe<br>Timtyp<br>Resurspool<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametgrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 
 ### Rapporteringsobjekt
 
 | Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
-| Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Kontrollpanel (PTLTAB) | Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
+| Layoutmall (UITMPL) | Layoutmall<br>Kontrollpanel<br>Kalender<br>Kalenderavsnitt<br>Extern sida<br>Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter<br>Grupp |
+| Kontrollpanel (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter |
 | Kalender (KALEND) | Kalender<br>Kalenderavsnitt |
 | Extern sida (EXTSEC) | Extern sida |
-| Rapport (PTLSEC) | Rapport<br>Filter<br>Gruppering<br>Visa<br>Parameter |
-| Filter (UIFT) | Filter<br>Parameter |
-| Gruppering (UIGB) | Gruppering<br>Parameter |
-| Visa (UIVW) | Visa<br>Parameter |
+| Rapport (PTLSEC) | Rapport<br>Filter<br>Gruppering<br>Visa<br>parameter |
+| Filter (UIFT) | Filter<br>parameter |
+| Gruppering (UIGB) | Gruppera <br>parameter |
+| Visa (UIVW) | Visa<br>parameter |
 
 ### Anpassade dataobjekt
 
@@ -81,8 +81,8 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 | --- | --- |
 | Grupp (GRUPP) | Grupp <br>Undergrupper (upp till 5 nivåer) *<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 | Roll (ROLE) | Roll |
-| Team (TEAM) | Team<br>Grupp |
-| Företag (CMPY) | Företag<br>Åsidosätt hastighet<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameter <br>Kategorivisningslogik<br>Grupp |
+| Team (TEAM) | Grupp<br> |
+| Företag (CMPY) | Företag<br>Åsidosätt frekvens<br>kategori<br>kategoriparameter<br>parameter<br>parametergrupp<br>parameter <br>kategorivisningslogik<br>grupp |
 | Portfolio (PORT) | Portfolio<br>Program<br>Grupp<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 | Program (PRGM) | Program<br>Portfolio<br>Grupp<br>Kategori<br>Kategoriparameter<br>Parameter<br>Parametergrupp<br>Parameteralternativ<br>Kategorivisningslogik |
 
@@ -90,10 +90,10 @@ Eftersom miljöbefordran hanterar objektkonfiguration inkluderas inte transaktio
 
 | Upphöjt objekt | Inkluderade länkade objekt som kan höjas |
 | --- | --- |
-| Godkännandeprocess (ARVPRC) | Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännare<br>Roll<br>Team<br>Grupp |
-| Schema (SCHED) | Schema<br>Ledig arbetsdag<br>Grupp |
-| Sökväg för milstolpe (MPATH) | Sökväg för milstolpe<br>Milstolpe |
-| Tidrapportprofil (TSPRO) | Tidrapportprofil<br>Timtyp |
+| Godkännandeprocess (ARVPRC) | Godkännandeprocess<br>Godkännandesökväg<br>Godkännandesteg<br>Steggodkännande<br>Roll<br>Team<br>Grupp |
+| Schema (SCHED) | Schemalägg<br>ej arbetsdag<br>grupp |
+| Sökväg för milstolpe (MPATH) | Milstolpe-sökväg<br>Milstolpe |
+| Tidrapportprofil (TSPRO) | Tidrapportprofil<br>timtyp |
 | Timtyp (HOURT) | Timtyp |
 | Utgiftstyp (EXPTYP) | Utgiftstyp |
 | Risktyp (risktyp) | Risktyp |
@@ -142,15 +142,15 @@ Dessa statusvärden är följande:
   </tr> 
   <tr> 
    <td>AKTIV</td> 
-   <td><p>Denna status tillåter att ett kampanjpaket installeras i alla miljöer, inklusive Production.</p><p>När en paketstatus är inställd på AKTIV <code>publishedAt</code> datumet anges automatiskt till den aktuella tidsstämpeln för begäran.</p></td> 
+   <td><p>Denna status tillåter att ett kampanjpaket installeras i alla miljöer, inklusive Production.</p><p>När en paketstatus är inställd på AKTIV, ställs datumet <code>publishedAt</code> automatiskt in på den aktuella tidsstämpeln för begäran.</p></td> 
   </tr> 
   <tr> 
    <td>INAKTIVERAT</td> 
-   <td><p>Den här statusen används för att dölja tidigare använda erbjudandepaket som inte kommer att installeras i någon miljö i framtiden.</p><p>När ett paket har den här statusen kan det inte installeras i någon miljö.</p><p>När paketstatusen är INAKTIVERAD visas <code>retiredAt</code> datumet anges automatiskt till den aktuella tidsstämpeln för begäran.</p><p>Vi rekommenderar att du använder den här statusen framför <code>DELETE /package</code> slutpunkten eftersom den kan hämtas och installationshistoriken sparas för alla distributioner som görs med det här paketet.</p></td> 
+   <td><p>Den här statusen används för att dölja tidigare använda erbjudandepaket som inte kommer att installeras i någon miljö i framtiden.</p><p>När ett paket har den här statusen kan det inte installeras i någon miljö.</p><p>När paketstatusen är INAKTIVERAD ställs datumet <code>retiredAt</code> automatiskt in på den aktuella tidsstämpeln för begäran.</p><p>Du bör använda den här statusen framför att använda slutpunkten <code>DELETE /package</code> eftersom den kan hämtas och installationshistoriken behålls för alla distributioner som görs med det här paketet.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sammanställer ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett paket med miljökampanjer.</td> 
+   <td><p>Kampanjpaketet får automatiskt denna status om ASSEMBLING-fasen misslyckas.</p><p>Om du vill returnera paketet till ASSEMBLING-scenen måste du starta monteringsprocessen igen.</p><p>Mer information om hur du sätter ihop ett paket finns i avsnittet <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Redigera eller sätta ihop ett befintligt paket</a> i artikeln Skapa eller redigera ett miljömarknadsföringspaket.</td> 
   </tr> 
   </tbody> 
 </table>
