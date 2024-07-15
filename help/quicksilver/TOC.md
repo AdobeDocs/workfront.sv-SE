@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
 workflow-type: tm+mt
-source-wordcount: '14441'
+source-wordcount: '14439'
 ht-degree: 0%
 
 ---
@@ -1963,7 +1963,7 @@ ht-degree: 0%
    * Skapa och hantera tidrapporter {#create-and-manage-timesheets-in-adobe-workfront}
       * [Skapa och hantera tidrapporter: artikelindex](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [Skapa, redigera och tilldela tidrapportprofiler](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-      * [Definiera timtyper och tillgänglighet för tidrapporter](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+      * [Definiera timtyper och tillgänglighet](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
       * [Skapa en tidrapport för engångsbruk](timesheets/create-and-manage-timesheets/create-tmshts.md)
       * [Redigera tidrapportinformation](timesheets/create-and-manage-timesheets/edit-timesheets.md)
       * [Loggtid](timesheets/create-and-manage-timesheets/log-time.md)
@@ -2389,7 +2389,7 @@ ht-degree: 0%
       * [Omvandla e-post från Google Workspace till Adobe Workfront objekt och uppdateringar](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
       * [Skapa en Adobe Workfront-uppgift i Google Workspace med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
       * [Skapa ett Adobe Workfront-problem i Google Workspace med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [Uppdatera ett Adobe Workfront-objekt från Google Workspace med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+      * [Uppdatera ett Adobe Workfront-objekt från G Suite med e-postinnehåll](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Adobe Workfront för Outlook {#workfront-for-outlook}
       * [Adobe Workfront för Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Konfigurera Adobe Workfront för Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

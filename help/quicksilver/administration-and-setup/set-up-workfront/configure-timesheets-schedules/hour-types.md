@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: e881aa57b5175ce5b559180a2713de0c607b3b1d
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Du kan associera timtyper med timposterna. Timtyper är etiketter som du använd
 
 Det finns två uppsättningar timtyper:
 
-* **Projektspecifika timtyper**: Den här gången loggas projekt, uppgifter och problem in. Projektspecifika timtyper kan associeras med timtransaktioner var som helst i [!DNL Adobe Workfront] där du kan logga tid för projekt, uppgifter och problem.
+* **Projektspecifika timtyper**: Det här är tidsloggade projekt, uppgifter och problem. Projektspecifika timtyper kan associeras med timposter var som helst i [!DNL Adobe Workfront] där du kan logga tid för projekt, aktiviteter och ärenden.
 
-  När du loggar in [!DNL Workfront], de projektspecifika timtyperna som är tillgängliga beror på konfigurationsalternativen som ställs in på system-, projekt- och användarnivå.
+  När du loggar in i [!DNL Workfront] beror de projektspecifika timtyperna som är tillgängliga på konfigurationsalternativen som ställs in på system-, projekt- och användarnivå.
 
   Följande standardtyper av projektspecifika timmar är alltid tillgängliga:
 
@@ -35,13 +35,13 @@ Det finns två uppsättningar timtyper:
    * Aktivitetstid
    * Utgivningstid
 
-  The [!DNL Workfront] administratören avgör vilka projektspecifika timtyper som blir tillgängliga, enligt beskrivningen i [Definiera timtyper och tillgänglighet för tidrapporter](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+  Administratören [!DNL Workfront] avgör vilka projektspecifika timtyper som är tillgängliga, vilket beskrivs i [Definiera timtyper och tillgänglighet](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
   >[!NOTE]
   >
-  >Om du aktiverar några projektspecifika timtyper i [!DNL Workfront] måste minst en projektspecifik timtyp aktiveras för varje projekt i systemet. Du kan inte aktivera en projektspecifik timtyp på systemnivå och har inga projektspecifika timtyper tillgängliga på projektnivå.
+  >Om du aktiverar några projektspecifika timtyper i ditt [!DNL Workfront]-system måste minst en projektspecifik timtyp aktiveras för varje projekt i systemet. Du kan inte aktivera en projektspecifik timtyp på systemnivå och har inga projektspecifika timtyper tillgängliga på projektnivå.
 
-* **Typer av allmänna timmar**: Allmänna timmar kan inte associeras med ett projekt, en uppgift eller ett ärende, och loggas direkt i en tidrapport. Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Allmänna timtyper**: Allmänna timmar kan inte associeras med ett projekt, en aktivitet eller ett problem, och de loggas direkt i en tidrapport. Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Åtkomstkrav
 
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,25 +72,25 @@ Workfront levereras med en uppsättning inbyggda timtyper. Dessa timtyper kan in
 
 Timtyperna som medföljer [!DNL Workfront] är:
 
-* **[!UICONTROL Sick Time]**: En allmän timtyp som inte kan associeras med timtransaktioner för ett projekt, en uppgift eller en utgåva. Sjukdomstid kan inte räknas som intäkt.
-* **[!UICONTROL Vacation Time]**: En allmän timtyp som inte kan associeras med timtransaktioner för ett projekt, en uppgift eller en utgåva. Ledig tid kan inte räknas som intäkt.
-* **[!UICONTROL General Overhead]**: En allmän timtyp som inte kan associeras med timtransaktioner för ett projekt, en uppgift eller en utgåva. Det kan dock räknas som intäkter i projektplaneringsprocessen.
+* **[!UICONTROL Sick Time]**: En allmän timtyp som inte kan associeras med timposter i ett projekt, en aktivitet eller en utgåva. Sjukdomstid kan inte räknas som intäkt.
+* **[!UICONTROL Vacation Time]**: En allmän timtyp som inte kan associeras med timposter i ett projekt, en aktivitet eller en utgåva. Ledig tid kan inte räknas som intäkt.
+* **[!UICONTROL General Overhead]**: En allmän timtyp som inte kan associeras med timposter i ett projekt, en aktivitet eller en utgåva. Det kan dock räknas som intäkter i projektplaneringsprocessen.
 * **[!UICONTROL Project Time]**: En allmän timtyp som bara kan associeras med timposter i ett projekt.
 * **[!UICONTROL Task Time]**: En allmän timtyp som bara kan associeras med timposter för en aktivitet.
 * **[!UICONTROL Issue Time]**:En allmän timtyp som bara kan associeras med timposter i en utgåva.
 
 ## Skapa timtyper
 
-Som en [!DNL Workfront] kan du skapa nya timtyper för din organisation på både system- och projektnivå. När du har skapat timtyper på system- och projektnivå kan användarna definiera vilka timtyper som är tillgängliga för specifika projekt och användare. Mer information finns i [Definiera timtyper och tillgänglighet för tidrapporter](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+Som [!DNL Workfront]-administratör kan du skapa nya timtyper för din organisation på både system- och projektnivå. När du har skapat timtyper på system- och projektnivå kan användarna definiera vilka timtyper som är tillgängliga för specifika projekt och användare. Mer information finns i [Definiera timtyper och tillgänglighet](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 Så här skapar du nya timtyper:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicka **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]**.
+1. Klicka på **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]**.
 
-1. Klicka **[!UICONTROL New Hour Type].**
-1. Ange följande information på **[!UICONTROL New Hour Type]** formulär:
+1. Klicka på **[!UICONTROL New Hour Type].**
+1. Ange följande information i formuläret **[!UICONTROL New Hour Type]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -106,7 +106,7 @@ Så här skapar du nya timtyper:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p>Ange om timtypen är en allmän eller projektspecifik timtyp genom att välja rätt omfång i listrutan.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b>: Om du har en anpassad timtyp som är [!UICONTROL Project Specific]och sedan ändra den till [!UICONTROL General], ställs alla befintliga uppgifter, ärenden och projekttimmar in på systemets standardtyper.</p> </td> 
+      <td> <p>Ange om timtypen är en allmän eller projektspecifik timtyp genom att välja rätt omfång i listrutan.</p> <p>Allmänna timtyper visas bara i tidrapporter och kan inte associeras med projekt, uppgifter eller problem.</p> <p><b>VIKTIGT</b>: Om du har en anpassad timtyp som är [!UICONTROL Project Specific], ändrar du den till [!UICONTROL General], ställs alla befintliga aktiviteter, ärenden och projekttimmar in på standardsystemtyperna.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -119,21 +119,21 @@ Så här skapar du nya timtyper:
     </tbody> 
    </table>
 
-   **[!UICONTROL Count As Revenue]**: Välj det här alternativet om du vill att timtransaktionen som är kopplad till den här timtypen ska påverka dina intäktsberäkningar.
+   **[!UICONTROL Count As Revenue]**: Välj det här alternativet om du vill att timtransaktionen som är associerad med den här timtypen ska påverka dina intäktsberäkningar.
 
-1. Klicka **[!UICONTROL Create Hour Type].**
+1. Klicka på **[!UICONTROL Create Hour Type].**
 
 ## Inaktivera timtyper
 
 Om timtyper blir inaktuella och du inte längre vill att användarna ska kunna koppla sina timuppgifter till dem kan du inaktivera timtyperna.
 
-Inaktivering av timtyper döljer timtyperna var som helst i [!DNL Workfront] där timtyper visas.
+Inaktivering av timtyper döljer timtyperna var som helst i [!DNL Workfront] där timtyper är synliga.
 
 Så här inaktiverar du en timtyp:
 
-1. Klicka **[!UICONTROL Setup]** nära det övre högra hörnet av [!DNL Adobe Workfront] på det globala navigeringsfältet.
+1. Klicka på **[!UICONTROL Setup]** i det övre högra hörnet av [!DNL Adobe Workfront] i det globala navigeringsfältet.
 
-1. Expandera **[!UICONTROL Timesheet & Hours Preferences]** och sedan klicka **[!UICONTROL Hour Types]**.
+1. Expandera **[!UICONTROL Timesheet & Hours Preferences]** och klicka sedan på **[!UICONTROL Hour Types]**.
 
 1. Välj den timtyp som du vill inaktivera.
 

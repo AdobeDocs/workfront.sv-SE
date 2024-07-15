@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '108'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-* [Definiera timtyper och tillgänglighet för tidrapporter](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [Definiera timtyper och tillgänglighet](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 * [Skapa en tidrapport för engångsbruk](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
 * [Redigera tidrapportinformation](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
 * [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md)
-* [Skicka en tidrapport för godkännande](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
+* [Skicka in en tidrapport för godkännande](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
 * [Godkänn en tidrapport](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
 * [Visa totalt antal timmar på tidrapporten](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
 * [Visa och hantera kommentarer på en tidrapport](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)

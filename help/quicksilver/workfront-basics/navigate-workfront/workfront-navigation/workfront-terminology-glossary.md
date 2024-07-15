@@ -1,26 +1,26 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Ordlista för [!DNL Adobe Workfront] terminologi
-description: The [!DNL Adobe Workfront] ordlista med vanliga termer i [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] gränssnitt, rapporter eller du försöker förstå vad [!DNL Workfront] begrepp som definieras i [!DNL Workfront] dokumentation.
+title: Ordlista för  [!DNL Adobe Workfront] terminologi
+description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta i  [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] gränssnittet, rapporter eller så försöker du förstå innebörden av  [!DNL Workfront] begrepp som definieras i  [!DNL Workfront] dokumentationen.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6371f6d19bfbad31c4564f9726f52e3ce394e516
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '16482'
+source-wordcount: '16726'
 ht-degree: 0%
 
 ---
 
 
-# Ordlista för [!DNL Adobe Workfront] terminologi
+# Ordlista för [!DNL Adobe Workfront]-terminologi
 
 <!--Audited: 12/2023-->
 
 >[!IMPORTANT]
 >
->Den här artikeln bör användas som referens för att förstå de termer som du kan stöta på i [!DNL Adobe Workfront] program, i [!DNL Workfront] dokumentation, eller när du talar om planering och hantering av arbetet i allmänhet. Vi uppdaterar den här informationen och därför kanske inte tabellen är fullständig. Vi kommer att ta bort denna ansvarsfriskrivning när vi anser denna information vara uttömmande.
+>Den här artikeln bör användas som referens för att förstå de termer som du kan stöta på i programmet [!DNL Adobe Workfront], i [!DNL Workfront]-dokumentationen eller när du vanligtvis pratar om att planera och hantera arbete. Vi uppdaterar den här informationen och därför kanske inte tabellen är fullständig. Vi kommer att ta bort denna ansvarsfriskrivning när vi anser denna information vara uttömmande.
 
 Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
@@ -46,24 +46,24 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Activity]</td> 
-   <td>I [!DNL Workfront Goals]är en aktivitet en förloppsindikator för ett mål. Det kan vara en förloppsindikator som du uppdaterar manuellt eller ett projekt som är associerat med målet. Du kan inte visa aktiviteter i en rapport och du kan inte komma åt dem via [!DNL Workfront] API. Mer information om aktiviteter finns i <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Kom igång med resultat och aktiviteter i Adobe Workfront-mål</a>.</td> 
+   <td>I [!DNL Workfront Goals] är en aktivitet en förloppsindikator för ett mål. Det kan vara en förloppsindikator som du uppdaterar manuellt eller ett projekt som är associerat med målet. Du kan inte visa aktiviteter i en rapport och du kan inte komma åt dem via API:t [!DNL Workfront]. Mer information om aktiviteter finns i <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Kom igång med resultat och aktiviteter i Adobe Workfront-mål</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>För uppgifter och ärenden är detta kostnaden associerat med de faktiska timmarna som loggats i relation till kostnaden per timme för den resurs som tilldelats uppgiften eller utgåvan. För projekt är detta den totala mängden [!UICONTROL Actual Costs] från uppgifter och ärenden i projektet. Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+   <td> <p>För uppgifter och ärenden är detta kostnaden associerat med de faktiska timmarna som loggats i relation till kostnaden per timme för den resurs som tilldelats uppgiften eller utgåvan. För projekt är detta det totala antalet [!UICONTROL Actual Costs] från aktiviteter och ärenden i projektet. Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
-   <td> <p>Summan av [!UICONTROL Actual Amounts] för alla utgifter som har loggats för ett projekt eller en uppgift.</p> <b>EXEMPEL </b>
-   <p>Om du skapar en utgift för Uppgift 1 och anger $600.00 i dialogrutan [!UICONTROL Actual Amount] fält, [!UICONTROL Actual Expense Cost] för den här aktiviteten är 600,00 USD. </p> 
-   <p>För ett projekt [!DNL Workfront] använder följande formel för att beräkna [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
+   <td> <p>Summan av [!UICONTROL Actual Amounts] för alla utgifter som loggats för ett projekt eller en uppgift.</p> <b>EXEMPEL </b>
+   <p>Om du skapar en utgift för Uppgift 1 och anger 600,00 USD i fältet [!UICONTROL Actual Amount], är [!UICONTROL Actual Expense Cost] för den här aktiviteten 600,00 USD. </p> 
+   <p>För ett projekt använder [!DNL Workfront] följande formel för att beräkna [!UICONTROL Actual Expense Cost]:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
     --> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>I ett projekt, en uppgift eller en problemrapport [!UICONTROL Actual Hours] är summan av alla timmar som är loggade i projektet, uppgiften eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om från [!UICONTROL Updates] för Aktivitet 1 klickar du på Loggtid och anger 25 timmar, Faktiska timmar för Aktivitet 1 = 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade uppgifter eller projekt med följande formler:</p> 
+   <td> <p>I ett projekt, en aktivitet eller en utleveransrapport är [!UICONTROL Actual Hours] summan av alla timmar som är inloggade på projektet, aktiviteten eller utgåvan.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span> Om du klickar på Loggtid på fliken [!UICONTROL Updates] för Aktivitet 1 och anger 25 timmar, motsvarar Faktiskt antal timmar i Aktivitet 1 25 timmar. </p> <p>[!DNL Workfront] beräknar [!UICONTROL Actual Hours] för överordnade aktiviteter eller projekt med följande formler:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project</code> </p> </li> 
@@ -71,11 +71,11 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Labor Cost]</td> 
-   <td> <p>The [!UICONTROL Actual Cost] som är förknippad med det arbete som har investerats i en uppgift eller ett projekt. </p> <p>För en uppgift [!DNL Workfront] beräknar [!UICONTROL Actual Labor Cost] med följande formel:</p> <p><code>Task [!UICONTROL Actual Labor Cost] = Number of [!UICONTROL Actual Hours] on the task * User or Job Role [!UICONTROL Hourly Cost Rate]</code> </p> <p>Om uppgiften har en [!UICONTROL Cost Type] av [!UICONTROL User Hourly], [!DNL Workfront] använder användarfrekvensen. Om uppgiften har en [!UICONTROL Cost Type] av [!UICONTROL Role Hourly], [!DNL Workfront] använder jobbrollfrekvensen för att beräkna [!UICONTROL Actual Labor Cost]. </p> <p>För ett projekt [!DNL Workfront] använder följande formel för att beräkna [!UICONTROL Actual Labor Cost]:</p> <p><code>Project [!UICONTROL Actual Labor Cost] = SUM(All Tasks [!UICONTROL Actual Labor Cost]) </code> </p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Om en användare till exempel loggar 5 timmar för en uppgift med en [!UICONTROL User Hourly] [!UICONTROL Cost Type] och timpriset är 100 dollar, [!UICONTROL Actual Labor Cost] är 500 dollar.</p></td> 
+   <td> <p>[!UICONTROL Actual Cost] som är associerad med det arbete som har investerats i en aktivitet eller ett projekt. </p> <p>För en uppgift beräknar [!DNL Workfront] [!UICONTROL Actual Labor Cost] med följande formel:</p> <p><code>Task [!UICONTROL Actual Labor Cost] = Number of [!UICONTROL Actual Hours] on the task * User or Job Role [!UICONTROL Hourly Cost Rate]</code> </p> <p>Om aktiviteten har [!UICONTROL Cost Type] av [!UICONTROL User Hourly] använder [!DNL Workfront] användarfrekvensen. Om aktiviteten har [!UICONTROL Cost Type] av [!UICONTROL Role Hourly] använder [!DNL Workfront] jobbrollens hastighet för att beräkna [!UICONTROL Actual Labor Cost]. </p> <p>För ett projekt använder [!DNL Workfront] följande formel för att beräkna [!UICONTROL Actual Labor Cost]:</p> <p><code>Project [!UICONTROL Actual Labor Cost] = SUM(All Tasks [!UICONTROL Actual Labor Cost]) </code> </p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Om en användare till exempel loggar 5 timmar för en aktivitet med en [!UICONTROL User Hourly] [!UICONTROL Cost Type] och timtaxan är $100, är [!UICONTROL Actual Labor Cost] $500.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Revenue] </td> 
-   <td> <p>The [!UICONTROL Actual Revenue] för ett projekt eller en uppgift är det belopp som är associerat med [!UICONTROL Actual Hours] av projektet eller uppgiften. </p> <p>Mer information om hur du spårar intäkter i [!DNL Workfront], se <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>. </p> </td> 
+   <td> <p>[!UICONTROL Actual Revenue] för ett projekt eller en aktivitet är summan som är associerad med [!UICONTROL Actual Hours] för projektet eller aktiviteten. </p> <p>Mer information om att spåra intäkter i [!DNL Workfront] finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Start]</td> 
@@ -96,11 +96,11 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>De skiljer sig från ett traditionellt team eftersom de tar sitt framtida arbete från en eftersläpning och arbetar med det inom en viss tidsperiod som kallas för en [!UICONTROL Iteration].</td> 
+   <td>Skiljer sig från ett traditionellt team eftersom de tar sitt potentiella arbete från en eftersläpning och arbetar med det inom en angiven tidsperiod som kallas [!UICONTROL Iteration].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 
-   <td> <p>När det refereras till detta i [!UICONTROL filters]visas antingen användare som tillhör något av de team som den inloggade användaren tillhör, eller arbetsobjekt som tilldelats något av de team som den inloggade användaren tillhör. </p> <p>Vi rekommenderar att du använder det här fältet i ett filter för att göra rapporter mer allmänna när du delar dem med andra användare. På så sätt kan du bara skapa en rapport som visar olika information beroende på vem som loggar in för att visa den, eftersom informationen alltid anpassas för den inloggade användaren. </p> </td> 
+   <td> <p>När det refereras till detta i [!UICONTROL filters] visar det här fältet antingen användare som tillhör någon av de team som den inloggade användaren tillhör, eller arbetsobjekt som tilldelats någon av de team som den inloggade användaren tillhör. </p> <p>Vi rekommenderar att du använder det här fältet i ett filter för att göra rapporter mer allmänna när du delar dem med andra användare. På så sätt kan du bara skapa en rapport som visar olika information beroende på vem som loggar in för att visa den, eftersom informationen alltid anpassas för den inloggade användaren. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Allocation Date]</td> 
@@ -110,28 +110,28 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
      --> 
      <li>[!UICONTROL Project] (Finansiella uppgifter)</li> 
      <li>[!UICONTROL Budgeted Hour]</li> 
-    </ul> <p>För<!--
+    </ul> <p>För en <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         Resource Estimates or 
       </MadCap:conditionalText>
-     -->[!UICONTROL Project (Financial Data)] rapport: </p> 
+     -->[!UICONTROL Project (Financial Data)]-rapport: </p> 
     <ul> 
      <li>Bygg den här rapporten när du försöker förstå <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
-      --> beloppet för [!UICONTROL Planned Hours] som har tilldelats dina resurser.</li> 
-     <li> <p>The [!UICONTROL Allocation Date] är den första dagen (söndag) i en vecka där en [!UICONTROL Job Role] till en uppgift startar. En resurs ([!UICONTROL Job Role]) kan ha så många [!UICONTROL Allocation Dates] som det har flera veckor under [!UICONTROL Duration] av de uppgifter som den har tilldelats. Om uppgifterna sträcker sig över flera månader kan den första dagen i månaden också bli en [!UICONTROL Allocation Date], om den finns i [!UICONTROL Duration] för uppgiften.</p> <p>Du kan till exempel ha en [!UICONTROL Job Role] har tilldelats en aktivitet som sträcker sig över 3 veckor och har 90 [!UICONTROL Planned Hours]. De här timmarna fördelas jämnt under uppgiftens varaktighet, vilket gör att varje dag tilldelas 6 [!UICONTROL Planned Hours] till din jobbroll:</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Antal [!UICONTROL Work Days] under [!UICONTROL Duration] för uppgiften </em> </p> <p>Därför finns det tre [!UICONTROL Allocation Dates], en för varje söndag varje vecka under [!UICONTROL Duration] av uppgiften, var och en med ett visst antal [!UICONTROL Planned Hours] som är kopplade till dem.<br>Om aktiviteten börjar i mitten av den sista veckan i en månad och slutar två veckor efter början av en ny månad har aktiviteten fyra [!UICONTROL Allocation Dates]: en för varje söndag varje vecka under [!UICONTROL Duration] och en för den första dagen i den nya månaden.</p> <p>Vi rekommenderar att du skapar en <!--
+      --> mängden [!UICONTROL Planned Hours] som är tilldelad dina resurser.</li> 
+     <li> <p>[!UICONTROL Allocation Date] är den första dagen (söndag) i en vecka där allokeringen av [!UICONTROL Job Role] till en aktivitet startar. En resurs ([!UICONTROL Job Role]) kan ha så många [!UICONTROL Allocation Dates] som den har veckor under [!UICONTROL Duration] av de uppgifter som den är tilldelad till. Om uppgifter sträcker sig över flera månader kan den första dagen i en månad också bli [!UICONTROL Allocation Date], om den ligger inom [!UICONTROL Duration] för uppgiften.</p> <p>Du kan till exempel ha en [!UICONTROL Job Role] tilldelad till en aktivitet som sträcker sig över 3 veckor och har 90 [!UICONTROL Planned Hours]. De här timmarna fördelas jämnt under aktivitetens varaktighet, vilket gör att du tilldelar 6 [!UICONTROL Planned Hours] till din jobbroll varje dag:</p> <p><em> [!UICONTROL Daily Planned Hours] = [!UICONTROL Total Planned Hours]/ Antal [!UICONTROL Work Days] under [!UICONTROL Duration] för aktiviteten </em> </p> <p>Det innebär att det finns tre [!UICONTROL Allocation Dates], en för varje söndag varje vecka under [!UICONTROL Duration] för aktiviteten, där vart och ett har ett visst antal [!UICONTROL Planned Hours] associerade.<br>Om aktiviteten startar i mitten av den sista veckan i en månad och slutar två veckor efter början av en ny månad har aktiviteten fyra [!UICONTROL Allocation Dates] : en för varje söndag i varje vecka under [!UICONTROL Duration] för aktiviteten och en för den första dagen i den nya månaden.</p> <p>För att få ut så mycket som möjligt av den här informationen rekommenderar vi att du skapar en <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
-       --> Projektrapport (ekonomiska data) och lägg till en matrisgruppering för [!UICONTROL Allocation Date]gruppera sedan resultaten varje vecka, månad, kvartal eller år för att få de mest korrekta uppgifterna.<br>Mer information om hur du skapar en matrisgruppering finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Skapa en matrisrapport</a>.</p> </li> 
-    </ul> <p>Ekonomisk information fylls i i [!UICONTROL Project (Financial Data)] rapporterar endast när data som hör till den är yngre än 5 år. Om en jobbroll till exempel allokerades till en uppgift i januari 2015 och i dag är september 2021, är detta ett finansiellt fält som [!UICONTROL Allocation Date] för jobbrollen inte fylls i i [!UICONTROL Project (Financial Data)] rapport. </p> 
+       -->-projektrapport (ekonomiska data) och lägger till en matrisgruppering för [!UICONTROL Allocation Date], och sedan grupperar du resultaten varje vecka, månad, kvartal eller år för att få de mest korrekta uppgifterna.<br>Mer information om hur du skapar en matrisgruppering finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Skapa en matrisrapport</a>.</p> </li> 
+    </ul> <p>Den ekonomiska informationen fylls i i [!UICONTROL Project (Financial Data)] rapporter endast när de data som är associerade med den är mindre än 5 år gamla. Om en jobbroll till exempel allokerades till en aktivitet i januari 2015 och idag är september 2021, fylls inte ett ekonomiskt fält som [!UICONTROL Allocation Date] för jobbrollen i rapporten [!UICONTROL Project (Financial Data)]. </p> 
     <div> 
-     <p>För [!UICONTROL Budgeted Hour] rapport:</p> 
+     <p>För en [!UICONTROL Budgeted Hour]-rapport:</p> 
      <ul> 
-      <li>Bygg den här rapporten när du försöker förstå mängden [!UICONTROL Budgeted Hours] som tilldelas dina resurser eller dina projekt i Resursplaneraren.</li> 
-      <li> <p>The [!UICONTROL Allocation Date] är den första dagen (en söndag) i veckan för vilken du budgeterade timmarna i [!UICONTROL Resource Planner]. </p> <p><b>TIPS</b></p> <p>Om en vecka sträcker sig över två månader genereras två rader i rapporten: en som motsvarar den första dagen i veckan (söndag i den första veckan som infaller under den första månaden) och den andra raden visar den första dagen i den andra månaden. </p> <p>Om du till exempel budgeterar 8 timmar för en användare för veckan 30 juni (söndag) - 6 juli (lördag), visar de två raderna ett [!UICONTROL Allocation Date] 30 juni och 1 juli. </p> </p> <p>Mer information om budgetresurser finns i [!DNL Resource Planner], se artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!DNL Resource Planner] med [!UICONTROL Project] och [!UICONTROL Role] vyer</a>.</p> <p>Mer information om hur du skapar en [!UICONTROL Budgeted Hour] rapport, se <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Rapport: Budgeterad timme</a>. </p> </li> 
+      <li>Bygg den här rapporten när du försöker förstå mängden [!UICONTROL Budgeted Hours] som allokeras till dina resurser eller till dina projekt i resursplaneraren.</li> 
+      <li> <p>[!UICONTROL Allocation Date] är den första dagen (en söndag) i veckan som du budgeterade timmarna för [!UICONTROL Resource Planner]. </p> <p><b>TIPS</b></p> <p>Om en vecka sträcker sig över två månader genereras två rader i rapporten: en som motsvarar den första dagen i veckan (söndag i den första veckan som infaller under den första månaden) och den andra raden visar den första dagen i den andra månaden. </p> <p>Om du till exempel budgeterar 8 timmar för en användare för veckan 30 juni (söndag) - 6 juli (lördag) visar de två raderna [!UICONTROL Allocation Date] 30 juni och 1 juli. </p> </p> <p>Mer information om budgeteringsresurser i [!DNL Resource Planner] finns i artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!DNL Resource Planner] med [!UICONTROL Project]- och [!UICONTROL Role]-vyerna</a>.</p> <p>Mer information om hur du skapar en [!UICONTROL Budgeted Hour]-rapport finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Rapport: Budgeterad timme</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -145,11 +145,11 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Approver Decision]</td> 
-   <td> <p>I [!UICONTROL Proof Approval] i det här fältet visas korrekturgodkännanden för korrektur som inte längre är aktiva.</p> </td> 
+   <td> <p>I rapporten [!UICONTROL Proof Approval] visar det här fältet bevis för godkännandebeslut för korrektur som inte längre är aktiva.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Approver stage]</td> 
-   <td>I [!UICONTROL Proof Approval report]visas information om ett korrektur på det aktuella stadiet.</td> 
+   <td>I [!UICONTROL Proof Approval report] visar det här fältet information om ett korrektur på det aktuella stadiet.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Approval]</td> 
@@ -157,7 +157,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Approval date]</td> 
-   <td>I [!UICONTROL Proof Approval] rapporten, this field displays the date a proof was approved.</td> 
+   <td>I rapporten [!UICONTROL Proof Approval] visar det här fältet det datum då ett bevis godkändes.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Approver]</td> 
@@ -165,7 +165,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Assigned To]</td> 
-   <td> <p>I en [!UICONTROL Task or Issue] rapporten, this field displays the Owner of the task or the issue, or the [!UICONTROL Primary Assignee]. Du kan även filtrera eller gruppera efter det här fältet.</p> </td> 
+   <td> <p>I en [!UICONTROL Task or Issue]-rapport visar det här fältet aktivitetens eller problemets ägare eller [!UICONTROL Primary Assignee]. Du kan även filtrera eller gruppera efter det här fältet.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment]</td> 
@@ -173,35 +173,35 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignments]</td> 
-   <td> <p>I en [!UICONTROL Task] eller [!UICONTROL Issue] i det här fältet visas en lista med alla enheter (användare, jobbroller, team) som har tilldelats uppgiften eller utgåvan. Du kan filtrera fältet efter med hjälp av fälten [!UICONTROL Assignment Users] och [!UICONTROL Assignment Roles]. Du kan filtrera efter det team som tilldelats uppgiften eller utgåvan med hjälp av fältet Team. Du kan inte gruppera en rapport efter det här fältet.</p> <p>Arbetsobjekt som har placerats i [!UICONTROL Recycle Bin] kommer att fortsätta visas i vissa rapporter som refererar till [!UICONTROL Assignment] objekt där [!DNL OR] filtermodifierare används.</p> </td> 
+   <td> <p>I en [!UICONTROL Task]- eller [!UICONTROL Issue]-rapport visar det här fältet en lista över alla entiteter (användare, jobbroller, team) som är tilldelade till uppgiften eller utgåvan. Du kan filtrera efter det här fältet med fälten [!UICONTROL Assignment Users] och [!UICONTROL Assignment Roles]. Du kan filtrera efter det team som tilldelats uppgiften eller utgåvan med hjälp av fältet Team. Du kan inte gruppera en rapport efter det här fältet.</p> <p>Arbetsobjekt som har placerats i [!UICONTROL Recycle Bin] visas fortfarande i vissa rapporter som refererar till [!UICONTROL Assignment]-objektet där en [!DNL OR]-filtermodifierare används.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment Roles]</td> 
    <td>
-   <p>I en [!UICONTROL Task] eller [!UICONTROL Issue] i det här fältet visas information om de jobbroller som är tilldelade till uppgifter eller ärenden. Det här fältet visas [!UICONTROL Primary Owners]samt andra jobbroller som tilldelats uppgifter eller ärenden.</p> </td> 
+   <p>I en [!UICONTROL Task]- eller [!UICONTROL Issue]-rapport visar det här fältet information om de jobbroller som tilldelats för aktiviteterna eller problemen. Det här fältet visar [!UICONTROL Primary Owners] samt andra jobbroller som tilldelats aktiviteter eller ärenden.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment Status]</td> 
-   <td> <p>I en uppdrags-, uppgifts- eller problemrapport [!UICONTROL Assignment Status] visar om användare som har tilldelats ett arbetsobjekt har klickat på [!UICONTROL Work On It] eller [!UICONTROL Done] för att godkänna eller slutföra arbetet. Följande [!UICONTROL Assignment Statuses] finns:</p> 
+   <td> <p>I en uppdrags-, uppgifts- eller utgivningsrapport visar [!UICONTROL Assignment Status] om användarna som är tilldelade till ett arbetsobjekt har klickat på knappen [!UICONTROL Work On It] eller [!UICONTROL Done] för att acceptera eller slutföra arbetet. Följande [!UICONTROL Assignment Statuses] finns:</p> 
     <ul> 
-     <li><b>[!UICONTROL Requested]</b>: användaren har tilldelats uppgiften eller utgåvan, men har inte klickat på [!UICONTROL Work On It] för att börja arbeta med det än.</li> 
-     <li><b>[!UICONTROL Working]</b>: användaren har klickat på [!UICONTROL Work On It] och arbetar för närvarande med objektet. </li> 
-     <li><b>[!UICONTROL Done]</b>: användaren har klickat på [!UICONTROL Done] och har slutfört sitt arbete med objektet. </li> 
+     <li><b>[!UICONTROL Requested]</b>: användaren har tilldelats uppgiften eller utgåvan, men har inte klickat på knappen [!UICONTROL Work On It] för att börja arbeta med den än.</li> 
+     <li><b>[!UICONTROL Working]</b>: användaren har klickat på knappen [!UICONTROL Work On It] och arbetar för närvarande med objektet. </li> 
+     <li><b>[!UICONTROL Done]</b>: användaren har klickat på knappen [!UICONTROL Done] och har slutfört sitt arbete med objektet. </li> 
     </ul> <p>Mer information finns i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md" class="MCXref xref">[!UICONTROL Work On It] och [!UICONTROL Done] knappöversikt</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment Teams]</td> 
    <td>
-   <p>I en [!UICONTROL task] eller [!UICONTROL issue] i det här fältet visas information om de team som har tilldelats uppgifterna eller problemen. Fältet visas [!UICONTROL Primary Owners]samt andra team som har tilldelats uppgifter eller ärenden. </p></td> 
+   <p>I en [!UICONTROL task]- eller [!UICONTROL issue]-rapport visar det här fältet information om de team som har tilldelats till aktiviteterna eller problemen. Fältet visar [!UICONTROL Primary Owners] samt andra team som har tilldelats aktiviteter eller problem. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Assignment Users]</td> 
    <td>
-   <p>I en [!UICONTROL Task] eller [!UICONTROL Issue] i det här fältet visas information om de användare som har tilldelats uppgifterna eller problemen. Det här fältet visas [!UICONTROL Primary Owners]samt andra användare som har tilldelats uppgifter eller ärenden. </p></td> 
+   <p>I en [!UICONTROL Task]- eller [!UICONTROL Issue]-rapport visar det här fältet information om de användare som har tilldelats till aktiviteterna eller problemen. I det här fältet visas [!UICONTROL Primary Owners] samt andra användare som är tilldelade till uppgifter eller ärenden. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Attribute]</td> 
-   <td>Ett attribut är en egenskap i [!DNL Workfront] -objekt.</td> 
+   <td>Ett attribut är ett egenskap för ett [!DNL Workfront]-objekt.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Audit Area]</td> 
@@ -224,7 +224,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Automatic And On Change]</td> 
-   <td> <p>En av [!UICONTROL Project Update] typer. Detta beräknar om projektets planerade och planerade tidslinjer när den nattliga omberäkningen körs och när någon uppdatering görs av projektet eller aktiviteterna i projektet. </p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering </a>.</p> </td> 
+   <td> <p>En av [!UICONTROL Project Update]-typerna. Detta beräknar om projektets planerade och planerade tidslinjer när den nattliga omberäkningen körs och när någon uppdatering görs av projektet eller aktiviteterna i projektet. </p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj projekttypens uppdateringstyp </a>.</p> </td> 
   </tr>
 
 <tr> 
@@ -238,7 +238,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <tr> 
    <td>[!UICONTROL Automatic Only]</td> 
-   <td> <p>En av [!UICONTROL Project Update] typer. Detta beräknar om planerade och planerade tidslinjer när nattomberäkningen körs.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering</a>.</p> </td> 
+   <td> <p>En av [!UICONTROL Project Update]-typerna. Detta beräknar om planerade och planerade tidslinjer när nattomberäkningen körs.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering</a>.</p> </td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -282,7 +282,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <tr> 
    <td>[!UICONTROL Branding]</td> 
-   <td><p>Anpassningsprocessen [!DNL Workfront] för att ge gränssnittet ett utseende som speglar ditt företag genom att använda dina färger och logotyper.</p><p><strong>ANMÄRKNING</strong><br>Om din organisation har anslutit sig till [!DNL Adobe Experience Cloud], branding is not available.</p></td> 
+   <td><p>Processen att anpassa [!DNL Workfront] för att ge gränssnittet ett utseende som speglar ditt företag genom att använda dina färger och logotyper.</p><p><strong>Obs!</strong><br>Om din organisation har anslutit till [!DNL Adobe Experience Cloud] är varumärkning inte tillgängligt.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Breadcrumbs]</td> 
@@ -290,7 +290,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Budget Status]</td> 
-   <td> <p>Detta är ett inaktuellt fält. All information som fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagits bort och det går inte att uppdatera fältet. </p> <p>Det här fältet visar om projektet lades till i [!UICONTROL Capacity Planner] och om budgetberäkningen har slutförts för den. The [!UICONTROL Capacity Planner] har tagits bort från [!DNL Workfront]. </p> 
+   <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort och fältet kan inte uppdateras. </p> <p>Det här fältet visar om projektet lades till i [!UICONTROL Capacity Planner] och om budgetberäkningen har slutförts för det. [!UICONTROL Capacity Planner] har tagits bort från [!DNL Workfront]. </p> 
     <ul> <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is&nbsp;not added to the capacity planner, its value is <i>Not Included</i>.&nbsp;</li>
      --> <!--
@@ -302,8 +302,8 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
-   <td> <p>Detta är ett inaktuellt fält. All information som fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagits bort. Det går inte att uppdatera det här fältet. </p>
-   <p> Det här fältet visas fortfarande i [!UICONTROL project] och [!UICONTROL tasks] rapporter och listor.</p>  </td> 
+   <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet. </p>
+   <p> Det här fältet är fortfarande synligt i [!UICONTROL project] och [!UICONTROL tasks] rapporter och listor.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -311,23 +311,23 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 <td> <p>Detta är kostnaden som är associerad med budgeteringsresurser för ett projekt. </p>
    <p>Fältet visas i följande områden i [!DNL Workfront] under följande namn:</p>
    <ul>
-   <li><strong>[!UICONTROL Budgeted Cost]</strong>: i [!UICONTROL Business Case Summary] panel</li>
-   <li><strong>[!UICONTROL Cost]</strong>: i [!UICONTROL Utilization] områden när information visas av [!UICONTROL Cost]</li>
+   <li><strong>[!UICONTROL Budgeted Cost]</strong>: på panelen [!UICONTROL Business Case Summary]</li>
+   <li><strong>[!UICONTROL Cost]</strong>: i [!UICONTROL Utilization]-områdena när information visas av [!UICONTROL Cost]</li>
    <li><strong>[!UICONTROL Project Budgeted Cost]</strong>: i listor och rapporter</li>
    </ul>   
-    <p>The [!UICONTROL Budgeted Cost] för projektet beräknas med följande formel:</p> 
+    <p>[!UICONTROL Budgeted Cost] för projektet beräknas med följande formel:</p> 
     <p><code>[!UICONTROL Project Budgeted Cost] (or [!UICONTROL Budgeted Cost]) = [!UICONTROL Budgeted Expense Cost] + [!UICONTROL Budgeted Labor Cost] + [!UICONTROL Fixed Cost] of the project</code> </p> 
-    <p>Mer information om beräkning [!UICONTROL Budgeted Cost] och förstå olika namn på detta koncept i [!DNL Workfront], se <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Beräkna projektbudgeterad kostnad</a>. </p>
+    <p>Mer information om hur du beräknar [!UICONTROL Budgeted Cost] och om du vill förstå olika namn på det här konceptet i [!DNL Workfront] finns i <a href="../../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Beräkna projektbudgeterad kostnad</a>. </p>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Budgeted Hours]</td> 
-   <td> <p>Budgeterade timmar för resurser för det arbete de behöver för att slutföra projekt. Det här fältet refererar till de timmar som är budgeterade i [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case] (eller i [!UICONTROL Resource Planner]) för projektet eller för projektresurserna.</p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Förstå [!UICONTROL Budgeted Labor Cost] och [!UICONTROL Budgeted Hours] för projekt</a>. </p> 
+   <td> <p>Budgeterade timmar för resurser för det arbete de behöver för att slutföra projekt. Det här fältet refererar till de timmar som har budgeterats i området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case] (eller i [!UICONTROL Resource Planner]) för projektet eller för projektresurserna.</p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Förstå [!UICONTROL Budgeted Labor Cost] och [!UICONTROL Budgeted Hours] för projekt</a>. </p> 
     <!-- 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
   -->
-    <p> Mer information om budgetering av användare finns i [!DNL Resource Planner], se artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!DNL Resource Planner] med [!UICONTROL Project] och [!UICONTROL Role] vyer</a>. </p> 
-    <p>De timmar som har budgeterats i [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case] eller [!UICONTROL Resource Planner] visas i följande områden i [!DNL Workfront] och under följande namn:</p> 
+    <p> Mer information om att budgetera användare i [!DNL Resource Planner] finns i artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!DNL Resource Planner] med [!UICONTROL Project]- och [!UICONTROL Role]-vyerna</a>. </p> 
+    <p>De timmar som har budgeterats i området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case] eller [!UICONTROL Resource Planner] visas i följande områden i [!DNL Workfront] och under följande namn:</p> 
      <table style="table-layout:auto"> 
       <col> 
       <col> 
@@ -346,11 +346,11 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
        </tr> 
        <tr> 
         <td>[!UICONTROL Budgeted Hours]</td> 
-        <td> <p>Användningsrapport [!UICONTROL Hours] visa</p> <p>Mer information om [!UICONTROL Utilization] rapport, se artikeln <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Översikt över [!UICONTROL Resource Utilization] rapport</a>.</p> </td> 
+        <td> <p>Vy för användningsrapport [!UICONTROL Hours]</p> <p>Mer information om rapporten [!UICONTROL Utilization] finns i artikeln <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Översikt över rapporten [!UICONTROL Resource Utilization]</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Hours]</td> 
-        <td> <p>[!UICONTROL Budgeted Hour] rapport</p><p>The [!UICONTROL Budgeted Hour] objektet i rapporten Budgeted Hour refererar till information som rör ett ersatt resurshanteringsverktyg. Endast[!UICONTROL Bud. Hours]" i den här rapporten refererar till de timmar som är budgeterade i [!UICONTROL Resource Planner] eller [!UICONTROL Resource Budgeting] del av projektets [!UICONTROL Business Case]. </p> <p>Mer information om hur du skapar en rapport finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.</p> </td> 
+        <td> <p>[!UICONTROL Budgeted Hour] rapport</p><p>Objektet [!UICONTROL Budgeted Hour] i rapporten Budgeterad timme refererar till information som relaterar till ett ersatt resurshanteringsverktyg. Endast fältet [!UICONTROL Bud. Hours] i den här rapporten refererar till de timmar som har budgeterats i området [!UICONTROL Resource Planner] eller [!UICONTROL Resource Budgeting] i projektets [!UICONTROL Business Case]. </p> <p>Mer information om hur du skapar en rapport finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
@@ -366,7 +366,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
        </tr> 
       </tbody> 
      </table> 
-    <p>Andra omnämnanden av [!UICONTROL Budgeted Hours] in [!DNL Adobe Workfront] avser budgeterade timmar med borttagna funktioner från Workfront. Dessa är skrivskyddade fält och uppdateras inte med aktuell information när du använder aktuella resursbudgeteringsverktyg. </p>
+    <p>Alla andra omnämnanden av [!UICONTROL Budgeted Hours] i [!DNL Adobe Workfront] avser timmar som budgeterats med borttagna funktioner från Workfront. Dessa är skrivskyddade fält och uppdateras inte med aktuell information när du använder aktuella resursbudgeteringsverktyg. </p>
     <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can locate the Budgeted Hours from theResource Planner in the areas and reports listed below. </p>
      <ul> 
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Planner Hours view (in the BDG column)</li>
@@ -391,16 +391,16 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Labor Cost]</td> 
-   <td> <p>Detta är kostnaden som är associerad med de timmar som du, som resurshanterare, budgeterar för dina jobbroller för det arbete de behöver för att slutföra projekt. </p> <p>The [!UICONTROL Budgeted Labor Cost] i en projektrapport beräknas med följande formel:</p> <p><code style="font-style: normal;">[!UICONTROL Budgeted Labor Cost] = SUM([!UICONTROL Job Role Cost] per [!UICONTROL Hour] * [!UICONTROL Budgeted Hours] per [!UICONTROL Job Role])</code> </p> <p>Detta fält kan avse följande:</p> 
+   <td> <p>Detta är kostnaden som är associerad med de timmar som du, som resurshanterare, budgeterar för dina jobbroller för det arbete de behöver för att slutföra projekt. </p> <p>[!UICONTROL Budgeted Labor Cost] i en projektrapport beräknas med följande formel:</p> <p><code style="font-style: normal;">[!UICONTROL Budgeted Labor Cost] = SUM([!UICONTROL Job Role Cost] per [!UICONTROL Hour] * [!UICONTROL Budgeted Hours] per [!UICONTROL Job Role])</code> </p> <p>Detta fält kan avse följande:</p> 
     <ul> 
-     <li> <p>Arbetskraftskostnader som visas i [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case] eller i [!UICONTROL Resource Planner] som är associerade med kostnaden för jobbroller i ett projekt. Information om hur du beräknar [!UICONTROL Budgeted Labor Cost], se artikeln <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">[!UICONTROL Understand Budgeted Labor Cost] och [!UICONTROL Budgeted Hours] för projekt</a></p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Arbetskraftskostnader som visas i [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case] som återspeglar [!UICONTROL People Costs] beräknas i ett projekt som är kopplat till projektet från [!DNL Scenario Planner] när du använder scenarioplanen för att budgetera dina projektresurser. Mer information om initiativ finns i <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativ i scenarioplaneraren</a>. </p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The [!DNL Scenario Planner] översikt</a>. </p> </li> 
+     <li> <p>Arbetskostnader som visas i området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case] eller i [!UICONTROL Resource Planner] som är associerade med kostnaden för jobbroller i ett projekt. Mer information om hur du beräknar [!UICONTROL Budgeted Labor Cost] finns i artikeln <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">[!UICONTROL Understand Budgeted Labor Cost] och [!UICONTROL Budgeted Hours] för projekt </a></p> </li> 
+     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Arbetskostnader som visas i området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case] som återspeglar den [!UICONTROL People Costs] som uppskattats i ett projekt som är länkat till projektet från [!DNL Scenario Planner] när du använder scenarioplanen för att budgetera dina projektresurser. Mer information om initiativ finns i <a href="../../../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativ i Scenarioplanen</a>. </p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt [!DNL Scenario Planner]</a>. </p> </li> 
      <p>Den visas i följande områden under följande namn:</p>
    <ul>
-   <li><strong>[!UICONTROL Budgeted Labor Cost]</strong>: i [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case].
-   <li><strong>[!UICONTROL Budgeted Cost]</strong>: i [!UICONTROL Utilization] rapport [!UICONTROL Cost] visa
+   <li><strong>[!UICONTROL Budgeted Labor Cost]</strong>: i området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case].
+   <li><strong>[!UICONTROL Budgeted Cost]</strong>: i vyn [!UICONTROL Utilization] rapport [!UICONTROL Cost]
    <p>Mer information finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visa information om resursutnyttjande </a>.</p>
-   <li><strong>[!UICONTROL BDG]</strong>: i [!DNL Resource Planner] Projekt eller [!DNL Role] vyer, när de visas enligt kostnad
+   <li><strong>[!UICONTROL BDG]</strong>: i [!DNL Resource Planner]-projekt eller [!DNL Role]-vyer, vid visning efter kostnad
    <li><strong>[!DNL Resource Planner Budgeted Labor Cost]</strong>: i följande rapporter: 
    <ul>
     <li>[!UICONTROL Project] rapport</li>
@@ -441,9 +441,9 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    </tr> 
    <tr> 
    <td>[!UICONTROL Budgeted Start Date]</td> 
-  <td> <p>Detta är ett inaktuellt fält. All information som fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagits bort. Det går inte att uppdatera det här fältet.</p>
+  <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet.</p>
   <p>De här områdena har tagits bort från [!DNL Workfront]. </p> 
-  <p>Fältet visas fortfarande i [!UICONTROL project] och [!UICONTROL task] rapporter och listor.</p>
+  <p>Fältet är fortfarande synligt i [!UICONTROL project] och [!UICONTROL task] rapporter och listor.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -455,27 +455,27 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Business Case]</td> 
-   <td> <p>Ett verktyg som används för att utvärdera om ett projekt ska flyttas framåt från [!UICONTROL Idea] status till [!UICONTROL Planning] status. Med andra ord: [!UICONTROL business case] hjälper organisationen att avgöra om det är värt att starta och slutföra projektet eller inte, särskilt när man jämför projekt med andra i en portfölj.</p> <p>Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Skapa en [!UICONTROL Business Case] för ett projekt </a>.</p> </td> 
+   <td> <p>Ett verktyg som används för att utvärdera om ett projekt ska flyttas framåt från statusen [!UICONTROL Idea] till statusen [!UICONTROL Planning]. Med andra ord hjälper en [!UICONTROL business case] organisationen att avgöra om det är värt besväret att starta och slutföra projektet eller inte, särskilt när man jämför projekt med andra i en portfölj.</p> <p>Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Skapa en [!UICONTROL Business Case] för ett projekt </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Business Case Budgeted Hours]</td> 
-   <td> <p>Detta är ett inaktuellt fält. All information som fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagits bort. Det går inte att uppdatera det här fältet.</p> <p>Det här fältet är fortfarande synligt i projektet och [!UICONTROL task] listor och rapporter. </td> 
+   <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet.</p> <p>Det här fältet är fortfarande synligt i projekt och [!UICONTROL task] listor och rapporter. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calculated Assignment]</td> 
-   <td> <p>En av uppgifterna [!UICONTROL Duration Types] . Detta beräknar procentandelen av en arbetsdag på 8 timmar som användaren som är tilldelad till uppgiften kommer att tilldelas till uppgiften, baserat på [!UICONTROL Duration] för uppgiften och [!UICONTROL Work Required].</p> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över uppgift [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> </td> 
+   <td> <p>En av uppgifterna [!UICONTROL Duration Types]. Detta beräknar procentandelen av en 8-timmars arbetsdag som användaren som är tilldelad uppgiften tilldelas till uppgiften, baserat på [!UICONTROL Duration] för uppgiften och [!UICONTROL Work Required].</p> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calculated Work]</td> 
-   <td> <p>En av uppgifterna [!UICONTROL Duration Types]. Detta beräknar [!UICONTROL Work Required] för en uppgift, med [!UICONTROL Duration] och användaren [!UICONTROL Assignment] procenttal (som baseras på en arbetsdag på 8 timmar).</p> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över uppgift [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> </td> 
+   <td> <p>En av uppgifterna [!UICONTROL Duration Types]. Detta beräknar [!UICONTROL Work Required] för en aktivitet utifrån procentsatserna [!UICONTROL Duration] och användaren [!UICONTROL Assignment] (som baseras på en arbetsdag på 8 timmar).</p> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>Det finns två typer av kalendrar i [!DNL Workfront]: [!UICONTROL Home Calendar] och kalenderrapporter.</p> <p>The [!UICONTROL Home Calendar] är en personlig kalender som gör att en användare kan hantera sin arbetsbelastning mot sina tillgängliga timmar på [!DNL Workfront]. Användarna kan även integrera sina [!UICONTROL Home Calendar] med [!DNL Outlook] ([!DNL Google] och [!DNL Microsoft] integration to come). </p> <p>Mer information om [!UICONTROL Home Calendar], se <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] visa</a>.</p> <p>En kalenderrapport är en dynamisk rapport där användare kan visa datum och annan viktig information om en händelse, inklusive förfallodatum, arbetsstatus och användaren som händelsen är tilldelad till.</p> <p> Mer information om kalenderrapporter finns i <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Översikt över kalenderrapporter</a>.</p> </td> 
+   <td> <p>Det finns två typer av kalendrar i [!DNL Workfront]: [!UICONTROL Home Calendar]- och kalenderrapporter.</p> <p>[!UICONTROL Home Calendar] är en personlig kalender som gör att en användare kan hantera sin arbetsbelastning mot sina tillgängliga timmar i [!DNL Workfront]. Användarna kan även integrera sina [!UICONTROL Home Calendar] med [!DNL Outlook] ([!DNL Google] och [!DNL Microsoft]-integrering som kommer). </p> <p>Mer information om [!UICONTROL Home Calendar] finns i <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] view </a>.</p> <p>En kalenderrapport är en dynamisk rapport där användare kan visa datum och annan viktig information om en händelse, inklusive förfallodatum, arbetsstatus och användaren som händelsen är tilldelad till.</p> <p> Mer information om kalenderrapporter finns i <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Översikt över kalenderrapporter</a>.</p> </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
-   <td> <p>Det här fältet anger om en uppgift är klar att börja bearbetas. Om du är redo att börja jobba på [!UICONTROL Can Start] fältet på uppgiften är inställt på [!UICONTROL True]. </p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">"[!UICONTROL Can Start]" översikt för uppgifter</a>.</p> 
+   <td> <p>Det här fältet anger om en uppgift är klar att börja bearbetas. Om starten är klar att bearbetas i fältet [!UICONTROL Can Start] för aktiviteten är inställd på [!UICONTROL True]. </p> <p>Mer information finns i Översikt över <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref"> [!UICONTROL Can Start] för uppgifter </a>.</p> 
    <!--
      <p>(NOTE: everything below is drafted because I created a new article linked above with all this information - it was getting kind of too big for just a table cell)</p>
     --> <!--
@@ -545,19 +545,19 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Change Only]</td> 
-   <td>Ett av projekten [!UICONTROL Update Types]. Endast uppdateringar [!UICONTROL Project Projected] och [!UICONTROL Planned] tidslinjer när uppdateringar görs av uppgifter eller redigeringar utförs på projektet eller uppgifterna.</td> 
+   <td>Ett av projekten [!UICONTROL Update Types]. Det uppdaterar bara tidslinjer för [!UICONTROL Project Projected] och [!UICONTROL Planned] när uppdateringar görs av aktiviteter eller redigeringar utförs på projektet eller aktiviteterna.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Change Order]</td> 
-   <td> <p>En av [!UICONTROL Issue] typer, vilket vanligtvis anger att oplanerade åtgärder måste utföras innan projektet kan slutföras.</p> <p>Mer information om [!UICONTROL Issue] typer, se avsnittet"Standardproblemtyper" i artikeln <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md" class="MCXref xref">Anpassa standardproblemtyper</a>.</p> </td> 
+   <td> <p>En av [!UICONTROL Issue]-typerna, som vanligtvis anger att ett oplanerat arbetsflöde måste utföras innan projektet kan slutföras.</p> <p>Mer information om [!UICONTROL Issue]-typer finns i avsnittet Standardproblemtyper i artikeln <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md" class="MCXref xref">Anpassa standardproblemtyper</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Child Task]</td> 
-   <td>En uppgift som är en [!UICONTROL Subtask] av [!UICONTROL Parent Task] ([!UICONTROL Summary Task]).</td> 
+   <td>En aktivitet som är en [!UICONTROL Subtask] av en [!UICONTROL Parent Task] ([!UICONTROL Summary Task]).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Children]</td> 
-   <td>Samlingen med [!UICONTROL Subtasks] till [!UICONTROL Parent Task] ([!UICONTROL Summary Task]).</td> 
+   <td>Samlingen av [!UICONTROL Subtasks] till en [!UICONTROL Parent Task] ([!UICONTROL Summary Task]).</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Coaching] och [!UICONTROL Training]</td> 
@@ -577,39 +577,39 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Company]</td> 
-   <td> <p>A [!UICONTROL Company] är en organisationsenhet i [!DNL Workfront]. </p> 
+   <td> <p>En [!UICONTROL Company] är en organisationsenhet i [!DNL Workfront]. </p> 
    <p> Du kan associera en användare eller ett projekt med ett företag. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md">Skapa och redigera företag</a>.</p> 
   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Completion date]</td> 
-   <td> <p>Det datum då ett projekt, en uppgift eller ett ärende är inställt att slutföras. Det finns flera typer av [!UICONTROL Completion dates] in [!DNL Workfront]:</p> 
+   <td> <p>Det datum då ett projekt, en uppgift eller ett ärende är inställt att slutföras. Det finns flera typer av [!UICONTROL Completion dates] i [!DNL Workfront]:</p> 
     <ul> 
-     <li>[!UICONTROL Actual Completion Date]. Mer information finns i <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Översikt [!UICONTROL Actual Completion Date] </a>.</li> 
-     <li>[!UICONTROL Planned Completion Date]. Mer information finns i <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Ställ in projektet [!UICONTROL Planned Completion Date]</a> och <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över uppgiften [!UICONTROL Planned Completion Date]</a>.</li> 
-     <li>[!UICONTROL Projected Completion Date]. Mer information finns i <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Översikt över [!UICONTROL Projected Completion Date] för projekt, uppgifter och ärenden</a>.</li> 
+     <li>[!UICONTROL Actual Completion Date]. Mer information finns i <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Översikt över projektet [!UICONTROL Actual Completion Date] </a>.</li> 
+     <li>[!UICONTROL Planned Completion Date]. Mer information finns i <a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Ange projektet [!UICONTROL Planned Completion Date]</a> och <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Planned Completion Date]</a>.</li> 
+     <li>[!UICONTROL Projected Completion Date]. Mer information finns i <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Översikt över [!UICONTROL Projected Completion Date] för projekt, uppgifter och problem</a>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Completion Day]</td> 
-   <td>Dagen i förhållande till början av [!UICONTROL Template], som [!UICONTROL Template Task] eller en [!UICONTROL Template] ska vara komplett.</td> 
+   <td>Den dag, i förhållande till början av [!UICONTROL Template], som en [!UICONTROL Template Task] eller en [!UICONTROL Template] ska vara slutförd.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Completion Mode]</td> 
    <td> <p>Detta visar hur ett projekt markeras som [!UICONTROL Complete]. Den kan ha två värden:</p> 
     <ul> 
      <li>[!UICONTROL Manual]: En användare måste ändra projektstatus till [!UICONTROL Complete].</li> 
-     <li>[!UICONTROL Automatic]: Projektets status ändras automatiskt till [!UICONTROL Complete] när alla aktiviteter i projektet är 100 % slutförda och alla utgåvor stängs.</li> 
+     <li>[!UICONTROL Automatic]: Projektstatusen ändras automatiskt till [!UICONTROL Complete] när alla aktiviteter i projektet är 100 % slutförda och alla utgåvor stängs.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Condition]</td> 
-   <td> <p>Detta är en visuell representation av förloppet för en uppgift, ett problem eller ett projekt.</p> <p>För projekt kan villkoret anges manuellt av projektägaren eller anges automatiskt av [!DNL Workfront], baserat på projektets förloppsstatus. </p> <p>Möjliga värden för projektvillkoret är:</p> 
+   <td> <p>Detta är en visuell representation av förloppet för en uppgift, ett problem eller ett projekt.</p> <p>För projekt kan villkoret ställas in manuellt av projektägaren eller automatiskt av [!DNL Workfront], baserat på projektets förloppsstatus. </p> <p>Möjliga värden för projektvillkoret är:</p> 
     <ul> 
      <li>[!UICONTROL On Target]</li> 
      <li>[!UICONTROL At Risk]</li> 
      <li>[!UICONTROL In Trouble]</li> 
-    </ul> <p>Mer information om projektvillkor finns i artikeln <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt [!UICONTROL Project Condition] och [!UICONTROL Condition Type]</a>.</p>
+    </ul> <p>Mer information om projektvillkor finns i artikeln <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över [!UICONTROL Project Condition] och [!UICONTROL Condition Type]</a>.</p>
      <p>Du kan koppla uppgifts- och utgivningsvillkor till ett tal som kan visas i rapporter. I listorna nedan visas standardnamn och standardnummer för uppgifts- och utgivningsvillkor. Systemadministratören kan uppdatera namnen på villkoren och lägga till nya villkor med olika nummer. När ett tal har associerats med ett villkor kan det inte redigeras.  </p> 
      <p>För uppgifter anges villkoret manuellt av uppgiftsägaren. Möjliga värden för aktivitetsvillkoret är:</p> 
     <ul> 
@@ -623,16 +623,16 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
      <li>[!UICONTROL Major Roadblocks] (2)</li> 
     </ul> 
    <p><b>ANMÄRKNING</b></p>
-    <p>När [!UICONTROL Condition] fältet spåras i [!UICONTROL Journal Entry] rapporter, [!UICONTROL New] och [!UICONTROL Old Number Values] visa numret som är associerat med villkoret i stället för dess namn. Om ett villkor ursprungligen inte är definierat för en aktivitet eller utgåva och du senare uppdaterar det, kommer journalposten som hämtar uppdateringen att visa [!UICONTROL Old Number Value] i [!UICONTROL Condition] fält som -2 147 483 648. Se även "[!UICONTROL New Number Value]", "[!UICONTROL Old Number Value]", och "[!UICONTROL Journal Entry]" i den här artikeln. </p> 
+    <p>När fältet [!UICONTROL Condition] spåras i [!UICONTROL Journal Entry] rapporter visar [!UICONTROL New] och [!UICONTROL Old Number Values] numret som är associerat med villkoret i stället för dess namn. Om ett villkor ursprungligen inte är definierat för en aktivitet eller ett problem och du senare uppdaterar det, kommer journalposten som hämtar uppdateringen att visa [!UICONTROL Old Number Value] för [!UICONTROL Condition]-fältet som -2 147 483 648. Se även [!UICONTROL New Number Value], [!UICONTROL Old Number Value] och [!UICONTROL Journal Entry] i den här artikeln. </p> 
     </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
-   <td> <p>I det här fältet visas det aktuella tillståndet för uppgifter, projekt eller utgåvor. Det här alternativet visar de senaste uppdateringarna som ägare av uppgifter, projekt eller utgåvor har tillhandahållit i [!UICONTROL Update Status] -fältet tillsammans med det nya villkoret.</p> <p>Kommentarer som görs om villkorsuppdateringar visas inte i [!UICONTROL Condition Update] -kolumn. Endast huvuduppdateringen visas.</p> </td> 
+   <td> <p>I det här fältet visas det aktuella tillståndet för uppgifter, projekt eller utgåvor. Det här alternativet visar de senaste uppdateringarna som ägare av aktiviteter, projekt eller utgåvor har tillhandahållit i fältet [!UICONTROL Update Status], tillsammans med det nya villkoret.</p> <p>Kommentarer som gjorts för villkorsuppdateringar visas inte i kolumnen [!UICONTROL Condition Update]. Endast huvuduppdateringen visas.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
-   <td> <p>Om du använder en [!UICONTROL Task Constraint] som är knutet till ett visst datum, t.ex. [!UICONTROL Must Start On]blir det angivna datumet [!UICONTROL Constraint Date] för uppgiften.</p> <p>Följande uppgiftsbegränsningar uppdaterar [!UICONTROL Constraint Date] fält:</p> 
+   <td> <p>Om du använder en [!UICONTROL Task Constraint] som är knuten till ett specifikt datum, till exempel [!UICONTROL Must Start On], blir det datumet [!UICONTROL Constraint Date] för uppgiften.</p> <p>Följande uppgiftsbegränsningar uppdaterar fältet [!UICONTROL Constraint Date]:</p> 
     <ul> 
      <li>[!UICONTROL Must Start On]</li> 
      <li>[!UICONTROL Must Finish On]</li> 
@@ -640,13 +640,13 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
      <li>[!UICONTROL Start No Earlier Than]</li> 
     </ul> <p><b>TIPS</b></p>   
      <ul> 
-      <li> <p>En uppgift med en [!UICONTROL Constraint] av [!UICONTROL Fixed Dates] har inte [!UICONTROL Constraint Date]. </p> </li> 
+      <li> <p>En aktivitet med [!UICONTROL Constraint] av [!UICONTROL Fixed Dates] saknar [!UICONTROL Constraint Date]. </p> </li> 
       <li> <p> [!UICONTROL Constraint Date] kan bara visas i en rapport eller anpassad vy.</p> </li> 
      </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Day]</td> 
-   <td> <p>Om du använder en uppgiftsbegränsning i en malluppgift som är kopplad till en viss dag, till exempel Måste starta på, blir den dagen malluppgiftens begränsningsdag.</p> <p>Följande uppgiftsbegränsningar uppdaterar [!UICONTROL Constraint Day] fält:</p> 
+   <td> <p>Om du använder en uppgiftsbegränsning i en malluppgift som är kopplad till en viss dag, till exempel Måste starta på, blir den dagen malluppgiftens begränsningsdag.</p> <p>Följande uppgiftsbegränsningar uppdaterar fältet [!UICONTROL Constraint Day]:</p> 
     <ul> 
      <li>[!UICONTROL Must Start On]</li> 
      <li>[!UICONTROL Must Finish On]</li> 
@@ -656,32 +656,32 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Type]</td> 
-   <td> <p>En uppgifts tidsplaneringstrend. Till exempel: [!UICONTROL As Soon as Possible] schemalägger att en uppgift börjar så snart som möjligt, och [!UICONTROL Finish No Later Than] schemalägger en aktivitet som ska slutföras senast [!UICONTROL Constraint Date] och inte senare.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">[!UICONTROL Task Constraint] översikt</a>.</p> </td> 
+   <td> <p>En uppgifts tidsplaneringstrend. [!UICONTROL As Soon as Possible] schemalägger till exempel en aktivitet som börjar så snart som möjligt och [!UICONTROL Finish No Later Than] schemalägger en aktivitet som ska slutföras av [!UICONTROL Constraint Date] och inte senare.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">[!UICONTROL Task Constraint] - översikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Contextual Menu]</td> 
-   <td>En meny, som finns till vänster på skärmen, där alternativen ändras för att korrelera med det aktiva innehållet. När en användare till exempel visar ett projekt, [!UICONTROL Contextual Menu] visar länkar till projektrelaterad information och verktyg.</td> 
+   <td>En meny, som finns till vänster på skärmen, där alternativen ändras för att korrelera med det aktiva innehållet. När en användare till exempel visar ett projekt visar [!UICONTROL Contextual Menu] länkar till projektrelaterad information och verktyg.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
-   <td>Ett fält i ett projekt eller en aktivitetsrapport som visar information om användaren som är [!UICONTROL Primary Contact] av ett problem när problemet konverteras till ett projekt eller en uppgift. Fältet visas även i [!UICONTROL Project Details]  där namnet på [!UICONTROL Primary Contact] av den konverterade utgåvan. Se även "[!UICONTROL Primary Contact]" i den här artikeln.</td> 
+   <td>Ett fält i ett projekt eller en aktivitetsrapport som visar information om användaren som är [!UICONTROL Primary Contact] för ett problem när problemet konverteras till ett projekt eller en uppgift. Fältet visas också i avsnittet [!UICONTROL Project Details] där namnet på [!UICONTROL Primary Contact] för den konverterade utgåvan visas. Se även [!UICONTROL Primary Contact] i den här artikeln.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Cost]</td> 
-   <td> <p>Det penningbelopp som du måste spendera när du slutför ett projekt, en uppgift eller en utgåva. </p> <p>Du kan spåra olika typer av kostnader för arbete, utgifter och risker som är relaterade till projektet.Mer information om att spåra kostnader i [!DNL Workfront] se <a href="../../../manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> 
+   <td> <p>Det penningbelopp som du måste spendera när du slutför ett projekt, en uppgift eller en utgåva. </p> <p>Du kan spåra olika typer av kostnader för arbete, utgifter och risker som relaterar till projektet. Mer information om att spåra kostnader i [!DNL Workfront] finns i <a href="../../../manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> 
    </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cost Type]</td> 
-   <td>För en uppgift [!UICONTROL Cost Type] bestämmer hur aktiviteten kommer att öka kostnaderna. Några exempel innehåller [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly]och [!UICONTROL User Hourly plus Fixed]. </td> 
+   <td>För en uppgift avgör [!UICONTROL Cost Type] hur aktiviteten kommer att öka kostnaderna. Några exempel är [!UICONTROL Fixed Hourly], [!UICONTROL User Hourly] och [!UICONTROL User Hourly plus Fixed]. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cross-Project Dependencies]</td> 
-   <td> <p>En aktivitet i ett projekt är beroende av en aktivitet från ett annat projekt.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Skapa föregångare mellan projekt</a>.</p> </td> 
+   <td> <p>En aktivitet i ett projekt är beroende av en aktivitet från ett annat projekt.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Skapa föregående projekt mellan projekt</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Custom Data]</td> 
-   <td> <p>Data som är unika för en organisation. Organisationer kan anpassa [!DNL Workfront] genom att skapa anpassade formulär och anpassade fält. Denna anpassade information kan leda till rapporter för nyckeltal, revision och efterfrågeblandning. </p> <p>[!UICONTROL Custom Data] kan länkas till:</p> 
+   <td> <p>Data som är unika för en organisation. Organisationer kan anpassa programmet [!DNL Workfront] genom att skapa anpassade formulär och anpassade fält. Denna anpassade information kan leda till rapporter för nyckeltal, revision och efterfrågeblandning. </p> <p>[!UICONTROL Custom Data] kan länkas till:</p> 
     <ul> 
      <li>[!UICONTROL Projects]</li> 
      <li>[!UICONTROL Tasks]</li> 
@@ -697,15 +697,15 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Data Type]</td> 
-   <td>Alternativet som anger om en [!UICONTROL Custom Data] Fältet sparas i databasen som Text, Datum, Nummer eller Valuta.</td> 
+   <td>Alternativet som anger om ett [!UICONTROL Custom Data]-fält lagras i databasen som Text, Datum, Nummer eller Valuta.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Display Type]</td> 
-   <td>Fälttypen för ett anpassat fält. Exempel: [!UICONTROL Drop-Down], [!UICONTROL Text Field], [!UICONTROL Text Area], [!UICONTROL Radio Buttons], osv.</td> 
+   <td>Fälttypen för ett anpassat fält. Exempel är [!UICONTROL Drop-Down], [!UICONTROL Text Field], [!UICONTROL Text Area], [!UICONTROL Radio Buttons] osv.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Field]</td> 
-   <td>För anpassade data som gör det möjligt för användaren att välja mellan flera alternativ är dessa värden de värden som användaren kan välja från. Anpassade alternativ är bara giltiga på [!UICONTROL Drop-Down], [!UICONTROL Multi-Select Drop-Down], [!UICONTROL Radio Buttons]och [!UICONTROL Checkboxes].</td> 
+   <td>För anpassade data som gör det möjligt för användaren att välja mellan flera alternativ är dessa värden de värden som användaren kan välja från. Anpassade alternativ är bara giltiga för [!UICONTROL Drop-Down], [!UICONTROL Multi-Select Drop-Down], [!UICONTROL Radio Buttons] och [!UICONTROL Checkboxes].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Form Label]</td> 
@@ -740,15 +740,15 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Dashboards]</td> 
-   <td> <p> Du kan lägga till det här fältet i en rapport eller en vy av rapportobjektet för att visa de instrumentpaneler som rapporten finns på i en lista. </p> <p> Du kan även använda det här fältet för att filtrera efter rapporter som visas på en specifik kontrollpanel. </p> <p> Mer information om hur du inkluderar instrumentpanelsinformation om rapportobjektrapporter finns i avsnittet "Att förstå vilka rapporter som visas på instrumentpaneler" i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Få åtkomst till och ordna rapporter</a></p> </td> 
+   <td> <p> Du kan lägga till det här fältet i en rapport eller en vy av rapportobjektet för att visa de instrumentpaneler som rapporten finns på i en lista. </p> <p> Du kan även använda det här fältet för att filtrera efter rapporter som visas på en specifik kontrollpanel. </p> <p> Mer information om hur du tar med instrumentpanelsinformation om rapportobjektrapporter finns i avsnittet Om vilka rapporter som visas på instrumentpaneler i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Åtkomst till och ordna rapporter</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data Type]</td> 
-   <td>Se "[!UICONTROL Custom Data Type]".</td> 
+   <td>Se [!UICONTROL Custom Data Type].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Days Late]</td> 
-   <td> <p>Det här fältet visar en datumskillnad mellan [!UICONTROL Planned Start] och [!UICONTROL Today] om [!UICONTROL Actual Completion Date] saknas.</p> <p>Visar också en datumskillnad mellan [!UICONTROL Actual Completion] och [!UICONTROL Planned Completion], när [!UICONTROL Actual Completion Date] är närvarande.</p> </td> 
+   <td> <p>Det här fältet visar en datumskillnad mellan [!UICONTROL Planned Start] och [!UICONTROL Today] om [!UICONTROL Actual Completion Date] saknas.</p> <p>Visar också en datumskillnad mellan [!UICONTROL Actual Completion] och [!UICONTROL Planned Completion] när det finns en [!UICONTROL Actual Completion Date].</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Default Schedule]</td> 
@@ -772,11 +772,11 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Dependency Type]</td> 
-   <td> <p>Typen av schemaläggningsrelation mellan en aktivitet och dess föregångare. Ett exempel är [!UICONTROL Finish-Start], vilket kräver att den första aktiviteten måste slutföras innan den andra aktiviteten kan starta.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Översikt över typer av uppgiftsberoenden</a>.</p> </td> 
+   <td> <p>Typen av schemaläggningsrelation mellan en aktivitet och dess föregångare. Ett exempel är [!UICONTROL Finish-Start], vilket kräver att den första aktiviteten måste avslutas innan den andra aktiviteten kan starta.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Översikt över typer av uppgiftsberoenden</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Document]</td> 
-   <td>Alla filer som är kopplade till ett objekt i [!DNL Workfront].</td> 
+   <td>Alla filer som är kopplade till ett objekt inom [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
@@ -784,30 +784,30 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
-   <td> <p>Det tidsfönster som tilldelats för slutförande av ett aktivitetsproblem eller -projekt (som bestäms av antalet dagar mellan [!UICONTROL Planned Start] och det planerade slutförandet).</p> 
+   <td> <p>Fönstret med den tid som tilldelats för slutförande av ett aktivitetsproblem, eller projekt (som bestäms av antalet dagar mellan [!UICONTROL Planned Start] och det planerade slutförandet).</p> 
     <ul> 
      <li>För uppgifter är Varaktighet ett redigerbart fält om uppgiftens varaktighetstyp inte är Enkel. Om varaktighetstypen för aktiviteten är Enkel, eller om aktivitetsbegränsningen är Fasta datum, är Varaktighet en beräkning som utförs av Workfront.</li> 
      <li>För problem är fältet Varaktighet alltid ett redigerbart fält och det bör representera en uppskattning av antalet dagar som skulle kräva att problemet löstes.</li> 
-     <li>För projekt är Varaktighet en beräkning som utförs av [!DNL Workfront] och representerar skillnaden i antal dagar mellan planerad start av den tidigaste uppgiften och [!UICONTROL Planned Completion] av den senaste uppgiften i projektet.</li> 
-    </ul> <p>Mer information om skillnaden mellan [!UICONTROL Duration] och [!UICONTROL Planned Duration] mer information finns i artikeln <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md">Skillnad mellan [!UICONTROL Planned Duration] och [!UICONTROL Duration] för uppgifter</a>.</p> </td> 
+     <li>För projekt är Varaktighet en beräkning som utförs av [!DNL Workfront] och representerar skillnaden i dagar mellan planerad start för den första aktiviteten och [!UICONTROL Planned Completion] för den senaste aktiviteten i projektet.</li> 
+    </ul> <p>Mer information om skillnaden mellan [!UICONTROL Duration] och [!UICONTROL Planned Duration] för uppgifter finns i artikeln <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md"> Skillnad mellan [!UICONTROL Planned Duration] och [!UICONTROL Duration] för uppgifter </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration in Minutes]</td> 
-   <td>Det här fältet visar samma information som [!UICONTROL Duration] i minuter i stället för dagar. </td> 
+   <td>Det här fältet visar samma information som fältet [!UICONTROL Duration] på några minuter i stället för dagar. </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc,QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Duration per Occurrence]</td> 
-   <td> <p>Detta visas i dialogrutan [!UICONTROL Task Details] och [!UICONTROL Edit Task] rutor för en överordnad till återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>. </p> <p> <span>Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet.</span> </p> </td> 
+   <td> <p>Detta visas i rutorna [!UICONTROL Task Details] och [!UICONTROL Edit Task] för en överordnad för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> <p> <span>Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet.</span> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Duration Type]</td> 
-   <td> <p>Ett aktivitetsfält som anger hur det arbete som krävs för att slutföra uppgiften fördelas mellan de tilldelade under uppgiftens varaktighet. Det representerar relationen mellan [!UICONTROL Duration] för uppgiften, [!UICONTROL Work Required]och hur lång tid det tar, eller [!UICONTROL Allocation], ska de tilldelade resurserna spendera på uppgiften för att slutföra den. </p> <p>Det här fältet visas på [!UICONTROL Details] -fliken för en uppgift. </p> <p>Alternativen för varaktighetstypen för en uppgift är:</p> 
+   <td> <p>Ett aktivitetsfält som anger hur det arbete som krävs för att slutföra uppgiften fördelas mellan de tilldelade under uppgiftens varaktighet. Det representerar relationen mellan [!UICONTROL Duration] för aktiviteten, [!UICONTROL Work Required] och tiden, eller [!UICONTROL Allocation], de tilldelade resurserna ska användas för aktiviteten för att slutföra den. </p> <p>Det här fältet visas på fliken [!UICONTROL Details] för en uppgift. </p> <p>Alternativen för varaktighetstypen för en uppgift är:</p> 
     <ul> 
      <li>[!UICONTROL Calculated assignment]</li> 
      <li>[!UICONTROL Calculated Work]</li> 
      <li>[!UICONTROL Effort Driven]</li> 
      <li>[!UICONTROL Simple]</li> 
-    </ul> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över uppgift [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> 
+    </ul> <p>Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> 
     —&gt; </td> 
    </tr> 
    <tr> 
@@ -820,22 +820,22 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Elapsed Time]</td> 
-   <td> <p>[!UICONTROL Elapsed time] är en tidsenhet för en uppgifts [!UICONTROL Duration]. Det är tiden mellan [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] för en uppgift som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna. </p> <p>[!DNL Workfront] har stöd för följande enheter för förfluten tid för uppgiftens varaktighet:</p> 
+   <td> <p>[!UICONTROL Elapsed time] är en tidsenhet för en uppgifts [!UICONTROL Duration]. Det är tiden mellan [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] för en aktivitet som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna. </p> <p>[!DNL Workfront] har stöd för följande enheter för förfluten tid för uppgiftens varaktighet:</p> 
     <ul> 
      <li> <p>[!UICONTROL Elapsed Minutes]</p> </li> 
      <li> <p>[!UICONTROL Elapsed Hours]</p> </li> 
      <li> <p>[!UICONTROL Elapsed Days]</p> </li> 
      <li> <p>[!UICONTROL Elapsed Weeks]</p> </li> 
      <li> <p>[!UICONTROL Elapsed Months]</p> </li> 
-    </ul> <p>Mer information om aktivitetens varaktighet, inklusive förfluten tid, finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över uppgift [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>. </p> </td> 
+    </ul> <p>Mer information om aktivitetens varaktighet, inklusive förfluten tid, finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL End Date]</td> 
-   <td> <p> I en [!UICONTROL Rate] rapport, det här är det datum då en ny faktureringssats för en jobbroll på projektnivå avslutas. De timmar som är associerade med projektet som är före detta datum multipliceras med den här faktureringstakten för att beräkna projektets intäkter. </p> </td> 
+   <td> <p> I en [!UICONTROL Rate]-rapport är detta det datum då en ny faktureringsfrekvens för en jobbroll på projektnivå avslutas. De timmar som är associerade med projektet som är före detta datum multipliceras med den här faktureringstakten för att beräkna projektets intäkter. </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Engagement]</td> 
-   <td>The [!UICONTROL Work Performance Indicator] (WPI) som anger när engagemang och tro på uppgiften, projektet, teamet eller organisationen avtar. Detta visar att ni måste agera för att återförverkliga den tron och det engagemang ni har. WPI mäts genom att ställa de enkla frågorna: "Förstår du vad du förväntade dig? Gjorde det du fick göra någon skillnad för organisationen? Gjorde du ett bra jobb?"</td> 
+   <td>[!UICONTROL Work Performance Indicator] (WPI) som anger när engagemang och tro på uppgiften, projektet, teamet eller organisationen avtar. Detta visar att ni måste agera för att återförverkliga den tron och det engagemang ni har. WPI mäts genom att ställa de enkla frågorna: "Förstår du vad du förväntade dig? Gjorde det du fick göra någon skillnad för organisationen? Gjorde du ett bra jobb?"</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Enterprise Goals]</td> 
@@ -880,7 +880,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <p>Ibland skiljer sig namnet som visas i användargränssnittet från namnet på fältet i databasen. "issue" är till exempel namnet på objektet i Workfront-gränssnittet, men "opTask" är namnet på objektet (eller fältet) i Workfront-databasen. </p> 
    <p> Det är viktigt att du använder fältet så som det visas i databasen när du skriver en textlägesrapport, vy, filter eller gruppering, eller när du skapar ett beräkningsfält.</p>
 
-<p>Mer information finns i <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> och <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Översikt över textläge</a>.</p>
+<p>Mer information finns i <a href="../../../wf-api/general/api-explorer.md">API-utforskaren</a> och <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Textläge - översikt</a>.</p>
 
 <p>Som standard innehåller Workfront en uppsättning fält som definierar både objekt och deras information. Du kan också skapa anpassade fält för att definiera objekt, men du kan inte skapa anpassade objekt.</p> 
    </td> 
@@ -888,23 +888,23 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
-   <td> <p>Ett av huvudbyggstenarna i en rapport eller ett listelement som definierar vilken information som visas på skärmen. Mer information om rapportelement finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportelement: filter, vyer och grupperingar</a>.</p> <p>Filtret avgör vilka resultat som visas i en rapport eller på en [!DNL Workfront] listning av paneler, som projekt, uppgifter eller problem.</p> </td> 
+   <td> <p>Ett av huvudbyggstenarna i en rapport eller ett listelement som definierar vilken information som visas på skärmen. Mer information om rapportelement finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportera element: filter, vyer och grupperingar</a>.</p> <p>Filtret avgör vilka resultat som visas i en rapport eller på en [!DNL Workfront]-panel, som projekt, uppgifter eller problem.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Financial Work Management]</td> 
-   <td>Process för att hantera arbetskostnader, utgifter och intäkter i [!DNL Workfront].</td> 
+   <td>Process för att hantera arbetskostnader, utgifter och intäktsdata i [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fixed Cost]</td> 
-   <td>Du kan definiera ett fast kostnadsbelopp för ett projekt. Detta är en del av [!UICONTROL Planned Cost] för det projekt som motsvarar den summa pengar du behöver för att slutföra projektet. Mer information om kostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>. </td> 
+   <td>Du kan definiera ett fast kostnadsbelopp för ett projekt. Detta är en del av [!UICONTROL Planned Cost] av projektet som representerar den summa pengar som du behöver för att slutföra projektet. Mer information om kostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fixed Revenue]</td> 
-   <td>Du kan definiera ett fast intäktsbelopp för ett projekt. Detta är en del av [!UICONTROL Planned Revenue] för projektet som representerar den summa pengar som du kan få om du slutför projektet. Information om intäkter finns på <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>. </td> 
+   <td>Du kan definiera ett fast intäktsbelopp för ett projekt. Detta är en del av [!UICONTROL Planned Revenue] i projektet som representerar den summa pengar som du kan få om du slutför projektet. Mer information om intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Flags]</td> 
-   <td> <p> Det här är samma fält som [!UICONTROL Status Icons], men det är bara tillgängligt för följande vyer: </p> 
+   <td> <p> Detta är samma fält som [!UICONTROL Status Icons], men det är bara tillgängligt för följande vyer: </p> 
     <ul> 
      <li> [!UICONTROL Templates] </li> 
      <li> [!UICONTROL Expenses] </li> 
@@ -916,25 +916,25 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr>
   <td>[!UICONTROL FTE] (heltidsekvivalent)</td> 
    <td>Det här är heltidsmotsvarigheten som anger hur lång tid en resurs är tillgänglig för arbete. 
-   The [!UICONTROL FTE] visas i följande områden: 
+   Fältet [!UICONTROL FTE] visas i följande områden: 
   <ul>
    <li> Användarprofil, när användaren redigerar eller skapar </li>
    <li> [!UICONTROL Resource Planner] </li>
    <li> [!UICONTROL Scenario Planner] (ytterligare licens krävs för Workfront Scenario Planner) </li>
    <li> Användarlistor och rapporter </li> </ul>
 
-<p>The [!UICONTROL FTE] måste vara ett decimaltal upp till 1 och det får inte vara 0. </p>
-   <p> An [!UICONTROL FTE] av 1 (som är standard för en användares [!UICONTROL FTE] fält, enligt definition i deras profil) innebär att en resurs (användare eller roll) arbetar hela antalet timmar, baserat på det schema som beräknar deras tillgänglighet. </p>
+<p>[!UICONTROL FTE] måste vara ett decimaltal upp till 1 och det får inte vara 0. </p>
+   <p> En [!UICONTROL FTE] av 1 (som är standard för en användares [!UICONTROL FTE]-fält, enligt definitionen i användarens profil) betyder att en resurs (användare eller roll) arbetar hela antalet timmar, baserat på det schema som beräknar tillgängligheten. </p>
    <p>Din Workfront-administratör bestämmer vilket schema som ska användas för att fastställa användarens tillgänglighet.  </p>
    <ul>
-   <li> När [!UICONTROL Default Schedule] används, Workfront använder [!UICONTROL FTE] av användaren som finns i deras profil för att beräkna tillgänglighet. </li>
-   <li> När användarens schema används, använder Workfront användarens lediga tid, [!UICONTROL Work Time] och [!UICONTROL Default Schedule]Antal timmar att beräkna användarens [!UICONTROL FTE]. </li> </ul>
+   <li> När [!UICONTROL Default Schedule] används använder Workfront [!UICONTROL FTE] för användaren som finns i deras profil för att beräkna tillgängligheten. </li>
+   <li> När användarens schema används används användarens tid av, [!UICONTROL Work Time]-värde och [!UICONTROL Default Schedule]-timmar för att beräkna användarens [!UICONTROL FTE]. </li> </ul>
 
 <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a>.  </p>
-   <p>Mer information om hur du skapar scheman i [!DNL Workfront], se <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
+   <p>Mer information om hur du skapar scheman i [!DNL Workfront] finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
 
 <p><b>ANMÄRKNING</b></p>
-   <p>För alla beräkningar i [!UICONTROL Scenario Planner]använder Workfront följande värde: 1 [!UICONTROL FTE] = 8 timmar.</p>
+   <p>För alla beräkningar i [!UICONTROL Scenario Planner] använder Workfront följande värde: 1 [!UICONTROL FTE] = 8 timmar.</p>
    <p>Mer information finns i <a href="../../../scenario-planner/get-started-with-scenario-planning.md">Kom igång med [!UICONTROL Scenario Planner]</a>. </p>
    </td> </tr> 
    </tbody> 
@@ -967,24 +967,24 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Goal]</td> 
    <td><p>Det finns två koncept för mål i [!DNL Workfront]: </p> 
     <ul> 
-     <li> <p><b>Projektmål</b>: En uppsättning affärsmål som de relevanta aktörerna i ett projekt kommit överens om. Projektmål ingår i ett projekts affärsfall. </p> <p>Du kan inte visa projektmål i listor eller rapporter, men du kan komma åt dem via API:t. </p> <p>Mer information om projektmål för affärsärenden finns i <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Skapa mål för affärsärenden </a>. </p> </li> 
-     <li> <p><b>Strategiska mål</b>: Ett strategiskt mål är ett mål som du skapar för att planera din arbetsstrategi för en viss tidsperiod. Du kan skapa dessa typer av mål med [!DNL Workfront Goals]. Din organisation måste köpa ytterligare en licens och du måste ha tillgång till den här funktionen för att kunna skapa strategiska mål. [!DNL Workfront Goals] finns endast med en extra licens.</p> 
+     <li> <p><b>Projektmål</b>: En uppsättning affärsmål som har överenskommits med relevanta intressenter i ett projekt. Projektmål ingår i ett projekts affärsfall. </p> <p>Du kan inte visa projektmål i listor eller rapporter, men du kan komma åt dem via API:t. </p> <p>Mer information om projektmål för affärsärenden finns i <a href="../../../manage-work/projects/define-a-business-case/create-business-case-goals.md">Skapa mål för affärsärenden </a>. </p> </li> 
+     <li> <p><b>Strategiska mål</b>: Ett strategiskt mål är ett mål som du skapar för att planera din arbetsstrategi för en viss tidsperiod. Du kan skapa de här typerna av mål med [!DNL Workfront Goals]. Din organisation måste köpa ytterligare en licens och du måste ha tillgång till den här funktionen för att kunna skapa strategiska mål. [!DNL Workfront Goals] är bara tillgängliga med ytterligare en licens.</p> 
      <p>Mer information finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] översikt </a>. </p> 
      <p>Du kan visa strategiska mål i ett mål eller en projektrapport och få tillgång till dem via API:t. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Goal Hierarchy]</td> 
-   <td> <p>I [!UICONTROL Goal] och [!UICONTROL Project] rapporter är detta ett samlingsfält som visar målen i hierarkin som ett strategiskt mål tillhör när det justeras mot andra mål. Målen avgränsas med en ▸. </p> <p>Endast målets överordnade och målet visas i det här fältet. Barnens mål visas inte. </p> <p>Mer information om att justera mål i [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-alignment/goal-alignment-overview.md">Översikt över måljustering i [!DNL Workfront Goals]</a>. </p> 
-   <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] översikt </a>. </td> 
+   <td> <p>I [!UICONTROL Goal]- och [!UICONTROL Project]-rapporter är detta ett samlingsfält som visar målen i hierarkin som ett strategiskt mål tillhör när det justeras mot andra mål. Målen avgränsas med en ▸. </p> <p>Endast målets överordnade och målet visas i det här fältet. Barnens mål visas inte. </p> <p>Mer information om att justera mål i [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-alignment/goal-alignment-overview.md">Översikt över måljustering i [!DNL Workfront Goals]</a>. </p> 
+   <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] översikt </a>. </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Goal Success Score]</td> 
-   <td> I en [!UICONTROL Project report] det här fältet används för att referera till projektnivåmål som är kopplade till [!UICONTROL Business] Fall. För närvarande är detta ett föråldrat fält och är inte kopplat till någon funktion.</td> 
+   <td> I en [!UICONTROL Project report] refererade det här fältet till projektnivåmål som är kopplade till [!UICONTROL Business] -ärendet. För närvarande är detta ett föråldrat fält och är inte kopplat till någon funktion.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Goals] </td> 
-   <td> <p>I en [!UICONTROL Project] , det här är ett samlingsfält som visar alla strategiska mål som är kopplade till ett projekt. Målen avgränsas med kommatecken.</p> <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] översikt</a>. Mer information om strategiska mål och projektmål finns i [!DNL Workfront], se "[!UICONTROL Goal]" i den här artikeln.</p> </td> 
+   <td> <p>I en [!UICONTROL Project]-rapport är detta ett samlingsfält som visar alla strategiska mål som är kopplade till ett projekt. Målen avgränsas med kommatecken.</p> <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] översikt</a>. Mer information om strategiska mål och projektmål i [!DNL Workfront] finns i [!UICONTROL Goal] i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Global Interface Preferences]</td> 
@@ -992,31 +992,31 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Group]</td> 
-   <td> <p>En samling användare (eventuellt från samma avdelning eller affärsenhet) som har åtkomst till samma objekt. Förutom användare kan grupper associeras med portföljer, program, projekt,<span> projektmallar,</span> företag, team, scheman, layoutmallar och tidrapportprofiler.</p> <p>Du kan också tilldela behörigheter till objekt per grupp. Mer information finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> <p>I en lista eller rapport över objekt av någon av följande typer kan du använda [!UICONTROL Group] fält för att lista vilka objekt av den typen som är kopplade till en viss grupp: användare, portfölj, program, projekt, <span>projektmall</span>, företag, team, schema, layoutmall eller tidrapportprofil.</p> </td> 
+   <td> <p>En samling användare (eventuellt från samma avdelning eller affärsenhet) som har åtkomst till samma objekt. Förutom användare kan grupper associeras med portföljer, program, projekt, <span> projektmallar, </span> företag, team, scheman, layoutmallar och tidrapportprofiler.</p> <p>Du kan också tilldela behörigheter till objekt per grupp. Mer information finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/groups.md" class="MCXref xref">Översikt över grupper</a>.</p> <p>I en lista eller rapport över objekt av någon av följande typer kan du använda fältet [!UICONTROL Group] för att lista vilka objekt av den typen som är associerade med en viss grupp: användare, portfölj, program, projekt, <span>projektmall</span>, företag, team, schema, layoutmall eller tidrapportprofil.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Group Administrator]</td> 
-   <td> <p>Användare som hanterar objekt, åtkomst och användare för angivna användargrupper.</p> <p> I en [!UICONTROL Group] rapport, visas namnen på de användare som anges som [!UICONTROL Group Administrators] i gruppen. Mer information om gruppadministratörer finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a>.</p> </td> 
+   <td> <p>Användare som hanterar objekt, åtkomst och användare för angivna användargrupper.</p> <p> I en [!UICONTROL Group]-rapport visar det här fältet namnen på de användare som har angetts som [!UICONTROL Group Administrators] i gruppen. Mer information om gruppadministratörer finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Group with Administration Access]</td> 
-   <td> <p> I en [!UICONTROL Layout Template], [!UICONTROL Timesheet Profile], eller [!UICONTROL Schedule report]visas de grupper vars gruppadministratörer har åtkomst att ändra mallen. Du kan även filtrera den här rapporten efter det här fältet. </p> <p> Mer information finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> </td> 
+   <td> <p> I ett [!UICONTROL Layout Template], [!UICONTROL Timesheet Profile] eller [!UICONTROL Schedule report] visar det här fältet de grupper vars gruppadministratörer har behörighet att ändra mallen. Du kan även filtrera den här rapporten efter det här fältet. </p> <p> Mer information finns i <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Skapa och hantera layoutmallar</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Grouping]</td> 
-   <td> <p>Ett rapportelement som används för att kategorisera information i en lista enligt ett gemensamt kriterium.</p> <p>Mer information finns i "[!UICONTROL Groupings]" i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportelement: filter, vyer och grupperingar</a>.</p> </td> 
+   <td> <p>Ett rapportelement som används för att kategorisera information i en lista enligt ett gemensamt kriterium.</p> <p>Mer information finns i avsnittet [!UICONTROL Groupings] i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportera element: filter, vyer och grupperingar</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Handoff Date]</td> 
-   <td> <p>Det datum då en uppgift blir tillgänglig för arbete. The [!UICONTROL Handoff Date] är en beräkning och kan inte anges manuellt. <br>Mer information om [!UICONTROL Handoff Date], se artikeln <a href="../../../manage-work/tasks/task-information/handoff-task-date.md" class="MCXref xref">[!UICONTROL Task Handoff Date] översikt</a>.</p> </td> 
+   <td> <p>Det datum då en uppgift blir tillgänglig för arbete. [!UICONTROL Handoff Date] är en beräkning och kan inte anges manuellt. <br>Mer information om [!UICONTROL Handoff Date] finns i artikeln <a href="../../../manage-work/tasks/task-information/handoff-task-date.md" class="MCXref xref">[!UICONTROL Task Handoff Date] översikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Help Desk]</td> 
-   <td>Ett alternativt namn som beskriver [!UICONTROL Requests] område på [!DNL Workfront]. Du kan använda [!UICONTROL Requests] där man kan behandla kundsupportärenden, projektförfrågningar, helpdesk-biljetter etc.</td> 
+   <td>Ett alternativt namn som beskriver [!UICONTROL Requests]-området för [!DNL Workfront]. Du kan använda området [!UICONTROL Requests] för att bearbeta kundsupportärenden, projektförfrågningar, helpdesk-biljetter osv.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Owner]</td> 
-   <td>I en [!UICONTROL Hour] rapporten, [!UICONTROL Owner] är den användare som timmarna tilldelas. Detta skiljer sig från användaren som faktiskt loggar tiden. Dessa två enheter kan ibland vara två olika användare. <br>Mer information om loggningstid för en annan användare finns i artikeln <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>.</td> 
+   <td>I en [!UICONTROL Hour]-rapport är [!UICONTROL Owner] den användare som timmarna har tilldelats. Detta skiljer sig från användaren som faktiskt loggar tiden. Dessa två enheter kan ibland vara två olika användare. <br>Mer information om loggningstid för en annan användare finns i artikeln <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>.</td> 
   </tr>
 
 <tr> 
@@ -1025,11 +1025,11 @@ The designated full time equivalency for users. A full-time user should have 100
 
 Timposter kan ha någon av följande statusvärden i Workfront:
 <ul>
-   <li><b>Skickat</b>: timmarna har loggats i ett projekt, en uppgift eller ett problem. De ingår antingen i en faktureringspost eller har inte lagts till i en faktureringspost än.</li>
-   <li><b>Godkänd</b>: timmarna har loggats och de har godkänts av projektägaren. De ingår antingen i en faktureringspost eller har inte lagts till i en faktureringspost än.</li> 
-   <li><b>Inte godkänt</b>: timmarna har loggats och avvisats av projektägaren. De ingår antingen i en faktureringspost eller har inte lagts till i en faktureringspost än.</li>
-   <li><b>Fakturerad</b>: timmarna har loggats, lagts till i en faktureringspost och status för faktureringsposten har markerats som Fakturerad. De behövde inte godkännas av projektägaren.</li>
-   <li><b>Fakturerat och godkänt</b>: timmarna har loggats, godkänts av projektägaren och faktureringspostens status har markerats som Fakturerad.</li>
+   <li><b>Skickat</b>: Timmarna har loggats på ett projekt, en uppgift eller ett problem. De ingår antingen i en faktureringspost eller har inte lagts till i en faktureringspost än.</li>
+   <li><b>Godkänd</b>: Timmarna har loggats och de har godkänts av projektägaren. De ingår antingen i en faktureringspost eller har inte lagts till i en faktureringspost än.</li> 
+   <li><b>Inte godkänt</b>: Timmarna har loggats och avvisats av projektägaren. De ingår antingen i en faktureringspost eller har inte lagts till i en faktureringspost än.</li>
+   <li><b>Fakturerad</b>: timmarna har loggats, lagts till i en faktureringspost och faktureringspostens status har markerats som Fakturerad. De behövde inte godkännas av projektägaren.</li>
+   <li><b>Fakturerad och godkänd</b>: timmarna har loggats, godkänts av projektägaren och faktureringspostens status har markerats som Fakturerad.</li>
    </ul>
 
 
@@ -1037,7 +1037,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
 
 <p>Mer information om hur du lägger till timmar i faktureringsposter finns i avsnittet Lägg till timmar i faktureringsposter i artikeln <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Skapa faktureringsposter</a>.</p>
 
-<p>Mer information om hur du godkänner tid för projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >Kräv tid för godkännande av ett projekt</a>.</p>
+<p>Mer information om att godkänna tid för projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" >Kräv tid för att godkännas för ett projekt</a>.</p>
 
 <p><b>TIPS</b></p>
 
@@ -1048,11 +1048,11 @@ Timposter kan ha någon av följande statusvärden i Workfront:
 
 <tr> 
    <td>[!UICONTROL Hour Type]</td> 
-   <td> <p>An attribute that can be set for Actual Hours that users log for tasks, issues, or projects. Det här är också ett attribut för loggade timmar som inte är direkt kopplade till arbetet, som [!UICONTROL Vacation] och [!UICONTROL Time Off].</p> <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">Hantera timtyper</a>.</p> </td> 
+   <td> <p>An attribute that can be set for Actual Hours that users log for tasks, issues, or projects. Det här är också ett attribut för loggade timmar som inte är direkt länkade till arbetet, till exempel [!UICONTROL Vacation] och [!UICONTROL Time Off].</p> <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md" class="MCXref xref">Hantera timtyper</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>ID:t är en alfanumerisk indikator som associeras med alla objekt i [!DNL Workfront]. Det identifierar varje objekt i [!DNL Workfront] databas. Du kan visa ID:t för alla objekt i en rapport eller en lista för varje objekt. </p> <p><b>TIPS</b></p>   <p>Du kan även visa ID:t i URL:en för objektets sida. Ett projekts-ID kan till exempel se ut ungefär som det nummer som anges i följande URL när du öppnar [!UICONTROL Project Details] sida:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+   <td> <p>ID:t är en alfanumerisk indikator som är associerad med alla objekt i [!DNL Workfront]. Det identifierar varje objekt i databasen [!DNL Workfront] unikt. Du kan visa ID:t för alla objekt i en rapport eller en lista för varje objekt. </p> <p><b>TIPS</b></p>   <p>Du kan även visa ID:t i URL:en för objektets sida. Ett projekts-ID kan till exempel se ut ungefär som det nummer som anges på följande URL när du öppnar sidan [!UICONTROL Project Details]:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
@@ -1064,23 +1064,23 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Initiative]</td> 
-   <td> <p>I [!DNL Workfront Scenario Planner]kan du dela upp en plan i flera initiativ för att göra det enklare att hantera planen. <span>Du kan skapa en [!UICONTROL Initiative] rapport och du kan komma åt [!UICONTROL Initiative] information i en [!UICONTROL Project] rapport.</span></p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The [!DNL Scenario Planner] översikt</a>. </p> <p>The [!DNL Initiative] rapporten visas inte i [!DNL Workfront] om inte företaget har köpt en [!DNL Workfront Scenario Planner] licens. Du kan inte komma åt [!UICONTROL Initiatives] via API:t.</p> </td> 
+   <td> <p>I [!DNL Workfront Scenario Planner] kan du dela in en plan i flera initiativ för att göra det enklare att hantera planen. <span>Du kan skapa en [!UICONTROL Initiative]-rapport och du kan komma åt [!UICONTROL Initiative] information i en [!UICONTROL Project]-rapport.</span></p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt [!DNL Scenario Planner]</a>. </p> <p>[!DNL Initiative]-rapporten visas inte i din [!DNL Workfront]-instans om inte ditt företag har köpt en [!DNL Workfront Scenario Planner]-licens. Du kan inte komma åt [!UICONTROL Initiatives] via API:t.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Initiative Job Role]</span> </td> 
-   <td> <p><span>The [!UICONTROL Initiative Job Role] rapporttypen visar information om de jobbroller som är kopplade till ett plansinitiativ i [!DNL Workfront Scenario Planner].</span> </p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] översikt</a>. </p> <p><span>Den här rapporttypen visas inte i din [!DNL Workfront] om inte företaget har köpt en [!DNL Workfront Scenario Planner] licens.</p> </td> 
+   <td> <p><span>Rapporttypen [!UICONTROL Initiative Job Role] visar information om de jobbroller som är associerade med ett planinitiativ i [!DNL Workfront Scenario Planner].</span> </p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> <p><span>Den här rapporttypen visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Initiative Job Role Hours]</span> </td> 
-   <td> <p><span> I en [!UICONTROL Initiative Job Role] visar det antal timmar som är associerat med en jobbroll i ett initiativ.</span> </p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] översikt</a>. </p> <p>Det här fältet och [!UICONTROL Initiative Job Role] rapporttypen inte visas i [!DNL Workfront] om inte företaget har köpt en [!DNL Workfront Scenario Planner] licens.</p> </td> 
+   <td> <p><span> I en [!UICONTROL Initiative Job Role]-rapport visar detta antalet timmar som är associerade med en jobbroll i ett initiativ.</span> </p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> <p>Det här fältet och rapporttypen [!UICONTROL Initiative Job Role] visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Job Role Count]</td> 
-   <td> <p>I en [!UICONTROL Initiative Job Role] rapporten visar antalet specifika jobbroller som är kopplade till ett initiativ.</p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] översikt</a>. </p> <p>Det här fältet och [!UICONTROL Initiative Job Role] rapporttypen inte visas i [!DNL Workfront] om inte företaget har köpt en [!DNL Workfront Scenario Planner] licens.</p> </td> 
+   <td> <p>I en [!UICONTROL Initiative Job Role]-rapport visas antalet specifika jobbroller som är associerade med ett initiativ.</p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> <p>Det här fältet och rapporttypen [!UICONTROL Initiative Job Role] visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Last Published Date]</td> 
-   <td> <p>Ett fält i en [!UICONTROL Initiative], [!UICONTROL Initiative Job Role]och [!UICONTROL Project] rapport som visar det datum då ett planeringsinitiativ senast publicerades i ett projekt. Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är kopplade till initiativen.</p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] översikt</a>. </p> <p><span>Mer information om publiceringsinitiativ finns i</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publicera scenarier för att skapa och uppdatera projekt i [!DNL Workfront Scenario Planner]</a>. Det här fältet visas inte i [!DNL Workfront] om inte företaget har köpt en [!DNL Workfront Scenario Planner] licens.</p> </td> 
+   <td> <p>Ett fält i en [!UICONTROL Initiative]-, [!UICONTROL Initiative Job Role]- och [!UICONTROL Project]-rapport som visar datumet då ett planinitiativ senast publicerades i ett projekt. Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är kopplade till initiativen.</p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> <p><span>Mer information om publiceringsinitiativ finns i </span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publish-scenarier för att skapa och uppdatera projekt i [!DNL Workfront Scenario Planner]</a>. Det här fältet visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Inline Search]</td> 
@@ -1092,12 +1092,12 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Is Company Goal]</p></td> 
-   <td> <p>I [!DNL goal reports], visas en[!UICONTROL True]/ [!UICONTROL False]" för varje strategiskt mål för att ange om organisationen har tilldelats målet som ägare. </p> 
-   <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] översikt </a>.</p>
+   <td> <p>I [!DNL goal reports] visas värdet [!UICONTROL True]/ [!UICONTROL False] för varje strategiskt mål för att ange om din organisation har tilldelats målet som ägare. </p> 
+   <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Adobe Workfront Goals] översikt </a>.</p>
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Issue]</td> 
-   <td> <p>En oplanerad arbetsuppgift som vanligtvis anger att det finns ett problem som förhindrar slutförande av en uppgift eller ett projekt. Planen har trimmats och utvärderats för vidare arbetsinsats</p> <p>An [!UICONTROL Issue] kan också vara en [!UICONTROL Help Desk] begäran. [!UICONTROL Change Orders], [!UICONTROL Requests]och [!UICONTROL Bugs] är också [!UICONTROL Issues].</p> </td> 
+   <td> <p>En oplanerad arbetsuppgift som vanligtvis anger att det finns ett problem som förhindrar slutförande av en uppgift eller ett projekt. Planen har trimmats och utvärderats för vidare arbetsinsats</p> <p>En [!UICONTROL Issue] kan också vara en [!UICONTROL Help Desk]-begäran. [!UICONTROL Change Orders], [!UICONTROL Requests] och [!UICONTROL Bugs] är också [!UICONTROL Issues].</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Issue Management]</td> 
@@ -1132,11 +1132,11 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Journal Entry]</p> </td> 
-   <td> <p>Ett objekt som kan rapporteras och som ger dig information om systemuppdateringar för spårade fält som visas i [!UICONTROL Updates] områden för projekt, uppgifter, problem och andra objekt.</p> <p>Mer information finns på <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Rapport om [!UICONTROL Updates] area</a>.</p> </td> 
+   <td> <p>Ett objekt som kan rapporteras och som ger dig information om systemuppdateringar för spårade fält som visas i området [!UICONTROL Updates] med projekt, uppgifter, problem och andra objekt.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Rapport om [!UICONTROL Updates]-området</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban Flag]</td> 
-   <td> <p>I en [!UICONTROL Task] Rapportera eller [!UICONTROL Issue] Rapport, [!UICONTROL Kanban Flag] fältet visar flaggstatusen som är inställd på artikeln på [!UICONTROL Kanban board]. Möjliga värden är [!UICONTROL On Track], [!UICONTROL Ready to Pull]och [!UICONTROL Is Blocked].</p> <p>Mer information om hur du anger flaggstatus för artiklar finns på sidan [!UICONTROL Kanban story board], se artikeln <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Använd flaggor i artiklar på sidan [!UICONTROL Kanban board]</a>.</p> </td> 
+   <td> <p>I en [!UICONTROL Task]-rapport eller [!UICONTROL Issue]-rapport visar fältet [!UICONTROL Kanban Flag] flaggstatusen som angetts för artikeln på [!UICONTROL Kanban board]. Möjliga värden är [!UICONTROL On Track], [!UICONTROL Ready to Pull] och [!UICONTROL Is Blocked].</p> <p>Mer information om hur du anger flaggstatus för artiklar på [!UICONTROL Kanban story board] finns i  artikeln <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref"> Använd flaggor på artiklar på [!UICONTROL Kanban board]</a> .</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>KPI:er</td> 
@@ -1144,7 +1144,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Lag]</td> 
-   <td>Den tid som måste förflyta efter föregående uppgifts [!UICONTROL Planned Completion Date] har passerat tills den beroende aktiviteten kan börja.</td> 
+   <td>Den tid som måste gå efter att föregående uppgifts [!UICONTROL Planned Completion Date] har passerat tills den beroende aktiviteten kan börja.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Lag Types]</td> 
@@ -1154,36 +1154,36 @@ Timposter kan ha någon av följande statusvärden i Workfront:
      <li>[!UICONTROL Calendar Days] (ignorera helger)</li> 
      <li>[!UICONTROL Percent]</li> 
      <li>[!UICONTROL Day of Week]</li> 
-    </ul> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Översikt över fördröjningstyper</a>.</p> </td>
+    </ul> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Översikt över fördröjda typer</a>.</p> </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Large Thumbnail]</td> 
-   <td> <p> I en [!UICONTROL Document] visas en förhandsgranskning av dokumentet i en miniatyrbild. </p> <p>Välj <strong>[!UICONTROL Large Thumbnail]</strong> om du vill visa en miniatyrbild som är 400 pixlar bred i rapporten.</p> <p>Storleken på miniatyrbilden justeras när du ändrar bredden på kolumnen i en lista eller rapport.</p> <p>Se även "[!UICONTROL Thumbnail]" i den här artikeln.</p> </td> 
+   <td> <p> I en [!UICONTROL Document]-lista eller -rapport visas en förhandsgranskning av dokumentet i en miniatyrbild. </p> <p>Välj <strong>[!UICONTROL Large Thumbnail]</strong> om du vill visa en miniatyrbild som är 400 pixlar bred i rapporten.</p> <p>Storleken på miniatyrbilden justeras när du ändrar bredden på kolumnen i en lista eller rapport.</p> <p>Se även [!UICONTROL Thumbnail] i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last 10 Viewers]</td> 
-   <td> <p>I en rapportlista visar det här fältet namnen på upp till 10 användare som har visat rapporten senast.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
+   <td> <p>I en rapportlista visar det här fältet namnen på upp till 10 användare som har visat rapporten senast.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Condition Note]</td> 
-   <td> <p>I det här fältet visas den uppdatering som senast angavs för ett objekt av objektets ägare. Detta är ägarens senaste aktivitet eller interaktion för ett objekt.</p> <p>The [!DNL Last Condition Note] kolumnen är tom om anteckningstexten för den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen. </p> </td> 
+   <td> <p>I det här fältet visas den uppdatering som senast angavs för ett objekt av objektets ägare. Detta är ägarens senaste aktivitet eller interaktion för ett objekt.</p> <p>Kolumnen [!DNL Last Condition Note] är tom om anteckningstexten för den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Finance Update Date]</td> 
-   <td>I en [!UICONTROL project] anger det här fältet datum och tid när projektets ekonomi senast beräknades och uppdaterades. Information om projektets ekonomi finns på <a href="../../../manage-work/projects/project-finances/project-finances-overview-1.md" class="MCXref xref">Översikt över projektets ekonomi</a>. </td> 
+   <td>I en [!UICONTROL project]-rapport hämtar det här fältet datum och tid när projektets ekonomi senast beräknades och uppdaterades. Mer information om projektets ekonomi finns i <a href="../../../manage-work/projects/project-finances/project-finances-overview-1.md" class="MCXref xref">Översikt över projektets ekonomi</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Note]</td> 
-   <td> <p>I det här fältet visas den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>The [!UICONTROL Last Note] kolumnen är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
-   <p>När det här fältet läggs till i en [!UICONTROL Task] rapporter, eventuella uppdateringar som återstår av underordnade objekt - som problem, underuppgifter, dokument osv. — av uppgiften visas inte i den här kolumnen.</p> </td> 
+   <td> <p>I det här fältet visas den senaste uppdateringen som en användare har angett för ett objekt. Detta är den senaste aktiviteten eller interaktionen för ett objekt.</p> <p>Kolumnen [!UICONTROL Last Note] är tom om texten i den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.</p>
+   <p>När det här fältet läggs till i en [!UICONTROL Task]-rapport finns det eventuella uppdateringar kvar på underordnade objekt, till exempel problem, underaktiviteter, dokument osv. — av uppgiften visas inte i den här kolumnen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Viewed By]</td> 
-   <td> <p>I en rapportlista visar det här fältet information om användaren som senast visade rapporten.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.<br></p> </td> 
+   <td> <p>I en rapportlista visar det här fältet information om användaren som senast visade rapporten.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.<br></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Last Viewed Date]</td> 
-   <td> <p>I en rapportlista visar det här fältet det datum då rapporten senast visades.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
+   <td> <p>I en rapportlista visar det här fältet det datum då rapporten senast visades.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Layout Template]</td> 
@@ -1191,7 +1191,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Layout Type]</td> 
-   <td>I kombination med [!UICONTROL Custom Views], [!UICONTROL Layout Type] anger typen av [!UICONTROL Custom View]. För närvarande är bara List tillgängligt. I framtiden [!UICONTROL Detail] (på [!UICONTROL Detail] vyn över ett objekt) kan bli tillgänglig.</td> 
+   <td>I kombination med [!UICONTROL Custom Views] anger [!UICONTROL Layout Type] typen av [!UICONTROL Custom View]. För närvarande är bara List tillgängligt. I framtiden kan [!UICONTROL Detail] (vyn [!UICONTROL Detail] för ett objekt) bli tillgänglig.</td> 
   </tr> 
   <!--<tr data-mc-conditions=""> 
    <td>Legacy Budgeted Cost</td> 
@@ -1227,27 +1227,27 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Library Task]</td> 
-   <td>En mall för en enskild uppgift som används för att ge konsekvent namngivning av [!UICONTROL Tasks] och [!UICONTROL Template Tasks] i hela programmet.</td> 
+   <td>En mall för en enskild aktivitet som används för att ge konsekvent namngivning av [!UICONTROL Tasks] och [!UICONTROL Template Tasks] i hela programmet.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Type]</td> 
-   <td>Licenstypen som tilldelats en [!UICONTROL Access Level]. Det är antingen [!UICONTROL Full User], [!UICONTROL Limited User], eller [!UICONTROL Requester].</td> 
+   <td>Den typ av licens som tilldelats en [!UICONTROL Access Level]. Det är antingen [!UICONTROL Full User], [!UICONTROL Limited User] eller [!UICONTROL Requester].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Plan]</td> 
-   <td> <p>I en [!UICONTROL Group] visa eller rapportera, det här fältet visar det maximala antalet [!UICONTROL Plan] licenser som kan tilldelas användare som har respektive grupp angiven som sina [!UICONTROL Home Group].</p> </td> 
+   <td> <p>I en [!UICONTROL Group]-vy eller rapport visar det här fältet det maximala antalet [!UICONTROL Plan] licenser som kan tilldelas användare som har respektive grupp angiven som [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL License Limit Work]</td> 
-   <td> <p>I en [!UICONTROL Group] visa eller rapportera, det här fältet visar det maximala antalet [!UICONTROL Work] licenser som kan tilldelas användare som har respektive grupp angiven som sina [!UICONTROL Home Group].</p> </td> 
+   <td> <p>I en [!UICONTROL Group]-vy eller rapport visar det här fältet det maximala antalet [!UICONTROL Work] licenser som kan tilldelas användare som har respektive grupp angiven som [!UICONTROL Home Group].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limited User]</td> 
-   <td>En licenstyp som tillåter att en [!DNL Access Level] som endast innehåller behörighet att visa, med möjlighet att skicka in utgåvor, göra anteckningar och överföra dokument.</td> 
+   <td>En licenstyp som gör att du kan skapa en [!DNL Access Level] som innehåller skrivskyddade behörigheter, med möjlighet att skicka utgåvor, göra anteckningar och överföra dokument.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
-   <td> <p>En del av [!UICONTROL Interface Setup] som gör det möjligt att länka anpassade filter, vyer och grupperingar till enskilda användare eller globalt till alla användare.</p> </td> 
+   <td> <p>En del av [!UICONTROL Interface Setup] som tillåter länkning av anpassade filter, vyer och grupperingar till enskilda användare eller globalt till alla användare.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1266,7 +1266,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Manual Only]</td> 
-   <td> <p>En av [!UICONTROL Project]'s [!UICONTROL Update Types]. Den här inställningen tillåter [!UICONTROL Project Projected] och [!UICONTROL Planned] tidslinjer som endast ska uppdateras när "[!UICONTROL Recalculated Timelines]" klickas. Projekt som har konfigurerats på det här sättet ignoreras under den nattliga omberäkningen och när projektet eller aktiviteterna i projektet uppdateras.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj projektet [!UICONTROL Update Type] </a>.</p> </td> 
+   <td> <p>En av [!UICONTROL Update Types] för [!UICONTROL Project]. Med den här inställningen kan [!UICONTROL Project Projected]- och [!UICONTROL Planned]-tidslinjer bara uppdateras när användaren klickar på [!UICONTROL Recalculated Timelines]. Projekt som har konfigurerats på det här sättet ignoreras under den nattliga omberäkningen och när projektet eller aktiviteterna i projektet uppdateras.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Markera projektet [!UICONTROL Update Type] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Me]</td> 
@@ -1274,15 +1274,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Max Users]</td> 
-   <td> <p>Detta är ett inaktuellt fält. All information som fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagits bort och det går inte att uppdatera fältet. </p> <p>I tidigare versioner av [!DNL Workfront]kan du uppdatera det här fältet när du skapar eller redigerar en jobbroll. Det visade det totala antalet användare som kan associeras med en roll i varje projekt. Värdet noll tillåts för ett obegränsat antal användare som kan tilldelas i ett projekt. </p>Fältet är fortfarande synligt i vissa rapporter och listor, men den information som visas kan inte uppdateras. </td> 
+   <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort och fältet kan inte uppdateras. </p> <p>I tidigare versioner av [!DNL Workfront] kunde du uppdatera det här fältet när du skapade eller redigerade en jobbroll. Det visade det totala antalet användare som kan associeras med en roll i varje projekt. Värdet noll tillåts för ett obegränsat antal användare som kan tilldelas i ett projekt. </p>Fältet är fortfarande synligt i vissa rapporter och listor, men den information som visas kan inte uppdateras. </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Milestone]</td> 
-   <td> <p>En markör som du kan associera med en uppgift för att ange att en nyckelpunkt i projektet har uppnåtts när uppgiften har slutförts. Vanligtvis kan du använda milstolpar för att visa en viktig händelse, som slutförandet av en fas i projektet eller en uppsättning kritiska aktiviteter. [!UICONTROL Milestones] är vanligtvis associerade med överordnade uppgifter. Du måste skapa milstolparna innan du kan koppla dem till uppgifter. Mer information om milstolpar finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md">Skapa en milstolpe-bana</a> och <a href="../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">Koppla milstolpar till uppgifter</a>. </p> </td> 
+   <td> <p>En markör som du kan associera med en uppgift för att ange att en nyckelpunkt i projektet har uppnåtts när uppgiften har slutförts. Vanligtvis kan du använda milstolpar för att visa en viktig händelse, som slutförandet av en fas i projektet eller en uppsättning kritiska aktiviteter. [!UICONTROL Milestones] är vanligtvis associerade med överordnade uppgifter. Du måste skapa milstolparna innan du kan koppla dem till uppgifter. Mer information om milstolpar finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md">Skapa en milstolpe-sökväg</a> och <a href="../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">Associera milstolpar med aktiviteter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Milestone Path]</td> 
-   <td>En samling med [!UICONTROL milestones]. [!UICONTROL Milestone Paths] används i projekt för att skilja på projekt med vissa typer av [!UICONTROL Milestones] från projekt med en annan uppsättning [!UICONTROL Milestones].</td> 
+   <td>En samling med [!UICONTROL milestones]. [!UICONTROL Milestone Paths] används i projekt för att skilja projekt med vissa typer av [!UICONTROL Milestones] från projekt med en annan uppsättning [!UICONTROL Milestones].</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Milestone Task]</td> 
@@ -1290,15 +1290,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Module]</td> 
-   <td>Ett steg i ett scenario i [!DNL Workfront Fusion] som utför vissa funktioner baserade på det associerade programmet.</td> 
+   <td>Ett steg i ett scenario i [!DNL Workfront Fusion] som utför en funktion baserat på den associerade appen.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL My Primary Role]</td> 
-   <td> <p>När det refereras till detta i filter visas antingen användare som har samma [!UICONTROL Primary Role] som inloggad användare, eller arbetsobjekt som tilldelats [!UICONTROL Primary Role] för den inloggade användaren.</p> <p>Vi rekommenderar att du använder det här fältet i ett filter för att göra rapporter mer allmänna när du delar dem med andra användare. På så sätt kan du bara skapa en rapport som visar olika information beroende på vem som loggar in för att visa den, eftersom informationen alltid anpassas för den inloggade användaren. </p> </td> 
+   <td> <p>När det refereras till detta i filter visas antingen användare som har samma [!UICONTROL Primary Role] som den inloggade användaren, eller arbetsobjekt som tilldelats [!UICONTROL Primary Role] för den inloggade användaren.</p> <p>Vi rekommenderar att du använder det här fältet i ett filter för att göra rapporter mer allmänna när du delar dem med andra användare. På så sätt kan du bara skapa en rapport som visar olika information beroende på vem som loggar in för att visa den, eftersom informationen alltid anpassas för den inloggade användaren. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL My Home Team]</td> 
-   <td> <p>När det refereras till detta i filter visas antingen användare som tillhör [!UICONTROL Home Team] för den inloggade användaren, eller arbetsobjekt som tilldelats [!UICONTROL Home Team] för den inloggade användaren. </p> <p>Vi rekommenderar att du använder det här fältet i ett filter för att göra rapporter mer allmänna när du delar dem med andra användare. På så sätt kan du bara skapa en rapport som visar olika information beroende på vem som loggar in för att visa den, eftersom informationen alltid anpassas för den inloggade användaren. </p> </td> 
+   <td> <p>När det refereras till detta i filter, visas antingen användare som tillhör [!UICONTROL Home Team] för den inloggade användaren, eller arbetsobjekt som tilldelats [!UICONTROL Home Team] för den inloggade användaren. </p> <p>Vi rekommenderar att du använder det här fältet i ett filter för att göra rapporter mer allmänna när du delar dem med andra användare. På så sätt kan du bara skapa en rapport som visar olika information beroende på vem som loggar in för att visa den, eftersom informationen alltid anpassas för den inloggade användaren. </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Naming convention]</td> 
@@ -1310,13 +1310,13 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Navigation Menu]</td> 
-   <td>Den översta mittersta panelen i programmet som har länkar till huvudområden i [!UICONTROL Workfront].</td> 
+   <td>Den översta mittenpanelen i programmet som har länkar till huvudområden i [!UICONTROL Workfront].</td> 
   </tr> 
  </tr> 
   <tr> 
    <td>[!UICONTROL New Number Value]</td> 
-   <td>I en [!UICONTROL Journal Entry] rapport, visar det uppdaterade värdet för ett fält som ersätter [!UICONTROL Old Number Value].
-   Mer information finns i "[!UICONTROL Old Number Value]" i den här artikeln.</td> 
+   <td>I en [!UICONTROL Journal Entry]-rapport visas det uppdaterade värdet för ett fält som ersätter [!UICONTROL Old Number Value].
+   Mer information finns i [!UICONTROL Old Number Value] i den här artikeln.</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -1338,7 +1338,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Note]</td> 
-   <td>En kommentar eller uppdatering har gjorts på [!DNL Workfront] -objekt.</td> 
+   <td>En kommentar eller uppdatering har gjorts för ett [!DNL Workfront]-objekt.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Note Text]</td> 
@@ -1346,13 +1346,13 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Number of Linked Goals]</td> 
-   <td> <p>I en [!UICONTROL Project] rapport, det här är antalet strategiska mål som är kopplade till projektet. Mer information om hur du associerar projekt med strategiska mål finns i <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Lägg till projekt i mål i  [!DNL Adobe Workfront Goals]</a>.</p> 
-   <p>Mer information om strategiska mål finns också i[!UICONTROL Goal]" i den här artikeln.</p> 
-   <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals], se <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Lägg till projekt i mål i [!UICONTROL Adobe Workfront Goals]</a>. </p> </td> 
+   <td> <p>I en [!UICONTROL Project]-rapport är detta antalet strategiska mål som är associerade med projektet. Mer information om hur du associerar projekt med strategiska mål finns i <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Lägg till projekt i mål i [!DNL Adobe Workfront Goals]</a>.</p> 
+   <p>Mer information om strategiska mål finns i [!UICONTROL Goal] i den här artikeln.</p> 
+   <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md">Lägg till projekt i mål i [!UICONTROL Adobe Workfront Goals]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Object]</td> 
-   <td> <p>Den information du visar i [!DNL Adobe Workfront] representeras av objekt som lagras i [!DNL Workfront] databas. Objekten är vad som driver informationen i Workfront. Några exempel på objekt är:</p> 
+   <td> <p>Den information du visar i [!DNL Adobe Workfront] representeras av objekt som lagras i databasen [!DNL Workfront]. Objekten är vad som driver informationen i Workfront. Några exempel på objekt är:</p> 
     <ul> 
      <li>[!UICONTROL Portfolios]</li> 
      <li>[!UICONTROL Programs]</li> 
@@ -1384,15 +1384,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
  <tr> 
    <td>[!UICONTROL Old Number Value]</td> 
-   <td>I en [!UICONTROL Journal Entry] visar det ursprungliga värdet för ett fält innan det uppdaterades. När ett fälts värde har uppdaterats visas det som [!UICONTROL New Number Value] i en [!UICONTROL Journal Entry] rapport. Mer information finns även i[!UICONTROL New Number Value]".</td> 
+   <td>I en [!UICONTROL Journal Entry]-rapport visar detta det ursprungliga värdet för ett fält innan det uppdaterades. När ett fälts värde har uppdaterats visas det som [!UICONTROL New Number Value] i en [!UICONTROL Journal Entry]-rapport. Mer information finns också i [!UICONTROL New Number Value].</td> 
   </tr>
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
-   <td> <p>En av [!UICONTROL Project Update] Typer. När det här alternativet är markerat [!UICONTROL Project Projected] och [!UICONTROL Planned] tidslinjer uppdateras endast när en uppdatering eller ändring görs av projektet eller en uppgift i projektet. Det uppdaterar inte projektet varje kväll.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering </a>.</p> </td> 
+   <td> <p>En av [!UICONTROL Project Update]-typerna. När det här alternativet är markerat uppdateras tidslinjerna [!UICONTROL Project Projected] och [!UICONTROL Planned] endast när en uppdatering eller ändring görs i projektet eller i en aktivitet i projektet. Det uppdaterar inte projektet varje kväll.</p> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj projekttypens uppdateringstyp </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
-   <td> <p>Namnet på [!UICONTROL Issue] i [!DNL Workfront] databas, som används i textlägesrapporter eller beräknade anpassade data.</p> </td> 
+   <td> <p>Namnet på [!UICONTROL Issue] i databasen [!DNL Workfront], som används i textlägesrapporter eller beräknade anpassade data.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Open]</td> 
@@ -1400,11 +1400,11 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
-   <td>Kort för organisationsschemat. Det här är ett diagram som visar hierarkin i en organisation. Det finns också på fliken [!UICONTROL User] detaljskärmen som visar och tillåter inställning av [!UICONTROL User]'s [!UICONTROL Company] och [!UICONTROL Reporting] relationer.</td> 
+   <td>Kort för organisationsschemat. Det här är ett diagram som visar hierarkin i en organisation. Det finns också på fliken på [!UICONTROL User]-detaljskärmen som visar och tillåter inställning av [!UICONTROL Company]- och [!UICONTROL Reporting]-relationer för [!UICONTROL User].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Organizational Setup]</td> 
-   <td>Detta definierar [!UICONTROL Companies], [!UICONTROL Groups]och [!UICONTROL Security Profiles] för er organisation.</td> 
+   <td>Detta definierar [!UICONTROL Companies], [!UICONTROL Groups] och [!UICONTROL Security Profiles] för din organisation.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Other Groups]</td> 
@@ -1414,7 +1414,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td><span>[!UICONTROL Override Currency]</span> </td> 
    <td> 
     <div> 
-     <p>I en [!UICONTROL Job Role] rapport, det här är valutan som är associerad med en jobbroll. Det är en åsidosättning av [!UICONTROL Base Currency] som fastställts i [!UICONTROL Setup] område efter [!DNL Workfront] administratör. </p> 
+     <p>I en [!UICONTROL Job Role]-rapport är detta den valuta som är associerad med en jobbroll. Det är en åsidosättning av [!UICONTROL Base Currency] som upprättats i området [!UICONTROL Setup] av administratören [!DNL Workfront]. </p> 
      <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> 
     </div> </td> 
   </tr> 
@@ -1422,7 +1422,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td><span>[!UICONTROL Override Currency Billing/ Hour]</span> </td> 
    <td> 
     <div> 
-     <p>I en [!UICONTROL Job Role] rapport, det här är faktureringen per timma för jobbrollen som använder den valda [!UICONTROL Override Currency] av jobbrollen.</p> 
+     <p>I en [!UICONTROL Job Role]-rapport är det här faktureringshastigheten per timme för jobbrollen som använder den valda [!UICONTROL Override Currency] för jobbrollen.</p> 
      <p> Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> 
     </div> </td> 
   </tr> 
@@ -1430,7 +1430,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td><span>[!UICONTROL Override Currency Cost/ Hour]</span> </td> 
    <td> 
     <div> 
-     <p>I en [!UICONTROL Job Role] rapport, det här är kostnaden per timma för jobbrollen med den valda [!UICONTROL Override Currency] av jobbrollen. </p> 
+     <p>I en [!UICONTROL Job Role]-rapport är detta kostnaden per timma för jobbrollen med den valda [!UICONTROL Override Currency] för jobbrollen. </p> 
      <p>Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.</p> 
     </div> </td> 
   </tr> 
@@ -1442,14 +1442,14 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td><span>[!UICONTROL Owner Type]</span> </td> 
    <td> 
     <div> 
-     <p>I en [!UICONTROL Goal] visar den typ av ägare som är tilldelad ett strategiskt mål. Följande typer är målägare:</p> 
+     <p>I en [!UICONTROL Goal]-rapport visas den typ av ägare som har tilldelats ett strategiskt mål. Följande typer är målägare:</p> 
      <ul> 
       <li> <p>[!UICONTROL User]</p> </li> 
       <li> <p>[!UICONTROL Team] </p> </li> 
       <li> <p>[!UICONTROL Group]</p> </li> 
      </ul> 
      <p>Inget värde visas i det här fältet när målägaren är din organisation. </p> 
-     <p>Detta kräver ytterligare en licens. Mer information om [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] översikt</a>. </p> 
+     <p>Detta kräver ytterligare en licens. Mer information om [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] översikt</a>. </p> 
     </div> </td> 
   </tr> 
  </tbody> 
@@ -1469,19 +1469,19 @@ Timposter kan ha någon av följande statusvärden i Workfront:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Parameter]</td> 
-   <td> <p>A [!UICONTROL parameter] är ett anpassat fält. Du kan skapa en rapport för alla parametrar eller anpassade fält i systemet. </p> </td> 
+   <td> <p>Ett [!UICONTROL parameter] är ett anpassat fält. Du kan skapa en rapport för alla parametrar eller anpassade fält i systemet. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent]</td> 
-   <td>I en rapport visar det här fältet information om objektets överordnade objekt. I en [!UICONTROL issue] kan den visa information om aktiviteten eller projektet som problemet är loggat under. I en aktivitetsrapport kan den visa information om den direkta överordnade aktiviteten eller om projektet. Mer information om vilka objekt som kan ha överordnade objekt i [!DNL Workfront], se avsnittet"Objektens inbördes beroende och hierarki" i artikeln <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i [!DNL Adobe Workfront]</a>. </td> 
+   <td>I en rapport visar det här fältet information om objektets överordnade objekt. I till exempel en [!UICONTROL issue]-rapport kan den visa information om aktiviteten eller projektet som problemet är loggat under. I en aktivitetsrapport kan den visa information om den direkta överordnade aktiviteten eller om projektet. Mer information om vilka objekt som kan ha överordnade objekt i [!DNL Workfront] finns i avsnittet"Objektens inbördes beroende och hierarki" i artikeln <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i [!DNL Adobe Workfront]</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent Lag]</td> 
-   <td>Den tid som måste gå mellan [!UICONTROL Parent Task] start och [!UICONTROL Subtask] Börja.</td> 
+   <td>Den tid som måste gå mellan [!UICONTROL Parent Task]-starten och [!UICONTROL Subtask]-starten.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent Task]</td> 
-   <td>Kallas även [!UICONTROL Summary Task]. Det här är en aktivitet som har underaktiviteter (kallas även [!UICONTROL Children Tasks]). The [!UICONTROL Duration], [!UICONTROL Work Required]och [!UICONTROL Percent Complete] för den överordnade aktiviteten beräknas utifrån underaktiviteter.</td> 
+   <td>Kallas även [!UICONTROL Summary Task]. Det här är en aktivitet som har underaktiviteter (kallas även [!UICONTROL Children Tasks]). [!UICONTROL Duration], [!UICONTROL Work Required] och [!UICONTROL Percent Complete] för den överordnade aktiviteten beräknas från underaktiviteterna.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Part-Time Resources]</td> 
@@ -1489,7 +1489,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Percent Complete]</td> 
-   <td> <p>Ett projekt-, uppgifts- eller utleveransfält som visar hur stor procentandel av arbetet som är associerat med uppgiften, projektet eller utgåvan som har slutförts.</p> <p>Du kan uppdatera det här fältet manuellt för problem och arbetsuppgifter. </p> <p>För projekt och överordnade uppgifter är det här fältet en sammanslagning av alla arbetsuppgifter och du kan inte uppdatera det manuellt. </p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Projekt [!UICONTROL Percent Complete] översikt</a>.</p> </td> 
+   <td> <p>Ett projekt-, uppgifts- eller utleveransfält som visar hur stor procentandel av arbetet som är associerat med uppgiften, projektet eller utgåvan som har slutförts.</p> <p>Du kan uppdatera det här fältet manuellt för problem och arbetsuppgifter. </p> <p>För projekt och överordnade uppgifter är det här fältet en sammanslagning av alla arbetsuppgifter och du kan inte uppdatera det manuellt. </p> <p>Mer information finns i <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Projekt [!UICONTROL Percent Complete] - översikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Permission]</td> 
@@ -1511,93 +1511,93 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Plan]</td> 
-   <td> <p>Det här är en fullständig licenstyp i [!DNL Workfront] system. Användarna måste ha denna för att få tillgång till alla funktioner i [!DNL Workfront].</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licensöversikt</a>.</p> </td> 
+   <td> <p>Det här är en fullständig licenstyp i systemet [!DNL Workfront]. Användarna måste ha den här för att få tillgång till alla funktioner i [!DNL Workfront].</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licensöversikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Plan] (i [!DNL Scenario Planner])</td> 
-   <td> <p>En plan är huvudobjektet när du arbetar med [!DNL Workfront] Scenarioplanerare. Ni kan skissa strategin för företagets närmaste och långsiktiga framtid och identifiera varje högnivåresultat och lägga till den som en plan i [!DNL Workfront] Scenarioplanerare. </p> <p>Du kan inte visa [!DNL Scenario Planner] planer i en rapport och du kan inte komma åt dem via [!DNL Workfront] API. </p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] översikt</a>. </p> </td> 
+   <td> <p>En plan är huvudobjektet när du arbetar med [!DNL Workfront]-scenarioplanen. Du kan ange strategin för ditt företags närmaste och långsiktiga framtid och identifiera varje resultat på hög nivå och lägga till den som en plan i [!DNL Workfront]-scenarioplanen. </p> <p>Du kan inte visa [!DNL Scenario Planner]-planer i en rapport och du kan inte komma åt dem via API:t [!DNL Workfront]. </p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>Den tidsperiod inom vilken något är planerat att inträffa. När du skapar projekt, uppgifter eller ärenden i [!DNL Workfront]anger du de planerade start- och slutdatumen samt den planerade tidsram under vilken de inträffar. Dessa värden representerar din ursprungliga avsikt eller uppskattning av hur lång tid det tar att slutföra en artikel. </p></td> 
+   <td> <p>Den tidsperiod inom vilken något är planerat att inträffa. När du skapar projekt, aktiviteter eller utgåvor i [!DNL Workfront] måste du fastställa de planerade start- och slutdatumen samt den planerade tidsram under vilken de inträffar. Dessa värden representerar din ursprungliga avsikt eller uppskattning av hur lång tid det tar att slutföra en artikel. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
-   <td>Det här är en manuell inmatning som projektledaren kan göra för att bedöma om ett projekt skulle medföra någon ekonomisk fördel för organisationen. Att ange det här värdet kan vara en del av att sätta ihop en [!UICONTROL Business Case] för projektet. Du måste ha [!UICONTROL Manage] behörighet till projektet för att uppdatera värdet.</td> 
+   <td>Det här är en manuell inmatning som projektledaren kan göra för att bedöma om ett projekt skulle medföra någon ekonomisk fördel för organisationen. Att ange det här värdet kan vara en del av att sätta ihop en [!UICONTROL Business Case] för projektet. Du måste ha [!UICONTROL Manage] behörigheter för projektet för att uppdatera det här värdet.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Planned Budgeted Hours]</td> 
-   <td> <p>I en [!UICONTROL Budgeted Hour] rapport, visar det antal timmar som budgeterats för projekt eller [!UICONTROL Job Roles] i [!UICONTROL Resource Planner]. </p> <p>Mer information om budgeteringsprojekt eller roller i [!UICONTROL Resource Planner], se artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!UICONTROL Resource Planner] med [!UICONTROL Project] och [!UICONTROL Role] vyer</a>. Mer information om [!UICONTROL Budgeted Hours] rapport, se artikeln <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Rapport: Budgeterad timme</a>.</p> </td> 
+   <td> <p>I en [!UICONTROL Budgeted Hour]-rapport visar detta antalet timmar som budgeterats för projekt eller [!UICONTROL Job Roles] i [!UICONTROL Resource Planner]. </p> <p>Mer information om budgeteringsprojekt eller roller i [!UICONTROL Resource Planner] finns i artikeln <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetresurser i [!UICONTROL Resource Planner] med hjälp av vyerna [!UICONTROL Project] och [!UICONTROL Role]</a>. Mer information om rapporten [!UICONTROL Budgeted Hours] finns i artikeln <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Rapport: Budgeterad timme</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>Du kan ställa in [!UICONTROL Planned Completion Date] till ett datum som du väljer. Om du inte anger [!UICONTROL Planned Completion Date], [!DNL Workfront] ställer in den automatiskt. När den ställs in automatiskt [!UICONTROL Planned Completion Date] är: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Mer information finns i följande artiklar:</p> 
+   <td> <p>Du kan ställa in [!UICONTROL Planned Completion Date] manuellt till ett valfritt datum. Om du inte anger [!UICONTROL Planned Completion Date] anges den automatiskt i [!DNL Workfront]. När den anges automatiskt är [!UICONTROL Planned Completion Date]: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Mer information finns i följande artiklar:</p> 
     <ul> 
-     <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över uppgiften [!UICONTROL Planned Completion Date]</a> </p> </li> 
-     <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Ställ in projektet [!UICONTROL Planned Completion Date]</a> </p> </li> 
+     <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Planned Completion Date]</a> </p> </li> 
+     <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Ange projektet [!UICONTROL Planned Completion Date]</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
-   <td> <p>Summan av [!UICONTROL Planned Labor Cost] och [!UICONTROL Planned Expense Cost] av projektet. Detta inkluderar inte [!UICONTROL Planned Risk Cost] på projektet.  </p> </td> 
+   <td> <p>Totalt för [!UICONTROL Planned Labor Cost] och [!UICONTROL Planned Expense Cost] för projektet. Detta inkluderar inte [!UICONTROL Planned Risk Cost] i projektet.  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>En uppgift [!UICONTROL Planned Duration] är vanligtvis densamma som uppgiftens [!UICONTROL Duration]. Det representerar skillnaden i dagar mellan [!UICONTROL Planned Start] och [!UICONTROL Planned Completion Dates] för uppgiften. </p> <p>När uppgiften har en [!UICONTROL Duration] Typ av [!UICONTROL Effort Driven], [!UICONTROL Planned Duration] kan skilja sig från [!UICONTROL Duration] utifrån hur många resurser du tilldelar uppgiften. </p> <p>Exempel: en uppgift med en [!UICONTROL Duration] Typ av [!UICONTROL Effort Driven] har en [!UICONTROL Duration] om 3 dagar och du tilldelar en resurs med ett heltidsschema till aktiviteten, [!UICONTROL Planned Duration] är också tre dagar. Om du tilldelar tre resurser med ett heltidsschema till samma uppgift kan du [!UICONTROL Duration] stannar 3 dagar, men [!UICONTROL Planned Duration] blir en dag. The [!UICONTROL Planned Duration] ändrar även [!UICONTROL Planned Start] och [!UICONTROL Planned Completion] datum för uppgiften, för att återspegla det nya [!UICONTROL Planned Duration]. Därför påverkas även tidslinjen i projektet. </p> <p>Mer information om skillnaden mellan [!UICONTROL Duration] och [!UICONTROL Planned Duration] mer information finns i artikeln <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Skillnad mellan [!UICONTROL Planned Duration] och [!UICONTROL Duration] för uppgifter</a>.</p> <p>Projekt och ärenden har ingen [!UICONTROL Planned Duration]. </p> </td> 
+   <td> <p>En uppgifts [!UICONTROL Planned Duration] är vanligtvis densamma som aktivitetens [!UICONTROL Duration]. Det representerar skillnaden i dagar mellan [!UICONTROL Planned Start] och [!UICONTROL Planned Completion Dates] för aktiviteten. </p> <p>När aktiviteten har typen [!UICONTROL Duration] av [!UICONTROL Effort Driven] kan [!UICONTROL Planned Duration] skilja sig från [!UICONTROL Duration] för aktiviteten, baserat på hur många resurser du tilldelar uppgiften. </p> <p>Om en aktivitet med typen [!UICONTROL Duration] av [!UICONTROL Effort Driven] till exempel har [!UICONTROL Duration] på 3 dagar och du tilldelar en resurs med ett heltidsschema till aktiviteten, är även [!UICONTROL Planned Duration] 3 dagar. Om du tilldelar tre resurser med ett heltidsschema till samma uppgift stannar [!UICONTROL Duration] kvar i tre dagar, men [!UICONTROL Planned Duration] blir en dag. [!UICONTROL Planned Duration] ändrar också [!UICONTROL Planned Start]- och [!UICONTROL Planned Completion]-datumen för aktiviteten så att de återspeglar den nya [!UICONTROL Planned Duration]. Därför påverkas även tidslinjen i projektet. </p> <p>Mer information om skillnaden mellan [!UICONTROL Duration] och [!UICONTROL Planned Duration] för uppgifter finns i artikeln <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref"> Skillnad mellan [!UICONTROL Planned Duration] och [!UICONTROL Duration] för uppgifter </a>.</p> <p>Projekt och ärenden har inte en [!UICONTROL Planned Duration]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
-   <td> <p>The [!UICONTROL Planned Duration Minutes] för ett projekt eller ett problem är [!UICONTROL Duration] av projektet eller projektet på några minuter. </p> <p>Aktiviteter har ingen [!UICONTROL Planned Duration Minutes] fält. </p> <p>[!UICONTROL Template Tasks] har [!UICONTROL Planned Duration Minutes] fält som visar [!UICONTROL Planned Duration] i minuter. </p> </td> 
+   <td> <p>[!UICONTROL Planned Duration Minutes] för ett projekt eller en utgåva är [!UICONTROL Duration] för projektet eller utgåvan på några minuter. </p> <p>Aktiviteter har inget [!UICONTROL Planned Duration Minutes]-fält. </p> <p>[!UICONTROL Template Tasks] har ett [!UICONTROL Planned Duration Minutes]-fält som visar [!UICONTROL Planned Duration] för aktiviteten i minuter. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Expense Cost]</td> 
-   <td> <p>Summan av [!UICONTROL Planned Amounts] för alla utgifter som har loggats för ett projekt eller en uppgift.</p> <p><b>EXEMPEL</b></p>
-   <p>Om du skapar en utgift för Uppgift 1 och anger $600.00 i dialogrutan [!UICONTROL Planned Amount] fält, [!UICONTROL Planned Expense Cost] för den här aktiviteten är 600,00 USD. </p> 
-   <p>För ett projekt [!DNL Workfront] använder följande formel för att beräkna [!UICONTROL Planned Expense Cost]:</p> <p><code>Project [!UICONTROL Planned Expense Cost] = SUM (All Project [!UICONTROL Planned Expense Costs]) + SUM (All Tasks [!UICONTROL Planned Expense Costs])</code> </p> 
+   <td> <p>Summan av [!UICONTROL Planned Amounts] för alla utgifter som loggats för ett projekt eller en uppgift.</p> <p><b>EXEMPEL</b></p>
+   <p>Om du skapar en utgift för Uppgift 1 och anger 600,00 USD i fältet [!UICONTROL Planned Amount], är [!UICONTROL Planned Expense Cost] för den här aktiviteten 600,00 USD. </p> 
+   <p>För ett projekt använder [!DNL Workfront] följande formel för att beräkna [!UICONTROL Planned Expense Cost]:</p> <p><code>Project [!UICONTROL Planned Expense Cost] = SUM (All Project [!UICONTROL Planned Expense Costs]) + SUM (All Tasks [!UICONTROL Planned Expense Costs])</code> </p> 
    <!--
      <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (Drafting this because not sure if this is correct anymore)</p>
     --> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Hours]</td> 
-   <td> <p>Det här fältet visas i [!UICONTROL projects], [!UICONTROL tasks]och problemområden, rapporter för projekt, uppgifter eller problem samt resurshanteringsverktyg som [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] och [!UICONTROL Utilization] rapport. </p> <p>Den visar hur många timmar projektägaren uppskattar att varje uppgift eller problem ska ta att slutföra. För projekt är det i allmänhet en sammanslagning av [!UICONTROL Planned Hours] från uppgifterna i projektet. </p> <p>The [!UICONTROL Planned Hours] fältet kan visa olika information beroende på varifrån du visar det. Mer information om planerade timmar finns i <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Översikt över planerade timmar</a>.</p> <p>Planerade timmar sparas i minuter i [!DNL Workfront] databas. När du skriver beräkningar med det här fältet måste du ta hänsyn till att timmarna visas som minuter.<br></p> <p>Som standard fördelas Planerade timmar jämnt till alla dagar under en arbetsuppgifts varaktighet och även till alla resurser som tilldelats uppgiften. Användare kan uppdatera det dagliga antalet planerade timmar för en arbetsuppgift eller de enskilda planerade timmarna för varje tilldelad.</p> <p>Det här fältet uppdateras inte för projekt, uppgifter och problem: </p> 
+   <td> <p>Det här fältet visas i [!UICONTROL projects]-, [!UICONTROL tasks]- och problemområdena, rapporter för projekt, uppgifter eller problem samt resurshanteringsverktyg som [!UICONTROL Resource Planner]-, [!UICONTROL Workload Balancer]- och [!UICONTROL Utilization]-rapporten. </p> <p>Den visar hur många timmar projektägaren uppskattar att varje uppgift eller problem ska ta att slutföra. För projekt är det vanligtvis en sammanslagning av [!UICONTROL Planned Hours] från aktiviteterna i projektet. </p> <p>Fältet [!UICONTROL Planned Hours] kan visa olika information beroende på varifrån du visar den. Mer information om planerade timmar finns i <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Översikt över planerade timmar</a>.</p> <p>Planerade timmar lagras i minuter i databasen [!DNL Workfront]. När du skriver beräkningar med det här fältet måste du ta hänsyn till att timmarna visas som minuter.<br></p> <p>Som standard fördelas Planerade timmar jämnt till alla dagar under en arbetsuppgifts varaktighet och även till alla resurser som tilldelats uppgiften. Användare kan uppdatera det dagliga antalet planerade timmar för en arbetsuppgift eller de enskilda planerade timmarna för varje tilldelad.</p> <p>Det här fältet uppdateras inte för projekt, uppgifter och problem: </p> 
     <ul> 
-     <li> <p>För problem kan du uppdatera det här fältet manuellt. Planerade timmar för utleverans läggs inte till i projektplanerade timmar. </p> <p><b>TIPS</b></p> <p>I en problemrapport är en av [!UICONTROL Planned Hours] fälten ersätts med [!UICONTROL Work] fält. I fältet visas antalet planerade timmar för problemet. Mer information finns i "arbetet" eller "[!UICONTROL Work]" i denna tabell. </p> </li> 
+     <li> <p>För problem kan du uppdatera det här fältet manuellt. Planerade timmar för utleverans läggs inte till i projektplanerade timmar. </p> <p><b>TIPS</b></p> <p>I en problemrapport ersätts ett av [!UICONTROL Planned Hours]-fälten med fältet [!UICONTROL Work]. I fältet visas antalet planerade timmar för problemet. Mer information finns i fälten "work" och "[!UICONTROL Work]" i den här tabellen. </p> </li> 
     </ul> 
     <ul> 
-     <li> <p>För uppgifter kan du uppdatera det här fältet manuellt när [!UICONTROL Duration Type] för uppgiften är [!UICONTROL Calculated Assignment] eller [!UICONTROL Simple]. Detta fält beräknas med [!DNL Workfront] när [!UICONTROL Duration Type] för uppgiften är [!UICONTROL Calculated Work] eller [!UICONTROL Effort Driven].<br>Mer information om [!UICONTROL Task Duration], se artikeln <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över uppgift [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> </li> 
+     <li> <p>För uppgifter kan du uppdatera det här fältet manuellt när [!UICONTROL Duration Type] för uppgiften är [!UICONTROL Calculated Assignment] eller [!UICONTROL Simple]. Det här fältet beräknas av [!DNL Workfront] när [!UICONTROL Duration Type] för aktiviteten är [!UICONTROL Calculated Work] eller [!UICONTROL Effort Driven].<br>Mer information om [!UICONTROL Task Duration] finns i artikeln <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Duration] och [!UICONTROL Duration Type]</a>.</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>För projekt [!DNL Workfront] beräknar antalet planerade timmar genom att lägga till alla planerade timmar från alla aktiviteter i projektet. </p> </li> 
-    </ul> <p><b>TIPS</b></p> <p>Du kan visa [!UICONTROL Planned Hours] in [!UICONTROL project], [!UICONTROL task], eller [!UICONTROL issues] rapporterar också genom att använda textläge och referera till ytterligare fält. Mer information finns i "<code>work</code>", "[!UICONTROL Work]", och "<code>workRequiredExpression</code>" i denna tabell. </p> </td> 
+     <li> <p>För projekt beräknar [!DNL Workfront] de planerade timmarna genom att lägga till alla planerade timmar från alla aktiviteter i projektet. </p> </li> 
+    </ul> <p><b>TIPS</b></p> <p>Du kan även visa [!UICONTROL Planned Hours] i [!UICONTROL project]-, [!UICONTROL task]- eller [!UICONTROL issues]-rapporter genom att använda textläge och referera till ytterligare fält. Mer information finns i fälten <code>work</code>, [!UICONTROL Work] och <code>workRequiredExpression</code> i den här tabellen. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Labor Cost]</td> 
    <td> 
-    <p>För en uppgift, timpriset för användaren eller rollen multiplicerat med antalet timmar som tilldelats användaren eller rollen.</p> <p>För ett projekt är det totalt [!UICONTROL Planned Labor Costs] av alla uppgifter.</p> <p>Huruvida användarfrekvensen eller rollen används beror på vilken kostnadstyp som har valts för den angivna uppgiften. </p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> </td> 
+    <p>För en uppgift, timpriset för användaren eller rollen multiplicerat med antalet timmar som tilldelats användaren eller rollen.</p> <p>För ett projekt är det totalt [!UICONTROL Planned Labor Costs] av alla aktiviteter.</p> <p>Huruvida användarfrekvensen eller rollen används beror på vilken kostnadstyp som har valts för den angivna uppgiften. </p> <p>Mer information finns i <a href="../../../manage-work/projects/project-finances/track-costs.md">Spåra kostnader</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Revenue]</td> 
-   <td> <p>Uppgifter och projekt kan visa ett värde för [!UICONTROL Planned Revenue] in [!DNL Workfront]. [!UICONTROL Planned Revenue] representerar det penningbelopp som är associerat med [!UICONTROL Planned Hours] av projektets uppgifter. För projekt kan den även innehålla [!UICONTROL Fixed Revenue] av projektet. </p> <p>För uppgifter är detta de intäkter som är kopplade till [!UICONTROL Planned Hours] av uppgifter. Planerade timmar från alla uppgifter räknas upp till projektets planerade timmar för att bidra till beräkningen av projektet [!UICONTROL Planned Hours]. </p> 
-   <p>[!DNL Workfront] beräknar [!UICONTROL Planned Revenue] för uppgifter och projekt med hjälp av följande formler:</p> 
+   <td> <p>Uppgifter och projekt kan visa ett värde för [!UICONTROL Planned Revenue] i [!DNL Workfront]. [!UICONTROL Planned Revenue] representerar summan som är associerad med [!UICONTROL Planned Hours] för aktiviteterna i projektet. För projekt kan den även innehålla [!UICONTROL Fixed Revenue] av projektet. </p> <p>För uppgifter är detta den intäkt som är associerad med [!UICONTROL Planned Hours] av aktiviteter. Planerade timmar från alla aktiviteter räknas upp till projektets planerade timmar för att bidra till beräkningen av projektet [!UICONTROL Planned Hours]. </p> 
+   <p>[!DNL Workfront] beräknar [!UICONTROL Planned Revenue] för aktiviteter och projekt med följande formler:</p> 
    <p><code>Task [!UICONTROL Planned Revenue] = [!UICONTROL Planned Hours] * Billing hourly rate</code> </p> <p><code>Project [!UICONTROL Planned Revenue] = SUM (All tasks [!UICONTROL Planned Revenue]) + [!UICONTROL Fixed Revenue]</code> </p> 
    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
     --> 
-    <p>Projektet [!UICONTROL Planned Revenue] som visas i [!UICONTROL Project Details] området och i projektrapporter skiljer sig från den planerade intäkten som visas i [!UICONTROL Utilization] rapport. </p> <p>The [!UICONTROL Planned Revenue] i [!UICONTROL Project Details] -området återspeglar aktivitetens intäkter samt projektets fasta inkomster. The [!UICONTROL Planned Revenue] i [!UICONTROL Utilization Report] visar [!UICONTROL Planned Revenue] som bara är kopplade till aktiviteterna i projektet. </p> 
+    <p>Projektet [!UICONTROL Planned Revenue] som visas i området [!UICONTROL Project Details] och i projektrapporter skiljer sig från den planerade intäkten som visas i rapporten [!UICONTROL Utilization]. </p> <p>[!UICONTROL Planned Revenue] i området [!UICONTROL Project Details] visar aktivitetsintäkten samt projektets fasta intäkt. [!UICONTROL Planned Revenue] i [!UICONTROL Utilization Report] visar [!UICONTROL Planned Revenue] som bara är associerad med aktiviteterna i projektet. </p> 
      <p><b>EXEMPEL</b></p>  
-      <p>Om projektet har 1 uppgift med 10 timmar, som tilldelats en konsult med en timtaxa på 20 USD och projektet har 100 USD [!UICONTROL Fixed Revenue], [!UICONTROL Utilization] rapporten visar $200 för [!UICONTROL Planned Revenue] (på [!UICONTROL Planned Revenue] som är kopplade till timmarna för aktiviteten). The [!UICONTROL Project Details] visas $300 ( [!UICONTROL Planned Revenue] från aktiviteten och fasta intäkter för projektet.) </p> 
-    <p>Mer information om hur du spårar intäkter i [!DNL Workfront] se <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md">Översikt över fakturering och intäkt</a>. </p> 
-    <p>Mer information om [!UICONTROL Planned Revenue] beräkningar i [!UICONTROL Utilization report], se <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">Visa information om resursutnyttjande </a>. </p> 
+      <p>Om projektet har en aktivitet med 10 timmar, som tilldelats en konsult med en timtaxa på 20 USD och projektet har $100 [!UICONTROL Fixed Revenue], visar [!UICONTROL Utilization]-rapporten [!UICONTROL Planned Revenue] $200 för [!UICONTROL Planned Revenue] (den  som är associerad med timmarna för aktiviteten). I avsnittet [!UICONTROL Project Details] visas $300 ([!UICONTROL Planned Revenue] från aktiviteten och Fast intäkt för projektet). </p> 
+    <p>Mer information om att spåra intäkter i [!DNL Workfront] finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md">Översikt över fakturering och intäkter</a>. </p> 
+    <p>Mer information om [!UICONTROL Planned Revenue]-beräkningar i [!UICONTROL Utilization report] finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">Visa information om resursutnyttjande </a>. </p> 
     </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Risk Cost]</td> 
-   <td> <p>Summan av [!UICONTROL Potential Cost] av alla risker för projektfaktorerna i Sannolikheten att de ska inträffa. Detta belopp ingår inte i [!UICONTROL Planned Cost] av projektet.</p> <p>The [!UICONTROL Planned Risk Cost] för ett projekt beräknas med följande formel:</p> <p><code>Planned Risk Cost = SUM(Potential Risk Cost * Probability / 100)</code> </p> </td> 
+   <td> <p>Summan av [!UICONTROL Potential Cost] av alla risker för projektfactoring i Sannolikheten för att de ska uppstå. Detta belopp ingår inte i [!UICONTROL Planned Cost] för projektet.</p> <p>[!UICONTROL Planned Risk Cost] för ett projekt beräknas med följande formel:</p> <p><code>Planned Risk Cost = SUM(Potential Risk Cost * Probability / 100)</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>En administratörsdefinierad samling flikar och portalavsnitt som visas på [!DNL Workfront] Program [!UICONTROL Home] och andra Dashboards.</td> 
+   <td>En administratörsdefinierad samling flikar och portalavsnitt som visas i [!DNL Workfront]-programmet [!UICONTROL Home] och andra instrumentpaneler.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 
@@ -1609,7 +1609,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Portfolio]</td> 
-   <td> <p>En samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp Portfolio i Program och associera projekten med Program innan de läggs till i Portfolio.</p> <p>Mer information om portföljer finns i <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Portfolio, översikt i [!DNL Adobe Workfront]</a>.</p> 
+   <td> <p>En samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Du kan dela upp Portfolio i Program och associera projekten med Program innan de läggs till i Portfolio.</p> <p>Mer information om portföljer finns i <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md">Översikt över Portfolio i [!DNL Adobe Workfront]</a>.</p> 
    </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
@@ -1618,7 +1618,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Portfolio Optimizer]</td> 
-   <td>A [!DNL Workfront] verktyg för att bedöma och prioritera projekt i en portfölj.</td> 
+   <td>Ett [!DNL Workfront]-verktyg som kan användas för att utvärdera och prioritera projekt i en portfölj.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Portfolio Owner]</td> 
@@ -1630,7 +1630,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Predecessor]</td> 
-   <td> <p>En uppgift som måste slutföras innan en beroende uppgift kan slutföras. En uppgift som är markerad som en [!UICONTROL Dependency] för en annan uppgift. Föregångare låter planeraren ange sekvensberoendelogik, till exempel att starta en aktivitet när en annan uppgift har slutförts.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Översikt över föregående aktiviteter</a>.</p> </td> 
+   <td> <p>En uppgift som måste slutföras innan en beroende uppgift kan slutföras. En aktivitet som är markerad som [!UICONTROL Dependency] för en annan aktivitet. Föregångare låter planeraren ange sekvensberoendelogik, till exempel att starta en aktivitet när en annan uppgift har slutförts.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Översikt över föregående aktiviteter</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Primary Company]</td> 
@@ -1638,9 +1638,9 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Primary Contact]</td> 
-   <td><p>The [!UICONTROL Primary Contact] är skapare av ett problem och den utses automatiskt av [!DNL Workfront] när någon skapar ett problem. Du kan uppdatera fältet manuellt om du har [!DNL Manage] behörighet till problemet. Ett problem kan bara ha en primär kontakt.</p> 
-   <p>Om du ändrar den primära kontakten har den användare som ursprungligen utsetts till primär kontakt fortfarande kvar [!UICONTROL Manage] tillgång till problemet.</p>
-   <p>När du konverterar ett problem till en uppgift eller ett projekt är den användare som anges som [!UICONTROL Primary Contact] av problemet blir [!UICONTROL Converted Issue Originator] av projektet eller uppgiften. Om [!UICONTROL Primary Contact] om problemet uppdateras efter att problemet konverterades [!UICONTROL Converted Issue Originator] bevaras som [!UICONTROL Primary Contact] av problemet vid tidpunkten då konverteringen inträffade. Se även "[!UICONTROL Converted Issue Originator]" i den här artikeln.</p> 
+   <td><p>[!UICONTROL Primary Contact] är skapare av ett problem och identifieras automatiskt av [!DNL Workfront] när någon skapar problemet. Du kan uppdatera det här fältet manuellt om du har [!DNL Manage] behörigheter för problemet. Ett problem kan bara ha en primär kontakt.</p> 
+   <p>Om du ändrar den primära kontakten har den användare som ursprungligen utsågs till primär kontakt fortfarande [!UICONTROL Manage] åtkomst till problemet.</p>
+   <p>När du konverterar ett problem till en aktivitet eller ett projekt blir den användare som är angiven som [!UICONTROL Primary Contact] för problemet [!UICONTROL Converted Issue Originator] för projektet eller aktiviteten. Om [!UICONTROL Primary Contact] av utgåvan uppdateras efter att utgåvan konverterades, kommer [!UICONTROL Converted Issue Originator] att bevaras som [!UICONTROL Primary Contact] för utgåvan när konverteringen inträffade. Se även [!UICONTROL Converted Issue Originator] i den här artikeln.</p> 
    </td> 
   </tr>
   <tr> 
@@ -1649,7 +1649,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Private]</td> 
-   <td>På en [!UICONTROL Note] eller [!UICONTROL Document], gör det här alternativet det objektet dolt för de flesta visningsprogram. För en kö med privata hjälpförfrågningar kan endast användare i projektgruppen skicka utgåvor till den kön (eller projektet) via [!UICONTROL Requests] område.</td> 
+   <td>På en [!UICONTROL Note] eller [!UICONTROL Document] gör det här alternativet det objektet dolt för de flesta visningsprogram. För en kö med privata hjälpförfrågningar kan bara användare i projektgruppen skicka utgåvor till den kön (eller projektet) via området [!UICONTROL Requests].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Profile]</td> 
@@ -1669,25 +1669,25 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>[!UICONTROL Progress]</span> </td> 
-   <td> <p>I en [!UICONTROL Goal] rapporten visar procentandelen av hur nära ett strategiskt mål är att slutföra. Procentandelen av förloppet visas som ett tal. Mer information om strategiska mål finns också i[!UICONTROL Goal]" i denna tabell.</p> <p>Det här fältet visas bara om din organisation har köpt [!DNL Workfront] Mål. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals], se <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> Lägg till projekt i mål i [!DNL Adobe Workfront Goals] </a>. </p> </td> 
+   <td> <p>I en [!UICONTROL Goal]-rapport visas procentandelen av hur nära ett strategiskt mål är att slutföra. Procentandelen av förloppet visas som ett tal. Mer information om strategiska mål finns också i [!UICONTROL Goal] i den här tabellen.</p> <p>Det här fältet är bara synligt om din organisation har köpt [!DNL Workfront] mål. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md"> Lägga till projekt i mål i [!DNL Adobe Workfront Goals] </a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Progress Status]</td> 
    <td> <p>I en rapport om projekt, aktivitet och mål visas statusvärdet för projekt, uppgifter eller strategiska mål i det här fältet. Mer information finns i följande artiklar:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Översikt över status för projektförlopp</a> </p> </li> 
-     <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a> </p> </li> 
-     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Översikt över målets förlopp och villkor i [!DNL Adobe Workfront Goals]</a> </p>
-     <p>The [!UICONTROL Goal] rapporten och [!UICONTROL Progress Status] for [!DNL goals] -fältet visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om strategiska mål finns i [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] översikt</a>. </p> </li>
+     <li> <p><a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för aktivitetsstatus</a> </p> </li> 
+     <li> <p><a href="../../../workfront-goals/goal-management/calculate-goal-progress.md">Översikt över målförlopp och villkor i [!DNL Adobe Workfront Goals]</a> </p>
+     <p>Rapporten [!UICONTROL Goal] och fältet [!UICONTROL Progress Status] for [!DNL goals] visas bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om strategiska mål i [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] översikt</a>. </p> </li>
     </ul> </td> 
   </tr> 
   <td>[!UICONTROL Project]</td> 
-   <td> <p>En stor mängd arbete som måste slutföras inom en viss tidsram och som måste använda en viss budget och ett visst antal resurser. För att projektet ska bli hanterbart delar du upp det i en serie uppgifter. När du slutför alla uppgifter slutförs projektet. Information om hur du planerar ett projekt finns i <a href="../../../manage-work/projects/planning-a-project/plan-project.md">Planera en projektöversikt</a>.</p> 
+   <td> <p>En stor mängd arbete som måste slutföras inom en viss tidsram och som måste använda en viss budget och ett visst antal resurser. För att projektet ska bli hanterbart delar du upp det i en serie uppgifter. När du slutför alla uppgifter slutförs projektet. Mer information om hur du planerar ett projekt finns i <a href="../../../manage-work/projects/planning-a-project/plan-project.md">Planera en projektöversikt</a>.</p> 
   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Assignment Planned Hours]</td> 
-   <td> <p>I en [!UICONTROL Initiative Job Role] rapport, här visas antalet [!UICONTROL Planned Hours] associeras med en jobbroll som tilldelats aktiviteter eller utgåvor i projektet. Det här fältet och [!UICONTROL Initiative Job Role] rapporttypen visas inte i [!DNL Workfront] om inte företaget har köpt en [!DNL Workfront Scenario Planner] licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Workfront Scenario Planner] översikt</a>. </p> </td> 
+   <td> <p>I en [!UICONTROL Initiative Job Role]-rapport visar det här antalet [!UICONTROL Planned Hours] som är associerade med en jobbroll som är tilldelad aktiviteter eller ärenden i projektet. Det här fältet och rapporttypen [!UICONTROL Initiative Job Role] visas inte i din [!DNL Workfront]-instans om inte företaget har köpt en [!DNL Workfront Scenario Planner]-licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt [!DNL Workfront Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Details]</td> 
@@ -1695,7 +1695,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Budgeted Cost]</td> 
-   <td> <p> Det här är [!UICONTROL Budgeted Cost] för ett projekt så som det visas i listor och rapporter.</p><p>Se även "[!UICONTROL Budgeted Cost]" i den här artikeln.</p></td> 
+   <td> <p> Detta är [!UICONTROL Budgeted Cost] för ett projekt så som det visas i listor och rapporter.</p><p>Se även [!UICONTROL Budgeted Cost] i den här artikeln.</p></td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Project Management]</td> 
@@ -1703,7 +1703,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Project Overhead]</td> 
-   <td>I en [!UICONTROL Hour] rapport, det här fältet är reserverat för ekonomisk information som är knuten till de timmar som loggas med timtypen för [!UICONTROL Project Time]. Projekt kan ha egna faktureringstariffer och om en timme loggas direkt i ett projekt används dessa i beräkningar. Baserat på projektinställningarna kan projekt också ha olika valutor och det kan finnas en valutakonvertering för dessa timmar. The [!UICONTROL Project Overhead] objekt tillåter [!DNL Workfront] för att få den informationen.</td> 
+   <td>I en [!UICONTROL Hour]-rapport är det här fältet reserverat för ekonomisk information som är knuten till de timmar som loggas med timtypen [!UICONTROL Project Time]. Projekt kan ha egna faktureringstariffer och om en timme loggas direkt i ett projekt används dessa i beräkningar. Baserat på projektinställningarna kan projekt också ha olika valutor och det kan finnas en valutakonvertering för dessa timmar. Objektet [!UICONTROL Project Overhead] tillåter [!DNL Workfront] att hämta den informationen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Owner]</td> 
@@ -1715,7 +1715,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Sponsor]</td> 
-   <td>En utsedd intressentprofil som var och en av dina användare ska relatera till. I [!DNL Workfront], de betecknas som [!UICONTROL Access Levels]</td> 
+   <td>En utsedd intressentprofil som var och en av dina användare ska relatera till. I [!DNL Workfront] är de angivna som [!UICONTROL Access Levels]</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Teams]</td> 
@@ -1727,27 +1727,27 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Projected]</td> 
-   <td> <p>En uppskattning av tidsstämpeln för när arbetet ska slutföras baserat på planerade timmar och procent slutfört för en uppgift, utleverans eller projekt.</p> <p>Detta avser datum eller [!UICONTROL Duration] av uppgifter, ärenden eller projekt. Vanligtvis anger det datum och tidslängd som stämmer bättre med arbetsobjektens livslängd, efter att en del arbete redan har slutförts eller någon tid har gått. </p> <p>Till exempel [!UICONTROL Projected Completion Date] för en uppgift är det datum då [!DNL Workfront] uppskattar att uppgiften kommer att slutföras, baserat på hur mycket arbete som har utförts hittills, hur många som har tilldelats uppgiften och hur lång tid som har gått sedan startdatumet.</p> </td> 
+   <td> <p>En uppskattning av tidsstämpeln för när arbetet ska slutföras baserat på planerade timmar och procent slutfört för en uppgift, utleverans eller projekt.</p> <p>Det här refererar till datum eller [!UICONTROL Duration] för aktiviteter, utgåvor eller projekt. Vanligtvis anger det datum och tidslängd som stämmer bättre med arbetsobjektens livslängd, efter att en del arbete redan har slutförts eller någon tid har gått. </p> <p>[!UICONTROL Projected Completion Date] för en aktivitet är till exempel det datum då [!DNL Workfront] uppskattar att aktiviteten kommer att slutföras, baserat på hur mycket arbete som har utförts hittills, hur många som har tilldelats den och hur lång tid som har gått sedan startdatumet.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Deadline]</td> 
-   <td> <p>I rapporter som innehåller [!UICONTROL Document Version] objekt (till exempel [!UICONTROL Document Version] rapportera och [!UICONTROL Proof Approval] rapport), Det här fältet visar veckodag, datum, tid på dagen och år för korrekturdeadline.</p> </td> 
+   <td> <p>I rapporter som innehåller objektet [!UICONTROL Document Version] (t.ex. en [!UICONTROL Document Version]-rapport och en [!UICONTROL Proof Approval]-rapport), visas veckodag, datum, tid och år för korrekturdeadline.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Decision]</td> 
-   <td> <p>I rapporter som innehåller [!UICONTROL Document Version] objekt (till exempel [!UICONTROL Document Version] rapportera och [!UICONTROL Proof Approval] rapport), this field displays the Decision status of the proof (pending, changes required, or approved)</p> </td> 
+   <td> <p>I rapporter som innehåller objektet [!UICONTROL Document Version] (till exempel en [!UICONTROL Document Version]-rapport)  och [!UICONTROL Proof Approval] rapport) visar det här fältet bevisets beslutsstatus (väntande, ändringar krävs eller godkänt)</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Name]</td> 
-   <td> <p>I rapporter som innehåller [!UICONTROL Document Version] objekt (till exempel [!UICONTROL Document Version] rapportera och [!UICONTROL Proof Approval] rapport), visas korrekturnamnet i det här fältet.</p> </td> 
+   <td> <p>I rapporter som innehåller [!UICONTROL Document Version]-objektet (till exempel en [!UICONTROL Document Version]-rapport och en [!UICONTROL Proof Approval]-rapport) visas korrekturnamnet i det här fältet.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Pages]</td> 
-   <td> <p>I rapporter som innehåller [!UICONTROL Document Version] objekt (till exempel [!UICONTROL Document Version] rapportera och [!UICONTROL Proof Approval] rapport) visas antalet sidor som ingår i korrekturet.</p> </td> 
+   <td> <p>I rapporter som innehåller objektet [!UICONTROL Document Version] (till exempel en [!UICONTROL Document Version]-rapport och en [!UICONTROL Proof Approval]-rapport), visar det här fältet antalet sidor som ingår i korrekturet.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Progress]</td> 
-   <td> <p>I rapporter som innehåller [!UICONTROL Document Version] objekt (till exempel [!UICONTROL Document Version] rapportera och [!UICONTROL Proof Approval] rapport), visar korrekturens förloppsstatus ([!UICONTROL Sent], [!UICONTROL Opened], [!UICONTROL Commented], [!UICONTROL Decision Made]).</p> <p>Mer information finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">Översikt över korrekturstatus</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">Översikt över korrektur och status</a>.</p> </td> 
+   <td> <p>I rapporter som innehåller [!UICONTROL Document Version]-objektet (till exempel en [!UICONTROL Document Version]-rapport och en [!UICONTROL Proof Approval]-rapport) visas korrekturens förloppsstatus ([!UICONTROL Sent], [!UICONTROL Opened], [!UICONTROL Commented], [!UICONTROL Decision Made]).</p> <p>Mer information finns i <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md#understanding-progress-and-status" class="MCXref xref">Översikt över korrekturförloppet</a> i <a href="../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md" class="MCXref xref">Översikt över korrekturförlopp och status</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proofing]</td> 
@@ -1755,7 +1755,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Public]</td> 
-   <td>På en [!UICONTROL Note] eller [!UICONTROL Document], gör det här alternativet det objektet tillgängligt för andra användare, eller till och med personer utifrån [!DNL Workfront]. För [!UICONTROL Help Request Queue], [!UICONTROL Public] innebär att alla användare som kan skicka in utgåvor till ett projekt kan skicka utgåvor via [!UICONTROL Requests] område.</td> 
+   <td>På en [!UICONTROL Note] eller [!UICONTROL Document] gör det här alternativet objektet tillgängligt för andra användare, eller till och med personer utanför [!DNL Workfront]. För [!UICONTROL Help Request Queue] betyder [!UICONTROL Public] att alla användare som kan skicka problem till ett projekt kan skicka problem via området [!UICONTROL Requests].</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Quality]</td> 
@@ -1763,15 +1763,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Queue]</td> 
-   <td>Kallas även helpdesk-kö eller [!UICONTROL Help Request Queue]. Detta är ett projekt som har publicerats i [!UICONTROL Requests] så att användarna kan skicka frågor till den. Vanligtvis skapas köer för särskilda ämnen, som [!UICONTROL Bugs], [!UICONTROL Project Requests], osv.</td> 
+   <td>Kallas även Help Desk Queue eller [!UICONTROL Help Request Queue]. Det här är ett projekt som har publicerats i området [!UICONTROL Requests] så att användare kan skicka utgåvor till det. Vanligtvis skapas köer för särskilda ämnen, som [!UICONTROL Bugs], [!UICONTROL Project Requests] osv.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Queue Properties]</td> 
-   <td>De här inställningarna definierar regler för att skicka utgåvor för ett projekt som publiceras till [!UICONTROL Requests] område.</td> 
+   <td>De här inställningarna definierar regler för att skicka utgåvor för ett projekt som publiceras till [!UICONTROL Requests]-området.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Queue Topic]</td> 
-   <td> <p>En egenskap på en [!UICONTROL Help Request Queue] som gör att användare som skickar in ett problem kan välja ett ämne. Ämnen kan:</p> 
+   <td> <p>En egenskap på en [!UICONTROL Help Request Queue] som tillåter användare som skickar ett problem att välja ett ämne. Ämnen kan:</p> 
     <ul> 
      <li>Kopplas till ett anpassat dataformulär.</li> 
      <li>Tilldela automatiskt utgåvan till en användare, roll eller team genom att ange routningsregeln för det valda ämnet.</li> 
@@ -1780,35 +1780,46 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Rank]</td> 
-   <td> <p>I en [!UICONTROL Access Level] kan du manuellt ange en [!UICONTROL Rank] i [!UICONTROL Access Level]. Detta hjälper dig att [!DNL Workfront] administratör, för att visuellt identifiera den komplexitetsnivå som är kopplad till varje åtkomstnivå. Du kan till exempel ge lägre tal för mer komplexa ([!UICONTROL Plan]-level) Åtkomstnivåer och högre tal för mindre komplexa ([!UICONTROL Requester]-level) Åtkomstnivåer. Du kan inte rangordna standardåtkomstnivåer. </p> </td> 
+   <td> <p>I en [!UICONTROL Access Level]-rapport kan du manuellt ange en [!UICONTROL Rank] av [!UICONTROL Access Level]. Detta hjälper dig som [!DNL Workfront]-administratör att visuellt identifiera den komplexitetsnivå som är kopplad till varje åtkomstnivå. Du kan till exempel ge lägre tal för mer komplexa ([!UICONTROL Plan]-nivå) åtkomstnivåer och högre tal för mindre komplexa ([!UICONTROL Requester]-nivå) åtkomstnivåer. Du kan inte rangordna standardåtkomstnivåer. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ready]</td> 
-   <td> <p>Det här fältet i en uppgiftsrapport anger om en [!UICONTROL Agile] aktiviteten har markerats som [!UICONTROL Ready] på eftersläpningen. Den här flaggan gäller endast för [!UICONTROL Agile] uppgifter, som är uppgifter som tilldelats en [!UICONTROL Agile] team. </p> </td> 
+   <td> <p>Det här fältet i en aktivitetsrapport anger om en [!UICONTROL Agile]-aktivitet har markerats som [!UICONTROL Ready] i efterloggen. Den här flaggan gäller bara för [!UICONTROL Agile] aktiviteter, som är uppgifter som tilldelats ett [!UICONTROL Agile]-team. </p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
-   <td> <p>Ett fält som visas i [!UICONTROL Task Details] eller [!UICONTROL Edit Task] ruta för en överordnad till återkommande uppgifter. Det är den frekvens med vilken uppgifterna i återgivningen inträffar. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>. </p> </td> 
+   <td> <p>Ett fält som visas i rutan [!UICONTROL Task Details] eller [!UICONTROL Edit Task] för en överordnad för återkommande uppgifter. Det är den frekvens med vilken uppgifterna i återgivningen inträffar. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Reference Number]</td> 
-   <td> <p>Projekt, uppgifter och ärenden kopplas automatiskt till ett unikt referensnummer när de skapas. Du kan visa [!UICONTROL Reference Number] i [!UICONTROL Details] sida med projekt, uppgifter eller problem, eller i en lista eller rapport. </p> <p><b>TIPS</b><p><br>Du kan använda referensnummer när två objekt har samma namn, eftersom referensnummer alltid är unika. </p> <p>[!DNL Workfront] genererar automatiskt sekventiella referensnummer på systemnivå. Varje projekt, uppgift eller utgåva får nästa tillgängliga nummer i sekvensen. <br></p> <p>Om till exempel Användare A skapar en uppgift [!DNL Workfront] kan automatiskt tilldela uppgiften referensnumret 100. Om Användare B skapar ett problem direkt efter detta, [!DNL Workfront] tilldelar utgåvan referensnumret 101. Du kan inte redigera referensnummer manuellt. </p> </td> 
+   <td> <p>Projekt, uppgifter och ärenden kopplas automatiskt till ett unikt referensnummer när de skapas. Du kan visa [!UICONTROL Reference Number] på sidan [!UICONTROL Details] med projekt, uppgifter eller problem, eller i en lista eller rapport. </p> <p><b>TIPS</b><p><br>Du kan använda referensnummer när två objekt har samma namn, eftersom referensnummer alltid är unika. </p> <p>[!DNL Workfront] genererar automatiskt sekventiella referensnummer på systemnivå. Varje projekt, uppgift eller utgåva får nästa tillgängliga nummer i sekvensen. <br></p> <p>Om till exempel Användare A skapar en uppgift kan [!DNL Workfront] automatiskt tilldela uppgiften referensnumret 100. Om Användare B skapar ett problem direkt efter detta tilldelar [!DNL Workfront] numret 101 till utgåvan. Du kan inte redigera referensnummer manuellt. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Rejection Issue]</td> 
    <td>I ett projekt eller en aktivitetsrapport är det här problemet som skapas när godkännandet för projektet eller uppgiften avvisas. Mer information om refuseringsproblem finns i artikeln <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>. </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr>
+  <td>Relationstyper</td>
+  <td><p>Workfront-objekt är alltid kopplade till varandra med någon av följande relationstyper:</p>
+
+<ul><li> <b>Ett till många</b>: I den här relationen kan ett objekt anslutas till flera andra objekt av olika typer. Ett projekt kan t.ex. ha flera uppgifter. Relationen projekt-uppgifter är en relation som är en för många. Du kan inte visa den här relationen i en rapport med hjälp av standardgränssnittet. Du måste använda textlägesrapportering för att visa en till flera relationer.</li>
+  <li><b>Ett till ett</b>: I den här relationen kan ett objekt bara vara anslutet till ett annat objekt av en annan typ. Ett projekt kan t.ex. bara ha en grupp. Projekt-grupprelationen är en relation som skiljer sig från en. Du kan visa en till en relation mellan objekt i en standardrapport.</li>
+  <li><b>Många till ett</b>: I den här relationen kan flera objekt bara vara kopplade till ett annat objekt av en annan typ. Flera uppgifter kan till exempel vara anslutna till samma projekt. Relationen Aktiviteter och projekt är många till en relation. Du kan visa många till en relation mellan objekt i en standardrapport. </li>
+  <li><b>Många till många</b>: I den här relationen kan flera objekt av samma typ kopplas till flera objekt av en annan typ. Flera användare kan till exempel tillhöra flera andra team, och teamen kan tillhöra flera användare. Du kan inte visa den här relationen i en rapport med hjälp av standardgränssnittet. Du måste använda textlägesrapportering för att visa många till många relationer. </li> </ul>
+  </td></tr>
+<tr> 
    <td>[!UICONTROL Remaining Risk Cost]</td> 
-   <td> <p>Ett projektfält som visar skillnaden mellan [!UICONTROL Planned Risk Cost] för ett projekt och summan av [!UICONTROL Actual Costs] av alla risker i projektet. </p> <p>The [!UICONTROL Remaining Risk Cost] för ett projekt beräknas med följande formel:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
-  </tr> 
-  <tr> 
+   <td> <p>Ett projektfält som visar skillnaden mellan [!UICONTROL Planned Risk Cost] för ett projekt och summan av alla [!UICONTROL Actual Costs] risker i projektet. </p> <p>[!UICONTROL Remaining Risk Cost] för ett projekt beräknas med följande formel:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Replanning]</td> 
    <td>Ändra datum för ett projekt för att reparera eller lösa problem. Ett projekt som har varit parkerat i flera månader måste till exempel planeras om för att återspegla korrekta datum. Detta är en manuell åtgärd som innebär att du justerar antingen datum för projektet eller datum för uppgifterna. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Report]</td> 
-   <td>Ett diagram eller en tabell som innehåller information om ett givet [!DNL Workfront] -objektet och dess relaterade attribut.</td> 
+   <td>Ett diagram eller en tabell som innehåller information om ett givet [!DNL Workfront]-objekt och dess relaterade attribut.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Request]</td> 
@@ -1828,23 +1839,23 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Reserved Time]</td> 
-   <td>Dagar som anges på användarens personliga tid, vilket anger att användaren inte kommer att vara tillgänglig för arbete. Se "[!UICONTROL Non Work Days]".</td> 
+   <td>Dagar som anges på användarens personliga tid, vilket anger att användaren inte kommer att vara tillgänglig för arbete. Se [!UICONTROL Non Work Days].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resolve Issue]</td> 
-   <td> <p>I en problemrapport använder du det här fältet i vyer eller filter för att hänvisa till problemet som löser problemet. </p> <p>Mer information om hur du visar upplösta objekt i rapporter finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">Visa information om objekt som kan lösas och lösas i en rapport</a> in <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> </td> 
+   <td> <p>I en problemrapport använder du det här fältet i vyer eller filter för att hänvisa till problemet som löser problemet. </p> <p>Mer information om hur du visar upplösta objekt i rapporter finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">Visa information om upplösta och upplösta objekt i en rapport</a> i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resolve Project]</td> 
-   <td> <p>I en problemrapport använder du det här fältet i vyer eller filter för att hänvisa till projektet som löser problemet. </p> <p>Mer information om hur du visar upplösta objekt i rapporter finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">Visa information om objekt som kan lösas och lösas i en rapport</a> in <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> </td> 
+   <td> <p>I en problemrapport använder du det här fältet i vyer eller filter för att hänvisa till projektet som löser problemet. </p> <p>Mer information om hur du visar upplösta objekt i rapporter finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">Visa information om upplösta och upplösta objekt i en rapport</a> i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resolve Task]</td> 
-   <td> <p>I en problemrapport använder du det här fältet i vyer eller filter för att hänvisa till den uppgift som löser problemet. </p> <p>Mer information om hur du visar upplösta objekt i rapporter finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">Visa information om objekt som kan lösas och lösas i en rapport</a> in <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> </td> 
+   <td> <p>I en problemrapport använder du det här fältet i vyer eller filter för att hänvisa till den uppgift som löser problemet. </p> <p>Mer information om hur du visar upplösta objekt i rapporter finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md#resolvable-and-resolving-data-in-reports" class="MCXref xref">Visa information om upplösta och upplösta objekt i en rapport</a> i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource]</td> 
-   <td>Användare eller roller som finns i [!DNL Workfront] och har tilldelats projektteam, uppgifter och ärenden. De ansvarar för att slutföra arbetet som är kopplat till projekt, uppgifter eller problem. </td> 
+   <td>Användare eller roller som finns i [!DNL Workfront] och som har tilldelats projektteam, uppgifter och ärenden. De ansvarar för att slutföra arbetet som är kopplat till projekt, uppgifter eller problem. </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Estimates</td> 
@@ -1855,7 +1866,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> -->
   <tr> 
    <td>[!UICONTROL Resource Management]</td> 
-   <td> <p>[!UICONTROL Resource Management] är en företagsverktygsuppsättning som gör att du kan göra en exakt prognos över användningen av dina resurser utifrån deras tillgänglighet, så att det arbete som måste utföras i tid och budget slutförs. </p> <p>Med verktygen för resurshantering kan ni planera långsiktig kapacitet och kortsiktiga planeringsbehov för era resurser. </p> <p>Mer information om resurshantering i [!DNL Workfront], se <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Kom igång med resurshantering</a>.</p> </td> 
+   <td> <p>[!UICONTROL Resource Management] är en företagsverktygsuppsättning som gör att du kan göra en exakt prognos över användningen av dina resurser utifrån deras tillgänglighet, så att det arbete som måste utföras i tid och budget slutförs. </p> <p>Med verktygen för resurshantering kan ni planera långsiktig kapacitet och kortsiktiga planeringsbehov för era resurser. </p> <p>Mer information om resurshantering i [!DNL Workfront] finns i <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Kom igång med resurshantering</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Manager IDs]</td> 
@@ -1863,15 +1874,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Managers]</td> 
-   <td> <p>I en projektrapport eller listvy är detta ett informationsfält som visar användare som är avsedda att utföra resurshanteringsaktiviteter i projektet.  När du använder "[!UICONTROL Resource Managers]" i en rapport visas en lista med resurshanterare, där varje resurshanterare i projektet avgränsas med kommatecken. Du kan utse upp till 30 resurshanterare för ett visst projekt.</p> <p>Mer information finns i artikeln <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Ange resurshanterare för ett projekt eller en mall </a>.</p> </td> 
+   <td> <p>I en projektrapport eller listvy är detta ett informationsfält som visar användare som är avsedda att utföra resurshanteringsaktiviteter i projektet.  När du använder [!UICONTROL Resource Managers] i en rapport visas en lista med resurshanterare, där varje resurshanterare i projektet avgränsas med kommatecken. Du kan utse upp till 30 resurshanterare för ett visst projekt.</p> <p>Mer information finns i artikeln <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md">Ange resurshanterare för ett projekt eller en mall </a>.</p> </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Resource Planner Budgeted Hours] </td> 
-   <td>De timmar som har budgeterats för projektet och de resurser som är kopplade till det i [!UICONTROL Resource Planner]. Se även "[!UICONTROL Budgeted Hours]" i den här artikeln. </td> 
+   <td>Budgeterade timmar för projektet och de resurser som är associerade med det i [!UICONTROL Resource Planner]. Se även [!UICONTROL Budgeted Hours] i den här artikeln. </td> 
   </tr>  
   <tr> 
    <td>[!UICONTROL Resource Planner] </td> 
-   <td>En avancerad [!DNL Workfront] verktyg som gör att du kan visa och hantera resurser i olika projekt, jobbroller eller användare. Mer information finns i <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Översikt över resursplanering</a>. </td> 
+   <td>Ett avancerat [!DNL Workfront]-verktyg som gör att du kan visa och hantera resurser i projekt, jobbroller eller användare. Mer information finns i <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Översikt över resursplanering</a>. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Planner Budgeted Labor Cost]</td> 
@@ -1887,11 +1898,11 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Utilization]</td> 
-   <td>En rapport som visar antalet tillgängliga timmar under en viss tidsperiod och antalet schemalagda timmar för varje användare i rapporten. Detta beräknas också i [!UICONTROL Average Hours Per Day] och en tilldelningsprocent.</td> 
+   <td>En rapport som visar antalet tillgängliga timmar under en viss tidsperiod och antalet schemalagda timmar för varje användare i rapporten. Detta beräknas också till [!UICONTROL Average Hours Per Day] och en allokeringsprocent.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Result]</td> 
-   <td>I [!DNL Workfront Goals]är ett resultat en förloppsindikator för ett mål. Det kan vara ett tal, ett procentvärde eller ett valutabelopp som du uppdaterar manuellt. Du kan inte visa resultat i en rapport och du kan inte komma åt dem via [!DNL Workfront] API. Mer information om aktiviteter finns i <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Kom igång med resultat och aktiviteter i Adobe Workfront-mål</a>.</td> 
+   <td>I [!DNL Workfront Goals] är ett resultat en förloppsindikator för ett mål. Det kan vara ett tal, ett procentvärde eller ett valutabelopp som du uppdaterar manuellt. Du kan inte visa resultat i en rapport och du kan inte komma åt dem via API:t [!DNL Workfront]. Mer information om aktiviteter finns i <a href="../../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md" class="MCXref xref">Kom igång med resultat och aktiviteter i Adobe Workfront-mål</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Revenue]</td> 
@@ -1899,18 +1910,18 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Revenue Type]</td> 
-   <td>Inkomsttypen bestämmer hur aktiviteten ska generera intäkter. Några exempel innehåller [!UICONTROL Fixed Hourly], [!UICONTROL Role Hourly]och [!UICONTROL Role Hourly w/Cap]. Mer information om hur du spårar intäkter i [!DNL Workfront] se <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>.</td> 
+   <td>Inkomsttypen bestämmer hur aktiviteten ska generera intäkter. Några exempel är [!UICONTROL Fixed Hourly], [!UICONTROL Role Hourly] och [!UICONTROL Role Hourly w/Cap]. Mer information om att spåra intäkter i [!DNL Workfront] finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Reviewer]</td> 
-   <td>Vanligtvis en licenstyp. En användare med [!UICONTROL Reviewer] licensen kan granska och godkänna arbetsobjekt i systemet.</td> 
+   <td>Vanligtvis en licenstyp. En användare med en [!UICONTROL Reviewer]-licens kan granska och godkänna arbetsobjekt i systemet.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk]</td> 
-   <td> <p>Detta kan avse följande begrepp i [!DNL Workfront]:</p> 
+   <td> <p>Detta kan referera till följande koncept i [!DNL Workfront]:</p> 
     <ul> 
      <li> <p>Ett fält i ett projekt som anger hur riskabelt ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån. Projekt kan ha följande risknivåer:</p> <p>- [!UICONTROL Very Low]</p> <p>- [!UICONTROL Low]</p> <p>- [!UICONTROL Medium]</p> <p>- [!UICONTROL High]</p> <p>- [!UICONTROL Very High]</p> <p>De risknivåer du anger för ett projekt kan inte anpassas. </p> <p> Mer information om hur du uppdaterar risken för ett projekt finns i avsnittet Projektinställningar i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. Du kan visa riskfältet för ett projekt i rapporter. </p> </li> 
-     <li> <p>En händelse som kan inträffa under ett projekts livslängd och som identifierar en potentiell inverkan på projektets kostnad, omfattning eller schema. Du definierar potentiella risker för ett projekt och associerar en sannolikhet för att de ska inträffa eller en kostnad när du skapar projektets affärsärende. Mer information om hur du lägger till risker i projektets affärsmodell finns i"Skapa och redigera risker i projekt". </p> <p>Du kan inte visa risker som definieras i [!UICONTROL Business Case] i rapporter. Du kan bara visa flera typer av riskkostnader i rapporter och listor. </p> </li> 
+     <li> <p>En händelse som kan inträffa under ett projekts livslängd och som identifierar en potentiell inverkan på projektets kostnad, omfattning eller schema. Du definierar potentiella risker för ett projekt och associerar en sannolikhet för att de ska inträffa eller en kostnad när du skapar projektets affärsärende. Mer information om hur du lägger till risker i projektets affärsmodell finns i"Skapa och redigera risker i projekt". </p> <p>Du kan inte visa risker som definierats i [!UICONTROL Business Case] i rapporter. Du kan bara visa flera typer av riskkostnader i rapporter och listor. </p> </li> 
     </ul> </td>
 
 </tr> 
@@ -1918,18 +1929,19 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>[!UICONTROL Risk Cost]</td> 
    <td> <p>Kostnaden för riskerna i ett projekt. Följande är riskkostnader för projekt som du kan visa i rapporter:</p> 
     <ul> 
-     <li> <p>[!UICONTROL Actual Cost]: ett fält på en risk som visar den faktiska kostnaden för den risk som har inträffat. Förutom rapporter och listor kan du hitta dem i [!UICONTROL Edit Risk] när du redigerar eller skapar en risk. </p> <p>För projekt-, uppgifts- eller utleveranskostnader, se[!UICONTROL Actual Cost]" i den här artikeln. </p> </li> 
-     <li> <p>[!UICONTROL Planned Risk Cost]: ett fält i projektet som visar totalt [!UICONTROL Potential Risk Costs] för projektet. Se även "[!UICONTROL Planned Risk Cost]" i den här artikeln. </p> <p>Information om möjliga riskkostnader finns i <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Beräkna potentiella riskkostnader </a>. </p> </li> 
-     <li> <p>[!UICONTROL Remaining Risk Cost]: ett fält i projektet som visar skillnaden mellan summan av [!UICONTROL Actual Costs] av alla risker och [!UICONTROL Planned Risk Cost]. Se även"Återstående riskkostnad" i den här artikeln. </p> </li> 
+     <li> <p>[!UICONTROL Actual Cost]: ett fält på en risk som visar den faktiska kostnaden för den risk som har inträffat. Förutom rapporter och listor kan du hitta dem i rutan [!UICONTROL Edit Risk] när du redigerar eller skapar en risk. </p> <p>Information om kostnader för projekt, aktiviteter eller utgåvor finns i [!UICONTROL Actual Cost] i den här artikeln. </p> </li> 
+     <li> <p>[!UICONTROL Planned Risk Cost]: ett fält i projektet som visar totalt [!UICONTROL Potential Risk Costs] för projektet. Se även [!UICONTROL Planned Risk Cost] i den här artikeln. </p> <p>Information om möjliga riskkostnader finns i <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Beräkna potentiella riskkostnader </a>. </p> </li> 
+     <li> <p>[!UICONTROL Remaining Risk Cost]: ett fält i projektet som visar skillnaden mellan det totala antalet [!UICONTROL Actual Costs] av alla risker och [!UICONTROL Planned Risk Cost]. Se även"Återstående riskkostnad" i den här artikeln. </p> </li>
     </ul> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+  </tr>
+
+<tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk Management]</td> 
    <td>Processer för att identifiera, minska och övervaka risker.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Role]</td> 
-   <td>Se "[!UICONTROL Job Role]" i den här artikeln.</td> 
+   <td>Se [!UICONTROL Job Role] i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Routing]</td> 
@@ -1959,12 +1971,12 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <td>En sökning som sökvillkoren har sparats för. Sparade sökningar gör det enkelt att köra samma sökningar igen utan att behöva ange sökvillkoren igen.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
-   <td>[!UICONTROL Scenario] (in [!DNL Workfront Fusion]) </td> 
-   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion], se <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] scenarioöversikt</a>.</p> </td> 
+   <td>[!UICONTROL Scenario] (i [!DNL Workfront Fusion]) </td> 
+   <td> <p>Ett scenario består av en serie steg (moduler) som anger hur data ska överföras och transformeras mellan program/tjänster.</p> <p>Mer information om scenarier i [!DNL Workfront Fusion] finns i <a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] scenarioöversikt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario] (i [!DNL Workfront Scenario Planner]) </td> 
-   <td> <p>I [!DNL Scenario Planner]är ett scenario en kopia av en plan. </p> <p>The [!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner], se <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The [!DNL Scenario Planner] översikt</a>. </p> <p>Mer information om att skapa scenarier finns i <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">Skapa och jämföra planscenarier i [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>I [!DNL Scenario Planner] är ett scenario en kopia av en plan. </p> <p>[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt [!DNL Scenario Planner]</a>. </p> <p>Mer information om att skapa scenarier finns i <a href="../../../scenario-planner/create-and-compare-scenarios-for-a-plan.md">Skapa och jämföra planscenarier i [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
@@ -1972,15 +1984,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
-   <td>Kallas även [!UICONTROL Modified Shift]. Dagar som schemaläggs i motsats till de vanliga veckoarbetstiderna enligt schemat. En lördag som är schemalagd att fungera, när schemat är inställt på att endast fungera måndag till fredag, skulle till exempel vara en [!UICONTROL Schedule Exemption].</td> 
+   <td>Kallas även [!UICONTROL Modified Shift]. Dagar som schemaläggs i motsats till de vanliga veckoarbetstiderna enligt schemat. En lördag som schemalagts till att fungera, när schemat är inställt på att endast fungera måndag till fredag, skulle till exempel vara [!UICONTROL Schedule Exemption].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scheduled Report]</td> 
-   <td> <p>När du skapar en rapportrapport kan du visa information om rapportens scheman, om rapporten är schemalagd för leverans med [!UICONTROL Scheduled Report] fält. I det här fältet visas flera värden, ett för varje schema i varje rapport, i en punktlista. Mer information om schemaläggning av rapporter finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Översikt över rapportleverans</a>.</p> <p>Eftersom det här fältet innehåller flera värden kan det inte användas i en gruppering. Du kan bara komma åt den i ett filter eller en vy. </p> </td> 
+   <td> <p>När du skapar en rapportrapport kan du visa information om rapportens scheman, om rapporten är schemalagd för leverans med hjälp av fältet [!UICONTROL Scheduled Report]. I det här fältet visas flera värden, ett för varje schema i varje rapport, i en punktlista. Mer information om schemaläggning av rapporter finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Översikt över rapportleverans</a>.</p> <p>Eftersom det här fältet innehåller flera värden kan det inte användas i en gruppering. Du kan bara komma åt den i ett filter eller en vy. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scope Change]</td> 
-   <td>An [!UICONTROL Audit Trail] som, om det är aktivt, genererar en anteckning när en ändring görs i ett projekts eller uppgifts omfattning, till exempel om en [!UICONTROL Task Duration] eller [!UICONTROL Predecessors] ändras.</td> 
+   <td>En [!UICONTROL Audit Trail] som, om den är aktiv, genererar en anteckning varje gång en ändring görs i omfattningen för ett projekt eller en uppgift, till exempel om en [!UICONTROL Task Duration] eller [!UICONTROL Predecessors] ändras.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Section]</td> 
@@ -1992,7 +2004,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Security]</td> 
-   <td>De inställningar som gör att en användare kan interagera med vissa objekt i systemet och inte med andra. Se även "[!UICONTROL Access Levels]" i den här artikeln.</td> 
+   <td>De inställningar som gör att en användare kan interagera med vissa objekt i systemet och inte med andra. Se även [!UICONTROL Access Levels] i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Setup]</td> 
@@ -2000,11 +2012,11 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Severity]</td> 
-   <td> <p>[!UICONTROL Severity] är en indikation på hur sannolikt det är att ett objekt påverkar slutförandet av arbetet. Ett problem med hög [!UICONTROL Severity] kan helt blockera slutförandet av en uppgift, men ett problem med låg [!UICONTROL Severity] kan vara enbart kosmetisk.</p> <p>Mer information finns i <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> Uppdatera allvarlighetsgrad för utgåva</a>.</p> </td> 
+   <td> <p>[!UICONTROL Severity] är en indikation på hur sannolikt det är att ett objekt påverkar slutförandet av arbetet. Ett problem med hög [!UICONTROL Severity] kan till exempel helt blockera en uppgifts slutförande, men ett problem med låg [!UICONTROL Severity] kan vara enbart kosmetiskt.</p> <p>Mer information finns i <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> Uppdatera allvarlighetsgrad</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Severities]</td> 
-   <td>Se "[!UICONTROL Severity]" i den här artikeln.</td> 
+   <td>Se [!UICONTROL Severity] i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sharing]</td> 
@@ -2012,23 +2024,23 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Slack Date]</td> 
-   <td>I en uppgiftsvy eller rapport visas [!UICONTROL Slack Date] visar det exakta datumet när en uppgift definitivt kan påverka [!UICONTROL Completion Date] av projektet. Mer information om [!UICONTROL Slack Date] för en uppgift, se <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Aktivitet, Slack - översikt</a>.</td> 
+   <td>I en uppgiftsvy eller rapport visar [!UICONTROL Slack Date] det exakta datumet när en aktivitet definitivt kan påverka [!UICONTROL Completion Date] för projektet. Mer information om [!UICONTROL Slack Date] för en aktivitet finns i <a href="../../../manage-work/tasks/task-information/task-slack-date.md" class="MCXref xref">Översikt över aktivitetsdatum i Slack </a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Smart Assignments]</td> 
-   <td> <p>När användare tilldelas uppgifter eller utgåvor [!DNL Workfront] ger rekommendationer ([!UICONTROL Smart Assignments]) om vilka som är bäst på att slutföra arbetet, baserat på den tid de har på sig att slutföra det och deras relation till projektet.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Översikt över smarta uppdrag</a>.</p> </td> 
+   <td> <p>När du tilldelar användare uppgifter eller utgåvor till användare, ger [!DNL Workfront] rekommendationer ([!UICONTROL Smart Assignments]) om vilka som är bäst på att slutföra arbetet, baserat på den tid de har till hands för att slutföra det och deras relation till projektet.</p> <p>Mer information finns i <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Översikt över smarta uppdrag</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
-   <td> <p>Anger det överordnade objektet för ett annat objekt. Ett dokument som är kopplat till en uppgift har till exempel namnet på uppgiften i [!UICONTROL Source] fält i ett [!UICONTROL Document] rapport eller vy; ett problem som loggats under ett projekt har namnet på projektet i [!UICONTROL Source] fält i en problemrapport eller vy. </p> 
-   <p>I följande rapporter visas en källkolumn där du kan visa information om det överordnade objektet:</p>
+   <td> <p>Anger det överordnade objektet för ett annat objekt. Ett dokument som är kopplat till en aktivitet har till exempel namnet på uppgiften i fältet [!UICONTROL Source] i en [!UICONTROL Document] -rapport eller vy. Ett problem som loggas under ett projekt har namnet på projektet i fältet [!UICONTROL Source] i en problemrapport eller vy. </p> 
+   <p>I följande rapporter visas en Source-kolumn där du kan visa information om det överordnade objektet:</p>
   <ul><li>Utfallsrapporter</li>
     <li>Timrapporter</li>
     <li>Dokumentrapporter </li>
     </ul>
-   <p>Om användarna inte har behörighet till det överordnade objektet för ett problem, en timme eller ett dokument, visas rapportens källkolumn som tom, även om rapporten är konfigurerad att visas eller att levereras med en annan användares åtkomstbehörighet. </p>
+   <p>Om användare inte har behörighet till det överordnade objektet för ett problem, en timme eller ett dokument visas kolumnen Source i rapporten tom, även om rapporten är konfigurerad att visas eller levereras med en annan användares åtkomstbehörighet. </p>
    <p> Om du vill visa information om det överordnade objektet i rapporten rekommenderar vi att du lägger till en kolumn för det överordnade objektet där du kan visa namnet på det överordnade objektet. </p>
-    <p>Du kan till exempel lägga till något av följande i en rapport med en källkolumn: </p>
+    <p>Du kan till exempel lägga till något av följande i en rapport med en Source-kolumn: </p>
     <ul><li>Kolumnerna Projektnamn, Aktivitetsnamn eller Utleveransnamn till ett dokument eller en timrapport.</li>
     <li>Kolumnerna Projektnamn eller Aktivitetsnamn i en problemrapport. </li> </ul>
     Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Kör och leverera en rapport med åtkomsträttigheter för en annan användare</a>
@@ -2042,23 +2054,23 @@ Timposter kan ha någon av följande statusvärden i Workfront:
      <li>[!UICONTROL Planned]</li> 
      <li>[!UICONTROL Actual]</li> 
      <li>[!UICONTROL Projected] </li> 
-    </ul> <p>I en [!UICONTROL Rate report]är detta det datum då en ny faktureringssats för en jobbroll på projektnivå börjar. De timmar som är associerade med projektet som ligger efter detta datum multipliceras med den här faktureringstakten för att beräkna projektets intäkter. </p> </td> 
+    </ul> <p>I en [!UICONTROL Rate report] är detta det datum då en ny faktureringsfrekvens för en jobbroll på projektnivå startar. De timmar som är associerade med projektet som ligger efter detta datum multipliceras med den här faktureringstakten för att beräkna projektets intäkter. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Status]</td> 
-   <td> <p>En indikator som används för att signalera en arbetsflödesposition för en arbetsuppgift eller ett strategiskt mål.</p> <p>För projekt [!UICONTROL Status] är en inställning för projektet som anger om projektet är:</p> 
+   <td> <p>En indikator som används för att signalera en arbetsflödesposition för en arbetsuppgift eller ett strategiskt mål.</p> <p>För projekt är [!UICONTROL Status] en inställning i projektet som anger om projektet är:</p> 
     <ul> 
      <li>[!UICONTROL Current]</li> 
      <li>[!UICONTROL On Hold] </li> 
      <li>[!UICONTROL Complete] </li> 
      <li>[!UICONTROL Dead]</li> 
-    </ul> <p>Mer information om ett projekts status finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">Öppna listan över status för systemprojekt</a>.</p>
-    <p>För uppgifter visas [!UICONTROL Status] är en inställning för uppgiften som anger om uppgiften är:</p> 
+    </ul> <p>Mer information om ett projekts status finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">Åtkomst till listan över systemprojektstatus</a>.</p>
+    <p>För uppgifter är [!UICONTROL Status] en inställning för aktiviteten som anger om aktiviteten är:</p> 
     <ul> 
      <li>[!UICONTROL New]</li> 
      <li>[!UICONTROL In Progress]</li> 
      <li>[!UICONTROL Complete]</li> 
-    </ul> <p>Mer information om aktivitetsstatus finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">Åtkomst till listan över status för systemaktivitet</a></p> <p>För utgåvor [!UICONTROL Status] är en inställning som anger om problemet är:</p> 
+    </ul> <p>Mer information om aktivitetsstatus finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">Åtkomst till listan över aktivitetsstatus</a></p> <p>För problem är [!UICONTROL Status] en inställning för problemet som anger om problemet är:</p> 
     <ul> 
      <li>[!UICONTROL New]</li> 
      <li>[!UICONTROL In Progress]</li> 
@@ -2069,25 +2081,25 @@ Timposter kan ha någon av följande statusvärden i Workfront:
      <li>[!UICONTROL Cannot Duplicate]</li> 
      <li>[!UICONTROL Verified Complete]</li> 
      <li>[!UICONTROL Reopened]</li> 
-    </ul> <p>Mer information om utgivningsstatus finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Åtkomst till listan över status för systemproblem</a>.</p> 
-    <p>För strategiska mål [!UICONTROL Status] är en inställning för målet som anger om målet är:</p> 
+    </ul> <p>Mer information om status för systemproblem finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Åtkomst till listan över status för systemproblem</a>.</p> 
+    <p>För strategiska mål är [!UICONTROL Status] en inställning för målet som anger om målet är:</p> 
      <ul> 
       <li>[!UICONTROL Active]</li> 
       <li>[!UICONTROL Draft]</li> 
       <li>[!UICONTROL Inactive]</li> 
       <li>[!UICONTROL Closed]</li> 
      </ul> 
-     <p>Mer information om strategiska mål finns också i[!UICONTROL Goal]" eller "[!UICONTROL Goals]" i den här artikeln. </p> 
-     <p>För strategiska mål visas det här fältet endast om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals], se <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] översikt</a>. </p>
+     <p>Mer information om strategiska mål finns också i [!UICONTROL Goal] eller [!UICONTROL Goals] i den här artikeln. </p> 
+     <p>För strategiska mål visas det här fältet bara om din organisation har köpt [!DNL Workfront Goals]. Mer information om hur du hanterar strategiska mål med [!DNL Workfront Goals] finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md">[!DNL Workfront Goals] översikt</a>. </p>
     </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Change]</td> 
-   <td>An [!UICONTROL Audit Trail]. En anteckning skapas när en användare ändrar status för projektet, aktiviteten eller utgåvan.</td> 
+   <td>En [!UICONTROL Audit Trail]. En anteckning skapas när en användare ändrar status för projektet, aktiviteten eller utgåvan.</td> 
   </tr> 
   <tr> 
    <td>Statusikoner</td> 
-   <td> <p>Du kan lägga till de inbyggda [!UICONTROL Status Icons] -fält som en kolumn i vyer för att öka synligheten för viktiga punkter om dina objekt, som:</p> 
+   <td> <p>Du kan lägga till det inbyggda [!UICONTROL Status Icons]-fältet som en kolumn i vyerna för att förbättra synligheten i viktiga punkter om objekten, som:</p> 
     <ul> 
      <li>Ett objekt har bifogade dokument</li> 
      <li>Ett objekt är associerat med en godkännandeprocess</li> 
@@ -2095,7 +2107,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
      <li>En utgift är fakturerbar eller återbetalningsbar </li> 
      <li>En uppgift är på en kritisk väg</li> 
      <li>En användare tillhör ett företag, ett team eller finns i en annan tidszon </li> 
-    </ul> <p>Du kan lägga till [!UICONTROL Status Icons] i vyerna för följande objekt: </p> 
+    </ul> <p>Du kan lägga till fältet [!UICONTROL Status Icons] i vyerna för följande objekt: </p> 
     <ul> 
      <li>[!UICONTROL Tasks]</li> 
      <li>[!UICONTROL Issues]</li> 
@@ -2109,12 +2121,12 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Update]</td> 
-   <td> <p>I ett projekt, en aktivitet eller en utleveransrapport visar det här fältet den senaste statusuppdateringen som objektägare har angett i[!UICONTROL Updates]-området. För projekt innebär detta att kommentarer som gjorts av projektägaren och för uppgifter och ärenden innebär detta att de som tilldelats kommenterar.</p> 
-   <p> Kommentarer som görs vid uppdatering av ett objekts status visas inte i [!UICONTROL Status Update] kolumn.</p> <p>Så här visar du[!UICONTROL New], '[!UICONTROL In Process], och[!UICONTROL Complete]'-status, använd [!UICONTROL Status] kolumn.</p> <p>Mer information om status finns i artikeln <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Uppdatera aktivitetsstatus</a>.</p> </td> 
+   <td> <p>I ett projekt-, aktivitets- eller problemrapport visar det här fältet den senaste statusuppdateringen som objektägare har tillhandahållit i området [!UICONTROL Updates]. För projekt innebär detta att kommentarer som gjorts av projektägaren och för uppgifter och ärenden innebär detta att de som tilldelats kommenterar.</p> 
+   <p> Kommentarer som görs när statusen för ett objekt uppdateras visas inte i kolumnen [!UICONTROL Status Update].</p> <p>Om du vill visa statusarna [!UICONTROL New], [!UICONTROL In Process] och [!UICONTROL Complete] använder du kolumnen [!UICONTROL Status].</p> <p>Mer information om status finns i artikeln <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Uppdatera aktivitetsstatus</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Statuses]</td> 
-   <td>Se "[!UICONTROL Status]" i den här artikeln.</td> 
+   <td>Se [!UICONTROL Status] i den här artikeln.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Storyboard]</td> 
@@ -2140,8 +2152,9 @@ Timposter kan ha någon av följande statusvärden i Workfront:
 <tr> 
    <td><code>[!UICONTROL stretch]</code></td> 
    <td><p>Detta används i rapportkolumner när du använder gränssnittet för textläge. </p>
-   <p>The <code>[!UICONTROL stretch]</code> används för att identifiera vilka kolumner som upptar extra utrymme som inte behövs för vyn. Användargränssnittets bredd för en vanlig användare är cirka 850 pixlar. Det innebär att om du har en vy med fyra kolumner (150 pixlar vardera) så upptar vyn 600 av 850 pixlar. Det finns 250 extra pixlar i gränssnittet som läggs till i kolumner som har en sträckningsprocent. </p>
-   <p>En kolumns sträckning används när du använder den extra kodraden: <code>[!UICONTROL usewidths=true]</code> för minst en av kolumnerna i vyn. 
+   <p><code>[!UICONTROL stretch]</code> används för att identifiera vilka kolumner som upptar extra utrymme som inte behövs för vyn. Användargränssnittets bredd för en vanlig användare är cirka 850 pixlar. Det innebär att om du har en vy med fyra
+   kolumner (150 pixlar vardera) som vyn upptar 600 av 850 pixlar. Det finns 250 extra pixlar i gränssnittet som läggs till i kolumner som har en sträckningsprocent. </p>
+   <p>En kolumns sträckning används när du använder den extra kodraden <code>[!UICONTROL usewidths=true]</code> för minst en av kolumnerna i vyn. 
    </td> 
   </tr>
 
@@ -2151,7 +2164,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Summary Task]</td> 
-   <td>Se "[!UICONTROL Parent Task]" i den här artikeln.</td> 
+   <td>Se [!UICONTROL Parent Task] i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Subtask]</td> 
@@ -2175,7 +2188,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Constraint]</td> 
-   <td>Se "[!UICONTROL Constraint Type]och "[!UICONTROL Constraint Date]".</td> 
+   <td>Se [!UICONTROL Constraint Type] och [!UICONTROL Constraint Date].</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Task Management]</td> 
@@ -2187,7 +2200,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Team]</td> 
-   <td> <p>En samling användare som arbetar för liknande mål eller affärsmål. De här användarna kan tilldelas till ett arbetsobjekt genom att tilldela teamet till arbetsobjektet.</p> <p>Mer information om team finns i <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Översikt över team</a>.</p> <p>Projekt kan ha en [!UICONTROL Project Team], som innehåller alla användare eller roller som är kopplade till arbetet i projektet.</p> <p>Mer information om projektteam finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektgruppen</a></p> </td> 
+   <td> <p>En samling användare som arbetar för liknande mål eller affärsmål. De här användarna kan tilldelas till ett arbetsobjekt genom att tilldela teamet till arbetsobjektet.</p> <p>Mer information om team finns i <a href="../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md" class="MCXref xref">Teams overview</a>.</p> <p>Projekt kan ha en [!UICONTROL Project Team], som innehåller alla användare eller roller som är associerade med arbetet i projektet.</p> <p>Mer information om projektteam finns i <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Översikt över projektgruppen</a></p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode,SnippetConitions_MaturityModel.Ad hoc"> 
     <td>Team Goals</td> 
@@ -2196,7 +2209,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   --> 
   <tr> 
    <td>[!UICONTROL Template]</td> 
-   <td> <p>Projektmallar är allmänna konturer för dina mest repeterbara projekt. Du kan definiera uppgifter, köämnen, anpassade formulär, bifoga dokument eller godkännanden när du skapar en projektmall för att spara tid när du måste skapa ett nytt projekt. </p> <p>Du kan bifoga mallar till befintliga projekt eller använda dem för att skapa nya projekt. All information som anges i mallen överförs till de projekt som skapas med den. </p> <p>Mer information om mallar finns i <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md">Översikt över projektmallen</a>.</p> </td> 
+   <td> <p>Projektmallar är allmänna konturer för dina mest repeterbara projekt. Du kan definiera uppgifter, köämnen, anpassade formulär, bifoga dokument eller godkännanden när du skapar en projektmall för att spara tid när du måste skapa ett nytt projekt. </p> <p>Du kan bifoga mallar till befintliga projekt eller använda dem för att skapa nya projekt. All information som anges i mallen överförs till de projekt som skapas med den. </p> <p>Mer information om mallar finns i <a href="../../../manage-work/projects/create-and-manage-templates/project-template-overview.md">Översikt över projektmallar</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Template Task]</td> 
@@ -2204,15 +2217,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Thread]</td> 
-   <td>A [!UICONTROL Note] och dess insamling av svar som rör ett visst ämne.</td> 
+   <td>A [!UICONTROL Note] och dess samling svar som relaterar till ett visst ämne.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Thumbnail]</td> 
-   <td> <p> I en [!UICONTROL Document] visas en förhandsgranskning av dokumentet i en miniatyrbild. </p> <p> Välj <strong>[!UICONTROL Thumbnail]</strong>  om du vill visa en 33-66 pixlar bred miniatyrbild i rapporten. </p> <p>Storleken på miniatyrbilden justeras när du ändrar bredden på kolumnen i en lista eller rapport.</p> <p>Se även "[!UICONTROL Large Thumbnail]" i den här artikeln.</p> </td> 
+   <td> <p> I en [!UICONTROL Document]-lista eller -rapport visas en förhandsgranskning av dokumentet i en miniatyrbild. </p> <p> Välj <strong>[!UICONTROL Thumbnail]</strong>  om du vill visa en 33-66 pixlar bred miniatyrbild i rapporten. </p> <p>Storleken på miniatyrbilden justeras när du ändrar bredden på kolumnen i en lista eller rapport.</p> <p>Se även [!UICONTROL Large Thumbnail] i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Time Off]</td> 
-   <td>Du kan skapa en [!UICONTROL Time Off] för att visa när användare har markerat ledigt i sin profil. </td> 
+   <td>Du kan skapa en [!UICONTROL Time Off]-rapport för att visa när användare har angett att de är lediga i sin profil. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Timesheet]</td> 
@@ -2220,7 +2233,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Timesheet Profile]</td> 
-   <td> <p>A [!UICONTROL Timesheet Profile] är en mall som [!DNL Workfront] använder för att automatiskt skapa tidrapporter för de användare som är kopplade till dem. </p> <p>Du kan konfigurera ett antal inställningar som ska gälla för varje tidrapport när den skapas. Vissa av dessa inställningar är: hur ofta tidrapporten ska skapas (varje vecka, varannan vecka, två gånger i månaden eller varje månad), startdagen för tidrapporten, tidrapportens godkännare, tillgängliga [!UICONTROL Hour Types] som användare kan associera med inspelade timmar.</p> </td> 
+   <td> <p>En [!UICONTROL Timesheet Profile] är en mall som [!DNL Workfront] använder för att automatiskt skapa tidrapporter för de användare som är associerade med dem. </p> <p>Du kan konfigurera ett antal inställningar som ska gälla för varje tidrapport när den skapas. Vissa av dessa inställningar är: hur ofta tidrapporten ska skapas (varje vecka, varannan vecka, två gånger i månaden eller varje månad), startdagen för tidrapporten, tidrapportgodkännare och tillgängliga [!UICONTROL Hour Types] som användare kan associera med inspelade timmar.</p> </td> 
   </tr> 
   <tr > 
    <td>[!UICONTROL Top Parent ID] </td> 
@@ -2228,18 +2241,18 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Top Parent Name] </td> 
-   <td> <p>I det här fältet kan du identifiera data om en grupp på den översta nivån och dess undergrupper i en [!UICONTROL View] för en lista eller rapport.</p> <p>Du kan också göra detta med [!UICONTROL Top Parent ID] fält.</p> </td> 
+   <td> <p>I det här fältet kan du identifiera data om en grupp på den översta nivån och dess undergrupper i en [!UICONTROL View] för en lista eller rapport.</p> <p>Du kan också göra detta med fältet [!UICONTROL Top Parent ID].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Hours]</td> 
-   <td> <p>I en [!UICONTROL project report]I det här fältet visas den avrundade summan av alla timmar i projektet, det datum då projektets ekonomi senast beräknades. [!UICONTROL Actual Hours] återspeglar de exakta timmarna som är loggade i projektet. Vanligtvis är [!UICONTROL Actual Hours] ska matcha [!UICONTROL Total Hours]. Om [!UICONTROL Total Hours] skiljer sig avsevärt från [!UICONTROL Actual Hours] måste du beräkna om ekonomi för projektet.</p> <p>Mer information om hur du beräknar om projektets ekonomi finns i artikeln <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Beräkna om projektekonomi</a>.</p> <p>I en tidrapport [!UICONTROL Standard] den här vyn avser det totala antalet timmar som loggats för objekt för de datum som visas på en tidrapport. The [!UICONTROL Total Hours] fältet för tidrapporter i den här inbyggda vyn refererar till[!UICONTROL hoursDuration]", vilket dynamiskt beräknar skillnaden i timmar mellan tidrapportets start- och slutdatum. Detta används för att visa [!UICONTROL Total Hours] kolumn i rött om användaren loggar mer tid än de tillgängliga timmarna i tidrapportens tidsram. Mer information finns i <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">Visa totalt antal timmar på tidrapporten</a>. </p> </td> 
+   <td> <p>I ett [!UICONTROL project report] visar det här fältet den avrundade summan av alla timmar i projektet, den senaste gången som projektets ekonomi beräknades. [!UICONTROL Actual Hours] återspeglar de exakta timmarna som är loggade i projektet. Vanligtvis måste [!UICONTROL Actual Hours] matcha [!UICONTROL Total Hours]. Om [!UICONTROL Total Hours] verkar skilja sig avsevärt från fältet [!UICONTROL Actual Hours] måste du beräkna om ekonomi för projektet.</p> <p>Mer information om hur du beräknar om projektekonomi finns i artikeln <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Beräkna om projektekonomi</a>.</p> <p>I en tidrapportvy [!UICONTROL Standard] refererar det här fältet till det totala antalet timmar som loggats för objekt för de datum som visas på en tidrapport. Fältet [!UICONTROL Total Hours] för tidrapporter i den här inbyggda vyn refererar till fältet [!UICONTROL hoursDuration], som dynamiskt beräknar skillnaden i timmar mellan tidrapportets start- och slutdatum. Detta används för att visa kolumnen [!UICONTROL Total Hours] i rött om användaren loggar mer tid än de tillgängliga timmarna i tidrapporternas tidsram. Mer information finns i <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">Visa totalt antal timmar på tidrapporten</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tracking Mode]</td> 
    <td> <p>Ett attribut för en uppgift. Detta avgör hur och när de planerade tidslinjerna uppdateras för en aktivitet. Exempel:</p> 
     <ul> 
-     <li>[!UICONTROL User Must Update] kräver att en uppgift uppdateras manuellt. I annat fall blir det [!UICONTROL Behind Schedule]sedan [!UICONTROL Late].</li> 
-     <li>[!UICONTROL Auto Complete] automatiskt utför en uppgift när förfallodatumet, eller [!UICONTROL Planned Completion Date], har passerat.</li> 
+     <li>[!UICONTROL User Must Update] kräver att en uppgift uppdateras manuellt. Annars blir det [!UICONTROL Behind Schedule] och sedan [!UICONTROL Late].</li> 
+     <li>[!UICONTROL Auto Complete] kommer automatiskt att slutföra en uppgift när förfallodatumet, eller [!UICONTROL Planned Completion Date], har passerat.</li> 
     </ul> <p>Mer information finns i <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Översikt över läget Uppgiftsspårning</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
@@ -2248,7 +2261,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Trouble Task]</td> 
-   <td>En ofullständig aktivitet med villkoret [!UICONTROL Late], [!UICONTROL Behind Schedule], eller [!UICONTROL At Risk].</td> 
+   <td>En ofullständig aktivitet med villkoret [!UICONTROL Late], [!UICONTROL Behind Schedule] eller [!UICONTROL At Risk].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unassigned Task]</td> 
@@ -2256,16 +2269,16 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Update Type]</td> 
-   <td> <p>En inställning för ett projekt som avgör när projektets planerade tidslinje beräknas om. The [!UICONTROL Update Type] kan ha följande värden:</p> 
+   <td> <p>En inställning för ett projekt som avgör när projektets planerade tidslinje beräknas om. [!UICONTROL Update Type] kan ha följande värden:</p> 
     <ul> 
      <li>[!UICONTROL Automatic and On Change]</li> 
      <li>[!UICONTROL Automatic Only]</li> 
      <li>[!UICONTROL Manual Only] </li> 
-    </ul> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj typ av projektuppdatering </a>.</p> </td> 
+    </ul> <p>Mer information finns i <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Välj projekttypens uppdateringstyp </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL User]</td> 
-   <td>Ett konto har skapats i [!DNL Workfront] så att en person kan logga in och interagera med systemet.</td> 
+   <td>Ett konto som skapats i [!DNL Workfront] för att tillåta en person att logga in och interagera med systemet.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL User Delegation]</p> </td> 
@@ -2274,15 +2287,15 @@ Timposter kan ha någon av följande statusvärden i Workfront:
      <li>Vilka användare som har delegerat uppgifter, utgåvor och projektgodkännanden</li> 
      <li>Vilka användare som har fått uppgifter, utgåvor och projektgodkännanden delegerade till sig</li> 
      <li>När dessa delegeringar börjar och slutar</li> 
-    </ul> <p>Mer information finns på <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md" class="MCXref xref">Skapa en delegeringsrapport för användare</a>.</p> </td> 
+    </ul> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md" class="MCXref xref">Skapa en användardelegeringsrapport</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL User Interface]</td> 
-   <td>Alla visuella och interaktiva aspekter av [!DNL Workfront] program.</td> 
+   <td>Alla visuella och interaktiva aspekter av programmet [!DNL Workfront].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL User Interface Preferences]</td> 
-   <td>[!UICONTROL User Interface Setup]. [!DNL Workfront] administratörer kan ändra dessa inställningar för att anpassa olika aspekter av användargränssnittet.</td> 
+   <td>[!UICONTROL User Interface Setup]. [!DNL Workfront]-administratörer kan ändra de här inställningarna för att anpassa olika aspekter av användargränssnittet.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Utilization]</td> 
@@ -2290,7 +2303,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL User Utilization]</td> 
-   <td> <p>En sökning kombinerat med en rapport som visar hur användare (resurser) tilldelas eller överfördelas. Se "[!UICONTROL Resource Utilization]" i den här artikeln.</p> </td> 
+   <td> <p>En sökning kombinerat med en rapport som visar hur användare (resurser) tilldelas eller överfördelas. Se [!UICONTROL Resource Utilization] i den här artikeln.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2325,34 +2338,35 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Views Last Month]</td> 
-   <td> <p>I en rapportlista visas antalet gånger som rapporten har visats under den senaste månaden.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
+   <td> <p>I en rapportlista visas antalet gånger som rapporten har visats under den senaste månaden.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Views Last Quarter]</td> 
-   <td>I en rapportlista visas antalet gånger som rapporten har visats under det senaste kvartalet.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" >Visa rapportanvändning</a>.</td> 
+   <td>I en rapportlista visas antalet gånger som rapporten har visats under det senaste kvartalet.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" >Visa rapportanvändning</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Views Last Year]</td> 
-   <td>I en rapportlista visas antalet gånger som rapporten har visats under det senaste året.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</td> 
+   <td>I en rapportlista visas antalet gånger som rapporten har visats under det senaste året.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Views This Month]</td> 
-   <td> <p>I en rapportlista visas antalet gånger som rapporten har visats under den här månaden.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
+   <td> <p>I en rapportlista visas antalet gånger som rapporten har visats under den här månaden.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Views This Quarter]</td> 
-   <td>I en rapportlista visas antalet gånger som rapporten har visats under det här kvartalet.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</td> 
+   <td>I en rapportlista visas antalet gånger som rapporten har visats under det här kvartalet.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">Visa rapportanvändning</a>.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Views This Year]</td> 
-   <td>I en rapportlista visas antalet gånger som rapporten har visats under det här året.<br>Mer information om användningsinformation finns i rapportlistor i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Visa rapportanvändning</a>.</td> 
+   <td>I en rapportlista visas antalet gånger som rapporten har visats under det här året.<br>Mer information om användningsinformation i rapportlistor finns i artikeln <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md">Visa rapportanvändning</a>.</td> 
   </tr>
 
 <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-<td> I en rapport, när [!UICONTROL Text Mode] gränssnitt, den kodrad där du kan ange bredden på varje kolumn i pixlar. Workfront har en föreslagen bredd för varje fält, men beroende på fälttyp och format kan du behöva göra justeringar.
-Du måste använda ytterligare <code>[!UICONTROL usewidths=true]</code> kodrad för att framtvinga bredden som anges för kolumnen. 
+<td> I en rapport, när du använder [!UICONTROL Text Mode]-gränssnittet, den kodrad där du kan ange bredden på varje kolumn i pixlar. Workfront tillhandahåller en föreslagen bredd för varje fält,
+men beroende på fälttyp och format kan du behöva göra justeringar.
+Du måste använda den extra <code>[!UICONTROL usewidths=true]</code>-kodraden för att framtvinga den bredd som anges för kolumnen. 
   </td>
 
 </tr>
@@ -2364,11 +2378,11 @@ Du måste använda ytterligare <code>[!UICONTROL usewidths=true]</code> kodrad f
    <p>valueformat=HTML</p></code> 
    <p>Mer information om hur du använder textläge finns i <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Översikt över syntaxen i textläge</a>. </p> 
    <p><b>TIPS</b> 
-   <p>I en problemrapport lägger du till en av [!UICONTROL Planned Hours] fält lägger till <code>work </code>till rapporten. </p> </td> 
+   <p>Om du lägger till ett av [!UICONTROL Planned Hours]-fälten i en problemrapport läggs fältet <code>work </code> till i rapporten. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work]</td> 
-   <td> <p>En av två primära licenstyper. Det här har mindre åtkomst än [!UICONTROL Plan], men kan skapa och göra uppdateringar i systemet. En användare med en arbetslicens har fler möjligheter än en [!UICONTROL External], [!UICONTROL Reviewer], eller [!UICONTROL Requester] licensinnehavare.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licensöversikt</a>.</p> <p>Arbetet kan referera till antalet [!UICONTROL Planned Hours] för ett projekt, en uppgift eller ett problem. Mer information finns i "[!UICONTROL work]" i denna tabell. </p> <p><b>TIPS</b></p> <p> I en problemrapport lägger du till en av [!UICONTROL Planned Hours] fält lägger till <code>work </code>till rapporten. </p> </td> 
+   <td> <p>En av två primära licenstyper. Detta har mindre åtkomst än [!UICONTROL Plan], men kan skapa och göra uppdateringar i systemet. En användare med en Work-licens har fler funktioner än en [!UICONTROL External]-, [!UICONTROL Reviewer]- eller [!UICONTROL Requester]-licensinnehavare.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licensöversikt</a>.</p> <p>Arbetet kan referera till antalet [!UICONTROL Planned Hours] för ett projekt, en aktivitet eller ett problem. Mer information finns i fältet [!UICONTROL work] i den här tabellen. </p> <p><b>TIPS</b></p> <p> Om du lägger till ett av [!UICONTROL Planned Hours]-fälten i en problemrapport läggs fältet <code>work </code> till i rapporten. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work Breakdown Structure]</td> 
@@ -2377,22 +2391,22 @@ Du måste använda ytterligare <code>[!UICONTROL usewidths=true]</code> kodrad f
   <tr> 
    <td>[!UICONTROL Work Effort] </td> 
    <td> 
-    <p>En projektledare kan välja att använda det här fältet istället för [!UICONTROL Planned Hours] för att uppskatta den insats som krävs för att slutföra en uppgift. Det här fältet är bara synligt när följande villkor är uppfyllda:</p> 
+    <p>En projektledare kan bestämma sig för att använda det här fältet i stället för [!UICONTROL Planned Hours] för att uppskatta hur mycket arbete som krävs för att slutföra en uppgift. Det här fältet är bara synligt när följande villkor är uppfyllda:</p> 
      <ul> 
-      <li> <p>Uppgiften har en [!UICONTROL Simple Duration Type]. </p> <p><b>TIPS</b></p> <p> Om du uppdaterar uppgiften [!UICONTROL Duration Type] till en annan typ, döljs det här fältet. </p> </li> 
-      <li>Projektledaren har aktiverat [!UICONTROL Use Work Effort] för automatisk beräkning av uppgift [!UICONTROL Planned Hours] -fält i projektet. </li> 
+      <li> <p>Aktiviteten har en [!UICONTROL Simple Duration Type]. </p> <p><b>TIPS</b></p> <p> Om du uppdaterar aktiviteten [!UICONTROL Duration Type] till någon annan typ döljs det här fältet. </p> </li> 
+      <li>Projekthanteraren har aktiverat [!UICONTROL Use Work Effort] att automatiskt beräkna aktivitetsfältet [!UICONTROL Planned Hours] i projektet. </li> 
      </ul> 
-     <p>Mer information om hur du använder [!UICONTROL Work Effort] i stället för [!UICONTROL Planned Hours] om du vill beräkna uppgiftsinsats, se <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över arbetsinsats</a>. </p> 
+     <p>Mer information om hur du använder [!UICONTROL Work Effort] i stället för [!UICONTROL Planned Hours] för att beräkna aktivitetsinsatsen finns i <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över arbetsinsats</a>. </p> 
      <p>Du kan visa det här fältet i uppgiftsrapporter och listor.</p> 
     </td> 
    </tr> 
   <tr> 
    <td>[!UICONTROL Work Item]</td> 
-   <td> <p>Det här fältet refererar till aktiviteter eller problem i [!DNL Workfront]. </p> <p>The [!UICONTROL Work Item] rapporten innehåller information om både uppgifter och problem. </p> </td> 
+   <td> <p>Det här fältet refererar till aktiviteter eller problem i [!DNL Workfront]. </p> <p>Rapporten [!UICONTROL Work Item] visar information om både uppgifter och problem. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work management mix]</td> 
-   <td>A [!UICONTROL Work Performance Indicator] (WPI) av hur stor del av arbetet som är avsatt för att driva verksamheten jämfört med att förändra verksamheten. Mix WPI hjälper er att på organisationsnivå förstå om er strategi har någon verklig arbetstilldelning.</td> 
+   <td>En [!UICONTROL Work Performance Indicator] (WPI) av den andel arbete som har allokerats för att köra ditt företag jämfört med att ändra ditt företag. Mix WPI hjälper er att på organisationsnivå förstå om er strategi har någon verklig arbetstilldelning.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work Management Resource]</td> 
@@ -2424,22 +2438,22 @@ Du måste använda ytterligare <code>[!UICONTROL usewidths=true]</code> kodrad f
   </tr> 
   <tr> 
    <td>[!UICONTROL Workflow template]</td> 
-   <td>I [!UICONTROL Proof Approval] i det här fältet visas arbetsflödesmallar som är kopplade till ett korrektur. Om det inte finns några bifogade mallar är kolumnen tom.</td> 
+   <td>I rapporten [!UICONTROL Proof Approval] visar det här fältet alla arbetsflödesmallar som är kopplade till ett korrektur. Om det inte finns några bifogade mallar är kolumnen tom.</td> 
   </tr>
 
 <tr> 
    <td>[!UICONTROL Work Time]</td> 
    <td>
 
-<p>Representerar procentandelen för heltidsmotsvarigheten ([!UICONTROL FTE]) den tid som användaren är tillgänglig för faktiskt arbete, exklusive extrakostnader. [!UICONTROL Work Time] måste vara ett decimaltal upp till 1 och det får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</p>
+<p>Representerar procentandelen av heltidsekvivalent ([!UICONTROL FTE]) tid som användaren är tillgänglig för faktiskt arbete, exklusive overhead. [!UICONTROL Work Time] måste vara ett decimaltal upp till 1 och det får inte vara 0. Exempel: 20 % tillgänglighet för faktiskt arbete är 0,2.</p>
    </p>Fältets standardvärde är 1, vilket anger att en användare tillbringar hela [!UICONTROL FTE] på faktiskt, projektrelaterat arbete.  </p>
    <p>Systemet använder det här talet för att beräkna användarens tillgänglighet för faktiskt, projektrelaterat arbete. </p>
    <p> Schemalagda undantag och ledig tid kan också påverka användarkapaciteten. </p>
    <p>Mer information om hur du skapar scheman i Workfront finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Skapa ett schema</a>. </p>
-    <p>Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i dialogrutan [!UICONTROL Setup] område. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Konfigurera inställningar för resurshantering</a>. </p> 
+    <p>Workfront beräknar en användares tillgänglighet beroende på inställningarna för resurshantering i området [!UICONTROL Setup]. Mer information finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Konfigurera inställningar för resurshantering</a>. </p> 
    <p>Du kan uppdatera [!UICONTROL Work Time] för en användare när du redigerar eller skapar användaren. Mer information finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Redigera en användares profil</a></p> 
    <b>TIPS</b> 
-   <p>Ange [!UICONTROL Work Time] värdet 1 för att ange att användaren är tillgänglig för projektrelaterat arbete och att hela heltidsekvivalenten är tillgänglig.</p> 
+   <p>Ange värdet [!UICONTROL Work Time] till 1 för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.</p> 
    </td> 
   </tr> 
   <tr> 
