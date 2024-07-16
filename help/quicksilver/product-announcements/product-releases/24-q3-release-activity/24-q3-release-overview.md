@@ -1,13 +1,13 @@
 ---
-title: Översikt över utgåvan från tredje kvartalet 2024
-description: Den här sidan innehåller information om funktionerna som ingår i versionen från tredje kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
+title: Översikt över utgåvan för tredje kvartalet 2024
+description: Den här sidan innehåller information om funktioner som ingår i utgåvan för tredje kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: cd84a3b448de41c795cc962e4756db0946bae0fd
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1798'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Den här sidan innehåller information om funktioner som ingår i utgåvan för tredje kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön under hela kvartalet.
 
-Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstration av 24.7-funktioner här](https://video.tv.adobe.com/v/3430532/%20).
+Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstration om 24.7-funktioner här](https://video.tv.adobe.com/v/3430532/%20).
 
-<span class="preview">Funktioner utanför cykeln (de som lanserades till Production före tredje kvarteret 2024) markeras med gult.</span>
+<span class="preview">Funktioner utanför cykeln (de som lanserades till Produktion före tredje kvartalet 2024-utgåvan) är markerade i gult.</span>
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
 >|----|----|
 >| <ul><li>24.5 (16 maj 2024)</li><li>24.6 (13 juni 2024)</li><li>24.7 (18 juli 2024)</li></ul> | <ul><li>24.7 (18 juli 2024)</li></ul> |
 >
->Mer information om processen för snabb release finns i [Aktivera eller inaktivera processen för snabb release](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Mer information om processen för snabb släppning finns i [Aktivera eller inaktivera processen för snabb släppning](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront-förbättringar
 
@@ -60,7 +60,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Affärsreglerna är nu tillgängliga</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Affärsregler är nu tillgängliga</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>Administratörer kan nu lägga till affärsregler under Konfigurera i Workfront.</p>
                         <p>Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Reglerna byggs med en formel som liknar beräkningsfält i anpassade formulär.</p>
@@ -78,7 +78,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Anpassad formulärdesigner som är allmänt tillgänglig i Adobe Workfront</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Anpassad formulärdesigner är vanligtvis tillgänglig i Adobe Workfront</a></p>
                         <p>Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen när man skapar och redigerar anpassade blanketter i Adobe Workfront. När du skapar ett nytt anpassat formulär eller öppnar ett befintligt, visas formulärdesignerns arbetsyta i arbetsytan.</p>
                         <p>Efter den här versionen har du inte längre möjlighet att återgå till det tidigare formulärverktyget.</p>
                     </td>
@@ -95,7 +95,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Flytta objekt mellan Workfront-miljöer med miljöfrämjande åtgärder</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Flytta objekt mellan Workfront-miljöer med miljöbefordran</a></p>
                         [!BADGE In production ]{type=Informative}
                         <p>Med miljöfrämjande funktioner kan du flytta objekt från en Workfront-miljö till en annan, till exempel från en sandlådemiljö till en produktionsmiljö. Du kan konfigurera och testa objekt utan risk för organisationens data och poster. Du kan sedan flytta dessa objekt till produktion utan att behöva konfigurera om dem, vilket sparar tid och arbete.</p>
                     </td>
@@ -113,20 +113,20 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                         [!BADGE In production ]{type=Informative}
                         <p>Nu kan du dela både anpassade formulär och anpassade fält i den nya formulärdesignern. Detta möjliggör bättre samarbete mellan användare i anpassade formulär.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 6 juni 2024</p>
+                                <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion för alla kunder: 13 juni</span></p>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 13 juni</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Lägg till ett nytt anpassat fält från området Fält</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Lägg till ett nytt anpassat fält från fältområdet</a></p>
                         <p>Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet. På så sätt kan du snabbt skapa återanvändbara anpassade fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -135,16 +135,16 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Förhandsversion: 6 juni 2024</p>
                             </li>
                             <li>
-                                <p>Produktionsversion för alla kunder: med version 24.7 (18 juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Listrutefälttyp för flera val som finns i formulärdesignern</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Flervalsfälttyp som är tillgänglig i formulärdesignern</a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>För att hjälpa dig att definiera fält med rullgardinsmenyer enklare har vi lagt till rullgardinsmenyn för flera val till den anpassade formulärdesignern. Med den här fälttypen kan användare välja mer än ett alternativ i en listruta.</p>
+                        <p>För att du enklare ska kunna definiera listrutefält har vi lagt till flervalsfältet i den anpassade formulärdesignern. Med den här fälttypen kan användare välja mer än ett alternativ i en listruta.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -183,12 +183,12 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                         <p>För att du enklare ska kunna visa utgiftstyper har utgifterna delats upp i fakturerbara och icke-fakturerbara utgifter för projekt och uppgifter. Följande fält är tillgängliga för att du ska kunna lägga till i vyer och rapporter:</p>
                         <ul>
                             <li><p>Planerad fakturerbar utgift</p></li>
-                            <li><p>Planerad kostnad för icke fakturerbar utgift</p></li>
-                            <li><p>Faktisk icke fakturerbar utgift</p></li>
-                            <li><p>Faktisk icke fakturerbar utgift</p></li>
+                            <li><p>Planerad icke-fakturerbar utgift</p></li>
+                            <li><p>Faktisk icke-fakturerbar utgift</p></li>
+                            <li><p>Faktisk icke-fakturerbar utgift</p></li>
                         </ul>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: 10 maj 2024</p>
@@ -260,17 +260,17 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigera aktiviteten och utfärda datum och villkor för implementering från huvud- eller detaljavsnittet</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigera aktiviteten och skicka bekräftelsedatum och villkor från huvud- eller detaljavsnittet</a></p>
                         [!BADGE In production for Fast Release ]{type=Positive}
-                        <p>För att göra det enklare för dig att uppdatera uppgifter och problem har vi nu lagt till fälten Bekräfta datum och villkor som alternativ att lägga till i uppgifts- och utleveransrubriker och detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller informationsavsnittet på en sida när de tilldelas den ändrade layoutmallen.</p>
+                        <p>För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 30 maj 2024</p>
+                                <p>Förhandsversion: 30 maj 2024</p>
                             </li>
                             <li>
-                                <p>Produktion för snabb version: med utgåvan 24.6 (13 juni 2024)</p>
+                                <p>Produktion för snabb lansering: Med version 24.6 (13 juni 2024)</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
@@ -282,9 +282,9 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Tilldelningar i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
+                        <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: 13 februari 2024</p>
@@ -302,12 +302,12 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
-                        <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används på följande ställen i Workfront där du tilldelar en uppgift: uppgiftslistor, uppgiftsområdet i uppgiftshuvudet, startsidan och sammanfattningspanelen.</p>
+                        <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: 21 december 2023</p>
+                                <p>Förhandsversion: 21 december 2023</p>
                             </li>
                             <li>
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
@@ -339,10 +339,10 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Säkerhetsuppdateringar för visningsprogrammet för skrivbordskorrektur</a></p>
-                        <p>Säkerhetsuppdateringen Workfront Proof Desktop Proofing Viewer 2.1.35 innehåller säkerhetskorrigeringar för sårbarheter som har identifierats i tidigare versioner.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Säkerhetsuppdateringar för Desktop Proofing Viewer</a></p>
+                        <p>Säkerhetsuppdateringen Workfront Proof Desktop Proofing Viewer 2.1.35 innehåller säkerhetsfelkorrigeringar för säkerhetsluckor som har identifierats i tidigare versioner.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: juli 2024</p>
@@ -374,7 +374,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Tidsgränsen återspeglas nu i arbetsbelastningsutjämnaren</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Ledig tid återspeglas nu i arbetsbelastningsutjämnaren</a></p>
                         <p>För att smidigt justera arbete när den primära tilldelaren för en aktivitet har en schemalagd tid inaktiverad, omfördelar nu arbetsbelastningsutjämnaren timmar till både den primära och den sekundära användaren när projekttidslinjen beräknas om.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -403,16 +403,29 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                         </p>
                     </td>
                     <td>
-                        <p><span class="bold">Utgivningsdatum</span>
+                        <p><span class="bold">Releasedatum</span>
                         </p>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience är nu tillgängligt för fler Workfront-organisationer</a></p>
-                        <p>För att ge organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra det tillgängligt för befintliga Workfront-kunder. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Byt bakgrund till produktguider</a></p>
+                        <p>Vi implementerar en teknikförändring för våra produktguider under de kommande veckorna. Vi har försökt minimera effekten av den här övergången, men vissa användare kan stöta på guider som de tidigare har sett.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Produktion för alla kunder: Inkrementellt till mitten av augusti 2024</p>
+                            </li>
+                         </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience finns nu för fler Workfront-organisationer</a></p>
+                        <p>För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder. </p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
                                 <p>Förhandsversion: 20 juni 2024</p>
@@ -426,7 +439,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hjälpknappen har tagits bort från huvudnavigeringsfältet</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hjälpknappen har tagits bort från navigeringsfältet</a></p>
                         <p>Hjälpknappen i huvudnavigeringsfältet har tagits bort för att ge en enhetlig upplevelse för användare som inte använder det enhetliga gränssnittet. Den här knappen, som inte finns för användare i Unified Shell, är länkad till Workfront-dokumentationen och överflödig med en liknande hjälpknapp tillgänglig för alla användare på huvudmenyn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -462,16 +475,16 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tredje kvartalet 2024</a></p>
-                        <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-applikationen görs inom tidsramen för tredje kvartalet 2024. Granska den enskilda versionsinformationen för specifika utgivningsdatum.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tredje kvartalet 2024 </a></p>
+                        <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för tredje kvartalet 2024. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
                     </td>
-                    <td><p><b>Tillgängligt dessa datum:</b></p>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Under tidsperioden för utgåvan från tredje kvartalet 2024</p>
+                                <p>Förhandsgranskningsversion: Under den tredje kvartersversionen 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsversion: Granska versionsinformationen för specifika datum</span></p>
+                                <p><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></p>
                             </li>
                         </ul>
                     </td>
@@ -483,11 +496,11 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför den tredje utgåvan av kvartal 2024. Mer information om de senaste funktionerna finns i [Utgivningsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production på en cadence som ligger utanför den tredje utgåvan av kvartal 2024. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
-Det finns inga scenarioplaneraruppdateringar just nu i versionen. Det här området uppdateras när det finns uppdateringar tillgängliga.
+Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
 ### Workfront Proof-förbättringar
 
@@ -499,9 +512,9 @@ Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det h
 
 ### API-version 18
 
-För API version 18 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner, andra gör det lättare för dig att använda informationen som är tillgänglig via API:et.
+För API-version 18 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -511,4 +524,4 @@ Mer information om underhållsuppdateringar som gjordes under tredje kvartersver
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

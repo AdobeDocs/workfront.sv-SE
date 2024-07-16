@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,15 @@ ht-degree: 0%
 
 Den här sidan beskriver förbättringar som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns i [Översikt över utgåvan tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+
+## Byt bakgrund till produktguider
+
+>[!NOTE]
+>
+>Produktion för alla kunder: Inkrementellt till mitten av augusti 2024
+
+Vi implementerar en teknikförändring för våra produktguider under de kommande veckorna. Vi har försökt minimera effekten av den här övergången, men vissa användare kan stöta på guider som de tidigare har sett.
 
 ## Adobe Unified Experience finns nu för fler Workfront-organisationer
 
@@ -37,7 +45,7 @@ Om din organisation går över till Adobe Unified Experience med version 24.7 ha
 
 Tidigare var Adobe Unified Experience bara tillgängligt för nya Workfront-kunder.
 
-Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
@@ -55,4 +63,4 @@ När en användare inte har åtkomst till ett objekt visas&quot;Ingen åtkomst&q
 
 Team och användare ingår inte i den här ändringen. Användarna kan fortfarande visa team- och användarnamn.
 
-Mer information finns i avsnittet [Begränsad åtkomst till objekt](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) i [!DNL Adobe Workfront] översiktsartikel för objekt.
+Mer information finns i avsnittet [Begränsad åtkomst till objekt](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) i översiktsartikeln för [!DNL Adobe Workfront]-objekt.
