@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
+source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
 workflow-type: tm+mt
-source-wordcount: '6081'
+source-wordcount: '6091'
 ht-degree: 0%
 
 ---
@@ -540,6 +540,7 @@ Exempel på hur du använder fältet för extern sökning för att anropa samma 
 >
 >* Funktionen för extern sökning stöds för närvarande inte i anpassade dokumentformulär.
 >* Externa sökfält från anpassade formulär stöds för närvarande inte i kontrollpaneler. Du kan inte redigera fältvärdet infogat och det kanske inte visas korrekt på en kontrollpanel. (Externa sökfält stöds i Canvas-kontrollpaneler.)
+>* Externa sökfält stöds inte i Outlook-plugin-programmet.
 >* Externa sökfält är tillgängliga i listor, såvida inte fältet är beroende av ett annat fält.
 
 Så här lägger du till en extern sökning:

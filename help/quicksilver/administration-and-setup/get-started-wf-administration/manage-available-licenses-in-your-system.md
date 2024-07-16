@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> </td> 
+   <td> <p>Du måste vara systemadministratör eller gruppadministratör. Gruppadministratören har en begränsad vy över licensinformationen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 >[!NOTE]
 >
@@ -77,15 +77,15 @@ Så här visar du licensinformation i ditt system:
 
 {{step-1-to-setup}}
 
-1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
+1. Klicka på **System** > **Licenser** längst ned på den vänstra panelen.
 
-   Mer information om licenserna på den här sidan finns i [Översikt över licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+   Mer information om licenserna på den här sidan finns i [Licensöversikt](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
-   >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront Proof-tillägget utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront-korrektur: artikelindex](../../workfront-proof/workfront-proof.md).
+   >Korrekturlicenser är endast tillgängliga för kunder som har köpt det betalda Workfront Proof-tillägget utöver sin Workfront-licens. Mer information om det här tillägget finns i [Workfront Proof: artikelindex](../../workfront-proof/workfront-proof.md).
 
-1. (Villkorligt) Om meddelandet visas **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** lägger du till en hemgrupp i systemet enligt anvisningarna i avsnittet [Lägga till eller ta bort en hemgrupp på sidan Licenser](#add-or-remove-a-home-group-to-the-licenses-page) i den här artikeln.
+1. (Villkorligt) Om du ser meddelandet **Om du vill ange ett maximum måste du lägga till en hemgrupp**, lägga till en hemgrupp i systemet enligt anvisningarna i avsnittet [Lägg till eller ta bort en hemgrupp på sidan Licenser](#add-or-remove-a-home-group-to-the-licenses-page) i den här artikeln.
 
    >[!NOTE]
    >
@@ -93,7 +93,7 @@ Så här visar du licensinformation i ditt system:
 
 ## Visa information om licenser för Workfront-tillägg
 
-Om ditt företag har det betalda Workfront Proof-tillägget visas antalet använda licenser och antalet tillgängliga licenser. Till exempel: **5 av 10 korrekturlicenser** anger att organisationen för närvarande använder 5 av de 10 Workfront Proof-licenser som de har köpt.
+Om ditt företag har det betalda Workfront Proof-tillägget visas antalet använda licenser och antalet tillgängliga licenser. Till exempel visar **5 av 10 korrekturlicenser** att organisationen för närvarande använder 5 av de 10 Workfront Proof-licenser som de har köpt.
 
 ![Licens för Workfront-tillägg](assets/updated-licenses-page.png)
 
@@ -102,7 +102,7 @@ Om din organisation har köpt Workfront-mål visas även licensinformationen fö
 * Det totala antalet Workfront Goals-licenser som ditt företag har köpt
 * Antalet Workfront Goals-licenser som är kopplade till användare. Det här är antalet användare som ska ha beviljat minst Visa åtkomst till mål på åtkomstnivå.
 
-Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om åtkomst till Workfront-mål finns på [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om åtkomst till Workfront-mål finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
@@ -132,9 +132,9 @@ Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workf
 
 Beslutsgränsen för respektive licens varierar beroende på vilken plan du har. Du kan visa din månadstilldelning i Inställningar > Licenser.
 
-Mer information om begränsningar för korrektur och dokumentbeslut finns i [Begränsat dokument och bevisbeslut för obetalda användare - översikt](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Mer information om beslutsgränser för korrektur och dokument finns i [Översikt över begränsade dokument och korrekturrundor för obetalda användare](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![Månatlig beslutstilldelning](assets/monthly-decision-allotment.png)
+![Månadsvis beslutstilldelning](assets/monthly-decision-allotment.png)
 
 ## Lägga till eller ta bort en hemgrupp på sidan Licenser {#add-or-remove-a-home-group-to-the-licenses-page}
 
@@ -142,7 +142,7 @@ Mer information om begränsningar för korrektur och dokumentbeslut finns i [Beg
 
 Varje användare kan endast tilldelas en hemgrupp. Workfront tillhandahåller ett grupporienterat licensantal genom att beräkna hur många licenser som tilldelas och används i respektive hemgrupp.
 
-Om du ser meddelandet **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** på sidan Licenser måste du lägga till minst en hemgrupp på sidan Licenser.
+Om du ser meddelandet **Om du vill ange ett maxvärde måste du lägga till en hemgrupp** på sidan Licenser. Du måste lägga till minst en hemgrupp på sidan Licenser.
 
 >[!IMPORTANT]
 >
@@ -154,19 +154,19 @@ Så här lägger du till eller tar bort en hemgrupp på sidan Licenser:
 
 {{step-1-to-setup}}
 
-1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
+1. Klicka på **System** > **Licenser** längst ned på den vänstra panelen.
 
-1. Klicka **Hantera grupplista**.
-1. Börja skriva gruppnamnet på den översta nivån i **Hemgrupper** box.
+1. Klicka på **Hantera grupplista**.
+1. Börja skriva gruppnamnet på den översta nivån i rutan **Hemgrupper**.
 1. Om du vill lägga till gruppen klickar du på dess namn när den visas.
 
    eller
 
    Om du vill ta bort gruppen klickar du på X-ikonen till höger om dess namn.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
-Som Workfront-administratör kan du ange högsta antal licenser för hemgrupperna för att förhindra att en affärsenhet använder Workfront-licenser som köpts för andra affärsenheter. Instruktioner finns i [Ange högsta antal licenser för en hemgrupp](#set-the-maximum-license-count-for-a-home-group) i den här artikeln.
+Som Workfront-administratör kan du ange högsta antal licenser för hemgrupperna för att förhindra att en affärsenhet använder Workfront-licenser som köpts för andra affärsenheter. Instruktioner finns i [Ange maximalt antal licenser för en hemgrupp](#set-the-maximum-license-count-for-a-home-group) i den här artikeln.
 
 ## Ange högsta antal licenser för en hemgrupp {#set-the-maximum-license-count-for-a-home-group}
 
@@ -180,10 +180,10 @@ Så här anger du det maximala antalet licenser för en hemgrupp:
 
 {{step-1-to-setup}}
 
-1. Längst ned på den vänstra panelen klickar du på **System** > **Licenser**.
+1. Klicka på **System** > **Licenser** längst ned på den vänstra panelen.
 
 1. Leta reda på hemgruppen i listan.
-1. I **Max** -kolumnen i gruppen klickar du på det värde som du vill ange ett maximum för.
+1. I kolumnen **Max** i gruppen klickar du på det värde som du vill ange ett maxvärde för.
 1. Ange det maximala antalet och tryck sedan på Retur.
 
    ![](assets/updated-max.png)
