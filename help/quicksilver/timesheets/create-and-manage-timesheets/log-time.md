@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3575'
+source-wordcount: '3551'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Du kan logga tid på följande objekt i tidrapporten:
 
 Så här loggar du tid på en tidrapport:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+{{step1-click-main-menu}}
 
 1. Klicka på [!UICONTROL **Tidrapporter**]. Din aktuella tidrapport visas som standard.
    ![Tidrapport](assets/timesheet-redesigned-nwe.png)

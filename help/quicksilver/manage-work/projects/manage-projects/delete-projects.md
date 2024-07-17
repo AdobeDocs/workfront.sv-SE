@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '908'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
 
 # Ta bort projekt
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 Du kan ta bort ett projekt om projektet och dess data inte längre behövs.
 
@@ -40,9 +40,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-licens*</p> </td> 
-   <td> <p>Aktuell licens: Planera </p> 
-   eller
-   <p>Ny licens: Standard </p>
+   <td> <p>Ny licens: Standard </p>
+   <p>Aktuell licens: Planera </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -56,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,11 +68,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Borttagna objekt flyttas till papperskorgen i 30 dagar och kan endast återställas av Workfront-administratören.
 
-  Mer information om återställning av objekt finns i artikeln [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Mer information om hur du återställer objekt finns i artikeln [Återställa borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * Om projektet innehåller uppgifter eller problem med loggade timmar måste Workfront- eller gruppadministratören tillåta att dessa uppgifter tas bort genom att konfigurera inställningarna för Aktivitet och Problem i din Workfront-instans så att du kan ta bort det projekt som innehåller uppgifterna.
 
-  Mer information om hur du aktiverar borttagning av uppgifter, problem eller projekt där timmar är loggade finns i avsnittet Borttagning i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information om hur du aktiverar borttagning av uppgifter, problem eller projekt där timmar har loggats finns i avsnittet Borttagning i [Konfigurera systemomfattande uppgifter och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -117,9 +116,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Om projektet som du tar bort är länkat till det enda publicerade initiativet från en plan, tas även indikationen på att planen har publicerats bort.
    * Om du återställer ett borttaget projekt återställs projektet, men länken till projektet återställs inte och området för scenarioplanering visas inte längre i Projektinformation.
 
-     Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
-     Mer information om projekt som är kopplade till initiativ i scenarioplanen finns i [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
+     Mer information om projekt som är länkade till initiativ i scenarioplaneraren finns i [Uppdatera eller skapa projekt genom att publicera initiativ i scenarioplaneraren](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 * Om projektet även är en aktivitet för ett mål i Workfront-målen:
 
@@ -127,29 +126,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Om du återställer det borttagna projektet återställs även projektet som målaktivitet.
 
-     Detta kräver ytterligare en licens. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Detta kräver ytterligare en licens. Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Mer information om hur du associerar projekt med mål finns i [Lägg till projekt i mål i Adobe Workfront](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Mer information om hur du associerar projekt med mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Ta bort ett projekt i en lista
 
 Du kan ta bort projekt från en lista med projekt.
 
 1. Gå till en lista med projekt eller en projektrapport.
-1. Markera det eller de projekt som du vill ta bort och klicka sedan på **Ta bort** icon ![](assets/delete-icon.png) högst upp i listan.
+1. Markera det eller de projekt som du vill ta bort och klicka sedan på ikonen **Ta bort** ![](assets/delete-icon.png) högst upp i listan.
 
-1. Klicka **Ja, ta bort den** för att bekräfta borttagningen.
+1. Klicka på **Ja, ta bort** för att bekräfta borttagningen.
 
    Projekten tas bort och lagras i papperskorgen i 30 dagar. Din Workfront-administratör kan återställa borttagna projekt från papperskorgen under den här tiden.
 
 ## Ta bort ett projekt på projektnivå
 
 1. Gå till det projekt som du vill ta bort.
-1. Klicka på **Mer** icon ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Ta bort projekt**.
+1. Klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Ta bort projekt**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
-1. Klicka **Ja, ta bort den**.
+1. Klicka på **Ja, ta bort den**.
 
    Projektet tas bort och lagras i papperskorgen i 30 dagar. Din Workfront-administratör kan återställa den från papperskorgen under den här tiden.
 

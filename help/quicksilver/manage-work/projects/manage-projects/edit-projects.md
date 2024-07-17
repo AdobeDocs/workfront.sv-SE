@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '7497'
+source-wordcount: '7474'
 ht-degree: 0%
 
 ---
 
 # Redigera projekt
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Du kan redigera ett projekt i Adobe Workfront så ofta det behövs. Vi rekommenderar att du redigerar projekt minimalt efter att statusen har ändrats till Aktuell för att undvika förvirring genom att skicka ut meddelanden om ändringarna till hela projektteamet.
 
-Det bästa är om du redigerar ett projekt när projektet har statusen Planering. Mer information om projektteamet finns i [Översikt över projektgruppen](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Det bästa är om du redigerar ett projekt när projektet har statusen Planering. Mer information om projektteamet finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Åtkomstkrav
 
@@ -49,7 +49,7 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td><p>Nytt: Standard </p> 
    eller
    <p>Aktuell: Planera </p> </td> 
@@ -62,12 +62,12 @@ Det bästa är om du redigerar ett projekt när projektet har statusen Planering
    <td role="rowheader">Objektbehörigheter</td> 
    <td> 
      <p>Hantera behörigheter för ett projekt </p> 
-     <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -96,7 +96,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
 {{step1-to-projects}}
 
-1. (Valfritt) Klicka på **Projekt som jag är på** eller **Projekt jag äger** i det övre högra hörnet för att visa projekt där du är ägare eller projekt där du är en del av projektteamet.
+1. (Valfritt) Klicka på **Projekt jag är på** eller **Projekt jag äger** i det övre högra hörnet för att visa projekt där du är ägare eller projekt där du är en del av projektteamet.
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
 
@@ -106,7 +106,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
 1. Klicka på namnet på det projekt som du vill redigera för att öppna projektsidan.
 
-1. (Valfritt) Om du vill redigera begränsad information om ett projekt klickar du på **Projektinformation** till vänster. Om du vill redigera all information om projektet går du vidare till steg 5. <!--accurate?!-->
+1. (Valfritt) Om du vill redigera begränsad information om ett projekt klickar du på **Projektinformation** i den vänstra panelen. Om du vill redigera all information om projektet går du vidare till steg 5. <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -116,15 +116,15 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på **Komprimera alla** icon ![](assets/collapse-icon.png)  i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerriktad pil** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![](assets/collapse-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Projektinformation finns i följande artiklar:
 
       * [Hantera information i projektöversiktsområdet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
-   1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i dialogrutan **Lägg till anpassat formulär** och sedan markera den när den visas i listan och sedan klicka på **Spara ändringar**.
-   1. (Valfritt) Klicka på **Exportera** icon ![](assets/export.png) om du vill exportera översikten och information om anpassade formulär till en PDF-fil, och sedan klicka på **Exportera**. Välj bland följande:
+   1. (Valfritt) Om du vill bifoga ett anpassat formulär börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär** och markerar det när det visas i listan. Klicka sedan på **Spara ändringar**.
+   1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Ökning
@@ -137,15 +137,15 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Om du vill ha information om de fält som visas i avsnittet Projektinformation fortsätter du redigera projektet i rutan Redigera projekt enligt beskrivningen nedan.
-1. Om du vill redigera all information om projektet klickar du på **Mer** meny ![](assets/qs-more-menu.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
+1. Om du vill redigera all information om projektet klickar du på menyn **Mer** ![](assets/qs-more-menu.png) bredvid namnet på projektet och sedan på **Redigera**.
 
    eller
 
-   Välj ett eller flera projekt i en lista och klicka sedan på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
+   Välj ett eller flera projekt i en lista med projekt och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) längst upp i listan.
 
-   Mer information om att redigera flera projekt samtidigt finns i avsnittet [Redigera flera projekt samtidigt](#edit-projects-in-bulk) i den här artikeln.
+   Mer information om att redigera flera projekt samtidigt finns i avsnittet [Redigera projekt i grupp](#edit-projects-in-bulk) i den här artikeln.
 
-   The **Redigera projekt** öppnas.
+   Rutan **Redigera projekt** öppnas.
 
    >[!IMPORTANT]
    >
@@ -157,15 +157,15 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
    >
    >Beroende på hur Workfront-administratören eller gruppadministratören ändrade din layoutmall kan områdena i den vänstra panelen i rutan Redigera projekt eller fält som listas i dessa områden ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Villkorligt) Om du klickade på **Mer** -menyn och sedan **Redigera** uppdaterar du information i något av följande områden i den vänstra panelen:
+1. (Villkorligt) Om du klickade på menyn **Mer** och sedan **Redigera** uppdaterar du information i något av följande områden som visas i den vänstra panelen:
 
    * [Projektnamn](#project-name)
-   * [Ökning](#overview)
+   * [Översikt](#overview)
    * [Anpassad Forms](#custom-forms)
    * [Ekonomi](#finance)
    * [Projektinställningar](#project-settings)
-   * [Uppgiftsinställningar](#task-settings)
-   * [Ärendeinställningar](#issue-settings)
+   * [Aktivitetsinställningar](#task-settings)
+   * [Utgivningsinställningar](#issue-settings)
    * [Åtkomst](#access)
 
    >[!NOTE]
@@ -175,7 +175,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 ### Projektnamn {#project-name}
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Projektnamn** till vänster.
+1. Klicka på **Projektnamn** i den vänstra panelen.
 
    ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
@@ -186,7 +186,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 ### Ökning {#overview}
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Ökning** till vänster.
+1. Klicka på **Översikt** i den vänstra panelen.
 
    ![](assets/nwe-overview-in-edit-project-box-350x172.png)
 
@@ -202,7 +202,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Status</strong> </td> 
-         <td> <p>Välj status för projektet. Du kan inte markera ett projekt som slutfört innan alla aktiviteter och utgåvor har slutförts. Mer information om projektstatus finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Öppna listan över status för systemprojekt</a></p> </td> 
+         <td> <p>Välj status för projektet. Du kan inte markera ett projekt som slutfört innan alla aktiviteter och utgåvor har slutförts. Mer information om projektstatus finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Åtkomst till listan över systemprojektstatus</a></p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Prioritet</strong> </td> 
@@ -217,28 +217,28 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
          <td> <p>Välj mellan följande villkorstyper: 
          <ul> 
          <li><strong>Manuell:</strong> Projektägaren ställer in villkoret för projektet manuellt.</li> 
-         <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret baserat på aktiviteternas förloppsstatus på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
-         </ul><p>Din Workfront-administratör<span> eller en gruppadministratör</span> väljer standardinställningen för hur projektets villkor beräknas för systemet <span>eller din grupp</span>. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p></p> </td> 
+         <li><strong>Förloppsstatus:</strong> Workfront ställer automatiskt in villkoret baserat på förloppsstatusen för aktiviteter på den kritiska sökvägen. Mer information om förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</li> 
+         </ul><p>Workfront-administratören<span> eller en gruppadministratör</span> väljer standardvärdet för hur projektvillkoret beräknas för ditt system <span> eller din grupp</span>. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p></p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Villkor</strong> </td> 
-         <td> <p> <p>(Visas endast när du har valt <strong>Manuell</strong> för <strong>Villkorstyp</strong>): Välj ett villkor för att ange hur projektet ska gå. </p> <p>Mer information om hur projektvillkor kan ställas in automatiskt eller manuellt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a></p> </p> </td> 
+         <td> <p> <p>(Visas endast när du har valt <strong>Manuell</strong> för <strong>Villkorstyp</strong>): Välj ett villkor som anger hur projektet ska gå. </p> <p>Mer information om hur projektvillkor kan ställas in automatiskt eller manuellt finns i <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Översikt över projektvillkor och villkorstyp</a></p> </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Schemaläge</strong> </td> 
          <td> <p>Ange om projektet är schemalagt från startdatumet eller från slutförandedatumet. Det här valet avgör planerade datum för aktiviteterna i projektet. 
          <ul> 
-         <li><strong>Startdatum</strong>: Den första aktiviteten i projektet har som standard samma planerade startdatum som projektet. Information om schemalagt startdatum för aktiviteten finns i <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Översikt över aktivitetens planerade startdatum</a>. Projektets tidslinje beräknas från Startdatum och Slutförandedatum för projektet beräknas av systemet utifrån varaktigheten för alla uppgifter. </li> 
+         <li><strong>Startdatum</strong>: Den första aktiviteten i projektet har samma planerade startdatum som projektet som standard. Information om startdatum för den planerade aktiviteten finns i <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Översikt över startdatum för den planerade aktiviteten</a>. Projektets tidslinje beräknas från Startdatum och Slutförandedatum för projektet beräknas av systemet utifrån varaktigheten för alla uppgifter. </li> 
          <li><strong>Slutförandedatum</strong>: Den sista aktiviteten i projektet har samma Planerat slutförandedatum som projektet. Projektets tidslinje beräknas från Slutförandedatum och Startdatum för projektet beräknas av systemet, genom att tidsperioden för alla uppgifter subtraheras från Slutförandedatum för projektet. </li> 
-         </ul><p>Din Workfront-administratör<span> eller en gruppadministratör</span> väljer standardinställningen för schemaläge för datorn eller gruppen. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></p> </td> 
+         </ul><p>Workfront-administratören<span> eller en gruppadministratör</span> väljer standardinställningen för schemaläge för ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p></p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Planerat startdatum och starttid</strong> </td> 
-         <td> <p> <p>Ange datumet när du väljer <strong>Schemalägg från startdatum</strong>. <br></p> <p>Detta är ett skrivskyddat fält när du väljer <strong>Schemalägg från slutförandedatum</strong>.<br></p> </p> </td> 
+         <td> <p> <p>Ange datumet när du väljer <strong>Schemalägg från startdatum</strong>. <br></p> <p>Det här är ett skrivskyddat fält när du väljer <strong>Schema från slutförandedatum</strong>.<br></p> </p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Planerat slutförandedatum och tid</strong> </td> 
-         <td> <p>Ange datumet när du väljer <strong>Schemalägg från slutförandedatum</strong>. </p> <p>Detta är ett skrivskyddat fält när du väljer <strong>Schemalägg från startdatum</strong>.<br></p> </td> 
+         <td> <p>Ange datumet när du väljer <strong>Schema från slutförandedatum</strong>. </p> <p>Det här är ett skrivskyddat fält när du väljer <strong>Schemalägg från startdatum</strong>.<br></p> </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
@@ -252,7 +252,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
          <td role="rowheader"><strong>Grupp</strong></td> 
          <td> <p> <p>Ange namnet på gruppen som är associerad med projektet. </p>Detta är ett obligatoriskt fält. Du kan inte ha ett projekt som inte är associerat med en grupp. </p> <p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> Som standard kopplas en av följande grupper automatiskt till ett projekt när det skapas, såvida du inte anger en annan grupp:</p> 
          <ul> 
-         <li> <p><span>När projektet skapas från området Projekt är startgruppen för den som skapat projektet associerad med projektet.</span> </p> <p>Detta gäller också när projektet skapas från avsnittet Projekt i en portfölj eller ett program.</p> </li> 
+         <li> <p><span>När projektet skapas från projektområdet är startgruppen för den som har skapat projektet associerad med projektet.</span> </p> <p>Detta gäller också när projektet skapas från avsnittet Projekt i en portfölj eller ett program.</p> </li> 
          <li> <p>När projektet skapas från en grupps huvudsida i inställningsområdet är den gruppen kopplad till projektet.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>ANTECKNINGAR</b></p>
@@ -273,7 +273,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
          </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Projektsponsorer</strong> </td> 
+         <td role="rowheader"><strong>Projektsponsor</strong> </td> 
          <td> <p>Börja skriva namnet på en användare som ska lägga till dem i projektet och markera det sedan när det visas i listan. Användaren läggs till i projektteamet och får automatiskt behörigheten Visa i projektet. Användaren som är utsedd som projektsponsor måste vara en Workfront-aktiv användare.<br></p> </td> 
       </tr> 
       <tr> 
@@ -301,7 +301,7 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
 
    eller
 
-   Klicka **Spara**.
+   Klicka på **Spara**.
 
 ### Anpassad Forms {#custom-forms}
 
@@ -321,16 +321,16 @@ När du väljer flera projekt som ska redigeras samtidigt finns följande scenar
 Mer information om åtkomst till anpassade formulär finns i följande artiklar:
 
 * [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Lägga till en avsnittsbrytning i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
+* [Lägg till en avsnittsbrytning i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
 
 Så här redigerar du information i anpassade formulär när du redigerar ett projekt:
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Anpassad Forms** till vänster.
+1. Klicka på **Egen Forms** i den vänstra panelen.
 
    ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
-1. Klicka på **Lägg till anpassat formulär** och välj ett formulär från listan som du vill bifoga till projektet. Som standard visas de första 40 formulären i alfabetisk ordning. Om du inte ser formuläret i listan börjar du skriva dess namn och markerar det när det visas i listan.
+1. Klicka på rutan **Lägg till anpassat formulär** och välj ett formulär från listan som du vill bifoga till projektet. Som standard visas de första 40 formulären i alfabetisk ordning. Om du inte ser formuläret i listan börjar du skriva dess namn och markerar det när det visas i listan.
 
    >[!NOTE]
    >
@@ -338,12 +338,12 @@ Så här redigerar du information i anpassade formulär när du redigerar ett pr
 
 
 1. (Villkorligt) Om du har kopplat ett anpassat formulär till projektet redigerar du alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara projektet.
-1. (Valfritt) Klicka på **X-ikon** till höger om namnet på ett anpassat formulär som du vill ta bort och klicka sedan på **Ta bort**.
+1. (Valfritt) Klicka på ikonen **X** till höger om namnet på ett anpassat formulär för att ta bort det. Klicka sedan på **Ta bort**.
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra
 
    eller
 
-   Klicka **Spara**.
+   Klicka på **Spara**.
 
 ### Ekonomi {#finance}
 
@@ -361,7 +361,7 @@ Så här redigerar du fält i finanssektorn:
 
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Ekonomi** till vänster.
+1. Klicka på **Ekonomi** i den vänstra panelen.
 
    ![](assets/nwe-finance-in-edit-project-box-350x183.png)
 
@@ -373,7 +373,7 @@ Så här redigerar du fält i finanssektorn:
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Valuta</strong> </td> 
-      <td> <p> <p>Ange valutan för projektet, om den skiljer sig från standardvalutan i systemet. Du kan inte ändra valutan för ett projekt om det redan finns ekonomisk information om projektet. Det här fältet är inte synligt om du bara har standardvalutan i systemet. </p> <p>Mer information om valuta finns i <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.<br></p> </p> </td> 
+      <td> <p> <p>Ange valutan för projektet, om den skiljer sig från standardvalutan i systemet. Du kan inte ändra valutan för ett projekt om det redan finns ekonomisk information om projektet. Det här fältet är inte synligt om du bara har standardvalutan i systemet. </p> <p>Mer information om valutor finns i <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.<br></p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
@@ -381,7 +381,7 @@ Så här redigerar du fält i finanssektorn:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Resultatindexmetod</strong> </td> 
-      <td> <p>Välj <b>Timbaserad</b>, eller <b>Kostnadsbaserad</b> för att ange om värdena för EV (Earned Value) för projektet (t.ex. Cost Performance Index eller Estimated Actual Cost) ska beräknas med hjälp av timmar eller kostnader. </p> <p>Mer information om prestandaindexmetoden finns i <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Ange PIM (Performance Index Method)</a>. </p> <p>Din Workfront-administratör<span> eller en gruppadministratör</span> väljer standardinställningen för prestandaindexmetod för systemet eller gruppen. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
+      <td> <p>Välj <b>Timbaserad</b> eller <b>Kostnadsbaserad</b> om du vill ange om projektets intjänade värdemätvärden (till exempel kostnadsprestandaindex eller beräknad faktisk kostnad) ska beräknas med timmar eller kostnader. </p> <p>Mer information om prestandaindexmetoden finns i <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Ange prestandaindexmetod (PIM)</a>. </p> <p>Workfront-administratören<span> eller en gruppadministratör</span> väljer standardinställningen för prestandaindexmetod för ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Uppskattning vid slutförande</strong> </td> 
@@ -389,11 +389,11 @@ Så här redigerar du fält i finanssektorn:
       Välj bland följande alternativ: 
       <ul><li><b>Beräkna på projektnivå</b></li>
       <li><b>Samla in uppgifter/underuppgifter</b></li> </ul>
-      <p>Mer information om hur Beräkningen vid slutförande beräknas finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Beräkna uppskattning vid slutförande</a>.</p> <p>Din Workfront- eller gruppadministratör väljer standardinställningen Beräkning vid slutförande för ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </p> </td> 
+      <p>Mer information om hur uppskattningen vid slutförande beräknas finns i <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Beräkna beräkning vid slutförande (EAC)</a>.</p> <p>Din Workfront- eller gruppadministratör väljer standardinställningen Beräkning vid slutförande för ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planerad förmån</strong> </td> 
-      <td> <p>Uppskatta den planerade fördelen med projektet. Detta används i affärsscenariot för projektet och i Portfolio Optimizer. Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p> <p>Mer information finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Uppskatta den planerade fördelen med projektet. Detta används i affärsscenariot för projektet och i Portfolio Optimizer. Mer information om en planerad förmån för ett projekt finns i <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Översikt över projektplanerad förmån</a>. Den planerade fördelen med ett projekt beaktas när ett projekts nettovärde beräknas. </p> <p>Mer information finns i <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Hantera projekt i Portfolio-optimering</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Faktisk förmån</strong> </td> 
@@ -414,12 +414,12 @@ Så här redigerar du fält i finanssektorn:
 
    eller
 
-   Klicka **Spara**.
+   Klicka på **Spara**.
 
 ### Projektinställningar {#project-settings}
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Projektinställningar** till vänster.
+1. Klicka på **Projektinställningar** i den vänstra panelen.
 
    ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
@@ -430,23 +430,23 @@ Så här redigerar du fält i finanssektorn:
       <col> 
       <tbody> 
       <tr> 
-      <td role="rowheader"><strong>Sökväg för milstolpe</strong> </td> 
-       <td> <p>Välj en milstolpe-sökväg för projektet. Endast aktiva milstolpesökvägar visas i listan.</p> <p>Mer information om milstolpbanor finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpe-bana</a>.</p> </td> 
+      <td role="rowheader"><strong>Milstolpesökväg</strong> </td> 
+       <td> <p>Välj en milstolpe-sökväg för projektet. Endast aktiva milstolpesökvägar visas i listan.</p> <p>Mer information om milstolpbanor finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpsbana</a>.</p> </td> 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Slutförandeläge</strong> </td> 
       <td> <p>Styr hur projektet markeras som fullständigt. Välj bland följande alternativ: 
        <ul> 
-       <li><p><strong>Automatisk</strong>: Projektet är markerat som slutfört när alla uppgifter och ärenden är slutförda.</p><p>Projektets status ändras automatiskt till Slutför endast när projektstatusen är Aktuell när aktiviteterna har slutförts. </p></li> 
-       <li><strong>Manuell</strong>: Du måste manuellt välja statusen Slutför för projektet när alla uppgifter och ärenden är slutförda.</li> 
+       <li><p><strong>Automatiskt</strong>: Projektet markeras som slutfört när alla aktiviteter och utgåvor har slutförts.</p><p>Projektets status ändras automatiskt till Slutför endast när projektstatusen är Aktuell när aktiviteterna har slutförts. </p></li> 
+       <li><strong>Manuell</strong>: Du måste manuellt välja statusen Fullständig för projektet när alla aktiviteter och utgåvor har slutförts.</li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Läge för slutförande av sammanfattning</strong></td> 
        <td> <p>Styr hur de överordnade uppgifterna markeras som Slutfört. Välj bland följande alternativ: 
        <ul> 
-       <li><strong>Automatisk</strong>: De överordnade aktiviteterna är markerade som Slutförd och de uppdaterar automatiskt procentandelen slutförd, allt eftersom de underordnade aktiviteterna slutförs och procentandelen slutförd för de underordnade uppdateras. </li> 
-       <li><strong>Manuell</strong>: Du måste uppdatera procentandelen slutförd och statusen för de överordnade uppgifterna manuellt, oberoende av vilka ändringar som görs för de underordnade uppgifterna. Detta gör att du kan markera en överordnad uppgift som har slutförts även när underuppgifterna är ofullständiga. </li> 
+       <li><strong>Automatisk</strong>: De överordnade aktiviteterna är markerade som Slutförd och de uppdaterar automatiskt sin procentandel färdigt, allt eftersom de underordnade aktiviteterna slutförs och procentandelen slutfört av de underordnade uppdateras. </li> 
+       <li><strong>Manuell</strong>: Du måste uppdatera procentandelen slutförd och statusen för de överordnade aktiviteterna manuellt, oberoende av vilka ändringar som görs för de underordnade aktiviteterna. Detta gör att du kan markera en överordnad uppgift som har slutförts även när underuppgifterna är ofullständiga. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -455,7 +455,7 @@ Så här redigerar du fält i finanssektorn:
        <ul> 
        <li>Uppdatera datum för uppgifter</li> 
        <li>Ändra föregående relationer för uppgifter</li> 
-       <li><p>Ändra överordnade och underordnade relationer genom att lägga till eller ta bort tilldelningar förutom att ändra uppgiftens begränsning eller varaktighet.</p><p>När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade uppgifter eller projektet) vid den tidpunkt som anges av uppdateringstypen. </p><p>Uppdatera sidan om de överordnade objekten inte uppdateras omedelbart efter ändringen när du väljer Uppdatera endast automatiskt och vid ändring eller Ändra endast</p><p>Välj bland följande alternativ: </p><p>- <strong>Automatiskt och vid ändring</strong> (Standardinställning): Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som projektet är beroende av (Vid ändring). Projektets tidslinje uppdateras också varje natt (automatiskt).</p><p>Detta är den rekommenderade inställningen för det här fältet eftersom det ser till att projektet alltid är uppdaterat.</p><p>När du utför en åtgärd för en uppgift eller ett projekt som utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter visas datum som kräver längre omberäkningar som ett frågetecken (mellan 1 och 5 sekunder, eller upp till en minut för stora projekt). Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.</p><p>- <strong>Ändra endast</strong>: Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som projektet är beroende av. Du kanske vill välja det här alternativet om ändringarna sällan inträffar i projektet eller i andra projekt som tidslinjen är beroende av.</p><p>- <strong>Endast automatiskt</strong>: Projektets tidslinje uppdateras varje natt. Tidslinjen uppdateras inte omedelbart efter att ändringar har gjorts.</p><p>Du kan välja det här alternativet om det sker många ändringar varje dag i projektet eller i andra projekt som tidslinjen är beroende av. Tänk dock på att du valde den här inställningen eftersom projektet inte uppdateras samtidigt som ändringarna görs.</p><p>- <strong>Endast manuellt</strong>: Projektets tidslinje uppdateras bara när du väljer alternativet Beräkna om tidslinje. Mer information om hur du manuellt beräknar om projekttidslinjen finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>. </p><p>Du kan välja det här alternativet om du gör många ändringar i projektet samtidigt och du vill att tidslinjen ska räknas om efter att alla ändringar har gjorts (i stället för efter varje enskild ändring).</p></li> 
+       <li><p>Ändra överordnade och underordnade relationer genom att lägga till eller ta bort tilldelningar förutom att ändra uppgiftens begränsning eller varaktighet.</p><p>När uppgifterna uppdateras uppdateras deras överordnade objekt (överordnade uppgifter eller projektet) vid den tidpunkt som anges av uppdateringstypen. </p><p>Uppdatera sidan om de överordnade objekten inte uppdateras omedelbart efter ändringen när du väljer Uppdatera endast automatiskt och vid ändring eller Ändra endast</p><p>Välj bland följande alternativ: </p><p>- <strong>Automatisk och vid ändring</strong> (standardinställning): Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som projektet är beroende av (Vid ändring). Projektets tidslinje uppdateras också varje natt (automatiskt).</p><p>Detta är den rekommenderade inställningen för det här fältet eftersom det ser till att projektet alltid är uppdaterat.</p><p>När du utför en åtgärd för en uppgift eller ett projekt som utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter visas datum som kräver längre omberäkningar som ett frågetecken (mellan 1 och 5 sekunder, eller upp till en minut för stora projekt). Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.</p><p>- <strong>Ändra endast</strong>: Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som projektet är beroende av. Du kanske vill välja det här alternativet om ändringarna sällan inträffar i projektet eller i andra projekt som tidslinjen är beroende av.</p><p>- <strong>Endast automatiskt</strong>: Projektets tidslinje uppdateras varje natt. Tidslinjen uppdateras inte omedelbart efter att ändringar har gjorts.</p><p>Du kan välja det här alternativet om det sker många ändringar varje dag i projektet eller i andra projekt som tidslinjen är beroende av. Tänk dock på att du valde den här inställningen eftersom projektet inte uppdateras samtidigt som ändringarna görs.</p><p>- <strong>Endast manuell</strong>: Projektets tidslinje uppdateras bara när du väljer alternativet för att beräkna om tidslinje. Mer information om hur du manuellt beräknar om projekttidslinjen finns i <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Beräkna om projekttidslinjer</a>. </p><p>Du kan välja det här alternativet om du gör många ändringar i projektet samtidigt och du vill att tidslinjen ska räknas om efter att alla ändringar har gjorts (i stället för efter varje enskild ändring).</p></li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -463,29 +463,29 @@ Så här redigerar du fält i finanssektorn:
        <td> <p>Välj ett schema för ditt projekt. Det ska vara samma schema som tilldelats de flesta personer som arbetar med projektet. Du måste skapa ett schema innan du kan tilldela det till ett projekt eller en användare. Om du inte har skapat anpassade scheman i ditt system väljs standardschemat.</p> <p>Mer information om hur du skapar scheman finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Skapa ett schema</a>. </p> </td> 
        </tr> 
        <tr> 
-       <td role="rowheader"><strong>Användningstid av</strong> </td> 
-       <td> <p>Avgör om tidpunkten för den primära tilldelades för en uppgift justerar planerade aktivitetsdatum i projektet. </p><p>Din Workfront-administratör<span> eller en gruppadministratör</span> väljer standardinställningen för den här inställningen för ditt system <span>eller din grupp</span>. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p><p>Välj bland följande alternativ:<br>- <strong>Överväg användarens ledig tid i aktivitetsvaraktigheter</strong>: När du väljer det här alternativet justeras de planerade datumen för uppgifterna enligt tiden för den primära tilldelaren för uppgiften, om tiden för inaktivitet inträffar under aktivitetens varaktighet. </p><p>Om en aktivitet med villkoret Så snart som möjligt är schemalagd att starta den 1 juni och slutföras den 3 juni, och den primära tilldelaren har 2 juni markerat som Tid off, när detta val är aktiverat, är de planerade aktivitetsdatumen 1-4 juni. Beroende på uppgiftsbegränsningen finns följande scenarier: </p> 
+       <td role="rowheader"><strong>Användartid av</strong> </td> 
+       <td> <p>Avgör om tidpunkten för den primära tilldelades för en uppgift justerar planerade aktivitetsdatum i projektet. </p><p>Workfront-administratören<span> eller en gruppadministratör</span> väljer standardinställningen för det här systemet <span> eller din grupp</span>. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p><p>Välj bland följande alternativ:<br>- <strong>Behandla användarens tid i aktivitetsvaraktigheter</strong>: När du väljer det här alternativet justeras de planerade datumen för aktiviteterna enligt tidpunkten för aktivitetens primära tilldelare, om tidpunkten för inaktivitet inträffar under aktivitetens varaktighet. </p><p>Om en aktivitet med villkoret Så snart som möjligt är schemalagd att starta den 1 juni och slutföras den 3 juni, och den primära tilldelaren har 2 juni markerat som Tid off, när detta val är aktiverat, är de planerade aktivitetsdatumen 1-4 juni. Beroende på uppgiftsbegränsningen finns följande scenarier: </p> 
        <ul> 
        <li>För uppgiftsbegränsningar som gäller planering från ett startdatum (så snart som möjligt, tidigaste tillgängliga tid, Start tidigast, inte senare än, Måste börja på) ändras inte det planerade startdatumet, men det planerade slutförandedatumet ändras inte.</li> 
        <li>För aktivitetsbegränsningar som gäller planering från ett slutförandedatum (så sent som möjligt, senaste tillgängliga tid, Slutför inte tidigare än, Slutför inte senare än, Måste avslutas den) ändras inte det planerade slutförandedatumet, men det planerade startdatumet ändras inte.</li> 
        <li>För uppgifter med en begränsning på fasta datum ändras varken det planerade startdatumet eller slutförandedatumet. </li> 
-       </ul><p>Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning. Mer information om aktivitetsbegränsning finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>. </p><p>- <strong>Ignorera användartid för aktivitetsvaraktighet</strong>: När du väljer det här alternativet förblir de planerade datumen för aktiviteterna i projektet som de ursprungligen var planerade, även om aktivitetens primära uppdragsgivare har en ledig tid under aktivitetens varaktighet. </p><p>Tänk på följande när du väljer alternativ för den här inställningen:</p> 
+       </ul><p>Aktivitetens varaktighet ändras inte när du väljer den här inställningen. Endast planerade datum ändras beroende på aktivitetsbegränsning. Mer information om uppgiftsbegränsning finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>. </p><p>- <strong>Ignorera användartid för aktivitetsvaraktigheter</strong>: När du väljer det här alternativet förblir de planerade datumen för aktiviteterna i projektet som de ursprungligen var planerade, även om aktivitetens primära tilldelare har en ledig tid under aktivitetens varaktighet. </p><p>Tänk på följande när du väljer alternativ för den här inställningen:</p> 
        <ul> 
        <li><p>Standardalternativet för den här inställningen för ett nytt projekt är samma som projektinställningen på systemnivå. </p><p>Mer information om projektinställningarna på systemnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p></li> 
        <li>När du kopplar en mall till ett befintligt projekt uppdateras inställningen för projektet så att den matchar mallen. </li> 
-       <li><p>Workfront avgör vilka planerade aktivitetsdatum som ska justeras enligt aktivitetsbegränsningsvärdet för uppgiften. Beroende på vad det är kan antingen planerad start eller planerad slutförandetid, eller både och, påverkas, eller till och med förbli desamma. Om en aktivitet till exempel har en begränsning med fasta datum, justeras inte datumen när den primära tilldelade har en ledig tid, även om <strong>Överväg användarens ledig tid i aktivitetsvaraktigheter</strong> är markerat. </p></li> 
+       <li><p>Workfront avgör vilka planerade aktivitetsdatum som ska justeras enligt aktivitetsbegränsningsvärdet för uppgiften. Beroende på vad det är kan antingen planerad start eller planerad slutförandetid, eller både och, påverkas, eller till och med förbli desamma. Om en aktivitet till exempel har en begränsning med fasta datum justeras inte datumen när den primära tilldelaren har en ledig tid, även när <strong>Överväg användarens tid med aktivitetsvaraktighet</strong> har valts. </p></li> 
        </ul></td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Resursutjämningsläge</strong> </td> 
-       <td> <p> <p>Välj bland följande alternativ:</p> <p>- <strong>Manuell</strong>: du måste justera resurserna manuellt (det här är standardinställningen)</p> <p>- <strong>Automatisk</strong>: Workfront nivåer av dina resurser.</p> <p>Mer information om resursnivåer finns i <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivåresurser i Gantt-schemat </a>.</p> </p> </td> 
+       <td> <p> <p>Välj bland följande alternativ:</p> <p>- <strong>Manuell</strong>: du måste justera dina resurser manuellt (det här är standardinställningen)</p> <p>- <strong>Automatisk</strong>: Workfront nivåindelar dina resurser.</p> <p>Mer information om resursutjämning finns i <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">Nivåresurser i Gantt-schemat </a>.</p> </p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>risk</strong> </td> 
-       <td> <p> <p>Definiera risknivån för ditt projekt. Risken är bara en indikator på hur riskfylld ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån.</p> <p> <p>Välj bland följande risknivåer:</p> <p>- Mycket låg</p> <p>- Låg</p> <p>- Medel</p> <p>- Hög</p> <p>- Mycket hög</p> <p>De risknivåer du anger här kan inte anpassas.</p> <p>Dessa är inte relaterade till de potentiella risker som kan uppstå under ett projekts livslängd och som du bör registrera på fliken Risker i projektet eller i affärsfallet. Information om potentiella projektrisker finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Redigera och skapa risktyper</a>. </p> </p> </p> </td> 
+       <td role="rowheader"><strong>Risk</strong> </td> 
+       <td> <p> <p>Definiera risknivån för ditt projekt. Risken är bara en indikator på hur riskfylld ett projekt kan vara. Du kan prioritera genomförandet av dina projekt baserat på risknivån.</p> <p> <p>Välj bland följande risknivåer:</p> <p>- Mycket låg</p> <p>- Låg</p> <p>- MEDIUM</p> <p>- Hög</p> <p>- Mycket hög</p> <p>De risknivåer du anger här kan inte anpassas.</p> <p>Dessa är inte relaterade till de potentiella risker som kan uppstå under ett projekts livslängd och som du bör registrera på fliken Risker i projektet eller i affärsfallet. Mer information om potentiella projektrisker finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Redigera och skapa risktyper</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>Resursgrupper</strong> </td> 
+       <td role="rowheader"><strong>Resurspooler</strong> </td> 
        <td> <p> <p>Ange de resurspooler som är associerade med projektet. Resurspooler är samlingar med användare som behövs samtidigt för att slutföra ett projekt och som möjliggör projektbudgetering i resursplaneraren. Mer information om resurspooler finns i <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Översikt över resurspooler </a>. </p> <p>När du redigerar flera projekt samtidigt visas endast de resurspooler som är gemensamma för alla markerade projekt i det här fältet. Om de valda projekten inte har några delade resurspooler kommer det här fältet att vara tomt. Resurspoolerna som du anger här skriver över projektets enskilda resurspooler.</p> </p> </td> 
       </tr> 
       <tr> 
@@ -494,30 +494,30 @@ Så här redigerar du fält i finanssektorn:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Kräv tid för godkännande av det här projektet</strong></td> 
-       <td> <p> Välj det här alternativet om du vill att projektägaren ska godkänna den tid som är inloggad i projektet. Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. </p> <p>Mer information om hur du behöver tid för att godkänna ett projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Kräv tid för godkännande av ett projekt</a>.</p> </td> 
+       <td> <p> Välj det här alternativet om du vill att projektägaren ska godkänna den tid som är inloggad i projektet. Om du använder Faktureringsposter och väljer det här alternativet visas endast de godkända timmarna i projektet som tillgängliga fakturerbara timmar för Faktureringsposterna. Godkännandetiden för projektet är oberoende av godkännande av tidrapporter. </p> <p>Mer information om hur du behöver tid för att godkänna ett projekt finns i <a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">Kräv tid för att godkännas för ett projekt</a>.</p> </td> 
       </tr> 
       <tr> 
-       <td role="rowheader"><strong>Timtyper för filter</strong> och</span> <strong>Timtyper</strong></td> 
+       <td role="rowheader"><strong>Filtertimtyper</strong> och</span> <strong>timtyper</strong></td> 
        <td> <p> <p>Välj bland följande alternativ:</p> 
        <ul> 
-       <li> <p>Välj <strong>Nej</strong> för att göra alla projektspecifika timtyper tillgängliga i projektet. (Det här är standardvalet)</p> <p>eller</p> </li> 
-       <li>Välj <strong>Ja</strong> om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i projektet, väljer du de timtyper du vill göra tillgängliga i <b>Timtyper</b> fält.</li> 
+       <li> <p>Välj <strong>Nej</strong> om du vill göra alla projektspecifika timtyper tillgängliga i projektet. (Det här är standardvalet)</p> <p>eller</p> </li> 
+       <li>Välj <strong>Ja</strong> om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i projektet. Välj sedan de timtyper som du vill göra tillgängliga i fältet <b>Timtyper</b>.</li> 
        <p><b>TIPS</b></p>
-       <p>The <b>Timtyper</b> fältet går inte att redigera när du markerar <b>Nej</b>.</p> 
+       <p>Fältet <b>Timtyper</b> kan inte redigeras när du väljer <b>Nej</b>.</p> 
        <p>Om du väljer det här alternativet blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om uppgifter och problem i projektet). Du måste välja minst en timtyp. Om du väljer det här alternativet och inte väljer någon timtyp, blir alla timtyper tillgängliga i projektet.</p> </ul>
 
    <p>Samma timtypval måste göras på den enskilda användarnivån för att användaren ska kunna se dessa timtypalternativ i projektet. Mer information om hur du definierar timtyper på användarnivå finns i <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Loggtid</a>. </p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>Påminnelsemeddelande</strong> </td> 
-       <td> <p> <p>Välj det påminnelsemeddelande som ska associeras med projektet. Du måste konfigurera påminnelsemeddelanden för att projekt för det här fältet ska visas när du redigerar ett projekt. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a> .</a></p> </p> </td> 
+       <td> <p> <p>Välj det påminnelsemeddelande som ska associeras med projektet. Du måste konfigurera påminnelsemeddelanden för att projekt för det här fältet ska visas när du redigerar ett projekt. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md"><a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Konfigurera påminnelsemeddelanden</a> .</a></p> </p> </td> 
       </tr> 
       <tr data-mc-conditions=""> 
        <td role="rowheader"><strong>Godkännandeprocess</strong></td> 
        <td> <p>Välj den godkännandeprocess som du vill associera med projektet. Workfront-administratören måste definiera godkännandeprocesser på systemnivå innan du kan koppla dem till projekt. <span>En användare med administrativ åtkomst till godkännandeprocesser kan också skapa gruppspecifika godkännandeprocesser.</span> Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.</p> <p>Tänk på följande när du lägger till godkännandeprocesser: </p> 
        <ul> 
        <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
-       <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är associerad med en annan grupp än den som projektet har visas inte i listan.</p> <p>Om gruppen som är kopplad till projektet ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
+       <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. En godkännandeprocess som är associerad med en annan grupp än den som projektet har visas inte i listan.</p> <p>Om gruppen som är kopplad till projektet ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>. </p> </li> <!--(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)-->
        <p>Vid gruppredigeringsprojekt finns följande scenarier:</p> 
        <ul> 
        <li> <p>När du väljer projekt från samma grupp visas både godkännandeprocesser på system- och gruppnivå i det här fältet.</p> </li> 
@@ -534,30 +534,30 @@ Så här redigerar du fält i finanssektorn:
 
    eller
 
-   Klicka **Spara**.
+   Klicka på **Spara**.
 
 ### Uppgiftsinställningar {#task-settings}
 
 Du kan definiera standardvärden som ska kopplas till alla nya uppgifter när du lägger till dem i projektet.
 
-Mer information om hur dessa inställningar påverkar skapandet av nya uppgifter finns i avsnittet [Som standard för uppgifter när du lägger till uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) i artikeln [Skapa uppgiftsöversikt](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
+Mer information om hur de här inställningarna påverkar hur du skapar nya uppgifter finns i avsnittet [Standardvärden för uppgifter när du lägger till uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-overview.md#understa) i artikeln [Översikt över Skapa uppgifter](../../../manage-work/tasks/create-tasks/create-tasks-overview.md).
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Uppgiftsinställningar** till vänster.
+1. Klicka på **Aktivitetsinställningar** i den vänstra panelen.
 
    ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
-1. I **Standardprocess för godkännande av uppgift** markerar du den process för godkännande av uppgift som du vill koppla till alla nya uppgifter när du lägger till dem i projektet.
+1. I rutan **Standardprocess för godkännande av aktivitet** väljer du den process för godkännande av uppgift som du vill associera med alla nya uppgifter när du lägger till dem i projektet.
 
-   Workfront-administratören (eller en användare med administrativ åtkomst till godkännandeprocesser) måste skapa en process på system- eller gruppnivå för en åtgärd innan du kan associera den med ett projekt. Endast aktiva godkännandeprocesser visas i listan. Mer information om hur du skapar godkännandeprocesser finns i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i [Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   Workfront-administratören (eller en användare med administrativ åtkomst till godkännandeprocesser) måste skapa en process på system- eller gruppnivå för en åtgärd innan du kan associera den med ett projekt. Endast aktiva godkännandeprocesser visas i listan. Mer information om hur du skapar godkännandeprocesser finns i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i [Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    Vid gruppredigeringsprojekt finns följande scenarier:
 
    * När du väljer flera projekt från samma grupp visas både systemnivå och gruppspecifik process för godkännande av uppgifter i det här fältet.
    * När du väljer flera projekt från olika grupper visas endast åtgärdsgodkännandeprocesser på systemnivå i det här fältet.
 
-1. I **Anpassad Forms för aktivitetsstandard** markerar du det eller de anpassade formulär som du vill koppla till alla nya uppgifter när du lägger till dem i projektet. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan associera upp till tio anpassade formulär med en uppgift.
-1. (Valfritt) Välj **Använd Arbetsinsats för att automatiskt beräkna aktivitetsplanerade timmar** om du vill aktivera hantering av uppgiftsinsats genom att använda Arbetsinsats i stället för Planerade timmar.
+1. I rutan **Standardinställd anpassad Forms** väljer du det eller de anpassade formulär som du vill associera med alla nya uppgifter när du lägger till dem i projektet. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan associera upp till tio anpassade formulär med en uppgift.
+1. (Valfritt) Välj **Använd arbetsinsats för att automatiskt beräkna timmar för planerad aktivitet** om du vill aktivera hantering av aktivitetsinsats genom att använda Arbetsinsats i stället för Planerade timmar.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
@@ -566,33 +566,33 @@ Mer information om hur dessa inställningar påverkar skapandet av nya uppgifter
    | Storlek | Procent |
    |---|---|
    | Liten | 25 % |
-   | Medel | 50 % |
+   | Medium | 50 % |
    | Stor | 75 % |
 
    >[!TIP]
    >
-   >När projektets uppdateringstyp är inställd på Automatisk och du väljer den här inställningen, uppdateras aktivitetens planerade timmar enligt procentvärdet för aktivitetens varaktighet och arbetsinsats, om de är inställda på noll. Mer information om hur du använder Arbetsinsats för att planera arbete för en uppgift finns i [Översikt över arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
+   >När projektets uppdateringstyp är inställd på Automatisk och du väljer den här inställningen, uppdateras aktivitetens planerade timmar enligt procentvärdet för aktivitetens varaktighet och arbetsinsats, om de är inställda på noll. Mer information om hur du använder Arbetsinsats för att planera arbete för en uppgift finns i [Översikt över Arbetsinsats](../../../manage-work/tasks/task-information/work-effort.md).
 
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
    eller
 
-   Klicka **Spara**.
+   Klicka på **Spara**.
 
 ### Ärendeinställningar {#issue-settings}
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Ärendeinställningar** till vänster.
+1. Klicka på **Utfallsinställningar** i den vänstra panelen.
 
    ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
-1. (Valfritt) Avmarkera **Tillåt användare att lägga till interna utgåvor** alternativ. Det är markerat som standard.
+1. (Valfritt) Avmarkera alternativet **Tillåt användare att lägga till infogade utgåvor**. Det är markerat som standard.
 
    När du avmarkerar det här alternativet kan användare inte lägga till fel i projektet eller uppgifterna i avsnittet Problem.
 
    >[!TIP]
    >
-   >Avmarkera det här alternativet om du vill tvinga användare att fylla i de nya fälten eller de anpassade formulär som är kopplade till nya problem. Genom att låta användare ange interna problem kan de kringgå fälten Nytt problem och anpassade formulär när de skapar problem. Mer information om hur du anger fält och anpassade formulär för nya problem finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >Avmarkera det här alternativet om du vill tvinga användare att fylla i de nya fälten eller de anpassade formulär som är kopplade till nya problem. Genom att låta användare ange interna problem kan de kringgå fälten Nytt problem och anpassade formulär när de skapar problem. Mer information om hur du ställer in fält och anpassade formulär för nya problem finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    När du avmarkerar det här alternativet kan användare med behörighet att lägga till problem i projektet eller uppgifterna göra det på följande sätt:
 
@@ -609,16 +609,16 @@ Mer information om hur dessa inställningar påverkar skapandet av nya uppgifter
 
    eller
 
-   Klicka **Spara**.
+   Klicka på **Spara**.
 
 ### Åtkomst {#access}
 
 1. Börja redigera ditt projekt enligt beskrivningen ovan.
-1. Klicka **Åtkomst** till vänster.
+1. Klicka på **Åtkomst** i den vänstra panelen.
 
    ![](assets/nwe-access-in-edit-project-box-350x262.png)
 
-1. Ange följande **Åtkomst** Information om projektet:
+1. Ange följande **Access**-information för projektet:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -626,23 +626,23 @@ Mer information om hur dessa inställningar påverkar skapandet av nya uppgifter
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>När någon tilldelas till en uppgift</strong></td> 
-      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> behörighet till en uppgift. Användaren som tilldelats en uppgift får automatiskt den här åtkomsten till uppgiften.</p></td> 
+      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till en aktivitet. Användaren som tilldelats en uppgift får automatiskt den här åtkomsten till uppgiften.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Ge även åtkomst till projektet</strong></td> 
-      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute</strong>, eller <strong>Hantera</strong> tillgång till projektet. Användaren som tilldelats en uppgift får automatiskt tillgång till projektet.<br></p></td> 
+      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en uppgift får automatiskt tillgång till projektet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>När någon har tilldelats ett problem</strong></td> 
-      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> tillgång till en utgåva. Användaren som tilldelats en utgåva får automatiskt den här åtkomsten till utgåvan. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a>.<br></p></td> 
+      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute,</strong> eller <strong>Hantera</strong> åtkomst till ett problem. Användaren som tilldelats en utgåva får automatiskt den här åtkomsten till utgåvan. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Ge även åtkomst till projektet</strong></td> 
-      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute</strong>, eller <strong>Hantera</strong> tillgång till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet.<br></p></td> 
+      <td><p>Välj mellan <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till projektet. Användaren som tilldelats en utgåva får automatiskt även den här åtkomsten till projektet.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>När någon skickar en begäran: Ge dem åtkomst</strong></td> 
-      <td><p>Välj från <strong>Visa</strong>, <strong>Contribute</strong>, eller <strong>Hantera</strong> behörighet till begäran. När projektet också är en begärandekö och en användare skickar en begäran till projektet, får de åtkomst till den begäran de skickade. Mer information om hur du konfigurerar ett projekt som en frågekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>.<br></p></td> 
+      <td><p>Välj <strong>Visa</strong>, <strong>Contribute</strong> eller <strong>Hantera</strong> åtkomst till begäran. När projektet också är en begärandekö och en användare skickar en begäran till projektet, får de åtkomst till den begäran de skickade. Mer information om hur du konfigurerar ett projekt som en begärandekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Personer från samma företag ärver samma behörigheter för alla begäranden.</strong></td> 
@@ -650,12 +650,12 @@ Mer information om hur dessa inställningar påverkar skapandet av nya uppgifter
      </tr> 
      <tr> 
       <td role="rowheader"><strong>När någon får åtkomst till det här projektet: Ange standardåtkomst för ...</strong></td> 
-      <td><p>Välj de åtkomstalternativ som du vill att användarna ska ha i projektet, om projektet delas med dem. Välj de specifika alternativen för deras åtkomst om de är angivna som <strong>Tittare</strong>, <strong>Medarbetare</strong>, eller <strong>Chefer</strong> när du delar projektet med dem. </p><p>The <strong>Ta bort</strong> i <strong>Hantera</strong> behörighetsnivån avgör om användare kan ta bort själva projektet. Användare med <strong>Hantera</strong> åtkomst till projektet kan ta bort aktiviteter och problem i projektet oavsett om det här alternativet är markerat eller inte, om de har <strong>Hantera</strong> behörigheter för uppgifter och problem. </p></td> 
+      <td><p>Välj de åtkomstalternativ som du vill att användarna ska ha i projektet, om projektet delas med dem. Välj de specifika alternativen för deras åtkomst om de är angivna som <strong>visningsprogram</strong>, <strong>Medarbetare</strong> eller <strong>Chefer</strong> när de delar projektet med dem. </p><p>Åtkomsten <strong>Ta bort</strong> i behörighetsnivån <strong>Hantera</strong> avgör om användare kan ta bort själva projektet. Användare med <strong>Hantera</strong>-åtkomst till projektet kan ta bort aktiviteter och problem i projektet, oavsett om det här alternativet är markerat eller inte, om de har <strong>Hantera</strong>-behörighet till aktiviteter och ärenden. </p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ### Länkade mappar
 
@@ -667,7 +667,7 @@ Det här avsnittet visas bara om följande gäller:
 * Din organisation har aktiverat och konfigurerat en integrering med Adobe Experience Manager
 * Mallen som används för att skapa projektet har aktiverat och konfigurerat länkade mappar.
 
-Instruktioner om hur du redigerar länkade mappar finns i [Redigera värden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln Använda arbetsflöden i Experience Manager Assets-integrering.
+Instruktioner om hur du redigerar länkade mappar finns i [Redigera arbetsflödesvärden i ett projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) i artikeln Använda arbetsflöden i Experience Manager Assets-integreringen.
 
 >[!NOTE]
 >
@@ -742,22 +742,22 @@ Så här redigerar du flera projekt samtidigt:
 {{step1-to-projects}}
 
 1. Markera flera projekt i listan.
-1. Klicka på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
-The **Redigera projekt** öppnas.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
+Dialogrutan **Redigera projekt** öppnas.
 
    ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Beroende på hur Workfront-administratören eller gruppadministratören ändrade din layoutmall kan områdena i den vänstra panelen i rutan Redigera projekt eller fält som listas i dessa områden ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klicka **Ökning** om du vill redigera allmän information om de valda projekten.  Mer information om hur du redigerar området Översikt finns i avsnittet [Ökning](#overview) i den här artikeln.
+1. Klicka på **Översikt** om du vill redigera allmän information om de markerade projekten.  Mer information om hur du redigerar området Översikt finns i avsnittet [Översikt](#overview) i den här artikeln.
 
    >[!TIP]
    >
    >Fält som du redigerar visas med en ljuslila bakgrund.
 
-1. Klicka **Anpassad Forms** om du vill redigera, lägga till eller ersätta anpassade formulär som är kopplade till de valda projekten.
+1. Klicka på **Anpassad Forms** om du vill redigera, lägga till eller ersätta anpassade formulär som är kopplade till de markerade projekten.
 
-   De anpassade formulär som är kopplade till alla valda projekt visas i **Gemensamma anpassade formulär** underavsnitt i **Anpassad Forms** område.
+   De anpassade formulär som är kopplade till alla markerade projekt visas i underavsnittet **Anpassade formulär** i området **Anpassade Forms**.
 
    ![](assets/custom-forms-in-common-unshimmed.png)
 
@@ -765,20 +765,20 @@ Beroende på hur Workfront-administratören eller gruppadministratören ändrade
    >
    >   Namnen på de formulär som är gemensamma för alla markerade projekt visas i den vänstra panelen i rutan Redigera projekt.
 
-1. Börja skriva namnet på ett anpassat formulär i dialogrutan **Lägg till anpassat formulär** fält.
+1. Börja skriva namnet på ett anpassat formulär i fältet **Lägg till anpassat formulär**.
 
 
    ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
-   De anpassade formulär som redan är kopplade till de valda projekten visas i **Bifogade formulär** underavsnitt i **Lägg till anpassat formulär** fält.
+   De anpassade formulär som redan är kopplade till de valda projekten visas i underavsnittet **Bifogade formulär** i fältet **Lägg till anpassat formulär**.
 
-   Ytterligare anpassade formulär som kan kopplas till projekt men inte är kopplade till något av de valda projekten visas i **Forms att lägga till** underavsnitt i **Lägg till anpassat formulär** fält.
+   Ytterligare anpassade formulär som kan associeras med projekt men som inte är kopplade till något av de markerade projekten visas i **Forms för att lägga till** i **Lägg till anpassat formulär**.
 
-1. Klicka för att välja ytterligare anpassade formulär i **Lägg till anpassat formulär** eller **Forms att lägga till** underavsnitt när det visas i listan.
+1. Klicka för att välja ytterligare anpassade formulär i **Lägg till anpassat formulär** eller **Forms för att lägga till** underavsnitt när det visas i listan.
 
    När ett anpassat formulär redan är kopplat till vissa av de markerade projekten visas en indikation bredvid formulärets namn om hur många projekt som redan har formuläret bifogat, när ett formulär läggs till.
 
-1. (Valfritt) Klicka på **x** till höger om namnet på ett anpassat formulär och klicka sedan på **Ta bort** för att ta bort den från alla markerade projekt.
+1. (Valfritt) Klicka på ikonen **x** till höger om namnet på ett anpassat formulär och klicka sedan på **Ta bort** för att ta bort det från alla markerade projekt.
 
    >[!CAUTION]
    >
@@ -786,22 +786,22 @@ Beroende på hur Workfront-administratören eller gruppadministratören ändrade
 
    Mer information om hur du redigerar anpassade formulär finns i avsnittet [Anpassad Forms](#custom-forms) i den här artikeln.
 
-1. Klicka **Ekonomi** om du vill redigera ekonomisk information för alla valda projekt.
+1. Klicka på **Ekonomi** om du vill redigera ekonomisk information för alla valda projekt.
 Mer information om hur du redigerar finanssektorn finns i avsnittet [Ekonomi](#finance) i den här artikeln.
-1. Klicka **Projektinställningar** om du vill redigera inställningarna för alla markerade projekt.
+1. Klicka på **Projektinställningar** om du vill redigera inställningarna för alla markerade projekt.
 Mer information om hur du redigerar området Projektinställningar finns i avsnittet [Projektinställningar](#project-settings) i den här artikeln.
-1. Klicka **Uppgiftsinställningar** om du vill redigera uppgiftsinställningarna för alla markerade projekt.
-Mer information om hur du redigerar området Uppgiftsinställningar finns i avsnittet [Uppgiftsinställningar](#task-settings) i den här artikeln.
-1. Klicka **Ärendeinställningar** om du vill redigera utgivningsinställningarna för alla valda projekt.
+1. Klicka på **Aktivitetsinställningar** om du vill redigera aktivitetsinställningarna för alla markerade projekt.
+Mer information om hur du redigerar området Aktivitetsinställningar finns i avsnittet [Aktivitetsinställningar](#task-settings) i den här artikeln.
+1. Klicka på **Utfallsinställningar** om du vill redigera utgivningsinställningarna för alla markerade projekt.
 Mer information om hur du redigerar området för probleminställningar finns i avsnittet [Ärendeinställningar](#issue-settings) i den här artikeln.
-1. Klicka **Åtkomst** om du vill redigera åtkomstinställningarna för alla markerade projekt.
+1. Klicka på **Åtkomst** om du vill redigera åtkomstinställningarna för alla markerade projekt.
 Mer information om hur du redigerar åtkomstområdet finns i avsnittet [Åtkomst](#access) i den här artikeln.
-1. (Valfritt) Om du vill ta bort någon information som du har lagt till i rutan Redigera projekt håller du pekaren över ett redigerat fält och klickar på knappen **x** ta bort ikonen längst upp till höger i fältet.
+1. (Valfritt) Om du vill ta bort någon av informationen som du har lagt till i rutan Redigera projekt håller du pekaren över ett redigerat fält och klickar sedan på ikonen **x** till det övre högra hörnet av fältet.
 
    ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
-1. (Valfritt) Klicka på **Avbryt** längst ned i **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
-1. Klicka **Spara**.
+1. (Valfritt) Klicka på **Avbryt** längst ned på sidan **Redigera projekt** för att ta bort alla ändringar som gjorts i alla projekt.
+1. Klicka på **Spara**.
 
 
 <!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 

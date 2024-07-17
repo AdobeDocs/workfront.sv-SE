@@ -4,12 +4,12 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegera arbetsöversikt
 description: När du planerar att vara borta från kontoret under en kort period kan du tillfälligt delegera ditt arbete till andra användare för att säkerställa att din frånvaro inte blir ett hinder för arbetet.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -32,36 +32,36 @@ Du kan delegera följande objekt i [!DNL Adobe Workfront]:
 
 Den här artikeln innehåller allmän information om delegering av uppgifter och problem.
 
-Mer information om delegering av projekt, uppgifter, utgåvor och dokumentgodkännanden finns i [Delegera godkännandebegäran](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information om delegering av projekt-, uppgifts-, utgåva- och dokumentgodkännanden finns i [Delegera godkännandebegäran](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-Mer information om hur du delegerar uppgifter och ärenden finns i [Delegera uppgifter och ärenden](../../manage-work/delegate-work/how-to-delegate-work.md).
+Mer information om hur du delegerar uppgifter och problem finns i [Delegera uppgifter och problem](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Delegera arbetsöversikt
 
 Tänk på följande när du delegerar uppgifter och ärenden:
 
-* Dina [!DNL Workfront] eller gruppadministratören måste aktivera delegeringsinställningarna i [!UICONTROL Setup] innan du kan delegera ditt arbete till andra.
+* [!DNL Workfront]- eller gruppadministratören måste aktivera delegeringsinställningarna i området [!UICONTROL Setup] innan du kan delegera ditt arbete till andra.
 
-  Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-* Du kan endast delegera uppgifter och ärenden från [!UICONTROL Home] område.
+  Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Du kan endast delegera uppgifter och utgåvor från området [!UICONTROL Home].
 * Det finns undantag för följande licenstyper:
 
    * Du kan delegera arbete till granskare eller begärande, men [!DNL Workfront] rekommenderar det inte.
-   * Granskare kan delegera arbete till andra. De kan inte visa arbetsobjekt i sina [!UICONTROL Home] område. De kan bara visa godkännanden.
-   * Beställare kan inte delegera arbete till andra. De kan inte visa arbetsobjekt i sina [!UICONTROL Home] area
+   * Granskare kan delegera arbete till andra. De kan inte visa arbetsobjekt i sitt [!UICONTROL Home]-område. De kan bara visa godkännanden.
+   * Beställare kan inte delegera arbete till andra. De kan inte visa arbetsobjekt i sitt [!UICONTROL Home]-område
 * Du kan bara delegera de uppgifter och utgåvor som du har tilldelats. Du kan inte delegera uppgifter och ärenden som har tilldelats andra användare, team eller jobbroller.
 * Du kan bara delegera uppgifter och ärenden som inte har slutförts före delegeringens startdatum.
-* Om en arbetsuppgift slutförs under delegeringens tidsram finns artikeln kvar i hemområdet för den som delegerar och den som utses under två veckor före [!DNL Workfront] tar automatiskt bort den.
+* Om en arbetsuppgift slutförs under delegeringens tidsram finns posten kvar i hemområdet för delegaten och för den som tilldelats i två veckor innan [!DNL Workfront] automatiskt tar bort den.
 * De användare som du väljer som ombud får samma behörigheter som de uppgifter och utgåvor som du delegerar till dem. Behörigheterna måste fungera inom sina åtkomstnivåer och ibland kan deras åtkomstnivåer vara lägre än dina.
 
 >[!NOTE]
 >
->  För artiklar som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att artikeln har tilldelats [!DNL Workfront] om du vill dela de nyligen tilldelade objekten med ombudet.
+>  För objekt som tilldelas efter att delegeringen redan har startats kan det ta upp till en timme efter det att objektet tilldelats [!DNL Workfront] att dela de nyligen tilldelade objekten med delegaten.
 
 * Om du tilldelas ytterligare uppgifter och utgåvor under den tid du har valt att delegera arbetet till andra användare, delegeras det nya tilldelade arbetet automatiskt till samma person för den tidsram du valde om uppgifts- eller utgivningsdatumen ligger inom den tidsramen.
 * Samma användare kan väljas som ombud av flera användare.
 * Delegerade uppgifter och problem visas inte i resurshanteringsverktyg, som [!UICONTROL Workload Balancer] eller [!UICONTROL Resource Planner] för de delegerade användarna.
-* Du kan visa namn på delegerat arbete och delegerat arbete inom flera områden i [!DNL Workfront]. Mer information finns i avsnittet Hitta information om delegerade arbeten och delegater i artikeln [Hantera delegering av uppgifter och utgåvor](../delegate-work/how-to-delegate-work.md).
+* Du kan visa namn på delegerade arbeten och delegater i flera områden i [!DNL Workfront]. Mer information finns i avsnittet Hitta information om delegerat arbete och delegerat arbete i artikeln [Hantera uppgift och utfärda delegering](../delegate-work/how-to-delegate-work.md).
 
 
   >[!IMPORTANT]
@@ -69,7 +69,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
   >  Om en användare bara har Visa åtkomst till uppgifter på sin åtkomstnivå och du har behörigheten Hantera för de uppgifter som du delegerar till dem, får de behörigheten Hantera för de uppgifter som du delegerar till dem. De kan dock inte utföra samma åtgärder som du för de delegerade uppgifterna. De måste begära Redigera-åtkomst till uppgifter från systemadministratören för att kunna uppdatera uppgifter om du inte är anställd.
 
 * När delegeringen stoppas tas inte de behörigheter som tilldelats de delegerade användarna bort för de uppgifter och problem som de har delegerats till.
-* Om ett system eller inaktiverar [!UICONTROL Allow users to delegate their tasks & issues] i [!UICONTROL Setup] de för närvarande delegerade användarna tas bort från de uppgifter och utgåvor som de tidigare har delegerats till. Deras behörigheter till uppgifter eller problem tas inte bort.
+* Om ett system eller inaktiverar inställningen [!UICONTROL Allow users to delegate their tasks & issues] i området [!UICONTROL Setup] tas de för närvarande delegerade användarna bort från de uppgifter och utgåvor som de tidigare har delegerats till. Deras behörigheter till uppgifter eller problem tas inte bort.
 
 ## Skillnader och likheter mellan uppdrag och delegationer
 

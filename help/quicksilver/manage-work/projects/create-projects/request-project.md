@@ -6,9 +6,9 @@ description: Du kan begära att ett projekt ska godkännas innan du börjar arbe
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du kan begära ett projekt när du lägger till ett nytt projekt i följande omr
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,23 +57,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>När du skapar en projektförfrågan får du automatiskt behörigheten Hantera för projektet </p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>När du skapar en projektförfrågan får du automatiskt behörigheten Hantera för projektet </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Begär ett projekt
 
 1. Gör något av följande:
 
-   * Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Projekt** och sedan expandera **Nytt projekt**.
+   * Klicka på **huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
-   * Gå till ett program och expandera **Nytt projekt**.
+   * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Klicka **Begär projekt**.
+1. Klicka på **Begär projekt**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
@@ -83,8 +85,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      Mer information om hur du definierar ett affärsärende och begär ett projekt finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-   * Skapa ett projekt från grunden eller med en mall och ändra status till **Begärd**.
+   * Skapa ett projekt från grunden eller med en mall och ändra statusen till **Begärd**.
 
      Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md) eller [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Projektet du begär har statusen **Begärd** och visas på **Begärda projekt** -fliken för en Portfolio, om du har associerat den med en Portfolio. En portföljförvaltare kan nu granska den och antingen godkänna den eller avvisa den. I så fall ändras projektets status till antingen **Godkänd** eller **Avvisad**.
+   Det projekt som du begär har statusen **Begärd** och visas på fliken **Begärda projekt** på Portfolio, om du har associerat det med Portfolio. En portföljförvaltare kan nu granska den och antingen godkänna den eller avvisa den. I så fall ändras projektets status till antingen **Godkänd** eller **Avvisad**.

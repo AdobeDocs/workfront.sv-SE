@@ -6,9 +6,9 @@ description: Du kan importera projekt från Microsoft Project till Adobe Workfro
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,14 @@ Du kan importera projekt från Microsoft Project till Adobe Workfront och hanter
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
@@ -41,19 +43,19 @@ Du kan importera projekt från Microsoft Project till Adobe Workfront och hanter
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>När du skapar ett projekt får du automatiskt behörigheten Hantera i projektet </p> <p> Mer information om projektbehörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>När du skapar ett projekt får du automatiskt behörigheten Hantera i projektet </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--old permissions model: 
 
@@ -91,21 +93,21 @@ You must have the following access to perform the steps in this article:
 Du kan skapa ett projekt från området Projekt på huvudmenyn eller från området Projekt i en portfölj eller ett program.
 
 1. Gå till Microsoft Project och öppna ett projekt som du vill importera från i Workfront.
-1. Klicka **Fil** sedan **Spara som** för att spara projektet som en XML-fil.
+1. Klicka på **Arkiv** och sedan på **Spara som** för att spara projektet som en XML-fil.
 
 1. Logga in på Workfront.
 1. Gör något av följande:
 
-   * Klicka på **Huvudmeny** ![](assets/main-menu-icon.png), klicka **Projekt** och sedan expandera **Nytt projekt**.
+   * Klicka på **huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront eller klicka på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
-   * Gå till ett program och expandera **Nytt projekt**.
+   * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. Välj **Importera MS-projekt** alternativ.
+1. Välj alternativet **Importera MS-projekt**.
 
    ![](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Klicka **Välj fil** bläddrar du sedan efter XML-filen på datorn som du exporterade från Microsoft Project.
+1. Klicka på **Välj fil** och bläddra sedan efter XML-filen på datorn som du exporterade från Microsoft Project.
 1. Importera den markerade filen.
 
    Workfront påbörjar importprocessen och skapar ett nytt projekt baserat på den fil som exporteras från Microsoft Project.

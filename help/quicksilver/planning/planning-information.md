@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -49,21 +49,57 @@ I följande artiklar finns en översikt över nya Workfront Planning:
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md): En översikt på hög nivå över Adobe Workfront Planning, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Workfront Planning här.
-* [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Adobe Workfront Planning Program, den 22 maj 2023 med exakta releasedatum och en kort översikt över samtliga funktioner.
-* [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant for Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med hjälp av kommandon och låta assistenten sköta arbetet åt dig.
+* [Adobe Workfront Planering - aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Adobe Workfront Planning-programmet, den 22 maj 2023 med exakta releasedatum och en kort översikt över alla funktioner.
+* [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
 
-  Workfront AI Assistant är för närvarande tillgängligt för utvalda kunder i betatestning. Kontakta din kontorepresentant för att få veta om du är berättigad att delta och testa det här nya erbjudandet.
+  >[!NOTE]
+  >
+  >    Workfront AI Assistant är för närvarande tillgängligt för utvalda kunder i betatestning. Kontakta din kontorepresentant för att få veta om du är berättigad att delta och testa det här nya erbjudandet.
 
-* [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
+* [Adobe Workfront planeringsmoduler för Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 ## Workfront Planning - arkitektur och funktionalitet
 
 Följande avsnitt innehåller artiklar som i detalj beskriver de funktioner som för närvarande finns för Workfront Planning:
 
-* [Åtkomst- och behörighetsinformation: artikelindex](/help/quicksilver/planning/access/access-information.md): Information om åtkomst och behörigheter som krävs för att använda Workfront Planning.
-* [Arkitektur: artikelindex](/help/quicksilver/planning/architecture/architecture-information.md): Detaljerad information om arkitekturen i Workfront Planning, med stegvisa instruktioner för hur du skapar och hanterar arbetsytor och posttyper.
-* [Fält: artikelindex](/help/quicksilver/planning/fields/fields-information.md): Detaljerad information och stegvisa instruktioner om hur du skapar anpassade fält för posttyper.
-* [Poster: artikelindex](/help/quicksilver/planning/records/records-information.md): Detaljerad information och stegvisa instruktioner om hur du kan skapa och hantera poster.
-* [Vyer: artikelindex](/help/quicksilver/planning/views/views-information.md): Detaljerad information om postvyer och hur du hanterar dem när du visar en posttypssida.
-* [Meddelanden: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md): Information om e-post och meddelanden i appar som genereras av händelser i Workfront Planning.
+* [Åtkomst- och behörighetsinformation: artikelindex](/help/quicksilver/planning/access/access-information.md) innehåller följande information:
+
+   * Workfront licenser och planeringsbehörigheter
+   * Behörigheter för planeringsdelning
+   * Visa
+   * Dela arbetsytor (posttyper, poster och fält)
+
+* [Arkitektur: artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) innehåller följande information:
+
+   * Skapa, redigera och ta bort arbetsytor
+   * Skapa, redigera och ta bort posttyper
+   * Koppla samman posttyper och exempel på anslutningar av posttyper
+   * Workspace-mall
+
+* [Fält: artikelindex](/help/quicksilver/planning/fields/fields-information.md) innehåller följande information:
+
+   * Skapa, redigera och ta bort fält
+   * Formelfält
+   * Primära fält
+
+* [Poster: artikelindex](/help/quicksilver/planning/records/records-information.md) innehåller följande information:
+
+   * Skapa, redigera och ta bort poster
+   * Koppla poster
+   * Lägga till en omslagsbild eller en miniatyrbild i en post
+   * Hantera layouten för en postsida
+   * Spela in kommentarer och historikavsnitt
+   * Dela poster
+   * Workfront Planning-avsnitt för Workfront-objekt
+
+* [Vyer: artikelindex](/help/quicksilver/planning/views/views-information.md) innehåller följande information:
+
+   * Skapa postvyer
+   * Hantera tabell-, tidslinje- och kalendervyer
+
+* [Meddelanden: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md) innehåller följande information:
+
+   * Hantera meddelandeinställningar
+   * Planera meddelanden i appen
+   * Planera e-postmeddelanden
 

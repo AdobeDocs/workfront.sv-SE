@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '16726'
+source-wordcount: '16732'
 ht-degree: 0%
 
 ---
@@ -1531,7 +1531,7 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>Du kan ställa in [!UICONTROL Planned Completion Date] manuellt till ett valfritt datum. Om du inte anger [!UICONTROL Planned Completion Date] anges den automatiskt i [!DNL Workfront]. När den anges automatiskt är [!UICONTROL Planned Completion Date]: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Mer information finns i följande artiklar:</p> 
+   <td> <p>Du kan ställa in [!UICONTROL Planned Completion Date] för en aktivitet, ett projekt eller en utgåva manuellt på ett datum som du väljer. Om du inte anger [!UICONTROL Planned Completion Date] anges den automatiskt i [!DNL Workfront]. När den anges automatiskt är [!UICONTROL Planned Completion Date]: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>Mer information finns i följande artiklar:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över aktiviteten [!UICONTROL Planned Completion Date]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Ange projektet [!UICONTROL Planned Completion Date]</a> </p> </li> 

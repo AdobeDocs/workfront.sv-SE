@@ -2,58 +2,59 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Redigera uppgifter
-description: Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
+description: Du kan redigera information om åtgärder som du har skapat eller om du har Contribute- eller Hantera-behörighet för.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '3727'
+source-wordcount: '3662'
 ht-degree: 0%
 
 ---
 
 # Redigera uppgifter
 
+<!--Audited: 07/2024-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both:</p>
+<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a field, update it in both:</p>
 <p>** Task finances in details</p>
 <p>** Task information in overview)</p>
 </div>
 -->
 
 
-Du kan redigera information om åtgärder som du har skapat eller om du har behörighet att göra det i Contribute eller Hantera.
+Du kan redigera information om åtgärder som du har skapat eller om du har Contribute- eller Hantera-behörighet för.
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: Arbete eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-behörigheter för en uppgift om du vill redigera följande information i området Uppgiftsinformation: </p>
+     <li> <p>Contribute-behörigheter till en uppgift för att redigera följande information i området Uppgiftsinformation: </p>
      <ul>
      <li>Beskrivning</li>
      <li>Status</li>
@@ -62,13 +63,15 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
      <li> <p>Hantera behörigheter för en uppgift för att redigera all information i området Detaljer och i rutan Redigera uppgift</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Contribute eller högre behörighet för projektet</p> </li> 
-    </ul> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+     <li> <p>Contribute eller högre behörighet till projektet</p> </li> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Begränsningar för redigering av uppgifter
 
@@ -99,24 +102,24 @@ Mer information om hur du redigerar uppgifter i listor finns i [Redigera uppgift
 
 ## Redigera en uppgift i en lista med hjälp av Sammanfattning
 
-Du kan redigera en uppgift i en lista med hjälp av panelen Sammanfattning. Mer information om hur du redigerar en uppgift i panelen Sammanfattning finns i avsnittet Redigera en uppgift i sammanfattningen i [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) artikel.
+Du kan redigera en uppgift i en lista med hjälp av panelen Sammanfattning. Mer information om hur du redigerar en uppgift i panelen Sammanfattning finns i avsnittet Redigera en uppgift i sammanfattningen i artikeln [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 ## Redigera en uppgift i rutan Redigera uppgift
 
 Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation. I följande steg beskrivs hur du redigerar en uppgift i rutan Redigera uppgift.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+{{step1-click-main-menu}}
 
-1. Klicka **Projekt** klickar du sedan på namnet på ett projekt för att öppna det.
-1. Klicka **Uppgifter** till vänster.
-1. Klicka på den uppgift du vill redigera.
-1. (Villkorligt) Om du vill redigera begränsad information om en uppgift klickar du på **Uppgiftsinformation** till vänster.
+1. Klicka på **Projekt** och sedan på namnet på ett projekt för att öppna det.
+1. Klicka på **Åtgärder** i den vänstra panelen.
+1. Klicka på den uppgift som du vill redigera.
+1. (Villkorligt) Om du vill redigera begränsad information om en aktivitet klickar du på **Uppgiftsinformation** i den vänstra panelen.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
    Överväg att redigera information i följande områden i avsnittet Uppgiftsinformation:
 
-   * **Ökning**
+   * **Översikt**
 
      Det här området utökas som standard.
 
@@ -134,15 +137,15 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    Så här redigerar du information i detaljavsnittet:
 
-   1. (Valfritt) Klicka på **Komprimera alla** icon ![](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerriktad pil** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
+   1. (Valfritt) Klicka på ikonen **Komprimera alla** ![](assets/collapse-all-icon.png) i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
    1. Mer information om hur du redigerar information på fliken Uppgiftsinformation finns i följande artiklar:
 
       * [Hantera aktivitetsinformation i området Översikt över aktivitetsinformation](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
       * [Hantera aktivitetsfinanser i avsnittet Uppgiftsinformation](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
-   1. (Valfritt) Om det inte finns några anpassade formulär kopplade till uppgiften börjar du skriva namnet på ett formulär i **Lägg till anpassat formulär** och sedan markera den när den visas i listan och sedan klicka på **Spara ändringar**.
-   1. (Valfritt) Klicka på **Exportera** icon ![](assets/export.png) om du vill exportera översikten och information om anpassade formulär till en PDF-fil, och sedan klicka på **Exportera**. Välj bland följande:
+   1. (Valfritt) Om det inte finns några anpassade formulär kopplade till aktiviteten börjar du skriva namnet på ett formulär i fältet **Lägg till anpassat formulär**, markerar det när det visas i listan och klickar sedan på **Spara ändringar**.
+   1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export.png) om du vill exportera översiktsinformation och anpassad formulärinformation till en PDF-fil. Klicka sedan på **Exportera**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * Ökning
@@ -154,11 +157,11 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Villkorligt) Om du vill redigera all information om uppgiften, som en användare med behörigheten Hantera, klickar du på **Mer** meny ![](assets/more-icon.png) bredvid namnet på uppgiften och klicka sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om aktiviteten, som en användare med behörigheten Hantera, klickar du på **Mer** ![](assets/more-icon.png) bredvid namnet på aktiviteten och sedan på **Redigera**.
 
    eller
 
-   Välj en uppgift i en lista och klicka sedan på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
+   Välj en åtgärd i en lista med uppgifter och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
 
    Rutan Redigera uppgift öppnas.
 
@@ -175,7 +178,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    Det kan vara bra att ange information i följande avsnitt:
 
    * [Aktivitetsnamn](#task-name)
-   * [Ökning](#overview)
+   * [Översikt](#overview)
    * [Uppdrag](#assignments)
    * [Anpassad Forms](#Custom%C2%A0F)
    * [Ekonomi](#finance)
@@ -183,23 +186,23 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
 
    >[!NOTE]
    >
-   >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar vår layoutmall kan det hända att fälten i rutan Redigera uppgift ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar din layoutmall kan det hända att fälten i rutan Redigera uppgift ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Aktivitetsnamn {#task-name}
 
 1. Börja redigera din uppgift enligt beskrivningen ovan.
-1. Klicka **Aktivitetsnamn** till vänster.
+1. Klicka på **Uppgiftsnamn** i den vänstra panelen.
 
    ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Uppdatera aktivitetens namn.
 
-1. Klicka **Spara** eller fortsätta med följande avsnitt.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 ### Ökning {#overview}
 
 1. Börja redigera din uppgift enligt beskrivningen ovan.
-1. Klicka **Ökning** till vänster.
+1. Klicka på **Översikt** i den vänstra panelen.
 
    ![](assets/nwe-overview-section-edit-task-box-350x257.png)
 
@@ -214,11 +217,11 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <td>Lägg till ytterligare information om uppgiften. </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Avsnittet Grundinformation</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Grundläggande informationsavsnitt</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Välj status för uppgiften som anger vilket utvecklingsstadium aktiviteten befinner sig i.</p> <p><b>TIPS</b>
+      <td> <p>Välj status för uppgiften som anger i vilket utvecklingsstadium uppgiften befinner sig.</p> <p><b>TIPS</b>
 
    Du kan uppdatera aktivitetsstatus i uppgiftshuvudet. </p> </td>
    </tr> 
@@ -231,56 +234,56 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <li> <p>Normal </p> </li> 
       <li> <p>Hög </p> </li> 
       <li> <p> Urgent </p> </li> 
-       </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om uppgiftsprioriteringar finns i <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Uppdatera aktivitetsprioritet</a>. </p> </td> 
+       </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om aktivitetsprioriteter finns i <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Uppdatera aktivitetsprioritet</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Avsnittet Datum och begränsningar för uppgift</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Avsnittet Uppgiftsdatum och -begränsningar</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aktivitetsbegränsning</td> 
       <td> <p>Bestäm när uppgiften ska slutföras genom att ange en aktivitetsbegränsning. </p> <p>Välj bland följande alternativ: </p> 
        <ul> 
-      <li> <p><span>Fasta datum</span> </p> <p>Ange en <strong>Planerad start</strong> och <strong>Planerat slutförandedatum</strong>. </p> </li> 
-      <li> <p><span>Måste börja på</span> </p> <p>Ange en <strong>Planerat startdatum</strong>. </p> </li> 
-      <li> <p><span>Måste avslutas</span> </p> <p>Ange en <strong>Planerat slutförandedatum</strong>. </p> </li> 
+      <li> <p><span>Fasta datum</span> </p> <p>Ange en <strong>planerad start</strong> och ett <strong>planerat slutförandedatum</strong>. </p> </li> 
+      <li> <p><span>måste börja </span> </p> <p>Ange ett <strong>planerat startdatum</strong>. </p> </li> 
+      <li> <p><span>Måste avslutas </span> </p> <p>Ange ett <strong>planerat slutförandedatum</strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>Så snart som möjligt</span></p> </li> 
       <li> <p><span>Så sent som möjligt</span></p> </li> 
       <li> <p><span>Tidigaste tillgängliga tid</span></p> </li> 
       <li> <p> <span>Senaste tillgängliga tid</span></p> </li> 
-      <li> <p><span>Starta senast</span> </p> </li> 
+      <li> <p><span>Starta inte senare än</span> </p> </li> 
       <li> <p>Ange ett planerat startdatum</p> </li> 
-      <li> <p><span>Starta tidigast</span> </p> <p>Ange en <strong>Planerat startdatum</strong>. </p> </li> 
-      <li> <p> Slutför <span>Inte senare än</span></p> <p>Ange en <strong>Planerat slutförandedatum</strong>. </p> </li> 
-      <li> <p> Slutför <span>Inte tidigare än</span></p> <p>Ange en <strong>Planerat slutförandedatum</strong></p> </li> 
+      <li> <p><span>Starta inte tidigare än </span> </p> <p>Ange ett <strong>planerat startdatum</strong>. </p> </li> 
+      <li> <p> Avsluta <span>inte senare än </span></p> <p>Ange ett <strong>planerat slutförandedatum</strong>. </p> </li> 
+      <li> <p> Avsluta <span>inte tidigare än </span></p> <p>Ange ett <strong>planerat slutförandedatum</strong></p> </li> 
        </ul> <p>Mer information om uppgiftsbegränsning finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bekräfta datum och tid</td> 
-      <td> <p>Detta är det datum då användaren som tilldelats uppgiften åtar sig att slutföra den. Detta kan vara ett annat datum än det planerade slutförandedatumet. Endast tilldelningar kan redigera det här fältet. Mer information om implementeringsdatum i Workfront finns i <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Genomför datumöversikt</a>. </p> </td> 
+      <td> <p>Detta är det datum då användaren som tilldelats uppgiften åtar sig att slutföra den. Detta kan skilja sig från det planerade slutförandedatumet. Endast tilldelningar kan redigera det här fältet. Mer information om implementeringsdatum i Workfront finns i <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Genomför datumöversikt</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planerat startdatum och starttid</td> 
       <td> <p>När aktiviteten är planerad att starta. Det planerade startdatumet för en uppgift anges och påverkas av ett antal faktorer:</p> 
        <ul> 
-      <li>Beroende på den systemomfattande inställningen för det planerade startdatumet för aktiviteten kan startdatumet för en ny aktivitet i ett projekt antingen vara idag eller startdatumet för projektet som standard. <span>Gruppadministratören för den grupp som är associerad med projektet kan också ange den här inställningen för gruppen.</span> Mer information om aktivitetsinställningar på systemnivå eller gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurera inställningar för uppgifter och problem i hela systemet</a>.</li> 
+      <li>Beroende på den systemomfattande inställningen för det planerade startdatumet för aktiviteten kan startdatumet för en ny aktivitet i ett projekt antingen vara idag eller startdatumet för projektet som standard. <span>Gruppadministratören för den grupp som är associerad med projektet kan också ange den här inställningen för gruppen.</span> Mer information om aktivitetsinställningar på systemnivå eller gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurera inställningar för aktiviteter och problem i hela systemet</a>.</li> 
       <li>Beroende på vad som föregår uppgiften väljs det planerade startdatumet av Workfront som nästa tillgängliga datum efter att föregående aktiviteter har slutförts, eller startats, beroende på vilket förhållande som föregick aktiviteten. Mer information om föregående relationer finns i <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Översikt över föregående aktiviteter</a>.</li> 
       <li>Projektledaren eller aktivitetsägaren kan manuellt ange det planerade startdatumet när aktivitetsbegränsningen är antingen Fast datum eller Måste starta på. Mer information om uppgiftsbegränsningar finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planerat slutförandedatum och tid</td> 
-      <td> <p>Det förväntade slutförandedatumet som visas när aktiviteten är planerad. Det planerade slutförandedatumet kan anges av flera faktorer:</p> 
+      <td> <p>Det förväntade slutförandedatumet som visas när aktiviteten är planerad. Workfront anger det planerade slutförandedatumet med hjälp av några av följande faktorer:</p> 
        <ul> 
-      <li>Det planerade slutförandedatumet beräknas från det planerade startdatumet genom att lägga till aktivitetens varaktighet till det planerade startdatumet. När projektledaren eller Workfront anger aktivitetens varaktighet utlöses en uppdatering av det planerade slutförandedatumet. Om det planerade datumet ändras beror det ofta på att tidslängden har uppdaterats.</li> 
+      <li>Det planerade slutförandedatumet beräknas från det planerade startdatumet genom att lägga till aktivitetens varaktighet till det planerade startdatumet. När projektledaren eller Workfront anger aktivitetens varaktighet utlöses en uppdatering av det planerade slutförandedatumet. Om det planerade datumet ändras beror det ofta på att aktivitetens varaktighet har uppdaterats.</li> 
       <li>Projektledaren eller aktivitetsägaren kan manuellt ange det planerade slutförandedatumet när aktivitetsbegränsningen är Fast datum eller Måste avslutas den. Mer information om uppgiftsbegränsningar finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</li> 
       <li>Om aktivitetens varaktighetstyp ändras och antalet resurser på aktiviteterna ändras samtidigt, ändras även det planerade slutförandedatumet. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Faktiskt startdatum och -tid</td> 
-      <td> <p>Ange ett faktiskt startdatum för aktiviteten. Standardvärdet fylls normalt i automatiskt när du ändrar aktivitetens status till Pågår. Det faktiska startdatumet kan även ändras manuellt av projektledaren eller aktivitetsägaren. </p> </td> 
+      <td> <p>Ange ett faktiskt startdatum för aktiviteten. Standardvärdet fylls i automatiskt när du ändrar aktivitetens status till Pågår. Det faktiska startdatumet kan även ändras manuellt av projektledaren eller aktivitetsägaren. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Faktiskt slutförandedatum och -tid</td> 
@@ -303,7 +306,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <p>Välj bland följande alternativ:</p> 
       <ul> 
       <li>Liten</li> 
-      <li>Medel <span style="font-weight: normal;">(det här är standardvärdet för en ny uppgift)</span></li> 
+      <li>Medium <span style="font-weight: normal;"> (det här är standardvärdet för en ny aktivitet)</span></li> 
       <li>Stor</li> 
       </ul> 
       <p><b>ANMÄRKNING</b>
@@ -316,16 +319,16 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
     </tbody> 
    </table>
 
-1. Klicka **Spara** eller fortsätta med följande avsnitt.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 ### Uppdrag {#assignments}
 
 1. Börja redigera din uppgift enligt beskrivningen ovan.
-1. Klicka **Uppdrag** till vänster.
+1. Klicka på **Uppdrag** i den vänstra panelen.
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. Klicka **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften och klicka sedan på den eller tryck på Retur när den visas i listan.
+1. Klicka på **Sök efter personer, roller och team** och börja skriva namnet på en användare, roll eller team som du vill tilldela uppgiften. Klicka sedan på den eller tryck på Retur när den visas i listan.
 
    >[!NOTE]
    >
@@ -340,7 +343,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    >* Tilldela om arbetsuppgiften till aktiva resurser.
    >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-1. (Valfritt) Ange om en tilldelad är den primära tilldelaren för uppgiften genom att välja **Ägare** alternativknapp bredvid deras namn. Ett team kan inte vara den primära tilldelaren för en uppgift.
+1. (Valfritt) Ange om en tilldelad är den primära tilldelaren för aktiviteten genom att markera alternativknappen **Ägare** bredvid namnet. Ett team kan inte vara den primära tilldelaren för en uppgift.
 1. (Villkorligt och valfritt) Uppdatera följande fält:
 
    <table style="table-layout:auto"> 
@@ -354,7 +357,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <li> <p>Antalet resurser som tilldelats en aktivitet </p> </li> 
       <li> <p>Den totala arbetsinsats som krävs för att slutföra uppgiften </p> </li> 
       <li> <p> Aktivitetens totala varaktighet. </p> </li> 
-       </ul> <p>Din Workfront-administratör <span> eller en gruppadministratör</span> väljer standardinställningen för varaktighetstyp för aktiviteterna i systemet eller gruppen. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en uppgift finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> <p>Välj bland följande alternativ: </p> 
+       </ul> <p>Workfront-administratören eller en gruppadministratör väljer standardinställningen för varaktighetstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> <p>Välj bland följande alternativ: </p> 
        <ul> 
       <li> <p>Beräknad tilldelning </p> </li> 
       <li> <p> Beräknat arbete </p> </li> 
@@ -364,7 +367,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Varaktighet per förekomst</td> 
-      <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift, enligt definition när uppgiften skapades. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>. </p> <p> <b>ANMÄRKNING</b>
+      <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift, enligt definition när uppgiften skapades. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> <p> <b>OBS!</b>
 
    Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet. </p> </td>
    </tr> 
@@ -401,7 +404,7 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>Dagar. Det här är standardinställningen. </td> 
+      <td>Dagar. Det här är standardinställningen. </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -445,17 +448,17 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    </tr> 
    <tr> 
    <td role="rowheader">Planerade timmar</td> 
-   <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
-   <b>ANMÄRKNING</b>
+   <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för de som tilldelats uppgiften att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> 
+   <b>OBS!</b>
    <p>
-   När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>.
+   När du skapar återkommande uppgifter är de planerade timmarna för varje förekomst. De planerade timmarna för de överordnade uppgifterna är det totala antalet planerade timmar från alla förekomster. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>.
    </p>
 
    </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Allokering</td> 
-   <td> <p>Om uppgiftsbegränsningen är Beräknad arbets- eller insatsstyrd anger du <strong>Allokering %</strong> (tilldelningsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift. </p> <p>När aktivitetsbegränsningen är enkel kan du ange följande:</p> 
+   <td> <p>Om aktivitetsbegränsningen är Beräknad arbets- eller insatsstyrd anger du <strong>Allokering %</strong> (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift. </p> <p>När aktivitetsbegränsningen är enkel kan du ange följande:</p> 
       <ul> 
       <li> <p>Allokeringstimmar för varje tilldelad.</p> </li> 
       <li> <p>Planerade timmar för uppgiften</p> </li> 
@@ -464,27 +467,27 @@ Du kan redigera en uppgift i området Redigera uppgift eller Uppgiftsinformation
    </tr> 
    <tr> 
    <td role="rowheader">Uppdragarens roll</td> 
-   <td> <p>Välj en roll från <strong>Uppdragarens roll</strong> när du har valt en person som tilldelad. Detta är den roll som den som tilldelas kan utföra den här uppgiften. </p> <p><b>TIPS</b>
+   <td> <p>Välj en roll i listrutan <strong>Tilldelarens roll</strong> när du har valt en person som tilldelad. Detta är den roll som den som tilldelas kan utföra den här uppgiften. </p> <p><b>TIPS</b>
 
    Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.</p> </td>
    </tr> 
       </tbody> 
       </table>
 
-1. Klicka **Spara** eller fortsätta med följande avsnitt.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 ### Anpassad Forms
 
-Du kan definiera anpassade standardformulär som automatiskt ska kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du ställer in projektet så att det innehåller anpassade formulär för standarduppgifter för alla nya uppgifter finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+Du kan definiera anpassade standardformulär som automatiskt ska kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du konfigurerar projektet så att det innehåller anpassade standardformulär för uppgifter för alla nya uppgifter finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Börja redigera uppgiften enligt beskrivningen ovan.
-1. Klicka **Anpassad Forms** i den vänstra panelen eller klicka på namnet på ett anpassat formulär om det redan är kopplat.
+1. Klicka på **Egen Forms** i den vänstra panelen eller klicka på namnet på ett anpassat formulär om det redan är kopplat.
 
    ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
-1. Klicka **Lägg till anpassat formulär** och välj det eller de anpassade formulär som du vill associera med uppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan.
+1. Klicka på **Lägg till anpassat formulär** och markera det eller de anpassade formulär som du vill associera med uppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan.
 
-   Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)Du kan lägga till upp till tio anpassade formulär i en uppgift.
+   Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan lägga till upp till tio anpassade formulär i en uppgift.
 
 1. (Villkorligt) Om du har kopplat ett anpassat formulär till uppgiften kan du redigera alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara uppgiften.
 
@@ -492,12 +495,12 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
    >
    >Beroende på hur din Workfront-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva uppgiften. Mer information om hur du anger aktivitetsbehörigheter finns i [Dela en uppgift](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-1. Klicka **Spara** eller fortsätta med följande avsnitt.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 ### Ekonomi {#finance}
 
-1. Börja redigera din uppgift enligt beskrivningen i [Redigera uppgifter](#Edit2) i den här artikeln.
-1. Klicka **Ekonomi** till vänster.
+1. Börja redigera din uppgift enligt beskrivningen i avsnittet [Redigera uppgifter](#Edit2) i den här artikeln.
+1. Klicka på **Ekonomi** i den vänstra panelen.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
 
@@ -515,7 +518,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
         <li> <p>Fast en timme </p> </li> 
         <li> <p> Användare per timme </p> </li> 
         <li> <p> Roll timvis</p> </li> 
-       </ul> <p>Mer information om att hålla reda på kostnaderna finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a> . Workfront-administratören eller en gruppadministratör väljer standardinställningen för kostnadstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a> .</p> </td> 
+       </ul> <p>Mer information om spårningskostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a> . Workfront-administratören eller en gruppadministratör väljer standardinställningen för kostnadstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Intäktstyp</td> 
@@ -530,17 +533,17 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
       <li> <p>Användarens timma plus fast </p> </li> 
       <li> <p>Roll timvis plus fast </p> </li> 
       <li> <p>Fast intäkt </p> </li> 
-       </ul> <p>Mer information om att spåra intäkter finns i<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a> . </p> <p>Din Workfront-administratör eller gruppadministratör väljer standardinställningen för Intäktstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
+       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a> . </p> <p>Din Workfront-administratör eller gruppadministratör väljer standardinställningen för Intäktstyp för uppgifterna i ditt system eller din grupp. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara** eller fortsätta med följande avsnitt.
+1. Klicka på **Spara** eller fortsätt med följande avsnitt.
 
 ### Inställningar {#settings}
 
-1. Börja redigera din uppgift enligt beskrivningen i [Redigera uppgifter](#Edit2) i den här artikeln.
-1. Klicka **Inställningar** till vänster.
+1. Börja redigera din uppgift enligt beskrivningen i avsnittet [Redigera uppgifter](#Edit2) i den här artikeln.
+1. Klicka på **Inställningar** i den vänstra panelen.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
 
@@ -559,15 +562,15 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
       <li> <p>Ignorera sena varningar</p> </li> 
       <li> <p> Komplettera automatiskt </p> </li> 
       <li> <p>Föregående </p> </li> 
-       </ul> <p>Mer information om spårningsläget för uppgifter finns i <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Översikt över läget Uppgiftsspårning</a>.</p> </td> 
+       </ul> <p>Mer information om spårningsläget för uppgifter finns i <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Översikt över spårningsläget för aktiviteter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Resursutjämning</td> 
-      <td> <p>Välj <strong>Exkludera från resursutjämning</strong> om du vill att de resurser som tilldelats aktiviteten ska uteslutas från utjämning.</p> </td> 
+      <td> <p>Markera fältet <strong>Uteslut från resursnivå</strong> om du vill att de resurser som tilldelats aktiviteten ska exkluderas från utjämning.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Levelingfördröjning</td> 
-      <td> <p>Ange nivåfördröjning i timmar. </p> <p> Mer information om fördröjning av utjämning finns i <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Uppdatera nivåfördröjning för aktivitet</a>. </p> </td> 
+      <td> <p>Ange Leveling Delay i timmar. </p> <p> Mer information om fördröjning av utjämning finns i <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Uppdatera aktivitetens nivåfördröjning</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Godkännandeprocess</td> 
@@ -580,11 +583,11 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 
    <p><b>VIKTIGT</b>
 
-   Om projektgruppen ändras blir den tidigare bifogade gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>. </p>
+   Om projektgruppen ändras blir den tidigare bifogade gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>. </p>
 
    </li>
 
-   <li> <p>Du kan definiera standardgodkännandeprocesser som automatiskt kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du ställer in projektet så att det omfattar standardprocesser för godkännande av uppgifter finns i avsnittet Åtgärder i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. </p> </li>
+   <li> <p>Du kan definiera standardgodkännandeprocesser som automatiskt kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du konfigurerar projektet så att det omfattar standardprocesser för godkännande av uppgifter finns i avsnittet Åtgärder i artikeln <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>. </p> </li>
 
    <li> <p>Följande scenarier finns när gruppredigeringsuppgifter utförs: </p> 
       <ul> 
@@ -599,7 +602,7 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
    </table>
     </li>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
 
@@ -621,7 +624,7 @@ Följande fält inkluderas som standard i uppgiftshuvudet:
 
   >[!CAUTION]
   >
-  >Vissa aktivitetsbegränsningar och andra beroenden kan hindra dig från att redigera det här fältet. Mer information om uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Vissa aktivitetsbegränsningar och andra beroenden kan hindra dig från att redigera det här fältet. Mer information om uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsningar](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
 * Fatta godkännandebeslut om du har angett som godkännare i en aktuell godkännandeprocess

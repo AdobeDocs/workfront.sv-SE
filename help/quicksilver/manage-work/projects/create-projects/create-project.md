@@ -6,7 +6,7 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Nytt: Standard</p>
         <p>eller</p>
         <p>Aktuell: Planera </p> </td> 
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -108,11 +108,11 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Som Workfront-administratör kan du importera projekt med en snabbstart.
 
-  Mer information om hur du importerar data med&quot;kick-launes&quot; i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Mer information om hur du importerar data med hjälp av snabbstartsfunktioner i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Mer information om hur du importerar projekt med hjälp av snabbstarter finns i [Startscenario: enkel import av projekt och uppgifter](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Mer information om hur du importerar projekt med hjälp av snabbstartsfunktioner finns i [Snabbstartscenario: enkla projekt- och uppgiftsimportförberedelser](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publicera ett projekt från ett scenario i Adobe Workfront Scenario Planner. Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i  [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish är ett initiativ från ett scenario i Adobe Workfront Scenario Planner. Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera projekt i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Förutsättningar
 
@@ -160,36 +160,36 @@ Tänk på följande:
 
 >[!NOTE]
 >
->Om du skapar ett projekt med en mall rekommenderar vi att du också ser artikeln [Skapa ett projekt med en mall](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+>Om du skapar ett projekt med hjälp av en mall rekommenderar vi att du också ser artikeln [Skapa ett projekt med hjälp av en mall](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) längst upp till vänster. Klicka **Projekt** och sedan expandera **Nytt projekt**.
+   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet. Klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
-   * Gå till ett program och expandera **Nytt projekt**.
+   * Gå till ett program och expandera sedan **Nytt projekt**.
    * Om du är gruppadministratör kan du även skapa ett projekt i avsnittet Projekt i en grupp som du hanterar. Mer information finns i [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
    ![Ny projektmeny](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Klicka **Nytt projekt** på menyn för att skapa ett projekt från grunden.
+1. Klicka på **Nytt projekt** på menyn om du vill skapa ett projekt från grunden.
 1. Ange ett namn för projektet. Tryck på Retur för att spara namnet.
 
    ![Ange ett namn för projektet](assets/rename-untitled-project.png)
 
    Projektsidans sidhuvud innehåller en snabb översikt över aktuell hälsa och förloppet för ett projekt. Informationen i projekthuvudet ändras allt eftersom projektinformationen uppdateras.
 
-1. Klicka **Börja lägga till uppgifter**.
+1. Klicka på **Börja lägga till aktiviteter**.
 
    eller
 
-   Klicka **Ny uppgift** om du vill lägga till uppgifter i projektet och tilldela resurser till dem.
+   Klicka på **Ny aktivitet** om du vill lägga till aktiviteter i projektet och tilldela resurser till dem.
 
    Mer information om hur du lägger till uppgifter i ett projekt finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Redigera projektinformationen genom att klicka på **Mer** -menyn och sedan **Redigera** ![](assets/qs-edit-icon.png) bredvid namnet på projektet.
+1. Redigera projektinformationen genom att klicka på menyn **Mer** och sedan **Redigera** ![](assets/qs-edit-icon.png) bredvid namnet på projektet.
 
-   The **Redigera projekt** öppnas.
+   Dialogrutan **Redigera projekt** öppnas.
 
    Mer information om hur du redigerar ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -197,4 +197,4 @@ Tänk på följande:
 
    Detta anger att projektet nu är klart att starta och att användare som är tilldelade till uppgifterna nu kan börja arbeta med dem.
 
-   Mer information om projektstatus finns i [Öppna listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   Mer information om projektstatus finns i [Åtkomst till listan över systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).

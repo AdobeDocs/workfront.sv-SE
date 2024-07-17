@@ -2,66 +2,74 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Tilldela flera arbeten med hjälp av belastningsutjämnaren
-description: Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
+description: Du kan tilldela resurser till flera uppgifter och flera problem samtidigt med Adobe Workfront Workload Balancer.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
 
 # Tilldela flera arbeten med hjälp av belastningsutjämnaren
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
+Du kan tilldela resurser till flera uppgifter och flera problem samtidigt med Adobe Workfront Workload Balancer.
 
-Allmän information om hur du tilldelar arbete till användare med hjälp av Utjämning av arbetsbelastning finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Allmän information om hur du tilldelar arbete till användare med hjälp av arbetsbelastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
+   <td> 
+   <p>Nytt: Standard</p>
+   <p>Aktuell:</p>
+   <ul>
+   <li><p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p></li>
+   <li><p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
+   <td role="rowheader">Åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande:</p> 
     <ul> 
      <li> <p>Resurshantering</p> </li> 
      <li> <p>Projekt</p> </li> 
      <li> <p>Uppgifter</p> </li> 
      <li> <p>Problem</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>
+    </ul>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du gör masstilldelningar i arbetsbelastningsutjämnaren
 
@@ -83,14 +91,14 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. Gå till den arbetsbelastningsutjämnare där du vill tilldela arbete.
 
-   Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Klicka **Masstilldelningar** ![](assets/bulk-assignments-wb.png) högst upp i Utjämning av arbetsbelastning.
+1. Klicka på **Masstilldelningar** ![](assets/bulk-assignments-wb.png) överst i arbetsbelastningsutjämnaren.
 
    Panelen Grupptilldelning öppnas till höger om Utjämning av arbetsbelastning.
 
-1. (Villkorligt) Om du använder Utjämning av arbetsbelastning från resursområdet eller för ett team expanderar du **Projekt: Namn** och använda filtermodifierarna för att välja det eller de projekt som du vill göra uppdrag för. Du kan välja projekt efter namn (det här är standardalternativet) eller efter status.
+1. (Villkorligt) Om du använder Utjämning av arbetsbelastning från området Resurser eller för ett team expanderar du listrutan **Projekt: Namn** och använder filtermodifierarna för att välja det eller de projekt som du vill göra tilldelningar för. Du kan välja projekt efter namn (det här är standardalternativet) eller efter status.
 
 Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -100,7 +108,7 @@ Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodif
 
 ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Valfritt) Klicka på **Välj projektuppgifter** för att välja den eller de uppgifter som du vill göra uppdrag för, och sedan i **Aktivitet: Namn** Välj uppgifter efter namn (det här är standardalternativet) eller Status och använd filtermodifierarna för att söka efter specifika uppgifter.
+1. (Valfritt) Klicka på **Välj projektuppgifter** för att välja den eller de uppgifter som du vill tilldela till. Välj sedan aktiviteter efter namn (standardalternativet) eller Status i listrutan **Aktivitet: Namn** och använd filtermodifierarna för att söka efter specifika uppgifter.
 
 Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -114,11 +122,11 @@ Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodif
 >
 >Lämna det här valet tomt om du vill göra grupptilldelningar för både ärenden och uppgifter.
 
-1. (Valfritt) Klicka på **Ta bort** icon ![](assets/delete.png) bredvid ett av de valda villkoren
+1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) bredvid ett av de valda villkoren
 
    eller
 
-   Klicka **Rensa alla** i det övre högra hörnet av panelen Gruppera uppdrag om du vill ta bort alla markeringar.
+   Klicka på **Radera alla** i det övre högra hörnet av panelen Gruppera uppdrag om du vill ta bort alla markeringar.
 
 1. Välj något av följande alternativ och fortsätt med stegen som beskrivs nedan:
 
@@ -146,16 +154,16 @@ Så här tilldelar du en användare till arbetsuppgifter som tidigare tilldelats
 
 1. Börja tilldela arbetsobjekt med grupptilldelningar i arbetsbelastningsutjämnaren enligt beskrivningen ovan och välj **Tilldela**.
 
-1. I **Rolltilldelning** klickar du på listrutepilen för att välja från en lista med roller. Endast roller som för närvarande är tilldelade i de angivna projekten visas. Detta är ett obligatoriskt fält.
+1. Klicka på listrutepilen i fältet **Rolltilldelning** och välj en roll i en lista. Endast roller som för närvarande är tilldelade i de angivna projekten visas. Detta är ett obligatoriskt fält.
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-1. I **Användare som ska tilldelas** klickar du på listrutepilen för att välja från en lista med föreslagna användare eller för att ange en annan användares namn.
+1. Klicka på listrutepilen i fältet **Användare som ska tilldelas** för att välja från en lista med föreslagna användare eller för att ange en annan användares namn.
 
    Välj användare bland följande områden:
 
-   * **Föreslagna uppdrag**: Användare som kan uppfylla den valda rollen och som uppfyller villkoren för smarta uppdrag. Mer information finns i [Översikt över smarta uppdrag](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Andra uppdrag**: Alla användare i systemet som kan utföra den valda rollen.
+   * **Föreslagna tilldelningar**: Användare som kan utföra den valda rollen och som matchar villkoren för smarta tilldelningar. Mer information finns i [Översikt över smarta uppdrag](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Andra tilldelningar**: Alla användare i systemet som kan utföra den valda rollen.
 
      >[!TIP]
      >
@@ -169,7 +177,7 @@ Så här tilldelar du en användare till arbetsuppgifter som tidigare tilldelats
    >Alla roller för användaren visas i listan, under användarens namn.
 
 
-1. Klicka **Tilldela**.
+1. Klicka på **Tilldela**.
 
    De angivna rollerna ersätts med de användare som du har valt.
 
@@ -190,18 +198,18 @@ När du ersätter en användare med en annan användare med grupptilldelningar i
 
 Så här ersätter du en användare med en annan användare:
 
-1. Börja tilldela arbetsobjekt i belastningsutjämnaren enligt beskrivningen ovan och välj **Ersätt**.
-1. I **Aktuell tilldelad användare** klickar du på listrutepilen och väljer en användare i en lista. Endast användare som för närvarande är tilldelade till ofullständiga arbetsobjekt i de angivna projekten visas. Detta är ett obligatoriskt fält.
+1. Börja tilldela arbetsobjekt i arbetsbelastningsutjämnaren enligt beskrivningen ovan och välj **Ersätt**.
+1. Klicka på listrutepilen i fältet **Aktuellt tilldelad användare** och välj en användare i en lista. Endast användare som för närvarande är tilldelade till ofullständiga arbetsobjekt i de angivna projekten visas. Detta är ett obligatoriskt fält.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. I **Användare som ska tilldelas** klickar du på listrutepilen för att välja från en lista med föreslagna användare eller för att skriva ett annat användarnamn. Användare som visas i listan matchar som standard villkoren för smarta uppdrag. Mer information finns i [Översikt över smarta uppdrag](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. I fältet **Användare som ska tilldelas** klickar du på listrutepilen för att välja från en lista med föreslagna användare eller för att ange ett annat användarnamn. Användare som visas i listan matchar som standard villkoren för smarta uppdrag. Mer information finns i [Översikt över smarta uppdrag](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront visar en anteckning om hur många objekt den aktuella tilldelade användaren ska ersätta den andra användaren och vilka roller de ska ersätta.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. Klicka **Ersätt**.
+1. Klicka på **Ersätt**.
 
    Den första användaren som valts ersätts av den andra användaren i alla arbetsobjekt från det valda projektet.
 
@@ -218,13 +226,13 @@ När du tar bort tilldelningen för en användare från alla deras uppdrag med h
 
 * Om den angivna användaren har tilldelats till arbetsobjekt som har slutförts, förblir användaren tilldelad dessa arbetsobjekt.
 
-Mer information om användar- och jobbrolltilldelningar finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Mer information om användar- och jobbrolltilldelningar finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 Så här tar du bort tilldelningen för en användare från arbetsobjekt i de markerade projekten eller för de markerade uppgifter eller utgåvor där de har tilldelats:
 
-1. Börja tilldela arbetsobjekt i belastningsutjämnaren enligt beskrivningen ovan och välj **Ta bort tilldelning**.
+1. Börja tilldela arbetsobjekt i arbetsbelastningsutjämnaren enligt beskrivningen ovan och välj **Ta bort tilldelning**.
 
-1. I **Användare som ska tas bort** klickar du på listrutepilen och väljer en användare i en lista. Endast användare som för närvarande är tilldelade till ofullständiga arbetsobjekt i de angivna projekten visas. Detta är ett obligatoriskt fält.
+1. Klicka på listrutepilen i fältet **Användare för att ta bort tilldelning** och välj en användare i en lista. Endast användare som för närvarande är tilldelade till ofullständiga arbetsobjekt i de angivna projekten visas. Detta är ett obligatoriskt fält.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
@@ -232,7 +240,7 @@ Så här tar du bort tilldelningen för en användare från arbetsobjekt i de ma
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. Klicka **Ta bort tilldelning**.\
+1. Klicka på **Ta bort tilldelning**.\
    Du får en bekräftelse på antalet arbetsobjekt där den angivna användaren togs bort.
 
- 
+

@@ -6,9 +6,9 @@ description: En baslinje är en ögonblicksbild av ett projekt som representerar
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,6 @@ drafted for P&P:
 </table>
 -->
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
     <td><p>Nytt: Standard</p>
         <p>eller</p>
         <p>Aktuell: Planera </p> </td> 
@@ -84,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -97,7 +95,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 >[!IMPORTANT]
 >
->En baslinje tar en ögonblicksbild av projektets namn, datum och ekonomiska information. Baslinjen inkluderar inte värdena för anpassade fält i projektet. Information om finansiell information som ingår i baslinjen finns i [Projektfinansiering som ingår i projektbaslinjer](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>En baslinje tar en ögonblicksbild av projektets namn, datum och ekonomiska information. Baslinjen inkluderar inte värdena för anpassade fält i projektet. Information om finansiell information som ingår i baslinjen finns i [Projektfinanser ingår i projektbaslinjer](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Skapa en baslinje
 
@@ -111,23 +109,23 @@ Du kan skapa en baslinje på följande sätt:
   >
   >Om du aktiverar den här inställningen skapas automatiskt en baslinje för ett projekt varje gång ett projekts status ändras till Aktuell. Den första skapade baslinjen är standardbaslinjen. Du måste skapa alla andra baslinjer manuellt under projektets livslängd.
 
-* **Manuellt**: Du kan skapa nya baslinjer för projektet när det behövs. Du kan sedan jämföra baslinjer för att se hur projektet fortskrider över tid.
+* **Manuellt**: Du kan skapa nya baslinjer för projektet efter behov medan projektet fortskrider. Du kan sedan jämföra baslinjer för att se hur projektet fortskrider över tid.
 
 Så här skapar du en baslinje:
 
-1. Navigera till ett projekt.
-1. Klicka på i den vänstra panelen **Baslinjer**.
+1. Gå till ett projekt.
+1. Klicka på **Baslinjer** i den vänstra panelen.
 
    eller
 
-   Klicka **Visa fler** och sedan klicka **Baslinjer**.
+   Klicka på **Visa fler** och sedan på **Baslinjer**.
 
-   ![Baslinjesektion i projekt](assets/baselines-section-on-project-with-header.png)
+   ![Avsnittet Baslinjer i projekt](assets/baselines-section-on-project-with-header.png)
 
-1. Klicka **Ny baslinje.**
+1. Klicka på **Ny baslinje.**
 1. Ange namnet på baslinjen.
 1. (Valfritt) Om det här är den första baslinjen kanske du vill välja den som standard.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Som standard visas följande information om den baslinje du skapade:
 
@@ -143,7 +141,7 @@ Så här skapar du en baslinje:
      >
      >Du kan inte visa information från två baslinjer samtidigt i samma vy eller rapport. Du kan bara visa information från en viss baslinje och standardbaslinjen i samma rapport. Du kan ändra vilken baslinje du anser vara standardbaslinje när som helst under projektets livslängd.
 
-1. (Valfritt) Klicka på **Visa** skapar du sedan en ny vy eller redigerar den aktuella vyn för att lägga till fält i vyn och jämföra ytterligare information mellan baslinjer. Mer information finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Valfritt) Klicka på knappen **Visa** och skapa sedan en ny vy eller redigera den aktuella vyn för att lägga till fält i vyn och jämföra ytterligare information mellan baslinjer. Mer information finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Skapa en rapport för en baslinje eller en baslinjeaktivitet
 

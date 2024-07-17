@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 0%
 >
 >Din kontorepresentant skulle ha informerat dig om du var en del av det här steget.
 >
->En fullständig lista över alla avsnitt och artiklar som innehåller Workfront Planning finns i [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
+>En fullständig lista över alla avsnitt och artiklar som dokumenterar Workfront Planning finns i [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Nedan följer några av de viktigaste funktionerna:
 
 I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront Planning och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
-Information om nya funktioner och när de släpps finns på [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+Mer information om nya funktioner och när de släpps finns i [Adobe Workfront Planering - aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
 
 | Funktion | Ute nu | Tillgänglig snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -106,7 +106,7 @@ Information om nya funktioner och när de släpps finns på [Adobe Workfront Pla
 
 Organisationen måste registrera sig i Adobe Workfront Planning Program innan du får tillgång till dess funktioner. Din kontorepresentant bör ha gett dig information om registrering i detta program, om du är berättigad.
 
-Mer information om att bevilja åtkomst till och göra det möjligt för andra att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 
 ## Adobe Workfront Planning - terminologi
 
@@ -116,7 +116,7 @@ Ramverket för Workfront Planning är helt anpassningsbart. Du kan skapa alla po
 
 Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
-* **Workspace**: En samling posttyper som definierar en viss organisations operativa livscykel. En arbetsyta är en arbetsyta i en organisationsenhet.
+* **Workspace**: En samling posttyper som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.
 
   En Workfront-instans kan ha högst 1 000 arbetsytor.
 
@@ -194,7 +194,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
    * Senast ändrad av
    * Senast ändrat den
 
-* **Länkade posttyper**, **Länkade poster** och **Länkade postfält** eller **Anslutna posttyper**, **Anslutna poster** och **Kopplade fält**: Du kan skapa en anslutning mellan följande enheter i Workfront Planning:
+* **Länkade posttyper**, **Länkade poster** och **Länkade postfält** eller **Anslutna posttyper**, **Anslutna poster** och **Anslutna fält**: Du kan skapa en anslutning mellan följande entiteter i Workfront Planning:
 
    * Två posttyper.
    * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
@@ -207,7 +207,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   När du har upprättat en anslutning mellan posttyperna kan du koppla enskilda poster av dessa typer till varandra. Anslutningen mellan posterna visas som ett länkat postfält.
 
-* **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkar samman enskilda poster kan du referera till de länkade posternas fält på den post du ansluter från.
+* **Länkade fält** (eller sökfält): När du har upprättat anslutningen mellan två posttyper och länkat enskilda poster tillsammans, kan du referera till de länkade posternas fält i den post du ansluter från.
 
   Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna.
 
@@ -229,7 +229,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Vyer**: Poster visas under sina respektive posttypssidor i olika typer av vyer.
+* **Vyer**: Poster visas under respektive posttypssida i olika typer av vyer.
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -287,19 +287,24 @@ Så här hittar du Workfront Planning:
 
 1. Logga in på Adobe Workfront.
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-workfront.png) i det övre högra hörnet eller klicka på **Huvudmeny** ![](assets/main-menu-shell.png) i det övre vänstra hörnet, om det är tillgängligt.
+{{step1-click-main-menu}}
 
-1. Klicka **Planering** ![](assets/planning-icon.png).
+1. Klicka på **Planering** ![](assets/planning-icon.png).
 
    Startsidan för Workfront Planning öppnas.
 
    ![](assets/planning-landing-page-admin.png)
 
+   >[!TIP]
+   >
+   >    Din Workfront-administratör kan lägga till Planning-området till alternativet Välj landningssida i layoutmallen, så att du kan öppna Planning när du loggar in på Workfront. Mer information finns i [Anpassa landningssidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+
+
 1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på någon av följande flikar:
    * **Mina arbetsytor**: Visar arbetsytor som du har skapat.
    * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig.
 
-   För alla andra användare visas alla arbetsytor som de har skapat eller som delas med dem i **Arbetsytor** område.
+   För alla andra användare visas alla arbetsytor som de har skapat eller har delat med dem i området **Arbetsytor** .
 
 1. (Valfritt och rekommenderas) Fortsätt med några av följande åtgärder för att skapa din arbetsstruktur:
 
@@ -328,5 +333,5 @@ Så här hittar du Workfront Planning:
 
 Vi lanserar regelbundet nya funktioner i Workfront Planning.
 
-En uppdaterad lista över funktioner som släppts finns på [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md)
+En uppdaterad lista över släppta funktioner finns i [Aktuell versionsaktivitet för Adobe Workfront Planning](/help/quicksilver/planning/general/release-activity.md)
 

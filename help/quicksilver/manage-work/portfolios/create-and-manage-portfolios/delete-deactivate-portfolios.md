@@ -6,9 +6,9 @@ description: Portfolio är samlingar av projekt eller program i Adobe Workfront.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '337'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,20 +71,22 @@ Tänk på följande när du bestämmer dig för att ta bort eller inaktivera por
 
 ## Inaktivera en portfölj
 
-När du inaktiverar en portfölj kan du fortfarande komma åt den från [!UICONTROL Portfolios] men visas inte längre i portföljlistan när användare försöker lägga till den i ett projekt.
+När du inaktiverar en portfölj kan du fortfarande komma åt den från området [!UICONTROL Portfolios], men den visas inte längre i listan över portföljer när användare försöker lägga till den i ett projekt.
 
 >[!NOTE]
 >
->Beroende på hur [!DNL Workfront] eller gruppadministratören konfigurerar layoutmallen [!UICONTROL Portfolios] området kanske inte visas i [!UICONTROL Main Menu]. Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Beroende på hur din [!DNL Workfront]- eller gruppadministratör konfigurerar din layoutmall kanske [!UICONTROL Portfolios]-området inte visas i [!UICONTROL Main Menu]. Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) längst upp till vänster.
-1. Klicka **[!UICONTROL Portfolios]** .
+{{step1-click-main-menu}}
+
+1. Klicka på **[!UICONTROL Portfolios]** .
 1. Klicka på namnet på portföljen.
-1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om portföljnamnet och klicka sedan på **[!UICONTROL Deactivate Portfolio]**.
 
 ## Ta bort en portfölj
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) längst upp till vänster.
-1. Klicka **[!UICONTROL Portfolios]** .
-1. Välj portföljen och klicka sedan på **[!UICONTROL Delete]**&#x200B; [!UICONTROL Delete] icon ![](assets/delete.png).
-1. Klicka i rutan som visas **[!UICONTROL Yes, Delete It]** för att bekräfta.
+{{step1-click-main-menu}}
+
+1. Klicka på **[!UICONTROL Portfolios]** .
+1. Markera portföljen och klicka sedan på **[!UICONTROL Delete]** &#x200B; ikonen [!UICONTROL Delete] ![](assets/delete.png) .
+1. Bekräfta genom att klicka på **[!UICONTROL Yes, Delete It]**.

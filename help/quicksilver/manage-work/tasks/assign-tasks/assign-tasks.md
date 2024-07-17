@@ -7,20 +7,22 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 50e52f27f1f3f6f5b601b50303aba409559d8ca8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '2070'
+source-wordcount: '1997'
 ht-degree: 0%
 
 ---
 
 # Tilldela uppgifter
 
+<!--Audited: 07/2024-->
+
 <!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -36,19 +38,19 @@ Du kan tilldela uppgifter till användare, jobbroller eller team för att ange v
 >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 >
 
-Antalet användare som tilldelats en aktivitet och schemat för aktivitetsägaren kan ändra de planerade datumen för en aktivitet, vilket resulterar i att tidslinjen för projektet ändras. Mer information om hur du kan tilldela flera användare till en uppgift finns i [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Antalet användare som tilldelats en aktivitet och schemat för aktivitetsägaren kan ändra de planerade datumen för en aktivitet, vilket resulterar i att tidslinjen för projektet ändras. Mer information om effekten av att tilldela flera användare till en uppgift finns i [Översikt över att ändra aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 Utöver den här artikeln rekommenderar vi att du läser följande artiklar för mer information om hur du tilldelar uppgifter:
 
-* [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
-* [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Gör smarta uppdrag](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Översikt över ändring av aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [Översikt över smarta tilldelningar](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Gör smarta tilldelningar](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Skapa avancerade tilldelningar](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Planera en projektöversikt](../../../manage-work/projects/planning-a-project/plan-project.md)
-* [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Ange projektplanerat slutförandedatum](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
+* [Översikt över aktiviteten Planerat slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
+* [Ange projektets planerade slutförandedatum](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
 * [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
@@ -56,67 +58,33 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<!--drafted for P&P - replace table below with this:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: Arbete eller högre</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt och uppgifter</p> <p>Visa eller ge användare högre åtkomst</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till projekt och uppgifter</p> <p>Visa eller ge användare högre åtkomst</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörighet för uppgifter</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Överväganden för flera tilldelningar till jobbroller, team och användare
@@ -126,7 +94,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 * Användare kan ha mer än en jobbroll kopplad till sin profil. Mer information om hur du associerar användare med jobbroller finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Om du tilldelar mer än en användare till en uppgift eller ett problem, kommer den första användaren som du väljer automatiskt att bli ägare till uppgiften eller problemet.
-Instruktioner om hur du ändrar detta finns i informationen om alternativet Gör primär i artikeln [Skapa avancerade uppdrag](create-advanced-assignments.md).
+Instruktioner om hur du ändrar detta finns i informationen om alternativet Gör primär i artikeln [Skapa avancerade tilldelningar](create-advanced-assignments.md).
 
 * Ett team kan inte vara primär tilldelad för en uppgift eller ett problem. Endast en användare eller en jobbroll kan definieras som primär för en uppgift eller ett problem.
 
@@ -174,7 +142,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Tilldela en enskild uppgift
 
 1. Gå till en uppgift som du vill tilldela.
-1. Klicka **Tilldela till** i **Uppdrag** fält i uppgiftens huvud
+1. Klicka på **Tilldela till** i fältet **Tilldelningar** i uppgiftens huvud
 
    eller
 
@@ -197,19 +165,19 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
      >
-     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en roll i listan Jobbroller om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en roll i listan Jobbroller om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Villkorligt) Klicka på ett av namnen i dialogrutan <span class="preview">**Föreslagna tilldelningar**, **Användare och team**, eller **Jobbroller**, eller **Klassificera kortroller**</span> listor när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Villkorligt) Klicka på ett av namnen i listorna <span class="preview">**Föreslagna tilldelningar**, **Användare och team**, **Jobbroller** eller **Klassificera kortroller**</span> när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Du kan börja skriva namnet på en användare, ett team eller en jobbroll som ska tilldelas uppgiften och sedan markera den när den visas i listan.
 
-   * Klicka **Avancerat**
+   * Klicka på **Avancerat**
 
-     Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Mer information om hur du gör avancerade tilldelningar finns i [Skapa avancerade tilldelningar](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. Klicka **Spara**.
-1. (Valfritt och villkorligt) Klicka på **X-ikon** bredvid namnet på uppdraget i den högra panelen för uppgiften att ta bort ett uppdrag, om du klickade **Avancerat**.
+1. Klicka på **Spara**.
+1. (Valfritt och villkorligt) Klicka på ikonen **X** bredvid namnet på uppdraget på den högra panelen för uppgiften för att ta bort ett uppdrag, om du klickade på **Avancerat**.
 
 ## Tilldela en uppgift i en lista
 
@@ -226,7 +194,7 @@ Beroende på vilket fält som visas i vyn kan du tilldela följande enheter till
 Så här tilldelar du uppgifter i en lista:
 
 1. Gå till en lista med uppgifter som har fälten Tilldelad, Tilldelad eller Uppdrag i vyn.
-1. (Valfritt) Klicka på **Spara automatiskt** och välj bland följande alternativ:
+1. (Valfritt) Klicka på listrutan **Spara automatiskt** och välj bland följande alternativ:
 
    | Alternativ | Alternativbeskrivning |
    |---|---| 
@@ -238,8 +206,8 @@ Så här tilldelar du uppgifter i en lista:
 
 1. Så här tilldelar du uppgifter:
 
-   * Klicka inuti **Tilldelad till** eller **Tilldelad** fält och börja skriva namnet på en aktiv användare som du vill tilldela uppgiften och klicka sedan på den när den visas i listan.
-   * Klicka inuti **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller team som du vill tilldela uppgiften och klicka sedan på den när den visas i listan.
+   * Klicka i fälten **Tilldelad till** eller **Tilldelad** och börja skriva namnet på en aktiv användare som du vill tilldela uppgiften och klicka sedan på den när den visas i listan.
+   * Klicka i fältet **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller team som du vill tilldela uppgiften. Klicka sedan på den när den visas i listan.
 
      >[!TIP]
      >
@@ -247,10 +215,10 @@ Så här tilldelar du uppgifter i en lista:
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-1. (Villkorligt) När det visas i **Uppdrag** klickar du på **Folk** i uppdragsrutans övre högra hörn för att öppna **Avancerade uppdrag** och skapa avancerade uppdrag.
+1. (Villkorligt) När den visas i fältet **Tilldelningar** klickar du på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna rutan **Avancerade tilldelningar** och skapa avancerade tilldelningar.
 
    <!--
    there is a People icon in NWE but it's hard to see - you need to assign the task to at least 2 users, not roles, or teams, before it shows up</p>
@@ -267,29 +235,29 @@ Så här tilldelar du uppgifter i en lista:
 ## Tilldela flera uppgifter till en användare
 
 1. Gå till en lista med uppgifter som du vill tilldela gruppvis.
-1. (Villkorligt) Kontrollera att **Spara automatiskt** är markerat om du finns med i en lista med uppgifter under ett projekt.
+1. (Villkorligt) Se till att alternativet **Spara automatiskt** är markerat om du finns med i en lista över aktiviteter under ett projekt.
 
    >[!IMPORTANT]
    >
    >Du kan inte redigera flera uppgifter samtidigt när du sparar uppgifter manuellt i ett projekt.
 
 1. Markera flera uppgifter i uppgiftslistan.
-1. Klicka **Redigera**.
+1. Klicka på **Redigera**.
 
-   The **Redigera uppgifter** öppnas.
+   Dialogrutan **Redigera uppgifter** öppnas.
 
-1. I **Uppdrag** markerar du **Tilldelad** börjar du sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela alla uppgifter.
+1. I området **Tilldelningar** markerar du rutan **Tilldelad** och börjar sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela alla uppgifter.
 
    >[!IMPORTANT]
    >
    >Om någon av uppgifterna redan har tilldelats läggs de resurser som du anger här till i aktiviteterna i stället för att ersätta de befintliga resurserna för aktiviteterna.
 
-1. (Valfritt) Markera alternativknappen i dialogrutan **Aktivitetsägare** kolumn som anger vilken resurs som är den primära tilldelaren eller ägaren av uppgiften när du tilldelar mer än en resurs till uppgiften. Detta är inte tillgängligt för team.
-1. (Villkorligt) Ange **Allokering %** för varje resurs som tilldelats aktiviteten om alla de uppgifter du har valt har varaktighetstypen Insatsstyrd eller Beräknad tilldelning. Detta anger hur mycket av deras tid som dessa resurser ska lägga på att slutföra uppgiften. Detta är endast tillgängligt för användare och jobbroller.
+1. (Valfritt) Markera alternativknappen i kolumnen **Aktivitetsägare** för att ange vilken resurs som är den primära tilldelaren eller aktivitetens ägare när du tilldelar mer än en resurs till aktiviteten. Detta är inte tillgängligt för team.
+1. (Villkorligt) Ange **allokeringen %** för varje resurs som tilldelats till aktiviteten om alla aktiviteter som du har valt har varaktighetstypen ansträngningsstyrd eller beräknad tilldelning. Detta anger hur mycket av deras tid som dessa resurser ska lägga på att slutföra uppgiften. Detta är endast tillgängligt för användare och jobbroller.
 
    eller
 
-   Ange mängden **Timmar** för varje resurs som tilldelats aktiviteten om alla de uppgifter du har valt har varaktighetstypen Enkel. Det totala antalet timmar för alla resurser ska vara lika med antalet planerade timmar för uppgiften.
+   Ange **Timmar** för varje resurs som tilldelats aktiviteten om alla aktiviteter du har valt har varaktighetstypen Enkel. Det totala antalet timmar för alla resurser ska vara lika med antalet planerade timmar för uppgiften.
 
    >[!IMPORTANT]
    >
@@ -297,15 +265,15 @@ Så här tilldelar du uppgifter i en lista:
 
    Mer information om varaktighetstyp för uppgifter finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-1. (Valfritt) Välj en roll som användaren ska utföra på uppgiften från **Välj en roll** nedrullningsbar meny i **Uppdragarens roll** -kolumn när du tilldelar användare till uppgifter. Om du inte väljer någon roll väljs automatiskt användarens primära roll.
+1. (Valfritt) Välj en roll som användaren ska utföra på uppgiften i listrutan **Välj en roll** i kolumnen **Tilldelningens roll** när du tilldelar användare till uppgifter. Om du inte väljer någon roll väljs automatiskt användarens primära roll.
 
 1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla åtgärder gör du något av följande:
 
-   1. Börja skriva namnet på en användare, roll eller team som du vill ta bort från uppgiften, markera den när den visas i listan och klicka på **Ta bort tilldelad** för att ta bort fler tilldelningar.
-   1. Klicka **Ta bort alla befintliga tilldelningar** om du vill ta bort alla tilldelningar från alla markerade uppgifter.
+   1. Börja skriva namnet på en användare, roll eller team som du vill ta bort från uppgiften, markera den när den visas i listan och klicka på **Ta bort tilldelningar** för att ta bort fler tilldelningar.
+   1. Klicka på **Ta bort alla befintliga tilldelningar** om du vill ta bort alla tilldelningar från alla markerade aktiviteter.
 
-1. Klicka **Spara ändringar**.
-1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med uppgifter klickar du i en av dessa kolumner för en uppgift och klickar sedan på **X-ikon** bredvid namnet på en tilldelad som ska ta bort den från uppgiften.
+1. Klicka på **Spara ändringar**.
+1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med uppgifter klickar du i en av dessa kolumner för en uppgift och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från uppgiften.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

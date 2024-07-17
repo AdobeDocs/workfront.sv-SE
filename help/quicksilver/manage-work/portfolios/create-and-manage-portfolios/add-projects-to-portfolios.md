@@ -6,14 +6,16 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
 
 # Lägga till projekt i en portfölj
+
+<!--Audited: 7/2024-->
 
 Vi rekommenderar att du lägger till projekt i portföljer när du initierar dem. Du kan dock lägga till dem i en portfölj när som helst under deras livstid.
 
@@ -24,32 +26,35 @@ Tänk på följande när du lägger till projekt i portföljer:
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nytt: Standard</p> 
+   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL View] behörighet till Portfolio eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL View] behörighet till Portfolio eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL View] behörighet till portföljen</p> <p>[!UICONTROL Manage] behörigheter till projekten</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] behörighet till portföljen</p> <p>[!UICONTROL Manage] behörigheter till projekten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägg till ett projekt i en portfölj
 
@@ -57,11 +62,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![](assets/qs-portfolio-with-projects-350x90.png)
 
-1. Klicka **[!UICONTROL New Project]** och väljer en metod för att lägga till ett projekt.
+1. Klicka på **[!UICONTROL New Project]** och välj en metod för att lägga till ett projekt.
 
    >[!TIP]
    >
-   >Du kan inte lägga till projekt när du visar listan med projekt i [!UICONTROL Milestone] vy.
+   >Du kan inte lägga till projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
 
    Välj bland följande alternativ:
 
@@ -79,7 +84,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
-      <td> <p>Lägg till ett projekt som du tidigare har exporterat från [!DNL MS Project] och har sparat på datorn. </p> <p>Mer information om hur du skapar ett nytt projekt genom att importera det från [!DNL Microsoft Project], se <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importera ett projekt från [!DNL Microsoft Project]</a>.</p> </td> 
+      <td> <p>Lägg till ett projekt som du tidigare har exporterat från [!DNL MS Project] och sparat på datorn. </p> <p>Mer information om hur du skapar ett nytt projekt genom att importera det från [!DNL Microsoft Project] finns i <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importera ett projekt från [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
@@ -94,7 +99,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. (Villkorligt) Om du valde att lägga till ett befintligt projekt börjar du skriva namnet på ett projekt i **[!UICONTROL Add Projects]** och sedan klicka på dem när de visas i listan. Du kan lägga till flera projekt samtidigt.
+1. (Villkorligt) Om du valde att lägga till ett befintligt projekt börjar du skriva namnet på ett projekt i rutan **[!UICONTROL Add Projects]** och klickar sedan på dem när de visas i listan. Du kan lägga till flera projekt samtidigt.
 
    ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 

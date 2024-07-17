@@ -6,14 +6,16 @@ description: Ett Portfolio är en samling projekt som konkurrerar om samma resur
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # Skapa en portfölj
+
+<!--Audited: 7/2024-->
 
 Ett Portfolio är en samling projekt som konkurrerar om samma resurser, budget och tidsplan. Projekten i Portfolio är tillräckligt lika så att de skulle använda samma resurspool och mätas mot samma styrkort.
 
@@ -21,7 +23,7 @@ Du kan använda Portfolio för att gruppera projekt som tillhör samma produktli
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,28 +31,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td> <p>Nytt: Alla</p>
+   <p>Aktuell:[!UICONTROL Business] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p>
+   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>När du har skapat en portfölj har du som standard behörighet att hantera den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>När du har skapat en portfölj har du som standard behörighet att hantera den</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa en portfölj
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-click-main-menu}}
 
 1. Klicka på **[!UICONTROL Portfolios]**.
 1. Klicka på **[!UICONTROL New Portfolio]**.
@@ -64,8 +70,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Som skapare av portföljen tilldelas du som standard som portföljförvaltare.
 
-1. Klicka **[!UICONTROL Portfolio Details]** i den vänstra panelen.
-1. I **[!UICONTROL Overview]** kan du ändra följande information:
+1. Klicka på **[!UICONTROL Portfolio Details]** i den vänstra panelen.
+1. Ändra någon av följande information i området **[!UICONTROL Overview]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -77,29 +83,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Börja skriva namnet på en användare som du vill ange som portföljförvaltare och markera den sedan när den visas i listan. Detta är samma sak som [!UICONTROL Portfolio Owner]. Detta är den person som kan övervaka arbetet som definieras i portföljens projekt och godkänna affärsärendet.</p> <p>Viktigt: När du anger någon som [!UICONTROL Portfolio Manager]får de automatiskt [!UICONTROL Manage] behörigheter till portföljen, programmen och projekten i portföljen. </p> <p>Tips: Du kan även uppdatera [!UICONTROL Portfolio Manager] i sidhuvudet högst upp på sidan.</p> </td> 
+      <td> <p>Börja skriva namnet på en användare som du vill ange som portföljförvaltare och markera den sedan när den visas i listan. Detta är samma som [!UICONTROL Portfolio Owner]. Detta är den person som kan övervaka arbetet som definieras i portföljens projekt och godkänna affärsärendet.</p> <p>Viktigt! När du anger någon som [!UICONTROL Portfolio Manager] får de automatiskt [!UICONTROL Manage] behörighet till portföljen, programmen och projekten i portföljen. </p> <p>Tips! Du kan även uppdatera [!UICONTROL Portfolio Manager] i sidhuvudet överst på sidan.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Grupp </td> 
-      <td> <p>Lägg till namnet på en enskild grupp om gruppen äger portföljen eller har ansvar för att slutföra den. </p> <p>Du kan se till att du väljer rätt grupp genom att hålla markören över den och klicka på [!UICONTROL information] icon <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
+      <td> <p>Lägg till namnet på en enskild grupp om gruppen äger portföljen eller har ansvar för att slutföra den. </p> <p>Du kan se till att du väljer rätt grupp genom att hålla markören över den och klicka på ikonen [!UICONTROL information] <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka inuti **[!UICONTROL Add custom form]** i det övre högra hörnet av [!UICONTROL Portfolio Details] sida för att välja ett anpassat formulär för portföljen och uppdatera anpassade fält.
+1. (Valfritt) Klicka i rutan **[!UICONTROL Add custom form]** i det övre högra hörnet på sidan [!UICONTROL Portfolio Details] för att välja ett anpassat formulär för portföljen och uppdatera de anpassade fälten.
 
    >[!TIP]
    >
    >Du måste ha egna portföljformulär som redan har skapats innan du kan bifoga dem till portföljer.
 
 1. Klicka på **[!UICONTROL Save Changes]**.
-1. (Valfritt) Klicka på **[!UICONTROL Programs]** i den vänstra panelen och **[!UICONTROL Add Programs]** för att lägga till program i portföljen.
+1. (Valfritt) Klicka på **[!UICONTROL Programs]** i den vänstra panelen och sedan på **[!UICONTROL Add Programs]** för att lägga till program i portföljen.
 
    Mer information om hur du skapar program finns i [Skapa ett program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Valfritt) Klicka på **[!UICONTROL Projects]** i den vänstra panelen och **[!UICONTROL Add Projects]** för att lägga till projekt i portföljen.
+1. (Valfritt) Klicka på **[!UICONTROL Projects]** i den vänstra panelen och sedan på **[!UICONTROL Add Projects]** för att lägga till projekt i portföljen.
 
-   Mer information om hur du lägger till projekt på en Portfolio finns i [Lägga till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+   Mer information om hur du lägger till projekt i en Portfolio finns i [Lägg till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
