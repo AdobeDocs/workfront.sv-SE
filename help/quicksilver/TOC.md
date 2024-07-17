@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 0%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 0%
          * [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [Miljöbefordran med API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [Vanliga frågor om miljökampanjer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [Felsökning av miljökampanjer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * Användarhantering {#add-users}
       * [Användarhantering: artikelindex](administration-and-setup/add-users/add-users.md)
       * Skapa och hantera användare {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 0%
       * [Adobe Workfront Fusion - översikt](workfront-fusion/scenarios/scenario-overview.md)
       * [Skapa ett scenario i Adobe Workfront Fusion](workfront-fusion/scenarios/create-a-scenario.md)
       * [Scenarieredigeraren i Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-editor.md)
-      * [Grundscenarioinställningar i Adobe Workfront Fusion](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Panelen för scenarioinställningar i Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Scenarioinformation i Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-detail.md)
       * [Körningsflöde för scenarier i Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-flow.md)
