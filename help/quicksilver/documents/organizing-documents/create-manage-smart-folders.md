@@ -6,9 +6,9 @@ description: Smarta mappar används för att hantera dokument utanför ett proje
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Smarta mappar används för att hantera dokument utanför ett projekt, en uppgif
 Som standard är två smarta mappar tillgängliga första gången du öppnar området Dokument: Alla dokument och Senaste. Du kan redigera, byta namn på eller kopiera standardsmarta mappar, men du kan inte ta bort dem. Du kan skapa ytterligare smarta mappar för att tillgodose andra resurshanteringsbehov.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -43,6 +45,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Visa smarta mappar 
 
@@ -88,7 +92,7 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.
 
-## Ta bort en smart mapp 
+## Ta bort en smart mapp
 
 1. Gå till området **Dokument** som innehåller den smarta mappen som du vill ta bort.
 1. I kolumnen **Mappar** klickar du på den nedrullningsbara pilen bredvid den smarta mapp som du vill ta bort.

@@ -6,9 +6,9 @@ description: Du kan lägga till en ny version av ett dokument som du tidigare ha
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Om dokumentet innehåller ett korrektur och du vill skapa en ny version av det k
 Mer information om hur du lägger till en ny version av ett dokument som är länkat till Workfront från ett externt program finns i [Lägga till en ny version av ett länkat dokument](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -53,6 +55,8 @@ Du måste ha följande:
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Lägg till en ny version genom att dra och släppa
 

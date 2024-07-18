@@ -6,9 +6,9 @@ description: Använd arbetsflöden i integreringen med Experience Manager Assets
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Ett arbetsflöde är en uppsättning åtgärder som kopplar Workfront till Adobe
 
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -62,6 +64,8 @@ Mer information om hur du begär ytterligare åtkomst finns i <strong>Begär åt
    </td>
   </tr>
 </table>
+
++++
 
 ## Förutsättningar
 
@@ -145,7 +149,6 @@ Alla arbetsflödesvärden finns i:
 >Eftersom länkade mappar skapas när projektet skapas är det ineffektivt att redigera arbetsflödet för länkade mappar i ett befintligt projekt. Redigera dessa värden när du skapar en projektfunktion som förväntat.
 
 Redigera arbetsflödet för länkade mappar:
-
 
 1. Aktivera eller inaktivera **[!UICONTROL Create Linked folder]** efter behov. Om du aktiverar det kan du sedan redigera konfigurationen för den länkade mappen.
 

@@ -7,9 +7,9 @@ description: På sidan Dokumentinformation kan du visa, kommunicera och hantera 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '203'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ På sidan Dokumentinformation kan du visa, kommunicera och hantera egenskaperna 
 
 ## Öppna sidan Dokumentinformation
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Dokument**.
+{{step1-to-documents}}
 
 1. Håll markören över dokumentet och klicka sedan på **Dokumentinformation**.
 

@@ -6,9 +6,9 @@ description: Du kan begära godkännande från chefer eller andra användare fö
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan begära godkännande från chefer eller andra användare för ett dokument i Adobe Workfront. Du kan också begära dokumentgodkännanden från personer utan Workfront-konton om Workfront-administratören har aktiverat den här funktionen, enligt beskrivningen i [Konfigurera systemsäkerhetsinställningar](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,7 +46,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Begär godkännande av dokument
 

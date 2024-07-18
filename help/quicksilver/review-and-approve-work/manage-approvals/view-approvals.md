@@ -6,9 +6,9 @@ description: Godkännandeprocesser ger flexibilitet att skapa godkännanden i fl
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '854'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Mer information om hur du skapar godkännandeprocesser finns i [Skapa en godkän
 Mer information om hur du associerar godkännanden med arbete i Workfront finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -48,7 +50,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Hitta godkännanden i Adobe Workfront
 
@@ -111,16 +115,13 @@ Du kan visa godkännandestatusen för ett objekt i följande avsnitt av objektet
  </tbody> 
 </table>
 
-* [Använd uppdateringsområdet för att visa godkännandestatus](#use-the-updates-area-to-view-an-approval-status)
-* [Använd området Godkännanden för att visa godkännandestatus](#use-the-approvals-area-to-view-an-approval-status)
-
 ### Använd uppdateringsområdet för att visa godkännandestatus {#use-the-updates-area-to-view-an-approval-status}
 
 När ett godkännande initieras för ett projekt, en aktivitet eller ett problem visas en status på fliken **Uppdateringar** för objektet, vilket anger godkännandestatusen. En ny status visas när objektet övergår genom godkännandeprocessen. Detta inkluderar följande händelser:
 
 * En godkännandeprocess initieras för ett objekt. Godkännandeprocessen initieras när statusen ändras.
 * Objektet har avvisats
-* Objektet har godkänts 
+* Objektet har godkänts
 
 >[!TIP]
 >

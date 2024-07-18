@@ -6,9 +6,9 @@ description: Du kan lägga till en bildfil i Adobe Workfront genom att kopiera d
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5c3f089c-9e66-4294-806a-424a08bbf225
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 399c56757839a670a39b942d6b57992bd4f94cdc
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '374'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,14 @@ Du kan lägga till en bildfil i Adobe Workfront genom att kopiera den och klistr
 
 Den här funktionen är webbläsarspecifik, enligt följande:
 
-* **Krom:** Stöder bildfiler och återger den första sidan i PDF.
+* **Chrome:** Stöder bildfiler och återger den första sidan i PDF.
 * **Firefox:** Stöder endast skärmbilder.
 * **Edge**: Stöder bildfiler.
 * **Safari:** Den här funktionen stöds inte.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -46,7 +48,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,6 +59,8 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Klistra in från Urklipp
 
 Så här lägger du till en bild eller skärmbild i Workfront via Urklipp:
@@ -65,20 +69,20 @@ Så här lägger du till en bild eller skärmbild i Workfront via Urklipp:
 
    Högerklicka till exempel på en webbläsarbild och välj **Kopiera bild** eller kopiera en bild från ett bildprogram som Photoshop eller SnagIt.
 
-1. I Workfront går du till **Dokument** området där du vill lägga till bilden.
-1. Klicka **Lägg till ny** > **Klistra in från Urklipp**.
+1. Gå till området **Dokument** i Workfront där du vill lägga till bilden.
+1. Klicka på **Lägg till ny** > **Klistra in från Urklipp**.
 
    >[!NOTE]
    >
    >Om du använder webbläsaren Internet Explorer eller Safari stöds inte Klistra in från Urklipp. Klistra in från Urklipp visas som nedtonat i listrutan Lägg till dokument.
 
-1. I **Klistra in från Urklipp** som visas gör du något av följande, beroende på vilket operativsystem du har:
+1. Gör något av följande i rutan **Klistra in från Urklipp** , beroende på vilket operativsystem du använder:
 
    * **Windows:** Tryck på CTRL+V.
-   * **Mac:** Tryck på Kommando+V
+   * **Mac:** Tryck på Kommando+V
 
 1. Om du vill lägga till fler bilder upprepar du steg 1 och kopierar en annan bild. Klistra sedan in bilden i dialogrutan Klistra in från Urklipp, enligt beskrivningen i steg 4.
 
    Varje bild som du klistrar in i dialogrutan läggs till som en separat fil.
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.

@@ -6,9 +6,9 @@ description: Genom att delegera godkännandebegäranden kan du tilldela en annan
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Du kan inte delegera tidrapport-, dokument- eller korrekturgodkännanden.
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+
++++
 
 ## Förstå användaråtkomst för delegerade godkännanden
 
@@ -79,9 +83,7 @@ När delegeringen av godkännande har stoppats eller avbrutits har användaren u
 
 ## Delegera godkännandebegäranden i hemområdet
 
-* [Delegera dina godkännanden till en annan användare](#delegate-your-approvals-to-another-user)
-* [Uppdatera eller stoppa en godkännandedelegering](#update-or-stop-an-approval-delegation)
-* [Visa delegerade godkännanden](#view-delegated-approvals)
+Du kan delegera godkännandebegäranden från Hem-området.
 
 ### Delegera dina godkännanden till en annan användare {#delegate-your-approvals-to-another-user}
 

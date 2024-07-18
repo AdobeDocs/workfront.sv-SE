@@ -7,9 +7,9 @@ description: Du kan se en realtidsvy över mappade metadata i panelen Dokumentin
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Du kan se en realtidsvy över mappade metadata i panelen Dokumentinformation och Sammanfattning för dokument. Metadatafält mappas först när du skickar en resurs från Workfront till Experience Manager Assets eller Assets Essentials. Om Workfront-administratören har aktiverat synkronisering av objektmetadata, förblir fälten aktuella om de ändras i något av programmen.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -62,6 +64,7 @@ Mer information om hur du begär ytterligare åtkomst finns i <strong>Begär åt
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
 
 ## Förutsättningar
 
@@ -77,6 +80,7 @@ Så här öppnar du panelen Metadata i Dokumentinformation:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Håll muspekaren över det dokument du behöver och välj sedan **Dokumentinformation**.
 1. Hitta och utöka avsnittet **Metadata**.
+
    >[!NOTE]
    >
    >Du kan inte redigera fält i det här avsnittet. De är skrivskyddade.
@@ -91,6 +95,7 @@ Så här öppnar du panelen Metadata på panelen Sammanfattning:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 1. Klicka på ikonen **Sammanfattning** ![Sammanfattning](assets/summary-panel-icon.png) och expandera sedan avsnittet **Metadata**.
+
    >[!NOTE]
    >
    >Du kan inte redigera fält i det här avsnittet. De är skrivskyddade.

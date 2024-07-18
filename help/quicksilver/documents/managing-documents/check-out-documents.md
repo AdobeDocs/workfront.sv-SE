@@ -6,9 +6,9 @@ description: Du kan checka ut ett dokument för att förhindra att andra använd
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan checka ut ett dokument för att förhindra att andra användare tar bort det eller överför en ny version av det. Endast en användare kan checka ut ett dokument åt gången. Du kan checka ut alla dokument som överförts till Adobe Workfront samt dokument som är länkade till tredjepartsleverantörer av dokument (Box, Dropbox, Google Drive, Webdam, Workfront DAM, SharePoint eller någon annan anpassad leverantör). 
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Åtgärder tillåts för utcheckade dokument
 

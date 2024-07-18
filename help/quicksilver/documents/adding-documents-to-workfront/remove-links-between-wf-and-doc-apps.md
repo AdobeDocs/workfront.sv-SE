@@ -6,9 +6,9 @@ description: När ett dokument överförs från en tjänst för första gången 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Mer information om hur du länkar externa dokumenttjänster till Workfront finns
 Eftersom dokumenttjänsten tillåter behörighet att länka till Workfront går det inte att ta bort den behörighet som tilldelats av dokumenttjänsten. Du måste ta bort behörigheten från dokumenttjänstprogrammet eller så måste du ringa vårt supportteam för att ta bort länken från våra servrar.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -45,6 +47,8 @@ Du måste ha följande:
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Ta bort länken mellan Workfront och Dropbox
 

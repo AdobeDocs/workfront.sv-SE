@@ -6,9 +6,9 @@ description: Dokument kan ordnas i mappar. Du kan skapa personliga mappar i ditt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Dokument kan ordnas i mappar. Du kan skapa personliga mappar i ditt personliga d
 >När du ordnar dokument skapas helt enkelt länkar mellan dokumenten och de objekt du associerar dem med. De omplaceras inte i systemet.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,15 +48,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Visa mappar
 
 Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra vyn använder du visningsalternativen i det övre högra hörnet.
 
-1. Klicka på **Dokument** på huvudmenyn. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   eller
+eller
 
-   Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
+Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
 
 1. Klicka på visningsalternativen ovanför den högra panelen för att ändra hur dokumenten visas.
 
@@ -64,11 +68,11 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 
 Skapa mappar för att ordna dina dokument bättre. Du kan skapa upp till 2 000 mappar på ett objekt och upp till 50 undermappar i varje mapp. Undermappar räknas som högst 2 000 mappar.
 
-1. Klicka på **Dokument** på huvudmenyn. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
-   eller
+eller
 
-   Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
+Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
 
 1. Om du vill skapa en mapp på den översta nivån kontrollerar du att inget är markerat och klickar sedan på **Lägg till ny** > **Mapp**.
 

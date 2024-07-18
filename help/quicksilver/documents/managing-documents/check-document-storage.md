@@ -6,9 +6,9 @@ description: Även om det inte finns några begränsningar för vilka typer och 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Även om det inte finns några begränsningar för vilka typer och storlekar enskilda filer som användare kan överföra till din Workfront-instans finns det en gräns för hur mycket lagringsutrymme som används av din Workfront-instans i Workfront-planen. Som Adobe Workfront-administratör övervakar du instansens dokumentlagring under Konfigurera.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -38,9 +40,12 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Kontrollera dokumentlagring
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
+
 1. Klicka på **System** > **Kundinformation** i den vänstra panelen.
 1. Gå till **Lagringskvot** i avsnittet **Grundläggande information**. Här kan du se hur mycket lagringsutrymme du använder just nu samt hur mycket lagringsutrymme din Workfront-plan omfattar.
 

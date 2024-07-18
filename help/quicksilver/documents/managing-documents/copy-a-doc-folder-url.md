@@ -6,9 +6,9 @@ description: Du kan kopiera en länk för alla dokumentmappar som finns i Workfr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan kopiera en direktlänk för alla dokumentmappar som finns i följande [!DNL Workfront]-objekt: [!UICONTROL Program], [!UICONTROL Portfolio], [!UICONTROL Project], [!UICONTROL Task] eller [!UICONTROL Issue]. Du kan inte kopiera en länk för mappar i området [!UICONTROL Documents] från huvudmenyn, eftersom mapparna är länkade direkt till din användarprofil och inte kan delas med andra.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -42,6 +44,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Kopiera och dela en länk till en dokumentmapp
 
