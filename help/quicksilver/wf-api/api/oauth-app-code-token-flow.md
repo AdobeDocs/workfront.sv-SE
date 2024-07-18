@@ -27,7 +27,7 @@ Om du vill integrera med Workfront och tillåta klientappen att kommunicera med 
 
 ## Skapa ett OAuth2-program
 
-Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett OAuth2-program med användarens inloggningsuppgifter (kodflöde för auktorisering)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett OAuth2-program med användarreferenser (Authorization code flow)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) i [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md) (på engelska).
 
 >[!NOTE]
 >
@@ -46,7 +46,7 @@ Dina användare måste logga in för att godkänna integreringen på sina egna k
 
 * `client_id`: Detta är det klient-ID som genererades när du skapade OAuth2-appen i Workfront.
 
-* `redirect_uri`: Det här är den omdirigerings-URL som du angav när du skapade programmet. Dina användare dirigeras till den här sidan när de har auktoriserat appen för sitt konto.
+* `redirect_uri`: Det här är den omdirigerings-URL som du angav när du skapade appen. Dina användare dirigeras till den här sidan när de har auktoriserat appen för sitt konto.
 
 * `response_type`: Detta måste ha värdet `code`.
 
@@ -97,15 +97,15 @@ Så här loggar du in användare med OAuth2:
 
 1. Om användaren tillåter åtkomst omdirigeras sidan till `redirect_url`. Omdirigeringen måste innehålla följande frågeparametrar:
 
-* `code`: Auktoriseringskoden som krävs för att hämta åtkomsttoken/uppdateringstoken.
-* `domain`: Din organisations domän. Exempel: i `myorganization.my.workfront.com`, domänen är `myorganization`.
-* `lane`: begärans körfält. Exempel: i `myorganization.preview.workfront.com`, är `preview`.
+* `code`: Auktoriseringskoden som krävs för att hämta åtkomst-/uppdateringstoken.
+* `domain`: Din organisations domän. Exempel: i `myorganization.my.workfront.com` är domänen `myorganization`.
+* `lane`: begärans intervall. Exempel: i `myorganization.preview.workfront.com` är körfältet `preview`.
 
   >[!IMPORTANT]
   >
-  >The `code` är endast giltigt i 2 minuter. Därför måste du hämta uppdaterings- och åtkomsttoken inom den tiden.
+  >`code` är bara giltigt i 2 minuter. Därför måste du hämta uppdaterings- och åtkomsttoken inom den tiden.
 
-1. När du har en kod kan du begära uppdatering och åtkomst till tokens genom att skicka koden tillsammans med klientprogrammets autentiseringsuppgifter till `/integrations/oauth2/api/v1/token` slutpunkt.
+1. När du har en kod kan du begära uppdatering och åtkomst till tokens genom att skicka koden tillsammans med klientprogrammets autentiseringsuppgifter till slutpunkten `/integrations/oauth2/api/v1/token`.
 
    Den fullständiga URL:en för tokenbegäran är
 
@@ -113,7 +113,7 @@ Så här loggar du in användare med OAuth2:
    https://<URL of your organization's domain></span>/integrations/oauth2/api/v1/token
    ```
 
-   **Exempel:**  Exempel på CURL-anrop till token-slutpunkt:
+   **Exempel:** Exempel på CURL-anrop till tokenslutpunkt:
 
    Exempel 1
 
@@ -157,7 +157,7 @@ Så här loggar du in användare med OAuth2:
    }
    ```
 
-   Åtkomsttoken är samma som ```sessionID```och upphör på samma sätt som med ```sessionID```
+   Åtkomsttoken är samma som ```sessionID```, och den upphör att gälla på samma sätt som vanlig ```sessionID```
 
    >[!IMPORTANT]
    >

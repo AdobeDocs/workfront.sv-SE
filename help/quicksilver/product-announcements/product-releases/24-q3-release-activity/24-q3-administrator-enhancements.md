@@ -16,7 +16,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla administratörsförbättringar som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns i [Översikt över utgåvan tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Affärsreglerna är nu tillgängliga
 
@@ -46,7 +46,7 @@ Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir stan
 
 Efter den här versionen har du inte längre möjlighet att återgå till det tidigare formulärverktyget.
 
-Mer information om formulärdesignern och en videodemonstration finns i [betaversionsinformation för formulärdesigner](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Mer information om formulärdesignern och en videodemonstration finns i [betaversionen av formulärdesignern](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
 ## Flytta objekt mellan Workfront-miljöer med miljöfrämjande åtgärder
 
@@ -58,7 +58,7 @@ Med miljöfrämjande funktioner kan du flytta objekt från en Workfront-miljö t
 
 Tidigare behövde objekt konfigureras i produktionsmiljöer separat från sandlådemiljöer och förhandsvisningsmiljöer.
 
-Mer information om miljömarknadsföring finns i [Översikt över rörliga objekt mellan Workfront-miljöer (miljöfrämjande)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+Mer information om miljöbefordran finns i [Översikt över hur du flyttar objekt mellan Workfront-miljöer (miljöerbjudande)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -75,7 +75,7 @@ Mer information om miljömarknadsföring finns i [Översikt över rörliga objek
 
 Nu kan du dela både anpassade formulär och anpassade fält i den nya formulärdesignern. Detta möjliggör bättre samarbete mellan användare i anpassade formulär.
 
-Mer information finns i [Dela ett eget formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) och [Konfigurera delning för anpassade fält och widgetar med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Mer information finns i [Dela ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) och [Konfigurera delning för anpassade fält och widgetar med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 ## Lägg till ett nytt anpassat fält från området Fält
 
@@ -87,7 +87,7 @@ Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från f�
 
 Den här funktionen är tillgänglig för både den anpassade formulärdesignern och det äldre anpassade formulärverktyget.
 
-Mer information finns i [Lägga till eller redigera ett anpassat fält, en avsnittsbrytning eller en widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Mer information finns i [Lägga till eller redigera ett anpassat fält, avsnittsbrytning eller widget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 ## Flervalsfälttyp som är tillgänglig i formulärdesignern
 

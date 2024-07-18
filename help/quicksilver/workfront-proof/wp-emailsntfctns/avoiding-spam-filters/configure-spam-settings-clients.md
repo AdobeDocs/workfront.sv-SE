@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
 title: Konfigurera skräppostinställningar för vanliga e-postklienter
-description: Du kan konfigurera din e-postklient för att se till att [!DNL Workfront Proof] e-postmeddelanden skickas inte till skräppostmappen.
+description: Du kan konfigurera din e-postklient så att  [!DNL Workfront Proof] e-postmeddelanden inte skickas till skräppostmappen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 1%
+source-wordcount: '1209'
+ht-degree: 0%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Du kan konfigurera din e-postklient för att se till att [!DNL Workfront Proof] e-postmeddelanden skickas inte till skräppostmappen.
+Du kan konfigurera din e-postklient så att [!DNL Workfront Proof] e-postmeddelanden inte skickas till skräppostmappen.
 
 I följande avsnitt beskrivs den här processen för olika e-postklienter:
 
@@ -28,201 +28,201 @@ I följande avsnitt beskrivs den här processen för olika e-postklienter:
 
 I det här avsnittet:
 
-* Lägg till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!UICONTROL Contacts] lista i [!DNL Gmail] eller skapa filter som förhindrar [!UICONTROL Gmail] från att dirigera e-post från adresserna till [!UICONTROL Spam] mapp
-* Ta bort befintliga [!DNL Workfront Proof] e-post från [!UICONTROL Spam] mapp och ändra eventuella filter [!DNL Workfront Proof] meddelanden till papperskorgen
+* Lägg till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i [!UICONTROL Contacts]-listan i [!DNL Gmail] eller skapa filter för att förhindra att [!UICONTROL Gmail] dirigerar e-postmeddelanden från adresserna till din [!UICONTROL Spam]-mapp
+* Ta bort befintliga [!DNL Workfront Proof]-e-postmeddelanden från mappen [!UICONTROL Spam] och ändra eventuella filter som dirigerar [!DNL Workfront Proof]-meddelanden till papperskorgen
 
-### För nya [!DNL Workfront Proof] e-post
+### För nya [!DNL Workfront Proof] e-postmeddelanden
 
-Lägg till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!UICONTROL Contacts] lista i [!DNL Gmail] eller skapa e-postfilter för att behålla [!DNL Workfront Proof] e-postmeddelanden slussas till [!UICONTROL Spam] mapp efter [!DNL Gmail]. Lägga till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!UICONTROL Contacts] lista:
+Lägg antingen till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i [!UICONTROL Contacts]-listan i [!DNL Gmail] eller skapa e-postfilter för att hindra att [!DNL Workfront Proof] e-postmeddelanden dirigeras till din [!UICONTROL Spam]-mapp av [!DNL Gmail]. Så här lägger du till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i [!UICONTROL Contacts]-listan:
 
-1. Klicka **[!UICONTROL Contacts]** nedan **[!UICONTROL Mail]** i det övre vänstra hörnet på en Gmail-sida.
+1. Klicka på **[!UICONTROL Contacts]** nedanför **[!UICONTROL Mail]** i det övre vänstra hörnet på en Gmail-sida.
 
-1. Du kan behöva klicka på ett plustecken (+) efter [!UICONTROL Mail] att visa [!UICONTROL Contacts] och [!UICONTROL Tasks]. Om plustecknet inte visas flyttar du markören till [!UICONTROL Mail]och plustecknet visas.
-1. Klicka på **[!UICONTROL Add to "My Contacts"]** ovanför din lista över kontakter och deras e-postadresser.
-1. Kopiera och klistra in den första[!UICONTROL from]&quot; i den omärkta e-postadressen.
-1. Klicka **[!UICONTROL Add]** nedanför dialogrutan. Adressen läggs till i din lista över kontakter.
-1. För andra &quot;[!UICONTROL from]&quot;, upprepa steg 2-4.
+1. Du kan behöva klicka på ett plustecken (+) efter [!UICONTROL Mail] för att visa [!UICONTROL Contacts] och [!UICONTROL Tasks]. Om plustecknet inte visas flyttar du markören till [!UICONTROL Mail] så visas plustecknet.
+1. Klicka på knappen **[!UICONTROL Add to "My Contacts"]** ovanför din lista över kontakter och deras e-postadresser.
+1. Kopiera och klistra in den första [!UICONTROL from]-adressen i den omärkta e-postadressdialogrutan.
+1. Klicka på **[!UICONTROL Add]** nedanför dialogrutan. Adressen läggs till i din lista över kontakter.
+1. Upprepa steg 2-4 för den andra [!UICONTROL from]-adressen.
 
-Du kan också skapa ett e-postfilter för var och en av de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser:
+Du kan också skapa ett e-postfilter för var och en av de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna:
 
-1. Klicka **[!UICONTROL Create a filter]** bredvid **[!UICONTROL Search]** knappar högst upp på en Gmail-sida.
+1. Klicka på **[!UICONTROL Create a filter]** bredvid knapparna **[!UICONTROL Search]** högst upp på en Gmail-sida.
 
-1. Kopiera och klistra in den första[!UICONTROL from]&quot; i **[!UICONTROL From]** i **[!UICONTROL Create a Filter]** box.
+1. Kopiera och klistra in den första [!UICONTROL from]-adressen i fältet **[!UICONTROL From]** i rutan **[!UICONTROL Create a Filter]**.
 
-1. Klicka på **[!UICONTROL Next Step]** -knappen.
-1. Från **[!UICONTROL Choose action]** lista, välj **[!UICONTROL Never send it to Spam]**.
+1. Klicka på knappen **[!UICONTROL Next Step]**.
+1. Välj **[!UICONTROL Never send it to Spam]** i listan **[!UICONTROL Choose action]**.
 
-1. Klicka på **[!UICONTROL Create Filter]** -knappen. Filtret läggs till i listan med filter på [!UICONTROL Settings] sida.
-1. För andra &quot;[!UICONTROL from]&quot; adress, klicka **[!UICONTROL Create a filter]** längst ned på sidan Inställningar och upprepa steg 2-5.
+1. Klicka på knappen **[!UICONTROL Create Filter]**. Filtret läggs till i din lista med filter på sidan [!UICONTROL Settings].
+1. För den andra [!UICONTROL from]-adressen klickar du på **[!UICONTROL Create a filter]** längst ned på inställningssidan och upprepar steg 2-5.
 
-### För befintliga [!DNL Workfront Proof] e-post
+### För befintliga [!DNL Workfront Proof]-e-postmeddelanden
 
-Ta bort [!DNL Workfront Proof] e-postmeddelanden som [!DNL Gmail] har placerat i [!UICONTROL Spam] mapp sedan den senast rensades:
+Så här tar du bort alla [!DNL Workfront Proof] e-postmeddelanden som [!DNL Gmail] har placerat i mappen [!UICONTROL Spam] sedan den senast rensades:
 
-1. Klicka **[!UICONTROL Spam]** i mapplistan till vänster på en Gmail-sida.
-1. Välj valfritt [!DNL Workfront Proof] e-post i [!UICONTROL Spam] mapp.
-1. Klicka på **[!UICONTROL Not Spam]** ovanför [!UICONTROL Spam] lista.\
-   Nu hittar du de där [!DNL Workfront Proof] e-post i din inkorg.
+1. Klicka på **[!UICONTROL Spam]** i mapplistan till vänster på en Gmail-sida.
+1. Välj eventuella [!DNL Workfront Proof]-e-postmeddelanden i mappen [!UICONTROL Spam].
+1. Klicka på knappen **[!UICONTROL Not Spam]** ovanför listan [!UICONTROL Spam].\
+   Du hittar nu de [!DNL Workfront Proof] e-postmeddelandena i din inkorg.
 
-Ändra filter som skickas [!DNL Workfront Proof] e-post till papperskorgen:
+Så här ändrar du eventuella filter som skickar [!DNL Workfront Proof] e-postmeddelanden till papperskorgen:
 
-1. Klicka **[!UICONTROL Create a filter]** bredvid [!UICONTROL Search] knappar högst upp på en Gmail-sida.
-1. Klicka **[!UICONTROL Show current filters]** längst ned i [!UICONTROL Create a filter] -dialogrutan. De befintliga filtren visas på sidan Inställningar efter fält (från) och namn eller adress.
-1. Om [!UICONTROL Do this action for an existing [!DNL Workfront Proof] address] filtret är [!UICONTROL Delete it], klicka **[!UICONTROL edit]**.
-1. Klicka på **[!UICONTROL Next Step]** -knappen.
-1. Avmarkera **[!UICONTROL Delete it]** välj **[!UICONTROL Never send it to Spam]**.
+1. Klicka på **[!UICONTROL Create a filter]** bredvid knapparna [!UICONTROL Search] högst upp på en Gmail-sida.
+1. Klicka på **[!UICONTROL Show current filters]** längst ned i dialogrutan [!UICONTROL Create a filter]. De befintliga filtren visas på sidan Inställningar efter fält (från) och namn eller adress.
+1. Om filtret [!UICONTROL Do this action for an existing [!DNL Workfront Proof] address] är [!UICONTROL Delete it] klickar du på **[!UICONTROL edit]**.
+1. Klicka på knappen **[!UICONTROL Next Step]**.
+1. Avmarkera alternativet **[!UICONTROL Delete it]** och markera **[!UICONTROL Never send it to Spam]**.
 
-1. Klicka på **[!UICONTROL Update Filter]** -knappen.\
-   The [!UICONTROL Settings] sidan visas igen.
+1. Klicka på knappen **[!UICONTROL Update Filter]**.\
+   Sidan [!UICONTROL Settings] visas igen.
 
-1. Om ytterligare [!DNL Workfront Proof] adressfiltren visas, upprepa steg 3-6 för var och en av dem.
+1. Om det finns ytterligare [!DNL Workfront Proof] adressfilter i listan upprepar du steg 3-6 för vart och ett av dem.
 
 ## [!DNL Microsoft Outlook] 2003 - 2007
 
 I det här avsnittet:
 
-* Lägg till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!UICONTROL Safe Senders] lista i [!DNL Outlook]
-* Ta bort befintliga [!DNL Workfront Proof] e-post från [!UICONTROL Junk E-mail] mapp och alla[!UICONTROL from]&quot; adresser från [!UICONTROL Blocked Senders] list
+* Lägg till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i listan [!UICONTROL Safe Senders] i [!DNL Outlook]
+* Ta bort befintliga [!DNL Workfront Proof]-e-postmeddelanden från mappen [!UICONTROL Junk E-mail] och eventuella [!UICONTROL from]-adresser från listan [!UICONTROL Blocked Senders]
 
-### För nya [!DNL Workfront Proof] e-post
+### För nya [!DNL Workfront Proof] e-postmeddelanden
 
-Lägga till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till listan Betrodda avsändare i Outlook:
+Så här lägger du till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i listan Betrodda avsändare i Outlook:
 
-1. Klicka **[!UICONTROL Options]** på **[!UICONTROL Tools]** -menyn.
+1. Klicka på **[!UICONTROL Options]** på menyn **[!UICONTROL Tools]**.
 
-1. Klicka **[!UICONTROL Junk E-mail]** under **[!UICONTROL E-mail]** på **[!UICONTROL Preferences]** -fliken.
+1. Klicka på **[!UICONTROL Junk E-mail]** under **[!UICONTROL E-mail]** på fliken **[!UICONTROL Preferences]**.
 
-1. Klicka **[!UICONTROL Add]** på **[!UICONTROL Safe Senders]** -fliken.
+1. Klicka på **[!UICONTROL Add]** på fliken **[!UICONTROL Safe Senders]**.
 
-1. Kopiera och klistra in den första[!UICONTROL from]&quot; eller bara domännamnet (resten av namnet efter @-tecknet) i **[!UICONTROL Add Address or domain]** box.
+1. Kopiera och klistra in den första [!UICONTROL from]-adressen eller bara domännamnet (resten av namnet efter @-tecknet) i rutan **[!UICONTROL Add Address or domain]**.
 1. Klicka på **[!UICONTROL OK]**. Adressen läggs till i listan.
-1. För andra &quot;[!UICONTROL from]&quot;, upprepa steg 3-5.
+1. Upprepa steg 3-5 för den andra [!UICONTROL from]-adressen.
 
-### För befintliga [!DNL Workfront Proof] e-post
+### För befintliga [!DNL Workfront Proof]-e-postmeddelanden
 
-Ta bort [!DNL Workfront Proof] e-postmeddelanden som [!DNL Outlook] har placerat i [!UICONTROL Junk E-mail] mapp sedan den senast rensades:
+Så här tar du bort alla [!DNL Workfront Proof] e-postmeddelanden som [!DNL Outlook] har placerat i mappen [!UICONTROL Junk E-mail] sedan den senast rensades:
 
-1. Klicka på **[!UICONTROL Junk E-mail]** i navigeringsfönstret.
-1. Om det finns några [!DNL Workfront Proof] e-post i mappen, högerklicka på varje e-post och välj [!UICONTROL Junk E-mail]och klicka sedan på **[!UICONTROL Mark as Not Junk]**.
-1. Nu hittar du de där [!DNL Workfront Proof] e-post i din inkorg.
+1. Klicka på mappen **[!UICONTROL Junk E-mail]** i navigeringsfönstret.
+1. Om det finns [!DNL Workfront Proof] e-postmeddelanden i mappen högerklickar du på varje e-post, väljer [!UICONTROL Junk E-mail] och klickar sedan på **[!UICONTROL Mark as Not Junk]**.
+1. Du hittar nu de [!DNL Workfront Proof] e-postmeddelandena i din inkorg.
 
-Kontrollera om det finns några [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser finns i listan Spärrade avsändare:
+Så här kontrollerar du om det finns några [!DNL Workfront Proof] [!UICONTROL from]-adresser i listan Spärrade avsändare:
 
-1. Klicka **[!UICONTROL Options]** på **[!UICONTROL Tools]** meny
+1. Klicka på **[!UICONTROL Options]** på menyn **[!UICONTROL Tools]**
 
-1. Klicka **[!UICONTROL Junk E-mail]** under **[!UICONTROL E-mail]** på **[!UICONTROL Preferences]** -fliken.
+1. Klicka på **[!UICONTROL Junk E-mail]** under **[!UICONTROL E-mail]** på fliken **[!UICONTROL Preferences]**.
 
-1. Klicka på **[!UICONTROL Blocked Senders]** -fliken.
-1. Om någon [!DNL Workfront Proof] adresser finns i listan, klicka på var och en och klicka sedan på **[!UICONTROL Remove]**.
+1. Klicka på fliken **[!UICONTROL Blocked Senders]**.
+1. Om det finns några [!DNL Workfront Proof]-adresser i listan klickar du på var och en av dem och sedan på **[!UICONTROL Remove]**.
 
 ## [!DNL Windows Live Hotmail]
 
 I det här avsnittet:
 
-* Lägg till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!UICONTROL Safe Senders] lista i [!DNL Windows Live Hotmail]
-* Ta bort befintliga [!DNL Workfront Proof] e-postmeddelanden från mappen Skräppost och alla &quot;[!UICONTROL from]&quot; adresser från [!UICONTROL Blocked Senders] list
+* Lägg till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i listan [!UICONTROL Safe Senders] i [!DNL Windows Live Hotmail]
+* Ta bort befintliga [!DNL Workfront Proof]-e-postmeddelanden från mappen Skräppost och eventuella [!UICONTROL from]-adresser från listan [!UICONTROL Blocked Senders]
 
-### För nya [!DNL Workfront Proof] e-post
+### För nya [!DNL Workfront Proof] e-postmeddelanden
 
-Lägga till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!UICONTROL Safe Senders] lista i [!DNL Windows Live Hotmail]:
+Så här lägger du till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i [!UICONTROL Safe Senders]-listan i [!DNL Windows Live Hotmail]:
 
-1. Klicka **[!UICONTROL Options]** i det övre högra hörnet av din postlådesida.
+1. Klicka på **[!UICONTROL Options]** i det övre högra hörnet på din postlådesida.
 1. Klicka på **[!UICONTROL More options]**.
-1. Klicka **[!UICONTROL Safe and blocked senders]** under **[!UICONTROL Junk e-mail]**.
+1. Klicka på **[!UICONTROL Safe and blocked senders]** under **[!UICONTROL Junk e-mail]**.
 
 1. Klicka på **[!UICONTROL Safe Senders]**.
-1. Kopiera och klistra in den första[!UICONTROL from]&quot; eller bara domännamnet (resten av namnet efter @-tecknet) i [!UICONTROL Sender] eller domän som ska markeras som säkert fält.
-1. Klicka på **[!UICONTROL Add to list]** -knappen. Adressen visas i listan.
-1. För andra &quot;[!UICONTROL from]&quot;, upprepa steg 4-6.
+1. Kopiera och klistra in den första [!UICONTROL from]-adressen eller bara domännamnet (resten av namnet efter @-tecknet) i [!UICONTROL Sender] eller domänen för att markera som säkert fält.
+1. Klicka på knappen **[!UICONTROL Add to list]**. Adressen visas i listan.
+1. Upprepa steg 4-6 för den andra [!UICONTROL from]-adressen.
 
-### För befintliga [!DNL Workfront Proof] e-post
+### För befintliga [!DNL Workfront Proof]-e-postmeddelanden
 
-Ta bort [!DNL Workfront Proof] e-postmeddelanden som [!DNL Windows Live Hotmail] har placerat i [!UICONTROL Junk] E-postmapp sedan den senast rensades:
+Så här tar du bort alla [!DNL Workfront Proof] e-postmeddelanden som [!DNL Windows Live Hotmail] har placerat i din [!UICONTROL Junk]-e-postmapp sedan den senast rensades:
 
 1. Klicka **[!UICONTROL Junk]** under **[!UICONTROL Folders]** till vänster på sidan.
 
-1. Om det finns några [!DNL Workfront Proof] e-postmeddelanden i den här mappen, öppna varje e-postmeddelande och klicka på **[!UICONTROL Not junk]** länk.
-1. Nu hittar du de där [!DNL Workfront Proof] e-post i din inkorg.
+1. Om det finns [!DNL Workfront Proof] e-postmeddelanden i den här mappen öppnar du varje e-postmeddelande och klickar på länken **[!UICONTROL Not junk]**.
+1. Du hittar nu de [!DNL Workfront Proof] e-postmeddelandena i din inkorg.
 
-Kontrollera om det finns några [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser finns i [!UICONTROL Blocked Senders] lista:
+Så här kontrollerar du om det finns några [!DNL Workfront Proof] [!UICONTROL from]-adresser i listan [!UICONTROL Blocked Senders]:
 
-1. Klicka **[!UICONTROL Options]** i det övre högra hörnet av din postlådesida.
+1. Klicka på **[!UICONTROL Options]** i det övre högra hörnet på din postlådesida.
 1. Klicka på **[!UICONTROL More options]**.
-1. Klicka **[!UICONTROL Safe and blocked senders]** under **[!UICONTROL Junk e-mail]**.
+1. Klicka på **[!UICONTROL Safe and blocked senders]** under **[!UICONTROL Junk e-mail]**.
 
 1. Klicka på **[!UICONTROL Blocked Senders]**.
-1. Om någon [!DNL Workfront Proof] adresser finns i listan, markera var och en och klicka på **[!UICONTROL Remove from list]** -knappen.
+1. Om det finns [!DNL Workfront Proof] adresser i listan markerar du var och en av dem och klickar på knappen **[!UICONTROL Remove from list]** .
 
 ## [!DNL Yahoo Mail]
 
 I det här avsnittet:
 
-* Lägg till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser som filter ska ha [!DNL Yahoo Mail] skicka [!DNL Workfront Proof] e-post till din inkorg
-* Ta bort befintlig [!DNL Workfront Proof] e-post från [!UICONTROL Spam] mapp
+* Lägg till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna till filter så att [!DNL Yahoo Mail] skickar [!DNL Workfront Proof] e-post till din inkorg
+* Ta bort befintliga [!DNL Workfront Proof]-e-postmeddelanden från mappen [!UICONTROL Spam]
 
-### För nya [!DNL Workfront Proof] e-post
+### För nya [!DNL Workfront Proof] e-postmeddelanden
 
-Skapa ett nytt filter i [!DNL Yahoo Mail] för varje [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adress:
+Så här skapar du ett nytt filter i [!DNL Yahoo Mail] för varje [!DNL Workfront Proof] [!UICONTROL from]-adress:
 
-1. Klicka **[!UICONTROL Options]** i det övre högra hörnet på sidan E-post.
+1. Klicka på **[!UICONTROL Options]** i det övre högra hörnet på e-postsidan.
 1. Klicka på **[!UICONTROL More options]**.
-1. Klicka **[!UICONTROL Filters]** till vänster på sidan.
+1. Klicka på **[!UICONTROL Filters]** till vänster på sidan.
 1. Klicka på **[!UICONTROL Create or edit filters]**.
-1. Klicka **[!UICONTROL Add]** på sidan Filter.
+1. Klicka på **[!UICONTROL Add]** på sidan Filter.
 1. Ge filtret ett namn.
-1. För [!UICONTROL From header] välj **[!UICONTROL contains]** och kopiera och klistra in den första[!UICONTROL from]&quot; eller bara domännamnet (resten av namnet efter @-tecknet).
+1. För regeln [!UICONTROL From header] väljer du alternativet **[!UICONTROL contains]** och kopierar och klistrar in den första [!UICONTROL from]-adressen eller bara domännamnet (resten av namnet efter @-tecknet).
 1. Klicka på **[!UICONTROL Choose Folder]** och välj **[!UICONTROL Inbox]**.
 
-1. Klicka på *[!UICONTROL *Add Filter]**. Filtret visas i filterlistan.
-1. För andra &quot;[!UICONTROL from]&quot;, upprepa steg 5-9.
+1. Klicka på knappen *[!UICONTROL *Add Filter]**. Filtret visas i filterlistan.
+1. Upprepa steg 5-9 för den andra [!UICONTROL from]-adressen.
 
-### För befintliga [!DNL Workfront Proof] e-post
+### För befintliga [!DNL Workfront Proof]-e-postmeddelanden
 
-Ta bort [!DNL Workfront Proof] e-postmeddelanden som [!DNL Yahoo Mail] har dirigerats till [!UICONTROL Spam] mapp sedan den senast rensades:
+Så här tar du bort alla [!DNL Workfront Proof] e-postmeddelanden som [!DNL Yahoo Mail] har dirigerat till din [!UICONTROL Spam]-mapp sedan den senast rensades:
 
-1. Välj **[!UICONTROL Spam]** från vänster sida i [!UICONTROL Mail] sida.
-1. Om det finns några [!DNL Workfront Proof] e-postmeddelanden i mappen, markera varje e-postmeddelande och klicka på **[!UICONTROL Not Spam]** -knappen.
+1. Välj mappen **[!UICONTROL Spam]** till vänster på sidan [!UICONTROL Mail].
+1. Om det finns [!DNL Workfront Proof] e-postmeddelanden i mappen markerar du varje e-postmeddelande och klickar på knappen **[!UICONTROL Not Spam]**.
 1. Du hittar nu dessa e-postmeddelanden i din inkorg.
 
-Ta bort [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser från listan över spärrade adresser:
+Så här tar du bort [!DNL Workfront Proof] [!UICONTROL from]-adresser från listan över blockerade adresser:
 
-1. Klicka **[!UICONTROL Options]** i det övre högra hörnet på sidan E-post.
+1. Klicka på **[!UICONTROL Options]** i det övre högra hörnet på e-postsidan.
 1. Klicka på **[!UICONTROL More options]**.
-1. Klicka **[!UICONTROL Spam]** till vänster på sidan.
-1. Om någon [!DNL Workfront Proof] adresser eller domännamn visas i **[!UICONTROL Blocked Email Addresses]** på spamsidan markerar du varje post och klickar på **[!UICONTROL Remove]** -knappen.
+1. Klicka på **[!UICONTROL Spam]** till vänster på sidan.
+1. Om några [!DNL Workfront Proof]-adresser eller domännamn visas i avsnittet **[!UICONTROL Blocked Email Addresses]** på skräppostsidan, markerar du varje post och klickar på knappen **[!UICONTROL Remove]** .
 
 ## [!DNL Aol]
 
 I det här avsnittet:
 
-* Lägg till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!DNL Aol] [!UICONTROL Address Book]
-* Ta bort befintliga [!DNL Workfront Proof] e-post från [!DNL Aol] [!UICONTROL Spam] Mapp och alla [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser från listan över spärrade adresser i [!DNL Aol] [!UICONTROL Spam] filter
+* Lägg till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i din [!DNL Aol] [!UICONTROL Address Book]
+* Ta bort befintliga [!DNL Workfront Proof]-e-postmeddelanden från mappen [!DNL Aol] [!UICONTROL Spam] och eventuella [!DNL Workfront Proof] [!UICONTROL from]-adresser från listan över blockerade adresser i filtret [!DNL Aol] [!UICONTROL Spam]
 
-### För nya [!DNL Workfront Proof] e-post
+### För nya [!DNL Workfront Proof] e-postmeddelanden
 
-Lägga till de två [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser till [!DNL Aol] [!UICONTROL Address Book]:
+Så här lägger du till de två [!DNL Workfront Proof] [!UICONTROL from]-adresserna i din [!DNL Aol] [!UICONTROL Address Book]:
 
-1. Klicka på **[!UICONTROL Mail]** -menyn.
+1. Klicka på menyn **[!UICONTROL Mail]**.
 1. Välj **[!UICONTROL Address Book]**.
-1. Klicka på [!UICONTROL Add] längst ned på [!UICONTROL Address Book] -fönstret.
-1. I **[!UICONTROL Address Card for New Contact]** fönster, kopiera och klistra in den första[!UICONTROL from]&quot; i [!UICONTROL Other E-Mail] fält och kontrollera [!UICONTROL Primary E-Mail] alternativknapp bredvid det fältet.
+1. Klicka på knappen [!UICONTROL Add] längst ned i fönstret [!UICONTROL Address Book].
+1. I fönstret **[!UICONTROL Address Card for New Contact]** kopierar och klistrar du in den första [!UICONTROL from]-adressen i fältet [!UICONTROL Other E-Mail] och kontrollerar alternativknappen [!UICONTROL Primary E-Mail] bredvid fältet.
 1. Klicka på **[!UICONTROL Save]**.
-1. För andra &quot;[!UICONTROL from]&quot;, upprepa steg 3-5.
+1. Upprepa steg 3-5 för den andra [!UICONTROL from]-adressen.
 
-### För befintliga [!DNL Workfront Proof] e-post
+### För befintliga [!DNL Workfront Proof]-e-postmeddelanden
 
-Ta bort [!DNL Workfront Proof] e-postmeddelanden som [!DNL Aol] har dirigerats till [!UICONTROL Spam] mapp sedan den senast rensades:
+Så här tar du bort alla [!DNL Workfront Proof] e-postmeddelanden som [!DNL Aol] har dirigerat till din [!UICONTROL Spam]-mapp sedan den senast rensades:
 
-1. Klicka på [!UICONTROL Mail] -menyn.
-1. Välj **[!UICONTROL Spam]** Mapp.
-1. Om det finns några [!DNL Workfront Proof] e-postmeddelanden i mappen, öppna varje e-postmeddelande i taget och klicka på **[!UICONTROL This Is Not Spam]** -knappen.
-1. Nu hittar du de där [!DNL Workfront Proof] e-post i din inkorg.
+1. Klicka på menyn [!UICONTROL Mail].
+1. Välj mappen **[!UICONTROL Spam]**.
+1. Om det finns [!DNL Workfront Proof] e-postmeddelanden i mappen öppnar du varje e-postmeddelande i taget och klickar på knappen **[!UICONTROL This Is Not Spam]** .
+1. Du hittar nu de [!DNL Workfront Proof] e-postmeddelandena i din inkorg.
 
-Kontrollera om det finns några [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; adresser blockeras i [!DNL Aol] [!UICONTROL Spam] filter:
+Så här kontrollerar du om några [!DNL Workfront Proof] [!UICONTROL from]-adresser är blockerade i filtret [!DNL Aol] [!UICONTROL Spam]:
 
-1. Gå till **[!UICONTROL [!DNL Aol] Keyword: Mail controls]** för att visa [!UICONTROL Spam Settings] sida.
+1. Gå till **[!UICONTROL [!DNL Aol] Keyword: Mail controls]** om du vill visa sidan [!UICONTROL Spam Settings].
 
-1. The [!DNL Aol] [!UICONTROL Keyword] är bara en funktion i [!DNL Aol] program. Om du behöver instruktioner för att få åtkomst till [!UICONTROL Spam Settings] sida från [!DNL Aol] [!UICONTROL Webmail] eller [!DNL Aol] [!UICONTROL Desktop], se [!DNL Aol] hjälp.
-1. If **[!UICONTROL Block mail from addresses I specify]** är markerat i **[!UICONTROL Sender Filter]** fält och alla [!DNL Workfront Proof] Adresser och domännamn ingår i listan över blockerade adresser. Ta bort var och en av adresserna från listan.
+1. [!DNL Aol] [!UICONTROL Keyword] är bara en funktion i [!DNL Aol]. Om du behöver instruktioner för att få åtkomst till sidan [!UICONTROL Spam Settings] från [!DNL Aol] [!UICONTROL Webmail] eller [!DNL Aol] [!UICONTROL Desktop] kan du läsa hjälpen för [!DNL Aol].
+1. Om **[!UICONTROL Block mail from addresses I specify]** har valts i fältet **[!UICONTROL Sender Filter]** och eventuella [!DNL Workfront Proof] adresser eller domännamn finns med i listan över blockerade adresser, tar du bort de adresserna från listan.
 
 1. Klicka på **[!UICONTROL Save]**.

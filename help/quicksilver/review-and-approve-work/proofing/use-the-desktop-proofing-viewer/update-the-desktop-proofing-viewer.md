@@ -32,28 +32,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Alla</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Alla</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 {{latest-version}}
 
-## Sök efter uppdateringar manuellt
+## Leta efter uppdateringar manuellt
 
 Desktop Proofing Viewer söker automatiskt efter uppdateringar när den startas. 
 
 Så här söker du efter uppdateringar manuellt:
 
-1. På en Mac klickar du på **Workfront Proof** > **Om Workfront Proof** i Apple navigeringsfält ovanför Desktop Proofing Viewer. 
+1. På en Mac-dator klickar du på **Workfront Proof** > **Om Workfront Proof** i navigeringsfältet i Apple ovanför Desktop Proofing Viewer. 
 
    eller
 
-   I Windows klickar du på **Fönster** > **Om Workfront Proof** på menyraden ovanför Desktop Proofing Viewer.
+   I Windows klickar du på **Fönster** > **Om Workfront Proof** på menyraden ovanför korrekturläsaren för skrivbordet.
 
    Desktop Proofing Viewer söker efter uppdateringar.
 
@@ -61,21 +61,21 @@ Så här söker du efter uppdateringar manuellt:
 
 ## Standarduppdateringar
 
-Desktop Proofing Viewer kan fungera utan de icke-kritiska uppdateringarna. För att få bästa möjliga funktionalitet rekommenderar vi att du använder dem när de blir tillgängliga. Du meddelas när de är tillgängliga av en **Appuppdatering** i det vänstra sidofältet i Desktop Proofing Viewer.
+Desktop Proofing Viewer kan fungera utan de icke-kritiska uppdateringarna. För att få bästa möjliga funktionalitet rekommenderar vi att du använder dem när de blir tillgängliga. Du meddelas när de är tillgängliga via en **appuppdateringsknapp** i det vänstra sidofältet i Desktop Proofing Viewer.
 
-1. Klicka **Appuppdatering.**
+1. Klicka på **Appuppdatering.**
 
    Uppdateringarna hämtas.
 
-1. Klicka **Starta om.**
+1. Klicka på **Starta om.**
 
-   The **Desktop Proofing Viewer** startar om och du kan återuppta arbetet med ditt bevis.
+   **Desktop Proofing Viewer** startas om och du kan återuppta arbetet med ditt korrektur.
 
 ## Nödvändiga uppdateringar
 
 Det är viktigt att du kör nödvändiga uppdateringar för Desktop Proofing Viewer. Efteråt måste du starta om för att kunna fortsätta använda visningsprogrammet.
 
 1. Öppna Desktop Proofing Viewer.
-1. Klicka på **Starta om.**
+1. Klicka på **Starta om i rutan som visas.**
 
    Desktop Proofing Viewer startas om och du kan återuppta arbetet med ditt korrektur. 

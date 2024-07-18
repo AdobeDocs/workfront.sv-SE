@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Visa eller ge senare åtkomst till mallar, vid konvertering till ett projekt med hjälp av en mall</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Visa eller ge senare åtkomst till mallar, vid konvertering till ett projekt med hjälp av en mall</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -102,8 +102,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <td>Projektdatum</td> 
     <td> 
       <ul> 
-      <li> <p><b>Planerat startdatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad, enligt tidszonen för mallens schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från slutförande. </p> </li> 
-      <li> <p><b>Planerat slutförandedatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad, enligt tidszonen för mallens schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från start. </p> </li> 
+      <li> <p><b>Planerat startdatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad enligt tidszonen för mallschemats schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från slutförande. </p> </li> 
+      <li> <p><b>Planerat slutförandedatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad enligt tidszonen för mallschemats schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från start. </p> </li> 
       </ul> </td> 
     </tr> 
     <tr> 
@@ -162,34 +162,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Konvertera en uppgift till ett projekt
 
 1. Gå till den uppgift som du vill konvertera till ett projekt.
-1. Klicka på **Mer** icon ![](assets/more-icon.png)sedan **Konvertera till projekt**.
+1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Konvertera till projekt**.
 1. Välj något av följande alternativ:
 
    * **Nytt projekt**
-   * En mall i **Välj från mallar** section
+   * En mall i avsnittet **Välj från mallar**
 
      ![](assets/convert-task-to-project-template-option-dropdown-nwe-350x209.png)
 
-1. Klicka **Fortsätt** på meddelandet som visas.
-1. I **Konvertera till projekt** Ange följande:
+1. Klicka på **Fortsätt** på meddelandet som visas.
+1. Ange följande i rutan **Konvertera till projekt**:
 
    * **Namn**: Namnge projektet. Standardnamnet är namnet på aktiviteten.
-   * (Valfritt) **Beskrivning**: Beskriv syftet med projektet.
-   * (Valfritt och villkorligt) Om du har valt att skapa ett projekt från en mall uppdaterar du de tillgängliga fälten i **Konvertera till projekt** -dialogrutan.
+   * (Valfritt) **Beskrivning**: Beskriv syftet med det här projektet.
+   * (Valfritt och villkorligt) Om du har valt att skapa ett projekt från en mall ska du uppdatera de tillgängliga fälten i dialogrutan **Konvertera till projekt**.
 
      Mer information om hur du redigerar fält i projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
-     >Om du vill uppdatera fälten i avsnittet Ekonomi i rutan Konvertera till projekt måste du ha Redigera åtkomst till finansiella data på åtkomstnivån. Om du har Visa åtkomst till finansiella data på din åtkomstnivå överförs all ekonomisk information från mallen till det nya projektet och du kan inte redigera den medan du konverterar problemet. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     >Om du vill uppdatera fälten i avsnittet Ekonomi i rutan Konvertera till projekt måste du ha Redigera åtkomst till finansiella data på åtkomstnivån. Om du har Visa åtkomst till finansiella data på din åtkomstnivå överförs all ekonomisk information från mallen till det nya projektet och du kan inte redigera den medan du konverterar problemet. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * (Valfritt) Lägg till **Anpassad Forms** till det nya projektet.
+   * (Valfritt) Lägg till **Anpassad Forms** i det nya projektet.
 
      >[!TIP]
      >
-     Om ett anpassat formulär med flera objekt som är kopplat till uppgiften är konfigurerat för användning med både uppgifter och projekt, behålls all information som sparas i formuläret när du konverterar.
+     >Om ett anpassat formulär med flera objekt som är kopplat till uppgiften är konfigurerat för användning med både uppgifter och projekt, behålls all information som sparas i formuläret när du konverterar.
      >
      >
-     Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till uppgiften, används fältvärdet från uppgiften för det nya projektet. Om det anpassade fältet är tomt för uppgiften används dock värdet från mallen.
+     >Om du använder en mall för konverteringen och ett anpassat formulär som är kopplat till mallen innehåller ett anpassat fält som också finns i ett anpassat formulär som är kopplat till uppgiften, används fältvärdet från uppgiften för det nya projektet. Om det anpassade fältet är tomt för uppgiften används dock värdet från mallen.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

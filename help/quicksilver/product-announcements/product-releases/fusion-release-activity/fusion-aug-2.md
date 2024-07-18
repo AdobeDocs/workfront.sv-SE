@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 2 augusti 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -64,4 +64,4 @@ Två nya funktioner är nu tillgängliga på mappningspanelen.
    * En array med element från en array som inte finns i den andra
    * En array med element som finns i den ena arrayen eller den andra, men inte i båda.
 
-  Mer information finns i [Arrayfunktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).
+  Mer information finns i [Matrisfunktioner i Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

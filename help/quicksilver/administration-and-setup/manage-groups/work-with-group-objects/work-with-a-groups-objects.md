@@ -35,5 +35,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Skapa och hantera en grupps tidrapportprofiler](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-timesheet-profiles.md)
 * [Skapa och ändra en grupps projekt](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)
 * [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
-* [Visa och hantera nyligen borttagna objekt i en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
+* [Visa och hantera en grupps nyligen borttagna objekt](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
 * [Visa och hantera nyligen återställda objekt i en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)

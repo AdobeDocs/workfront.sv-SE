@@ -39,7 +39,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,25 +50,25 @@ Du måste ha följande:
 
 1. Logga in på Dropbox.
 1. Klicka på din profilbild i det övre högra hörnet och klicka sedan på **Inställningar**.
-1. Klicka på **Anslutna appar** bläddra sedan nedåt till **Länkade program**.
+1. Klicka på fliken **Anslutna appar** och bläddra sedan nedåt till **Länkade program**.
 
-1. Klicka på **X** bredvid Workfront.
+1. Klicka på **X** intill Workfront.
 
 ## Ta bort länken mellan Workfront och Box
 
 1. Logga in på ditt Box-konto.
 1. Klicka på din profilbild i det övre högra hörnet.
-1. Klicka **Kontoinställningar** och sedan **Säkerhet** -fliken.
+1. Klicka på **Kontoinställningar** och sedan på fliken **Säkerhet** .
 
-1. Sök **MyWorkfront** och klicka på **X** under Glöm App.
+1. Hitta **MyWorkfront** och klicka på **X** under Glöm app.
 
 ## Ta bort länken mellan Workfront och Google Drive
 
 1. Logga in på din Google Drive.
 1. Klicka på kugghjulsikonen i det övre högra hörnet och klicka sedan på **Inställningar**.
-1. Klicka **Hantera program** till vänster och hitta **Workfront** i listan.
+1. Klicka på **Hantera program** till vänster och leta upp **Workfront** i listan.
 
-1. Klicka på **Koppla från enhet**.
+1. Klicka på **Koppla från från enhet** i listrutan Alternativ.
 
 ## Ta bort länkarna mellan Workfront och andra dokumentlagringsleverantörer
 

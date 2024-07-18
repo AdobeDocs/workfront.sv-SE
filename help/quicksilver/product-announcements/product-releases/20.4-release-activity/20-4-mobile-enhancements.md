@@ -38,9 +38,9 @@ Mer information finns i [Hantera Adobe Workfront-meddelanden i Microsoft Teams](
 
 Workfront samarbetar med MobileIron, en plattform för hantering av mobila enheter (MDM), för att ge företag en säkrare och mer kontrollerad mobilupplevelse.
 
-Med Workfront for MobileIron kan administratörer begränsa funktioner som kopiera/klistra in och skärmdumpar. Du kan hämta appen Workfront for MobileIron på [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Med Workfront for MobileIron kan administratörer begränsa funktioner som kopiera/klistra in och skärmdumpar. Du kan hämta appen Workfront för MobileIron på [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Mer information om hur du konfigurerar programmet finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Mer information om hur du konfigurerar appen finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Skapa en uppgift snabbt i Workfront mobilapp
 
@@ -62,4 +62,4 @@ När du är i mobilappen kan du be den virtuella assistenten att hjälpa dig med
 
 Dessa kommandon visar en lista med de olika saker du kan fråga assistenten om.
 
-**Obs! Den mobila virtuella assistenten är inaktuell i april 2024.**
+**Obs! Den mobila virtuella assistenten har tagits bort från april 2024.**

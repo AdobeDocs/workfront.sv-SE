@@ -23,7 +23,7 @@ I projektaktivitetsvisualiseringen visas en sammanställd vy över aktiviteter p
 >[!NOTE]
 >
 >Aktivitet per team-visualisering fungerar på liknande sätt som den här visualiseringen, men med Aktivitet per team visas teamaktiviteter hemma för alla projekt.\
->Mer information om visualisering av aktivitet per team finns i [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](../enhanced-analytics/activity-by-team-overview.md).
+>Mer information om visualisering av aktivitet per team finns i [Visa visualisering av aktivitet per team i Förbättrad analys](../enhanced-analytics/activity-by-team-overview.md).
 
 ## Åtkomstkrav
 
@@ -56,25 +56,25 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
-Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Förutsättningar för att använda Förbättrad analys finns i avsnittet Förutsättningar i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Förstå projektaktivitetsvisualisering
 
 Projektaktiviteter visas i olika färger för att sammanfatta specifika händelser i ett projekt under en tidsperiod:
 
-* **Användare som är inloggade**: Lila rutor visar att personer som tilldelats projektet loggade in den dagen. En mörkare ton anger att fler personer loggar in.
+* **Användare som är inloggade**: lila rutor visar att personer som tilldelats projektet är inloggade den dagen. En mörkare ton anger att fler personer loggar in.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Ändring av aktivitetsstatus**: Rutor för rosa visar att personer ändrade status för en uppgift för projektet den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
+* **Statusändring för aktivitet**: Rutor för rosa visar att personer har ändrat status för en aktivitet för projektet den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Slutförda uppgifter**: Blå rutor visar att personer har slutfört en uppgift för projektet. En mörkare ton anger att fler uppgifter slutförs.
+* **Aktiviteter slutförda**: Blå rutor visar att personer har slutfört en aktivitet för projektet. En mörkare ton anger att fler uppgifter slutförs.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -86,11 +86,11 @@ Om du ser den här informationen blir det lättare att avgöra:
 * Ett projekts aktivitet jämfört med andra projekt.
 * Vilka användare som arbetar med ett projekt och med vilken frekvens.
 
-Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Om du vill lära dig hur du får bästa möjliga data för den här visualiseringen kan du läsa [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visa projektaktivitetsvisualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
+1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -113,7 +113,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på **Sortera efter** väljer du ett nytt sorteringsalternativ:
+1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på menyn **Sortera efter** och väljer sedan ett nytt sorteringsalternativ:
 
    * **A - Z**
    * **Z - A**
@@ -136,7 +136,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Ikonen Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen väljer du exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**

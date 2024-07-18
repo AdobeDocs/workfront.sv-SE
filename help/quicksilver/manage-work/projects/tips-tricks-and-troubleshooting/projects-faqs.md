@@ -20,7 +20,7 @@ Här följer vanliga frågor om projekt.
 
 ### Svar
 
-Om du vill använda infogningsalternativen måste uppgiftslistan sorteras efter nummer. Sortera kolumnen efter nummer genom att klicka **#** i kolumnrubriken till vänster om **Aktivitetsnamn** för att sortera om uppgiften efter nummer.
+Om du vill använda infogningsalternativen måste uppgiftslistan sorteras efter nummer. Om du vill sortera kolumnen efter nummer klickar du på **#** i kolumnrubriken till vänster om **Aktivitetsnamn** för att sortera om uppgiften efter nummer.
 
 ## Vad är det faktiska slutförandedatumet?
 
@@ -51,7 +51,7 @@ Du kan inte ändra status för ett projekt till slutfört om du har något av f�
 
 ### Svar
 
-Om slutförandeläget är inställt på Automatiskt för projektet, när alla uppgifter och ärenden är slutförda, ändras projektets status automatiskt till Fullständigt och du kan inte ändra den till någon annan status. Slutförandeläget för projektet måste anges till Manuellt för att ett fullständigt projekt ska kunna ändras till Aktuell. Mer information finns i [Projektstatus ändras inte från Fullständigt till Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
+Om slutförandeläget är inställt på Automatiskt för projektet, när alla uppgifter och ärenden är slutförda, ändras projektets status automatiskt till Fullständigt och du kan inte ändra den till någon annan status. Slutförandeläget för projektet måste anges till Manuellt för att ett fullständigt projekt ska kunna ändras till Aktuell. Mer information finns i [Projektstatus ändras inte från Fullständigt till Aktuellt](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
 ## Varför kan jag inte lägga till ett projekt i en Portfolio trots att jag har rätt behörighet att göra det?
 
@@ -62,10 +62,10 @@ Om slutförandeläget är inställt på Automatiskt för projektet, när alla up
 Detta orsakas av att Portfolio-statusen är inaktiv. Så här ändrar du status för Portfolio:
 
 1. Klicka på **Information om Portfolio > Översikt**.
-1. Ändra **Status** till **Aktiv.**
+1. Ändra **status** till **Aktiv.**
 
-1. Klicka **Spara**.\
-   The **Lägg till projekt** ska nu vara synlig på **Projekt** -fliken.
+1. Klicka på **Spara**.\
+   Knappen **Lägg till projekt** bör nu visas på fliken **Projekt**.
 
 ## Vilken åtkomst får en resurshanterare när den läggs till i ett projekt?
 

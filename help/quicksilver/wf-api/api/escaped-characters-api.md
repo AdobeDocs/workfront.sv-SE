@@ -9,14 +9,14 @@ role: Developer
 exl-id: 1477b98e-1cdc-4661-b3ee-0b6ab1e8c3ee
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 7%
+source-wordcount: '212'
+ht-degree: 4%
 
 ---
 
 # Inaktuella tecken i API-svar
 
-Syntaxen för vissa API-svar kan innehålla escape-tecken, `\` (omvänt snedstreck). Ett escape-tecken anger att tecknet eller teckensträngen som omedelbart följer escape-tecknet har ett specialvärde. Till exempel: `\t` talar om för läsaren att `t` ska tolkas som `tab` och inte som bokstaven&quot;t&quot;. En sträng med ett eller flera tecken efter det omvända snedstrecket kallas en escape-sekvens.
+Syntaxen för vissa API-svar kan innehålla undantagstecknet `\` (omvänt snedstreck). Ett escape-tecken anger att tecknet eller teckensträngen som omedelbart följer escape-tecknet har ett specialvärde. `\t` säger till exempel till läsenheten att `t` ska tolkas som `tab` och inte som bokstaven&quot;t&quot;. En sträng med ett eller flera tecken efter det omvända snedstrecket kallas en escape-sekvens.
 
 Hexadecimal escape-sekvens kräver att giltiga hexadecimala siffror används. I följande tabell visas de escape-sekvenser som är kodade i Adobe Workfront API-svar:
 
@@ -33,7 +33,7 @@ Hexadecimal escape-sekvens kräver att giltiga hexadecimala siffror används. I 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>\u000<em>x</em></p> <p>Var, <em>x</em> är den hexadecimala koden för talen 0 till 7</p> </td> 
+   <td> <p>\u000<em>x</em></p> <p>Där, <em>x</em> är den hexadecimala koden för siffrorna 0 till 7</p> </td> 
    <td>0-7</td> 
    <td>Unicode-tecken som representeras av kodpunkterna 0 till 7</td> 
   </tr> 
@@ -68,8 +68,8 @@ Hexadecimal escape-sekvens kräver att giltiga hexadecimala siffror används. I 
    <td>Radretur</td> 
   </tr> 
   <tr> 
-   <td> <p>\u00<em>xx</em></p> <p><em>där xx är den hexadecimala koden för talen 14 till 31</em> </p> </td> 
-   <td>14 - 31</td> 
+   <td> <p>\u00<em>xx</em></p> <p><em>Där är xx den hexadecimala koden för  tal 14 till 31 </em> </p> </td> 
+   <td>14-31</td> 
    <td>Unicode-tecken som representeras av kodpunkterna 14 till 31</td> 
   </tr> 
   <tr> 
@@ -88,7 +88,7 @@ Hexadecimal escape-sekvens kräver att giltiga hexadecimala siffror används. I 
    <td>\ (omvänt snedstreck)</td> 
   </tr> 
   <tr> 
-   <td> <p>\u<em>xxxx</em></p> <p>Var, <em>xxxx</em> är den hexadecimala koden för tal över 127</p> </td> 
+   <td> <p>\u<em>xxxx</em></p> <p>Där <em>xxxx</em> är den hexadecimala koden för ett tal över 127</p> </td> 
    <td>128+</td> 
    <td>Unicode-tecken för alla kodpunkter över 127</td> 
   </tr> 

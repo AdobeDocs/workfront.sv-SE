@@ -100,7 +100,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Att tänka på när du arbetar med postvyer
@@ -109,7 +109,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Vyer som du skapar visas bara för dig och de användare som du delar vyerna med.
 * När du ändrar eller tar bort en vy ändras den och tas bort för alla användare som har behörighet till vyn.
 * Varje användare kan skapa högst 100 vyer. Du kan visa mer än 100 vyer för en posttyp, men en användare kan bara skapa 100 vyer.
-* Du kan dela vyer som du skapar med andra. Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+* Du kan dela vyer som du skapar med andra. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 * Följande element är unika för varje postvy:
 
    * Filter
@@ -168,7 +168,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Klicka **+ Visa** för att lägga till en ny vy.
+1. Klicka på **+ Visa** för att lägga till en ny vy.
 1. Välj bland följande typer av vyer:
 
    * Tabell
@@ -177,7 +177,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    En ny flik skapas med den valda vyn.
 
-   Beroende på skärmens bredd kan ytterligare vyer visas i **Mer** meny ![](assets/more-menu.png).
+   Beroende på skärmens bredd kan ytterligare vyer visas på menyn **Mer** ![](assets/more-menu.png).
 
 
 >[!TIP]
@@ -191,7 +191,7 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
 
-1. (Villkorligt) Klicka **Nästa** när du skapar en tidslinje eller kalendervy.
+1. (Villkorligt) Klicka på **Nästa** när du skapar en tidslinje eller kalendervy.
 
    Som standard ger Workfront vyn ett av följande namn:
 
@@ -201,19 +201,19 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    Talet är ett automatiskt genererat steg.
 
-1. (Villkorligt) Välj **Starta** och **Slutdatum** för de poster som ska visas i tidslinjen eller kalendervyn.
+1. (Villkorligt) Markera **Start** och **Slutdatum** för posterna som ska visas i tidslinjen eller kalendervyn.
 
    >[!TIP]
    >
    >    Du kan välja från postdatumfält eller uppslagsdatumfält från anslutna post- eller objekttyper. Du måste använda aggregerare för datumfält (MAX eller MIN) när du väljer uppslagsfält som start- och slutdatum för tidslinjen och kalendervyer. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
    Vyn visas som en ny flik. Vyer visas i den kronologiska ordning som de skapades eller delades med dig.
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-caret-down-icon-views.png) bredvid den sista vyn om du vill visa alla vyer för den valda posttypen.
+1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-caret-down-icon-views.png) bredvid den senaste vyn om du vill visa alla vyer för den valda posttypen.
 
-   Fler vyer visas under **Mer** efter den sista vyfliken. Talet bredvid **Mer** visas antalet ytterligare vyer.
-1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på **Mer** meny ![](assets/more-menu.png) > **Byt namn** för att uppdatera vynamnet
+   Ytterligare vyer visas på menyn **Mer** efter fliken för den senaste vyn. Siffran bredvid menyn **Mer** visar antalet ytterligare vyer.
+1. (Valfritt) Om du vill byta namn på en vy efter att den har skapats klickar du på listrutan Visa och sedan på menyn **Mer** ![](assets/more-menu.png) > **Byt namn** för att uppdatera visningsnamnet
 
    eller
 
@@ -240,10 +240,10 @@ I följande tabell visas likheter och skillnader mellan tabell-, tidslinje- och 
 
    Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll muspekaren över ett av vyns namn på fliken Visa och klicka sedan på **Mer** ![](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
-Först kan du behöva klicka **Mer** till vänster om den sista fliken för att hitta vyn som du vill ta bort.
+1. Håll markören över ett av vynamnen på fliken Visa, klicka sedan på **Mer** ![](assets/more-menu.png) till vänster om vynamnet och klicka sedan på **Ta bort**.
+Först kan du behöva klicka på **Mer** till vänster om den sista fliken för att hitta vyn som du vill ta bort.
 
-1. Klicka **Ta bort** för att bekräfta. <!--ensure there is not another saving step here?!-->
+1. Bekräfta genom att klicka på **Ta bort**. <!--ensure there is not another saving step here?!-->
 
    Vyn tas bort för alla användare som har åtkomst till postområdet och kan inte återställas.
 
@@ -270,10 +270,10 @@ Delningsbehörigheterna för den ursprungliga vyn överförs inte till den dupli
    Posttypssidan öppnas.
 Som standard visas alla poster av den valda typen i tabellvyn.
 
-1. Håll pekaren över fliken för den vy du vill duplicera och klicka på knappen **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Duplicera**.
+1. Håll pekaren över fliken för den vy du vill duplicera och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Duplicera**.
 
    ![](assets/view-more-menu-with-duplicate-option.png)
 
 
-   Vyn dupliceras och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
+   Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
 

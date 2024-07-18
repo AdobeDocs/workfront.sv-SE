@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 15 februari 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
-Den här versionen innehåller även en eller flera underhållsuppdateringar. Mer information om Workfront Fusion 2.0-underhållsuppdateringar finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Den här versionen innehåller även en eller flera underhållsuppdateringar. Mer information om Workfront Fusion 2.0-underhållsuppdateringar finns i [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## Teamen delar nu inställningar för e-postmeddelanden
 
@@ -34,7 +34,7 @@ Tidigare angav användarna sina egna inställningar för e-postmeddelanden.
 >
 >Fusion tillämpar inställningar för organisationsmeddelanden på teamnivån för varje team i organisationen. Om du vill vara säker på att dina team drar nytta av den nya meddelandefunktionen uppdaterar du inställningarna för e-postmeddelanden på teamnivå.
 
-Mer information finns i [Adobe Workfront Fusion - organisationer och team](../../../workfront-fusion/organizations/organizations-and-teams.md).
+Mer information finns i [Adobe Workfront Fusion-organisationer och -team](../../../workfront-fusion/organizations/organizations-and-teams.md).
 
 ## Välj API-version i Workfront > Anropsmodul för anpassat API
 
@@ -42,4 +42,4 @@ För att göra dina API-anrop mer anpassningsbara har vi gjort det möjligt för
 
 Tidigare gick det inte att välja Workfront API-version för den här modulen.
 
-Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

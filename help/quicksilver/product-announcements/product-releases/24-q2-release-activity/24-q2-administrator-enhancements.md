@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla administratörsförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns i [Översikt över den andra utgåvan av kvartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge
 
@@ -26,7 +26,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.
 
-Mer information om hur du förhandsgranskar ett anpassat formulär i formulärdesignern finns i [Organisera och förhandsgranska ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+Mer information om hur du förhandsgranskar ett anpassat formulär i formulärdesignern finns i [Ordna och förhandsgranska ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 
 ## Företag och användare har nu stöd för avancerade anpassade formulärfält
 
@@ -78,7 +78,7 @@ Workfront systemadministratörer kan nu konfigurera mappning av användarattribu
 
 Tidigare var den här funktionen bara tillgänglig för organisationer som ännu inte börjat använda Adobe IMS.
 
-Instruktioner om hur du konfigurerar attributmappning finns i [Mappa användarattribut i Adobe enhetliga upplevelse](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln **Mappa användarattribut och autodistribuera nya användare**.
+Instruktioner om hur du konfigurerar attributmappning finns i [Mappa användarattribut i den enhetliga upplevelsen i Adobe](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) i artikeln **Mappa användarattribut och etablera nya användare automatiskt**.
 
 ## Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern
 
@@ -90,4 +90,4 @@ Nu kan du redigera befintlig visnings- och hopplogik och lägga till ny logik i 
 
 Ikoner i ett fält på formulärdesignerns arbetsyta anger att logiken är konfigurerad i det fältet eller att fältet används i logikregler som är konfigurerade för andra fält.
 
-Mer information finns i [Lägg till visningslogik och hoppa över logik med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+Mer information finns i [Lägga till visningslogik och hoppa över logik med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).

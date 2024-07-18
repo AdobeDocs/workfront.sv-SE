@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Filter: skapa flera filterregler som refererar till samma fält ('AND'-satser)"
+title: "Filter: skapa flera filterregler som refererar till samma fält (AND-satser)"
 description: I standardlägesgränssnittet, när du försöker skapa flera filter som refererar till samma fält (med AND-kvalificeraren), tas ett av filtren bort när du sparar rapporten och avslutar rapportbyggaren.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: d3525d9f286e08258d75d770d257b325b9ee8ca9
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -60,9 +60,9 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 ## Skapa flera filterregler som refererar till samma fält
 
 1. Gå till en lista med uppgifter.
-1. Från **Filter** nedrullningsbar meny, välja **Nytt filter**.
-1. Klicka **Växla till textläge**.
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
+1. Välj **Nytt filter** i listrutan **Filter**.
+1. Klicka på **Växla till textläge**.
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
 1. Lägg till följande kod i Ange filterregler för rapportområdet:
 
    ```
@@ -76,19 +76,17 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
    >
    >Om du vill skapa liknande filter måste du först skapa den första programsatsen. Exempel:
    >
-   >
-   ```
+   >```
    >name=green
    >name_Mod=cicontains
    >```
    >
    >Kopiera och klistra in programsatsen så många gånger som behövs. Du kan sedan lägga till så många programsatser som du behöver referera till samma fält (i vårt fall &quot;name&quot;) och göra följande ändringar i de ytterligare programsatserna:
    >
-   >1. Före de två kopierade raderna med &quot;AND&quot;:1:&quot;, &quot;OCH:2:&quot;, &quot;OCH:3:&quot;, osv. för varje nytt fält möjliga värde.
+   >1. Före de två kopierade raderna med &quot;AND:1:&quot;, &quot;AND:2:&quot;, &quot;AND:3:&quot; osv. för varje nytt fält finns ett möjligt värde.
    >1. Ersätt fältraden med det nya fältvärdet (efter &quot;=&quot;-tecknet).
    >1. Ersätt modifieringslinjen (_Mod) med den nya modifieraren.
-
    >   
    >Programsatserna är skiftlägeskänsliga.
 
-1. Klicka **Klar** sedan **Spara filter**.
+1. Klicka på **Klar** och sedan på **Spara filter**.

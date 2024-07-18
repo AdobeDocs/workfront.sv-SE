@@ -32,14 +32,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -53,15 +53,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Kommentera ett korrektur
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. Klicka på längst upp i korrekturläsaren **Lägg till kommentar**.
-1. (Villkorligt) Om det här är ett videoklipp spelar du upp videoklippet och klickar sedan på&#x200B;**Lägg till kommentar** vid den punkt i videon där du vill ha kommentaren med hjälp av spelhuvudet
+1. Klicka på **Lägg till kommentar** överst i korrekturläsaren.
+1. (Villkorligt) Om det här är ett videoklipp spelar du upp videoklippet och klickar sedan på **Lägg till kommentar** vid den punkt i videon där du vill att kommentaren ska använda spelhuvudet
 
    >[!TIP]
    >
@@ -69,7 +69,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >1. För bättre precision kan du klicka på värdena ovanför spelhuvudet och skriva nya värden.
    >1. Om du vill kommentera ett intervall av videoklipp drar du spelhuvudet åt vänster och höger i tidslinjen för att ange ett intervall med tagningar som du vill kommentera i.
    >1. Om du vill kommentera ett intervall av videoklipp drar du spelhuvudet åt vänster och höger i tidslinjen för att ange ett intervall med tagningar som du vill kommentera i.
-
 
 1. Om du vill rikta uppmärksamheten mot en viss plats i korrekturet klickar du på markeringsverktyget i verktygsfältet och markerar sedan det område i korrekturet som du vill kommentera:
 
@@ -79,17 +78,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Rita en frihandslinje</strong> </td> 
+      <td role="rowheader"><strong>Draw en frihandslinje</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Gör att du kan lägga till en frihandslinje på det markerade området.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Rita en linje</strong> </td> 
+      <td role="rowheader"><strong>Draw a line</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Gör att du kan rita en linje på det markerade området.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Rita en pil</strong> </td> 
+      <td role="rowheader"><strong>Draw en pil</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
       <td>Gör att du kan lägga till en pil i ett område som du markerar.</td> 
      </tr> 
@@ -99,7 +98,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td>Markerar det markerade området.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Rita en rektangel</strong> </td> 
+      <td role="rowheader"><strong>Draw en rektangel</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Gör att du kan rita en rektangel runt ett område.</td> 
      </tr> 
@@ -122,11 +121,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </table>
 
 1. I statiskt korrektur kan du markera flera områden på flera sidor för en kommentar. Om du till exempel vill göra samma kommentar på flera sidor, markerar du ett område på en sida, går till nästa sida där du vill göra samma kommentar och markerar ett område där. (Detta gäller endast de vanliga kommentarmarkeringsverktygen, inte textmarkeringsverktygen.)
-1. Skriv din kommentar i **Lägg till kommentar** till höger.
+1. Skriv din kommentar i rutan **Lägg till kommentar** till höger.
 1. (Valfritt) Om du vill tagga en annan användare i kommentaren och lägga till dem i korrekturets arbetsflöde skriver du @ i kommentarsrutan, skriver användarens namn eller e-postadress och väljer användaren på menyn som visas. Mer information finns i [Tagga användare för att dela ett korrektur](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Valfritt) Gör något av följande om du vill bifoga en fil till en kommentar:
 
    * Klicka på ikonen för pappersklipp i det nedre högra hörnet av kommentaren och sök efter och markera sedan den fil som du vill överföra.
    * Dra en fil från en plats på datorn och släpp den i kommentarsområdet.
 
-1. Klicka **Bokför**.
+1. Klicka på **Publicera**.

@@ -35,7 +35,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -48,12 +48,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa, arbeta med och skapa program för din grupp i området Grupper
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa eller ändra program för.
-1. Klicka på i den vänstra panelen **Program** om du vill visa de program som är associerade med gruppen som du har tillgång till (och eventuella undergrupper under den).
+1. Klicka på **Program** i den vänstra panelen för att visa de program som är associerade med gruppen som du har åtkomst till (och eventuella undergrupper under den).
 1. Gör något av följande:
 
    <table style="table-layout:auto"> 
@@ -64,13 +64,13 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">Lägg till ett program</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klicka <strong>Nytt program</strong>Konfigurera sedan programmet på skärmen som visas. </p> <p>Systemet fyller i <strong>Grupp</strong> för det nya programmet med den grupp du visar.</p> <p>Mer information om konfigurationsalternativen finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> </li> 
-        <li value="2"> <p>Klicka <strong>Spara</strong> för att återgå till gruppens programlista.</p> </li> 
+        <li value="1"> <p>Klicka på <strong>Nytt program</strong> och konfigurera sedan programmet på skärmen som visas. </p> <p>Systemet fyller i fältet <strong>Grupp</strong> för det nya programmet med gruppen som du visar.</p> <p>Mer information om konfigurationsalternativen finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> </li> 
+        <li value="2"> <p>Klicka på <strong>Spara</strong> om du vill återgå till gruppens programlista.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Redigera eller ta bort program</p> </td> 
-      <td> <p>Välj minst ett program som du har behörighet att redigera och använd sedan verktygsfältsknapparna för att redigera <img src="assets/edit-icon.png"> eller ta bort <img src="assets/delete.png"> den.</p> <p>Mer information om hur du redigerar ett program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> </td> 
+      <td> <p>Markera minst ett program som du har behörighet att redigera och använd sedan verktygsfältsknapparna för att redigera <img src="assets/edit-icon.png"> eller ta bort <img src="assets/delete.png"> det.</p> <p>Mer information om hur du redigerar ett program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dela program</td> 
@@ -78,7 +78,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Exportera listan över program</p> </td> 
-      <td>Klicka <strong>Exportera</strong> <img src="assets/export.png">väljer du sedan det filformat du vill använda för den exporterade listan.</td> 
+      <td>Klicka på <strong>Exportera</strong> <img src="assets/export.png"> och välj sedan det filformat som du vill använda för den exporterade listan.</td> 
      </tr> 
     </tbody> 
    </table>

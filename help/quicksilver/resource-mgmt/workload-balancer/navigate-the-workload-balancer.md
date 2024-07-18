@@ -19,7 +19,7 @@ Använd Utjämning av arbetsbelastning i Adobe Workfront för att tilldela anvä
 
 Utjämning av arbetsbelastning är tillgängligt i flera områden av Adobe Workfront. Att navigera är detsamma i alla områden.
 
-Mer information om var arbetsbelastningsutjämnaren finns finns i [Leta reda på arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
+Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
 
 ## Åtkomstkrav
@@ -87,7 +87,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Projekt</p> </li> 
      <li> <p>Uppgifter</p> </li> 
      <li> <p>Problem</p> </li> 
-    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -104,7 +104,7 @@ Tänk på följande när du visar arbetsbelastningsutjämnaren:
 
 * Utjämning av arbetsbelastning visar arbetsobjekt i två olika områden, beroende på deras uppdrag. Arbetsobjekt och användare visas i följande områden:
 
-   * **Ej tilldelat arbete**: Objekt som inte har några uppdrag eller som endast är tilldelade till jobbroller eller team.
+   * **Ej tilldelat arbete**: Objekt som inte har några tilldelningar eller bara är tilldelade till jobbroller eller team.
    * **Tilldelat arbete**: Objekt som har tilldelats minst en användare. De tilldelade objekten visas under den tilldelade användarens namn.
 
   >[!NOTE]
@@ -113,15 +113,15 @@ Tänk på följande när du visar arbetsbelastningsutjämnaren:
   >* Arbetsobjekt som har tilldelats en användare och en jobbroll, där jobbrollen har valts som primär tilldelare för artikeln, visas i området Ej tilldelat arbete.
   >* Arbetsobjekt som tilldelats till mer än en användare visas under alla de tilldelade användarnas namn på området Tilldelat arbete.
 
-  Mer information finns i Uppdragsområden i Utjämning av arbetsbelastning i [Översikt över tilldelning av arbete i belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Mer information finns i Uppdragsområden i Utjämning av arbetsbelastning i [Översikt över tilldelning av arbete i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 * När ett projekt inte har några uppgifter under en tidsperiod är fältet på projektnivån tomt för den tiden.
 
-  ![Projekt utan uppgifter under en tidsperiod](assets/wb-no-tasks-in-time-period.png)
+  ![Projekt utan aktiviteter under en tidsperiod](assets/wb-no-tasks-in-time-period.png)
 
-* När du inte har behörighet att visa vissa objekt visas de som **Ej tillgängliga arbetsobjekt** eller **Otillgängliga projekt**.
+* Om du inte har behörighet att visa vissa objekt visas de som **Otillgängliga arbetsobjekt** eller **Otillgängliga projekt**.
 
-  ![Ej tillgängliga arbetsobjekt](assets/wb-inaccessible-work-items.png)
+  ![Otillgängliga arbetsobjekt](assets/wb-inaccessible-work-items.png)
 
 * Namnen på arbetsobjekten visas till vänster och deras tidslinje visas till höger.
 * Det totala antalet planerade timmar för varje arbetsuppgift visas till höger om arbetsobjektets namn och till vänster om fältet som representerar arbetsobjektets tidslinje.
@@ -138,8 +138,8 @@ Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns
 
 Mer information om hur du hanterar resurser med hjälp av belastningsutjämnaren finns i följande artiklar:
 
-* [Översikt över tilldelning av arbete i belastningsutjämnaren](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
-* [Hantera användarallokeringar i Utjämning av arbetsbelastning](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
+* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer.html?lang=en)
+* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer.html?lang=en)
 
 
 ## Navigera i Utjämning av arbetsbelastning för flera projekt i resursområdet
@@ -156,23 +156,23 @@ När du har valt de inställningar som du vill använda för vyn kommer arbetsbe
 
 Så här navigerar du i belastningsutjämnaren för flera projekt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Resurser**.
-1. Klicka **Utjämning av arbetsbelastning** till vänster.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Resurser**.
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
 
-   ![Utjämning av arbetsbelastning](assets/nwe-balancer-global.png)
+   ![Utjämnare för arbetsbelastning](assets/nwe-balancer-global.png)
 
    I Utjämning av arbetsbelastning visas information om arbetstilldelning som börjar med den aktuella veckan i följande två områden:
 
-   * The **Ej tilldelat arbete** visas följande arbetsobjekt i -området:
+   * Området **Ej tilldelat arbete** visar följande arbetsobjekt:
 
       * Arbetsobjekt (uppgifter och ärenden) som tilldelats roller, team eller som inte har tilldelats visas när du har tillämpat filter.
 Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använder filter för att visa relevant information för dig i det här området.
 
-        Mer information om hur du använder filter finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
+        Mer information om hur du använder filter finns i [Filterinformation i Arbetsbelastningsutjämnaren](../workload-balancer/filter-information-workload-balancer.md).
 
       * Projekt visas bara när du aktiverar inställningen Grupp efter projekt. Mer information finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
-   * The **Tilldelat arbete** visas följande arbetsobjekt i -området:
+   * Under **Tilldelad arbetsuppgift** visas följande arbetsobjekt:
 
       * Alla aktiva användare i systemet visas som standard i det här området. Vi rekommenderar att du använder filter för att begränsa mängden information i det här området. Om användare tilldelas till objekt visas även arbetsobjekten under deras namn.
 
@@ -192,7 +192,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
             > 
             >Mer information om hur du anpassar inställningar finns i avsnittet [Anpassa vyn](#customize-the-view) i den här artikeln.
 
-1. (Valfritt) Klicka på **Filter** icon ![Filterikon](assets/filter-icon.png) i **Tilldelat arbete** markerar du **Standardfilter** i **Föreslagen** filterrutans område.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filter ](assets/filter-icon.png) i området **Tilldelat arbete** och välj sedan **Standardfilter** i området **Förslag** i filterrutan.
 
    När du använder standardfiltret visas användare som tillhör något av dina team och deras arbetsobjekt. Du kan redigera en kopia av det här filtret.
 
@@ -209,13 +209,13 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
 ### Välj en tidsram i Utjämning av arbetsbelastning
 
-1. Åtkomst till arbetsbelastningsutjämnaren i **Resurser** området, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Få åtkomst till belastningsutjämnaren för arbetsbelastning i området **Resurs**, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
    Utjämning av arbetsbelastning visar information om arbetstilldelning som börjar med den aktuella veckan.
 
 1. Använd den vågräta rullningen för att visa tidslinjen för arbetsobjekt som sträcker sig utanför skärmens gränser.
-1. Klicka på **bakåt eller framåt** ikoner ![Bakåt- och framåtikoner](assets/back-and-forward-icons.png) i det övre vänstra hörnet för att navigera på tidslinjen och klicka sedan på **Idag** för att återgå till den aktuella veckan.
-1. Klicka på **listruta för tidsram** i verktygsfältet och klicka sedan på startdatumet för den period som du vill visa. Som standard är den första veckan som du väljer i kalendern den vecka som du har navigerat till.
+1. Klicka på ikonerna **Bakåt eller framåt** ![Ikonerna Bakåt och framåt](assets/back-and-forward-icons.png) i det övre vänstra hörnet för att navigera i tidslinjen och klicka sedan på **Idag** för att återgå till den aktuella veckan.
+1. Klicka på listrutan **Tidsram** i verktygsfältet och klicka sedan på startdatumet för den period som du vill visa. Som standard är den första veckan som du väljer i kalendern den vecka som du har navigerat till.
 
    ![Kalenderval](assets/calendar-date-picker-wb.png)
 
@@ -229,7 +229,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
    ![Välj veckor](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. Klicka på något av följande alternativ i verktygsfältet för att visa information i olika tidsramar:
-   * **Dag**: Visar information per dag i fyra veckor, med början dagens datum som standard.
+   * **Dag**: Visar information per dag i fyra veckor med början från dagens datum, som standard.
    * **Vecka**: Visar information per vecka i fyra veckor.
    * **Månad**: Visar information per månad i tre månader.
 
@@ -237,7 +237,7 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
 ### Anpassa vyn
 
-1. Åtkomst till arbetsbelastningsutjämnaren i **Resurser** området, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Få åtkomst till belastningsutjämnaren för arbetsbelastning i området **Resurs**, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
    Namnen på arbetsobjekten listas till vänster och representeras av fält till höger om Arbetsbelastningsutjämnaren. Längden på fältet representerar tidslinjen för ett arbetsobjekt.
 
@@ -254,30 +254,30 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
    1. Planerat slutförandedatum (äldsta först)
    1. Alfabetiskt efter projekt (endast när de första två kriterierna är identiska för flera arbetsobjekt)
 
-1. Klicka på **högerriktad pil** till vänster om områdena Ej tilldelad eller Tilldelad om du vill expandera alla objekt under projektnamnen (i området Ej tilldelat) och under användarnamnen (i området Tilldelad).
+1. Klicka på den **högerriktade pilen** till vänster om områdena Ej tilldelat eller Tilldelad om du vill expandera alla objekt under projektnamnen (i området Ej tilldelat) och under användarnamnen (i området Tilldelad).
 
    >[!TIP]
    >
    >Arbetsobjekt visas under projektnamn i området Ej tilldelat när du aktiverar inställningen Gruppera efter projekt.
 
-1. Klicka på **nedåtriktad pil** till vänster om områdena Ej tilldelat eller Tilldelad om du vill komprimera alla objekt under projektnamnen (i området Ej tilldelat) och under användarnamnen (i området Tilldelad).
+1. Klicka på den **nedåtriktade pilen** till vänster om området Ej tilldelat eller Tilldelad om du vill komprimera alla objekt under projektnamnen (i området Ej tilldelat) och under användarnamnen (i området Tilldelad).
 
-1. Dra och släpp **separationslinje** mellan den vänstra panelen och tidslinjeområdet för att justera storleken på den vänstra panelen.
+1. Dra och släpp **separationslinjen** mellan den vänstra panelen och tidslinjeområdet för att justera storleken på den vänstra panelen.
 
    ![Separationslinje](assets/wb-adjust-panel-size.png)
 
-1. Klicka på **Inställningar** icon ![Ikonen Inställningar](assets/settings-gear-icon.png).
+1. Klicka på ikonen **Inställningar** ![Inställningar](assets/settings-gear-icon.png) .
 
    Panelen Inställningar visas till höger.
 
    ![Panelen Inställningar](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
-   Välj bland alternativen nedan för att uppdatera informationen som du visar i Utjämning av arbetsbelastning och klicka sedan på **X-ikon** i det övre högra hörnet av rutan Inställningar för att stänga den.
+   Välj bland alternativen nedan för att uppdatera informationen som du visar i Utjämning av arbetsbelastning och klicka sedan på ikonen **X** i det övre högra hörnet av inställningsrutan för att stänga den.
 
-   * **Gruppera efter projekt**: När detta är markerat grupperas objekten i Ej tilldelat och Tilldelat arbete efter projekt. Detta är markerat som standard.
+   * **Gruppera efter projekt**: När det här alternativet har valts grupperas objekten i områdena Ej tilldelat och Tilldelat arbete efter projekt. Detta är markerat som standard.
 
-   * **Inkludera timmar från utleveranser**: När det här alternativet är markerat visas ärenden som tilldelats användare under användarens namn i området Tilldelad arbetsyta och ärenden som inte är tilldelade användare visas i området Ej tilldelad arbetsyta. De planerade timmarna från problemen räknas mot de planerade timmarna för projektet och för användaren i området Tilldelad arbetstid.
-   * **Visa planerade datum**: När detta är markerat visas den planerade tidslinjen för arbetsobjekten förutom den planerade tidslinjen. Observera följande:
+   * **Inkludera timmar från utgåvor**: När detta är markerat visas utgåvor som tilldelats användare under användarens namn i området Tilldelad arbetsyta och utgåvor som inte har tilldelats användare visas i området Ej tilldelad arbetsyta. De planerade timmarna från problemen räknas mot de planerade timmarna för projektet och för användaren i området Tilldelad arbetstid.
+   * **Visa beräknade datum**: När detta väljs visas den projicerade tidslinjen för arbetsobjekt utöver den planerade tidslinjen. Observera följande:
       * Den planerade tidslinjen för projekt, uppgifter och utgåvor visas som en mörkblå linje ovanför aktivitetsfältet, utgåvan och projektfälten.
       * Den projicerade tidslinjen som ligger utanför den planerade tidslinjen visas i ljusblått, även när du uppdaterar färgtemat enligt beskrivningen nedan.
       * Den projicerade tidslinjen för de objekt som du inte har tillgång till visas i ljusgrått med en linje under.
@@ -287,30 +287,30 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
      >
      >Observera att arbetsobjekt visas i Utjämning av arbetsbelastning när antingen deras planerade eller planerade tidslinjer (inte nödvändigtvis båda samtidigt) inträffar under den valda tidsramen.
 
-   * **Visa slutfört arbete**: När det här alternativet är aktiverat visas slutförda uppgifter och problem på arbetsytan Tilldelad arbetsyta. Detta är aktiverat som standard.
+   * **Visa slutfört arbete**: När det här alternativet är aktiverat visas slutförda uppgifter och utgåvor på den tilldelade arbetsytan. Detta är aktiverat som standard.
 
      En grön bockmarkeringsikon visas i det övre högra hörnet av en uppgift eller ett problemfält när de är klara. Samma ikon visas för ett projekt när aktiviteterna eller utgåvorna för den valda tidsramen i projektet har slutförts.
-   * **Visa återstående tid**: När det här är aktiverat visar Workfront skillnaden mellan den dagliga tid som användaren är tillgänglig för arbete baserat på sina scheman och de timmar som användaren har tilldelats i arbetsytan Tilldelat arbete. Detta är inaktiverat som standard och den tilldelade tiden visas som standard.
-   * I **Välj färgtema** väljer du den färg du vill använda för projekt- och uppgiftsfälten.
+   * **Visa återstående tid**: När detta är aktiverat visar Workfront skillnaden mellan den dagliga tid som användaren är tillgänglig för arbete baserat på sina scheman och de timmar som användaren är tilldelad till i arbetsytan Tilldelad arbetstid för användarna. Detta är inaktiverat som standard och den tilldelade tiden visas som standard.
+   * I avsnittet **Välj färgtema** väljer du den färg du vill använda för projekt- och aktivitetsfälten.
 
      >[!TIP]
      >
      >Inställningen för att välja färgtema påverkar inte färgen på problemfälten. Problem visas alltid i ett fält med maronfärg.
 
      Välj bland följande:
-      * **Standard**: Staplarna för alla projekt och deras arbetsobjekt visas i blått.
-      * **Projekt**: Fälten som är kopplade till varje projekt och dess uppgifter ändras beroende på projektets namn. Alla uppgifter som tillhör projektet visas i fält som matchar projektets färg. Projektstaplarna visas i en ljusare ton för att skilja dem från åtgärderna. Projektfälten innehåller också en projektikon när du väljer att inte visa tilldelningar.
-      * **Projektstatus**: Staplarna som är kopplade till varje projekt och dess arbetsobjekt ändras till färgen för projektets status.
+      * **Standard**: Fälten för alla projekt och deras arbetsobjekt visas i blått.
+      * **Projekt**: Fälten som är associerade med varje projekt och dess aktiviteter ändras beroende på projektets namn. Alla uppgifter som tillhör projektet visas i fält som matchar projektets färg. Projektstaplarna visas i en ljusare ton för att skilja dem från åtgärderna. Projektfälten innehåller också en projektikon när du väljer att inte visa tilldelningar.
+      * **Projektstatus**: Fälten som är associerade med varje projekt och dess arbetsobjekt ändras till färgen för projektets status.
 
         Projektstatusen är den som är associerad med projektgruppen. Om gruppen inte har gruppspecifika statusar är färgen på arbetsartikelfälten densamma som på projektstatus på systemnivå. Både systemet och anpassade statusar visas. Mer information om gruppstatus finns i [Skapa eller redigera en gruppstatus](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-   * I **Visa användarallokering i** väljer du något av följande:
+   * I avsnittet **Visa användartilldelning i** väljer du bland följande:
       * **Timmar**: Visar tilldelad tid som timmar. Det här är standardinställningen.
       * **Procent**: Visar tilldelad tid i procent av den totala tillgängliga tiden
-   * I **Sorteringsinställningar** väljer du hur du vill att objekten ska sorteras i Arbetsbelastningsutjämnaren. Välj bland följande alternativ:
-      * **Sortera användare efter primär roll**: Användare visas i alfabetisk ordning efter sina primära roller i området Tilldelat arbete.
-      * **Sortera användare i bokstavsordning**: Användare visas i alfabetisk ordning efter sina förnamn i området Tilldelat arbete.
-      * **Sortera projekt efter**: Välj ett projektfält i listrutan för att sortera projekt i bokstavsordning efter det fältet i områdena Ej tilldelat eller Tilldelat arbete.
+   * I avsnittet **Sorteringsinställningar** väljer du hur du vill att objekten ska sorteras i arbetsbelastningsutjämnaren. Välj bland följande alternativ:
+      * **Sortera användare efter primär roll**: Användare visas i alfabetisk ordning efter sina primära roller i området Tilldelad arbetsyta.
+      * **Sortera användare i alfabetisk ordning**: Användare visas i alfabetisk ordning efter förnamn på arbetsytan Tilldelad.
+      * **Sortera projekt efter**: Välj ett projektfält i listrutan om du vill sortera projekt i bokstavsordning efter fältet i områdena Ej tilldelat eller Tilldelat arbete.
 
    >[!TIP]
    >
@@ -322,8 +322,8 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
 ### Tilldela arbetsobjekt och justera användarallokeringar
 
-1. Öppna Utjämning av arbetsbelastning i resursområdet, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
-1. Klicka på **Ikonen Visa allokeringar** ![Ikonen Visa allokeringar](assets/show-allocations-icon-small.png) om du vill visa planerade timmar per dag eller vecka för arbetsobjekt.
+1. Gå till Utjämning av arbetsbelastning i området Resurser, vilket beskrivs i avsnittet [Öppna Utjämning av arbetsbelastning för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Klicka på ikonen **Visa tilldelningar** ![Visa tilldelningsikonen](assets/show-allocations-icon-small.png) om du vill visa planerade timmar per dag eller vecka för arbetsobjekt.
 
    Detta ersätter namnet i fälten för arbetsobjekten med antalet planerade timmar per dag eller vecka i områdena Ej tilldelat och Tilldelat arbete. Den här inställningen är inaktiverad som standard.
 
@@ -340,70 +340,70 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
 
    ![Information om tilldelad tid](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
-1. (Valfritt) Klicka på **Ikonen Dölj allokeringar** ![](assets/show-allocations-icon-small.png) för att visa namnet på uppgifter och utgåvor i arbetsobjektens fält.
-1. Klicka på **Menyn Mer** icon ![](assets/more-icon.png) till höger om namnet på en uppgift eller ett problem och klicka sedan på något av alternativen nedan.
+1. (Valfritt) Klicka på ikonen **Dölj tilldelningar** ![](assets/show-allocations-icon-small.png) för att visa namnet på aktiviteterna och utgåvorna i fälten för arbetsobjekten.
+1. Klicka på ikonen **Mer meny** ![](assets/more-icon.png) till höger om namnet på en aktivitet eller ett problem och klicka sedan på något av alternativen nedan.
 
-   ![Menyn Mer](assets/more-menu-right-of-task-350x104.png)
+   ![Mer-menyn](assets/more-menu-right-of-task-350x104.png)
 
-   * **Tilldela detta till** börjar du sedan skriva namnet på en användare, roll eller team som du vill tilldela arbetsuppgiften till i **Sök efter personer, roller eller team** fält.
+   * **Tilldela det här till** och börja sedan skriva namnet på en användare, roll eller team som du vill tilldela arbetsobjektet till i fältet **Sök efter personer, roller eller team**.
 
      Du kan även använda följande kortkommandon för att tilldela uppgifter eller ärenden:
 
       * I Windows: CTRL-klicka på aktivitets- eller problemfältet.
       * I Mac: CMD-klicka på aktivitets- eller problemfältet.
 
-     Mer information om hur du tilldelar arbetsobjekt till användare i Utjämning av arbetsbelastning finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer.md).
+     Mer information om hur du tilldelar arbetsobjekt till användare i belastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer.md).
 
      >[!TIP]
      >
-     >Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Mer information om att delegera arbete finns i [Hantera delegering av uppgifter och utgåvor](../../manage-work/delegate-work/how-to-delegate-work.md).
+     >Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Mer information om delegering av arbete finns i [Hantera uppgifter och utfärda delegering](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-   * **Redigera allokeringar** redigerar du sedan de dagliga eller veckovisa tilldelningarna för användaren. Mer information om hur du hanterar användartilldelningar finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   * **Redigera allokeringar** och redigera sedan dagliga eller veckovisa allokeringar för användaren. Mer information om hur du hanterar användartilldelningar finns i [Hantera användartilldelningar i Utjämning av arbetsbelastning](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   * **Öppna sammanfattning**. Panelen Sammanfattning öppnas till höger, klicka på fältet Uppdrag och börja skriva namnet på en användare, roll eller team i **Sök efter personer, roller eller team** för att tilldela objektet. Mer information finns i avsnittet [Visa mer information om uppgifter och problem](#display-more-information-about-tasks-and-issues) i den här artikeln.
+   * **Öppna sammanfattning**. Panelen Sammanfattning öppnas till höger, klicka sedan på fältet Uppdrag och börja skriva namnet på en användare, roll eller team i fältet **Sök efter personer, roller eller team** för att tilldela objektet. Mer information finns i avsnittet [Visa mer information om aktiviteter och problem](#display-more-information-about-tasks-and-issues) i den här artikeln.
 
-1. (Valfritt) Dubbelklicka på en daglig eller veckovis tilldelning för en användare i fältet för en arbetsuppgift för att redigera antalet tilldelade timmar och klicka sedan på **Spara** icon ![Ikonen Spara](assets/save-allocations-wb.png) för att spara allokeringarna eller **Avbryt** icon ![Ikonen Avbryt](assets/cancel-allocations-wb.png) för att ta bort de allokeringar du har justerat.
+1. (Valfritt) Dubbelklicka på en daglig eller veckovis tilldelning för en användare i fältet för en arbetsuppgift om du vill redigera antalet allokerade timmar. Klicka sedan på ikonen **Spara** ![Spara](assets/save-allocations-wb.png) om du vill spara allokeringarna eller på ikonen **Avbryt** ![Avbryt](assets/cancel-allocations-wb.png) om du vill ta bort de allokeringar du justerat.
 
    >[!TIP]
    >
    >Ikonerna Spara och Avbryt visas mot slutet av en uppgift eller ett ärende tidslinjefält.
    >
-   >![Spara eller annullera manuella allokeringar](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
+   >![Spara eller avbryt manuella allokeringar](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
 
-   Mer information om hur du hanterar användartilldelningar finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../workload-balancer/manage-user-allocations-workload-balancer.md).
+   Mer information om hur du hanterar användartilldelningar finns i [Hantera användartilldelningar i Utjämning av arbetsbelastning](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-1. Klicka **Masstilldelningar** om du vill tilldela flera arbetsobjekt samtidigt.
+1. Klicka på **Gruppera tilldelningar** om du vill tilldela flera arbetsobjekt samtidigt.
 
-   Mer information finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
-1. Dra objekt från **Ej tilldelat arbete** eller från en användare och släpp dem på en annan användare för att tilldela dem.
+   Mer information finns i [Tilldela flera arbeten samtidigt med hjälp av arbetsbelastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+1. Dra objekt från området **Ej tilldelat arbete** eller från en användare och släpp dem på en annan användare för att tilldela dem.
 
-   Mer information finns i [Tilldela arbete i belastningsutjämnaren genom att dra och släppa](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+   Mer information finns i [Tilldela arbete i Utjämning av arbetsbelastning genom att dra och släppa](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 ### Visa allokeringar i ett diagram
 
 I stället för att visa tilldelningar i dag- eller veckonummer kan du visa dem i ett diagram.
 
-1. Öppna Utjämning av arbetsbelastning i resursområdet, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
-1. Klicka på **Diagramikon** ![Diagramikon](assets/user-allocation-chart-icon.png) för att visa användarallokeringen i ett diagramformat.
+1. Gå till Utjämning av arbetsbelastning i området Resurser, vilket beskrivs i avsnittet [Öppna Utjämning av arbetsbelastning för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Klicka på ikonen **Diagram** ![Diagram](assets/user-allocation-chart-icon.png) för att visa användartilldelningen i ett diagramformat.
 
    Dagar där användaren är överallokerad visas som röda block och dagar där användaren är underallokerad eller vid kapacitet visas som blå block.
 
    Storleken på blocken anger mängden allokering: ju större ruta, desto mer tid tilldelas användaren till arbetsuppgifter för den dagen eller veckan.
 
-   ![Användarallokering som diagram](assets/wb-allocation-as-chart.png)
+   ![Användartilldelning som diagram](assets/wb-allocation-as-chart.png)
 
 ### Visa mer information om uppgifter och problem
 
 Du kan visa mer information om aktiviteterna och problemen i Utjämning av arbetsbelastning.
 
-1. Öppna Utjämning av arbetsbelastning i resursområdet, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Gå till Utjämning av arbetsbelastning i området Resurser, vilket beskrivs i avsnittet [Öppna Utjämning av arbetsbelastning för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 1. Om du vill visa mer information på panelen Sammanfattning gör du något av följande:
 
    * Klicka på fältet för en uppgift eller ett problem för att öppna sammanfattningspanelen till höger.
-   * Klicka på **Öppna sammanfattning** icon ![](assets/summary-panel-icon.png)klickar du sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
-   * Klicka på **Mer** till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
+   * Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
+   * Klicka på menyn **Mer** till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
 
-   Information om hur du uppdaterar aktivitetsinformation i Sammanfattning i Arbetsbelastningsutjämnaren finns i [Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+   Information om hur du uppdaterar aktivitetsinformation i sammanfattningen i arbetsbelastningsutjämnaren finns i [Uppdatera arbetsobjekt i arbetsbelastningsutjämnaren med hjälp av sammanfattningen](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
 1. Håll muspekaren över namnet på en aktivitet eller ett problem för att visa mer information om den. En ruta visas ovanför uppgiften eller problemet med följande information:
 
@@ -420,56 +420,56 @@ Du kan visa mer information om aktiviteterna och problemen i Utjämning av arbet
 
 ### Visa belastningsutjämnaren i helskärmsläge
 
-1. Öppna Utjämning av arbetsbelastning i resursområdet, enligt beskrivningen i avsnittet [Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Gå till Utjämning av arbetsbelastning i området Resurser, vilket beskrivs i avsnittet [Öppna Utjämning av arbetsbelastning för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
-1. Klicka på **Helskärm** icon ![Helskärmsikon](assets/full-screen.png) om du vill visa belastningsutjämnaren i helskärmsläge.
+1. Klicka på ikonen **Helskärm** ![Helskärm](assets/full-screen.png) om du vill visa belastningsutjämnaren i helskärmsläge.
 
    Utjämning av arbetsbelastning tar upp hela skärmen. Webbläsarfönster och -flikar tas inte med i vyn.
 
-1. Klicka på **Avsluta helskärm** icon ![Avsluta helskärmsikonen](assets/exit-full-screen.png) om du vill återgå till standardskärmen och visa Utjämning av arbetsbelastning på webbläsarfliken.
+1. Klicka på ikonen **Avsluta helskärmsläge** ![Avsluta helskärmsikonen](assets/exit-full-screen.png) om du vill återgå till standardskärmen och visa Utjämning av arbetsbelastning på webbläsarfliken.
 
 
 ## Navigera i ett teams arbetsbelastningsfördelning
 
-Att navigera i ett teams belastningsutjämnare påminner om hur du navigerar i belastningsutjämnaren för flera projekt. Mer information finns i avsnittet [Navigera i belastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+Att navigera i ett teams belastningsutjämnare påminner om hur du navigerar i belastningsutjämnaren för flera projekt. Mer information finns i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
-1. Klicka på **Huvudmeny** icon ![Huvudmeny](assets/main-menu-icon.png)och sedan klicka **Team**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Team**.
 Sidan i ditt hemteam visas som standard.
-1. Klicka **Utjämning av arbetsbelastning** till vänster. Arbetsbelastningsutjämnaren för ett team ska visas som standard.
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen. Arbetsbelastningsutjämnaren för ett team ska visas som standard.
 
    ![Utjämning av arbetsbelastning för ett team](assets/nwe-balancer-team-350x172.png)
 
    Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
 
-   * I **Ej tilldelat arbete** område: Arbetsobjekt som tilldelats teamet eller team- och jobbrollerna och som inte är tilldelade användare.
-   * I **Tilldelat arbete** område: Arbetsobjekt som tilldelats användare visas under användarens namn.
+   * I området **Ej tilldelat arbete**: Arbetsobjekt som tilldelats teamet eller team- och jobbrollerna och som inte är tilldelade användare.
+   * I området **Tilldelat arbete**: Arbetsobjekt som tilldelats användare visas under användarnas namn.
 
-1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett team enligt beskrivningen i [Navigera i Utjämning av arbetsbelastning för flera projekt i resursområdet](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett team enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt i området Resurser](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
 ## Navigera i arbetsbelastningsutjämnaren för ett enskilt projekt
 
-1. Klicka på **Huvudmeny** icon ![Huvudmeny](assets/main-menu-icon.png)och sedan klicka **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Projekt**.
 1. Klicka på namnet på ett projekt för att öppna projektsidan.
-1. Klicka **Utjämning av arbetsbelastning** till vänster. Du kanske måste klicka **Visa fler** sedan **Utjämning av arbetsbelastning**.
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen. Du kan behöva klicka på **Visa mer** och sedan på **Utjämning av arbetsbelastning**.
 
    ![Utjämning av arbetsbelastning för ett projekt](assets/nwe-balancer-project-350x152.png)
 
    I arbetsbelastningsutjämnaren för projektet visas följande information som standard:
 
-   * I **Ej tilldelat arbete** område: Arbetsobjekt i projektet som är tilldelade roller eller team och inte är tilldelade användare.
-   * I **Tilldelat arbete** område: Arbetsobjekt i projektet som har tilldelats minst en användare.
+   * I området **Ej tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats roller eller team och som inte har tilldelats användare.
+   * I området **Tilldelat arbete**: Arbetsobjekt i projektet som har tilldelats minst en användare.
 
    Vi rekommenderar att du bara använder filter för att visa användare som är viktiga för dig.
 
    Du kan till exempel överväga att endast visa användare som tillhör dina team eller grupper. Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
 
-1. (Valfritt) Klicka på **Filter** icon ![Filterikon](assets/filter-icon.png) i området Tilldelat arbete och välj **Det här projektets arbetsobjekt** från **Föreslagen** filterpanelens område. Det här filtret är som standard avmarkerat.
+1. (Valfritt) Klicka på ikonen **Filter** ![Filtrera ](assets/filter-icon.png) i området Tilldelad arbetsyta och välj alternativet **Det här projektets arbetsobjekt** i området **Förslag** i filterpanelen. Det här filtret är som standard avmarkerat.
 
    När det här alternativet är markerat visas endast de objekt som tilldelats användare i det valda projektet.
 
    När alternativet inte är markerat visas alla objekt som tilldelats användarna i projektet, oavsett vilka projekt som objekten tillhör.
 
-1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på **Visa alla användare** icon ![Visa ikonen för alla användare](assets/show-all-users-icon-project-workload-balancer.png).
+1. (Valfritt och rekommenderas) Använd ett filter på arbetsytan Tilldelad arbetsyta för att visa användare som är viktiga för dig men som kanske inte är tilldelade till objekt i projektet. Klicka sedan på ikonen **Visa alla användare** ![Visa alla användare ](assets/show-all-users-icon-project-workload-balancer.png) .
 
    Genom att visa alla användare kan du visa alla användare i Workfront som ännu inte är tilldelade till arbete eller andra roller i projektet.
 
@@ -477,26 +477,26 @@ Sidan i ditt hemteam visas som standard.
 
    Du kanske först vill filtrera efter användare som tillhör dina team eller grupper och sedan visa alla dessa användare.
 
-   Mer information om hur du skapar ett filter finns i [Filtrera information i Utjämning av arbetsbelastning](../workload-balancer/filter-information-workload-balancer.md).
+   Mer information om hur du skapar ett filter finns i [Filterinformation i Arbetsbelastningsutjämnaren](../workload-balancer/filter-information-workload-balancer.md).
 
    >[!NOTE]
    >
    > Alternativet Visa alla användare är bara tillgängligt för arbetsbelastningsutjämnaren för ett projekt.
 
-1. (Valfritt) Klicka på **Visa rollallokeringar** icon ![Visa ikon för rollallokeringar](assets/show-role-allocation-icon.png).
+1. (Valfritt) Klicka på ikonen **Visa rollallokeringar** ![Visa rollallokeringar](assets/show-role-allocation-icon.png).
 
    Panelen Rolltilldelning visas.
 
    Du kan visa information om planerade timmar som är associerade med projektets jobbroller och de jobbroller som är kopplade till initiativ som är kopplade till projekten från scenarioplaneraren.
 
-   Mer information finns i [Översikt över avstämning av resursallokeringar mellan projekt och initiativ](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+   Mer information finns i [Översikt över att stämma av resursallokeringar mellan projekt och initiativ](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 
    >[!NOTE]
    >
-   >Du kan inte visa information om befattningsroll för initiativ om din organisation inte har köpt någon licens för Workfront Scenario Planner. I det här fallet kan du bara visa planerade timmar som är associerade med jobbroller i projektet. Mer information finns i [Åtkomst krävs för att använda scenarioplaneraren](../../scenario-planner/access-needed-to-use-sp.md).
+   >Du kan inte visa information om befattningsroll för initiativ om din organisation inte har köpt någon licens för Workfront Scenario Planner. I det här fallet kan du bara visa planerade timmar som är associerade med jobbroller i projektet. Mer information finns i [Åtkomst krävs för att använda scenarioplanen](../../scenario-planner/access-needed-to-use-sp.md).
 
-1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett projekt enligt beskrivningen i [Navigera i belastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Fortsätt navigera i arbetsbelastningsutjämnaren för ett projekt enligt beskrivningen i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 

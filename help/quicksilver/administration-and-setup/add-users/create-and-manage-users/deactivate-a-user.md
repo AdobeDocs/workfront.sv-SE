@@ -43,7 +43,7 @@ Du kan återaktivera en användare när som helst.
 >
 >När du inaktiverar en användare i Workfront tas användarens licenser bort både för Workfront och för digitalt korrektur. Dessutom kan användaren inte längre tilldelas arbete. När en användare inaktiveras blir användarens Workfront-licens och språklicens tillgängliga och kan användas av en annan användare. All annan information i den inaktiverade användarens profil ändras inte.
 >
->Mer information om hur borttagning och inaktivering av användare påverkar finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Mer information om hur borttagning och inaktivering av användare påverkas finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Åtkomstkrav
 
@@ -65,8 +65,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
+     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Admin (gruppanvändare)</b> är aktiverad måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om inställningen <b>Användare</b> på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -76,7 +76,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 Innan du inaktiverar en Workfront-administratör, Standard eller Plan-licens måste du koppla deras objekt och aktiviteter till en annan användare.
 
-Mer information finns i [Inaktivera Workfront-administratörer och avtalslicensanvändare](#about-deactivating-workfront-administrators-and-plan-license-users) i den här artikeln.
+Mer information finns i [Inaktivera Workfront-administratörer och Planera licensanvändare](#about-deactivating-workfront-administrators-and-plan-license-users) i den här artikeln.
 
 ## Inaktivera en användare
 
@@ -90,11 +90,11 @@ Tänk på följande när du inaktiverar en användare:
 
 Så här inaktiverar du en användare:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 
-1. Välj en användare och klicka på **Mer** icon ![](assets/more-icon.png)och sedan klicka **Inaktivera**.
+1. Markera en användare, klicka på ikonen **Mer** ![](assets/more-icon.png) och klicka sedan på **Inaktivera**.
 
-1. Klicka **Inaktivera** i rutan som visas.
+1. Klicka på **Inaktivera** i rutan som visas.
 
 ## Schemalägg användare för inaktivering
 
@@ -104,7 +104,7 @@ Workfront-administratörer och användare av Planera licenser kan se avaktiverin
 
 Så här schemalägger du en användare för inaktivering:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 
 1. Välj användarens namn.
 
@@ -113,17 +113,17 @@ Så här schemalägger du en användare för inaktivering:
    (Valfritt) Välj flera användare för att schemalägga att de ska inaktiveras gruppvis.
 
 1. Klicka på ikonen Redigera ![](assets/edit-icon.png).
-1. I rutan Redigera användare som visas klickar du på **Resursplanering** för att åka till det området.
-1. Aktivera **Schemalägg inaktivering** alternativ.
+1. I rutan Redigera användare som visas klickar du på **Resursplanering** för att gå till det området.
+1. Aktivera alternativet **Schemalägg inaktivering**.
 
-1. I kalendern som visas anger du datum och tid för **Schemalagt inaktiveringsdatum**.
+1. I kalendern som visas anger du datum och tid för **schemalagt inaktiveringsdatum**.
 
    >[!NOTE]
    >
    >* I tidsrutan kan du bara välja hela timsteg, inte minuter.
    >* Om du väljer en tid för den aktuella dagen som har gått schemalägger Workfront avaktiveringen för följande dag kl. 12:00. Den valda tiden matchar datorns tidszon för användaren som schemalägger inaktiveringen.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Användaren inaktiveras den valda dagen någon gång efter den valda tiden. Om du har valt att inaktivera flera användare samtidigt inaktiveras alla markerade användare den valda dagen någon gång efter den valda tiden.
 
@@ -131,11 +131,11 @@ Vi rekommenderar att du skapar en rapport för användare som du har schemalagt 
 
 ## Återaktivera en användare
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 
-1. Markera en användare och klicka på ikonen Mer ![](assets/more-icon.png)och sedan klicka **Aktivera**.
+1. Markera en användare, klicka på ikonen Mer ![](assets/more-icon.png) och sedan på **Aktivera**.
 
-1. Tilldela en ny **Åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
+1. Tilldela en ny **åtkomstnivå** i listrutan och klicka sedan på **Återaktivera**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
@@ -145,8 +145,8 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 
 Inaktiverade användare förlorar sin tilldelade standardkorrekturroll och sin korrekturlicens (om du har en äldre Workfront Premium-plan). Om du väljer att återaktivera användaren måste du:
 
-* Tilldela om licensen (om du har en äldre Workfront Premium-plan). Mer information om Workfront korrekturplaner finns i [Tillgång till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Kontrollera att de har rätt korrekturroll. Återaktiverade korrekturanvändare tilldelas det som har angetts som standardkorrekturroll för nya användare. Se [Konfigurera standardspråkroller](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) för mer information.
+* Tilldela om licensen (om du har en äldre Workfront Premium-plan). Mer information om Workfront korrekturplaner finns i [Åtkomst till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Kontrollera att de har rätt korrekturroll. Återaktiverade korrekturanvändare tilldelas det som har angetts som standardkorrekturroll för nya användare. Mer information finns i [Konfigurera standardspråkroller](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md).
 
 ## Inaktivera Workfront-administratörer och Standard- eller Plan-licensanvändare
 
@@ -171,4 +171,4 @@ När du schemalägger en användare för inaktivering visas de inte längre som 
 
 Resursplaneraren tar hänsyn till användarnas alla roller och aktiviteternas planerade slutförandedatum och beräknar resurser utifrån detta.
 
-Mer information om resursplaneraren finns i [Översikt över resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om resursplaneraren finns i [Översikt över resursplaneraren](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

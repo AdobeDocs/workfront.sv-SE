@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]
-description: The [!UICONTROL Incomplete executions] mappen lagrar scenariokörningar som inte slutfördes korrekt på grund av ett fel. Varje lagrad ofullständig körning kan lösas antingen manuellt eller automatiskt.
+title: Visa och matcha ofullständiga körningar i  [!DNL Adobe Workfront Fusion]
+description: Mappen [!UICONTROL Incomplete executions] lagrar scenariekörningar som inte slutfördes korrekt på grund av ett fel. Varje lagrad ofullständig körning kan lösas antingen manuellt eller automatiskt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]
+# Visa och matcha ofullständiga körningar i [!DNL Adobe Workfront Fusion]
 
-The [!UICONTROL Incomplete executions] mappen lagrar scenariokörningar som inte slutfördes korrekt på grund av ett fel. Varje lagrad ofullständig körning kan lösas antingen manuellt eller automatiskt.
+Mappen [!UICONTROL Incomplete executions] lagrar scenariekörningar som inte slutfördes korrekt på grund av ett fel. Varje lagrad ofullständig körning kan lösas antingen manuellt eller automatiskt.
 
 >[!NOTE]
 >
->Som standard är lagring av ofullständiga körningar inaktiverat. Aktivera [!UICONTROL Allow storing incomplete executions] i scenariot avancerade inställningar.
+>Som standard är lagring av ofullständiga körningar inaktiverat. Aktivera alternativet [!UICONTROL Allow storing incomplete executions] i scenariets avancerade inställningar om du vill aktivera det.
 >
 >Mer information om scenarioinställningar finns i [Panelen för scenarioinställningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
@@ -43,29 +43,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Visa ofullständiga körningar
 
-Om en modul påträffar ett fel under åtgärden läggs en ny ofullständig körning till i mappen Ofullständiga körningar. Varje ofullständig körning innehåller scenariots plan och alla paket som kan mappas till den misslyckade modulen. Du kan öppna listan över ofullständiga körningar genom att klicka på [!UICONTROL Incomplete Executions] på sidan med scenarioinformation:
+Om en modul påträffar ett fel under åtgärden läggs en ny ofullständig körning till i mappen Ofullständiga körningar. Varje ofullständig körning innehåller scenariots plan och alla paket som kan mappas till den misslyckade modulen. Du kan öppna listan över ofullständiga körningar genom att klicka på fliken [!UICONTROL Incomplete Executions] på sidan med scenariedetaljer:
 
 ![](assets/incomplete-executions-tab-350x102.png)
 
@@ -77,19 +77,19 @@ Mer information finns i [Fel som leder till ofullständiga körningar](#errors-r
 >
 >`"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."`
 >
->Mer information finns i [Aktivera dataförlust](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) in [Panelen för scenarioinställningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
+>Mer information finns i [Aktivera dataförlust](../../workfront-fusion/scenarios/scenario-settings-panel.md#enable) i [Panelen för scenarioinställningar i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
 ## Lös ofullständiga körningar
 
 När en ny ofullständig körning sparas kan du lösa den på följande sätt:
 
-1. Klicka på **[!UICONTROL Incomplete Executions]** -fliken.
+1. Klicka på fliken **[!UICONTROL Incomplete Executions]**.
 1. Leta reda på den ofullständiga körning som du vill lösa och klicka på **[!UICONTROL Detail]**.
 
 
-   Om du vill se loggen för alla åtgärder i modulen innan du försöker lösa den ofullständiga körningen kan du lösa den ofullständiga körningen från [!UICONTROL History] mapp:
+   Om du vill se loggen för alla åtgärder i modulen innan du försöker lösa den ofullständiga körningen kan du lösa den ofullständiga körningen från mappen [!UICONTROL History]:
 
-1. Klicka på **[!UICONTROL History]** -fliken.
+1. Klicka på fliken **[!UICONTROL History]**.
 1. Leta reda på loggen för misslyckad körning för scenariot och klicka på **[!UICONTROL Details]**.
 1. Öppna modulens logg där alla åtgärder i modulen visas.
 1. Leta reda på den misslyckade åtgärden och klicka på **[!UICONTROL Resolve]**:
@@ -98,7 +98,7 @@ När en ny ofullständig körning sparas kan du lösa den på följande sätt:
 
 ## Alternativ för ofullständiga körningar
 
-Följande alternativ i [!UICONTROL Scenario settings] avgör om och hur de ofullständiga körningarna lagras:
+Följande alternativ på panelen [!UICONTROL Scenario settings] avgör om och hur de ofullständiga körningarna lagras:
 
 * Tillåt lagring av ofullständiga körningar
 * Sekventiell bearbetning
@@ -117,6 +117,6 @@ Om ett fel inträffar på den första modulen i scenariot avbryts körningen ome
 
 Om ett fel inträffar i någon annan modul och det inte finns någon kopplad felhanterarväg händer något av följande:
 
-* Om feltypen är `ConnectionError`, `RateLimitError`, `OutOfSpaceError` eller `ModuleTimeoutError`, lagras en ofullständig körningspost med automatiskt återförsök.
-* Om feltypen är `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError`, eller `MaxResultsExceededError`, lagras en ofullständig körningspost utan automatiskt återförsök.
+* Om feltypen är `ConnectionError`, `RateLimitError`, `OutOfSpaceError` eller `ModuleTimeoutError` lagras en ofullständig körningspost med automatiskt återförsök.
+* Om feltypen är `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError` eller `MaxResultsExceededError` lagras en ofullständig körningspost utan autoåterförsök.
 * Om feltypen är något annat än ovanstående misslyckas körningen.

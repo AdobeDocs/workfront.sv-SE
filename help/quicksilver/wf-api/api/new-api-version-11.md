@@ -9,14 +9,14 @@ role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3573'
 ht-degree: 0%
 
 ---
 
 # Nyheter i API-version 11
 
-* [Tillagda resurser](#added-resources)
+* [Lagt till resurser](#added-resources)
 * [Borttagna resurser](#removed-resources)
 * [Ändrade resurser](#modified-resources)
 
@@ -252,26 +252,26 @@ Inga resurser togs bort för API v11.
     <ul> 
      <li><a href="#docmetadatalinkgroup" class="MCXref xref">DocMetadataLinkGroup</a> </li> 
      <li><a href="#document" class="MCXref xref">Dokument</a> </li> 
-     <li><a href="#iteration" class="MCXref xref">Upprepning</a> </li> 
+     <li><a href="#iteration" class="MCXref xref">Iteration</a> </li> 
      <li><a href="#layout-template" class="MCXref xref">Layoutmall</a> </li> 
      <li><a href="#milestonepath" class="MCXref xref">MilstolpePath</a> </li> 
-     <li><a href="#note" class="MCXref xref">Anteckning</a> </li> 
+     <li><a href="#note" class="MCXref xref">Obs!</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parameter</a> </li> 
      <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Program</a> </li> 
      <li><a href="#project" class="MCXref xref">Projekt</a> </li> 
-     <li><a href="#proofapproval" class="MCXref xref">KorrekturGodkännande</a> </li> 
+     <li><a href="#proofapproval" class="MCXref xref">Korrektur för godkännande</a> </li> 
      <li><a href="#queuedef" class="MCXref xref">QueueDef</a> </li> 
      <li><a href="#reservedtime" class="MCXref xref">ReservedTime</a> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li><a href="#resourceplannerfilter" class="MCXref xref">Resursplaneringsfilter</a> </li> 
-     <li><a href="#risk" class="MCXref xref">risk</a> </li> 
-     <li><a href="#scheduledreport" class="MCXref xref">SchemalagdRapport</a> </li> 
+     <li><a href="#risk" class="MCXref xref">Risk</a> </li> 
+     <li><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </li> 
      <li><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </li> 
-     <li><a href="#task" class="MCXref xref">Uppgift</a> </li> 
+     <li><a href="#task" class="MCXref xref">Aktivitet</a> </li> 
      <li><a href="#team" class="MCXref xref">Team</a> </li> 
      <li><a href="#template" class="MCXref xref">Mall</a> </li> 
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
@@ -832,7 +832,7 @@ Ett Parameter-objekt är ett anpassat fält.
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Det möjliga värdet TYAH (Typeahead) har lagts till.</p> </li> 
-     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Det här fältet lades till och refererar till objektkoden för ett refererat objekt. Objektkoder för alla objekt finns i <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>refObjCode </p> <p style="font-weight: normal;">Det här fältet lades till och refererar till objektkoden för ett refererat objekt. Objektkoder för alla objekt finns i <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API-utforskaren</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

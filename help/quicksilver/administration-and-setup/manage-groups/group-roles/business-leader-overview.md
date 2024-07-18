@@ -21,7 +21,7 @@ I en grupp är företagsledaren den person som fattar beslut för gruppen om må
 
 Som gruppadministratör kan du utse en användare till affärsledare för en grupp eller en undergrupp som du administrerar. Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper). Instruktioner finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Om du behöver allmän information om grupper kan du läsa [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Om du behöver allmän information om grupper läser du [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
@@ -45,4 +45,4 @@ Exempel:
 
 Fältet Affärsledare ingår också i standardvyn i rapporter som en listkolumn.
 
-Mer information finns i [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Mer information finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).

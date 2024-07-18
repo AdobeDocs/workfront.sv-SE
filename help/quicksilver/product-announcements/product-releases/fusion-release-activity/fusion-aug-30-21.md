@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 30 augusti 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Filtrera händelser som utlöser Workfront > Bevakningshändelser
 
@@ -43,5 +43,5 @@ En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront
 
    Tidigare var det här filtret inte tillgängligt. Därför var det enklare för ändringar som gjorts i Workfront-moduler att utlösa scenarier som innehåller dessa moduler, vilket eventuellt kan göra att scenarier utlöses i en oändlig slinga.
 
-Mer information om händelsefilter i modulen Workfront > Bevakade händelser finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om händelsefilter i modulen Workfront > Bevaka händelser finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

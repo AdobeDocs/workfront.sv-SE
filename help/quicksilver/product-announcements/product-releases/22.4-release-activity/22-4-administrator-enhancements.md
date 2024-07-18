@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Uppdateringen innehåller följande förbättringar:
 
 Före den här versionen gick det bara att anpassa projektrubriker.
 
-Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Mer information finns i [Anpassa objektrubriker med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
@@ -91,7 +91,7 @@ Vi är glada över att kunna öppna nya anslagstavlor för tidig anmälan av fun
 
 Endast en Workfront-administratör kan välja att använda de tidiga funktionerna. När administratören väljer att använda funktioner i ett tidigt skede är alla användare i organisationen anslutna och de extra funktionerna är aktiverade i din Workfront produktionsmiljö.
 
-Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Mer information finns i [Anmäl dig till Adobe Workfront Boards för tidig funktion](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
@@ -102,8 +102,6 @@ Mer information finns i [Tidig registrering av nya funktioner för Adobe Workfro
 >Den här funktionen introducerades först i förhandsvisningsmiljön under 22.3-versionen. Den lanseras i Production med version 22.4.
 
 Det är nu enklare att redigera beräkningar för anpassade fält eftersom felinformation som anges direkt i beräkningen är användbar. När du skapar ett beräknat fält i ett anpassat formulär markeras fel i rosa. När du hovrar över den markerade delen visas ett verktygstips som beskriver vad problemet är.
-
-Mer information finns i [Lägga till beräknade data i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
@@ -121,6 +119,6 @@ Adobe enhetliga upplevelse omfattar:
 
 * Navigering med alternativ för Workfront-sidor, Adobe Experience Cloud-inställningar och din Workfront-profil
 
-Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412388/){target=_blank}

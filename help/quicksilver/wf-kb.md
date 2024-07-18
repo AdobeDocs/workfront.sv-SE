@@ -19,7 +19,7 @@ ht-degree: 0%
 * [Hantera resurser](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)
 * [Hantera arbete](manage-work/manage-work.md)
-* [Granska och godkänn arbetet](review-and-approve-work/review-and-approve-work.md)
+* [Granska och godkänn arbete](review-and-approve-work/review-and-approve-work.md)
 * [Dokument](documents/documents-overview.md)
 * [Rapportering](reports-and-dashboards/reports-and-dashboards-overview.md)
 

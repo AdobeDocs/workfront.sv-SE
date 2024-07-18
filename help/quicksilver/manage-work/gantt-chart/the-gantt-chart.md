@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: projects-navigation-topic
 title: Gantt-schemat
-description: Hitta information om [!UICONTROL Gantt] Diagram i följande underavsnitt.
+description: Hitta information om diagrammet [!UICONTROL Gantt] i följande underavsnitt.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# The [!UICONTROL Gantt Chart]
+# [!UICONTROL Gantt Chart]
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [[!UICONTROL Gantt Chart] översikt](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
+* [[!UICONTROL Gantt Chart] - översikt](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
 

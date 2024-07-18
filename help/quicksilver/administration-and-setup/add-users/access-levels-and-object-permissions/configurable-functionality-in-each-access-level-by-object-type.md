@@ -7,7 +7,7 @@ role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
 source-git-commit: df73ba291f0a0ab6492e6fabfb6de578ba7e1f1b
 workflow-type: tm+mt
-source-wordcount: '3435'
+source-wordcount: '3436'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 I den här artikeln förklaras vad du kan tillåta som Adobe Workfront-administratör för varje objekttyp, på varje åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av åtkomstnivå.
 
-Information om alla funktioner som är tillgängliga för en objekttyp på varje åtkomstnivå finns i [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Mer information om alla funktioner som är tillgängliga för en objekttyp på varje åtkomstnivå finns i [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Projekt
 
@@ -37,8 +37,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för projekt:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela projekt. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till projekt.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela projekt. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till projekt.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Kopiera</p> </li> 
@@ -54,8 +54,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för projekt:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela projekt. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Tillåter begränsad redigeringsåtkomst till projekt. Om du vill se hur redigeringsåtkomsten är begränsad för en arbetaråtkomstnivå jämfört med en planeraråtkomstnivå (som tillåter fullständig redigeringsåtkomst till projekt) läser du avsnittet <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projekt</a> i artikeln <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Tillgängliga funktioner för varje objekttyp</a>.</p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela projekt. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Redigera och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela projekt. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Tillåter begränsad redigeringsåtkomst till projekt. Om du vill se hur redigeringsåtkomsten är begränsad i en arbetaråtkomstnivå jämfört med en planeringsåtkomstnivå (som tillåter fullständig redigeringsåtkomst till projekt), ska du läsa avsnittet <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref">Projekt</a> i artikeln <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref">Tillgängliga funktioner för varje objekttyp</a> .</p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela projekt. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Redigera och inaktivera eller aktivera alternativet <b>Dela</b> (aktiverat som standard).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -100,8 +100,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för uppgifter:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela uppgifter. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till uppgifter.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela uppgifter. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till uppgifter.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -115,8 +115,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för uppgifter:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela uppgifter. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till uppgifter.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela uppgifter. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till uppgifter.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -166,8 +166,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för problem:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b></p><p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst vid problem.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b></p><p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst för problem.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -181,8 +181,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för problem:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst vid problem.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst för problem.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -195,8 +195,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för problem:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst vid problem.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst för problem.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -209,8 +209,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för problem:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst vid problem.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att dela problem. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst för problem.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -244,8 +244,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för portföljer
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela portföljer. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till portföljer.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela portföljer. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till portföljer.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -300,8 +300,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för program:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela program. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till program.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela program. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till program.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -356,12 +356,12 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för rapporter, 
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b></p><p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera någon av följande åtgärder. Båda är aktiverade som standard:</p> 
+     <li> <p><b>Visa</b></p><p>Om du vill finjustera detta klickar du på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktiverar eller aktiverar du någon av följande åtgärder. Båda är aktiverade som standard:</p> 
       <ul> 
        <li> <p>Visa inbyggda rapporter</p> </li> 
        <li> <p>Dela</p> </li> 
       </ul> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till rapporter, kontrollpaneler och kalendrar.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard utom <b>Visa inbyggda rapporter</b>, <b>Dela rapporter offentligt</b>och <b>Dela hela systemet</b>.</p> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till rapporter, instrumentpaneler och kalendrar.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard utom <b>Visa inbyggda rapporter</b>, <b>Dela rapporter offentligt</b> och <b>Dela hela systemet</b>.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -377,7 +377,7 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för rapporter, 
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> (standardval)<p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera någon av följande åtgärder. Båda är aktiverade som standard:</p> 
+     <li><p> <b>Visa</b></p> (standardval)<p>Om du vill finjustera detta klickar du på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och inaktiverar eller aktiverar sedan någon av följande åtgärder. Båda är aktiverade som standard:</p> 
       <ul> 
        <li> <p>Visa inbyggda rapporter</p> </li> 
        <li> <p>Dela</p> </li> 
@@ -389,7 +389,7 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för rapporter, 
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b> (standardval)<p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera någon av följande åtgärder. Endast alternativet Dela är aktiverat som standard.</p> 
+     <li> <p><b>Visa</b> (standardval)<p>Om du vill finjustera detta klickar du på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och inaktiverar eller aktiverar sedan någon av följande åtgärder. Endast alternativet Dela är aktiverat som standard.</p> 
       <ul> 
        <li> <p>Visa inbyggda rapporter</p> </li> 
        <li> <p>Dela</p> </li> 
@@ -401,7 +401,7 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för rapporter, 
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b> (standardval): Tillåter skrivskyddad åtkomst till rapporter, instrumentpaneler och kalendrar som har delats med dem.</p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att visa inbyggda rapporter. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera <b>Visa inbyggt</b>(inaktiverat som standard).</p> </li> 
+     <li> <p><b>Visa</b> (standardval): Tillåter åtkomst till rapporter, instrumentpaneler och kalendrar som har delats med enbart vyn.</p> <p>Om du vill finjustera detta kan du konfigurera möjligheten att visa inbyggda rapporter. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och inaktivera eller aktivera <b>Visa inbyggt</b> (inaktiverat som standard).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -429,8 +429,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för filter, vye
    <td>Planering </td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -443,8 +443,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för filter, vye
    <td>Arbetare </td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -457,8 +457,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för filter, vye
    <td>Granskare</td> 
    <td> 
     <ul> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -471,8 +471,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för filter, vye
    <td>Begärande</td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b>:</p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b>:</p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela filter, vyer och grupperingar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till filter, vyer och grupperingar.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -507,8 +507,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för dokument:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard utom <b>Dela dokument offentligt</b> och <b>Dela hela systemet</b>.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard utom för <b>Dela dokument offentligt</b> och <b>Dela hela systemet</b>.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -523,8 +523,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för dokument:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard utom <b>Dela dokument offentligt</b> och <b>Dela hela systemet</b>.</p> 
+     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard utom för <b>Dela dokument offentligt</b> och <b>Dela hela systemet</b>.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -539,8 +539,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för dokument:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera någon av följande åtgärder. Alla är aktiverade som standard utom de två sista, <b>Dela dokument offentligt</b> och <b>Dela hela systemet</b>.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Om du vill finjustera detta klickar du på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och inaktiverar eller aktiverar sedan någon av följande åtgärder. Alla är aktiverade som standard utom de två sista, <b>Dela dokument offentligt</b> och <b>Dela dokument i hela systemet</b>.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -555,8 +555,8 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för dokument:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att dela dokument. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till dokument.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -589,35 +589,35 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för användare:
    <td>Planering </td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera <b>Visa kontaktinformation</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger användare fullständig redigeringsåtkomst.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera någon av följande åtgärder. Bara de två första alternativen <b>Skapa</b> och <b>Ta bort</b>, är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b></p><p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och inaktivera eller aktivera alternativet <b>Visa kontaktinformation</b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till användare.</p> <p>Om du vill finjustera detta klickar du på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och inaktiverar eller aktiverar sedan någon av följande åtgärder. Endast de första två alternativen, <b>Skapa</b> och <b>Ta bort</b>, är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
        <li>Användaradministratör (alla användare)</li> 
        <li> <p>Användaradministratör (gruppanvändare)</p> </li> 
-      </ul> <p>Mer information om de två alternativen för användaradministratörer finns i avsnittet <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> i artikeln <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+      </ul> <p>Mer information om de två alternativen för användaradministration finns i avsnittet <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref">Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå</a> i artikeln <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Arbetare </td> 
    <td> 
     <ul> 
-     <li><p> <b>Visa</b> (endast alternativ tillgängligt)</p><p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera <b>Visa kontaktinformation</b> (aktiverat som standard).</p> </li> 
+     <li><p> <b>Visa</b> (endast alternativ tillgängligt)</p><p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och inaktivera eller aktivera alternativet <b>Visa kontaktinformation</b> (aktiverat som standard).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Granskare</td> 
    <td> 
     <ul> 
-     <li><p> <b>Visa</b> (endast alternativ tillgängligt)</p> <p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan aktivera eller inaktivera <b>Visa kontaktinformation</b> (inaktiverat som standard).</p> </li> 
+     <li><p> <b>Visa</b> (endast alternativ tillgängligt)</p> <p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och aktivera eller inaktivera sedan alternativet <b>Visa kontaktinformation</b> (inaktiverat som standard).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Begärande</td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b> (endast alternativ tillgängligt)</p><p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan aktivera eller inaktivera <b>Visa kontaktinformation</b> (inaktiverat som standard).</p> </li> 
+     <li> <p><b>Visa</b> (endast alternativ tillgängligt)</p><p>Du kan finjustera detta genom att konfigurera möjligheten att visa användarnas kontaktinformation. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och aktivera eller inaktivera sedan alternativet <b>Visa kontaktinformation</b> (inaktiverat som standard).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -645,12 +645,12 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för team:
    <td>Planering </td> 
    <td> 
     <ul> 
-     <li><b>Visa</b> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är inaktiverade som standard.</p> 
+     <li><b>Visa</b> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är inaktiverade som standard.</p> 
       <ul> 
        <li>Visa alla team</li> 
        <li> <p>Visa team som är associerade med mina grupper</p> </li> 
       </ul> </li> 
-     <li> <p><b>Redigera</b> (standardval): Tillåter fullständig redigeringsåtkomst till team.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Alla är aktiverade som standard, förutom <b>Redigera team som jag är på</b>.</p> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till team.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Alla är aktiverade som standard, förutom <b>Redigera team som jag är på</b>.</p> 
       <ul> 
        <li>Skapa</li> 
        <li>Ta bort</li> 
@@ -666,12 +666,12 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för team:
    <td> 
     <ul> 
      <li> <b>Visa</b>
-      <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
+      <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
       <ul> 
        <li>Visa alla team</li> 
        <li> <p>Visa team som är associerade med mina grupper</p> </li> 
       </ul> </li> 
-     <li> <p><b>Redigera</b> (standardval): Tillåter fullständig redigeringsåtkomst till team.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Bara det första alternativet, <b>Redigera team som jag är på</b>, är inaktiverat som standard.</p> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till team.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Endast det första alternativet, <b>Redigera team som jag är på</b>, är inaktiverat som standard.</p> 
       <ul> 
        <li> <p>Redigera team som jag är på</p> </li> 
        <li> <p>Visa alla team</p> </li> 
@@ -683,7 +683,7 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för team:
    <td>Granskare</td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b> (endast alternativ tillgängligt)</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b> (endast alternativ tillgängligt)</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Visa alla team</p> </li> 
        <li>Visa team som är associerade med mina grupper</li> 
@@ -694,7 +694,7 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för team:
    <td>Begärande</td> 
    <td> 
     <ul> 
-     <li> <p><b>Visa</b> (endast alternativ tillgängligt)</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b> (endast alternativ tillgängligt)</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Visa alla team</p> </li> 
        <li>Visa team som är associerade med mina grupper</li> 
@@ -728,8 +728,8 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för mallar:
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela mallar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och sedan inaktivera eller aktivera <b>Dela</b> (aktiverat som standard).</p> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till mallar.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
+     <li><p> <b>Visa</b></p> <p>Du kan finjustera detta genom att konfigurera möjligheten att dela mallar. Klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen Visa och inaktivera eller aktivera alternativet <b> Dela </b> (aktiverat som standard).</p> </li> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till mallar.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Alla är aktiverade som standard.</p> 
       <ul> 
        <li> <p>Skapa</p> </li> 
        <li> <p>Ta bort</p> </li> 
@@ -785,15 +785,15 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för ekonomiska da
    <td> 
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
-     <li> <p><b>Visa</b>:</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
+     <li> <p><b>Visa</b>:</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Båda är aktiverade som standard.</p> 
       <ul> 
        <li>Visa fakturering och kostnadstariffer för roller</li> 
        <li> <p>Visa fakturering och kostnadstariffer för användare</p> </li> 
       </ul> </li> 
-     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till ekonomiska data.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Bara de två sista alternativen, <b>Visa fakturering och kostnadstariffer för roller</b> och <b>Visa fakturering och kostnadstariffer för användare</b>, är aktiverade som standard.</p> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till ekonomiska data.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Visa</b> och sedan inaktivera eller aktivera något av följande alternativ*. Endast de två sista alternativen, <b>Visa fakturering och kostnadstariffer för roller</b> och <b>Visa fakturering och kostnadstariffer för användare</b>, är aktiverade som standard.</p> 
       <ul> 
        <li>Redigera rollfakturering och kostnadstariffer</li> 
-       <li> <p>Redigera fakturering och kostnadstariffer för användare</p> </li> 
+       <li> <p>Redigera fakturering och kostnadstariffer</p> </li> 
        <li>Visa fakturering och kostnadstariffer för roller</li> 
        <li> <p>Visa fakturering och kostnadstariffer för användare</p> </li> 
       </ul> </li> 
@@ -829,7 +829,7 @@ I varje åtkomstnivå kan du konfigurera följande alternativ för ekonomiska da
  </tbody> 
 </table>
 
-&#42; Mer information om de här alternativen finns i [Översikt över fakturering och intäkt](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+&#42; Mer information om de här alternativen finns i [Översikt över fakturering och intäkter](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Resurshantering
 
@@ -851,11 +851,11 @@ På varje åtkomstnivå kan du konfigurera följande alternativ för Resurshante
     <ul> 
      <li> <b>Ingen åtkomst</b> </li> 
      <li> <b>Visa</b> </li> 
-     <li> <p><b>Redigera</b> (standardval): Tillåter fullständig redigeringsåtkomst till resurshantering.</p> <p>Klicka på kugghjulsikonen för att finjustera detta <img src="assets/gear-icon-in-access-levels.png"> på <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Bara det första alternativet, <b>Redigera prioriteringar och budgettimmar i planeraren</b>, är aktiverat som standard.</p> 
+     <li> <p><b>Redigera</b> (standardval): Ger fullständig redigeringsåtkomst till resurshantering.</p> <p>Finjustera detta genom att klicka på kugghjulsikonen <img src="assets/gear-icon-in-access-levels.png"> på knappen <b>Redigera</b> och sedan inaktivera eller aktivera något av följande alternativ. Endast det första alternativet, <b>Redigera prioriteringar och budgettimmar i planeraren</b>, är aktiverat som standard.</p> 
       <ul> 
        <li> <p> Redigera prioriteringar och budgettimmar i planeraren</p> </li> 
-       <li> <p>Hantera resurspooler</p> <p><b>ANMÄRKNING</b>: För att kunna hantera resurspooler behöver en användare ytterligare åtkomst till ekonomiska data och behörigheter för projektekonomi. Om du ger en planeringsanvändare åtkomst till resurshantering som inte har tillgång till ekonomiska data, kan användaren fortfarande se allokeringarna per timme i resursplaneraren, men inte växla till kostnadsvyn eller visa affärsärendet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till finansiella uppgifter</a> och <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a>.</p> </li> 
-       <li> <p>Uppdatera planerade timmar i arbetsbelastningsutjämnaren</p> <p><b>ANMÄRKNING</b>: För att kunna uppdatera planerade timmar i Utjämning av arbetsbelastning måste användaren ha behörighet att bidra till objektet, med Aktivera tilldelningar under Avancerade inställningar. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Översikt över delningsbehörigheter för objekt</a>.</p> </li> 
+       <li> <p>Hantera resursgrupper</p> <p><b>Obs!</b> För att kunna hantera resurspooler behöver en användare ytterligare åtkomst till ekonomiska data och behörigheter för projektekonomi. Om du ger en planeringsanvändare åtkomst till resurshantering som inte har tillgång till ekonomiska data, kan användaren fortfarande se allokeringarna per timme i resursplaneraren, men inte växla till kostnadsvyn eller visa affärsärendet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a> och <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a>.</p> </li> 
+       <li> <p>Uppdatera planerade timmar i arbetsbelastningsutjämnaren</p> <p><b>Obs!</b> Om du vill uppdatera planerade timmar i arbetsbelastningsutjämnaren måste en användare ha behörighet att bidra till objektet, med Gör tilldelningar aktiverade under Avancerade inställningar. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Översikt över delningsbehörigheter för objekt</a>.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

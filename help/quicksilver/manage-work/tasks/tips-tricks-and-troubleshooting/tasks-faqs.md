@@ -2,7 +2,7 @@
 content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: Vanliga frågor om uppgifter
+title: Vanliga frågor och svar om uppgifter
 description: Som standard får en uppgiftsbeställare/-tilldelare inga e-postmeddelanden om ändringar av uppgifter som de tilldelar andra användare. Mängden meddelanden om dessa uppgifter skulle vara överväldigande för någon som rutinmässigt tilldelar ett stort antal uppgifter.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Vanliga frågor om uppgifter
+# Vanliga frågor och svar om uppgifter
 
 ## Får den användare som tilldelar uppgifter till andra användare meddelanden om ändringar eller uppdateringar av de uppgifter som de tilldelar?
 

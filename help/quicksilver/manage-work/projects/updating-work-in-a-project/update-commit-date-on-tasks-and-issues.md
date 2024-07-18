@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Uppdatera implementeringsdatum för aktiviteter och ärenden
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -77,10 +77,10 @@ Innan du kan redigera implementeringsdatumet för en uppgift eller utgåva måst
 Du kan uppdatera implementeringsdatumet för en uppgift eller ett problem i följande områden i Workfront:
 
 * Avsnittet Information om en uppgift eller ett problem
-* <span class="preview">Aktivitets- eller utgivningsrubriken</span>
+* <span class="preview">Aktivitets- eller problemhuvudet</span>
 
-  <span class="preview">Din Workfront- eller gruppadministratör måste lägga till implementeringsdatumet i uppgifts- eller utgivningsrubriken i layoutmallen för att kunna visa det från uppgifts- eller utgivningssidan.
-Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  <span class="preview">Din Workfront- eller gruppadministratör måste lägga till implementeringsdatumet i huvud för aktiviteten eller utgåvan av din layoutmall för att kunna visa det från aktivitets- eller utgivningssidan.
+Mer information finns i [Anpassa objektrubriker med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
 
 Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor.
 
@@ -90,25 +90,25 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 >
 >Mer information finns i följande artiklar:
 >
->* [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Sammanfattningsöversikt](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 >* [Anpassa hem och sammanfattning med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-1. Gå till en uppgift eller ett ärende som du har tilldelats som **Ägare**.
+1. Gå till en aktivitet eller ett problem som du har tilldelats som **ägare**.
 
    Mer information om hur du tar reda på vem som är aktivitetsägare för ett problem eller en uppgift finns i avsnittet [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Villkorligt och valfritt) Om Workfront- eller gruppadministratören har lagt till implementeringsdatumet i huvud för aktiviteten eller problemet klickar du på **Bekräftelsedatum** i sidhuvudet och välj sedan ett datum i kalendern. Om implementeringsdatumet inte finns i huvudet fortsätter du med följande steg. </span>
+1. <span class="preview">(Villkorligt och valfritt) Om Workfront- eller gruppadministratören har lagt till implementeringsdatumet i huvud för aktiviteten eller utgåvan klickar du på fältet **Bekräftelsedatum** i huvudet och väljer sedan ett datum i kalendern. Om implementeringsdatumet inte finns i huvudet fortsätter du med följande steg. </span>
 
    <span class="preview">![](assets/commit-date-task-header.png)</span>
 
-1. Klicka **Uppgiftsinformation** eller **Ärendeinformation** till vänster.
-1. Klicka **Ökning** för att utöka den.
-1. Uppdatera **Bekräftelsedatum** fält.
+1. Klicka på **Uppgiftsinformation** eller **Ärendeinformation** i den vänstra panelen.
+1. Klicka på **Översikt** för att expandera den.
+1. Uppdatera fältet **Verkställ datum**.
 
    ![](assets/task-commit-date-edit-highlighted-details-page.png)
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    När du har gjort den här ändringen händer följande:
 
@@ -126,6 +126,6 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 
      <!--![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)-->
 
-     Mer information om de meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet&quot;Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet&quot; i artikeln [Genomför datumöversikt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Mer information om de meddelanden och uppdateringar som utlöses av den här ändringen finns i avsnittet&quot;Meddelanden och uppdateringar som utlöses av ändring av implementeringsdatumet&quot; i artikeln [Bekräfta datumöversikt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 <!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.-->

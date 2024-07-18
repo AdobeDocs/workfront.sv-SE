@@ -34,7 +34,7 @@ Version 2019.1 innehåller förbättringar både för administratörer och andra
 
   Workfront-administratörer kan nu välja att visa eller dölja tidsstämplar för förfallodatum i arbetslistan och kalendern med hjälp av layoutmallar.
 
-* [Konfigurera standardroll för korrektur för icke-mottagare som öppnar ett korrektur](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
+* [Konfigurera standardkorrekturroll för icke-mottagare som öppnar ett korrektur](https://support.workfront.com/hc/en-us/articles/360016372633#configure-default-proofing-role)
 
   Workfront-administratörer kan nu konfigurera standardrollen för korrektur för användare som inte är angivna mottagare i korrekturets arbetsflöde, men som har åtkomst till korrekturet via sitt Workfront-objekt (till exempel projekt, uppgift eller utgåva).
 
@@ -90,7 +90,7 @@ Version 2019.1 innehåller förbättringar både för administratörer och andra
 
   Vi har förbättrat prestandan och förbättrat utseendet på projekt- och uppgiftslistor inom ytterligare områden.
 
-* [Skicka en levererad rapport i XLSX-format](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [Skicka en rapport i XLSX-format](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   Nu kan du schemalägga en rapport som ska levereras i MS Excel-format (.xlsx), utöver alla andra aktuella format.
 
@@ -108,7 +108,7 @@ Version 2019.1 innehåller förbättringar både för administratörer och andra
 
   Standardfiltret i resursplaneraren filtreras inte längre av projektgruppen.
 
-* [Använda jokertecken för resursplaneringsfilter](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
+* [Använder jokertecken för resursplaneringsfilter](https://support.workfront.com/hc/en-us/articles/360016247594#using-wildcards-for-resource-planner-filters)
 
   Du kan nu använda jokertecken när du skapar filter i resursplaneraren.
 
@@ -162,7 +162,7 @@ Version 2019.1 innehåller förbättringar både för administratörer och andra
 
   Nu kan du ändra bakgrundsfärgen i Desktop Proofing Viewer från standardfärgen nära svart till vitt.
 
-* [Rensa cachelagrade webbläsardata från ett korrektur](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
+* [Rensa cachade webbläsardata från ett korrektur](https://support.workfront.com/hc/en-us/articles/360016372633#clear-cached-browser-data-from-a-proof)
 
   Nu kan du rensa webbläsarens cachedata som kan sparas med ett korrektur så att allt innehåll visas i Desktop Proofing Viewer och granskarna kan se och kommentera det.
 
@@ -172,39 +172,39 @@ Version 2019.1 innehåller förbättringar både för administratörer och andra
 
   Det är nu mer användarvänligt och intuitivt att söka efter objekt i Workfront mobilapp.
 
-* [Startsidan är den nya standardlandningssidan i Workfront mobilappar](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [Startsida är den nya standardlandningssidan i Workfront mobilappar](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   Hemområdet är nu den nya standardlandningssidan för Workfront mobilappar. Detta stöds för både iOS- och Android-enheter.
 
-* [Nya alternativ för att ordna listor i Workfront Mobile App](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
+* [Nya alternativ för att ordna listor i Workfront-mobilappen](https://support.workfront.com/hc/en-us/articles/360016374093#new-options-for-organizing)
 
   Nu kan du filtrera, sortera och beställa listor i Workfront mobilapp.
 
-* [Stöd för Workfront Beta App for iOS Devices](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
+* [Stöd för Workfront Beta App för iOS-enheter](https://support.workfront.com/hc/en-us/articles/360016374093#support-for-workfront-beta-app-for-ios)
 
   Nu kan du registrera dig som betatestare för Workfront mobilapp från en iOS-enhet.
 
 * [Skapa enkelt uppgifter för Android Beta](https://support.workfront.com/hc/en-us/articles/360016374093#simple-task-creation-for-android-beta)
 
-  Nu kan du skapa uppgifter direkt från ett projekt, en uppgift eller från Hem-området för betaversionen av Android-mobilappen.
+  Nu kan du skapa uppgifter direkt från ett projekt, en uppgift eller från Hem-området för betaversionen av Android mobilapp.
 
-* [Ny förstagångssjälvstudiekurs för Workfront Mobile App för Android-enheter](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
+* [Ny självstudiekurs för första gången för Workfront Mobile App för Android-enheter](https://support.workfront.com/hc/en-us/articles/360016374093#new-first-time-tutorial)
 
   Utseendet på den självstudiekurs som visas första gången du öppnar Workfront mobilapp på en Android-enhet har uppdaterats.
 
 ### Förbättringar av appintegrering från tredje part
 
-* [Förbättringar av Workfront för Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [Förbättringar för Workfront för Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
   Det finns nu olika uppdateringar för Slack i Workfront, bland annat möjligheten att lägga upp en kommentar du gjort i Slack som kommentar på ett objekt i Workfront, prenumerera på att få meddelanden i Slack när någon kommenterar något av dina önskemål, med mera.
 
-* [Förbättringar av Workfront för Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [Förbättringar för Workfront för Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   Integreringen av Workfront för Jira innehåller nu de olika förbättringarna, bland annat en indikation när integreringen automatiskt skapar en användare i Jira, ett alternativ för att inaktivera det automatiska skapandet av Workfront-användare, med mera.
 
 ## Meddelanden
 
-* [API-version 10 nu tillgänglig i förhandsversion](#api-version-10-now-available-in-preview)
+* [API-version 10 är nu tillgänglig i förhandsgranskning](#api-version-10-now-available-in-preview)
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 
 ### API-version 4 stöds inte längre
@@ -227,22 +227,22 @@ API-version 10 finns nu i förhandsvisningsmiljön. Den kommer att bli tillgäng
 Följande SSO-alternativ (Single Sign-On) stöds nu endast i begränsad kapacitet. De kommer att tas bort från produkten under andra halvåret 2019:
 
 * LDAP\
-  Mer information om hur du använder LDAP med Workfront finns i [Konfigurera Workfront med LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
+  Mer information om LDAP med Workfront finns i [Konfigurera Workfront med LDAP.](https://support.workfront.com/hc/en-us/articles/217223517)
 
 * Active Directory\
-  Mer information om hur du använder Active Directory med Workfront finns i [Konfigurerar Workfront med Active Directory.](https://support.workfront.com/hc/en-us/articles/217223547)
+  Mer information om hur du använder Active Directory med Workfront finns i [Konfigurera Workfront med Active Directory.](https://support.workfront.com/hc/en-us/articles/217223547)
 
 * SAML 1.1\
   Mer information om hur du använder SAML 1.1 med Workfront finns i [Konfigurera Workfront med SAML 1.1.](https://support.workfront.com/hc/en-us/articles/217194887)
 
 Nedan visas borttagningstidslinjen för dessa SSO-alternativ:
 
-* **Begränsat stöd:** Augusti 2018-January 2019\
+* **Begränsad support:** augusti 2018 - januari 2019\
   Stora problem kommer att åtgärdas, men mindre allvarliga problem kommer inte att åtgärdas.
 
-* **Föråldring:** Januari 2019-augusti 2019\
+* **Borttagning:** januari 2019 - augusti 2019\
   Stöds inte.
 
-* **Finns inte längre i Workfront:** Augusti 2019
+* **Inte längre tillgängligt i Workfront:** augusti 2019
 
-Dessa ändringar görs som förberedelse för den förbättrade autentiseringsupplevelsen, som för närvarande endast är tillgänglig för ett begränsat antal kunder. Mer information om de kommande ändringarna finns i [Getting Started with the Enhanced Authentication Experience.](https://support.workfront.com/hc/en-us/articles/360008329033)
+Dessa ändringar görs som förberedelse för den förbättrade autentiseringsupplevelsen, som för närvarande endast är tillgänglig för ett begränsat antal kunder. Mer information om de här kommande ändringarna finns i [Komma igång med Förbättrad autentiseringsupplevelse.](https://support.workfront.com/hc/en-us/articles/360008329033)

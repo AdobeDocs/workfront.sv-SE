@@ -7,9 +7,9 @@ description: Du kan lägga till ett befintligt anpassat formulär till något av
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -64,43 +64,43 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för objektet som du vill bifoga ett anpassat formulär för.</p> <p>Visa eller högre behörigheter i det anpassade formuläret, med behörighet att <b>Bifoga till anpassade data</b> objekt (projekt, uppgifter och ärenden). Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett eget formulär</a>.</p> <p>Viktigt: Om du inte har någon planlicens med administrativ åtkomst till Custom Forms måste du ha specifika behörigheter för att åtminstone kunna visa det anpassade formuläret, vilket beskrivs i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett eget formulär</a>. Dessa behörigheter måste beviljas dig även om formuläret är synligt i hela systemet. </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
+   <td> <p>Hantera behörigheter för objektet som du vill bifoga ett anpassat formulär för.</p> <p>Visa eller högre behörigheter för det anpassade formuläret, med behörighet att <b>bifoga till anpassade data</b>-objekt (projekt, uppgifter och utgåvor). Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett anpassat formulär</a>.</p> <p>Viktigt! Om du inte har någon planlicens med administrativ åtkomst till anpassad Forms måste du ha specifika behörigheter för att åtminstone visa det anpassade formuläret, vilket beskrivs i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Dela ett anpassat formulär</a>. Dessa behörigheter måste beviljas dig även om formuläret är synligt i hela systemet. </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Förutsättningar
 
-Din Workfront-administratör eller en användare med en planlicens och administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö innan du kan lägga till dem i objekt. Mer information finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Din Workfront-administratör eller en användare med en planlicens och administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö innan du kan lägga till dem i objekt. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Lägga till ett anpassat formulär i ett objekt
 
 Du kan lägga till ett anpassat formulär till ett objekt på två sätt:
 
-* [Lägga till ett anpassat formulär till ett objekt genom att redigera objektet](#add-a-custom-form-to-an-object-by-editing-the-object)
+* [Lägg till ett anpassat formulär till ett objekt genom att redigera objektet](#add-a-custom-form-to-an-object-by-editing-the-object)
 * [Lägga till ett anpassat formulär till ett objekt från detaljområdet](#add-a-custom-form-to-an-object-from-the-details-area)
 
 ### Lägga till ett anpassat formulär till ett objekt genom att redigera objektet {#add-a-custom-form-to-an-object-by-editing-the-object}
 
 1. Gå till objektet där du vill lägga till det anpassade formuläret.
-1. Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Redigera** ![](assets/edit-icon.png).
-1. Klicka **Anpassad Forms** > **Lägg till Forms** väljer du upp till 10 formulär i listrutan.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** ![](assets/edit-icon.png).
+1. Klicka på **Anpassad Forms** > **Lägg till Forms** och välj upp till 10 formulär i listrutan.
 
 1. (Valfritt) Uppdatera informationen i de redigerbara fälten i det anpassade formuläret.
 
    Du måste uppdatera alla obligatoriska fält i formulären som du lägger till.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ### Lägga till ett anpassat formulär till ett objekt från detaljområdet {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Gå till objektet där du vill lägga till det anpassade formuläret.
-1. Klicka på **`<Object type>`Information** i den vänstra panelen. Klicka till exempel på **Projektinformation** för att lägga till anpassade formulär i ett projekt eller **Ärendeinformation** om du vill lägga till anpassade formulär i ett problem.
-1. Klicka på **Lägg till anpassat formulär** i det övre högra hörnet och välj sedan upp till 10 anpassade formulär i listan som visas.
+1. Klicka på avsnittet **`<Object type>`Information** i den vänstra panelen. Klicka till exempel på **Projektinformation** om du vill lägga till anpassade formulär i ett projekt eller **Ärendeinformation** om du vill lägga till anpassade formulär i ett problem.
+1. Klicka på fältet **Lägg till anpassat formulär** i det övre högra hörnet och välj sedan upp till 10 anpassade formulär i listan som visas.
 
    Om formuläret innehåller obligatoriska fält (markerade med en röd asterisk) behöver du inte fylla i dem just nu.
 
@@ -112,7 +112,7 @@ Du kan lägga till ett anpassat formulär till ett objekt på två sätt:
 
 Du kan lägga till upp till 10 anpassade formulär för ett givet objekt, så att du kan göra fält tillgängliga för vissa användare och inte för andra, eller så kan du bättre uppfylla formulärkraven för flera projekt.
 
-**Exempel:** Om ett befintligt projekt redan har ett anpassat formulär och fler anpassade fält behövs för det här projektet, som finns i ett annat anpassat formulär, kan du lägga till ett andra formulär i projektet med de ytterligare fälten i stället för att lägga till fälten i det befintliga anpassade formuläret.
+**Exempel:** Om ett befintligt projekt redan har ett anpassat formulär och fler anpassade fält behövs för det här projektet, som finns i ett annat anpassat formulär, kan du lägga till ett andra formulär i projektet med ytterligare fält i stället för att lägga till fälten i det befintliga anpassade formuläret.
 
 ## Lägga till ett anpassat formulär till flera objekt samtidigt
 
@@ -125,25 +125,25 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Att lägga till anpassade formulär till objekt är identiskt för alla objekt förutom projekt.
 >
->Mer information om hur du lägger till anpassade formulär i flera projekt finns i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+>Mer information om hur du lägger till anpassade formulär till projekt i grupp finns i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
 
 1. Navigera till en lista med objekt.
 1. Markera flera objekt i listan.
 
-1. Klicka på **Mer** meny ![](assets/more-icon.png)och klickar sedan på **Redigera** icon  ![](assets/edit-icon.png).
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
 
    eller
 
-   Klicka på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
-1. Klicka **Anpassad Forms** till vänster.
-1. i **Markera** väljer du det formulär som du vill koppla till alla markerade objekt.
+   Klicka på ikonen **Redigera** ![](assets/edit-icon.png) högst upp i listan.
+1. Klicka på **Egen Forms** i den vänstra panelen.
+1. i listrutan **Gör en markering** markerar du det formulär som du vill associera med alla markerade objekt.
 
    >[!NOTE]
    >
    >Om du inte hittar formuläret i listrutan innebär det att minst ett av objekten redan har det kopplade formuläret. Bestäm vilket objekt som är och ta bort det från markeringen innan du kan lägga till formuläret till de återstående objekten.
 
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Om formuläret innehåller obligatoriska fält (markerade med en röd asterisk) behöver du inte fylla i dem just nu.

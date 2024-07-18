@@ -92,10 +92,10 @@ Du måste ha följande:
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa <span>och kopiera</span> projekt</p> <p><b>ANMÄRKNING</b>
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>Redigera åtkomst till projekt med möjlighet att skapa projekt av typen <span> och Kopiera</span></p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
@@ -110,19 +110,19 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 När du kopierar ett projekt kopieras även viss information från det ursprungliga projektet till det nya projektet. Du kan också ange vilka objekt som inte ska kopieras till det nya projektet under kopieringsprocessen.
 
-Så här kopierar du ett projekt:
+Kopiera ett projekt:
 
-1. Gå till projektet som du vill kopiera och klicka på **Mer** icon ![](assets/qs-more-menu.png) till höger om projektnamnet
+1. Gå till projektet som du vill kopiera och klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på **Mer** icon ![](assets/qs-more-menu.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett projekt och klicka sedan på ikonen **Mer** ![](assets/qs-more-menu.png) längst upp i listan.
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Klicka **Kopiera**.
+1. Klicka på **Kopiera**.
 
 1. Uppdatera namnet på det nya projektet.
 
@@ -132,7 +132,7 @@ Så här kopierar du ett projekt:
 
 1. Välj **Status** för det nya projektet.
 
-   Som standard är **Status** matchar originalets egenskaper.
+   Som standard matchar **Status** det ursprungliga projektets status.
 
 1. (Valfritt) Avmarkera de objekt som du inte vill kopiera till det nya projektet. I följande tabell beskrivs vad som händer när du avmarkerar objekten:
 
@@ -145,7 +145,7 @@ Så här kopierar du ett projekt:
       <td role="rowheader">Markera alla</td> 
       <td> <p>Markerar alla alternativ och rensar alla fält och objekt som listas i det nya projektet.</p> <p><b>TIPS</b>
 
-   Avmarkera <strong>Markera alla</strong> avmarkerar alla objekt. </p> </td>
+   Om du avmarkerar <strong>Markera alla</strong> avmarkeras alla objekt. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Uppdrag</td> 
@@ -181,7 +181,7 @@ Så här kopierar du ett projekt:
       <td role="rowheader">Budgeterade timmar</td> 
       <td> <p>Tar bort de timmar som har budgeterats i resursplaneringsområdet för projektets affärsärende från det kopierade projektet.</p>
 
-<b>ANMÄRKNING</b>
+<b>OBS!</b>
 
 Timmar som har budgeterats med scenarioplaneraren kopieras aldrig till det nya projektet eftersom det nya projektet inte är länkat till något projekt i scenarioplaneraren. Mer information finns i <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetresurser i affärsärendet med scenarioplaneraren</a>
 </tr></td>
@@ -213,7 +213,7 @@ Timmar som har budgeterats med scenarioplaneraren kopieras aldrig till det nya p
     </tbody> 
    </table>
 
-1. Klicka **Kopiera** för att skapa en kopia av projektet.
+1. Klicka på **Kopiera** för att skapa en kopia av projektet.
 
    Detta skapar ett nytt projekt som liknar det projekt du kopierade.
 

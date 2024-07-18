@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Leta reda på resursplaneraren
-description: '"(Detta kom från den här artikeln: gör ett utkast till det innehållet i artikeln när det här kommer live: Planning/get-started-resource-planner.html)'''
+description: '(Den här artikeln kom ut: utkast till det innehållet i artikeln när den här artikeln publicerades: /Content/Resource Management/Resource Planning/get-started-resource-planner.html)'
 author: Alina
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
@@ -45,7 +45,7 @@ Du måste ha följande:
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa åtkomst eller senare till resurshantering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -70,7 +70,7 @@ Mer information om krav för resursplanering finns i [Kom igång med resursplane
 
 Du kan hitta resursplaneraren i två områden i Workfront, beroende på om du vill budgetera dina resurser för flera projekt eller bara för ett projekt.
 
-* [Använd resursplanering för flera projekt](#use-the-resource-planner-for-multiple-projects)
+* [Använd resursplaneraren för flera projekt](#use-the-resource-planner-for-multiple-projects)
 * [Använd resursplaneraren för ett projekt](#use-the-resource-planner-for-one-project)
 
 ### Använd resursplanering för flera projekt {#use-the-resource-planner-for-multiple-projects}
@@ -79,13 +79,13 @@ När du använder Resursplanering för flera projekt representerar resursalloker
 
 Så här öppnar du planeringsavsnittet i resursområdet:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Resurser**. Planeraren visas som standard.  Mer information om budgeteringsresurser i Resursplanering finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+1. Klicka på **Resurs**. Planeraren visas som standard.  Mer information om budgeteringsresurser i resursplaneraren finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Håll pekaren över den vänstra panelen och klicka **Resurspooler**.\
+1. Håll pekaren över den vänstra panelen och klicka på **Resurspooler**.\
    Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Använd resursplaneraren för ett projekt {#use-the-resource-planner-for-one-project}
@@ -93,9 +93,9 @@ Så här öppnar du planeringsavsnittet i resursområdet:
 När du använder Resursplanering för ett projekt representerar resursernas allokeringsnummer nummer nummer för det valda projektet.
 
 1. Gå till ett projekt som du vill budgetera resurser för.
-1. Klicka **Affärsärende** i den vänstra panelen.
-1. Bläddra till **Resursbudgetering** i affärsärendet.
-1. Klicka **Redigera resursbudgetering** för att lägga till resurspooler i projektet och börja budgetera resurser.
+1. Klicka på **Affärsfall** i den vänstra panelen.
+1. Bläddra till avsnittet **Resursbudgetering** i affärsärendet.
+1. Klicka på **Redigera resursbudgetering** om du vill lägga till resurspooler i projektet och börja budgetera dina resurser.
 
    >[!TIP]
    >

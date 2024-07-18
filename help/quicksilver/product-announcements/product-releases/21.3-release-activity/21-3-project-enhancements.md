@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som gjorts i version 21.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 21 juli 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 Versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Koppla en mall till en grupp
 
@@ -62,7 +62,7 @@ Mer information om leveransdatum finns i [Översikt över datum för aktivitetsl
 
 Nu kan du lägga till en befintlig artikel eller ett befintligt problem direkt från Scrum board. Det gör det enklare att lägga till befintliga artiklar i den aktuella upprepningen utan att behöva gå till eftersläpningssidan.
 
-Mer information finns i [Lägga till artiklar och utgåvor från Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+Mer information finns i [Lägga till artiklar och utgåvor från Samlingstavlan](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
 ## Lägg till nya artiklar och utgåvor från Scrum board
 
@@ -72,7 +72,7 @@ Mer information finns i [Lägga till artiklar och utgåvor från Scrum board](..
 
 Nu kan du skapa en ny artikel eller ett nytt problem direkt från Scrum board. Det gör det enklare att snabbt lägga till en ny artikel i den aktuella upprepningen.
 
-Mer information finns i [Lägga till artiklar och utgåvor från Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+Mer information finns i [Lägga till artiklar och utgåvor från Samlingstavlan](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
 ## Ta bort artikel eller utleverans från Kanban-tavlan
 
@@ -156,5 +156,5 @@ Vi har gjort det enklare att lägga till ett anpassat formulär som någon annan
 
 Tidigare när du lade till ett anpassat formulär till ett objekt, övergick sidan till redigeringsläge och du var tvungen att fylla i alla obligatoriska fält i formuläret innan du kunde spara det till objektet. Det var inte praktiskt när formuläret var avsett för en annan användare att fylla i, eller när du ännu inte visste vad som skulle läggas in i ett obligatoriskt fält i formuläret.
 
-Mer information om hur du lägger till ett anpassat formulär till ett objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Mer information om hur du lägger till ett anpassat formulär till ett objekt finns i [Lägga till ett anpassat formulär till ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

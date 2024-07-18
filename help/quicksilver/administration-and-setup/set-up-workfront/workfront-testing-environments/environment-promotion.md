@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Flytta objekt mellan [!DNL Workfront] miljöer som använder [!DNL Workfront] API för miljöerbjudande
+# Flytta objekt mellan [!DNL Workfront]-miljöer med [!DNL Workfront]-miljöreklam-API:t
 
 Med funktionen för miljöfrämjande åtgärder kan du flytta konfigurationsrelaterade objekt från en miljö till en annan. Du kan flytta dessa objekt med Workfront API enligt beskrivningen i den här artikeln.
 
@@ -47,16 +47,16 @@ Du måste ha följande:
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront] administratör.
+   <td>Du måste vara en [!DNL Workfront]-administratör.
    </td>
   </tr>
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
-Slutpunkten Skapa kampanjpaket förutsätter att du redan har konfigurerat källmiljön. Detta API-anrop kräver att du skapar en objektmappning av [!DNL Workfront] objCodes och objekt-GUID. Kartans specifika struktur beskrivs nedan.
+Slutpunkten Skapa kampanjpaket förutsätter att du redan har konfigurerat källmiljön. Detta API-anrop kräver att du skapar en objektmappning av [!DNL Workfront] objCodes och objekt-GUID:n manuellt. Kartans specifika struktur beskrivs nedan.
 
 ## Objekt som stöds för miljöbefordran
 
@@ -72,7 +72,7 @@ Autentisering utförs genom att ett sessions-ID eller en API-nyckel skickas, som
 
 ### Autentisering av begärandehuvud
 
-Den autentiseringsmetod som rekommenderas är att skicka ett begärandehuvud med namnet SessionID som innehåller sessionstoken. Fördelen med att vara säker mot [CSRF (Cross-site Request Forgery)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) och inte störa URI:n för cachelagring.
+Den autentiseringsmetod som rekommenderas är att skicka ett begärandehuvud med namnet SessionID som innehåller sessionstoken. Fördelen med detta är att det är säkert mot [CSRF-attacker (Cross-site Request Forgery)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) och att det inte stör URI:n för cachelagring.
 
 Följande är ett exempel på en begäranderubrik:
 
@@ -108,18 +108,18 @@ Det här anropet kör en flerstegsprocess.
 
 I det första steget skapas ett tomt kampanjpaket med statusen&quot;ASSEMBLING&quot;.
 
-I det andra steget används `objectCollections` arrayen finns i POSTENS brödtext för att sammanställa de begärda posterna från Workfront. Det här steget kan ta flera minuter, beroende på hur många poster som har begärts och din Workfront-konfiguration. I slutet av processen uppdateras det tomma erbjudandepaketet med `packageEntities` och statusen anges automatiskt till &quot;UTKAST&quot;.
+I det andra steget används arrayen `objectCollections` som finns i POSTENS brödtext för att samla ihop de begärda posterna från Workfront. Det här steget kan ta flera minuter, beroende på hur många poster som har begärts och din Workfront-konfiguration. I slutet av den här processen uppdateras det tomma erbjudandepaketet med `packageEntities` och statusen anges automatiskt till UTKAST.
 
 
 >[!NOTE]
 >
->Notera strukturen för `objectCollections`  array.
+>Observera strukturen för arrayen `objectCollections`.
 >
->Varje objekt i arrayen innehåller en `objCode` som motsvarar objektkoden som finns dokumenterad i Workfront API Explorer.
+>Varje objekt i arrayen innehåller en `objCode`-nyckel som motsvarar objektkoden som beskrivs i Workfront API Explorer.
 >
->Varje objekt innehåller också `entities` samling. Detta förväntar sig `ID` fält. Den kan också acceptera ett valfritt `name` för att göra det enklare att veta vad `ID` representerar.
+>Varje objekt innehåller också en `entities`-samling. Detta förväntar sig fältet `ID`. Den kan också acceptera ett valfritt `name`-attribut så att det blir lättare att veta vad `ID` representerar.
 >
->För listan över tillåtna objektkoder som ska begäras i `objectCollections` finns i [Objekt som stöds för miljöbefordran](#supported-objects-for-environment-promotion) i den här artikeln.
+>En lista över tillåtna objektkoder som ska begäras i listan `objectCollections` finns i avsnittet [Objekt som stöds för miljöbefordran](#supported-objects-for-environment-promotion) i den här artikeln.
 
 #### URL
 
@@ -373,7 +373,7 @@ De redigerbara attributen är:
 1. description (string)
 1. status (sträng med värdevalidering)
 
-En detaljerad beskrivning av tillgängliga statusar finns på [Status för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) i artikeln [Översikt över rörliga objekt mellan Workfront-miljöer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+En detaljerad beskrivning av tillgängliga statusvärden finns i [Status för miljöbefordran](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) i artikeln [Översikt över rörliga objekt mellan Workfront-miljöer](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -516,7 +516,7 @@ Det här anropet utför en jämförelse mellan paketdefinitionen och målmiljön
 
 Resultatet är ett JSON-organ som identifierar om ett erbjudande-objekt hittas eller inte i målmiljön.
 
-För varje erbjudande, något av följande `actions`  ställs in:
+Ett av följande `actions` kommer att anges för varje erbjudande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,24 +524,24 @@ För varje erbjudande, något av följande `actions`  ställs in:
  <tbody> 
   <tr> 
    <td>SKAPA</td> 
-   <td><p>När en motsvarande post inte kan hittas i målmiljön, ställs åtgärden in på CREATE.</p><p>När den här åtgärden anges i <code>translationmap</code> som tillhandahålls <code>/install</code> slutpunkten skapas posten av installationstjänsten.</p></td> 
+   <td><p>När en motsvarande post inte kan hittas i målmiljön, ställs åtgärden in på CREATE.</p><p>När den här åtgärden anges i <code>translationmap</code> som tillhandahålls till <code>/install</code>-slutpunkten, skapar installationstjänsten posten.</p></td> 
   </tr> 
   <tr> 
    <td>ANVÄNDNING</td> 
-   <td><p>När en motsvarande post hittas i målmiljön ställs åtgärden in på USEEXISTING och en <code>targetId</code> hämtas också i <code>translationmap</code>.</p><p>När den här åtgärden anges i <code>translationmap</code> som tillhandahålls <code>/install</code> slutpunkten kommer installationstjänsten inte att skapa posten. Det använder dock <code>targetId</code> som ingår i mappningsposten för andra objekt som kan ha en referens till den här posten.</p><p>En standardgrupp kan till exempel hittas i målmiljön som ett paket distribueras till. Det går inte att ha två standardgruppposter, så installationstjänsten använder GUID för den befintliga gruppen i andra objektskapande åtgärder som innehåller en referens till standardgruppen, till exempel ett projekt, ett formulär eller någon annan enhet som är relaterad till den här gruppen.</p><p><b>Obs!</b> <ul><li><p>När åtgärden USEEXISTING tilldelas ändras inte den befintliga posten i målmiljön. </p><p>Om beskrivningen för standardgruppen till exempel har ändrats i sandlådan där paketet skapades och beskrivningsvärdet är ett annat i målmiljön, ändras inte värdet efter en installation med det här <code>translationmap</code>.</li></ul></td> 
+   <td><p>När en motsvarande post hittas i målmiljön anges åtgärden till USEEXISTING och en <code>targetId</code> hämtas också i <code>translationmap</code>.</p><p>När den här åtgärden anges i <code>translationmap</code> som tillhandahålls till <code>/install</code>-slutpunkten skapas inte posten av installationstjänsten. Däremot används <code>targetId</code> som ingår i mappningsposten för andra objekt som kan ha en referens till den här posten.</p><p>En standardgrupp kan till exempel hittas i målmiljön som ett paket distribueras till. Det går inte att ha två standardgruppposter, så installationstjänsten använder GUID för den befintliga gruppen i andra objektskapande åtgärder som innehåller en referens till standardgruppen, till exempel ett projekt, ett formulär eller någon annan enhet som är relaterad till den här gruppen.</p><p><b>Obs!</b> <ul><li><p>När åtgärden USEEXISTING tilldelas ändras inte den befintliga posten i målmiljön. </p><p>Om beskrivningen för standardgruppen till exempel har ändrats i sandlådan där paketet skapades och beskrivningsvärdet är ett annat i målmiljön, ändras inte värdet efter en installation med denna <code>translationmap</code>.</li></ul></td> 
   </tr> 
   <tr> 
    <td>ÖVERSKRIVNING</td> 
-   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den här åtgärden ger möjlighet att uppdatera ett objekt som finns i målmiljön. Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan den körs <code>/install</code> ring.<ul><li>En användare kan uppdatera ett objekt i testmiljön och sedan använda åtgärden VERWRITING för att uppdatera objektet i målmiljön.</p></li><li><p>Om användaren installerar ett erbjudandepaket från början och sedan ett nytt (eller uppdaterat) paket i framtiden innehåller ändringar av objekt i det ursprungliga paketet, kan användaren använda OVERWRITING för att ersätta (åsidosätta) tidigare installerade objekt. </p><p>Mer information om överskrivning finns i avsnittet [Skriva över](#overwriting) i den här artikeln.</li><ul></td> 
+   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den här åtgärden ger möjlighet att uppdatera ett objekt som finns i målmiljön. Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan anropet <code>/install</code> verkställs.<ul><li>En användare kan uppdatera ett objekt i testmiljön och sedan använda åtgärden VERWRITING för att uppdatera objektet i målmiljön.</p></li><li><p>Om användaren installerar ett erbjudandepaket från början och sedan ett nytt (eller uppdaterat) paket i framtiden innehåller ändringar av objekt i det ursprungliga paketet, kan användaren använda OVERWRITING för att ersätta (åsidosätta) tidigare installerade objekt. </p><p>Mer information om överskrivning finns i avsnittet [Skriva över](#overwriting) i den här artikeln.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
-   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan den körs <code>/install</code> ring.</p><p><b>Anteckningar: </b><ul><li><p>Om en post som ursprungligen var inställd på CREATE är inställd på IGNORE, bör alla underordnade poster också vara inställda på IGNORE.</p><p>Om en mallpost till exempel har mappats med en CREATE-åtgärd och användaren vill utesluta den från distributionen, kan de ange att mallens åtgärd ska vara IGNORE.</p><p>Om den installerande användaren inte anger IGNORE för malluppgifter, malluppgiftstilldelningar, föregående malluppgifter, ködefinition, köämnen, routningsregler osv. resulterar distributionen i ett misslyckat installationsförsök.</p></li><li><p>Om en post som ursprungligen var inställd på USEEXISTING är inställd på IGNORE kan det uppstå vissa negativa effekter under installationen.</p><p>Om en grupppost till exempel har mappats med åtgärden USEEXISTING och användaren som installerar ändrar åtgärden till IGNORE, för objekt som kräver en grupp (t.ex. ett projekt kan inte finnas utan en grupp tilldelad), tilldelas systemstandardgruppen till det projektet.</p></li><li><p>Om en post som ursprungligen var inställd på USEEXISTING är inställd på CREATE kan det uppstå vissa negativa effekter under installationsprocessen eftersom många Workfront-enheter har unika namnbegränsningar.</p><p>Om till exempel en post av typen "Standardgrupp" mappades med åtgärden USEEXISTING, och den installerande användaren ändrar åtgärden till CREATE eftersom det redan finns en "Standardgrupp", kommer installationsförsöket inte att kunna slutföra alla steg. Gruppnamn måste vara unika.</p><p>Vissa entiteter har ingen unik namnbegränsning. Om du gör den här ändringen för dessa objekt får du två poster med samma namn. Mallar, projekt, vyer, filter, grupperingar, rapporter och kontrollpaneler kräver till exempel inga unika namnbegränsningar. Det är bäst att ha unika namn för de här posterna, men de används inte.</p></li></ul></p></td> 
+   <td><p>Den här åtgärden ställs inte in automatiskt.</p><p>Den ger möjlighet att manuellt åsidosätta en tilldelad CREATE- eller USEEXISTING-åtgärd innan anropet <code>/install</code> verkställs.</p><p><b>Anteckningar: </b><ul><li><p>Om en post som ursprungligen var inställd på CREATE är inställd på IGNORE, bör alla underordnade poster också vara inställda på IGNORE.</p><p>Om en mallpost till exempel har mappats med en CREATE-åtgärd och användaren vill utesluta den från distributionen, kan de ange att mallens åtgärd ska vara IGNORE.</p><p>Om den installerande användaren inte anger IGNORE för malluppgifter, malluppgiftstilldelningar, föregående malluppgifter, ködefinition, köämnen, routningsregler osv. resulterar distributionen i ett misslyckat installationsförsök.</p></li><li><p>Om en post som ursprungligen var inställd på USEEXISTING är inställd på IGNORE kan det uppstå vissa negativa effekter under installationen.</p><p>Om en grupppost till exempel har mappats med åtgärden USEEXISTING och användaren som installerar ändrar åtgärden till IGNORE, för objekt som kräver en grupp (t.ex. ett projekt kan inte finnas utan en grupp tilldelad), tilldelas systemstandardgruppen till det projektet.</p></li><li><p>Om en post som ursprungligen var inställd på USEEXISTING är inställd på CREATE kan det uppstå vissa negativa effekter under installationsprocessen eftersom många Workfront-enheter har unika namnbegränsningar.</p><p>Om till exempel en post av typen "Standardgrupp" mappades med åtgärden USEEXISTING, och den installerande användaren ändrar åtgärden till CREATE eftersom det redan finns en "Standardgrupp", kommer installationsförsöket inte att kunna slutföra alla steg. Gruppnamn måste vara unika.</p><p>Vissa entiteter har ingen unik namnbegränsning. Om du gör den här ändringen för dessa objekt får du två poster med samma namn. Mallar, projekt, vyer, filter, grupperingar, rapporter och kontrollpaneler kräver till exempel inga unika namnbegränsningar. Det är bäst att ha unika namn för de här posterna, men de används inte.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-Det finns för närvarande inget stöd för UPDATE `action` i den här tjänstens alfafunktioner. Alternativet att tillåta en UPPDATERING `action` är något vi undersöker.
+Det finns för närvarande inget stöd för UPDATE `action` i den här tjänstens alfafunktioner. Alternativet att tillåta en UPDATE `action` är något som vi undersöker.
 
 #### URL
 
@@ -671,7 +671,7 @@ eller
 
 >[!NOTE]
 >
->Det ID som du måste köra installationen är `id` fält. I det här exemplet `id` fältet är tredje uppifrån och har ett värde som börjar med `c0bc79bd`.
+>Det ID som du måste köra installationen är fältet `id`. I det här exemplet är fältet `id` tredje från överkanten och har ett värde som börjar med `c0bc79bd`.
 
 ### Kör en installation
 
@@ -681,7 +681,7 @@ eller
 >
 >Om några ändringar har gjorts i målmiljön (miljön som paketet distribueras till) efter att förkörningen har körts rekommenderar vi att du kör förkörningen igen. Om du inte kör förkörningen igen kanske inte körningen är korrekt eller så kan installationen misslyckas.
 >
->Instruktioner om hur du kör en förkörning finns i [Utför en förkörning](#execute-a-pre-run).
+>Instruktioner om hur du kör en förkörning finns i [Kör en förkörning](#execute-a-pre-run).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -837,15 +837,15 @@ _Tom_
   </tbody> 
 </table>
 
-Det här samtalet returnerar det sista `translationMap` som har producerats av installationstjänsten för en specifik installation.
+Det här samtalet returnerar det sista `translationMap` som skapats av installationstjänsten för en specifik installation.
 
-Varje post anger vad som föreskrivs `action` och om åtgärden lyckades eller inte.
+Varje post anger vad den förskrivna `action` var och om åtgärden lyckades eller inte.
 
-För poster med en CREATE `action` den `targetId` fältet ställs in med värdet för den nyligen skapade posten i målsystemet. Dessutom kan du `installationStatus` fältet ställs in på INSTALLED.
+För poster med CREATE `action` ställs fältet `targetId` in med värdet för den nyligen skapade posten i målsystemet. Dessutom ställs fältet `installationStatus` in på INSTALLED.
 
-För poster med USEEXISTING `action` den `targetId` -fältet ställs också in och `installationStatus` kommer att ställas in på REGISTRERAD. Detta innebär att mappningsprocessen var slutförd och att installationstjänsten bekräftar att den har utvärderat posten och att det inte finns något att agera på.
+För poster med USEEXISTING `action` ställs även fältet `targetId` in och fältet `installationStatus` ställs in på REGISTERED. Detta innebär att mappningsprocessen var slutförd och att installationstjänsten bekräftar att den har utvärderat posten och att det inte finns något att agera på.
 
-Om posten har en CREATE `action` men posten inte kan skapas, `installationStatus` ställs in på FAILED och orsaken till felet anges också.
+Om posten har CREATE `action` men inte kan skapa posten, ställs `installationStatus` in på FAILED och orsaken till felet anges också.
 
 #### URL
 
@@ -919,14 +919,14 @@ _Tom_
 Detta är en trestegsprocess.
 
 1. Skapa en översättningskarta (motsvarar fasen&quot;förbereda installation&quot;)
-1. Redigera den genererade översättningskartan och ange `action` och `targetId` fält för objekt som de vill skriva över. Åtgärden bör vara `OVERWRITING`och `targetId` ska vara uuid för objektet som ska skrivas över
+1. Redigera den genererade översättningskartan och ange fälten `action` och `targetId` för alla objekt som ska skrivas över. Åtgärden ska vara `OVERWRITING` och `targetId` ska vara uuid för objektet som ska skrivas över
 1. Kör installationen.
 
 * [Steg 1 - Skapa en översättningskarta](#step-1---create-a-translation-map)
 * [Steg 2 - Ändra översättningskartan](#step-2---modify-the-translation-map)
 * [Steg 3 - Installera](#step-3---install)
 
-### **Steg 1 - Skapa en översättningskarta**
+### **Steg 1 - Skapa en översättningsöversikt**
 
 #### URL
 
@@ -940,7 +940,7 @@ Ingen
 
 #### Svar
 
-En översättningskarta, med en `202 - OK` status
+En översättningskarta med statusen `202 - OK`
 
 ```json
 {
@@ -1017,13 +1017,13 @@ En översättningskarta, med en `202 - OK` status
 
 Det finns ingen slutpunkt för det här steget.
 
-1. I översättningskartan returneras [Steg 1 - Skapa en översättningskarta](#step-1---create-a-translation-map)kontrollerar du listan med objekt som ska installeras.
+1. Granska listan över objekt som ska installeras i översättningskartan som returnerades i [Steg 1 - Skapa en översättningskarta](#step-1---create-a-translation-map).
 1. Uppdatera åtgärdsfältet för varje objekt till önskad installationsåtgärd.
-1. Validera `targetId` på varje objekt. Om set-åtgärden är `USEEXISTING` eller `OVERWRITING`, `targetId` ska anges till UUID för målobjektet i målmiljön. För andra åtgärder ska targetId vara en tom sträng.
+1. Validera `targetId` för varje objekt. Om set-åtgärden är `USEEXISTING` eller `OVERWRITING` ska `targetId` anges som UUID för målobjektet i målmiljön. För andra åtgärder ska targetId vara en tom sträng.
 
    >[!NOTE]
    >
-   >The `targetId` fylls redan i om en kollision upptäcktes.
+   >`targetId` har redan fyllts i om en kollision upptäcktes.
 
 ### **Steg 3 - Installera**
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Brödtext
 
-Detta är ett objekt med ett enda fält `translationMap`som ska vara lika med den ändrade översättningskartan från [Steg 2 - Ändra översättningskartan](#step-2---modify-the-translation-map).
+Det här är ett objekt med ett enskilt fält `translationMap`, som ska vara lika med den ändrade översättningskartan från [Steg 2 - Ändra översättningskartan](#step-2---modify-the-translation-map).
 
 ```json
 {
@@ -1114,7 +1114,7 @@ Detta är ett objekt med ett enda fält `translationMap`som ska vara lika med de
 
 #### Svar
 
-Svaret innehåller `{uuid of the created installation}` och `202 - ACCEPTED` status.
+Svaret innehåller statusen `{uuid of the created installation}` och `202 - ACCEPTED`.
 
 Exempel: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

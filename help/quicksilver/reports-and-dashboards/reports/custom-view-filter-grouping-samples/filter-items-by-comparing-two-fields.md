@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: ta bort objekt i en lista genom att jämföra två fälts'
+title: 'Filter: ta bort objekt i en lista genom att jämföra två fält'
 description: Du kan filtrera objekt från en lista genom att jämföra två av deras fält. Du kan till exempel bara visa uppgifter där aktivitetens verkliga slutförandedatum är större än det planerade slutförandedatumet.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra ett filter</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -53,19 +53,19 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Filtrera objekt genom att jämföra två fält
 
 1. Gå till en lista med uppgifter.
-1. Från **Filter** nedrullningsbar meny, välja **Nytt filter**.
+1. Välj **Nytt filter** i listrutan **Filter**.
 
-1. Klicka **Lägg till filterregel** och lägga till **Faktiskt slutförandedatum** >**Större än** > **Välj ett datum**.
+1. Klicka på **Lägg till filterregel** och lägg till **Faktiskt slutförandedatum** >**Större än** > **Välj ett datum**.
 
    >[!TIP]
    >
    >Välj den filtermodifierare som du vill använda för det markerade fältet, om den är tillgänglig.
 
-1. Klicka **Växla till textläge**.
-1. I **Ange filterregler för rapporten** lägger du till följande kod:
+1. Klicka på **Växla till textläge**.
+1. Lägg till följande kod i området **Ange filterregler för rapporten**:
 
    ```
    actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
    ```
 
-1. Klicka **Klar** sedan **Spara filter**.
+1. Klicka på **Klar** och sedan på **Spara filter**.

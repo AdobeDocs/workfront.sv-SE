@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Den här sidan innehåller information om de funktioner som ingår i den första utgåvan av kvartalet 2024. Dessa förbättringar planeras bli tillgängliga i produktionsmiljön för alla kunder med 24.1-utgåvan den 18 och 19 januari 2024.
 
-24.1-utgåvan av webbinariet var den 11 januari 2024. Du kan [registrera dig för webbinariet för att visa en on-demand-inspelning här](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+24.1-utgåvan av webbinariet var den 11 januari 2024. Du kan [registrera dig för webbinariet om du vill visa en inspelning på begäran här](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
-<span class="preview">Funktioner utanför cykeln (de som lanserades till Production före första utgåvan av kvartal 2024) markeras med gult.</span>
+<span class="preview">Funktioner utanför cykeln (de som släpps till produktion före första utgåvan av kvartal 2024) är markerade i gult.</span>
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Handläggningsbeslut för korrektur/dokument är nu tillgängliga de senaste 12 månaderna</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Beslut om korrektur/dokument är nu tillgängliga för de senaste 12 månaderna</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Rapporterna om användarbeslut för både nya och gamla licenstyper visar nu antalet beslut för den aktuella månaden samt de föregående 12 månaderna.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -134,7 +134,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterad status för dokumentgodkännanden</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdaterade statusvärden för dokumentgodkännanden</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra dokumentets godkännandestatus tydligare har vi uppdaterat tillgängliga dokumentstatusgodkännanden. Godkännandestatusen gäller nu för granskarna som markerar sin granskning som slutförd, liksom fall där det bara finns granskare men inte godkännare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -153,7 +153,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat ett nytt <strong>Slutför min granskning</strong> -knappen.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Markera en granskning som slutförd</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra det tydligare när ett dokument har granskats och är klart för nästa godkännandefas har vi skapat en ny <strong>Slutför min granskning</strong>-knapp.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -172,7 +172,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokumentets gransknings- och godkännandestatus visas i dokumentrubriken</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi lagt till statusen i sidhuvudet på sidan Dokumentinformation.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokumentets gransknings- och godkännandestatus visas i dokumenthuvudet</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att göra gransknings- och godkännandeprocessen mer genomskinlig har vi lagt till statusen i sidhuvudet på sidan Dokumentinformation.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -229,7 +229,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratörskontroller för nya Hem med layoutmallar</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Administratörer kan nu anpassa nya startsidor för användare med hjälp av layoutmallar. Anpassningsalternativen inkluderar val av obligatoriska widgetar och deras placering, val av bakgrund och widgetspecifika alternativ för att välja tillgängliga filter och grupper (och inställning av standardvärden).</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -247,7 +247,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Snabbåtgärdsknapparna för Mitt arbete har ändrats så att de bara visas när du för musen över</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Snabbåtgärdsknapparna för Mitt arbete har ändrats till att endast visas när muspekaren förs över</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För att förbättra prestandan visas nu snabbåtgärdsknapparna i widgeten Mitt arbete endast när du håller muspekaren över en arbetsuppgift.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -281,7 +281,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Nu används metadata i Experience Manager Assets Essentials <code>xcm:keywords</code> i stället för <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har uppdaterat integreringen av Experience Manager Assets Essentials för att matcha upplevelsen av Experience Manager Assets as a Cloud Service integrering. När du mappar flera enkelradiga textfält till ett enda fält i Experience Manager Assets använder båda tjänsterna nu <code>xcm:keywords</code> fält.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappningsmetadata i Experience Manager Assets Essentials använder nu <code>xcm:keywords</code> i stället för <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har uppdaterat integreringen av Experience Manager Assets Essentials så att den matchar upplevelsen i Experience Manager Assets as a Cloud Service integrering. När du mappar flera enkelradiga textfält till ett enda fält i Experience Manager Assets använder båda tjänsterna nu fältet <code>xcm:keywords</code>.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -313,7 +313,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Publicera material automatiskt i Adobe Experience Manager</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har lagt till ytterligare ett arbetsflöde i Adobe Experience Manager-integreringen. Nu kan du ange att dina resurser ska publiceras automatiskt när de skickas till Adobe Experience Manager. Integrationen kan konfigureras för att publicera till Adobe Experience Manager publiceringstjänst eller till en Adobe Experience Manager varumärkesportal.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Publicera resurser automatiskt i Adobe Experience Manager</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har lagt till ytterligare ett arbetsflöde i Adobe Experience Manager-integreringen. Nu kan du ange att dina resurser ska publiceras automatiskt när de skickas till Adobe Experience Manager. Integrationen kan konfigureras för att publicera till Adobe Experience Manager publiceringstjänst eller till en Adobe Experience Manager varumärkesportal.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -404,7 +404,7 @@ Den här sidan innehåller information om de funktioner som ingår i den första
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Den nya kommentarsfunktionen hämtar in all information för projekt, uppgifter, ärenden och dokument</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Projekt, uppgifter, ärenden och dokument visar alla uppdateringar i det nya området för kommenteringsupplevelser sedan början av din Workfront-instans.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Den nya kommentarsfunktionen samlar in all information för projekt, uppgifter, utgåvor och dokument</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Projekt, uppgifter, ärenden och dokument visar alla uppdateringar i det nya området för kommenteringsupplevelser sedan början av din Workfront-instans.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -460,15 +460,15 @@ Den här sidan innehåller information om de funktioner som ingår i den första
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production på en rad utanför den första utgåvan av kvartal 2023. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production på en rad utanför den första utgåvan av kvartal 2023. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
 Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### Förbättringar av Workfront-korrektur
+### Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-mål
 
@@ -478,14 +478,14 @@ Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det h
 
 För API-version 17 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i den första utgåvan av kvartal 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjordes under den första utgåvan av kvartal 2024 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).

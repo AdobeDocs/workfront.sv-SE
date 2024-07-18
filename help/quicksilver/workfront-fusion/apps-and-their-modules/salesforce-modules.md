@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Salesforce] moduler
 
-I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder [!DNL Salesforce], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder [!DNL Salesforce] och ansluta det till flera tredjepartsprogram och -tjänster.
 
 En videointroduktion till Salesforce-anslutningen finns på:
 
@@ -30,8 +30,8 @@ Mer information om moduler finns i [Moduler i [!DNL Adobe Workfront Fusion]](../
 
 >[!NOTE]
 >
->* Inte alla utgåvor av [!DNL Salesforce] har API-åtkomst. Mer information finns i informationen om [!DNL Salesforce] utgåvor med API-åtkomst på [!DNL Salesforce] Webbplats för communityn.
->* För information om specifika fel som returneras från [!DNL Salesforce] API, se [!DNL Salesforce] API-dokument. Du kan även kontrollera status för [!DNL Salesforce] API för eventuella tjänstavbrott.
+>* Alla utgåvor av [!DNL Salesforce] har inte API-åtkomst. Mer information finns i informationen om [!DNL Salesforce] utgåvor med API-åtkomst på [!DNL Salesforce] Community-webbplatsen.
+>* Information om specifika fel som returneras från API:t [!DNL Salesforce] finns i API-dokumenten för [!DNL Salesforce]. Du kan också kontrollera status för [!DNL Salesforce] API:t för eventuella tjänstavbrott.
 >
 
 ## Åtkomstkrav
@@ -53,29 +53,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Salesforce] moduler, du måste ha en [!DNL Salesforce] konto.
+Du måste ha ett [!DNL Salesforce]-konto för att kunna använda [!DNL Salesforce]-moduler.
 
 ## Om att söka efter [!DNL Salesforce] objekt
 
@@ -85,9 +85,9 @@ När du söker efter objekt kan du antingen ange enskilda sökord eller skapa en
 * Använd frågetecken som jokertecken (?) som ersättning för ett enda tecken. Om du söker efter Jo?n hittas objekt med termen John eller Joan men inte Jon
 * Använd operatorn för citattecken (&quot; &quot;) för att hitta en exakt frasmatchning. Till exempel:&quot;Månadsmöte&quot;
 
-Mer information om sökmöjligheter finns i [!DNL Salesforce] dokumentation om SOQL och SOSL.
+Mer information om sökmöjligheter finns i [!DNL Salesforce]-utvecklardokumentationen om SOQL och SOSL.
 
-## [!DNL Salesforce] moduler och deras fält
+## [!DNL Salesforce]-moduler och deras fält
 
 * [Utlösare](#triggers)
 * [Åtgärder](#actions)
@@ -111,11 +111,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type] </td> 
-   <td> <p>Välj typ av [!DNL Salesforce] spela in som du vill att modulen ska bevaka.</p> </td> 
+   <td> <p>Välj den typ av [!DNL Salesforce]-post som du vill att modulen ska bevaka.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Fields]</td> 
@@ -138,27 +138,27 @@ Den här utlösarmodulen kör ett scenario när någon skickar ett meddelande. M
 
 Den här modulen kräver extra inställningar:
 
-1. Gå till [!DNL Salesforce] konfigurationssida.
+1. Gå till konfigurationssidan för [!DNL Salesforce].
 
-   Om du vill komma åt installationssidan letar du upp och klickar på knappen &quot;[!UICONTROL Setup]&quot; i det övre högra hörnet av [!DNL Salesforce] konto. Från [!DNL Salesforce] konfigurationssida, leta upp[!UICONTROL Quick Find / Search]&quot; bar till vänster. Sök efter &quot;[!UICONTROL Workflow Rules].&quot;
+   Om du vill komma åt konfigurationssidan letar du upp och klickar på knappen [!UICONTROL Setup] i det övre högra hörnet av [!DNL Salesforce]-kontot. Gå till fältet [!UICONTROL Quick Find / Search] till vänster på konfigurationssidan för [!DNL Salesforce]. Sök efter [!UICONTROL Workflow Rules].
 
 1. Klicka på **[!UICONTROL Workflow Rules]**.
-1. På [!UICONTROL Workflow Rules] sida som visas klickar du på **[!UICONTROL New Rule]** och välj den objekttyp som regeln ska gälla för (till exempel &quot;[!UICONTROL Opportunity]&quot; om du övervakar uppdateringar av säljprojektsposter).
+1. På sidan [!UICONTROL Workflow Rules] som visas klickar du på **[!UICONTROL New Rule]** och väljer den objekttyp som regeln ska gälla för (till exempel [!UICONTROL Opportunity] om du övervakar uppdateringar av säljprojektsposter).
 1. Klicka på **[!UICONTROL Next]**.
 1. Ange ett regelnamn, utvärderingskriterier och regelvillkor och klicka sedan på **[!UICONTROL Save]** och **[!UICONTROL Next]**.
 
 1. Klicka på **[!UICONTROL Done]**.
-1. Klicka på den nya arbetsflödesregeln **[!UICONTROL Edit]**..
+1. Klicka på **[!UICONTROL Edit]** från den nyligen skapade arbetsflödesregeln.
 1. I listrutan **[!UICONTROL Add Workflow Action]** väljer du **[!UICONTROL New Outbound Message]**.
 
 1. Ange namn, beskrivning, slutpunkts-URL och fält som du vill inkludera i det nya utgående meddelandet och klicka sedan på **[!UICONTROL Save]**.
 
-   The **[!UICONTROL Endpoint URL]** fältet innehåller den URL som finns på [!DNL Salesforce] [!UICONTROL Outbound Message] in [!DNL Workfront Fusion].
+   Fältet **[!UICONTROL Endpoint URL]** innehåller URL:en som anges för [!DNL Salesforce] [!UICONTROL Outbound Message] i [!DNL Workfront Fusion].
 
-1. Konfigurera ett scenario som börjar med [!UICONTROL Outbound Message] -händelse.
+1. Konfigurera ett scenario som börjar med händelsen [!UICONTROL Outbound Message].
 
-1. Klicka på **&lt;/>** ikonen längst ned till höger och kopiera den angivna URL:en.
-1. Återgå till **[!UICONTROL Workflow Rules]** söker du efter den nya regeln och klickar på **[!UICONTROL Activate]**.
+1. Klicka på ikonen **&lt;/>** längst ned till höger och kopiera den angivna URL:en.
+1. Gå tillbaka till sidan **[!UICONTROL Workflow Rules]**, leta reda på den nya regeln och klicka sedan på **[!UICONTROL Activate]**.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -168,11 +168,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td> <p>Välj den webkrok som du vill använda för att bevaka utgående meddelanden. Om du vill lägga till en webkrok klickar du på <strong>[!UICONTROL Add]</strong> och ange webbhakens namn och anslutning.</p> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Välj den webkrok som du vill använda för att bevaka utgående meddelanden. Om du vill lägga till en webkrok klickar du på <strong>[!UICONTROL Add]</strong> och anger webkrokens namn och anslutning.</p> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Välj typ av [!DNL Salesforce] registrera att du vill att modulen ska bevaka utgående meddelanden.</p> </td> 
+   <td> <p>Välj den typ av [!DNL Salesforce]-post som du vill att modulen ska bevaka för utgående meddelanden.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Fields]</td> 
@@ -191,11 +191,11 @@ Denna utlösarmodul startar ett scenario när ett fält uppdateras i [!DNL Sales
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Välj den typ av post som innehåller fältet som du vill att modulen ska bevaka. Du måste välja en posttyp som har [!UICONTROL Field History] aktiverad [!DNL Salesforce] konfiguration. Mer information finns i <a href="https://help.salesforce.com/articleView?id=tracking_field_history.htm&amp;type=5">Spårning av fälthistorik</a> i [!DNL Salesforce] dokumentation. </p> </td> 
+   <td> <p>Välj den typ av post som innehåller fältet som du vill att modulen ska bevaka. Du måste välja en posttyp som har [!UICONTROL Field History] aktiverat i [!DNL Salesforce]-konfigurationen. Mer information finns i <a href="https://help.salesforce.com/articleView?id=tracking_field_history.htm&amp;type=5">Spåra fälthistorik</a> i [!DNL Salesforce]-dokumentationen. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Field]</td> 
@@ -233,11 +233,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Record Type] </p> </td> 
-   <td> <p>Välj typ av [!DNL Salesforce] som du vill att modulen ska skapa. Fälten blir tillgängliga baserat på vilken typ av post som har valts i [!UICONTROL Record Type] fält. Dessa fält är baserade på [!DNL Salesforce] API.</p> </td> 
+   <td> <p>Välj den typ av [!DNL Salesforce]-post som du vill att modulen ska skapa. Fälten blir tillgängliga baserat på den typ av post som valts i fältet [!UICONTROL Record Type]. Dessa fält är baserade på [!DNL Salesforce]-API:t.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select fields to map]</td> 
@@ -262,11 +262,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr>
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Record Type]</td>
-    <td>Välj typ av [!DNL Salesforce] som du vill att modulen ska [åtgärd].read.</td>
+    <td>Välj den typ av [!DNL Salesforce]-post som du vill att modulen ska [åtgärd].read.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Record Fields]</td>
@@ -274,7 +274,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr>
     <td>[!UICONTROL ID]</td>
-    <td> <p>Ange eller mappa det unika [!DNL Salesforce] ID för den post som du vill att modulen ska läsa.</p> <p>Öppna [!DNL Salesforce] i webbläsaren och kopiera texten i slutet av URL:en efter det sista snedstrecket (/). Exempel: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
+    <td> <p>Ange eller mappa det unika [!DNL Salesforce]-ID:t för posten som du vill att modulen ska läsa.</p> <p>Om du vill hämta ID:t öppnar du objektet [!DNL Salesforce] i webbläsaren och kopierar texten i slutet av URL:en efter det sista snedstrecket (/). Exempel: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -295,31 +295,31 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Välj typ av [!DNL Salesforce] som du vill att modulen ska ta bort.</p> </td> 
+   <td> <p>Välj den typ av [!DNL Salesforce]-post som du vill att modulen ska ta bort.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>Ange eller mappa det unika [!DNL Salesforce] ID för den post som du vill att modulen ska ta bort.</p> <p>Öppna [!DNL Salesforce] i webbläsaren och kopiera texten i slutet av URL:en efter det sista snedstrecket (/). Exempel: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
+   <td> <p>Ange eller mappa det unika [!DNL Salesforce]-ID:t för posten som du vill att modulen ska ta bort.</p> <p>Om du vill hämta ID:t öppnar du objektet [!DNL Salesforce] i webbläsaren och kopierar texten i slutet av URL:en efter det sista snedstrecket (/). Exempel: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Custom API Call]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Salesforce] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Salesforce] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Salesforce]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Salesforce]-modulerna.
 
 Modulen returnerar följande:
 
-* **[!UICONTROL Status Code]** (nummer): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
-* **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för den svars-/statuskod som inte relaterar till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
+* **[!UICONTROL Status Code]** (tal): Detta anger om HTTP-begäran lyckades eller misslyckades. Det här är standardkoder som du kan söka efter på Internet.
+* **[!UICONTROL Headers]** (objekt): En mer detaljerad kontext för svars-/statuskoden som inte relaterar till utdatatexten. Alla sidhuvuden som visas i en svarshuvud är inte svarshuvuden, så en del kanske inte är användbara för dig.
 
   Svarshuvuden beror på den HTTP-begäran du valde när du konfigurerade modulen.
 
-* **[!UICONTROL Body]** (objekt): Beroende på vilken HTTP-begäran du valde när du konfigurerade modulen kan du få tillbaka data. Dessa data, till exempel data från en [!UICONTROL GET] finns i det här objektet.
+* **[!UICONTROL Body]** (objekt): Beroende på den HTTP-begäran du valde när du konfigurerade modulen kan du få tillbaka data. Dessa data, till exempel data från en [!UICONTROL GET]-begäran, finns i det här objektet.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -329,19 +329,19 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg i förhållande till<code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Utvecklarhandbok för Salesforce REST API</a>.</p> </td> 
+   <td> <p>Ange en relativ sökväg till <code> &lt;Instance URL&gt;/services/data/v46.0/</code>.</p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_what_is_rest_api.htm">Utvecklarhandbok för Salesforce REST API</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.Till exempel <code>{"Content-type":"application/json"}</code>. Workfront Fusion lägger till auktoriseringsrubrikerna åt dig.</p> </td> 
+   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt. Exempel: <code>{"Content-type":"application/json"}</code>. Workfront Fusion lägger till auktoriseringsrubrikerna åt dig.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -349,7 +349,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -359,7 +359,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 >[!INFO]
 >
->**Exempel:** Följande API-anrop returnerar listan över alla användare i [!DNL Salesforce] konto:
+>**Exempel:** Följande API-anrop returnerar listan över alla användare i ditt [!DNL Salesforce]-konto:
 >
 >* **URL**: `query`
 >
@@ -371,7 +371,7 @@ När du konfigurerar den här modulen visas följande fält.
 >
 >* **Värde**: `SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10`
 >
->Matchningar av sökningen finns i modulens utdata under **[!UICONTROL Bundle]> [!UICONTROL Body] >[!UICONTROL records]**.
+>Det går att hitta matchningar av sökningen i modulens utdata under **[!UICONTROL Bundle]> [!UICONTROL Body] >[!UICONTROL records]**.
 >
 >I vårt exempel returnerades sex användare:
 >
@@ -392,7 +392,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type of Upload]</td> 
@@ -429,7 +429,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr>
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Type of Download]</td>
@@ -437,12 +437,12 @@ När du konfigurerar den här modulen visas följande fält.
      <ul> 
       <li>[!UICONTROL Attachment]</li> 
       <li>[!UICONTROL Document]</li> 
-      <li>[!UICONTROL ContentDocument] (Det här är ett dokument som har överförts till ett bibliotek i [!DNL Saleforce CRM Content] eller [!DNL Salesforce Files].)</li> 
+      <li>[!UICONTROL ContentDocument] (Detta är ett dokument som har överförts till ett bibliotek i [!DNL Saleforce CRM Content] eller [!DNL Salesforce Files].)</li> 
      </ul> </td>
   </tr> 
   <tr>
     <td> <p>[!UICONTROL ID] / </p> <p>[!UICONTROL Attachment ID] / </p> <p>[!UICONTROL ContentDocument ID]</p> </td>
-    <td> <p>Ange eller mappa det unika [!DNL Salesforce] ID för den post som du vill att modulen ska hämta.</p> <p>Öppna [!DNL Salesforce] i webbläsaren och kopiera texten i slutet av URL:en efter det sista snedstrecket (/). Exempel: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
+    <td> <p>Ange eller mappa det unika [!DNL Salesforce]-ID:t för posten som du vill att modulen ska hämta.</p> <p>Om du vill hämta ID:t öppnar du objektet [!DNL Salesforce] i webbläsaren och kopierar texten i slutet av URL:en efter det sista snedstrecket (/). Exempel: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -464,7 +464,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
@@ -472,7 +472,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Record Type] </p> </td> 
-   <td> <p>Välj typ av [!DNL Salesforce] som du vill att modulen ska uppdatera. Fälten blir tillgängliga baserat på vilken typ av post som har valts i fältet Posttyp. Dessa fält är baserade på [!DNL Salesforce] API.</p> </td> 
+   <td> <p>Välj den typ av [!DNL Salesforce]-post som du vill att modulen ska uppdatera. Fälten blir tillgängliga baserat på vilken typ av post som har valts i fältet Posttyp. Dessa fält är baserade på [!DNL Salesforce]-API:t.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select fields to map]</td> 
@@ -485,7 +485,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Search with Query]
 
-Sökmodulen söker efter poster i ett objekt i [!DNL Salesforce] som matchar den sökfråga du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+Den här sökmodulen söker efter poster i ett objekt i [!DNL Salesforce] som matchar den sökfråga du anger. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -495,7 +495,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search Type]</td> 
@@ -508,11 +508,11 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Type] </p> </td> 
-   <td> <p>Om du valde den enkla söktypen väljer du typ av [!DNL Salesforce] poster som du vill att modulen ska söka efter.</p> </td> 
+   <td> <p>Om du valde den enkla söktypen väljer du den typ av [!DNL Salesforce]-post som du vill att modulen ska söka efter.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] / [!UICONTROL SOSL Query] / [!UICONTROL SOQL Query]</td> 
-   <td> <p>Ange frågan som du vill söka efter.</p> <p>Mer information om SOSL finns på <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> i [!DNL Salesforce] dokumentation.</p> <p>Mer information om SOQL finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> i [!DNL Salesforce] dokumentation.</p> <p>Obs! Observera att parameterns värde <code>RETURNING </code>påverkar modulens utdata. Om du <code>LIMIT</code>, [!DNL Fusion] ignorerar inställningarna i [!UICONTROL Maximal count of records] fält. Om du inte anger någon gräns infogar Fusion värdet [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
+   <td> <p>Ange frågan som du vill söka efter.</p> <p>Mer information om SOSL finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_sosl.htm">Salesforce Object Search Language (SOSL)</a> i [!DNL Salesforce] -dokumentationen.</p> <p>Mer information om SOQL finns i <a href="https://developer.salesforce.com/docs/atlas.en-us.soql_sosl.meta/soql_sosl/sforce_api_calls_soql.htm">Salesforce Object Query Language (SOQL)</a> i [!DNL Salesforce] -dokumentationen.</p> <p>Obs! Observera att värdet för parametern <code>RETURNING </code>påverkar modulens utdata. Om du använder <code>LIMIT</code> ignorerar [!DNL Fusion] inställningarna i fältet [!UICONTROL Maximal count of records]. Om du inte anger någon gräns infogas värdet [!UICONTROL LIMIT = Maximal count of records].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximal count of records]</td> 
@@ -531,7 +531,7 @@ Den här åtgärdsmodulen hämtar alla poster som uppfyller ett visst villkor.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL Salesforce] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till[!DNL  Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL Salesforce]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL  Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 

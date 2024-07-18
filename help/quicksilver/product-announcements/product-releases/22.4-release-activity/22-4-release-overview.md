@@ -61,7 +61,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
     </ul>  </td>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrering till Adobe Unified Experience</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Migrering till Unified Experience i Adobe</a> </p>
                         <p>Om din organisation har anslutit sig till Adobe Admin Console migreras din Workfront-instans till Adobe Unified Experience med version 22.4.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -72,14 +72,14 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                                 <p>Förhandsgranskningsversion: Ej tillämpligt<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsrelease: Med version 22.4 <span style="color: #ff0000;">Denna migrering har skjutits upp till Q1-Q2 2023. </span></p>
+                                <p>Produktionsrelease: Med version 2.4 <span style="color: #ff0000;">Flyttningen har skjutits upp till Q1-Q2 2023. </span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Ikonen för utkast på huvudmenyn styrs nu av layoutmallar</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Utskriftsikonen på huvudmenyn styrs nu via layoutmallar</a></p>
                         <p>Systemadministratörer kan nu lägga till eller ta bort ikonen för utkast på huvudmenyn via layoutmallskonfigurationen. Detta ger bättre kontroll över vem som kan bläddra i katalogen med utkast.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -97,7 +97,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassning av problemhuvud</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anpassa utgåvans huvud</a></p>
                         <p>Som Workfront- eller gruppadministratör kan du nu anpassa fälten som visas i huvudet i ett problem när du använder en layoutmall. Uppdateringen innehåller flera förbättringar, bland annat möjligheten att ta bort eller ordna om befintliga fält från utgåvans rubrik och lägga till nya, icke-redigerbara fält för Översikt över utgåva.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -133,7 +133,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 22.
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Tidig anmälan av nya funktioner för de senaste funktionerna på anslagstavlan</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Anmäl dig tidigt till de senaste funktionerna på anslagstavlor</a> </p>
                         <p>Vi är glada över att kunna öppna nya anslagstavlor för tidig anmälan av funktioner. Det här valfria verktyget är tillgängligt för alla organisationer.</p>
                         <p>Endast en Workfront-administratör kan välja att använda de tidiga funktionerna. När administratören väljer att använda funktioner i ett tidigt skede är alla användare i organisationen anslutna och de extra funktionerna är aktiverade i din Workfront produktionsmiljö.</p>
                     </td>
@@ -209,7 +209,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
   </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart användarval för projektroller i områdena Redigera och Detaljer</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Smart användarval för projektroller i områdena Redigera och Information </a> </p>
                         <p>Vi har förbättrat det sätt som användare visas på när du lägger till dem i projektägaren, projektsponsorn och resurshanterarens projektfält i rutan Redigera och i avsnittet Detaljer i projektet.</p>
                         <p>När du nu lägger till en användare i något av dessa fält i områdena Redigera eller Detaljer visas även användarens primära roll och e-postadress, förutom namnet och avataren. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.</p>
                         <p><b>OBS!</b> Ytterligare användarfält för projekt, uppgifter och utgåvor kommer att uppdateras med den här funktionen i framtida versioner.</p>
@@ -254,7 +254,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny filterupplevelse för projekt, uppgifter och problem (beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny filterupplevelse för projekt, uppgifter och problem (Beta)</a> </p>
                         <p>Filtrering av projekt-, uppgifts- och problemlistor har gjorts om så att du snabbt kan skapa och dela filter. Funktioner:</p>
                         <ul>
                             <li>
@@ -338,7 +338,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Inmatningskolumn tillgänglig för ritytor</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Intagskolumnen är tillgänglig på ritytor</a></p>
                         <p>Nu kan du lägga till en inmatningskolumn på en anslagstavla. Den här kolumnen hämtar automatiskt in uppgifter och ärenden till styrelsen när de läggs till i Workfront, baserat på filter som du anger.</p>
                         <p>Inloppskolumnen kan fungera som en eftersläpningskolumn för ett Kanban-team, en plats där ett supportteam kan se problem när de läggs till i en begärandekö eller i andra syften som du behöver.</p>
                         <p>Endast en inloppskolumn får finnas på en bräda.</p>
@@ -437,7 +437,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Gränsen för pågående arbete är nu tillgänglig för kolumner ombord</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Gränsen för pågående arbete finns nu tillgänglig för kolumner </a> </p>
                         <p>Du kan nu ange en PIA-gräns (Work In Progress) för valfri kolumn på en anslagstavla. När du aktiverar en PIA-gräns visas en räknare i kolumnen med aktuellt antal kort och gränsen. Räknaren blir röd om kolumnen innehåller fler kort än gränsen. Det här är bara en visuell varning och du hindras inte från att lägga till fler kort än gränsen.</p>
                     </td>
                     <td><b>Tillgängligt på följande datum:</b>
@@ -496,7 +496,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa alla användare för ett projekts belastningsutjämnare</a></p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-resource-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa alla användare för arbetsbelastningsutjämnaren för ett projekt</a></p>
                         <p>För att du ska kunna se alla användare i systemet och deras kapacitet utan att lämna arbetsbelastningsutjämnaren för ett projekt har vi lagt till alternativet Visa alla användare. När det här alternativet är aktiverat visas alla användare i systemet på arbetsytan Tilldelad arbetsyta i projektets belastningsutjämnare. Med den här förbättringen kan du enkelt identifiera vem som behöver tilldelas till arbete som listas i området Ej tilldelat arbete.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -587,7 +587,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 22.4-releasetidningen</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tidsramen för version 22.4</a> </p>
                         <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för version 2.4. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -621,7 +621,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 <tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Synkronisera metadata för objekt med Experience Manager Assets-integreringen</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Synkronisera objektmetadata med den inbyggda Experience Manager Assets-integreringen</a> </p>
                         <p>Nu uppdateras Workfront portfölj, program, projekt, uppgift, utgåva och dokumentfält automatiskt när fältet ändras i Workfront.</p>
                         <p>Om du vill tillåta att objektmetadata synkroniseras automatiskt måste du aktivera alternativet Synkronisera objektmetadata för dina integreringar i Inställningar &gt; Experience Manager.</p>
                         <p>Tidigare uppdaterades bara projektfält automatiskt.</p>
@@ -656,7 +656,7 @@ Obs! Den här funktionen är för närvarande inte tillgänglig i Utjämning av 
                 </tr>
                 <tr>
                     <td>
-                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (beta)</a> </p>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
                         <p>Vi introducerar ett nytt objekt för Adobe Workfront som kan förändra ditt arbetssätt. </p>
                         <p>Med Workfront Campaigns kan ni ordna projekt från olika portföljer och program i en ny arbetsbehållare.
 Kampanjer lanserades som betaversion i juli 2022 i version 22.3.</p>
@@ -666,19 +666,19 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3.</p>
     &lt;td>&lt;p>&lt;b>Tillgängligt på följande datum:&lt;/b>&lt;/p>
     &lt;ul>
     &lt;li>
-    &lt;p>Förhandsgranskningsversion: Under hela tidsramen för version 22.4&lt;br />&lt;/p>
+    &lt;p>Förhandsgranskningsversion:&amp;#160;Under 2.4-releasetidringen&lt;br />&lt;/p>
     &lt;/li>
-    &lt;li>
-    &lt;p>Produktionsrelease: TBD&lt;/p>
+    &lt;li>{7>
+    }&lt;p>Produktionsrelease:&amp;#160;TBD&lt;/p>
     &lt;/li>
     &lt;/ul>
     &lt;/td>
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;&lt;span id=&quot; translate=&quot;no&quot; />&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
-    &lt;p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. {para} Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).&lt;/p>
-    &lt;p>Tidigare var det enda sättet att se allt innehåll att bläddra igenom beskrivningen på ett smalt område.&lt;/p>
+    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref &quot; xrefformat=&quot;{para}&quot;>Utökad teambeskrivning&lt;/a>&lt;/p>
+    &lt;p>I Teams-området kan du nu visa hela teambeskrivningen genom att klicka på beskrivningen för att visa den i ett popup-fönster. Alla URL:er i beskrivningen går att klicka på i popup-fönstret, och du kan klicka i beskrivningstexten för att redigera den (om du har tillgång till redigering av gruppinställningarna).&lt;/p>
+    &lt;p>Tidigare var bläddring genom beskrivningen i ett smalt område det enda sättet att se allt innehåll.&lt;/p>
 <p>Den här förbättringen av beskrivningen gäller både rörliga och icke-rörliga team.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -706,19 +706,19 @@ Vi har släppt en ny version av Desktop Proofing Viewer. Uppgraderingen innehål
 * Windows-användare uppgraderas automatiskt till den senaste versionen när de startar Desktop Proofing Viewer före den 25 juli. Om Windows-användare inte kan öppna Desktop Proofing Viewer före den 25:e måste de installera om visningsprogrammet manuellt för att få uppgraderingen.
 
 
-Med den här uppgraderingen stöder Desktop Proofing Viewer Chrome version 98 för bättre kompatibilitet med interaktiva korrektur.
+Med denna uppgradering stöder Desktop Proofing Viewer Chrome version 98 för bättre kompatibilitet med interaktiva korrektur.
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.4-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av WorkfrontScenarioplanering
 
 Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### Förbättringar av Workfront-korrektur
+### Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-mål
 
@@ -728,13 +728,13 @@ Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det h
 
 För API-version 14 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 14](/help/quicksilver/wf-api/api/new-api-version-14.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### 22.4 Release Webinar
 
@@ -742,7 +742,7 @@ Webbseminariet 22.4 kommer att hållas torsdagen den 22 september 2022 kl. 9.00 
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i [Uppdateringssida för utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://one.workfront.com/s/training-release-updates).
 
 ### Funktioner som tas bort med version 22.4
 

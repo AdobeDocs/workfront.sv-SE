@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Översikt över kontrollpaneler på arbetsytan
 
-Med arbetsytans kontrollpaneler kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Grundläggande anvisningar om hur du använder Canvas-kontrollpaneler finns i artikeln [Kom igång med Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). I annat fall, se artikelindexet nedan för mer information om ett visst ämne.
+Med arbetsytans kontrollpaneler kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Grundläggande anvisningar om hur du använder Canvas-kontrollpaneler finns i artikeln [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). I annat fall, se artikelindexet nedan för mer information om ett visst ämne.
 
 ## Kontrollpaneler på arbetsytan: artikelindex
 
@@ -26,7 +26,7 @@ Det här avsnittet innehåller följande artiklar:
    * [Kom igång med Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [Dela en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Rapporttyper för kontrollpanelen Canvas](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [Rapporttyper för arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [Lägga till en befintlig rapport på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [Skapa en KPI-rapport på en Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [Skapa en diagramrapport på en Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

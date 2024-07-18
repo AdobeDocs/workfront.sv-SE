@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Öppna ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
+* [Öppnar ett korrektur i  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
 * [Granska ett arbetsflöde i korrekturläsaren](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
 * [Granska ett korrektur samtidigt med flera granskare](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md)
 * [Visa aktivitet på ett korrektur i korrekturläsaren](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-activity-on-a-proof.md)
@@ -32,5 +32,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Jämför korrektur i korrekturläsaren](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)
 * [Visa tidigare korrekturversioner i Web Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)
 * [Hämta ett korrektur i korrekturläsaren](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
-* [Kortkommandon i [!DNL Workfront Proof] korrekturläsare](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
+* [Kortkommandon i  [!DNL Workfront Proof] språkgranskaren](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
 * [Äldre korrekturläsare borttagen](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)

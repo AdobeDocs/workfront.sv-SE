@@ -30,7 +30,7 @@ Du måste ha följande:
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Workfront licensöversikt*</p> </td> 
+   <td role="rowheader"> <p>Översikt över Adobe Workfront-licenser*</p> </td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -39,7 +39,7 @@ Du måste ha följande:
     <ul> 
      <li> <p>Skapa rapporter, instrumentpaneler och kalendrar</p> </li> 
      <li> <p>Skapa filter, vyer och grupperingar</p> </li> 
-    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -48,27 +48,27 @@ Du måste ha följande:
 
 ## Använd rapporten för godkännande av korrektur
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** rulla sedan för att markera **Bevis godkännande**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och rulla sedan för att välja **Korrekturgodkännande**.
 
    ![](assets/proof-approval-report.png)
 
 1. (Valfritt) Lägg till ytterligare fält.
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
 ## Ytterligare fält
 
-Du kan lägga till följande fält i rapporten för godkännande av korrektur:
+Du kan lägga till följande fält i korrekturrapporten:
 
-* **Beslutsdatum**: Visar det datum då en godkännare fattar ett beslut om ett bevis. Du hittar även detta datum i Skriv ut sammanfattning av korrekturet.
-* **Godkännarstadium**: Visar aktuell information om scenen.
-* **Arbetsflödesmall**: Visar eventuella arbetsflödesmallar som är kopplade till korrekturet. Om ingen mall är kopplad är kolumnen tom.
-* **Väntar på beslut**: Visar true som en signal om att ett beslut inte har uppfyllts i den senaste versionen när följande är sant:
+* **Beslutsdatum**: Visar det datum då en godkännare fattar ett beslut om ett bevis. Det här datumet finns också på sidan Skriv ut sammanfattning av korrekturet.
+* **Godkännarstadium**: Visar aktuell sceninformation.
+* **Arbetsflödesmall**: Visar alla arbetsflödesmallar som är kopplade till korrekturet. Om ingen mall är kopplad är kolumnen tom.
+* **Väntar på beslut**: Visar sant för att signalera att ett beslut inte har uppfyllts för den senaste versionen när följande är sant:
 
    * Beviset har inte arkiverats
    * Den fas som godkännaren är aktiv
    * Beviset väntar på godkännande
 
-* **Tidsgräns för korrektur**: Visar korrekturens deadline. Alla faser måste ha en tilldelad tidsgräns för att det här fältet ska kunna fyllas i. Fältet visar tidsgränsen för den senast aktiverade fasen.
+* **Korrekturdeadline**: Visar korrekturens deadline. Alla faser måste ha en tilldelad tidsgräns för att det här fältet ska kunna fyllas i. Fältet visar tidsgränsen för den senast aktiverade fasen.
 
  

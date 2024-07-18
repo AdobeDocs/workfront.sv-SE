@@ -18,10 +18,10 @@ ht-degree: 0%
 
 ---
 
-# Webhooks in [!DNL Adobe Workfront Fusion]
+# Webbhooks i [!DNL Adobe Workfront Fusion]
 
-[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en Adobe Workfront-licens.
+[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens förutom en Adobe Workfront-licens.
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Direktutlösare (webhooks) i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+* [Direktutlösare (webhooks) i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)

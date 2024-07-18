@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.1 Beta 4 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 4-versionen. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 24 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 4. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 24 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2018.1 Beta 4 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 4-versionen. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 24 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 4. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 24 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för 2018.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Beta 4-versionen från 2018.1 innehåller förbättringar för både Workfront-administratörer och andra användare:
+2018.1 Beta 4 innehåller förbättringar för både Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -32,19 +32,19 @@ Beta 4-versionen från 2018.1 innehåller förbättringar för både Workfront-a
 
 **För alla användare**
 
-* [Förbättringar av korrektur i Workfront](#proofing-improvements-within-workfront)
-* [Korrektur för Workfront-korrektur - Förbättrad användarupplevelse och ytterligare funktioner](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
-* [Korrekturförbättringar i Workfront och Workfront](#proofing-improvements-within-workfront-and-workfront-proof)
-* [Uppdaterat utseende och känsla med integreringen av basecamp i Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
+* [Korrekturförbättringar i Workfront](#proofing-improvements-within-workfront)
+* [Korrektur för att skapa i Workfront Proof - Förbättrad användarupplevelse och ytterligare funktioner](#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality)
+* [Korrekturförbättringar i Workfront och Workfront Proof](#proofing-improvements-within-workfront-and-workfront-proof)
+* [Uppdaterat utseende och känsla med Basecamp-integrering i Workfront Proof](#updated-look-and-feel-with-basecamp-integration-in-workfront-proof)
 * [Klistra in bilder i Workfront från Urklipp](#paste-images-to-workfront-from-the-clipboard)
 * [Förbättringar av användningsrapporten](#utilization-report-improvements)
 * [Ta bort resursbudgeterat timobjekt från Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
-* [Rapportanvändningsstatistik](#report-usage-statistics)
+* [Rapportera användningsstatistik](#report-usage-statistics)
 * [Gantt-schemauppdateringar](#gantt-chart-updates)
-* [Optimering för nya Portfolio](#new-portfolio-optimizer)
+* [Ny Portfolio-optimering](#new-portfolio-optimizer)
 * [Alternativ för justering av budgetdatum i resursplaneraren](#budget-date-adjustment-option-in-the-resource-planner)
 * [Resursplanering: Begränsa tilldelningar till användare baserat på gruppmedlemskap](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
-* [Resursschemaläggning: Tillåt tilldelningar till användare oavsett roll](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
+* [Resursplanering: Tillåt tilldelningar till användare oavsett roll](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
 * [Stöd för Emoji](#emoji-support)
 
 ## Förbättringar av korrektur i Workfront {#proofing-improvements-within-workfront}
@@ -53,7 +53,7 @@ Följande förbättringar har gjorts runt dokumentlistan i Workfront: 
 
 * [Visa korrekturstatus från dokumentlistan](#view-proof-progress-from-the-document-list)
 * [Nytt alternativ för att visa utskriftssammanfattningen från dokumentlistan](#new-option-to-view-the-print-summary-from-the-document-list)
-* [Uppdaterad Look och känsla för att generera eller öppna korrektur från dokumentlistan](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
+* [Uppdaterat utseende och känsla för att generera eller öppna korrektur från dokumentlistan](#updated-look-and-feel-for-generating-or-opening-the-proof-from-the-document-list)
 * [Olika länkar borttagna från dokument i dokumentlistan](#various-links-removed-from-documents-on-the-document-list)
 * [Visa filnamn på kombinerade korrektur](#view-file-names-on-combined-proofs)
 * [Visa det aktuella aktiva steget i ett korrektur från dokumentlistan](#view-the-current-active-stage-of-a-proof-from-the-document-list)
@@ -121,9 +121,9 @@ Mer information finns i Visa alla filer i ett kombinerat korrektur. 
 
 När du väljer ett korrektur i dokumentlistan visas de aktuella aktiva stegen i den högra kolumnen på fliken Information. 
 
-Mer information finns i [Visa aktiva faser i ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
+Mer information finns i [Visa aktiva faser på ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md).  
 
-## Korrektur för Workfront-korrektur - Förbättrad användarupplevelse och ytterligare funktioner {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
+## Korrektur för Workfront Proof - bättre användarupplevelser och ytterligare funktioner {#proof-creation-in-workfront-proof-improved-user-experience-and-additional-functionality}
 
 Förutom en förbättrad användarupplevelse när du skapar korrektur i Workfront Proof finns nu följande extrafunktioner:
 
@@ -137,13 +137,13 @@ Förutom en förbättrad användarupplevelse när du skapar korrektur i Workfron
 
 >[!NOTE]
 >
->Den nya korrektursidan i Workfront Proof matchar nu korrektursidan som nyligen blev tillgänglig när du skapade korrektur i Workfront. 
+>Den här nya korrektursidan i Workfront Proof matchar nu korrektursidan som nyligen blev tillgänglig när du skapade korrektur i Workfront. 
 
-Mer information finns i  [Skapa korrektur i Workfront-korrektur](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Mer information finns i  [Skapa korrektur i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
-## Korrekturförbättringar i Workfront och Workfront {#proofing-improvements-within-workfront-and-workfront-proof}
+## Förbättringar av korrektur i Workfront och Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
-Följande ändringar gäller när du lägger till dokument i Workfront och i Workfront Proof:
+Följande ändringar gäller när du lägger till dokument i Workfront och Workfront Proof:
 
 * [Ändra storlek på kommentarlistan vid granskning av korrektur](#resize-the-comment-list-when-reviewing-proofs)
 * [Hyperlänkar är aktiva vid granskning av statiska korrektur](#hyperlinks-are-active-when-reviewing-static-proofs)
@@ -190,7 +190,7 @@ Följande förbättringar är tillgängliga när du lägger till dokument som sk
 
 ## Uppdaterat utseende och känsla med integreringen av basecamp i Workfront Proof {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 
-Utseendet och känslan i integreringen av Basecamp med Workfront Proof har uppdaterats. Funktionaliteten är densamma.
+Utseendet och känslan av integrationen mellan Basecamp och Workfront Proof har uppdaterats. Funktionaliteten är densamma.
 
 ## Klistra in bilder i Workfront från Urklipp {#paste-images-to-workfront-from-the-clipboard}
 
@@ -235,7 +235,7 @@ För att åtgärda prestandaproblem har fältet Resursbudgeterad timme tillfäll
 
 Resursbudgeterade timmar är de timmar som du budgeterar för dina resurser eller dina projekt i resursplaneraren. Du kan för närvarande inte längre rapportera om det här fältet i webbprogrammet eller via API:t. Fältet återställs i en framtida version när prestandaproblemen har lösts.
 
-Mer information om budgeteringstimmar i Resursplanering finns i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Mer information om budgeteringstider i Resursplanering finns i [Resursplanering - översikt](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Rapportanvändningsstatistik {#report-usage-statistics}
 
@@ -269,19 +269,19 @@ Gantt-schemat kan nu redigeras. Med Gantt-schemat kan du göra följande uppdate
 
 Före den här ändringen kunde du bara ta bort tidigare relationer i Gantt-diagrammet och du kan bara redigera uppgifter i uppgiftslistan.
 
-Mer information om Gantt-schemat finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
+Mer information om Gantt-schemat finns i [Uppdatera information i Gantt-schemat för uppgiftslistan](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ## Optimering för nya Portfolio {#new-portfolio-optimizer}
 
 Området Portfolio Optimizer i Workfront har nu uppdaterats med ett nytt utseende och en ny känsla. Funktionen har inte ändrats.
 
-Mer information om Portfolio Optimizer finns i [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Mer information om optimering av Portfolio finns i [Översikt över optimering av Portfolio](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Alternativ för justering av budgetdatum i resursplaneraren {#budget-date-adjustment-option-in-the-resource-planner}
 
 Vi har lagt till ett alternativ som ger dig snabb insyn i tidsramar utan budgeteringskonflikter. När du har visat när tidsramarna utan budgeteringskonflikter inträffar kan du flytta dina budgeterade timmar manuellt till dessa tider. Detta kommer även att justera timernas budgeterade datum. Före den här uppdateringen var det inte möjligt att visa budgeteringskonflikter för ett projekt i en överblick.
 
-Mer information om hur du justerar budgeterade datum i resursplaneraren finns i avsnittet Justera budgetdatum i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
+Mer information om hur du justerar budgeterade datum i resursplaneraren finns i avsnittet Justera budgetdatum i [Översikt över resursplaneraren](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 
 ## Resursplanering: Begränsa tilldelningar till användare baserat på gruppmedlemskap {#resource-scheduling-restrict-assignments-to-users-based-on-group-membership}
 

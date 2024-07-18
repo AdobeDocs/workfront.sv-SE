@@ -32,7 +32,7 @@ Mer information finns i [Dela en kalenderrapport](../../../reports-and-dashboard
 
 För att du ska kunna arbeta mer flexibelt med förfrågningar sparar Workfront nu automatiskt alla förfrågningar du skapar som utkast i det nya området Utkast. Om du inte har all information som krävs för att slutföra den nya begäran kan du lämna den som ett utkast, gå tillbaka till den och slutföra den senare. Workfront sparar en begäran per ämne i kön i området Utkast. Utkastbegäranden kan sparas så länge du behöver dem tills du är redo att slutföra och skicka dem. Du kan också ta bort eller flytta området Utkast på den vänstra panelen med hjälp av en layoutmall.
 
-Mer information om hur du skapar begäranden finns i [Skapa och skicka Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skapar begäranden finns i [Skapa och skicka Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!NOTE]
 >
@@ -76,13 +76,13 @@ Mer information finns i [Använd anpassade datumfält i en kalenderrapport](../.
 
 ## E-poständringar
 
-**Ändringar i utgående e-post:** Alla mejl från Workfront kommer från notifications@my.workfront.com. Detta inkluderar automatiska varningar och kommunikation mellan användare.
+**Ändringar i utgående e-post:** Alla e-postmeddelanden från Workfront kommer från notifications@my.workfront.com. Detta inkluderar automatiska varningar och kommunikation mellan användare.
 
 Tidigare kunde systemadministratörer lägga till en anpassad e-postadress i området E-postinställningar.
 
 **Ändringar i POP-svar för inkommande e-post:** Systemadministratörer kan inte längre konfigurera en anpassad POP-e-postserver för inkommande e-postsvar till meddelanden.
 
-Mer information finns i [Sofing av e-post och POP-svar e-poständringar](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
+Mer information finns i [E-postförfalskning och POP-svar, e-poständringar](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
 ## DKIM (DomainKeys Identified Mail) ingår nu i utgående e-postmeddelanden från Workfront
 
@@ -107,7 +107,7 @@ Det finns nu även en länk för användarinformation som visar följande använ
 
 Nu kan du använda en layoutmall för att ändra logotyperna i det övre navigeringsområdet och på huvudmenyn för specifika grupper, team, jobbroller och användare med egna varumärken.
 
-Mer information finns i [Varumärk din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Mer information finns i [Förse din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ## Gruppadministratörer kan skapa och hantera godkännandeprocesser
 
@@ -164,10 +164,10 @@ Mer information om området Kundinformation finns i [Konfigurera grundläggande 
 
 base64Encoding-fältet är ett valfritt fält som används för att aktivera Base64-kodning av händelseprenumerationsnyttolaster. Om en begäran görs med fältet base64Encoding inställt på true, levereras objekten newState och oldState i nyttolasten som Base64-kodningssträngar. Den här funktionen kan vara användbar om ditt nätverk är konfigurerat på ett sådant sätt att det inte tillåter specialtecken i händelseprenumerationer.
 
-Mer information finns på [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md).
+Mer information finns i [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md).
 
 ## Möjlighet att skapa duplicerade händelseprenumerationer har tagits bort
 
 Du kan inte längre skapa dubblettprenumerationer för att förhindra att dubblettmeddelanden levereras. Dessutom har dubblettprenumerationer som skapats tidigare tagits bort.
 
-Mer information finns i [Frågor och svar - Evenemangsprenumerationer](../../../wf-api/general/event-subs-faq.md).
+Mer information finns i [Vanliga frågor och svar - Händelseabonnemang](../../../wf-api/general/event-subs-faq.md).

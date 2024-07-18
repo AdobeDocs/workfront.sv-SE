@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1253'
 ht-degree: 0%
 
 ---
@@ -36,9 +36,9 @@ Tänk på följande:
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  Mer information finns i [Översikt över statusikoner och flaggor](#overview-of-status-icons-and-flags) i den här artikeln.
+  Mer information finns i avsnittet [Översikt över statusikoner och flaggor](#overview-of-status-icons-and-flags) i den här artikeln.
 
-* I vissa vyer visas **Statusikoner** fältet är namngivet **Flaggor** eller **Visa ikoner**.\
+* I vissa vyer heter fältet **Statusikoner** **Flaggor** eller **Visa ikoner**.\
   Du kan inte anpassa utseendet på de ikoner som finns i fältet Statusikoner.
 
 * Du kan inte redigera antalet ikoner i fältet Statusikoner.
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att lägga till kolumner i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att lägga till kolumner i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Lägg till fältet Statusikoner i en vy
 
-Vissa inbyggda vyer och rapporter har redan statusikonfältet.
+I vissa inbyggda vyer och rapporter finns redan fältet Statusikoner.
 
 Du kan inte lägga till fältet Statusikoner i alla vyer.
 
@@ -94,29 +94,29 @@ Så här lägger du till fältet Statusikoner i en anpassad vy som du bygger fr�
    * Utgifter
    * Dokument
    * Användare\
-     Endast dessa objekt har **Statusikoner** tillgängligt fält.\
+     Endast dessa objekt har fältet **Statusikoner** tillgängligt.\
      Mer information om objektlistor finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Från **Visa** nedrullningsbar meny, välja **Ny vy**.
+1. Välj **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn**.
-1. I **Visa i den här kolumnen** börjar du skriva något av följande fältnamn och markerar det när det visas i listan:
+1. Klicka på **Lägg till kolumn**.
+1. I rutan **Visa i den här kolumnen** börjar du skriva något av följande fältnamn och markerar det sedan när det visas i listan:
 
    * *Statusikoner*
    * *Flaggor*
    * *Visa ikoner *(endast i dokumentvyer).
 
    De inbyggda ikonerna visas under något av dessa namn.\
-   En mallvy innehåller båda **Statusikoner** och **Flaggor** fält. I det här fallet innehåller de två kolumnerna identiska ikoner.\
-   Dokumentvyer innehåller en **Visa ikoner** fält.
+   En mallvy innehåller både fälten **Statusikoner** och **Flaggor**. I det här fallet innehåller de två kolumnerna identiska ikoner.\
+   Dokumentvyer innehåller fältet **Visa ikoner**.
 
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.
 1. (Valfritt) Ange ett nytt namn för vyn och klicka sedan på **Spara vy**.\
-   Detta lägger till **Statusikoner** till din vy.
+   Detta lägger till kolumnen **Statusikoner** i din vy.
 1. (Valfritt) För musen över en ikon för att förstå vad den representerar.
 1. (Valfritt) Klicka på en ikon om du vill gå till det område som representeras av den.\
    Alla ikoner är inte länkar till objekt.\
-   En fullständig lista med attribut för varje ikon finns i [Översikt över statusikoner och flaggor](#overview-of-status-icons-and-flags) -avsnitt.
+   En fullständig lista över attribut för varje ikon finns i avsnittet [Översikt över statusikoner och flaggor](#overview-of-status-icons-and-flags).
 
 ## Översikt över statusikoner och flaggor {#overview-of-status-icons-and-flags}
 
@@ -164,7 +164,7 @@ Du måste ha behörighet att åtminstone visa objekten för att kunna klicka på
   <tr> 
    <td> <img src="assets/open-issu-icon-34x36.png" alt="open_issu_icon.png" style="width: 34;height: 36;">eller <img src="assets/new-open-issues-25x30.png" alt="new_open_issues.png" style="width: 25;height: 30;"></td> 
    <td>Anger att det finns öppna problem med projektet eller aktiviteten.</td> 
-   <td> Projekt<br>Uppgifter </td> 
+   <td> Projekt<br>aktiviteter </td> 
    <td>Klicka för att öppna objektet. </td> 
    <td> </td> 
   </tr> 
@@ -190,21 +190,21 @@ Du måste ha behörighet att åtminstone visa objekten för att kunna klicka på
      <li>Sena (röd cirkel)</li> 
      <li>Risk (blå romb)</li> 
      <li>Bakom (gul triangel)</li> 
-    </ul> <p>Mer information om aktiviteternas förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för åtgärdsförlopp</a>.</p> </td> 
+    </ul> <p>Mer information om aktiviteternas förloppsstatus finns i <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Översikt över status för aktivitetsstatus</a>.</p> </td> 
    <td>Uppgifter</td> 
    <td>Klicka för att öppna uppgiften. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-critical-path-icon-36x35.png" alt="task_critical_path_icon.png" style="width: 36;height: 35;"> eller <img src="assets/new-critical-path-icon-34x34.png" alt="new_critical_path_icon.png" style="width: 34;height: 34;"></td> 
-   <td>Anger att aktiviteten finns på den kritiska sökvägen. <br>Information om åtgärder på en kritisk väg till projektet finns i <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Översikt över projektets kritiska sökväg</a>.</td> 
+   <td>Anger att aktiviteten finns på den kritiska sökvägen. <br>Mer information om aktiviteter på en kritisk sökväg till projektet finns i <a href="../../../manage-work/tasks/manage-tasks/critical-path.md" class="MCXref xref">Översikt över projektets kritiska sökväg</a>.</td> 
    <td>Uppgifter</td> 
    <td>Klicka för att öppna uppgiften.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="millestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Anger att aktiviteten är associerad med en milstolpe. Systemadministratören kan anpassa diamantens färg i din miljö.<br>Mer information om milstolpar finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpbana</a>.</td> 
+   <td>Anger att aktiviteten är associerad med en milstolpe. Systemadministratören kan anpassa diamantens färg i din miljö.<br>Mer information om milstolpar finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Skapa en milstolpe</a>.</td> 
    <td>Uppgifter</td> 
    <td>Klicka för att öppna uppgiften. </td> 
    <td> </td> 
@@ -218,7 +218,7 @@ Du måste ha behörighet att åtminstone visa objekten för att kunna klicka på
   </tr> 
   <tr> 
    <td> <img src="assets/resolving-object-icon-43x45.png" alt="resolving_object_icon.png" style="width: 43;height: 45;"> </td> 
-   <td>Anger att det finns ett objekt som löser problemet. I det här fallet kan du inte slutföra problemet. Den slutförs när det matchande objektet har slutförts. <br>Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över upplösta och upplösta objekt </a>.</td> 
+   <td>Anger att det finns ett objekt som åtgärdar problemet. I det här fallet kan du inte slutföra problemet. Den slutförs när det matchande objektet har slutförts. <br>Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a> .</td> 
    <td>Problem</td> 
    <td>Klicka för att öppna problemets objekt som åtgärdas. </td> 
    <td> </td> 

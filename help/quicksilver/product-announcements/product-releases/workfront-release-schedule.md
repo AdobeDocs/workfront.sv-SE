@@ -30,38 +30,38 @@ Utgåvor sker vanligtvis i USA runt 8-10 PM Mountain Time.
 
 Adobe Workfront har två modeller för att lansera nya funktioner och uppdateringar. Din organisation kan välja om du vill få nya funktioner kvartalsvis eller snabbare.
 
-Månads- och kvartalsvisa releaser planeras vara tillgängliga torsdagen den andra hela veckan i månaden, om inte annat anges. Information om kommande datum finns i den senaste [Versionsöversikt](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+Månads- och kvartalsvisa releaser planeras vara tillgängliga torsdagen den andra hela veckan i månaden, om inte annat anges. Information om kommande datum finns i den senaste [versionsöversikten](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 Utgåvor äger vanligtvis rum cirka 8-10 amerikanska Mountain Time kvällen före utgivningsdatumet.
 
 I nästa version blir funktionerna i Förhandsgranska tillgängliga i produktionsmiljön. I vissa fall görs dock funktionerna tillgängliga i produktionsmiljön utanför en schemalagd release. Dessa ändringar finns kvar i förhandsgranskningen i minst två veckor för att ge dig tillräckligt med tid att bekanta dig med ändringarna. Dessa ändringar kommuniceras också via meddelandecentret när de läggs till i förhandsvisningen.
 
-Mer information om kvartalsvisa och snabba publiceringsprocesser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+Mer information om kvartalsvisa och snabba versionsprocesser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ### Underhållsuppdateringar
 
-Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Se [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) för att se vad som har korrigerats nyligen.
+Korrigeringar av utgåvor av Adobe Workfront-produkten görs tillgängliga i produktionsmiljön varje vecka. Gå till sidan [Workfront underhållsuppdateringar](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) för att se vad som har korrigerats nyligen.
 
 ## Funktioner som har tagits bort från en schemalagd release
 
 Alla funktioner som är kopplade till en viss release (månads- eller kvartalsvis) kan testas i Förhandsgranska under minst 2-4 veckor före den sista releasen till produktion. Om funktioner tas bort från den schemalagda versionen före den här tidpunkten vidtas följande åtgärder för att informera kunderna:
 
-* Versionsinformation för den schemalagda versionen (finns på [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
+* Versionsinformationen för den schemalagda versionen (som finns på sidan [Produktreleaser](../../product-announcements/product-releases/product-releases.md)) uppdateras för att ange att funktionen har tagits bort.
 
 Om funktioner tas bort från den schemalagda versionen efter att alla funktioner är tillgängliga för att testas i Förhandsgranska, vidtas följande åtgärder för att informera kunderna:
 
-* Versionsinformationen för releasen (finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md) sida) uppdateras för att ange att funktionen har tagits bort.
+* Versionsinformationen för releasen (som finns på sidan [Produktreleaser](../../product-announcements/product-releases/product-releases.md)) uppdateras för att ange att funktionen har tagits bort.
 * Ett inlägg läggs till i Workfront Community där det står att funktionen har tagits bort.
 * Ett meddelande om att funktionen har tagits bort skickas till alla kunder via meddelandecentret. (Announcement Center Workfront ett meddelandecenter i appen. Mer information finns i [Skicka meddelanden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
-## Betaversioner
+## Beta-versioner
 
 Ibland lanserar Workfront nya funktioner som en del av ett betaprogram.
 Den specifika informationen om varje betaversion, inklusive hur man deltar, släpps när varje betaprogram startas och alla betaprogram är olika.
 
 Följande betaprogram kan köpas från Workfront:
 
-* **Avslutade eller privata betaversioner**: Följande är egenskaper för en sluten eller privat betaversion:
+* **Avslutade eller privata betaversioner**: Följande är egenskaper för en stängd eller privat betaversion:
 
    * Funktioner är tillgängliga för en liten grupp kunder, noga utvalda av Workfront.
    * Deltagarna arbetar vanligtvis med en Product Manager och ger regelbundet feedback.
@@ -88,7 +88,7 @@ Om du stöter på något i systemet som inte stämmer överens med dokumentation
 
 Använd versionsinformationen för den kommande schemalagda versionen för att se vilka nya funktioner som är tillgängliga i förhandsversionen och när de kommer att släppas till produktionen.
 
-Information om hur du hittar versionsinformationen för nästa schemalagda release finns i [Produktreleaser](../../product-announcements/product-releases/product-releases.md)klickar du sedan på länken för att ta dig till versionsöversiktssidan för den kommande versionen.
+Om du vill hitta versionsinformationen för nästa schemalagda release läser du [Produktreleaser](../../product-announcements/product-releases/product-releases.md) och klickar sedan på länken för att ta dig till versionsöversiktssidan för den kommande versionen.
 
 Versionsinformationen innehåller en tabell med en lista över funktioner i den vänstra kolumnen, med en kort beskrivning av varje funktion. Du kan klicka på en funktionslänk om du vill se en demonstrationsvideo om den nya funktionen och få tillgång till dokumentation om den nya funktionen. I den högra kolumnen ser du följande information för varje funktion:
 

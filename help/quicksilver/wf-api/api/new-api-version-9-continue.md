@@ -9,14 +9,14 @@ role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '145'
+source-wordcount: '153'
 ht-degree: 0%
 
 ---
 
 # Nyheter i API version 9 (forts.)
 
-Den här listan är den andra halvan av en större lista. Den första halvan kan finnas på [Nyheter i API-version 9](../../wf-api/api/new-api-version-9.md). Du hittar listan över uppdateringar till version 9 på [Uppdateringar av API version 9](../../wf-api/api/new-api-version-9-updates.md).
+Den här listan är den andra halvan av en större lista. Den första halvan finns på [Nyheter i API-version 9](../../wf-api/api/new-api-version-9.md). En lista över uppdateringar av version 9 finns på [Uppdateringar av API-version 9](../../wf-api/api/new-api-version-9-updates.md).
 
 ## PortalSection
 

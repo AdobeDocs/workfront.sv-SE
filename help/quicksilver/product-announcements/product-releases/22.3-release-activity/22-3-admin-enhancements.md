@@ -6,22 +6,22 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
 
 # 2.3 Administratörsförbättringar
 
-Den här sidan beskriver alla administratörsförbättringar som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [22.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Den här sidan beskriver alla administratörsförbättringar som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [2.3 versionsöversikt](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrera Adobe Workfront med JumpSeat
 
 Nu kan du integrera JumpSeat med Workfront för att skapa anpassad produktvägledning för dina användare. Du måste ha en Adobe Workfront Enterprise-licens och en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.
 
-Mer information finns i [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+Mer information finns i [Konfigurera JumpSite-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 
 ## Korrekturinställningar har flyttats till Workfront
 
@@ -31,11 +31,11 @@ Nu kan du redigera följande korrekturinställningar i Workfront Setup Area:
 
 * Inställningar för beslutsbevis
 
-Mer information finns i [Konfigurera standardinställningar för korrektur](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Mer information finns i [Konfigurera standardkorrekturinställningar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Använda olåsta statusvärden i en godkännandeprocess
 
-**Obs!** Borttagen från 22.3-produktionsutgåvan. Den här funktionen är planerad att lanseras till Production den 15 september 2022.
+**Obs!** Borttagen från 22.3-produktionsversionen. Den här funktionen är planerad att lanseras till Production den 15 september 2022.
 
 För att du ska få större kontroll över godkännandeprocesserna och statusvärdena i ditt system har vi gjort det möjligt att skapa en godkännandeprocess som baseras på en olåst systemstatus. Dessutom kan du nu låsa upp status som redan används i en godkännandeprocess.
 
@@ -54,8 +54,6 @@ Mer information finns i följande artiklar:
 
 Vi fortsätter att hjälpa dig att göra anpassade formulär mer visuella och informativa med nya resurswidgetar som du kan lägga till, som bilder och videor. Nu kan du lägga till en länk till en PDF-fil i ett anpassat formulär. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet visa och interagera med PDF i formuläret.
 
-Mer information finns i [Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Redigerare för beräkning av anpassat formulärfält visar felinformation
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Mer information finns i [Lägga till eller redigera en bild eller en annan resur
 >Den här funktionen är inte tillgänglig för tillfället. Den här sidan uppdateras när funktionen är tillgänglig.
 
 Det är nu enklare att redigera beräkningar för anpassade fält eftersom felinformation som anges direkt i beräkningen är användbar. När du skapar ett beräknat fält i ett anpassat formulär markeras fel i rosa. När du hovrar över den markerade delen visas ett verktygstips som beskriver vad problemet är.
-
-Mer information finns i [Lägga till beräknade data i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Anpassning av projekthuvud
 
@@ -94,13 +90,13 @@ Som system- eller gruppadministratör kan du nu styra om användare ska kunna sk
 
 Den nya inställningen är&quot;Tillåt användare att skapa projekt utan att använda en mall&quot; och den är som standard aktiverad.
 
-**Obs!** Användarna kan fortfarande konvertera en uppgift till ett tomt projekt.
+**Obs!** Användare kan fortfarande konvertera en aktivitet till ett tomt projekt.
 
 Mer information finns i [Konfigurera systemomfattande projektinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Inaktivera en grupp från gruppsidan
 
-Nyligen har vi lagt till möjligheten att inaktivera och återaktivera grupper. För att göra den åtgärden snabbare och enklare har vi lagt till den på en grupps sida. När du har klickat på en grupps namn för att gå till dess sida kan du nu välja menyn Mer ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) intill gruppens namn väljer du Inaktivera eller Återaktivera.
+Nyligen har vi lagt till möjligheten att inaktivera och återaktivera grupper. För att göra den åtgärden snabbare och enklare har vi lagt till den på en grupps sida. När du har klickat på en grupps namn för att gå till dess sida kan du nu välja menyn Mer ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) bredvid gruppens namn och sedan välja Inaktivera eller Återaktivera.
 
 Tidigare kunde du bara inaktivera eller återaktivera en grupp med kryssrutan Är aktiv på detaljsidan.
 
@@ -111,6 +107,4 @@ Mer information finns i [Inaktivera eller återaktivera en grupp](/help/quicksil
 Nu kan du skapa ett nytt sätt för information, visuellt intresse och kreativitet i ett anpassat formulär genom att lägga till en video. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet spela upp videon när som helst.
 
 Tidigare kunde du bara lägga till textbaserade fält och bilder i ett anpassat formulär.
-
-Mer information finns i [Lägga till eller redigera en bild- eller videoresurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

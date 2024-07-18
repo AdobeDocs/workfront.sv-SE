@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 Beta 4 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 4-versionen. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 30 augusti 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 4. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 30 augusti 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # 2018.3 Beta 4 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 4-versionen. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 30 augusti 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 4. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 30 augusti 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
 
 En lista över alla ändringar som gjorts under 2018.3 finns på  [Aktivitetsöversikt för version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-Beta 4-versionen från 2018.3 innehåller förbättringar både för Workfront-administratörer och andra användare:
+2018.3 Beta 4 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -29,11 +29,11 @@ Beta 4-versionen från 2018.3 innehåller förbättringar både för Workfront-a
 **För alla användare**
 
 * [Exportera mer information från resursplaneraren](#export-more-information-from-the-resource-planner)
-* [Förbättringar av uppgiftslistan](#task-list-improvements) Borttagen från release
+* [Förbättringar av uppgiftslistan](#task-list-improvements) har tagits bort från versionen
 * [Förbättringar av projektlista](#project-list-improvements)
-* [Redigera uppgiftslistan i Gantt-schemats redigeringsläge](#editing-the-task-list-in-gantt-chart-edit-mode) Borttagen från release
+* [Redigera uppgiftslistan i Gantt-schemats redigeringsläge](#editing-the-task-list-in-gantt-chart-edit-mode) Borttagen från release
 * [Mätningsverktygets färger](#measurement-tool-colors)
-* [Öppna korrektur på en ny flik](#proofs-open-in-a-new-tab)  Borttagen från release
+* [Korrektur öppna på en ny flik](#proofs-open-in-a-new-tab) Borttagen från release
 
 * [Förbättringar av utskriftssammanfattning](#print-summary-enhancements)
 * [Logga tid i dagar i Workfront Mobile App](#log-time-in-days-in-the-workfront-mobile-app)
@@ -82,7 +82,7 @@ Följande funktioner har ändrats i uppgiftslistor:
 
 Mer information om hur du arbetar i listor finns i [Kom igång med listor i Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Mer information om att kedja uppgifter i Gantt-schemat finns i [Skapa tidigare relationer genom att kedja uppgifter](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+Mer information om att kedja aktiviteter i Gantt-schemat finns i [Skapa föregående relationer genom att kedja aktiviteter](../../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 
 ## Förbättringar av projektlista {#project-list-improvements}
 
@@ -112,7 +112,7 @@ Du kan nu utföra följande åtgärder för uppgifter i ett projekt när de visa
 
 Tidigare kunde du inte utföra dessa åtgärder på uppgifter när de visades i redigeringsläget i Gantt-diagrammet. Du kan göra dessa ändringar i en uppgiftslista som inte visades i Gantt-diagrammet, men som gjordes direkt.
 
-Mer information om hur du redigerar åtgärder i Gantt-schemat finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Mer information om hur du redigerar uppgifter i Gantt-schemat finns i [Uppdatera information i Gantt-schemat för uppgiftslistor](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Mätningsverktygets färger {#measurement-tool-colors}
 
@@ -128,9 +128,9 @@ Tidigare visades mätverktyget endast i blått, vilket gjorde det svårt att se 
 >
 >* Den här funktionen har tagits bort från förhandsvisningsmiljön och kommer inte att ingå i version 2018.3.
 
-När du öppnar ett korrektur var som helst i Workfront eller Workfront Proof startas nu korrekturläsaren i en ny webbläsarflik och fokus växlar till den fliken. Du kan arbeta i flera webbläsarflikar, granska korrektur och fortsätta arbeta med projekt, uppgifter och problem i Workfront eller Workfront Proof.
+När du öppnar ett korrektur var som helst i Workfront eller Workfront Proof öppnas korrekturläsaren nu på en ny flik i webbläsaren och fokus växlar till den fliken. Du kan arbeta i flera webbläsarflikar, granska korrektur och fortsätta arbeta med projekt, uppgifter och problem i Workfront eller Workfront Proof.
 
-Tidigare startades korrekturläsaren i en bildruta ovanpå webbläsarfliken för Workfront eller Workfront, vilket gjorde den fliken otillgänglig tills du stängde korrekturläsaren.
+Tidigare startades korrekturläsaren i en bildruta ovanpå den aktuella webbläsarfliken i Workfront eller Workfront Proof, vilket gjorde den fliken otillgänglig tills du stängde korrekturläsaren.
 
 Mer information finns i .
 
@@ -160,4 +160,4 @@ Tidigare kunde du bara logga tid med timmar i mobilappen, även när din profili
 
 Mer information om loggningstid i mobilappen finns i . 
 
-Den här funktionen är omedelbart tillgänglig för testning med Android Beta-appen. 
+Den här funktionen är omedelbart tillgänglig för testning med Android Beta. 

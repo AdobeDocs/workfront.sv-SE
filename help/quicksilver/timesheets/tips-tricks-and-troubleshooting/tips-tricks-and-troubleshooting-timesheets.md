@@ -20,6 +20,6 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Korrigera arbetsveckans startdag för tidrapporter](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [Förhindra att åtgärden Beräkna om finanser påverkar historiska timmar när priserna ändras](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Spåra timnoteringar med Adobe Workfront API](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [Förhindra att åtgärden Beräkna om ekonomi påverkar historiska timmar när priset ändras](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* [Spåra timposter med Adobe Workfront API](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
 * [Det går inte att logga tid för framtida datum](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

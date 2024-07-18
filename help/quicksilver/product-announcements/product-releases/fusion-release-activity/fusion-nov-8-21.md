@@ -1,6 +1,6 @@
 ---
-title: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 8 november 2021
-description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 8 november 2021
+title: Workfront Fusion-släppningsaktivitet:&nbsp;Vecka den 8 november 2021
+description: Workfront Fusion-släppningsaktivitet:&nbsp;Vecka den 8 november 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan 8 november 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Konvertera en postmodul som nu är tillgänglig för Workfront Connector
 
@@ -32,4 +32,4 @@ Vi har skapat en modul för en av de vanligaste åtgärderna som är tillgängli
 
 Tidigare var dessa konverteringar bara tillgängliga via modulen Diverse åtgärder.
 
-Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

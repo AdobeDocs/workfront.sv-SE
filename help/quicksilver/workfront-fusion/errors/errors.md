@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront license].
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Fel vid bearbetning av [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
-* [Felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
-* [Direktiv om felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [Försök att hantera fel igen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
+* [Fel vid bearbetning i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
+* [Felhantering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
+* [Direktiv för felhantering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [Försök att hantera fel igen i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
 * [Felhantering av utlösta fel i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
-* [Avancerad felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)
+* [Avancerad felhantering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)

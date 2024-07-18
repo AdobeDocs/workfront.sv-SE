@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Redigera objekt i en lista i [!DNL Adobe Workfront]
+title: Redigera objekt i en lista i  [!DNL Adobe Workfront]
 description: Du kan redigera objekt textbundet när de visas i en lista eller rapport. När du redigerar informationen om objekt som visas i en lista eller rapport uppdateras objektet omedelbart.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: f0912e4ef29d682ae3e6dd0e543b8e77fb7f29b6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ När du infogar redigering av ett fält i ett anpassat formulär som inte är ko
 
 Mer information om listor finns i [Kom igång med listor i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-De flesta objekt som visas i listor eller rapporter kan redigeras i [!DNL Adobe Workfront], finns det några begränsningar, som:
+De flesta objekt som visas i listor eller rapporter går att redigera i [!DNL Adobe Workfront], men det finns vissa begränsningar, som:
 
 * Du kan inte redigera beräknade fält eller [!DNL Workfront] inbyggda fält som är beräkningar.
 * Du kan bara redigera fält som är direkt kopplade till objekten i listan. Du kan inte redigera fält som tillhör objekt som är kopplade till objekten i listan.\
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] behörighet till området som listan finns i</p> <p>Om du till exempel vill infoga redigeringsuppgifter i ett projekt måste du [!UICONTROL Edit] behörighet till projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå.<br>För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till området som listan finns i</p> <p>Om du till exempel vill kunna infoga redigeringsåtgärder i ett projekt behöver du [!UICONTROL Edit] åtkomst till projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Redigera objekt textbundet
 
@@ -75,9 +75,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >   
    >   
    >   * **Sidnumrering**: Klicka på bakåt- och framåtpilarna för att navigera mellan sidorna.\
-   >     längst ned till höger i listan, [!UICONTROL pagination] när du bläddrar igenom listan förblir området klisterlöst.
+   >     Området [!UICONTROL pagination] är placerat längst ned till höger i listan och är fortfarande fäst när du bläddrar igenom listan.
    >   * **Snabbfilter**: Klicka på filterikonen eller skriv Alt+F för att öppna snabbfiltret och ange sedan text för att endast visa objekt som innehåller den angivna texten.\
-   >     Snabbfiltret finns i listverktygsfältet. Mer information finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+   >     Snabbfiltret finns i listverktygsfältet. Mer information finns i [Använda snabbfiltret i en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 
    Om fältet kan redigeras blir fältet och alla andra fält som visas i listan redigerbara celler.
@@ -88,11 +88,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Om ett anpassat fält har konfigurerats för att tillåta formatering kan du fet, kursiv eller understruken text när fältet redigeras i en uppdaterad lista.\
-   >Information om hur du konfigurerar formatering för ett anpassat fält finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
+   >Om ett anpassat fält har konfigurerats för att tillåta formatering kan du fet, kursiv eller understruken text när fältet redigeras i en uppdaterad lista.
+   >Information om hur du konfigurerar formatering för ett anpassat fält finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >Mer information om uppdaterade listor finns i avsnittet&quot;Skillnaden mellan de uppdaterade och de äldre listorna&quot; i artikeln [Kom igång med listor i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. Tryck [!UICONTROL Tab] för att gå till nästa redigerbara cell.
+1. Tryck på [!UICONTROL Tab] för att gå till nästa redigerbara cell.
 1. (Villkorligt) Om du inte kan spara redigeringarna och cellen visas med röda konturer, klickar du i fältet för att granska valideringsmeddelandet som visas bredvid cellen och gör lämpliga uppdateringar.
 
    Det här inträffar oftast när fel format används eller när ett obligatoriskt fält har lämnats tomt.

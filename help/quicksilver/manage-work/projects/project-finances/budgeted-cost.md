@@ -31,21 +31,21 @@ Du kan inte ändra den budgeterade kostnaden för ett projekt manuellt. Adobe Wo
 
 `Budgeted Cost = Resource Planner Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project`
 
-* The **Resursplanering - budgeterad arbetskostnad** i beräkningen ovan är kostnaden som är associerad med jobbrollerna i projektet.
+* Den budgeterade arbetskostnaden för **resursplanering** i beräkningen ovan är kostnaden som är associerad med jobbrollerna i projektet.
 
-   Du kan spåra den budgeterade arbetskostnaden för ett projekt i området Resursbudgetering i affärsärendet eller Resursplaneringen.
+  Du kan spåra den budgeterade arbetskostnaden för ett projekt i området Resursbudgetering i affärsärendet eller Resursplaneringen.
 
-   >[!TIP]
-   >
-   >  Budgeterad arbetskostnad för ett projekt i affärsärendet visas som Resursplanering Budgeterad arbetskostnad i rapporter och listor.
+  >[!TIP]
+  >
+  >  Budgeterad arbetskostnad för ett projekt i affärsärendet visas som Resursplanering Budgeterad arbetskostnad i rapporter och listor.
 
-   Mer information om budgeterade arbetskostnader finns i artikeln [Förstå budgeterad arbetskostnad och budgeterade timmar för projekt](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  Mer information om budgeterade arbetskostnader finns i artikeln [Förstå budgeterad arbetskostnad och budgeterade timmar för projekt](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
-* The **Budgeterad utgift** i beräkningen ovan är den planerade kostnad som är associerad med utgifterna i projektet, så som de beräknas i området Utgifter i affärsärendet eller på fliken Utgifter i projektet.\
-   Mer information om utgifter för ett projekt finns i artikeln [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+* Den **budgeterade utgiftskostnaden** i beräkningen ovan är den planerade kostnad som är associerad med utgifterna i projektet, så som de beräknas i området Utgifter i affärsärendet eller på fliken Utgifter i projektet.\
+  Mer information om utgifter för ett projekt finns i artikeln [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* The **Fast kostnad** i beräkningen ovan är det fasta belopp som är kopplat till projektets kostnad, enligt definitionen i området Ekonomi i projektavsnittet Detaljer.\
-   Mer information om underfliken Ekonomi i ett projekt finns i artikeln [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+* **Fast kostnad** i beräkningen ovan är det fasta belopp som är associerat med kostnaden för projektet, enligt definitionen i området Ekonomi i projektavsnittet.\
+  Mer information om underfliken Ekonomi i ett projekt finns i artikeln [Hantera information i projektfinansieringsdelen](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Budgeterad kostnad som återspeglas i resursbudgeteringsområdet i affärsärend
     </tr> 
     <tr> 
      <td>Kostnad</td> 
-     <td> <p>Portfolio Optimizer</p> <p>Tips: Summan av alla projektbudgeterade kostnadsvärden är portföljens budgeterade kostnad.</p> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>Tips! Summan av alla projektbudgeterade kostnadsvärden är portföljens budgeterade kostnad.</p> </td> 
     </tr> 
     <tr> 
      <td>Projektbudgeterad kostnad</td> 

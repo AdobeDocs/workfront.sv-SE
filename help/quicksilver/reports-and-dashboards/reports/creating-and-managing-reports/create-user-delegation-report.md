@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -68,9 +68,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en delegeringsrapport för användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
 
-1. Klicka **Ny rapport** väljer **Användardelegering**.\
+1. Klicka på **Ny rapport** och välj sedan **Användardelegering**.\
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
    Följande fält visas som standard i den här rapporten:
@@ -79,10 +79,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    |---|---|
    | **Från användare** | Det här är användaren som delegerar uppgifter, utgåvor och projektgodkännanden till en annan användare. |
    | **Till användare** | Det här är den användare som har delegerat uppgifter, utgåvor och projektgodkännanden till sig. |
-   | **Starta** | Detta är början på frånvarotiden för användaren som har gjort delegeringarna. |
-   | **End** | Detta är slutet på frånvarotiden för användaren som har gjort delegeringarna. |
+   | **Start** | Detta är början på frånvarotiden för användaren som har gjort delegeringarna. |
+   | **Slut** | Detta är slutet på frånvarotiden för användaren som har gjort delegeringarna. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 1. (Valfritt) Ändra följande i Report Builder:
 
@@ -91,10 +91,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Filter
    * Diagram
 
-   Mer information om funktionerna finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Mer information om de här funktionerna finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. När du är klar med att skapa rapporten klickar du på **Spara + Stäng**.
+1. När du är klar med att skapa rapporten klickar du på **Spara + stäng**.
 
-1. Ange ett nytt namn i dialogrutan **Rapportnamn** fält och klicka sedan på **Spara rapport**.
+1. Ange ett nytt namn i fältet **Rapportnamn** och klicka sedan på **Spara rapport**.
 
    Rapporten visas.

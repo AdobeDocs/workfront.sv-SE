@@ -7,9 +7,10 @@ title: Anslutningsmetadata i Adobe Workfront Fusion
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 3a7983279a38c30cb58078d129ea22dee137d9a5
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront] licens.
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront]-licens.
 
 Alla anslutningar är inte desamma. Att förstå skillnaderna mellan anslutningar är mycket viktigt för att man ska veta vilken affärsmiljö de lever i. Fusion använder metadata för att identifiera viktiga attribut i en anslutning.
 
@@ -40,7 +41,4 @@ Fusion-anslutningar kan användas för både tjänstkonton och personliga konton
 
 Observera att typen, liksom andra anslutningsmetadata, endast används i informationssyfte. Användarna ansvarar fortfarande för att ställa in attributet manuellt.
 
-Mer information om autentiseringstyper finns i [Autentisering](https://developer.adobe.com/developer-console/docs/guides/authentication/) i Adobe Authentication Guide.
-
-
-
+Mer information om autentiseringstyper finns i [Autentisering](https://developer.adobe.com/developer-console/docs/guides/authentication/) i Adobe autentiseringsguide.

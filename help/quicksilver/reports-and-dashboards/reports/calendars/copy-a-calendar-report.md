@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Om du har skapat en kalender kan du kopiera den och använda den som startpunkt för en ny kalender.
 
-Om du har [!UICONTROL Manage] åtkomst till en kalender som du inte är ägare till kan du kopiera kalendern och bli ägare till den kopierade kalendern.
+Om du dessutom har [!UICONTROL Manage]-åtkomst till en kalender som du inte är ägare till, kan du kopiera kalendern och bli ägare till den kopierade kalendern.
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] behörighet till [!UICONTROL Reports], [!UICONTROL Dashboards]och [!UICONTROL Calendars]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -48,18 +48,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Kopiera en kalenderrapport
 
 1. Gå till kalendern som du vill kopiera.
-1. På **[!UICONTROL Calendar]** verktygsfält, klicka **[!UICONTROL Calendar Actions]** väljer **[!UICONTROL Copy]** i listrutan.\
+1. Klicka på **[!UICONTROL Calendar Actions]** i verktygsfältet **[!UICONTROL Calendar]** och välj sedan **[!UICONTROL Copy]** i listrutan.\
    En kopia av kalendern öppnas.
 
    ![Kopiera kalenderrapporten](assets/copy-calendar-report.png)
 
-   Alla projekt och kalendergrupper i den ursprungliga kalendern visas i kopian av kalendern. Endast objekt som placerats av kalenderfilter exporteras till den nyligen kopierade kalendern. Alla händelser som läggs till manuellt i den ursprungliga kalendern måste läggas till manuellt i den kopierade kalendern.
+   Alla projekt och kalendergrupperingar i den ursprungliga kalendern visas i kopian av kalendern. Endast objekt som placerats av kalenderfilter exporteras till den nyligen kopierade kalendern. Alla händelser som läggs till manuellt i den ursprungliga kalendern måste läggas till manuellt i den kopierade kalendern.
 
-   Endast du har tillgång till den kopierade kalendern. Användare med åtkomst till den ursprungliga kalendern har inte tillgång till den kopierade kalendern. Du kan ge åtkomst till den nyligen skapade kalendern genom att dela den med andra användare. Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar] rapport](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   Endast du har tillgång till den kopierade kalendern. Användare med åtkomst till den ursprungliga kalendern har inte tillgång till den kopierade kalendern. Du kan ge åtkomst till den nyligen skapade kalendern genom att dela den med andra användare. Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Valfritt) Byt namn på kalendern.

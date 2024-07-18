@@ -22,9 +22,9 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan efter 28 juni 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Ny sökmodul i Salesforce-koppling
 
@@ -40,4 +40,4 @@ Om du vill använda Workfront nya funktioner för filtrering av händelseprenume
 
 Tidigare skulle modulen Bevakade poster hämta alla poster. Användare kan bara filtrera genom att konfigurera filter i senare scenariomoduler.
 
-Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

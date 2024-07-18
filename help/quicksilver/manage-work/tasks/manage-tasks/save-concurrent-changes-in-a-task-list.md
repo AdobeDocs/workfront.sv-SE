@@ -23,18 +23,18 @@ Ibland kan konflikter uppstå om två användare gör ändringar för samma uppg
 
 Tänk på följande när du redigerar uppgifter i en uppgiftslista:
 
-* Adobe Workfront sparar ändringarna direkt när du väljer att spara ändringarna automatiskt om projektets uppdateringstyp är Automatisk eller Automatisk eller Vid ändring. Mer information om projektets uppdateringstyp finns i [Välj typ av projektuppdatering](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Adobe Workfront sparar ändringarna direkt när du väljer att spara ändringarna automatiskt om projektets uppdateringstyp är Automatisk eller Automatisk eller Vid ändring. Mer information om projektets uppdateringstyp finns i [Välj projekttyp](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 * Workfront uppdaterar informationen i listan som du arbetar med varje minut med ändringar som andra användare kan göra var som helst i systemet. På så sätt får du alltid den senaste informationen om uppgifterna.
 
 Följande scenarier gäller när flera användare redigerar samma uppgifter:
 
-* **En användare sparar ändringarna i en uppgiftslista automatiskt och en annan manuellt**: Om en användare (Användare A) sparar ändringar manuellt medan Användare B redigerar samma uppgifter, men de sparar sina ändringar automatiskt, uppdateras ändringarna som görs av Användare B i listan för Användare A varje minut. Om det finns konflikter mellan de ändringar som gjorts av de två användarna visas ett varningsmeddelande när användaren sparar manuellt (Användare A) innan ändringarna kan sparas. Varningsmeddelandet visar de objekt som har ändringskonflikter. Användaren A kan nu välja om han eller hon vill behålla sina ändringar (som skriver över de ändringar som gjorts av Användare B) eller ignorera dem (vilket gör att Användare B behåller ändringarna)
+* **En användare sparar ändringarna i en uppgiftslista automatiskt och en annan manuellt**: Om en användare (Användare A) sparar ändringarna manuellt medan Användare B redigerar samma uppgifter, men de sparar sina ändringar automatiskt, uppdateras de ändringar som görs av Användare B i listan för Användare A varje minut. Om det finns konflikter mellan de ändringar som gjorts av de två användarna visas ett varningsmeddelande när användaren sparar manuellt (Användare A) innan ändringarna kan sparas. Varningsmeddelandet visar de objekt som har ändringskonflikter. Användaren A kan nu välja om han eller hon vill behålla sina ändringar (som skriver över de ändringar som gjorts av Användare B) eller ignorera dem (vilket gör att Användare B behåller ändringarna)
 
 >[!NOTE]
 >
 >När du väljer att ignorera de ändringar du har gjort gäller detta alla ändringar och inte bara de som står i konflikt med en annan användares redigeringar.
 
-* **Flera användare sparar ändringarna i en uppgiftslista manuellt**: Om flera användare gör ändringar i en lista manuellt samtidigt, sparar Workfront ändringarna som gjorts av användaren som sparar först. Inga konflikter uppstår när du sparar dessa ändringar. I Workfront jämförs de ändringar som gjorts av alla andra användare med den information som redan har sparats, och en varning om vilka ändringar som är i konflikt visas för de andra användarna innan de kan spara sin information.
+* **Flera användare sparar ändringarna i en uppgiftslista manuellt**: Om flera användare gör ändringar i uppgifter i en lista manuellt samtidigt, sparar Workfront ändringarna som gjorts av den användare som sparar först. Inga konflikter uppstår när du sparar dessa ändringar. I Workfront jämförs de ändringar som gjorts av alla andra användare med den information som redan har sparats, och en varning om vilka ändringar som är i konflikt visas för de andra användarna innan de kan spara sin information.
 
 >[!IMPORTANT]
 >

@@ -25,7 +25,7 @@ Eftersom Adobe Workfront är en Adobe-produkt kan du komma åt den via Adobe Adm
 
 Alla Workfront-kunder kommer till slut att flyttas till Adobe Admin Console. När din organisation har gått över till Adobe Admin Console hanteras Workfront-autentisering av konsolen. Om ni förbereder och gör det här steget tidigare lägger ni grunden för effektiv arbetshantering och positionerar organisationen för snabbare innovation i framtiden
 
-En översikt över Adobe Admin Console finns på [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
+En översikt över Adobe Admin Console finns i [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
 ## Checklista för migrering
 
@@ -45,7 +45,7 @@ För att din organisation ska kunna migrera till Adobe Admin Console måste du u
    >
    >Var beredd att tala med Workfront Support och ditt IT-team om autentiseringsinställningar som enkel inloggning (SSO) eller icke-enkel inloggning (SSO).
 
-   Instruktioner finns i avsnittet Identity Management i [Distributionshandbok för Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
+   Instruktioner finns i avsnittet Identity Management i [Distributionshandboken för Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Villkorligt) Om du använder enkel inloggning ansluter du den nya Adobe Admin Console till din befintliga SSO-leverantör.
 
@@ -59,9 +59,9 @@ För att din organisation ska kunna migrera till Adobe Admin Console måste du u
 
    1. Ta bort dubblettmeddelanden från Workfront.
 
-      Instruktioner finns i [Uppdatera e-postadresser till befintliga användare i din Workfront-instans](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) in [Förhindra dubblerade användare](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
+      Instruktioner finns i [Uppdatera e-postadresser för befintliga användare i din Workfront-instans](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md#update-email-addresses-of-existing-users-in-your-workfront-instance) i [Förhindra dubblerade användare](/help/quicksilver/administration-and-setup/manage-workfront/security/prevent-duplicate-users.md).
 
-      Om det finns dubbla e-postadresser i organisationen, representeras användaren av e-postadressen med den senaste `lastLoginDate` kommer att flyttas till Adobe Admin Console. Andra användare med den e-postadressen inaktiveras.
+      Om det finns dubbla e-postadresser i din organisation flyttas den användare som representeras av e-postadressen med den senaste `lastLoginDate` till Adobe Admin Console-organisationen. Andra användare med den e-postadressen inaktiveras.
 
       >[!NOTE]
       >
@@ -87,4 +87,4 @@ När Adobe Admin Console har konfigurerats med Workfront kan du använda det fö
 
 Mer information finns i [Hantera systemadministratörer i Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-En lista över andra åtgärder som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+En lista med andra åtgärder som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

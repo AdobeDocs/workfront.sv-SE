@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '134'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Du kan visa följande information från den ursprungliga utgåvan i en vy över 
 * Konverterat utgivningsdatum
 * Namn på den som skapat det konverterade problemet
 
-Mer information om hur du skapar en vy med standardrapportverktyget finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Mer information om hur du skapar en vy med standardrapportverktyget finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Mer information om hur du inkluderar ytterligare probleminformation om projekt och uppgiftslistor finns även i [Visa: information om ursprunglig utleverans för uppgifter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Mer information om hur du inkluderar ytterligare probleminformation om projekt och uppgiftslistor finns också i [Visa: ursprunglig probleminformation för aktiviteter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

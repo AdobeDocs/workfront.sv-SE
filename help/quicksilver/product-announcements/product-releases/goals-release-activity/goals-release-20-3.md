@@ -42,4 +42,4 @@ Med Workfront Goals kan ni smidigt sätta upp och hantera mål på en enda platt
 * Hur långt har mina nyckeltal kommit i förhållande till mina mål?
 * Vilka arbeten är i farozonen, efter eller på väg att nå mina mål?
 
-Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).

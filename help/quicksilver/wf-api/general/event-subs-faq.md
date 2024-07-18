@@ -9,7 +9,7 @@ role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ En prenumeration kan även ha andra attribut, till exempel ett eget unikt ID och
 
 ## Kan jag välja vilka händelser som ska skickas till en slutpunkt baserat på vissa kriterier i en händelsenyttolast?
 
-Händelseprenumerationsfilter är ett sätt på vilket händelsedelare kan sorteras efter angivna villkor. Vi rekommenderar att du tillämpar filter på händelseprenumerationer eftersom det kan minska antalet meddelanden som en slutpunkt behöver använda avsevärt. Mer information finns i [Filtrering av händelseprenumeration](../../wf-api/general/event-subs-api.md#event).
+Händelseprenumerationsfilter är ett sätt på vilket händelsedelare kan sorteras efter angivna villkor. Vi rekommenderar att du tillämpar filter på händelseprenumerationer eftersom det kan minska antalet meddelanden som en slutpunkt behöver använda avsevärt. Mer information finns i [Prenumerationsfiltrering](../../wf-api/general/event-subs-api.md#event).
 
 ## Varför returnerar API:t en 409-konfliktsvarskod?
 
@@ -45,9 +45,9 @@ Om du försöker skapa en händelseprenumeration och får en svarskod: 409 hamna
 
 Leta efter följande scenarier och använd den rekommenderade lösningen:
 
-* Se till att prenumerationsslutpunkten som definieras av **url** field - returnerar en 2XX HTTP-svarskod. Om så inte är fallet kontaktar du Workfront Support eller läser [Leveranskrav för evenemangsprenumeration](../../wf-api/general/setup-event-sub-endpoint.md).
+* Kontrollera att din prenumerationsslutpunkt, som definieras av fältet **url**, returnerar en 2XX HTTP-svarskod. Om så inte är fallet kontaktar du Workfront Support eller läser [Leveranskrav för händelseteckning](../../wf-api/general/setup-event-sub-endpoint.md).
 
-* Begäran om händelseleverans kan vara timeout innan den slutförs. Se till att slutpunkten svarar konsekvent inom 5 sekunder. Det här är standardtidsgränsen som anges för HTTP-begäran för att leverera ett händelseprenumerationsmeddelande. Om slutpunkten inte svarar inom 5 sekunder kontaktar du Workfront Support eller läser [Leveranskrav för evenemangsprenumeration](../../wf-api/general/setup-event-sub-endpoint.md).
+* Begäran om händelseleverans kan vara timeout innan den slutförs. Se till att slutpunkten svarar konsekvent inom 5 sekunder. Det här är standardtidsgränsen som anges för HTTP-begäran för att leverera ett händelseprenumerationsmeddelande. Om slutpunkten inte svarar inom 5 sekunder kontaktar du Workfront Support eller läser [leveranskrav för händelseprenumerationer](../../wf-api/general/setup-event-sub-endpoint.md).
 * Händelserna kanske inte genererar ditt sätt att tänka. Se till att ni inte gör antaganden om hur och när händelser ska och ska utlösas. Du kan till exempel tro att en uppdatering av ett dokument för en uppgift genererar en aktivitetsuppdateringshändelse, men i stället genereras en dokumentskapningshändelse eller en dokumentuppdateringshändelse.
 * Din prenumeration kanske inte konfigureras som du förväntar dig. Du kan skapa händelseprenumerationer i olika miljöer och förvänta dig att de överförs på samma sätt som andra Workfront-data gör. Händelseprenumerationsdata är dock inte konfigurerade för kopiering eller befordran till andra miljöer. Kontrollera att du skickar API-begäranden till rätt miljö och att prenumerationerna i den miljön är konfigurerade som förväntat.
 * Nyttolasten togs inte emot eftersom den nödvändiga IP-adressen för Workfront inte har lagts till i tillåtelselista på brandväggen. Händelseprenumerationshändelser skickas endast från ett fåtal IP-adresser. Kontrollera att målnätverket har alla IP-undantag som krävs för att ta emot nyttolaster från Workfront Event Subscriptions.
@@ -77,7 +77,7 @@ Kontakta Workfront support. Mer information om hur du kontaktar supporten finns 
 
 ## Vilka olika typer av autentisering kan jag använda med Workfront Event Subscriptions?
 
-Du kan använda vilken autentisering som helst som använder en innehavartoken. The **authToken** prenumerationsfältet är en sträng som representerar en OAuth2-bearer-token som används för att autentisera med den URL som anges i **url** fält. Teoretiskt sett kan det här tokenvärdet vara vad som helst så länge målslutpunkten är medveten om hur kodningen ska hanteras, vilket är **utf-8**.
+Du kan använda vilken autentisering som helst som använder en innehavartoken. Fältet **authToken** för en prenumeration är en sträng som representerar en OAuth2-bearer-token som används för att autentisera med den URL som anges i fältet **url**. Teoretiskt kan detta tokenvärde vara vad som helst så länge målslutpunkten är medveten om hur kodningen ska hanteras, vilket är **utf-8**.
 
 ## Hur länge ska det vara innan jag får min händelsenyttolast från Workfront Event Subscriptions?
 
@@ -89,8 +89,8 @@ Vanligtvis kan du förvänta dig att ta emot händelseleveransbegäranden om hä
 
 * **God praxis**: [Bästa praxis för händelseteckning](../../wf-api/general/event-sub-best-practice.md)
 
-* **Fält som utlöser händelseabonnemangsnyttolaster**: [Resursfält för händelseprenumeration](../../wf-api/api/event-sub-resource-fields.md)
+* **Fält som utlöser händelseprenumerationsnyttolaster**: [Resursfält för händelseprenumeration](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Förstå återförsök till händelseabonnemang**: [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md)
+* **Förstå återförsök med händelseprenumerationer**: [Återförsök med händelseprenumerationer](../../wf-api/api/event-sub-retries.md)
 
-* **Konfigurera brandväggen för Workfront**: [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Konfigurera brandväggen för Workfront**: [Konfigurera tillåtelselista för brandväggen](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

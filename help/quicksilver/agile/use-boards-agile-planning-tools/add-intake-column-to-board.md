@@ -42,7 +42,7 @@ Problem:
 >
 >Vi rekommenderar att du uppdaterar styrelsen ofta om flera användare arbetar på samma gång. Om du uppdaterar sidan är det lättare att hålla de visuella ändringarna på ritytan uppdaterade och det går inte att flytta dubblettkort till ritytan från inmatningskolumnen.
 
-Mer information om kolumner finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Mer information om anslutna kort finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information om kolumner finns i [Hantera bockkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). Mer information om anslutna kort finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Åtkomstkrav
 
@@ -65,46 +65,46 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa en inloppskolumn med enkla filter
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Configure]** till höger om ritytan för att öppna panelen Konfigurera.
+1. Klicka på **[!UICONTROL Configure]** till höger om kortet för att öppna konfigurationspanelen.
 1. Expandera **[!UICONTROL Board]**.
 1. Aktivera **[!UICONTROL Dynamically intake items to board]**.
 
-   ![Alternativ för enkla infogningsfilter](assets/intake-column-simple-filters.png)
+   ![Alternativ för enkla filter för inloppskolumner](assets/intake-column-simple-filters.png)
 
    Inloppskolumnen läggs till till vänster om ritytan. Den är tom tills du tillämpar filter på den.
 
 1. (Valfritt) Sök efter och välj [!DNL Workfront] [!UICONTROL **Projekt**].
 1. (Valfritt) Sök efter och välj användare eller team [!UICONTROL **Uppdrag**].
-1. Välj [!UICONTROL **Inkludera slutfört arbete**] om du vill visa uppgifter och problem med statusen Fullständig i kolumnen Intag.
+1. Välj [!UICONTROL **Inkludera slutfört arbete**] om du vill visa uppgifter och problem med statusen Fullständigt i inloppskolumnen.
 
    >[!NOTE]
    >
    >Om det här alternativet inte är markerat kommer kort i andra statusar att&quot;ramla av&quot; och inte längre visas.
 
-1. Klicka [!UICONTROL **Använd**].
+1. Klicka på [!UICONTROL **Använd**].
 
    Alla objekt visas som anslutna kort i brädans inloppskolumn.
 
-   ![Inloppskolumn](assets/intake-column-added3.png)
+   ![Intagskolumn](assets/intake-column-added3.png)
 
 ## Skapa en inloppskolumn med avancerade filter
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Configure]** till höger om ritytan för att öppna panelen Konfigurera.
+1. Klicka på **[!UICONTROL Configure]** till höger om kortet för att öppna konfigurationspanelen.
 1. Expandera **[!UICONTROL Board]**.
 1. Aktivera **[!UICONTROL Dynamically intake items to board]**.
 
    Inloppskolumnen läggs till till vänster om ritytan. Den är tom tills du tillämpar filter på den.
 
-1. Klicka [!UICONTROL **Använd avancerade filter**].
-1. Klicka **[!UICONTROL Add filter sources]** och markera **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
+1. Klicka på [!UICONTROL **Använd avancerade filter**].
+1. Klicka på **[!UICONTROL Add filter sources]** och välj **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
 
    ![Avancerade filteralternativ för inmatningskolumn](assets/intake-column-advanced-filters1.png)
 
@@ -114,13 +114,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Du kan också välja sparade filter och systemstandardfilter.
 
-1. Klicka på **[!UICONTROL New filter]** för att komma igång.
+1. Klicka på **[!UICONTROL New filter]** på filterpanelen för att komma igång.
 
    ![Klicka på Nytt filter](assets/intake-filter-dialog5.png)
 
-1. Bygg filtret och klicka **[!UICONTROL Save as new]**.
+1. Skapa filtret och klicka på **[!UICONTROL Save as new]**.
 
-   ![Filter Builder](assets/intake-filter-dialog6.png)
+   ![Filterverktyget](assets/intake-filter-dialog6.png)
 
    I det här exemplet visas ett filter för aktiviteter från ett specifikt projekt som har statusen [!UICONTROL New] eller [!UICONTROL In Progress].
 
@@ -128,7 +128,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Vi rekommenderar att du inte använder jokertecknet&quot;Me&quot; (inloggad användare) i ett kortfilter eftersom det inte alltid är säkert att uppgifter eller problem visas för den inloggade användaren. När styrelsen har konfigurerats med rätt uppgifter och ärenden kan du filtrera ritytan så att den visar objekt för en viss tilldelad person. Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-   Mer information om hur du skapar ett filter finns i avsnittet Skapa eller redigera ett filter i standardverktyget i artikeln [Skapa eller redigera filter i [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   Mer information om hur du skapar ett filter finns i avsnittet&quot;Skapa eller redigera ett filter i standardverktyget&quot; i artikeln [Skapa eller redigera filter i [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Namnge filtret och klicka på **[!UICONTROL Save]**.
 
@@ -140,29 +140,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Sparat filter](assets/intake-filter-dialog8.png)
 
-1. (Valfritt) Om du vill dela filtret med andra håller du pekaren över det sparade filtret och klickar på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png)och markera **[!UICONTROL Share]**. Välj de användare eller team du vill dela med i rutan Filterdelning. Mer information finns i [Dela ett filter, en vy eller en grupp](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-1. (Valfritt) Om du vill ta med både uppgifter och problem i inloppskolumnen klickar du på **[!UICONTROL Filter sources]** och markera det andra objektet för att skapa ett annat filter.
+1. (Valfritt) Om du vill dela filtret med andra håller du pekaren över det sparade filtret, klickar på **[!UICONTROL More]**-menyn ![Mer-menyikonen](assets/more-icon-spectrum.png) och väljer **[!UICONTROL Share]**. Välj de användare eller team du vill dela med i rutan Filterdelning. Mer information finns i [Dela ett filter, en vy eller en gruppering](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+1. (Valfritt) Om du vill ta med både uppgifter och problem i inloppskolumnen klickar du på **[!UICONTROL Filter sources]** och väljer det andra objektet för att skapa ett annat filter.
 1. När du är klar med att lägga till filter kontrollerar du att rätt uppgifter och problem visas i intag-kolumnen.
 
-   ![Inloppskolumn](assets/intake-column-added3.png)
+   ![Intagskolumn](assets/intake-column-added3.png)
 
    >[!NOTE]
    >
-   >Du kan när som helst uppdatera filtren genom att öppna konfigurationspanelen och klicka på **[!UICONTROL Filter sources]** och markera **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
+   >Du kan uppdatera filtren när som helst genom att öppna konfigurationspanelen, klicka på **[!UICONTROL Filter sources]** och välja **[!UICONTROL Tasks]** eller **[!UICONTROL Issues]**.
 
 ## Använda inloppskolumnen
 
-Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller ärende](assets/boards-launch-icon.png) för att öppna uppgiften eller problemet på en ny flik i webbläsaren.
+Kort i inloppskolumnen går inte att redigera förrän du flyttar dem till andra kortkolumner. Du kan klicka på kortet för att öppna det i en skrivskyddad vy eller klicka på ![Öppna uppgift eller utgåva](assets/boards-launch-icon.png) för att öppna uppgiften eller utgåvan på en ny flik i webbläsaren.
 
 Du kan ändra ordning på objekten i inloppskolumnen manuellt.
 
 Ikonerna längst upp till höger i kolumnen visar hur många kort som finns i kolumnen och hur många filter som används.
 
-1. (Valfritt) Om du vill söka efter ett objekt i kolumnen Intag klickar du på ![Ikonen Sök](assets/search-icon.png) på kolumnen.
+1. (Valfritt) Om du vill söka efter ett objekt i kolumnen för intag klickar du på ![ikonen Sök](assets/search-icon.png) i kolumnen.
 1. (Valfritt) Om du vill flytta ett kort från infusionskolumnen till en annan kolumn drar och släpper du kortet där du vill att det ska visas.
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Move]**. Sedan på **[!UICONTROL Move Item]** välj en annan kolumn och markera **[!UICONTROL Move]**.
+   Klicka på **[!UICONTROL More]**-menyn ![Mer menyikon](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Move]**. Välj sedan en annan kolumn i rutan **[!UICONTROL Move Item]** och välj **[!UICONTROL Move]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL More]** meny ![Menyikonen Mer](assets/more-icon-spectrum.png) och markera **[!UICONTROL Delete]**.
+1. (Valfritt) Om du vill ta bort inloppskolumnen klickar du på **[!UICONTROL More]**-menyn ![Mer-menyikonen](assets/more-icon-spectrum.png) och väljer **[!UICONTROL Delete]**.

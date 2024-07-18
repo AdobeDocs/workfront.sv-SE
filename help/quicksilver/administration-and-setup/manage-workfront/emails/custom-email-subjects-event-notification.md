@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Planering eller senare, med administrativ åtkomst till påminnelsemeddelanden</p> <p>Mer information om hur du ger en Plan-användare administratörsåtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Planering eller senare, med administrativ åtkomst till påminnelsemeddelanden</p> <p>Mer information om hur du ger en plananvändare administrativ åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,17 +60,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Anpassa ämnesrader för e-post för händelsemeddelanden {#customize-email-subject-lines-for-event-notifications}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **E-post** > **Meddelanden**.
+1. Klicka på **E-post** > **Meddelanden** i den vänstra panelen.
 
-1. Klicka på **Händelsemeddelanden** -fliken.
-1. Klicka på namnet på det händelsemeddelande som du vill anpassa för att öppna **Händelsemeddelande** box.
-1. I **Ämnesrad för e-post** ändrar du texten och fälten, inklusive anpassade fält, i e-postmeddelandets ämne.
+1. Klicka på fliken **Händelsemeddelanden**.
+1. Klicka på namnet på det händelsemeddelande som du vill anpassa för att öppna rutan **Händelsemeddelande**.
+1. I rutan **E-posta ämnesrad** ändrar du texten och fälten, inklusive anpassade fält, i e-postmeddelandets ämne.
 
    Namnen på de tillagda fälten måste matcha kamelversalsyntaxen i vår databasstruktur. <!--For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).-->
 
-1. Klicka **Uppdatera** för att spara de nya ämnesraderna för dina e-postmeddelanden.
+1. Klicka på **Uppdatera** för att spara de nya ämnesraderna för dina e-postmeddelanden.
 
 ## Anpassa ämnesrader för e-post för e-post med flera objekt
 
@@ -84,7 +84,7 @@ Om en användare ingår i en konversation om uppgiften, utgåvan, malluppgiften 
 
 Om det läggs till i en projektkonversation genereras ett e-postmeddelande med det andra ämnet. Här innehåller ämnesraden&quot;topReferenceObject:name&quot; och återigen identifierar Workfront vilket objekt som refererades och returnerar objektnamnet i stället för&quot;topReferenceObject:name&quot; i ämnet. Ämnesraden i e-postmeddelandet ser ut ungefär så här:&quot;Kommentar i projekt ABC&quot;.
 
-Om du vill redigera e-postens ämnesrader och lägga till ytterligare fält på någon av ämnesraderna, se [Anpassa ämnesrader för e-post för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.
+Om du vill redigera ämnesraderna i e-postmeddelanden och lägga till ytterligare fält på någon av ämnesraderna läser du [Anpassa ämnesrader i e-postmeddelanden för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.
 
 ## Anpassa ämnesrader för e-postmeddelanden
 
@@ -94,4 +94,4 @@ Att begära att ett dokument ska läggas till i ett problem är till exempel en 
 
 ![](assets/ev-not-mult-subj-lines-diff-actions.png)
 
-Om du vill redigera e-postens ämnesrader och lägga till ytterligare fält på någon av ämnesraderna, se [Anpassa ämnesrader för e-post för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.
+Om du vill redigera ämnesraderna i e-postmeddelanden och lägga till ytterligare fält på någon av ämnesraderna läser du [Anpassa ämnesrader i e-postmeddelanden för händelsemeddelanden](#customize-email-subject-lines-for-event-notifications) i den här artikeln.

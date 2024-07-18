@@ -21,31 +21,31 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett webbinnehållsblock
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på&#x200B;**Rapportering**.
-1. Klicka **Ny rapport**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på **Ny rapport**.
 
    eller
 
-   Klicka på **Mer** icon ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
+   Gå till en befintlig rapport, klicka på ikonen **Mer** ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
 
 1. Till höger på skärmen, under **Lägg till ett block**, antingen:
 
-   Dra **Webbinnehåll** på arbetsytan direkt till önskad plats.
+   Dra ikonen **Webbinnehåll** till arbetsytan direkt till önskad plats.
 
    eller
 
-   Dubbelklicka på **Webbinnehåll** om du vill lägga till ett block högst upp på arbetsytan.
+   Dubbelklicka på ikonen **Webbinnehåll** för att lägga till ett block högst upp på arbetsytan.
 
    >[!TIP]
    >
    >Du kan ändra storleken på blocket efter att det har placerats genom att dra i hörnhandtagen.
 
-1. Klicka **Namnlöst webbinnehåll** i blockhuvudet och skriv en rubrik för blocket.
-1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i blockhuvudet.
+1. Klicka på **Namnlöst webbinnehåll** i blockhuvudet och skriv en rubrik för blocket.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i blockhuvudet.
 
    ![](assets/web-content-block-header-350x76.png)
 
-1. I **Inställningar** som öppnas anger du den fullständiga URL-adressen till sidan som du vill visa (inklusive&quot;https://&quot;) i dialogrutan **URL** fält.
+1. I panelen **Inställningar** som öppnas anger du den fullständiga URL-adressen för sidan som du vill visa (inklusive &quot;https://&quot;) i fältet **URL**.
 
    >[!NOTE]
    >
@@ -68,10 +68,10 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
    {style="table-layout:auto"}
 
-1. (Valfritt) Klicka på **Godkänn parametrar** för att öppna en lista över tillgängliga lösenordsparametrar.
+1. (Valfritt) Klicka på växeln **Godkänn parametrar** för att öppna en lista med tillgängliga lösenordsparametrar.
 
    >[!WARNING]
    >
    >Godkänd-parametrar är för närvarande inaktiverade.
 
-1. Klicka **Bädda in URL** för att spara dina val och återgå till rapporten.
+1. Klicka på **Bädda in URL** för att spara dina val och återgå till rapporten.

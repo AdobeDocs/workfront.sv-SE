@@ -8,21 +8,21 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
 source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
 
 # Avinstallera Workfront med Adobe Experience Manager äldre anslutning
 
-Du måste avinstallera Workfront med Adobe Experience Manager äldre anslutning till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
+Du måste avinstallera Workfront med Adobe Experience Manager äldre anslutning till den senaste inbyggda integreringen som ansluter Workfront och Adobe Experience Manager Assets as a Cloud Service.
 
 ## Avbeställ Workfront
 
 1. Öppna Adobe Experience Manager.
-1. I Experience Manager, gå till **verktyg** > **Cloud Services** > **Konfiguration av Workfront-integrering**.
+1. Gå till **Verktyg** > **Cloud Service** > **Workfront Integration Configuration** i Experience Manager.
 1. Välj din konfiguration (global-workfront som standard) och klicka på **Egenskaper**.
-   ![avbeställa tjänsten](assets/unsubscribe-from-workfront.png)
+   ![avsluta prenumeration från arbetsytan](assets/unsubscribe-from-workfront.png)
 1. Inaktivera synk av dokument, kommentarer och metadata. Etiketten ska vara dag inaktiverad.
 Detta tar bort prenumerationerna i Workfront och gör att användaren kan skapa en ny prenumeration med samma URL som definieras i Day CQ Link Externalizer.
 
@@ -37,7 +37,7 @@ När du har tagit bort prenumerationen är det nu säkert att ta bort integrerin
 
 Därefter måste du ta bort Workfront Property Mapping.
 
-1. I Experience Manager, gå till **verktyg** > **Resurser** > **Workfront Property Mapping**.
+1. Gå till **Verktyg** > **Assets** > **Workfront-egenskapsmappning** i Experience Manager.
 
 1. Markera alla mappningar och klicka på **Ta bort**.
 
@@ -49,27 +49,27 @@ Kopplingen fungerar med systemets Workfront-tjänst för användare. Detta avins
 
 >[!NOTE]
 >
->Om du använder Connecter version 2.0.3 och lade till gruppen `workfront-aem-connector-group`måste den också tas bort genom att **verktyg** > **Säkerhet** > **Grupper**.
+>Om du använder Connecter version 2.0.3 och lade till gruppen `workfront-aem-connector-group`, måste även detta tas bort genom att gå till **Verktyg** > **Dokumentskydd** > **Grupper**.
 
 ## Day CQ Link Externalizer
 
-Om du inte behöver Dag CQ Link Externalizer kan du återställa den till `localhost:4502` genom att gå till `/system/console/configMgr` och söker efter &#39;Day CQ Link Externalizer&#39;.
+Om du inte behöver Dag CQ Link Externalizer kan du återställa den till `localhost:4502` genom att gå till `/system/console/configMgr` och leta efter Dag CQ Link Externalizer.
 
 >[!NOTE]
 >
 >Om du använder Adobe Experience Manager as a Cloud Service kan du ändra detta genom att undersöka ditt projekt och hitta filen _com.day.cq.commons.impl.ExternalizerImpl.xml_ inuti _ui.apps/src/main/content/jcr_root/apps/mysite/config_.
 
-![Day CQ Link Externalizer](assets/Day-CQ-Link-Externalizer.png)
+![Dagens CQ Link Externalizer](assets/Day-CQ-Link-Externalizer.png)
 
-## Avinstallera Connector-paket
+## Avinstallera anslutningsprogram
 
-Vilka steg som krävs för att avinstallera anslutningsprogrammet varierar beroende på vilken Adobe Experience Manager-version du har.
+Vilka steg som krävs för att avinstallera anslutningspaketet varierar beroende på vilken Adobe Experience Manager-version du har.
 
-### Adobe Experience Manager On-Premise
+### Adobe Experience Manager lokal
 
-Om du använder Adobe Experience Manager lokalt går du till _crx/packmgr/index.jsp_ och leta efter `workfront-aem-connector.all-<version>.zip`, klicka **Mer** och sedan **Avinstallera**.
+Om du använder Adobe Experience Manager lokalt går du till _crx/packmgr/index.jsp_ och letar efter `workfront-aem-connector.all-<version>.zip`, klickar på **Mer** och sedan på **Avinstallera**.
 
-Gå till `/conf` för att säkerställa att alla filer som skapats i Workfront har tagits bort.
+Kontrollera under `/conf` för att se till att alla filer som skapats av Workfront har tagits bort.
 
 ### Adobe Experience Manager as a Cloud Service
 

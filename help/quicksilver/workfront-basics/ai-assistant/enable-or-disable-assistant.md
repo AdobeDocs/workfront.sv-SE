@@ -48,7 +48,7 @@ Som Workfront-administratör kan du styra vilka användare i organisationen som 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Aktivera eller inaktivera AI-assistenten i Workfront
 
@@ -56,10 +56,10 @@ AI-assistenten är aktiverad som standard.
 
 Så här inaktiverar du AI Assistant för en given åtkomstnivå:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
 1. Välj **Åtkomstnivåer** i den vänstra navigeringen.
 1. Välj den åtkomstnivå som du vill inaktivera AI Assistant för.
-1. I fönstret Redigera åtkomstnivå bläddrar du nedåt till fönstrets nederkant och klickar på **Ange ytterligare begränsningar...**.
-1. Aktivera alternativet i området Ange ytterligare begränsningar **Inaktivera Workfront AI Assistant**.
-1. Klicka **Spara**.
+1. I fönstret Redigera åtkomstnivå bläddrar du nedåt i fönstret och klickar på **Ange ytterligare begränsningar..**.
+1. Aktivera alternativet **Inaktivera Workfront AI Assistant** i området Ange ytterligare begränsningar.
+1. Klicka på **Spara**.
 1. Upprepa steg 3-6 för varje åtkomstnivå som du vill inaktivera AI-assistenten för.

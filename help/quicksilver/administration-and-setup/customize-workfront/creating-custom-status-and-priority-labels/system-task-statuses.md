@@ -11,7 +11,7 @@ role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '406'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Följande uppgiftsstatusvärden finns i din Workfront-instans:
   <tr> 
    <td>Slutförd (obligatorisk status)</td> 
    <td> <p>Du kan markera en uppgift som slutförs manuellt när arbetet är slutfört.</p> <p>När spårningsläget för en uppgift är inställt på Komplettera automatiskt markeras aktiviteten automatiskt som Slutförd när det planerade slutförandedatumet uppnås.</p> </td> 
-   <td> <p>När en uppgift är slutförd markeras procentandelen slutförd för uppgiften som 100 %. Uppgiften tas bort från den tilldelades arbetslista i hemområdet när den är slutförd.</p> <p>När du markerar en uppgift som slutförd visas ett värde för Faktiskt slutförandedatum.</p> <p><b>ANMÄRKNING</b>: Om aktiviteten har ofullständiga problem och du ändrar aktivitetsstatus till Fullständigt ändras statusen automatiskt till Fullständigt - Väntande problem.</p> </td> 
+   <td> <p>När en uppgift är slutförd markeras procentandelen slutförd för uppgiften som 100 %. Uppgiften tas bort från den tilldelades arbetslista i hemområdet när den är slutförd.</p> <p>När du markerar en uppgift som slutförd visas ett värde för Faktiskt slutförandedatum.</p> <p><b>Obs!</b> Om aktiviteten har ofullständiga problem och du ändrar aktivitetsstatus till Fullständig, ändras statusen automatiskt till Fullständigt - väntande problem.</p> </td> 
   </tr> 
  </tbody> 
 </table>

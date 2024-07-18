@@ -25,7 +25,7 @@ Begränsningar som återställs per användare och månad. Beslutsgränsen för 
    </td>
    <td><strong>Extern</strong> 
    </td>
-   <td><strong>Medarbetare</strong> 
+   <td><strong>Deltagare</strong> 
    </td>
    <td><strong>Ljus</strong> 
    </td>
@@ -68,7 +68,7 @@ Om en extern användare når sin beslutsgräns förlorar de inte åtkomsten till
 
 ## Contributor-användare
 
-När en användare med en Contributor-licens når sin beslutsgräns uppgraderas de automatiskt till Light-licensen med obegränsat antal korrektur- och dokumentbeslut. Mer information om ljuslicensen finns i [Ljus åtkomstnivå](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) i [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) artikel.
+När en användare med en Contributor-licens når sin beslutsgräns uppgraderas de automatiskt till Light-licensen med obegränsat antal korrektur- och dokumentbeslut. Mer information om Light-licensen finns i avsnittet [Ljusåtkomstnivå](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) i artikeln [Översikt över åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 >[!NOTE]
 >

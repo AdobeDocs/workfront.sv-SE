@@ -22,19 +22,19 @@ Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmil
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för 2018.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Beta 2-versionen från 2018.2 innehåller följande förbättringar:
+2018.2 Beta 2 innehåller följande förbättringar:
 
 * [Redigera fält direkt från hemområdet](#edit-fields-directly-from-the-home-area)
 * [Loggtid i dagar](#log-time-in-days)
-* [Visa korsprojektsrelationer i Gantt-schemat i en projektlista](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
+* [Visa korsprojektsföreträdarrelationer i Gantt-schemat i en projektlista](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
 * [Använd budgeterad kostnad i Portfolio-optimering för att beräkna Portfolio-ekonomi](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
-* [Användningsrapport: Fyller i budgeterade timmar från det nya resursbudgeteringsområdet](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (Endast förhandsvisning)
+* [Användningsrapport: Fyller i budgeterade timmar från det nya resursbudgeteringsområdet](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (endast förhandsvisning)
 
-* [Användningsrapport: Visa budgeterade timmar per användare i ett projekt](#utilization-report-view-budgeted-hours-by-user-on-a-project) (Endast förhandsvisning)
+* [Användningsrapport: Visa budgeterade timmar per användare i ett projekt](#utilization-report-view-budgeted-hours-by-user-on-a-project) (endast förhandsvisning)
 
-* [Korrekturstatus från dokumentlistan som är tillgänglig för icke-språkliga användare](#proof-progress-from-the-document-list-available-to-non-proofing-users)
+* [Korrekturstatus från dokumentlistan tillgänglig för icke-språkliga användare](#proof-progress-from-the-document-list-available-to-non-proofing-users)
 * [Mobilförbättringar](#mobile-improvements)
 
 ## Redigera fält direkt från hemområdet {#edit-fields-directly-from-the-home-area}
@@ -43,7 +43,7 @@ När du nu markerar ett objekt i området Hem kan du redigera fält som är kopp
 
 Före den här ändringen gick det bara att visa information i hemområdet, inte redigerad.
 
-Mer information finns i [Uppdatera eller redigera en arbetsuppgift i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) i artikeln  [Uppdatera eller redigera en arbetsuppgift i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+Mer information finns i [Uppdatera eller redigera ett arbetsobjekt i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) i artikeln  [Uppdatera eller redigera ett arbetsobjekt i hemområdet ](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## Loggtid i dagar {#log-time-in-days}
 
@@ -51,7 +51,7 @@ Workfront-administratörer kan nu konfigurera om användare i sin organisations 
 
 Före den här ändringen kunde användaren bara logga tiden i timmar.
 
-Du kan konfigurera den här inställningen genom att redigera användarprofilen. Mer information finns i [Konfigurera om tid är inloggad i timmar eller dagar](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+Du kan konfigurera den här inställningen genom att redigera användarprofilen. Mer information finns i [Konfigurera om tiden är inloggad i timmar eller dagar](../../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
 
 Mer information om hur användare kan logga tid i dagar efter att den här inställningen har uppdaterats finns i [Loggtid](../../../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -78,7 +78,7 @@ Tidigare använde både den nya och den gamla Portfolio-optimeraren den gamla bu
 
 Vi har också lagt till två nya fält i Portfolio Financial Fields: Legacy ROI och Legacy Net Value för att hämta in de nya värdena från de nya resurshanteringsverktygen.
 
-Mer information finns i [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) i artikeln  [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information finns i [Översikt över Portfolio-optimering](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) i artikeln  [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Användningsrapport: Fyller i budgeterade timmar från det nya resursbudgeteringsområdet {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +90,7 @@ Budgeterade timmar i utnyttjanderapporten fylls nu i från information som är t
 
 Före den här ändringen användes information från det tidigare området Resursberäkning.
 
-Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i artikeln  [Översikt över resursanvändningsrapporten ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) .
 
 ## Användningsrapport: Visa budgeterade timmar per användare i ett projekt {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -120,7 +120,7 @@ Mobilappen innehåller följande förbättringar:
 
   Mer information om delning av länkar finns i .
 
-  Den här uppdateringen är nu tillgänglig på iOS och Android.
+  Den här uppdateringen finns nu för iOS och Android.
 
 * Vi har uppdaterat våra supportkrav för iOS-plattformen för iPhone X.
 

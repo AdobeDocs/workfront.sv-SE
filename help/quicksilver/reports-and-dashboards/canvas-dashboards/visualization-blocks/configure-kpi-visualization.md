@@ -25,11 +25,11 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Börja med att lägga till ett visualiseringsblock med **KPI** visualiseringstyp till en rapport, vilket förklaras i [Lägga till eller redigera ett visualiseringsblock i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
+1. Börja med att lägga till ett visualiseringsblock med visualiseringstypen **KPI** i en rapport, vilket förklaras i [Lägg till eller redigera ett visualiseringsblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md).
 
-1. Klicka på ikonen Redigera visualisering ![](assets/edit-icon.png) i det övre högra hörnet av visualiseringen gör något av följande.
+1. Klicka på ikonen Redigera visualisering ![](assets/edit-icon.png) i det övre högra hörnet av visualiseringen och gör sedan något av följande.
 
-   1. På **Inställningar** tab:
+   1. På fliken **Inställningar**:
 
       <table style="table-layout:auto">
        <col>
@@ -40,16 +40,16 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
          <td><p>Växla till en annan typ av visualisering. Om du gör det kan de efterföljande alternativen på menyn ändras.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">Källfält</td>
+         <td role="rowheader">Source</td>
          <td>Markera de data som du vill ska visas i visualiseringen.</td>
         </tr>
         <tr>
          <td role="rowheader">Sammansättningstyp</td>
          <td><p> Ange hur du vill att värdena ska summeras:</p>
           <ul>
-           <li><p><b>Antal</b>: Antal värden</p></li>
+           <li><p><b>Antal</b>: Antalet värden</p></li>
            <li><p><b>Summa</b>: Summan av alla värden </p></li>
-           <li><p><b>Genomsnittlig</b>: Medelvärdet för alla värden</p></li>
+           <li><p><b>Medel</b>: Medelvärdet av alla värden</p></li>
            <li><p><b>Minimum</b>: Endast det lägsta värdet</p></li>
            <li><p>Maximum: endast det högsta värdet</p></li>
           </ul></td>
@@ -57,11 +57,11 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
        </tbody>
       </table>
 
-   1. På **Data** tab:
+   1. På fliken **Data**:
 
       | Datakälla (listruta) | Ändra datakällan för visualiseringen till en annan tabell på rapportarbetsytan. |
       |---|---|
-      | Visa datakälla | Aktivera det här alternativet om du vill visa källtabellen för visualiseringen på rapportarbetsytan eller inaktivera alternativet att dölja den. |
+      | Visa data i Source | Aktivera det här alternativet om du vill visa källtabellen för visualiseringen på rapportarbetsytan eller inaktivera alternativet att dölja den. |
 
       {style="table-layout:auto"}
 

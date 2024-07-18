@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront är ett program för att hantera hela arbetscykeln på ett och samma ställe. Tack vare integreringen mellan Workfront och Experience Manager Assets kan företag förbättra innehållets hastighet och time-to-market genom att knyta samman arbete och hantering av digitala resurser. När man arbetar i Workfront får man tillgång till dokument och bilder.
 
-Den förbättrade kopplingen Workfront for Experience Manager möjliggör förbättrade affärsprocesser med kompletta arbetsflöden och ger personaliserade kundupplevelser från början till slut och central lagring. Mer information om den förbättrade kontakten finns i [Nyheter i den förbättrade kopplingen](#what-s-new-in-the-enhanced-connector) i den här artikeln.
+Den förbättrade kopplingen Workfront for Experience Manager möjliggör förbättrade affärsprocesser med kompletta arbetsflöden och ger personaliserade kundupplevelser från början till slut och central lagring. Mer information om funktioner och funktioner för den förbättrade anslutningen finns i [Nyheter i den förbättrade anslutningen](#what-s-new-in-the-enhanced-connector) i den här artikeln.
 
 >[!IMPORTANT]
 >
@@ -36,23 +36,23 @@ Workfront för Experience Manager förbättrade anslutningsverktyg gör att du n
 * Synkronisera Workfront-projektmetadata med länkade Experience Manager-mappar.
 * Använd metadatauppdateringar för Experience Manager med nya versioner.
 * Ange objektstatus för Workfront baserat på konfigurerbara villkor med hjälp av arbetsflöden i Experience Manager.
-* Publicera material i Experience Manager eller Brand Portal.
+* Publish-material till Experience Manager eller till Brand Portal.
 
 ## Förutsättningar och plattformar som stöds
 
 * Adobe Workfront
 * [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
-* [Adobe Experience Manager 6.5 Assets på plats](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
+* [Adobe Experience Manager 6.5 Assets lokalt](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-on-premise.html)
 * [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/legal/product-descriptions/adobe-experience-manager-managed-services.html)
 * Adobe Experience Manager Assets lokalt
 * Adobe Experience Manager Assets as a Managed Service
 
 ## Kom igång
 
-1. **Installera och konfigurera anslutningsprogrammet**. Med en certifierad partner eller Adobe Professional Services kan du installera och konfigurera Workfront for Experience Manager förbättrade anslutningsprogram för att organisera, standardisera processer, etablera styrning och effektivisera resursens livscykel från det att den skapas tills den levereras. [Installera i Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html) eller [installera i Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html).
-1. **Använda kopplingen**. Se hur den förbättrade kopplingen fungerar i praktiken med automatisk generering av projektlänkade mappar i Experience Manager Assets, Workfront-metadata mappade till Experience Manager Assets och mappar, dubbelriktad metadatasynkronisering och mycket annat. Mer information finns i [Workfront för Experience Manager förbättrad anslutning](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
+1. **Installera och konfigurera anslutningen**. Med en certifierad partner eller Adobe Professional Services kan du installera och konfigurera Workfront for Experience Manager förbättrade anslutningsprogram för att organisera, standardisera processer, etablera styrning och effektivisera resursens livscykel från det att den skapas tills den levereras. [Installera i Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html) eller [installera i Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html).
+1. **Använd kopplingen**. Se hur den förbättrade kopplingen fungerar i praktiken med automatisk generering av projektlänkade mappar i Experience Manager Assets, Workfront-metadata mappade till Experience Manager Assets och mappar, dubbelriktad metadatasynkronisering och mycket annat. Mer information finns i [Workfront for Experience Manager enhanced connector](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
 
 ## Mer som detta
 
-* Översikt [Workfront för Adobe Experience Manager](https://www.workfront.com/integrations/adobe/experience-manager)
+* Översikt över [Workfront för Adobe Experience Manager](https://www.workfront.com/integrations/adobe/experience-manager)
 * [Adobe Workfront for Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

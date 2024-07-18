@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Starta tidigast
+# Översikt över aktivitetsbegränsning: Starta tidigast
 
 Använd åtgärdsbegränsningen Starta tidigast (SNET) om du vill schemalägga en aktivitet som ska starta efter det datum du anger.
 
@@ -23,7 +23,7 @@ Använd åtgärdsbegränsningen Starta tidigast (SNET) om du vill schemalägga e
 Tänk på följande när du använder villkoret Start Nej tidigare än Aktivitetsbegränsning:
 
 * Du bör använda begränsningen Starta tidigast när projektet är schemalagt från startdatum. I det här fallet kan du ange en mjuk begränsning för en aktivitet innan den tvingar andra beroende uppgifter att visas som Risksumma.
-* Start No Earlier Than är standardbegränsningen om ett projekt är schemalagt från startdatum och om systemets eller gruppens standardstartdatum för en ny aktivitet är inställt på Today. Mer information om hur du konfigurerar standardinställningar för uppgifter finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Start No Earlier Than är standardbegränsningen om ett projekt är schemalagt från startdatum och om systemets eller gruppens standardstartdatum för en ny aktivitet är inställt på Today. Mer information om hur du konfigurerar standardinställningar för uppgifter finns i [Konfigurera uppgifter och inställningar för problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * Om du schemalägger projektet Från startdatum och systemets standardstartdatum för en ny uppgift anges till Baserat på projektplanerat datum, är standardbegränsningen för en ny uppgift Så snart som möjligt.
 * Om du schemalägger projektet Från slutförandedatum och systemets standardstartdatum för en ny uppgift är inställt på I, schemaläggs aktiviteten som om den vore en så sen som möjligt-uppgift med villkoret Start No Tidigare Than.
@@ -36,13 +36,14 @@ Tänk på följande när du använder villkoret Start Nej tidigare än Aktivitet
 
       * När målprojektet är schemalagt från slutförande:
 
-         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date ändras aktivitetsbegränsningen till As Late As Possible.
+         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date, ändras aktivitetsbegränsningen till As Late As Possible.
          * När villkorsdatumet för aktiviteten är tidigare än det planerade startdatumet för projektet ändras projektets planerade startdatum så att det matchar startvillkorsdatumet för aktiviteten.
+
       * Oavsett schemat för projektet, när villkorsdatumet för aktiviteten ligger inom projektets start- och slutförandedatum, finns det inga ändringar i aktivitetsbegränsningen eller projektdatumen.
 
-   Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att flytta uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

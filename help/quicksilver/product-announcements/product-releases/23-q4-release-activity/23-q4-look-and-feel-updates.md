@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den fjärde utgåvan, kvartal 2023.
 
-En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av kvartal 2023 finns i [Översikt över utgåvan fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Håll utkik efter uppdateringar för e-postmallar för dokumentgodkännanden
 
@@ -35,7 +35,7 @@ E-postmallen för aviseringar om dokumentgodkännande har uppdaterats för att b
 
 Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.
 
-Mer information finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Mer information finns i [Hantera användartilldelningar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Nya funktioner för flikar i området för inställningsmeddelanden
 

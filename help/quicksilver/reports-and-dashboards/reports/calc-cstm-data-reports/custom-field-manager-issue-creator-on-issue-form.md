@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: "Exempel på beräknat anpassat fält: visa den som har skapat ett ärende i eget formulär"
+title: "Exempel på beräknat anpassat fält: visa hanteraren för den som har skapat ett ärende i det anpassade formuläret"
 description: Med hjälp av ett beräknat anpassat fält kan du visa namnet på den som har skapat ett ärende i ett anpassat formulär som har kopplats till problemet. Med samma programsats kan du skapa liknande beräkningsfält för projekt, utgåvor och andra objekt.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 0%
 
 ---
 
-# Exempel på beräknat anpassat fält: visa den som har skapat ett ärende i det anpassade formuläret
+# Exempel på beräknat anpassat fält: visa hanteraren för den som skapat ett ärende i det anpassade formuläret
 
 Med hjälp av ett beräknat anpassat fält kan du visa namnet på den som har skapat ett ärende i ett anpassat formulär som har kopplats till problemet. Med samma programsats kan du skapa liknande beräkningsfält för projekt, utgåvor och andra objekt.
 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär<br>Information om hur du beviljar administrativ åtkomst från åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär<br>Mer information om att bevilja administrativ åtkomst från åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektbehörigheter</p> </td> 
@@ -61,10 +61,10 @@ I följande steg visas hur du kan skapa ett beräkningsfält för ett eget ären
 
    Mer information om hur du skapar ett anpassat formulär och lägger till beräknade fält i det finns i följande artiklar:
 
-   * [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-   * [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
-1. Kopiera och klistra in följande textlägeskod i **Beräkning** fält i det anpassade formuläret:
+1. Kopiera och klistra in följande textlägeskod i fältet **Beräkning** i det anpassade formuläret:
 
    ```
    {owner}.{manager}.{name}
@@ -74,6 +74,6 @@ I följande steg visas hur du kan skapa ett beräkningsfält för ett eget ären
    >
    >Anpassade fältberäkningar är skiftlägeskänsliga.
 
-1. Klicka **Klar** sedan **Spara + Stäng**.
+1. Klicka på **Klar** och sedan på **Spara + stäng**.
 
    Hanteraren för den användare som skapade problemet visas i beräkningsfältet när formuläret som innehåller fältet är kopplat till ett problem.

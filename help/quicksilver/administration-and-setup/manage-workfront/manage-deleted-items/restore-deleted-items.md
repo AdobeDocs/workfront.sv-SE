@@ -59,7 +59,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+&#42;Kontakta Workfront-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 +++
 
@@ -131,20 +131,20 @@ När du återställer ett projekt, en uppgift eller ett problem återställs int
 
 * Lösa objekt
 
-  Ett matchande objekt är ett konverterat fel som har konfigurerats med alternativet **Behåll det ursprungliga problemet och knyt lösningen till detta** &lt;**projekt** eller **aktivitet)**>. Om du tar bort det överordnade projektet eller den överordnade aktiviteten identifieras problemet inte längre som ett matchande objekt eftersom det inte längre finns någon länk som ansluter det till projektet eller aktiviteten. Om du återställer den överordnade länken återställs inte länken.
+  Ett matchande objekt är ett konverterat fel som har konfigurerats med alternativet **Behåll det ursprungliga felet och koppla dess upplösning till det här** &lt;**projektet** eller **aktiviteten)**>. Om du tar bort det överordnade projektet eller den överordnade aktiviteten identifieras problemet inte längre som ett matchande objekt eftersom det inte längre finns någon länk som ansluter det till projektet eller aktiviteten. Om du återställer den överordnade länken återställs inte länken.
 
-  Mer information om hur en Workfront-administratör eller gruppadministratör konfigurerar problem som matchar det matchande objektet när det konverteras finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) och [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Mer information om hur en Workfront-administratör eller gruppadministratör konfigurerar problem så att de matchar matchande objekt när de konverteras finns i [Konfigurera inställningar för systemomfattande åtgärder och problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) och [Konfigurera inställningar för aktiviteter och problem för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-  Mer information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+  Mer information om hur du konverterar problem finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Återställ objekt
 
 {{step-1-to-setup}}
 
-1. Klicka **Papperskorgen** > **Nyligen borttaget**.
-1. Klicka på **Projekt**, **Uppgifter**, **Problem**, **Mallar**, eller **Dokument** beroende på vilken typ av objekt du vill återställa.
+1. Klicka på **Papperskorgen** > **Nyligen borttagen**.
+1. Klicka på fliken **Projekt**, **Åtgärder**, **Problem**, **Mallar** eller **Dokument**, beroende på vilken typ av objekt du vill återställa.
 
-   Objekten sorteras efter **Borttagningsdatum** kolumn som standard.
+   Objekten sorteras som standard i kolumnen **Borttagningsdatum** .
 
 1. Välj upp till 10 objekt som du vill återställa.
 
@@ -152,10 +152,10 @@ När du återställer ett projekt, en uppgift eller ett problem återställs int
 
    Om du tar bort en överordnad uppgift visas endast den överordnade uppgiften i listan. Alla underordnade uppgifter återställs dock när du återställer en överordnad uppgift.
 
-1. Klicka **Återställ** om du vill återställa de markerade objekten till deras ursprungliga plats.
+1. Klicka på **Återställ** om du vill återställa de markerade objekten till deras ursprungliga plats.
 1. (Valfritt) Om du snabbt vill visa det återställda objektet följer du stegen i [Visa återställt objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-   Mer information om vad som händer när du har återställt ett objekt finns i avsnittet [Vad som händer när du återställer objekt](#what-happens-after-you-restore-items) i den här artikeln.
+   Mer information om vad som händer efter att du har återställt ett objekt finns i avsnittet [Vad som händer efter att du har återställt objekt](#what-happens-after-you-restore-items) i den här artikeln.
 
 ## Vad som händer när du återställer objekt {#what-happens-after-you-restore-items}
 

@@ -21,7 +21,7 @@ Du kan skapa uppgifter i ett specifikt projekt eller så kan du skapa uppgifter 
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Skapa uppgiftsöversikt](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
-* [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
+* [Översikt över Skapa aktiviteter](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [Skapa aktiviteter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
 * [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

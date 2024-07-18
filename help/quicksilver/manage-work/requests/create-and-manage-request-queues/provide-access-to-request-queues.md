@@ -39,7 +39,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,7 +54,7 @@ Du måste ha följande:
 
 Innan begärandekön är tillgänglig för användare i området Begäranden måste du skapa ett projekt med följande inställningar:
 
-* Ange den som en begärandekö. Mer information om hur du skapar en frågekö finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Ange den som en begärandekö. Mer information om hur du skapar en frågekö finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 * Uppdatera projektets status till Aktuell.
 
 ## Ge åtkomst till en frågekö
@@ -65,18 +65,18 @@ Innan begärandekön är tillgänglig för användare i området Begäranden må
    >
    >Endast projekt med statusen Aktuell visas i området Förfrågningar.
 
-1. Klicka **Köinformation** i den vänstra panelen. Du kan behöva klicka **Visa fler** sedan **Köinformation**.
-1. Välj **Publicera som kö för hjälpbegäran** för att ange projektet som en begärandekö.
+1. Klicka på **Köinformation** i den vänstra panelen. Du kan behöva klicka på **Visa mer** och sedan på **Köinformation**.
+1. Välj **Publish som kö för hjälpbegäran** om du vill ange projektet som en frågekö.
 1. Välj bland följande alternativ:
 
-   * **Alla**: Alla användare kan visa och lägga till begäranden i kön.
-   * **Personer med visningsåtkomst till det här projektet**: Användare som har behörighet att visa projektet kan visa och lägga till begäranden i kön. 
+   * **Vem som helst**: Alla användare kan visa och lägga till begäranden i begärandekön.
+   * **Personer med visningsåtkomst till det här projektet**: Användare som har visningsbehörighet för projektet kan visa och lägga till begäranden i begärandekön. 
    * **Personer i det här projektets företag**: Användare som är associerade med projektets företag kan visa och lägga till begäranden. Det företag som är associerat med projektet står inom parentes bredvid det här alternativet. 
    * **Personer i det här projektets grupp**:Användare som är associerade med projektets grupp kan visa och lägga till begäranden. Gruppen som är associerad med projektet visas inom parentes bredvid det här alternativet.
 
-      Gruppköer är användbara när flera avdelningar delar ett Workfront-konto för att uppnå unika organisationsmål. Varje avdelning kan ha egna köer som medlemmar i andra grupper inte ska kunna se.
+     Gruppköer är användbara när flera avdelningar delar ett Workfront-konto för att uppnå unika organisationsmål. Varje avdelning kan ha egna köer som medlemmar i andra grupper inte ska kunna se.
 
-      Mer information om vem som har behörighet för ett projekt finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
-      Grupper och företag kan associeras med projektet när de redigerar projektet. Mer information om hur du redigerar projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+     Mer information om vem som har behörighet för ett projekt finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).\
+     Grupper och företag kan associeras med projektet när de redigerar projektet. Mer information om hur du redigerar projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

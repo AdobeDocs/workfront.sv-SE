@@ -53,8 +53,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
+     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Admin (gruppanvändare)</b> är aktiverad måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om inställningen <b>Användare</b> på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -62,11 +62,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Använd en kalkylbladsimportfil för att importera användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 
-1. Klicka på **Ny användare** nedrullningsbar pil och klicka sedan på **Importera användare**.
+1. Klicka på listrutan **Ny användare** och sedan på **Importera användare**.
 
-1. I **Importera användare** som visas hämtar du exempelfilen och uppdaterar sedan exempelfilen så att den innehåller din egen användares personliga information.
+1. I rutan **Importera användare** som visas hämtar du exempelfilen och uppdaterar sedan exempelfilen så att den innehåller din egen användares personliga information.
 
    Varje rad innehåller följande fält:
 
@@ -80,7 +80,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
      Åtkomstnivåer är skiftlägeskänsliga.
 
-   * **Inloggnings-ID för enkel inloggning**
+   * **SSO-inloggnings-ID**
 
      Det här fältet inkluderas bara om enkel inloggning är aktiverat i systemet. Du måste lägga till Federations-ID i det här fältet för varje användare. När du skapar en användare från fliken Personer kan du ange ett lösenord för användaren om du vill tillåta användare att logga in utan enkel inloggning. Importfunktionen tillåter dock inte att du lämnar SSO-LOGIN-ID:t tomt.
 
@@ -91,13 +91,13 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    ![importing-new-users.png](assets/importing-new-users.png)
 
 1. Spara filen på en plats på din arbetsstation.
-1. Klicka **Välj fil** i **Importera användare** box.
+1. Klicka på **Välj fil** i rutan **Importera användare**.
 
 1. Navigera till och markera filen som du har sparat.
-1. (Valfritt) Välj **Skicka en inbjudan via e-post till den här användaren** möjlighet att skicka en e-postinbjudan till användaren, meddela dem att ett Workfront-konto har skapats och be dem att ange sitt lösenord.
+1. (Valfritt) Markera alternativet **Skicka en inbjudan via e-post till den här användaren** om du vill skicka en e-postinbjudan till användaren, meddela användaren att ett Workfront-konto har skapats och be användaren att ange sitt lösenord.
 
    Avmarkera det här alternativet om du vill ange lösenordet för användaren.
 
-1. Klicka **Importera**.
+1. Klicka på **Importera**.
 
    Du får ett bekräftelsemeddelande högst upp på skärmen om att användaren har importerats.

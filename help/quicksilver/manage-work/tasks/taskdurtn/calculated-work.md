@@ -2,14 +2,14 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '''Typ av varaktighet: Beräknat arbete'
+title: 'Typ av varaktighet: beräknat arbete'
 description: Beräknat arbete är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: f521c2f5-8d58-44c0-af18-6940ad0950ea
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,9 @@ Beräknat arbete är en varaktighetstyp som du kan ange för en uppgift i Adobe 
 
 ## Översikt över den beräknade varaktighetstypen för arbete
 
-Beräknat arbete avgör mängden arbete (planerade timmar) som krävs för att uppgiften ska kunna slutföras. Vi rekommenderar att du använder den beräknade varaktighetstypen för arbete när resurserna som tilldelats uppgiften tilldelas för hela aktivitetens varaktighet.
+Beräknat arbete avgör mängden arbetsinsats (planerade timmar) som krävs för att uppgiften ska kunna slutföras. Vi rekommenderar att du använder den beräknade varaktighetstypen för arbete när resurserna som tilldelats uppgiften tilldelas för hela aktivitetens varaktighet.
 
-Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som Beräknat arbete. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och ärenden som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som Beräknat arbete. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 När resurser läggs till i en uppgift kan projektledaren förvänta sig att den planerade ansträngningen ökar. Ett timmars planeringsmöte med tre resurser representerar tre timmars arbete, och ett timmars planeringsmöte med tio resurser representerar tio timmars arbete. Detta förutsätter att varje resurs tilldelas till aktiviteten med 100 % allokering.
 
@@ -30,7 +30,7 @@ När resurser läggs till i en uppgift kan projektledaren förvänta sig att den
 
 När du använder Beräknad arbetstid för en uppgift beräknas arbetsmängden för varje uppgift i Workfront med hjälp av följande två formler. Formler varierar beroende på hur stor procentandel av tiden varje resurs tilldelas till aktiviteten och hur många resurser du har tilldelat varje uppgift:
 
-* Förenklad formel: Om du har en resurs tilldelad till aktiviteten och de har tilldelats till uppgiften för 100 % av den tillgängliga tiden, beräknas värdet för arbete som krävs för varje uppgift enligt följande formel:
+* Förenklad formel: Om du har en resurs tilldelad till aktiviteten och de tilldelas till uppgiften för 100 % av den tillgängliga tiden, beräknas värdet för arbete som krävs för varje uppgift enligt följande formel:
 
 ```
 Work Required (Planned Hours) = (Duration of the task in hours) x (The number of resources assigned to the task)
@@ -84,7 +84,7 @@ I det här fallet tilldelas varje tilldelad 100 % till aktiviteten Beräknat arb
 
 ## Ändra varaktighetstypen för en aktivitet till Beräknat arbete
 
-Mer information om hur du ändrar varaktighetstypen för en uppgift finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Mer information om hur du ändrar varaktighetstypen för en aktivitet finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

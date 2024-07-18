@@ -6,16 +6,16 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
 
 # 2.3 Projektförbättringar
 
-Den här sidan beskriver alla projektförbättringar som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [22.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Den här sidan beskriver alla projektförbättringar som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [2.3 versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Utanför kontoret
 
@@ -39,7 +39,7 @@ Nedan följer några av de funktioner som vi har lagt till i den här uppdaterin
 >Endast användare med en granskning eller en högre licens kan delegera sitt arbete till andra. Arbetet kan delegeras till alla användare, oavsett åtkomstnivå. Delegerade användare får samma behörigheter som tilldelningarna för de delegerade objekten. Om de här behörigheterna är lägre än en användares åtkomstnivåkonfiguration kan de delegerade användarna hindras från att utföra vissa av de aktiviteter som rör de uppgifter och problem som har delegerats till dem.
 
 
-Mer information finns i [Översikt över delegeringsuppgifter och utgåvor](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
+Mer information finns i [Översikt över delegeringsaktivitet och -problem](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 ## Ny upplevelse vid konvertering av ett problem till en uppgift
 
@@ -68,13 +68,11 @@ Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfro
 
 Vi har förbättrat taggningen av användare i uppdateringsströmmen när du skapar en ny uppdatering eller svarar på en befintlig uppdatering. När du taggar en användare så att den inkluderas i en uppdatering visas även användarens primära roll och e-postadress, förutom namnet och avataren. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.
 
-Mer information finns i [Tagga andra för uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Mer information finns i [Tagga andra om uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Ny syntax för beräkningar i anpassade fält
 
 För att förbereda dig för framtida förbättringar som hjälper dig att lägga till beräkningar i anpassade formulär har vi standardiserat syntaxen för refererade fält som du lägger till i en beräkning. Det är enkelt att använda den nya syntaxen eftersom systemet anger den åt dig när du börjar skriva namnet på ett fält och sedan markerar det.
-
-Mer information finns i avsnittet &quot;Bygg beräkningen för ditt beräknade anpassade fält&quot; i [artikel Lägga till beräknade data i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Behåll korrekt information när två användare med en gemensam roll deltar i en godkännandeprocess
 
@@ -141,11 +139,11 @@ Varje mapp på sjätte nivån eller tidigare ärver sina delningskonfigurationer
 
 Mer information om att dela mappar finns i [Dela en dokumentmapp på den översta nivån](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Workfront Campaigns (beta) - ett nytt sätt att hantera ditt arbete
+## Workfront Campaigns (Beta) - ett nytt sätt att hantera ditt arbete
 
 >[!NOTE]
 >
->Den här funktionen kommer att tas bort från förhandsgranskningen den 9 januari 2023. Mer information finns i [23.1 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Den här funktionen kommer att tas bort från förhandsgranskningen den 9 januari 2023. Mer information finns på översiktssidan för [23.1-utgåvan](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >
@@ -164,7 +162,7 @@ Följande funktioner ingår i den här versionen:
 
 * Ett nytt Workfront-objekt som heter Campaign
 
-* Ett nytt kampanjområde (betaversion) på huvudmenyn
+* Ett nytt område för kampanjer (Beta) på huvudmenyn
 
 * En lista över kampanjer i kampanjområdet
 

@@ -10,7 +10,7 @@ role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '427'
 ht-degree: 1%
 
 ---
@@ -39,32 +39,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Risktyper
 
-Risktyper är etiketter som du kan använda för att kategorisera risker i rapporteringssyfte. De skapas i **[!UICONTROL Setup]** område efter [!DNL Adobe Workfront] administratör. Efter att risktyper har etablerats i **[!UICONTROL Setup]** är de universella för ditt system. Alla projektägare kan använda samma risktyper för sina projekt.
+Risktyper är etiketter som du kan använda för att kategorisera risker i rapporteringssyfte. De skapas i området **[!UICONTROL Setup]** av administratören för [!DNL Adobe Workfront]. När risktyper har etablerats i ditt **[!UICONTROL Setup]**-område är de universella för ditt system. Alla projektägare kan använda samma risktyper för sina projekt.
 
 ## Redigera och skapa risktyper
 
-Vissa risktyper finns redan [!DNL Workfront], som standard. För att tillgodose organisationens behov kan du antingen redigera befintliga risktyper eller skapa nya risktyper.
+Vissa risktyper finns redan i [!DNL Workfront] som standard. För att tillgodose organisationens behov kan du antingen redigera befintliga risktyper eller skapa nya risktyper.
 
 * [Redigera befintliga risktyper](#edit-existing-risk-types)
 * [Skapa nya risktyper](#create-new-risk-types)
 
 ### Redigera befintliga risktyper {#edit-existing-risk-types}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **[!UICONTROL Risk Types]**.
 1. Välj den risktyp som du vill redigera.
 1. Klicka på **[!UICONTROL Edit]**.
 1. (Valfritt) Ändra namn och beskrivning av risktypen.
 
-   Det finns en teckengräns på 50 tecken för **[!UICONTROL Name]** och **[!UICONTROL Description]** fält.
+   Det finns en teckengräns på 50 tecken för fälten **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
 1. Klicka på **[!UICONTROL Save Changes].**
 
@@ -74,19 +74,19 @@ Du kan skapa nya risktyper, utöver standardrisktyperna, för att återspegla or
 
 Så här skapar du en ny risktyp:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **[!UICONTROL Risk Types]**.
 1. Klicka på **[!UICONTROL New Risk Type]**.
-1. Skriv a **[!UICONTROL Name]** (obligatoriskt) och en **[!UICONTROL Description]** (frivillig uppgift) för risktypen.
+1. Ange **[!UICONTROL Name]** (obligatoriskt) och **[!UICONTROL Description]** (valfritt) för risktypen.
 
-   Det finns en teckengräns på 50 tecken för **[!UICONTROL Name]** och **[!UICONTROL Description]** fält.
+   Det finns en teckengräns på 50 tecken för fälten **[!UICONTROL Name]** och **[!UICONTROL Description]**.
 
 1. Klicka på **[!UICONTROL Create Risk Type]**. Om du använde infogad redigering för att lägga till din risktyp klickar du på **[!UICONTROL Enter]** när du är klar.
 
    >[!NOTE]
    >
-   >Om du behöver redigera en anpassad risktyp, se avsnittet [[!UICONTROL Edit existing] risktyper](#edit-existing-risk-types) i den här artikeln.
+   >Om du behöver redigera en anpassad risktyp läser du avsnittet [[!UICONTROL Edit existing] risktyper ](#edit-existing-risk-types) i den här artikeln.
 
 ## Bifoga risker med risktyper i projekt
 

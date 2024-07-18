@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,13 +58,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen väljs som standard.
 
-1. Klicka **Godkännanden** i den vänstra rutan.
+1. Klicka på **Godkännanden** i den vänstra rutan.
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
+1. Om du vill lägga till en godkännare klickar du på **Godkännaren** och börjar skriva in ett användar- eller teamnamn.
 
-1. Om du vill lägga till en granskare klickar du på **Granskare** och börja skriva in ett användar- eller teamnamn.
+1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -78,15 +78,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj den version av dokumentet som du vill skapa ett godkännande för i listrutan. Den senaste versionen väljs som standard.
 
-1. Bläddra nedåt till **Godkännanden** i rutan Dokumentsammanfattning klickar du på **Lägg till**.
+1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning och klicka sedan på **Lägg till**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
+1. Om du vill lägga till en godkännare klickar du på **Godkännaren** och börjar skriva in ett användar- eller teamnamn.
 
-1. Om du vill lägga till en granskare klickar du på **Granskare** och börja skriva in ett användar- eller teamnamn.
+1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
    ![](assets/add-approver-and-deadline.png)
 

@@ -10,7 +10,7 @@ feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
 source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Projektstatistik ger en allmän bild i diagramformat om hur ett projekt fungerar
    <td role="rowheader">Åtkomstnivå*</td> 
    <td> <p>Visa åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,7 +54,7 @@ Om du vill komma åt området Metrisk från den vänstra panelen i ett projekt m
 
 * Låt alternativet Metrisk på den vänstra panelen vara aktiverat under Projekt i layoutmallen.
 
-   Information om hur en Workfront-administratör eller gruppadministratör kan anpassa den vänstra panelen med en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+  Information om hur en Workfront-administratör eller gruppadministratör kan anpassa den vänstra panelen med en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 ## Översikt över projektmätningsområdet
 
@@ -70,12 +70,12 @@ I området Metrisk kan du se den övergripande statusen för ett projekt, samt:
 
 Du kan även fördjupa dig i varje diagram för att närmare titta på uppgifter eller problem i en viss kategori.
 
-Mer information om hur du tittar på dessa uppgifter och problem finns i [Visa måttinformation](#view-metrics-details).
+Om du vill veta mer om hur du tittar på de här uppgifterna eller problemen kan du läsa [Visa måttinformation](#view-metrics-details).
 
 >[!TIP]
 >
 >Om du vill visa mätvärden på en högre nivå för en grupp projekt inom ett program, en portfölj osv. navigerar du till området Förbättrad analys.\
->Mer information om förbättrade analyser finns i [Förbättrad analys - översikt](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Mer information om förbättrade analyser finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## KPI:er för projekt
 
@@ -85,11 +85,11 @@ KPI:er (Key Performance Indicator) visas längst upp i mätområdet.
 
 Dessa nyckeltal är indelade i följande kategorier:
 
-| Slutförda uppgifter | **Slutförda uppgifter** visar antalet uppgifter med statusen Slutför. Det här numret innehåller även uppgifter som har en anpassad status som är lika med Fullständig. |
+| Slutförda uppgifter | **Slutförda uppgifter** visar antalet uppgifter med statusen Slutfört. Det här numret innehåller även uppgifter som har en anpassad status som är lika med Fullständig. |
 |---|---|
-| Ofullständiga uppgifter | **Ofullständiga uppgifter** visar antalet uppgifter som inte har statusen Slutfört eller Stängt eller som har en status som är lika med Fullständigt. |
-| Försenade uppgifter | **Försenade uppgifter** visar antalet uppgifter som ligger efter det planerade slutförandedatumet och som inte har statusen Slutfört eller Stängt eller som har statusen Slutför eller Stängt. |
-| Totalt antal uppgifter | **Totalt antal uppgifter** visar det totala antalet uppgifter i projektet. |
+| Ofullständiga uppgifter | **Oavslutade aktiviteter** visar antalet aktiviteter som inte har statusen Slutfört eller Stängt eller som har en status som är lika med Fullständigt. |
+| Försenade uppgifter | **Försenade aktiviteter** visar antalet aktiviteter som ligger efter det planerade slutförandedatumet och som inte har statusen Slutfört eller Stängt eller en status som är lika med Fullständigt eller Stängt. |
+| Totalt antal uppgifter | **Totalt antal aktiviteter** visar totalt antal aktiviteter i projektet. |
 
 >[!TIP]
 >
@@ -101,7 +101,7 @@ Dessa nyckeltal är indelade i följande kategorier:
 
 I stapeldiagrammet som visas under projektets KPI:er kan du se status eller prioritet för arbetsobjekten i projektet. Aktivitetsvyn är markerad som standard.
 
-När du väljer status i det här diagrammet kan du visa alla statusvärden för uppgifter eller ärenden i ett projekt. Varje status grupperas i en stapel i diagrammet. Alla standardstatusvärden och anpassade statusvärden visas i det här diagrammet.
+När du har valt status i det här diagrammet kan du visa alla statusvärden för uppgifter eller ärenden i ett projekt. Varje status grupperas i en stapel i diagrammet. Alla standardstatusvärden och anpassade statusvärden visas i det här diagrammet.
 
 ![](assets/project-metrics-task-issue-by-status-350x120.png)
 
@@ -123,9 +123,9 @@ Med dondiagrammet under projektets nyckeltal kan du se förhållandet mellan slu
 
 I listrutan ovanför diagrammet kan du välja:
 
-| Alla uppgifter | Markera **uppgifter** visar det totala antalet uppgifter i projektet samt förhållandet mellan slutförda och ofullständiga uppgifter. |
+| Alla uppgifter | Om du väljer **aktiviteter** visas det totala antalet aktiviteter i projektet samt förhållandet mellan slutförda och ofullständiga aktiviteter. |
 |---|---|
-| Alla problem | Markera **problem** visar det totala antalet problem i projektet samt förhållandet mellan slutförda och ofullständiga problem. |
+| Alla problem | Om du väljer **utgåvor** visas det totala antalet utgåvor i projektet samt förhållandet mellan slutförda och ofullständiga utgåvor. |
 
 >[!TIP]
 >
@@ -141,11 +141,11 @@ I det tilldelade stapeldiagrammet visas antalet uppgifter som tilldelats varje p
 
 Du kan välja att titta på uppgiftstilldelningar för ett projekt i följande kategorier:
 
-| Slutförd | Markera **Slutförd** visar antalet uppgifter som tilldelats varje användare som har slutförts. |
+| Complete | Om du väljer **Slutför** visas antalet uppgifter som tilldelats varje användare som har slutförts. |
 |---|---|
-| Ofullständig | Markera **Ofullständig** visar antalet uppgifter som tilldelats varje användare som ännu inte har slutförts. |
-| Kommande | Markera **Kommande** visar antalet uppgifter som tilldelats varje användare som ännu inte har nått det planerade startdatumet. |
-| Försenad | Markera **Försenad** visar antalet uppgifter som tilldelats varje användare som har passerat det planerade slutförandedatumet och som ännu inte har slutförts. |
+| Ofullständig | Om du väljer **Ofullständig** visas antalet uppgifter som tilldelats varje användare som inte har slutförts än. |
+| Kommande | Om du väljer **Kommande** visas antalet uppgifter som tilldelats varje användare som ännu inte har nått det planerade startdatumet. |
+| Försenad | Om du väljer **Försenad** visas antalet uppgifter som tilldelats varje användare som har passerat det planerade slutförandedatumet och som ännu inte har slutförts. |
 
 >[!TIP]
 >
@@ -158,11 +158,11 @@ Du kan välja att titta på uppgiftstilldelningar för ett projekt i följande k
 Du kan interagera med diagrammen i området Metrisk om du vill titta närmare på olika aspekter av ett diagram eller närmare titta på uppgifter och problem i ett diagram.
 
 1. Gå till det projekt du vill se mätvärden för.
-1. Klicka på i den vänstra panelen **Visa fler** om du vill visa fler avsnitt klickar du på **Mått**.\
+1. Klicka på **Visa mer** i den vänstra panelen för att visa fler avsnitt och klicka sedan på **Metrisk**.\
    Diagrammen i området Metrisk visar information för uppgifter som standard.\
    ![](assets/metrics-section-350x298.png)
 
-1. (Villkorligt) Om en nedrullningsbar pil visas i ett diagram klickar du på **Nedrullningsbar pil** icon ![](assets/dropdown-arrow.png) i diagrammet och välj önskat alternativ på menyn.\
+1. (Villkorligt) Om en nedrullningsbar pil visas i ett diagram klickar du på ikonen **Nedrullningsbar pil** ![](assets/dropdown-arrow.png) i diagrammet och väljer önskat alternativ på menyn.\
    Information om alternativen som visas på menyerna i varje diagram finns i relevant avsnitt ovan.
 
 1. (Valfritt) Gör så här om du vill titta närmare på uppgifter eller problem med mätvärden på sidan:
@@ -185,7 +185,7 @@ Du kan interagera med diagrammen i området Metrisk om du vill titta närmare p�
 
       Uppgiften eller problemet öppnas på en ny flik.
 
-1. (Valfritt) Om du vill exportera kontrollpanelen för projektmått till en PNG-fil klickar du på knappen **Exportera** icon ![](assets/export.png)väljer **Exportera som PNG** i listrutan.
+1. (Valfritt) Om du vill exportera kontrollpanelen för projektmått till en PNG-fil klickar du på ikonen **Exportera** ![](assets/export.png) och väljer sedan **Exportera som PNG** i listrutan.
 
    >[!TIP]
    >

@@ -25,17 +25,17 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 >
 >Alla ändringar sparas automatiskt när du skapar och redigerar blocken i rapporten.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapportering**.
-1. Klicka **Ny rapport**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på **Ny rapport**.
 1. Skriv ett namn på rapporten i det övre vänstra hörnet av arbetsytan.
 
-   Du kan när som helst ändra namnet på rapporten genom att klicka på **Redigera** icon ![](assets/edit-icon.png) bredvid namnet.
+   Du kan när som helst ändra namnet på rapporten genom att klicka på ikonen **Redigera** ![](assets/edit-icon.png) bredvid dess namn.
 
 1. Dra blocken som du vill lägga till från skärmens högra sida till arbetsytan.
 
    >[!TIP]
    >
-   >Klicka när du vill **Förhandsgranska** i det övre högra hörnet för att se hur rapporten ser ut utanför redigeringsläget.
+   >Du kan när som helst klicka på **Förhandsgranska** i det övre högra hörnet för att se hur rapporten ser ut utanför redigeringsläget.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -43,11 +43,11 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
     <tbody> 
      <tr> 
       <td role="rowheader">Tabell <img src="assets/table-icon.png"></td> 
-      <td> <p>Lägg till en tabell som visar fältdata i kolumner.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md" class="MCXref xref">Lägga till eller redigera ett tabellblock i rapportarbetsytan</a>.</p> </td> 
+      <td> <p>Lägg till en tabell som visar fältdata i kolumner.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md" class="MCXref xref">Lägga till eller redigera ett tabellblock i Rapporteringsarbetsyta</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visualisering <img src="assets/visualization-icon.png"></td> 
-      <td> <p>Lägg till en datavisualisering baserad på data i ett tabellblock.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">Lägga till eller redigera ett visualiseringsblock i rapportarbetsytan</a>.</p> </td> 
+      <td> <p>Lägg till en datavisualisering baserad på data i ett tabellblock.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md" class="MCXref xref">Lägga till eller redigera ett visualiseringsblock i Rapporteringsarbetsyta</a>.</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Artikel</td> 
@@ -55,7 +55,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
       </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader">Webbinnehåll</td> 
-      <td> <p>Lägg till en extern källa, till exempel en webbsida, i rapporten.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref">Lägga till eller redigera ett webbinnehållsblock i rapportarbetsytan</a>.</p> </td> 
+      <td> <p>Lägg till en extern källa, till exempel en webbsida, i rapporten.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md" class="MCXref xref">Lägga till eller redigera ett webbinnehållsblock i Rapporteringsarbetsyta</a>.</p> </td> 
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Canvas, filter</td> 
@@ -72,19 +72,19 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
     <tbody> 
      <tr> 
       <td role="rowheader">Redigera ett block</td> 
-      <td> <p>Klicka på <strong>Ikonen Redigera</strong> på blocket.</p> <p>Om du vill ha information om hur du konfigurerar en viss typ av block klickar du på länken i tabellen ovan.</p> </td> 
+      <td> <p>Klicka på ikonen <strong>Redigera</strong> i blocket.</p> <p>Om du vill ha information om hur du konfigurerar en viss typ av block klickar du på länken i tabellen ovan.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Duplicera ett block</td> 
-      <td>Klicka på <strong>Menyn Mer</strong> icon <img src="assets/more-icon.png"> i blockets sidhuvud och välj <strong>Kopiera block</strong>.</td> 
+      <td>Klicka på ikonen <strong>Mer meny</strong> <img src="assets/more-icon.png"> i blockets sidhuvud och välj sedan <strong>Kopiera block</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort ett block</td> 
-      <td>Klicka på <strong>Menyn Mer</strong> icon <img src="assets/more-icon.png"> i blockets sidhuvud och välj <strong>Ta bort block</strong>.</td> 
+      <td>Klicka på ikonen <strong>Mer meny</strong> <img src="assets/more-icon.png"> i blockets sidhuvud och välj sedan <strong>Ta bort block</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Flytta ett block</td> 
-      <td> Markera ett block, klicka och dra i handtaget <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> i blockets övre vänstra hörn om du vill flytta det ovanför, under eller bredvid ett annat block.</td> 
+      <td> Markera ett block, klicka och dra handtaget <img src="assets/widget-drag-icon.png" style="max-width: 16px;"> i det övre vänstra hörnet av blocket för att flytta det ovanför, under eller bredvid ett annat block.</td> 
      </tr> 
     </tbody> 
    </table>
@@ -97,15 +97,15 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
     <tbody> 
      <tr> 
       <td role="rowheader">Dela i Workfront</td> 
-      <td> <p>Klicka <strong>Dela</strong> i det övre högra hörnet för att ge specifika användare åtkomst till rapporten.</p> </td> 
+      <td> <p>Klicka på <strong>Dela</strong> i det övre högra hörnet för att ge specifika användare åtkomst till rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportera som en fil</td> 
-      <td>När du har lämnat redigeringsrutan klickar du på <strong>Menyn Mer</strong> icon <img src="assets/more-icon.png"> bredvid namnet på rapporten och välj <strong>Exportera</strong>.</td> 
+      <td>När du har lämnat redigeringsrutan klickar du på ikonen <strong>Mer meny</strong> <img src="assets/more-icon.png"> bredvid rapportens namn och väljer sedan <strong>Exportera</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Favoritera rapporten</td> 
-      <td>När du har lämnat redigeringsrutan klickar du på <strong>Stjärna</strong> -ikonen bredvid namnet på rapporten för att lägga till den i din lista över favoritrapporter.</td> 
+      <td>När du har lämnat redigeringsrutan klickar du på ikonen <strong>Stjärna</strong> bredvid namnet på rapporten för att lägga till den i listan med favoritrapporter.</td> 
      </tr> 
     </tbody> 
    </table>

@@ -36,8 +36,8 @@ Leveransdatumet är det datum då en uppgift blir tillgänglig för arbete. Det 
 
 Workfront använder följande regler för att beräkna leveransdatum för en uppgift:
 
-* **När aktiviteten har en ofullständig föregående**: Behandlingsdatumet för aktiviteten är null.
-* **När aktiviteten har en fullständig föregående aktivitet**: Leveransdatumet är samma som det faktiska slutförandedatumet för föregående aktivitet. Om föregående aktivitet har en fördröjning beräknar Workfront leveransdatumet för efterföljande uppgift med följande formel:
+* **När aktiviteten har en ofullständig föregångare**: Ångra-datumet för aktiviteten är null.
+* **När aktiviteten har en fullständig föregående**: Leveransdatumet är samma som det faktiska slutförandedatumet för föregående aktivitet. Om föregående aktivitet har en fördröjning beräknar Workfront leveransdatumet för efterföljande uppgift med följande formel:
 
   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
@@ -47,13 +47,13 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 
   >[!NOTE]
   >
-  >   Beräkningen av leveransdatumet för en efterföljande aktivitet baserat på det faktiska slutförandedatumet eller en föregående aktivitet är densamma oavsett om föregående aktivitet används eller inte. Mer information om framtvingade föregångare finns i [Tvinga föregående](../use-prdcssrs/enforced-predecessors.md).
+  >   Beräkningen av leveransdatumet för en efterföljande aktivitet baserat på det faktiska slutförandedatumet eller en föregående aktivitet är densamma oavsett om föregående aktivitet används eller inte. Mer information om framtvingade föregångare finns i [Tvinga föregångare](../use-prdcssrs/enforced-predecessors.md).
 
 
 * **När aktiviteten inte har någon föregångare och**:
 
-   * **Det planerade startdatumet har redan infallit**: Leveransdatumet är samma som projektets planerade startdatum om aktiviteten inte har någon fast begränsning. Om aktiviteter har tvingade begränsningar finns mer information i avsnittet &quot;När aktiviteten har en tvingad begränsning för planerade datum&quot; nedan.
-   * **Det planerade startdatumet infaller i framtiden (alla datum efter det aktuella datumet)**: Leveransdatumet är samma som det planerade startdatumet för aktiviteten om aktiviteten inte har någon fast begränsning. Om aktiviteter har tvingade begränsningar finns mer information i avsnittet &quot;När aktiviteten har en tvingad begränsning för planerade datum&quot; nedan.
+   * **Det planerade startdatumet har redan infallit**: Leveransdatumet är samma som det planerade startdatumet för projektet om aktiviteten inte har någon obligatorisk begränsning. Om aktiviteter har tvingade begränsningar finns mer information i avsnittet &quot;När aktiviteten har en tvingad begränsning för planerade datum&quot; nedan.
+   * **Det planerade startdatumet infaller i framtiden (vilket datum som helst efter det aktuella datumet)**: Leveransdatumet är samma som det planerade startdatumet för aktiviteten om aktiviteten inte har någon obligatorisk begränsning. Om aktiviteter har tvingade begränsningar finns mer information i avsnittet &quot;När aktiviteten har en tvingad begränsning för planerade datum&quot; nedan.
 
 >[!NOTE]
 >
@@ -75,8 +75,8 @@ Workfront använder följande regler för att beräkna leveransdatum för en upp
 
   Följande scenarier finns:
 
-   * **När aktiviteten har begränsningen Måste starta den eller Starta inte tidigare än**: Om aktivitetsvillkorsdatumet redan har infallit och det inte finns något faktiskt startdatum för aktiviteten (aktiviteten har inte startats ännu) är leveransdatumet det närmaste möjliga datumet som aktiviteten kan startas för att bearbetas. Om aktiviteten har startats är leveransdatumet lika med startdatumet för projektet.
-   * **När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än**: Om aktivitetsvillkorsdatumet infaller i framtiden och det inte finns något faktiskt startdatum för aktiviteten (aktiviteten har inte startats ännu) är utdelningsdatumet aktivitetens planerade startdatum. Om det finns som faktiskt startdatum för aktiviteten är datumet för leverans projektets startdatum.
+   * **När aktiviteten har en begränsning på Måste starta den eller Start inte tidigare än**: Om aktivitetsbegränsningsdatumet redan har infallit och det inte finns något faktiskt startdatum för aktiviteten (aktiviteten har inte startats ännu) är leveransdatumet det närmaste möjliga datumet då aktiviteten kan startas. Om aktiviteten har startats är leveransdatumet lika med startdatumet för projektet.
+   * **När aktiviteten har begränsningen Måste avslutas den eller starta inte senare än**: Om aktivitetsvillkorsdatumet är i framtiden och det inte finns något faktiskt startdatum för aktiviteten (aktiviteten har inte startats ännu) är leveransdatumet aktivitetens planerade startdatum. Om det finns som faktiskt startdatum för aktiviteten är datumet för leverans projektets startdatum.
    * **När aktiviteten har en begränsning för fasta datum**: Leveransdatumet är det planerade startdatumet för aktiviteten, oavsett om den har en föregångare eller inte och oavsett om den har slutförts eller inte.
 
 <!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates

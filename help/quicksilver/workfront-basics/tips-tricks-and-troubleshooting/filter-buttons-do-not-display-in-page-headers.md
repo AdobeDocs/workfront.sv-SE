@@ -28,7 +28,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licens</strong></td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
@@ -71,25 +71,25 @@ Följande filterknappar visas inte i sina respektive områden:
 
 ## Lösning
 
-Filterknapparna i [!UICONTROL Projects and Timesheets] -området visas inte eftersom motsvarande filter inte ingår i den layoutmall som används för användaren. The [!DNL Workfront] administratören måste tilldela en layoutmall som innehåller filtren.
+Filterknapparna i området [!UICONTROL Projects and Timesheets] visas inte eftersom motsvarande filter inte ingår i den layoutmall som används för användaren. Administratören [!DNL Workfront] måste tilldela en layoutmall som innehåller filtren.
 
 >[!NOTE]
 >
->Ibland tas filtren bort från [!UICONTROL List Controls] område i [!UICONTROL Setup]. The [!DNL Workfront] måste administratören inkludera dem i listorna i det här området för att de ska vara tillgängliga i layoutmallarna.
+>Ibland tas filtren bort från området [!UICONTROL List Controls] i [!UICONTROL Setup]. Administratören [!DNL Workfront] måste inkludera dem i listorna i det här området för att de ska vara tillgängliga i layoutmallarna.
 
 1. Kontrollera att layoutmallen innehåller följande filter:
 
-   * [!UICONTROL Projects I'm On] och [!UICONTROL Projects I Own] i [!UICONTROL Projects] area
-   * [!UICONTROL My Timesheet Approvals] och [!UICONTROL My Timesheets] i [!UICONTROL Timesheet] area
+   * [!UICONTROL Projects I'm On] och [!UICONTROL Projects I Own] i området [!UICONTROL Projects]
+   * [!UICONTROL My Timesheet Approvals] och [!UICONTROL My Timesheets] i området [!UICONTROL Timesheet]
 
    Så här gör du:
 
    1. Öppna layoutmallen.
    1. Välj **[!UICONTROL Lists]** under **[!UICONTROL Customize what users see]**.
    1. Välj **[!UICONTROL Projects]** eller **[!UICONTROL Timesheets]** under **[!UICONTROL Select a list to customize]**.
-   1. I **[!UICONTROL Filter]** -avsnittet, verifiera att **[!UICONTROL Projects I'm On]**, **[!UICONTROL Projects I Own]** (för projekt) och **[!UICONTROL My Timesheet Approvals]** och **[!UICONTROL My Timesheets]** (för tidrapporter) markeras.
+   1. I avsnittet **[!UICONTROL Filter]** kontrollerar du att **[!UICONTROL Projects I'm On]**, **[!UICONTROL Projects I Own]** (för projekt) och **[!UICONTROL My Timesheet Approvals]** och **[!UICONTROL My Timesheets]** (för tidrapporter) är markerade.
    1. Klicka på **[!UICONTROL Save]**.
 
-   Mer information finns i [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   Mer information finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. Tilldela layoutmallen till rätt användare, jobbroller, team eller grupper. Mer information finns i [Tilldela användare till en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).

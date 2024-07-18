@@ -10,7 +10,7 @@ role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 >* De inbyggda statusarna Planning, Current och Complete. Du kan uppdatera deras namn, redigera deras färger och låsa eller låsa upp dem, men de kan inte tas bort.
 >* Status som väntar på godkännande för minst ett objekt som är associerat med gruppen eller en av dess undergrupper.
 
-
 ## Åtkomstkrav
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
@@ -43,7 +42,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,12 +51,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Ta bort en gruppstatus
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper**.
-1. Klicka på namnet på den översta gruppen.
-1. Klicka på i den vänstra panelen **Status**.
-1. Håll markören över statusen som du vill ta bort i listan över statusar som visas och klicka sedan på **Ta bort** när den visas längst till höger.
+1. Klicka på **Grupper** i den vänstra panelen.
+1. Klicka på namnet på gruppen på den översta nivån.
+1. Klicka på **Status** i den vänstra panelen.
+1. Håll markören över den status som du vill ta bort i listan med statusar som visas och klicka sedan på **Ta bort** när den visas längst till höger.
 
    ![](assets/hover-click-delete.jpg)
 
@@ -67,18 +66,18 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Statusen som visas beror dessutom på om statusen du tar bort är olåst eller låst:
 
-   * **Om den är olåst**: Låsta och olåsta statuslägen som inte är dolda är tillgängliga.
+   * **Om den är olåst**: Ej dolda låsta och olåsta statusar är tillgängliga.
 
-      Tillsammans med de statusvärden som skapades för undergruppen inkluderas statusvärden som ärvts från grupper på systemnivå och övernivå.
+     Tillsammans med de statusvärden som skapades för undergruppen inkluderas statusvärden som ärvts från grupper på systemnivå och övernivå.
 
    * **Om den är låst**: Något av följande är sant:
 
       * Om det finns andra låsta, icke-dolda statusar är bara dessa tillgängliga.
       * Om det inte finns någon låst status som inte är dold är standardstatusen för Workfront tillgänglig, även om den är dold eller olåst.
 
-         Mer information om standardstatusvärdena för Workfront finns i [Öppna listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Åtkomst till listan över status för systemaktivitet](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)och information om de fyra nödvändiga utgivningsstatusarna i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+        Mer information om standardstatusvärdena för Workfront finns i [Åtkomst till listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Åtkomst till listan över status för systemaktivitet](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) och information om de fyra nödvändiga utfärdandestatusarna i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Klicka **Ta bort status**.
+1. Klicka på **Ta bort status**.
 
    Om borttagen status var standardstatus för den typen i gruppen ersätts ersättningsstatusen.
 
@@ -86,4 +85,4 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## När en grupp tas bort
 
-När en grupp tas bort och ersätts av en annan grupp, läggs eventuella unika statusvärden som den borttagna gruppen hade till i statusen för ersättningsgruppen. Mer information finns i [Anpassade statusvärden i en grupp som har flyttats eller tagits bort](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).
+När en grupp tas bort och ersätts av en annan grupp, läggs eventuella unika statusvärden som den borttagna gruppen hade till i statusarna för ersättningsgruppen. Mer information finns i [Anpassade statusvärden i en grupp som har flyttats eller tagits bort](../../../administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md).

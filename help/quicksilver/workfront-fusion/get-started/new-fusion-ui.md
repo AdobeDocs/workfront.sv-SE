@@ -47,20 +47,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
-*Kontakta din [!DNL Workfront Fusion] administratör.
+*Kontakta [!DNL Workfront Fusion]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Navigera [!DNL Workfront Fusion]
 
-The [!UICONTROL Organization] och [!UICONTROL Team] menyerna finns i den vänstra navigeringspanelen i Fusion. Om du är [!DNL Workfront Fusion] administratör, [!UICONTROL Administration] -menyn visas också här.
+Menyerna [!UICONTROL Organization] och [!UICONTROL Team] finns i den vänstra navigeringspanelen i Fusion. Om du är [!DNL Workfront Fusion]-administratör visas även [!UICONTROL Administration]-menyn här.
 
-Om du vill byta team klickar du på teamnamnet längst upp på sidan och väljer sedan teamet. Teamväljaren visas bara på sidor som är specifika för ett team, t.ex. en scenariobyggare eller [!UICONTROL Connections] sida.
+Om du vill byta team klickar du på teamnamnet längst upp på sidan och väljer sedan teamet. Teamväljaren visas bara på sidor som är specifika för ett team, till exempel en scenariobyggare eller sidan [!UICONTROL Connections].
 
 Om du vill byta organisation klickar du på organisationsnamnet längst upp till höger på skärmen och väljer sedan organisation.
 
@@ -71,10 +71,10 @@ Du kommer åt din profil och dina inställningar genom att klicka på din profil
 Under din profil kan du visa följande flikar:
 
 * **[!UICONTROL Organizations]**: Visa de Fusion-organisationer som du tillhör.
-* **[!UICONTROL Time Zone Options]**: Här kan du ange tidszoner som används i Fusion-gränssnittet och tidszoner som används för enskilda scenarier.
+* **[!UICONTROL Time Zone Options]**: Här kan du ange de tidszoner som används i Fusion-gränssnittet och de tidszoner som används för enskilda scenarier.
 * **[!UICONTROL API]**: Här kan du kopiera befintliga API-token eller skapa nya.
 
 
 ## Få åtkomst till dina meddelanden
 
-Om du vill visa dina meddelanden klickar du på meddelandeikonen ![Ikonen Meddelanden](assets/notifications-icon.png) i skärmens övre högra hörn. En röd punkt på meddelandeikonen anger att du har olästa meddelanden eller meddelanden.
+Om du vill visa dina meddelanden klickar du på meddelandeikonen ![Notifications (Meddelanden)](assets/notifications-icon.png) i skärmens övre högra hörn. En röd punkt på meddelandeikonen anger att du har olästa meddelanden eller meddelanden.

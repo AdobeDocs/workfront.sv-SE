@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Kontoadministration för Workfront Proof
-description: Läs mer om kontoadministration för Workfront Proof.
+title: Workfront Proof kontoadministration
+description: Läs mer om kontoadministration i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] kontoadministration
+# Kontoadministration för [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Kontoinställningar i [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
+* [Kontoinställningar i  [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/account-settings/account-settings.md)
 * [Varumärke [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/branding/branding.md)
 * [Hantera säkerhet](../../workfront-proof/wp-acct-admin/managing-security/manage-security.md)
-* [Partnerkonton i [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
-* [Satellitkonton i [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
-* [Tips, tricks och felsökning för [!DNL Workfront Proof] kontoadministration](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)
+* [Partnerkonton i  [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/partner-accounts/partner-accounts.md)
+* [Satellitkonton i  [!DNL Workfront Proof]](../../workfront-proof/wp-acct-admin/satellite-accounts/satellite-accounts.md)
+* [Tips, tricks och felsökning för  [!DNL Workfront Proof] kontoadministration](../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting.md)

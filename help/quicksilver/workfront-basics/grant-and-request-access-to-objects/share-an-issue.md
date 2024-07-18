@@ -8,16 +8,16 @@ feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '695'
 ht-degree: 0%
 
 ---
 
 # Dela ett ärende
 
-Din Adobe Workfront-administratör ger användarna åtkomst att visa eller redigera problem när de tilldelar åtkomstnivåer. Mer information om hur du beviljar åtkomst till problem finns i [Bevilja åtkomst till utleveranser](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
+Din Adobe Workfront-administratör ger användarna åtkomst att visa eller redigera problem när de tilldelar åtkomstnivåer. Mer information om att bevilja åtkomst till problem finns i [Bevilja åtkomst till problem](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Förutom den åtkomstnivå som användarna har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika problem som du har åtkomst till att dela. Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Förutom den åtkomstnivå som användare har beviljats kan du även ge dem behörighet att visa, Contribute eller hantera specifika problem som du har åtkomst till att dela. Mer information om åtkomstnivåer och behörigheter finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Behörigheterna är specifika för ett objekt i Workfront och definierar vilka åtgärder man kan vidta för det objektet.
 
@@ -30,23 +30,23 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 >En Workfront-administratör kan lägga till eller ta bort behörigheter för alla objekt i systemet, för alla användare, utan att vara ägare av dessa objekt.
 
 * Den som skapade ett problem har som standard behörigheten Hantera.
-* Du kan dela problem individuellt eller dela flera i taget. Delningsproblem är identiska med att dela andra objekt i Workfront. Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Du kan dela problem individuellt eller dela flera i taget. Delningsproblem är identiska med att dela andra objekt i Workfront. Mer information om objektdelning i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Du kan ge följande behörigheter till en utgåva: 
 
    * Visa
 
-      ![view_on_issue.png](assets/view-on-issue-221x216.png)
+     ![view_on_issue.png](assets/view-on-issue-221x216.png)
 
    * Hantera
 
-      ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
 
    * Contribute\
-      ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
+     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * När du delar ett problem ärver alla dokument som är bifogade problemet samma behörigheter.
 
-   Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Du kan ta bort ärvda behörigheter från ett problem. Mer information finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -55,26 +55,27 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 * Manuellt, vilket liknar delning av andra objekt i Workfront. Mer information om hur du delar objekt i Workfront finns i [Dela ett objekt](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Gör något av följande automatiskt:
 
-   * Ange behörigheter för något av de överordnade objekten i problemet: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+   * Ange behörigheter för något av de överordnade objekten i utgåvan: projekt, program eller portfölj. Problem ärver behörigheterna från sina överordnade objekt. Mer information om hur du visar ärvda behörigheter för objekt finns i [Visa ärvda behörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Lägg till entiteter i projektdelning på en mall som används för att skapa det projekt som utgåvan gäller. Mer information om att dela projekt från mallar finns i [Dela en mall](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomsten till problem eller förfrågningar i projektet baserat på en användares behörigheter till projektet finns i [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Ange behörigheter för alla problem i ett projekt när du redigerar projektet. Information om hur du hanterar åtkomst till problem eller begäranden i projektet baserat på en användares behörigheter till projektet finns i avsnittet [](../../manage-work/projects/manage-projects/edit-projects.md#access) i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
-      >[!TIP]
-      >
-      >Om du inte anger vilka behörigheter du vill att användarna ska ha när de tilldelas till problemen i projektet får de som standard samma behörigheter som de har i projektet.
+     >[!TIP]
+     >
+     >Om du inte anger vilka behörigheter du vill att användarna ska ha när de tilldelas till problemen i projektet får de som standard samma behörigheter som de har i projektet.
 
-   * Ange de behörigheter som användare får för problem som de skickar i en begärandekö när de skapar en begärandekö. Mer information finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Ange de behörigheter som användare får för problem som de skickar i en begärandekö när de skapar en begärandekö. Mer information finns i [Skapa en frågekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-      >[!IMPORTANT]
-      >
-      >Behörigheter ges olika beroende på om projektet publiceras som en begärandekö eller inte:
-      >
-      >   
-      >   
-      >   * När en användare skickar en begäran till ett projekt som publicerats som en begärandekö, får den primära kontakten och användaren anger den angivna behörigheten.
-      >   * När en användare skickar en begäran till ett projekt som inte har publicerats som en begärandekö, beviljas den primära kontakten (om annan än Anges av användaren) den angivna behörigheten och användaren Anges behörigheten Hantera för problemet.
-
+     >[!IMPORTANT]
+     >
+     >Behörigheter ges olika beroende på om projektet publiceras som en begärandekö eller inte:
+     >
+     >   
+     >   
+     >   * När en användare skickar en begäran till ett projekt som publicerats som en begärandekö, får den primära kontakten och användaren anger den angivna behörigheten.
+     >   * När en användare skickar en begäran till ett projekt som inte har publicerats som en begärandekö, beviljas den primära kontakten (om annan än Anges av användaren) den angivna behörigheten och användaren Anges behörigheten Hantera för problemet.
+     >   
+     >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -133,7 +134,7 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 ## Utfärda behörigheter
 
-Följande tabell visar vilka behörigheter du kan ge användare när de tillåts att visa, Contribute eller hantera ett problem:
+I följande tabell visas vilka behörigheter du kan ge användare när de får visa, Contribute eller hantera ett problem:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -252,4 +253,4 @@ Följande tabell visar vilka behörigheter du kan ge användare när de tillåts
  </tbody> 
 </table>
 
-&#42;Kontrolleras av åtkomstnivåer och behörigheter för projektet.
+&#42;Kontrolleras av åtkomstnivåerna och behörigheterna för projektet.

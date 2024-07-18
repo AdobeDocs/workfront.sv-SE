@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -50,28 +50,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Använda funktionsmakron för kommentarer
 
 Så här använder du en åtgärd på en befintlig kommentar i korrekturläsaren:
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
 1. Gör något av följande:
 
    * Klicka på flaggikonen i kommentarens nedre högra hörn och klicka sedan på önskad åtgärd i listrutan.
 
-      ![](assets/actions-flag-icon-350x198.png)
+     ![](assets/actions-flag-icon-350x198.png)
 
-   * Klicka på **Mer** ikonen (tre vågräta punkter på kommentaren) och klicka sedan på det funktionsmakro som du vill använda i det nedre avsnittet av listrutan som visas.
+   * Klicka på ikonen **Mer** (tre vågräta punkter i kommentaren) och klicka sedan på den åtgärd som du vill använda i den nedre delen av listrutan som visas.
 
-      ![Actions_on_comments-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
+     ![Actions_on_comments-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
 
 1. (Valfritt) Om du ändrar dig kan du göra något av följande:
 
-   * Klicka på flaggikonen eller **Mer** ikonen igen och klicka sedan på **Ta bort åtgärd**.
+   * Klicka på flaggikonen eller ikonen **Mer** igen och klicka sedan på **Ta bort åtgärd**.
 
    * Upprepa steg 1 om du vill använda en annan åtgärd.
 

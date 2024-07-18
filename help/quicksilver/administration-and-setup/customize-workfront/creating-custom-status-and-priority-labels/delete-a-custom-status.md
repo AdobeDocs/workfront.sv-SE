@@ -33,10 +33,9 @@ Om statusen är låst eller olåst avgör om statusen tas bort för alla grupper
 >
 >  Du kan dock ta bort en olåst systemstatus som används i en enanvändningsprocess eller en godkännandeprocess på gruppnivå som väntar på godkännande.
 >
->  Du kan köra en rapport för att hitta objekten och lösa väntande godkännanden och sedan försöka ta bort statusen igen. Instruktioner finns i [Lista objekt med väntande godkännandeprocesser som använder en viss status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
+>  Du kan köra en rapport för att hitta objekten och lösa väntande godkännanden och sedan försöka ta bort statusen igen. Instruktioner finns i [Visa objekt med väntande godkännandeprocesser med en viss status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/list-objects-pending-approval-certain-status.md).
 >
 >* Status som används i godkännandeprocesser som för närvarande väntar på godkännande för minst ett objekt i systemet.
-
 
 Instruktioner om hur du tar bort en gruppstatus finns i [Ta bort en gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md).
 
@@ -58,26 +57,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ta bort en anpassad systemstatus
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Projektinställningar** > **Status**.
+1. Klicka på **Projektinställningar** > **Status** i den vänstra panelen.
 
-1. Om du vill ta bort statusen i hela systemet (inklusive för enskilda grupper) håller du musen över statusen och klickar på **Redigera** och se sedan till att **Lås för alla grupper** är markerat. Klicka **Spara**.
+1. Om du vill ta bort statusen i hela systemet (inklusive för enskilda grupper) håller du musen över statusen och klickar på **Redigera**. Kontrollera sedan att **Lås för alla grupper** är markerat. Klicka på **Spara**.
 
    eller
 
-   Om du vill ta bort systemstatusen men behålla den för enskilda grupper håller du musen över statusen och klickar på **Redigera** och se sedan till att **Lås för alla grupper** är omarkerad. Klicka **Spara**.
+   Om du vill ta bort systemstatusen men behålla den för enskilda grupper håller du musen över statusen, klickar på **Redigera** och kontrollerar sedan att **Lås för alla grupper** inte är markerat. Klicka på **Spara**.
 
-1. Håll muspekaren över statusen som du vill ta bort och klicka sedan på **Ta bort**.
-1. Klicka på **Ta bort status**.
-1. I **Ta bort status** som visas väljer du en status i fältet med etiketten **Ställ in alla projekt med den här statusen till**.
+1. Håll markören över den status som du vill ta bort och klicka sedan på **Ta bort**.
+1. Klicka på **Ta bort status** i det meddelande som visas.
+1. I rutan **Ta bort status** som visas väljer du en status i fältet **Ange alla projekt med den här statusen till**.
 
    Projekt som använder den status som du tar bort har den status som du väljer.
 
@@ -85,4 +84,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Om du t.ex. tar bort en status som är lika med Aktuell är bara statusvärden som är lika med Aktuell tillgängliga att välja.
 
-1. Klicka **Ta bort status**.
+1. Klicka på **Ta bort status**.

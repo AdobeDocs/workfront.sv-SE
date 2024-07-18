@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -30,24 +30,24 @@ Mer information om hur du uppdaterar projektets uppdateringstyp finns i [Välj t
 >
 >Om tidslinjen för ett projekt är längre än 15 år beräknas tidslinjen inte automatiskt eller vid ändring i Workfront. Uppdateringstypen för ett projekt som är längre än 15 år är alltid Manuell.
 
-* **Automatisk och vid ändring:** Det här är standardinställningen. Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Projektets tidslinje uppdateras också varje kväll. \
-   Detta är den rekommenderade inställningen eftersom den ser till att projekttidslinjen alltid är uppdaterad.
+* **Automatisk och vid ändring:** Det här är standardinställningen. Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Projektets tidslinje uppdateras också varje kväll. \
+  Detta är den rekommenderade inställningen eftersom den ser till att projekttidslinjen alltid är uppdaterad.
 
-   När du uppdaterar en uppgift eller ett projekt och utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter är datum som kräver längre beräkningar nedtonade.
+  När du uppdaterar en uppgift eller ett projekt och utlöser en omberäkning av tidslinjen, visas alla tillgängliga datum omedelbart så att du kan fortsätta arbeta. I projekt med mer än 100 uppgifter är datum som kräver längre beräkningar nedtonade.
 
-   ![](assets/dates-dimmed-when-insline-editing-350x146.png)
+  ![](assets/dates-dimmed-when-insline-editing-350x146.png)
 
-   Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.
+  Detta anger att omberäkningen ännu inte är klar och att datumen kan ändras.
 
-* **Ändra endast:** Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. schemalagda uppdateringar görs inte.\
-   Du kan välja det här alternativet om du är oroad över systemprestanda och om det är ovanligt att ändringar görs i projektet eller i andra projekt som tidslinjen är beroende av.
+* **Ändra endast:** Projektets tidslinje uppdateras varje gång en ändring inträffar i projektet eller i ett annat projekt som tidslinjen är beroende av. Schemalagda uppdateringar görs inte.\
+  Du kan välja det här alternativet om du är oroad över systemprestanda och om det är ovanligt att ändringar görs i projektet eller i andra projekt som tidslinjen är beroende av.
 
-* **Endast automatiskt:** Projektets tidslinje uppdateras varje natt. den inte uppdateras omedelbart efter att ändringar har gjorts.\
-   Du kanske vill välja det här alternativet om du är oroad över systemprestanda och om många ändringar inträffar varje dag i projektet eller i andra projekt som tidslinjen är beroende av.
+* **Endast automatiskt:** Projektets tidslinje uppdateras varje natt. Den uppdateras inte omedelbart efter att ändringar har gjorts.\
+  Du kanske vill välja det här alternativet om du är oroad över systemprestanda och om många ändringar inträffar varje dag i projektet eller i andra projekt som tidslinjen är beroende av.
 
-   >[!NOTE]
-   >
-   >Ett projekt beräknas inte automatiskt om varje kväll om det har statusen Planering. Den räknar bara om vid förändring.
+  >[!NOTE]
+  >
+  >Ett projekt beräknas inte automatiskt om varje kväll om det har statusen Planering. Den räknar bara om vid förändring.
 
-* **Endast manuellt:** Projektets tidslinje uppdateras bara när du väljer alternativet att **Beräkna om tidslinjer** enligt beskrivningen i avsnittet Manuell omberäkning i artikeln [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).\
-   Du kan välja det här alternativet om du gör många ändringar i projektet samtidigt och du vill att tidslinjen ska räknas om efter att alla ändringar har gjorts (i stället för efter varje enskild ändring).
+* **Endast manuell:** Projektets tidslinje uppdateras bara när du väljer alternativet **Beräkna om tidslinjer**, vilket beskrivs i avsnittet Manuell omberäkning i artikeln [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).\
+  Du kan välja det här alternativet om du gör många ändringar i projektet samtidigt och du vill att tidslinjen ska räknas om efter att alla ändringar har gjorts (i stället för efter varje enskild ändring).

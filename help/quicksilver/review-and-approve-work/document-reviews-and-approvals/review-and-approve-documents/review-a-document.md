@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -63,14 +63,14 @@ Add once functionality is added
 
 1. Håll pekaren över dokumentet i rutan Förhandsgranska. Sedan antingen:
 
-   Klicka **Förhandsgranska** om du vill öppna en skrivskyddad version av dokumentet i ett nytt fönster.
+   Klicka på **Förhandsgranska** för att öppna en skrivskyddad version av dokumentet i ett nytt fönster.
 
    ELLER
 
-   Klicka **Ladda ned** om du vill hämta en lokal kopia av dokumentet till din enhet.
+   Klicka på **Hämta** om du vill hämta en lokal kopia av dokumentet till din enhet.
 
-1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **Uppdateringar** -avsnitt. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Om du vill registrera att du har slutfört granskningen klickar du på **Fullständig granskning**.
+1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **uppdateringsavsnitt**. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.
 
 ## Granska ett dokument från rutan Dokumentsammanfattning
 
@@ -80,15 +80,15 @@ Add once functionality is added
 
 1. Välj den version av dokumentet som du vill granska i listrutan. Den senaste versionen väljs som standard.
 
-1. Håll pekaren över förhandsgranskningen av dokumentet i dialogrutan **Information** överst i rutan Dokumentsammanfattning. Sedan antingen:
+1. Håll markören över förhandsgranskningen av dokumentet i avsnittet **Detaljer** högst upp i rutan Dokumentsammanfattning. Sedan antingen:
 
-   Klicka **Förhandsgranska** om du vill öppna en skrivskyddad version av dokumentet i ett nytt fönster.
+   Klicka på **Förhandsgranska** för att öppna en skrivskyddad version av dokumentet i ett nytt fönster.
 
    ELLER
 
-   Klicka **Ladda ned** om du vill hämta en lokal kopia av dokumentet till din enhet.
+   Klicka på **Hämta** om du vill hämta en lokal kopia av dokumentet till din enhet.
 
-1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **Uppdateringar** -avsnitt. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Valfritt) När du har granskat dokumentet kan du lämna en kommentar till den som gjorde begäran i dokumentets **uppdateringsavsnitt**. Mer information om att kommentera finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till **Versioner** i rutan Dokumentsammanfattning och klicka sedan på ikonen Mer ![](../assets/more-icon.png) bredvid den version du vill granska och välja **Ladda ned** eller **Förhandsgranska**.
-1. Om du vill registrera att du har slutfört granskningen klickar du på **Fullständig granskning**.
+1. (Valfritt) Du kan även förhandsgranska eller hämta en viss version av dokumentet genom att bläddra nedåt till avsnittet **Versioner** i rutan Dokumentsammanfattning och sedan klicka på ikonen Mer ![](../assets/more-icon.png) bredvid den version du vill granska och välja **Hämta** eller **Förhandsgranska** .
+1. Om du vill registrera att du har slutfört granskningen klickar du på **Slutför granskning**.

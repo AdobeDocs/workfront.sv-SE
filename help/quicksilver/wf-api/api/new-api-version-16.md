@@ -9,7 +9,7 @@ role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ En viss arbetsuppgift, till exempel en uppgift, ett dokument eller en tidrapport
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code>och tar hänsyn till tidszonen.</p>
+            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code> och tar hänsyn till tidszonen.</p>
           </li>
         </ul>
       </td>
@@ -118,7 +118,7 @@ Ett uppdragsobjekt representerar anslutningen mellan en arbetsuppgift och använ
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code>och tar hänsyn till tidszonen.</p>
+            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code> och tar hänsyn till tidszonen.</p>
           </li>
           <li>
             <p><b>isContoured</b>
@@ -169,7 +169,7 @@ Ett CustomerPreferences-objekt representerar den uppsättning inställningar som
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>namn</b>
             </p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
@@ -237,7 +237,7 @@ Ett Timobjekt representerar en timme som loggas av en användare på en tidrappo
           <li>
             <p><b>tidrapportHourIdentifier</b>
             </p>
-            <p>Tillagd. Den här parametern används för att identifiera de timmar som skapas med <code>batchSave</code>. </p>
+            <p>Tillagd. Den här parametern används för att identifiera de timmar som skapats med <code>batchSave</code>. </p>
            </li>
         </ul>
       </td>
@@ -314,7 +314,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code>och tar hänsyn till tidszonen.</p>
+            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code> och tar hänsyn till tidszonen.</p>
           </li>
         </ul>
       </td>
@@ -326,7 +326,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Den här åtgärden har lagt till fältet <code>teamIDs</code> för att ge stöd åt funktionaliteten att tilldela flera team till en uppgift eller ett problem.</p>
+            <p>Den här åtgärden har lagt till fältet <code>teamIDs</code> som stöd för funktionen att tilldela flera team till en uppgift eller ett problem.</p>
          </li>
         </ul>
       </td>
@@ -439,7 +439,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code>och tar hänsyn till tidszonen.</p>
+            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code> och tar hänsyn till tidszonen.</p>
           </li>
         </ul>
       </td>
@@ -451,7 +451,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Den här åtgärden har lagt till fältet <code>teamIDs</code> för att ge stöd åt funktionaliteten att tilldela flera team till en uppgift eller ett problem.</p>
+            <p>Den här åtgärden har lagt till fältet <code>teamIDs</code> som stöd för funktionen att tilldela flera team till en uppgift eller ett problem.</p>
          </li>
         </ul>
       </td>
@@ -484,7 +484,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>Den här parametern har lagts till och lagrar tidrapporternas varaktighet i dagar oavsett ändringar i"Motsvarande timmar för fullständig Workday".  Om till exempel Motsvarande timmar är inställt på 6 och en dag är loggad ändras Motsvarande timmar till 8 timmar. <code>totalDays</code> har fortfarande värdet 1.</p>
+            <p>Den här parametern har lagts till och lagrar tidrapporternas varaktighet i dagar oavsett ändringar i"Motsvarande timmar för fullständig Workday".  Om till exempel Motsvarande timmar är inställt på 6 och en dag är loggad ändras Motsvarande timmar till 8 timmar, men <code>totalDays</code> har fortfarande värdet 1.</p>
          </li>
         </ul>
       </td>
@@ -506,7 +506,7 @@ Ett Timesheet-objekt representerar ett virtuellt tidkort som gör att användare
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Den här åtgärden har lagts till och tar en filterfrågemappning och lägger till <code>allowingnull</code> join for nullable fields.</p>
+            <p>Den här åtgärden har lagts till och tar en filterfrågemappning och lägger till <code>allowingnull</code>-kopplingen för fält som kan ha värdet null.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
@@ -650,7 +650,7 @@ Ett Work-objekt är ett vanligt gränssnitt som både Task och OpTask ärver och
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code>och tar hänsyn till tidszonen.</p>
+            <p>Det här fältet har lagts till och visar hur många minuter arbete du behöver utföra per dag. Den har formatet <code>YYYY-MM-DD: (number of minutes)</code> och tar hänsyn till tidszonen.</p>
           </li>
         </ul>
       </td>

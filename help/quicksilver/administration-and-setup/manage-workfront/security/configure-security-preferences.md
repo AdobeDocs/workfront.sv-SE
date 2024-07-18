@@ -59,13 +59,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Konfigurera systeminställningarna
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **System** > **Inställningar**.
+1. Klicka på **System** > **Inställningar** i den vänstra panelen.
 
 1. Välj något av följande fält för att ange inställningar för din organisation:
 
@@ -79,19 +79,19 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tillåt inbäddning av Workfront i en iframe</p> </td> 
-      <td>Gör att du kan bädda in Workfront i en iframe.<p>Det här alternativet är inaktiverat som standard.</p><p><b>VIKTIGT</b>: Om du visar ett webbaserat program i en iframe kan programmet drabbas av en klickjacking-säkerhetslucka.</p></td> 
+      <td>Gör att du kan bädda in Workfront i en iframe.<p>Det här alternativet är inaktiverat som standard.</p><p><b>VIKTIGT</b>: Om du visar ett webbaserat program i en iframe kan programmet bli känsligt för en klickjacking-säkerhetslucka.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt SAML 2.0-autentisering i Office 365-tillägg</td> 
-      <td> <p>Gör att du kan bädda in Workfront i en iframe endast för Office 365-tillägg när Workfront är integrerat med en SAML 2.0-lösning för enkel inloggning. </p> <p>Det här alternativet är aktiverat som standard.</p> <p><b>ANMÄRKNING</b>: Om du aktiverar alternativet ovan <strong>Tillåt inbäddning av Workfront i en iframe</strong>, alternativet <strong>Tillåt SAML 2.0-autentisering i Office 365-tillägg</strong> är aktiverat och nedtonat.</p> </td> 
+      <td> <p>Gör att du kan bädda in Workfront i en iframe endast för Office 365-tillägg när Workfront är integrerat med en SAML 2.0-lösning för enkel inloggning. </p> <p>Det här alternativet är aktiverat som standard.</p> <p><b>Obs!</b> Om du aktiverar alternativet ovan <strong>Tillåt inbäddning av Workfront i en iframe</strong> aktiveras och nedtonas alternativet <strong>Tillåt SAML 2.0-autentisering i Office 365-tillägg</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aktivera användning av sessionsinformation när du skapar URL-adresser för externa sidor</td> 
-      <td> <p>Tillåter användare att använda information om sessions-ID för en webbplats när en extern sida läggs till på en instrumentpanel.</p> <p>Det här alternativet är osäkert och inaktiverat som standard. Vi rekommenderar att du använder OAuth för integreringar i stället.</p> <p>Mer information om hur du lägger till externa sidor på en kontrollpanel finns i <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Bädda in en extern webbsida i en instrumentpanel</a>.</p> </td> 
+      <td> <p>Tillåter användare att använda information om sessions-ID för en webbplats när en extern sida läggs till på en instrumentpanel.</p> <p>Det här alternativet är osäkert och inaktiverat som standard. Vi rekommenderar att du använder OAuth för integreringar i stället.</p> <p>Mer information om hur du lägger till externa sidor på en kontrollpanel finns i <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Bädda in en extern webbsida på en kontrollpanel</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Låt andra använda Workfront mobilprogram och Workfront Outlook-tillägget</td> 
-      <td> <p>Tillåter användare åtkomst till mobilapparna (Workfront View för iPad och mobilappar) och Workfront Outlook-appen.</p> <p>Det här alternativet är aktiverat som standard. </p> <p>Mer information om Workfront View finns i <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Använd Adobe Workfront View</a>. Mer information om mobilapparna finns i <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Använda Adobe Workfront mobilapp: artikelindex</a>.</p> <p>Mer information om Outlook-plugin-programmet finns i <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Konfigurera Adobe Workfront för Outlook</a>.</p> </td> 
+      <td> <p>Tillåter användare åtkomst till mobilapparna (Workfront View för iPad och mobilappar) och Workfront Outlook-appen.</p> <p>Det här alternativet är aktiverat som standard. </p> <p>Mer information om Workfront View finns i <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Use Adobe Workfront View</a>. Mer information om mobilapparna finns i <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Använda Adobe Workfront-mobilappen: artikelindex</a>.</p> <p>Mer information om Outlook-plugin-programmet finns i <a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Konfigurera Adobe Workfront för Outlook</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Samarbeta med personer utan Workfront-konton via e-postadresser</p> </td> 
@@ -121,14 +121,14 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr>
      <tr> 
       <td role="rowheader">Användare i systemet ser som standard den nya hemupplevelsen </td> 
-      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> i slutet av instansens URL. Den här inställningen är aktiverad som standard.</td> 
+      <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När det här alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> manuellt i slutet av sin instans-URL. Den här inställningen är aktiverad som standard.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testmiljöer</td> 
-      <td>Här kan du komma åt Workfront testmiljöer. Mer information finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Sandlådemiljön Adobe Workfront Preview</a>.</p></td> 
+      <td>Här kan du komma åt Workfront testmiljöer. Mer information finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Sandlådemiljön för Adobe Workfront Preview</a>.</p></td> 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    De ändringar du har sparat här påverkar upplevelsen för alla användare i Workfront och alla som interagerar med systemet som externa användare.

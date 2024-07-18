@@ -19,12 +19,12 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Händelsemeddelanden är e-postmeddelanden som utlöses av olika typer av händelser för objekt som projekt, uppgifter och problem, vilket förklaras i [Händelsemeddelanden](../../../workfront-basics/using-notifications/event-notifications.md).
+Händelsemeddelanden är e-postmeddelanden som utlöses av olika typer av händelser för objekt, till exempel projekt, uppgifter och problem, vilket förklaras i [Händelsemeddelanden](../../../workfront-basics/using-notifications/event-notifications.md).
 
 Dessa meddelanden kan konfigureras på system- och gruppnivå:
 
 * Information om hur du konfigurerar händelsemeddelanden på systemnivå finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Mer information om hur du konfigurerar händelsemeddelanden på gruppnivå finns i [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* Information om hur du konfigurerar händelsemeddelanden på gruppnivå finns i [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 Enskilda användare kan också aktivera och inaktivera sina meddelanden om enskilda händelser i sin individuella profil. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -86,7 +86,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Problem</p> </td> 
    <td> <p>Problem som väntar på godkännande</p> </td> 
    <td> <p>Godkännare</p> </td> 
-   <td> <p>Jag måste godkänna ett problem.</p> <p>Vilka användare som får ett e-postmeddelande för den här händelsen beror på om inställningen"Godkännaren behöver inte vara i projektteamet (för godkännandeprocesser som inkluderar en roll)" är aktiverad (enligt beskrivningen i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurera globala inställningar för godkännande</a>). </p> <p>Om det här alternativet är aktiverat</strong>, skickas ett e-postmeddelande till alla användare i systemet med rollen "Godkännare".</p> <p>Om det här alternativet är inaktiverat</strong>, får endast projektgruppsmedlemmar med rollen "Godkännare" ett e-postmeddelande.</p> <p>Ett meddelande skickas om projektet har statusen Planering eller Aktuell. </p> </td> 
+   <td> <p>Jag måste godkänna ett problem.</p> <p>Vilka användare som får ett e-postmeddelande för den här händelsen beror på om inställningen"Godkännaren behöver inte vara i projektteamet (för godkännandeprocesser som innehåller en roll)" är aktiverad (enligt beskrivningen i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurera globala inställningar för godkännande</a>). </p> <p>Om det här alternativet är aktiverat </strong> skickas ett e-postmeddelande till alla användare i systemet med jobbrollen "Godkännare".</p> <p>Om det här alternativet är inaktiverat </strong> får endast projektgruppsmedlemmar med jobbrollen "Godkännare" ett e-postmeddelande.</p> <p>Ett meddelande skickas om projektet har statusen Planering eller Aktuell. </p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -100,7 +100,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Projekt</p> </td> 
    <td> <p>Väntande projektgodkännande</p> </td> 
    <td> <p>Godkännare</p> </td> 
-   <td> <p>Jag måste godkänna ett projekt.</p> <p>Vilka användare som får ett e-postmeddelande för den här händelsen beror på om inställningen"Godkännaren behöver inte vara i projektteamet (för godkännandeprocesser som inkluderar en jobbroll)" är aktiverad (enligt beskrivningen i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurera globala inställningar för godkännande</a>).</p> <p>Om det här alternativet är aktiverat</strong>, skickas ett e-postmeddelande till alla användare i systemet med rollen "Godkännare".</p> <p>Om det här alternativet är inaktiverat</strong>, får endast projektgruppsmedlemmar med rollen "Godkännare" ett e-postmeddelande.</p> </td> 
+   <td> <p>Jag måste godkänna ett projekt.</p> <p>Vilka användare som får ett e-postmeddelande för den här händelsen beror på om inställningen "Godkännaren behöver inte vara i projektteamet (för godkännandeprocesser som innehåller en jobbroll)" är aktiverad (enligt beskrivningen i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurera globala inställningar för godkännande</a>).</p> <p>Om det här alternativet är aktiverat </strong> skickas ett e-postmeddelande till alla användare i systemet med jobbrollen "Godkännare".</p> <p>Om det här alternativet är inaktiverat </strong> får endast projektgruppsmedlemmar med jobbrollen "Godkännare" ett e-postmeddelande.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -121,7 +121,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
    <td> <p>Uppgift</p> </td> 
    <td> <p>Aktivitet väntar på godkännande</p> </td> 
    <td> <p>Godkännare</p> </td> 
-   <td> <p>Jag måste godkänna en uppgift.</p> <p>Vilka användare som får ett e-postmeddelande för den här händelsen beror på om inställningen"Godkännaren behöver inte vara i projektteamet (för godkännandeprocesser som inkluderar en roll)" är aktiverad (enligt beskrivningen i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurera globala inställningar för godkännande</a>). </p> <p>Om det här alternativet är aktiverat</strong>, skickas ett e-postmeddelande till alla användare i systemet med rollen "Godkännare".</p> <p>Om det här alternativet är inaktiverat</strong>, får endast projektgruppsmedlemmar med rollen "Godkännare" ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> </td> 
+   <td> <p>Jag måste godkänna en uppgift.</p> <p>Vilka användare som får ett e-postmeddelande för den här händelsen beror på om inställningen"Godkännaren behöver inte vara i projektteamet (för godkännandeprocesser som innehåller en roll)" är aktiverad (enligt beskrivningen i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurera globala inställningar för godkännande</a>). </p> <p>Om det här alternativet är aktiverat </strong> skickas ett e-postmeddelande till alla användare i systemet med jobbrollen "Godkännare".</p> <p>Om det här alternativet är inaktiverat </strong> får endast projektgruppsmedlemmar med jobbrollen "Godkännare" ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell vid tidpunkten för begäran.</p> </td> 
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ Se även [Meddelanden: Åtgärd krävs](../../../workfront-basics/using-notifica
 
 ## Begäranden jag gjort
 
-Se även [Meddelanden: Begäranden jag gjort](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md).
+Se även [Meddelanden: Jag har gjort ](../../../workfront-basics/using-notifications/notifications-requests-i-have-made.md) förfrågningar.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Se även [Meddelanden: Begäranden jag gjort](../../../workfront-basics/using-no
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär dokumenttillägg</p> </td> 
    <td> <p>Utfärda primär kontakt</p> </td> 
-   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
+   <td> <p>Ett dokument ändras eller överförs vid ett problem som jag är primär kontakt för.</p> <p>Den primära kontakten får ett e-postmeddelande när ett dokument överförs eller ändras i frågan, såvida inte den användare som överförde eller ändrade dokumentet också är den primära kontakten.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publish som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
@@ -276,7 +276,7 @@ Se även [Meddelanden: Begäranden jag gjort](../../../workfront-basics/using-no
 
 ## Kommunikation
 
-Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications/notifications-communication.md).
+Se även [Meddelanden: kommunikation](../../../workfront-basics/using-notifications/notifications-communication.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -297,7 +297,7 @@ Se även [Meddelanden: Meddelande](../../../workfront-basics/using-notifications
    <td> <p>Dokument</p> </td> 
    <td> <p>Kommentera i dokumentet</p> </td> 
    <td> <p>Dokumentägare</p> </td> 
-   <td> <p>En kommentar läggs till i mitt dokument.</p> <p>Ägaren till ett dokument i Workfront får ett e-postmeddelande när en kommentar publiceras i dokumentet, såvida inte den användare som publicerade kommentaren också är dokumentägaren.</p> <p>Alla användare som är direkt inkluderade i kommentaren får också ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell. </p> <p>Ämnet för e-postmeddelandet är: <em>Kommentera &lt;request name=""&gt; på &lt;project name=""&gt; (ref# &lt;request reference="" number=""&gt;)</em></p> <p> Det dagliga sammandraget innehåller följande uppgifter:<em> Kommunikationssammanfattning &lt;date of="" daily="" digest=""&gt;</em></p> </td> 
+   <td> <p>En kommentar läggs till i mitt dokument.</p> <p>Ägaren till ett dokument i Workfront får ett e-postmeddelande när en kommentar publiceras i dokumentet, såvida inte den användare som publicerade kommentaren också är dokumentägaren.</p> <p>Alla användare som är direkt inkluderade i kommentaren får också ett e-postmeddelande.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell. </p> <p>Ämnet för e-postmeddelandet är: <em>Kommentar på &lt;Request Name&gt; på &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></p> <p> Ämnet för det dagliga sammandragsmeddelandet är:<em> Sammanfattning av kommunikation &lt;Datum för den dagliga sammandraget&gt;</em></p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 
@@ -494,7 +494,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
    <td> <p>Dokument</p> </td> 
    <td> <p>Begär dokumenttillägg</p> </td> 
    <td> <p>Användare som utgåvan är tilldelad</p> </td> 
-   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publicera som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
+   <td> <p>Dokument överförs eller ändras vid förfrågningar som jag har tilldelats.</p> <p>Den som tilldelats utgåvan får ett e-postmeddelande när dokument överförs eller ändras i ett ärende som de lagt till.</p> <p>Ett e-postmeddelande skickas inte om den användare som angav problemet är den som tilldelades problemet.</p> <p>Ett meddelande skickas bara om projektstatusen är Aktuell och om projektet har "Publish som hjälpbegärandekö" aktiverat på fliken Köinställningar.</p> </td> 
    <td> <p>Aktiv (endast dagligen)</p> </td> 
   </tr> 
   <tr> 
@@ -535,7 +535,7 @@ Se även [Meddelanden: Information om arbete som tilldelats mig](../../../workfr
 
 ## Information om projekt som jag är på
 
-Se även [Meddelanden: Information om projekt som jag är på](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
+Se även [Meddelanden: Information om projekt som jag är på ](../../../workfront-basics/using-notifications/notifications-information-about-projects-im-on.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -861,7 +861,7 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p>Användare</p> </td> 
    <td> <p>Ny användare</p> </td> 
    <td> <p>Användare</p> </td> 
-   <td> <p>När en ny användare skapas i Workfront skickar du ett e-postmeddelande till användaren.</p> <p>När den nya användaren har skapats får användaren en e-postinbjudan som meddelar användaren att ett Workfront-konto har skapats och ber denne ange sitt lösenord.</p> <p>När du skapar en ny användare kan användare välja alternativet"Skicka en inbjudan via e-post till den här personen" (enligt beskrivningen i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a><span style="font-weight: 400;">). När alternativet "Ny användare till användare" är aktiverat globalt får alla nya användare e-postinbjudan oavsett om alternativet "Skicka en inbjudan via e-post till den här personen" är markerat.</span></p> </td> 
+   <td> <p>När en ny användare skapas i Workfront skickar du ett e-postmeddelande till användaren.</p> <p>När den nya användaren har skapats får användaren en e-postinbjudan som meddelar användaren att ett Workfront-konto har skapats och ber denne ange sitt lösenord.</p> <p>När du skapar en ny användare kan användarna välja alternativet"Skicka en inbjudan via e-post till den här personen" (enligt beskrivningen i <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Lägg till användare</a><span style="font-weight: 400;">). När alternativet "Ny användare till användare" har aktiverats globalt får alla nya användare e-postinbjudan oavsett om alternativet "Skicka en inbjudan via e-post till den här personen" har valts.</span></p> </td> 
    <td> Inaktiv </td> 
   </tr> 
   <tr> 
@@ -900,10 +900,10 @@ Se även [Meddelanden: Övrig information](../../../workfront-basics/using-notif
    <td> <p>Inaktiv</p> </td> 
   </tr> 
   <tr> 
-   <td> Projekt <br>Uppgift <br>Problem</td> 
+   <td> Projekt <br>aktivitet <br>problem</td> 
    <td>Ny uppdatering</td> 
    <td>Prenumerant </td> 
-   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Ett e-postmeddelande skickas när en uppdatering görs av en uppgift, en utgåva eller ett projekt som jag prenumererar på.</span> </p> </td> 
+   <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">Ett e-postmeddelande skickas när en uppdatering görs för en aktivitet, ett problem eller ett projekt som jag prenumererar på.</span> </p> </td> 
    <td>Aktiv (endast Instant)</td> 
   </tr> 
  </tbody> 

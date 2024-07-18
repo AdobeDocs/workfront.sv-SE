@@ -7,9 +7,9 @@ description: Du kan bara skapa ett diagram över en rapport med ett anpassat fä
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: a2f0ef565b0f0dbcfec7f3f5b5fece4c7b4b1ec6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1024'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Förutsättningar
 
-Innan du börjar måste du skapa ett beräknat anpassat fält som visar de värden som har valts i det anpassade fältet för flera val. Mer information finns i [Skapa ett beräknat anpassat fält som refererar till ett anpassat fält som består av flera val](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) i den här artikeln.
+Innan du börjar måste du skapa ett beräknat anpassat fält som visar de värden som har valts i det anpassade fältet för flera val. Mer information finns i avsnittet [Skapa ett beräknat anpassat fält som refererar till ett anpassat fält som består av flera val](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field) i den här artikeln.
 
 ## Skapa en rapport med hjälp av anpassade fält som har valts flera gånger
 
@@ -78,7 +78,7 @@ Innan du börjar måste du skapa ett beräknat anpassat fält som visar de värd
 
 Du kan inte skapa ett diagram i en rapport genom att referera till ett anpassat fält med flera val. I stället kan du skapa ett beräkningsfält som registrerar värdena för det anpassade fältet med flera val för ett visst objekt och en viss grupp med hjälp av beräkningsfältet. 
 
-* [Skapa ett beräknat anpassat fält som refererar till ett anpassat fält som består av flera val](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
+* [Skapa ett beräknat anpassat fält som refererar till ett anpassat fält med flera val](#build-a-calculated-custom-field-that-references-a-multi-select-custom-field)
 * [Skapa ett diagram som refererar till ett beräknat anpassat fält](#build-a-chart-that-references-a-calculated-custom-field)
 
 ### Skapa ett beräknat anpassat fält som refererar till ett anpassat fält som består av flera val {#build-a-calculated-custom-field-that-references-a-multi-select-custom-field}
@@ -86,7 +86,7 @@ Du kan inte skapa ett diagram i en rapport genom att referera till ett anpassat 
 Om du vill skapa ett beräknat fält som refererar till ett anpassat fält med flera val måste du ha följande krav:
 
 * Ett anpassat flervalsfält i ett anpassat formulär.\
-  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Ett anpassat formulär med det anpassade fältet för flera markeringar kopplat till objekt.
 * Värden för det anpassade fältet för flera markeringar för varje objekt.
@@ -95,16 +95,16 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
 1. Skapa ett eget formulär eller redigera ett befintligt.
 
-   Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Markera objektet eller objekten som du vill använda med det anpassade formuläret.
-1. Klicka **Lägg till ett fält** sedan **Beräknat** om du vill lägga till det anpassade fältet med flera markeringar i formuläret.
+1. Klicka på **Lägg till ett fält** och sedan på **Beräknat** för att lägga till det anpassade flervalsfältet i formuläret.
 
-1. I **Etikett** ger du det nya beräknade fältet ett namn som anger att det refererar till det anpassade fältet för flera val.
+1. I rutan **Etikett** ger du det nya beräknade fältet ett namn som anger att det refererar till det anpassade fältet för flera val.
 
    Exempel: &quot;Beräknat flervalsfält.&quot;
 
-1. I **Beräkning** anger du följande kod:
+1. Ange följande kod i rutan **Beräkning**:
 
    `{DE:Multi-select Custom Field}`
 
@@ -114,36 +114,36 @@ Så här skapar du det beräknade anpassade fältet som refererar till det anpas
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. (Valfritt) Om det anpassade fältet för flera val redan finns i det här formuläret och om formuläret redan är kopplat till objekt, aktiverar du **Uppdatera tidigare beräkningar (i bakgrunden)** alternativ.
+1. (Valfritt) Om det anpassade fältet för flera val redan finns i det här formuläret och om formuläret redan är kopplat till objekt, aktiverar du alternativet **Uppdatera tidigare beräkningar (i bakgrunden)**.
 
    Detta garanterar att det nya beräknade fältet automatiskt fylls i med värdet från det anpassade fältet som består av flera val när det läggs till i de formulär som redan är kopplade till objekten.
 
-1. Klicka **Klar**.
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Klar**.
+1. Klicka på **Spara + Stäng**.
 
    Det beräknade anpassade fältet läggs till i det anpassade formuläret och om formuläret är kopplat till objekt fylls fältet i med information från det anpassade fältet som består av flera val.
 
 ### Skapa ett diagram som refererar till ett beräknat anpassat fält {#build-a-chart-that-references-a-calculated-custom-field}
 
-1. (Valfritt) Om du vill vara säker på att alla beräknade fält som du vill rita efter är ifyllda med värden, går du till fliken Detaljer i rapporten och markerar alla objekt som innehåller det anpassade formuläret med både det anpassade fältet för flera val och det beräknade anpassade fältet. Klicka sedan på **Redigera**.
-1. (Valfritt och villkorligt) Välj **Beräkna om anpassade uttryck** fält och klicka sedan på **Spara ändringar**.\
+1. (Valfritt) Om du vill vara säker på att alla beräknade fält som du vill diagramma efter fylls i med värden, går du till fliken Detaljer i rapporten och markerar alla objekt som innehåller det anpassade formuläret med både det anpassade fältet för flera val och det beräknade anpassade fältet. Klicka sedan på **Redigera**.
+1. (Valfritt och villkorligt) Markera fältet **Beräkna om anpassade uttryck** och klicka sedan på **Spara ändringar**.\
    ![](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för projekt i grupp genom att klicka på **Mer** icon ![](assets/more-icon-45x33.png) högst upp i en projektlista, och sedan **Beräkna om uttryck**.
+   >Det här alternativet har tagits bort från gruppredigering.  Du kan fortfarande beräkna om uttryck för flera projekt samtidigt genom att klicka på ikonen **Mer** ![](assets/more-icon-45x33.png) högst upp i en projektlista och sedan **Beräkna om uttryck**.
 
 1. Gå till rapporten där du vill lägga till diagrammet för det beräknade fältet som refererar till det anpassade fältet för flera val.
-1. Klicka **Rapportåtgärder** sedan **Redigera**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
 
-1. Välj <strong>Grupperingar</strong> tabbtangenten och klicka sedan på <strong>Lägg till gruppering</strong>.
-1. Lägg till <strong>Beräknat flervalsfält</strong> som du har skapat som gruppering.
-1. Välj <strong>Diagram</strong> och lägga till ett diagram i rapporten.
+1. Välj fliken <strong>Grupperingar</strong> och klicka sedan på <strong>Lägg till gruppering</strong>.
+1. Lägg till det <strong>beräknade flervalsfältet</strong> som du skapade som gruppering.
+1. Välj fliken <strong>Diagram</strong> och lägg till ett diagram i rapporten.
 
-   Välj till exempel en **Kolumn** diagram.
-   <br>Mer information om hur du lägger till ett diagram i en rapport finns i avsnittet <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Lägga till ett diagram i en rapport</a> i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.
-1. I **Nedre (X) axel** fält, välj <strong>Beräknat flervalsfält</strong> som ska visas i diagrammet.
-1. Klicka <strong>Spara + Stäng</strong>.
+   Välj till exempel ett **kolumndiagram**.
+   <br>Mer information om hur du lägger till ett diagram i en rapport finns i avsnittet <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Lägg till ett diagram i en rapport</a> i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Skapa en anpassad rapport</a>.
+1. I fältet **Nedre (X) axel** markerar du det <strong>beräknade flervalsfältet</strong> som ska visas i diagrammet.
+1. Klicka på <strong>Spara + Stäng</strong>.
 
    Rapporten visar resultaten grupperade efter det beräknade flervalsfältet i ett diagram.
 

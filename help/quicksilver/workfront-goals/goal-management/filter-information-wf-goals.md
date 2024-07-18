@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Filtrera information i Adobe Workfront-mål
 
-Du kan visa mål som du eller någon annan har lagt till i Adobe Workfront-mål. Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md). När du tittar på dina mål kan du filtrera information i Workfront-mål så att du bara ser de mål som är viktiga för dig.
+Du kan visa mål som du eller någon annan har lagt till i Adobe Workfront-mål. Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md). När du tittar på dina mål kan du filtrera information i Workfront-mål så att du bara ser de mål som är viktiga för dig.
 
 ## Åtkomstkrav
 
@@ -77,7 +77,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Översikt över filter i Workfront-mål
 
@@ -113,7 +113,7 @@ Tänk på följande när du arbetar med filter i Workfront-mål:
 
 Du kan använda ett snabbfilter i en lista med mål om du bara vill hitta objekt som är viktiga för dig. Du kan inte spara snabbfilter och de är inte beständiga. Workfront rensar resultatet av ett snabbfilter när du uppdaterar sidan.
 
-Mer information finns i [Använda snabbfiltret på en lista](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Mer information finns i [Använda snabbfiltret i en lista](../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 ## Skapa och använda ett filter i Workfront-mål
 
@@ -123,15 +123,15 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
 
 1. Gå till Workfront mål.
 
-   Mer information om hur du får åtkomst till Workfront-mål finns på [Få åtkomst till och öppna mål i Adobe Workfront-mål](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+   Mer information om åtkomst till Workfront-mål finns i [Åtkomst och öppna mål i Adobe Workfront-mål](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
 
    Som standard visas avsnittet Mållista.
 
-1. Klicka **Filter** i listans övre högra hörn.
+1. Klicka på **Filter** i det övre högra hörnet av listan.
 
    ![](assets/filter-icon-and-label.png)
 
-   Som standard använder Workfront **Alla** filter som visar alla mål i systemet.
+   Som standard använder Workfront filtret **Alla** som visar alla mål i systemet.
 
    >[!TIP]
    >
@@ -173,9 +173,9 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
       </tbody> 
      </table>
 
-   * Håll muspekaren över namnet på ett filter och klicka sedan på knappen **Redigera** icon ![](assets/edit-icon.png) bredvid namnet för att anpassa det och lägga till specifika namn på användare, team, grupper eller namnet på din organisation, och markera det sedan när de visas i listan.
+   * Håll muspekaren över namnet på ett filter och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) bredvid namnet för att anpassa det, lägga till specifika namn på användare, team, grupper eller namnet på din organisation, och markera det sedan när de visas i listan.
 
-   * Klicka **Nytt filter** om du vill skapa ett nytt filter väljer du bland följande alternativ för att anpassa det nya filtret:
+   * Klicka på **Nytt filter** för att skapa ett nytt filter och välj sedan bland följande alternativ för att anpassa det nya filtret:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -210,16 +210,16 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
          <ul> 
           <li> <p><strong>Me</strong>: Visar mål där du är ägare.</p> </li> 
           <li> <p><strong>Mitt hemteam</strong> och <strong>Alla mina team</strong>: Visar mål där antingen ditt hemteam eller något av dina team har utsetts till ägare. </p> <p>Tips! Inga mål visas när du inte är tilldelad några team. </p> </li> 
-          <li> <p><strong>Min hemgrupp</strong> och <strong>Alla mina grupper</strong>: Visar mål där antingen din hemgrupp eller någon av dina grupper har utsetts till ägare.</p> </li> 
+          <li> <p><strong>Min hemgrupp</strong> och <strong>Alla mina grupper</strong>: Visar mål där din hemgrupp eller någon av dina grupper har angetts som ägare.</p> </li> 
          </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-1. (Valfritt) Klicka på **Återställ** i det nedre högra hörnet av filterrutan för att ta bort alla fält som du har markerat och börja skapa filtret från grunden.
-1. (Valfritt) Klicka på **Använd** för att använda filtret utan att spara.
+1. (Valfritt) Klicka på **Återställ** i det nedre högra hörnet av filterrutan om du vill ta bort alla fält som du har markerat och börja skapa filtret från grunden.
+1. (Valfritt) Klicka på **Använd** om du vill använda filtret utan att spara.
 
-   Filtret visas i **Osparad** filterverktygets område som **Nytt filter**.
+   Filtret visas i området **Osparat** i filterverktyget som **Nytt filter**.
 
    Du kan inte byta namn på ett osparat filter.
 
@@ -229,26 +229,26 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
    >
    >Du kan bara ha ett osparat nytt filter åt gången.
 
-1. Klicka **Spara** om du vill spara filtret så att det kan användas senare och sedan lägga till ett namn för filtret i **Lägg till filternamn** fält och klicka **Klar**.
+1. Klicka på **Spara** om du vill spara filtret och använda det senare, lägg till ett namn för filtret i fältet **Lägg till filternamn** och klicka på **Klar**.
 
-   Detta sparar filtret i **Sparad** i filterverktyget. Du kan använda detta filter i framtiden.
+   Detta sparar filtret i avsnittet **Sparat** i filterverktyget. Du kan använda detta filter i framtiden.
 
    Det senast sparade och tillämpade filtret visas som standard nästa gång du loggar in på Workfront igen
 
-1. (Valfritt) Klicka på **vänsterriktad pil** nästa **Nytt filter** för att avsluta filterverktyget och återgå till filterlistan.
-1. (Valfritt) Håll pekaren över namnet på ett eget filter och klicka på **Mer** menyn och klicka sedan på **Ta bort** sedan **Ta bort**. Filtret tas bort och du kan inte återställa det.
+1. (Valfritt) Klicka på den **vänsterriktade pilen** bredvid **Nytt filter** för att avsluta filterverktyget och återgå till filterlistan.
+1. (Valfritt) Håll pekaren över namnet på ett anpassat filter, klicka på menyn **Mer**, klicka på **Ta bort** och sedan på **Ta bort**. Filtret tas bort och du kan inte återställa det.
 
    >[!TIP]
    >
    >Du kan inte ta bort något av de fördefinierade filtren.
 
-1. Klicka på **X-ikon** i det övre högra hörnet av filterverktyget för att stänga filterverktyget.
+1. Klicka på ikonen **X** i det övre högra hörnet av filterverktyget för att stänga filterverktyget.
 
    Namnet på det filter som används visas till höger om filterikonen i det övre högra hörnet av mållistan.
 
    Listan med mål filtreras efter filtervillkoren.
 
-1. (Valfritt och villkorligt) När du visar mål i delen Måljustering klickar du på **Visa dem** om du vill visa de filtrerade målen.
+1. (Valfritt och villkorligt) När du visar mål i avsnittet Måljustering klickar du på **Visa dem** om du vill visa de filtrerade målen.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -257,6 +257,6 @@ Du kan skapa ett filter från grunden eller redigera något av de inbyggda filtr
    ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
-1. (Valfritt och villkorligt) Klicka på **Återanvänd filter** om du vill använda filtret och utesluta de objekt som du visade i föregående steg.
+1. (Valfritt och villkorligt) Klicka på **Använd om filter** om du vill använda filtret och utesluta objekt som du visade i föregående steg.
 
 

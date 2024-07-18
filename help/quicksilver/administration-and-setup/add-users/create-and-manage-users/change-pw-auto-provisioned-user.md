@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Ändra lösenordet för en automatiskt tilldelad användare
+title: Ändra lösenordet för en användare som har tilldelats automatiskt
 description: När en ny användare försöker ändra sitt tillfälliga lösenord anger han/hon ofta sin e-postadress och får ett felmeddelande om ett felaktigt användarnamn. De måste ange sitt systemtilldelade användarnamn, som är deras GUID (Global Unique Identifier). Eftersom det är svårt att komma ihåg och använda ett GUID rekommenderar vi att du ändrar en ny användares användarnamn till e-postadressen i Workfront och sedan tillåter att användaren ändrar sitt lösenord.
 author: Caroline
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
 source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-# Ändra lösenordet för en automatiskt tilldelad användare
+# Ändra lösenordet för en användare som har tilldelats automatiskt
 
 När du skapar användare med automatisk etablering tilldelar Adobe Workfront dem ett GUID (Global Unique Identifier) för ett användarnamn. Ett GUID är en unik sträng med slumpmässiga siffror och bokstäver, till exempel *5489cb430012526e1ea635e8c29f377f*.
 
@@ -30,7 +30,7 @@ Eftersom det kan vara svårt att använda GUID-användarnamn rekommenderar vi at
 >
 >* Gå till användarens profil och kopiera GUID från webbadressen i webbläsaren.
 >
->  I URL:en `https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details`kopierar du strängen med siffror och bokstäver mellan de två sista snedstrecken: `61941ab1000af22d7104628efa1c738b`.
+>  I URL:en `https://acme.workfront.com/user/61941ab1000af22d7104628efa1c738b/details` skulle du till exempel kopiera strängen med siffror och bokstäver mellan de två sista snedstrecken: `61941ab1000af22d7104628efa1c738b`.
 >
 >  Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 >
@@ -38,7 +38,6 @@ Eftersom det kan vara svårt att använda GUID-användarnamn rekommenderar vi at
 >
 >* Fråga Workfront API.
 >
-
 
 ## Åtkomstkrav
 
@@ -58,16 +57,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ändra lösenordet för en automatiskt tilldelad användare
+## Ändra lösenordet för en användare som har tilldelats automatiskt
 
 1. Ta reda på en användares GUID-användarnamn genom att skicka en API-begäran, vilket visas i följande exempel:
 
-   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>` Plats *`<domain>`* är företagets domän och *`<ID of User>`* är användarens Workfront-ID.
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>` Var *`<domain>`* är företagets domän och *`<ID of User>`* är användarens Workfront-ID.
 
    Du får ett svar som liknar följande:
 
@@ -77,7 +76,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Ändra användarens lösenord med användarens GUID som användarnamn.
 
-   Mer information om hur du ändrar ditt lösenord finns i [Återställ lösenordet](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
+   Mer information om hur du ändrar ditt lösenord finns i [Återställ ditt lösenord](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
 
    Om din organisation använder ett SSO-system kan bara en Workfront-systemadministratör ändra en användares lösenord. Mer information finns i [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 
@@ -87,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    https://<your domain>.my.workfront.com/login/convertUsername
 ```
 
-1. I **Din e-postadress för inloggning** bekräfta att användarens e-postadress är korrekt och klicka sedan på **Uppdatera konto**.
+1. Kontrollera att användarens e-postadress är korrekt i rutan **Din e-postadress för inloggning** och klicka sedan på **Uppdatera konto**.
 
    ![](assets/guidusername-350x272.png)
 
@@ -97,8 +96,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >
 >Så här söker du efter en användares ID:
 >
->1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+>1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 >
 >1. Markera användaren.
 >
 >   Användarens profilsida öppnas och användar-ID:t visas i URL:en.
+>

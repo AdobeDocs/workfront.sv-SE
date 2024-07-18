@@ -2,24 +2,24 @@
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: Uppdatera widgetar i projektinformationsvyn
-description: Du kan visa ytterligare information om [!UICONTROL project] när du har öppnat den från projektlistan genom att lägga till widgetar i [!UICONTROL Project Details] skärm. Varje användare kan anpassa sina egna widgetar.
+description: Du kan visa ytterligare information om [!UICONTROL project] när du har öppnat den från projektlistan genom att lägga till widgetar på [!UICONTROL Project Details]-skärmen. Varje användare kan anpassa sina egna widgetar.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
 
-# Uppdatera widgetar i [!UICONTROL Project Details] visa
+# Uppdatera widgetar i vyn [!UICONTROL Project Details]
 
-Du kan visa ytterligare information om [!UICONTROL project] när du har öppnat den från projektlistan genom att lägga till widgetar i [!UICONTROL Project Details] skärm. Varje användare kan anpassa sina egna widgetar.
+Du kan visa ytterligare information om [!UICONTROL project] när du har öppnat den från projektlistan genom att lägga till widgetar på [!UICONTROL Project Details]-skärmen. Varje användare kan anpassa sina egna widgetar.
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den här artikeln:
+Du måste ha följande åtkomst i [!DNL Workfront] för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +38,13 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Uppdatera widgetarna i [!UICONTROL Project Details] visa
+## Uppdatera widgetarna i vyn [!UICONTROL Project Details]
 
-1. Från [!DNL Adobe Workfront View] startsida, navigera till ett projekt genom att trycka på dess namn.
+1. Gå till ett projekt från startsidan för [!DNL Adobe Workfront View] genom att trycka på dess namn.
 1. Tryck på fliken längst ned i mitten av skärmen.\
-   The [!UICONTROL widget] visas.\
+   Området [!UICONTROL widget] visas.\
    Bläddra genom widgetarna genom att svepa från vänster till höger.\
    ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
@@ -55,28 +55,28 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den
 
 1. Välj bland följande widgetar:
 
-   * **[!UICONTROL Task Condition]**: Visar alla uppgifter i projektet efter [!UICONTROL Condition] i ett cirkeldiagram.
+   * **[!UICONTROL Task Condition]**: Visar alla aktiviteter i projektet efter [!UICONTROL Condition] i ett cirkeldiagram.
    * **[!UICONTROL Issues]**: Visar tidslinjen för alla utgåvor i ett linjediagram. Antalet öppna problem visas inom parentes.
-   * **[!UICONTROL Hours]**: Visar [!UICONTROL Actual] och [!UICONTROL Planned Hours] om projektets uppgifter i ett kombinerat linjediagram.
-   * **[!UICONTROL Issue]** [!UICONTROL Status]: Visar alla utgåvor efter status i ett cirkeldiagram.
-   * **[!UICONTROL Updates]**: Visar alla uppdateringar och kommentarer för projektet.
-   * **[!UICONTROL Costs]**: Visar [!UICONTROL Actual] och [!UICONTROL Planned Cost] av projektet i ett kombinerat stapeldiagram.
-   * **[!UICONTROL Revenue]**: Visar [!UICONTROL Actual] och [!UICONTROL Planned Revenue] av projektet i ett kombinerat stapeldiagram.
-   * **[!UICONTROL Task Progress]**: Visar alla uppgifter i projektet efter [!UICONTROL Progress Status] i ett cirkeldiagram.
+   * **[!UICONTROL Hours]**: Visar [!UICONTROL Actual] och [!UICONTROL Planned Hours] för aktiviteterna i projektet i ett kombinerat linjediagram.
+   * **[!UICONTROL Issue]** [!UICONTROL Status]: Visar alla problem efter status i ett cirkeldiagram.
+   * **[!UICONTROL Updates]**: Visar alla uppdateringar och kommentarer i projektet.
+   * **[!UICONTROL Costs]**: Visar [!UICONTROL Actual] och [!UICONTROL Planned Cost] för projektet i ett kombinerat stapeldiagram.
+   * **[!UICONTROL Revenue]**: Visar [!UICONTROL Actual] och [!UICONTROL Planned Revenue] för projektet i ett kombinerat stapeldiagram.
+   * **[!UICONTROL Task Progress]**: Visar alla aktiviteter i projektet efter [!UICONTROL Progress Status] i ett cirkeldiagram.
    * **[!UICONTROL Upcoming Tasks]**: Visar upp till 6 kommande aktiviteter. Widgeten sorterar projektuppgifterna i följande ordning:
 
       * först, av [!UICONTROL Estimated Due Date]
       * sekund, av [!UICONTROL Work Breakdown Structure]
 
-      Här visas de två senaste slutförda uppgifterna (om det är tillämpligt) och de fyra nästa uppgifterna. För att förstå vilka uppgifter som ska visas i [!DNL Workfront] Visa mobilappen, du kan skapa en uppgiftsrapport för det projekt du visar och sortera den efter det beräknade förfallodatumet och sedan efter [!DNL Workfront] Uppdelningsstruktur. De första sex uppgifterna blir de som listas i mobilappen Workfront View i [!UICONTROL Upcoming] Aktivitetswidget.
+     Här visas de två senaste slutförda uppgifterna (om det är tillämpligt) och de fyra nästa uppgifterna. För att förstå vilka uppgifter som ska visas i mobilappen [!DNL Workfront] View kan du skapa en aktivitetsrapport för det projekt som du visar och sortera den efter beräknat förfallodatum och sedan efter [!DNL Workfront] Brytningsstruktur. De första sex uppgifterna är de uppgifter som listas i Workfront View-mobilappen i [!UICONTROL Upcoming]-widgeten Åtgärder.
 
    * **[!UICONTROL Remaining Tasks]**: Visar de ofullständiga uppgifterna i ett linjediagram.
-   * **[!UICONTROL Documents]**: Visar en lista med dokument som är kopplade till projektet.\
+   * **[!UICONTROL Documents]**: Visar en lista över dokument som är kopplade till projektet.\
 
-      Du kan öppna följande dokumentformat med [!DNL Workfront View]:
+     Du kan öppna följande dokumentformat med [!DNL Workfront View]:
 
       * alla textfiler
-      * .pdf
+      * PDF
       * bildfiler (.jpg, .jpeg, .png osv.)
       * .xls
    * **[!UICONTROL Details]**: Visar följande information om projektet:
@@ -88,4 +88,4 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den
       * Projektschema
    * **[!UICONTROL Team]**: Visar namnen på de användare som ingår i projektgruppen.\
 
-      Mer information om projektteam finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Mer information om projektteam finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).

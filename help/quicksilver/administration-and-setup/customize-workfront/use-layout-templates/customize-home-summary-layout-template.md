@@ -26,7 +26,7 @@ Du kan konfigurera
 
 Du kan också anpassa fälten som användarna ser i området Hem när användarna klickar på ett projektgodkännande, dokumentgodkännande eller godkännande av dokumentversion som de har tilldelats.
 
-Mer information om Hem-området finns i [Använda området Hem](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Mer information om panelen Sammanfattning finns i [Sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Mer information om Hem-området finns i [Använda Hem-området](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,9 +62,9 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det användarna ser** och sedan klicka **Hem och sammanfattning**.
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Hem och sammanfattning**.
 
-1. Klicka på objekttypen (**Uppgifter**, **Problem**, **Projekt**, **Dokument**, eller **Dokumentversioner**) som du vill anpassa i Home och Summary.
+1. Klicka på den objekttyp (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning i listan som visas till vänster.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -72,11 +72,11 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
     <tbody> 
      <tr> 
       <td role="rowheader">Uppgifter</td> 
-      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om en uppgift när en användare klickar på uppgiften. I en lista över uppgifter påverkar den panelen Sammanfattning som visas på sidans högra sida när en användare väljer en åtgärd och klickar sedan på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> <p>Du kan till exempel bestämma vilka fält som användare ska se i området Detaljer när användare väljer uppgifter i Hem:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Och när de väljer en uppgift i sammanfattningen:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om en uppgift när en användare klickar på uppgiften. I en lista över uppgifter påverkar den även panelen Sammanfattning som visas till höger på sidan när en användare väljer en åtgärd och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> <p>Du kan till exempel bestämma vilka fält som användare ska se i området Detaljer när användare väljer uppgifter i Hem:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>Och när de väljer en uppgift i sammanfattningen:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Problem</td> 
-      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om ett problem när en användare klickar på problemet.</p> <p>I en lista över problem påverkar den här inställningen panelen Sammanfattning som visas till höger på sidan när en användare väljer ett problem och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td> <p>I Hem påverkar konfigurationen för den här inställningen området till höger om ett problem när en användare klickar på problemet.</p> <p>I en lista över problem påverkar den här inställningen panelen Sammanfattning som visas på sidans högra sida när en användare väljer ett problem och sedan klickar på ikonen Öppna sammanfattning <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Projekt</td> 
@@ -101,16 +101,16 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Villkorligt) Om **Ange primär åtgärdsknapp** nedrullningsbar meny visas (om du väljer **Uppgifter** eller **Problem** i listan till vänster) klickar du på den primära åtgärden (**Klar** eller **Status**) som du vill ska vara tillgängliga för användare i hemområdet och på sammanfattningspanelen när de visar en uppgift eller ett problem.
+1. (Villkorligt) Om listrutan **Ange primär åtgärd** visas (om du väljer **Åtgärder** eller **Problem** i listan till vänster) klickar du på den primära åtgärd (**Klar** eller **Status**) som du vill ska vara tillgänglig för användare i hemområdet och på sammanfattningspanelen när de visar en uppgift eller ett problem.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. Lägg till ![](assets/add-item-plus-in-circle-blue.png) eller dölja ![](assets/close-or-hide---x.png) fält för den valda objekttypen.
+1. Lägg till ![](assets/add-item-plus-in-circle-blue.png) eller dölj ![](assets/close-or-hide---x.png) fält för den valda objekttypen.
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Upprepa steg 3-6 för att anpassa Hem- och Sammanfattningspanelen för andra objekttyper.
-1. Klicka **Globala inställningar**, nära det nedre vänstra hörnet, och sedan aktivera eller inaktivera något av följande alternativ för Adobe Workfront-objekt i Hem och Sammanfattning:
+1. Klicka på **Globala inställningar**, nära det nedre vänstra hörnet, och aktivera eller inaktivera sedan något av följande alternativ för Adobe Workfront-objekt i Hem och Sammanfattning:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -118,7 +118,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
     <tbody> 
      <tr> 
       <td role="rowheader">Visa uppdateringar för arbete</td> 
-      <td>Visar alla uppdateringar som gjorts för en vald uppgift eller ett valt problem i Hem eller Sammanfattning. Detta omfattar både systemuppdateringar och uppdateringar som görs av en användare. Användarna kan fortfarande filtrera bort systemuppdateringar enligt beskrivningen i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Aktivera eller inaktivera systemuppdateringar</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdatera arbete</a>.</td> 
+      <td>Visar alla uppdateringar som gjorts för en vald uppgift eller ett valt problem i Hem eller Sammanfattning. Detta omfattar både systemuppdateringar och uppdateringar som görs av en användare. Användare kan fortfarande filtrera bort systemuppdateringar enligt beskrivningen i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Aktivera eller inaktivera systemuppdateringar</a> i <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdateringsarbete</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Logga tid för arbete</td> 
@@ -135,7 +135,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
         <li>Planerat slutförandedatum</li>
         <li>Bekräftelsedatum</li>
         <li>Skickat den</li>
-       </ul><p><b>ANMÄRKNING</b>: När det här alternativet är aktiverat flyttas arbetsobjekt som blivit förfallna till grupperingen Sent i hemarbetslista baserat enbart på datum, inte tid.</p></td> 
+       </ul><p><b>Obs!</b> När det här alternativet är aktiverat flyttas förfallna arbetsobjekt till den sena grupperingen i hemarbetslistan baserat enbart på datum, inte tid.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -144,6 +144,6 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara**.
+   Klicka på **Spara** om du är klar med anpassningen.
 
 Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

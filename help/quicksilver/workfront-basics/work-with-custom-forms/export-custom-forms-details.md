@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 1670edf153e57152e51adcfbda052eb74541d931
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -49,8 +49,8 @@ Du måste ha följande:
    <td> <p>Begär eller högre för problem</p> <p>Granska eller högre för projekt och uppgifter</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>Visa eller högre för projekt, uppgifter och ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>Visa eller högre för projekt, uppgifter och ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objektbehörigheter</p> </td> 
@@ -72,24 +72,24 @@ Innan du börjar måste du ha följande:
 
    Ha rätt åtkomst för att bifoga ett anpassat formulär och redigera informationen i formuläret.
 
-Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Mer information om hur du bifogar formulär till objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Mer information om hur du bifogar formulär till objekt finns i [Lägga till ett anpassat formulär till ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Exportera information i detaljavsnittet
 
 Att exportera information från detaljavsnittet för ett objekt är identiskt för alla objekt där det stöds.
 
 1. Gå till ett projekt, en uppgift, en portfölj, ett program eller ett problem som du har minst behörigheten Visa.
-1. Klicka på **Detaljer** på den vänstra panelen, som **Uppgiftsinformation**.
-1. (Valfritt) Om det inte finns något anpassat formulär kopplat till objektet börjar du skriva namnet på ett anpassat formulär i **Lägg till anpassat formulärfält** klickar du på den när den visas i listan.
+1. Klicka på **&quot;Detaljer&quot;** på den vänstra panelen, till exempel **Uppgiftsinformation**.
+1. (Valfritt) Om det inte finns något anpassat formulär kopplat till objektet börjar du skriva namnet på ett anpassat formulär i fältet **Lägg till anpassat formulär** och klickar sedan på det när det visas i listan.
 
    Du kan lägga till upp till 10 formulär.
 
 1. (Valfritt) Uppdatera informationen i detaljavsnittet och klicka sedan på **Spara ändringar**.
-1. Klicka på **Exportera** nedrullningsbar meny i det övre högra hörnet väljer **Översikt** eller de formulär du vill exportera och klicka sedan på **Exportera**.
+1. Klicka på listrutan **Exportera** i det övre högra hörnet, välj **Översikt** eller de formulär som du vill exportera och klicka sedan på **Exportera**.
 
-   Du kan också välja **Markera alla** om du vill exportera området Översikt och alla anpassade formulär.
+   Du kan också välja **Markera alla** om du vill exportera översiktsområdet och alla anpassade formulär.
 
    ![](assets/export-custom-form-button-menu.png)
 
@@ -100,15 +100,16 @@ Att exportera information från detaljavsnittet för ett objekt är identiskt f�
    >   
    >   
    >   * När gruppadministratören eller Workfront-administratören avmarkerar alla fält i översiktsområdet och objektet har anpassade formulär bifogade, visas inte översiktsavsnittet.
-   >   * När gruppadministratören eller Workfront-administratören avmarkerar alla fält i området Översikt och objektet inte har några anpassade formulär bifogade visas inte listrutan Exportera.
+   >   * När en gruppadministratör eller Workfront-administratör avmarkerar alla fält i området Översikt och objektet inte har några anpassade formulär bifogade visas inte listrutan Exportera.
    >   * När objektet inte har några anpassade formulär kan du bara exportera området Översikt.
-   >   * Anpassade fält som ligger bakom logik och inte är synliga i formuläret exporteras inte. Mer information om hur du lägger till logik i ett anpassat formulär finns i [Lägga till visningslogik och hoppa över logik i ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
-
+   >   * Anpassade fält som ligger bakom logik och inte är synliga i formuläret exporteras inte. Mer information om hur du lägger till logik i ett anpassat formulär finns i [Lägga till visningslogik och hoppa över logik i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+   >   
+   >
 
    En PDF-fil skapas och hämtas till din dator. Filen PDF innehåller följande information:
 
    * Namnet på objektet som formuläret är kopplat till
    * Namnet på den användare som exporterade PDF
    * Datum och tid då PDF producerades
-   * Namnet på de formulär som du har exporterat
+   * Namnet på de formulär som du exporterade
    * Information från de fält som fyllts i i formuläret

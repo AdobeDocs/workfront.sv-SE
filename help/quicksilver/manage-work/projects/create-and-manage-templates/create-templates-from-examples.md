@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör kan du hämta flera förkonfigurerade mallar i din Workfront-instans med hjälp av utkast. Mer information finns i [Konfigurera en plan](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-Som användare med en Workfront-licens kan du begära att en ritningsmall installeras. Mer information finns i [Bläddra i katalogen med ritningar och begär installation av ritningar](../../../administration-and-setup/blueprints/browse-catalog.md).
+Som användare med en Workfront-licens kan du begära att en ritningsmall installeras. Mer information finns i [Bläddra i katalogen med utkast och begära installation av utkast](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig. Du kan bläddra i katalogen med utkast och installera färdiga projektmallar.
 
-Varje mall är avsedd för en avdelning och en viss mognadsnivå som hjälper dig att implementera beprövade metoder snabbare i systemet.
+Varje mall är avsedd för en avdelning och en viss mognadsnivå för att hjälpa er att implementera beprövade metoder snabbare i systemet.

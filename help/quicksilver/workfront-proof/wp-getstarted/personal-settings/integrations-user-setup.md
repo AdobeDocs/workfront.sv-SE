@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 1%
+source-wordcount: '109'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 I det här avsnittet visas de alternativ du har för att skapa färdiga integreringslänkar med tredjepartsprogram.
 
@@ -27,8 +27,8 @@ Här kan du också hitta en autentiseringstoken som gör att tredjepartsprogramv
 
 Aktuella integreringspunkter är tillgängliga för följande:
 
-* Offentligt API (1) - Se vår dedikerade [Hjälpsida för API](https://api.proofhq.com/)
-* [!DNL Basecamp] (2) - Se vår [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) och [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) hjälpsidor
+* Offentligt API (1) - Se hjälpsidan för [API](https://api.proofhq.com/)
+* [!DNL Basecamp] (2) - Se våra dedikerade [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp)- och [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic)-hjälpsidor
 
 * [!DNL NetSuite] (3)
 * [!DNL WorkFront] (4)

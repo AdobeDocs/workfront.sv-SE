@@ -31,6 +31,6 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Uppgifter: artikelindex](../manage-work/tasks/tasks-overview.md)
 * [Problem](../manage-work/issues/issues-overview.md)
 * [Gantt-schemat](../manage-work/gantt-chart/the-gantt-chart.md)
-* [hantering av Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
+* [Hantering av Portfolio](../manage-work/portfolios/portfolio-management-overview.md)
 * [Begäranden](../manage-work/requests/requests-overview.md)
 * [Delegera arbete](../manage-work/delegate-work/delegate-work.md)

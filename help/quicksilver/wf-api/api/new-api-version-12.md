@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2516'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Följande resurser är nya i Workfront API version 12.
 
 Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/underordnade element för ett Adobe Workfront-arbetsobjekt. Brevbeskrivningar visar hur en arbetsuppgift passar in i den större strukturen för Portfolio, projekt, projekt och uppgifter.
 
-Mer information om Breadcrumbs i Workfront finns i [En översikt över vägbeskrivningar i nya Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Mer information om vägbeskrivningar i Workfront finns i [Översikt över vägbeskrivningar i nya Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -108,7 +108,7 @@ Följande resurser ändrades för Workfront API version 12.
     <ul> 
      <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
      <li> <p><a href="#document" class="MCXref xref">Dokument</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">Dokumentversion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Grupp </a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
@@ -119,9 +119,9 @@ Följande resurser ändrades för Workfront API version 12.
    <td> 
     <ul> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
-     <li> <p><a href="#scheduledreport" class="MCXref xref">SchemalagdRapport</a> </p> </li> 
+     <li> <p><a href="#scheduledreport" class="MCXref xref">ScheduledReport</a> </p> </li> 
      <li> <p><a href="#scorecardquestion" class="MCXref xref">ScoreCardQuestion</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Uppgift</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Aktivitet</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Tidrapport</a> </p> </li> 
@@ -175,9 +175,9 @@ Ett AccessLevelPermissions-objekt representerar en specifik behörighet för att
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>Följande possibleValues har lagts till:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Utjämning av arbetsbelastning</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurera delning för anpassade fält och widgetar</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter när användartilldelningar hanteras</a> i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användartilldelningar i arbetsbelastningsutjämnaren</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Följande possibleValues har lagts till:</p> 
       <ul> 
@@ -246,9 +246,9 @@ Om en användare inte har åtkomst till ett objekt i Workfront som de behöver k
     <ul> 
      <li> <p style="font-weight: bold;">åtgärd</p> <p>Följande possibleValues har lagts till:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Utjämning av arbetsbelastning</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurera delning för anpassade fält och widgetar</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter när användartilldelningar hanteras</a> i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användartilldelningar i arbetsbelastningsutjämnaren</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -269,9 +269,9 @@ Ett AccessRule-objekt representerar en regeluppsättning med anpassade åtkomstn
     <ul> 
      <li><strong>coreAction</strong> <p>Följande possibleValues har lagts till:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Utjämning av arbetsbelastning</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurera delning för anpassade fält och widgetar</a>.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter när användartilldelningar hanteras</a> i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användartilldelningar i arbetsbelastningsutjämnaren</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Följande possibleValues har lagts till:</p> 
       <ul> 
@@ -292,7 +292,7 @@ Ett AccessRule-objekt representerar en regeluppsättning med anpassade åtkomstn
 
 ### ActivityLog {#activitylog}
 
-Ett ActivityLog-objekt är en fullständig lista över alla aktiviteter som har utförts i ett visst Workfront-korrekturkonto.
+Ett ActivityLog-objekt är en fullständig lista över alla aktiviteter som har utförts i ett visst Workfront Proof-konto.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -360,9 +360,9 @@ En viss arbetsuppgift, till exempel en uppgift, ett dokument eller en tidrapport
      <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
-       <li> <p>2 (medel)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (stor)</p> </li> 
-      </ul> <p>Mer information om hur du arbetar i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över arbetsinsats</a>.</p> </li> 
+      </ul> <p>Mer information om Arbetsinsats i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över Arbetsinsats</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -534,7 +534,7 @@ Ett Group-objekt representerar en uppsättning användare och team. Grupper repr
    <td>Referensfält</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">Den affärsledare som tilldelats gruppen. En företagsledare är någon som fattar affärsbeslut för gruppen.</p> <p style="font-weight: normal;">Mer information om företagsledare finns på <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Översikt över företagsledare</a>.<br></p> </li> 
+     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">Den affärsledare som tilldelats gruppen. En företagsledare är någon som fattar affärsbeslut för gruppen.</p> <p style="font-weight: normal;">Mer information om företagsledare finns i <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Översikt över företagsledare</a>.<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -603,7 +603,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärder</td> 
-   <td> <p>De här åtgärderna har lagt till argumentstatusen för att stödja den nya Start-knappfunktionen, som ändrar statusen för en arbetsuppgift när en användare klickar på knappen för att ange att de har påbörjat arbetet med posten.</p> <p>Mer information finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a>.</p> 
+   <td> <p>De här åtgärderna har lagt till argumentstatusen för att stödja den nya Start-knappfunktionen, som ändrar statusen för en arbetsuppgift när en användare klickar på knappen för att ange att de har påbörjat arbetet med posten.</p> <p>Mer information finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt knappen Arbeta med med knappen Start</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -618,7 +618,7 @@ Ett Parameter-objekt är ett anpassat fält.
 
 Parameterresursen lade till flaggan SHARABLE.
 
-Mer information om anpassade fält finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Mer information om anpassade fält finns i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -636,7 +636,7 @@ Mer information om anpassade fält finns i [Skapa eller redigera ett anpassat fo
       <ul> 
        <li> <p>RICH (textfält med formatering)</p> <p>Mer information finns i <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">RTF-fält i Adobe Workfront API</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>label</strong> </p> <p>Tillagd</p> </li> 
+     <li> <p><strong>etikett</strong> </p> <p>Tillagd</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -650,7 +650,7 @@ Mer information om anpassade fält finns i [Skapa eller redigera ett anpassat fo
    <td role="rowheader">Standardfält</td> 
    <td> 
     <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><strong>label</strong> </p> <p>Tillagd</p> </li> 
+     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><strong>etikett</strong> </p> <p>Tillagd</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -712,7 +712,7 @@ Ett Program-objekt är en delmängd av projekt i en portfölj, där liknande pro
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats till Help Desk-området där användarna kan skicka problem till den.
 
-Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om begärandeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -722,12 +722,11 @@ Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-wor
    <td role="rowheader">Direktfält</td> 
    <td> 
     <ul> 
-     <li><strong>requestCoreAction</strong> <p>Följande possibleValues har lagts till:</p> 
+     <li><strong>requestedCoreAction</strong> <p>Följande possibleValues har lagts till:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter vid hantering av användarallokeringar</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Utjämning av arbetsbelastning</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Konfigurera delning för anpassade fält och widgetar</a></p> </li> 
-      </ul> <li> <p><strong>requestForbiddenActions</strong> </p> <p>Följande possibleValues har lagts till:</p> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan uppdatera planerade timmar i Utjämning av arbetsbelastning.</p> <p>Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Uppdatera planerade timmar för aktiviteter när användartilldelningar hanteras</a> i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användartilldelningar i arbetsbelastningsutjämnaren</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan lägga till fält i anpassade formulär.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>En användare med en åtkomstnivå som innehåller den här behörigheten kan dela ett anpassat fält i hela systemet med åtkomsten Ta bort.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -796,14 +795,14 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
      <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
-       <li> <p>2 (medel)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (stor)</p> </li> 
-      </ul> <p>Mer information om hur du arbetar i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över arbetsinsats</a>.</p> </li> 
+      </ul> <p>Mer information om Arbetsinsats i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över Arbetsinsats</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtgärder</td> 
-   <td> <p>De här åtgärderna har lagt till argumentstatusen för att stödja den nya Start-knappfunktionen, som ändrar statusen för en arbetsuppgift när en användare klickar på knappen för att ange att de har påbörjat arbetet med posten.</p> <p>Mer information finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a>.</p> 
+   <td> <p>De här åtgärderna har lagt till argumentstatusen för att stödja den nya Start-knappfunktionen, som ändrar statusen för en arbetsuppgift när en användare klickar på knappen för att ange att de har påbörjat arbetet med posten.</p> <p>Mer information finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt knappen Arbeta med med knappen Start</a>.</p> 
     <ul> 
      <li> <p><strong>acceptWork</strong> </p> </li> 
      <li> <p><strong>unacceptWork</strong> </p> </li> 
@@ -835,7 +834,7 @@ Ett Team-objekt är en samling användare som kan tilldelas till ett arbetsobjek
        <li> <p><strong>workOnItOpTaskChangeOrderStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskIssueStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskRequestStatuses</strong> </p> <p><strong>workOnItTaskStatuses</strong> </p> </li> 
-      </ul> <p>Mer information om knappen Start finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a>.</p> </li> 
+      </ul> <p>Mer information om knappen Start finns i <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt knappen Work On It med knappen Start</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -865,9 +864,9 @@ Mer information om malluppgifter finns i [Redigera en malluppgift](../../manage-
      <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
-       <li> <p>2 (medel)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (stor)</p> </li> 
-      </ul> <p>Mer information om hur du arbetar i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över arbetsinsats</a>.</p> </li> 
+      </ul> <p>Mer information om Arbetsinsats i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över Arbetsinsats</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -907,7 +906,7 @@ Mer information om tidrapporter finns i [Översikt över tidrapporter](../../tim
       <ul> 
        <li> <p>InitiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>InitiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Mer information om initiativ finns i <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativ i scenarioplaneraren</a>.</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Mer information om initiativ finns i <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativ i scenarioplanen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -975,9 +974,9 @@ Ett Work-objekt är ett vanligt gränssnitt som både Task och OpTask ärver och
      <li> <p><strong>workEffort</strong> </p> <p>Det här fältet lades till och anger om det tar en användare en liten, medelstor eller stor del av den dagliga arbetsinsatsen att slutföra en uppgift. Möjliga värden är:</p> 
       <ul> 
        <li> <p>1 (liten)</p> </li> 
-       <li> <p>2 (medel)</p> </li> 
+       <li> <p>2 (Medium)</p> </li> 
        <li> <p>3 (stor)</p> </li> 
-      </ul> <p>Mer information om hur du arbetar i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över arbetsinsats</a>.</p> </li> 
+      </ul> <p>Mer information om Arbetsinsats i Workfront finns i <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Översikt över Arbetsinsats</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

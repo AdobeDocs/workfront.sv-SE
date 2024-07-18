@@ -60,9 +60,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.</p>
-<p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>:</p> <p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.
+<p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>OBS</b>:</p> <p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå.
 
-Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -85,22 +85,22 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **Gränssnitt** > **Layoutmallar**.
+1. Klicka på **Gränssnitt** > **Layoutmallar** i den vänstra panelen.
 
-1. Klicka **Ny layoutmall**.
+1. Klicka på **Ny layoutmall**.
 
    eller
 
    Klicka på namnet på layoutmallen som du vill ändra.
 
-1. Om du skapar en ny layoutmall skriver du **Namn på layoutmall** och (valfritt) a **Beskrivning** för den.
+1. Om du skapar en ny layoutmall skriver du ett **layoutmallnamn** och (valfritt) en **beskrivning** för den.
 
 1. Anpassa delar av användargränssnittet enligt följande artiklar:
 
-   * [Anpassa huvudmenyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+   * [Anpassa huvudmenyn med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
    * [Anpassa den vänstra panelen med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
    * [Anpassa fästa sidor med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [Anpassa detaljvyn med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
    * [Anpassa hem och sammanfattning med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Anpassa landningssidan med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
@@ -108,7 +108,7 @@ Mer information om layoutmallar finns i [Layoutmallar](../../../administration-a
 
 1. Fortsätt att testa layoutmallen och göra den tillgänglig för användare, så som beskrivs i artiklarna nedan:
 
-   * [Testa en ny layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [Testar en ny layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [Bevilja administrativ åtkomst för en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [Tilldela användare till en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

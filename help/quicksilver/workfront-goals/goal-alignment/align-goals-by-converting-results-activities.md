@@ -16,7 +16,7 @@ ht-degree: 0%
 # Justera mål genom att konvertera resultat och aktiviteter till mål
 
 Du kan justera två mål manuellt eller konvertera resultaten och aktiviteterna för ett befintligt mål till ett annat mål. Det konverterade resultatet eller aktiviteten blir det underordnade målet för det ursprungliga målet.
-Mer information om hur du justerar två mål manuellt finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Mer information om att manuellt justera två mål finns i [Justera mål genom att koppla dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Åtkomstkrav
 
@@ -72,7 +72,7 @@ Mer information om hur du justerar två mål manuellt finns i [Justera mål geno
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -80,7 +80,7 @@ Du måste ha följande innan du kan börja:
 
 * Ett befintligt mål med befintliga resultat och aktiviteter.
 
-  Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+  Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -119,16 +119,16 @@ Tänk på följande när du konverterar resultat och aktiviteter till mål:
 -->
 
 1. Gå till ett mål som har ett resultat eller en aktivitet som du vill konvertera till ett mål.
-1. Klicka på **Progress-indikatorer** till vänster.
-1. Välj ett resultat eller en aktivitet i listan med förloppsindikatorer och klicka sedan på **Konvertera till mål** icon ![](assets/convert-to-goal-icon-unshimmed.png) högst upp i förloppsindikatorlistan. Rutan Konvertera till mål öppnas.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen på målsidan.
+1. Välj ett resultat eller en aktivitet i listan med förloppsindikatorer och klicka sedan på ikonen **Konvertera till mål** ![](assets/convert-to-goal-icon-unshimmed.png) längst upp i förloppsindikatorlistan. Rutan Konvertera till mål öppnas.
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. Uppdatera följande information:
    * **Målnamn**: Som standard har det nya målet samma namn som det ursprungliga resultatet eller den ursprungliga aktiviteten.
-   * **Period**: Som standard är det nya målets period det aktuella kvartalet. Du kan välja **Aktivera anpassade datum** inställning för att definiera en anpassad tidsperiod för det nya målet.
+   * **Period**: Som standard är det nya målets period det aktuella kvartalet. Du kan välja inställningen **Aktivera anpassade datum** för att definiera en anpassad tidsperiod för det nya målet.
    * **Målägare**: Som standard är den nya målägaren ägare till det ursprungliga resultatet eller den ursprungliga aktiviteten.
    * **Beskrivning**: Lägg till mer information om det nya målet.
-1. Klicka **Spara**
+1. Klicka på **Spara**
 
    Resultatet eller aktiviteten konverteras nu till ett underordnat mål för det ursprungliga målet. Det listas som ett mål i listan med förloppsindikatorer för det ursprungliga målet.
 

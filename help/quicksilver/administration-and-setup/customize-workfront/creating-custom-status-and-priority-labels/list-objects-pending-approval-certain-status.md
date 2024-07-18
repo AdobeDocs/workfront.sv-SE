@@ -21,30 +21,30 @@ Om du försöker ta bort en status kan ett felmeddelande tala om för dig att de
 
 ## I standardläge
 
-1. Gå till **Rapportering** i det globala navigeringsfältet väljer du **Rapporter** -fliken.
+1. Gå till området **Rapportering** i det globala navigeringsfältet och välj sedan fliken **Rapporter** .
 1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Projektrapport**, **Uppgiftsrapport**, eller **Problemrapport**.
-1. Öppna **Filter** -fliken.
-1. Klicka **Lägg till en filterregel** gör du följande för att konfigurera regeln:
-   1. Börja skriva `status`väljer **Status** när den visas.
-   1. Lämna **Jämn** i det andra fältet.
+1. Klicka på **Ny rapport** och välj sedan **Projektrapport**, **Aktivitetsrapport** eller **Problemrapport**.
+1. Öppna fliken **Filter**.
+1. Klicka på **Lägg till en filterregel** och gör sedan följande för att konfigurera regeln:
+   1. Börja skriva `status` och välj sedan **Status** när den visas.
+   1. Låt **vara** i det andra fältet.
    1. Välj statusens namn i det tredje fältet.
-1. Klicka **Lägg till en filterregel** gör sedan följande för att konfigurera regeln
-   1. Börja skriva `pending status`markerar du objektet när det visas under den objekttyp som du tittar på (**Projekt**, **Uppgift**, eller **Problem**).
-   1. Lämna **Jämn** i det andra fältet.
-   1. Typ `in` i det tredje fältet.
-1. Klicka **Lägg till en filterregel** gör sedan följande för att konfigurera regeln
-   1. Börja skriva under godkännandeprocessen och välj **Grupp-ID** när den visas under **Godkännandeprocess**.
+1. Klicka på **Lägg till en filterregel** igen och gör sedan följande för att konfigurera regeln
+   1. Börja skriva `pending status` och markera sedan objektet när det visas under den objekttyp som du letar efter (**Projekt**, **Aktivitet** eller **Problem**).
+   1. Låt **vara** i det andra fältet.
+   1. Skriv `in` i det tredje fältet.
+1. Klicka på **Lägg till en filterregel** igen och gör sedan följande för att konfigurera regeln
+   1. Börja skriva in godkännandeprocessen och välj sedan **Grupp-ID** när det visas under **Godkännandeprocess**.
    1. Välj **Är tom** i det andra fältet.
-1. Klicka **Spara + Stäng** för att köra rapporten och lista alla objekt av den typ som du har angett med godkännandeprocesser i väntande tillstånd baserat på den status som du har angett (**Projekt**, **Uppgift**, eller **Problem**).
+1. Klicka på **Spara + stäng** om du vill köra rapporten och visa alla objekt av den typ som du har angett med godkännandeprocesser i väntande läge baserat på den status som du har angett (**Projekt**, **Aktivitet** eller **Problem**).
 1. Upprepa de här stegen för att hitta samma information för de två andra objekttyperna.
 
 
 ## I textläge
 
 1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Projektrapport**, **Uppgiftsrapport**, eller **Problemrapport**.
-1. Öppna **Filter** -fliken.
+1. Klicka på **Ny rapport** och välj sedan **Projektrapport**, **Aktivitetsrapport** eller **Problemrapport**.
+1. Öppna fliken **Filter**.
 1. Välj **Växla till textläge**.
 1. Kopiera och klistra in följande i redigeringsfönstret och ersätt XXX med 3-bokstavskangenten för statusen:
 
@@ -59,5 +59,5 @@ Om du försöker ta bort en status kan ett felmeddelande tala om för dig att de
    * [Åtkomst till listan över status för systemaktivitet](task-statuses.md)
    * [Åtkomst till listan över status för systemproblem](issue-statuses.md)
 
-1. Klicka **Spara + Stäng** för att köra rapporten och lista alla objekt av den typ som du har angett med godkännandeprocesser i väntande tillstånd baserat på den status som du har angett (**Projekt**, **Uppgift**, eller **Problem**).
+1. Klicka på **Spara + stäng** om du vill köra rapporten och visa alla objekt av den typ som du har angett med godkännandeprocesser i väntande läge baserat på den status som du har angett (**Projekt**, **Aktivitet** eller **Problem**).
 1. Upprepa de här stegen för att hitta samma information för de två andra objekttyperna.

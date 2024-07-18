@@ -26,7 +26,7 @@ En Workfront-administratör kan även göra detta för alla grupper.
 
 Om du konfigurerar ett händelsemeddelande för en grupp påverkas användare för vilka gruppen, eller en av dess undergrupper, är deras hemgrupp. I sina användarprofiler ser dessa användare händelsemeddelanden som aktiveras för hemgruppen i stället för händelsemeddelanden som aktiveras i hela systemet.
 
-Information om hur en Workfront-administratör låser upp ett händelsemeddelande finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Mer information om hur en Workfront-administratör låser upp ett händelsemeddelande finns i [Lås upp eller låsa konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 Mer information om standardinställningen för meddelanden för en händelse finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -44,7 +44,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,25 +53,25 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa och konfigurera en grupps händelsemeddelanden
 
-1. (Villkorligt och valfritt) Om du är Workfront-administratör och redan är på sidan E-postmeddelanden (Konfigurera > E-post > Meddelanden) kan du göra följande och sedan gå vidare till steg 6: Ta bort **Systemhändelsemeddelanden** i rutan ovanför listan börjar du skriva gruppnamnet i rutan och klickar sedan på den när den visas.
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. (Villkorligt och valfritt) Om du är Workfront-administratör och redan finns på sidan E-postmeddelanden (Inställningar > E-post > Meddelanden) kan du göra följande och sedan gå vidare till steg 6: Ta bort **systemhändelsemeddelanden** i rutan ovanför listan, börja skriva gruppens namn i rutan och klicka på den när den visas.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen på den översta nivån.
-1. Klicka på **Händelsemeddelanden**.
+1. Klicka på **Händelsemeddelanden** på den vänstra menyn.
 
-   I listan som visas visas **Aktiv** -kolumnen till vänster visar vilka meddelanden som är aktiva (blå) och inaktiva (grå) för gruppen.
+   I listan som visas visar kolumnen **Aktiv** till vänster vilka meddelanden som är aktiva (blå) och inaktiva (grå) för gruppen.
 
-1. Så här aktiverar eller inaktiverar du ett olåst händelsemeddelande: Klicka på knappen i <strong>Aktiv</strong> kolumn som ska aktiveras <img src="assets/email-notification-enabled-unlocked.png"> eller inaktivera <img src="assets/email-notification-disabled-unlocked.png"> den.
+1. Så här aktiverar eller inaktiverar du ett olåst händelsemeddelande: Klicka på knappen i kolumnen <strong>Aktiv</strong> för att aktivera <img src="assets/email-notification-enabled-unlocked.png"> eller inaktivera <img src="assets/email-notification-disabled-unlocked.png"> den.
 
    >[!INFO]
    >
    >**Exempel:** Du kan konfigurera de två viktigaste händelsemeddelandena för marknadsföringsgrupper som visas nedan och som har låsts upp för grupper.</p> <p> <img src="assets/configure-group-event-notifications.png">
-   >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är grå och nedtonad <img src="assets/email-notification-disabled-locked.png">inaktiveras händelsemeddelandet för alla användare och gruppadministratörer kan inte aktivera det eller redigera e-postens ämnesrad
-   >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är grå och inte nedtonad <img src="assets/email-notification-disabled-unlocked.png">, är händelsemeddelandet <strong>inaktiveras för alla användare och</strong> gruppadministratörer kan aktivera den för sina grupper.
-   >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är blå och nedtonad <img src="assets/email-notification-enabled-locked.png">, aktiveras händelsemeddelandet för alla användare och gruppadministratörer kan inte inaktivera det eller redigera dess ämnesrad för e-post för sina grupper.
-   >* Om en knapp finns i <strong>Aktiv</strong> kolumnen är blå och inte nedtonad <img src="assets/email-notification-enabled-unlocked.png">, är händelsemeddelandet <strong>aktiverat för alla användare och</strong> gruppadministratörer kan inaktivera det för sina grupper.
+   >* Om en knapp i kolumnen <strong>Aktiv</strong> är grå och nedtonad <img src="assets/email-notification-disabled-locked.png">, händelsemeddelandet inaktiveras för alla användare och gruppadministratörer kan inte aktivera det eller redigera e-postens ämnesrad
+   >* Om en knapp i kolumnen <strong>Aktiv</strong> är grå och inte nedtonad <img src="assets/email-notification-disabled-unlocked.png">, händelsemeddelandet är <strong>inaktiverat för alla användare och </strong> gruppadministratörer kan aktivera det för sina grupper.
+   >* Om en knapp i kolumnen <strong>Aktiv</strong> är blå och nedtonad <img src="assets/email-notification-enabled-locked.png">, händelsemeddelandet aktiveras för alla användare och gruppadministratörer kan inte inaktivera det eller redigera dess e-postämnesrad för sina grupper.
+   >* Om en knapp i kolumnen <strong>Aktiv</strong> är blå och inte nedtonad <img src="assets/email-notification-enabled-unlocked.png">, händelsemeddelandet är <strong>aktiverat för alla användare och</strong> gruppadministratörer kan inaktivera det för sina grupper.
 
 <!--
 This step (with substeps) is for functionality from a Sprint 3 2021 story that got put on hold. Also see the PDF on the story for some text earlier in the article that needs to be added. 

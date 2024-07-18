@@ -37,7 +37,7 @@ Följande tabell innehåller information om skillnaden mellan datum för impleme
   </tr> 
   <tr> 
    <td role="rowheader">Planerat slutförandedatum</td> 
-   <td> <p>Det planerade slutförandedatumet visas när projektägaren förväntar sig att aktiviteten eller utgåvan ska slutföras. Den kan antingen anges manuellt av projektägaren eller av vem som helst med behörigheten Hantera för uppgiften eller problemet, eller så kan den beräknas automatiskt av Adobe Workfront.</p> <p>Mer information om schemalagda slutförandedatum finns i <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över aktivitetens planerade slutförandedatum</a></p> </td> 
+   <td> <p>Det planerade slutförandedatumet visas när projektägaren förväntar sig att aktiviteten eller utgåvan ska slutföras. Den kan antingen anges manuellt av projektägaren eller av vem som helst med behörigheten Hantera för uppgiften eller problemet, eller så kan den beräknas automatiskt av Adobe Workfront.</p> <p>Mer information om planerade slutförandedatum finns i <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Översikt över den planerade slutförandedagen</a></p> </td> 
   </tr> 
  </tbody> 
 </table>

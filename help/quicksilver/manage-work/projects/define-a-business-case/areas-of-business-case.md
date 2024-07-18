@@ -6,9 +6,9 @@ description: I den här artikeln beskrivs områdena i affärsärendet för ett p
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -36,38 +36,38 @@ Följande är områden i ett projekts affärsmodell:
 
 ## Projektinformation
 
-The **Projektinformation** området i affärsärendet kan inte konfigureras av Workfront-administratören. Alla projekt har ett projektinformationsområde i affärsärendet. 
+Området **Projektinformation** i affärsärendet kan inte konfigureras av Workfront-administratören. Alla projekt har ett projektinformationsområde i affärsärendet. 
 
 Avsnittet Projektinformation i affärsärendet innehåller grundläggande information om ett projekt, innan projektet faktiskt har startats.
 
 Överväg att redigera följande fält:
 
-* **Beskrivning**: Ange en beskrivning av projektet.
+* **Beskrivning**: Ange en beskrivning för projektet.
 * **Projektägare**
 
-   Som standard är den användare som skapar projektet också projektägare. Du kan redigera det här fältet och ange att en annan aktiv användare är projektägare.
+  Som standard är den användare som skapar projektet också projektägare. Du kan redigera det här fältet och ange att en annan aktiv användare är projektägare.
 
-* **Projektsponsorer**
+* **Projektsponsor**
 
-   Överväg att lägga till någon annan än projektägaren som projektsponsor. Sponsorn får sitt godkännande av affärsärendet. 
+  Överväg att lägga till någon annan än projektägaren som projektsponsor. Sponsorn får sitt godkännande av affärsärendet. 
 
-* **Portfolio**: Ange Portfolio för projektet. Du måste skapa Portfolio och placera det i statusen **Aktiv** innan det är tillgängligt att välja i den här listrutan.
+* **Portfolio**: Ange ett Portfolio för projektet. Du måste skapa Portfolio och placera det med statusen **Aktiv** innan det är tillgängligt att välja i den här listrutan.
 
-   Mer information om portföljer finns i [Översikt över Portfolio i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Mer information om portföljer finns i [Översikt över Portfolio i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-   Mer information om hur du skapar Portfolio finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+  Mer information om hur du skapar Portfolio finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-* **Planerad förmån**: Beräkna vilken ekonomisk förmån som planeras för er organisation när projektet är klart. Det kan vara vilket valutabelopp som helst och måste vara ett positivt värde. Till exempel $10 000.
+* **Planerad förmån**: Uppskattar vilken ekonomisk förmån som planeras för din organisation när det här projektet har slutförts. Det kan vara vilket valutabelopp som helst och måste vara ett positivt värde. Till exempel $10 000.
 * **Status**: Som standard är status för en projektförfrågan inställd på **Idea**.
 
-   Om du ändrar status till något annat än Idea eller Planning visas **Skicka** försvinner från området Affärsärendesammanfattning och du kan inte längre skicka in affärsärendet för godkännande. 
+  Om du ändrar status till något annat än Idea eller Planning försvinner knappen **Skicka** från området Affärsärendesammanfattning och du kan inte längre skicka affärsärendet för godkännande. 
 
 * **Fast startdatum**: Ange ett datum då du vill att projektet ska starta.
 * **Fast slutdatum**: Ange ett datum då du vill att projektet ska avslutas.
 
-   >[!NOTE]
-   >
-   >Fasta start- och slutdatum i affärsärendet påverkar inte projektets planerade start- och slutdatum. Dessa representerar de datum som den som skapat projektet begär när projektet helst skulle utvecklas. I stället visas den planerade tidslinjen för projektet, som baseras på aktiviteterna i projektet, på projektets planerade start- och planeringsdatum.
+  >[!NOTE]
+  >
+  >Fasta start- och slutdatum i affärsärendet påverkar inte projektets planerade start- och slutdatum. Dessa representerar de datum som den som skapat projektet begär när projektet helst skulle utvecklas. I stället visas den planerade tidslinjen för projektet, som baseras på aktiviteterna i projektet, på projektets planerade start- och planeringsdatum.
 
 ## Mål
 
@@ -78,11 +78,12 @@ Mål definierar målen för projektet. Det här området är aktiverat som stand
 -->
 
 >[!TIP]
-Du kan skapa strategiska mål för din organisation som inte är kopplade till ett projekts enskilda affärsärende. Du måste ha tillgång till Adobe Workfront-mål för att kunna skapa strategiska mål. Sedan kan du koppla dem till projekt utanför deras affärsärenden. Mer information om hur du skapar mål med Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>
+>Du kan skapa strategiska mål för din organisation som inte är kopplade till ett projekts enskilda affärsärende. Du måste ha tillgång till Adobe Workfront-mål för att kunna skapa strategiska mål. Sedan kan du koppla dem till projekt utanför deras affärsärenden. Mer information om hur du skapar mål med hjälp av Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 Det är valfritt att definiera målen för projektet så att det får en poäng i Portfolio-optimering. Det här avsnittet är det enda valfria avsnittet i affärsärendet. Alla andra avsnitt av affärsärendet måste slutföras innan projektet kan hanteras i Portfolio Optimizer. Du kan ange en prioritetsnivå för ett mål när du skapar målet.
 
-Mer information om mål finns i  [Skapa mål för affärsärenden](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+Mer information om mål finns i  [Skapa affärsärenden](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Utgifter
 
@@ -95,9 +96,9 @@ Utgifter påverkar följande fält i projektet:
 * Budgeterad kostnad
 * Nettovärde
 
-Mer information om budgeterade kostnader och nettovärden finns i [Översikt över ekonomiska ärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Mer information om budgeterade kostnader och nettovärden finns i [Översikt över finansiella fält för affärsärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-Mer information om utgifter finns i  [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
+Mer information om utgifter finns i  [Hantera projektutgifter](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
 Din Workfront-administratör kan konfigurera anpassade utgiftstyper.
 
@@ -112,7 +113,7 @@ Du kan utföra följande åtgärder i området Resursbudgetering i affärsärend
 
 De timmar som har budgeterats för resurserna i projektet visas i området Resursbudgetering i affärsärendet och genererar projektets budgeterade arbetskostnad. Det här området i affärsärendet är aktiverat som standard.
 
-Mer information om budgeteringsresurser för projektet finns i affärsärendet. [Budgetresurser i affärsärendet](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Mer information om budgeteringsresurser för projektet i affärsärendet finns i [Budgetresurser i affärsärendet](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
@@ -122,28 +123,29 @@ Tänk på följande när du visar avsnittet Resursbudgetering i affärsärendet:
 
    * Resursplaneraren
 
-      Mer information finns i [Budgetresurser i affärsärendet med hjälp av resursplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     Mer information finns i [Budgetresurser i affärsärendet med hjälp av resursplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
    * Scenarioplaneraren, om ditt företag har köpt en ytterligare licens för Adobe Scenario Planner
 
-      Mer information finns i [Budgetresurser i affärsärendet med scenarioplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     Mer information finns i [Budgetresurser i affärsärendet med scenarioplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-      Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
 * Den information som visas här visas även i resursplaneraren på systemnivå eller i scenarioplaneraren. 
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
   -->
 
 * När du har budgeterat dina resurser visas projektets Budgeterade arbetskostnad i området Resursbudgetering om rollerna är kopplade till Kostnad per timme. Budgeterad arbetskostnad visas i projektets valuta.
 
-   >[!IMPORTANT]
-   Budgeterad arbetskostnad är kostnaden som är associerad med rollerna i projektet, inte med användarna. Summan av alla budgeterade arbetskostnader för användarna kan vara lika med eller inte vara lika med den budgeterade arbetskostnaden för den jobbroll som är associerad med användarna. 
+  >[!IMPORTANT]
+  >
+  >Budgeterad arbetskostnad är kostnaden som är associerad med rollerna i projektet, inte med användarna. Summan av alla budgeterade arbetskostnader för användarna kan vara lika med eller inte vara lika med den budgeterade arbetskostnaden för den jobbroll som är associerad med användarna. 
 
-   Mer information om Budgeterad arbetskostnad finns i [Översikt över ekonomiska ärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+  Mer information om budgeterad arbetskostnad finns i [Översikt över ekonomiska fält för affärsärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-   Mer information om hur du skapar jobbroller och associerar Kostnad per timme med dem finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Mer information om hur du skapar jobbroller och associerar Kostnad per timme med dem finns i [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## Risker
 
@@ -151,7 +153,7 @@ Risker är faktorer som kan förhindra att ett projekt slutförs i tid eller i b
 
 Du kan koppla en potentiell kostnad till de risker du definierar om de ska inträffa. Kostnaden för riskerna i ett projekt påverkar projektets nettovärde. 
 
-Mer information om projektets nettovärde finns i [Översikt över ekonomiska ärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Mer information om projektets nettovärde finns i [Översikt över finansiella fält för affärsärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
 Mer information om hur du skapar risker finns i  [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
@@ -163,9 +165,9 @@ Mer information om hur du skapar och redigerar anpassade risktyper finns i [Redi
 
 Styrkort mäter justeringen av projektet. Det här området är aktiverat som standard i affärsärendet, men Workfront-administratören kan välja att inte visa det.
 
-Mer information om hur du använder ett styrkort i ett projekt och genererar ett justeringsmoment finns i [Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Mer information om hur du använder ett styrkort i ett projekt och genererar ett justeringsmoment finns i [Använda ett styrkort i ett projekt och generera ett justeringsmoment](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Om du vill använda ett styrkort måste Workfront-administratören skapa ett. The **Styrkort** Området i affärsärendet visas inte om inte ett styrkort har skapats.
+Om du vill använda ett styrkort måste Workfront-administratören skapa ett. Området **Styrkort** i affärsärendet visas inte om inte ett styrkort har skapats.
 
 Mer information om hur du skapar ett styrkort finns i  [Skapa ett styrkort](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -177,15 +179,15 @@ Mer information om hur du aktiverar områden i affärsärendet finns i [Konfigur
 
 Om du vill använda ett anpassat formulär måste Workfront-administratören först skapa ett anpassat formulär.
 
-Mer information om hur du skapar ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) .
+Mer information om hur du skapar ett anpassat formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 Du kan använda anpassade formulär för att samla in ytterligare information som inte visas i andra fält i affärsärendet.
 
-Mer information om hur du använder ett anpassat formulär finns i [Bifoga ett anpassat formulär till ett affärsärende](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
+Mer information om hur du använder ett anpassat formulär finns i [Koppla ett anpassat formulär till ett affärsärende](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
 
 ## Översikt över affärsärenden
 
-* [Översikt över ärendesammanfattningen](#overview-of-the-business-case-summary)
+* [Översikt över affärsärendesammanfattning](#overview-of-the-business-case-summary)
 * [Exportera affärsärendet](#export-the-business-case)
 
 ### Översikt över ärendesammanfattningen {#overview-of-the-business-case-summary}
@@ -203,7 +205,7 @@ Följande fält visas i Översikt över affärsärenden:
 * Planerad förmån
 * Justeringspoäng
 
-Mer information om dessa fält finns i [Översikt över ekonomiska ärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Mer information om de här fälten finns i [Översikt över ekonomiska fält för affärsärenden](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
 ### Exportera affärsärendet {#export-the-business-case}
 
@@ -213,7 +215,7 @@ Mer information om dessa fält finns i [Översikt över ekonomiska ärenden](../
 
 Du kan exportera affärsärendet till en PDF-fil om du behöver skriva ut den eller bifoga den till ett e-postmeddelande i ett mer komprimerat format. 
 
-Mer information finns i [Exportera affärsfallet för ett projekt](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Mer information finns i [Exportera affärsärendet för ett projekt](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -233,4 +235,4 @@ Mer information finns i [Exportera affärsfallet för ett projekt](../../../mana
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted and will replace the info above, when the standalone arrticle is live >> Becky!)</p>
 -->
 </div>
---&gt;
+—&gt;

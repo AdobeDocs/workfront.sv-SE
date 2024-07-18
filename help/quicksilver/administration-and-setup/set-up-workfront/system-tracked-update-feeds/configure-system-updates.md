@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Konfigurera systemuppdateringar
-description: Workfront genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates] för att registrera ändringar som användare utför på objektet. Som en [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
+description: Workfront genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates]-område för att registrera de ändringar som användare utför på objektet. Som  [!DNL Workfront] administratör kan du konfigurera vilka objektfält och åtgärder  [!DNL Workfront] spårar som ska registrera systemuppdateringar.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 0%
 
 ---
 
 # Konfigurera systemuppdateringar
 
-[!DNL Adobe Workfront] genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates] område där följande händelser ska registreras:
+[!DNL Adobe Workfront] genererar automatiska systemuppdateringar i ett objekts [!UICONTROL Updates]-område för att registrera följande händelser:
 
 * Ändringar som användare gör i ett objektfält
 * Åtgärder som användare utför på ett objekt
@@ -30,9 +30,9 @@ Dessa systemuppdateringar innehåller följande typ av information:
 
 Mer information om systemuppdateringar finns i [Systemspårade uppdateringar](../system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-Som en [!DNL Workfront] administratör, du kan konfigurera vilka objektfält och åtgärder [!DNL Workfront] spår för att registrera systemuppdateringar.
+Som [!DNL Workfront]-administratör kan du konfigurera vilka objektfält och åtgärder [!DNL Workfront] spårar för att registrera systemuppdateringar.
 
-Du kan till exempel ha [!DNL Workfront] spåra alla ändringar som användare gör i namn på problem i hela systemet. Alla ändringar av problemets namn visas sedan som en systemuppdatering av problemets [!UICONTROL Updates] område.
+Du kan till exempel låta [!DNL Workfront] spåra alla ändringar som användare gör i namn på problem i hela systemet. Alla ändringar av problemnamn visas sedan som en systemuppdatering i problemområdet [!UICONTROL Updates].
 
 ## Åtkomstkrav
 
@@ -52,14 +52,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ange vilka fält [!DNL Workfront] spår för en objekttyp
+## Identifiera vilka fält [!DNL Workfront] spår för en objekttyp
 
-Du kan avgöra vilken information [!DNL Workfront] spårar när användare ändrar information som är kopplad till en viss objekttyp i hela [!DNL Workfront] gränssnitt. Det gör du genom att lägga till eller ta bort de fält du vill använda [!DNL Workfront] för att spåra för den objekttypen.
+Du kan bestämma vilken information [!DNL Workfront] spårar när användare ändrar information som är kopplad till en viss objekttyp i hela [!DNL Workfront] -gränssnittet. Det gör du genom att lägga till eller ta bort de fält som du vill att [!DNL Workfront] ska spåra för den objekttypen.
 
 >[!NOTE]
 >
@@ -69,58 +69,58 @@ Du kan avgöra vilken information [!DNL Workfront] spårar när användare ändr
 
 
 
-* [Lägg till fält som du vill ha [!DNL Workfront] för att spåra](#add-fields-you-want-workfront-to-track)
+* [Lägg till fält som du vill att [!DNL Workfront] ska spåra](#add-fields-you-want-workfront-to-track)
 * [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked)
 
-### Lägg till fält som du vill ha [!DNL Workfront] för att spåra {#add-fields-you-want-workfront-to-track}
+### Lägg till fält som [!DNL Workfront] ska spåra {#add-fields-you-want-workfront-to-track}
 
-Du kan lägga till fält [!DNL Workfront] för att spåra en viss typ av objekt i hela [!DNL Workfront] gränssnitt. När användare ändrar information i det fältet, [!DNL Workfront] registrerar information om ändringen som en systemuppdatering i [!UICONTROL Updates] området för objektet.
+Du kan lägga till fält som du vill att [!DNL Workfront] ska spåra för en viss typ av objekt i [!DNL Workfront]-gränssnittet. När användare ändrar information i det fältet registrerar [!DNL Workfront] information om ändringen som en systemuppdatering i [!UICONTROL Updates] -området för objektet.
 
 >[!NOTE]
 >
->Du kan spåra upp till 300 inbyggda och anpassade fält i uppdateringsflödena. Om du spårar det maximala antalet fält och vill spåra fler fält som inte visas i [!UICONTROL All Fields] Under fliken måste du först ta bort några av de spårade fälten för att kunna spåra nya fält. Mer information om hur du tar bort fält från uppdateringsfälten finns i [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked).
+>Du kan spåra upp till 300 inbyggda och anpassade fält i uppdateringsflödena. Om du spårar det maximala antalet fält och vill spåra fler fält som inte visas på underfliken [!UICONTROL All Fields] måste du först ta bort några av de spårade fälten för att kunna spåra nya fält. Mer information om hur du tar bort fält från uppdateringsfälten finns i [Ta bort fält som du inte vill spåra](#remove-fields-that-you-don-t-want-tracked).
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
+1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]** i panelen till vänster.
 
-1. &#x200B; **[!UICONTROL Add Fields]** klickar du sedan på det objekt som du vill spåra.
+1. &#x200B; klicka på **[!UICONTROL Add Fields]** och klicka sedan på det objekt som du vill spåra.
 
-1. I &#x200B; **[!UICONTROL Update Feeds]** som visas börjar du skriva ett inbyggt fält (standard) eller ett anpassat fält för objektet och klickar sedan för att markera det när det visas i listan.
+1. I rutan &#x200B; **[!UICONTROL Update Feeds]** som visas börjar du skriva ett inbyggt (standard) fält eller ett anpassat fält för objektet och klickar sedan för att markera det när det visas i listan.
 
-   If [!DNL Workfront] spårar redan fältet, du kan inte lägga till det en andra gång från listan.
+   Om [!DNL Workfront] redan spårar fältet kan du inte lägga till det en andra gång från listan.
 
-1. När du har lagt till alla fält du vill använda [!DNL Workfront] för att spåra, klicka **[!UICONTROL Add Fields]**.
+1. När du har lagt till alla fält som du vill att [!DNL Workfront] ska spåra klickar du på **[!UICONTROL Add Fields]**.
 
-   De inbyggda fälten som du har lagt till visas under **[!UICONTROL Built-in Fields]** underflik.
+   De inbyggda fälten som du har lagt till visas under underfliken **[!UICONTROL Built-in Fields]**.
 
-   De anpassade fält som du har lagt till visas under **[!UICONTROL Custom Fields]** underflik.
+   De anpassade fält som du har lagt till visas under underfliken **[!UICONTROL Custom Fields]**.
 
-   The **[!UICONTROL All Fields]** på en underflik visas både inbyggda och anpassade fält som spåras.
+   Underfliken **[!UICONTROL All Fields]** visar både inbyggda och anpassade fält som spåras.
 
 ### Ta bort fält som du inte vill spåra {#remove-fields-that-you-don-t-want-tracked}
 
-Du kan ta bort fält som du inte vill att systemet ska spåra för en viss typ av objekt genom hela [!DNL Workfront] gränssnitt.
+Du kan ta bort fält som du inte vill att systemet ska spåra för en viss typ av objekt genom [!DNL Workfront]-gränssnittet.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 
-1. På **[!UICONTROL Tracked Fields]** väljer du **[!UICONTROL All Fields]** underflik.
+1. På fliken **[!UICONTROL Tracked Fields]** väljer du underfliken **[!UICONTROL All Fields]**.
 
    Detta visar både inbyggda och anpassade fält som spåras.
 
-1. Markera det fält som du vill sluta spåra och klicka sedan på **[!UICONTROL Remove]**.
+1. Markera det fält som du vill stoppa spårningen för och klicka sedan på **[!UICONTROL Remove]**.
 
-1. I **[!UICONTROL Remove Field]** visas klickar du på **[!UICONTROL Yes, Remove It]** för att bekräfta.
+1. Bekräfta genom att klicka på **[!UICONTROL Yes, Remove It]** i rutan **[!UICONTROL Remove Field]** som visas.
 
-Uppdateringar om tidigare spårade fält bevaras i [!UICONTROL Updates] det område där de registrerades.
+Uppdateringar om tidigare spårade fält bevaras i området [!UICONTROL Updates] där de spelades in.
 
-## Bestäm vilka åtgärder som ska utföras [!DNL Workfront] spår för en objekttyp
+## Bestäm vilka åtgärder [!DNL Workfront] spårar för en objekttyp
 
-Du kan ha [!DNL Workfront] spåra följande åtgärder som användare kan utföra på objekt i hela [!DNL Workfront] gränssnitt.
+Du kan låta [!DNL Workfront] spåra följande åtgärder som användare kan utföra på objekt i gränssnittet för [!DNL Workfront].
 
-Du kan till exempel ha [!DNL Workfront] spela in en uppdatering varje gång en användare ändrar ett uppdrag till en uppgift eller ett problem. Ändringen visas sedan som en systemuppdatering i [!UICONTROL Updates] området för uppgiften eller utgåvan.
+Du kan till exempel låta [!DNL Workfront] spela in en uppdatering varje gång en användare ändrar en tilldelning till en aktivitet eller ett problem. Ändringen visas sedan som en systemuppdatering i området [!UICONTROL Updates] för uppgiften eller problemet.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -187,15 +187,15 @@ Du kan till exempel ha [!DNL Workfront] spela in en uppdatering varje gång en a
  </tbody> 
 </table>
 
-Konfigurera vilka åtgärder du vill utföra [!DNL Workfront] för att spåra:
+Så här konfigurerar du vilka åtgärder du vill att [!DNL Workfront] ska spåra:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Update Feeds]**.
 
-1. Klicka på **[!UICONTROL Actions]** -fliken.
+1. Klicka på fliken **[!UICONTROL Actions]**.
 
 1. Markera en åtgärd för att aktivera den eller avmarkera en åtgärd för att inaktivera den.
 1. Klicka på **[!UICONTROL Save]**.
 
-När du inaktiverar en åtgärd behålls alla tidigare inspelade uppdateringar om den åtgärden i [!UICONTROL Updates] det område där det registrerades.
+När du inaktiverar en åtgärd behålls alla tidigare inspelade uppdateringar om den åtgärden i området [!UICONTROL Updates] där den spelades in.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Mobile med version 2020.1.
 
-En lista över alla ändringar som är tillgängliga i version 2020.1 finns på [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2020.1 versionsöversikt](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Smidig upplevelse mellan mobilappen och webben
 

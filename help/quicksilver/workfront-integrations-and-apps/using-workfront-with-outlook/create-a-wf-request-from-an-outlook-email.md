@@ -1,27 +1,27 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
-title: Skapa en [!DNL Adobe Workfront] förfrågan från ett Outlook-e-postmeddelande
-description: Du kan skapa en [!DNL Adobe Workfront] förfrågan från ett e-postmeddelande i Outlook.
+title: Skapa en [!DNL Adobe Workfront] begäran från ett Outlook-e-postmeddelande
+description: Du kan skapa en [!DNL Adobe Workfront] begäran från ett e-postmeddelande i Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
-# Skapa en [!DNL Adobe Workfront] begäran från en [!UICONTROL Outlook] e-post
+# Skapa en [!DNL Adobe Workfront]-förfrågan från ett [!UICONTROL Outlook]-e-postmeddelande
 
-Du kan skapa en [!DNL Adobe Workfront] förfrågan från ett e-postmeddelande i Outlook.
+Du kan skapa en [!DNL Adobe Workfront]-begäran från ett e-postmeddelande i Outlook.
 
-När du skapar en [!DNL Workfront] begäran som baseras på ett e-postmeddelande, inkluderas innehållet i e-postmeddelandet (inklusive ämnet och brödtexten) som standard i begäran.
+När du skapar en [!DNL Workfront]-begäran baserat på ett e-postmeddelande inkluderas innehållet i e-postmeddelandet (inklusive ämnet och brödtexten) som standard i begäran.
 
 >[!NOTE]
 >
->Du kan inte skapa en [!DNL Workfront] begäran från en delad [!UICONTROL Outlook] postlåda.
+>Du kan inte skapa en [!DNL Workfront]-begäran från en delad [!UICONTROL Outlook]-postlåda.
 
 ## Åtkomstkrav
 
@@ -42,36 +42,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] med [!DNL Workfront] innan du kan använda den här integreringen.
+[!DNL Workfront]-administratören måste aktivera [!DNL Outlook for Office] med [!DNL Workfront] innan du kan använda den här integreringen.
 
-## Skapa en begäran från en [!DNL Outlook] e-post
+## Skapa en begäran från ett [!DNL Outlook]-e-postmeddelande
 
-Skapa en [!DNL Workfront] Begär från [!DNL Outlook]:
+Så här skapar du en [!DNL Workfront]-begäran från [!DNL Outlook]:
 
-1. Markera det e-postmeddelande som innehåller den information du vill inkludera i en [!DNL Workfront] begäran.
-1. Klicka på **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
-   Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt [!DNL Workfront] ikon.
+1. Markera det e-postmeddelande som innehåller den information som du vill inkludera i en [!DNL Workfront]-begäran.
+1. Klicka på ikonen **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
+   Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt ikonen [!DNL Workfront].
 
-1. Klicka på **[!UICONTROL Menu]** icon ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan över tillgängliga [!DNL Workfront] alternativ.
+1. Klicka på ikonen **[!UICONTROL Menu]** ![ o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan med tillgängliga [!DNL Workfront]-alternativ.
 
 1. Klicka på **[!UICONTROL Submit Request]**.
-1. I **[!UICONTROL Select a Request Type]** markerar du den begärandekö där du vill skicka begäran.
+1. I fältet **[!UICONTROL Select a Request Type]** väljer du den begärandekö där du vill skicka begäran.
 
 1. Ange följande information:\
-   Beroende på hur frågekö konfigurerades kan tillgängliga fält variera. En fullständig lista och en beskrivning av möjliga fält finns på [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../manage-work/requests/create-requests/create-submit-requests.md) artikel.
+   Beroende på hur frågekö konfigurerades kan tillgängliga fält variera. En fullständig lista och en beskrivning av möjliga fält finns i artikeln [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../manage-work/requests/create-requests/create-submit-requests.md) .
 
    * **[!UICONTROL Subject]:** Ange ett ämne för begäran. Som standard används e-postmeddelandets ämne.
    * **[!UICONTROL Description]:** Ange en beskrivning för begäran. Som standard används e-postbrödtexten.
-   * **[!UICONTROL Documents]:** Bifoga alla dokument som du vill inkludera i begäran. Du kan bifoga dokument genom att dra och släppa eller genom att klicka **[!UICONTROL Select File]** och bläddra till och markera dokumentet.\
+   * **[!UICONTROL Documents]:** Bifoga alla dokument som du vill inkludera i begäran. Du kan bifoga dokument genom att dra och släppa eller genom att klicka på **[!UICONTROL Select File]** och bläddra till och markera dokumentet.\
 
-      Som standard inkluderas alla dokument som är bifogade till e-postmeddelandet i begäran.
+     Som standard inkluderas alla dokument som är bifogade till e-postmeddelandet i begäran.
 
 1. Klicka på **[!UICONTROL Submit Request]**.\
-   Begäran skickas till [!DNL Workfront], i den angivna begärandekön.
+   Begäran skickas till [!DNL Workfront] i den angivna begärandekön.
 
-1. (Valfritt) Navigera tillbaka till [!DNL Outlook]och välj det ursprungliga e-postmeddelandet.\
-   Överst på [!DNL Workfront] lägg till en länk till bekräftelsen om att e-postmeddelandet har lagts till i Workfront som en begäran. Länken innehåller datumet då den konverterades.\
+1. (Valfritt) Navigera tillbaka till [!DNL Outlook] och markera det ursprungliga e-postmeddelandet.\
+   Längst upp på tilläggspanelen [!DNL Workfront] kan du se bekräftelsen med en länk att e-postmeddelandet har lagts till i Workfront som en begäran. Länken innehåller datumet då den konverterades.\

@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge'
-description: '''Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge'
+title: 'Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge'
+description: 'Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge'
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
@@ -32,7 +32,6 @@ Du kan ange om resultatet i en gruppering ska visas komprimerat eller expanderat
 >* Resultatet av en gruppering visas alltid expanderat när du har öppnat dem från ett diagramelement.
 >
 
-
 Du kan också ange om en gruppering ska visas expanderad eller komprimerad i textläge.
 
 ## Åtkomstkrav
@@ -56,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -70,7 +69,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge
 
 1. Gå till en lista med objekt.
-1. Från **Gruppering** nedrullningsbar meny, välja **Ny gruppering**.
+1. Välj **Ny gruppering** i listrutan **Gruppering**.
 
 1. Lägg till en gruppering och klicka på **Växla till textläge**.
 
@@ -88,4 +87,4 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    group.0.iscollapsed=false
    ```
 
-1. Klicka **Klar** sedan **Spara gruppering**.
+1. Klicka på **Klar** och sedan på **Spara gruppering**.

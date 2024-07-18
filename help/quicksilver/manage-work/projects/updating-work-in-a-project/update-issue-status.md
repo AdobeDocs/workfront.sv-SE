@@ -86,8 +86,8 @@ Du kan uppdatera problemstatusen i följande områden i Workfront:
 Så här uppdaterar du utgivningsstatusen manuellt i utgivningsrubriken:
 
 1. Gå till ett problem som du vill uppdatera statusen för.
-1. Klicka på **Status** i utgivningsrubriken och välj en ny status.
-1. Dra eller dubbelklicka på bubblan under för att få en visuell indikation på att problemet har åtgärdats **Procent färdigt** i utgåvans rubrik
+1. Klicka på fältet **Status** i utgåvhuvudet och välj en ny status.
+1. Dra eller dubbelklicka på bubblan under **Procent färdigt** i felets huvud för att få en visuell indikation på att problemet har åtgärdats
 
    eller
 
@@ -97,12 +97,12 @@ Så här uppdaterar du utgivningsstatusen manuellt i utgivningsrubriken:
 
 1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen:
 
-   * Om du vill lägga till en anteckning om uppdateringen går du till **Uppdateringar** och klicka **Ny kommentar** och skriv sedan en anteckning.
+   * Om du vill lägga till en anteckning om uppdateringen går du till avsnittet **Uppdateringar** och klickar på **Ny kommentar**. Skriv sedan en anteckning.
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i **Tagga personer eller team** fält som visas när du skriver en kommentar. Mer information finns i [Tagga andra för uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Om du vill uppdatera datumet för implementeringen av felet klickar du på **Ärendeinformation** och sedan redigera **Bekräftelsedatum** fält. Mer information finns i [Redigera problem](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i fältet **Tagga personer eller team** som visas när du skriver en kommentar. Mer information finns i [Tagga andra om uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om du vill uppdatera datumet för implementeringen av felet klickar du på **Utfärdandeinformation** och redigerar sedan fältet **Bekräfta datum**. Mer information finns i [Redigera problem](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
 
 
    >[!IMPORTANT]
@@ -161,12 +161,12 @@ Workfront uppdaterar automatiskt status för en utgåva till en annan status nä
   <tr> 
    <td>Uppdatera statusen för ett objekt som är kopplat till problemet</td> 
    <td>Olika statusar</td> 
-   <td> <p>Olika statusar</p> <p>Mer information om hur du löser objekt och hur de påverkar status för problem finns i avsnittet Synkronisera status för det lösta objektet med statusen för det lösta objektet i artikeln <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> </td> 
+   <td> <p>Olika statusar</p> <p>Information om hur du löser objekt och hur de påverkar status för problem finns i avsnittet Synkronisera status för det lösta objektet med statusen för det lösta objektet i artikeln <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span>Klicka på knappen Starta problem för att godkänna att du arbetar med ett problem som du har tilldelats</span> </td> 
    <td><span>Nytt</span> </td> 
-   <td> <p>Status som är associerad med knappen Starta problem i inställningarna för ditt hemteam. </p> <p>Mer information om hur du ersätter knappen Work On It (Arbeta på den) med knappen Start Issue (Starta problem) finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a></span><span>.</span> </p> <p>Tips: Klicka <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">knappen Ångra</span> när du klickat på Starta problem återställs statusen till Nytt. </p> </td> 
+   <td> <p>Status som är associerad med knappen Starta problem i inställningarna för ditt hemteam. </p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Starta problem finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätt knappen Arbeta på den med knappen Start</a></span><span>.</span> </p> <p>Tips! Om du klickar på <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ångra-knappen</span> efter att du har klickat på Starta problem återställs statusen till Nytt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

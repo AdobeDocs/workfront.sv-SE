@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -62,16 +62,16 @@ Du måste ha följande:
 
 ## Associera resurspooler med en användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Användare**.
+1. Klicka på **Användare**.
 1. Markera rutan bredvid namnet på en användare i listan och klicka sedan på **Redigera**.
-1. Klicka **Resursplanering**.
-1. Börja skriva namnet på en resurspool som du vill associera med användaren i **Resurspooler** markerar du den i listan när den visas.\
+1. Klicka på **Resursplanering**.
+1. Börja skriva namnet på en resurspool som du vill associera med användaren i fältet **Resurspooler** och markera den sedan i listan när den visas.\
    Du kan associera flera resurspooler med en användare.\
    ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
 Mer information om hur du redigerar användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -83,18 +83,18 @@ Du kan redigera flera användare samtidigt och associera samma resurspooler med 
 
 Så här associerar du resurspooler med flera användare samtidigt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Användare**.
+1. Klicka på **Användare**.
 1. Markera flera användare i listan och klicka på **Redigera**.
-1. Klicka **Resursplanering**.
-1. Börja skriva namnet på en resurspool som du vill associera med användarna i **Resurspooler** markerar du den i listan när den visas.\
+1. Klicka på **Resursplanering**.
+1. Börja skriva namnet på en resurspool som du vill associera med användarna i fältet **Resurspooler** och markera den sedan i listan när den visas.\
    Du kan associera flera resurspooler med flera användare.
 
    >[!NOTE]
    >
    >Endast de resurspooler som är gemensamma för alla markerade användare visas i det här fältet. Om de valda användarna inte har några delade resurspooler är det här fältet tomt. Om det här fältet är tomt skrivs de resurspooler som du anger här över sina enskilda resurspooler.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
-Mer information om hur du redigerar flera användare samtidigt finns i [Redigera användarprofiler gruppvis](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
+Mer information om hur du redigerar flera användare samtidigt finns i [Redigera flera användarprofiler](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).

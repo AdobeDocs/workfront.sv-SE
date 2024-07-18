@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21. 2 Förbättrade rapporter
 
-Den här sidan beskriver alla rapportförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla rapportförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Begränsa timredigering i projekt och rapporter
 
@@ -62,7 +62,7 @@ För att matcha det moderna utseendet i andra områden i den nya Workfront-upple
 * När du klickar på ett texthuvudsfält visas nu förslagsmenyn innan du anger text.
 * Menyn med förslag är mer responsiv med värdenas längd och dessa värden trunkeras nu i slutet när teckengränsen nås i stället för i mitten av värdet.
 
-Information om uppdaterade listor finns i [Skillnaden mellan de uppdaterade och de äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Mer information om uppdaterade listor finns i avsnittet [Skillnaden mellan de uppdaterade och äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)
 

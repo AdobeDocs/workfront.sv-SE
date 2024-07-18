@@ -33,11 +33,11 @@ Du kan ta bort initiativ för en plan som du har skapat eller för en plan som n
   </tr> 
   <tr> 
    <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln. </p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!UICONTROL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!UICONTROL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
@@ -51,15 +51,15 @@ Du kan ta bort initiativ för en plan som du har skapat eller för en plan som n
 Tänk på följande när du tar bort initiativ:
 
 * När du tar bort ett initiativ tas mängden jobbroller och den kostnadsinformation som är kopplad till initiativet bort från planen.
-* Om du tar bort ett projekt som har skapats genom att ett projekt importeras, tas inte det projekt som är kopplat till initiativet bort.
+* Om du tar bort ett initiativ som skapats genom att ett projekt importeras, tas inte det projekt som är kopplat till initiativet bort.
 * Borttagning av ett projekt som har publicerats till ett projekt minst en gång ger följande resultat:
 
-   * Initiativet tas bort från scenariot men [!DNL Scenario Planner] finns kvar i [!UICONTROL Project Details] -avsnitt.
+   * Initiativet tas bort från scenariot, men området [!DNL Scenario Planner] finns kvar i avsnittet [!UICONTROL Project Details].
    * Om det initiativ du tar bort är det enda publicerade initiativet i scenariot, tas även indikatorn för att planen har publicerats bort.
 
-      Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+     Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom publicering i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-      Mer information om hur du skapar initiativ genom att importera projekt finns i [Importera projekt till planer i [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
+     Mer information om hur du skapar initiativ genom att importera projekt finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
 
 Du kan ta bort ett initiativ åt gången eller ta bort flera initiativ samtidigt.
 
@@ -68,7 +68,7 @@ Du kan ta bort ett initiativ åt gången eller ta bort flera initiativ samtidigt
 
 ### Ta bort ett initiativ {#delete-one-initiative}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
    En lista över planer visas.
 
@@ -77,23 +77,23 @@ Du kan ta bort ett initiativ åt gången eller ta bort flera initiativ samtidigt
 
    * Klicka på **[!UICONTROL More menu]** ![](assets/more-menu.png) till höger om företagsnamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
-   * Markera rutan till vänster om initiativet och klicka sedan på **[!UICONTROL Delete]** på den flytande meny som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete it]**.
+   * Markera rutan till vänster om initiativet, klicka sedan på **[!UICONTROL Delete]** på den flytande menyn som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete it]**.
 
    Initiativet, dess befattning och kostnadsinformation tas bort från planen.
 
-1. Klicka **[!UICONTROL Save Plan]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Save Plan]** om du vill spara ändringarna.
 
 ### Ta bort satsningar {#delete-initiatives-in-bulk}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
    En lista över planer visas.
 
 1. Klicka på namnet på en plan för att öppna den och leta sedan reda på det initiativ du vill ta bort.
-1. Markera rutorna till vänster om de initiativ du vill ta bort och klicka sedan på **[!UICONTROL Delete]** på den meny som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete them]**.
+1. Markera rutorna till vänster om de initiativ som du vill ta bort, klicka sedan på **[!UICONTROL Delete]** på menyn som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete them]**.
 
    ![](assets/bottom-manage-initiative-menu-350x45.png)
 
    Initiativen och deras jobbroll och kostnadsinformation tas bort från planen.
 
-1. Klicka **[!UICONTROL Save Plan]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Save Plan]** om du vill spara ändringarna.

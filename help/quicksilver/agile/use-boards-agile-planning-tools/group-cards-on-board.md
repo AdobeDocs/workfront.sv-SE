@@ -20,7 +20,7 @@ Du kan gruppera kort på en anslagstavla per tilldelad eller tagg. När du välj
 
 >[!NOTE]
 >
->Eventuella kort i inloppskolumnen ingår inte i en grupp och inloppskolumnen döljs när en grupp används. Information om intagskolumnen finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Eventuella kort i inloppskolumnen ingår inte i en grupp och inloppskolumnen döljs när en grupp används. Mer information om intagskolumnen finns i [Lägga till en intag-kolumn på en bräda](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Åtkomstkrav
 
@@ -43,19 +43,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Gruppera kort ombord
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Group]** för att öppna grupppanelen till vänster om ritytan.
+1. Klicka på **[!UICONTROL Group]** för att öppna grupppanelen till vänster om ritytan.
 
    >[!NOTE]
    >
    >Standardinställningen att gruppera efter är **[!UICONTROL None]**. Du kan när som helst markera det här alternativet om du vill ta bort en grupp och bara visa kolumnerna på ritytan.
 
-1. Välj om du vill gruppera korten **[!UICONTROL Assignees]** eller **[!UICONTROL Tags]**.
+1. Om du vill gruppera korten väljer du **[!UICONTROL Assignees]** eller **[!UICONTROL Tags]**.
 
    Korten grupperas automatiskt. Klicka på pilen bredvid gruppnamnet för att komprimera och expandera gruppen.
 
@@ -68,4 +68,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![[!UICONTROL Group by options]](assets/group-by-rail.png)
 
-1. Klicka **[!UICONTROL Hide groups]** om du vill dölja grupppanelen och visa hela gruppen.
+1. Klicka på **[!UICONTROL Hide groups]** om du vill dölja grupppanelen och visa hela gruppen.

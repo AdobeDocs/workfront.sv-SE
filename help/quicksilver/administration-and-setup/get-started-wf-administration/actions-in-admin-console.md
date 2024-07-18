@@ -31,7 +31,7 @@ Om din organisation har anslutit sig till Adobe Business Platform använder dina
 >
 >Vi rekommenderar att du lägger till användare som inte är systemadministratörer direkt i Workfront. Det går att lägga till användare i Adobe Admin Console, men om du lägger till dem i Workfront kan du ange åtkomstnivå när du skapar dem, vilket sparar tid.
 
-Instruktioner om hur du skapar systemadministratörer för Workfront finns i [Hantera systemadministratörer i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Mer information om hur du skapar systemadministratörer för Workfront finns i [Hantera systemadministratörer i Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Instruktioner om hur du skapar systemadministratörer för Workfront finns i [Ha
 
 ## Förnya SAML-certifikatet
 
-Anvisningar om hur du förnyar SAML-certifikatet på Adobe Admin Console finns i avsnittet&quot;Den digitala signaturen i SAML-svaret validerades inte...&quot; i [Federated ID Felsökning](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+Instruktioner om hur du förnyar SAML-certifikatet på Adobe Admin Console finns i avsnittet&quot;Den digitala signaturen i SAML-svaret validerades inte..&quot; i Federated ID [Felsökning](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html).
 
 <!--
 
@@ -188,7 +188,7 @@ Eftersom Adobe Business Platform styr enkel inloggning (SSO) för användare han
 * [Konfigurera Adobe Workfront med SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 * [Konfigurera Adobe Workfront med SAML 2.0 med ADFS](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Inaktivera enkel inloggning i Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)
-* [Uppdatera SAML 2.0-metadata hos identitetsleverantören](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [Uppdatera SAML 2.0-metadata i identitetsleverantören](../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [Uppdatera användare för enkel inloggning](../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [Konfigurera lösenordsprinciper för autentisering](../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Konfigurera säkerhetsinställningar för system](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [Konfigurera systemsäkerhetsinställningar](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)

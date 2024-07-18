@@ -24,7 +24,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -33,7 +33,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-När du skapar ett mål har målet statusen Utkast. Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+När du skapar ett mål har målet statusen Utkast. Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 Om du vill börja spela in ett måls förlopp måste du aktivera det. Om du vill aktivera ditt mål och ändra dess status till Aktiv måste du först lägga till följande i det:
 
@@ -47,9 +47,9 @@ När minst ett av dessa objekt har lagts till kan du aktivera målet. Du måste 
 
 >[!IMPORTANT]
 >
-> Ett mål får inte innehålla mer än totalt 1 000 aktiviteter, resultat, projekt eller anpassade mål.</span>
+> Ett mål får inte innehålla mer än totalt 1 000 aktiviteter, resultat, projekt eller justerade mål.</span>
 
-I den här artikeln finns en översikt över aktiviteter och resultat. Mer information om hur du justerar mål finns i [Måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/goal-alignment.md). Mer information om hur du kopplar projekt till mål finns i [Lägg till projekt i mål i Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+I den här artikeln finns en översikt över aktiviteter och resultat. Mer information om att justera mål finns i [Måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/goal-alignment.md). Mer information om att ansluta projekt till mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Resultatöversikt
 
@@ -59,7 +59,7 @@ I den här artikeln finns en översikt över aktiviteter och resultat. Mer infor
 
 Resultaten mäter hur långt du kommit med ditt mål eller hur nära du uppnår det. Som målägare kan du även äga resultatet. Ett resultat för ditt mål kan även tilldelas en annan användare.
 
-Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 Du kan lägga till resultat till dina egna mål eller mål som tillhör andra enheter i organisationen.
 
@@ -86,7 +86,7 @@ This will have additional types in the future - add another section for types?
 
 Aktiviteter, som resultat, är specifika och mätbara och innehåller vanligen en procentsiffra för slutförande. Som målägare kan du även äga aktiviteter som är kopplade till målet. En aktivitet på ditt mål kan även tilldelas en annan användare.
 
-Mer information om hur du lägger till aktiviteter i mål finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Mer information om hur du lägger till aktiviteter i mål finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 Tänk på följande när du associerar aktiviteter med dina mål:
 
@@ -121,9 +121,9 @@ Mer information om resultat och aktiviteter finns i listan över likheter mellan
 
 Resultat, aktiviteter och projekt är indikatorer för målframsteg.
 
-Det finns vissa skillnader i hur du hanterar projekt jämfört med hur du hanterar resultat och aktiviteter. Mer information om hur du lägger till projekt i mål finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Mer information om projekt som är kopplade till mål finns i [Lägg till projekt i mål i Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Det finns vissa skillnader i hur du hanterar projekt jämfört med hur du hanterar resultat och aktiviteter. Mer information om hur du lägger till projekt i mål finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Mer information om projekt som är kopplade till mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Förutom resultat, aktiviteter och projekt kan du även koppla underordnade mål till ett mål. Underordnade mål är också en typ av förloppsindikator för ett mål. Mer information finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../goal-alignment/align-goals-by-connecting-them.md). Förloppet för det underordnade målets förloppsindikatorer driver också förloppet för det överordnade målet.
+Förutom resultat, aktiviteter och projekt kan du även koppla underordnade mål till ett mål. Underordnade mål är också en typ av förloppsindikator för ett mål. Mer information finns i [Justera mål genom att ansluta dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md). Förloppet för det underordnade målets förloppsindikatorer driver också förloppet för det överordnade målet.
 
 I följande tabell visas likheter och skillnader mellan resultat, aktiviteter och projekt som målindikatorer:
 

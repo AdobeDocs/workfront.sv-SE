@@ -91,7 +91,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 
@@ -111,7 +111,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 
    Då öppnas posttypssidan.
 
-1. Håll markören över den vy du vill dela på fliken Visa och klicka på **Mer** meny ![](assets/more-menu.png) till höger om vynamnet och klicka sedan på **Dela**.
+1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -119,10 +119,10 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 
 1. (Valfritt) Välj bland följande alternativ för att dela vyn:
 
-   * **Endast inbjudna personer har åtkomst**: Du måste ange användare eller grupper som du vill dela vyn med. Det här är standardalternativet.
+   * **Endast inbjudna personer har åtkomst till**: Du måste ange användare eller grupper som du vill dela vyn med. Det här är standardalternativet.
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
-1. I **Ge vy åtkomst till** börjar du skriva namnet på en användare eller grupp och klickar sedan på den när den visas i listan.  <!--***********replace screen shot below when public sharing is released***********-->
+1. I fältet **Bevilja åtkomst till** kan du börja skriva namnet på en användare eller grupp och sedan klicka på den när den visas i listan.  <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -134,9 +134,9 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 
      Systemadministratörer får alltid behörigheten Hantera för vyer som delas med dem.
 
-1. Klicka **Kopiera länk** om du vill kopiera en länk till vyn till Urklipp.
+1. Klicka på **Kopiera länk** för att kopiera en länk till vyn till Urklipp.
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    >[!TIP]
    >
@@ -189,9 +189,9 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. Öppna arbetsytan vars vy du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
-1. Håll muspekaren över fliknamnet för den vy du vill ta bort delning från och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Dela**.
+1. Håll muspekaren över fliknamnet för den vy du vill ta bort delning från och klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Dela**.
 1. Hitta användaren eller gruppen du vill ta bort och klicka sedan på **Ta bort** i listrutan Behörigheter till höger om användarens eller gruppens namn.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 Användaren eller användarna som tillhör gruppen som tagits bort har inte längre åtkomst till vyn. Användarna som har tagits bort från vyn får inget meddelande om att de har förlorat åtkomsten.
 
 <!--Replace the above instructions with the following when public sharing is released: 

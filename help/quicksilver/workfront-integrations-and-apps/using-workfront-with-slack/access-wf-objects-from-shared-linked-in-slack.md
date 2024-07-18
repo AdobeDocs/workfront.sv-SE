@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
-title: Åtkomst [!DNL Adobe Workfront] objekt från en delad länk i [!DNL Slack]
-description: När länkar till [!DNL Adobe Workfront] objekt delas med dig i en Slack-kanal kan du visa ytterligare information om dem i Slack när du har installerat och konfigurerat dem [!DNL Workfront] för Slack.
+title: Åtkomst till  [!DNL Adobe Workfront] objekt från en delad länk i [!DNL Slack]
+description: När länkar till [!DNL Adobe Workfront] -objekt delas med dig i en Slack-kanal kan du visa ytterligare information om dem i Slack efter att du har installerat och konfigurerat  [!DNL Workfront]  för Slack.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Åtkomst [!DNL Adobe Workfront] objekt från en delad länk i [!DNL Slack]
+# Åtkomst till [!DNL Adobe Workfront]-objekt från en delad länk i [!DNL Slack]
 
-När länkar till [!DNL Adobe Workfront] objekt delas med dig i en [!DNL Slack] kan du visa mer information om dem i [!DNL Slack]efter att du har installerat och konfigurerat [!DNL Workfront for Slack].
+När länkar till [!DNL Adobe Workfront]-objekt delas med dig i en [!DNL Slack]-kanal kan du visa ytterligare information om dem i [!DNL Slack] efter att du har installerat och konfigurerat [!DNL Workfront for Slack].
 
-Mer information om konfiguration [!DNL Workfront for Slack], se [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Mer information om hur du konfigurerar [!DNL Workfront for Slack] finns i [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Du måste vara inloggad på [!DNL Workfront] i en separat webbläsarflik för att öppna länken eller för att utföra ytterligare åtgärder på dessa objekt från [!DNL Slack].
+Du måste vara inloggad på [!DNL Workfront] på en separat webbläsarflik för att kunna öppna länken eller utföra ytterligare åtgärder på dessa objekt från [!DNL Slack].
 
-När en användare delar en länk till ett objekt i [!DNL Workfront] Med dig kan ytterligare information om objektet visas tillsammans med länken. Användaren som skickar länken måste ha minst [!UICONTROL View] behörigheter till objektet för att ytterligare information ska kunna visas i [!DNL Slack].
+När en användare delar en länk till ett objekt i [!DNL Workfront] med dig, kan ytterligare information om objektet också visas tillsammans med länken. Användaren som skickar länken måste ha minst [!UICONTROL View] behörigheter till objektet för att ytterligare information ska kunna visas i [!DNL Slack].
 
 ## Åtkomstkrav
 
@@ -42,64 +42,64 @@ Du måste ha följande åtkomst för att kunna använda de funktioner som beskri
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Innan du kan komma åt dina favoriter och de senaste objekten från [!DNL Slack]måste du
+Innan du kan komma åt dina favoriter och senaste objekt från [!DNL Slack] måste du
 
 * Konfigurera [!DNL Workfront for Slack]\
-   Instruktioner om konfigurering [!DNL Workfront for Slack], se [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+   Instruktioner om hur du konfigurerar [!DNL Workfront for Slack] finns i [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Öppna projekt från [!DNL Slack]
+## Åtkomst till projekt från [!DNL Slack]
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront from Slack.]
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront from Slack.]
 
-   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack], se&quot;Logga in på [!DNL Workfront from Slack]&quot; i [Åtkomst [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront from Slack] i [Åtkomst [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront] projekt.
+1. Navigera till ett meddelande som innehåller en länk till ett [!DNL Workfront]-projekt.
 
    >[!NOTE]
    >
-   >Användaren som delar länken måste ha minst [!UICONTROL View] behörighet till projektet så att du kan se ytterligare information om det.
+   >Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter till projektet för att du ska kunna se ytterligare information om det.
 
-1. (Valfritt) Klicka på namnet på projektet för att öppna det i [!DNL Workfront] på en ny flik i webbläsaren.
+1. (Valfritt) Klicka på projektets namn för att öppna det i [!DNL Workfront] på en ny webbläsarflik.
 1. Titta på följande ytterligare information om projektet:
 
-   * **[!UICONTROL Status]:** Mer information om projektstatus finns i [Öppna listan över status för systemprojekt](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   * **[!UICONTROL Status]:** Mer information om projektstatus finns i [Öppna listan över systemprojektstatus](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
 
-   * **[!UICONTROL Planned Completion Date]**: Mer information om planerat slutförandedatum finns i [Ange projektplanerat slutförandedatum](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
+   * **[!UICONTROL Planned Completion Date]**: Mer information om det planerade slutförandedatumet finns i [Ange projektets planerade slutförandedatum](../../manage-work/projects/planning-a-project/project-planned-completion-date.md).
 
    * **[!UICONTROL Portfolio]** Namn: Mer information om portföljer finns i [Översikt över Portfolio i Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
    * **[!UICONTROL Condition]**: Mer information om projektvillkor finns i [Översikt över projektvillkor och villkorstyp](../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-   * **[!UICONTROL Percent Complete]**: Mer information om ett projekts Procent färdigt finns i [Översikt över Procent färdigt i projekt](../../manage-work/tasks/task-information/project-percent-complete.md).
+   * **[!UICONTROL Percent Complete]**: Mer information om Procent färdigt i ett projekt finns i [Översikt över Procent färdigt](../../manage-work/tasks/task-information/project-percent-complete.md).
 
-   * **[!UICONTROL Reference Number]**: Mer information om objektreferensnummer finns i [Använd referensnumret för objekt](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+   * **[!UICONTROL Reference Number]**: Mer information om referensnummer för objekt finns i [Använda referensnummer för objekt](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
-1. (Valfritt) Klicka på **[!UICONTROL Subscribe]** för att prenumerera på projektet.
+1. (Valfritt) Klicka på **[!UICONTROL Subscribe]** om du vill prenumerera på projektet.
 
    Du får en bekräftelse på att du har prenumererat på projektet.
 
-## Åtkomst till uppgifter från [!DNL Slack]
+## Åtkomst till aktiviteter från [!DNL Slack]
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront from Slack].
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront from Slack].
 
-   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack], se&quot;Logga in på [!DNL Workfront] från [!DNL Slack]&quot; i [Åtkomst [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront from Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront] uppgift.
+1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront]-aktivitet.
 
    >[!NOTE]
    >
-   >Användaren som delar länken måste ha minst [!UICONTROL View] behörighet till uppgiften så att du kan se ytterligare information om den.
+   >Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter för aktiviteten för att du ska kunna se ytterligare information om den.
 
-1. (Valfritt) Klicka på namnet på uppgiften för att öppna den i [!DNL Workfront] på en ny flik i webbläsaren.
+1. (Valfritt) Klicka på aktivitetens namn för att öppna den i [!DNL Workfront] på en ny webbläsarflik.
 1. Titta på följande ytterligare information om uppgiften:
 
    * **[!UICONTROL Status]**
 
-      Mer information om uppgiftsstatus finns i [Åtkomst till listan över status för systemaktivitet](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md).
+     Mer information om aktivitetsstatus finns i [Åtkomst till listan över systemaktivitetsstatus](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md).
 
    * **[!UICONTROL Percent Complete]**
    * **[!UICONTROL Assigned To Name]**
@@ -107,61 +107,61 @@ Innan du kan komma åt dina favoriter och de senaste objekten från [!DNL Slack]
    * **[!UICONTROL Project Name]** eller **[!UICONTROL Parent Task Name]**
    * **[!UICONTROL Reference Number]**
 
-      Mer information om objektreferensnummer finns i [Använd referensnumret för objekt](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+     Mer information om objektreferensnummer finns i [Använda referensnummer för objekt](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
-1. (Valfritt) Klicka på **[!UICONTROL Subscribe]** för att prenumerera på uppgiften.
+1. (Valfritt) Klicka på **[!UICONTROL Subscribe]** om du vill prenumerera på uppgiften.
 
    Du får en bekräftelse på att du har prenumererat på uppgiften.
 
-1. (Valfritt) Klicka på **[!UICONTROL Assign to user]** för att tilldela en användare uppgiften.
-1. (Villkorligt) Börja skriva namnet på en användare om du har klickat **[!UICONTROL Assign to user]**.
+1. (Valfritt) Klicka på **[!UICONTROL Assign to user]** om du vill tilldela en användare uppgiften.
+1. (Villkorligt) Börja skriva namnet på en användare om du har klickat på **[!UICONTROL Assign to user]**.
 
    Du kan inte tilldela en uppgift till en jobbroll eller ett team från [!DNL Slack].
 
 ## Åtkomstproblem från [!DNL Slack]
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront] från [!DNL Slack].
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront] från [!DNL Slack].
 
-   Mer information om hur du loggar in på Workfront från [!DNL Slack], se&quot;Logga in på [!DNL Workfront] från [!DNL Slack]&quot; i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Mer information om hur du loggar in på Workfront från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront] problem.
+1. Navigera till ett meddelande som innehåller en länk till ett [!DNL Workfront]-problem.
 
    >[!NOTE]
    >
-   >Användaren som delar länken måste ha minst [!UICONTROL View] behörighet till problemet så att du kan se ytterligare information om det.
+   >Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter för problemet för att du ska kunna se ytterligare information om det.
 
-1. (Valfritt) Klicka på namnet på problemet för att öppna det i [!DNL Workfront] på en ny flik i webbläsaren.
+1. (Valfritt) Klicka på problemets namn för att öppna det i [!DNL Workfront] på en ny webbläsarflik.
 1. Titta på följande ytterligare information om uppgiften:
 
-   * **[!UICONTROL Status]**: Mer information om status för problem finns i [Åtkomst till listan över status för systemproblem](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
+   * **[!UICONTROL Status]**: Mer information om utgivningsstatus finns i [Åtkomst till listan över status för systemutleverans](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
    * **[!UICONTROL Assigned To Name]**
    * **[!UICONTROL Planned Completion Date]**
    * **[!UICONTROL Project Name]**
-   * **[!UICONTROL Reference Number]**: Mer information om objektreferensnummer finns i [Använd referensnumret för objekt](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
+   * **[!UICONTROL Reference Number]**: Mer information om referensnummer för objekt finns i [Använda referensnummer för objekt](../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md).
 
-1. (Valfritt) Klicka på **[!UICONTROL Subscribe]** för att prenumerera på problemet.
+1. (Valfritt) Klicka på **[!UICONTROL Subscribe]** om du vill prenumerera på problemet.
 
    Du får en bekräftelse på att du har prenumererat på problemet.
 
 1. (Valfritt) Klicka på **[!UICONTROL Assign to user]** för att tilldela utgåvan till en användare.
-1. (Villkorligt) Börja skriva namnet på en användare om du har klickat **[!UICONTROL Assign to user]**.
+1. (Villkorligt) Börja skriva namnet på en användare om du har klickat på **[!UICONTROL Assign to user]**.
 
-   Du kan inte tilldela ett ärende till en jobbroll eller ett team från [!DNL Slack].
+   Du kan inte tilldela en utgåva till en jobbroll eller ett team från [!DNL Slack].
 
-## Få tillgång till portföljer från [!DNL Slack]
+## Åtkomst till portföljer från [!DNL Slack]
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront] från [!DNL Slack].
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront] från [!DNL Slack].
 
-   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack], se&quot;Logga in på [!DNL Workfront] från [!DNL Slack]&quot; i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront] portfolio.
+1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront]-portfölj.
 
    >[!NOTE]
    >
-   >Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter till portföljen så att du kan se ytterligare information om den.
+   >Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter till portföljen för att du ska kunna se ytterligare information om den.
 
-1. (Valfritt) Klicka på namnet på portföljen för att öppna den i [!DNL Workfront] på en ny flik i webbläsaren.
+1. (Valfritt) Klicka på namnet på portföljen för att öppna den i [!DNL Workfront] på en ny webbläsarflik.
 1. Titta på följande ytterligare information om portföljen:
 
    * **[!UICONTROL Portfolio Manager Name]**
@@ -172,39 +172,39 @@ Innan du kan komma åt dina favoriter och de senaste objekten från [!DNL Slack]
    * **[!UICONTROL On Budget]**
    * **[!UICONTROL Aligned]**
 
-      Mer information om portföljstatistik finns i [!UICONTROL ROI], [!UICONTROL Net Value], [!UICONTROL Alignment]och [!UICONTROL On Time] och [!UICONTROL On Budget] värden, se [Förstå [!UICONTROL Portfolio Optimizer].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+     Mer information om portföljmått, inklusive [!UICONTROL ROI], [!UICONTROL Net Value], [!UICONTROL Alignment], [!UICONTROL On Time] och [!UICONTROL On Budget], finns i [Förstå [!UICONTROL Portfolio Optimizer].](../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
-## Öppna program från [!DNL Slack]
+## Åtkomst till program från [!DNL Slack]
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront] från [!DNL Slack].
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront] från [!DNL Slack].
 
-   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack], se&quot;Logga in på [!DNL Workfront] från [!DNL Slack]&quot; i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront] program.
+1. Navigera till ett meddelande som innehåller en länk till ett [!DNL Workfront]-program.
 
    >[!NOTE]
    >
-   > Användaren som delar länken måste ha minst [!UICONTROL View] behörighet till programmet så att du kan se ytterligare information om det.
+   > Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter till programmet för att du ska kunna se ytterligare information om det.
 
-1. (Valfritt) Klicka på namnet på programmet för att öppna det i [!DNL Workfront] på en ny flik i webbläsaren.
-1. Läs mer om programmet:
+1. (Valfritt) Klicka på namnet på programmet för att öppna det i [!DNL Workfront] på en ny webbläsarflik.
+1. Titta på följande ytterligare information om programmet:
 
    * **[!UICONTROL Description]**
    * **[!UICONTROL Portfolio Name]**
    * **[!UICONTROL Program Manager Name]**
 
-      Mer information om program finns i [Skapa och hantera program.](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+     Mer information om program finns i [Skapa och hantera program.](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
 
-## Få rapporter från [!DNL Slack]
+## Få åtkomst till rapporter från [!DNL Slack]
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront] från [!DNL Slack].
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront] från [!DNL Slack].
 
-   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack], se&quot;Logga in på [!DNL Workfront] från [!DNL Slack]&quot; i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront] rapport.
+1. Navigera till ett meddelande som innehåller en länk till en [!DNL Workfront]-rapport.
 
    >[!NOTE]
    >
-   >Användaren som delar länken måste ha minst [!UICONTROL View] behörighet till rapporten så att du kan se ytterligare information om den.
+   >Användaren som delar länken måste ha minst [!UICONTROL View] behörigheter till rapporten för att du ska kunna se ytterligare information om den.
 
-1. (Valfritt) Klicka på rapportens namn för att öppna den i [!DNL Workfront] på en ny flik i webbläsaren.
+1. (Valfritt) Klicka på rapportens namn för att öppna den i [!DNL Workfront] på en ny webbläsarflik.

@@ -24,5 +24,5 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Lägg till nya dokument i Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [Hantera dokument](../documents/managing-documents/manage-documents.md)
 * [Ordna dokument](../documents/organizing-documents/organize-documents.md)
-* [ADOBE WORKFRONT DAM i ADOBE WORKFRONT](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* [Adobe Workfront DAM i Adobe Workfront](../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * [Workfront- och Experience Manager Assets-integreringar](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

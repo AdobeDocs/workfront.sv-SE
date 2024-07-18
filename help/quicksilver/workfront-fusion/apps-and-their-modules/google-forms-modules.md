@@ -4,23 +4,23 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Google Forms-moduler
-description: The [!DNL Adobe Workfront Fusion Google Forms] kan du övervaka, välja, lägga till, uppdatera eller ta bort svar på din Google Forms.
+title: Google Forms
+description: Med modulerna  [!DNL Adobe Workfront Fusion Google Forms] kan du övervaka, välja, lägga till, uppdatera eller ta bort svar på din Google Forms.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms] moduler
 
-The [!DNL Adobe Workfront Fusion] [!DNL Google Forms] kan du övervaka, välja, lägga till, uppdatera eller ta bort svar på dina [!DNL Google Forms].
+Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Forms] kan du övervaka, välja, lägga till, uppdatera eller ta bort svar på [!DNL Google Forms].
 
-För att kunna använda [!DNL Google Docs] med [!DNL Adobe Workfront Fusion]måste du ha en [!DNL Google] konto. Om du inte har en [!DNL Google] ännu kan du skapa ett på [!DNL Google] Hjälpsida för konto.
+Om du vill använda [!DNL Google Docs] med [!DNL Adobe Workfront Fusion] måste du ha ett [!DNL Google]-konto. Om du inte har något [!DNL Google]-konto än kan du skapa ett på hjälpsidan för [!DNL Google]-kontot.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -45,44 +45,44 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Google Forms] moduler, du måste ha en [!DNL Google] konto.
+Du måste ha ett [!DNL Google]-konto för att kunna använda [!DNL Google Forms]-moduler.
 
 ## Skapa ett kalkylblad från formuläret
 
 Om du vill arbeta med formulärsvaren måste du skapa kalkylbladet från svaren.
 
 1. Öppna formuläret.
-1. Gå till **[!UICONTROL Responses]** -fliken.
-1. Klicka på **[!UICONTROL Create Spreadsheet]** icon ![](assets/spreadsheet-icon.png).
+1. Gå till fliken **[!UICONTROL Responses]**.
+1. Klicka på ikonen **[!UICONTROL Create Spreadsheet]** ![](assets/spreadsheet-icon.png).
 
 1. Välj om du vill skapa ett nytt kalkylblad eller ett befintligt kalkylblad
 1. Klicka på **[!UICONTROL Create]**.
 
-## [!DNL Google Forms] moduler och deras fält
+## [!DNL Google Forms]-moduler och deras fält
 
-När du konfigurerar [!DNL Google Forms] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Google Forms] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Google Forms] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Google Forms] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -104,7 +104,7 @@ Söker efter nya svar i formuläret.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -122,18 +122,18 @@ Söker efter nya svar i formuläret.
    <td role="rowheader">[!UICONTROL Value Render Option]</td> 
    <td> <p>Ange hur du vill att värdena ska återges i utdata.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Formatted value]</strong> </p> <p>Värden beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> är <code>1. 23</code> och <code>A2 </code>är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> returnerar <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Värden beräknas, men formateras inte i svaret. Om <code>A1</code> är <code>1. 23</code> och <code>A2 </code>är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> returnerar talet <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Värden beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> är <code>1. 23</code> och <code>A2 </code>är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> returnerar <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Formatted value]</strong> </p> <p>Värden beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> till exempel är <code>1. 23</code> och <code>A2 </code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Värden beräknas, men formateras inte i svaret. Om <code>A1</code> till exempel är <code>1. 23</code> och <code>A2 </code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> talet <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Värden beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> till exempel är <code>1. 23</code> och <code>A2 </code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Date and time render option]</td> 
-   <td>Välj hur du vill att datum, tidpunkter och längd ska visas i utdata. Det här fältet ignoreras om [!UICONTROL Value Render Option] är inställd på [!UICONTROL Formatted Value].</td> 
+   <td>Välj hur du vill att datum, tidpunkter och längd ska visas i utdata. Det här fältet ignoreras om [!UICONTROL Value Render Option] är inställt på [!UICONTROL Formatted Value].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p> Ange maximalt antal svar som [!DNL Workfront Fusion] fungerar med under en cykel.</p> </td> 
+   <td> <p> Ange det maximala antalet svar som [!DNL Workfront Fusion] kan arbeta med under en cykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -156,7 +156,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -168,14 +168,14 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
-   <td> <p>Ange önskade värden för tabellkolumnerna.</p> <p>För [!UICONTROL Timestamp] -kolumn i rätt format använder du följande värde:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
+   <td> <p>Ange önskade värden för tabellkolumnerna.</p> <p>Använd följande värde för kolumnen [!UICONTROL Timestamp] i rätt format:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De värden som användaren anger tolkas inte och lagras som de är. </p> </li> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när du skriver text i en cell via [!DNL Google Sheets] Gränssnitt.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när text skrivs i en cell via [!DNL Google Sheets]-gränssnittet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -201,7 +201,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -224,7 +224,7 @@ När du konfigurerar den här modulen visas följande fält.
    <td> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De värden som användaren anger tolkas inte och lagras som de är. </p> </li> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när du skriver text i en cell via [!DNL Google Sheets] Gränssnitt.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när text skrivs i en cell via [!DNL Google Sheets]-gränssnittet.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -240,7 +240,7 @@ Den här modulen tar bort ett markerat svar.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
@@ -271,7 +271,7 @@ Den här modulen returnerar svar som matchar de angivna villkoren.
  <col data-mc-conditions=""> 
  <tbody> 
     <td>Anslutning</td>
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
     <td>[!UICONTROL Spreadsheet]</td>
@@ -301,18 +301,18 @@ Den här modulen returnerar svar som matchar de angivna villkoren.
    <td role="rowheader">[!UICONTROL Value Render Option]</td> 
    <td> <p>Ange hur du vill att värdena ska återges i utdata.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Formatted value]</strong></p> <p>Värden beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> är <code>1. 23</code> och <code>A2 </code>är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> returnerar <code>$1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Värden beräknas, men formateras inte i svaret. Om <code>A1</code> är <code>1. 23</code> och <code>A2 </code>är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> returnerar talet <code>1. 23</code> .</p> </li> 
-     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Värden beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> är <code>1. 23</code> och <code>A2 </code>är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> returnerar <code>=A1</code>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Formatted value]</strong></p> <p>Värden beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> till exempel är <code>1. 23</code> och <code>A2 </code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> <code>$1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Unformatted value]</strong> </p> <p>Värden beräknas, men formateras inte i svaret. Om <code>A1</code> till exempel är <code>1. 23</code> och <code>A2 </code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> talet <code>1. 23</code> .</p> </li> 
+     <li> <p><strong>[!UICONTROL Formula]</strong> </p> <p>Värden beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> till exempel är <code>1. 23</code> och <code>A2 </code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> <code>=A1</code>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions="">
     <td>[!UICONTROL Date and time render option]</td>
-    <td>Välj hur du vill att datum, tidpunkter och längd ska visas i utdata. Det här fältet ignoreras om [!UICONTROL Value Render] Alternativet är inställt på Formaterat värde. </td>
+    <td>Välj hur du vill att datum, tidpunkter och längd ska visas i utdata. Det här fältet ignoreras om alternativet [!UICONTROL Value Render] är inställt på Formaterat värde. </td>
   </tr> 
   <tr>
     <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">[!UICONTROL Maximum number of returned responses]</td>
-   <td> <p> Ange maximalt antal svar som [!DNL Workfront Fusion] returneras under en cykel.</p> </td> 
+   <td> <p> Ange det maximala antalet svar som [!DNL Workfront Fusion] returnerar under en cykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -327,7 +327,7 @@ Den här modulen utför en sökning med [[!DNL Google Charts Query Language]](ht
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Spreadsheet]</td>
@@ -343,7 +343,7 @@ Den här modulen utför en sökning med [[!DNL Google Charts Query Language]](ht
   </tr> 
   <tr>
     <td>[!UICONTROL Maximum number of returned rows]</td>
-   <td> <p> Ange maximalt antal svar som [!DNL Workfront Fusion] returneras under en cykel.</p> </td> 
+   <td> <p> Ange det maximala antalet svar som [!DNL Workfront Fusion] returnerar under en cykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>

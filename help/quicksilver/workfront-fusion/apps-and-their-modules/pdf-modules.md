@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # [!DNL Adobe PDF Services]
 
-Med [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services]kan du extrahera data från en PDF-fil eller generera en ny PDF-fil från data du anger. Dessutom kan du konvertera en mängd olika filtyper till PDF eller PDF till andra filtyper. Med PDF Services kan du även kombinera, komprimera och läsa metadata för en PDF-fil samt styra lösenordsskyddet för filen.
+Med [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] kan du extrahera data från en PDF-fil eller generera en ny PDF-fil från data som du anger. Dessutom kan du konvertera en mängd olika filtyper till PDF eller PDF till andra filtyper. Med PDF Services kan du även kombinera, komprimera och läsa metadata för en PDF-fil samt styra lösenordsskyddet för filen.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Mer information om moduler finns i [Moduler i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-Mer information om API:t för PDF Services finns i [Adobe-API för dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Mer information om API:t som används för PDF Services finns i [Adobe-API:t för dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
-## Säkerhetsaspekter vid användning [!DNL Adobe PDF Services]
+## Säkerhetsaspekter vid användning av [!DNL Adobe PDF Services]
 
 <!--
 
@@ -39,10 +39,10 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 
 -->
 
-The [!DNL Adobe PDF Services] kan läsa, konvertera eller ändra filer, men varken [!DNL Adobe] eller [!DNL Workfront Fusion] lagra filer eller data. Detta innebär att
+[!DNL Adobe PDF Services] kan läsa, konvertera eller ändra dina filer, men varken [!DNL Adobe] eller [!DNL Workfront Fusion] lagrar dina filer eller data. Detta innebär att
 
 * Du behåller kontrollen över dina filer, inklusive deras säkerhet
-* Du behöver inte ha en [!UICONTROL Adobe] lagringskonto eller molnlagringskonto för användning av PDF-tjänster.
+* Du behöver inte ha något [!UICONTROL Adobe]-lagringskonto eller molnlagringskonto för att kunna använda PDF-tjänsterna.
 
 ## Åtkomstkrav
 
@@ -63,37 +63,37 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
 Om du vill skapa en OAuth Server-till-server måste du lägga till Adobe PDF Services-API:t i Adobe Developers Console. När du lägger till API:t väljer du alternativet OAuth Server-till-server.
 
-Instruktioner finns i [Lägg till API i projekt med OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) I dokumentationen för utvecklaren av Adobe.
+Instruktioner finns i [Lägg till API i projekt med OAuth](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) i utvecklardokumentationen för Adobe.
 
 ## Skapa en anslutning till [!DNL Adobe PDF Services]
 
-Skapa en anslutning för [!DNL Adobe PDF Services] moduler:
+Så här skapar du en anslutning för dina [!DNL Adobe PDF Services]-moduler:
 
-1. I alla [!DNL Adobe PDF Services] modul, klicka på **[!UICONTROL Add]** bredvid rutan Anslutning.
+1. Klicka på **[!UICONTROL Add]** bredvid anslutningsrutan i någon [!DNL Adobe PDF Services]-modul.
 
 1. Fyll i följande fält:
 
@@ -117,19 +117,19 @@ Skapa en anslutning för [!DNL Adobe PDF Services] moduler:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p></td>
+          <td>Ange din [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar autentiseringsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i utvecklardokumentationen för Adobe.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p>
+          <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar autentiseringsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i utvecklardokumentationen för Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID] (endast JWT)</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Technical account ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p>
+          <td>Ange din [!DNL Adobe] [!UICONTROL Technical account ID]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar autentiseringsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i utvecklardokumentationen för Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (endast JWT)</td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar inloggningsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i dokumentationen för utvecklaren av Adobe.</p>
+          <td>Ange din [!DNL Adobe] [!UICONTROL Organization ID]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].<p>Instruktioner om hur du hittar autentiseringsuppgifter finns i <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" >Referenser</a> i utvecklardokumentationen för Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes] (endast JWT)</td>
@@ -139,12 +139,12 @@ Skapa en anslutning för [!DNL Adobe PDF Services] moduler:
         </tr>
        </tbody>
     </table>
-1. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
 
-## [!DNL Adobe PDF Services] moduler och deras fält
+## [!DNL Adobe PDF Services]-moduler och deras fält
 
-När du konfigurerar [!DNL PDF Services], [!DNL Workfront Fusion] visar fälten som listas nedan. Dessutom kan ytterligare fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En fetstilt titel i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL PDF Services] visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En fetstilt titel i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -170,14 +170,14 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ### [!UICONTROL Generate document]
 
-The [!UICONTROL Generate document] är ett kraftfullt sätt att skapa ett PDF som innehåller de data du väljer. Du kan formatera den med en [!DNL Microsoft Word] eller genom att tillhandahålla data i JSON-format.
+Modulen [!UICONTROL Generate document] är ett kraftfullt sätt att skapa ett PDF som innehåller data som du väljer. Du kan formatera den med hjälp av en [!DNL Microsoft Word]-mall eller genom att ange data i JSON-format.
 
-Mer information om [!UICONTROL [!DNL Adobe PDF Services] Generate document] finns i [Översikt över dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) i [!DNL Adobe Document Services] dokumentation.
+Mer information om funktionen [!UICONTROL [!DNL Adobe PDF Services] Generate document] finns i [Översikt över dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) i [!DNL Adobe Document Services]-dokumentationen.
 
-* [Använd [!UICONTROL Generate document] modul med [!DNL Microsoft Word] mall](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [Använd [!UICONTROL Generate document] modul med JSON](#use-the-generate-document-module-with-json)
+* [Använd modulen [!UICONTROL Generate document] med en  [!DNL Microsoft Word] mall](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [Använd modulen [!UICONTROL Generate document] med JSON](#use-the-generate-document-module-with-json)
 
-#### Använd [!UICONTROL Generate document] modul med [!DNL Microsoft Word] mall
+#### Använd modulen [!UICONTROL Generate document] med en [!DNL Microsoft Word]-mall
 
 <!--
 >[!NOTE]
@@ -187,9 +187,9 @@ Mer information om [!UICONTROL [!DNL Adobe PDF Services] Generate document] finn
 >You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
 -->
 
-Använd [!UICONTROL Generate document] modul med [!UICONTROL Microsoft Word] måste du först skapa mallen. Sök efter&quot;Skapa en mall&quot; i dialogrutan [!DNL Microsoft Office] dokumentation.
+Om du vill använda modulen [!UICONTROL Generate document] med en [!UICONTROL Microsoft Word]-mall måste du först skapa mallen. Sök efter&quot;Skapa en mall&quot; i dokumentationen för [!DNL Microsoft Office] om du vill ha anvisningar.
 
-Fyll i [!UICONTROL Generate document] modulfält enligt följande:
+Fyll i fälten i modulen [!UICONTROL Generate document] enligt följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -197,11 +197,11 @@ Fyll i [!UICONTROL Generate document] modulfält enligt följande:
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Den här källfilen är [!DNL Microsoft Word ]som används i modulen för att generera det nya PDF.</p> <p>Vi rekommenderar att du skapar ett projekt i [!DNL Workfront] för [!DNL Microsoft Word] mallar som du använder i [!DNL Workfront Fusion]. Du kan sedan använda [!DNL Workfront] &gt; [!UICONTROL Download document] för att dra in rätt mall i ditt scenario.</p> </td> 
+   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Den här källfilen är [!DNL Microsoft Word ]-mallen som modulen använder för att generera det nya PDF.</p> <p>Vi rekommenderar att du skapar ett projekt i [!DNL Workfront] för de [!DNL Microsoft Word] -mallar som du använder i [!DNL Workfront Fusion]. Du kan sedan använda modulen [!DNL Workfront] &gt; [!UICONTROL Download document] för att hämta rätt mall till ditt scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format]</td> 
@@ -215,7 +215,7 @@ Fyll i [!UICONTROL Generate document] modulfält enligt följande:
    <td role="rowheader">[!UICONTROL Data for merge]</td> 
    <td> <p>Fyll i följande för varje värdetagg i mallen som du vill ersätta med text:</p> 
     <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>Ange en tangent. I mallen är nyckeln texten som visas i värdetaggen. Om du till exempel vill montera text i värdetaggen <code>&#123;&#123;name&#125;&#125;</code>, ange <code>name </code>i nyckelfältet.</p> </li> 
+     <li> <p>[!UICONTROL Key]</p> <p>Ange en tangent. I mallen är nyckeln texten som visas i värdetaggen. Om du till exempel vill placera text i värdetaggen <code>&#123;&#123;name&#125;&#125;</code> anger du <code>name </code> i nyckelfältet.</p> </li> 
      <li> <p>Värdetyp</p> <p>Ange om data i värdefältet är ett värde, ett objekt eller en array med objekt.</p> </li> 
      <li> <p>[!UICONTROL Value]</p> <p>Ange eller mappa texten som du vill ska visas i det genererade dokumentet i stället för värdetaggen.</p> </li> 
     </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
@@ -223,9 +223,9 @@ Fyll i [!UICONTROL Generate document] modulfält enligt följande:
  </tbody> 
 </table>
 
-#### Använd [!UICONTROL Generate document] modul med JSON
+#### Använd modulen [!UICONTROL Generate document] med JSON
 
-Använd [!UICONTROL Generate document] med JSON, fyll i fälten enligt följande:
+Om du vill använda modulen [!UICONTROL Generate document] med JSON fyller du i fälten enligt följande:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -233,7 +233,7 @@ Använd [!UICONTROL Generate document] med JSON, fyll i fälten enligt följande
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source File]</td> 
@@ -264,7 +264,7 @@ Med den här åtgärdsmodulen kan du extrahera data från en PDF-fil. Modulen ma
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -291,7 +291,7 @@ Med den här åtgärdsmodulen kan du extrahera data från en PDF-fil. Modulen ma
 
 ### [!UICONTROL Combine PDF files]
 
-Den här åtgärdsmodulen tar flera PDF-filer och kombinerar dem i en enda PDF-fil. Den här modulen kan till exempel kombinera alla dokument i en [!UICONTROL Workfront] till ett enda PDF när projektet är klart.
+Den här åtgärdsmodulen tar flera PDF-filer och kombinerar dem i en enda PDF-fil. Den här modulen kan till exempel kombinera alla dokument i ett [!UICONTROL Workfront]-projekt till ett enda PDF när projektet har slutförts.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -299,15 +299,15 @@ Den här åtgärdsmodulen tar flera PDF-filer och kombinerar dem i en enda PDF-f
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
-   <td> <p>Du kan använda en aggregeringsmodul för att samla dokument som ska kombineras till ett PDF, eller så kan du lägga till dokumenten manuellt. </p> <p>Vi rekommenderar att du [!UICONTROL Array Aggregator] för att samla utdata från en tidigare modul. Genom att använda en aggregator behöver du inte känna till namn, plats eller antal filer som ska kombineras. Att använda en aggregator är därför mycket flexiblare och mer skalbart än att manuellt ange de dokument som ska kombineras.</p> <p>Använd [!UICONTROL Combine PDF] filmodulen med en aggregator måste du aktivera mappning på [!UICONTROL Documents] fält. </p> <p>I det här exemplet [!UICONTROL Read Related Records] -modulen identifierar dokument som är kopplade till ett projekt och [!UICONTROL Download Documents] för nedladdning. Alla PDF samlas i en array som skickas till [!UICONTROL Combine PDF] filmodulen.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Du kan också ange dokument manuellt.</p> <p>För varje dokument som ska inkluderas i den kombinerade PDF:</p> 
+   <td> <p>Du kan använda en aggregeringsmodul för att samla dokument som ska kombineras till ett PDF, eller så kan du lägga till dokumenten manuellt. </p> <p>Vi rekommenderar att du använder en [!UICONTROL Array Aggregator]-modul för att sammanställa utdata från en tidigare modul. Genom att använda en aggregator behöver du inte känna till namn, plats eller antal filer som ska kombineras. Att använda en aggregator är därför mycket flexiblare och mer skalbart än att manuellt ange de dokument som ska kombineras.</p> <p>Om du vill använda filmodulen [!UICONTROL Combine PDF] med en aggregator måste du aktivera mappning i fältet [!UICONTROL Documents]. </p> <p>I det här exemplet identifierar modulen [!UICONTROL Read Related Records] dokument som är kopplade till ett projekt och modulen [!UICONTROL Download Documents] hämtar vart och ett av dem. Alla PDF samlas i en array, som skickas till [!UICONTROL Combine PDF]-filmodulen.</p> <p> <img src="assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>Du kan också ange dokument manuellt.</p> <p>För varje dokument som ska inkluderas i den kombinerade PDF:</p> 
     <ol> 
      <li value="1"> <p>Klicka på [!UICONTROL Add a Document]</p> </li> 
-     <li value="2"> <p>I [!UICONTROL Source file] markerar du modulen som matar ut dokumentet som du vill inkludera, eller mappar källfilens namn och data. </p> </li> 
-     <li value="3"> <p>(Valfritt) Om du bara vill inkludera vissa sidor från källfilen, för varje sidintervall som du vill lägga till, klickar du på <strong>[!UICONTROL Add item]</strong> i [!UICONTROL Pages] och sedan ange den första och sista sidan i det sidintervall som ska inkluderas. Klicka på <strong>[!UICONTROL Add]</strong>. Du kan inkludera mer än ett sidintervall från ett enstaka dokument.</p> </li> 
+     <li value="2"> <p>I fältet [!UICONTROL Source file] markerar du modulen som matar ut dokumentet som du vill inkludera, eller mappar källfilens namn och data. </p> </li> 
+     <li value="3"> <p>(Valfritt) Om du bara vill inkludera vissa sidor från källfilen, för varje sidintervall som du vill lägga till, klickar du på <strong>[!UICONTROL Add item]</strong> i fältet [!UICONTROL Pages], anger den första och sista sidan i sidintervallet som ska inkluderas och klickar på <strong>[!UICONTROL Add]</strong>. Du kan inkludera mer än ett sidintervall från ett enstaka dokument.</p> </li> 
      <li value="4"> <p>Klicka på <strong>[!UICONTROL Add]</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
@@ -326,7 +326,7 @@ Den här åtgärdsmodulen tar en PDF-fil och komprimerar den. Detta kan vara anv
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -357,7 +357,7 @@ Det här verktyget konverterar ett dokument till en PDF-fil. Källfilen måste h
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -426,15 +426,15 @@ Det här verktyget konverterar en HTML-fil till en PDF-fil.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Viktigt! Källfilen måste vara i HTML- eller ZIP-format. </p> </td> 
+   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Viktigt: Source-filen måste ha formatet HTML eller ZIP. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL JSON]</td> 
-   <td> <p>Om HTML refererar till JavaScript-variabler kan du ta med dessa variabler här. </p> <p>För varje variabel klickar du på <strong>[!UICONTROL Add item]</strong> och innehåller variabelns nyckel och värde.</p> <p>Obs!   
+   <td> <p>Om HTML refererar till JavaScript-variabler kan du ta med dessa variabler här. </p> <p>För varje variabel klickar du på <strong>[!UICONTROL Add item]</strong> och tar med variabelns nyckel och värde.</p> <p>Obs!   
      <ul> 
       <li> <p>När du skapar ett PDF från en ZIP-fil måste källmaterialet innehålla ett skriptelement som: <code> &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt;</code> </p> </li> 
       <li> <p>När du skapar ett PDF från en URL, injiceras innehållet i det här JSON-objektet i den virtuella webbläsaren innan sidan återges. </p> </li> 
@@ -471,7 +471,7 @@ Med det här verktyget kan du konvertera en bild till en PDF-fil.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -498,7 +498,7 @@ Det här verktyget konverterar en PDF-fil till ett dokument. Du kan välja någo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -532,7 +532,7 @@ En fil med namnet&quot;TestFile&quot; med 8 sidor ger till exempel 8 bilder med 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -561,7 +561,7 @@ Med det här verktyget linjäriserar du ett PDF-dokument och skapar ett webbopti
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -582,7 +582,7 @@ Det här verktyget utför optisk teckenigenkänning (OCR) på en fil och skapar 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -615,7 +615,7 @@ I den här modulen kan du välja mellan att rotera eller ta bort sidor i ett PDF
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -631,7 +631,7 @@ I den här modulen kan du välja mellan att rotera eller ta bort sidor i ett PDF
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Pages]</td> 
-   <td> <p>För varje sidintervall som du vill ta bort klickar du på <strong>[!UICONTROL Add]</strong> och ange sedan sidintervallets första och sista sida. </p> <p>Obs!   
+   <td> <p>För varje sidintervall som du vill ta bort klickar du på <strong>[!UICONTROL Add]</strong> och anger sedan sidintervallets första och sista sida. </p> <p>Obs!   
      <ul> 
       <li> <p>Du kan använda negativa tal för att räkna tillbaka från slutet av dokumentet. Den sista sidan i ett dokument är -1, den andra till den sista sidan är -2 och så vidare.</p> </li> 
       <li> <p>Om du vill ta bort en enstaka sida anger du samma sidnummer som både början och slutet av intervallet.</p> </li> 
@@ -656,7 +656,7 @@ Den här åtgärdsmodulen skapar ett PDF som är taggat för att skapa hjälpmed
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -690,7 +690,7 @@ Det här verktyget extraherar grundläggande information om dokumentet, till exe
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -711,7 +711,7 @@ Det här verktyget skyddar ett PDF-dokument med ett användar- eller ägarlösen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -740,11 +740,11 @@ Det här verktyget skyddar ett PDF-dokument med ett användar- eller ägarlösen
      <li> <p>[!UICONTROL All content]</p> </li> 
      <li> <p>[!UICONTROL All content except metadata]</p> </li> 
      <li> <p>[!UICONTROL Only embedded data] </p> </li> 
-    </ul> <p>Markera[!UICONTROL Only embedded data]"ger alla angivna åtkomstbehörigheter ogiltiga.</p> </td> 
+    </ul> <p>Om du väljer [!UICONTROL Only embedded data] kommer alla angivna åtkomstbehörigheter att bli ineffektiva.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Permissions]</td> 
-   <td> <p>Välj de behörigheter du vill inkludera för utskrift, redigering eller kopiering av innehåll.</p> <p>Behörighetsinställningar används bara om [!UICONTROL ownerPassword] är inställd i [!UICONTROL Password Protection Type] fält.</p> </td> 
+   <td> <p>Välj de behörigheter du vill inkludera för utskrift, redigering eller kopiering av innehåll.</p> <p>Behörighetsinställningar används bara om [!UICONTROL ownerPassword] har angetts i fältet [!UICONTROL Password Protection Type].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -761,7 +761,7 @@ Det här verktyget tar bort skydd (lösenord) från ett PDF-dokument.
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -786,7 +786,7 @@ Den här åtgärdsmodulen delar upp ett PDF-dokument i flera mindre dokument. Du
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -796,7 +796,7 @@ Den här åtgärdsmodulen delar upp ett PDF-dokument i flera mindre dokument. Du
    <td role="rowheader">[!UICONTROL Split option]</td> 
    <td>Välj hur du vill dela filen. 
    <ul>
-   <li><p><b>Sidintervall</b></p><p>För varje sidintervall som du vill dela upp i ett separat dokument klickar du på <b>Lägg till</b> och ange den sida där du vill börja och den sida där du vill avsluta.</p></li>
+   <li><p><b>Sidintervall</b></p><p>För varje sidintervall som du vill dela upp i ett separat dokument klickar du på <b>Lägg till</b> och anger den sida som du vill börja på och den sida som du vill avsluta.</p></li>
    <li><p><b>Antal sidor</b></p><p>Ange antalet sidor som du vill inkludera i de nya dokumenten.</p></li>
    <li><p><b>Antal filer</b></p><p>Ange antalet filer i samma storlek som du vill dela dokumentet i.</p></li>
    </ul>
@@ -815,7 +815,7 @@ Den här åtgärdsmodulen är en anpassad HTTP-begäran till API:t för PDF Serv
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services], se <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -823,7 +823,7 @@ Den här åtgärdsmodulen är en anpassad HTTP-begäran till API:t för PDF Serv
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -835,7 +835,7 @@ Den här åtgärdsmodulen är en anpassad HTTP-begäran till API:t för PDF Serv
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields]</td> 
-   <td> <p>För varje fält som du vill lägga till i API-anropet klickar du på <b>Lägg till objekt</b> och ange fältets nyckel och valfria värde.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>För varje fält som du vill lägga till i API-anropet klickar du på <b>Lägg till objekt</b> och anger fältets nyckel och valfria värde.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

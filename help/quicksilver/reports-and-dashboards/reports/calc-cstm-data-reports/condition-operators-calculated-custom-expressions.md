@@ -30,13 +30,13 @@ Du kan skapa IF-satser för följande Workfront-element:
 * Grupperingar
 * Beräknade anpassade fält
 
-Mer information om att skapa IF-satser finns i [Översikt över IF-programsatser](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
+Mer information om hur du skapar IF-satser finns i Översikt över [ IF-satser ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md).
 
 Exemplen i den här handboken visar hur du använder villkorsoperatorer i beräknade anpassade fält. Du kan även använda dem i beräknade anpassade kolumner eller grupperingar när du följer rätt syntax för beräknade anpassade fält i rapporter.
 
 Mer information om skillnaden i syntax mellan beräknade anpassade fält och beräknade anpassade data i rapporter finns i [Beräknade anpassade fält kontra beräknade kolumner](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
-I API-utforskaren hittar du de fält som du vill referera till i dina beräknade anpassade uttryck. Mer information om API Explorer finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+I API-utforskaren hittar du de fält som du vill referera till i dina beräknade anpassade uttryck. Mer information om API-utforskaren finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 
 Du kan använda följande villkorsmodifierare i Workfront:
 
@@ -70,12 +70,12 @@ Du kan använda följande villkorsmodifierare i Workfront:
   <tr> 
    <td>Mindre än </td> 
    <td>&lt; </td> 
-   <td>Använd den här operatorn för att ange att villkoret är uppfyllt när det första fältet i programsatsen är mindre än det andra fältet. <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som jämför det planerade slutförandedatumet med det planerade slutförandedatumet för en uppgift: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Använd den här operatorn för att ange att villkoret är uppfyllt när  det första fältet i programsatsen är mindre än det andra fältet. <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som jämför det planerade slutförandedatumet med det planerade slutförandedatumet för en uppgift: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Mindre än eller lika med </td> 
    <td>&lt;= </td> 
-   <td>Använd den här operatorn för att ange att villkoret är uppfyllt när det första fältet i programsatsen är mindre än eller lika med det andra fältet. <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som jämför det planerade slutförandedatumet med det planerade slutförandedatumet för en uppgift: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>Använd den här operatorn för att ange att villkoret är uppfyllt när  det första fältet i programsatsen är mindre än eller lika med det andra fältet. <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som jämför det planerade slutförandedatumet med det planerade slutförandedatumet för en uppgift: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Gör inte </td> 
@@ -90,17 +90,17 @@ Du kan använda följande villkorsmodifierare i Workfront:
      <li>IN </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>Mer information om de här datamängderna och en fullständig lista finns i <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Översikt över beräknade datauttryck</a>. </p> </td> 
+    </ul> <p>Mer information om de här datauttrycken och en fullständig lista finns i <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Översikt över beräknade datauttryck</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>eller </td> 
    <td>|| </td> 
-   <td> <p>Använd den här operatorn för att ange att villkoret är uppfyllt när uttrycket hittar antingen det första eller det andra värdet i programsatsen. </p> <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som markerar projekt i aktuell status eller planeringsstatus som"Aktiv": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>Använd den här operatorn för att ange att villkoret är uppfyllt när uttrycket  hittar antingen det första eller det andra värdet i programsatsen. </p> <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som markerar projekt i aktuell status eller planeringsstatus som"Aktiv": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td> Och </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Använd den här operatorn för att ange att villkoret är uppfyllt när uttrycket hittar ett objekt som uppfyller två villkor samtidigt. </p> <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som söker efter projekt som har statusen Aktuell och som har villkoret Vid risk och markerar dem som"Mediation behövs". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Använd den här operatorn för att ange att villkoret är uppfyllt när uttrycket  söker efter ett objekt som uppfyller två villkor samtidigt. </p> <p>Använd till exempel följande programsats i ett beräknat anpassat fält för att skapa en IF-programsats som söker efter projekt som har statusen Aktuell och som har villkoret Vid risk och markerar dem som"Mediation behövs". </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

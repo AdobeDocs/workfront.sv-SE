@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Lägg till artiklar och utgåvor från [!UICONTROL Scrum] board
+# Lägg till artiklar och utgåvor från [!UICONTROL Scrum]-panelen
 
 Du kan snabbt skapa en ny artikel eller ett nytt problem direkt från Sampboard eller lägga till en befintlig artikel eller ett befintligt problem från styrelsen.
 
 >[!NOTE]
 >
->Arbetsuppgiften [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] påverkas av en inställning på [!UICONTROL Edit Team] sida. Mer information finns i avsnittet [[!UICONTROL Configure] hur datum används när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Arbetsobjektet [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] påverkas av en inställning på sidan [!UICONTROL Edit Team]. Mer information finns i avsnittet [[!UICONTROL Configure] om hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -48,15 +48,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa en ny artikel eller ett nytt problem från Scrum board
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du sedan ett nytt Scrum-team i listrutan eller söker efter ett team i sökfältet.
-1. Välj **[!UICONTROL Iterations]** om du vill välja en viss upprepning, eller markera **[!UICONTROL Current Iteration]**.
-1. Klicka **[!UICONTROL Add]** till höger om Scrum board och väljer **[!UICONTROL New Story]** eller **[!UICONTROL New Issue]**.
-1. I **[!UICONTROL New]** lägger du till följande information:
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
+1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
+1. Klicka på **[!UICONTROL Add]** till höger på skärmtangentbordet och välj **[!UICONTROL New Story]** eller **[!UICONTROL New Issue]**.
+1. Lägg till följande information i dialogrutan **[!UICONTROL New]**:
 
    <table style="table-layout:auto">
     <tr>
@@ -77,13 +77,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tr>
    </table>
 
-1. Klicka **[!UICONTROL Add Story]** eller **[!UICONTROL Add Issue]**.
+1. Klicka på **[!UICONTROL Add Story]** eller **[!UICONTROL Add Issue]**.
 
-## Lägg till en befintlig artikel eller utgåva från [!UICONTROL Scrum] board
+## Lägg till en befintlig artikel eller utgåva från [!UICONTROL Scrum]-tavlan
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du sedan ett nytt Scrum-team i listrutan eller söker efter ett team i sökfältet.
-1. Välj **[!UICONTROL Iterations]** om du vill välja en viss upprepning, eller markera **[!UICONTROL Current Iteration]**.
-1. Klicka **[!UICONTROL Add]** till höger om Scrum board och väljer **[!UICONTROL Existing Story]** eller **[!UICONTROL Existing Issue]**.
-1. I **[!UICONTROL Add Existing from Backlog]** börjar du skriva namnet på en artikel eller ett problem och markerar det när det visas i listan.
-1. Klicka **[!UICONTROL Add Story]** eller **[!UICONTROL Add Issue]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
+1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
+1. Klicka på **[!UICONTROL Add]** till höger på skärmtangentbordet och välj **[!UICONTROL Existing Story]** eller **[!UICONTROL Existing Issue]**.
+1. I dialogrutan **[!UICONTROL Add Existing from Backlog]** börjar du skriva namnet på en artikel eller ett problem och markerar det sedan när det visas i listan.
+1. Klicka på **[!UICONTROL Add Story]** eller **[!UICONTROL Add Issue]**.

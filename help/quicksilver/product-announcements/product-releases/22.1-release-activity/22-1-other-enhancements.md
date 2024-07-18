@@ -33,7 +33,7 @@ För att göra det enklare och snabbare att hitta objekt som kräver din uppmär
 
 Före dessa förbättringar kan du bara gruppera dina objekt efter planerat slutförandedatum och efter implementeringsdatum.
 
-Mer information finns i [Visa objekt i arbetslista i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 ## Lägg till området Mina uppdateringar för alla licensierade användare
 
@@ -63,7 +63,7 @@ Några av uppdateringarna är:
 
 Mer information finns i följande artiklar:
 
-* [Förstå layouten för tidrapporten](../../../timesheets/timesheets/timesheet-layout.md)
+* [Förstå layout för tidrapport](../../../timesheets/timesheets/timesheet-layout.md)
 * [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md)
 
 ## Nytt verktygsfält för användarlistor

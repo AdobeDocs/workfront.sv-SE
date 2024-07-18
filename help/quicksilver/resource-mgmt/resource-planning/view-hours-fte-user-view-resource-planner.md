@@ -3,13 +3,13 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn
-description: Visa Tillgängliga, Planerade och Faktiska timmar eller Faktiska timmar i resursplaneraren när du använder användarvyn i Planering i den högra panelen, t.ex."Budgeteringsresurser i den högra panelen" eller"Hantera resurser i den högra panelen". osv.. - eller kan behöva återanvändas från ett annat POV?!)"
+description: Visa Tillgängliga, Planerade och Faktiska timmar eller Faktiska timmar i resursplaneraren när du använder användarvyn i Planering i den högra panelen, t.ex."Budgeteringsresurser i den högra panelen" eller"Hantera resurser i den högra panelen". eller behöver återanvändas från ett annat POV?!"
 author: Alina
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1738'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -29,14 +29,14 @@ Tänk på följande när du visar information om timmar eller FTE i resursplaner
 * Du kan visa tillgängliga och planerade timmar eller FTE-information för användare, jobbroller och projekt i alla vyer av resursplaneraren.
 * Du kan bara visa följande information i användarvyn:
 
-   * Skillnaden mellan antalet planerade timmar eller heltidsekvivalenter och antalet tillgängliga timmar eller heltidsekvivalenter. Du kan sedan budgetera allokeringen av dina användare enligt den här skillnaden i projekt- och rollvyerna.
+   * Skillnaden mellan antalet planerade timmar eller heltidsanställda och antalet tillgängliga timmar eller heltidsanställda. Du kan sedan budgetera allokeringen av dina användare enligt den här skillnaden i projekt- och rollvyerna.
    * Faktiska timmar eller heltidsanställda.
 
 * Du kan visa skillnaden mellan Tillgänglig användare och mängden Planerade timmar eller FTE som ett tal eller som ett procentvärde i användarvyn.
 * Du kan inte visa informationen i användarvyn efter Kostnad.
 * Adobe Workfront fyller i Tillgängliga timmar eller FTE enligt den arbetstid som är associerad med användarna i deras scheman.\
-   Användare som inte är associerade med ett schema visar tillgänglighet enligt standardschemat.\
-   Mer information om standardschemat finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+  Användare som inte är associerade med ett schema visar tillgänglighet enligt standardschemat.\
+  Mer information om standardschemat finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * Workfront fyller i information om planerade timmar eller heltidsanställda från Planerade timmar om uppgifter och problem i projekten.
 * Workfront fyller i Faktiska timmar med den faktiska tid som loggats för uppgifter och utgåvor av de användare som tilldelats dem. Detta inkluderar tid inloggad på ett projekt.
@@ -44,23 +44,23 @@ Tänk på följande när du visar information om timmar eller FTE i resursplaner
 
    * Expandera varje användare för att visa en lista över projekt där användaren är tilldelad.
 
-      >[!NOTE]
-      >
-      >Endast användare som är kopplade till projekt som ingår i filtren kan expanderas.
+     >[!NOTE]
+     >
+     >Endast användare som är kopplade till projekt som ingår i filtren kan expanderas.
 
    * Expandera varje projekt för att visa en lista över jobbroller som användare kan utföra i dessa projekt.
    * Expandera varje roll för att visa en lista över uppgifter som användaren i den rollen är tilldelad till.
 
-   Om användarna inte har några jobbroller kopplade till sig visas deras tillgängliga, planerade och faktiska timmar eller FTE i listan **Ingen roll** -avsnitt.\
-   Mer information om vilka fält och objekt som visas när användarvyn används i resursplaneraren finns i avsnittet Projekt/roll/Val av användarvy i [Översikt över navigering i resursplanering](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Om användare inte har några jobbroller kopplade till sig visas deras tillgängliga, planerade och faktiska timmar eller FTE i avsnittet **Ingen roll**.\
+  Mer information om vilka fält och objekt som visas när användarvyn används i resursplaneraren finns i avsnittet Projekt/Roll/Val av användarvy i [Resursplaneringsnavigeringsöversikt](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Översikt över fält som visas i användarvyn i resursplaneraren
 
 Se följande tabeller för att förstå informationen som visas i vyn Användare i Resursplaneraren. Informationen visas i timmar eller FTE-värden.
 
-* [Kolumnen AVL (tillgänglig)](#the-avl-available-column)
-* [Kolumnen PLN (planerad)](#the-pln-planned-column)
-* [Kolumnen ACT (faktisk)](#The%C2%A0ACT)
+* [AVL (tillgänglig) kolumn](#the-avl-available-column)
+* [PLN-kolumnen (planerad)](#the-pln-planned-column)
+* [ACT-kolumnen (faktisk)](#The%C2%A0ACT)
 * [DIF-kolumnen (Differens)](#the-dif-difference-column)
 * [Kolumnen % (procentandel för planerad timfördelning)](#the-planned-hours-allocation-percentage-column)
 
@@ -84,7 +84,7 @@ Se följande tabeller för att förstå informationen som visas i vyn Användare
   </tr> 
   <tr> 
    <td>Roll</td> 
-   <td> <p>Totalt antal tillgängliga timmar eller heltidsekvivalenter för rollen enligt schemat för användaren och <strong>Procent tillgängliga heltidsanställda</strong> rollen.</p> </td> 
+   <td> <p>Totalt antal tillgängliga timmar eller heltidsanställda för rollen enligt användarens schema och rollens <strong>procentuella FTE-tillgänglighet</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td>Uppgift eller ärende</td> 
@@ -93,7 +93,7 @@ Se följande tabeller för att förstå informationen som visas i vyn Användare
  </tbody> 
 </table>
 
-Mer information om hur tillgängligheten för användare och roller beräknas baserat på användarens schema och procentandelen FTE-tillgänglighet för rollen finns i [Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Mer information om hur tillgängligheten för användare och roller beräknas baserat på användarens schema och procentandelen FTE-tillgänglighet för rollen finns i [Översikt över beräkning av timmar och FTE för användare och roller i resursplaneraren](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ### Kolumnen PLN (planerad) {#the-pln-planned-column}
 
@@ -107,15 +107,15 @@ Mer information om hur tillgängligheten för användare och roller beräknas ba
   </tr> 
   <tr> 
    <td>Användare</td> 
-   <td> Totalt antal planerade timmar eller heltidsanställda av alla uppgifter eller ärenden som tilldelats användaren i alla projekt.<br><p>Detta inkluderar uppgifter och ärenden som tilldelats användaren men inte är kopplade till någon jobbroll och uppgifter eller problem som inte finns i projekt som du har åtkomst till Hantera.</p><p>När användarallokeringen för timmar har ändrats med hjälp av Utjämning av arbetsbelastning kan data i resursplaneraren påverkas om de valda datumen bara innehåller en del av en aktivitet eller ett problem. Mer information om hur du ändrar tilldelningar för användare finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Utjämning av arbetsbelastning</a> . </p></td> 
+   <td> Totalt antal planerade timmar eller heltidsanställda av alla uppgifter eller ärenden som tilldelats användaren i alla projekt.<br><p>Detta inkluderar uppgifter och ärenden som tilldelats användaren men inte är kopplade till någon jobbroll och uppgifter eller problem som inte finns i projekt som du har åtkomst till Hantera.</p><p>När användarallokeringen för timmar har ändrats med hjälp av belastningsutjämnaren för arbetsbelastning kan data i resursplaneraren påverkas om de valda datumen bara innehåller en del av en aktivitet eller ett problem. Mer information om hur du ändrar allokeringar för användare finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Arbetsbelastningsutjämnaren</a> . </p></td> 
   </tr> 
   <tr> 
    <td>Projekt</td> 
-   <td> Totalt antal planerade timmar eller heltidsekvivalenter för alla uppgifter och ärenden som tilldelats en viss användare i projektet.<br><p>Obs! Detta inkluderar inte planerade timmar eller heltidsekvivalenter från aktiviteter eller ärenden som inte har tilldelats några användare. </p></td> 
+   <td> Totalt antal planerade timmar eller heltidsekvivalenter för alla uppgifter och ärenden som tilldelats en viss användare i projektet.<br><p>Obs! Detta inkluderar inte Planerade timmar eller FTE från uppgifter eller ärenden som inte tilldelats några användare. </p></td> 
   </tr> 
   <tr> 
    <td>Roll</td> 
-   <td> <p>Totalt antal planerade timmar eller heltidsekvivalenter för alla uppgifter och ärenden som tilldelats användaren i den här rollen i projektet.</p> <p> <p>Obs! Detta inkluderar inte planerade timmar eller heltidsekvivalenter från aktiviteter eller ärenden som tilldelats den här rollen, men inte till den här användaren i den här rollen. </p> </p> </td> 
+   <td> <p>Totalt antal planerade timmar eller heltidsekvivalenter för alla uppgifter och ärenden som tilldelats användaren i den här rollen i projektet.</p> <p> <p>Obs! Detta inkluderar inte Planerade timmar eller FTE från uppgifter eller ärenden som tilldelats den här rollen, men inte till den här användaren i den här rollen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Uppgift eller ärende</td> 
@@ -131,29 +131,29 @@ Tänk på följande när du visar Planerade timmar:
 -->
 
 * Planerade timmar fördelas jämnt till varje dag inom varaktigheten för uppgifter och utgåvor, för varje resurs som tilldelats dem. Aktivitetens eller utgivarens varaktighet baseras på planerad start- och slutförandetid och omfattar varje kalenderdag inom den tidsperioden.\
-   Workfront tar hänsyn till schemat för användare eller projekt när Planerade timmar distribueras till användare eller projekt. I det här fallet fördelas planerade timmar jämnt till varje dag under varaktigheten för uppgifter eller ärenden exklusive helger, lediga dagar och schemaläggningsundantag.
+  Workfront tar hänsyn till schemat för användare eller projekt när Planerade timmar distribueras till användare eller projekt. I det här fallet fördelas planerade timmar jämnt till varje dag under varaktigheten för uppgifter eller ärenden exklusive helger, lediga dagar och schemaläggningsundantag.
 
-   Om du till exempel visar resursplaneraren efter vecka och du har uppgifter som sträcker sig över flera veckor i projekt, beror antalet planerade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.\
-   Veckoslutsdagar, schemaundantag och lediga dagar exkluderas från denna distribution.
+  Om du till exempel visar resursplaneraren efter vecka och du har uppgifter som sträcker sig över flera veckor i projekt, beror antalet planerade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.\
+  Veckoslutsdagar, schemaundantag och lediga dagar exkluderas från denna distribution.
 
 * Följande kategorier av uppgifter ingår i beräkningen av planerade timmar för varje resurs:
 
    * uppgifter som tilldelats användare i Resurspooler, jobbroller eller team i projektet.
 
-      >[!TIP]
-      >
-      >Om uppgifter tilldelas team visas deras allokering under **Ingen roll** och **Ingen användare** -avsnitt. Du kan se de planerade timmar som är kopplade till team, men du kan inte budgetera timmarna eftersom inga roller eller användare är kopplade till uppgifterna.
+     >[!TIP]
+     >
+     >Om uppgifter tilldelas team visas deras allokering under avsnitten **Ingen roll** och **Ingen användare**. Du kan se de planerade timmar som är kopplade till team, men du kan inte budgetera timmarna eftersom inga roller eller användare är kopplade till uppgifterna.
 
 * Planerade timmar i resursplaneraren inkluderar inte Planerade timmar som är associerade med följande:
 
    * överordnade uppgifter
    * ej tilldelade uppgifter
-   * problem, när **Inkludera timmar från ärenden** inställningen är inaktiverad.
+   * problem när inställningen **Inkludera timmar från problem** är inaktiverad.
 
 * Planerade timmar visas inte i resursplaneraren om aktivitetens eller ärendets varaktighet är noll.
 * Planerade timmar som är associerade med inaktiverade användare visas inte.
 
-Mer information om planerade timmar och heltidsanställda i resursplaneraren finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Mer information om Planerade timmar och heltidsekvivalenter i resursplaneraren finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ### Kolumnen ACT (faktisk)
 
@@ -175,7 +175,7 @@ Mer information om planerade timmar och heltidsanställda i resursplaneraren fin
   </tr> 
   <tr> 
    <td>Projekt </td> 
-   <td> <p>Den tid som användaren loggade in på alla uppgifter och ärenden som tilldelats dem i projektet.</p> <p>Detta gäller när de loggar direkt i projektet.</p> <p>Detta omfattar inte följande:</p> 
+   <td> <p>Den tid som användaren loggade in på alla uppgifter och ärenden som tilldelats dem i projektet.</p> <p>Detta gäller även när de loggat direkt i projektet.</p> <p>Detta omfattar inte följande:</p> 
     <ul> 
      <li> <p>Tidsloggade uppgifter och ärenden som inte tilldelats några användare. </p> </li> 
      <li> <p>Tid för inloggning på överordnade uppgifter. </p> </li> 
@@ -222,7 +222,7 @@ Mer information om faktiska timmar finns i [Visa faktiska timmar](../../manage-w
   </tr> 
   <tr> 
    <td>Roll</td> 
-   <td> <p>Skillnaden mellan tillgängliga och planerade timmar eller heltidsanställda för jobbrollen. </p> <p>Skillnaden i timma eller heltidsekvivalent beräknas med följande formel:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Obs! Om värdet visas i negativa röda tal, överfördelas rollen. </p> </p> </td> 
+   <td> <p>Skillnaden mellan tillgängliga och planerade timmar eller heltidsanställda för jobbrollen. </p> <p>Skillnaden i timma eller heltidsekvivalent beräknas med följande formel:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Obs! Om värdet visas i negativa röda tal överfördelas rollen. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Uppgift eller ärende</td> 
@@ -247,7 +247,7 @@ Mer information om faktiska timmar finns i [Visa faktiska timmar](../../manage-w
   </tr> 
   <tr> 
    <td>Projekt</td> 
-   <td>Den här informationen är inte tillgänglig för projektet när du använder <strong>Visa efter användare</strong> till resursplaneraren.</td> 
+   <td>Den här informationen är inte tillgänglig för projektet när vyn <strong>Visa efter användare</strong> tillämpas på resursplaneraren.</td> 
   </tr> 
   <tr> 
    <td>Roll</td> 

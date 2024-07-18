@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Markeringsmoduler
-description: I en [!DNL Adobe Workfront Fusion] kan du använda Markdown-modulerna för att konvertera Markdown till HTML och HTML till Markdown.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du använda Markdown-modulerna för att konvertera Markdown till HTML och HTML till Markdown.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e810302-4897-494a-9b50-667d87ce9cb7
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!UICONTROL Markdown] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du använda [!UICONTROL Markdown] för att konvertera Markdown till HTML och HTML till Markdown.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du använda modulerna [!UICONTROL Markdown] för att konvertera Markdown till HTML och HTML till Markdown.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -42,25 +42,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Markdown to HTML]
 
@@ -74,11 +74,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Markdown]</td> 
-   <td> <p>Ange markeringsformaterad oformaterad text.</p> </td> 
+   <td> <p>Ange markeringsformaterad normal text.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Aktivera det här alternativet om du vill konvertera GitHub Flavsted Markdown till HTML.</p> <p>Mer information finns i mars[!DNL ]nedåtkalkylblad i [!DNL GitHub] dokumentation.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill konvertera GitHub Flavsted Markdown till HTML.</p> <p>Mer information finns i faktablad för mar[!DNL ]kdown i [!DNL GitHub] -dokumentationen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sanitize]</td> 
@@ -101,7 +101,7 @@ Den här modulen konverterar HTML-kod till Markdown.
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Aktivera det här alternativet för att konvertera HTML till [!DNL GitHub Flavored Markdown].</p> <p>Mer information finns i markeringsdatabladet i [!DNL GitHub] dokumentation.</p> </td> 
+   <td> <p>Aktivera det här alternativet för att konvertera HTML till [!DNL GitHub Flavored Markdown].</p> <p>Mer information finns i markeringsdatabladet i dokumentationen för [!DNL GitHub].</p> </td> 
   </tr> 
  </tbody> 
 </table>

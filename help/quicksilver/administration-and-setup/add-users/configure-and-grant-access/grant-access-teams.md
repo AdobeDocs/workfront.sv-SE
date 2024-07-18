@@ -34,7 +34,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -42,19 +42,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Konfigurera användaråtkomst för att redigera användare med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** eller **Redigera** till höger om Teams och välj sedan de funktioner som du vill bevilja under **Finjustera inställningarna**.
+1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Team och välj sedan de funktioner du vill ge under **Finjustera dina inställningar**.
 
    * **Visa**: Om du konfigurerar hur användare med en licens kan visa team kan du ändra något av följande alternativ:
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
         <tr>
          <td role="rowheader">Visa team som är associerade med mina grupper</td>
          <td>
-          <p><b>Aktiverad</b>: När användare söker efter team i ett Team type-ahead-fält kan användarna se vilka team som är kopplade till deras grupper, oavsett om de är teammedlemmar eller inte. </p>
-          <p><b>Handikappade</b>: När användare söker efter team i ett Team type-ahead-fält kan användarna bara se de team som är kopplade till sina grupper där de är teammedlemmar</p><p>Det här alternativet är aktiverat som standard.</p>
+          <p><b>Aktiverad</b>: När användare söker efter team i ett Team type-ahead-fält kan användarna se de team som är associerade med deras grupper, oavsett om de är teammedlemmar eller inte. </p>
+          <p><b>Inaktiverad</b>: När användare söker efter team i ett Team type-ahead-fält kan användarna bara se de team som är associerade med deras grupper där de är teammedlemmar</p><p>Det här alternativet är aktiverat som standard.</p>
           </td>
         </tr>
         <tr>
@@ -64,9 +64,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
        </tbody>
       </table>
 
-   * **Redigera**: Om du konfigurerar hur användare med en planlicens och en arbetslicens kan hantera team kan du ändra något av följande alternativ:
+   * **Redigera**: Om du konfigurerar hur användare med en planlicens och en arbetslicens kan hantera team ändrar du något av följande alternativ:
 
-      <table style="table-layout:auto">
+     <table style="table-layout:auto">
        <col>
        <col>
        <tbody>
@@ -89,8 +89,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <tr>
          <td role="rowheader">Visa team som är associerade med mina grupper</td>
          <td>
-         <p><b>Aktiverad</b> När användare söker efter team i ett Team type-ahead-fält kan användarna se vilka team som är kopplade till deras grupper, oavsett om de är teammedlemmar eller inte. </p>
-         <p><b>Handikappade</b>: När användare söker efter team i ett Team type-ahead-fält kan användarna bara se de team som är kopplade till sina grupper där de är teammedlemmar</p><p>Det här alternativet är aktiverat som standard.</p>
+         <p><b>Aktiverad</b> När användare söker efter team i ett Team type-ahead-fält kan användarna se de team som är associerade med deras grupper, oavsett om de är teammedlemmar eller inte. </p>
+         <p><b>Inaktiverad</b>: När användare söker efter team i ett Team type-ahead-fält kan användarna bara se de team som är associerade med deras grupper där de är teammedlemmar</p><p>Det här alternativet är aktiverat som standard.</p>
          </td>
         </tr>
         <tr>
@@ -100,20 +100,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
        </tbody>
       </table>
 
-1. Klicka på X för att stänga **Finjustera inställningarna** box.
-1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Klicka på krysset för att stänga rutan **Finjustera dina inställningar**.
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. När du är klar klickar du på **Spara**.
 
 >[!NOTE]
 >
 >* Följande gäller oavsett åtkomstnivåinställningar:
-   >
-   >   * Teamägare kan alltid visa och redigera sina team
-   >   * Användarna har alltid tillgång till de team de är i
 >
-* Konfigurationen av de alternativ som är tillgängliga för både Visa och Redigera (till exempel &quot;Visa team som är kopplade till mina grupper&quot;) behålls om du väljer Visa i stället för Redigera eller Redigera i stället för Visa på en åtkomstnivå.
+>   * Teamägare kan alltid visa och redigera sina team
+>   * Användarna har alltid tillgång till de team de är i
 >
-
+>* Konfigurationen av de alternativ som är tillgängliga för både Visa och Redigera (till exempel &quot;Visa team som är kopplade till mina grupper&quot;) behålls om du väljer Visa i stället för Redigera eller Redigera i stället för Visa på en åtkomstnivå.
+>
 
 ## Åtkomst till team per licenstyp
 

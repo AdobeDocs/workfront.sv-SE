@@ -9,7 +9,7 @@ role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2147'
 ht-degree: 0%
 
 ---
@@ -70,18 +70,18 @@ Följande Workfront-objekt stöds av händelseprenumerationer.
 * Mall
 * Tidrapport
 * Användare
-* Arbetsyta
+* Workspace
 
-En lista med fält som stöds av händelseprenumerationsobjekt finns på [Resursfält för händelseprenumeration](../../wf-api/api/event-sub-resource-fields.md).
+En lista över fält som stöds av händelseprenumerationsobjekt finns i [Resursfält för händelseprenumerationer](../../wf-api/api/event-sub-resource-fields.md).
 
 ## Autentisering av händelseabonnemang
 
 Om du vill skapa, fråga efter eller ta bort en händelseprenumeration behöver din Workfront-användare följande:
 
 * Du måste ha åtkomstnivån &quot;Systemadministratör&quot; för att kunna använda händelseprenumerationer.
-* A `sessionID`  måste anges för att du ska kunna använda API:t för händelseprenumerationer
+* Ett `sessionID`-huvud krävs för att använda API:t för händelseprenumerationer
 
-  Mer information finns i [Autentisering](api-basics.md#authentication) in [Grunderna i API](api-basics.md).
+  Mer information finns i [Autentisering](api-basics.md#authentication) i [API-grunder](api-basics.md).
 
 ## Formge prenumerationsresursen
 
@@ -89,11 +89,11 @@ Prenumerationsresursen innehåller följande fält.
 
 * objId (valfritt)
 
-   * **Sträng** - ID:t för objektet för den angivna objCode som händelser utlöses för. Om det här fältet inte anges tar användaren emot händelser för alla objekt av den angivna typen.
+   * **String** - ID:t för objektet för den angivna objCode som händelser utlöses för. Om det här fältet inte anges tar användaren emot händelser för alla objekt av den angivna typen.
 
 * objCode (obligatoriskt)
 
-   * **Sträng** - ObjCode för objektet som prenumererar på ändringar. Möjliga värden för objCode listas i tabellen nedan.
+   * **String** - ObjCode för objektet som prenumererar på ändringar. Möjliga värden för objCode listas i tabellen nedan.
 
      <table style="table-layout:auto"> 
       <col> 
@@ -182,15 +182,15 @@ Prenumerationsresursen innehåller följande fält.
         <td scope="col">ANVÄNDARE</td> 
        </tr> 
        <tr> 
-        <td scope="col">Arbetsyta</td> 
-        <td scope="col">ARBETSYTA</td> 
+        <td scope="col">Workspace</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
 
 * eventType (obligatoriskt)
 
-   * **Sträng** - ett värde som representerar den typ av händelse som objektet prenumererar på. De tillgängliga händelsetyperna är:
+   * **String** - Ett värde som representerar den typ av händelse som objektet prenumererar på. De tillgängliga händelsetyperna är:
 
       * SKAPA
       * DELETE 
@@ -198,11 +198,11 @@ Prenumerationsresursen innehåller följande fält.
 
 * url (obligatoriskt)
 
-   * **Sträng** - URL:en för den slutpunkt till vilken prenumerationshändelsenyttolaster skickas via HTTP.
+   * **String** - URL:en för den slutpunkt till vilken prenumerationshändelsenyttolaster skickas via HTTP.
 
 * authToken (obligatoriskt)
 
-   * **Sträng** - Bearer-token för OAuth2 används för att autentisera med den URL som anges i fältet &quot;URL&quot;. 
+   * **String** - Bearer-token för OAuth2 används för att autentisera med den URL som anges i URL-fältet. 
 
 ## Skapa API-begäranden för händelseprenumeration
 
@@ -240,7 +240,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Exempel på brödtext i begäran:**
+**Exempel på begärandebrödtext:**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -260,7 +260,7 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 401 (obehörig) | Angivet sessions-ID var tomt eller ansågs ogiltigt. |
 | 403 (Ej tillåtet) | Användaren som matchar angivet sessions-ID har inte administratörsåtkomst. |
 
-Om du skickar en prenumerationsresurs som innehåll för en begäran (med innehållstypen &quot;application/json&quot;) skapas en händelseprenumeration för det angivna objektet. Svarskoden 201 (Skapad) anger att prenumerationen skapades. En annan svarskod än 201 innebär att prenumerationen **NOT** har skapats.
+Om du skickar en prenumerationsresurs som innehåll för en begäran (med innehållstypen &quot;application/json&quot;) skapas en händelseprenumeration för det angivna objektet. Svarskoden 201 (Skapad) anger att prenumerationen skapades. En annan svarskod än 201 innebär att prenumerationen **INTE** skapades.
 
 >[!NOTE]
 >
@@ -283,8 +283,8 @@ När du frågar efter Workfront HTTP använder du GET-metoden. Det finns två s�
 
 Du kan fråga alla händelseprenumerationer för en kund eller använda följande för att hantera svaret. Du kan också använda följande alternativ för att hantera svaret:
 
-* **page**: frågeparameteralternativ som anger hur många sidor som ska returneras. Standardvärdet är 1.
-* **limit**: frågeparameteralternativ som anger hur många resultat som ska returneras per sida. Standardvärdet är 100 med högst 1 000.
+* **sida**: frågeparameteralternativ som anger hur många sidor som ska returneras. Standardvärdet är 1.
+* **limit**: frågeparameteralternativ som anger antalet resultat som ska returneras per sida. Standardvärdet är 100 med högst 1 000.
 
 Syntaxen för att ange alla händelseprenumerationer för en viss kund är följande:
 
@@ -373,7 +373,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 Plats
 
-* **page** och **limit** är värdena som anges i begäran eller standardvärdena om inga värden anges
+* **page** och **limit** är värdena som anges i begäran eller standardvärdet om inga värden anges
 * **page_count** är det totala antalet sidor som kan efterfrågas.
 * **total_count** är det totala antalet prenumerationer som matchar frågan.
 
@@ -437,21 +437,21 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 Du kan använda händelseprenumerationsfiltrering för att försäkra dig om att du bara får relevanta meddelanden. Om du skapar filter för dina prenumerationer kan det minska antalet meddelanden som slutpunkten behöver ta emot avsevärt.
 
-Till exempel en **UPPDATERING - AKTIVITET** händelseprenumeration kan bara anges som utlösare när **newState** för en händelsenyttolast definierar **taskStatus** as **aktuell**.
+En **UPDATE - TASK** -händelseprenumeration kan till exempel bara anges som utlösare när **newState** för en händelsenyttolast definierar **taskStatus** som **current**.
 
 >[!IMPORTANT]
 >
-Följande attribut gäller för händelseprenumerationsfiltrering
+>Följande attribut gäller för händelseprenumerationsfiltrering
 
-* När ett filterfält har ett värde som inte är tomt är det bara meddelanden med en **newState** som innehåller filternycklar och värden skickas till den prenumererade URL:en
-* Du kan filtrera efter anpassade data i **newState** OCH/ELLER **oldState** för objektet
+* När ett filterfält har ett värde som inte är tomt skickas bara meddelanden med en **newState** som innehåller filternycklarna och värdena till den prenumererade URL:en
+* Du kan filtrera efter anpassade data som ingår i objektets **newState** AND/OR **oldState**
 * Filter utvärderas enbart utifrån om de är lika med ett visst värde eller inte
-* Om filtersyntaxen är felaktig eller inte matchar några data i **newState** av nyttolasten returneras inget valideringsmeddelande för att ange att ett fel har inträffat
+* Om filtersyntaxen är felaktig eller inte matchar några data som finns i **newState** i nyttolasten, returneras inget valideringsmeddelande som anger att ett fel har inträffat
 * Det går inte att uppdatera filter för en prenumeration som redan finns. En ny prenumeration måste skapas med nya filterparametrar.
 * Flera filter kan tillämpas på en prenumeration och prenumerationen levereras endast när alla filtervillkor är uppfyllda.
-* Att tillämpa flera filter på en prenumeration är en metod som motsvarar att använda en **OCH** logisk operator.
+* Att tillämpa flera filter på en prenumeration är en procedur som motsvarar att använda en logisk **AND** -operator.
 * Flera händelseprenumerationer kan användas på ett enda objekt så länge som en eller flera parametrar för händelseprenumerationsfält är olika för varje händelseteckning.
-* När flera händelseprenumerationer tilldelas till ett enda objekt kan alla händelseprenumerationer som är kopplade till det objektet returneras till en enda slutpunkt. Den här metoden kan användas som ett likvärdigt alternativ till en logisk operator **ELLER** som inte kan anges med filterparametrar.
+* När flera händelseprenumerationer tilldelas till ett enda objekt kan alla händelseprenumerationer som är kopplade till det objektet returneras till en enda slutpunkt. Den här metoden kan användas som en motsvarande ersättning för den logiska operatorn **OR** som inte kan anges med filterparametrar.
 
 ### Använda jämförelseoperatorer
 
@@ -459,7 +459,7 @@ Du kan ange ett jämförelsefält tillsammans med filterfältet. Använd en jäm
 
 #### eq: lika
 
-Det här filtret gör att meddelanden kan visas om ändringen som inträffade matchar `fieldValue` i filtret exakt. The `fieldValue` är skiftlägeskänsligt.
+Med det här filtret kan meddelanden visas om ändringen som inträffade matchar `fieldValue` i filtret exakt. Värdet `fieldValue` är skiftlägeskänsligt.
 
 ```
 {
@@ -479,7 +479,7 @@ Det här filtret gör att meddelanden kan visas om ändringen som inträffade ma
 
 #### ne: inte lika med
 
-Det här filtret gör att meddelanden kan visas om ändringen inte matchar `fieldValue` i filtret exakt. The `fieldValue` är skiftlägeskänsligt.
+Med det här filtret kan meddelanden visas om ändringen som inträffade inte matchar `fieldValue` i filtret exakt. Värdet `fieldValue` är skiftlägeskänsligt.
 
 ```
 {
@@ -499,7 +499,7 @@ Det här filtret gör att meddelanden kan visas om ändringen inte matchar `fiel
 
 #### gt: större än
 
-Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna `fieldName` är större än värdet för `fieldValue`.
+Med det här filtret kan meddelanden visas om uppdateringen för den angivna `fieldName` är större än värdet för `fieldValue`.
 
 ```
 {
@@ -519,7 +519,7 @@ Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna 
 
 #### gte: större än eller lika med
 
-Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna `fieldName` är större än eller lika med värdet för `fieldValue`.
+Det här filtret tillåter att meddelanden visas om uppdateringen för den angivna `fieldName` är större än eller lika med värdet för `fieldValue`.
 
 ```
 {
@@ -539,7 +539,7 @@ Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna 
 
 #### lt: mindre än
 
-Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna `fieldName` är mindre än värdet för `fieldValue`.
+Med det här filtret kan meddelanden visas om uppdateringen för den angivna `fieldName` är mindre än värdet för `fieldValue`.
 
 ```
 {
@@ -559,7 +559,7 @@ Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna 
 
 #### lte: mindre än eller lika med
 
-Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna `fieldName` är mindre än eller lika med värdet för `fieldValue`.
+Det här filtret gör att meddelanden kan visas om uppdateringen för den angivna `fieldName` är mindre än eller lika med värdet för `fieldValue`.
 
 ```
 {
@@ -579,7 +579,7 @@ Det här filtret gör att meddelanden kan visas om uppdateringen av den angivna 
 
 #### innehåller
 
-Det här filtret gör att meddelanden kan visas om ändringen som inträffade innehåller `fieldValue` i filtret. The `fieldValue` värdet är skiftlägeskänsligt
+Med det här filtret kan meddelanden visas om ändringen som inträffade innehåller `fieldValue` i filtret. Värdet `fieldValue` är skiftlägeskänsligt
 
 ```
 {
@@ -599,11 +599,11 @@ Det här filtret gör att meddelanden kan visas om ändringen som inträffade in
 
 #### change
 
-Det här filtret tillåter bara att meddelanden visas om det angivna fältet (`fieldName`) har ett annat värde i lägena oldstate och newstate. Uppdatera andra fält förutom det angivna (`fieldName`) returnerar inte den ändringen.
+Det här filtret tillåter bara att meddelanden visas om det angivna fältet (`fieldName`) har ett annat värde i läget oldstate och newstate. Uppdatering av andra fält förutom det angivna (`fieldName`) returnerar inte den ändringen.
 
 >[!NOTE]
 >
-`fieldValue` i filterarrayen nedan har ingen effekt.
+>`fieldValue` i filterarrayen nedan har ingen effekt.
 
 ```
 {
@@ -628,8 +628,8 @@ Den här kopplingen gör att filtret tillämpas på det nya eller gamla läget f
 
 >[!NOTE]
 >
-Prenumerationen nedan med det angivna filtret returnerar endast meddelanden där aktivitetens namn innehåller `again` på `oldState`, vad det var innan en uppdatering gjordes för uppgiften.
-Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
+>Prenumerationen nedan med det angivna filtret returnerar bara meddelanden där aktivitetens namn innehåller `again` på `oldState`, vilket var innan en uppdatering gjordes för aktiviteten.
+>Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena som ändrades från en sak till en annan. Om du till exempel vill ta reda på alla uppgifter som har ändrats från &quot;Research Some name&quot; till &quot;Research TeamName Some name&quot;
 
 ```
 {
@@ -650,7 +650,7 @@ Ett användbart exempel för detta skulle vara att hitta objCode-meddelandena so
 
 ### Använda kopplingsfält
 
-The `filterConnector` på prenumerationens nyttolast kan du välja hur filtren ska tillämpas. Standardvärdet är &quot;AND&quot;, där alla filter måste vara `true` för att prenumerationsmeddelandet ska komma fram. Om du anger &quot;OR&quot; får bara ett filter matcha för att prenumerationsmeddelandet ska visas.
+I fältet `filterConnector` på prenumerationsnyttolasten kan du välja hur filtren ska tillämpas. Standardvärdet är&quot;AND&quot;, där alla filter måste vara `true` för att prenumerationsmeddelandet ska visas. Om du anger &quot;OR&quot; får bara ett filter matcha för att prenumerationsmeddelandet ska visas.
 
 ```
 {
@@ -881,7 +881,7 @@ base64Encoding-fältet är ett valfritt fält som används för att aktivera Bas
 
 ### Exempel på en begäran som använder base64Encoding-fältet
 
-Om en begäran görs med base64Encoding-fältet inställt på true, kommer **newState** och **oldState** objekt i nyttolasten levereras som 64-grundskodningssträngar. Om base64Encoding-fältet är inställt på false, lämnas tomt eller inte ingår i begäran, kommer den returnerade nyttolasten inte att kodas i bas 64.
+Om en begäran görs med base64Encoding-fältet inställt på true, levereras objekten **newState** och **oldState** i nyttolasten som 64-grundkodningssträngar. Om base64Encoding-fältet är inställt på false, lämnas tomt eller inte ingår i begäran, kommer den returnerade nyttolasten inte att kodas i bas 64.
 
 Följande är ett exempel på en begäran som använder base64Encoding-fältet:
 
@@ -917,7 +917,7 @@ Följande är ett exempel på en begäran som använder base64Encoding-fältet:
 
 ## Föråldrad metod för att fråga alla händelseprenumerationer
 
-Följande API-slutpunkt är föråldrad och bör inte användas för nya implementeringar. Vi rekommenderar även att du övergår från gamla implementeringar till metoden i **Fråga om händelseprenumerationer** som beskrivs ovan.
+Följande API-slutpunkt är föråldrad och bör inte användas för nya implementeringar. Vi rekommenderar också att du övergår från gamla implementeringar till metoden i avsnittet **Fråga efter händelseprenumerationer** som beskrivs ovan.
 
 Du kan fråga alla händelseprenumerationer för en kund enligt värdet för sessionID. Syntaxen för att ange alla händelseprenumerationer för en viss kund är följande URL:
 

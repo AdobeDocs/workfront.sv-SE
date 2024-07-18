@@ -28,7 +28,7 @@ När du sorterar på anslagstavlan sorteras alla kort i kolumnerna. Det går int
 
 Genom att söka kan du även hitta ett visst kort på kortet.
 
-När filter används visas en indikator på ritbordet ![Filter använt på bräde](assets/boards-filterapplied-30x30.png). Klicka **[!UICONTROL Clear All]** om du vill ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
+När filter används visas en indikator på ![ritytan ](assets/boards-filterapplied-30x30.png). Klicka på **[!UICONTROL Clear All]** för att ta bort alla filter från ritytan och klicka på komprimeringsikonen för att stänga filterpanelen.
 
 ![Panelen Filter](assets/boards-all-filters-collapsed-0823.png)
 
@@ -51,27 +51,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Filtrera en anslagstavla efter tilldelningar
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Members] och markera den eller de personer vars kort du vill se. Du kan även visa kort som inte har tilldelats.
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Members] och markera den eller de personer vars kort du vill se. Du kan även visa kort som inte har tilldelats.
 
    ![Filtrera efter medlem](assets/boards-filter-by-assignees-0822.png)
 
 ## Filtrera en anslagstavla efter taggar
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Tags] och markera de taggar du vill se.
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Tags] och markera de taggar du vill se.
 
    ![Filtrera efter tagg](assets/boards-filter-by-tags-0822.png)
 
 ## Filtrera en anslagstavla efter status
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Statuses] och välj de statustyper som du vill se.
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Statuses] och välj de statustyper som du vill se.
 
    Du kan även dölja färdiga kort.
 
@@ -80,7 +80,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Filtrera en anslagstavla efter förfallodatum
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Due Date] och välj de datumalternativ du vill se.
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Due Date] och välj datumalternativen som du vill se.
 
    Endast kort i de valda datumintervallen visas.
 
@@ -91,10 +91,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslagstavlan så att även arkiverade kort visas.
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
-1. Expandera [!UICONTROL **Kort**].
-1. Aktivera [!UICONTROL **Visa arkiverade kort direkt**].
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
+1. Klicka på [!UICONTROL **Konfigurera**] till höger på kortet för att öppna konfigurationspanelen.
+1. Expandera [!UICONTROL **kort**].
+1. Aktivera [!UICONTROL **Visa arkiverade kort på anslagstavlan**].
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Archived Cards] och välj **[!UICONTROL Archived cards]** om du vill visa arkiverade kort.
 
    Filtret visar antalet arkiverade kort.
 
@@ -102,14 +102,14 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 
    >[!NOTE]
    >
-   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >Avsnittet [!UICONTROL Archived Cards] är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort. Mer information finns i [Anpassa vilka fält som ska visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Välj **[!UICONTROL Archived cards]** igen för att ta bort alternativet och endast visa aktiva kort.
+1. Välj **[!UICONTROL Archived cards]** igen om du vill ta bort alternativet och bara visa aktiva kort.
 
 ## Filtrera en anslagstavla efter anslutning
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Connection] och väljer [!DNL Workfront] projekt för de anslutna kort som du vill se.
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Connection] och välj [!DNL Workfront] -projekten för de anslutna kort som du vill se.
 
    Du kan även visa kort som inte är anslutna till ett projekt.
 
@@ -120,7 +120,7 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det går inte att sortera en enstaka kolumn, och eftersläpningen eller inloppskolumnen sorteras inte.
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Sortera efter**] och markera [!UICONTROL **Namn**], [!UICONTROL **Förfallodatum**], [!UICONTROL **Uppskattning**], [!UICONTROL **Status**], eller [!UICONTROL **Anslutning**].
+1. Klicka på [!UICONTROL **Sortera efter**] och välj [!UICONTROL **Namn**], [!UICONTROL **Förfallodatum**], [!UICONTROL **Uppskattning**], [!UICONTROL **Status**] eller [!UICONTROL **Anslutning**].
 
    Anslutning (projektnamn) gäller endast anslutna kort, och de andra alternativen sorterar både anslutna kort och ad hoc-kort i kolumnerna.
 
@@ -130,14 +130,14 @@ När du väljer ett alternativ att sortera efter sorteras alla kolumner. Det gå
 
    Pilen på sorteringsikonen anger om kolumnerna är sorterade i stigande eller fallande ordning.
 
-   När en annan sortering än standardsorteringen används visas en indikator på sorteringsikonen ![Sortering används](assets/sort-applied-boards.png).
+   När en annan sortering än standardsorteringen används visas en indikator på sorteringsikonen ![Sortera använd](assets/sort-applied-boards.png).
 
-   ![Sortera efter kolumner på en anslagstavla](assets/sort-by-columns-in-board.png)
+   ![Sortera efter kolumner på en rityta](assets/sort-by-columns-in-board.png)
 
 ## Sök på en anslagstavla
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Sök**] och skriv ett sökord. Tryck sedan på Enter.
+1. Klicka på [!UICONTROL **Sök**] och skriv en sökterm. Tryck sedan på Enter.
 
    Alla kort som innehåller söktermen visas.
 

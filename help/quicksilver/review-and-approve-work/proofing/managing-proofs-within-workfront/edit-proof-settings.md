@@ -27,14 +27,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -43,20 +43,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Redigera korrekturinställningar
 
 Vissa inställningar kan vara låsta om Workfront-administratören har inaktiverat dem på kontonivån.
 
-1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på **Dokument** -fliken.
-1. För musen över korrekturet och klicka sedan **Dokumentinformation**.
-1. Klicka på i den vänstra panelen **Inställningar för korrekturläsare**.
+1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på fliken **Dokument** .
+1. För musen över korrekturet och klicka sedan på **Dokumentinformation**.
+1. Klicka på **Inställningar för språkkontroll** i den vänstra panelen.
 1. Justera följande inställningar:
 
    <table style="table-layout:auto"> 
@@ -92,14 +92,14 @@ Vissa inställningar kan vara låsta om Workfront-administratören har inaktiver
       <td role="rowheader">Tillåt prenumerationer på korrektur via offentlig URL eller inbäddningskod</td> 
       <td> <p>Om du aktiverar prenumeration på korrekturet kan personer som inte har lagts till explicit i beviset prenumerera på själva beviset (d.v.s. lägga till sig själva till beviset). De tilldelas sedan den roll och e-postavisering som du väljer för dem i prenumerationsinställningarna.</p> <p>Om Prenumeration har aktiverats för ett korrektur aktiveras fälten nedan:</p> 
        <ul> 
-        <li><strong>Prenumerantvalidering krävs</strong> - Prenumeranten måste klicka på en länk i ett e-postmeddelande för att få tillgång till ett korrektur<br>Om du väljer det här alternativet får den som prenumererar inte omedelbar åtkomst till korrekturet, utan en länk till korrekturet i ett e-postmeddelande. Syftet med prenumerantvalidering är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till.</li> 
-        <li><strong>Standardroll för nya prenumeranter -</strong> Detta är standardkorrekturrollen som tilldelas alla granskare som abonnerar på korrekturet.</li> 
-        <li><strong>Standardvarning för nya prenumeranter</strong> - Det här standardmeddelandet som tilldelas alla granskare som abonnerar på korrekturet.</li> 
+        <li><strong>Prenumerantvalidering krävs</strong> - Prenumeranten måste klicka på en länk i ett e-postmeddelande för att få åtkomst till ett korrektur<br>Om du väljer det här alternativet får den som prenumererar inte omedelbar åtkomst till korrekturet, utan en länk till korrekturet i ett e-postmeddelande. Syftet med prenumerantvalidering är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till.</li> 
+        <li><strong>Standardroll för nya prenumeranter -</strong> Det här är standardkorrekturrollen som tilldelas alla granskare som prenumererar på själva korrekturet.</li> 
+        <li><strong>Standardmeddelande för e-post för nya prenumeranter</strong> - Det här är standardmeddelandet som tilldelas alla granskare som abonnerar på korrekturet.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
  

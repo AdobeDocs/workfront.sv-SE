@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
 source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -19,15 +19,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Funktionerna i den här artikeln är bara tillgängliga om din organisations instans av [!DNL Adobe Workfront Fusion] har anslutit sig till [!DNL Adobe Business Platform].
+>Funktionerna i den här artikeln är bara tillgängliga om din organisations instans av [!DNL Adobe Workfront Fusion] har registrerats för [!DNL Adobe Business Platform].
 >
->För en lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Business Platform], se [Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Business Platform] finns i [Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md).
 
-Du kan ta bort en användare från [!DNL Adobe Workfront Fusion] endast, lämna tillgång till andra [!DNL Adobe] produktprofiler eller så kan du ta bort användaren från [!DNL Adobe Admin Console] helt och hållet.
+Du kan bara ta bort en användare från [!DNL Adobe Workfront Fusion], lämna åtkomst till andra [!DNL Adobe]-produktprofiler, eller så kan du ta bort användaren helt från [!DNL Adobe Admin Console].
 
 ## Ta bort en användare i [!DNL Adobe Workfront Fusion]
 
-Ta bort en användare i [!DNL Adobe Workfront Fusion]måste du inaktivera användaren via [!DNL Adobe Admin Console].
+Om du vill ta bort en användare i [!DNL Adobe Workfront Fusion] måste du inaktivera användaren via [!DNL Adobe Admin Console].
 
 En användare inaktiveras från [!DNL Adobe Admin Console] när något av följande gäller:
 
@@ -36,10 +36,10 @@ En användare inaktiveras från [!DNL Adobe Admin Console] när något av följa
 * Användaren tas bort från en produktprofil och tilldelas inte till någon annan produktprofil.
 * Användaren tas bort eller inaktiveras i organisationen som innehåller Workfront Fusion.
 
-  Instruktioner finns i avsnittet&quot;Ta bort användare&quot; i [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
+  Instruktioner finns i avsnittet Ta bort användare i [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
 
-I [!DNL Workfront Fusion]påverkar inaktiveringen användaren på något av följande sätt:
+I [!DNL Workfront Fusion] påverkar inaktiveringen användaren på något av följande sätt:
 
 * Om användaren bara finns i en organisation inaktiveras användaren.
-* Om användaren finns i mer än en organisation tas användaren bort från organisationen som användaren ändrades i på [!DNL Adobe Admin Console].
-* Om du vill ta bort en användare i [!DNL Workfront Fusion], se [Att tänka på när du tar bort en användare i [!DNL Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md#consider)
+* Om användaren finns i mer än en organisation tas användaren bort från organisationen som användaren ändrades i [!DNL Adobe Admin Console].
+* Om du vill ha mer information om hur du tar bort en användare i [!DNL Workfront Fusion] läser du [Att tänka på när du tar bort en användare i  [!DNL Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md#consider)

@@ -10,7 +10,7 @@ role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +57,11 @@ Tänk på följande när du ger användare tillgång till ekonomiska data i Work
 ## Konfigurera användaråtkomst till ekonomiska data med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** eller **Redigera** till höger om Finansiella data och välj sedan de funktioner som du vill bevilja under **Finjustera inställningarna**.
+1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Finansiella data och välj sedan de funktioner som du vill ge under **Finjustera dina inställningar**.
 
    ![](assets/financial-data-fine-tune-nwe.png)
 
-1. (Valfritt) I dialogrutan **Tillåt administrativ åtkomst för** markerar du följande alternativ:
+1. (Valfritt) Välj följande alternativ i området **Tillåt administrativ åtkomst för**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,7 +83,7 @@ Tänk på följande när du ger användare tillgång till ekonomiska data i Work
     </tbody> 
    </table>
 
-1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) som [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 1. När du är klar klickar du på **Spara**.
 
    När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -106,7 +106,7 @@ När du delar ett objekt med en annan användare bestäms mottagarens rättighet
 
 ## Tillgång till ekonomisk information per licenstyp
 
-Information om vad användare på varje åtkomstnivå kan göra med ekonomisk information finns i avsnittet [Finansiella uppgifter](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) i artikeln [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Mer information om vad användare på varje åtkomstnivå kan göra med ekonomisk information finns i avsnittet [Ekonomisk information](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) i artikeln [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Tillgång till ekonomisk information genom att ställa in
 
@@ -119,14 +119,14 @@ En användare utan åtkomst till ekonomiska data har inte åtkomst till följand
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
 * Faktureringspriser och faktureringsposter
-* <span class="preview">Klassificeringskort</span>
+* <span class="preview">Betygsätt kort</span>
 * Kostnad per timme och fakturering per timme i användarinställningarna
 
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
 * Kostnad per timme och fakturering per timme för jobbroller
 
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
 ### Visa åtkomst
 
@@ -137,11 +137,11 @@ En användare med behörigheten Visa för ekonomiska data kan visa (inte rediger
 * Faktureringspriser och faktureringsposter
 * Kostnad per timme och fakturering per timme i användarinställningarna
 
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
 * Kostnad per timme och fakturering per timme för jobbroller
 
-  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Visa i steg 4 ovan.
+  Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på Visa-knappen i steg 4 ovan.
 
 ### Redigera åtkomst
 
@@ -150,7 +150,7 @@ En användare med Redigera-åtkomst till ekonomiska data kan visa och redigera f
 * Avsnittet Ekonomi under Projekt och uppgifter
 * Affärsärende
 * Faktureringspriser och faktureringsposter
-* <span class="preview">Klassificeringskort</span>
+* <span class="preview">Betygsätt kort</span>
 * Kostnad per timme och fakturering per timme i användarinställningarna
 
   Du kan konfigurera detta med kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen Redigera i steg 4 ovan.

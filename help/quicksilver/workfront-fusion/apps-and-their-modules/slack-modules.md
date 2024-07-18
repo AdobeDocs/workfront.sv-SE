@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Slack-moduler
-description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöden som använder Slack och ansluta det till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder Slack och ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: ba5bad6a-3cb3-4024-82f7-d38ee9a8e0b5
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1489'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
 
 # [!DNL Slack] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Slack], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Slack] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,33 +43,33 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Förutsättningar
 
-Används [!DNL Slack] moduler, du måste ha en [!DNL Slack] konto.
+Du måste ha ett [!DNL Slack]-konto för att kunna använda [!DNL Slack]-moduler.
 
-## [!DNL Slack] moduler och deras fält
+## [!DNL Slack]-moduler och deras fält
 
-När du konfigurerar [!DNL Slack] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Slack] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Slack] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Slack] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -100,7 +100,7 @@ Den här utlösarmodulen startar scenariot när ett nytt meddelande läggs till 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel] </td> 
@@ -108,7 +108,7 @@ Den här utlösarmodulen startar scenariot när ett nytt meddelande läggs till 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal meddelanden [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet meddelanden som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -117,7 +117,7 @@ Den här utlösarmodulen startar scenariot när ett nytt meddelande läggs till 
 
 +++**[!UICONTROL Watch Private Channel Messages]**
 
-Den här utlösarmodulen startar scenariot när ett nytt meddelande läggs till i en privat kanal (grupp).
+Denna utlösarmodul startar scenariot när ett nytt meddelande läggs till i en privat kanal (grupp).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -125,7 +125,7 @@ Den här utlösarmodulen startar scenariot när ett nytt meddelande läggs till 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel] </td> 
@@ -133,7 +133,7 @@ Den här utlösarmodulen startar scenariot när ett nytt meddelande läggs till 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal meddelanden [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet meddelanden som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -229,15 +229,15 @@ Den här åtgärdsmodulen hämtar information om ett meddelande från en markera
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Ange (mappa) kanal-ID:t.</p> <p>Obs! Kanal-ID kan hämtas med [!UICONTROL List Channels] -modul.</p> </td> 
+   <td> <p>Ange (mappa) kanal-ID:t.</p> <p>Obs! Channel-ID kan hämtas med modulen [!UICONTROL List Channels].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Message ID (Time stamp)]</p> </td> 
-   <td> <p> Ange eller mappa meddelandets tidsstämpel för meddelandet som du vill hämta information om.</p> <p>Obs! Tidsstämpeln kan hämtas med en annan modul, till exempel [!UICONTROL Watch Public Channel] -modul.</p> </td> 
+   <td> <p> Ange eller mappa meddelandets tidsstämpel för meddelandet som du vill hämta information om.</p> <p>Obs! Tidsstämpeln kan hämtas med en annan modul, till exempel modulen [!UICONTROL Watch Public Channel].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -254,15 +254,15 @@ Den här åtgärdsmodulen returnerar ett meddelande med ett angivet ID från en 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Ange eller mappa kanal-ID:t.</p> <p>Obs! Kanal-ID kan hämtas med [!UICONTROL List Channels] -modul.</p> </td> 
+   <td> <p>Ange eller mappa kanal-ID:t.</p> <p>Obs! Channel-ID kan hämtas med modulen [!UICONTROL List Channels].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID (Time stamp)]</td> 
-   <td> <p> Ange eller mappa meddelandets tidsstämpel för meddelandet som du vill hämta information om.</p> <p>Obs! Tidsstämpeln kan hämtas med en annan modul, till exempel [!UICONTROL Watch Public Channel] -modul.</p> </td> 
+   <td> <p> Ange eller mappa meddelandets tidsstämpel för meddelandet som du vill hämta information om.</p> <p>Obs! Tidsstämpeln kan hämtas med en annan modul, till exempel modulen [!UICONTROL Watch Public Channel].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -312,23 +312,23 @@ Den här åtgärdsmodulen skapar ett nytt meddelande.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter a channel ID or name]</p> </td> 
    <td> <p>Välj hur du vill markera kanalen där du vill skapa ett meddelande.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>I <strong>[!UICONTROL Channel ID or name]</strong> Ange eller mappa kanal-ID:t eller namnet på den kanal där du vill skicka meddelandet.</p> <p>Obs! Kanal-ID kan hämtas med [!UICONTROL List Channels] -modul.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>I fältet <strong>[!UICONTROL Channel ID or name]</strong> anger eller mappar du kanal-ID:t eller namnet på den kanal där du vill skicka meddelandet.</p> <p>Obs! Channel-ID kan hämtas med modulen [!UICONTROL List Channels].</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Välj kanaltyp och sedan kanal.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>Ange textinnehållet i meddelandet som du vill skapa.</p> <p>Obs! Mer information om textformatering finns i <a href="https://api.slack.com/reference/surfaces/formatting">Formatera text för appytor</a> i [!DNL Slack] dokumentation.</p> </td> 
+   <td> <p>Ange textinnehållet i det meddelande som du vill skapa.</p> <p>Obs! Mer information om textformatering finns i <a href="https://api.slack.com/reference/surfaces/formatting">Formatera text för appytor</a> i [!DNL Slack] -dokumentationen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blocks]</td> 
-   <td>Block är återanvändbara komponenter som du kan använda för att anpassa och ordna dina meddelanden. Mer information om block finns i <a href="https://api.slack.com/block-kit">Block Kit</a> i [!DNL Slack] dokumentation.</td> 
+   <td>Block är återanvändbara komponenter som du kan använda för att anpassa och ordna dina meddelanden. Mer information om block finns i <a href="https://api.slack.com/block-kit">Blockkit</a> i [!DNL Slack]-dokumentationen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Thread message ID (time stamp)]</td> 
@@ -339,28 +339,28 @@ Den här åtgärdsmodulen skapar ett nytt meddelande.
    <td> <p>Välj <strong>[!UICONTROL Yes]</strong> om båda följande gäller:</p> 
     <ul> 
      <li> <p>Det nya meddelandet är ett svar på ett annat meddelande</p> </li> 
-     <li> <p>Du vill att det nya meddelandet ska vara synligt för alla i kanalen</p> </li> 
+     <li> <p>Du vill att det nya meddelandet ska visas för alla i kanalen</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Link names]</p> </td> 
-   <td> <p>Aktivera det här alternativet om du vill tillåta att namn och kanaler används <code>@username</code> eller <code>#channel</code> format. </p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack] dokumentation.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta att namn och kanaler använder formatet <code>@username</code> eller <code>#channel</code>. </p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack]-dokumentationen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Parse message text]</p> </td> 
-   <td> <p>Aktivera det här alternativet om du vill tillåta automatisk tolkning. </p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack] dokumentation.</p> <p>Obs! Om du använt [!UICONTROL Link names] eller [!UICONTROL Parse message text] i det ursprungliga meddelandet bör du ange dem när du kör [!UICONTROL Update a Message] också.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta automatisk tolkning. </p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack]-dokumentationen.</p> <p>Obs! Om du använde alternativen [!UICONTROL Link names] eller [!UICONTROL Parse message text] i det ursprungliga meddelandet bör du ange dem även när du kör modulen [!UICONTROL Update a Message].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Use markdown]</p> </td> 
-   <td> <p>Aktivera det här alternativet för att tillåta [!DNL Slack] om du vill använda markeringar i texten.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta [!DNL Slack] att använda markering i texten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Unfurl primarily text-based content]</p> </td> 
-   <td> <p>Aktivera det här alternativet om du vill tillåta borttagning av huvudsakligen textbaserat innehåll. </p> <p>Mer information om att ta bort indrag i [!DNL Slack], se <a href="https://api.slack.com/reference/messaging/link-unfurling">Ta bort länkar i meddelanden</a> i [!DNL Slack] dokumentation.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta borttagning av huvudsakligen textbaserat innehåll. </p> <p>Mer information om borttagning av länkar i [!DNL Slack] finns i <a href="https://api.slack.com/reference/messaging/link-unfurling">Ta bort länkar i meddelanden</a> i [!DNL Slack]-dokumentationen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Unfurl media content]</p> </td> 
-   <td> <p>Aktivera det här alternativet om du vill tillåta att medieinnehåll frigörs. </p> <p>Mer information om att ta bort indrag i [!DNL Slack], se <a href="https://api.slack.com/reference/messaging/link-unfurling">Ta bort länkar i meddelanden</a> i [!DNL Slack] dokumentation.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta att medieinnehåll frigörs. </p> <p>Mer information om borttagning av länkar i [!DNL Slack] finns i <a href="https://api.slack.com/reference/messaging/link-unfurling">Ta bort länkar i meddelanden</a> i [!DNL Slack]-dokumentationen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -377,31 +377,31 @@ Med den här åtgärdsmodulen kan du redigera ett befintligt meddelande.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter a channel ID or name]</p> </td> 
    <td> <p>Välj hur du vill markera meddelandet som du vill skicka.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>I <strong>[!UICONTROL Channel ID or name]</strong> ska du ange eller mappa kanal-ID:t eller kanalen som innehåller meddelandet och sedan ange <strong>[!UICONTROL Time Stamp (Message ID)]</strong> av meddelandet. .</p> <p>Obs! Kanal-ID kan hämtas med [!UICONTROL List Channels] -modul.</p> </li> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Ange eller mappa kanal-ID:t eller kanalen som innehåller meddelandet i fältet <strong>[!UICONTROL Channel ID or name]</strong> och ange sedan meddelandet <strong>[!UICONTROL Time Stamp (Message ID)]</strong>. .</p> <p>Obs! Channel-ID kan hämtas med modulen [!UICONTROL List Channels].</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Välj kanaltyp, markera kanalen och markera sedan meddelandet.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Text]</p> </td> 
-   <td> <p>Ange det nya textinnehållet i meddelandet som du vill uppdatera.</p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack] dokumentation.</p> </td> 
+   <td> <p>Ange det nya textinnehållet i meddelandet som du vill uppdatera.</p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack]-dokumentationen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blocks]</td> 
-   <td>Block är återanvändbara komponenter som du kan använda för att anpassa och ordna dina meddelanden. Mer information om block finns i <a href="https://api.slack.com/block-kit">Block Kit</a> i [!DNL Slack] dokumentation.</td> 
+   <td>Block är återanvändbara komponenter som du kan använda för att anpassa och ordna dina meddelanden. Mer information om block finns i <a href="https://api.slack.com/block-kit">Blockkit</a> i [!DNL Slack]-dokumentationen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Link names]</p> </td> 
-   <td> <p>Aktivera det här alternativet om du vill tillåta att namn och kanaler används <code>@username</code> eller <code>#channel</code> format. </p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack] dokumentation.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta att namn och kanaler använder formatet <code>@username</code> eller <code>#channel</code>. </p> <p>Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack]-dokumentationen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Parse message text]</p> </td> 
-   <td> <p>Aktivera det här alternativet om du vill tillåta automatisk tolkning. </p> <p> Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack] dokumentation.</p> <p>Obs! Om du använt [!UICONTROL Link names] eller [!UICONTROL Parse message text] i det ursprungliga meddelandet bör du även ange dem när du kör modulen Uppdatera ett meddelande.</p> </td> 
+   <td> <p>Aktivera det här alternativet om du vill tillåta automatisk tolkning. </p> <p> Mer information finns i <a href="https://api.slack.com/docs/formatting">Formatera text för appytor</a> i [!DNL Slack]-dokumentationen.</p> <p>Obs! Om du använde alternativen [!UICONTROL Link names] eller [!UICONTROL Parse message text] i det ursprungliga meddelandet bör du ange dem även när du kör modulen Uppdatera ett meddelande.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,11 +418,11 @@ Den här åtgärdsmodulen tar bort ett angivet meddelande.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Ange eller mappa kanal-ID:t.</p> <p>Obs! Kanal-ID kan hämtas med [!UICONTROL List Channels] -modul.</p> </td> 
+   <td> <p>Ange eller mappa kanal-ID:t.</p> <p>Obs! Channel-ID kan hämtas med modulen [!UICONTROL List Channels].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
@@ -658,11 +658,11 @@ Den här sökmodulen returnerar en lista med alla kanaler på en arbetsyta.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Exclude archived]</p> </td> 
-   <td> <p>Välj [!UICONTROL Yes] för att exkludera arkiverade kanaler i resultat.</p> </td> 
+   <td> <p>Välj [!UICONTROL Yes] om du vill exkludera arkiverade kanaler i resultat.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type] </td> 
@@ -670,7 +670,7 @@ Den här sökmodulen returnerar en lista med alla kanaler på en arbetsyta.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal kanaler [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet kanaler som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -687,11 +687,11 @@ Den här åtgärdsmodulen returnerar information om en arbetsytekanal.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Channel ID]</p> </td> 
-   <td> <p>Ange eller mappa ID:t för kanalen som du vill hämta information om.</p> <p>Obs! Kanal-ID kan hämtas med [!UICONTROL List Channels] -modul.</p> </td> 
+   <td> <p>Ange eller mappa ID:t för kanalen som du vill hämta information om.</p> <p>Obs! Channel-ID kan hämtas med modulen [!UICONTROL List Channels].</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -708,7 +708,7 @@ Sökmodulen returnerar en lista med användare i den valda kanalen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Channel type]</td> 
@@ -720,7 +720,7 @@ Sökmodulen returnerar en lista med användare i den valda kanalen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal medlemmar [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet medlemmar som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1488,7 +1488,7 @@ This action module updates a user's current status.
 
 +++ **[!UICONTROL Make an API Call]**
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Slack] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Slack] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Slack]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Slack]-modulerna.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1496,15 +1496,15 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Slack] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Slack]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till <code>https://slack.com/api/</code>. Exempel: <code>/users/identity</code>.</td> 
+   <td>Ange en relativ sökväg till <code>https://slack.com/api/</code>. Exempel: <code>/users/identity</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -1516,7 +1516,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -1532,10 +1532,10 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
 
 ## Terminologi
 
-Följande terminologi kan vara användbar vid konfiguration [!DNL Slack] moduler:
+Följande terminologi kan vara användbar när du konfigurerar [!DNL Slack] moduler:
 
 * **DM**: [!UICONTROL Direct Message]
 * **IM**: [!UICONTROL Instant Message]
 * **Privat kanal**: tidigare [!UICONTROL Group]
 * **Direktmeddelande**: tidigare [!UICONTROL IM]
-* **Kanal**: [!UICONTROL Conversation] i API-dokumentationen, [!UICONTROL channel] i [!DNL Slack] app.
+* **Kanal**: [!UICONTROL Conversation] i API-dokumentationen, [!UICONTROL channel] i appen [!DNL Slack].

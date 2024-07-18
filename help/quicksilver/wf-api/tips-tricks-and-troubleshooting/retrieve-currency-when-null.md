@@ -37,7 +37,7 @@ Detta skulle returnera följande svarstext:
 }
 ```
 
-Om valutan inte är inställd för projektet innehåller det här svaret en valuta med värdet `null`:
+Om valutan inte har angetts för projektet innehåller det här svaret en valuta med värdet `null`:
 
 ```
 {

@@ -6,7 +6,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets moduler
-description: Med [!DNL Adobe Experience Manager Assets] anslutning för [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] konton, skapa, ladda upp och uppdatera resurser samt kopiera eller flytta mappar och resurser.
+description: Med  [!DNL Adobe Experience Manager Assets] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] account skapar, överför och uppdaterar du resurser samt kopierar eller flyttar mappar och resurser.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Experience Manager Assets] moduler
 
-Med [!DNL Adobe Experience Manager Assets] anslutning för [!DNL Adobe Workfront Fusion]kan du starta ett scenario baserat på händelser i [!DNL Adobe Experience Manager Assets] konton, skapa, ladda upp och uppdatera resurser samt kopiera eller flytta mappar och resurser.
+Med [!DNL Adobe Experience Manager Assets]-kopplingen för [!DNL Adobe Workfront Fusion] kan du starta ett scenario baserat på händelser i ditt [!DNL Adobe Experience Manager Assets]-konto, skapa, överföra och uppdatera resurser samt kopiera eller flytta mappar och resurser.
 
 En introduktion till Adobe Experience Manager Assets Connector finns på:
 
@@ -44,38 +44,38 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-* Du måste ha en [!DNL Adobe Experience Manager Assets] för att använda dessa moduler.
-* Du måste konfigurera [!UICONTROL Server-to-server] i [!DNL Adobe Developer console].
+* Du måste ha ett [!DNL Adobe Experience Manager Assets]-konto för att kunna använda dessa moduler.
+* Du måste konfigurera [!UICONTROL Server-to-server]-flödet i [!DNL Adobe Developer console].
 
-  Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server] i [!DNL Adobe Developer console], se [Genererar åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+  Instruktioner om hur du konfigurerar flödet [!UICONTROL Server-to-server] i [!DNL Adobe Developer console] finns i [Generera åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
 ## Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
-Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
+Så här skapar du en anslutning för dina [!DNL Adobe Experience Manager Assets]-moduler:
 
-1. Klicka [!UICONTROL Add] bredvid [!UICONTROL Connection] box.
+1. Klicka på [!UICONTROL Add] bredvid rutan [!UICONTROL Connection].
 
 2. Välj den typ av anslutning som du skapar:
 
@@ -89,20 +89,20 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
 
 3. Fyll i fälten för den typ av anslutning som du skapar.
 
-   För [!DNL AEM Assets as a Cloud Service], se [Konfigurera anslutningen för [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
+   För [!DNL AEM Assets as a Cloud Service], se [Konfigurera anslutningen för  [!DNL AEM Assets as a Cloud Service]](#configure-the-connection-for-aem-assets-as-a-cloud-service).
 
    För [!UICONTROL AEM Assets Basic] ([!DNL Adobe Managed Services]), se [Konfigurera anslutningen för [!UICONTROL AEM Assets Basic]](#configure-the-connection-for-aem-assets-basic).
 
-4. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
+4. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
 
 ### Konfigurera anslutningen för [!DNL AEM Assets as a Cloud Service]
 
 >[!NOTE]
 >
->Informationen för dessa fält genereras som en del av konfigurationen [!UICONTROL Server-to-server] på [!DNL Adobe Developer Console]. Dessa värden finns i JSON-tjänstens inloggningsinformation som genereras som en del av den konfigurationen.
+>Informationen för dessa fält genereras som en del av konfigurationen av [!UICONTROL Server-to-server]-flödet på [!DNL Adobe Developer Console]. Dessa värden finns i JSON-tjänstens inloggningsinformation som genereras som en del av den konfigurationen.
 >
->Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server] på [!UICONTROL Adobe Developer Console], se [Genererar åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server]-flödet på [!UICONTROL Adobe Developer Console] finns i [Generera åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 
 
 <table style="table-layout:auto"> 
@@ -117,31 +117,31 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Instance URL without a trailing slash]</td>
-                  <td>Ange URL:en för [!DNL Adobe Experience Manager] -instans. Ta inte med ett snedstreck <code>/</code> i slutet av URL:en.</td>
+                  <td>Ange URL:en för din [!DNL Adobe Experience Manager]-instans. Ta inte med ett snedstreck <code>/</code> i slutet av URL:en.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Ange klient-ID som genereras i [!UICONTROL Server-to-server] konfiguration.</td>
+                  <td>Ange det klient-ID som genererats i [!UICONTROL Server-to-server]-konfigurationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Ange den klienthemlighet som genererats i [!UICONTROL Server-to-server] konfiguration.</td>
+                  <td>Ange den klienthemlighet som genererades i [!UICONTROL Server-to-server]-konfigurationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Ange ID för det tekniska kontot. Det här är[!UICONTROL id]" i JSON-filen för klientinloggningsuppgifter.</td>
+                  <td>Ange ID för det tekniska kontot. Det här är fältet [!UICONTROL id] i JSON-filen för klientautentiseringsuppgifter.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Ange din organisations ID. Det här är[!UICONTROL org]" i JSON-filen för klientinloggningsuppgifter.</td>
+                  <td class="">Ange din organisations ID. Det här är fältet [!UICONTROL org] i JSON-filen för klientautentiseringsuppgifter.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
-                  <td>Ange de metaomfång som genereras i dialogrutan [!UICONTROL Server-to-server] konfiguration.</td>
+                  <td>Ange de metaomfång som genererats i [!UICONTROL Server-to-server]-inställningen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Private key]</td>
-                  <td>Ange den privata nyckel som genererats för att vinna [!UICONTROL Server-to-server] konfiguration. Extrahera den privata nyckeln genom att klicka [!UICONTROL Extract]anger du sedan den fil som ska extraheras och lösenordet för filen.</td>
+                  <td>Ange den privata nyckel som genererats för att vinna inställningen [!UICONTROL Server-to-server]. Om du vill extrahera den privata nyckeln klickar du på [!UICONTROL Extract], anger filen som ska extraheras och lösenordet för filen.</td>
               </tr>
           </tbody>
       </table>
@@ -161,23 +161,23 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Assets] moduler:
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Instance URL without a trailing slash]</td>
-                <td>Ange URL:en för [!DNL Adobe Experience Manager] -instans. Ta inte med ett snedstreck <code>/</code> i slutet av URL:en.</td>
+                <td>Ange URL:en för din [!DNL Adobe Experience Manager]-instans. Ta inte med ett snedstreck <code>/</code> i slutet av URL:en.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Username]</td>
-                <td>Ange användarnamn för [!DNL AEM Assets] konto som den här anslutningen använder.</td>
+                <td>Ange användarnamnet för det [!DNL AEM Assets]-konto som den här anslutningen använder.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Password]</td>
-                <td>Ange lösenordet för [!DNL AEM Assets] konto som den här anslutningen använder.</td>
+                <td>Ange lösenordet för det [!DNL AEM Assets]-konto som den här anslutningen använder.</td>
             </tr>
         </tbody>
     </table>
 
 
-## [!DNL Adobe Experience Manager Assets] moduler och deras fält
+## [!DNL Adobe Experience Manager Assets]-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe Experience Manager Essentials] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe Experience Manager Essentials] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe Experience Manager Essentials] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe Experience Manager Essentials] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -193,7 +193,7 @@ Den här åtgärdsmodulen kopierar en mapp eller en resurs till en annan plats i
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -232,7 +232,7 @@ Den här åtgärdsmodulen skapar en mapp eller en resurskommentar.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Object type]</td> 
@@ -263,7 +263,7 @@ Den här åtgärdsmodulen tar bort en mapp, en resurs eller en återgivning.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -287,7 +287,7 @@ Den här åtgärdsmodulen hämtar en representation av en befintlig mapp och av 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -298,7 +298,7 @@ Den här åtgärdsmodulen hämtar en representation av en befintlig mapp och av 
 
 ### [!UICONTROL Make a custom API call]
 
-Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe Experience Manager Assets] API.
+Den här åtgärdsmodulen gör ett anpassat API-anrop till API:t [!DNL Adobe Experience Manager Assets].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -306,15 +306,15 @@ Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe Experienc
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en relativ sökväg till [!DNL Adobe Experience Manager] bas-URL.</p> </td> 
+   <td> <p>Ange en relativ sökväg till din [!DNL Adobe Experience Manager]-bas-URL.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -326,7 +326,7 @@ Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe Experienc
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -344,7 +344,7 @@ Den här åtgärdsmodulen flyttar resursen eller mappen på den angivna sökväg
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -379,7 +379,7 @@ Den här åtgärdsmodulen uppdaterar en befintlig post.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -402,7 +402,7 @@ Den här åtgärdsmodulen uppdaterar en befintlig post.
 
 ### [!UICONTROL Upload an asset]
 
-Den här åtgärdsmodulen överför en resurs till [!DNL Adobe Experience Manager Assets] konto.
+Den här åtgärdsmodulen överför en resurs till ditt [!DNL Adobe Experience Manager Assets]-konto.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -410,7 +410,7 @@ Den här åtgärdsmodulen överför en resurs till [!DNL Adobe Experience Manage
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager Assets] konto till [!DNL Workfront Fusion], se <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager Assets]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Destination]</td> 

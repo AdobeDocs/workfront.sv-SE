@@ -42,9 +42,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p><b>ANMÄRKNING</b>
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -53,17 +53,17 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Redigera tidrapporter
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Tidrapporter**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Tidrapporter**.
 
-   The **Alla** Filtret är markerat som standard, vilket visar alla tidrapporter som du har tillgång till för visning.
+   Filtret **Alla** är markerat som standard, vilket visar alla tidrapporter som du har tillgång till för visning.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Valfritt) Klicka på **sök** icon ![](assets/search-icon.png) och skriv ett nyckelord och sök efter en viss tidrapport. Du kan till exempel söka efter en tidsram eller ett ägarnamn för tidrapporten.
+1. (Valfritt) Klicka på ikonen **sök** ![](assets/search-icon.png) och skriv ett nyckelord och sök efter en viss tidrapport. Du kan till exempel söka efter en tidsram eller ett ägarnamn för tidrapporten.
 
 1. (Valfritt) Uppdatera filtret i listan över tidrapporter genom att göra något av följande:
 
-   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
+   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du godkänner
 
      eller
 
@@ -73,7 +73,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen Filter ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på Filterikonen ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -81,11 +81,11 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >
    >   
    >   
-   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Valfritt) Klicka på&#x200B;**Visa** ![](assets/view-icon.png) eller **Gruppering** ![](assets/grouping.png) ikoner för att använda en annan vy eller gruppering eller för att skapa en ny.
+1. (Valfritt) Klicka på ikonerna **Visa** ![](assets/view-icon.png) eller **Gruppera** ![](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 
    Mer information om hur du skapar filter, vyer och grupperingar finns i följande artiklar:
 
@@ -93,7 +93,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * [Skapa eller redigera vyer i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Skapa grupperingar i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Markera en eller flera tidrapporter och klicka sedan på **Redigera** icon ![](assets/edit-icon.png) högst upp i tidrapportlistan.
+1. Markera en eller flera tidrapporter och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) längst upp i tidrapportlistan.
 1. Visa eller ange följande information:
 
    <table style="table-layout:auto"> 
@@ -116,18 +116,18 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
       <td role="rowheader"><strong>Status</strong> </td> 
       <td> Detta är status för tidrapporten.
       Följande är möjliga alternativ för tidrapportstatus: 
-      <ul><li><b>Öppna</b>: Tidrapporten är öppen och timuppgifterna kan redigeras.</li>
-      <li><b>Skickat</b>: Tidrapporten skickas in för godkännande till de utsedda godkännarna.</li>
+      <ul><li><b>Öppna</b>: Tidrapporten är öppen och timposter kan redigeras.</li>
+      <li><b>Skickat</b>: Tidrapporten skickas för godkännande till de angivna godkännarna.</li>
       <li><b>Avvisad</b>: Tidrapporten godkändes inte av godkännarna och är nu tillgänglig igen så att användaren kan redigera tidsposterna.</li>
-      <li><b>Stängd</b>: Tidrapporten stängs antingen av användaren eller godkänns av godkännaren och därför är den nu stängd. Du kan inte lägga till tid i en stängd tidrapport.</li>
+      <li><b>Stängd</b>: Tidrapporten stängs av användaren eller godkänns av godkännaren och därför är den nu stängd. Du kan inte lägga till tid i en stängd tidrapport.</li>
    </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Godkännare</strong> </td> 
-      <td> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Endast användare med administrativ åtkomst till tidrapporter kan anges som godkännare. </p> <p>Mer information om administrationsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Börja skriva in namnen på tidrapportgodkännarna och markera dem när de visas i listan.</p> <p>Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och tas bort från listan över tidrapportgodkännanden för alla återstående godkännare.</p> </td> 
+      <td> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Endast användare med administrativ åtkomst till tidrapporter kan anges som godkännare. </p> <p>Mer information om administratörsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p>Börja skriva in namnen på tidrapportgodkännarna och markera dem när de visas i listan.</p> <p>Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och försvinner från listan över tidrapportgodkännanden för alla återstående godkännare.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Redigeringstid</strong> </td> 
+      <td role="rowheader"><strong>Kan redigera tid</strong> </td> 
       <td> <p>Välj det här alternativet om du vill tillåta godkännare att redigera timmar på tidrapporten.</p> <p>Det här alternativet är inte tillgängligt när du markerar flera tidrapporter. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
@@ -137,4 +137,4 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

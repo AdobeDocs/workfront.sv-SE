@@ -9,7 +9,7 @@ role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Mer information om publiceringsgräns och borttagningsschema för Workfront API:
 >
 >* Om din organisation använder standardgränssnittet har Workfront-administratören fått ett meddelande om att meddelandecentret innehåller ytterligare instruktioner om standardgränssnittet.
 >
->Information om den senaste versionen av API:t finns i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
+>Om du vill se den senaste versionen av API:t läser du [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
 
 
 ## Bestämma API-versionen som du använder

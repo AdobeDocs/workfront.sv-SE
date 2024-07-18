@@ -6,9 +6,9 @@ description: Processen för att skapa och hantera utgifter är densamma för bå
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '579'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt och finansiella data</p> <p><b>ANMÄRKNING</b> </p>
-   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt och finansiella data</p> <p><b>OBS!</b> </p>
+   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för projektet med behörighet att visa eller hantera ekonomi</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörighet till projektet med behörighet att visa eller hantera ekonomi</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,35 +53,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gå till projektet där du vill ange utgifter.\
    Om du vill lägga till utgifter för en uppgift navigerar du till en uppgift i stället. 
-1. Klicka **Visa fler** och sedan klicka **Utgifter**.
-1. Klicka **Lägg till en utgift** .
-The **Lägg till en utgift** visas.
+1. Klicka på **Visa fler** och sedan på **Utgifter**.
+1. Klicka på **Lägg till en utgift** .
+Dialogrutan **Lägg till en utgift** visas.
 1. Uppdatera följande:
 
    * **Beskrivning:** Beskrivning av utgiften.
 
-   * **Utgiftstyp:** (Obligatoriskt) Välj den kategori som bäst beskriver utgiften.
-   * **Uppgift:** Börja skriva namnet på uppgiften som utgiften är kopplad till och klicka sedan på den när den visas i listrutan.
+   * **Utgiftstyp:** (obligatoriskt) Välj den kategori som bäst beskriver utgiften.
+   * **Aktivitet:** Börja skriva namnet på aktiviteten som utgiften är associerad med och klicka sedan på den när den visas i listrutan.
    * **Planerat belopp:** Det planerade budgeterade beloppet för utgiften.\
      Detta påverkar projektets budgeterade kostnad.
 
-   * **Faktiskt belopp:** Det belopp som den faktiska kostnaden för utgiften har.\
+   * **Faktiskt belopp:** Det belopp som den faktiska kostnaden för utgiften uppgår till.\
      Detta påverkar projektets faktiska kostnad.
 
-   * **Planerat datum:** Det förväntade datumet för utgiften. Du kan skriva datumet i fältet med *mm/dd/yy* eller klicka på kalenderikonen  ![](assets/calendar-icon.png) och välj datumet dynamiskt.
+   * **Planerat datum:** Det förväntade datumet för utgiften. Du kan skriva datumet i fältet med formatet *mm/dd/åå* eller klicka på kalenderikonen  ![](assets/calendar-icon.png) och välj datumet dynamiskt.
 
    * **Betalningsdatum:** Datumet då utgiften betalades.
-   * **Fakturerbart:** Välj det här alternativet om du vill fakturera den här utgiften. Det är viktigt att kategorisera en utgift som fakturerbar när du skapar faktureringsposter.
+   * **Fakturerbar:** Välj det här alternativet om du vill fakturera den här utgiften. Det är viktigt att kategorisera en utgift som fakturerbar när du skapar faktureringsposter.
    * **Återbetalningsbar:** Välj det här alternativet om utgiften behöver återbetalas. Du kan sedan markera utgiften som återbetald när utgiften har återbetalats.
 
-1. Välj en **Eget formulär** och ange eventuell ytterligare information. Du måste skapa ett anpassat formulär innan du kan koppla det till en utgift. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Välj ett **anpassat formulär** och ange eventuell ytterligare information som krävs. Du måste skapa ett anpassat formulär innan du kan koppla det till en utgift. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
 ## Ta bort utgifter
 
 1. Gå till projektet där du vill ta bort utgifter.
-1. Klicka **Visa fler** och sedan klicka **Utgifter**.
-1. Markera de utgifter som du vill ta bort och klicka sedan på **Ta bort** ![Ta bort](assets/delete.png).
+1. Klicka på **Visa fler** och sedan på **Utgifter**.
+1. Markera de utgifter du vill ta bort och klicka sedan på **Ta bort** ![Ta bort](assets/delete.png).
 
-1. Klicka **Ja, ta bort den** för att bekräfta borttagningen.
+1. Klicka på **Ja, ta bort** för att bekräfta borttagningen.

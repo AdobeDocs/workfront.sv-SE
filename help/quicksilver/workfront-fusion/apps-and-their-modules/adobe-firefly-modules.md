@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Firefly-moduler
-description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Firefly], samt ansluta till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder  [!DNL Adobe Firefly] samt ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Firefly] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Firefly], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Firefly] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuell: Inga [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
    <p>Äldre: Alla </p>
    </td> 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul>
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Planen [!DNL Workfront Fusion] ingår.</li></ul>
    <p>eller</p>
    <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p>
    </td> 
@@ -59,21 +59,21 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Innan du kan använda [!DNL Adobe Firefly] måste du se till att följande krav uppfylls:
+Innan du kan använda [!DNL Adobe Firefly]-anslutningen måste du se till att följande krav uppfylls:
 
-* Du måste ha en aktiv [!DNL Adobe Firefly] konto.
+* Du måste ha ett aktivt [!DNL Adobe Firefly]-konto.
 
 ## Skapa en anslutning till [!DNL Adobe Firefly]
 
-Skapa en anslutning för [!DNL Adobe Firefly] moduler:
+Så här skapar du en anslutning för dina [!DNL Adobe Firefly]-moduler:
 
-1. Klicka **[!UICONTROL Add]** bredvid rutan Anslutning.
+1. Klicka på **[!UICONTROL Add]** bredvid rutan Anslutning.
 
 1. Fyll i följande fält:
 
@@ -99,20 +99,20 @@ Skapa en anslutning för [!DNL Adobe Firefly] moduler:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Ange [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials] informationsdelen av [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!UICONTROL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Ange [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials] informationsdelen av [!DNL Adobe Developer Console]</td>
+        <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials]-information i [!DNL Adobe Developer Console]</td>
         </tr>
       </tbody>
     </table>
 
-1. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
-## [!DNL Adobe Firefly] moduler och deras fält
+## [!DNL Adobe Firefly]-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe Firefly] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe Firefly] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe Firefly] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe Firefly] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -122,7 +122,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 Den här åtgärdsmodulen gör ett anpassat anrop till Firefly API.
 
-Specifika tillgängliga API:er finns på [ADOBE FIREFLY API](https://developer.adobe.com/firefly-services/docs/firefly-api/) i Adobe Developer-dokumentationen.
+Mer information om tillgängliga API:er finns i [Adobe Firefly API](https://developer.adobe.com/firefly-services/docs/firefly-api/) i Adobe Developer-dokumentationen.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -130,19 +130,19 @@ Specifika tillgängliga API:er finns på [ADOBE FIREFLY API](https://developer.a
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Firefly], se <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Firefly] finns i <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Ange en sökväg i förhållande till <code>https://firefly-api-enterprise-stage.adobe.io/</code>.</p>
+        <p>Ange en relativ sökväg till <code>https://firefly-api-enterprise-stage.adobe.io/</code>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -154,7 +154,7 @@ Specifika tillgängliga API:er finns på [ADOBE FIREFLY API](https://developer.a
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -171,7 +171,7 @@ Den här åtgärdsmodulen expanderar en bild, eventuellt med innehåll från en 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -212,7 +212,7 @@ Den här åtgärdsmodulen fyller det maskerade området i en bild, eventuellt me
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -228,12 +228,12 @@ Den här åtgärdsmodulen fyller det maskerade området i en bild, eventuellt me
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image]</td> 
-   <td>  <p> Klicka <b>Lägga till en bild</b>. Välj en källfil från en tidigare modul eller mappa källfilens bildfilnamn och bilddata.</p> </td> 
+   <td>  <p> Klicka på <b>Lägg till en bild</b>. Välj en källfil från en tidigare modul eller mappa källfilens bildfilnamn och bilddata.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mask]</td> 
-   <td>  <p> Klicka <b>Lägga till en mask</b>. Välj en källfil från en tidigare modul eller mappa källfilens maskfilnamn och maskdata. Maskfilen representerar den anpassade mask som ska fyllas med genererat innehåll.</p> </td> 
+   <td>  <p> Klicka på <b>Lägg till en mask</b>. Välj en källfil från en tidigare modul eller mappa källfilens maskfilnamn och maskdata. Maskfilen representerar den anpassade mask som ska fyllas med genererat innehåll.</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ Den här åtgärdsmodulen fyller det maskerade området i en bild, eventuellt me
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seeds]</td> 
-   <td>Klicka på för varje bild som modulen ska generera <b>Lägg till objekt<b> och ange eller mappa ett heltal. Du kan använda samma startvärde i en annan expanderingsmodul om du vill generera en liknande bild med olika format. Antalet frön som du lägger till måste vara lika med fältet Antal variationer.</td> 
+   <td>För varje bild som modulen ska generera klickar du på <b>Lägg till objekt<b> och anger eller mappar ett heltal. Du kan använda samma startvärde i en annan expanderingsmodul om du vill generera en liknande bild med olika format. Antalet frön som du lägger till måste vara lika med fältet Antal variationer.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -257,7 +257,7 @@ Den här åtgärdsmodulen genererar en bild som baseras på en fråga som du ang
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Firefly]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -278,7 +278,7 @@ Den här åtgärdsmodulen genererar en bild som baseras på en fråga som du ang
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presets]</td> 
-   <td>Om du vill använda ett förinställt format klickar du på Lägg till objekt och anger eller mappar det format som du vill använda.<p>En lista med förinställda stilar finns på <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Bildmodellformat</a> i dokumentationen för utvecklaren av Adobe.</td> 
+   <td>Om du vill använda ett förinställt format klickar du på Lägg till objekt och anger eller mappar det format som du vill använda.<p>En lista med förinställda format finns i <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Bildmodellformat</a> i utvecklardokumentationen för Adobe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative prompt]</td> 

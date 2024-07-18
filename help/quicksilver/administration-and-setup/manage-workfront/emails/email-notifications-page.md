@@ -22,7 +22,7 @@ ht-degree: 0%
 Som Adobe Workfront-administratör kan du konfigurera händelsemeddelanden, påminnelser och e-postmallar för dina användare.
 
 * Mer information om hur du konfigurerar händelsemeddelanden finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Mer information om hur du konfigurerar påminnelsemeddelanden finns i [Ställ in påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+* Mer information om hur du konfigurerar påminnelsemeddelanden finns i [Konfigurera påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
 * Mer information om hur du konfigurerar e-postmallar finns i [Konfigurera e-postmallar](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
 De här länkarna leder till användarområdet för hjälpartiklar för Adobe Workfront-meddelanden.

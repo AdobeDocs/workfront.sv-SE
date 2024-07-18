@@ -11,11 +11,11 @@ role: Admin
 exl-id: 36424cd3-61a0-4d19-9071-7d78c8570bfe
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '51'
+source-wordcount: '49'
 ht-degree: 0%
 
 ---
 
 # Filkryptering
 
-Mer information om filkryptering i Adobe Workfront finns i [Workfront Security - startsida](https://www.workfront.com/workfront-security). Kontakta din kontoansvarige om du behöver mer information.
+Mer information om filkryptering i Adobe Workfront finns på [Workfront säkerhetshemsida](https://www.workfront.com/workfront-security). Kontakta din kontoansvarige om du behöver mer information.

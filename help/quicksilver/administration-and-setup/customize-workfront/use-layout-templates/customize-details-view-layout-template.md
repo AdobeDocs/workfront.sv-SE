@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Som Adobe Workfront-administratör kan du använda en layoutmall för att bestämma vilken information som ska visas när en användare klickar på ikonen Detaljer ![](assets/project-details-icon.png) i den vänstra panelen när du visar en uppgift, utgåva, dokument, program eller portfölj.
+Som Adobe Workfront-administratör kan du använda en layoutmall för att avgöra vilken information som visas när en användare klickar på detaljikonen ![](assets/project-details-icon.png) i den vänstra panelen när han eller hon visar en uppgift, ett problem, ett dokument, ett program eller en portfölj.
 
 <!--
 or billing record
@@ -31,7 +31,7 @@ Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutm
 
 Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps layoutmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-När du har konfigurerat en layoutmall måste du tilldela den till användare för att ändringarna ska vara synliga för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
+När du har konfigurerat en layoutmall måste du tilldela den till användare för att de ändringar du har gjort ska kunna visas för andra. Mer information om hur du tilldelar en layoutmall till användare finns i [Tilldela användare till en layoutmall](../use-layout-templates/assign-users-to-layout-template.md).
 
 De ändringar du gör i detaljvyn för ett objekt avgör också tillgängligheten och ordningen för fält som användarna ser i följande områden:
 
@@ -51,7 +51,7 @@ De ändringar du gör i detaljvyn för ett objekt avgör också tillgänglighete
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Sammanfattning ![](assets/summary-panel-icon.png) panel för listor över uppgifter och problem
+* Panelen Sammanfattning ![](assets/summary-panel-icon.png) för listor med uppgifter och problem
 
   ![](assets/summary-area.png)
 
@@ -84,7 +84,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara gruppchef</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara gruppchef</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,15 +92,15 @@ Om du vill utföra dem för en grupp måste du vara gruppchef</p> <p><b>ANMÄRKN
 ## Anpassa det som användarna ser i detaljvyn
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![](assets/dropdown-arrow-12x12.png) under **Anpassa det användarna ser** och sedan klicka **Projekt**, **Uppgift**, **Problem**, **Program**, eller **Portfolio.**
+1. Klicka på nedpilen ![](assets/dropdown-arrow-12x12.png) under **Anpassa det som visas för användarna** och klicka sedan på **Projekt**, **Aktivitet**, **Problem**, **Program** eller **Portfolio.**
 <!--
 , or billing record
 -->
 
-1. I **Information** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
+1. I avsnittet **Detaljer** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
 
-   * Dra avsnittsrubriker ![](assets/move-icon---dots.png) för att ändra deras ordning.
-   * Aktivera eller inaktivera alternativ under **Ökning** och **Anpassad Forms** för att visa eller dölja dem.
+   * Dra avsnittshuvuden ![](assets/move-icon---dots.png) för att ändra deras ordning.
+   * Aktivera eller inaktivera alternativ under **Översikt** och **Anpassad Forms** för att visa eller dölja dem.
 
      Om du döljer alla fält i ett av dessa avsnitt, döljs hela avsnittet.
 
@@ -110,7 +110,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef</p> <p><b>ANMÄRKN
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara**.
+   Klicka på **Spara** om du är klar med anpassningen.
 
    >[!TIP]
    >

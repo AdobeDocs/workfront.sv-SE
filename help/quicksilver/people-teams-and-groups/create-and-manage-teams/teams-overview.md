@@ -18,20 +18,20 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-Syftet med ett team i [!DNL Adobe Workfront] är att fånga dynamiken i det verkliga livet i funktionella arbetsgrupper på arbetsplatsen.
+Syftet med ett team i [!DNL Adobe Workfront] är att fånga dynamiken i det verkliga livet för funktionella arbetsgrupper på arbetsytan.
 
 Mer information om hur du använder team i stället för grupper finns i [Grupper kontra team i [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 ## Teamorganisation
 
-A [!DNL Workfront Team] skiljer sig från ett projektteam. [!DNL Workfront] I teamen ingår personer med olika roller eller olika syften, som är funktionellt knutna till och organiserade i en arbetsenhet. En individ kan tillhöra mer än ett team. Teammedlemmar kan matcha organisationsscheman, men de kan också visas utanför avdelningsstrukturen.
+En/ett [!DNL Workfront Team] skiljer sig från ett projektteam. [!DNL Workfront] team innehåller personer med olika roller eller olika syften, som är funktionellt knutna till och organiserade i en arbetsenhet. En individ kan tillhöra mer än ett team. Teammedlemmar kan matcha organisationsscheman, men de kan också visas utanför avdelningsstrukturen.
 
 ## Skapa team
 
-Team skapas vanligtvis av en [!DNL Workfront] -administratör, men en användare med lämplig åtkomst kan även skapa team. När ett team har skapats kan projektledaren tilldela ett helt team till en uppgift i stället för att besluta om en enskild roll eller jobbroll. Mer information finns i [Skapa ett team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Team skapas vanligtvis av en [!DNL Workfront]-administratör, men en användare med lämplig åtkomst kan också skapa team. När ett team har skapats kan projektledaren tilldela ett helt team till en uppgift i stället för att besluta om en enskild roll eller jobbroll. Mer information finns i [Skapa ett team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 ## Grupptilldelningar
 
 En projektledare vet inte alltid vilken person som ska slutföra ett uppdrag - bara att en viss arbetsenhet eller grupp slutför ett sådant arbete.
 
-Medlemmar i ett tilldelat team kan även gå till [!UICONTROL Teams] > [!UICONTROL Team] Området med förfrågningar och se vilka uppgifter som tilldelats deras team. De kan bedöma effekten av en uppgift och frivilligt arbeta med den. Mer information finns i [Översikt över gruppförfrågningar](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Medlemmar i ett tilldelat team kan också gå till området [!UICONTROL Teams] > [!UICONTROL Team] Begäranden och se de uppgifter som tilldelats deras team. De kan bedöma effekten av en uppgift och frivilligt arbeta med den. Mer information finns i [Översikt över gruppförfrågningar](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).

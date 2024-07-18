@@ -17,5 +17,5 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Vanliga frågor och svar om uppgifter](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [Frågor och svar](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
 * [Den planerade varaktigheten matchar inte den planerade varaktigheten](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

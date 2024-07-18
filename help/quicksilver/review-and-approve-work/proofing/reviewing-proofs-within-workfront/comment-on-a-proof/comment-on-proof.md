@@ -23,5 +23,5 @@ ht-degree: 0%
 * [Redigera korrekturkommentarer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/edit-a-proof-comment.md)
 * [Lös korrekturkommentarer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
 * [Ta bort korrekturkommentarer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
-* [Använda funktionsmakron för korrekturkommentarer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
+* [Använd åtgärder på korrekturkommentarer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
 * [Tagga användare för att dela ett korrektur](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)

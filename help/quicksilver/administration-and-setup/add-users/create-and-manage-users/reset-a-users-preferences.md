@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +64,7 @@ När du återställer användarinställningarna återställs vissa inställninga
  <thead> 
   <tr> 
    <th><strong>Inställningar</strong> </th> 
-   <th><strong>Status efter återställning</strong> </th> 
+   <th><strong>Status efter återställningen</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -90,7 +90,7 @@ När du återställer användarinställningarna återställs vissa inställninga
   </tr> 
   <tr> 
    <td>Användarinställningar</td> 
-   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar. Standardmeddelandena visas i <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Händelsemeddelanden är tillgängliga i Adobe Workfront</a>.</p> </td> 
+   <td> <p>Återställd till systemstandard</p> <p>E-postmeddelanden återställs till systemets standardinställningar. Standardmeddelandena visas i <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Händelsemeddelanden i Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Användardefinierade anpassade flikar</td> 
@@ -109,8 +109,8 @@ När du återställer användarinställningarna återställs vissa inställninga
 
 1. Välj **Logga in som**.
 1. Börja skriva namnet på den användare vars inställningar du vill återställa och klicka sedan på namnet när det visas i listrutan.
-1. Välj  **Logga in**.
-1. Lägg till i URL-fältet högst upp i webbläsaren `/resetUser` efter `workfront.com`.
+1. Välj **Logga in**.
+1. Lägg till `/resetUser` efter `workfront.com` i URL-fältet högst upp i webbläsaren.
 
    >[!NOTE]
    >
@@ -118,7 +118,7 @@ När du återställer användarinställningarna återställs vissa inställninga
    >
    >`https://company_domain.my.workfront.com/resetUser`
 
-1. Tryck **Retur**.
+1. Tryck på **Retur**.
 1. Om du vill återställa alla användarinställningar väljer du **Återställ**.
 
    eller

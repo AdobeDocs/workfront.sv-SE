@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -48,13 +48,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Instruktioner
 
-1. Börja skapa en rapport genom att gå till **Huvudmeny** > **Rapporter** väljer du sedan rapportens objekt.
+1. Börja skapa en rapport genom att gå till **huvudmenyn** > **Rapporter** och sedan markera objektet för rapporten.
 
    eller
 
    Öppna en befintlig rapport och klicka sedan på **Rapportåtgärder** > **Redigera**.
 
-1. Klicka **Rapportinställningar** i det övre högra hörnet i Report Builder.
+1. Klicka på **Rapportinställningar** i det övre högra hörnet i Report Builder.
 1. Konfigurera följande rapportinställningar:
 
    <table style="table-layout:auto"> 
@@ -112,10 +112,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka **Rapportera uppmaningar** för att ställa in eventuella uppmaningar för rapporten.\
-   Mer information om hur du lägger till uppmaningar i en rapport finns i artikeln [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+1. Klicka på **Rapportera uppmaningar** om du vill konfigurera eventuella uppmaningar för rapporten.\
+   Mer information om hur du lägger till uppmaningar i en rapport finns i artikeln [Lägg till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Klicka **Klart,** klicka sedan på **Spara + Stäng**.
+1. Klicka på&#x200B;**Klar,** och sedan på **Spara + stäng**.
 
 ## Ytterligare information
 
@@ -123,5 +123,5 @@ Se även:
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Kom igång med rapporter](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
-* [Använd inbyggda rapporter från Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Använd inbyggda Adobe Workfront-rapporter](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

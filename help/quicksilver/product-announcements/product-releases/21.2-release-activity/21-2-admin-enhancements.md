@@ -8,16 +8,16 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
 
 # 21.2 Administratörsförbättringar
 
-Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## För administratörer: Visa granskningsloggsinformation om många fler områden i Workfront
 
@@ -36,7 +36,7 @@ Under Granskningsloggar kan du nu spåra och felsöka ändringar på fler områd
 
 Mer information finns i [Granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
-Den här funktionen ingår nu i [Admin Fundamentals for the new Workfront experience, Part 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Admin Fundamentals för den nya Workfront-upplevelsen, del 2: Project Setup](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) Learning path on Workfront One.
 
 ## För gruppadministratörer: Förbättrade kontroller för att flytta undergrupper och ett uppdaterat verktygsfält
 
@@ -75,7 +75,7 @@ Två förbättringar i området Grupper i Setup gör att listor överensstämmer
 
 Mer information om de moderniserade listorna i Workfront finns i [Ändra hur en lista visas](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
 
-Mer information om området Grupper finns i [Hantera grupper](../../../administration-and-setup/manage-groups/manage-groups.md).
+Mer information om gruppområdet finns i [Hantera grupper](../../../administration-and-setup/manage-groups/manage-groups.md).
 
 ## För gruppadministratörer: Skapa och redigera program från området Grupper i Inställningar
 
@@ -101,7 +101,7 @@ För att förbättra orienteringen för administratörer i inställningsområdet
 
   ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
-Mer information om Konfigurera finns i [Administration och konfiguration](../../../administration-and-setup/administration-and-setup.md).
+Mer information om konfigurationsområdet finns i [Administration och konfiguration](../../../administration-and-setup/administration-and-setup.md).
 
 ## För gruppadministratörer: Visa och hantera fler gruppobjekt från gruppsidan
 
@@ -125,7 +125,7 @@ Fram tills nu krävdes aktivering av tidrapporter och timmar för att tilldela t
 
 Mer information finns i [Skapa, redigera och tilldela tidrapportprofiler](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Mer information om alternativet Tidrapporter och timmar på åtkomstnivå finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Mer information om alternativet Tidrapporter och timmar på åtkomstnivå finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 ## För administratörer: Ange det filter, den vy och den gruppering som användarna ser i objektlistor
 
@@ -135,9 +135,9 @@ I stället för att låta kontrollen Filterlista vara inställd på Alla kan du 
 
 Tidigare gick det inte att anpassa de här standardvärdena, så de har alltid angetts som Alla för filter, Standard för vyer och Inget för grupperingar. En extra fördel med de nya funktionerna är att du kan dölja de här tre inställningarna för användarna om de inte behöver dem.
 
-Mer information finns i [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+Mer information finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-Den här funktionen ingår nu i [Grunderna för administratörer i nya Workfront Experience, del 3: Kontroll- och gränssnittsupplevelser](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront Experience, del 3: Utbildningsväg för Kontroll- och gränssnittsupplevelse](https://one.workfront.com/s/learningpath3/administrator-fundamentals-control-and-interface-experience-MCNCSSMXLPDFEERGVEM4EWL2I4LI) i Workfront One.
 
 ## Nytt för administratörer: Visa enkelt de rapporter som för närvarande använder ett anpassat fält
 
@@ -173,6 +173,4 @@ Mer information finns i följande artiklar:
 ## Nytt för administratörer: Fler textformateringsalternativ finns i anpassade formulärfält
 
 När användare skriver i anpassade formulärfält som tillåter formatering kan de nu ordna texten med punkter, numrering, hyperlänkar och blockcitattecken, utöver fet, kursiv och understrykning.
-
-Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Om att mappa filer i [!DNL Adobe Workfront Fusion]
+title: Om att mappa filer i  [!DNL Adobe Workfront Fusion]
 description: Vissa moduler kan bearbeta filer. Dessa moduler kan antingen returnera en utdatafil som ska skickas för vidare bearbetning eller kräva att en fil skickas till dem för bearbetning. Innan dessa moduler kan användas tillsammans för att bearbeta filer måste de mappas till varandra.
 author: Becky
 feature: Workfront Fusion
@@ -38,24 +38,24 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Mappningsfiler
 
@@ -68,18 +68,18 @@ När du mappar en fil väljer du de moduler i ditt scenario från vilka du vill 
 
 >[!NOTE]
 >
->Om du behöver bearbeta en fil från en URL rekommenderar vi att du använder `HTTP > Get a File` för att hämta filen från URL:en och sedan mappa filen från `HTTP > Get a File` till den önskade modulens fält i ditt scenario.
+>Om du behöver bearbeta en fil från en URL rekommenderar vi att du använder modulen `HTTP > Get a File` för att hämta filen från URL:en och sedan mappar filen från modulen `HTTP > Get a File` till fältet för den önskade modulen i ditt scenario.
 
 >[!INFO]
 >
->**Exempel:** I det här exemplet visas hur du hämtar dokument från [!DNL Adobe Workfront] till [!DNL Google Drive]. The [!DNL Workfront] trigger [!UICONTROL Watch Record] returnerar detaljerad information om varje dokument, inklusive namn och ID.
+>**Exempel:** I det här exemplet visas hur du hämtar dokument från [!DNL Adobe Workfront] till [!DNL Google Drive]. [!DNL Workfront]-utlösaren [!UICONTROL Watch Record] returnerar detaljerad information om varje dokument, inklusive dess namn och ID.
 >
->Nästa modul, [!UICONTROL Download Document]hämtar , faktiska data så att de kan överföras till Google Drive.
+>Nästa modul, [!UICONTROL Download Document], hämtar faktiska data så att de kan överföras till Google Drive.
 >
->Mappa informationen till [!DNL Google Drive] så att den kan överföras måste du ange från vilken källfil informationen ska mappas. Om du väljer [!DNL Workfront] > [!UICONTROL Download Document] alternativ under källfilen, [!DNL Workfront Fusion] mappar filnamnet och filinnehållet så att dokumentet från [!DNL Workfront] överförs till den angivna Google-mappen.
+>Om du vill mappa den här informationen till [!DNL Google Drive] så att den kan överföras måste du ange källfilen som informationen ska mappas från. Om du väljer alternativet [!DNL Workfront] > [!UICONTROL Download Document] under källfilen mappar [!DNL Workfront Fusion] filnamnet och filinnehållet så att dokumentet från [!DNL Workfront] överförs till den angivna Google-mappen.
 >
 >![](assets/wf-download-document-350x605.png)
 >
->Men om du vill byta namn på filen, men behålla data som de är, kan du använda [!UICONTROL Map] om du vill mappa filnamnet och filinnehållet separat. Du anger det fullständiga filnamnet, inklusive tillägget. Textformat och binära format som foton, videoklipp och PDF stöds.
+>Om du vill byta namn på filen, men behålla data som de är, kan du använda alternativet [!UICONTROL Map] för att mappa filnamnet och filinnehållet separat. Du anger det fullständiga filnamnet, inklusive tillägget. Textformat och binära format som foton, videoklipp och PDF stöds.
 >
 >![](assets/use-the-map-option-350x358.png)

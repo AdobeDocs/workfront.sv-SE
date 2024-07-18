@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Visa, redigera och ta bort [!DNL Adobe Workfront Fusion] mallar
+# Visa, redigera och ta bort [!DNL Adobe Workfront Fusion]-mallar
 
-[!DNL Adobe Workfront Fusion] kräver en Adobe Workfront Fusion-licens utöver [!DNL Adobe Workfront license].
+[!DNL Adobe Workfront Fusion] kräver en Adobe Workfront Fusion-licens förutom en [!DNL Adobe Workfront license].
 
 ## Åtkomstkrav
 
@@ -37,29 +37,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Visa en mall
 
-1. Klicka på [!UICONTROL Templates] icon ![](assets/fusion-template-icon.png) i sidnavigeringsmenyn.
+1. Klicka på ikonen [!UICONTROL Templates] ![](assets/fusion-template-icon.png) på sidnavigeringsmenyn.
 1. Markera fliken som innehåller mallen som du vill visa.
 
    <table style="table-layout:auto"> 
@@ -89,24 +89,24 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 ## Redigera en mall
 
-Du kan redigera alla mallar som är tillgängliga i [!UICONTROL Team templates] -fliken.
+Du kan redigera alla mallar som är tillgängliga på fliken [!UICONTROL Team templates].
 
-1. Klicka på **[!UICONTROL Templates]** icon ![](assets/fusion-template-icon.png) i sidnavigeringsmenyn.
-1. Klicka på **[!UICONTROL Team templates]** -fliken.
-1. Klicka på **[!UICONTROL Private]** -fliken.
+1. Klicka på ikonen **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) på sidnavigeringsmenyn.
+1. Klicka på fliken **[!UICONTROL Team templates]**.
+1. Klicka på fliken **[!UICONTROL Private]**.
 1. Klicka på mallen som du vill redigera.
-1. Klicka **[!UICONTROL Edit]** i det övre högra hörnet
+1. Klicka på **[!UICONTROL Edit]** i det övre högra hörnet
 
    eller
 
    Klicka på malldiagrammet.
 
-1. Gör ändringar i mallen. Du kan komma åt alla alternativ som var tillgängliga när du skapade mallen. Information om de här alternativen finns i [Skapa nya mallar i [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Klicka sedan på [!UICONTROL save] -ikonen längst ned på sidan.
-1. Klicka på **[!UICONTROL Save]** icon ![](assets/save-icon.png).
+1. Gör ändringar i mallen. Du kan komma åt alla alternativ som var tillgängliga när du skapade mallen. Information om de här alternativen finns i [Skapa nya mallar i [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Klicka sedan på ikonen [!UICONTROL save] längst ned på sidan.
+1. Klicka på ikonen **[!UICONTROL Save]** ![](assets/save-icon.png).
 
 >[!NOTE]
 >
->The [!UICONTROL Team templates] -fliken innehåller inte bara publicerade mallar, utan även kopior av mallar som redan har publicerats av administratören. Det innebär att du kan redigera en mall som redan är synlig för alla. Om du ändrar någon av dessa mallar skrivs inte ändringarna över med en gång. Mallen i [!UICONTROL Public templates] -fliken är fortfarande opåverkad och offentlig, men den nyare versionen med ändringarna från [!UICONTROL Team templates] går till början av publiceringsprocessen. När ändringarna publiceras och godkänns av administratören skrivs den ursprungliga offentliga mallen över.
+>Fliken [!UICONTROL Team templates] innehåller inte bara publicerade mallar, utan även kopior av mallar som redan har publicerats av administratören. Det innebär att du kan redigera en mall som redan är synlig för alla. Om du ändrar någon av dessa mallar skrivs inte ändringarna över med en gång. Mallen på fliken [!UICONTROL Public templates] ändras inte och förblir offentlig, men den nyare versionen med ändringarna från fliken [!UICONTROL Team templates] går till början av publiceringsprocessen. När ändringarna publiceras och godkänns av administratören skrivs den ursprungliga offentliga mallen över.
 
 ## Ta bort en mall
 
@@ -114,12 +114,12 @@ Du kan bara ta bort mallar som ännu inte har godkänts. Kontakta administratör
 
 Observera att mallen inte kan återställas när du väl har tagit bort den. Teammallar är tillgängliga för alla medlemmar i ditt team, så innan du tar bort en mall rekommenderar vi att du kontrollerar om andra teammedlemmar inte behöver den.
 
-1. Klicka på **[!UICONTROL Templates]** icon ![](assets/fusion-template-icon.png) i sidnavigeringsmenyn.
-1. Klicka på **[!UICONTROL Team templates]** -fliken.
-1. Klicka **[!UICONTROL Delete]** bredvid mallnamnet
+1. Klicka på ikonen **[!UICONTROL Templates]** ![](assets/fusion-template-icon.png) på sidnavigeringsmenyn.
+1. Klicka på fliken **[!UICONTROL Team templates]**.
+1. Klicka på **[!UICONTROL Delete]** bredvid mallnamnet
 
    eller
 
-   Klicka på mallens namn för att gå till mallen. Klicka **[!UICONTROL Options]** i det övre högra hörnet och välj **[!UICONTROL Delete]**.
+   Klicka på mallens namn för att gå till mallen. Klicka på **[!UICONTROL Options]** i det övre högra hörnet och välj **[!UICONTROL Delete]**.
 
-1. Klicka **[!UICONTROL Really?]** för att bekräfta borttagningen.
+1. Klicka på **[!UICONTROL Really?]** för att bekräfta borttagningen.

@@ -34,12 +34,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr> 
-   <td >Workfront</a>*</td> 
+   <td >Workfront-plan</a>*</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-licens</a>*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -47,7 +47,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <ul> 
      <li> <p>Projektet måste vara associerat med gruppen eller någon av dess undergrupper. </p> <p>Mer information om hur du tilldelar en grupp till ett projekt finns i <a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">Hantera information i projektöversiktsområdet</a>.</p> </li> 
      <li> <p>Du måste också ha behörighet att redigera projektet, antingen för att du skapade det eller för att det delades med dig.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>: När du skapar ett projekt från en gruppsida tilldelas projektet till den gruppen. Detta skiljer sig från att skapa ett projekt i andra Workfront-områden, där systemet tilldelar projektet till hemgruppen för den användare som skapar det (projektägaren).</p> </td> 
+    </ul> <p><b>Obs!</b> När du skapar ett projekt från en gruppsida tilldelas projektet till den gruppen. Detta skiljer sig från att skapa ett projekt i andra Workfront-områden, där systemet tilldelar projektet till hemgruppen för den användare som skapar det (projektägaren).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,12 +56,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa, arbeta med och skapa projekt för din grupp från området Grupper
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa, visa eller arbeta med projekt för.
-1. Klicka på i den vänstra panelen **Projekt** ![](assets/projects-in-main-menu.png) om du vill visa en lista över projekt som är associerade med gruppen.
+1. Klicka på **Projekt** ![](assets/projects-in-main-menu.png) i den vänstra panelen för att visa en lista över de projekt som är associerade med gruppen.
 
 1. Gör något av följande:
 
@@ -71,14 +71,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Arbeta med ett projekt</p> </td> 
-      <td> <p>Markera projektet och använd sedan verktygsfältsknapparna för att redigera <img src="assets/edit-icon.png">, dela <img src="assets/share-icon.png">eller ta bort <img src="assets/delete.png">.</p> <p>Mer information om dessa aktiviteter finns i <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Hantera projekt: artikelindex</a>.</p> </td> 
+      <td> <p>Markera projektet och använd sedan verktygsfältsknapparna för att redigera <img src="assets/edit-icon.png">, dela <img src="assets/share-icon.png"> eller ta bort det <img src="assets/delete.png">.</p> <p>Mer information om de här aktiviteterna finns i <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Hantera projekt: artikelindex</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Skapa ett nytt projekt för gruppen</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klicka <strong>Nytt projekt</strong>väljer du sedan ett alternativ i listrutan för att ange hur du vill skapa det. </p> <p>Mer information finns i avsnittet <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Olika sätt att skapa projekt</a> i artikeln <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Skapa ett projekt</a>.</p> </li> 
-        <li value="2">Ange ett namn för projektet och konfigurera det enligt anvisningarna i <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>.</li> 
+        <li value="1"> <p>Klicka på <strong>Nytt projekt</strong> och välj sedan ett alternativ i listrutan för att ange hur du vill skapa det. </p> <p>Mer information finns i avsnittet <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Olika sätt att skapa projekt</a> i artikeln <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Skapa ett projekt</a>.</p> </li> 
+        <li value="2">Ange ett namn för projektet och konfigurera det, så som beskrivs i <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Redigera projekt</a>.</li> 
        </ol> <p> Projektinställningar som har angetts för gruppen påverkar alla projekt som du skapar i området Grupper. Mer information finns i <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">Konfigurera projektinställningar för en grupp</a>.</p> </td> 
      </tr> 
      <tr> 

@@ -32,7 +32,7 @@ Följande händelser kan utlösa en ändring i det planerade startdatumet för e
 
 * När du börjar arbeta med en uppgift blir aktivitetens faktiska startdatum dess planerade startdatum.
 * Om det planerade startdatumet för en aktivitet godkänns, flyttas det planerade startdatumet in i framtiden, vilket anger det senaste datumet som aktiviteten kan starta.\
-   Workfront tar hänsyn till antalet planerade timmar för aktiviteten, liksom schemat för projektet eller för användaren som är tilldelad uppgiften vid beräkning av det tidigaste tillgängliga datumet för aktivitetens start. 
+  Workfront tar hänsyn till antalet planerade timmar för aktiviteten, liksom schemat för projektet eller för användaren som är tilldelad uppgiften vid beräkning av det tidigaste tillgängliga datumet för aktivitetens start. 
 * Föregående aktiviteter som körs bakom påverkar det planerade startdatumet för de beroende aktiviteterna. Det planerade startdatumet för de beroende aktiviteterna flyttas enligt beroendetypen för föregående relation och enligt prognosdatumen för föregående aktiviteter. 
 
 Om någon av dessa uppgifter är den första aktiviteten i ett projekt ändras projektets planerade startdatum så att det matchar det planerade startdatumet för den här aktiviteten. 
@@ -43,6 +43,6 @@ Du kan hitta det planerade startdatumet för ett projekt eller en uppgift i föl
 
 * Du kan lägga till den i ett projekt eller i en uppgiftsrapport eller vy.
 
-   Mer information om hur du skapar en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * I avsnittet Projektinformation för ett projekt eller i avsnittet Uppgiftsinformation för en uppgift.

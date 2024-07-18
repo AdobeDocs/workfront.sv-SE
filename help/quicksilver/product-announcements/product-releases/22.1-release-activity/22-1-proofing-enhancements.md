@@ -47,7 +47,7 @@ Alla användare kan också dra nytta av den förbättrade anslutningen mellan Wo
 
 Mer information finns i
 
-* [Översikt över profilroller](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Proof Roles - översikt](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 *  
 
 ## Förbättringar av elektroniska signaturer för korrektur
@@ -56,11 +56,11 @@ Vi har gjort det enklare för användare att signera korrektur elektroniskt. Nu 
 
 >[!IMPORTANT]
 >
->Om du vill signera ett korrektur elektroniskt med inloggningsuppgifter för enkel inloggning måste du konfigurera enkel inloggning i Workfront Proof. Mer information om att aktivera enkel inloggning finns i [Konfigurera enkel inloggning för Workfront-korrekturanvändare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
+>Om du vill signera ett korrektur elektroniskt med inloggningsuppgifter för enkel inloggning måste du konfigurera enkel inloggning i Workfront Proof. Mer information om hur du aktiverar enkel inloggning finns i [Konfigurera enkel inloggning för Workfront Proof-användare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md).
 
-Tidigare var man tvungen att använda Workfront Proof-inloggningsuppgifterna, som skiljer sig från inloggningsuppgifterna för Workfront.
+Tidigare var man tvungen att använda Workfront Proof inloggningsuppgifter, som inte är samma som inloggningsuppgifterna för Workfront.
 
-Mer information finns på [Översikt över korrektur av säkerhet](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
+Mer information finns i [Korrekturöversikt](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md).
 
 ## Uppgradering av Desktop Viewer
 

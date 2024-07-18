@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 21.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 21 juli 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 Versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Inaktivera roller som inte längre används
 

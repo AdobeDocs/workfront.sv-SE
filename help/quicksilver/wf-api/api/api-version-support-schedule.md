@@ -31,7 +31,7 @@ I följande tabell visas releasen och supportplanen för Workfront API.
  <thead> 
   <tr> 
    <th><strong>Version</strong> </th> 
-   <th><strong>Frigör</strong> </th> 
+   <th><strong>Utgåva</strong> </th> 
    <th><strong>*Stöds inte</strong> </th> 
   </tr> 
  </thead> 
@@ -138,8 +138,8 @@ I följande tabell visas releasen och supportplanen för Workfront API.
  </tbody> 
 </table>
 
-&#42;Problem med versioner av API som inte stöds av Workfront kommer inte att åtgärdas.
+&#42;Problem relaterade till versioner av API:t som inte stöds hanteras inte av Workfront.
 
 &#42;&#42;Datum kan ändras.
 
-Mer information om hur du använder särskilda versioner av API:t finns i [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md)
+Mer information om hur du använder särskilda versioner av API finns i [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md)

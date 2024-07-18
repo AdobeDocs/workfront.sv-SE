@@ -5,22 +5,22 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Google bladmoduler
-description: För att kunna använda [!DNL Google Sheets] med [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] tillägg (valfritt, men krävs för direktutlösare).
+description: För att kunna använda  [!DNL Google Sheets] med [!DNL Adobe Workfront Fusion],you need the [!UICONTROL Workfront Fusion Google Sheets] tillägget (valfritt, men krävs för direktutlösare).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
 source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
 workflow-type: tm+mt
-source-wordcount: '3439'
+source-wordcount: '3498'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Sheets] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Google Sheets], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Google Sheets] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
-Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se [Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i [Skapa en anslutning till  [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 ## Åtkomstkrav
 
@@ -41,35 +41,35 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!UICONTROL Google Sheets] moduler, du måste ha en [!UICONTROL Google] konto.
+Du måste ha ett [!UICONTROL Google]-konto för att kunna använda [!UICONTROL Google Sheets]-moduler.
 
 ## Utlösare
 
 ### [!UICONTROL Watch Rows]
 
-Hämtar värden från alla nyligen tillagda rader i kalkylbladet.
+Hämtar värden från alla nya rader i kalkylbladet.
 
 Modulen hämtar endast nya rader som inte har fyllts i tidigare. Utlösaren bearbetar inte en överskriven rad.
 
@@ -83,7 +83,7 @@ Modulen hämtar endast nya rader som inte har fyllts i tidigare. Utlösaren bear
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Spreadsheet] </td> 
@@ -103,23 +103,23 @@ Modulen hämtar endast nya rader som inte har fyllts i tidigare. Utlösaren bear
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Row with headers] </td> 
-   <td> <p>Ange intervallet för rubrikraden. Exempel, <code>A1:F1</code>.</p> </td> 
+   <td> <p>Ange intervallet för rubrikraden. Exempel: <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL First table row]</td> 
-   <td> <p>Ange intervallet för tabellens första rad. Exempel, <code>A1:F1</code>.</p> </td> 
+   <td> <p>Ange intervallet för tabellens första rad. Exempel: <code>A1:F1</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Value render option]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Värdena beräknas inte. Svaret kommer att innehålla formlerna. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Värdena beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Date and time render option]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets språkområde).</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets nationella inställningar).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal resultat som [!DNL Workfront Fusion] fungerar med under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet resultat som [!DNL Workfront Fusion] ska arbeta med under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,7 +142,7 @@ Modulen hämtar endast nya rader som inte har fyllts i tidigare. Utlösaren bear
 
 Den här modulen lägger till en rad i ett blad.
 
-När du konfigurerar [!DNL Google Sheets] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Google Sheets] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Google Sheets] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Google Sheets] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -154,15 +154,15 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Mode]</td> 
-   <td> <p>Välj om du vill markera kalkylbladet och bladet manuellt eller genom mappning.</p> <p>Obs! Manuell mappning är användbar när ett nytt kalkylblad skapas i ett [!DNL Workfront Fusion] och du vill lägga till data i det nya kalkylbladet direkt i scenariot.</p> </td> 
+   <td> <p>Välj om du vill markera kalkylbladet och bladet manuellt eller genom mappning.</p> <p>Obs! Manuell mappning är användbar, till exempel när ett nytt kalkylblad skapas i ett [!DNL Workfront Fusion]-scenario och du vill lägga till data i det nya kalkylbladet direkt i scenariot.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -188,7 +188,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
    <td>[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när du skriver text i en cell via [!DNL Google Sheets] Gränssnitt.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när text skrivs i en cell via [!DNL Google Sheets]-gränssnittet.</p> </li> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De värden som användaren anger tolkas inte och lagras som de är. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -213,15 +213,15 @@ Med den här modulen kan du ändra cellinnehållet i en markerad rad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Mode]</td> 
-   <td> <p>Välj om du vill markera kalkylbladet och bladet manuellt eller genom mappning.</p> <p>Obs! Manuell mappning är användbar när ett nytt kalkylblad skapas i [!UICONTROL Workfront Fusion] och du vill lägga till data i det nya kalkylbladet direkt i scenariot.</p> </td> 
+   <td> <p>Välj om du vill markera kalkylbladet och bladet manuellt eller genom mappning.</p> <p>Obs! Manuell mappning är användbar, till exempel när ett nytt kalkylblad skapas i [!UICONTROL Workfront Fusion]-scenariot och du vill lägga till data direkt i det nya kalkylbladet.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -247,7 +247,7 @@ Med den här modulen kan du ändra cellinnehållet i en markerad rad.
    <td>[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när du skriver text i en cell via [!DNL Google Sheets] Gränssnitt.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när text skrivs i en cell via [!DNL Google Sheets]-gränssnittet.</p> </li> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De värden som användaren anger tolkas inte och lagras som de är. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -264,11 +264,11 @@ Tar bort värden från en angiven rad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] som innehåller den tabell som du vill ta bort en rad från.</p> </td> 
+   <td> <p>Markera det [!DNL Google]-kalkylblad som innehåller det blad du vill ta bort en rad från.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -276,7 +276,7 @@ Tar bort värden från en angiven rad.
   </tr> 
   <tr> 
    <td>[!UICONTROL Row number]</td> 
-   <td> <p>Ange numret på den rad som du vill ta bort data från. Exempel, <code> 23</code>.</p> </td> 
+   <td> <p>Ange numret på den rad som du vill ta bort data från. Exempel: <code> 23</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -291,7 +291,7 @@ Tar bort en angiven rad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
@@ -318,11 +318,11 @@ Hämtar ett värde från en markerad cell.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -334,11 +334,11 @@ Hämtar ett värde från en markerad cell.
   </tr> 
   <tr> 
    <td>[!UICONTROL Value render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>Värdena beräknas inte. Svaret kommer att innehålla formlerna. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!DNL Formula]</p> <p>Värdena beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!DNL Serial number]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets språkområde).</p> </td> 
+   <td> <p style="font-weight: bold;">[!DNL Serial number]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!DNL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets nationella inställningar).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -351,11 +351,11 @@ Hämtar ett värde från en markerad cell.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cell] </td> 
@@ -369,7 +369,7 @@ Hämtar ett värde från en markerad cell.
    <td>[!UICONTROL Value input option]</td> 
    <td> 
     <ul> 
-     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när du skriver text i en cell via [!DNL Google Sheets] Gränssnitt.</p> </li> 
+     <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>Värdena tolkas som om användaren skrev in dem i användargränssnittet. Nummer är tal, men strängar kan konverteras till tal, datum eller andra format enligt samma regler som används när text skrivs i en cell via [!DNL Google Sheets]-gränssnittet.</p> </li> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De värden som användaren anger tolkas inte och lagras som de är. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -386,7 +386,7 @@ Tar bort ett värde från en angiven cell.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
@@ -394,7 +394,7 @@ Tar bort ett värde från en angiven cell.
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
-   <td> <p>Markera det blad du vill ta bort en cell från.</p> </td> 
+   <td> <p>Markera det blad som du vill ta bort en cell från.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cell] </td> 
@@ -413,7 +413,7 @@ Skapar en ny tabell i ett markerat kalkylblad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
@@ -438,7 +438,7 @@ Skapar en ny tabell i ett markerat kalkylblad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Title] </td> 
@@ -455,7 +455,7 @@ Skapar en ny tabell i ett markerat kalkylblad.
   </tr> 
   <tr> 
    <td>[!UICONTROL Recalculation interval]</td> 
-   <td> <p>Hur lång tid det tar innan flyktiga funktioner beräknas om:</p> <p style="font-weight: bold;">[!UICONTROL On change]</p> <p>Volatila funktioner uppdateras vid varje förändring.</p> <p style="font-weight: bold;">[!UICONTROL On change and every minute]</p> <p>Volatila funktioner uppdateras vid varje förändring och varje minut.</p> <p style="font-weight: bold;">[!UICONTROL On change and hourly]</p> <p>Volatila funktioner uppdateras vid varje förändring och varje timme.</p> </td> 
+   <td> <p>Hur lång tid det tar att vänta innan flyktiga funktioner beräknas om:</p> <p style="font-weight: bold;">[!UICONTROL On change]</p> <p>Volatila funktioner uppdateras vid varje förändring.</p> <p style="font-weight: bold;">[!UICONTROL On change and every minute]</p> <p>Volatila funktioner uppdateras vid varje förändring och varje minut.</p> <p style="font-weight: bold;">[!UICONTROL On change and hourly]</p> <p>Volatila funktioner uppdateras vid varje förändring och varje timme.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Time zone]</td> 
@@ -467,7 +467,7 @@ Skapar en ny tabell i ett markerat kalkylblad.
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheets] </td> 
-   <td> <p>Klicka <strong>[!UICONTROL Add]</strong> om du vill lägga till ett blad i kalkylbladet. För varje blad anger eller mappar du en rubrik för bladet och bladets index. Ett index på 0 representerar det första bladet.</p> </td> 
+   <td> <p>Klicka på <strong>[!UICONTROL Add]</strong> om du vill lägga till ett blad i kalkylbladet. För varje blad anger eller mappar du en rubrik för bladet och bladets index. Ett index på 0 representerar det första bladet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -482,11 +482,11 @@ Tar bort ett visst blad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -505,19 +505,19 @@ Med den här åtgärdsmodulen kan du utföra ett anpassat API-anrop.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [Fusion App]-konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [Fusion App]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td>Ange en sökväg som är relativ till <code>https://sheets.googleapis.com/v4/</code>.</td> 
+   <td>Ange en relativ sökväg till <code>https://sheets.googleapis.com/v4/</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.Till exempel <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] lägger till auktoriseringsrubrikerna åt dig.</p> </td> 
+   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt. Exempel: <code>{"Content-type":"application/json"}</code>. [!DNL Workfront Fusion] lägger till autentiseringsrubrikerna åt dig.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -525,7 +525,7 @@ Med den här åtgärdsmodulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!   <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!   <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>">  
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -550,11 +550,11 @@ Söker igenom rader med filteralternativen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [Fusion App]-konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [Fusion App]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -562,7 +562,7 @@ Söker igenom rader med filteralternativen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Table contains headers]</td> 
-   <td> <p> Ange om kalkylbladet innehåller rubrikraden. Om [!UICONTROL Yes] är markerat hämtar modulen inte rubrikraden eftersom utdata och variabelnamn i utdata sedan anropas av rubrikerna. Om [!UICONTROL No] är markerat hämtar modulen också den första tabellraden och variabelnamnen i utdata kallas sedan bara A, B, C, D o.s.v.</p> </td> 
+   <td> <p> Ange om kalkylbladet innehåller rubrikraden. Om alternativet [!UICONTROL Yes] är markerat hämtar modulen inte rubrikraden eftersom utdata och variabelnamn i utdata sedan anropas av rubrikerna. Om alternativet [!UICONTROL No] är markerat hämtar modulen också den första tabellraden och variabelnamnen i utdata kallas sedan bara A, B, C, D och så vidare.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Column range]</td> 
@@ -582,22 +582,22 @@ Söker igenom rader med filteralternativen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Value render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Värdena beräknas inte. Svaret kommer att innehålla formlerna. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Värdena beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Instruerar att datum-, tids-, datum- och tidsfält skrivs ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets språkområde).</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Instruerar att datum-, tids-, datum- och tidsfält skrivs ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets nationella inställningar).</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned rows]</td> 
-   <td>Ange maximalt antal rader som [!DNL Workfront Fusion] returneras under en körningscykel.</td> 
+   <td>Ange det maximala antalet rader som [!DNL Workfront Fusion] ska returnera under en körningscykel.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Search Rows (Advanced)]
 
-Returnerar resultat som matchar angivna villkor.
+Returnerar resultat som matchar de angivna villkoren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -605,7 +605,7 @@ Returnerar resultat som matchar angivna villkor.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
@@ -617,7 +617,7 @@ Returnerar resultat som matchar angivna villkor.
   </tr> 
   <tr> 
    <td>[!UICONTROL Query]</td> 
-   <td> <p>Använd [!DNL Google Charts Query Language]. Exempel: <code>select * where B = "John"</code></p> <p>Mer information om [!DNL Google Charts Query Language], se <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Språkreferens för fråga</a> i [!DNL Google] dokumentation.</p> </td> 
+   <td> <p>Använd [!DNL Google Charts Query Language]. Exempel: <code>select * where B = "John"</code></p> <p>Mer information om [!DNL Google Charts Query Language] finns i <a href="https://developers.google.com/chart/interactive/docs/querylanguage">Språkreferens för frågor</a> i [!DNL Google]-dokumentationen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -630,11 +630,11 @@ Returnerar resultat som matchar angivna villkor.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] kalkylblad.</p> </td> 
+   <td> <p>Markera kalkylbladet [!DNL Google].</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sheet] </td> 
@@ -642,7 +642,7 @@ Returnerar resultat som matchar angivna villkor.
   </tr> 
   <tr> 
    <td>[!UICONTROL Range] </td> 
-   <td> <p>Ange det intervall du vill hämta. Exempel: <code>A1:D25</code>.</p> </td> 
+   <td> <p>Ange det intervall som du vill hämta. Exempel: <code>A1:D25</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Table contains headers]</td> 
@@ -650,15 +650,15 @@ Returnerar resultat som matchar angivna villkor.
   </tr> 
   <tr> 
    <td>[!UICONTROL Row with headers]</td> 
-   <td>Ange intervallet för tabellrubrikerna. Exempel <code>A1:F1</code>. Om du lämnar fältet tomt [!DNL Workfront Fusion] antar att rubriken finns på den första raden i det angivna intervallet.</td> 
+   <td>Ange intervallet för tabellrubrikerna. Exempel <code>A1:F1</code>. Om du lämnar fältet tomt, kommer [!DNL Workfront Fusion] att anta att rubriken finns på den första raden i det angivna intervallet.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Value render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Värdena beräknas inte. Svaret kommer att innehålla formlerna. Om <code>A1</code> är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formateras som valuta, därefter <code>A2</code> skulle returnera <code>"=A1"</code>.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Formatted value]</p> <p>Värdena beräknas och formateras i svaret enligt cellens formatering. Formateringen baseras på kalkylbladets språkområde, inte på den begärande användarens språkområde. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"$1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Unformatted value]</p> <p>Värdena beräknas, men formateras inte i svaret. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta, returnerar <code>A2</code> talet <code>"1.23"</code>.</p> <p style="font-weight: bold;">[!UICONTROL Formula]</p> <p>Värdena beräknas inte. Svaret innehåller formlerna. Om <code>A1</code> till exempel är <code>1.23</code> och <code>A2</code> är <code>=A1</code> och formaterad som valuta returnerar <code>A2</code> <code>"=A1"</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Date and time render option]</td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Instruerar att datum-, tids-, datum- och tidsfält skrivs ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets språkområde).</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL Serial number]</p> <p>Instruerar att datum-, tids-, datum- och tidsfält skrivs ut som dubbletter i serienummerformat, ifyllda med Lotus 1-2-3. Hela sifferdelen av värdet (vänster om decimaltalet) är antalet dagar sedan den 30 december 1899. Med bråkdelen (höger om decimaltecknet) räknas tiden som en bråkdel av dagen. Till exempel blir 1 januari 1900 kl. 12.5, 2 eftersom det är 2 dagar efter 30 december 1899 och 5,5 eftersom kl. 12.00 är en halv dag. 1 februari 1900 kl. 17.00 blir 33.625. Detta behandlar år 1900 korrekt som ett skottår.</p> <p style="font-weight: bold;">[!UICONTROL Formatted string]</p> <p>Instruerar datum-, tids-, datum- och tidsfält som ska skrivas ut som strängar i det angivna talformatet (vilket beror på kalkylbladets nationella inställningar).</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -673,46 +673,46 @@ Den här modulen returnerar en lista med alla tabeller i ett kalkylblad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Sheets] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Anslut modulens app eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Sheets]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Ansluta modulens app- eller webbtjänst till [!DNL Workfront Fusion]</a> i artikeln <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
-   <td> <p>Välj [!DNL Google] som innehåller de tabeller som du vill visa.</p> </td> 
+   <td> <p>Markera det [!DNL Google]-kalkylblad som innehåller de blad som du vill visa.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Användningsgränser
 
-Om felet `429: RESOURCE_EXHAUSTED` inträffar, du har överskridit API-hastighetsgränsen.
+Om felet `429: RESOURCE_EXHAUSTED` inträffar har du överskridit API-hastighetsgränsen.
 
-The [!DNL Google Sheets] API har en gräns på 500 begäranden per 100 sekunder per projekt och 100 begäranden per 100 sekunder per användare. Begränsningar för läsning och skrivning spåras separat. Det finns ingen gräns för daglig användning.
+API:t [!DNL Google Sheets] har en gräns på 500 begäranden per 100 sekunder per projekt och 100 begäranden per 100 sekunder per användare. Begränsningar för läsning och skrivning spåras separat. Det finns ingen gräns för daglig användning.
 
 Mer information finns på [developers.google.com/sheets/api/limits](https://developers.google.com/sheets/api/limits).
 
 ## Tips och tricks
 
-* [Hämta tomma celler från en [!DNL Google] Blad](#how-to-get-empty-cells-from-a-google-sheet)
+* [Hämta tomma celler från ett  [!DNL Google] ark](#how-to-get-empty-cells-from-a-google-sheet)
 * [Lägga till en knapp i ett blad för att köra ett scenario](#add-a-button-in-a-sheet-to-run-a-scenario)
 
 ### Hämta tomma celler från en [!DNL Google Sheet]
 
-Använd [!UICONTROL Search Rows (Advanced)] och använd den här formeln för att hämta kolumner som är tomma.
+Använd modulen [!UICONTROL Search Rows (Advanced)] och använd den här formeln för att hämta kolumner som är tomma.
 <pre>select * där E är null</pre>Här är "E" kolumnen och "is null" är villkoret. Du kan skapa en mer avancerad fråga med [Google Query Lang](https://developers.google.com/chart/interactive/docs/querylanguage).
 
 ### Lägga till en knapp i ett blad för att köra ett scenario
 
-1. I [!DNL Workfront Fusion]infogar du **[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]** modul/utlösare i scenariot och konfigurera det (se [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
+1. I [!DNL Workfront Fusion] infogar du modulen/utlösaren **[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]** i scenariot och konfigurerar den (se [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
 
 1. Kopiera webbhollens URL.
 1. Kör scenariot.
-1. I Google Sheets väljer du **[!UICONTROL Insert]** > **[!UICONTROL Drawing]**... på huvudmenyraden.
+1. I Google Sheets väljer du **[!UICONTROL Insert]** > **[!UICONTROL Drawing]**.. på huvudmenyraden.
 
-1. I [!UICONTROL Drawing] fönster, Klicka på **[!UICONTROL Text box]** icon ![](assets/text-box.png) nära fönstrets övre del.
-1. Utforma en knapp och klicka på **[!UICONTROL Save and Close]** i det övre högra hörnet:
+1. I fönstret [!UICONTROL Drawing] klickar du på ikonen **[!UICONTROL Text box]** ![](assets/text-box.png) i fönstrets övre del.
+1. Utforma en knapp och klicka på knappen **[!UICONTROL Save and Close]** i det övre högra hörnet:
 1. Knappen placeras i kalkylbladet. Klicka på de tre lodräta prickarna i knappens övre högra hörn:
 1. Välj **[!UICONTROL Assign script..].** på menyn.
-1. Ange namnet på skriptet (funktionen), t.ex. `runScenario` och klicka **[!UICONTROL OK]**:
+1. Ange namnet på skriptet (funktion), t.ex. `runScenario`, och klicka på **[!UICONTROL OK]**:
 1. Välj **[!UICONTROL Tools]** > **[!UICONTROL Script editor]** på huvudmenyraden.
 
 1. Infoga följande kod:
@@ -722,41 +722,41 @@ Använd [!UICONTROL Search Rows (Advanced)] och använd den här formeln för at
 
      <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
-1. Tryck **[!UICONTROL Ctrl+S]** om du vill spara skriptfilen anger du ett projektnamn och klickar på **[!UICONTROL OK]**.
+1. Tryck på **[!UICONTROL Ctrl+S]** för att spara skriptfilen, ange ett projektnamn och klicka på **[!UICONTROL OK]**.
 
 1. Växla tillbaka till [!DNL Google Sheets] och klicka på den nya knappen.
 1. Bevilja nödvändig behörighet till skriptet:
-1. I [!DNL Workfront Fusion]kontrollerar du att scenariot har körts.
+1. Kontrollera att scenariot har körts i [!DNL Workfront Fusion].
 
 ## Lagra datum i ett kalkylblad
 
-Om du lagrar ett datumvärde i ett kalkylblad utan formatering, visas det i kalkylbladet som text i ISO 8601-format. Men [!DNL Google Sheets] formler eller funktioner som fungerar med datum som inte förstår den här texten (Exempel: formel `=A1+10`) visas följande fel:
+Om du lagrar ett datumvärde i ett kalkylblad utan formatering, visas det i kalkylbladet som text i ISO 8601-format. [!DNL Google Sheets] formler eller funktioner som fungerar med datum som inte förstår den här texten (Exempel: formel `=A1+10`) kommer att visa följande fel:
 
 ![](assets/mceclip6-350x87.png)
 
-Hjälp till att [!DNL Google Sheets] för att förstå datumet, formatera det med [[!UICONTROL formatDate] (datum) format, [tidszon]](../../workfront-fusion/functions/date-and-time-functions.md#formatda) funktion. Det korrekta format som skickas till funktionen som det andra argumentet beror på kalkylbladets språkinställningar.
+För att [!DNL Google Sheets] ska kunna förstå datumet formaterar du det med funktionen [[!UICONTROL formatDate] (date; format; [timezone])](../../workfront-fusion/functions/date-and-time-functions.md#formatda). Det korrekta format som skickas till funktionen som det andra argumentet beror på kalkylbladets språkinställningar.
 
 Så här avgör du korrekt format:
 
-1. Välj **[!UICONTROL File]** > **[!UICONTROL Spreadsheet]** inställningar på huvudmenyn för att verifiera/ställa in språkområdet.
+1. Välj **[!UICONTROL File]** > **[!UICONTROL Spreadsheet]** inställningar på huvudmenyn för att verifiera/ställa in språkinställningen.
 
 1. När du har verifierat/angett rätt språkområde bestämmer du motsvarande datum- och tidsformat genom att välja **[!UICONTROL Format]** > **[!UICONTROL Number]** på huvudmenyn. Formatet visas bredvid menyalternativet Datum och tid:
 
-1. Skapa rätt format som ska skickas till [!UICONTROL formatDate()] -funktion, se listan över [Token för datum- och tidsformatering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
+1. Om du vill skapa rätt format som ska skickas till funktionen [!UICONTROL formatDate()] läser du listan med [token för datum- och tidsformatering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
-**Exempel:** Användning av `MM/DD/YYYY HH:mm:ss` format för USA:s språkområde:
+**Exempel:** Användning av formatet `MM/DD/YYYY HH:mm:ss` för USA:
 
 ![](assets/locale-time-350x83.png)
 
-## Exploderar [!DNL Google Sheets] funktioner
+## Utnyttjar [!DNL Google Sheets] funktioner
 
-Om du saknar en inbyggd funktion, men den finns i [!DNL Google Sheets]kan du utnyttja den. Mer information finns i [Använd [!DNL Google Sheets] funktioner](../../workfront-fusion/functions/map-using-functions.md#exploiti) in [Mappa objekt med funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) .
+Om du saknar en inbyggd funktion, men den finns i [!DNL Google Sheets], kan du utnyttja den. Mer information finns i [Använd [!DNL Google Sheets] funktioner](../../workfront-fusion/functions/map-using-functions.md#exploiti) i [Mappa objekt med funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) .
 
 ## Behåll [!DNL Google Sheets] från att ändra siffror till datum
 
-Det kan hända att en sträng med tal som du använder som text tolkas som ett datum i en [!DNL Google] kalkylblad. Du kan till exempel skriva 1-2019 som en text, men Google tolkar den som ett datum. Du kan förformatera talet som oformaterad text för att förhindra detta.
+Det kan hända att en sträng med tal som du använder som text tolkas som ett datum i ett [!DNL Google]-kalkylblad. Du kan till exempel skriva 1-2019 som en text, men Google tolkar den som ett datum. Du kan förformatera talet som oformaterad text för att förhindra detta.
 
-1. I [!DNL Google Sheets]markerar du den kolumn eller cell som innehåller talet eller talen.
+1. I [!DNL Google Sheets] markerar du kolumnen eller cellen som innehåller talet eller talen.
 1. Klicka på **[!UICONTROL Format]** > **[!UICONTROL Number]** > **[!UICONTROL Plain text]**.
 
-En annan lösning i [!DNL Workfront Fusion] är att skriva en apostrof (&#39;) före ett tal, till exempel &#39;1-2019 eller &#39;1/47. Apostrofen visas inte i cellen när data har skickats från [!DNL Workfront Fusion].
+En annan tillfällig lösning i [!DNL Workfront Fusion] är att skriva en apostrof (&#39;) före ett tal, till exempel &#39;1-2019 eller &#39;1/47. Apostrofen visas inte i cellen när data har skickats från [!DNL Workfront Fusion].

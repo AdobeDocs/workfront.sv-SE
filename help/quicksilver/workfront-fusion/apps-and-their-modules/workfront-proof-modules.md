@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Workfront korrekturmoduler
-description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Workfront Proof], samt ansluta till flera tredjepartsprogram och -tjänster.
+title: Workfront Proof moduler
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder  [!DNL Workfront Proof] samt ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Workfront Proof] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Workfront Proof], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Workfront Proof] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
-Detta är användbart om du behöver utföra åtgärder som för närvarande inte stöds vid korrektur i [!DNL Workfront] eller in [!DNL Workfront Proof], som att uppdatera korrektur baserat på vissa händelser och söka efter mottagare av ett korrektur.
+Detta är användbart om du behöver utföra uppgifter som för närvarande inte stöds för korrektur i [!DNL Workfront] eller [!DNL Workfront Proof], till exempel uppdatera korrektur baserat på vissa händelser och söka efter mottagare av ett korrektur.
 
-The [!DNL Workfront Proof] inte räknas som antalet aktiva appar som är tillgängliga för din organisation. Alla scenarier, även om de bara använder [!DNL Workfront Proof] app, räkna ut mot organisationens totala antal scenarier.
+[!DNL Workfront Proof]-kopplingen räknar inte med antalet aktiva appar som är tillgängliga för din organisation. Alla scenarier, även om de bara använder appen [!DNL Workfront Proof], räknas mot din organisations totala antal scenarier.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -47,31 +47,31 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Anslut [!DNL Workfront Proof] till [!DNL Workfront Fusion]
 
-Du kan skapa en anslutning till [!DNL Workfront Proof] direkt inifrån ett [!DNL Workfront Fusion] -modul.
+Du kan skapa en anslutning till ditt [!DNL Workfront Proof]-konto direkt inifrån en [!DNL Workfront Fusion]-modul.
 
-1. I alla [!DNL Workfront Fusion] modul, klicka på [!UICONTROL **Lägg till**] bredvid [!UICONTROL Connection] fält
+1. Klicka på [!UICONTROL **Lägg till**] bredvid fältet [!UICONTROL Connection] i en [!DNL Workfront Fusion]-modul
 
 2. Fyll i följande fält:
 
@@ -95,15 +95,15 @@ Du kan skapa en anslutning till [!DNL Workfront Proof] direkt inifrån ett [!DNL
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Email / Username]</td>
-                <td>Ange ditt användarnamn [!DNL Workfront Proof] konto.</td>
+                <td>Ange användarnamn för ditt [!DNL Workfront Proof]-konto.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Password]</td>
-                <td>Ange lösenordet för [!DNL Workfront Proof] konto.</td>
+                <td>Ange lösenordet för ditt [!DNL Workfront Proof]-konto.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Tenant ID]</td>
-                <td><strong>Anteckning</strong>: Kunder som inte använder BYOK måste lämna det här fältet tomt. <p>Ange klientorganisations-ID för det här kontot. Kontakta Workfront kundsupport om du behöver hjälp med att hitta ditt klient-ID.</p></td>
+                <td><strong>Obs!</strong> Kunder som inte använder BYOK måste lämna det här fältet tomt. <p>Ange klientorganisations-ID för det här kontot. Kontakta Workfront kundsupport om du behöver hjälp med att hitta ditt klient-ID.</p></td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Domain Extension]</td>
@@ -117,11 +117,11 @@ Du kan skapa en anslutning till [!DNL Workfront Proof] direkt inifrån ett [!DNL
     </table>
 
 
-3. Klicka [!UICONTROL **Fortsätt**] för att spara anslutningen och återgå till modulen
+3. Klicka på [!UICONTROL **Fortsätt**] för att spara anslutningen och återgå till modulen
 
-## [!DNL Workfront Proof] moduler och deras fält
+## [!DNL Workfront Proof]-moduler och deras fält
 
-När du konfigurerar [!DNL Workfront Proof] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Workfront Proof] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Workfront Proof] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Workfront Proof] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -145,7 +145,7 @@ Modulen returnerar en lista över alla poster som hittas under den period du ang
 
 Detta sker regelbundet enligt ett schema som du anger.
 
-Du måste ha tillräcklig behörighet för att komma åt korrekturet eller korrekturet i [!DNL Workfront Proof] för att hämta denna information.
+Du måste ha tillräcklig behörighet för att komma åt korrektur eller korrektur i [!DNL Workfront Proof] för att kunna hämta den här informationen.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -155,11 +155,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Posttyp</td> 
-   <td>Välj typ av [!DNL Workfront Proof] spela in som du vill att modulen ska bevaka.</td> 
+   <td>Välj den typ av [!DNL Workfront Proof]-post som du vill att modulen ska bevaka.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Utdata</td> 
@@ -188,7 +188,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
@@ -205,7 +205,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 Den här utlösarmodulen kör ett scenario när en angiven aktivitet inträffar på ett korrekturbevis.
 
-Modulen returnerar alla standardfält som är associerade med korrekturet, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Dessutom skapas en ny händelseprenumeration för PDF-sammanfattningar och innehållet skrivs ut från `pdf_url` attribut som skickas i nyttolasten. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+Modulen returnerar alla standardfält som är associerade med korrekturet, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Den skapar också en ny händelseprenumeration för PDF-sammanfattningar och matar ut innehållet från attributet `pdf_url` som skickas i nyttolasten. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -215,11 +215,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Activity type]</td> 
-   <td>Välj om du vill se ett nytt beslut (inklusive [!UICONTROL proof] statusändringar) eller övergripande korrekturstatusändringar.</td> 
+   <td>Välj om du bara vill se ett nytt beslut (inklusive [!UICONTROL proof] statusändringar) eller om den övergripande korrekturstatusen ska ändras.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
@@ -240,7 +240,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Create Proof]
 
-Den här åtgärdsmodulen skapar ett nytt korrektur eller en ny version av ett korrektur i [!DNL Workfront Proof].
+Denna åtgärdsmodul skapar ett nytt korrektur eller en ny version av ett korrektur i [!DNL Workfront Proof].
 
 Du anger parametrarna för det nya korrekturet och källkorrekturet om du skapar en ny version.
 
@@ -254,11 +254,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof Type]</td> 
-   <td> <p>Ange om du vill att det skapade korrekturet ska ha ett grundläggande arbetsflöde eller en [!UICONTROL Automated Workflow].</p> <p>Fyll sedan i fälten som visas som korrekturtyp. Om du till exempel väljer [!UICONTROL Automated Workflow], fyll i <strong>[!UICONTROL Workflow Stages]</strong> för att konfigurera faserna.</p></td> 
+   <td> <p>Ange om du vill att det skapade korrekturet ska ha ett grundläggande arbetsflöde eller en [!UICONTROL Automated Workflow].</p> <p>Fyll sedan i fälten som visas som korrekturtyp. Om du till exempel väljer [!UICONTROL Automated Workflow] fyller du i fältet <strong>[!UICONTROL Workflow Stages]</strong> för att konfigurera faserna.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Allow original file to be downloaded]</td> 
@@ -274,7 +274,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Create a new proof version]</td> 
-   <td>Välj det här alternativet om du vill att modulen ska skapa en ny version av ett befintligt korrektur. Sedan i <strong>[!UICONTROL Existing Proof ID]</strong> fält som visar, mappar eller anger korrekturens unika ID.</td> 
+   <td>Välj det här alternativet om du vill att modulen ska skapa en ny version av ett befintligt korrektur. Mappa eller ange ett unikt ID för korrekturet i fältet <strong>[!UICONTROL Existing Proof ID]</strong> som visas.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Link Label]</td> 
@@ -289,7 +289,7 @@ När du konfigurerar den här modulen visas följande fält.
    <td>Ange ett av följande nummer för att ange vilka av följande standardinställningar för e-postmeddelanden som du vill använda för korrekturet som skapas.
     <ul>
      <li><strong>1</strong> - Alla nya kommentarer och svar</li>
-     <li><strong>2</strong> - Svar på mina kommentarer</li>
+     <li><strong>2</strong> - Besvarar mina kommentarer</li>
      <li><strong>3</strong> - Daglig sammanfattning</li>
      <li><strong>4</strong> - Sammanfattning varje timme</li>
      <li><strong>5</strong> - Endast beslut</li>
@@ -358,11 +358,11 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Require login]</td> 
-   <td> <p>Ange om du vill att det skapade korrekturet ska kräva inloggning. </p> <p>Detta är samma sak som [!UICONTROL Login Required] inställning förklaras i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] in [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Ange om du vill att det skapade korrekturet ska kräva inloggning. </p> <p>Detta är samma som inställningen [!UICONTROL Login Required] som förklaras i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] i [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Ange ID:t för den upplösning som du vill använda för ditt korrektur. En lista med matchnings-ID:n finns i [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API-dokumentation</a>.</td> 
+   <td>Ange ID:t för den upplösning som du vill använda för ditt korrektur. En lista med matchnings-ID:n finns i [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API-dokumentationen</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -389,7 +389,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Custom API Call]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Workfront Proof] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Workfront Proof] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Workfront Proof]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Workfront Proof]-modulerna.
 
 Modulen returnerar statuskod, rubriker och brödtext. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -401,15 +401,15 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
-   <td>Ange åtgärden för API-anropet. Information om tillgängliga åtgärder finns i <a href="https://api.proofhq.com/">Korrektur för API-dokumentation</a>.</td> 
+   <td>Ange åtgärden för API-anropet. Information om tillgängliga åtgärder finns i <a href="https://api.proofhq.com/">dokumentationen för korrektur-API</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -431,7 +431,7 @@ Du anger korrekturens ID.
 
 Modulen returnerar innehållet i källfilen som användes för att skapa korrekturet.Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
-Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att hämta denna information.
+Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att kunna hämta informationen.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -441,11 +441,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Skriv det unika ID:t för beviset som finns på sidan [!UICONTROL Proof Details] sida. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Skriv det unika ID:t för beviset som finns på sidan [!UICONTROL Proof Details]. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -458,7 +458,7 @@ Du anger korrekturets ID och den information du vill ha från korrekturet.
 
 Modulen returnerar värdena för fälten som du väljer för korrekturet, tillsammans med deras typer. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
-Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att hämta denna information.
+Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att kunna hämta informationen.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -468,7 +468,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
@@ -480,20 +480,20 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td>Ange eller mappa det unika [!DNL Workfront Proof] ID för den post som du vill att modulen ska läsa.</td> 
+   <td>Ange eller mappa det unika [!DNL Workfront Proof]-ID:t för posten som du vill att modulen ska läsa.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Request PDF Summary]
 
-Den här åtgärdsmodulen begär en sammanfattning av PDF för ett visst bevis i [!DNL Workfront Proof].
+Den här åtgärdsmodulen begär sammanfattningen PDF för ett visst korrektur i [!DNL Workfront Proof].
 
 Du anger korrekturens ID.
 
 Modulen returnerar sammanfattningsinformation för PDF. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
-Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att hämta denna information.
+Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att kunna hämta informationen.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -503,11 +503,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Ange unika [!DNL Workfront Proof] ID för det bevis som du vill begära en sammanfattning för PDF.</p> </td> 
+   <td> <p>Ange det unika [!DNL Workfront Proof]-ID:t för det korrektur som du vill begära en sammanfattning för PDF.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Callback URL]</td> 
@@ -518,8 +518,8 @@ När du konfigurerar den här modulen visas följande fält.
 
 ##### Möjligt fel
 
-* **Fel**: &quot;[!UICONTROL You do not have privilege to perform this request. The stage must contain at least one recipient.]&quot;
-* **Lösning**: Se till att du inte är den enda som tilldelas till stegen i arbetsflödet. En annan användare måste vara tilldelad till stegen i arbetsflödet.
+* **Fel**: [!UICONTROL You do not have privilege to perform this request. The stage must contain at least one recipient.]
+* **Lösning**: Kontrollera att du inte är den enda som tilldelats till stegen i arbetsflödet. En annan användare måste vara tilldelad till stegen i arbetsflödet.
 
 #### [!UICONTROL Update Proof]
 
@@ -529,7 +529,7 @@ Du anger korrekturets ID och posttyp samt vilka fält som ska inkluderas i utdat
 
 Modulen returnerar alla standardfält som är associerade med posten, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
-Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att hämta denna information.
+Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att kunna hämta informationen.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -539,11 +539,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Proof ID]</td> 
-   <td> <p>Skriv det unika ID:t för beviset som finns på sidan [!UICONTROL Proof Details] sida. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
+   <td> <p>Skriv det unika ID:t för beviset som finns på sidan [!UICONTROL Proof Details]. Mer information finns i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" data-mc-variable-override="">Hantera korrekturinformation i [!DNL Workfront Proof]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Deadline]</td> 
@@ -571,7 +571,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Enable Subscriptions]</td> 
-   <td>Välj om personer som inte är deltagare ska kunna prenumerera på beviset.<br>Om du väljer det här alternativet kan du även välja [!UICONTROL Default Role] för prenumeranter, enligt beskrivningen i denna tabell.</td> 
+   <td>Välj om personer som inte är deltagare ska kunna prenumerera på beviset.<br>Om du väljer det här alternativet kan du även välja [!UICONTROL Default Role] för prenumeranter, vilket beskrivs i den här tabellen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Enable Subscriptions Validation]</td> 
@@ -599,7 +599,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Require login]</td> 
-   <td> <p>Ange om du vill att det skapade korrekturet ska kräva inloggning. </p> <p>Detta är samma sak som [!UICONTROL Login Required] inställning förklaras i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] in [!DNL Workfront Proof]</a></p> </td> 
+   <td> <p>Ange om du vill att det skapade korrekturet ska kräva inloggning. </p> <p>Detta är samma som inställningen [!UICONTROL Login Required] som förklaras i <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">[!UICONTROL Configure Proof Settings] i [!DNL Workfront Proof]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Show Versions Like]</td> 
@@ -614,7 +614,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Upload File]
 
-Den här åtgärdsmodulen överför en fil för användning med [!UICONTROL Create Proof] modulen i [!DNL Workfront Proof].
+Den här åtgärdsmodulen överför en fil för användning med modulen [!UICONTROL Create Proof] i [!DNL Workfront Proof].
 
 Modulen returnerar ett hash-ID för den överförda filen. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -626,7 +626,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
@@ -642,11 +642,11 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Search]
 
-Sökmodulen söker efter poster i ett objekt i [!DNL Workfront Proof] som matchar den sökfråga du anger.
+Den här sökmodulen söker efter poster i ett objekt i [!DNL Workfront Proof] som matchar den sökfråga du anger.
 
 Modulen returnerar korrekturets ID om den söker efter ett korrektur. Eller returnerar mottagarens användar-ID, e-post, namn, befattningar och e-postalias om den söker efter mottagare. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
-Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att hämta denna information.
+Du måste ha behörighet att komma åt posten i [!DNL Workfront Proof] för att kunna hämta informationen.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -656,7 +656,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Sök efter</td> 
@@ -691,7 +691,7 @@ I den här sökmodulen visas alla tillgängliga arbetsflödesmallar.
  <tbody> 
   <tr> 
    <td>[!DNL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Workfront Proof] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Workfront Proof]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Outputs]</td> 

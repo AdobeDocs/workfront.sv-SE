@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla mobilförbättringar som ingår i version 21.1. Dessa förbättringar kommer att bli tillgängliga i mobilbutikerna den 15 februari 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1 - versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1-versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Nya navigeringsskyltar i Adobe Workfront-appen
 
@@ -26,8 +26,6 @@ Vi har lagt till brödtextnavigering i Workfront mobilapp. Nu kan du använda de
 ## RTF i anpassade formulär i Workfront-appen
 
 Nu kan du använda RTF-formatering i anpassade formulärtextfält i Workfront mobilapp.
-
-Mer information om hur du skapar ett anpassat formulär med textfält finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## SSO-användare kan nu logga in på nytt i Workfront-appen med ansikts-ID eller fingeravtrycksteknik
 

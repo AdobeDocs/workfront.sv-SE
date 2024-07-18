@@ -5,18 +5,19 @@ title: Visa och hantera [!DNL Adobe Workfront] meddelanden i Adobe Creative Clou
 description: Du kan få meddelanden i Adobe Creative Cloud från [!DNL Adobe Workfront] om objekt som du måste godkänna, uppdrag som du har fått eller kommentarer och ändringar i objekt som du är kopplad till.
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+exl-id: b07474c0-ba41-4382-8374-040f633a47ed
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 0%
 
 ---
 
-# Visa och hantera [!DNL Adobe Workfront] meddelanden från [!DNL Adobe Creative Cloud]
+# Visa och hantera [!DNL Adobe Workfront]-meddelanden från [!DNL Adobe Creative Cloud]
 
 Du kan få meddelanden i Adobe Creative Cloud från [!DNL Adobe Workfront] om objekt som du måste godkänna, uppdrag som du har fått eller kommentarer och ändringar i objekt som du är kopplad till.
 
-Dessa meddelanden innehåller [!DNL Workfront] åtgärder som du kan utföra utan att navigera bort från Adobe Creative Cloud.
+De här meddelandena innehåller [!DNL Workfront] åtgärder som du kan vidta utan att navigera bort från Adobe Creative Cloud för att slutföra dem.
 
 Meddelanden finns i följande Adobe Creative Cloud-program:
 
@@ -24,7 +25,7 @@ Meddelanden finns i följande Adobe Creative Cloud-program:
 
 ## Åtkomstkrav
 
-&lt;You must have the following access to perform the steps in this article:
+&lt;Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,12 +43,12 @@ Meddelanden finns i följande Adobe Creative Cloud-program:
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</td> 
+   <td>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
@@ -55,9 +56,9 @@ Meddelanden finns i följande Adobe Creative Cloud-program:
 
 * Du har aktiverat snabbmeddelanden i [!DNL Workfront]. Information om hur du aktiverar snabbmeddelanden finns i [Ändra dina egna e-postmeddelanden](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Visa och hantera [!DNL Workfront] meddelanden i Adobe Creative Cloud
+## Visa och hantera [!DNL Workfront]-meddelanden i Adobe Creative Cloud
 
-1. Klicka på **[!UICONTROL Notifications]** icon ![Ikonen Meddelanden](assets/cc-plugin-notifications-icon.png) nära plugin-panelens övre del. En blå punkt på ikonen visar att du har olästa meddelanden.
+1. Klicka på ikonen **[!UICONTROL Notifications]** ![Notifications (Meddelanden)](assets/cc-plugin-notifications-icon.png) i den övre delen av plugin-programpanelen. En blå punkt på ikonen visar att du har olästa meddelanden.
 1. (Valfritt) Om du vill markera alla meddelanden som visas klickar du på **[!UICONTROL Mark all as seen]**.
 
    Detta markerar meddelanden som de visas i plugin-programmet samt i Workfront. Visade meddelanden visas inte längre i listan med meddelanden i plugin-programmet.
@@ -75,5 +76,3 @@ Följande meddelanden är tillgängliga i plugin-programmet:
 * Någon kommenterade en uppdatering som du är inkluderad i
 * Någon kommenterade ditt verk eller något du gjorde
 * Ditt dokument har godkänts/godkänts med ändringar/avvisats
-
-

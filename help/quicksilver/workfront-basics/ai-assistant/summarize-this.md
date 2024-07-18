@@ -6,7 +6,8 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: bddf7a2a9c3e8732bbced042e6fdc28b440870c4
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -30,21 +31,16 @@ AI Assistant kan sammanfatta följande objekt:
 >
 >Sammanfattningsfunktionen i AI Assistant skiljer sig från sammanfattningspanelen.
 >
->Mer information om panelen Sammanfattning i Workfront finns i [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Mer information om sammanfattningspanelen i Workfront finns i [Sammanfattningsöversikt](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Sammanfatta ett objekt
 
 Så här visar du en sammanfattning av ett objekt:
 
 1. Navigera till objektet som du vill se en sammanfattning för.
-1. Klicka på **AI Assistant** icon ![AI Assistant, ikon](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
-1. Klicka på på AI-assistentpanelen **Sammanfatta detta**.
+1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
+1. Klicka på **Sammanfatta** på AI-assistentpanelen.
 
    Det kan ta en stund innan AI Assistant genererar sammanfattningen, beroende på hur stort eller komplext objektet är.
 
 1. Visa AI-sammanfattningen på AI-assistentpanelen.
-
-
-
-
-

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Inaktivera ett team
 
-Du kan inaktivera team som du inte längre använder samtidigt som du behåller tillhörande historiska data. [!DNL Adobe Workfront] administratörer kan återaktivera ett team när som helst från Teams-området i installationsprogrammet. Om du inaktiverar ett team visas det inte längre inom följande områden:
+Du kan inaktivera team som du inte längre använder samtidigt som du behåller tillhörande historiska data. [!DNL Adobe Workfront]-administratörer kan återaktivera ett team när som helst från Teams-området i installationsprogrammet. Om du inaktiverar ett team visas det inte längre inom följande områden:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Du kan inaktivera team som du inte längre använder samtidigt som du behåller 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Listrutan Huvudval i [!UICONTROL Teams] area</p> </li> 
+     <li> <p>Nedrullningsbar meny för huvudval i området [!UICONTROL Teams]</p> </li> 
      <li> <p>[!UICONTROL Assignments] typhuvud</p> </li> 
      <li> <p>[!UICONTROL Add to Kanban] leda dialog i ett projekt</p> </li> 
     </ul> </td> 
@@ -40,7 +40,7 @@ Du kan inaktivera team som du inte längre använder samtidigt som du behåller 
  </tbody> 
 </table>
 
-Inaktiverade team visas inte när du söker efter ett team, men de visas fortfarande i [!UICONTROL Home Team] och andra team om användaren var tilldelad teamet före inaktiveringen.
+Inaktiverade team visas inte när du söker efter ett team, men de visas fortfarande i [!UICONTROL Home Team] och andra team om användaren har tilldelats teamet före inaktiveringen.
 
 ## Åtkomstkrav
 
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Inaktivera ett team
 
@@ -73,17 +73,17 @@ Alla arbeten som teamet tilldelats före inaktiveringen förblir tilldelade. Vi 
 
 Om du inaktiverar ett team som tilldelats som standardteam i en routningsregel när du använder begärandeköer återstår teamet och begäranden dirigeras fortfarande till det inaktiverade teamet. Vi rekommenderar att du uppdaterar routningsregler med aktiva team innan du inaktiverar teamet.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
-1. Klicka på **[!DNL Switch team]** väljer du sedan ett nytt team i listrutan eller söker efter ett team i sökfältet.
-1. Klicka på **[!UICONTROL More]** väljer du **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!DNL Switch team]** och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. Rensa **[!UICONTROL Is Active]** kryssruta.
+1. Avmarkera kryssrutan **[!UICONTROL Is Active]**.
 1. Klicka på **[!UICONTROL Save changes]**.
 
 ## Kända begränsningar
 
 Inaktiverade team visas inom följande områden:
 
-* Fältet Ägare i [!DNL Workfront Goals]. Detta kräver ytterligare licens för [!DNL Adobe Workfront Goals]. Mer information finns i [Kom igång med [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
+* Ägarfältet i [!DNL Workfront Goals]. Detta kräver ytterligare en licens för [!DNL Adobe Workfront Goals]. Mer information finns i [Kom igång med [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).

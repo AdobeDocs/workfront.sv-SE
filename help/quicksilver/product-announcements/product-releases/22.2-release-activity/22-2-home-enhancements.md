@@ -25,7 +25,7 @@ in January 2022
 
 den 4 april 2022.
 
-En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2.2 finns i [2.2 versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Förbättringar av filter i hemarbetslistan
 
@@ -33,5 +33,5 @@ För att få större kontroll över och fokus på din arbetslista har vi impleme
 
 Tidigare gav filtren i Hem inte korrekt antal arbetsobjekt i listan när du markerade ett eller flera filter och de skapade förvirring om arbetsobjektens status.
 
-Mer information finns i [Visa objekt i arbetslista i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 

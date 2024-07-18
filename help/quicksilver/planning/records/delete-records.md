@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Contribute eller högre behörighet till en arbetsyta</a> </p>  
+   <td> <p>Contribute eller högre behörighet till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -113,14 +113,14 @@ Du kan ta bort en post från följande områden:
 1. Gör något av följande:
 
    * Klicka på en posts namn i en tabellvy.
-   * Håll markören över namnet på en post i tabellvyn och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+   * Håll markören över namnet på en post i tabellvyn, klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Visa**
 
      ![](assets/contextual-menu-for-record-row.png)
    * Klicka på ett postfält i en tidslinjevy.
 
    Postsidan öppnas.
 
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort** sedan **Ta bort** igen för att bekräfta.
+1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet, klicka sedan på **Ta bort** och sedan på **Ta bort** igen för att bekräfta.
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Posten tas bort och kan inte återställas.
@@ -136,17 +136,17 @@ Posten tas bort och kan inte återställas.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre vänstra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
+1. (Villkorligt) Välj en tabellvy på den nedrullningsbara menyn **Visa** i tabellens övre vänstra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Gör något av följande:
 
    * Högerklicka på en postrad och klicka sedan på **Ta bort**.
-   * Klicka på **Mer** meny ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**
+   * Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om postnamnet och klicka sedan på **Ta bort**
 
      ![](assets/contextual-menu-for-record-row.png)
 
-   * Klicka på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan med postens detaljerade information och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet, och **Ta bort**.
+   * Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) för att öppna rutan med postens detaljerade information, och klicka på **Mer** ![](assets/more-menu.png) till höger om postnamnet och sedan på **Ta bort**.
 
    Posten tas bort och kan inte återställas.
 

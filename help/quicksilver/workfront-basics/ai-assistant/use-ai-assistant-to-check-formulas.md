@@ -6,9 +6,10 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: b5ec158fc1484df193120a9c7aca9f19d2b65265
+exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '236'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -27,11 +28,11 @@ AI Assistant kan hjälpa dig att ändra formeln till ett giltigt beräknat fält
 
 Så här ändrar du ett ogiltigt beräknat fältuttryck:
 
-1. Klicka på **AI Assistant** icon ![AI Assistant, ikon](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
+1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
 1. Ange ett meddelande i promptområdet längst ned på AI Assistant-panelen, till exempel:
    `Rewrite this formula to remove the invalid expression error`
 1. Kopiera det ogiltiga uttrycket från det anpassade formulärverktyget och klistra in det i promptområdet.
-1. Tryck **Retur**.
+1. Tryck på **Retur**.
 
    AI Assistant kan ta en stund att generera den reviderade formeln, beroende på hur stor eller komplex formeln är.
 1. Visa den reviderade formeln på AI-assistentpanelen.
@@ -41,7 +42,4 @@ Så här ändrar du ett ogiltigt beräknat fältuttryck:
 >
 >Vi rekommenderar att du testar beräkningsfältet för att se till att det hämtar det förväntade resultatet.
 
-Mer information om beräkningsfält i Workfront finns i [Lägga till beräknade data i ett anpassat formulär med äldre formulärverktyg](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-
-
+Mer information om beräkningsfält i Workfront finns i [Lägg till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).

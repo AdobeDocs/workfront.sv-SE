@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Språk som stöds i Adobe Workfront
-description: Du kan ändra vilket språk du visar Adobe Workfront och e-postmeddelanden från Workfront på genom att ändra språkinställningarna i webbläsaren och ditt standardspråk för e-post i Workfront.
+description: Du kan ändra vilket språk som används för att visa Adobe Workfront och e-postmeddelanden från Workfront genom att justera språkinställningarna i webbläsaren och ditt standardspråk för e-post i Workfront.
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
 workflow-type: tm+mt
-source-wordcount: '860'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
 
 # Språk som stöds i Adobe Workfront
 
-Du kan ändra vilket språk du visar Adobe Workfront och e-postmeddelanden från Workfront på genom att ändra språkinställningarna i webbläsaren och ditt standardspråk för e-post i Workfront.
+Du kan ändra vilket språk som används för att visa Adobe Workfront och e-postmeddelanden från Workfront genom att justera språkinställningarna i webbläsaren och ditt standardspråk för e-post i Workfront.
 
 Workfront terminologi uppdateras för de språk som stöds i varje Workfront-uppdatering.
 
@@ -36,7 +36,7 @@ Det språk som används för att visa Workfront i webbläsaren styrs av språkin
 
 Om du vill visa utgående e-post på något av de språk som stöds ändrar du inställningarna för e-postadress för användare eller kundinformation i Workfront.\
 Du måste vara Workfront-administratör för att kunna ändra inställningarna för kundinformation.\
-Mer information om hur du ändrar kundinformation och användarens e-postspråk finns i [Ändra e-postadresser för Workfront och användare](#change-the-workfront-and-user-locales).
+Mer information om hur du ändrar kundinformation och språkområde för e-post för användare finns i [Ändra språkområdet för e-post för Workfront och användare](#change-the-workfront-and-user-locales).
 
 Du kan kontraktera en tredje part om du vill att Workfront gränssnitt och utgående e-post från Workfront ska översättas till andra språk. Dessa översättningar stöds inte av Workfront och alla andra språk än de som listas ovan stöds inte.
 
@@ -45,29 +45,28 @@ Du kan kontraktera en tredje part om du vill att Workfront gränssnitt och utgå
 >Delar av gränssnittet kan fortfarande vara oöversatta för följande:
 >
 >* När du använder ett språk som inte stöds visas gränssnittet på engelska
->* Hjälpmenyn, samt hjälpinnehållet som du kommer åt från den menyn, visas på engelska
->* Den text som användaren skriver behålls på det ursprungliga språk som angavs. Detta kan omfatta, men är inte begränsat till:
-   >
-   >   * Projektnamn
-   >   * Uppgiftsnamn
-   >   * Ärendenamn
-   >   * Portfolio
-   >   * Programnamn
-   >   * Godkännandenamn
-   >   * Beskrivningar
-   >   * Anpassade formulärnamn
-   >   * Namn på timtyper
-   >   * Utgiftstyper
-   >   * Milstolpar
-   >   * Egna flikar
-   >   * Status
-   >   * Rapportnamn
+>* Hjälpmenyn, samt hjälpinnehållet som öppnas från den menyn, visas på engelska
+>* Den text som användaren skriver behålls på det språk som angavs i originalet. Detta kan omfatta, men är inte begränsat till:
 >
-
+>   * Projektnamn
+>   * Uppgiftsnamn
+>   * Ärendenamn
+>   * Portfolio
+>   * Programnamn
+>   * Godkännandenamn
+>   * Beskrivning
+>   * Anpassade formulärnamn
+>   * Namn på timtyper
+>   * Utgiftstyper
+>   * Milstolpar
+>   * Egna flikar
+>   * Status
+>   * Rapportnamn
+>
 
 ## Språkavvikelser som stöds vid korrektur
 
-Web Proofing Viewer i Workfront har stöd för de flesta språk som stöds i Workfront.
+Web Proofing Viewer i Workfront stöder de flesta språk som stöds i Workfront.
 
 Följande språk stöds inte i språkverktyget:
 
@@ -81,7 +80,7 @@ Mer information om korrektur finns i [Korrektur](../review-and-approve-work/proo
 
 När du visar Workfront på ett språk som inte stöds i korrekturverktyget visas Web Proofing Viewer på engelska.
 
-Om du använder Workfront Proof (det fristående korrekturverktyget) på ett språk som inte stöds i Workfront visas korrekturläsaren för webben i Workfront på engelska.\
+Om du använder Workfront Proof (det fristående korrekturläsningsverktyget) på ett språk som inte stöds i Workfront visas Web Proofing Viewer i Workfront på engelska.\
 Mer information om vilka språk som stöds i Workfront Proof finns i [Språkinställningar i Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
 
 ## Språk som stöds i Adobe Workfront Fusion
@@ -127,13 +126,13 @@ När du ändrar Workfront standardspråk för e-post ändrar du det språk, datu
 Så här ändrar du Workfront standardspråk för e-post:
 
 1. Logga in på Workfront som Workfront-administratör.
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **System** > **Kundinformation.**
+1. Klicka på **System** > **Kundinformation.**
 
-1. I **Grundläggande information** klickar du på **Standardspråk för e-post** nedrullningsbar lista där du kan välja vilket språk du vill att Workfront e-postmeddelanden ska visas i.
+1. I avsnittet **Grundläggande information** klickar du på listrutan **Standardspråk för e-post** för att välja det språk som du vill att Workfront-e-postmeddelanden ska visas i.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ### Ändra användarens e-postspråk {#change-the-user-locale}
 
@@ -141,10 +140,10 @@ När du ändrar ditt språkområde för e-post för användare ändrar du språk
 
 Så här ändrar du din e-postadress för användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på din användarprofilbild.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på din användarprofilbild.
 
-1. Klicka på Mer-menyn ![](assets/more-icon.png)och sedan klicka **Redigera**.
+1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
 
-1. I **Inställningar** klickar du på **Språk för e-post** nedrullningsbar lista där du kan välja vilket språk du vill att Workfront e-postmeddelanden ska visas i.
+1. I avsnittet **Inställningar** klickar du på listrutan **Språk för e-post** för att välja det språk som du vill att Workfront-e-postmeddelanden ska visas i.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

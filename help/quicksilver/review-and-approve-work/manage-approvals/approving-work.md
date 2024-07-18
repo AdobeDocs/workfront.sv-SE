@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -62,7 +62,7 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
 
 ## Godkänn arbete från startsidan
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
+1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
@@ -70,9 +70,9 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
    >
    >   
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
-1. Klicka på **Filter** listruta.
+1. Klicka på listrutan **Filter**.
 
    ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
@@ -83,25 +83,25 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
    >
    >Godkännanden som tilldelats till jobbroller eller grupper visas inte i Hem. Godkännanden som tilldelats team visas i grupperingen Teambegäran i arbetslistan.
 
-1. (Valfritt) Ändra den ordning i vilken godkännanden visas, enligt beskrivningen i avsnittet Gruppera och sortera efter datum, projekt eller prioritet i artikeln [Visa objekt i arbetslista i hemområdet](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+1. (Valfritt) Ändra den ordning i vilken godkännanden visas, enligt beskrivningen i avsnittet Gruppera och sortera efter datum, projekt eller prioritet i artikeln [Visa objekt i arbetslistan i hemområdet](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 1. Markera objektet där du vill fatta ett beslut om godkännande.
 
    ![](assets/task-approval-home-350x127.png)
 
 1. Klicka på ett av de tillgängliga alternativen när du ska fatta ett beslut om godkännande på den högra panelen. Följande alternativ visas i det övre högra hörnet av sidan, beroende på vilken typ av objekt du godkänner:
 
-   * **Projekt:** Klicka **Godkänn** eller **Avvisa**.
+   * **Projekt:** Klicka på **Godkänn** eller **Avvisa**.
 
-   * **Uppgifter:** Klicka **Godkänn** eller **Avvisa** .
+   * **Uppgifter:** Klicka på **Godkänn** eller **Avvisa** .
 
-   * **Problem:** Klicka **Godkänn** eller **Avvisa** .
+   * **Problem:** Klicka på **Godkänn** eller **Avvisa** .
 
-   * **Tidrapporter:** Klicka **Godkänn** eller **Avvisa** .
+   * **Tidrapporter:** Klicka på **Godkänn** eller **Avvisa** .
 
-   * **Dokument:** Klicka **Godkänn**, **Avvisa**, eller **Ändringar**.\
-      Tänk på följande när du visar godkännanden:
+   * **Dokument:** Klicka på **Godkänn**, **Avvisa** eller **Ändringar**.\
+      Tänk på följande när du visar  godkännanden:
 
-      * Bevisgodkännanden visas här när en användare delar ett bevis med dig, vilket beskrivs i avsnittet Dela en korrekturlänk i artikeln [Dela ett korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+      * Bevisgodkännanden visas här när en användare delar ett korrektur med dig, vilket beskrivs i avsnittet Dela en korrekturlänk i artikeln [Dela ett korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
       * Språkgodkännanden visas bara i hemmet om din Workfront-miljö är integrerad med ett Workfront Proof Premium-konto. Om du inte kan använda korrektur som beskrivs här kontaktar du Workfront-administratören.
       * Du får ett meddelande i appen som meddelar dig om korrekturgodkännandet.\
         Mer information om meddelanden i appen finns i [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
@@ -117,13 +117,13 @@ Mer information om hur du visar objekt som väntar på godkännanden eller objek
 
         Om användarnamnet inte är tillgängligt visas följande text:\
         &quot;En ny version av ett korrektur är klar att visas&quot;
-      * Om du vill godkänna korrekturet klickar du på **Gå till korrektur**, klicka **Slutför granskning** och klickar sedan på något av de tillgängliga alternativen. De tillgängliga alternativen när du godkänner ett korrektur är: **Godkänd**, **Godkänd med ändringar**, **Ändringar krävs** och **Ej relevant**.
+      * Klicka på **Gå till korrektur**, **Slutför granskning** och sedan på ett av de tillgängliga alternativen om du vill fatta ett beslut om godkännande av korrekturet. De tillgängliga alternativen vid godkännande av korrektur är: **Godkänd**, **Godkänd med ändringar**, **Ändringar krävs** och **Inte relevant**.
 
-      * När ett beslut har fattats om beviset finns det kvar på fliken Mina godkännanden med texten&quot;Beslutsfattare&quot; tills du klickar på **Uppdatera** eller tills webbläsarsidan uppdateras.
+      * När du har bestämt dig för korrekturet finns det kvar på fliken Mina godkännanden med texten &quot;Beslutsfattad&quot; tills du klickar på knappen **Uppdatera** eller tills du uppdaterar webbläsarsidan.
 
-        Mer information om hur du granskar ett korrektur finns i [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+        Mer information om hur du granskar korrektur finns i [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-   * **Åtkomst:** Välj den åtkomstnivå som ska beviljas i **Ändra åtkomst** nedrullningsbar meny och klicka sedan på **Bevilja åtkomst**. Eller klicka **Ignorera**.
+   * **Åtkomst:** Välj åtkomstnivå i listrutan **Ändra åtkomst** och klicka sedan på **Bevilja åtkomst**. Du kan också klicka på **Ignorera**.
 
 ## Godkänn arbete direkt från ett projekt, en uppgift eller ett ärende
 
@@ -149,32 +149,32 @@ Så här godkänner du arbete direkt från ett projekt, en uppgift eller en utg�
      </tr> 
      <tr> 
       <td role="rowheader">Godkännandefaser</td> 
-      <td>Stegen i godkännandeprocessen. <br>Det aktuella steget som väntar på godkännande visas som Väntande. Steg som redan har godkänts visas som Godkända. Steg som ännu inte har godkänts visas som Inte startat.</td> 
+      <td>Stegen i godkännandeprocessen. <br>Den aktuella fasen som väntar på godkännande visas som Väntande. Steg som redan har godkänts visas som Godkända. Steg som ännu inte har godkänts visas som Inte startat.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Godkänn** eller **Avvisa**, beroende på om du vill godkänna eller avvisa godkännandeprocessen.\
+1. Klicka på **Godkänn** eller **Avvisa**, beroende på om du vill godkänna eller avvisa godkännandeprocessen.\
    Godkännandefasen som väntar på godkännande har nu godkänts och godkännandeprocessen går vidare till nästa steg. Statusen godkänns när alla faser har godkänts.
 
 ## Godkänn ett dokument direkt från ett dokument 
 
 1. Gå till dokumentområdet som innehåller dokumentet som kräver ditt godkännande.
-1. Markera dokumentet och klicka sedan på **Godkänn**, **Ändringar**, eller **Avvisa**.\
+1. Markera dokumentet och klicka sedan på **Godkänn**, **Ändringar** eller **Avvisa**.\
    ![](assets/approval-approve-document-350x215.png)\
    ![](assets/document-approval-350x199.png)
 
-1. (Valfritt) Om ett korrektur har skapats för dokumentet kan du godkänna dokumentet i korrekturgränssnittet enligt beskrivningen i [Godkänn ett dokument från ett korrektur](#approve-a-document-from-a-proof).
+1. (Valfritt) Om ett korrektur har skapats för dokumentet kan du godkänna dokumentet i korrekturgränssnittet, vilket beskrivs i [Godkänn ett dokument från ett korrektur](#approve-a-document-from-a-proof).
 
 ## Godkänn ett dokument från ett e-postmeddelande om godkännande
 
-Beroende på dina meddelandeinställningar kan du få e-postmeddelanden som meddelar dig om dokument som andra användare behöver att du ska fatta ett beslut om godkännande av. När du får ett e-postmeddelande som innehåller en **Godkännandebeslut** kan du starta godkännandeprocessen direkt från e-postmeddelandet:
+Beroende på dina meddelandeinställningar kan du få e-postmeddelanden som meddelar dig om dokument som andra användare behöver att du ska fatta ett beslut om godkännande av. När du får ett e-postmeddelande som innehåller knappen **Make Approval Decision** kan du starta godkännandeprocessen direkt från e-postmeddelandet:
 
-1. Klicka på **Godkännandebeslut** för att öppna sidan Dokumentinformation för korrekturet.
+1. I e-postmeddelandet klickar du på **Make Approval Decision** för att öppna sidan Document Details (Dokumentinformation) för korrekturet.
 1. Gör något av följande för att granska dokumentet:
 
    * Visa metadata om dokumentet.
-   * Om ett korrektur har skapats för granskning av dokumentet med markeringar och kommentarer, klickar du på **Öppna korrektur** ![](assets/open-proof-icon-qs.png) i det övre högra hörnet och granska korrekturet.
+   * Om du har skapat ett korrektur för granskning av dokumentet med markeringar och kommentarer klickar du på **Öppna korrektur** ![](assets/open-proof-icon-qs.png) i det övre högra hörnet och granskar korrekturet.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   
@@ -182,8 +182,8 @@ Beroende på dina meddelandeinställningar kan du få e-postmeddelanden som medd
 
      Mer information om granskning av korrektur finns i [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Klicka på en **Beslut** i det övre högra hörnet för att godkänna, godkänna med ändringar eller avvisa dokumentet.
+1. Klicka på ett **beslutsalternativ** i det övre högra hörnet om du vill godkänna, godkänna med ändringar eller avvisa dokumentet.
 
 ## Godkänn ett dokument från ett korrektur {#approve-a-document-from-a-proof}
 
-Du kan godkänna ett dokument i korrekturläsaren. Mer information finns i [Fatta ett beslut om ett korrektur i korrekturläsaren](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) i artikeln [Fatta ett beslut om ett korrektur i korrekturläsaren](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Du kan godkänna ett dokument i korrekturläsaren. Mer information finns i [Ta ett beslut om ett korrektur i korrekturläsaren](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) i artikeln [Ta ett beslut om ett korrektur i korrekturläsaren](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).

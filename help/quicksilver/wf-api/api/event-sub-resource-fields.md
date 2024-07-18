@@ -9,7 +9,7 @@ role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -445,9 +445,9 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td>userID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>DocumentVersion</span> </td> 
+   <td><span>Dokumentversion</span> </td> 
    <td><span>DOCV</span> </td> 
-   <td><span>accessorID</span> </td> 
+   <td><span>accessorID:n</span> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -562,7 +562,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>proofPages</span> </td> 
+   <td><span>korrektursidor</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1780,19 +1780,19 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>KorrekturGodkännande</span> </td> 
+   <td><span>Korrektur för godkännande</span> </td> 
    <td><span>PRFAPL</span> </td> 
-   <td><span>accessorID</span> </td> 
+   <td><span>accessorID:n</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>godkännareBeslut</span> </td> 
+   <td><span>approverDecision</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>godkännareID</span> </td> 
+   <td><span>godkännar-ID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1832,7 +1832,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>requestID</span> </td> 
+   <td><span>beställar-ID</span> </td> 
   </tr> 
   <tr> 
    <td>Post</td> 
@@ -2735,8 +2735,8 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>Arbetsyta</td> 
-   <td>ARBETSYTA</td> 
+   <td>Workspace</td> 
+   <td>WORKSPACE</td> 
    <td>färg</td> 
   </tr> 
   <tr> 

@@ -2,14 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]
+title: Mappa information från en modul till en annan i  [!DNL Adobe Workfront Fusion]
 description: Mappning är processen att tilldela en moduls utdata, strukturerade till objekt, till en annan moduls indatafält.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
 source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
@@ -39,25 +39,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Paket och artiklar
 
@@ -65,20 +65,20 @@ Funktionen för en modul ger noll, ett eller flera paket som utdata. Ett paket b
 
 Så här utforskar du en moduls utdata:
 
-1. Klicka **[!UICONTROL Run once]** för att köra modulen.
+1. Klicka på **[!UICONTROL Run once]** för att köra modulen.
 1. Klicka på bubblan ovanför modulen.
 
-   En logg som innehåller alla modulens faser visas. Du kan hitta paketet eller paketen som matas ut av en moduls operationsfas under **[!UICONTROL Output]** rubrik. Varje paket innehåller dess objekt och varje objekts värden.
+   En logg som innehåller alla modulens faser visas. Du kan hitta det paket eller de paket som skickas av en moduls åtgärdsfas under rubriken **[!UICONTROL Output]**. Varje paket innehåller dess objekt och varje objekts värden.
 
 >[!INFO]
 >
->**Exempel:** I det här exemplet visas modulen [!UICONTROL Email] > [!UICONTROL Watch emails]. Du kan se att den utförde 1 åtgärd som producerade ett enda paket som innehåller olika objekt, som `Date`, `Email ID (UID)`, `size`och så vidare.
+>**Exempel:** I det här exemplet visas modulen [!UICONTROL Email] > [!UICONTROL Watch emails]. Du kan se att den utförde 1 åtgärd som producerade ett enskilt paket som innehåller olika objekt som `Date`, `Email ID (UID)`, `size` och så vidare.
 >
 >![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
->Utdata från moduler som omsluts mellan en [!UICONTROL Iterator] och [!UICONTROL Aggregator] är inte tillgängliga utanför [!UICONTROL Aggregator] -modul.
+>Utdata från moduler som är inkapslade mellan [!UICONTROL Iterator] och [!UICONTROL Aggregator] är inte tillgängliga utanför modulen [!UICONTROL Aggregator].
 
 ## Mappa ett objekt
 
@@ -96,7 +96,7 @@ Så här tilldelar du objekt till indatafält för en modul:
 
    Sökresultaten innehåller söktermen och är inte skiftlägeskänsliga.
 
-Mer information finns i [Konfigurera en moduls inställningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+Mer information finns i [Konfigurera en moduls inställningar i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 ## Formler
 
@@ -108,34 +108,34 @@ Du hittar funktionerna och operatorerna på mappningspanelen under någon av des
 
 ![](assets/functions-toolbar-350x189.png)
 
-Den första fliken ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (visas när panelen öppnas) visar objekt som du kan mappa från andra moduler.
+På den första fliken ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (visas när panelen öppnas) visas objekt som du kan mappa från andra moduler.
 
 De andra flikarna innehåller följande typer av funktioner:
 
-* **Allmänna funktioner** ![](assets/toolbar-icon-general-function.png) - Se [Allmänna funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) för mer information.
+* **Allmänna funktioner** ![](assets/toolbar-icon-general-function.png) - Mer information finns i [Allmänna funktioner i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
-* **Matematiska funktioner** ![](assets/toolbar-icon-math-functions.png) - Se [Matematiska funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) för mer information.
+* **Matematiska funktioner** ![](assets/toolbar-icon-math-functions.png) - Mer information finns i [Matematiska funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md).
 
-* **Text- och binärfunktioner** ![](assets/toolbar-icon-text&binary-functions.png) - Se [Strängfunktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) för mer information.
+* **Text och binära funktioner** ![](assets/toolbar-icon-text&binary-functions.png) - Mer information finns i [Strängfunktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md).
 
-* **Datum och tid** ![](assets/toolbar-icon-date&time-functions.png) - Se [Datum- och tidsfunktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) och artiklarna nedan för mer information.
+* **Datum och tid** ![](assets/toolbar-icon-date&time-functions.png) - Se [Datum- och tidsfunktioner i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) och artiklarna nedan för mer information.
 
-   * [Token för datum- och tidsformatering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens för datum- och tidsformatering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
    * [Token för datum- och tidsanalys i Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Funktioner för att arbeta med arrayer** ![](assets/toolbar-icon-functions-for-arrays.png) - Se [Array-funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) för mer information.
+* **Funktioner för att arbeta med arrayer** ![](assets/toolbar-icon-functions-for-arrays.png) - Mer information finns i [Arrayfunktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
 >[!TIP]
 >
 >När du skapar en komplex formel som du vill återanvända i ett annat fält kan du klicka på fältet som innehåller kombinationen, använda Kommando-A eller Ctrl-A för att markera den och sedan kopiera och klistra in den i det andra fältet.
 
-Mer information om hur du mappar objekt med funktioner finns i [Mappa objekt med funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
+Mer information om att mappa objekt med funktioner finns i [Mappa objekt med funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
 
 ## Samlingar
 
 Vissa objekt kan innehålla flera värden av olika typer. Det här är samlingstypsobjekt.
 
-Du kan identifiera [!UICONTROL collection] textobjekt av den lilla svarta rektangeln som visas till höger om objektets etikett och dess automatiskt utökade lista över underobjekt:
+Du kan identifiera ett [!UICONTROL collection]-typobjekt med den lilla svarta rektangeln som visas till höger om objektets etikett och dess automatiskt utökade lista över underobjekt:
 
 ![](assets/collection.png)
 
@@ -143,7 +143,7 @@ Du kan identifiera [!UICONTROL collection] textobjekt av den lilla svarta rektan
 >
 >I de flesta fall mappar du samlingens underobjekt i stället för det objekt som representerar hela samlingen.
 
-Mer information om samlingar finns i [Artikeldatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Mer information om samlingar finns i [Objektdatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ## Arrayer
 
@@ -153,11 +153,11 @@ Du kan identifiera ett arraytypobjekt med hakparenteser i slutet av objektets et
 
 ![](assets/array.png)
 
-Mer information om arrayer finns i [Artikeldatatyper i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Mer information om arrayer finns i [Objektdatatyper i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ### Mappa en arrays första element
 
-Om du mappar en arrays `Recipient name` -objektet, visas i fältet så här:
+Om du mappar en arrays `Recipient name`-objekt visas den i fältet så här:
 
 ![](assets/map-array-1st-element.png)
 
@@ -173,7 +173,7 @@ Om du vill komma åt ett annat element klickar du på hakparenteserna och redige
 
 Vissa arrayer innehåller flera samlingar med nyckel- och värdeobjekt. Dessa är vanligtvis olika metadata, attribut och så vidare.
 
-I följande exempel visas utdata för [!DNL Jira] App.
+I följande exempel visas utdata för appen [!DNL Jira].
 
 ![](assets/output-of-jira-app-350x100.png)
 
@@ -183,12 +183,12 @@ Utdata från [!DNL Jira] ser ut så här:
 
 ![](assets/output-from-jira-350x261.png)
 
-Det typiska kravet är att söka efter ett element med dess angivna nyckelvärde och hämta motsvarande värde från värdeobjektet. Detta kan uppnås med en formel som innehåller en kombination av `map()` och `get()` funktioner.
+Det typiska kravet är att söka efter ett element med dess angivna nyckelvärde och hämta motsvarande värde från värdeobjektet. Detta kan uppnås med en formel som innehåller en kombination av funktionerna `map()` och `get()`.
 
 Här följer en detaljerad beskrivning av formeln:
 
-1. Den första parametern i `map()` function är hela arrayobjektet.
-1. Den andra parametern är värdobjektets raw-namn. Om du vill få Raw-namnet för du pekaren över objektet i dialogrutan [!UICONTROL mapping] panel:
+1. Den första parametern i funktionen `map()` är hela arrayobjektet.
+1. Den andra parametern är värdobjektets raw-namn. Håll markören över objektet på panelen [!UICONTROL mapping] om du vill få Raw-namnet:
 
    ![](assets/obtain-raw-name-350x124.png)
 
@@ -202,19 +202,19 @@ Här följer en detaljerad beskrivning av formeln:
 
 1. Den fjärde parametern är det angivna nyckelvärdet.
 
-På grund av `map()` funktionen returnerar en array (eftersom det kan finnas fler element med det angivna nyckelvärdet), måste du använda `get()` funktion för att hämta dess första element:
+Eftersom funktionen `map()` returnerar en array (eftersom det kan finnas fler element med det angivna nyckelvärdet), måste du använda funktionen `get()` för att få det första elementet:
 
-* Den första parametern i `get()` -funktionen är resultatet av `map()` funktion.
+* Den första parametern i funktionen `get()` är resultatet av funktionen `map()`.
 
 * Den andra parametern är elementets index - ett.
 
-Mer information om `map()` funktion, se [Array-funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
+Mer information om funktionen `map()` finns i [Array-funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
-Mer information om `get()` funktion, se [Allmänna funktioner i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
+Mer information om funktionen `get()` finns i [Allmänna funktioner i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
 ## Konvertera element till en serie paket
 
-Arrayer kan konverteras till en serie paket med [!UICONTROL Iterator] -modul. Mer information finns i [[!UICONTROL Iterator] modulen i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Matriser kan konverteras till en serie paket med modulen [!UICONTROL Iterator]. Mer information finns i modulen [[!UICONTROL Iterator] i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 
@@ -222,7 +222,7 @@ Arrayer kan konverteras till en serie paket med [!UICONTROL Iterator] -modul. Me
 
 ### Saknade objekt på mappningspanelen
 
-För varje modul visar mappningspanelen alla utdataobjekt, som anges av modulens författare. I vissa fall är listan ofullständig av olika anledningar och vissa objekt kanske saknas. [!DNL Workfront Fusion] kan automatiskt identifiera saknade utdataobjekt när du kör modulen i scenarioredigeraren. Den exakta proceduren varierar något beroende på modulens typ:
+För varje modul visar mappningspanelen alla utdataobjekt, som anges av modulens författare. I vissa fall är listan ofullständig av olika anledningar och vissa objekt kanske saknas. [!DNL Workfront Fusion] kan identifiera saknade utdataobjekt automatiskt när du kör modulen i scenarioredigeraren. Den exakta proceduren varierar något beroende på modulens typ:
 
 #### Direktutlösare
 
@@ -232,7 +232,7 @@ För varje modul visar mappningspanelen alla utdataobjekt, som anges av modulens
 
 1. Skapa en webkrok.
 
-   Till exempel webbkrokmodulen **[!DNL Slack]>[!UICONTROL Listen for new events]** (som letar efter nya kanalmeddelanden i en kanal) skickar ett meddelande till kanalen.
+   Webbkrokmodulen **[!DNL Slack]>[!UICONTROL Listen for new events]** (som letar efter nya kanalmeddelanden i en kanal) skickar till exempel ett meddelande till kanalen.
 
 1. När modulen är klar klickar du på bubblan ovanför modulen för att utforska dess fullständiga utdata.
 
@@ -241,10 +241,10 @@ För varje modul visar mappningspanelen alla utdataobjekt, som anges av modulens
 #### Avsökningsutlösare
 
 1. Högerklicka på modulen och klicka sedan på **[!UICONTROL Run this module only]** på menyn som visas.
-1. Om det inte finns några utdata klickar du på **[!UICONTROL Choose where to start]** och justera inställningarna.
+1. Om det inte finns några utdata klickar du på **[!UICONTROL Choose where to start]** och justerar inställningarna.
 1. Om det inte finns någon händelse att bearbeta skapar du en och går tillbaka till steg 2.
 
-   Till exempel webbkrokmodulen **[!UICONTROL Gmail]>[!UICONTROL Watch emails]** skickar ett e-postmeddelande till den mapp som modulen tittar på.
+   Webbkrokmodulen **[!UICONTROL Gmail]>[!UICONTROL Watch emails]** skickar till exempel ett e-postmeddelande till den mapp som modulen tittar på.
 
 1. När modulen är klar klickar du på bubblan ovanför modulen för att utforska dess fullständiga utdata.
 
@@ -256,14 +256,14 @@ Du kan välja att köra:
 
 * Hela scenariot (eller bara den del som innehåller modulen)
 
-  Om ditt scenario börjar med en utlösare, se [Direktutlösare](#instant-trigger) eller [Avsökningsutlösare](#polling-trigger) ovan.
+  Om ditt scenario börjar med en utlösare läser du avsnittet [Direktutlösare](#instant-trigger) eller [Avsökningsutlösare](#polling-trigger) ovan.
 
 * Bara en modul
 
 Om du väljer att bara köra en enda modul:
 
 1. Högerklicka på modulen och klicka sedan på **[!UICONTROL Run this module only]** på menyn som visas.
-1. Ange exempelvärden för indataobjekten och klicka sedan på **[!UICONTROL OK]** .
+1. Ange exempelvärden för indataobjekten och klicka sedan på **[!UICONTROL OK]**.
 1. När modulen är klar klickar du på bubblan ovanför modulen för att utforska dess fullständiga utdata.
 
    Mappningspanelen innehåller nu alla objekt som upptäcktes i modulens utdata.

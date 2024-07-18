@@ -46,7 +46,7 @@ Mer information om ämnen som rör åtkomstnivåer finns i följande artiklar:
  <tbody> 
   <tr> 
    <td><p><strong>Licenser</strong></p></td> 
-   <td> <p>Licensen som är kopplad till en åtkomstnivå avgör hur åtkomstnivån kan konfigureras.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a>.</p> <p><strong>Tips</strong>: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare genom att visa en användarlista eller rapport. Instruktioner finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Visa användarnas åtkomstnivåer och licenser</a>.</p> </td> 
+   <td> <p>Licensen som är kopplad till en åtkomstnivå avgör hur åtkomstnivån kan konfigureras.</p> <p>Mer information finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licensöversikt</a>.</p> <p><strong>Tips</strong>: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare genom att visa en användarlista eller rapport. Instruktioner finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">Lista användarnas åtkomstnivåer och licenser</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Inbyggda åtkomstnivåer</strong></td> 

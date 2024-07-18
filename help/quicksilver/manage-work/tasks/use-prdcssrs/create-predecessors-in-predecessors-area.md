@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -60,29 +60,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skapa en föregångare för en uppgift
 
-1. Gå till en uppgift som du vill ange som beroende uppgift och klicka sedan på **Föregående** till vänster.
+1. Gå till en uppgift som du vill ange som beroende uppgift och klicka sedan på **Föregående** i den vänstra panelen.
 
-   Du kan behöva klicka **Visa fler** sedan **Föregående**.
+   Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
 
-1. Klicka **+Lägg till föregående**.
-1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet på projektet i **Överordnat projekt** i ett annat projekt skriver du namnet på den eller de uppgifter som du vill ska vara föregående aktiviteter.
+1. Klicka på **+Lägg till föregående**.
+1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet på projektet i fältet **Överordnat projekt** med ett annat projekt och skriver sedan namnet på uppgiften eller aktiviteterna som du vill använda som Föregående.
 
-   Mer information om hur du lägger till föregångare för flera projekt finns i [Skapa föregångare mellan projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   Mer information om hur du lägger till föregångare för flera projekt finns i [Skapa föregångare för flera projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
 1. Skriv namnet på den eller de uppgifter som du vill utse till föregående aktiviteter.
 
    ![](assets/add-predecessor-box-nwe-350x465.png)
 
-1. Välj en **Beroendetyp**.
+1. Välj en **beroendetyp**.
 
-   Mer information om aktivitetsberoendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Mer information om aktivitetsberoendetyper finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Ange en **Lag** antal dagar.
+1. Ange ett **Lag**-belopp i dagar.
 
-   Mer information om Lag Types finns i &#x200B; [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   Mer information om Lag Types finns i &#x200B; [Lag Types - översikt](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-1. Välj **Krävs** om du vill framtvinga den föregående relationen mellan de två uppgifterna.
+1. Välj **Kräv** om du vill framtvinga den föregående relationen mellan de två aktiviteterna.
 
-   Mer information om att framtvinga föregående aktiviteter finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   Mer information om hur du framtvingar föregångare finns i [Tvinga föregångare](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

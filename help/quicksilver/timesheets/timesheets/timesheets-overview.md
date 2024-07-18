@@ -24,7 +24,7 @@ Du kan logga projekttid för arbetsobjekt, t.ex. projekt, uppgifter och ärenden
 
 Du kan även logga icke-projektrelaterad tid för icke-arbetsrelaterade objekt som möten, utbildning eller tid utanför kontoret direkt på din tidrapport under Allmänna timmar.
 
-Mer information om hur du loggar tid i Workfront finns i [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md).
+Mer detaljerad information om hur du loggar tid i Workfront finns i [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Mer information om hur du loggar tid i Workfront finns i [Loggtid](../../timeshe
 
 Tidrapporter gör det enkelt att hålla reda på tiden, både när det gäller projekt och icke-projektarbeten:
 
-* **Projekttid:** Direkt från uppgiften eller projektet där du vill hålla reda på tiden.
+* **Projekttid:** Direkt från aktiviteten eller projektet där du vill spåra tiden.
 
   Timmar som registreras för uppgifter, utleveranser och projekt via en tidrapport kopplas till respektive arbetsobjekt för att ge en korrekt bild av den insats som har gjorts för projekt och uppgifter. Utan korrekt tidsangivelse kanske dina data inte är korrekta om de är avsedda för fakturering.
 
@@ -53,24 +53,24 @@ Så här öppnar du en tidrapport:
 
 {{step1-to-timesheets}}
 
-Alla dina tidrapporter och tidrapporter som du har tillgång till som standard. Mer information om tidrapportslayouten i Adobe Workfront finns i [Översikt över tidrapportslayout](../../timesheets/timesheets/timesheet-layout.md).
+Alla dina tidrapporter och tidrapporter som du har tillgång till som standard. Mer information om tidrapportslayouten i Adobe Workfront finns i [Översikt över tidrapportslayouten](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 
 1. Klicka på något av följande alternativ i det övre högra hörnet för att visa tidrapporterna:
 
-   * **Mina tidrapporter** för att bara visa dina tidrapporter.
+   * **Mina tidrapporter** om du bara vill visa dina tidrapporter.
 
    ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
-   * **Mina tidrapportgodkännanden** om du bara vill visa tidrapporter som du godkänner.
+   * **Min tidrapport godkänner** för att endast visa de tidrapporter som du godkänner.
 
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
-1. (Valfritt) Uppdatera vyn, filtret och grupperingen högst upp i listan med tidrapporter. Mer information finns i [Rapportelement: filter, vyer och grupperingar](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+1. (Valfritt) Uppdatera vyn, filtret och grupperingen högst upp i listan med tidrapporter. Mer information finns i [Rapportera element: filter, vyer och grupperingar](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
-1. Klicka på **Datumintervall** av en tidrapport för att öppna den.
+1. Klicka på **datumintervallet** för en tidrapport för att öppna den.
 
    Varje tidrapport visar alla uppgifter, ärenden och projekt som du har loggat in på. I en tidrapport visas även upp till 45 uppgifter och ärenden som tilldelats dig med datum inom tidrapportens tidsram, men som du kanske inte har loggat tid för ännu. De 45 senast uppdaterade objekten markeras för visning i tidrapporten.
 

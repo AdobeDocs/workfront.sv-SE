@@ -21,11 +21,11 @@ Du kan ändra den ordning i vilken villkoren visas i projekt, uppgifter och äre
 
 * När en användare redigerar ett projekt
 
-   ![](assets/change-condition-edit-project.png)
+  ![](assets/change-condition-edit-project.png)
 
 * När en användare ändrar villkoret för en uppgift eller ett problem
 
-   ![](assets/change-conditions-list-dropdown-only.png)
+  ![](assets/change-conditions-list-dropdown-only.png)
 
 ## Åtkomstkrav
 
@@ -45,20 +45,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ändra visningsordningen för villkor
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Projektinställningar** > **Villkor**.
+1. Klicka på **Projektinställningar** > **Villkor**.
 
-1. Välj **Projekt**,**Uppgifter**, eller **Problem** -fliken.
+1. Välj fliken **Projekt**,**Åtgärder** eller **Problem**.
 
-1. Dra ![](assets/move-icon---dots.png) Villkor för att ändra deras ordning.
+1. Dra ![](assets/move-icon---dots.png) villkor om du vill ändra deras ordning.
 
    Den nya ordern sparas automatiskt.
 

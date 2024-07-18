@@ -23,8 +23,8 @@ Till skillnad från uppgifter kan problemen inte leda till att ett projekt blir 
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Översikt över problemvaraktighet](../../../manage-work/issues/issue-information/issue-duration.md)
+* [Översikt över utfärdandevaraktighet](../../../manage-work/issues/issue-information/issue-duration.md)
 * [Uppdatera prioritet för utgåva](../../../manage-work/issues/issue-information/update-issue-priority.md)
-* [Uppdatera allvarlighetsgrad för utgåva](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [Översikt över det planerade slutförandedatumet för problemet](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [Uppdatera allvarlighetsgrad för problem](../../../manage-work/issues/issue-information/update-issue-severity.md)
+* [Översikt över det planerade slutförandedatumet ](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 * [Använd&quot;opTask&quot; och&quot;issue&quot; när du refererar till problem](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

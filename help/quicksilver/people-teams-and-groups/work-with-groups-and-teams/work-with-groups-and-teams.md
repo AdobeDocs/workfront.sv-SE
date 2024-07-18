@@ -19,4 +19,4 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Grupper kontra team i [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+* [Grupper kontra team i  [!DNL Adobe Workfront]](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)

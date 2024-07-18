@@ -53,14 +53,14 @@ Du måste ha följande:
 
 ## Lägga till eller svara på en uppdatering för ett dokument
 
-1. Gå till objektet som innehåller dokumentet och markera sedan **Dokument** till vänster.
+1. Gå till objektet som innehåller dokumentet och välj sedan **Dokument** i den vänstra panelen.
 1. Hitta det dokument du behöver och gör något av följande:
 
-   * Klicka på dokumentet i listan och klicka på **Öppna sammanfattning** icon ![](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet och sedan lägga till en ny kommentar, eller klicka på **Svara** om du vill lägga till ett svar i en befintlig kommentar. Mer information om sammanfattningen finns i [Sammanfattning av dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
-   * Håll muspekaren över dokumentet, klicka **Dokumentinformation** sedan **Uppdateringar** till vänster.
+   * Klicka på dokumentet i listan, klicka på ikonen **Öppna sammanfattning** ![](assets/qs-summary-in-new-toolbar-small.png) i det övre högra hörnet och lägg sedan till en ny kommentar, eller klicka på **Svara** om du vill lägga till ett svar i en befintlig kommentar. Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
+   * Håll markören över dokumentet, klicka på **Dokumentinformation** och sedan på **Uppdateringar** i den vänstra panelen.
 Mer information om hur du lägger till uppdateringar till objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Uppdateringarna och svaren läggs till i dokumentet och även till objekt med högre rankning. Mer information finns i [Översikt över uppdateringsavsnitt](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+   Uppdateringarna och svaren läggs till i dokumentet och även till objekt med högre rankning. Mer information finns i [Översikt över uppdateringsavsnittet](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 ## Lägga till ett svar i en korrekturkommentar för ett dokument
@@ -70,6 +70,6 @@ När du besvarar en kommentar som någon gjort när du korrekturerade ett dokume
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka **Bevis svar**, skriver du kommentaren i korrekturläsaren som öppnas och klickar sedan på **Svara**.
+1. Klicka på **Svara i korrektur**, skriv kommentaren i korrekturläsaren som öppnas och klicka sedan på **Svara**.
 
-   Om du behöver information om hur du skriver kommentarer och svar i korrekturläsaren läser du i [Kommentera ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).
+   Om du behöver information om hur du skriver kommentarer och svar i korrekturläsaren läser du [Kommentera i ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md).

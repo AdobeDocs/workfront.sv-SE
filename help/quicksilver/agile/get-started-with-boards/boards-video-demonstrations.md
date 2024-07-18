@@ -44,7 +44,7 @@ Med en dynamisk anslagstavla kan du automatiskt fylla i en anslagstavla med kort
 
 Det finns anslagstavlor i Adobe Workfront mobilapp. När du uppdaterar kort i mobilappen synkroniseras dessa uppdateringar med Workfront.
 
-[Se en videodemonstration av ett mobilkort.](https://video.tv.adobe.com/v/3416379/){target=_blank}
+[Visa en videodemonstration av ett mobilkort.](https://video.tv.adobe.com/v/3416379/){target=_blank}
 
 ## Exempel på användning av ritytor
 
@@ -52,7 +52,7 @@ Det finns anslagstavlor i Adobe Workfront mobilapp. När du uppdaterar kort i mo
 
 Du kan använda inloppskolumnen för att visa uppgifter som har tilldelats dig på ett ställe. När nya uppgifter tilldelas i Workfront läggs de automatiskt till i inloppskolumnen.
 
-[Se en videodemonstration av en&quot;mitt arbetsmoment&quot;.](https://video.tv.adobe.com/v/3416378/){target=_blank}
+[Visa en videodemonstration av en arbetsyta.](https://video.tv.adobe.com/v/3416378/){target=_blank}
 
 ### Planeringsbord
 

@@ -18,8 +18,8 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Vanliga frågor om projekt](../../../manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
-* [Projektstatus ändras inte från Fullständigt till Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
-* [Beräkningsexempel - beräkna EAC på projektnivå](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
+* [Projektstatus ändras inte från Fullständigt till Aktuellt](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
+* [Exempel på beräkning - beräkna EAC på projektnivå](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
 * [Beräkningsexempel - Beräkna EAC som en sammanslagning av uppgifter](../../../manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
 
   <!--

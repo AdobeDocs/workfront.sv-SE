@@ -28,14 +28,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> <p>Aktuell plan: Granska</p> <p>Äldre plan: Granska</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Jämför två olika korrektur
 
@@ -58,7 +58,7 @@ Du kan jämföra två korrektur i en enda dokumentlista, t.ex. på fliken Dokume
    >
    >Ett korrektur måste redan genereras för varje dokument som du väljer för jämförelse.
 
-1. Klicka **Jämför korrektur**.
+1. Klicka på **Jämför korrektur**.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
@@ -72,8 +72,8 @@ Du kan jämföra två korrektur i en enda dokumentlista, t.ex. på fliken Dokume
 
    ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   Information om de verktyg du kan använda för att jämföra de två korrekturen finns i  [Använda jämförelseverktygen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Jämför korrektur i korrekturläsaren](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+   Information om de verktyg du kan använda för att jämföra de två korrekturen finns i  [Använd jämförelseverktygen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) i [Jämför korrektur i korrekturläsaren](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 
 ## Jämför två versioner av samma korrektur
 
-Mer information om hur du jämför två versioner av samma korrektur finns i [Jämför korrekturversioner](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Jämför korrektur i korrekturläsaren](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+Mer information om hur du jämför två versioner av samma korrektur finns i [Jämför korrekturversioner](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) i [Jämför korrektur i korrekturläsaren](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).

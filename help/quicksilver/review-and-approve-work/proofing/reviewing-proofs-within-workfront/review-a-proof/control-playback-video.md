@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -42,30 +42,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Justera videouppspelningshastighet
 
 Du kan justera uppspelningshastigheten för videokorrekturet. Du kan välja att visa videon mellan en fjärdedels hastighet och dubbel hastighet.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. Klicka på knappen **Inställningar** -ikon.
+1. Klicka på ikonen **Inställningar** i det nedre högra hörnet av korrekturläsaren.
 
    ![phq_viewer_video_playbackspeed__2_.png](assets/phq-viewer-video-playbackspeed--2-.png)
 
 1. Klicka på aktuell hastighet och välj sedan en ny uppspelningshastighet.
-1. Klicka på **Spela upp** för att testa den nya hastigheten.
+1. Klicka på knappen **Spela upp** i videon för att testa den nya hastigheten.
 
 ## Visa video bildruta för bildruta
 
 Om du vill ha en mer detaljerad bild av videoklippet kan du manuellt granska videon bildruta för bildruta.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. Klicka på knappen **Framåt** och **Bakåt** pilar för att granska videon ruta för ruta.
+1. Klicka på pilarna **Framåt** och **Bakåt** längst ned i korrekturläsaren för att granska videon bildruta för bildruta.
 
    ![](assets/frame-.png)
 
@@ -74,12 +74,12 @@ Om du vill ha en mer detaljerad bild av videoklippet kan du manuellt granska vid
 Du kan styra volymen i videouppspelningen.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. I det nedre högra hörnet av korrekturläsaren håller du musen över **Volym** och dra sedan skjutreglaget för att välja en ny volym.
+1. I det nedre högra hörnet av korrekturläsaren för du musen över ikonen **Volym** och drar sedan reglaget för att välja en ny volym.
 
    ![](assets/phq-viewer-volume.png)
 
    eller
 
-   Klicka på **Volym** om du vill stänga av och slå på volymen.
+   Klicka på ikonen **Volym** för att stänga av och slå på volymen.

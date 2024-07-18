@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns i [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Ny hemupplevelse
 
@@ -30,7 +30,7 @@ New Home är en stor ny funktion som vi är glada över att kunna fortsätta utv
 
 Nya Home blir standardupplevelsen för alla användare när den släpps. Du kan dock välja att återgå till den befintliga hemupplevelsen när vi fortsätter utveckla dess funktioner.
 
-Mer information finns i [Kom igång med nya startsidor i Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Mer information finns i [Kom igång med nytt hem i Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
@@ -42,11 +42,11 @@ Det här blir den enda kommentarsfunktionen för de här objekten eftersom den g
 
 Mer information finns i [Ny aktivitet för att frisläppa kommentarer](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Nya kommentarer Beta-upplevelser för projekt, uppgifter och problem
+## Ny kommenteringsupplevelse för projekt, uppgifter och problem i Beta
 
-Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns det bara för problem och mål att kommentera betaversionen.
+Den nya kommenteringsfunktionen i Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns kommenteringsupplevelsen av Beta endast tillgänglig för problem och mål.
 
-Information om de funktioner som för närvarande finns i betaversionen av kommentarfunktionerna finns i [Ny aktivitet för att kommentera betaversionen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Information om de funktioner som för närvarande är tillgängliga i kommenteringsfunktionen i Beta finns i [Ny aktivitet för kommenteringsbetaversionen](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
 ## Profiler utan avatarer visar nu användarinitialer
 

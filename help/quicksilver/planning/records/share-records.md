@@ -111,14 +111,14 @@ Arbetsytan som du senast öppnade öppnas.
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Från **Visa** Välj en tabellvy i den nedrullningsbara menyn i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
+1. (Villkorligt) Välj en tabellvy i listrutan **Visa** i tabellens övre högra hörn. Detta bör vara standardvyn, såvida du inte har visat posttypen i tidslinjevyn när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Högerklicka på en postrad
 
    eller
 
-   Håll muspekaren över en posts namn och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Kopiera länk**.
+   Håll markören över en posts namn, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Kopiera länk**.
 
    ![](assets/contextual-menu-for-record-row.png)
 

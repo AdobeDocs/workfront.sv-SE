@@ -19,9 +19,9 @@ Du kan lägga till en ny version av ett dokument som du tidigare har överfört 
 
 Om den nya versionens filnamn skiljer sig från den tidigare versionens filnamn visas dokumentet med det nya filnamnet i Workfront.
 
-Om dokumentet innehåller ett korrektur och du vill skapa en ny version av det korrekturlästa dokumentet, se avsnittet [Överföra ett dokument och skapa en ny version av ett korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) i artikeln [Skapa ett korrektur för ett dokument](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Om dokumentet innehåller ett korrektur och du vill skapa en ny version av det korrekturlästa dokumentet, ska du läsa avsnittet [Överföra ett dokument och skapa en ny version av ett korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) i artikeln [Skapa ett korrektur för ett dokument](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md) .
 
-Mer information om hur du lägger till en ny version av ett dokument som är länkat till Workfront från ett externt program finns i [Lägga till en ny version av ett länkat dokument](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Mer information om hur du lägger till en ny version av ett dokument som är länkat till Workfront från ett externt program finns i [Lägga till en ny version av ett länkat dokument](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) i [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Åtkomstkrav
 
@@ -43,7 +43,7 @@ Du måste ha följande:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -67,14 +67,14 @@ Du måste ha följande:
 
    När du drar den nya versionen kan du hålla muspekaren över en Workfront-dokumentmapp för att öppna den. Du kan sedan rulla uppåt och nedåt genom att dra filerna till skärmens övre eller nedre del.
 
-1. Släpp den nya versionen ovanpå den befintliga filen på **Dokument** -fliken.
+1. Släpp den nya versionen ovanpå den befintliga filen på fliken **Dokument**.
 
    Mer information om hur du hanterar dokumentversioner finns i [Hantera dokumentversioner](../../documents/managing-documents/manage-document-versions.md).
 
 ## Använd menyn Mer för att lägga till en ny version
 
 1. Markera dokumentet där du vill lägga till en ny version.
-1. Klicka **Lägg till ny** > **Version**.
+1. Klicka på **Lägg till ny** > **Version**.
 
    ![](assets/add-new-version-350x185.png)
 

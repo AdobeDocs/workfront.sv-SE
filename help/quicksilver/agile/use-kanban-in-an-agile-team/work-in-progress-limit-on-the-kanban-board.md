@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Hantera [!UICONTROL work in progress] (PIA) gräns för Kanban-tavlan
+# Hantera gränsen [!UICONTROL work in progress] (PIA) för Kanban-tavlan
 
-Du kan konfigurera en [!UICONTROL Work In Progress] (PIA) för varje kolumn på [!UICONTROL Kanban] board, enligt beskrivningen i artikeln [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Du kan konfigurera en [!UICONTROL Work In Progress] (WIP)-gräns för varje kolumn på [!UICONTROL Kanban]-panelen, enligt beskrivningen i artikeln [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 Gränsen för pågående arbete är bara en visuell varning och förhindrar inte ditt team från att ha fler objekt i varje statuskolumn än den gräns som du anger.
 
@@ -37,28 +37,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Visa [!UICONTROL Work In Progress] (PIA) på [!UICONTROL Kanban] board
+## Visa gränsen för [!UICONTROL Work In Progress] (PIA) på [!UICONTROL Kanban]-kortet
 
-När en PIA-gräns har konfigurerats för ditt mobila team visas den i det övre högra hörnet i varje kolumn på Kanban-tavlan (med undantag för [!UICONTROL Complete] kolumn).
+När en PIA-gräns har konfigurerats för ditt mobila team visas den i det övre högra hörnet i varje kolumn på Kanban-tavlan (med undantag för kolumnen [!UICONTROL Complete]).
 
-Varje gång som gränsen överskrids för en kolumn på [!UICONTROL Kanban] boardtavlan markeras gränsen i rött och ett meddelande visas.\
-![PIA-gräns](assets/kanban-wip.png)
+Varje gång gränsen överskrids för en kolumn på [!UICONTROL Kanban]-panelen markeras gränsen i rött och ett meddelande visas.\
+![Pågående arbete-begränsning](assets/kanban-wip.png)
 
-## Uppdatera [!UICONTROL Work In Progress] (PIA) från [!UICONTROL Kanban] board
+## Uppdatera gränsen [!UICONTROL Work In Progress] (PIA) från moderkortet [!UICONTROL Kanban]
 
-Gruppmedlemmar med [!UICONTROL Edit] rättigheter kan uppdatera PIA-gränsen för varje statuskolumn direkt från [!UICONTROL Kanban] bräda. Du kan även uppdatera PIA-gränsen enligt beskrivningen i artikeln [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Teammedlemmar med [!UICONTROL Edit] rättigheter kan uppdatera PIA-gränsen för varje statuskolumn direkt från [!UICONTROL Kanban]-anslagstavlan. Du kan även uppdatera PIA-gränsen enligt beskrivningen i artikeln [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan antingen välja en ny [!UICONTROL Kanban] i listrutan eller sök efter ett team i sökfältet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt [!UICONTROL Kanban]-team i listrutan eller sök efter ett team i sökfältet.
 
-1. På [!UICONTROL Kanban] går du till WIP-gränsen i det övre högra hörnet av varje kolumn på Kanban-tavlan.
+1. På [!UICONTROL Kanban]-tavlan letar du reda på PIA-gränsen i det övre högra hörnet av varje kolumn på Kanban-tavlan.
 1. Klicka på den PIA-gräns som du vill ändra och ange sedan en ny gräns.
-1. Tryck **[!UICONTROL Enter]**.
+1. Tryck på **[!UICONTROL Enter]**.

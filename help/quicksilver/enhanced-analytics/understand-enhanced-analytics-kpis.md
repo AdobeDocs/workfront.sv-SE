@@ -19,15 +19,15 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Du måste ha en affärsplan eller en senare för att kunna använda den här funktionen.\
->Mer information om olika planer finns i [Adobe Workfront-planer](https://www.workfront.com/plans).
+>Mer information om olika tillgängliga planer finns i [Adobe Workfront-planer](https://www.workfront.com/plans).
 
 Högst upp på skärmen i området Förbättrad analys visas fyra nyckeltal (KPI). Med hjälp av dessa mätvärden kan du snabbt förstå hur lång tid det tar, hur stora projekten är och hur många projekt som slutförs inom en viss tidsram. Dessa siffror är inte begränsade till det maximala antalet 50 projekt som visas för visualiseringarna på den här sidan. I stället baseras dessa data på alla projekt som gäller för ett angivet filter, och dessa värden justeras om du ändrar det valda datumintervallet eller något av filtren.
 
-Mer information om hur du lägger till filter finns i [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
+Mer information om hur du lägger till filter finns i [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 ## Slutförda projekt
 
-KPI:n för slutförda projekt visar hur många projekt inom den filtrerade tidsperioden som har slutförts samt hur procentandelen har ökat eller minskat sedan föregående tidsperiod. Under dessa siffror kan du se antalet projekt som har slutförts under den föregående tidsperioden samt antalet dagar under den föregående tidsperioden.
+I KPI:n för slutförda projekt visas hur många projekt inom den filtrerade tidsperioden som har slutförts samt hur procentandelen har ökat eller minskat sedan föregående tidsperiod. Under dessa siffror kan du se antalet projekt som har slutförts under den föregående tidsperioden samt antalet dagar under den föregående tidsperioden.
 
 ![](assets/kpi-projects-completed-350x182.png)
 
@@ -39,7 +39,7 @@ I KPI för projekt som slutförts i tid visas hur stor andel projekt inom den fi
 
 ## Medel. projektvaraktighet
 
-Genomsn. KPI för projektvaraktighet visar den genomsnittliga slutförandetiden - i dagar, veckor eller år - för projekt med faktiska slutdatum inom den filtrerade tidsperioden samt hur procentandelen har ökat eller minskat sedan föregående tidsperiod. Under dessa siffror kan du se den genomsnittliga slutförandetiden för projekt med faktiska slutdatum under den föregående tidsperioden samt antalet dagar under den föregående tidsperioden.
+Den genomsnittliga. KPI för projektvaraktighet visar den genomsnittliga slutförandetiden - i dagar, veckor eller år - för projekt med faktiska slutdatum inom den filtrerade tidsperioden samt hur procentandelen har ökat eller minskat sedan föregående tidsperiod. Under dessa siffror kan du se den genomsnittliga slutförandetiden för projekt med faktiska slutdatum under den föregående tidsperioden samt antalet dagar under den föregående tidsperioden.
 
 ![](assets/kpi-avg.-project-duration-350x168.png)
 

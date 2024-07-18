@@ -17,17 +17,17 @@ ht-degree: 0%
 
 Den här sidan innehåller information om de funktioner som finns i version 23.1. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.2 den 6 och 7 april 2023.
 
-Tips om hur du förbereder dig för den kommande versionen finns på [Förbered dig för en kvartalsvis utgåva av Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
+Tips om hur du förbereder dig för den kommande utgåvan finns i [Förbered dig för en kvartalsutgåva av Adobe Workfront](/help/quicksilver/product-announcements/product-releases/release-readiness.md).
 
 ## Frigör webbinarium
 
 I stället för ett webbinarium om en release bjuder vi in dig att registrera dig för Adobe Summit för att se följande Workfront-sessioner:
 
-[Effektiva upplevelser: Från innehållsskapande till personalisering](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) den 21 mars 2023 för att lära sig nya sätt att skapa, hantera och personalisera innehåll och leverera slagkraftiga upplevelser med större effektivitet. Den här sessionen kommer att strömmas live för virtuella målgrupper.
+[Effektiva upplevelser: Från att skapa innehåll till Personalization](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982243928001D5Z9) den 21 mars 2023, för att lära dig nya sätt att skapa, hantera och personalisera innehåll och leverera slagkraftiga upplevelser effektivare. Den här sessionen kommer att strömmas live för virtuella målgrupper.
 
 [Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as23/sessions/page/catalog/session/1661982239896001DoHU) den 23 mars 2023 för att se visionen för Workfront och dess plats i ekosystemet Adobe och få en smygtitt på den framtida färdplanen. Den här sessionen spelas in och blir tillgänglig senare som on-demand-innehåll.
 
-<span class="preview">Funktioner utanför cykeln (de som lanserades till Production före 23.2-releasedatum) markeras med gult.</span>
+<span class="preview">Funktioner utanför cykeln (de som släpps till produktion före 23.2-releasedatum) är markerade i gult.</span>
 
 ## Adobe Workfront-förbättringar
 
@@ -57,7 +57,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Koppla Workfront-fältvärden till taggar i Experience Manager Assets</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Mappa Workfront-fältvärden till taggar i Experience Manager Assets</a>
                         <p>Nu kan du kategorisera och snabbt hitta resurser baserat på data från Workfront.  Du kan mappa dessa data som en del av din metadatakonfiguration i integreringen med Workfront för Experience Manager Assets.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -73,13 +73,13 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa anpassade formulär med den nya betaversionen av formulärdesignern</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa anpassade formulär med den nya betaversionen av formulärdesignern </a>
                         <p>Den nya formulärdesignern har en ny arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt.</p>
                         <p>Med den nya formulärdesignern har vi lagt till möjligheten att 
                         <ul>
                         <li><strong>Kopiera ett fält</strong>: Nu kan du kopiera befintliga fält genom att klicka på ikonen Kopiera på fälten direkt från arbetsytan.</li>
-                        <li><strong>Använda ett standardavsnitt</strong>: Om den som skapat formuläret inte har lagt till något avsnitt överst i formuläret visas nu ett standardavsnitt på arbetsytan, så att användarna kan justera behörigheterna för fält som inte har något anpassat avsnitt tilldelat. </li>
-                        <li><strong>Ändra storlek för beskrivande text</strong>: Du kan nu tilldela små, medelstora eller stora storlekar till beskrivande textfält. Du kan också använda dem på samma rad med andra fält. <span style="color: #ff0000;"> Ändringen av storleken för den beskrivande texten har fördröjts tillfälligt, men kommer snart.</span></li> 
+                        <li><strong>Använd ett standardavsnitt</strong>: Om formulärskaparen inte har lagt till ett avsnitt överst i formuläret visas nu ett standardavsnitt på arbetsytan, så att användare kan justera behörigheten för fält som inte har något anpassat avsnitt tilldelat. </li>
+                        <li><strong>Ändra storlek för beskrivande text</strong>: Nu kan du tilldela små, medelstora eller stora storlekar till beskrivande textfält. Du kan också använda dem på samma rad med andra fält. <span style="color: #ff0000;"> Ändringen av storleken för den beskrivande texten har fördröjts tillfälligt, men kommer snart.</span></li> 
                         </ul>
                         </p>
                     </td>
@@ -97,7 +97,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Byta namn på punkter i layoutmall</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Byt namn på punkter i layoutmallen</span></a>
                         <p>Nu kan du ändra namn på punkter i en layoutmall så att de blir mer användbara för användarna i stället för att använda standardnamnet för den fästa sidan. Fästpunkter som administratörer skapar visas för alla användare som är tilldelade layoutmallen, och användarna kan inte ändra namn på dessa punkter.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -132,7 +132,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde</a></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem i en lista med Workfront-kort eller arbetsflödeskort direkt från objektinformationen. Alla objekt som du lägger till på en anslagstavla blir anslutna kort och alla objekt som läggs till i en arbetsström läggs till i kortlistan som oplanerade kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -148,7 +148,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iterationsfunktioner som finns i Adobe Workfront Boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Iterationsfunktioner som är tillgängliga på Adobe Workfront Boards</a></p>
                         <p>Flera nya funktioner som finns på Workfront Boards gör det möjligt att använda den flexibla Scrum-funktionen. Bland dessa funktioner finns:
                         <ul>
                         <li>Arbetsflöden för att gruppera anslagstavlor som hör till samma team och för samarbete i arbetsgrupper</li>
@@ -170,7 +170,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från listor och rapporter till en lista med arbetsflödeskort</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till uppgifter och utgåvor från listor och rapporter till en lista över arbetsflödeskort</a></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem i ett arbetsflöde i Workfront Boards direkt från en list- eller rapportvy. Alla objekt som du lägger till i arbetsflödet läggs till i kortlistan som oplanerade kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -202,7 +202,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till uppgifter och problem från listor och rapporter till en Workfront-styrelse</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till uppgifter och problem från listor och rapporter på en Workfront-anslagstavla</a></p>
                         <p>Nu kan du lägga till befintliga uppgifter eller problem på en Workfront-styrelse direkt från en list- eller rapportvy. Alla objekt som du lägger till på anslagstavlan blir anslutna kort.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -218,7 +218,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Logga timmar på anslutna kort på anslagstavlan</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Logga in timmar på anslutna kort på ett kort</a></p>
                         <p>Nu kan du logga timmar på anslutna kort, på samma sätt som du gör för en uppgift eller ett problem. Du måste ha rätt behörighet för aktiviteten eller problemet för att kunna logga tiden.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -227,7 +227,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsversion: 23 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 2 mars 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 2 mars 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i Produktion på detta datum genom tidig anmälan av funktioner för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -244,7 +244,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i Produktion på detta datum genom tidig anmälan av funktioner för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -261,7 +261,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i Produktion på detta datum genom tidig anmälan av funktioner för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -269,7 +269,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Samlingar finns nu i Adobe Workfront Boards</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Samlingar som nu finns på Adobe Workfront Boards</a></p>
                         <p>Nu kan du skapa samlingar på panelkontrollpanelen. En samling är en grupp styrelser för samarbete i arbete. När du har namngett samlingen kan du lägga till ritytor i samlingen med hjälp av en uppsättning mallar med fördefinierade inställningar, till exempel kolumnnamn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -278,7 +278,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsversion: 16 februari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 23 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i Produktion på detta datum genom tidig anmälan av funktioner för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -286,7 +286,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Beräkningsfält på anslutna kort mappar till artikelpunktsfält på Workfront-objekt</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppskattningsfält på anslutna kort mappar till artikelpunktsfält på Workfront-objekt</a></p>
                         <p>Beräkningsfältet på anslutna kort i Workfront Boards mappar nu till artikelpunktsfältet för det associerade Workfront-objektet. </p>
                         <p>Det nya fältet Artikelpunkter är ett redigerbart frihandsfält som du kan lägga till i en vy i en lista eller rapport för uppgifter eller problem. Det är inte knutet till planerade timmar eller teamuppdrag.</p>
                     </td>
@@ -296,7 +296,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsversion: 26 januari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: Den här funktionen är försenad och släpps 9 februari. <span style="color: #ff0000;">Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: Den här funktionen är försenad och släpps 9 februari. <span style="color: #ff0000;">Den här funktionen är endast tillgänglig i produktion på detta datum genom tidiga funktionstillägg för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -304,7 +304,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Kort för förhandsgranskning i inloppskolumnen</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-agile-enhancements.md" class="MCXref xref" xrefformat="{para}">Förhandsgranskningskort i inloppskolumnen</a></p>
                         <p>Nu kan du klicka på ett anslutet kort i intag-kolumnen för att se en version av innehållet som bara är för visning. Du kan inte redigera kortets innehåll förrän kortet flyttas från inmatningskolumnen till en annan kolumn på kortet.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -313,7 +313,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                                 <p>Förhandsversion: 26 januari 2023<br /></p>
                             </li>
                             <li>
-                                 <p>Produktionsrelease för tidig anmälan: 2 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i produktion den här dagen genom tidiga funktionsvalsprogram för Workfront Boards.</span></p>
+                                 <p>Produktionsrelease för tidig anmälan: 2 februari 2023 <span style="color: #ff0000;"> Den här funktionen är endast tillgänglig i Produktion på detta datum genom tidig anmälan av funktioner för Workfront Boards.</span></p>
                                 <p>Produktionsrelease för alla kunder: Med version 23.2</p>
                             </li>
                         </ul>
@@ -340,7 +340,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny upplevelse när du redigerar flera projekt samtidigt</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny upplevelse vid gruppredigering av projekt</a>
                         <p>Som en del av att uppdatera utseendet och känslan i Workfront-upplevelsen har vi gjort om rutan Redigera projekt, när vi redigerar flera projekt samtidigt, i grupp. Du kommer åt den nya rutan Redigera projekt när du markerar flera projekt samtidigt i en projektlista.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -356,7 +356,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrad filterupplevelse som är allmänt tillgänglig i Adobe Workfront</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrad filterupplevelse är vanligtvis tillgänglig i Adobe Workfront</a>
                         <p>Den förbättrade filterupplevelsen blir allmänt tillgänglig och blir standardfilterskapare i Preview den 2 mars 2023. En fasad lansering i produktionen börjar också den 2 mars med tillgänglighet för alla kunder i version 23.2.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -516,7 +516,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nyheter för Workfront for Creative Cloud plugins</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Nytt i Workfront för Creative Cloud-plugin-program</a>
                         <p>Vi har lagt till följande ändringar i plugin-programmen för Workfront för Creative Cloud:
                         <ul>
                         <li>Insticksprogrammet meddelar dig nu när en aktivitet har en föregångare</li>
@@ -536,7 +536,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsfunktion för utgåvor Beta</a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsfunktion för problem med Beta</a>
                         <p>En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för vissa objekt. </p>
                         <p>Den nya upplevelsen kommer så småningom att göra kommentarerna enhetliga i hela Adobe Workfront och andra delar av Adobe Experience Cloud. </p>
                     </td>
@@ -553,7 +553,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">NetNew customers to be conboard to Adobe Unified Experience</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Net nya kunder som ska ingå i Adobe Unified Experience</a></p>
                         <p>Adobe enhetliga upplevelse omfattar:
                         <ul>
                         <li>En enda inloggning för alla Adobe-program via Adobe Experience Cloud</li>
@@ -592,7 +592,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enstaka PDF eller flera PDF i Adobe Workfront för XD</span></a>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Exportera ritytor som enkla PDF eller flera PDF i Adobe Workfront för XD</span></a>
                         <p>I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera ritytorna som en enda PDF-fil eller som flera PDF-filer.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -608,7 +608,7 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 23.2-versionen</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-look-and-feel.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tidsramen för version 23.2</a></p>
                         <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för version 23.2. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -629,41 +629,41 @@ I stället för ett webbinarium om en release bjuder vi in dig att registrera di
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.2. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 23.2. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
 Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### Förbättringar av Workfront-korrektur
+### Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-mål
 
-Nya funktioner i Workfront Goals-versionen 23.2. Mer information om de här nya funktionerna som nu finns i Förhandsgranska finns i [Adobe Workfront Goals with the 23.2 release](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
+Nya funktioner i Workfront Goals-versionen 23.2. Mer information om de här nya funktionerna som nu finns i Förhandsgranska finns i [Adobe Workfront-mål i version 23.2](/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md).
 
 ### API-version 16
 
 API-version 16 släpps med version 22.3. För API-version 16 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 23.2 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktioner som snart ska tas bort från Workfront
 
 Följande funktioner kommer snart att tas bort från Workfront:
 
-#### **Externa sidor på kontrollpanelen stöder inte längre URL:er för kontrollpaneler**
+#### **Externa kontrollpanelssidor stöder inte längre kontrollpanels-URL:er**
 
 För att förbättra instrumentpanelens stabilitet och inläsningstider kommer externa sidor i instrumentpaneler inte längre att kunna referera till instrumentpanelens URL:er. Systemadministratörer för konton som innehåller externa sidor som refererar till instrumentpaneler får ett meddelande i appen som varnar dem om den här ändringen. Mer information finns i [Bädda in en extern sida i en kontrollpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
@@ -677,7 +677,7 @@ Tidigare användes Workfront API version 2.0, som har tagits bort.
 
 Om din organisation använder det föråldrade standard-API:t har Workfront-administratören fått ett meddelande om att meddelandecenter finns med ytterligare instruktioner om standard-API:t.
 
-Mer information finns i [Uppdatera integreringar som använder API-standardversionshantering](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
+Mer information finns i [Uppdatera integreringar som använder standard-API-versionshantering](/help/quicksilver/wf-api/api/update-default-api-versioning.md).
 
 
 <!--

@@ -20,10 +20,9 @@ Du kan exportera Adobe Workfront-projekt till Microsoft Project. 
 >[!IMPORTANT]
 >
 >* Alla Workfront-fält överförs inte i Microsoft Project-filen.\
-   >  Mer information om kompatibilitet för fält mellan Workfront och Microsoft Project finns i artikeln [Mappa Microsoft Project-fält till Adobe Workfront-projekt](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
+>  Mer information om kompatibilitet för fält mellan Workfront och Microsoft Project finns i artikeln [Mappa Microsoft-projektfält till Adobe Workfront-projekt](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md).
 >* Vi rekommenderar att du begränsar antalet gånger du överför projekt från ett program till ett annat. 
 >
-
 
 ## Åtkomstkrav
 
@@ -74,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa eller ge högre åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -89,7 +88,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Du kan exportera ett projekt från Workfront från projektsidan eller från en projektlista eller rapport.
 
-1. Gå till det projekt som du vill exportera och klicka på **Mer** icon ![](assets/qs-more-menu.png) till höger om projektnamnet
+1. Gå till projektet som du vill exportera och klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -99,6 +98,6 @@ Du kan exportera ett projekt från Workfront från projektsidan eller från en p
 
    ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
-1. Klicka **Exportera MS-projekt**.
+1. Klicka på **Exportera MS-projekt**.
 
    Projektet laddas ned som en XML-fil till datorn och kan importeras till Microsoft Project. 

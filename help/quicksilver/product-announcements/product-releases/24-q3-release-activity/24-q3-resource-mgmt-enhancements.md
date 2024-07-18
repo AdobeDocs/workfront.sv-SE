@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla resurshanteringsförbättringar som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den tredje utgåvan av kvartal 2024.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns i [Översikt över utgåvan tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Tidsgränsen återspeglas nu i arbetsbelastningsutjämnaren
 
@@ -28,4 +28,4 @@ För att smidigt justera arbete när den primära tilldelaren för en aktivitet 
 
 Tidigare allokerades inte timmarna om när tidslinjen räknades om.
 
-Mer information finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Mer information finns i [Hantera användartilldelningar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

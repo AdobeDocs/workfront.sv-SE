@@ -3,7 +3,7 @@ title: Ta bort ett anpassat villkor
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: Du kan ta bort ett anpassat villkor.
+description: Du kan ta bort anpassade villkor.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -35,31 +35,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ta bort ett anpassat villkor
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Projektinställningar** > **Villkor**.
+1. Klicka på **Projektinställningar** > **Villkor**.
 
    <!--
    <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
-1. Markera fliken för objekttypen (**Projekt**, **Uppgift**, eller **Problem**) där villkoret som du vill ta bort finns.
+1. Välj fliken för objekttypen (**Projekt**, **Aktivitet** eller **Problem**) där villkoret som du vill ta bort finns.
 
-1. Håll muspekaren över villkoret som du vill ta bort och klicka sedan på **Ta bort** icon ![](assets/delete.png) som visas längst till höger.
-1. I bekräftelsemeddelandet som visas klickar du på **Ta bort villkor**.
+1. Håll pekaren över det villkor som du vill ta bort och klicka sedan på ikonen **Ta bort** ![](assets/delete.png) som visas längst till höger.
+1. Klicka på **Ta bort villkor** i bekräftelsemeddelandet som visas.
 
-1. I **Ta bort villkor** som visas väljer du ett nytt villkor i listrutan för alla projekt som använder villkoret som du tar bort.
+1. I rutan **Ta bort villkor** som visas väljer du ett nytt villkor i listrutan för alla projekt som använder villkoret som du tar bort.
 
    Anpassade villkor är bara tillgängliga i listrutan om de motsvarar samma inbyggda villkor som det du tar bort. Om du t.ex. tar bort ett villkor som är lika med Vid risk, kan du bara välja anpassade villkor som också är lika med Vid risk.
 
-1. Klicka **Ta bort villkor**.
+1. Klicka på **Ta bort villkor**.
 
 >[!NOTE]
 >

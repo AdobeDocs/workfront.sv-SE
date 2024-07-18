@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this work for PiW</p>
@@ -41,28 +41,28 @@ Du kan även påminna någon om flera korrektur som har delats med dem. Mer info
 
 ## Skicka ett meddelande till granskare på ett korrektur
 
-1. I valfri listvy eller på [!UICONTROL Dashboard]klickar du på **[!UICONTROL More]** (tre punkter) för korrekturet och klicka sedan **[!UICONTROL Message]**.
+1. I valfri listvy eller på [!UICONTROL Dashboard] klickar du på provtryckets **[!UICONTROL More]**-meny (tre punkter) och sedan på **[!UICONTROL Message]**.
 
-1. I **[!UICONTROL Message]** markerar du de mottagare som du vill använda.
+1. Markera önskade mottagare i rutan **[!UICONTROL Message]**.
 1. Gör något av följande:
 
-   * Om du vill använda standardinställningen [!DNL Workfront Proof] meddelande, klicka **[!UICONTROL Discard custom message]** och sedan klicka **[!UICONTROL Send]**.\
+   * Om du vill använda standardmeddelandet [!DNL Workfront Proof] klickar du på **[!UICONTROL Discard custom message]** och sedan på **[!UICONTROL Send]**.\
 
-      Standardmeddelandet påminner granskarna om att de har lagts till i korrekturet och inkluderar korrekturens deadline.
+     Standardmeddelandet påminner granskarna om att de har lagts till i korrekturet och inkluderar korrekturens deadline.
 
-   * Om du vill skapa ett eget meddelande skriver du en **[!UICONTROL Subject]** och **[!UICONTROL Message],** sedan klicka **[!UICONTROL Send].**&#x200B; Ett anpassat e-postmeddelande med påminnelser innehåller samma information som det vanliga e-postmeddelandet, men det innehåller även din anpassade ämnesrad och anpassade meddelanden i e-postmeddelandet.
+   * Om du vill skapa ett eget anpassat meddelande skriver du **[!UICONTROL Subject]** och **[!UICONTROL Message],** och klickar sedan på **[!UICONTROL Send].** &#x200B; Ett anpassat påminnelsee-postmeddelande innehåller samma information som standardpåminnelsemeddelandet, men det innehåller även din anpassade ämnesrad och anpassade meddelande i e-postmeddelandet.
 
 ## Skicka ett meddelande till granskare på en scen
 
-1. Klicka på **[!UICONTROL More]** (tre punkter) för korrekturet och klicka sedan **[!UICONTROL View proof details]**.
+1. I valfri listvy eller på kontrollpanelen klickar du på **[!UICONTROL More]**-menyn (tre punkter) för korrekturet och sedan på **[!UICONTROL View proof details]**.
 
-1. Under **[!UICONTROL Workflow,]** i scenens övre högra hörn klickar du på **[!UICONTROL More]** (tre punkter) för scenen och klicka sedan **[!UICONTROL Message all]** i listrutan.
+1. Under **[!UICONTROL Workflow,]** i scenens övre högra hörn klickar du på scenens **[!UICONTROL More]**-meny (tre punkter) och sedan på **[!UICONTROL Message all]** i listrutan.
 
-1. I **[!UICONTROL Message]** markerar du de mottagare som du vill använda.
+1. Markera önskade mottagare i rutan **[!UICONTROL Message]**.
 1. Gör något av följande:
 
-   * Om du vill använda standardinställningen [!DNL Workfront Proof] meddelande, klicka **[!UICONTROL Discard custom message]** och sedan klicka **[!UICONTROL Send]**.\
+   * Om du vill använda standardmeddelandet [!DNL Workfront Proof] klickar du på **[!UICONTROL Discard custom message]** och sedan på **[!UICONTROL Send]**.\
 
-      Standardmeddelandet påminner granskarna om att de har lagts till i korrekturet och inkluderar korrekturens deadline.
+     Standardmeddelandet påminner granskarna om att de har lagts till i korrekturet och inkluderar korrekturens deadline.
 
-   * Om du vill skapa ett eget meddelande skriver du en **[!UICONTROL Subject]** och **[!UICONTROL Message],** sedan klicka **[!UICONTROL Send].**&#x200B; Ett anpassat e-postmeddelande med påminnelser innehåller samma information som det vanliga e-postmeddelandet, men det innehåller även din anpassade ämnesrad och anpassade meddelanden i e-postmeddelandet.
+   * Om du vill skapa ett eget anpassat meddelande skriver du **[!UICONTROL Subject]** och **[!UICONTROL Message],** och klickar sedan på **[!UICONTROL Send].** &#x200B; Ett anpassat påminnelsee-postmeddelande innehåller samma information som standardpåminnelsemeddelandet, men det innehåller även din anpassade ämnesrad och anpassade meddelande i e-postmeddelandet.

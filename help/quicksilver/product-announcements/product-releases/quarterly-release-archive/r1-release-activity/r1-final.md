@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # R1 Final
 
-Följande funktioner är för närvarande inte tillgängliga i Förhandsgranska eller Beta, men släpps till produktionsmiljön i R1:
+Följande funktionalitet är för närvarande inte tillgänglig i Preview eller Beta, men släpps till produktionsmiljön i R1:
 
 ## Utför godkännandebeslut för korrektur från Min arbetsyta (Workfront)
 
 När en användare lägger till dig i ett korrektur och ger dig rollen Godkännare eller rollen Granskare och godkännare (antingen från det fristående Korrektur-HQ-programmet eller genom att använda automatiserat arbetsflöde i Workfront) visas godkännandebegäran på fliken Godkännanden i arbetsytan Mitt arbete. Sedan kan du titta på beviset och godkänna det direkt från Workfront.
 
-Mer information om hur du lägger till användare i ett korrektur med hjälp av automatiserat arbetsflöde finns i [Dela ett korrektur i Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Dela ett korrektur i Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+Mer information om hur du lägger till användare i ett korrektur med Automated Workflow finns i [Dela ett korrektur i Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) i [Dela ett korrektur i Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Mer information om hur du fattar beslut om godkännande på arbetsytan Mitt arbete finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Mer information om hur du fattar beslut om godkännande på arbetsytan Mitt arbete finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Rapport om korrekturgodkännanden på arbetsytan My Work (Workfront)
 
@@ -40,7 +40,7 @@ Godkännanderapporter innehåller följande information:
 
 Du får åtkomst till det här godkännandet när du skapar en rapport baserad på ett objekt, vilket beskrivs i [Skapa en anpassad rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Mer information om objektrapporten för korrekturgodkännanden finns i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) avsnitt i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objektrapporten för korrekturgodkännanden finns i avsnittet [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Generera automatiskt en ny version av ett dokumentkorrektur med dra-och-släpp (Workfront)
 
@@ -50,7 +50,7 @@ När du tidigare lade till en ny version av dokumentet genererades inte korrektu
 
 När du använder menyn Dokument, mer för att överföra en ny version, genereras inget korrektur automatiskt.
 
-Mer information finns under
+Mer information finns i  avsnitt i
 
 ## Ge alla korrekturanvändare tillgång till Korrektur på högdagrar direkt från Workfront-gränssnittet (Workfront)
 
@@ -58,7 +58,7 @@ Nu kan du ge alla språkanvändare i ditt system smidig åtkomst till ditt Proof
 
 Det här alternativet är inte aktiverat som standard. Om du vill aktivera det här alternativet kontaktar du Workfront tekniska support och begär åtkomst för alla språkanvändare i ditt system.
 
-Mer information finns i [Öppna Workfront Proof från Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Öppna Workfront Proof från Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Mer information finns i [Åtkomst till Workfront Proof från Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) i  [Öppna Workfront Proof från Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Före den här ändringen kunde bara Workfront-administratören ha direktåtkomst till webbplatsen ProofHQ från Workfront gränssnitt.
 
@@ -76,9 +76,9 @@ Workfront inaktiverar nu all e-postkommunikation från sandlådemiljön Preview 
 
 Mer information finns i följande information:
 
-* [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) in [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+* [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) i [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-* &quot;Ta emot e-postmeddelanden från sandlådan för anpassad uppdatering&quot; i [Adobe Workfront anpassade sandlådemiljö för uppdatering](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* &quot;Tar emot e-postmeddelanden från den anpassade uppdateringssandlådan&quot; i [den anpassade uppdateringssandlådemiljön i Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
 ## Outlook för Office 365 (Workfront)
 
@@ -119,15 +119,15 @@ ProofHQ Premium-konton som är integrerade med Workfront ser nu följande förb�
 
 Du kan nu inkludera följande ytterligare information i anpassade vyer:
 
-* **Mottagarnivådata**\
+* **Data på mottagarnivå**\
   Du kan konfigurera anpassade vyer så att de omfattar följande kolumner som är relaterade till data på mottagarnivå: Roll, Position, E-postaviseringar, Min deadline, Datum tillagd i korrektursökning och Mottagarsökning.\
-  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-* **Korrekturdata**\
+  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Proof-korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+* **Språkdata**\
   Du kan konfigurera anpassade vyer så att de innehåller följande kolumner som är relaterade till korrekturdata: antal kommentarer (alla versioner), storlek på disk, korrekturtyp, antal filer per version, data för bifogade kommentarer (storlek på disk, filnamn) och filtrering efter undermapp.\
-  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Proof-korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 * **Data på scennivå relaterade till automatiserade arbetsflöden**\
   Du kan konfigurera anpassade vyer så att de omfattar följande kolumner som är relaterade till enskilda steg i automatiserade arbetsflöden: SOCD-status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name och Template.\
-  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+  Mer information finns i [Skapa och hantera anpassade vyer i Workfront Proof-korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Förbättringar av korrekturrapporter (tidigare analyser) (Korrektur, högdagrar)
 

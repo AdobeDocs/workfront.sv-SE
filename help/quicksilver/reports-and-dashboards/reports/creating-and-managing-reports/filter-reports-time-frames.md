@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1059'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,13 +54,13 @@ Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../r
 
 ## Filtrera en rapport efter tidsramen för ett datum {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapportering**.
 
-1. Klicka **Ny rapport** väljer du sedan önskad rapporttyp.\
+1. Klicka på **Ny rapport** och välj sedan önskad rapporttyp.\
    Välj till exempel **Timrapport**.
 
-1. Välj **Filter** -fliken.
-1. Klicka **Lägg till en filterregel** väljer **Datum för timregistrering**.\
+1. Välj fliken **Filter**.
+1. Klicka på **Lägg till en filterregel** och välj sedan **Timinmatningsdatum**.\
    ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Välj något av följande alternativ i den nedrullningsbara menyn:
@@ -103,13 +103,13 @@ Mer information om hur du skapar rapporter finns i [Skapa en rapport](../../../r
      </tr> 
      <tr> 
       <td role="rowheader">Större än lika</td> 
-      <td> <p>När du har valt den här modifieraren anger du ett datum efter vilket timmarna angavs. Rapporten visar timmar som angetts efter det angivna datumet, inklusive det angivna datumet.</p> <p>Välj någon av de inbyggda modifierarna för tidsbildrutor enligt beskrivningen i <a href="#built-in-time-frame-modifiers" class="MCXref xref">Inbyggda modifierare för tidsramar</a>.</p> </td> 
+      <td> <p>När du har valt den här modifieraren anger du ett datum efter vilket timmarna angavs. Rapporten visar timmar som angetts efter det angivna datumet, inklusive det angivna datumet.</p> <p>Välj någon av de inbyggda modifieringarna för tidsbildrutor, vilket beskrivs i <a href="#built-in-time-frame-modifiers" class="MCXref xref">Inbyggda modifierare för tidsbildrutor</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Dessa modifierare är tillgängliga för alla datumfält i ett filter eller en uppmaning i en rapport.
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
 ## Inbyggda modifierare för tidsramar {#built-in-time-frame-modifiers}
 
@@ -155,12 +155,12 @@ Om du till exempel skapar en timrapport och vill visa timmar som anges i en viss
   </tr> 
   <tr> 
    <td role="rowheader">Detta kvartal</td> 
-   <td> <p>Visar timmar där transaktionsdatumet är ett datum i det aktuella kvartalet, där kvartal definieras som:</p> 
+   <td> <p>Visar timmar där anmälningsdatumet är ett datum i det aktuella kvartalet, där kvartal definieras som:</p> 
     <ul> 
-     <li>Första kvartalet: 1 januari-30 mars</li> 
-     <li>Andra kvartalet: 1-30 april</li> 
-     <li>Tredje kvartalet: 1-30 juli</li> 
-     <li>Fjärde kvartalet: 1-31 oktober</li> 
+     <li>Första kvartalet: 1 januari - 30 mars</li> 
+     <li>Andra kvartalet: 1 april - 30 juni</li> 
+     <li>Tredje kvartalet: 1 juli - 30 september</li> 
+     <li>Fjärde kvartalet: 1 oktober - 31 december</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ Om du till exempel skapar en timrapport och vill visa timmar som anges i en viss
   </tr> 
   <tr> 
    <td role="rowheader">Sista kvartalet</td> 
-   <td> <p>Visar timmar där anmälningsdatumet är ett datum under det kvartal som föregår det aktuella kvartalet, där kvartal definieras ovan.</p> <p>Obs! Om Workfront-administratören har aktiverat och definierat anpassade kvartal för ditt system ersätts de inbyggda filtren för kvartal med din anpassade kvartalsinformation. Mer information om hur du aktiverar anpassade kvartal finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera anpassade kvartal för projekt</a>.</p> </td> 
+   <td> <p>Visar timmar där anmälningsdatumet är ett datum under det kvartal som föregår det aktuella kvartalet, där kvartal definieras ovan.</p> <p>Obs! Om din Workfront-administratör har aktiverat och definierat anpassade kvartal för ditt system, ersätts de inbyggda filtren för kvartal med din anpassade kvartalsinformation. Mer information om att aktivera anpassade kvartal finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Aktivera anpassade kvartal för projekt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Detta år</td> 

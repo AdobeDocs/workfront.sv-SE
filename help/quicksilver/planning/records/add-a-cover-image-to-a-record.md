@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workforts dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfornt-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när det gäller omslagsbilder för postsidor
 
@@ -122,46 +122,46 @@ Du kan anpassa en post genom att lägga till en omslagsbild högst upp i postens
 
    eller
 
-   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
+   Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen i tabellvyn.
 
    Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
    ![](assets/details-page.png)
 
-1. Klicka på Förhandsgranska post eller på en sida **Lägg till omslag**
+1. Klicka på **Lägg till omslag** i postens förhandsgranskning eller på sidan.
 
 
    eller
 
-   Hovra över en befintlig omslagsbild, klicka på **Mer** meny ![](assets/more-menu.png) och sedan klicka **Överför**. <!--check the casing here; I logged a bug for this-->
-The **Postomslag** öppnas i **Överför** -fliken.
+   Håll pekaren över en befintlig omslagsbild, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Överför**. <!--check the casing here; I logged a bug for this-->
+Rutan **Postomslag** öppnas på fliken **Överför** .
 
    ![](assets/record-cover-box-for-upload.png)
 
-1. Klicka **Bläddra bland bilder** och bläddra efter en bild på datorn för att markera och lägga till den.
+1. Klicka på **Bläddra bland bilder** och bläddra efter en bild på datorn för att markera och lägga till den.
 
-1. (Valfritt) Om du vill ta bort bilden innan den sparas klickar du på **Överför ny bild** icon ![](assets/upload-new-image-icon.png) och överför en ny bild.
+1. (Valfritt) Om du vill ta bort bilden innan den sparas klickar du på ikonen **Överför ny bild** ![](assets/upload-new-image-icon.png) och överför en ny bild.
 
-1. (Valfritt) Klicka på **Galleri** och sedan klicka på en bild i bildgalleriet. Det går inte att ändra bildgalleriet.
+1. (Valfritt) Klicka på fliken **Galleri** och sedan på en bild i bildgalleriet. Det går inte att ändra bildgalleriet.
 
    ![](assets/record-cover-box-for-gallery.png)
 
-1. Klicka **Använd bild**.
+1. Klicka på **Använd bild**.
 
    Bilden överförs högst upp i postens förhandsgranskning eller sida och ändringarna sparas automatiskt.
 
    ![](assets/record-page-with-cover-image.png)
 
-1. (Valfritt) Hovra över bilden och klicka sedan på **Mer** meny ![](assets/more-menu.png) i det nedre högra hörnet av omslagsbilden gör du något av följande:
+1. (Valfritt) Hovra över bilden, klicka sedan på menyn **Mer** ![](assets/more-menu.png) i det nedre högra hörnet av omslagsbilden och gör något av följande:
 
-   * Klicka **Överför** om du vill ersätta omslagsbilden och upprepa steg 6 för att ladda upp och spara en ny bild.
-   * Klicka **Flytta** och använder **Flytta** verktyg ![](assets/reposition-tool-icon.png) för att centrera omslagsbilden och sedan klicka **Spara** när det är klart.
-   * Klicka **Ta bort** för att ta bort omslagsbilden.
+   * Klicka på **Överför** om du vill ersätta omslagsbilden och upprepa steg 6 för att överföra och spara en ny bild.
+   * Klicka på **Flytta** och använd verktyget **Flytta** ![](assets/reposition-tool-icon.png) för att centrera omslagsbilden. Klicka sedan på **Spara** när du är klar.
+   * Klicka på **Ta bort** för att ta bort omslagsbilden.
 
    Workfront sparar automatiskt ändringarna.

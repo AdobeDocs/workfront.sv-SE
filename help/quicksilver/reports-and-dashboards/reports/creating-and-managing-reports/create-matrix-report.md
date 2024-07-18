@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -66,13 +66,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Skapa en traditionell rapport som innehåller numeriska data i rapportutdata.\
    Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Gå till rapporten som du skapade i steg 1 och klicka på **Rapportåtgärder** väljer **Redigera**.
+1. Gå till rapporten som du skapade i steg 1, klicka på **Rapportåtgärder** och välj sedan **Redigera**.
 
-1. (Villkorligt) Om du redan har skapat en vy och vill använda den på den här rapporten klickar du på **Använd en befintlig vy** väljer du sedan Visa i listrutan.
+1. (Villkorligt) Om du redan har skapat en vy och vill använda den på den här rapporten klickar du på **Använd en befintlig vy** och väljer sedan Visa i listrutan.
 1. (Villkorligt) Om du vill skapa en ny vy för rapporten utför du följande steg:
 
-   1. Klicka på **Kolumner (vy)** markerar du en kolumn som du vill sammanfatta i matrisrapporten.
-   1. I **Kolumninställningar** klickar du på **Sammanfatta den här kolumnen med** och välj sedan ett av de tillgängliga alternativen för att sammanfatta informationen.
+   1. Klicka på fliken **Kolumner (Visa)** och markera sedan en kolumn som du vill ska sammanfattas i matrisrapporten.
+   1. I området **Kolumninställningar** klickar du på listrutan **Sammanfatta den här kolumnen med** och väljer sedan ett av de tillgängliga alternativen för att sammanfatta informationen.
 
       >[!IMPORTANT]
       >
@@ -82,50 +82,53 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    1. Upprepa den här processen för varje kolumn på fliken Kolumner (Visa) och klicka sedan på **Klar**.
 
-1. Klicka på **Grupperingar** -fliken.
-1. (Villkorligt) Om du redan har skapat en gruppering och vill använda den i den här rapporten klickar du på **Tillämpa en befintlig gruppering** väljer du sedan Gruppering i listrutan.
+1. Klicka på fliken **Grupperingar**.
+1. (Villkorligt) Om du redan har skapat en gruppering och vill använda den på den här rapporten klickar du på **Använd en befintlig gruppering** och väljer sedan Gruppering i listrutan.
 1. (Villkorligt) Om du vill skapa en ny matrisgruppering för rapporten utför du följande steg:
 
    1. Välj **Växla till matrisgruppering** i det övre högra hörnet av Builder-gränssnittet.
-   1. I **Radgrupperingar** identifierar du radgrupperingen som anger tabellens vågräta grupperingar.
+   1. Identifiera radgrupperingen i avsnittet **Radgrupperingar**, som fastställer tabellens vågräta grupperingar.
    1. (Valfritt) Om du vill lägga till ytterligare en radgruppering klickar du på **Lägg till sekundär radgruppering**.
-   1. I **Kolumngrupperingar** identifierar du kolumngrupperingen som anger tabellens lodräta grupperingar.
+   1. Identifiera kolumngrupperingen i avsnittet **Kolumngrupperingar** som upprättar tabellens lodräta grupperingar.
    1. (Valfritt) Om du vill lägga till ytterligare en kolumngruppering klickar du på **Lägg till sekundär kolumngruppering**.
    1. (Villkorligt) Om du lägger till en gruppering efter datum anger du även om resultaten grupperas efter dag, vecka, månad, kvartal eller år.\
       ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
-   1. (Villkorligt) Om du valde att gruppera efter datum och att visa resultat efter kvartal, till exempel, anger du om du vill visa kvartal utan data genom att markera **Visa kvartal utan resultat** kryssrutan.\
+   1. (Villkorligt) Om du har valt att gruppera efter datum och att visa resultat efter kvartal, till exempel, anger du om du vill visa kvartal utan data genom att markera kryssrutan **Visa kvartal utan resultat**.\
       ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >
-      >The **Visa kvartal utan resultat** -fältet är bara tillgängligt för matrisgrupperingar, och inte för standardgrupperingar.\
+      >Fältet **Visa kvartal utan resultat** är bara tillgängligt för matrisgrupperingar, och inte för standardgrupperingar.\
       >Endast kvartal utan data som finns mellan två kvartal med giltiga data visar noll för datavärdena på matrisfliken. Kvartal som inte har några data som finns i början och slutet av den tidsram som valts av filtret visas inte alls i matrisgrupperingen. Kvartal utan resultat visas inte i en gruppering på rapportens flik Information.
 
-1. (Valfritt och villkorligt) Klicka på **Matrisinställningar** väljer du sedan något av följande alternativ:\
+1. (Valfritt och villkorligt) Klicka på **Matrisinställningar** och välj sedan något av följande alternativ:\
    **Visa antal poster:** Välj det här alternativet om du vill visa en rad med det totala antalet poster för det angivna fältet.\
    **Visa värdekolumn:** Välj det här alternativet om du vill visa följande information i matrisen:
 
    * Antal poster
-   * Kolumnen Värde
+   * Värdekolumnen
 
-      >[!NOTE]
-      >
-      >Den här kolumnen innehåller information som beskriver vad data i varje rad representerar.\
-      >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
-      >
-      >   
-      >   
-      >   * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
-      >   * Faktiska timmar sammanställer värdena för huvuduppgiften och de fristående uppgifterna. de sammanställer inte siffrorna för överordnade och underordnade uppgifters överordnade uppgifter.
-      >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: föräldrar, barn, föräldrar till föräldrar och fristående uppgifter. Om du skapade matrisrapporten för att visa Planerade timmar eller Faktiska timmar i **Värde** Tänk på att timmar- och kostnadsinformation för överordnade objekt (t.ex. överordnade uppgifter) inte visas i matrisrapporten. Om du vill visa timmar för överordnade objekt måste du visa **Detaljer** -fliken.
+     >[!NOTE]
+     >
+     >Den här kolumnen innehåller information som beskriver vad data i varje rad representerar.\
+     >Följande undantag gäller för överordnade objekt (till exempel överordnade uppgifter) när du samlar värden för följande fält i grupperingar:
+     >
+     >   
+     >   
+     >   * Alla sifferfält och valutafält utom Faktiska timmar (till exempel Planerad/Faktisk arbetskostnad, Planerad/Faktisk utgiftskostnad, Planerad/Faktisk kostnad, Planerad timmar) samlar endast värdena för de underordnade aktiviteterna och fristående aktiviteter. De sammanställer inte värdena för de överordnade uppgifterna eller de överordnade överordnade uppgifterna.
+     >   * Faktiska timmar sammanställer värdena för de huvudsakliga överordnade och de fristående aktiviteterna. De sammanställer inte siffrorna för de överordnade aktiviteternas överordnade eller underordnade aktiviteternas överordnade uppgifter.
+     >   * Anpassade datafält för tal- och valutavärden samlar alla uppgifter: överordnade, underordnade, överordnade och fristående uppgifter. Om du har skapat matrisrapporten för att visa Planerade timmar eller Faktiska timmar i kolumnen **Värde** ska du tänka på att timmar eller kostnadsinformation för eventuella överordnade objekt (till exempel överordnade uppgifter) inte visas i matrisrapporten. Om du vill visa timmar för överordnade objekt måste du visa fliken **Detaljer**.
+     >   
+     >   
+     >
 
    **Villkorliga regler:** Ange eventuella formateringsregler för sammansatta värden.\
-   När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka **Lägg till regel** när du är klar med att definiera regeln **Klar** för att spara regeln.
+   När du har lagt till en regel kan du definiera fält- och textformat för hur fält som matchar den regeln visas. Klicka på **Lägg till regel** när du har definierat regeln och **Klar** för att spara regeln.
 
-1. Klicka på **Filter** för att definiera vilken information som ska visas i rapporten.
-1. (Villkorligt) Om du redan har skapat ett filter och vill använda det i den här rapporten klickar du på **Använd ett befintligt filter** väljer du därefter Filter i listrutan.
-1. (Villkorligt) Om du vill skapa ett nytt filter för den här rapporten kan du läsa mer i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+1. Klicka på fliken **Filter** för att definiera vilken information som ska visas i rapporten.
+1. (Villkorligt) Om du redan har skapat ett filter och vill använda det på den här rapporten klickar du på **Använd ett befintligt filter** och väljer sedan filtret i listrutan.
+1. (Villkorligt) Om du vill skapa ett nytt filter för den här rapporten läser du [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -134,6 +137,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </MadCap:conditionalText>
    -->
 
-   för information om de olika kvalificerare som du kan använda när du skapar filter.
+   om du vill ha information om de olika kvalificerare som du kan använda när du skapar filter.
 
-1. Klicka **Spara+stäng** för att spara och visa matrisrapporten.
+1. Klicka på **Spara+Stäng** för att spara och visa matrisrapporten.

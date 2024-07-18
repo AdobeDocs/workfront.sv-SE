@@ -17,13 +17,13 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Din organisation måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] så att du kan visa initieringsinformation för ett projekt. Mer information om hur du får [!DNL Workfront Scenario Planner], se [Åtkomst krävs för att använda [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+>Din organisation måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] så att du kan visa initialinformation för ett projekt. Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i [Åtkomst som behövs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 När du har kopplat projekt och initiativ kan du hantera deras resurstilldelning sida vid sida för att säkerställa att de matchar. På så sätt undviker du att överallokera eller underutnyttja dem.
 
-I den här artikeln beskrivs hur du kan förena resurser med [!UICONTROL Role Allocation] i uppgiftslistan för ett projekt.
+I den här artikeln beskrivs hur du kan synkronisera resurser med hjälp av panelen [!UICONTROL Role Allocation] i uppgiftslistan för ett projekt.
 
-Allmän information om hur du förenar resurser mellan projekt och initiativ, inklusive förutsättningar, finns i [Översikt över avstämning av resursallokeringar mellan projekt och initiativ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+Allmän information om hur du förenar resurser mellan projekt och initiativ, inklusive förutsättningar, finns i [Översikt över att stämma av resursallokeringar mellan projekt och initiativ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
 ## Åtkomstkrav
 
@@ -43,11 +43,11 @@ Du måste göra följande:
   </tr> 
   <tr> 
    <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>[!UICONTROL View] eller högre åtkomst till projekt </p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!UICONTROL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!UICONTROL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>[!UICONTROL View] eller högre åtkomst till projekt </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!UICONTROL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!UICONTROL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
@@ -56,29 +56,29 @@ Du måste göra följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Visa rolltilldelning för projekt och initiativ i uppgiftslistan
 
-Om ditt företag har köpt en [!DNL Workfront Scenario Planner] kan du stämma av resursallokeringarna mellan initiativet och det projekt som är kopplat till det i [!UICONTROL Tasks] -delen av projektet.
+Om ditt företag har köpt en [!DNL Workfront Scenario Planner]-licens kan du stämma av resursallokeringarna mellan initiativet och det projekt som är länkat till det i projektavsnittet [!UICONTROL Tasks].
 
-1. (Villkorligt) Koppla ett projekt till ett projekt med någon av metoderna som beskrivs i [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](#Connect) i den här artikeln.
+1. (Villkorligt) Anslut ett projekt till ett projekt med en av de metoder som beskrivs i [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](#Connect) i den här artikeln.
 
    >[!IMPORTANT]
    >
    >Om ni ändrar resurser i initiativet måste ni på nytt publicera det scenario som initiativet hör till för att få den senaste resursinformationen från initiativet som ska uppdateras i projektet.
 
 1. Gå till det projekt där du vill granska fördelningen av jobbroller för projektet samt för det associerade initiativet.
-1. Klicka **[!UICONTROL Tasks]** i den vänstra panelen.
-1. Klicka på **[!UICONTROL Show role allocation]** icon ![](assets/show-role-allocation-icon.png) i det övre högra hörnet av verktygsfältet.
+1. Klicka på **[!UICONTROL Tasks]** i den vänstra panelen.
+1. Klicka på ikonen **[!UICONTROL Show role allocation]** ![](assets/show-role-allocation-icon.png) i det övre högra hörnet av verktygsfältet.
 
-   The [!UICONTROL Role Allocation] visas.
+   Panelen [!UICONTROL Role Allocation] visas.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure this step stays 5 to match the mention of it in the section below)</p>
    -->
 
-1. Granska följande information i **[!UICONTROL Project Totals]** området på [!UICONTROL Role Allocation] panel:
+1. Granska följande information i området **[!UICONTROL Project Totals]** på panelen [!UICONTROL Role Allocation]:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -103,7 +103,7 @@ Om ditt företag har köpt en [!DNL Workfront Scenario Planner] kan du stämma a
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Variance]</td> 
-      <td> <p>Skillnaden mellan de timmar som krävs för initiativet och de planerade timmarna i samband med arbete i projektet. [!DNL Workfront] beräknar [!UICONTROL Variance] med den här formeln:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>När resurser planeras för fler timmar än vad som krävs på initiativ [!UICONTROL Variance] är negativ och visas i rött. Det innebär att era resurser är överallokerade. </p> </td> 
+      <td> <p>Skillnaden mellan de timmar som krävs för initiativet och de planerade timmarna i samband med arbete i projektet. [!DNL Workfront] beräknar [!UICONTROL Variance] med den här formeln:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>När resurser planeras för fler timmar än vad som krävs för initiativet, är [!UICONTROL Variance] negativ och visas i rött. Det innebär att era resurser är överallokerade. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -116,26 +116,26 @@ Om ditt företag har köpt en [!DNL Workfront Scenario Planner] kan du stämma a
    >   
    >   * När uppgifter eller utgåvor inte har tilldelats till jobbroller, eller användare med en jobbroll som är kopplad till dem.
    >   * När aktiviteter eller utgåvor har varaktigheten noll.
+   >   
+   >
 
 
 
-
-1. (Valfritt) Om [!UICONTROL Variance] visas att dina resurser är överallokerade. Justera något av följande:
+1. (Valfritt) Om kolumnen [!UICONTROL Variance] visar att dina resurser är överallokerade justerar du något av följande:
 
    * Minska antalet planerade timmar för en jobbroll som visar överallokerade eller lägg till fler resurser för aktiviteterna och distribuera fler planerade timmar till de nya resurserna. Du kan uppdatera uppdrag eller antalet planerade timmar för uppgifter eller problem när du redigerar dem. Mer information finns i följande artiklar:
 
       * [Redigera uppgifter](../manage-work/tasks/manage-tasks/edit-tasks.md)
       * [Redigera problem](../manage-work/issues/manage-issues/edit-issues.md)
 
-      >[!NOTE]
-      >
-      >Du måste ha ytterligare åtkomst och behörigheter för att kunna redigera uppgifter och problem.
+     >[!NOTE]
+     >
+     >Du måste ha ytterligare åtkomst och behörigheter för att kunna redigera uppgifter och problem.
 
-   * Öka antalet timmar som krävs för rollen som visar överallokeringen för initiativet. Mer information finns i [Skapa och redigera i [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
+   * Öka antalet timmar som krävs för rollen som visar överallokeringen för initiativet. Mer information finns i [Skapa och redigera initiativ i  [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md).
 
-      >[!NOTE]
-      >
-      >Du måste ha ytterligare åtkomst och behörigheter för att kunna redigera planer.
-
+     >[!NOTE]
+     >
+     >Du måste ha ytterligare åtkomst och behörigheter för att kunna redigera planer.
 
 

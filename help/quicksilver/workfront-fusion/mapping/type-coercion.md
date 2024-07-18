@@ -4,13 +4,13 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Typtvång i Adobe Workfront Fusion
-description: Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situationer när det tar emot värden i förväntade och oväntade dataformat.
+description: I det här dokumentet beskrivs hur  [!DNL Adobe Workfront Fusion] fungerar i situationer när värden tas emot i förväntade och oväntade dataformat.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '626'
 ht-degree: 0%
 
 ---
@@ -36,29 +36,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ### Typtvång
 
-Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situationer när det tar emot värden i förväntade och oväntade dataformat.
+Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] beter sig i situationer när det tar emot värden i förväntade och oväntade dataformat.
 
 <table style="table-layout:auto">
  <col> 
@@ -80,7 +80,7 @@ Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situa
   <tr> 
    <td>array </td> 
    <td>övriga </td> 
-   <td> <p>Om det mottagna värdet inte är av arraytyp, [!DNL Workfront Fusion] skapar en array och det första (och enda) elementet blir det mottagna värdet.</p> </td> 
+   <td> <p>Om det mottagna värdet inte är av arraytyp skapar [!DNL Workfront Fusion] en array och det första (och enda) elementet blir det mottagna värdet.</p> </td> 
   </tr> 
   <tr> 
    <td>boolesk </td> 
@@ -105,7 +105,7 @@ Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situa
   <tr> 
    <td>buffert </td> 
    <td>buffert </td> 
-   <td> <p>Värdet ändras bara om teckentabellen är som förväntat. Om teckentabellen skiljer sig åt [!DNL Workfront Fusion] försöker konvertera det mottagna värdet till den begärda teckentabellen. Om konverteringen inte stöds [!DNL Workfront Fusion] returnerar ett valideringsfel.</p> </td> 
+   <td> <p>Värdet ändras bara om teckentabellen är som förväntat. Om teckentabellen skiljer sig försöker [!DNL Workfront Fusion] konvertera det mottagna värdet till den begärda teckentabellen. Om konverteringen inte stöds returnerar [!DNL Workfront Fusion] ett valideringsfel.</p> </td> 
   </tr> 
   <tr> 
    <td>buffert </td> 
@@ -125,7 +125,7 @@ Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situa
   <tr> 
    <td>buffert </td> 
    <td>text </td> 
-   <td> <p>Värdet konverteras till binära data och kodas som förväntat. Om den förväntade kodningen inte anges används utf8-kodning.</p> </td> 
+   <td> <p>Värdet konverteras till binära data och kodas som förväntat. Om den förväntade kodningen inte anges kommer utf8-kodning att användas.</p> </td> 
   </tr> 
   <tr> 
    <td>buffert </td> 
@@ -180,7 +180,7 @@ Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situa
   <tr> 
    <td>text </td> 
    <td>array </td> 
-   <td> <p>Om den angivna arrayen stöder konvertering till text, konverteras värdet. Om inte, [!DNL Workfront Fusion] returnerar ett valideringsfel.</p> </td> 
+   <td> <p>Om den angivna arrayen stöder konvertering till text, konverteras värdet. Annars returnerar [!DNL Workfront Fusion] ett valideringsfel.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -190,7 +190,7 @@ Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situa
   <tr> 
    <td>text </td> 
    <td>buffert </td> 
-   <td> <p>Om textkodning anges för binära data konverteras värdet till text. Om inte, [!DNL Workfront Fusion] returnerar ett valideringsfel.</p> </td> 
+   <td> <p>Om textkodning anges för binära data konverteras värdet till text. Annars returnerar [!DNL Workfront Fusion] ett valideringsfel.</p> </td> 
   </tr> 
   <tr> 
    <td>text </td> 
@@ -215,7 +215,7 @@ Det här dokumentet beskriver hur [!DNL Adobe Workfront Fusion] fungerar i situa
   <tr> 
    <td>tid </td> 
    <td>text </td> 
-   <td> <p>[!DNL Workfront Fusion] försöker konvertera tid till timmar:minutes:sekundformat. Om konverteringen misslyckas returneras ett valideringsfel.</p> </td> 
+   <td> <p>[!DNL Workfront Fusion] kommer att försöka konvertera tiden till formatet :minutes: sekunder. Om konverteringen misslyckas returneras ett valideringsfel.</p> </td> 
   </tr> 
   <tr> 
    <td>tid </td> 

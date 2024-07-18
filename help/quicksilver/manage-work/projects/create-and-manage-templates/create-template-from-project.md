@@ -9,7 +9,7 @@ role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -48,11 +48,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter i ett projekt </p> <p>Du får behörigheten Hantera för mallen när du har skapat den</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter i ett projekt </p> <p>När du har skapat mallen får du behörigheten Hantera</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa mall från projekt
 
 1. Gå till det projekt som du vill spara som en mall.
-1. Klicka på **Mer** meny ![](assets/qs-more-icon-on-an-object.png)sedan **Spara som mall**.
+1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
 1. Ange följande information för mallen:
 
    <table style="table-layout:auto"> 
@@ -87,26 +87,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Anpassad Forms</td> 
-      <td>Använd listrutan för att välja anpassade formulär som ska bifogas mallen. Om några anpassade formulär redan har associerats med projektet visas alla datafält från dessa anpassade formulär.<br>Du kan inkludera upp till 10 anpassade formulär i en och samma mall.</td> 
+      <td>Använd listrutan för att välja anpassade formulär som ska bifogas mallen. Om några anpassade formulär redan har associerats med projektet visas alla datafält från dessa anpassade formulär.<br>Du kan inkludera upp till 10 anpassade formulär i en enda mall.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Hantera Forms** för att ta bort eller ordna om formulären. Mer information om hur du tar bort och ändrar ordning på anpassade formulär i mallen finns i [Egna formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klicka på **Hantera Forms** om du vill ta bort eller ordna om formulären. Mer information om hur du tar bort och ändrar ordning på anpassade formulär i mallen finns i [Anpassade formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Klicka **Nästa steg.**
-1. I **Alternativ** markerar du kryssrutan bredvid information som du vill ta bort från mallen.
+1. Klicka på **Nästa steg.**
+1. I avsnittet **Alternativ** markerar du kryssrutan bredvid eventuell information som du vill ta bort från mallen.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Klicka **Nästa steg.**
-1. I **Exkludera** väljer du de uppgifter som du vill utesluta från projektet.
+1. Klicka på **Nästa steg.**
+1. I avsnittet **Uteslut** väljer du de uppgifter du vill utesluta från projektet.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klicka **Slutför och spara mall.**
+1. Klicka på **Slutför och spara mall.**
 
    Mallen visas nu i listan med tillgängliga mallar och kan antingen bifogas till ett befintligt projekt eller användas för att skapa ett nytt.
 

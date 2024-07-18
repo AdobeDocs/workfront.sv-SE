@@ -7,7 +7,7 @@ feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Följande funktioner finns i version 21.3:
 >
 >Den här funktionen är bara tillgänglig i den nya Adobe Workfront-upplevelsen.
 
-För att ge de som använder Adobe Workfront Scenario Planner en enda källa till sanning när de budgeterar resurser för sina projekt har vi infört en inställning under Resursbudgetering i ett projekt där du kan välja om du vill använda Resursplanering eller Scenarioplanering för att budgetera resurser för projektet. När du väljer att använda scenarioplaneraren återspeglas jobbrollsinformation från det projekt som är kopplat till projektet i området Resursbudgetering i affärsärendet och beräknar projektets budgeterade arbetskostnad.
+För att ge de som använder Adobe Workfront Scenario Planner en enda källa till sanning när de budgeterar resurser för sina projekt har vi infört en inställning under Resursbudgetering i ett projekt där du kan välja om du vill använda Resursplanering eller Scenarioplanering för att budgetera resurser för projektet. När du väljer att använda scenarioplaneraren återspeglas jobbrollsinformation från det projekt som är länkat till projektet i området Resursbudgetering i affärsärendet och beräknar projektets budgeterade arbetskostnad.
 
 Det här är endast tillgängligt i den nya Adobe Workfront-upplevelsen för kunder som har köpt en licens för Adobe Workfront Scenario Planner.
 

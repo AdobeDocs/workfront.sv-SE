@@ -21,9 +21,9 @@ Med de här inställningarna kan du ange standardvärden som gäller för alla n
 
 ## Konfigurera nya standardinställningar för korrektur
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar**.
-1. Klicka på i den vänstra panelen **Korrektur** > **Korrekturinställningar**.
-1. I **Ny korrekturstandard** konfigurerar du följande inställningar:
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera**.
+1. Klicka på **Korrekturinställningar** > **Korrekturinställningar** i den vänstra panelen.
+1. Konfigurera följande inställningar i avsnittet **Nya korrekturinställningar**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -69,7 +69,7 @@ Med de här inställningarna kan du ange standardvärden som gäller för alla n
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Konfigurera korrekturbeslut
 
@@ -81,15 +81,15 @@ Användare kan använda korrekturbeslut för att ange korrekturstatus efter gran
 
 Så här konfigurerar du korrekturbeslut:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar**.
-1. Klicka på i den vänstra panelen **Korrektur** > **Korrekturinställningar**.
-1. I **Beslut**-sektion kan du
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera**.
+1. Klicka på **Korrekturinställningar** > **Korrekturinställningar** i den vänstra panelen.
+1. I avsnittet **Beslut** kan du
 
    1. **Byt namn på beslutet**: Klicka på texten i beslutsrutan och börja skriva den nya beslutsetiketten.
 
       >[!TIP]
       >
-      >Behåll logiken för ett beslut när du byter namn på det. Standardbeslutet som avvisas kan till exempel ändras till *Ny version krävs*, men bör inte ändras till *Skicka till skrivare*.
+      >Behåll logiken för ett beslut när du byter namn på det. Det gick till exempel att ändra standardbeslutet Avvisat till *Ny version krävs*, men det bör inte ändras till *Skicka till skrivare*.
 
       ![](assets/rename-decision-350x109.png)
 
@@ -97,9 +97,9 @@ Så här konfigurerar du korrekturbeslut:
 
       ![](assets/move-decision-350x110.png)
 
-   1. **Dölja ett beslut**: Håll muspekaren över beslutsrutan och klicka på ikonen Dölj i det övre högra hörnet.
+   1. **Dölj ett beslut**: Håll markören över beslutsrutan och klicka på Dölj-ikonen i det övre högra hörnet.
 
       ![](assets/hide-decision-350x109.png)
 
 1. (Valfritt) Om du vill gå tillbaka till standardinställningarna för Workfront klickar du på **Återställ standardvärden**.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

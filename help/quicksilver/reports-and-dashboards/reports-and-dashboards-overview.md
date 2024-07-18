@@ -25,6 +25,6 @@ Du kan ordna information i rapporter i Adobe Workfront. Du kan placera flera rap
 Mer information om rapporter och kontrollpaneler finns i artiklarna i följande underavsnitt:
 
 * [Rapporter](../reports-and-dashboards/reports/reports-overview.md)
-* [Kontrollpaneler](../reports-and-dashboards/dashboards/dashboards-overview.md)
+* [Instrumentpaneler](../reports-and-dashboards/dashboards/dashboards-overview.md)
 * [Förbättrad analys](../enhanced-analytics/enhanced-analytics.md)
 * [Kontrollpaneler på arbetsytan](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

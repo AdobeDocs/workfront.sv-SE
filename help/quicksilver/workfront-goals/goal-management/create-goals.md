@@ -76,7 +76,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Riktlinjer för att skapa mål
 
@@ -84,11 +84,11 @@ Innan du börjar med Workfront-mål rekommenderar vi att du läser om våra reko
 
 ## Skapa mål
 
-I den här artikeln beskrivs hur du skapar ett strategiskt mål i Workfront-mål. Mer information om hur du skapar ett mål för ett affärsärende finns i [Skapa mål för affärsärenden](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+I den här artikeln beskrivs hur du skapar ett strategiskt mål i Workfront-mål. Mer information om hur du skapar ett mål för ett affärsärende finns i [Skapa mål för affärsärende](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 Du kan skapa ett strategiskt mål på något av följande sätt:
 
-* [Skapa ett helt nytt mål](#create-a-goal-from-scratch)
+* [Skapa ett mål från grunden](#create-a-goal-from-scratch)
 * [Kopiera ett befintligt mål](#copy-an-existing-goal)
 * [Konvertera ett resultat eller en aktivitet till ett mål](#convert-a-result-or-activity-to-a-goal)
 
@@ -171,13 +171,13 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Mållistan visas.
-1. Klicka **Nytt mål**.
+1. Klicka på **Nytt mål**.
 
    Rutan Nytt mål visas.
 
@@ -185,11 +185,11 @@ Creating goals differs depending on what environment you use.
 
 1. Ange information i följande fält:
    * **Målnamn**: Ange ett namn för målet. Detta är ett obligatoriskt fält.
-   * **Period**: Välj ett fördefinierat kvartal eller år från **Period** nedrullningsbart fält
+   * **Period**: Välj ett fördefinierat kvartal eller år i listrutan **Period**
 
      eller
 
-     Välj **Aktivera anpassade datum** väljer du ett **Starta** och **Slutdatum** för målet.
+     Välj alternativet **Aktivera anpassade datum** och välj sedan ett **Start** och **slutdatum** för målet.
 
      Föregående, innevarande och följande år och deras respektive kvartal listas som fördefinierade alternativ i listrutan Period.
 
@@ -197,29 +197,29 @@ Creating goals differs depending on what environment you use.
 
    * **Målägare**: Börja skriva namnet på en användare, ett team, en grupp eller din organisation för att ange vem som är ägare till målet. Som standard är du markerad som ägare av målet.
    * **Beskrivning**: Ange ytterligare information om målet.
-1. Klicka **Skapa mål**.
+1. Klicka på **Skapa mål**.
 
-   Det nya målet listas i listan Mål och har statusen **Utkast**.
+   Det nya målet listas i mållistan och har statusen **Utkast**.
 
    Du måste associera ett mål med en förloppsindikator för att kunna aktivera det och börja arbeta med det.
 
    Gör minst något av följande för att förbereda ett mål som ska aktiveras:
    * Lägg till ett resultat
 
-     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront](../results-and-activities/add-results-to-goals.md).
+     Mer information om hur du lägger till resultat finns i [Lägga till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
    * Lägg till en aktivitet
 
-     Mer information om hur du lägger till aktiviteter finns i [Lägga till aktiviteter i mål i Adobe Workfront](../results-and-activities/add-activities-to-goals.md).
+     Mer information om hur du lägger till aktiviteter finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md).
    * Justera ett annat mål mot det
 
-     Mer information om hur du justerar mål finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../goal-alignment/align-goals-by-connecting-them.md).
+     Mer information om att justera mål finns i [Justera mål genom att koppla dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md).
 
 
 ### Kopiera ett befintligt mål {#copy-an-existing-goal}
 
 Du kan skapa ett mål genom att kopiera en befintlig.
 
-Mer information om att kopiera mål finns i [Kopiera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/copy-goals.md).
+Mer information om kopieringsmål finns i [Kopiera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/copy-goals.md).
 
 ### Konvertera ett resultat eller en aktivitet till ett mål {#convert-a-result-or-activity-to-a-goal}
 

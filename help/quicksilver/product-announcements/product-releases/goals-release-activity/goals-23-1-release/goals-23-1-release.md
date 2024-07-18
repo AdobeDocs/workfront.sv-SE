@@ -9,7 +9,7 @@ feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
 source-git-commit: 2c02db0a08921d1daa16c0a9beef7b40d09565ef
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan innehåller information om funktionalitet för Adobe Workfront-mål som lanseras i produktionsmiljön med version 23.1, som är planerad till veckan 16 januari 2023.
 
-En lista över alla ändringar som är tillgängliga för alla delar av Workfront i den här versionen av version 23.1 finns i [23.1 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga för alla områden i Workfront i den här versionen av version 23.1 finns i [23.1 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -37,13 +37,13 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Uppdateringar av Workfront-mål</a></p>
-                        <p>Vi har uppdaterat Workfront-målen för att skapa en mer enhetlig upplevelse med resten av Workfront samt för att göra det enklare att se och arbeta med dina mål. Utseendet på Workfront-målen liknar nu mer på andra områden i Workfront. </p>
+                        <p>Vi har uppdaterat Workfront-målen för att skapa en mer enhetlig upplevelse med resten av Workfront samt för att göra det enklare att se och arbeta med dina mål. Utseendet och känslan hos Workfront-målen liknar nu mer inom andra områden i Workfront. </p>
                         <p>Nu är områden som sidhuvud, listor och informationskort bekanta och överensstämmer med dina erfarenheter i Workfront.
 Enskilda mål öppnas på sin egen sida och vi har lagt till följande avsnitt i den vänstra panelen för enkel navigering och uppdatering:</p>
                         <ul>
-                        <li><b>Målinformation</b>: Målinformation: Visa information som målets beskrivning, förlopp, datum och information om överordnat mål.</li>
+                        <li><b>Målinformation</b>: Målinformation: Visa information som målets beskrivning, förlopp, datum och överordnad målinformation.</li>
                         <li><b>Förloppsindikatorer</b>: Visa förloppsindikatorer i en lista. Du kan redigera indikatorerna textbundet, öppna redigeringsfönster eller ta bort dem från det här området.</li>
-                        <li><b>Uppdateringar</b>: Visa, publicera eller svara på uppdateringar om målet, ungefär som i uppdateringsområdet i andra Workfront-objekt. 
+                        <li><b>Uppdateringar</b>: Visa, publicera eller svara på uppdateringar för målet, ungefär som i uppdateringsområdet i andra Workfront-objekt. 
 Att dela, redigera, ta bort eller kopiera ett mål påminner om hur du utför dessa åtgärder för andra objekt i Workfront.</li>    
                         </ul>
                         </p>

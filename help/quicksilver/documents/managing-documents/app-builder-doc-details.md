@@ -39,7 +39,7 @@ Du måste ha följande:
 * Scen: [https://stage.adminconsole.adobe.com/](https://stage.adminconsole.adobe.com/)
 * Prod: [https://adminconsole.adobe.com/](https://adminconsole.adobe.com/)
 
-1. I avsnittet Användare klickar du på **Utvecklare** > **Lägg till utvecklare**.
+1. Klicka på **Utvecklare** > **Lägg till utvecklare** i avsnittet Användare.
 
    ![](assets/manage-users-admin-console.png)
 
@@ -66,7 +66,7 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
 
 ## Skapa ett nytt projekt i Dev Console
 
-1. Klicka **Skapa projekt från mall**.
+1. Klicka på **Skapa projekt från mallen**.
 
    >[!IMPORTANT]
    >
@@ -76,23 +76,23 @@ Om AppBuilder är korrekt konfigurerat bör du se&quot;Skapa projekt från mall&
 
 1. Välj **App Builder**.
 
-1. Ange en **Projektets titel** och **Programnamn**. Båda har standardvärden, men det blir enklare att identifiera det projekt som du vill ha senare om du anpassar värdet.
+1. Ange en **projekttitel** och **programnamn**. Båda har standardvärden, men det blir enklare att identifiera det projekt som du vill ha senare om du anpassar värdet.
 
    >[!NOTE]
    >
    >Det finns ett alternativ för att lägga till ytterligare arbetsytor i det här steget. Vi föreslog att vi skulle skapa en arbetsyta för varje utvecklare. På så sätt hålls hemligheter och driftsättningar åtskilda från varandra när designarbete utförs. Du bör namnge arbetsytan med namnet på den utvecklare som använder den. AIO-klippet innehåller alternativ för att byta arbetsyta, som vi senare kommer att gå igenom.
 
 
-1. Lämna **Inkludera körtid** markerat.
+1. Låt **Inkludera körningsversion** vara markerat.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Adobe IO (aio) CLI
 
-Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-applikationer. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) samt Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe tillhandahåller en CLI med öppen källkod som kan användas för att skapa App Builder-program. Dokumentation finns här: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) och Adobe App Builder-instruktioner [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installation
-   1. Om du vill installera verktyget (kontrollera att du är på nod v18 först) kör du: `npm install -g @adobe/aio-cli `.
+   1. Om du vill installera verktyget kör du: `npm install -g @adobe/aio-cli ` (kontrollera att du är på nod v18 först).
 
 1. Autentisera i Terminal
    1. Starta terminalen och logga in i AIO med kommandot: `aio login`.
@@ -106,7 +106,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
       ![](assets/select-project.png)
 
 1. Välja och konfigurera mallar
-   1. Bläddra bland alla tillgängliga mallar och välj **@adobe/aem-cf-editor-ui-ext-tpl** mall för ditt projekt.
+   1. Bläddra bland alla tillgängliga mallar och välj mallen **@adobe/aem-cf-editor-ui-ext-tpl** för projektet.
       ![](assets/search-template.png)
       ![](assets/select-template.png)
 
@@ -128,7 +128,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
 
 1. Redigera tilläggsregistreringskomponenten
    1. Öppna `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
-   1. Lägg till en funktion i avsnittet Metoder `secondaryNav` som innehåller en asynkron funktion `getButtons`.
+   1. Lägg till funktionen `secondaryNav` som innehåller den asynkrona funktionen `getButtons` i avsnittet med metoder.
    1. `getButtons` ska ta emot ett objekt med följande struktur:
 
       ```
@@ -172,7 +172,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
       ```
 
 1. Åtkomst till dokumentinformation
-   1. Implementera den angivna funktionen `document.getDocumentDetails` i programmet för att hämta viktiga dokumentspecifikationer. Den här funktionen hämtar ett objekt som innehåller `docId` och `docvId`, tillsammans med `sharedContext` objekt med `hostname`, `protocol`och autentiseringsinformation. Se till att programmet hanterar dessa data på rätt sätt.
+   1. Implementera den tillhandahållna funktionen `document.getDocumentDetails` i programmet för att hämta viktiga dokumentspecifikationer. Den här funktionen hämtar ett objekt som innehåller `docId` och `docvId`, tillsammans med ett `sharedContext`-objekt med `hostname`, `protocol` och autentiseringsinformation. Se till att programmet hanterar dessa data på rätt sätt.
 
 1. Integrera datainhämtning i era komponenter
    1. Lägg till en ny komponent i programmets komponentmapp. I den här komponenten upprättar du en anslutning till Workfront för att hämta dokumentinformation och autentiseringsdata via anslutningen som upprättats med värdprogrammet. Här är ett exempel på hur du kan strukturera komponenten för att hantera detta:
@@ -221,8 +221,8 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
    1. Ändra konfigurationen genom att uppdatera referensen från `aem/cf-editor/1` till `workfront/doc-details/1`. Justeringen justerar filsökvägarna efter den aktuella projektstrukturen.
 
 1. Ändra tilläggsregistreringskomponenten
-   1. Leta reda på och öppna filen med namnet `ExtensionRegistration.js`.
-   1. Lägg till en funktion i avsnittet Metoder `secondaryNav` som innehåller en asynkron funktion `getButtons`.
+   1. Leta reda på och öppna filen `ExtensionRegistration.js`.
+   1. Lägg till funktionen `secondaryNav` som innehåller den asynkrona funktionen `getButtons` i avsnittet med metoder.
    1. `getButtons` ska ta emot ett objekt med följande struktur:
 
       ```
@@ -257,7 +257,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
    ```
 
 1. Konfigurera programroutning
-   1. Öppna `App.js`arkivera och konfigurera vägarna så att de innehåller de nya funktionerna. Du måste ange vägar för standardvyn och eventuella ytterligare vyer som granskningssidan. Så här definierar du dessa vägar:
+   1. Öppna filen `App.js` och konfigurera vägarna så att de innehåller de nya funktionerna. Du måste ange vägar för standardvyn och eventuella ytterligare vyer som granskningssidan. Så här definierar du dessa vägar:
 
       ```
           <Route index element={<ExtensionRegistration />} />
@@ -266,7 +266,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
       ```
 
 1. Åtkomst till dokumentinformation
-   1. Implementera den angivna funktionen `document.getDocumentDetails` i programmet för att hämta viktiga dokumentspecifikationer. Den här funktionen hämtar ett objekt som innehåller `docId` och `docvId`, tillsammans med `sharedContext` objekt med `hostname`, `protocol`och autentiseringsinformation. Se till att programmet hanterar dessa data på rätt sätt.
+   1. Implementera den tillhandahållna funktionen `document.getDocumentDetails` i programmet för att hämta viktiga dokumentspecifikationer. Den här funktionen hämtar ett objekt som innehåller `docId` och `docvId`, tillsammans med ett `sharedContext`-objekt med `hostname`, `protocol` och autentiseringsinformation. Se till att programmet hanterar dessa data på rätt sätt.
 
 1. Integrera datainhämtning i era komponenter
    1. Lägg till en ny komponent i programmets komponentmapp. I den här komponenten upprättar du en anslutning till Workfront för att hämta dokumentinformation och autentiseringsdata via anslutningen som upprättats med värdprogrammet. Här är ett exempel på hur du kan strukturera komponenten för att hantera detta:
@@ -308,7 +308,7 @@ Adobe tillhandahåller en CLI med öppen källkod som kan användas för att ska
           export default Review;
       ```
 
-## Publicera program
+## Publish-program
 
 >[!IMPORTANT]
 >
@@ -321,11 +321,11 @@ För att ett gästprogram ska kunna läsas in i Workfront måste programmet skic
    1. `aio app deploy `
 
 1. Navigera till [https://developer-stage.adobe.com/](https://developer-stage.adobe.com/) eller [https://developer.adobe.com/](https://developer.adobe.com/).
-   1. Klicka **Konsol** längst upp till höger.
+   1. Klicka på **Konsol** i det övre högra hörnet.
 
 1. Hitta det projekt som du använde för att skapa AppBuilder-programmet.
 
-1. Välj produktionsytan.
+1. Välj Production Workspace.
    ![](assets/find-application.png)
 
 1. Skicka in programmet för privat granskning (du får varningar om att vi inte publicerar på marknadsplatsen för apputbyte, vilket är bra).
@@ -341,7 +341,7 @@ För att ett gästprogram ska kunna läsas in i Workfront måste programmet skic
 
 1. Som systemadministratör går du till [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) eller [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
-1. Klicka **Hantera** > **Experience Cloud-program**. Du bör se de skickade apparna med alternativ för att godkänna/avvisa.
+1. Klicka på **Hantera** > **Experience Cloud-program**. Du bör se de skickade apparna med alternativ för att godkänna/avvisa.
 När de publicerade programtilläggen har godkänts bör de automatiskt läsas in i din Workfront-miljö.
 
    ![](assets/approve-submission.png)
@@ -362,8 +362,8 @@ Här är några praktiska länkar:
 
 När du utvecklar ditt App Builder-program för Workfront kanske du behöver testa din app i Workfront utan att publicera den. Som tur är har vi en lösning för detta.
 
-I appen App Builder kan du initiera `aio app run` för lokal utveckling. Detta ger dig en URL, vanligtvis något som `https://localhost:9080`. Du kan även köra `aio app deploy` för att få en statisk Adobe-domän. Observera dessa URL:er för framtida bruk.
+I din App Builder-app kan du initiera `aio app run` för lokal utveckling. Detta ger dig en URL, vanligtvis något som `https://localhost:9080`. Du kan också köra `aio app deploy` för att hämta en statisk Adobe-domän. Observera dessa URL:er för framtida bruk.
 
-Gå sedan till den specifika dokumentinformationssida som du vill utveckla för i webbläsaren. Öppna utvecklarverktygen och gå till Lokal lagring för antingen workfront.com eller workfront.adobe.com. Här måste du lägga till en post. Använd `appBuilderDocDetailsOverride` som nyckel och tidigare angiven URL för appbyggaren som värde.
+Gå sedan till den specifika dokumentinformationssida som du vill utveckla för i webbläsaren. Öppna utvecklarverktygen och gå till Lokal lagring för antingen workfront.com eller workfront.adobe.com. Här måste du lägga till en post. Använd `appBuilderDocDetailsOverride` som nyckel och den tidigare angivna URL:en för appbyggaren som värde.
 
-När du läser in sidan igen visas knapparna från ditt App Builder-program. Om du klickar på de här knapparna kan du se hur appen fungerar.
+När du läser in sidan igen visas knapparna från App Builder-programmet. Om du klickar på de här knapparna kan du se hur appen fungerar.

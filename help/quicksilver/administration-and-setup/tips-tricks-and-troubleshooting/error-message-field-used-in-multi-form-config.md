@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1175'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
@@ -20,15 +20,15 @@ ht-degree: 0%
 
 ## Problem
 
-När du ändrar en beräkning för ett beräknat anpassat fält i ett anpassat formulär, [!DNL Adobe Workfront] kan visa följande varning:
+När du ändrar en beräkning för ett beräknat anpassat fält i ett anpassat formulär kan [!DNL Adobe Workfront] visa följande varning:
 
 Det finns ett litet problem
 
-[Fältet] används i en konfiguration med flera formulär. Om du vill ändra den här formeln måste du ta bort det här fältet och ersätta det med ett nytt som innehåller den önskade beräkningen.
+[Fältet ] används i en konfiguration med flera formulär. Om du vill ändra den här formeln måste du ta bort det här fältet och ersätta det med ett nytt som innehåller den önskade beräkningen.
 
 ## Orsak
 
-Minst två anpassade formulär som innehåller det beräknade anpassade fältet som du försöker ändra bifogas till ett enda objekt i [!DNL Workfront] -instans.
+Minst två anpassade formulär som innehåller det beräknade anpassade fältet som du försöker ändra är kopplade till ett enskilt objekt i [!DNL Workfront]-instansen.
 
 **Exempel:** Anpassade formulär A och B är båda kopplade till samma uppgift. Båda formulären innehåller ett beräknat anpassat fält med namnet Vinst. Felet uppstår när du försöker redigera beräkningen i fältet Vinst i det anpassade formuläret A.
 
@@ -43,40 +43,40 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
 ## Hitta det objekt som de anpassade formulären är kopplade till {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
 1. Klicka på **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]**.
-1. Använd **[!UICONTROL Field List]** för att hitta det beräkningsfält som du försöker ändra och för att anteckna alla anpassade formulär som det används i (t.ex. formulär 1, formulär 2, formulär 3).
-1. Klicka **[!UICONTROL Forms]** och sedan använda **[!UICONTROL Form List]** vy.
-1. Klicka på **[!UICONTROL Filter]** nedrullningsbar lista och **[!UICONTROL New Filter]**.
+1. Använd vyn **[!UICONTROL Field List]** för att hitta det beräknade fält som du försöker ändra och notera alla anpassade formulär som det används i (t.ex. formulär 1, formulär 2, formulär 3).
+1. Klicka på **[!UICONTROL Forms]** och använd sedan vyn **[!UICONTROL Form List]**.
+1. Klicka på listrutan **[!UICONTROL Filter]** och sedan på **[!UICONTROL New Filter]**.
 
-1. Klicka **[!UICONTROL Add a Filter Rule]** börjar du sedan skriva &quot;anpassat formulärnamn&quot; och väljer det här värdet när det visas i listan.
-1. Välj **[!UICONTROL Equal]** för filtermodifieraren börjar du skriva namnet på varje formulär som du antecknade i steg 1 och markerar det när det visas.
+1. Klicka på **[!UICONTROL Add a Filter Rule]** och börja sedan skriva &quot;anpassat formulärnamn&quot; och välj det här värdet när det visas i listan.
+1. Välj **[!UICONTROL Equal]** som filtermodifierare och börja skriva namnet på alla formulär som du har antecknat i steg 1. Markera det när det visas.
 
-   **Exempel:** Anpassat formulärnamn är lika med formulär 1, formulär 2, formulär 3.
+   **Exempel:** Eget formulärnamn är lika med formulär 1, formulär 2, formulär 3.
 
-1. Klicka **[!UICONTROL Save Filter]** och namnge sedan det nya filtret och klicka på **[!UICONTROL Save Filter]**.
+1. Klicka på **[!UICONTROL Save Filter]**, ge det nya filtret ett namn och klicka på **[!UICONTROL Save Filter]**.
 
-1. Observera objekttypen för filtret, till exempel Aktivitet eller Problem, som visas i listan över formulär **[!UICONTROL Type]** kolumn.
+1. Observera objekttypen för filtret, till exempel Uppgift eller Problem, som visas i kolumnen **[!UICONTROL Type]** i formulärlistan.
 1. För varje anpassat formulär som du hittade i steg 1 skapar du ett nytt anpassat kryssrutefält med standardvärdet Ja.
 
    **Exempel:** Fält 1 i formulär 1 = Ja, fält 2 i formulär 2 = Ja, fält 3 i formulär 3 = Ja. Det betyder&quot;Det beräknade anpassade fältet finns i formulär 1&quot; eller&quot;Det beräknade anpassade fältet finns i formulär 2&quot; och så vidare.
 
-1. I **[!UICONTROL Search icon]** ![](assets/search-icon.png) i skärmens övre högra hörn klickar du på **[!UICONTROL Advanced Search]**.
-1. Klicka på objektet i det anpassade formuläret (till exempel Problem) och klicka på **[!UICONTROL Filter your results]** och sedan klicka **[!UICONTROL Add a filter]**.
-1. Börja skriva namnet på ett kryssrutefält i dialogrutan **[!UICONTROL Start typing field name]** och markera det när det visas i listan och markera sedan **[!UICONTROL Equal]** och text **[!UICONTROL Yes]** (utan citattecken) i följande ruta.
+1. Klicka på **[!UICONTROL Advanced Search]** i **[!UICONTROL Search icon]** ![](assets/search-icon.png) i skärmens övre högra hörn.
+1. Klicka på objektet för det anpassade formuläret (till exempel Problem), klicka på **[!UICONTROL Filter your results]** och sedan på **[!UICONTROL Add a filter]**.
+1. Börja skriva namnet på ett kryssrutefält i fältet **[!UICONTROL Start typing field name]** och markera det när det visas i listan. Markera sedan **[!UICONTROL Equal]** och skriv **[!UICONTROL Yes]** (utan citattecken) i följande ruta.
 
    **Exempel:** Fält 1 är lika med (skiftlägeskänsligt) Ja.
 
-1. Klicka **[!UICONTROL Add a Filter]** och lägg till alla kryssrutefält i den avancerade sökningen.
+1. Klicka på **[!UICONTROL Add a Filter]** och lägg till alla kryssrutefält i den avancerade sökningen.
 
    Leta efter alla möjliga kombinationer.
 
-   **Exempel:** Bygg flera filter med de kombinationer du hittar enligt nedan. Du bör söka efter objekt med flera kopplade anpassade formulär som innehåller samma beräkningsfält. Följande scenarier kan finnas:
+   **Exempel:** Skapa flera filter med kombinationerna som du hittar, enligt nedan. Du bör söka efter objekt med flera kopplade anpassade formulär som innehåller samma beräkningsfält. Du kan hitta följande scenarier:
 
    * Fält 1= Ja + fält 2 = Ja + fält 3 = Ja (t.ex. inga objekt)
    * Fält 1= Ja + fält 2 = Ja (t.ex. inga objekt)
-   * Fält 1= Ja + fält 3 = Ja (t.ex. två objekt)
+   * Fält 1= Ja + fält 3 = Ja (till exempel två objekt)
 
    Det innebär att beräkningsfältet finns både i formulär 1 och i formulär 3, eftersom motsvarande kryssrutefält (fält 1 och fält 3) finns på dessa objekt.
 
@@ -90,16 +90,16 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
 ## Ta bort ett av de anpassade formulären från objektet och redigera beräkningen där {#remove-one-of-the-custom-forms-from-the-object-and-edit-the-calculation-there}
 
-1. Hitta det objekt som de anpassade formulären är kopplade till, vilket förklaras i [Hitta det objekt som de anpassade formulären är kopplade till](#find-the-object-where-the-custom-forms-are-attached) öppna objektet i den här artikeln.
+1. Leta reda på objektet där de anpassade formulären är kopplade, enligt beskrivningen i [Sök efter objektet där de anpassade formulären är kopplade](#find-the-object-where-the-custom-forms-are-attached) i den här artikeln och öppna sedan objektet.
 1. Ta bort ett av de anpassade formulären från objektet och spara sedan objektet.
 
    >[!NOTE]
    >
    >Om du vill lägga till fälten från det formulär som du har tagit bort från objektet kan du behöva redigera det anpassade formuläret som fortfarande är kopplat till objektet. På så sätt kan du bevara den anpassade datainformationen för objektet.
 
-1. I det anpassade formuläret som du tog bort redigerar du beräkningen för det anpassade fält som du ursprungligen försökte uppdatera och klickar sedan på **[!UICONTROL Save]**.
+1. Redigera beräkningen för det anpassade fält som du ursprungligen försökte uppdatera i det anpassade formuläret som du tog bort och klicka sedan på **[!UICONTROL Save]**.
 
-   Den här gången [!DNL Workfront] ska inte stöta på en konflikt.
+   Den här gången ska [!DNL Workfront] inte stöta på någon konflikt.
 
 1. (Valfritt) Ta bort kryssrutefälten från anpassade formulär eller ta bort dem från [!DNL Workfront].
 
@@ -107,9 +107,9 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
 >[!IMPORTANT]
 >
->Data förloras i de objekt där det anpassade formuläret redan är bifogat när du följer dessa steg. Om beräkningsfältet refererar till statiska fält, inte beräknade fält, kan du använda [!UICONTROL Recalculate Custom Expressions] alternativ på objektet för att återställa förlorade data
+>Data förloras i de objekt där det anpassade formuläret redan är bifogat när du följer dessa steg. Om beräkningsfältet refererar till statiska fält, inte beräknade fält, kan du använda alternativet [!UICONTROL Recalculate Custom Expressions] för objektet för att återställa förlorade data
 
-1. Hitta det objekt som de anpassade formulären är kopplade till, vilket förklaras i [Hitta det objekt som de anpassade formulären är kopplade till](#find-the-object-where-the-custom-forms-are-attached) i den här artikeln.
+1. Hitta det objekt där de anpassade formulären är kopplade, enligt beskrivningen i [Hitta det objekt där de anpassade formulären är kopplade](#find-the-object-where-the-custom-forms-are-attached) i den här artikeln.
 1. Ta bort fältet från alla anpassade formulär som är kopplade till objektet och spara sedan formulären.
 
 1. Lägg till det anpassade fältet som innehåller den nya beräkningen i de anpassade formulären.
@@ -124,8 +124,8 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
 Så här undviker du att förlora data i det befintliga beräknade anpassade fältet eller om du behöver göra den redigerade beräkningen i endast ett av de anpassade formulären som är kopplade till det objekt du hittade:
 
-1. Hitta det objekt som de anpassade formulären är kopplade till, vilket förklaras i [Hitta det objekt som de anpassade formulären är kopplade till](#find-the-object-where-the-custom-forms-are-attached) i den här artikeln.
-1. Lägg till ett nytt beräknat anpassat fält som innehåller beräkningen som du behöver för ett eller alla formulär.
+1. Hitta det objekt där de anpassade formulären är kopplade, enligt beskrivningen i [Hitta det objekt där de anpassade formulären är kopplade](#find-the-object-where-the-custom-forms-are-attached) i den här artikeln.
+1. Lägg till ett nytt beräknat anpassat fält som innehåller beräkningen som du behöver i ett eller alla formulär.
 1. Byt namn på det gamla beräknade anpassade fältet **Föråldrad**.
 
    På alla formulär som bifogats objektet bevarar det här äldre beräknade anpassade formuläret sina historiska data, men användarna slutar använda dem.
@@ -150,6 +150,5 @@ Så här undviker du att förlora data i det befintliga beräknade anpassade fä
 <p>Remove the field from the custom form and replace it with a new one containing the desired calculation.  </p>
 <p>To understand what custom forms are attached to objects, you can build a report for those objects and reference the Category Name field in the view of the report.<br>For more information about referencing custom forms in reports, see the "Referencing Custom Forms in a Report View (Column)" section in <a href="../../reports-and-dashboards/reports/creating-and-managing-reports/reference-custom-form-report.md" class="MCXref xref" xrefformat="{para}">Reference a custom form in a report</a>.</p>
 <p>To understand what custom form contains a Custom Field, see the "Accessing Custom Forms and Fields" section in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md" class="MCXref xref" xrefformat="{para}">Custom forms overview</a>.</p>
-<p>For more information about creating a custom form and adding or removing fields from it, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.</p>
 </blockquote>
 -->

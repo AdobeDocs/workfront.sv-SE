@@ -45,11 +45,11 @@ Du kan använda API:t för att migrera länkade mappar och dokument till Adobe E
 
 ## API-information
 
-Mer information om Workfront API:er finns i det här avsnittet [dokumentation för utvecklare:dokument](https://developer.workfront.com/documents.html).
+Mer information om Workfront API:er finns i [Utvecklardokumentation:Dokument](https://developer.workfront.com/documents.html).
 
 ### Sök efter alla dokument
 
-Sök alla **Dokument (DOCU)** Länkad till **Dokumentleverantör** av **providerType** med **documentProviderID**.
+Sök efter alla **dokument (DOCU)** som är länkade till **dokumentprovidern** för **providerType** med **documentProviderID**.
 
 ```
 Http Method: GET
@@ -61,7 +61,7 @@ Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&c
 
 ### Söka efter alla mappar
 
-Sök alla **Dokumentmappar (DOCFDR)** Länkat till dokumentprovidern för **providerType** med **documentProviderID**.
+Sök efter alla **dokumentmappar (DOCFDR)** som är länkade till dokumentprovidern för **providerType** med **documentProviderID**.
 
 ```
 Http Method: GET
@@ -73,7 +73,7 @@ API DOCS: (Slutpunkter för dokumentmapp som för närvarande inte omfattas på 
 
 ### Länka dokument
 
-Länk **Dokument (DOCU)** från **Extern dokumentprovider** av **providerType** med **documentProviderID**.
+Länka **Dokument (DOCU)** från **extern dokumentprovider** för **providerType** med **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -92,7 +92,7 @@ API DOCS: (interna länkslutpunkter som för närvarande inte omfattas på devel
 
 ### Länka mappar
 
-Länk **Dokumentmappar (DOCFDR)** från **Extern dokumentprovider** av **providerType** med **documentProviderID**.
+Länka **Dokumentmappar (DOCFDR)** från **extern dokumentprovider** för **providerType** med **documentProviderID**.
 
 >[!IMPORTANT]
 >
@@ -116,21 +116,21 @@ API DOCS: (interna länkslutpunkter som för närvarande inte omfattas på devel
 
 ## Viktiga termer
 
-* **Dokument**: En digital resurs inom Workfront
+* **Dokument**: En digital resurs i Workfront
 
 * **Dokumentmapp**: En behållare för digitala resurser i Workfront
 
 * **Dokument-ID**: Workfront internt ID för en digital resurs
 
-* **Dokumentmapp-ID**: Workfront internt ID för en digital resursmapp
+* **ID för dokumentmapp**: Workfront internt ID för en digital resursmapp
 
-* **Dokumentleverantörs-ID**: ID kopplat till specifika dokumentleverantörer
+* **Dokumentleverantörs-ID**: ID associerat med specifika dokumentleverantörer
 
 >[!IMPORTANT]
 >
 > För varje given dokumentprovidertyp kan kunden ha flera anslutna instanser. De kan till exempel ha flera AEM databaser länkade. Eller flera länkade Google Drive-instanser. Dokumentleverantörens ID anger den specifika instansen av anslutningstypen som du vill ersätta eller växla till.
 
-* **Typ av dokumentlagringsprovider (även &quot;extern integreringstyp&quot;)**: Den typ av dokumentlagringsleverantörsintegrering som Workfront stöder. Antingen via en dedikerad integrering eller en&quot;anpassad integrering&quot;.
+* **Typ av dokumentlagringsprovider (även &quot;extern integreringstyp&quot;)**: Den typ av dokumentlagringsproviderintegration som Workfront stöder. Antingen via en dedikerad integrering eller en&quot;anpassad integrering&quot;.
 
 * **Aktuella dokumentlagringsprovidertyper (providerType)**:
 
@@ -152,9 +152,9 @@ API DOCS: (interna länkslutpunkter som för närvarande inte omfattas på devel
   MOCK
   ```
 
-* **Länkat dokument**: En digital resurs som lagras hos en extern dokumentlagringsleverantör. Workfront har ett internt&quot;dokument-ID&quot; för resursen, men byten lagras externt. För att underlätta detta lagrar Workfront även ett &quot;externt dokument-ID&quot; som hjälp att hitta den externt refererade resursen i fjärrdatabasen eller fjärrbutiken.
+* **Länkat dokument**: En digital resurs på en extern dokumentlagringsleverantör. Workfront har ett internt&quot;dokument-ID&quot; för resursen, men byten lagras externt. För att underlätta detta lagrar Workfront även ett &quot;externt dokument-ID&quot; som hjälp att hitta den externt refererade resursen i fjärrdatabasen eller fjärrbutiken.
 
-* **Mappen Länkat dokument**: En behållare för digitala resurser som lagras hos en extern dokumentlagringsleverantör. Workfront kommer att ha ett internt &quot;dokumentmapp-ID&quot; för resursen, men byten lagras externt. För att underlätta detta lagrar Workfront även ett &quot;externt dokument-ID&quot; som hjälp att hitta den externt refererade resursen i fjärrdatabasen eller fjärrbutiken.
+* **Länkad dokumentmapp**: En behållare för digitala resurser på en extern dokumentlagringsleverantör. Workfront kommer att ha ett internt &quot;dokumentmapp-ID&quot; för resursen, men byten lagras externt. För att underlätta detta lagrar Workfront även ett &quot;externt dokument-ID&quot; som hjälp att hitta den externt refererade resursen i fjärrdatabasen eller fjärrbutiken.
 
 * **Externt dokument-ID**: ID tilldelas när resurser lagras utanför Workfront. Workfront mappar sin interna identifierare till den identifierare som används för att hitta resursen i det externa systemet via detta&quot;externa dokumentidentifierarfält&quot;. När du länkar ett dokument eller en mapp från en ny extern lagringsplats måste därför en ny extern dokumentidentifierare sättas samman i lämpligt format för att den externa dokumentleverantören ska kunna identifiera dokumentet i den nya databasen eller arkivet.
 
@@ -163,6 +163,6 @@ API DOCS: (interna länkslutpunkter som för närvarande inte omfattas på devel
   > Workfront har ännu ingen standard för externa dokumentidentifierare. En ny specifikation används för AEM ID, men för andra ID kan det externa dokument-ID:t ha olika former beroende på providertypen.
 
 
-* **Objekttyp**: Detta är endast en API-term för det här dokumentet. Det är en typ av generiskt objekt inom Workfront som du vill interagera med. I så fall interagerar du med dokument och mappar som har typerna &quot;DOCU&quot; respektive &quot;DOCFDR&quot;.
+* **Objekttyp**: Det här är en API-term som bara används i det här dokumentet. Det är en typ av generiskt objekt inom Workfront som du vill interagera med. I så fall interagerar du med dokument och mappar som har typerna &quot;DOCU&quot; respektive &quot;DOCFDR&quot;.
 
 * **Objekt-ID**: Den interna Workfront-identifieraren för det generiska objekt som du vill interagera med. Du kommer att interagera med dokument och mappar så att det blir antingen dokument-ID:t eller dokumentmapp-ID:t.

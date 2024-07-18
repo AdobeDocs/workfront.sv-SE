@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kan byta namn på grupperingar till något som är mer välbekant för användarna.
 
-Om du t.ex. använder standardgrupperingen Portfolio namn i en lista med projekt visas grupperingens namn som *Portfolio: Namn:`<name of portfolio>`*.
+Om du till exempel använder standardgrupperingen för Portfolio-namn på en lista med projekt, visas grupperingens namn som *Portfolio: Namn:`<name of portfolio>`*.
 
 ![](assets/grouping-unedited-name-350x167.png)
 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -74,14 +74,14 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här ändrar du visningsnamnet i en projektgruppering:
 
 1. Gå till en lista med projekt.
-1. Från **Gruppering** nedrullningsbar meny, välja **Ny gruppering**.
+1. Välj **Ny gruppering** i listrutan **Gruppering**.
 
-1. Klicka **Lägg till gruppering** och börja skriva &quot;Portfolio Name&quot; i dialogrutan **Först av:** markerar du det när det visas i listan.
+1. Klicka på **Lägg till gruppering** och börja skriva &quot;Portfolio-namn&quot; i fältet **Först av:**. Markera grupperingen när den visas i listan.
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Gör något av följande:
 
-   * Lägg till följande kod i den befintliga texten i **Gruppera din rapport** box:
+   * Lägg till följande kod i den befintliga texten som är tillgänglig i rutan **Gruppera din rapport**:
 
 
      `group.0.displayname=Your Value`
@@ -101,11 +101,11 @@ Så här ändrar du visningsnamnet i en projektgruppering:
 
      >[!TIP]
      >
-     >Du kan också lämna `group.0.name=` och `group.0.displayname=` tomma rader, i vilket fall grupperingen visar det värde som du grupperar efter.
+     >Du kan också lämna `group.0.name=`- och `group.0.displayname=`-raderna tomma. I så fall visar grupperingen det värde som du grupperar efter.
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. Klicka **Klar** sedan **Spara gruppering**.
+1. Klicka på **Klar** och sedan på **Spara gruppering**.
 
    Grupperingens standardnamn ändras enligt textlägesinformationen.

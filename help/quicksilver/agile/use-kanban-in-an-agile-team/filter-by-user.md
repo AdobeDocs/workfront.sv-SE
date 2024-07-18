@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Filtrera efter användare på [!UICONTROL Kanban] board
+# Filtrera efter användare på [!UICONTROL Kanban]-tavlan
 
-Du kan använda filtret på en [!UICONTROL Kanban] för att se vilka arbetsobjekt som är kopplade till andra användare och vilka som inte är tilldelade.
+Du kan använda filtret på en [!UICONTROL Kanban]-anslagstavla för att se vilka arbetsobjekt som är kopplade till andra användare och vilka som inte är tilldelade.
 
 ## Åtkomstkrav
 
@@ -35,30 +35,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Filtrera efter användare på Kanban-tavlan
 
-Filtrera en [!UICONTROL Kanban] bräda:
+Så här filtrerar du ett [!UICONTROL Kanban]-kort:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du sedan ett nytt Kanban-team i listrutan eller söker efter ett team i sökfältet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Kanban-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Gå till en [!UICONTROL Kanban] bräda.
-1. Klicka på [!UICONTROL Filter] nedrullningsbar meny till höger om [!UICONTROL Kanban] bräda.
+1. Gå till en [!UICONTROL Kanban]-anslagstavla.
+1. Klicka på den nedrullningsbara menyn [!UICONTROL Filter] till höger på [!UICONTROL Kanban]-panelen.
 1. Välj en eller flera användare eller **[!UICONTROL Unassigned]**.
 
    >[!NOTE]
    >
-   >* Kolumnsummorna ändras inte baserat på filtrerade resultat. Kolumnsummor visar summorna för alla arbetsobjekt på anslagstavlan. Högst femtio kort visas som standard, men du kan klicka **[!UICONTROL Show More]** för att visa ytterligare kort.
-   >* Filter används inte på [!UICONTROL Backlog] kolumn.
-
+   >* Kolumnsummorna ändras inte baserat på filtrerade resultat. Kolumnsummor visar summorna för alla arbetsobjekt på anslagstavlan. Maximalt femtio kort visas som standard, men du kan klicka på **[!UICONTROL Show More]** om du vill visa ytterligare kort.
+   >* Filter används inte på kolumnen [!UICONTROL Backlog].
 
 
    ![Filtrera efter användare](assets/filter-by-user-agile-nwe.png)

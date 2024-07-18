@@ -8,7 +8,8 @@ description: I Workfront-dokumentationen finns en tabell med information om vilk
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
+exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 0%
@@ -21,7 +22,7 @@ I Workfront-dokumentationen finns en tabell med information om vilka behörighet
 
 Om det inte finns någon rad i tabellen för åtkomstkrav i en viss artikel finns det inga krav av den typen för den åtgärden.
 
-Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Aktuellt&quot;. Detta beror på att Workfront går över till en ny prissättnings- och paketeringsmodell, där vissa organisationer arbetar enligt den nya modellen och andra fortfarande använder den nuvarande modellen. Kontakta Workfront-administratören för att ta reda på vilken modell din organisation använder. Information och länkar till information finns i [Åtkomstkravregistret](#the-access-requirements-table) i den här artikeln.
+Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Aktuellt&quot;. Detta beror på att Workfront går över till en ny prissättnings- och paketeringsmodell, där vissa organisationer arbetar enligt den nya modellen och andra fortfarande använder den nuvarande modellen. Kontakta Workfront-administratören för att ta reda på vilken modell din organisation använder. Information och länkar till information finns i avsnittet [Åtkomstkrav, tabell](#the-access-requirements-table) i den här artikeln.
 
 >[!NOTE]
 >
@@ -47,8 +48,8 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <li>Adobe Workfront går över till en ny prissättnings- och paketeringsmodell. Mer information om licenser finns i:
    <ul>
    <li>Nytt: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Översikt över nya licenser</a></li>
-   <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a></li></ul></li>
-   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.
+   <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licensöversikt</a></li></ul></li>
+   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -73,8 +74,8 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <li>Nytt: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Översikt över nya åtkomstnivåer</a></li>
    <li>Aktuell: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Översikt över åtkomstnivåer</a></li></ul></li>
     <li>Kontakta Workfront-administratören om du vill veta mer om din åtkomstnivå</li>
-    <li>Om du är Workfront-administratör kan du läsa <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a> om du vill veta mer om hur du ger åtkomst till specifika objekt på åtkomstnivån.</li>  
-   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</li>
+    <li>Om du är Workfront-administratör kan du läsa <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Konfigurera åtkomst till Adobe Workfront</a> om du vill veta mer om hur du beviljar åtkomst till specifika objekt på åtkomstnivån.</li>  
+   <li>Om du har rätt åtkomstnivå och fortfarande inte har åtkomst, frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</li>
     </td>
   </tr> 
   <tr> 
@@ -99,5 +100,3 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
   </tr> 
  </tbody> 
 </table>
-
-

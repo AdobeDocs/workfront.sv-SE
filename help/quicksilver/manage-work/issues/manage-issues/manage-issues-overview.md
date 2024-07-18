@@ -20,8 +20,8 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md)
-* [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
-* [Tilldela ärenden](../../../manage-work/issues/manage-issues/assign-issues.md)
+* [Översikt över att ändra problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Tilldela utgåvor](../../../manage-work/issues/manage-issues/assign-issues.md)
 * [Visa problem](../../../manage-work/issues/manage-issues/view-issues.md)
 * [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Redigera problem i en lista](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)

@@ -27,7 +27,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 ## Exportera en rapport
 
 1. Navigera till rapporten som du vill exportera.
-1. Klicka på knappen **Mer** icon ![](assets/more-icon-27x15.png), klicka **Exportera** väljer du sedan det filformat som du vill skapa.
+1. Klicka på ikonen **Mer** ![](assets/more-icon-27x15.png) i rapportrubriken, klicka på **Exportera** och välj sedan det filformat som du vill skapa.
 
    >[!NOTE]
    >

@@ -8,7 +8,7 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '508'
 ht-degree: 0%
 
 ---
@@ -35,11 +35,11 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
@@ -48,7 +48,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ta bort planer
 
@@ -68,18 +68,18 @@ Du kan ta bort en plan eller ta bort ett scenario i en plan.
 >Tänk på följande när du tar bort planer:
 >
 >* All information som rör planen tas också bort. Detta inkluderar alla scenarier och initiativ som är kopplade till planen, inklusive information om roller och kostnader för jobb. Denna information kan inte återställas.
->* Om planen innehåller ett publicerat scenario bevaras de projekt som är kopplade till de borttagna initiativen och [!DNL Scenario Planner] finns kvar i [!UICONTROL Project Details] -avsnitt.
+>* Om planen innehåller ett publicerat scenario bevaras de projekt som är länkade till de borttagna initiativen och området [!DNL Scenario Planner] finns kvar i avsnittet [!UICONTROL Project Details].
 >
->  Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom publicering i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 Så här tar du bort en plan:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
    En lista över planer visas.
 
 1. Klicka på namnet på en plan för att öppna den.
-1. Klicka på **[!UICONTROL More menu]** ![](assets/more-menu.png) till höger om planens namn och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
+1. Klicka på **[!UICONTROL More menu]** ![](assets/more-menu.png) till höger om plannamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
 
    Planen tas bort och du återgår till listan över planer.
 
@@ -94,7 +94,7 @@ Så här tar du bort en plan:
 >* Om vissa initiativ för scenariot publiceras bevaras projektet som är kopplat till initiativet och området för scenarioplanering finns kvar i de länkade projekten
 >* Om de publicerade initiativen finns i ett annat scenario finns de kvar i det scenariot, inklusive deras länk till projektet. När du publicerar dessa initiativ från andra scenarier uppdateras de länkade projekten med ny information från dessa scenarier.
 >
->  Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom publicering i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 Så här tar du bort ett scenario:
 
@@ -103,11 +103,11 @@ Så här tar du bort ett scenario:
    Som standard visas det inledande scenariot.
 
 1. Klicka på **[!UICONTROL Compare scenarios]**.
-1. Klicka på i det övre högra hörnet av scenariokortet på **[!UICONTROL More]** meny ![](assets/more-menu.png)och sedan klicka **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL More]**-menyn ![](assets/more-menu.png) i det övre högra hörnet av scenariokortet och klicka sedan på **[!UICONTROL Delete]**.
 
    Scenariot tas bort.
 
-1. Klicka **[!UICONTROL Save plan]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Save plan]** om du vill spara ändringarna.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -82,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workforts dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfornt-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du spelar in miniatyrbilder
 
@@ -115,8 +115,8 @@ Du kan lägga till en miniatyrbild på följande sätt:
 1. Klicka på arbetsytan för vars poster du vill lägga till miniatyrbilder och klicka sedan på posttypskortet.
 
    Då öppnas posttypssidan.
-1. Välj en tabellvy på menyn **Visa** listruta. Alla poster av den typ som du har markerat visas i en tabell.
-1. Håll markören över informationen i det primära fältet och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Miniatyrbild**.
+1. Välj en tabellvy i listrutan **Visa**. Alla poster av den typ som du har markerat visas i en tabell.
+1. Håll markören över informationen för det primära fältet, klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Miniatyrbild**.
 
    ![](assets/record-more-menu-expanded.png)
 
@@ -124,9 +124,9 @@ Du kan lägga till en miniatyrbild på följande sätt:
    >
    >   Det primära fältet är det fält som visas i den första kolumnen i en tabellvy. Det primära fältet är alltid fryst och kan inte döljas eller flyttas. Alternativet Miniatyrbilder är inte tillgängligt på menyn Mer när det primära fältet är ett formelfält.
 
-   The **Överför** öppnas som standard i **Spela in miniatyrbild** box.
+   Fliken **Överför** öppnas som standard i rutan **Spela in miniatyrbild**.
 
-   Mer information om att överföra miniatyrbilden finns i avsnittet [Lägga till en miniatyrbild till en post från informationssidan](#add-a-thumbnail-to-a-record-from-the-details-page) i den här artikeln, med början från steg 6. <!--see if this is accurate-->
+   Mer information om hur du överför miniatyrbilden finns i avsnittet [Lägg till en miniatyrbild till en post från informationssidan](#add-a-thumbnail-to-a-record-from-the-details-page) i den här artikeln, med början från steg 6. <!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ Du kan lägga till en miniatyrbild på följande sätt:
 1. Öppna en post genom att klicka på den i valfri vy.
 
    Förhandsvisningsrutan med information visas.
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) längst upp till höger.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet.
 
    Postens informationssida öppnas.
-1. Håll pekaren över miniatyrbilden eller ikonen ![](assets/record-thumbnail-icon-on-details-page.png)och klickar sedan på **Mer** meny ![](assets/more-menu.png) > **Redigera miniatyrbild**.
+1. Håll pekaren över miniatyrbilden eller ikonen ![](assets/record-thumbnail-icon-on-details-page.png) och klicka sedan på menyn **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild**.
 
-   The **Överför** öppnas som standard i **Spela in miniatyrbild** box.
+   Fliken **Överför** öppnas som standard i rutan **Spela in miniatyrbild**.
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ Du kan lägga till en miniatyrbild på följande sätt:
 
    eller
 
-   Klicka **Bläddra bland bilder** och bläddra sedan efter en bildfil att lägga till. Filen måste sparas på datorn.
+   Klicka på **Bläddra bland bilder** och bläddra sedan efter en bildfil som du vill lägga till. Filen måste sparas på datorn.
 
-1. (Valfritt) När bilden har överförts i **Spela in miniatyrbild** använder du storleksförändringsverktyget för att beskära och ändra storlek på bilden.
-1. (Valfritt) Klicka på **Överför ny bild** icon ![](assets/upload-new-image-icon.png) för att överföra en annan bild.
-1. (Valfritt) Klicka på **Galleri** och sedan klicka på en bild. Det går inte att ändra bildgalleriet.
+1. (Valfritt) När bilden har överförts i rutan **Spela in miniatyrbild** använder du storleksförändringsverktyget för att beskära och ändra storlek på bilden.
+1. (Valfritt) Klicka på ikonen **Överför ny bild** ![](assets/upload-new-image-icon.png) om du vill överföra en annan bild.
+1. (Valfritt) Klicka på fliken **Galleri** och sedan på en bild. Det går inte att ändra bildgalleriet.
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Valfritt) Om du vill ta bort miniatyren innan den sparas klickar du på **Ta bort** icon ![](assets/remove-image-icon.png) till höger om bilden.
+1. (Valfritt) Om du vill ta bort miniatyrbilden innan den sparas klickar du på ikonen **Ta bort** ![](assets/remove-image-icon.png) till höger om bilden.
 
-1. Klicka **Använd bild** om du vill lägga till bilden som en miniatyrbild.
-Detta stänger **Spela in miniatyrbild** box.
+1. Klicka på **Använd bild** om du vill lägga till bilden som en miniatyrbild.
+Då stängs rutan **Spela in miniatyrbild**.
 Miniatyrbilden visas i områden i Workfront Planning där posten visas.
 
    >[!TIP]
    >
    >   Du måste aktivera fältet Miniatyrbilder i tabellvyn om du vill visa miniatyrbilder i den här vyn. Det är inaktiverat som standard.
 
-1. (Valfritt) Om du vill ta bort miniatyrbilden när den har sparats klickar du på en post i valfri vy för att öppna informationssidan, håller pekaren över miniatyrbilden och klickar på **Mer** meny ![](assets/more-menu.png)> **Ta bort** icon ![](assets/remove-image-icon.png). Miniatyrbilden tas bort.
+1. (Valfritt) Om du vill ta bort miniatyrbilden när den har sparats klickar du på en post i valfri vy för att öppna informationssidan, håller pekaren över miniatyrbilden och klickar på **Mer**-menyn ![](assets/more-menu.png)> **Ta bort**-ikonen ![](assets/remove-image-icon.png) . Miniatyrbilden tas bort.
 
 
 

@@ -6,10 +6,11 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Forms moduler
-description: Med [!DNL Adobe Experience Manager Forms] anslutning för [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] konton, skapa, ladda upp och uppdatera resurser samt kopiera eller flytta mappar och resurser.
+description: Med  [!DNL Adobe Experience Manager Forms] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] account skapar, överför och uppdaterar du resurser samt kopierar eller flyttar mappar och resurser.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: c4e068729d8de4bef4b2018868e3fa020ca61a06
+exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 1%
@@ -18,9 +19,9 @@ ht-degree: 1%
 
 # [!DNL Adobe Experience Manager Forms] moduler
 
-Med [!DNL Adobe Experience Manager Forms] anslutning för [!DNL Adobe Workfront Fusion]kan du starta ett scenario baserat på händelser i [!DNL Adobe Experience Manager Forms] genom att skapa en webkrok.
+Med [!DNL Adobe Experience Manager Forms]-anslutningen för [!DNL Adobe Workfront Fusion] kan du starta ett scenario baserat på händelser i ditt [!DNL Adobe Experience Manager Forms]-konto genom att skapa en webkrok.
 
-Du kan konfigurera ett formulär i [!DNL Adobe Experience Manager Forms] för att skicka formulärinskickat material till den här webbhoten.
+Du kan konfigurera ett formulär i [!DNL Adobe Experience Manager Forms] för att skicka formuläröverföringar till den här webkroken.
 
 ## Åtkomstkrav
 
@@ -41,35 +42,35 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-* Du måste ha en [!DNL Adobe Experience Manager Forms] för att använda den här modulen.
+* Du måste ha ett [!DNL Adobe Experience Manager Forms]-konto för att kunna använda den här modulen.
 
 ## Skapa en anslutning till Adobe Experience Manager Forms
 
-Skapa en anslutning för [!DNL Adobe Experience Manager Forms] moduler:
+Så här skapar du en anslutning för dina [!DNL Adobe Experience Manager Forms]-moduler:
 
-1. Klicka **[!UICONTROL Add]** bredvid rutan Anslutning.
+1. Klicka på **[!UICONTROL Add]** bredvid rutan Anslutning.
 
 1. Fyll i följande fält:
 
@@ -111,19 +112,19 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Forms] moduler:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Ange [!DNL Adobe] Klient-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange ditt klient-ID för [!DNL Adobe]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Ange [!DNL Adobe] Klienthemlighet. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange din [!DNL Adobe]-klienthemlighet. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Org ID]</td>
-        <td>Ange [!DNL Adobe] Organisations-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange ditt organisations-ID för [!DNL Adobe]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Ange [!DNL Adobe] ID för tekniskt konto. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange ditt tekniska konto-ID för [!DNL Adobe]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -148,7 +149,7 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Forms] moduler:
               <p>Ange lösenordet för filen.</p>
             </li>
             <li value="5">
-              <p>Klicka <b>[!UICONTROL Save]</b> för att extrahera filen och återgå till anslutningsinställningarna.</p>
+              <p>Klicka på <b>[!UICONTROL Save]</b> för att extrahera filen och återgå till anslutningsinställningarna.</p>
             </li>
           </ol>
         </td>
@@ -156,7 +157,7 @@ Skapa en anslutning för [!DNL Adobe Experience Manager Forms] moduler:
     </tbody>
     </table>
 
-1. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
 ## Adobe Experience Manager Forms-modulen och dess fält
 
@@ -182,18 +183,7 @@ Med denna direktutlösare (webkrok) kan du starta ett scenario när en Skicka-å
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Experience Manager] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Experience Manager Forms]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Experience Manager]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Experience Manager Forms]</a></p> </td> 
   </tr>
 
 Modulen skapar en webbkrok och ger dig webbkrokadressen som du kan ange i dialogrutan för att skicka formulär i [!DNL Adobe Experience Manager Forms].
-
-
-
-
-
-
-
-
-
-
-

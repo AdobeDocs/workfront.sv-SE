@@ -8,7 +8,8 @@ title: Adobe Lightroom moduler
 description: Med Adobe Lightroom-modulerna kan du starta ett Adobe Workfront Fusion-scenario baserat på händelser i ditt Adobe Lightroom-konto.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: e99bd69c712a7685512eecc7fccc8211013a259d
+exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 <!--Add Connection info-->
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Lightroom], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Lightroom] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -53,22 +54,22 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
-      <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td>
+      <td>Din organisation måste köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</td>
     </tr>
     </tr>
   </tbody>
 </table>
 
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-&#42;&#42;För information om [!DNL Adobe Workfront Fusion] licenser, se [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Förutsättningar
 
-Innan du kan använda [!DNL Adobe Lightroom] måste du se till att följande krav uppfylls:
+Innan du kan använda [!DNL Adobe Lightroom]-anslutningen måste du se till att följande krav uppfylls:
 
-* Du måste ha en aktiv [!DNL Adobe Lightroom] konto.
+* Du måste ha ett aktivt [!DNL Adobe Lightroom]-konto.
 
 ## Skapa en anslutning till Adobe Lightroom
 
@@ -76,14 +77,14 @@ Innan du kan använda [!DNL Adobe Lightroom] måste du se till att följande kra
 
 ## Adobe Lightroom-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe Lightroom] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe Lightroom] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe Lightroom] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe Lightroom] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
 * [Övriga](#other)
-* [Resurser](#assets)
+* [Assets](#assets)
 * [Album](#albums)
 
 ### Övriga
@@ -101,7 +102,7 @@ Den här åtgärdsmodulen hämtar ett version-ID för Lightroom-servern som visa
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
@@ -120,7 +121,7 @@ Den här åtgärdsmodulen hämtar ett version-ID för Lightroom-servern som visa
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
@@ -131,7 +132,7 @@ Den här åtgärdsmodulen hämtar ett version-ID för Lightroom-servern som visa
   </tbody>
 </table>
 
-### Resurser
+### Assets
 
 * [Skapa en originalfil för en resurs](#create-an-asset-external-xmp-develop-setting-file)
 * [Skapa en resurs](#create-an-asset)
@@ -153,7 +154,7 @@ Den här åtgärdsmodulen skapar och överför en originalfil för en resurs.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -199,7 +200,7 @@ Den här åtgärdsmodulen skapar en ny resurs med initiala metadata och importin
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -250,7 +251,7 @@ Den här åtgärdsmodulen stöder två arbetsflöden. Det första arbetsflödet 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Length of content in bytes]</td>
@@ -295,7 +296,7 @@ Den här åtgärdsmodulen genererar återgivningar asynkront för en originalfil
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Rendition Type(s) (semi-colon separated)]</td>
@@ -334,7 +335,7 @@ Denna åtgärdsmodul hämtar information om en enskild resurs i en katalog. Kata
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -362,7 +363,7 @@ Den här åtgärdsmodulen hämtar den senaste inställningsfilen för externa XM
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -389,7 +390,7 @@ Den här åtgärdsmodulen hämtar den senaste resursåtergivningen av den angivn
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -422,7 +423,7 @@ Den här åtgärdsmodulen hämtar resurser som ägs av användaren vars autentis
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -445,7 +446,7 @@ Den här åtgärdsmodulen hämtar resurser som ägs av användaren vars autentis
     <tr>
       <td role="rowheader">[!UICONTROL Maximum number of returned assets]</td>
       <td>
-        <p>Ange maximalt antal resurser som [!DNL Workfront Fusion] returneras under en körningscykel. Talet måste vara mindre än eller lika med 100.</p>
+        <p>Ange det maximala antalet resurser som [!DNL Workfront Fusion] ska returnera under en körningscykel. Talet måste vara mindre än eller lika med 100.</p>
       </td>
     </tr>
     <tr>
@@ -519,7 +520,7 @@ Den här åtgärdsmodulen lägger till en eller flera resurser i det angivna alb
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -536,7 +537,7 @@ Den här åtgärdsmodulen lägger till en eller flera resurser i det angivna alb
     <tr>
       <td role="rowheader">[!UICONTROL Assets]</td>
       <td>
-        <p>För varje resurs som du vill lägga till i albumet klickar du på <b>Lägg till objekt</b> och ange följande fält.</p>
+        <p>För varje resurs som du vill lägga till i albumet klickar du på <b>Lägg till objekt</b> och anger följande fält.</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
@@ -577,7 +578,7 @@ Den här åtgärdsmodulen skapar ett nytt album i Lightroom.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -665,7 +666,7 @@ Den här åtgärdsmodulen skapar ett nytt album i Lightroom.
 
 Den här åtgärdsmodulen tar bort ett album.
 
-Det borttagna albumet måste ha skapats av samma klientprogram som nu tar bort det, och det måste vara av undertyp `project` eller `project_set`.
+Det borttagna albumet måste ha skapats av samma klientprogram som nu tar bort det, och det måste vara av undertypen `project` eller `project_set`.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -673,7 +674,7 @@ Det borttagna albumet måste ha skapats av samma klientprogram som nu tar bort d
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -706,7 +707,7 @@ Den här åtgärdsmodulen hämtar angivet album
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -739,7 +740,7 @@ Den här åtgärdsmodulen hämtar en lista med album i den angivna katalogen.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -762,7 +763,7 @@ Den här åtgärdsmodulen hämtar en lista med album i den angivna katalogen.
     <tr>
       <td role="rowheader">[!UICONTROL Maximum number of returned albums]</td>
       <td>
-        <p>Ange maximalt antal resurser som [!DNL Workfront Fusion] returneras under en körningscykel. Standardvärdet för det här fältet är 100.Den här modulen kan returnera fler album än den här gränsen om flera album vid gränsen har samma <code>name_after</code> värde.</p>
+        <p>Ange det maximala antalet resurser som [!DNL Workfront Fusion] ska returnera under en körningscykel. Standardvärdet för det här fältet är 100. Den här modulen kan returnera fler album än den här gränsen om flera album vid gränsen har samma <code>name_after</code>-värde.</p>
       </td>
     </tr>
   </tbody>
@@ -772,7 +773,7 @@ Den här åtgärdsmodulen hämtar en lista med album i den angivna katalogen.
 
 Den här åtgärdsmodulen uppdaterar det angivna albumet.
 
-Det uppdaterade albumet måste ha skapats av samma klientprogram som uppdaterar det, och det måste vara av undertyp `project` eller `project_set`.
+Det uppdaterade albumet måste ha skapats av samma klientprogram som nu uppdaterar det, och det måste vara av undertypen `project` eller `project_set`.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -780,7 +781,7 @@ Det uppdaterade albumet måste ha skapats av samma klientprogram som uppdaterar 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom], se <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Lightroom] finns i <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Lightroom]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -802,13 +803,3 @@ Det uppdaterade albumet måste ha skapats av samma klientprogram som uppdaterar 
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i allmänna delar av Workfront med version 2020.1. Dessa förbättringar är för närvarande tillgängliga i förhandsvisningsmiljön och kommer att vara tillgängliga i produktionsmiljön i slutet av mars eller början av april 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.1 finns på [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2020.1 versionsöversikt](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Ändringar som krävs för att lägga till korrektur i tillåtelselista
 
@@ -32,19 +32,19 @@ Om din brandvägg eller e-postserver är konfigurerad att endast tillåta åtkom
 
 &#42;.workfront.com
 
-The &#42;proofhq.com URL krävs fortfarande.
+URL:en för &#42;proofhq.com krävs fortfarande.
 
-Mer information om hur du uppdaterar tillåtelselista finns i [Konfigurera brandväggens tillåtelselista](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Mer information om hur du uppdaterar tillåtelselista finns i [Konfigurera tillåtelselista för brandväggen](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Den här uppdateringen gäller endast för korrektur i Workfront. Den gäller inte om du använder det fristående programmet Workfront Proof.
+>Den här uppdateringen gäller endast för korrektur i Workfront. Den gäller inte när du använder Workfront Proof fristående program.
 
 ## Workfront cookie-beteende har uppdaterats för att bibehålla kompatibilitet med Chrome
 
 För att bibehålla kompatibiliteten med en kommande Google Chrome-uppdatering (Chrome v80) har vi uppdaterat Workfront-plattformen så att cookies skickas på rätt sätt med begäranden.
 
-Den här Chrome-uppdateringen ändrar standardvärdet för cookie-attributet SameSite. Om du vill testa hur din Workfront-instans fungerar efter uppdateringen av Google Chrome justerar du flaggorna i Chrome och aktiverar följande alternativ:
+Den här Chrome-uppdateringen ändrar standardvärdet för cookie-attributet SameSite. Om du vill testa hur din Workfront-instans fungerar efter Google Chrome-uppdateringen justerar du flaggorna i Chrome och aktiverar följande alternativ:
 
 * &quot;SameSite som standard cookies&quot;
 * &quot;Cookies utan SameSite måste vara säkra&quot;
@@ -63,4 +63,4 @@ Vi har tagit bort möjligheten att växla mellan den nya och den gamla (baserat 
 
 Mer information om portföljoptimeraren finns på https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Mer information om hur du ersätter Flash-baserade verktyg i Workfront finns i [Ersättning av verktyg baserade på Flash i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Mer information om hur du ersätter Flash-baserade verktyg i Workfront finns i [Ersättning av Flash-baserade verktyg i Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

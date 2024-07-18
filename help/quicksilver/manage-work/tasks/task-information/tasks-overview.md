@@ -38,7 +38,7 @@ Du kan dela upp en uppgift som är större i omfånget i flera mindre uppgifter 
 
 Beroende på vilket sammanfattande slutförningsläge som används i projektet kan du eventuellt slutföra en överordnad uppgift oberoende av dess underordnade uppgifter. Som standard kan du inte slutföra eller uppdatera en överordnad uppgift oberoende av dess underordnade.
 
-Mer information om läget Sammanfattning av projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+Mer information om läget Sammanfattande slutförande av projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Översikt över underaktiviteter eller underordnade uppgifter
 
@@ -46,7 +46,7 @@ Underaktiviteter eller underordnade uppgifter är uppgifter som listas under en 
 
 Mer information om överordnade uppgifter finns i [Översikt över överordnade uppgifter](#overview-of-parent-tasks) i den här artikeln.
 
-Mer information om hur du skapar en underordnad uppgift finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Mer information om hur du skapar en underordnad aktivitet finns i [Skapa aktiviteter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Översikt över uppgifter på den översta nivån
 
@@ -62,4 +62,4 @@ Du kan uppdatera och slutföra arbetsuppgifter utan att påverka uppdatering ell
 
 ## Återkommande uppgifter
 
-Om du har en uppgift som inträffar upprepade gånger kan du skapa den som en återkommande uppgift med flera återkommande aktiviteter. Mer information om återkommande uppgifter finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Om du har en uppgift som inträffar upprepade gånger kan du skapa den som en återkommande uppgift med flera återkommande aktiviteter. Mer information om återkommande aktiviteter finns i [Översikt över återkommande aktiviteter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

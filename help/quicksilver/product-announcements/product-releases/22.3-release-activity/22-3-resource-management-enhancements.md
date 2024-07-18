@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 2.3 Förbättrad resurshantering
 
-Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [22.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [2.3 versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Sorteringsinställningar och användbarhetsförbättringar i Utjämning av arbetsbelastning
 
@@ -32,5 +32,5 @@ För att förbättra din upplevelse när du använder belastningsutjämnaren har
 * En uppdaterad, lättläst design för planerade datum.
 
 
-Mer information finns i [Navigera till arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Mer information finns i [Navigera i arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

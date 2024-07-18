@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2017.2 Beta 3 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
+description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 # 2017.2 Beta 3 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
+Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
 
 >[!IMPORTANT]
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2017.2 finns på [Aktivitetsöversikt för 2017.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2017.2 finns i [Översikt över versionsaktivitet för 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-Beta 2-versionen från 2017.2 innehåller förbättringar både för Workfront-administratörer och andra användare:
+2017.2 Beta 2 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer:**
 
-* [Återställa objekt i grupp från papperskorgen](#restoring-items-in-bulk-from-the-recycle-bin)
+* [Återställer objekt i grupp från papperskorgen](#restoring-items-in-bulk-from-the-recycle-bin)
 * [Användarinformationen synkroniseras från Workfront till KorrekturHQ (ProofHQ och Workfront)](#user-information-is-synchronized-from-workfront-to-proofhq-proofhq-and-workfront)
 
 **För alla användare:** 
@@ -36,11 +36,11 @@ Beta 2-versionen från 2017.2 innehåller förbättringar både för Workfront-a
 * [Visa prenumererade användare](#view-subscribed-users)
 * [Konfigurera hur milstolpar visas i Gantt-schemat](#configure-how-milestones-are-displayed-on-the-gantt-chart)
 * [Inkludera Gantt-schemats förklaring vid export till PDF](#include-the-gantt-chart-legend-when-exporting-to-pdf)
-* [Visa korrekturgodkännanden på arbetsytan (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
-* [Visa användarnamn när språkverifieringsbegäranden adresseras från Min arbetsyta (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
+* [Visa korrekturgodkännanden i Min arbetsyta (Workfront)](#view-proof-approvals-in-the-my-work-area-workfront)
+* [Visa användarnamn när språkverifieringsbegäranden från Min arbetsyta (Workfront) hanteras](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
 * [Förbättrat korrekturläsare för videokorrektur (ProofHQ och Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
-* [Visa korrektur för multimedia i alternativa upplösningar (ProofHQ och Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
-* [Nytt Korrekturskaparobjekt i dokumentversionsrapport (Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
+* [Visa korrektur för multimedia i alternativa upplösningar (Korrektur, HQ och Workfront)](#view-rich-media-proofs-in-alternate-resolutions-proofhq-and-workfront)
+* [Nytt Proof Creator-objekt i dokumentversionsrapport (Workfront)](#new-proof-creator-object-in-document-version-report-workfront)
 * [Ny resurspoolfunktion som tillfälligt tagits bort från förhandsgranskningen](#new-resource-pool-functionality-temporarily-removed-from-preview)
 
 ## Återställa objekt i grupp från papperskorgen {#restoring-items-in-bulk-from-the-recycle-bin}
@@ -49,7 +49,7 @@ Du kan nu återställa upp till 10 borttagna projekt, uppgifter, utgåvor eller 
 
 Före den här ändringen kunde du bara återställa ett borttaget objekt i taget.
 
-Mer information om hur du återställer objekt finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Mer information om hur du återställer objekt finns i [Återställa borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Visa prenumererade användare {#view-subscribed-users}
 
@@ -101,15 +101,15 @@ Det nya objektet Korrekturskapare i dokumentversionsrapporten innehåller alla f
 >
 > Den här informationen är endast tillgänglig i rapporten från den tidpunkt då den här funktionen först introducerades i respektive förhandsgransknings- eller produktionsmiljö. Information i rapporter om objektet Requester innan den här funktionen introducerades är inte tillgänglig.
 
-Du får åtkomst till objektet Korrekturskapare när du skapar en dokumentversionsrapport, enligt beskrivningen i [Skapa en anpassad rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Du kommer åt objektet Korrekturskapare när du skapar en dokumentversionsrapport, vilket beskrivs i [Skapa en anpassad rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Mer information om objektsrapporten för dokumentversionen finns i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) avsnitt i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objektrapporten för dokumentversionen finns i avsnittet [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Visa korrekturgodkännanden på arbetsytan (Workfront) {#view-proof-approvals-in-the-my-work-area-workfront}
 
-Alla korrekturgodkännanden som du har skickat in för godkännande visas nu på arbetsytan Mitt i **Arbete som jag har skickat in för godkännande** -fliken.
+Alla korrekturgodkännanden som du har skickat in för godkännande visas nu på arbetsytan Mitt i fliken **Arbete som jag har skickat in för godkännande**.
 
-Före den här ändringen **Arbete som jag har skickat in för godkännande** -fliken innehöll inte korrekturgodkännanden.
+Före den här ändringen fanns inga korrekturgodkännanden på fliken **Arbete som jag skickat in för godkännande**.
 
 Godkännanden av korrektur visas endast när följande villkor uppfylls:
 
@@ -117,13 +117,13 @@ Godkännanden av korrektur visas endast när följande villkor uppfylls:
 * Godkännandeprocessen tilldelas en användare som är en licensierad Workfront-användare (Godkännandeprocesser som tilldelats användare som inte är licensierade Workfront-användare visas inte)
 * Godkännandeprocesserna startades efter att den här funktionen släpptes (godkännandeprocesser som startades innan den här funktionen släpptes visas inte)
 
-Mer information finns i [Visa godkännanden](../../../../review-and-approve-work/manage-approvals/view-approvals.md) in [Visa godkännanden](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
+Mer information finns i [Visa godkännanden](../../../../review-and-approve-work/manage-approvals/view-approvals.md) i [Visa godkännanden](../../../../review-and-approve-work/manage-approvals/view-approvals.md).
 
 ## Visa användarnamn när språkverifieringsbegäranden adresseras från Min arbetsyta (Workfront) {#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront}
 
 När du godkänner korrekturgodkännanden från Min arbetsyta visas nu namnet på den användare som begärde godkännandet.
 
-Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Förbättrat korrekturläsare för videokorrektur (ProofHQ och Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 
@@ -149,7 +149,7 @@ Det nya korrekturläsaren är tillgänglig för test i följande förhandsvisnin
 
 * Workfront förhandsgranskningsmiljö, när ditt konto är aktiverat med språkkontroll
 
-  Mer information om Workfront Preview finns i  [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Mer information om Workfront Preview finns i  [Sandlådemiljön för Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 I den här versionen har det nya korrekturläsaren bara stöd för videofärgning. Det innebär att alla videokorrektur använder det nya korrekturläsaren, medan alla statiska korrektur- och multimediekorrektur fortfarande använder det befintliga korrekturläsaren.
 

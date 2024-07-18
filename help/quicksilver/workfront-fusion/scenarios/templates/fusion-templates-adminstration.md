@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Administrera Adobe Workfront Fusion Templates
-description: Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra de här åtgärderna från [!UICONTROL Templates] sidan i [!DNL Adobe Workfront Fusion Administration] område.
+description: Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra de här åtgärderna från sidan [!UICONTROL Templates] i området  [!DNL Adobe Workfront Fusion Administration] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] Malladministration
+# Administrering av [!DNL Adobe Workfront Fusion] mallar
 
-Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra de här åtgärderna från [!UICONTROL Templates] sidan i [!DNL Adobe Workfront Fusion Administration] område.
+Om du är administratör har du behörighet att visa, ändra, byta namn på, publicera, godkänna och ta bort mallar som skapats av andra. Du kan utföra dessa åtgärder från sidan [!UICONTROL Templates] i området [!DNL Adobe Workfront Fusion Administration].
 
 ## Åtkomstkrav
 
@@ -37,17 +37,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,50 +57,50 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Visa [!DNL Workfront Fusion] mallar som [!DNL Workfront Fusion] administratör
+## Visa [!DNL Workfront Fusion]-mallar som en [!DNL Workfront Fusion]-administratör
 
 Så här visar du en tabell över alla mallar som skapats och deras status:
 
-1. Klicka **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna [!UICONTROL Administration] område.
+1. Klicka på **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna området [!UICONTROL Administration].
 
    >[!NOTE]
    >
    >Administrationsområdet visas bara för Workfront Fusion-administratörer.
 
-1. Klicka **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
+1. Klicka på **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
 
 Det finns tre kolumner som är relaterade till mallens publiceringsstatus. En bock i en kolumn anger följande:
 
-* **[!UICONTROL Published]**: De här mallarna visas för närvarande i [!UICONTROL Team templates] i användargränssnittet.
-* **[!UICONTROL Requested approval]**: Mallarna väntar på ditt godkännande. De visas för närvarande i [!UICONTROL Team templates] i användargränssnittet.
-* **[!UICONTROL Approved]**: Mallarna har godkänts. De visas för närvarande i [!UICONTROL Public templates] i standardgränssnittet.
+* **[!UICONTROL Published]**: Dessa mallar visas för närvarande på fliken [!UICONTROL Team templates] i användargränssnittet.
+* **[!UICONTROL Requested approval]**: De här mallarna väntar på ditt godkännande. De visas för närvarande på fliken [!UICONTROL Team templates] i användargränssnittet.
+* **[!UICONTROL Approved]**: Dessa mallar har godkänts. De visas för närvarande på fliken [!UICONTROL Public templates] i standardanvändargränssnittet.
 
 >[!NOTE]
 >
->Mallar med bockmarkering i båda [!UICONTROL Requested approval] kolumn och i [!UICONTROL Approved] -kolumnen har redan godkänts och publicerats, men det finns en nyare version av dem som väntar på ditt godkännande.
+>Mallar med bockmarkeringen i både kolumnen [!UICONTROL Requested approval] och kolumnen [!UICONTROL Approved] har redan godkänts och publicerats, men det finns en nyare version av dem som väntar på ditt godkännande.
 
-## Redigera [!DNL Workfront Fusion] mallar som administratör
+## Redigera [!DNL Workfront Fusion]-mallar som administratör
 
-1. Klicka **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna [!UICONTROL Administration] område.
-1. Klicka **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
-1. Klicka **[!UICONTROL Detail]** till höger om mallen som du vill redigera.
+1. Klicka på **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna området [!UICONTROL Administration].
+1. Klicka på **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
+1. Klicka på **[!UICONTROL Detail]** till höger om mallen som du vill redigera.
 
-Du kan nu redigera mallen på liknande sätt som när du redigerar en mall som en icke-adminanvändare. I dialogrutan [!UICONTROL Options] i det övre högra hörnet finns det ytterligare ett alternativ - SVG-diagrammet som innehåller SVG-koden. Publiceringsprocessen är densamma som för en standardanvändare. Mer information finns i avsnittet Publicerings- och delningsmallar.
+Du kan nu redigera mallen på liknande sätt som när du redigerar en mall som en icke-adminanvändare. I [!UICONTROL Options] i det övre högra hörnet finns det dock ytterligare ett alternativ - SVG-diagrammet som innehåller SVG-koden. Publiceringsprocessen är densamma som för en standardanvändare. Mer information finns i avsnittet Publicerings- och delningsmallar.
 
 Mer information om särskilda mallalternativ som du kan redigera finns i [Skapa nya mallar i [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
 
-Mer information om publiceringsmallar finns i [Publicera och dela [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
+Mer information om publiceringsmallar finns i [Publish och dela [!DNL Adobe Workfront Fusion] mallar](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
 
-## Godkänn eller avslå [!DNL Workfront Fusion] mallar
+## Godkänn eller avgodkänn [!DNL Workfront Fusion] mallar
 
-Om du godkänner en mall visas den i [!UICONTROL Public templates] och är tillgängliga för alla användare. Om du avvisar en mall tas den bort från [!UICONTROL Public templates] och gör den tillgänglig endast för det team som skapade den.
+Om du godkänner en mall blir den synlig på fliken [!UICONTROL Public templates] och tillgänglig för alla användare. Om du avvisar en mall tas den bort från fliken [!UICONTROL Public templates] och blir bara tillgänglig för det team som skapade den.
 
-1. Klicka **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna [!UICONTROL Administration] område.
-1. Klicka **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
+1. Klicka på **[!UICONTROL Administration]** i den vänstra navigeringspanelen för att öppna området [!UICONTROL Administration].
+1. Klicka på **[!UICONTROL Templates]** i den vänstra navigeringspanelen.
 1. Om du vill godkänna en mall klickar du på **[!UICONTROL Approve]** till höger om mallen.
 1. Om du inte vill godkänna en mall klickar du på **[!UICONTROL Disapprove]** till höger om mallen.
 
@@ -112,4 +112,4 @@ Om du godkänner en mall visas den i [!UICONTROL Public templates] och är tillg
 
 Som administratör kan du klona ett scenario som en mall.
 
-Instruktioner om hur du klonar ett scenario som en mall finns i [Skapa en mall från ett scenario](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) in [Skapa nya mallar i [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
+Instruktioner om hur du klonar ett scenario som en mall finns i [Skapa en mall från ett scenario](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md#create-a-template-from-a-scenario) i [Skapa nya mallar i [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

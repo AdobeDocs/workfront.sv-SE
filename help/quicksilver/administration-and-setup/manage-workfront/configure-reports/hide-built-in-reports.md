@@ -36,18 +36,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Dölj inbyggda rapporter
 
-1. Från **Huvudmeny** ![](assets/main-menu-icon.png), klicka **Inställningar**.
-1. Klicka **Åtkomstnivåer**.
-1. Välj den åtkomstnivå som du vill dölja inbyggda rapporter för och klicka sedan på **Redigera**.
-1. För **Rapporter** objekt, klicka på **Inställningar** -ikonen bredvid den högsta tillgängliga åtkomstnivån och avmarkera sedan **Visa inbyggda rapporter**.
+1. Klicka på **Konfigurera** på **huvudmenyn** ![](assets/main-menu-icon.png).
+1. Klicka på **Åtkomstnivåer**.
+1. Välj åtkomstnivån som du vill dölja inbyggda rapporter för och klicka sedan på **Redigera**.
+1. För objektet **Rapporter** klickar du på ikonen **Inställningar** bredvid den högsta tillgängliga åtkomstnivån och avmarkerar sedan **Visa inbyggda rapporter**.
 
    ![](assets/edit-access-level.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

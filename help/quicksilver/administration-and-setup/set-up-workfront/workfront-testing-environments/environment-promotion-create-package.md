@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Skapa eller redigera ett miljöerbjudande
 
-Du måste skapa ett paket i miljön som du vill kopiera objekt till **från**. Om du till exempel konfigurerar ett projekt i din anpassade sandlådemiljö för uppdatering och befordrar det till din produktionsmiljö, måste du skapa paketet i din anpassade sandlådemiljö för uppdatering.
+Du måste skapa ett paket i miljön som du vill kopiera objekt **från**. Om du till exempel konfigurerar ett projekt i din anpassade sandlådemiljö för uppdatering och befordrar det till din produktionsmiljö, måste du skapa paketet i din anpassade sandlådemiljö för uppdatering.
 
 >[!IMPORTANT]
 >
@@ -45,43 +45,43 @@ Du måste ha följande:
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront] administratör.
+   <td>Du måste vara en [!DNL Workfront]-administratör.
    </td>
   </tr>
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa ett paket
 
-1. Gå till den miljö som du vill skapa paketet i. Det här är den miljö som du kopierar objekt i **från**.
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
-1. Välj **System** i den vänstra navigeringen väljer du **Miljömarknadsföring**.
-1. Klicka **Skapa paket**.
+1. Gå till den miljö som du vill skapa paketet i. Det här är miljön som du kopierar objekt **från**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+1. Välj **System** i den vänstra navigeringen och välj sedan **Miljökampanj**.
+1. Klicka på **Skapa paket**.
 
    Sidan Nytt kampanjpaket öppnas.
 
-1. I **Paketnamn** anger du ett namn för paketet.
-1. I **Beskrivning** anger du en beskrivning för det här paketet.
-1. Om du vill lägga till ett objekt i paketet klickar du på **Lägg till objekt** i den vänstra navigeringen och välj den typ av objekt som du vill lägga till.
+1. Ange ett namn för paketet i fältet **Paketnamn**.
+1. Ange en beskrivning för det här paketet i fältet **Beskrivning**.
+1. Om du vill lägga till ett objekt i paketet klickar du på **Lägg till objekt** i den vänstra navigeringen och väljer den typ av objekt som du vill lägga till.
 1. Markera ett eller flera objekt i listan eller skriv namnet i sökfältet och markera objektet när det visas i listan. Du kan markera mer än ett objekt i listan.
-1. Klicka **Lägg till (X-objekt)** om du vill lägga till de markerade objekten i paketet.
+1. Klicka på **Lägg till (X-objekt)** för att lägga till de markerade objekten i paketet.
 
    >[!INFO]
    >
    >**Exempel**
    >
-   >Om du har valt tre projekt att lägga till i projektet, säger knappen **Lägg till 3 projekt**.
+   >Om du har valt tre projekt att lägga till i projektet visas knappen **Lägg till tre projekt**.
 
    Objekten som du har lagt till visas i området Paketinnehåll till höger på sidan.
 
 1. Om du vill lägga till en annan typ av objekt upprepar du steg 7-9.
 1. (Valfritt) Om du vill ta bort ett objekt från paketet håller du pekaren över objektet i paketinnehållsområdet och klickar på X:et bredvid objektet.
-1. När du har lagt till alla önskade objekt i paketet klickar du på **Spara och stäng** om du vill spara paketet utan att montera det.
+1. När du har lagt till alla önskade objekt i paketet klickar du på **Spara och stäng** för att spara paketet utan att montera det.
 
    eller
 
-   Klicka **Spara och montera** för att spara och sätta ihop paketet.
+   Klicka på **Spara och sammanställ** för att spara och sätta ihop paketet.
 
    >[!NOTE]
    >
@@ -90,14 +90,14 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 ## Redigera eller sätta ihop ett befintligt paket
 
-1. Gå till den miljö som du vill skapa paketet i. Det här är den miljö som du kopierar objekt i **från**.
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
-1. Välj **System** i den vänstra navigeringen väljer du **Miljömarknadsföring**.
+1. Gå till den miljö som du vill skapa paketet i. Det här är miljön som du kopierar objekt **från**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+1. Välj **System** i den vänstra navigeringen och välj sedan **Miljökampanj**.
 1. Välj paketet i listan som visas.
-1. (Villkorligt) Om du vill visa inaktiverade paket aktiverar du **Visa pensionerade paket** alternativ.
-1. (Valfritt) Om du vill visa innehållet, inklusive alla objekt och deras underordnade objekt, klickar du på listrutepilen bredvid objekttypen i **Innehåll** -avsnitt.
+1. (Villkorligt) Aktivera alternativet **Visa inaktuella paket** om du vill visa inaktiverade paket.
+1. (Valfritt) Om du vill visa innehållet, inklusive alla objekt och deras underordnade objekt, klickar du på listrutepilen bredvid objekttypen i avsnittet **Innehåll** .
 1. (Valfritt) Om du vill visa tidigare installationer och installationsförsök för det här paketet klickar du på **Distributioner**.
 1. (Valfritt) Om du vill redigera paketet klickar du på **Redigera paket** längst upp till höger på skärmen.
-1. Klicka på **Installera** längst upp till höger på skärmen.
+1. Installera paketet genom att klicka på **Installera** längst upp till höger på skärmen.
 
    Instruktioner om hur du installerar ett paket finns i [Installera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).

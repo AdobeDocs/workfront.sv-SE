@@ -2,7 +2,7 @@
 product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Återställ en användares lösenord med Förbättrad autentisering
-description: När Förbättrad autentisering (eAuth) är aktiverat för din [!DNL Workfront] Miljö, [!DNL Workfront] administratören kan inte återställa inloggningsuppgifter för en annan användare. Detta skiljer sig från [!DNL Workfront] miljöer utan eAuth eller miljöer där enkel inloggning (SSO) är aktiverat.
+description: När Förbättrad autentisering (eAuth) är aktiverat för din [!DNL Workfront] miljö kan en [!DNL Workfront] administratör inte återställa inloggningsuppgifter för en annan användare. Detta skiljer sig från  [!DNL Workfront] miljöer utan eAuth eller miljöer där enkel inloggning (SSO) är aktiverat.
 author: Lisa
 feature: Get Started with Workfront
 hide: true
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--This article has been hidden by request-->
 
-När Förbättrad autentisering (eAuth) är aktiverat för din [!DNL Workfront] Miljö, [!DNL Workfront] administratören kan inte återställa inloggningsuppgifter för en annan användare. Detta skiljer sig från [!DNL Workfront] miljöer utan eAuth eller miljöer där enkel inloggning (SSO) är aktiverat.
+När Förbättrad autentisering (eAuth) är aktiverat för din [!DNL Workfront]-miljö kan en [!DNL Workfront]-administratör inte återställa inloggningsuppgifter för en annan användare. Detta skiljer sig från [!DNL Workfront]-miljöer utan eAuth eller de miljöer där enkel inloggning (SSO) är aktiverat.
 
 ## Åtkomstkrav
 
@@ -44,21 +44,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Återställ en användares lösenord i en eAuth-aktiverad miljö
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront]och sedan klicka **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
 
    ![](assets/main-menu-options-350x481.png)
 
-1. Välj **[!UICONTROL User]** som kräver en återställning av lösenordet.
+1. Markera **[!UICONTROL User]** som kräver en lösenordsåterställning.
    ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Klicka på **[!UICONTROL More]knapp** som visas när du har valt det du vill **[!UICONTROL User]** och väljer **[!UICONTROL Send Forgot Password Email]** i listrutan.
+1. Klicka på knappen **[!UICONTROL More]** som visas när du har valt önskat **[!UICONTROL User]** och välj alternativet **[!UICONTROL Send Forgot Password Email]** i listrutan.
 
    ![](assets/100520classicnwesendemail-350x134.png)
 
-När du har valt **[!UICONTROL Send Forgot Password Email]** om du vill skickas ett e-postmeddelande till den valda användaren med instruktioner om hur användaren ska ändra sitt eget lösenord.
+När du har valt alternativet **[!UICONTROL Send Forgot Password Email]** skickas ett e-postmeddelande till den valda användaren med instruktioner om att ändra sitt eget lösenord.
 
 ![](assets/pwresetemail-resized-350x461.png)

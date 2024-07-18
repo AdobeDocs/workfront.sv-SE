@@ -9,10 +9,10 @@ title: Luftburna moduler
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1855'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 # Luftburna moduler
 
 
-Med [!DNL Airtable] anslutning för [!DNL Adobe Workfront Fusion]kan du starta ett scenario baserat på händelser i [!DNL Airtable] konton, skapa, ladda upp och uppdatera poster, söka poster och gör anpassade API-anrop till Airtable API.
+Med [!DNL Airtable]-kopplingen för [!DNL Adobe Workfront Fusion] kan du starta ett scenario baserat på händelser i ditt [!DNL Airtable]-konto, skapa, överföra och uppdatera poster, söka efter poster och göra anpassade API-anrop till Airtable API.
 
 ## Åtkomstkrav
 
@@ -44,14 +44,14 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>Din organisation måste köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
@@ -68,10 +68,10 @@ Du måste ha ett Airtable-konto för att kunna använda funktionerna i den här 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
 -->
-1. Öppna Workfront Fusion och **Skapa en anslutning** för den önskade modulen.
+1. Öppna Workfront Fusion och dialogrutan **Skapa en anslutning** i den önskade modulen.
 1. Ange ett namn för anslutningen.
 1. (Valfritt) Klicka på Visa avancerade inställningar och ange ditt Airtable Client ID och Klienthemlighet.
-1. Klicka på **Fortsätt** för att skapa anslutningen och återgå till modulen.
+1. Klicka på knappen **Fortsätt** för att skapa anslutningen och återgå till modulen.
 
 ## Luftburna moduler och deras fält
 
@@ -82,7 +82,7 @@ Du måste ha ett Airtable-konto för att kunna använda funktionerna i den här 
 * [Hämta en post](#get-a-record)
 * [Sök i poster](#search-records)
 * [Uppdatera en post](#update-a-record)
-* [Skicka en post](#upsert-a-record)
+* [Uppdatera en post](#upsert-a-record)
 * [Bevakningsposter](#watch-records)
 * [Se svar](#watch-responses)
 * [Anropa ett API](#make-an-api-call)
@@ -103,7 +103,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -163,7 +163,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -190,7 +190,7 @@ Den här åtgärdsmodulen hämtar postinformation.
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -221,7 +221,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -233,7 +233,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td> <p>Formel</p> </td> 
-   <td> <p>En formel som används för att filtrera poster. Formeln utvärderas för varje post och om resultatet inte är <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, eller <code>#Error!</code> posten ingår i svaret.</p> <p>Om kombinerat med <code>view</code>, returneras bara poster i den vyn som uppfyller formeln.</p> <p>Om du till exempel bara vill inkludera poster där Namn inte är tomt, skickar du:<code> NOT({Name} = '')</code></p> <p>Om du vill veta mer kan du söka efter information om formelfältreferenser i dokumentationen till support för Airtable.</p> </td> 
+   <td> <p>En formel som används för att filtrera poster. Formeln utvärderas för varje post och om resultatet inte är <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> eller <code>#Error!</code> inkluderas posten i svaret.</p> <p>Om den kombineras med <code>view</code> returneras endast poster i den vyn som uppfyller formeln.</p> <p>Om du till exempel bara vill inkludera poster där Namn inte är tomt, skickar du:<code> NOT({Name} = '')</code></p> <p>Om du vill veta mer kan du söka efter information om formelfältreferenser i dokumentationen till support för Airtable.</p> </td> 
   </tr> 
   <tr> 
    <td>Sortera </td> 
@@ -266,7 +266,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -330,7 +330,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -392,7 +392,7 @@ Den här utlösarmodulen startar ett scenario när en post skapas eller uppdater
  <tbody> 
   <tr> 
    <td>Anslutning </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>Bas </td> 
@@ -404,7 +404,7 @@ Den här utlösarmodulen startar ett scenario när en post skapas eller uppdater
   </tr> 
   <tr> 
    <td> <p>Utlösarkonfiguration</p> </td> 
-   <td> <p>Utlösarfält</p> <p>A <code>Created Time</code> eller <code>Last Modified Time</code> fält som används för att sortera poster. Om du inte har en <code>Created Time</code> eller <code>Last Modified Time</code> i ditt schema måste du skapa ett. </p> <p>Etikettfält</p> <p>Ett fält som används som etikett för en post, till exempel i dialogrutan Välj var du vill starta.</p> </td> 
+   <td> <p>Utlösarfält</p> <p>Ett <code>Created Time</code>- eller <code>Last Modified Time</code>-fält som används för att sortera poster. Om du inte har något <code>Created Time</code>- eller <code>Last Modified Time</code>-fält i ditt schema måste du skapa ett. </p> <p>Etikettfält</p> <p>Ett fält som används som etikett för en post, till exempel i dialogrutan Välj var du vill starta.</p> </td> 
   </tr> 
   <tr> 
    <td>Gräns</td> 
@@ -416,7 +416,7 @@ Den här utlösarmodulen startar ett scenario när en post skapas eller uppdater
   </tr> 
   <tr> 
    <td> <p>Formel</p> </td> 
-   <td> <p>En formel som används för att filtrera poster. Formeln utvärderas för varje post och om resultatet inte är <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code>, eller <code>#Error!</code> posten ingår i svaret.</p> <p>Om kombinerat med <code>view</code>, returneras bara poster i den vyn som uppfyller formeln.</p> <p>Om du till exempel bara vill inkludera poster där Namn inte är tomt, skickar du:<code> NOT({Name} = '')</code></p> <p>Mer information finns i informationen om formelfältreferenser i dokumentationen för Airtable-stöd.</p> </td> 
+   <td> <p>En formel som används för att filtrera poster. Formeln utvärderas för varje post och om resultatet inte är <code>0</code>, <code>false</code>, <code>""</code>, <code>NaN</code>, <code>[]</code> eller <code>#Error!</code> inkluderas posten i svaret.</p> <p>Om den kombineras med <code>view</code> returneras endast poster i den vyn som uppfyller formeln.</p> <p>Om du till exempel bara vill inkludera poster där Namn inte är tomt, skickar du:<code> NOT({Name} = '')</code></p> <p>Mer information finns i informationen om formelfältreferenser i dokumentationen för Airtable-stöd.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -439,7 +439,7 @@ Webbhoks-URL:en måste genereras i Workfront Fusion och sedan läggas till i for
 1. Logga in på ditt Airtable-konto.
 1. Öppna basen och tabellen som du vill använda för formuläret och skapa en formulärvy.
 1. Ange formuläret efter behov, rulla nedåt i formuläret och aktivera alternativet Omdirigera till URL när formuläret har skickats.
-1. Ange den webkroks-URL som genereras i steg 2 i den dialogruta som visas och lägg till ?record_id={record_id} omedelbart efter webboks-URL:en för att inkludera post-ID:t i modulens utdata klickar du på Spara. Den resulterande URL:en ser till exempel ut så här:
+1. Ange den webkroks-URL som genereras i steg 2 i den dialogruta som visas och lägg till ?record_id={record_id} precis efter webkroks-URL:en för att inkludera post-ID:t i modulens utdata. Klicka sedan på Spara. Den resulterande URL:en ser till exempel ut så här:
 1. Gå tillbaka till ditt Workfront Fusion-scenario och kör modulen Bevakade svar bara för att läsa in fält från Airtable och för att kunna mappa dessa fält till de andra modulerna.
 1. Skicka formuläret i Airtable där alternativet Omdirigera till URL när formuläret har skickats är aktiverat och Webkroks URL har lagts till (steg 6 ovan).
 
@@ -453,7 +453,7 @@ Varje gång formuläret skickas aktiveras nu modulen Bevakade svar i ditt Workfr
 
 #### Anpassat API-anrop
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Airtable] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Airtable] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Airtable]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Airtable]-modulerna.
 
 Åtgärden baseras på den entitetstyp (Allocadia-objekttyp) som du anger.
 
@@ -465,15 +465,15 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Anslutning</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable to Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Airtable-konto till Workfront Fusion finns i <a href="#connect-airtable-to-workfront-fusion" class="MCXref xref">Connect Airtable till Workfront Fusion</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Ange en sökväg i förhållande till <code>https://api.airtable.com/}</code>. Exempel: <code>v0/{base}/{table}</code> </td> 
+   <td>Ange en relativ sökväg till <code>https://api.airtable.com/}</code>. Exempel: <code>v0/{base}/{table}</code> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Metod</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sidhuvuden</td> 
@@ -485,7 +485,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">Brödtext</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

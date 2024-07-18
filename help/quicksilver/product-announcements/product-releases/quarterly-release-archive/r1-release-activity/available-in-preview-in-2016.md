@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,12 @@ Skuggning av användarallokering på tidslinjen för schemaläggning när resurs
 
 Allokeringsskuggning visades tidigare som standard och kunde inte inaktiveras.
 
-Mer information om hur du aktiverar alternativ för användartilldelning finns i Hantera användarallokeringar i schemaläggningsområdena.
+Mer information om hur du aktiverar alternativ för användartilldelning finns i
+&quot;Hantera användartilldelningar i schemaläggningsområdena&quot;.
 
 ## Layoutmall avgör om den nya eller gamla kalendern visas i arbetsytan
 
-**Sandlådan för förhandsgranskning: 7 dec 2016; Tidig åtkomst: 14 dec 2016** 
+**Sandlådan för förhandsgranskning: 7 dec 2016; tidig åtkomst: 14 dec 2016** 
 
 Den nya kalendern visas som standard i området Mitt arbete när ingen layoutmall används.
 
@@ -58,11 +59,11 @@ När du använder den äldre kalendern i området Mitt arbete visas endast det a
 
 Om du vill konfigurera Workfront så att den nya kalendern visas på arbetsytan Mitt när en layoutmall används, konfigurerar du layoutmallen så att den visar planerat slutförandedatum för uppgifter och ärenden och tilldelar sedan layoutmallen till rätt användare.
 
-Mer information om hur du konfigurerar layoutmallen finns i [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Mer information om hur du konfigurerar layoutmallen finns i [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) i [Skapa och hantera layoutmallar](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Outlook 365 Beta
 
-**Beta: TBD; allmänt tillgänglig: TBD**
+**Beta: TBD; Offentlig tillgänglighet: TBD**
 
 Du kan använda Workfront från Outlook för Office 365 enligt beskrivningen i följande avsnitt:
 
@@ -77,13 +78,13 @@ Du kan ändra ordningen på kolumnerna i en lista genom att dra en kolumn från 
 
 Detta är särskilt användbart när du visar Gantt-diagrammet och listvyn samtidigt och kolumnen som du vill visa inte visas på sidans vänstra sida. 
 
-Mer information finns i [Ändra kolumnbredd och -ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Mer information finns i [Ändra kolumnbredd och ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
 ## Uppdaterad Look and Feel i kontrollpanelslistan
 
 Nu när du visar en kontrollpanelslista är utseendet mer modernt och skalbart.
 
-Mer information om kontrollpaneler finns i [Skapa en instrumentpanel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+Mer information om instrumentpaneler finns i [Skapa en instrumentpanel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 
 ## Kontrollera åtkomst till anpassade Forms
 
@@ -93,10 +94,8 @@ Nu kan du styra vem som har åtkomst till ett anpassat formulär genom att ge å
 
 Före den här ändringen kunde du bara bevilja åtkomst till grupper.
 
-Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-
 ## Integrering med Adobe Creative Cloud
 
-**Tillägg som kan hämtas: april 2016**
+**Tillägg tillgängligt för hämtning: april 2016**
 
 Workfront-tillägget för Adobe Creative Cloud är utformat för att du ska kunna spara och exportera material som du skapar i Creative Cloud till Workfront, vilket snabbar upp godkännande- och granskningsprocessen.

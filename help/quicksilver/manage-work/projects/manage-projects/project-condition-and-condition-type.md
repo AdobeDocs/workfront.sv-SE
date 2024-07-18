@@ -27,9 +27,9 @@ Tänk på följande när du är insatt i ett projekts villkor:
 * Som projektägare kan du bestämma om villkoret för ett projekt ska anges manuellt eller automatiskt. Ett projekts villkor kan anges på följande sätt:
 
    * Manuellt av användare som har åtkomst till Hantera projektet och när villkorstypen för projektet är inställd på Manuell.
-   * Automatiskt av Adobe Workfront när villkorstypen för projektet är inställd på Status. Projektets förloppsstatus bestäms av förloppet för aktiviteterna i projektet. Mer information om projektets förloppsstatus finns i [Översikt över status för projektförlopp](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * Automatiskt av Adobe Workfront när villkorstypen för projektet är inställd på Status. Projektets förloppsstatus bestäms av förloppet för aktiviteterna i projektet. Mer information om projektets förloppsstatus finns i [Översikt över projektets förloppsstatus](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-  Mer information om hur du uppdaterar villkorstypen för projektet finns i [Ange villkorstyp för ett projekt](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
+  Mer information om hur du uppdaterar villkorstypen för projektet finns i [Ange villkorstypen för ett projekt](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
 * När du tillåter att Workfront automatiskt beräknar projektvillkoren rekommenderar vi att du använder föregående aktiviteter för dina uppgifter så att aktivitetens förlopp återspeglar projektets aktuella förlopp och förloppsstatus.
 * Som projektägare kan du ändra projektet till att använda en manuell villkorstyp i stället för att använda förloppsstatusen genom att ändra villkorstypen från förloppsstatus till Manuell.
@@ -64,7 +64,7 @@ Tänk på följande när du är insatt i ett projekts villkor:
 
 När villkorstypen för projektet är inställd på Manuell kan du bestämma vilket villkor för projektet som är oberoende av projektets förloppsstatus.
 
-Vi rekommenderar dock att du ställer in villkorstypen för projektet på Status så att du tydligt kan se vilket förlopp projektet har, baserat på förloppet för dina uppgifter. Mer information om hur Workfront beräknar status för projekt finns i [Översikt över status för projektförlopp](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Vi rekommenderar dock att du ställer in villkorstypen för projektet på Status så att du tydligt kan se vilket förlopp projektet har, baserat på förloppet för dina uppgifter. Information om hur Workfront beräknar förloppsstatus för projekt finns i [Översikt över projektförloppsstatus](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 I det här fallet kan värdena för Projektvillkor vara:
 
@@ -88,13 +88,13 @@ I det här fallet kan värdena för Projektvillkor vara:
   </tr> 
   <tr> 
    <td>Risk</td> 
-   <td>När projektets förloppsstatus är <strong>Bakom</strong> eller <strong>Risk</strong>, blir projektets villkor <strong>Risk</strong>.</td> 
+   <td>När projektets förloppsstatus är <strong>Bakom</strong> eller <strong>Vid risk</strong> är villkoret för projektet <strong>Vid risk</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>I problem</td> 
-   <td>När projektets förloppsstatus är <strong>Sena</strong>, blir projektets villkor <strong>I problem</strong>. </td> 
+   <td>När projektets förloppsstatus är <strong>SENT</strong> är projektets villkor <strong>I problem</strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
@@ -110,10 +110,10 @@ I det här fallet kan värdena för Projektvillkor vara:
 I vyn för en projektrapport kan du visa följande fält som är relaterade till projektets villkor:
 
 * **Projektvillkor:** Visar projektets aktuella villkor.
-* **Uppdatering av projektvillkor**: Visar den senaste uppdateringen som projektägaren har tillhandahållit i projektets uppdateringsström, tillsammans med det nya villkoret.\
-  Kommentarer som gjorts i villkorsuppdateringar visas inte i dialogrutan **Villkorsuppdatering** -kolumn. Endast huvuduppdateringen visas.
+* **Projektvillkorsuppdatering**: Visar den senaste uppdateringen som projektägaren har tillhandahållit i projektets uppdateringsström, tillsammans med det nya villkoret.\
+  Kommentarer som gjorts för villkorsuppdateringar visas inte i kolumnen **Villkorsuppdatering**. Endast huvuduppdateringen visas.
 
-* **Meddelande om senaste villkor**: Visar den uppdatering som objektets ägare senast angav för ett objekt. Det här fältet är användbart för att visa ägarens senaste aktivitet eller interaktion för ett objekt.\
-  The **Meddelande om senaste villkor** kolumnen är tom om anteckningstexten för den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.
+* **Senaste villkorsanteckning**: Visar den uppdatering som objektets ägare senast angav för ett objekt. Det här fältet är användbart för att visa ägarens senaste aktivitet eller interaktion för ett objekt.\
+  Kolumnen **Sista villkorsanteckning** är tom om anteckningstexten för den sista anteckningen i ett objekt har tagits bort. När en ny anteckning läggs in på objektet blir den sista anteckningen och visas igen i kolumnen.
 
 Mer information om hur du skapar en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

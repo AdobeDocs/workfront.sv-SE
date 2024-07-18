@@ -31,7 +31,7 @@ Det nya hemmet är utformat för att vara mycket anpassningsbart, så att du kan
 
 Widgets är grunden för nya Home. Genom att lägga till widgetar på hemsidan kan du välja vilken typ av information som ska visas så att den bäst passar dina behov. Vissa widgetar är bara tillgängliga för specifika licenstyper, eftersom de objekt de spårar bara är tillgängliga för dessa licenser.
 
-Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägg till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av den information de visar:
 
@@ -57,9 +57,9 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
 * **Alla godkännanden**\
-        <span class="preview"> Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden.</span> <span style="color: #ff0000;">Den här funktionen ingår i en fasad version och är för närvarande endast tillgänglig för vissa kunder.</span>
+        <span class="preview"> Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden.</span> <span style="color: #ff0000;">Den här funktionen är en del av en fasversion och är för närvarande endast tillgänglig för vissa kunder.</span>
 
-* **Omnämnanden**\
+* **Meningar**\
     Visar senaste kommentarstrådar från hela Workfront, ungefär som sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
 
 * **Att göra**\
@@ -133,16 +133,16 @@ Du kan lägga till lite personlig överstrålning på hemsidan genom att välja 
 
 1. Gå till hemsidan genom att göra något av följande:
 
-   * Om Hem är inställt som landningssida klickar du på **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
-   * Klicka på **Huvudmeny** ikonen i skärmens övre högra hörn eller **Huvudmeny** icon ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Startsida**.
+   * Om Hem är inställt som landningssida klickar du på ikonen **Adobe Workfront** ![Adobe Workfront ](../new-home/assets/home-icon-30x29.png) i skärmens övre vänstra hörn.
+   * Klicka på ikonen **Huvudmeny** i det övre högra hörnet av skärmen eller på ikonen **Huvudmeny** ![Huvudmeny](../new-home/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Hem** .
 
-1. Klicka **Anpassa** i skärmens övre högra hörn.
+1. Klicka på **Anpassa** längst upp till höger på skärmen.
 
    ![Knappen Anpassa](../new-home/assets/customize-button.png)
 
    Panelen Anpassa öppnas.
 
-1. I **Bakgrund** i **Anpassa** klickar du på den färg du vill använda som bakgrund i hemmet. Du kan också klicka **Ingen** för att ta bort bakgrunden.
+1. I avsnittet **Bakgrund** på panelen **Anpassa** klickar du på den färg du vill använda som bakgrund i hemmet. Du kan också klicka på **Ingen** om du vill ta bort bakgrunden.
 
 ## Återgå till den aktuella hemupplevelsen
 
@@ -150,16 +150,16 @@ Om du föredrar den befintliga hemupplevelsen kan du stänga av den nya hemupple
 
 Så här återgår du till den aktuella hemupplevelsen:
 
-1. Gå till startsidan, antingen genom att klicka på **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) i skärmens övre vänstra hörn om Hem är inställt som landningssida, eller klicka på **Huvudmeny** ikonen i det övre högra hörnet ![](assets/dots-main-menu.png) eller **Huvudmeny** icon ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **Startsida**.
+1. Gå till startsidan, antingen genom att klicka på ikonen **Adobe Workfront** ![Adobe Workfront ](../new-home/assets/home-icon-30x29.png) i det övre vänstra hörnet av skärmen om Hem är inställt som startsida, eller klicka på ikonen **Huvudmeny** i det övre högra hörnet ![](assets/dots-main-menu.png) eller på ikonen **Huvudmeny** ![Huvudmenyikon](../new-home/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet, om , och klicka sedan på **Hem** .
 
-1. Klicka på **Gå tillbaka till aktuell startsida** längst ned till höger på sidan.
+1. Klicka på knappen **Gå tillbaka till den aktuella knappen Hem** längst ned till höger på sidan.
 
-   ![Gå tillbaka till aktuell hemknapp](../new-home/assets/go-back-to-current-home-button.png)
+   ![Gå tillbaka till den aktuella hemknappen](../new-home/assets/go-back-to-current-home-button.png)
 
    Ett bekräftelsefönster visas.
 
-1. Ta en kort enkät om din upplevelse av nya Home eller klicka **Gå tillbaka till aktuell startsida** för att återgå till den aktuella hemupplevelsen.
+1. Ta en kort undersökning om din upplevelse av nya Hem eller klicka på **Gå tillbaka till aktuell Hem** för att återgå till den aktuella Hem-upplevelsen.
 
 >[!NOTE]
 >
-> Systemadministratörer kan inaktivera det nya hemmet som standard för sina användare. Mer information om hur du ändrar standardupplevelsen för hemmet för användare i ett system finns i [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+> Systemadministratörer kan inaktivera det nya hemmet som standard för sina användare. Mer information om hur du ändrar standardgränssnittet för Hem för användare i ett system finns i [Konfigurera systeminställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

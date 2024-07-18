@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Din Adobe [!DNL Workfront] administratör konfigurerar vilka e-postmeddelanden användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] meddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
+Administratören för Adobe [!DNL Workfront] konfigurerar vilka e-postmeddelanden som användare får när händelser inträffar i Workfront (enligt beskrivningen i [[!UICONTROL Configure event] -meddelanden för alla i systemet ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-Gruppadministratören kan också konfigurera vilka meddelanden som ska aktiveras för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp, du får de meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
+Gruppadministratören kan också konfigurera vilka meddelanden som är aktiverade för dig och användarna i [!UICONTROL Home Group]. Om [!UICONTROL Home Group] är en undergrupp får du meddelanden som är aktiverade för den översta gruppen ovanför gruppen.
 
 Du kan anpassa detta ytterligare genom att konfigurera vilka meddelanden du får. Du kan också välja om du vill få meddelanden när händelser inträffar eller i ett e-postmeddelande med en daglig sammanfattning.
 
@@ -29,7 +29,7 @@ Mer information om e-postmeddelanden finns i [[!DNL Adobe Workfront] meddelanden
 >[!NOTE]
 >
 >* Om du aktiverar en meddelandetyp och sedan upptäcker att du inte får meddelanden av den typen, kan det bero på att den typen inte gäller för din roll.
->* The [!DNL Workfront] administratörer eller gruppadministratörer kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Om du vill ha mer information om vilka meddelanden [!DNL Workfront] administratörer kan konfigurera, se [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Mer information om hur du konfigurerar enskilda meddelanden för [!DNL Workfront Goals] fortsätta att läsa den här artikeln.
+>* Administratören [!DNL Workfront] eller en gruppadministratör kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Mer information om vilka meddelanden [!DNL Workfront]-administratören kan konfigurera finns i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). Mer information om hur du konfigurerar enskilda meddelanden för [!DNL Workfront Goals] finns i den här artikeln.
 >
 
 ## Åtkomstkrav
@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,9 +67,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 {{step1-click-profile-pic}}
 
-1. Klicka på **[!UICONTROL More]** icon ![](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
+1. Klicka på ikonen **[!UICONTROL More]** ![](assets/more-icon.png) bredvid ditt namn och klicka sedan på **[!UICONTROL Edit]**.
 
-1. I **[!UICONTROL Edit Person]** går du till **[!UICONTROL Notifications]** -avsnitt.
+1. Gå till avsnittet **[!UICONTROL Notifications]** i rutan **[!UICONTROL Edit Person]** som visas.
 
 1. Klicka på en kategori om du vill visa meddelandeinställningarna för den kategorin.
 
@@ -83,19 +83,19 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    >
    >Om du är teammedlem i ett projekt får du även fortsättningsvis e-postmeddelanden om projektet tills du tas bort från teamet, även om du inte längre har tillgång till projektet. Instruktioner om hur du tar bort användare från ett team finns i [Ta bort användare från projekt](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   För **[!UICONTROL Communication]** kan du välja enskilda meddelanden för direktleverans. Om du vill få meddelanden levererade i en daglig sammanfattning måste du markera alla.
+   För kategorin **[!UICONTROL Communication]** kan du endast välja enskilda meddelanden för direktleverans. Om du vill få meddelanden levererade i en daglig sammanfattning måste du markera alla.
 
    Om alla e-postmeddelanden för en viss kategori är aktiverade visas rutan i kategorititeln som markerad. Om alla e-postmeddelanden i en viss kategori inaktiveras, avmarkeras rutan. Om vissa meddelanden aktiveras och andra inaktiveras visas kategorikryssrutan som en rak linje.\
-   När du ändrar en meddelandeinställning visas etiketten **[!UICONTROL Edited]** visas för den meddelandeinställningen så att du ser att meddelandeinställningen har ändrats.
+   När du ändrar en aviseringsinställning visas etiketten **[!UICONTROL Edited]** för den aviseringsinställningen så att du ser att aviseringsinställningen har ändrats.
 
-1. Om du har valt att skicka meddelanden som dagliga sammandrag, markerar du den tid på dagen som du vill ha den överst i **[!UICONTROL Notifications]** i **[!UICONTROL Email Daily Digest after]** -menyn.
+1. Om du har valt att skicka meddelanden som dagliga sammandrag, markerar du den tid på dagen som du vill ta emot det högst upp i avsnittet **[!UICONTROL Notifications]** på menyn **[!UICONTROL Email Daily Digest after]**.
 
    ![](assets/digest-time-stamp-my-settings-350x78.png)
 
    Den dagliga sammandraget innehåller händelser som uppfyller kriterierna i meddelandena 24 timmar före den valda tiden. Du får ett e-postmeddelande med en daglig sammanfattning för varje typ av meddelande.\
    Den dagliga sammandraget kan komma fram efter den tid du väljer, beroende på hur många e-postmeddelanden som står i kö för leverans i systemet. Den angivna tiden är din lokala tid enligt inställningarna i webbläsaren.
 
-1. (Villkorligt och valfritt) Aktivera alternativet **[!UICONTROL Receive emails from this test environment]** inställning för att ta emot e-post. E-postmeddelanden genereras inte automatiskt från förhandsvisningsmiljön.
+1. (Villkorligt och valfritt) Aktivera inställningen **[!UICONTROL Receive emails from this test environment]** för att ta emot e-postmeddelanden när du ändrar inställningarna för e-postmeddelanden i förhandsvisningsmiljön. E-postmeddelanden genereras inte automatiskt från förhandsvisningsmiljön.
 
    ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

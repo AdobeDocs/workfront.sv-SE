@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Konfigurera inställningar för korrekturläsare
 
@@ -75,28 +75,28 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
 
 1. Öppna Web Proofing Viewer eller Desktop Proofing Viewer på något av följande sätt:
 
-   * Om du har korrekturläsning i Adobe Workfront går du till en dokumentlista som innehåller det korrektur du vill visa, för muspekaren över dokumentet och klickar sedan **Öppna korrektur**.
-   * Klicka på **Gå till korrektur** -ikon för korrekturet på kontrollpanelen eller en visningslista ![](assets/go-to-proof-blue-icon.png).
+   * Om du har korrektur i Adobe Workfront går du till en dokumentlista som innehåller ett korrektur som du vill visa, för muspekaren över dokumentet och klickar sedan på **Öppna korrektur**.
+   * Om du använder Workfront Proof klickar du på ikonen **Gå till korrektur** för korrekturet på kontrollpanelen eller en visningslista ![](assets/go-to-proof-blue-icon.png) .
 
-1. Om det vänstra verktygsfältet inte visas klickar du på **Meny** -ikonen i det övre vänstra hörnet av Web Proofing Viewer.
+1. Om det vänstra verktygsfältet inte visas klickar du på ikonen **Meny** som finns i det övre vänstra hörnet i Web Proofing Viewer.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klicka på knappen **Inställningar** icon ![](assets/settings-icon-in-pv.png).
+1. Klicka på ikonen **Inställningar** ![](assets/settings-icon-in-pv.png) i det vänstra verktygsfältet.
 
-1. Konfigurera något av följande **Inställningar** som visas.
+1. Konfigurera någon av följande **inställningar** som visas.
 
    Vilka inställningar som är tillgängliga beror på vilken typ av korrektur du har öppnat.
 
-   * **Visa markeringar** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Det här är kommentarmarkeringarna som granskare lägger till i korrektur när de använder markeringsverktygen. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
+   * **Visa markeringar** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Det här är de kommentarmarkeringar som granskarna lägger till i korrektur när de använder markeringsverktygen. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
 
      Den här inställningen påverkar alla korrektur som du öppnar.
 
-   * **Visa punkter** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Detta är de numrerade punkter som granskare lägger till i korrektur när de använder markeringsverktygen. De visar var och i vilken ordning granskaren lade till kommentarer. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
+   * **Visa punkter** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Detta är de numrerade punkter som granskare lägger till i korrektur när de använder markeringsverktygen. De visar var och i vilken ordning granskaren lade till kommentarer. Om du inaktiverar dem kan du fortfarande se dem när du klickar på en kommentar i kommentarlistan.
 
      Den här inställningen påverkar alla korrektur som du öppnar.
 
-   * **Använda utökade markeringsverktyg** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Som standard visas markeringsverktygen längst upp i korrekturläsaren. Du kan konfigurera dem så att de visas på en lodrät meny som bara öppnas när du klickar på den.
+   * **Använd utökade markeringsverktyg** (alltid tillgängligt i Web Proofing Viewer och Desktop Proofing Viewer): Som standard visas markeringsverktygsalternativen längst upp i korrekturläsaren. Du kan konfigurera dem så att de visas på en lodrät meny som bara öppnas när du klickar på den.
 
      Den här inställningen används för alla korrektur som du öppnar.
 
@@ -128,11 +128,11 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
        </tr> 
        <tr> 
         <td role="rowheader">Daglig sammanfattning</td> 
-        <td>Workfront skickar ett e-postmeddelande med alla kommentarer, svar och beslut listade endast dagar när det finns någon aktivitet utöver din egen.<p>Den här varningen är ett bra sätt att se en sammanfattning av projektet utan att behöva överbelastas med flera uppdateringar under dagen.</p><p>Ett exempel på hur den här sammanfattningen används är en avdelningsledare som vill övervaka projektets övergripande förlopp.</p><p>Mer information finns i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Hantera meddelanden för korrekturkommentarer och beslut</a>.</p></td> 
+        <td>Workfront skickar ett e-postmeddelande med alla kommentarer, svar och beslut listade endast dagar när det finns någon aktivitet utöver din egen.<p>Den här varningen är ett bra sätt att se en sammanfattning av projektet utan att behöva överbelastas med flera uppdateringar under dagen.</p><p>Ett exempel på hur den här sammanfattningen används är en avdelningsledare som vill övervaka projektets övergripande förlopp.</p><p>Mer information finns i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Hantera meddelanden om korrekturkommentarer och beslut</a>.</p></td> 
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">Ingen e-post</td> 
-        <td>Workfront skickar inga e-postaviseringar.<br>Detta är användbart för en person som endast läggs till i ett korrektur för referens och som inte behöver underrättas om några ändringar.<p>Systemets standardvärde är Daglig sammanfattning (visas också som Inte angivet). Om du eller dina granskare inte gör några andra ändringar har alla dina korrektur den här inställningen.</p></td> 
+        <td>Workfront skickar inga e-postaviseringar.<br>Det här är användbart för en person som bara läggs till i ett korrektur för referens och som inte behöver informeras om några ändringar.<p>Systemets standardvärde är Daglig sammanfattning (visas också som Inte angivet). Om du eller dina granskare inte gör några andra ändringar har alla dina korrektur den här inställningen.</p></td> 
        </tr> 
       </tbody> 
      </table>
@@ -168,7 +168,7 @@ Så här konfigurerar du visningsinställningar för språkkontroll:
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>   
      -->
 
-   * **Rensa cache**: Raderar webbläsarens cachedata som kan sparas med ett interaktivt korrektur som du visar. Detta gör att innehåll som popup-fönster (som kan blockeras av webbläsarens cachedata) kan visas i Desktop Proofing Viewer.
+   * **Rensa cache**: Rensar webbläsarens cachedata som kan sparas med ett interaktivt korrektur som du visar. Detta gör att innehåll som popup-fönster (som kan blockeras av webbläsarens cachedata) kan visas i Desktop Proofing Viewer.
 
      De data som rensas inkluderar HTTP-cachen (t.ex. bilder som ska återanvändas efter nästa siduppdatering) och webblagringsdatacachen (t.ex. cookies och data som identifierar användare).
 

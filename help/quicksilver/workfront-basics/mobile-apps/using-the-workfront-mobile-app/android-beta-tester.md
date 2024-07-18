@@ -1,8 +1,8 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Bli betatestare för Android
-description: Läs den här artikeln för att bli en Android-betatestare för [!DNL Adobe Workfront] mobilapp.
+title: Bli betatestare av Android
+description: Läs den här artikeln om du vill bli Android betatestare för  [!DNL Adobe Workfront] mobilappen.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 ---
 
-# Bli en [!DNL Android] betatestare
+# Bli betatestare för [!DNL Android]
 
-## Ladda ned betaversionen av appen
+## Hämta betaversionen av appen
 
-Det finns några sätt att bli betatestare för [!DNL Adobe Workfront] app:
+Det finns några sätt att bli betatestare för appen [!DNL Adobe Workfront]:
 
-### [!DNL Google Play] Butik
+### [!DNL Google Play] Store
 
-Du kan använda [!DNL Google Play Store] för att hitta och ladda ned programmet:
+Du kan använda [!DNL Google Play Store] för att hitta och hämta appen:
 
-1. Öppna [!DNL Play Store] på din enhet.
-1. Sök efter [!DNL Workfront]och sedan trycka på den när den visas i listan.
-Du måste installera [!DNL Workfront] innan du går med i betaversionen.
-1. Installera och öppna [!DNL Workfront] app om du inte redan har gjort det.
-1. Bläddra mot mitten av sidan och tryck sedan **[!UICONTROL Join now]** i **[!UICONTROL Become a beta tester]** -avsnitt.
+1. Åtkomst till appen [!DNL Play Store] på din enhet.
+1. Sök efter [!DNL Workfront] och tryck sedan på den när den visas i listan.
+Du måste installera appen [!DNL Workfront] innan du går med i betaversionen.
+1. Installera och öppna appen [!DNL Workfront] om du inte redan har gjort det.
+1. Bläddra mot mitten av sidan och tryck sedan på **[!UICONTROL Join now]** i avsnittet **[!UICONTROL Become a beta tester]**.
 
-1. Tryck **[!UICONTROL Join]** för att bekräfta att du vill bli betatestare.\
-   Det tar några minuter att bli godkänd som betaanvändare. Du kan behöva öppna [!DNL Play Store] för att se ändringarna.
+1. Tryck på **[!UICONTROL Join]** för att bekräfta att du vill bli betatestare.\
+   Det tar några minuter att bli godkänd som betaanvändare. Du kan behöva öppna [!DNL Play Store] igen för att se ändringarna.
 
 1. När förloppet är klart får du en bekräftelse på att du nu är en betaanvändare.\
-   Ordet &quot;[!UICONTROL Beta]&quot; visas efter namnet på din app i [!DNL Play Store] som anger att du använder betaversionen av appen.\
+   Ordet [!UICONTROL Beta] visas efter appens namn i [!DNL Play Store], vilket anger att du använder betaversionen av appen.\
    ![](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR-kod
@@ -46,17 +46,17 @@ Du kan också skanna QR-koden nedan för att registrera dig för betaversionen o
 
 Om du vill ge feedback om betaappen eller rapportera ett problem:
 
-1. Tryck **[!UICONTROL More]** i det nedre navigeringsfältet.
+1. Tryck på **[!UICONTROL More]** i det nedre navigeringsfältet.
 1. Tryck på ditt namn och sedan **[!UICONTROL Submit Feedback]**.
-1. Välj **[!UICONTROL Start Survey]** för att ge allmän feedback om appen.\
+1. Välj **[!UICONTROL Start Survey]** om du vill ge allmän feedback om appen.\
    eller\
-   Välj **[!UICONTROL Report a Problem]** för att skicka in en biljett till [!DNL Workfront] Kundtjänst.
+   Välj **[!UICONTROL Report a Problem]** om du vill skicka en biljett till kundtjänstteamet på [!DNL Workfront].
 
-## Avanmäl dig från betatestning
+## Välj bort betatestning
 
-Så här avbryter du betatestningen av [!DNL Workfront] app:
+Så här avbryter du betatestning av appen [!DNL Workfront]:
 
-1. Öppna [!DNL Play Store] på din enhet.
-1. Sök efter [!DNL Workfront]och sedan trycka på den när den visas i listan.
-1. Bläddra nedåt till **[!UICONTROL You're a beta tester]** och sedan trycka **[!UICONTROL Leave]**.\
-   Det tar några minuter att ta bort som betatestare. Du kan behöva öppna [!DNL Play Store] för att se ändringarna.
+1. Åtkomst till appen [!DNL Play Store] på din enhet.
+1. Sök efter [!DNL Workfront] och tryck sedan på den när den visas i listan.
+1. Rulla ned till avsnittet **[!UICONTROL You're a beta tester]** och tryck sedan på **[!UICONTROL Leave]**.\
+   Det tar några minuter att ta bort som betatestare. Du kan behöva öppna [!DNL Play Store] igen för att se ändringarna.

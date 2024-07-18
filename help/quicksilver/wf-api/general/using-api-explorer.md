@@ -9,7 +9,7 @@ role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ När du använder API:t Adobe Workfront Core är API Explorer ett äldre referen
 
 ## Öppna API Explorer:
 
-1. Använd en webbläsare för att gå till [API Explorer](https://developer.adobe.com/workfront/api-explorer/)\
+1. Använd en webbläsare för att navigera till [API-utforskaren](https://developer.adobe.com/workfront/api-explorer/)\
    ![](assets/mceclip1-350x149.png)
 
-1. I det övre högra hörnet av API-utforskaren väljer du önskadWorkfront **API-version** som standard väljs den senaste versionen automatiskt
-1. The **Filter** -fält, kan användas för att filtrera objekten i listan efter namn och kommer att trunkera listan med objekt som visas i enlighet med detta:
+1. I det övre högra hörnet av API-utforskaren väljer du önskad **API-version** för Workfront. Som standard markeras den senaste versionen automatiskt
+1. Fältet **Filter** kan användas för att filtrera objekten listade efter namn och kommer att trunkera listan med objekt som visas i enlighet med detta:
 
    ![](assets/mceclip2-350x147.png)
 
@@ -33,7 +33,7 @@ När du använder API:t Adobe Workfront Core är API Explorer ett äldre referen
    * **Referenser**: Tillgängliga referensvariabler för det angivna objektet. En referens är ett alias för en variabel. När en referens har initierats kan den användas omväxlande med variabelnamnet. En referens använder initierat minne.
    * **Samlingar**: Tillgängliga samlingar för objektet. Samlingar är variabler som representerar en 1:N-relation mellan objektet och resursen.
    * **Sök**: Tillgängliga sökresurser för objektet. Resultatet av en sökning baseras på de frågeparametrar som anges av sökresursen i API-begäran.
-   * **Åtgärder**: Åtgärder som stöds för objektet. Åtgärder kan vara enkla eller komplexa procedurer som körs mot en resurs eller uppsättning resurser. En viss åtgärd kan också påverka relaterade resurser.
+   * **Åtgärder**: Funktioner som stöds för objektet. Åtgärder kan vara enkla eller komplexa procedurer som körs mot en resurs eller uppsättning resurser. En viss åtgärd kan också påverka relaterade resurser.
 
 1. Öppna en flik och klicka sedan på objekt-ID:t för att visa tillämpliga variabler.\
    ![](assets/approval-350x89.png)\

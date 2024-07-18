@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Om du är Adobe Workfront-administratör eller har en åtkomstnivå för Planering som gör att du kan redigera andra användares inställningar, kan du konfigurera meddelandeinställningarna för flera användare samtidigt. Detta inkluderar att ange om användare ska få meddelanden när händelser inträffar, eller i ett e-postmeddelande med dagliga sammandrag enligt beskrivningen i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md). Mer information om åtkomstnivån som behövs för att redigera användare finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Om du är Adobe Workfront-administratör eller har en åtkomstnivå för Planering som gör att du kan redigera andra användares inställningar, kan du konfigurera meddelandeinställningarna för flera användare samtidigt. Detta inkluderar att ange om användare ska få meddelanden när händelser inträffar eller i ett dagligt e-postmeddelande med sammandrag, vilket beskrivs i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md). Mer information om åtkomstnivån som krävs för att redigera användare finns i [Bevilja åtkomst till användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 Du kan också konfigurera e-postmeddelanden för en användare åt gången, inklusive din egen profil. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,28 +57,28 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 När du konfigurerar meddelandeinställningar gruppvis kan du bara ändra de inställningar som de markerade användarna har gemensamt.
 
-När du ändrar en meddelandeinställning visas etiketten **Redigerad** visas för den meddelandeinställningen så att du ser att meddelandeinställningen har ändrats.
+När du ändrar en aviseringsinställning visas etiketten **Redigerad** för den aviseringsinställningen, så att du vet att aviseringsinställningen har ändrats.
 
 Så här ändrar du e-postmeddelandeinställningar för flera användare:
 
 {{step-1-to-users}}
 
 1. Markera användarna och klicka sedan på **Redigera**.
-1. I **Redigera person** visas klickar du på **Meddelanden**.
+1. Klicka på **Meddelanden** i rutan **Redigera person** som visas.
 
 1. Expandera en kategori om du vill visa meddelandeinställningar för den kategorin.
 
-   Om minst en användare har valts där meddelandena inte matchar meddelandena från de andra valda användarna, innehåller kategorikryssrutan för meddelandet en vågrät rad ![](assets/straight-line-instead-of-checkmark.jpg) i stället för en bock.
+   Om minst en användare har valts där meddelandena inte matchar meddelandena för de andra valda användarna, innehåller kategorikryssrutan för det meddelandet en vågrät rad ![](assets/straight-line-instead-of-checkmark.jpg) i stället för en bockmarkering.
 
 
 1. Klicka på de meddelanden som du vill att användarna ska få dagligen eller omedelbart, eller rensa de meddelanden som du vill att de ska sluta ta emot.
 
    >[!NOTE]
    >
-   >   För **Kommunikation** kan du välja enskilda meddelanden för direktleverans. Du måste välja alla meddelanden som ska levereras i en daglig sammandrag.
+   >   För kategorin **Kommunikation** kan du endast välja enskilda meddelanden för direktleverans. Du måste välja alla meddelanden som ska levereras i en daglig sammandrag.
 
 
-1. Om du valde att meddelanden skulle skickas som en daglig sammanfattning, markerar du den tid på dagen som du vill att sammanfattningen ska levereras överst i dialogrutan **Meddelanden** i **E-posta daglig sammandrag efter** -menyn.
+1. Om du valde att meddelanden skulle skickas som en daglig sammanfattning, markerar du den tid på dagen som du vill att sammanfattningen ska levereras högst upp i avsnittet **Notifications** i menyn **Email Daily Digest efter** .
 
    ![](assets/daily-digest-time.png)
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.3 Versionsöversikt
 
-Den här sidan innehåller information om de funktioner som finns i version 22.3. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic upphör i mars 2022](https://one.workfront.com/s/new-workfront-experience), följt av utgånget för Workfront Classic i juli 2022.
+Den här sidan innehåller information om de funktioner som finns i version 22.3. Alla funktioner i listan är tillgängliga i den nya Adobe Workfront-upplevelsen. Vissa funktioner är också tillgängliga i Adobe Workfront Classic, men [Workfront Classic kommer att upphöra i mars 2022](https://one.workfront.com/s/new-workfront-experience), som kommer att följas inom kort efter det datum då Workfront Classic slutar gälla i juli 2022.
 
 Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 2022.
 
@@ -25,8 +25,8 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
 * [Projektförbättringar](#project-enhancements)
 * [Förbättrad resurshantering](#resource-management-enhancements)
 * [Rapportförbättringar](#reporting-enhancements)
-* [Integration enhancements](#integration-enhancements)
-* [Mobilförbättringar](#mobile-enhancements)
+* [Integreringsförbättringar](#integration-enhancements)
+* [Mobila förbättringar](#mobile-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar {#administrator-enhancements}
@@ -47,7 +47,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -61,7 +61,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: 15 september 2022</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td>
@@ -78,7 +78,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 1 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td>
@@ -91,20 +91,20 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td>
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigerare för beräkning av anpassat formulärfält visar felinformation
-</a><span style="color: #ff0000; font-weight: bold;"> (Tillfälligt otillgänglig)</span></p></p> <p>Det är nu enklare att redigera beräkningar för anpassade fält eftersom felinformation som anges direkt i beräkningen är användbar. När du skapar ett beräknat fält i ett anpassat formulär markeras fel i rosa. När du hovrar över den markerade delen visas ett verktygstips som beskriver vad problemet är.</p>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigerare för anpassad formulärfältberäkning visar felinformation
+</a><span style="color: #ff0000; font-weight: bold;"> (tillfälligt otillgänglig) </span></p></p> <p>Det är nu enklare att redigera beräkningar för anpassade fält eftersom felinformation som anges direkt i beräkningen är användbar. När du skapar ett beräknat fält i ett anpassat formulär markeras fel i rosa. När du hovrar över den markerade delen visas ett verktygstips som beskriver vad problemet är.</p>
     </td> 
     <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsversion: 9 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td>
@@ -118,7 +118,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
    </td>
   </tr>
@@ -133,29 +133,29 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 19 maj 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3 </p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Inaktivera en grupp från gruppsidan</a> </p> <p>Nyligen har vi lagt till möjligheten att inaktivera och återaktivera grupper. För att göra den åtgärden snabbare och enklare har vi lagt till den på en grupps sida. När du har klickat på en grupps namn för att gå till dess sida kan du nu välja menyn Mer <img src="assets/more-icon.png"> intill gruppens namn väljer du Inaktivera eller Återaktivera.</p> <p>Tidigare kunde du bara inaktivera eller återaktivera en grupp med kryssrutan Är aktiv på detaljsidan. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Inaktivera en grupp från gruppsidan</a> </p> <p>Nyligen har vi lagt till möjligheten att inaktivera och återaktivera grupper. För att göra den åtgärden snabbare och enklare har vi lagt till den på en grupps sida. När du har klickat på en grupps namn för att gå till dess sida kan du nu välja menyn Mer <img src="assets/more-icon.png"> bredvid gruppens namn och sedan välja Inaktivera eller Återaktivera.</p> <p>Tidigare kunde du bara inaktivera eller återaktivera en grupp med kryssrutan Är aktiv på detaljsidan. </p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsversion: 14 april 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3 </p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till videoklipp i anpassade formulär</a> </p> <p>Nu kan du skapa ett nytt sätt för information, visuellt intresse och kreativitet i ett anpassat formulär genom att lägga till en video. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet spela upp videon när som helst.</p> <p>Tidigare kunde du bara lägga till textbaserade fält och bilder i ett anpassat formulär.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till videofilmer i anpassade formulär</a> </p> <p>Nu kan du skapa ett nytt sätt för information, visuellt intresse och kreativitet i ett anpassat formulär genom att lägga till en video. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet spela upp videon när som helst.</p> <p>Tidigare kunde du bara lägga till textbaserade fält och bilder i ett anpassat formulär.</p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsversion: 14 april 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3 </p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -180,7 +180,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 9 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -192,7 +192,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 9 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -204,7 +204,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -215,7 +215,7 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 19 maj 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -226,41 +226,41 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 5 maj 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Behåll korrekt information när två användare med en gemensam roll deltar i en godkännandeprocess</a> </p> <p>För att säkerställa att dina data för godkännande av arbete är korrekta har vi gjort en ändring i hur godkännandeinformation registreras för en artikel när en godkännandeprocess för flera roller är kopplad till artikeln.</p> <p>Vissa godkännandeprocesser kräver godkännande från två olika roller, och två olika godkännare kan ha en av dessa gemensamma roller. När detta inträffar registrerar Workfront varje godkännare och deras respektive roll som är kopplad till godkännandeprocessen.</p> <p>Före den här ändringen registrerades båda godkännandena för den andra användaren eftersom de delade en av godkännanderollerna med den första godkännaren. I det här fallet skrev den andra godkännaren över den första godkännarens information.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Behåll korrekt information när två användare med en gemensam roll är inblandade i en godkännandeprocess</a> </p> <p>För att säkerställa att dina data för godkännande av arbete är korrekta har vi gjort en ändring i hur godkännandeinformation registreras för en artikel när en godkännandeprocess för flera roller är kopplad till artikeln.</p> <p>Vissa godkännandeprocesser kräver godkännande från två olika roller, och två olika godkännare kan ha en av dessa gemensamma roller. När detta inträffar registrerar Workfront varje godkännare och deras respektive roll som är kopplad till godkännandeprocessen.</p> <p>Före den här ändringen registrerades båda godkännandena för den andra användaren eftersom de delade en av godkännanderollerna med den första godkännaren. I det här fallet skrev den andra godkännaren över den första godkännarens information.</p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsversion: 21 april 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic upphörde i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic avbröts i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Ny upplevelse vid konvertering av ett ärende till ett projekt med hjälp av en mall på problemnivå</a> </p> <p>För att få din användning av Workfront att överensstämma med den nya Workfront-upplevelsen har vi omdesignat gränssnittet för att konvertera ett problem till ett projekt när du använder en mall när du konverterar det från problemsidan.</p> <p>Nu är det enklare att komma åt din lista med favoriter direkt efter att du har valt att konvertera utgåvan.</p> <p>Det omdesignade gränssnittet matchar upplevelsen när du skapar ett projekt från en mall som vi också har uppdaterat nyligen.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#new4" class="MCXref xref" xrefformat="{para}">Ny upplevelse vid konvertering av ett problem till ett projekt med hjälp av en mall på emissionsnivå</a> </p> <p>För att få din användning av Workfront att överensstämma med den nya Workfront-upplevelsen har vi omdesignat gränssnittet för att konvertera ett problem till ett projekt när du använder en mall när du konverterar det från problemsidan.</p> <p>Nu är det enklare att komma åt din lista med favoriter direkt efter att du har valt att konvertera utgåvan.</p> <p>Det omdesignade gränssnittet matchar upplevelsen när du skapar ett projekt från en mall som vi också har uppdaterat nyligen.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> 
     <ul> 
      <li> <p>Förhandsversion: 8 december 2021<br></p> </li> 
-     <li> <p>Produktionsrelease: fasad utrullning från 28 april 2022 <span style="color: #ff0000; font-weight: bold;">Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Det här är nu tillgängligt i Förhandsgranska och produktion för alla kunder.</span></p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+     <li> <p>Produktionsrelease: fasad utrullning från 28 april 2022 <span style="color: #ff0000; font-weight: bold;">Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Detta är nu tillgängligt i Förhandsgranska och produktion för alla kunder.</span></p> </li> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Konvertera ärenden till projekt med en mall från listor, rapporter och kontrollpaneler</a> </p> <p>För att effektivisera arbetet och göra det enklare för dig att konvertera utgåvor i en snabbpaketerad miljö har vi lagt till möjligheten att konvertera ett problem till ett projekt med hjälp av en mall från en lista, rapport eller en kontrollpanel.</p> <p>Före den här förbättringen fanns den här funktionen bara när du konverterade problemet från sidan med utgåvor.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#convert" class="MCXref xref" xrefformat="{para}">Konvertera problem till projekt med en mall från listor, rapporter och kontrollpaneler</a> </p> <p>För att effektivisera arbetet och göra det enklare för dig att konvertera utgåvor i en snabbpaketerad miljö har vi lagt till möjligheten att konvertera ett problem till ett projekt med hjälp av en mall från en lista, rapport eller en kontrollpanel.</p> <p>Före den här förbättringen fanns den här funktionen bara när du konverterade problemet från sidan med utgåvor.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> 
     <ul> 
      <li> <p>Förhandsversion: 8 december 2021<br></p> </li> 
-     <li> <p>Produktionsrelease: fasad utrullning från 28 april 2022 <span style="color: #ff0000; font-weight: bold;">Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Det här är nu tillgängligt i Förhandsgranska och produktion för alla kunder.</span></p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+     <li> <p>Produktionsrelease: fasad utrullning från 28 april 2022 <span style="color: #ff0000; font-weight: bold;">Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Detta är nu tillgängligt i Förhandsgranska och produktion för alla kunder.</span></p> </li> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -275,27 +275,27 @@ Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 juli 202
     <ul> 
      <li> <p>Förhandsversion: 10 februari 2022<br></p> </li> 
      <li> <p>Produktionsrelease: 21 april 2022 </p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic upphörde i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic avbröts i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Dela mappar endast på de fem översta nivåerna i en mapphierarki</a> (Detta länkar till versionsinformationen för version 20.2 när den här funktionen först introducerades i Förhandsvisning.)</p> <p>För att säkerställa bästa prestanda för användare som delar mappar begränsar vi för närvarande delningen till de fem högsta nivåerna i en mapphierarki på ett objekt.</p> <p>Varje mapp på sjätte nivån eller tidigare ärver sina delningskonfigurationer från mappen direkt ovanför den.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-project-enhancements.md#share" class="MCXref xref" xrefformat="{para}">Dela mappar endast på de fem översta nivåerna i en mapphierarki</a> (Den här länken till versionsinformationen för version 20.2 när den här funktionen först introducerades i Förhandsgranska.)</p> <p>För att säkerställa bästa prestanda för användare som delar mappar begränsar vi för närvarande delningen till de fem högsta nivåerna i en mapphierarki på ett objekt.</p> <p>Varje mapp på sjätte nivån eller tidigare ärver sina delningskonfigurationer från mappen direkt ovanför den.</p> </td> 
    <td><strong>Tillgängligt på följande datum:</strong> 
     <ul> 
      <li> <p>Förhandsversion: 10 februari 2022<br></p> </li> 
-     <li> <p>Produktionsrelease: Med version 2.2 <span style="color: #ff0000; font-weight: bold;">Den här funktionen är inte tillgänglig för tillfället. Den här sidan uppdateras när funktionen är tillgänglig i produktion.</span></p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+     <li> <p>Produktionsversion: Med version 2.2 <span style="color: #ff0000; font-weight: bold;">Den här funktionen är inte tillgänglig för tillfället. Den här sidan uppdateras när funktionen är tillgänglig i produktion.</span></p> </li> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
-     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic upphör i mars 2022</a>, följt av utgånget för Workfront Classic i juli 2022.)</p> </li> 
+     <li> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic kommer att upphöra i mars 2022</a>, följt av livscykeldatumet för Workfront Classic i juli 2022.)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (beta)</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Campaigns (Beta)</a> </p>
                         <p>Vi introducerar ett nytt objekt för Adobe Workfront som kan förändra ditt arbetssätt. </p>
                         <p>Med Workfront Campaigns kan ni ordna projekt från olika portföljer och program i en ny arbetsbehållare.
 Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information finns i <a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">2.3 Projektförbättringar</a> </p>
@@ -305,7 +305,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
                     <td><span class="bold">Tillgängligt på följande datum:</span>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Under hela tidsramen för version 22.4<br /><span style="color: #ff0000; font-weight: bold;">Den här funktionen kommer att tas bort från förhandsgranskningen den 9 januari 2023. Mer information finns i <a href="../23.1-release-activity/23-1-release-overview.md">23.1 Versionsöversikt.</a> </span></p>
+                                <p>Förhandsgranskningsversion: Under 22.4-versionens tidsram<br /><span style="color: #ff0000; font-weight: bold;">Den här funktionen kommer att tas bort från förhandsgranskningen den 9 januari 2023. Mer information finns på översiktssidan för <a href="../23.1-release-activity/23-1-release-overview.md">23.1-utgåvan.</a> </span></p>
                             </li>
                             <li>
                                 <p>Produktionsrelease: TBD</p>
@@ -332,7 +332,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -357,7 +357,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsversion: 23 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: 23 juni 2022</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -382,18 +382,18 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsgranskningsversion: Ej tillämpligt<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Kombinera flera filer i ett och samma korrektur i plugin-programmet Creative Cloud</a> </p> <p>Du kan nu överföra filer utanför med det innehåll du har skapat i plugin-programmet Adobe Workfront för Creative Cloud för att skapa korrektur för flera filer i Workfront. Utanför filer visas som extra korrektursidor i Workfront. Med den här förbättringen har vi även uppdaterat utseendet och känslan av att skapa korrektur.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Kombinera flera filer i ett enda korrektur i plugin-programmet för Creative Cloud</a> </p> <p>Du kan nu överföra filer utanför med det innehåll du har skapat i plugin-programmet Adobe Workfront för Creative Cloud för att skapa korrektur för flera filer i Workfront. Utanför filer visas som extra korrektursidor i Workfront. Med den här förbättringen har vi även uppdaterat utseendet och känslan av att skapa korrektur.</p> </td> 
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsgranskningsversion: Ej tillämpligt<br></p> </li> 
      <li> <p>Produktionsrelease: TBD</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -406,7 +406,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -425,13 +425,13 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
    <td> <p><strong>Releasedatum och miljöer</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av korrektur i mobilappen</a> </p> <p>Med Adobe Workfront mobilapp kan du nu visa bilagor om korrekturkommentarer och lägga till nya bilagor. Filtyper som stöds för bilagor är bilder, dokument och videoklipp.</p> </td>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">Språkförbättringar i mobilappen</a> </p> <p>Med Adobe Workfront mobilapp kan du nu visa bilagor om korrekturkommentarer och lägga till nya bilagor. Filtyper som stöds för bilagor är bilder, dokument och videoklipp.</p> </td>
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
    <p>Du kan även tagga andra korrekturläsare i kommentarer och svar. Alla som du taggar får ett e-postmeddelande.</p>
     <ul> 
      <li> <p>Förhandsgranskningsversion: Ej tillämpligt<br></p> </li> 
      <li> <p>Produktionsrelease: Finns i Apple App Store och Google Play Store i mitten av juli 2022.</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -455,18 +455,18 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsversion: 2 juni 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar som både ser ut och känns under 22.3-versionen</a> </p> <p>Mindre uppdateringar av utseendet och känslan i olika delar av programmet görs inom tidsramen för version 2.3. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.</p> </td>
+   <td> <p><a href="../../../product-announcements/product-releases/22.3-release-activity/22-3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tidsramen för version 22.3</a> </p> <p>Mindre uppdateringar av utseendet och känslan i olika delar av programmet görs inom tidsramen för version 2.3. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.</p> </td>
    <td> <p><b>Tillgängligt på följande datum:</b> </p> 
     <ul> 
      <li> <p>Förhandsgranskningsversion: Under hela tidsramen för version 2.3<br></p> </li> 
      <li> <p>Produktionsrelease: Minst två veckor efter lanseringen till Förhandsgranska (om inget annat anges)</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -477,7 +477,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsversion: 5 maj 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -488,7 +488,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
     <ul> 
      <li> <p>Förhandsversion: 5 maj 2022<br></p> </li> 
      <li> <p>Produktionsrelease: Med version 2.3</p> </li> 
-    </ul> <p><strong>Finns i följande miljöer:</strong> </p> 
+    </ul> <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
     <ul> 
      <li> <p>Nya Adobe Workfront </p> </li> 
     </ul> </td> 
@@ -498,7 +498,7 @@ Kampanjer lanserades som betaversion i juli 2022 i version 22.3. Mer information
 
 ## Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.3-versionen. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än 2.3-versionen. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ## Förbättringar av WorkfrontScenarioplanering
 
@@ -508,9 +508,9 @@ Det finns för närvarande inga uppdateringar av scenarioplanen i den här versi
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features are coming to Workfront Scenario Planner release with the 21.4 release. For information about these new features now available in Preview, see <a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Scenario Planner release activity</a>.</p>
 -->
 
-## Förbättringar av Workfront-korrektur
+## Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">New features in Workfront Proof are now available. For more information, see <a href="../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md" class="MCXref xref" xrefformat="{para}">Workfront Proof release activity:&nbsp;Week of November 29, 2021</a>.</p>
@@ -528,13 +528,13 @@ Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det h
 
 För API-version 14 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 14](../../../wf-api/api/new-api-version-14.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 14](../../../wf-api/api/new-api-version-14.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](../../../wf-api/api/api-version-support-schedule.md).
 
 ## Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ## 22.3 Release Webinar
 
@@ -565,12 +565,12 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i [Uppdateringssida för utbildningsversioner](https://one.workfront.com/s/training-release-updates).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns på sidan [Uppdateringar om utbildningsversioner](https://one.workfront.com/s/training-release-updates).
 
 ## Funktionen stöds inte längre
 
 ### Internet Explorer 11
 
-Nu när stödet för Internet Explorer har tagits bort har Workfront officiellt stöd för Microsoft Edge.
+Nu när stödet för Internet Explorer har tagits bort stöder Workfront officiellt Microsoft Edge.
 
-Mer information om vilka webbläsare som stöds finns i [Krav för Adobe Workfront webbläsare](../../../workfront-basics/workfront-browser-requirements.md).
+Mer information om vilka webbläsare som stöds finns i [Adobe Workfront webbläsarkrav](../../../workfront-basics/workfront-browser-requirements.md).

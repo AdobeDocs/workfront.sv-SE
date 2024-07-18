@@ -9,7 +9,7 @@ role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 0%
 
 <sup>1</sup> Datumvalidering har lagts till
 
-<sup>2</sup> NOT_FILTERABLE-flagga tillagd
+<sup>2</sup> Flaggan NOT_FILTERABLE har lagts till
 
  
 
@@ -131,9 +131,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Ändrad till Rapporteringsbar
+<sup>1</sup> har ändrats till Rapporterbar
 
-<sup>2</sup> Längdvaliderare har lagts till
+<sup>2</sup> har lagt till verifierare för maximal längd
 
  
 
@@ -146,9 +146,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Datumvalidering tillagd
+<sup>1</sup> Datumverifiering har lagts till
 
-<sup>2</sup> Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -172,7 +172,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Inte_Filterbar flagga tillagd
+<sup>1</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -184,7 +184,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Inte_Filterbar flagga tillagd
+<sup>1</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -196,7 +196,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> tillagd NO_TIME-fältflagga
+<sup>1</sup> lade till fältflaggan NO_TIME
 
 ### Burndown-händelse 
 
@@ -247,11 +247,11 @@ Växelkurs 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| ränta<sup>1</sup> |   |   |   |   |   |   |
+| rate<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> PRECISION-valideraren har ändrats för 8 till 9
+<sup>1</sup> Ändrad PRECISION-validerare för 8 till 9
 
  
 
@@ -285,9 +285,9 @@ Växelkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flaggad som RESTORABLE
+<sup>1</sup> flaggad som RESTORABLE
 
-<sup>2</sup> Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -304,26 +304,26 @@ Växelkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flaggas som RESTORABLE och RESOURCE_MANAGEABLE
+<sup>1</sup> flaggad som RESTORABLE och RESOURCE_MANAGEABLE
 
-<sup>2</sup> Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterable-flagga tillagd
 
  
 
-### Uppgift<sup>1</sup>
+### Aktivitet<sup>1</sup>
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| constraintDate<sup>2</sup> |   |   |   |   |   |   |
+| constraDate<sup>2</sup> |   |   |   |   |   |   |
 | workRequired<sup>3</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flaggad som RESTORABLE
+<sup>1</sup> flaggad som RESTORABLE
 
 <sup>2</sup> AT_DATE_YEAR_BEFORE-valideraren har lagts till
 
-<sup>3</sup> Inte_Filterbar flagga tillagd
+<sup>3</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -346,9 +346,9 @@ Växelkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flaggas som RESTORABLE och RESOURCE_MANAGEABLE
+<sup>1</sup> flaggad som RESTORABLE och RESOURCE_MANAGEABLE
 
-### Malluppgift<sup>1</sup> 
+### Mallaktivitet<sup>1</sup> 
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
@@ -356,9 +356,9 @@ Växelkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flaggad som RESTORABLE
+<sup>1</sup> flaggad som RESTORABLE
 
-<sup>2</sup> Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -384,7 +384,7 @@ Växelkurs 
 
 <sup>1</sup> Möjliga värden har ändrats
 
-<sup>2</sup> har filter ändrat till `[true]`
+<sup>2</sup> har filter ändrade till `[true]`
 
  
 

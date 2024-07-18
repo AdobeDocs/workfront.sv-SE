@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -51,11 +51,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Rapporter** sedan **Alla rapporter**.
+1. Klicka på **Rapporter** och sedan på **Alla rapporter**.
 1. Öppna en rapport.
-1. Klicka **Rapportåtgärder** sedan **Kopiera**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Kopiera**.
 
    >[!TIP]
    >
@@ -64,7 +64,7 @@ Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
 
    ![Kopiera rapport](assets/nwe-fulllistofreportactions-2022.png)
 
-   En kopia av den ursprungliga rapporten skapas med standardnamnet *Kopia av [Namn på den ursprungliga rapporten]*. Rapporten&quot;Slutförda uppgifter i Q4&quot; skulle till exempel ha&quot;Kopia av slutförda uppgifter i Q4&quot; som namn.
+   En kopia av den ursprungliga rapporten skapas med standardnamnet *Kopia av [namnet på den ursprungliga rapporten]*. Rapporten&quot;Slutförda uppgifter i Q4&quot; skulle till exempel ha&quot;Kopia av slutförda uppgifter i Q4&quot; som namn.
 
 1. (Valfritt) Om du vill byta namn på rapporten börjar du skriva ett nytt namn.
 
@@ -72,46 +72,46 @@ Om du vill skapa en kopia av en rapport som du är ägare av gör du följande:
    >
    >Om du avmarkerar titeln innan du skriver det nya namnet markerar du rapportrubriken, tar bort namnet och anger det nya namnet.
 
-1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportåtgärder** sedan **Delning**.
+1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportera åtgärder** och sedan på **Dela**.
 
    >[!NOTE]
    >
    >Delningsinformationen överförs inte till den kopierade rapporten från den ursprungliga versionen.\
-   >Mer information om vem den föregående rapporten delades med finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
+   >Mer information om hur du ser vem den föregående rapporten delades med finns i [Skapa en rapport om rapportaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md#identify).
 
 1. (Valfritt) Om du har behörigheten Hantera för den ursprungliga rapporten och den ursprungliga rapporten inte längre behövs, kan du ta bort den för att ta bort onödiga dubblettrapporter i Workfront.
 
    Så här tar du bort den ursprungliga rapporten:
 
    1. Navigera till rapporten.
-   1. Klicka **Rapportåtgärder** sedan **Ta bort**.
+   1. Klicka på **Rapportera åtgärder** och sedan på **Ta bort**.
 
-   1. Klicka **Ja, ta bort den** för att bekräfta att du vill ta bort rapporten.
+   1. Klicka på **Ja, ta bort den** för att bekräfta att du vill ta bort rapporten.
 
 ## Skapa en ny version av en rapport {#create-a-new-version-of-a-report}
 
 Om du vill skapa en kopia av en standardrapport gör du följande:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Rapporter** sedan **Alla rapporter**.
+1. Klicka på **Rapporter** och sedan på **Alla rapporter**.
 1. Klicka på namnet på en standardrapport för att öppna den.
-1. Klicka **Rapportåtgärder** sedan **Redigera**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
 
    ![Redigera rapport](assets/nwe-reportactionsfordefaultreport-2022.png)
 
 1. Gör de ändringar du behöver på följande flikar i rapporten:
 
-   * **Kolumner (vy)**: Mer information om hur du anpassar vyer finns i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * **Kolumner (Visa)**: Mer information om hur du anpassar vyer finns i artikeln [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
    * **Grupperingar**: Mer information om hur du anpassar grupperingar finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filter**: Mer information om att anpassa filter finns i artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Filter**: Mer information om hur du anpassar filter finns i artikeln [Filteröversikt](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    * **Diagram**: Mer information om hur du anpassar ett rapportdiagram finns i artikeln [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-1. Klicka på i det övre högra hörnet **Rapportinställningar**.
-1. I **Rapporttitel** ger du rapporten ett nytt namn.
-1. Klicka **Klar**.
-1. Klicka **Spara som ny rapport**.
+1. Klicka på **Rapportinställningar** i det övre högra hörnet.
+1. I fältet **Rapporttitel** ger du rapporten ett nytt namn.
+1. Klicka på **Klar**.
+1. Klicka på **Spara som ny rapport**.
 
    ![](assets/nwe-save-as-new-report-350x220.png)
 
-1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportåtgärder** sedan **Delning**.
+1. (Valfritt) Om du vill dela den nya versionen av rapporten med andra användare klickar du på **Rapportera åtgärder** och sedan på **Dela**.

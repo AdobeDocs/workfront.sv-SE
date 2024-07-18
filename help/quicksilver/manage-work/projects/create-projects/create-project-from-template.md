@@ -25,7 +25,7 @@ Med mallar kan du hämta upprepningsbara processer, information och inställning
 >
 >Workfront definierar det nya projektets grupp och status enligt följande:
 >
->* Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar, eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp. Mer information om hur du konfigurerar projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+>* Standardstatusen för ett nytt projekt som skapats från en mall motsvarar den status som definieras av Workfront-administratören i området Projektinställningar, eller av en gruppadministratör (eller Workfront-administratör) i området Projektinställningar för en grupp. Information om hur du konfigurerar projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) eller [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 >
 >* Det nya projektets grupp är mallgruppen. Om mallen inte är associerad med en grupp är projektgruppen hemgruppen för den användare som skapar projektet.
 >
@@ -37,7 +37,7 @@ Du har följande alternativ för att skapa ett projekt från en mall:
 * Skapa ett projekt från en mall på mallnivå
 * Koppla en mall till ett befintligt projekt
 
-  Mer information finns i [Bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+  Mer information finns i [Koppla en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 * Skapa ett projekt från en mall i området Grupper
 
@@ -103,7 +103,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -117,14 +117,14 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
 1. Gör något av följande:
 
-   * Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) längst upp till vänster. Klicka **Projekt** och sedan expandera **Nytt projekt**.
+   * Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet. Klicka på **Projekt** och expandera sedan **Nytt projekt**.
    * Gå till en portfölj och expandera sedan **Nytt projekt**.
 
      >[!TIP]
      >
      >När du skapar ett projekt med hjälp av en mall från en portfölj uppdateras fältet Portfolio i det nya projektet till att visa den portfölj som du valde att skapa projektet från. Detta skriver över Portfolio-fältet i mallen, om det har angetts.
 
-   * Gå till ett program och expandera **Nytt projekt**.
+   * Gå till ett program och expandera sedan **Nytt projekt**.
 
      >[!TIP]
      >
@@ -142,7 +142,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
 
    ![Nya projektalternativ](assets/new-project-dropdown.png)
 
-1. Klicka på namnet på en mall i dialogrutan **Favoritmallar** lista.
+1. Klicka på namnet på en mall i listan **Favoritmallar**.
 
    ![Välj en favoritmall](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
@@ -151,7 +151,7 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
    Gör följande:
 
    1. Välj **Nytt projekt från mall**.
-   1. I **Sökmallar** börjar du skriva namnet på en mall och klickar på den när den visas i listan.
+   1. I fältet **Sökmallar** börjar du skriva namnet på en mall och klickar på den när den visas i listan.
    1. Granska mallinformationen till höger.
 
       Mallinformationen innehåller följande:
@@ -162,34 +162,34 @@ Du kan skapa ett projekt från området Projekt på huvudmenyn eller från områ
       * Antalet uppgifter i mallen
       * Namnen på de anpassade mallformulären
 
-   1. (Valfritt) Håll markören över namnet på en mall i den vänstra rutan och klicka på knappen **Favoriter** **icon** ![](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
+   1. (Valfritt) Hovra över namnet på en mall i den vänstra rutan och klicka på ikonen **Favoriter** **** ![](assets/favorites-icon-small.png) för att markera den som en favorit för framtida bruk.
 
       eller
 
-      Expandera **Favoritmallar** och välj en mall i listrutan.
+      Expandera listan **Favoritmallar** och välj en mall i listrutan.
 
       >[!TIP]
       >
       >Du kan ha upp till 40 Workfront-objekt markerade som favoriter. Detta inkluderar mallar och andra objekt.
 
-   1. Klicka **Använd mall** när du har valt en mall.
+   1. Klicka på **Använd mall** när du har valt en mall.
 
       ![Mallinformation](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
       >[!NOTE]
       >
-      >Om du har använt vyn Milstolpe på projektlistan klickar du på namnet på en mall i **Nytt från mallavsnittet**.
+      >Om du har använt milstolpevyn på listan med projekt klickar du på namnet på en mall i avsnittet **Nytt från mall**.
       >
       >
-      >![Vy för milstolpe för att skapa ett projekt från en mall](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >![Milstolpevy för att skapa ett projekt från en mall](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
       >
 
-   The **Nytt projekt** öppnas.
+   Rutan **Nytt projekt** öppnas.
 
    ![Ny projektruta](assets/new-project-from-template-box.png)
 
-1. Om ett fält redan är ifyllt i mallen fylls fältet i automatiskt i **Nytt projekt** box. Du kan redigera de förifyllda värdena så att de bättre matchar ditt projekt. Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
-1. Klicka **Skapa projekt**.
+1. Om ett fält redan har fyllts i i mallen fylls fältet i automatiskt i rutan **Nytt projekt** . Du kan redigera de förifyllda värdena så att de bättre matchar ditt projekt. Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Klicka på **Skapa projekt**.
 
    All information som definieras i mallen kopplas automatiskt till det nya projektet om du inte ändrade dem i det föregående steget.
 
@@ -200,18 +200,18 @@ I stället för att börja i området Projekt kan du skapa ett projekt från en 
 {{step1-to-templates}}
 
 1. Klicka på namnet på en mall som du vill använda.
-1. Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Skapa projekt**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Skapa projekt**.
 
    ![Skapa projekt från mall](assets/project-sharing-on-template.png)
 
-   The **Nytt projekt** öppnas.
+   Rutan **Nytt projekt** öppnas.
 
 1. Ange ett namn för projektet, granska varje avsnitt och gör eventuella ändringar.
 
    ![Ny projektruta](assets/new-project-from-template-box.png)
 
-   Om ett fält redan är ifyllt i mallen fylls fältet i automatiskt i **Nytt projekt** box. Du kan redigera de förifyllda värdena så att de bättre matchar ditt projekt. Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Om ett fält redan har fyllts i i mallen fylls fältet i automatiskt i rutan **Nytt projekt** . Du kan redigera de förifyllda värdena så att de bättre matchar ditt projekt. Mer information finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Klicka **Skapa projekt**.
+1. Klicka på **Skapa projekt**.
 
    All information som definieras i mallen kopplas automatiskt till det nya projektet om du inte ändrade dem i det föregående steget.

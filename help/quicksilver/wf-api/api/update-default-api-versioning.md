@@ -9,7 +9,7 @@ role: Developer
 exl-id: ac394b41-63cb-481a-a858-30d8d7f840bb
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,16 @@ Integrationer som inte anger någon version av API:t i URI:n dirigeras automatis
 >
 >Om din organisation använder standardgränssnittet har Workfront-administratören fått ett meddelande om att meddelandecentret innehåller ytterligare instruktioner om standardgränssnittet.
 
-Mer information om hur du anger en version i dina API-begäranden finns i [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md).
+Mer information om hur du anger en version i API-begäranden finns i [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md).
 
 ## Att tänka på när du använder standard-API
 
 Tänk på följande när du arbetar med Workfront standard-API:
 
-* Standardversionen av API:t är den senaste versionen. Alla API-anrop utan den angivna versionen använder standardversionen. Varje gång Workfront släpper en ny version av API:t uppdateras standardversionen till den senaste versionen. **När en ny version av Workfront API har släppts bör därför alla API-anrop som använder standardversionen kontrolleras för att säkerställa att funktionen fortfarande stöds**.
+* Standardversionen av API:t är den senaste versionen. Alla API-anrop utan den angivna versionen använder standardversionen. Varje gång Workfront släpper en ny version av API:t uppdateras standardversionen till den senaste versionen. **När en ny version av Workfront API har släppts bör därför alla API-anrop som använder standardversionen kontrolleras för att se till att funktionen fortfarande stöds**.
 * Om din organisation använder det tidigare föråldrade standard-API:t har Workfront-administratören fått ett meddelande om att meddelandecentret innehåller ytterligare instruktioner om standard-API:t.
 
-Information om den senaste versionen av API:t finns i [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
+Om du vill se den senaste versionen av API:t läser du [API-versionshantering och supportschema](../../wf-api/api/api-version-support-schedule.md).
 
 ## Uppdatera integreringarna till API-versioner som stöds
 

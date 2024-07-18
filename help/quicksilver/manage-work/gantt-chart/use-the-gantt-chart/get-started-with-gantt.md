@@ -1,7 +1,7 @@
 ---
 content-type: overview
 navigation-topic: use-the-gantt-chart
-title: Kom igång med [!UICONTROL Gantt] Diagram
+title: Kom igång med diagrammet [!UICONTROL Gantt]
 description: Gantt-scheman i Adobe Workfront ger en visuell representation av tidslinjen för en lista över uppgifter eller projekt.
 author: Alina
 feature: Work Management
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Gantt-scheman i Adobe Workfront ger en visuell representation av tidslinjen för en lista över uppgifter eller projekt.
 
-I [!DNL Adobe Workfront], det finns två [!UICONTROL Gantt Charts] med liknande funktionalitet:
+I [!DNL Adobe Workfront] finns det två [!UICONTROL Gantt Charts] med liknande funktionalitet:
 
 * **Uppgiftslistan[!UICONTROL Gantt Chart]**: visar information om aktiviteter och deras tidslinje på projektnivå. En liknande [!UICONTROL Gantt Chart] visar information om malluppgifter på mallnivå.
 * **Projektlistan[!UICONTROL Gantt Chart]**: visar information om projekt och deras tidslinje.
@@ -33,15 +33,15 @@ I [!DNL Adobe Workfront], det finns två [!UICONTROL Gantt Charts] med liknande 
 * Du kan inte redigera information i följande [!UICONTROL Gantt Charts]:
    * En malluppgiftslista
    * En projektlista
-* Det finns inga [!UICONTROL Gantt Chart] för en lista med mallar.
-* Du kan konfigurera vilken information som ska visas i båda uppgiftslistorna [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart].
-* Du kan inte konfigurera färgerna eller teckensnitten som [!UICONTROL Gantt chart] information visas.
-* När information uppdateras från uppgifter återspeglas den automatiskt i både uppgiftslistan [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart].
+* Det finns inget [!UICONTROL Gantt Chart]-alternativ för en lista med mallar.
+* Du kan konfigurera vilken information som ska visas både i uppgiftslistan [!UICONTROL Gantt Chart] och i projektlistan [!UICONTROL Gantt Chart].
+* Du kan inte konfigurera färgerna eller teckensnitten som [!UICONTROL Gantt chart]-informationen visas i.
+* När information uppdateras från aktiviteter återspeglas den automatiskt i både aktivitetslistan [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart].
 * När information uppdateras från malluppgifter återspeglas den automatiskt i malluppgiftslistan [!UICONTROL Gantt Chart].
 
-## Öppna [!UICONTROL Gantt Chart]
+## Åtkomst till [!UICONTROL Gantt Chart]
 
-The [!UICONTROL Gantt] diagram i [!DNL Workfront]  ger en visuell representation av en lista över uppgifter eller projekt.
+Diagrammen [!UICONTROL Gantt] i [!DNL Workfront] ger en visuell representation av en lista med uppgifter eller projekt.
 
 Du kan visa uppgiftslistan [!UICONTROL Gantt Chart] direkt från uppgiftslistan i ett projekt eller från en uppgiftsrapport.
 
@@ -64,18 +64,18 @@ Så här kommer du åt uppgiftslistan [!UICONTROL Gantt Chart] för ett projekt 
 
 1. Gå till något av följande:
 
-   * Ett projekt och klicka sedan på [!UICONTROL **Uppgifter**] till vänster.
+   * Ett projekt och klicka sedan på [!UICONTROL **Åtgärder**] i den vänstra panelen.
    * En mall och klicka sedan på [!UICONTROL **Malluppgifter**] i den vänstra panelen
-   * En uppgift eller malluppgift och klicka sedan på [!UICONTROL **Underaktiviteter**] till vänster.
+   * En aktivitet eller malluppgift och klicka sedan på [!UICONTROL **Underaktiviteter**] i den vänstra panelen.
    * En uppgiftsrapport
 
-1. Klicka på [!UICONTROL **Gantt**] icon ![](assets/gantt-icon-nwe.png) högst upp i uppgiftslistan.
+1. Klicka på ikonen [!UICONTROL **Gantt**] ![](assets/gantt-icon-nwe.png) högst upp i uppgiftslistan.
 
    ![](assets/task-list-gantt.png)
 
    Uppgiftslistan [!UICONTROL Gantt Chart] öppnas till höger om uppgiftslistan.
 
-1. Så här konfigurerar du vilken information du vill visa i uppgiften [!UICONTROL Gantt] klickar du på [!UICONTROL **Inställningar**] och sedan aktivera något av följande alternativ:
+1. Om du vill konfigurera vilken information du vill visa i aktivitetsdiagrammet [!UICONTROL Gantt] klickar du på ikonen [!UICONTROL **Inställningar**] och aktiverar sedan något av följande alternativ:
 
    * [!UICONTROL Actual Dates]
    * [!UICONTROL Assignments]
@@ -107,18 +107,18 @@ Så här kommer du åt projektlistan [!UICONTROL Gantt Chart]:
 
 1. Gå till något av följande:
 
-   * The [!UICONTROL **Projekt**] area
-   * The [!UICONTROL **Projekt**] del av [!UICONTROL Portfolio]
-   * The [!UICONTROL **Projekt**] del av [!UICONTROL Program]
-   * A [!UICONTROL **Projekt**] rapport
+   * Området [!UICONTROL **Projekt**]
+   * Avsnittet [!UICONTROL **Projekt**] i en [!UICONTROL Portfolio]
+   * Avsnittet [!UICONTROL **Projekt**] i en [!UICONTROL Program]
+   * En [!UICONTROL **Project**]-rapport
 
-1. Klicka på [!UICONTROL **Gantt**] -ikonen högst upp i projektlistan.
+1. Klicka på ikonen [!UICONTROL **Gantt**] längst upp i projektlistan.
 
    ![](assets/project-list-gantt.png)
 
    Projektlistan [!UICONTROL Gantt Chart] öppnas.
 
-1. Så här konfigurerar du vilken information du vill visa i projektet [!UICONTROL Gantt] klickar du på [!UICONTROL **Inställningar**] och sedan aktivera något av följande alternativ:
+1. Om du vill konfigurera vilken information du vill visa i projektet [!UICONTROL Gantt] klickar du på ikonen [!UICONTROL **Inställningar**] och aktiverar sedan något av följande alternativ:
 
    * [!UICONTROL Actual Dates]
    * [!UICONTROL % Complete]

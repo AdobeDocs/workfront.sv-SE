@@ -17,18 +17,18 @@ ht-degree: 0%
 
 Du kan skapa en tidrapport för engångsbruk manuellt om du vill ha en tidrapport som inte är återkommande. När slutdatumet för tidrapporten nås och du behöver fler tidrapporter måste du skapa nya.
 
-Mer information om hur du skapar en tidrapportprofil som genererar återkommande tidrapporter för dina användare utan att du behöver göra något mer (rekommenderas) finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Mer information om hur du skapar en tidrapportprofil som genererar återkommande tidrapporter för dina användare utan att du behöver göra något (rekommenderas) finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 >[!NOTE]
 >
 >* Det går inte att skapa engångstidrapporter för grupper.
-
 >  <!--
 >  <span>Making sure with Lilit that this is correct</span>>
 >  -->
 >* När du skapar en enskild tidrapport kan du inte välja specifika allmänna timtyper att inkludera i tidrapporten. Alla allmänna timtyper som aktiveras i systemet visas i tidrapporter som skapas manuellt.
 >
 >  Om du bara vill välja vissa allmänna timtyper att visa i tidrapporterna använder du en tidrapportprofil. Mer information om tidrapportprofiler finns i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+>
 
 ## Åtkomstkrav
 
@@ -48,9 +48,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p><b> ANMÄRKNING</b>
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p><b> ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -59,25 +59,26 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Skapa en tidrapport för engångsbruk
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Tidrapporter**. The **Alla** filtret är markerat som standard. Då visas alla tidrapporter som du har tillgång till.
+1. Klicka på **Tidrapporter**. Filtret **Alla** är markerat som standard. Då visas alla tidrapporter som du har tillgång till.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Valfritt) Uppdatera filtret i listan över tidrapporter genom att göra något av följande:
 
-   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
+   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du godkänner
 
-      eller
+     eller
 
-      Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
+     Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
 
-      Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
+     Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen Filter ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på Filterikonen ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Alternativen Mina tidrapportgodkännanden och Mina tidrapporter visas inte högst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtren Mina tidrapportgodkännanden och Mina tidrapporter från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
@@ -85,10 +86,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
+1. (Valfritt) Klicka på ikonen **Sök** ![](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
 
-1. (Valfritt) Klicka på **Sök** icon ![](assets/search-icon.png) om du vill skriva ett nyckelord och söka efter en viss tidrapport. Du kan t.ex. söka efter en tidsram för tidrapporten med ägarnamnet.
-
-1. (Valfritt) Klicka på **Visa** ![](assets/view-icon.png) eller **Gruppering** ![](assets/grouping.png) ikoner för att använda en annan vy eller gruppering eller för att skapa en ny.
+1. (Valfritt) Klicka på ikonerna **Visa** ![](assets/view-icon.png) eller **Gruppera** ![](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 
    Mer information om hur du skapar filter, vyer och grupperingar finns i följande artiklar:
 
@@ -96,7 +96,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * [Skapa eller redigera vyer i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Skapa grupperingar i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Klicka **Ny tidrapport** högst upp i listan över tidrapporter.
+1. Klicka på **Ny tidrapport** högst upp i listan över tidrapporter.
 
    Ange följande information:
 
@@ -118,24 +118,24 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Godkännare</strong> </td> 
-      <td>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administrationsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.<br>Börja ange namnen på tidrapportgodkännarna och klicka på dem när de visas i listan.<br>Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och tas bort från listan över tidrapportgodkännanden för alla återstående godkännare.</td> 
+      <td>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administratörsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.<br>Börja ange namnen på tidrapportgodkännarna och klicka på dem när de visas i listan.<br>Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och försvinner från listan över tidrapportgodkännanden för alla återstående godkännare.</td> 
       </tr> 
       <tr> 
-      <td role="rowheader"><strong>Redigeringstid</strong> </td>
+      <td role="rowheader"><strong>Kan redigera tid</strong> </td>
 
    <td> <p>Välj det här alternativet om du vill tillåta godkännare att redigera timmar på tidrapporten.</p>
 
-   Det här alternativet fungerar tillsammans med **Begränsa redigering av tidrapporter till ägare och administratörer** i Inställningar > Tidrapport och timmar > Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.
+   Det här alternativet fungerar tillsammans med inställningen **Begränsa redigering av tidrapporter till ägare och administratörer** i området Inställningar > Tidrapport och timmar > Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.
 
    Följande scenarier finns:
 
    <ul>
-      <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> är aktiverat:</li>
-   <ul><li>Godkännare kan bara godkänna och avvisa tidrapport, oavsett om <b>Redigeringstid</b> är aktiverat eller inte. </li>
+      <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är aktiverat:</li>
+   <ul><li>Godkännare kan bara godkänna och avvisa tidrapport, oavsett om <b>Kan redigera tid</b> är aktiverat eller inte. </li>
    <li>Tidrapportsägarnas chefer kan bara visa sina direkt rapporters tidrapporter.</li></ul>
-   <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> är inaktiverat:</li>
-   <ul><li>När <b>Redigeringstid</b> är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.</li>
-   <li>När <b>Redigeringstid</b> är inaktiverat, godkännare kan inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten. </li>
+   <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är inaktiverat:</li>
+   <ul><li>När <b>Kan redigera tid</b> är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.</li>
+   <li>När <b>Kan redigera tid</b> är inaktiverat kan godkännarna inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten. </li>
    <li>Tidrapportsägarnas chefer kan skicka, återkalla, öppna och redigera sina direkt underställda tidrapporter.</li></ul>
    </ul>
 
@@ -154,7 +154,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
       </tbody> 
    </table>
 
-1. Klicka **Skapa tidrapport**.
+1. Klicka på **Skapa tidrapport**.
 
 <!--the content in the table above will need to match the content in the Create timesheet profiles article-->
 
@@ -168,4 +168,4 @@ En uppgift eller ett ärende som tilldelats en användare visas automatiskt på 
 * Aktiviteten eller problemet är fäst på tidrapporten
 * Planerat slutförandedatum ligger inom datumintervallet för tidrapporten och statusen Pågår
 
-Om **Fyll i i förväg tidrapporter med ...** inställningarna (som finns i tidrapporter och timinställningar) avmarkeras, tidrapporten visar problem och uppgifter som har statusen Pågår. Mer information om tidrapporter och timinställningar finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Om **förifylla tidrapporter med ...**-inställningar (som finns i tidrapporter och timinställningar) är avmarkerade visas problem och uppgifter med statusen Pågår i tidrapporten. Mer information om tidrapporter och timinställningar finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

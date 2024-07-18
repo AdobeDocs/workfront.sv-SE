@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Avsluta inte senare än'
+title: 'Översikt över aktivitetsbegränsning: Slutför inte senare än'
 description: Avsluta senast (FNLT) är en aktivitetsbegränsning som schemalägger en aktivitet som ska slutföras före det datum du anger.
 author: Alina
 feature: Work Management
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Avsluta senast
+# Översikt över aktivitetsbegränsning: Slutför inte senare än
 
 Avsluta senast (FNLT) är en aktivitetsbegränsning som schemalägger en aktivitet som ska slutföras före det datum du anger.
 
-## Översikt över villkoret Slutför inte senare än
+## Översikt över villkoret Slutför senast
 
 Tänk på följande när du använder begränsningen Slutför inte senare än (FNLT) för en uppgift:
 
@@ -33,13 +33,14 @@ Tänk på följande när du använder begränsningen Slutför inte senare än (F
 
       * När målprojektet är schemalagt från slutförande:
 
-         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date ändras aktivitetsbegränsningen till As Late As Possible.
+         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date, ändras aktivitetsbegränsningen till As Late As Possible.
          * När villkorsdatumet för aktiviteten är tidigare än det planerade startdatumet för projektet ändras projektets planerade startdatum så att det matchar startvillkorsdatumet för aktiviteten.
+
       * Oavsett schemat för projektet, när villkorsdatumet för aktiviteten ligger inom projektets start- och slutförandedatum, finns det inga ändringar i aktivitetsbegränsningen eller projektdatumen.
 
-   Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att flytta uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

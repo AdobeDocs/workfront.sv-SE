@@ -21,7 +21,7 @@ ht-degree: 0%
 Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller redigera objekt genom att tilldela dem en åtkomstnivå. I artiklarna nedan beskrivs hur åtkomstnivåerna fungerar.
 
 * [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
-* [Översikt över licenser](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
+* [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)
 * [Inbyggda åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
 * [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)
 * [Visa användarnas åtkomstnivåer och licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
@@ -31,5 +31,5 @@ Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller 
 ## Se även
 
 * Mer information om hur du skapar åtkomstnivåer finns i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* Mer information om hur användare kan dela objekt med varandra och bevilja behörigheterna Visa och Redigera för dessa objekt finns i [Bevilja och begär behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
-* Mer information om tabellen Åtkomstkrav som finns i dokumentationsartiklar finns i [Krav för åtkomstnivåer i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Mer information om hur användare kan dela objekt med varandra, och om hur du beviljar behörigheterna Visa och Redigera för dessa objekt, finns i [Bevilja och begär behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Mer information om tabellen Åtkomstkrav som finns i dokumentationsartiklar finns i [Åtkomstnivåkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

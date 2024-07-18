@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Förbättrad resurshantering
 
-Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Vyn på månadsnivå i belastningsutjämnaren
 
 För att du ska kunna hantera resurstilldelningen under större tidsperioder har vi nu implementerat en vy på månadsnivå för belastningsutjämnaren. Du kan visa upp till tre månader i taget och uppdatera månatliga resursallokeringar. Före den här ändringen kan du bara visa arbetsbelastningsutjämnaren per dag eller vecka.
 
-Mer information finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Mer information finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Anslutning mellan scenplanering, arbetsbelastningsutjämnare och uppgiftslista
 
@@ -48,13 +48,13 @@ Med en ny inställning i Resursplaneraren kan du använda Planerade timmar när 
 
 Före den här förbättringen beräknade Workfront nettovärden endast med Budgeterade timmar. Nettovärden visar skillnaden mellan Tillgängliga och Budgeterade eller Planerade timmar, FTE eller Kostnad. Budgeterade timmar är fortfarande standardinställningen vid beräkning av nettovärden.
 
-Mer information finns i [Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Mer information finns i [Översikt över timmar-, FTE- och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## 12-veckorsvy i arbetsbelastningsutjämnaren
 
 Du kan nu visa upp till 12 veckors information i Utjämning av arbetsbelastning. Före den här förbättringen kan du visa 2,4 och 6 veckors information.
 
-Mer information om hur du visar arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigera till Utjämning av arbetsbelastning.
+Mer information om hur du visar arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigera i arbetsbelastningsutjämnaren.
 
 ## Ändring av hur filtret Jobbroll fungerar i området Ej tilldelat i Utjämning av arbetsbelastning
 
@@ -62,4 +62,4 @@ För att förbättra hur filtret Jobbroll fungerar i Utjämning av arbetsbelastn
 
 Före den här förbättringen visades alla timmar som är associerade med arbetsobjekten som tilldelats till jobbrollerna när jobbrollsfiltret tillämpades på området Ej tilldelat.
 
-Mer information om filtrering av information i Utjämning av arbetsbelastning finns i [Hantera filter i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Mer information om filtrering av information i arbetsbelastningsutjämnaren finns i [Hantera filter i Arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

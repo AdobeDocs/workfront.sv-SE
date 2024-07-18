@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '3646'
+source-wordcount: '3620'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ behörighet att agera å deras vägnar. Den här handskakningsprocessen utförs 
 1. Användaren börjar ansluta webbkrokintegreringen till sitt konto. För närvarande gör du detta genom att klicka på listrutan Lägg till dokument > Lägg till tjänst > Anpassat integrationsnamn.
 1. Workfront navigerar till användaren via autentiserings-URL:en, som kan uppmana användaren att logga in på den externa dokumentleverantören. Den här sidan hanteras av webbkrokprovidern eller det externa dokumenthanteringssystemet. När du gör det lägger Workfront till en state-parameter i autentiserings-URL:en. Detta värde måste skickas tillbaka till Workfront genom att samma värde läggs till i Workfront Retur-URI i steget nedan.
 1. När användaren har loggat in på det externa systemet (eller om användaren redan är inloggad) visas sidan Autentisering, som förklarar att Workfront begär åtkomst för att utföra en uppsättning åtgärder för användarens räkning.
-1. Om användaren klickar på Tillåt omdirigeras webbläsaren till Workfront omdirigerings-URI och &quot;code=`<code>`&quot; till frågesträngen. Enligt specifikationen OAuth2 är denna token kortlivad. Frågesträngen måste också ha följande, &quot;state=`<sent_by_workfront>`&quot;.
+1. Om användaren klickar på Tillåt omdirigeras webbläsaren till Workfront omdirigerings-URI och&quot;code=`<code>`&quot; läggs till i frågesträngen. Enligt specifikationen OAuth2 är denna token kortlivad. Frågesträngen måste också ha följande, &quot;state=`<sent_by_workfront>`&quot;.
 1. Workfront behandlar denna begäran och gör ett API-anrop till Token Endpoint URL med auktoriseringskoden.
 1. Token Endpoint URL returnerar en uppdateringstoken och åtkomsttoken.
 1. Workfront lagrar en sådan token och tillhandahåller webbkrokintegreringen för den här användaren.
@@ -595,7 +595,7 @@ Metadata för filen, enligt definitionen i /metadata-slutpunkten.
 
 **Svar**
 
-`[file_metadata]` innehåller det nya dokument-ID som används av dokumentleverantören.
+`[file_metadata]` innehåller det nya dokument-ID som används av dokumentprovidern.
 
 ### Överför en fil - del 2 av 2
 
@@ -614,7 +614,7 @@ PUT /upload
 
  
 
-**Begärandetext**
+**Begär brödtext**
 
 Dokumentets byte med Raw-innehåll.
 
@@ -634,7 +634,7 @@ eller
 }
 ```
 
-**Exempel:** `https://www.acme.com/api/upload?id=1234` *[dokumentbyte som ingår i uppdateringsflödet]*
+**Exempel:** `https://www.acme.com/api/upload?id=1234` *[dokumentbyte ingår i uppdateringsströmmen]*
 
 **Svar**
 

@@ -6,7 +6,7 @@ description: När den primära kontakten för ett problem gör en uppdatering av
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: 948cd81908df3174eb985d1c65533077d3ef5d49
+source-git-commit: d3525d9f286e08258d75d770d257b325b9ee8ca9
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -21,13 +21,13 @@ Följande krävs för att denna automatiska statusändring ska kunna utföras:
 
 * Problemet måste anges via en begärandekö.
 
-  Mer information om hur du skapar begärandeköer finns i [Skapa och hantera frågeköer](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) -avsnitt. Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Mer information om hur du skapar begärandeköer finns i avsnittet [Skapa och hantera begärandeköer](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md). Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 * Köinformationen i begärandekön måste ha följande inställningar:
-   * **När någon gör en förfrågan tilldelar du automatiskt** är inställd på **Contribute Access**
-   * **Ändra status** är markerat under Avancerade inställningar
+   * **När någon gör en begäran tilldelas** automatiskt till **Contribute Access**
+   * **Ändra status** har valts under Avancerade inställningar
 
-  ![Köinformation som ger Contribute åtkomst och Ändra status är markerat.](assets/queuedetails-contributeaccess-changestatus.png)
+  ![Köinformation som ger Contribute åtkomst och Ändra status har valts.](assets/queuedetails-contributeaccess-changestatus.png)
 
   >[!IMPORTANT]
   >
@@ -35,7 +35,7 @@ Följande krävs för att denna automatiska statusändring ska kunna utföras:
   >
   >När du avmarkerar inställningen Ändra status när du ställer in begärandekön måste du komma ihåg att systemadministratörer alltid har tillgång till att ändra status för problem, även om alternativet Ändra status är avmarkerat i inställningarna för begärandekön.
 
-  Mer information om köinformation finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Mer information om köinformation finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 * Problemet måste ha statusen Väntar på feedback.
 * Det måste finnas en AWF-status (Väntar på feedback) för problem på systemnivå.

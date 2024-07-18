@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -41,12 +41,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll
 
@@ -54,20 +54,20 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
 
 >[!TIP]
 >
->Vi rekommenderar interaktiv korrektur i stället för statisk korrektur för interna sidor som kräver behörighet och lösenordsskyddade sidor. Mer information finns i [Översikt över korrektur av interaktivt material](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+>Vi rekommenderar interaktiv korrektur i stället för statisk korrektur för interna sidor som kräver behörighet och lösenordsskyddade sidor. Mer information finns i [Översikt över korrektur för interaktivt innehåll](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur för en webbplats eller en ny version av ett befintligt.
-1. Klicka **Dokument** i den vänstra panelen .
-1. (Villkorligt) Om du skapar ett nytt korrektur klickar du **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
+1. Klicka på **Dokument** i den vänstra panelen.
+1. (Villkorligt) Om du skapar ett nytt korrektur klickar du på **Lägg till nytt** och sedan på **Korrektur** på menyn som visas.
 1. (Villkorligt) Om du skapar en ny version av ett befintligt korrektur:
 
    1. För musen över det URL-korrektur som du vill skapa en ny version för och markera det sedan genom att klicka i den ljusblå bakgrunden runt det.
 
-      ![Select_proof_by_select_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-   1. Klicka **Lägg till ny** > **Version** > **Korrektur**.
+   1. Klicka på **Lägg till ny** > **Version** > **Korrektur**.
 
-1. Ange URL-adressen till den webbplats som du vill korrekturgranska i dialogrutan **Lägg till filer** område, tryck sedan på **Retur**.
+1. Skriv webbadressen till den webbplats som du vill korrekturgranska i området **Lägg till filer** och tryck sedan på **Retur**.
 
    >[!NOTE]
    >
@@ -79,8 +79,8 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
 
    ![](assets/interactive-proof-radio-btn-area-350x199.png)
 
-1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du en **Korrekturnamn.**
-1. Kontrollera att **Ta skärmbild** är markerat och använder något av följande alternativ:
+1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du ett **korrekturnamn.**
+1. Kontrollera att **Skärmbilden** för hämtning är markerad och använd något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -101,15 +101,15 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
    >
    >Du kan inte ändra inställningen för skärmbild i Capture för efterföljande versioner av korrekturet som du skapar.
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.
 
-   Om du valde flera skärmbildupplösningar i steg 8 innehåller listan en uppsättning skärmbilder för varje upplösning. Du kan generera skärmbilderna som separata korrektur eller kombinera dem till ett enda korrektur (se i .). Vi rekommenderar att du kombinerar dem, särskilt om du skapar ett statiskt webbplatskorrektur.
+   Om du valde flera skärmbildupplösningar i steg 8 innehåller listan en uppsättning skärmbilder för varje upplösning. Du kan generera skärmbilderna som separata korrektur eller kombinera dem till ett enda korrektur (se  in .). Vi rekommenderar att du kombinerar dem, särskilt om du skapar ett statiskt webbplatskorrektur.
 
    >[!NOTE]
    >
    >Om du lägger till en ny version till ett befintligt URL-korrektur behålls alla alternativ som konfigurerats på det ursprungliga korrekturet eller den tidigare versionen i den här versionen.
 
-1. Klicka **Skapa korrektur** för att skapa ett enkelt korrektur utan någon granskningsprocess.\
+1. Klicka på **Skapa korrektur** om du vill skapa ett enkelt korrektur utan någon granskningsprocess.\
    eller\
    Fortsätt genom att konfigurera ett avancerat korrektur:
 

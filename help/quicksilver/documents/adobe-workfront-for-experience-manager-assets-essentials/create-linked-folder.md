@@ -49,7 +49,7 @@ Du måste ha följande:
    </td>
   </tr>
   <tr>
-   <td><strong>Konfigurationer på åtkomstnivå</strong>
+   <td><strong>Åtkomstnivåkonfigurationer</strong>
    </td>
    <td>Du måste vara Workfront-administratör för att kunna konfigurera en integrering med Experience Manager. När den har konfigurerats kan användare med en planlicens ställa in länkade mappar i enskilda projekt.
    </td>
@@ -64,7 +64,7 @@ Du måste ha följande:
 
 Innan du börjar,
 
-* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Skapa en länkad mapp
@@ -78,7 +78,7 @@ Så här skapar du en länkad mapp:
 
 
 1. Gå till det projekt där du vill ha mappen.
-1. Välj **Lägg till ny** går du till den Experience Manager-integrering som administratören har konfigurerat.
+1. Välj **Lägg till ny** och gå sedan till den Experience Manager-integrering som administratören har konfigurerat.
 
    >[!NOTE]
    >

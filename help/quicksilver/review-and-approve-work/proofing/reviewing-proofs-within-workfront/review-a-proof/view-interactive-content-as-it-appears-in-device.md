@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
 source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '576'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Enhets- och upplösningsvyer i Desktop Proofing Viewer jämfört med Web Proofing Viewer
 
@@ -61,8 +61,8 @@ Din Adobe Workfront-administratör har konfigurerat ditt system så att du kan g
 ## Visa ett korrektur med en förinställd enhet eller upplösningsinställning
 
 1. Gå till dokumentlistan som innehåller det korrektur som du vill öppna.
-1. Håll muspekaren över dokumentet och klicka sedan **Öppna korrektur**.
-1. Klicka **Responsiv** i mitten ned i korrekturläsaren.
+1. Håll pekaren över dokumentet och klicka sedan på **Öppna korrektur**.
+1. Klicka på **Responsiv** i mitten av korrekturläsaren.
 
    ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
 
@@ -72,16 +72,16 @@ Din Adobe Workfront-administratör har konfigurerat ditt system så att du kan g
 
    I Web Proofing Viewer klickar du på önskad upplösning i listan med upplösningar.
 
-   Om du behöver information om hur dessa två visningsprogram skiljer sig kan du läsa [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer - översikt](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+   Om du behöver information om hur dessa två visningsprogram skiljer sig läser du [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer.](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
    Det interaktiva korrekturet återges i den upplösning du väljer.
 
 ## Visa ett korrektur med en anpassad upplösningsinställning
 
 1. Gå till dokumentlistan som innehåller det korrektur som du vill öppna.
-1. Håll muspekaren över dokumentet och klicka sedan **Öppna korrektur**.
-1. Klicka **Responsiv** i mitten ned i korrekturläsaren.
-1. Ange en egen **Responsiv** upplösning.
+1. Håll pekaren över dokumentet och klicka sedan på **Öppna korrektur**.
+1. Klicka på **Responsiv** i mitten ned i korrekturläsaren.
+1. Ange en anpassad **responsiv**-upplösning.
 
    ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
@@ -93,7 +93,7 @@ Din Adobe Workfront-administratör har konfigurerat ditt system så att du kan g
 
    Den anpassade upplösningen visas på följande platser:
 
-   * I **Upplösning** längst ned i mitten av visningsprogrammet.\
+   * I panelen **Upplösning** längst ned i mitten av visningsprogrammet.\
      ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
    * I kommentarer lägger granskarna till korrekturet. Varje kommentar innehåller den skärmupplösning som valdes när granskaren skapade kommentaren.

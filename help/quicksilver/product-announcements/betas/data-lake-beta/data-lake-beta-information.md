@@ -17,11 +17,11 @@ ht-degree: 0%
 
 Workfront datasjön är ett nytt verktyg som för närvarande är under utveckling och som ger ett dedikerat gränssnitt där organisationer kan hämta data för användning i populära affärsanalysverktyg eller för lagring i externa datalager - utan att behöva använda komplicerade API- eller Fusion-lösningar. Den här sidan innehåller information om hur du kan hjälpa oss genom att testa och ge feedback på det här verktyget under vår pågående betaversion.
 
-Mer information om hur du använder Workfront Data Lake finns i [Workfront Data Lake - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Mer information om hur du använder Workfront-sjön finns i [Workfront Data Lake - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 **Beta-schema:**
 
-* Startdatum för betaversion - 15 april 2024
+* Beta startdatum - 15 april 2024
 * Planerat frisläppningsdatum - TBA
 
 ## Delta i betaversionen
@@ -34,17 +34,17 @@ Mer information om hur du använder Workfront Data Lake finns i [Workfront Data 
 
 Fyll i och skicka in formuläret på följande länk för att registrera din organisation i betaversionen:
 
-[Betaversion av Workfront Data Lake](https://adobe.ly/workfrontdatalake)
+[Betaversion av Workfront Data Lake ](https://adobe.ly/workfrontdatalake)
 
 ### Ge feedback
 
 Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ instruktionerna nedan för att dela din erfarenhet med oss.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
-1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
+1. Klicka på **System** > **Dataåtkomst** i den vänstra panelen.
 
-1. Klicka på **Skicka feedback** längst ned på sidan och fyll sedan i formuläret med din feedback.
+1. Klicka på knappen **Skicka feedback** längst ned på sidan och fyll sedan i formuläret med din feedback.
 
 ## Planerade funktioner
 

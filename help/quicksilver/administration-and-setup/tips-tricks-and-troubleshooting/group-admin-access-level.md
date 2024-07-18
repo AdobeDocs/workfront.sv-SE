@@ -8,13 +8,13 @@ description: Om en gruppadministratör har behörigheter på åtkomstnivån som 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 458149110d71475820dc6f3b27f1e062c3fe66f6
+exl-id: 2b501a1e-fb56-44fa-8518-07537dc90a5b
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
 
 ---
-
 
 # Gruppadministratörer måste ha högre åtkomst än de som de hanterar
 

@@ -18,15 +18,15 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Flera granskare kan granska ett korrektur samtidigt. När du granskar ett korrektur kan du se vilka andra som granskar samma korrektur.
 
-Du kan se närvaroindikatorer när andra granskare har samma korrektur öppet, oavsett om de lägger till kommentarer i korrekturet eller inte. Om de lägger till kommentarer visas kommentarerna när du granskar korrekturet; du inte behöver uppdatera korrekturläsaren för att se dem.
+Du kan se närvaroindikatorer när andra granskare har samma korrektur öppet, oavsett om de lägger till kommentarer i korrekturet eller inte. Om de lägger till kommentarer visas kommentarerna när du granskar korrekturet. Du behöver inte uppdatera korrekturläsaren för att se dem.
 
 1. Visa närvaroindikatorerna i det övre högra hörnet av korrekturläsaren.
 
-   Om du använder [!DNL Workfront Proof] (inte korrekturfunktionen som är integrerad med [!DNL Workfront]), närvaroindikatorer innehåller användarens [!DNL Workfront Proof] profilbild eller, om det inte finns någon profilbild, den första och sista initialen om användaren.
+   Om du använder [!DNL Workfront Proof] (inte den korrekturfunktion som är integrerad med [!DNL Workfront]) innehåller visningsindikatorerna användarens [!DNL Workfront Proof]-profilbild eller, om det inte finns någon profilbild, den första och sista initialen om användaren.
 
    Profilbilder i [!DNL Workfront] visas inte i korrekturläsaren.
 

@@ -20,9 +20,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Varumärken [!DNL Workfront Proof] webbplats - avancerad](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-* [Varumärken [!DNL Workfront Proof] webbplats](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+* [Varumärk  [!DNL Workfront Proof] webbplatsen - avancerat](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
+* [Varumärk  [!DNL Workfront Proof] webbplatsen](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)

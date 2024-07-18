@@ -2,19 +2,19 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Gruppering: projekt efter anmälningsdatum'
+title: 'Gruppera: projekt efter anmälningsdatum'
 description: I den här anpassade projektgrupperingen kan du visa projekt grupperade efter deras värden för anmälningsdatum.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 511faad5-b5bd-4e2d-8daa-3fcde49a502c
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
 
-# Gruppering: projekt efter anmälningsdatum
+# Gruppera: projekt efter anmälningsdatum
 
 I den här anpassade projektgrupperingen kan du visa projekt grupperade efter deras värden för anmälningsdatum.
 
@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -63,10 +63,10 @@ Så här använder du den här grupperingen:
 1. Gå till en befintlig projektrapport eller skapa en ny projektrapport.\
    Mer information om hur du skapar en rapport finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Från **Gruppering** flik, klicka **Lägg till gruppering**.
+1. Klicka på **Lägg till gruppering** på fliken **Gruppering**.
 
-1. Klicka **Växla till textläge**.
-1. Ta bort texten i **Gruppera din rapport** område.
+1. Klicka på **Växla till textläge**.
+1. Ta bort texten i området **Gruppera din rapport**.
 1. Ersätt texten med följande kod:
 
    ```
@@ -89,4 +89,4 @@ Så här använder du den här grupperingen:
    textmode=true
    ```
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.

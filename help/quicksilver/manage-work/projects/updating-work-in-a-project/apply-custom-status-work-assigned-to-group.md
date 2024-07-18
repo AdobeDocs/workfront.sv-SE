@@ -76,7 +76,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -92,17 +92,18 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 När du uppdaterar gruppen för ett projekt ändras alternativen som är tillgängliga för status för uppgifter, utgåvor eller projektet så att de matchar gruppen.
 
 1. Gå till ett projekt eller skapa ett nytt projekt, enligt beskrivningen i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
-1. Klicka på **Mer** icon ![](assets/more-icon.png)och sedan klicka **Redigera**.
+1. Klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Redigera**.
 
-1. I **Redigera projekt** rutan som visas, långt ned i **Översikt** markerar du gruppen i **Grupp** nedrullningsbar meny.
+1. Markera gruppen i listrutan **Grupp** i rutan **Redigera projekt** , som visas längst ned i avsnittet **Översikt** .
 
-1. I **Status** väljer du anpassad status.
+1. Välj anpassad status i listrutan **Status**.
 
    >[!NOTE]
    >
-   >Om du väljer en annan grupp i **Grupp** den nedrullningsbara menyn, de anpassade statusvärdena i **Status** ändras automatiskt för att korrelera med den nya gruppen.
+   >Om du väljer en annan grupp i den nedrullningsbara menyn **Grupp** ändras de anpassade statusarna på menyn **Status** automatiskt så att de korrelerar med den nya gruppen.
    >
    >
    >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >
 
 1. Välj status för projektet. De anpassade statusvärden som du skapade och tillämpade på den gruppen visas i listan.

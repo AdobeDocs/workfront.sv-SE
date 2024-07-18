@@ -47,11 +47,11 @@ Du måste ha följande:
      <li> <p>Projekt</p> </li> 
      <li> <p>Uppgifter</p> </li> 
      <li> <p>Problem</p> </li> 
-    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute behörigheter eller högre för projekt, uppgifter och ärenden </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,21 +64,21 @@ Du måste ha följande:
 
    Utjämning av arbetsbelastning visar information om arbetstilldelning som börjar med den aktuella veckan.
 
-1. Gå till **Ej tilldelat arbete** och hitta en arbetsuppgift.
+1. Gå till området **Ej tilldelat arbete** och hitta en arbetsuppgift.
 
    eller
 
-   Gå till **Tilldelat arbete** , expandera en användare och hitta en arbetsuppgift.
+   Gå till området **Tilldelad arbetsuppgift**, expandera en användare och hitta en arbetsuppgift.
 
 1. Klicka på fältet för en uppgift eller ett problem för att öppna sammanfattningspanelen till höger.
 
    eller
 
-   Klicka **Öppna sammanfattning** icon ![](assets/summary-panel-icon.png)klickar du sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
+   Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
 
    eller
 
-   Klicka på **Mer** meny ![](assets/more-icon.png) till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
+   Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
 
    Panelen Sammanfattning öppnas till höger.
 
@@ -98,7 +98,7 @@ Du måste ha följande:
    >
    >Om du navigerar från Sammanfattning till Delaktiviteter för att lägga till underaktiviteter tas den ursprungliga aktiviteten bort, eftersom överordnade aktiviteter inte visas i Utjämning av arbetsbelastning.
 
-   Mer information om hur du uppdaterar information med Sammanfattning finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Mer information om hur du uppdaterar information med Sammanfattning finns i [Sammanfattningsöversikt](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Villkorligt) Om du har öppnat någon del av arbetsposten klickar du på webbläsarens **Bakåt-knappen** för att återgå till arbetsbelastningsutjämnaren.
-1. Klicka på **Stäng ikon** ![](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.
+1. (Villkorligt) Om du öppnade något av avsnitten i arbetsobjektet klickar du på webbläsarens **Tillbaka** för att återgå till arbetsbelastningsutjämnaren.
+1. Klicka på ikonen **Stäng** ![](assets/close-icon.png) i det övre högra hörnet av sammanfattningen för att stänga den.

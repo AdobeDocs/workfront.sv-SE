@@ -30,7 +30,7 @@ Mer information om hur du skapar posttyper finns i [Skapa posttyper](/help/quick
 
 * När du skapar en arbetsyta från en mall skapas posttyper i följande avsnitt på arbetsytan:
 
-   * **Operativa posttyper**: Registrera typer som representerar strategiska planer, initiativ eller planerat arbete. Exempel: Campaign, Activity, Tactic, Opportunity är operativa posttyper.
+   * **Driftsposttyper**: Posttyper som representerar strategiska planer, initiativ eller planerade arbeten. Exempel: Campaign, Activity, Tactic, Opportunity är operativa posttyper.
    * **Taxonomier**: Posttyper som samlar in attribut om en operativ posttyp. Till exempel är Region, Adress och Audience taxonomier.
 
 * När du skapar en posttyp på en arbetsyta som du har skapat från grunden kan du placera posttypen i vilket avsnitt som helst som du skapar på arbetsytan.

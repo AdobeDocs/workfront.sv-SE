@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: åtkomst,delad,anpassad,formulär
 navigation-topic: create-and-manage-custom-forms
-title: Åtkomst till ett delat anpassat fält som du vill använda
+title: Åtkomst till ett delat anpassat fält
 description: När någon delar ett anpassat fält med behörigheten Visa eller Hantera kan de konfigurera flera andra inställningar för att ytterligare definiera den åtkomsten. Om du är mottagare av fältet påverkar de inställningarna vad du kan göra med fältet. Du kan se följande när du visar fältet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
 
-# Åtkomst till ett delat anpassat fält som du vill använda
+# Åtkomst till ett delat anpassat fält
 
 När någon delar ett anpassat fält med behörigheten Visa eller Hantera kan de konfigurera flera andra inställningar för att ytterligare definiera den åtkomsten. Om du är mottagare av fältet påverkar de inställningarna vad du kan göra med fältet. Du kan se följande när du visar fältet.
 
-Mer information om hur användare konfigurerar delningsinställningar när de delar ett anpassat formulär finns i [Konfigurera delning för anpassade fält och widgetar](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+Mer information om hur användare konfigurerar delningsinställningar när de delar ett anpassat formulär finns i [Konfigurera delning för anpassade fält och widgetar i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

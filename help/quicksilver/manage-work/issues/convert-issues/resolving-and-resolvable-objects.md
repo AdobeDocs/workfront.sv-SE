@@ -20,7 +20,7 @@ Ett upplösningsbart objekt är ett problem vars upplösning är knuten till ett
 
 När du konverterar ett problem till en aktivitet eller ett projekt blir problemet ett objekt som kan lösas i aktiviteten eller projektet.
 
-Du kan också manuellt länka ett problem till ett löst objekt, som kan vara en uppgift, ett projekt eller ett problem. Mer information finns i [Koppla lösningen av ett problem manuellt till andra problem, uppgifter eller projekt](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
+Du kan också manuellt länka ett problem till ett löst objekt, som kan vara en uppgift, ett projekt eller ett problem. Mer information finns i [Koppla en problemlösning manuellt till andra problem, uppgifter eller projekt](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md).
 
 Det ursprungliga problemet blir det löstagbara objektet för aktiviteten, projektet eller problemet i det här scenariot.
 
@@ -34,7 +34,7 @@ Du kan välja att behålla det löstagbara objektet när du konverterar det till
 >
 >Lösbara objekt är alltid problem vars upplösning och status kan vara beroende av upplösningen och statusen för det upplösta objektet som de är kopplade till. Att lösa objekt kan vara problem, uppgifter eller projekt.
 
-Mer information om hur du ställer in inställningar för hantering av upplösta objekt finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om hur du ställer in inställningar för hantering av löstagbara objekt finns i [Konfigurera uppgifter och utgåvsinställningar för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -78,13 +78,13 @@ Beroende på hur Workfront eller gruppadministratören har konfigurerat inställ
 
 Följande scenarier finns:
 
-* Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och knyt lösningen till uppgiften** och **Behåll det ursprungliga problemet och knyt dess lösning till projektet** markerade och **Tillåt att de här inställningarna ändras under konverteringen** Om du inte markerar det här alternativet kan du inte ändra de här inställningarna eftersom du konverterar utgåvor till aktiviteter eller projekt.\
+* Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten** och **Behåll det ursprungliga problemet och koppla dess upplösning till det valda projektet** och **Tillåt att de här inställningarna ändras vid konvertering** avmarkerat, kommer du inte att kunna ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
   ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-* Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och knyt lösningen till uppgiften** och **Behåll det ursprungliga problemet och knyt dess lösning till projektet** antingen markerad eller omarkerad och **Tillåt att de här inställningarna ändras under konverteringen** Om du väljer det här alternativet kan du ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
+* Om Workfront- eller gruppadministratören har **Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten** och **Behåll det ursprungliga problemet och koppla dess upplösning till projektet**, antingen markerat eller omarkerat, och **Tillåt att dessa inställningar ändras när konverteringen** väljs, kan du ändra de här inställningarna när du konverterar problem till aktiviteter eller projekt.\
   ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
-Mer information om hur du konverterar problem till aktiviteter och projekt finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Mer information om hur du konverterar problem till aktiviteter och projekt finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -115,7 +115,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ## Synkronisera det lösta objektets status med det lösta objektets status {#synchronize-the-status-of-the-resolvable-object-with-that-of-the-resolving-object}
 
-* [Synkronisera statusar när det lösta objektet är problem](#synchronize-statuses-when-the-resolving-object-is-an-issue)
+* [Synkronisera statusar när det lösta objektet är ett problem](#synchronize-statuses-when-the-resolving-object-is-an-issue)
 * [Synkronisera statusar när det upplösta objektet är en uppgift eller ett projekt](#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project)
 
 ### Synkronisera statusar när det lösta objektet är problem {#synchronize-statuses-when-the-resolving-object-is-an-issue}
@@ -126,7 +126,7 @@ Om en utgåva manuellt är kopplad till en annan utgåva, utlöser den andra utg
 
 När ett problem är det löstagbara objektet för en aktivitet eller ett projekt, ändrar aktiviteternas status och projekten status på problemet. Standardstatusvärden aktiveras annorlunda än anpassade statusvärden, i det här fallet.
 
-* [Synkronisera standardstatusen för det upplösta objektet med standardstatusen för det upplösta objektet](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
+* [Synkronisera standardstatusen för det matchande objektet med standardstatusen för det matchningsbara objektet](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synkronisera det upplösta objektets anpassade status med det upplösta objektets anpassade status](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
 
 #### Synkronisera standardstatusen för det upplösta objektet med standardstatusen för det upplösta objektet {#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object}
@@ -169,7 +169,8 @@ När du ändrar status för aktiviteten eller projektet till en anpassad status 
 
 Du kan skapa anpassade statusvärden med samma nyckel för både utgåvor, projekt och uppgifter. När projektet eller aktiviteten (som ett löst objekt) ändras till anpassad status, återspeglar ändringen även problemets status. Statusnyckeln måste vara densamma för utleverans- och projekt- eller aktivitetsstatus.
 
-Du kan till exempel skapa ett anpassat projekt med namnet&quot;Starta&quot; och koden&quot;LCD&quot; med tre bokstäver som är lika med&quot;Aktuell&quot;. Du kan även skapa ett eget ärende med namnet&quot;Project Launched&quot; och bokstaven code&quot;LCD&quot; som är lika med&quot;In Progress&quot;. När du markerar projektet som&quot;Starta&quot; ändras statusen automatiskt till&quot;Starta projekt&quot;. Om inställningen Uppdatera status för löst problem automatiskt när statusen för det upplösta objektet ändras inte är aktiverad, ändras utgivningsstatusen till Pågår i stället (standardstatus).
+Du kan till exempel skapa ett anpassat projekt med namnet&quot;Starta&quot; och koden&quot;LCD&quot; med tre bokstäver som är lika med&quot;Aktuell&quot;. Du kan även skapa ett eget ärende med namnet&quot;Project Launched&quot; och bokstaven code&quot;LCD&quot; som är lika med&quot;In Progress&quot;. När du markerar projektet som&quot;Starta&quot; ändras statusen automatiskt till&quot;Starta projekt&quot;. Om
+Uppdatera automatiskt status för Lösning av problem när statusen för inställningen Lös objektändringar inte är aktiverad, ändras statusen för problemet till Pågår i stället (standardstatusen).
 
 Mer information om hur du skapar en anpassad status finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
@@ -187,9 +188,9 @@ Om och problemet löses av en annan utgåva uppdateras procentandelen slutfört 
 Att hitta det matchande objektet är identiskt för uppgifter och projekt.
 
 1. Navigera till ett projekt eller en uppgift som du har skapat genom att konvertera ett ärende till projektet eller uppgiften.
-1. Klicka på **Projektinformation** eller **Uppgiftsinformation** och klicka för att expandera den.
-1. Klicka **Ökning**.
-1. Längst ned på fliken går du till **Den här lösningen** fält: det problem som är det löstagbara objektet för projektet eller uppgiften listas i det här fältet.
+1. Klicka på ikonen **Projektinformation** eller **Aktivitetsinformation** och klicka för att expandera den.
+1. Klicka på **Översikt**.
+1. Längst ned på fliken går du till fältet **Den här lösningen**: Det problem som är det löstagbara objektet för projektet eller uppgiften listas i det här fältet.
 
    >[!NOTE]
    >
@@ -197,7 +198,7 @@ Att hitta det matchande objektet är identiskt för uppgifter och projekt.
 
 ## Identifiera ett problem med ett löst objekt i en lista
 
-I en lista över problem kan du identifiera problem som är märkta som lösta objekt via statusikoner genom att hitta den här ikonen i **Statusikoner** eller **Flaggor** kolumner:
+I en lista med problem kan du identifiera problem som är märkta som att lösa objekt via statusikoner genom att leta upp den här ikonen i kolumnerna **Statusikoner** eller **Flaggor** :
 
 ![](assets/ro1.png)
 
@@ -214,50 +215,50 @@ Tabellen nedan visar vilka fält du kan visa och i vilka vyer du kan visa dem:
  <thead> 
   <tr> 
    <th><strong>Fält i vyn</strong> </th> 
-   <th><strong>Ärendevy</strong> </th> 
-   <th><strong>Uppgiftsvy</strong> </th> 
+   <th><strong>Utfallsvy</strong> </th> 
+   <th><strong>Aktivitetsvy</strong> </th> 
    <th><strong>Projektvy</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Har upplösningar</strong>: Visar en <strong>True</strong> om projektet eller aktiviteten har kopplade till lösta problem, och ett <strong>Falskt</strong> om de inte gör det.</td> 
+   <td><strong>Har upplösningar</strong>: Visar ett <strong>True</strong>-värde om projektet eller aktiviteten har associerade upplösta problem och ett <strong>Falskt</strong>-värde om de inte gör det.</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Ursprungligt utfärdningsnamn, ursprungligt utgivningsdatum, upphovsmannens namn</strong>: Visar namnet och datumet för den ursprungliga utgåvan samt namnet på den användare som skapade utgåvan i en anpassad textvy.<br>Mer information om hur du skapar ett textläge för en anpassad vy för ett projekt, en aktivitetsrapport eller en lista med information om det ursprungliga problemet finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor</a>.<br></td> 
+   <td><strong>Ursprungligt utfärdningsnamn, ursprungligt utgivningsdatum, upphovsmannens namn</strong>: Visar namnet och startdatumet för det ursprungliga utgivningsnumret samt namnet på den användare som skapade utgivningen i en anpassad textvy.<br>Mer information om hur du skapar en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista med information om det ursprungliga problemet finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md" class="MCXref xref">Visa: visa information om det ursprungliga problemet i uppgifts- och projektlistor</a>.<br></td> 
    <td> </td> 
    <td> ✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Lösning:</strong> Visar en lista med alla upplösningsbara objekt i en anpassad textvy för ett projekt eller en uppgiftsrapport eller -lista.</p> <p>Mer information om hur du skapar den här vyn finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Visa: Lösta objekt i en uppgifts- eller projektrapport</a></p> </td> 
+   <td> <p><strong>Upplösbara:</strong> Visar en lista över alla upplösbara objekt i en anpassad textvy för ett projekt, en aktivitetsrapport eller en lista.</p> <p>Mer information om hur du skapar den här vyn finns i <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resolvable-objects-task-project-report.md" class="MCXref xref">Visa: Upplösta objekt i en aktivitet eller projektrapport</a></p> </td> 
    <td> </td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><strong>Originator för konverterat ärende</strong>: Visar information om den användare som ursprungligen loggade problemet och som senare konverterades till uppgiften. </td> 
+   <td><strong>Den konverterade utfärdaren av utgåvan</strong>: Visar information om den användare som ursprungligen loggade problemet och som senare konverterades till aktiviteten. </td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Lös projekt</strong>: Visar information om lösningsprojektet, som antingen konverterades från det ursprungliga problemet eller manuellt har angetts som ett lösningsobjekt för ett problem.</td> 
+   <td><strong>Lös projekt</strong>: Visar information om det upplösta projektet, som antingen har konverterats från det ursprungliga problemet, eller som har angetts manuellt som ett problemlösande objekt.</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Åtgärda aktivitet</strong>: Visar information om lösningsaktiviteten som antingen konverterades från det ursprungliga problemet eller manuellt angavs som lösningsobjekt för ett problem.</td> 
+   <td><strong>Lös aktivitet</strong>: Visar information om lösningsaktiviteten som antingen konverterades från det ursprungliga problemet eller manuellt har angetts som lösningsobjekt för ett problem.</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Lös problem</strong>: Visar information om problemet som manuellt har angetts som ett åtgärdande objekt i ett problem.</td> 
+   <td><strong>Lös problem</strong>: Visar information om problemet som löstes manuellt och som har angetts som ett problemlösande objekt.</td> 
    <td> ✓</td> 
    <td> </td> 
    <td> </td> 

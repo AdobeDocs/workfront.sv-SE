@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 21.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Gör snabba tilldelningar i Utjämning av arbetsbelastning
 
@@ -25,7 +25,7 @@ Nu kan du effektivt balansera resurser i Utjämning av arbetsbelastning med mins
 
 Före den här förbättringen kunde du bara tilldela objekt genom att klicka på Mer-menyn för en uppgift eller ett problem och sedan använda alternativet Tilldela. Nu uppdateras de planerade timmarna som tilldelats användaren i realtid medan uppgifterna dras.
 
-Mer information om hur du tilldelar arbetsobjekt i Arbetsbelastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Mer information om hur du tilldelar arbetsobjekt i belastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Nytt standardalternativ för Utjämning av arbetsbelastning
 
@@ -48,5 +48,5 @@ Mer information finns i [Hantera filter i Utjämning av arbetsbelastning](../../
 
 >[!NOTE]
 >
->Med filteruppdateringarna har vi eliminerat **Alla arbetsobjekt** och **Det här projektets arbetsobjekt** inbyggda filter i ett projekts belastningsutjämnare.
+>Med filteruppdateringarna har vi tagit bort de inbyggda filtren **Alla arbetsobjekt** och **Det här projektets arbetsobjekt** i arbetsbelastningsutjämnaren för ett projekt.
 

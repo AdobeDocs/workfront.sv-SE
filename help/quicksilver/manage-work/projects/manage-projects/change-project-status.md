@@ -59,18 +59,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på när du uppdaterar till specifika statusar
 
-* **När du uppdaterar ett projekt till Fullständigt:** Se till att alla uppgifter och ärenden har slutförts i projektet. Du kan inte välja statusen Fullständig för ett projekt eller någon annan status som motsvarar Fullständig när det finns uppgifter eller problem som inte har slutförts i projektet. Detta inkluderar godkännande av alla uppgifter eller problem som har statusen Slutför väntande godkännande.
-* **När du uppdaterar ett projekt från Fullständigt till Aktuellt:** Om alla uppgifter och problem i projektet är slutförda kontrollerar du att projektets slutförningsläge är inställt på Manuellt. Om projektets slutföringsläge är Automatiskt, förblir projektets status Fullständigt.
+* **När du uppdaterar ett projekt till Fullständigt:** Kontrollera att alla aktiviteter och ärenden har slutförts i projektet. Du kan inte välja statusen Fullständig för ett projekt eller någon annan status som motsvarar Fullständig när det finns uppgifter eller problem som inte har slutförts i projektet. Detta inkluderar godkännande av alla uppgifter eller problem som har statusen Slutför väntande godkännande.
+* **När du uppdaterar ett projekt från Fullständigt till Aktuell:** Om alla aktiviteter och problem i projektet har slutförts kontrollerar du att projektets slutföringsläge är Manuellt. Om projektets slutföringsläge är Automatiskt, förblir projektets status Fullständigt.
 
 ## Ändra projektstatus
 
 1. Gå till det projekt vars status du vill uppdatera.
-1. Klicka på statusens namn i projektrubriken i **Status** och välj sedan en ny status.
+1. Klicka på statusnamnet i fältet **Status** i projektrubriken och välj sedan en ny status.
 
    ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    eller
 
-   Klicka på **Mer** meny ![](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i dialogrutan **Status** fält och klicka sedan på **Spara**.
+   Klicka på **Mer**-menyn ![](assets/qs-more-menu.png) bredvid namnet på projektet och klicka på **Redigera** och välj en ny status i fältet **Status**. Klicka sedan på **Spara**.
 
    Projektstatusen uppdateras till den valda statusen.

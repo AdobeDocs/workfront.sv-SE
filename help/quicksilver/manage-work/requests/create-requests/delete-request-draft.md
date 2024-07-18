@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,17 +55,17 @@ Du måste göra följande innan du kan ta bort ett begärandeutkast:
 
 * Börja skapa en begäran. Då sparas begäran som ett utkast automatiskt i avsnittet Utkast.
 
-   Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Ta bort ett begärandeutkast
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
-1. Klicka **Begäranden** och sedan klicka **Utkast** i den vänstra panelen.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Förfrågningar** och sedan på **Utkast** i den vänstra panelen.
 
    Alla utkast för alla begärandeköer visas i den här listan.
 
-1. (Valfritt) Klicka på **Filtrera efter begärantyp** i det övre högra hörnet av listan med utkast väljer du den begärandekö som innehåller de utkast som du vill visa.
-1. Markera ett utkast i listan och klicka sedan på **Ta bort** högst upp i listan.
-1. Klicka **Ja, ta bort den**.
+1. (Valfritt) Klicka på **Filtrera efter begärandetyp** i det övre högra hörnet av listan med utkast och välj sedan den begärandekö som innehåller de utkast som du vill visa.
+1. Markera ett utkast i listan och klicka sedan på **Ta bort** överst i listan.
+1. Klicka på **Ja, ta bort den**.
 
    Utkastet tas bort och kan inte återställas.

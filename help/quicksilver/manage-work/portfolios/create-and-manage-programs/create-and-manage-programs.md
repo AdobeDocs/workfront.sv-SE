@@ -24,5 +24,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Skapa ett program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md)
 * [Redigera program](../../../manage-work/portfolios/create-and-manage-programs/edit-programs.md)
 * [Lägg till ett befintligt program i en portfölj](../../../manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Lägga till ett projekt i ett program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+* [Lägg till ett projekt i ett program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 * [Ta bort ett projekt från ett program](../../../manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)

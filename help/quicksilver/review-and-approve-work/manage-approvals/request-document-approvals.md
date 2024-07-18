@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Begär dokumentgodkännanden
 
-Du kan begära godkännande från chefer eller andra användare för ett dokument i Adobe Workfront. Du kan också begära dokumentgodkännanden från personer utan Workfront-konton om Workfront-administratören har aktiverat den funktionen, vilket beskrivs i [Konfigurera säkerhetsinställningar för system](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Du kan begära godkännande från chefer eller andra användare för ett dokument i Adobe Workfront. Du kan också begära dokumentgodkännanden från personer utan Workfront-konton om Workfront-administratören har aktiverat den här funktionen, enligt beskrivningen i [Konfigurera systemsäkerhetsinställningar](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Åtkomstkrav
 
@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -51,9 +51,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Bläddra nedåt till **Godkännanden** och börja skriva i **Lägg till godkännare** textruta. Du kan lägga till Workfront-användare efter namn eller externa användare via e-post.
+1. Bläddra ned till avsnittet **Godkännanden** i Sammanfattning och börja skriva i textrutan **Lägg till godkännare**. Du kan lägga till Workfront-användare efter namn eller externa användare via e-post.
 
-1. Om Adobe Workfront-administratören har aktiverat möjligheten att samarbeta med personer som inte använder Workfront, vilket beskrivs i [Konfigurera säkerhetsinställningar för system](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)kan du skriva deras e-postadresser för att inkludera dem.
+1. Om Adobe Workfront-administratören har aktiverat möjligheten att samarbeta med personer som inte använder Workfront, vilket beskrivs i [Konfigurera systemsäkerhetsinställningar](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), kan du skriva deras e-postadresser så att de inkluderas.
 
    Du kan inte begära godkännande från team eller grupper.
 
@@ -66,7 +66,7 @@ Beslut om dokumentgodkännande återställs inte automatiskt när du överför e
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Bläddra nedåt till **Godkännanden** Klicka på ikonen Mer i Sammanfattning och klicka sedan på Skicka igen.
+1. Bläddra ned till avsnittet **Godkännanden** i sammanfattningen, klicka på ikonen Mer och klicka sedan på Skicka igen.
 
    ![](assets/nwe-resubmit-approval-350x149.png)
 
@@ -75,7 +75,7 @@ Beslut om dokumentgodkännande återställs inte automatiskt när du överför e
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Bläddra nedåt till **Godkännanden** i Sammanfattning klickar du på **Mer** inline with the approver name and select **Ta bort**.
+1. Bläddra ned till avsnittet **Godkännanden** i Sammanfattning, klicka på menyn **Mer** inline med godkännarens namn och välj **Ta bort**.
 
    Godkännandebegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 
@@ -86,6 +86,6 @@ Du kan skicka ett meddelande för att påminna en godkännare om att du väntar 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Bläddra nedåt till **Godkännanden** i Sammanfattning klickar du på **Mer** inline with the approver name and select **Påminn**.
+1. Bläddra ned till avsnittet **Godkännanden** i Sammanfattning, klicka på menyn **Mer** inline med godkännarens namn och välj **Påminn**.
 
    Godkännaren får ett meddelande som informerar dem om att godkännandet fortfarande väntar. De kan även få en påminnelse via e-post om de har aktiverat detta.

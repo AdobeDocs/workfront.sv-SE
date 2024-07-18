@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Skapa ett läsarkonto (tjänstkonto) för Snowflake
 
-För att få tillgång till data i Workfront-sjön måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för varje ny anslutning. När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på **Dataåtkomst** sida (**Huvudmeny** > **Inställningar** > **System** > **Dataåtkomst**) under **Befintliga anslutningar** -fliken.
+För att få tillgång till data i Workfront-sjön måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för varje ny anslutning. När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataåtkomst** (**Huvudmeny** > **Inställningar** > **System** > **Dataåtkomst**) på fliken **Befintliga anslutningar** .
 
-Mer information om hur du använder en nyligen skapad anslutning med en extern produkt finns i [Upprätta en anslutning till Workfront Data Lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+Mer information om hur du använder en nyligen skapad anslutning till en extern produkt finns i [Upprätta en anslutning till Workfront-datasjön](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Åtkomstkrav
 
@@ -44,27 +44,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa ett läsarkonto
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
-1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
+1. Klicka på **System** > **Dataåtkomst** i den vänstra panelen.
 
-1. Klicka **Skapa ny anslutning**
+1. Klicka på **Skapa ny anslutning**
 
-1. I fönstret som visas anger du ett namn för anslutningen i **Beskrivning av anslutningsreferens** och ett användarnamn i **Anslutningsanvändare** och sedan klicka **Generera anslutning**.
+1. I fönstret som visas anger du ett namn för anslutningen i **Anslutningsreferensbeskrivning** och ett användarnamn i **Anslutningsanvändare**. Klicka sedan på **Skapa anslutning**.
 
    ![Skapa läsarkonto](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. A **Standardlösenord** kommer att genereras samt en URL där dina data kan visas via Snowflake. Du måste använda lösenordet tillsammans med det användarnamn du valde för att logga in på Snowflake för första gången, så se till att du sparar information om det samt URL:en. Markera rutan som anger att du har gjort det och klicka sedan **Stäng**.
+1. Ett **standardlösenord** genereras, liksom en URL där dina data kan visas via Snowflake. Du måste använda lösenordet tillsammans med det användarnamn du valde för att logga in på Snowflake för första gången, så se till att du sparar information om det samt URL:en. Markera kryssrutan som hävdar att du har gjort det och klicka sedan på **Stäng**.
 
-   ![Lösenord för standardkonto](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
+   ![Standardkontolösenord](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
 1. Öppna Snowflake med en webbläsare och gå till URL:en från det föregående steget, ange det användarnamn du valde och standardlösenordet från det föregående steget och klicka sedan på **Logga in**.
 
-1. När du har loggat in för första gången uppmanas du att välja ett nytt lösenord. Ange ett lösenord i båda **Nytt lösenord** och **Bekräfta lösenord** fält och klicka sedan på **Skicka**.
+1. När du har loggat in för första gången uppmanas du att välja ett nytt lösenord. Ange ett lösenord i fälten **Nytt lösenord** och **Bekräfta lösenord** och klicka sedan på **Skicka**.
 
    ![Återställ Snowflake-lösenord](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
@@ -72,10 +72,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 ## Återkalla ett läsarkonto
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
-1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
+1. Klicka på **System** > **Dataåtkomst** i den vänstra panelen.
 
-1. Klicka på papperskorgsikonen ![Ikonen Ta bort](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) till höger om det konto du vill återkalla.
+1. Klicka på papperskorgsikonen ![Ta bort ikon](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) till höger om det konto du vill återkalla.
 
-1. I fönstret som visas markerar du kryssrutan för att bekräfta och klickar sedan på **Ta bort**.
+1. Markera rutan för att bekräfta i fönstret som visas och klicka sedan på **Ta bort**.

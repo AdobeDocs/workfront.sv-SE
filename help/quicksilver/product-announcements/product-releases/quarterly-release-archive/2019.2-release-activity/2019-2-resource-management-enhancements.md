@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som ingår i version 2019.2. Funktionen planeras bli tillgänglig i produktionsmiljön den 20 maj 2019.
 
-En lista över alla ändringar som gjorts under 2019.2 finns på [Översikt över versionsaktivitet 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.2 finns i [2019.2 Release Activity Overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Visa Portfolio-prioritet i resursplaneringen
 
@@ -26,7 +26,7 @@ Du kan nu aktivera en inställning i Resursplanering som gör att du kan visa pr
 
 Före den här förbättringen kunde du inte visa portföljprioriteten för ett projekt i resursplaneraren.
 
-Information om hur du aktiverar den här inställningen finns i [Inställningar](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) i [Förstå områdena i resursplaneraren](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om hur du aktiverar den här inställningen finns i avsnittet [Inställningar](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) i [Om områden i resursplaneraren](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Dela filter i Resursplanering
 
@@ -34,7 +34,7 @@ Nu kan du dela filter som du skapar i resursplaneraren med utvalda användare, t
 
 Före den här förbättringen var de filter du skapade synliga för alla användare som kunde komma åt resursplaneraren.
 
-Information om filtrering i resursplaneraren finns i [Filtrera innehåll i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Mer information om filtrering i resursplaneraren finns i [Filtrera innehåll i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 ## Ny åtkomstnivå för resurshantering
 
@@ -52,7 +52,7 @@ I och med den här ändringen krävs inte längre att du utses till resurshanter
 
 Mer information om den nya åtkomst som krävs för budgetresurser finns i [Åtkomst krävs till budgetresurser](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Mer information om den nya åtkomstnivån Resurshantering finns i [Resurshanteringsåtkomst](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Mer information om den nya åtkomstnivån för resurshantering finns i [Om åtkomst till resurshantering](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Beställa projekt efter Portfolio i resursplaneraren
 
@@ -66,5 +66,5 @@ Mer information om hur du beställer projekt efter portföljprioritet i resurspl
 
 Filtreringsfunktionen i resursplaneraren är nu enklare när du lägger till ett nytt fält (Grupp) i de inbyggda filtervillkoren. Du kan nu hitta de filter som används mest i de inbyggda alternativen.
 
-Mer information om filter i Resursplaneraren finns i [Filtrera innehåll i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Mer information om filter i resursplaneraren finns i [Filtrera innehåll i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 

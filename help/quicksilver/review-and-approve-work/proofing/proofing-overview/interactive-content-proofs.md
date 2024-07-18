@@ -72,7 +72,7 @@ Skapa ett interaktivt korrektur när du har förberett ZIP-paketfilen.
 
 Mer information finns i [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-Eller, om du använder Workfront Proof, se avsnittet [Generera ett korrektur för interaktivt innehåll](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) i artikeln [Skapa korrektur i Workfront-korrektur](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Om du använder Workfront Proof kan du läsa avsnittet [Skapa ett korrektur för interaktivt innehåll](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) i artikeln [Skapa korrektur i Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Granska interaktiva korrektur
 

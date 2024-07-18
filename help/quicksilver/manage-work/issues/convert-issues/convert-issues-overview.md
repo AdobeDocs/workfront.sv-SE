@@ -21,7 +21,7 @@ Det här avsnittet innehåller följande artiklar:
 
 * [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md)
 * [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
-* [Konvertera ett problem till en uppgift i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
+* [Konvertera ett problem till en aktivitet i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
 * [Översikt över objekt som kan lösas och lösas](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md)
 * [Koppla lösningen av ett problem manuellt till andra problem, uppgifter eller projekt](../../../manage-work/issues/convert-issues/manually-tie-resolution-of-issue-to-ptis.md)
 * [Bryt länken till problem från deras lösta objekt](../../../manage-work/issues/convert-issues/unlink-issues-from-resolvable-objects.md)

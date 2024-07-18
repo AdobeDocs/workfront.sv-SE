@@ -50,15 +50,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gör något av följande, beroende på ditt mål och din åtkomstnivå i systemet:
 
-   * **Planeraranvändare konfigurerar tidsloggning för sig själv:** Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Klicka sedan på **Mer** -ikon bredvid ditt namn och välj **Redigera**.
+   * **Planeringsanvändare konfigurerar tidsloggning för sig själv:** Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på ditt användarnamn bredvid din profilbild. Klicka sedan på ikonen **Mer** bredvid ditt namn och välj **Redigera**.
 
-   * **Systemadministratören konfigurerar tidsloggning för andra:** Börja redigera ett eller flera användarkonton enligt beskrivningen i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **Systemadministratören konfigurerar tidsloggning för andra:** Börja redigera ett eller flera användarkonton, enligt beskrivningen i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. I den dialogruta som visas i dialogrutan **Resursplanering** -avsnittet, leta upp **Loggtid in** alternativ.
+1. I den dialogruta som visas letar du reda på alternativet **Logga in** i avsnittet **Resursplanering**.
 
    ![](assets/new-timesheet-log-hours-350x249.png)
 
-1. (Villkorligt) Om du är systemadministratör och redigerar flera användare samtidigt väljer du **Loggtid in**.
+1. (Villkorligt) Om du är systemadministratör och redigerar flera användare samtidigt väljer du **Logga in**.
 1. Välj bland följande alternativ för loggningstid:
 
    | Alternativ | Beskrivning |
@@ -66,11 +66,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    | **Timmar** | Användarna anger timmar vid loggning i Workfront. |
    | **Dagar** | Användarna anger dagar när de loggar in i Workfront. |
 
-1. (Villkorligt) Om du har valt att logga tid i dagar, i dialogrutan **Motsvarande antal timmar för fullständiga Workday** anger du antalet timmar som motsvarar en hel dag. En dag på en användares tidrapport motsvarar det antal timmar du anger här.
+1. (Villkorligt) Om du har valt att logga tid i dagar skriver du antalet timmar som motsvarar en heldag i fältet **Motsvarande timmar för Fullständig Workday**. En dag på en användares tidrapport motsvarar det antal timmar du anger här.
 
    Tänk på följande när du konfigurerar den här inställningen:
 
    * Det här alternativet är inte tillgängligt när du konfigurerar loggningstiden i timmar.
-   * Det här alternativet används endast för loggningstid. Det här alternativet är inte relaterat till **Schema** som också är tillgängligt när du redigerar en användare. The **Schema** används vid beräkning av tidslinjer och i andra områden i Workfront. (Mer information om hur du använder **Schema** alternativ, se [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * Det här alternativet används endast för loggningstid. Det här alternativet är inte relaterat till alternativet **Schema** som också är tillgängligt när du redigerar en användare. Alternativet **Schema** används vid beräkning av tidslinjer och i andra områden av Workfront. (Mer information om hur du använder alternativet **Schema** finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

@@ -1,6 +1,6 @@
 ---
-title: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 13 september 2021
-description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 13 september 2021
+title: Workfront Fusion-släppningsaktivitet:&nbsp;Vecka den 13 september 2021
+description: Workfront Fusion-släppningsaktivitet:&nbsp;Vecka den 13 september 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan efter den 23 september 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Filtrera och sortera körningshistorik för Workfront Fusion-scenarier
 
@@ -41,7 +41,7 @@ Vi har också gjort det möjligt att sortera historiken för scenariokörning. D
 * Antal åtgärder
 * Överförda data
 
-Mer information om historik för filtrering och sortering finns i [Visa ett scenarios körningshistorik i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
+Mer information om hur du filtrerar och sorterar körningshistorik finns i [Visa ett scenario i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).
 
 ## Hjälplänkar i Fusion leder nu till specifika artiklar
 

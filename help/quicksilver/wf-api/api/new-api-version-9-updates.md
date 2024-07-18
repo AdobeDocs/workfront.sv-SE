@@ -9,8 +9,8 @@ role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '257'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## Uppdaterade resurser
 
-Följande befintliga resurser har uppdaterats med den här versionen av Adobe Workfront API. Om du vill se de resurser som är nya för version 9 kan du gå till [Nyheter i API-version 9](../../wf-api/api/new-api-version-9.md) och [Nyheter i API version 9 (forts.)](../../wf-api/api/new-api-version-9-continue.md). Ändringar som görs i en resurs anges på följande sätt:
+Följande befintliga resurser har uppdaterats med den här versionen av Adobe Workfront API. Om du vill visa de resurser som är nya för version 9 kan du gå till [Nyheter i API-version 9](../../wf-api/api/new-api-version-9.md) och [Nyheter i API-version 9 (forts.)](../../wf-api/api/new-api-version-9-continue.md). Ändringar som görs i en resurs anges på följande sätt:
 
 * Tilläggen visas bara i listan
 * Borttagningar anges med genomstrykningstext
@@ -33,8 +33,8 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Borttagen flagga: RAPPORTERBAR\
-<sup>2</sup> Borttagen flagga: NOT_GROUPABLE
+<sup>1</sup> Flagga borttagen: RAPPORTERBAR\
+<sup>2</sup> Flagga borttagen: NOT_GROUPABLE
 
 ### Godkännande
 
@@ -121,7 +121,7 @@ Tilldelning
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Borttagen flagga: RAPPORTERBAR
+<sup>1</sup> Flagga borttagen: RAPPORTERBAR
 
 ### Schema
 

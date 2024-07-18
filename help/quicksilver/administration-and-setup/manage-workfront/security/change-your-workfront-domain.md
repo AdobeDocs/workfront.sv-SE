@@ -10,7 +10,7 @@ role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
 source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om din organisation har anslutit sig till Adobe Admin Console går det inte att ändra din Workfront-domän.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Som Adobe Workfront-administratör och behörig Workfront Support-kontakt kan du begära hjälp från Workfront Support-team för att ändra din organisations Workfront-domän.
 
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Begär en domänändring
 
 1. Börja skapa en supportbiljett på Experience League.
-1. I **Beskrivning** ska du inkludera den nya domänen som du vill ha samt tidsramen när du vill att den nya domänen ska aktiveras.
+1. I rutan **Beskrivning** tar du med den nya domänen som du vill ha samt tidsramen när du vill att den nya domänen ska vara aktiv.
 1. Fyll i rutorna för supportärendet och klicka sedan på **Skicka**.
 
 Du kan även ringa Workfront Support och få hjälp med att ändra din domän.
@@ -64,17 +64,17 @@ Om ditt företag använder enkel inloggning krävs följande steg när du har ä
 >
 >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på **System** > **Kundinformation** och se till att din domän är uppdaterad på sidan Kundinformation.
+1. Klicka på **System** > **Kundinformation** i det vänstra sidofältet och kontrollera att din domän är uppdaterad på sidan Kundinformation.
 
-1. Klicka på **System** > **enkel inloggning (SSO)**.
+1. Klicka på **System** > **enkel inloggning (SSO)** i den vänstra sidofältet.
 
-1. Klicka **Ladda ned SAML 2.0-metadata**.
+1. Klicka på **Hämta SAML 2.0-metadata**.
 1. När filen har laddats ned öppnar du den och ser till att du har följande:
 
    1. **entityID** pekar på den nya domänen.
-   1. Alla platser inom **`<md:AssertionConsumerService>`** peka på den nya domänen.
+   1. Alla platser inom **`<md:AssertionConsumerService>`** pekar på den nya domänen.
 
 1. Skicka den hämtade metadatafilen till din identitetsleverantör så att de kan uppdatera den när de vill.
 1. Se till att domänen uppdateras för alla Workfront-integreringar som används av din organisation.

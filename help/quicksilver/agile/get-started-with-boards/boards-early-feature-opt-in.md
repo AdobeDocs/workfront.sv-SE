@@ -2,8 +2,8 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Anmäl dig till tidig funktion för [!DNL Adobe Workfront] Varumärkena
-description: Läs den här artikeln om du vill veta mer om [!DNL Workfront Boards] tidig anmälan av funktioner.
+title: Tidig tillgång till funktioner för  [!DNL Adobe Workfront] anslagstavlor
+description: Läs den här artikeln om du vill veta mer om  [!DNL Workfront Boards] deltagande för tidiga funktioner.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Anmäl dig till tidig funktion för [!DNL Adobe Workfront] [!UICONTROL Boards]
+# Tidig anmälan av funktioner för [!DNL Adobe Workfront] [!UICONTROL Boards]
 
-Anmäl dig till tidig funktion för [!DNL Adobe Workfront] [!UICONTROL Boards] startades i juli 2022.
+Anmäl dig till nya funktioner för [!DNL Adobe Workfront] [!UICONTROL Boards] startades i juli 2022.
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort.
 
@@ -61,7 +61,7 @@ I följande tabell visas de viktigaste funktionerna i ritytorna tillsammans med 
    <td>Frisläppt</td>
   </tr>
   <tr>
-   <td>Lägg till [!UICONTROL Work in Progress] begränsningar för kolumner</td>
+   <td>Lägg till [!UICONTROL Work in Progress] gränser i kolumner</td>
    <td>Frisläppt</td>
   </tr>
   <tr>
@@ -191,40 +191,40 @@ Tidiga funktioner för anslagstavlor är tillgängliga för alla organisationer.
 
 ### Anmäl dig
 
-Endast [!DNL Workfront] administratörer kan välja tidiga funktioner för styrelser. När en [!DNL Workfront] administratören aktiverar tidiga funktioner, så att alla användare i organisationen kan komma åt dem.
+Endast [!DNL Workfront] administratörer kan välja tidiga funktioner för anslagstavlor. När en [!DNL Workfront]-administratör aktiverar tidiga funktioner väljs alla användare i organisationen.
 
 {{step1-to-boards}}
 
-1. Klicka ![Anmäl dig tidigt](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) högst upp på kontrollpanelsskärmen.
+1. Klicka på ![Anmäl dig till tidig funktion](assets/early-feature-opt-in-not-enabled.png) ([!UICONTROL Early feature opt-in]) högst upp på instrumentpanelsskärmen.
 1. Klicka på **[!UICONTROL Enable]**.
 1. Börja använda de tidiga funktionerna i styrelserna.
 
 ## Skicka feedback
 
-1. Klicka på **[!UICONTROL Feedback]** -knappen.
-1. Fyll i formuläret och klicka sedan **[!UICONTROL Submit]**.
+1. Klicka på knappen **[!UICONTROL Feedback]** när du är på en anslagstavla.
+1. Fyll i formuläret och klicka sedan på **[!UICONTROL Submit]**.
 
 ## Anmäl dig till tidig funktion - frågor och svar
 
 ### Hur vet jag om min organisation har valt att använda tidiga funktioner?
 
-Kontakta [!DNL Workfront] administratör för att ta reda på om de har aktiverat tidiga funktioner för anslagstavlor.
+Kontakta din [!DNL Workfront]-administratör för att ta reda på om de har aktiverat tidiga funktioner för anslagstavlor.
 
 ### Kan tidiga funktioner endast aktiveras för vissa användare?
 
-När [!DNL Workfront] administratörer aktiverar tidiga funktioner för anslagstavlor, där alla användare i organisationen deltar.
+När administratören för [!DNL Workfront] aktiverar tidiga funktioner för anslagstavlor är alla användare i organisationen anslutna.
 
-Men [!DNL Workfront] administratören kan dölja alternativet för anslagstavlor på menyn [!UICONTROL Main Menu] för enskilda användare eller grupper av användare med en layoutmall. Mer information finns i [Anpassa [!UICONTROL Main Menu] använda en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Administratören [!DNL Workfront] kan dock dölja alternativet för anslagstavlor från [!UICONTROL Main Menu] för enskilda användare eller grupper av användare med en layoutmall. Mer information finns i [Anpassa [!UICONTROL Main Menu] med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 >[!NOTE]
 >
->Detta hindrar inte användare från att komma åt ritytor via en URL. Det förhindrar dem bara från att se [!DNL Boards] i [!UICONTROL Main Menu].
+>Detta hindrar inte användare från att komma åt ritytor via en URL. Det förhindrar dem bara från att se alternativet [!DNL Boards] i [!UICONTROL Main Menu].
 
 ### Kan jag avanmäla mig från de tidiga funktionerna när jag väl har gått med?
 
-Endast [!DNL Workfront] administratörer kan välja att inte få tidiga funktioner. Om en [!DNL Workfront] administratören inaktiverar de tidiga funktionerna, vilket innebär att alla användare i organisationen avanmäts.
+Endast [!DNL Workfront] administratörer kan välja att inte ta emot tidiga funktioner. Om en [!DNL Workfront]-administratör inaktiverar de tidiga funktionerna väljs alla användare i organisationen ut.
 
 {{step1-to-boards}}
 
-1. Klicka ![Anmäl dig till tidig funktion aktiverat](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) högst upp på kontrollpanelsskärmen.
+1. Klicka på ![Anmäl dig till tidig funktion aktiverat](assets/early-feature-opt-in-enabled.png) ([!UICONTROL Early feature opt-in enabled]) längst upp på instrumentpanelsskärmen.
 1. Klicka på **[!UICONTROL Disable]**.

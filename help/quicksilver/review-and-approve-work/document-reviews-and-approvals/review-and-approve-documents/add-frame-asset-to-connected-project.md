@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara projektmedarbetare i Frame.io. Mer information finns i <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Jag har blivit inbjuden att samarbeta i ett projekt</a>
+   <td> <p>Du måste vara projektmedarbetare i Frame.io. Mer information finns i <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">Jag har bjudits in att samarbeta i ett projekt</a>
  på hjälpwebbplatsen Frame.io.</p> </td> 
   </tr> 
    <tr>
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -75,8 +75,8 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 1. (Valfritt) Ange aktivitetsstatus.
 
-1. Klicka **Skicka**.
+1. Klicka på **Skicka**.
 
 Resursen visas på den valda platsen och aktivitetsstatusen uppdateras därefter.
 
-Du kan starta gransknings- och godkännandeprocessen genom att följa stegen som beskrivs i artikeln [Skapa en begäran om dokumentgranskning eller godkännande](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Du kan starta gransknings- och godkännandeprocessen genom att följa stegen som beskrivs i artikeln [Skapa en dokumentgranskning eller godkännandebegäran](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).

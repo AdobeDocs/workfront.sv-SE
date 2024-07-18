@@ -3,14 +3,14 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
-title: Kontrollpanelen i [!DNL Workfront Proof]
-description: Kontrollpanelen är den första sida du ser när du loggar in på [!DNL Workfront Proof] konto. Här sammanfattas aktiviteten i [!DNL Workfront Proof] konto och innehåller snabblänkar till andra avsnitt och funktioner i [!DNL Workfront Proof].
+title: Kontrollpanelen i  [!DNL Workfront Proof]
+description: Instrumentpanelen är den första sida som visas när du loggar in på ditt [!DNL Workfront Proof] konto. Den sammanfattar aktiviteten i ditt [!DNL Workfront Proof] konto och ger snabblänkar till andra avsnitt och funktioner i [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '942'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Kontrollpanelen är den första sida du ser när du loggar in på [!DNL Workfront Proof] konto. Här sammanfattas aktiviteten i [!DNL Workfront Proof] konto och innehåller snabblänkar till andra avsnitt och funktioner i [!DNL Workfront Proof].
+Instrumentpanelen är den första sida som visas när du loggar in på ditt [!DNL Workfront Proof]-konto. Den sammanfattar aktiviteten i ditt [!DNL Workfront Proof]-konto och ger snabblänkar till andra avsnitt och funktioner i [!DNL Workfront Proof].
 
 Kontrollpanelen innehåller följande:
 
@@ -43,9 +43,9 @@ Kontrollpanelen innehåller följande:
 
 ![](assets/dashboard-350x495.png)
 
-Du kan märka ditt konto och visa din egen organisations logotyp, färger, anpassade länkar med mera. Mer information finns i [Varumärken [!DNL Workfront Proof] webbplats](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
+Du kan märka ditt konto och visa din egen organisations logotyp, färger, anpassade länkar med mera. Mer information finns i [Varumärket  [!DNL Workfront Proof] platsen](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
 
-Om du inte märker ditt konto kan du [!DNL Workfront Proof] logotyp och standardfärger visas.
+Om du inte märker ut ditt konto visas logotypen [!DNL Workfront Proof] och standardfärgerna.
 
 ## Sidhuvudsmenyn
 
@@ -72,7 +72,7 @@ Här (3) kan du nå:
 Här (4) har du tillgång till:
 
 * Hjälpartiklar
-* Demonstrationsfilmer
+* Demo av filmer
 
 >[!NOTE]
 >
@@ -86,9 +86,9 @@ Klicka här för att logga ut från ditt konto.
 
 Öppna menyn Nytt genom att
 
-1. Klicka på listrutepilen (7).
+1. Klicka på pilen (7).
 
-   The **[!UICONTROL New]** -menyn har följande alternativ:
+   Menyn **[!UICONTROL New]** innehåller följande alternativ:
 
    * Nytt korrektur (8)
    * Överför fil (9)
@@ -110,7 +110,7 @@ Kontrollpanelmenyn innehåller följande menyer:
 
 ## Redigera taggar
 
-The [!UICONTROL Edit tags] Med meny (1) kan du:
+Med menyn [!UICONTROL Edit tags] (1) kan du:
 
 * Tillämpa en tagg på ett eller flera objekt
 * Skapa nya taggar
@@ -123,14 +123,14 @@ The [!UICONTROL Edit tags] Med meny (1) kan du:
 Med den här funktionen kan du flytta korrektur och filer till en av dina mappar. Så här gör du:
 
 1. Markera kryssrutan för de relevanta artiklarna.
-1. Klicka **[!UICONTROL Move to]** (3) och välj lämplig mapp (4).
-1. Klicka **[!UICONTROL Save]** (5).
+1. Klicka på **[!UICONTROL Move to]** (3) och välj den relevanta mappen (4).
+1. Klicka på **[!UICONTROL Save]** (5).
 
    ![](assets/move-to-350x297.png)
 
 ### Fler åtgärder
 
-I [!UICONTROL More actions] meny (6) kan du utföra följande åtgärder:
+På menyn [!UICONTROL More actions] (6) kan du utföra följande åtgärder:
 
 * Lås (endast korrektur)
 * Aktivera
@@ -148,7 +148,7 @@ Så här tar du bort objekt:
 
 ![](assets/delete-350x109.png)
 
-1. Kontrollera informationen på bekräftelseskärmen som visas och bekräfta genom att klicka på **[!UICONTROL Yes]** (8).
+1. På bekräftelseskärmen som visas kontrollerar du informationen och bekräftar genom att klicka på **[!UICONTROL Yes]** (8).
 
 ![](assets/deleteing-items-350x237.png)
 
@@ -172,9 +172,9 @@ Sidlisten har länkar till följande sidor:
 
 Sidofältet beskrivs mer ingående på hjälpsidan för sidofältet.
 
-### [!UICONTROL Welcome] section
+### [!UICONTROL Welcome] avsnitt
 
-The [!UICONTROL Welcome] -avsnittet har följande användbara länkar:
+Avsnittet [!UICONTROL Welcome] har följande användbara länkar:
 
 * Se våra demofilmer (1)
 * Hjälpsidor (2)
@@ -183,7 +183,7 @@ The [!UICONTROL Welcome] -avsnittet har följande användbara länkar:
 
 ![](assets/welcome-350x73.png)
 
-### Översikt
+### Ökning
 
 I det här avsnittet hittar du snabblänkarna till:
 
@@ -197,7 +197,7 @@ I översiktsavsnittet visas även förfiltrerad information. Dessa är:
 * Korrektur att hantera - totalt antal aktiva korrektur som du äger och som har delegerats till dig
 * Språkversioner som väntar på beslut - totalt antal aktiva korrektur som kräver dina beslut
 
-   ![](assets/dashboard-overview-350x169.png)
+  ![](assets/dashboard-overview-350x169.png)
 
 Här ser du direkt hur många korrektur som kräver omedelbara åtgärder från dig eller granskarna:
 
@@ -212,9 +212,9 @@ Här ser du direkt hur många korrektur som kräver omedelbara åtgärder från 
 
 ### Nyligen använda objekt
 
-The [!UICONTROL Recently accessed items] visas de objekt som du nyligen har använt. Detta inkluderar de objekt du äger, de objekt du har behörighet att se enligt din profilbehörighet och de objekt som delats med dig. Det här avsnittet kommer endast att innehålla de objekt som du själv har öppnat (antingen via [!DNL Workfront Proof] Visningsprogrammet eller via sidan Korrekturinformation).
+I avsnittet [!UICONTROL Recently accessed items] visas de objekt som du nyligen har använt. Detta inkluderar de objekt du äger, de objekt du har behörighet att se enligt din profilbehörighet och de objekt som delats med dig. Det här avsnittet kommer endast att innehålla de objekt som du själv har öppnat (antingen via [!DNL Workfront Proof]-visningsprogrammet eller via sidan Korrekturinformation).
 
-The [!UICONTROL Recently accessed items] visas följande information om de senaste korrektur- och filversionerna:
+I avsnittet [!UICONTROL Recently accessed items] visas följande information om de senaste korrektur- och filversionerna:
 
 * Namn
 * Förlopp
@@ -230,11 +230,11 @@ Se Sidlayouter för de olika layoutalternativen i det här avsnittet.
 
 >[!NOTE]
 >
->Klicka på korrekturnamnet i [!UICONTROL Recently accessed items] -avsnittet tar dig direkt till korrekturet i korrekturläsaren.
+>Om du klickar på korrekturnamnet i avsnittet [!UICONTROL Recently accessed items] kommer du direkt till korrekturet i korrekturläsaren.
 
 Så här öppnar du sidan Korrekturinformation:
 
-1. Klicka på **[!UICONTROL Actions]** meny (1) till höger om korrekturnamnet.
+1. Klicka på menyn **[!UICONTROL Actions]** (1) till höger om korrekturnamnet.
 1. Välj **[!UICONTROL View proof details]** (2) på menyn.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
@@ -245,17 +245,17 @@ I det här avsnittet visas följande information om den senaste aktiviteten i di
 
 * Datum och tid för korrektur/filnamn
 * Åtgärd
-* Detaljer
+* Information
 
 Du kan också gå till informationssidan för ett objekt genom att klicka på objektets Åtgärder-meny och välja att visa information. Mer information om aktiviteter på ditt konto finns i Aktivitetsgranskningsspår.
 
 >[!NOTE]
 >
->Klicka på namnet på korrekturet i dialogrutan [!UICONTROL Recent Activity] öppnas korrekturet i korrekturläsaren.
+>Om du klickar på namnet på korrekturet i avsnittet [!UICONTROL Recent Activity] öppnas korrekturläsaren.
 
 Gå till sidan med korrekturinformation för det korrekturet:
 
-1. Klicka på **[!UICONTROL Actions]** meny (1).
+1. Klicka på menyn **[!UICONTROL Actions]** (1).
 1. Välj **[!UICONTROL View proof details]** (2) i listrutan.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

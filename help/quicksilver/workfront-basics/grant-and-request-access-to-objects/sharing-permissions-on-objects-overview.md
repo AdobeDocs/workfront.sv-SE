@@ -44,7 +44,7 @@ Du kan dela följande objekt i Workfront med andra användare:
 
 * **Uppgifter**: Mer information finns i [Dela en uppgift](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-* **Problem**: Mer information finns i [Dela ett ärende](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **Problem**: Mer information finns i [Dela ett problem](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 * **Dokument**: Mer information finns i [Dela ett dokument](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
@@ -52,13 +52,13 @@ Du kan dela följande objekt i Workfront med andra användare:
 
 * **Korrektur**: Mer information finns i [Dela ett korrektur i Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-* **Rapporter, kontrollpaneler och kalendrar**: Mer information finns i [Dela rapporter, kontrollpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Se även följande artiklar:
+* **Rapporter, instrumentpaneler och kalendrar**: Mer information finns i [Dela rapporter, instrumentpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md). Se även följande artiklar:
 
    * [Dela en rapport i Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Dela en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Dela en kalenderrapport](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-* **Filter, vyer och grupperingar**: Mer information finns i [Dela ett filter, en vy eller en grupp](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* **Filter, vyer och grupperingar**: Mer information finns i [Dela ett filter, en vy eller en gruppering](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 * **Planer**: Mer information finns i [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md).
 
@@ -72,7 +72,7 @@ Du kan dela följande objekt i Workfront med andra användare:
 
 * Du kan bara dela samma nivå eller en lägre behörighetsnivå som du har på objektet.
 
-  Om du till exempel har Contribute-behörighet för objektet kan du inte ge en annan användare behörigheten Hantera för det objektet.
+  Om du till exempel har Contribute-behörigheter för objektet kan du inte ge en annan användare behörigheten Hantera för det objektet.
 
 * Du kan inte dela ett objekt med en behörighetsnivå som är högre än en användares åtkomstnivå.
 
@@ -96,7 +96,7 @@ Du kan dela ett objekt med upp till 100 enheter (användare, team, grupper, jobb
 
 ## Dela behörigheter för objekt
 
-Följande tabell visar behörighetsnivån som du kan välja när du delar ett objekt. Alla objekt har inte alla dessa inställningar tillgängliga. Du kan ge en annan entitet behörighet att visa eller hantera ett objekt. Om du delar ett projekt, en uppgift eller ett problem kan du även ge Contribute behörighet.
+Följande tabell visar behörighetsnivån som du kan välja när du delar ett objekt. Alla objekt har inte alla dessa inställningar tillgängliga. Du kan ge en annan entitet behörighet att visa eller hantera ett objekt. Om du delar ett projekt, en uppgift eller ett problem kan du även ge Contribute behörighet till det.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -151,11 +151,11 @@ Följande tabell visar behörighetsnivån som du kan välja när du delar ett ob
 
 Behörigheter i Workfront ärvs hierarkiskt. Det innebär att om du tilldelar behörigheter till en användare för ett överordnat objekt får de samma behörigheter för de underordnade objekten som är kopplade till det som standard.
 
-Om du till exempel ger en användare Contribute-behörighet till ett projekt, har användaren Contribute-behörighet för alla åtgärder och ärenden (underordnade objekt) som är kopplade till det projektet.
+Om du till exempel ger en användare Contribute-behörigheter till ett projekt får användaren Contribute-behörigheter till alla aktiviteter och ärenden (underordnade objekt) som är kopplade till det projektet.
 
-Om du fortsätter med exemplet ovan kan du inte begränsa behörigheter till underordnade objekt. Om du inte vill att användaren ska ha Contribute-behörigheter för underordnade objekt som är kopplade till projektet, måste du ta bort ärvda behörigheter från objekten manuellt och sedan justera behörigheterna för den enskilda användaren, inklusive eventuella avancerade inställningar. 
+Om du fortsätter med exemplet ovan kan du inte begränsa behörigheter till underordnade objekt. Om du inte vill att användaren ska ha Contribute-behörigheter för underordnade objekt som är kopplade till projektet, måste du ta bort ärvda behörigheter från objekten manuellt och sedan justera behörigheter för den enskilda användaren, inklusive eventuella avancerade inställningar. 
 
-Mer information om hierarkin och det inbördes beroendet för objekt i Workfront finns i avsnittet [Objektens inbördes beroende och hierarki](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) i artikeln [Adobe Workfront-objekt - översikt](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objekts hierarki och inbördes beroende i Workfront finns i avsnittet [Objektens inbördes beroende och hierarki](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) i artikeln [Översikt över Adobe Workfront-objekt](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >

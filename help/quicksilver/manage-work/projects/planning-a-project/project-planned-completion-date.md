@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Planerat slutförandedatum för ett projekt är det datum då projektet är inställt på att slutföras.
 
-Planerade startdatum och planerade slutförandedatum för ett projekt är beroende av datumen för aktiviteterna i projektet. I den här artikeln beskrivs hur du manuellt eller automatiskt kan ange planerat slutförandedatum för ett projekt. Mer information om planerat slutförandedatum för en uppgift finns i [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Planerade startdatum och planerade slutförandedatum för ett projekt är beroende av datumen för aktiviteterna i projektet. I den här artikeln beskrivs hur du manuellt eller automatiskt kan ange planerat slutförandedatum för ett projekt. Mer information om det planerade slutförandedatumet för en aktivitet finns i [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 Det planerade slutförandedatumet för ett projekt kan anges manuellt eller automatiskt, beroende på om du schemalägger projektet från Start eller från Slutförandedatumet.
 
@@ -74,7 +74,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -96,20 +96,20 @@ Du måste manuellt ange planerat slutförandedatum för ett projekt när du sche
 
 Så här schemalägger du ett projekt från Slutförandedatum:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
 
-1. Klicka **Nytt projekt** sedan **Nytt projekt**.
+1. Klicka på **Nytt projekt** och sedan på **Nytt projekt**.
 
    Mer information om hur du skapar projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Välj **Projektinformation** i den vänstra panelen klickar du på **Redigera projekt** i det övre högra hörnet.
+1. Välj **Projektinformation** i den vänstra panelen och klicka sedan på ikonen **Redigera projekt** i det övre högra hörnet.
 
-1. I **Schemaläge** fält, markera **Slutförandedatum**.
+1. Välj **Slutförandedatum** i fältet **Schemaläge**.
 
-1. Ange **Planerat slutförandedatum** av projektet.
-1. Klicka **Spara ändringar**.
+1. Ange **Planerat slutförandedatum** för projektet.
+1. Klicka på **Spara ändringar**.
 
-   När du börjar lägga till uppgifter i ditt projekt visas **Planerat startdatum** av projektet beräknas utifrån den totala varaktigheten för alla uppgifter. 
+   När du börjar lägga till aktiviteter i projektet beräknas projektets **planerade startdatum** baserat på den totala varaktigheten för alla aktiviteter. 
 
 ## Ange automatiskt planerat slutförandedatum för ett projekt
 
@@ -117,20 +117,20 @@ Det planerade slutförandedatumet för ett projekt beräknas automatiskt av Work
 
 Så här schemalägger du ett projekt från startdatum:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Projekt**.
 
-1. Klicka **Nytt projekt** sedan **Nytt projekt**.
+1. Klicka på **Nytt projekt** och sedan på **Nytt projekt**.
 
    Mer information om hur du skapar projekt finns i artikeln [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Välj **Projektinformation** i den vänstra panelen klickar du på **Redigera projekt** i det övre högra hörnet.
+1. Välj **Projektinformation** i den vänstra panelen och klicka sedan på ikonen **Redigera projekt** i det övre högra hörnet.
 
-1. I **Schemaläge** fält, markera **Startdatum**.
+1. Välj **Startdatum** i fältet **Schemaläge**.
 
-1. Ange **Planerat startdatum** av projektet.
-1. Klicka **Spara ändringar**.
+1. Ange projektets **planerade startdatum**.
+1. Klicka på **Spara ändringar**.
 
-   När du börjar lägga till uppgifter i ditt projekt visas **Planerat slutförandedatum** av projektet beräknas utifrån den totala varaktigheten för alla uppgifter. 
+   När du börjar lägga till aktiviteter i projektet beräknas projektets **Planerade slutförandedatum** baserat på den totala varaktigheten för alla aktiviteter. 
 
    Mer information om aktivitetsvaraktighet finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 

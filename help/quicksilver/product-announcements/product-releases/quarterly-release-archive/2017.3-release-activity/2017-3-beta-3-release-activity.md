@@ -22,22 +22,22 @@ ht-degree: 0%
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2017.3 finns på  [Aktivitetsöversikt för 2017.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2017.3 finns på  [Aktivitetsöversikt för version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-Beta 3-versionen från 2017.3 innehåller förbättringar för alla användare:
+2017.3 Beta 3 innehåller förbättringar för alla användare:
 
 * [Anpassa diagramfärger](#customize-chart-colors)
 * [Ytterligare alternativ vid kopiering av projekt](#additional-options-when-copying-projects)
 * [Förbättrad resursplanering: Filter](#resource-planner-improvement-filters)
-* [Förbättring av resursplanering: Visa utgivningstimmar i området Inställningar](#resource-planner-improvement-show-issue-hours-in-the-settings-area)
+* [Förbättring av resursplanering: Visa utfärdandetimmar i området Inställningar](#resource-planner-improvement-show-issue-hours-in-the-settings-area)
 * [SSO-information för sandlådorna för anpassad uppdatering och förhandsvisning Uppdatera inte](#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh)
-* [Uppdaterade krav på webbläsarstöd för Workfront Proof](#updated-browser-support-requirements-for-workfront-proof)
+* [Uppdaterade supportkrav för webbläsare för Workfront Proof](#updated-browser-support-requirements-for-workfront-proof)
 
 ## Anpassa diagramfärger {#customize-chart-colors}
 
 Nu kan du anpassa färgerna för elementen i diagram. Detta gäller för alla diagramtyper i rapporter. Detta gäller inte Gantt-schemat.
 
-Före den här ändringen markerades färgerna för elementen i alla diagram som standard av Workfront. Mer information om hur du anpassar diagramfärger finns i avsnittet &quot;Anpassa diagramfärger&quot; i [Lägga till ett diagram i en rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Före den här ändringen markerades färgerna för elementen i alla diagram som standard av Workfront. Mer information om hur du anpassar diagramfärger finns i avsnittet Anpassa diagramfärger i [Lägga till ett diagram i en rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 ## Ytterligare alternativ vid kopiering av projekt {#additional-options-when-copying-projects}
 
@@ -76,22 +76,22 @@ Nu kan du filtrera informationen som visas i resursplaneraren efter följande ob
 
 Du kan också lägga till ett eget filter baserat på dessa objekt.
 
-Mer information om hur du använder resursplaneraren finns i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
+Mer information om hur du använder resursplaneraren finns i [Resursplaneringsöversikt](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md). 
 
 ## Förbättring av resursplanering: Visa utgivningstimmar i området Inställningar {#resource-planner-improvement-show-issue-hours-in-the-settings-area}
 
 Det finns ett nytt inställningsområde i resursplaneraren som visar flera alternativ för att anpassa resursplaneraren. I den här versionen har vi lagt till det första alternativet som inkluderar planerade timmar från utgåvor i kolumnerna Planerade timmar i Resursplaneraren.
 
-Mer information om hur du använder resursplaneraren finns i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om hur du använder resursplaneraren finns i [Resursplaneringsöversikt](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## SSO-information för sandlådorna för anpassad uppdatering och förhandsvisning Uppdatera inte {#sso-information-for-the-custom-refresh-and-preview-sandboxes-do-not-refresh}
 
 Från och med den här versionen kopieras inte SSO-informationen från din produktionsmiljö och inaktiveras inte heller när du uppdaterar dina anpassade uppdaterings- och förhandsgranskningssandlådor. Före den här ändringen inaktiverades SSO-informationen i sandlådorna för anpassad uppdatering och förhandsgranskning och var inställd på &quot;Ingen&quot;.
 
-Mer information om anpassad sandlådemiljö för uppdatering finns i [Adobe Workfront anpassade sandlådemiljö för uppdatering](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+Mer information om anpassad sandlådemiljö för uppdatering finns i [Anpassad sandlådemiljö för Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
-Mer information om sandlådemiljön för förhandsgranskning finns i [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Mer information om sandlådemiljön för förhandsgranskning finns i [Sandlådemiljön för Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-## Uppdaterade krav på webbläsarstöd för Workfront Proof {#updated-browser-support-requirements-for-workfront-proof}
+## Uppdaterade supportkrav för webbläsare för Workfront Proof {#updated-browser-support-requirements-for-workfront-proof}
 
-Krav på webbläsarstöd för Workfront Proof har uppdaterats. Mer information finns i [Krav för Adobe Workfront webbläsare](../../../../workfront-basics/workfront-browser-requirements.md).
+Krav för webbläsarstöd för Workfront Proof har uppdaterats. Mer information finns i [Adobe Workfront webbläsarkrav](../../../../workfront-basics/workfront-browser-requirements.md).

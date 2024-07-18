@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 22.4 finns i [22.
 
 För att du ska kunna se alla användare i systemet och deras kapacitet utan att lämna arbetsbelastningsutjämnaren för ett projekt har vi lagt till alternativet Visa alla användare. När det här alternativet är aktiverat visas alla användare i systemet på arbetsytan Tilldelad arbetsyta i projektets belastningsutjämnare. Med den här förbättringen kan du enkelt identifiera vem som behöver tilldelas till arbete som listas i området Ej tilldelat arbete.
 
-Mer information finns i [Tilldela arbete i belastningsutjämnaren genom att dra och släppa](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+Mer information finns i [Tilldela arbete i Utjämning av arbetsbelastning genom att dra och släppa](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
@@ -37,7 +37,7 @@ För att göra det enklare att hitta rätt person när jobbroller ersätts med a
 
 Före den här förbättringen kunde du bara visa listan med användare som är tillgängliga för tilldelning enligt logiken för smarta uppdrag.
 
-Mer information om hur du tilldelar flera arbetsmoment med hjälp av belastningsutjämnaren finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Mer information om hur du tilldelar flera arbeten samtidigt med hjälp av belastningsutjämnaren finns i [Tilldela flera arbeten samtidigt med hjälp av belastningsutjämnaren för arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
@@ -55,5 +55,5 @@ Mer information finns i följande artiklar:
 
 * [Navigera till arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Hantera användarallokeringar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

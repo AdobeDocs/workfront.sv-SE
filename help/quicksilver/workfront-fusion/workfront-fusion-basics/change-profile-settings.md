@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Ändra profilinställningar i [!DNL Adobe Workfront Fusion]
-description: Du kan ändra information i [!DNL Adobe Workfront Fusion] kontoprofil.
+title: Ändra profilinställningar i  [!DNL Adobe Workfront Fusion]
+description: Du kan ändra information i din [!DNL Adobe Workfront Fusion] kontoprofil.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ändra profilinställningar i [!DNL Adobe Workfront Fusion]
 
-Du kan ändra information i [!DNL Adobe Workfront Fusion] kontoprofil.
+Du kan ändra information i din [!DNL Adobe Workfront Fusion]-kontoprofil.
 
 ## Åtkomstkrav
 
@@ -41,17 +41,17 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Ändra profilinställningar
 
@@ -66,17 +66,17 @@ Om din organisation finns i det enhetliga Adobe-skalet kan du komma åt din prof
 
 Med den här menyn kan du:
 
-* Välj **[!UICONTROL Dark theme]** formatera för [!DNL Adobe Experience Cloud].
-* Ange **[!UICONTROL Preferences]** for [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
-* Få åtkomst till dina **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på **[!UICONTROL More]** meny och välj **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
-* **[!UICONTROL Sign out]** Adobe Experience Cloud.
+* Välj **[!UICONTROL Dark theme]**-formatering för [!DNL Adobe Experience Cloud].
+* Ange **[!UICONTROL Preferences]** för [!DNL Adobe Experience Cloud], inklusive inställningar för primärt och sekundärt språk.
+* Få åtkomst till din **[!UICONTROL [!DNL Workfront] Profile]**. När du är med i profilen klickar du på menyn **[!UICONTROL More]** och väljer **[!UICONTROL Edit]**. Mer information om profilen finns i [Konfigurera mina inställningar](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* **[!UICONTROL Sign out]** av Adobe Experience Cloud.
 
 ### Ändra profilinställningar utan det enhetliga skalet
 
 Så här ändrar du information i din kontoprofil i organisationer som inte använder Adobe Unified ShellS:
 
 1. Klicka på din avatar längst ned på den vänstra panelen och klicka sedan på **[!UICONTROL Profile]**.
-1. Klicka: **[!UICONTROL General Options]**&#x200B;ändrar du något av följande alternativ:
+1. Klicka på **[!UICONTROL General Options]** och ändra sedan något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -90,7 +90,7 @@ Så här ändrar du information i din kontoprofil i organisationer som inte anv�
       <td role="rowheader">[!UICONTROL Time Zone Options]</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Web]</strong>: Ändra tidszonen som används för datum och tider som visas på [!DNL Workfront Fusion] webbplats.</li> 
+        <li><strong>[!UICONTROL Web]</strong>: Ändra tidszonen som används för datum och tider som visas på webbplatsen [!DNL Workfront Fusion].</li> 
         <li><strong>[!UICONTROL Scenarios]</strong>: Ändra den tidszon som används för att tolka och formatera datum och tidpunkter under scenariokörningar (när du inte uttryckligen anger tidszonen). Du kan välja en tidszon för varje inställning.</li> 
        </ul> </td> 
      </tr> 

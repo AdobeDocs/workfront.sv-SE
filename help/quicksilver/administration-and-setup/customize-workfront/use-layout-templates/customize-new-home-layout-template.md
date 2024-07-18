@@ -31,7 +31,7 @@ Du kan konfigurera
 >
 >När ändringar i en layoutmall sparas ändras den nya startsidan för användare som använder den layoutmallen så att den matchar layoutmallen, och deras befintliga widgetval flyttas längst ned på sidan. Widgetar som valts av administratören kan flyttas och storleksändras av en användare, men de kan inte tas bort.
 
-Mer information om nya Home finns i [Kom igång med Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Mer information om nya Hem finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,9 +67,9 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det användarna ser** och sedan klicka **Home Workspace**.
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Home Workspace**.
 
-1. Klicka på någon av flikarna till höger **Design och layout** för att välja och ordna widgetar och bakgrund, eller **Widget-inställningar** om du vill hantera inställningar för enskilda widgetar, till exempel tillgängliga filter och grupper.
+1. På flikarna till höger klickar du antingen på **Design &amp; layout** för att välja och ordna widgetar och bakgrund, eller på **Widget-inställningar** för att hantera inställningar för enskilda widgetar som tillgängliga filter och grupper.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,8 +79,8 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
       <td role="rowheader">Design och layout</td> 
       <td>
       <p>Välj vilka widgetar som ska finnas på användarens arbetsytor, deras position och välj en bakgrund. Observera att även om användare inte kan ta bort de markerade widgetarna kan de flytta och ändra storlek på dem fritt samt lägga till ytterligare widgetar.</p>
-      <p>Den här fliken fungerar i stort sett som en liten ny hemarbetsyta, och kan därför anpassas enligt stegen som beskrivs i <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Lägga till, redigera eller ta bort widgetar i nytt hem</a>. Välj widgetar och ordna arbetsytan så som du vill att den ska visas för användarna.</p>
-      <p>Om du vill ändra bakgrunden följer du stegen under <b>Anpassning av bakgrund</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Kom igång med Nytt hem</a>.</p>
+      <p>Den här fliken fungerar i stort sett som en liten ny hemarbetsyta. Den kan därför anpassas enligt stegen som beskrivs i <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Lägg till, redigera eller ta bort widgetar i nytt hemgränssnitt</a>. Välj widgetar och ordna arbetsytan så som du vill att den ska visas för användarna.</p>
+      <p>Om du vill ändra bakgrunden följer du stegen under <b>Anpassa bakgrunden</b> i <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Kom igång med nytt hem</a>.</p>
       <p>
 
 >[!NOTE]
@@ -99,7 +99,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
         <li>Mina uppgifter</li>
         <li>Mina problem</li>
       </ul>
-      <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. Dessa alternativ innehåller <b>Filter</b>, <b>Kolumner</b>och <b>Grupper</b>. Du kan:</p>
+      <p>När du har valt den widget du vill redigera visas tillgängliga alternativ till höger. Dessa alternativ omfattar <b>Filter</b>, <b>Kolumner</b> och <b>Grupper</b>. Du kan:</p>
       <ul>
       <li><p><b>Välj och beställa filter, kolumner eller grupper som är tillgängliga för användarna:</b></p>
       <p>Markera rutan bredvid alla alternativ i listan som du vill att användarna ska kunna använda. Alternativen som inte är markerade visas inte för användare. Dra och släpp i listan för att ange en ordning.</li></p>
@@ -131,7 +131,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara** längst ned till vänster.
+   Om du är klar med anpassningen klickar du på **Spara** i det nedre vänstra hörnet.
 
 
 >[!NOTE]

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ För att hjälpa dina användare att spåra nedladdningar av dokument som de lag
 >
 >Vi rekommenderar att du testar den här funktionen i Förhandsgranska för ett nyligen överfört dokument.
 
-Information om hur Workfront loggar automatiska uppdateringar av objekt finns i [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Information om hur Workfront loggar automatiska uppdateringar på objekt finns i [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 ## Bevilja åtkomst för team med åtkomstnivåer
 
@@ -57,8 +57,6 @@ Mer information finns i [Konfigurera en plan](../../../administration-and-setup/
 
 Området Anpassade Forms har en ny stil och känsla som gör den uppdaterad med många andra områden i den nya Workfront-upplevelsen.
 
-Mer information om hur du skapar ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Många förbättringar för att skapa beräknade anpassade fält
 
 Det är nu mycket enklare att skapa beräknade anpassade fält med dessa tillägg i den nya beräkningsredigeraren:
@@ -70,8 +68,6 @@ Det är nu mycket enklare att skapa beräknade anpassade fält med dessa tilläg
 * Du kan förhandsgranska resultatet av beräkningen med ett befintligt objekt utan att lämna beräkningsredigeraren.
 
 I den anpassningsbara hovringstexten &quot;Instruktioner&quot; för ett beräknat anpassat fält kan du visa eller dölja fältets formel. Detta är användbart om du tror att de användare som ska fylla i det anpassade formuläret inte kommer att behöva den informationen.
-
-Mer information om hur du skapar ett beräknat anpassat fält finns i [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Visa granskningsloggsinformation om status och företag
 
@@ -108,8 +104,6 @@ Mer information finns i [Hantera företagsmedlemskap](../../../administration-an
 
 Vi fortsätter att göra det enklare att skapa ett beräknat fält i en anpassad form. När du klickar på Maximera för att öppna den nya beräkningsredigeraren kan du nu hitta och välja de uttryck och fält som du behöver.
 
-Mer information finns i [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## Grupper kan konfigurera sina egna inställningar för tidrapport och timma
 
 >[!NOTE]
@@ -120,9 +114,9 @@ I en stor organisation kan vissa grupper behöva konfigurera tidrapport- och tim
 
 Den här funktionen lades också till nyligen för projektinställningar och för inställningar för uppgifter och utgåvor.
 
-Mer information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport- och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Mer information om hur en gruppadministratör konfigurerar olåsta uppgifter och utfärdar inställningar för en grupp finns i [Konfigurera tidrapport och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Mer information om hur en gruppadministratör konfigurerar olåsta uppgifter och utfärdar inställningar för en grupp finns i [Konfigurera tidrapport- och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Välj flera meddelanden som du vill låsa upp eller låsa upp för grupper
 
@@ -130,7 +124,7 @@ Det är nu snabbare och enklare att låsa upp eller låsa upp e-postmeddelanden 
 
 Tidigare var du tvungen att låsa upp och låsa upp meddelanden igen en i taget. Workfront har för närvarande 95 meddelanden, så det här tog en stund om du var tvungen att göra det för alla eller många av dem.
 
-Mer information finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Mer information finns i [Lås upp eller låsa konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
 ## För gruppadministratörer: Det är enklare att välja en ersättningsgrupp när du tar bort en grupp
 
@@ -145,8 +139,6 @@ Mer information finns i [Ta bort en grupp](../../../administration-and-setup/man
 
 Nu är det enklare att skapa komplexa beräkningsfält i ett anpassat formulär. Klicka på knappen Maximera för att öppna ett stort redigeringsfönster där du kan skapa beräkningen. När du är klar klickar du på Minimera för att fortsätta arbeta med det anpassade formuläret.
 
-Mer information finns i [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## Lägga till anpassade formulär i grupper
 
 Anpassade formulär stöds nu för Group-objektet. Detta gör det enklare för grupper i organisationen att samla in och dela information som passar deras specifika behov och arbetsflöden. Användare kan göra följande för en grupp på samma sätt som för andra Workfront-objekt:
@@ -157,7 +149,7 @@ Anpassade formulär stöds nu för Group-objektet. Detta gör det enklare för g
 * Ta bort ett anpassat formulär
 * Redigera anpassade data från listor och, i den nya Workfront-upplevelsen, från gruppsidan
 
-Mer information om anpassade formulär finns i [Egna formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+Mer information om anpassade formulär finns i [Anpassade formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 ## Skapa OAuth2-appar för att integrera program med Workfront
 

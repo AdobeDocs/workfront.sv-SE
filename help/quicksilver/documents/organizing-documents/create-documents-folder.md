@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 source-git-commit: 9541ac0f04590cb07c6ff4cf1a24ab56a7228322
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ Dokument kan ordnas i mappar. Du kan skapa personliga mappar i ditt personliga d
 
 >[!NOTE]
 >
->När du ordnar dokument skapas helt enkelt länkar mellan dokumenten och de objekt du associerar dem med. De flyttas inte till systemet.
+>När du ordnar dokument skapas helt enkelt länkar mellan dokumenten och de objekt du associerar dem med. De omplaceras inte i systemet.
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,11 +50,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra vyn använder du visningsalternativen i det övre högra hörnet.
 
-1. Klicka **Dokument** på huvudmenyn. ![](assets/main-menu-icon.png)
+1. Klicka på **Dokument** på huvudmenyn. ![](assets/main-menu-icon.png)
 
    eller
 
-   Med ett Workfront-objekt öppet klickar du på **Dokument** i den vänstra panelen.
+   Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
 
 1. Klicka på visningsalternativen ovanför den högra panelen för att ändra hur dokumenten visas.
 
@@ -62,19 +62,19 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 
 ## Skapa mappar och undermappar
 
-Skapa mappar för att ordna dina dokument bättre. Du kan skapa upp till 2 000 mappar på ett objekt och upp till 50 undermappar i varje mapp. Undermappar räknas till det maximala antalet 2 000 mappar.
+Skapa mappar för att ordna dina dokument bättre. Du kan skapa upp till 2 000 mappar på ett objekt och upp till 50 undermappar i varje mapp. Undermappar räknas som högst 2 000 mappar.
 
-1. Klicka **Dokument** på huvudmenyn. ![](assets/main-menu-icon.png)
-
-   eller
-
-   Med ett Workfront-objekt öppet klickar du på **Dokument** i den vänstra panelen.
-
-1. Om du vill skapa en mapp på den översta nivån ser du till att inget är markerat och klickar sedan på **Lägg till ny** > **Mapp**.
+1. Klicka på **Dokument** på huvudmenyn. ![](assets/main-menu-icon.png)
 
    eller
 
-   Om du vill skapa en undermapp markerar du den mapp där du vill skapa undermappen och klickar sedan på **Lägg till ny** > **Mapp**.
+   Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
+
+1. Om du vill skapa en mapp på den översta nivån kontrollerar du att inget är markerat och klickar sedan på **Lägg till ny** > **Mapp**.
+
+   eller
+
+   Om du vill skapa en undermapp markerar du den mapp där du vill skapa undermappen och klickar sedan på **Lägg till ny** > **Mapp**.
 
 ## Dela mappar
 

@@ -19,7 +19,7 @@ Du kan exportera information från valfri vy i resursplaneraren till en Excel-fi
 
 >[!IMPORTANT]
 >
->Det finns begränsningar för vilken information som visas och vilken information du kan exportera från Resursplaneraren. Information om dessa begränsningar finns i [Resursplanering - visningsbegränsningar](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+>Det finns begränsningar för vilken information som visas och vilken information du kan exportera från Resursplaneraren. Mer information om de här begränsningarna finns i [Resursplaneringsbegränsningar](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 ## Åtkomstkrav
 
@@ -45,7 +45,7 @@ Du måste ha följande:
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa eller öka åtkomst till projekt, användare och resurshantering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,9 +58,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Exportera information från resursplaneraren
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Resurser**. The **Planering** visas som standard.
+1. Klicka på **Resurs**. **Planeraren** visas som standard.
 
 1. Välj vyn för planeraren. Du kan välja något av följande alternativ:
 
@@ -68,7 +68,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * Visa efter projekt
    * Visa efter roll
 
-1. Klicka **Exportera**.
+1. Klicka på **Exportera**.
 
    Dialogrutan Exportalternativ visas.
 
@@ -84,7 +84,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * 36 månader
    * 12 kvartal
 
-   **Välj att exportera**: Beroende på vilken vy du har valt kan du välja att exportera tillgänglighets- och budgeteringsinformation för alla objekt som visas på skärmen eller för specifika objekt.
+   **Välj att exportera**: Beroende på vilken vy du valde kan du välja att exportera tillgänglighets- och budgeteringsinformation för antingen alla objekt som visas på skärmen eller för specifika objekt.
 Du kan välja att exportera följande information:
 
    * I projektvyn väljer du att exportera:
@@ -92,11 +92,13 @@ Du kan välja att exportera följande information:
       * Projekt
       * Projekt och roller
       * Allt (det här är standardalternativet)
+
    * I användarvyn väljer du att exportera:
 
       * Användare
       * Användare och projekt
       * Allt (det här är standardalternativet)
+
    * I rollvyn väljer du att exportera:
 
       * Roller
@@ -105,20 +107,19 @@ Du kan välja att exportera följande information:
 
    **Dataformatering**: Beroende på hur du vill att Excel-filen ska visas väljer du följande alternativ:
 
-   * **Raw**: Välj det här alternativet om du vill visa tillgänglighets- och allokeringsinformation som delats upp av objekten som den tillhör i Excel-filen. (det här är standardalternativet)
+   * **Raw**: Välj det här alternativet om du vill visa tillgänglighets- och allokeringsinformation som delats upp av de objekt som det tillhör i Excel-filen. (det här är standardalternativet)
    * **Grupperad**: Välj det här alternativet om du vill visa tillgänglighets- och allokeringsinformation grupperad efter de objekt som den tillhör. Då visas den exporterade informationen så som den visas på skärmen.
 
    Ett exempel på hur informationen ser ut i den exporterade filen visas i dialogrutan Exportalternativ.
 
-1. Klicka **Exportera** om du vill exportera informationen från resursplaneraren.\
+1. Klicka på **Exportera** om du vill exportera informationen från resursplaneraren.\
    Endast den information som du har sparat exporteras.
 
-1. (Villkorligt) Om du har osparade budgettimmar i roll- eller projektvyerna klickar du på **Spara och fortsätt.**
-En Excel-fil (.xlsx) hämtas till datorn.
-\
+1. (Villkorligt) Om du har osparade budgeterade timmar i roll- eller projektvyerna klickar du på **Spara och fortsätt.**
+En Excel-fil (.xlsx) hämtas till datorn.\
    Det går inte att exportera från resursplaneraren medan filen förbereds för hämtning.\
    (Villkorligt) Om du exporterar en stor mängd data får du ett e-postmeddelande med en länk dit du kan hämta filen.\
-   ![RP_eamil_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
+   ![RP_email_with_exported_planner_attached.png](assets/rp-eamil-with-exported-planner-attached-350x116.png)
 
 1. (Villkorligt) När du får e-postmeddelandet med den exporterade filen klickar du på **Hämta** för att hämta filen.\
    Du kommer då tillbaka till Workfront där du kan ladda ned filen.\

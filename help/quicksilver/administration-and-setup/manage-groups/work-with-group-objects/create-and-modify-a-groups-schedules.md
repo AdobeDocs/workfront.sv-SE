@@ -43,7 +43,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,16 +52,16 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Skapa eller ändra scheman för en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Grupper**.
+1. Klicka på **Grupper**.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
 1. Klicka på namnet på gruppen där du vill visa scheman.
-1. Klicka på i den vänstra panelen **Scheman**.
+1. Klicka på **Scheman** i den vänstra panelen.
 1. Gör något av följande:
 
-   * Klicka **Nytt schema** för att skapa ett nytt schema
-   * Välj ett schema och använd sedan kontrollerna i verktygsfältet för att **Redigera**, **Kopiera**, eller **Ta bort** den.
-   * **Exportera** en lista med tidsplaner för gruppen.
+   * Klicka på **Nytt schema** för att skapa ett nytt schema
+   * Välj ett schema och använd sedan kontrollerna i verktygsfältet för att **redigera**, **kopiera** eller **ta bort** det.
+   * **Exportera** listan med scheman för gruppen.

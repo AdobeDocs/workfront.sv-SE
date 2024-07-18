@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till Dokument med borttagningsbehörighet aktiverad</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till Dokument med borttagningsbehörighet aktiverad</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -46,13 +46,13 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-Så här tar du bort ett dokument:
+Ta bort ett dokument:
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på **Ta bort** icon ![](assets/delete.png) ovanför området Dokument.
+1. Klicka på ikonen **Ta bort** ![](assets/delete.png) ovanför dokumentområdet.
 
-1. Klicka på **Ja, ta bort den** för att bekräfta.
+1. I rutan som visas klickar du på **Ja, tar bort** för att bekräfta.
 
-En system- eller gruppadministratör kan återställa ett dokument inom 30 dagar efter att det tagits bort, enligt beskrivningen i [Återställ borttagna objekt](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+En system- eller gruppadministratör kan återställa ett dokument inom 30 dagar efter att det tagits bort, vilket beskrivs i [Återställ borttagna objekt](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

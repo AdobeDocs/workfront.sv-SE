@@ -8,14 +8,14 @@ feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
 
-# Skapa och redigera i [!DNL Scenario Planner]
+# Skapa och redigera initiativ i [!DNL Scenario Planner]
 
-När du använder [!UICONTROL Adobe Workfront Scenario Planner]kan du skapa initiativ i en plan som du har skapat eller som delats med dig. Genom att skapa initiativ kan du visa hur mindre organisationsenheter bidrar till att slutföra planen. Om din organisation till exempel har en plan för de kommande tre åren att expandera till en ny marknad, kan du skapa initiativ inom den här planen för varje avdelning för att uppskatta varje avdelnings behov av personal och budget för att kunna genomföra den här planen.
+När du använder [!UICONTROL Adobe Workfront Scenario Planner] kan du skapa initiativ i en plan som du har skapat eller som delats med dig. Genom att skapa initiativ kan du visa hur mindre organisationsenheter bidrar till att slutföra planen. Om din organisation till exempel har en plan för de kommande tre åren att expandera till en ny marknad, kan du skapa initiativ inom den här planen för varje avdelning för att uppskatta varje avdelnings behov av personal och budget för att kunna genomföra den här planen.
 
 ## Åtkomstkrav
 
@@ -35,11 +35,11 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td>Produkt </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln. </p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln. </p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfigurationer på åtkomstnivå* </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektbehörigheter </p> </td> 
@@ -48,13 +48,13 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-*Kontakta [!DNL Workfront] administratör.
+*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Du måste skapa en plan, annars måste en annan användare dela en plan med dig innan du kan skapa ett initiativ i den planen. Mer information om att skapa planer finns i [Skapa och redigera planer i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+Du måste skapa en plan, annars måste en annan användare dela en plan med dig innan du kan skapa ett initiativ i den planen. Mer information om hur du skapar planer finns i [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-Mer information om vilka initiativ som är tillgängliga finns i [Översikt över initiativen i [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
+Mer information om vilka initiativ som är tillgängliga finns i [Översikt över initiativ i  [!DNL Scenario Planner]](../scenario-planner/initiatives-overview.md).
 
 ## Skapa initiativ
 
@@ -63,24 +63,24 @@ Du kan skapa initiativ på följande sätt:
 * Från scratch.
 * Genom att importera projekt till en plan
 
-   Mer information om hur du importerar projekt som initiativ i en plan finns i [Importera projekt till planer i [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Mer information om hur du importerar projekt som initiativ i en plan finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Genom att kopiera befintliga initiativ.
 
-   Mer information om kopieringsinitiativ finns i [Kopiera initiativ i [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md).
+  Mer information om kopieringsinitiativ finns i [Kopiera initiativ i  [!DNL Scenario Planner]](../scenario-planner/copy-initiatives.md).
 
 Så här skapar du helt nya initiativ:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
 1. Klicka på namnet på den plan som du vill skapa ett initiativ för.
-1. Klicka på **+ ikon** till vänster om **[!UICONTROL New initiative]**
+1. Klicka på ikonen **+** till vänster om **[!UICONTROL New initiative]**
 
    eller
 
-   Klicka på **[!UICONTROL New initiative]** nedrullningsbar meny och välj antingen **[!UICONTROL New initiative]** eller **[!UICONTROL Import Projects].**
+   Klicka på listrutan **[!UICONTROL New initiative]** och välj antingen **[!UICONTROL New initiative]** eller **[!UICONTROL Import Projects].**
 
-1. Skriv in ett namn på ditt initiativ i **[!UICONTROL Untitled Initiative]** och sedan trycka på Enter eller klicka någon annanstans på sidan.
+1. Skriv in ett namn för din initiativ i fältet **[!UICONTROL Untitled Initiative]** och tryck sedan på Retur eller klicka någon annanstans på sidan.
 
    Initiativet visas på tidslinjen i planen, som ett blått fält. Som standard är ett initiativ en månad och börjar alltid på planens första månad.
 
@@ -95,17 +95,17 @@ Så här skapar du helt nya initiativ:
    >
    >Du kan bara välja en varaktighet i månader. Längden på ett initiativ som du skapar från grunden kan aldrig överstiga planens varaktighet.
 
-1. (Valfritt) Från **[!UICONTROL Month]** väljer du något av följande alternativ för att ändra tidslinjen för planen:
+1. (Valfritt) Välj något av följande alternativ i listrutan **[!UICONTROL Month]** för att ändra tidslinjen för planen:
 
    | Nedrullningsbart menyalternativ | Beskrivning |
    |---|---|
    | [!UICONTROL Month] | Visar tidslinjen per månad. Det här är standardalternativet för en ettårsplan. |
-   | [!UICONTROL Quarter] | Visar tidslinjen per kvartal. Det här alternativet är bara tillgängligt när [!UICONTROL Duration] för planen är 3 eller 5 år. Det här är standardalternativet för en 3-årsplan. |
-   | [!UICONTROL Year] | Visar tidslinjen per år. Det här alternativet är bara tillgängligt när [!UICONTROL Duration] av planen är fem år. Det här är standardalternativet för en femårsplan. |
+   | [!UICONTROL Quarter] | Visar tidslinjen per kvartal. Det här alternativet är endast tillgängligt när [!UICONTROL Duration] för planen är 3 eller 5 år. Det här är standardalternativet för en 3-årsplan. |
+   | [!UICONTROL Year] | Visar tidslinjen per år. Det här alternativet är endast tillgängligt när [!UICONTROL Duration] för planen är fem år. Det här är standardalternativet för en femårsplan. |
 
 
 1. (Valfritt) Rulla från vänster till höger för att se hela tiden för initiativet.
-1. (Valfritt) Klicka på **[!UICONTROL Today]** indikatorrad som återgår till aktuellt datum.
+1. (Valfritt) Klicka på indikatorraden **[!UICONTROL Today]** om du vill återgå till det aktuella datumet.
 
    ![](assets/today-indicator-350x160.png)
 
@@ -133,59 +133,59 @@ Så här skapar du helt nya initiativ:
      </tr> 
      <tr> 
       <td role="rowheader">Sektion för obligatoriska jobbroller </td> 
-      <td> <p>Klicka på <strong>[!UICONTROL Start typing job role]</strong> och välj en roll i listan eller börja skriva namnet på en<span>n aktiv</span> jobbroll. </p> <p><span>Beroende på om planen är konfigurerad för att använda heltidsanställda eller timmar,</span> lägg till antalet jobbroller som krävs för det här initiativet i heltidsanställda <span><span>eller timmar</span></span><span> för varje månad i initiativet</span>. <span>Initiativets första tre månader visas som standard.</span></p> <p><span>Om du uppdaterar jobbrollsinformationen för initiativet uppdateras även den obligatoriska jobbrollsinformationen för planen.</span> </p> <p>Information om hur du konfigurerar planen för att använda heltidsanställda eller timmar finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i [!DNL Scenario Planner]</a>. </p>
+      <td> <p>Klicka på fältet <strong>[!UICONTROL Start typing job role]</strong> och välj en roll i listan eller börja skriva namnet på en <span>n aktiv</span>-jobbroll. </p> <p><span>Beroende på om planen är inställd på att använda heltidsanställda eller timmar, </span> lägger du till antalet jobbroller som krävs för det här initiativet i <span><span>FTE eller timmar</span></span><span> för varje månad i initiativet</span>. <span>De tre första månaderna av initialvisningen som standard.</span></p> <p><span>Om du uppdaterar jobbrollsinformationen för initiativet uppdateras även den obligatoriska jobbrollsinformationen för planen.</span> </p> <p>Mer information om hur du konfigurerar planen för att använda FTE eller timmar finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i [!DNL Scenario Planner]</a>. </p>
       <p><b>VIKTIGT</b></p>  
-      <p>För alla beräkningar i [!DNL Scenario Planner], [!DNL Workfront] använder följande värde: 1 heltidsanställd = 8 timmar. </p>
+      <p>För alla beräkningar i [!DNL Scenario Planner] använder [!DNL Workfront] följande värde: 1 FTE = 8 timmar. </p>
 
    <p><b>TIPS</b></p>
 
    <ul> 
-       <li> <p><span>Använd [!UICONTROL Tab] till nästa månad.</span> </p> </li> 
-      <li> <p> Alla <span>aktiv</span> jobbroller i systemet visas när du klickar på det här fältet. </p> </li> 
-       <li> <p>De jobbroller som redan har lagts till i tillgängliga jobbroller för planen visas först. Mer information om hur du lägger till tillgängliga jobbroller i en plan finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplaneraren</a>. </p> </li> 
-       <li> <p>[!DNL Workfront] Parlamentet anser att en heltidsekvivalent är 160 timmar för en månad. </p> <p>För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 heltidsanställd = 8 timmar. </p></li> 
-      </ul> </p> <p>Du kan ange ett tal som är lägre än 1 FTE eller decimaltal för FTE <span>eller</span> <span>timmar</span>. Till exempel innebär en konsult på 0,5 timmar att en konsult skulle ägna hälften av sin heltidsanställd (vanligtvis 4 timmar, där 8 timmar är 1 heltidsanställd) åt att arbeta med detta initiativ. </p>  </td> 
+       <li> <p><span>Använd tangenten [!UICONTROL Tab] för att gå till nästa månad.</span> </p> </li> 
+      <li> <p> Alla <span>aktiva</span> jobbroller i systemet visas när du klickar på det här fältet. </p> </li> 
+       <li> <p>De jobbroller som redan har lagts till i tillgängliga jobbroller för planen visas först. Mer information om hur du lägger till tillgängliga jobbroller i en plan finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplanen</a>. </p> </li> 
+       <li> <p>[!DNL Workfront] heltidsmotsvarigheten är 160 timmar per månad. </p> <p>För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 FTE = 8 timmar. </p></li> 
+      </ul> </p> <p>Du kan ange ett tal som är lägre än 1 FTE eller decimaltal för FTE <span> eller</span> <span>hours</span>. Till exempel innebär en konsult på 0,5 timmar att en konsult skulle ägna hälften av sin heltidsanställd (vanligtvis 4 timmar, där 8 timmar är 1 heltidsanställd) åt att arbeta med detta initiativ. </p>  </td> 
      </tr> 
      <tr> 
       <td rowspan="3" role="rowheader">Kostnadssektion</td> 
-      <td> <p>De totala kostnaderna för det initiativ som visas till höger om [!UICONTROL Costs] -avsnitt. [!DNL Workfront] beräknar kostnaderna för ett initiativ med hjälp av följande formel:</p> <p><code>[!UICONTROL Initiative Costs] = [!UICONTROL Fixed Costs] + [!UICONTROL People] Costs</code> </p> </td> 
+      <td> <p>De totala kostnaderna för den initiala visningen till höger om avsnittet [!UICONTROL Costs]. [!DNL Workfront] beräknar kostnaderna för ett initiativ med hjälp av följande formel:</p> <p><code>[!UICONTROL Initiative Costs] = [!UICONTROL Fixed Costs] + [!UICONTROL People] Costs</code> </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>I <strong>[!UICONTROL Fixed Costs]</strong> anger du manuellt en ungefärlig uppskattning av vad det kommer att kosta att slutföra det här initiativet. Detta ska inte omfatta kostnader i samband med de roller som initiativet beräknas ha.</p> <p><span>Ange ett belopp för varje månad i initiativet genom att gå från en månad till nästa när du använder tabbtangenten.</span> </p> </td> 
+      <td> <p>I fältet <strong>[!UICONTROL Fixed Costs]</strong> anger du manuellt en grov uppskattning av vad du tror kommer att kosta att slutföra det här initiativet. Detta ska inte omfatta kostnader i samband med de roller som initiativet beräknas ha.</p> <p><span>Ange ett belopp för varje månad i initiativet genom att gå från en månad till nästa när du använder tabbtangenten.</span> </p> </td> 
      </tr> 
      <tr> 
       <td> 
        <div> 
-        <p>Beroende på om planen är konfigurerad för att använda heltidsanställda eller timmar, [!UICONTROL Workfront] använder följande formler för att beräkna [!UICONTROL People Cost]:</p> 
+        <p>Beroende på om planen är konfigurerad att använda FTE eller timmar, använder [!UICONTROL Workfront] följande formler för att beräkna [!UICONTROL People Cost]:</p> 
         <ul> 
          <li> <p>När FTE används: </p> <p><code>[!UICONTROL People Costs] = SUM(Job role hourly rate * Number of months in the Duration * 160 * Number of FTEs)</code>, där 160 är det totala antalet arbetstimmar per månad. </p> </li> 
-         <li> <p style="font-weight: normal;">Vid användning av timmar: </p> <p style="font-weight: normal;"><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> <p style="font-weight: normal;">Mer information om hur du konfigurerar planen för att använda timmar eller heltidsanställda finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplaneraren</a>.</p> </li> 
+         <li> <p style="font-weight: normal;">Vid användning av timmar: </p> <p style="font-weight: normal;"><code>Monthly People Costs = SUM(Job role hourly rate * Number of hours estimated for an initiative)</code> </p> <p style="font-weight: normal;">Mer information om hur du konfigurerar planen för att använda timmar eller heltidsanställda finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplanen</a>.</p> </li> 
         </ul> 
-        <p>Personkostnader beräknas i den basvaluta som har valts i inställningarna för valutakurser. Mer information om valutakurser finns i <a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> 
-        <p>Uppdateringen av kostnadsinformationen för ett initiativ uppdaterar också [!UICONTROL Costs] planens yta. </p> 
+        <p>Personkostnader beräknas i den basvaluta som har valts i inställningarna för valutakurser. Mer information om valutakurser finns i <a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.</p> 
+        <p>Om du uppdaterar kostnadsinformationen för ett initiativ uppdateras även området [!UICONTROL Costs] för planen. </p> 
        </div> </td> 
      </tr> 
      <tr> 
       <td colspan="2" role="rowheader"> <p style="font-weight: normal;">När du har definierat den jobbroll och de kostnadsvärden som krävs för ditt initiativ och du har ändrat dess varaktighet kan ett av följande scenarier inträffa:</p> 
        <ul> 
-        <li> <p style="font-weight: normal;">Om du förkortar initiativet, [!DNL Workfront] tar bort nödvändiga resurser och kostnader i samband med den tid som tagits bort från planen. Jobbrollerna finns kvar i planen, men de har inget FTE eller <span data-mc-edit-date="2021-04-19T13:46:01.5004065-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:58.7938344-04:00">timmar</span>. De tillgängliga resurserna för planen och budgeten förblir oförändrade.<br>Information om hur du uppdaterar planen finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i [!DNL Scenario Planner]</a>. </p> </li> 
-        <li> <p style="font-weight: normal;">Om du tar initiativet längre måste du ange antalet roller och kostnader för de nya månaderna i initiativet. </p> </li> 
+        <li> <p style="font-weight: normal;">Om du förkortar initiativet tar [!DNL Workfront] bort den mängd resurser som krävs och de kostnader som är associerade med den tid som tagits bort från planen. Jobbrollerna finns kvar i planen, men de har ingen nödvändig FTE eller <span data-mc-edit-date="2021-04-19T13:46:01.5004065-04:00" data-mc-editor="alinawilson" data-mc-comment="drafted, yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-04-19T13:45:58.7938344-04:00">timmar</span>. De tillgängliga resurserna för planen och budgeten förblir oförändrade.<br>Mer information om planen finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i [!DNL Scenario Planner]</a>. </p> </li> 
+        <li> <p style="font-weight: normal;">Om du tar initiativet längre måste du ange antalet nya roller och kostnader för de nya månaderna i initiativet. </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Net Value] section</td> 
-      <td>I <strong>[!DNL Net Value]</strong> avsnitt, ange ett grovt uppskattningsbelopp manuellt i <strong>[!UICONTROL Planned Benefit]</strong> fält. Detta är vad ni tror att fördelarna med att uppnå detta initiativ kommer att vara. </td> 
+      <td>I avsnittet <strong>[!DNL Net Value]</strong> anger du manuellt ett grovt uppskattningsbelopp i fältet <strong>[!UICONTROL Planned Benefit]</strong>. Detta är vad ni tror att fördelarna med att uppnå detta initiativ kommer att vara. </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >Om du redan har definierat antalet befattningar och budgeten för din plan, antalet befattningar och kostnaderna för det initiativ du redigerar och för alla initiativ ovan, och de överstiger alla de belopp du har angett för planen, [!DNL Workfront] kanske inte har tillräckligt med resurser för att slutföra initiativet. [!DNL Workfront] markerar detta som en konflikt när man försöker genomföra det här initiativet och visar det som ett rött fält. Alla initiativ som följer det motstridiga initiativet visas i röd bakgrund. Du kan behöva justera en del av behoven i dina initiativ, från den första som har otillräckliga resurser. Mer information om hur du justerar initiativ som orsakar konflikter finns i [Lös initialkonflikter i [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+   >Om du redan har definierat antalet jobbroller och budgeten för din plan, antalet jobbroller och kostnaderna för det initiativ du redigerar och för alla initiativ ovan, och alla överstiger de belopp som du har angett för planen, kan [!DNL Workfront] upptäcka att du inte har tillräckligt med resurser för att slutföra initiativet. [!DNL Workfront] markerar detta som en konflikt när det försöker genomföra det här initiativet och visar det som ett rött fält. Alla initiativ som följer det motstridiga initiativet visas i röd bakgrund. Du kan behöva justera en del av behoven i dina satsningar, från den första som inte har tillräckliga resurser. Mer information om hur du justerar initiativ som står i konflikt finns i [Lös initialkonflikter i  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Valfritt) Håll muspekaren över namnet på en jobbroll och klicka sedan på knappen **[!UICONTROL trash can icon]** ![](assets/delete.png) att ta bort det från initiativet.
+1. (Valfritt) Hovra över namnet på en jobbroll och klicka sedan på **[!UICONTROL trash can icon]** ![](assets/delete.png) för att ta bort den från initiativet.
 
-1. (Villkorligt) Om du har ändrat i initiativet klickar du på **[!UICONTROL Apply]**.
+1. (Villkorligt) Klicka på **[!UICONTROL Apply]** om du har gjort ändringar i initiativet.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -193,10 +193,10 @@ Så här skapar du helt nya initiativ:
    </MadCap:conditionalText>
    -->
 
-1. (Villkorligt) Om du inte har gjort några ändringar klickar du på **X** ikonen i det övre högra hörnet av panelen med information om initiativ för att stänga den.
+1. (Villkorligt) Om du inte har gjort några ändringar klickar du på ikonen **X** i det övre högra hörnet av panelen med initialinformation för att stänga den.
 1. (Valfritt) Uppdatera prioriteten för dina initiativ.
 
-   Mer information om att prioritera initiativ finns i [Uppdatera initiala prioriteringar i scenarioplanen](../scenario-planner/prioritize-initiatives.md).
+   Mer information om hur du prioriterar initiativ finns i [Uppdatera initialprioriteringar i scenarioplanen](../scenario-planner/prioritize-initiatives.md).
 
    >[!TIP]
    >
@@ -206,4 +206,4 @@ Så här skapar du helt nya initiativ:
 
    Initiativet ingår nu i din plan.
 
-   Mer information om hur du tar bort initiativ från en plan finns i [Ta bort initiativ i [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md).
+   Mer information om hur du tar bort initiativ från en plan finns i [Ta bort initiativ i  [!DNL Scenario Planner]](../scenario-planner/delete-initiatives.md).

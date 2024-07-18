@@ -21,6 +21,6 @@ ht-degree: 0%
 Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 Det här avsnittet innehåller följande artiklar:
 
-* [Ändra profilinställningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
-* [Ta bort användardata i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
-* [[!DNL Adobe Workfront Fusion] Vanliga frågor](../../workfront-fusion/workfront-fusion-basics/faq.md)
+* [Ändra profilinställningar i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md)
+* [Ta bort användardata i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
+* [Vanliga frågor om [!DNL Adobe Workfront Fusion]](../../workfront-fusion/workfront-fusion-basics/faq.md)

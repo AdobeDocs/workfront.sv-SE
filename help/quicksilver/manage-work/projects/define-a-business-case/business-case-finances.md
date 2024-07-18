@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: business-case-and-scorecards
-title: Översikt över ekonomiska ärenden
+title: Översikt över finansiella fält för ärenden
 description: Underfliken Affärsärende innehåller finansiella fält för projektet. För att vissa av de finansiella fälten ska få sina värden måste motsvarande områden i affärsärendet fyllas i.
 author: Alina
 feature: Work Management
 exl-id: d420fc3e-e98d-47a0-a456-b2df17d72f34
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
 
-# Översikt över ekonomiska ärenden
+# Översikt över finansiella fält för ärenden
 
 Underfliken Affärsärende innehåller finansiella fält för projektet. För att vissa av de finansiella fälten ska få sina värden måste motsvarande områden i affärsärendet fyllas i.  
 
@@ -43,10 +43,10 @@ Följande finansiella projektfält visas i affärsärendet:
   </tr> 
   <tr> 
    <td>Budgeterad arbetskostnad</td> 
-   <td> <p>Kostnaden som är associerad med resurserna som är tilldelade för att slutföra arbetet i projektet.</p> <p>Budgeterad arbetskostnad för projektet beräknas med följande formel:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code></p> <p>Workfront använder budgeterade timmar från resursplaneraren för att beräkna den budgeterade arbetskostnaden.<br>Mer information om hur du beräknar arbetskostnad finns i <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Förstå budgeterad arbetskostnad och budgeterade timmar för projekt</a>.</p> <p>Det här fältet visas i området Resursbudgetering i affärsärendet. </p> </td> 
+   <td> <p>Kostnaden som är associerad med de resurser som har tilldelats för att slutföra arbetet i projektet.</p> <p>Budgeterad arbetskostnad för projektet beräknas med följande formel:<br></p> <p><code>Budgeted Labor Cost = SUM(Estimated/ Budgeted hours for each job role on the project * Cost per Hour rate of each job role on the project) </code><br></p> <p>Workfront använder budgeterade timmar från resursplaneraren för att beräkna den budgeterade arbetskostnaden.<br>Mer information om beräkning av budgeterad arbetskostnad finns i <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Förstå budgeterad arbetskostnad och budgeterade timmar för projekt</a>.</p> <p>Det här fältet visas i området Resursbudgetering i affärsärendet. </p> </td> 
   </tr> 
   <tr> 
-   <td>Planerad kostnad för utgifter</td> 
+   <td>Planerad kostnad</td> 
    <td> <p>Detta är samma som Budgeterad utgift. </p> <p>Obs! Den planerade kostnaden för utgifter skiljer sig från den planerade kostnaden för projektet. Den planerade kostnaden beräknas som det planerade beloppet för utgifterna i projektet, medan den planerade kostnaden beräknas med hjälp av projektets planerade timmar. </p> <p>Det här fältet visas i området Utgifter för varje utgift.</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Följande finansiella projektfält visas i affärsärendet:
   </tr> 
   <tr> 
    <td>Potentiell kostnad för risker</td> 
-   <td> <p>Detta är den potentiella kostnaden för alla risker i projektet. </p> <p>Detta beräknas med följande formel:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code></p> <p>Mer information om risker i projektet finns i <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Skapa och redigera risker i projekt</a>.</p> <p>Det här fältet visas i området Affärsärendesammanfattning.</p> </td> 
+   <td> <p>Detta är den potentiella kostnaden för alla risker i projektet. </p> <p>Detta beräknas med följande formel:</p> <p><code>Potential Risk = SUM(Potential Cost * Probability of Risk) </code></p> <p>Mer information om risker i projektet finns i <a href="../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md" class="MCXref xref">Skapa och redigera risker i projekt</a>.</p> <p>Det här fältet visas i området Affärsärendesammanfattning.</p> </td> 
   </tr> 
   <tr> 
    <td>Potentiell risk</td> 

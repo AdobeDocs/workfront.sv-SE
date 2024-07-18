@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Visa och redigera organisationens [!DNL Workfront Proof] kontoinformation
-description: Som [!DNL Workfront Proof] kan du visa kontoinställningarna för din organisations [!DNL Workfront Proof] konto.
+title: Visa och redigera din organisations [!DNL Workfront Proof] kontoinformation
+description: Som  [!DNL Workfront Proof] administratör kan du visa kontoinställningarna för din organisations [!DNL Workfront Proof] konto.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
@@ -14,41 +14,41 @@ ht-degree: 0%
 
 ---
 
-# Visa och redigera organisationens [!DNL Workfront Proof] kontoinformation
+# Visa och redigera din organisations [!DNL Workfront Proof]-kontoinformation
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Som [!DNL Workfront Proof] kan du visa kontoinställningarna för din organisations [!DNL Workfront Proof] konto.
+Som [!DNL Workfront Proof]-administratör kan du visa kontoinställningarna för din organisations [!DNL Workfront Proof]-konto.
 
-1. Klicka **[!UICONTROL Settings]** i det övre högra hörnet av [!DNL Workfront Proof] fönster och sedan välja **[!UICONTROL Account settings]** i listrutan.
+1. Klicka på **[!UICONTROL Settings]** i det övre högra hörnet av [!DNL Workfront Proof]-fönstret och välj sedan **[!UICONTROL Account settings]** i listrutan.
 
-1. På [!UICONTROL Account settings] sidan som visas kontrollerar du att **[!UICONTROL Details]** -fliken är öppen.
+1. Kontrollera att fliken **[!UICONTROL Details]** är öppen på sidan [!UICONTROL Account settings] som visas.
 Du kan visa följande avsnitt på den här fliken:
 
 ## Redigera kontoinformation
 
-The [!UICONTROL Accounts details] visas din organisations kontaktinformation, som används som standardkontaktinformation för kontoanvändare.
+I avsnittet [!UICONTROL Accounts details] visas din organisations kontaktinformation, som används som standardkontaktinformation för kontoanvändare.
 
-1. Redigera informationen i **[!UICONTROL Accounts details]** avsnitt, klicka **[!UICONTROL Edit]** till höger om något av följande:
+1. Om du vill redigera informationen i avsnittet **[!UICONTROL Accounts details]** klickar du på **[!UICONTROL Edit]** till höger om något av följande:
 
-   * **Organisationsnamn:** Namnet på ditt företag.
-   * **Kontaktinformation:** Standardkontaktinformation för användare i [!DNL Workfront] Korrekturkonto.
-   * **Standardspråk:** Standardspråket som används i [!DNL Workfront] Korrekturkonto.
-   * **Standardvärde för tidszon:** Standardtidszonen för din organisation.
+   * **Organisationsnamn:** Ditt företags namn.
+   * **Kontaktinformation:** Standardkontaktinformation för användare i korrekturkontot för [!DNL Workfront].
+   * **Standardspråk:** Standardspråket som används i ditt [!DNL Workfront]-korrekturkonto.
+   * **Standardtidszon:** Standardtidszonen för din organisation.
 
 ## Användningsstatistik
 
-The [!UICONTROL Usage statistic] visas din organisations antal och begränsningar för den aktuella faktureringsperioden:
+I avsnittet [!UICONTROL Usage statistic] visas din organisations antal och begränsningar för den aktuella faktureringsperioden:
 
 * **Använt lagringsutrymme:** Mängden lagringsutrymme som för närvarande används av [!DNL Workfront Proof].
-* **Använda korrektur:** Antalet bevis som används under faktureringsperioden.
+* **Använda korrektur:** Antalet bevis som användes under faktureringsperioden.
 * **Användargräns:** Antalet användare som använder [!DNL Workfront Proof].
 
 ## Din plan
 
-The [!UICONTROL Your plan] visas information om organisationens [!DNL Workfront Proof] plan:
+I avsnittet [!UICONTROL Your plan] visas information om din organisations [!DNL Workfront Proof]-plan:
 
-* **Aktuell plan:** Din organisations nuvarande [!DNL Workfront Proof] plan.
-* **Förnyelsedatum för plan:** Förnyelsedatumet för din organisations [!DNL Workfront Proof] plan.
+* **Aktuell plan:** Organisationens aktuella [!DNL Workfront Proof] plan.
+* **Förnyelsedatum för plan:** Förnyelsedatumet för din organisations [!DNL Workfront Proof]-plan.

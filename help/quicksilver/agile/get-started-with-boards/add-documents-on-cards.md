@@ -19,7 +19,7 @@ Du kan lägga till dokument på anslutna kort på Adobe Workfront Boards. Alla d
 
 >[!NOTE]
 >
->Dokument är bara tillgängliga på anslutna kort. Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Dokument är bara tillgängliga på anslutna kort. Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Åtkomstkrav
 
@@ -37,28 +37,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr>
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td>
-   <td><p>[!UICONTROL Edit] behörighet till dokument</p><p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p></td>
+   <td><p>[!UICONTROL Edit] behörighet till dokument</p><p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägga till ett dokument på ett kort
 
 {{step1-to-boards}}
 
 1. Öppna det anslutna kort som du vill lägga till ett dokument på.
-1. Dra och släpp filen i [!UICONTROL Documents] eller klicka [!UICONTROL **Lägg till dokument**] för att välja en fil.
+1. Dra och släpp filen i området [!UICONTROL Documents] eller klicka på [!UICONTROL **Lägg till dokument**] för att markera en fil.
 
-   Filen visas i [!UICONTROL Documents] område.
+   Filen visas i området [!UICONTROL Documents].
 
-   ![Dokument tillagda på kortet](assets/add-document-to-card.png)
+   ![Dokument har lagts till på kortet](assets/add-document-to-card.png)
 
 ## Visa ett befintligt dokument från kortet
 
-1. På kortet hittar du [!UICONTROL Documents] område. Klicka ![Ikonen Lista](assets/docs-list-icon.png) om du vill visa alla dokument i en lista, eller klicka på ![Galleriikon](assets/docs-gallery-icon.png) om du vill visa dokumenten i ett galleri.
-1. Håll muspekaren över dokumentminiatyrbilden och klicka [!UICONTROL **Förhandsgranska**] för att visa filen i webbläsaren eller [!UICONTROL **Ladda ned**] för att hämta filen till datorn.
+1. Leta reda på området [!UICONTROL Documents] på kortet. Klicka på ![listikonen](assets/docs-list-icon.png) om du vill visa alla dokument i en lista, eller klicka på ![galleriikonen](assets/docs-gallery-icon.png) om du vill visa dokumenten i ett galleri.
+1. Håll pekaren över dokumentminiatyrbilden och klicka på [!UICONTROL **Förhandsgranska**] om du vill visa filen i webbläsaren eller på [!UICONTROL **Hämta**] om du vill hämta filen till datorn.
 
    >[!NOTE]
    >

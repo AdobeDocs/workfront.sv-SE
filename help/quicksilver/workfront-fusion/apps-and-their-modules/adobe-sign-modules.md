@@ -4,21 +4,21 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: Adobe Acrobat Sign-moduler
-description: Med [!DNL Adobe Acrobat Sign] -moduler kan du starta en [!DNL Adobe Workfront Fusion] scenario baserat på händelser i [!DNL Adobe] Acrobat Sign-konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och ladda upp dokument.
+title: Adobe Acrobat Sign moduler
+description: Med  [!DNL Adobe Acrobat Sign] modulerna kan du starta ett [!DNL Adobe Workfront Fusion] scenario baserat på händelser i ditt [!DNL Adobe] Acrobat Sign-konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och överföra dokument.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 01158218-31a6-4c68-a9b7-6a678a8f40c9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '5464'
+source-wordcount: '5473'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Acrobat Sign] moduler
 
-Med [!DNL Adobe Acrobat Sign] -moduler kan du starta en [!DNL Adobe Workfront Fusion] scenario baserat på händelser i [!DNL Adobe Acrobat Sign] konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och ladda upp dokument.
+Med modulerna [!DNL Adobe Acrobat Sign] kan du starta ett [!DNL Adobe Workfront Fusion]-scenario baserat på händelser i ditt [!DNL Adobe Acrobat Sign]-konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och överföra dokument.
 
 ## Åtkomstkrav
 
@@ -39,39 +39,39 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!DNL Adobe Acrobat Sign] rekommendationer för anslutningsanvändning
 
-The [!DNL Adobe Sign]appen automatiserar eSignature-affärsprocesser i [!DNL Fusion] mycket enklare och kraftfullare.
+Appen [!DNL Adobe Sign] gör det enklare och kraftfullare att automatisera affärsprocesser för e-signaturer i [!DNL Fusion].
 
-Nya användare till [!DNL Adobe Sign] bör vara uppmärksam på några av begränsningarna med att uppdatera avtal. Avtal ändras vanligtvis inte när de har startats. Vi rekommenderar att nya användare av [!DNL Adobe Sign] fokusera på att skapa nya avtal med hjälp av modulen för att skapa avtal. Det här kommer att [!DNL Fusion] automatisering enklare och bättre med [!DNL Adobe Sign].
+Nya användare av [!DNL Adobe Sign] bör vara noga med att uppdatera avtal. Avtal ändras vanligtvis inte när de har startats. Vi rekommenderar att nya användare av [!DNL Adobe Sign] fokuserar på att skapa nya avtal med hjälp av modulen för att skapa avtal. Detta gör [!DNL Fusion] automatiseringar enklare och fungerar bättre med [!DNL Adobe Sign].
 
 [!DNL Adobe Sign] avtal behöver ett fält att arbeta med. Det finns vissa alternativ för att göra detta, men det enklaste och vanligaste är att överföra ett tillfälligt dokument och sedan mappa dokumentet till ditt avtal.
 
 ![](assets/adobe-sign-recommendations-350x168.png)
 
-## [!DNL Adobe Acrobat Sign] moduler och deras fält
+## [!DNL Adobe Acrobat Sign]-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe Acrobat Sign] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe Acrobat Sign] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe Acrobat Sign] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe Acrobat Sign] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -98,7 +98,7 @@ Den här utlösarmodulen startar ett scenario när ett avtal skapas eller uppdat
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-<td>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td>  </tr> 
+<td>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td>  </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
    <td>Välj om du vill söka efter nya poster, uppdaterade poster eller båda.</td> 
@@ -109,7 +109,7 @@ Den här utlösarmodulen startar ett scenario när ett avtal skapas eller uppdat
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Find text]</td> 
-   <td> <p>Ange termer som du vill söka efter. Modulen returnerar poster som innehåller dessa termer som fältvärden.</p> <p>Mer information om att söka i fält i [!DNL Adobe Acrobat Sign], se"Hur textsökning fungerar" i <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign Search - Så fungerar det</a>.</p> </td> 
+   <td> <p>Ange termer som du vill söka efter. Modulen returnerar poster som innehåller dessa termer som fältvärden.</p> <p>Mer information om hur du söker efter fält i [!DNL Adobe Acrobat Sign] finns i"Hur textsökning fungerar" i <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">Adobe Sign Search - Så fungerar det</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned agreements]</td> 
@@ -130,7 +130,7 @@ Den här utlösarmodulen startar ett scenario när en händelse som du väljer i
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td>Välj den webkrok som du vill använda eller klicka på <b>[!UICONTROL Add]</b> och fylla i följande fält.</td> 
+   <td>Välj den webkrok som du vill använda eller klicka på <b>[!UICONTROL Add]</b> och fyll i följande fält.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook name]</td> 
@@ -138,7 +138,7 @@ Den här utlösarmodulen startar ett scenario när en händelse som du väljer i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Scopes]</td> 
@@ -147,7 +147,7 @@ Den här utlösarmodulen startar ett scenario när en händelse som du väljer i
      <li> <p>[!UICONTROL Account]</p> </li> 
      <li> <p>[!UICONTROL Group]</p> </li> 
      <li> <p>[!UICONTROL User]</p> </li> 
-     <li> <p>[!UICONTROL Resource]</p> <p>Om du väljer [!UICONTROL Resource]Ange resurs-ID och resurstyp.</p> </li> 
+     <li> <p>[!UICONTROL Resource]</p> <p>Om du väljer [!UICONTROL Resource] anger du resurs-ID och resurstyp.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -162,7 +162,7 @@ Den här utlösarmodulen startar ett scenario när en händelse som du väljer i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook subscription events]</td> 
-   <td>Välj [!DNL Adobe Sign] händelser som du vill att modulen ska bevaka.</td> 
+   <td>Välj de [!DNL Adobe Sign]-händelser som du vill att modulen ska bevaka.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Application display name]</td> 
@@ -174,11 +174,11 @@ Den här utlösarmodulen startar ett scenario när en händelse som du väljer i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Problem notification emails]</td> 
-   <td> <p>Den här inställningen fungerar endast för administratörskonton</p> <p>För varje e-postadress som du vill skicka felmeddelanden till klickar du på <b>[!UICONTROL Add]</b> och ange e-postadressen.</p> </td> 
+   <td> <p>Den här inställningen fungerar endast för administratörskonton</p> <p>För varje e-postadress som du vill skicka problemmeddelanden till klickar du på <b>[!UICONTROL Add]</b> och anger e-postadressen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Agreement conditional parameters]</td> 
-   <td>Om du vill lägga till villkorliga parametrar väljer du <b>[!UICONTROL Yes]</b> på den posttyp som du vill lägga till parametrar i och välj <b>[!UICONTROL Yes]</b> på de parametrar som du vill aktivera.</td> 
+   <td>Om du vill lägga till villkorsparametrar väljer du <b>[!UICONTROL Yes]</b> för den posttyp som du vill lägga till parametrar i och väljer sedan <b>[!UICONTROL Yes]</b> för de parametrar som du vill aktivera.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -210,7 +210,7 @@ Den här åtgärdsmodulen skapar en ny post av den valda typen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -228,18 +228,18 @@ Den här åtgärdsmodulen skapar en ny post av den valda typen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group info]</td> 
-   <td> <p>Ange eller mappa gruppens [!UICONTROL Name] och [!UICONTROL ID]och ange om den här gruppen är standardgruppen för kontot.</p> </td> 
+   <td> <p>Ange eller mappa gruppens [!UICONTROL Name] och [!UICONTROL ID] och ange om den här gruppen är standardgruppen för kontot.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Library document info]</td> 
    <td> <p>Fyll i följande fält:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Files to send]</b> </p> <p>För varje fil som du vill lägga till klickar du på <b>[!UICONTROL Add item]</b> och fylla i fälten.</p> 
+     <li> <p><b>[!UICONTROL Files to send]</b> </p> <p>För varje fil som du vill lägga till klickar du på <b>[!UICONTROL Add item]</b> och fyller i fälten.</p> 
       <ul> 
-       <li><b>[!UICONTROL Transient document ID]</b> <p>Ange ID för det tillfälliga dokumentet</p> </li> 
+       <li><b>[!UICONTROL Transient document ID]</b> <p>Ange ID:t för det tillfälliga dokumentet</p> </li> 
        <li> <p><b>[!UICONTROL URL file transfer]</b> </p> <p>Fyll i följande fält:</p> 
         <ul> 
-         <li> <p><b>[!UICONTROL Mime-Type]</b> </p> <p>Ange mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> bearbetas i en annan webbläsare än en fil med MIME-typ <code>image/jpeg</code>.</p> </li> 
+         <li> <p><b>[!UICONTROL Mime-Type]</b> </p> <p>Ange mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> kommer att bearbetas i en annan webbläsare än en fil med MIME-typen <code>image/jpeg</code>.</p> </li> 
          <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange ett namn för filen.</p> </li> 
          <li> <p><b>[!UICONTROL URL]</b> </p> <p>Ange URL-adressen till filen som du vill skicka.</p> </li> 
         </ul> </li> 
@@ -248,8 +248,8 @@ Den här åtgärdsmodulen skapar en ny post av den valda typen.
      <li> <p><b>[!UICONTROL Library template name]</b> </p> <p>Ange eller mappa namnet på biblioteksmallen</p> </li> 
      <li> <p><b>[!UICONTROL Sharing mode]</b> </p> <p>Ange vem som ska ha åtkomst till biblioteksdokumentet.</p> </li> 
      <li> <p><b>[!UICONTROL Library document state]</b> </p> <p>Välj om dokumentet är i redigeringsläge eller aktivt.</p> </li> 
-     <li> <p><b>[!UICONTROL Library template type]</b> </p> <p>För varje biblioteksmall som du vill använda klickar du på <b>[!UICONTROL Add item]</b> och välj malltyp.</p> </li> 
-     <li> <p><b>[!UICONTROL Last event date]</b> </p> <p>Ange det senaste datumet då en händelse inträffade i biblioteksdokumentet.</p> <p>En lista över vilka datum- och tidsformat som stöds finns på <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p> </li> 
+     <li> <p><b>[!UICONTROL Library template type]</b> </p> <p>För varje biblioteksmalltyp som du vill använda klickar du på <b>[!UICONTROL Add item]</b> och väljer malltypen.</p> </li> 
+     <li> <p><b>[!UICONTROL Last event date]</b> </p> <p>Ange det senaste datumet då en händelse inträffade i biblioteksdokumentet.</p> <p>En lista över vilka datum- och tidsformat som stöds finns i <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p> </li> 
      <li> <p><b>[!UICONTROL Library document status]</b> </p> <p>Välj biblioteksdokumentets status.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -260,14 +260,14 @@ Den här åtgärdsmodulen skapar en ny post av den valda typen.
      <li> <p><b>[!UICONTROL Email]</b> </p> <p>Ange användarens e-postadress.</p> </li> 
      <li> <p><b>[!UICONTROL Is account admin]</b> </p> <p>Markera det här alternativet om den skapade användaren är kontoadministratör.</p> </li> 
      <li> <p><b>[!UICONTROL User ID]</b> </p> <p>Ange användarens unika ID</p> </li> 
-     <li> <p><b>[!UICONTROL Account ID]</b> </p> <p>Ange det unika ID:t för [!DNL Adobe Acrobat Sign] konto som är associerat med den här användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Account ID]</b> </p> <p>Ange det unika ID:t för det [!DNL Adobe Acrobat Sign]-konto som är associerat med den här användaren.</p> </li> 
      <li> <p><b>[!UICONTROL First name]</b> </p> <p>Ange användarens förnamn.</p> </li> 
      <li> <p><b>[!UICONTROL Last name]</b> </p> <p>Ange användarens efternamn</p> </li> 
      <li> <p><b>[!UICONTROL Company]</b> </p> <p>Ange namnet på användarens företag.</p> </li> 
      <li> <p><b>[!UICONTROL Initials]</b> </p> <p>Ange användarens initialer.</p> </li> 
-     <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange användarens språkområde. Detta avgör vilket språk som används i användargränssnittet. </p> </li> 
+     <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange användarens språkområde. Detta avgör språket i användargränssnittet. </p> </li> 
      <li> <p><b>[!UICONTROL Phone]</b> </p> <p>Ange användarens telefonnummer</p> </li> 
-     <li> <p><b>Primärt grupp-ID</b> </p> <p>Ange den grupp som den nya användaren ska läggas till i. Om inget anges läggs användaren till i kontots standardgrupp.</p> </li> 
+     <li> <p><b>ID för primär grupp</b> </p> <p>Ange den grupp som den nya användaren ska läggas till i. Om inget anges läggs användaren till i kontots standardgrupp.</p> </li> 
      <li> <p><b>[!UICONTROL Job title]</b> </p> <p>Ange användarens jobbtitel.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -285,33 +285,33 @@ Den här åtgärdsmodulen skapar en ny post av den valda typen.
      <li> <p><b>[!UICONTROL Web form state]</b> </p> <p>Välj i vilket läge det nya webbformuläret ska skapas.</p> </li> 
      <li> <p><b>[!UICONTROL Web form participant set info]</b> </p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Member info]</b> </p> <p>För varje medlem som du vill lägga till i deltagaruppsättningen klickar du på <b>[!UICONTROL Add item]</b>. </p> 
+       <li> <p><b>[!UICONTROL Member info]</b> </p> <p>Klicka på <b>[!UICONTROL Add item]</b> för varje medlem som du vill lägga till i deltagaruppsättningen. </p> 
         <ul> 
          <li> <p><b>[!UICONTROL Email]</b> </p> <p>Lämna det här alternativet tomt.</p> </li> 
-         <li> <p><b>[!UICONTROL Security option]</b> </p> <p>Om du vill lägga till ett säkerhetsalternativ för att autentisera den här användaren väljer du <b>[!UICONTROL Yes]</b>väljer du sedan säkerhetsalternativet och fyller i de fält som krävs.</p> </li> 
+         <li> <p><b>[!UICONTROL Security option]</b> </p> <p>Om du vill lägga till ett säkerhetsalternativ för att autentisera den här användaren väljer du <b>[!UICONTROL Yes]</b>, markerar sedan säkerhetsalternativet och fyller i de fält som krävs.</p> </li> 
         </ul> </li> 
        <li> <p><b>[!UICONTROL Role]</b> </p> <p>Välj rollen. Alla medlemmar i den här deltagaruppsättningen delar rollen.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Web form additional participant sets info]</b> </p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Member info]</b> </p> <p>För varje medlem som du vill lägga till i deltagaruppsättningen klickar du på <b>[!UICONTROL Add item]</b>.</p> 
+       <li> <p><b>[!UICONTROL Member info]</b> </p> <p>Klicka på <b>[!UICONTROL Add item]</b> för varje medlem som du vill lägga till i deltagaruppsättningen.</p> 
         <ul> 
          <li> <p><b>[!UICONTROL Email]</b> </p> <p>Lämna det här alternativet tomt.</p> </li> 
-         <li> <p><b>[!UICONTROL Security option]</b> </p> <p>Om du vill lägga till ett säkerhetsalternativ för att autentisera den här användaren väljer du <b>[!UICONTROL Yes]</b>väljer du sedan säkerhetsalternativet och fyller i de fält som krävs.</p> </li> 
+         <li> <p><b>[!UICONTROL Security option]</b> </p> <p>Om du vill lägga till ett säkerhetsalternativ för att autentisera den här användaren väljer du <b>[!UICONTROL Yes]</b>, markerar sedan säkerhetsalternativet och fyller i de fält som krävs.</p> </li> 
         </ul> </li> 
        <li> <p><b>[!UICONTROL Role]</b> </p> </li> 
-       <li> <p><b>[!UICONTROL Web form participant ID] </b> </p> <p>Ange webbformulärets deltagares ID.</p> </li> 
-       <li> <p><b>[!UICONTROL Order]</b> </p> <p>Ange i vilken ordning den här deltagaruppsättningen ska interagera med webbformuläret. Deltagargruppen som har ordervärdet 1 måste till exempel gå först, 2 måste gå nästa och så vidare. Ordernummer måste börja med ett och har inga mellanrum i serien. </p> </li> 
+       <li> <p><b>[!UICONTROL Web form participant ID] </b> </p> <p>Ange webbformulärets deltagares ID.</p> </li> 
+       <li> <p><b>[!UICONTROL Order]</b> </p> <p>Ange i vilken ordning den här deltagaruppsättningen ska interagera med webbformuläret. Deltagargruppen som har ordervärdet 1 måste till exempel gå först, 2 måste gå vidare. Ordernummer måste börja med ett och har inga mellanrum i serien. </p> </li> 
        <li> <p><b>[!UICONTROL Provider participant set info]</b> </p> <p>Om deltagaren är okänd anger du om leverantören måste ange information för deltagaren och anger ett meddelande med den information som du behöver för den okända deltagaren.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Authentication failure info]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b>och sedan fylla i följande fält:</p> 
+     <li> <p><b>[!UICONTROL Authentication failure info]</b> </p> <p>Om du vill ge användarna en felsida eller felsida väljer du <b>[!UICONTROL Yes]</b> och fyller sedan i följande fält:</p> 
       <ul> 
        <li> <p><b>[!UICONTROL URL]</b> </p> <p>Ange URL:en för felsidan</p> </li> 
-       <li> <p><b>[!UICONTROL Deframe]</b> </p> <p>Aktivera det här alternativet om du vill att felsidan ska visas i webbformuläret</p> </li> 
+       <li> <p><b>[!UICONTROL Deframe]</b> </p> <p>Aktivera alternativet om du vill att felsidan ska visas i webbformuläret</p> </li> 
        <li> <p><b>[!UICONTROL Delay]</b> </p> <p>Ange fördröjningen i sekunder innan användaren omdirigeras till felsidan.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL CC info]</b> </p> <p>För varje e-postadress som du vill få ett e-postmeddelande när det slutliga avtalet på webbformuläret signeras klickar du på <b>[!UICONTROL Add item]</b> och ange e-postadressen.</p> </li> 
-     <li> <p><b>[!UICONTROL Completion info]</b> </p> <p style="font-style: normal;">Välj <b>[!UICONTROL Yes]</b>och sedan fylla i följande fält:</p> 
+     <li> <p><b>[!UICONTROL CC info]</b> </p> <p>För varje e-postadress som du vill få ett e-postmeddelande när det slutliga avtalet på webbformuläret signeras klickar du på <b>[!UICONTROL Add item]</b> och anger e-postadressen.</p> </li> 
+     <li> <p><b>[!UICONTROL Completion info]</b> </p> <p style="font-style: normal;">Om du vill skicka en sida med lyckade åtgärder till dina användare väljer du <b>[!UICONTROL Yes]</b> och fyller sedan i följande fält:</p> 
       <ul> 
        <li> <p><b>[!UICONTROL URL]</b> </p> <p>Ange URL-adressen till sidan där åtgärden lyckades</p> </li> 
        <li> <p><b>[!UICONTROL Deframe]</b> </p> <p>Aktivera det här alternativet om du vill att framgångssidan ska visas i webbformuläret</p> </li> 
@@ -319,7 +319,7 @@ Den här åtgärdsmodulen skapar en ny post av den valda typen.
       </ul> </li> 
      <li> <p><b>[!UICONTROL Group ID]</b> </p> <p>Ange ID:t för gruppen som webbformuläret tillhör. Om inget anges tillhör webbformuläret kontoanvändarens primära grupp.</p> </li> 
      <li> <p><b>[!UICONTROL Last event date]</b> </p> <p>Ange det datum då den senaste händelsen inträffade i webbformuläret. Använd formatet <code>yyyy-MM-dd'T'HH:mm:ssZ</code>.</p> </li> 
-     <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange användarens språkområde. Detta avgör vilket språk som används i användargränssnittet. </p> </li> 
+     <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange användarens språkområde. Detta avgör språket i användargränssnittet. </p> </li> 
      <li> <p><b>[!UICONTROL Security optio]n</b> </p> <p>Ange lösenordet som används för att skydda dokumentet. Du måste skicka detta lösenord till alla berörda parter separat.</p> </li> 
      <li> <p><b>[!UICONTROL Vaulting info]</b> </p> <p>Om ditt konto är inställt för dokumentsäkerhet och alternativet att aktivera per avtal kan du aktivera det här alternativet för att validera det här avtalet.</p> </li> 
     </ul> </td> 
@@ -335,7 +335,7 @@ Den här åtgärdsmodulen skapar ett avtal, skickar det för signering och retur
 
 >[!NOTE]
 >
->Vi rekommenderar att du överför dokumentet för signering som ett tillfälligt dokument och sedan mappar det till [!UICONTROL File to send] i [!UICONTROL Create an agreement] -modul. Se till exempel&quot;Överför dokument&quot; i den här artikeln.
+>Vi rekommenderar att du överför dokumentet för signering som ett tillfälligt dokument och sedan mappar det till fältet [!UICONTROL File to send] i modulen [!UICONTROL Create an agreement]. Se till exempel&quot;Överför dokument&quot; i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -343,31 +343,31 @@ Den här åtgärdsmodulen skapar ett avtal, skickar det för signering och retur
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-<td>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td>  </tr> 
+<td>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td>  </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
    <td>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.Till exempel <code>{"Content-type":"application/json"}</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Files to send]</td> 
-   <td> <p>För varje objekt som du vill inkludera i avtalet klickar du på <b>[!UICONTROL Add Item]</b> och fylla i följande fält:</p> 
+   <td> <p>För varje objekt som du vill inkludera i avtalet klickar du på <b>[!UICONTROL Add Item]</b> och fyller i följande fält:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL File Type]</b> </p> 
       <ul> 
        <li> <p><b>[!UICONTROL Document]</b> </p> <p>Fyll i följande fält:</p> 
         <ul> 
-         <li> <p><b>[!UICONTROL Created date]</b> </p> <p>Ange eller mappa datumet då dokumentet skapades i formatet <code>yyyy-MM-dd'T'HH:mm:ssZ</code>. Till exempel: <code>2016-02-25T18:46:19Z</code> representerar UTC-tid.</p> </li> 
+         <li> <p><b>[!UICONTROL Created date]</b> </p> <p>Ange eller mappa datumet då dokumentet skapades i formatet <code>yyyy-MM-dd'T'HH:mm:ssZ</code>. <code>2016-02-25T18:46:19Z</code> representerar till exempel UTC-tid.</p> </li> 
          <li> <p><b>[!UICONTROL ID]</b> </p> <p>Ange eller mappa dokumentets ID.</p> </li> 
-         <li> <p><b>[!UICONTROL Label]</b> </p> <p>Ange eller mappa en unik etikett för filen. Om arbetsflödet är anpassat mappas filen till motsvarande filelement i arbetsflödesdefinitionen. Detta måste anges när en anpassad begäran om att skapa ett arbetsflödesavtal skapas.</p> </li> 
+         <li> <p><b>[!UICONTROL Label]</b> </p> <p>Ange eller mappa en unik etikett för filen. Om arbetsflödet är anpassat mappas en fil till motsvarande filelement i arbetsflödesdefinitionen. Detta måste anges när en anpassad begäran om att skapa ett arbetsflödesavtal skapas.</p> </li> 
          <li> <p><b>[!UICONTROL Number of pages]</b> </p> <p>Ange eller mappa antalet sidor i dokumentet.</p> </li> 
-         <li> <p><b>[!UICONTROL Mime-Type]</b> </p> <p>Ange eller mappa mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> bearbetas i en annan webbläsare än en fil med MIME-typ <code>image/jpeg</code>.</p> </li> 
+         <li> <p><b>[!UICONTROL Mime-Type]</b> </p> <p>Ange eller mappa mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> kommer att bearbetas i en annan webbläsare än en fil med MIME-typen <code>image/jpeg</code>.</p> </li> 
          <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange eller mappa ett namn för dokumentet.<br></p> </li> 
         </ul> </li> 
        <li> <p><b>[!UICONTROL Library document ID]</b> </p> <p>Ange ID för biblioteksdokumentet</p> </li> 
-       <li> <p><b>[!UICONTROL Transient document ID]</b> </p> <p>Ange ID för det tillfälliga dokumentet</p> </li> 
+       <li> <p><b>[!UICONTROL Transient document ID]</b> </p> <p>Ange ID:t för det tillfälliga dokumentet</p> </li> 
        <li> <p><b>[!UICONTROL URL file transfer]</b> </p> <p>Fyll i följande fält:</p> 
         <ul> 
-         <li> <p><b>[!UICONTROL Mime-Type]</b> </p> <p>Ange mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> bearbetas i en annan webbläsare än en fil med MIME-typ <code>image/jpeg</code>.</p> </li> 
+         <li> <p><b>[!UICONTROL Mime-Type]</b> </p> <p>Ange mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> kommer att bearbetas i en annan webbläsare än en fil med MIME-typen <code>image/jpeg</code>.</p> </li> 
          <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange ett namn för filen.</p> </li> 
          <li> <p><b>[!UICONTROL URL]</b> </p> <p>Ange URL-adressen till filen som du vill skicka.</p> </li> 
         </ul> </li> 
@@ -382,12 +382,12 @@ Den här åtgärdsmodulen skapar ett avtal, skickar det för signering och retur
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Participant sets info]</td> 
-   <td> <p>För varje deltagaruppsättning som du vill lägga till klickar du på <b>[!UICONTROL Add item]</b> och fylla i följande fält.</p> 
+   <td> <p>För varje deltagaruppsättning som du vill lägga till klickar du på <b>[!UICONTROL Add item]</b> och fyller i följande fält.</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Members]</b> </p> <p>För varje person som du vill lägga till i deltagaruppsättningen klickar du på <b>[!UICONTROL Add item]</b> och ange personens e-postadress.</p> </li> 
+     <li> <p><b>[!UICONTROL Members]</b> </p> <p>För varje person som du vill lägga till i deltagaruppsättningen klickar du på <b>[!UICONTROL Add item]</b> och anger personens e-postadress.</p> </li> 
      <li> <p><b>[!UICONTROL Order]</b> </p> <p>Ange ordningen för när den här deltagaruppsättningen ska signera avtalet. Deltagargruppen som har ordervärdet 1 måste signera först, 2 måste signera nästa och så vidare. Ordernummer måste börja med ett och har inga mellanrum i serien. </p> </li> 
-     <li> <p><b>[!UICONTROL Role]</b> </p> <p>Välj en roll för den här deltagaruppsättningen. Alla deltagare i uppsättningen får den här rollen.</p> </li> 
-     <li> <p><b>[!UICONTROL ID]</b> </p> <p>Ange eller mappa ID:t för den här deltagaruppsättningen.</p> </li> 
+     <li> <p><b>[!UICONTROL Role]</b> </p> <p>Välj en roll för deltagaruppsättningen. Alla deltagare i uppsättningen får den här rollen.</p> </li> 
+     <li> <p><b>[!UICONTROL ID]</b> </p> <p>Ange eller mappa ID för den här deltagaruppsättningen.</p> </li> 
      <li> <p><b>[!UICONTROL Label]</b> </p> <p>Ange eller mappa en unik etikett för deltagaruppsättningen. För anpassade arbetsflöden bör etiketten som anges i deltagaruppsättningen mappas till deltagarsteget i det anpassade arbetsflödet.</p> </li> 
      <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange ett namn för deltagaruppsättningen. Namnet måste vara unikt i avtalet.</p> </li> 
      <li> <p><b>[!UICONTROL Private message]</b> </p> <p>Ange eller mappa ett meddelande för den här deltagaruppsättningen. Alla deltagare i uppsättningen får det här meddelandet.</p> </li> 
@@ -413,7 +413,7 @@ Den här åtgärdsmodulen skapar ett avtal, skickar det för signering och retur
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL CCs]</td> 
-   <td> <p>Du kan skicka det här avtalet till berörda parter som inte behöver signera, till exempel intressenter. De får ett e-postmeddelande i början av signeringsprocessen och ett annat när den slutliga signaturen tas emot. De får också en kopia av avtalet PDF. </p> <p>För varje person som du vill ska ingå i det här avtalet klickar du på <b>[!UICONTROL Add item]</b> och fylla i följande fält:</p> 
+   <td> <p>Du kan skicka det här avtalet till berörda parter som inte behöver signera, till exempel intressenter. De får ett e-postmeddelande i början av signeringsprocessen och ett annat när den slutliga signaturen tas emot. De får också en kopia av avtalet PDF. </p> <p>Klicka <b>[!UICONTROL Add item]</b> för varje person som du vill CC för det här avtalet och fyll i följande fält:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Email]</b> </p> <p>Ange eller mappa den e-postadress som du vill ska ingå i avtalet.</p> </li> 
      <li> <p><b>[!UICONTROL Label]</b> </p> <p>Ange eller mappa en etikett för den här e-postadressen enligt arbetsflödesbeskrivningen</p> </li> 
@@ -432,11 +432,11 @@ Den här åtgärdsmodulen skapar ett avtal, skickar det för signering och retur
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL External ID]</td> 
-   <td> <p>Ange eller mappa ett ID för det här avtalet. Du kan ange detta när avtalet skapas och använda det för att hitta avtalet i senare moduler eller frågor.</p> <p>Obs! Värdet för externt ID är synligt för alla deltagare via API, så det bör inte användas för att innehålla en känslig token.</p> </td> 
+   <td> <p>Ange eller mappa ett ID för det här avtalet. Du kan ange detta när avtalet skapas och använda det för att hitta avtalet i senare moduler eller frågor.</p> <p>Obs! Värdet för externt ID är synligt för alla deltagare via API:t, så det bör inte användas för att innehålla en känslig token.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Merge field info]</td> 
-   <td> <p>För varje fält i avtalet som du vill ange ett standardvärde för klickar du på <b>[!UICONTROL Add item]</b> och ange standardvärdet och fältnamnet.</p> <p>Värdena presenteras för signerarna för redigerbara fält För skrivskyddade fält går det inte att redigera de angivna värdena under signeringsprocessen.</p> </td> 
+   <td> <p>För varje fält i avtalet som du vill ange ett standardvärde för klickar du på <b>[!UICONTROL Add item]</b> och anger standardvärdet och fältnamnet.</p> <p>Värdena presenteras för signerarna för redigerbara fält För skrivskyddade fält går det inte att redigera de angivna värdena under signeringsprocessen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Notary info]</td> 
@@ -445,24 +445,24 @@ Den här åtgärdsmodulen skapar ett avtal, skickar det för signering och retur
      <li> <p><b>[!UICONTROL Appointment]</b> </p> <p>Ange eller mappa en föreslagen tid och ett datum för den avtalade tiden för att anteckna det här avtalet.</p> </li> 
      <li> <p><b>[!UICONTROL Note]</b> </p> <p>Ange eller mappa eventuella anteckningar som du vill inkludera om notariesessionen.</p> </li> 
      <li> <p><b>[!UICONTROL Payment]</b> </p> <p>Välj om notarien ska betalas av signeraren eller avsändaren av avtalet.</p> </li> 
-     <li> <p><b>[!UICONTROL Notary Type]</b> </p> <p>Välj typ av notarius publicus</p> 
+     <li> <p><b>[!UICONTROL Notary Type]</b> </p> <p>Välj typ av notation</p> 
       <ul> 
-       <li> <p>[!UICONTROL Provider notary]</p> <p>Den notarius publicus tillhandahålls av notarius publicus.</p> </li> 
+       <li> <p>[!UICONTROL Provider notary]</p> <p>Den notarius publicus tillhandahålls av notarien.</p> </li> 
        <li> <p>[!UICONTROL BYON notary]</p> <p>Notarien tillhandahålls av kunden.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Post sign option]</td> 
-   <td> <p>Välj om du vill att signerarna ska dirigeras till en lyckad sida efter att avtalet har signerats. Om du väljer <b>[!UICONTROL Yes]</b>, fyll i följande fält:</p> 
+   <td> <p>Välj om du vill att signerarna ska dirigeras till en lyckad sida efter att avtalet har signerats. Om du väljer <b>[!UICONTROL Yes]</b> fyller du i följande fält:</p> 
     <ul> 
-     <li> <p><b>[!UICONTROL Redirect delay]</b> </p> <p>Ange eller mappa ett tal som representerar antalet sekunder innan signeraren omdirigeras till framgångssidan. Om värdet är större än 0 kommer användaren först att se standardvärdet [!DNL Adobe Sign] meddelande om att åtgärden lyckades, och sedan omdirigeras det till din sida om att åtgärden lyckades efter en fördröjning.</p> </li> 
+     <li> <p><b>[!UICONTROL Redirect delay]</b> </p> <p>Ange eller mappa ett tal som representerar antalet sekunder innan signeraren omdirigeras till framgångssidan. Om det här värdet är större än 0 kommer användaren först att se standardmeddelandet [!DNL Adobe Sign] om att åtgärden lyckades, och sedan kommer en fördröjning att dirigeras om till din sida om att åtgärden lyckades.</p> </li> 
      <li> <p><b>[!UICONTROL Redirect URL]</b> </p> <p>Ange eller mappa en offentligt tillgänglig URL som användaren ska skickas till när signeringsprocessen har slutförts.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Security option]</td> 
-   <td> <p>Ange eller mappa det sekundära lösenordet som ska användas för att skydda dokumentet i PDF. </p> <p>Viktigt: [!DNL Adobe Sign] delar aldrig lösenordet, så du måste skicka det separat till alla berörda parter.</p> </td> 
+   <td> <p>Ange eller mappa det sekundära lösenordet som ska användas för att skydda dokumentet i PDF. </p> <p>Viktigt! [!DNL Adobe Sign] delar aldrig det här lösenordet, så du måste skicka det separat till alla relevanta parter.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Vaulting info]</td> 
@@ -483,7 +483,7 @@ Den här åtgärdsmodulen skapar poster som är länkade till en modul som du v�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -504,7 +504,7 @@ Den här åtgärdsmodulen skapar poster som är länkade till en modul som du v�
      <li> <p><b>[!UICONTROL Form fields]</b> </p> <p>Ange mall-ID för mallen som innehåller de fält som du vill skapa</p> </li> 
      <li> <p><b>[!UICONTROL Reminders]</b> </p> <p>Fyll i följande fält:</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Recipient participant ID]</b> </p> <p>För varje deltagare som du vill få en påminnelse klickar du på [!UICONTROL Add item]och ange deltagarens ID.</p> </li> 
+       <li> <p><b>[!UICONTROL Recipient participant ID]</b> </p> <p>För varje deltagare som du vill få en påminnelse klickar du på [!UICONTROL Add item] och anger deltagarens ID.</p> </li> 
        <li> <p><b>[!UICONTROL Status]</b> </p> <p>För nya poster måste statusen vara [!UICONTROL Active].</p> </li> 
        <li> <p><b>[!UICONTROL First reminder delay]</b> </p> <p>Ange fördröjningen i timmar innan den första påminnelsen skickas. Det minsta tillåtna värdet är 1 timme och det högsta värdet får inte vara mer än skillnaden mellan avtalsskapande och avtalets förfallotid i timmar. Om den här fördröjningen inte anges baseras den första påminnelsen på frekvensen.</p> </li> 
        <li> <p><b>[!UICONTROL Reminder frequency]</b> </p> <p>Ange hur ofta du vill att påminnelsen ska skickas. Om ingen frekvens anges skickas påminnelsen en gång.</p> </li> 
@@ -517,21 +517,21 @@ Den här åtgärdsmodulen skapar poster som är länkade till en modul som du v�
      <li> <p><b>[!UICONTROL Views]</b> </p> <p>Ange följande fält</p> 
       <ul> 
        <li> <p><b>[!UICONTROL Name]</b> </p> <p>Markera namnet på den vy som du vill skapa.</p> </li> 
-       <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> för att automatiskt logga in användaren på den returnerade URL:en.</p> </li> 
-       <li> <p><b>[!UICONTROL Frame Parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om den lämnas tom visas [!DNL Adobe Acrobat Sign] sidor kan inte visas i iframe.</p> </li> 
+       <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du automatiskt vill logga in användaren på den returnerade URL:en.</p> </li> 
+       <li> <p><b>[!UICONTROL Frame Parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om [!DNL Adobe Acrobat Sign]-sidorna är tomma kan de inte visas i iframe.</p> </li> 
        <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange det språk som du vill skapa vyn i. </p> </li> 
        <li> <p><b>[!UICONTROL No chrome flag]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill visa den inbäddade sidan utan ett navigeringssidhuvud eller en sidfot.</p> </li> 
        <li> <p><b>[!UICONTROL Can edit files]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att avsnittet för filöverföring ska redigeras genom att filer läggs till eller tas bort. Detta är inte en åtkomstkontrollsmaskin. Standardvärdet är [!UICONTROL Yes].</p> </li> 
        <li> <p><b>[!UICONTROL Library document]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att biblioteksdokumentlänkar ska visas. Standardvärdet är [!UICONTROL Yes].</p> </li> 
        <li> <p><b>[!UICONTROL Local file]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att den lokala filöverföringsknappen ska visas. Standardvärdet är [!UICONTROL Yes].</p> </li> 
-       <li> <p><b>[!UICONTROL Web connectors]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att länkarna för att bifoga dokument från webbkällor ska visas. Standardvärdet är Ja.</p> </li> 
-       <li> <p><b>[!UICONTROL Is preview selected]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> för att ställa in redigeringsläget på sidan Skapa.</p> </li> 
+       <li> <p><b>[!UICONTROL Web connectors]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att länkarna ska bifoga dokument från webbkällor ska visas. Standardvärdet är Ja.</p> </li> 
+       <li> <p><b>[!UICONTROL Is preview selected]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill ställa in redigeringsläget på sidan Disposition.</p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Member share]</b> </p> <p>För varje medlem som du vill dela avtalet med klickar du på <b>[!UICONTROL Add item]</b> och ange medlemmens e-postadress och ett meddelande till medlemmen.</p> </li> 
+     <li> <p><b>[!UICONTROL Member share]</b> </p> <p>För varje medlem som du vill dela avtalet med klickar du på <b>[!UICONTROL Add item]</b> och anger medlemmens e-postadress och ett meddelande till medlemmen.</p> </li> 
      <li> <p>[!UICONTROL Delegate participant set]</p> 
       <ul> 
        <li> <p><b>[!UICONTROL Participant set ID]</b> </p> <p>Ange deltagaruppsättningens ID</p> </li> 
-       <li> <p><b>[!UICONTROL Member info]</b> </p> <p>För varje medlem som du vill lägga till klickar du på [!UICONTROL Add item] och ange medlemmens e-postadress och telefoninformation.</p> </li> 
+       <li> <p><b>[!UICONTROL Member info]</b> </p> <p>För varje medlem som du vill lägga till klickar du på [!UICONTROL Add item] och anger medlemmens e-postadress och telefoninformation.</p> </li> 
        <li> <p><b>[!UICONTROL Private message]</b> </p> <p>Skriv ett meddelande. Alla medlemmar i deltagaruppsättningen får det här meddelandet.</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -541,17 +541,17 @@ Den här åtgärdsmodulen skapar poster som är länkade till en modul som du v�
    <td> <p>Fyll i följande fält:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange ett namn för biblioteksmallen. Det här namnet används i e-postmeddelanden och på webbplatser.</p> </li> 
-     <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> för att automatiskt logga in användaren på den returnerade URL:en.</p> </li> 
-     <li> <p><b>[!UICONTROL Frame parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om den lämnas tom visas [!DNL Adobe Acrobat Sign] sidor kan inte visas i iframe.</p> </li> 
+     <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du automatiskt vill logga in användaren på den returnerade URL:en.</p> </li> 
+     <li> <p><b>[!UICONTROL Frame parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om [!DNL Adobe Acrobat Sign]-sidorna är tomma kan de inte visas i iframe.</p> </li> 
      <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange det språk som du vill skapa vyn i. </p> </li> 
      <li> <p><b>[!UICONTROL No chrome flag]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill visa den inbäddade sidan utan ett navigeringssidhuvud eller en sidfot.</p> </li> 
-     <li> <p><b>[!UICONTROL Send view configuration]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill konfigurera [!UICONTROL Send] fylla i följande fält.</p> 
+     <li> <p><b>[!UICONTROL Send view configuration]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill konfigurera vyn [!UICONTROL Send] och fyll sedan i följande fält.</p> 
       <ul> 
        <li> <p><b>[!UICONTROL Agreement name]</b> </p> <p>Ange eller mappa avtalsnamnet för biblioteksdokumentet på dispositionssidan.</p> </li> 
        <li> <p><b>[!UICONTROL Can edit files]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att avsnittet för filöverföring ska redigeras genom att filer läggs till eller tas bort. Detta är inte en åtkomstkontrollsmaskin. Standardvärdet är [!UICONTROL Yes].</p> </li> 
        <li> <p><b>[!UICONTROL Local file]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att biblioteksdokumentlänkar ska visas. Standardvärdet är [!UICONTROL Yes].</p> </li> 
-       <li> <p><b>[!UICONTROL Web connectors]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att länkarna för att bifoga dokument från webbkällor ska visas. Standardvärdet är [!UICONTROL Yes].</p> </li> 
-       <li> <p><b>Är förhandsgranskning markerad</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> för att ställa in redigeringsläget på sidan Skapa.</p> </li> 
+       <li> <p><b>[!UICONTROL Web connectors]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att länkarna ska bifoga dokument från webbkällor ska visas. Standardvärdet är [!UICONTROL Yes].</p> </li> 
+       <li> <p><b>Är förhandsgranskning markerad</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill ställa in redigeringsläget på sidan Disposition.</p> </li> 
       </ul> <p> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -560,9 +560,9 @@ Den här åtgärdsmodulen skapar poster som är länkade till en modul som du v�
    <td> <p>Fyll i följande fält</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Name]</b> </p> <p>Välj namnet på den begärda användarvyn.</p> </li> 
-     <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> för att automatiskt logga in användaren. Välj <b>[!UICONTROL No]</b> för att begära inloggningsuppgifter. Standardvärdet är [!UICONTROL No].</p> </li> 
-     <li> <p><b>[!UICONTROL Frame parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om den lämnas tom visas [!DNL Adobe Acrobat Sign] sidor kan inte visas i iframe.</p> </li> 
-     <li> <p><b>Ingen kromflagga</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill visa den inbäddade sidan utan ett navigeringssidhuvud eller en sidfot.</p> </li> 
+     <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill logga in användaren automatiskt. Välj <b>[!UICONTROL No]</b> om du vill begära inloggningsuppgifter. Standardvärdet är [!UICONTROL No].</p> </li> 
+     <li> <p><b>[!UICONTROL Frame parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om [!DNL Adobe Acrobat Sign]-sidorna är tomma kan de inte visas i iframe.</p> </li> 
+     <li> <p><b>Ingen fönsterflagga</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill visa den inbäddade sidan utan ett navigeringssidhuvud eller en sidfot.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -572,19 +572,19 @@ Den här åtgärdsmodulen skapar poster som är länkade till en modul som du v�
      <li> <p>[!UICONTROL Views]</p> <p>Fyll i följande fält.</p> 
       <ul> 
        <li> <p><b>[!UICONTROL Name]</b> </p> <p>Välj namnet på den begärda webbformulärvyn</p> </li> 
-       <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> för att automatiskt logga in användaren. Välj <b>[!UICONTROL No]</b> för att begära inloggningsuppgifter. Standardvärdet är [!UICONTROL No].</p> </li> 
-       <li> <p><b>[!UICONTROL Frame parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om den lämnas tom visas [!DNL Adobe Acrobat Sign] sidor kan inte visas i iframe.</p> </li> 
+       <li> <p><b>[!UICONTROL Auto login user]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill logga in användaren automatiskt. Välj <b>[!UICONTROL No]</b> om du vill begära inloggningsuppgifter. Standardvärdet är [!UICONTROL No].</p> </li> 
+       <li> <p><b>[!UICONTROL Frame parent]</b> </p> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om [!DNL Adobe Acrobat Sign]-sidorna är tomma kan de inte visas i iframe.</p> </li> 
        <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange det språk som du vill skapa vyn i. </p> </li> 
        <li> <p><b>[!UICONTROL No chrome flag]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill visa den inbäddade sidan utan ett navigeringssidhuvud eller en sidfot.</p> </li> 
-       <li> <p>[!UICONTROL Personalized signing view configuration]</p> <p>Om du vill konfigurera en anpassad signeringsvy väljer du <b>[!UICONTROL Yes]</b> och fylla i följande fält:</p> 
+       <li> <p>[!UICONTROL Personalized signing view configuration]</p> <p>Om du vill konfigurera en anpassad signeringsvy väljer du <b>[!UICONTROL Yes]</b> och fyller i följande fält:</p> 
         <ul> 
          <li> <p><b>[!UICONTROL Email]</b> </p> <p>Ange e-postadressen till den person som tar emot det nya webbformuläret</p> </li> 
-         <li> <p><b>[!UICONTROL Comment]</b> </p> <p>Ange en kommentar som beskriver hur API-anroparen etablerade undertecknarens identitet. Den här informationen visas i [!DNL Adobe Acrobat Sign] granskningsspår.</p> </li> 
-         <li> <p><b>[!UICONTROL Expiration]</b> </p> <p>Ange ett förfallodatum för personaliseringen av det här webbformuläret. </p> <p>En lista över vilka datum- och tidsformat som stöds finns på <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p> </li> 
+         <li> <p><b>[!UICONTROL Comment]</b> </p> <p>Ange en kommentar som beskriver hur API-anroparen etablerade undertecknarens identitet. Den här informationen visas i granskningsspåret [!DNL Adobe Acrobat Sign].</p> </li> 
+         <li> <p><b>[!UICONTROL Expiration]</b> </p> <p>Ange ett förfallodatum för personaliseringen av det här webbformuläret. </p> <p>En lista över vilka datum- och tidsformat som stöds finns i <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p> </li> 
          <li> <p><b>[!UICONTROL Reusable]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill att den avsedda signeraren ska kunna signera formuläret mer än en gång.</p> </li> 
         </ul> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Member share]</b> </p> <p>För varje medlem som du vill dela avtalet med klickar du på <b>[!UICONTROL Add item]</b> och ange medlemmens e-postadress och ett meddelande till medlemmen.</p> </li> 
+     <li> <p><b>[!UICONTROL Member share]</b> </p> <p>För varje medlem som du vill dela avtalet med klickar du på <b>[!UICONTROL Add item]</b> och anger medlemmens e-postadress och ett meddelande till medlemmen.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -601,15 +601,15 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg som är relativ till <code>https://api.[region].adobesign.com/api/rest/v6/</code></p> <p>Obs! En lista över tillgängliga slutpunkter finns i [!DNL Adobe Sign] API-referens.</p> </td> 
+   <td> <p>Ange en sökväg i förhållande till <code>https://api.[region].adobesign.com/api/rest/v6/</code></p> <p>Obs! En lista över tillgängliga slutpunkter finns i API-referensen för [!DNL Adobe Sign].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -621,7 +621,7 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -645,7 +645,7 @@ Den här åtgärdsmodulen visar alla poster av den valda typen som kontot har å
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -657,11 +657,11 @@ Den här åtgärdsmodulen visar alla poster av den valda typen som kontot har å
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Locale]</td> 
-   <td> <p>Ange användarens språkområde. Detta avgör vilket språk som används i användargränssnittet. </p> </td> 
+   <td> <p>Ange användarens språkområde. Detta avgör språket i användargränssnittet. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL External ID]</td> 
-   <td>Ange eller mappa externt ID (ett ID som tilldelats utanför [!DNL Adobe Acrobat Sign]) för de avtal du vill returnera.</td> 
+   <td>Ange eller mappa det externa ID:t (ett ID som tilldelats utanför [!DNL Adobe Acrobat Sign]) för de avtal som du vill returnera.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group ID]</td> 
@@ -673,15 +673,15 @@ Den här åtgärdsmodulen visar alla poster av den valda typen som kontot har å
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Cursor] / [!UICONTROL Start index]</td> 
-   <td> <p>Ange numret på den första posten som modulen ska returnera. </p> <p>Obs! Det här fältet kombineras med [!UICONTROL Maximum number of returned records] för sidnumrering. Om [!UICONTROL Maximum number of returned events] är 100, och [!UICONTROL Start index] är 101, returnerar modulen posterna 101-200, eller resultatets andra sida.</p> </td> 
+   <td> <p>Ange numret på den första posten som modulen ska returnera. </p> <p>Obs! Det här fältet kombineras med fältet [!UICONTROL Maximum number of returned records] för sidnumrering. Om [!UICONTROL Maximum number of returned events] till exempel är 100 och [!UICONTROL Start index] är 101, returnerar modulen posterna 101-200, eller den andra resultatsidan.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned records]</td> 
-   <td> <p>Ange eller mappa det maximala antalet poster som du vill att modulen ska [åtgärd] under varje körningscykel för scenario.</p> <p>Obs! Det här fältet kombineras med [!UICONTROL Cursor] eller [!UICONTROL Start Index] för sidnumrering. Om [!UICONTROL Maximum number of returned events] är 100, och [!UICONTROL Start index] är 101, returnerar modulen posterna 101-200, eller resultatets andra sida.</p> </td> 
+   <td> <p>Ange eller mappa det maximala antalet poster som du vill att modulen ska [åtgärd] under varje körningscykel för scenario.</p> <p>Obs! Det här fältet kombineras med fältet [!UICONTROL Cursor] eller [!UICONTROL Start Index] för sidnumrering. Om [!UICONTROL Maximum number of returned events] till exempel är 100 och [!UICONTROL Start index] är 101, returnerar modulen posterna 101-200, eller den andra resultatsidan.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Parent domain URLs]</td> 
-   <td> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om den lämnas tom visas [!DNL Adobe Acrobat Sign] sidor kan inte visas i iframe.</p> </td> 
+   <td> <p>Ange eller mappa en kommaavgränsad lista över överordnade domänadresser där de returnerade URL:erna kan infogas. Om [!DNL Adobe Acrobat Sign]-sidorna är tomma kan de inte visas i iframe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -698,7 +698,7 @@ Den här åtgärdsmodulen hämtar information från en enda post.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -727,7 +727,7 @@ Läs ytterligare information om en enskild post.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -752,12 +752,12 @@ Läs ytterligare information om en enskild post.
 
 +++ **[!UICONTROL Update a record]**
 
-Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Adobe Acrobat Sign].
+Den här åtgärdsmodulen uppdaterar en enskild post i [!DNL Adobe Acrobat Sign].
 
 >[!IMPORTANT]
 >
 >* Som en god praxis rekommenderar vi att du skapar ett nytt avtal i stället för att uppdatera det befintliga avtalet, om du förutser väsentliga ändringar i ett avtal.
->* Vissa uppdateringar har obligatoriska fält. När du konfigurerar uppdateringen måste du fylla i alla obligatoriska fält. Obligatoriska fält är fetstilta [!DNL Workfront Fusion] moduler.
+>* Vissa uppdateringar har obligatoriska fält. När du konfigurerar uppdateringen måste du fylla i alla obligatoriska fält. Obligatoriska fält är feta i [!DNL Workfront Fusion] moduler.
 >
 
 
@@ -768,7 +768,7 @@ Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Adobe Acrobat Sign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -792,7 +792,7 @@ Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Adobe Acrobat Sign].
        <li> <p><b>[!UICONTROL Status]</b> </p> <p>Välj den nya statusen för biblioteksdokumentet.</p> </li> 
        <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange eller mappa namnet på biblioteksmallen</p> </li> 
        <li> <p><b>[!UICONTROL Sharing mode]</b> </p> <p>Ange vem som ska ha åtkomst till biblioteksdokumentet.</p> </li> 
-       <li> <p><b>[!UICONTROL Library template type]</b> </p> <p>För varje biblioteksmall som du vill använda klickar du på <b>[!UICONTROL Add item]</b> och välj malltyp.</p> </li> 
+       <li> <p><b>[!UICONTROL Library template type]</b> </p> <p>För varje biblioteksmalltyp som du vill använda klickar du på <b>[!UICONTROL Add item]</b> och väljer malltypen.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL User]</b> </p> <p>Markera de fält som du vill uppdatera och fyll sedan i de markerade fälten:</p> 
       <ul> 
@@ -818,7 +818,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
 >[!IMPORTANT]
 >
 >* Som en god praxis rekommenderar vi att du skapar ett nytt avtal i stället för att uppdatera det befintliga avtalet, om du förutser väsentliga ändringar i ett avtal.
->* Vissa uppdateringar har obligatoriska fält. När du konfigurerar uppdateringen måste du fylla i alla obligatoriska fält. Obligatoriska fält är fetstilta [!DNL Workfront Fusion] moduler.
+>* Vissa uppdateringar har obligatoriska fält. När du konfigurerar uppdateringen måste du fylla i alla obligatoriska fält. Obligatoriska fält är feta i [!DNL Workfront Fusion] moduler.
 >
 
 
@@ -829,7 +829,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -862,7 +862,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
          <li> <p><b>[!UICONTROL ID]</b> </p> <p>Ange gruppens unika ID</p> </li> 
          <li> <p><b>[!UICONTROL Is group admin]</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill göra den här användaren till en gruppadministratör.</p> </li> 
          <li> <p><b>Är primär grupp</b> </p> <p>Välj <b>[!UICONTROL Yes]</b> om du vill uppdatera den här gruppen till användarens primära grupp.</p> </li> 
-         <li> <p><b>[!UICONTROL Created date]</b> </p> <p>Ange det datum då gruppen skapades.</p> <p>En lista över vilka datum- och tidsformat som stöds finns på <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Typtvång i [!UICONTROL Adobe Workfront Fusion]</a>.</p> </li> 
+         <li> <p><b>[!UICONTROL Created date]</b> </p> <p>Ange det datum då gruppen skapades.</p> <p>En lista över vilka datum- och tidsformat som stöds finns i <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref" data-mc-variable-override="">Typtvång i [!UICONTROL Adobe Workfront Fusion]</a>.</p> </li> 
          <li> <p><b>[!UICONTROL Name]</b> </p> <p>Ange eller mappa namnet på gruppen.</p> </li> 
          <li> <p><b>[!UICONTROL Library document creation visible]</b> </p> <p>Dessa inställningar avgör om användaren kan skapa biblioteksdokument</p> 
           <ul> 
@@ -883,7 +883,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
       </ul> 
       <ul> 
        <li> <p><b>[!UICONTROL State]</b> </p> <p>Välj det nya tillståndet för användaren och ange en kommentar om varför du vill aktivera eller inaktivera användaren.</p> </li> 
-       <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange användarens språkområde. Detta avgör vilket språk som används i användargränssnittet. </p> </li> 
+       <li> <p><b>[!UICONTROL Locale]</b> </p> <p>Ange användarens språkområde. Detta avgör språket i användargränssnittet. </p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Web form] ([!UICONTROL widget])</b> </p> <p>Ange information i specifika fält baserat på posttyp och relaterade fält.</p> </li> 
     </ul> </td> 
@@ -907,7 +907,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -919,7 +919,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL MIME type]</td> 
-   <td>Ange mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> bearbetas i en annan webbläsare än en fil med MIME-typ <code>image/jpeg</code>.</td> 
+   <td>Ange mime-typen för den ursprungliga filen. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen <code>text/html</code> kommer att bearbetas i en annan webbläsare än en fil med MIME-typen <code>image/jpeg</code>.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -928,7 +928,7 @@ Den här åtgärdsmodulen uppdaterar poster som är relaterade till ett specifik
 
 ![](assets/sign-example-1-350x308.png)
 
-The [!UICONTROL Upload document] modulen ger dokumentet [!DNL Adobe Acrobat Sign] ID som kan refereras i senare moduler. När avtalet skapas inkluderas det överförda dokumentets ID i [!UICONTROL Files to send] fält.
+Modulen [!UICONTROL Upload document] ger dokumentet ett [!DNL Adobe Acrobat Sign]-ID som kan refereras i senare moduler. När avtalet skapas inkluderas det överförda dokumentets ID i fältet [!UICONTROL Files to send].
 
 ![](assets/sign-example-2-350x356.png)
 
@@ -946,7 +946,7 @@ Den här sökmodulen söker efter avtal baserat på de villkor du anger.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Adobe Acrobat Sign] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Adobe Acrobat Sign]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -958,7 +958,7 @@ Den här sökmodulen söker efter avtal baserat på de villkor du anger.
     <ul> 
      <li> <p><b>[!UICONTROL Find text]</b> </p> <p>Ange den text som du vill söka efter i avtalsmetadata. Varje ord behandlas som ett separat textobjekt. </p> </li> 
      <li> <p><b>[!UICONTROL Find text in]</b> </p> <p>Markera metadatafälten som du vill söka efter text i. Om du inte markerar något söks alla metadata igenom.</p> </li> 
-    </ul> <p>Modulen returnerar alla avtal som innehåller någon av den angivna texten i något av de markerade fälten. Exempel: Om du anger "vårkampanj" och väljer alternativen Titel och Anteckning returneras alla avtal med orden "Spring" eller "Campaign" i antingen Titel eller Anteckning.</p> <p>Mer information om att söka i fält i [!DNL Adobe Acrobat Sign], se"Hur textsökning fungerar" i <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign] Sök - Så fungerar det</a>.</p> </td> 
+    </ul> <p>Modulen returnerar alla avtal som innehåller någon av den angivna texten i något av de markerade fälten. Exempel: om du anger "vårkampanj" och väljer alternativen Titel och Anteckning returneras alla avtal med orden "vår" eller "Campaign" i antingen Titel eller Anteckning.</p> <p>Mer information om hur du söker efter fält i [!DNL Adobe Acrobat Sign] finns i"Hur textsökning fungerar" i <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign] Sök - Så fungerar det </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Created date]</td> 
@@ -974,23 +974,23 @@ Den här sökmodulen söker efter avtal baserat på de villkor du anger.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL External ID]</td> 
-   <td> <p> Externt ID är ett avsändartilldelat ID till avtalet som kan vara i vilket format som helst, men vanligtvis i form av&lt;groupid&gt;:&lt;id&gt;".</p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och ange eller mappa externt ID.</p> </td> 
+   <td> <p> Externt ID är ett avsändartilldelat ID till avtalet som kan ha vilken form som helst, men vanligtvis i form av &lt;groupID&gt;:&lt;ID&gt;.</p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar det externa ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group ID]</td> 
-   <td> <p>Grupp-ID är en identifierare som tilldelas när gruppen skapades.</p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och ange eller mappa externt ID.</p> </td> 
+   <td> <p>Grupp-ID är en identifierare som tilldelas när gruppen skapades.</p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar det externa ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
-   <td> <p>Detta är det ID som tilldelats det specifika avtalet. </p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och ange eller mappa externt ID.</p> </td> 
+   <td> <p>Detta är det ID som tilldelats det specifika avtalet. </p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar det externa ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Parent ID]</td> 
-   <td> <p>Detta är det ID som tilldelats avtalets överordnade objekt. </p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och ange eller mappa externt ID.</p> </td> 
+   <td> <p>Detta är det ID som tilldelats avtalets överordnade objekt. </p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar det externa ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Participant email]</td> 
-   <td> <p>En deltagares e-postadress. </p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och ange eller mappa externt ID.</p> </td> 
+   <td> <p>En deltagares e-postadress. </p> <p>För varje externt ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar det externa ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Role]</td> 
@@ -1018,7 +1018,7 @@ Den här sökmodulen söker efter avtal baserat på de villkor du anger.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL User ID]</td> 
-   <td> <p>Användar-ID för användaren som avtalet delas med.</p> <p>För varje användar-ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och ange eller mappa användar-ID:t.</p> </td> 
+   <td> <p>Användar-ID för användaren som avtalet delas med.</p> <p>För varje användar-ID som du vill lägga till klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar användar-ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Visibility]</td> 
@@ -1026,7 +1026,7 @@ Den här sökmodulen söker efter avtal baserat på de villkor du anger.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start index]</td> 
-   <td> <p>Ange positionen för det första resultatet som du vill returnera. Kombinera detta med [!UICONTROL maximum returned results] för att paginera resultat</p> <p>Exempel: om du returnerar 100 resultat i taget, anger du 100 för att returnera resultatet 100-200.</p> </td> 
+   <td> <p>Ange positionen för det första resultatet som du vill returnera. Kombinera detta med [!UICONTROL maximum returned results] för att paginera resultat</p> <p>Exempel: Om du returnerar 100 resultat i taget, anger du 100 för att returnera resultatet 100-200.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 

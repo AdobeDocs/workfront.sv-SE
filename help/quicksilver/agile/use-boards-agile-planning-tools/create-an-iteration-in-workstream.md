@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -50,9 +50,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Öppna arbetsflödet där du vill lägga till iterationen. Om du vill öppna ett arbetsflöde klickar du på [!UICONTROL **Visa arbetsflöde**].
 1. Skapa en iteration på något av följande sätt:
 
-   * På fliken Kortlista i iterationsvyn klickar du på [!UICONTROL **Skapa upprepning**].
-   * På fliken Kortlista i listvyn klickar du på [!UICONTROL **Skapa upprepning**].
-   * Klicka på fliken Poster [!UICONTROL **Lägg till anslagstavla**] och markera [!UICONTROL **Iterationsprocess**] som styrelsemall. Öppna sedan iterationspanelen och klicka på [!UICONTROL **Konfigurera iterationer**].
+   * Klicka på [!UICONTROL **Skapa iteration**] i iterationsvyn på fliken Kortlista.
+   * Klicka på [!UICONTROL **Skapa iteration**] i listvyn på fliken Kortlista.
+   * Klicka på [!UICONTROL **Lägg till anslagstavla**] på fliken Ritytor och välj [!UICONTROL **Intervationsprocess**] som ritytema. Öppna sedan iterationspanelen och klicka på [!UICONTROL **Konfigurera iterationer**].
 
 1. Lägg till följande information i dialogrutan Intervallinformation:
 
@@ -73,22 +73,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka [!UICONTROL **Spara**].
+1. Klicka på [!UICONTROL **Spara**].
 
    Numret visas nu i iterationsvyn för kortlistan och i metriområdet på iterationsytan.
 
-   Information om hur du lägger till kort i en iteration finns i [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Mer information om hur du lägger till kort i en iteration finns i [Använd kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 ## Redigera en befintlig iteration
 
 1. Om du vill öppna ett arbetsflöde klickar du på [!UICONTROL **Visa arbetsflöde**].
 1. Öppna iterationen på något av följande sätt:
 
-   * På fliken Kortlista i iterationsvyn klickar du på [!UICONTROL **Iterationsinformation**] icon ![Iterationsinformation](assets/iteration-details-button.png).
-   * Klicka på [!UICONTROL **Iterationsinformation**] icon ![Iterationsinformation](assets/iteration-details-button.png) i mätområdet högst upp till höger.
+   * Klicka på ikonen [!UICONTROL **Iterationsinformation**] ![Iterationsinformation](assets/iteration-details-button.png) i vyn över kortlistan.
+   * Klicka på ikonen [!UICONTROL **Iterationsinformation**] ![Iterationsinformation](assets/iteration-details-button.png) i mätområdet högst upp till höger på iterationspanelen.
 
-1. I [!UICONTROL Iteration Configuration] redigerar du upprepningen efter behov.
-1. Om du vill ändra upprepningens namn expanderar du [!UICONTROL **Iterationsinformation**].
+1. Redigera upprepningen efter behov på panelen [!UICONTROL Iteration Configuration].
+1. Utöka [!UICONTROL **iterationsinformationen**] om du vill ändra upprepningsnamnet.
 
    När en iteration har startats kan du bara ändra iteration och inte datum eller iteration.
 
@@ -115,6 +115,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Ta bort en iteration
 
-1. Klicka på [!UICONTROL **Kortlista**] -fliken i arbetsflödet och öppna iterationsvyn.
-1. Klicka på **Ta bort** icon ![Ikonen Ta bort](assets/delete.png) bredvid iterationen.
-1. Klicka [!UICONTROL **Ta bort upprepning**] på bekräftelsemeddelandet.
+1. Klicka på fliken [!UICONTROL **Kortlista**] i arbetsflödet och öppna itereringsvyn.
+1. Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) intill iterationen.
+1. Klicka på [!UICONTROL **Ta bort upprepning**] i bekräftelsemeddelandet.

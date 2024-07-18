@@ -19,9 +19,9 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article will need to be further revised and maybe merged into Understanding Portfolios?! (other?!).)</p>
 -->
 
-I [!DNL Adobe Workfront], en portfölj representerar en samling projekt som konkurrerar om samma resurser, budget, tidsplan och prioritet. Det främsta syftet med portföljen är att hjälpa chefer och projektledare att välja att arbeta med projekt som ger mest nytta för en organisation.
+I [!DNL Adobe Workfront] representerar en portfölj en samling projekt som konkurrerar om samma resurser, budget, schema och prioritet. Det främsta syftet med portföljen är att hjälpa chefer och projektledare att välja att arbeta med projekt som ger mest nytta för en organisation.
 
-Mer information om portföljer finns i [Portfolio, översikt i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Mer information om portföljer finns i [Översikt över Portfolio i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Åtkomstkrav
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -50,40 +50,40 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Navigera i en portfölj
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 
 1. Klicka på [!UICONTROL Portfolios].
-1. Från **[!UICONTROL Filter]** väljer du följande:
+1. Välj följande i listrutan **[!UICONTROL Filter]**:
 
-   * **[!UICONTROL Portfolios I Own]**: Innehåller en lista med portföljer som du har utsetts till [!UICONTROL Portfolio Manager].
-   * **[!UICONTROL All]**: Inkluderar alla portföljer som du har åtminstone tillgång till Visa för.\
+   * **[!UICONTROL Portfolios I Own]**: Innehåller en lista över portföljer som du har utsetts till [!UICONTROL Portfolio Manager] för.
+   * **[!UICONTROL All]**: Inkluderar alla portföljer som du har åtminstone åtkomst till Visa för.\
 
      Mer information om åtkomst till Portfolio finns i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      Mer information om behörigheter till Portfolio finns i  [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+      Mer information om behörigheter till Portfolio finns i [Dela en portfölj](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
-     Information om hur du lägger till nya portföljer finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+     Mer information om hur du lägger till nya portföljer finns i [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 1. Klicka på namnet på en portfölj för att komma åt den.\
-   Följande mått för portföljprestanda visas i [!UICONTROL Portfolio Details] område i en portfölj:
+   Följande portföljresultatmått visas i området [!UICONTROL Portfolio Details] i en portfölj:
 
    * Om portföljen är [!UICONTROL On Time]
    * Om portföljen är [!UICONTROL On Budget]
-   * The [!UICONTROL Return on Investment] (avkastning)
+   * [!UICONTROL Return on Investment] (ROI)
    * Portföljen [!UICONTROL Alignment]
    * Portföljen [!UICONTROL Net Value]
 
-1. (Valfritt) Klicka på **[!UICONTROL Projects]** i den vänstra panelen för att visa projekt som är kopplade till den valda portföljen och välj sedan något av följande filter i **[!UICONTROL Filter]** nedrullningsbar meny:
+1. (Valfritt)   Klicka på **[!UICONTROL Projects]** i den vänstra panelen för att visa projekt som är kopplade till den valda portföljen och välj sedan något av följande filter i listrutan **[!UICONTROL Filter]**:
 
-   * **[!UICONTROL Active]**: Inkluderar alla projekt som är associerade med den valda portföljen och som finns i följande statusar:
+   * **[!UICONTROL Active]**: Inkluderar alla projekt som är associerade med den valda portföljen och som har följande status:
 
       * [!UICONTROL Planning]
       * [!UICONTROL Approved]
       * [!UICONTROL Current]
-   * **[!UICONTROL Requested]**: Inkluderar projekt som associeras med den valda portföljen med statusen **[!UICONTROL Requested]**.
+   * **[!UICONTROL Requested]**: Inkluderar projekt som är associerade med den valda portföljen med statusen **[!UICONTROL Requested]**.
 
      Mer information om hur du granskar begärda projekt finns i [Granska begärda projekt](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
 
@@ -91,15 +91,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!NOTE]
      >
-     >Om du bara vill visa specifika projekt kan du skapa ett projektfilter i **[!UICONTROL Filter]** listrutan högst upp i listan med projekt för att minska antalet projekt som visas.
+     >Om du bara vill visa specifika projekt kan du skapa ett projektfilter i listrutan **[!UICONTROL Filter]** högst upp i listan med projekt för att minska antalet projekt som visas.
 
      Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klicka **[!UICONTROL Programs]** i den vänstra panelen för att skapa program i portföljen eller hantera befintliga program.\
-   Mer information om program finns i [Skapa och hantera program](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) -avsnitt.
+1. Klicka på **[!UICONTROL Programs]** i den vänstra panelen för att skapa program i portföljen eller hantera befintliga program.\
+   Mer information om program finns i avsnittet [Skapa och hantera program](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md).
 
-1. (Valfritt) Expandera **[!UICONTROL Portfolio Details]** området i den vänstra panelen och klicka sedan **[!UICONTROL Overview]** eller **[!UICONTROL Custom Forms]** om du vill redigera information om portföljen.
+1. (Valfritt) Expandera området **[!UICONTROL Portfolio Details]** i den vänstra panelen och klicka sedan på **[!UICONTROL Overview]** eller **[!UICONTROL Custom Forms]** för att redigera information om portföljen.
 
 1. (Valfritt) Klicka på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen för att optimera portföljens prestanda.
 
@@ -107,13 +107,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!IMPORTANT]
    >
-   >Ditt företag måste ha en [!UICONTROL Business] eller högre [!DNL Workfront] planerar att ha tillgång till [!UICONTROL Portfolio Optimizer].
+   >Ditt företag måste ha en [!UICONTROL Business]-plan eller en senare [!DNL Workfront]-plan för att få tillgång till [!UICONTROL Portfolio Optimizer].
 
-   Mer information om hur du använder Portfolio-optimering finns i [Hantera projekt i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) -avsnitt.
+   Mer information om hur du använder Optimera för Portfolio finns i avsnittet [Hantera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Valfritt) Klicka på **Dokument** i den vänstra panelen för att bifoga dokument till portföljen.
 1. (Valfritt) Klicka på **[!UICONTROL Updates]** i den vänstra panelen för att lägga till kommentarer i portföljens uppdateringsström. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Valfritt) Klicka på **[!UICONTROL More]meny** ![](assets/qs-more-icon-on-an-object.png) om du vill göra något av följande:
+1. (Valfritt) Klicka på **[!UICONTROL More]-menyn** ![](assets/qs-more-icon-on-an-object.png) om du vill göra något av följande:
 
    * Inaktivera portföljen. När en portfölj inaktiveras kan du inte längre koppla den till projekt på projektnivå.
    * Ta bort portföljen.
@@ -124,4 +124,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    * Dela portföljen med andra användare.
 
-1. (Valfritt) Klicka på **Stjärna** icon ![](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet om du vill lägga till portföljen i listan med favoriter.
+1. (Valfritt) Klicka på ikonen **Stjärna** ![](assets/qs-star-icon-favorites-39x38.png) till höger om portföljnamnet för att lägga till portföljen i din favoritlista.

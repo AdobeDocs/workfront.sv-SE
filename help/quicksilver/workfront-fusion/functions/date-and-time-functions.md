@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
    <td> 
-   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>Aktuell: Inga [!DNL Workfront Fusion]-licenskrav.</p> 
    <p>eller</p> 
    <p>Äldre: Alla </p> 
    </td>  
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Planen [!DNL Workfront Fusion] ingår.</li></ul> 
    <p>eller</p> 
    <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -56,9 +56,9 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody>  
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Variabel
 
@@ -78,11 +78,11 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal sekunder har l
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
 >
->   Returnerar 2016-12-08T15:55:59,536Z
+>   Returnerar 2016-12-08T15:55:59.536Z
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
 >
->   Returnerar 2016-12-08T15:55:55,536Z
+>   Returnerar 2016-12-08T15:55:55.536Z
 
 ### [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
 
@@ -94,11 +94,11 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal minuter har la
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
 >
->    Returnerar 2016-12-08T15:57:57,536Z
+>    Returnerar 2016-12-08T15:57:57.536Z
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
 >
->    Returnerar 2016-12-08T15:53:57,536Z
+>    Returnerar 2016-12-08T15:53:57.536Z
 
 ### [!UICONTROL addHours (date; number)] {#addhours-date-number}
 
@@ -110,11 +110,11 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal timmar har lag
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
 >
->    Returnerar 2016-12-08T17:55:57,536Z
+>    Returnerar 2016-12-08T17:55:57.536Z
 >
 >* `addHours(2016-12-08T15:55:57.536Z;-2)`
 >
->    Returnerar 2016-12-08T13:55:57,536Z
+>    Returnerar 2016-12-08T13:55:57.536Z
 
 ### [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
@@ -126,11 +126,11 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal dagar har lagt
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
 >
->    Returnerar 2016-12-10T15:55:57,536Z
+>    Returnerar 2016-12-10T15:55:57.536Z
 >
 >* `addDays(2016-12-08T15:55:57.536Z;-2)`
 >
->    Returnerar 2016-12-6T15:55:57,536Z
+>    Returnerar 2016-12-6T15:55:57.536Z
 
 ### [!UICONTROL addMonths (date; number)]
 
@@ -142,11 +142,11 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal månader har l
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
 >
->    Returnerar 2016-10-08T15:55:57,536Z
+>    Returnerar 2016-10-08T15:55:57.536Z
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;-2)`
 >
->    Returnerar 2016-06-08T15:55:57,536Z
+>    Returnerar 2016-06-08T15:55:57.536Z
 
 ### [!UICONTROL addYears (date; number)]
 
@@ -158,11 +158,11 @@ Returnerar ett nytt datum som ett resultat av att ett visst antal år har lagts 
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
 >
->    Returnerar 2018-08-08T15:55:57,536Z
+>    Returnerar 2018-08-08T15:55:57.536Z
 >
 >* `addYears(2016-12-08T15:55:57.536Z; -2)`
 >
->    Returnerar 2014-08-08T15:55:57,536Z
+>    Returnerar 2014-08-08T15:55:57.536Z
 
 ### [!UICONTROL setSecond (date; number)]
 
@@ -170,7 +170,7 @@ Den här funktionen returnerar ett nytt datum med de sekunder som anges i parame
 
 Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en sekund från föregående minut (för ett negativt tal) eller efterföljande minut (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder[!UICONTROL  addSeconds], enligt beskrivningen ovan i avsnittet [addSeconds (date; number)](#addseconds-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder [!UICONTROL  addSeconds], enligt beskrivningen ovan i avsnittet [addSeconds (date; number)](#addseconds-date-number).
 
 >[!INFO]
 >
@@ -190,7 +190,7 @@ Den här funktionen returnerar ett nytt datum med de minuter som anges i paramet
 
 Ange ett tal mellan 0 och 59. Om talet ligger utanför det intervallet returnerar funktionen en minut från föregående timme (för ett negativt tal) eller efterföljande timme (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addMinutes enligt beskrivningen ovan [addMinutes (date; number)](#addminutes-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addMinutes enligt beskrivningen ovan i [addMinutes (date; number)](#addminutes-date-number).
 
 >[!INFO]
 >
@@ -198,11 +198,11 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
 >
->    Returnerar 2015-10-07T11:10:39,138Z
+>    Returnerar 2015-10-07T11:10:39.138Z
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;61)`
 >
->    Returnerar 2015-10-07T12:01:39,138Z
+>    Returnerar 2015-10-07T12:01:39.138Z
 
 ### [!UICONTROL setHour (date; number)]
 
@@ -210,7 +210,7 @@ Den här funktionen returnerar ett nytt datum med timmen angiven i parametrar.
 
 Ange ett tal mellan 0 och 23. Om talet ligger utanför det här intervallet returnerar funktionen en timme från föregående dag (för ett negativt tal) eller efterföljande dag (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addHours enligt beskrivningen ovan [addHours (date; number)](#addhours-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addHours enligt beskrivningen ovan i [addHours (date; number)](#addhours-date-number).
 
 >[!INFO]
 >
@@ -218,11 +218,11 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
 >
->   Returer 2015-08-07T06:36:39,138Z
+>   Returnerar 2015-08-07T06:36:39.138Z
 >
 >* `setHour(2015-08-07T11:36:39.138;-6)`
 >
->    Returnerar 2015-08-06T18:36:39,138Z
+>    Returnerar 2015-08-06T18:36:39.138Z
 
 ### [!UICONTROL setDay (date; number/name of the day in English)]
 
@@ -230,7 +230,7 @@ Den här funktionen returnerar ett nytt datum med den dag som anges i parametrar
 
 Du kan använda den här funktionen för att ange veckodag, med söndag som 1 och lördag som 7. Om du anger ett tal mellan 1 och 7 blir det resulterande datumet inom den aktuella veckan (söndag till lördag). Om talet ligger utanför det intervallet returnerar funktionen en dag från föregående vecka (för ett negativt tal) eller efterföljande vecka (för ett positivt tal).
 
-Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addDays enligt beskrivningen ovan [addDays (date; number)](#adddays-date-number).
+Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använder addDays enligt beskrivningen ovan i [addDays (date; number)](#adddays-date-number).
 
 >[!INFO]
 >
@@ -238,15 +238,15 @@ Om du behöver ange ett tal utanför intervallet rekommenderar vi att du använd
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
 >
->   Returnerar 2018-06-25T11:36:39,138Z
+>   Returnerar 2018-06-25T11:36:39.138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;1)`
 >
->   Returnerar 2018-06-24T11:36:39,138Z
+>   Returnerar 2018-06-24T11:36:39.138Z
 >
 >* `setDay(2018-06-27T11:36:39.138Z;7)`
 >
->   Returnerar 2018-06-30T11:36:39,138Z
+>   Returnerar 2018-06-30T11:36:39.138Z
 
 ### [!UICONTROL setDate (date; number)]
 
@@ -260,11 +260,11 @@ Ange ett tal mellan 1 och 31. Om talet ligger utanför det här intervallet retu
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
 >
->   Returnerar 2015-08-05T11:36:39,138Z
+>   Returnerar 2015-08-05T11:36:39.138Z
 >
 >* `setDate(2015-08-07T11:36:39.138Z;32)`
 >
->   Returnerar 2015-09-01T11:36:39,138Z
+>   Returnerar 2015-09-01T11:36:39.138Z
 
 ### [!UICONTROL setMonth (date; number/name of the month in English)]
 
@@ -278,15 +278,15 @@ Ange ett tal mellan 1 och 12. Om talet ligger utanför det här intervallet retu
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
 >
->   Returnerar 2015-05-07T11:36:39,138Z
+>   Returnerar 2015-05-07T11:36:39.138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;17)`
 >
->   Returnerar 2016-05-07T11:36:39,138Z
+>   Returnerar 2016-05-07T11:36:39.138Z
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;january)`
 >
->   Returnerar 2015-01-07T12:36:39,138Z
+>   Returnerar 2015-01-07T12:36:39.138Z
 
 ### [!UICONTROL setYear (date; number)]
 
@@ -298,11 +298,11 @@ Returnerar ett nytt datum med året angivet i parametrar.
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
 >
->   Returnerar 2017-08-07T11:36:39,138Z
+>   Returnerar 2017-08-07T11:36:39.138Z
 
 ### [!UICONTROL formatDate (date; format; [timezone])]
 
-Använd den här funktionen när du har ett datumvärde, till exempel `12-10-2021 20:30`som du vill formatera som ett textvärde, till exempel `Dec 10, 2021 8:30 PM`.
+Använd den här funktionen när du har ett datumvärde, till exempel `12-10-2021 20:30`, som du vill formatera som ett textvärde, till exempel `Dec 10, 2021 8:30 PM`.
 
 Detta är praktiskt när du till exempel behöver ändra datumformatet för en app eller webbtjänst till datumformatet för en ansluten app eller webbtjänst i samma scenario.
 
@@ -335,7 +335,7 @@ Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.m
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>Text </td> 
-   <td> <p>(Valfritt) Du kan ange vilken tidszon som ska användas för konverteringen. </p> <p>En lista över godkända tidszoner finns i kolumnen "TZ-databasnamn" i Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Lista över tz-databasens tidszoner</a>. Endast värdena i den här kolumnen tolkas som en giltig tidszon av funktionen. Alla andra värden ignoreras och scenernas tidszon som anges i din profil används i stället. Mer information finns i artikeln <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Ändra profilinställningar i [!DNL Adobe Workfront Fusion]</a>.</p> <p>Om du utelämnar den här parametern används den tidszon för scenarier som anges i profilinställningarna. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Valfritt) Du kan ange vilken tidszon som ska användas för konverteringen. </p> <p>En lista över godkända tidszoner finns i kolumnen "TZ-databasnamn" i Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zone</a>. Endast värdena i den här kolumnen tolkas som en giltig tidszon av funktionen. Alla andra värden ignoreras och scenernas tidszon som anges i din profil används i stället. Mer information finns i artikeln <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Ändra profilinställningar i [!DNL Adobe Workfront Fusion]</a>.</p> <p>Om du utelämnar den här parametern används den tidszon för scenarier som anges i profilinställningarna. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -344,11 +344,11 @@ Om en annan typ anges används typtvång. Mer information finns i [Typtvång i [
 
 #### Returvärde och typ
 
-The `formatDate` funktionen returnerar en textrepresentation av det angivna Date-värdet enligt det angivna formatet och tidszonen. Datatypen är Text.
+Funktionen `formatDate` returnerar en textrepresentation av det angivna Date-värdet enligt det angivna formatet och tidszonen. Datatypen är Text.
 
 >[!INFO]
 >
->**Exempel:** Både tidszonen Scenario och Webb var inställda på `Europe/Prague` i dessa exempel.
+>**Exempel:** Scenario och Web timezone var båda inställda på `Europe/Prague` i dessa exempel.
 >
 >![](assets/date&time-functions-examples-350x61.png)
 >
@@ -370,7 +370,7 @@ The `formatDate` funktionen returnerar en textrepresentation av det angivna Date
 
 ### [!UICONTROL parseDate (text; format; [timezone])]
 
-Använd den här funktionen när du har ett textvärde som representerar ett datum (till exempel `12-10-2019 20:30` eller `Aug 18, 2019 10:00 AM`) och du vill konvertera (tolka) den till ett datumvärde (en binär maskinläsbar representation). Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.md#date) och [Text](../../workfront-fusion/mapping/item-data-types.md#text) i artikeln [Artikeldatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+Använd den här funktionen när du har ett textvärde som representerar ett datum (till exempel `12-10-2019 20:30` eller `Aug 18, 2019 10:00 AM`) och du vill konvertera (parsa) det till ett datumvärde (en binär maskinläsbar representation). Mer information finns i [Datum](../../workfront-fusion/mapping/item-data-types.md#date) och [Text](../../workfront-fusion/mapping/item-data-types.md#text) i artikeln [Objektdatatyper i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 #### Parametrar
 
@@ -401,7 +401,7 @@ Den andra kolumnen anger den förväntade typen. Om en annan typ anges används 
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>Text </td> 
-   <td> <p>(Valfritt) Du kan ange vilken tidszon som ska användas för konverteringen. </p> <p>En lista över godkända tidszoner finns i kolumnen "TZ-databasnamn" i Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Lista över tz-databasens tidszoner</a>. Endast värdena i den här kolumnen tolkas som en giltig tidszon av funktionen. Alla andra värden ignoreras och scenernas tidszon som anges i din profil används i stället. Mer information finns i artikeln <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Ändra profilinställningar i Adobe Workfront Fusion</a>.</p> <p>Om du utelämnar den här parametern används den tidszon för scenarier som anges i profilinställningarna.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Valfritt) Du kan ange vilken tidszon som ska användas för konverteringen. </p> <p>En lista över godkända tidszoner finns i kolumnen "TZ-databasnamn" i Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zone</a>. Endast värdena i den här kolumnen tolkas som en giltig tidszon av funktionen. Alla andra värden ignoreras och scenernas tidszon som anges i din profil används i stället. Mer information finns i artikeln <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Ändra profilinställningar i Adobe Workfront Fusion</a>.</p> <p>Om du utelämnar den här parametern används den tidszon för scenarier som anges i profilinställningarna.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,19 +418,19 @@ Den här funktionen konverterar en textsträng till ett datum enligt det format 
 >
 >* `parseDate(2016-12-28;YYYY-MM-DD)`
 >
->    Returnerar 2016-12-28T00:00:00,000Z
+>    Returnerar 2016-12-28T00:00:00.000Z
 >
 >* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
 >
->    Returnerar 2016-12-28T16:03:00,000Z
+>    Returnerar 2016-12-28T16:03:00.000Z
 >
 >* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
 >
->    Returnerar 2016-12-28T16:03:06,000Z
+>    Returnerar 2016-12-28T16:03:06.000Z
 >
 >* `parseDate(1482940986;X)`
 >
->   Returnerar 2016-12-28T16:03:06,000Z
+>   Returnerar 2016-12-28T16:03:06.000Z
 
 ### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
@@ -438,7 +438,7 @@ Returnerar ett tal som representerar skillnaden mellan de två datumen, uttryckt
 
 Datum2 subtraheras från datum1.
 
-Använd ett av följande tidsvärden för `unit` parameter:
+Använd ett av följande tidsvärden för parametern `unit`:
 
 * millisekunder
 * sekunder
@@ -470,7 +470,7 @@ Om ingen enhet anges returnerar funktionen differensen i millisekunder.
 
 #### Så här beräknar du den n:e veckodagen i månaden
 
-Detta avsnitt är anpassat för [!DNL Workfront Fusion] från [!DNL Exceljet] webbsida som förklarar hur du får den n:e veckodagen i en månad.
+Det här avsnittet är anpassat för [!DNL Workfront Fusion] från webbsidan [!DNL Exceljet] som förklarar hur du hämtar den nionde veckodagen i en månad.
 
 Om du behöver beräkna ett datum som motsvarar den n:e veckodagen i månaden (till exempel den första tisdagen, den tredje fredagen och så vidare) kan du använda följande formel:
 
@@ -510,12 +510,12 @@ Formeln innehåller följande artiklar:
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> Datumet bestämmer månaden. Om du vill beräkna den n:e veckodagen i den aktuella månaden använder du <code>now</code> variabel.</p> </td> 
+   <td> <p> Datumet bestämmer månaden. Om du vill beräkna den n:e veckodagen i den aktuella månaden använder du variabeln <code>now</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Om du bara vill beräkna ett specifikt fall, till exempel varje onsdag, kan du ersätta artiklarna `1.n` och `2.dow` i formeln med motsvarande tal. För den andra onsdagen i den aktuella månaden använder du följande värden:
+Om du bara vill beräkna ett specifikt fall, till exempel varje onsdag, kan du ersätta objekten `1.n` och `2.dow` i formeln med motsvarande tal. För den andra onsdagen i den aktuella månaden använder du följande värden:
 
 * `1.n` = `2`
 * `1.dow` = `3`
@@ -540,9 +540,9 @@ En möjlighet är att använda följande uttryck:
 
 >[!NOTE]
 >
->* Värden för `D1`och `D2` måste vara datatypsvärden. Om de är strängtypsvärden (till exempel 20.10.2018) använder du `parseDate()` funktionen för att konvertera dem till värden av typen Date.
+>* Värdena för `D1` och `D2` har datatypsvärden. Om de är strängtypsvärden (till exempel 20.10.2018) använder du funktionen `parseDate()` för att konvertera dem till datatypsvärden.
 >
->* The `round()` -funktionen används för fall när ett av datumen ligger inom sommartidsperioden och det andra inte gör det. I dessa fall är skillnaden i timmar en timme mindre eller mer. Du kan dividera det med 24 för ett resultat som inte är ett heltal. Du förlorar en timmes sommartid. Rund förenklar den så att du inte får en procentandel
+>* Funktionen `round()` används för fall när ett av datumen ligger inom sommartidsperioden och det andra inte gör det. I dessa fall är skillnaden i timmar en timme mindre eller mer. Du kan dividera det med 24 för ett resultat som inte är ett heltal. Du förlorar en timmes sommartid. Rund förenklar den så att du inte får en procentandel
 
 #### Så här beräknar du sista dagen/millisekunden i månaden
 
@@ -560,7 +560,7 @@ Formeln nedan visar ett sätt att beräkna den sista dagen i föregående månad
 
 I vissa fall behöver du inte bara beräkna den sista dagen i månaden, utan bokstavligen dess sista millisekund:
 
-2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59,999Z
+2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59.999Z
 
 Den här formeln visar ett sätt att beräkna den sista millisekunddelen i föregående månad:
 

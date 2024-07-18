@@ -51,7 +51,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -74,9 +74,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    eller
 
-   Om du skapar eller redigerar en tidrapportprofil för en grupp klickar du på **Grupper** och klicka sedan på gruppens namn.
+   Om du skapar eller redigerar en tidrapportprofil för en grupp klickar du på **Grupper** och sedan på gruppens namn.
 
-1. Klicka **Tidrapportprofiler**.
+1. Klicka på **Tidrapportprofiler**.
 1. Om du vill skapa en ny tidrapportprofil klickar du på **Ny profil**.
 
    eller
@@ -86,14 +86,14 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    Den nya eller befintliga tidrapportprofilen visas.
 
 
-1. På **Ange detaljer** -flik, ange en **Namn** och **Beskrivning** för tidrapportprofilen och ange följande information:
+1. På fliken **Ange information** skriver du **Namn** och **Beskrivning** för tidrapportprofilen och anger följande information:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Grupp med administrationsåtkomst</strong> </td> 
+      <td role="rowheader"><strong>Gruppera med administrationsåtkomst</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>Om du skapar en tidrapportprofil på systemnivå lämnar du det här fältet tomt.</p> <p>Alla användare som kan redigera användarkonton kan bifoga en tidrapport på systemnivå till andra användare.</p> <p>Endast en Workfront-administratör kan redigera en tidrapportprofil på systemnivå.</p> </li> 
@@ -101,7 +101,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      <ul> 
       <li> <p>Identifiera gruppen här om du skapar en tidrapportprofil för en grupp som du administrerar.</p> <p>Detta tilldelar inte tidrapportprofilen till användarna i gruppen utan bara gruppens administratörer möjlighet att ändra tidrapportprofilen. Du tilldelar profilen till användare i steg 6.</p>
 
-   <p><b>ANMÄRKNING</b>: När användare utanför gruppen bifogar tidrapportprofiler till andra användare kan de inte se eller bifoga den här tidrapportprofilen.</p> </li> 
+   <p><b>Obs!</b> När användare utanför gruppen kopplar tidrapportprofiler till andra användare kan de inte se eller koppla den här tidrapportprofilen.</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -110,38 +110,38 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <p>En veckotidrapport börjar det datum då den skapas. Om du t.ex. skapar veckotidrapporter varje torsdag är den första dagen i veckan på tidrapporten torsdag.</p>
 
 
-   <p><b>ANMÄRKNING</b>: Workfront skapar alltid två tidrapporter i taget: den första tidrapporten innehåller alltid det aktuella datumet och den andra tidrapporten startar när tidsramen för den första är slut.</p> </p> </td> 
+   <p><b>Obs!</b> Workfront skapar alltid två tidrapporter i taget: den första tidrapporten innehåller alltid det aktuella datumet och den andra tidrapporten startar när tidsramen för den första är slut.</p> </p> </td> 
     </tr> 
      <tr> 
       <td role="rowheader"><p><strong>Godkännare</strong></p> </td> 
-      <td> <p> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.</p> <p>Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administrationsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> <p>Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:</p> 
+      <td> <p> <p>Godkännare är användare som godkänner tidrapporten för användare som är kopplade till tidrapporten. Du kan identifiera upp till 7 användare som godkännare på en tidrapport. Det är praktiskt att identifiera flera användare för att se till att en godkännare är tillgänglig när någon inte är på kontoret. Alla godkännare meddelas när en användare skickar tidrapporten för godkännande. Endast en användare behöver godkänna tidrapporten för att den ska godkännas.</p> <p>Endast användare med administratörsbehörighet för tidrapport kan anges som godkännare. Mer information om administratörsrättigheter för tidrapporter finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> <p>Använd listrutan för att välja godkännare för tidrapporten (om en godkännare krävs). Du kan välja mellan följande alternativ:</p> 
       <ul> 
       <li><strong>Ingen</strong>: Tidrapporten behöver inte godkännas.</li> 
-      <li><strong>Deras chef</strong>: Detta är standardgodkännaren som ställs in av systemet. I det här fallet godkänner den användare som är utsedd som sin chef tidrapporten när den skickas för godkännande.</li> 
-      <li><strong>Specifika personer:</strong> Du kan ange specifika användare efter namn som tidrapportgodkännare. Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och tas bort från listan över tidrapportgodkännanden för alla återstående godkännare.</li> 
+      <li><strong>Deras hanterare</strong>: Det här är standardgodkännaren som ställs in av systemet. I det här fallet godkänner den användare som är utsedd som sin chef tidrapporten när den skickas för godkännande.</li> 
+      <li><strong>Specifika personer:</strong> Du kan ange specifika användare efter namn som tidrapportgodkännare. Du kan ha flera godkännare på en tidrapport. När en av godkännarna har godkänt tidrapporten markeras tidrapporten som <strong>Stängd</strong> och försvinner från listan över tidrapportgodkännanden för alla återstående godkännare.</li> 
        </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Redigeringstid </strong> </td> 
+      <td role="rowheader"><strong>Det går att redigera tid </strong> </td> 
       <td> <p> <p>Välj det här alternativet om godkännarna ska kunna redigera timmar på tidrapporten.
 
-   Det här alternativet fungerar tillsammans med **Begränsa redigering av tidrapporter till ägare och administratörer** i Inställningar > Tidrapport och timmar > Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.
+   Det här alternativet fungerar tillsammans med inställningen **Begränsa redigering av tidrapporter till ägare och administratörer** i området Inställningar > Tidrapport och timmar > Inställningar. Mer information finns i <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Konfigurera tidrapport och timinställningar</a>.
 
    Följande scenarier finns:
 
    <ul>
-      <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> är aktiverat:</li>
-      <ul><li>Godkännare kan bara godkänna och avvisa tidrapport, oavsett om <b>Redigeringstid</b> är aktiverat eller inte. </li>
+      <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är aktiverat:</li>
+      <ul><li>Godkännare kan bara godkänna och avvisa tidrapport, oavsett om <b>Kan redigera tid</b> är aktiverat eller inte. </li>
       <li>Tidrapportsägarnas chefer kan bara visa sina direkt rapporters tidrapporter.</li></ul>
-      <li>När <b>Begränsa redigering av tidrapporter till ägare och administratörer</b> alternativet är inaktiverat:</li>
-    <ul><li>När <b>Redigeringstid</b> är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.</li>
-      <li>När <b>Redigeringstid</b> är inaktiverat, godkännare kan inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten. </li>
+      <li>När alternativet <b>Begränsa redigering av tidrapport till ägare och administratörer</b> är inaktiverat:</li>
+    <ul><li>När <b>Kan redigera tid</b> är aktiverat kan godkännare skicka, öppna igen eller stänga tidrapporten och redigera tiden.</li>
+      <li>När <b>Kan redigera tid</b> är inaktiverat kan godkännarna inte skicka, öppna igen eller stänga tidrapporten och kan inte redigera tiden. Godkännare kan bara godkänna eller avvisa tidrapporten. </li>
       <li>Tidrapportsägarnas chefer kan skicka, återkalla, öppna och redigera sina direkt underställda tidrapporter.</li></ul>
       </ul>
 
    <p>
 
-   <b>ANMÄRKNING</b>: När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Skicka en tidrapport för godkännande</a> och<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Godkänn en tidrapport</a>.</p> </p> </td>
+   <b>Obs!</b> När du har skickat in en tidrapport för godkännande kan du inte längre redigera timmarna. Om du vill returnera en inskickad tidrapport till ett redigerbart tillstånd måste du återkalla tidrapporten eller låta godkännaren avvisa tidrapporten. Mer information finns i <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">Skicka en tidrapport för godkännande</a> och<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">Godkänn en tidrapport</a>.</p> </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Tillgängliga timtyper</strong> </td> 
@@ -155,7 +155,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
     </tbody> 
     </table>
 
-1. Klicka på **Tilldela personer** om du vill associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
+1. Klicka på fliken **Tilldela personer** för att associera tidrapportprofilen med specifika användare, grupper eller (om du är Workfront-administratör) team. Börja skriva namnet på användaren, gruppen eller teamet och klicka sedan på det när det visas i listrutan.
 
    Om du är gruppadministratör kan du tilldela tidrapportprofilen till grupper som du administrerar, men inte till team. Mer information finns i [Begränsningar för en gruppadministratör som tilldelar en tidrapportprofil](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) i den här artikeln.
 
@@ -165,7 +165,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    >* När du lägger till en grupp visas bara gruppnamnet på fliken Tilldela personer, inte på listan med gruppmedlemmar. Om du vill visa gruppmedlemmarna som listas här klickar du på Spara ändringar och sedan på namnet på den tidrapportprofil som du just skapade.
    >* När du är klar med de här stegen genererar tidrapportprofilen endast tidrapporter för de tilldelade användarna eller gruppmedlemmarna som inte har några befintliga tidrapporter för den aktuella perioden.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Första gången som tidrapportprofilen genererar tidrapporter skapas två tidrapporter för varje användare. Efter det skapas varje gång nya tidrapporter skapas, när tidrapporten skapas per användare.
 
@@ -182,9 +182,9 @@ För dessa grupper och användare har du inte tillgång till de tidrapporter som
 
 Om alternativet Användaradministratör (gruppanvändare) också är inaktiverat på din åtkomstnivå kan du tilldela tidrapportprofilen till en grupp som du administrerar, men det påverkar bara de användare i gruppen som du har behörighet att redigera. Om gruppen innehåller användare som du inte har behörighet att redigera tilldelas de inte tidrapportprofilen tillsammans med resten av gruppen.
 
-Mer information om alternativet Tidrapporter och timmar på din åtkomstnivå finns i [Ge användarna administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Information om alternativet Tidrapporter och timmar på din åtkomstnivå finns i [Bevilja användare administrativ åtkomst till vissa områden](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Mer information om alternativet Användaradministratör (gruppanvändare) på din åtkomstnivå finns i [Bevilja åtkomst för användare](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Mer information om alternativet Användaradministratör (gruppanvändare) på din åtkomstnivå finns i [Bevilja åtkomst till användare](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 ## Flera återkommande tidrapportprofiler
 

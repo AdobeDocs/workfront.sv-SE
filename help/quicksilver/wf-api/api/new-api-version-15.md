@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: d3525d9f286e08258d75d770d257b325b9ee8ca9
 workflow-type: tm+mt
-source-wordcount: '2349'
+source-wordcount: '2286'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Adobe Workfront släppte API version 15 den 14 juni 2022. API-version 15 innehå
 
 Objektet Initiative skapar uppskattningar i Workfront Scenario Planner för typ och antal av jobbroller, fasta kostnader och planerad förmån.
 
-Mer information om Initiativ finns i [Översikt över initiativ i scenarioplaneraren](../../scenario-planner/initiatives-overview.md).
+Mer information om initiativ finns i [Översikt över initiativ i scenarioplanen](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -82,7 +82,7 @@ Mer information om Initiativ finns i [Översikt över initiativ i scenarioplaner
             <p>Det datum då initiativet senast offentliggjordes i Workfront Scenario Planner.</p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>namn</b>
             </p>
             <p>Initiativets namn</p>
           </li>
@@ -142,7 +142,7 @@ Mer information om Initiativ finns i [Översikt över initiativ i scenarioplaner
             </p>
           </li>
           <li>
-            <p><b>name</b>
+            <p><b>namn</b>
             </p>
           </li>
           <li>
@@ -157,7 +157,7 @@ Mer information om Initiativ finns i [Översikt över initiativ i scenarioplaner
       <td>
         <ul>
           <li>
-            <p><b>COUNT</b>
+            <p><b>ANTAL</b>
             </p>
           </li>
           <li>
@@ -398,7 +398,7 @@ TaskDef-objektet representerar en uppsättning data om aktiviteternas format. De
       <td>
         <ul>
           <li>
-            <p><b>godkännareID</b>
+            <p><b>godkännar-ID</b>
             </p>
           </li>
           <li>
@@ -414,7 +414,7 @@ TaskDef-objektet representerar en uppsättning data om aktiviteternas format. De
             </p>
           </li>
           <li>
-            <p><b>requestID</b>
+            <p><b>beställar-ID</b>
             </p>
           </li>
           <li>
@@ -422,7 +422,7 @@ TaskDef-objektet representerar en uppsättning data om aktiviteternas format. De
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b>användar-ID</b>
             </p>
           </li>
         </ul>
@@ -471,11 +471,11 @@ TaskDef-objektet representerar en uppsättning data om aktiviteternas format. De
       <td >
         <ul>
           <li>
-            <p><b>godkännareID</b>
+            <p><b>godkännar-ID</b>
             </p>
           </li>
           <li>
-            <p><b>requestID</b>
+            <p><b>beställar-ID</b>
             </p>
           </li>
           <li>
@@ -483,7 +483,7 @@ TaskDef-objektet representerar en uppsättning data om aktiviteternas format. De
             </p>
           </li>
           <li>
-            <p><b>userID</b>
+            <p><b>användar-ID</b>
             </p>
           </li>
         </ul>
@@ -513,7 +513,7 @@ TaskDef-objektet representerar en uppsättning data om aktiviteternas format. De
             </p>
           </li>
           <li>
-            <p><b>COUNT</b>
+            <p><b>ANTAL</b>
             </p>
           </li>
           <li>
@@ -615,7 +615,7 @@ Mer information om åtkomstnivåer finns i [Åtkomstnivåer](../../administratio
       <td>
         <ul>
           <li>
-            <p><b>fieldAccessPrivileges</b> (sträng[])</p>
+            <p><b>fieldAccessPrivileges</b> (string[])</p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
               <li>
@@ -657,7 +657,7 @@ Ett AccessLevelPermissions-objekt representerar en specifik behörighet för att
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (sträng[])</p>
+            <p><b>forbiddenActions</b> (string[])</p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
               <li>
@@ -669,7 +669,7 @@ Ett AccessLevelPermissions-objekt representerar en specifik behörighet för att
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (sträng[])</p>
+            <p><b>secondaryActions</b> (string[])</p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
               <li>
@@ -750,7 +750,7 @@ Ett AccessRule-objekt representerar en regeluppsättning med anpassade åtkomstn
             </ul>
           </li>
           <li>
-            <p><b>forbiddenActions</b> (sträng[])</p>
+            <p><b>forbiddenActions</b> (string[])</p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
               <li>
@@ -762,7 +762,7 @@ Ett AccessRule-objekt representerar en regeluppsättning med anpassade åtkomstn
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (sträng[])</p>
+            <p><b>secondaryActions</b> (string[])</p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
               <li>
@@ -930,7 +930,7 @@ Ett CustomerPreferences-objekt representerar den uppsättning inställningar som
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>namn</b>
             </p>
             <p>Följande värden har lagts till:</p>
             <ul>
@@ -995,7 +995,7 @@ Ett Group-objekt representerar en uppsättning användare och team. Grupper repr
 
 Mer information om grupper finns i Grupper kontra team.
 
-Group-objektet lade till flaggan `DATA_EXTENDIBLE`
+Gruppobjektet lade till flaggan `DATA_EXTENDIBLE`
 
 <table>
   <col/>
@@ -1214,13 +1214,13 @@ Ett Parameter-objekt är ett anpassat fält.
           <li>
             <p><b>dataType</b>
             </p>
-            <p>Det möjliga värdet har lagts till <code>WIDGET </code>(Widget) </p>
+            <p>Det möjliga värdet <code>WIDGET </code>(widget) har lagts till </p>
             <p>Det här värdet stöder användning av bilder i anpassade formulär.</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Det möjliga värdet har lagts till <code>WIDGET </code>(Widget)</p>
+            <p>Det möjliga värdet <code>WIDGET </code>(widget) har lagts till</p>
             <p>Det här värdet stöder användning av bilder i anpassade formulär.</p>
           </li>
         </ul>
@@ -1361,7 +1361,7 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats i Help Desk-området där användarna kan skicka utgåvor till den.
 
-Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om begärandeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>
@@ -1372,7 +1372,7 @@ Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-wor
       <td>
         <ul>
           <li>
-            <p><b>requestCoreAction</b>
+            <p><b>requestedCoreAction</b>
             </p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
@@ -1385,7 +1385,7 @@ Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-wor
             </ul>
           </li>
           <li>
-            <p><b>requestForbiddenActions</b>
+            <p><b>requestedForbiddenActions</b>
             </p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
@@ -1420,7 +1420,7 @@ Mer information om styrkortsfrågor finns i [Skapa ett styrkort](../../administr
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Det möjliga värdet har lagts till <code>WIDGET </code>(Widget)</p>
+            <p>Det möjliga värdet <code>WIDGET </code>(widget) har lagts till</p>
           </li>
         </ul>
       </td>
@@ -1574,7 +1574,7 @@ Arbetsobjekt i Workfront kan uppdateras för att hålla användarna informerade 
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Det möjliga värdet har lagts till <code>documentVersionDownload </code>(enum.updatetypeenum.documents versiondownload)</p>
+            <p>Det möjliga värdet <code>documentVersionDownload </code>(enum.updatetypeenum.documents versiondownload) har lagts till</p>
           </li>
         </ul>
       </td>

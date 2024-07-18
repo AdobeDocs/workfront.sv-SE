@@ -42,7 +42,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,17 +55,17 @@ I de här stegen beskrivs hur du skapar en ny grupp från grunden. Mer informati
 
 Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Ovanför listan med grupper klickar du på **Ny grupp**.
 
    >[!TIP]
    >
-   >Längst ned i grupplistan kan du även klicka **Lägg till fler grupper** om du vill lägga till en grupp online klickar du på **Retur** när du är klar med att lägga till gruppinformationen.
+   >Längst ned i listan med grupper kan du även klicka på **Lägg till fler grupper** för att lägga till en grupp på raden och sedan klicka på **Retur** när du är klar med att lägga till gruppinformationen.
 
-1. I **Ny grupp** som visas skriver du ett namn för gruppen.
+1. Ange ett namn för gruppen i rutan **Ny grupp** som visas.
 1. Ange följande information:
 
    <table style="table-layout:auto"> 
@@ -82,22 +82,22 @@ Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
      </tr> 
      <tr> 
       <td role="rowheader">Är aktiv</td> 
-      <td> <p>(Aktiverat som standard) Aktiverar gruppen i din Workfront-instans.</p> <p>När vanliga användare söker efter en grupp för att bifoga den till ett objekt eller för att dela ett objekt i ett textfält som det som visas nedan, visas endast aktiva grupper i listan.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om du vill effektivisera detta för dina användare kan du inaktivera alternativet Är aktiv för grupper som inte används för närvarande.</p> <p>Du kan enkelt visa, filtrera och gruppera grupplistan baserat på aktiv eller inaktiv status i det här fältet. Mer information om hur du använder vyer, filter och grupperingar i listor finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportelement: filter, vyer och grupperingar</a>.</p> </td> 
+      <td> <p>(Aktiverat som standard) Aktiverar gruppen i din Workfront-instans.</p> <p>När vanliga användare söker efter en grupp för att bifoga den till ett objekt eller för att dela ett objekt i ett textfält som det som visas nedan, visas endast aktiva grupper i listan.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om du vill effektivisera detta för dina användare kan du inaktivera alternativet Är aktiv för grupper som inte används för närvarande.</p> <p>Du kan enkelt visa, filtrera och gruppera grupplistan baserat på aktiv eller inaktiv status i det här fältet. Mer information om hur du använder vyer, filter och grupperingar i listor finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportera element: filter, vyer och grupperingar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gör den här gruppen och dess undergrupper offentliga</td> 
-      <td> <p>(Endast tillgängligt om du visar Detaljer för en grupp på den översta nivån, inte för en undergrupp.) Aktivera det här alternativet om du vill tillåta användare i gruppen med redigeringsanvändaråtkomst (som inte är administratörer för gruppen) att lägga till den här gruppen och dess undergrupper i andra användares användarprofil.</p> <p>För en offentlig grupp kan alla användare (i eller utanför gruppen) som har behörighet att redigera användare lägga till gruppen i profilen för andra användare. De kan inte göra detta för en privat grupp.</p> <p>Du kan bara redigera det här alternativet på den översta överordnade gruppen i en grupphierarki som har mer än en nivå. Alla undergrupper i den överordnade gruppen ärver inställningen.</p> <p><b>ANMÄRKNING</b>:  
+      <td> <p>(Endast tillgängligt om du visar Detaljer för en grupp på den översta nivån, inte för en undergrupp.) Aktivera det här alternativet om du vill tillåta användare i gruppen med redigeringsanvändaråtkomst (som inte är administratörer för gruppen) att lägga till den här gruppen och dess undergrupper i andra användares användarprofil.</p> <p>För en offentlig grupp kan alla användare (i eller utanför gruppen) som har behörighet att redigera användare lägga till gruppen i profilen för andra användare. De kan inte göra detta för en privat grupp.</p> <p>Du kan bara redigera det här alternativet på den översta överordnade gruppen i en grupphierarki som har mer än en nivå. Alla undergrupper i den överordnade gruppen ärver inställningen.</p> <p><b>OBS</b>:  
         <ul> 
          <li>Du kan inte göra en undergrupp offentlig för sig själv, men du kan göra den överordnade gruppen på den översta nivån offentlig, vilket även gör alla överordnade undergrupper offentliga.</li> 
          <li>En undergrupp som tillhör en offentlig grupp är som standard offentlig, så alla användare med redigeringsåtkomst kan lägga till undergruppen även till andra användare.</li> 
-        </ul> </p> <p>Om du behöver information om den åtkomst som behövs för att redigera användare, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>. Mer information om hur du redigerar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
+        </ul> </p> <p>Om du behöver information om den åtkomst som krävs för att redigera användare läser du <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>. Mer information om hur du redigerar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Företagsledare </td> 
-      <td> <p>Du kan utse en användare till affärsledare för en grupp som du hanterar. En företagsledare är någon som fattar affärsbeslut för gruppen. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Översikt över företagsledare</a><span>.</span></p> <p>Om personen inte redan är medlem i gruppen läggs även namnet till i gruppen när namnet läggs till i det här fältet.</p> <p><b>ANMÄRKNING</b>:  
+      <td> <p>Du kan utse en användare till affärsledare för en grupp som du hanterar. En företagsledare är någon som fattar affärsbeslut för gruppen. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Översikt över företagsledare</a><span>.</span></p> <p>Om personen inte redan är medlem i gruppen läggs även namnet till i gruppen när namnet läggs till i det här fältet.</p> <p><b>OBS</b>:  
         <ul> 
          <li>Innan du kan ta bort affärsledaren från en grupp måste du ta bort deras namn från fältet Affärsledare.</li> 
-         <li>Om du tar bort namnet från fältet Affärsledare förblir användaren medlem i gruppen om du inte tar bort dem från den. Instruktioner om hur du tar bort någon från en grupp finns i avsnittet <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Hantera medlemskap i en grupp</a> i artikeln <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Hantera en grupp</a>.</li> 
+         <li>Om du tar bort namnet från fältet Affärsledare förblir användaren medlem i gruppen om du inte tar bort dem från den. Instruktioner om hur du tar bort någon från en grupp finns i avsnittet <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Hantera en grupps medlemskap</a> i artikeln <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Hantera en grupp</a>.</li> 
         </ul> </p> <p>Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Översikt över företagsledare</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -114,7 +114,7 @@ Du måste vara Workfront-administratör för att kunna skapa en högnivågrupp.
     </tbody> 
    </table>
 
-1. Klicka **Skapa grupp**.
+1. Klicka på **Skapa grupp**.
 
 ## Skapa en grupp på den översta nivån genom att kopiera en befintlig grupp eller undergrupp {#create-a-top-level-group-by-copying-an-existing-group-or-subgroup}
 
@@ -127,14 +127,14 @@ Tänk på följande när du vill göra detta:
 
 Så här skapar du en ny grupp på den översta nivån genom att kopiera en grupp eller undergrupp:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
 1. Markera gruppen som du vill kopiera och klicka sedan på ikonen Kopiera ![](assets/copy-icon.png).
-1. I **Kopiera grupp** ruta som visas skriver du **Gruppnamn** för den kopierade gruppen.
+1. Skriv ett **gruppnamn** för den kopierade gruppen i rutan **Kopiera grupp**.
 
 1. Ange följande information:
 
@@ -152,22 +152,22 @@ Så här skapar du en ny grupp på den översta nivån genom att kopiera en grup
      </tr> 
      <tr> 
       <td role="rowheader">Är aktiv</td> 
-      <td> <p>(Aktiverat som standard) Aktiverar gruppen i din Workfront-instans.</p> <p>När vanliga användare söker efter en grupp för att bifoga den till ett objekt eller för att dela ett objekt i ett textfält som det som visas nedan, visas endast aktiva grupper i listan.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om du vill effektivisera detta för dina användare kan du inaktivera alternativet Är aktiv för grupper som inte används för närvarande.</p> <p>Du kan enkelt visa, filtrera och gruppera grupplistan baserat på aktiv eller inaktiv status i det här fältet. Mer information om hur du använder vyer, filter och grupperingar i listor finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Rapportelement: filter, vyer och grupperingar</a>.</p>  </td> 
+      <td> <p>(Aktiverat som standard) Aktiverar gruppen i din Workfront-instans.</p> <p>När vanliga användare söker efter en grupp för att bifoga den till ett objekt eller för att dela ett objekt i ett textfält som det som visas nedan, visas endast aktiva grupper i listan.</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>Om du vill effektivisera detta för dina användare kan du inaktivera alternativet Är aktiv för grupper som inte används för närvarande.</p> <p>Du kan enkelt visa, filtrera och gruppera grupplistan baserat på aktiv eller inaktiv status i det här fältet. Mer information om hur du använder vyer, filter och grupperingar i listor finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Rapportera element: filter, vyer och grupperingar</a>.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Gör den här gruppen och dess undergrupper offentliga</td> 
-      <td> <p>(Endast tillgängligt om du visar Detaljer för en grupp på den översta nivån, inte för en undergrupp.) Aktivera det här alternativet om du vill tillåta användare i gruppen med redigeringsanvändaråtkomst (som inte är administratörer för gruppen) att lägga till den här gruppen och dess undergrupper i andra användares användarprofil.</p> <p>För en offentlig grupp kan alla användare (i eller utanför gruppen) som har behörighet att redigera användare lägga till gruppen i profilen för andra användare. De kan inte göra detta för en privat grupp.</p> <p>Du kan bara redigera det här alternativet på den översta överordnade gruppen i en grupphierarki som har mer än en nivå. Alla undergrupper i den överordnade gruppen ärver inställningen.</p> <p><b>ANMÄRKNING</b>:  
+      <td> <p>(Endast tillgängligt om du visar Detaljer för en grupp på den översta nivån, inte för en undergrupp.) Aktivera det här alternativet om du vill tillåta användare i gruppen med redigeringsanvändaråtkomst (som inte är administratörer för gruppen) att lägga till den här gruppen och dess undergrupper i andra användares användarprofil.</p> <p>För en offentlig grupp kan alla användare (i eller utanför gruppen) som har behörighet att redigera användare lägga till gruppen i profilen för andra användare. De kan inte göra detta för en privat grupp.</p> <p>Du kan bara redigera det här alternativet på den översta överordnade gruppen i en grupphierarki som har mer än en nivå. Alla undergrupper i den överordnade gruppen ärver inställningen.</p> <p><b>OBS</b>:  
         <ul> 
          <li>Du kan inte göra en undergrupp offentlig för sig själv, men du kan göra den till en överordnad grupp på översta nivån offentlig, vilket även gör alla överordnade undergrupper offentliga.</li> 
          <li>En undergrupp som tillhör en offentlig grupp är som standard offentlig, så alla användare med redigeringsåtkomst kan lägga till undergruppen även till andra användare.</li> 
-        </ul> </p> <p>Om du behöver information om den åtkomst som behövs för att redigera användare, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Bevilja åtkomst för användare</a>. Mer information om hur du redigerar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Redigera en användares profil</a>.</p> </td> 
+        </ul> </p> <p>Om du behöver information om den åtkomst som krävs för att redigera användare läser du <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Bevilja åtkomst till användare</a>. Mer information om hur du redigerar användare finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Redigera en användares profil</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Företagsledare </td> 
-      <td> <p>Du kan utse en användare till affärsledare för en grupp som du hanterar. En företagsledare är någon som fattar affärsbeslut för gruppen. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Översikt över företagsledare</a><span>.</span></p> <p>Om personen inte redan är medlem i gruppen läggs även namnet till i gruppen när namnet läggs till i det här fältet.</p> <p><b>ANMÄRKNING</b>:  
+      <td> <p>Du kan utse en användare till affärsledare för en grupp som du hanterar. En företagsledare är någon som fattar affärsbeslut för gruppen. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Översikt över företagsledare</a><span>.</span></p> <p>Om personen inte redan är medlem i gruppen läggs även namnet till i gruppen när namnet läggs till i det här fältet.</p> <p><b>OBS</b>:  
         <ul> 
          <li>Innan du kan ta bort affärsledaren från en grupp måste du ta bort deras namn från fältet Affärsledare.</li> 
-         <li>Om du tar bort namnet från fältet Affärsledare förblir användaren medlem i gruppen om du inte tar bort dem från den. Instruktioner om hur du tar bort någon från en grupp finns i avsnittet <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Hantera medlemskap i en grupp</a> i artikeln <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Hantera en grupp</a>.</li> 
+         <li>Om du tar bort namnet från fältet Affärsledare förblir användaren medlem i gruppen om du inte tar bort dem från den. Instruktioner om hur du tar bort någon från en grupp finns i avsnittet <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Hantera en grupps medlemskap</a> i artikeln <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Hantera en grupp</a>.</li> 
         </ul> </p> <p>Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Översikt över företagsledare</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -190,4 +190,4 @@ Så här skapar du en ny grupp på den översta nivån genom att kopiera en grup
    >* Om den ursprungliga gruppen har undergrupper läggs undergrupperna till i den nya gruppen och deras namn är som standard&quot;Det ursprungliga undergruppsnamnet (Kopiera)&quot;.
    >* Du kan ta bort användare och undergrupper från den ursprungliga gruppen genom att klicka på X till höger om användarens eller undergruppens namn.
 
-1. Klicka **Skapa grupp**.
+1. Klicka på **Skapa grupp**.

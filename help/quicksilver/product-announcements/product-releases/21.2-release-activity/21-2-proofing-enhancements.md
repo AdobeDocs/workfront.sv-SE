@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Förbättringar av korrektur
 
-Den här sidan beskriver alla korrekturförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla korrekturförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Handläggningsbevis visas nu i listan Dokument
 
@@ -31,21 +31,21 @@ Med den här förbättringen kan du enkelt se alla korrektur som har ett övergr
 
 Tidigare var du tvungen att gå till arbetsflödet för dokumentinformation och korrektur för att kunna se det övergripande korrekturbeslutet, som krävde flera klick.
 
-Mer information om korrekturbeslut finns i [Området Dokument](../../../documents/managing-documents/documents-area.md).
+Mer information om korrekturbeslut finns i [Dokumentområdet](../../../documents/managing-documents/documents-area.md).
 
-Den här funktionen ingår nu i [Hantera korrektur och versioner i nya Workfront](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Hantera korrektur och versioner i den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) på Workfront One.
 
 ## Nya fält i rapporten Korrektur för godkännande
 
 Vi har lagt till följande fält i rapporten för korrektur av godkännande för att kunna visa användbar korrekturinformation:
 
-* **Beslutsdatum:** Visar det datum då en godkännare fattar ett beslut om ett bevis. Det här datumet finns också på sidan Skriv ut sammanfattning av korrekturet.
-* **Godkännarstadium:** Visar aktuell information om scenen.
-* **Arbetsflödesmall:** Visar eventuella arbetsflödesmallar som är kopplade till korrekturet. Om ingen mall är kopplad är kolumnen tom.
+* **Beslutsdatum:** Visar datumet som en godkännare fattar ett beslut om ett bevis. Det här datumet finns också på sidan Skriv ut sammanfattning av korrekturet.
+* **Godkännarstadium:** Visar aktuell sceninformation.
+* **Arbetsflödesmall:** Visar alla arbetsflödesmallar som är kopplade till korrekturet. Om ingen mall är kopplad är kolumnen tom.
 
 Dessa fält ingår inte i standardrapporten. Du måste lägga till dem om du vill se dem.
 
-Den här funktionen ingår nu i [Korrekturinställningar, del 2: Arbetsflödeshantering](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Korrektursysteminställningarna, del 2: Arbetsflödeshantering](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) utbildningsväg på Workfront One.
 
 ## Överför det befintliga korrekturarbetsflödet när en ny version genereras
 

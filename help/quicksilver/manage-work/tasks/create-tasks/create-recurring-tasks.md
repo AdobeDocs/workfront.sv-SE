@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kan skapa återkommande uppgifter för uppgifter som du måste upprepa som en del av ett enda projekt.
 
-Allmän information om återkommande uppgifter, inklusive effekten av att redigera en befintlig återkommande uppgift, finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+Allmän information om återkommande aktiviteter, inklusive effekten av att redigera en befintlig återkommande uppgift, finns i [Översikt över återkommande aktiviteter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
 ## Åtkomstkrav
 
@@ -64,26 +64,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >
 >Du kan inte skapa en återkommande uppgift genom att ändra en befintlig uppgift. Du måste skapa en ny uppgift.
 
-1. Gå till det projekt där du vill skapa en återkommande uppgift och klicka sedan på **Uppgifter** i den vänstra panelen.
-1. Klicka **Ny uppgift**.
+1. Gå till projektet där du vill skapa en återkommande uppgift och klicka sedan på avsnittet **Åtgärder** i den vänstra panelen.
+1. Klicka på **Ny aktivitet**.
 
    Dialogrutan Ny uppgift visas.
 
    ![](assets/nwe-create-task-small-screen-350x272.png)
 
-1. Klicka **Fler alternativ** anger du ett namn för uppgiften i dialogrutan **Aktivitetsnamn** fält.
+1. Klicka på **Fler alternativ** och ange ett namn för aktiviteten i fältet **Uppgiftsnamn**.
 1. Fortsätt uppdatera aktiviteten på samma sätt som om du lade till en ny uppgift. Mer information om hur du lägger till en ny uppgift finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
    >[!TIP]
    >
    >   Varaktighet och Planerade timmar som anges för en ny återkommande aktivitet är Varaktighet och Planerade timmar för varje förekomst. Den överordnade aktivitetens varaktighet är tiden mellan det planerade startdatumet för den första aktiviteten och det planerade slutförandedatumet för den senaste aktiviteten. Den överordnade uppgiftens planerade timmar är det totala antalet planerade timmar från alla förekomster.
 
-1. Klicka **Ökning** till vänster.
-1. Bläddra nedåt till **Återkommande schema** väljer du **Gör detta till en återkommande uppgift** alternativ.
+1. Klicka på **Översikt** i den vänstra panelen.
+1. Bläddra ned till avsnittet **Återkommande schema** och välj sedan alternativet **Gör detta till en återkommande uppgift**.
 
    ![](assets/recurrence-schedule-section-new-recurring-tasks-nwe-350x351.png)
 
-1. I **Frekvens** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typ av tidsenheter. Välj bland följande alternativ:
+1. I listrutan **Täthet** väljer du antalet tidsenheter när du vill att uppgiften ska utföras och typen av tidsenheter. Välj bland följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -105,14 +105,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Vecka</strong> </td> 
-      <td> <p> Uppgiften upprepas varje vecka, varannan vecka, var tredje vecka och så vidare, beroende på vilken frekvens du väljer.</p> <p>I <strong>Upprepningar</strong> väljer du den dag i veckan då du vill att varje uppgift ska utföras. Du kan välja flera dagar. </p> </td> 
+      <td> <p> Uppgiften upprepas varje vecka, varannan vecka, var tredje vecka och så vidare, beroende på vilken frekvens du väljer.</p> <p>I fältet <strong>Upprepningar</strong> väljer du den dag i veckan då du vill att varje uppgift ska utföras. Du kan välja flera dagar. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Månad</strong> </td> 
-      <td> <p>Uppgiften upprepas varje månad, varannan månad, var tredje månad och så vidare, beroende på vilken frekvens du väljer. Du kan välja mellan 1 och 12 månader. </p> <p>I <strong>Upprepningar</strong> väljer du bland följande alternativ när du vill att uppgiften ska utföras:</p> 
+      <td> <p>Uppgiften upprepas varje månad, varannan månad, var tredje månad och så vidare, beroende på vilken frekvens du väljer. Du kan välja mellan 1 och 12 månader. </p> <p>I fältet <strong>Upprepningar</strong> väljer du bland följande alternativ när du vill att uppgiften ska utföras:</p> 
        <ul> 
-        <li> <p><strong>varje månad &lt;month date=""&gt;</strong> </p> <p>Du kan välja dagar mellan 1 och 30 eller välja <strong>sista</strong>. Du kan till exempel välja "varje månad den 30:e". </p> </li> 
-        <li> <p><strong>varje månad &lt;number&gt; &lt;day of="" the="" week=""&gt;</strong> </p> <p>I den första listrutan kan du välja ett tal mellan 1 och 4 för veckonumret i månaden eller så kan du välja "senaste". </p> <p>I den andra listrutan kan du välja vilken veckodag som helst. </p> <p>Du kan t.ex. välja "varje månad den andra tisdagen". </p> </li> 
+        <li> <p><strong>varje månad den &lt;månadsdatum&gt;</strong> </p> <p>Du kan välja dagar mellan 1 och 30 eller så kan du välja <strong>senaste</strong>. Du kan till exempel välja "varje månad den 30:e". </p> </li> 
+        <li> <p><strong>varje månad den &lt;number&gt; &lt;veckodag&gt;</strong> </p> <p>I den första listrutan kan du välja ett tal mellan 1 och 4 för veckonumret i månaden eller så kan du välja "senaste". </p> <p>I den andra listrutan kan du välja vilken veckodag som helst. </p> <p>Du kan t.ex. välja "varje månad den andra tisdagen". </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -122,18 +122,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du har ett schemaundantag associerat med projektets schema kan återkommande aktiviteter inte starta under undantaget. Återkommande aktiviteter som inträffar under schemaundantaget är schemalagda att starta den första arbetsdagen efter undantaget. Mer information om schemaundantag finns i artikeln [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-1. I **Börjar** markerar du det datum och den tidpunkt då du vill att de återkommande uppgifterna ska börja.
-1. I **Slutar** markerar du det datum och den tidpunkt då du vill att de återkommande uppgifterna ska slutföras
+1. I fältet **Börjar** väljer du det datum och den tidpunkt då du vill att de återkommande aktiviteterna ska börja.
+1. I fältet **Slutar** väljer du datum och tid när du vill att de återkommande aktiviteterna ska slutföras
 
    eller
 
-   Välj **efter `<number>` förekomster** för att ange hur många gånger den återkommande uppgiften ska utföras. Workfront skapar samma antal återkommande aktiviteter för uppgifterna som det antal du anger i det här fältet.
+   Välj **efter `<number>` förekomster** för att ange hur många gånger den återkommande aktiviteten ska inträffa. Workfront skapar samma antal återkommande aktiviteter för uppgifterna som det antal du anger i det här fältet.
 
-1. Klicka **Skapa uppgift.**
+1. Klicka på **Skapa uppgift.**
 
    Uppgiftslistan visas. Den återkommande uppgiften skapas som en överordnad uppgift och alla återkommande aktiviteter är dess underordnade. Workfront genererade automatiskt namnen på de underordnade uppgifterna med det namn du angav för den överordnade uppgiften följt av ett nummer. De återkommande uppgifterna placeras i slutet av uppgiftslistan.
 
-   Mer information om vilka fält som fylls i automatiskt från den överordnade återkommande uppgiften finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   Mer information om vilka fält som fylls i automatiskt från den överordnade återkommande aktiviteten finns i [Översikt över återkommande aktiviteter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
 
    ![](assets/recurring-tasks-in-task-list-nwe-350x87.png)
 
@@ -143,4 +143,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!IMPORTANT]
    >
-   >Om du ändrar den överordnade upprepningen efter att de underordnade objekten har ändrats individuellt kan det leda till att informationen skiljer sig mellan de underordnade och den överordnade. Mer information finns i [Översikt över återkommande uppgifter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).
+   >Om du ändrar den överordnade upprepningen efter att de underordnade objekten har ändrats individuellt kan det leda till att informationen skiljer sig mellan de underordnade och den överordnade. Mer information finns i [Översikt över återkommande aktiviteter](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md).

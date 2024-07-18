@@ -17,15 +17,15 @@ ht-degree: 0%
 Den här sidan innehåller information om de funktioner som ingår i den andra utgåvan av kvartalet 2024. Dessa förbättringar gjordes tillgängliga i produktionsmiljön för alla kunder med 24.4-utgåvan den 10 och 11 april 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
-I stället för ett webbinarium om en release bjuder vi in dig till [register för Adobe Summit](https://summit.adobe.com/na/) för att se följande Workfront-sessioner:
+I stället för ett webbseminarium om en release bjuder vi in dig till [registrering för Adobe Summit](https://summit.adobe.com/na/) för att se följande Workfront-sessioner:
 
 [Framtiden för Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) den 26 mars 2024 för att få en smygtitt på framtiden för strategisk planering och arbetsflöde. Läs om hur Workfront team avser att ta itu med affärsmöjligheterna under hela marknadsföringscykeln - allt med en AI-strategi som sätter fokus på att automatisera arbetet, förenkla användarupplevelser och öka produktiviteten.
 
-[Presentera marknadsföringskalendrar och verktyg för komplett kampanjplanering](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) den 28 mars 2024, för att lära dig mer om nya produktfunktioner som är utformade för att göra det möjligt för organisationen att hantera och visualisera operativa livscykler från början till slut.
+[Presentera marknadsföringskalendrar och verktyg för kampanjplanering från början till slut](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) den 28 mars 2024 för att lära dig mer om nya produktfunktioner som är utformade för att hjälpa er att hantera och visualisera operativa livscykler från början till slut.
 
-Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} med högdagrar i version 24.4.
+Du kan även [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} med högdagrar i version 24.4.
 
-<span class="preview">Funktioner som ligger utanför cykeln (de som lanserades till Produktion före den andra utgåvan av kvartal 2024) är markerade i gult.</span>
+<span class="preview">Funktioner utanför cykeln (de som släpps till produktion före den andra utgåvan av kvartal 2024) är markerade i gult.</span>
 
 >[!IMPORTANT]
 >
@@ -67,7 +67,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i formulärdesignerns förhandsgranskningsläge</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Visningslogik och hopplogik är nu tillgängliga i förhandsgranskningsläget för formulärdesignern</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Med den anpassade betaversionen av formulär kan du nu testa visningslogiken och hoppa över logiken i förhandsgranskningsläget. Tidigare visades alla fält i förhandsgranskningen även när logiken tillämpades.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -83,7 +83,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Företag och användare har nu stöd för avancerade anpassade formulärfält</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Företag och användare stöder nu avancerade anpassade formulärfält</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Avancerade anpassade formulärfunktioner som externa sökningsfält och inbyggda Workfront-fält är nu tillgängliga när du bifogar ett anpassat formulär till ett företag eller en användare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -99,7 +99,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Integrering med JumpSite är nu tillgängligt för nya pakettyper</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSite-integrering är nu tillgänglig för nya pakettyper</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Den befintliga JumpSeat-integreringen är nu tillgänglig för konton med någon av de nya pakettyperna (dvs. Select, Prime eller Ultimate). Du måste fortfarande ha en aktiv JumpSite-prenumeration för att kunna aktivera integreringen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -118,7 +118,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront inbyggda fält är tillgängliga i betaversionen av formulärdesignern</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Inbyggda Workfront-fält är tillgängliga i betaversionen av formulärdesignern</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Nu kan du lägga till fält som är inbyggda i Workfront i dina anpassade formulär. Med den här nya fälttypen kan du ordna och presentera data för användarna på ett logiskt sätt, utan att behöva återskapa befintliga data i anpassade fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -153,7 +153,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik finns nu i betaversionen av formulärdesignern</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Hopplogik och visningslogik är nu tillgängliga i formulärdesignerns beta</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Nu kan du redigera befintlig visnings- och hopplogik och lägga till ny logik i anpassade formulär i betaversionen av formulärdesignern. Ett lättanvänt logiskt verktyg hjälper dig att definiera vilka fält som ska visas eller hoppas över baserat på val i formuläret.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -177,7 +177,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
 
 >[!IMPORTANT]
 >
->Funktionerna i **Förbättrad dokumenthantering** ingår i en fasad version och är endast tillgängliga för vissa kunder.
+>De funktioner som listas i **Förbättringar av dokumenthanteringen** ingår i en fasversion och är bara tillgängliga för specifika kunder.
 
 <table>
             <col style="width: 50%;" />
@@ -195,7 +195,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till en deadline för dokumentgranskningar och godkännanden</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till en deadline i en dokumentgranskning och godkännanden</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Du kan nu ange en tidsgräns för användare eller team som ska granska eller godkänna ett dokument. Granskare och godkännare får e-postmeddelanden 72 timmar och sedan 24 timmar före den angivna tidsgränsen. Tidsgränsen visas även i widgeten Godkännanden i den nya delen Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -211,7 +211,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använda godkännandemallar</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Skapa och använd godkännandemallar</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Nu kan du skapa godkännandemallar under Konfigurera för att effektivisera gransknings- och godkännandeprocessen. Med godkännandemallar kan du göra gransknings- och godkännandeprocessen mer upprepningsbar genom att
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en och samma plats</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Visa information om alla dina godkännanden på en gång</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla godkännanden för att hjälpa dig att hantera och analysera dina godkännandebegäranden i en överblick:
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ som lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Kolumnalternativ har lagts till i administratörskontroller för nytt hem med layoutmallar</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Administratörer kan nu anpassa vilka kolumner som är tillgängliga för användare i specifika nya Home-widgetar med hjälp av layoutmallar. Alternativen är att dölja eller visa standardkolumner och lägga till befintliga fält som nya kolumner.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -324,7 +324,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av det automatiserade arbetsflödet för att skapa mappar i Adobe Experience Manager-integreringen</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har uppdaterat arbetsflödet för länkade mappar i Adobe Experience Manager så att dina Adobe Experience Manager-mappar bättre motsvarar dina behov.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -455,7 +455,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nya kommentarfunktioner i iterationer</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Nya kommentarupplevelser har lagts till i iterationer</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>För att ge en enhetlig upplevelse i hela programmet har vi lagt till den nya kommentarsfunktionen i iterationer. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -497,7 +497,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Home-widgetar</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig i snabbåtgärder för nya Hem-widgetar</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har nu lagt till den nya kommentarsfunktionen till snabbåtgärdsknappen"Lägg till ny uppdatering" i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nya Hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -543,7 +543,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Fliken Systemaktivitet i den nya kommentarsfunktionen stöder skrivskyddade kommentarer</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Fliken Systemaktivitet på den nya kommentarsfunktionen stöder skrivskyddade kommentarer</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfunktionen fylls nu i på fliken Systemaktivitet i den nya kommentarsupplevelsen som skrivskyddad. Du kan inte svara på systemaktivitetsposter i den nya kommentarsfunktionen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -581,7 +581,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på panelen Sammanfattning</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny kommentarsström är nu tillgänglig på sammanfattningspanelen</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -619,7 +619,7 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under andra kvartalet 2024</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tidsramen för andra kvartalet 2024</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för andra kvartalet 2024. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -642,15 +642,15 @@ Du kan också [visa en PDF-fil](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än den andra utgåvan av kvartal 2024. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än den andra utgåvan av kvartal 2024. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
 Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### Förbättringar av Workfront-korrektur
+### Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-mål
 
@@ -660,7 +660,7 @@ Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det h
 
 För API-version 18 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -670,5 +670,5 @@ Mer information om underhållsuppdateringar som gjordes under andra kvartersvers
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 

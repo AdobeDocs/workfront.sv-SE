@@ -9,12 +9,12 @@ feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
 
-# Visa: visa namnet på överordnade uppgifter som versaler
+# Visa: namn på överordnade uppgifter som versaler
 
 Du kan lägga till den här kolumnen i en uppgiftsvy om du vill visa namnet på den överordnade uppgiften med versaler.
 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra enskilda vyer</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,13 +58,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här skapar du den här kolumnen i en uppgiftsvy:
 
 1. Gå till en lista med uppgifter.
-1. Från **Visa** nedrullningsbar meny, välja **Anpassa vy**.\
+1. Välj **Anpassa vy** i listrutan **Visa**.\
    eller\
-   Från **Visa** nedrullningsbar meny, välja **Ny vy**.
+   Välj **Ny vy** i listrutan **Visa**.
 
-1. I **Förhandsgranska kolumn** klickar du på rubriken för den kolumn som visar aktivitetsnamnet i listan.
-1. Klicka **Växla till textläge**.
-1. För musen över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod: <pre>descriptionkey=name<br>displayName=Aktivitetsnamn<br>textmode=true<br>valueExpression=IF({numberOfChildren}>&quot;0&quot;,UPPER({name}),{name})<br>valueFormat=HTML<br>width=150<br></pre>
+1. Klicka på rubriken för kolumnen som visar aktivitetsnamnet i listan i området **Förhandsvisa kolumn**.
+1. Klicka på **Växla till textläge**.
+1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod: <pre>descriptionkey=name<br>displayname=Aktivitetsnamn<br>textmode=true<br>valueExpression=IF({numberOfChildren}>&quot;0&quot;,UPPER({name}),{name})<br>valueFormat=HTML<br>width=150<br></pre>
 
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.

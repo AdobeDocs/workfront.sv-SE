@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Måste avslutas den'
+title: 'Aktivitetsbegränsningsöversikt: Måste avslutas den'
 description: Du kan använda uppgiftsbegränsningen Måste vara klar (MFO) för att schemalägga att en uppgift avslutas ett visst datum.
 author: Alina
 feature: Work Management
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Måste avslutas
+# Översikt över aktivitetsbegränsning: Måste avslutas
 
 Du kan använda uppgiftsbegränsningen Måste vara klar (MFO) för att schemalägga att en uppgift avslutas ett visst datum.
 
-Begränsningen Måste avslutas den schemalägger en aktivitet som ska avslutas exakt vid den tidpunkt och det datum som du anger i **Planerat slutförandedatum** fält.
+Begränsningen Måste avslutas den schemalägger en aktivitet att avslutas exakt vid den tidpunkt och det datum som du anger i fältet **Planerat slutförandedatum**.
 
 >[!TIP]
 >
@@ -29,9 +29,9 @@ Begränsningen Måste avslutas den schemalägger en aktivitet som ska avslutas e
 Tänk på följande när du schemalägger en aktivitet med villkoret Måste sluta den:
 
 * Föregående relationer tvingar inte aktiviteten att schemaläggas om. Adobe Workfront ignorerar i stort sett föregående relationer.
-* Uppgiften visas som **Risk** om föregångarna börjar springa bakom eller är sena.
+* Aktiviteten visas som **Vid risk** om föregående aktiviteter börjar köras efter eller är sena.
 
-* När du flyttar eller kopierar en uppgift med en MFO-begränsning till ett annat projekt kan villkoret för aktiviteten eller datumen i projektet ändras beroende på vilka villkorsdatumen är och vilka datum projektet börjar och slutförs. Följande scenarier finns:
+* När du flyttar eller kopierar en uppgift med en MFO-begränsning till ett annat projekt kan begränsningen för aktiviteten eller datumen i projektet ändras beroende på vilka villkorsdatumen är och vilka datum projektet börjar och slutförs. Följande scenarier finns:
 
    * När målprojektet är schemalagt från start:
 
@@ -40,13 +40,14 @@ Tänk på följande när du schemalägger en aktivitet med villkoret Måste slut
 
       * När målprojektet är schemalagt från slutförande:
 
-         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date ändras aktivitetsbegränsningen till As Late As Possible.
+         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date, ändras aktivitetsbegränsningen till As Late As Possible.
          * När villkorsdatumet för aktiviteten är tidigare än det planerade startdatumet för projektet ändras projektets planerade startdatum så att det matchar startvillkorsdatumet för aktiviteten.
+
       * Oavsett schemat för projektet, när villkorsdatumet för aktiviteten ligger inom projektets start- och slutförandedatum, finns det inga ändringar i aktivitetsbegränsningen eller projektdatumen.
 
-   Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att flytta uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

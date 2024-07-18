@@ -41,7 +41,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem, uppgifter, projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till problem, uppgifter, projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -63,30 +63,30 @@ Innan du börjar måste du:
 ## Bind lösningen av ett problem till en lösning av ett annat problem, en annan uppgift eller ett annat projekt
 
 1. Navigera till ett problem vars lösning du vill koppla till en lösning på ett annat problem eller till lösningen av en uppgift eller ett projekt.
-1. Klicka på **Ärendeinformation** i den vänstra panelen och sedan expandera **Ökning** område.
+1. Klicka på **Utleveransinformation** i den vänstra panelen och utöka området **Översikt**.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Klicka på **Löst av** och välj bland följande typer av matchande objekt:
+1. Klicka på fältet **Löst av** och välj bland följande typer av matchande objekt:
 
    * **Projekt**
-   * **Uppgift**
-   * **Problem**
+   * **Aktivitet**
+   * **Utgåva**
 
    Beroende på vilket objekt du har markerat visas följande fält:
 
-   * **Löser projekt**
-   * **Åtgärdar uppgift**
+   * **Åtgärdar projekt**
+   * **Åtgärdar aktivitet**
    * **Löser problem**
 
-1. Börja skriva namnet på ett specifikt projekt, en viss uppgift eller ett specifikt problem i **Löser projekt**, **Uppgift**, eller **Problem** och sedan klicka på den när den visas i listan.
+1. Börja skriva namnet på ett visst projekt, en viss aktivitet eller ett specifikt problem i fältet **Lösa projekt**, **aktivitet** eller **Problem** och klicka sedan på det när det visas i listan.
 
    >[!NOTE]
    >
    >Du kan inte koppla en problemlösning till den uppgift eller det projekt där problemet finns. Aktiviteten eller projektet för problemet visas inte i fälten Lös uppgift eller Lös uppgift.
 
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Det ursprungliga problemet blir ett löstagbart objekt för det projekt, den uppgift eller det problem som du valde i steg 4 och 5. Detta innebär att det ursprungliga problemet slutförs när det matchande objektet (projektet, aktiviteten eller problemet som du länkade det till) har slutförts.
 

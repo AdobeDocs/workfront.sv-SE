@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till projekt finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Bevilja åtkomst till projekt</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -55,21 +55,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Gå till det projekt som du vill uppdatera villkorstypen för.
 1. Gör något av följande: 
 
-   * Klicka på **Mer** meny ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Redigera**.
-   * Klicka **Projektinformation** i den vänstra panelen.
+   * Klicka på menyn **Mer** ![](assets/qs-more-menu.png) till höger om projektnamnet och klicka sedan på **Redigera**.
+   * Klicka på **Projektinformation** i den vänstra panelen.
 
    ![](assets/update-condition-type-nwe-350x108.png)
 
-1. I **Villkorstyp** väljer du något av följande:
+1. Välj något av följande i fältet **Villkorstyp**:
 
    * **Manuell:** Projektägaren ställer in villkoret för projektet manuellt.
 
-      I det här fallet kan projektägaren uppdatera villkoret för projektet i projekthuvudet eller i avsnittet Projektinformation.
+     I det här fallet kan projektägaren uppdatera villkoret för projektet i projekthuvudet eller i avsnittet Projektinformation.
 
-   * **Status:** Workfront anger villkoret baserat på projektets förloppsstatus. Mer information om hur förloppsstatusen beräknas finns i [Översikt över status för projektförlopp](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Förloppsstatus:** Workfront ställer in villkoret baserat på projektets förloppsstatus. Mer information om hur förloppsstatusen beräknas finns i [Översikt över projektförloppsstatus](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-1. Klicka **Spara** när du ändrar villkorstypen i rutan Redigera projekt.
+1. Klicka på **Spara** när du ändrar villkorstypen i rutan Redigera projekt.
 
-   Klicka **Spara ändringar** när du ändrar villkorstypen i avsnittet Projektinformation.
+   Klicka på **Spara ändringar** när du ändrar villkorstypen i avsnittet Projektinformation.
 
  

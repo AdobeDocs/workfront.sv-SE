@@ -92,7 +92,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hantera en tabellvy {#manage-a-table-view}
 
@@ -106,7 +106,7 @@ Så här hanterar du en tabellvy:
 
    ![](assets/table-view-example.png)
 
-1. (Valfritt) Klicka på **Radhöjd** väljer du sedan bland följande alternativ för att ändra höjden på tabellraderna:
+1. (Valfritt) Klicka på **Radhöjd** och välj sedan bland följande alternativ för att ändra höjden på tabellraderna:
    * Kort
    * Medium
    * Hög
@@ -129,7 +129,7 @@ Att lägga till kolumner i en vy är detsamma som att lägga till fält i en pos
 
 Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
-1. Gå till en posttypssida och välj en **Tabell** i listrutan.
+1. Gå till en posttypssida och välj en **tabellvy** i listrutan.
 
    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
@@ -140,7 +140,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    * Ta kolumnrubriken och dra den till önskad plats. Kolumnen som du flyttade snabbt visas med en blå bakgrund tills du gör andra justeringar i tabellen.
 
-   * Klicka **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför **Fältens synlighet och ordning** för att stänga den.
+   * Klicka på **Fält** i tabellens verktygsfält, dra och släpp fälten i önskad ordning och klicka sedan utanför rutan **Fältens synlighet och ordning** för att stänga den.
 
      ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -149,7 +149,7 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
      >
      >* Fältet Namn är som standard alltid det första fältet i tabellvyn. Detta betraktas som ett primärt fält.
      >
-     >* Du kan inte flytta fältet Namn till en annan plats om du inte anger ett annat fält som primärt fält. Mer information finns i steg 4. <!--accurate?-->
+     >* Du kan inte flytta fältet Namn till en annan plats om du inte anger ett annat fält som primärt fält. Om du vill ha mer information kan du fortsätta med steg 4. <!--accurate?-->
      >
      >
 
@@ -159,11 +159,11 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
    ![](assets/set-as-primary-field-option-table-view.png)
 
-1. Klicka **Ange fält** för att bekräfta.
+1. Bekräfta genom att klicka på **Ange fält**.
 
    Fältet blir ett primärt fält, vilket betyder att det visas som den första kolumnen i tabellvyn. Det föregående primära fältet flyttas till den andra kolumnen.
 
-   Primära fält blir postens titel och visas i rubrikområdet på postens sida, och överallt där posterna visas. Postens titel visas till exempel i anslutna fält och i alla vyer. Mer information om primära fält finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
+   Primära fält blir postens titel och visas i rubrikområdet på postens sida, och överallt där posterna visas. Postens titel visas till exempel i anslutna fält och i alla vyer. Mer information om primära fält finns i [Översikt över primära fält](/help/quicksilver/planning/fields/primary-field-overview.md).
 
 1. Klicka och dra kolumnseparationslinjerna och släpp dem på önskad plats för att öka kolumnbredden.
 
@@ -171,22 +171,22 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
    >
    >De ändringar du gör i kolumnbredden och kolumnordningen är permanenta och synliga för alla användare som har åtkomst till posttypen.
 
-1. Håll pekaren över kolumnrubriken, klicka på nedåtpilen och klicka sedan på **Dölj fält**
+1. Håll markören över kolumnrubriken, klicka på nedåtpilen och klicka sedan på **Dölj fält**
 
    eller
 
-   Klicka **Fält** i tabellens verktygsfält och avaktiverar alternativet som är kopplat till de fält (eller kolumner) som du vill dölja. The **Fältens synlighet och ordning** visas.
+   Klicka på **Fält** i tabellverktygsfältet och inaktivera växlingen som är kopplad till de fält (eller kolumner) som du vill dölja. Rutan **Fältsynlighet och -ordning** visas.
 
    >[!TIP]
    >
    >Antalet dolda fält visas till vänster om ikonen Fält i verktygsfältet.
 
 
-1. Klicka på **Fält** och aktivera den växlingsknapp som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
+1. Klicka på ikonen **Fält** och aktivera växlingen som är kopplad till de fält som du vill visa i tabellens kolumner. Alla fält visas som standard.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på **Sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och fältet med rätt matchning markeras.
 
       ![](assets/search-box-with-results-blue-outline-table-view.png)
 
@@ -194,11 +194,11 @@ Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
       Du kan inte använda nyckelord som är kopplade till fält som är dolda i tabellvyn.
 
-   1. Tryck **Retur** på tangentbordet för att gå till nästa sökbara fält.
+   1. Tryck på **Retur** på tangentbordet för att gå till nästa sökbara fält.
 
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
 
-   1. Klicka på **x** -ikonen i sökrutan för att rensa sökordet.
+   1. Klicka på ikonen **x** i sökrutan för att ta bort söknyckelordet.
 
 
 ### Lägga till rader (eller poster) {#add-rows}
@@ -207,18 +207,18 @@ Raderna i en tabellvy visar enskilda poster av den valda posttypen.
 
 Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 
-1. Gå till en posttypssida och välj en **Tabell** i listrutan.
+1. Gå till en posttypssida och välj en **tabellvy** i listrutan.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till poster (eller rader) enligt beskrivningen i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har behörigheten Visa eller högre på arbetsytan.
 
-1. (Valfritt) Lägg till en miniatyrbild för varje post och klicka på **Fält** i tabellens övre högra hörn och välj sedan alternativet för **Miniatyrbild** för att visa det till vänster om det primära fältet. Det är som standard avmarkerat.
+1. (Valfritt) Lägg till en miniatyrbild för varje post och klicka på **Fält** i tabellens övre högra hörn. Markera sedan alternativet för att visa fältet **Miniatyrbild** till vänster om det primära fältet. Det är som standard avmarkerat.
 
    Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp sedan **handtag** icon ![](assets/handle-icon.png) till vänster om posten för att ändra ordning på raderna.
+1. (Valfritt) Markera en eller flera poster i en rad och dra och släpp **handtagsikonen** ![](assets/handle-icon.png) till vänster om posten för att ordna om raderna.
 
    >[!NOTE]
    >
@@ -260,11 +260,11 @@ Så här lägger du till ett filter i en tabellvy:
 
 1. Skapa en tabellvy för en posttypsida, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 1. Markera en tabellvy och klicka sedan på **Filter** i tabellens övre högra hörn.
-1. Klicka **Lägg till villkor** och lägga till följande information:
+1. Klicka på **Lägg till villkor** och lägg till följande information:
 
    * **Markera ett fält** som du vill filtrera efter <!-- the tip below might change-->
 
-   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilket villkor fältet måste uppfylla
+   * **Välj ett alternativ** (eller en filtermodifierare) för att definiera vilken typ av villkor fältet måste uppfylla
 
      Tabellen nedan visar tillgängliga modifierare för varje typ av fält.
 
@@ -336,16 +336,16 @@ Så här lägger du till ett filter i en tabellvy:
 
    Det finns ingen gräns för hur många filtreringsvillkor du kan lägga till.
 
-1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett filteralternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om filterikonen.
+1. (Valfritt) Klicka på **Lägg till villkor** om du vill lägga till ytterligare ett filtreringsalternativ och upprepa stegen ovan. Antalet filter som används visas till vänster om filterikonen.
 1. Klicka på följande operatorer för att ange hur filtervillkoren ska kopplas och användas:
 
    * **Och**: Alla angivna villkor måste vara uppfyllda.
-   * **eller**: Alla angivna villkor måste vara uppfyllda. Det här är standardalternativet.
+   * **Eller**: Alla angivna villkor måste vara uppfyllda. Det här är standardalternativet.
 
    Postlistan filtreras automatiskt.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Valfritt) Klicka på **Filter** och klickar sedan på **x** för att ta bort ett filter. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Valfritt) Klicka på **Filter** och sedan på ikonen **x** för att ta bort ett filter. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Lägg till grupperingar {#add-groupings}
 
@@ -372,12 +372,12 @@ Tänk på följande:
 
 Så här lägger du till en gruppering:
 
-1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka **Gruppering** i tabellvyns övre högra hörn.
+1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klicka på **Gruppering** i tabellvyns övre högra hörn.
 
    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** söker du efter ett annat fält och klickar sedan på det när det visas i listan.
+1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
 
    Grupperingen tillämpas automatiskt på tabellen och posterna visas under grupperingsseparationslinjen.
 
@@ -387,14 +387,14 @@ Så här lägger du till en gruppering:
 
    ![](assets/grouping-applied-in-table-view.png)
 
-1. (Valfritt) I **Gruppera poster efter** klickar du på **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
+1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
    eller
 
-   Klicka **Rensa alla** om du vill ta bort alla fält.
+   Klicka på **Rensa alla** om du vill ta bort alla fält.
 
-1. Klicka utanför **Gruppera poster efter** för att stänga den.
-1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster, och sedan uppdatera sidan för att lägga till den nya posten i rätt gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
+1. (Valfritt) Klicka på **+ Ny post** i slutet av en gruppering för att lägga till nya poster. Uppdatera sedan sidan för att lägga till den nya posten i lämplig gruppering. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Lägg till en sortering {#sort-information}
 
@@ -425,16 +425,16 @@ Tänk på följande när du sorterar poster i tabellvyn:
 
 * Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar en sortering för en aktivitetsposttyp, och aktiviteten är ansluten till produktposttypen som är kopplad till Campaign-posttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets status i den sortering du skapar för aktivitetsposttypen.
 
-Sortera <!--ungrouped (add this when sorting for groupings will be available--> poster, gör följande:
+Så här sorterar du <!--ungrouped (add this when sorting for groupings will be available--> poster:
 
 1. Skapa en tabellvy enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka på **Sortera** icon ![](assets/sort-icon.png) i tabellens övre högra hörn
+1. Klicka på ikonen **Sortera** ![](assets/sort-icon.png) i tabellens övre högra hörn
 
    eller
 
-   Håll markören över namnet på en kolumn i tabellvyn, klicka på nedåtpilen till höger om kolumnrubriknamnet och klicka sedan på **Sortera efter det här fältet**. Fältet läggs till som en sorteringsmarkering i sorteringsikonen i tabellvyns övre högra hörn.
+   Håll markören över namnet på en kolumn i tabellvyn, klicka på nedåtpilen till höger om kolumnrubrikens namn och klicka sedan på **Sortera efter det här fältet**. Fältet läggs till som en sorteringsmarkering i sorteringsikonen i tabellvyns övre högra hörn.
 
-1. (Villkorligt) I dialogrutan **Sortera poster efter** klickar du på ett av de föreslagna fälten eller klickar på **Välj ett annat fält** och söker efter ett annat fält och klickar sedan på det när det visas i listan.
+1. (Villkorligt) I rutan **Sortera poster efter** klickar du på ett av de föreslagna fälten eller klickar på **Välj ett annat fält** och söker efter ett annat fält. Klicka sedan på det när det visas i listan.
 
    Sorteringen tillämpas automatiskt på tabellvyn och posterna visas sorterade efter de valda villkoren.
 
@@ -444,13 +444,13 @@ Sortera <!--ungrouped (add this when sorting for groupings will be available--> 
 
    Antalet fält som du sorterar efter visas till vänster om sorteringsikonen i det övre högra hörnet av verktygsfältet. Du kan bara välja fält som visas i kolumnerna i tabellvyn.
 
-1. (Valfritt) I dialogrutan **Sortera poster efter** klickar du på **x** till höger om ett sorteringsfält för att ta bort sorteringen
+1. (Valfritt) I rutan **Sortera poster efter** klickar du på ikonen **x** till höger om ett sorteringsfält för att ta bort sorteringen
 
    eller
 
-   Klicka **Rensa alla** om du vill ta bort alla fält från sorteringen.
+   Klicka på **Rensa alla** om du vill ta bort alla fält från sorteringen.
 
-1. Klicka utanför **Sortera poster efter** för att stänga den.
+1. Klicka utanför rutan **Sortera poster efter** för att stänga den.
 
    ![](assets/sorting-in-table-view.png)
 

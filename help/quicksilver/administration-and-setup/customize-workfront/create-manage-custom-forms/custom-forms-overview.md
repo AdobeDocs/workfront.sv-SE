@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -29,10 +29,11 @@ Du kan t.ex. bifoga ett anpassat formulär med namnet&quot;Marketing Content Res
 
 ## Skapa ett eget formulär
 
-Det finns två alternativ för att skapa ett anpassat formulär i [!DNL Workfront]. Du kan använda det äldre anpassade formulärverktyget eller den nya formulärdesignern:
+Formulärdesignern har en arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt. Du kan också dra och släppa fält i avsnitten när du utformar formuläret.
 
-* [Äldre anpassad formulärbyggare](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Formulärdesigner](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Exempelformulärdesigner](assets/form-designer-example.png)
 
 ## Anpassade fält och widgetar
 
@@ -42,15 +43,17 @@ I ett anpassat formulär kan du skapa ytterligare fält som uppmanar användarna
 
 Du kan lägga till följande typer av anpassade fält i ett anpassat formulär i Workfront:
 
-* Enkelradigt textfält eller enkelradig text i formulärdesignern
-* Stycketextfält eller Stycketext i formulärdesignern
-* Textfält med formatering eller Text med formatering i formulärdesignern
+* Enkelradig text
+* Stycketext
+* Text med formatering
 * Listruta
-* Extern sökning - endast tillgängligt i formulärdesignern
+* Flervalsmeny
+* Extern sökning
+* Ursprungligt fält
 * Typeahead
 * Beräknat
-* Datum- eller datumfält i formulärdesignern
-* Kryssrutor
+* Datumfält
+* Kryssrutegrupp
 * Alternativknappar
 * Beskrivning
 * Avsnittsbrytning
@@ -58,6 +61,10 @@ Du kan lägga till följande typer av anpassade fält i ett anpassat formulär i
 * Bild
 * PDF
 * Video
+
+>[!NOTE]
+>
+>Om du vill spåra fältändringar i uppdateringsflöden går du till Inställningar > Gränssnitt > Uppdatera feeds. Mer information finns i [Konfigurera systemuppdateringar](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objekt där användare kan bifoga ett anpassat formulär
 
@@ -78,8 +85,7 @@ Användare kan bifoga anpassade formulär till följande objekttyper:
 * Upprepning
 * Faktureringspost
 
-Mer information om hur du bifogar anpassade formulär till objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Mer information om hur du bifogar anpassade formulär till objekt finns i [Lägga till ett anpassat formulär till ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-Mer information om vad som händer med anpassade formulär när du konverterar ett objekt finns i [Överför anpassade formulärdata vid konvertering av ett objekt](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
+Mer information om vad som händer med anpassade formulär när du konverterar ett objekt finns i [Överför anpassade formulärdata när du konverterar ett objekt](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 

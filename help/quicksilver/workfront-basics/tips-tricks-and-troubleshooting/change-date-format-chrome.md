@@ -2,8 +2,8 @@
 filename: change-date-format-chrome
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Ändra format för datum i [!DNL Adobe Workfront]
-description: Ändra datumformatet för datumen i [!DNL Adobe Workfront] du måste ändra språkinställningarna i webbläsaren.
+title: Ändra format för datum i  [!DNL Adobe Workfront]
+description: Om du vill ändra datumformatet för datumen i [!DNL Adobe Workfront] måste du ändra språkinställningarna i webbläsaren.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
@@ -17,35 +17,35 @@ ht-degree: 0%
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
-Du kan ändra datumformatet i [!DNL Adobe Workfront], till exempel [!UICONTROL Planned Completion Date], [!UICONTROL Actual Completion Date], eller [!UICONTROL Projected Completion Date].
+Du kan ändra datumformat i [!DNL Adobe Workfront], till exempel [!UICONTROL Planned Completion Date], [!UICONTROL Actual Completion Date] eller [!UICONTROL Projected Completion Date].
 
-Du kan till exempel ändra ett datumformat från _DD/MM/ÅÅÅÅ_ till _MM/DD/ÅÅÅ_ eller vice versa.
-Du kan också ändra datumformatet från _MM/DD/YY_ till _Mån DD, ÅÅÅÅ_.
+Du kan till exempel ändra ett datumformat från _DD/MM/ÅÅÅÅ_ till _MM/DD/ÅÅÅÅ_ eller vice versa.
+Du kan också ändra datumformatet från _MM/DD/ÅÅ_ till _MÅNAD DD, ÅÅÅÅ_.
 
 Du kan ändra datumformat i Workfront på följande sätt, beroende på vilka ändringar du vill se och var du vill se ändringarna.
 
-* Ändra alla datumformat för alla sidor i [!DNL Workfront] beroende på var du befinner dig och vilket språk du använder måste du ändra språkinställningarna i webbläsaren.
+* Om du vill ändra alla datumformat för alla sidor i [!DNL Workfront] beroende på plats och språk måste du ändra språkinställningarna i webbläsaren.
 
-  Om standardspråket i webbläsaren till exempel är inställt på *[!UICONTROL English (United States)]* visas datumen i följande format:
+  Om standardspråket i webbläsaren till exempel är *[!UICONTROL English (United States)]* visas datumen i följande format:
 
    * MM/DD/ÅÅÅ
    * Mån DD, ÅÅÅ
 
-  Ändra språkinställningarna i [!DNL Chrome] eller någon annan webbläsare måste du ändra inställningarna för den webbläsaren. Stegen för att ändra en webbläsares inställningar varierar från webbläsare till webbläsare. Se webbläsarens [!UICONTROL Help], [!UICONTROL Preferences], eller [!UICONTROL Settings] för att lära dig hur du ändrar inställningarna.
+  Om du vill ändra språkinställningarna i [!DNL Chrome] eller någon annan webbläsare måste du ändra inställningarna för den webbläsaren. Stegen för att ändra en webbläsares inställningar varierar från webbläsare till webbläsare. Gå till [!UICONTROL Help], [!UICONTROL Preferences] eller [!UICONTROL Settings] i din webbläsare och lär dig hur du ändrar inställningarna.
 
-* Om du vill ändra datumformatet endast i rapporter och vyer måste du uppdatera [!UICONTROL Field Format] i [!UICONTROL Advanced Options] området i en kolumn, när du skapar rapporten eller vyn. Detta ändrar inte datumformatet beroende på plats eller språk. Det ändrar datumformatet i kontexten för samma plats eller språk.
+* Om du bara vill ändra datumformatet i rapporter och vyer måste du uppdatera inställningen [!UICONTROL Field Format] i området [!UICONTROL Advanced Options] i en kolumn när du skapar rapporten eller vyn. Detta ändrar inte datumformatet beroende på plats eller språk. Det ändrar datumformatet i kontexten för samma plats eller språk.
 
   ![](assets/field-format-in-advanced-options-of-a-view-highlighted.png)
 
   Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Om du vill ändra datumformatet i alla utgående e-postmeddelanden för hela organisationen måste du uppdatera [!UICONTROL Default Email Locale] i [!UICONTROL Customer Info] område i [!UICONTROL Setup].
+* Om du vill ändra datumformatet i alla utgående e-postmeddelanden för hela organisationen måste du uppdatera inställningen [!UICONTROL Default Email Locale] i området [!UICONTROL Customer Info] i [!UICONTROL Setup].
 
   ![](assets/default-email-locale-field.png)
 
-  Mer information finns i [Konfigurera grundläggande information för ditt system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  Mer information finns i [Konfigurera grundläggande information för systemet](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-* Om du vill ändra formatet för alla datum i alla utgående e-postmeddelanden för en enskild användare måste du uppdatera [!UICONTROL Email Locale] i [!UICONTROL Edit Person] när du redigerar en användares profil.
+* Om du vill ändra formatet för alla datum i alla utgående e-postmeddelanden för en enskild användare måste du uppdatera inställningen [!UICONTROL Email Locale] i rutan [!UICONTROL Edit Person] när du redigerar en användarprofil.
 
   ![](assets/email-locale-for-user-profile-highlighted.png)
 

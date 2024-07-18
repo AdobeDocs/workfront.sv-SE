@@ -41,7 +41,7 @@ Du kan dela följande objekt:
 
 * Vyer
 
-  Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor. Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+  Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 Du kan dela en arbetsyta eller vy med följande enheter:
 
@@ -54,7 +54,7 @@ Du kan dela en arbetsyta eller vy med följande enheter:
 
 * Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra till eller hantera arbetsytor och deras objekt.
 
-  Information om hur licenstyper påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+  Mer information om hur licenstyperna påverkar behörighetsnivåer för Workfront Planning finns i [Översikt över licenstypen när du använder Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 * Systemadministratörer kan hantera alla arbetsytor i systemet, inklusive de som de inte skapade.
 * Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan endast ges behörighet för att hantera en vy.
 * Du kan dela en länk till en arbetsyta eller till en vy med andra.

@@ -40,13 +40,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Ändra storlek på nedladdningsdiagrammet
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan antingen välja en ny [!UICONTROL Scrum] i listrutan eller sök efter ett team i sökfältet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt [!UICONTROL Scrum]-team i listrutan eller sök efter ett team i sökfältet.
 
 1. Gå till den iteration som innehåller det nedladdningsdiagram som du vill ändra storlek på.
 1. Håll markören över den nedersta linjen i nedladdningsdiagrammet och dra diagrammet till önskad storlek.\
@@ -54,9 +54,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Komprimera nedladdningsschemat
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan antingen välja en ny [!UICONTROL Scrum] i listrutan eller sök efter ett team i sökfältet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt [!UICONTROL Scrum]-team i listrutan eller sök efter ett team i sökfältet.
 
 1. Gå till den iteration som innehåller det nedladdningsdiagram som du vill komprimera.
-1. Klicka på pilikonen till vänster om [!UICONTROL Percent Complete] statusfält.
+1. Klicka på pilikonen till vänster om statusfältet [!UICONTROL Percent Complete].

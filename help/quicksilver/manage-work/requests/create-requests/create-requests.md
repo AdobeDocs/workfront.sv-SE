@@ -34,7 +34,7 @@ Mer information om hur du skapar, skickar eller skickar e-postbegäranden till W
 * [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 * [Kopiera och skicka begäranden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)
-* [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
+* [Gör det möjligt för användare att e-posta ett problem till ett begärandeköprojekt](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md)
 * [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [Dela en länk till en begärandekö](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [Ta bort ett begärandeutkast](../../../manage-work/requests/create-requests/delete-request-draft.md)

@@ -90,28 +90,28 @@ Du kan svara på en kommentar i tråden för ett objekt som du kan visa, eller s
 Svara på en kommentar i uppdateringsavsnittet för ett objekt liknar svaret för de flesta objekt i Workfront.
 
 1. Gå till det objekt som du vill lägga till ett svar på.
-1. Klicka **Uppdateringar** och klickar sedan på **Kommentar** -fliken för objektet och hitta den kommentar eller det svar som du vill svara på
+1. Klicka på **Uppdateringar** och sedan på fliken **Kommentarer** för objektet och leta reda på kommentaren eller svaret som du vill svara på
 
    eller
 
-   Klicka på **Alla** tabbtangenten och klicka sedan på **Svara i kommentarer** för att öppna kommentaren på fliken Kommentarer och svara på den. Du kan inte svara på fliken Alla.
+   Klicka på fliken **Alla** och sedan på **Svara i kommentarer** för att öppna kommentaren på fliken Kommentarer och svara på den. Du kan inte svara på fliken Alla.
 
-1. (Valfritt) Om du vill ta med text från en tidigare uppdatering i ditt svar klickar du på **Mer** i det övre högra hörnet av kommentaren som du vill svara på och klicka sedan på **Offertsvar**. Texten från föregående uppdatering visas i indataområdet, markerat med en lodrät grå linje.
-1. Klicka **Svara**.
+1. (Valfritt) Om du vill ta med text från en tidigare uppdatering i ditt svar klickar du på menyn **Mer** i det övre högra hörnet av kommentaren som du vill svara på och sedan på **Offertsvar** . Texten från föregående uppdatering visas i indataområdet, markerat med en lodrät grå linje.
+1. Klicka på **Svara**.
 
    ![](assets/reply-to-update-empty-box.png)
 
-   Du kan se de användare som aktivt deltar i konversationen längst ned i **Lägg till svar...** och du kan lägga till fler eller ta bort de som inte längre är relevanta. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får ett meddelande varje gång en uppdatering eller ett svar görs för objektet. Du kan också tagga fler användare så att de inkluderas i ditt svar.  Om du vill tagga fler användare läser du [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Du kan se de användare som aktivt deltar i konversationen längst ned i rutan **Lägg till svar..** och du kan lägga till fler eller ta bort de som inte längre är relevanta. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får ett meddelande varje gång en uppdatering eller ett svar görs för objektet. Du kan också tagga fler användare så att de inkluderas i ditt svar.  Mer information om hur du taggar fler användare finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    >[!TIP]
    >
-   >   Om du vill lägga till fler svar i ett befintligt svar kan du börja skriva i **Lägg till svar ...** eller klicka **Svara** på den ursprungliga kommentaren. Svaret läggs till i slutet av tråden.
+   >   Om du vill lägga till ytterligare svar i ett befintligt svar kan du börja skriva i rutan **Lägg till svar ...** eller klicka på **Svara** på den ursprungliga kommentaren. Svaret läggs till i slutet av tråden.
 
 1. Börja skriva ditt svar och använd eventuella ytterligare alternativ från verktygsfältet RTF. Mer information om hur du använder RTF eller andra uppdateringsfunktioner finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klicka **Skicka** för att spara svaret.
+1. Klicka på **Skicka** för att spara svaret.
 
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av kommentaren som du vill svara på om du vill ha fler alternativ för att hantera svaret. Mer information finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren som du vill svara på om du vill ha fler alternativ för att hantera svaret. Mer information finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

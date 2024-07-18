@@ -18,9 +18,9 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla förbättringar som gjorts i Adobe Workfront Fusion under veckan 26 juli 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Förenklade moduler i Salesforce-kopplingen
 
@@ -36,5 +36,5 @@ Mer information finns i [Salesforce-moduler](../../../workfront-fusion/apps-and-
 
 Medgivandeskärmarna för anslutningar till Adobe Workfront Fusion har nu uppdaterats. Nu kan du se de specifika åtgärder och områden som anslutningarna har åtkomst till, så att du bättre kan förstå vad du tillåter att programmet får åtkomst till.
 
-Mer information finns i [Ansluta modulens app eller webbtjänst till Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) avsnitt i [Skapa ett scenario i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Mer information finns i avsnittet [Ansluta modulens app eller webbtjänst till Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) i [Skapa ett scenario i Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

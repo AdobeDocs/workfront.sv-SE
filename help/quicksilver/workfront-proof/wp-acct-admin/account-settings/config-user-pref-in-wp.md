@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: Konfigurera en användares behörighetsprofil i [!DNL Workfront Proof]
-description: Som [!DNL Workfront] administratör eller [!DNL Workfront Proof] kan du ge användarna behörigheter genom att tilldela dem användarprofiler. När du gör detta är dessa behörigheter tillgängliga för användaren för alla korrektur i systemet.
+title: Konfigurera en användares behörighetsprofil för korrektur i  [!DNL Workfront Proof]
+description: Som  [!DNL Workfront] administratör eller [!DNL Workfront Proof] administratör kan du tilldela behörigheter till användare genom att tilldela dem användarprofiler. När du gör detta är dessa behörigheter tillgängliga för användaren för alla korrektur i systemet.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d3922b1f-6857-40de-ad0b-0cd5997188ff
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Konfigurera en användares behörighetsprofil i [!DNL Workfront Proof]
+# Konfigurera en användares behörighetsprofil för korrektur i [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Som [!DNL Workfront] administratör eller [!DNL Workfront Proof] kan du ge användarna behörigheter genom att tilldela dem användarprofiler. När du gör detta är dessa behörigheter tillgängliga för användaren för alla korrektur i systemet.
+Som [!DNL Workfront]-administratör eller [!DNL Workfront Proof]-administratör kan du tilldela användare behörigheter genom att tilldela dem användarprofiler. När du gör detta är dessa behörigheter tillgängliga för användaren för alla korrektur i systemet.
 
-Mer information om behörighetsprofiler finns i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Mer information om behörighetsprofiler för korrektur finns i [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
@@ -32,12 +32,11 @@ Mer information om behörighetsprofiler finns i [Korrektur för behörighetsprof
 >* Skapa anpassade profiler för användare i organisationen. Mer information finns i [Konfigurera anpassade profiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 
-
 Så här redigerar du en användares behörighetsprofil för korrektur:
 
-1. Gå till [!UICONTROL Account Settings]klickar du på [!UICONTROL Users] -fliken.
+1. Gå till [!UICONTROL Account Settings] och klicka sedan på fliken [!UICONTROL Users].
 1. Klicka på det användarnamn vars behörigheter du vill redigera.
-1. Klicka på [!UICONTROL Permissions profile] och välj en ny behörighetsprofil.
+1. Klicka på listrutan [!UICONTROL Permissions profile] och välj en ny behörighetsprofil.
 
    Behörighetsprofiler är Administratör, Ansvarig, Hanterare och Observer.
 
@@ -51,5 +50,4 @@ Så här redigerar du en användares behörighetsprofil för korrektur:
    >   * Användarens profillogg (endast tillgänglig för den användaren)
 
 
-
-Mer information om aktivitetsloggar finns i [Förstå [!DNL Workfront Proof] Aktivitetsgranskningsspår](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+Mer information om aktivitetsloggar finns i [Förstå  [!DNL Workfront Proof] Aktivitetsgranskningsspåret](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

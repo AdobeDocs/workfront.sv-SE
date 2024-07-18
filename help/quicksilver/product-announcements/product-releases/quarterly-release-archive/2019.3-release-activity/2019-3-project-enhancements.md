@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar som gjorts i Project-förbättringar i version 2019.3. Den gjordes tillgänglig i produktionsmiljön den 19 augusti 2019.
 
-En lista över alla ändringar som gjorts under 2019.3 finns på [Aktivitetsöversikt för 2019.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Ändra visningstypen för ett fält i ett anpassat formulär
 
@@ -29,8 +29,6 @@ Om du t.ex. har skapat ett kryssrutefält kan du ändra det till ett nedrullning
 Om du har skapat ett textfält med en rad kan du ändra det till ett textfält med en rad. Dessa två fälttyper är utbytbara.
 
 Tidigare var du tvungen att skapa ett nytt fält och ta bort det gamla för att ändra visningstypen för ett anpassat fält. Detta krävde överföring av data, som ofta var tidskrävande.
-
-Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) i artikeln [Skapa eller redigera ett anpassat formulär](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
 >[!NOTE]
 >
@@ -81,7 +79,7 @@ Mer information om hur du visar objekt i en lista finns i [Kom igång med listor
 
 Nu kan du redigera Gantt-schemat för uppgiftslistan när Spara automatiskt är aktiverat eller inte. Du kan inte ångra ändringar när växeln är aktiverad. I det här fallet sparas de ändringar du gör i projektet automatiskt.
 
-Mer information om hur du redigerar Gantt-schemat för uppgiftslistor finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Mer information om hur du redigerar Gantt-schemat för uppgiftslistor finns i [Uppdatera information i Gantt-schemat för uppgiftslistor](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Ta bort fliken Problem från Kanban-tavlan
 
@@ -95,7 +93,7 @@ Fliken Problem tas bort från Kanban-tavlan i produktionsutgåvan 19.3. Du kan f
 
 Flikarna Dokument och problem tas bort från sidan Agile-information om upprepning:
 
-* **Dokument:** Alla dokument som lagras på fliken Dokument måste flyttas före produktionsreleasen. Om du inte flyttar dokumenten har du inte längre åtkomst till dem.
+* **Dokument:** Alla dokument som lagras på fliken Dokument måste flyttas före produktionsversionen. Om du inte flyttar dokumenten har du inte längre åtkomst till dem.
 * **Problem:** Den här fliken finns vanligtvis i listrutan Mer. Du kan fortfarande komma åt fliken Problem på fliken Arbetsobjekt i iteration.
 
 ## Överväg eller ignorera användartid i aktivitetsdatum
@@ -173,7 +171,7 @@ När du tilldelar en användare till en aktivitet eller ett problem kan du nu se
 
 Mer information om hur du tilldelar uppgifter finns i [Tilldela uppgifter](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 
-Mer information om ledig tid finns i [Konfigurera ledig tid](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+Mer information om ledig tid finns i [Konfigurera personlig tid ](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ Mer information om ledig tid finns i [Konfigurera ledig tid](../../../../workfro
 Vi har skapat en ny fälttyp i den anpassade formulärbyggaren som kallas Typeahead. I det här fältet kan du lägga till fält som representerar objekt i dina anpassade formulär. För närvarande är User-objektet aktiverat med Typeahead och andra objekt kommer i framtiden.
 
 Tidigare var administratörer tvungna att manuellt underhålla användare som enskilda alternativ på anpassade formulärmenyer.
-
-Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
@@ -209,5 +205,5 @@ När du skickar en ny begäran till en begärandekö anger du namnet på begära
 
 Före den här ändringen anger du namnet på begäran i fältet Ämne.
 
-Mer information om hur du skapar begäranden finns i [Skapa och skicka Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skapar begäranden finns i [Skapa och skicka Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

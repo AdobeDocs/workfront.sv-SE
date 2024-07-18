@@ -3,7 +3,7 @@ content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
 title: Hantera konto och profil
-description: Granska artiklarna i det här avsnittet och lär dig hur du hanterar dina [!DNL Workfront] konto och användarprofil.
+description: Granska artiklarna i det här avsnittet och lär dig hur du hanterar ditt [!DNL Workfront] konto och din användarprofil.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -20,4 +20,4 @@ ht-degree: 0%
 Det här avsnittet innehåller följande underavsnitt:
 
 * [Konfigurera din användarprofil](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
-* [Hantera dina [!DNL Adobe Workfront] konto](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
+* [Hantera ditt [!DNL Adobe Workfront] konto](../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)

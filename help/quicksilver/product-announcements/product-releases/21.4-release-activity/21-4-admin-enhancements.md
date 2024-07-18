@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## För administratörer: Se vilka grupper som är kopplade till en godkännandeprocess
 
@@ -25,7 +25,7 @@ För att du ska få reda på vilka grupper som är kopplade till godkännandepro
 
 Mer information om godkännandeprocesser finns i [Översikt över godkännandeprocessen](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-Mer information om hur du hanterar gruppgodkännandeprocesser finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Mer information om hur du hanterar processer för gruppgodkännande finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Nytt för administratörer: Grupper kan konfigurera egna inställningar för tidrapport och timme
 
@@ -37,21 +37,21 @@ I en stor organisation kan vissa grupper behöva konfigurera tidrapport- och tim
 
 Den här funktionen lades också till nyligen för projektinställningar och för inställningar för uppgifter och utgåvor.
 
-Mer information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport- och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Mer information om hur en gruppadministratör konfigurerar olåsta uppgifter och utfärdar inställningar för en grupp finns i [Konfigurera tidrapport och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Mer information om hur en gruppadministratör konfigurerar olåsta uppgifter och utfärdar inställningar för en grupp finns i [Konfigurera tidrapport- och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Nytt för Workfront-administratörer: Konfigurera layoutmallar för automatiskt tilldelade användare i den nya Workfront-upplevelsen
 
 Nu kan du konfigurera layoutmallar i den nya Workfront-upplevelsen för användare som etablerats automatiskt. I listrutan Workfront-användarattribut, där du mappar användarattribut (Inställningar > System > Enkel inloggning), finns det nu ett nytt menyalternativ på menyn Ny layoutmall som du kan använda för att göra den här konfigurationen. Tidigare kunde du bara konfigurera layoutmallar för användare med automatisk etablering i Workfront Classic.
 
-Instruktioner om hur du mappar användarattribut finns i [Mappa användarattribut och autodistribuera nya användare](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+Instruktioner om hur du mappar användarattribut finns i [Mappa användarattribut och etablera nya användare automatiskt](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
 
 ## Nytt fält visar de grupper som användarna tillhör
 
 Nu är det enkelt att ta reda på vilka grupper användarna tillhör. I en rapport eller vy som listar användare kan du skapa en kolumn med det nya fältet Andra grupper. I det här fältet visas de grupper där varje användare är medlem.
 
-Mer information om hur du använder rapporter och vyer finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) och [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Mer information om hur du använder rapporter och vyer finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) och [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Sidan med information om utkast visar nu en bild
 
@@ -79,7 +79,7 @@ Mer information finns i [Konfigurera en plan](../../../administration-and-setup/
 
 Vi fortsätter att göra det enklare att hantera dina grupper och tillhörande objekt på ett och samma ställe. Nu kan du visa och arbeta med en grupps nyligen borttagna och återställda objekt i området Grupper. Detta gör att du inte behöver gå till området Senast borttaget eller Senast återställt i installationsprogrammet för att hantera dessa objekt. Listan med gruppobjekt som du arbetar med hålls åtskild från andra borttagna och återställda objekt i systemet.
 
-Mer information finns i [Visa och hantera nyligen borttagna objekt i en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) och [Visa och hantera nyligen återställda objekt i en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
+Mer information finns i [Visa och hantera nyligen borttagna objekt för en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md) och [Visa och hantera nyligen återställda objekt för en grupp](../../../administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md).
 
 ## Nytt för gruppadministratörer: Gruppinställningar påverkar nu gruppmallar
 
@@ -102,7 +102,7 @@ Tidigare har projektmallar och projektmallsuppgifter ärvt dessa inställningar 
 
 Om du skapar en mall- eller malluppgift utan en grupp, till exempel från sidan Huvudmallar, ärvs inställningarna ovan från projekt- och uppgiftsinställningarna på systemnivå. Om du senare tilldelar en grupp till mallen eller malluppgiften påverkas den inte av gruppens inställningar.
 
-Mer information finns i avsnittet Använda inställningar för mallar och malluppgifter i artikeln [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+Mer information finns i avsnittet Så här använder du inställningar för mallar och malluppgifter i artikeln [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
 ## Nytt för administratörer: Ta reda på vilka anpassade formulär som använder ett anpassat fält
 
@@ -118,7 +118,7 @@ Nu kan du se till att alla i undergrupperna under gruppen använder samma instä
 
   Omvänt kan du låsa upp en inställning för gruppen. Detta gör att undergruppsadministratörer kan konfigurera den för sina användares unika arbetsflödesbehov för projekt, uppgifter eller utgåvor.
 
-  Mer information finns i [Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+  Mer information finns i [Lås eller lås upp ett projekt, en uppgift eller en utgåva för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 * Om du är Workfront-administratör behöver du inte gå till gruppområdet för att konfigurera en undergrupps inställningar. Under Projektinställningar, Åtgärder och ärenden, eller Inställningar för tidrapporter och timmar, kan du använda sökrutan längst upp på sidan för att hitta undergruppen och konfigurera dess inställningar.
 

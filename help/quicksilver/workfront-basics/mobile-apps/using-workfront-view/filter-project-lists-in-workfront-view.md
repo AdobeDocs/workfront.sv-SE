@@ -2,27 +2,27 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: Filtrera projektlistor i [!DNL Adobe Workfront] Visa
+title: Filtrera projektlistor i  [!DNL Adobe Workfront] vyn
 feature: Get Started with Workfront
-description: Som standard [!DNL Adobe Workfront] Visa visar [!UICONTROL All Projects] lista i [!DNL Workfront]så att alla projekt du har tillgång till visas oavsett status.
+description: Som standard visas  [!DNL Adobe Workfront] Visa [!UICONTROL All Projects]-listan i [!DNL Workfront] så alla projekt som du har åtkomst till visas, oavsett status.
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
 
 # Filtrera projektlistor i [!DNL Adobe Workfront View]
 
-Som standard [!DNL Adobe Workfront View] visar [!UICONTROL All Projects] lista i [!DNL Workfront]så att alla projekt du har tillgång till visas oavsett status.
+Som standard visar [!DNL Adobe Workfront View] listan [!UICONTROL All Projects] i [!DNL Workfront], så alla projekt som du har åtkomst till visas oavsett status.
 
 Du kan filtrera listan med projekt i [!DNL Workfront View] om du bara vill visa projekt som är relevanta för dig. När du har använt filtren förblir projektlistan filtrerad tills nästa gång du loggar in eller tills de ändras.
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den här artikeln:
+Du måste ha följande åtkomst i [!DNL Workfront] för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,11 +41,11 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Filtrera [!UICONTROL projects] lista i [!UICONTROL Workfront View]
+## Filtrera listan [!UICONTROL projects] i [!UICONTROL Workfront View]
 
-1. Gå till listan med projekt i [!DNL Workfront] Visa mobilapp.
+1. Gå till listan med projekt i mobilappen [!DNL Workfront] View.
 1. Tryck på listikonen i det övre vänstra hörnet i listan.\
    Listan med tillgängliga filter visas.\
    ![WF_View_filters_050621.jpg](assets/wf-view-filters-050621-350x427.jpg)
@@ -53,29 +53,29 @@ Du måste ha följande åtkomst i [!DNL Workfront] för att utföra stegen i den
 1. Välj bland följande filter:
 
    * [!UICONTROL Portfolios]: Välj specifika portföljer vars projekt du vill visa.
-   * [!UICONTROL Condition]: Markera om du bara vill visa projekt med en viss [!UICONTROL Condition].
-   * [!UICONTROL Progress]: Markera om du bara vill visa projekt i en viss [!UICONTROL Progress Status].
-   * Status: Markera om du bara vill visa projekt i specifika [!UICONTROL Statuses].
-   * [!UICONTROL Planned Start]: Markera om du bara vill visa projekt med [!UICONTROL Planned Start Date] i följande tidsramar:
+   * [!UICONTROL Condition]: Välj det här alternativet om du bara vill visa projekt med en viss [!UICONTROL Condition].
+   * [!UICONTROL Progress]: Välj det här alternativet om du bara vill visa projekt i en viss [!UICONTROL Progress Status].
+   * Status: Välj det här alternativet om du bara vill visa projekt i specifika [!UICONTROL Statuses].
+   * [!UICONTROL Planned Start]: Välj det här alternativet om du bara vill visa projekt med [!UICONTROL Planned Start Date] i följande tidsramar:
 
       * Senaste 3 månaderna
       * Senaste 2 månaderna
       * Senaste månaden
       * De senaste två veckorna
-   * [!UICONTROL Planned Complete]: Markera om du bara vill visa projekt med [!UICONTROL Planned Completion Date] i följande kommande tidsramar:
+   * [!UICONTROL Planned Complete]: Välj det här alternativet om du bara vill visa projekt med [!UICONTROL Planned Completion Date] i följande kommande tidsramar:
 
       * Två veckor
       * En månad
       * Två månader
       * Tre månader
-   * [!UICONTROL Projected Complete]: Markera om du bara vill visa projekt med [!UICONTROL Projected Completion Date] i följande kommande tidsramar:
+   * [!UICONTROL Projected Complete]: Välj det här alternativet om du bara vill visa projekt med [!UICONTROL Projected Completion Date] i följande kommande tidsramar:
 
       * Två veckor
       * En månad
       * Två månader
       * Tre månader
    * [!UICONTROL Owner]: Välj det här alternativet om du vill visa projekt som har tilldelats specifika ägare.
-   * [!UICONTROL Sponsor]: Välj det här alternativet om du vill visa projekt som har tilldelats till en viss [!UICONTROL Sponsor].
+   * [!UICONTROL Sponsor]: Välj det här alternativet om du vill visa projekt som har tilldelats en specifik [!UICONTROL Sponsor].
 
 
 

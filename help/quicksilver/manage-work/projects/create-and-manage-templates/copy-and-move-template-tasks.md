@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
 workflow-type: tm+mt
-source-wordcount: '2127'
+source-wordcount: '2128'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till mallar</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -83,20 +83,20 @@ Tänk på följande när du flyttar malluppgifter:
 Du kan kopiera en enstaka malluppgift eller flera malluppgifter samtidigt.
 
 1. Gå till mallen som innehåller malluppgiften eller malluppgifterna som du vill kopiera.
-1. Klicka **Malluppgifter** till vänster.
+1. Klicka på **Malluppgifter** i den vänstra panelen.
 1. Gör något av följande:
    * Klicka på namnet på en malluppgift för att öppna den.
    * Markera en eller flera malluppgifter i listan.
-1. (Villkorligt) Klicka på **Mer** meny ![](assets/more-icon.png) högst upp i uppgiftslistan för mallen eller till höger om uppgiftsnamnet för mallen om du öppnade uppgiften och sedan klickar du på **Kopiera till** eller **Kopiera**, beroende på var du öppnar alternativet Kopiera från.
+1. (Villkorligt) Klicka på menyn **Mer** ![](assets/more-icon.png) längst upp i uppgiftslistan i mallen eller till höger om namnet på mallaktiviteten om du öppnade uppgiften. Klicka sedan på **Kopiera till** eller **Kopiera**, beroende på var du öppnar alternativet Kopiera från.
 Rutan Kopiera malluppgift öppnas.
    ![](assets/copy-template-task-box-unshimmed.png)
-1. (Valfritt) Byt namn på mallåtgärden i **Malluppgiftsnamn** fält.
+1. (Valfritt) Byt namn på mallaktiviteten i fältet **Malluppgiftsnamn**.
 
    >[!TIP]
    >
    >Det här fältet är nedtonat och går inte att redigera när du väljer att kopiera flera malluppgifter i en lista. Du kan hovra över fältet Malluppgiftsnamn och en lista över alla valda mallåtgärder visas.
 
-1. Börja skriva namnet på **Målmall** där du vill kopiera malluppgiften i **Välj målmall** markerar du det när det visas i listan.
+1. Börja skriva namnet på **målmallen** där du vill kopiera malluppgiften i fältet **Välj målmall** och markera den när den visas i listan.
 
    Det aktuella mallnamnet visas som standard. Om du vill kopiera malluppgiften inom samma mall lämnar du det här fältet oförändrat.
 
@@ -104,14 +104,14 @@ Rutan Kopiera malluppgift öppnas.
    >
    >Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
 
-1. (Villkorligt) Klicka **begära åtkomst** om du vill begära åtkomst till målmallen, om du inte har åtkomst till den valda mallen.
+1. (Villkorligt) Klicka på **begär åtkomst** för att begära åtkomst till målmallen, om du inte har åtkomst till den valda mallen.
 1. (Villkorligt) Fortsätt att kopiera malluppgiften till den valda målmallen utan att begära åtkomst om du har tillgång till att lägga till malluppgifter i någon av malluppgifterna i målmallen.
 
-1. Klicka **Alternativ** i den vänstra panelen avmarkerar du de malluppgiftsattribut som du inte vill kopiera med malluppgiften. Alla alternativ är markerade som standard.
+1. Klicka på **Alternativ** i den vänstra panelen och avmarkera sedan de malluppgiftsattribut som du inte vill kopiera med malluppgiften. Alla alternativ är markerade som standard.
 
    >[!TIP]
    >
-   >Avmarkera **Markera alla** avmarkerar alla alternativ.
+   >Om du avmarkerar **Markera alla** avmarkeras alla alternativ.
 
    Avmarkera bland följande alternativ om du inte vill överföra dem till den kopierade malluppgiften. I följande tabell beskrivs vad som händer när alternativen avmarkeras:
 
@@ -179,7 +179,7 @@ Rutan Kopiera malluppgift öppnas.
    </table>
 
 
-1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen väljer du sedan den mallåtgärd i målmallen som du vill ska vara överordnad den kopierade malluppgiften.
+1. (Valfritt) Klicka på **Markera överordnad** på den vänstra panelen och välj sedan den malluppgift i målmallen som du vill ska vara överordnad den kopierade malluppgiften.
 
    >[!TIP]
    >
@@ -188,7 +188,7 @@ Rutan Kopiera malluppgift öppnas.
    Välj en överordnad genom att göra något av följande:
 
    * Välj en av de överordnade i mallplanen i listan över malluppgifter.
-   * Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad malluppgift efter namn.
+   * Klicka på sökikonen ![Sökikonen](assets/search-icon.png) och sök efter en överordnad malluppgift efter namn.
 
    Malluppgiften ska visas i listan.
 
@@ -196,7 +196,7 @@ Rutan Kopiera malluppgift öppnas.
 
    Om du inte väljer en överordnad malluppgift kopieras malluppgifterna som huvudmalluppgifter i stället för underuppgifter, och de placeras i slutet av malluppgiftslistan på målmallen.
 
-1. Klicka **Kopiera malluppgift**.
+1. Klicka på **Kopiera mallaktivitet**.
 
    De kopierade malluppgifterna finns nu i den angivna mallen och är antingen underuppgifter till den valda överordnade malluppgiften eller de senaste malluppgifterna i mallen.
 
@@ -206,35 +206,35 @@ Rutan Kopiera malluppgift öppnas.
 Du kan flytta en malluppgift till en annan malluppgift i samma mall eller till en annan mall. Du kan flytta en malluppgift eller flera malluppgifter åt gången.
 
 1. Gå till mallen som innehåller malluppgiften eller malluppgifterna som du vill flytta.
-1. Klicka **Malluppgifter** till vänster.
+1. Klicka på **Malluppgifter** i den vänstra panelen.
 1. Gör något av följande:
    * Klicka på namnet på en malluppgift för att öppna den.
    * Markera en eller flera malluppgifter i listan.
-1. (Villkorligt) Klicka på **Mer** meny ![](assets/more-icon.png) högst upp i uppgiftslistan för mallen eller till höger om uppgiftsnamnet för mallen om du öppnade uppgiften och sedan klickar du på **Flytta till** eller **Flytta**, beroende på var du öppnar alternativet Flytta från.
+1. (Villkorligt) Klicka på **Mer**-menyn ![](assets/more-icon.png) högst upp i malluppgiftslistan eller till höger om malluppgiftens namn om du öppnade uppgiften. Klicka sedan på **Flytta till** eller **Flytta**, beroende på var du använder alternativet Flytta från.
 Rutan Flytta malluppgift öppnas.
    ![](assets/move-template-task-box-unshimmed.png)
 
-1. (Valfritt) Byt namn på mallåtgärden i **Malluppgiftsnamn** fält.
+1. (Valfritt) Byt namn på mallaktiviteten i fältet **Malluppgiftsnamn**.
 
    >[!TIP]
    >
    >Det här fältet är nedtonat och går inte att redigera när du väljer att flytta flera malluppgifter i en lista. Du kan hålla muspekaren över malluppgiftsfältet och en lista över alla valda malluppgifter visas.
 
-1. Börja skriva namnet på **Målmall** där du vill flytta malluppgiften i **Välj målmall** markerar du det när det visas i listan.
+1. Börja skriva namnet på **målmallen** där du vill flytta mallaktiviteten i fältet **Välj målmall** och markera den när den visas i listan.
 
    >[!TIP]
    >
    >Du kan också börja skriva referensnumret eller ange ID:t för mallen. Det kan hjälpa dig att skilja mellan mallar med identiska namn.
 
-1. (Villkorligt) Klicka **begära åtkomst** om du vill begära åtkomst till mallen, om du inte har åtkomst till målmallen.
+1. (Villkorligt) Klicka på **begär åtkomst** för att begära åtkomst till mallen, om du inte har åtkomst till målmallen.
 1. (Villkorligt) Fortsätt att flytta malluppgiften till den valda målmallen utan att begära åtkomst om du har tillgång till att lägga till malluppgifter till någon av malluppgifterna i målmallen.
 
-1. Klicka **Alternativ** i den vänstra panelen avmarkerar du de malluppgiftsattribut som du inte vill kopiera med malluppgiften. Alla alternativ är markerade som standard.
+1. Klicka på **Alternativ** i den vänstra panelen och avmarkera sedan de malluppgiftsattribut som du inte vill kopiera med malluppgiften. Alla alternativ är markerade som standard.
 
    >[!TIP]
    >
    >* Alternativavsnittet är bara tillgängligt när du har valt en målmall.
-   >* Avmarkera **Markera alla** avmarkerar alla alternativ.
+   >* Om du avmarkerar **Markera alla** avmarkeras alla alternativ.
 
    Avmarkera följande alternativ om du inte vill överföra informationen till den flyttade malluppgiften. I följande tabell beskrivs vad som händer när alternativen avmarkeras:
 
@@ -312,7 +312,7 @@ Rutan Flytta malluppgift öppnas.
    </table>
 
 
-1. (Valfritt) Klicka på **Markera överordnad** i den vänstra panelen väljer du sedan den mallåtgärd i målmallen som du vill ska vara överordnad den flyttade malluppgiften.
+1. (Valfritt) Klicka på **Markera överordnad** på den vänstra panelen och välj sedan den malluppgift i målmallen som du vill ska vara överordnad den flyttade malluppgiften.
 
    >[!TIP]
    >
@@ -321,7 +321,7 @@ Rutan Flytta malluppgift öppnas.
    Välj en överordnad genom att göra något av följande:
 
    * Välj en av de överordnade i mallplanen i listan över malluppgifter.
-   * Klicka på sökikonen ![Ikonen Sök](assets/search-icon.png) och söka efter en överordnad malluppgift efter namn.
+   * Klicka på sökikonen ![Sökikonen](assets/search-icon.png) och sök efter en överordnad malluppgift efter namn.
 
    Malluppgiften ska visas i listan.
 
@@ -329,6 +329,6 @@ Rutan Flytta malluppgift öppnas.
 
    Om du inte väljer en överordnad malluppgift flyttas malluppgifterna som huvudmalluppgifter i stället för underuppgifter, och de placeras i slutet av malluppgiftslistan på målmallen.
 
-1. Klicka **Flytta malluppgift**.
+1. Klicka på **Flytta mallaktivitet**.
 
    De flyttade malluppgifterna finns nu i den angivna mallen och är antingen underuppgifter till den valda överordnade malluppgiften eller de senaste malluppgifterna i mallen.

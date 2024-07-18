@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Felsökningsscenarier med [!DNL Adobe Workfront Fusion] Devtool
+# Felsöka scenarier med utvecklingsverktyget [!DNL Adobe Workfront Fusion]
 
-The [!DNL Adobe Workfront Fusion] Med Devtool kan du förstå och felsöka scenarier. Utvecklingsverktyget lägger till en extra panel i [!DNL Chrome Developer Tools]. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
+Med utvecklingsverktyget [!DNL Adobe Workfront Fusion] kan du förstå och felsöka scenarier. Utvecklingsverktyget lägger till en extra panel i [!DNL Chrome Developer Tools]. Med den här felsökningspanelen kan du kontrollera alla manuella körningar av ditt scenario, granska alla utförda åtgärder och se information om alla API-anrop som utförs. Du kan se vilken modul, åtgärd eller enskilt svar som orsakade felet och använda den kunskapen för att förfina ditt scenario.
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ The [!DNL Adobe Workfront Fusion] Med Devtool kan du förstå och felsöka scena
 En videointroduktion och genomgång av verktyget Fusion Devtool finns på
 
 * [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Utvecklargenomgång](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Gå igenom utvecklingsverktyget](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Åtkomstkrav
 
@@ -46,71 +46,71 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Åtkomst till Workfront Fusion Devtool
 
 Åtkomsten till utvecklingsverktyget skiljer sig åt beroende på om du använder Fusion i [!DNL Adobe Unified Experience].
 
-* [Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
-* [Få åtkomst till utvecklingsverktyget i klassiska [!DNL Fusion] upplevelse](#access-the-devtool-in-the-classic-fusion-experience)
+* [Öppna utvecklingsverktyget i  [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
+* [Få åtkomst till utvecklingsverktyget i den klassiska [!DNL Fusion] upplevelsen](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Öppna utvecklingsverktyget i [!DNL Adobe Unified Experience] eller nya Fusion
+### Få åtkomst till utvecklingsverktyget i [!DNL Adobe Unified Experience] eller den nya Fusion-upplevelsen
 
 Om du använder Fusion i Adobe Unified Shell, eller har uppdaterat till den nya Fusion-upplevelsen, kan du komma åt Dev-verktyget från Scenarioredigeraren.
 
-1. Klicka på **Hjälpverktyg** ![Hjälpverktyg](assets/debugger-icon.png) -ikonen längst ned på skärmen.
+1. Klicka på ikonen **Hjälpverktyg** ![Hjälpverktyg](assets/debugger-icon.png) längst ned på skärmen.
 
 Eller:
 
 1. Gå till Scenarioredigeraren för det scenario som du vill felsöka.
 
-   Information om hur du hittar Scenarioredigeraren finns i [Scenarioredigerare](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
+   Mer information om hur du söker efter scenredigeraren finns i [Scenarioredigeraren](/help/quicksilver/workfront-fusion/scenarios/scenario-editor.md).
 
 1. Högerklicka i ett tomt område på sidan (inte i en modul).
-1. Välj **Open Devtool**.
+1. Välj **Öppna utvecklingsverktyget**.
 
-### Få åtkomst till utvecklingsverktyget i klassiska [!DNL Fusion] upplevelse
+### Använd utvecklingsverktyget i den klassiska [!DNL Fusion]-upplevelsen
 
-Så här använder du utvecklingsverktyget i klassiska [!DNL Fusion] måste du installera en [!DNL Chrome] tillägg. Du kan sedan använda det här tillägget från [!DNL Chrome] Utvecklarverktyg.
+Om du vill använda utvecklingsverktyget i den klassiska [!DNL Fusion]-upplevelsen måste du installera ett [!DNL Chrome]-tillägg. Du kan sedan använda det här tillägget från [!DNL Chrome]-utvecklingsverktygen.
 
-* [Installera installationsfilen [!DNL Chrome] Devtool-tillägg](#install-the-chrome-devtool-extension)
-* [Leta reda på [!DNL Workfront Fusion] Devtool](#locate-the-workfront-fusion-devtool)
+* [Installera tillägget  [!DNL Chrome] devtool](#install-the-chrome-devtool-extension)
+* [Leta reda på  [!DNL Workfront Fusion] utvecklingsverktyget](#locate-the-workfront-fusion-devtool)
 
-#### Installera [!DNL Chrome] Devtool-tillägg
+#### Installera tillägget [!DNL Chrome] Devtool
 
-Du kan lägga till [!DNL Workfront Fusion] Utveckla för [!DNL Chrome] via [!UICONTROL [!DNL Chrome] Web Store].
+Du kan lägga till utvecklingsverktyget [!DNL Workfront Fusion] till [!DNL Chrome] via [!UICONTROL [!DNL Chrome] Web Store].
 
-1. Klicka [den här länken](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) för att gå till [!DNL Workfront Fusion] Devtool på [!UICONTROL [!DNL Chrome] Web Store].
+1. Klicka på [den här länken](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) för att gå till utvecklingsverktyget [!DNL Workfront Fusion] på [!UICONTROL [!DNL Chrome] Web Store].
 1. Klicka på **[!UICONTROL Add to [!DNL Chrome]]**.
 1. Granska behörigheter i det fönster som öppnas. Om du godkänner behörigheterna klickar du på **[!UICONTROL Add Extension]**.
 
-The [!DNL Workfront Fusion] Utvecklingsverktyget läggs till i [!DNL Chrome] tillägg.
+Tillägget [!DNL Workfront Fusion] Devtool läggs till i dina [!DNL Chrome]-tillägg.
 
 
-#### Leta reda på [!DNL Workfront Fusion] Devtool
+#### Leta reda på utvecklingsverktyget [!DNL Workfront Fusion]
 
-Använd [!DNL Workfront Fusion] Devtool, du måste lägga till [!DNL Workfront Fusion] Utveckla tillägg till [!DNL Chrome] webbläsare, enligt beskrivning i [Installera tillägget Chrome Devtool](#install-the-chrome-Devtool-extension).
+Om du vill använda utvecklingsverktyget [!DNL Workfront Fusion] måste du lägga till tillägget [!DNL Workfront Fusion] till webbläsaren [!DNL Chrome] enligt beskrivningen i [Installera tillägget Chrome-utvecklingsverktyget](#install-the-chrome-Devtool-extension).
 
-1. Öppna [!DNL Workfront Fusion] scenario.
+1. Öppna ditt [!DNL Workfront Fusion]-scenario.
 1. Öppna [!DNL Chrome Developer Tools]:
 
    <table style="table-layout:auto"> 
@@ -130,23 +130,23 @@ Använd [!DNL Workfront Fusion] Devtool, du måste lägga till [!DNL Workfront F
 
    >[!TIP]
    >
-   >Vi rekommenderar att du dockar [!DNL Chrome Developer Console] längst ned för att få en bättre bild av dina moduler.
+   >Vi rekommenderar att du dockar [!DNL Chrome Developer Console] längst ned för att få en bättre vy över dina moduler.
 
-1. Klicka på **[!DNL Workfront Fusion]** tabba in [!DNL Chrome Dev Tools].
+1. Klicka på fliken **[!DNL Workfront Fusion]** i [!DNL Chrome Dev Tools].
 
-## Använd [!DNL Workfront Fusion] Devtool
+## Använd utvecklingsverktyget [!DNL Workfront Fusion]
 
 Workfront Fusion Devtool är uppdelat i tre huvudavsnitt. De finns i den vänstra panelen i fönstret Utvecklare.
 
 * [Live Stream](#live-stream)
-* [Scenariofelsökning](#scenario-debugger)
+* [Scenariofelsökare](#scenario-debugger)
 * [verktyg](#tools)
 
 ### Live Stream
 
 Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång i ditt scenario.
 
-1. Klicka på **[!UICONTROL Live Stream]** icon ![](assets/live-stream-icon.png) för att öppna Live Stream-avsnittet.
+1. Klicka på ikonen **[!UICONTROL Live Stream]** ![](assets/live-stream-icon.png) för att öppna Live Stream-avsnittet.
 1. Gör något av följande:
 
    <table style="table-layout:auto"> 
@@ -167,15 +167,15 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
         <li> <p>Begärandetext</p> </li> 
         <li> <p>Svarshuvuden</p> </li> 
         <li> <p>Svarstext</p> </li> 
-       </ul> <p>Om du vill visa den här informationen klickar du på lämplig flik i den högra panelen i dialogrutan [!DNL Workfront Fusion] Devtool.</p> </td> 
+       </ul> <p>Om du vill visa den här informationen klickar du på lämplig flik i den högra panelen i utvecklingsverktyget [!DNL Workfront Fusion].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Sök efter förfrågningar och svar</p> </td> 
-      <td> <p>Ange söktermen i sökfältet i den vänstra panelen i dialogrutan [!DNL Workfront Fusion] Utvecklingsverktyget om du bara vill visa begäranden som innehåller söktermen.</p> </td> 
+      <td> <p>Ange söktermen i sökfältet på den vänstra panelen i utvecklingsverktyget [!DNL Workfront Fusion] om du bara vill visa begäranden som innehåller söktermen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Ta bort listan med begäranden </p> </td> 
-      <td> <p>Klicka på papperskorgsikonen i det övre högra hörnet av utvecklingsverktygets vänstra panel för att rensa listan över begäranden som spelats in av [!DNL Workfront Fusion] Devtool. </p> </td> 
+      <td> <p>Klicka på papperskorgsikonen i det övre högra hörnet av utvecklingsverktygets vänstra panel för att rensa listan över begäranden som spelats in med utvecklingsverktyget [!DNL Workfront Fusion]. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Aktivera konsolloggning</p> </td> 
@@ -185,8 +185,8 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
       <td role="rowheader"> <p>Hämta begäran i Raw JSON-format eller cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><strong>Råformat JSON</strong> </p> <p>Klicka <strong>[!UICONTROL Copy RAW]</strong> i det övre högra hörnet av utvecklingsverktygets högra ruta.</p> </li> 
-        <li> <p><strong>cURL</strong> </p> <p>Klicka <strong>[!UICONTROL Copy cURL]</strong> i det övre högra hörnet av utvecklingsverktygets högra ruta.</p> </li> 
+        <li> <p><strong>Raw JSON</strong> </p> <p>Klicka på <strong>[!UICONTROL Copy RAW]</strong> i det övre högra hörnet av utvecklingsverktygets högra ruta.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Klicka på <strong>[!UICONTROL Copy cURL]</strong> i det övre högra hörnet av utvecklingsverktygets högra ruta.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -196,33 +196,33 @@ Live Stream visar vad som händer i bakgrunden när du klickar på Kör en gång
 
 Scenariofelsökaren är användbar för mer komplexa scenarier. Den visar historiken för scenariot som körs och gör att du kan söka efter moduler efter namn eller ID.
 
-1. Klicka på **[!UICONTROL Scenario Debugger]** icon ![](assets/scenario-debugger-icon.png) för att öppna Scenario Debugger.
-1. (Valfritt) Ange söktermen (namn eller modul-ID) i sökfältet i den vänstra rutan i [!DNL Workfront Fusion] Utvecklingsverktyget i [!UICONTROL Scenario Debugger] -avsnitt.
+1. Klicka på ikonen **[!UICONTROL Scenario Debugger]** ![](assets/scenario-debugger-icon.png) för att öppna felsökningsprogrammet för scenarier.
+1. (Valfritt) Ange söktermen (namn eller modul-ID) i sökfältet i den vänstra rutan i [!DNL Workfront Fusion]-utvecklingsverktyget i avsnittet [!UICONTROL Scenario Debugger].
 1. Dubbelklicka på modulens namn för att öppna dess inställningar i scenarioredigeraren.
 1. Visa information om begäran genom att klicka på önskad åtgärd.
 
 ### verktyg
 
-The [!DNL Workfront Fusion] Utvecklingsverktyg har verktyg som gör det enklare att konfigurera ditt scenario.
+Utvecklingsverktyget [!DNL Workfront Fusion] innehåller verktyg som gör det enklare att konfigurera ditt scenario.
 
-1. Klicka på **[!UICONTROL Tools]** icon ![](assets/console-tools-icon.png) för att öppna verktygen.
+1. Klicka på ikonen **[!UICONTROL Tools]** ![](assets/console-tools-icon.png) för att öppna verktygen.
 1. Välj det verktyg som du vill använda
 1. Konfigurera fälten enligt nedan.
 1. Klicka på **[!UICONTROL Run]**.
 
 Verktyg och deras fält:
 
-* [Fokusera på en modul](#focus-a-module)
-* [Sök efter moduler efter mappning](#find-modules-by-mapping)
+* [Fokusera en modul](#focus-a-module)
+* [Sök efter moduler genom att mappa](#find-modules-by-mapping)
 * [Hämta appmetadata](#get-app-metadata)
 * [Kopiera mappning](#copy-mapping)
 * [Kopiera filter](#copy-filter)
 * [Växla anslutning](#swap-connection)
 * [Växla variabel](#swap-variable)
-* [Byt app](#swap-app)
+* [Växla app](#swap-app)
 * [Bas 64](#base-64)
 * [Kopiera modulnamn](#copy-module-name)
-* [Mappa om källa](#remap-source)
+* [Mappa om Source](#remap-source)
 * [Markera app](#highlight-app)
 * [Migrera GS](#migrate-gs)
 
@@ -338,11 +338,11 @@ Söker efter angivna variabler i scenariot och ersätter dem med en ny variabel.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Variable to Find]</td> 
-   <td> <p> Leta reda på variabeln som du vill ersätta från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]). I fältet visas det med dubbla klamrar. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p> Leta reda på variabeln som du vill ersätta från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]) fältet. I fältet visas det med dubbla klamrar. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Replace With]</p> </td> 
-   <td> <p>Leta reda på variabeln som du vill ersätta variabeln med från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]). I fältet visas det med dubbla klamrar. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
+   <td> <p>Leta reda på variabeln som du vill ersätta variabeln med från modulen i ditt scenario och kopiera den till det här ([!UICONTROL Variable to Find]) fältet. I fältet visas det med dubbla klamrar. Exempel: <code>&#123;&#123;5.value&#125;&#125;</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Module]</p> </td> 
@@ -382,11 +382,11 @@ Gör att du kan koda angivna data till Base64 eller avkoda Base64. Vissa begära
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Operation] </td> 
-   <td> <p>Välj om du vill koda data från [!UICONTROL Raw Data] till Base64 eller avkoda Base64 till Raw-data.</p> </td> 
+   <td> <p>Välj om du vill koda data från fältet [!UICONTROL Raw Data] till Base64 eller avkoda Base64 till Raw-data.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Raw Data]</p> </td> 
-   <td> <p> Ange de data som du vill koda till Base64, eller Base64 om du vill avkoda till rådata, beroende på vilket alternativ som har valts i dialogrutan [!UICONTROL Operation] ovanför.</p> </td> 
+   <td> <p> Ange de data som du vill koda till Base64, eller Base64 om du vill avkoda till rådata, beroende på vilket alternativ som har valts i fältet [!UICONTROL Operation] ovan.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -456,6 +456,6 @@ Markerar moduler för den angivna appen i ditt scenario.
 
 #### [!UICONTROL Migrate GS]
 
-Det här verktyget är särskilt utformat för att uppgradera [!DNL Google Sheets] (äldre) moduler till de senaste [!DNL Google Sheets] version. En ny version av modulen läggs till precis efter den äldre versionen av modulen i scenarioflödet.
+Det här verktyget är särskilt utformat för att uppgradera [!DNL Google Sheets] (äldre) moduler till den senaste [!DNL Google Sheets]-versionen. En ny version av modulen läggs till precis efter den äldre versionen av modulen i scenarioflödet.
 
 Du behöver inte ange några parametrar för den här modulen.

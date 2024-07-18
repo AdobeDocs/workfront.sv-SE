@@ -6,7 +6,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Workday moduler
-description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder [!DNL Workday], samt ansluta till flera tredjepartsprogram och -tjänster.
+description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder  [!DNL Workday] och ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # [!DNL Workday] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Workday], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Workday] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -44,37 +44,37 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Använd [!DNL Workday] -moduler måste du:
+Om du vill använda modulerna [!DNL Workday] måste du:
 
-* Har [!DNL Workday] konto.
+* Ha ett [!DNL Workday]-konto.
 
-* Skapa ett OAuth-program i [!DNL Workday]. Instruktioner finns i [!DNL Workday] dokumentation.
+* Skapa ett OAuth-program i [!DNL Workday]. Instruktioner finns i dokumentationen för [!DNL Workday].
 
 ## Anslut [!DNL Workday] till [!DNL Workfront Fusion]
 
-1. I alla [!DNL Workfront Fusion] modul, klicka på [!UICONTROL Add] bredvid [!UICONTROL Connection] fält
+1. Klicka på [!UICONTROL Add] bredvid fältet [!UICONTROL Connection] i en [!DNL Workfront Fusion]-modul
 
 2. Fyll i följande fält:
 
@@ -90,23 +90,23 @@ Använd [!DNL Workday] -moduler måste du:
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Workday host]</td>
-                <td>Ange adressen till [!DNL Workday] värddator utan <code>https://</code>. Exempel: <code>mycompany.workday.com</code>.</td>
+                <td>Ange adressen till din [!DNL Workday]-värd utan <code>https://</code>. Till exempel: <code>mycompany.workday.com</code>.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Services URL]</td>
-                <td>Ange adressen till [!DNL Workday] webbtjänster utan <code>https://</code>. Exempel: <code>mycompany-services.workday.com</code>.</td>
+                <td>Ange adressen till dina [!DNL Workday]-webbtjänster utan <code>https://</code>. Till exempel: <code>mycompany-services.workday.com</code>.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Tenant name]</td>
-                <td>Ange klientorganisationen för detta [!DNL Workday] konto. Din klient är din organisations identifierare och kan visas på den URL du använder för att logga in på Workday. Exempel: i adressen <code>https://www.myworkday.com/mycompany</code>, är klienten <code>mycompany</code>.</td>
+                <td>Ange klientorganisationen för det här [!DNL Workday]-kontot. Din klient är din organisations identifierare och kan visas på den URL du använder för att logga in på Workday. Exempel: i adressen <code>https://www.myworkday.com/mycompany</code> är klientorganisationen <code>mycompany</code>.</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Client ID]</td>
-                <td>Ange klient-ID för [!DNL Workday] program som den här anslutningen använder. Du får detta när du skapar programmet i [!DNL Workday].</td>
+                <td>Ange klient-ID för det [!DNL Workday]-program som den här anslutningen använder. Du får detta när du skapar programmet i [!DNL Workday].</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Client Secret]</td>
-                <td>Ange klienthemlighet för [!DNL Workday] program som den här anslutningen använder. Du får detta när du skapar programmet i [!DNL Workday].</td>
+                <td>Ange klienthemlighet för det [!DNL Workday]-program som den här anslutningen använder. Du får detta när du skapar programmet i [!DNL Workday].</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Session timeout (min)]</td>
@@ -116,11 +116,11 @@ Använd [!DNL Workday] -moduler måste du:
     </table>
 
 
-3. Klicka [!UICONTROL Continue] för att spara anslutningen och återgå till modulen
+3. Klicka på [!UICONTROL Continue] för att spara anslutningen och återgå till modulen
 
-## [!DNL Workday] moduler och deras fält
+## [!DNL Workday]-moduler och deras fält
 
-När du konfigurerar [!DNL Workday] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Workday] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Workday] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Workday] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -152,7 +152,7 @@ Den här åtgärdsmodulen skapar en enda post i [!DNL Workday].
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Instruktioner om hur du ansluter [!DNL Workday] konto för Workfront Fusion, se <a href="#Connect" class="MCXref xre[!DNL ]f" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a>.</td>
+            <td>Instruktioner om hur du ansluter ditt [!DNL Workday]-konto till Workfront Fusion finns i <a href="#Connect" class="MCXref xre[!DNL ]f" > Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record Type]</td>
@@ -171,7 +171,7 @@ Den här åtgärdsmodulen skapar en enda post i [!DNL Workday].
 
 #### [!UICONTROL Delete a record]
 
-Den här åtgärdsmodulen tar bort en enstaka post i [!DNL Workday].
+Den här åtgärdsmodulen tar bort en enskild post i [!DNL Workday].
 
 <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -181,7 +181,7 @@ Den här åtgärdsmodulen tar bort en enstaka post i [!DNL Workday].
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Instruktioner om hur du ansluter [!DNL Workday] konto till [!DNL Workfront Fusion], se <a href="#Connect" class="MCXref xre[!DNL ]f" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a>.</td>
+            <td>Instruktioner om hur du ansluter ditt [!DNL Workday]-konto till [!DNL Workfront Fusion] finns i <a href="#Connect" class="MCXref xre[!DNL ]f" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record type]</td>
@@ -205,7 +205,7 @@ Den här åtgärdsmodulen tar bort en enstaka post i [!DNL Workday].
 
 ### [!UICONTROL Make a custom API call]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Workday] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Workday] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Workday]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Workday]-modulerna.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -217,15 +217,15 @@ Modulen returnerar statuskoden, tillsammans med rubrikerna och brödtexten för 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>Instruktioner om hur du ansluter [!DNL Workday] konto till [!DNL Workfront Fusion], se <a href="#Connect" class="MCXref xre[!DNL ]f" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a>.</td>
+            <td>Instruktioner om hur du ansluter ditt [!DNL Workday]-konto till [!DNL Workfront Fusion] finns i <a href="#Connect" class="MCXref xre[!DNL ]f" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg i förhållande till <code style="color: #ff1493;">https://&lt;tenantHostname>/api/&lt;serviceName>/&lt;version>/&lt;tenant></code>.</td> 
+   <td>Ange en relativ sökväg till <code style="color: #ff1493;">https://&lt;tenantHostname>/api/&lt;serviceName>/&lt;version>/&lt;tenant></code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -237,7 +237,7 @@ Modulen returnerar statuskoden, tillsammans med rubrikerna och brödtexten för 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -247,7 +247,7 @@ Modulen returnerar statuskoden, tillsammans med rubrikerna och brödtexten för 
 
 #### [!UICONTROL Update a record]
 
-Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Workday].
+Den här åtgärdsmodulen uppdaterar en enskild post i [!DNL Workday].
 
 <table style="table-layout:auto"> 
     <col/>
@@ -255,11 +255,11 @@ Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Workday].
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Instruktioner om hur du ansluter [!DNL Workday] konto för Workfront Fusion, se <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] till Workfront Fusion]</a></td>
+            <td>Instruktioner om hur du ansluter ditt [!DNL Workday]-konto till Workfront Fusion finns i <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] till Workfront Fusion]</a></td>
         </tr>
         <tr>
             <td  role="rowheader">Posttyp</td>
-            <td>Välj typ av post t[!UICONTROL ]som du vill uppdatera.</td>
+            <td>Välj den typ av post [!UICONTROL ]som du vill uppdatera.</td>
         </tr>
         <tr>
             <td role="rowheader">[!UICONTROL ID] </td>
@@ -291,7 +291,7 @@ Den här åtgärdsmodulen läser en enda post.
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Instruktioner om hur du ansluter [!DNL Workday] konto för Workfront Fusion, se <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] till Workfront Fusion]</a></td>
+            <td>Instruktioner om hur du ansluter ditt [!DNL Workday]-konto till Workfront Fusion finns i <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] till Workfront Fusion]</a></td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record type]</td>
@@ -318,7 +318,7 @@ Den här sökmodulen hämtar en lista med poster av den angivna typen.
       <tbody>
           <tr>
               <td role="rowheader">[!UICONTROL Connection]</td>
-              <td>Instruktioner om hur du ansluter [!DNL Workday] konto till [!DNL Workfront Fusion], se <a href="#Connect" class="MCXref xref" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a></td>
+              <td>Instruktioner om hur du ansluter ditt [!DNL Workday]-konto till [!DNL Workfront Fusion] finns i <a href="#Connect" class="MCXref xref" >Anslut [!DNL Workday] till [!DNL Workfront Fusion]</a></td>
           </tr>
           <tr>
               <td  role="rowheader">[!UICONTROL Record Type]</td>

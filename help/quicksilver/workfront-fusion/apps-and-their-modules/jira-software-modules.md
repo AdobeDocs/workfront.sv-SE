@@ -1,20 +1,20 @@
 ---
 title: Jira Software-moduler
-description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Jira] Programvara, samt koppla den till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Jira] Programvara, samt ansluta den till flera tredjepartsprogram och -tjänster.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1776'
+source-wordcount: '1763'
 ht-degree: 0%
 
 ---
 
 # [!DNL Jira Software] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Jira Software], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Jira Software] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -41,29 +41,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Förutsättningar
 
-Används [!DNL Jira] moduler som du måste ha [!DNL Jira] konto.
+Om du vill använda [!DNL Jira] moduler måste du ha ett [!DNL Jira]-konto.
 
 ## Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]
 
@@ -76,31 +76,31 @@ Anslutningsmetoden baseras på om du använder [!DNL Jira Cloud] eller [!DNL Jir
 
 Anslut [!DNL Jira Cloud] till [!DNL Workfront Fusion]
 
-Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]måste du skapa en API-token och infoga den tillsammans med din tjänst-URL och användarnamn i [!UICONTROL Create a connection] fält i [!DNL Workfront Fusion].
+Om du vill ansluta [!DNL Jira Software] till [!DNL Workfront Fusion] måste du skapa en API-token och infoga den tillsammans med din tjänst-URL och ditt användarnamn i fältet [!UICONTROL Create a connection] i [!DNL Workfront Fusion].
 
 #### Skapa en API-token i [!DNL Jira]
 
 1. Gå till [https://id.atlassian.com/manage/api-tokens](https://id.atlassian.com/manage/api-tokens) och logga in.
 1. Klicka på **[!UICONTROL Create API token]**.
 1. Ange ett namn för token, till exempel *Workfront Fusion*.
-1. Kopiera token med **[!UICONTROL Copy to clipboard]** -knappen.
+1. Kopiera token med knappen **[!UICONTROL Copy to clipboard]**.
 
    >[!IMPORTANT]
    >
    >Du kan inte visa variabeln igen när du har stängt den här dialogrutan.
 1. Lagra den genererade token på en säker plats.
-1. Fortsätt med [Konfigurera [!DNL Jira] API-token in [!DNL Workfront Fusion]](#configure-the-jira-api-token-in-workfront-fusion).
+1. Fortsätt med [Konfigurera  [!DNL Jira] API-token i [!DNL Workfront Fusion]](#configure-the-jira-api-token-in-workfront-fusion).
 
-#### Konfigurera [!DNL Jira] API-token in [!DNL Workfront Fusion]
+#### Konfigurera API-token [!DNL Jira] i [!DNL Workfront Fusion]
 
-1. I [!DNL Workfront Fusion], lägga till [!DNL Jira] för att öppna **[!UICONTROL Create a connection]** box.
+1. I [!DNL Workfront Fusion] lägger du till en [!DNL Jira]-modul i ett scenario för att öppna rutan **[!UICONTROL Create a connection]**.
 1. Ange följande information:
 
    * **[!UICONTROL Service URL]**
    * **[!UICONTROL Username]**
-   * **[!UICONTROL API token]:** Detta är API-token som du skapade i [Skapa en API-token i [!DNL Jira]](#create-an-api-token-in-jira) i den här artikeln.
+   * **[!UICONTROL API token]:** Detta är den API-token som du skapade i avsnittet [Skapa en API-token i  [!DNL Jira]](#create-an-api-token-in-jira) i den här artikeln.
 
-1. Klicka [!UICONTROL Continue] för att skapa anslutningen och återgå till modulen.
+1. Klicka på [!UICONTROL Continue] för att skapa anslutningen och återgå till modulen.
 
 ### Anslut [!DNL Jira Server] till [!DNL Workfront Fusion]
 
@@ -108,17 +108,17 @@ Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]måste du skapa en API-
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Becky: Find out and document how to find these things</p>
 -->
 
-Så här godkänner du en anslutning mellan [!DNL Workfront Fusion] och [!DNL Jira Server]behöver du din kundnyckel, privata nyckel och service-URL. Du kan behöva kontakta din [!DNL Jira] administratör för den här informationen.
+Om du vill auktorisera en anslutning mellan [!DNL Workfront Fusion] och [!DNL Jira Server] behöver du din konsumentnyckel, privata nyckel och tjänst-URL. Du kan behöva kontakta din [!DNL Jira]-administratör för att få tillgång till den här informationen.
 
 * [Generera offentliga och privata nycklar för din [!DNL Jira] anslutning](#generate-public-and-private-keys-for-your-jira-connection)
-* [Konfigurera klientappen som en konsument i [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
-* [Skapa en anslutning till [!DNL Jira] Server eller Jira Data Center i [!DNL Workfront Fusion]](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
+* [Konfigurera klientappen som en konsument i  [!DNL Jira]](#configure-the-client-app-as-a-consumer-in-jira)
+* [Skapa en anslutning till  [!DNL Jira] Server eller Jira Data Center i [!DNL Workfront Fusion]](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
-#### Generera offentliga och privata nycklar för din [!DNL Jira] anslutning
+#### Generera offentliga och privata nycklar för din [!DNL Jira]-anslutning
 
-Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera offentliga och privata nycklar.
+Om du vill hämta en privat nyckel för din [!DNL Workfront Fusion Jira]-anslutning måste du generera offentliga och privata nycklar.
 
-1. Kör följande i terminalen `openssl` kommandon.
+1. Kör följande `openssl`-kommandon i terminalen.
 
    * `openssl genrsa -out jira_privatekey.pem 1024`
 
@@ -135,17 +135,17 @@ Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera off
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
-     Det här kommandot extraherar den offentliga nyckeln från certifikatet till `jira_publickey.pem` -fil.
+     Det här kommandot extraherar den offentliga nyckeln från certifikatet till filen `jira_publickey.pem`.
 
      >[!NOTE]
      >
-     >Om du använder Windows kan du behöva spara den offentliga nyckeln i `jira_publickey.pem` manuellt:
+     >Om du använder Windows kan du behöva spara den offentliga nyckeln till filen `jira_publickey.pem` manuellt:
      >
      >1. Kör följande kommando i terminalen:
      >   
      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
      >   
-     >1. Kopiera terminalutdata (inklusive `-------BEGIN PUBLIC KEY--------` och `-------END PUBLIC KEY--------`
+     >1. Kopiera terminalutdata (inklusive `-------BEGIN PUBLIC KEY--------` och `-------END PUBLIC KEY--------`)
      >   
      >1. Klistra in terminalutdata i en fil med namnet `jira_publickey.pem`.
 
@@ -154,20 +154,20 @@ Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera off
 
 #### Konfigurera klientappen som en konsument i [!DNL Jira]
 
-1. Logga in på [!DNL Jira] -instans.
-1. Klicka på **[!UICONTROL [!DNL Jira] Settings]** ![](assets/jira-settings-icon.png) > **[!UICONTROL Applications]**> **[!UICONTROL Application links]**.
-1. I **[!UICONTROL Enter the URL of the application you want to link]** fält, ange
+1. Logga in på din [!DNL Jira]-instans.
+1. Klicka på **[!UICONTROL [!DNL Jira] Settings]** ![](assets/jira-settings-icon.png) > **[!UICONTROL Applications]**> **[!UICONTROL Application links]** i den vänstra navigeringspanelen.
+1. I fältet **[!UICONTROL Enter the URL of the application you want to link]** anger du
 
    ```
    https://app.workfrontfusion.com/oauth/cb/workfront-jiraserver-oauth1
    ```
 
 1. Klicka på **[!UICONTROL Create new link]**. Ignorera felmeddelandet&quot;Inget svar togs emot från den URL du angav&quot;.
-1. I **[!UICONTROL Link applications]** fönster, ange värden i **[!UICONTROL Consumer key]** och **[!UICONTROL Shared secret]** fält.
+1. I fönstret **[!UICONTROL Link applications]** anger du värden i fälten **[!UICONTROL Consumer key]** och **[!UICONTROL Shared secret]**.
 
    Du kan välja värden för dessa fält.
 
-1. Kopiera värdena för **[!UICONTROL Consumer key]** och **[!UICONTROL Shared secret]** till en säker plats.
+1. Kopiera värdena för fälten **[!UICONTROL Consumer key]** och **[!UICONTROL Shared secret]** till en säker plats.
 
    Du kommer att behöva dessa värden senare i konfigurationsprocessen.
 
@@ -179,9 +179,9 @@ Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera off
    | [!UICONTROL Authorization URL] | `<Jira base url>/plugins/servlet/oauth/authorize` |
    | [!UICONTROL Access Token URL] | `<Jira base url>/plugins/servlet/oauth/access-token` |
 
-1. Välj **[!UICONTROL Create incoming link]** kryssrutan.
+1. Markera kryssrutan **[!UICONTROL Create incoming link]**.
 1. Klicka på **[!UICONTROL Continue]**.
-1. I **[!UICONTROL Link applications]** Fönster, fyll i följande fält:
+1. I fönstret **[!UICONTROL Link applications]** fyller du i följande fält:
 
    <table style="table-layout:auto"> 
     <col data-mc-conditions=""> 
@@ -197,21 +197,21 @@ Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera off
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Public key]</td> 
-      <td>Klistra in den offentliga nyckeln från <code>[!DNL jira_publickey.pem]</code> -fil.</td> 
+      <td>Klistra in den offentliga nyckeln från din <code>[!DNL jira_publickey.pem]</code>-fil.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Klicka på **[!UICONTROL Continue]**.
-1. Fortsätt till [Skapa en anslutning till [!DNL Jira Server] eller [!DNL Jira Data Center] in [!DNL Workfront Fusion]](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
+1. Fortsätt till [Skapa en anslutning till [!DNL Jira Server] eller [!DNL Jira Data Center] i [!DNL Workfront Fusion]](#create-a-connection-to-jira-server-or-jira-data-center-in-workfront-fusion)
 
-#### Skapa en anslutning till [!DNL Jira Server] eller [!DNL Jira Data Center] in [!DNL Workfront Fusion]
+#### Skapa en anslutning till [!DNL Jira Server] eller [!DNL Jira Data Center] i [!DNL Workfront Fusion]
 
 >[!NOTE]
 >
->Använd [!DNL Jira Server] program att ansluta till [!DNL Jira Server] eller [!DNL Jira Data Center].
-1. I alla [!DNL Jira Server] modulen i [!DNL Workfront Fusion], klicka **[!UICONTROL Add]** bredvid [!UICONTROL connection] fält.
-1. I [!UICONTROL Create a connection] fylla i följande fält:
+>Använd appen [!DNL Jira Server] för att ansluta till [!DNL Jira Server] eller [!DNL Jira Data Center].
+1. Klicka på **[!UICONTROL Add]** bredvid fältet [!UICONTROL connection] i någon [!DNL Jira Server]-modul i [!DNL Workfront Fusion].
+1. Fyll i följande fält i panelen [!UICONTROL Create a connection]:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -223,24 +223,24 @@ Hämta en privat nyckel för [!DNL Workfront Fusion Jira] måste du generera off
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Consumer Key]</td> 
-      <td>Klistra in konsumentnyckeln som du kopierade till en säker plats i <a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">Konfigurera klientappen som en konsument i [!DNL Jira]</a></td> 
+      <td>Klistra in den konsumentnyckel som du kopierade till en säker plats i <a href="#configure-the-client-app-as-a-consumer-in-jira" class="MCXref xref">Konfigurera klientappen som en konsument i [!DNL Jira]</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Private Key]</td> 
-      <td>Klistra in den privata nyckeln från <code>[!DNL jira_privatekey.pcks8]</code> filen som du skapade i <a href="#generate-public-and-private-keys-for-your-jira-connection" class="MCXref xref">Generera offentliga och privata nycklar för din [!DNL Jira] anslutning</a>.</td> 
+      <td>Klistra in den privata nyckeln från filen <code>[!DNL jira_privatekey.pcks8]</code> som du skapade i <a href="#generate-public-and-private-keys-for-your-jira-connection" class="MCXref xref">Generera offentliga och privata nycklar för din [!DNL Jira]-anslutning</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Ange [!DNL Jira] instans-URL. </td> 
+      <td>Ange din [!DNL Jira]-instans-URL. </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
 
-## [!DNL Jira Software] moduler och deras fält
+## [!DNL Jira Software]-moduler och deras fält
 
-När du konfigurerar [!DNL Jira Software] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Jira Software] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Jira Software] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Jira Software] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -254,7 +254,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 #### [!UICONTROL Watch for records]
 
-Den här utlösarmodulen startar ett scenario när en post läggs till, uppdateras eller tas bort.
+Denna utlösarmodul startar ett scenario när en post läggs till, uppdateras eller tas bort.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -266,7 +266,7 @@ Den här utlösarmodulen startar ett scenario när en post läggs till, uppdater
     <ol> 
      <li value="1">Klicka på <strong>[!UICONTROL Add]</strong></li> 
      <li value="2">Ange ett namn för webkroken.</li> 
-     <li value="3"> <p>Välj den anslutning som du vill använda för din webkrok. </p> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </li> 
+     <li value="3"> <p>Välj den anslutning som du vill använda för din webkrok. </p> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </li> 
      <li value="4"> <p>Välj den posttyp som du vill att programmet ska bevaka:</p> 
       <ul> 
        <li>[!UICONTROL Comment] </li> 
@@ -301,7 +301,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sprint ID]</td> 
@@ -316,7 +316,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Create a Record]
 
-Den här åtgärdsmodulen skapar en ny post i Jira.
+Denna åtgärdsmodul skapar en ny post i Jira.
 
 Modulen returnerar alla standardfält som är associerade med posten, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -328,7 +328,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -347,7 +347,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Custom API Call]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Jira Software] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Jira Software] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Jira Software]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Jira Software]-modulerna.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -357,15 +357,15 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till<code>&lt;Instance URL>/rest/api/2/ </code></td> 
+   <td>Ange en sökväg i förhållande till<code>&lt;Instance URL>/rest/api/2/ </code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -377,7 +377,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -401,7 +401,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -433,7 +433,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -444,7 +444,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Read a record]
 
-Den här åtgärdsmodulen läser data från en enda post i [!DNL Jira Software].
+Den här åtgärdsmodulen läser data från en enskild post i [!DNL Jira Software].
 
 Du anger postens ID.
 
@@ -458,11 +458,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Välj typ av [!DNL Jira] spela in som du vill att modulen ska läsa.</p> 
+   <td> <p>Välj den typ av [!DNL Jira]-post som du vill att modulen ska läsa.</p> 
     <ul> 
      <li>[!UICONTROL Attachment]</li> 
      <li>[!UICONTROL Issue]</li> 
@@ -473,11 +473,11 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td>Välj de utdata som du vill ta emot. Utdataalternativen är tillgängliga baserat på vilken typ av post som har valts i[!UICONTROL Record Type]".</td> 
+   <td>Välj de utdata som du vill ta emot. Utdataalternativen är tillgängliga baserat på vilken typ av post som har valts i fältet [!UICONTROL Record Type].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td> <p>Ange eller mappa det unika [!DNL Jira Software] ID för den post som du vill att modulen ska läsa.</p> </td> 
+   <td> <p>Ange eller mappa det unika [!DNL Jira Software]-ID:t för posten som du vill att modulen ska läsa.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -498,7 +498,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -537,7 +537,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -576,14 +576,14 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Jira Software] konto till [!DNL Workfront Fusion], se <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Anslut [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Jira Software]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override="">Ansluta [!DNL Jira Software] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Välj den typ av post som du vill att modulen ska söka efter. När du väljer en posttyp visas andra fält som är specifika för den posttypen i modulen.</p> 
     <ul> 
      <li>[!UICONTROL Issues]</li> 
-     <li> <p>[!UICONTROL Issues by JQL (Jira Query Lanuguage)] </p> <p>Mer information om JQL finns i <a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQLstandsforJiraQuery,projectmanagers%2Candbusinessusers.">JQL</a> på Atlassias hjälpwebbplats. </p> </li> 
+     <li> <p>[!UICONTROL Issues by JQL (Jira Query Lanuguage)] </p> <p>Mer information om JQL finns i <a href="https://www.atlassian.com/blog/jira-software/jql-the-most-flexible-way-to-search-jira-14#:~:text=JQLstandsforJiraQuery,projectmanagers%2Candbusinessusers.">JQL</a> på hjälpwebbplatsen för Atlassian. </p> </li> 
      <li>[!UICONTROL Project]</li> 
      <li>[!UICONTROL Project by issue]</li> 
      <li>[!UICONTROL User]</li> 

@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '764'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan lägga till en anpassad vy i området Anpassad Forms som visar vilka rapporter som använder ett visst anpassat fält eller en viss widget. Det här är användbart när du behöver redigera eller ta bort fältet eller widgeten, eftersom det kanske redan har implementerats i en eller flera rapporter. Det är viktigt att utvärdera om dessa rapporter behöver justeras för att fortsätta fungera som de ska.
 
-Mer information om anpassade fält och widgetar i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) och [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+Mer information om anpassade fält och widgetar i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Åtkomstkrav
 
@@ -44,34 +44,34 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa rapporter som använder ett visst anpassat fält eller en viss widget
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **Anpassad Forms**.
-1. Klicka **Fält** om du vill visa en rapport med en lista över alla anpassade fält och widgetar i din Workfront-instans.
+1. Klicka på **Anpassad Forms** i den vänstra panelen.
+1. Klicka på **Fält** om du vill visa en rapport över alla anpassade fält och widgetar i din Workfront-instans.
 
-1. Klicka på **Visa** söker du efter anpassade vyer i listan som innehåller **Rapporter** -kolumn (som inte är en standardkolumn på den här fliken).
+1. Klicka på menyn **Visa** och sök efter anpassade vyer i listan som innehåller kolumnen **Rapporter** (som inte är en standardkolumn på den här fliken).
 
-   I kolumnen Rapporter kan du se vilka rapporter som använder varje anpassat fält och widget som har lagts till i ett anpassat formulär i systemet. Det är möjligt att någon redan har skapat en vy som innehåller **Rapporter** kolumn.
+   I kolumnen Rapporter kan du se vilka rapporter som använder varje anpassat fält och widget som har lagts till i ett anpassat formulär i systemet. Det är möjligt att någon redan har skapat en vy som innehåller kolumnen **Rapporter**.
 
-1. Om du inte ser en vy som innehåller **Rapporter** skapar du en ny vy som innehåller den:
+1. Om du inte ser en vy som innehåller kolumnen **Rapporter** skapar du en ny vy som innehåller den:
 
-   1. Klicka på **Visa** menyn och klicka sedan på **Ny vy**.
+   1. Klicka på menyn **Visa** och sedan på **Ny vy**.
 
-   1. På **Ny vy** sida som visas i rutan uppe till vänster, ersätt **Ny parametervy** med ett beskrivande namn för vyn, till exempel *Fält och widgetar*.
+   1. Ersätt **Ny parametervy** med ett beskrivande namn för vyn, till exempel *Fält och widgetar*, på sidan **Ny vy** som visas i rutan nära det övre vänstra hörnet.
 
-   1. Klicka **Lägg till kolumn** nära det nedre högra hörnet.
-   1. I **Visa i den här kolumnen** ruta som visas i det övre vänstra hörnet, börja skriva *rapport* väljer **Rapporter** när den visas i listan nedanför rutan.
+   1. Klicka på **Lägg till kolumn** i det nedre högra hörnet.
+   1. I rutan **Visa i den här kolumnen** som visas nära det övre vänstra hörnet börjar du skriva *rapport* och väljer sedan **Rapporter** när den visas i listan nedanför rutan.
 
-   1. (Villkorligt) Om du vill flytta **Rapporter** kolumn som du just har lagt till i en annan vågrät position drar i sidhuvudet i **Förhandsgranska kolumn** området längst ned på sidan.
+   1. (Villkorligt) Om du vill flytta kolumnen **Rapporter** som du just har lagt till till i en annan vågrät position drar du dess rubrik i området **Förhandsvisning av kolumn** längst ned på sidan.
 
-   1. Klicka **Klar** och sedan klicka **Spara vy**.
+   1. Klicka på **Klar** och sedan på **Spara vy**.
 
-1. Klicka på **Visa** väljer du namnet på den anpassade vy du just skapade.
-1. I **Namn** kolumn, hitta det anpassade fält eller den widget som du vill redigera eller ta bort och titta sedan på **Rapporter** på den raden för att se vilka rapporter som använder den, om det finns någon.
+1. Klicka på listrutan **Visa** och välj sedan namnet på den anpassade vy som du just skapade.
+1. I kolumnen **Namn** letar du reda på det anpassade fält eller den widget du vill redigera eller ta bort och tittar sedan i kolumnen **Rapporter** på den raden för att se vilka rapporter som använder det, om det finns några.
 
    För att hitta informationen för den här kolumnen söker Workfront efter anpassade fält och widgetar i alla rapportfilter, vyer, grupperingar.
 
@@ -87,10 +87,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    >
    >Den här vyn är även tillgänglig i en parameterrapport:
    >      
-   > 1. Klicka på Huvudmenyn **Rapporter**.
-   > 1. Klicka på i det övre vänstra hörnet **Ny rapport** och sedan klicka **Parameter** i listan som visas.
-   > 1. Klicka **Lägg till kolumn** nära det nedre högra hörnet.
-   > 1. I **Visa i den här kolumnen** ruta som visas i det övre vänstra hörnet, börja skriva *rapport* väljer **Rapporter** när den visas i listan nedanför rutan.
-   > 1. (Villkorligt) Om du vill flytta **Rapporter** kolumn som du just har lagt till i en annan vågrät position drar i sidhuvudet i **Förhandsgranska kolumn** området längst ned på sidan.
-   > 1. Klicka **Klar** och sedan klicka **Spara+stäng**.
+   > 1. Klicka på **Rapporter** på huvudmenyn.
+   > 1. I närheten av det övre vänstra hörnet klickar du på **Ny rapport** och sedan på **Parameter** i listan som visas.
+   > 1. Klicka på **Lägg till kolumn** i det nedre högra hörnet.
+   > 1. I rutan **Visa i den här kolumnen** som visas nära det övre vänstra hörnet börjar du skriva *rapport* och väljer sedan **Rapporter** när den visas i listan nedanför rutan.
+   > 1. (Villkorligt) Om du vill flytta kolumnen **Rapporter** som du just har lagt till till i en annan vågrät position drar du dess rubrik i området **Förhandsvisning av kolumn** längst ned på sidan.
+   > 1. Klicka på **Klar** och sedan på **Spara+stäng**.
    > 1. Skriv ett beskrivande namn för rapporten, till exempel *Fält och widgetar*.

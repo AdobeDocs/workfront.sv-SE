@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta Final release activity
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i den slutliga betaversionen av 2018.1. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 31 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
+title: 2018.1 Beta Final Release Activity
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i Beta Final-utgåvan 2018.1. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 31 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta Final release activity
+# 2018.1 Beta Final Release Activity
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i den slutliga betaversionen av 2018.1. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 31 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i Beta Final-utgåvan 2018.1. Funktionen gjordes tillgänglig i förhandsvisningsmiljön den 31 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för 2018.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Den slutliga betaversionen 2018.1 innehåller förbättringar för både Workfront-administratörer och andra användare:
+Beta Final-utgåvan 2018.1 innehåller förbättringar för både Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -32,10 +32,10 @@ Den slutliga betaversionen 2018.1 innehåller förbättringar för både Workfro
 
 **För alla användare**
 
-* [Mobilförbättringar](#mobile-enhancements)
+* [Mobila förbättringar](#mobile-enhancements)
 * [Jira-integrering](#jira-integration)
 * [Uppdatera till namn på korrekturläsare](#update-to-proofing-viewer-names)
-* [Växla till synkroniseringskadens vid synkronisering från produktionsmiljön för korrektur till förhandsgranskning](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
+* [Ändra till synkroniseringskopia vid synkronisering från produktionsmiljön för korrektur till förhandsgranskning](#change-to-synchronization-cadence-when-synchronizing-from-the-proofing-production-environment-to-preview)
 * [Varningsmeddelande visas när gränsen på 2 000 objekt nås i resursplaneraren](#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner)
 
 ## Mobilförbättringar {#mobile-enhancements}
@@ -45,7 +45,7 @@ Följande funktionalitet kommer till Mobile App Store i början av mars 2018:
 * Ny navigering: Startsidan för våra mobilappar har fått en ny design.
 * Hem på mobilen: Våra nya hemfunktioner har nu uppdaterats även för våra mobilappar.
 
-Den nya funktionen stöds både för iOS och Android.
+Den nya funktionaliteten stöds för både iOS och Android.
 
 ## Jira-integrering {#jira-integration}
 
@@ -65,7 +65,7 @@ Mer information om Workfront-tillägget för Jira, inklusive en länk för att l
 
 Namnen på det HTML5-baserade korrekturläsaren och de Flash-baserade korrekturläsarna har namnändrats i hela Workfront. De föregående och uppdaterade namnen är följande: 
 
-| **Tidigare namn** | **Uppdaterat namn** |
+| **Föregående namn** | **Uppdaterat namn** |
 |---|---|
 | korrekturläsare för HTML 5 | Nytt korrekturläsare |
 | Språkkontroll för Flash | Språkkontroll för äldre användare |
@@ -101,11 +101,11 @@ Mer information finns i&quot;Konfigurera hur Workfront beräknar resurstimme och
 >
 >Denna ändring träder i kraft den 11 februari 2018.
 
-Data från Workfront Proof Production-miljön synkroniseras nu med Workfront Proof Preview-miljön varje vecka.
+Data från Workfront Proof produktionsmiljö synkroniseras nu till Workfront Proof Preview-miljön varje vecka.
 
-Före den här ändringen synkroniserades data från Workfront Proof Production-miljö till förhandsgranskningsmiljön på månadsbasis, medan data från Workfront Production Environment synkroniserades med Workfront Preview-miljön varje vecka. Den här diskrepansen orsakade vissa synkroniseringsfel när språkfunktionerna i Workfront Preview-miljön användes. 
+Före den här ändringen synkroniserades data från Workfront Proof produktionsmiljö till förhandsvisningsmiljön en gång i månaden, medan data från Workfront produktionsmiljö synkroniserades med Workfront förhandsvisningsmiljö en gång i veckan. Den här diskrepansen orsakade vissa synkroniseringsfel när språkfunktionerna i Workfront Preview-miljön användes. 
 
-Mer information finns i [Testmiljö för förhandsgranskning av sandlådor - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
+Mer information finns i [Testmiljö för förhandsvisning av sandlådor - Workfront Proof](../../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md). 
 
 ## Varningsmeddelande visas när gränsen på 2 000 objekt nås i resursplaneraren {#warning-message-displays-when-the-2-000-item-limit-is-reached-in-the-resource-planner}
 
@@ -117,7 +117,7 @@ Eftersom vi för närvarande arbetar på en mer permanent lösning för att för
 
 När resursplaneraren försöker läsa in fler än 2 000 objekt visas ett meddelande som meddelar att endast 2 000 objekt kan visas.
 
-Mer information om dessa begränsningar och hur de påverkar Resursplaneraren finns i [Resursplanering - visningsbegränsningar](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
+Mer information om dessa begränsningar och hur de påverkar Resursplaneraren finns i [Resursplanerarens visningsbegränsningar](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our beta program for the Resource Planner performance, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a>.</p>

@@ -25,6 +25,6 @@ Eftersom materialet i dina Adobe Creative Cloud Libraries ofta är detaljerat oc
 
 Tidigare var filöverföringen i den här modulen begränsad till 5 MB.
 
-Mer information om modulerna i Adobe Creative Cloud Libraries finns i [Moduler för Adobe Creative Cloud Libraries](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
+Mer information om Adobe Creative Cloud Libraries-moduler finns i [Moduler för Adobe Creative Cloud Libraries](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-Mer information om andra Workfront Fusion-prestandaskydd, inklusive begränsningar för filstorlek, finns i [Adobe Workfront Fusion - prestandaräknare](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Mer information om andra Workfront Fusion-prestandaskydd, inklusive begränsningar för filstorlek, finns i [Adobe Workfront Fusions prestandaskydd](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

@@ -6,14 +6,14 @@ feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
 
 # Översikt över vägbeskrivningar
 
-Bläddringarna visar den fullständiga navigeringshierarkin för alla objekttyper. Varje objekt i den synliga sökvägen har en etikett som visar objekttypen. Den sida som du för närvarande är på visas både i sidhuvudet och i slutet av den synliga sökvägen i kursiv stil. I exemplet nedan är detta &quot;[!UICONTROL Share with Brand Team]&quot;.
+Bläddringarna visar den fullständiga navigeringshierarkin för alla objekttyper. Varje objekt i den synliga sökvägen har en etikett som visar objekttypen. Den sida som du för närvarande är på visas både i sidhuvudet och i slutet av den synliga sökvägen i kursiv stil. I exemplet nedan är det här [!UICONTROL Share with Brand Team]-aktiviteten.
 
 ![Komprimerad vägbeskrivning](assets/NWE-collapsed-breadcrumb.png)
 
@@ -21,9 +21,9 @@ När det finns för många objekt i den synliga sökvägen eller när skärmbred
 
 &quot;3 till&quot; i bilden ovan visar till exempel att 3 objekt inte visas. Objekten kan finnas ovanför projektnivån eller mellan projektet och den aktuella sidan.
 
-Klicka på[!UICONTROL more]&quot; kan du utöka hela hierarkin. Du kan klicka på[!UICONTROL Less]&quot; för att komprimera den synliga sökvägen igen.
+Om du klickar på [!UICONTROL more] kan du expandera hela hierarkin. Du kan klicka på [!UICONTROL Less] om du vill komprimera den synliga sökvägen igen.
 
-![Utökad felsökningsfunktion](assets/NWE-expanded-breadcrumb.png)
+![Utökat felsökningsmeddelande](assets/NWE-expanded-breadcrumb.png)
 
 Du kan även använda följande tangenter för att navigera bland vägbeskrivningarna:
 
@@ -63,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta din [!DNL Workfront] administratör.
+*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 +++
 
@@ -86,9 +86,9 @@ The multi-object listing in the breadcrumb (for example, the campaigns) displays
 
 ## Få åtkomst till ett överordnat objekt från vägbeskrivningarna
 
-Mer information om överordnade objekt i [!DNL Workfront], se [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om överordnade objekt i [!DNL Workfront] finns i [Förstå objekt i [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Villkorligt) Om du inte ser det objekt du vill navigera till i en komprimerad sökväg klickar du på **[!UICONTROL more]** letar du reda på objektet.
+1. (Villkorligt) Om du inte ser det objekt du vill navigera till i en komprimerad sökväg klickar du på **[!UICONTROL more]** och letar sedan reda på objektet.
 
    >[!NOTE]
    >

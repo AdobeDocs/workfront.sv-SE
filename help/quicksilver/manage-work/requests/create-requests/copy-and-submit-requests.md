@@ -8,7 +8,7 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -68,11 +68,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till problem</p> <p><b>ANMÄRKNING</b>
 
-Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Åtkomst att lägga till begäranden i en begärandekö</p> <p>Visa eller högre behörigheter för den befintliga begäran</p> <p>Mer information om hur du ställer in en begärandekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. </p> </td> 
+   <td> <p>Åtkomst att lägga till begäranden i en begärandekö</p> <p>Visa eller högre behörigheter för den befintliga begäran</p> <p>Mer information om hur du konfigurerar en begärandekö finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 * Du kan bara kopiera och skicka skickade begäranden. Du kan inte kopiera utkast.
 * Du kan kopiera och skicka in begäranden som du ursprungligen skickade, eller förfrågningar som andra skickat och du har tillgång till åtminstone Visa.
 * Du har alltid tillgång till att kopiera och skicka in en kopia av dina egna förfrågningar, såvida inte någon har tagit bort dina behörigheter till dem.
-* Åtkomst till kopierings- och sändningsbegäranden som ursprungligen skickats in av andra personer kan beviljas automatiskt till personer i samma företag när den som skapade kön för begäran aktiverar **Personer från samma företag ärver samma behörigheter för alla begäranden** under Köinformation eller Redigera projekt. Om du inaktiverar den här inställningen kan endast den som gjorde originalet visa sina egna förfrågningar.
+* Åtkomst till kopierings- och sändningsbegäranden som ursprungligen skickades av andra kan beviljas automatiskt till personer i samma företag när den som skapade frågekö aktiverar **Personer från samma företag ärver samma behörigheter för alla begäranden** i områdena Köinformation eller Redigera projekt. Om du inaktiverar den här inställningen kan endast den som gjorde originalet visa sina egna förfrågningar.
 
   Mer information finns i följande artiklar:
 
@@ -105,12 +105,12 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
      >
      >Om köämnet var det enda i begärandekön kan du fortfarande kopiera och skicka begäran, och den kommer att sparas i själva begärandekön.
 
-   * Begärandekön publiceras inte längre som en kö för hjälpbegäranden. Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   * Begärandekön publiceras inte längre som en kö för hjälpbegäranden. Mer information finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    * Om begärandekön inte har något köämne och den ursprungliga begäran skickades före januari 2022.
 
    * Status för det projekt som är associerat med begärandekön är inte längre Aktuell.
 
-* Du kan kopiera och skicka en kopia av en konverterad begäran om den bevaras i konverteringsprocessen. Mer information finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+* Du kan kopiera och skicka en kopia av en konverterad begäran om den bevaras i konverteringsprocessen. Mer information finns i [Översikt över konvertering av problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
   >[!TIP]
   >
@@ -118,8 +118,8 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 ## Kopiera och skicka begäranden
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Begäranden**.
-1. (Villkorligt) Om avsnittet Skickat inte visas som standard klickar du på **Skickat** till vänster.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Förfrågningar**.
+1. (Villkorligt) Om avsnittet Skickat inte visas som standard klickar du på **Skickat** i den vänstra panelen.
 
    >[!TIP]
    >
@@ -133,11 +133,11 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
    >
    > Om du inte valde någon begäran först är ikonen Kopiera nedtonad.
 
-   * Klicka på **Mer** meny ![](assets/more-icon.png) till höger om namnet på begäran och klicka sedan på **Kopiera och skicka som nya**
+   * Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om namnet på begäran, klicka sedan på **Kopiera och skicka som nytt**
 
      eller
 
-     Högerklicka på den valda begäran och klicka sedan på **Kopiera och skicka som nya**.
+     Högerklicka på den valda begäran, klicka sedan på **Kopiera och skicka som ny**.
 
      ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
@@ -147,14 +147,14 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
 
 1. (Valfritt) Uppdatera följande information vid behov:
 
-   * **Typ av begäran**: den begärandekö där den kopierade begäran sparas. Som standard sparas den kopierade begäran i begärandekön för den ursprungliga begäran.
+   * **Typ av begäran**: begärandekön där den kopierade begäran sparas. Som standard sparas den kopierade begäran i begärandekön för den ursprungliga begäran.
    * **Ämnesgrupper** och **Köämnen**, om de är markerade. Namnen eller ämnesgrupperna och köämnena är anpassade för din miljö. Som standard sparas den kopierade begäran i ämnesgrupperna och i köämnena i den ursprungliga begäran.
 
      >[!TIP]
      >
      >Om sökvägen ändras från sökvägen till den ursprungliga begäran har kön ändrats av den som skapade kön.
 
-1. (Valfritt) Uppdatera eventuell information från den kopierade begäran. Beroende på vilka fält som skaparen av begärandekön har aktiverat i **Nya fält** i **Köinformation** kan du hitta något av följande fält:
+1. (Valfritt) Uppdatera eventuell information från den kopierade begäran. Beroende på vilka fält som den som har skapat kön för begäranden har aktiverat i avsnittet **Fält för nya problem** på underfliken **Köinformation** i projektet, kan du hitta något av följande fält:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -162,7 +162,7 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Ämne</strong> </td> 
-      <td>Visar namnet på den ursprungliga begäran. Uppdatera den om det behövs. Annars namnger Workfront den kopierade begäran <b>Kopia av &lt;name of="" original="" request=""&gt;</b>. Detta är ett obligatoriskt fält.</td> 
+      <td>Visar namnet på den ursprungliga begäran. Uppdatera den om det behövs. Annars namnger Workfront den kopierade begäran <b>Kopian av &lt;namnet på den ursprungliga begäran&gt;</b>. Detta är ett obligatoriskt fält.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Beskrivning</strong> </td> 
@@ -241,6 +241,6 @@ Du måste ha en begäran om att du eller någon i din organisation som tidigare 
    >* Alla anpassade formulär som är kopplade till den ursprungliga begäran och värdena som är inkluderade i de anpassade fälten överförs till den kopierade begäran. Detta inkluderar fält som innehåller logik.
    >* Du kan inte ta bort anpassade formulär från den kopierade begäran.
 
-1. Klicka **Skicka**.
+1. Klicka på **Skicka**.
 
    Den kopierade begäran skickas som en ny begäran i den begärandekö som du angav.

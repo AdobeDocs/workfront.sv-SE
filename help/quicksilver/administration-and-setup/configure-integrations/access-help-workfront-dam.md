@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Hjälp för [!UICONTROL [!DNL Adobe Workfront] DAM]
+# Hjälp om [!UICONTROL [!DNL Adobe Workfront] DAM]
 
-[!UICONTROL [!DNL Adobe Workfront] DAM] är ett DAM-system (Digital Asset Management) inom [!DNL Workfront] som gör att du kan lagra, ordna, söka, hämta och dela digitala filer.
+[!UICONTROL [!DNL Adobe Workfront] DAM] är ett DAM-system (Digital Asset Management) i [!DNL Workfront] som gör att du kan lagra, ordna, söka, hämta och dela digitala filer.
 
-Du kan få supportdokumentation för [!UICONTROL [!DNL Workfront] DAM]  på följande platser:
+Du kan få supportdokumentation för [!UICONTROL [!DNL Workfront] DAM] på följande platser:
 
-* Om du använder den fristående [!UICONTROL Workfront DAM] program (utanför huvudprogrammet [!DNL Workfront] program), se [!DNL Webdam] Hjälpwebbplats.
-* Om du utnyttjar [!UICONTROL [!DNL Workfront] DAM] i huvudprogrammet [!DNL Workfront] program, se [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] inom [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-* OBS! Om du behöver skicka in en förfrågan om nya funktioner eller logga ett problem kontaktar du [!DNL Workfront] Kundsupport via telefon, e-post eller [!DNL Workfront] Hjälpwebbplats. Mer information finns i [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+* Om du använder det fristående [!UICONTROL Workfront DAM]-programmet (utanför huvudprogrammet för [!DNL Workfront]) kan du gå till hjälpwebbplatsen för [!DNL Webdam].
+* Om du använder [!UICONTROL [!DNL Workfront] DAM]-funktioner i huvudprogrammet för [!DNL Workfront] läser du [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] i  [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* Obs! Om du behöver skicka in en begäran om nya funktioner eller logga ett problem kan du kontakta [!DNL Workfront] kundsupport via telefon, e-post eller hjälpwebbplatsen för [!DNL Workfront]. Mer information finns i [Kontakta kundsupport](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

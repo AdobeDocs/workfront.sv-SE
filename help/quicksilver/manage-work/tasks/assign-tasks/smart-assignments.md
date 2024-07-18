@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
@@ -30,7 +30,7 @@ När du hanterar uppgifter och ärenden kan du använda smarta tilldelningar fö
 >
 >När du föreslår användare tar smarta tilldelningar inte hänsyn till användarens tillgänglighet. Men deras tillgänglighet enligt scheman påverkar planerade och planerade datum för uppgifter och ärenden när de tilldelas. Mer information om scheman finns i artikeln [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-Den här artikeln innehåller allmän information om smarta tilldelningar. Mer information om hur du använder smarta tilldelningar för att tilldela uppgifter och utgåvor till användare finns i [Gör smarta uppdrag](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
+Den här artikeln innehåller allmän information om smarta tilldelningar. Mer information om hur du använder smarta tilldelningar för att tilldela uppgifter och utgåvor till användare finns i [Skapa smarta tilldelningar](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ## Översikt över smarta uppdrag
 
@@ -53,7 +53,7 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* <span class="preview">En uppgiftsrubrik i uppdragsfältet</span>
+* <span class="preview">En aktivitetsrubrik i uppdragsfältet</span>
 
   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
@@ -88,7 +88,7 @@ Smarta uppdrag fungerar annorlunda för uppgifter än för ärenden.
 
 Beräkningen av smarta tilldelningar för aktiviteten fungerar i två faser som använder två olika algoritmer.
 
-Beroende på vilken algoritm som hittar den smarta tilldelningen visas tilldelningarna under två separata avsnitt i fältet Uppdrag. Mer information finns i [Gör smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+Beroende på vilken algoritm som hittar den smarta tilldelningen visas tilldelningarna under två separata avsnitt i fältet Uppdrag. Mer information finns i [Skapa smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
 
@@ -124,7 +124,7 @@ Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas 
 
   Om Rick till exempel tilldelades en liknande uppgift tidigare i dag och Jennifer tilldelades en liknande uppgift för två dagar sedan visas Rick först.
 
-* Uppdrag som identifieras i den här fasen listas i    **Föreslagna tilldelningar**  i uppdragsfältet för uppgifter.
+* Uppdrag som identifieras i den här fasen listas i    **Föreslagna tilldelningar** i uppdragsfältet för uppgifter.
 
 * Om det inte finns några matchningar som använder den här beräkningen startar den andra fasen av smarta tilldelningar, som beräknas med en annan algoritm.
 
@@ -132,9 +132,9 @@ Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas 
 
 Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Workfront smarta tilldelningar för uppgifter på samma sätt som när de beräknas för problem.
 
-Mer information finns i avsnittet [Kriterier för smarta uppdrag för uppgifter och ärenden](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
+Mer information finns i avsnittet [Kriterier för smarta tilldelningar för uppgifter och problem](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
-Uppdrag som identifieras i den här fasen listas i **Användare och team**, **Jobbrolltilldelningar** och **Klassificera kortroller**  i uppdragsfältet. Mer information om priskort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Uppdrag som identifieras i den här fasen visas i avsnitten **Användare och team**, **Jobbrolltilldelningar** och **Klassificera kortroller** i fältet Uppdrag. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 
@@ -142,7 +142,7 @@ Uppdrag som identifieras i den här fasen listas i **Användare och team**, **Jo
 
 >[!NOTE]
 >
-><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för uppgifter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
+><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i den smarta tilldelningsberäkningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för aktiviteter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
 
 <span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 

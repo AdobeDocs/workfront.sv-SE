@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjorts inom tidsramen för version 23.3. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.
 
-En lista över alla ändringar som är tillgängliga i version 23.3 finns i [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 23.3 finns i [23.3 versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Gränssnittsförbättringar för listor med begäranden
 

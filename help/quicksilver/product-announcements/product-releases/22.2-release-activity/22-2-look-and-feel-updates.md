@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjorts inom tidsramen för version 2.2. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.
 
-En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2.2 finns i [2.2 versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Uppdaterad godkännandesida
 
@@ -35,7 +35,7 @@ Godkännandesidorna i följande områden har nu ett modernt utseende och känsla
 
 >[!NOTE]
 >
-Förhandsversion: 24 februari 2022; Uppskattad produktionsrelease: fasad utrullning från 9 mars, med tillgänglighet för alla kunder fram till 18 mars 2022.
+>Förhandsversion: 24 februari 2022; Uppskattad produktionsrelease: fasad utrullning från 9 mars, med tillgänglighet för alla kunder fram till 18 mars 2022.
 
 Vi har förbättrat prestandan för dokumentområdet i Workfront. Sidan Dokument läses nu in avsevärt snabbare.
 
@@ -55,7 +55,7 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 
 >[!NOTE]
 >
-Verktygsfältet för samma rapporter på kontrollpanelerna uppdaterades också i Production med veckovisa [Underhållsuppdatering](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) den 3 mars 2022.
+>Verktygsfältet för samma rapporter på kontrollpaneler uppdaterades också i Production med [underhållsuppdateringen](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) varje vecka den 3 mars 2022.
 
 * Projektrapporter
 * Uppgiftsrapporter

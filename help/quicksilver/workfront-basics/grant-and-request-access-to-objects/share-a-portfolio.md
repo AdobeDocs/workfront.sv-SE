@@ -52,11 +52,11 @@ I följande tabell visas vilka behörigheter du kan ge användare när de får v
 | Ta bort en Portfolio | ✓ |   |
 | Bifoga ett eget formulär | ✓ |   |
 | Redigera ett anpassat fält | ✓ |   |
-| Lägga till eller ta bort ett program&#42; | ✓ |   |
-| Lägga till eller ta bort ett projekt&#42; | ✓ |   |
+| Lägg till eller ta bort ett program&#42; | ✓ |   |
+| Lägg till eller ta bort ett projekt&#42; | ✓ |   |
 | Godkänn ett projekt | ✓ |   |
-| Optimering för Portfolio&#42; | ✓ |   |
-| Lägga till en dokumentmapp&#42; | ✓ | ✓ |
+| Optimering för Portfolio &#42; | ✓ |   |
+| Lägg till en dokumentmapp &#42; | ✓ | ✓ |
 | Lägga till ett dokument | ✓ | ✓ |
 | Uppdateringar/kommentarer | ✓ | ✓ |
 | Dela | ✓ | ✓ |

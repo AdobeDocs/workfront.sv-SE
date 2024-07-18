@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
-title: '''Sparka igång-scenario: Förberedelser för företag, grupper, roller och användare har startats'
+title: 'Spark-Starts-scenario: Förberedelser för företag, grupp, roll och användare har startats'
 description: När du börjar implementera Adobe Workfront, i stället för att ange data manuellt, kan du importera kundlistan, interna avdelningar, jobbroller och användarinformation.
 author: Caroline
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1104'
 ht-degree: 0%
 
 ---
 
-# Scenario: Förberedelser för företag, grupper, roller och användares snabbstart
+# Scenario med snabb start: Förberedelser för företag, grupper, roller och användare har startats
 
 När du börjar implementera Adobe Workfront, i stället för att ange data manuellt, kan du importera kundlistan, interna avdelningar, jobbroller och användarinformation.
 
@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,7 +62,7 @@ I följande tabell visas de företag, grupper och roller som ska importeras:
   <tr> 
    <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>Ditt företag</em> </p> <p>XYZ, Inc.</p> </td> 
    <td valign="top"> <p valign="top" rowspan="7">Ekonomi</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">Marknadsföring </p> <p valign="top" rowspan="7">Försäljning</p> </td> 
-   <td valign="top"> <p valign="top">Affärsanalytiker</p> <p valign="top">Kreativ styrenhet</p> <p valign="top">Designer</p> <p valign="top">Resurshanteraren</p> <p valign="top">Scrum Överordnad</p> <p valign="top">Teknikskribent</p> <p valign="top">Webbutvecklare</p> </td> 
+   <td valign="top"> <p valign="top">Affärsanalytiker</p> <p valign="top">Kreativ styrenhet</p> <p valign="top">Designer</p> <p valign="top">Resurshanteraren</p> <p valign="top">Scrum Master</p> <p valign="top">Teknikskribent</p> <p valign="top">Webbutvecklare</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,7 +83,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 | **Hemgrupp** | Marknadsföring |
 | **Jobbroll** | Affärsanalytiker |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Användare 2
 
@@ -97,7 +97,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 | **Hemgrupp** | Marknadsföring |
 | **Jobbroll** | Projektledare |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Användare 3
 
@@ -111,7 +111,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 | **Hemgrupp** | Försäljning |
 | **Jobbroll** | Säljare |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Användare 4
 
@@ -125,7 +125,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 | **Hemgrupp** | Ekonomi |
 | **Jobbroll** | Styrenhet |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Användare 5
 
@@ -139,7 +139,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 | **Hemgrupp** | Marknadsföring |
 | **Jobbroll** | IT |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Användare 6
 
@@ -153,20 +153,20 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 | **Hemgrupp** | Resurshanteraren |
 | **Jobbroll** | ingen |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Ladda ned en snabbstartsmall
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **System** > **Spark-Starts** > **Importera data.**
+1. Klicka på **System** > **Snabbstart** > **Importera data.**
 
-1. Klicka **Fler alternativ** om du vill se en fullständig lista över importalternativ.
+1. Klicka på **Fler alternativ** om du vill se en fullständig lista över importalternativ.
 1. Markera de åtkomstnivå, företag, grupper, jobbroller och användarobjekt som du vill importera.
 
 ## Ange företagsinformation
 
-1. Öppna **Workfront.xlsx** som du just laddat ned.
+1. Öppna filen **Workfront.xlsx** som du just laddat ned.
 
    >[!TIP]
    >
@@ -178,7 +178,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
    ![](assets/companyid--1--350x78.png)
 
-1. Ange TRUE i dialogrutan **isNew** kolumn.
+1. Ange TRUE i kolumnen **isNew**.
 1. Upprepa den här åtgärden för varje företag som läggs till. (I det här exemplet slutför du den här åtgärden för raderna 3-6 eftersom fyra företag läggs till.)
 
    ![](assets/cmpyisnew-350x86.png)
@@ -191,17 +191,17 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 1. Ange ett namn.
 
-   Ange namnen på varje kund i **setName** kolumn.
+   Ange namnen på varje kund i kolumnen **setName**.
 
    ![](assets/companyid-350x78.png)
 
-1. Gå till GROUP Group-bladet.
+1. Gå till GROUP Group-arket.
 
    Om du inte redan har skapat grupper i Workfront ska det här bladet endast visa standardgruppen som har etablerats med alla Workfront-konton.
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. Ange **isNew** column.Enligt scenariot importeras fyra grupper, så ange TRUE i rader 4 till 7 för kolumnen &#39;isNew&#39;.
+1. Ange kolumnen **isNew**.Enligt scenariot importeras fyra grupper, så ange TRUE i raderna 4 till 7 för kolumnen &#39;isNew&#39;.
 1. Ange ett unikt ID.
 
    Detta måste göras för varje rad för ID-kolumnen. Heltal som börjar vid 1 fungerar bra när du skapar nya poster.
@@ -210,11 +210,11 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 1. Ange ett namn.
 
-   Ange namnen på varje avdelning i **setName** kolumn.
+   Ange namnen på varje avdelning i kolumnen **setName**.
 
    ![](assets/groupnames-350x85.png)
 
-   Ange rollinformation. Gå till ROLE Role-bladet.
+   Ange rollinformation. Gå till ROLLrollbladet.
 
 1. Om du inte redan har skapat eller tagit bort roller i ditt konto, ska det här bladet innehålla 8 roller som har tilldelats med alla Workfront-konton.
 
@@ -266,7 +266,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 1. Ange åtkomstnivåvärden.
 
-   Chris Manning, som är teammedlem, kan till exempel slå upp ID:t på ACSLVL-åtkomstnivåbladet för teammedlemmens åtkomstnivå. Kopiera ID:t till Urklipp och klistra in det på användarbladet i dialogrutan **setAccessLevelID** kolumn på Chris rad.
+   Chris Manning, som är teammedlem, kan till exempel slå upp ID:t på ACSLVL-åtkomstnivåbladet för teammedlemmens åtkomstnivå. Kopiera ID:t till Urklipp och klistra in det på användarbladet i kolumnen **setAccessLevelID** på raden Chris.
 
    Upprepa det här steget för varje användare och åtkomstnivå.
 
@@ -274,13 +274,13 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 1. Ange hemgruppsinformation.
 
-   Enligt scenariot tillhör Chris Manning marknadsföringsgruppen. På GROUP Group-bladet letar du reda på ID:t för marknadsföringsgruppen, kopierar det till Urklipp och klistrar in det på användarbladet i dialogrutan **setHomeGroupID** kolumn på Chris rad. &#x200B;Upprepa det här steget för varje användare och grupptilldelning.
+   Enligt scenariot tillhör Chris Manning marknadsföringsgruppen. På GROUP Group-bladet letar du reda på ID:t för marknadsföringsgruppen, kopierar det till Urklipp och klistrar in det i kolumnen **setHomeGroupID** på raden Chris i användarbladet. &#x200B;Upprepa det här steget för varje användare och grupptilldelning.
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
 1. Ange företagsinformation.
 
-   Alla användare i det här scenariot tillhör samma företag. På CMPY Company-bladet letar du reda på ID:t för *Ditt eget företag *företag, kopierar ID:t till Urklipp och klistrar in det här värdet på varje rad i kolumnen &#39;setCompanyID&#39; på fliken ANVÄNDARE. &#x200B;
+   Alla användare i det här scenariot tillhör samma företag. På CMPY Company-bladet letar du reda på ID:t för *Ditt eget företag *företag, kopierar ID:t till Urklipp och klistrar in det här värdet på varje rad i kolumnen setCompanyID på fliken ANVÄNDARE. &#x200B;
 
    Upprepa det här steget för varje användare och grupptilldelning.
 
@@ -299,4 +299,4 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 1. Fyll i annan användarinformation efter behov och spara sedan filen.
 1. Importera Excel-filen.
 
-   Följ anvisningarna i **Importera snabbstartsfiler** i den här artikeln.
+   Följ anvisningarna i avsnittet **Importera snabbstartsfiler** i den här artikeln.

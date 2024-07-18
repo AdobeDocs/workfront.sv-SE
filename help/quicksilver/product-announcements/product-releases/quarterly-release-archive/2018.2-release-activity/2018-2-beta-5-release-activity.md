@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 5 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 5-versionen. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 juni 2018. Förbättrade korrekturfunktioner som lanseras med Beta 5 kommer att vara tillgängliga i förhandsvisningsmiljön måndagen den 4 juni. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 5. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 juni 2018. Förbättringar av korrektur som släpps med Beta 5 kommer att finnas tillgängliga i förhandsvisningsmiljön måndagen den 4 juni. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2018.2 Beta 5 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 5-versionen. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 juni 2018. Förbättrade korrekturfunktioner som lanseras med Beta 5 kommer att vara tillgängliga i förhandsvisningsmiljön måndagen den 4 juni. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 5. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 juni 2018. Förbättringar av korrektur som släpps med Beta 5 kommer att finnas tillgängliga i förhandsvisningsmiljön måndagen den 4 juni. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för 2018.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Beta 5-versionen från 2018.2 innehåller förbättringar för Workfront-administratörer och andra användare:
+2018.2 Beta 5 innehåller förbättringar för Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -34,20 +34,20 @@ Beta 5-versionen från 2018.2 innehåller förbättringar för Workfront-adminis
 **För alla användare**
 
 * [Kalendervy i hemområdet](#calendar-view-in-the-home-area)
-* [Ytterligare uppdateringar av arbetslistan (vänster panel) i hemmet](#additional-updates-to-the-work-list-left-panel-in-home)
-* [Konfigurera begränsningar för jobbroller för automatisk resursschemaläggning](#configure-job-role-limits-for-automated-resource-scheduling)
+* [Ytterligare uppdateringar i arbetslistan (vänster panel) i Hem](#additional-updates-to-the-work-list-left-panel-in-home)
+* [Konfigurera jobbrollsgränser för automatisk resursplanering](#configure-job-role-limits-for-automated-resource-scheduling)
 * [Förbättringar av projekt- och rollvyn i resursplaneraren](#project-and-role-view-improvements-in-the-resource-planner)
 * [Ändra storlek på kolumnbredder för projektlistor](#resize-column-widths-for-project-lists)
 * [Ikonstöd för nya projektlistor](#icon-support-for-the-new-project-lists)
 * [Lägg till fältet&quot;Stora miniatyrbilder&quot; i dokumentvyer](#add-large-thumbnail-field-in-document-views)
 * [Öka exportgränsen för Excel](#increase-excel-export-limit)
 * [Snabbfilter för projektlistor](#quick-filters-for-project-lists)
-* [ReferensÄrendesamlingar i projekt- och uppgiftsrapporter](#reference-issue-collections-in-project-and-task-reports)
-* [Ny mer robust versionsmeny när nya dokumentversioner läggs till i Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
-* [Mobilförbättringar i mobilappen Android Beta](#mobile-improvements-in-the-android-beta-mobile-app)
-* [Förbättringar av korrekturläsare (Workfront och Workfront-korrektur)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
-* [Förbättringar av korrektur i Workfront](#proofing-enhancements-in-workfront)
-* [Förbättringar av korrektur i Workfront](#proofing-enhancements-in-workfront-proof)
+* [Referensutgåvsamlingar i projekt- och aktivitetsrapporter](#reference-issue-collections-in-project-and-task-reports)
+* [Ny, mer robust version-meny när nya dokumentversioner läggs till i Workfront](#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront)
+* [Mobilförbättringar i Android Beta-mobilappen](#mobile-improvements-in-the-android-beta-mobile-app)
+* [Förbättringar av korrekturläsare (Workfront och Workfront Proof)](#proofing-viewer-enhancements-workfront-and-workfront-proof)
+* [Språkförbättringar i Workfront](#proofing-enhancements-in-workfront)
+* [Förbättringar av korrektur i Workfront Proof](#proofing-enhancements-in-workfront-proof)
 
 ## Kalendervy i hemområdet {#calendar-view-in-the-home-area}
 
@@ -74,7 +74,7 @@ Följande förbättringar är nu tillgängliga för arbetslista i hemområdet:
 
   Tidigare visades slutförda poster för de senaste tre månaderna.
 
-  Mer information om hur du visar det färdiga arbetet i hemområdet finns i [Visa objekt i arbetslista i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) i artikeln [Visa objekt i arbetslista i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Mer information om hur du visar det färdiga arbetet i Hem-området finns i [Visa objekt i Arbetslista i Hem](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) i artikeln [Visa objekt i Arbetslista i Hem](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Lägg till fältet Varaktighet och fältet Uppdrag som ska visas när objekt markeras i området Hem.
 
@@ -82,7 +82,7 @@ Följande förbättringar är nu tillgängliga för arbetslista i hemområdet:
 
   Mer information om hur du lägger till fält i området Hem finns i&quot;Skapa och hantera layoutmallar&quot;.
 
-Mer information om hur du använder området Hem finns i [Använda området Hem](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Mer information om hur du använder Hem-området finns i [Använda Hem-området](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Visa ändringar som utlösts av användaren med granskningsloggar {#view-user-triggered-changes-with-audit-logs}
 
@@ -133,7 +133,7 @@ Resursplaneringens projekt- och rollvyer innehåller nu följande förbättringa
 
 Före dessa förbättringar har du rapporterat att resursplaneraren var långsam att läsa in och att du har upptäckt inkonsekvenser i de data som visas. Dessa förbättringar bör nu tas bort.
 
-Mer information och information om de nya gränserna för resursplaneraren finns i [Resursplanering - visningsbegränsningar](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+Mer information och information om de nya gränserna för resursplaneraren finns i [Resursplaneringsbegränsningar](../../../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref" xrefformat="{para}">Resource Planner performance beta </a></p>
@@ -155,9 +155,9 @@ När du nu drar den högra kanten på en kolumn för att ändra storlek på den 
 
 Före den här förbättringen ändras storleken på den intilliggande kolumnen till höger om den storleksändrade kolumnen proportionellt så att den får plats på skärmen. Du kan inte dra kanten på en kolumn förbi den intilliggande kolumnens högra kant.  
 
-Mer information om hur du ändrar ordning på kolumnerna i listor finns i [Ändra kolumnbredd och -ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Mer information om hur du ändrar ordning på kolumnerna i listor finns i [Ändra kolumnbredd och ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Om du vill delta i vårt betatestningsprogram och se vilka förbättringar som finns i listan kan du läsa [New Lists Study.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Inloggning krävs)
+Om du vill delta i vårt betatestningsprogram och se de aktuella förbättringarna i listan kan du läsa [New Lists Study.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) (Inloggning krävs)
 
 ## Ikonstöd för nya projektlistor {#icon-support-for-the-new-project-lists}
 
@@ -208,7 +208,7 @@ För närvarande är snabbfilter bara tillgängliga för projektlistorna på fö
 * Projekt jag äger
 * Alla projekt
 
-Mer information om snabbfilter finns i avsnittet Använda snabbfilter på listor i [Kom igång med listor i Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Mer information om snabbfilter finns i avsnittet Använda snabbfilter i listor i [Kom igång med listor i Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ## ReferensÄrendesamlingar i projekt- och uppgiftsrapporter {#reference-issue-collections-in-project-and-task-reports}
 
@@ -222,7 +222,7 @@ Mer information om hur du använder textläge finns i  [Översikt över vanliga
 
 >[!NOTE]
 >
->I följande video var exempeltextläget för utskickssamlingar felaktigt. Det korrekta exempeltextläget är tillgängligt i [Referenssamlingar i en rapport](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>I följande video var exempeltextläget för utskickssamlingar felaktigt. Det korrekta exempeltextläget är tillgängligt i [referenssamlingar i en rapport](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Ny mer robust versionsmeny när nya dokumentversioner läggs till i Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -243,9 +243,9 @@ Följande alternativ är nu tillgängliga på menyn Ny version för alla område
 * Länkade alternativ (Från Dropbox, Från Google Drive och så vidare)
 * Klistra in från Urklipp (detta är ett nytt alternativ när du lägger till versioner)
 
-Mer information finns i [Lägga till dokument i Adobe Workfront från filsystemet](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) i artikeln [Lägga till dokument i Adobe Workfront från filsystemet](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Mer information finns i [Lägga till dokument i Adobe Workfront från ditt filsystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) i artikeln [Lägga till dokument i Adobe Workfront från ditt filsystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-## Mobilförbättringar i mobilappen Android Beta {#mobile-improvements-in-the-android-beta-mobile-app}
+## Mobilförbättringar i Android Beta mobilapp {#mobile-improvements-in-the-android-beta-mobile-app}
 
 Följande förbättringar kommer att vara tillgängliga i Android Beta-versionen av mobilappen kort efter den här versionen:
 
@@ -270,15 +270,15 @@ Följande förbättringar kommer att vara tillgängliga i Android Beta-versionen
 
 I den här versionen är dessa förbättringar bara tillgängliga för Android Beta-versionen av Workfront-mobilappen. De är för närvarande inte tillgängliga för iOS.
 
-Mer information om hur du registrerar dig som betatestare och laddar ned betaversionen av Workfront mobilapp finns i .
+Mer information om hur du registrerar dig som betatestare och laddar ned Android Beta-versionen av Workfront mobilapp finns i .
 
-## Förbättringar av korrekturläsare (Workfront och Workfront-korrektur) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
+## Förbättringar av korrekturläsare (Workfront och Workfront Proof) {#proofing-viewer-enhancements-workfront-and-workfront-proof}
 
-* [Uppdaterad sida för utskriftssammanfattning](#updated-print-summary-page)
+* [Uppdaterad utskriftssammanfattning](#updated-print-summary-page)
 * [Lägg till användare i ett korrektur direkt från korrekturläsaren](#add-users-to-a-proof-directly-from-the-proofing-viewer)
 * [Visa alla markeringsverktyg i korrekturläsaren](#display-all-markup-tools-in-the-proofing-viewer)
 * [Konfigurera standardalternativ för sortering i korrekturläsaren](#configure-default-sorting-options-in-the-proofing-viewer)
-* [Visa Workfront-dokumentgodkännanden i korrekturläsaren för skrivbordet](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
+* [Visa Workfront-dokumentgodkännanden i Desktop Proofing Viewer](#view-workfront-document-approvals-in-the-desktop-proofing-viewer)
 * [Konfigurera länkar som öppnar nya flikar och fönster för att öppnas i Desktop Proofing Viewer](#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer)
 * [Visningsindikator i korrekturläsaren](#presence-indicator-in-the-proofing-viewer)
 * [Filtrera kommentarer för att visa en sida för interaktiva URL-korrektur i korrekturläsaren för skrivbordet](#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer)
@@ -321,7 +321,7 @@ Nu kan du fatta ett beslut om godkännande av Workfront-dokument i Desktop Proof
 
 Tidigare var det bara i Web Proofing Viewer som du kunde godkänna Workfront-dokument. 
 
-Mer information finns i  [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) i artikeln  [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Mer information finns i  [Välj ett korrektur i korrekturläsaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) i artikeln  [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Konfigurera länkar som öppnar nya flikar och fönster för att öppnas i Desktop Proofing Viewer {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -351,7 +351,7 @@ Desktop Proofing Viewer har nu stöd för statiskt innehåll och videomaterial.
 
 Tidigare hade det bara stöd för interaktivt innehåll.
 
-Mer information om hur du konfigurerar statiska korrektur och videoklipp att öppna i Desktop Proofing Viewer finns i [Konfigurera inställningar för korrekturläsare](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Mer information om hur du konfigurerar statiska korrektur och videoklipp att öppnas i Desktop Proofing Viewer finns i [Konfigurera inställningar för korrekturläsare](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 Mer information om Desktop Proofing Viewer finns i [Granska korrektur i Desktop Proofing Viewer.](https://support.workfront.com/hc/en-us/sections/360000686434)
 
@@ -407,7 +407,7 @@ I rapporter som innehåller dokumentversionsobjektet (t.ex. en dokumentversionsr
 
   Visar förloppsstatus för beviset (Skickat, Öppnat, Kommenterat, Beslutsgjort).
 
-Mer information om dessa fält finns i  [Ordlista för Adobe Workfront-terminologi](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Mer information om dessa fält finns i  [Ordlista för Adobe Workfront-termer](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ### Visa historiska data för korrekturgodkännanden i Workfront {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -415,23 +415,23 @@ I rapporten Korrektur för godkännande kan du lägga till ett fält där du kan
 
 Före den här ändringen kunde beslutet inte längre visas i en Workfront-rapport efter att ett beslut fattats om ett bevis.
 
-Mer information finns i  [Ordlista för Adobe Workfront-terminologi](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Mer information finns i  [Ordlista för Adobe Workfront-termer](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-## Förbättringar av korrektur i Workfront {#proofing-enhancements-in-workfront-proof}
+## Förbättringar av korrektur i Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
 * [Skapa en ny version av ett korrektur direkt från korrekturläsaren (Workfront Proof)](#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof)
-* [Länk till ny korrekturinformation i korrekturläsaren och korrekturläsaren för skrivbordet (Workfront)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
+* [Länk till ny korrekturinformation i korrekturläsaren och korrekturläsaren för skrivbordet (Workfront Proof)](#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof)
 
 ### Skapa en ny version av ett korrektur direkt från korrekturläsaren (Workfront Proof) {#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer-workfront-proof}
 
-Nu kan du skapa en ny version av ett korrektur direkt från det nya korrekturläsaren och korrekturläsaren för skrivbordet när du korrekturläser i Workfront korrektur.
+Du kan nu skapa en ny version av ett korrektur direkt från det nya korrekturläsaren och korrekturläsaren för skrivbordet när du korrekturläser i Workfront Proof.
 
 Tidigare var det här alternativet bara tillgängligt i det äldre visningsprogrammet för Flashar.
 
-Mer information finns i [Kopiera korrektur i Workfront-korrektur](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) i artikeln  [Kopiera korrektur i Workfront-korrektur](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Mer information finns i [Kopiera korrektur i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) i artikeln  [Kopiera korrektur i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
-### Länk till ny korrekturinformation i korrekturläsaren och korrekturläsaren för skrivbordet (Workfront) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
+### Länk till ny korrekturinformation i korrekturläsaren och korrekturläsaren för skrivbordet (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 
-När du visar ett korrektur i korrekturläsaren kan Workfront-korrekturläsare nu snabbt gå till korrekturinformationssidan i Workfront korrektur.
+När du visar ett korrektur i korrekturläsaren kan Workfront Proof-användare nu snabbt gå till sidan med korrekturinformation i Workfront Proof.
 
 Mer information finns i&quot;Visa korrekturinformation&quot;.

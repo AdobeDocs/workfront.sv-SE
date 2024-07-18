@@ -21,7 +21,7 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* Din organisation måste köpa rätt licens för Workfront Goals. Mer information finns i avsnittet [Få åtkomst till Workfront Goals Organization](#obtain-workfront-goals-organization-access) i den här artikeln.
+* Din organisation måste köpa rätt licens för Workfront Goals. Mer information finns i avsnittet [Få åtkomst till Workfront-målorganisation](#obtain-workfront-goals-organization-access) i den här artikeln.
 
 * Tilldela dig rätt typ av Workfront-licens. Mer information om tilldelning av licenstyper och åtkomstnivåer finns i avsnittet [Uppdatera licenstyper och inställningar för åtkomstnivå](#update-license-types-and-access-level-settings) i den här artikeln.
 
@@ -29,7 +29,7 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 >
 >Användare med en extern licenstyp har inte åtkomst till Workfront-mål.
 
-* Ge åtkomst till mål på din åtkomstnivå. Mer information finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+* Ge åtkomst till mål på din åtkomstnivå. Mer information finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
 
 * Tilldela dig en layoutmall som innehåller området Mål på huvudmenyn.
 
@@ -41,7 +41,7 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 
 * Om du måste ändra mål som du inte skapat själv måste målskaparen dela målen med dig och ge dig behörigheten Hantera.
 
-  Mer information finns i avsnittet [Dela individuella mål med andra användare](#share-individual-goals-with-other-users) i den här artikeln.
+  Mer information finns i avsnittet [Dela enskilda mål med andra användare](#share-individual-goals-with-other-users) i den här artikeln.
 
 ## Få åtkomst till Workfront Goals Organization {#obtain-workfront-goals-organization-access}
 
@@ -57,7 +57,7 @@ Beroende på vilken Workfront-plan ditt företag är baserat på finns följande
 
   När organisationen har köpt den extra licensen aktiverar Workfront Workfront Goals för ditt konto. Kontakta din kontoansvarige på Workfront om du vill ha information om hur du köper en licens för Workfront Goals.
 
-Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Uppdatera licenstyper och inställningar för åtkomstnivå  {#update-license-types-and-access-level-settings}
 
@@ -76,9 +76,9 @@ Beroende på vilken Workfront-plan ditt företag är baserat på finns följande
    * Granska
    * Begäran
 
-När din Workfront-administratör har gett dig en av dessa licenstyper måste du även få åtkomst till mål på din åtkomstnivå. Mer information om åtkomst till mål finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+När din Workfront-administratör har gett dig en av dessa licenstyper måste du även få åtkomst till mål på din åtkomstnivå. Mer information om åtkomst till mål finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-Som Workfront-administratör kan du granska antalet licenser för Workfront Goals i ditt system och se hur många som är aktiverade för tillfället. Mer information finns i [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Som Workfront-administratör kan du granska antalet licenser för Workfront Goals i ditt system och se hur många som är aktiverade för tillfället. Mer information finns i [Hantera tillgängliga licenser i systemet](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Din Workfront-administratör eller gruppadministratör kan även lägga till fö
 Mer information om hur du uppdaterar layoutmallen finns i följande artiklar:
 
 * [Skapa och hantera layoutmallar](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)
-* [Anpassa huvudmenyn med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+* [Anpassa huvudmenyn med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
 * [Anpassa fästa sidor med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [Anpassa landningssidan med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
 * [Tilldela användare till en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
@@ -109,4 +109,4 @@ Som standard kan alla användare som har minst Visa åtkomst till mål på åtko
 
 Alla användare som har Redigera-åtkomst till mål kan skapa mål och får automatiskt Manage-åtkomst till de mål de skapar. Om de måste redigera andra användares mål måste någon med behörigheten Hantera för dessa mål dela de mål som de inte skapade med dem.
 
-Mer information om att dela mål med användare och ge dem behörigheten Hantera finns i [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md).
+Mer information om att dela mål med användare och ge dem behörigheterna Hantera finns i [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md).

@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du kan schemalägga rapporter som ska skickas automatiskt till användare enligt ett angivet schema, eller så kan du skicka rapporter manuellt på en engångs basis. När du skickar en rapport från Adobe Workfront får användaren ett e-postmeddelande med Workfront-rapporten i en separat bifogad fil.
 
-Mer information, inklusive storleksbegränsningar som kan påverka rapportleveransen finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Mer information, inklusive storleksbegränsningar som kan påverka rapportleveransen finns i [Översikt över rapportleveransen](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Åtkomstkrav
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -66,16 +66,16 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
    >
    >Rapportleveranser innehåller inga uppmaningar. Om du vill begränsa datamängden i en rapport rekommenderar vi att du tillämpar filter på rapporten som du vill skicka.
 
-1. Klicka **Rapportåtgärder** sedan **Skicka rapport**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Skicka rapport**.
 
-   The **Skicka rapport** visas.
+   Dialogrutan **Skicka rapport** visas.
 
    >[!TIP]
    >
    >Om du vill skicka en rapport manuellt vid en viss tidpunkt går du till rapporten och klickar sedan på **Rapportåtgärder** > **Skicka rapport** > **Skicka nu**.
 
-1. Välj **Upprepade leveranser** -fliken.
-1. (Villkorligt) Om du vill ändra en befintlig upprepande rapportleverans väljer du rapportleveransen i dialogrutan **Upprepade leveranser** -avsnitt.
+1. Välj fliken **Upprepade leveranser**.
+1. (Villkorligt) Om du vill ändra en befintlig upprepande rapportleverans väljer du rapportleveransen i avsnittet **Upprepade leveranser**.
 1. Ange följande information:
 
    <table style="table-layout:auto"> 
@@ -86,17 +86,17 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
       <td role="rowheader"> <p>Skicka till</p> </td> 
       <td> <p>Börja skriva namnet på den användare, grupp, team eller roll som du vill skicka rapporten till och klicka sedan på namnet när det visas i listrutan.</p> <p>eller</p> <p>Ange e-postadressen till en person utanför Workfront som du vill ska ha åtkomst till rapporten.</p> <p>Upprepa den här processen om du vill skicka rapporten till flera användare, grupper, team eller roller.</p> <p>Obs!  <p>Tänk på följande när du lägger till rapportleveransmottagare:</p> 
         <ul> 
-         <li>Om din organisation begränsar Workfront-meddelanden till specifika e-postdomäner kanske du bara kan skicka rapporter till e-postadresser som listas i e-posttillåtelselista.<p>Information om hur en Workfront-administratör uppdaterar e-postmeddelandet tillåtelselista finns i avsnittet <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurera din e-postadress tillåtelselista</a>.</p></li> 
+         <li>Om din organisation begränsar Workfront-meddelanden till specifika e-postdomäner kanske du bara kan skicka rapporter till e-postadresser som listas i e-posttillåtelselista.<p>Information om hur en Workfront-administratör uppdaterar e-postmeddelandet tillåtelselista finns i avsnittet <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurera e-posttillåtelselista</a>.</p></li> 
          <li> <p>Om du lägger till ett stort antal användare som mottagare kan leveransen misslyckas. Om leveransfel uppstår kan du schemalägga flera rapportleveranser med mindre grupper av användare.</p> </li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>E-postämne</p> </td> 
-      <td> <p>Ange ett ämne för e-postmeddelandet.</p> <p>Som standard är e-postämnet:</p> <p><em>Workfront Report: [Rapportens namn] [Datum]</em> </p> </td> 
+      <td> <p>Ange ett ämne för e-postmeddelandet.</p> <p>Som standard är e-postmeddelandets ämne:</p> <p><em>Workfront-rapport: [rapportens namn] [Datum]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>E-postmeddelande</p> </td> 
-      <td> <p>Ange ett meddelande som ska inkluderas i e-postmeddelandet.</p> <p>Som standard är e-postmeddelandet:</p> <p><em>Bifogad är rapporten [rapportfrekvens] [rapportens namn] som genererades av Workfront den [datum].</em> </p> <p>Obs! För rapporter som levereras endast som en Excel-fil läggs även följande meddelande till i e-postmeddelandet: "Observera att det för MS Excel-filtyper (XLS) finns en gräns (65 530) för hur många hyperlänkar dessa filtyper stöder. Om du överskrider dessa gränser öppnas inte filen och du bör skicka den igen utan hyperlänkarna. Gå tillbaka till rapportschemaläggaren för att ta bort hyperlänkar och skicka rapporten igen." frasen"gå tillbaka till rapportschemaläggaren" är en länk tillbaka till rapporten.</p> </td> 
+      <td> <p>Ange ett meddelande som ska inkluderas i e-postmeddelandet.</p> <p>Som standard är e-postmeddelandet:</p> <p><em>Bifogad är rapporten [rapportfrekvens] [rapportens namn] som genererades av Workfront den [datum].</em> </p> <p>Obs! För rapporter som levereras endast som en Excel-fil läggs även följande meddelande till i e-postmeddelandet:"Observera att det finns en gräns (65 530) för hur många hyperlänkar dessa filtyper har. Om du överskrider dessa gränser öppnas inte filen och du bör skicka den igen utan hyperlänkarna. Gå tillbaka till rapportschemaläggaren för att ta bort hyperlänkar och skicka rapporten igen." frasen"gå tillbaka till rapportschemaläggaren" är en länk tillbaka till rapporten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Leverera den här rapporten med åtkomsträttigheter för</p> </td> 
@@ -107,14 +107,14 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
       <td> <p>Välj det format som du vill ha för den levererade rapporten:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>Om du väljer det här alternativet kan du formatera utdata med ytterligare <strong>Pappersstorlek</strong> och <strong>Orientering</strong> alternativ som visas.</p> </li> 
+        <li> <p>PDF</p> <p>Om du väljer det här alternativet kan du formatera utdata med de ytterligare alternativen <strong>Pappersstorlek</strong> och <strong>Orientering</strong> som visas.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Inkludera länkar</p> </td> 
-      <td> <p>Det här alternativet är endast tillgängligt när <strong>MS Excel</strong> är markerat i <strong>Format</strong> nedrullningsbar meny. När det här alternativet är aktiverat inkluderas alla hyperlänkar i det exporterade Excel-dokumentet.</p> <p>Det går inte att öppna dokument som innehåller fler än 65 530 länkar. Om det exporterade dokumentet innehåller fler än 65 530 länkar avmarkerar du det här alternativet.</p> <p>Det här alternativet är aktiverat som standard.</p> </td> 
+      <td> <p>Det här alternativet är bara tillgängligt när <strong>MS Excel</strong> har valts i listrutan <strong>Format</strong>. När det här alternativet är aktiverat inkluderas alla hyperlänkar i det exporterade Excel-dokumentet.</p> <p>Det går inte att öppna dokument som innehåller fler än 65 530 länkar. Om det exporterade dokumentet innehåller fler än 65 530 länkar avmarkerar du det här alternativet.</p> <p>Det här alternativet är aktiverat som standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Sammanfattning</p> </td> 
@@ -122,22 +122,22 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Upprepningar</p> </td> 
-      <td> <p>Ange om rapporten ska levereras varje dag, varje vecka, varje månad eller varje år.</p> </td> 
+      <td> <p>Ange om rapporten ska levereras varje dag, vecka, månad eller år.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Upprepa var</p> </td> 
-      <td> <p>Välj den frekvens med vilken du vill att leveransen ska upprepas. Värdet som du väljer för det här alternativet baseras på det alternativ som är markerat i <strong>Upprepningar</strong> nedrullningsbar lista.</p> </td> 
+      <td> <p>Välj den frekvens med vilken du vill att leveransen ska upprepas. Värdet som du väljer för det här alternativet baseras på det alternativ som har valts i listrutan <strong>Upprepningar</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tid</p> </td> 
-      <td> <p>Välj den tid på dagen då leveransen ska skickas.</p> <p>Tips: Eftersom systeminläsningar kan påverka leveranstiderna för rapporter kan det uppstå en fördröjning mellan den schemalagda tiden och den faktiska leveranstiden. Om du behöver en rapport som levereras vid en viss tidpunkt rekommenderar vi att leveransen schemaläggs före den tidpunkt då den behövs. Vi rekommenderar till exempel att leveransen schemaläggs en dag före det datum då den behövs.</p> </td> 
+      <td> <p>Välj den tid på dagen då leveransen ska skickas.</p> <p>Tips! Eftersom systeminläsningar kan påverka leveranstiderna för rapporter kan det finnas en fördröjning mellan den schemalagda tiden och den faktiska leveranstiden. Om du behöver en rapport som levereras vid en viss tidpunkt rekommenderar vi att leveransen schemaläggs före den tidpunkt då den behövs. Vi rekommenderar till exempel att leveransen schemaläggs en dag före det datum då den behövs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Upprepningar på</p> </td> 
-      <td> <p>Det här alternativet är tillgängligt när <strong>Upprepningar</strong> är inställt på antingen <strong>Vecka</strong> eller <strong>Månadsvis</strong>:</p> 
+      <td> <p>Det här alternativet är tillgängligt när alternativet <strong>Upprepningar</strong> är inställt på antingen <strong>Veckovis</strong> eller <strong>Månadsvis</strong>:</p> 
        <ul> 
-        <li> <p>När <strong>Upprepningar</strong> option is set to <strong>Vecka</strong>: Välj de veckodagar som leveransen skickas.</p> </li> 
-        <li> <p>När <strong>Upprepningar</strong> option is set to <strong>Månadsvis</strong>: Välj om leveransen ska skickas på dagen i månaden, veckodagen eller den sista dagen i månaden (dessa alternativ återger det datum som du väljer i <strong>Börjar på</strong> fält).</p> </li> 
+        <li> <p>När alternativet <strong>Upprepningar</strong> är inställt på <strong>Veckovis</strong>: Välj de veckodagar som leveransen skickas.</p> </li> 
+        <li> <p>När alternativet <strong>Upprepningar</strong> är inställt på <strong>Månadsvis</strong>: Välj om leveransen ska skickas på dagen i månaden, veckodagen eller den sista dagen i månaden (de här alternativen utnyttjar det datum som du har valt i fältet <strong>Börjar på</strong>).</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -155,22 +155,22 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
     </tbody> 
    </table>
 
-1. Klicka **Spara** för att spara rapportleveransen.
+1. Klicka på **Spara** för att spara rapportleveransen.
 
-   Rapporten visas i **Upprepade leveranser** (i **Skicka rapport** och skickas vid den schemalagda tidpunkten.
+   Rapporten visas i avsnittet **Upprepade leveranser** (i dialogrutan **Skicka rapport**) och skickas vid den schemalagda tidpunkten.
 
    Mer information om storleksbegränsningar som kan påverka rapportleveransen finns i avsnitten [Rapportleveransbegränsningar](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) och [Exportbegränsningar](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
 1. (Valfritt) Så här tar du bort en schemalagd leverans:
 
-   1. I **Upprepade leveranser** klicka på den schemalagda leveransen och klicka sedan på **Ta bort**.
-   1. Klicka **Ta bort** för att bekräfta.
+   1. Klicka på den schemalagda leveransen på panelen **Upprepade leveranser** och klicka sedan på **Ta bort**.
+   1. Bekräfta genom att klicka på **Ta bort**.
 
 ## Videogenomgång
 
-I följande video får du lära dig hur du schemalägger en rapportleverans. Den här videon spelades in i Workfront Classic. Innehållet gäller dock även den nya Workfront-upplevelsen.
+I följande video får du lära dig hur du schemalägger en rapportleverans. Videon spelades in i Workfront Classic. Innehållet gäller dock även den nya Workfront-upplevelsen.
 
-[ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
+[![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Additional information</h2>

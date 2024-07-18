@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Projektförbättringar
 
-Den här sidan beskriver alla projektförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla projektförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nytt gränssnitt för att skapa och redigera återkommande uppgifter
 
@@ -27,9 +27,9 @@ Den här sidan beskriver alla projektförbättringar som gjorts i version 21.2 i
 
 Som en del av omdesignen av rutorna Ny och Redigera uppgift har vi lagt till möjligheten att göra en ny uppgift återkommande samt att redigera den överordnade för en återkommande uppgift. Den här funktionen ingick inte i den tidigare versionen av rutan Ny och redigera uppgift.
 
-Mer information finns i [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Mer information finns i [Skapa återkommande aktiviteter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 2: Planera ett projekt](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 2: Planera en Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)-utbildningsväg på Workfront One.
 
 ## Nya knappar tillgängliga i projekthuvudet
 
@@ -39,7 +39,7 @@ Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfr
 
 För att du snabbt ska kunna filtrera listan över projekt på sidan Projekt finns det två nya knappar i huvudet som gör att du snabbt kan använda filtret Projekt jag är på eller Projekt jag äger.
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 1: Skapa ett projekt](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE) utbildningsväg på Workfront One.
+Den här funktionen finns nu med i [Grundläggande om planering för den nya Workfront-upplevelsen, del 1: Skapa en Project](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)-utbildningsväg på Workfront One.
 
 ## Flytta eller ta bort en artikel eller ett problem från Urklipp
 
@@ -51,7 +51,7 @@ Nu kan du flytta en artikel eller ett problem från din Scrum-panel genom att kl
 
 Du kan också ta bort en artikel eller ett problem direkt från din Scrum-panel genom att klicka på ikonen Mer på ett kort och sedan välja Ta bort. När du tar bort en artikel eller ett problem flyttas den till papperskorgen i 30 dagar och kan endast återställas av systemadministratören.
 
-Mer information finns i [Hantera artiklar och problem på Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
+Mer information finns i [Hantera artiklar och utgåvor på kontrollpanelen](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md).
 
 ## Ny ruta för redigeringsproblem
 
@@ -105,7 +105,7 @@ När en utgåva konverteras till ett projekt överförs den som har begärt utg�
 
 Du måste aktivera det här fältet i din layoutmall för att kunna visa det i den nya Adobe Workfront-upplevelsen för projekt.
 
-Mer information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+Mer information om hur du konverterar problem finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Visa information om en grupp som du vill tilldela en portfölj, ett program eller ett team
 
@@ -133,7 +133,7 @@ Användarna kan nu se textformatering som fet stil, punktlistor och hyperlänkar
 
 Tidigare i Workfront Classic var textformateringen bara synlig i listorna Projekt, Aktivitet och Timme.
 
-Mer information om textformatering i anpassade fält finns i [Skapa ett anpassat formulär](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
+Mer information om hur du formaterar text i ett anpassat fält finns i [Skapa ett anpassat formulär](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html).
 
 Mer information om hur du visar information i listor finns i [Kom igång med listor](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en).
 
@@ -176,7 +176,7 @@ Förutom ett uppdaterat utseende och känsla finns följande ändringar även i 
 * Du kan anpassa layoutmallen en gång och återge anpassningarna både på sidan Detaljer och i rutan Ny uppgift.
 * Vi har lagt till fälten Varaktighet, Varaktighet och Planerade timmar i uppdragsavsnittet för att ge konsekvens när tilldelningar uppdateras och hur lång tid eller varaktighet de lägger på uppgiften.
 
-Mer information om den nya aktivitetsrutan finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Mer information om den nya rutan Ny uppgift finns i [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Inaktivera team som inte längre används
 
@@ -198,5 +198,5 @@ För att ge dig en sammanhängande upplevelse av alla objekt har vi ändrat det 
 
 Innan den här ändringen utfördes hindrades användarna från att ta bort aktiviteter eller problem, inte projekt, bara om inställningen inaktiverades.
 
-Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information finns i [Konfigurera inställningar för aktiviteter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

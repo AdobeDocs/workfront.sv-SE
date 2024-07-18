@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Aktivitetsöversikt för 2019.2-utgåvan
 
-Den här sidan innehåller information om de funktioner som ingår i version 2019.2. Om du vill hämta det här innehållet i PDF-format går du till [här](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
+Den här sidan innehåller information om de funktioner som ingår i version 2019.2. Om du vill hämta det här innehållet i PDF-format går du [här](https://documentation.my.workfront.com/library/a/6626eb71-16b2-4460-bd81-9adcd4953eb5).
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Den här sidan innehåller information om de funktioner som ingår i version 201
 >
 >* *Workfront produktionsmiljö för kluster 2, 4 och 6 - 23 maj*
 >* *Workfront produktionsmiljö för kluster 1, 3 och 5 - 24 maj*
->* *Workfront Proof Production Environment - 21 maj*
+>* *Workfront Proof produktionsmiljö - 21 maj*
 
 Version 2019.2 innehåller förbättringar för både systemadministratörer och andra användare.
 
@@ -88,13 +88,13 @@ Version 2019.2 innehåller förbättringar för både systemadministratörer och
 
   Nu kan du konfigurera anpassade formulär och godkännandeprocesser som ska bifogas till uppgifter när du lägger till uppgifter i ett projekt.
 
-* [Hitta grupper snabbare när du anpassar statusvärden](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [Hitta grupper snabbare vid anpassning av status](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   Den nedrullningsbara menyn på fliken Status i inställningsområdet är nu en huvudmeny.
 
 ### Integreringsförbättringar
 
-* [Uppdaterat Workfront för Adobe Creative Cloud Integration](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
+* [Uppdaterat Workfront för Adobe Creative Cloud-integrering](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#updated)
 
   Workfront för Adobe Creative Cloud-tillägget omfattar nu integrering med Workfront Library.
 
@@ -126,7 +126,7 @@ Version 2019.2 innehåller förbättringar för både systemadministratörer och
 
 * Om du har objekt som inte längre används kan du nu inaktivera dem för att dölja dem från listor, så att användare inte kan associera dem med andra objekt.
 
-* [Hitta grupper snabbare när du anpassar statusvärden](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
+* [Hitta grupper snabbare vid anpassning av status](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-project-enhancements.md#find)
 
   Den nedrullningsbara menyn på fliken Status i inställningsområdet är nu en huvudmeny.
 
@@ -136,7 +136,7 @@ Version 2019.2 innehåller förbättringar för både systemadministratörer och
 * [Workfront Library är nu tillgängligt](#workfront-library-now-available)
 * [API-version 3 stöds inte längre](#api-version-3-no-longer-supported)
 * [TLS-stödet upphör](#tls-support-is-ending)
-* [Borttagning av Flash](#flash-application-removal)
+* [Borttagning av Flash-program](#flash-application-removal)
 * [Olika alternativ för enkel inloggning som ska tas bort](#various-single-sign-on-options-to-be-removed)
 
 ### Workfront Library är nu tillgängligt {#workfront-library-now-available}
@@ -145,7 +145,7 @@ Workfront Library är ett digitalt innehållsnav för företag som du kan använ
 
 ### API-version 3 stöds inte längre {#api-version-3-no-longer-supported}
 
-Stöd för API-version 3 upphörde i november 2018. Mer information om supportschemat för olika versioner av Workfront API finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md).
+Stöd för API-version 3 upphörde i november 2018. Mer information om supportschemat för versioner av Workfront API finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### TLS-stödet upphör {#tls-support-is-ending}
 
@@ -195,7 +195,7 @@ Product Roadmap Webinar för 2019 presenterades torsdagen den 23 maj 2019.
 
 Gå med i Workfront produkthanteringsteam och lär dig mer om vår produktvision, 2019 års färdplan och hur ni engagerar er.
 
-Om du vill visa inspelningen av webbinariet går du till [Q2 2019 Product Roadmap Webinar](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
+Om du vill visa webbinariets inspelning kan du läsa [Q2 2019 Product Roadmap Webinar](https://webinars.on24.com/workfront/q2roadmap?partnerref=Product).
 
 ### Workfront Product Roadmap Webinar - Q1 2019
 

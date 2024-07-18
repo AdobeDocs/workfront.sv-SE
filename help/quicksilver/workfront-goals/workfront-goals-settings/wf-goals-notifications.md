@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Adobe Workfront Goals innehåller en uppsättning händelsemeddelanden som du kan aktivera för ditt konto. Dessa händelsemeddelanden utlöser e-postkommunikation varje gång det villkor som definieras av händelsen uppfylls.
 
-Information om vilka meddelanden du kan aktivera för Workfront-mål finns på [Meddelanden: Mål](../../workfront-basics/using-notifications/notifications-goals.md).
+Mer information om vilka meddelanden du kan aktivera för Workfront-mål finns i [Meddelanden: Mål](../../workfront-basics/using-notifications/notifications-goals.md).
 
 Mer information om hur du hanterar meddelanden i Adobe Workfront finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 

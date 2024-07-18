@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 {{step-1-to-setup}}
 
-1. Klicka **Åtkomstnivåer** till vänster.
+1. Klicka på **Åtkomstnivåer** i den vänstra panelen.
 1. Välj den åtkomstnivå som du vill kopiera och anpassa och klicka sedan på **Kopiera**.
 
    eller
@@ -80,7 +80,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
     <tbody> 
      <tr> 
       <td role="rowheader">Namn</td> 
-      <td> <p>Ange ett namn för åtkomstnivån. </p> <p>Om du precis har kopierat en åtkomstnivå för att skapa en ny är standardnamnet Åtkomstnivånamn (kopia), där åtkomstnivånamnet är den åtkomstnivå du kopierade.</p> <p><strong>Tips</strong>: Vi rekommenderar att du tar med det ursprungliga namnet på åtkomstnivån i kopians namn. På ACME-företaget kan till exempel en kopia av åtkomstnivån Standard heta ACME Standard.</p> </td> 
+      <td> <p>Ange ett namn för åtkomstnivån. </p> <p>Om du precis har kopierat en åtkomstnivå för att skapa en ny är standardnamnet Åtkomstnivånamn (kopia), där åtkomstnivånamnet är den åtkomstnivå du kopierade.</p> <p><strong>Tips</strong>: Vi rekommenderar att du inkluderar det ursprungliga namnet på åtkomstnivån i kopians namn. På ACME-företaget kan till exempel en kopia av åtkomstnivån Standard heta ACME Standard.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning </td> 
@@ -93,7 +93,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
     </tbody> 
    </table>
 
-1. (Villkorligt) Om **Standard** eller **Plan** är markerat i **Licenstyp** rulla till avsnittet **Tillåt administrativ åtkomst för** och välj administratörsbehörigheter för de som ska ha den här åtkomstnivån.
+1. (Villkorligt) Om **Standard** eller **Plan** har valts i rutan **Licenstyp** bläddrar du till avsnittet **Tillåt administrativ åtkomst för** och väljer administratörsbehörighet för de som ska ha den här åtkomstnivån.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -122,7 +122,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
         <li>Utgifter för projekt, uppgifter eller ärenden som de hanterar</li>
         <li>Deras egna utgifter</li>
         <li>Utgifter för underordnade</li>
-       </ul><p><b>ANMÄRKNING</b>: Detta innebär inte att användaren kan skapa nya utgiftstyper.</p></td> 
+       </ul><p><b>Obs!</b>: Detta innebär inte att användaren kan skapa nya utgiftstyper.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Jobbroller</td> 
@@ -132,7 +132,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
         <li>Lägg till nya jobbroller</li> 
         <li>Redigera rollfakturering och kostnadstariffer</li> 
        </ul> 
-       <p>Viktig information om åtkomst till finansiella data som är tillgängliga för en Standard- eller Planering-användare med administrativ åtkomst till jobbroller finns i <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard- eller planeringsläsare med administrativ åtkomst till jobbroller</a>.</p>
+       <p>Viktig information om åtkomst till ekonomiska data som är tillgängliga för en Standard- eller Planering-användare med administrativ åtkomst till jobbroller finns i <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard- eller Planeringsanvändare med administrativ åtkomst till jobbroller</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -156,7 +156,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
     </tbody> 
    </table>
 
-1. Klicka **Ange ytterligare begränsningar** anger du sedan någon av följande begränsningar för åtkomstnivån.
+1. Klicka på **Ange ytterligare begränsningar** och ange sedan någon av följande begränsningar för åtkomstnivån.
 
    >[!IMPORTANT]
    >
@@ -176,15 +176,15 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr> 
      <tr> 
       <td role="rowheader">Visa endast uppdateringar som de har inkluderats i konversationen</td> 
-      <td> Gör det möjligt för användare att endast se kommentarer där deras namn eller teamets namn har inkluderats. <p> <p><b>ANMÄRKNING</b>: Detta förhindrar att användare prenumererar på objekt i Workfront. Mer information om att prenumerera på objekt finns i <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Prenumerera på objekt i Adobe Workfront</a>.</p> </p> </td> 
+      <td> Gör det möjligt för användare att endast se kommentarer där deras namn eller teamets namn har inkluderats. <p> <p><b>OBS!</b>: Detta förhindrar användare från att prenumerera på objekt i Workfront. Mer information om att prenumerera på objekt finns i <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Prenumerera på objekt i Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt aldrig användare att ta bort kommentarer </td> 
-      <td> Hindrar användare från att ta bort kommentarer om objekt.  <p><b>ANMÄRKNING</b>: Ingen kan ta bort kommentarer från andra användare.</p> </td> 
+      <td> Hindrar användare från att ta bort kommentarer om objekt.  <p><b>Obs!</b> Ingen kan ta bort kommentarer från andra användare.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visa endast företag, grupper och team som de tillhör</td> 
-      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.<p><strong>ANMÄRKNING</strong>: Användare med beställarlicenser kan inte visa företag som de inte tillhör, även om det här alternativet har valts.</td> 
+      <td>Tillåter användare att endast visa och dela objekt med företag, grupper och team som de tillhör.<p><strong>OBS!</strong>: Användare med beställarlicenser kan inte visa företag som de inte tillhör, även om det här alternativet har valts.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tillåt aldrig synlighet för planerade timmar eller faktiska timmar</td> 
@@ -205,14 +205,14 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    >
    >Om två användare tillhör två olika företag, men båda kan se användare från det primära företaget, kan de se uppdateringsområdet som är associerat med det primära företaget.
 
-1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. Klicka **Spara**.
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Klicka på **Spara**.
 
    När åtkomstnivån har skapats kan du tilldela den till en användare (om det inte är en åtkomstnivå för systemadministratörer).
 
    Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-   Mer information om hur en Adobe-administratör tilldelar en systemadministratörsåtkomstnivå till en användare finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+   Mer information om hur en Adobe-administratör tilldelar en systemadministratörsåtkomstnivå till en användare finns i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Standard- eller planeringsläsare med administrativ åtkomst till jobbroller {#planner-users}
 
@@ -220,4 +220,4 @@ Om du ger en Standard- eller Planering-användare administrativ åtkomst till jo
 
 Om du senare inaktiverar administrativ åtkomst till jobbroller för användaren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad.
 
-Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i [Bevilja åtkomst till finansiella uppgifter](grant-access-financial.md).
+Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i [Bevilja åtkomst till ekonomiska data](grant-access-financial.md).

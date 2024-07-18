@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren
-description: Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren
+title: Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren
+description: Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren
 author: Alina
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2977'
 ht-degree: 0%
 
 ---
 
-# Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren
+# Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 Resursplaneringens huvudfunktion är att budgetera dina resurser för det arbete de måste utföra i ett projekt. Du kan visa resursernas tillgängliga tid och tilldela deras tid till de projekt där de har tilldelats.
 
-Mer information om budgeteringsresurser i Resursplanering finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
+Mer information om budgeteringsresurser i resursplaneraren finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)
 
 I den här artikeln beskrivs några av de nyckelbegrepp som du behöver känna till innan du börjar budgetera dina resurser i Resursplaneraren.
 
@@ -36,33 +36,34 @@ Tänk på följande när du budgeterar resurser med hjälp av resursplaneraren:
 
 * Du kan budgetera allokeringen av dina resurser genom att ange ett antal timmar, heltidsekvivalenter eller kostnader som dina resurser kan använda för att slutföra arbetet med projekt. När du budgeterar tid eller kostnad för en resurs minskar antalet tillgängliga timmar, heltidsekvivalenter eller kostnaden för resursen med det budgeterade beloppet. Detta resulterar i att beloppen Tillgängliga timmar, Heltidsekvivalenter eller Kostnad för de projekt som följer efter projektet som du budgeterar för minskar för de användarna och rollerna i dessa projekt.
 
-   >[!IMPORTANT]
-   >
-   >Du kan budgetera dina resurser för en period på 15 år. Om du budgeterar resurser för ett projekt med en varaktighet på mer än 15 år kanske budgetinformationen inte är korrekt.
+  >[!IMPORTANT]
+  >
+  >Du kan budgetera dina resurser för en period på 15 år. Om du budgeterar resurser för ett projekt med en varaktighet på mer än 15 år kanske budgetinformationen inte är korrekt.
 
 * Du kan budgetera timmar, heltidsekvivalenter eller kostnad för dina resurser för alla tidsbildrutor som visas i resursplaneraren, oberoende av tidslinjen i projektet. Om du till exempel vill ange att dina resurser kanske inte är tillgängliga under tidslinjen för projektet (där de är kopplade till Planerade timmar), men de kan vara tillgängliga under en annan tid, kan du göra det genom att budgetera dem för tidsramar där Planerade timmar är noll, om det är när de blir tillgängliga för arbete. Du kan ändra tidslinjen för projektet manuellt så att den matchar resurstillgängligheten när du har gjort detta.
 
-   >[!NOTE]
-   >
-   >Vi rekommenderar att du budgeterar timmar, heltidsekvivalenter eller kostnad manuellt för jobbroller eller för användare först. Du kan bara använda de automatiska alternativen för att budgetera tid för dina projekt och resurser när du är säker på att beloppet för Planerade timmar, FTE eller Kostnad alltid ska matcha dina budgeterade timmar, FTE eller Kostnad.\
-   >Mer information om hur du använder de automatiska alternativen för budgetering i Resursplanering finns i avsnittet Budgetprojekt och roller automatiskt i artikeln [Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >[!NOTE]
+  >
+  >Vi rekommenderar att du budgeterar timmar, heltidsekvivalenter eller kostnad manuellt för jobbroller eller för användare först. Du kan bara använda de automatiska alternativen för att budgetera tid för dina projekt och resurser när du är säker på att beloppet för Planerade timmar, FTE eller Kostnad alltid ska matcha dina budgeterade timmar, FTE eller Kostnad.\
+  >Mer information om hur du använder de automatiska alternativen för budgetering i Resursplanering finns i avsnittet Budgetprojekt och roller automatiskt i artikeln [Granska resurstillgänglighet och allokering med Adobe Workfront Resursplanering](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * FTE eller kostnader för budgetering är identiska med budgeteringstimmar, där Adobe Workfront använder FTE och kostnadsvärden i stället för timmar för de resurser du budgeterar.
 
-   Mer information om hur du förstår hur kostnader beräknas i resursplaneraren finns i [Beräkna kostnader i resursplaneraren](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+  Mer information om hur kostnader beräknas i resursplaneraren finns i [Beräkna kostnader i resursplaneraren](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 * Budgeteringsallokeringar för dina resurser i resursplaneraren görs på följande sätt:
 
    * Manuellt
 
-      eller
+     eller
 
-   * Automatiskt, genom att använda projekt- och rollalternativen i **Visa efter projekt** och **Visa efter roll** vyer.
-   Mer information finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   * Automatiskt, genom att använda projekt- och rollalternativen i vyerna **Visa efter projekt** och **Visa efter roll**.
+
+  Mer information finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 * När en användare ändrar jobbroller, tas bort, inaktiveras eller tas bort från en resurspool ändras inte timmarna som har budgeterats för rollen och de omfördelas till de återstående användarna i rollen. Om ingen användare längre är associerad med jobbrollen blir de budgeterade timmarna för rollen noll.
 
-Mer information om projekt- och rollalternativen finns i avsnittet [Förstå värdena för timmar, heltidsekvivalenter och kostnad i resursplaneraren](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) i den här artikeln.
+Mer information om projekt- och rollalternativen finns i avsnittet [Förstå värdena för Timmar, FTE och Kostnad i resursplaneraren](#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner) i den här artikeln.
 
 ## Förstå värdena för timmar, heltidsekvivalenter och kostnad i resursplaneraren {#understand-the-values-of-hours-fte-and-cost-in-the-resource-planner}
 
@@ -72,12 +73,12 @@ Mer information om projekt- och rollalternativen finns i avsnittet [Förstå vä
 
 Innan du budgeterar dina resurser och uppdaterar informationen om budgeterade timmar i resursplaneraren måste du känna till följande koncept
 
-* **Planerade timmar, heltidsekvivalenter eller kostnad**: Det arbete som ska utföras enligt definition för uppgifter och problem.
-* **Tillgängliga timmar, heltidsekvivalenter eller kostnad**: Den tid som användare eller jobbroller är tillgängliga att arbeta, enligt de scheman som är kopplade till användarna.
+* **Planerade timmar, FTE eller kostnad**: Det arbete som måste utföras enligt definition för aktiviteter och problem.
+* **Tillgängliga timmar, FTE eller kostnad**: Den tid som användare eller jobbroller är tillgängliga för arbete, enligt scheman som är associerade med användarna.
 
 Den här informationen visas i resursplaneraren för varje resurs (användare eller roll) och för varje projekt.
 
-Mer information om vad som visas i projekt- och rollvyerna för projektet finns i artikeln [Översikt över navigering i resursplanering](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om vad som visas i projekt- och rollvyerna för projektet finns i artikeln [Resursplaneringsöversikt](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 Mer information om hur kostnader beräknas i resursplaneraren finns i artikeln [Beräkna kostnader i resursplaneraren](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
@@ -89,10 +90,10 @@ Mer information om hur kostnader beräknas i resursplaneraren finns i artikeln [
 
 I följande tabeller visas information om tilldelning och tillgänglighet som visas i resursplaneraren när du använder antingen projektet eller rollvyn. Du kan visa den här informationen via Timmar, FTE eller Kostnad:
 
-* [Kolumnen AVL (tillgänglig)](#the-avl-available-column)
-* [Kolumnen PLN (planerad)](#the-pln-planned-column)
-* [Kolumnen BDG (budgeterad)](#the-bdg-budgeted-column)
-* [Kolumnen VAR (varians)](#the-var-variance-column)
+* [AVL (tillgänglig) kolumn](#the-avl-available-column)
+* [PLN-kolumnen (planerad)](#the-pln-planned-column)
+* [BDG-kolumnen (budgeterad)](#the-bdg-budgeted-column)
+* [VAR-kolumnen (varians)](#the-var-variance-column)
 * [NET-kolumnen](#the-net-column)
 
 ### Kolumnen AVL (tillgänglig) {#the-avl-available-column}
@@ -111,12 +112,12 @@ I följande tabeller visas information om tilldelning och tillgänglighet som vi
   </tr> 
   <tr> 
    <td>Roll</td> 
-   <td> <p>Totalt antal timmar, heltidsanställda eller kostnader som alla användare som är associerade med den här rollen är tillgängliga för att arbeta enligt deras schema och deras <strong>Procent tillgängliga heltidsanställda</strong> för den specifika rollen, för den valda tidsramen. </p> <p>Tänk på följande: </p> 
+   <td> <p>Totalt antal timmar, heltidsanställda eller kostnader som alla användare som är associerade med den här rollen är tillgängliga att arbeta för enligt sitt schema och deras <strong>procentandel FTE-tillgänglighet</strong> för den specifika rollen, för den valda tidsramen. </p> <p>Tänk på följande: </p> 
     <ul> 
      <li>Om ingen användare är associerad med en jobbroll är värdet för Tillgängliga timmar för jobbrollen noll. </li> 
-     <li>Om en användare är associerad med en primär jobbroll, men <strong>Procent tillgängliga heltidsanställda</strong> för rollen är 0 %, värdet för Tillgängliga timmar för jobbrollen är noll.</li> 
-     <li>Om användaren är associerad med andra roller och <strong>Procent tillgängliga heltidsanställda</strong> för rollerna är 0 %, visas de andra rollerna inte i resursplaneraren och användaren visas bara under sin primära roll.</li> 
-    </ul> <p>Mer information om <strong>Procent tillgängliga heltidsanställda</strong> för en jobbroll, se artikeln <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> <p>Mer information om hur tillgängligheten för jobbroller beräknas i resursplaneraren finns i avsnittet Beräkna tillgängliga timmar och FTE för en jobbroll i resursplaneraren i artikeln <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p> </td> 
+     <li>Om en användare är associerad med en primär jobbroll, men <strong>procentandelen FTE-tillgänglighet</strong> för rollen är 0 %, är värdet för tillgängliga timmar för jobbrollen noll.</li> 
+     <li>Om användaren är associerad med andra roller och <strong>procentandelen FTE-tillgänglighet</strong> för rollerna är 0 %, visas inte de andra rollerna i resursplaneraren och användaren visas bara under sin primära roll.</li> 
+    </ul> <p>Mer information om <strong>procentandelen FTE-tillgänglighet</strong> för en jobbroll finns i artikeln <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> <p>Mer information om hur tillgängligheten för jobbroller beräknas i resursplaneraren finns i avsnittet Beräkna tillgängliga timmar och FTE för en jobbroll i resursplaneraren i artikeln <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och FTE för användare och roller i resursplaneraren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Användare</td> 
@@ -127,11 +128,11 @@ I följande tabeller visas information om tilldelning och tillgänglighet som vi
      <li>timmar budgeterade för andra projekt. </li> 
     </ul> <p>Tillgängliga timmar, heltidsanställda eller kostnader för en användare ändras enligt följande: </p> 
     <ul> 
-     <li>hur deras schema och FTE beräknas baserat på inställningarna för resurshantering på systemnivå.<br><p>Mer information om hur du beräknar tillgängligheten för användare och jobbroller finns i artikeln <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>.</p>
+     <li>hur deras schema och FTE beräknas baserat på inställningarna för resurshantering på systemnivå.<br><p>Mer information om hur du beräknar tillgängligheten för användare och jobbroller finns i artikeln <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och FTE för användare och roller i resursplaneraren</a>.</p>
      Mer information om hur du konfigurerar inställningar för resurshantering i Workfront finns i <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurera inställningar för resurshantering</a></li> 
     </ul> 
     <ul> 
-     <li>den <strong>Projektplaneringsprioritet</strong>, om användaren är budgeterad för arbete.<br>Mer information om hur Project Planning Priority påverkar användarens tillgängliga timmar finns i <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Översikt över navigering i resursplanering </a>. </li> 
+     <li><strong>Projektplaneringsprioritet</strong>, om användaren har budgeterats för arbete.<br>Mer information om hur Project Planning Priority påverkar användarens tillgängliga timmar finns i <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Navigeringsöversikt för resursplanering </a>. </li> 
     </ul> <p>Om användaren är schemalagd för inaktivering är tillgängliga timmar, heltidsekvivalenter eller kostnad för dagar efter inaktiveringsdatumet noll. <br>Mer information om hur du inaktiverar användare finns i artikeln <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Inaktivera eller återaktivera en användare</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -151,17 +152,17 @@ I följande tabeller visas information om tilldelning och tillgänglighet som vi
   </tr> 
   <tr> 
    <td>Projekt</td> 
-   <td> <p>Totalt antal planerade timmar, heltidsekvivalenter eller kostnader från alla jobbroller eller användare som anges i projektet, inklusive i <strong>Ingen roll</strong> eller <strong>Ingen användare</strong> -avsnitt, för den valda tidsramen och som de visas på fliken Projektinformation i projektet. </p> <p><b>ANMÄRKNING</b>
+   <td> <p>Totalt antal planerade timmar, heltidsekvivalenter eller kostnader från alla jobbroller eller användare som listas under projektet, inklusive i avsnitten <strong>Ingen roll</strong> eller <strong>Ingen användare</strong>, för den valda tidsramen och som visas på fliken Projektinformation för projektet. </p> <p><b>ANMÄRKNING</b>
 
-Manuella justeringar av dagliga användartilldelningar kan ändra värdet för planerade timmar varje vecka, månad eller kvartal i resursplaneraren. Du kan justera dagliga användarallokeringar för uppgifter och ärenden manuellt med hjälp av Utjämning av arbetsbelastning. Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användarallokeringar i Utjämning av arbetsbelastning</a>.</p> </td>
+Manuella justeringar av dagliga användartilldelningar kan ändra värdet för planerade timmar varje vecka, månad eller kvartal i resursplaneraren. Du kan justera dagliga användarallokeringar för uppgifter och ärenden manuellt med hjälp av Utjämning av arbetsbelastning. Mer information finns i <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Hantera användartilldelningar i Utjämning av arbetsbelastning</a>.</p> </td>
 </tr> 
   <tr> 
    <td>Roll</td> 
-   <td> <p>Totalt antal planerade timmar från alla uppgifter som tilldelats rollen, under den valda tidsramen. </p> <p>The <strong>Ingen roll</strong> visas de planerade timmar som är kopplade till aktiviteter som inte är tilldelade, tilldelade till team (vars timmar anges i <strong>Ingen användare</strong> eller tilldelas användare som inte är associerade med en jobbroll. </p> </td> 
+   <td> <p>Totalt antal planerade timmar från alla uppgifter som tilldelats rollen, under den valda tidsramen. </p> <p>Avsnittet <strong>Ingen roll</strong> visar de planerade timmarna som är kopplade till aktiviteter som antingen inte har tilldelats, har tilldelats till team (vars timmar anges i avsnittet <strong>Ingen användare</strong>) eller har tilldelats till användare som inte är kopplade till en jobbroll. </p> </td> 
   </tr> 
   <tr> 
    <td>Användare</td> 
-   <td> <p>Planerade timmar från alla uppgifter som tilldelats användaren i en viss roll, under den valda tidsramen. </p> <p>The <strong>Ingen användare</strong> visas de planerade timmar som är kopplade till aktiviteter som inte har tilldelats eller som har tilldelats till team. </p> </td> 
+   <td> <p>Planerade timmar från alla uppgifter som tilldelats användaren i en viss roll, under den valda tidsramen. </p> <p>Avsnittet <strong>Ingen användare</strong> visar de planerade timmarna som är kopplade till aktiviteter som är antingen ej tilldelade eller tilldelade till team. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -170,13 +171,13 @@ Tänk på följande när du visar Planerade timmar:
 
 * Även om du inte kan se information om uppgiftsallokeringar i resursplaneraren i projekt- och rollvyerna, kommer antalet planerade timmar från de planerade timmarna för aktiviteterna i projekten.
 * Planerade timmar fördelas jämnt till varje dag under aktiviteternas varaktighet, för varje resurs som tilldelats dem. Aktivitetens varaktighet baseras på planerade start- och slutförandedatum för aktiviteten och omfattar alla kalenderdagar inom den tidsperioden.\
-   Workfront tar hänsyn till schemat för användare eller projekt när Planerade timmar distribueras till användare eller projekt. I det här fallet fördelas planerade timmar jämnt till varje dag under aktiviteternas längd, exklusive helger, lediga dagar och schemaundantag.\
-   Om du till exempel visar resursplaneraren efter vecka och du har uppgifter som sträcker sig över flera veckor i projekt, beror antalet planerade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.\
-   Veckoslutsdagar, schemaundantag och lediga dagar exkluderas från denna distribution.
+  Workfront tar hänsyn till schemat för användare eller projekt när Planerade timmar distribueras till användare eller projekt. I det här fallet fördelas planerade timmar jämnt till varje dag under aktiviteternas längd, exklusive helger, lediga dagar och schemaläggningsundantag.\
+  Om du till exempel visar resursplaneraren efter vecka och du har uppgifter som sträcker sig över flera veckor i projekt, beror antalet planerade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.\
+  Veckoslutsdagar, schemaundantag och lediga dagar exkluderas från denna distribution.
 * Följande kategorier av uppgifter ingår i beräkningen av planerade timmar för varje resurs:
 
-   * uppgifter som tilldelats användare i resurspooler, jobbroller eller team i projektet\
-      Om uppgifter tilldelas team visas deras allokering under **Ingen roll** och **Ingen användare** -avsnitt. Du kan se de planerade timmar som är kopplade till team, men du kan inte budgetera timmarna eftersom inga roller eller användare är kopplade till uppgifterna.
+   * uppgifter som tilldelats användare i Resurspooler, jobbroller eller team i projektet\
+     Om uppgifter tilldelas team visas deras allokering under avsnitten **Ingen roll** och **Ingen användare**. Du kan se de planerade timmar som är kopplade till team, men du kan inte budgetera timmarna eftersom inga roller eller användare är kopplade till uppgifterna.
 
    * ej tilldelade uppgifter
 
@@ -184,7 +185,7 @@ Tänk på följande när du visar Planerade timmar:
 
    * överordnade uppgifter
    * uppgifter som tilldelats användare utan resurspooler
-   * problem, när **Inkludera timmar från ärenden** inställningen är inaktiverad.
+   * problem när inställningen **Inkludera timmar från problem** är inaktiverad.
 
 * Planerade timmar visas inte i resursplaneraren om aktivitetens varaktighet är noll.
 * Planerade timmar som är associerade med inaktiverade användare visas inte.
@@ -209,7 +210,7 @@ Tänk på följande när du visar Planerade timmar:
   </tr> 
   <tr> 
    <td>Användare</td> 
-   <td> <p>En manuell inmatning som beräknar hur många timmar du budgeterar för en användare för en vald tidsram. </p> <p> <p><b>ANMÄRKNING</b>   Du kan beräkna budgeterade timmar för användare som inte är tilldelade till aktiviteter, men som är kopplade till en resurspool i ett projekt, eftersom dessa användare också visas i resursplaneraren. De planerade timmarna ska dock vara noll om de inte har tilldelats aktiviteter. </p> </p> </td> 
+   <td> <p>En manuell inmatning som beräknar hur många timmar du budgeterar för en användare för en vald tidsram. </p> <p> <p><b>OBS!</b>   Du kan beräkna budgeterade timmar för användare som inte är tilldelade till aktiviteter, men som är kopplade till en resurspool i ett projekt, eftersom dessa användare också visas i resursplaneraren. De planerade timmarna ska dock vara noll om de inte har tilldelats aktiviteter. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -224,20 +225,20 @@ Tänk på följande när du arbetar med budgeterade timmar:
 
 * Du kan bara budgetera resurser när du har behörigheten Redigera för Resurshantering och Ekonomi och Hantera ekonomi för projekten.
 
-   Mer information om åtkomsten som behövs för att budgetera resurser finns i artikeln [Tillgång till budgetresurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+  Mer information om åtkomsten som krävs för budgetresurser finns i artikeln [Åtkomst krävs för att budgetera resurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
 * Som standard är budgeterade timmar i resursplaneraren noll för alla resurser och för alla projekt.
-* Du kan beräkna budgeterade timmar manuellt för användare och roller, eller använda en av länkarna i projekt- eller jobbrollen **Mer** menyer för att uppdatera dem efter antalet planerade timmar.\
-   Mer information om projekt- och rollalternativ finns i avsnittet [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](#Budget) i den här artikeln.
+* Du kan beräkna budgeterade timmar manuellt för användare och roller, eller så kan du använda en av länkarna i projekt- eller jobbrollens **Fler**-menyer för att uppdatera dem enligt antalet planerade timmar.\
+  Mer information om projekt- och rollalternativ finns i avsnittet [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna för resursplaneraren](#Budget) i den här artikeln.
 
 * Den minsta tidsperioden du kan budgetera timmar, heltidsekvivalenter eller Kostnad för är en vecka. Du kan inte budgetera timmar, heltidsekvivalenter eller kostnad för en dag.
 * Budgeterade timmar fördelas jämnt till varje dag under varaktigheten för uppgifter, för varje resurs som tilldelats dem. Aktivitetens varaktighet baseras på planerade start- och slutförandedatum för aktiviteten och omfattar alla kalenderdagar inom den tidsperioden.\
-   Workfront tar hänsyn till schemat för användaren eller projektet när budgeterade timmar fördelas till användare eller projekt. I det här fallet fördelas budgeterade timmar jämnt till varje dag under varaktigheten för uppgifter exklusive helger, men inklusive undantag för tid och schema.\
-   Om du till exempel visar resursplaneraren efter vecka och har uppgifter som sträcker sig över flera veckor, beror antalet budgeterade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Veckoslutsdagar exkluderas från denna distribution. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.
+  Workfront tar hänsyn till schemat för användaren eller projektet när budgeterade timmar fördelas till användare eller projekt. I det här fallet fördelas budgeterade timmar jämnt till varje dag under varaktigheten för uppgifter exklusive helger, men inklusive undantag för tid och schema.\
+  Om du till exempel visar resursplaneraren efter vecka och har uppgifter som sträcker sig över flera veckor, beror antalet budgeterade timmar per vecka på hur många dagar inom den veckan som ingår i aktivitetens varaktighet. Veckoslutsdagar exkluderas från denna distribution. Detta fungerar på liknande sätt när resursplaneraren visas efter månad eller kvartal och när uppgifterna sträcker sig över flera månader eller kvartal.
 
 * Du kan rapportera om budgeterade timmar genom att välja Budgeterad timme som rapportobjekt för en ny rapport.\
-   Mer information om vilka objekt du kan rapportera om i Workfront finns i avsnittet&quot;Rapport om objekt&quot; i artikeln [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
-   Mer information om hur du skapar en budgeterad timrapport finns i artikeln [Rapport: Budgeterad timme](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
+  Mer information om vilka objekt du kan rapportera om i Workfront finns i avsnittet&quot;Rapport om objekt&quot; i artikeln [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
+  Mer information om hur du skapar en budgeterad timrapport finns i artikeln [Rapport: Budgeterad timme](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
 * Timmar som tidigare budgeterats för användare som senare inaktiverades visas inte.
 
@@ -292,7 +293,7 @@ Tänk på följande när du arbetar med budgeterade timmar:
 
 <p><b>TIPS</b></p>        
   <p>Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</p>
-  <p>Mer information finns i <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> 
+  <p>Mer information finns i <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" >Granska resurstillgänglighet och allokering med Adobe Workfront resursplanerare</a> </p> 
       </li> 
      </ul> 
     </div> </td> 
@@ -306,7 +307,7 @@ Tänk på följande när du arbetar med budgeterade timmar:
       <li> <p>Skillnaden mellan tillgänglig tid eller kostnad och budgeterad tid eller kostnad för rollen:</p> <p><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Budgeted Hours, FTE, or Cost</code> </p> </li> 
       <li> <p><span>Skillnaden mellan tillgänglig tid eller kostnad och planerad tid eller kostnad för rollen när värdet för Använd planerad (PLN) i NETTOberäkningar är aktiverat:</span> </p> <p><span><code>Role Net Hours, FTE, or Cost = Role Available Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPS</b> <span>
 
-Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> </li>
+Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -317,9 +318,9 @@ Det här alternativet används bara när du anpassar vyn i avsnittet Visa marker
      <p>Användaren kan visa följande Net Hours, FTE eller Cost: </p> 
      <ul> 
       <li> <p>Skillnaden mellan Tillgänglig tid eller kostnad och Budgeterad tid eller kostnad för användaren:</p> <p><code>User Net Hours, FTE, or Cost = USer Available Hours, FTE, or Cost - User Budgeted Hours, FTE, or Cost</code> </p> </li> 
-      <li> <p><span>Skillnaden mellan Tillgänglig tid eller kostnad och Planerad tid eller kostnad för användaren när värdet för Använd planerad (PLN) i NETTOberäkningar är aktiverat:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPS</b> <span>
+      <li> <p><span>Skillnaden mellan Tillgänglig tid eller kostnad och Planerad tid eller kostnad för användaren när värdet för Använd planerad (PLN) i NET-beräkningar är aktiverat:</span> </p> <p><span><code>User Net Hours, FTE, or Cost = User Available Hours, FTE, or Cost - User Planned Hours, FTE, or Cost</code></span> </p> <p><b>TIPS</b> <span>
 
-Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner</a> </p> </li>
+Det här alternativet används bara när du anpassar vyn i avsnittet Visa markerade objekt.</span> </p> <p><span>Mer information finns i </span><a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner</a> </p> </li>
 </ul>
 </div> </td>
 </tr> 
@@ -328,7 +329,7 @@ Det här alternativet används bara när du anpassar vyn i avsnittet Visa marker
 
 >[!NOTE]
 >
->**När NETTtimmar, FTE eller Kostnad visas i rött finns det inte tillräckligt med tillgänglig tid eller budget för att täcka antingen den budgeterade** eller planerad tid eller kostnad för arbetet. I det här fallet är resurserna överallokerade.
+>**När NET-timmar, FTE eller Kostnad visas i rött finns det inte tillräckligt med tillgänglig tid eller budget för att täcka antingen budgeterad** eller planerad tid eller kostnad som är associerad med arbetet. I det här fallet är resurserna överallokerade.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

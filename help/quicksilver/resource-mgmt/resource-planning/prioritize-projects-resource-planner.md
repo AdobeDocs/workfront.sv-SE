@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande:
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data, projekt och användare</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -64,9 +64,9 @@ Som standard listas projekten i projektvyn i resursplaneraren med hänsyn till v
 De ursprungliga standardvillkoren för att lista projekten i projektvyn är följande, i den här ordningen:
 
 1. Efter justeringspoäng i projektet.\
-   Mer information om projektets justeringspoäng finns i [Tillämpa ett styrkort på ett projekt och generera ett justeringsresultat](../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) .
+   Mer information om projektets justeringsresultat finns i [Använda ett styrkort i ett projekt och generera ett justeringsresultat](../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md) .
 
-1. Med det planerade startdatumet för projektet (om justeringsfältet är null eller samma för flera projekt).
+1. Med projektets planerade startdatum (om justeringsfältet är null eller samma för flera projekt).
 1. I bokstavsordning (om fältet Justering är null eller lika med och det planerade startdatumet är samma för flera projekt).
 
 Tänk på följande när du arbetar med projektprioriteringar i resursplaneraren:
@@ -81,11 +81,11 @@ Projekt som är kopplade till en portfölj kan ha en prioritet på portföljniv�
 
 Du måste ha behörigheten Redigera för resurshantering och Hantera för att kunna ordna om projekt i resursplaneraren.
 
-Genom att prioritera projekt kan du rangordna dem efter prioritet.
+Genom att ge projekten en ny prioritet kan du rangordna dem efter prioritet.
 
 Så här redigerar du projektplaneringsprioriteten:
 
-1. Gå till **Resursplanering**.
+1. Gå till **Resursplaneraren**.
 
 1. Klicka i fältet till vänster om det projektnamn som innehåller ett nummer, ange ett nummer för att ändra planeringsprioritet och tryck sedan på Retur.\
    ![](assets/mceclip4.png)\
@@ -97,7 +97,7 @@ Så här redigerar du projektplaneringsprioriteten:
    När du väljer nummer att prioritera projekt väljer du lägre nummer för högre (viktigare) prioriteringar och högre nummer för lägre (mindre viktiga) prioriteringar. När du ändrar prioritetsnumret för ett projekt till ett lägre antal (högre prioritet), flyttas alla andra projekt i resursplaneraren nedåt i listan (blir mindre viktiga).\
    När du ändrar prioritetsnumret för ett projekt till ett högre antal (lägre prioritet), flyttas alla andra projekt i resursplaneraren upp i listan (blir viktigare).
 
-1. Klicka **Spara**.\
+1. Klicka på **Spara**.\
    Ordningen på projekten ändras enligt dina val och detta blir din anpassade projektprioritet i resursplaneraren. Andra användare kan inte se din prioritetsordning för projekten i resursplaneraren, även om de kanske kan visa samma projekt i sina resursplanerare.
 
 ## Ordna projekt enligt Portfolio Prioritet i resursplaneraren
@@ -106,13 +106,13 @@ Så här redigerar du projektplaneringsprioriteten:
 >
 >Ditt företag måste ha en Business-plan eller en senare Workfront-plan för att kunna prioritera projekt i Portfolio Optimizer.
 >
->Mer information om Workfront finns i [Våra planer](https://www.workfront.com/plans).
+>Mer information om Workfront-planer finns i [Våra planer](https://www.workfront.com/plans).
 >
 >Mer information om hur du prioriterar projekt i Portfolio-optimering finns i [Prioritera projekt i Portfolio-optimering](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Öppna **Resursplanering** i **Projektvy**.
-1. Klicka på **Inställningar** ikon.
-1. Aktivera **Visa Portfolio-prioriteringar** inställning för att visa projektprioriteringarna enligt Portfolio som de har tilldelats. Projektens prioritet enligt portföljerna visas bredvid resursplaneringsprioriteten. Den här inställningen är inaktiverad som standard.
+1. Öppna **Resursplaneraren** i **projektvyn**.
+1. Klicka på ikonen **Inställningar** .
+1. Aktivera inställningen **Visa Portfolio-prioritet** för att visa projektprioriteter enligt Portfolio som de är tilldelade till. Projektens prioritet enligt portföljerna visas bredvid resursplaneringsprioriteten. Den här inställningen är inaktiverad som standard.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
@@ -122,7 +122,7 @@ Så här redigerar du projektplaneringsprioriteten:
 
    Projektens portföljprioriteringar visas endast i projektvyn i resursplaneraren.
 
-1. Klicka **Order** beställa projekten enligt portföljprioriteringarna.
+1. Klicka på **Beställ** om du vill beställa projekten enligt portföljens prioriteringar.
 
    Om du har projekt som tillhör mer än en portfölj kan du se flera projekt med samma portföljprioritet i resursplaneraren. I det här fallet listas projekt med samma portföljprioritet enligt följande kriterier, i den här ordningen:
 
@@ -132,13 +132,13 @@ Så här redigerar du projektplaneringsprioriteten:
 
    ![](assets/rp-portfolio-priority-ordered-350x198.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Effekten av ändring av projektplaneringsprioriteten på tillgängliga användartimmar
 
 Projektplaneringsprioriteten påverkar användarnas tillgängliga timmar. De användare som är associerade med projektet med den högsta prioriteten visar sin fulla tillgänglighet för kolumnen Tillgängliga timmar (AVL) för det här projektet enligt sina scheman.
 
-Samma användare som är associerade med det andra projektet i prioritetsordning kommer att visa värdet Tillgängliga timmar, vilket är skillnaden mellan deras totala antal tillgängliga timmar och det som redan har budgeterats för det första projektet i kolumnen Budgeterade timmar osv. Mer information om budgeteringsresurser i Resursplanering finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Samma användare som är associerade med det andra projektet i prioritetsordning kommer att visa värdet Tillgängliga timmar, vilket är skillnaden mellan deras totala antal tillgängliga timmar och det som redan har budgeterats för det första projektet i kolumnen Budgeterade timmar osv. Mer information om budgeteringsresurser i resursplaneraren finns i [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Om inga timmar har budgeterats för det första projektet (i prioritetsordning) för en användare, men timmar har budgeterats för det andra projektet för samma användare, visar användaren hela antalet tillgängliga timmar för båda projekten.
 
@@ -146,8 +146,8 @@ Vi rekommenderar att du uppdaterar kolumnen Budgeterade timmar för dina använd
 
 >[!NOTE]
 >
->Eftersom prioriteten för projektplanering är unik för alla resurshanterare, kan ditt andra prioritetsprojekt vara ett förstahandsprojekt för en annan användare som visar samma projekt i sin resursplanerare. Om en annan resurshanterare budgeterar en resurs för sitt första projekt kommer antalet tillgängliga timmar att minska för den resursen för ditt första projekt baserat på den ändringen.
+>Eftersom prioriteten för projektplanering är unik för alla resurshanterare, kan ditt andra prioritetsprojekt vara ett förstahandsprojekt för en annan användare som visar samma projekt i sin resursplanerare. Om en annan resurshanterare budgeterar en resurs för sitt första projekt, kommer antalet tillgängliga timmar att minska för den resursen för ditt första projekt baserat på den ändringen.
 >
 >Användaren som budgeterar timmarna allokerar den resursen först och minskar antalet tillgängliga timmar för resursen i hela systemet. Antalet tillgängliga timmar ska uppdateras för alla användare så snart de budgeterade timmarna har sparats för en resurs i resursplaneraren.
 >
->Mer information om tillgängliga timmar finns i [Tillgång till och tilldelning av resurser](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).
+>Mer information om tillgängliga timmar finns i [Tillgänglighet och tilldelning av resurser](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#availability-and-allocation-of-resources).

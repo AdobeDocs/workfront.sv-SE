@@ -27,27 +27,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Markera eller högre</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller högre</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Konfigurera standardinställningar för personligt korrektur
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Korrektur**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Korrektur**.
 
 1. Klicka på din avatar i det övre högra hörnet och välj **Personliga inställningar**.
-1. Välj **Standardvärden för korrektur** och sedan ange följande information:
+1. Välj fliken **Korrekturinställningar** och ange sedan följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -66,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td>Nytt korrekturmeddelande</td> 
-      <td>Välj om du vill få ett meddelande när du läggs till i ett korrektur.</td> 
+      <td>Välj att få ett meddelande när du läggs till i ett korrektur.</td> 
      </tr> 
      <tr> 
       <td colspan="2"><strong>Meddelandeinställningar</strong> </td> 
@@ -88,11 +88,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td>Endast ett beslut krävs</td> 
-      <td>Välj att bara kräva ett beslut om ett bevis.</td> 
+      <td>Välj om du bara vill ha ett beslut om ett bevis.</td> 
      </tr> 
      <tr> 
       <td>Inloggning krävs</td> 
-      <td> <p>Välj om du bara vill att korrekturet ska vara tillgängligt för användare med inloggningsuppgifter för Workfront Proof.</p> <p>Obs! Workfront inloggningsuppgifter kan skilja sig från dina Workfront-inloggningsuppgifter, såvida inte dina företagsanvändare har enkel inloggning. Vi rekommenderar att du bara använder den här funktionen om din företagsanvändare har enkel inloggning.</p> </td> 
+      <td> <p>Välj om du bara vill att korrekturet ska vara tillgängligt för användare med inloggningsuppgifter för Workfront Proof.</p> <p>Obs! Workfront Proof-autentiseringsuppgifter kan skilja sig från dina Workfront-autentiseringsuppgifter, såvida inte företagets användare har enkel inloggning. Vi rekommenderar att du bara använder den här funktionen om din företagsanvändare har enkel inloggning.</p> </td> 
      </tr> 
      <tr> 
       <td>Prenumerationen är aktiverad</td> 

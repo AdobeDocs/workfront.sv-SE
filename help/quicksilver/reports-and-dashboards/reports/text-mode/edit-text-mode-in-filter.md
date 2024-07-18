@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Du kan redigera ett filter i en lista eller rapport i textläge för att komma åt fält som inte är tillgängliga i standardgränssnittet och skapa mer komplexa filter.
 
-Fler exempel på textläge när du skapar ett filter finns även i avsnittet [Exempel på anpassade filter](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) i artikeln [Anpassad vy, filter och gruppering av exempel: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Fler exempel på textläge finns i avsnittet [Exempel på anpassade filter](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md#samples-of-custom-filters) i artikeln [Anpassad vy, filter och grupperingsexempel: artikelindex](../custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) när du skapar ett filter.
 
 ## Åtkomstkrav
 
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Innan du börjar använda textläge i en rapport eller lista bör du alltid kont
 
 Mer information finns i:
 
-* [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Textläge - översikt](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
@@ -84,12 +84,12 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
 
 1. Gör något av följande:
 
-   1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > **Filter** -fliken.
-   1. Om du vill komma åt filtret från en lista går du till listan och från **Filter** hovra över det filter som du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
+   1. Gå till rapporten och klicka sedan på **Rapportåtgärder** > **Redigera** > fliken **Filter** för att få åtkomst till filtret från en rapport.
+   1. Om du vill komma åt filtret från en lista går du till listan och från menyn **Filter**, håller pekaren över filtret som du vill ändra och klickar på ikonen **Redigera** ![](assets/edit-icon.png) .
 
       Filterverktyget öppnas.
 
-1. Klicka **Lägg till en filterregel** för att börja lägga till filtervillkoren och sedan klicka på **Textläge** eller **Växla till textläge** till höger om verktyget.
+1. Klicka på **Lägg till en filterregel** för att börja lägga till villkoren för filtret och klicka sedan på **Textläge** eller **Växla till textläge** till höger om verktyget.
 1. Lägg till filtersatser i textläge. Varje filterprogramsats kan innehålla följande rader och ytterligare information:
 
    <table style="table-layout:auto"> 
@@ -101,7 +101,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
       <td><b>Exempel</b></td> 
      </tr> 
      <tr> 
-      <td> <p>Fältnamn och det värde som är lika med det som de visas i Workfront-databasen.</p> <p>Denna rad är obligatorisk.</p> <p> Mer information om hur objekt och fält visas i databasen finns i <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </td> 
+      <td> <p>Fältnamn och det värde som är lika med det som de visas i Workfront-databasen.</p> <p>Denna rad är obligatorisk.</p> <p> Mer information om hur objekt och fält visas i databasen finns i <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API-utforskaren</a>.</p> </td> 
       <td> <p><code>&lt;field name in camel case&gt;=&lt;value&gt;</code> </p> <p>Använd följande rad om du vill filtrera efter pågående uppgifter:</p> <p><code>status=INP</code> </p> <p><b>TIPS</b>
 
    När du filtrerar efter status måste du använda statuskoden med tre bokstäver och inte namnet.</p> </td>
@@ -137,7 +137,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
        </div> </td> 
      </tr> 
      <tr> 
-      <td> <p>Ett jokertecken, som gör att du kan skapa information i ett filter och referera till aktuell tid eller till användaren som är inloggad.</p> <p>Jokertecken är valfria.</p> <p>Tips:   <p>Vi rekommenderar att du använder jokertecken när det är möjligt för att göra filtren mer dynamiska och inte duplicera samma filter för varje användare eller liknande tidsramar.</p> <p>Mer information om att filtrera jokertecken finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Översikt över filtervariabler för jokertecken</a>.</p> </p> </td> 
+      <td> <p>Ett jokertecken, som gör att du kan skapa information i ett filter och referera till aktuell tid eller till användaren som är inloggad.</p> <p>Jokertecken är valfria.</p> <p>Tips:   <p>Vi rekommenderar att du använder jokertecken när det är möjligt för att göra filtren mer dynamiska och inte duplicera samma filter för varje användare eller liknande tidsramar.</p> <p>Mer information om jokertecken för filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Översikt över filtervariabler för jokertecken</a>.</p> </p> </td> 
       <td> <p><code>&lt;first field name in camel case&gt;=&lt;wildcard&gt;</code> </p> <p><code>&lt;first field name in camel case&gt;_Mod=&lt;modifier value&gt;</code> </p> 
        <div class="example" data-mc-autonum="<b>Example: </b>"> <span class="autonumber"><span><b>EXEMPEL</b></span></span> 
         <p>Använd följande om du vill filtrera efter uppgifter som tilldelats användaren som är inloggad:</p> 
@@ -175,7 +175,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Klicka **Avsluta textläge** eller **Klar** om du vill spara textlägesändringarna och fortsätta redigera rapporten eller filtret.
-1. Klicka **Spara + Stäng** för att spara rapporten eller **Spara filter** för att spara filtret i listan.
+1. Klicka på **Avsluta textläge** eller **Klar** om du vill spara textlägesändringarna och fortsätta redigera rapporten eller filtret.
+1. Klicka på **Spara + stäng** om du vill spara rapporten eller på **Spara filter** om du vill spara filtret i listan.
 
 

@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,29 +54,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gör något av följande, beroende på om du skapar eller redigerar ett filter, en vy eller en gruppering:
 
-   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
+   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Filters]**.
 
-   * Klicka **[!UICONTROL Interface]>** **[!UICONTROL Views]**.
+   * Klicka på **[!UICONTROL Interface]>** **[!UICONTROL Views]**.
 
-   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
+   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**.
 
-1. Om du skapar ett filter, en vy eller en gruppering klickar du på **[!UICONTROL Add Filter]**, **[!UICONTROL Add View]**, eller **[!UICONTROL Add Grouping]** markerar du sedan den objekttyp som du vill associera det nya filtret, den nya vyn eller grupperingen med.
+1. Om du skapar ett filter, en vy eller en gruppering klickar du på **[!UICONTROL Add Filter]**, **[!UICONTROL Add View]** eller **[!UICONTROL Add Grouping]** och väljer sedan den objekttyp som du vill associera det nya filtret, den nya vyn eller grupperingen med.
 
    eller
 
-   Om du redigerar ett befintligt filter, en befintlig vy eller en befintlig gruppering markerar du det och klickar sedan på knappen **[!UICONTROL Edit]** icon ![Ikonen Redigera](assets/edit-icon.png).
+   Om du redigerar ett befintligt filter, en befintlig vy eller en befintlig gruppering markerar du det och klickar sedan på ikonen **[!UICONTROL Edit]** ![Redigera ](assets/edit-icon.png) .
 
 1. Konfigurera filter, vy eller gruppering.
 
    Mer information om tillgängliga alternativ finns i följande artiklar:
 
    * [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [Översikt över vyer i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [Vyöversikt i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Översikt över grupperingar i [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-1. Klicka **[!UICONTROL Save]** nära det nedre vänstra hörnet.
+1. Klicka på **[!UICONTROL Save]** nära det nedre vänstra hörnet.
 
-Du kan göra filtret, visningen eller grupperingen tillgänglig för användare i systemet. Mer information om hur du delar filter, vyer och grupper med andra användare finns i avsnittet [Göra filter, vyer och grupperingar tillgängliga för användarna](#make-filters-views-or-groupings-available-to-users) i den här artikeln.
+Du kan göra filtret, visningen eller grupperingen tillgänglig för användare i systemet. Mer information om att dela filter, vyer och grupperingar med andra användare finns i avsnittet [Gör filter, vyer och grupperingar tillgängliga för användare](#make-filters-views-or-groupings-available-to-users) i den här artikeln.
 
 
 ## Visa eller dölj filter, vyer eller grupperingar som är tillgängliga från layoutmallen
@@ -89,7 +89,7 @@ Du kan välja att visa eller dölja filter, vyer eller grupperingar i layoutmall
 
 Så här visar eller döljer du filter, vyer eller grupperingar som är tillgängliga från layoutmallen:
 
-1. Klicka **[!UICONTROL Interface]** klickar du sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, eller **[!UICONTROL Groupings]**.
+1. Klicka på **[!UICONTROL Interface]** och sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]** eller **[!UICONTROL Groupings]**.
 
 1. (Villkorligt) Markera det filter, den vy eller den gruppering som du vill göra tillgänglig för användarna och klicka sedan på **[!UICONTROL Enable system-wide]**.
 
@@ -97,21 +97,21 @@ Så här visar eller döljer du filter, vyer eller grupperingar som är tillgän
 
    >[!TIP]
    >
-   >Om du vill att filtret, vyn eller grupperingen ska vara tillgänglig för de flesta användare, men dölja den för andra, kan du använda layoutmallen. Mer information finns i [Anpassa filter, vyer och grupperingar med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Om du vill att filtret, vyn eller grupperingen ska vara tillgänglig för de flesta användare, men dölja den för andra, kan du använda layoutmallen. Mer information finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Villkorligt) Markera det filter, den vy eller gruppering som du vill dölja för användarna och klicka sedan på **[!UICONTROL Disable system-wide]**. När det är inaktiverat döljs filtret, vyn eller grupperingen från layoutmallen samt användare i hela systemet.
+1. (Villkorligt) Markera det filter, den vy eller den gruppering som du vill dölja för användarna och klicka sedan på **[!UICONTROL Disable system-wide]**. När det är inaktiverat döljs filtret, vyn eller grupperingen från layoutmallen samt användare i hela systemet.
 
 
 ## Göra filter, vyer och grupperingar tillgängliga för alla användare {#make-filters-views-or-groupings-available-to-users}
 
-I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgängliga i [!UICONTROL Share] i dialogrutan [!UICONTROL Interface] område i [!UICONTROL Setup]. Den här inställningen fungerar som en på/av-switch för hela systemet, inklusive layoutmallen.
+I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgängliga i dialogrutan [!UICONTROL Share] i området [!UICONTROL Interface] i [!UICONTROL Setup]. Den här inställningen fungerar som en på/av-switch för hela systemet, inklusive layoutmallen.
 
 {{step-1-to-setup}}
 
-1. Klicka **[!UICONTROL Interface]** klickar du sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]**, eller **[!UICONTROL Groupings]**.
+1. Klicka på **[!UICONTROL Interface]** och sedan på något av följande: **[!UICONTROL Filters]**, **[!UICONTROL Views]** eller **[!UICONTROL Groupings]**.
 
-1. Markera det filter, den vy eller den gruppering som du vill göra tillgänglig för användarna och klicka sedan på **[!UICONTROL Share]** icon ![Delningsikon](assets/share-icon.png) för att öppna [!UICONTROL Filter Access], [!UICONTROL View Access], eller [!UICONTROL Grouping Access] formulär.
-1. (Villkorligt) Om du vill göra filtret, vyn eller grupperingen tillgänglig för alla användare i systemet klickar du på **[!UICONTROL Gear]** nedrullningsbar meny ![](assets/gear-menu-for-sharing-items.png)och sedan klicka **[!UICONTROL Make this visible system-wide]**. Alla användare i systemet kan nu se filtret, vyn eller grupperingen.
+1. Markera det filter, den vy eller den gruppering som du vill göra tillgänglig för användarna och klicka sedan på ikonen **[!UICONTROL Share]** ![Dela ](assets/share-icon.png) för att öppna formuläret [!UICONTROL Filter Access], [!UICONTROL View Access] eller [!UICONTROL Grouping Access].
+1. (Villkorligt) Om du vill göra filtret, vyn eller grupperingen tillgänglig för alla användare i systemet klickar du på den nedrullningsbara menyn **[!UICONTROL Gear]** ![](assets/gear-menu-for-sharing-items.png) och sedan på **[!UICONTROL Make this visible system-wide]**. Alla användare i systemet kan nu se filtret, vyn eller grupperingen.
 
    eller
 
@@ -129,15 +129,15 @@ I de här stegen beskrivs hur du gör filter, vyer och grupperingar tillgänglig
 
 1. Gör något av följande, beroende på om du tar bort ett filter, en vy eller en gruppering:
 
-   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
+   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Filters]**
 
-   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Views]**
+   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Views]**
 
-   * Klicka **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
+   * Klicka på **[!UICONTROL Interface]** > **[!UICONTROL Groupings]**
 
-1. Markera ett eller flera objekt i listan och klicka sedan på **[!UICONTROL Delete]** icon ![Ikonen Ta bort](assets/delete.png).
+1. Markera ett eller flera objekt i listan och klicka sedan på ikonen **[!UICONTROL Delete]** ![Ta bort](assets/delete.png) .
 1. I någon av följande artiklar finns detaljerad information om hur du konfigurerar ett filter, en vy eller en gruppering.
 
    * [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [Översikt över vyer i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-   * [Översikt över grupperingar i [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Översikt över vyer i  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [Översikt över grupperingar i  [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

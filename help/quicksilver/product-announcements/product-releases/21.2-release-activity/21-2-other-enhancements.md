@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Andra förbättringar
 
-Den här sidan beskriver alla andra förbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla andra förbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Vi är nu officiellt Adobe Workfront
 
@@ -37,7 +37,7 @@ Områden uppdateras snart
 * Export från PDF till listor och rapporter
 * Favicon icon in the browser tab
 
-**Områden som uppdateras senare**
+**Områden uppdateras senare**
 
 * E-postaviseringar
 
@@ -70,7 +70,7 @@ Tidigare fanns det ingen ikon och ett märke med objektnamnet visades till höge
 
 Sidhuvudena för områden i den nya Workfront-upplevelsen - som Förbättrad analys, Resurshantering och andra - har också den här uppdaterade utseendet och känslan.
 
-Mer information om objektrubrikerna i den nya Workfront-upplevelsen finns i [Nya objektrubriker](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+Mer information om de nya objektrubrikerna i den nya Workfront-upplevelsen finns i [Nya objektrubriker](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 ![](assets/product-announcement-object-header-350x179.png)
 
@@ -80,7 +80,7 @@ Workfront lagrar nu objektstatusar på ett nytt sätt.
 
 De här ändringarna påverkar inte hur statussökningar utförs. API-begäranden som innehåller en objektstatussökning returnerar dock en ofullständig lista över gruppstatus.
 
-Mer information finns i [Centrala API-ändringar: statussöksvar](../../../wf-api/api/api-changes-search.md) .
+Mer information finns i [Core API changes: Status search responses](../../../wf-api/api/api-changes-search.md) .
 
 ## Nyttolaster för händelseprenumerationer har uppdaterats för att inkludera alla fält som slutar i ID
 
@@ -96,4 +96,4 @@ Observera att varje objekt har en egen unik uppsättning associerade fält, som 
 
 Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbetsstyrningssystem som växer med dig. Systemadministratörer kan bläddra i katalogen med utkast och installera färdiga projektmallar.
 
-Mer information finns i [Blueprints](../../../administration-and-setup/blueprints/blueprints.md).
+Mer information finns i [Foton](../../../administration-and-setup/blueprints/blueprints.md).

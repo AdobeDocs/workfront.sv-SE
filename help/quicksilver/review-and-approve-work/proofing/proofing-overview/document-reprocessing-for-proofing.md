@@ -25,7 +25,7 @@ All teckensnittstext extraheras i sitt lager så länge du inkluderar rätt filt
 
 >[!NOTE]
 >
->Workfront stöder för närvarande dokument som innehåller upp till 2 000 sidor. Detta inkluderar kombinerade korrektur. Mer information finns i [Skapa ett korrektur för flera sidor](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+>Workfront stöder för närvarande dokument som innehåller upp till 2 000 sidor. Detta inkluderar kombinerade korrektur. Mer information finns i [Skapa ett flersidigt korrektur](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## Allmänna tips
 
@@ -52,6 +52,6 @@ Vanligtvis tar bearbetningen några sekunder per sida. Men det kan räcka av oli
 
 De skickade filerna går igenom några eller alla följande steg:
 
-1. **Inlämning**. När du överför ett dokument till systemet gör du det på sidan Nytt korrektur eller med ett API. 
+1. **Sändning**. När du överför ett dokument till systemet gör du det på sidan Nytt korrektur eller med ett API. 
 1. **Kö**. Under långa trafikperioder kan Workfront behöva placera inskickade data i kö för att förhindra att systemet överbelastas. De flesta korrektur tillbringar bara några sekunder i en kö. 
-1. **Bearbetar.** Filerna når bearbetningsmaskinerna enligt innehållstyp. Vi använder olika verktyg för att bearbeta videokorrektur, webbklipp, statiska bilder och dokument. ZIP (Rich Media containers) och Interactive web capture-överföringar kräver inte bearbetning.
+1. **Bearbetar.** Filerna når bearbetningsdatorerna enligt innehållstypen. Vi använder olika verktyg för att bearbeta videokorrektur, webbklipp, statiska bilder och dokument. ZIP (Rich Media containers) och Interactive web capture-överföringar kräver inte bearbetning.

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan innehåller information om funktionaliteten för Adobe Workfront Proof som släpps till produktionsmiljön inom tidsramen för version 23.3.
 
-En lista över alla ändringar som är tillgängliga för alla delar av Workfront i den här versionen av version 23.3 finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga för alla områden i Workfront i den här versionen av version 23.3 finns i [23.3 versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -71,7 +71,7 @@ En lista över alla ändringar som är tillgängliga för alla delar av Workfron
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Uppdatering för Desktop Proofing Viewer</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md">Uppdatering för korrekturläsaren för skrivbordet</a></p>
                         <p>Desktop Proofing Viewer har uppdaterats till version 2.1.24! Uppdateringen innehåller stöd för Chrome v100 för granskning av interaktiva korrektur samt ett antal problemkorrigeringar.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>

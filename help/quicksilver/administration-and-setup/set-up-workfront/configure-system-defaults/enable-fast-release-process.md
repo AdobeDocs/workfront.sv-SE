@@ -2,21 +2,22 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Aktivera eller inaktivera snabba releaser för organisationen
+title: Aktivera eller inaktivera snabba releaser för din organisation
 description: Du kan välja om du vill få nya Workfront-funktioner månadsvis eller kvartalsvis.
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9ebcbf43d4cf84d1f68aeff7e443f41193a9fe76
+exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
 
-# Aktivera eller inaktivera snabba releaser för organisationen
+# Aktivera eller inaktivera snabba releaser för din organisation
 
-Adobe Workfront har två modeller för nya funktioner och uppdateringar. Du kan välja om du vill få tillgång till nya funktioner kvartalsvis eller enligt ett snabbare schema.
+Adobe Workfront har två modeller för att lansera nya funktioner och uppdateringar. Du kan välja om du vill få tillgång till nya funktioner kvartalsvis eller enligt ett snabbare schema.
 
 Båda modellerna har samma funktioner och uppdateringar. Den enda skillnaden är i timingen.
 
@@ -34,11 +35,11 @@ Exempel:
 
 Tänk på följande när du aktiverar eller inaktiverar snabbversionsprocessen:
 
-* **Aktivering** den snabba releaseprocessen mitt i kvartalet ger er organisation tillgång till funktioner som redan släppts i den snabba releasen.
+* **Om du aktiverar** den snabba versionsprocessen mitt i ett kvartal får din organisation tillgång till funktioner som redan har släppts i den snabba versionen.
 
   Om till exempel funktion A släpps i augusti och funktion B släpps i september får alla företag som aktiverar den snabba releaseversionen i september omedelbart tillgång till funktionerna A och B.
 
-* **Inaktiverar** processen för snabb lansering börjar inte gälla förrän nästa kvartalsrelease.
+* **Om du inaktiverar** börjar den snabba versionsprocessen inte gälla förrän nästa kvartalsrelease.
 
   Om till exempel en organisation som har aktiverat en snabb release inaktiverar den i augusti får de fortfarande de snabba releasefunktionerna i september, eftersom de inte kommer att gå över till den kvartalsvisa versionen förrän nästa kvartalsrelease inträffar i oktober.
 
@@ -46,13 +47,13 @@ Tänk på följande när du aktiverar eller inaktiverar snabbversionsprocessen:
 
 Så här aktiverar eller inaktiverar du snabbversionsprocessen:
 
-1. Klicka på **Ikon för huvudmeny** och sedan klicka **Inställningar**.
-1. Expandera **System** i den vänstra navigeringen klickar du på **Inställningar**.
-1. Om du vill aktivera snabba versioner ska du kontrollera **Tillåt snabb frisläppningsprocess** kryssrutan.
+1. Klicka på ikonen **Huvudmeny** och sedan på **Konfigurera**.
+1. Expandera **System** i den vänstra navigeringen och klicka sedan på **Inställningar**.
+1. Markera kryssrutan **Tillåt snabbsläppsprocess** om du vill aktivera snabba releaser.
 
    eller
 
-   Om du vill inaktivera snabba releaser och gå över till en kvartalsvis versionscykel avmarkerar du **Tillåt snabb frisläppningsprocess** kryssrutan.
+   Om du vill inaktivera snabba releaser och gå till en kvartalsvis versionscykel avmarkerar du kryssrutan **Tillåt snabbversionsprocess**.
 
 1. Bekräfta ditt val i popup-fönstret.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

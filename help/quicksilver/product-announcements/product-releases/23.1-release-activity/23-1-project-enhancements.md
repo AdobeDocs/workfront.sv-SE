@@ -23,13 +23,13 @@ En lista över alla ändringar som är tillgängliga i version 23.1 finns i [23.
 
 När du tilldelar användare i arbetsbelastningsutjämnaren flera gånger efter att ha valt en jobbroll i fältet Rolltilldelning visas nu listan med användare som finns i listan Andra tilldelningar i fältet Användare att tilldela alla jobbroller som är associerade med varje användare under namnet. Före den här förbättringen visas endast användarens primära roll.
 
-Mer information finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Mer information finns i [Tilldela flera arbeten samtidigt med hjälp av arbetsbelastningsutjämnaren](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Flytta alternativet &quot;Lägg till användare&quot; i ett projekt
 
 Som förberedelse för borttagning och borttagning av verktygen för resursplanering har vi flyttat alternativet Lägg till användare från schemaläggningsdelen för ett projekt till personavsnittet. När du lägger till användare i ett projekt blir de användare som inte är kopplade till objekt i projektet en del av projektgruppen.
 
-Mer information finns i [Hantera projektgruppen](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
+Mer information finns i [Hantera projektteamet](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3412443/){target=_blank}
 

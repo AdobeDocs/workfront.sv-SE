@@ -3,14 +3,14 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]
+title: HTTP-förfrågningsmetoder i  [!DNL Adobe Workfront Fusion]
 description: När du konfigurerar ett API-anrop i en modul måste du fylla i fältet för metoden för HTTP-begäran.
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -38,32 +38,32 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## HTTP-metoder
 
 Använd någon av följande HTTP-metoder.
 
-* **[!UICONTROL GET]**: Hämtar data från en webbserver baserat på dina parametrar. [!UICONTROL GET] begär en representation av den angivna resursen och tar emot en [!UICONTROL 200 OK] svarsmeddelande med begärt innehåll om det lyckas.
-* **[!UICONTROL POST]**: Skickar data till en webbserver baserat på dina parametrar. [!UICONTROL POST] -begäranden innehåller åtgärder som att överföra en fil. Flera [!UICONTROL POST]s kan ge ett annat resultat än ett [!UICONTROL POST]var därför försiktig med att oavsiktligt skicka flera [!UICONTROL POST]s. Om en [!UICONTROL POST] har slutförts får du en [!UICONTROL 200 OK] svarsmeddelande.
-* **[!UICONTROL PUT]**: Skickar data till en plats på webbservern baserat på dina parametrar. [!UICONTROL PUT] -begäranden innehåller åtgärder som att överföra en fil. Skillnaden mellan [!UICONTROL PUT] och [!UICONTROL POST] är att PUT är idealiskt, vilket innebär att resultatet av en enda framgång [!UICONTROL PUT] är samma som många identiska [!UICONTROL PUT]s. Om PUT lyckas får du ett svarsmeddelande från 200 (vanligen 201 eller 204).
-* **[!UICONTROL PATCH]**: (Inte tillgängligt för vissa API-anropsmoduler) Tillämpar partiella ändringar på en resurs på en webbserver baserat på dina parametrar. [!UICONTROL PATCH] är inte idempotent, vilket innebär att resultatet av flera [!UICONTROL PATCH]Det kan få oväntade konsekvenser. Om en [!UICONTROL PATCH] om det lyckas får du ett 200-svarsmeddelande (vanligen 204).
-* **[!UICONTROL DELETE]**: Tar bort den angivna resursen från webbservern baserat på dina parametrar (om resursen finns). Om en [!UICONTROL DELETE] när det är klart får du ett 200 OK-svarsmeddelande.
+* **[!UICONTROL GET]**: Hämtar data från en webbserver baserat på dina parametrar. [!UICONTROL GET] begär en representation av den angivna resursen och tar emot ett [!UICONTROL 200 OK]-svarsmeddelande med det begärda innehållet om det lyckas.
+* **[!UICONTROL POST]**: Skickar data till en webbserver baserat på dina parametrar. [!UICONTROL POST] begäranden innehåller åtgärder som att överföra en fil. Flera [!UICONTROL POST] kan resultera i ett annat resultat än en enskild [!UICONTROL POST], så var försiktig med att oavsiktligt skicka flera [!UICONTROL POST]. Om [!UICONTROL POST] lyckas får du ett [!UICONTROL 200 OK] -svarsmeddelande.
+* **[!UICONTROL PUT]**: Skickar data till en plats på webbservern baserat på dina parametrar. [!UICONTROL PUT] begäranden innehåller åtgärder som att överföra en fil. Skillnaden mellan [!UICONTROL PUT] och [!UICONTROL POST] är att PUT är idempotent, vilket innebär att resultatet av en [!UICONTROL PUT] som lyckades är detsamma som många identiska [!UICONTROL PUT]. Om PUT lyckas får du ett svarsmeddelande från 200 (vanligen 201 eller 204).
+* **[!UICONTROL PATCH]**: (Inte tillgängligt för vissa API-anropsmoduler) Tillämpar partiella ändringar på en resurs på en webbserver baserat på dina parametrar. [!UICONTROL PATCH] är inte idempotent, vilket innebär att resultatet av flera [!UICONTROL PATCH]-objekt kan få oönskade konsekvenser. Om [!UICONTROL PATCH] lyckas får du ett 200-svarsmeddelande (vanligen 204).
+* **[!UICONTROL DELETE]**: Tar bort den angivna resursen från webbservern baserat på dina parametrar (om resursen finns). Om [!UICONTROL DELETE] lyckas får du ett 200 OK-svarsmeddelande.

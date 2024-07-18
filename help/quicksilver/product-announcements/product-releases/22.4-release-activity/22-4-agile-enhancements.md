@@ -87,7 +87,7 @@ Mer information finns i [Lägga till eller ta bort medlemmar från en anslagstav
 
 Du kan nu ange en PIA-gräns (Work In Progress) för valfri kolumn på en anslagstavla. När du aktiverar en PIA-gräns visas en räknare i kolumnen med aktuellt antal kort och gränsen. Räknaren blir röd om kolumnen innehåller fler kort än gränsen. Det här är bara en visuell varning och du hindras inte från att lägga till fler kort än gränsen.
 
-Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Mer information finns i [Hantera kortpanelskolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 

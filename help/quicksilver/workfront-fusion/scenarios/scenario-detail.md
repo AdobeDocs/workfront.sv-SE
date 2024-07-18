@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Scenarioinformation i [!DNL Adobe Workfront Fusion]
-description: Scenarioinformation i [!DNL Adobe Workfront Fusion]
+title: Scenarioinformation i  [!DNL Adobe Workfront Fusion]
+description: Scenarioinformation i  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Sceninformationssidan är hemsidan för ett specifikt scenario. Den ger åtkomst till specifik information för scenariot som finns på sidan.
 
-Den ger dig även tillgång till [Scenarioredigeraren i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)där du kan redigera scenariot.
+Du får även tillgång till [Scenarieredigeraren i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) där du kan redigera scenariot.
 
 ## Åtkomstkrav
 
@@ -43,25 +43,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Öppna [!UICONTROL Scenario detail] sida:
+## Öppna sidan [!UICONTROL Scenario detail]:
 
-1. Klicka på **[!UICONTROL Scenario]** i den vänstra panelen klickar du på ett scenario som du vill ha information om.
+1. Klicka på fliken **[!UICONTROL Scenario]** i den vänstra panelen och klicka sedan på ett scenario som du vill ha information om.
 
    eller
 
-   Om du arbetar med scenariot i [Scenarioredigeraren i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)klickar du på vänsterpilen ![](assets/exit-editing-arrow.png) nära fönstrets övre vänstra hörn.
+   Om du arbetar med scenariot i [Scenarieredigeraren i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) klickar du på vänsterpilen ![](assets/exit-editing-arrow.png) i fönstrets övre vänstra hörn.
 
 1. På sidan som visas kan du granska elementen som listas i tabellen nedan.
 
@@ -77,7 +77,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tabb) </td> 
-      <td> <p>Öppna den här fliken om du vill se en historik över scenariot, inklusive redigering av scenariot. </p> <p>The [!UICONTROL History] På -fliken finns också en historik för varje körning, som innehåller följande:</p> 
+      <td> <p>Öppna den här fliken om du vill se en historik över scenariot, inklusive redigering av scenariot. </p> <p>Fliken [!UICONTROL History] innehåller också en historik för scenariokörning för varje körning, som innehåller följande:</p> 
        <ul> 
         <li>Status för varje körning (slutförd eller fel)</li> 
         <li>Körningstid</li> 
@@ -132,7 +132,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
-      <td>I det här diagrammet kan du visa mängden dataöverföring och åtgärder som används under scenariets körningar i en [!UICONTROL line] diagram.</td> 
+      <td>I det här diagrammet kan du visa mängden dataöverföring och åtgärder som används under scenariets körningar i ett [!UICONTROL line]-diagram.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Processing banner]</p>  </td> 

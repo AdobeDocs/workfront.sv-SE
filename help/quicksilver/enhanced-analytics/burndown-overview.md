@@ -20,7 +20,7 @@ ht-degree: 0%
 
 I Burndown-visualiseringen visas ett specifikt projekts nedgång över tid och hjälper dig att förstå förhållandet mellan projektvillkor, hastighet och återstående timmar - eller dagar.
 
-![Exempel på utökad analys](assets/burndown120623.png)
+![Exempel på utökad analysnedladdning](assets/burndown120623.png)
 
 ## Åtkomstkrav
 
@@ -56,11 +56,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
-Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Förutsättningar för att använda Förbättrad analys finns i avsnittet Förutsättningar i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Förstå Burndown-visualiseringen
 
@@ -70,19 +70,19 @@ Den täckande blå raden visar den planerade hastigheten från startdatumet till
 
 Den faktiska raden visar hur många timmar - eller dagar - som har ägnats åt projektet över tid. Färgen på den här raden anger projektets villkor varje dag:
 
-* **Grön**: Projektet är på målet.
+* **Grön**: Projektet är på mål.
 
-  ![På mål](assets/burndown-green.png)
+  ![På målet](assets/burndown-green.png)
 
 * **Orange**: Projektet är i fara.
 
-  ![Vid risk](assets/burndown-orange.png)
+  ![I riskzonen](assets/burndown-orange.png)
 
 * **Röd**: Projektet är i trubbel.
 
-  ![I trubbel](assets/burndown-red.png)
+  ![I problem](assets/burndown-red.png)
 
-Mer information om projektvillkoren finns i [Översikt över projektvillkor och villkorstyp](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Mer information om de här projektvillkoren finns i [Översikt över projektvillkor och villkorstyp](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 När den faktiska raden flyttas uppåt lodrätt har arbete lagts till i projektet. När raden flyttas nedåt lodrätt har arbetet tagits bort eller slutförts för projektet.
 
@@ -94,7 +94,7 @@ Genom att se all den här informationen i Burndown-visualiseringen kan du avgör
 * Hur problem som kommer in (eller oplanerade arbeten) påverkade det planerade arbetet
 * Vilka händelser som förlängde ditt projekt efter det ursprungliga slutförandedatumet
 
-Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Om du vill lära dig hur du får bästa möjliga data för den här visualiseringen kan du läsa [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visa Burndown-visualisering
 
@@ -116,7 +116,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    Alla andra visualiseringar uppdateras till samma datumintervall och ett tidsramsfilter skapas automatiskt.
 
-   ![Tidsramsfilter](assets/timeframe-filter-350x220.png)
+   ![Tidsbildrutefilter](assets/timeframe-filter-350x220.png)
 
 1. Klicka på ett projekt i Flight-planen eller på Project treemap-visualisering för att visa mer information.
 
@@ -126,8 +126,8 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
    >
    >Mer information om dessa andra visualiseringar finns i:
    >
-   >   * [Visa flygplansvisualisering i Förbättrad analys](../enhanced-analytics/flight-plan-overview.md)
-   >   * [Visa projekttreemap-visualisering i Förbättrad analys](../enhanced-analytics/project-treemap-overview.md)
+   >   * [Visa visualisering av flygplan i Förbättrad analys](../enhanced-analytics/flight-plan-overview.md)
+   >   * [Visa visualisering av projekttreemap i Förbättrad analys](../enhanced-analytics/project-treemap-overview.md)
    >   * [Visa uppgifter i flygvisualisering i Förbättrad analys](../enhanced-analytics/tasks-in-flight-overview.md)
    >
 
@@ -137,22 +137,22 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    >[!NOTE]
    >
-   >Markera **varaktighet** ändrar all timinformation till dagar.\
-   >![Tid för nedbränning](assets/duration-burndown-350x112.png)\
-   >Mer information om varaktighet i området Förbättrad analys finns i avsnittet&quot;Varaktighet&quot; i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
+   >Om du väljer **varaktighet** ändras all timinformation till dagar.\
+   >![Varaktighet för nedladdning](assets/duration-burndown-350x112.png)\
+   >Mer information om varaktighet i området Förbättrad analys finns i avsnittet&quot;Varaktighet&quot; i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md#duration-view).
 
 1. Klicka på en punkt i linjediagrammet.
 
    Det exakta datumet visas under diagrammet och ytterligare information om uppgifter och timmar - eller dagar - för den valda dagen.
 
-   ![Förbränningsinformation](assets/burndown-task-and-hour-changes-350x121.png)
+   ![Nedladdningsinformation](assets/burndown-task-and-hour-changes-350x121.png)
 
    >[!NOTE]
    >
    >Om den faktiska hastigheten är en platt linje som löper längs x-axeln (inline med 0 timmar eller 0 dagar) i visualiseringen innebär det att inga planerade timmar - eller dagar - har lagts till i projektet.\
    >Om den faktiska hastigheten är en platt linje ovanför x-axeln (i linje med ett antal timmar eller antal dagar) som aldrig går ned, innebär det att inga uppgifter har slutförts inom den filtrerade tidsperioden.
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Exportera** icon ![Ikonen Exportera](assets/export.png) i det övre högra hörnet av visualiseringen och välj exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![Exportera ](assets/export.png) i det övre högra hörnet av visualiseringen och väljer exportformat:
 
    * Diagram (PNG)
    * Datatabell (XSLX)

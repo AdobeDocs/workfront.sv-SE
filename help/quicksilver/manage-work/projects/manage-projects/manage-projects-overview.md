@@ -25,7 +25,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Ta bort projekt](../../../manage-work/projects/manage-projects/delete-projects.md)
 * [Återställa ett borttaget projekt](../../../manage-work/projects/manage-projects/recover-project.md)
 * [Exportera ett projekt till Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
-* [Mappa Microsoft Project-fält till Adobe Workfront-projekt](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
+* [Mappa Microsoft-projektfält till Adobe Workfront-projekt](../../../manage-work/projects/manage-projects/map-ms-project-fields-to-workfront.md)
 * [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Ändra status för ett projekt](../../../manage-work/projects/manage-projects/change-project-status.md)
 * [Välj typ av projektuppdatering](../../../manage-work/projects/manage-projects/select-project-update-type.md)

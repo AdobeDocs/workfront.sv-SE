@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Frame.io-moduler
-description: The [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] konto.
+description: Kontot  [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] .
 author: Becky
 feature: Workfront Fusion
 exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 # [!DNL Frame.io] moduler
 
-The [!DNL Adobe Workfront Fusion] [!DNL Frame.io] kan du övervaka, skapa, uppdatera, hämta eller ta bort resurser och kommentarer i [!DNL Frame.io] konto.
+Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Frame.io] kan du övervaka, skapa, uppdatera, hämta eller ta bort resurser och kommentarer i ditt [!DNL Frame.io]-konto.
 
 En videointroduktion till Frame.io-anslutningen finns i:
 
-* [Ram.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Åtkomstkrav
 
@@ -43,72 +43,72 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Frame.io] moduler, du måste ha en [!DNL Frame.io] konto
+Om du vill använda [!DNL Frame.io] moduler måste du ha ett [!DNL Frame.io]-konto
 
 ## Anslut [!DNL Frame.io] till [!UICONTROL Adobe Workfront Fusion]
 
-Du kan ansluta till [!DNL Frame.io] med en API-token, eller med OAuth 2.0.
+Du kan ansluta till [!DNL Frame.io] med en API-token eller med OAuth 2.0.
 
-[Anslut till [!DNL Frame.io] använda en API-token](#connect-to-frameio-using-an-api-token)
+[Anslut till [!DNL Frame.io] med en API-token](#connect-to-frameio-using-an-api-token)
 
 [Anslut till [!DNL Frame.io] med OAuth 2.0 PKCE](#connect-to-frameio-using-oauth-20-pkce)
 
-### Anslut till [!DNL Frame.io] använda en API-token
+### Anslut till [!DNL Frame.io] med en API-token
 
-Koppla samman [!DNL Frame.io] konto till [!DNL Workfront Fusion] med en API-token måste du skapa API-token i [!DNL Frame.io] konto och infoga det i [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection] -dialogrutan.
+Om du vill ansluta ditt [!DNL Frame.io]-konto till [!DNL Workfront Fusion] med en API-token måste du skapa API-token i ditt [!DNL Frame.io]-konto och infoga den i dialogrutan [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection].
 
-1. Logga in på [!DNL Frame.io] konto.
-1. Gå till **[!UICONTROL Tokens]** sidan i [!DNL Frame.io] Utvecklare.
+1. Logga in på ditt [!DNL Frame.io]-konto.
+1. Gå till sidan **[!UICONTROL Tokens]** i [!DNL Frame.io] Developer.
 1. Klicka på **[!UICONTROL New]**.
-1. Ange namnet på variabeln, markera de omfång du vill använda och klicka på **[!UICONTROL Create]**.
+1. Ange namnet på token, markera de scope som du vill använda och klicka på **[!UICONTROL Create]**.
 1. Kopiera angiven token.
-1. Gå till [!DNL Workfront Fusion] och öppna [!DNL Frame.io] modulens **[!UICONTROL Create a connection]** -dialogrutan.
-1. I **[!UICONTROL Connection type]** fält, markera **[!DNL Frame.io]**.
-1. Ange den token som du har kopierat i steg 5 till **[!UICONTROL Your [!DNL Frame.io] API Key]** fält och klicka **[!UICONTROL Continue]** för att upprätta anslutningen.
+1. Gå till [!DNL Workfront Fusion] och öppna dialogrutan **[!UICONTROL Create a connection]** för modulen [!DNL Frame.io].
+1. Välj **[!DNL Frame.io]** i fältet **[!UICONTROL Connection type]**.
+1. Ange den token som du har kopierat i steg 5 till fältet **[!UICONTROL Your [!DNL Frame.io] API Key]** och klicka på **[!UICONTROL Continue]** för att upprätta anslutningen.
 
 Anslutningen har upprättats. Du kan fortsätta med att konfigurera modulen.
 
 ### Anslut till [!DNL Frame.io] med OAuth 2.0 PKCE
 
-Du kan skapa en anslutning till [!DNL Frame.io] med OAuth 2.0 PKCE och ett valfritt klient-ID. Om du vill inkludera ett klient-ID i anslutningen måste du skapa en OAuth 2.0-app i din [!DNL Frame.io] konto.
+Du kan skapa en anslutning till [!DNL Frame.io] med OAuth 2.0 PKCE med ett valfritt klient-ID. Om du vill inkludera ett klient-ID i anslutningen måste du skapa en OAuth 2.0-app i ditt [!DNL Frame.io]-konto.
 
 * [Anslut till [!DNL Frame.io] med OAuth 2.0 PKCE (utan klient-ID)](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
 * [Anslut till [!DNL Frame.io] med OAuth 2.0 PKCE (med klient-ID)](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
 #### Anslut till [!DNL Frame.io] med OAuth 2.0 PKCE (utan klient-ID)
 
-1. Gå till [!DNL Workfront Fusion] och öppna [!DNL Frame.io] modulens **[!UICONTROL Create a connection]** -dialogrutan.
-1. I **[!UICONTROL Connection type]** fält, markera **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]**.
-1. Ange ett namn för den nya anslutningen i dialogrutan **[!UICONTROL Connection name]** fält.
-1. Klicka **[!UICONTROL Continue]** för att upprätta anslutningen.
+1. Gå till [!DNL Workfront Fusion] och öppna dialogrutan **[!UICONTROL Create a connection]** för modulen [!DNL Frame.io].
+1. Välj **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]** i fältet **[!UICONTROL Connection type]**.
+1. Ange ett namn för den nya anslutningen i fältet **[!UICONTROL Connection name]**.
+1. Klicka på **[!UICONTROL Continue]** för att upprätta anslutningen.
 
 Anslutningen har upprättats. Du kan fortsätta med att konfigurera modulen.
 
 #### Anslut till [!DNL Frame.io] med OAuth 2.0 PKCE (med klient-ID)
 
-1. Skapa en OAuth 2.0-app i [!DNL Frame.io]. Instruktioner finns i [!DNL Frame.io] dokumentation om [!UICONTROL OAuth 2.0 Code Authorization Flow].
+1. Skapa en OAuth 2.0-app i [!DNL Frame.io]. Instruktioner finns i [!DNL Frame.io]-dokumentationen för [!UICONTROL OAuth 2.0 Code Authorization Flow].
 
    >[!IMPORTANT]
    >
@@ -123,30 +123,30 @@ Anslutningen har upprättats. Du kan fortsätta med att konfigurera modulen.
    >* Aktivera alternativet PCKE.
 
 
-1. Kopiera den angivna `client_id`.
-1. Gå till [!DNL Workfront Fusion] och öppna [!DNL Frame.io] modulens **[!UICONTROL Create a connection]** -dialogrutan.
-1. I **[!UICONTROL Connection type]** fält, markera **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]**.
-1. Ange ett namn för den nya anslutningen i dialogrutan **[!UICONTROL Connection name]** fält.
+1. Kopiera angiven `client_id`.
+1. Gå till [!DNL Workfront Fusion] och öppna dialogrutan **[!UICONTROL Create a connection]** för modulen [!DNL Frame.io].
+1. Välj **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]** i fältet **[!UICONTROL Connection type]**.
+1. Ange ett namn för den nya anslutningen i fältet **[!UICONTROL Connection name]**.
 1. Klicka på **[!UICONTROL Show advanced settings]**.
-1. Ange `client_id` du kopierade i steg 2 till **[!UICONTROL Client ID]** fält.
-1. Klicka **[!UICONTROL Continue]** för att upprätta anslutningen.
+1. Ange `client_id` som du kopierade i steg 2 till fältet **[!UICONTROL Client ID]**.
+1. Klicka på **[!UICONTROL Continue]** för att upprätta anslutningen.
 
 Anslutningen har upprättats. Du kan fortsätta med att konfigurera modulen.
 
-## [!DNL Frame.io] moduler och deras fält
+## [!DNL Frame.io]-moduler och deras fält
 
-När du konfigurerar [!DNL Frame.io] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Frame.io] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Frame.io] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Frame.io] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [Resurser](#assets)
+* [Assets](#assets)
 * [Kommentar](#comments)
 * [Projekt](#projects)
 * [Övriga](#other)
 
-### Resurser
+### Assets
 
 * [[!UICONTROL Create an Asset]](#create-an-asset)
 * [[!UICONTROL Delete an Asset]](#delete-an-asset)
@@ -167,7 +167,7 @@ Den här åtgärdsmodulen skapar en ny resurs.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -220,7 +220,7 @@ Den här åtgärdsmodulen tar bort en angiven resurs.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -251,7 +251,7 @@ Den här åtgärdsmodulen hämtar resursinformation.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -284,7 +284,7 @@ Den här sökmodulen hämtar alla resurser i det angivna projektets mapp.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -300,7 +300,7 @@ Den här sökmodulen hämtar alla resurser i det angivna projektets mapp.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal resurser [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet resurser som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -315,7 +315,7 @@ Med den här åtgärdsmodulen kan du uppdatera en befintlig resurs namn, beskriv
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -354,7 +354,7 @@ Denna utlösarmodul startar ett scenario när en resurs tas bort.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -377,7 +377,7 @@ Den här utlösarmodulen startar ett scenario när en resurs status anges, ändr
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -400,7 +400,7 @@ Den här utlösarmodulen startar ett scenario när en ny resurs skapas.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -429,7 +429,7 @@ Den här åtgärdsmodulen lägger till en ny kommentar eller ett nytt svar till 
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type] </td> 
@@ -476,7 +476,7 @@ Den här åtgärdsmodulen tar bort en befintlig kommentar.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID]</td> 
@@ -511,7 +511,7 @@ Denna åtgärdsmodul hämtar information om den angivna kommentaren.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -546,7 +546,7 @@ Sökmodulen hämtar alla kommentarer för den angivna resursen.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -566,7 +566,7 @@ Sökmodulen hämtar alla kommentarer för den angivna resursen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal kommentarer [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet kommentarer som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -581,7 +581,7 @@ Den här åtgärdsmodulen redigerar en befintlig kommentar.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -628,7 +628,7 @@ Den här utlösarmodulen startar ett scenario när en kommentar redigeras.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -651,7 +651,7 @@ Den här utlösarmodulen startar ett scenario när en ny kommentar eller ett nyt
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -672,7 +672,7 @@ Denna sökmodul hämtar alla projekt för det angivna teamet.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -680,7 +680,7 @@ Denna sökmodul hämtar alla projekt för det angivna teamet.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Ange maximalt antal projekt [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p>Ange det maximala antalet projekt som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -697,15 +697,15 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io], se <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref">Anslut [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Frame.io] finns i <a href="#connect-frame-io-to-adobe-workfront-fusion" class="MCXref xref"> Ansluta [!DNL Frame.io] till [!DNL Adobe Workfront Fusion]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Ange en sökväg i förhållande till <code>https://api.frame.io</code>. Exempel: <code> /v2/teams</code></p> <p>Obs! En lista över tillgängliga slutpunkter finns i [!DNL Frame.io] API-referens.</p> </td> 
+   <td> <p>Ange en relativ sökväg till <code>https://api.frame.io</code>. Exempel: <code> /v2/teams</code></p> <p>Obs! En lista över tillgängliga slutpunkter finns i API-referensen för [!DNL Frame.io].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -713,11 +713,11 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String] </td> 
-   <td> <p>Ange frågesträngen för begäran. För varje parameter som du vill ta med i frågesträngen klickar du på <b>[!UICONTROL Add item]</b> och ange fältets namn och det önskade värdet.</p> </td> 
+   <td> <p>Ange frågesträngen för begäran. För varje parameter som du vill ta med i frågesträngen klickar du på <b>[!UICONTROL Add item]</b> och anger fältets namn och önskat värde.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -725,7 +725,7 @@ Med den här modulen kan du utföra ett anpassat API-anrop.
  </tbody> 
 </table>
 
-**Exempel:** Följande API-anrop returnerar alla team och dess information i ditt [!DNL Frame.io] konto:
+**Exempel:** Följande API-anrop returnerar alla team och dess information i ditt [!DNL Frame.io]-konto:
 
 URL: `/v2/teams`
 

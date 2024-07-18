@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,10 +93,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    * [Skapa routningsregler](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
    * [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Gå till det projekt som du valde att aktivera som en kö för hjälpbegäran och där du vill skapa ett nytt köämne.\
-   Mer information om hur du anger ett projekt som en kö för hjälpbegäranden finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information om hur du anger ett projekt som en kö för hjälpbegäranden finns i [Skapa en kö för begäranden](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Du kan ordna relaterade köämnen under en ämnesgrupp. Då får den som gjorde begäran en serie listrutor.
 
@@ -106,9 +106,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    Mer information om hur du skapar ämnesgrupper finns i [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Klicka **Köämnen** till vänster. Du kan behöva klicka **Visa fler** sedan **Köämnen**.
-1. Klicka **Nytt köämne**.
-1. På **Nytt köämne** ange följande:
+1. Klicka på **Köa ämnen** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Köämnen**.
+1. Klicka på **Nytt köämne**.
+1. Ange följande i formuläret **Nytt köämne**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -128,13 +128,13 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Anpassad Forms</strong> </td> 
-      <td>Välj de anpassade formulär som du vill associera med köavsnittet. Du måste skapa anpassade formulär för problem innan du kan koppla dem till köämnen. Mer information om hur du skapar anpassade formulär finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</td> 
+      <td>Välj de anpassade formulär som du vill associera med köavsnittet. Du måste skapa anpassade formulär för problem innan du kan koppla dem till köämnen. Mer information om hur du skapar anpassade formulär finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Standardgodkännande</strong></td> 
       <td> <p>Associera en godkännandeprocess med det här köavsnittet. Endast godkännandeprocesser för problem visas i den här listrutan. Alla utleveranser som skickas till den här kön kommer att associeras med den här godkännandeprocessen. Adobe Workfront-administratören måste definiera godkännandeprocesser på systemnivå innan du kan koppla dem till köämnen. <span>En användare med administrativ åtkomst till godkännandeprocesser kan också skapa gruppspecifika godkännandeprocesser.</span> Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.<br></p> 
        <div> 
-        <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga problem en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>.</p> 
+        <p>Viktigt: Om projektgruppen ändras blir den gruppspecifika godkännandeprocess som är kopplad till befintliga problem en godkännandeprocess för engångsbruk. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>.</p> 
         <p>Tänk på följande när du lägger till godkännandeprocesser i köämnen: </p> 
         <ul style="list-style-type: circle;"> 
          <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
@@ -151,12 +151,12 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <td>Ange den routningsregel som du vill koppla till köämnet. Du måste skapa routningsregeln innan du kan koppla den till ett köämne. Mer information finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md">Skapa routningsregler</a>. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Typ av begäran</strong> </td> 
-      <td> <p>Välj vilken typ av begäranden som lagras i det här köavsnittet. De synliga alternativen anges på <strong>Köinformation</strong> -fliken i projektet. Detta är ett obligatoriskt fält. </p>
+      <td role="rowheader"><strong>Begärantyper</strong> </td> 
+      <td> <p>Välj vilken typ av begäranden som lagras i det här köavsnittet. De synliga alternativen anges på fliken <strong>Köinformation</strong> i projektet. Detta är ett obligatoriskt fält. </p>
 
-   <p><b>ANMÄRKNING</b>:
+   <p><b>OBS</b>:
 
-   Typer visas bara som ett urval i området Begäranden om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du ställer in området Köinformation för ett projekt finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en begärandekö</a>. </p> <p>Välj bland följande typer:</p>
+   Typer visas bara som ett urval i området Begäranden om frågetypen har valts både på sidorna Köinformation och på sidorna Köämne. Mer information om hur du konfigurerar området Köinformation för ett projekt finns i <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Skapa en frågekö</a>. </p> <p>Välj bland följande typer:</p>
    <ul>
    <li>Felrapport</li>
    <li>Ändra ordning</li>
@@ -169,5 +169,5 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    ![Ny ämnesruta för kö](assets/new-queue-topic-box.png)
 
-1. Klicka **Spara**.\
+1. Klicka på **Spara**.\
    Köämnet är nu tillgängligt att använda och visas i området Begäranden i Workfront när en frågekö och en ämnesgrupp har valts.

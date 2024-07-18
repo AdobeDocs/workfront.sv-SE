@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns i [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Godkännanden av nya dokument
 

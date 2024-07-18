@@ -8,14 +8,14 @@ feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2270'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera planer i [!DNL Scenario Planner]
 
-Du kan skapa planer som en del av [!DNL Workfront Scenario Planner]när ni prioriterar er strategi på en högre nivå. Mer information om planer finns i [Planer - översikt i [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
+Du kan skapa planer som en del av att använda [!DNL Workfront Scenario Planner] när du prioriterar ditt företags strategi på en högre nivå. Mer information om planer finns i [Planöversikt i  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,11 +43,11 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td>Produkt</td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du får [!UICONTROL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!UICONTROL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!UICONTROL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!UICONTROL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfigurationer på åtkomstnivå* </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektbehörigheter </p> </td> 
@@ -56,7 +56,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa eller redigera planer
 
@@ -68,17 +68,17 @@ Du kan skapa en helt ny plan eller redigera en befintlig plan som delats med dig
 
 I den här artikeln beskrivs hur du kan skapa en plan från grunden eller redigera en befintlig plan.
 
-Om du vill ha mer information om planer, inklusive information om en plan, kan du läsa [Planer - översikt i [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
+Alla överväganden om planer, inklusive information som är tillgänglig för en plan, finns i [Översikt över planer i  [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
-Mer information om hur du tar bort planer finns i [Ta bort planer i [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+Mer information om hur du tar bort planer finns i [Ta bort planer i  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
 Så här skapar eller redigerar du en plan:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
    En lista över befintliga planer som du har skapat visas i [!DNL Workfront Scenario Planner].
 
-1. (Valfritt) Klicka på **[!UICONTROL Filter]** icon ![](assets/filter-icon-34x37.png)i planlistans övre högra hörn och välj något av följande:
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Filter]** ![](assets/filter-icon-34x37.png) i det övre högra hörnet av planlistan och välj något av följande:
 
    | Filter | Beskrivning |
    |---|---|
@@ -88,7 +88,7 @@ Så här skapar eller redigerar du en plan:
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Search]** icon ![](assets/search-icon.png) om du vill skriva ett nyckelord och snabbt hitta en plan i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) för att skriva ett nyckelord och snabbt hitta en plan i listan.
 
 1. Klicka på namnet på en befintlig plan för att redigera den och fortsätt med steg 7.
 
@@ -98,7 +98,7 @@ Så här skapar eller redigerar du en plan:
 
    eller
 
-   Klicka **[!UICONTROL New Plan]** i det övre vänstra hörnet för att skapa en plan och fortsätta med steg 5.
+   Klicka på **[!UICONTROL New Plan]** i det övre vänstra hörnet för att skapa en plan och fortsätta med steg 5.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
@@ -106,7 +106,7 @@ Så här skapar eller redigerar du en plan:
 
    ![](assets/new-plan-button.png)
 
-   The [!UICONTROL New Plan] visas.
+   Rutan [!UICONTROL New Plan] visas.
 
    ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -125,11 +125,11 @@ Så här skapar eller redigerar du en plan:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span>FTE ([!UICONTROL Full Time Equivalent]) eller [!UICONTROL Hours]</span> </td> 
-      <td> <p><span>Välj något av följande alternativ för att ange hur du vill beräkna jobbrollsinformation för den här planen:</span> </p> 
+      <td> <p><span>Välj ett av följande alternativ för att ange hur du vill beräkna jobbrollsinformation för den här planen:</span> </p> 
        <ul> 
-      <li> <p><span><strong>FTE</strong>. Detta är standardinställningen </span> </p> 
+      <li> <p><span><strong>FTE</strong>. Det här är standardvärdet </span> </p> 
       <p><b>VIKTIGT</b></p>  
-      <p>För alla beräkningar i [!DNL Scenario Planner], [!DNL Workfront] använder följande värde: 1 heltidsanställd = 8 timmar. </p> </li> 
+      <p>För alla beräkningar i [!DNL Scenario Planner] använder [!DNL Workfront] följande värde: 1 FTE = 8 timmar. </p> </li> 
       <li> <p><strong>[!UICONTROL Hours]</strong> </p> </li> 
        </ul> <p><b>VIKTIGT</b></p>
 
@@ -137,7 +137,7 @@ Så här skapar eller redigerar du en plan:
    </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Start date]</td> 
-      <td> <p>Välj den månad och det år då du vill att planen ska starta. I det här fältet kan du bara välja månader. [!DNL Workfront] förutsätter att startdatumet för planen är den första dagen i den valda månaden och att slutdatumet är den sista dagen i slutet av månaden. </p> </td> 
+      <td> <p>Välj den månad och det år då du vill att planen ska starta. I det här fältet kan du bara välja månader. [!DNL Workfront] antar att startdatumet för planen är den första dagen i den valda månaden och att slutdatumet är den sista dagen i slutet av månaden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Duration]</td> 
@@ -153,11 +153,11 @@ Så här skapar eller redigerar du en plan:
 
 <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
-1. (Villkorligt) Klicka **[!UICONTROL Next]**.
+1. (Villkorligt) Klicka på **[!UICONTROL Next]**.
 
    Tidslinjen för planen visas som **[!UICONTROL Initial scenario]**.
 
-   Mer information om hur du skapar ytterligare scenarier finns i [Skapa och jämföra planscenarier i [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   Mer information om hur du skapar ytterligare scenarier finns i [Skapa och jämföra planscenarier i  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
 1. (Valfritt) I listrutan Tidslinje väljer du ett av alternativen i följande tabell för att ändra hur du visar tidslinjen för planen.
 
@@ -166,25 +166,25 @@ Så här skapar eller redigerar du en plan:
    | Nedrullningsbart menyalternativ | Beskrivning |
    |---|---|
    | [!UICONTROL Month] | Visar tidslinjen per månad. Detta är standardinställningen och det enda alternativet för en ettårsplan. |
-   | [!UICONTROL Quarter] | Visar tidslinjen per kvartal. Det här alternativet är bara tillgängligt när [!UICONTROL Duration] för planen är 3 eller 5 år. Det här är standardalternativet för en 3-årsplan. |
-   | [!UICONTROL Year] | Visar tidslinjen per år. Det här alternativet är bara tillgängligt när [!UICONTROL Duration] av planen är fem år. Det här är standardalternativet för en femårsplan. |
+   | [!UICONTROL Quarter] | Visar tidslinjen per kvartal. Det här alternativet är endast tillgängligt när [!UICONTROL Duration] för planen är 3 eller 5 år. Det här är standardalternativet för en 3-årsplan. |
+   | [!UICONTROL Year] | Visar tidslinjen per år. Det här alternativet är endast tillgängligt när [!UICONTROL Duration] för planen är fem år. Det här är standardalternativet för en femårsplan. |
 
 1. (Valfritt) Bläddra från vänster till höger för att visa hela planens varaktighet.
-1. (Valfritt) Klicka på **[!UICONTROL Today]** indikatorrad som ska återgå till den aktuella dagen.
+1. (Valfritt) Klicka på indikatorraden **[!UICONTROL Today]** om du vill återgå till den aktuella dagen.
 
    ![](assets/today-indicator-350x160.png)
 
-1. Klicka på **[!UICONTROL Job Roles]** i planens huvud för att lägga till jobbroller som är tillgängliga för att genomföra planen.
+1. Klicka på rutan **[!UICONTROL Job Roles]** i planens huvud för att lägga till jobbroller som är tillgängliga för att genomföra planen.
 
-   Information om [!UICONTROL Job Roles] visas.
+   Information om [!UICONTROL Job Roles]-rutevisningen.
 
    >[!TIP]
    >
-   >Rollallokeringsenheten (FTE eller timmar) som [!DNL Workfront] för den här planen visas inom parentes i rutans rubrik.
+   >Rollallokeringsenheten (FTE eller timmar) som [!DNL Workfront] använder för den här planen visas inom parentes i rutans rubrik.
 
    ![](assets/adding-people-to-plan-350x206.png)
 
-1. Klicka på **[!UICONTROL Start typing job role]** och välj en roll i listan eller börja skriva namnet på en aktiv jobbroll.
+1. Klicka på fältet **[!UICONTROL Start typing job role]** och välj en roll i listan eller börja skriva namnet på en aktiv jobbroll.
 
    Alla aktiva jobbroller i systemet visas när du klickar på det här fältet.
 
@@ -198,19 +198,19 @@ Så här skapar eller redigerar du en plan:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Max available] (för heltidsanställda) </p> <p role="rowheader">eller </p> <p role="rowheader"><span>[!UICONTROL Total available] (i timmar)</span> </p> </td> 
-      <td> <p><span>Beroende på om du valt att använda timmar eller heltidsanställd för din plan kan du skriva</span> antalet heltidsanställda jobbroller <span>eller timmar</span> som är tillgängliga för att utföra arbete på planen i följande fält: </p> 
+      <td> <p><span>Beroende på om du har valt att använda timmar eller FTE för din plan skriver du</span> antalet FTE:er <span>eller timmar</span> för jobbrollen som är tillgängliga för att utföra arbete på planen i följande fält: </p> 
        <ul> 
-        <li> <p style="font-weight: normal;"><strong>[!UICONTROL Total available]</strong> (i timmar): Ange det totala antalet timmar för alla månader under scenariots varaktighet. Som standard [!DNL Workfront] dividerar det totala tillgängliga antalet jämnt över alla månader i scenariots varaktighet. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Om du anger 1 200 timmar för en Designer innebär det att Designer är tillgängligt i 100 timmar för varje månad under planens giltighetstid, när planen [!UICONTROL Duration] är ett år. </p> </li> 
-        <li> <p><b>[!UICONTROL Max available]</b> (för heltidsanställda): Ange antalet heltidsanställda som jobbrollen är tillgänglig för varje månad under planens varaktighet. Som standard <strong>Workfront</strong> tilldelar [!UICONTROL Max available] till varje månad under scenariot.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Om du anger 1 heltidsanställd för en konsult innebär detta att konsulten är tillgänglig för 1 heltidsanställd för varje månad under planens löptid. </p> <p>Du kan ange ett tal som är lägre än 1 FTE. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>En arbetsuppgift för 0.5-konsulter innebär att en konsult skulle ägna hälften av sin heltidsanställda (vanligtvis 4 timmar, där 8 timmar är 1 heltidsanställd) åt att arbeta med planen. För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 heltidsanställd = 8 timmar. </p> </li> 
+        <li> <p style="font-weight: normal;"><strong>[!UICONTROL Total available]</strong> (för timmar): Ange det totala antalet timmar för alla månader under scenariots varaktighet. Som standard delar [!DNL Workfront] det totala tillgängliga antalet jämnt över alla månader i scenariots varaktighet. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Om du anger 1 200 timmar för en Designer innebär det att Designer är tillgängligt i 100 timmar för varje månad under planens löptid, när planen [!UICONTROL Duration] är 1 år. </p> </li> 
+        <li> <p><b>[!UICONTROL Max available]</b> (för heltidsanställda): Ange antalet heltidsanställda som jobbrollen är tillgänglig för varje månad under planens löptid. Som standard tilldelar <strong>Workfront</strong> talet [!UICONTROL Max available] till varje månad under scenariots varaktighet.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Om du anger 1 heltidsanställd för en konsult innebär det att konsulten är tillgänglig för 1 heltidsanställd för varje månad under planens giltighetstid. </p> <p>Du kan ange ett tal som är lägre än 1 FTE. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>En jobbroll för 0,5-konsult innebär att en konsult skulle avsätta hälften av sin heltidsanställda (vanligtvis 4 timmar, där 8 timmar är 1 heltidsanställd) till att arbeta med den här planen. För alla beräkningar i Scenarioplaneraren använder Workfront följande värde: 1 FTE = 8 timmar. </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Max required] (för heltidsanställda)</p> <p role="rowheader">eller </p> <p role="rowheader"><span>[!UICONTROL Total required] (i timmar)</span> </p> </td> 
-      <td> <p><span>Beroende på om du valt att använda timmar eller heltidsanställd för din plan kan du granska</span> antalet heltidsanställda jobbroller <span>eller timmar</span> som krävs för att slutföra satsningarna i scenariot. Granska följande fält:</p> 
+      <td> <p><span>Beroende på om du valt att använda timmar eller heltidsanställd för din plan kan du granska</span> antalet heltidsanställda <span> eller timmar</span> som krävs för att slutföra initiativen i scenariot. Granska följande fält:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Total required]</strong> (i timmar): Det totala antalet timmar som krävs för alla månader under planens varaktighet.</p> </li> 
-        <li> <p><strong>[!UICONTROL Max required]</strong> (för heltidsanställda): Maximalt antal heltidsanställda som krävs för någon av månaderna under planens löptid. </p> </li> 
-       </ul> <p>Tips: The <span>maximum</span> antal heltidsanställda <span>eller det totala antalet timmar</span> som krävs för den jobbrollen visas när du har börjat lägga till initiativ. Mer information om hur du lägger till initiativ i en plan finns i <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Skapa och redigera i [!DNL Scenario Planner]</a>.</p> </td> 
+        <li> <p><strong>[!UICONTROL Total required]</strong> (för timmar): Det totala antalet timmar som krävs för alla månader under planens varaktighet.</p> </li> 
+        <li> <p><strong>[!UICONTROL Max required]</strong> (för heltidsanställda): Det högsta antal heltidsanställda som krävs för någon av månaderna under planens löptid. </p> </li> 
+       </ul> <p>Tips! Det <span>maximala</span> antalet FTE <span> eller det totala antalet timmar</span> som krävs för den jobbrollen visas när du har påbörjat tillägg av initiativ. Mer information om hur du lägger till initiativ i en plan finns i <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Skapa och redigera initiativ i [!DNL Scenario Planner]</a>.</p> </td> 
      </tr> <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
@@ -223,19 +223,19 @@ Så här skapar eller redigerar du en plan:
      --> 
      <tr> 
       <td role="rowheader">[!UICONTROL Hourly rate]</td> 
-      <td> <p>Det här är [!UICONTROL Cost Hour] hastighet för jobbrollen. Timpriset visas i systemets valuta. Mer information om hur du ställer in valutakurser för ditt system finns i <a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> </td> 
+      <td> <p>Detta är frekvensen [!UICONTROL Cost Hour] för jobbrollen. Timpriset visas i systemets valuta. Mer information om hur du konfigurerar valutakurser för ditt system finns i <a href="../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Valfritt) Håll muspekaren över namnet på en jobbroll eller klicka på fliken när du har uppdaterat rollinformationen och klicka sedan på knappen **[!UICONTROL trash can icon]** ![](assets/delete.png) för att ta bort den från planen.
+1. (Valfritt) Håll muspekaren över namnet på en jobbroll eller klicka på fliken efter att du har uppdaterat rollinformationen och klicka sedan på **[!UICONTROL trash can icon]** ![](assets/delete.png) för att ta bort den från planen.
 1. Klicka på **[!UICONTROL Job role distribution]**.
 
    Panelen Jobbrollsfördelning visas för alla månader under scenariot.
 
    ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
-1. Skriv namnet på en jobbroll som ska läggas till i planen i **[!UICONTROL Start typing job role field]** klickar du sedan på Enter när den visas i listan. Detta lägger till jobbrollen i [!UICONTROL Job Roles] kolumn.
+1. Skriv namnet på en jobbroll som du vill lägga till den i planen i **[!UICONTROL Start typing job role field]** och klicka sedan på Enter när den visas i listan. Detta lägger till jobbrollen i kolumnen [!UICONTROL Job Roles].
 1. Uppdatera eller granska följande information för varje månad i scenariot:
 
    <table style="table-layout:auto"> 
@@ -247,36 +247,36 @@ Så här skapar eller redigerar du en plan:
       <td>Både den jobbroll som är tillgänglig för scenariot och den som krävs för initiativen i scenariot visas på panelen för jobbrollsfördelning. Det finns en indikation på om uppskattningar av jobbroller finns i heltidsanställda eller timmar i kolumnrubriken. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Available] (max &lt;number of="" ftes=""&gt;) </p> 
+      <td role="rowheader"> <p>[!UICONTROL Available] (max &lt;antal heltidsanställda&gt;) </p> 
        <div> 
         <p>eller</p> 
-        <p>[!UICONTROL Available] (totalt &lt;number of="" hours=""&gt;) </p> 
+        <p>[!UICONTROL Available] (totalt &lt;antal timmar&gt;) </p> 
        </div> </td> 
-      <td> <p><span>Beroende på om du valt att använda timmar eller heltidsanställd för din plan, granska eller uppdatera</span> månadsantalet heltidsanställda befattningar <span>eller timmar</span> är tillgängliga för scenariot i följande fält:</p> 
+      <td> <p><span>Beroende på om du har valt att använda timmar eller FTE för din plan kan du granska eller uppdatera</span> det månadsvisa antalet FTE <span>eller timmar</span> för jobbrollen som är tillgängligt för scenariot i följande fält:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Available] (max &lt;number of="" ftes=""&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som är tillgängliga för en av månaderna för scenariot. Granska eller uppdatera antalet heltidsanställda för varje månad i scenariot. Om du ändrar månadstilldelningen kan antalet heltidsanställda uppdateras inom parenteserna. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Available] (totalt &lt;number of="" hours=""&gt;)</strong>: Antalet inom parentes visar det totala antalet tillgängliga timmar för alla månader i scenariot. Granska eller uppdatera antalet timmar för varje månad i scenariot. Om du ändrar den månatliga tilldelningen uppdateras antalet timmar inom parenteserna.</span> </p> </li> 
-       </ul> <p>Manuell uppdatering av de månatliga jobbrollallokeringarna är ett annat sätt att lösa jobbrollskonflikter mellan initiativ i scenariot. </p> <p>Tips:   <p><span>Om du vill uppdatera den månatliga rolltillgängligheten för flera månader skriver du antalet timmar eller heltidsanställda i [!UICONTROL Available] i valfri månad och dra sedan fältets hörn över de angränsande månaderna för att kopiera samma värde för varje månad. Släpp det för att uppdatera alla månader.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
+        <li> <p><strong>[!UICONTROL Available] (max &lt;antal FTE&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som är tillgängliga för en av månaderna för scenariot. Granska eller uppdatera antalet heltidsanställda för varje månad i scenariot. Om du ändrar månadstilldelningen kan antalet heltidsanställda uppdateras inom parenteserna. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Available] (totalt &lt;antal timmar&gt;)</strong>: Antalet inom parentes visar det totala antalet tillgängliga timmar för alla månader i scenariot. Granska eller uppdatera antalet timmar för varje månad i scenariot. Om du ändrar den månatliga allokeringen uppdateras antalet timmar inom parenteserna.</span> </p> </li> 
+       </ul> <p>Manuell uppdatering av de månatliga jobbrollallokeringarna är ett annat sätt att lösa jobbrollskonflikter mellan initiativ i scenariot. </p> <p>Tips:   <p><span>Om du vill uppdatera den månatliga rolltillgängligheten för flera månader skriver du antalet timmar eller heltidsanställda i fältet [!UICONTROL Available] för en månad och drar sedan fältets hörn över de angränsande månaderna för att kopiera samma värde för varje månad. Släpp det för att uppdatera alla månader.</span> </p> <p> <img src="assets/job-role-distribution-draggable-corner-highlighted-350x83.png" style="width: 350;height: 83;"> </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">[!UICONTROL Required] (max &lt;number&gt;)</p> 
        <div> 
         <p role="rowheader">eller</p> 
-        <p role="rowheader">[!UICONTROL Required] (totalt &lt;number&gt;)</p> 
+        <p role="rowheader">[!UICONTROL Required] (totalt &lt;tal&gt;)</p> 
        </div> </td> 
-      <td> <p><span>Beroende på om du valt att använda timmar eller heltidsanställd för din plan kan du granska</span> Månadsantalet FTE eller timmar för jobbroll som krävs för scenariot i följande fält: </p> 
+      <td> <p><span>Beroende på om du har valt att använda timmar eller heltidsanställd för din plan kan du granska</span> det månadsvisa antalet heltidsanställda eller timmar för jobbroller som krävs för scenariot i följande fält: </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Required] (max &lt;number of="" ftes=""&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som krävs för någon av månaderna för scenariot. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Required] (totalt &lt;number of="" hours=""&gt;)</strong>: Antalet inom parentes visar det totala antalet timmar som krävs för alla månader i scenariot.</span> </p> </li> 
-       </ul> <p>Tips: Du kan inte ändra antalet FTE som krävs <span>eller timmar</span> för jobbrollen. Det här numret fyller i scenariot när du har börjat lägga till initiativ och deras krav på jobbroll. </p> </td> 
+        <li> <p><strong>[!UICONTROL Required] (max &lt;antal FTE&gt;)</strong>: Antalet inom parentes visar det maximala antalet roller som krävs för någon av månaderna för scenariot. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Required] (totalt &lt;antal timmar&gt;)</strong>: Antalet inom parentes visar det totala antalet timmar som krävs för alla månader i scenariot.</span> </p> </li> 
+       </ul> <p>Tips! Du kan inte ändra antalet FTE <span> eller timmar </span> som krävs för jobbrollen. Det här numret fyller i scenariot när du har börjat lägga till initiativ och deras krav på jobbroll. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Difference]</td> 
       <td> 
        <div> 
-        <p>Den månatliga skillnaden mellan mängden obligatoriska och tillgängliga jobbroller för scenariot. [!DNL Workfront] beräknar skillnaden för varje jobbroll för varje månad med hjälp av följande formel:</p> 
+        <p>Den månatliga skillnaden mellan mängden obligatoriska och tillgängliga jobbroller för scenariot. [!DNL Workfront] beräknar skillnaden för varje jobbroll för varje månad med följande formel:</p> 
         <p><code>Monthly role difference = Monthly required roles - Monthly available roles</code> (i heltidsekvivalenter eller timmar) </p> 
-        <p>Tips: När skillnaden visar ett negativt tal, kräver scenariot fler jobbroller än vad som finns tillgängligt i planen. Dina resurser är överallokerade. </p> 
+        <p>Tips! När skillnaden visar ett negativt tal kräver scenariot fler jobbroller än vad planen har tillgängligt. Dina resurser är överallokerade. </p> 
        </div> </td> 
      </tr> 
      <tr> 
@@ -289,27 +289,27 @@ Så här skapar eller redigerar du en plan:
         <p>Den procentuella användningen kan visas i följande färger, beroende på resurstilldelningen:</p> 
         <ul> 
          <li> <p><b>Grön</b>: Antalet tillgängliga och obligatoriska jobbroller matchar. Resurserna är helt fördelade och utnyttjandeprocenten är 100 %. </p> </li> 
-         <li> <p><b>Röd</b>: Det finns fler obligatoriska jobbroller än vad som är tillgängligt i planen. Resurserna är överallokerade och utnyttjandeprocenten är högre än 100 %.</p> </li> 
-         <li> <p><b>Blå</b>: Det finns fler tillgängliga jobbroller än vad de behöver. Resurserna är underallokerade och utnyttjandeprocenten är lägre än 100 %. </p> </li> 
+         <li> <p><b>Röd</b>: Det finns fler obligatoriska jobbroller än vad som finns i planen. Resurserna är överallokerade och utnyttjandeprocenten är högre än 100 %.</p> </li> 
+         <li> <p><b>Blå</b>: Det finns fler tillgängliga jobbroller än de som krävs. Resurserna är underallokerade och utnyttjandeprocenten är lägre än 100 %. </p> </li> 
         </ul> 
        </div> <p> <img src="assets/utilization-percent-colors-sp-350x61.png" style="width: 350;height: 61;"> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **[!UICONTROL Apply]** för att spara den månatliga fördelningen av jobbroller
+1. Klicka på **[!UICONTROL Apply]** för att spara den månatliga fördelningen av jobbroller
 
    eller
 
-   Klicka **[!UICONTROL Cancel]** för att stänga distributionslistan för jobbroller och återgå till scenariot.
+   Klicka på **[!UICONTROL Cancel]** för att stänga listan över jobbrollsdistribution och återgå till scenariot.
 
-1. Klicka på **[!UICONTROL Financial]** i planens huvud för att lägga till budgeten för den här planen.
+1. Klicka på rutan **[!UICONTROL Financial]** i planens huvud för att lägga till budgeten för den här planen.
 
-   Information om [!UICONTROL Financial] visas.
+   Information om [!UICONTROL Financial]-rutevisningen.
 
    >[!TIP]
    >
-   >Valutan som [!DNL Workfront] för den här planen visas inom parentes i rutans rubrik.
+   >Valutan som [!DNL Workfront] använder för den här planen visas inom parentes i rutans namn.
 
 1. Ange **[!UICONTROL Yearly budget]**.
 
@@ -317,38 +317,38 @@ Så här skapar eller redigerar du en plan:
    >
    >Om din plan sträcker sig över flera år måste du ange ett budgetbelopp för varje år.
 
-1. Tryck på Retur för att spara den årliga budgeten och sedan [!UICONTROL Tab] för att gå över till nästa år.
+1. Tryck på Retur för att spara den årliga budgeten och sedan [!UICONTROL Tab] för att gå till nästa år.
 
    Den årliga budgeten fördelas automatiskt jämnt för varje månad under det valda året.
 
-1. Klicka **[!UICONTROL Advanced]** för att se den månatliga budgetfördelningen. De årliga och månadsvisa budgetarna är alltid avrundade tal. När budgetbeloppet inte kan fördelas jämnt på alla månader inom ett år på grund av decimaler a **[!UICONTROL Remaining]** indikator visas under den årliga budgetfördelningen.
+1. Klicka på **[!UICONTROL Advanced]** för att visa den månatliga budgetfördelningen. De årliga och månadsvisa budgetarna är alltid avrundade tal. När budgetbeloppet inte kan fördelas jämnt på alla månader inom ett år på grund av decimaler visas en **[!UICONTROL Remaining]**-indikator under den årliga budgetfördelningen.
 
    ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Justera månadsbudgeten manuellt för att eliminera de belopp som överskrider gränsen.
 
-   När summan av alla månadsbudgetbelopp är större än den årliga budgeten, kan **[!UICONTROL Exceeding]** varningsindikator visas under den årliga budgetfördelningen. Justera månadsbudgetbeloppen manuellt tills de är lika med eller lägre än den tillgängliga budgeten för planen.
+   När summan av alla månadsbudgetbelopp är större än den årliga budgeten visas en **[!UICONTROL Exceeding]**-varningsindikator under den årliga budgetfördelningen. Justera månadsbudgetbeloppen manuellt tills de är lika med eller lägre än den tillgängliga budgeten för planen.
 
    ![](assets/exceeding-budget-warning-on-plan-350x483.png)
 
-1. Inaktivera **[!UICONTROL Include people costs]** Inställning för att utesluta kostnader som är kopplade till jobbroller från att räknas mot planens totala kostnad. Fasta kostnader räknas alltid in i planens totala kostnad. Den här inställningen är aktiverad som standard och påverkar alla scenarier i planen.
-1. Klicka var som helst utanför [!UICONTROL Financial] för att stänga den. Informationen som du angav sparas automatiskt.
+1. Inaktivera inställningen **[!UICONTROL Include people costs]** för att exkludera kostnader som är associerade med jobbroller från att räknas mot planens totala kostnad. Fasta kostnader räknas alltid in i planens totala kostnad. Den här inställningen är aktiverad som standard och påverkar alla scenarier i planen.
+1. Klicka var som helst utanför rutan [!UICONTROL Financial] för att stänga den. Informationen som du angav sparas automatiskt.
 
    Nu kan du börja skapa initiativ för planen och lägga till scenarier.
 
-1. (Rekommenderas) Klicka på **[!UICONTROL New initiative]** att lägga till ett nytt initiativ.
+1. (Rekommenderas) Klicka på **[!UICONTROL New initiative]** om du vill lägga till ett nytt initiativ.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Should this include information on how to create scenarios - see also information about scenarios in Manage Plans?)</p>
    -->
 
-   Mer information om hur du lägger till initiativ finns i artikeln [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Mer information om hur du lägger till initiativ finns i artikeln [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-1. (Valfritt) Skapa en kopia av det befintliga scenariot för att skapa ett nytt scenario för samma plan. Mer information om hur du skapar och arbetar med flera scenarier finns i [Skapa och jämföra planscenarier i [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+1. (Valfritt) Skapa en kopia av det befintliga scenariot för att skapa ett nytt scenario för samma plan. Mer information om hur du skapar och arbetar med flera scenarier finns i [Skapa och jämföra planscenarier i  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 1. Klicka på **[!UICONTROL Save Plan]**.
 
    Din plan skapas eller uppdateras.
 
-1. (Valfritt) Klicka på **[!UICONTROL Favorites icon]** ![](assets/favorites-icon-small.png) till höger om namnet på planen om du vill lägga till planen i listan Favoriter.
+1. (Valfritt) Klicka på **[!UICONTROL Favorites icon]** ![](assets/favorites-icon-small.png) till höger om plannamnet för att lägga till planen i din favoritlista.
 
-1. (Valfritt) Kopiera URL:en för planen och skicka den till andra användare som kan behöva granska eller uppdatera den. De måste åtminstone ha [!UICONTROL View] behörighet på åtkomstnivå för att kunna se planen. De måste ha [!UICONTROL Edit] behörighet att redigera det. Om de måste granska ekonomisk information om planen, som budgetar, kostnader och jobbrollstariffer, måste de också ha tillgång till [!UICONTROL Financial Data] på deras åtkomstnivå. Mer information om åtkomsten som krävs för [!DNL Scenario Planner], se [Åtkomst krävs för att använda [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+1. (Valfritt) Kopiera URL:en för planen och skicka den till andra användare som kan behöva granska eller uppdatera den. De måste ha minst [!UICONTROL View] åtkomst på åtkomstnivån för att kunna visa planen. De måste ha [!UICONTROL Edit]-åtkomst för att kunna redigera det. Om de måste granska ekonomisk information om planen, som budgetar, kostnader och jobbrollstariffer, måste de också ha tillgång till [!UICONTROL Financial Data] på sin åtkomstnivå. Mer information om åtkomsten som krävs för [!DNL Scenario Planner] finns i [Åtkomst som behövs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).

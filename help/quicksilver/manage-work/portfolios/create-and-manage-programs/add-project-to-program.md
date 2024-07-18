@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL View] tillgång till Program eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] tillgång till Program eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -50,19 +50,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägg till ett projekt i ett befintligt program
 
 1. Gå till ett program.
 
-   Klicka **[!UICONTROL Projects]** i den vänstra panelen.
+   Klicka på **[!UICONTROL Projects]** i den vänstra panelen.
 
-1. Klicka **[!UICONTROL New Project]** och väljer en metod för att lägga till projektet.
+1. Klicka på **[!UICONTROL New Project]** och välj en metod för att lägga till projektet.
 
    >[!TIP]
    >
-   >Du kan inte lägga till projekt när du visar listan med projekt i [!UICONTROL Milestone] vy.
+   >Du kan inte lägga till projekt när du visar listan med projekt i vyn [!UICONTROL Milestone].
 
    Välj bland följande alternativ:
 
@@ -80,7 +80,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Import a Project from [!DNL MS Project]] </td> 
-      <td> <p>Lägg till ett projekt som du tidigare har exporterat från [!DNL MS Project] och har sparat på datorn. </p> <p>Mer information om hur du skapar ett nytt projekt genom att importera det från [!DNL Microsoft Project], se <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importera ett projekt från [!DNL Microsoft Project]</a>.</p> </td> 
+      <td> <p>Lägg till ett projekt som du tidigare har exporterat från [!DNL MS Project] och sparat på datorn. </p> <p>Mer information om hur du skapar ett nytt projekt genom att importera det från [!DNL Microsoft Project] finns i <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Importera ett projekt från [!DNL Microsoft Project]</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Request Project]</td> 
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du har valt **[!UICONTROL Existing Project]** gör du följande:
+1. (Villkorligt) Om du har markerat **[!UICONTROL Existing Project]** gör du följande:
 
-   1. I **[!UICONTROL Add Projects]** skriver du in namnet på projektet i fältet och markerar det när det visas i listan. Du kan lägga till flera projekt samtidigt.
-   1. Klicka på **[!UICONTROL Add Projects]**.**&#x200B;**&#x200B; projektet visas i **[!UICONTROL Projects]** -fliken i programmet och är nu kopplad till programmet och portföljen. 
+   1. I dialogrutan **[!UICONTROL Add Projects]** skriver du namnet på projektet i fältet som visas och markerar det när det visas i listan. Du kan lägga till flera projekt samtidigt.
+   1. Klicka på **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Projektet visas på fliken **[!UICONTROL Projects]** i programmet och är nu associerat med programmet och portföljen. 

@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Så sent som möjligt'
+title: 'Aktivitetsbegränsning - översikt: Så sent som möjligt'
 description: ALAP (Late As Possible) är en Adobe Workfront-aktivitetsbegränsning som gör att slutföringstiden för uppgiften ligger så nära projektets slut som möjligt.
 author: Alina
 feature: Work Management
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Så sent som möjligt
+# Översikt över aktivitetsbegränsning: Så sent som möjligt
 
 ALAP (Late As Possible) är en Adobe Workfront-aktivitetsbegränsning som gör att slutföringstiden för uppgiften ligger så nära projektets slut som möjligt.
 
 Om du använder den här begränsningen kan föregående eller beroende aktiviteter schemaläggas om.
 
-Mer information om föregående relationer finns i [Använd föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
+Mer information om föregående relationer finns i [Använda föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
 
 Så sent som möjligt är standardbegränsningen om ett projekt använder schemaläggningsläget Schemalägg från slutförandedatum och system- eller gruppstandardvärdet för startdatumet för en aktivitet baseras på projektplanerat datum.
 
-Mer information om var du ska ange standardbegränsning för en ny uppgift finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om var du ska ange standardbegränsning för en ny uppgift finns i [Konfigurera systemomfattande uppgifter och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,19 +55,19 @@ Begränsningen Senaste tillgängliga tid skiljer sig från begränsningen som Sa
 * Aktiviteter i projektet har en föregående relation
 * Efterföljande aktivitet har en flexibel uppgiftsbegränsning
 
-I denna situation:
+I den här situationen:
 
-* **Senaste tillgängliga tid:** Om du använder den senaste tillgängliga tidsbegränsningen för föregående aktivitet prioriteras efterföljande efterföljande åtgärds flexibla villkor.
+* **Senaste tillgängliga tid:** Om du använder den senaste tillgängliga tidsbegränsningen för föregående aktivitet prioriteras den efterföljande aktivitetens flexibla begränsning.
 
-   **Exempel:** Aktivitet A är till exempel en föregångare till Aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen As Snon As Possible. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
+  **Exempel:** Till exempel är Aktivitet A en föregångare till Aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen Per så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
 
-   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
+  ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Så sent som möjligt:** I det här fallet ges företräde till föregående aktivitet om du använder begränsningen som Sena som möjligt för föregående aktivitet.
+* **Så här sent som möjligt:** I det här scenariot prioriterar föregående aktivitet med begränsningen Så sent som möjligt för föregående aktivitet.
 
-   **Exempel:** Aktivitet A är till exempel en föregångare till Aktivitet B. Aktivitet A har begränsningen As Late As Possible och Aktivitet B har begränsningen As Snon As Possible. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
+  **Exempel:** Till exempel är Aktivitet A en föregångare till Aktivitet B. Aktivitet A har begränsningen Så sent som möjligt och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
 
-   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
+  ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 
  
 

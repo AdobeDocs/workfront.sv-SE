@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Vi ersätter Workfront-tillägget för Illustrator och InDesign med [uppdaterade plugin-program för Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Från slutet av 2022 stöds inte längre det här tillägget och är tillgängligt som det är.
+>Vi ersätter Workfront-tillägget för Illustrator och InDesign med [uppdaterade Creative Cloud-plugin-program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Från slutet av 2022 stöds inte längre det här tillägget och är tillgängligt som det är.
 
 Du kan använda Workfront Extension för att exportera digitalt innehåll som du sparar och skapar i Adobe Illustrator och Adobe InDesign till Workfront. Detta snabbar upp gransknings- och godkännandeprocessen.
 
@@ -31,7 +31,7 @@ Workfront-tillägget stöds för Adobe Creative Cloud 2017 och senare i följand
 
   >[!NOTE]
   >
-  >Vi rekommenderar att du använder nya [Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) plugin-program.
+  >Vi rekommenderar att du använder det nya plugin-programmet [Adobe Workfront för Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md).
 
 ## Åtkomstkrav
 
@@ -78,7 +78,7 @@ När du loggar in på Workfront från ett av de Adobe-program som stöds loggas 
 
    En lista över de format som stöds för varje program som stöds finns i [Exporterade filformat som stöds](#supported-exported-file-formats) i den här artikeln.
 
-1. Klicka **Fönster** > **Tillägg** > Workfront.
+1. Klicka på **Fönster** > **Tillägg** > Workfront.
 
 1. (Valfritt) Dra panelen Workfront till den plats där du vill att den ska visas i programmet Adobe.
 1. Följ instruktionerna för att logga in på Workfront.
@@ -86,11 +86,11 @@ När du loggar in på Workfront från ett av de Adobe-program som stöds loggas 
    >[!NOTE]
    >
    >* Workfront ansluter till Adobe Creative Cloud med OAuth 2.0, en säker standard som används av de flesta webbaserade integreringar för autentisering och behörighet av användare.
-   >* När du uppmanas att ange [domän eller värd] för ditt Workfront-konto, skriv in det i följande format:`yourCompany'sDomain.my.workfront.com`. Företagets domän är vanligtvis namnet på ditt företag.
+   >* När du uppmanas att ange [domänen eller värddatorn] för ditt Workfront-konto skriver du in den med följande format:`yourCompany'sDomain.my.workfront.com`. Företagets domän är vanligtvis namnet på ditt företag.
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet är en aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 ## Överföra en fil till ett Workfront-projekt, en uppgift eller ett problem {#upload-a-file-to-a-workfront-project-task-or-issue}
 
@@ -105,7 +105,7 @@ Tänk på följande när du överför eller exporterar en fil från Adobe Creati
 
 Följande avsnitt förklarar följande:
 
-* [Överföra en fil](#upload-a-file)
+* [Överför en fil](#upload-a-file)
 * [Exportera en fil som är öppen i Illustrator eller InDesign](#export-a-file-currently-open-in-illustrator-or-indesign)
 * [Överföra en ny version av en fil från Illustrator eller InDesign](#upload-a-new-version-of-a-file-from-illustrator-or-indesign)
 
@@ -113,31 +113,31 @@ Följande avsnitt förklarar följande:
 
 Du kan överföra filer till ett projekt, en uppgift eller ett problem utan att behöva lämna ditt Adobe Creative Cloud-program.
 
-1. Om du inte ser Workfront-tillägget när du öppnar ditt Adobe Creative Cloud-program klickar du på **Fönster** > **Tillägg** > **Workfront**.
+1. Om du inte ser Workfront-tillägget när du öppnar ditt Adobe Creative Cloud-program klickar du på **Fönster** > **Tillägg** > **Workfront**.
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet har aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 1. Klicka på namnet på det projekt, den uppgift eller det problem som du vill överföra filen till.
 
-   Du kan söka efter detta genom att skriva namnet i **Sök** ruta och markera **Projekt**, **Uppgift**, eller **Problem** från listrutan till höger om **Sök** box. Om arbetsobjektets namn inte visas i listan trycker du på **Retur** om du vill söka efter alla Workfront-objekt som du har tillgång till för att visa.
+   Du kan söka efter detta genom att skriva namnet i rutan **Sök** och välja **Projekt**, **Aktivitet** eller **Problem** i listrutan till höger om rutan **Sök** . Om arbetsobjektets namn inte visas i listan trycker du på **Retur** för att söka efter alla Workfront-objekt som du har åtkomst till för att visa.
 
-1. Klicka **Välj** i det nedre högra hörnet av Workfront-tillägget.
-1. I **Klicka för att välja format** klickar du på det format i vilket du vill spara filen i Workfront.
+1. Klicka på **Markera** i det nedre högra hörnet av Workfront-tillägget.
+1. I listrutan **Klicka för att välja format** och klicka på det format som du vill spara filen i Workfront.
 
    En lista över de format som stöds för varje program som stöds finns i [Exporterade filformat som stöds](#supported-exported-file-formats) i den här artikeln.
 
-1. (Villkorligt) Om arbetsposten där du vill överföra filen har dokumentmappar väljer du en dokumentmapp i **Klicka för att välja en dokumentmapp** fält och klicka sedan på **Välj**.
+1. (Villkorligt) Om arbetsposten där du vill överföra filen har dokumentmappar väljer du en dokumentmapp i fältet **Klicka för att välja en dokumentmapp** och klickar sedan på **Välj**.
 
-1. Klicka **Överföra en lokal fil**.
-1. I **Öppna fil** söker du efter filen i filsystemet och klickar sedan på **Öppna**.
+1. Klicka på **Överför en lokal fil**.
+1. Leta reda på filen i filsystemet i rutan **Öppna fil** och klicka sedan på **Öppna**.
 
 1. (Valfritt) Ange ett nytt namn för filen.
 
    ![](assets/rename-file-uploading.png)
 
-1. Klicka **Överför**.
+1. Klicka på **Överför**.
 
    I Workfront visas dokumentet nu i området Dokument för det projekt, den uppgift eller det ärende du valde.
 
@@ -152,22 +152,22 @@ Du kan överföra filer till ett projekt, en uppgift eller ett problem utan att 
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet har aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 1. Klicka på namnet på det projekt, den uppgift eller det problem som du vill exportera filen till.
 
-   Du kan söka efter detta genom att skriva namnet i **Sök** ruta och markera **Projekt**, **Uppgift**, eller **Problem** från listrutan till höger om **Sök** box. Om arbetsobjektets namn inte visas i listan trycker du på **Retur** om du vill söka efter alla Workfront-objekt som du har tillgång till för att visa.
+   Du kan söka efter detta genom att skriva namnet i rutan **Sök** och välja **Projekt**, **Aktivitet** eller **Problem** i listrutan till höger om rutan **Sök** . Om arbetsobjektets namn inte visas i listan trycker du på **Retur** för att söka efter alla Workfront-objekt som du har åtkomst till för att visa.
 
-1. I **Klicka för att välja format** klickar du på det format i vilket du vill spara filen i Workfront.
+1. I listrutan **Klicka för att välja format** och klicka på det format som du vill spara filen i Workfront.
 
    En lista över de format som stöds för varje program som stöds finns i [Exporterade filformat som stöds](#supported-exported-file-formats) i den här artikeln.
 
-1. (Villkorligt) Om arbetsposten där du vill överföra filen har dokumentmappar väljer du en dokumentmapp i **Klicka för att välja en dokumentmapp** fält och klicka sedan på **Välj**.
+1. (Villkorligt) Om arbetsposten där du vill överföra filen har dokumentmappar väljer du en dokumentmapp i fältet **Klicka för att välja en dokumentmapp** och klickar sedan på **Välj**.
 1. (Valfritt) Om du vill byta namn på dokumentet klickar du på dokumentnamnet och skriver ett nytt namn.
 
    ![](assets/rename-doc-exporting.png)
 
-1. Klicka **Exportera**.
+1. Klicka på **Exportera**.
 
    Ett meddelande visas som bekräftar att dokumentet har exporterats till Workfront.
 
@@ -186,23 +186,23 @@ Du kan överföra filer till ett projekt, en uppgift eller ett problem utan att 
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet är en aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 1. Klicka på namnet på projektet, uppgiften eller utgåvan där det befintliga dokumentet finns med.
 
-   Du kan söka efter detta genom att skriva namnet i **Sök** ruta och markera **Projekt**, **Uppgift**, eller **Problem** från listrutan till höger om **Sök** box. Om arbetsobjektets namn inte visas i listan trycker du på **Retur** om du vill söka efter alla Workfront-objekt som du har tillgång till för att visa.
+   Du kan söka efter detta genom att skriva namnet i rutan **Sök** och välja **Projekt**, **Aktivitet** eller **Problem** i listrutan till höger om rutan **Sök** . Om arbetsobjektets namn inte visas i listan trycker du på **Retur** för att söka efter alla Workfront-objekt som du har åtkomst till för att visa.
 
    Alla dokument som överförts till projekt, uppgifter eller utgåvor visas i en lista, oavsett om de har överförts från programmet Adobe.
 
-1. I **Klicka för att välja format** klickar du på det format i vilket du vill spara filen i Workfront.
+1. I listrutan **Klicka för att välja format** och klicka på det format som du vill spara filen i Workfront.
 
    Detta är nödvändigt om du exporterar en fil som är öppen i programmet Adobe. En lista över de format som stöds för varje program som stöds finns i [Exporterade filformat som stöds](#supported-exported-file-formats) i den här artikeln.
 
-1. Om du exporterar en fil som du har öppnat i programmet Adobe som en ny version av det Workfront-dokument som du har valt klickar du på **Exportera**.
+1. Om du exporterar en fil som du har öppnat i programmet Adobe som en ny version av det Workfront-dokument som du har markerat klickar du på **Exportera**.
 
    eller
 
-   Om du vill överföra en fil från datorns filsystem som en ny version av det Workfront-dokument du har valt klickar du på **Överföra en lokal fil**, söker efter filen i rutan som visas, klickar du på **Öppna** och sedan klicka **Överför**.
+   Om du vill överföra en fil från datorns filsystem som en ny version av det Workfront-dokument du har valt klickar du på **Överför en lokal fil**, letar upp filen i rutan som visas, klickar på **Öppna** och sedan på **Överför**.
 
 1. (Valfritt) Klicka på dokumentets namn för att se den nya versionen i Workfront.
 
@@ -222,18 +222,18 @@ Du kan lägga till kommentarer direkt i ett Workfront-dokument i ett Adobe-progr
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet är en aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 1. Klicka på det projekt, den uppgift eller det problem där det befintliga dokumentet listas.
 
-   Du kan söka efter detta genom att skriva namnet i **Sök** ruta och markera **Projekt**, **Uppgift**, eller **Problem** från listrutan till höger om **Sök** box. Om arbetsobjektets namn inte visas i listan trycker du på **Retur** om du vill söka efter alla Workfront-objekt som du har tillgång till för att visa.
+   Du kan söka efter detta genom att skriva namnet i rutan **Sök** och välja **Projekt**, **Aktivitet** eller **Problem** i listrutan till höger om rutan **Sök** . Om arbetsobjektets namn inte visas i listan trycker du på **Retur** för att söka efter alla Workfront-objekt som du har åtkomst till för att visa.
 
-1. Klicka på namnet på det befintliga dokumentet och klicka sedan på **Välj** i det nedre högra hörnet av Workfront-tillägget.
-1. Klicka på **Kommentar** skriver du uppdateringen i rutan.
+1. Klicka på det befintliga dokumentets namn och klicka sedan på **Markera** i det nedre högra hörnet av Workfront-tillägget.
+1. Klicka på fliken **Kommentar** och skriv sedan uppdateringen i rutan.
 
-1. (Valfritt) Om du vill inkludera andra Workfront-användare eller -team i kommentaren börjar du skriva namnet på en användare eller ett team i **Meddela personer eller team** och klicka sedan på namnet när det visas i listrutan.
-1. (Valfritt) Om du vill begära godkännande av dokumentet väljer du **Gör en godkännandeförfrågan**.
-1. Klicka **Uppdatera**.
+1. (Valfritt) Om du vill inkludera andra Workfront-användare eller -team i kommentaren börjar du skriva namnet på en användare eller ett team i rutan **Meddela personer eller team** och klickar sedan på namnet när det visas i listrutan.
+1. (Valfritt) Om du vill begära godkännande av dokumentet väljer du **Gör en godkännandebegäran**.
+1. Klicka på **Uppdatera**.
 
    En uppdatering registreras på fliken Uppdateringar i dokumentet. Workfront-användare som du tar med i kommentaren får ett meddelande i appen och, beroende på hur Workfront är konfigurerat, kan även få ett e-postmeddelande.
 
@@ -255,7 +255,7 @@ Du kan begära ett godkännande av ett dokument från ett Adobe-program på föl
 * Genom att bifoga en godkännare till dokumentet.
 * Genom att kommentera ett dokument, meddela personen när du gör en kommentar och bifoga dem som godkännare till dokumentet.
 
-  Mer information om hur du begär ett godkännande när du kommenterar ett dokument finns i avsnittet [Kommentera ett Workfront-dokument från Illustrator eller InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) i den här artikeln.
+  Information om hur du begär ett godkännande när du kommenterar ett dokument finns i avsnittet [Kommentera ett Workfront-dokument från Illustrator eller InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) i den här artikeln.
 
 Så här begär du ett godkännande av ett dokument från ett Adobe-program:
 
@@ -264,15 +264,15 @@ Så här begär du ett godkännande av ett dokument från ett Adobe-program:
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet är en aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 1. Klicka på det projekt, den uppgift eller det problem där det befintliga dokumentet listas och klicka sedan på namnet på det befintliga dokumentet.
 
-   Du kan söka efter detta genom att skriva namnet i **Sök** ruta och markera **Projekt**, **Uppgift**, eller **Problem** från listrutan till höger om **Sök** box. Om arbetsobjektets namn inte visas i listan trycker du på **Retur** om du vill söka efter alla Workfront-objekt som du har tillgång till för att visa.
+   Du kan söka efter detta genom att skriva namnet i rutan **Sök** och välja **Projekt**, **Aktivitet** eller **Problem** i listrutan till höger om rutan **Sök** . Om arbetsobjektets namn inte visas i listan trycker du på **Retur** för att söka efter alla Workfront-objekt som du har åtkomst till för att visa.
 
-1. Klicka på namnet på det befintliga dokumentet och klicka sedan på **Välj** i det nedre högra hörnet av Workfront-tillägget.
-1. Klicka på **Godkännande** -fliken.
-1. Så här lägger du till en godkännare i **Börja skriva en namnruta** Gör något av följande:
+1. Klicka på namnet på det befintliga dokumentet och klicka sedan på **Markera** i det nedre högra hörnet av Workfront-tillägget.
+1. Klicka på fliken **Godkännande**.
+1. Om du vill lägga till en godkännare gör du något av följande i **Börja skriva ett namn**:
 
    * Skriv namnet på en godkännare och markera den när den visas i listan.
 
@@ -280,80 +280,80 @@ Så här begär du ett godkännande av ett dokument från ett Adobe-program:
 
    * Skriv e-postadressen till en extern användare.
 
-1. Klicka **Begär godkännande**.
+1. Klicka på **Begär godkännande**.
 
    Workfront-användare som du tar med i kommentaren eller lägger till som godkännare får ett meddelande i appen och, beroende på hur Workfront är konfigurerat, kan även få ett e-postmeddelande.\
    Externa användare får ett e-postmeddelande där de kan fatta beslut om godkännandet.
 
-   Information om meddelanden i Workfront finns i [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md). Mer information om hur du tar emot e-postmeddelanden finns i [Adobe Workfront-meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
+   Mer information om meddelanden i Workfront finns i [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md). Mer information om hur du tar emot e-postmeddelanden finns i [Adobe Workfront-meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Generera ett korrektur från Illustrator eller InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-Om ni använder automatiserade arbetsflödesmallar kan ni generera ett korrektur för ett dokument som ni skapar i ett Adobe-program utan att lämna programmet. Mer information om hur du skapar korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Mer information om automatiserade arbetsflödesmallar finns i [Automatiserade arbetsflödesmallar](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Översikt över automatiserat arbetsflöde](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+Om ni använder automatiserade arbetsflödesmallar kan ni generera ett korrektur för ett dokument som ni skapar i ett Adobe-program utan att lämna programmet. Mer information om hur du skapar korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Mer information om automatiserade arbetsflödesmallar finns i [Automatiserade arbetsflödesmallar](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) i [Översikt över automatiserat arbetsflöde](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Öppna ett av Adobe-programmen som stöds.
 1. Om Workfront-tillägget inte visas klickar du på **Fönster** > **Tillägg** > Workfront.
 
    En lista över arbetsobjekt som du har tilldelats visar om projektet är en aktuell status. Om en lista inte visas loggar du in på Workfront.
 
-   Personliga uppgifter listas under **Inget projekt**.
+   Personliga aktiviteter listas under **Inget projekt**.
 
 1. Om dokumentet redan har överförts till Workfront väljer du projekt, uppgift eller utgåva i tillägget Workfront där dokumentet finns med och klickar sedan på dokumentets namn.
 
    eller
 
-   Överföra ett Adobe-dokument till ett Workfront-objekt, enligt beskrivningen i avsnittet [Överföra en fil till ett Workfront-projekt, en uppgift eller ett problem](#upload-a-file-to-a-workfront-project-task-or-issue) i den här artikeln klickar du på dokumentets namn.
+   Överför ett Adobe-dokument till ett Workfront-objekt enligt beskrivningen i avsnittet [Överför en fil till ett Workfront-projekt, en aktivitet eller ett problem](#upload-a-file-to-a-workfront-project-task-or-issue) i den här artikeln och klicka sedan på dokumentets namn.
 
-1. I **Klicka för att välja format** klickar du på det format i vilket du vill spara filen i Workfront.
+1. I listrutan **Klicka för att välja format** och klicka på det format som du vill spara filen i Workfront.
 
    Vissa format är inte tillgängliga när du har aktiverat korrekturfunktionen i det följande steget. Mer information finns i [Exporterade filformat som stöds](#supported-exported-file-formats) i den här artikeln.
 
-1. Klicka **Överför som nytt bevis** för att aktivera den.
-1. Välj **Arbetsflödesmall** du vill att användare ska använda när de granskar dokumentet.
+1. Klicka på **Överför som ett nytt korrektur** för att aktivera det.
+1. Välj den **arbetsflödesmall** som du vill att personer ska använda när de granskar dokumentet.
 
-   Din Workfront-administratör konfigurerar mallar för automatiserat arbetsflöde enligt beskrivningen i [Skapa och hantera automatiserade arbetsflödesmallar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). Kontakta administratören om du har frågor.
+   Din Workfront-administratör konfigurerar automatiska arbetsflödesmallar, enligt beskrivningen i [Skapa och hantera automatiska arbetsflödesmallar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). Kontakta administratören om du har frågor.
 
-   1. Lägg till minst en **Ny mottagare** till alla steg i arbetsflödesmallen.
+   1. Lägg till minst en **ny mottagare** i varje fas i arbetsflödesmallen.
 
       Du kan börja skriva ett namn och markera det när du ser det i listrutan som visas.
 
-   1. Ange **Korrekturroll** och frekvens för **E-postaviseringar** för varje mottagare som du lägger till.
+   1. Ange **korrekturrollen** och frekvensen för **e-postaviseringar** för varje mottagare som du lägger till.
 
-   1. (Valfritt) I dialogrutan **E-postmeddelande** väljer du om du vill skicka ett e-postmeddelande med ett valfritt anpassat meddelande om korrekturet till alla korrekturmottagare som du har lagt till.
+   1. (Valfritt) I avsnittet **E-postmeddelande** väljer du om du vill skicka ett e-postmeddelande med ett anpassat meddelande om korrekturet till alla korrekturmottagare som du har lagt till.
 
-1. Klicka **Skapa korrektur**.
+1. Klicka på **Skapa bevis**.
 
    Du kan visa förloppet för korrekturskapande. En varning visas när genereringen är klar. Du kan öppna uppgiften där du skapade korrekturet och den finns där.
 
 ## Ladda upp en ny version av ett korrektur utan att lämna Illustrator eller InDesign
 
-1. Klicka på ett befintligt dokument som har ett korrektur och klicka sedan på **Välj** i det nedre högra hörnet.
-1. Klicka **Överför som ny korrekturversion** för att aktivera den.
-1. (Valfritt) Välj **Arbetsflödesmall** som du vill att användare ska använda när de granskar den nya versionen.
+1. Klicka på ett befintligt dokument som har ett korrektur och klicka sedan på **Markera** i det nedre högra hörnet.
+1. Klicka på **Överför som nytt korrekturversion** för att aktivera det.
+1. (Valfritt) Välj den **arbetsflödesmall** som du vill att personer ska använda när de granskar den nya versionen.
 
    Om du inte väljer en annan mall gäller den mall som valts för den tidigare versionen. Om du har ändrat mallen för den tidigare versionen gäller ändringarna även för den nya versionen.
 
-   Din Workfront-administratör konfigurerar mallar för automatiserat arbetsflöde enligt beskrivningen i [Skapa och hantera automatiserade arbetsflödesmallar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). Kontakta administratören om du har frågor.
+   Din Workfront-administratör konfigurerar automatiska arbetsflödesmallar, enligt beskrivningen i [Skapa och hantera automatiska arbetsflödesmallar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). Kontakta administratören om du har frågor.
 
-   1. Lägg till minst en **Ny mottagare** till alla steg i arbetsflödesmallen.
+   1. Lägg till minst en **ny mottagare** i varje fas i arbetsflödesmallen.
 
       Du kan börja skriva ett namn och markera det när du ser det i listrutan som visas.
 
-   1. Ange **Korrekturroll** och frekvens för **E-postaviseringar** för varje mottagare som du lägger till.
-   1. (Valfritt) I dialogrutan **E-postmeddelande** väljer du om du vill skicka ett e-postmeddelande med ett valfritt anpassat meddelande om korrekturet till alla korrekturmottagare som du har lagt till.
+   1. Ange **korrekturrollen** och frekvensen för **e-postaviseringar** för varje mottagare som du lägger till.
+   1. (Valfritt) I avsnittet **E-postmeddelande** väljer du om du vill skicka ett e-postmeddelande med ett anpassat meddelande om korrekturet till alla korrekturmottagare som du har lagt till.
 
-1. Klicka **Skapa ny korrekturversion**.
+1. Klicka på **Skapa ny korrekturversion**.
 
    Du kan visa förloppet för korrekturskapande. En varning visas när genereringen är klar. Du kan öppna uppgiften där du skapade korrekturet och den finns där.
 
 ## Logga ut från Workfront Extension
 
-1. Klicka på i Adobe **Fönster** > **Tillägg** > **Workfront**.
+1. I programmet Adobe klickar du på **Fönster** > **Tillägg** > **Workfront**.
 
-1. Klicka på **Mer** meny ![](assets/more-menu.png) i panelens övre högra hörn.
+1. Klicka på menyn **Mer** ![](assets/more-menu.png) i panelens övre högra hörn.
 
-1. (Valfritt) Klicka på **Feedback** för att öppna en kort enkät och skicka feedback till Workfront om Workfront för Adobe Creative Cloud.
-1. Klicka **Utloggning**.\
+1. (Valfritt) Klicka på **Feedback** för att öppna en kort enkät och skicka dina synpunkter om Workfront för Adobe Creative Cloud till Workfront.
+1. Klicka på **Logga ut**.\
    Inloggningsskärmen visas. Mer information om inloggning finns i [Logga in på Workfront Extension från Illustrator eller InDesign](#log-in-to-workfront-extension-from-illustrator-or-indesign) i den här artikeln.
 
 ## Exporterade filformat som stöds {#supported-exported-file-formats}
@@ -373,20 +373,20 @@ Workfront stöder följande filformat för export av en fil från InDesign till 
 * JPG, JPEG - Joint Photographic Experts Group
 * PDF - Adobe Portable Document File
 * PNG - Portable Network Graphics
-* SWF - FLASH PLAYER &#42;
+* SWF - Flash Player &#42;
 * XML - Extensible Markup Language &#42;
 
-&#42; Det här filformatet är inte tillgängligt när **Överför ett nytt korrektur** är aktiverat (mer information om det här alternativet finns i [Generera ett korrektur från Illustrator eller InDesign](#generate-a-proof-from-illustrator-or-indesign) i den här artikeln). Om det här filformatet redan har valts innan du aktiverar **Överför ett nytt korrektur**&#x200B;ändras filformatet till PDF. Du kan välja ett annat format i listan.
+&#42; Det här filformatet är inte tillgängligt när **Överför ett nytt korrektur** är aktiverat (mer information om det här alternativet finns i [Skapa ett korrektur från Illustrator eller InDesign](#generate-a-proof-from-illustrator-or-indesign) i den här artikeln). Om det här filformatet redan har valts innan du aktiverar **Överför ett nytt korrektur** ändras filformatet till PDF. Du kan välja ett annat format i listan.
 
 ### Exporterade filformat som stöds för Adobe Illustrator  {#supported-exported-file-formats-for-adobe-illustrator}
 
 Workfront stöder följande filformat för export av en fil från Illustrator till Workfront:
 
-* DWG - AutoCAD-ritning, AutoCAD Interchange File &#42;
+* DWG - AutoCAD-ritning, AutoCAD Interchange-fil &#42;
 * JPG, JPEG - Joint Photographic Experts Group
 * PNG - Portable Network Graphics
 * PSD - Photoshop-dokument
-* SWF - FLASH PLAYER &#42;
+* SWF - Flash Player &#42;
 * TIFF - Taggat bildfilsformat
 
-&#42; Det här filformatet är inte tillgängligt när **Överför ett nytt korrektur** är aktiverat (mer information om det här alternativet finns i [Generera ett korrektur från Illustrator eller InDesign](#generate-a-proof-from-illustrator-or-indesign) i den här artikeln). Om det här filformatet redan har valts innan du aktiverar **Överför ett nytt korrektur**&#x200B;ändras filformatet till PNG. Du kan välja ett annat format i listan.
+&#42; Det här filformatet är inte tillgängligt när **Överför ett nytt korrektur** är aktiverat (mer information om det här alternativet finns i [Skapa ett korrektur från Illustrator eller InDesign](#generate-a-proof-from-illustrator-or-indesign) i den här artikeln). Om det här filformatet redan har valts innan du aktiverar **Överför ett nytt korrektur** ändras filformatet till PNG. Du kan välja ett annat format i listan.

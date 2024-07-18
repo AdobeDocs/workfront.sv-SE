@@ -32,10 +32,10 @@ I den här artikeln beskrivs de områden där du kan komma åt belastningsutjäm
 >
 >Mer information om belastningsutjämnaren för arbetsbelastning och hur du använder den för att hantera och schemalägga resurser för arbete finns i följande artiklar:
 >
->* [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
->* [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
->* [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
->* [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>* [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+>* [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+>* [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+>* [Hantera användarallokeringar i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 >
 
 ## Åtkomstkrav
@@ -66,7 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Problem</p> </li> 
     </ul> <p><b> ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -83,8 +83,8 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
 
 ### Få åtkomst till belastningsutjämnaren för flera projekt i resursområdet
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Resurser**.
-1. Klicka **Utjämning av arbetsbelastning** till vänster.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Resurser**.
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
 
    ![](assets/nwe-balancer-global.png)
 
@@ -97,7 +97,7 @@ Följande avsnitt visar var du kan komma åt Utjämning av arbetsbelastning i Wo
 
 ### Åtkomst till belastningsutjämnaren för ett team
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)klickar du sedan på Team.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på Team.
 Hemteamets sida visas.
 
    Arbetsbelastningsutjämnaren för teamet visas som standard.
@@ -106,8 +106,8 @@ Hemteamets sida visas.
 
    Arbetsbelastningsutjämnaren för ett team visar följande information som standard:
 
-   * **Ej tilldelat arbete**: Objekt som har tilldelats teamet och inte tilldelats användare.
-   * **Tilldelat arbete**: Alla medlemmar i teamet med alla deras uppdrag.
+   * **Ej tilldelat arbete**: Objekt som tilldelats teamet och inte tilldelats användare.
+   * **Tilldelat arbete**: Alla medlemmar i teamet med alla deras tilldelningar.
 
      >[!TIP]
      >
@@ -117,9 +117,9 @@ Hemteamets sida visas.
 
 ### Åtkomst till belastningsutjämnaren för ett projekt
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Projekt**.
 1. Klicka på namnet på ett projekt för att öppna projektsidan.
-1. Klicka **Utjämning av arbetsbelastning** till vänster. Du kanske måste klicka **Visa fler** sedan **Utjämning av arbetsbelastning**.
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen. Du kan behöva klicka på **Visa mer** och sedan på **Utjämning av arbetsbelastning**.
 
    Utjämning av arbetsbelastning för projektet visas.
 
@@ -128,11 +128,11 @@ Hemteamets sida visas.
    I arbetsbelastningsutjämnaren för ett projekt visas följande som standard:
 
    * **Ej tilldelat arbete**: Objekt från projektet som har tilldelats till jobbroller eller team och som inte har tilldelats användare.
-   * **Tilldelat arbete**: Användare som har tilldelats objekt i projektet.
+   * **Tilldelad arbetsuppgift**: Användare tilldelade till objekt i projektet.
 
      >[!TIP]
      >
-     >Du kan visa alla användare i systemet i stället för endast de som finns i projektet (i området Tilldelad arbetsyta) genom att aktivera alternativet Visa alla användare. Mer information finns i [Navigera till arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
+     >Du kan visa alla användare i systemet i stället för endast de som finns i projektet (i området Tilldelad arbetsyta) genom att aktivera alternativet Visa alla användare. Mer information finns i [Navigera i arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Lägga till arbetsbelastningsutjämnaren i ett anpassat avsnitt
@@ -154,7 +154,7 @@ De flesta anpassningar som du redan har tillämpat på Utjämning av arbetsbelas
       (NOTE: ensure this stays correct)
       -->
 
-1. Skapa ett anpassat avsnitt enligt beskrivningen i [Skapa anpassade flikar eller avsnitt](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) om du vill placera kontrollpanelen på den anpassade fliken.
+1. Skapa ett anpassat avsnitt enligt beskrivningen i [Skapa anpassade flikar eller avsnitt](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) för att placera kontrollpanelen på den anpassade fliken.
 
    När du öppnar arbetsbelastningsutjämnaren från det anpassade avsnittet kan du visa den som om du använde den direkt från ett av dess ursprungliga områden som listas i steg 1.
 
@@ -162,7 +162,7 @@ De flesta anpassningar som du redan har tillämpat på Utjämning av arbetsbelas
       (NOTE: ensure this stays correct)
      -->
 
-1. (Valfritt) Dela den anpassade fliken i en layoutmall enligt beskrivningen i  [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
+1. (Valfritt) Dela den anpassade fliken i en layoutmall enligt beskrivningen i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 
 
 <!--

@@ -2,7 +2,7 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Generera tidrapporter manuellt
-description: Om du vill aktivera ändringar som du har gjort i tidrapportprofilerna så att de återspeglar de aktuella tidrapporterna måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Du kan generera tidrapporter manuellt från tidrapporterna eller diagnostikområdet i installationsprogrammet, vilket förklaras i den här artikeln.
+description: Om du vill aktivera ändringar som du har gjort i tidrapportprofilerna så att de återspeglar de aktuella tidrapporterna, måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Du kan generera tidrapporter manuellt från tidrapporterna eller diagnostikområdet i installationsprogrammet, vilket förklaras i den här artikeln.
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Generera tidrapporter manuellt
 
-Om du vill aktivera ändringar som du har gjort i tidrapportprofilerna så att de återspeglar de aktuella tidrapporterna måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Du kan generera tidrapporter manuellt från tidrapporterna eller diagnostikområdet i installationsprogrammet, vilket förklaras i den här artikeln.
+Om du vill aktivera ändringar som du har gjort i tidrapportprofilerna så att de återspeglar de aktuella tidrapporterna, måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Du kan generera tidrapporter manuellt från tidrapporterna eller diagnostikområdet i installationsprogrammet, vilket förklaras i den här artikeln.
 
 Instruktioner om hur du tar bort tidrapporter finns i [Ta bort tidrapporter i Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
@@ -37,7 +37,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste vara Workfront-administratör eller, om du arbetar med tidrapportprofiler för en grupp, du måste vara gruppadministratör (eller Workfront-administratör). Mer information finns i <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a>.</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör eller, om du arbetar med tidrapportprofiler för en grupp, du måste vara gruppadministratör (eller Workfront-administratör). Mer information finns i <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a>.</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,16 +55,16 @@ När du genererar tidrapporter manuellt:
 
 Du kan generera tidrapporter på systemnivå eller gruppnivå manuellt från området Tidrapporter och timmar i installationsprogrammet.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
 1. Om du genererar tidrapporter som används i hela systemet klickar du på **Tidrapporter och timmar.**
 
    eller
 
-   Om du genererar tidrapporter som används av en viss grupp klickar du på **Grupper** och klicka sedan på gruppens namn.
+   Om du genererar tidrapporter som används av en viss grupp klickar du på **Grupper** och sedan på gruppens namn.
 
-1. Klicka **Tidrapportprofiler**.
-1. Klicka **Mer** sedan **Generera tidrapporter**.
+1. Klicka på **Tidrapportprofiler**.
+1. Klicka på **Mer** och sedan på **Generera tidrapporter**.
 
    Nya tidrapporter skapas för upp till två tidsperioder för användare som är kopplade till tidrapportprofiler.
 
@@ -72,9 +72,9 @@ Du kan generera tidrapporter på systemnivå eller gruppnivå manuellt från omr
 
 Du kan generera tidrapporter på systemnivå manuellt från området Diagnostik i installationsprogrammet.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Expandera **System** och sedan klicka **Diagnostik**.
+1. Expandera **System** och klicka sedan på **Diagnostik**.
 
-1. Klicka **Utför diagnostik**. 
-1. Klicka **Generera tidrapporter**.
+1. Klicka på **Kör diagnostik**. 
+1. Klicka på **Generera tidrapporter**.

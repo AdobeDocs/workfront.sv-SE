@@ -7,9 +7,9 @@ description: Du kan bara gruppera efter värdet i ett anpassat fält med flera v
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Mer information om hur du använder textläge finns i artikeln [Översikt över 
 
 * Det går inte att diagram över en rapport som använder en gruppering i textläge. Du måste skapa ytterligare ett beräkningsfält som refererar till det anpassade fältet för flera val för att kunna diagram rapporten med värdet för det anpassade fältet för flera val.
 
-  Mer information finns i [Diagrama en rapport med ett anpassat fält som har flera val](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+  Mer information finns i [Skapa en rapport för ett anpassat fält som består av flera markeringar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
 * Artiklar som har något av alternativen markerat räknas bara en gång.
 
   Om du till exempel har ett anpassat kryssrutefält med alternativen Val 1 och Val 2 som och bifogar formuläret till uppgifter, grupperas de uppgifter som har både Val 1 och Val 2 som markerade separat från de uppgifter som bara har Val 1 eller Val 2 markerade.
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -72,7 +72,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Om du vill kunna gruppera efter ett anpassat fält med flera val måste du ha följande krav:
 
 * Bygg det anpassade flervalsfältet i ett anpassat formulär.\
-  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Mer information om hur du skapar anpassade formulär och lägger till anpassade fält finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Koppla det anpassade formuläret till objekt.
 * Fyll det anpassade fältet för flera val med ett värde för varje objekt. 
@@ -82,17 +82,20 @@ Så här grupperar du ett anpassat fält i en rapport efter flera val:
 1. Skapa en rapport eller redigera en befintlig rapport där du vill lägga till en gruppering för ett anpassat fält som består av flera val.\
    Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Välj **Grupperingar** -fliken.
-1. Klicka **Växla till textläge**.
+1. Välj fliken **Grupperingar**.
+1. Klicka på **Växla till textläge**.
 
-1. Markera texten i **Gruppera din rapport** och ersätta den med följande kod:
+1. Markera texten i rutan **Gruppera din rapport** och ersätt den med följande kod:
 
    <pre>
-   group.0.displayName=Multi-select Custom Field Name group.0.valueExpression={DE:Multi-select Custom Field Name} group.0.valueFormat=HTML group.0.textmode=true
+   group.0.displayName=Flera val, eget fältnamn
+   group.0.valueexpression={DE:Multi-select Custom Field Name}
+   group.0.valueFormat=HTML
+   group.0.textmode=true
    </pre>
 
 1. Ersätt&quot;Flerval anpassat fältnamn&quot; med det faktiska namnet på det anpassade fältet som det visas i Workfront.
-1. Klicka **Spara och stäng**.
+1. Klicka på **Spara och stäng**.
 
    Objekten i rapporten grupperas efter värdena i det anpassade fältet med flera val.
 
@@ -112,13 +115,13 @@ Så här grupperar du ett anpassat fält i en rapport efter flera val:
 <p><strong>Build a calculated custom field that references a multi-select custom field</strong></p>
 <p>To be able to build a calculated field that references a multi-select custom field, you must have the following prerequisites:</p>
 <ul>
-<li>Build the multi-select custom field in a custom form.<br>For information about building custom forms and adding custom fields to them, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
+<li>Build the multi-select custom field in a custom form.<br>.</li>
 <li>Attach the custom form to objects.</li>
 <li>Populate the multi-select custom field with a value on each object.</li>
 </ul>
 <p>To build the calculated custom field that references the multi-select custom field:</p>
 <ol>
-<li value="1">Create a custom form, or edit an existing one.<br>For information about creating custom forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li>
+<li value="1">Create a custom form, or edit an existing one.<br>.</li>
 <li value="2">Click<strong>Add a Field</strong>, then <strong>Calculated</strong> to add the multi-select custom field to the form.</li>
 <li value="3">In the <strong>Label</strong> box, name the new calculated field to indicate that it references the multi-select custom field.<br>For example: "Calculated Multi-select Field."</li>
 <li value="4"> <p>In the <strong>Calculation</strong> box, enter the following code:</p><pre>{DE:Multi-select Custom Field}</pre> <p> <img src="assets/calculated-multi-select-custom-field-350x201.png" style="width: 350;height: 201;"> <br> </p> </li>

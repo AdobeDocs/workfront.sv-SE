@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: caa0e7b1-37c3-4973-92ce-cc93df4e4186
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan använda projektmallar för att hämta in de flesta repeterbara processer, information och inställningar som är kopplade till projekten i organisationen. Projekt har specifika start- och slutförandedatum, men mallar har allmänna start- och slutförandedagar som en indikation på var dessa datum hamnar i projektet, baserat på den övergripande tidslinjen för projektet.
 
-**Exempel:** Om ett projekts startdatum är 1 april och du vill att en uppgift ska starta 3 april (två dagar efter att projektet har startats), ska motsvarande uppgift i mallen som skapar projektet börja på dag 2 i mallen, där mallens första dag räknas som dag 0.
+**Exempel:** Om ett projekts startdatum är 1 april och du vill att en aktivitet ska starta 3 april (två dagar efter att projektet har startats), ska motsvarande aktivitet i mallen som skapar projektet starta på dag 2 i mallen, där mallens första dag räknas som dag 0.
 
 ## Startdag
 
@@ -31,9 +31,9 @@ Nedan följer några åtgärder som kan ändra startdagen för malluppgifterna:
 * Uppdatera varaktigheten för föregående malluppgifter
 * Uppdatera aktivitetsbegränsningar
 
-   När du använder datumbaserade aktivitetsbegränsningar kan du uppdatera startdagen för malluppgifterna manuellt. Några exempel på datumbaserade aktivitetsbegränsningar är fasta datum, startdatum inte tidigare än, startdatum inte senare än, måste börja på.
+  När du använder datumbaserade aktivitetsbegränsningar kan du uppdatera startdagen för malluppgifterna manuellt. Några exempel på datumbaserade aktivitetsbegränsningar är fasta datum, startdatum inte tidigare än, startdatum inte senare än, måste börja på.
 
-* Uppdatera malluppgiftens föregångare
+* Uppdatera föregående malluppgift
 
 ## Slutförandedagen
 
@@ -44,9 +44,9 @@ Nedan följer några åtgärder som kan ändra slutförandedagen för malluppgif
 * Uppdatera varaktigheten för malluppgifterna
 * Uppdatera aktivitetsbegränsningar
 
-   När du använder datumbaserade aktivitetsbegränsningar kan du uppdatera malluppgifternas slutförandedag manuellt. Några exempel på datumbaserade aktivitetsbegränsningar är Fasta datum, Avsluta tidigast, Slutför inte senare än, Måste sluta den.
+  När du använder datumbaserade aktivitetsbegränsningar kan du uppdatera malluppgifternas slutförandedag manuellt. Några exempel på datumbaserade aktivitetsbegränsningar är Fasta datum, Avsluta tidigast, Slutför inte senare än, Måste sluta den.
 
-* Uppdatera malluppgiftens föregångare
+* Uppdatera föregående malluppgift
 
 ## Arbeta med mallar som schemalagts från slutförande
 
@@ -58,4 +58,4 @@ Tänk på följande när du arbetar med mallar som schemalagts från slutförand
 * Om du ändrar slutförandedagen anges aktivitetsbegränsningen till Måste sluta den.
 * När mallen schemaläggs från Slutförandedagen beräknas aktivitetsbegränsningsdagen från Slutförandedagen.
 
-   **Exempel:** Mallens varaktighet är 285 dagar och du har en malluppgift med en varaktighet på 60 dagar. Om du ställer in aktivitetsbegränsningen på Måste börja den och begränsningsdagen på 120 får du startdagen 165 (285 - 120) och slutförandedagen på 225 (165 + 60). När du redigerar startdagen tolkas den alltså som en begränsningsdag.
+  **Exempel:** Mallens varaktighet är 285 dagar och du har en malluppgift med en varaktighet på 60 dagar. Om du ställer in aktivitetsbegränsningen på Måste börja den och begränsningsdagen på 120 får du startdagen på 165 (285 - 120) och slutförandedagen på 225 (165 + 60). När du redigerar startdagen tolkas den alltså som en begränsningsdag.

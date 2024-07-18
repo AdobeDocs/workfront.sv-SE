@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-Routningsreglerna styr vad Adobe Workfront gör med problem när de skickas till en begärandekö. Mer information om hur du skapar frågeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Routningsreglerna styr vad Adobe Workfront gör med problem när de skickas till en begärandekö. Mer information om hur du skapar frågeköer finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Routningsregler skickar problem till specifika användare eller jobbroller som är bäst utrustade för att lösa det skickade problemet eller den skickade förfrågan. Routningsregler är vanligtvis associerade med köämnen, som används för att kontrollera vilken routningsregel som ska användas för utgåvan eller förfrågan.
 
@@ -85,15 +85,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Skapa en hanteringsregel
 
 1. Gå till det projekt där du vill lägga till routningsreglerna för dina begäranden.
-1. Klicka **Routningsregler** till vänster. Du kan behöva klicka **Visa fler** sedan **Routningsregler**.
-1. Klicka **Ny hanteringsregel** för att lägga till den nya regeln.
+1. Klicka på **Routningsregler** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Routningsregler**.
+1. Klicka på **Ny routningsregel** för att lägga till den nya regeln.
 1. Ange följande information för hanteringsregeln:
 
    <table style="table-layout:auto"> 
@@ -111,7 +111,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <td>Lägg till en beskrivning för routningsregeln.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Standardtilldelning*</strong> </td> 
+      <td role="rowheader"><strong>Standardtilldelare*</strong> </td> 
       <td>Lägg till en aktiv användare eller en aktiv jobbroll som de nya utgåvorna ska tilldelas till. Du kan bara ha en standardtilldelare i det här fältet. </td> 
      </tr> 
      <tr> 
@@ -120,12 +120,12 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    <p><b>ANMÄRKNING</b></p>
 
-   När utgåvan har skickats in kan du redigera uppdragen och tilldela andra användare, roller eller team. Mer information finns i  <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Tilldela ärenden</a>.
+   När utgåvan har skickats in kan du redigera uppdragen och tilldela andra användare, roller eller team. Mer information finns i <a href="../../../manage-work/issues/manage-issues/assign-issues.md">Tilldela problem</a>.
 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Flöde till projekt</strong> </td> 
+      <td role="rowheader"><strong>Dirigera till projekt</strong> </td> 
       <td>Det här är projektet där problemet läggs till.</td> 
      </tr> 
     </tbody> 
@@ -137,12 +137,12 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    När du dirigerar ett problem till ett projekt får användare med behörigheter för det aktuella projektet de behörigheter som angetts för det projektet. Mer information om hur du ställer in behörigheter för projekt finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-   ![Ny ruta för hanteringsregel](assets/new-routing-rule-box.png)
+   ![Ny ruta för routningsregel](assets/new-routing-rule-box.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
-   Den här processen definierar bara routningsregeln. Du måste välja routningsregeln på **Köinformation** flik under **Standardflöde**.
+   Den här processen definierar bara routningsregeln. För att säkerställa att problemet dirigeras när det skickas till begärandekön måste du välja routningsregeln på fliken **Köinformation** under **Standardflöde**.
 
-   Mer information om hur du lägger till en standardflöde i en begärandekö finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information om hur du lägger till en standardväg i en begärandekö finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
    Om du vill associera flera routningsregler med begärandekön måste du skapa flera köämnen och associera vart och ett med en separat routningsregel. Mer information om hur du skapar ett köämne finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

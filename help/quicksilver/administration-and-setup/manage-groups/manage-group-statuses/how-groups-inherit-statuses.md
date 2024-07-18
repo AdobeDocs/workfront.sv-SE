@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 När du visar en lista med tillgängliga statusvärden för en grupp visas följande
 
-* Anpassade statusvärden som har skapats för gruppen, vilket förklaras i [Skapa eller redigera en gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+* Anpassade statusvärden som skapats för gruppen, enligt beskrivningen i [Skapa eller redigera en gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 * Status ärvs från systemet och högre i grupphierarkin, vilket förklaras i den här artikeln.
 
 ## Ärver status
@@ -48,17 +48,17 @@ Tabellen nedan förklarar de olika omständigheterna.
      <b>EXEMPEL:</b></span></span> 
      <p>Anta att en grupp som heter Marketing har två undergrupper som kallas Marketing Communications och Branding.</p> 
      <p>En gruppadministratör för marknadsföringsgruppen skapar en ny anpassad status som kallas Discovery.</p> 
-     <p>Senare skapar du en ny undergrupp under marknadsföringsgruppen och kallar den Advertising.</p> 
+     <p>Senare skapar du en ny undergrupp under Marketing Group och kallar den Advertising.</p> 
      <p>Din undergrupp ärver Discovery-statusen eftersom du skapade gruppen efter att den andra administratören skapade den olåsta Discovery-statusen.</p> 
      <p>Eftersom undergrupperna Marketing Communications and Branding redan fanns under Marketing Group när detta inträffade, ärver de inte den olåsta Discovery-statusen.</p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">När en administratör låser en status på en högre nivå</td> 
-   <td> <p>När en Workfront-administratör låser en status på systemnivå ärver din grupp den tillsammans med alla andra grupper i systemet.</p> <p>När en administratör låser en status för en grupp ovanför gruppen, ärver gruppen den med alla andra undergrupper under den högre gruppen.</p> <p><b>ANMÄRKNING</b>: Om en administratör senare låser upp en av dessa statusar på systemnivå eller i en grupp ovanför gruppen, behåller gruppen den status som den ärvde tidigare. Nu är det en separat version av statusen och du kan anpassa den för just din grupp.</p> 
+   <td> <p>När en Workfront-administratör låser en status på systemnivå ärver din grupp den tillsammans med alla andra grupper i systemet.</p> <p>När en administratör låser en status för en grupp ovanför gruppen, ärver gruppen den med alla andra undergrupper under den högre gruppen.</p> <p><b>Obs!</b> Om en administratör senare låser upp en av dessa statusar på systemnivå eller i en grupp ovanför gruppen, behåller gruppen den status som den ärvde tidigare. Nu är det en separat version av statusen och du kan anpassa den för just din grupp.</p> 
     <p><b>EXEMPEL:</b></p>
     <p>Administratören för marknadsföringsgruppen låser den identifieringsstatus som nämns ovan för att se till att alla tre undergrupperna har den.</p> 
-    <p>Tillsammans med er Advertising Group har grupperna Marketing Communications och Branding statusen Discovery nu. De ärvde det när det var låst i marknadsföringsgruppen ovanför dem.</p> 
+    <p>Tillsammans med er Advertising-grupp har Marketing Communications- och Branding-grupperna nu statusen Discovery. De ärvde det när det var låst i marknadsföringsgruppen ovanför dem.</p> 
     <p>Administratören för marknadsföringsgruppen låser sedan upp Discovery-statusen så att alla tre undergrupperna har sin egen version av Discovery-statusen. Nu kan du och administratörerna för de andra två grupperna anpassa Discovery-statusen efter gruppernas behov.</p> 
   </td> 
   </tr> 
@@ -79,10 +79,10 @@ När du skapar en grupp på den översta nivån ärver den följande konfigurati
 
 * Standardstatuskonfigurationer
 
-   Mer information om dessa finns i [Använd anpassade statusvärden som standardstatusvärden](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+  Mer information om dessa finns i [Använd anpassade statusvärden som standardstatusvärden](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
 * Konfigurationer av visningsordning för status
 
-   Mer information om dessa finns i [Ändra ordning på systemnivå och gruppstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+  Mer information om dessa finns i [Ändra ordning på system- och gruppstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
 
 Om någon ändrar dessa konfigurationer efter att gruppen har skapats påverkas inte gruppens status.

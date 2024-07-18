@@ -10,7 +10,7 @@ role: Admin
 exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.&gt;.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.&gt;.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Konfigurera användaråtkomst till dokument med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** eller **Redigera** till höger om Dokument och välj sedan de funktioner som du vill bevilja under **Finjustera inställningarna**.
+1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Dokument och välj sedan de funktioner som du vill ge under **Finjustera dina inställningar**.
 
    ![document_access.png](assets/document-access.png)
 
@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort</td> 
-      <td> <p>Ta bort överförda dokument.</p> <p>The <b>Skapa</b> aktiveras automatiskt när det här alternativet är aktiverat.</p> </td> 
+      <td> <p>Ta bort överförda dokument.</p> <p>Alternativet <b>Skapa</b> aktiveras automatiskt när det här alternativet är aktiverat.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dela</td> 
@@ -79,19 +79,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader">Dela hela systemet</td> 
       <td> <p>Gör dokumenten tillgängliga för alla i Workfront.</p> <p>Alla i systemet kan se ett dokument som delas på det här sättet om:</p> 
        <ul> 
-        <li> <p>Du skickar en länk till sidan Dokument där den har överförts.</p> </li> 
+        <li> <p>Du skickar en länk till sidan Dokument till dem där den har överförts.</p> </li> 
         <li> <p>De söker i Workfront</p> </li> 
-       </ul> <p>The <b>Dela</b> aktiveras automatiskt när det här alternativet är aktiverat.</p> </td> 
+       </ul> <p>Alternativet <b>Dela</b> aktiveras automatiskt när det här alternativet är aktiverat.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!NOTE]
    >
-   >När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan t.ex. hindra användare från att ta bort projekt på åtkomstnivån, men detta förhindrar dem inte från att ta bort dokument som har lägre rankning än projekt.Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan t.ex. hindra användare från att ta bort projekt på åtkomstnivån, men detta förhindrar dem inte från att ta bort dokument, som har lägre rankning än projekt. Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Valfritt) Om du vill begränsa ärvda behörigheter för dokument från högre rankningsobjekt klickar du på **Ange ytterligare begränsningar** väljer **Ärv aldrig dokumentåtkomst från projekt, uppgifter, ärenden osv.**.
-1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Valfritt) Om du vill begränsa ärvda behörigheter för dokument från högre rankningsobjekt klickar du på **Ange ytterligare begränsningar** och väljer sedan **Ärv aldrig dokumentåtkomst från projekt, uppgifter, ärenden osv.**.
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. När du är klar klickar du på **Spara**.
 
    När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

@@ -9,7 +9,7 @@ role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Uppdaterade resurser
 
-Följande befintliga resurser har uppdaterats med den här versionen av Adobe Workfront API. Om du vill se vilka resurser som är nya för version 8 går du till [Nyheter i API-version 8](../../wf-api/api/new-api-version-8.md). Ändringar som görs i en resurs anges på följande sätt:
+Följande befintliga resurser har uppdaterats med den här versionen av Adobe Workfront API. Om du vill visa resurser som är nya för version 8 läser du [Nyheter i API-version 8](../../wf-api/api/new-api-version-8.md). Ändringar som görs i en resurs anges på följande sätt:
 
 * Tilläggen visas bara i listan
 * Borttagningar anges med genomstrykningstext
@@ -44,7 +44,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Borttagen flagga: RAPPORTERBAR\
+<sup>1</sup> Flagga borttagen: RAPPORTERBAR\
 <sup>2</sup> Ändringar av möjliga värden
 
 ### Godkännande
@@ -59,7 +59,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 {style="table-layout:auto"}
 
 <sup>1</sup>Ändringar av möjliga värden\
-<sup>2</sup>Tillagda flaggor: DYNAMIC, LAZY_READ och NOT_GROUPABLE
+<sup>2</sup>Flaggor har lagts till: DYNAMIC, LAZY_READ och NOT_GROUPABLE
 
 ### Tilldelning
 
@@ -86,7 +86,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| name<sup>1</sup> |   |   |   |   |   |   |
+| namn<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -216,7 +216,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Adobe Wo
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
 | requestCoreAction<sup>1</sup> |   |   |   |   |   |   |
-| requestForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
+| requestedForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -334,4 +334,4 @@ Uppdatera
 {style="table-layout:auto"}
 
 <sup>1</sup>Ändringar av möjliga värden\
-<sup>2</sup>Tillagda flaggor: DYNAMIC, LAZY_READ och NOT_GROUPABLE
+<sup>2</sup>Flaggor har lagts till: DYNAMIC, LAZY_READ och NOT_GROUPABLE

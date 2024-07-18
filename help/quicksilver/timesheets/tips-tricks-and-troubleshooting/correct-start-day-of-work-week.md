@@ -9,7 +9,7 @@ feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
 source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Problem
 
-Veckodagens startdag på min tidrapport matchar inte veckodagens startdag som är konfigurerad på min tidrapportprofil (enligt beskrivningen i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).).
+Veckodagens startdag på min tidrapport matchar inte veckodagens startdag som har konfigurerats på min tidrapportprofil (enligt beskrivningen i [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)).
 
 ## Lösning
 
@@ -28,13 +28,13 @@ Om webbläsarspråket till exempel är Engelska och språkinställningen är USA
 
 Den här inställningen påverkar även veckostartdagen i popup-kalendrar i systemet.
 
-Ändringen av språkinställningen påverkar inte veckostartdagen i resursstödrastret (eller resurstödrastervyn). Veckan börjar alltid på söndag.
+Ändringen av språkområdet påverkar inte veckodagens startdag i resursstödrastret (eller resurstödrastervyn). Veckan börjar alltid på söndag.
 
 Här följer anvisningar om hur du ändrar språk- och språkinställningar för olika webbläsare som stöds av Workfront.
 
-* **Krom:** Kopiera och klistra in följande länk i webbläsaren Chrome: `chrome://settings/languages` sedan till Språk.
-* **Firefox:**Kopiera och klistra in följande länk i din Firefox-webbläsare: `about:preferences#content` sedan till Språk.
-* **IE 11:** Verktyg -> Internetalternativ -> Allmänt -> Språk
-* **Safari:** Tyvärr tillåter inte Safari att du byter webbläsarspråk utan att ändra hela operativsystemets språk. Det är antagligen enklare att installera en annan webbläsare, som Chrome eller Firefox.
+* **Chrome:** Kopiera och klistra in följande länk i webbläsaren i Chrome: `chrome://settings/languages` och gå sedan till Språk.
+* **Firefox:**Kopiera och klistra in följande länk i din Firefox-webbläsare: `about:preferences#content` och gå sedan till Språk.
+* **IE 11:** Tools -> Internet Options -> General -> Languages
+* **Safari:** Tyvärr tillåter inte Safari att webbläsarspråk ändras utan att hela operativsystemsspråket ändras. Det är antagligen enklare att installera en annan webbläsare, som Chrome eller Firefox.
 
  

@@ -24,8 +24,8 @@ Du kan ta bort resultat, aktiviteter och projekt från mål om de inte längre �
 Mer information om hur du skapar mål och lägger till resultat och aktiviteter till dem finns i följande artiklar:
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
-* [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-* [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Redigera resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 Mål kan också anpassas till överordnade mål och bli underordnade mål. Underordnade mål är också förloppsindikatorer för de överordnade målen.
@@ -92,7 +92,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -105,7 +105,7 @@ Du måste ha ett mål som är associerat med resultat, aktiviteter eller projekt
 * När du tar bort resultatet eller aktiviteten från ett mål påverkar förloppet för det borttagna resultatet eller aktiviteten det övergripande förloppet för målet.
 * Du kan inte ta bort ett projekt från ett mål, men du kan koppla bort det från målet. När du kopplar från projektet från målet påverkas inte längre projektets förlopp i procent.
 
-  Mer information om hur projekt påverkar målförloppet finns i [Lägg till projekt i mål i Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  Mer information om hur projekt påverkar målförloppet finns i [Lägga till projekt i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 * Du kan inte ta bort ett resultat eller en aktivitet från ett mål, och du kan inte koppla från ett underordnat mål eller ett projekt, om det är den sista förloppsindikatorn för målet.
 * Om ett projekt tas bort från projektområdet och det är den sista förloppsindikatorn för ett mål, blir målet inaktivt.
@@ -141,7 +141,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -151,11 +151,11 @@ How you delete results and activities differs depending on the environment you u
 
    Målsidan öppnas.
 
-1. Klicka **Progress-indikatorer** till vänster.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
 
-1. Välj ett resultat eller en aktivitet och klicka sedan på **Ta bort** icon ![](assets/delete-icon.png) högst upp i listan.
+1. Markera ett resultat eller en aktivitet och klicka sedan på ikonen **Ta bort** ![](assets/delete-icon.png) längst upp i listan.
 
-1. Klicka **Ta bort** för att bekräfta borttagningen. Resultatet eller aktiviteten tas bort och kan inte återställas. Procent färdigt av måluppdateringarna som ska exkludera den borttagna aktiviteten eller det borttagna resultatet.
+1. Klicka på **Ta bort** för att bekräfta borttagningen. Resultatet eller aktiviteten tas bort och kan inte återställas. Procent färdigt av måluppdateringarna som ska exkludera den borttagna aktiviteten eller det borttagna resultatet.
 
 
 ## Ta bort projekt från mål
@@ -186,7 +186,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 -->
 
 
-1. Klicka på **Huvudmeny** ikonen i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet och klicka sedan på **Mål**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -196,9 +196,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. Klicka på namnet på ett mål som du vill ta bort resultat och aktiviteter från.
 
    Målsidan öppnas.
-1. Klicka **Progress-indikatorer** till vänster.
-1. Välj ett projekt och klicka sedan på **Koppla från** icon ![](assets/disconnect-icon.png) högst upp i listan.
-1. Klicka **Koppla från** för att bekräfta.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
+1. Markera ett projekt och klicka sedan på ikonen **Koppla från** ![](assets/disconnect-icon.png) längst upp i listan.
+1. Bekräfta genom att klicka på **Koppla från**.
 
    Projektet är inte längre anslutet till målet. Procent färdigt av måluppdateringarna som ska exkludera det frånkopplade projektet.
 

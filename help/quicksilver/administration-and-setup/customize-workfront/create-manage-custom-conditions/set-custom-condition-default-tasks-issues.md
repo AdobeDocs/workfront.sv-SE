@@ -19,7 +19,7 @@ ht-degree: 0%
 
 När en användare klickar på Arbeta med det eller lägger till en uppdateringskommentar till en ny uppgift som de har tilldelats (utan att manuellt ange ett villkor för uppgiften), visar Adobe Workfront standardvillkoret för uppgifter, som har konfigurerats i installationsprogrammet. Detsamma gäller för problem.
 
-Workfront använder det inbyggda villkoret Going Smoothly som standardvillkor för uppgifter och, separat, för problem. Som Workfront-administratör kan du ändra standardvillkoret för båda dessa objekttyper till ett anpassat villkor som du har skapat.
+Workfront använder det inbyggda villkoret Going Smoothly som standardvillkor för uppgifter och, separat, för problem. Som Workfront-administratör kan du ändra standardvillkoret för båda de här objekttyperna till ett anpassat villkor som du har skapat.
 
 ## Åtkomstkrav
 
@@ -39,29 +39,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ange ett anpassat villkor som standardvillkor för uppgifter eller för ärenden:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Projektinställningar** > **Villkor**.
+1. Klicka på **Projektinställningar** > **Villkor**.
 
-1. Klicka på **Uppgifter** eller **Problem** -fliken.
+1. Klicka på fliken **Åtgärder** eller **Problem**.
 
-1. Klicka **Ange standardvillkor**.
+1. Klicka på **Ange standardvillkor**.
 1. I listrutan klickar du på det anpassade villkor som du vill använda som standardvillkor för uppgifter (eller ärenden).
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 >[!NOTE]
 >
->* En användare som har tilldelats en uppgift eller ett problem, eller som har behörigheten Hantera, kan ändra dess villkor manuellt. Mer information finns i [Uppdatera villkor för aktiviteter och ärenden](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
->* De tre standardvillkoren för uppgifter och ärenden som ingår i Workfront är att fungera smidigt, vissa bekymmer och viktiga vägspärrar. Du kan inte dölja eller ta bort dessa villkor, men du kan ändra deras namn och färger. Du kan också skapa nya som du vill använda i stället, vilket beskrivs i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>* En användare som har tilldelats en uppgift eller ett problem, eller som har behörigheten Hantera, kan ändra dess villkor manuellt. Mer information finns i [Uppdatera villkor för aktiviteter och problem](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+>* De tre standardvillkoren för uppgifter och ärenden som ingår i Workfront är att fungera smidigt, vissa bekymmer och viktiga vägspärrar. Du kan inte dölja eller ta bort dessa villkor, men du kan ändra deras namn och färger. Du kan också skapa nya som du vill använda i stället, enligt beskrivningen i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 >
-
 
 Mer information om hur du konfigurerar ett anpassat villkor som standardvillkor för projekt finns i [Ange ett anpassat villkor som standard för projekt](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md).
 

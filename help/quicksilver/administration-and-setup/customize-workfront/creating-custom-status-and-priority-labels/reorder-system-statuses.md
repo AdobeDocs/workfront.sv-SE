@@ -29,10 +29,9 @@ Som Workfront-administratör kan du ändra ordningen för projekt-, uppgifts- oc
 >
 >  Statuserna i en nyligen skapad grupp på den översta nivån ärver dock ordningen för statusvärdena på systemnivå. (En ny undergrupp ärver ordningen för statusarna i gruppen en nivå upp.)
 >
->* Du kan ändra ordningen på låsta statusar. Mer information om låsta lägen finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
->* Gruppadministratörer kan också ändra ordningen på de statusar som används i deras grupper. Mer information finns i [Ordna om gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
+>* Du kan ändra ordningen på låsta statusar. Mer information om låsta statusar finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>* Gruppadministratörer kan också ändra ordningen på de statusar som används i deras grupper. Mer information finns i [Ändra gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
 >
-
 
 ## Åtkomstkrav
 
@@ -48,7 +47,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +77,7 @@ Som standard visas statusvärden i följande ordning:
      <li>Död</li> 
      <li> Parkerad </li> 
      <li> Planering </li> 
-     <li> Slutförd </li> 
+     <li> Complete </li> 
      <li> Begärd </li> 
      <li> Godkänd </li> 
      <li> Avvisad </li> 
@@ -88,7 +87,7 @@ Som standard visas statusvärden i följande ordning:
     <ul> 
      <li>Nytt</li> 
      <li>Pågår</li> 
-     <li>Slutförd</li> 
+     <li>Complete</li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -109,14 +108,14 @@ Som standard visas statusvärden i följande ordning:
 
 ## Ändra ordning på status för uppgifter och projekt i hela systemet eller för en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Projektinställningar > Status**.
+1. Klicka på **Projektinställningar > Status** i den vänstra panelen.
 1. (Villkorligt) Om du ändrar ordning på statusarna för en grupp börjar du skriva namnet på gruppen i rutan i det övre högra hörnet och klickar sedan på namnet när det visas.
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Ovanför statuslistan som visas klickar du på **Projekt** eller **Uppgifter** -fliken.
+1. Ovanför statuslistan som visas klickar du på fliken **Projekt** eller **Åtgärder** .
 
 1. Dra och släpp statusarna i önskad ordning.
 
@@ -126,21 +125,20 @@ Som standard visas statusvärden i följande ordning:
 
 ## Ändra ordning på statusvärden för utgåvor
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Projektinställningar > Status.**
+1. Klicka på **Projektinställningar > Status.**
 1. (Villkorligt) Om du ändrar ordning på statusarna för en grupp börjar du skriva namnet på gruppen i rutan i det övre högra hörnet och klickar sedan på namnet när det visas.
 
    ![](assets/issue-statuses-group-name.png)
 
-1. Klicka på **Problem** -fliken.
-1. (Valfritt) Välj en problemtyp (**Felrapport**, **Ändra ordning**, **Problem**, eller **Begäran**).
+1. Klicka på fliken **Problem**.
+1. (Valfritt) Välj en problemtyp (**Felrapport**, **Ändra ordning**, **Problem** eller **Begäran**).
 
    >[!NOTE]
    >
-   >* Du kan inte anpassa statusordningen för den Överordnad listan.
-   >* Vi rekommenderar att du beställer statusar för varje utgåva på samma sätt. Mer information om problemtyper finns i [Konfigurera begärandetyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
-
+   >* Du kan inte anpassa statusordningen för huvudlistan.
+   >* Vi rekommenderar att du beställer statusar för varje utgåva på samma sätt. Mer information om problemtyper finns i [Konfigurera frågetyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Dra och släpp statusarna i önskad ordning.
 

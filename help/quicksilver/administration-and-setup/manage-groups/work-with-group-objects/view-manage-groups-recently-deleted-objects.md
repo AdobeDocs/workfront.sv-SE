@@ -10,7 +10,7 @@ role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '445'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,12 +56,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa och hantera nyligen borttagna objekt i en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på gruppens namn.
-1. Klicka på i den vänstra panelen **Nyligen borttaget**.
+1. Klicka på **Nyligen borttagen** i den vänstra panelen.
 1. Öppna någon av följande flikar där du vill visa och hantera gruppens nyligen borttagna objekt:
 
    * Projekt
@@ -87,15 +87,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Återställ objekt</p> </td> 
-      <td> <p>Markera upp till 10 objekt och klicka sedan <strong>Återställ</strong>.</p> </td> 
+      <td> <p>Markera upp till 10 objekt och klicka sedan på <strong>Återställ</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Exportera hela listan med objekt på fliken</p> </td> 
-      <td> <p>Klicka <strong>Exportera</strong>.</p> </td> 
+      <td> <p>Klicka på <strong>Exportera</strong>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>Ändra visningen av information i listan</p> </td> 
-      <td> <p>Använd <strong>Filter</strong> för att definiera vad som visas baserat på de kriterier du anger. Använd <strong>Visa</strong> för att definiera vilka fält som ska visas som kolumner. Använd <strong>Gruppering</strong> om du vill gruppera objekten i kategorier.</p> </td> 
+      <td> <p>Använd <strong>Filter</strong> i det övre högra hörnet ovanför listan för att definiera vad som ska visas baserat på villkor som du anger. Använd <strong>Visa</strong> för att definiera vilka fält som ska visas som kolumner. Använd <strong>Gruppering</strong> för att gruppera objekten i kategorier.</p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -1,7 +1,7 @@
 ---
 content-type: overview
 title: Sammanfattning
-description: Du kan använda panelen Sammanfattning för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgiftsproblem, dokument eller från andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
+description: Du kan använda panelen Sammanfattning för att granska och uppdatera information om arbetsobjekt direkt från en lista med aktivitetsproblem, dokument eller från andra områden i  [!DNL Adobe Workfront] som visar uppgifter och problem.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Summary] översikt
+# [!UICONTROL Summary] - översikt
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-Du kan använda [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista över uppgifter, ärenden, dokument eller andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
+Du kan använda panelen [!UICONTROL Summary] för att granska och uppdatera information om arbetsobjekt direkt från en lista med uppgifter, utgåvor, dokument eller från andra områden i [!DNL Adobe Workfront] som visar uppgifter och problem.
 
 Din Workfront- eller gruppadministratör kan ändra områdena och fälten som visas på sammanfattningspanelen. De kan lägga till upp till 16 fält på panelen Sammanfattning.
 
@@ -38,7 +38,7 @@ Din Workfront- eller gruppadministratör kan ändra områdena och fälten som vi
 
 
 
-I följande tabell visas de områden där du kan söka efter och använda [!UICONTROL Summary] panel:
+I följande tabell visas de områden där du kan hitta och använda panelen [!UICONTROL Summary]:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -54,7 +54,7 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Uppgifter i [!UICONTROL Unassigned] och [!UICONTROL Assigned] Arbetsytor i [!UICONTROL Workload Balancer]</td> 
+   <td>Uppgifter i [!UICONTROL Unassigned]- och [!UICONTROL Assigned]-arbetsytorna i [!UICONTROL Workload Balancer]</td> 
   </tr> 
    <tr> 
    <td>Uppgifter i en [!UICONTROL Timesheet]</td> 
@@ -71,10 +71,10 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problem i [!UICONTROL Assigned Work] området på [!UICONTROL Workload Balancer]</td> 
+   <td>Problem i området [!UICONTROL Assigned Work] i [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Problem i [!UICONTROL Submitted] i [!UICONTROL Requests] area</td> 
+   <td>Problem i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests]</td> 
   </tr> 
 </tr> 
    <tr> 
@@ -97,11 +97,11 @@ I följande tabell visas de områden där du kan söka efter och använda [!UICO
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront administrators can customize the Summary in the Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
 -->
 
-I den här artikeln beskrivs hur du får åtkomst till och använder [!UICONTROL Summary] för uppgifter och problem i listor.
+I den här artikeln beskrivs hur du får åtkomst till och använder panelen [!UICONTROL Summary] för uppgifter och problem i listor.
 
-Mer information om hur du använder [!UICONTROL Summary] i [!UICONTROL Workload Balancer], se [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
+Mer information om hur du får åtkomst till [!UICONTROL Summary] i [!UICONTROL Workload Balancer] finns i [Uppdatera arbetsobjekt i [!UICONTROL Workload Balancer] med [!UICONTROL Summary]](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
-Mer information om hur du använder [!UICONTROL Summary] för dokument, se [[!UICONTROL Summary] för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
+Mer information om hur du får åtkomst till [!UICONTROL Summary] för dokument finns i [[!UICONTROL Summary] för dokumentöversikt ](../../documents/managing-documents/summary-for-documents.md).
 
 ## Åtkomstkrav
 
@@ -132,89 +132,89 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta din [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Visa [!UICONTROL Summary] i en lista med uppgifter eller problem
+## Visa panelen [!UICONTROL Summary] i en lista över uppgifter eller problem
 
 1. Gå till en uppgift eller ett ärende och välj ett objekt i listan.
-1. Klicka på **[!UICONTROL Summary]** icon ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Klicka på ikonen **[!UICONTROL Summary]** ![](assets/qs-summary-in-new-toolbar-small.png)
 
    eller
 
-   Klicka på **[!UICONTROL Open Summary]** icon ![](assets/open-summary-with-text-nwe.png) i [!UICONTROL Submitted] i [!UICONTROL Requests] område.
+   Klicka på ikonen **[!UICONTROL Open Summary]** ![](assets/open-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests].
 
    När du har öppnat sammanfattningen förblir den öppen när du klickar på eller väljer andra uppgifter eller ärenden och är öppen tills du stänger den manuellt.
 
    >[!TIP]
    >
-   >Du kan bara välja en aktivitet eller en utgåva åt gången för att visa informationen om dem i [!UICONTROL Summary] -panelen.
+   >Du kan bara markera en uppgift eller en utgåva i taget om du vill visa information om dem på panelen [!UICONTROL Summary].
 
    ![Panelen Sammanfattning](assets/summary-panel-for-task-new-comments.png)
 
-1. (Valfritt) Stäng [!UICONTROL Summary] gör du något av följande:
+1. (Valfritt) Gör något av följande om du vill stänga panelen [!UICONTROL Summary]:
 
-   * Klicka på **[!UICONTROL Open Summary]** icon ![](assets/summary-panel-icon.png)
-
-     eller
-
-     Klicka på **X** ikonen i det övre högra hörnet av [!UICONTROL Summary] -panelen.
-
-   * I [!UICONTROL Submitted] i [!UICONTROL Requests] klickar du på **[!UICONTROL Close Summary]** icon ![](assets/close-summary-with-text-nwe.png)
+   * Klicka på ikonen **[!UICONTROL Open Summary]** ![](assets/summary-panel-icon.png) i en aktivitets- eller problemlista
 
      eller
 
-     Klicka på **X** i det övre högra hörnet av panelen Sammanfattning.
+     Klicka på ikonen **X** i det övre högra hörnet av panelen [!UICONTROL Summary].
+
+   * Klicka på ikonen **[!UICONTROL Close Summary]** ![](assets/close-summary-with-text-nwe.png) i avsnittet [!UICONTROL Submitted] i området [!UICONTROL Requests]
+
+     eller
+
+     Klicka på ikonen **X** i det övre högra hörnet av sammanfattningspanelen.
 
 ## [!UICONTROL Percent Complete]
 
-Använd förloppsindikatorn högst upp i [!UICONTROL Summary] om du vill uppdatera procentandelen färdigt för den uppgift eller utgåva som du har valt. Ange ett tal eller dra fältet till rätt procentvärde.
+Använd förloppsindikatorn högst upp i [!UICONTROL Summary] för att uppdatera procentandelen färdigt för den uppgift eller utgåva som du har valt. Ange ett tal eller dra fältet till rätt procentvärde.
 
 ![Procent färdigt på sammanfattningspanelen](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
-Använd [!UICONTROL Updates] i [!UICONTROL Summary] om du vill visa de senaste uppdateringarna och göra uppdateringar för den uppgift eller utgåva du har valt. Klicka **[!UICONTROL See all]** går direkt till [!UICONTROL Updates] -fliken för uppgiften.
+Använd avsnittet [!UICONTROL Updates] i [!UICONTROL Summary] om du vill visa de senaste uppdateringarna och göra uppdateringar för den uppgift eller det problem du valde. Klicka på **[!UICONTROL See all]** om du vill gå direkt till fliken [!UICONTROL Updates] för uppgiften.
 
 ![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documents]
 
-Använd [!UICONTROL Documents] i [!UICONTROL Summary] om du vill visa dokument som är kopplade till den uppgift eller det problem du valde. Klicka på miniatyrbilden för att öppna en dokumentförhandsvisning. Gå direkt till [!UICONTROL Documents] klickar du på **[!UICONTROL Documents]** titel.
+Använd avsnittet [!UICONTROL Documents] i [!UICONTROL Summary] om du vill visa dokument som är kopplade till uppgiften eller utgåvan som du har valt. Klicka på miniatyrbilden för att öppna en dokumentförhandsvisning. Om du vill gå direkt till fliken [!UICONTROL Documents] för aktiviteten eller problemet klickar du på rubriken **[!UICONTROL Documents]**.
 
-![Avsnittet Dokument i panelen Sammanfattning](assets/summary-documents-section.png)
+![Avsnittet Dokument på panelen Sammanfattning](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
-Använd [!UICONTROL Details] i [!UICONTROL Summary] om du vill visa detaljer om arbetsuppgift på hög nivå, göra uppdrag eller lägga till startdatum. Klicka **[!UICONTROL See all]** går direkt till [!UICONTROL Details] -fliken för uppgiften eller problemet.
+Använd avsnittet [!UICONTROL Details] i [!UICONTROL Summary] om du vill visa högnivåinformation om arbetsobjekt, göra tilldelningar eller lägga till startdatum. Klicka på **[!UICONTROL See all]** om du vill gå direkt till fliken [!UICONTROL Details] för uppgiften eller problemet.
 
 >[!NOTE]
 >
->Fälten som visas i det här avsnittet är samma fält som visas på den högra panelen i Hem. Du kan anpassa dessa fält [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] använda en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>Fälten som visas i det här avsnittet är samma fält som visas på den högra panelen i Hem. Du kan anpassa fälten [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![Avsnittet Detaljer i panelen Sammanfattning](assets/summary-details-section.png)
+![Avsnittet Information på sammanfattningspanelen](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtasks]
 
-Det här avsnittet är bara tillgängligt för uppgifter. Använd [!UICONTROL Subtasks] i [!UICONTROL Summary] visa [!UICONTROL New], [!UICONTROL In Progress]och [!UICONTROL Closed] underuppgifter för den valda uppgiften. Klicka på **[!UICONTROL Status]** för att växla mellan olika lägen. Gå direkt till [!UICONTROL Subtasks] klickar du på **[!UICONTROL Subtasks]**&#x200B;.
+Det här avsnittet är bara tillgängligt för uppgifter. Använd [!UICONTROL Subtasks]-delen av [!UICONTROL Summary] för att visa [!UICONTROL New], [!UICONTROL In Progress] och [!UICONTROL Closed] underaktiviteter för den aktivitet du har valt. Klicka på listrutan **[!UICONTROL Status]** för att växla mellan statusar. Om du vill gå direkt till fliken [!UICONTROL Subtasks] för aktiviteten klickar du på &#x200B; **[!UICONTROL Subtasks]** .
 
-Om du inte har lagt till några underaktiviteter till uppgiften klickar du på **[!UICONTROL Add one here]** går direkt till [!UICONTROL Subtasks] -fliken för uppgiften.
+Om du inte har lagt till några underaktiviteter i aktiviteten klickar du på **[!UICONTROL Add one here]** för att gå direkt till fliken [!UICONTROL Subtasks] för aktiviteten.
 
-![Underaktiviteter i panelen Sammanfattning](assets/summary-subtasks-section.png)
+![Underaktiviteter i sammanfattningspanelen](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Hours]
 
-Använd [!UICONTROL Hours] i [!UICONTROL Summary] om du vill logga timmar på den uppgift eller utgåva du har valt. Klicka **[!UICONTROL Log Time]** och ange dina timmar. Om du vill gå direkt till fliken Timmar för uppgiften eller problemet klickar du på **[!UICONTROL Hours]** titel.
+Använd avsnittet [!UICONTROL Hours] i [!UICONTROL Summary] om du vill logga timmar på den aktivitet eller det problem du valde. Klicka på **[!UICONTROL Log Time]** och ange dina timmar. Om du vill gå direkt till fliken Timmar för uppgiften eller problemet klickar du på rubriken **[!UICONTROL Hours]**.
 
-Timantal i [!UICONTROL Summary] visar de timmar du loggar. Andra användare har olika timsummor i [!UICONTROL Summary] beroende på när de loggar in på uppgiften.
+Timantalet i [!UICONTROL Summary] visar timmarna du loggar. Andra användare har olika timsummor i [!UICONTROL Summary] beroende på hur lång tid de loggar in på uppgiften.
 
-Om det inte finns några planerade [!UICONTROL hours] på uppgiften eller problemet och du har loggat tid visas timfältet med rött.
+Om det inte finns någon planerad [!UICONTROL hours] för aktiviteten eller problemet och du har loggat tid visas timraden med rött.
 
-![Avsnittet Timmar i sammanfattningspanelen](assets/summary-hours-section.png)
+![Timmar i sammanfattningspanelen](assets/summary-hours-section.png)
 
 ## Godkännanden
 
-Använd [!UICONTROL Approvals] i [!UICONTROL Summary] om du vill visa godkännanden som är kopplade till den uppgift eller det ärende du valde. Om du inte har lagt till några godkännanden väljer du ett befintligt godkännande i listrutan eller klickar på **[!UICONTROL Create single-use approval process]** går direkt till [!UICONTROL Approvals] -fliken för uppgiften eller problemet.
+Använd avsnittet [!UICONTROL Approvals] i [!UICONTROL Summary] om du vill visa godkännanden som är kopplade till uppgiften eller utgåvan som du valde. Om du inte har lagt till några godkännanden väljer du ett befintligt godkännande i listrutan eller klickar på **[!UICONTROL Create single-use approval process]** för att gå direkt till fliken [!UICONTROL Approvals] för uppgiften eller problemet.
 
-Gå direkt till [!UICONTROL Approvals] klickar du på **[!UICONTROL Approvals]** titel.
+Om du vill gå direkt till fliken [!UICONTROL Approvals] för aktiviteten eller problemet klickar du på rubriken **[!UICONTROL Approvals]**.
 
 ![Avsnittet Godkännanden på panelen Sammanfattning](assets/summary-approvals-section.png)

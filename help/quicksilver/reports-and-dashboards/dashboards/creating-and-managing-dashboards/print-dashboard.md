@@ -39,7 +39,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong>/td&gt; 
@@ -54,7 +54,7 @@ Du måste ha följande:
 
 Kontrollpanelen måste skapas innan du kan skriva ut den.
 
-Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Förstå vilken information som skrivs ut när du skriver ut en kontrollpanel
 
@@ -67,11 +67,11 @@ När du skriver ut en kontrollpanel eller sparar den som en .PDF-fil kanske viss
 
 Följande information finns i den utskrivna eller exporterade kontrollpanelsfilen:
 
-* Instrumentpanelsrubrik
+* Instrumentpanelens titel
 * Rapportrubriker
 * Tidsstämpel för när rapporten senast skapades
 * Alla objekt på kontrollpanelen, inklusive listvyer, externa webbsidor, rapporter och kalendrar
-* Ditt företags logotyp, om din Workfront-administratör har anpassat den i ditt globala navigeringsfält. Mer information om anpassning av Workfront webbplats finns i [Varumärk din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+* Ditt företags logotyp, om din Workfront-administratör har anpassat den i ditt globala navigeringsfält. Mer information om hur du varumärkar Workfront webbplats finns i [Varumärk din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
 ### Vad visas inte? {#what-is-not-displayed}
 
@@ -79,27 +79,26 @@ Följande information ingår inte i den utskrivna eller exporterade instrumentpa
 
 * Workfront navigeringsfält
 * All annan formatering som är specifik för Workfront
-* Beroende på storleken på rapporterna och antalet och bredden på enskilda kolumner kan export och utskrift av en kontrollpanel resultera i att vissa kolumner klipps ut.
+* Beroende på storleken på rapporterna och antalet och bredden på enskilda kolumner kan export och utskrift av en kontrollpanel resultera i att vissa kolumner klipps av.
 
 ## Skriva ut en instrumentpanel
 
 1. Gå till kontrollpanelen som du vill skriva ut.
 1. Gör något av följande:
 
-   * Klicka **Instrumentpanelsåtgärder** > **Skriv ut**
+   * Klicka på **Instrumentpanelsåtgärder** > **Skriv ut**
 
-   * Tryck **Ctrl+P** (i Windows) eller **Kommando+P** (på Mac)
+   * Tryck på **Ctrl+P** (Windows) eller **Kommando+P** (Mac)
 
-      >[!IMPORTANT]
-      >
-      >* Inget av dessa alternativ är tillgängliga när kontrollpanelen är inbäddad på en anpassad flik. Mer information om hur du skapar anpassade flikar finns i [Skapa anpassade flikar eller avsnitt](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
-      >* Alternativet för kortkommandon är inte tillgängligt när du använder webbläsaren Internet Explorer.
+     >[!IMPORTANT]
+     >
+     >* Inget av dessa alternativ är tillgängliga när kontrollpanelen är inbäddad på en anpassad flik. Mer information om hur du skapar anpassade flikar finns i [Skapa anpassade flikar eller avsnitt](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+     >* Alternativet för kortkommandon är inte tillgängligt när du använder webbläsaren Internet Explorer.
 
-
-1. I **Mål** väljer du bland de olika utskriftsalternativ som är tillgängliga.\
+1. I fältet **Mål** väljer du bland de olika utskriftsalternativen som är tillgängliga.\
    Utskriftsalternativen varierar beroende på vilken webbläsare och webbläsarversion du använder.
 
-1. (Valfritt) Spara kontrollpanelen som en .PDF-fil och klicka sedan på **Spara** för att spara .PDF.\
+1. (Valfritt) Spara instrumentpanelen som en .PDF-fil och klicka sedan på **Spara** för att spara .PDF.\
    Mer information om hur du sparar kontrollpanelen som en .PDF-fil finns i [Exportera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
-1. Klicka **Skriv ut**.
+1. Klicka på **Skriv ut**.

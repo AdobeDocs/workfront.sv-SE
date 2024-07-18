@@ -29,4 +29,4 @@ För att du ska kunna visa den information du vill se utan att använda restrikt
 
 Tidigare begränsades antalet projekt i området Förbättrad analys till 50.
 
-Den här funktionen ingår nu i [Förbättrad studiematerial, del 1 inlärningsväg](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) på Workfront One.
+Den här funktionen ingår nu i [Förbättrad analys, del 1-inlärningsväg](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) på Workfront One.

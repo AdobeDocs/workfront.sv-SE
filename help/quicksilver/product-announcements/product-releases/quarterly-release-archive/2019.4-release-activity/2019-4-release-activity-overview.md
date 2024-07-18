@@ -32,12 +32,12 @@ Version 2019.4 gjordes tillgänglig i produktionsmiljön den 11 november 2019. D
 
 ## Förbättringar för alla användare
 
-Vissa funktioner släpptes före version 2019.4. Om du vill se vad som släpptes före 2019.4-utgåvan kan du läsa [2019.4 andra förbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md).
+Vissa funktioner släpptes före version 2019.4. Se [2019.4 andra förbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md) om du vill se vad som släpptes före version 2019.4.
 
 Version 2019.4 innehåller följande förbättringar:
 
 * [Listförbättringar](#list-enhancements)
-* [Mobilförbättringar](#mobile-enhancements)
+* [Mobila förbättringar](#mobile-enhancements)
 * [Förbättringar av resursplanering](#resource-scheduling-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
@@ -56,15 +56,15 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p><strong>Releasedatum</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Uppdaterat utseende och känsla för nya listor</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#updated" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Uppdaterat utseende på nya listor</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated look and feel of new lists</a>
-     --> <span style="color: #ff0000;">- Ändrad</span></p> <p>Listorna Projekt, Uppgift och Timmar har nu ett uppdaterat utseende och känsla. Andra listor som planerades att uppdateras med version 2019.4 kommer att uppdateras med en framtida version.</p> </td> 
+     --> <span style="color: #ff0000;">- Ändrat</span></p> <p>Listorna Projekt, Uppgift och Timmar har nu ett uppdaterat utseende och känsla. Andra listor som planerades att uppdateras med version 2019.4 kommer att uppdateras med en framtida version.</p> </td> 
    <td> <p>Förhandsversion: 4 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ny design som tillämpas på listor för rapporter, malluppgifter, Portfolio med mera</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md#new" target="_blank" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ny design används för listor för rapporter, malluppgifter, Portfolio och mer</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-List-enhancements-91923249?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">New design applied to lists for Reports, Template tasks, Portfolios, and more</a>
-     --><span style="color: #ff0000;"> -Borttagen från release</span> </p> <p>Den nya listdesignen är nu tillgänglig för många andra listtyper.</p> </td> 
+     --><span style="color: #ff0000;"> -Borttagen från version</span> </p> <p>Den nya listdesignen är nu tillgänglig för många andra listtyper.</p> </td> 
    <td> <p>Förhandsversion: 11 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -101,11 +101,11 @@ Version 2019.4 innehåller följande förbättringar:
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#delete" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Ta bort objekt med mobilappen på Android</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Delete objects using the Mobile app on Android</a>
-     --> </p> <p>Nu kan du ta bort objekt som uppgifter, problem och tidrapporter i Android-mobilappen.</p> </td> 
+     --> </p> <p>Nu kan du ta bort objekt som uppgifter, problem och tidrapporter i Android mobilapp.</p> </td> 
    <td> <p>Förhandsversion: 4 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Konvertera uppgifter, ärenden och förfrågningar till ett projekt med mobilappen på Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#convert" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Konvertera aktiviteter, problem och förfrågningar till ett projekt med mobilappen Android</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Convert Tasks, Issues, and Requests to a Project using the mobile app on Android</a>
      --> </p> <p>Nu kan du konvertera enskilda uppgifter, ärenden och förfrågningar till projekt i Workfront mobilapp på Android.</p> </td> 
    <td> <p>Förhandsversion: 4 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
@@ -117,9 +117,9 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Uppdaterad navigering på Android</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md#updated" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Navigeringen på Android har uppdaterats</a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Mobile-enhancements-1852732757#Updated" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">Updated Navigation on Android</a>
-     --> </p> <p>Navigering i Android-mobilappen liknar mer navigering när du använder Workfront i en webbläsare</p> </td> 
+     --> </p> <p>Navigering i Android mobilapp liknar mer navigering när du använder Workfront i en webbläsare</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -136,7 +136,7 @@ Version 2019.4 innehåller följande förbättringar:
    <td> <p><strong>Releasedatum</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Betaversionen av Utjämning av arbetsbelastning</a><!--
+   <td> <p><a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-resource-management-enhancements.md#the" class="MCXref xref" data-mc-conditions="OnlineOrPDF.OnlineOnly">Betaversionen av belastningsutjämnaren </a><!--
       <a href="https://experience.workfront.com/s/article/2019-4-Resource-Management-enhancements-1912990902?language=en_US&amp;r=35&amp;ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&amp;ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&amp;ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&amp;ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&amp;ui-self-service-components-controller.ArticleTopicList.getTopics=1&amp;ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">The Workload Balancer beta</a>
      --> </p> <p>Utjämning av arbetsbelastning tillhandahåller ett nytt gränssnitt för hantering av arbetsbelastningen för dina resurser. Den här funktionen är avsedd att ersätta resursschemaläggaren någon gång i framtiden.</p> </td> 
    <td> <p>Förhandsversion: 11 oktober 2019</p> <p>Produktionsrelease: november 2019 med 2019.4-utgåvan</p> </td> 
@@ -205,7 +205,7 @@ Version 2019.4 innehåller följande förbättringar:
 
 ## Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i version 2019.4 finns i [Workfront Maintenance Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Mer information om underhållsuppdateringar som gjordes i version 2019.4 finns i [Workfront underhållsuppdateringar](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Meddelanden
 
@@ -270,7 +270,7 @@ Nedan visas borttagningstidslinjen för dessa SSO-alternativ:
 
 ### API-version 3 stöds inte längre {#api-version-3-no-longer-supported}
 
-Stöd för API-version 3 upphörde i november 2018. Mer information om supportschemat för olika versioner av Workfront API finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md)
+Stöd för API-version 3 upphörde i november 2018. Mer information om supportschemat för versioner av Workfront API finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -309,4 +309,4 @@ Replacement of Flash-based tools in Workfront
 
 ### Q4 Product Roadmap Webinar {#q4-product-roadmap-webinar}
 
-Läs mer om vad som kommer att hända under [Q4 Roadmap webbinarium](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). Det här webbinariet hölls den 6 november 2019. Klicka på länken för att registrera och se inspelningen på begäran.
+Läs mer om vad som kommer att hända under [Q4 Roadmap-webbinariet](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). Det här webbinariet hölls den 6 november 2019. Klicka på länken för att registrera och se inspelningen på begäran.

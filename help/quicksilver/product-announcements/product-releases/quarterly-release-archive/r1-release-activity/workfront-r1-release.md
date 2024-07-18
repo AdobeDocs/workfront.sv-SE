@@ -22,20 +22,20 @@ Workfront släpper nya produktfunktioner på alla produktlinjer tre gånger per 
 
 ## NYHETER I DEN SENASTE VERSIONEN?
 
-* [FÖRBÄTTRINGAR AV Workfront](#workfront-enhancements)
+* [WORKFRONT-FÖRBÄTTRINGAR](#workfront-enhancements)
 * [FÖRBÄTTRINGAR AV PROFHQ](#proofhq-enhancements)
 * [WORKFRONT DAM-FÖRBÄTTRINGAR](#workfront-dam-enhancements)
 
 ## FÖRBÄTTRINGAR AV Workfront {#workfront-enhancements}
 
 ![Outlook_365_Integration_1.png](assets/outlook-365-integration-1-350x212.png)\
-**Hantera arbetet direkt från din e-post**
+**Hantera arbete direkt från ditt e-postmeddelande**
 Direkt integrering med Outlook 365 gör att du kan eliminera dubblettarbete när du uppdaterar Workfront direkt från Outlook 365. Konvertera e-postmeddelanden till uppgifter, skicka e-postkonversationer och bilagor som uppdateringar och svara på kommentarer - utan att behöva lämna Outlook.
 
-Mer information finns i:  [Funktioner som blev tillgängliga i förhandsgranskningen 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
+Mer information finns i:  [Funktioner som blev tillgängliga i förhandsvisning 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
 ![](assets/mceclip0-350x218.png)\
-**Håll koll på projekt och budget**
+**Håll projekten i schack och budgeten**
 Hantera era resurser och hur de används, håll koll på projekten och håll budgeten med den nya användningsrapporten. Se planerade kontra faktiska timmar per projekt och roll och jämför resurser och avdelningar regelbundet.
 
 Mer information finns i:  [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
@@ -46,22 +46,22 @@ Gör Workfront mer relevant för teamet genom att utnyttja den anpassade termino
 
 Mer information finns i:  [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-**Vy för milstolpe**
+**Milstolpevy**
 Med nya statusikoner får du ut mer av dina milstolperapporter. Dessutom kan du nu redigera procent färdigt direkt från milstolpe-vyn.
 
 Mer information finns i:  [R1 Preview 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
 ![](assets/mceclip3-350x122.png)
 
-**Workfront papperskorg**
+**Workfront papperskorgen**
 Med den nya Workfront papperskorgen kan du återställa projekt, uppgifter, problem och alla relaterade dokument, formulär och uppdateringar inom 30 dagar efter borttagningen.
 
-Mer information finns i:  [R1 Preview 1 och 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
+Mer information finns i:  [R1 Preview 1 and 2](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md)
 
 ### FÖRBÄTTRINGAR AV PROFHQ {#proofhq-enhancements}
 
 ![](assets/mceclip4-350x201.png)\
-**Korrektur för sökning och sökning**
+**Korrektursökning och sökning**
 Med den nya sökfunktionen i ProofHQ kan du snabbt och enkelt söka efter och hitta alla förekomster av ett ord eller en fras direkt i korrekturet när du granskar. Detta gäller alla textbaserade dokument, inklusive PDF- och Microsoft Word-filer.
 
 Mer information finns i:  [R1 Final](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
@@ -78,10 +78,10 @@ ProofHQ gör nu att du kan testa nya funktioner i en förhandsvisningsmiljö inn
 ## WORKFRONT DAM-FÖRBÄTTRINGAR {#workfront-dam-enhancements}
 
 ![](assets/mceclip6-350x195.png)\
-**Inbäddade DAM-länkar**
+**DAM-inbäddade länkar**
 För marknadsföringsteam som behöver ett bättre sätt att hantera, publicera och spåra användningen av digitala resurser på externa plattformar har funktionen för inbäddade länkar den kontroll ni behöver för att hantera processen med att dela rätt innehåll vid rätt tidpunkt.
 
-**DAM obligatoriska metadatafält**
+**DAM kräver metadatafält**
 Förbättra kategoriseringen av digitala resurser med obligatoriska metadatafält som ger ökad kontroll över resursdelning.
 
 **Håll alla engagerade och effektiva med Workfront.**
@@ -94,6 +94,6 @@ Workfront är en Enterprise Work Management-lösning med vilken moderna kunskaps
 
 **LÄS MER**
 
-* En fullständig lista över de förbättringar som finns i R1: [Aktivitetsöversikt för R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
+* En fullständig lista över förbättringar som är tillgängliga i R1: [Översikt över aktiviteten för R1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. För att arbete är viktigt.

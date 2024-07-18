@@ -16,7 +16,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för utgåvan tredje kvartalet 2024.
 
-En lista över alla ändringar som är tillgängliga i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i utgåva 3 kvartal 2024 finns i [Översikt över utgåvan tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 
@@ -28,7 +28,7 @@ En lista över alla ändringar som är tillgängliga i den tredje utgåvan av kv
 
 Vi har uppdaterat listan över uppdragsförslag till en mer modern design som är konsekvent i alla delar av Workfront. När du lägger till ett uppdrag till en uppgift eller ett problem från huvudet, listvyn eller skärmen Avancerat uppdrag, är upplevelsen densamma. Förslagen är uppdelade i avsnitt som hjälper dig att snabbt hitta rätt person, team eller jobbroll för uppdraget.
 
-Mer information finns i [Tilldela uppgifter](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Tilldela ärenden](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md)och [Skapa avancerade uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+Mer information finns i [Tilldela uppgifter](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md), [Tilldela ärenden](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) och [Skapa avancerade uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
 ## Skräddarsy uppdateringar för anpassade formulär om dokumentinformation
 
@@ -68,7 +68,7 @@ Mer information finns i [Skapa en grupp](/help/quicksilver/administration-and-se
 
 Vi har uppdaterat Exchange Rates-skärmen till en modernare design som är konsekvent med andra delar av Workfront.
 
-Mer information finns i [Ställ in valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Mer information finns i [Konfigurera valutakurser](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Sök efter och känner av uppdateringar för jobbrolllista
 

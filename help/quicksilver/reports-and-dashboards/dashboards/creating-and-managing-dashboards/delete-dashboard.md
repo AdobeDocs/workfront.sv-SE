@@ -35,7 +35,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -50,16 +50,16 @@ Du måste ha följande:
 
 Om du vill ta bort en kontrollpanel kan du ta bort den via Åtgärder-menyn.
 
-Mer information om hur du tar bort en kontrollpanel med en extern sida inbäddad finns i [Ta bort en instrumentpanel från instrumentpanelsområdet](#delete-a-dashboard-from-the-dashboards-area).
+Mer information om hur du tar bort en instrumentpanel med en extern sida inbäddad finns i [Ta bort en instrumentpanel från kontrollpanelsområdet](#delete-a-dashboard-from-the-dashboards-area).
 
 Så här tar du bort en kontrollpanel:
 
 1. Gå till den instrumentpanel som du vill redigera.
-1. Klicka **Instrumentpanelsåtgärder** och sedan klicka **Ta bort**.
+1. Klicka på **Instrumentpanelsåtgärder** och sedan på **Ta bort**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
-1. Bekräfta att du vill ta bort kontrollpanelen genom att klicka på **Ja, ta bort den.**
+1. Bekräfta att du vill ta bort instrumentpanelen genom att klicka på **Ja och sedan ta bort den.**
 Kontrollpanelen tas bort från Workfront.
 
 ## Ta bort en instrumentpanel från instrumentpanelsområdet {#delete-a-dashboard-from-the-dashboards-area}
@@ -68,10 +68,10 @@ Om du tar bort flera kontrollpaneler kan du ta bort kontrollpanelerna från inst
 
 Så här tar du bort flera instrumentpaneler:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Kontrollpaneler**.
-1. Markera varje kontrollpanel i listan som du vill ta bort och klicka sedan på **Ta bort** ![](assets/delete.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Kontrollpaneler**.
+1. Markera varje instrumentpanel i listan som du vill ta bort och klicka sedan på **Ta bort** ![](assets/delete.png).
 
    ![](assets/nwe-deletedashboard2021-350x182.png)
 
-1. Bekräfta att du vill ta bort kontrollpanelen genom att klicka på **Ja, ta bort den.**
+1. Bekräfta att du vill ta bort instrumentpanelen genom att klicka på **Ja och sedan ta bort den.**
 Kontrollpanelen tas bort från Workfront.

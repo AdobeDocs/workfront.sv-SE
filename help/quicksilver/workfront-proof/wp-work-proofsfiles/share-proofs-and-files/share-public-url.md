@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Dela den offentliga URL:en i [!DNL Workfront Proof]
+title: Dela den offentliga URL:en i  [!DNL Workfront Proof]
 description: Du kan dela ett korrektur genom att förse den önskade mottagaren med den offentliga korrektur-URL:en.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Du kan dela ett korrektur genom att förse den önskade mottagaren med den offentliga korrektur-URL:en.
 
@@ -31,13 +31,13 @@ Det finns även ett alternativ för att signera, så att personer som specifikt 
 
 Om prenumerationer är aktiverade på korrekturet kan alla som har åtkomst till korrektur-URL:en prenumerera på korrekturet (så lägg till sig själva i granskningscykeln med den standardroll som anges av ägaren till korrekturet).
 
-Se [Prenumerera på ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) för mer information.
+Mer information finns i [Prenumerera på ett korrektur-in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md).
 
 Så här använder du ett korrektors offentliga URL:
 
-1. Gå till sidan Korrekturinställningar enligt beskrivningen i [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Öppna **[!UICONTROL More sharing options]** -avsnitt.
-1. Se till att **Korrektors-URL** är aktiverat.
+1. Gå till sidan Korrekturinställningar, enligt beskrivningen i [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Öppna avsnittet **[!UICONTROL More sharing options]**.
+1. Kontrollera att **korrektur-URL** är aktiverad.
 1. Kopiera den offentliga URL:en till Urklipp.
 1. Klistra in den offentliga URL:en i ett e-postmeddelande eller i ett chattfönster och skicka den till mottagaren
 
@@ -53,10 +53,10 @@ Om de inte redan är granskare på korrekturet måste de prenumerera.
 >
 >Prenumerationer kan inaktiveras, vilket innebär att de inte kan prenumerera på korrekturet.
 
-Se [Prenumerera på ett korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) för mer information.
+Mer information finns i [Prenumerera på ett korrektur-in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md).
 
 Så här kommer du åt korrekturet från en offentlig URL:
 
-* Användarna öppnar korrekturet med hjälp av inloggningsuppgifterna som innehåller deras registrerade e-postadress och lösenord för [!DNL Workfront Proof].
+* Användarna öppnar korrekturet med hjälp av sina inloggningsuppgifter, som innehåller deras registrerade e-postadress och lösenord för [!DNL Workfront Proof].
 * Icke-användare öppnar korrekturet genom att ange en e-postadress och ett visningsnamn.
-* I båda fallen väljer du **[!UICONTROL Remember me]** så att du måste ange dina uppgifter den här gången (för det här korrekturet).
+* I båda fallen väljer du **[!UICONTROL Remember me]** så att du måste ange dina uppgifter den här gången (för detta korrektur).

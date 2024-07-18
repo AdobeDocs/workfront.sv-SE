@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna så att de matchar den önskade bredden. Mer information finns i [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Du kan tillfälligt ändra kolumnbredden genom att dra och släppa marginalerna så att de matchar den önskade bredden. Mer information finns i [Ändra kolumnbredd och ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 Om du vill ändra bredden på en kolumn i en vy permanent måste du använda textläget i kolumnen när du redigerar vyn.
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,21 +59,21 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 >[!IMPORTANT]
 >
->Om du ändrar bredden på en kolumn manuellt enligt beskrivningen i avsnittet [Ändra bredden och ordningen på kolumner tillfälligt](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) i artikeln [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) När du har ändrat bredden på kolumnen permanent bevaras kolumnens bredd enligt den manuella storleksändringen. I det här fallet skrivs bredden på kolumnen som uppdateras enligt följande steg över. Du kan visa kolumnen enligt den bredd som definieras i följande steg när du har rensat cachen eller loggat in från en annan webbläsare.
+>Om du ändrar bredden på en kolumn manuellt enligt beskrivningen i avsnittet [Ändra bredden och ordningen på kolumner tillfälligt](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md#modify-width-and-order-of-columns-temporarily) i artikeln [Ändra kolumnbredden och ordningen](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) när du har ändrat bredden på kolumnen permanent, bevaras bredden på kolumnen enligt den manuella storleksändringen. I det här fallet skrivs bredden på kolumnen som uppdateras enligt följande steg över. Du kan visa kolumnen enligt den bredd som definieras i följande steg när du har rensat cachen eller loggat in från en annan webbläsare.
 >
->Mer information om hur du anpassar bredden på kolumner när du använder gränssnittet för textläge finns i definitionerna &quot;width&quot; och &quot;stretch&quot; i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+>Mer information om hur du anpassar bredden på kolumner när du använder gränssnittet för textläge finns i definitionerna för bredd och sträckning i [ordlistan för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 1. Gå till en lista med objekt.
-1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
+1. Klicka på **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn** om du vill lägga till en ny kolumn.
+1. Klicka på **Lägg till kolumn** för att lägga till en ny kolumn.
 
    eller
 
    Klicka på kolumnrubriken för en befintlig kolumn.
 
-1. Klicka **Växla till textläge**.
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
+1. Klicka på **Växla till textläge**.
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
 1. Lägg till följande kod i textläget för kolumnen:
 
    ```
@@ -81,8 +81,8 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    usewidths=true
    ```
 
-   För **width** anger du ett tal (i pixlar) som anger hur bred du vill att kolumnen ska visas i vyn.
+   För raden **width** anger du ett tal (i pixlar) som representerar hur bred du vill att kolumnen ska visas i vyn.
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.
 
 

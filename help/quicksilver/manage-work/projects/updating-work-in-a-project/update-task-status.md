@@ -75,8 +75,8 @@ Du kan uppdatera aktivitetsstatus i följande områden i Workfront:
 Så här uppdaterar du aktivitetsstatus i uppgiftshuvudet manuellt:
 
 1. Gå till en uppgift som du vill uppdatera statusen för.
-1. Klicka på **Status** i uppgiftshuvudet och välj en ny status.
-1. Dra eller dubbelklicka på bubblan under för att få en visuell indikation på att åtgärden har slutförts **Procent färdigt** i uppgiftens huvud
+1. Klicka på fältet **Status** i åtgärdshuvudet och välj en ny status.
+1. Om du vill ange en visuell indikation på att aktiviteten har slutförts drar eller dubbelklickar du på bubblan under **Procent färdigt** i uppgiftens huvud
 
    eller
 
@@ -86,12 +86,12 @@ Så här uppdaterar du aktivitetsstatus i uppgiftshuvudet manuellt:
 
 1. (Valfritt) Gör något av följande för att ange ytterligare information om uppdateringen:
 
-   * Om du vill lägga till en anteckning om uppdateringen går du till **Uppdateringar** och klicka **Ny kommentar** och skriv sedan en anteckning.
+   * Om du vill lägga till en anteckning om uppdateringen går du till avsnittet **Uppdateringar** och klickar på **Ny kommentar**. Skriv sedan en anteckning.
 
      ![](assets/add-update-to-task.png)
 
-   * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i **Tagga personer eller team** fält som visas när du skriver en kommentar. Mer information finns i [Tagga andra för uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Klicka på om du vill uppdatera aktivitetens implementeringsdatum **Uppgiftsinformation** och sedan redigera **Bekräftelsedatum** fält. Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Om du vill meddela vissa användare om uppdateringen skriver du deras namn i fältet **Tagga personer eller team** som visas när du skriver en kommentar. Mer information finns i [Tagga andra om uppdateringar](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Om du vill uppdatera aktivitetens implementeringsdatum klickar du på **Aktivitetsinformation** och redigerar sedan fältet **Verkställ datum**. Mer information finns i [Redigera uppgifter](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
@@ -144,7 +144,7 @@ Workfront uppdaterar automatiskt den befintliga statusen för en aktivitet till 
   <tr data-mc-conditions=""> 
    <td><span>Klicka på knappen Starta uppgift för att acceptera att arbeta med en uppgift som du har tilldelats</span> </td> 
    <td><span>Nytt</span> </td> 
-   <td> <p>Status som är associerad med knappen Starta uppgift i inställningarna för Hemteam.</p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Starta uppgift finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på) med en Start-knapp</a></span>.</p> <p>Tips: <span>Klicka</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">knappen Ångra</span>när du klickat på Starta uppgift återställs statusen till Ny. </p> </td> 
+   <td> <p>Status som är associerad med knappen Starta uppgift i inställningarna för Hemteam.</p> <p>Mer information om hur du ersätter knappen Arbeta på den med knappen Start Task (Start-aktivitet) finns i <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersätta knappen Work On It (Arbeta på den) med knappen Start (Start)</a></span>.</p> <p>Tips! <span>Om du klickar på </span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">Ångra-knappen</span>när du har klickat på Starta aktivitet återställs statusen till Ny. </p> </td> 
   </tr> 
  </tbody> 
 </table>

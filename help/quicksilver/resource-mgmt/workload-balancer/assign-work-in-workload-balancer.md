@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Som resurshanterare kan du använda Adobe Workfront Workload Balancer för att visa arbetsobjekt som ännu inte har tilldelats användare samt tilldela dem dessa objekt.
 
-Allmän information om belastningsutjämnaren finns i [Översikt över belastningsutjämnare](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+Allmän information om belastningsutjämnaren för arbetsbelastning finns i [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 Du kan tilldela arbetsobjekt (uppgifter och ärenden) till användare i andra områden av Workfront. Genom att använda Utjämning av arbetsbelastning kan du enkelt förstå användarnas tillgänglighet och tydligt se alla andra objekt som de är tilldelade innan du tilldelar dem mer arbete.
 
@@ -47,7 +47,7 @@ Workfront använder följande information för att beräkna användarens kapacit
 
 * Användaren är ledig. Detta anger vilka dagar som användaren planerar att starta.
 
-  Mer information finns i [Konfigurera ledig tid](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  Mer information finns i [Konfigurera personlig tid för ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Användarens arbetstid. Detta anger hur många procent av heltidstiden som användaren är tillgänglig för att utföra faktiskt projektrelaterat arbete, exklusive extrakostnader. Ange värdet 1 för Arbetstid för att ange att användaren är tillgänglig för projektrelaterat arbete och hela heltidsekvivalenten.
 
@@ -62,26 +62,26 @@ Du kan tilldela arbete i belastningsutjämnaren på följande sätt:
 
   Du kan göra avancerade uppdrag när du tilldelar objekt manuellt, en åt gången.
 
-  Mer information finns i [Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+  Mer information finns i [Tilldela arbete manuellt med hjälp av arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 * Ett objekt i taget genom att dra och släppa arbetsobjekt till den användare som ska tilldelas.
 
-  Mer information finns i [Tilldela arbete i belastningsutjämnaren genom att dra och släppa](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+  Mer information finns i [Tilldela arbete i Utjämning av arbetsbelastning genom att dra och släppa](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
 * Flera objekt i taget med alternativet Gruppera tilldelningar. Du kan definiera regler som objekten tilldelas till flera användare samtidigt.
 
-  Mer information finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Mer information finns i [Tilldela flera arbeten samtidigt med hjälp av arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Mer information om hur du frigör arbete finns i [Ta bort tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Mer information om hur du frigör arbete finns i [Ta bort tilldelning av arbete i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Uppdragsområden i Utjämning av arbetsbelastning
 
-Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 Det finns två områden i belastningsutjämnaren där du kan visa arbetsobjekt:
 
-* **Ej tilldelat arbete**: visar objekt som inte är tilldelade användare.
-* **Tilldelat arbete**: visar objekt som är tilldelade användare.
+* **Ej tilldelat arbete**: visar objekt som inte har tilldelats användare.
+* **Tilldelad arbetsuppgift**: visar objekt som har tilldelats användare.
 
 I följande tabell beskrivs vilka objekt som visas i varje område baserat på deras uppdrag:
 
@@ -100,8 +100,8 @@ I följande tabell beskrivs vilka objekt som visas i varje område baserat på d
    <td>Tilldelat arbete </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span style="font-weight: normal;">Ej tilldelad artikel</span> </td> 
-   <td><span>✔</span> </td> 
+   <td><span style="font-weight: normal;">Ej tilldelat objekt</span> </td> 
+   <td><span> ✔</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ I följande tabell beskrivs vilka objekt som visas i varje område baserat på d
   </tr> 
   <tr data-mc-conditions=""> 
    <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00">Roll</span> </td> 
-   <td><span>✔</span> </td> 
+   <td><span> ✔</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -136,17 +136,17 @@ I följande tabell beskrivs vilka objekt som visas i varje område baserat på d
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Användare och roll</p> </td> 
-   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">✔</span>*</td> 
+   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00"> ✔</span>*</td> 
    <td>✔**</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;När en arbetsuppgift tilldelas till en användare och en roll visas den endast i området Ej tilldelat arbete när rollen är primär tilldelad.
+&#42;När en arbetsuppgift tilldelas till en användare och en roll visas den endast i arbetsytan Ej tilldelad när rollen är primär tilldelad.
 
-&#42;&#42;När en arbetsuppgift tilldelas till en användare och en annan enhet visas den endast i området Tilldelad arbetsyta när användaren är primär tilldelad.
+&#42;&#42;När en arbetsuppgift tilldelas till en användare och en annan enhet visas den endast i den tilldelade arbetsytan när användaren är primär tilldelad.
 
-Mer information om Ej tilldelade och Tilldelade områden i Utjämning av arbetsbelastning finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Mer information om Ej tilldelade och tilldelade områden i Utjämning av arbetsbelastning finns i [Navigera i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Överväganden för flera tilldelningar till jobbroller, team och användare
 

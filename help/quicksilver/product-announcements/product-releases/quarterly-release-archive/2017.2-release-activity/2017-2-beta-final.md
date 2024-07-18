@@ -22,38 +22,38 @@ Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmil
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2017.2 finns på [Aktivitetsöversikt för 2017.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2017.2 finns i [Översikt över versionsaktivitet för 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-Den slutliga betaversionen 2017.2 innehåller förbättringar både för Workfront-administratörer och andra användare:
+Beta Final-utgåvan 2017.2 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer:**
 
-* [Avgör tillgängligheten för HTML5-visningsprogrammet för videokorrektur (ProofHQ och Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
+* [Avgör tillgängligheten för HTML5-visningsprogrammet (ProofHQ och Workfront)](#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront)
 * [Stöd för SHA-256-certifikat för SAML 2.0](#support-sha-256-certificates-for-saml-2-0)
-* [Type-Ahead för mappningsattribut](#type-ahead-for-mapping-attributes)
+* [Före-typ för mappningsattribut](#type-ahead-for-mapping-attributes)
 * [API-förbättring: få åtkomst till användarallokeringar](#api-enhancement-access-user-allocations)
 
 **För alla användare:**
 
 * [Resursplanering](#resource-planner)
 * [Nytt schemaläggningsområde i ett projekt (Team Builder)](#new-scheduling-area-in-a-project-team-builder)
-* [Resursschemaläggning: Visa färre objekt som standard](#resource-scheduling-show-fewer-items-by-default)
-* [Resursschemaläggning: Visa släppindikator och övertilldelning när du drar aktiviteter och ärenden](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
+* [Resursplanering: Visa färre objekt som standard](#resource-scheduling-show-fewer-items-by-default)
+* [Resursschemaläggning: Visa släppindikator och överallokering när du drar aktiviteter och problem](#resource-scheduling-display-drop-indicator-and-over-allocation-when-dragging-tasks-and-issues)
 * [Resursschemaläggning: Användarallokeringar avrundas inte längre till närmaste halvtimme](#resource-scheduling-user-allocations-are-no-longer-rounded-to-the-nearest-half-hour)
 * [Exportera användningsrapporten i formaten TSV och PDF](#export-the-utilization-report-in-tsv-and-pdf-formats)
 * [2017.2 Beta Final](#user-calendar-enhancements-in-the-my-work-area%22)
 * [2017.2 Beta Final](#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
-* [Skärmar för korrekturbeslut på arbetsytan (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
+* [Korrektur för beslut visas på arbetsytan (Workfront)](#proof-decision-displays-in-the-my-work-area-workfront)
 * [Visa korrektur för multimedia i förinställda upplösningar (ProofHQ och Workfront)](#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront)
-* [Visa URL till delsidor i kommentarer om korrektur av multimedia (ProofHQ och Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
+* [Visa URL till undersidor i kommentarer om mediekorrektur (ProofHQ och Workfront)](#view-url-to-sub-pages-in-comments-on-rich-media-proofs-proofhq-and-workfront)
 * [Skapa anpassade vyer baserade på befintliga standardvyer (ProofHQ)](#create-custom-views-based-on-existing-standard-views-proofhq)
-* [Filtrera rapportområdet (ProofHQ)](#filter-the-reporting-area-proofhq)
-* [Visa minimi- och maximivärden i rapporter (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
-* [Meddelande i appen för korrekturgodkännande](#in-app-notification-for-proof-approval)
-* [Mobilförbättringar](#mobile-improvements)
+* [Filtrera rapportområdet (Korrektur)](#filter-the-reporting-area-proofhq)
+* [Visa lägsta och högsta värden i rapporter (ProofHQ)](#display-minimum-and-maximum-values-in-reports-proofhq)
+* [Meddelande i appen för godkännande av korrektur](#in-app-notification-for-proof-approval)
+* [Mobila förbättringar](#mobile-improvements)
 * [Snedstreck har lagts till i filtersatser för fältvärden som innehåller kommatecken](#slash-added-to-filter-statements-for-field-values-that-contain-commas)
 * [Flera faktureringspriser](#multiple-billing-rates)
-* [Nytt resursbudgeterat timfält](#new-resource-budgeted-hour-field)
+* [Nytt fält för resursbudgeterad timme](#new-resource-budgeted-hour-field)
 * [Visa användarjobbroll i området Tilldelad till på informationssidan för uppgifter och problem](#show-user-job-role-in-assigned-to-area-on-the-details-page-for-tasks-and-issues)
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Nu kan du exportera användningsrapporten för ett projekt i formaten TSV och PD
 
 Före den här ändringen kunde du bara exportera användningsrapporten i XLSX-format.
 
-Mer information om hur du exporterar användningsrapporten finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Mer information om hur du exporterar användningsrapporten finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Skärmar för korrekturbeslut på arbetsytan (Workfront) {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ När du nu visar korrekturgodkännanden på fliken Mina godkännanden på arbets
 
 Före den här ändringen fanns det inget som tydde på att ett beslut redan hade fattats om beviset, och beviset fanns kvar på fliken Mina godkännanden tills du uppdaterade webbläsaren.
 
-Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) in [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Visa korrektur för multimedia i förinställda upplösningar (ProofHQ och Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -165,25 +165,25 @@ Nu kan du skapa en anpassad vy baserat på en standardvy. Alternativen Kolumner
 
 Innan den här ändringen utfördes var du tvungen att skapa en helt ny vy för att kunna skapa en anpassad vy. 
 
-Mer information finns i [Skapa en anpassad vy](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) in [Skapa och hantera anpassade vyer i Workfront Korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Mer information finns i [Skapa en anpassad vy](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md#creating) i [Skapa och hantera anpassade vyer i Workfront Proof-korrektur](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ## Filtrera rapportområdet (ProofHQ) {#filter-the-reporting-area-proofhq}
 
 Som standard innehåller data som visas på fliken Rapporter all information från ditt Korrektur-HQ-system. Nu kan du använda filter för att endast visa information som är relevant för dina behov. 
 
-Mer information finns i [Filtrera rapporter](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Kör rapporter i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Mer information finns i [Filtrera rapporter](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) i  [Kör rapporter i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Visa minimi- och maximivärden i rapporter (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Du kan nu konfigurera om lägsta och högsta värden ska visas i diagrammet när du visar rapporter.
 
-Mer information finns i [Visa rapporter](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Kör rapporter i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Mer information finns i [Visa rapporter](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) i  [Kör rapporter i Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Stöd för SHA-256-certifikat för SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
 Nu har vi stöd för Secure Hash Algorithm 256 (SHA-256) när vi konfigurerar Workfront för enkel inloggning med SAML 2.0. Före den här versionen hade vi bara stöd för SHA-1 (Secure Hash Algorithm 1).
 
-Mer information om hur du konfigurerar Workfront med SAML 2.0 finns i [Konfigurera Adobe Workfront med SAML 2.0](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
+Mer information om att konfigurera Workfront med SAML 2.0 finns i [Konfigurera Adobe Workfront med SAML 2.0](../../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
 
 ## Type-Ahead för mappningsattribut {#type-ahead-for-mapping-attributes}
 
@@ -210,9 +210,9 @@ Följande nya funktioner visas i mobilapparna, både för Android och iOS:
 * Anpassad formulärredigering från mobilappen
 * Begäranden om godkännande av korrektur i mobilappen
 
-Det kommer att finnas ett offentligt betaprogram för vissa av dessa funktioner för Android-plattformen.
+Det kommer att finnas ett offentligt betaprogram för vissa av dessa funktioner för Android.
 
-Mer information om det kommande betaprogrammet för mobilen finns i  [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248) sida.
+Mer information om det kommande betaprogrammet för mobilen finns i  Sidan [&quot;Betas&quot;](https://support.workfront.com/hc/en-us/sections/115000743248).
 
 Mer information om hur du använder mobilappen Workfront finns i .  
 
@@ -234,9 +234,9 @@ Nu kan du lägga till flera åsidosättningar av faktureringsfrekvens för samma
 
 Före den här ändringen kunde du bara åsidosätta faktureringssatsen för en jobbroll en gång, och Faktisk intäkt beräknas om för att återspegla den aktuella faktureringssatsen för alla timmar som loggats innan faktureringssatsen ändrades.
 
-Mer information om faktureringstariffer och intäkter finns i [Översikt över fakturering och intäkt](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Mer information om debitering och intäkt finns i [Översikt över fakturering och intäkt](../../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-Mer information om att åsidosätta faktureringssatser för jobbroller på projektnivå finns i [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Mer information om att åsidosätta faktureringssatser för jobbroller på projektnivå finns i [Översikt över åsidosättande av faktureringssatser för jobbroller och beräkning av intäkter för ett projekt](../../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Resursplanering {#resource-planner}
 
@@ -248,17 +248,17 @@ I den här versionen introducerar vi den första fasen av resursplaneraren, som 
 * Timavvikelse (mellan budgeterade och planerade timmar)
 * Skillnad i nettotimma (mellan tillgängliga och budgeterade timmar)
 
-Mer information om hur du använder resursplaneraren finns i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om hur du använder resursplaneraren finns i [Resursplaneringsöversikt](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Nytt resursbudgeterat timfält {#new-resource-budgeted-hour-field}
 
 Ett nytt fält har lagts till i Report Builder, som gör att du kan rapportera om resursbudgeterade timmar, som stöd för den nya planeringsfunktionen och resursplaneringen. Det här fältet visar hur många timmar en resurs har budgeterats för i ett projekt. Det här fältet är inte tillgängligt när resurser budgeteras med funktionen för äldre resursplanering.
 
-Mer information om hur du använder budgeterade timmar i resursplaneraren finns i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om hur du använder budgeterade timmar i resursplaneraren finns i [Resursplaneringsöversikt](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Meddelande i appen för korrekturgodkännande {#in-app-notification-for-proof-approval}
 
-När du har utsetts till godkännare för ett korrektur får du ett meddelande i appen om att korrekturgodkännandet väntar på ditt beslut. Meddelandet innehåller följande text: `<User name>` vill att du godkänner det här beviset&quot;. Om användarinformationen inte är tillgänglig ändras meddelandet till&quot;Detta bevis kräver ditt godkännande&quot;.
+När du har utsetts till godkännare för ett korrektur får du ett meddelande i appen om att korrekturgodkännandet väntar på ditt beslut. Meddelandet visar följande text: `<User name>` vill att du ska godkänna det här beviset&quot;. Om användarinformationen inte är tillgänglig ändras meddelandet till&quot;Detta bevis kräver ditt godkännande&quot;.
 
 Före den här förbättringen var den enda visuella indikationen på att du har utsetts till godkännare på ett korrektur en ny begäran om bevis på arbetsytan Mitt arbete.
 

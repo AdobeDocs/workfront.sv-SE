@@ -51,21 +51,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Konfigurera kort {#configure-cards}
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
-1. Expandera [!UICONTROL **Kort**].
+1. Klicka på [!UICONTROL **Konfigurera**] till höger på kortet för att öppna konfigurationspanelen.
+1. Expandera [!UICONTROL **kort**].
 
    De flesta fält och avsnitt är aktiverade som standard.
 
 1. Stäng av ett fält eller avsnitt för att inaktivera det i båda kortvyerna.
-1. Klicka på ikonen Dölj ![Dölj ikon](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt för att dölja det i den komprimerade vyn.
+1. Klicka på ikonen Dölj ![Dölj ](assets/eye-hide-icon.png) bredvid ett fält eller avsnitt om du vill dölja det i den komprimerade vyn.
 1. Om du vill visa alla fält och avsnitt i båda vyerna klickar du på [!UICONTROL **Återställ alla fält till standard**].
-1. Klicka [!UICONTROL **Dölj konfigurera**] för att stänga panelen Konfigurera.
+1. Klicka på [!UICONTROL **Dölj konfigurera**] för att stänga konfigurationspanelen.
 
 ## Lägg till anpassade fält till kort
 
@@ -73,10 +73,10 @@ Anpassade fält är tillgängliga på anslutna kort. De visas bara i helskärmsl
 
 Informationen i anpassade fält kan redigeras på kortet, men vissa anpassade element kan bara redigeras i det ursprungliga fältet och inte på kortet.
 
-1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna panelen Konfigurera.
-1. Expandera [!UICONTROL **Kort**].
-1. Under [!UICONTROL Card Fields], klicka [!UICONTROL **Lägg till anpassat fält**].
-1. Välj [!UICONTROL **Uppgift**] eller [!UICONTROL **Problem**].
+1. Gå till en anslagstavla och klicka på [!UICONTROL **Konfigurera**] för att öppna konfigurationspanelen.
+1. Expandera [!UICONTROL **kort**].
+1. Klicka på [!UICONTROL **Lägg till anpassat fält**] under [!UICONTROL Card Fields].
+1. Välj [!UICONTROL **Aktivitet**] eller [!UICONTROL **Problem**].
 
    Kategorierna för tillgängliga fält för uppgifter eller ärenden visas. Expandera en kategori om du vill visa alla fält. Du kan också söka efter ett fält.
 
@@ -87,13 +87,13 @@ Informationen i anpassade fält kan redigeras på kortet, men vissa anpassade el
    >Följande fälttyper kan inte läggas till i kort: Adobe XD, Image, PDF, Video.
 
 1. Markera fältnamnet.
-1. (Valfritt) Klicka på **[!UICONTROL Field value]** om du vill ändra det här anpassade fältet till ett annat.
+1. (Valfritt) Klicka i fältet **[!UICONTROL Field value]** om du vill ändra det här anpassade fältet till ett annat.
 1. (Valfritt) Ändra **[!UICONTROL Field label]** till det fältnamn som du vill ska visas på kort.
-1. När du är klar med ändringarna klickar du [!UICONTROL **Spara fält**].
+1. När du är klar med ändringarna klickar du på [!UICONTROL **Spara fält**].
 
-   ![Eget fältvärde och etikett](assets/save-custom-field-value-label.png)
+   ![Anpassat fältvärde och etikett](assets/save-custom-field-value-label.png)
 
-   Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera det anpassade fältet enligt stegen i [Konfigurera kort](customize-fields-on-card.md#configure-cards) ovan, redigera fältet eller ta bort det från alla kort.
+   Det anpassade fältet läggs till i listan med tillgängliga fält och aktiveras som standard. Du kan inaktivera det anpassade fältet enligt stegen i avsnittet [Konfigurera kort](customize-fields-on-card.md#configure-cards) ovan, redigera fältet eller ta bort det från alla kort.
 
 >[!NOTE]
 >
@@ -103,14 +103,14 @@ Informationen i anpassade fält kan redigeras på kortet, men vissa anpassade el
 
 Du måste aktivera en konfigurationsinställning för att kunna visa arkiverade kort på en anslagstavla.
 
-1. Gå till en anslagstavla och klicka [!UICONTROL **Konfigurera**] för att öppna panelen Konfigurera.
-1. Expandera [!UICONTROL **Kort**].
-1. Aktivera [!UICONTROL **Visa arkiverade kort direkt**].
+1. Gå till en anslagstavla och klicka på [!UICONTROL **Konfigurera**] för att öppna konfigurationspanelen.
+1. Expandera [!UICONTROL **kort**].
+1. Aktivera [!UICONTROL **Visa arkiverade kort på anslagstavlan**].
 
    Nu kan du filtrera ritytan så att alla kort som har arkiverats visas. Mer information finns i [Filtrera och söka på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-1. Klicka [!UICONTROL **Dölj konfigurera**] för att stänga panelen Konfigurera.
+1. Klicka på [!UICONTROL **Dölj konfigurera**] för att stänga konfigurationspanelen.
 
 ## Konfigurera kortutfall
 
-Information om hur du automatiskt tar bort kort från anslagstavlan efter en viss tid finns i [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Information om hur du tar bort kort automatiskt från kortet efter en viss tid finns i [Konfigurera kortutfall](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

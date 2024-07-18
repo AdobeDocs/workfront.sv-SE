@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] behörighet till [!UICONTROL Reports], [!UICONTROL Dashboards]och [!UICONTROL Calendars]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -46,23 +46,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägga till ad hoc-händelser i en kalenderrapport
 
-1. Gå till det datum du vill lägga till en ad hoc-händelse i kalendern och klicka sedan på [!UICONTROL starting] datum för din aktivitet.
+1. Gå till det datum du vill lägga till en ad hoc-händelse i kalendern och klicka sedan på datumet [!UICONTROL starting] för din händelse.
 1. Ange händelsens namn och, om så önskas, välj en färg för händelsen.
-1. (Villkorligt) Om din ad hoc-händelse inträffar under flera dagar väljer du **[!UICONTROL This will span multiple days]** väljer du sedan slutdatumet i popup-kalendern.
+1. (Villkorligt) Om din ad hoc-händelse inträffar under flera dagar väljer du **[!UICONTROL This will span multiple days]** och väljer sedan slutdatumet i popup-kalendern.
 
    ![Ad hoc-kalenderhändelse](assets/calendar-report---span-multiple-days-350x266.png)
 
 1. Klicka på **[!UICONTROL Save]**.
-1. (Valfritt) Så här ändrar du en ad hoc-händelse:
+1. (Valfritt) Ändra en ad hoc-händelse:
 
    1. Klicka på händelsen i kalendern för att öppna informationssidan för händelsen.
    1. Klicka på redigeringsikonen (pennan), redigera händelsen och klicka sedan på **[!UICONTROL Save]**.
 
-1. (Valfritt) Så här tar du bort en ad hoc-händelse:
+1. (Valfritt) Ta bort en ad hoc-händelse:
 
    1. Klicka på händelsen i kalendern för att öppna informationssidan för händelsen.
    1. Klicka på papperskorgsikonen och sedan på **[!UICONTROL Yes, Delete it]**.

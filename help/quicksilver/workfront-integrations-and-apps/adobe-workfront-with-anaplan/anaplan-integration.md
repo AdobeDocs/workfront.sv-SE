@@ -15,30 +15,30 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] med [!DNL Anaplan]
 
-Adobe [!DNL Workfront Fusion] ger möjlighet att integrera [!DNL Workfront] med [!DNL Anaplan] konto. Du kan till exempel skapa kampanjer i [!DNL Anaplan]skapar sedan en [!DNL Workfront] projekt eller program som är länkade till kampanjen. Eventuella kostnader som spåras i [!DNL Workfront] kan sedan överföras tillbaka till [!DNL Anaplan] för att granska kampanjresultat.
+Med Adobe [!DNL Workfront Fusion] kan du integrera [!DNL Workfront] med ditt [!DNL Anaplan]-konto. Du kan till exempel skapa kampanjer i [!DNL Anaplan] och sedan skapa ett [!DNL Workfront]-projekt eller -program som är länkat till kampanjen. Eventuella kostnader som spåras i [!DNL Workfront] kan sedan överföras tillbaka till [!DNL Anaplan] för att granska kampanjens resultat.
 
-För den här integreringen måste du konfigurera vissa objekt i båda [!DNL Anaplan] och Workfront. Objekten och konfigurationen beror på det specifika arbetsflödet. Sedan konfigurerar du en Workfront Fusion-mall med [!DNL Anaplan] och [!DNL Workfront] objekt och fält. [!DNL Workfront Fusion] automatiserar sedan integreringen baserat på dina konfigurationer.
+För den här integreringen måste du konfigurera vissa objekt i både [!DNL Anaplan] och Workfront. Objekten och konfigurationen beror på det specifika arbetsflödet. Sedan konfigurerar du en Workfront Fusion-mall med objekten och fälten [!DNL Anaplan] och [!DNL Workfront]. [!DNL Workfront Fusion] automatiserar sedan integreringen baserat på dina konfigurationer.
 
-## [!DNL Workfront Fusion] for [!DNL Anaplan] arbetsflöden
+## [!DNL Workfront Fusion] för [!DNL Anaplan]-arbetsflöden
 
-The [!DNL Adobe Workfront] med [!DNL Anaplan] integreringen erbjuder följande arbetsflöden:
+Integreringen [!DNL Adobe Workfront] med [!DNL Anaplan] erbjuder följande arbetsflöden:
 
 ### Arbetsflöden för utgiftsoptimering
 
-* [Skicka [!DNL Adobe Workfront] projektuppdateringar till en [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [Skicka [!DNL Adobe Workfront] utgifter för [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Skicka [!DNL Adobe Workfront] faktiskt antal timmars uppdateringar av en [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Skicka  [!DNL Adobe Workfront] projektuppdateringar till ett  [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [Skicka [!DNL Adobe Workfront] utgifter till ett [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [Skicka  [!DNL Adobe Workfront] uppdateringar av faktiska timmar till ett  [!DNL Anaplan] listobjekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
 ### Arbetsflöden för länkning av budgetbegäranden
 
-* [Skapa en [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] budgetförfrågan](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Använd en [!DNL Anaplan] budgetallokering till en [!DNL Adobe Workfront] projekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Skapa ett  [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] budgetförfrågan](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Använd en [!DNL Anaplan] budgetallokering för ett [!DNL Adobe Workfront] projekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Arbetsflöden för att länka kampanjförfrågningar
 
-* [Skapa en [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] kampanjförfrågan](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Använd en [!DNL Anaplan] budgetallokering till en [!DNL Adobe Workfront] kampanjförfrågan eller kampanjprojekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Skapa ett  [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] kampanjbegäran](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Använd en [!DNL Anaplan] budgetallokering för en [!DNL Adobe Workfront] kampanjbegäran eller ett kampanjprojekt](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
-## Adobe Workfront med [!DNL Anaplan] Vanliga frågor
+## Adobe Workfront med [!DNL Anaplan] vanliga frågor
 
-* [[!DNL Adobe] Workfront med [!DNL Anaplan] Vanliga frågor om integrering](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)
+* [[!DNL Adobe] Workfront med  [!DNL Anaplan] Vanliga frågor om integrering](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration-faq.md)

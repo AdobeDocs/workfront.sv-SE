@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,11 +56,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj **Godkännanden** i den vänstra rutan.
 
-1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på **Ta bort** icon ![](../assets/delete.png) som visas efter deras namn.
+1. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![](../assets/delete.png) som visas efter namnet.
 
    Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 
-1. (Valfritt) Om du vill nedgradera en godkännare till en granskare i stället för att ta bort dem helt avmarkerar du **Godkännare** kryssrutan i linje med deras namn.
+1. (Valfritt) Om du vill nedgradera en godkännare till en granskare i stället för att ta bort dem helt, avmarkerar du kryssrutan **Godkännare** enligt deras namn.
 
 1. Upprepa föregående steg om du vill ta bort ytterligare godkännare eller granskare.
 
@@ -72,10 +72,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj den version av dokumentet som du vill ta bort en godkännare eller granskare för i listrutan för version. Den senaste versionen väljs som standard.
 
-1. Bläddra nedåt till **Godkännanden** i rutan Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på **Ta bort** icon ![](../assets/delete.png) som visas efter deras namn.
+1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning. Håll muspekaren över namnet på den godkännare eller granskare som du vill ta bort och klicka sedan på ikonen **Ta bort** ![](../assets/delete.png) som visas efter namnet.
 
    Godkännandet eller granskningsbegäran tas bort och godkännaren får ett meddelande om att deras godkännande inte längre behövs. Deras godkännanderelaterade resursåtkomst tas också bort.
 
-1. (Valfritt) Om du vill nedgradera en godkännare till en granskare i stället för att ta bort dem helt avmarkerar du **Godkännare** kryssrutan i linje med deras namn.
+1. (Valfritt) Om du vill nedgradera en godkännare till en granskare i stället för att ta bort dem helt, avmarkerar du kryssrutan **Godkännare** enligt deras namn.
 
 1. Upprepa föregående steg om du vill ta bort ytterligare godkännare eller granskare.

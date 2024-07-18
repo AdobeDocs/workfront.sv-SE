@@ -239,7 +239,7 @@ Workfront har följande begränsningar:
 
 ## Webbklipp
 
-Du kan skapa statiska korrektur av webbsidor. Mer information finns i [Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) och [Skapa ett statiskt korrektur av en webbplats med Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Du kan skapa statiska korrektur av webbsidor. Mer information finns i [Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) och [Skapa ett statiskt korrektur för en webbplats med Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
 ## Zip-filer
 
@@ -247,7 +247,7 @@ Vi stöder inte eller extraherar filer från ZIP-filer av säkerhetsskäl. Zippa
 
 Du kan bara skicka in zip-filer om de innehåller ett helt interaktivt projekt och om ditt konto har interaktiva funktioner aktiverade (Premium-planer).
 
-Mer information finns i [Översikt över korrektur av interaktivt material](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Mer information finns i [Översikt över korrektur för interaktivt innehåll](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
 ## InDesign- och Quark-filer
 

@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2131'
+source-wordcount: '2128'
 ht-degree: 0%
 
 ---
@@ -51,16 +51,16 @@ Om du har god förståelse för databasobjekten och strukturen i Workfront kan d
 
 Så här exporterar du befintliga data från Workfront:
 
-1. Klicka **Huvudmeny > Inställningar** i det övre högra hörnet av Workfront gränssnitt.
-1. Expandera **System** till vänster och klicka sedan på **Exportera data (snabbstart)**.
+1. Klicka på **Huvudmeny > Konfigurera** i det övre högra hörnet av Workfront-gränssnittet.
+1. Expandera menyn **System** till vänster och klicka sedan på **Exportera data (snabbstart)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
-1. Välj **Anpassade data** i **Vad du ska ta med** -avsnitt.
+1. Välj **Anpassade data** i avsnittet **Vad som ska inkluderas**.
 
    ![](assets/existing-custom-data-box-checked-kick-starts.png)
 
-1. Välj **.xlsx-fil** i **Hämtningsformat** -avsnitt.
+1. Välj filen **.xlsx** i avsnittet **Hämtningsformat**.
 
    >[!TIP]
    >
@@ -68,7 +68,7 @@ Så här exporterar du befintliga data från Workfront:
 
    ![](assets/download-button-for-kick-starts.png)
 
-1. Klicka **Ladda ned**. En .xlsx-fil laddas ned till datorn. Navigera till och öppna den.
+1. Klicka på **Hämta**. En .xlsx-fil laddas ned till datorn. Navigera till och öppna den.
 
    ![](assets/existing-data-excel-parameter-sheet.png)
 
@@ -88,15 +88,15 @@ Så här exporterar du befintliga data från Workfront:
 
 När du har läst in information om befintliga anpassade fält i systemet kan du hämta en ny startmall för importen.
 
-1. Klicka **Huvudmeny > Inställningar** i det övre högra hörnet av Workfront gränssnitt.
+1. Klicka på **Huvudmeny > Konfigurera** i det övre högra hörnet av Workfront-gränssnittet.
 
-1. Expandera **System** till vänster.
+1. Expandera menyn **System** till vänster.
 
-1. Klicka **Importera data (Quick-Starts)**.
+1. Klicka på **Importera data (snabbstart)**.
 
    ![](assets/import-data-kick-starts-link-in-setup.png)
 
-1. I **Ladda ned ett tomt snabbstartskalkylblad** område väljer du **Anpassade data** kryssruta och klicka **Ladda ned**.
+1. I området **Hämta ett tomt snabbstartskalkylblad** markerar du kryssrutan **Anpassade data** och klickar på **Hämta**.
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -120,13 +120,13 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
    >[!INFO]
    >
-   >Till exempel: **Parameter** (som avser anpassat fält), **Parameteralternativ**(som hänvisar till alternativet Anpassat fält), **Kategori** (som hänvisar till Anpassat formulär).
+   >Exempel: **Parameter** (som refererar till anpassat fält), **Parameteralternativ** (som refererar till alternativet Anpassat fält), **Kategori** (som refererar till anpassat formulär).
    >
    >Du måste skriva objektens namn och attribut i det format som stöds av Workfront-databasen.
    >
-   >Information om innebörden av dessa objekt finns i [Ordlista för [!DNL Adobe Workfront] terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Mer information om innebörden av dessa objekt finns i [Ordlistan för  [!DNL Adobe Workfront] terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
    >
-   >Mer information om namnen på objekten i Workfront-databasen finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+   >Mer information om namnen på objekten i Workfront-databasen finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
@@ -142,23 +142,23 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
      >[!TIP]
      >
-     >Vissa kolumner är obligatoriska men de är inte i fet stil. Till exempel `isNew` och `ID` kolumner är inte i fet stil, men de är obligatoriska fält.
+     >Vissa kolumner är obligatoriska men de är inte i fet stil. Kolumnerna `isNew` och `ID` har till exempel inte fetstil, men de är obligatoriska fält.
 
-1. Välj `**PARAM Parameter`** blad och lägg till information om de nya anpassade fälten i följande obligatoriska kolumner:
+1. Markera bladet `**PARAM Parameter`** och lägg till information om de nya anpassade fälten i följande obligatoriska kolumner:
 
-   * **`isNew`** = enter **`TRUE`** i den här kolumnen för varje rad som representerar ett nytt anpassat fält. Detta anger att fältet är nytt och inte finns i Workfront.
+   * **`isNew`** = ange **`TRUE`** i den här kolumnen för varje rad som representerar ett nytt anpassat fält. Detta anger att fältet är nytt och inte finns i Workfront.
 
      >[!TIP]
      >
      >    Om en rad representerar ett befintligt fält som redan finns i Workfront anger du **`isNew`** = **`FALSE`**.
 
    * **`ID`** = måste vara ett unikt nummer för varje rad som representerar ett nytt fält. Du kan använda valfritt nummer som börjar med 1, förutsatt att varje nytt fält har ett unikt nummer.
-   * **`setDataType`** = för varje rad som representerar ett nytt fält anger du den datatyp som fältet stöder. Datatypen måste anges så som den skulle visas i databasen. Välj bland följande datatyper:
-      * **`NMBR`** for Number
+   * **`setDataType`** = För varje rad som representerar ett nytt fält anger du den datatyp som fältet stöder. Datatypen måste anges så som den skulle visas i databasen. Välj bland följande datatyper:
+      * **`NMBR`** för Number
       * **`CURC`** för valuta
       * **`TEXT`** för text
-   * `**setDisplaySize**`= visningsstorleken (&#39;**setDisplaySize**&#39;) för alla anpassade alternativfält är alltid 0.
-   * **`setDisplayType`** = för varje rad som representerar ett nytt fält anger du fältets visningstyp. Visningstypen måste anges som den skulle visas i databasen.
+   * `**setDisplaySize**`= Visningsstorleken (**setDisplaySize**) för anpassade fält med flera alternativ är alltid 0.
+   * **`setDisplayType`** = För varje rad som representerar ett nytt fält anger du fältets visningstyp. Visningstypen måste anges som den skulle visas i databasen.
 
      Välj bland följande alternativ för anpassade fält med flera alternativ:
 
@@ -169,70 +169,70 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
      >[!TIP]
      >
-     >Information om datatyp och visningstyp finns i [API Explorer](../../../wf-api/general/api-explorer.md), expandera **Parameter** och sök efter dessa attribut under **fält** -fliken.
+     >Information om datatyp och visningstyp finns i [API-utforskaren](../../../wf-api/general/api-explorer.md), expandera objektet **Parameter** och sök efter dessa attribut på fliken **Fält**.
 
-   * **`setName`** = ange namnet på de anpassade fälten som du vill att de ska visas i Workfront.
+   * **`setName`** = ange namnet på anpassade fält som du vill att de ska visas i Workfront.
 
      >[!INFO]
      >
-     >Vi kan till exempel importera två anpassade fält som kallas _Varumärke_, ett kryssrutefält och _Media_, ett alternativknappsfält.
+     >Vi kan till exempel importera två anpassade fält, _Varumärke_, ett kryssrutefält och _Media_, ett alternativknappsfält.
 
-   * The **`setName`** och **`setValue`** kolumner innehåller vanligtvis samma information och de bör återspegla de namn du vill ha i Workfront-gränssnittet för det nya fältet.
+   * Kolumnerna **`setName`** och **`setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet för det nya fältet.
 
    Värdet för ett fält är det namn som visas i rapporter, till exempel, medan namnet visas i de anpassade formulär som är kopplade till objekt.
 
-   Mer information finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
-1. Välj **`POPT Parameter Options`** och lägg till information om alternativen för de anpassade fälten i följande obligatoriska kolumner:
+1. Markera bladet **`POPT Parameter Options`** och lägg till information om alternativen för varje anpassat fält i följande obligatoriska kolumner:
 
-   * **`isNew`** = enter **`TRUE`** i den här kolumnen för varje rad som representerar ett nytt fältalternativ.
+   * **`isNew`** = ange **`TRUE`** i den här kolumnen för varje rad som representerar ett nytt fältalternativ.
 
      >[!TIP]
      >
      >    Om en rad representerar ett befintligt alternativ anger du **`isNew`** = **`FALSE`**.
 
    * **`ID`** = måste vara ett unikt nummer för varje rad som representerar ett nytt alternativ. Du kan använda valfritt nummer som börjar med 1, förutsatt att varje nytt alternativ har ett unikt nummer.
-   * **`setIsDefault`** = enter `TRUE` för de alternativ som du vill visa som standard, och `FALSE` för alla andra alternativ, för varje fält.  Vi vill till exempel _Nike_ som standardalternativ för _Varumärke_ och _Skriv ut_ som standardalternativ för _Media_.
+   * **`setIsDefault`** = ange `TRUE` för de alternativ som du vill visa som standard, och `FALSE` för alla andra alternativ, för varje fält.  Vi vill till exempel att _Nike_ ska vara standardalternativet för _Varumärke_ och _Skriv ut_ ska vara standardalternativet för _Media_.
 
      >[!TIP]
      >
      >Du kan bara ha ett standardalternativ för varje fält.
 
-   * **`setParameterID`** = de alternativ som motsvarar _Varumärke_ anpassat fält har **`setParameterID`** av 1, och de alternativ som motsvarar _Media_ har en **`setParameterID`**of 2. The `PARAM` och `POPT` bladen korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
-   * **`setDisplayOrder`**= kolumnen för visningsordningen anger i vilken ordning alternativen ska visas i det anpassade fältet. Du kan börja med 1 och fortsätta i stigande ordning för alla alternativ, oavsett vilka fält de tillhör. Det viktiga här är att ha unika nummer för varje alternativ.
-   * The **`setLabel`** och `**setValue`**-kolumner innehåller vanligtvis samma information och de bör återspegla de namn du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
-   * **`setIsHidden`** = enter `TRUE` om du vill att något av alternativen ska döljas.
+   * **`setParameterID`** = de alternativ som motsvarar det anpassade fältet _Varumärke_ har **`setParameterID`** 1, och de alternativ som motsvarar _Media_ har **`setParameterID`**2. `PARAM` och `POPT` blad korsrefererar varandra för att ange vilka alternativ som tillhör vilka anpassade fält.
+   * **`setDisplayOrder`**= Visningsordningskolumnen anger i vilken ordning alternativen visas i det anpassade fältet. Du kan börja med 1 och fortsätta i stigande ordning för alla alternativ, oavsett vilka fält de tillhör. Det viktiga här är att ha unika nummer för varje alternativ.
+   * Kolumnerna **`setLabel`** och `**setValue`** innehåller vanligtvis samma information och de bör återspegla de namn som du vill ha i Workfront-gränssnittet. Värdet för ett alternativ är det namn som visas i rapporter, till exempel, medan etiketten visas i de anpassade formerna när den kopplas till ett objekt. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   * **`setIsHidden`** = ange `TRUE` om du vill att något av alternativen ska vara dolt.
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
-1. (Valfritt) Om du även vill skapa ett anpassat formulär där du senare kan lägga till de nya fälten väljer du  **`CTGY Category`** och uppdatera följande obligatoriska kolumner för den anpassade formulärinformationen:
+1. (Valfritt) Om du även vill skapa ett anpassat formulär där du senare kan lägga till de nya fälten, markerar du bladet **`CTGY Category`** och uppdaterar följande obligatoriska kolumner för den anpassade formulärinformationen:
 
-   * **`isNew`** = enter **`TRUE`** i den här kolumnen för varje rad som representerar ett nytt anpassat formulär.
+   * **`isNew`** = ange **`TRUE`** i den här kolumnen för varje rad som representerar ett nytt anpassat formulär.
    * **`ID`** = ange ett unikt nummer för varje rad som representerar ett nytt formulär. Du kan använda valfritt nummer som börjar med 1, förutsatt att varje nytt alternativ eller rad har ett unikt nummer.
-   * **`setGroupID`** = lägg till grupp-ID för hemgruppen eller någon annan grupp i systemet vars medlemmar du vill ha åtkomst till det här formuläret. Detta är ett obligatoriskt fält.
+   * **`setGroupID`** = lägg till grupp-ID för din hemgrupp eller någon annan grupp i systemet vars medlemmar du vill ska ha åtkomst till det här formuläret. Detta är ett obligatoriskt fält.
 
-   Ta reda på `ID` för en grupp kan du antingen skapa en grupprapport och lägga till `ID` i Visa eller navigera till en grupp och hitta URL:en för gruppen. Grupp-ID:t finns i URL:en för gruppens sida. Om URL:en för gruppen till exempel är `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members`är grupp-ID:t `575b000800467a6f66e747932c807464`.
+   Om du vill ta reda på `ID` för en grupp kan du antingen skapa en grupprapport och lägga till fältet `ID` i vyn, eller navigera till en grupp och hitta gruppens URL. Grupp-ID:t finns i URL:en för gruppens sida. Om URL:en för gruppen till exempel är `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` är grupp-ID:t `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= det här är objektkoden för den objekttyp som du vill att formuläret ska skapas för. Ange en kod bland följande alternativ:
+   * **`setCatObjCode` **= Det här är objektkoden för den objekttyp som du vill att formuläret ska skapas för. Ange en kod bland följande alternativ:
       * **`CMPY`** för företag
-      * **`TASK`** för uppgift
+      * **`TASK`** för aktivitet
       * **`PROJ`** för projekt
       * **`PORT`** för Portfolio
-      * **`PRGM`** for Program
+      * **`PRGM`** för program
       * **`USER`** för användare
       * **`DOCU`** för dokument
       * **`OPTASK`** för ärende
       * **`EXPNS`** för utgift
-      * **`ITRN`** för Iteration
+      * **`ITRN`** för iterering
       * **`BILL`** för faktureringsposter
       * **`GROUP`** för grupp
 
      >[!NOTE]
      >
-     >För formulär med flera objekt anger du det första objektet som du skulle markera när du skapar ett formulär i användargränssnittet. Ange till exempel `setCatObjCode` till `TASK`, om du väljer Uppgift i Workfront-gränssnittet och sedan Problem, Portfolio, osv., men inte vill att formuläret ska vara tillgängligt för Projekt.
+     >För formulär med flera objekt anger du det första objektet som du skulle markera när du skapar ett formulär i användargränssnittet. Ange till exempel `setCatObjCode` till `TASK` om du vill välja Uppgift i Workfront-gränssnittet och sedan Problem, Portfolio, osv., men du inte vill att formuläret ska vara tillgängligt för Projekt.
 
    * **`setName`** = det här är namnet på det anpassade formuläret som du vill att det ska visas i Workfront-gränssnittet.
 
@@ -245,12 +245,12 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
 När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du med följande för att överföra de nya fälten och formulären till Workfront:
 
-1. Klicka **Importera data** **(Spark-Starts) **under **Huvudmeny > Inställningar > System** -menyn.
+1. Klicka på **Importera data** **(Quick-Starts) **under menyn **Huvudmeny > Inställningar > System** .
 
-1. Klicka **Välj fil** under avsnittet **Ladda upp data med QuickStart-kalkylblad**.
+1. Klicka på **Välj Arkiv** under avsnittet **Överför data med snabbstartskalkylblad**.
 
 1. Bläddra efter det Excel-kalkylblad du har förberett på datorn och markera det när du hittar det.  När filen känns igen av Workfront blir knappen Överför blå.
-1. Klicka **Överför.**
+1. Klicka på **Överför.**
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
 
@@ -265,7 +265,7 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
    >De nya formulären och fälten som du importerade är ännu inte sammankopplade. Formuläret importeras utan anpassade fält. Du måste lägga till fälten manuellt i det nya anpassade formuläret eller i ett annat befintligt anpassat formulär.
 
 
-   Mer information om hur du lägger till fält i anpassade formulär finns i [Lägga till ett anpassat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+   Mer information om hur du lägger till fält i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Villkorligt) Om importen inte lyckades får du ett felmeddelande om vad problemet är. Försök att identifiera fältet, bladet och radnumret som problemet påträffades i och korrigera informationen i Excel-filen. Försök sedan importera filen en gång till.
 
@@ -275,4 +275,4 @@ När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du me
 
    * Ta bort den information som har importerats från Workfront från området Anpassad Forms och korrigera sedan felmeddelandet.
    * Ange att ett fält eller ett formulär redan finns i systemet för de fält eller formulär som redan har importerats och korrigera sedan.
-Om du vill ange att ett fält eller ett anpassat formulär redan finns i Workfront måste du se till att `inNew` fältet är markerat som `FALSE` i blad som innehåller information om formuläret (`CTGY`) eller fältet (`PARAM`) på importbladet.
+Om du vill ange att ett fält eller ett anpassat formulär redan finns i Workfront måste du se till att fältet `inNew` är markerat som `FALSE` i blad som innehåller information om formuläret (`CTGY`) eller fältet (`PARAM`) på importbladet för att komma igång.

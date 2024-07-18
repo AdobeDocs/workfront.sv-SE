@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
 source-git-commit: 1d5de5ff0ebebd84482507c71730cfbd05c513a5
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '622'
 ht-degree: 0%
 
 ---
@@ -26,13 +26,13 @@ Tänk på följande när du granskar värdena för BCWP för en uppgift eller et
 
 * Workfront beräknar BCWP för en uppgift baserat på din konfiguration för projektets PMI (Performance Index Method).
 
-   Du kan konfigurera projektet för att beräkna PMI med timmar eller kostnad och BCWP beräknas även med samma värden.
+  Du kan konfigurera projektet för att beräkna PMI med timmar eller kostnad och BCWP beräknas även med samma värden.
 
-   Information om hur du konfigurerar hur BCWP beräknas finns i avsnittet [Konfigurera hur BCWP beräknas](#configure-how-bcwp-is-calculated) i den här artikeln.
+  Information om hur du konfigurerar hur BCWP beräknas finns i avsnittet [Konfigurera hur BCWP beräknas](#configure-how-bcwp-is-calculated) i den här artikeln.
 
 * Workfront beräknar BCWP för ett projekt genom att lägga till alla BCWP-värden från alla överordnade och enskilda uppgifter i projektet.
 
-   Värdena från underordnade uppgifter läggs inte till i projektets BCWP.
+  Värdena från underordnade uppgifter läggs inte till i projektets BCWP.
 
 ## Åtkomstkrav
 
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan konfigurera om BCWP ska beräknas i timmar eller kostnader genom att konfigurera hur PIM (Performance Index Method) för projektet ska beräknas.
 
 1. Gå till ett projekt och expandera **Projektinformation** i den vänstra panelen.
-1. I **Ekonomi** område, leta reda på **Resultatindexmetod** och dubbelklicka för att redigera det.
+1. I området **Ekonomi** letar du reda på fältet **Resultatindexmetod** och dubbelklickar för att redigera det.
 
    ![](assets/pim-options-hour-cost-based-nwe.png)
 
@@ -79,9 +79,9 @@ Du kan konfigurera om BCWP ska beräknas i timmar eller kostnader genom att konf
    | Timbaserad | Workfront beräknar BCWP med hjälp av aktiviteternas planerade timmar. |
    | Kostnadsbaserad | Workfront beräknar BCWP med hjälp av uppgiftens planerade kostnad. |
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
-BCWP för projektets uppgifter beräknas utifrån timmar eller kostnader.
+BCWP för projektets uppgifter beräknas med hjälp av timmar eller kostnader.
 
 ## Beräkna BCWP
 
@@ -113,12 +113,12 @@ BCWP = 25% x $10,000 = $2,500
 Du kan visa värdet för Budgeterad kostnad för arbete som utförts i en rapport eller lista genom att lägga till BCWP-kolumnen i vyn.
 
 1. Gå till en lista med uppgifter eller projekt.
-1. Expandera **Visa** meny och välj **Ny vy** eller **Anpassa vy**.
+1. Expandera menyn **Visa** och välj **Ny vy** eller **Anpassa vy**.
 
-1. Klicka **Lägg till kolumn**.
-1. I **Visa i den här kolumnen:** fältstart skriva **BCWP** och klicka för att markera den när den visas i listan.
+1. Klicka på **Lägg till kolumn**.
+1. I **Visa i den här kolumnen:** börjar du skriva **BCWP** och klickar för att markera fältet när det visas i listan.
 
    ![](assets/bcwp-project-view.png)
 
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.
 1. BCWP-fältet visas i vyn.

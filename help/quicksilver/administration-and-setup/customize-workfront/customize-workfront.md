@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Anpassade varumärken i Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
+* [Anpassad profilering i Adobe Workfront](../../administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
 * [Layoutmallar](../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md)
 * [Anpassade formulär: artikelindex](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
 * [Status och prioritetsetiketter](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
-* [Godkännandeprocesser och milstolpar](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
+* [Godkännandeprocesser och milstolpesökvägar](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/config-approval-milestone-paths.md)
 * [Anpassade villkor](../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)

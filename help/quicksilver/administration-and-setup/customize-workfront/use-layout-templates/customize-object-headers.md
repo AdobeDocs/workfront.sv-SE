@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront</strong>
+   <td><strong>Adobe Workfront-plan</strong>
    </td>
    <td>Alla
    </td>
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td><strong>Konfigurationer på åtkomstnivå</strong>
+   <td><strong>Åtkomstnivåkonfigurationer</strong>
    </td>
    <td>Du måste vara Workfront eller gruppadministratör.
 <p>
@@ -58,21 +58,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 </table>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Anpassa objektrubriker
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. I **Anpassa det användarna ser** nedrullningsbar meny, välja **Projekt**, **Uppgifter**, eller **Problem**.
+1. Välj **Projekt**, **Åtgärder** eller **Problem** i den nedrullningsbara menyn **Anpassa vad användare ser**.
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 
-1. I [!UICONTROL Header fields] för du muspekaren över de fält som visas och gör något av följande:
-   * Klicka på **x** ikon för att ta bort ett fält
+1. I avsnittet [!UICONTROL Header fields] för du musen över de fält som visas och gör något av följande:
+   * Klicka på ikonen **x** för att ta bort ett fält
 
      eller
 
-   * Klicka och håll ned **ta** för att dra och släppa fältet på en ny plats.
+   * Klicka på och håll ned ikonen **gripna** för att dra och släppa fältet på en ny plats.
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
@@ -80,7 +80,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 1. Du kan ha upp till fem fält i ett objekts sidhuvud.
 Om du redan har markerat fem fält måste du ta bort ett fält innan du kan lägga till ett nytt.
-1. I **Lägg till fält** börjar du skriva namnet på ett icke-redigerbart Workfront-fält som du vill lägga till och markerar det sedan när det visas i listan. Fältet läggs till i det högra hörnet av rutan Lägg till och visas som det första fältet i det övre vänstra hörnet av objektets rubrik.
+1. I rutan **Lägg till fält** börjar du skriva namnet på ett icke-redigerbart Workfront-fält som du vill lägga till och markerar det när det visas i listan. Fältet läggs till i det högra hörnet av rutan Lägg till och visas som det första fältet i det övre vänstra hörnet av objektets rubrik.
 
    >[!TIP]
    >
@@ -100,7 +100,7 @@ Om du redan har markerat fem fält måste du ta bort ett fält innan du kan läg
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara**.
+   Klicka på **Spara** om du är klar med anpassningen.
 
    >[!TIP]
    >

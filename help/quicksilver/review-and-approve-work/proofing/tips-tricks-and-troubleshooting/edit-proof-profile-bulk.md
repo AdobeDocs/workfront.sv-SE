@@ -26,11 +26,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Behörighetsprofil för bevis </td> 
@@ -43,22 +43,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Redigera fältet Korrekturbehörighetsprofil i flera
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 
-1. Sortera användarna efter **Åtkomstnivå**. Vi rekommenderar batchredigering på åtkomstnivå för att säkerställa att **Behörighetsprofil för bevis** visas.
+1. Sortera dina användare efter **åtkomstnivå**. Vi rekommenderar gruppredigering via åtkomstnivå för att se till att fältet **Korrekturbehörighetsprofil** visas.
 
 1. Klicka i kryssrutan bredvid de användare som du vill välja inom samma åtkomstnivå. Fältet Korrekturbehörighetsprofil är bara tillgängligt för arbetaråtkomstnivåer och högre.
-1. Klicka **Redigera** högst upp i listan.
-1. I **Åtkomst** -avsnittet finns i **Behörighetsprofil för bevis** och gör ditt val.
+1. Klicka på **Redigera** överst i listan.
+1. I avsnittet **Åtkomst** hittar du listrutan **Behörighetsprofil** och gör ditt val.
 
    >[!NOTE]
    >
-   >Beroende på din Workfront-plan kan du behöva aktivera **Användaren kan skapa korrektur** kryssruta för **Behörighetsprofil för bevis** meny som visas.
+   >Beroende på din Workfront-plan kan du behöva aktivera kryssrutan **Användare kan generera korrektur** för att menyn **Korrekturprofil** ska kunna visas.
 
    ![](assets/proof-permission-profile-350x203.png)
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

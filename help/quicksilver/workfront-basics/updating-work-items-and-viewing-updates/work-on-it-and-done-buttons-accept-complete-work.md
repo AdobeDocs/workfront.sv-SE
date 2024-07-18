@@ -31,9 +31,9 @@ Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan 
 
   >[!TIP]
   >
-  >Du kan ersätta knappen Arbeta med knappen Start. Mer information om hur du ersätter knappen Arbeta med knappen Start finns i  [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >Du kan ersätta knappen Arbeta med knappen Start. Mer information om hur du ersätter knappen Arbeta på den med knappen Start finns i [Ersätta knappen Arbeta på den med knappen Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* När du har klickat på Work On It accept ändras knappen till Mark as Done (Markera som färdig) eller Done (Klar) beroende på var i Workfront du öppnar uppgiften eller problemet. Mer information om var du kan komma åt knappen Arbeta på det finns i avsnittet [Leta reda på knappen Arbeta på och Klart](#locate-the-work-on-it-and-done-button) i den här artikeln.
+* När du har klickat på Work On It accept ändras knappen till Mark as Done (Markera som färdig) eller Done (Klar) beroende på var i Workfront du öppnar uppgiften eller problemet. Mer information om var du kan komma åt knappen Arbeta på den finns i avsnittet [Hitta knappen Arbeta på det och Klar](#locate-the-work-on-it-and-done-button) i den här artikeln.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
@@ -47,22 +47,22 @@ Du kan hitta knappen Arbeta med och Klar i följande områden i Workfront:
 
 * Hem-delen, både i Arbetslistan eller på informationspanelen
 
-  Mer information om hur du markerar ett objekt som färdigt i hemområdet finns i [Markera ett objekt som färdigt i hemområdet](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
+  Mer information om hur du markerar ett objekt som Klar i hemområdet finns i [Markera ett objekt som Klar i hemområdet](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md).
 
 * I huvudet på uppgiften eller utgåvan
 
-  Mer information om objektrubriker finns i [Nya objektrubriker](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+  Mer information om objektrubrikerna finns i [Nya objektrubriker](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
 * På aktivitets- eller ärendesammanfattningspanelen i en lista eller i arbetsbelastningsutjämnaren
 
-  Mer information om hur du använder panelen Sammanfattning finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+  Mer information om hur du använder panelen Sammanfattning finns i [Översikt över sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Översikt över fält som uppdateras automatiskt när du klickar på knappen Arbeta på och Klar
 
 Fördelen med att använda knapparna Work On It (Arbeta på) och Done (Klar) är att du kan låta Workfront automatiskt uppdatera information om arbetsuppgiften som du har tilldelats.
 
 * [Knappen Arbeta på den](#work-on-it-button)
-* [Knappen Start](#start-button)
+* [Startknapp](#start-button)
 * [Knappen Klar](#the-done-button)
 
 ### Knappen Arbeta på den {#work-on-it-button}
@@ -73,7 +73,7 @@ När du klickar på Arbeta på det uppdateras även följande objekt:
 
   >[!TIP]
   >
-  >Fältet Tilldelningsstatus visas bara i rapporter och listor. Mer information om fältet Tilldelningsstatus finns i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  >Fältet Tilldelningsstatus visas bara i rapporter och listor. Mer information om fältet Tilldelningsstatus finns i [Ordlistan för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * Bekräftelsedatum
 
@@ -81,7 +81,7 @@ När du klickar på Arbeta på det uppdateras även följande objekt:
 
 ### Knappen Start {#start-button}
 
-Om du har tillgång till redigeringsteam kan du ersätta knappen Arbeta med knappen Start för ett team. När användare med det teamet som hemteam klickar på knappen Start för objekt som de har tilldelats, uppdateras ytterligare fält på deras arbetsobjekt automatiskt. Mer information om hur du ersätter knappen Arbeta med knappen Start finns i [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Om du har tillgång till redigeringsteam kan du ersätta knappen Arbeta med knappen Start för ett team. När användare med det teamet som hemteam klickar på knappen Start för objekt som de har tilldelats, uppdateras ytterligare fält på deras arbetsobjekt automatiskt. Mer information om hur du ersätter knappen Arbeta på den med knappen Start finns i [Ersätt knappen Arbeta på den med knappen Start](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 Förutom de fält som uppdateras när du klickar på knappen Work On It (Arbeta på det) uppdateras följande fält automatiskt för en uppgift eller ett problem när du klickar på Start:
 

@@ -2,13 +2,13 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: Spara ett projekt som en mall
-description: Spara ett projekt som en mallSpara som mall på projektnivå, så att användarna ser det i användargränssnittet, det finns en annan artikel som den här länken länkar till som är mer ingående (steg för steg). Den här funktionaliteten måste finnas kvar i både projekt OCH mallområden.)"
+description: Spara ett projekt som en mallSpara som mall på projektnivå, så att användarna ser det i användargränssnittet. Det finns en annan artikel där den här länken är mer detaljerad (steg för steg). Den här funktionaliteten måste finnas kvar i både projekt OCH mallområden.)"
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till mallar</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -85,7 +85,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Spara ett projekt som en mall
 
 1. Gå till det projekt som du vill spara som en mall.
-1. Klicka på **Mer** meny ![](assets/qs-more-icon-on-an-object.png)sedan **Spara som mall**.
+1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Spara som mall**.
 1. Ange följande information för mallen:
 
    <table style="table-layout:auto"> 
@@ -110,25 +110,25 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
      </tr> 
      <tr> 
       <td role="rowheader">Anpassad Forms</td> 
-      <td>Använd listrutan för att välja anpassade formulär som ska bifogas mallen. Om några anpassade formulär redan har associerats med projektet visas alla datafält från dessa anpassade formulär.<br>Du kan inkludera upp till 10 anpassade formulär i en och samma mall.</td> 
+      <td>Använd listrutan för att välja anpassade formulär som ska bifogas mallen. Om några anpassade formulär redan har associerats med projektet visas alla datafält från dessa anpassade formulär.<br>Du kan inkludera upp till 10 anpassade formulär i en enda mall.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Hantera Forms** för att ta bort eller ordna om formulären. Mer information om hur du tar bort och ändrar ordning på anpassade formulär i mallen finns i [Egna formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klicka på **Hantera Forms** om du vill ta bort eller ordna om formulären. Mer information om hur du tar bort och ändrar ordning på anpassade formulär i mallen finns i [Anpassade formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. Klicka **Nästa steg.**
-1. I **Alternativ** markerar du kryssrutan bredvid information som du vill ta bort från mallen.
+1. Klicka på **Nästa steg.**
+1. I avsnittet **Alternativ** markerar du kryssrutan bredvid eventuell information som du vill ta bort från mallen.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. Klicka **Nästa steg.**
-1. I **Exkludera** väljer du de uppgifter som du vill utesluta från projektet.
+1. Klicka på **Nästa steg.**
+1. I avsnittet **Uteslut** väljer du de uppgifter du vill utesluta från projektet.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klicka **Slutför och spara mall.**
+1. Klicka på **Slutför och spara mall.**
 
    Mallen visas nu i listan med tillgängliga mallar och kan antingen bifogas till ett befintligt projekt eller användas för att skapa ett nytt.

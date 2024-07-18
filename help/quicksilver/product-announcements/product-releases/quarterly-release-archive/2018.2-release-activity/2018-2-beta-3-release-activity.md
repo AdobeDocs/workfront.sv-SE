@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 3 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 3-versionen. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 19 april 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i version 2018.2 av Beta 3. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 19 april 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2018.2 Beta 3 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 3-versionen. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 19 april 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i version 2018.2 av Beta 3. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 19 april 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för 2018.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Beta 3-versionen från 2018.2 innehåller följande förbättringar:
+2018.2 Beta 3 innehåller följande förbättringar:
 
 * [Hantera licenser i ditt system](#manage-licenses-in-your-system)
 * [Ange flaggor för artiklar på Kanban-styrelsen](#set-flags-for-stories-on-the-kanban-board)
@@ -37,7 +37,7 @@ Vi har skapat en ny licenssida för Workfront-administratörer där de kan visa 
 
 Före den här ändringen kunde Workfront-administratörer bara visa antalet licenser i licensavsnittet på sidan Kundinformation.
 
-Mer information finns i [Hantera tillgängliga licenser i ditt system](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+Mer information finns i [Hantera tillgängliga licenser i systemet](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
 ## Ange flaggor för artiklar på Kanban-styrelsen {#set-flags-for-stories-on-the-kanban-board}
 

@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Arkivera moduler
-description: I en [!DNL Adobe Workfront Fusion] kan du ansluta ett arkiv, t.ex. en zippad fil, till flera tredjepartsprogram och -tjänster. Du kan till exempel konfigurera ett scenario som
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du ansluta ett arkiv, till exempel en zippad fil, till flera tredjepartsprogram och -tjänster. Du kan till exempel konfigurera ett scenario som
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # [!UICONTROL Archive] moduler
 
-I en [!DNL Adobe Workfront Fusion] kan du använda ett arkiv, t.ex. en zippad fil, i ditt scenario, så att du kan använda det i dina automatiseringar eller integreringar.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du använda ett arkiv, t.ex. en zippad fil, i ditt scenario, så att du kan använda det i dina automatiseringar eller integreringar.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Mer information om moduler finns i [Moduler i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## [!UICONTROL Archive] moduler och deras fält
+## [!UICONTROL Archive]-moduler och deras fält
 
-När du konfigurerar [!UICONTROL Archive] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!UICONTROL Archive] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!UICONTROL Archive] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!UICONTROL Archive] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -36,7 +36,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ## [!UICONTROL Extract an archive]
 
-Den här åtgärdsmodulen extraherar en fil som du identifierar från ett arkiv.
+Denna åtgärdsmodul extraherar en fil som du identifierar från ett arkiv.
 
 Modulen returnerar filens ID och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -46,20 +46,20 @@ Modulen returnerar filens ID och eventuella associerade fält, tillsammans med e
  <tbody> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
-   <td> <p> Markera den fil som du vill extrahera. Den här filen kan mappas från en tidigare modul (till exempel [!DNL Workfront] &gt;[!UICONTROL Download a document] modul).</p>  </td> 
+   <td> <p> Markera den fil som du vill extrahera. Den här filen kan mappas från en tidigare modul (till exempel modulen [!DNL Workfront] &gt;[!UICONTROL Download a document]).</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**Exempel:** Hämta ZIP-filen från den definierade [!DNL Dropbox] mapp (till exempel Arkiv), extrahera den med [!UICONTROL Archive] och skicka extraherade filer till den önskade e-postadressen som bilagor med [!UICONTROL Email] eller [!DNL Gmail] -modul.
+>**Exempel:** Hämta ZIP-filen från den definierade [!DNL Dropbox]-mappen (till exempel Arkiv), extrahera den med modulen [!UICONTROL Archive] och skicka extraherade filer till den önskade e-postadressen som bilagor med modulen [!UICONTROL Email] eller [!DNL Gmail].
 >
 >![](assets/example-dropbox-350x134.png)
 
 ## [!UICONTROL Create an archive]
 
-Den här aggregeringsmodulen lägger till önskade filer i en [!UICONTROL ZIP] eller [!UICONTROL TAR] arkiv.
+Den här aggregeringsmodulen lägger till önskade filer i ett [!UICONTROL ZIP]- eller [!UICONTROL TAR]-arkiv.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -73,7 +73,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Type] </td> 
-   <td> <p>Välj om du vill lägga till filer i en [!UICONTROL ZIP] arkiv eller [!UICONTROL TAR] arkiv.</p> </td> 
+   <td> <p>Välj om du vill lägga till filer i ett [!UICONTROL ZIP]-arkiv eller ett [!UICONTROL TAR]-arkiv.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comment]</td> 
@@ -100,7 +100,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 >[!INFO]
 >
->**Exempel:** Titta på inkommande e-post med [!DNL Gmail] >[!UICONTROL Watch emails] -modul. Om ett e-postmeddelande tas emot itereras dess bilagor in i enskilda paket och arkiveras sedan i [!DNL ZIP] och sparas i den angivna Dropbox-mappen.
+>**Exempel:** Titta på inkommande e-post med modulen [!DNL Gmail] >[!UICONTROL Watch emails]. Om ett e-postmeddelande tas emot itereras dess bilagor in i enskilda paket, arkiveras sedan i filen [!DNL ZIP] och sparas i den angivna Dropbox-mappen.
 >
 >![](assets/example-gmail-350x102.png)
 
@@ -129,7 +129,7 @@ Den här transformatormodulen komprimerar binära data med en deflationsalgoritm
  <tbody> 
   <tr> 
    <td>[!UICONTROL Data] </td> 
-   <td> <p>Ange eller mappa de data som du vill komprimera med dekomprimeringsfunktionen.</p> </td> 
+   <td> <p>Ange eller mappa de data som du vill komprimera med hjälp av deflate-funktionen.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -17,10 +17,10 @@ ht-degree: 0%
 
 Adobe Workfront DAM DAM är ett DAM-system (Digital Asset Management) i Workfront som gör att du kan lagra, ordna, söka, hämta och dela digitala filer.
 
-Du kan få supportdokumentation för Workfront DAM på följande platser:
+Du kan få supportdokumentation för Workfront DAM  på följande platser:
 
 * Om du använder det fristående Workfront DAM-programmet (utanför Workfront huvudprogram) finns mer information i  [damsuccess.com](https://www.damsuccess.com).
-* Om du använder Workfront DAM-funktionaliteten i huvudprogrammet i Workfront går du till [ADOBE WORKFRONT DAM i ADOBE WORKFRONT](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
+* Om du använder Workfront DAM-funktioner i huvudprogrammet för Workfront går du till [Adobe Workfront DAM i Adobe Workfront](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 
   >[!NOTE]
   >

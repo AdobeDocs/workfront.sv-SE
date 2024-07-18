@@ -152,7 +152,7 @@ Version 2019.3 innehåller följande förbättringar:
 
   För att göra Workfront mobilapp säkrare för dig och ditt företag loggas användare ut automatiskt efter 8 minuters inaktivitet.
 
-* [Filtrera efter avancerade projekt i mobilappen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrera efter avancerade projekt i mobilappen](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
+* [Filtrera efter hanterade projekt i mobilappen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-integration-mobile-enhancements.md#filter) [Filtrera efter hanterade projekt i mobilappen](https://experience.workfront.com/s/article/2019-3-Integration-and-mobile-enhancements-1150184880)
 
   Vi har lagt till döda projekt som ett filteralternativ på fliken Projekt i mobilappen.
 
@@ -357,7 +357,7 @@ Mer information om underhållsuppdateringar som gjordes i version 2019.3 finns i
 
 ## Meddelanden
 
-* [Betaversionen av nya Workfront Experience finns nu i Preview](#the-new-workfront-experience-beta-now-available-in-preview)
+* [Den nya betaversionen av Workfront Experience är nu tillgänglig i Preview](#the-new-workfront-experience-beta-now-available-in-preview)
 * [Workfront Library är nu tillgängligt](#workfront-library-now-available)
 * [API-version 3 stöds inte längre](#api-version-3-no-longer-supported)
 * [Stöd för TLS 1.0 och 1.1 upphör](#tls-1-0-and-1-1-support-is-ending)
@@ -375,7 +375,7 @@ Workfront Library är ett digitalt innehållsnav för företag som du kan använ
 
 ### API-version 3 stöds inte längre {#api-version-3-no-longer-supported}
 
-Stöd för API-version 3 upphörde i november 2018. Mer information om supportschemat för olika versioner av Workfront API finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md)
+Stöd för API-version 3 upphörde i november 2018. Mer information om supportschemat för versioner av Workfront API finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -419,7 +419,7 @@ Följande SSO-alternativ (Single Sign-On) stöds nu endast i begränsad kapacite
 
 * LDAP
 
-  Mer information om hur du använder LDAP med Workfront finns i [Konfigurera Adobe Workfront med LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+  Mer information om LDAP med Workfront finns i [Konfigurera Adobe Workfront med LDAP](../../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">
@@ -467,4 +467,4 @@ Nedan visas borttagningstidslinjen för dessa SSO-alternativ:
 
 ### Q3 Product Roadmap Webinar {#q3-product-roadmap-webinar}
 
-Läs mer om vad som kommer att hända under [Q3 Roadmap webbinar](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) 1 augusti kl. 9.00. MST.
+Läs mer om vad som kommer att hända under [Q3 Roadmap-webbinariet](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=Product&amp;eventid=2040896&amp;sessionid=1&amp;key=EFBB434E2FDF446E010DA62D1C27E9E5&amp;regTag=&amp;sourcepage=register) den 1 augusti kl. 9:00. MST.

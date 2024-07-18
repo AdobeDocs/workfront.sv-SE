@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Så snart som möjligt'
-description: Så snart som möjligt är en aktivitetsbegränsning som placerar starttiden för aktiviteten så nära början som möjligt.
+title: 'Aktivitetsbegränsningsöversikt: Så snart som möjligt'
+description: Så snart som möjligt är en aktivitetsbegränsning som placerar starttiden för aktiviteten så nära början som möjligt av projektet.
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Översikt över uppgiftsbegränsning: Så snart som möjligt
 
-Så snart som möjligt är en aktivitetsbegränsning som placerar starttiden för aktiviteten så nära början som möjligt.
+Så snart som möjligt är en aktivitetsbegränsning som placerar starttiden för aktiviteten så nära början som möjligt av projektet.
 
 ## Att tänka på när du använder villkoret Så snart som möjligt
 
@@ -24,9 +24,9 @@ Så snart som möjligt är en aktivitetsbegränsning som placerar starttiden fö
 
 * Om ett projekt använder schemaläggningsläget Schemalägg från startdatum och om systemets eller gruppens standardstartdatum för en ny uppgift är inställt på I, är standardaktivitetsbegränsningen Start No Earlier Than.
 
-   Mer information om var du ska ange standardbegränsning för en ny uppgift finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information om var du ska ange standardbegränsning för en ny uppgift finns i [Konfigurera systemomfattande uppgifter och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,12 +54,12 @@ Begränsningen Tidigaste tillgängliga tid skiljer sig från villkoret Så snart
 * Aktiviteter i projektet har en föregående relation.
 * Föregående aktivitet har en flexibel aktivitetsbegränsning.
 
-I denna situation:
+I den här situationen:
 
-* **Tidigaste tillgängliga tid:** Om du använder villkoret Tidigast tillgängliga tid för efterföljande aktivitet prioriteras föregående åtgärds flexibla begränsning.
+* **Tidigaste tillgängliga tid:** Om du använder den tidigaste tillgängliga tidsbegränsningen för efterföljande aktivitet prioriteras föregående åtgärds flexibla begränsning.
 
-   Anta till exempel att Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har den tidigaste tillgängliga tidsbegränsningen och aktivitet A har begränsningen As Late As Possible. I sådana fall är uppgiften schemalagd så nära att projektet har slutförts som möjligt.
+  Anta t.ex. att Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har tidsbegränsningen Tidigast tillgänglig och Aktivitet A har villkoret SENT som möjligt. I sådana fall är uppgiften schemalagd så nära att projektet har slutförts som möjligt.
 
-* **Så snart som möjligt:** I det här fallet ges prioriteten till efterföljande uppgift om du använder villkoret Så snart som möjligt för efterföljande uppgift.
+* **Så snart som möjligt:** I det här scenariot ger begränsningen Så snart som möjligt för efterföljande aktivitet prioriteten för efterföljande aktivitet.
 
-   Anta till exempel att Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har begränsningen As Son As Possible och aktivitet A har begränsningen As Late As Possible. I så fall är aktiviteten schemalagd så nära början som möjligt av projektet.
+  Anta till exempel att Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har begränsningen Så snart som möjligt och Aktivitet A har begränsningen Så sent som möjligt. I så fall är aktiviteten schemalagd så nära början som möjligt av projektet.

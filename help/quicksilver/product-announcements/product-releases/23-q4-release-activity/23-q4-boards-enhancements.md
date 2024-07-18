@@ -16,9 +16,9 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla förbättringar av anslagstavlor som gjorts i den fjärde utgåvan av kvartal 2023 i förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.10.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns i [Översikt över utgåvan fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-Mer information om hur du väljer att använda nya funktioner i Boards före kvartalsversionen finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Mer information om hur du väljer att använda nya funktioner i Boards före kvartalsversionen finns i [Tidig anmälan för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Underuppgifter finns nu på Adobe Workfront Boards
 
@@ -28,7 +28,7 @@ Genom att använda underuppgifter på kort kan du skapa en arbetshierarki.
 
 För närvarande visas inte underuppgifter på anslagstavlan som separata kort, och underuppgifter är inte tillgängliga i frågor.
 
-Mer information finns i [Hantera underaktiviteter på anslagstavlor](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
+Mer information finns i [Hantera underaktiviteter på ritytor](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
@@ -38,7 +38,7 @@ Nu kan du bifoga dokument på anslutna kort på Adobe Workfront Boards. Alla dok
 
 För närvarande kan du inte ta bort dokument från kortet, men du kan ta bort ett dokument från fliken Dokument för uppgiften eller problemet.
 
-Mer information finns i [Lägg till dokument på kort](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
+Mer information finns i [Lägga till dokument på kort](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
@@ -60,7 +60,7 @@ För anslutna kort på Adobe Workfront Boards kan du nu visa dokument som bilder
 
 För att ett dokument ska vara tillgängligt på det anslutna kortet måste det nu överföras till Workfront-aktiviteten.
 
-Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Styrelsevy för ett projekt som nu är tillgängligt för frågor
 

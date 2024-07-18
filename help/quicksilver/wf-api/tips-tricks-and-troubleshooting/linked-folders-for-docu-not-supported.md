@@ -16,4 +16,4 @@ ht-degree: 0%
 
 # API:t för att lägga till en länkad mapp stöds inte
 
-Det går inte att lägga till en länkad mapp i mapparrayen för ett Document-objekt (DOCU) med API:t. Begäran kommer att slutföras, men dokumentet kan tas bort från systemet av vissa externa leverantörer. Detta beror på att det externa systemet kommer att användas som den sista källan till sanning. Om dokumentet tas bort från den externa providern anses därför dokumentet inte längre finnas. Alla dokument som inte hittas i den länkade (externa) mappen kan tas bort automatiskt från [!DNL Workfront] utan möjlighet att återhämta dem.
+Det går inte att lägga till en länkad mapp i mapparrayen för ett Document-objekt (DOCU) med API:t. Begäran kommer att slutföras, men dokumentet kan tas bort från systemet av vissa externa leverantörer. Detta beror på att det externa systemet kommer att användas som den sista källan till sanning. Om dokumentet tas bort från den externa providern anses därför dokumentet inte längre finnas. Alla dokument som inte hittas i den länkade (externa) mappen kan tas bort automatiskt från [!DNL Workfront] utan att de kan återställas.

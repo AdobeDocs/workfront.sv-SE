@@ -47,7 +47,7 @@ I följande tabell visas varje begränsning och dess förkortning. Förkortninga
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Översikt över uppgiftsbegränsning: Så snart som möjligt</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Så snart som möjligt</a> </p> </td> 
    <td scope="col"> <p>ASAP</p> </td>
    <td scope="col"> <p>Placerar starttiden för aktiviteten så nära början som möjligt.</p> 
    <p>Det är standardvillkoret om schemaläge från startdatum används i projektet och om systemets standardstartdatum för en ny uppgift anges till Baserat på projektplanerat datum. </p>
@@ -61,50 +61,50 @@ I följande tabell visas varje begränsning och dess förkortning. Förkortninga
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Översikt över uppgiftsbegränsning: Tidigast tillgänglig tid</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Tidigast tillgänglig tid</a> </p> </td> 
    <td scope="col"> <p>ÄT</p> </td> 
  <td scope="col"> <p>Schemalägger en aktivitet att börja så snart som möjligt efter att eventuella föregående relationer har beaktats.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Översikt över uppgiftsbegränsning: Senaste tillgängliga tid</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Senaste tillgängliga tid</a> </p> </td> 
    <td scope="col"> <p>LAT</p> </td> 
    <td scope="col"> <p>Schemalägger en uppgift att börja senast tillgängliga efter att ha övervägt relationer mellan föregående och efterföljande i projektet.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Starta tidigast</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Starta tidigast </a> </p> </td> 
    <td scope="col"> <p>SNET</p> </td> 
    <td scope="col"> <p>Schemalägger en aktivitet att starta efter det datum du anger.</p> 
    <p>Detta är standardvillkoret om projektets schemaläge är från startdatum och om systemets eller gruppens standardstartdatum för en ny uppgift är inställt på Idag.   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Starta inte senare än</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Starta inte senare än </a> </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
    <td scope="col"> <p>Schemalägger en uppgift att starta före det datum du anger.</p> 
    <p>Det här är standardbegränsningen om projektschemaläge är från Slutförandedatum och om systemet eller gruppen som standard för Startdatum för en uppgift är inställd på I dag. 
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Slutför inte tidigare än</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Slutför inte tidigare än </a> </p> </td> 
    <td scope="col"> <p>FNET</p> </td>
    <td scope="col"> <p>Schemalägger en aktivitet som ska slutföras efter det datum du anger.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Slutför inte senare än</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Slutför inte senare än </a> </p> </td> 
    <td scope="col"> <p>FNLT</p> </td> 
    <td scope="col"> <p>Schemalägger en aktivitet som ska slutföras före det datum du anger.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Måste starta på</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Måste starta den</a> </p> </td> 
    <td scope="col"> <p>MSO</p> </td> 
    <td scope="col"> <p>Schemalägger en aktivitet att starta exakt på ett visst datum.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Måste avslutas</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Måste avslutas </a> </p> </td> 
    <td scope="col"> <p>MFO</p> </td> 
    <td scope="col"> <p>Schemalägger en aktivitet som ska avslutas ett visst datum.</p> </td>
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Översikt över uppgiftsbegränsning: Fasta datum</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Översikt över aktivitetsbegränsning: Fasta datum</a> </p> </td> 
    <td> <p>FEM</p> </td> 
    <td> <p>Schemalägger en aktivitet att starta och sluta vid specifika datum.</p> </td> 
   </tr> 
@@ -117,13 +117,13 @@ När du skapar nya uppgifter väljs en uppgiftsbegränsning automatiskt av Workf
 
 I Workfront används två variabler för att bestämma vilken uppgiftsbegränsning som är vald som standard för en ny uppgift:
 
-* The **Projektschema från** -fält i projektet.
+* Fältet **Projektschema från** i projektet.
 
   Mer information om fältet Projektschema från finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* The **Startdatum** inställningarna konfigurerade av din Workfront- eller gruppadministratör i **Uppgifter och problem** område på **Inställningar**.
+* Inställningen **Startdatum** som konfigureras av Workfront- eller gruppadministratören i området **Åtgärder och problem** i **installationsprogrammet**.
 
-  Mer information om inställningar för uppgifter och problem finns i [Nya standardinställningar för aktivitet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) avsnitt i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information om inställningar för uppgifter och problem finns i avsnittet [Nya standardinställningar för aktiviteter](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) i [Konfigurera systemomfattande inställningar för uppgifter och problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 I följande tabell visas standardåtgärdsbegränsningen när du väljer olika variabler för ditt projekt och dina nya uppgifter:
 

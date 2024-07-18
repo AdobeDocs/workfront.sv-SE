@@ -111,7 +111,7 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
 {{step1-to-planning}}
 
-1. Klicka **Skapa arbetsyta**
+1. Klicka på **Skapa arbetsyta**
 
    Rutan Skapa arbetsyta visas. Du kan skapa en arbetsyta från grunden eller skapa den med någon av de tillgängliga mallarna.
 
@@ -131,32 +131,32 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
 
    Mer information om mallar för arbetsytan i Workfront Planning finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Klicka på **Använd mall** för att börja skapa arbetsytan från den valda mallen
+1. Klicka på **Använd mall** i förhandsgranskningsrutan för mallen för att börja skapa arbetsytan från den valda mallen
 
    eller
 
-   Klicka **Bakåt** och sedan klicka **Ny arbetsyta** för att skapa en arbetsyta från grunden.
+   Klicka på **Bakåt** och sedan på **Ny arbetsyta** för att skapa en helt ny arbetsyta.
 
    En av följande typer av arbetsytor skapas:
 
-   * En tom arbetsyta med namnet **Namnlös arbetsyta** där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
+   * En tom arbetsyta med namnet **Namnlös Workspace** där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
    * En arbetsyta som namnges efter mallen som du valde och som fylls med exempelposttyper. Du kan anpassa posttyperna och arbetsytan ytterligare.
 
 1. Klicka i namnet på arbetsytan i sidhuvudet på den nya arbetsytan för att byta namn på den och tryck sedan på Retur.
 
-1. (Valfritt och villkorligt) Om du har skapat arbetsytan från en mall klickar du inuti namnet på **Operativa posttyper** eller **Taxonomier** avsnitt
+1. (Valfritt och villkorligt) Om du har skapat arbetsytan från en mall klickar du inuti namnet på **driftposttyperna** eller **taxonomierna** .
 
    eller
 
-   Håll namnet på ett avsnitt och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Byt namn** för att byta namn på avsnittet.
+   Håll namnet på ett avsnitt, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Byt namn** för att byta namn på avsnittet.
 
    >[!TIP]
    >
    >Du kan byta namn på alla avsnitt på en arbetsyta, även om du inte har skapat avsnittet.
 
-   Mer information om hur du redigerar arbetsytor, inklusive redigering av arbetsyteavsnitt, finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   Mer information om hur du redigerar arbetsytor, inklusive redigering av arbetsytor, finns i [Redigera arbetsytor](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-1. (Valfritt) Klicka på **Lägg till posttyp** om du vill lägga till posttyper på arbetsytan i vilket avsnitt som helst.
+1. (Valfritt) Klicka på **Lägg till posttyp** om du vill lägga till posttyper på arbetsytan i valfritt avsnitt.
 
    Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 

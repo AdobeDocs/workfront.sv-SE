@@ -17,15 +17,15 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion]i [!DNL Adobe Admin Console]
+# [!DNL Adobe Workfront Fusion] i [!DNL Adobe Admin Console]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront] licens.
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront]-licens.
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägg till användare i [!DNL Adobe Workfront Fusion] via [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
-* [Ta bort användare i [!DNL Adobe Workfront Fusion] via [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+* [Lägg till användare i [!DNL Adobe Workfront Fusion] via  [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+* [Ta bort användare i [!DNL Adobe Workfront Fusion] via  [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
 * [Plattformsbaserade administrationsskillnader ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
-* [[!DNL Adobe Workfront Fusion] på [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)
+* [[!DNL Adobe Workfront Fusion] på  [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)

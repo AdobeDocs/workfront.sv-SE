@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 2.3 Integration enhancements
 
-Den här sidan beskriver alla integreringsförbättringar som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i januari 2022 veckan efter den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [22.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Den här sidan beskriver alla integreringsförbättringar som gjorts i version 2.3 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i januari 2022 veckan efter den 11 juli 2022. En lista över alla ändringar som är tillgängliga i version 2.3 finns i [2.3 versionsöversikt](/help/quicksilver/product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Integrering med Adobe Workfront för Experience Manager Assets
 
@@ -49,7 +49,7 @@ Du kommer inte att förlora åtkomsten till dokument som för närvarande är l�
 
 Workfront-administratörer kan aktivera och inaktivera SharePoint-integreringar och äldre SharePoint-integreringar separat, baserat på organisationens behov.
 
-Mer information finns i [Konfigurera integrering med äldre SharePoint](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
+Mer information finns i [Konfigurera den äldre SharePoint-integreringen](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md).
 
 ## Kombinera flera filer i ett och samma korrektur i plugin-programmet Creative Cloud
 

@@ -27,7 +27,7 @@ Om det finns grupper ovanför gruppen kan deras administratörer även göra det
 >
 >Det går inte att visa anpassade gruppstatusar i ett projekt när du visar projektet i en flexibel vy. Endast standardstatus och anpassade låsta statuslägen visas när du visar ett projekt i en flexibel vy. Mer information om hur du anpassar en flexibel vy för ett projekt finns i avsnittet [Skapa eller anpassa en Agile-vy](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) i artikeln [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-Allmän information om status finns i [Översikt över status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Allmän information om status finns i [Statusöversikt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ## Åtkomstkrav
 
@@ -43,7 +43,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,12 +52,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Skapa eller redigera en status för en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen där du vill skapa eller anpassa statusvärden.
-1. Klicka på i den vänstra panelen **Status**.
+1. Klicka på **Status** i den vänstra panelen.
 
    Om gruppen du visar är en grupp på den översta nivån visas följande i listan:
 
@@ -71,19 +71,19 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
      När en undergrupp har skapats inkluderas inte olåsta statusar som har skapats i grupperna ovan i undergruppens statuslista. Om någon låser en av dem senare inkluderas den däremot i undergruppens statuslista. Mer information finns i [Hur grupper ärver statusvärden](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-1. Markera fliken för objekttypen (**Projekt**, **Uppgifter**, eller **Problem**) som du vill associera med statusen.
+1. Välj fliken för den objekttyp (**Projekt**, **Åtgärder** eller **Problem**) som du vill associera med statusen.
 
-1. (Villkorligt) Om statusen är ett problem kontrollerar du att **Huvudlista** är markerat.
+1. (Villkorligt) Om statusen är ett problem kontrollerar du att **Huvudlista** är markerad.
 
    ![](assets/master-list.png)
 
    Mer information om hur du anpassar de andra problemtyperna (felrapport, Ändra ordning, Problem, Begäran) finns i [Anpassa standardproblemtyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-1. (Villkorligt) Klicka på **Lägg till en ny status**.
+1. (Villkorligt) Om du vill skapa en ny status klickar du på **Lägg till en ny status**.
 
    eller
 
-   Om du vill redigera en befintlig status för du musen över den status du vill redigera och klickar sedan på knappen **Redigera** som visas längst till höger.
+   Om du vill redigera en befintlig status för du musen över den status du vill redigera och klickar sedan på alternativet **Redigera** som visas längst till höger.
 
    ![](assets/group-statuses-edit.jpg)
 
@@ -138,14 +138,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> 
        <p>Om du låter det här alternativet vara aktiverat kan användarna i din grupp och dess undergrupper se och använda status, och gruppadministratörer kan inte anpassa det för lägre undergrupper.</p> 
        <p>När det här alternativet är inaktiverat kan gruppadministratörer anpassa statusen för undergrupper.</p> 
-       <p><b>ANMÄRKNING</b>: Du kan använda både låsta och olåsta lägen i en gruppgodkännandeprocess. Om du skapar en process för gruppgodkännande med olåst gruppstatus kan användarna bifoga godkännandeprocessen till alla projekt, aktiviteter eller utgåvor som är kopplade till gruppen.</p> 
+       <p><b>Obs!</b> Du kan använda både låsta och olåsta statusvärden i en gruppgodkännandeprocess. Om du skapar en process för gruppgodkännande med olåst gruppstatus kan användarna bifoga godkännandeprocessen till alla projekt, aktiviteter eller utgåvor som är kopplade till gruppen.</p> 
        <p>Mer information om att låsa status finns i <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Låsta och olåsta gruppstatusar</a>.</p> 
        </td> 
      </tr>
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Statusen är nu tillgänglig för alla projekt som är kopplade till din grupp eller undergrupp. Om du har låst den kan den användas av alla undergrupper.
 
@@ -157,17 +157,17 @@ Om du är Workfront-administratör kan du skapa en anpassad status för flera gr
 
 Om du är gruppadministratör (eller Workfront-administratör) kan du skapa en anpassad status för flera undergrupper i en grupphierarki som du hanterar genom att skapa en status för en grupp på en högre nivå och sedan dölja den statusen för undergrupper som inte behöver den.
 
-1. Om du är Workfront-administratör skapar du en olåst status för hela systemet enligt beskrivningen i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-1. I rutan i det övre högra hörnet tar du bort **Systemstatus** börjar du skriva namnet på en grupp där du vill dölja statusen och klickar sedan på namnet när det visas.
-1. Håll muspekaren över den status som du vill dölja för gruppen och klicka sedan på **Redigera** när den visas.
+1. Om du är Workfront-administratör skapar du en olåst status i hela systemet enligt beskrivningen i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+1. I rutan i det övre högra hörnet tar du bort **Systemstatus**, börjar skriva namnet på en grupp där du vill dölja statusen och klickar sedan på namnet när det visas.
+1. Håll markören över den status som du vill dölja för gruppen och klicka sedan på **Redigera** när den visas.
 
    ![](assets/hover-click-edit.jpg)
 
-1. Aktivera **Dölj status** som visas.
+1. Aktivera alternativet **Dölj status** som visas.
 
    ![](assets/hide-group-status.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Statusen är nedtonad och inte längre synlig för alla användare i gruppen.
 

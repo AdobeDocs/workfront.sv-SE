@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: task-constraints
-title: Uppdatera uppgiftsbegränsningen för en uppgift
+title: Uppdatera aktivitetsbegränsningen för en uppgift
 description: Uppgiftsbegränsningar avgör när en uppgift ska starta och avslutas i ett projekt. Mer information finns i Översikt över uppgiftsbegränsning.
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
 
-# Uppdatera uppgiftsbegränsningen för en uppgift
+# Uppdatera aktivitetsbegränsningen för en uppgift
 
 Uppgiftsbegränsningar avgör när en uppgift ska starta och avslutas i ett projekt. Mer information finns i [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
@@ -35,7 +35,7 @@ Du måste ha följande för att ändra uppgiftsbegränsningen för en uppgift:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -46,31 +46,31 @@ Du måste ha följande för att ändra uppgiftsbegränsningen för en uppgift:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Uppdatera uppgiftsbegränsningen för en uppgift
+## Uppdatera aktivitetsbegränsningen för en uppgift
 
-1. Klicka **Huvudmeny** > **Projekt** klickar du sedan på ett projekt för att komma åt det.
-1. Klicka på **Uppgifter** i den vänstra panelen.
-1. Klicka **Uppgiftsinformation** i den vänstra panelen och i området Översikt klickar du på **Aktivitetsbegränsning**.
+1. Klicka på **Huvudmeny** > **Projekt** och klicka sedan på ett projekt för att komma åt det.
+1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
+1. Klicka på **Uppgiftsinformation** i den vänstra panelen och klicka sedan på **Uppgiftsbegränsning** i området Översikt.
 
    ![](assets/task-constraint-all-options-in-overview-350x254.png)
 
 1. Välj bland följande alternativ
 
-   | Fasta datum | Mer information finns i [Översikt över uppgiftsbegränsning: Fasta datum](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
+   | Fasta datum | Mer information finns i [Översikt över aktivitetsbegränsning: Fasta datum](../../../manage-work/tasks/task-constraints/fixed-dates.md). |
    |---|---|
-   | Måste börja på | Mer information finns i [Översikt över uppgiftsbegränsning: Måste börja på](../../../manage-work/tasks/task-constraints/must-start-on.md). |
-   | Måste avslutas | Mer information finns i [Översikt över uppgiftsbegränsning: Måste avslutas](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
-   | Så snart som möjligt | Mer information finns i [Översikt över uppgiftsbegränsning: Så snart som möjligt](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
-   | Så sent som möjligt | Mer information finns i [Översikt över uppgiftsbegränsning: Så sent som möjligt](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
-   | Tidigaste tillgängliga tid | Mer information finns i [Översikt över uppgiftsbegränsning: Tidigaste tillgängliga tid](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
+   | Måste börja på | Mer information finns i [Översikt över aktivitetsbegränsning: Måste starta den](../../../manage-work/tasks/task-constraints/must-start-on.md). |
+   | Måste avslutas | Mer information finns i [Översikt över uppgiftsbegränsning: Måste avslutas den ](../../../manage-work/tasks/task-constraints/must-finish-on.md). |
+   | Så snart som möjligt | Mer information finns i [Översikt över aktivitetsbegränsning: Så snart som möjligt](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
+   | Så sent som möjligt | Mer information finns i [Översikt över aktivitetsbegränsning: Så sent som möjligt](../../../manage-work/tasks/task-constraints/as-late-as-possible.md). |
+   | Tidigaste tillgängliga tid | Mer information finns i [Översikt över uppgiftsbegränsning: Tidigast tillgänglig tid](../../../manage-work/tasks/task-constraints/earliest-available-time.md). |
    | Senaste tillgängliga tid | Mer information finns i [Översikt över uppgiftsbegränsning: Senaste tillgängliga tid](../../../manage-work/tasks/task-constraints/latest-available-time.md). |
-   | Starta inte senare än | Mer information finns i [Översikt över uppgiftsbegränsning: Starta inte senare än](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
-   | Starta tidigast | Mer information finns i [Översikt över uppgiftsbegränsning: Starta tidigast](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
-   | Avsluta senast | Mer information finns i [Översikt över uppgiftsbegränsning: Avsluta senast](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Avsluta tidigast | Mer information finns i [Översikt över uppgiftsbegränsning: Avsluta tidigast](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Starta senast | Mer information finns i [Översikt över aktivitetsbegränsning: Starta inte senare än ](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | Starta tidigast | Mer information finns i [Översikt över aktivitetsbegränsning: Starta tidigast ](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
+   | Avsluta senast | Mer information finns i [Översikt över aktivitetsbegränsning: Slutför inte senare än ](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
+   | Avsluta tidigast | Mer information finns i [Översikt över aktivitetsbegränsning: Slutför inte tidigare än ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-1. Klicka **Spara** **Ändringar**.
+1. Klicka på **Spara** **Ändringar**.
 
  

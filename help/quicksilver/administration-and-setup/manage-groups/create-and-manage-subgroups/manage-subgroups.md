@@ -11,7 +11,7 @@ role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1272'
 ht-degree: 1%
 
 ---
@@ -40,7 +40,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,9 +49,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Skapa, flytta, visa, redigera, kopiera, byta namn på, exportera eller ta bort en undergrupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
@@ -61,7 +61,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
    Om du flyttar en eller flera undergrupper klickar du på namnet på målgruppen (du anger vilka undergrupper du vill flytta i ett senare steg).
 
-1. Klicka på **Undergrupper**.
+1. Klicka på **Undergrupper** på den vänstra menyn.
 
 1. Gör något av följande:
 
@@ -71,47 +71,47 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Skapa en ny undergrupp</td> 
-      <td> <p>Om du vill skapa den nya undergruppen en nivå ned från den grupp du visar klickar du på <strong>Lägg till undergrupp</strong>.</p> <p>Om du vill skapa den nya undergruppen under en annan undergrupp i listan, markerar du den undergruppen och klickar sedan på <strong>Lägg till</strong><strong>undergrupp</strong>.</p> <p>Information om de alternativ du kan använda för att konfigurera undergruppen finns i tabellen i <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Skapa en undergrupp</a>.</p> <p>En grupphierarki får inte överskrida 15 nivåer, men en nivå kan ha ett obegränsat antal parallella grupper.</p> </td> 
+      <td> <p>Om du vill skapa den nya undergruppen en nivå ned från den grupp du visar klickar du på <strong>Lägg till undergrupp</strong>.</p> <p>Om du vill skapa den nya undergruppen under en annan undergrupp i listan, markerar du den undergruppen och klickar sedan på <strong>Lägg till som</strong><strong>undergrupp</strong>.</p> <p>Mer information om de alternativ du kan använda för att konfigurera undergruppen finns i tabellen i <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Skapa en undergrupp</a>.</p> <p>En grupphierarki får inte överskrida 15 nivåer, men en nivå kan ha ett obegränsat antal parallella grupper.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Flytta en undergrupp </td> 
       <td> <p>Du kan flytta befintliga undergrupper under en annan grupp som du administrerar.</p> <p>En grupphierarki får inte överskrida 15 nivåer, men en nivå kan ha ett obegränsat antal parallella grupper.</p> 
        <ol> 
         <li value="1"> <p>(Valfritt) Markera en undergrupp för att göra den till målgrupp.</p> <p>Om du hoppar över det här steget är den grupp du valde i steg 3 målgruppen.</p> </li> 
-        <li value="2">Klicka <strong>Lägg till undergrupp</strong> &gt; <strong>Befintlig grupp</strong>.</li> 
-        <li value="3"> <p>I <strong>Befintlig grupp</strong> som visas börjar du skriva namnet på den undergrupp som du vill flytta.</p> <p>Resultatet som visas innehåller inte grupper ovanför målgruppen.</p> <p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> </li> 
+        <li value="2">Klicka på <strong>Lägg till undergrupp</strong> &gt; <strong>Befintlig grupp</strong>.</li> 
+        <li value="3"> <p>I rutan <strong>Befintlig grupp</strong> som visas börjar du skriva namnet på den undergrupp som du vill flytta.</p> <p>Resultatet som visas innehåller inte grupper ovanför målgruppen.</p> <p>Du kan kontrollera att du markerar rätt grupp genom att hålla markören över den och klicka på informationsikonen <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> </li> 
         <li value="4"> <p>Klicka på namnet på den undergrupp som du vill flytta när den visas i listan.</p> </li> 
         <li value="5"> <p>Upprepa steg c-d för andra undergrupper som du vill flytta till målgruppen</p> </li> 
-        <li value="6">Klicka <strong>Spara</strong>.</li> 
+        <li value="6">Klicka på <strong>Spara</strong>.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Redigera en undergrupp</td> 
-      <td> <p>Markera den undergrupp som du vill redigera och klicka sedan på ikonen Redigera <img src="assets/edit-icon.png">.</p> <p>Information om de alternativ du kan använda för att konfigurera undergruppen finns i tabellen i <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Skapa en grupp</a>.</p> </td> 
+      <td> <p>Markera den undergrupp som du vill redigera och klicka sedan på ikonen Redigera <img src="assets/edit-icon.png">.</p> <p>Mer information om de alternativ du kan använda för att konfigurera undergruppen finns i tabellen i <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Skapa en grupp</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportera en eller flera undergrupper</td> 
       <td> 
        <ol> 
         <li value="1">Markera den eller de undergrupper som du vill exportera.</li> 
-        <li value="2">Klicka på ikonen Exportera <img src="assets/export.png">väljer du sedan önskat filformat.</li> 
+        <li value="2">Klicka på ikonen Exportera <img src="assets/export.png"> och välj sedan önskat filformat.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kopiera en undergrupp för att skapa en ny grupp på den översta nivån</td> 
       <td> <p>(Endast tillgängligt för Workfront-administratörer.) När du kopierar en undergrupp blir den en överordnad grupp. Alla gruppmedlemmar och undergrupper kopieras med den. Gruppmedlemmarna behåller de uppdrag de hade i den ursprungliga gruppen.</p> <p>Mer information om hur du kopierar en undergrupp finns i <a href="#about-copying-a-subgroup" class="MCXref xref">Kopiera en undergrupp</a> i den här artikeln.</p> 
        <ol> 
-        <li value="1">Markera en undergrupp och klicka sedan på ikonen Kopiera <img src="assets/copy-icon.png"> om du vill skapa en ny grupp på den översta nivån baserad på den markerade gruppen.</li> 
+        <li value="1">Markera en undergrupp och klicka sedan på ikonen Kopiera <img src="assets/copy-icon.png"> för att skapa en ny grupp på den översta nivån baserad på den markerade gruppen.</li> 
         <li value="2"> <p>Konfigurera den nya gruppens inställningar.</p> <p>Hjälp med de här inställningarna finns i tabellen i avsnittet <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Skapa en grupp på den översta nivån genom att kopiera en befintlig grupp eller undergrupp</a> i artikeln <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Skapa en grupp på den översta nivån genom att kopiera en befintlig grupp eller undergrupp</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort en undergrupp</td> 
-      <td> <p><b>VIKTIGT</b>: När du tar bort en grupp eller undergrupp måste du bevara de användare, arbetsobjekt och alla undergrupper som är tilldelade till den. För att du ska kunna vara säker på att objekten bevaras måste du omtilldela gruppens objekt till en annan grupp i steget nedan.</p> 
+      <td> <p><b>VIKTIGT</b>: När du tar bort en grupp eller undergrupp måste du bevara de användare, arbetsobjekt och undergrupper som för närvarande är tilldelade till den. För att du ska kunna vara säker på att objekten bevaras måste du omtilldela gruppens objekt till en annan grupp i steget nedan.</p> 
        <ol> 
         <li value="1">Markera undergruppen och klicka sedan på ikonen Ta bort <img src="assets/delete.png">.</li> 
-        <li value="2">I <strong>Ta bort grupp</strong> som visas, börjar skriva och markerar sedan namnet på gruppen där du vill flytta medlemmarna, arbetsobjekten och undergrupperna i gruppen som du vill ta bort.</li> 
-        <li value="3">Klicka <strong>Ta bort dem</strong>.</li> 
+        <li value="2">I rutan <strong>Ta bort grupp</strong> som visas börjar du skriva och markerar sedan namnet på gruppen där du vill flytta medlemmarna, arbetsobjekten och undergrupperna i gruppen som du vill ta bort.</li> 
+        <li value="3">Klicka på <strong>Ta bort dem</strong>.</li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -125,8 +125,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >
 >I Workfront representeras den här marknadsföringsavdelningen av en grupp som heter Marketing, med tre undergrupper som kallas Field Marketing, Product Marketing och Digital Marketing. Om du vill visa de projekt som tillhör hela marknadsföringsavdelningen (alla fyra grupper) kan du skapa ett filter för projektområdet med följande filterregel:
 >
->
-```
+>```
 >Group: Top Parent ID > Equal > Marketing
 >```
 >
@@ -142,15 +141,15 @@ Du kan göra en undergrupp till en grupp på den översta nivån genom att ta bo
 >
 >Instruktioner om hur du inaktiverar och återaktiverar grupper finns i avsnitten [Visa och hantera information om en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) och [Visa och hantera information om en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) i artikeln [Visa och hantera information om en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
-1. Markera den överordnade gruppen för gruppen som du vill skapa en grupp på den översta nivån och klicka sedan på ikonen Redigera ![](assets/edit-icon.png).
-1. I **Redigera grupp** ruta som visas, under **Gruppmedlemmar och gruppadministratörer** börjar du skriva namnet på den undergrupp som du vill skapa en grupp på den översta nivån och klickar sedan på krysset till höger om namnet när det visas.
-1. Klicka **Spara**.
+1. Markera den överordnade gruppen för gruppen som du vill skapa en grupp på den översta nivån och klicka sedan på redigeringsikonen ![](assets/edit-icon.png).
+1. I rutan **Redigera grupp** som visas, under **Gruppmedlemmar och gruppadministratörer**, börjar du skriva namnet på den undergrupp som du vill skapa en grupp på översta nivån och klickar sedan på krysset till höger om namnet när det visas.
+1. Klicka på **Spara**.
 
-## Visa och hantera en grupps undergruppsmedlemmar
+## Visa och hantera undergruppsmedlemmar
 
 När du visar huvudsidan för en grupp som du administrerar kan du visa och hantera alla användare i gruppens undergrupper. Instruktioner finns i [Visa och hantera undergruppsmedlemmar](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
@@ -160,8 +159,8 @@ Tänk på följande när du kopierar en undergrupp.
 
 * Om en undergrupp som du kopierar har egna undergrupper, inkluderas de i kopian och deras namn formateras enligt följande:
 
-   ```
-   Original subgroup name (Copy)
-   ```
+  ```
+  Original subgroup name (Copy)
+  ```
 
 * Alla undergrupper som tillhör en offentlig grupp är också publika, så alla användare med redigeringsåtkomst, i eller utanför gruppen, kan lägga till användare i undergruppen.

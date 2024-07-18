@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,10 +45,10 @@ Du måste ha följande:
 ## Begär ett dokument
 
 1. Gå till området där du vill att dokumentet du begär ska placeras.
-1. Klicka på **Dokument** -fliken. 
-1. Klicka på **Lägg till ny** listruta.
+1. Klicka på fliken **Dokument**. 
+1. Klicka på listrutan **Lägg till ny**.
 
-1. Klicka **Begär ett dokument**.
+1. Klicka på **Begär ett dokument**.
 
    Dialogrutan Begär ett dokument visas.
 
@@ -58,10 +58,10 @@ Du måste ha följande:
 
    >[!NOTE]
    >
-   >Om du har [Översikt över äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) aktiverat för ditt konto, du kan skicka en begäran till valfri e-postadress. Det finns en inställning i [Konfigurera säkerhetsinställningar för system](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) som avgör om dessa externa e-postanvändare behöver skapa ett lösenord innan de interagerar med Workfront. 
+   >Om du har aktiverat översikten [Äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) på ditt konto kan du skicka en begäran till valfri e-postadress. Det finns en inställning i [Konfigurera systemsäkerhetsinställningar](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) som avgör om dessa externa e-postanvändare behöver skapa ett lösenord eller inte innan de interagerar med Workfront. 
 
 1. Beskriv varför du begär dokumentet.
-1. Klicka **Skicka förfrågan**.
+1. Klicka på **Skicka begäran**.
 
    När du skickar en begäran till en användare läggs en platshållare till i dokumentområdet. Du kan påminna användaren eller avbryta begäran från den här platshållaren. Användaren får ett Workfront-meddelande och ett e-postmeddelande om begäran.
 
@@ -69,6 +69,6 @@ Du måste ha följande:
 
    Du kan klicka på länken i e-postmeddelandet och sedan överföra dokumentet. Du kan också klicka på meddelandet i appen. Varje alternativ dirigerar dig till användarprofilsidan där du kan överföra det begärda dokumentet.
 
-1. När du har överfört dokumentet kan den person som begärde det få åtkomst till dokumentet i sin personliga **Dokument** område.
+1. När du har överfört dokumentet kan den person som begärde det få åtkomst till dokumentet i sitt personliga **dokumentområde**.
 
-   Du kan komma åt din personliga **Dokument** genom att klicka på din användarprofilbild i det övre högra hörnet på en Workfront-sida, klicka på ditt namn och sedan på **Dokument** -fliken.
+   Du kommer åt ditt personliga **dokumentområde** genom att klicka på din användarprofilbild i det övre högra hörnet på en Workfront-sida, klicka på ditt namn och sedan på fliken **Dokument** .

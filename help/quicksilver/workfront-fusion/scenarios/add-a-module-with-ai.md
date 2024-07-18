@@ -8,7 +8,8 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: cb2dba1c74f1d33be0bb21a7e1cdd176a3577bb2
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -51,14 +52,14 @@ Fusion AI kan för närvarande generera moduler som ansluter till följande prog
 
 ## Generera en modul
 
-1. Lägg till en modul och markera **Generera med AI** i listan över program.
+1. Lägg till en modul och välj **Generera med AI** i listan över program.
 
    eller
 
    Högerklicka på ett tomt område i scenarioredigeraren och välj sedan **Generera med AI**.
 1. Skriv en textruta i rutan.
 
-   Tips om uppmaningar finns på [Tips för att skapa textmeddelanden](#tips-for-creating-text-prompts) i den här artikeln.
+   Tips om uppmaningar finns i [Tips om hur du skapar textmeddelanden](#tips-for-creating-text-prompts) i den här artikeln.
 1. Lägg till API-token för programmet i modulen.
 1. Kontrollera att modulen verkar vara konfigurerad för rätt program och åtgärd.
 1. (Villkorligt) Om modulen inte är kopplad till ditt scenario drar du den på plats.
@@ -89,6 +90,3 @@ Tänk på följande när du skapar textmeddelanden:
 * Eftersom varje Fusion-modul utför en enda åtgärd bör en specifik åtgärd beskrivas i textprompten.
 * Använd direkt, enkelt språk.
 * Kontrollera och testa modulen. Om den inte fungerar som förväntat kan du förfina uppmaningen och försöka igen.
-
-
-

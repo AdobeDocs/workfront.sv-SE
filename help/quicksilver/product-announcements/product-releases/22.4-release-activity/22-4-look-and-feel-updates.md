@@ -23,7 +23,7 @@ En lista över alla ändringar som är tillgängliga i version 22.4 finns i [22.
 
 Vi har flyttat viktig licensinformation till det övre högra hörnet på sidan och uppdaterat utseendet på texten och knapparna så att de matchar andra delar av Workfront.
 
-Mer information finns i [Hantera tillgängliga licenser i ditt system](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Mer information finns i [Hantera tillgängliga licenser i systemet](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Uppdaterade listor i området Anpassade Forms
 

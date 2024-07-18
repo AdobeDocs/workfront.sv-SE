@@ -2,14 +2,14 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: "Adobe Workfront Goals 21.2 release activity: Vecka 19 april 2021"
+title: "Adobe Workfront Goals 21.2 release activity: Week of April 19, 2021"
 description: Den här sidan beskriver alla förbättringar som gjorts i version 21.2 för Adobe Workfront Goals till förhandsvisningsmiljön den 19 april 2021. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön under det första kvartalet av 21.2.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i version 21.2 för Adobe Workfront Goals till förhandsvisningsmiljön den 19 april 2021. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön under det första kvartalet av 21.2.
 
-En lista över alla ändringar som är tillgängliga för Workfront-mål i version 21.2 finns i [Adobe Workfront Goals with the 21.2 release](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
+En lista över alla ändringar som är tillgängliga för Workfront-mål i den här versionen av version 21.2 finns i [Adobe Workfront-mål med version 21.2](../../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md).
 
-En lista över alla ändringar som är tillgängliga för alla delar av Workfront i version 21.2 finns i [21.2 Versionsöversikt](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga för alla områden i Workfront i den här versionen av 21.2 finns i [21.2 versionsöversikt](../../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Redigera mål från tidigare perioder i Workfront-mål
 
@@ -43,13 +43,13 @@ Mer information om hur du redigerar och skapar mål finns i:
 
 För att skapa en sammanhängande upplevelse för dig har vi introducerat flera uppdateringar av mållistan i Workfront-mål. Den nya listan ser ut och känns närmare resten av Workfront listor. Några förbättringar som du kan se i den nya mållistan är:
 
-* Komprimering och utvidgning av mål hanteras från ikonen längst upp till vänster i verktygsfältet. Ikonen Expandera mål har tagits bort.
+* Komprimering och utökning av mål hanteras från ikonen längst upp till vänster i verktygsfältet. Ikonen Expandera mål har tagits bort.
 * Filterens funktioner matchar dem i avsnittet Måljustering. Du kan tillfälligt visa objekt som är dolda av filtret och sedan återanvända det för att utesluta dem från visningen.
 * Namnet på vissa kolumner har uppdaterats.
 
 Erfarenheten av att öppna panelen Målinformation i listan är närmare att arbeta med panelen Sammanfattning i Workfront.
 
-Mer information om hur du granskar mål finns i Mållistan [Hantera mål i mållistan för Adobe Workfront-mål](../../../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Mer information om hur du granskar mål i mållistan finns i [Hantera mål i mållistan för Adobe Workfront-mål](../../../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ## Dela ett mål i Workfront-mål
 

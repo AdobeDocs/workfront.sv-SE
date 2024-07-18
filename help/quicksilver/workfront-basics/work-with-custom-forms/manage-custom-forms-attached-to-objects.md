@@ -6,9 +6,9 @@ description: Du kan uppdatera den ordning i vilken anpassade formulär som är k
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 78878fa3578e4f3a33baec3806298282d3909d8d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,11 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till de objekt som du hanterar anpassade formulär för</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre till objekt som du hanterar anpassade formulär för</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute-behörigheter eller högre till de objekt som du hanterar anpassade formulär för</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,22 +50,22 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
 ## Förutsättningar
 
-* Din Workfront-administratör eller en plananvändare med administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö. Mer information finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Din Workfront-administratör eller en plananvändare med administrativ åtkomst till anpassade formulär måste skapa anpassade formulär i din miljö. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Du måste ha anpassade formulär kopplade till ett objekt.
 
-   Mer information om hur du använder anpassade formulär för ett objekt finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+  Mer information om hur du använder anpassade formulär för ett objekt finns i [Lägga till ett anpassat formulär för ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Ändra ordning på flera anpassade formulär som är kopplade till ett objekt {#reorder-multiple-custom-forms-attached-to-an-object}
 
 1. Gå till objektet där du vill ändra ordningen på de tillagda anpassade formulären och börja sedan redigera objektet.
 
-   **Exempel:** Om du till exempel vill hantera de anpassade formulären för ett projekt går du till projektet och klickar på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Redigera** .
+   **Exempel:** Om du till exempel vill hantera de anpassade formulären för ett projekt går du till projektet, klickar på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** .
 
-1. I **Anpassad Forms** för projekt, uppgifter och ärenden, klicka på ![](assets/move-icon---dots.png) -ikonen bredvid namnet på ett anpassat formulär. För alla andra objekt klickar du på **Hantera Forms**. Det här alternativet visas bara om minst ett anpassat formulär är kopplat till objektet.
+1. Klicka på ikonen ![](assets/move-icon---dots.png) bredvid namnet på ett anpassat formulär i avsnittet **Anpassad Forms** för projekt, uppgifter och utgåvor. För alla andra objekt klickar du på **Hantera Forms**. Det här alternativet visas bara om minst ett anpassat formulär är kopplat till objektet.
 1. Dra ett formulär ![](assets/move-icon---dots.png) till en ny plats i listan.
-1. Klicka på **Spara**.
+1. Klicka på **Spara** för projekt, uppgifter och utgåvor av anpassade formulär.
 
-   För alla andra objekt klickar du på **Jag är klar med hanteringen** > **Spara ändringar**.
+   För alla andra objekt klickar du på **Jag har slutat hantera** > **Spara ändringar**.
 
 ## Ta bort ett anpassat formulär från ett objekt {#remove-a-custom-form-from-an-object}
 
@@ -75,14 +75,14 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
 1. Gå till objektet där du vill ta bort det anpassade formuläret och börja redigera objektet.
 
-   Gå till ett projekt och klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Redigera** .
+   Gå till exempel till ett projekt, klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera** .
 
-1. Klicka **Anpassad Forms**.
-1. För projekt, uppgifter och ärenden, anpassade formulär klickar du på **X** till höger om ett formulär för att ta bort det från objektet.
+1. Klicka på **Anpassad Forms**.
+1. För projekt, uppgifter och utleveranser av anpassade formulär klickar du på ikonen **X** till höger om ett formulär för att ta bort det från objektet.
 
-   För alla andra objekt klickar du på **Hantera Forms** klickar du på **X** till höger om ett formulär för att ta bort det från objektet.
+   För alla andra objekt klickar du på **Hantera Forms** och sedan på ikonen **X** till höger om ett formulär för att ta bort det från objektet.
 
-1. Klicka **Spara** .
+1. Klicka på **Spara** .
 
 ## Hantera flera anpassade formulär som innehåller samma anpassade fält
 
@@ -90,9 +90,9 @@ Du kan ha samma fält på flera anpassade formulär som är kopplade till samma 
 
 * Fältets värde är identiskt i alla former.
 
-   Du kan inte ha olika värden för samma fält i olika formulär kopplade till samma objekt.
+  Du kan inte ha olika värden för samma fält i olika formulär kopplade till samma objekt.
 
-* Om du har samma beräkningsfält på två olika objekt måste deras beräkningar vara identiska för att undvika fel. Mer information om hur du lägger till beräknade fält i anpassade formulär, inklusive flera formulär, finns i [Lägga till beräknade data i ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) .
+* Om du har samma beräkningsfält på två olika objekt måste deras beräkningar vara identiska för att undvika fel. Mer information om hur du lägger till beräknade fält i anpassade formulär, inklusive flera formulär, finns i [Lägga till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Hantera flera anpassade formulär vid gruppredigering av objekt
 
@@ -103,7 +103,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 >
 >Att hantera anpassade formulär till objekt är identiskt för alla objekt utom projekt.
 >
->Mer information om hur du lägger till anpassade formulär i flera projekt finns i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
+>Mer information om hur du lägger till anpassade formulär till projekt i grupp finns i artikeln [Redigera projekt](../../manage-work/projects/manage-projects/edit-projects.md).
 
 När du gruppredigerar objekt som har flera anpassade formulär tillämpade kan du redigera hur anpassade formulär visas på dessa objekt samt redigera gemensamma fält bland de anpassade formulären.
 
@@ -111,8 +111,8 @@ Endast de anpassade formulär som är kopplade till alla markerade objekt kan re
 
 Så här redigerar du flera anpassade formulär samtidigt när du redigerar objekt:
 
-1. I ett listobjekt markerar du de objekt där de anpassade formulären är kopplade och klickar sedan på **Redigera** icon ![](assets/edit-icon.png).
-1. Klicka **Anpassad Forms**.
+1. Markera de objekt som de anpassade formulären är kopplade till i ett listobjekt och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Klicka på **Anpassad Forms**.
 
    Du kan bara redigera anpassade formulär som är kopplade till alla markerade objekt.
 
@@ -124,38 +124,38 @@ Så här redigerar du flera anpassade formulär samtidigt när du redigerar obje
 
    Om ett fält finns i mer än ett anpassat formulär, uppdateras alla värden för dessa fält i varje formulär när du uppdaterar fältet i ett av formulären.
 
-1. Klicka på **Gör en markering** och välj ytterligare formulär som ska läggas till i alla markerade objekt.
+1. Klicka på listrutan **Gör en markering** och välj ytterligare formulär som ska läggas till i alla markerade objekt.
 
    Tänk på följande när du använder ytterligare formulär:
 
    * Objekt kan ha upp till 10 anpassade former.
    * Du kan bara använda formulär när formuläret inte redan har tillämpats på något av de objekt som du redigerar. Ett formulär som redan är kopplat till ett av objekten visas inte i listrutan.
-   * När du har tillämpat ytterligare ett formulär, visas alla fält som har samma format som andra formulär i **Vanliga fält** så kan de redigeras.
+   * När du har tillämpat ytterligare ett formulär visas alla fält som har gemensamma funktioner för andra formulär i avsnittet **Gemensamma fält**, och de kan redigeras.
 
 1. (Valfritt) Om du har lagt till anpassade formulär till alla objekt, men inte har sparat objekten än, kan du ändra i vilken ordning de anpassade formulären visas på objekten.
 
-   Mer information om hur du ändrar ordningen på formulären finns i [Ändra ordning på flera anpassade formulär som är kopplade till ett objekt](#reorder-multiple-custom-forms-attached-to-an-object) i den här artikeln.
+   Mer information om hur du ändrar formulärordningen finns i [Ändra ordning på flera anpassade formulär som är kopplade till ett objekt](#reorder-multiple-custom-forms-attached-to-an-object) i den här artikeln.
 
-1. Klicka **Ta bort formulär** om du vill ta bort ett anpassat formulär från objekten.
+1. Klicka på **Ta bort formulär** om du vill ta bort ett anpassat formulär från objekten.
 
    Mer information om hur du tar bort anpassade formulär från objekt finns i [Ta bort ett anpassat formulär från ett objekt](#remove-a-custom-form-from-an-object).
 
    Tänk på följande när du tar bort flera formulär samtidigt från flera objekt:
 
-   * Om du har ändrat formuläret och tar bort det går ändringarna förlorade och kan inte återställas.
-   * När du har tagit bort ett formulär, alla fält från formuläret som fanns i **Vanliga fält** -avsnittet har tagits bort från det här avsnittet och kan inte längre redigeras här.
+   * Om du har gjort ändringar i formuläret och tar bort det går ändringarna förlorade och kan inte återställas.
+   * När du har tagit bort ett formulär tas alla fält från det formuläret som fanns i avsnittet **Gemensamma fält** bort från det här avsnittet och kan inte längre redigeras här.
 
-1. Klicka **Återställ formulär** för att återställa formuläret till det tillstånd det hade innan du redigerade objekten.
+1. Klicka på **Återställ formulär** om du vill återställa formuläret till det tillstånd det hade innan du redigerade objekten.
 1. (Valfritt) Klicka på komprimeringspilen bredvid namnet på formuläret för att komprimera ett formulär i taget.
 
    eller
 
-   Klicka **Komprimera Forms** om du vill komprimera alla formulär samtidigt.
+   Klicka på **Komprimera Forms** om du vill komprimera alla formulär samtidigt.
 
 1. (Valfritt) Klicka på pilen bredvid namnet på formuläret för att expandera ett formulär i taget.
 
    eller
 
-   Klicka **Expandera Forms** om du vill expandera alla formulär samtidigt. 
+   Klicka på **Expandera Forms** om du vill expandera alla formulär samtidigt. 
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

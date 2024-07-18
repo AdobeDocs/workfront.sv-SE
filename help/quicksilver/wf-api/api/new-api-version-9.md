@@ -9,7 +9,7 @@ role: Developer
 exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Nya resurser
 
-Det här är en lista över resurser som är nya för API version 9. En lista över uppdateringar som gjorts för resurserna i version 9 finns på [Uppdateringar av API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Det här är en lista över resurser som är nya för API-version 9. En lista över uppdateringar som har gjorts för resurserna i version 9 finns på [Uppdateringar av API-version 9](../../wf-api/api/new-api-version-9-updates.md)
 
 ### AccessLevel
 
@@ -140,4 +140,4 @@ Det här är en lista över resurser som är nya för API version 9. En lista ö
 
  
 
-Listan har delats upp i två halvor. Om du vill se den andra halvan går du till [Nyheter i API version 9 (forts.)](../../wf-api/api/new-api-version-9-continue.md). En lista över uppdateringar för version 9 finns på [Uppdateringar av API version 9](../../wf-api/api/new-api-version-9-updates.md)
+Listan har delats upp i två halvor. Den andra halvan visas i [Nyheter i API-version 9 (forts.)](../../wf-api/api/new-api-version-9-continue.md). Om du vill visa en lista över uppdateringar av version 9 går du till [Uppdateringar av API-version 9](../../wf-api/api/new-api-version-9-updates.md)

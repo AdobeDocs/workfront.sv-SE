@@ -23,8 +23,8 @@ Om du kör en rapport med åtkomsträttigheter för en annan användare som har 
 
 >[!TIP]
 >
->Du bör ersätta **Kör den här rapporten med åtkomsträttigheterna för:** fältet med en aktiv användare endast om du vill att rapporten ska visas med den användarens åtkomstbehörighet. En arbetslicensanvändare kanske inte har behörighet att se alla objekt i en rapport som skapats av en planlicensanvändare eller systemadministratör, såvida inte rapporten visas med behörigheten för en planerare eller systemadministratör.\
-Om rapporten delas med användare med liknande åtkomst som användaren som anges i **Kör den här rapporten med åtkomsträttigheterna för:** kan du lämna det här fältet tomt.
+>Du bör ersätta **Kör den här rapporten med åtkomstbehörigheten för**-fältet med en aktiv användare endast om du vill att rapporten ska visas med den användarens åtkomstbehörighet. En arbetslicensanvändare kanske inte har behörighet att se alla objekt i en rapport som skapats av en planlicensanvändare eller systemadministratör, såvida inte rapporten visas med behörigheten för en planerare eller systemadministratör.\
+>Om rapporten delas med användare med liknande åtkomst som användaren som anges i fältet **Kör den här rapporten med åtkomstbehörigheten** kan du lämna det här fältet tomt.
 
 ## Åtkomstkrav
 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,57 +57,57 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Visa en rapport med åtkomsträttigheter för en annan användare
 
-Fyller i **Kör den här rapporten med åtkomsträttigheter för:** -fältet ser till att en rapport innehåller samma data, oavsett vilken användare som använder rapporten. Rapporten visas på samma sätt som för den angivna användaren.
+Om du fyller i **Kör den här rapporten med åtkomsträttigheterna för fältet** säkerställs att en rapport innehåller samma data, oavsett vilken användare som använder rapporten. Rapporten visas på samma sätt som för den angivna användaren.
 
-De användare som får åtkomst till rapporten måste ha minst behörigheten Visa i rapporten för att kunna se den. Om användaren listas i **Kör den här rapporten med åtkomsträttigheter för:** fältet är inaktiverat, visas inte längre rapporten för andra användare som rapporten delas med.
+De användare som får åtkomst till rapporten måste ha minst behörigheten Visa i rapporten för att kunna se den. Om användaren som anges i fältet **Kör den här rapporten med åtkomsträttigheter för:** är inaktiverad visas inte längre rapporten för andra användare som rapporten delas med.
 
 Så här kör du en rapport med åtkomsträttigheter för en annan användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 
 1. Markera den rapport som du vill visa med en annan användares åtkomsträttigheter.
-1. Klicka **Rapportåtgärder** och sedan klicka **Redigera**.
+1. Klicka på **Rapportåtgärder** och sedan på **Redigera**.
 
-1. Klicka **Rapportinställningar**.
+1. Klicka på **Rapportinställningar**.
 
-1. I **Kör den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på användaren som du vill att rapporten ska visas som och markerar det när du ser det i listan.\
+1. I fältet **Kör den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som och markerar den när du ser den i listan.\
    ![](assets/qs-access-rights-of-350x251.png)
 
    >[!NOTE]
    >
-   Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för **Kör den här rapporten med åtkomsträttigheter för:** fält.
+   >Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för fältet **Kör den här rapporten med åtkomstbehörigheten**.
 
-1. Klicka **Klar**.
-1. Klicka **Spara + Stäng**.\
-   Rapporten visas nu för alla användare som rapporten delas med som om den visades av användaren som anges i **Kör den här rapporten med åtkomsträttigheterna för:** fält.
+1. Klicka på **Klar**.
+1. Klicka på **Spara + Stäng**.\
+   Rapporten visas nu för alla användare som rapporten delas med som om den visades av användaren som anges i fältet **Kör den här rapporten med åtkomstbehörigheten**.
 
 >[!IMPORTANT]
 >
-Ange en annan användare än den inloggade användaren för **Kör den här rapporten med åtkomsträttigheterna för:** fältet påverkar den information som visas i rapporten om rapporten innehåller ett filter som använder ett jokertecken som refererar till den inloggade användaren. Rapporten visas enligt det värde som anges i **Kör den här rapporten med åtkomsträttigheterna för:** i stället för det som definieras i jokerteckensfiltret.
+>Om du anger en annan användare än den inloggade användaren för **Kör den här rapporten med åtkomsträttigheten** påverkas den information som visas i rapporten om rapporten innehåller ett filter som använder ett jokertecken som refererar till den inloggade användaren. Rapporten visas enligt det värde som anges i **Kör den här rapporten med åtkomstbehörigheten** i stället för det som definieras i jokerteckensfiltret.
 >
-Mer information om jokertecken för användarfält finns i avsnittet om användarbaserade variabler i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>Mer information om jokertecken för användarfält finns i avsnittet om användarbaserade variabler i [Översikt över jokerteckenfiltervariabler](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Leverera en rapport med åtkomsträttigheter för en annan användare
 
-Du kan konfigurera rapporter som ska levereras som bilagor till ett e-postmeddelande. Du kan konfigurera de här levererade rapporterna så att de visas för användare med högre åtkomstnivå, så att alla användare kan se samma information i de levererade rapporterna. De användare som ska se rapporten som levereras i e-postmeddelandet måste läggas till i listan Skicka till för mottagare i rapportleveransen. Mer information om hur du ställer in en leveransrapport finns i artikeln [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Du kan konfigurera rapporter som ska levereras som bilagor till ett e-postmeddelande. Du kan konfigurera de här levererade rapporterna så att de visas för användare med högre åtkomstnivå, så att alla användare kan se samma information i de levererade rapporterna. De användare som ska se rapporten som levereras i e-postmeddelandet måste läggas till i listan Skicka till för mottagare i rapportleveransen. Mer information om hur du konfigurerar en leveransrapport finns i artikeln [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 Så här skickar du en rapport med åtkomsträttigheter för en annan användare:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
 
 1. Välj den rapport som du vill leverera med en annan användares åtkomstbehörighet.
 1. Klicka på rapportens namn för att markera den.
-1. Klicka **Rapportåtgärder**.
-1. Klicka **Skicka rapport**.
+1. Klicka på **Rapportera åtgärder**.
+1. Klicka på **Skicka rapport**.
 
-1. I **Leverera den här rapporten med åtkomsträttigheterna i:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som när den levereras i ett e-postmeddelande och markerar det när du ser den i listan. Standardvärdet är namnet på den användare som skapar rapporten.\
+1. I fältet **Leverera den här rapporten med åtkomsträttigheterna för:** börjar du skriva namnet på den användare som du vill att rapporten ska visas som när den levereras i ett e-postmeddelande och markerar den när du ser den i listan. Standardvärdet är namnet på den användare som skapar rapporten.\
    ![](assets/qs-send-report-access-rights-of-350x446.png)
 
    >[!NOTE]
    >
-   Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för **Leverera den här rapporten med åtkomsträttigheterna i:** fält.
+   >Användare med en lägre åtkomstnivå som kan skapa rapporter kan inte välja någon annan användare än sig själva för fältet **Leverera den här rapporten med åtkomstbehörigheten**.
 
-1. Välj **Format** vill du att rapporten ska visas i e-postmeddelandet:
+1. Välj det **format** som du vill att rapporten ska visas i e-postmeddelandet:
 
    * HTML
    * PDF
@@ -115,24 +115,24 @@ Så här skickar du en rapport med åtkomsträttigheter för en annan användare
    * MS Excel (.xlsx)
    * TSV
 
-1. Klicka **Skicka nu** för att skicka det omedelbart.\
+1. Klicka på **Skicka nu** för att skicka det direkt.\
    eller\
-   Klicka **Gör upprepad leverans** för att schemalägga en återkommande leverans för rapporten.\
+   Klicka på **Skapa upprepad leverans** om du vill schemalägga en återkommande leverans för rapporten.\
    Mer information om rapportleveranser finns i artikeln [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Begränsningar för rapporter med en källkolumn
+## Begränsningar för rapporter med en Source-kolumn
 
-I följande rapporter visas en källkolumn där du kan visa information om det överordnade objektet:
+I följande rapporter visas en Source-kolumn där du kan visa information om det överordnade objektet:
 
 * Utfallsrapporter
 * Timrapporter
 * Dokumentrapporter
 
-Om användarna inte har behörighet till det överordnade objektet för ett problem, en timme eller ett dokument, visas rapportens källkolumn som tom, även om rapporten är konfigurerad att visas eller att levereras med en annan användares åtkomstbehörighet.
+Om användare inte har behörighet till det överordnade objektet för ett problem, en timme eller ett dokument visas kolumnen Source i rapporten tom, även om rapporten är konfigurerad att visas eller levereras med en annan användares åtkomstbehörighet.
 
 Om du vill visa information om det överordnade objektet i rapporten rekommenderar vi att du lägger till en kolumn för det överordnade objektet där du kan visa namnet på det överordnade objektet.
 
-Du kan till exempel lägga till något av följande i en rapport med en källkolumn:
+Du kan till exempel lägga till något av följande i en rapport med en Source-kolumn:
 
 * Kolumnerna Projektnamn, Aktivitetsnamn eller Utleveransnamn till ett dokument eller en timrapport.
 * Kolumnerna Projektnamn eller Aktivitetsnamn i en problemrapport.

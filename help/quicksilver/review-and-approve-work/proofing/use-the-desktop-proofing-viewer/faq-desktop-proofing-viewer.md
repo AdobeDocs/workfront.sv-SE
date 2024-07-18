@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Endast om du skickar ett interaktivt korrektur eller en webbplats i realtid till
 
 ## Vilken status har den äldre korrekturläsaren, som min organisation har använt för interaktiv korrektur?
 
-Före version 2018.3 hade det äldre korrekturläsaren stöd. I version 2018.3 (i november 2018) har det äldre språkvisningsprogrammet och alla andra program som använder Flash tagits bort och är inte längre tillgängliga. 
+Före version 2018.3 hade det äldre korrekturläsaren stöd. I version 2018.3 (i november 2018) har det äldre korrekturläsaren och alla andra program som är beroende av Flash tagits bort och är inte längre tillgängliga. 
 
 För statisk text och videoklipp är det nya visningsprogrammet för webbkorrektur standardvisningsprogrammet. För interaktiva korrektur är Desktop Proofing Viewer standardvisningsprogram.
 

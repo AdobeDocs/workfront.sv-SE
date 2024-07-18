@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Tidigaste tillgängliga tid'
+title: 'Översikt över aktivitetsbegränsning: Tidigast tillgänglig tid'
 description: Tidigaste tillgängliga tid är en aktivitetsbegränsning som schemalägger att en uppgift påbörjas så snart som möjligt efter att ha övervägt eventuella föregående relationer.
 author: Alina
 feature: Work Management
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Tidigaste tillgängliga tid
+# Översikt över uppgiftsbegränsning: Tidigast tillgänglig tid
 
 Tidigaste tillgängliga tid är en aktivitetsbegränsning som schemalägger att en uppgift påbörjas så snart som möjligt efter att ha övervägt eventuella föregående relationer.
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -64,20 +64,20 @@ Begränsningen Tidigaste tillgängliga tid skiljer sig från villkoret Så snart
 * Aktiviteter i projektet har en föregående relation
 * Föregående aktivitet har en flexibel aktivitetsbegränsning
 
-I denna situation:
+I den här situationen:
 
-* **Tidigaste tillgängliga tid:** Om du använder villkoret Tidigast tillgängliga tid för efterföljande aktivitet prioriteras föregående åtgärds flexibla begränsning.
+* **Tidigaste tillgängliga tid:** Om du använder den tidigaste tillgängliga tidsbegränsningen för efterföljande aktivitet prioriteras föregående åtgärds flexibla begränsning.
 
-   **EXEMPEL**
+  **EXEMPEL**
 
-   Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har den tidigaste tillgängliga tidsbegränsningen och aktivitet A har begränsningen As Late As Possible. I sådana fall är uppdrag B schemalagt så nära att projektet har slutförts som möjligt.
+  Aktivitet A är en föregångare till aktivitet B. Aktivitet B har den tidigaste tillgängliga tidsbegränsningen och aktivitet A har begränsningen Så sent som möjligt. I sådana fall är uppdrag B schemalagt så nära att projektet har slutförts som möjligt.
 
-   ![Tidigaste tillgängliga tidsbegränsning när aktiviteten har datum som ligger nära projektets slutförandedatum](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+  ![Tidigaste tillgängliga tidsbegränsning när aktiviteten har datum nära projektets slutförandedatum](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-* **Så snart som möjligt:** I det här fallet ges prioriteten till efterföljande uppgift om du använder villkoret Så snart som möjligt för efterföljande uppgift.
+* **Så snart som möjligt:** I det här scenariot ger begränsningen Så snart som möjligt för efterföljande aktivitet prioriteten för efterföljande aktivitet.
 
-   **EXEMPEL**
+  **EXEMPEL**
 
-   Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har begränsningen As Son As Possible och aktivitet A har begränsningen As Late As Possible. I så fall är uppgift B schemalagd så nära projektets början som möjligt.
+  Aktivitet A är en föregångare till Aktivitet B. Aktivitet B har begränsningen Så snart som möjligt och Aktivitet A har begränsningen Så sent som möjligt. I så fall är uppgift B schemalagd så nära projektets början som möjligt.
 
-   ![Så snart som möjligt, begränsning när aktiviteten har datum nära projektets startdatum](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![Som möjligt så snart som möjligt när aktiviteten har datum nära projektets startdatum](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

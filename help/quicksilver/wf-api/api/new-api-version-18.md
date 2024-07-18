@@ -286,7 +286,7 @@ En viss arbetsuppgift, till exempel en uppgift, ett dokument eller en tidrapport
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -354,7 +354,7 @@ Baslinjer är bilder på hur ett projekts prestanda ser ut vid en viss tidpunkt.
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -394,7 +394,7 @@ Baslinjer är bilder på hur ett projekts prestanda ser ut vid en viss tidpunkt.
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -540,7 +540,7 @@ Ett Document-objekt representerar en fil (t.ex. skrivet material, bilder eller a
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -569,7 +569,7 @@ Ett Document-objekt representerar en fil (t.ex. skrivet material, bilder eller a
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -688,7 +688,7 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -767,7 +767,7 @@ Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publice
       <td>
         <ul>
           <li>
-            <p><b>requestCoreAction</b>
+            <p><b>requestedCoreAction</b>
             </p>
             <p>Följande möjliga värden har lagts till:</p>
              <ul>
@@ -792,7 +792,7 @@ Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publice
             </ul>
           </li>
           <li>
-            <p><b>requestForbiddenActions</b>
+            <p><b>requestedForbiddenActions</b>
             </p>
             <p>Följande möjliga värden har lagts till:</p>
             <ul>
@@ -895,7 +895,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -941,7 +941,7 @@ Ett Template-objekt representerar ett mönster för ett projekt. Projekt kan ska
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -972,7 +972,7 @@ Ett TemplateTask-objekt representerar en aktivitet som är en del av en Template
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>
@@ -1112,7 +1112,7 @@ Ett UserPrefValue-objekt representerar en användarinställning.
       <td>
         <ul>
           <li>
-            <p><b>value</b>
+            <p><b>värde</b>
             </p>
             <p>Valideraren har lagts till <code>MAX_LENGTH</code></p>
       </td>
@@ -1149,7 +1149,7 @@ Ett Work-objekt är ett vanligt gränssnitt som både Task och OpTask ärver och
                 </p>
               </li>
               <li>
-                <p><b>planeradEjFakturerbarUtgiftKostnad</b>
+                <p><b>planeradNonBillableExpenseCost</b>
                 </p>
               </li>
              </ul>

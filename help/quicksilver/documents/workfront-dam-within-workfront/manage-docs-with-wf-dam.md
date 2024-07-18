@@ -33,11 +33,11 @@ Innan du kan länka dokument med Workfront DAM måste du integrera Workfront med
 
 Du kan spara dokument från Workfront till Workfront DAM.
 
-1. Gå till **Dokument** för objekt i Workfront väljer du den fil du vill spara i Workfront DAM och klickar sedan på **Mer**.
+1. Gå till fliken **Dokument** för alla objekt i Workfront, markera filen som du vill spara i Workfront DAM och klicka sedan på **Mer**.
 
-1. Klicka **Skicka till** klickar du på Workfront DAM.
+1. Klicka på ikonen **Skicka till** och sedan på Workfront DAM.
 
-1. Klicka **Workfront DAM,** klickar du på den plats där du vill spara dokumentet.
+1. Klicka på **Workfront DAM** och klicka sedan på den plats där du vill spara dokumentet.
 
 Mer information om hur du automatiskt inkluderar dokumentmetadata när du sparar dokument från Workfront till Workfront DAM finns i&quot;Konfigurera Workfront för att skicka metadata till Workfront DAM&quot; i  [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
@@ -45,10 +45,10 @@ Mer information om hur du automatiskt inkluderar dokumentmetadata när du sparar
 
 Workfront DAM är ett dedikerat lagringsutrymme där dina DAM-resurser lagras. På så sätt kan du lägga till dokument från Workfront DAM till Workfront utan att påverka Workfront lagringsutrymme. 
 
-1. Gå till **Dokument** -fliken för det objekt som du vill länka dokument till från Workfront DAM.
-1. Klicka **Lägg till ny**.
+1. Gå till fliken **Dokument** för objektet som du vill länka dokument till från Workfront DAM.
+1. Klicka på **Lägg till ny**.
 
-1. I listrutan klickar du på **Från Workfront DAM**.
+1. Klicka på **Från Workfront DAM** i listrutan.
 1. Bläddra till och markera de resurser som du vill länka i Workfront.
 
    Miniatyrbilder visas på fliken Dokument. Markera miniatyrbilden för att visa filnamnet. 

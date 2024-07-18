@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 1 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 1-versionen. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 22 mars 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 1. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 22 mars 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 # 2018.2 Beta 1 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 1-versionen. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 22 mars 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 1. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 22 mars 2018. Den kommer att göras tillgänglig i produktionsmiljön i juni 2018.
 
 >[!IMPORTANT]
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.2 finns på [Aktivitetsöversikt för 2018.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.2 finns i [Översikt över versionsaktivitet för 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Betaversionen 2018.2 innehåller följande förbättringar:
+2018.2 Beta 1 innehåller följande förbättringar:
 
 * [Ändra aktivitetsdatum i Gantt-schemat](#modify-task-dates-in-the-gantt-chart)
-* [Gå till Project Gantt-schemat från fliken Uppdateringar](#access-the-project-gantt-chart-from-the-updates-tab) (Tillfälligt borttagen)
+* [Gå till Project Gantt-schemat från fliken Uppdateringar](#access-the-project-gantt-chart-from-the-updates-tab) (tillfälligt borttagen)
 
 * [Olika länkar återinfördes till dokument i dokumentlistan](#various-links-re-introduced-to-documents-on-the-document-list)
 * [Förbättringar av användarvyn i resursplaneraren](#user-view-improvements-in-the-resource-planner)
 * [Ny projektlisteupplevelse](#new-project-list-experience)
-* [Ny sökning efter uppdateringsflik](#new-look-for-updates-tab)
+* [Ny sökning efter uppdateringsfliken](#new-look-for-updates-tab)
 * [Mobilförbättringar](#mobile-improvements)
 
 ## Ändra aktivitetsdatum i Gantt-schemat {#modify-task-dates-in-the-gantt-chart}
@@ -41,7 +41,7 @@ Nu kan du dra aktivitetsbubblan för att ändra planerad start- och planerad slu
 
 Före den här ändringen kan du bara ändra aktivitetsdatum i uppgiftslistan eller på aktivitetsnivå.
 
-Mer information finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Mer information finns i [Uppdatera information i Gantt-schemat för uppgiftslistan](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Gå till Project Gantt-schemat från fliken Uppdateringar {#access-the-project-gantt-chart-from-the-updates-tab}
 
@@ -55,7 +55,7 @@ Före den här ändringen öppnades det äldre Gantt-schemat via länken Projekt
 
 Mer information finns i [Genomför datumöversikt](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Mer information finns i [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information finns i [Översikt över Portfolio-optimering](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Olika länkar återinfördes till dokument i dokumentlistan {#various-links-re-introduced-to-documents-on-the-document-list}
 
@@ -95,7 +95,7 @@ Följande funktioner har tillfälligt inaktiverats i resursplaneraren:
 
 Före dessa förbättringar har du rapporterat att resursplaneraren var långsam att läsa in och att du har upptäckt inkonsekvenser i de data som visas. Dessa förbättringar bör nu tas bort.
 
-Mer information om resursplaneringens områden finns i [Översikt över navigering i resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om områdena i resursplaneraren finns i [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 <!--
 <p dir="ltr" data-mc-conditions="QuicksilverOrClassic.Draft mode">To participate in our current beta program and give us feedback on the functionality of the Resource Planner, see <a href="../../../../product-announcements/betas/resource-planner-performance-beta.md" class="MCXref xref">Resource Planner performance beta </a></p>
@@ -119,10 +119,10 @@ För det mesta ändras listans hastighet och effektivitet. Följande synliga än
 
 Följande funktioner har tillfälligt inaktiverats i de angivna projektlistorna:
 
-* Ändra storlek på kolumner (den här funktionen återinfördes i Beta 5-versionen 2018.2)
+* Ändra storlek på kolumner (den här funktionen återinfördes i 2018.2 Beta 5)
 * Ordna om kolumner
-* Statusikonfält visas som tomma (den här funktionen återinfördes i Beta 5-versionen från 2018.2)
-* Gantt-schemat är inte tillgängligt (den här funktionen återinfördes i Beta 3-versionen från 2018.2).
+* Statusikonfält visas som tomma (den här funktionen återinfördes i 2018.2 Beta 5)
+* Gantt-schemat är inte tillgängligt (den här funktionen återinfördes i version 2018.2 av Beta 3).
 
 Mer information om hur du arbetar i listor finns i [Kom igång med listor i Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
@@ -143,8 +143,8 @@ I följande tabell visas uppdateringarna på fliken Uppdateringar:
  <col> 
  <thead> 
   <tr> 
-   <th> <p><strong>Uppgift</strong> </p> </th> 
-   <th> <p><strong>Föregående användaråtgärd</strong> </p> </th> 
+   <th> <p><strong>Aktivitet</strong> </p> </th> 
+   <th> <p><strong>Tidigare användaråtgärd</strong> </p> </th> 
    <th> <p><strong>Ny användaråtgärd</strong> </p> </th> 
    <th> <p><strong>Mer information finns i..</strong> </p> </th> 
   </tr> 
@@ -190,7 +190,7 @@ I följande tabell visas uppdateringarna på fliken Uppdateringar:
    <td> <p>Lägga till ett svar eller en uppdatering till en kommentar eller uppdatering</p> </td> 
    <td> <p>Klicka på knappen Kommentar</p> </td> 
    <td> <p>Klicka på knappen Svara eller Uppdatera</p> </td> 
-   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdatera arbete</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Uppdatera aktivitetsstatus</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Uppdatera villkor för aktiviteter och ärenden</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Lägga till en uppdatering i ett dokument</a> </p> </td> 
+   <td> <p><a href="../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdatera arbete</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Uppdatera aktivitetsstatus</a> </p> <p><a href="../../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Uppdatera villkor för aktiviteter och problem</a> </p> <p> </p> <p><a href="../../../../documents/managing-documents/add-update-documents.md" class="MCXref xref">Lägg till en uppdatering i ett dokument</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>

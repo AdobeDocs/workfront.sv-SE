@@ -19,7 +19,7 @@ Villkoret för ett projekt är en flagga som placeras på det för att ange om a
 
 Du kan ställa in villkoret för ett projekt antingen automatiskt eller manuellt. Om du vill ändra villkoret för ett projekt manuellt måste du vara projektägare eller ha behörighet att hantera det.
 
-Adobe Workfront-administratören kan skapa anpassade villkor för din miljö enligt beskrivningen i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+Adobe Workfront-administratören kan skapa anpassade villkor för din miljö, vilket beskrivs i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
 ## Åtkomstkrav
 
@@ -57,7 +57,7 @@ För aktuella licenser:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ange villkoret automatiskt
 
@@ -74,16 +74,16 @@ Mer information om projektvillkor och hur de beräknas baserat på förloppsstat
 Om du ställer in projektets villkorstyp på Manuell i stället för Status kan du uppdatera ett projekts villkor manuellt.
 
 1. Gå till det projekt som du vill uppdatera villkoret för.
-1. Klicka på **Projektinformation** i den vänstra panelen.
+1. Klicka på avsnittet **Projektinformation** i den vänstra panelen.
 
-1. Se till att **Villkorstyp** fältet är inställt på **Manuell**.
+1. Kontrollera att fältet **Villkorstyp** är inställt på **Manuell**.
 
    ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
 
-1. I **Villkor** väljer du bland följande alternativ det som matchar din förståelse för om arbetet som är kopplat till det går smidigt eller om det blir några förseningar:
+1. I fältet **Villkor** väljer du bland följande alternativ det som matchar din förståelse för om arbetet som är kopplat till det går smidigt eller om det finns några förseningar:
 
    * **På mål**
-   * **Risk**
+   * **Vid risk**
    * **I problem**
 
    Mer information om projektvillkor finns i [Översikt över projektvillkor och villkorstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
@@ -92,4 +92,4 @@ Om du ställer in projektets villkorstyp på Manuell i stället för Status kan 
    >
    >Villkoren kan anpassas efter din miljö, så du kan hitta fler än tre alternativ för Villkor i din miljö. Namnen på villkoren kan skilja sig från namnen ovan. Mer information om hur du anpassar villkor i Workfront finns i [Skapa eller redigera ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

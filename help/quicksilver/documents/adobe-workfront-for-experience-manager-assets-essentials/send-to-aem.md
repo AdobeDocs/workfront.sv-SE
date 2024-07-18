@@ -17,15 +17,15 @@ ht-degree: 0%
 
 Du kan skicka dokument från Workfront till Experience Manager Assets eller Assets Essentials. Dokument som överförts och skickats från Workfront till Assets Essentials räknas fortfarande mot den totala dokumentlagringen. Assets som är länkat från Assets Essentials räknas inte in i det totala lagringsutrymmet.
 
-Assets som skickas till Experience Manager via den här integreringen har en storleksbegränsning på **5 GB**.
+Assets som skickas till Experience Manager via den här integreringen har en storleksgräns på **5 GB**.
 
 I förhandsvisningsmiljön har Assets som skickas till Experience Manager via den här integreringen en storleksgräns på **30 GB**.
 
-Metadatafält mappas först när du skickar en resurs från Workfront till Experience Manager Assets eller Assets Essentials. Alla metadata som har konfigurerats för att mappa för överordnade objekt skickas också. Mer information om hur du konfigurerar metadatamappning finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Metadatafält mappas först när du skickar en resurs från Workfront till Experience Manager Assets eller Assets Essentials. Alla metadata som har konfigurerats för att mappa för överordnade objekt skickas också. Mer information om hur du konfigurerar metadatamappning finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
 >
->**Exempel** När du först skickar en resurs som är kopplad till en uppgift mappas metadata för uppgiften till Experience Manager Assets eller Assets Essentials samt alla mappade metadata från överordnade objekt som ett projekt, en portfölj och ett program.
+>**Exempel** När du först skickar en resurs som är kopplad till en aktivitet mappas metadata för aktiviteten till Experience Manager Assets eller Assets Essentials samt alla mappade metadata från överordnade objekt som ett projekt, en portfölj och ett program.
 
 ## Åtkomstkrav
 
@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna slutföra stegen i den här artik
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
    <td> <p> Alla</p> </td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna slutföra stegen i den här artik
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -69,17 +69,17 @@ Du måste ha följande åtkomst för att kunna slutföra stegen i den här artik
 
 Innan du börjar,
 
-* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Din Workfront-administratör måste konfigurera en integrering med Experience Manager. Mer information finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 
 ## Skicka ett dokument från Workfront
 
-När en användare skickar ett dokument från Workfront till Experience Manager Assets eller Assets Essentials överförs mappade metadata tillsammans med dokumentet. När dokumentet har skickats återspeglas inte ändringar som görs i dokumentets metadata i Workfront i Assets eller Assets Essentials. Om ett mappat fält i Workfront ändras måste du skicka en ny version av dokumentet med de uppdaterade metadata till Assets eller Assets Essentials. Information om hur du ställer in eller redigerar metadata finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera integreringen av Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+När en användare skickar ett dokument från Workfront till Experience Manager Assets eller Assets Essentials överförs mappade metadata tillsammans med dokumentet. När dokumentet har skickats återspeglas inte ändringar som görs i dokumentets metadata i Workfront i Assets eller Assets Essentials. Om ett mappat fält i Workfront ändras måste du skicka en ny version av dokumentet med de uppdaterade metadata till Assets eller Assets Essentials. Information om hur du konfigurerar eller redigerar metadata finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) eller [Konfigurera Experience Manager Assets Essentials-integrering](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 Skicka ett dokument:
 
-1. Gå till **Dokument** i Workfront och markera dokumentet som du vill skicka.
-1. Klicka **Skicka till** väljer du sedan den integrering av Experience Manager som administratören har konfigurerat.
+1. Gå till området **Dokument** i Workfront och markera det dokument som du vill skicka.
+1. Klicka på **Skicka till** och välj sedan den Experience Manager-integrering som administratören har konfigurerat.
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Skicka ett dokument:
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Välj vart du vill att resursen ska gå och klicka sedan på **Välj mapp**.
-1. När du hittar önskat mål klickar du på **Spara**.
+1. Klicka på **Spara** när du har hittat önskat mål.
 
 ## Skicka en ny version
 
@@ -100,8 +100,8 @@ Du kan lägga till en ny version i ett dokument som du tidigare har överfört t
 
 Så här skickar du den senaste versionen:
 
-1. Gå till **Dokument** i Workfront och leta upp dokumentet.
-1. Välj **Skicka till** väljer du sedan den integrering av Experience Manager som administratören har konfigurerat.
+1. Gå till området **Dokument** i Workfront och leta upp dokumentet.
+1. Välj **Skicka till** och välj sedan den Experience Manager-integrering som administratören har konfigurerat.
 
    >[!NOTE]
    >
@@ -109,7 +109,7 @@ Så här skickar du den senaste versionen:
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. Klicka **Spara**. Den nya versionen sparas på samma plats som den tidigare versionen.
+1. Klicka på **Spara**. Den nya versionen sparas på samma plats som den tidigare versionen.
 
 ## Flytta ett dokument till en länkad mapp i Experience Manager Assets
 

@@ -75,7 +75,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade
 </td>
   </tr>
@@ -104,11 +104,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 
    Arbetsytan öppnas och posttyperna visas.
-1. Håll muspekaren över ett kort av en posttyp och klicka på knappen **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**.
+1. Håll muspekaren över kortet för en posttyp och klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av posttypskortet och klicka sedan på **Redigera**.
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. I **Redigera posttyp** uppdaterar du följande information:
+1. Uppdatera följande information i rutan **Redigera posttyp**:
 
    * Redigera posttypens namn om det behövs. <!--did they add a field label for this? -->
    * **Beskrivning**: Redigera eller lägg till en beskrivning för posttypen med mer information om den.
@@ -118,9 +118,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      ![](assets/update-record-type-box.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 1. (Valfritt) Klicka på posttypskortet i arbetsytan för att öppna posttypens sida.
-1. Klicka på **Mer** till höger om posttypens namn och klicka sedan på **Redigera** om du vill uppdatera information om posttypen.
+1. Klicka på menyn **Mer** till höger om posttypens namn och klicka sedan på **Redigera** för att uppdatera information om posttypen.
 
    >[!TIP]
    >

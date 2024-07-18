@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Widgetar för Hem
-description: Arbetsytewidgetarna för både iOS och Android hjälper dig att hitta dina arbetsobjekt snabbt.
+description: Arbetsytewidgetarna för både iOS och Android hjälper dig att snabbt hitta dina arbeten.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 36af1b05-4c95-4b8e-9b96-03b30fa9852c
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 # [!UICONTROL Home] områdeswidgetar
 
-Widgetarna för hemområdet för båda [!DNL iOS] och [!DNL Android] hjälper dig att snabbt hitta dina arbetsuppgifter.
+Arbetsytewidgetarna för både [!DNL iOS] och [!DNL Android] hjälper dig att snabbt hitta dina arbetsobjekt.
 
-![Widgetar för Hem](assets/mobile-home-area-widgets.png)
+![Widgetar för hemområdet](assets/mobile-home-area-widgets.png)
 
 **[!UICONTROL Due Today]:** Visar antalet arbetsuppgifter som förfaller idag. Markera widgeten för att visa listan med objekt.
 
@@ -25,4 +25,4 @@ Widgetarna för hemområdet för båda [!DNL iOS] och [!DNL Android] hjälper di
 
 **[!UICONTROL Late Work]:** Visar antalet försenade arbetsobjekt (efter planerat slutförandedatum). Markera widgeten för att visa listan med objekt.
 
-**[!UICONTROL Mentions]:** Visar antalet olästa omnämnanden. En varning är ett meddelande där du taggas eller meddelas i [!UICONTROL Updates] för ett objekt i [!DNL Adobe Workfront]. Markera widgeten för att visa en lista med omnämnanden.
+**[!UICONTROL Mentions]:** Visar antalet olästa omnämnanden. Ett omnämnande är ett meddelande där du taggas eller meddelas på fliken [!UICONTROL Updates] för ett objekt i [!DNL Adobe Workfront]. Markera widgeten för att visa en lista med omnämnanden.

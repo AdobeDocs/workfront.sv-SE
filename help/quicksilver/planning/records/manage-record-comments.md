@@ -28,7 +28,7 @@ Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommen
 
 I den högra panelen för en post visas följande avsnitt:
 
-* **Kommentar**: Visar kommentarer och svar som användare lägger till i poster.
+* **Kommentarer**: Visar kommentarer och svar som användare lägger till i poster.
 * **Historik**: Visar ändringar som användarna gör i postfälten. Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Åtkomstkrav
@@ -73,7 +73,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Visa eller högre behörigheter på en arbetsyta</a> </p>  
+   <td> <p>Visa eller högre behörigheter på en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -95,7 +95,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Du kan lägga till kommentarer i Workfront Planning-poster som har skapats som ett resultat av en anslutning mellan en post och ett objekt från ett annat program.
 
-  Du kan till exempel kommentera projektposten för Workfront Planning när du har kopplat Workfront-projekt till Workfront Planning-poster. Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+  Du kan till exempel kommentera projektposten för Workfront Planning när du har kopplat Workfront-projekt till Workfront Planning-poster. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 * Kommentarer som läggs till i länkade objekt i andra program visas inte i Workfront Planning och kommentarer som läggs till i länkade objekt i Workfront Planning visas inte i andra program.
 
@@ -130,14 +130,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Klicka på ett posttypskort.
 Posttypssidan öppnas och alla poster av den typen visas.
 
-1. Välj en tabellvy på menyn **Visa** listruta.
+1. Välj en tabellvy i listrutan **Visa**.
 1. Klicka på namnet på en post i tabellvyn.
 
-   Posten **Information** sidan öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
+   Postens **informationssida** öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
 
-1. (Villkorligt) Om den högra panelen inte öppnas som standard klickar du på **Visa kommentarer** ![](assets/show-comments-icon.png) i det övre högra hörnet för att öppna kommentarsavsnittet.
+1. (Villkorligt) Om den högra panelen inte öppnas som standard klickar du på ikonen **Visa kommentarer** ![](assets/show-comments-icon.png) i det övre högra hörnet för att öppna kommentarsavsnittet.
 
-1. Börja skriva en kommentar i **Ny kommentar** box.
+1. Börja skriva en kommentar i rutan **Ny kommentar**.
 
    ![](assets/empty-comment-box-on-record.png)
 
@@ -152,7 +152,7 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
    <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
 
-1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i artikeln [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i artikeln [Uppdateringsarbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    >[!TIP]
    >
@@ -162,8 +162,8 @@ Posttypssidan öppnas och alla poster av den typen visas.
    >
    >![](assets/new-line-indicator-comments.png)
 
-1. Klicka **Skicka** för att lägga till uppdateringen i posten.
-1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Redigera**.
+1. Klicka på **Skicka** för att lägga till uppdateringen till posten.
+1. (Valfritt) Om du vill redigera en kommentar klickar du på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och sedan på **Redigera**.
 
    >[!IMPORTANT]
    >
@@ -175,29 +175,29 @@ Posttypssidan öppnas och alla poster av den typen visas.
    >
    >Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
 
-1. (Valfritt och villkorligt) Om du vill söka efter en befintlig kommentar börjar du skriva ett nyckelord i sökrutan i det övre högra hörnet av **Kommentar** område.
+1. (Valfritt och villkorligt) Om du vill söka efter en befintlig kommentar börjar du skriva ett nyckelord i sökrutan i det övre högra hörnet av området **Kommentarer**.
 
    ![](assets/search-box-for-comments-area.png)
 
-1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i **Lägg till svar ...** för att svara på en befintlig kommentar följer du steg 4-8 ovan. <!--(**************accurate??***********)-->
+1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i området **Lägg till svar ...** för att svara på en befintlig kommentar och följ sedan steg 4-8 ovan. <!--(**************accurate??***********)-->
 
-1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i kommentarsavsnittet när du lade till dina kommentarer, klickar du på **Visa** innanför **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
+1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i kommentarsavsnittet när du lade till dina kommentarer, klickar du på **Visa** i den **nya kommentarsbanderollen** längst ned på skärmen för att visa dessa kommentarer.
 
    ![](assets/new-comments-banner-on-record.png)
 
    Ytterligare kommentarer visas längst ned på skärmen.
 
-1. (Valfritt) Klicka på **Gilla** om du vill gilla en uppdatering eller bekräfta att du har läst den. Ikonen uppdateras med antalet gilla-markeringar.
+1. (Valfritt) Klicka på ikonen **Gilla** för att gilla en uppdatering eller bekräfta att du har läst den. Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på avatarerna för de användare som ingår i uppdateringen för att visa en lista över de användare som kommentaren delas med.
-1. (Valfritt) Klicka på **Mer** icon ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka på något av följande alternativ för att kopiera information från en kommentar:
+1. (Valfritt) Klicka på ikonen **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka på något av följande alternativ för att kopiera information från en kommentar:
 
    * **Kopiera länk**: Detta kopierar en länk till kommentaren till Urklipp.
-   * **Kopiera brödtext**: Texten i kommentaren kopieras till Urklipp.
-   * **Offertsvar**: Innehållet i kommentaren kopieras till ett nytt svar. Bilder inkluderas inte i det kopierade svaret.
+   * **Kopiera brödtext**: Detta kopierar texten i kommentaren till Urklipp.
+   * **Offertsvar**: Detta kopierar innehållet i din kommentar till ett nytt svar. Bilder inkluderas inte i det kopierade svaret.
 
    Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Valfritt) Klicka på **Mer** icon ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Ta bort** för att ta bort kommentaren.
-1. (Valfritt) Klicka på **Dölj kommentarer** icon ![](assets/hide-comments-icon.png) för att stänga den högra panelen.
+1. (Valfritt) Klicka på ikonen **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Ta bort** för att ta bort kommentaren.
+1. (Valfritt) Klicka på ikonen **Dölj kommentarer** ![](assets/hide-comments-icon.png) för att stänga den högra panelen.
 
 ## Översikt över avsnittet Historik
 

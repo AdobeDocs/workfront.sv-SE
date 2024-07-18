@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla mobiländringar som gjorts i version 2019.4. Den kommer att göras tillgänglig i produktionsmiljön den 11 november 2019.
 
-En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt över version 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.4 finns i [Översikt över utgåvan 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,28 +28,28 @@ En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt öve
    <td><strong>Få åtkomst till befintliga favoriter och lägg till nya favoriter på mobilen</strong> <p>Nu kan du komma åt Favoriter-menyn i mobilappen Workfront på både iOS- och Android-enheter. Du kan komma åt befintliga objekt från Favoriter-menyn och lägga till nya objekt på Favoriter-menyn.</p> <p>Tidigare var Favoriter-menyn bara tillgänglig när du kom åt Workfront från en webbläsare.</p> <p>Mer information om de funktioner som är tillgängliga när du använder Workfront på iPad finns i <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront för iOS</a> och <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront för Android</a>.</p></td> 
   </tr> 
   <tr> 
-   <td><strong>Uppdaterad navigering på Android</strong> <p>Navigering i Android-mobilappen liknar mer navigering när du använder Workfront i en webbläsare</p> <p>Tidigare fanns detta endast på iPhone.</p> <p>Mer information om de funktioner som är tillgängliga när du använder Workfront på iPad finns i <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront för iOS</a>.</p> 
+   <td><strong>Navigeringen på Android har uppdaterats</strong> <p>Navigering i Android mobilapp liknar mer navigering när du använder Workfront i en webbläsare</p> <p>Tidigare fanns detta endast på iPhone.</p> <p>Mer information om de funktioner som är tillgängliga när du använder Workfront på iPad finns i <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront för iOS</a>.</p> 
     <div class="workfront_plans"> 
-     <p><strong>Finns i följande miljöer:</strong> </p> 
+     <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
      <ul> 
-      <li>Android Beta-app</li> 
+      <li>Android Beta</li> 
      </ul> 
-     <p><strong>Beräknad produktionsrelease:</strong> </p> 
+     <p><strong>Uppskattad produktionsrelease:</strong> </p> 
      <ul> 
-      <li> <p>November 2019 med version 2019.4</p> <p>Mer information om version 2019.4 finns i <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Översikt över version 2019.4</a></p> </li> 
+      <li> <p>November 2019 med version 2019.4</p> <p>Mer information om 2019.4-utgåvan finns i <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Översikt över utgåvan 2019.4</a></p> </li> 
      </ul> 
     </div></td> 
   </tr> 
   <tr> 
    <td><strong>Workfront-app för iPad</strong> <p>Workfront har nu en ny mobilapp som är särskilt utformad och optimerad för iPad. Med Workfront på iPad får du full insyn i ditt arbete på en enda skärm, så att du enkelt kan växla mellan olika arbetsmoment och fortsätta arbeta vidare.</p> <p>Mer information om hur du använder Workfront på både iPad och iPhone finns i <a href="../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront för iOS</a>.</p> 
     <div class="workfront_plans"> 
-     <p><strong>Finns i följande miljöer:</strong> </p> 
+     <p><strong>Tillgängligt i dessa miljöer:</strong> </p> 
      <ul> 
       <li>Ingen förhandsgranskning eller betaversion tillgänglig</li> 
      </ul> 
-     <p><strong>Beräknad produktionsrelease:</strong> </p> 
+     <p><strong>Uppskattad produktionsrelease:</strong> </p> 
      <ul> 
-      <li> <p>November 2019 med version 2019.4</p> <p>Mer information om version 2019.4 finns i <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Översikt över version 2019.4</a></p> </li> 
+      <li> <p>November 2019 med version 2019.4</p> <p>Mer information om 2019.4-utgåvan finns i <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">Översikt över utgåvan 2019.4</a></p> </li> 
      </ul> 
     </div></td> 
   </tr> 
@@ -57,13 +57,13 @@ En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt öve
    <td> 
     <div> 
      <strong>Ta bort objekt med mobilappen på Android</strong> 
-     <p>Obs! Den här funktionen gjordes tillgänglig i Android Beta-appen den 8 oktober 2019</p> 
-     <p>Nu kan du ta bort objekt som uppgifter, problem och tidrapporter i Android-mobilappen. Du måste ha rätt behörighet för objektet för att kunna ta bort det.</p> 
+     <p>Obs! Den här funktionen gjordes tillgänglig i appen Android Beta den 8 oktober 2019</p> 
+     <p>Nu kan du ta bort objekt som uppgifter, problem och tidrapporter i Android mobilapp. Du måste ha rätt behörighet för objektet för att kunna ta bort det.</p> 
      <p>Tidigare var den här funktionen bara tillgänglig i iOS mobilapp.</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td><strong>Konvertera uppgifter, ärenden och förfrågningar till ett projekt med mobilappen på Android</strong> <p>Obs! Den här funktionen gjordes tillgänglig i Android Beta-appen den 8 oktober 2019</p> <p>Nu kan du konvertera enskilda uppgifter, ärenden och förfrågningar till projekt i Workfront mobilapp på Android.</p> <p>Tidigare var den här funktionen bara tillgänglig i iOS mobilapp.</p> </td> 
+   <td><strong>Konvertera aktiviteter, problem och förfrågningar till ett projekt med mobilappen Android</strong> <p>Obs! Den här funktionen gjordes tillgänglig i appen Android Beta den 8 oktober 2019</p> <p>Nu kan du konvertera enskilda uppgifter, ärenden och förfrågningar till projekt i Workfront mobilapp på Android.</p> <p>Tidigare var den här funktionen bara tillgänglig i iOS mobilapp.</p> </td> 
   </tr> 
  </tbody> 
 </table>

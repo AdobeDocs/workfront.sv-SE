@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör kan du ge användare åtkomst till att visa eller redigera mallar när du tilldelar deras åtkomstnivå. En användare måste ha en planlicens för att få tillgång till redigeringsmallar.
 
-Mer information om hur du beviljar åtkomst till mallar finns i [Bevilja åtkomst till mallar](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+Mer information om att bevilja åtkomst till mallar finns i [Bevilja åtkomst till mallar](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
 Förutom den åtkomstnivå som du ger kan en användare även få behörighet att visa eller hantera specifika mallar från andra användare som delar dem.
 
@@ -35,29 +35,29 @@ Behörigheterna är specifika för ett objekt i Workfront och definierar vilka �
 
    * Mallen
 
-      Mer information om hur du delar en mall finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     Mer information om hur du delar en mall finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-      Du kan tilldela följande behörigheter till en mall:
+     Du kan tilldela följande behörigheter till en mall:
 
       * Visa
 
-         ![](assets/view-on-template-262x221.png)
+        ![](assets/view-on-template-262x221.png)
 
       * Hantera
 
-         ![](assets/manage-on-template-225x280.png)
+        ![](assets/manage-on-template-225x280.png)
+
    * Framtida projekt som skapas med mallen. Du kan ge samma behörighetsnivåer för projekt som skapats från en mall som för ett enskilt projekt. 
 
-      Mer information om hur du delar ett projekt från en mall på mallnivå finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
-
+     Mer information om hur du delar ett projekt från en mall på mallnivå finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * När du delar en mall eller ett projekt som skapas från mallen ärver användarna som standard samma behörigheter till alla underordnade objekt som är kopplade till mallen eller projektet.
 
-   Mer information om objekthierarkin i Workfront finns i  [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Mer information om objekthierarkin i Workfront finns i  [Förstå objekt i Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * När du delar en mall ärver alla malluppgifter och -dokument, liksom problemen med det framtida projekt som skapas från mallen, samma behörigheter, om inget annat anges.
 
-   Information om hur du hanterar åtkomsten till malluppgifter och problem i projektet baserat på en användares behörigheter till projektet finns i [Åtkomst](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) i artikeln [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  Information om hur du hanterar åtkomsten till malluppgifter och problem i projektet baserat på en användares behörigheter till projektet finns i avsnittet [Åtkomst](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) i artikeln [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 * Workfront-administratören kan ange om dokument ska ärva behörigheter från högre objekt på användarens åtkomstnivå. Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -151,11 +151,11 @@ Tabellen nedan visar vilka behörigheter du kan ge användarna när de får visa
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Lägg till dokument</p> <p>Tips: Ibland lägger man till dokument i en projektmall som tror att de läggs till i ett projekt. Du kan förhindra detta för mottagarna genom att inaktivera den här inställningen.</p> </td> 
+   <td> <p>Lägg till dokument</p> <p>Tips! Ibland lägger man till dokument i en projektmall som tror att de läggs till i ett projekt. Du kan förhindra detta för mottagarna genom att inaktivera den här inställningen.</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om vilka behörigheter du ger användare till projekt som skapas från en mall finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Mer information om vilka behörigheter du ger användare till projekt som har skapats från en mall finns i [Dela ett projekt i Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).

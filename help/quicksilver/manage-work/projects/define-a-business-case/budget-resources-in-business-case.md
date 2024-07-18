@@ -18,19 +18,19 @@ Som en del av resursplaneringen kan du budgetera de jobbroller som krävs för a
 
 >[!NOTE]
 >
->Budgeteringsresurser är inte samma sak som schemaläggningsresurser för ett projekt. När du budgeterar resurser uppskattar du vilka roller som kan behövas för att slutföra arbetet i ett projekt. Information om hur du faktiskt schemalägger eller tilldelar användare till arbetet i ett projekt finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Budgeteringsresurser är inte samma sak som schemaläggningsresurser för ett projekt. När du budgeterar resurser uppskattar du vilka roller som kan behövas för att slutföra arbetet i ett projekt. Information om hur du faktiskt schemalägger eller tilldelar användare till arbetet i ett projekt finns i [Hantera användarallokeringar i Arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 Du måste associera jobbroller med projektet innan du kan budgetera resurserna för det. Här följer några sätt att tilldela jobbroller till ett projekt:
 
 * Använd Resursplanering för att tillämpa resurspooler på projekt- och budgetjobbroller.
 
-   Mer information finns i [Budgetresurser i affärsärendet med hjälp av resursplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Mer information finns i [Budgetresurser i affärsärendet med hjälp av resursplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
 * Använd scenarioplanen för att skapa initiativ med obligatoriska jobbroller och länka dem till projektet. Mer information finns i [Budgetresurser i affärsärendet med scenarioplaneraren](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
-   >[!NOTE]
-   >
-   >Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+  >[!NOTE]
+  >
+  >Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevelsen och kräver ytterligare en licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

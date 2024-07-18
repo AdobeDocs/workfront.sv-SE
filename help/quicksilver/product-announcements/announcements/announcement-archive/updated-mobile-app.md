@@ -2,25 +2,25 @@
 product-previous: mobile
 content-type: reference
 navigation-topic: announcements
-title: Uppdaterad mobilapp för iOS och Android (i början av augusti 2017)
+title: Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)
 description: Adobe Workfront mobilapp bör uppdateras i Apple App och Google Play Stores i början av augusti 2017.
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '371'
+source-wordcount: '375'
 ht-degree: 0%
 
 ---
 
-# Uppdaterad mobilapp för iOS och Android (i början av augusti 2017)
+# Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)
 
 Adobe Workfront mobilapp bör uppdateras i Apple App och Google Play Stores i början av augusti 2017. 
 
-Uppdateringen innehåller följande förbättringar för både mobilplattformarna Android och iOS:
+Uppdateringen innehåller följande förbättringar för mobilplattformarna Android och iOS:
 
-## Skicka begäranden
+## Skicka förfrågningar
 
 Från och med den nya versionen av mobilappen kan du skicka begäranden till köer via din mobila enhet. Du kommer att kunna komma åt samma begärandeköer som du har åtkomst till från webbprogrammet. 
 
@@ -55,4 +55,4 @@ Från och med den nya versionen av mobilappen kan du godkänna korrektur av doku
 
 Före den här uppdateringen kunde du utföra projekt-, uppgifts-, utgåva- och dokumentgodkännanden med mobilappen. Du måste ha en HQ-licens för att godkänna dokumentkorrektur i mobilappen. 
 
-Mer information om korrektur i Workfront finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md) -avsnitt. 
+Mer information om korrektur i Workfront finns i avsnittet [Korrektur](../../../review-and-approve-work/proofing/proofing.md). 

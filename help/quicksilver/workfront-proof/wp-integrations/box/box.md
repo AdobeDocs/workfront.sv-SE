@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Introduktion till [!DNL Workfront Proof] och [!DNL Box] integration](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Skapa ett korrektur via [!DNL Box] Konto](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [Synkronisera [!DNL Box] Mappar med [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [Visa korrekturens originalfil i [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Introduktion till  [!DNL Workfront Proof] och [!DNL Box] integreringen](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Skapa ett korrektur via ditt [!DNL Box] konto](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Synkronisera [!DNL Box] mappar med [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [Visa originalfilen för ett korrektur i  [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

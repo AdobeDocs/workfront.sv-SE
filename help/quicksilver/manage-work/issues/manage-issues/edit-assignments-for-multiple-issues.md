@@ -24,11 +24,11 @@ Du kan ändra användartilldelningar samtidigt till flera utgåvor. Mer informa
 * [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Tilldela ärenden](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Allmän information om hur du tilldelar problem finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Allmän information om hur du tilldelar problem finns i [Översikt över hur du ändrar problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
->Du måste ha minst Contribute-behörighet för ett problem för att kunna göra tilldelningar av det.
+>Du måste ha minst Contribute-behörighet för ett problem för att kunna göra tilldelningar av problemet.
 
 ## Åtkomstkrav
 
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -79,30 +79,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Du kan t.ex. skapa ett filter som bara visar problem med en viss roll som tilldelad. Sedan kan du ersätta rollen med en viss användare. Gör följande:
 
-   1. Klicka på **Filter** nedrullningsbar lista och klicka sedan på **Nytt filter**.
+   1. Klicka på listrutan **Filter** och sedan på **Nytt filter**.
 
       Dialogrutan Nytt filter visas.
 
-   1. Klicka **Lägg till en filterregel.**
-   1. Om du vill filtrera efter en viss roll expanderar du **Tilldelningsroller,** klicka sedan på **ID.**
+   1. Klicka på **Lägg till en filterregel.**
+   1. Om du vill filtrera efter en viss roll expanderar du **Tilldelningsroller** och klickar sedan på **ID.**
 
       eller
 
-      Om du vill filtrera efter en viss användare expanderar du **Tilldelningsanvändare,** klicka sedan på **ID.**
+      Om du vill filtrera efter en viss användare expanderar du **Tilldelningsanvändare** och klickar sedan på **ID.**
 
       >[!TIP]
       >
-      >Använd inte **Tilldelad till** eftersom det här fältet endast refererar till utfärdaren och inte till alla tilldelningar.
+      >Använd inte **Tilldelad till** eftersom det här fältet endast refererar till utfärdaren och inte till alla tilldelningar.
 
-   1. Välj **Jämn** som filterkvalificerare.
+   1. I listrutan väljer du **Lika med** som filterkvalificerare.
    1. Börja skriva namnet på den användare eller roll som du vill filtrera efter och klicka sedan på namnet när det visas i listrutan.
-   1. Klicka **Spara filter.**
+   1. Klicka på **Spara filter.**
 
-1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på **Redigera** icon ![](assets/qs-edit-icon.png).
+1. Markera de ärenden som du vill ändra uppdrag för och klicka sedan på ikonen **Redigera** ![](assets/qs-edit-icon.png) .
 
-   The **Redigera problem** visas. De redigerade objekten visas i det övre vänstra hörnet på sidan.
+   **Redigera problem** visas. De redigerade objekten visas i det övre vänstra hörnet på sidan.
 
-1. Gå till **Uppdrag** väljer du **Tilldelad**.
+1. Gå till avsnittet **Uppdrag** och välj sedan **Tilldelad**.
 
    ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
@@ -114,34 +114,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
          >[!TIP]
          >
-         Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
+         >Du kan tilldela flera användare, jobbroller eller team. Du kan bara tilldela aktiva användare, jobbroller och team.
          >
-         Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
+         >Om en användare, jobbroll eller ett team tilldelades innan de inaktiverades, förblir de tilldelade till arbetsuppgiften. I det här fallet rekommenderar vi följande:
          >
-         * Tilldela om arbetsuppgiften till aktiva resurser.
-         * Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
+         >* Tilldela om arbetsuppgiften till aktiva resurser.
+         >* Associera användarna i ett inaktiverat team med ett aktivt team och omfördela arbetsposten till det aktiva teamet.
 
-         Information som är gemensam för alla valda utgåvor visas. Om till exempel samma användare tilldelas alla utgåvor visas den användaren i **Tilldelad** kolumn. Om information inte är vanlig i de markerade problemen visas ingen information.
+         Information som är gemensam för alla valda utgåvor visas. Om samma användare till exempel har tilldelats alla utgåvor visas den användaren i kolumnen **Tilldelning**. Om information inte är vanlig i de markerade problemen visas ingen information.
 
    1. Så här tar du bort enskilda tilldelningar:
 
-      1. Klicka på **X-ikon** bredvid namnet på den tilldelare som du vill ta bort om den tilldelande visas i uppdragslistan.
+      1. Klicka på **X-ikonen** bredvid namnet på den tilldelade personen som du vill ta bort om den tilldelade personen visas i uppdragslistan.
 
          eller
 
-         (Villkorligt) Om den tilldelade personen som du vill ta bort inte visas i avsnittet Uppdrag eftersom den tilldelade personen endast är tilldelad till vissa av de utgåvor som du har valt, klickar du på **Ta bort tilldelad** och börja skriva namnet på den som du vill ta bort och klicka sedan på namnet när det visas i listrutan.
+         (Villkorligt) Om den tilldelade personen som du vill ta bort inte visas i avsnittet Uppdrag eftersom den tilldelade personen endast är tilldelad till vissa av de utgåvor som du har markerat, klickar du på **Ta bort tilldelad** och börjar skriva namnet på den tilldelade personen som du vill ta bort. Klicka sedan på namnet när det visas i listrutan.
 
-      1. Klicka **Ta bort tilldelad** igen om du vill lägga till ytterligare en tilldelad som ska tas bort.
+      1. Klicka på **Ta bort tilldelad** igen om du vill lägga till ytterligare en tilldelad som ska tas bort.
 
    1. Så här tar du bort alla befintliga tilldelningar:
 
-      1. Klicka **Ta bort alla befintliga tilldelningar** och sedan klicka **Ja, ta bort alla tilldelningar**.
+      1. Klicka på **Ta bort alla befintliga tilldelningar** och sedan på **Ja, Ta bort alla tilldelningar**.
 
          Detta tar inte bara bort vanliga tilldelningar (tilldelningar som visas i redigeringsdialogrutan), utan även alla tilldelningar för alla markerade frågor.
 
 1. (Valfritt) Ändra något av följande alternativ för de tilldelningar du har valt för att associera med problemen:
 
-   * **Ärendeägare:** Markera alternativknappen för att ange vilken tilldelad som är ägare av utgåvor. Om alternativet inte är markerat utser Adobe Workfront den första tilldelade personen till utfärdaren. Detta är inte tillgängligt för grupptilldelningar.
-   * **Uppdragarens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
+   * **Ägare av utgåva:** Markera alternativknappen för att ange vilken tilldelad som är ägare av utgåvor. Om alternativet inte är markerat utser Adobe Workfront den första tilldelade personen till utfärdaren. Detta är inte tillgängligt för grupptilldelningar.
+   * **Tilldelningens roll**: Välj en roll i listrutan. Om alternativet inte är markerat väljs automatiskt användarens primära roll.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

@@ -85,15 +85,15 @@ Så här skapar du en anslutning för dina Adobe I/O-händelsemoduler:
       </tr>
       <tr>
         <td role="rowheader">Ytterligare omfattningar</td>
-        <td>Om du vill lägga till ytterligare omfattningar klickar du på <b>Lägg till objekt</b> och ange omfattningen.</td>
+        <td>Om du vill lägga till ytterligare omfattningar klickar du på <b>Lägg till objekt</b> och anger omfånget.</td>
       </tr>
       <tr>
         <td role="rowheader">Klient-ID</td>
-        <td>Ange ditt klient-ID för Adobe. Detta finns i avsnittet Information om autentiseringsuppgifter i Adobe Developer Console</td>
+        <td>Ange ditt klient-ID för Adobe. Detta hittar du i delen Information om autentiseringsuppgifter i Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Klienthemlighet</td>
-        <td>Ange din Adobe-klienthemlighet. Detta finns i avsnittet Information om autentiseringsuppgifter i Adobe Developer Console</td>
+        <td>Ange din Adobe-klienthemlighet. Detta hittar du i delen Information om autentiseringsuppgifter i Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -106,24 +106,24 @@ Så här skapar du en anslutning för dina Adobe I/O-händelsemoduler:
       </tr>
       <tr>
         <td role="rowheader">ID för IMS-organisation</td>
-        <td>Ange ditt organisations-ID för Adobe. Detta finns i avsnittet Information om autentiseringsuppgifter i Adobe Developer Console</td>
+        <td>Ange ditt organisations-ID för Adobe. Detta hittar du i delen Information om autentiseringsuppgifter i Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">Projekt-ID</td>
         <td>Ange ditt projekt-ID. Detta finns i projektets referens-URL: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">ID för arbetsyta</td>
-        <td>Om du vill visa projektets arbetsyte-ID hämtar du projektinformationen från projektöversiktssidan i Adobe Developer Console. </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>Om du vill visa ditt projekts Workspace-id hämtar du projektinformationen från projektöversiktssidan i Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
 
-1. Klicka **Fortsätt** för att spara anslutningen och återgå till modulen.
+1. Klicka på **Fortsätt** för att spara anslutningen och återgå till modulen.
 
 ## Adobe I/O Events-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe I/O Events] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe I/O Events] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe I/O Events] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe I/O Events] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -141,7 +141,7 @@ Den här åtgärdsmodulen använder en webkrok för att skapa en händelsebeskri
 
 Så här skapar du en webkrok:
 
-1. Klicka **Lägg till** bredvid Webkrockfältet.
+1. Klicka på **Lägg till** bredvid Webkrok-fältet.
 1. Fyll i följande fält:
 
    <table>
@@ -154,7 +154,7 @@ Så här skapar du en webkrok:
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events], se <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
+        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events] finns i <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -197,7 +197,7 @@ Den här sökmodulen hämtar alla händelser för registrering från en journal.
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events], se <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
+        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events] finns i <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -242,7 +242,7 @@ Den här sökmodulen hämtar alla händelser för registrering från en journal.
 
 #### Göra ett anpassat API-anrop
 
-Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe I/O Events] API
+Den här åtgärdsmodulen gör ett anpassat API-anrop till API:t [!DNL Adobe I/O Events]
 
 <table>
   <col/>
@@ -250,7 +250,7 @@ Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe I/O Event
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events], se <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
+        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events] finns i <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -265,7 +265,7 @@ Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe I/O Event
         <p>[!UICONTROL Method]</p>
       </td>
       <td>
-  <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p>  
+  <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p>  
       </td>
     </tr>
     <tr>
@@ -284,7 +284,7 @@ Den här åtgärdsmodulen gör ett anpassat API-anrop till [!DNL Adobe I/O Event
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -303,7 +303,7 @@ Den här sökmodulen hämtar Adobe I/O-händelse-ID:n för den angivna providern
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events], se <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
+        <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe I/O Events] finns i <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe I/O Events]</a> i den här artikeln.</td>
        </tr>
        <tr>
          <td role="rowheader">

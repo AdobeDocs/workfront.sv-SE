@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: "Workfront-korrektur: artikelindex"
-description: Lär dig hur du använder den fristående Workfront Proof-produkten.
+title: "Workfront Proof: artikelindex"
+description: Lär dig hur du använder Workfront Proof fristående produkt.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Workfront-korrektur: artikelindex
+# Workfront Proof: artikelindex
 
 <!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i Adobe Workfront finns i [Korrektur](../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i Adobe Workfront finns i [Korrektur](../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 
@@ -32,6 +32,6 @@ Det här avsnittet innehåller följande underavsnitt:
 * [[!DNL Workfront Proof] Faktureringsinställningar](../workfront-proof/wp-billingsettings/wp-billing-settings.md)
 * [Korrekturmeddelanden och påminnelser](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
 * [E-postaviseringar](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-* [Hantera användare och kontakter i [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
+* [Hantera användare och kontakter i  [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] teknikhörn](../workfront-proof/wp-tech-corner/tech-corner.md)
 * [[!DNL Workfront Proof] integreringar](../workfront-proof/wp-integrations/wp-integrations.md)

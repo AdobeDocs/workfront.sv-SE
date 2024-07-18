@@ -37,12 +37,12 @@ ht-degree: 0%
 >    
 >Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 > 
->Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Läs följande artiklar för att få en förståelse för hur du justerar mål i Workfront-mål:
 
 * [Översikt över måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 * [Ta bort måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
 * [Navigera i avsnittet Måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

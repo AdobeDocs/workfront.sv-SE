@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till projekt, uppgifter, ärenden, mallar, Portfolio, program, rapporter, kontrollpaneler och kalendrar, dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj **Godkännanden** i den vänstra rutan. Alla befintliga godkännare och granskare listas här.
 
-1. Om du vill lägga till en godkännare måste du se till att **Godkännare** kryssrutan är markerad och börjar sedan skriva i **Granskare** textruta. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare istället avmarkerar du **Godkännare** innan du skriver.
+1. Om du vill lägga till en godkännare markerar du kryssrutan **Godkännare** och börjar sedan skriva i textrutan **Granskare**. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare i stället avmarkerar du kryssrutan **Godkännare** innan du skriver.
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Välj den version av dokumentet som du vill lägga till en godkännare eller granskare i listrutan. Den senaste versionen väljs som standard.
 
-1. Bläddra nedåt till **Godkännanden** i rutan Dokumentsammanfattning där alla befintliga godkännare och granskare listas. Om du vill lägga till en godkännare måste du se till att **Godkännare** kryssrutan är markerad och börjar sedan skriva i **Granskare** textruta. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare istället avmarkerar du **Godkännare** innan du skriver.
+1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning, där alla befintliga godkännare och granskare listas. Om du vill lägga till en godkännare markerar du kryssrutan **Godkännare** och börjar sedan skriva i textrutan **Granskare**. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare i stället avmarkerar du kryssrutan **Godkännare** innan du skriver.
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
 

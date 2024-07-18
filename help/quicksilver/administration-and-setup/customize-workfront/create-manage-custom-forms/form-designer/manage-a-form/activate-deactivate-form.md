@@ -49,7 +49,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Inaktivera ett anpassat formulär
 
@@ -61,9 +61,9 @@ Så här inaktiverar du ett anpassat formulär:
 
 {{step-1-to-setup}}
 
-1. Välj **Anpassad Forms**.
-1. I **Forms** markerar du det anpassade formulär som du vill inaktivera.
-1. Välj i kolumnen Är aktiv **Falskt** och klicka utanför kolumnen. Formuläret är inte längre aktivt.
+1. Välj **Anpassad Forms** i den vänstra panelen.
+1. I området **Forms** markerar du det anpassade formulär som du vill inaktivera.
+1. I kolumnen Är aktiv väljer du **Falskt** och klickar ut ur kolumnen. Formuläret är inte längre aktivt.
 
 ## Återaktivera ett anpassat formulär
 
@@ -71,6 +71,6 @@ Om du återaktiverar ett anpassat formulär behåller det de tidigare inställni
 
 {{step-1-to-setup}}
 
-1. Välj **Anpassad Forms**.
-1. I **Forms** markerar du det anpassade formulär som du vill återaktivera.
-1. Välj i kolumnen Är aktiv **True** och klicka utanför kolumnen. Formuläret är nu aktivt.
+1. Välj **Anpassad Forms** i den vänstra panelen.
+1. Markera det anpassade formulär som du vill återaktivera i området **Forms**.
+1. I kolumnen Är aktiv väljer du **True** och klickar utanför kolumnen. Formuläret är nu aktivt.

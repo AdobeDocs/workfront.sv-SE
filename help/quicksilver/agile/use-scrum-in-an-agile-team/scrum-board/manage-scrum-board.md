@@ -8,14 +8,14 @@ feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# Hantera artiklar och problem i [!UICONTROL Scrum] board
+# Hantera artiklar och problem på [!UICONTROL Scrum]-panelen
 
-Du kan flytta en artikel eller ett problem från [!UICONTROL Scrum] gå till en annan iteration eller till eftersläpningen, eller ta bort den från [!UICONTROL Scrum] bräda. När du tar bort en artikel eller ett problem flyttas den till papperskorgen i 30 dagar och kan endast återställas av systemadministratören.
+Du kan flytta en artikel eller ett problem från [!UICONTROL Scrum]-panelen till en annan iteration eller till eftersläpningen, eller ta bort den från [!UICONTROL Scrum]-panelen. När du tar bort en artikel eller ett problem flyttas den till papperskorgen i 30 dagar och kan endast återställas av systemadministratören.
 
 ## Åtkomstkrav
 
@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -44,14 +44,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Flytta en artikel eller ett ärende från [!UICONTROL Scrum] board
+## Flytta en artikel eller ett problem från [!UICONTROL Scrum]-panelen
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
-1. Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du ett Scrum-team i listrutan eller söker efter ett team i sökfältet.
-1. Välj **[!UICONTROL Iterations]** om du vill välja en viss upprepning, eller markera **[!UICONTROL Current Iteration]**.
-1. Klicka på **[!UICONTROL More]** ikon på artikeln eller utgåvan och välj **[!UICONTROL Move to]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett Scrum-team i listrutan eller sök efter ett team i sökfältet.
+1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
+1. Klicka på ikonen **[!UICONTROL More]** för artikeln eller utgåvan och välj **[!UICONTROL Move to]**.
 
    ![Ta bort eller flytta en artikel från Urklipp](assets/scrum-delete-move-story.png)
 
@@ -70,17 +70,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Arbetsuppgiften [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] påverkas av en inställning på [!UICONTROL Edit Team] sida. Mer information finns i avsnittet [[!UICONTROL Configure] hur datum används när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Arbetsobjektet [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] påverkas av en inställning på sidan [!UICONTROL Edit Team]. Mer information finns i avsnittet [[!UICONTROL Configure] om hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicka på **[!UICONTROL Move]**.
 
-## Ta bort artikel eller utgåva från [!UICONTROL Scrum] board
+## Ta bort artikeln eller utgåvan från [!UICONTROL Scrum]-tavlan
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
-1. Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du ett Scrum-team i listrutan eller söker efter ett team i sökfältet.
-1. Välj **[!UICONTROL Iterations]** om du vill välja en viss upprepning, eller markera **[!UICONTROL Current Iteration]**.
-1. Klicka på **[!UICONTROL More]** ikon på artikeln eller utgåvan och välj **[!UICONTROL Delete Story]** eller **[!UICONTROL Delete Issue]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett Scrum-team i listrutan eller sök efter ett team i sökfältet.
+1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
+1. Klicka på ikonen **[!UICONTROL More]** för artikeln eller utgåvan och välj **[!UICONTROL Delete Story]** eller **[!UICONTROL Delete Issue]**.
 
    ![Ta bort eller flytta en artikel från Urklipp](assets/scrum-delete-move-story.png)
 
-1. Klicka på **[!UICONTROL Yes, delete it]**.
+1. Klicka på **[!UICONTROL Yes, delete it]** i bekräftelsemeddelandet.

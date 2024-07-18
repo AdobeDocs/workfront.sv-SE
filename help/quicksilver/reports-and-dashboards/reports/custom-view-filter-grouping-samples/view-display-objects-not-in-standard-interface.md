@@ -24,9 +24,9 @@ Du kan bestämma vilka fält som kan inkluderas i en vy på något av följande 
 
 * Hitta objektets ID-fält i en kolumn. De flesta objekt som har ett fält-ID har också ett motsvarande kolumn- eller fältnamn som kanske inte är tillgängligt via standardlägesgränssnittet.
 
-  Du kan använda textläge för att inkludera kolumn- eller fältnamnet i en vy i stället för ID:t genom att ersätta `fieldnameID` med `fieldname:name`.
+  Du kan använda textläge för att i en vy inkludera kolumn- eller fältnamnet i stället för ID:t genom att ersätta `fieldnameID` med `fieldname:name`.
 
-  I standardlägesgränssnittet **Ägar-ID för Portfolio** -fältet är tillgängligt för en projektvy, men **Portfolio ägarnamn** fältet är inte. Du kan använda textläge för att visa **Portfolio ägarnamn** i kolumnen för en vy.
+  I standardlägesgränssnittet är t.ex. fältet **Portfolio Ägar-ID** tillgängligt för en projektvy, men fältet **Portfolio Ägarnamn** är inte tillgängligt. Du kan använda textläge för att visa **Portfolio ägarnamn** i en vykolumn.
 
 ## Åtkomstkrav
 
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -63,13 +63,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Exempel: lägg till kolumnen Portfolio ägarnamn i en projektvy
 
 1. Gå till en lista med projekt.
-1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
+1. Klicka på **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn** börjar du skriva &quot;Portfolio Owner ID&quot; i dialogrutan **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. Klicka på **Lägg till kolumn** och börja sedan skriva &quot;Portfolio Owner ID&quot; i fältet **Show i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka **Växla till textläge**.
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ersätt `valuefield` line (`valuefield=portfolio:ownerID`) med följande rad:
+1. Klicka på **Växla till textläge**.
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ersätt raden `valuefield` (`valuefield=portfolio:ownerID`) med följande rad:
 
    ```
    valuefield=portfolio:owner:name
@@ -77,7 +77,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    eller
 
-   Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
+   Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
 
    ```
    valuefield=portfolio:owner:name
@@ -87,10 +87,10 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    linkedname=portfolio
    ```
 
-   I det här exemplet sorterar rapporten efter Portfolio-ägar-ID:t, vilket anges i `querysort` linje.
+   I det här exemplet sorterar rapporten efter Portfolio-ägar-ID:t, vilket anges av raden `querysort`.
 
    >[!TIP]
    >
-   >Ersätta ett fält `ID` med fältet `name` använda textläge, ersätt alltid `ID` med `:name` i `valuefield` linje.
+   >Ersätt alltid `ID` med `:name` på raden `valuefield` om du vill ersätta ett fält `ID` med fältet `name` i textläge.
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.

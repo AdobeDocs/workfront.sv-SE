@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,15 +58,15 @@ Summan av alla fördefinierade milstolpar kallas för en milstolpe-bana.
 
 Det första steget i att bygga en milstolpe är att identifiera vilka milstolparna är och att fastställa milstolparna. Eftersom du kan koppla en milstolpe-väg till flera projekt måste milstolpen vara allmänna faser eller faser i alla projekt.
 
-Mer information om hur du associerar en milstolpe-bana med ett projekt och en milstolpe med en uppgift finns i [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Mer information om hur du kan associera en milstolpe med ett projekt och en milstolpe med en aktivitet finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ## Skapa en milstolpe-bana
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Processer** > **Milstolpbanor**.
-1. Klicka **Ny milstolpe-sökväg.**
-1. Ange följande information i dialogrutan **Grundläggande information** område:
+1. Klicka på **Processer** > **Milstolpbanor**.
+1. Klicka på **Ny milstolpe-sökväg.**
+1. Ange följande information i området **Grundläggande information**:
 
    <table style="table-layout:auto">
     <tr>
@@ -87,7 +87,7 @@ Mer information om hur du associerar en milstolpe-bana med ett projekt och en mi
     </tr>
    </table>
 
-1. Ange följande information i dialogrutan **Milstolpar** område:
+1. Ange följande information i området **Milstolpar**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,9 +108,9 @@ Mer information om hur du associerar en milstolpe-bana med ett projekt och en mi
     </tbody> 
    </table>
 
-1. Klicka **Lägg till milstolpe** och fortsätta lägga till milstolpar efter behov tills banan är klar.
-1. Klicka **Skapa milstolpe-sökväg** för att spara ändringarna.
+1. Klicka på **Lägg till milstolpe** och fortsätt att lägga till milstolpar efter behov tills sökvägen är slutförd.
+1. Klicka på **Skapa milstolpe-sökväg** om du vill spara ändringarna.
 
    Din milstolpe-väg är klar att kopplas till ett projekt.
 
-   Mer information om hur du kopplar milstolpar till projekt och milstolpar till uppgifter finns i [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+   Mer information om hur du associerar milstolpar till projekt och milstolpar till aktiviteter finns i [Associera milstolpar med aktiviteter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).

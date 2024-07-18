@@ -24,7 +24,7 @@ Din Adobe Workfront-licenstyp fungerar tillsammans med dina Adobe Workfront Plan
 * Visa, bidra till eller hantera arbetsytor
 * Visa eller hantera vyer.
 
-Information om behörigheter för objekt i Workfront Planning finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Mer information om behörigheter för objekt i Workfront Planning finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ## Förhållandet mellan Workfront licenstyper och Workfront Planning permissions
 
@@ -36,9 +36,9 @@ Om du ger en användare behörighet till en arbetsyta får den även behörighet
 | Adobe Workfront licenstyp* | Högsta tillåtna behörighet i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan hantera arbetsytor. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster och fält. <br> Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade. |
-| Nytt: Ljus, Medarbetare <br> eller <br>Aktuell: Arbete, begärande, granskare | Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor. <br> Användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält. |
+| Nytt: Light, Contributor <br> eller <br>Current: Work, Requestor, Reviewer | Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor. <br>-användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält. |
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ### Licenstyper och behörigheter för arbetsytan
 

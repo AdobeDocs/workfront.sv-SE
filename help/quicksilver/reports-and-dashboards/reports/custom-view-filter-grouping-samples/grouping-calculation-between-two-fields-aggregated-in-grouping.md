@@ -21,7 +21,7 @@ Du kan använda textläge i en kolumn för att visa en beräkning mellan två f�
 
 Du kan till exempel visa skillnaden mellan faktiska timmar och Planerade timmar i en tredje kolumn som heter Arbetsbalans för varje uppgift i en uppgiftsrapport. Mer information om beräknade datauttryck finns i [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-Du kan visa det aggregerade värdet för flera objekt i den beräknade vyn i samma kolumn i en grupp genom att lägga till en beräkning i `aggregator` rad i kolumnen som innehåller det beräknade värdet. Du kan t.ex. aggregera (visa summan av) antalet timmar i Arbetsbalans för alla uppgifter i grupperingen av rapporten eller listan för kolumnen Arbetsbalans. I den här artikeln beskrivs hur du gör detta.
+Du kan visa det aggregerade värdet för flera objekt i en beräknad vy i samma kolumn i en gruppering genom att lägga till en beräkning på raden `aggregator` i kolumnen som innehåller det beräknade värdet. Du kan t.ex. aggregera (visa summan av) antalet timmar i Arbetsbalans för alla uppgifter i grupperingen av rapporten eller listan för kolumnen Arbetsbalans. I den här artikeln beskrivs hur du gör detta.
 
 ## Åtkomstkrav
 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,19 +57,19 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Visa resultatet av sammanställning av flera beräknade värden i en gruppering
 
-1. Gå till en uppgiftsrapport, klicka på **Rapportåtgärder** > **Redigera**.
-1. I **Grupperingar** flik, klicka **Lägg till gruppering** och börja skriva **Projektnamn** i **Gruppera din rapport** > **Först efter** markerar du det när det visas i listan.
+1. Gå till en aktivitetsrapport och klicka på **Rapportåtgärder** > **Redigera**.
+1. Klicka på **Lägg till gruppering** på fliken **Grupperingar** och börja skriva **Projektnamn** i fältet **Gruppera din rapport** > **Först av**. Markera sedan grupperingen när den visas i listan.
 
-1. I **Kolumner (vy)** flik, klicka **Lägg till kolumn** och börja sedan skriva **Planerade timmar** i **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. Klicka på **Lägg till kolumn** på fliken **Kolumner(vy)** och börja sedan skriva **Planerade timmar** i fältet **Visa i den här kolumnen**. Markera sedan den när den visas i listan.
 
    >[!TIP]
    >
    >Börja alltid lägga till så mycket information som du vill i standardgränssnittet innan du redigerar information i textläge. Lägg till fält som är närmast eller innehåller så mycket information som möjligt för beräkningen som du försöker göra.
 
-1. I **Sammanfatta den här kolumnen med** fält, markera **Summa** och sedan klicka **Klar**.
-1. Klicka **Växla till textläge** i den kolumn som du lade till.
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ersätt `valuefield ` och `aggregator.valuefield` rader med linjerna markerade i följande exempel på textläge:
+1. I fältet **Sammanfatta den här kolumnen med** väljer du **Summa** och klickar sedan på **Klar**.
+1. Klicka på **Växla till textläge** i den kolumn du lade till.
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ersätt `valuefield `- och `aggregator.valuefield`-raderna med raderna markerade i följande textläge:
 
    ```
    valueformat=compound
@@ -89,9 +89,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    >[!TIP]
    >
-   >För att få det aggregerade värdet i grupperingen för att visa den aggregerade skillnaden mellan fälten Planerade timmar och Faktiska timmar anger du samma ekvation i `aggregator.valuefield` linje. The `aggregator.displayformat` som används för kolumnen Planerade timmar konverterar minuter till timmar. Eftersom fältet Planerade timmar användes som platshållare behöver den här raden inte justeras.
+   >Om du vill hämta det aggregerade värdet i grupperingen för att visa den aggregerade skillnaden mellan fälten Planerade timmar och Faktiska timmar anger du samma ekvation på raden `aggregator.valuefield`. `aggregator.displayformat` som används för kolumnen Planerade timmar konverterar minuter till timmar. Eftersom fältet Planerade timmar användes som platshållare behöver den här raden inte justeras.
    >
    >
-   >The `minutesAsHoursString` definition av `aggregator.displayformat` betyder att du inte behöver dela upp varje fält med 60 som på `valueexpression` för resultaten. I den här `aggregator.valuefield=workRequired` blir: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
+   >Definitionen `minutesAsHoursString` för raden `aggregator.displayformat` betyder att du inte behöver dela upp varje fält med 60 som i `valueexpression` för resultaten. `aggregator.valuefield=workRequired` blir: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
 
-1. Klicka **Spara+stäng**.
+1. Klicka på **Spara+Stäng**.

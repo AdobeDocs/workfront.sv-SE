@@ -55,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +68,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 Vanligtvis slutför en projektledare styrkortsinformationen för att skapa ett justeringsvärde mellan 0 och 100 för projektet. Värdet som skapas används senare när portföljförvaltaren granskar projekten i portföljoptimeraren för att jämföra dem.
 
-Mer information om portföljoptimering finns i [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information om portföljoptimering finns i [Översikt över Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Tillämpa ett styrkort på ett projekt
 
@@ -85,9 +85,9 @@ Adobe Workfront-administratören eller gruppadministratören måste aktivera sty
 Så här använder du ett styrkort för ett projekt:
 
 1. Gå till ett projekt som du vill tillämpa ett styrkort på.
-1. Klicka **Affärsärende** till vänster.
-1. Hitta **Styrkort** i affärsärendet.\
-   Du måste skapa ett styrkort före **Styrkort** visas i affärsärendet.
+1. Klicka på **Affärsfall** i den vänstra panelen.
+1. Hitta avsnittet **Styrkort** i affärsärendet.\
+   Du måste skapa ett styrkort innan avsnittet **Styrkort** visas i affärsärendet.
 
    Mer information om hur du skapar ett styrkort finns i [Skapa ett styrkort](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -101,7 +101,7 @@ Så här använder du ett styrkort för ett projekt:
 
    Mer information om generering av projektets övergripande justeringspoäng finns i [Generera en justeringspoäng för ett projekt](#generate-an-alignment-score-for-a-project).
 
-1. Klicka **Spara** för att spara styrkortet och poängsätta projektet.
+1. Klicka på **Spara** för att spara styrkortet och poängsätta projektet.
 
    Styrkortet är nu kopplat till projektet och projektet poängsätts.
 
@@ -122,7 +122,7 @@ Så här använder du ett styrkort för ett projekt:
 
 ## Generera en justeringspoäng
 
-* [Generera en justeringspoäng för ett projekt](#generate-an-alignment-score-for-a-project)
+* [Skapa en justeringspoäng för ett projekt](#generate-an-alignment-score-for-a-project)
 * [Generera en justeringspoäng för en portfölj](#generate-an-alignment-score-for-a-portfolio)
 
 ### Generera en justeringspoäng för ett projekt {#generate-an-alignment-score-for-a-project}
@@ -153,7 +153,7 @@ När poängen för projekten är klara använder Workfront dessa värden för at
 
 Du kan visa justeringspoängen för ett projekt på projektnivå eller i Portfolio-optimering.
 
-* [Visa justeringspoäng i ett projekt](#view-the-alignment-score-on-a-project)
+* [Visa justeringsresultat för ett projekt](#view-the-alignment-score-on-a-project)
 * [Visa justeringspoängen för projektet och för portföljen i optimeringsverktyget för Portfolio](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### Visa justeringspoäng i ett projekt
@@ -161,10 +161,10 @@ Du kan visa justeringspoängen för ett projekt på projektnivå eller i Portfol
 Du kan visa justeringspoängen för ett projekt på projektnivå om du har Contribute-behörighet till projektet.
 
 1. Gå till det projekt vars justeringspoäng du vill visa.
-1. Klicka **Affärsärende** till vänster.
+1. Klicka på **Affärsfall** i den vänstra panelen.
 1. Gå till **Översikt över affärsärenden** till höger på skärmen.
 
-   Justeringspoängen finns i Översikt över affärsfall i **Justerad** värde.
+   Justeringspoängen finns i affärsärendesammanfattningen i värdet **Justerad**.
 
    ![Justeringspoäng i ett projekt](assets/alignment-score-on-a-project.png)
 
@@ -172,23 +172,23 @@ Du kan visa justeringspoängen för ett projekt på projektnivå om du har Contr
 
 Du kan visa justeringspoängen för ett projekt eller för en portfölj i Optimera för Portfolio om du har Hantera-åtkomst till portföljen.
 
-Mer information om vilken information som visas i Portfolio-optimering finns i [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Mer information om vilken information som visas i Portfolio-optimering finns i [Översikt över Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * [Leta reda på projektets justeringspoäng i Optimering för Portfolio](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [Leta reda på portföljens justeringspoäng i optimeraren för Portfolio](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![Justeringspoäng i Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
+  ![Justeringspoäng i Portfolio-optimering](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Leta reda på projektets justeringspoäng i Optimering för Portfolio {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. Klicka på namnet på en portfölj.
-1. Klicka **Optimering för Portfolio** till vänster.
+1. Klicka på **Optimering av Portfolio** på den vänstra panelen.
 
    Optimeraren för Portfolio visas.
 
-   Justeringspoängen för ett projekt visas i procent i **Justering** i Portfolio Optimizer.
+   Justeringspoängen för ett projekt visas som ett procenttal i kolumnen **Justering** i optimeraren för Portfolio.
 
    Detta är projektets justeringspoäng baserat på det styrkort som är associerat med projektet.
 
@@ -197,12 +197,12 @@ Mer information om vilken information som visas i Portfolio-optimering finns i [
 {{step1-to-portfolios}}
 
 1. Klicka på namnet på en portfölj.
-1. Klicka **Optimering för Portfolio** till vänster.
-1. Överst i Portfolio Optimizer finns **Justerad** och **Justering** mått, som anger portföljens justeringspoäng.
+1. Klicka på **Optimering av Portfolio** på den vänstra panelen.
+1. Överst i optimeringsprogrammet för Portfolio hittar du värdet **Justerad** samt måttet **Justering** som anger portföljens justeringspoäng.
 
    Detta är portföljens justeringspoäng.
 
-   Mer information om hur justeringspoängen för en portfölj genereras finns i [Generera en justeringspoäng för en portfölj](#generate-an-alignment-score-for-a-portfolio).
+   Mer information om hur justeringspoängen för en portfölj genereras finns i [Skapa en justeringspoäng för en portfölj](#generate-an-alignment-score-for-a-portfolio).
 
 ## Översikt över Portfolio Optimizer-poängen
 
@@ -210,9 +210,9 @@ Det finns en skillnad mellan justeringspoängen och portföljoptimeringspoängen
 
 Justeringspoängen för ett projekt beräknas utifrån de poäng som erhålls när styrkortet har fyllts i. Poängen används sedan för att fastställa poängen för portföljjusteringen. Justeringspoängen visas i procent.
 
-Justeringspoängen för ett projekt visas i **Justering** i Portfolio Optimizer.
+Justeringspoängen för ett projekt visas i kolumnen **Justering** i optimeraren för Portfolio.
 
-Poängen för portföljoptimering är en rankning som automatiskt beräknas i optimeringsfunktionen för Portfolio som projekt kan prioriteras efter. Poängen för portföljoptimering visas som en indikatorikon tillsammans med ett tal och visas i **Poäng** i Portfolio Optimizer. Poängen Portfolio Optimizer genereras endast när alla avsnitt i affärsärendet är slutförda, utom för mål.
+Poängen för portföljoptimering är en rankning som automatiskt beräknas i optimeringsfunktionen för Portfolio som projekt kan prioriteras efter. Poängen för portföljoptimering visas som en indikatorikon tillsammans med ett tal och visas i kolumnen **Poäng** i optimeraren för Portfolio. Poängen Portfolio Optimizer genereras endast när alla avsnitt i affärsärendet är slutförda, utom för mål.
 
 Mer information om hur du skapar ett affärsärende för ett projekt finns i [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

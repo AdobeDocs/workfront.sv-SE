@@ -26,12 +26,12 @@ ht-degree: 0%
 >
 >Din kontorepresentant kommer att informera dig om du är en del av det här steget.
 >
->Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+>Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
 >
 
 I den här artikeln listas de funktioner som har släppts efter lanseringen av Adobe Workfront Planning Program, den 22 maj 2023 för 2023.
 
-Mer information om funktionerna som släpptes 2024 finns i [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+Mer information om de funktioner som släpptes under 2024 finns i [Adobe Workfront Planering - aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
 
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 
@@ -63,7 +63,7 @@ Preview and Production for all customers: 18 december 2023
 >
 >* Dra och släppa bilder
 >
->Mer information finns i [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Mer information finns i [Översikt över utgåvan för första kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 Nu kan du samarbeta med andra om enskilda poster genom att lägga till kommentarer eller svara andra samtidigt som du visar en posts sida.
 
@@ -95,7 +95,7 @@ Nu kan du använda Adobe Workfront Fusion för att ansluta till planeringsfunkti
 
 * Utlösa ett scenario när en ändring görs i planeringsfunktionerna
 
-Mer information finns i [Adobe Workfront Planning-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Mer information finns i [Planeringsmoduler för Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Vecka 11 december 2023
 
@@ -137,7 +137,7 @@ Produktionsrelease: 21 december 2023
 >
 >Din organisations instans av Workfront måste vara registrerad på Adobe Business Platform eller Adobe Admin Console för att Adobe Workfront Planning capabilities-poster ska kunna anslutas till Adobe Experience Manager Assets.
 >
->Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe - frågor och svar om enhetliga upplevelser](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 Nu kan du upprätta en anslutning mellan posttyperna för Adobe Workfront Planning-funktioner och Adobe Experience Manager Assets.
 
@@ -208,7 +208,7 @@ Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edi
 
 Förhandsgranska och produktion: 7 november 2023
 
-Nu kan du gruppera poster i tabellvyn för en posttypsida. Du kan gruppera tre unika fält i gränssnittet för planeringsfunktioner<!--checking into this for now: and by four fields when using the API-->.
+Nu kan du gruppera poster i tabellvyn för en posttypsida. Du kan gruppera efter tre unika fält i planeringsfunktionsgränssnittet <!--checking into this for now: and by four fields when using the API-->.
 
 Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -242,7 +242,7 @@ Nu kan du öppna Workfront objektsidor från följande områden i Workfront Plan
 
 * Den skrivskyddade postsidan för Workfront-objekt
 
-Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 ### Förbättrad navigering i tabellvyn
 
@@ -258,7 +258,7 @@ Nedan följer några av förbättringarna:
 
 * Använd tangentbordskombinationen Skift + Retur för att lägga till en ny post (eller rad) i tabellen.
 
-Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 ## Vecka 16 oktober 2023
 

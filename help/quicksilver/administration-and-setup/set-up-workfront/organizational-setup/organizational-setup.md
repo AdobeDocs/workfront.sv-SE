@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: Organisationsinställningar
-description: Som en del av att organisera dina användare i [!DNL Adobe Workfront]kan du associera dem med jobbroller eller företag.
+description: Som en del av att organisera dina användare i  [!DNL Adobe Workfront] kan du associera dem med jobbroller eller företag.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Organisationsinställningar
 
-Som en del av att organisera dina användare i [!DNL Adobe Workfront]kan du associera dem med jobbroller eller företag.
+Som en del av att organisera dina användare i [!DNL Adobe Workfront] kan du associera dem med jobbroller eller företag.
 
 Det här avsnittet innehåller följande artiklar:
 

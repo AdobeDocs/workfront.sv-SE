@@ -9,7 +9,7 @@ feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,6 @@ Om du ändrar zoomnivån i webbläsaren beror på vilken webbläsare du använde
 
 Så här ändrar du zoomnivån i Google Chrome:
 
-1. I ett webbläsarfönster går du till **Visa**.
-1. Klicka **Zooma in** för att minska zoomnivån i det aktuella webbläsarfönstret.\
+1. Navigera till **Visa** i ett webbläsarfönster.
+1. Klicka på **Zooma in** om du vill minska zoomnivån i det aktuella webbläsarfönstret.\
    Visningsområdet i webbläsaren minskar.

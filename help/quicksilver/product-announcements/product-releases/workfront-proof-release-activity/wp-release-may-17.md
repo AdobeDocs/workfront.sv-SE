@@ -2,7 +2,7 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: "Workfront Proof Release Activity: Week of 17, 2021"
+title: "Workfront Proof release activity: Week of 17, 2021"
 description: Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte för korrekturfunktionen i Adobe Workfront.
 author: Luke
 feature: Product Announcements, Workfront Proof
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Workfront korrekturutgivningsaktivitet: 17 maj 2021
+# Versionsaktivitet för Workfront Proof: 17 maj 2021
 
 Den här sidan beskriver ändringar som gjorts i Workfront Proof (fristående korrekturprogram). De ändringar som beskrivs här gäller inte för korrekturfunktionen i Adobe Workfront.
 

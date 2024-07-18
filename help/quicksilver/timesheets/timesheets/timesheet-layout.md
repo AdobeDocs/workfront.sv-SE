@@ -60,7 +60,7 @@ Tidrapporthuvudet innehåller följande information:
    * Ikonen Mer med alternativet Ta bort som gör att du kan ta bort tidrapporten.
 * Namnet på tidrapporgens ägare.
 * Totalt antal timmar för loggade timmar för objekt som visas i tidrapporten.
-* Antalet övertidstimmar. Det här är en manuell inmatning och den visas bara när **Övertid** inställningen är aktiverad på en tidrapport. Mer information finns i [Redigera tidrapportinformation](../create-and-manage-timesheets/edit-timesheets.md).
+* Antalet övertidstimmar. Det här är en manuell post och den visas bara när inställningen **Övertid** är aktiverad på en tidrapport. Mer information finns i [Redigera tidrapportinformation](../create-and-manage-timesheets/edit-timesheets.md).
 
 >[!TIP]
 >
@@ -75,11 +75,11 @@ Tidrapporthuvudet innehåller följande information:
 Följande avsnitt finns i den vänstra panelen:
 
 * **Tidrapport**: Visar den faktiska tidrapporten.
-* **Uppdateringar**: Visar kommentarer och systemuppdateringar för tidrapporten. Mer information finns i [Uppdateringsområdet i den vänstra panelen](#updates-area-in-the-left-panel) i den här artikeln.
+* **Uppdateringar**: Visar kommentarer och systemuppdateringar för tidrapporten. Mer information finns i avsnittet [Uppdateringar i den vänstra panelen](#updates-area-in-the-left-panel) i den här artikeln.
 
 ## Arbetsobjekt
 
-![Arbetsobjekt i tidrapport](assets/timesheet-object-names-unshimmed-redesign.png)
+![Arbetsobjekt i tidrapporten](assets/timesheet-object-names-unshimmed-redesign.png)
 
 Arbetsobjekten är de projekt, uppgifter och problem som du vill logga tid för. Om du klickar på den nedåtriktade pilen i rubrikraden komprimeras projekten och aktiviteterna och problemen som listas under. När du klickar på den nedåtriktade pilen bredvid ett projekts namn komprimeras arbetsobjekten för det projektet.
 
@@ -91,11 +91,11 @@ Uppgifter, utleveranser och projekt där tiden spelas in utanför tidrapporten e
 
 Verktygsfältet innehåller följande alternativ:
 
-* The **Lägg till objekt** med vilken du kan lägga till projekt, uppgifter eller problem.
+* Knappen **Lägg till objekt** som gör att du kan lägga till projekt, uppgifter eller problem.
 * Snabbfilterikonen som används för att söka efter uppgifter eller problem i tidrapporten.
-* The **Visa kommentarer** inställning som gör att du kan visa eller dölja timkommentarer som är loggade för projekt, uppgifter eller utleverans.
+* Inställningen **Visa kommentarer** som gör att du kan visa eller dölja timkommentarer som är loggade för projekt, aktiviteter eller utleverans.
 * Helskärmsikonen som visar tidrapporten i helskärmsläge.
-* The **Öppna sammanfattning** (eller **Stäng sammanfattning**) när du vill öppna eller stänga panelen Sammanfattning för att se ytterligare information om uppgifter eller problem. Den här knappen är inte tillgänglig för projekt.
+* Knappen **Öppna sammanfattning** (eller **Stäng sammanfattning**) om du vill öppna eller stänga panelen Sammanfattning om du vill visa mer information om aktiviteter eller problem. Den här knappen är inte tillgänglig för projekt.
 
 Mer information finns i [Loggtid](../create-and-manage-timesheets/log-time.md).
 
@@ -103,7 +103,7 @@ Mer information finns i [Loggtid](../create-and-manage-timesheets/log-time.md).
 
 ![Sidfot i tidrapport](assets/timesheet-footer-unshimmed-redesign.png)
 
-Du kan klicka på **Skicka för godkännande**, **Stäng**, **Godkänn** och **Avvisa** i det här området om du vill stänga eller avvisa ett tidrapportgodkännande.
+Du kan klicka på knapparna **Skicka för godkännande**, **Stäng**, **Godkänn** och **Avvisa** i det här området om du vill stänga eller avvisa ett godkännande av tidrapporten.
 
 Det här området innehåller även information om när tidrapporten senast sparades. Alla ändringar du gör i informationen i tidrapporten sparas automatiskt.
 
@@ -111,7 +111,7 @@ Det här området innehåller även information om när tidrapporten senast spar
 
 ![Jobbroller](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-Du kan välja en annan jobbroll att associera med timposterna. Din Workfront-administratör måste aktivera **Tilldela jobbroller till timposter** manuellt. Jobbrollen som anges för dig när du tilldelas uppgiften eller problemet visas som standard. Om du inte har tilldelats en jobbroll för aktiviteten eller problemet visas din primära roll som standard. Mer information finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Du kan välja en annan jobbroll att associera med timposterna. Workfront-administratören måste aktivera inställningen **Tilldela jobbroller till timposter** manuellt. Jobbrollen som anges för dig när du tilldelas uppgiften eller problemet visas som standard. Om du inte har tilldelats en jobbroll för aktiviteten eller problemet visas din primära roll som standard. Mer information finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Du kan logga flera timposter för samma arbetsuppgift för olika roller. Mer information finns i [Loggtid](../create-and-manage-timesheets/log-time.md).
 
@@ -125,7 +125,7 @@ Du kan logga flera timposter för samma arbetsuppgift för olika timtyper. Mer i
 
 ## Uppdateringsområdet i den vänstra panelen
 
-![Uppdateringsområdet i den vänstra tidrapportpanelen](assets/timesheet-updates-with-all-tab.png)
+![Området Uppdateringar i den vänstra tidrapportpanelen](assets/timesheet-updates-with-all-tab.png)
 
 Du kan kommentera i en tidrapport för att kommunicera med tidrapportgodkännare eller andra användare i uppdateringsavsnittet på den vänstra panelen i tidrapporten.
 
@@ -135,7 +135,7 @@ Eventuella kommentarer som gjorts i tidrapporten visas i det här området.
 
 ![Panelen Sammanfattning](assets/timesheet-summary-panel-on-updates.png)
 
-Du kan öppna panelen Sammanfattning för uppgifter och utgåvor som visas i en tidrapport. Härifrån kan du kommentera uppgifter och problem eller uppdatera deras information. Mer information finns i [Sammanfattning](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Du kan öppna panelen Sammanfattning för uppgifter och utgåvor som visas i en tidrapport. Härifrån kan du kommentera uppgifter och problem eller uppdatera deras information. Mer information finns i [Sammanfattningsöversikt](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 Kommentarerna som du anger för arbetsobjekt på panelen Sammanfattning av tidrapporter visas under Uppdateringar för uppgiften eller problemet. Panelen Sammanfattning är inte tillgänglig för projekt.
 
@@ -149,18 +149,18 @@ Du kan skapa tidrapporter för en, två eller fyra veckor.
 
 Tidsramen visas i helveckorsintervall. Dagar utanför den angivna tidsramen för tidrapporten är nedtonade. Du kan inte logga tid för dagar som ligger utanför tidrapportens tidsram.
 
-Mer information finns i [Skapa en tidrapport för engångsbruk](../create-and-manage-timesheets/create-tmshts.md) eller [Skapa, redigera och tilldela tidrapportprofiler](../create-and-manage-timesheets/create-timesheet-profiles.md).
+Mer information finns i [Skapa en enskild tidrapport](../create-and-manage-timesheets/create-tmshts.md) eller [Skapa, redigera och tilldela tidrapportprofiler](../create-and-manage-timesheets/create-timesheet-profiles.md).
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
 
 ## Kommentarer till timinginlägg
 
-![Kommentarer till timinginlägg](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
+![Kommentarer till timinmatning](assets/timesheet-hour-entry-comment-button-unshimmed-redesign.png)
 
 Du kan lägga till en kommentar för varje timmes inlägg som du lägger till i tidrapporten.
 
-Kommentarerna som du anger i kommentarrutan för timinmatning visas i tidrapporten, under varje arbetsuppgift där du loggade tiden när **Visa kommentarer** inställningen är aktiverad i verktygsfältet.
+Kommentarerna som du anger i kommentarrutan för timinmatning visas i tidrapporten, under varje arbetsobjekt där du loggade den tid då inställningen **Visa kommentarer** är aktiverad i verktygsfältet.
 
 ![](assets/hour-entry-comment-under-task-in-timesheet-unshimmed-redesign.png)
 

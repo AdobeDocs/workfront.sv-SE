@@ -24,7 +24,7 @@ Information om hur en Workfront-administratör kan ändra en användares standar
 
 >[!NOTE]
 >
->Användarna kan ändra sin egen layout genom att redigera sina användarprofilsinställningar. Mer information finns i [Inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) avsnitt i [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+>Användarna kan ändra sin egen layout genom att redigera sina användarprofilsinställningar. Mer information finns i avsnittet [Inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#preferences) i [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Standardlayouter för varje åtkomstnivå
 
@@ -57,8 +57,8 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
   <tr> 
    <td rowspan="2"><strong>Projekt</strong> </td> 
    <td><strong>Projekt</strong> </td> 
-   <td>✔ <br>(Standardlandningsområde)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Standardlandningsområde)</td> 
+   <td>✔ <br> (standardlandningsområde)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br> (standardlandningsområde)</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -84,7 +84,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Kontrollpaneler</strong> </p> </td> 
+   <td> <p><strong>Instrumentpaneler</strong> </p> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -102,7 +102,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><strong>Folk</strong> (ändrat namn till <strong>Team</strong> för användare med en arbetslicens)</td> 
+   <td rowspan="5"><strong>Personer</strong> (har bytt namn till <strong>Team</strong> för användare med en arbetslicens)</td> 
    <td><strong>Team</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -112,7 +112,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Folk</strong> </td> 
+   <td><strong>Personer</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -131,7 +131,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
    </tr>
   --> 
   <tr> 
-   <td><strong>Planering</strong> </td> 
+   <td><strong>Planerar</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td> </td> 
@@ -164,8 +164,8 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
-   <td>✔ <br>(Standardlandningsområde)</td> 
-   <td>✔ <br>(Standardlandningsområde)</td> 
+   <td>✔ <br> (standardlandningsområde)</td> 
+   <td>✔ <br> (standardlandningsområde)</td> 
   </tr> 
   <tr> 
    <td><strong>Alla begäranden</strong> </td> 
@@ -215,7 +215,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
    <td> </td> 
   </tr> 
   <tr> 
-   <td><strong>Inställningar</strong> </td> 
+   <td><strong>Konfigurera</strong> </td> 
    <td> </td> 
    <td>✔ </td> 
    <td>Begränsad funktionalitet</td> 

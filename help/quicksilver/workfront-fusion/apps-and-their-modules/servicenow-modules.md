@@ -5,20 +5,20 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: ServiceNow-moduler
-description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL ServiceNow], samt ansluta till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder  [!DNL ServiceNow] samt ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
 
 # [!DNL ServiceNow] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL ServiceNow], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL ServiceNow] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,35 +43,35 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL ServiceNow] moduler, du måste ha en [!DNL ServiceNow] konto.
+Du måste ha ett [!DNL ServiceNow]-konto för att kunna använda [!DNL ServiceNow]-moduler.
 
 ## Anslut [!DNL ServiceNow] till [!DNL Workfront Fusion]
 
-Skapa en anslutning för [!DNL ServiceNow] moduler:
+Så här skapar du en anslutning för dina [!DNL ServiceNow]-moduler:
 
-1. Klicka **[!UICONTROL Add]** bredvid [!UICONTROL Connection] när du börjar konfigurera den första [!DNL ServiceNow] -modul.
+1. Klicka på **[!UICONTROL Add]** bredvid rutan [!UICONTROL Connection] när du börjar konfigurera den första [!DNL ServiceNow]-modulen.
 1. Ange följande:
 
    <table style="table-layout:auto"> 
@@ -80,11 +80,11 @@ Skapa en anslutning för [!DNL ServiceNow] moduler:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
-      <td>Ange ett namn för den nya [!DNL ServiceNow] anslutning</td> 
+      <td>Ange ett namn för den nya [!DNL ServiceNow]-anslutningen</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Username]</p> </td> 
-      <td>Ange [!DNL ServiceNow] användarnamn.</td> 
+      <td>Ange ditt [!DNL ServiceNow]-användarnamn.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Password]</p> </td> 
@@ -92,14 +92,14 @@ Skapa en anslutning för [!DNL ServiceNow] moduler:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Instance]</p> </td> 
-      <td> <p>Ange adressen till [!DNL ServiceNow] konto utan <code>https://</code> (vanligtvis <code>&lt;company>.service-now.com</code>).</p> </td> 
+      <td> <p>Ange adressen för ditt [!DNL ServiceNow]-konto utan <code>https://</code> (vanligtvis <code>&lt;company>.service-now.com</code>).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## [!UICONTROL ServiceNow] moduler och deras fält
+## [!UICONTROL ServiceNow]-moduler och deras fält
 
-När du konfigurerar [!DNL ServiceNow] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL ServiceNow] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL ServiceNow] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL ServiceNow] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -107,7 +107,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 >[!NOTE]
 >
->Om en anpassad post har valts i en[!UICONTROL Record type]&quot; kan det ta lite tid att läsa in de anpassade fälten.
+>Om en anpassad post har valts i ett [!UICONTROL Record type]-fält kan det ta lite tid att läsa in anpassade fält.
 >
 >Om det inte finns några egna poster är listrutan tom.
 
@@ -132,7 +132,7 @@ Den här utlösarmodulen aktiverar ett scenario när en post skapas eller uppdat
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -163,7 +163,7 @@ Den här utlösarmodulen aktiverar ett scenario när en post skapas eller uppdat
 
 ### [!UICONTROL Custom API Call]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL ServiceNow] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL ServiceNow] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL ServiceNow]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL ServiceNow]-modulerna.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -173,7 +173,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Relative URL]</td> 
@@ -181,7 +181,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -193,7 +193,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -203,7 +203,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 ### [!UICONTROL Read a record]
 
-Den här åtgärdsmodulen läser en [!DNL ServiceNow] genom att använda system-ID.
+Den här åtgärdsmodulen läser en [!DNL ServiceNow]-post med system-ID.
 
 Modulen returnerar alla standardfält som är associerade med posten, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -215,11 +215,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record System ID]</td> 
-   <td>Ange eller mappa det unika [!DNL ServiceNow] ID för den post som du vill att modulen ska läsa.</td> 
+   <td>Ange eller mappa det unika [!DNL ServiceNow]-ID:t för posten som du vill att modulen ska läsa.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -227,7 +227,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Välj typ av [!DNL ServiceNow] som du vill att modulen ska läsa.</td> 
+   <td>Välj den typ av [!DNL ServiceNow]-post som du vill att modulen ska läsa.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Display]</td> 
@@ -250,18 +250,18 @@ Den här åtgärdsmodulen inaktiverar en användare i [!DNL ServiceNow] genom at
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL User System ID]</td> 
-   <td> Ange eller mappa det unika [!DNL ServiceNow] ID för användaren som du vill att modulen ska inaktivera.</td> 
+   <td> Ange eller mappa det unika [!DNL ServiceNow]-ID:t för användaren som du vill att modulen ska inaktivera.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Download an attachment]
 
-Den här åtgärdsmodulen hämtar en bifogad fil i en [!DNL ServiceNow] post.
+Den här åtgärdsmodulen hämtar en bifogad fil i en [!DNL ServiceNow]-post.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -269,18 +269,18 @@ Den här åtgärdsmodulen hämtar en bifogad fil i en [!DNL ServiceNow] post.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Attachment System ID]</td> 
-   <td> Ange eller mappa det unika [!DNL ServiceNow] ID för den bifogade fil som du vill att modulen ska hämta.</td> 
+   <td> Ange eller mappa det unika [!DNL ServiceNow]-ID:t för den bifogade filen som du vill att modulen ska hämta.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Upload an attachment]
 
-Den här åtgärdsmodulen överför en bifogad fil till en [!DNL ServiceNow] post.
+Den här åtgärdsmodulen överför en bifogad fil till en [!DNL ServiceNow]-post.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -288,7 +288,7 @@ Den här åtgärdsmodulen överför en bifogad fil till en [!DNL ServiceNow] pos
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table name]</td> 
@@ -296,7 +296,7 @@ Den här åtgärdsmodulen överför en bifogad fil till en [!DNL ServiceNow] pos
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL System ID]</td> 
-   <td>Ange eller mappa det unika [!DNL ServiceNow] ID för systemet där du vill överföra bilagan.</td> 
+   <td>Ange eller mappa det unika [!DNL ServiceNow]-ID:t för systemet där du vill överföra den bifogade filen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
@@ -311,7 +311,7 @@ Den här åtgärdsmodulen överför en bifogad fil till en [!DNL ServiceNow] pos
 
 ### [!UICONTROL Create a record]
 
-Den här åtgärdsmodulen skapar en ny [!DNL ServiceNow] post.
+Denna åtgärdsmodul skapar en ny [!DNL ServiceNow]-post.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -321,7 +321,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -329,14 +329,14 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Välj typ av [!DNL ServiceNow] som du vill att modulen ska skapa. Du kan sedan fylla i de tillgängliga fälten för den här posttypen.</td> 
+   <td>Välj den typ av [!DNL ServiceNow]-post som du vill att modulen ska skapa. Du kan sedan fylla i de tillgängliga fälten för den här posttypen.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Update a record]
 
-Den här åtgärdsmodulen skapar en ny [!DNL ServiceNow] post.
+Denna åtgärdsmodul skapar en ny [!DNL ServiceNow]-post.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -346,11 +346,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record System ID]</td> 
-   <td>Ange eller mappa det unika [!DNL ServiceNow] ID för den post som du vill att modulen ska uppdatera.</td> 
+   <td>Ange eller mappa det unika [!DNL ServiceNow]-ID:t för posten som du vill att modulen ska uppdatera.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -358,7 +358,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Välj typ av [!DNL ServiceNow] som du vill att modulen ska uppdatera. Du kan sedan fylla i de tillgängliga fälten för den här posttypen.</td> 
+   <td>Välj den typ av [!DNL ServiceNow]-post som du vill att modulen ska uppdatera. Du kan sedan fylla i de tillgängliga fälten för den här posttypen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,7 +375,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -383,7 +383,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL System ID]</td> 
-   <td>Ange eller mappa det unika [!DNL ServiceNow] ID för den post som du vill att modulen ska ta bort.</td> 
+   <td>Ange eller mappa det unika [!DNL ServiceNow]-ID:t för posten som du vill att modulen ska ta bort.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ Modulen returnerar alla standardfält som är associerade med posten, tillsamman
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion], se <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref">Anslut [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ServiceNow-kontot till [!DNL Workfront Fusion] finns i <a href="#connect-servicenow-to-workfront-fusion" class="MCXref xref"> Ansluta [!DNL ServiceNow] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Table type]</td> 
@@ -424,7 +424,7 @@ Modulen returnerar alla standardfält som är associerade med posten, tillsamman
     <ul> 
      <li> <p><strong>[!UICONTROL Advanced query]</strong> </p> 
       <ul> 
-       <li> <p>[!UICONTROL Search Query]</p> <p>Ange den anpassade sökfrågan. För information om [!DNL ServiceNow] anpassade sökfrågor, se <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow - frågedokumentation</a>.</p> </li> 
+       <li> <p>[!UICONTROL Search Query]</p> <p>Ange den anpassade sökfrågan. Mer information om [!DNL ServiceNow] anpassade sökfrågor finns i <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow-frågedokumentationen</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Simple]</strong> </p> 
       <ul> 

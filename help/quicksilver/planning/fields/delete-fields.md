@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -119,7 +119,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på kortet för en posttyp.
 
-1. (Villkorligt) Om det inte redan är markerat klickar du på fliken för en **Tabellvy** på posttypssidan.
+1. (Villkorligt) Om det inte redan är markerat klickar du på fliken för en **tabellvy** på posttypssidan.
 
    Alla befintliga poster som är associerade med posttypen visas i tabellvyns rader.
 
@@ -127,10 +127,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Klicka **Ta bort**. <!-- check this: they might replace it with **Delete field**-->
+1. Klicka på **Ta bort**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. Klicka **Ta bort** för att bekräfta.
+1. Bekräfta genom att klicka på **Ta bort**.
 
    Fältet tas bort, kan inte återställas och kan inte längre kopplas till några poster.

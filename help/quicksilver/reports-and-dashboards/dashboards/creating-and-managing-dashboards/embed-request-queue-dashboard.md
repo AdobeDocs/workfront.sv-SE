@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Båda följande måste skapas innan du kan bädda in en begärandekö i en kontrollpanel:
 
-* **Kontrollpanelen**: Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+* **Kontrollpanelen**: Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 * **Begärandekön**: Mer information om hur du skapar begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Hämta URL:en för begärandekön {#obtain-the-url-of-the-request-queue}
@@ -71,14 +71,14 @@ När du delar en länk till ett visst ämne i kön med andra användare, öppnas
 
 Användarna kan ändra typ av begäran eller välja ett annat ämne om de behöver det. Navigeringen i området Begäranden visas också.
 
-1. Klicka på **Huvudmeny** > **Begäranden** > **Ny begäran**.
-1. Om du vill dela en viss kö fortsätter du välja ämnesgrupper och köämnen tills du når kön som du vill dela på instrumentpanelen. Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Klicka på **Huvudmenyn** > **Förfrågningar** > **Ny begäran**.
+1. Om du vill dela en viss kö fortsätter du välja ämnesgrupper och köämnen tills du når kön som du vill dela på instrumentpanelen. Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
    >
    >Det är valfritt att välja ämnesgrupper och köämnen.
 
-1. Klicka **Dela bana** i det övre högra hörnet av området Ny begäran.
+1. Klicka på **Dela bana** i det övre högra hörnet av området Ny begäran.
 
    Då kopieras länken till begärandekön eller köämnet när du visar den på skärmen. Användare kan uppdatera frågetypen eller någon av de ämnesgrupper och köämnen som är tillgängliga.
 
@@ -90,10 +90,10 @@ När du delar en länk till en frågetyp väljs begärandetypen för användaren
 
 1. Gå till ett projekt som har angetts som en begärandekö.
 
-   Mer information om hur du skapar en begärandekö från ett projekt finns på [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information om hur du skapar en begärandekö från ett projekt finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Gå till **Köinformation**.
-1. Kopiera koden som du hittar i **URL för direktåtkomst** fält.
+1. Kopiera koden som du hittar i fältet **Direct Access URL**.
 
    Koden ska se ut ungefär så här:
 
@@ -111,10 +111,10 @@ När du delar en länk till en förvald frågetyp väljs begärandetypen för an
 
 1. Gå till ett projekt som har angetts som en begärandekö.
 
-   Mer information om hur du skapar en begärandekö från ett projekt finns på [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information om hur du skapar en begärandekö från ett projekt finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. Gå till **Köinformation**.
-1. Kopiera koden som du hittar i **Inbäddad kod** fält.
+1. Kopiera koden som du hittar i fältet **Inbäddad kod**.
 
    Koden ska se ut ungefär så här:
 
@@ -126,7 +126,7 @@ När du delar en länk till en förvald frågetyp väljs begärandetypen för an
 
    >[!TIP]
    >
-   >Du kan lägga till en `<samp>iframe </samp>` -taggen när koden bäddas in i ett annat program än Workfront.
+   >Du kan lägga till en `<samp>iframe </samp>`-tagg när du bäddar in koden i ett annat program än Workfront.
 
    Det här är länken till begärandekön som är associerad med det valda projektet. Begärantypen är förmarkerad och kan inte ändras.
 
@@ -138,21 +138,21 @@ När du delar en länk till en förvald frågetyp väljs begärandetypen för an
 
 Du kan bädda in en länk till begärandekön eller till ett köämne som kapslats under en begärandekö i en kontrollpanel för att ge användarna direkt åtkomst till inskrivna begäranden.
 
-1. Hämta en URL för begärandekö med någon av metoderna som beskrivs i [Hämta URL:en för begärandekön](#obtain-the-url-of-the-request-queue) i den här artikeln.
-1. Klicka på **Huvudmeny** > **Kontrollpaneler** > **Ny instrumentpanel**.
-1. Skriv a **Namn** för kontrollpanelen. Detta är ett obligatoriskt fält.
-1. Klicka **Lägg till extern sida**.
+1. Hämta en URL för begärandekön med någon av metoderna som beskrivs i avsnittet [Hämta URL:en för begärandekön](#obtain-the-url-of-the-request-queue) i den här artikeln.
+1. Klicka på **Huvudmenyn** > **Kontrollpaneler** > **Ny kontrollpanel**.
+1. Ange ett **namn** för instrumentpanelen. Detta är ett obligatoriskt fält.
+1. Klicka på **Lägg till extern sida**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
 
-1. I **Lägg till extern sida** redigerar du följande fält:
+1. Redigera följande fält i rutan **Lägg till extern sida**:
 
-   * **Namn**: Ange namnet på begärandekön som du vill att den ska visas på instrumentpanelen. Detta är ett obligatoriskt fält.
+   * **Namn**: Ange namnet på begärandekön så som du vill att den ska visas på instrumentpanelen. Detta är ett obligatoriskt fält.
 
-   * **Beskrivning**: Ange en beskrivning av den här externa sidan. Detta är inte ett obligatoriskt fält och det är endast viktigt för rapportering. Den visas inte på kontrollpanelen.
+   * **Beskrivning**: Ange en beskrivning av att den här externa sidan visas. Detta är inte ett obligatoriskt fält och det är endast viktigt för rapportering. Den visas inte på kontrollpanelen.
    * **URL**: klistra in den URL som du fick med någon av metoderna som beskrivs i steg 1.
 
-      <!--   
+     <!--   
      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
      <MadCap:conditionalText data-mc-conditions="">   
      (NOTE: ensure this stays accurate)   
@@ -162,15 +162,15 @@ Du kan bädda in en länk till begärandekön eller till ett köämne som kapsla
 
    * **Höjd**: Ange den externa sidans höjd. Detta anger hur mycket utrymme den externa sidan som innehåller begärandekön upptar på instrumentpanelen. Detta är ett obligatoriskt fält och standardvärdet är 500.
 
-1. Klicka **Spara**.
-1. Klicka **Spara + Stäng**. 
+1. Klicka på **Spara**.
+1. Klicka på **Spara + Stäng**. 
 
    Begärandekön visas som en separat kontrollpanelskomponent på kontrollpanelen.
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
-1. (Valfritt) Klicka på **Instrumentpanelsåtgärder** sedan **Redigera** om du vill lägga till rapporter, kalendrar eller ytterligare externa sidor på samma instrumentpanel.\
-   Mer information om hur du lägger till komponenter på en kontrollpanel finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+1. (Valfritt) Klicka på **Instrumentpanelsåtgärder** och **Redigera** om du vill lägga till rapporter, kalendrar eller ytterligare externa sidor på samma instrumentpanel.\
+   Mer information om hur du lägger till komponenter på en kontrollpanel finns i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
  
 

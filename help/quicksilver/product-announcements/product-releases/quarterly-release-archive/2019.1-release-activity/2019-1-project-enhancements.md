@@ -27,23 +27,23 @@ En lista över alla ändringar som gjorts under 2019.1 finns i&quot;Översikt ö
 **För administratörer**
 
 * [Återställ mallar från papperskorgen](#restore-templates-from-the-recycle-bin)
-* [Visa tidsstämplar för datumfält i hemmet](#show-timestamps-for-date-fields-in-home)
+* [Visa tidsstämplar för datumfält i Hem](#show-timestamps-for-date-fields-in-home)
 * [Alla varaktighetstyper som är tillgängliga under Projektinställningar](#all-duration-types-available-under-project-preferences)
 
 **För alla användare**
 
-* [Flexibla förbättringar](#agile-improvements)
-* [Lägg till uppgifter och ärenden från en lista till en iteration](#add-tasks-and-issues-from-a-list-to-an-iteration)
+* [Agile Improvements](#agile-improvements)
+* [Lägg till aktiviteter och ärenden från en lista till en iteration](#add-tasks-and-issues-from-a-list-to-an-iteration)
 * [Nya pappersstorlekar för Gantt-diagramexport](#new-paper-sizes-for-gantt-chart-export)
-* [Åtkomst till dialogrutor i Gantt-schemat i redigeringsläget har tagits bort](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [Åtkomst till dialogrutor i Gantt-schemat i redigeringsläge har tagits bort](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
 * [Visa aktivitetsinformation i Gantt-schemat för projektlistan i ett program eller Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Öppna Gantt-schemat för uppgiftslistor i mallar](#access-the-task-list-gantt-chart-on-templates)
-* [Byt namn på projektvyn i Gantt-schemat](#renamed-the-project-view-on-the-gantt-chart)
-* [What-If-scenarier i Gantt-schema för uppgiftslista](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [Öppna Gantt-schemat för uppgiftslistan i mallar](#access-the-task-list-gantt-chart-on-templates)
+* [Bytt namn på projektvyn i Gantt-schemat](#renamed-the-project-view-on-the-gantt-chart)
+* [What-If-scenarier i Gantt-schemat för aktivitetslista](#what-if-scenarios-in-the-task-list-gantt-chart)
 * [Förbättringar av uppgiftslistan](#task-list-improvements)
 * [Visa listor i helskärmsläge](#display-lists-in-full-screen)
 * [Nya listor i ytterligare områden](#new-lists-in-additional-areas)
-* [Skicka en levererad rapport i XLSX-format](#send-a-delivered-report-in-xlsx-format)
+* [Skicka en rapport i XLSX-format](#send-a-delivered-report-in-xlsx-format)
 * [Exportera granskningsloggar](#export-audit-logs)
 
 ## Återställ mallar från papperskorgen {#restore-templates-from-the-recycle-bin}
@@ -128,7 +128,7 @@ Mer information om schemaläggning av leveransrapporter finns i&quot;Setting Up 
 
 ## Förbättringar av uppgiftslistan {#task-list-improvements}
 
-[uppdatering 18.3 Beta 4 där detta togs bort från]
+[uppdatera 18.3 Beta 4 där detta togs bort från ]
 
 De nya uppgiftslistorna har återaktiverats efter en kort borttagning i betaversionen av 18.3. Vi har även infört följande ytterligare funktioner i uppgiftslistorna som inte ingick i den ursprungliga versionen:
 

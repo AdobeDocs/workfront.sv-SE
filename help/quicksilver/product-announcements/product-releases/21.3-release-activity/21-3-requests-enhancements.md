@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla begäranden som gjorts i version 21.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 21 juli 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 Versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Söka efter begäranden med hjälp av nyligen använda sökvägar eller genom att söka med hjälp av ett nyckelord
 
@@ -32,5 +32,5 @@ För att du snabbare ska kunna hitta rätt begärandekö genom att referera till
 
 En sökväg innehåller begärandekön och alla ämnesgrupper och köämnen som du har valt innan du skickar en begäran.
 
-Mer information finns i [Skapa och skicka Adobe Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information finns i [Skapa och skicka Adobe Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

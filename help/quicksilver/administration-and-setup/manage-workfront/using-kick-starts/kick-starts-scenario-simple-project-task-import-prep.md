@@ -85,7 +85,7 @@ I följande uppgiftslista visas alltför förenklade uppgiftslistor för projekt
 
 >[!NOTE]
 >
->Instruktionerna i det här scenariot är inte så tydliga som de stegvisa instruktionerna i [Scenario med snabb start: Förberedelser för företag, grupper, roller och användare har startats](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Du förutsätts redan ha lärt dig hur du söker upp och kopierar värden från företag- och gruppbladen, så dessa steg kommer att nämnas, men inte beskrivas särskilt.
+>Instruktionerna i det här scenariot är inte så tydliga som de stegvisa instruktionerna i [snabbstartscenariot: Förberedelser för företag, grupp, roll och användarsnabbstart](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-company-group-role-user-prep.md). Du förutsätts redan ha lärt dig hur du söker upp och kopierar värden från företag- och gruppbladen, så dessa steg kommer att nämnas, men inte beskrivas särskilt.
 
 1. Konfigurera.
 1. Importera användare.
@@ -284,9 +284,9 @@ Om du inte redan har skapat projekt i Workfront ska det vara tomt.
 
 Ange värden för följande projektfält:
 
-* **Ange isNew-kolumn**
+* **Set isNew column**
 Ange TRUE i raderna 3 till 6 för kolumnen isNew.
-* **Ange unika ID:n**
+* **Ange unika ID**
 Ange ett unikt ID i varje rad för ID-kolumnen - Vanligtvis fungerar heltal som börjar med 1 bra när du skapar nya poster.
 * **Ange projektnamn**
 Ange namnen på varje projekt i kolumnen setName.
@@ -302,7 +302,7 @@ Ange namnen på varje projekt i kolumnen setName.
 Ange värden i kolumnen setTaskNumber för att styra i vilken ordning uppgifterna ska visas i projektplanen.
 * **Ange projektdatum.**
 Ange planerat startdatum för varje projekt i kolumnen setPlannedStartDate.
-* **Ange annan information som behövs.**
+* **Ange annan nödvändig information.**
 Fyll i annan information, till exempel en beskrivning eller aktuell status, efter behov. Leta upp grupp-ID:n för varje projekt på GROUP Group-bladet och ange dem i kolumnen setGroupID för respektive projekt. Leta upp företags-ID för projekten på CMPY Company-bladet och ange det i kolumnen setCompanyID. Leta upp användar-ID för varje projektägare på användarbladet för ANVÄNDARE och ange det i kolumnen setOwnerID. Leta upp användar-ID för varje projektsponsor på användarbladet för ANVÄNDARE och ange det i kolumnen setSponsorID.
 
 ![](assets/im9.png)
@@ -329,7 +329,7 @@ Det enklaste sättet att mappa uppgifter är ett projekt i taget (särskilt när
 
 Ange värden för följande aktivitetsfält:
 
-* **Ange ID:n**
+* **Ange ID**
 Ange ett unikt ID i varje rad för ID-kolumnen.
 * **Ange namn**
 Ange uppgiftsnamnen i kolumnen setName.
@@ -378,4 +378,4 @@ Ange varaktigheten för varje uppgift genom att ange antal timmar, dagar, veckor
 
 * **Importera Excel-filen**
 
-  Följ instruktionerna i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Följ anvisningarna i [Importera data till Adobe Workfront med en snabbstartmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

@@ -78,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -91,7 +91,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du redigerar postsidor
 
@@ -108,7 +108,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Visningsändringar som du gör i postförhandsgranskningen visas direkt på postinformationssidan. Ändringar som görs på postsidan visas också i rutan Förhandsgranska post.
 
-* Att lägga till en omslagsbild eller en miniatyrbild i en post ingår inte i den övergripande layouten för postförhandsvisningen eller -sidan. Du kan lägga till unika omslagsbilder eller miniatyrbilder till varje post. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) och [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* Att lägga till en omslagsbild eller en miniatyrbild i en post ingår inte i den övergripande layouten för postförhandsvisningen eller -sidan. Du kan lägga till unika omslagsbilder eller miniatyrbilder till varje post. Mer information finns i [Lägga till en omslagsbild i en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) och [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ## Lägga till avsnitt i en postförhandsgranskning eller sida
 
@@ -116,7 +116,7 @@ Tänk på följande när du lägger till avsnitt på en postsida:
 
 * Det finns ingen gräns för hur många avsnitt du kan ha på en sida.
 * Du kan inte ha ett tomt avsnitt. Du måste ha minst ett fält i ett avsnitt.
-* Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller detaljer](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
+* Du kan dra och släppa fält från ett avsnitt till ett annat. Mer information finns i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller information](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
 * När du tar bort alla fält från ett avsnitt tas avsnittet automatiskt bort och kan inte återställas.
 
 Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
@@ -135,46 +135,46 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
    eller
 
-   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
+   Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen i tabellvyn.
 
    Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
    ![](assets/details-page.png)
 
-1. Håll markören över det tomma utrymmet till vänster om fälten och klicka sedan på **Lägg till avsnitt** icon ![](assets/add-section-icon.png) för att lägga till ett avsnitt.
-1. Klicka i avsnittets namn och ersätt **Namnlöst avsnitt** med ett namn och klicka sedan på Enter. Fälten som visas under avsnittet är automatiskt en del av det nya avsnittet.
-1. Börja dra och släppa fält till det nya avsnittet, vilket beskrivs i avsnittet [Ordna om fält på sidan för postförhandsgranskning eller detaljer](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
+1. Håll markören över det tomma utrymmet till vänster om fälten i förhandsgranskningen eller på sidan för att lägga till ett avsnitt genom att klicka på ikonen **Lägg till avsnitt** ![](assets/add-section-icon.png) .
+1. Klicka i avsnittets namn och ersätt **Namnlöst avsnitt** med ett namn. Klicka sedan på Retur. Fälten som visas under avsnittet är automatiskt en del av det nya avsnittet.
+1. Börja dra och släppa fält till det nya avsnittet, så som beskrivs i avsnittet [Ordna om fält i postförhandsgranskningen eller informationssidan](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
 
-1. (Valfritt) Håll pekaren över namnet på ett avsnitt och klicka på knappen **Mer** meny ![](assets/more-menu.png).
+1. (Valfritt) Håll pekaren över namnet på ett avsnitt och klicka på menyn **Mer** ![](assets/more-menu.png) .
 
    ![](assets/more-menu-options-for-section-on-record-page.png)
 1. (Valfritt) Gör något av följande om du vill redigera avsnittet:
 
-   * Klicka **Byt namn** för att byta namn på avsnittet
+   * Klicka på **Byt namn på** om du vill byta namn på avsnittet
 
      >[!TIP]
      >
      > Du kan byta namn på ett avsnitt genom att klicka på namnet.
 
-   * Klicka **Flytta uppåt** för att flytta avsnittet uppåt en position
+   * Klicka på **Flytta upp** för att flytta avsnittet uppåt en position
 
      eller
 
-     Klicka **Flytta nedåt** om du vill flytta avsnittet nedåt en position.
+     Klicka på **Flytta nedåt** om du vill flytta avsnittet nedåt en position.
 Alla fält i avsnittet flyttas tillsammans med avsnittet.
 
-   * Klicka **Ta bort** för att ta bort avsnittet. Avsnittet tas bort och kan inte återställas. Alla användare som har åtkomst till poster av den här typen kommer inte längre att visa det borttagna avsnittet.
+   * Klicka på **Ta bort** för att ta bort avsnittet. Avsnittet tas bort och kan inte återställas. Alla användare som har åtkomst till poster av den här typen kommer inte längre att visa det borttagna avsnittet.
 
 1. Klicka på den nedåtriktade pilen till vänster om avsnittsnamnet för att komprimera det, eller på den högerriktade pilen för att expandera det.
 Alla avsnitt expanderas som standard.
 
-1. (Valfritt) Klicka på **ta** icon ![](assets/grab-icon.png) till vänster om ett avsnittsnamn och dra och släpp det på en önskad plats.
+1. (Valfritt) Klicka på ikonen **Ta** ![](assets/grab-icon.png) till vänster om ett avsnittsnamn och dra och släpp den på önskad plats.
 
    Avsnittets nya position uppdateras både i förhandsgranskningen och på sidan med alla poster av samma typ för alla användare som visar posterna.
 
@@ -196,19 +196,19 @@ Alla avsnitt expanderas som standard.
 
    eller
 
-   I tabelltabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen.
+   Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen i tabellvyn.
 
    Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
    Postsidan öppnas.
 
    ![](assets/details-page.png)
 
-1. Klicka på knappen **ta** icon ![](assets/grab-icon.png) till vänster om ett fältnamn och sedan dra och släppa det på önskad plats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Klicka på ikonen **ta** ![](assets/grab-icon.png) till vänster om ett fältnamn i förhandsgranskningen eller på sidan för en post och dra och släpp den sedan på önskad plats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    Den nya positionen för fältet uppdateras både i förhandsvisningen och på sidan med alla poster av samma typ för alla användare som visar posterna.
 

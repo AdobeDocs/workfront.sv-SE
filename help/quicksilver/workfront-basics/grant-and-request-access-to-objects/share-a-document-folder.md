@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '903'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,6 @@ Du kan dela en mapp och dess innehåll från området Dokument.
 >* Om du konfigurerar delningsalternativ för en dokumentmapp i en mall, och någon sedan skapar ett projekt från den mallen, överförs inte dina delningskonfigurationer till dokumentmappen i det nya projektet.
 >* Om du konfigurerar delningsalternativ för en dokumentmapp i ett arbetsobjekt och sedan kopierar arbetsobjektet, överförs inte dina delningskonfigurationer till dokumentmappen i det nya arbetsobjektet.
 >
-
 
 ## Åtkomstkrav
 
@@ -79,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -92,17 +91,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Dela en mapp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Dokument**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Dokument**.
 
    eller
 
-   Med ett Workfront-objekt öppet klickar du på **Dokument** i den vänstra panelen.
+   Klicka på **Dokument** i den vänstra panelen när ett Workfront-objekt är öppet.
 
-1. Markera mappen och klicka sedan på ikonen Dela ![](assets/share-icon.png) i verktygsfältet.
+1. Markera mappen och klicka sedan på delningsikonen ![](assets/share-icon.png) i verktygsfältet.
 
    Mappen måste finnas på de fem översta nivåerna i en mapphierarki på ett objekt och kan inte vara en smart mapp.
 
-1. I rutan som visas, under **Ge mappåtkomst till**, börja skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela mappen med och tryck sedan på **Retur** när namnet visas.
+1. I rutan som visas, under **Ge mappåtkomst till**, börjar du skriva namnet på den användare, det team, den jobbroll, den grupp eller det företag som du vill dela mappen med och trycker sedan på **Retur** när namnet visas.
 1. Om du vill justera åtkomsten för användaren, teamet, jobbrollen, gruppen eller företaget som du just lade till klickar du på listrutan till höger om namnet och konfigurerar sedan något av följande tillgängliga alternativ och någon av de avancerade inställningarna:
 
    <table style="table-layout:auto"> 
@@ -111,15 +110,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Se det</td> 
-      <td> <p>Möjlighet att visa mappen och dess innehåll.</p> <p>Klicka <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
+      <td> <p>Möjlighet att visa mappen och dess innehåll.</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta följande:</p> 
        <ul> 
-        <li><strong>Hämta</strong>: Möjlighet att ladda ned mappen och dess innehåll som en ZIP-fil</li> 
+        <li><strong>Hämta</strong>: Möjlighet att hämta mappen och dess innehåll som en ZIP-fil</li> 
         <li> <p><strong>Dela</strong>: Möjlighet att dela mappen med andra i systemet</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hantera det</td> 
-      <td> <p>Möjlighet att visa och redigera mappen och dess innehåll</p> <p>Klicka <strong>Avancerade inställningar</strong> för att ange om du vill tillåta användare att göra följande:</p> 
+      <td> <p>Möjlighet att visa och redigera mappen och dess innehåll</p> <p>Klicka på <strong>Avancerade inställningar</strong> för att ange om du vill tillåta användare att göra följande:</p> 
        <ul> 
         <li><strong>Ta bort</strong>: Ta bort mappen och dess innehåll från systemet</li> 
         <li><b>Hämta</b>: Hämta mappen och dess innehåll som en ZIP-fil</li> 
@@ -130,9 +129,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </table>
 
 1. (Valfritt) Upprepa steg 3-4 om du vill lägga till andra namn i listan och konfigurera deras alternativ.
-1. (Valfritt) Om du vill att alla i systemet ska kunna visa mappen och dess innehåll klickar du på kugghjulsikonen ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och klicka sedan på **Gör detta synligt för hela systemet.**
+1. (Valfritt) Om du vill att alla i systemet ska kunna visa mappen och dess innehåll klickar du på kugghjulsikonen ![](assets/gear-icon-settings-with-dn-arrow.jpg) i det övre högra hörnet av delningsrutan och sedan på **Gör den synlig i hela systemet.**
 
-   Om du ändrar dig kan du **Ta bort systemomfattande åtkomst** (standardalternativet).
+   Om du ändrar dig kan du klicka på **Ta bort systemomfattande åtkomst** (standardalternativet).
 
 ## Hur användare får åtkomst till innehållet i en mapp som delas med dem
 
@@ -161,17 +160,17 @@ Mer information om hur du kör en rapport finns i avsnittet [Rapport om objekt](
 När du delar ett objekt som har en dokumentmapp får mottagarna även åtkomst till mappen:
 
 * Om du ger mottagarna åtkomst till det överordnade objektet Visa har de åtkomst till mappen.
-* Om du ger mottagarna Contribute eller Hantera åtkomst till det överordnade objektet har de Hantera-åtkomst till mappen.
+* Om du ger mottagarna Contribute- eller Manage-åtkomst till det överordnade objektet har de Hantera-åtkomst till mappen.
 * Om du ger en typ av åtkomst (Visa, Contribute eller Hantera) till det överordnade objektet, och en annan typ till mappen, har mottagarna den högsta av dessa två typer av åtkomst till dokument i mappen
 
-   Om du till exempel delar det överordnade objektet med behörigheten Visa och mappen med behörigheten Hantera, har mottagarna behörigheten Hantera för dokumenten i mappen.
+  Om du till exempel delar det överordnade objektet med behörigheten Visa och mappen med behörigheten Hantera, har mottagarna behörigheten Hantera för dokumenten i mappen.
 
-   >[!NOTE]
-   >
-   >Ett bifogat dokument ärver endast behörigheter från det objekt som det bifogades till. Om du skapar en mapp på objektet och flyttar dokumentet till mappen, ärver den mappens behörigheter. Men om du skapar en mapp i ett överordnat eller indirekt överordnat objekt och flyttar dokumentet till den mappen, ärver den inte mappens behörigheter.
+  >[!NOTE]
+  >
+  >Ett bifogat dokument ärver endast behörigheter från det objekt som det bifogades till. Om du skapar en mapp på objektet och flyttar dokumentet till mappen, ärver den mappens behörigheter. Men om du skapar en mapp i ett överordnat eller indirekt överordnat objekt och flyttar dokumentet till den mappen, ärver den inte mappens behörigheter.
 
 * Om alternativet&quot;Ärv aldrig dokumentåtkomst från projekt, uppgifter, problem osv.&quot; är aktiverat på mottagarens åtkomstnivå ärver de inte behörigheter till dokument i en mapp som du delar med dem. Om du vill ge dem åtkomst till ett dokument i mappen måste du dela dokumentet.
 
-   Mer information om alternativet &quot;Ärv aldrig&quot; finns i [Konfigurera åtkomst till Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
+  Mer information om alternativet Ärv aldrig finns i [Konfigurera åtkomst till Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 
-   Mer information om hur du delar ett dokument finns i [Dela ett dokument](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+  Mer information om hur du delar ett dokument finns i [Dela ett dokument](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).

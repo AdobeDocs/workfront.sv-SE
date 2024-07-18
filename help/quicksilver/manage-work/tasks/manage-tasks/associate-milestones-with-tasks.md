@@ -41,7 +41,7 @@ Du kan associera milstolpar med uppgifter för att ange när du når viktiga ste
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till uppgifter</p> <p><b>ANMÄRKNING</b>
 
-Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,7 +58,7 @@ Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller
 
 Innan du kan associera en milstolpe med en uppgift måste följande finnas:
 
-* Workfront-administratören måste skapa en milstolpe-sökväg enligt beskrivningen i [Skapa en milstolpe-bana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Workfront-administratören måste skapa en milstolpe-sökväg enligt beskrivningen i [Skapa en milstolpe-sökväg](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Du måste associera en milstolpe-sökväg till ett projekt.
 
@@ -74,18 +74,18 @@ Innan du kan associera en milstolpe med en uppgift måste följande finnas:
 
 När en milstolpe-sökväg har associerats med ett projekt kan uppgifter tilldelas en milstolpe.
 
-1. Gå till en uppgift och klicka sedan på **Mer** icon ![](assets/more-icon.png) till höger om aktivitetsnamnet, och sedan **Redigera**.
+1. Gå till en aktivitet, klicka på ikonen **Mer** ![](assets/more-icon.png) till höger om aktivitetsnamnet och sedan på **Redigera**.
 
    Aktiviteter och milstolpar har ett 1:1-förhållande. Du kan inte koppla samma milstolpe till flera uppgifter. Varje aktivitet kan länkas till en enskild milstolpe, eller varje milstolpe kan mappas till en aktivitet.
 
-1. Klicka **Inställningar** väljer du sedan en milstolpe i **Milstolpe** -fält för uppgiften.
-1. Klicka **Spara**.
-1. (Valfritt) Lägg till **Statusikoner** -kolumn för att identifiera vilka aktiviteter som har milstolpar. Diamantindikatorn för milstolpe visas i kolumnen Statusikoner.
+1. Klicka på **Inställningar** och välj sedan en milstolpe i fältet **Milstolpe** för aktiviteten.
+1. Klicka på **Spara**.
+1. (Valfritt) Lägg till kolumnen **Statusikoner** i en lista över uppgifter för att identifiera vilka aktiviteter som har milstolpar. Diamantindikatorn för milstolpe visas i kolumnen Statusikoner.
 
    Mer information finns i [Skapa eller redigera vyer i Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
    ![](assets/amwt3.png)
 
-1. (Valfritt) Gå till en lista med projekt och välj **Milstolpe** för att identifiera förloppet för dina milstolpeuppgifter.
+1. (Valfritt) Gå till en lista med projekt och markera vyn **Milstolpe** för att identifiera förloppet för dina milstolpeuppgifter.
 
    ![](assets/milestone-view-project-list.png)

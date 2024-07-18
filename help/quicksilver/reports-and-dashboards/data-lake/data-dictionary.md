@@ -55,10 +55,10 @@ Objekt i Workfront (och därför i din datalinje) definieras inte bara av deras 
 
 Det finns ett antal datumobjekt som ger information om när specifika händelser inträffar.
 
-* `DL_LOAD_TIMESTAMP`: Det här datumet används som intern referens och återspeglar när data lästes in i tabellen Aktuell, Händelse eller Daglig historik. Detta datum ska inte användas för dataanalys och ska tas bort under betaversionen av Workfront Data Lake.
-* `CALENDAR_DATE`: Det här datumet finns bara i tabellen Daglig historik. I den här tabellen visas hur data ser ut vid 11:59 UTC för varje datum som anges i `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Daglig historik och registreras exakt när en post ändras _till_ värdet som finns på den aktuella raden.
-* `END_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Daglig historik och registreras exakt när en post ändras _från_ värdet i den aktuella raden till ett värde i en annan rad. Om du vill tillåta mellan frågor på `BEGIN_EFFECTIVE_TIMESTAMP` och `END_EFFECTIVE_TIMESTAMP` det här värdet är aldrig null, även om det inte finns något nytt värde. Om en post fortfarande är giltig (dvs. värdet har inte ändrats), `END_EFFECTIVE_TIMESTAMP` får värdet 2300-01-01.
+* `DL_LOAD_TIMESTAMP`: Det här datumet används för intern referens och reflekteras när data lästes in i tabellen Aktuell, Händelse eller Daglig historik. Detta datum ska inte användas för dataanalys och ska tas bort under betaversionen av Workfront Data Lake.
+* `CALENDAR_DATE`: Det här datumet finns bara i tabellen Daglig historik. Den här tabellen innehåller information om hur data ser ut vid 11:59 UTC för varje datum som anges i `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: Det här datumet finns både i tabellerna Händelse och Dagshistorik, och det registreras exakt när en post ändrade värdet _till_ på den aktuella raden.
+* `END_EFFECTIVE_TIMESTAMP`: Det här datumet finns i tabellerna Händelse och Daglig historik, och det registreras exakt när en post ändrade värdet _från_ i den aktuella raden till ett värde i en annan rad. För att tillåta mellan frågor på `BEGIN_EFFECTIVE_TIMESTAMP` och `END_EFFECTIVE_TIMESTAMP` är det här värdet aldrig null, även om det inte finns något nytt värde. Om en post fortfarande är giltig (d.v.s. värdet inte har ändrats) har `END_EFFECTIVE_TIMESTAMP` värdet 2300-01-01.
 
 ## Terminologisk tabell
 
@@ -87,7 +87,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
     <td>Villkor, Prioritet, Allvarlighetsgrad, Status</td>
     <td>CSTEM | Anpassad uppräkning</td>
     <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
-    <td>Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
+    <td>Posttypen identifieras med egenskapen enumClass. Följande typer förväntas:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TAUS SK</td>
   </tr>
   <tr>
     <td>Dokument</td>
@@ -156,7 +156,7 @@ Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnit
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>PORT | Portfolio</td>
-    <td>PORTFOLIO_AKTUELL<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_CURRENT<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_EVENT<br><br>PORTFOLIO_CUSTOM_VALUE_CURRENT<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>

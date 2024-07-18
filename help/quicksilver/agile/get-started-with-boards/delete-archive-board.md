@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ta bort eller arkivera en anslagstavla
 
-Du kan ta bort eller arkivera en anslagstavla i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], samtidigt som en styrelse arkiveras behåller alla kort och kan återställas vid ett senare tillfälle.
+Du kan ta bort eller arkivera en styrelse i [!DNL Workfront]. Om du tar bort en anslagstavla permanent tas den bort från [!DNL Workfront], medan arkiveringen av en anslagstavla behåller alla kort och kan återställas vid ett senare tillfälle.
 
 ## Åtkomstkrav
 
@@ -39,15 +39,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ta bort en anslagstavla
 
 När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] och kan inte återställas. Alla kort som finns ombord tas också bort tillsammans med styrelsen.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. På kontrollpanelen väljer du den panel som ska öppnas.
-1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Delete]**. Klicka sedan på **[!UICONTROL Delete board]** på bekräftelsemeddelandet.
+1. Klicka på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid kortnamnet och välj **[!UICONTROL Delete]**. Klicka sedan på **[!UICONTROL Delete board]** i bekräftelsemeddelandet.
 
    >[!NOTE]
    >
@@ -59,9 +59,9 @@ När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] o
 
 Arkiverade anslagstavlor behåller alla kort och uppgifter. Alla användare kan när som helst arkivera eller återställa en anslagstavla.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. På kontrollpanelen väljer du den panel som ska öppnas.
-1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Archive]**.
+1. Klicka på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid kortnamnet och välj **[!UICONTROL Archive]**.
 
    ![Menyn Mer om anslagstavla](assets/boards-board-more-menu.png)
 
@@ -69,8 +69,8 @@ Arkiverade anslagstavlor behåller alla kort och uppgifter. Alla användare kan 
 
 En arkiverad anslagstavla kan återställas när som helst. Alla användare kan återställa en arkiverad anslagstavla.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Klicka på filterikonen på kontrollpanelen ![Filter](assets/filter-icon-spectrum-25x25.png) och markera **[!UICONTROL Archived Boards]**.
-1. Sök efter den anslagstavla som du vill återställa genom att klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) bredvid styrelsens namn och välj **[!UICONTROL Restore]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png) på kontrollpanelen och välj **[!UICONTROL Archived Boards]**.
+1. Leta reda på den anslagstavla som du vill återställa genom att klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) bredvid kortnamnet och välja **[!UICONTROL Restore]**.
 
    ![Återställ bräda](assets/boards-dashboard-restore.png)

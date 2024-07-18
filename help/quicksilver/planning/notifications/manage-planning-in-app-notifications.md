@@ -22,7 +22,7 @@ När någon taggar dig i en postkommentar kan du få ett meddelande i appen för
 >
 >Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
 >
->Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>För att kunna ta emot meddelanden från Workfront Planning måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe enhetliga upplevelse för Workfront</a>.</p></td>
+   <p>För att kunna ta emot meddelanden från Workfront Planning måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
    <td>
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Visa eller högre behörigheter på en arbetsyta</a> </p>  
+   <td> <p>Visa eller högre behörigheter på en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Hantera meddelanden i appen
 
-1. (Villkorligt) När någon taggar dig i en kommentar för en post går du till appen **Meddelanden** icon ![](assets/experience-cloud-notifications-icon.png) i Adobe Experience Cloud.
+1. (Villkorligt) När någon har taggat dig i en kommentar för en post går du till ikonen **Notifications** ![](assets/experience-cloud-notifications-icon.png) i appen i Adobe Experience Cloud.
 
    ![](assets/in-app-notification-example.png)
 
@@ -94,4 +94,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Sidan med postinformation öppnas i Workfront Planning. Du kan uppdatera posten eller svara på kommentaren.
 
 1. (Valfritt) Klicka på **Markera alla som lästa** för att ange att du har läst alla meddelanden.
-1. (Valfritt) Klicka på **Visa alla** för att gå till **Meddelanden** i Adobe Experience Cloud.
+1. (Valfritt) Klicka på **Visa alla** för att gå till sidan **Meddelanden** i Adobe Experience Cloud.

@@ -23,7 +23,7 @@ Allmän information om betaversionen av kontrollpaneler på arbetsytan finns i [
 
 ## Vecka 14 augusti
 
-* **Åtkomstnivåkontroller för Canvas-kontrollpaneler**
+* **Åtkomstnivåkontroller för Canvas-instrumentpaneler**
 
   Åtkomst till arbetsytans kontrollpaneler för visning och redigering kan nu styras med åtkomstnivåinställningen som styr den befintliga kontrollpanelsfunktionen.
 
@@ -31,4 +31,4 @@ Allmän information om betaversionen av kontrollpaneler på arbetsytan finns i [
 
 * **Diagramrapporter**
 
-  Nu kan du lägga till diagramrapporter på en arbetsyta, förutom rapporter. Mer information om hur du lägger till en diagramrapport på en arbetsytans kontrollpanel finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  Nu kan du lägga till diagramrapporter på en arbetsyta, förutom rapporter. Mer information om hur du lägger till en diagramrapport på en arbetsytans kontrollpanel finns i [Översikt över arbetsytans kontrollpaneler](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

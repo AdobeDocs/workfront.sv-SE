@@ -46,21 +46,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Lägga till en kolumn på en anslagstavla
 
 {{step1-to-boards}}
 
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Add Column]** till höger om befintliga kolumner.
+1. Klicka på **[!UICONTROL Add Column]** till höger om de befintliga kolumnerna.
 1. Skriv ett namn i den nya kolumnen och klicka på **[!UICONTROL Add Column]**.
 
    ![Lägg till ny kolumn](assets/boards-add-column.png)
 
 >[!TIP]
 >
->Information om hur du lägger till en inloppskolumn finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Mer information om hur du lägger till en inloppskolumn finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Ändra ordning på kolumner på en anslagstavla
 
@@ -76,14 +76,14 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) i kolumnen och markera **[!UICONTROL Edit]**. I området Inställningar skriver du det nya namnet i **[!UICONTROL Column name]** och klicka **[!UICONTROL Close]**.
+   Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) i kolumnen och välj **[!UICONTROL Edit]**. Skriv det nya namnet i fältet **[!UICONTROL Column name]** i området Inställningar och klicka på **[!UICONTROL Close]**.
 
 ## Ta bort en boardkolumn
 
 När du tar bort en kolumn från en rityta kan den inte återskapas.
 
 1. Gå till styrelsen.
-1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) i kolumnen och väljer **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) i kolumnen och välj **[!UICONTROL Delete]**.
 
    >[!NOTE]
    >
@@ -93,18 +93,18 @@ När du tar bort en kolumn från en rityta kan den inte återskapas.
 
 Du kan använda en konfigurationsinställning för att visa antalet kort i varje kolumn.
 
-Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare till. Mer information om PIA-begränsningar finns i [Hantera [!UICONTROL Work in Progress] (PIA) begränsning av antalet anställda](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare till. Mer information om PIA-begränsningar finns i [Hantera gränsen för [!UICONTROL Work in Progress] (PIA) på ett moderkort](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
 1. Gå till styrelsen.
-1. Klicka **[!UICONTROL Configure]** till höger om ritytan för att öppna panelen Konfigurera.
+1. Klicka på **[!UICONTROL Configure]** till höger om kortet för att öppna konfigurationspanelen.
 1. Expandera **[!UICONTROL Column]**.
 1. Aktivera **[!UICONTROL Display a column card count]**.
 
-   ![Aktivera korträknaren](assets/display-card-count.png)
+   ![Sätt på korträknaren](assets/display-card-count.png)
 
    Korträknaren visas högst upp i varje kolumn.
 
-1. Klicka **[!UICONTROL Hide configure]** för att stänga [!UICONTROL Configure] -panelen.
+1. Klicka på **[!UICONTROL Hide configure]** för att stänga panelen [!UICONTROL Configure].
 
 ## Definiera kolumninställningar och -profiler
 
@@ -124,58 +124,58 @@ Ett kort finns kvar i en kolumn där det är placerat om kortstatusen inte match
 >Om du flyttar ett kort från en kolumn till en annan med samma status för alla kort, återgår kortet till den ursprungliga kolumnen när du uppdaterar kortet.
 
 1. Gå till styrelsen.
-1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) i kolumnen och väljer **[!UICONTROL Edit]**.
+1. Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) i kolumnen och välj **[!UICONTROL Edit]**.
 
-   The [!UICONTROL Settings] visas. The **[!UICONTROL Column name]** låter dig veta vilken kolumn du definierar inställningar för.
+   Området [!UICONTROL Settings] visas. **[!UICONTROL Column name]** talar om vilken kolumn du definierar inställningar för.
 
-1. Aktivera **[!UICONTROL Update field values automatically]** princip för att ändra vissa fältvärden automatiskt när ett kort flyttas till den här kolumnen.
+1. Aktivera principen **[!UICONTROL Update field values automatically]** om du vill ändra vissa fältvärden automatiskt när ett kort flyttas till den här kolumnen.
 
-   ![Kolumninställningar och -principer](assets/boards-column-policies-enabled.png)
+   ![Kolumninställningar och -profiler](assets/boards-column-policies-enabled.png)
 
 1. (Valfritt) Ange ett värde för kortstatus:
 
-   1. Välj **[!UICONTROL Status]** kryssruta.
+   1. Markera kryssrutan **[!UICONTROL Status]**.
 
    1. Välj den status som ska gälla för ett kort när det flyttas till den här kolumnen.
 
       ![Status för kolumner](assets/boards-column-status.png)
 
-      Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) Dessa alternativ avgör vilken anpassad status som används för uppgiften eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
+      Statusöversättningsalternativen för anslutna kort visas också. (Statusöversättning gäller inte för ad hoc-kort.) De här alternativen avgör den anpassade status som används för aktiviteten eller utgåvan i [!DNL Workfront] när ett anslutet kort flyttas till den här kolumnen.
 
-   1. Välj en [!UICONTROL **Egen**] status som ska gälla för kortet för uppgifter och för utgåvor.
+   1. Välj en [!UICONTROL **anpassad**]-status som ska användas på kortet för uppgifter och för ärenden.
 
-      När ett kort flyttas till den här kolumnen, [!DNL Workfront] försöker först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan). Mer information om status finns i [Översikt över status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+      När ett kort flyttas till den här kolumnen försöker [!DNL Workfront] först att använda den anpassade statusen (till exempel Löst). Om den valda anpassade statusen inte är tillgänglig för det kortet uppmanas du att välja en annan status som motsvarar systemstatusen (från steg b ovan). Mer information om status finns i [Statusöversikt](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
       Om statusen för den anslutna aktiviteten eller utgåvan ändras till den anpassade statusen eller systemstatusen som anges i kolumnprincipen, flyttas kortet automatiskt till kolumnen.
 
 1. (Valfritt) Ange ett värde för korttilldelningarna:
 
-   1. Välj **[!UICONTROL Assignees]** kryssruta.
+   1. Markera kryssrutan **[!UICONTROL Assignees]**.
    1. Välj en åtgärd.
 
-      * **[!UICONTROL Add on assignees]:** De tilldelningar du väljer läggs till i den befintliga listan med tilldelningar på ett kort när det flyttas till den här kolumnen.
-      * **[!UICONTROL Override assignees]:** De tilldelade som du väljer åsidosätter alla andra tilldelningar och blir de enda tilldelningarna på ett kort när det flyttas till den här kolumnen.
+      * **[!UICONTROL Add on assignees]:** Tilldelningarna som du väljer läggs till i den befintliga listan över tilldelningar på ett kort när det flyttas till den här kolumnen.
+      * **[!UICONTROL Override assignees]:** De tilldelade som du väljer åsidosätter alla andra tilldelade objekt och blir de enda tilldelade objekten på ett kort när det flyttas till den här kolumnen.
 
-   1. Klicka [!UICONTROL **Lägg till uppdrag**] och söka efter en användare. Välj tilldelningar från sökresultaten. Alla Workfront-användare och -team finns att välja bland.
+   1. Klicka på [!UICONTROL **Lägg till tilldelning**] och sök efter en användare. Välj tilldelningar från sökresultaten. Alla Workfront-användare och -team finns att välja bland.
 
       ![Tilldelningar för kolumn](assets/boards-column-assignees.png)
 
 1. (Valfritt) Ange ett värde för korttaggarna:
 
-   1. Välj **[!UICONTROL Cards]** kryssruta.
+   1. Markera kryssrutan **[!UICONTROL Cards]**.
    1. Välj en åtgärd.
 
       * **[!UICONTROL Add on tags]:** De taggar du väljer läggs till i den befintliga listan med taggar på ett kort när det flyttas till den här kolumnen.
-      * **[!UICONTROL Override tags]:** De taggar du markerar åsidosätter alla andra taggar och blir de enda taggarna på ett kort när det flyttas till den här kolumnen.
+      * **[!UICONTROL Override tags]:** De taggar du markerar åsidosätter alla andra taggar och blir de enda taggarna på ett kort när det flyttas till den här kolumnen.
 
-   1. Markera taggarna i listrutan. Endast taggar som redan har skapats i [!UICONTROL Tag Manager] är tillgängliga att välja mellan. Mer information om hur du lägger till nya taggar finns i [Lägg till taggar](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
+   1. Markera taggarna i listrutan. Endast taggar som redan har skapats i [!UICONTROL Tag Manager] är tillgängliga att välja bland. Mer information om hur du lägger till nya taggar finns i [Lägg till taggar](/help/quicksilver/agile/get-started-with-boards/add-tags.md).
 
       ![Taggar för kolumn](assets/boards-column-tags.png)
 
-1. Aktivera **[!UICONTROL Work in progress limit]** princip för att begränsa antalet kort som kan läggas till i kolumnen. Ange sedan begränsningsnumret i dialogrutan **[!UICONTROL Set limit]** fält.
+1. Aktivera principen **[!UICONTROL Work in progress limit]** om du vill begränsa antalet kort som kan läggas till i kolumnen. Ange sedan begränsningsnumret i fältet **[!UICONTROL Set limit]**.
 
-   ![PIA-gräns för kolumn](assets/boards-wip-limit-in-column.png)
+   ![Pågående arbete-begränsning för kolumn](assets/boards-wip-limit-in-column.png)
 
-   Mer information finns i [Hantera PIA-gränsen (Work in Progress) på en moderlista](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
+   Mer information finns i [Hantera PIA-gränsen (Work in Progress) på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md).
 
-1. Klicka **[!UICONTROL Close]** för att stänga inställningsområdet och visa kolumnen och dess kort.
+1. Klicka på **[!UICONTROL Close]** för att avsluta inställningsområdet och visa kolumnen och dess kort.

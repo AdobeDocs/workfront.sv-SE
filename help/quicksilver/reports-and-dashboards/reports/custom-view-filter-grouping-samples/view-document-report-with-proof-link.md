@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,12 +57,12 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här använder du den här vyn:
 
 1. Gå till en lista med dokument.
-1. Från **Visa** nedrullningsbar meny, välja **Ny vy**.
+1. Välj **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn**.
-1. Klicka **Växla till textläge**.
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
+1. Klicka på **Lägg till kolumn**.
+1. Klicka på **Växla till textläge**.
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
 
    ```
    displayname=Proof Link
@@ -78,15 +78,15 @@ Så här använder du den här vyn:
 
    >[!TIP]
    >
-   >Ersätt&quot;Din domän&quot; med din faktiska Workfront-domän. Om företagets Workfront-URL är *Company.my.workfront.com*&#x200B;är din domän&quot;Company&quot;.
+   >Ersätt&quot;Din domän&quot; med din faktiska Workfront-domän. Om ditt företags Workfront-URL är *Company.my.workfront.com* är din domän&quot;Company&quot;.
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.
 1. Ange ett namn för vyn och klicka sedan på **Spara vy**.
 1. (Valfritt) Om du bara vill visa dokument med korrektur lägger du till ett filter genom att göra följande:
 
-   1. Klicka på **Filter** nedrullningsbar meny och klicka sedan på **Nytt filter**.
-   1. Klicka **Lägg till en filterregel** och börja skriva in Korrekturägare och sedan välja **Korrekturägar-ID** när den visas i listan.
+   1. Klicka på listrutan **Filter** och sedan på **Nytt filter**.
+   1. Klicka på **Lägg till en filterregel** och börja skriva Korrekturägare och välj sedan **Korrekturägar-ID** när den visas i listan.
    1. Välj **Är inte tom** för filtermodifieraren.
-   1. Klicka **Spara filter**, skriv namnet på filtret och klicka sedan på **Spara filter**.
+   1. Klicka på **Spara filter**, skriv namnet på filtret och klicka sedan på **Spara filter**.
 
 1. Klicka på länken i kolumnen Korrekturlänk för att komma åt korrekturet för den senaste versionen av dokumentet.

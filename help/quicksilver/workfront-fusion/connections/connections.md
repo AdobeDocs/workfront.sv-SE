@@ -22,18 +22,18 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront] licens.
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront]-licens.
 
 Det här avsnittet innehåller följande artiklar:
 
 * [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
-* [Skapa anslutningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
-* [Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+* [Skapa anslutningar i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
+* [Skapa en anslutning till  [!DNL Adobe Workfront Fusion]  - grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [Anslut [!DNL Adobe Workfront Fusion] till valfri webbtjänst](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
-* [Anslutningsmetadata i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
+* [Anslutningsmetadata i  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
 * [Anslut [!DNL Adobe Workfront Fusion] till en webbtjänst som använder API-tokenauktorisering](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
 * [Anslut [!DNL Adobe Workfront Fusion] till [!DNL Google Services] med uppdaterade säkerhetsåtgärder](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [Anslut [!DNL Adobe Workfront Fusion] till [!DNL Google Services] med en anpassad OAuth-klient](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-* [Ring [!DNL MS Graph REST API] via [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)
-* [Tangenter i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md)
+* [Anropa  [!DNL MS Graph REST API] via modulen  [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)
+* [Tangenter i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md)
 * [Ta emot en webkrok från en webbtjänst](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)

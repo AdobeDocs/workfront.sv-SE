@@ -78,7 +78,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -87,7 +87,7 @@ Du måste ha följande innan du kan börja:
 * En layoutmall som innehåller området Mål på huvudmenyn.
 * Ett befintligt mål.
 
-  Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+  Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >Ett mål får inte innehålla mer än totalt 1 000 aktiviteter, resultat, projekt eller anpassade mål.
@@ -138,24 +138,24 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klicka på huvudmenyn ![](assets/main-menu-icon.png)sedan **Mål**.
+1. Klicka på huvudmenyn ![](assets/main-menu-icon.png) och sedan på **Mål**.
 
-1. Från **Mållista** klickar du på namnet på ett mål för att öppna målsidan.
-1. Klicka **Progress-indikatorer** till vänster.
-1. Expandera **Ny förloppsindikator** nedrullningsbar meny och klicka sedan på **Skapa resultat**.
+1. Öppna målsidan genom att klicka på namnet på ett mål i **mållistan**.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
+1. Expandera den nedrullningsbara menyn **Ny förloppsindikator** och klicka sedan på **Skapa resultat**.
 
    Rutan Nytt resultat öppnas.
 
    ![](assets/new-result-box-unshimmed.png)
 
-1. Ange ett namn för resultatet i **Resultatnamn** fält. Detta är ett obligatoriskt fält.
-1. (Valfritt) Ta bort ditt namn från **Resultatägare** om du vill tilldela resultatet till en annan användare. Som standard är du ägare av en aktivitet som du skapar.
+1. Ange ett namn för resultatet i fältet **Resultatnamn**. Detta är ett obligatoriskt fält.
+1. (Valfritt) Ta bort ditt namn från fältet **Resultatägare** om du vill tilldela resultatet till en annan användare. Som standard är du ägare av en aktivitet som du skapar.
 
    >[!NOTE]
    >
    >Du kan inte tilldela ett team, en grupp eller företaget som resultatägare.
 
-1. I **Hur vill du mäta resultatet?** ange följande information:
+1. I **Hur vill du mäta resultatet?** anger du följande information:
    * **Värdetyp**: Detta anger hur du vill mäta förloppet för resultatet. Du kan mäta förloppet numeriskt, med ett procentvärde eller med ett valutabelopp.
 
      Välj en värdetyp bland alternativen i följande tabell:
@@ -166,9 +166,9 @@ Adding results to goals differs depending on which environment you use.
      | % | Procentvärde |
      | CN¥,DKK,KR,Mex$, R, R$, zolika, £ ,¥ , € , ₹, ฿, MYR, ₪, $ | Valutavärden |
 
-   * **Startvärde**: Värdet som resultatet har i början, innan förloppet har spelats in.
+   * **Startvärde**: Det värde som resultatet har i början, innan förloppet har spelats in.
    * **Målvärde**: Det värde som resultatet ska uppnå när det anses vara slutfört.
-1. Klicka **Skapa resultat**.
+1. Klicka på **Skapa resultat**.
 
    Resultatet visas i avsnittet Förloppsindikatorer på målsidan, under resultatgrupperingen.
 

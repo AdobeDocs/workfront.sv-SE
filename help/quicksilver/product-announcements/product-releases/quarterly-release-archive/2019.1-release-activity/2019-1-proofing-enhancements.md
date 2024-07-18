@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla korrekturförbättringar som ingår i version 2019.1. Funktionerna är nu tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2019.1 finns på [Aktivitetsöversikt för 2019.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.1 finns i [Översikt över versionsaktivitet för 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## För administratörer
 
@@ -88,7 +88,7 @@ Tidigare var det bara korrekturläsaren eller trafikchefen som kunde konfigurera
 
 Dessa inställningar skiljer sig från de e-postaviseringsinställningar som du kan konfigurera i Workfront.
 
-Mer information finns i [Hantera meddelanden för korrekturkommentarer och beslut](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Mer information finns i [Hantera meddelanden om korrekturkommentarer och beslut](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VIDEO
 

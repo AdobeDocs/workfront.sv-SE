@@ -21,8 +21,8 @@ ht-degree: 0%
 
 Uppgifter är mindre arbetsobjekt i Adobe Workfront som bidrar till slutförandet av ett projekt. Läs mer om hur du hanterar uppgifter i artiklarna i följande underavsnitt:
 
-* [Uppgiftsinformation](../../manage-work/tasks/task-information/task-information.md)
-* [Skapa uppgifter](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+* [Aktivitetsinformation](../../manage-work/tasks/task-information/task-information.md)
+* [Skapa aktiviteter](../../manage-work/tasks/create-tasks/create-tasks-overview-1.md)
 * [Tilldela uppgifter](../../manage-work/tasks/assign-tasks/assign-tasks-1.md)
 * [Hantera uppgifter](../../manage-work/tasks/manage-tasks/manage-tasks.md)
 * [Aktivitetsbegränsningar](../../manage-work/tasks/task-constraints/task-constraints.md)

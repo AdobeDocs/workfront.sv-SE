@@ -11,18 +11,18 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Slides] moduler
 
-The [!DNL Adobe Workfront Fusion] [!DNL Google Slides] kan du skapa, uppdatera, lista och/eller ta bort presentationer och överföra bilder till presentationer i [!DNL Google Slides] konto.
+Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Slides] kan du skapa, uppdatera, lista och/eller ta bort presentationer och överföra bilder till presentationer i ditt [!DNL Google Slides]-konto.
 
-För att kunna använda [!DNL Google Slides] med [!DNL Workfront Fusion]måste du ha en [!DNL Google] konto. Om du inte har en [!DNL Google] ännu kan du skapa ett på [!DNL Google] Hjälpsida för konto.
+Om du vill använda [!DNL Google Slides] med [!DNL Workfront Fusion] måste du ha ett [!DNL Google]-konto. Om du inte har något [!DNL Google]-konto än kan du skapa ett på hjälpsidan för [!DNL Google]-kontot.
 
-Du behöver också [!DNL Google Slides] i [!DNL Google Drive].
+Du behöver också [!DNL Google Slides] i din [!DNL Google Drive].
 
 ## Åtkomstkrav
 
@@ -43,33 +43,33 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Google Slides] moduler, du måste ha en [!DNL Google] konto.
+Du måste ha ett [!DNL Google]-konto för att kunna använda [!DNL Google Slides]-moduler.
 
-## [!DNL Google Slides] moduler och deras fält
+## [!DNL Google Slides]-moduler och deras fält
 
-När du konfigurerar [!DNL Google Slides] i Workfront Fusion visas fälten nedan. Tillsammans med dessa finns ytterligare [!DNL Google Slides] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Google Slides]-moduler visas fälten som listas nedan i Workfront Fusion. Dessutom kan ytterligare [!DNL Google Slides] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -99,7 +99,7 @@ Startar när en ny presentation skapas eller uppdateras.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch] </td> 
@@ -126,11 +126,11 @@ Hämtar en lista över alla presentationer.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive location]</td> 
-   <td> <p>Välj [!DNL Google Drive] var de presentationer du vill visa finns:</p> 
+   <td> <p>Välj [!DNL Google Drive] där de presentationer du vill visa finns:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
@@ -143,7 +143,7 @@ Hämtar en lista över alla presentationer.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Högsta antal presentationer [!DNL Workfront Fusion] ska returneras under en körningscykel.</p> </td> 
+   <td> <p>Det högsta antalet presentationer [!DNL Workfront Fusion] ska returneras under en körningscykel för scenario.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -158,11 +158,11 @@ Hämtar den senaste versionen av en angiven presentation.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Välj [!DNL Google Drive] var de presentationer du vill visa finns:</p> 
+   <td> <p>Välj [!DNL Google Drive] där de presentationer du vill visa finns:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
@@ -186,7 +186,7 @@ Hämtar den senaste versionen av den angivna sidan eller av miniatyrbilden för 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presentation ID]</td> 
@@ -205,7 +205,7 @@ Hämtar den senaste versionen av den angivna sidan eller av miniatyrbilden för 
 
 #### [!UICONTROL Create a Presentation From a Template]
 
-Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Email}}` i en mall med angivna data.
+Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Email}}` i en mall med tillhandahållna data.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -213,7 +213,7 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Title] </td> 
@@ -233,7 +233,7 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Välj [!DNL Google Drive] var de presentationer du vill visa finns:</p> 
+   <td> <p>Välj [!DNL Google Drive] där de presentationer du vill visa finns:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
@@ -249,7 +249,7 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
    <td> <p>Lägg till värdena:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Ange den tagg som du vill ersätta i presentationen. Exempel: <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: Ange det värde som den befintliga taggen ska ersättas med. Om en sträng <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: Ange det värde som den befintliga taggen ska ersättas med. Om en sträng till exempel <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    
@@ -286,7 +286,7 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Presentation]</td> 
@@ -298,7 +298,7 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Välj [!DNL Google Drive] var de presentationer du vill visa finns:</p> 
+   <td> <p>Välj [!DNL Google Drive] där de presentationer du vill visa finns:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
@@ -313,9 +313,9 @@ Skapar en ny presentation genom att ersätta alla taggar som `{{Name}}`, `{{Emai
    <td role="rowheader">[!UICONTROL Values]</td> 
    <td> <p>Värden Lägg till värdena:</p> 
     <ul> 
-     <li><strong>[!UICONTROL Tag]</strong>: Ange den tagg som du vill lägga till URL-adressen till.</li> 
+     <li><strong>[!UICONTROL Tag]</strong>: Ange den tagg som du vill lägga till URL-adressen i.</li> 
      <li><strong>[!UICONTROL Image URL]</strong>: Ange sökvägen eller URL-adressen till bilden som du vill överföra.</li> 
-    </ul> <p>Obs! Bilderna måste vara mindre än 50 MB, får inte överskrida 25 megapixlar och måste vara i PNG-, JPEG- eller GIF-format.</p> </td> 
+    </ul> <p>Obs! Bilderna måste vara mindre än 50 MB, får inte vara större än 25 megapixlar och måste vara i PNG-, JPEG- eller GIF-format.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -330,11 +330,11 @@ Uppdaterar diagramdata som lagras i en presentation som anges av ID.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Välj [!DNL Google Drive] var de presentationer du vill visa finns:</p> 
+   <td> <p>Välj [!DNL Google Drive] där de presentationer du vill visa finns:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
@@ -362,7 +362,7 @@ Skapar en tom bildruta eller tar bort en befintlig bildruta i den angivna presen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Select the method]</td> 
@@ -374,7 +374,7 @@ Skapar en tom bildruta eller tar bort en befintlig bildruta i den angivna presen
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Predefined layout type]</td> 
-   <td> <p> Välj den fördefinierade bildlayout som du vill använda den nya bilden på. Ange värden för ytterligare fält (t.ex. [!UICONTROL Title]).</p> 
+   <td> <p> Välj den fördefinierade bildlayout som du vill använda den nya bilden på. Ange värden för ytterligare fält (till exempel [!UICONTROL Title]).</p> 
     <ul> 
      <li>[!UICONTROL Blank layout, with no placeholders]</li> 
      <li>[!UICONTROL Layout with a caption at the bottom]</li> 
@@ -407,19 +407,19 @@ Utför ett godtyckligt auktoriserat API-anrop.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Ange en relativ sökväg till https://developers.google.com/slides/. Exempel: Presentation.</p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API-dokumentation</a>.</p> </td> 
+   <td> <p>Ange en relativ sökväg till https://developers.google.com/slides/. Exempel: Presentation.</p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API-dokumentationen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Ange önskade begäranderubriker. Du behöver inte lägga till auktoriseringsrubriker.</p> </td> 
+   <td> <p>Ange önskade begäranderubriker. Du behöver inte lägga till auktoriseringshuvuden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -427,7 +427,7 @@ Utför ett godtyckligt auktoriserat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -445,7 +445,7 @@ Utför ett godtyckligt auktoriserat API-anrop.
 >
 >![](assets/presentation-details.png)
 >
->Matchningar av sökningen finns i modulens utdata under [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL presentationId].
+>Det går att hitta matchningar av sökningen i modulens utdata under [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL presentationId].
 >
 >I det här exemplet returnerades de begärda presentationsdetaljerna:
 >
@@ -461,7 +461,7 @@ Med den här modulen kan alla länkar i en presentation klickas eller infogas en
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Slides] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Slides]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Presentation]</td> 
@@ -473,7 +473,7 @@ Med den här modulen kan alla länkar i en presentation klickas eller infogas en
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Välj [!DNL Google Drive] var de presentationer du vill visa finns:</p> 
+   <td> <p>Välj [!DNL Google Drive] där de presentationer du vill visa finns:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 

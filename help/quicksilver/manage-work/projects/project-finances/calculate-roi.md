@@ -28,13 +28,13 @@ Project ROI = [(Project Planned Benefit - Project Budgeted Cost) / Project Budge
 
 Följande fält påverkar avkastningen på ett projekt:
 
-* **Planerad förmån för projekt**: Detta är en manuell inmatning som anges av projektägaren när området Projektinformation i affärsärendet fylls i. Det här är en uppskattning av vad du som projektägare tror kan ha nytta av projektet om du slutför projektet. Detta är ett specifikt valutabelopp och måste vara ett positivt värde.\
-   Mer information om den planerade fördelen med ett projekt finns i avsnittet Projektinformation i artikeln [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* **Projektplanerad förmån**: Detta är en manuell inmatning som anges av projektägaren när området Projektinformation i affärsärendet slutförs. Det här är en uppskattning av vad du som projektägare tror kan ha nytta av projektet om du slutför projektet. Detta är ett specifikt valutabelopp och måste vara ett positivt värde.\
+  Mer information om den planerade fördelen med ett projekt finns i avsnittet Projektinformation i artikeln [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-* **Projektbudgeterad kostnad**: Det här är den totala kostnaden som är associerad med projektet enligt den uppskattning du gjorde när du startade projektet första gången.
+* **Projektbudgeterad kostnad**: Det här är den totala kostnaden som är associerad med projektet som den beräknas när du startar projektet första gången.
 
-   The **Budgeterad kostnad** använder **Budgeterad arbetskostnad** det värde som beräknas i området Resursbudgetering i affärsärendet och det tar hänsyn till antalet budgeterade timmar för dina jobbroller i resursplaneraren och kostnaden per timme för varje jobbroll.\
-   Mer information finns i [Beräkna budgeterad kostnad](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  Den **budgeterade kostnaden** använder värdet **Budgeterad arbetskostnad** som beräknas i området Resursbudgetering i affärsärendet och tar hänsyn till antalet timmar som budgeterats för dina jobbroller i resursplaneraren och kostnaden per timme för varje jobbroll.\
+  Mer information finns i [Beräkna budgeterad kostnad](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
 ## Hitta projektets avkastning på investering
 
@@ -42,11 +42,11 @@ Du kan visa ROI-värdet för ett projekt i följande områden i Workfront:
 
 * I Portfolio-optimering om projektet är kopplat till en portfölj
 
-   >[!NOTE]
-   >
-   >Summan av projektets alla avkastningsvärden är portföljens avkastning.
+  >[!NOTE]
+  >
+  >Summan av projektets alla avkastningsvärden är portföljens avkastning.
 
-   Mer information om Portfolio Optimizer finns i artikeln [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information om optimering av Portfolio finns i artikeln [Översikt över optimering av Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * I fältet Projektavkastning i följande listor och rapporter: 
 
@@ -54,4 +54,5 @@ Du kan visa ROI-värdet för ett projekt i följande områden i Workfront:
    * Uppgift
    * Problem
    * Projekt (ekonomiska data)
-   Mer information om hur du skapar rapporter i Workfront finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+  Mer information om hur du skapar rapporter i Workfront finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

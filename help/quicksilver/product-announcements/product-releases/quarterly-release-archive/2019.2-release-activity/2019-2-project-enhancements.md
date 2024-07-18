@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som ingår i version 2019.2. Funktionen planeras bli tillgänglig i produktionsmiljön den 20 maj 2019.
 
-En lista över alla ändringar som gjorts under 2019.2 finns på [Översikt över versionsaktivitet 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.2 finns i [2019.2 Release Activity Overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Hitta grupper snabbare när du anpassar statusvärden
 
@@ -32,7 +32,7 @@ Mer information finns i [Skapa eller redigera en status](../../../../administrat
 
 Nu kan du konfigurera anpassade formulär och godkännandeprocesser som ska bifogas till uppgifter när du lägger till uppgifter i ett projekt. Du kan konfigurera standardinställningarna på projektnivå.
 
-Mer information om hur du konfigurerar anpassade formulär och godkännandeprocesser för uppgifter på projektnivå finns i avsnittet Åtgärder i [Redigera projekt](../../../../manage-work/projects/manage-projects/edit-projects.md) artikel.
+Mer information om hur du konfigurerar anpassade standardformulär och godkännandeprocesser för uppgifter på projektnivå finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../../manage-work/projects/manage-projects/edit-projects.md).
 
 ## Visa hela raden för en överordnad aktivitet i fetstil i en uppgiftslista
 
@@ -46,7 +46,7 @@ Före den här förbättringen har alla ändringar alltid sparats automatiskt.
 
 Mer information om hur du redigerar uppgifter i en uppgiftslista finns i [Redigera uppgifter](../../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-Mer information om hur du redigerar åtgärder i Gantt-schemat finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Mer information om hur du redigerar uppgifter i Gantt-schemat finns i [Uppdatera information i Gantt-schemat för uppgiftslistor](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Standardvärden för ny kolumnbredd i nya listor
 

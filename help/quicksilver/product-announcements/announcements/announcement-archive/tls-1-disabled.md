@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: 153668ae-0647-47fd-9153-ce45cd8c54ee
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 För att ge optimal säkerhet kräver Adobe Workfront att alla webbläsaranslutningar och API-integreringar som är beroende av TLS 1.0 eller tidigare uppgraderas för att använda TLS 1.2. I förhandsvisningsmiljön är TLS 1.0 redan inaktiverat.
 
-Workfront upphörde officiellt med stödet för TLS 1.0 i mars 2018. Alla integreringar som utnyttjar TLS 1.0 slutade fungera från och med 9 januari 2019.  TLS 1.1 kommer att inaktiveras fjärde kvartalet 2019.
+Workfront slutade officiellt stödja TLS 1.0 i mars 2018. Alla integreringar som utnyttjar TLS 1.0 slutade fungera den 9 januari 2019.  TLS 1.1 kommer att inaktiveras fjärde kvartalet 2019.
 
 I följande avsnitt finns mer information om dessa viktiga milstolpar samt hur du kan förbereda dig för uppgraderingen i din organisation:
 
@@ -37,14 +37,14 @@ I produktionsmiljön inaktiverades TLS 1.1 den 21 oktober 2019. Därefter kommer
 
 Den här förändringen kommer att träda i kraft i förhandsgransknings- och sandlådemiljöerna den 7 augusti för att hjälpa organisationer att förbereda sig för avstängningen.
 
-## Förbereder TLS-uppgraderingen
+## Förbereder för TLS-uppgraderingen
 
 * [Vid åtkomst till Workfront via webbläsaren](#when-accessing-workfront-via-the-browser)
 * [Vid anslutning till Workfront via API](#when-connecting-to-workfront-via-the-api)
 
 ### Vid åtkomst till Workfront via webbläsaren {#when-accessing-workfront-via-the-browser}
 
-Se till att användare i organisationen använder Workfront via en webbläsare som stöds. (Information om vilka webbläsare som stöds finns i [Krav för Adobe Workfront webbläsare](../../../workfront-basics/workfront-browser-requirements.md).)
+Se till att användare i organisationen använder Workfront via en webbläsare som stöds. (Mer information om vilka webbläsare som stöds finns i [Krav för webbläsaren i Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).)
 
 Alla webbläsare som stöds av Workfront är kompatibla med TLS 1.2.
 

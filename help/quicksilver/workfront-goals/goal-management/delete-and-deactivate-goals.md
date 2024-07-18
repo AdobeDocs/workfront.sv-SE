@@ -77,7 +77,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Inaktivera mål
 
@@ -97,7 +97,7 @@ Tänk på följande när du inaktiverar mål:
   >Du kan inte inaktivera mål med statusen Utkast.
 
 * Workfront stoppar beräkningen av förloppet för inaktiverade mål.
-* Inaktiva mål visas inte längre på eller tas med i diagramavsnittet för Workfront-mål. Mer information om Workfront-måldiagram finns i [Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Inaktiva mål visas inte längre på eller tas med i diagramavsnittet för Workfront-mål. Mer information om Workfront-måldiagram finns i [Granska diagram för att förstå målförloppstrender i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
@@ -132,7 +132,7 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    Mållistan visas.
 
@@ -141,7 +141,7 @@ Deactivating goals differs depending on which environment you use.
 
 1. (Valfritt) Ändra filtren så att endast aktiva mål visas.
 
-   Information om filtrering av information i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
+   Mer information om filtrering av information i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
 
 1. Klicka på ett aktivt mål.
 
@@ -149,7 +149,7 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Inaktivera**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Inaktivera**.
 
 1. Målet inaktiveras och dess status blir Inaktiv.
 
@@ -157,7 +157,7 @@ Deactivating goals differs depending on which environment you use.
 
 Du kan ta bort mål som inte längre är eller aldrig är relevanta.
 
-* [Att tänka på när du tar bort mål](#considerations-when-deleting-goals)
+* [Saker att tänka på när du tar bort mål](#considerations-when-deleting-goals)
 * [Ta bort mål](#delete-goals)
 
 ### Att tänka på när du tar bort mål {#considerations-when-deleting-goals}
@@ -196,7 +196,7 @@ Deleting  goals differs depending on which environment you use.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klicka på namnet på ett mål. Målsidan öppnas.
-1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Ta bort mål** sedan **Ta bort**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet, klicka på **Ta bort mål** och sedan på **Ta bort**.
 
    Målet och dess aktiviteter och resultat tas också bort och kan inte återställas. Projekt som var associerade med målet eller de underordnade målen tas inte bort.
 

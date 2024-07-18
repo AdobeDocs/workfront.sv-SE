@@ -34,5 +34,5 @@ Du kan fokusera på olika projekt eller begränsa antalet projekt genom att anv�
 
 Förutom de insikter du kan få kan du även slutföra åtgärder för uppgifter, som att uppdatera statusen, be om en uppdatering, tilldela uppgiften till någon, osv.- direkt från området Förbättrade analyser.
 
-Mer information finns i [Förbättrad analys - översikt](../../../enhanced-analytics/enhanced-analytics-overview.md).
+Mer information finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
 

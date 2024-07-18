@@ -27,15 +27,15 @@ Med alla alternativ tillgängliga för att ange och definiera hur användare ska
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Sidan E-postmeddelanden](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+* [Sidan E-postaviseringar](../../../administration-and-setup/manage-workfront/emails/email-notifications-page.md)
 * [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 * [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
-* [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [Lås upp eller lås upp konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Anpassa e-postämnen för händelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
 * [Ändra e-postaviseringsinställningar för flera användare](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
-* [Ställ in påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
+* [Konfigurera påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)
 * [Bifoga ett påminnelsemeddelande till ett objekt](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md)
-* [Ställ in automatiska påminnelser](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
+* [Konfigurera automatiska påminnelser](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md)
 * [Konfigurera e-postmallar](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md)
-* [Tillåt e-postmeddelanden från Adobe Workfront-programmet](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
+* [Tillåt e-post från Adobe Workfront-programmet](../../../administration-and-setup/manage-workfront/emails/allow-emails-from-wf-app.md)
 * [Hantera e-postinbjudningar till nya användare](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md)

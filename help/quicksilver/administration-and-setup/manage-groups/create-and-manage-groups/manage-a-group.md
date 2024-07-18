@@ -42,7 +42,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +53,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 Du kan lägga till och ta bort användare och andra grupper från en grupp som du administrerar. Du kan också tilldela gruppmedlemmar som administratörer för gruppen och hantera användarprofilinformationen för gruppmedlemmar.
 
-Instruktioner finns i [Visa och hantera medlemskap i en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
+Instruktioner finns i [Visa och hantera en grupps medlemskap](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md).
 
 ## Hantera information om en grupp
 
@@ -71,13 +71,13 @@ Instruktioner finns i [Visa och hantera information om en grupp](../../../admini
 
 Utan att lämna huvudsidan i en grupp som du visar kan du snabbt redigera, kopiera eller ta bort gruppen.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Grupper**.
+1. Klicka på **Grupper**.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
-1. Markera gruppen och klicka sedan på Redigera ![](assets/edit-icon.png), kopiera ![](assets/copy-icon.png)eller Delete ![](assets/delete.png) -ikon.
+1. Markera gruppen och klicka sedan på ikonen Redigera ![](assets/edit-icon.png), Kopiera ![](assets/copy-icon.png) eller Ta bort ![](assets/delete.png) .
 
    Om du behöver information om hur du använder rutan som visas kan du läsa något av följande:
 
@@ -91,7 +91,7 @@ Utan att lämna huvudsidan i en grupp som du visar kan du snabbt redigera, kopie
 
 Om du är gruppadministratör och din grupp behöver andra inställningar för projekt, uppgifter och utgåvor än de som har angetts på systemnivån kan du be Workfront-administratören att låsa upp en inställning för alla grupper i hela organisationen. När den har låsts upp kan du (och gruppadministratörer för alla andra grupper) konfigurera den för de grupper som du hanterar.
 
-Instruktioner finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och  [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Instruktioner finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Konfigurera aktivitets- och probleminställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Visa, lägga till och konfigurera undergrupper
 
@@ -99,7 +99,7 @@ Du kan skapa, visa, redigera, kopiera, byta namn på, exportera och ta bort unde
 
 ## Konfigurera händelseaviseringar för en grupp
 
-Om en Workfront-administratör låser upp möjligheten att konfigurera händelsemeddelanden för grupperna i din organisation kan du konfigurera dem för en grupp som du administrerar. Instruktioner finns i [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Om en Workfront-administratör låser upp möjligheten att konfigurera händelsemeddelanden för grupperna i din organisation kan du konfigurera dem för en grupp som du administrerar. Instruktioner finns i [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Skapa och anpassa statusar för en grupp
 
@@ -122,7 +122,7 @@ Instruktioner finns i [Skapa och ändra en grupps projekt](../../../administrati
 
 När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med de godkännandeprocesser som administratörerna för gruppen, eller någon av dess undergrupper, har administratörsbehörighet för.
 
-Instruktioner finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
+Mer information finns i [Godkännandeprocesser på gruppnivå](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md).
 
 ## Visa och hantera en grupps layoutmallar
 

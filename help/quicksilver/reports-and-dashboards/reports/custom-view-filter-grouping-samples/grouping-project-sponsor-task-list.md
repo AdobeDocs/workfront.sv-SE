@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Gruppering: Projektsponsor för en uppgiftslista'
+title: 'Gruppering: Projektsponsor för en uppgiftslista'
 description: Med den här uppgiftsgrupperingen kan du gruppera uppgifter efter projektsponsorn.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,9 +57,9 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här använder du den här grupperingen:
 
 1. Gå till listan med uppgifter.
-1. I **Gruppering** nedrullningsbar meny, välja **Ny gruppering**.
+1. I listrutan **Gruppering** väljer du **Ny gruppering**.
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Ta bort texten som visas i textredigeringsfönstret.
 1. Kopiera och klistra in följande kod i textredigeringsfönstret:
 
@@ -67,4 +67,4 @@ Så här använder du den här grupperingen:
    group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string
    ```
 
-1. Klicka **Spara gruppering**.
+1. Klicka på **Spara gruppering**.

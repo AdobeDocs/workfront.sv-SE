@@ -22,5 +22,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Översikt över Agile-nedladdningsdiagram](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
 * [Statusöversikt för Iteration-slutförande](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
 * [Ändra storlek på och komprimera nedtoningsdiagrammet](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-* [Synkronisera data i nedladdningsbart diagram](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+* [Synkronisera data i nedladdningsschemat](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
 * [Använd ett alternativt teamschema för nedladdningsscheman](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

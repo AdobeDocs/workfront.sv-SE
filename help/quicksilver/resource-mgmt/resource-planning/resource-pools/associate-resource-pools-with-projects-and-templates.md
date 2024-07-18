@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
 source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -72,16 +72,16 @@ Du måste ha följande:
 
 Du kan associera resurspooler med en mall på samma sätt som du associerar resurspooler med ett projekt. I den här artikeln beskrivs hur du kan associera resurspooler med projekt.
 
-1. Gå till ett projekt och klicka på **Mer** icon ![](assets/more-icon.png)bredvid projektnamnet och klicka sedan på **Redigera**.
+1. Gå till ett projekt och klicka på ikonen **Mer** ![](assets/more-icon.png)bredvid projektnamnet och klicka sedan på **Redigera**.
 
-1. Klicka **Projektinställningar**.
+1. Klicka på **Projektinställningar**.
 
-1. Börja skriva namnet på en resurspool i **Resurspooler** markerar du det i listan när det visas.\
+1. Börja skriva namnet på en resurspool i fältet **Resurspooler** och markera den i listan när den visas.\
    Du kan associera flera resurspooler med ett projekt eller en mall.
 
    ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 Mer information om hur du redigerar ett projekt och associerar det med resurspooler finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -96,10 +96,10 @@ Du kan associera resurspooler med mallar på samma sätt som du associerar resur
 Så här associerar du resurspooler med flera projekt samtidigt:
 
 1. Gå till en lista med projekt.
-1. Markera flera projekt och klicka sedan på **Redigera** icon ![](assets/edit-icon.png) högst upp i listan.
+1. Markera flera projekt och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) längst upp i listan.
 
-1. Klicka **Inställningar**.
-1. Börja skriva namnet på en resurspool i **Resurspooler** markerar du det i listan när det visas.\
+1. Klicka på **Inställningar**.
+1. Börja skriva namnet på en resurspool i fältet **Resurspooler** och markera den i listan när den visas.\
    Du kan koppla flera resurspooler till projekt eller mallar.
 
    >[!NOTE]
@@ -108,13 +108,12 @@ Så här associerar du resurspooler med flera projekt samtidigt:
    >
    >* När du redigerar flera projekt samtidigt visas en indikator för flera värden om de markerade projekten har olika resurspooler. Om du lägger till resurspooler gruppvis för projekt läggs alla pooler till i det valda projektet och de ursprungliga resurspoolerna skrivs över.
 
-
    ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x358.png)
 
-1. Klicka **Spara ändringar**.\
+1. Klicka på **Spara ändringar**.\
    När resurspoolerna är kopplade till dina projekt eller dina mallar kan du budgetera användarallokeringar för dina projekt i resursplaneraren.\
-   Mer information om resursplaneraren finns i [Översikt över resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Mer information om resursplaneraren finns i [Översikt över resursplaneraren](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Mer information om hur du redigerar flera projekt samtidigt finns i avsnittet Redigera flera projekt i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+Mer information om hur du redigerar flera projekt samtidigt finns i avsnittet Redigera projekt i grupp i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Mer information om hur du redigerar flera mallar samtidigt finns i avsnittet Redigera mallar samtidigt i [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Mer information om hur du redigerar flera mallar samtidigt finns i avsnittet Redigera mallar i grupp i [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).

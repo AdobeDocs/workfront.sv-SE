@@ -2,14 +2,14 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Hantera låsta scenarier i [!DNL Adobe Workfront Fusion]
-description: Hantera låsta scenarier i [!DNL Adobe Workfront Fusion]
+title: Hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]
+description: Hantera låsta scenarier i  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
-source-git-commit: 9050684504f2335f5631f63978a9f65c25fd8d5f
+exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -44,14 +44,14 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>Din organisation måste köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Låsta scenarier
 
@@ -74,6 +74,6 @@ Om du låser upp ett scenario manuellt kan det orsaka fel i körningarna av ett 
 >Om du låser upp ett scenario manuellt kan det orsaka fel i körningarna av ett scenario.
 
 1. Gå till sidan Scenarioinformation i det låsta scenariot.
-1. Klicka **[!UICONTROL Options]** i skärmens övre högra hörn.
+1. Klicka på **[!UICONTROL Options]** i skärmens övre högra hörn.
 1. Välj **[!UICONTROL Unlock execution]**.
 1. Klicka på **[!UICONTROL Unlock]**.

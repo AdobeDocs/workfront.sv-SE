@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Fatta ett beslut om ett korrektur i korrekturläsaren
-description: Du kan fatta ett beslut om ett korrektur direkt i korrekturläsaren.
+description: Du kan välja ett korrektur direkt i korrekturläsaren.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Fatta ett beslut om ett korrektur i korrekturläsaren
 
-Du kan fatta ett beslut om ett korrektur direkt i korrekturläsaren.
+Du kan välja ett korrektur direkt i korrekturläsaren.
 
 ## Åtkomstkrav
 
@@ -27,14 +27,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -48,16 +48,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Fatta ett beslut om ett korrektur i korrekturläsaren
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. Klicka **Fatta beslut** längst upp i mitten av korrekturläsaren.
+1. Klicka på **Fatta beslut** längst upp i mitten av korrekturläsaren.
 
-1. I **Beslutsbevis** klickar du på något av följande beslut:
+1. I rutan **Handledning** som visas klickar du på något av följande:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,14 +81,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Anpassat beslut</td> 
-      <td> <p>I Select- och Premium-planer kan Workfront-administratören eller Workfront Proof-administratören ändra namn på, ordna om och dölja beslut. Mer information finns i <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Konfigurera beslutsalternativ för godkännande i Workfront Proof</a>.</p> </td> 
+      <td> <p>I Select- och Premium-planer kan Workfront-administratören eller Workfront Proof-administratören byta namn på, ordna om och dölja beslut. Mer information finns i <a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Konfigurera alternativ för godkännandebeslut i Workfront Proof</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Villkorligt) Om Adobe Workfront-administratören eller Workfront Korrekturadministratör har lagt till ett orsaksavsnitt väljer du en anledning till ditt beslut. Mer information om hur administratörer kan konfigurera beslutsorsaker finns i  [Konfigurera beslutsalternativ för godkännande i Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
-1. (Valfritt) Välj **Skicka mig en bekräftelse via e-post** för att få en bekräftelse på ditt beslut via e-post.
-1. Klicka **Fatta beslut**.
+1. (Villkorligt) Om Adobe Workfront-administratören eller Workfront Proof-administratören har lagt till ett orsaksavsnitt väljer du en orsak till ditt beslut. Mer information om hur administratörer kan konfigurera beslutsorsaker finns i  [Konfigurera beslutsalternativ för godkännande i Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Valfritt) Välj **Skicka mig en e-postbekräftelse** för att få en e-postbekräftelse av ditt beslut.
+1. Klicka på **Fatta beslut**.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a decision when the proof is configured with an approval process</h2>

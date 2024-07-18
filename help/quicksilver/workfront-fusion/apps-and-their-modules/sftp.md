@@ -4,20 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: SFTP-moduler
-description: The [!DNL Adobe Workfront Fusion SFTP] Med -moduler kan du övervaka filändringar i en vald mapp/undermapp, överföra nya filer till önskad mapp, ändra eller ta bort befintliga filer som redan finns i en mapp eller ändra filbehörigheter.
+description: Med modulerna  [!DNL Adobe Workfront Fusion SFTP] kan du övervaka filändringar i en vald mapp/undermapp, överföra nya filer till önskad mapp, ändra eller ta bort befintliga filer som redan finns i en mapp eller ändra filbehörigheter.
 author: Becky
 feature: Workfront Fusion
 exl-id: aacc61f8-ffc3-48db-9f54-188685c52067
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1687'
 ht-degree: 0%
 
 ---
 
 # SFTP-moduler
 
-The [!DNL Adobe Workfront Fusion] SFMed TP-moduler kan du övervaka filändringar i en vald mapp/undermapp, överföra nya filer till önskad mapp, ändra eller ta bort befintliga filer som redan finns i en mapp eller ändra filbehörigheter.
+Med modulerna [!DNL Adobe Workfront Fusion] SFTP kan du övervaka filändringar i en vald mapp/undermapp, överföra nya filer till önskad mapp, ändra eller ta bort befintliga filer som redan finns i en mapp eller ändra filbehörigheter.
 
 ## Åtkomstkrav
 
@@ -38,33 +38,33 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-För att använda SFTP med [!DNL Workfront Fusion]måste du ha ett SFTP-konto (till exempel [!DNL GoDaddy] webbhotell).
+Om du vill använda SFTP med [!DNL Workfront Fusion] måste du ha ett SFTP-konto (till exempel [!DNL GoDaddy] webbhosting).
 
 ## Anslut SFTP till [!DNL Workfront Fusion] {#connect-sftp-to-workfront-fusion}
 
-Så här ansluter du ditt SFTP-konto till [!DNL Workfront Fusion] du måste ange målvärden och SFTP-autentiseringsuppgifter (användarnamn och lösenord eller användarnamn och nyckel) för modulens [!UICONTROL Create a connection] -dialogrutan.
+Om du vill ansluta ditt SFTP-konto till [!DNL Workfront Fusion] måste du ange målvärden och SFTP-autentiseringsuppgifter (användarnamn och lösenord eller användarnamn och nyckel) för modulens [!UICONTROL Create a connection]-dialogruta.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,11 +93,11 @@ Så här ansluter du ditt SFTP-konto till [!DNL Workfront Fusion] du måste ange
  </tbody> 
 </table>
 
-När du angett anslutningsinformationen klickar du på **[!UICONTROL Continue]** för att upprätta en anslutning.
+När du har angett anslutningsinformationen klickar du på **[!UICONTROL Continue]** för att upprätta en anslutning.
 
-## [!UICONTROL SFTP] moduler och deras fält
+## [!UICONTROL SFTP]-moduler och deras fält
 
-När du konfigurerar [!UICONTROL SFTP] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!UICONTROL SFTP] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!UICONTROL SFTP] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!UICONTROL SFTP] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -115,7 +115,7 @@ Returnerar filer med information när en fil skapas eller ändras i en angiven m
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -127,7 +127,7 @@ Returnerar filer med information när en fil skapas eller ändras i en angiven m
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned files]</td> 
-   <td> <p> Ange maximalt antal filer som [!DNL Workfront Fusion] kommer att fungera med under en cykel</p> </td> 
+   <td> <p> Ange maximalt antal filer som [!DNL Workfront Fusion] ska arbeta med under en cykel</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -142,7 +142,7 @@ Returnerar mappar med information när en mapp skapas eller ändras i en angiven
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -150,7 +150,7 @@ Returnerar mappar med information när en mapp skapas eller ändras i en angiven
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned files]</td> 
-   <td> <p> Ange maximalt antal mappar som [!DNL Workfront Fusion] kommer att returneras under en cykel.</p> </td> 
+   <td> <p> Ange maximalt antal mappar som [!DNL Workfront Fusion] ska returnera under en cykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -165,7 +165,7 @@ Returnerar mappar med information när en mapp skapas eller ändras i en angiven
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Show] </td> 
@@ -177,7 +177,7 @@ Returnerar mappar med information när en mapp skapas eller ändras i en angiven
   </tr> 
   <tr> 
    <td>[!UICONTROL Search] </td> 
-   <td> <p>Ange eller mappa söktermen. Om du till exempel vill söka efter filer med filtillägget .txt anger du <code>.txt</code>Du kan också ange eller mappa namnet på filen som du vill söka efter.</p> </td> 
+   <td> <p>Ange eller mappa söktermen. Om du till exempel vill söka efter filer med filtillägget .txt anger du <code>.txt</code>. Du kan också ange eller mappa namnet på filen som du vill söka efter.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sort By]</td> 
@@ -193,7 +193,7 @@ Returnerar mappar med information när en mapp skapas eller ändras i en angiven
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned results]</td> 
-   <td> <p> Ange maximalt antal resultat som [!DNL Workfront Fusion] kommer att returneras under en cykel.</p> </td> 
+   <td> <p> Ange det maximala antalet resultat som [!DNL Workfront Fusion] ska returnera under en cykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -208,7 +208,7 @@ Den här modulen visar filer från en angiven mapp.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Buffer Size [B]]</td> 
@@ -220,7 +220,7 @@ Den här modulen visar filer från en angiven mapp.
   </tr> 
   <tr> 
    <td>[!UICONTROL Search] </td> 
-   <td> <p>Ange eller mappa söktermen. Om du till exempel vill söka efter filer med filtillägget .txt anger du <code>.txt</code>Du kan också ange eller mappa namnet på filen som du vill söka efter.</p> </td> 
+   <td> <p>Ange eller mappa söktermen. Om du till exempel vill söka efter filer med filtillägget .txt anger du <code>.txt</code>. Du kan också ange eller mappa namnet på filen som du vill söka efter.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Sort By]</td> 
@@ -236,14 +236,14 @@ Den här modulen visar filer från en angiven mapp.
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned results]</td> 
-   <td> <p> Ange maximalt antal filer som [!DNL Workfront Fusion] kommer att returneras under en cykel.</p> </td> 
+   <td> <p> Ange det maximala antalet filer som [!DNL Workfront Fusion] ska returnera under en cykel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Get a File]
 
-Den här modulen hämtar filinformation, inklusive data för en fil.
+Den här modulen hämtar filinformation, inklusive fildata.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -251,7 +251,7 @@ Den här modulen hämtar filinformation, inklusive data för en fil.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Buffer Size [B]]</td> 
@@ -259,7 +259,7 @@ Den här modulen hämtar filinformation, inklusive data för en fil.
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path] </td> 
-   <td> <p>Ange sökvägen till filen. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar mot en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
+   <td> <p>Ange sökvägen till filen. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar på en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -274,7 +274,7 @@ Med den här modulen kan du överföra en fil till SFTP-servern.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -286,7 +286,7 @@ Med den här modulen kan du överföra en fil till SFTP-servern.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Permissions]</p> </td> 
-   <td> <p>Ange önskade behörigheter för filen eller mappen. Använd chmod-parametrar. Till exempel: <code>777 </code>eller <code>-rwxrwxrwx</code>.</p> <p>Mer information om chmod finns i <a href="https://ss64.com/bash/chmod.html">chmod-dokumentation</a>.</p> </td> 
+   <td> <p>Ange önskade behörigheter för filen eller mappen. Använd chmod-parametrar. Till exempel: <code>777 </code> eller <code>-rwxrwxrwx</code>.</p> <p>Mer information om chmod finns i <a href="https://ss64.com/bash/chmod.html">chmod-dokumentationen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -301,11 +301,11 @@ Byter namn på en fil.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
-   <td> <p> Ange sökvägen till filen som du vill byta namn på. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar mot en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
+   <td> <p> Ange sökvägen till filen som du vill byta namn på. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar på en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL New file name]</td> 
@@ -322,11 +322,11 @@ Byter namn på en fil.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
-   <td> <p> Ange sökvägen till filen som du vill flytta. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar mot en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
+   <td> <p> Ange sökvägen till filen som du vill flytta. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar på en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL New Folder]</td> 
@@ -343,11 +343,11 @@ Byter namn på en fil.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
-   <td> <p> Ange sökvägen till filen som du vill ta bort. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar mot en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
+   <td> <p> Ange sökvägen till filen som du vill ta bort. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar på en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -362,15 +362,15 @@ Gör att du kan ändra behörigheter för filen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
-   <td> <p> Ange sökvägen till filen som du vill flytta. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar mot en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
+   <td> <p> Ange sökvägen till filen som du vill flytta. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar på en viss mapp för den inloggade användaren, till exempel <code>./file.txt</code>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Permissions]</p> </td> 
-   <td> <p>Ange önskade filbehörigheter. Använd chmod-parametrarna. Till exempel: <code>777 </code>eller <code>-rwxrwxrwx</code>.</p> <p>Måste matcha mönstret <code> /(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Mer information om chmod finns i <a href="https://ss64.com/bash/chmod.html">chmod-dokumentation</a>.</p> </td> 
+   <td> <p>Ange önskade filbehörigheter. Använd chmod-parametrarna. Till exempel <code>777 </code> eller <code>-rwxrwxrwx</code>.</p> <p>Matcha mönster <code> /(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Mer information om chmod finns i <a href="https://ss64.com/bash/chmod.html">chmod-dokumentationen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,7 +381,7 @@ Skapar en ny mapp på den angivna platsen.
 
 >[!NOTE]
 >
->Om mappen redan finns genereras ett fel i modulen. Om du vill fortsätta flödet utan avbrott kopplar du en felhanterarväg till modulen för att fånga upp felet och använder [!UICONTROL Resume] -direktivet för att fortsätta flödet. Mer information om hur du kopplar en felhanterarväg finns i [Felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md). Mer information om felhanterarvägen finns i [Direktiv om felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
+>Om mappen redan finns genereras ett fel. Om du vill fortsätta flödet utan avbrott kopplar du en felhanterarväg till modulen för att fånga upp felet och använder direktivet [!UICONTROL Resume] för att fortsätta flödet. Mer information om hur du kopplar en felhanterarväg finns i [Felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md). Mer information om felhanterarvägen finns i [Direktiv om felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -389,11 +389,11 @@ Skapar en ny mapp på den angivna platsen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
-   <td> <p>Ange en befintlig mapp som lagringsplats för den nya mappen. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar mot en viss mapp för den inloggade användaren, till exempel <code>./</code>.</p> </td> 
+   <td> <p>Ange en befintlig mapp som lagringsplats för den nya mappen. Du kan ange en absolut sökväg som <code>/home/user/file.txt</code>. Du kan också ange en relativ sökväg som pekar på en viss mapp för den inloggade användaren, till exempel <code>./</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder Name]</td> 
@@ -401,7 +401,7 @@ Skapar en ny mapp på den angivna platsen.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Permissions]</p> </td> 
-   <td> <p>Ange önskade mappbehörigheter. Använd chmod-parametrar. Till exempel: <code>777 </code>eller <code>-rwxrwxrwx</code>.</p> <p>Måste matcha mönstret <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Mer information om chmod finns i <a href="https://ss64.com/bash/chmod.html">chmod Man Page</a>.</p> </td> 
+   <td> <p>Ange önskade mappbehörigheter. Använd chmod-parametrar. Till exempel <code>777 </code> eller <code>-rwxrwxrwx</code>.</p> <p>Matcha mönster <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Mer information om chmod finns på <a href="https://ss64.com/bash/chmod.html">chmod Man Page</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -414,7 +414,7 @@ Skapar en ny mapp på den angivna platsen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion], se <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Anslut SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt SFTP-konto till [!DNL Workfront Fusion] finns i <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">Ansluta SFTP till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Folder Path]</td> 

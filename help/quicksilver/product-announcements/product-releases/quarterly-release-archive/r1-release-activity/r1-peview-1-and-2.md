@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön med versionerna R1.1 och R1.2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 19 januari 2017.
 
-En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Återställ projekt, uppgifter och problem från papperskorgen 
 
@@ -26,7 +26,7 @@ Workfront-administratörer kan nu återställa projekt, uppgifter och ärenden s
 
 Det finns även nya alternativ för att konfigurera vad som händer med timmar som är loggade mot ett projekt, en uppgift eller ett problem som tas bort. Mer information finns i [Konfigurera påverkan på timmar när ett objekt tas bort och återställs](../../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md).
 
-Mer information om hur du återställer objekt i Workfront finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Mer information om hur du återställer objekt i Workfront finns i [Återställa borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 Mer information om hur du visar projekt, uppgifter och problem som nyligen har återställts finns i [Visa återställt objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
@@ -38,7 +38,7 @@ Före den här ändringen var information om godkännandesteg bara tillgänglig 
 
 I projekt visas godkännandeinformationen i huvudet bredvid projekttiteln. För uppgifter och ärenden visas godkännandeinformationen på den högra panelen.
 
-Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Mer information finns i [Godkänna arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md) i  [Godkänner arbete](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Konfigurera objekt som ska uppdateras och som väntar på godkännande
 
@@ -101,7 +101,7 @@ Mer information finns i [Adobe Workfront-meddelanden](../../../../workfront-basi
 
 När du gör en grupp offentlig kan du nu lägga till den gruppen till användare utan att vara gruppägare. Du måste ha administratörsbehörighet för att kunna redigera användare.
 
-Mer information om hur du gör en grupp offentlig finns i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) avsnitt i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Mer information om hur du gör en grupp offentlig finns i avsnittet [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#making-a-group-public) i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ## Dela URL:en för ett objekt i mobilappen 
 
@@ -131,7 +131,7 @@ Nu kan du lägga till mer exakta utgiftstariffer när du skapar utgiftstyper. Ut
 
 Före den här ändringen kan kostnadstarifferna endast innehålla upp till 2 tecken efter decimaltalet (till exempel 1,03).
 
-Mer information om hur du skapar utgiftssatser finns i [Skapa anpassade utgiftstyper](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+Mer information om hur du skapar utgiftstaxor finns i [Skapa anpassade utgiftstyper](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Look and Improved Performance in the Tasks&nbsp;List (by request only)</h2>

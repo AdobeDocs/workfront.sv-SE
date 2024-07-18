@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Visa förlopp och status för ett korrektur i [!DNL Workfront Proof]
+title: Visa status och förlopp för ett korrektur i  [!DNL Workfront Proof]
 description: Bevisförloppet visar det arbete som utförts med ett korrektur från den tidpunkt då du skickar beviset till granskarna tills de fattar ett beslut om beviset.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
 
-# Visa förlopp och status för ett korrektur i [!DNL Workfront Proof]
+# Visa status och förlopp för ett korrektur i [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Förstå korrekturstatus
 
@@ -55,7 +55,7 @@ De innehåller följande uppgifter om ett bevis:
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-comment-icon.png" alt="proof_progress_comment_icon.png"> </p> </td> 
-   <td> <p><strong>Kommentarer</strong>. Granskare (användare som kan kommentera) har kommenterat korrekturet.</p> <p>Ikonen visas inte om ingen granskare har angetts som korrektur.</p> </td> 
+   <td> <p><strong>Kommentarer</strong>. Granskare (användare som kan kommentera) har kommenterat korrekturet.</p> <p>Ikonen visas inte om ingen granskare har angetts som provtryckare.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt="proof_progress_Decision_icon.png"> </p> </td> 
@@ -67,23 +67,23 @@ De innehåller följande uppgifter om ett bevis:
 De här ikonerna kan visas i följande färger för att visa viss information om korrekturets förlopp:
 
 * **Grön**. Slutförd.
-* **Vit**. Inte fullständigt.
+* **Vit**. Inte komplett.
 * **Orange**. Inte komplett och tidsgränsen är mindre än 24 timmar.
 * **Röd**. Inte komplett och förbi deadline.
 
 ### Status för korrektur {#levels-of-proof-progress}
 
-I Workfront Proof används förloppsikonerna för att spåra ett korrektures förlopp på följande nivåer:
+Workfront Proof använder förloppsikonerna för att spåra korrekturets förlopp på följande nivåer:
 
 * För varje granskare, baserat på den personens aktivitet på beviset.
-* För varje fas, baserat på förloppet på den scen som ligger längst bak i korrekturprocessen. Mer information finns i [Översikt över automatiska arbetsflödessteg](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+* För varje fas baseras granskarens förlopp på den scen som ligger längst bak i korrekturprocessen. Mer information finns i [Översikt över automatiska arbetsflödessteg](../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 * Beviset baseras på förloppet för den scen (grupp av granskare) som ligger längst bak i korrekturprocessen.
 
-Ett exempel på hur [!DNL Workfront Proof] avgör hur granskningen fortskrider eller på vilket stadium som ligger längst bak, anta att tre granskare måste fatta ett beslut om ett korrektur. Om två av dem har fattat sitt beslut men den tredje inte har gjort det, visar inte förloppsindikatorn för beviset D i grönt på grund av det utestående beslutet.
+Ett exempel på hur [!DNL Workfront Proof] avgör förloppet med den granskare eller scen som ligger längst bak är om tre granskare måste fatta ett beslut i ett korrektur. Om två av dem har fattat sitt beslut men den tredje inte har gjort det, visar inte förloppsindikatorn för beviset D i grönt på grund av det utestående beslutet.
 
-Om [!UICONTROL Primary Decision Maker] inställningen väljs på ett bevis och den primära beslutsfattaren fattar ett beslut, så blir D:et i korrekturets förloppsindikator grönt för alla granskare eftersom inga andra beslut krävs.
+Om inställningen [!UICONTROL Primary Decision Maker] väljs på ett korrektur och den primära beslutsfattaren skickar ett beslut, blir D:et i korrekturets förloppsindikator grönt för alla granskare eftersom inga andra beslut krävs.
 
-På samma sätt, om [!UICONTROL Only One Decision Required] -inställningen väljs på ett korrektur och alla granskare fattar ett beslut. D:et i förloppsindikatorn blir grönt för alla granskare eftersom inga andra beslut krävs.
+Om inställningen [!UICONTROL Only One Decision Required] är markerad på ett korrektur och en granskare skickar ett beslut, blir D i förloppsindikatorn grönt för alla granskare eftersom inga andra beslut krävs.
 
 ## Förstå korrekturstatus
 
@@ -100,7 +100,7 @@ Standardstatusalternativen är:
 
 Om anpassade beslut har konfigurerats i ditt konto återspeglar statusalternativen dina anpassade beslutsinställningar.
 
-Bevisets status styrs av deltagaren i det värsta fallet. Anta till exempel att det finns tre beslut om beviset: två har statusen **Accepterad** och en har statusen **Avvisad**. Det&quot;värsta fallet&quot;-beslut som avvisats överstyr de andra besluten och bevisets övergripande status visas som **Avvisad**.
+Bevisets status styrs av deltagaren i det värsta fallet. Anta till exempel att det finns tre beslut för korrekturet: två har statusen **Godkänd** och en har statusen **Avvisad**. Det &quot;värsta fallet&quot;-beslut som avvisats överstyr de andra besluten och korrekturets totala status visas som **Avvisad**.
 
 ## Visningsförlopp och status {#viewing-progress-and-status}
 
@@ -108,7 +108,7 @@ Du kan visa förlopp och status för korrektur, faser och granskare på varje fa
 
 * [Korrektursammanfattning](#proof-summary)
 * [Menyn Scenåtgärder](#stage-actions-menu)
-* [I [!UICONTROL Summary] kan du även komma åt granskarnas åtgärdsmenyer, förutsatt att du har redigeringsbehörighet för korrekturet. Mer information finns i Korrekturbehörighetsprofiler i Workfront Proof och Hantera korrekturroller i Workfront Proof. The [!UICONTROL Reviewer actions] meny (1) visas när du hovrar över granskarens information och gör att du kan:](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to)
+* [I avsnittet [!UICONTROL Summary] kan du även komma åt granskarens åtgärdsmenyer, förutsatt att du har redigeringsbehörighet för korrekturet. Mer information finns i Korrekturbehörighetsprofiler i Workfront Proof och Hantera profilroller i Workfront Proof. Menyn [!UICONTROL Reviewer actions] (1) visas när du hovrar över granskarens information och gör att du kan:](#in-the-summary-section-you-can-also-access-the-reviewer-actions-menus-provided-you-have-edit-rights-on-the-proof-for-more-information-see-proof-permissions-profiles-in-workfront-proof-and-manage-proof-roles-in-workfront-proof-the-reviewer-actions-menu-1-appears-when-you-hover-over-the-reviewer-s-details-and-allows-you-to)
 * [Korrekturåtgärder-menyn](#proof-actions-menu)
 
 ### Korrektursammanfattning {#proof-summary}
@@ -144,15 +144,15 @@ I sammanfattningen kan du visa och redigera följande information om ditt korrek
 
 >[!NOTE]
 >
->Din möjlighet att redigera korrekturinformationen beror på dina rättigheter till beviset (se [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Din möjlighet att redigera korrekturinformationen beror på dina rättigheter för korrekturet (se [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![summary_details_3.png](assets/summary-details-3-350x160.png)
 
-### [!UICONTROL Stage Actions] Meny  {#stage-actions-menu}
+### [!UICONTROL Stage Actions]-menyn  {#stage-actions-menu}
 
 Varje steg i arbetsflödet har en separat meny, som gör att du kan utföra gruppåtgärder som är relaterade till granskarna i det steget.
 
-The [!UICONTROL Stage actions] visas när du hovrar över scenavsnittet (1) och gör att du kan
+Menyn [!UICONTROL Stage actions] visas när du hovrar över scenavsnittet (1) och gör att du kan
 
 * [!UICONTROL Message all] (2)
 * [!UICONTROL Share] (3)
@@ -160,11 +160,11 @@ The [!UICONTROL Stage actions] visas när du hovrar över scenavsnittet (1) och 
 
 >[!NOTE]
 >
->Vilka alternativ som är tillgängliga beror på vilka rättigheter du har till beviset (se [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Vilka alternativ som är tillgängliga beror på dina rättigheter för korrekturet (se [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![Stage_actions_menu.png](assets/stage-actions-menu-350x161.png)
 
-I avsnittet Sammanfattning kan du även komma åt granskarnas åtgärdsmenyer, förutsatt att du har redigeringsbehörighet för korrekturet. Mer information finns i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Menyn för granskningsåtgärder (1) visas när du hovrar över informationen i granskaren och gör att du kan:
+I avsnittet Sammanfattning kan du även komma åt granskarnas åtgärdsmenyer, förutsatt att du har redigeringsbehörighet för korrekturet. Mer information finns i [Korrekturbehörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Menyn för granskningsåtgärder (1) visas när du hovrar över informationen i granskaren och gör att du kan:
 
 * Skicka ett meddelande till granskaren (2)
 * Redigera information om granskare (3)- gör att du kan redigera visningsnamn, korrekturroll och e-postavisering för den granskaren
@@ -174,7 +174,7 @@ I avsnittet Sammanfattning kan du även komma åt granskarnas åtgärdsmenyer, f
 
 >[!NOTE]
 >
->Hur synliga dessa alternativ är beror på dina rättigheter till beviset (se [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Hur dessa alternativ visas beror på dina rättigheter för korrekturet (se [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
 ![Reviewer_actions_menu.png](assets/reviewer-actions-menu-350x135.png)
 
@@ -187,7 +187,7 @@ Varje korrektur har också en meny (1) som gör att du kan utföra följande åt
 * Skicka ett meddelande till granskarna (4)
 * Skapa en ny version av korrekturet (5)
 * Kopiera korrekturet (6)
-* Ladda ned originalfilen (7)
+* Hämta originalfilen (7)
 * Dela korrekturlänkar (8)
 * Skriv ut kommentarer (9)
 * Begär en Excel-sammanfattning av korrekturet (10)
@@ -198,8 +198,8 @@ Varje korrektur har också en meny (1) som gör att du kan utföra följande åt
 
 >[!NOTE]
 >
->Vilka alternativ som är tillgängliga beror på vilka rättigheter du har till beviset (se [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+>Vilka alternativ som är tillgängliga beror på dina rättigheter för korrekturet (se [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) och [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Mer information om hur du visar korrekturstatus och förlopp i [!DNL Workfront], se [Visningsförlopp och status](#viewing-progress-and-status).
+Mer information om hur du visar korrekturförlopp och status i [!DNL Workfront] finns i [Visa förlopp och status](#viewing-progress-and-status).
 
 Information om visningsförloppet och statusen i Desktop Proofing Viewer finns i [Granska ett arbetsflöde i korrekturläsaren](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md).

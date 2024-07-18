@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla mobilförbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns i [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Ny korrekturfunktion i Workfront mobilapp
 
@@ -24,7 +24,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 2
 >
 >Funktionerna kommer att finnas i Apple App Store och Google Play Store den 21 juni 2023.
 
-I och med att den fristående Workfront Proof-appen har ersatts med 23.4 har den primära Workfront-mobilappen fått korrekturfunktioner så att korrektur på mobilen kan fortsätta. Nya funktioner:
+Med borttagningen av den fristående Workfront Proof-appen i 23.4 har den primära Workfront-mobilappen fått korrekturfunktioner så att korrektur på mobilen kan fortsätta. Nya funktioner:
 
 * Workfront mobilapp har nu stöd för alla statiska filtyper för korrektur
 * Du kan visa korrekturstatus från sidorna Dokumentinformation och Korrekturinformation i mobilappen

@@ -41,11 +41,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Projekt</p> </li> 
      <li> <p>Uppgifter</p> </li> 
      <li> <p>Problem</p> </li> 
-    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute behörigheter eller högre för projekt, uppgifter och ärenden </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,11 +57,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Så här kommer du åt schemaläggningsverktyget i ett projekt:
 
 1. Gå till det projekt som du vill schemalägga resurser för.
-1. Klicka på **Schemaläggning** eller avsnittet Utjämning av arbetsbelastning i den vänstra panelen. Avsnittet Schemaläggning eller Utjämning av arbetsbelastning kan finnas under **Visa fler**.
+1. Klicka på avsnittet **Schemaläggning** eller Utjämning av arbetsbelastning i den vänstra panelen. Avsnittet Schemaläggning eller Utjämning av arbetsbelastning kan finnas under **Visa mer**.
 
    Mer information om att schemalägga resurser med schemaläggningsverktyget i ett projekt finns i avsnittet &quot;Ändra användartilldelningar och allokeringar&quot; i artikeln &quot;Kom igång med resursplanering&quot;.
 
-1. (Villkorligt och rekommenderat) Om du klickade på Schemaläggning klickar du på **Växla till arbetsbelastningsutjämnare** om du vill schemalägga resurser med hjälp av arbetsbelastningsutjämnaren.
+1. (Villkorligt och rekommenderat) Om du klickade på Schemaläggning klickar du på **Växla till arbetsbelastningsutjämnaren** för att schemalägga resurser med hjälp av arbetsbelastningsutjämnaren.
 
    >[!TIP]
    >
@@ -69,7 +69,7 @@ Så här kommer du åt schemaläggningsverktyget i ett projekt:
 
    Mer information om att schemalägga resurser med hjälp av belastningsutjämnaren finns i följande artiklar:
 
-   * [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+   * [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
    * [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
  

@@ -87,7 +87,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Uppdatera mål i avsnittet Målinformation
 
@@ -180,11 +180,11 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 1. Klicka på namnet på ett mål i mållistan och klicka sedan på namnet på ett mål.
 
-   Då öppnas **Målinformation** till vänster.
+   Då öppnas avsnittet **Målinformation** till vänster.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klicka på **Ikonen Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla** eller **Ökning**
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla** eller **Översikt**
 
    eller
 
@@ -200,7 +200,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
    * **Förlopp**: Anger hur stor procentandel av målet som har slutförts hittills. Du kan inte uppdatera förloppet för ett mål manuellt. Målförloppet är en beräkning av alla förloppsindikatorer.
    * **Villkor**: Anger om målet är nytt och inte har uppdaterats ännu, om det är på målet att slutföras i tid eller om det ligger efter. Du kan inte uppdatera villkoret för ett mål. Målets villkor beräknas automatiskt av Worfront.\
      Mer information om målvillkor och -förlopp finns i
-     [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
+     [Översikt över målförlopp och villkor i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
    * **Status**: Du kan inte uppdatera status för ett mål manuellt. Mer information finns i [Översikt över målstatus i Adobe Workfront-mål](../goal-management/goal-status-overview.md).
    * **Målägare**: Klicka för att uppdatera namnet på målets ägare. Börja skriva namnet på en användare, ett team, en grupp eller namnet på din organisation och markera den sedan när den visas i listan. Du kan bara ha en ägare för ett mål.
    * **Överordnat mål**: Börja skriva namnet på ett mål som du vill ange som överordnat mål för det mål som du har valt. Förloppet för det valda målet uppdaterar automatiskt förloppet för det överordnade målet.
@@ -216,7 +216,7 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
    * **Period**: Klicka för att uppdatera tidsperioden för målet\
      eller\
-     Välj **Aktivera anpassade datum** för att ange datum för målets **Starta** och **Slutdatum**.
-   * **Avslutande anteckningar**: Det här fältet visas bara för mål med statusen Stängt. Det går inte att redigera stängda mål. Om du öppnar ett stängt mål permanent tas slutkommentarerna bort.
+     Välj **Aktivera anpassade datum** om du vill ange datum för målets **start**- och **slutdatum**.
+   * **Stänger anteckningar**: Det här fältet visas bara för mål med statusen Stängt. Det går inte att redigera stängda mål. Om du öppnar ett stängt mål permanent tas slutkommentarerna bort.
 
 

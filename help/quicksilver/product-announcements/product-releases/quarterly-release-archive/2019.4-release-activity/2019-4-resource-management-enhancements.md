@@ -18,16 +18,16 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 2019.4. Den kommer att göras tillgänglig i produktionsmiljön den 11 november 2019.
 
-En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt över version 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.4 finns i [Översikt över utgåvan 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Betaversionen av Utjämning av arbetsbelastning</strong> <p>Utjämning av arbetsbelastning tillhandahåller ett nytt gränssnitt för hantering av arbetsbelastningen för dina resurser. Den här funktionen är avsedd att ersätta resursschemaläggaren någon gång i framtiden.</p> <p>Förutom att dra nytta av en förbättrad design kan du nu tydligt se en persons tillgänglighet och enkelt hantera arbetsuppgifter för medarbetarna i teamen. Du kan även uppdatera en uppgift från arbetsbelastningsutjämnaren med hjälp av Sammanfattning i den nya Workfront-upplevelsen.</p> <p>Mer information om belastningsutjämnaren finns i artikeln Översikt över belastningsutjämnaren.</p> </td> 
+   <td><strong>Betaversionen av belastningsutjämnaren </strong> <p>Utjämning av arbetsbelastning tillhandahåller ett nytt gränssnitt för hantering av arbetsbelastningen för dina resurser. Den här funktionen är avsedd att ersätta resursschemaläggaren någon gång i framtiden.</p> <p>Förutom att dra nytta av en förbättrad design kan du nu tydligt se en persons tillgänglighet och enkelt hantera arbetsuppgifter för medarbetarna i teamen. Du kan även uppdatera en uppgift från arbetsbelastningsutjämnaren med hjälp av Sammanfattning i den nya Workfront-upplevelsen.</p> <p>Mer information om belastningsutjämnaren finns i artikeln Översikt över belastningsutjämnaren.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Anpassade kolumner för resursplanering</strong> <p>Nu kan du anpassa kolumnerna som du visar i resursplaneraren så att endast den information som intresserar dig finns med. Den här funktionen är tillgänglig för alla vyer av resursplaneraren: projekt-, roll- och användarvyer.</p> <p>Mer information om hur du anpassar kolumner i Resursplanering finns i <a href="../../../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref" xrefformat="{para}">Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner</a>.</p> </td> 
+   <td><strong>Anpassade kolumner för resursplanering</strong> <p>Nu kan du anpassa kolumnerna som du visar i resursplaneraren så att endast den information som intresserar dig finns med. Den här funktionen är tillgänglig för alla vyer av resursplaneraren: projekt-, roll- och användarvyer.</p> <p>Mer information om hur du anpassar kolumnerna i resursplaneraren finns i <a href="../../../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref" xrefformat="{para}">Granska resurstillgänglighet och allokering med Adobe Workfront resursplanerare</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

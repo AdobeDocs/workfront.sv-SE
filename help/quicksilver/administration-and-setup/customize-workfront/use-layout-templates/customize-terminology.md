@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,16 +70,16 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 ## Anpassa användargränssnittets terminologi
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka **Ange terminologi** nära sidans övre högra hörn.
+1. Klicka på **Ange terminologi** i det övre högra hörnet på sidan.
 1. Gör något av följande:
 
-   * Klicka på nedpilen om du vill använda en alternativ term från Workfront  ![](assets/dropdown-arrow.png) bredvid etiketten och klicka sedan på den alternativa etikett du vill ha i listrutan.
+   * Om du vill använda en alternativ term som tillhandahålls av Workfront klickar du på nedpilen ![](assets/dropdown-arrow.png) bredvid etiketten och sedan på den alternativa etiketten som du vill använda i listrutan.
 
      >[!NOTE]
      >
      >Alternativa etiketter i listrutorna stöds i Workfront-versioner som är lokaliserade för andra språk än engelska.
 
-   * Om du vill ange ett eget anpassat alternativ för etiketten som visas för ett objekt klickar du på **Ange eget namn** till höger om etiketten och skriv sedan **Singular** och **Plural** formulär för den anpassade termen. Du kan klicka **Återställ** om du ändrar dig.
+   * Om du vill ange ett eget anpassat alternativ för den etikett som visas för ett objekt klickar du på **Ange anpassat namn** till höger om etiketten och skriver sedan de anpassade termens **Singular**- och **Plural**-former. Du kan klicka på **Återställ** om du ångrar dig.
 
      Du kan anpassa följande objektnamn:
 
@@ -100,7 +100,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
           <p>Resultat</p>
           <p>Aktivitet</p>
          </ul></td>
-        <td><p>Mer information om dessa objekt finns i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i Adobe Workfront</a>.</p></td>
+        <td><p>Mer information om de här objekten finns i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Förstå objekt i Adobe Workfront</a>.</p></td>
        </tr>
        <tr>
         <td role="rowheader"><p>Workfront Goals-objekt</p></td>
@@ -110,7 +110,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
           <p>Resultat</p>
           <p>Aktivitet</p>
          </ul></td>
-        <td><p>Dessa objekt kräver ytterligare licens. Mer information finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Översikt över Adobe Workfront-mål</a>.</p></td>
+        <td><p>Dessa objekt kräver ytterligare licens. Mer information finns i <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront-målöversikt</a>.</p></td>
        </tr>
        <tr data-mc-conditions="">
         <td role="rowheader"><p>Workfront Scenario Planner-objekt</p></td>
@@ -135,7 +135,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara**.
+   Klicka på **Spara** om du är klar med anpassningen.
 
 1. Så här ser du hur terminologin ändras:
 

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Felhantering i [!DNL Adobe Workfront Fusion]
+title: Felhantering i  [!DNL Adobe Workfront Fusion]
 description: När fel inträffar under körningen av ett scenario beror det oftast på att en tjänst inte är tillgänglig på grund av ett fel, att en tjänst svarar med oväntade data eller att valideringen av indata misslyckas.
 author: Becky
 feature: Workfront Fusion
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 När fel inträffar under körningen av ett scenario beror det oftast på att en tjänst inte är tillgänglig på grund av ett fel, att en tjänst svarar med oväntade data eller att valideringen av indata misslyckas.
 
-Om en modul genererar ett fel under scenariokörningen och det inte finns någon felhanteringsväg kopplad till modulen, körs standardfelhanteringslogiken enligt beskrivningen i [Fel vid bearbetning av [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
+Om en modul genererar ett fel under scenariokörningen och det inte finns någon felhanteringsväg kopplad till modulen, körs standardfelhanteringslogiken, vilket beskrivs i [Felbearbetning i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md).
 
 Genom att lägga till en felhanterarväg till en modul kan du ersätta standardfelhanteringslogiken med din egen. [!DNL Adobe Workfront Fusion] erbjuder fem olika direktiv som kan infogas i slutet av felhanteringsrutterna.
 
@@ -44,25 +44,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Felhanterarflöde
 
@@ -80,14 +80,14 @@ Så här lägger du till en felhanterarväg i en modul:
 
    Lägg till en eller flera moduler i felhanterarflödet.
 
-   Om du lägger till fler moduler i flödet visas [!UICONTROL Ignore] -direktivet används som standard och om ett fel inträffar bearbetas efterföljande moduler på det flödet.
+   Om du lägger till fler moduler i flödet används direktivet [!UICONTROL Ignore] som standard, och om ett fel inträffar bearbetas efterföljande moduler på det flödet.
 
 
 >[!INFO]
 >
->I det här exemplet inträffar ett fel när [!UICONTROL Create a folder] -modulen [!UICONTROL Ignore] -direktivet tillämpas automatiskt och scenariot flyttas till nästa modul på felhanterarvägen.
+>I det här exemplet, om ett fel inträffar när modulen [!UICONTROL Create a folder] körs, kommer direktivet [!UICONTROL Ignore] att tillämpas automatiskt och scenariot flyttas till nästa modul i felhanterarvägen.
 >
->Om det inte finns något fel flyttas dock scenariot till [!UICONTROL List all files in a folder module] på den normala rutten.
+>Om det inte finns något fel flyttas scenariot till [!UICONTROL List all files in a folder module] på den vanliga vägen.
 >
 >![](assets/if-there-is-no-error-350x234.png)
 
@@ -101,9 +101,9 @@ Det finns totalt fem direktiv som kan grupperas i följande kategorier baserat p
 
 Följande direktiv ser till att en scenariokörning fortsätter:
 
-* **[!UICONTROL Resume]**: Gör att du kan ange ett ersättningsutvärde för modulen med felet. Scenariots körningsstatus har markerats som Slutfört
+* **[!UICONTROL Resume]**: Gör att du kan ange en ersättningsutmatning för modulen med felet. Scenariots körningsstatus har markerats som Slutfört
 * **[!UICONTROL Ignore]**: ignorerar felet. Scenariots körningsstatus har markerats som Slutfört
-* **[!UICONTROL Break]**: Sparar indata i kön för ofullständiga körningar. Scenariots körningsstatus är markerad som varning. Mer information finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+* **[!UICONTROL Break]**: Lagrar indata till kön med ofullständiga körningar. Scenariots körningsstatus är markerad som varning. Mer information finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 Om en scenariokörning ska stoppas när ett fel inträffar, ska du använda något av följande direktiv:
 
@@ -112,5 +112,5 @@ Om en scenariokörning ska stoppas när ett fel inträffar, ska du använda någ
 
 Mer information om felhantering finns i:
 
-* [Direktiv om felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [Direktiv för felhantering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
 * [Avancerad felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)

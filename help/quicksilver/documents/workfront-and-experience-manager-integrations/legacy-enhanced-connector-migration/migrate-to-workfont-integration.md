@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Migrera från den gamla eller förbättrade anslutningen till Workfront för Adobe Experience Manager as a Cloud Service-integrering
-description: Informationen på den här sidan förklarar de bästa sätten att gå från Workfront för Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integreringen som ansluter Workfront och Adobe Experience Manager Assets as a Cloud Service.
+description: Informationen på den här sidan förklarar de bästa sätten att gå från Workfront för Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Migrera från den gamla eller förbättrade anslutningen till Workfront för Adobe Experience Manager as a Cloud Service-integrering
 
-Informationen på den här sidan förklarar de bästa sätten att gå från Workfront för Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integreringen som ansluter Workfront och Adobe Experience Manager Assets as a Cloud Service.
+Informationen på den här sidan förklarar de bästa sätten att gå från Workfront för Experience Cloud förbättrade eller äldre anslutningar till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
 
 >[!IMPORTANT]
 >
@@ -23,18 +23,18 @@ Informationen på den här sidan förklarar de bästa sätten att gå från Work
 
 ## Flytta din Workfront-instans till Admin Console
 
-Kunder som tänker använda den nya inbyggda integreringen mellan Workfront och Adobe Experience Manager Assets as a Cloud Service måste se till att deras Workfront-miljö är knuten till en Adobe Admin Console. För befintliga Workfront-miljöer kommer detta sannolikt att kräva en migrering av miljön till en ansluten Adobe Admin Console. Mer information om migreringen och den associerade checklistan finns i [Förbered er på att anställa Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
+Kunder som tänker använda den nya inbyggda integreringen mellan Workfront och Adobe Experience Manager Assets as a Cloud Service måste se till att deras Workfront-miljö är knuten till en Adobe Admin Console. För befintliga Workfront-miljöer kommer detta sannolikt att kräva en migrering av miljön till en ansluten Adobe Admin Console. Mer information om den här migreringen och den associerade checklistan finns i [Förbered dig för att ta med din organisation till Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
 
 Adobe måste hjälpa till att genomföra migreringen. Gör något av följande om du vill ha hjälp:
 
-* Om du har åtkomst till Workfront Hub skickar du din begäran till [Workfront Migration to Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=).
-* Om du inte har Workfront Hub-åtkomst kan du skicka din begäran till [Begärandekö för tidig migrering från Workfront till Adobe Admin Console](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
+* Om du har Workfront Hub-åtkomst skickar du din begäran till [Workfront-migreringen till Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=).
+* Om du inte har Workfront Hub-åtkomst kan du skicka din begäran till [Workfront till kön för tidig migreringsbegäran för Adobe Admin Console ](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
-## Konfigurera din nya integrering av Workfront för Adobe Experience Manager-resurser as a Cloud Service
+## Konfigurera din nya integrering av Workfront för Adobe Experience Manager-resurser - as a Cloud Service
 
-När Workfront-miljön har migrerats till en Adobe Admin Console kan Workfront-administratörer konfigurera den nya inbyggda integreringen. Konfigurationshjälp finns i [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+När Workfront-miljön har migrerats till en Adobe Admin Console kan Workfront-administratörer konfigurera den nya inbyggda integreringen. Konfigurationshjälp finns i [Konfigurera Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-## Flytta befintligt material till Workfront för Adobe Experience Manager as a Cloud Service integrering
+## Flytta befintligt material till Workfront för Adobe Experience Manager-material - as a Cloud Service integration
 
 När du har konfigurerat din miljö kan du flytta befintliga länkade resurser och mappar till Adobe Experience Manager. Detta är ett valfritt steg men säkerställer att tidigare länkade mappar och resurser via den äldre eller förbättrade kopplingen fortfarande är tillgängliga när dessa anslutningar avinstalleras.
 
@@ -51,4 +51,4 @@ Slutligen måste du avinstallera den gamla eller förbättrade anslutningen. Den
 Information om hur du avinstallerar finns i
 
 * Avinstallationsanvisningar för äldre anslutning: [Avinstallera Workfront med Adobe Experience Manager äldre anslutning](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
-* Avinstallationsinstruktioner för utökad anslutning: [Avinstallera Workfront med Adobe Experience Manager förbättrad anslutning](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).
+* Avinstallationsanvisningar för utökad anslutning: [Avinstallera Workfront med Adobe Experience Manager förbättrade anslutning](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).

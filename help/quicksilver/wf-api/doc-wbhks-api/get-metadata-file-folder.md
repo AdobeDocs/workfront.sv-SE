@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7b594df5-c87f-45d4-b84a-cae17171e906
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ GET /metadata?id=[dokument- eller mapp-ID]
 </table>
 
 **Exempel:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"Mitt dokument",<br>sort:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T17:39:45,251Z",<br>storlek: "32554694"<br>}</pre>
+<pre>{<br>title:"Mitt dokument",<br>typ:"fil"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"20140605T 17:39:45.251Z",<br>storlek: "32554694"<br>}</pre>
 
 >[!NOTE]
 >

@@ -78,13 +78,13 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
 Du måste ha ett befintligt mål för att lägga till aktiviteter i det.
 
-Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
@@ -145,23 +145,23 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png)sedan **Mål**.
+1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
-1. Klicka **Progress-indikatorer** till vänster.
-1. I listrutan Ny förloppsindikator klickar du på **Skapa aktivitet**.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
+1. Klicka på **Skapa aktivitet** i listrutan Ny förloppsindikator.
 
    Rutan Ny aktivitet öppnas.
 
    ![](assets/new-activity-box-unshimmed.png)
 
 1. Ange ett namn för aktiviteten i fältet för aktivitetsnamn. Detta är ett obligatoriskt fält.
-1. (Valfritt) Ta bort ditt namn från **Aktivitetsägare** om du vill tilldela aktiviteten till en annan användare. Som standard är du ägare av en aktivitet som du skapar.
+1. (Valfritt) Ta bort ditt namn från fältet **Aktivitetsägare** om du vill tilldela aktiviteten till en annan användare. Som standard är du ägare av en aktivitet som du skapar.
 
    >[!NOTE]
    >
    >Du kan inte tilldela ett team, en grupp eller företaget som aktivitetsägare.
 
-1. Klicka **Skapa aktivitet** för att spara och lägga till den i det valda målet.
+1. Klicka på **Skapa aktivitet** för att spara den och lägga till den i det valda målet.
 
    Aktiviteten visas i avsnittet Förloppsindikatorer på målsidan, under aktivitetsgrupperingen.
 

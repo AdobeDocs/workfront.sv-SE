@@ -10,7 +10,7 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 Du kan hitta följande typer av förfrågningar som du eller någon annan har skickat in, eller förfrågningar som du har börjat skicka men som du aldrig har slutfört. Du hittar dessa förfrågningar i följande områden i Adobe Workfront:
 
 * **Skickat avsnitt**: Alla förfrågningar som du eller någon annan har skickat och du har tillgång till åtminstone Visa.
-* **Utkastavsnitt** : Alla förfrågningar som du har startat men aldrig slutfört och du har aldrig skickat in. Mer information om utkastbegäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* **Utkastavsnitt** : Alla begäranden som du har startat men aldrig slutfört och du har aldrig skickat in. Mer information om utkastbegäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -41,14 +41,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licensöversikt*</td> 
+   <td role="rowheader">Översikt över Adobe Workfront-licenser*</td> 
    <td> <p>Begäran eller senare</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till problem</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -63,8 +63,8 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Så här söker du efter begäranden som du eller andra användare har skickat:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
-1. Klicka **Skickat** i den vänstra panelen för att visa alla skickade begäranden.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Skickat** i den vänstra panelen för att visa alla skickade begäranden.
 
    Du kan visa upp till 2 000 förfrågningar och de kan visas på flera sidor.
 
@@ -85,7 +85,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
          <td role="rowheader">Namn</td> 
          <td> <p>Namnet på begäran.</p> <p>Klicka på namnet på en begäran för att öppna den. </p> <p><b>TIPS</b>
 
-   Om problemet inte kunde bevaras när det konverterades till en aktivitet eller ett projekt är namnet på problemet nedtonat och kan inte längre klickas. Mer information om hur du konverterar problem finns i <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Översikt över konverteringsproblem i Adobe Workfront</a>. </p> </td>
+   Om problemet inte kunde bevaras när det konverterades till en aktivitet eller ett projekt är namnet på problemet nedtonat och kan inte längre klickas. Mer information om hur du konverterar problem finns i <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Översikt över hur du konverterar problem i Adobe Workfront</a>. </p> </td>
    </tr> 
       <tr> 
          <td role="rowheader">Konverterad till</td> 
@@ -116,17 +116,17 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    >
    >När du navigerar bort från listan Skickade begäranden bevaras det valda sorteringsalternativet.
 
-1. (Valfritt) Välj en begäran i listan och klicka sedan på **Öppna sammanfattning** icon ![](assets/open-summary-with-text-nwe.png) om du vill öppna panelen Sammanfattning och visa ytterligare information om begäran, lägga till kommentarer, dokument eller tilldela den. Mer information om panelen Sammanfattning finns i [Sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+1. (Valfritt) Markera en begäran i listan och klicka sedan på ikonen **Öppna sammanfattning** ![](assets/open-summary-with-text-nwe.png) för att öppna panelen Sammanfattning och visa ytterligare information om begäran, lägga till kommentarer, dokument eller tilldela den. Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
    >[!TIP]
    >
    >Om panelen Sammanfattning redan är öppen ändras ikonen Öppna sammanfattning till Stäng sammanfattning.
 
-1. (Valfritt och villkorligt) Klicka på **X** ikonen i det övre högra hörnet eller **Stäng sammanfattning** icon ![](assets/close-summary-with-text-nwe.png) för att stänga panelen Sammanfattning.
+1. (Valfritt och villkorligt) Klicka på ikonen **X** i det övre högra hörnet eller på ikonen **Stäng sammanfattning** ![](assets/close-summary-with-text-nwe.png) för att stänga sammanfattningspanelen.
 
-   Om en utgåva konverterades till en uppgift eller ett projekt och utgåvan togs bort i konverteringsprocessen är panelen Sammanfattning tom. Mer information om hur du konverterar problem finns i [Översikt över konverteringsproblem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+   Om en utgåva konverterades till en uppgift eller ett projekt och utgåvan togs bort i konverteringsprocessen är panelen Sammanfattning tom. Mer information om hur du konverterar problem finns i [Översikt över hur du konverterar problem i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Från **Filterikon** ![](assets/filter-nwepng.png) i det övre högra hörnet av listan väljer du något av de filter som listas i tabellen nedan.
+1. Välj något av filtren i tabellen nedan från **Filterikonen** ![](assets/filter-nwepng.png) i det övre högra hörnet av listan.
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
     </tbody> 
    </table>
 
-1. (Valfritt) Klicka på **Filtersida** icon ![](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran efter namn. Listan uppdateras med resultat som matchar dina sökvillkor.
+1. (Valfritt) Klicka på ikonen **Filtersida** ![](assets/search-icon.png) högst upp i listan om du vill söka efter en begäran efter namn. Listan uppdateras med resultat som matchar dina sökvillkor.
 
    <!--
    <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed.</p> <p>(NOTE: this step will stay drafted even after release. We can't see Completed at this time!) <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </li>
@@ -184,7 +184,7 @@ Så här söker du efter begäranden som du eller andra användare har skickat:
    </ul></li>
    -->
 
-1. Klicka **Utkast** för att se alla utkast till ansökningar. Workfront sparar ett obegränsat antal utkast för varje begärandekö i den här mappen. När du anger en ny begäran för ett köämne som redan har ett utkast, uppmanas du att använda ett befintligt utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+1. Klicka på **Utkast** för att visa alla utkast. Workfront sparar ett obegränsat antal utkast för varje begärandekö i den här mappen. När du anger en ny begäran för ett köämne som redan har ett utkast, uppmanas du att använda ett befintligt utkast. Mer information finns i [Skapa begäranden från utkast](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 
  
 

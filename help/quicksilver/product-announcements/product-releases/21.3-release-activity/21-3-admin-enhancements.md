@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.3 i förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 21 juli 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 Versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Utkast finns i Production med version 21.3
 
@@ -27,7 +27,7 @@ Med utkast får du grundläggande byggstenar som hjälper dig att skapa ett arbe
 
 Mer information finns i [Översikt över utkast](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
-Den här funktionen ingår nu i [Projektmallar i nya Workfront](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [projektmallarna i den nya utbildningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath4/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4) på Workfront One.
 
 ## Nytt för gruppadministratörer: Skapa och hantera status för en grupp på alla nivåer
 
@@ -48,8 +48,3 @@ Mer information finns i [Hantera gruppstatus](../../../administration-and-setup/
 ## Nytt för administratörer: Skapa ett anpassat formulär för faktureringspost
 
 Nu kan du förbättra hur användare hämtar faktureringsinformation genom att skapa ett anpassat formulär för faktureringsposter. Användarna kan bifoga det anpassade formuläret till en faktureringspost, fylla i det och köra rapporter som innehåller informationen i formuläret.
-
-Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-Mer information om hur du bifogar ett anpassat formulär för en faktureringspost till ett projekt finns i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

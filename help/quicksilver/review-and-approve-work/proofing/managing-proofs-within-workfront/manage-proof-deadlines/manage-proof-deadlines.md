@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Hantera korrekturtider
 
-* [Ange en tidsgräns för ett befintligt grundläggande korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
-* [Lägga till, redigera eller ta bort en deadline för en fas](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
+* [Ange en deadline för ett befintligt grundläggande korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
+* [Lägg till, redigera eller ta bort en deadline för en scen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
 * [Ange deadlines för enskilda granskare](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
 * [Ta bort enskilda deadlines för granskare](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)

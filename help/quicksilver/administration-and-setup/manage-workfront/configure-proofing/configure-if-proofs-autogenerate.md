@@ -8,7 +8,7 @@ description: Du kan konfigurera om systemet automatiskt ska generera korrektur n
 author: Courtney
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,16 +27,16 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licensöversikt</a>*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstkonfigurationer</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,26 +45,26 @@ Du måste ha följande:
 
 ## Konfigurera om korrektur ska genereras automatiskt för en enskild användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 1. Välj en användare med språkbehörighet och klicka sedan på **Redigera**.
-1. I **Inställningar** -avsnittet, aktivera eller inaktivera **Generera korrektur automatiskt när dokument överförs** kryssrutan.
+1. Aktivera eller inaktivera kryssrutan **Generera korrektur automatiskt när dokument överförs** i avsnittet **Inställningar**.
 
    ![](assets/autogenerate-proofs-350x216.png)
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
 ## Konfigurera om korrektur ska genereras automatiskt för flera användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
-1. Välj användare med korrekturåtkomst och klicka sedan på **Redigera**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+1. Markera användare med språkbehörighet och klicka sedan på **Redigera**.
 
    >[!IMPORTANT]
    >
    >Om alla användare inte har tillgång till korrekturläsning visas inte alternativet Generera korrektur automatiskt när dokument överförs.
 
-1. I **Inställningar** -sektion, aktivera **Generera korrektur automatiskt när dokument överförs** kryssruta och sedan markera **Ja** eller **Nej**.
+1. Aktivera kryssrutan **Generera korrektur automatiskt när dokument överförs** i avsnittet **Inställningar** och markera sedan **Ja** eller **Nej**.
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 

@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] Styrelsemoduler
+# [!DNL Adobe Workfront] kortmoduler
 
 >[!NOTE]
 >
->Den här kopplingen är för närvarande i Beta.
+>Den här kopplingen finns för närvarande i Beta.
 
 Adobe Workfront Boards är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort.
 
 Du kan använda modulen Adobe Workfront Boards för att läsa eller uppdatera poster, göra ett API-anrop till Workfront Boards API eller utlösa ett scenario när en åtgärd utförs på en anslagstavla.
 
-Allmän information om Workfront Boards finns på [Översikt över styrelser](/help/quicksilver/agile/boards-overview.md).
+Allmän information om Workfront Boards finns i [Översikt över styrelser](/help/quicksilver/agile/boards-overview.md).
 
 ## Åtkomstkrav
 
@@ -47,25 +47,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 ## Förutsättningar
@@ -80,7 +80,7 @@ Du måste ha konfigurerat en anslagstavla i Adobe Workfront innan du kan ansluta
 
 Så här skapar du en anslutning till Workfront Boards:
 
-1. I alla [!DNL Adobe Workfront Boards] modul, klicka på **[!UICONTROL Add]** bredvid rutan Anslutning.
+1. Klicka på **[!UICONTROL Add]** bredvid anslutningsrutan i någon [!DNL Adobe Workfront Boards]-modul.
 
 1. Fyll i följande fält:
 
@@ -106,11 +106,11 @@ Så här skapar du en anslutning till Workfront Boards:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]<p>(Valfritt)</p></td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].</td>
+          <td>Ange din [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]<p>(Valfritt)</p></td>
-          <td>Ange [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+          <td>Ange din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Authentication URL]<p>(Valfritt)</p></td>
@@ -122,11 +122,11 @@ Så här skapar du en anslutning till Workfront Boards:
         </tr>
       </tbody>
     </table>
-1. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
 ## Adobe Workfront Books-moduler och deras fält
 
-När du konfigurerar Workfront Boards-moduler [!DNL Workfront Fusion] visar fälten som listas nedan. Dessutom kan ytterligare fält för Workfront Boards visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar Workfront Boards-moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare fält för Workfront Boards visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -203,7 +203,7 @@ Den här åtgärdsmodulen lägger till ett checklisteobjekt på det angivna kort
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -226,7 +226,7 @@ Den här åtgärdsmodulen lägger till en underaktivitet till ett kort i Boards.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent card ID]</td> 
@@ -253,7 +253,7 @@ Den här åtgärdsmodulen skapar ett nytt kort på ett Workfront-kort.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -280,7 +280,7 @@ Den här åtgärdsmodulen flyttar ett kort till en annan kolumn på samma kort.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -311,7 +311,7 @@ Den här åtgärdsmodulen hämtar information om ett specifikt kort.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -330,7 +330,7 @@ Den här åtgärdsmodulen uppdaterar information för ett kort som du anger.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -366,7 +366,7 @@ Den här åtgärdsmodulen skapar en styrelse i Workfront. Du kan ange vilken typ
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board name]</td> 
@@ -389,7 +389,7 @@ Den här åtgärdsmodulen returnerar information om en enda anslagstavla, till e
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -414,7 +414,7 @@ Den här åtgärdsmodulen skapar en ny kolumn på den angivna ritytan.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -445,7 +445,7 @@ Sökmodulen returnerar information om kolumnen med det angivna namnet.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -468,7 +468,7 @@ Den här åtgärdsmodulen uppdaterar namnet eller PIA-gränsen för den angivna 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -496,7 +496,7 @@ Den här åtgärdsmodulen lägger till en tagg på ett kort.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -523,7 +523,7 @@ Den här åtgärdsmodulen skapar en ny tagg och tilldelar den en färg.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -555,7 +555,7 @@ Den här åtgärdsmodulen skapade en kommentar på det angivna kortet.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -578,7 +578,7 @@ Den här åtgärdsmodulen hämtar kommentarerna från det angivna kortet.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -603,15 +603,15 @@ Den här åtgärdsmodulen gör ett anpassat anrop till Workfront Boards API.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter [!DNL Workfront] app till [!DNL Workfront Fusion], se <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
+      <td> <p>Du kan använda en befintlig Workfront-anslutning för att ansluta till Workfront Boards eller använda en viss Workfront Boards-anslutning. </p><p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Skapa en anslutning till Workfront Boards</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Ange en sökväg i förhållande till<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
+   <td> <p>Ange en relativ sökväg till <code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p><p>För de flesta ritytor är metoden POST. </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p><p>För de flesta ritytor är metoden POST. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -627,7 +627,7 @@ Den här åtgärdsmodulen gör ett anpassat anrop till Workfront Boards API.
 
   &quot;query&quot;: &quot;mutation { updateColumn(boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }) { id name }}&quot;
 
-}</pre><p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p>
+}</pre><p>Obs!  <p>När du använder villkorssatser som <code> om</code> i JSON placerar citattecknen utanför villkorssatsen.</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

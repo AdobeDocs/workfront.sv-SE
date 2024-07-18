@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,18 +95,18 @@ Du kan börja förbereda din importfil genom att skapa en rapport över alla anv
    ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Spara rapporten.
-1. Klicka **Exportera** överst i rapporten och exportera rapporten till Excel.
+1. Klicka på **Exportera** överst i rapporten och exportera rapporten till Excel.
 1. Öppna den exporterade Excel-filen och lägg till SSO-användarnamn för varje användare i rapporten i kolumnen SSO-användarnamn.
 
    >[!IMPORTANT]
    >
    >SSO-användarnamn är skiftlägeskänsliga.
 
-1. Ta bort alla kolumner i Excel-filen, förutom **ID** och **SSO-användarnamn** kolumner.
+1. Ta bort alla kolumner i Excel-filen, förutom kolumnerna **ID** och **SSO-användarnamn** .
 
 1. Ta bort kolumnrubrikerna och kontrollera att det inte finns några tomma rader överst i rapporten.
 
-   Den fil du använder för att uppdatera dina Workfront-användare med SSO-användarnamn **måste** innehåller bara 2 kolumner, i den här ordningen:
+   Filen som du använder för att uppdatera dina Workfront-användare med SSO-användarnamnen **måste** bara innehålla två kolumner, i följande ordning:
 
    * I den första kolumnen måste användar-ID:t (användar-GUID:t som i Workfront) visas.
    * Den andra kolumnen måste innehålla SSO-användarnamnet, som det visas i SSO-systemet.
@@ -120,11 +120,11 @@ Du kan börja förbereda din importfil genom att skapa en rapport över alla anv
 
 Processen att uppdatera användare för enkel inloggning lägger antingen till SSO-användarnamnsfältet till dina Workfront-användare om det inte finns någon, eller uppdaterar värdet i det fältet om det redan finns ett värde kopplat till användarna.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png).
 
-1. Klicka, **System** välj **Uppdatera användare för enkel inloggning**.
+1. Klicka på **System** och välj sedan **Uppdatera användare för enkel inloggning**.
 
-1. Klicka **Välj fil** för att bläddra efter filen som du har förberett.
+1. Klicka på **Välj Arkiv** för att bläddra efter filen som du förberedde.
 
    Mer information om hur du förbereder den här filen finns i [Förbered importfilen](#prepare-the-import-file).
 
@@ -132,11 +132,11 @@ Processen att uppdatera användare för enkel inloggning lägger antingen till S
 
    Detta infogar SSO-inloggningsuppgifterna till Workfront, så att alla användare kan logga in på Workfront med sina SSO-inloggningsuppgifter.
 
-   The **Tillåt endast `<SSO Configuration>` Autentisering** inställningen är aktiverad för alla användare som ingår i CSV-filen. Detta garanterar att användarna måste logga in via enkel inloggning.
+   Inställningen **Tillåt endast `<SSO Configuration>` autentisering** är aktiverad för alla användare som ingår i CSV-filen. Detta garanterar att användarna måste logga in via enkel inloggning.
 
 ## Verifiera enkel inloggning mot dina användares Workfront-användarnamn
 
-Instruktioner om hur du skapar en användarrapport som innehåller information om SSO-användarnamn finns i [Förbered importfilen](#prepare-the-import-file).
+Instruktioner om hur du skapar en användarrapport som innehåller SSO-användarnamn finns i [Förbered importfilen](#prepare-the-import-file).
 
 1. Kör en användarrapport som innehåller information om SSO-användarnamn.
 

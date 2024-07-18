@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Översikt över projektteamet
+title: Översikt över projektgruppen
 description: Användare som är associerade med ett projekt i viss kapacitet utgör projektteamet. Användare som visas under området Personer i ett projekt är de användare som utgör projektteamet.
 author: Alina
 feature: Work Management
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Översikt över projektteamet
+# Översikt över projektgruppen
 
 Användare som är associerade med ett projekt i viss kapacitet utgör projektteamet. Användare som visas under området Personer i ett projekt är de användare som utgör projektteamet. Till exempel är användare som är tilldelade att arbeta med projektet eller projektägaren en del av projektteamet.
 
 ## Projektteammedlemmar
 
-Du kan tilldela användare till ett projektteam antingen manuellt eller automatiskt. Mer information finns i avsnittet Lägg till användare i ett projektteam i artikeln [Hantera projektgruppen](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+Du kan tilldela användare till ett projektteam antingen manuellt eller automatiskt. Mer information finns i avsnittet Lägg till användare i ett projektteam i artikeln [Hantera projektteamet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 När du lägger till användare i projektgruppen manuellt får de behörigheterna Visa i projektet samt uppgifter, utgåvor och dokument i projektet.
 
@@ -34,11 +34,11 @@ Beroende på vilka e-postmeddelanden din Adobe Workfront-administratör aktivera
 
 ## Rollbaserade godkännanden
 
-Om du vill använda rollbaserade godkännanden i ett projekt måste användarna tilldelas till projektteamet och ha rätt jobbroll tilldelad i användarprofilen.
+Om du vill använda rollbaserade godkännanden för ett projekt måste användarna tilldelas till projektteamet och ha rätt jobbroll tilldelad i användarprofilen.
 
 I följande artiklar finns information om hur du lägger till en användare i projektteamet och hur du tilldelar dem en jobbroll:
 
-* [Hantera projektgruppen](../../../manage-work/projects/planning-a-project/manage-project-team.md)
+* [Hantera projektteamet](../../../manage-work/projects/planning-a-project/manage-project-team.md)
 * [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 Om du inte vill att användaren ska vara med i projektteamet för rollbaserade godkännanden kan du styra detta i inställningarna för godkännande. Mer information finns i [Konfigurera globala inställningar för godkännande](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).

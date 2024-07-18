@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i R1.3-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 1 februari 2017.
 
-En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
 ## Förbättrad metod för länkning av externa filer
 
@@ -120,7 +120,7 @@ I följande områden visas inte objektens uppdaterade namn:
 * Mobilappar
 * Outlook-tillägg
 
-Mer information om hur du anpassar Workfront-terminologin med hjälp av en layoutmall finns i avsnittet&quot;Anpassa terminologi&quot; i&quot;Skapa och hantera layoutmallar&quot; och&quot;Förstå konsekvenserna av att anpassa objektnamn&quot; i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om hur du anpassar Workfront-terminologin med hjälp av en layoutmall finns i avsnittet&quot;Anpassa terminologi&quot; i&quot;Skapa och hantera layoutmallar&quot; och&quot;Förstå effekterna av att anpassa objektnamn&quot; i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Inkludera start- och slutdatum för godkännande i rapporter
 
@@ -133,7 +133,7 @@ Med dessa fält kan du få information om när den aktuella eller senaste godkä
 
 Mer information om dessa fält finns i [Ordlista för Adobe Workfront-terminologi](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Mer information om godkännandebanor, hur de skapas och aktiveras samt vilken funktion de har i godkännandeprocesserna finns i [Skapa en godkännandeprocess för arbetsobjekt](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Mer information om godkännandesökvägar, hur de skapas och aktiveras samt vilken funktion de har i godkännandeprocesser finns i [Skapa en godkännandeprocess för arbetsobjekt](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 Följande fält har tagits bort från Workfront och kan inte längre inkluderas i rapporter (dessa fält innehåller information om projektet i stället för information om själva godkännandena och har ofta missbrukats):
 
@@ -166,4 +166,4 @@ Vyn Milstolpe som är tillgänglig när du visar en projektlista eller en projek
 
 Innan den här ändringen utfördes var du tvungen att gå till den enskilda uppgiften för att kunna redigera datum eller visa procent färdigt.
 
-Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Mer information finns i [Använd vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

@@ -82,11 +82,11 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
  </tbody> 
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Öppna Workfront-mål
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -106,9 +106,9 @@ Du måste ha följande för att kunna utföra de aktiviteter som beskrivs i den 
 
    eller
 
-   Klicka **Nytt mål** för att lägga till ett nytt mål.
+   Klicka på **Nytt mål** om du vill lägga till ett nytt mål.
 
-   Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+   Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 ## Öppna och hantera individuella mål
 
@@ -154,13 +154,13 @@ To access an individual goal in the Production environment:
 
 Så här kommer du åt ett enskilt mål:
 
-1. Klicka på **Huvudmeny** i det övre högra hörnet av Workfront och klicka sedan på **Mål** .
+1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet av Workfront och klicka sedan på **Mål** .
 Mållistan visas som standard.
    ![](assets/goal-list-unshimmed.png)
 1. Klicka på namnet på ett mål i listan.
 Målets sida visas.
    ![](assets/goal-page-unshimmed.png)
-1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om målnamnet om du vill redigera eller dela målet ytterligare.
-1. Klicka **Målinformation** i den vänstra panelen för att redigera information om målet. Mer information finns i [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](../goal-management/update-goals-in-goal-details-panel.md).
+1. Klicka på **Mer**-menyn ![](assets/more-icon.png) till höger om målnamnet om du vill redigera eller dela målet ytterligare.
+1. Klicka på **Målinformation** i den vänstra panelen för att redigera information om målet. Mer information finns i [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](../goal-management/update-goals-in-goal-details-panel.md).
 
 

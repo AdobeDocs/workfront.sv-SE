@@ -29,7 +29,7 @@ Förbättrade analysfunktioner kan hjälpa er att identifiera:
 
 ![](assets/nwe-full-screen-analytics-350x222.png)
 
-Om du vill se användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys läser du i [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).
+Om du vill visa användningsexempel eller lära dig mer om hur du hanterar aktuellt arbete och planerar för framtida arbete med Förbättrad analys kan du läsa [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).
 
 ## Förutsättningar
 
@@ -47,7 +47,7 @@ Om du vill visa information för projekt och uppgifter måste du:
 
 * Ha behörighet att visa i områdena Projekt och uppgifter på din åtkomstnivå.
 
-  Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Har behörighet att visa för specifika uppgifter och/eller projekt.
 
@@ -68,7 +68,7 @@ För att få bästa möjliga data för dina projekt använder du mallar som har 
   >[!NOTE]
   >
   >Om era team inte använder planerade timmar kan ni fortfarande se vissa data baserat på projektens längd.\
-  >Mer information finns i avsnittet [Längdvy](#duration-view) i den här artikeln.
+  >Mer information finns i avsnittet [Varaktighet](#duration-view) i den här artikeln.
 
 * Projektnamn
 
@@ -112,8 +112,8 @@ I Förbättrad analys beräknas projektens längd med följande formler:
 
   >[!NOTE]
   >
-  >8 timmar är standardvärdet för **Vanliga timmar per arbetsdag**. En Adobe Workfront-administratör kan uppdatera **Vanliga timmar per arbetsdag** ställa in under **Inställningar** > **Projektinställningar** > **Projekt** > **Tidslinjer**.\
-  >Mer information finns på [Konfigurera systemomfattande projektinställningar](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >8 timmar är standardantalet för **Normala timmar per arbetsdag**. En Adobe Workfront-administratör kan uppdatera inställningen för **Normala timmar per arbetsdag** under **Konfigurera** > **Projektinställningar** > **Projekt** > **Tidslinjer**.\
+  >Mer information finns i [Konfigurera systemomfattande projektinställningar](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Information om planerad varaktighet finns i [Översikt över projektvaraktighet](../manage-work/projects/planning-a-project/project-duration.md).
 
@@ -147,36 +147,36 @@ Om du vill veta mer om en viss funktion i Förbättrad analys, vilka åtgärder 
  </thead> 
  <tbody> 
   <tr> 
-   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Använda filter i Förbättrad analys</a> </td> 
+   <td><a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Använd filter i Förbättrad analys</a> </td> 
    <td> <p>Du kan använda anpassade filter, projektfältfilter eller teamfilter för att endast visa projekt som uppfyller vissa villkor. När du lägger till filter uppdateras antalet projekt därefter.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Förstå nyckeltal för förbättrade analyser</a> </td> 
+   <td><a href="../enhanced-analytics/understand-enhanced-analytics-kpis.md" class="MCXref xref">Förstå KPI:er för förbättrade analyser</a> </td> 
    <td> <p>KPI:er (Key Performance Indicator) för alla projekt inom en viss tidsram finns längst upp på skärmen.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Visa flygplansvisualisering i Förbättrad analys</a> </p> </td> 
-   <td> <p>The <b>Flygplan</b> visualisering visar att villkoret har ändrats under ett projekts livslängd. Genom att interagera med visualiseringen får du mer information om specifika datum. När du väljer ett projekt öppnas"Burndown" och"Tasks" i flygvisualiseringar.</p> </td> 
+   <td> <p><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">Visa visualisering av flygplan i Förbättrad analys</a> </p> </td> 
+   <td> <p>Visualiseringen av <b>flygplanen</b> visar att villkoret har ändrats under ett projekts livslängd. Genom att interagera med visualiseringen får du mer information om specifika datum. När du väljer ett projekt öppnas"Burndown" och"Tasks" i flygvisualiseringar.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">Visa Burndown-visualisering i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Burndown</b> visualisering visar den planerade hastigheten för ett projekt jämfört med det faktiska antalet timmar som har ägnats åt ett projekt. Om du interagerar med visualiseringen får du mer information om projektets villkor ett visst datum.</p> </td> 
+   <td> <p>Visualiseringen <b>Bränn ned</b> visar den planerade hastigheten för ett projekt jämfört med det faktiska antalet timmar som har ägnats åt ett projekt. Om du interagerar med visualiseringen får du mer information om projektets villkor ett visst datum.</p> </td> 
   </tr> 
   <tr> 
    <td><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">Visa uppgifter i flygvisualisering i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Uppgifter under flygning</b> visualisering visar status för varje uppgift i ett projekt. Genom att interagera med visualiseringen kan du snabbt och enkelt göra ändringar i en uppgift.</p> </td> 
+   <td> <p>Visualiseringen <b>Uppgifter under flygning</b> visar status för varje uppgift i ett projekt. Genom att interagera med visualiseringen kan du snabbt och enkelt göra ändringar i en uppgift.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Visa projektaktivitetsvisualisering i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Projektaktivitet</b> visualisering visar en översikt över när användare tilldelade till ett projekt som är inloggat på Workfront, ändrade status för uppgiften i det projektet och slutförde uppgifter i det projektet. Genom att interagera med visualiseringen kan du se informationen för varje användare. Du kan också se specifika datum för dessa åtgärder samt hur många gånger varje åtgärd har slutförts.</p> </td> 
+   <td><a href="../enhanced-analytics/project-activity-overview.md" class="MCXref xref">Visa visualisering av projektaktivitet i Förbättrad analys</a> </td> 
+   <td> <p>Visualiseringen av <b>projektaktiviteten</b> visar en översikt över när användare tilldelade till ett projekt som är inloggat på Workfront, ändrade status för aktiviteten i det projektet och slutförde aktiviteter i det projektet. Genom att interagera med visualiseringen kan du se informationen för varje användare. Du kan också se specifika datum för dessa åtgärder samt hur många gånger varje åtgärd har slutförts.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Visa projekttreemap-visualisering i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Projekttreemap</b> visualisering visar hur mycket tid som har ägnats åt vissa projekt jämfört med andra. Om du interagerar med visualiseringen får du information om projektets skick, det planerade slutförandet och det faktiska slutförandet av projektet.</p> </td> 
+   <td><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">Visa visualisering av projekttreemap i Förbättrad analys</a> </td> 
+   <td> <p>Visualiseringen av <b>projekttreemap</b> visar hur mycket tid som har ägnats åt vissa projekt jämfört med andra. Om du interagerar med visualiseringen får du information om projektets skick, det planerade slutförandet och det faktiska slutförandet av projektet.</p> </td> 
   </tr> 
   <tr> 
-   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Visa aktivitetsbaserad teamvisualisering i Förbättrad analys</a> </td> 
-   <td> <p>The <b>Aktivitet per team</b> visualisering visar en översikt över när användare i ett hemteam som har loggat in på Workfront, ändrat status för en uppgift och slutfört en uppgift. Genom att interagera med visualiseringen kan du se informationen för varje enskild användare. Du kan också se specifika datum för dessa åtgärder samt hur många gånger varje åtgärd har slutförts.</p> </td> 
+   <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">Visa aktivitetsvisualisering per team i Förbättrad analys</a> </td> 
+   <td> <p>Visualiseringen <b>Aktivitet per team</b> visar en översikt över när användare i ett hemteam loggade in på Workfront, ändrade status för en aktivitet och slutförde en aktivitet. Genom att interagera med visualiseringen kan du se informationen för varje enskild användare. Du kan också se specifika datum för dessa åtgärder samt hur många gånger varje åtgärd har slutförts.</p> </td> 
   </tr> 
   <!-- Features permanently removed from Workfront
   <tr> 

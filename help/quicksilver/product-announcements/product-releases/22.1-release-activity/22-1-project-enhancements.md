@@ -59,7 +59,7 @@ Med den här ändringen får du också ett nytt utseende och en ny känsla i dok
 
 Tidigare var du tvungen att gå till fliken Egna formulär i Dokumentinformation för att göra ändringar eller lägga till anpassade formulär.
 
-Mer information finns i [Sammanfattning av dokumentöversikt](../../../documents/managing-documents/summary-for-documents.md).
+Mer information finns i [Sammanfattning för dokumentöversikt](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Ny upplevelse vid kopiering av en eller flera uppgifter
 
@@ -77,7 +77,7 @@ Mer information finns i [Kopiera och duplicera uppgifter](../../../manage-work/t
 
 För att ge en konsekvent upplevelse när vi utför samma uppgift har vi nu uppdaterat gränssnittet för att flytta en eller flera uppgifter från en lista så att de matchar upplevelsen när aktiviteten flyttas på aktivitetsnivå. (Vi har uppdaterat upplevelsen av att flytta en uppgift på aktivitetsnivå i en tidigare förhandsversion.)
 
-Mer information finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+Mer information finns i [Flytta aktiviteter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Ny upplevelse när en uppgift flyttas på aktivitetsnivå
 
@@ -89,13 +89,13 @@ Några av förbättringarna i det nya gränssnittet:
 * Workfront kontrollerar om du har åtkomst till målprojektet direkt efter att du har valt projektet. Före den här förbättringen varnade Workfront dig för att du inte har rätt åtkomst efter att du har bekräftat flytten som resulterade i extra steg och flytten inte tillåts.
 * Möjlighet att begära åtkomst till ett projekt där du vill flytta uppgiften utan att lämna rutan Flytta uppgift.
 
-Mer information finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+Mer information finns i [Flytta aktiviteter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Ny upplevelse vid konvertering av ett ärende till ett projekt med hjälp av en mall på problemnivå
 
 >[!NOTE]
 >
->Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Det här är nu tillgängligt i Förhandsgranska och produktion för alla kunder. (De senaste uppdateringarna av status för den här funktionsreleasen finns i [22.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Det här är nu tillgängligt i Förhandsgranska och produktion för alla kunder. (De senaste uppdateringarna av status för den här funktionsreleasen i Produktion finns i [2.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 För att få din användning av Workfront att överensstämma med den nya Workfront-upplevelsen har vi omdesignat gränssnittet för att konvertera ett problem till ett projekt när du använder en mall när du konverterar det från problemsidan.
 
@@ -109,7 +109,7 @@ Mer information finns i [Konvertera ett problem till ett projekt i Adobe Workfro
 
 >[!NOTE]
 >
->Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Det här är nu tillgängligt i Förhandsgranska och produktion för alla kunder. (De senaste uppdateringarna av status för den här funktionsreleasen finns i [22.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
+>Den här funktionen togs tillfälligt bort från produktionsmiljön den 4 mars 2022. Den släpptes senare i en fasad utrullning från den 28 april 2022. Utbyggnaden slutfördes den 5 maj 2022. Det här är nu tillgängligt i Förhandsgranska och produktion för alla kunder. (De senaste uppdateringarna av status för den här funktionsreleasen i Produktion finns i [2.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).)
 
 För att effektivisera arbetet och göra det enklare för dig att konvertera utgåvor i en snabbpaketerad miljö har vi lagt till möjligheten att konvertera ett problem till ett projekt med hjälp av en mall från en lista, rapport eller en kontrollpanel.
 

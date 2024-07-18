@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] Sök
+# [!DNL Adobe Workfront]-sökning
 
 Det här avsnittet innehåller följande artiklar:
 

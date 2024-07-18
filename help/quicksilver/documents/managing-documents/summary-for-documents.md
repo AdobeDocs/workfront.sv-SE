@@ -55,8 +55,8 @@ Du måste ha följande:
 
 ## Öppna sammanfattningsvyn
 
-1. Gå till **Dokument** och markera ett objekt i listan.
-1. Klicka på **Ikonen Öppna sammanfattning** ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Gå till området **Dokument** och markera ett objekt i listan.
+1. Klicka på ikonen **Öppna sammanfattning** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    När du har öppnat sammanfattningen förblir den öppen när du klickar på andra dokument och är öppen tills du stänger den manuellt.
 
@@ -64,9 +64,9 @@ Du måste ha följande:
 
 ## Information
 
-Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka **Information** överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
+Använd detaljavsnittet för att visa översiktsinformation på hög nivå och interagera med anpassade formulär. Klicka på **Information** överst i avsnittet för att gå till den fullständiga dokumentinformationssidan.
 
-* [Ökning](#overview)
+* [Översikt](#overview)
 * [Anpassad Forms](#custom-forms)
 
 ![](assets/copy-of-doc-summary-details-section-350x404.png)
@@ -85,7 +85,7 @@ Använd sektionen Anpassad Forms för att lägga till, redigera eller visa anpas
 
 ## Uppdateringar
 
-Använd uppdateringsavsnittet för att läsa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+Använd uppdateringsavsnittet för att läsa en uppdatering som gjorts i dokumentet eller korrekturet. Sammanfattningen visar de två första kommentarerna som gjorts. Mer information om uppdateringar finns i [Kommentera på ett korrektur](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
 ![Uppdateringsavsnitt i sammanfattningspanelen](assets/summary-updates-section-new-comments.png)
 
@@ -95,14 +95,14 @@ Använd avsnittet Godkännanden för att be om ett dokumentgodkännande. Du kan 
 
 Bevisgodkännanden måste läggas till i korrekturarbetsflödet. Mer information om godkännanden finns i
 
-* [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Godkänner arbete](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Begär dokumentgodkännanden](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versioner
 
-Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på **Menyn Mer** till
+Använd avsnittet Versioner om du vill visa antalet versioner som skapats för ett visst dokument. Klicka på menyn **Mer** för att
 
 * Öppna ett korrektur
 * Ladda ned ett korrektur eller dokument

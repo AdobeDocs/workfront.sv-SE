@@ -17,10 +17,10 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av rapporter och kontrollpaneler som gjorts i version 23.2 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
-En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.2-versionscykeln finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Kontrollpaneler på arbetsytan
 
 Kontrollpaneler på arbetsytan har lagts till som en pågående funktion för kontrollpaneler som kan aktiveras i layoutmallar. På arbetsytans kontrollpaneler kan rapportarbetsytevisualiseringar kombineras med befintliga rapporter utöver de nya layoutalternativen. För närvarande stöds bara listrapporter, men fler alternativ läggs till allt eftersom utvecklingen fortsätter.
 
-Mer information om hur du aktiverar och använder arbetsytans kontrollpaneler finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+Mer information om hur du aktiverar och använder arbetsytans kontrollpaneler finns i [Översikt över arbetsytans kontrollpaneler](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

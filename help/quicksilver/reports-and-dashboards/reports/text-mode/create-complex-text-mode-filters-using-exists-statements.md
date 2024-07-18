@@ -27,7 +27,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln kräver en grundlig förståelse för Adobe Workfront API och rapportgränssnittet för textläge. Mer information om Workfront API finns i [Grunderna i API](../../../wf-api/general/api-basics.md).\
+>Den här artikeln kräver en grundlig förståelse för Adobe Workfront API och rapportgränssnittet för textläge. Mer information om Workfront API finns i [API-grunder](../../../wf-api/general/api-basics.md).\
 >Mer information om hur du använder textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 ## Översikt över objektrelationer i Workfront
@@ -36,7 +36,7 @@ Alla objekt är länkade till andra objekt i Workfront-databasen.
 
 Genom att förstå hierarkin och objektens inbördes beroende kan du ta reda på vilka objekt som kan refereras i rapporter.
 
-Mer information om vilka objekt som finns i Workfront och om deras hierarki och inbördes beroende finns i [Adobe Workfront-objekt - översikt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om vilka objekt som finns i Workfront och om deras hierarki och inbördes beroende finns i [Översikt över Adobe Workfront-objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 När du skapar filter kan du referera till andra objekt som är anslutna till filtrets objekt inom upp till två relationsnivåer med hjälp av standardrapporteringsgränssnittet.
 
@@ -46,13 +46,13 @@ Du kan emellertid inte referera till Portfolio-ägaren i ett emissionsfilter med
 
 ![Utfärda till portföljägarikoner](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
-En fullständig lista över objekt i Workfront finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+En fullständig lista över objekt i Workfront finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 
-Mer information om hur du navigerar i API-utforskaren och söker efter objekt finns i [Använda API Explorer](../../../wf-api/general/using-api-explorer.md).
+Mer information om hur du navigerar i API-utforskaren och söker efter objekt finns i [Använda API-utforskaren](../../../wf-api/general/using-api-explorer.md).
 
 När du skapar filter måste du skapa komplexa satser i textlägesgränssnittet för att kunna referera till de här objekttyperna.
 
-Mer information om hur du skapar komplexa filter finns i [Översikt över filter för komplexa textlägen som använder EXISTS-satser](#overview-of-complex-text-mode-filters-that-use-exists-statements) i den här artikeln.
+Mer information om hur du skapar komplexa filter finns i avsnittet [Översikt över filter för komplexa textlägen som använder EXISTS-satser](#overview-of-complex-text-mode-filters-that-use-exists-statements) i den här artikeln.
 
 ## Översikt över komplexa textlägesfilter som använder EXISTS-satser {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -80,11 +80,11 @@ Tänk på följande regler när du använder EXISTS-programsatser i ett filter:
 
 * Du måste använda objektkoden för det länkade objektet för att koppla programsatserna.\
   Du kan hitta objektkoden för alla objekt i API-utforskaren.\
-  Information om API Explorer finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+  Mer information om API-utforskaren finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 
 * När ett länkat objekt saknas på grund av att det ursprungliga objektet och målobjektet är direktanslutna kan du använda objektkoden för målobjektet i stället för det länkade objektet.
 * Du kan referera till flera fält (målfält) på samma objekt (målobjekt), och då måste du koppla ihop de rader som refererar till fälten med AND.\
-  Ett exempel på filtrering av mer än ett fält som tillhör målobjektet finns i [Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkort-ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) i den här artikeln.
+  Ett exempel på filtrering av mer än ett fält som tillhör målobjektet finns i avsnittet [Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkortets ID ](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) i den här artikeln.
 
 * Den enda modifierare som stöds för en EXISTS-sats är NOTEXISTS.
 
@@ -119,7 +119,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -133,7 +133,7 @@ Du kan skapa ett filter som refererar till objekt på flera nivåer i objekthier
 
 Du måste alltid använda en EXISTS-programsats och textlägesgränssnittet för att skapa det här filtret.
 
-Exempel på filter finns i [Exempel 1: Filtrera efter utleveranser efter Portfolio ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
+Exempel på filter finns i avsnittet [Exempel 1: Filter för utgåvor efter Portfolio-ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
 
 Så här skapar du ett filter som sträcker sig över flera nivåer i objekthierarkin:
 
@@ -148,7 +148,7 @@ Så här skapar du ett filter som sträcker sig över flera nivåer i objekthier
    Exempel: (Projekt)-ID (Länkningsfält som visas på det ursprungliga objektet) refereras till från Problem (ursprungsobjekt). (Portfolio) ownerID (Länka fält till målobjektet) visas på fliken Fält i projektet (Länka objekt). Portfolio ownerID är också ett fält i målobjektet (Portfolio). Länkningsfältet på det länkade objektet matchar målfältet.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
-1. Identifiera API-utforskaren med **Objektkod** för det länkade objektet (projektet).\
+1. Identifiera **objektkoden** för det länkade objektet (projektet) med API Explorer.\
    Objektkoden för Project är till exempel PROJ.\
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
@@ -156,7 +156,7 @@ Så här skapar du ett filter som sträcker sig över flera nivåer i objekthier
    Skapa till exempel ett Issue-filter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Klistra in följande formelexempel i textlägesgränssnittet för det nya filtret och ersätt exempeltexten med rätt objekt och fält:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -165,9 +165,9 @@ Så här skapar du ett filter som sträcker sig över flera nivåer i objekthier
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-   Ett exempel på hur du använder fälten som vi har identifierat ovan finns i [Exempel 1: Filtrera efter utleveranser efter Portfolio ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
+   Ett exempel på hur du använder fälten som vi har identifierat här ovan finns i avsnittet [Exempel 1: Filter för utgåvor efter Portfolio-ägarnamn](#example-1-filter-for-issues-by-portfolio-owner-name) i den här artikeln.
 
-1. Klicka **Spara filter**.
+1. Klicka på **Spara filter**.
 
 ## Skapa komplexa textlägesfilter för saknade objekt
 
@@ -177,11 +177,11 @@ Så här skapar du ett filter som sträcker sig över flera nivåer i objekthier
 
 Du kan skapa ett filter som refererar till objekt som saknas. Du kan till exempel skapa ett användarfilter som visar vilka användare som inte har loggat timmar i Workfront.
 
-Du måste alltid använda en *EXISTS* -programsats och textlägesgränssnittet för att skapa det här filtret.
+Du måste alltid använda en *EXISTS*-sats och textlägesgränssnittet för att skapa det här filtret.
 
 Exempel på filter för saknade objekt finns i följande avsnitt i den här artikeln:
 
-* [Exempel 2: Filter för saknade objekt: anpassade fält som inte finns i anpassade formulär](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
+* [Exempel 2: Filter för saknade objekt: anpassade fält som inte visas i anpassade formulär](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms)
 * [Exempel 3: Filter för saknade objekt: användare som inte loggade tid under en viss tidsperiod](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time)
 
 Så här skapar du ett filter som refererar till saknade objekt:
@@ -196,24 +196,24 @@ Så här skapar du ett filter som refererar till saknade objekt:
 
    Till exempel refereras ID:t för kategoriparametern (länkningsfältet som visas på det ursprungliga objektet) från parametern (det ursprungliga objektet). parameterID (som länkar fält till målobjektet) visas på fliken Fält i kategoriparametern (som länkar objekt). Länkningsfältet till målobjektet som visas på det länkade objektet matchar målfältet.
 
-1. Identifiera API-utforskaren med **Objektkod** för det länkade objektet (kategoriparameter).\
+1. Identifiera **objektkoden** för det länkade objektet (kategoriparametern) med API Explorer.\
    Objektkoden för kategoriparametern är till exempel CTGYPA.\
-   ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
+   ![category_parameter_object_code_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
 1. Skapa ett filter för det ursprungliga objektet.\
    Skapa till exempel ett parameterfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. (Villkorligt) Om du filtrerar efter objekt som saknas, klistrar du in följande formelexempel i det nya filtrets textlägesgränssnitt och ersätter exempeltexten med rätt objekt och fält:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-   Ett exempel på rapportering om anpassade fält som inte är kopplade till anpassade Forms finns i [Exempel 2: Filter för saknade objekt: anpassade fält som inte finns i anpassade formulär](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) i den här artikeln.
+   Ett exempel på rapportering om anpassade fält som inte är kopplade till anpassade Forms finns i avsnittet [Exempel 2: Filter för saknade objekt: anpassade fält som inte finns i anpassade formulär](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) i den här artikeln.
 
-1. Klicka **Spara filter**.
+1. Klicka på **Spara filter**.
 
 ## Exempel på textlägesfilter som sträcker sig över flera nivåer i objekthierarkin
 
@@ -228,7 +228,7 @@ Så här filtrerar du utleveranser efter Portfolio ägarnamn:
 1. Skapa ett problemfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Se följande allmänna kod:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
@@ -237,7 +237,7 @@ Så här filtrerar du utleveranser efter Portfolio ägarnamn:
 
    `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-1. Klistra in följande kod i **Ange filterregler för rapporten** det område som ska ersätta den generiska koden ovan:
+1. Klistra in följande kod i området **Ange filterregler för rapporten** för att ersätta den generiska koden ovan:
 
    `EXISTS:A:$$OBJCODE=PROJ`
 
@@ -255,7 +255,7 @@ Så här filtrerar du utleveranser efter Portfolio ägarnamn:
    >* Länkningsfältet som visas på det ursprungliga objektet är projectID och länkningsfältet är ID.
 
 1. Ersätt värdet för målfältet (ownerID) i den senaste satsen med ett användar-ID från din miljö.
-1. Klicka **Spara filter**.
+1. Klicka på **Spara filter**.
 
 ### Exempel 2: Filter för saknade objekt: anpassade fält som inte finns i anpassade formulär {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
@@ -270,14 +270,14 @@ Så här filtrerar du efter anpassade fält som inte är kopplade till ett anpas
 1. Skapa en parameter eller ett anpassat fältfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Se följande allmänna kod:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Klistra in följande kod i **Ange filterregler för rapporten** det område som ska ersätta den generiska koden ovan:
+1. Klistra in följande kod i området **Ange filterregler för rapporten** för att ersätta den generiska koden ovan:
 
    `EXISTS:A:$$OBJCODE=CTGYPA`
 
@@ -294,7 +294,7 @@ Så här filtrerar du efter anpassade fält som inte är kopplade till ett anpas
    >* Länkningsfältet till målobjektet är parameterID, eftersom parameterID finns både i tabellen för länkade objekt och i tabellen för målobjekt.
    >* Länkningsfältet som visas på det ursprungliga objektet är ID (för kategoriparametern).
 
-1. Klicka **Spara filter**.
+1. Klicka på **Spara filter**.
 
 ### Exempel 3: Filter för saknade objekt: användare som inte loggade tid under en viss tidsperiod {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
@@ -305,14 +305,14 @@ Så här filtrerar du efter användare som inte loggade in tid under den senaste
 1. Skapa ett användarfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Se följande allmänna kod:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
    `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Klistra in följande kod i **Ange filterregler för rapporten** det område som ska ersätta den generiska koden ovan:
+1. Klistra in följande kod i området **Ange filterregler för rapporten** för att ersätta den generiska koden ovan:
 
    `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
@@ -324,10 +324,10 @@ Så här filtrerar du efter användare som inte loggade in tid under den senaste
    >* Eftersom det inte finns något länkat objekt måste du använda objektkoden för målobjektet: HOUR.
    >* Länkningsfältet till målobjektet är ownerID (som visas på det ursprungliga objektet; det länkade objektet saknas).
    >* Länkningsfältet som visas på det ursprungliga objektet är ID (för timmen) (som visas på målobjektet; det länkade objektet saknas).
-   >* EXISTS:A:Programsatsen entryDate refererar till fält som definierar målobjektet (Hour) och använder samma syntax som i en vanlig filterprogramsats. Detta garanterar att du bara visar de användare som inte har loggat in på en viss tidsperiod, i det här fallet föregående vecka.
+   >* Programsatsen EXISTS:A:entryDate refererar till fält som definierar målobjektet (Hour) och använder samma syntax som i en vanlig filterprogramsats. Detta garanterar att du bara visar de användare som inte har loggat in på en viss tidsperiod, i det här fallet föregående vecka.
    >* NOTEXISTS-modifieraren anger att vi letar efter objekt (timmar) som inte finns för rapportens objekt (användare).
 
-1. Klicka **Spara filter**.
+1. Klicka på **Spara filter**.
 
 ### Exempel 4: Filtrera efter flera fält: uppgifter efter Portfolio ägarnamn och Portfolio justeringsstyrkort-ID {#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id}
 
@@ -343,8 +343,8 @@ Så här filtrerar du uppgifter efter Portfolio ägarens namn och Portfolio just
 1. Skapa ett uppgiftsfilter.\
    Mer information om hur du skapar filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Växla till textläge**.
-1. Klistra in följande kod i **Ange filterregler för rapporten** område:
+1. Klicka på **Växla till textläge**.
+1. Klistra in följande kod i området **Ange filterregler för rapporten**:
 
    `EXISTS:A:$$OBJCODE=PROJ`
    `EXISTS:A:ID=FIELD:projectID`
@@ -366,4 +366,4 @@ Så här filtrerar du uppgifter efter Portfolio ägarens namn och Portfolio just
    >* Länkningsfältet som visas på det ursprungliga objektet är projectID.
    >* Ersätt ownerID med ett användar-ID från din miljö.
 
-1. Klicka **Spara filter**.
+1. Klicka på **Spara filter**.
