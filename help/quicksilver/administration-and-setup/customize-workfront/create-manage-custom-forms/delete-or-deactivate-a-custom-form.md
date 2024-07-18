@@ -49,12 +49,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ta bort ett anpassat formulär
 
 {{step-1-to-setup}}
 
-1. Klicka **Anpassad Forms.**
-1. Markera det anpassade formuläret och klicka sedan på ![Ikonen Ta bort](assets/delete-icon.png).
-1. Om du är säker på att du permanent vill ta bort det anpassade formuläret och alla tillhörande data på objekt där det bifogades, klickar du på **Ja, ta bort den**.
+1. Klicka på **Anpassad Forms.**
+1. Markera det anpassade formuläret och klicka sedan på ikonen ![Ta bort](assets/delete-icon.png).
+1. Om du är säker på att du permanent vill ta bort det anpassade formuläret och alla associerade data på objekt som det bifogades till klickar du på **Ja, Ta bort det**.

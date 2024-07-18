@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Avsluta inte tidigare än'
+title: 'Översikt över aktivitetsbegränsning: Slutför inte tidigare än'
 description: Avsluta tidigast (FNET) är en aktivitetsbegränsning som schemalägger en aktivitet att slutföras efter det datum du anger.
 author: Alina
 feature: Work Management
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Avsluta tidigast
+# Översikt över aktivitetsbegränsning: Slutför inte tidigare än
 
 Avsluta tidigast (FNET) är en aktivitetsbegränsning som schemalägger en aktivitet att slutföras efter det datum du anger.
 
@@ -23,22 +23,24 @@ Avsluta tidigast (FNET) är en aktivitetsbegränsning som schemalägger en aktiv
 Tänk på följande när du använder begränsningen Slutför inte tidigare än (FNET) för en uppgift:
 
 * Du bör använda den här begränsningen när projektet schemaläggs från slutförandedatum. I det här fallet kan du ange en mjuk begränsning för aktiviteten innan du tvingar andra beroende aktiviteter att visa Vid risk.
-* När du använder FNET på ett schemalagt projekt **Från startdatum**, schemalägger villkoret aktiviteten på samma sätt som om villkoret var så snart som möjligt.
+* När du använder FNET i ett projekt som är schemalagt **Från startdatum** schemaläggs aktiviteten som den skulle ha schemalagts om villkoret var så snart som möjligt.
 * När du flyttar eller kopierar en aktivitet med en FNET-begränsning till ett annat projekt kan villkoret för aktiviteten eller datumen i projektet ändras beroende på vilka villkorsdatumen är och vilka datum projektet börjar och slutförs. Följande scenarier finns:
 
    * När målprojektet är schemalagt från start:
 
       * När villkorsdatumet för aktiviteten är tidigare än projektets planerade startdatum, ändras aktivitetsbegränsningen till Så snart som möjligt.
       * När begränsningsdatumet för aktiviteten är senare än projektets Planerat slutförandedatum ändras projektets planerade slutförandedatum så att det matchar slutvillkorsdatumet för aktiviteten.
+
    * När målprojektet är schemalagt från slutförande:
 
-      * När begränsningsdatumet för aktiviteten är senare än Project Completion Date ändras aktivitetsbegränsningen till As Late As Possible.
+      * När begränsningsdatumet för aktiviteten är senare än Project Completion Date, ändras aktivitetsbegränsningen till As Late As Possible.
       * När villkorsdatumet för aktiviteten är tidigare än det planerade startdatumet för projektet ändras projektets planerade startdatum så att det matchar startvillkorsdatumet för aktiviteten.
+
    * Oavsett schemat för projektet, när villkorsdatumet för aktiviteten ligger inom projektets start- och slutförandedatum, finns det inga ändringar i aktivitetsbegränsningen eller projektdatumen.
 
-   Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att flytta uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-   Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

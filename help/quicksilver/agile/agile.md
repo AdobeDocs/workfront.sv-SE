@@ -25,7 +25,7 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Kom igång med anslagstavlor: artikelindex](../agile/get-started-with-boards/get-started-with-boards.md)
 * [Använd flexibla planeringsverktyg i ritytor](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Agile - översikt](../agile/agile-overview.md)
-* [Kom igång smidigt med [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [Kom igång smidigt med  [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban i ett rörligt team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Scrum in a agile team](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Arbeta i en flexibel miljö](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

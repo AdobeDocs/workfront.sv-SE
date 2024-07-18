@@ -25,24 +25,24 @@ Du kan använda snabbfiltret i en lista med objekt för att bara hitta objekt so
 >Du kan söka efter objekt som innehåller ett sökord med hjälp av snabbfilter, oavsett om objektet har visats fysiskt på skärmen eller visas när du har rullat längst ned på sidan. När du använder webbläsarens sökfunktioner kan du bara hitta objekt som visas fysiskt på skärmen. Om listan innehåller flera sidor hittar snabbfiltren inte objekt som finns på sidor som inte visas.
 
 Om du vill spara ett snabbfilter rekommenderar vi att du i stället skapar ett permanent filter för listan.\
-Mer information om hur du skapar filter i [!DNL Adobe Workfront], se artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om hur du skapar filter i [!DNL Adobe Workfront] finns i artikeln [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Snabbfiltret är tillgängligt i följande områden
 
 
 Du kan använda tillfälliga snabbfilter i alla listor, förutom följande:
 
-* The [!UICONTROL Reports] area
+* Området [!UICONTROL Reports]
 * Dokumentlistor och rapporter
 * Flera [!UICONTROL Setup] områden
   >[!NOTE]
   >
-  >Snabbfilter finns i följande inställningsområden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates]och [!UICONTROL Custom Forms].
+  >Snabbfilter är tillgängliga i följande konfigurationsområden: [!UICONTROL Groups], [!UICONTROL Teams], [!UICONTROL Companies], [!UICONTROL Schedules], [!UICONTROL Layout Templates] och [!UICONTROL Custom Forms].
 
 
 Tänk på följande när du använder snabbfilter på en lista:
 
-* Du kan använda nyckelord för att filtrera efter fält som visas i listvyn. Detta inkluderar anpassade fält eller komplexa fält som [!UICONTROL Predecessors], [!UICONTROL Assignments], [!UICONTROL Assignment] och [!UICONTROL Status], [!UICONTROL Approver] och [!UICONTROL Status], osv.
+* Du kan använda nyckelord för att filtrera efter fält som visas i listvyn. Detta inkluderar anpassade fält eller komplexa fält som [!UICONTROL Predecessors], [!UICONTROL Assignments], [!UICONTROL Assignment], [!UICONTROL Status], [!UICONTROL Approver] och [!UICONTROL Status] osv.
 * Om listan innehåller komprimerade grupperingar utökas de automatiskt när du använder snabbfilter. När du tar bort snabbfiltret komprimeras grupperingarna igen.
 * Grupperingar bevarar den sammanställda informationen i den ursprungliga listan oavsett vilka snabbfilter som använts eller ändringar som gjorts på objekten i listan.
 * Snabbfilter är tillfälliga. Om du ändrar gruppering, vy, filter eller sortering för listan tas villkoren för snabbfilter bort.
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><b>Konfigurationer på åtkomstnivå*</b></td> 
-   <td> <p>Visa åtkomst till området som listan finns i</p> <p>Om du till exempel vill använda ett snabbfilter på ett projekt måste du [!UICONTROL View] behörighet till projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå.<br>För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till området som listan finns i</p> <p>Om du till exempel vill använda ett snabbfilter på ett projekt behöver du [!UICONTROL View] åtkomst till Projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><b>Objektbehörigheter</b></td> 
@@ -77,24 +77,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Använda ett snabbfilter på en lista
 
-1. Gå till en lista eller rapport som stöder snabbfilter och klicka sedan på **[!UICONTROL Quick Filter]icon** ![](assets/qs-quick-filter-icon.png) i verktygsfältet.
+1. Gå till en lista eller rapport som stöder snabbfilter och klicka sedan på **[!UICONTROL Quick Filter]-ikonen** ![](assets/qs-quick-filter-icon.png) i verktygsfältet.
 
    eller
 
    Beroende på operativsystem eller webbläsare och när du använder ett vanligt QWERTY-tangentbord trycker du på följande uppsättning kommandon för att starta snabbfiltret:
 
    * ALT+F för [!DNL Windows] datorer
-   * ALT/ Alt+F för [!DNL Mac] datorer
+   * ALT/Option+F för [!DNL Mac] datorer
 
      >[!TIP]
      >
      >Om du trycker på CTRL+F eller CMD+F visas ett verktygstips bredvid snabbfiltret för att påminna dig om dessa kommandon. Kommandona visas också i sökrutan för snabbfilter.
 
-1. I **[!UICONTROL Filter page]** anger du nyckelordet som du vill filtrera efter.
+1. I rutan **[!UICONTROL Filter page]** anger du nyckelordet som du vill filtrera efter.
 
    Du kan använda vilket ord som helst som visas i vyn av listan.
 
@@ -102,12 +102,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du använder ett ord som kan visas på en annan sida i listan, kommer snabbfiltret inte att hitta några resultat.
 
-   En lista med objekt som matchar sökvillkoren visas dynamiskt i listan när du skriver och alla andra objekt döljs. Nyckelordet som du använde i sökningen markeras med gult i alla fristående och komplexa fält. Några exempel på komplexa fält är delade kolumner eller något av följande: [!UICONTROL Assignments], [!UICONTROL Assignments] och [!UICONTROL Status], [!UICONTROL Percent Complete], [!UICONTROL Predecessors], [!UICONTROL Approvers and Status], [!UICONTROL Resource Managers], [!UICONTROL Categories], [!UICONTROL Condition], [!UICONTROL Condition Update], osv.
+   En lista med objekt som matchar sökvillkoren visas dynamiskt i listan när du skriver och alla andra objekt döljs. Nyckelordet som du använde i sökningen markeras med gult i alla fristående och komplexa fält. Några exempel på komplicerade fält är delade kolumner eller något av följande: [!UICONTROL Assignments], [!UICONTROL Assignments] och [!UICONTROL Status], [!UICONTROL Percent Complete], [!UICONTROL Predecessors], [!UICONTROL Approvers and Status], [!UICONTROL Resource Managers], [!UICONTROL Categories], [!UICONTROL Condition], [!UICONTROL Condition Update] osv.
 
 1. (Valfritt) Om du vill redigera objekt som hittas av snabbfiltret satsvis:
 
-   1. Markera alla eller flera objekt i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
-   1. När du är klar klickar du på **[!UICONTROL Save Changes]**.
+   1. Markera alla eller flera av objekten i listan och klicka sedan på **[!UICONTROL Edit]** om du vill redigera objekten gruppvis.
+   1. När du är klar med redigeringarna klickar du på **[!UICONTROL Save Changes]**.
 
 1. (Valfritt) Om du vill exportera de objekt som hittas av snabbfiltret markerar du alla eller flera av objekten i listan och klickar sedan på **[!UICONTROL Export]**.
 
@@ -118,6 +118,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >Endast de objekt du hittade i snabbfiltersökningen exporteras till den markerade filen. Om du inte markerar några objekt innan du exporterar listan exporteras den fullständiga, ofiltrerade listan.\
    >Mer information finns i [Exportera en lista](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Valfritt) Om du vill rensa de filtrerade resultaten klickar du på **[!UICONTROL Quick Filter]** i fönstrets övre högra hörn.\
+1. (Valfritt) Om du vill ta bort de filtrerade resultaten klickar du på ikonen **[!UICONTROL Quick Filter]** i fönstrets övre högra hörn.\
    eller\
    Uppdatera sidan.

@@ -11,7 +11,7 @@ role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: 4a4efe7d8a354bc9ec22a607fe6e75040e7cca24
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Du kan skapa återkommande aktiviteter för aktiviteter som du måste upprepa so
 
 I den här artikeln beskrivs information och överväganden om hur du skapar och redigerar återkommande uppgifter.
 
-Mer information om hur du skapar återkommande uppgifter i Adobe Workfront finns i [Skapa återkommande uppgifter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Mer information om hur du skapar återkommande aktiviteter i Adobe Workfront finns i [Skapa återkommande aktiviteter](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Översikt över återkommande uppgifter och överväganden
 
@@ -88,7 +88,7 @@ I följande tabell visas om ändringar som gjorts i den överordnade utlösaren 
 | Levelingfördröjning | ✔ |
 | Aktivitetsbegränsning | Uppdaterar inte underordnade |
 | Bifoga eller ta bort anpassad Forms | Uppdaterar inte underordnade |
-| Typ av varaktighet | Uppdaterar inte underordnade |
+| Varaktighetstyp | Uppdaterar inte underordnade |
 | Anpassad formulärinformation | Uppdaterar inte underordnade |
 
 {style="table-layout:auto"}
@@ -98,6 +98,6 @@ I följande tabell visas om ändringar som gjorts i den överordnade utlösaren 
 * Om du ändrar upprepningsfrekvensen för en befintlig överordnad uppgift, tas de befintliga underuppgifterna bort och ersätts med nya underaktiviteter som följer den nya upprepningsfrekvensen om de inte visar några förlopp och om du inte har uppdaterat dem manuellt.
 * Om du ändrar upprepningsfrekvensen för en befintlig överordnad uppgift tas inte underaktiviteter som visar förloppet bort. Dessa uppgifter anses vara åtskilda från upprepningen vid den här tidpunkten.
 
-&#42;&#42; Tilldelningar som görs för den överordnade uppgiften tillämpas på alla underaktiviteter i den återkommande aktiviteten. Alla ändringar som görs i tilldelningen för den överordnade aktiviteten åsidosätter eventuella enskilda tilldelningar för underaktiviteten. Om aktiviteten visar förlopp ändras inte uppdraget.
+&#42;&#42; tilldelningar som görs för den överordnade aktiviteten tillämpas på alla underaktiviteter i upprepningen. Alla ändringar som görs i tilldelningen för den överordnade aktiviteten åsidosätter eventuella enskilda tilldelningar för underaktiviteten. Om aktiviteten visar förlopp ändras inte uppdraget.
 
  

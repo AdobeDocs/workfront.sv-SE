@@ -20,5 +20,5 @@ ht-degree: 0%
 Det här avsnittet innehåller följande underavsnitt:
 
 * [Konvertera problem](../../manage-work/issues/convert-issues/convert-issues-overview.md)
-* [Ärendeinformation](../../manage-work/issues/issue-information/issue-info-overview.md)
+* [Utfärdandeinformation](../../manage-work/issues/issue-information/issue-info-overview.md)
 * [Hantera problem](../../manage-work/issues/manage-issues/manage-issues-overview.md)

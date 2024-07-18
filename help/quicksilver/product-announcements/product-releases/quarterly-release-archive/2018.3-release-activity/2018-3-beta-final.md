@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 Beta Final
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i den slutliga betaversionen 2018.3. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 10 oktober 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i Beta Final-utgåvan 2018.3. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 10 oktober 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 2018.3 Beta Final
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i den slutliga betaversionen 2018.3. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 10 oktober 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i Beta Final-utgåvan 2018.3. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 10 oktober 2018. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
 
 >[!NOTE]
 >
@@ -24,14 +24,14 @@ Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmil
 
 En lista över alla ändringar som gjorts under 2018.3 finns på  [Aktivitetsöversikt för version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-Den slutliga betaversionen 2018.3 innehåller följande förbättringar:
+Beta Final-utgåvan 2018.3 innehåller följande förbättringar:
 
 * [Tvåvägssynkronisering mellan hemkalender och Outlook-kalender](#two-way-sync-between-home-calendar-and-outlook-calendar)
-* [Uppdateringar för att lägga till nya uppgifter i hemmet](#updates-for-adding-new-tasks-in-home)
+* [Uppdateringar för att lägga till nya uppgifter i startsidan](#updates-for-adding-new-tasks-in-home)
 * [Verktyg för korrekturmarkeringar som nu har utökats som standard](#proofing-markup-tools-now-expanded-by-default)
 * [Microsoft OneDrive - dokumentintegrering](#microsoft-onedrive-document-integration)
 * [Integrering med Workfront för Microsoft Teams](#workfront-for-microsoft-teams-integration)
-* [Uppdaterat Workfront för Adobe Creative Cloud Integration](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Uppdaterat Workfront för Adobe Creative Cloud-integrering](#updated-workfront-for-adobe-creative-cloud-integration)
 * [Förbättringar av Workfront mobilappar](#workfront-mobile-app-improvements)
 
 ## Tvåvägssynkronisering mellan hemkalender och Outlook-kalender {#two-way-sync-between-home-calendar-and-outlook-calendar}
@@ -40,14 +40,14 @@ När du konfigurerar din hemkalender så att den synkroniseras med din Outlook-k
 
 Tidigare kunde du bara synkronisera objekt från din Outlook-kalender till din hemkalender.
 
-Mer information om hur du konfigurerar hemkalendern för synkronisering med Outlook finns i [Konfigurera visningsinställningar för hemkalendern](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+Mer information om hur du konfigurerar hemkalendern för synkronisering med Outlook finns i [Konfigurera inställningarna för hemkalendern](../../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
 ## Uppdateringar för att lägga till nya uppgifter i hemmet {#updates-for-adding-new-tasks-in-home}
 
 * Du kan nu uppdatera det planerade slutförandedatumet för en personlig uppgift.
 * Nu kan du tilldela team och roller till förfrågningar och projektuppgifter som skapats i Hem.
 
-Mer information om uppdateringarna ovan finns i  [Skapa arbetsobjekt från startdelen](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Mer information om uppdateringarna ovan finns i  [Skapa arbetsobjekt från hemområdet](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 ## Verktyg för korrekturmarkeringar som nu har utökats som standard {#proofing-markup-tools-now-expanded-by-default}
 
@@ -86,7 +86,7 @@ Integreringen är kostnadsfri för alla kunder som har en Workfront Professional
 
 >[!NOTE]
 >
-> Vissa delar av integreringen som beskrivs i följande video har ändrats. Den senaste informationen om Workfront för Microsoft Teams finns i [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) -avsnitt.
+> Vissa delar av integreringen som beskrivs i följande video har ändrats. Den senaste informationen om Workfront för Microsoft Teams finns i avsnittet [[!DNL Adobe Workfront for Microsoft Teams]: artikelindex ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md).
 
 ## Uppdaterat Workfront för Adobe Creative Cloud Integration {#updated-workfront-for-adobe-creative-cloud-integration}
 
@@ -137,14 +137,14 @@ Följande nya funktioner kommer att lanseras i iOS- och Android-appbutikerna i s
 
 * Stöd för liggande orientering för iOS-enheter
 
-  Nu har vi fullt stöd för både liggande och stående orientering för mobilapparna iOS och Android, förutom för följande iPhone-storlekar:
+  Nu har vi fullt stöd för både liggande och stående orientering för både iOS och Android mobilappar, förutom följande iPhone-storlekar:
 
    * IPHONE 5
    * iPhone 5S
    * IPHONE SE\
      Före den här förbättringen stöds bara liggande orientering för Android-enheter.
 
-* Stöd för iOS 12- och Android P-plattformarna
-* Stöd för iOS- och Android-surfplattor
+* Stöd för iOS 12 och Android P
+* Stöd för iOS och Android
 
   Nu kan du använda samma Workfront-mobilapp på din surfplatta som tidigare bara var tillgänglig för telefoner.

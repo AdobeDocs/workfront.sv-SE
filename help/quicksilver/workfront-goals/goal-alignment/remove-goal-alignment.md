@@ -19,7 +19,7 @@ Du kan ta bort justeringen mellan två mål om det inte längre är lämpligt at
 
 Mer information om hur du justerar mål finns i följande artiklar:
 
-* [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Åtkomstkrav
@@ -75,7 +75,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -114,16 +114,16 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Öppna **Mål** i Workfront och klicka på namnet på ett mål för att öppna målets sida.
-1. På målsidan för ett överordnat mål klickar du på **Förloppsindikatorer** till vänster.
+1. Gå till området **Mål** i Workfront och klicka på namnet på ett mål för att öppna målets sida.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen på målets sida för ett överordnat mål.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. I **Typ: Mål** gruppera, välj ett mål och klicka sedan på **Koppla från** icon ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) högst upp i listan.
+1. I gruppen **Typ: Mål** väljer du ett mål och klickar sedan på ikonen **Koppla från** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) längst upp i listan.
 
    Frånkopplingsrutan visas.
 
-1. Klicka **Koppla från** för att koppla bort det valda målet från dess överordnade mål.
+1. Klicka på **Koppla från** om du vill koppla från det valda målet från det överordnade målet.
 
    Målet blir ett fristående mål och visas inte längre som en förloppsindikator för det ursprungliga målet. Förloppet för det bortkopplade målet påverkar inte längre förloppet för det ursprungliga målet.
 

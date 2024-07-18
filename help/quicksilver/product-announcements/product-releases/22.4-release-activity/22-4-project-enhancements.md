@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -73,15 +73,14 @@ Baserat på din feedback har vi introducerat följande förbättringar för att 
 
 * Lägg till en Adobe XD-fil för att göra ett anpassat formulär mer visuellt och informativt. När formuläret är kopplat till ett objekt kan användare som arbetar med objektet visa och interagera med den XD filen inifrån formuläret.
 
-  Mer information finns i [Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Använd snabbfiltret för att enkelt hitta objekt i den moderniserade listan med anpassade formulär och fält. Du får också ett bättre utseende och en bättre känsla när du hanterar formulär och fält.
 
-  Mer information om snabbfiltret finns i [Använda snabbfiltret på en lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Mer information om snabbfiltret finns i [Använda snabbfiltret i en lista](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
-## Allmän betaversion - ny filterupplevelse för projekt, uppgifter och problem
+## Offentlig Beta - ny filterupplevelse för projekt, uppgifter och problem
 
 Filtrering av projekt-, uppgifts- och problemlistor har gjorts om så att du snabbt kan skapa och dela filter. Funktioner:
 
@@ -113,7 +112,7 @@ Textläget är fortfarande tillgängligt för avancerad filterredigering, och sy
 
 ### Vi vill ha din feedback!
 
-Med denna allmänna betaversion får användarna möjlighet att skicka feedback direkt till teamet som arbetar med filterupplevelsen genom att klicka på knappen för feedback. Vi ser fram emot att få höra av dig och dina användare om den nya filterupplevelsen i betaversionen. Om ditt team vill träffas direkt för att ge mer feedback kan du planera ett möte här: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Med den här publika versionen av Beta får användare möjlighet att skicka feedback direkt till teamet som arbetar med filterupplevelsen genom att klicka på feedbackknappen. Vi ser fram emot att få höra av dig och dina användare om den nya filterupplevelsen i betaversionen. Om ditt team vill träffas direkt för att ge mer feedback kan du planera ett möte här: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Vad kommer härnäst?
 

@@ -86,7 +86,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Förutsättningar
@@ -97,19 +97,19 @@ Gör minst något av följande för att kunna aktivera ett mål:
 
 * Lägg till ett resultat till målet
 
-  Mer information finns i [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Mer information finns i [Lägga till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Lägg till en aktivitet i målet
 
-  Mer information finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Mer information finns i [Lägga till aktiviteter i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Koppla ett projekt till målet
 
-  Mer information finns i [Lägg till projekt i mål i Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+  Mer information finns i [Lägga till projekt i mål i Adobe Workfront-mål](../results-and-activities/connect-projects-to-goals-overview.md).
 
 * Justera ett annat mål mot det mål som du vill aktivera
 
-  Mer information finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Mer information finns i [Justera mål genom att ansluta dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Aktivera mål
 
@@ -117,7 +117,7 @@ Du kan aktivera mål som du har skapat eller mål som du har behörighet att han
 
 1. Gå till ett mål som du vill aktivera. Målsidan öppnas.
 
-1. Klicka på **Mer** meny ![](../goal-management/assets/more-icon.png) till höger om målnamnet och klicka sedan på **Aktivera**.
+1. Klicka på menyn **Mer** ![](../goal-management/assets/more-icon.png) till höger om målnamnet och klicka sedan på **Aktivera**.
 
    ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 

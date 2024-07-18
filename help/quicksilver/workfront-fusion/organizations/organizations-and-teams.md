@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront Fusion] organisationer och team
 
-[!DNL Adobe Workfront Fusion]Med funktionerna för organisation och team kan företag styra åtkomsten till scenarier och andra funktioner i Fusion.
+Med funktionerna för organisation och team i [!DNL Adobe Workfront Fusion] kan företag styra åtkomsten till scenarier och andra funktioner i Fusion.
 
 ## Åtkomstkrav
 
@@ -34,37 +34,37 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> 
-     <p>Du måste vara en [!DNL Workfront Fusion] administratör för din organisation.</p>
-     <p>Du måste vara en [!DNL Workfront Fusion] administratör för ditt team.</p>
+     <p>Du måste vara administratör för [!DNL Workfront Fusion] för din organisation.</p>
+     <p>Du måste vara administratör för [!DNL Workfront Fusion] för ditt team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-<p>**För information om [!DNL Adobe Workfront Fusion] licenser, se <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licenser</a></p>
+<p>**Mer information om [!DNL Adobe Workfront Fusion] licenser finns i <a href="../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] licenser </a></p>
 
 
 ## Organisationer
 
-[!DNL Workfront Fusion] -användare tillhör en organisation.
+[!DNL Workfront Fusion] användare tillhör en organisation.
 
 * [Organisationsroller](#organization-roles)
 * [Bjuda in användare till en organisation](#inviting-users-to-an-organization)
@@ -78,9 +78,9 @@ En användare har en av följande roller i en organisation:
 * **[!UICONTROL Admin]**: Med administratörsrollen kan en användare skapa och hantera team och användare för organisationen.
 * **[!UICONTROL Member]**: Medlemmar kan använda [!DNL Workfront Fusion] men kan inte göra organisatoriska ändringar.
 * **[!UICONTROL Accountant]**: En revisorsroll tillåter bara användare att se licensinformation på kontrollpanelen för organisationen.
-* **[!UICONTROL App Developer]**: Funktioner för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
+* **[!UICONTROL App Developer]**: Funktionerna för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
 
-Information om specifika åtgärder som är tillgängliga för användare i varje organisationsroll finns i [Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Mer information om specifika åtgärder som är tillgängliga för användare i respektive organisationsroll finns i [Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Bjuda in användare till en organisation
 
@@ -88,7 +88,7 @@ Som standard kan en organisationsägare (eller behörig användare) bjuda in en 
 
 Så här bjuder du in en användare till en organisation:
 
-1. Klicka **[!UICONTROL Change details]** i skärmens övre högra hörn.
+1. Klicka på **[!UICONTROL Change details]** i skärmens övre högra hörn.
 1. Välj **[!UICONTROL Invite a new user]**.
 
    ![](assets/fusion-organization-invite-user-350x199.png)
@@ -98,7 +98,7 @@ Så här bjuder du in en användare till en organisation:
 1. (Valfritt) Lägg till en anteckning. Den här anteckningen visas i e-postmeddelandet med inbjudan som användaren får.
 1. Klicka på **[!UICONTROL Save]**.
 
-[!DNL Fusion] skickar ett e-postmeddelande med en inbjudan till den specifika organisationen och ett [!UICONTROL Accept The Role] -knappen.
+[!DNL Fusion] skickar ett e-postmeddelande med en inbjudan till den specifika organisationen och en [!UICONTROL Accept The Role]-knapp.
 
 När mottagaren klickar på knappen dirigeras de om till inbjudningssidan där han/hon kan acceptera inbjudan.
 
@@ -106,7 +106,7 @@ Inbjudan går ut om en dag.
 
 >[!NOTE]
 >
->Om användaren är nybörjare [!DNL Fusion], [!DNL Fusion] skapar automatiskt ett konto åt dem och skickar ett e-postmeddelande med ett tillfälligt lösenord som uppmanar den nya användaren att logga in och ändra sitt lösenord.
+>Om användaren inte har använt [!DNL Fusion] tidigare skapar [!DNL Fusion] automatiskt ett konto åt dem och skickar ett e-postmeddelande med ett tillfälligt lösenord som uppmanar den nya användaren att logga in och ändra sitt lösenord.
 
 ### Växla mellan organisationer
 
@@ -128,7 +128,7 @@ Team är grupper av användare som delar åtkomst till särskilda resurser. Resu
 
 >[!NOTE]
 >
->Eftersom team kontrollerar åtkomsten till resurser kan det vara praktiskt att bara ha en medlem. Användare av en utbildning kan till exempel skapa kopplingar till sina enskilda personer [!DNL Google] konton. Alla teammedlemmar kan också ansluta till den enskilda personen [!DNL Google] så i det här fallet är det bäst att användaren är den enda medlemmen i ett utbildningsteam.
+>Eftersom team kontrollerar åtkomsten till resurser kan det vara praktiskt att bara ha en medlem. Användare i utbildning kan till exempel skapa anslutningar till sina enskilda [!DNL Google]-konton. Alla teammedlemmar kan också ansluta till det enskilda [!DNL Google]-kontot, så i det här fallet är det bäst att användaren är den enda medlemmen i ett utbildningsteam.
 
 Organisationer kan ha så många team de behöver, och användarna kan tillhöra ett eller flera team.
 
@@ -141,13 +141,13 @@ Användarna kan välja sitt team i listrutan i den vänstra navigeringspanelen. 
 
 En användare har en av följande roller i varje team:
 
-* **[!UICONTROL Team Admin]**: Förutom funktionerna i de andra teamrollerna ger administratörsrollen användaren möjlighet att lägga till, ta bort eller ändra en teammedlems roll.
+* **[!UICONTROL Team Admin]**: Förutom funktionerna för de andra teamrollerna kan användaren lägga till, ta bort eller ändra rollen för en teammedlem med administratörsrollen.
 * **[!UICONTROL Team Member]**: Teammedlemsrollen tillåter användare att skapa och köra scenarier.
-* **[!UICONTROL Team Monitoring]**: [!UICONTROL monitoring] Med rollen kan användare få åtkomst till körningsinformation för scenarier, men de kan inte designa scenarier eller ändra status &quot;Aktiv&quot;.
-* **[!UICONTROL Team Operator]**: [!UICONTROL operator] Med roll kan användare se körningsdata och ändra statusen &quot;Aktiv&quot; för scenarier.
-* **[!UICONTROL Team Restricted Member]**: Funktioner för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
+* **[!UICONTROL Team Monitoring]**: Med rollen [!UICONTROL monitoring] kan användare få åtkomst till körningsinformation för scenarier, men de kan inte utforma scenarier eller ändra statusen Aktiv.
+* **[!UICONTROL Team Operator]**: Med rollen [!UICONTROL operator] kan användare se körningsdata och ändra statusen Aktiv för scenarier.
+* **[!UICONTROL Team Restricted Member]**: Funktionerna för den här rollen är inte tillgängliga just nu och kommer att göras tillgängliga inom den närmaste framtiden. Vi rekommenderar för närvarande inte att du tilldelar användare till den här rollen.
 
-Information om specifika åtgärder som är tillgängliga för användare i varje teamroll finns i [Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+Mer information om specifika åtgärder som är tillgängliga för användare i varje teamroll finns i [Organisations- och teamroller](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Teamhantering
 
@@ -160,9 +160,9 @@ Organisationsägare och administratörer kan skapa team.
 
 Så här skapar du ett team:
 
-1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL Organization]**
-1. Välj **[!UICONTROL Team]** -fliken.
-1. Klicka **[!UICONTROL Add a new team]** i listan över team.
+1. Klicka på **[!UICONTROL Organization]** i den vänstra navigeringspanelen
+1. Välj fliken **[!UICONTROL Team]**.
+1. Klicka på **[!UICONTROL Add a new team]** i listan över team.
 1. Ange ett namn för det nya teamet och klicka på **Lägg till**.
 
 #### Ange alternativ för teammeddelanden
@@ -173,12 +173,12 @@ Så här skapar du ett team:
 >
 >Om du vill använda Unified Shell Experience, inklusive meddelandeområdet i Adobe, klickar du på knappen Testa nytt Fusion-gränssnitt i Unified Experience i den övre delen av sidan. Den här knappen är bara tillgänglig om din organisation har flyttat till det enhetliga skalet.
 >
->Mer information finns i [Få åtkomst till dina meddelanden](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion].
+>Mer information finns i [Få åtkomst till dina meddelanden](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) i [!DNL Adobe Unified Experience] för [!DNL Workfront Fusion].
 
 Alternativen för e-postmeddelanden anges på teamnivå.
 
-1. Klicka på i den vänstra navigeringspanelen **[!UICONTROL Team]**
-1. Välj **[!UICONTROL Notification Options]** -fliken.
+1. Klicka på **[!UICONTROL Team]** i den vänstra navigeringspanelen
+1. Välj fliken **[!UICONTROL Notification Options]**.
 1. Aktivera de meddelanden som du vill att teamet ska ta emot.
 
    <table style="table-layout:auto"> 
@@ -186,7 +186,7 @@ Alternativen för e-postmeddelanden anges på teamnivå.
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">'[!UICONTROL Warning in scenario run]'</td> 
+      <td role="rowheader">[!UICONTROL Warning in scenario run]</td> 
       <td> <p>Få ett e-postmeddelande när det finns en varning i en scenariokörning</p> </td> 
      </tr> 
      <tr> 
@@ -195,7 +195,7 @@ Alternativen för e-postmeddelanden anges på teamnivå.
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Scenario deactivation]</p> </td> 
-      <td><p>Få ett e-postmeddelande när ett scenario inaktiveras.</p><p><b>Obs!</b> Du meddelas bara om scenarioinaktivering när scenariot har inaktiverats automatiskt på grund av fel. Du får inga meddelanden om scenarier som inaktiveras manuellt.</p><p>I vissa fall kan ett scenario inaktiveras av [!DNL Workfront Fusion] konstruktörsteamet eftersom scenariot ger upphov till prestandaproblem eller andra problem. I dessa fall får du inga meddelanden i [!DNL Workfront Fusion]. </p></td>
+      <td><p>Få ett e-postmeddelande när ett scenario inaktiveras.</p><p><b>Obs!</b> Du meddelas bara om scenarioinaktivering när scenariot har inaktiverats automatiskt på grund av fel. Du får inga meddelanden om scenarier som inaktiveras manuellt.</p><p>I vissa fall kan ett scenario inaktiveras av [!DNL Workfront Fusion]-tekniker eftersom scenariot orsakar prestandaproblem eller andra problem. I dessa fall får du inga meddelanden i [!DNL Workfront Fusion]. </p></td>
 
 </tr>
 </tbody>

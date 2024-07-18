@@ -47,12 +47,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Inbyggda allvarlighetsgrader
+## Inbyggda problemallvarlighetsgrader
 
 Workfront har fem inbyggda problemallvarlighetsgrader:
 
@@ -67,27 +67,27 @@ Workfront har fem inbyggda problemallvarlighetsgrader:
 * Namn
 * Färg
 
-   Färgen för en allvarlighetsgrad bevaras i en diagramrapport om du grupperar dina resultat efter allvarlighetsgrad för problem. Information om diagramrapporter finns i [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Färgen för en allvarlighetsgrad bevaras i en diagramrapport om du grupperar dina resultat efter allvarlighetsgrad för problem. Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 * Vilken allvarlighetsgrad som är standard
 
-   Mer information om standardallvarlighetsgrader finns i [Skapa eller redigera en allvarlighetsgrad för ett problem](#create-or-edit-an-issue-severity) i den här artikeln.
+  Mer information om standardallvarlighetsgrader finns i [Skapa eller redigera en utgåva med allvarlighetsgrad](#create-or-edit-an-issue-severity) i den här artikeln.
 * Beskrivning
 * Om en allvarlighetsgrad är dold i Workfront
 
-   Mer information om hur du döljer en allvarlighetsgrad finns i [Skapa eller redigera en allvarlighetsgrad för ett problem](#create-or-edit-an-issue-severity")
+  Mer information om att dölja en allvarlighetsgrad finns i [Skapa eller redigera en allvarlighetsgrad för ett problem](#create-or-edit-an-issue-severity")
 
 * Ta bort en allvarlighetsgrad
 
-   När du gör detta måste du välja en ersättningsallvarlighetsgrad.
+  När du gör detta måste du välja en ersättningsallvarlighetsgrad.
 
 ## Skapa eller redigera en allvarlighetsgrad för ett problem {#create-or-edit-an-issue-severity}
 
 Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina användares behov.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Projektinställningar** > **Allvarlighetsgrader**.
+1. Klicka på **Projektinställningar** > **Allvarlighetsgrader** i den vänstra panelen.
 
 1. Om du skapar en ny allvarlighetsgrad klickar du på **Lägg till en ny allvarlighetsgrad**.
 1. Konfigurera följande alternativ för den nya allvarlighetsgraden eller redigera dem för en befintlig:
@@ -108,7 +108,7 @@ Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina 
      <tr> 
       <td role="rowheader">Färg</td> 
       <td> <p>Välj en färg för allvarlighetsgraden.</p> 
-      <p>Färgen på allvarlighetsgraden används i diagramrapporter när du grupperar dina resultat efter allvarlighetsgrad för problem. Information om diagramrapporter finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Lägga till ett diagram i en rapport</a>.</p> </td> 
+      <p>Färgen på allvarlighetsgraden används i diagramrapporter när du grupperar dina resultat efter allvarlighetsgrad för problem. Mer information om diagramrapporter finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Lägga till ett diagram i en rapport</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standardallvarlighetsgrad</td> 
@@ -130,8 +130,8 @@ Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina 
 
 1. (Valfritt) Ändra listordningen för dina allvarlighetsgrader genom att dra och släppa dem i önskad ordning.
 
-   Detta ändrar visningsordningen för problem. Det ändrar inte **Prioritet** tal.
+   Detta ändrar visningsordningen för problem. Det ändrar inte **Importance**-numret.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
-Mer information om hur du använder allvarlighetsgrader när du arbetar med problem finns i [Uppdatera allvarlighetsgrad för utgåva](../../../manage-work/issues/issue-information/update-issue-severity.md).
+Mer information om hur du använder allvarlighetsgrader när du arbetar med problem finns i [Uppdatera allvarlighetsgrad](../../../manage-work/issues/issue-information/update-issue-severity.md).

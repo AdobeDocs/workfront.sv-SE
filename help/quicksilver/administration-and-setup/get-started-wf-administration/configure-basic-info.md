@@ -60,7 +60,7 @@ Så här öppnar du sidan Kundinformation:
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **System** > **Kundinformation**.
+1. Klicka på **System** > **Kundinformation** i den vänstra panelen.
 
    Beroende på vilken Workfront-plan du har köpt kan vissa avsnitt saknas på sidan Kundinformation. Kontakta din kontorepresentant om du behöver ta reda på vilken Workfront-plan din organisation använder.
 
@@ -74,13 +74,13 @@ Så här öppnar du sidan Kundinformation:
 
      Mer information om API-nyckelinställningar finns i [Hantera API-nycklar](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **IP TILLÅTELSELISTA**
+   * **IP-Tillåtelselista**
 
-     Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan komma åt Workfront finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+     Mer information om hur du lägger till IP-adresserna till tillåtelselista för var dina användare kan få åtkomst till Workfront finns i [Konfigurera din brandväggs tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
    * **Licens**
 
-     Mer information om licenser finns i [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     Mer information om licenser finns i [Hantera tillgängliga licenser i systemet](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Konfigurera grundläggande information {#configure-basic-info}
 
@@ -90,9 +90,9 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **System** > **Kundinformation**.
+1. Klicka på **System** > **Kundinformation** i den vänstra panelen.
 
-1. I **Grundläggande information** överst i **Kundinformation** finns följande information om din instans med Workfront:
+1. I avsnittet **Grundläggande information** högst upp på sidan **Kundinformation** hittar du följande information om din instans med Workfront:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,11 +108,11 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
      </tr> 
      <tr> 
       <td role="rowheader">Admin-e-postadress</td> 
-      <td> <p>E-postadressen till din Workfront-administratör. Du kan redigera det här fältet så att det matchar e-postadressen för en av dina Workfront-administratörer. Den användare som är kopplad till den här e-postadressen betraktas som Workfront-huvudadministratör för ditt Workfront-system. All kommunikation från Workfront på hela webbplatsen dirigeras till den här e-postadressen, så det är viktigt att du håller den uppdaterad.</p> <p><b>ANMÄRKNING</b>: Du kan inte inaktivera, ta bort eller ändra åtkomstnivån för användaren som är kopplad till Admin Email.</p> </td> 
+      <td> <p>E-postadressen till din Workfront-administratör. Du kan redigera det här fältet så att det matchar e-postadressen för en av dina Workfront-administratörer. Den användare som är kopplad till den här e-postadressen betraktas som Workfront-huvudadministratör för ditt Workfront-system. All kommunikation från Workfront på hela webbplatsen dirigeras till den här e-postadressen, så det är viktigt att du håller den uppdaterad.</p> <p><b>Obs!</b> Du kan inte inaktivera, ta bort eller ändra åtkomstnivån för användaren som är kopplad till Admin-e-postadressen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Domän</td> 
-      <td> <p>Domänen anges av Workfront när ditt konto skapas.</p> <p>Domänen identifierar din unika underdomän till den URL som du använder för att komma åt Workfront.<p>Om din organisation till exempel har tilldelats domänen "mincompany" är den URL som du använder för att få åtkomst till Workfront <i>https://mycompany.my.workfront.com.</i></p><p>Du kan inte redigera domänen själv. Om du vill byta domän kan du kontakta Workfront kundsupport. Mer information om hur du kontaktar Workfront kundsupport finns i <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Kontakta kundsupport</a>.</p> </td> 
+      <td> <p>Domänen anges av Workfront när ditt konto skapas.</p> <p>Domänen identifierar din unika underdomän till den URL som du använder för att komma åt Workfront.<p>Om din organisation till exempel har tilldelats domänen "mincompany" är den URL som du använder för att komma åt Workfront <i>https://mycompany.my.workfront.com.</i></p><p>Du kan inte redigera domänen själv. Om du vill byta domän kan du kontakta Workfront kundsupport. Mer information om hur du kontaktar Workfront kundsupport finns i <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Kontakta kundsupport</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Tidszon</td> 
@@ -141,4 +141,4 @@ Så här konfigurerar du avsnittet Grundläggande information i området Kundinf
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

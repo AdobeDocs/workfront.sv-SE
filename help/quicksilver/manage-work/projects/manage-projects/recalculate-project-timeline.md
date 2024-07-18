@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Du måste dock ha följande åtkomst för att manuellt beräkna om tidslinjen f�
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p>Systemadministratören beräknar om tidslinjen för alla projekt i systemet</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -100,12 +100,12 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 Adobe Workfront beräknar om tidslinjer dagligen endast för projekt där alla följande villkor är uppfyllda:
 
 * Har statusen Aktuell
-* Uppdateringstypen för projektet är Automatisk eller Automatisk och Vid ändring
+* Projektets uppdateringstyp är inställd på Automatisk eller Automatisk och Vid ändring
 
-   Mer information om typen av projektuppdateringstyp finns i [Översikt över uppdateringstyp för projekt](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+  Mer information om typen av projektuppdateringstyp finns i [Översikt över projektuppdateringstyp](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 * Har ett senaste uppdateringsdatum under de senaste tre månaderna\
-   Workfront-administratören kan ändra den här standardfunktionen enligt beskrivningen i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+  Workfront-administratören kan ändra den här standardfunktionen enligt beskrivningen i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 * Senaste beräkningsdatum för projekttidslinjen ligger inte inom den aktuella kalenderdagen. Det innebär att det sista beräkningsdatumet för projekttidslinjen är före 00:00 den aktuella dagen.
 
@@ -155,27 +155,27 @@ Olika omfångsförändringar i ett projekts livslängd beräknar automatiskt om 
 * Uppdaterar varaktighetstypen, aktivitetsbegränsningen eller antalet tilldelningar för aktiviteterna.
 * Uppdaterar relationer till föregående aktiviteter.
 * Lägga till ett godkännande för en aktivitet som också lägger till tid till aktivitetens planerade slutförandedatum.\
-   Mer information om inställningar för godkännande finns i [Konfigurera globala inställningar för godkännande](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+  Mer information om godkännandeinställningar finns i [Konfigurera globala godkännandeinställningar](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 
 ## Manuell omberäkning {#manual-recalculation}
 
 Som projektägare kan du manuellt beräkna om tidslinjerna för enskilda projekt. Workfront-administratören kan manuellt beräkna om alla tidslinjer i Workfront.
 
 * [Beräkna om tidslinjer för enskilda projekt eller gruppvis](#recalculate-timelines-for-individual-projects-or-in-bulk)
-* [Automatisk omberäkning av flera tidslinjer samtidigt i rutan Redigera projekt](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
+* [Beräkna flera tidslinjer manuellt i rutan Redigera projekt](#manually-recalculate-timelines-in-bulk-in-the-edit-projects-box)
 * [Beräkna om tidslinjer för alla projekt i systemet (endast Workfront-administratörer)](#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only)
 
 ### Beräkna om tidslinjer för enskilda projekt eller gruppvis {#recalculate-timelines-for-individual-projects-or-in-bulk}
 
 Du kan beräkna om tidslinjen för ett projekt i Workfront från projektsidan eller från en projektlista eller rapport.
 
-1. Gå till det projekt som du vill beräkna om tidslinjen för och klicka på **Mer** icon ![](assets/qs-more-menu.png) till vänster om projektnamnet
+1. Gå till projektet som du vill beräkna om tidslinjen för och klicka på ikonen **Mer** ![](assets/qs-more-menu.png) till vänster om projektnamnet
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    eller
 
-   Gå till en projektlista eller rapport och välj ett eller flera projekt. Klicka sedan på **Mer** icon ![](assets/qs-more-menu.png) högst upp i listan.
+   Gå till en projektlista eller rapport och välj ett eller flera projekt. Klicka sedan på ikonen **Mer** ![](assets/qs-more-menu.png) längst upp i listan.
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
@@ -183,7 +183,7 @@ Du kan beräkna om tidslinjen för ett projekt i Workfront från projektsidan el
    >
    >Beroende på hur komplexa dina projekt är rekommenderar vi att du inte väljer ett stort antal projekt när du omberäknar deras tidslinjer i grupp för att få optimala prestanda. Vissa saker som kan göra ett projekt för komplext kan vara flera beroenden eller tilldelningar, eller ett stort antal anpassade fält.
 
-1. Klicka **Beräkna om tidslinje**.
+1. Klicka på **Beräkna om tidslinje**.
 
    När tidslinjen har beräknats om visas ett meddelande om att omberäkningen lyckades.
 
@@ -201,13 +201,13 @@ Du kan manuellt beräkna om tidslinjerna i flera projekt genom att redigera dem 
 
 1. Gå till en lista med projekt.
 1. Markera flera projekt i listan och klicka sedan på **Redigera**.
-1. Klicka **Inställningar** väljer **Beräkna om tidslinjer**.
+1. Klicka på **Inställningar** och välj sedan **Beräkna om tidslinjer**.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
 ### Beräkna om tidslinjer för alla projekt i systemet (endast Workfront-administratörer) {#recalculate-timelines-for-all-projects-in-the-system-workfront-administrators-only}
 
-Workfront-administratörer kan köra diagnostiken för att beräkna om tidslinjen för att omedelbart beräkna om alla tidslinjer i Workfront-systemet. Detta gör att alla projektledare kan se hur externa ändringar påverkar direkt både planerade och planerade datum.
+Workfront-administratörer kan köra diagnostiken för att beräkna om tidslinjen för att omedelbart beräkna om alla tidslinjer i Workfront. Detta gör att alla projektledare kan se hur externa ändringar påverkar direkt både planerade och planerade datum.
 
 Mer information om hur du beräknar om tidslinjer för hela Workfront-webbplatsen finns i avsnittet Beräkna om tidslinjer för hela Workfront-instansen i [Konfigurera tidslinjeomberäkningar för projekt](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 

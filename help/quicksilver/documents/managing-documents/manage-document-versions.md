@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -50,11 +50,11 @@ Du måste ha följande:
 
 * I den här artikeln antas att dokumentet har flera versioner.
 
-   Om du behöver information om hur du överför nya versioner av ett dokument till Workfront går du till [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
+  Om du behöver information om hur du överför nya versioner av ett dokument till Workfront läser du [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Visa en lista över alla versioner av ett dokument
 
-1. Bläddra till vyn **Alla versioner** -avsnitt. Här kan du se alla versioner av dokumentet.
+1. Bläddra i sammanfattningen till vyn **Alla versioner**. Här kan du se alla versioner av dokumentet.
 
 ## Visa och hantera information om en tidigare dokumentversion
 
@@ -66,15 +66,15 @@ Du måste ha följande:
 
 ## Ladda ned en enda dokumentversion
 
-1. I sammanfattningen, under **Versioner** klickar du på Mer-menyn ![](assets/more-icon.png) till höger om versionen och klicka sedan på **Hämta** i listrutan som visas.
+1. Klicka på menyn Mer ![](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
 
    ![](assets/more-versions-350x143.png)
 
 ## Hämta alla versioner av ett dokument
 
-1. Klicka **Dokumentinformation** väljer **Alla versioner** i den vänstra panelen.
+1. Klicka på **Dokumentinformation** och välj sedan **Alla versioner** i den vänstra panelen.
 
-1. Klicka **Hämta alla** högst upp i listan.
+1. Klicka på **Hämta alla** överst i listan.
 
 ## Ta bort en dokumentversion
 
@@ -86,18 +86,18 @@ Om du överför en version av ett dokument av misstag, eller om en version inte 
 
 Tänk på följande när du tar bort en dokumentversion:
 
-* Det går endast att ta bort en version åt gången. Om en version tas bort visas den här åtgärden i **Uppdateringar** på dokumentet.
+* Endast en version i taget kan tas bort. Om en version tas bort visas den här åtgärden i **uppdateringarna** i dokumentet.
 * Om du överför en ny version efter att ha tagit bort en version får den nya versionen nästa sekvensnummer. Om det till exempel finns tre versioner av ett dokument och du tar bort version 3, kommer nästa överförda dokument att vara version 4.
 * Systemuppdateringar och kommentarer som görs i en version sparas i Workfront när versionen har tagits bort.
 
-   <!--
+  <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deleting a document version in Workfront does not delete the Proof version.&nbsp;</li>
   -->
 
 Så här tar du bort en dokumentversion:
 
-1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.Hitta det dokument du behöver.
-1. I **Version** i rutan Sammanfattning, klicka på versionen och sedan på **Ta bort** i listrutan som visas. The **Ta bort** är bara synligt om det finns minst två versioner.
+1. Gå till det projekt, den uppgift eller det problem som innehåller dokumentet och välj sedan **Dokument**.Hitta det dokument du behöver.
+1. Klicka på versionen under **Version** i Sammanfattning och klicka sedan på **Ta bort** i listrutan som visas. Alternativet **Ta bort** visas bara om det finns minst två versioner.
 
    Om dokumentet är länkat till en extern källa tas länken bort och dokumentet är inte längre tillgängligt via Workfront.
 

@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Du kan hantera hur rapporter som läggs till på kontrollpaneler visas på kontrollpanelerna.
 
-Mer information om hur du redigerar layouten för rapporter på en kontrollpanel finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Mer information om hur du redigerar layouten för rapporter på en kontrollpanel finns i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 Du kan välja vilka rapportkolumner som ska visas på en kontrollpanel när du skapar en rapport. Om du alltid vill visa alla kolumner i rapporten på en kontrollpanel måste du ange det för varje kolumn när du skapar rapporten.
 
 Mer information om hur du väljer vilka kolumner i en rapport som ska visas på en kontrollpanel finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-![Visa på instrumentpanelen, alternativ](assets/show-in-dashboard.png)
+![Visa i instrumentpanelsalternativ](assets/show-in-dashboard.png)
 
 ## Visa alla kolumner i rapporten på en kontrollpanel
 

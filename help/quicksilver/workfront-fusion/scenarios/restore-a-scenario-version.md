@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Återställa en scenarioversion i [!DNL Adobe Workfront Fusion]
+title: Återställ en scenarioversion i  [!DNL Adobe Workfront Fusion]
 description: Du kan återställa en tidigare version av ett scenario. På så sätt kan du göra ändringar i ett scenario och sedan enkelt återställa dessa ändringar om du föredrar den tidigare funktionen.
 author: Becky
 feature: Workfront Fusion
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Återställa en scenarioversion i [!DNL Adobe Workfront Fusion]
+# Återställ en scenarioversion i [!DNL Adobe Workfront Fusion]
 
 ## Åtkomstkrav
 
@@ -35,32 +35,32 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
   <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Återställa en scenarioversion
 
 1. Öppna ditt scenario.
-1. Klicka på [!UICONTROL More] icon ![](assets/more-icon.png)och sedan klicka **[!UICONTROL Previous Versions]**.
+1. Klicka på ikonen [!UICONTROL More] ![](assets/more-icon.png) och sedan på **[!UICONTROL Previous Versions]**.
 
-1. Klicka på **[!UICONTROL Pick the version]** klickar du sedan på den version du vill återställa.
+1. Klicka på **[!UICONTROL Pick the version]** och klicka sedan på den version som du vill återställa.
 1. Klicka på **[!UICONTROL OK]**:
 1. Den valda scenarioversionen återställs.
 

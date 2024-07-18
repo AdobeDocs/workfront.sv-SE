@@ -20,7 +20,7 @@ Dessa webbinarier fokuserades på de funktioner som fanns i version 2017.3. 
 
 2017.3-utgåvan kan för närvarande testas i Preview. 2017.3-utgåvan kommer att vara tillgänglig i produktionsmiljön i november 2017.
 
-Mer information om funktionerna i webbinarierna finns i [Aktivitetsöversikt för 2017.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md) sida.
+Mer detaljerad information om de funktioner som beskrivs i webbinarierna finns på [aktivitetsöversikten för version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Följande webbinära inspelningar är tillgängliga:
 
@@ -37,11 +37,11 @@ För enkelhetens skull är webbinariet uppdelat i följande ämnen:
 
 * [Introduktion](#introduction)
 * [Projektförbättringar](#project-enhancements)
-* [Rapportförbättringar](#reporting-enhancements)
-* [Förbättringar av Agile](#agile-enhancements)
+* [Rapporteringsförbättringar](#reporting-enhancements)
+* [Agile Enhancements](#agile-enhancements)
 * [Förbättringar av resurshantering](#resource-management-enhancements)
-* [Appar och integreringar](#apps-and-integrations)
-* [Förbättringar av korrektur](#proofing-enhancements)
+* [Program och integreringar](#apps-and-integrations)
+* [Korrekturförbättringar](#proofing-enhancements)
 * [API-förbättringar](#api-enhancements)
 * [Slutsats](#conclusion)
 
@@ -51,6 +51,6 @@ Webbseminariet Workfront 2017.3 September Preview Releases presenterades av Work
 
 ## Workfront 2017.3 Beta 1 och Beta 2 Webinar {#workfront-2017-3-beta-1-and-beta-2-webinar}
 
-The 2017.3 Beta 1 and Beta 2 Release Webinar presenterades av Workfront Release Readiness team den 23 augusti 2017. Det här webbinariet fokuserar på den nya funktionaliteten som har gjorts tillgänglig i Preview under augusti.
+Beta 1 och Beta 2 Release Webinar 2017.3 presenterades av Workfront Release Readiness Team den 23 augusti 2017. Det här webbinariet fokuserar på den nya funktionaliteten som har gjorts tillgänglig i Preview under augusti.
 
 ## August Mobile Release Webinar {#august-mobile-release-webinar}

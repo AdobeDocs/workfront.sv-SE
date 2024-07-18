@@ -6,20 +6,21 @@ title: Lägga till ett filter i ett grundscenario
 description: Med filter kan du kontrollera att ditt scenario bara utvecklas om vissa villkor uppfylls.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 5ba5b2e37e2ce58d96d11f24786feef57f8eb638
+exl-id: b43355ed-9329-4080-8e61-7177eb580994
+source-git-commit: 1a405d38968922388589ddb3f2979b4e59cd50b8
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
 
 ---
 
-# Lägg till ett filter i ett grundscenario i [!DNL Adobe Workfront Fusion]
+# Lägg till ett filter i ett grundläggande scenario i [!DNL Adobe Workfront Fusion]
 
 Med filter kan du kontrollera att ditt scenario bara utvecklas om vissa villkor uppfylls.
 
 I det här exemplet lägger du till ett filter i ditt scenario som tillåter att ett nytt projekt skapas från en begäran endast om begäran skickades till en viss begärandekö.
 
-I det här exemplet ändras scenariot som skapas i [Skapa ett grundläggande scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+I det här exemplet ändras scenariot som skapades i [Skapa ett grundläggande scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 >[!NOTE]
 >
@@ -27,15 +28,15 @@ I det här exemplet ändras scenariot som skapas i [Skapa ett grundläggande sce
 
 ## Förutsättningar
 
-Du måste skapa scenariot enligt [Skapa ett grundläggande scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) innan du följer den här proceduren.
+Du måste skapa scenariot som beskrivs i [Skapa ett grundläggande scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) innan du följer den här proceduren.
 
 ## Lägga till ett filter
 
 ### Förbered för att lägga till filtret
 
 1. Öppna det första scenariot.
-1. I **Utdata** område, markera `Project`.
-Du borde ha `ID`, `Name`och `Project` markerat.
+1. Välj `Project` i området **Utdata**.
+Du bör nu ha `ID`, `Name` och `Project` markerat.
 1. Klicka på OK för att spara modulinställningarna.
 1. Öppna Workfront.
 1. I Workfront letar du reda på det projekt som representerar begärandekön som Fusion-scenariot ska användas med.
@@ -44,31 +45,31 @@ Du borde ha `ID`, `Name`och `Project` markerat.
 
 1. Anteckna projekt-ID:t i URL:en.
 
-   Exempel: https://\&lt;mydomain>.my.workfront.com/project/\&lt;projectid>/tasks
+   Exempel: https://\&lt;MyDomain\>.my.workfront.com/project/\&lt;ProjectID\>/tasks
 
 ### Lägg till och konfigurera filtret
 
 1. Öppna scenariot i scenarioredigeraren.
-1. Klicka på skiftnyckelsikonen ![Ikon för skiftnyckel](assets/wrench-icon.png) mellan den första och den andra modulen och välj **Konfigurera ett filter**.
+1. Klicka på skiftnyckelsikonen ![skiftningsikonen](assets/wrench-icon.png) mellan den första och den andra modulen och välj **Konfigurera ett filter**.
 1. I fältet Etikett anger du en etikett för det här filtret, till exempel &quot;Filter för begärandekö&quot;.
-1. I **Villkor** i det övre fältet, mappa `projectID` från den första modulen.
+1. Mappa `projectID` från den första modulen i det övre fältet i området **Villkor**.
 
    ![Mappa projekt-ID](assets/map-proj-id.png)
-1. Lämna **Villkor** -operatorn lika med.
-1. I det nedre fältet på **Villkor** -området, klistra in det projekt-ID som du antecknade från projektets URL i [Förbered för att lägga till filtret](#prepare-to-add-the-filter).
-1. Klicka **OK** för att spara filterinställningarna.
+1. Låt operatorn **Villkor** vara lika med.
+1. Klistra in det projekt-ID som du antecknade från projekt-URL:en i [Förbered för att lägga till filtret](#prepare-to-add-the-filter) i det nedre fältet i området **Villkor**.
+1. Klicka på **OK** om du vill spara filterinställningarna.
 
 ### Testa och aktivera
 
 1. Gå till den Workfront-miljö som Fusion ansluter till och lägg till ett fel i projektet som du angav i filtret. Lägg till ytterligare ett problem i ett annat projekt.
-1. Klicka **[!UICONTROL Run once]** i det nedre vänstra hörnet av scenarioredigeraren.
+1. Klicka på **[!UICONTROL Run once]** i det nedre vänstra hörnet i scenarioredigeraren.
 1. Granska utdata för att kontrollera att scenariot kördes som förväntat.
 
    Båda problemen bör förekomma i resultatet av det första scenariot, men endast problemet i det angivna projektet ska visas som indata i det andra scenariot.
-1. När du är säker på att scenariot fungerar som väntat klickar du på **Schemaläggning** växla i det nedre vänstra hörnet av skärmen till **På**.
+1. När du är säker på att scenariot fungerar som förväntat klickar du på växeln **Schemaläggning** längst ned till vänster på skärmen till **På**.
 
    Detta aktiverar scenariot.
-1. I [!DNL Workfront Fusion], klicka **[!UICONTROL Save]** nära det nedre vänstra hörnet för att spara dina framsteg i scenariot.
+1. I [!DNL Workfront Fusion] klickar du på **[!UICONTROL Save]** i det nedre vänstra hörnet för att spara förloppet för scenariot.
 
    >[!IMPORTANT]
    >
@@ -77,4 +78,3 @@ Du borde ha `ID`, `Name`och `Project` markerat.
 ## Resurs
 
 * Mer information om filter finns i [Lägga till ett filter i ett scenario](/help/quicksilver/workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
-

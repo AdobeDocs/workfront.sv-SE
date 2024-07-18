@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Visa eller ge användare högre åtkomst</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Visa eller ge användare högre åtkomst</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -57,20 +57,20 @@ Du kan ta bort användare från en resurspool när dessa användare inte längre
 
 Så här tar du bort en användare från en resurspool:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Resurser**.
-1. Klicka **Resurspooler** i den vänstra panelen.
+1. Klicka på **Resurs**.
+1. Klicka på **Resurspooler** i den vänstra panelen.
 1. Välj en resurspool och klicka på **Redigera.**Eller\
    Klicka på namnet på en resurspool.
 
-1. Börja skriva namnet på en användare som du vill ta bort i dialogrutan **Sök i den här resurspoolen** fält.\
+1. Börja skriva namnet på en användare som du vill ta bort i fältet **Sök i den här resurspoolen**.\
    eller\
    Börja skriva namnet på ett företag, en jobbroll, ett team eller en grupp om du vill ta bort alla användare som är associerade med de entiteterna.\
    ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
 
 1. Klicka på x-ikonen på användarnivå för att ta bort en användare från resurspoolen. De tas bort från alla listor som de visas i.\
    eller\
-   Om du vill ta bort alla användare som är kopplade till en jobbroll, grupp, team eller företag klickar du på **Ta bort** på jobbnivå, gruppnivå, teamnivå eller företagsnivå. Detta tar bort alla användare som är associerade med den jobbrollen, gruppen, teamet eller företaget från resurspoolen.
+   Om du vill ta bort alla användare som är associerade med en jobbroll, grupp, team eller företag klickar du på **Ta bort** på jobbrollen, gruppnivån eller företagsnivån. Detta tar bort alla användare som är associerade med den jobbrollen, gruppen, teamet eller företaget från resurspoolen.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

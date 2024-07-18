@@ -37,7 +37,7 @@ Dokumentets godkännandeknappar är nu tillgängliga i korrekturläsaren i den n
 
 Tidigare kunde du bara godkänna ett dokument från området Dokumentinformation.
 
-Mer information finns i [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Mer information finns i [Ta beslut om ett korrektur i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ## Generera ett korrektur automatiskt när du överför en dokumentinställning inaktiverat som standard
 

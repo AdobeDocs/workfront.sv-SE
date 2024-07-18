@@ -2,7 +2,7 @@
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 title: Leta reda på optimeraren för Portfolio
-description: Du hittar [!UICONTROL Portfolio Optimizer] när du öppnar en portfölj.
+description: Du kan hitta [!UICONTROL Portfolio Optimizer] när du öppnar en portfölj.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Leta reda på [!UICONTROL Portfolio Optimizer]
+# Hitta [!UICONTROL Portfolio Optimizer]
 
-Du hittar [!UICONTROL Portfolio Optimizer] när du öppnar en portfölj.
+Du kan hitta [!UICONTROL Portfolio Optimizer] när du öppnar en portfölj.
 
 ## Åtkomstkrav
 
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>[!UICONTROL Edit] behörighet till Portfolio och projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -46,18 +46,18 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Leta reda på [!UICONTROL Portfolio Optimizer]
+## Hitta [!UICONTROL Portfolio Optimizer]
 
-1. Från **[!UICONTROL Main Menu]**, klicka **[!UICONTROL Portfolios]**.
+1. Klicka på **[!UICONTROL Portfolios]** i **[!UICONTROL Main Menu]**.
 
    De portföljer du har som standard.
 
-1. (Valfritt) Från **[!UICONTROL Filter]** väljer du att visa en annan uppsättning portföljer.
+1. (Valfritt) I listrutan **[!UICONTROL Filter]** väljer du att visa en annan uppsättning portföljer.
 1. Klicka på namnet på en portfölj för att komma åt den.
-1. Klicka **[!UICONTROL Portfolio Optimization]** i den vänstra panelen.
+1. Klicka på **[!UICONTROL Portfolio Optimization]** i den vänstra panelen.
 
-   The [!UICONTROL Portfolio Optimizer] visas.
+   [!UICONTROL Portfolio Optimizer] visas.
 
    ![](assets/nwe-portfolio-optimizer-350x83.png)

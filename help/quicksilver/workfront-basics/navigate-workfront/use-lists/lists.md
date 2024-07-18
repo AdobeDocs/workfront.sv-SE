@@ -1,6 +1,6 @@
 ---
 navigation-topic: navigate-workfront
-title: Listor i [!DNL Adobe Workfront]
+title: Listor i  [!DNL Adobe Workfront]
 description: Läs de här artiklarna för att lära dig hur du använder listor i Adobe Workfront.
 feature: Get Started with Workfront
 author: Lisa
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Kom igång med listor i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
+* [Kom igång med listor i  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
-* [Redigera objekt i en lista i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
+* [Redigera objekt i en lista i  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
 * [Ändra hur en lista visas](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
 * [Exportera en lista](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)

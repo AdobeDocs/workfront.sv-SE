@@ -53,11 +53,11 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
-Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Förutsättningar för att använda Förbättrad analys finns i avsnittet Förutsättningar i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Förstå projekttreemaps visualisering
 
@@ -73,7 +73,7 @@ Visualiseringen av projekttreemap består av:
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* **Medelstora, blå rutor**: Projekt som hamnar mellan de två kategorierna visas som medelstora rutor med en blå nyans mellan de mörkblå och ljusblå färgerna. Det finns tre möjliga nyanser av blått för de medelstora rutorna.
+* **Blå rutor i Medium-storlek**: Projekt som hamnar mellan de två kategorierna visas som medelstora rutor med en blå nyans mellan de mörkblå och ljusblå färgerna. Det finns tre möjliga nyanser av blått för de medelstora rutorna.
 
 Förklaringen till höger visar en uppdelning av slutförda timmar för varje blå nyans. Den här teckenförklaringen är dynamisk och uppdateras utifrån data.
 
@@ -91,11 +91,11 @@ Om du ser den här informationen blir det lättare att avgöra:
 * Om team fokuserar på rätt saker.
 * När du klickar på ett visst projekt, hur mycket omfattningen av ett projekt har ändrats under den tidsperioden.
 
-Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Om du vill lära dig hur du får bästa möjliga data för den här visualiseringen kan du läsa [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visa visualisering av projekttreemap
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
+1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
 1. (Valfritt) Om du vill använda ett annat datumintervall väljer du nya start- och slutdatum från datumintervallfiltret.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -108,7 +108,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    När du har lagt till filter visas data för upp till 50 projekt och filtren förblir aktiva även när du lämnar sidan eller loggar ut från Workfront.
 
-1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på **Sortera efter** i det övre högra hörnet av projekttreemaps-visualisering och välj sedan ett nytt sorteringsalternativ:
+1. (Valfritt) Om du vill ändra hur projekten sorteras klickar du på menyn **Sortera efter** i det övre högra hörnet av visualiseringen av projekttreemap och väljer sedan ett nytt sorteringsalternativ:
 
    * **A - Z**
    * **Z - A**
@@ -133,21 +133,21 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    >[!NOTE]
    >
-   >Om du valde **varaktighet** visas följande information om varaktighet:
+   >Om du valde vyn **duration** ser du följande varaktighetsinformation:
    >
    >* **Planerad tidsram**: Antal dagar som planeras för att slutföra projektet.
-   >* **Dagar som har arbetats**: Den planerade varaktigheten för varje aktivitet som slutfördes inom det datumintervall som valts överst, dividerat med antalet timmar per dag.
+   >* **Antal arbetsdagar**: Den planerade varaktigheten för varje aktivitet som har slutförts inom det datumintervall som har valts överst, dividerat med antalet timmar per dag.
    >   
    >![](assets/duration-treemap-350x159.png)
    >
-   >Mer information om varaktighet finns i avsnittet Längd i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+   >Mer information om varaktighet finns i avsnittet Varaktighet i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på **Ikonen Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen väljer du exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen **Exportera** ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**
 
 1. Klicka på ett projekt för att öppna Burndown and Tasks i flygvisualiseringar för att få en djupare inblick i hur uppgifter och timmar - eller dagar - har bidragit till ett projekts storlek.
 
-Mer information om Burndown-visualisering finns i [Visa Burndown-visualisering i Förbättrad analys](../enhanced-analytics/burndown-overview.md). Mer information om uppgifter vid flygvisualisering finns i [Visa uppgifter i flygvisualisering i Förbättrad analys](../enhanced-analytics/tasks-in-flight-overview.md).
+Mer information om Burndown-visualisering finns i [Visa Burndown-visualisering i Förbättrad analys](../enhanced-analytics/burndown-overview.md). Mer information om uppgifter vid flygvisualisering finns i [Visa uppgifter vid flygvisualisering i Förbättrad analys](../enhanced-analytics/tasks-in-flight-overview.md).
 

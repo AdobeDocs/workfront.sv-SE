@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront</td> 
    <td> 
    <p>Nytt: Alla </p>
-   <p>Aktuell: Pro eller högre</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <p>Aktuell: Pro eller högre</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -58,22 +58,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Överföra ett dokument och skapa ett korrektur
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur.
-1. Klicka på **Dokument** -fliken.
-1. Klicka på Dokument ![](assets/document-icon.png) till vänster.
-1. Klicka **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
+1. Klicka på fliken **Dokument**.
+1. Klicka på Dokument ![](assets/document-icon.png) i den vänstra panelen.
+1. Klicka på **Lägg till ny** och sedan på **Korrektur** på den meny som visas.
 
    >[!TIP]
    >
-   >Du kan aktivera **Generera korrektur automatiskt när dokument överförs** ange i din användarprofil för att automatisera den här processen. Mer information finns i [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >Du kan aktivera inställningen **Generera korrektur automatiskt när du överför dokument** i din användarprofil för att automatisera den här processen. Mer information finns i [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
 
-1. I **Nytt korrektur** sida som visas kan du
+1. På sidan **Nytt korrektur** som visas kan du
 
    * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
@@ -81,10 +81,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 ## Överföra ett dokument och skapa en ny version av ett korrektur
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa en ny version av ett befintligt korrektur.
-1. Klicka på **Dokument** -fliken.
+1. Klicka på fliken **Dokument**.
 1. Markera dokumentet där du vill lägga till en ny version.
-1. Klicka **Lägg till ny** > **Version** > **Korrektur**.
-1. I **Ny korrekturversion** sida som visas kan du
+1. Klicka på **Lägg till ny** > **Version** > **Korrektur**.
+1. På sidan **Nytt korrekturversion** som visas kan du
 
    * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    * [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
@@ -93,23 +93,23 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 Du kan dra och släppa ett dokument från filsystemet (till exempel skrivbordet) för att skapa ett nytt korrektur eller en ny version av ett befintligt korrektur. Korrekturläret innehåller följande inställningar, beroende på om du skapar ett nytt korrektur eller en ny version:
 
-* **Nytt bevis:** Skapar ett enkelt korrektur som bara delas med dig. Du kan ändra delningsinställningarna när korrekturet har skapats enligt beskrivningen i [Redigera korrekturinställningar](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **Nytt korrektur:** Skapar ett enkelt korrektur som bara delas med dig. Du kan ändra delningsinställningarna efter att korrekturet har skapats enligt beskrivningen i [Redigera korrekturinställningar](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-* **Ny version av befintligt bevis:** Skapar en ny version med samma korrekturinställningar som i den tidigare versionen.
+* **Ny version av befintligt korrektur:** Skapar en ny version med samma korrekturinställningar som i den tidigare versionen.
 
 Så här använder du dra och släpp för att generera ett nytt korrektur eller en ny korrekturversion:
 
 1. Kontrollera att korrektur har konfigurerats för att genereras automatiskt, enligt beskrivningen i .
-1. Fortsätt med  [Lägga till dokument i Adobe Workfront från filsystemet](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), som förklarar hur du lägger till dokument genom att dra och släppa. 
+1. Fortsätt med  [Lägg till dokument i Adobe Workfront från filsystemet](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), som förklarar metoden att dra och släppa när du lägger till dokument. 
 
 ## Skapa ett korrektur för ett befintligt dokument
 
-1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på **Dokument** -avsnitt.
-1. Håll muspekaren över dokumentet och klicka sedan på **Skapa korrektur** länk som visas under dokumentnamnet.
+1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på avsnittet **Dokument**.
+1. Håll markören över dokumentet och klicka sedan på länken **Skapa korrektur** som visas under dokumentnamnet.
 
    >[!NOTE]
    >
-   >Om du har **Generera korrektur automatiskt när dokument överförs** som är aktiverat i din användarprofil skapar systemet automatiskt ett enkelt korrektur.
+   >Om du har **Generera korrektur automatiskt när dokument** överförs i din användarprofil skapas ett enkelt korrektur automatiskt.
 
 1. Välj något av följande:
 

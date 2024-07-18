@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Instruktioner om hur du ger fullständig administratörsåtkomst i Adobe Admin Console finns i [Hantera systemadministratörer i Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Som Adobe Workfront-administratör kan du skapa en annan Workfront-administratör genom att tilldela dem åtkomstnivån Systemadministratör. En användare med den här åtkomstnivån har fullständig administrativ åtkomst till allt i Workfront, inklusive objekt som de inte skapat själva.
 
@@ -28,8 +28,8 @@ Som Adobe Workfront-administratör kan du skapa en annan Workfront-administratö
 >
 >Detta skiljer sig från att använda en åtkomstnivå för att ge användarna administrativ åtkomst till vissa delar av systemet. Mer information finns i följande:
 >
->* [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Åtkomst för en Workfront-administratör jämfört med åtkomst för en Plan-användare med administratörsbehörighet](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) i den här artikeln
+>* [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
+>* [Åtkomst för en Workfront-administratör jämfört med åtkomst för en avtalsanvändare med administratörsbehörighet](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) i den här artikeln
 >
 
 ## Åtkomstkrav
@@ -50,25 +50,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information finns i <a href="#" class="MCXref xref selected">Bevilja användaren fullständig administrativ åtkomst</a>.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information finns i <a href="#" class="MCXref xref selected">Bevilja en användare fullständig administrativ åtkomst</a>.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ge fullständig systemadministratörsåtkomst till en enskild användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
 
 1. Klicka på namnet på den användare som du vill ge administratörsbehörighet till.
-1. Klicka på Mer-menyn ![](assets/more-icon.png)och sedan klicka **Redigera**.
+1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
 
-1. På **Redigera person** visas klickar du på **Åtkomst**.
+1. Klicka på **Åtkomst** i rutan **Redigera person** som visas.
 
-1. I **åtkomstnivå** väljer du **Systemadministratör** åtkomstnivå.
+1. Välj åtkomstnivån **Systemadministratör** i listrutan **åtkomstnivå**.
 
    Beroende på ändringar som gjorts i systemet kan namnet på den här åtkomstnivån ha ändrats.
 
-1. Klicka **Spara ändringar.**
+1. Klicka på **Spara ändringar.**
 
    Användaren har nu fullständig behörighet som systemadministratör i systemet.
 
@@ -179,7 +179,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
   <tr> 
    <td>Logga in som</td> 
    <td>Fullständig åtkomst </td> 
-   <td> <p>Om gruppadministratörsåtkomsten är aktiverad på åtkomstnivån och de har utsetts till gruppadministratör kan de logga in som användare i gruppen de administrerar och deras undergrupper. De kan inte logga in som systemadministratör.<br>Mer information om hur du aktiverar gruppadministratörsåtkomst för användare finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
+   <td> <p>Om gruppadministratörsåtkomsten är aktiverad på åtkomstnivån och de har utsetts till gruppadministratör kan de logga in som användare i gruppen de administrerar och deras undergrupper. De kan inte logga in som systemadministratör.<br>Mer information om hur du aktiverar gruppadministrativ åtkomst för användare finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Scheman</td> 
@@ -411,7 +411,7 @@ Användare med en planlicens som kan redigera funktionalitet i ett område har f
   <tr> 
    <td>Användare</td> 
    <td>Fullständig åtkomst</td> 
-   <td> <p>Begränsad åtkomst</p> <p>De kan inte tilldela grupper till användare som de inte är gruppadministratörer för eller grupper som inte är offentliga.</p> <p>De kan inte tilldela användare en åtkomstnivå som är högre än deras egen åtkomstnivå.</p> <p>Om gruppadministratörsåtkomsten är aktiverad på åtkomstnivån och de har utsetts till gruppadministratör för en grupp, kan de återställa lösenordet och logga in som användare i gruppen de administrerar och deras undergrupper. De kan inte återställa lösenordet eller logga in som systemadministratör.<br>Mer information om hur du aktiverar gruppadministratörsåtkomst för användare finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </td> 
+   <td> <p>Begränsad åtkomst</p> <p>De kan inte tilldela grupper till användare som de inte är gruppadministratörer för eller grupper som inte är offentliga.</p> <p>De kan inte tilldela användare en åtkomstnivå som är högre än deras egen åtkomstnivå.</p> <p>Om gruppadministratörsåtkomsten är aktiverad på åtkomstnivån och de har utsetts till gruppadministratör för en grupp, kan de återställa lösenordet och logga in som användare i gruppen de administrerar och deras undergrupper. De kan inte återställa lösenordet eller logga in som systemadministratör.<br>Mer information om hur du aktiverar gruppadministrativ åtkomst för användare finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

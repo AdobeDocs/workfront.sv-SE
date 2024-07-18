@@ -20,11 +20,11 @@ Det finns tre typer av kontakter i en korrekturmiljö:
 
 * **Användare**: Användare har en Workfront Proof-inloggning i din organisations miljö.
 * **Medlemmar**: Medlemmar har egna Workfront Proof-inloggningar i en annan organisations miljö (inte din egen). Du kan inte konvertera medlemmar till användare i din miljö.
-* **Gäster**: Gäster har inte egna Workfront-korrekturinloggningar i din organisations miljö, men du har lagt till deras information i ditt konto (till exempel gästgranskare på korrektur). Du kan konvertera gäster till användare.
+* **Gäster**: Gäster har inte egna Workfront Proof-inloggningar i din organisations miljö, men du har lagt till deras information i ditt konto (till exempel gästgranskare på korrektur). Du kan konvertera gäster till användare.
 
-Eftersom medlemmar inte kan konverteras till användare är deras möjlighet att tagga personer i korrekturkommentarer begränsad till användare från *sin ursprungliga organisation*.
+Eftersom medlemmar inte kan konverteras till användare är deras möjlighet att tagga personer i korrekturkommentarer begränsad till användare från *deras ursprungliga organisation*.
 
-**Exempel:** Företag A bjuder in en extern användare att granska ett bevis. Den här användaren finns redan i en separat korrekturmiljö, företag B.
+**Exempel:** Företag A bjuder in en utomstående användare att granska ett bevis. Den här användaren finns redan i en separat korrekturmiljö, företag B.
 
  
 

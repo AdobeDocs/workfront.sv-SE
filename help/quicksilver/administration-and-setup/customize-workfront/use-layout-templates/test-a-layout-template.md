@@ -30,6 +30,6 @@ Du kan testa layoutmallen på något av följande sätt:
 * Tilldela mallen till ditt eget användarkonto och verifiera att den uppfyller alla krav. Instruktioner finns i [Tilldela en layoutmall till användare](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign).
 * Logga in som en användare som är tilldelad layoutmallen. Instruktioner finns i [Logga in som en annan användare](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-När du har testat layoutmallen och du är säker på att den fungerar bra för dina användare kan du fortsätta med [Bevilja administrativ åtkomst för en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
+När du har testat layoutmallen och du är säker på att den fungerar bra för dina användare kan du fortsätta med [Bevilja administratörsåtkomst för en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md).
 
 Mer information om layoutmallar finns i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

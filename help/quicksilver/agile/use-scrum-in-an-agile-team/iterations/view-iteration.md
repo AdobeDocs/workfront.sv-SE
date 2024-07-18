@@ -38,21 +38,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Visa iterationer som tilldelats ett visst team
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)väljer du sedan ett nytt Scrum-team i listrutan eller söker efter ett team i sökfältet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Välj **[!UICONTROL Iterations]** om du vill välja en viss upprepning, eller markera **[!UICONTROL Current Iteration]**.
+1. I den vänstra panelen väljer du **[!UICONTROL Iterations]** om du vill välja en viss iteration eller **[!UICONTROL Current Iteration]**.
 
    ![Iterationslista](assets/view-iteration-NWE.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Current Iteration]** visas bara i den vänstra panelen när den har tilldelats layoutmallen och det finns minst en uppgift eller ett problem i iterationen. Mer information finns i [Anpassa den vänstra panelen med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL Current Iteration]** visas bara i den vänstra panelen när den tilldelas layoutmallen och det finns minst en uppgift eller ett problem i iterationen. Mer information finns i [Anpassa den vänstra panelen med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 1. (Valfritt) Klicka på namnet på den specifika iteration som du vill visa.\

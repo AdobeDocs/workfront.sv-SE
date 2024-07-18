@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Adobe Workfront Fusion kräver en [!DNL Adobe Workfront Fusion] utöver en Adobe Workfront-licens.
+>Adobe Workfront Fusion kräver en [!DNL Adobe Workfront Fusion]-licens förutom en Adobe Workfront-licens.
 
 ## Översikt över Ömsesidig TLS
 
@@ -32,7 +32,7 @@ Med ömsesidig TLS kan den här identitetsbekräftelsen användas på båda sät
 >
 >**Exempel:**
 >
->* **TLS**: När en person skriver&quot;MyGreatBank.com&quot; i en webbläsare vill de vara säkra på att de går till My Great Bank, inte en webbplats som kan missbrukas eller sälja sin bankinformation. De vill också vara säkra på att deras bankkontoinformation är krypterad.
+>* **TLS**: När en person skriver &quot;MyGreatBank.com&quot; i en webbläsare vill de vara säkra på att de går till My Great Bank, inte till en webbplats som kan missbruka eller sälja sin bankinformation. De vill också vara säkra på att deras bankkontoinformation är krypterad.
 >
 >   När webbläsaren (klienten) ansluter till MyGreatBank.com (servern) kräver TLS ett certifikat från MyGreatBank.com för att verifiera dess identitet. Certifikatet tillhandahålls av en certifikatutfärdare som [!DNL DigiCert] eller [!DNL Thawte]. Eftersom webbläsaren litar på certifikatutfärdaren tillåts anslutningen.
 >
@@ -57,32 +57,32 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-&#42;&#42;För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Tillhandahåller [!DNL Workfront Fusion] offentligt certifikat
+## Tillhandahåller ditt offentliga certifikat för [!DNL Workfront Fusion]
 
 
-När du ansluter till en webbtjänst med en HTTP-begäran kräver webbtjänsten vanligtvis en [!DNL Workfront Fusion] offentligt certifikat för verifiering. Detta gör att webbtjänsten kan jämföra det certifikat som anges i HTTP-begäran med det som finns tillgängligt, för att säkerställa att certifikatet finns på webbtjänstens tillåtelselista.
+När du ansluter till en webbtjänst med en HTTP-begäran kräver webbtjänsten vanligtvis ett [!DNL Workfront Fusion] offentligt certifikat för verifiering. Detta gör att webbtjänsten kan jämföra det certifikat som anges i HTTP-begäran med det som finns tillgängligt, för att säkerställa att certifikatet finns på webbtjänstens tillåtelselista.
 
-Instruktioner om hur du överför [!DNL Adobe Workfront Fusion] offentligt certifikat till en webbtjänst finns i webbtjänstens dokumentation.
+Instruktioner om hur du överför det offentliga certifikatet [!DNL Adobe Workfront Fusion] till en webbtjänst finns i webbtjänstens dokumentation.
 
 >[!NOTE]
 >
@@ -101,8 +101,8 @@ Du kan använda följande länkar för att hämta Workfront Fusion offentliga ce
 >
 >* Dessa är mTLS-certifikat som inte är jokertecken.
 
-* [Ladda ned [!DNL Workfront Fusion] Certificate 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
-* [Ladda ned [!DNL Workfront Fusion] EU-certifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
+* [Hämta [!DNL Workfront Fusion] certifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-us-mtls-certificate.pem)
+* [Hämta [!DNL Workfront Fusion] EU-certifikat 2023](/help/quicksilver/workfront-fusion/apps-and-their-modules/http-modules/assets/fusion-prod-eu-mtls-certificate.pem)
 
   För användning i EU
 
@@ -124,14 +124,14 @@ Du kan använda följande länkar för att hämta Workfront Fusion offentliga ce
 
 ## Aktivera Ömsesidig TLS i [!DNL Workfront Fusion] HTTP-moduler
 
-Alla [!DNL Workfront Fusion] [!UICONTROL HTTP] begärandemoduler har möjlighet att aktivera ömsesidigt TLS.
+Alla [!DNL Workfront Fusion] [!UICONTROL HTTP]-förfrågningsmoduler har möjlighet att aktivera ömsesidigt TLS.
 
-Aktivera Ömsesidig TLS i en [!UICONTROL HTTP] begärandemodul:
+Så här aktiverar du Ömsesidig TLS i en [!UICONTROL HTTP]-begärandemodul:
 
-1. Lägg till en [!UICONTROL HTTP] begär modul till ditt scenario.
+1. Lägg till en [!UICONTROL HTTP]-begärandemodul i ditt scenario.
 1. Börja konfigurera modulen.
 
-   Instruktioner om hur du konfigurerar en [!UICONTROL HTTP] modul för begäran, se lämplig artikel under [[!UICONTROL HTTP] moduler](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
+   Instruktioner om hur du konfigurerar en [!UICONTROL HTTP]-begärandemodul finns i lämplig artikel under [[!UICONTROL HTTP] modules ](../../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md).
 
-1. Aktivera **[!UICONTROL Show advanced settings]** nära modulens nederkant.
+1. Aktivera **[!UICONTROL Show advanced settings]** längst ned i modulen.
 1. Aktivera **[!UICONTROL Use Mutual TLS]**.

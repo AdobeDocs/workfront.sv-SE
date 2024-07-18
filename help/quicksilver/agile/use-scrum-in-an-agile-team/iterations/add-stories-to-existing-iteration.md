@@ -8,7 +8,7 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Du kan lägga till artiklar i en iteration på något av följande sätt:
 
-* Från eftersläpningen efter att iterationen har skapats, enligt beskrivningen i [Flytta artiklar från eftersläpningen till en upprepning eller [!UICONTROL Kanban] board](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#moving-stories-from-the-backlog) avsnitt i [Hantera den flexibla eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* Från eftersläpningen efter att upprepningen har skapats, enligt beskrivningen i avsnittet [Flytta artiklar från eftersläpningen till en iteration eller [!UICONTROL Kanban] board](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md#moving-stories-from-the-backlog) i [Hantera den flexibla eftersläpningen](../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
 
-* Från [!UICONTROL Details] sida för den enskilda uppgiften eller utgåvan
+* Från sidan [!UICONTROL Details] för den enskilda aktiviteten eller problemet
 * Från en uppgift eller en utleveranslista
 * Från en rapport
 * Från en kontrollpanel
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -51,35 +51,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förstå hur inlagda artiklar påverkar aktivitetsdatum
 
-Som standard när du lägger till en befintlig uppgift i en iteration är uppgiften [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] anges enligt följande:
+När du lägger till en befintlig uppgift i en iteration anges [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] som standard enligt följande:
 
-### Uppgift [!UICONTROL Planned Start Date]
+### Aktivitet [!UICONTROL Planned Start Date]
 
 * Uppgiften använder iterationens startdatum när:
 
-   * Projektet har ingen [!UICONTROL Planned Start Date] set.
-   * Projektets [!UICONTROL Planned Start Date] är *före* eller *på* iterationens startdatum.
+   * Projektet har ingen [!UICONTROL Planned Start Date] angiven.
+   * Projektets [!UICONTROL Planned Start Date] är *före* eller *på* projektets startdatum.
 
 * Aktiviteten använder projektets [!UICONTROL Planned Start Date] när:
 
-   * Projektets [!UICONTROL Planned Start Date] är *efter* iterationens startdatum.
+   * Projektets [!UICONTROL Planned Start Date] är *efter* upprepningens startdatum.
 
-### Uppgift [!UICONTROL Planned Completion Date]
+### Aktivitet [!UICONTROL Planned Completion Date]
 
 * Uppgiften använder iterationens slutdatum när:
 
-   * Projektet har ingen [!UICONTROL Planned Completion Date] set.
-   * Projektets [!UICONTROL Planned Start Date] är *före eller på* startdatum eller projektets startdatum [!UICONTROL Planned Completion Date] är *före eller på* iterationens slutdatum.
+   * Projektet har ingen [!UICONTROL Planned Completion Date] angiven.
+   * Projektets [!UICONTROL Planned Start Date] är *före eller*, dess startdatum eller projektets [!UICONTROL Planned Completion Date] är *före eller* dess slutdatum.
 
 * Aktiviteten använder projektets [!UICONTROL Planned Completion Date] när:
 
-   * Projektets [!UICONTROL Planned Start Date] är *efter* startdatum och projektets startdatum [!UICONTROL Planned Completion Date] är *efter* iterationens slutdatum.
+   * Projektets [!UICONTROL Planned Start Date] är *efter* iterationens startdatum och projektets [!UICONTROL Planned Completion Date] är *efter* iteration slutdatum.
 
-Du kan konfigurera enskilda Scrum-team så att de använder projektdatum som standard, i stället för upprepningsdatum. Mer information finns i avsnittet [Konfigurera hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Du kan konfigurera enskilda Scrum-team så att de använder projektdatum som standard, i stället för upprepningsdatum. Mer information finns i avsnittet [Konfigurera hur datum ska användas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Lägga till en artikel i en befintlig iteration
 
@@ -87,9 +87,9 @@ Så här lägger du till artiklar i en iteration direkt från uppgiften eller ut
 
 >[!IMPORTANT]
 >
->När aktiviteten har flyttats till iterationen kan du inte uppdatera [!UICONTROL Duration Type] eller [!UICONTROL Task Constraint]. [!UICONTROL Duration Type] är inställd på [!UICONTROL Simple] och [!UICONTROL Task Constraint] är inställd på [!UICONTROL Fixed Dates] om du vill att tidslinjen för aktiviteten ska vara konsekvent med tidslinjen för iterationen.
+>När aktiviteten har flyttats till upprepningen kan du inte uppdatera [!UICONTROL Duration Type] eller [!UICONTROL Task Constraint]. [!UICONTROL Duration Type] är inställt på [!UICONTROL Simple] och [!UICONTROL Task Constraint] är inställt på [!UICONTROL Fixed Dates] så att tidslinjen för aktiviteten hålls konsekvent med tidslinjen för iterationen.
 
-### Från fliken Åtgärder eller Utgåvor
+### Från fliken Åtgärder eller Problem
 
 Du kan lägga till vilken uppgift eller vilket problem som helst i en iteration om du har Hantera-åtkomst till projektet. Tänk på följande när du flyttar en uppgift eller ett problem till en iteration:
 
@@ -103,7 +103,7 @@ Du kan lägga till vilken uppgift eller vilket problem som helst i en iteration 
 1. Klicka på **[!UICONTROL More]** ![](assets/more-icon.png) > **[!UICONTROL Add to Iteration]**.\
    Du kan inte tilldela uppgifter eller ärenden som tilldelats icke-flexibla team.
 
-1. I **[!UICONTROL Add Stories]** anger du namnet på iterationen.
+1. Skriv namnet på iterationen i rutan **[!UICONTROL Add Stories]**.
 
    >[!NOTE]
    >

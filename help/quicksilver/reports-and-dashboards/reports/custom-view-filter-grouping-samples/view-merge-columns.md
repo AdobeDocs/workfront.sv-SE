@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +69,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 * Du kan sammanfoga två intilliggande kolumner och visa informationen från varje kolumn avgränsad med en radbrytning, eller så kan du sammanfoga informationen i två intilliggande kolumner utan någon avgränsare mellan informationen från varje kolumn.
 * Du kan sammanfoga informationen från mer än två kolumner genom att tillämpa samma syntax som beskrivs i den här artikeln på en redan delad kolumn och en intilliggande kolumn.
-* The `valueformat=HTML` -raden är obligatorisk i en delad kolumn. Annars innehåller kolumnerna ingen information (de är tomma) när rapporten exporteras från Adobe Workfront.
+* Raden `valueformat=HTML` är obligatorisk i en delad kolumn. Annars innehåller kolumnerna ingen information (de är tomma) när rapporten exporteras från Adobe Workfront.
 * Villkorsstyrd formatering kanske inte stöds i sammanslagna kolumner.
 
   Följande undantag finns:
@@ -78,11 +78,11 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    * När du exporterar vyn till en PDF-fil används villkorsstyrd formatering på den första kolumnen i en sammanfogad kolumn.
    * När du exporterar vyn till en Excel-fil visas sammanslagna kolumner som separata kolumner. De enskilda kolumnerna visar också sina respektive villkorliga formateringsregler.
 
-* Kolumner med **visningsalias** kan begränsa hur många kolumner du kan sammanfoga. Undvik dessa gränser genom att använda **visningsalias** -attribut. Om du måste inkludera **visningsalias** -attribut i en kolumn, kontrollera att det är det sista objektet i kolumnen.
+* Kolumner med attributet **viewalias** kan begränsa hur många kolumner du kan sammanfoga. Undvik dessa begränsningar genom att använda attributet **viewalias**. Om du måste ta med attributet **viewalias** i en kolumn kontrollerar du att det är det sista objektet i kolumnen.
 
 * Om du exporterar en lista med delade kolumner till ett Excel- eller tabbavgränsat format separeras dessa kolumner i den exporterade filen.
 
-* När en eller båda kolumnerna visas en `tile` textfält, infogas automatiskt en fast radbrytning i den sammanfogade kolumnen. Textfält med formatering är till exempel `tile` textfält. I det här fallet finns det en radkod för `type=tile` när du visar kolumnerna i textläge.
+* När en av eller båda kolumnerna visar ett `tile`-typfält, infogas automatiskt en fast radbrytning i den sammanfogade kolumnen. Textfält med formatering är till exempel `tile` textfält. I det här fallet finns radkoden `type=tile` när kolumnerna visas i textläge.
 
 ## Sammanfoga data från två kolumner utan radbrytning
 
@@ -100,11 +100,11 @@ Så här sammanfogar du data från två kolumner utan radbrytning:
 
    När du sammanfogar de två första kolumnerna i en lista eller rapport kommer Workfront före varje textrad som innehåller information om objektet i den första kolumnen med `column.0.` och textraderna som innehåller information om den andra kolumnen med `column.1.` .
 
-   Du måste före kolumnnumret i den första kolumnen skriva numret på den kolumnen. Kolumninventeringen börjar alltid med kolumnen längst till vänster i listan eller rapporten märkt som `column.0.`.
+   Du måste före kolumnnumret i den första kolumnen skriva numret på den kolumnen. Kolumninventeringen börjar alltid med kolumnen längst till vänster i listan eller rapporten `column.0.`.
 
    Om du delar mer än en kolumn måste du lägga till kolumnnumret på de kodrader som innehåller delningsinformationen för varje kolumn.
 
-   **Exempel:** Här följer textlägeskoden för en sammanfogad kolumn som innehåller tre separata kolumner, med början från den andra kolumnen i listan. De sammanfogade värdena är Projektnamn, Planerat startdatum och Projektägarens namn och det finns ingen brytning mellan de tre värdena:
+   **Exempel:** Följande är textlägeskoden för en sammanfogad kolumn som innehåller tre separata kolumner, med början från den andra kolumnen i listan. De sammanfogade värdena är Projektnamn, Planerat startdatum och Projektägarens namn och det finns ingen brytning mellan de tre värdena:
 
    `column.1.valuefield=name`
 
@@ -124,7 +124,7 @@ Så här sammanfogar du data från två kolumner utan radbrytning:
 
 ![](assets/shared-column-no-line-breaks-350x142.png)
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.
 
 ## Sammanfoga data från två kolumner med en radbrytning
 
@@ -137,7 +137,7 @@ Gör följande för att sammanfoga data från flera kolumner så att de visas i 
    >* Kolumnerna som du vill sammanfoga måste ligga intill varandra.
    >* Du måste klicka på den första kolumnen som du vill sammanfoga.
 
-1. Klicka **Växla till textläge** och lägg till följande kod i den mellersta kolumnen som du lade till i steg 1:
+1. Klicka på **Växla till textläge** och lägg till följande kod i den mittersta kolumnen som du lade till i steg 1:
 
    `value=<br>`
 
@@ -148,17 +148,17 @@ Gör följande för att sammanfoga data från flera kolumner så att de visas i 
    `sharecol=true`
 
 
-1. Klicka på den första kolumnen och klicka på **Växla till textläge** lägger du sedan till följande text i kolumnen:
+1. Klicka på den första kolumnen och klicka på **Växla till textläge** och lägg sedan till följande text i kolumnen:
 
    `sharecol=true`
 
-   När du sammanfogar de två första kolumnerna i en lista eller rapport kommer Workfront före varje textrad som innehåller information om objektet i den första kolumnen med `column.0.`, kolumnen med delningsinformation med `column.1.`och textraderna som innehåller information om den andra kolumnen med `column.2.`.
+   När du sammanfogar de två första kolumnerna i en lista eller rapport, kommer Workfront före varje textrad som innehåller information om objektet i den första kolumnen med `column.0.`, kolumnen med delningsinformationen med `column.1.` och textraderna som innehåller information om den andra kolumnen med `column.2.`.
 
-   Om den kombinerade kolumnen är i mitten av vyn numreras kolumnerna efter deras plats i vyn. Kolumninventeringen börjar alltid med kolumnen längst till vänster i listan eller rapporten märkt som `column.0.`.
+   Om den kombinerade kolumnen är i mitten av vyn numreras kolumnerna efter deras plats i vyn. Kolumninventeringen börjar alltid med kolumnen längst till vänster i listan eller rapporten `column.0.`.
 
    Om du delar mer än en kolumn måste du lägga till kolumnnumret i kodraderna som innehåller delningsinformationen.
 
-   **Exempel:** Här följer textlägeskoden för en delad kolumn som innehåller projektnamn, planerat startdatum och projektägarens namn med en radbrytning. Den delade kolumnen är den andra kolumnen i en projektvy.
+   **Exempel:** Följande är textlägeskoden för en delad kolumn som innehåller Projektnamn, Planerat startdatum och Projektägarens namn med en radbrytning. Den delade kolumnen är den andra kolumnen i en projektvy.
 
 
    `column.1.displayname=Project_StartDate_Owner`
@@ -203,4 +203,4 @@ Gör följande för att sammanfoga data från flera kolumner så att de visas i 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.

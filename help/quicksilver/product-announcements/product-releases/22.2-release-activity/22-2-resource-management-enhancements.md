@@ -25,7 +25,7 @@ in January 2022
 
 den 4 april 2022.
 
-En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2.2 finns i [2.2 versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Förbättringar av navigeringen för belastningsutjämnare för arbetsbelastning
 
@@ -37,23 +37,23 @@ För att förbättra din upplevelse när du använder belastningsutjämnaren har
 * Nu går det även att ändra storlek på den vänstra panelen.
 * Det finns nu ett helskärmsläge för Utjämning av arbetsbelastning.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Åtkomst till avancerade tilldelningar i arbetsbelastningsutjämnaren
 
 Om du vill göra det enklare och exaktare att tilldela arbetsobjekt kan du nu göra avancerade uppdrag när du tilldelar arbetsobjekt manuellt i Arbetsbelastningsutjämnaren. Före den här förbättringen har du åtkomst till avancerade uppdrag när du redigerar objekt, objektens rubriker eller i listor.
 
-Mer information finns i [Tilldela arbete manuellt med hjälp av Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+Mer information finns i [Tilldela arbete manuellt med hjälp av arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
 ## Ny formel för beräkning av användartillgänglighet när inställningen Standardschema har valts
 
 För att kunna ge mer korrekt information i resurshanteringsverktygen har vi ändrat formeln som Workfront använder för att beräkna användartillgänglighet när Workfront-administratören väljer Standardschema i Resurshanteringsinställningar. I den nya uppdateringen använder Workfront följande formel för att beräkna användartillgänglighet:
 
-Tillgängliga timmar för användare = (standardtimmar för schema - undantag) &#42; FTE - ledig tid
+Tillgängliga timmar för användare = (Standardtimmar för schema - undantag) &#42; FTE - Tid utanför timmar
 
 Före den här uppdateringen använde Workfront följande formel för att beräkna användartillgänglighet när Standardschema valdes:
 
-Tillgängliga timmar för användare = (standardtimmar för schema - (schemaundantag + lediga timmar) &#42; Användarens FTE-värde
+Tillgängliga timmar för användare = (Standardtimmar för schema - (Schemaundantag + Tid utan timmar) &#42; Användarens FTE-värde
 
 Mer information finns i [Konfigurera inställningar för resurshantering](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

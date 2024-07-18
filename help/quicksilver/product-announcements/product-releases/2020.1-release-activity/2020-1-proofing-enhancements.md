@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla korrekturförbättringar i version 2020.1. Dessa förbättringar är för närvarande tillgängliga i förhandsvisningsmiljön och kommer att vara tillgängliga i produktionsmiljön i slutet av mars eller början av april 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.1 finns på [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2020.1 versionsöversikt](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Uppdateringar av mätverktyget i korrekturläsaren
 

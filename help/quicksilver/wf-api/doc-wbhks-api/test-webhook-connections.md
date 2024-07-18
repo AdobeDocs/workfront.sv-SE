@@ -10,7 +10,7 @@ role: Developer
 exl-id: 7452ebfc-7c72-4fea-99ac-7f76b12404b8
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '806'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Följande krav krävs för att köra testerna:
 
 Dessa tester förutsätter också att din Document Webkroch-instans är registrerad. (Du kan registrera din instans i Workfront under Konfigurera > Dokument > Anpassade integreringar.)
 
-**Test 1: Tillhandahåll Document Webkroch-tjänsten för en användare**
+**Test 1: Etablera dokumentwebbkroktjänsten för en användare**
 
 Testar autentiserings-URL:en och tokens slutpunkts-URL:en för OAuth-baserade webkrockproviders.
 
@@ -84,7 +84,7 @@ Testar följande slutpunkter: /search
 1. Utför en sökning från modal.
 1. Kontrollera att sökresultaten är korrekta.
 
-**Test 7: Skicka dokument från Workfront till content management-systemet**
+**Test 7: Skicka dokument från Workfront till innehållshanteringssystemet**
 
 Testar följande slutpunkter: /files, /uploadInit, /upload
 
@@ -112,7 +112,7 @@ Testar följande slutpunkter: /download
 1. Skicka dokumentet till Workfront genom att välja Dokumentåtgärder > Skicka till.. > Workfront. Då skapas en ny dokumentversion i Workfront.
 1. Hämta dokumentet från Workfront genom att klicka på länken Hämta.
 
-**Test 10: Uppdatera åtkomsttoken (endast OAuth2 Webkrok providers)**
+**Test 10: Uppdatera åtkomsttoken (endast OAuth2-webbhotell)**
 
 Testar följande slutpunkter: Token Endpoint URL
 

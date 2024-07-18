@@ -29,11 +29,11 @@ Du kan tilldela utgåvor eller ta bort tilldelning från användare, team eller 
 
 Den här artikeln innehåller allmän information om effekten av att ändra problemtilldelningar. Mer information om hur du tilldelar problem finns i följande artiklar:
 
-* Mer information om hur du tilldelar problem finns i [Tilldela ärenden](../../../manage-work/issues/manage-issues/assign-issues.md) och [Ändra användartilldelningar för flera utgåvor i en lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* Information om hur du tilldelar problem finns i [Tilldela problem](../../../manage-work/issues/manage-issues/assign-issues.md) och [Ändra användartilldelningar för flera utgåvor i en lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
-* Mer information om hur du tilldelar problem med arbetsbelastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Mer information om hur du tilldelar problem med arbetsbelastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Viss information i den här artikeln gäller även för tilldelningar av uppgifter. Mer information om hur du tilldelar uppgifter och andra överväganden finns i [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Viss information i den här artikeln gäller även för tilldelningar av uppgifter. Mer information om hur du tilldelar uppgifter och andra överväganden finns i [Översikt över hur du ändrar aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## När användartilldelningar ska ändras i frågor
 
@@ -47,7 +47,7 @@ Du kan ändra användartilldelningarna av flera olika anledningar, bland annat f
 
 Du kan ta bort uppdrag från en utgåva åt gången eller ta bort uppdrag från flera utgåvor samtidigt.
 
-Mer information om hur du tar bort uppdrag från gruppärenden finns i [Ändra användartilldelningar för flera utgåvor i en lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+Mer information om hur du tar bort tilldelningar från grupputgåvor finns i [Ändra användartilldelningar för flera utgåvor i en lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 Tänk på följande när du tar bort uppdrag från ärenden:
 

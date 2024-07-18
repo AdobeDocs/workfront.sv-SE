@@ -23,7 +23,7 @@ Granska och kommentera i samma dokument som era kreativa team arbetar i. Med Spr
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Korrektur - översikt](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [Språköversikt](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Hantera korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

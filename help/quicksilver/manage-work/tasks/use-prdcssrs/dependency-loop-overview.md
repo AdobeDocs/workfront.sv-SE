@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ När du lägger till föregående relationer till uppgifter kan du stöta på be
 
 Beroendeslingor inträffar när du har två eller flera uppgifter som är beroende av varandra och som ska slutföras. Adobe Workfront tillåter inte att du skapar en föregående relation mellan uppgifter om den skapar en beroendeloop.
 
-**Exempel:** Uppgift 2 är en föregångare till Uppgift 1, vilket innebär att du måste slutföra Uppgift 2 innan du kan börja arbeta med Uppgift 1.
+**Exempel:** Aktivitet 2 är en föregångare till Aktivitet 1, vilket innebär att du måste slutföra Aktivitet 2 innan du kan börja arbeta med Aktivitet 1.
 
 Om du försöker göra Task 1 till en föregångare till Task 2 får du ett fel med en beroendeloop eftersom du inte kan starta Task 1 förrän Task 2 har slutförts, men uppgift 2 kan inte startas förrän Task 1 har slutförts.
 

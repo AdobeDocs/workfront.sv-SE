@@ -22,7 +22,7 @@ Projekt i Adobe Workfront och Microsoft Project är oftast kompatibla. Med de tv
 
 Mer information om hur du importerar projekt från Microsoft Project till Workfront finns i [Importera ett projekt från Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-Mer information om hur du exporterar ett projekt från Workfront till Microsoft Project finns i [Exportera ett projekt till Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
+Mer information om hur du exporterar ett projekt från Workfront för att importera det till Microsoft Project finns i [Exportera ett projekt till Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
 När du importerar sådana data är det viktigt att förstå hur informationen översätts från ett program till ett annat. I de flesta fall måste du göra några manuella ändringar i projektet när du har slutfört importen. 
 
@@ -32,7 +32,7 @@ När du importerar sådana data är det viktigt att förstå hur informationen �
 >
 >Planerade datum stämmer inte alltid överens i båda systemen. Avvikelser kan beaktas genom scheman och skillnader i systeminställningarna mellan Workfront och Microsoft Project. Dessa datumavvikelser kan också leda till skillnader i arbetsinsats, varaktighet och procent färdigt.
 
-| **Microsoft Project Field** | **Workfront Field** |
+| **Microsoft-projektfält** | **Workfront Field** |
 |---|---|
 | Projektets titel | Projektnamn |
 | Start- och slutdatum | Planerade start- och slutförandedatum |
@@ -45,7 +45,7 @@ När du importerar sådana data är det viktigt att förstå hur informationen �
 | Verklig start och slut | Faktiska start- och slutförandedatum |
 | Resursnamn | Uppgiftstilldelning |
 | Tilldelningsenheter | Tilldelningsallokeringsprocent |
-| Uppgiftsmeddelande | Uppgiftsbeskrivning |
+| Uppgiftsanteckning | Uppgiftsbeskrivning |
 | Föregående | Föregående |
 
 ## Översikt över data som inte ingår
@@ -62,5 +62,6 @@ Dessa fält innehåller, men är inte begränsade till, följande:
 * Uppdrag
 * Aktivitetsbegränsningar
 
-   >[!NOTE]
-   Eftersom begränsningar inte avbildas mellan Microsoft Project och Workfront bör du kontrollera att det finns föregående relationer mellan aktiviteterna. I annat fall är det inte säkert att de planerade start- och slutdatumen för aktiviteterna stämmer korrekt i det importerade projektet. 
+  >[!NOTE]
+  >
+  >Eftersom begränsningar inte avbildas mellan Microsoft Project och Workfront bör du kontrollera att det finns föregående relationer mellan aktiviteterna. I annat fall är det inte säkert att de planerade start- och slutdatumen för aktiviteterna stämmer korrekt i det importerade projektet. 

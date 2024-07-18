@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägg till ett korrektur i en [!DNL Basecamp Classic] Projekt](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
+* [Lägg till ett korrektur i ett [!DNL Basecamp Classic] projekt](../../../workfront-proof/wp-integrations/basecamp-classic/add-proof-basecamp-classic.md)
 * [Integrera [!DNL Workfront Proof] med [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/integrate-workfront-proof-basecamp-classic.md)
-* [Granska ett korrektur i [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)
+* [Granska ett korrektur i  [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md)

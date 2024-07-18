@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som ingår i version 2019.1. Funktionerna är nu tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2019.1 finns på [Aktivitetsöversikt för 2019.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.1 finns i [Översikt över versionsaktivitet för 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Uppdaterat standardfilter i resursplaneraren
 
@@ -41,11 +41,11 @@ Mer information om hur du använder filter i resursplaneraren finns i [Filtrera 
 
 ## Använda jokertecken för resursplaneringsfilter
 
-Du kan nu använda jokertecken när du skapar filter i resursplaneraren. Du kan till exempel använda $$USER.ID för att filtrera efter information om användaren som är inloggad, eller $$USER.companyID för att filtrera information om alla användare som tillhör samma företag som användaren som är inloggad. En fullständig lista över användarbaserade variabler finns i [Användarbaserade variabler för jokertecken](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) avsnitt i [Variabler för jokertecken](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Du kan nu använda jokertecken när du skapar filter i resursplaneraren. Du kan till exempel använda $$USER.ID för att filtrera efter information om användaren som är inloggad, eller $$USER.companyID för att filtrera information om alla användare som tillhör samma företag som användaren som är inloggad. En fullständig lista över användarbaserade variabler finns i avsnittet [Användarbaserade jokerteckensfiltervariabler](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md#user-based-variables) i [Jokerteckensfiltervariabler](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 Tidigare var jokertecken inte tillgängliga för resursplaneringsfiltren.
 
-Information om filtrering i resursplaneraren finns i [Filtrera information i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)
+Mer information om filtrering i resursplaneraren finns i [Filtrera information i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md)
 
 VIDEO
 
@@ -55,7 +55,7 @@ Du kan nu använda vilken version som helst av jokerteckensfiltervariabeln $$TOD
 
 Före den här förbättringen kunde du bara använda användarbaserade jokerteckensfiltervariabler.
 
-Information om filtrering i resursplaneraren finns i [Filtrera information i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Mer information om filtrering i resursplaneraren finns i [Filtrera information i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 Mer information om filtervariabler för jokertecken finns i [Variabler för jokertecken](../../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -73,7 +73,7 @@ Du kan exportera följande:
 
 Före den här förbättringen exporterades alla informationsnivåer i rollvyn. Dessa alternativ har lagts till i projekt- och användarvyerna i en tidigare version.
 
-Mer information om hur du exporterar information från resursplaneraren finns i [Exportera information från resursplaneraren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Mer information om att exportera information från resursplaneraren finns i [Exportera information från resursplaneraren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VIDEO
 
@@ -88,7 +88,7 @@ Du kan visa tillgänglighet och allokering av information som exporterats från 
 
 Före den här förbättringen visades informationen i den exporterade filen så som den visas i Workfront.
 
-Mer information om hur du exporterar information från resursplaneraren finns i [Exportera information från resursplaneraren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Mer information om att exportera information från resursplaneraren finns i [Exportera information från resursplaneraren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VIDEO
 
@@ -130,7 +130,7 @@ I användarvyn kan du exportera något av följande:
 
 Före den här förbättringen exporterades alla informationsnivåer som standard i alla vyer av resursplaneraren.
 
-Mer information om hur du exporterar information från resursplaneraren finns i [Exportera information från resursplaneraren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
+Mer information om att exportera information från resursplaneraren finns i [Exportera information från resursplaneraren](../../../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 VIDEO
 
@@ -142,4 +142,4 @@ Före den här uppdateringen är det bara de användare som har tilldelats till 
 
 Du kan använda användarbaserade filter för att minska antalet användare som visas i användarvyn till endast de som är tilldelade till de projekt som du vill visa.
 
-Mer information om filter i Resursplaneraren finns i [Filtrera information i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Mer information om filter i resursplaneraren finns i [Filtrera information i resursplaneraren](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).

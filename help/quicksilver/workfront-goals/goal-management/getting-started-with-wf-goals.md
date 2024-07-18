@@ -22,7 +22,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -32,7 +32,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Alla organisationer måste sätta upp och förmedla tydliga mål för att hålla sina team produktiva, fokuserade och engagerade. Att veta hur arbetet är anpassat till strategi är avgörande för framgång. Men utan ett dokumentsystem som kopplar samman er strategi och era mål med arbetet i organisationen kan det vara riktigt svårt att uppnå en anpassning.
 
@@ -40,7 +40,7 @@ Workfront-mål hjälper er att definiera, kommunicera och uppnå strategiska res
 
 Workfront Goals är en tilläggsmodul för Workfront huvudsakliga arbetshanteringsplattform. Programmet är avsett att fungera tillsammans med Workfront-plattformen och utnyttjar många av de plattformskonfigurations- och konfigurationsenheter som användare, team, grupper och projekt.
 
-Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../workfront-goals/goal-management/wf-goals-overview.md).
+Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Skapa en vision och en strategi för er organisation
 
@@ -48,7 +48,7 @@ En organisations uppdrag och vision förändras vanligtvis inte regelbundet. Men
 
 Vi har identifierat följande steg för att definiera din vision och strategi för din organisation:
 
-* [Definiera och uttrycka slutmålet](#define-and-express-the-end-goal)
+* [Definiera och uttryck slutmålet](#define-and-express-the-end-goal)
 * [Samarbeta kring mål för företag och organisationer](#collaborate-around-enterprise-and-organizational-goals)
 * [Justera grupper och team efter strategi](#align-groups-and-teams-to-strategy)
 
@@ -118,7 +118,7 @@ Gör följande:
   Mer information om hur du aktiverar, lägger till aktiviteter och uppdaterar mål finns i följande artiklar:
 
    * [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md)
-   * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Riktlinjer för att ställa in Workfront-mål

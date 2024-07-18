@@ -41,7 +41,7 @@ Att ändra status för ett projekt, en uppgift eller ett problem är vanligtvis 
 
 Adobe Workfront levereras med nio projektstatusar, tre aktivitetsstatusar och 10 problemstatusar. Mer information finns i följande artiklar:
 
-* [Öppna listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
+* [Öppna listan över systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
 * [Åtkomst till listan över status för systemaktivitet](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
 * [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
 

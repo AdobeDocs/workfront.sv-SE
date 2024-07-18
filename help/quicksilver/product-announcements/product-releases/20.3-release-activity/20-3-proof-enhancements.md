@@ -39,7 +39,7 @@ Mer information finns i [Lägga till en uppdatering i ett dokument](../../../doc
 >
 >Den här funktionen är bara tillgänglig i den nya Adobe Workfront-upplevelsen
 
-Om du vill effektivisera korrekturläsningen kan du nu se och redigera anpassade fält som ställts in i Workfront Korrektur på sidan Dokumentinformation i Workfront om du är med i korrekturarbetsflödet.
+Om du vill effektivisera korrekturläsningen kan du nu se och redigera anpassade fält som har ställts in i Workfront Proof på sidan Dokumentinformation i Workfront om du är med i korrekturarbetsflödet.
 
 Tidigare kunde du bara visa anpassade fält i korrekturläsaren.
 

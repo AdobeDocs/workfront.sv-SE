@@ -1,6 +1,6 @@
 ---
 navigation-topic: betas
-title: Betaprogram
+title: Beta
 description: Läs mer om de aktuella betaversionerna i Adobe Workfront.
 author: Alina
 feature: Product Announcements
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Betaprogram
+# Beta
 
 I artiklarna som är länkade från den här sidan beskrivs de aktuella betaprogrammen som är tillgängliga i Adobe Workfront. Funktioner som finns i betaversionen kanske inte är tillgängliga för alla kunder.
 

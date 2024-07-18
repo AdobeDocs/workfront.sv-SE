@@ -11,7 +11,7 @@ role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1495'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ I den här artikeln beskrivs vad som händer när en godkännandeprocess redan �
 
 I artikeln beskrivs också vad som händer när du flyttar eller kopierar uppgifter eller problem som är kopplade till en godkännandeprocess på gruppnivå mellan två projekt från olika grupper.
 
-Information om de tre olika typerna av godkännandeprocesser som du kan använda i Workfront finns i [Översikt över godkännandeprocessen](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Mer information om de tre typerna av godkännandeprocesser som du kan använda i Workfront finns i [Översikt över godkännandeprocessen](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Följande scenarier inträffar när en gruppspecifik godkännandeprocess redan a
   <tr> 
    <td>Avsnittet Köämne i ett projekt eller en mall</td> 
    <td>Problem</td> 
-   <td> <p>Standardgodkännandefältet återställs till Ej tillämpligt.</p> <p>Inga godkännandeprocesser är som standard kopplade till nya problem eller begäranden i projektet.</p> </td> 
+   <td> <p>Standardgodkännandefältet återställs till Ej tillämpligt.</p> <p>Inga godkännandeprocesser är som standard kopplade till nya problem eller förfrågningar i projektet.</p> </td> 
   </tr> 
  </tbody> 
 </table>

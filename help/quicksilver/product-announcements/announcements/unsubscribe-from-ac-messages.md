@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -26,16 +26,16 @@ Meddelanden från meddelandecentret skickas från Adobe Workfront till Workfront
 Så här säger du upp prenumerationen på meddelanden från meddelandecentret:
 
 1. Klicka på den numrerade ikonen ![](assets/notifications-icon-jewel.jpg) i det övre högra hörnet av Workfront för att öppna din lista över meddelanden.
-1. Klicka **Alla meddelanden** längst ned i listan.
+1. Klicka på **Alla meddelanden** längst ned i listan.
 
-   The **Meddelanden** visas med alla meddelanden.
+   Sidan **Meddelanden** visas med alla meddelanden.
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. Klicka **Inställningar** i det övre högra hörnet på sidan Meddelanden väljer du **Nya releaser** eller **Utbildning**, beroende på vilken typ av meddelanden du inte längre vill ha.
+1. Klicka på **Inställningar** i det övre högra hörnet på sidan Meddelanden och välj sedan **Nya utgåvor** eller **Utbildning**, beroende på vilken typ av meddelanden du inte längre vill ta emot.
 
    ![](assets/announcementcenter-settings-350x187.png)
 
-1. Klicka **Spara inställningar**.
+1. Klicka på **Spara inställningar**.
 
    Du kommer inte längre att få meddelanden från meddelandecentret för den här typen av meddelanden.

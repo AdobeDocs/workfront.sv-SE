@@ -35,11 +35,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> -->
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</td> 
+   <td>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till [!UICONTROL Documents]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till [!UICONTROL Documents]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -48,28 +48,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-* Du måste installera [!DNL Adobe Workfront for design and video] plugin-program innan du kan överföra dokument från [!DNL InDesign].
+* Du måste installera plugin-programmet [!DNL Adobe Workfront for design and video] innan du kan överföra dokument från [!DNL InDesign].
 
-   Instruktioner finns i [Installera [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
+  Instruktioner finns i [Installera [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
 ## Överför dokument till [!DNL InDesign]
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
 1. Gå till den arbetsuppgift där du vill överföra ett dokument.
-1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet.
 
-1. Klicka **[!UICONTROL New File]** nära plug-ins nederkant.
-1. (Valfritt) Skriv en kommentar i **[!UICONTROL Updates]** område.
+1. Klicka på **[!UICONTROL New File]** längst ned i plugin-programmet.
+1. (Valfritt) Skriv en kommentar i området **[!UICONTROL Updates]**.
 1. Välj **[!UICONTROL Asset Type]** i listrutan.
-1. Öppna **[!UICONTROL Set Export File Settings]** konfigurerar du önskade exportalternativ baserat på resurstypen ovan.
+1. Öppna dialogrutan **[!UICONTROL Set Export File Settings]** och konfigurera önskade exportalternativ baserat på den resurstyp som valts ovan.
 
    ![](assets/file-export-settings.png)
 1. Klicka på **[!UICONTROL Upload]**.
-Dokumentet visas i [!UICONTROL Documents] i plugin-programmet och datorprogrammet.
+Dokumentet visas i området [!UICONTROL Documents] i plugin-programmet och skrivbordsappen.

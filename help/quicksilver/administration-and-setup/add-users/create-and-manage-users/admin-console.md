@@ -18,7 +18,7 @@ ht-degree: 0%
 >
 >Funktionerna i den här artikeln är bara tillgängliga om din organisations instans av Workfront har anslutits till Adobe Business Platform.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Som Adobe-administratör kan du skapa Adobe Workfront-systemadministratörer med Adobe Admin Console. Konsolen är en central plats för att hantera Adobe i hela organisationen. Mer information finns i [Översikt över Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html).
 
@@ -59,7 +59,7 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
    eller
 
-   Om du redan har ett Adobe-konto går du till [Adobe Admin Console page](https://adminconsole.adobe.com/).
+   Om du redan har ett Adobe-konto går du till [Adobe Admin Console-sidan](https://adminconsole.adobe.com/).
 
 ## Mer information om Adobe Admin Console
 
@@ -92,7 +92,7 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
 ## Gå till användar- och administratörsområdet för din Production-instans av Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. Från [Adobe Admin Console page](https://adminconsole.adobe.com/)väljer du **Produkter** i det övre navigeringsfältet och sedan väljer **Workfront**.
+1. På [Adobe Admin Console-sidan](https://adminconsole.adobe.com/) väljer du fliken **Produkter** i det övre navigeringsfältet och sedan **Workfront**.
 
    <!--![](assets/admin-product-1.png)-->
 
@@ -104,12 +104,12 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
    >[!TIP]
    >
-   >Den andra länken i listan, din Preview-instans, är en testmiljö som replikerar din produktionsmiljö. Mer information finns i [Sandlådemiljön Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >Den andra länken i listan, din Preview-instans, är en testmiljö som replikerar din produktionsmiljö. Mer information finns i [Sandlådemiljön för Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
    >
    >
-   >Du kan också se länkar till sandlådemiljöer i listan. Mer information finns i [Sandlådemiljön Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   >Du kan också se länkar till sandlådemiljöer i listan. Mer information finns i [Sandlådemiljön för Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-1. I listan som visas med **Produktprofiler** klickar du på namnet på länken Workfront produktprofil.
+1. Klicka på länken Workfront produktprofil i den lista som visas med fliken **Produktprofiler** markerad.
 
    ![](assets/prod-profile-1.png)
 
@@ -132,10 +132,10 @@ Innan du använder Admin Console för Workfront bör du få ett e-postmeddelande
 
 Du måste lägga till en användare i din Production-instans av Workfront innan du kan göra användaren till Workfront-systemadministratör.
 
-1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
-1. Välj **Administratörer** -fliken ovanför listan med användare.
+1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Öppna användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
+1. Välj fliken **Administratörer** ovanför listan över användare.
 1. Välj **Lägg till administratör**.
-1. I **Lägg till produktprofiladministratörer** anger du e-postadresserna eller namnen på de administratörer som du vill lägga till och väljer **Spara**.
+1. I rutan **Lägg till administratörer för produktprofiler** anger du e-postadresserna eller namnen för de administratörer som du vill lägga till och väljer sedan **Spara**.
 
    ![](assets/add-admin-1.png)
 
@@ -157,9 +157,9 @@ Du måste lägga till en användare i din Production-instans av Workfront innan 
 
 ### Skapa användare i Workfront direkt i Adobe Admin Console
 
-1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Gå till användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
-1. Med **Användare** som är markerad ovanför listan, välj **Lägg till användare**.
-1. I **Lägg till användare i den här produktprofilen** anger du e-postadressen eller namnet på en användare som du vill lägga till och väljer **Spara**.
+1. Gå till användar- och administratörsområdet i Admin Console, enligt beskrivningen i avsnittet [Öppna användar- och administratörsområdet för din Production-instans av Workfront](#access-the-user-and-admin-area-for-your-production-instance-of-workfront) i den här artikeln.
+1. Markera fliken **Användare** ovanför listan och välj **Lägg till användare**.
+1. I rutan **Lägg till användare i den här produktprofilen** anger du e-postadressen eller namnet på en användare som du vill lägga till och väljer sedan **Spara**.
 
    Användaren skapas i Workfront med åtkomstnivån Begärande.
 
@@ -197,13 +197,13 @@ Godkänna en användare:
 
 {{step-1-to-users}}
 
-1. Markera användaren och klicka sedan på **Mer** icon ![](assets/more-icon.png).
+1. Markera användaren och klicka sedan på ikonen **Mer** ![](assets/more-icon.png) .
 
-1. Klicka på **Godkänn** och sedan klicka **Skicka**.
+1. Om du vill godkänna användaren klickar du på **Godkänn** och sedan på **Skicka**.
 
    eller
 
-   Om du vill avvisa användaren och ta bort den från Workfront klickar du på **Avvisa** och sedan klicka **Skicka**.
+   Om du vill avvisa användaren och ta bort dem från Workfront klickar du på **Avvisa** och sedan på **Skicka**.
 
    Godkända användare läggs automatiskt till i Adobe Admin Console.
 

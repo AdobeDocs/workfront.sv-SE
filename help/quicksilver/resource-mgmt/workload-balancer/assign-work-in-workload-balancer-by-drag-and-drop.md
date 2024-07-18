@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer genom att dra och släppa arbetsobjekt till rätt användare.
 
-Allmän information om hur du tilldelar arbete till användare med hjälp av Utjämning av arbetsbelastning finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Allmän information om hur du tilldelar arbete till användare med hjälp av arbetsbelastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Åtkomstkrav
 
@@ -49,11 +49,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Problem</p> </li> 
     </ul> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,15 +66,15 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
 1. Gå till den arbetsbelastningsutjämnare där du vill tilldela arbete.
 
-   Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Valfritt) Gå till **Ej tilldelat arbete** och använda ett filter för att visa uppgifter och ärenden som inte tilldelats användare
+1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter och ärenden som inte har tilldelats användare
 
    eller
 
-   Gå till **Tilldelat arbete** och expandera namnet på en användare för att visa arbetsobjekten som tilldelats dem, om du vill tilldela om deras poster.
+   Gå till området **Tilldelad arbetsplats** och expandera namnet på en användare för att visa de arbetsobjekt som har tilldelats dem, om du vill tilldela om deras objekt.
 
-1. (Villkorligt) Klicka på knappen **Visa alla användare** icon ![](assets/show-all-users-icon-project-workload-balancer.png) för att visa alla Workfront-användare.
+1. (Villkorligt) Klicka på ikonen **Visa alla användare** ![](assets/show-all-users-icon-project-workload-balancer.png) i arbetsbelastningsutjämnaren för ett projekt om du vill visa alla Workfront-användare.
 
    Detta visar alla användare som du har åtkomst till för att visa.
 
@@ -90,7 +90,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
 
 
-1. Klicka på fältet för en arbetsuppgift som anger den planerade eller den planerade tidslinjen och dra den över namnet på en användare i **Tilldelad** område.
+1. Klicka på fältet för en arbetsuppgift som anger antingen den planerade eller den planerade tidslinjen och dra den över namnet på en användare i området **Tilldelad**.
 
    Användaren som du för pekaren över för att släppa arbetsobjektet markeras.
 
@@ -109,14 +109,14 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
    >* Om du har aktiverat Gruppera efter projekt i området Inställningar visas den tilldelade uppgiften under motsvarande projekt. Om inställningen är inaktiverad visas den tilldelade uppgiften i användarområdet.
    >
    >
-   >     Objektet visas enligt kriterierna för belastningsutjämnare för arbetsbelastning för sortering av arbetsobjekt. Mer information finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >     Objektet visas enligt kriterierna för belastningsutjämnare för arbetsbelastning för sortering av arbetsobjekt. Mer information finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
    >* Om du har aktiverat Visa alla användare i belastningsutjämnaren för ett projekt och tilldelade objekt till användare som inte tidigare har tilldelats till objekt i projektet, läggs användarna till i projektgruppen. Mer information finns i [Hantera projektteam](../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 
 1. (Valfritt) Klicka på fältet för ett arbetsobjekt under namnet på en användare i området Tilldelat arbete och dra det sedan över området Ej tilldelat arbete för att ta bort tilldelningen. Artikeln har inte tilldelats från användaren, men den kan fortfarande tilldelas en jobbroll. I så fall visas den i området Ej tilldelat arbete. Om objektet är tilldelat en annan användare finns det kvar i området Tilldelad arbetsyta under namnet på den användare som fortfarande är tilldelad.
-1. (Valfritt) Klicka på **Ikonen Visa allokeringar** ![](assets/show-allocations-icon-small.png)och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
+1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![](assets/show-allocations-icon-small.png) och sedan på menyn **Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -125,7 +125,7 @@ Du kan tilldela en artikel från området Ej tilldelat arbete till en användare
 
    Dubbelklicka på en daglig eller veckovis allokering för att ändra den tid som användaren tilldelas arbetsuppgiften.
 
-   Mer information om hur du ändrar användartilldelningar i Utjämning av arbetsbelastning finns i avsnittet Ändra användartilldelningar i artikeln [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Mer information om hur du ändrar användartilldelningar i arbetsbelastningsutjämnaren finns i avsnittet &quot;Ändra användartilldelningar&quot; i artikeln [Hantera användartilldelningar i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   Mer information om hur du tar bort tilldelningar från ett arbetsobjekt med hjälp av arbetsbelastningsutjämnaren finns i [Ta bort tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   Mer information om hur du tar bort tilldelningar från ett arbetsobjekt med hjälp av arbetsbelastningsutjämnaren finns i [Ta bort tilldelning av arbete i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 

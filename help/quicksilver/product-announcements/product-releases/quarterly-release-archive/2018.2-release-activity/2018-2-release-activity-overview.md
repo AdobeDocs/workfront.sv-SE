@@ -20,8 +20,8 @@ ht-degree: 0%
 >
 > Version 18.2 gjordes tillgänglig i produktionsmiljön följande datum:
 >
->* Workfront Proof Production Environment - tisdag den 17 juli
->* Workfront produktionsmiljö för kluster 2 och 4 - torsdag den 19 juli 
+>* Workfront Proof produktionsmiljö - tisdag den 17 juli
+>* Workfront produktionsmiljö för kluster 2 och 4  - Torsdag, 19 juli 
 >* Workfront produktionsmiljö för kluster 1, 3 och 5 - fredag 20 juli
 >
 
@@ -52,8 +52,8 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 * [Snabbfilter för projektlistor](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
 * [Öka exportgränsen för Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
 * [Stöd för Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
-* [Ny exportgräns för Gantt-schema](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
-* [Visa korsprojektsrelationer i Gantt-schemat i en projektlista](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
+* [Ny exportgräns för Gantt-schemat](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-export-limit-for-the-gantt-chart) 
+* [Visa korsprojektsföreträdarrelationer i Gantt-schemat i en projektlista](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#view-cross-project-predecessor-relationshipts-in-the-gantt)
 * [Använd budgeterad kostnad i Portfolio-optimering för att beräkna Portfolio-ekonomi](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#use-budgeted-cost-in-the-portfolio-optimizer)
 * [Ändra aktivitetsdatum i Gantt-schemat](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#modify-task-dates-in-the-gantt-chart)
 * [Gå till Project Gantt-schemat från fliken Uppdateringar](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#access-the-project-gantt-chart-from-the-updates-tab)
@@ -63,14 +63,14 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 ### Hem (mitt arbete har uppdaterats)
 
 * [Kalendervy i hemområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#calendar-view-in-the-home-area) 
-* [Ytterligare uppdateringar av arbetslistan (vänster panel) i hemmet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home) 
+* [Ytterligare uppdateringar i arbetslistan (vänster panel) i Hem](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#additional-updates-to-the-left-panel-in-home) 
 * [Uppdaterad arbetslista (vänster panel) i hemområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#updated-work-list-in-the-home-area) 
 * [Redigera fält direkt från hemområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#edit-fields-directly-from-the-home-area)
 
 ### Förbättringar av resurshantering
 
 * [Förbättringar av projekt- och rollvyn i resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#project-and-role-view-improvements-in-the-resource-planner) 
-* [Konfigurera begränsningar för jobbroller för automatisk resursschemaläggning](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling) 
+* [Konfigurera jobbrollsgränser för automatisk resursplanering](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-job-role-limits-for-automated-resource-scheduling) 
 * [Exportera användarvyn i resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#exporting-the-user-view-in-the-resource-planner)
 * [Användningsrapport: Fyller i budgeterade timmar från det nya resursbudgeteringsområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-populates-budgeted-hours-from-new-resource-budgeting-area)
 * [Användningsrapport: Visa budgeterade timmar per användare i ett projekt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#utilization-view-budgeted-hours-by-user)
@@ -78,28 +78,28 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 
 ### Förbättringar av Agile
 
-* [Förbättringar av gränsen för pågående arbete för kanban-styrelsen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
-* [Förbättrat gränssnitt för konfigurering av status för ett Agile-team](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
+* [Förbättringar av begränsning av pågående arbete (WIP) för kanban-styrelsen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#wip-limit-enhancements-on-the-kanban-board)
+* [Förbättrat gränssnitt för konfigurering av status för ett team](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#improved-interface-for-configuring-statuses-for-an-agile-team)
 
 * [Ange flaggor för artiklar på Kanban-styrelsen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#set-flags-for-stories-on-the-kanban-board) 
 * [Redigera fält direkt på ett artikelkort](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#edit-fields-directly-on-an-agile-story-card) 
 
 ### Rapportförbättringar
 
-* [ReferensÄrendesamlingar i projekt- och uppgiftsrapporter](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports) 
+* [Referensutgåvsamlingar i projekt- och aktivitetsrapporter](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#reference-issue-collections-in-project-and-task-reports) 
 
 ### Mobilförbättringar
 
-* [Mobilförbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements)  Nyhet! (i Beta Final)
+* [Mobila förbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#mobile-improvements) Nyhet! (i Beta Final)
 
-* [Mobilförbättringar i mobilappen Android Beta](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
-* [Ny betamiljö för Android tillsammans med nya funktioner](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
+* [Mobilförbättringar i Android Beta-mobilappen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#mobile-improvements-in-the-android-beta-mobile-app) 
+* [Ny Beta-miljö för Android tillsammans med nya funktioner](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#launching-the-beta-environment-for-android-along-with-new-features) 
 
 ### Integreringsförbättringar
 
-* [Workfront för Salesforce](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Kommer snart!
+* [Workfront för Salesforce](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-salesforce) Kommer snart!
 
-* [Förbättringar av Workfront för Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements)  Nyhet! (i Beta Final)
+* [Förbättringar för Workfront för Slack](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#workfront-for-slack-improvements) Nytt! (i Beta Final)
 
 ### API-förbättringar
 
@@ -110,13 +110,13 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 * [Lägg till användare i ett korrektur direkt från korrekturläsaren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-users-to-a-proof) 
 * [Visa alla markeringsverktyg i korrekturläsaren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#display-all-markup-tools) 
 * [Konfigurera standardalternativ för sortering i korrekturläsaren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-default-sorting-options)
-* [Visa Workfront-dokumentgodkännanden i korrekturläsaren för skrivbordet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
+* [Visa Workfront-dokumentgodkännanden i Desktop Proofing Viewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-workfront-document-approvals-for-specific-versions-in-the-proofing-viewer)
 * [Konfigurera länkar som öppnar nya flikar och fönster för att öppnas i Desktop Proofing Viewer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#configure-links-that-open-new-tabs-and-windows-to-open-within-the-dekstop-proofing-viewer) 
 * [Visningsindikator i korrekturläsaren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#presence-indicator-in-the-proofing-viewer)
 * [Filtrera kommentarer för att visa en sida för interaktiva URL-korrektur i korrekturläsaren för skrivbordet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#filter-comments-to-display-a-single-page-for-interactive-url-proofs)
 * [Desktop Proofing Viewer for Static and Video Content](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#desktop-proofing-viewer-for-static-and-video-content)
 * [Lägg till anpassade enheter i systemet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-custom-devices-to-your-system) 
-* [Ny Desktop Proofing Viewer för korrektur av interaktivt material (multimedia)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
+* [Ny Desktop Proofing Viewer för korrektur av interaktivt (multimedia) innehåll](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#new-desktop-proofing-viewer-for-proofing-interactive-content) 
 
 ### Förbättringar av korrektur i Workfront
 
@@ -125,28 +125,28 @@ Den här sidan innehåller information om de funktioner som finns i version 2018
 * [Visa historiska data för korrekturgodkännanden i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#view-historical-data-for-proof-approvals-in-workfront) 
 * [Korrekturstatus från dokumentlistan som är tillgänglig för icke-språkliga användare](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#proof-progress-from-the-document-list-available)
 
-### Förbättringar av korrektur i Workfront
+### Förbättringar av korrektur i Workfront Proof
 
 * [Skapa en ny version av ett korrektur direkt från korrekturläsaren (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#create-a-new-version-of-a-proof-directly-from-the-proofing-viewer)
-* [Länk till ny korrekturinformation i korrekturläsaren och korrekturläsaren för skrivbordet (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
+* [Länk till ny korrekturinformation i korrekturläsaren och korrekturläsaren för skrivbordet (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-proof-details-link-in-the-proofing-viewer) 
 
 ### Andra förbättringar
 
-* [Ny mer robust versionsmeny när nya dokumentversioner läggs till i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
+* [Ny, mer robust version-meny när nya dokumentversioner läggs till i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront) 
 * [Alternativet Klistra in från Urklipp visas nu som nedtonat när du använder Internet Explorer eller Safari](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#paste-from-clipboard-option-now-disaplys-as-dimmed-in-ie-and-safari)
 * [Förbättrad sökrelevans för flera ord](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
-* [Mobilförbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
+* [Mobila förbättringar](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
 * [Olika länkar återinfördes till dokument i dokumentlistan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
-* [Ta emot e-postmeddelanden för kommentarer om dokument](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)  Nyhet!
+* [Ta emot e-postmeddelanden om kommentarer om dokument](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents) Nytt!
 
-* [Systemspårade uppdateringar innehåller inte längre en ikon](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon)  Nyhet!
+* [Systemspårade uppdateringar innehåller inte längre ikonen ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Nyhet!
 
-* [Alternativ för att konvertera en kommentar till en uppgift har tagits bort](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#option-to-convert-a-comment-to-a-task-removed)  Nyhet!
+* [Alternativet att konvertera en kommentar till en aktivitet har tagits bort](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#option-to-convert-a-comment-to-a-task-removed) Nytt!
 
 ## Meddelanden {#announcements}
 
 * [TLS-stödet upphör](#tls-support-is-ending)
-* [Borttagning av Flash](#flash-application-removal)
+* [Borttagning av Flash-program](#flash-application-removal)
 * [Stöd för Microsoft Outlook-tillägg upphör](#microsoft-outlook-add-in-support-is-ending)
 * [Tar bort gamla API-versioner](#removing-old-api-versions)
 
@@ -168,7 +168,7 @@ Den här funktionen omfattar:
 
 * Portfolio Optimizer kommer att ersättas med nya Portfolio Optimizer
 
-  Mer information finns i [Portfolio Optimizer - översikt](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Mer information finns i [Översikt över Portfolio-optimering](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * Kapacitetsplaneraren kommer att ersättas med den nya resursplaneraren
 
@@ -202,7 +202,7 @@ Den här funktionen omfattar:
 
   Mer information finns i följande resurser:
 
-   * [Granska korrektur i webbkorrekturläsaren](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [Granska korrektur i Web Proofing Viewer](https://support.workfront.com/hc/en-us/sections/115000275214)
    * [Granska korrektur i Desktop Proofing Viewer](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Stöd för Microsoft Outlook-tillägg upphör {#microsoft-outlook-add-in-support-is-ending}
@@ -216,10 +216,10 @@ När du installerar nya Workfront för Outlook i någon av dina miljöer kan dit
 Använd följande resurser för att lära dig mer om Workfront för Outlook och komma igång:
 
 * [Webbplats och video](https://www.workfront.com/integrations/outlook) 
-* [Använda Workfront med Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (hjälpartikel)
+* [Använda Workfront med Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (hjälpartikel)
 
 ### Tar bort gamla API-versioner {#removing-old-api-versions}
 
 Som en del av vårt pågående arbete med att förbättra vårt API tar vi bort gamla API-versioner som inte längre är kompatibla med senare versioner av Workfront.
 
-Se [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md) för mer information. 
+Mer information finns i [API-versionshantering och supportschema](../../../../wf-api/api/api-version-support-schedule.md). 

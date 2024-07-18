@@ -4,24 +4,24 @@ content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Åtgärder som ska vidtas efter installation av en plan
-description: I den här artikeln beskrivs vad du bör göra när du har installerat en plan i [!DNL Adobe Workfront] för att fullt ut distribuera planen till era systemanvändare.
+description: I den här artikeln beskrivs vad du bör göra efter att du har installerat en plan i  [!DNL Adobe Workfront] för att fullständigt distribuera den till dina systemanvändare.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
 
 # Åtgärder som ska vidtas efter installation av en plan
 
-I den här artikeln beskrivs vad du bör göra när du har installerat en plan i [!DNL Adobe Workfront] för att fullt ut distribuera planen till era systemanvändare.
+I den här artikeln beskrivs vad du bör göra efter att du har installerat en plan i [!DNL Adobe Workfront] för att fullständigt distribuera den till systemanvändarna.
 
 * [Rekommendationer för projektmallar](#project-template-recommendations)
-* [Organisationsstrukturrekommendationer](#organizational-structure-recommendations)
+* [Rekommendationer för organisationsstruktur](#organizational-structure-recommendations)
 * [Instrumentpanelsrekommendationer](#dashboard-recommendations)
 
 ## Rekommendationer för projektmallar {#project-template-recommendations}
@@ -38,11 +38,11 @@ Installationsprocessen kopplar inte projektmallen till några anpassade formulä
 
 ### Uppdatera varaktighet för malluppgift och uppskattningar av arbetsinsats {#update-template-task-duration-and-effort-estimates}
 
-Varje aktivitet i mallen innehåller en planerad varaktighet och planerad ansträngningsberäkning. Dessa uppskattningar fungerar som en utgångspunkt för varaktighet och tid för dessa aktiviteter. Organisationens funktioner, färdigheter och tempo är dock unika. Du bör granska varje uppgifts beräknade varaktighet och arbetsinsats för att justera den efter organisationens behov. Mer information finns i [Hantera aktivitetsinformation i [!UICONTROL Task Details Overview] area](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
+Varje aktivitet i mallen innehåller en planerad varaktighet och planerad ansträngningsberäkning. Dessa uppskattningar fungerar som en utgångspunkt för varaktighet och tid för dessa aktiviteter. Organisationens funktioner, färdigheter och tempo är dock unika. Du bör granska varje uppgifts beräknade varaktighet och arbetsinsats för att justera den efter organisationens behov. Mer information finns i [Hantera aktivitetsinformation i [!UICONTROL Task Details Overview]-området](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 
-### Associera en milstolpe-bana och milstolpar {#associate-a-milestone-path-and-milestones}
+### Koppla en milstolpe och milstolpar {#associate-a-milestone-path-and-milestones}
 
-Installationsprocessen kopplar inte projektmallen till en milstolpe-sökväg. Använd en milstolpe för mallen och använd milstolpar på viktiga uppgifter i mallen för att stödja dina behov av milstolpe-rapportering. Mer information finns i [Koppla milstolpar till uppgifter](../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+Installationsprocessen kopplar inte projektmallen till en milstolpe-sökväg. Använd en milstolpe för mallen och använd milstolpar på viktiga uppgifter i mallen för att stödja dina behov av milstolpe-rapportering. Mer information finns i [Associera milstolpar med uppgifter](../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 ### Fyll i mallen för ditt team {#roll-out-the-template-to-your-team}
 
@@ -50,24 +50,24 @@ Ta fram utbildningsmaterial för både de arbetsledare som ska använda den här
 
 ### Skapa eller uppdatera rapporter och kontrollpaneler {#create-or-update-reports-and-dashboards}
 
-Om lösningen representerar en ny typ av arbete som din organisation inte har utfört tidigare i [!DNL Workfront]kan du behöva skapa nya rapporter och kontrollpaneler för att få stöd för arbetet. Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) och [Skapa en instrumentpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Om lösningen representerar en ny typ av arbete som din organisation inte har utfört tidigare i [!DNL Workfront], kan du behöva skapa nya rapporter och instrumentpaneler för att stödja arbetet. Mer information finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) och [Skapa en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-Om lösningen liknar det arbete som du redan har utfört i [!DNL Workfront]bör du verifiera att arbetet matas in i befintliga rapporter och kontrollpaneler som förväntat. Om den inte matas in i din befintliga rapportering ska du vidta åtgärder för att uppdatera filter eller skapa nya rapporter.
+Om lösningen liknar det arbete som du redan har utfört i [!DNL Workfront] bör du verifiera att arbetet matas in i befintliga rapporter och instrumentpaneler som förväntat. Om den inte matas in i din befintliga rapportering ska du vidta åtgärder för att uppdatera filter eller skapa nya rapporter.
 
-## Organisationsstrukturrekommendationer {#organizational-structure-recommendations}
+## Rekommendationer för organisationsstruktur {#organizational-structure-recommendations}
 
 Det här avsnittet innehåller rekommendationer för de organisationsstrukturelement som installeras med dina utkast.
 
 ### Företag
 
-När du har installerat en plan som innehåller ett företag:
+Efter installation av en plan som innehåller ett företag:
 
 * Lägg till ett anpassat formulär för att förstärka företagets post med användbar information (formuläret och dess detaljer är unika för dig). Mer information finns i [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-* Om företaget representerar en kund ska du granska de åsidosättningssatser som är kopplade till företaget. Mer information finns i [Åsidosätt faktureringssatser för jobbroller på företagsnivå](../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+* Om företaget representerar en kund ska du granska de åsidosättningsfrekvenser som är kopplade till företaget. Mer information finns i [Åsidosätta faktureringstariffer för jobbroller på företagsnivå](../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 * Om företaget representerar en kund och om det finns andra projektmallar som är unika för just den organisationen måste du först associera projektmallarna med det nya företaget. Mer information finns i [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Om företaget representerar en kund eller leverantör ska du associera befintliga användare från den externa organisationen som redan finns i din miljö. Mer information finns i [Skapa och redigera företag](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * Om företaget representerar en kund eller leverantör skapar du ytterligare medarbetaranvändare för den externa organisationen som du kan behöva i din miljö för att effektivisera kommunikation, utförande av arbete och godkännanden. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* Uppdatera organisationsschemans relationer för alla användare som nu är kopplade till det nyligen tillagda företaget. Mer information finns i [Skapa direktrapporter](../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) och [Visa organisationsschemat](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+* Uppdatera organisationsschemans relationer för alla användare som nu är kopplade till det nyligen tillagda företaget. Mer information finns i [Skapa direkta rapporter](../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) och [Visa organisationsschemat](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 Mer information om företag finns i [Skapa och redigera företag](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
@@ -81,11 +81,11 @@ Kontrollpanelerna som läggs till från en plan har en eller flera rapporter, ex
 
 ### Uppdatera nyskapade rapporter för att lägga till/ta bort kolumner eller filtervillkor
 
-Rapporterna som distribueras via en instrumentpanelsritning har inte alla kolumner eller filtervillkor som stöder din konfiguration av [!DNL Workfront]. Du förväntas göra vissa justeringar av rapporterna så att de passar dina standarder. Om du vill skapa konsekvens med andra rapporter i miljön kanske du vill lägga till en kolumn som du inkluderar i alla rapporter för objektet som visas, eller lägga till filtervillkor som begränsar resultaten till en viss projekttyp eller användargrupp. Mer information finns i [Skapa eller redigera vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) och [Skapa eller redigera filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Rapporterna som distribueras via en instrumentpanelsplan har inte alla kolumner eller filtervillkor som stöder konfigurationen av [!DNL Workfront]. Du förväntas göra vissa justeringar av rapporterna så att de passar dina standarder. Om du vill skapa konsekvens med andra rapporter i miljön kanske du vill lägga till en kolumn som du inkluderar i alla rapporter för objektet som visas, eller lägga till filtervillkor som begränsar resultaten till en viss projekttyp eller användargrupp. Mer information finns i [Skapa eller redigera vyer](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) och [Skapa eller redigera filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Dela paneler och rapporter med användare
 
-Om du inte tänker placera kontrollpanelen i en layoutmall bör du dela kontrollpanelen med de personer som tycker att den är användbar. Mer information finns i [Dela en kontrollpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) och [Dela en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
+Om du inte tänker placera kontrollpanelen i en layoutmall bör du dela kontrollpanelen med de personer som tycker att den är användbar. Mer information finns i [Dela en instrumentpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) och [Dela en rapport](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 
 ### Lägga till kontrollpaneler i layoutmallar
 
@@ -97,4 +97,4 @@ Genom att en ny kontrollpanel och dess rapporter introduceras kan andra befintli
 
 ### Distribuera anpassade data till relevanta formulär
 
-Vissa rapporter som ingår i en kontrollpanelsöversikt har anpassade datafält i antingen vyn, filtret eller grupperingen av rapporten. I vissa fall har designen även ett formulär som dessa fält är kopplade till. I de flesta fall används emellertid inte anpassade fält i anpassade formulär. För att kolumnerna, filtren eller grupperingarna ska fungera på rätt sätt måste dessa fält kopplas till formulär som är kopplade till en användar-, projekt-, uppgift- eller annan objektpost. Mer information finns i [Lägga till ett anpassat fält i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+Vissa rapporter som ingår i en kontrollpanelsöversikt har anpassade datafält i antingen vyn, filtret eller grupperingen av rapporten. I vissa fall har designen även ett formulär som dessa fält är kopplade till. I de flesta fall används emellertid inte anpassade fält i anpassade formulär. För att kolumnerna, filtren eller grupperingarna ska fungera på rätt sätt måste dessa fält kopplas till formulär som är kopplade till en användar-, projekt-, uppgift- eller annan objektpost. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

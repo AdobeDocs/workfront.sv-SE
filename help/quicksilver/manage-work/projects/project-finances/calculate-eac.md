@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa åtkomst till projekt och finansiella data</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -76,7 +76,7 @@ EAC för den överordnade uppgiften och projektet bestäms genom att sammanfatta
 
 ## Beräkna EAC utifrån prestandaindexmetoden (PIM)
 
-I Workfront beror beräkningen för EAC på projektets valda PIM-metod (Performance Index Method). Mer information om hur du ställer in PIM för ditt system eller för ditt projekt finns i [Ange PIM (Performance Index Method)](../../../manage-work/projects/project-finances/set-pim.md).
+I Workfront beror beräkningen för EAC på projektets valda PIM-metod (Performance Index Method). Mer information om hur du anger PIM för ditt system eller för ditt projekt finns i [Ange PIM (Performance Index Method)](../../../manage-work/projects/project-finances/set-pim.md).
 
 * [Beräkna EAC med timbaserad PIM](#calculate-eac-using-hour-based-pim)
 * [Beräkna EAC med kostnadsbaserad PIM](#calculate-eac-using-cost-based-pim)
@@ -87,9 +87,9 @@ I Workfront beror beräkningen för EAC på projektets valda PIM-metod (Performa
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42;Om kostnadsprestandaindex [Beräkna index för kostnadsprestanda (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Totalt antal planerade timmar + faktiska timmar. Detta inträffar när timmar har hämtats, men projektet/aktiviteten är 0 % slutförd.
+&#42;Om kostnadsprestandaindex [Beräkna kostnadsprestandaindex (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = totalt antal planerade timmar + faktiska timmar. Detta inträffar när timmar har hämtats, men projektet/aktiviteten är slutförd till 0 %.
 
-Mer information om hur du beräknar CPI finns i [Beräkna index för kostnadsprestanda (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Mer information om hur du beräknar CPI finns i [Beräkna kostnadsprestandaindex (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
 ### Beräkna EAC med kostnadsbaserad PIM {#calculate-eac-using-cost-based-pim}
 
@@ -99,19 +99,19 @@ EAC för ett projekt beräknas med följande formel:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>EAC Labor =  <em>IF</em> CPI-arbete &lt;&gt; 0 THEN EAC-arbete = Planerad arbetskostnad / CPI-arbete</pre><pre><em>ELSE</em> EAC-arbetskostnad = Planerad arbetskostnad + faktisk arbetskostnad</pre><pre>CPI-arbete = OM Faktisk arbetskostnad &lt;&gt; 0 THAN CPI-arbete = TotalBudgetedCostWorkPerformed / Faktisk arbetskostnad</pre><pre>ELSE CPI Labor = 1 </pre>Följande fält beaktas vid beräkning av EAC:
+<pre>EAC Labor =  <em>OM</em> CPI-arbete &lt;&gt; 0 THEN EAC-arbete = Planerad arbetskostnad/CPI-arbete</pre><pre><em>ELSE</em> EAC  Arbete = Planerad arbetskostnad + faktisk arbetskostnad</pre><pre>CPI-arbete = OM Faktisk arbetskostnad &lt;&gt; 0 THAN CPI-arbete = TotalBudgetedCostWorkPerformed / Faktisk arbetskostnad</pre><pre>ELSE CPI Labor = 1 </pre>Följande fält beaktas vid beräkning av EAC:
 
 * Totalt utfört budgeterat kostnadsarbete (BCWP) = resultatet av multiplicering av den budgeterade kostnaden för det planerade arbetet (budgeterad kostnad) och den procentandel av uppgiften som har slutförts hittills.
 
-   Mer information om totalt budgeterat kostnadsarbete (BCWP) finns i [Beräkna utfört budgeterat kostnadsarbete (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+  Mer information om totalt budgeterat kostnadsarbete som utförts (BCWP) finns i [Beräkna budgeterat kostnadsarbete som utförts (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-   * **För en icke-överordnad uppgift:**
+   * **För en icke-överordnad aktivitet:**
 
-      ```
-      Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
-      ```
+     ```
+     Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
+     ```
 
-   * **För en överordnad uppgift:**
+   * **För en överordnad aktivitet:**
 Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat kostnadsarbete utfört för alla direkta underordnade aktiviteter.
 
    * **För ett projekt:**
@@ -119,20 +119,20 @@ Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat k
 
 * EAC-utgift = resultatet av att addera den faktiska kostnaden för upplupen kostnad till den ej uppkomna planerade kostnaden. Den beräknas med följande formel:
 
-   ```
-   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
-   ```
+  ```
+  EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
+  ```
 
-   * Faktisk utgiftskostnad = Summan av fältet Planerat belopp för alla utgifter där fältet Faktiskt belopp > 0. Om du till exempel skapar en utgift för Uppgift 1 och anger $500.00 i fältet Planerat belopp och ett belopp > 0 i fältet Faktiskt belopp (dvs. 600,00 USD), den uppkomna kostnaden för den här aktiviteten är 500,00 USD.
+   * Faktisk utgiftskostnad = Summan av fältet Planerat belopp för alla utgifter där fältet Faktiskt belopp > 0. Om du t.ex. skapar en utgift för Uppgift 1 och anger $500.00 i fältet Planerat belopp och ett belopp > 0 i fältet Faktiskt belopp (t.ex. $600.00), är den förväntade kostnaden för den här uppgiften $500.00.
    * Ej upplupen planerad utgift = Summan av fältet Planerat belopp för alla utgifter där fältet Faktiskt belopp = 0. Om du till exempel skapar två utgifter för Uppgift 1 där värdet i fältet Planerat belopp för den första utgiften är 500,00 USD och värdet i fältet Faktiskt belopp är 600,00 USD och för den andra utgiften, är värdet i fältet Planerat belopp 300,00 USD och värdet i fältet Faktiskt belopp är 0,00 USD. Ej fakturerad kostnad för den här aktiviteten är 300,00 USD. 
 
 ## Hitta EAC i ett projekt eller en uppgift
 
 1. Gå till det projekt eller den uppgift där du vill visa EAC.
-1. Expandera **Projektinformation** eller **Information om uppgifter** i den vänstra panelen av projektet eller uppgiften, beroende på var du visar EAC.
+1. Expandera **Projektinformation** eller **Aktivitetsinformation** i den vänstra panelen av projektet eller aktiviteten, beroende på var du visar EAC.
 
-1. Klicka **Ekonomi**. 
+1. Klicka på **Ekonomi**. 
 
-   EAC-värdet visas i **Uppskattning vid slutförande** fält.
+   EAC-värdet visas i fältet **Uppskattning vid slutförande**.
 
    ![](assets/eac-highlighted-on-project-350x112.png)

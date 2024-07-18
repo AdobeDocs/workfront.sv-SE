@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till Portfolio och program </p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till Portfolio och program </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -44,11 +44,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägg till ett befintligt program i en portfölj
 
-1. Gå till en portfölj och klicka sedan på **[!UICONTROL Programs]** i den vänstra panelen.
+1. Gå till en portfölj och klicka sedan på **[!UICONTROL Programs]** i den vänstra panelen.
 1. Klicka på **[!UICONTROL Add Program]**.
 1. Klicka på **[!UICONTROL Existing Program]**.
 
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Om du lägger till ett befintligt program överförs alla projekt som är kopplade till det programmet till portföljen. Var försiktig så att du inte oavsiktligt flyttar projekt på det här sättet.
 
-1. I **[!UICONTROL Add Programs]** skriver du in och väljer namnet på ett program.
+1. I dialogrutan **[!UICONTROL Add Programs]** skriver du in och väljer namnet på ett program.
 1. (Valfritt) Om du vill lägga till fler program skriver du in och väljer namnet på ett program.
 1. Klicka på **[!UICONTROL Add Programs]**.\
-   Programmet visas i **[!UICONTROL Programs]** -fliken i den portfölj du valde.
+   Programmet visas på fliken **[!UICONTROL Programs]** i den valda portföljen.

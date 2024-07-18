@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
-title: Automatiserat arbetsflöde i [!DNL Workfront Proof]
+title: Automatiskt arbetsflöde i  [!DNL Workfront Proof]
 description: Läs om automatiserade arbetsflöden i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Automatiserat arbetsflöde i [!DNL Workfront Proof]
+# Automatiskt arbetsflöde i [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Ställ in ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-* [Hantera ett korrektur konfigurerat med ett automatiserat arbetsflöde i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)
+* [Konfigurera ett korrektur med ett automatiserat arbetsflöde i  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
+* [Hantera ett korrektur konfigurerat med ett automatiserat arbetsflöde i  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md)

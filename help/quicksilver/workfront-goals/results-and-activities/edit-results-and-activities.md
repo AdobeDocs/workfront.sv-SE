@@ -22,7 +22,7 @@ Mer information om att skapa mål, resultat och aktiviteter finns i följande ar
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
 * [Kom igång med resultat och aktiviteter i Adobe Workfront-mål](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Lägg till resultat i mål i Adobe Workfront ](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Åtkomstkrav
@@ -85,7 +85,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du redigerar resultat och aktiviteter
 
@@ -94,7 +94,7 @@ According to Vazgen, access levels will add more considerations.)
 -->
 
 * Du kan redigera resultat och aktiviteter som tillhör de mål som du har skapat eller mål som du har behörighet att hantera.
-* Du kan inte redigera förloppet för projekt som är kopplade till mål som aktiviteter från Workfront-mål. Projektets förlopp uppdateras när aktiviteter i projektet slutförs. Du kan ta bort projekt från målet genom att koppla från dem. Mer information finns i avsnittet om att koppla från projekt i artikeln [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* Du kan inte redigera förloppet för projekt som är kopplade till mål som aktiviteter från Workfront-mål. Projektets förlopp uppdateras när aktiviteter i projektet slutförs. Du kan ta bort projekt från målet genom att koppla från dem. Mer information finns i avsnittet Koppla från projekt i artikeln [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 
   >[!NOTE]
   >
@@ -107,11 +107,11 @@ According to Vazgen, access levels will add more considerations.)
   >   * Projektprocent klart
   >   
   >   
-  >Mer information om hur du kopplar projekt till mål finns i [Lägg till projekt i mål i Adobe Workfront](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >Mer information om att ansluta projekt till mål finns i [Lägga till projekt i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* Du kan ta bort resultat och aktiviteter från mål när de inte längre är relevanta för målförloppet. Borttagna resultat och aktiviteter kan inte återställas. Mer information om hur du tar bort resultat och aktiviteter finns i [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* Du kan ta bort resultat och aktiviteter från mål när de inte längre är relevanta för målförloppet. Borttagna resultat och aktiviteter kan inte återställas. Mer information om hur du tar bort resultat och aktiviteter finns i [Ta bort resultat, aktiviteter och projekt från mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 * Du kan redigera resultat och aktiviteter som är kopplade till mål från vilken tidsperiod som helst, även tidigare.
-* När du redigerar resultat och aktiviteter uppdateras deras inställningar inte, och deras förlopp uppdateras inte. Du måste uppdatera förloppet för resultat och aktiviteter. Mer information om hur du uppdaterar framsteg för mål, resultat och aktiviteter finns i [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* När du redigerar resultat och aktiviteter uppdateras deras inställningar inte, och deras förlopp uppdateras inte. Du måste uppdatera förloppet för resultat och aktiviteter. Information om hur du uppdaterar förloppet för mål, resultat och aktiviteter finns i [Uppdatera målförloppet i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Redigera resultat
 
@@ -140,23 +140,23 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png)sedan **Mål**.
+1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
-1. Klicka **Progress-indikatorer** till vänster.
-1. Välj ett resultat i listan med förloppsindikatorer och klicka på **Redigera** icon ![](assets/edit-icon.png).
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
+1. Välj ett resultat i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![](assets/edit-icon.png) .
 
    Rutan Redigera resultat öppnas.
 
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Redigera följande information:
-   * **Resultatnamn**: Namnet på resultatet. Använd ett beskrivande namn som visar vilket resultat du behöver uppnå för att slutföra målet.
-   * **Resultatägare**: Ägaren till resultatet. Ägaren måste vara en aktiv Workfront-användare.
+   * **Resultatnamn**: Resultatets namn. Använd ett beskrivande namn som visar vilket resultat du behöver uppnå för att slutföra målet.
+   * **Resultatägare**: Resultatets ägare. Ägaren måste vara en aktiv Workfront-användare.
    * **Värdetyp**: Hur du mäter resultatets förlopp.
    * **Startvärde**: Resultatets ursprungliga värde.
    * **Målvärde**: Det önskade värdet när resultatet är klart.
-Mer information om resultatfält finns i [Lägg till resultat i mål](../results-and-activities/add-results-to-goals.md).
-1. Klicka **Spara**.
+Mer information om resultatfält finns i [Lägga till resultat i mål](../results-and-activities/add-results-to-goals.md).
+1. Klicka på **Spara**.
 
 ## Redigera aktiviteter
 
@@ -185,10 +185,10 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png)sedan **Mål**.
+1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
-1. Klicka **Progress-indikatorer** till vänster.
-1. Välj en aktivitet i listan Förloppsindikatorer och klicka på **Redigera** icon ![](assets/edit-icon.png).
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
+1. Välj en aktivitet i listan med förloppsindikatorer och klicka på ikonen **Redigera** ![](assets/edit-icon.png) .
 
    Rutan Redigera aktivitet öppnas.
 
@@ -196,8 +196,8 @@ Editing activities differs depending on which environment you use.
 
 1. Redigera följande information:
    * **Aktivitetsnamn**: Namnet på aktiviteten. Använd ett beskrivande namn som visar vilken aktivitet du bör utföra för att ange att målet har slutförts.
-   * **Aktivitetsägare:** Aktivitetens ägare. Ägaren måste vara en aktiv Workfront-användare.\
+   * **Aktivitetsägare:** Ägaren till aktiviteten. Ägaren måste vara en aktiv Workfront-användare.\
      Mer information om aktivitetsfält finns i [Lägg till aktiviteter i mål](../results-and-activities/add-activities-to-goals.md).
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 

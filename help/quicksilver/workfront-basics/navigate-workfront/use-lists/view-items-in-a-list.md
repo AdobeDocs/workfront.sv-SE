@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-lists
-title: Kom igång med listor i [!DNL Adobe Workfront]
-description: Du kan visa listor med objekt i [!DNL Adobe Workfront] om du vill ha information om dem, t.ex. start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
+title: Kom igång med listor i  [!DNL Adobe Workfront]
+description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, t.ex. start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '1997'
 ht-degree: 0%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 0%
 {{highlighted-preview}}
 -->
 
-Du kan visa listor med objekt i [!DNL Adobe Workfront] om du vill ha information om dem, t.ex. start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
+Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, som start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 
-Nedan följer några av listorna i [!DNL Workfront]:
+Nedan följer några egenskaper för listor i [!DNL Workfront]:
 
 * Listar uppdatera automatiskt var femte minut för att uppdatera information som andra användare i systemet uppdaterar någon annanstans.
 * Vissa områden i [!DNL Workfront] är förkonfigurerade med standardlistor med objekt.
 
   Du kan anpassa de flesta av dessa förkonfigurerade listor.
 
-* A [!DNL Workfront] administratören kan skapa anpassade listor som ska användas i olika områden i [!DNL Workfront].
+* En [!DNL Workfront]-administratör kan skapa anpassade listor som ska användas i olika områden i [!DNL Workfront].
 
   Mer information om hur du skapar listor på systemnivå finns i artikeln [Skapa, redigera och dela standardfilter, vyer och grupperingar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] eller bättre åtkomst till filter, vyer, grupperingar</p> <P>För objekt i [!UICONTROL Setup] måste du ha administratörsbehörighet för objektet eller [!UICONTROL System Administrator] åtkomstnivå.</P> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå.<br>För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] eller bättre åtkomst till filter, vyer, grupperingar</p> <P>För objekt i området [!UICONTROL Setup] behöver du administrativ åtkomst för objektet eller åtkomstnivån [!UICONTROL System Administrator].</P> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -58,11 +58,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Objektlistor
 
-Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och vissa områden där de visas som standard när du har behörighet att visa ett objekt.
+Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och några av de områden där de visas som standard när du har behörighet att visa ett objekt.
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td>Lista över problem</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] ett projekt &gt;[!UICONTROL Issues]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] ett projekt &gt;[!UICONTROL Issues]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Subtasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Issues]</p> </li> 
     </ul> </td> 
@@ -156,17 +156,17 @@ Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och
     <ul> 
      <li> <p>[!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL select a portfolio] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL select a portfolio] &gt;[!UICONTROL Programs] &gt;[!UICONTROL select a program] &gt;[!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Documents]</p> </li> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt; [!UICONTROL Documents]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] ett projekt &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select] ett projekt &gt; [!UICONTROL Issues] &gt;[!UICONTROL select an issue] &gt; [!UICONTROL Documents]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Lista över tidrapporter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Timesheet] s &gt; [!UICONTROL All Timesheets]*</p> </li> 
+     <li> <p>[!UICONTROL Timesheet] s &gt; [!UICONTROL All Timesheets]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td>Lista över faktureringsposter</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Billing Records]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt; [!UICONTROL Billing Records]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -195,7 +195,7 @@ Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL select] ett projekt &gt;[!UICONTROL Expenses]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects] &gt; [!UICONTROL select a project] &gt;[!UICONTROL Tasks] &gt;[!UICONTROL select a task] &gt;[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -213,7 +213,7 @@ Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och
     <ul> 
      <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms]</p>
      <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>ANMÄRKNING</b>: Detta är för närvarande endast tillgängligt i förhandsvisningsmiljön</p> </li> 
+     <p><b>Obs!</b> Det här är för närvarande bara tillgängligt i förhandsvisningsmiljön</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +255,7 @@ Nedan finns några typer av objektlistor som du kan hitta i [!DNL Workfront] och
  </tbody> 
 </table>
 
-Du kan inte anpassa listan i det angivna området. A [!DNL Workfront] administratören kan skapa en anpassad lista på systemnivå eller så kan du skapa en rapport för det här objektet om åtkomstnivån tillåter dig att redigera rapporter.
+Du kan inte anpassa listan i det angivna området. En [!DNL Workfront]-administratör kan skapa en anpassad lista på systemnivå eller så kan du skapa en rapport för det här objektet om åtkomstnivån tillåter dig åtkomst till redigeringsrapporter.
 
 ## Listelement
 
@@ -263,7 +263,7 @@ En lista innehåller vissa element som definierar dess format och den informatio
 
 >[!NOTE]
 >
->När du väljer ett nytt filter, en ny vy eller en ny gruppering i en lista behålls markeringen även om du loggar ut från [!DNL Workfront] eller stänga webbläsaren.
+>När du väljer ett nytt filter, en ny vy eller en ny gruppering i en lista behålls markeringen även om du loggar ut från [!DNL Workfront] eller stänger webbläsaren.
 
 Här följer några element i en lista:
 
@@ -283,7 +283,7 @@ Här följer några element i en lista:
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL View]</strong></td> 
-   <td> <p>Vyer definierar vilka fält (kolumner) som visas på skärmen.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Översikt över vyer i [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Vyer definierar vilka fält (kolumner) som visas på skärmen.</p> <p>Mer information finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vyöversikt i [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Grouping]</strong></td> 
@@ -303,7 +303,7 @@ Du kan anpassa listelement i följande områden och dela dem med andra användar
 
 Byggelementen för listor är desamma som byggelementen för rapporter.
 
-Mer information om hur du skapar och anpassar element i listor och rapporter finns i [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Mer information om hur du skapar och anpassar element i listor och rapporter finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Liståtgärder
 
@@ -320,24 +320,24 @@ Du kan slutföra följande åtgärder i en lista:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Inline edit</strong> </td> 
-   <td> <p>Redigera objekt och deras information direkt i listan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Redigera objekt i en lista i [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td><strong>Inline-redigering</strong> </td> 
+   <td> <p>Redigera objekt och deras information direkt i listan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Redigera objekt i en lista i [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Uppdatera med [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Uppdatera aktiviteter och ärenden på projektnivå med [!UICONTROL Summary] -panelen.</p> <p>Tips! Sammanfattningen är inte tillgänglig för alla objekt och är inte tillgänglig i Aktivitets- eller problemrapporter.</p> <p>Mer information finns i <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattning</a>.</p> </td> 
+   <td> <p>Uppdatera aktiviteter och problem på projektnivå med panelen [!UICONTROL Summary].</p> <p>Tips! Sammanfattningen är inte tillgänglig för alla objekt och är inte tillgänglig i Aktivitets- eller problemrapporter.</p> <p>Mer information finns i <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattningsöversikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Anpassa listvisning</strong> </td> 
-   <td> <p>Anpassa utseendet på en lista, kolumnordning, sorteringsordning för objekt eller antal objekt som visas.</p> <p>Obs! Ändringar som du gör i antalet objekt som ska visas på en sida återställs när du loggar ut från [!DNL Workfront] eller stänga webbläsaren. Ändringarna kan också ångras efter 8 timmar.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Ändra hur en lista visas</a>.</p> </td> 
+   <td> <p>Anpassa utseendet på en lista, kolumnordning, sorteringsordning för objekt eller antal objekt som visas.</p> <p>Obs! Ändringar som du gör i antalet objekt som ska visas på en sida återställs när du loggar ut från [!DNL Workfront] eller stänger webbläsaren. Ändringarna kan också ångras efter 8 timmar.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Ändra hur en lista visas</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Snabbfilter</strong> </td> 
-   <td> <p>Använd ett snabbfilter för att bara hitta objekt som är viktiga för dig så att du snabbt kan granska, uppdatera eller dela dem med andra.</p> <p>Viktigt: Du kan söka efter objekt som innehåller ett sökord med hjälp av snabbfiltret, oavsett om objektet är synligt på skärmen eller kommer att visas när du bläddrar längst ned på sidan. När du använder webbläsarens sökfunktioner kan du bara hitta objekt som redan är synliga på skärmen. Om listan innehåller flera sidor söker snabbfiltren bara efter objekten på den aktuella sidan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret på en lista</a>.</p> </td> 
+   <td> <p>Använd ett snabbfilter för att bara hitta objekt som är viktiga för dig så att du snabbt kan granska, uppdatera eller dela dem med andra.</p> <p>Viktigt: Du kan söka efter objekt som innehåller ett sökord med hjälp av snabbfiltret, oavsett om objektet är synligt på skärmen eller kommer att visas när du bläddrar längst ned på sidan. När du använder webbläsarens sökfunktioner kan du bara hitta objekt som redan är synliga på skärmen. Om listan innehåller flera sidor söker snabbfiltren bara efter objekten på den aktuella sidan.</p> <p>Mer information finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret i en lista</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Exportera</strong> </td> 
-   <td> <p>Exportera en lista med objekt från [!DNL Workfront]. Om en lista innehåller fler än 2 000 objekt är det enda sättet att granska alla objekt på en sida att exportera listan.</p> <p>Mer information om hur du exporterar en lista finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Exportera en lista</a>. Mer information om exportformat och -begränsningar finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </td> 
+   <td> <p>Exportera en lista med objekt från [!DNL Workfront]. Om en lista innehåller fler än 2 000 objekt är det enda sättet att granska alla objekt på en sida att exportera listan.</p> <p>Mer information om hur du exporterar en lista finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Exportera en lista</a>. Mer information om exportformat och begränsningar finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -419,27 +419,27 @@ I följande tabell visas många av de ikoner som är tillgängliga i verktygsfä
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
    <td>[!UICONTROL Agile View]</td> 
-   <td>Visa listan i vyn Agile.<br>Detta är endast tillgängligt för uppgifter.</td> 
+   <td>Visa listan i vyn Agile.<br>Detta är endast tillgängligt för aktiviteter.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Gantt Chart]</td> 
-   <td> <p>Visa listan i [!UICONTROL Gantt Chart] vy.</p> <p>Detta är endast tillgängligt för projekt och uppgifter.</p> </td> 
+   <td> <p>Visa listan i vyn [!UICONTROL Gantt Chart].</p> <p>Detta är endast tillgängligt för projekt och uppgifter.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
    <td>[!UICONTROL Filter] nedrullningsbar meny</td> 
-   <td> <p>Visa en lista med filter och ytterligare alternativ för att hantera filter, inklusive att skapa ett. </p> <p>På en liten skärm ersätts filternamnet av filterikonen. En blå punkt visas på filterikonen när du använder något annat filter än "[!UICONTROL All]."</p> </td> 
+   <td> <p>Visa en lista med filter och ytterligare alternativ för att hantera filter, inklusive att skapa ett. </p> <p>På en liten skärm ersätts filternamnet av filterikonen. En blå punkt visas på Filterikonen när du använder något annat filter än [!UICONTROL All].</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>[!UICONTROL View] nedrullningsbar meny</td> 
-   <td> <p>Visa en lista med vyer och ytterligare alternativ för att hantera vyer, inklusive att skapa en. </p> <p>På en liten skärm ersätts visningsnamnet av [!UICONTROL view] -ikon. En blå punkt visas på [!UICONTROL View] ikon när du använder någon annan vy än[!UICONTROL Standard]."</p> </td> 
+   <td> <p>Visa en lista med vyer och ytterligare alternativ för att hantera vyer, inklusive att skapa en. </p> <p>På en liten skärm ersätts visningsnamnet av ikonen [!UICONTROL view]. En blå punkt visas på ikonen [!UICONTROL View] när du använder någon annan vy än [!UICONTROL Standard].</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
    <td>[!UICONTROL Grouping] nedrullningsbar meny</td> 
-   <td> <p>Visa en lista med grupperingar och ytterligare alternativ för att hantera grupperingar, inklusive att skapa en. </p> <p>På en liten skärm ersätts grupperingsnamnet av [!UICONTROL grouping] -ikon. En blå punkt visas på [!UICONTROL Grouping] -ikon när du använder någon annan gruppering än "[!UICONTROL Nothing]."</p> </td> 
+   <td> <p>Visa en lista med grupperingar och ytterligare alternativ för att hantera grupperingar, inklusive att skapa en. </p> <p>På en liten skärm ersätts grupperingsnamnet av ikonen [!UICONTROL grouping]. En blå punkt visas på ikonen [!UICONTROL Grouping] när du använder någon annan gruppering än [!UICONTROL Nothing].</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
@@ -449,12 +449,12 @@ I följande tabell visas många av de ikoner som är tillgängliga i verktygsfä
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>Visa eller dölj [!UICONTROL Summary] för det markerade objektet.</p> <p>Detta är endast tillgängligt för uppgifter och ärenden.</p> <p>Mer information om [!UICONTROL Summary] i den nya [!DNL Adobe Workfront] upplevelse, se <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattning</a>.</p> </td> 
+   <td> <p>Visa eller dölj rutan [!UICONTROL Summary] för det markerade objektet.</p> <p>Detta är endast tillgängligt för uppgifter och ärenden.</p> <p>Mer information om panelen [!UICONTROL Summary] i den nya [!DNL Adobe Workfront]-upplevelsen finns i <a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Sammanfattningsöversikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
    <td>[!UICONTROL Remove]</td> 
-   <td>Ta bort något från listan. Som gruppadministratör som hanterar grupp- eller undergruppsmedlemskap tar du bort en gruppmedlem enligt anvisningarna i <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Visa och hantera medlemskap i en grupp</a>.</td> 
+   <td>Ta bort något från listan. Som gruppadministratör som hanterar grupp- eller undergruppsmedlemskap tar du bort en gruppmedlem enligt beskrivningen i <a href="/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md" class="MCXref xref">Visa och hanterar gruppens medlemskap</a>.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
@@ -488,7 +488,7 @@ I följande tabell beskrivs likheterna och skillnaderna mellan listor och rappor
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Endast en [!DNL Workfront] administratörer och användare med [!UICONTROL Plan] licens kan skapa dem</p> </td> 
+   <td> <p>Endast en [!DNL Workfront]-administratör och användare med en [!UICONTROL Plan]-licens kan skapa dem</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
@@ -523,7 +523,7 @@ I följande tabell beskrivs likheterna och skillnaderna mellan listor och rappor
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Du kan exportera till PDF, [!DNL Excel]och tabbavgränsade format</p> </td> 
+   <td> <p>Du kan exportera till PDF-, [!DNL Excel]- och tabbavgränsade format</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -567,7 +567,7 @@ I följande tabell beskrivs likheterna och skillnaderna mellan listor och rappor
 
 Du måste ha tillgång till filter, vyer och grupperingar för att kunna skapa dem. Mer information finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-Du måste ha tillgång till filter, vyer och grupperingar samt rapporter, kontrollpaneler och kalendrar för att kunna skapa dem. Mer information finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Du måste ha tillgång till filter, vyer och grupperingar samt rapporter, kontrollpaneler och kalendrar för att kunna skapa dem. Mer information finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 Du kan bara anpassa listor för rapporter som placeras på en kontrollpanel om rapportens skapare har konfigurerat listelementen så att de visas på kontrollpanelen.
 
@@ -591,12 +591,12 @@ Det finns två typer av listor i [!DNL Workfront]:
 
 Båda listtyperna visas i [!DNL Adobe Workfront].
 
-Alla listor och rapporter i [!DNL Adobe Workfront] är uppdaterade listor, utom följande:
+Alla listor och rapporter i [!DNL Adobe Workfront] uppdateras, förutom följande:
 
-* Listor i [!UICONTROL Setup] area
-* Listor i [!UICONTROL Reports] area
+* Listor i området [!UICONTROL Setup]
+* Listor i området [!UICONTROL Reports]
 
-I följande tabell visas några av skillnaderna mellan äldre och uppdaterade listor i [!DNL Workfront]:
+I följande tabell visas några av skillnaderna mellan de äldre och uppdaterade listorna i [!DNL Workfront]:
 
 <!--
 <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> [Legacy does not equal Classic. Legacy lists appear in NWE and Classic. Updated lists appear in NWE and Classic.]</span>
@@ -620,15 +620,15 @@ I följande tabell visas några av skillnaderna mellan äldre och uppdaterade li
   </tr> 
   <tr> 
    <td> <p>Visa <strong>100</strong> objekt som standard</p> </td> 
-   <td> <p>Visa <strong>Alla</strong> eller upp till <strong>2000</strong> objekt som standard</p> </td> 
+   <td> <p>Visa <strong>alla</strong> eller upp till <strong>2000</strong> objekt som standard</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Använd CTRL+F för att hitta objekt i en lista</p> </td> 
-   <td> <p>Använd snabbfilter för att snabbt hitta information i en stor lista</p> <p>Mer information om hur du använder snabbfilter i listor finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret på en lista</a>.</p> </td> 
+   <td> <p>Använd snabbfilter för att snabbt hitta information i en stor lista</p> <p>Mer information om hur du använder snabbfilter i listor finns i <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Använda snabbfiltret i en lista</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Du kan inte infoga redigering av anpassade fält med formatering av formaterad text.</td> 
-   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </td> 
+   <td> <p>Text i anpassade fält med formatering kan konfigureras för fet stil, kursiv stil, understrykning, punkter, numrering, hyperlänkar och blockcitattecken.</p> <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Villkorsstyrd formatering kan ändra textfärgen på länkar i en lista</td> 

@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2017.2 Beta 1 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 1-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 10 maj 2017.
+description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 1. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 10 maj 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 # 2017.2 Beta 1 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 1-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 10 maj 2017.
+Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 1. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 10 maj 2017.
 
 >[!IMPORTANT]
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-Beta 1-versionen från 2017.2 innehåller förbättringar både för Workfront-administratörer och andra användare:
+2017.2 Beta 1 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer:**
 
@@ -36,8 +36,8 @@ Beta 1-versionen från 2017.2 innehåller förbättringar både för Workfront-a
 * [Förbättringar av resursplanering](#resource-scheduling-improvements)
 * [Jämför korrektur](#compare-proofs)
 * [Nytt fält för resurspooler för användare och projekt](#new-field-for-resource-pools-for-users-and-projects)
-* [Uppdaterad Look and Feel i kontrollpanelslistan](#updated-look-and-feel-in-the-dashboard-list)
-* [Ta bort slutredigeringsfunktionen i Workfront](#removing-the-endorsements-functionality-in-workfront)
+* [Uppdaterat utseende och känsla i instrumentpanelslistan](#updated-look-and-feel-in-the-dashboard-list)
+* [Tar bort slutredigeringsfunktionerna i Workfront](#removing-the-endorsements-functionality-in-workfront)
 * [Ändra ordning på kolumner i en lista med dra och släpp (funktionen tas bort)](#reorder-columns-in-any-list-with-drag-and-drop-functionality-is-being-removed)
 
 ## Återställ dokument {#restore-documents}
@@ -50,13 +50,13 @@ Mer information finns i [Återställ borttagna objekt](../../../../administratio
 
 ## Ny förhandsvisningsbanderoll med versionsinformation {#new-preview-banner-with-release-information}
 
-Den blå banderollen högst upp i förhandsvisningssandlådemiljön visar nu släppningsnamnet och versionsnumret för förhandsvisningsmiljön. Om du klickar på namnet på releasen kommer du till en hjälpartikeln där du hittar mer information om den aktuella förhandsversionen. Mer information om sandlådemiljön för förhandsgranskning finns i [Sandlådemiljön Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
+Den blå banderollen högst upp i förhandsvisningssandlådemiljön visar nu släppningsnamnet och versionsnumret för förhandsvisningsmiljön. Om du klickar på namnet på releasen kommer du till en hjälpartikeln där du hittar mer information om den aktuella förhandsversionen. Mer information om sandlådemiljön för förhandsgranskning finns i [Sandlådemiljön för Adobe Workfront Preview](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md) 
 
 ## API 7-tillgänglighet {#api-7-availability}
 
 API 7 finns nu och innehåller nya och uppdaterade objekt.
 
-Mer information finns i [Nyheter i API Version 7](../../../../wf-api/api/new-api-version-7.md).
+Mer information finns i [Nyheter i API-version 7](../../../../wf-api/api/new-api-version-7.md).
 
 ## Prenumerera på uppgifter och problem {#subscribe-to-tasks-and-issues}
 
@@ -78,8 +78,8 @@ Följande förbättringar är tillgängliga vid planering av resurser:
 
 * [Visa fler objekt på tidslinjen för resursplanering i en enda vy](#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view)
 * [Konfigurera projektnamnet som ska visas i aktiviteter och ärenden på tidslinjen för schemaläggning](#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline)
-* [Konfigurera om överordnade aktiviteter ska visas på tidslinjen för schemaläggning](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
-* [Expandera eller komprimera enkelt alla aktiviteter och ärenden på tidslinjen](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
+* [Konfigurera om överordnade aktiviteter ska visas på tidslinjen ](#configure-whether-parent-tasks-are-displayed-on-the-scheduling-timeline)
+* [Utöka eller komprimera enkelt alla aktiviteter och ärenden på tidslinjen ](#more-easily-expand-or-collapse-all-tasks-and-issues-on-the-scheduling-timeline)
 * [Roll- och användarinformation finns kvar högst upp i tidslinjen för schemaläggning vid rullning](#role-and-user-information-remains-at-the-top-of-the-scheduling-timeline-when-scrolling)
 
 ### Visa fler objekt på tidslinjen för resursplanering i en enda vy {#view-more-items-on-the-resource-scheduling-timeline-in-a-single-view}
@@ -88,7 +88,7 @@ När du schemalägger resurser för ett team eller för projekt som du är resur
 
 Om du bestämmer dig för att visa projektnamn för varje aktivitet och problem på tidslinjen för schemaläggning, expanderas det lodräta utrymmet för varje uppgift och problem, vilket resulterar i att färre uppgifter och problem visas i en enda vy.
 
-Mer information om att schemalägga resurser finns i&quot;Kom igång med resursschemaläggning&quot;.
+Mer information om att schemalägga resurser finns i  &quot;Kom igång med resursplanering&quot;.
 
 ### Konfigurera projektnamnet som ska visas i aktiviteter och ärenden på tidslinjen för schemaläggning {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ När du nu bläddrar nedåt på tidslinjen för schemaläggning för att visa yt
 
 Före den här ändringen rullas rollnamnet och användarnamnet ut ur den aktuella vyn.
 
-Mer information om att schemalägga resurser finns i&quot;Kom igång med resursschemaläggning&quot;.
+Mer information om att schemalägga resurser finns i  &quot;Kom igång med resursplanering&quot;.
 
 ## Jämför korrektur {#compare-proofs}
 
@@ -134,7 +134,7 @@ I R1.5-versionen introducerades nya funktioner för resursplanering i förhandsv
 
 Nu kan du associera resurspoolerna med projekt och med användare. Nu visas ett nytt fält med namnet&quot;Resurspooler&quot; i projektet samt på användarobjektet.
 
-Mer information om de nya resurspoolerna och hur de kan kopplas till projekt och användare finns i [Översikt över resurspooler](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+Mer information om de nya resurspoolerna och hur de kan associeras med projekt och användare finns i [Översikt över resurspooler](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
 ## Uppdaterad Look and Feel i kontrollpanelslistan {#updated-look-and-feel-in-the-dashboard-list}
 
@@ -142,7 +142,7 @@ Nu när du visar en kontrollpanelslista är utseendet mer modernt och skalbart.
 
 Den här funktionen var tidigare endast tillgänglig för användare som är registrerade i tidig åtkomst. Detta är nu tillgängligt för alla användare i förhandsvisningsmiljön. Den kommer att vara tillgänglig för alla användare i produktionsmiljön i version 2017.2. 
 
-Mer information om kontrollpaneler finns i [Skapa en instrumentpanel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Mer information om instrumentpaneler finns i [Skapa en instrumentpanel](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Ta bort slutredigeringsfunktionen i Workfront {#removing-the-endorsements-functionality-in-workfront}
 
@@ -161,4 +161,4 @@ Slutsatser har inte varit ett rapporteringsobjekt och därför finns det inga ä
 
 Funktionen för att ändra ordningen på kolumner i en lista genom att dra en kolumn från en plats och släppa den i en annan tas bort från Tidig åtkomst i produktionsmiljön med version 2017.2 och är inte längre tillgänglig för någon användare. 
 
-Mer information om den här funktionen finns i [Ändra kolumnbredd och -ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Mer information om den här funktionen finns i [Ändra kolumnbredd och ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).

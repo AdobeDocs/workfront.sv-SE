@@ -56,6 +56,6 @@ När du tilldelar en åtkomstnivå till en användare minskas antalet tillgängl
 
 Om du till exempel tilldelar en användare åtkomstnivån Standard, kommer antalet tillgängliga standardlicenser att minskas med 1.
 
-Du kan visa licenser och åtkomstnivåer som tilldelats dina användare. Mer information finns i [Visa användarnas åtkomstnivåer och licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+Du kan visa licenser och åtkomstnivåer som tilldelats dina användare. Mer information finns i [Lista användarnas åtkomstnivåer och licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Mer information om hur du hanterar licenser finns i [Hantera tillgängliga licenser i ditt system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Mer information om hur du hanterar dina licenser finns i [Hantera tillgängliga licenser i systemet](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Felsökning av behörigheter för Workfront Proof Manager
-description: De behörighetsprofiler som finns i [!DNL Adobe] Workfront för korrekturläsare är Administrator, Supervisor och Manager.
+title: Felsökning av behörigheter i Workfront Proof Manager
+description: Behörighetsprofilerna i  [!DNL Adobe] Workfront för korrekturanvändare är Administratör, Supervisor och Hanterare.
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # [!UICONTROL [!DNL Workfront] Proof Manager] behörigheter felsökning
 
-Följande behörighetsprofiler är tillgängliga i [!DNL Adobe Workfront] för korrekturläsare:
+Följande behörighetsprofiler är tillgängliga i [!DNL Adobe Workfront] för korrekturanvändare:
 
 * [!UICONTROL Administrator]
 * [!UICONTROL Supervisor]
@@ -24,20 +24,20 @@ Följande behörighetsprofiler är tillgängliga i [!DNL Adobe Workfront] för k
 
 <!--For detailed information about these options and how to configure them, see .-->
 
-När en användare beviljas [!UICONTROL Manager] behörighet finns följande felsökningsinformation:
+Följande felsökningsinformation är tillgänglig när du beviljar behörigheter för en användare [!UICONTROL Manager]:
 
-* **PROBLEM:** Användare med [!UICONTROL Manager] behörigheter kan inte visa korrektur som har skapats av andra användare. Istället ser de [!UICONTROL Access Denied] skärm.
+* **PROBLEM:** Användare med [!UICONTROL Manager] behörighet kan inte visa korrektur som skapats av andra användare. I stället visas skärmen [!UICONTROL Access Denied].
 
-   ![](assets/access-denied-350x161.png)
+  ![](assets/access-denied-350x161.png)
 
-   **LÖSNING:** Användare med [!UICONTROL Manager] behörigheter måste läggas till explicit i korrekturet. Korrektur ska alltid skapas via [!UICONTROL Advanced proofing options] fönster och användare ska alltid läggas till via det här alternativet.
+  **LÖSNING:** Användare med [!UICONTROL Manager] behörighet måste läggas till explicit i korrektur. Korrektur ska alltid skapas via [!UICONTROL Advanced proofing options]-fönstret och användare ska alltid läggas till via det här alternativet.
 
-* **PROBLEM:** Användare med [!UICONTROL Manager] behörigheter kan inte lägga till korrekturversioner i korrektur som skapats av andra användare (de kan eventuellt skicka ett korrektur i dokumentuppsättningen, men versionerna är INTE anslutna till den ursprungliga uppsättning som skapats av en annan användare).\
-   **LÖSNING:** Användare med [!UICONTROL Manager] behörighet att skicka in versioner till en annan användares korrektur endast om användaren med [!UICONTROL Manager] behörigheter när båda följande gäller:
+* **PROBLEM:** Användare med behörigheten [!UICONTROL Manager] kan inte lägga till korrekturversioner i korrektur som skapats av andra användare (de kan eventuellt skicka ett korrektur i dokumentuppsättningen, men versionerna är INTE anslutna till den ursprungliga uppsättning som skapats av en annan användare).\
+   **LÖSNING:** Användare med [!UICONTROL Manager]-behörighet kan skicka versionerna till en annan användares korrektur endast om användaren har [!UICONTROL Manager]-behörighet när båda följande gäller:
 
    * Uttryckligen tillagd i korrektur
-   * Ange som [!UICONTROL Authors] (korrekturroll) på korrektur
+   * Ange som [!UICONTROL Authors] (korrekturroll) för korrekturen
 
-* **PROBLEM:** Användare med [!UICONTROL Manager] behörigheter kan inte redigera kommentarer från andra användare på ett korrektur som de inte äger eller som de inte skapade.\
-   **LÖSNING:** Om användare med [!UICONTROL Manager] behörigheter inte äger korrekturet, men de bör kunna redigera kommentarer, lägga till dem som [!UICONTROL Authors] (eller [!UICONTROL Moderators]).\
-   Dessa tre typer av behörigheter är tillgängliga i [!DNL Workfront] for [!UICONTROL Planner], [!UICONTROL Worker], [!UICONTROL Requester], [!UICONTROL Reviewer] typlicenser. Systemadministratör eller användaradministratör i [!DNL Workfront] kan redigera användarprofiler och justera [!DNL Workfront Proof] behörigheter därifrån.
+* **PROBLEM:** Användare med [!UICONTROL Manager] behörighet kan inte redigera kommentarer från andra användare på ett korrektur som de inte äger eller som de inte har skapat.\
+   **LÖSNING:** Om användare med [!UICONTROL Manager] behörighet inte äger korrektur, men de bör kunna redigera kommentarer, lägger du till dem som [!UICONTROL Authors] (eller [!UICONTROL Moderators]).\
+   Dessa tre typer av behörigheter är tillgängliga i [!DNL Workfront] för typlicenserna [!UICONTROL Planner], [!UICONTROL Worker], [!UICONTROL Requester] och [!UICONTROL Reviewer]. Systemadministratör eller Användaradministratör i [!DNL Workfront] kan redigera användarprofiler och justera [!DNL Workfront Proof]-behörigheter därifrån.

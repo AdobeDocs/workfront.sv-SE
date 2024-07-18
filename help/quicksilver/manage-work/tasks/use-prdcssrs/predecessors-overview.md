@@ -22,7 +22,7 @@ ht-degree: 0%
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! -->
 
-En föregångare är den uppgift som en annan aktivitet (kallas efterföljande eller beroende uppgift) är beroende av. Adobe Workfront stöder fem typer av beroenden av föregångare. Mer information om föregående beroenden finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+En föregångare är den uppgift som en annan aktivitet (kallas efterföljande eller beroende uppgift) är beroende av. Adobe Workfront stöder fem typer av beroenden av föregångare. Mer information om föregående beroenden finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Översikt över Föregående
 
@@ -38,22 +38,22 @@ När det gäller föregångare påverkas projekttidslinjen av följande:
 
 * Föregående beroenden
 * Laga värde och typ\
-  Mer information om både beroende och fördröjning finns i [Exempel på föregående värden i en uppgiftslista](#examples-of-predecessor-values-in-a-task-list).
+  Mer information om både beroende och fördröjning finns i [Exempel på värden för föregångare i en uppgiftslista](#examples-of-predecessor-values-in-a-task-list).
 
   Om till exempel uppgift A är en föregångare till uppgift B i en slutstartrelation, och uppgift B har en uppgiftsbegränsning som är så snart som möjligt, tilldelar Workfront uppgift B ett planerat startdatum omedelbart efter det planerade avslutningsdatumet för uppgift A, oavsett om föregångaren har verkställts eller inte.
 
 För att förstå tidigare relationer måste du förstå:
 
-* **Beroendetyper:** Föregångare länkas av olika beroendetyper. Mer information om beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+* **Beroendetyper:** Föregångare länkas av olika beroendetyper. Mer information om beroendetyper finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Tvinga en föregångare:** När en föregångare verkställs kan den efterföljande uppgiften inte börja förrän föregångaren är klar. Efterföljande uppgift visas som start direkt efter att föregående har slutförts.
+* **Tvingande föregångare:** Vid tvång av en föregångare kan efterföljande aktivitet inte börja förrän föregångaren har slutförts. Efterföljande uppgift visas som start direkt efter att föregående har slutförts.
 
   När föregående inte har slutförts (eller startats) och den inte används kan efterföljande aktivitet starta, men projekttidslinjen påverkas fortfarande av datumen för både föregående och efterföljande aktiviteter.
 
   Med en framtvingad föregångare tillåter inte Workfront att efterföljande aktivitet markeras som Pågår eller Fullständig förrän föregående har slutförts.
 
   Workfront tillåter dock att timmar rapporteras för uppgiften.\
-  Mer information om att framtvinga föregående aktiviteter finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+  Mer information om hur du framtvingar föregångare finns i [Tvinga föregångare](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Lager:** Du kan skapa fördröjningar i dina beroenden som skapar en fördröjning som måste inträffa när en föregående aktivitet har slutförts och innan efterföljande aktivitet kan börja. Lagar påverkar tidslinjen i projektet.
 
@@ -63,10 +63,10 @@ För att förstå tidigare relationer måste du förstå:
 
 Se någon av följande artiklar om du vill skapa föregångare:
 
-* Information om hur du upprättar föregångare med hjälp av fliken Föregående för uppgiften finns i [Skapa en föregående relation med området Föregående](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+* Information om hur du upprättar föregångare med hjälp av fliken Föregående för uppgiften finns i [Skapa en föregående relation med hjälp av området Föregående](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 * Information om hur du upprättar föregående aktiviteter i en uppgiftslista finns i [Skapa en föregående relation i uppgiftslistan](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
-* Information om hur du upprättar föregående relationer genom att kedja uppgifter finns i [Skapa tidigare relationer genom att kedja uppgifter](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
-* Mer information om hur du upprättar föregående projekt finns i [Skapa föregångare mellan projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+* Information om hur du upprättar föregående relationer genom att kedja aktiviteter finns i [Skapa föregående relationer genom att kedja aktiviteter](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
+* Mer information om hur du skapar föregångare mellan projekt finns i [Skapa föregående projekt mellan projekt](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
 
 ## Hitta föregående aktiviteter för en uppgift {#locate-the-predecessors-of-a-task}
 
@@ -75,18 +75,18 @@ Gör något av följande för att hitta föregående aktiviteter för en uppgift
 * Gå till det projekt du arbetar med och gör följande:
 
    1. Leta reda på uppgiften som du vill hitta föregående aktiviteter för och klicka på uppgiften.
-   1. Klicka **Föregående** till vänster. Du kan behöva klicka **Visa fler** sedan **Föregående**.
-   1. Namnet på det projekt som föregångaren är på visas i **Projekt** kolumn.
+   1. Klicka på **Föregående** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+   1. Namnet på det projekt som föregångaren är på visas i kolumnen **Projekt**.
 
-      Numret i **#** -kolumnen visar föregående aktivitetsnummer. &quot;6&quot; innebär till exempel den sjätte uppgiften i projektet.
+      Talet i kolumnen **#** visar föregående aktivitetsnummer. &quot;6&quot; innebär till exempel den sjätte uppgiften i projektet.
 
-      ![Föregående avsnitt av uppgift](assets/predecessors-area-with-task-header.png)
+      ![Föregående avsnitt av aktiviteten](assets/predecessors-area-with-task-header.png)
 
 * Gå till det projekt du arbetar med och gör följande:
 
-   1. Klicka på **Uppgifter** -fliken.
-   1. Välj **Standardvy** högst upp i uppgiftslistan.
-   1. The **Föregående** -kolumnen visar föregående aktivitetsnummer.
+   1. Klicka på fliken **Åtgärder**.
+   1. Välj **standardvyn** högst upp i uppgiftslistan.
+   1. Kolumnen **Föregående** visar föregående aktivitetsnummer.
 
       För en föregångare för flera projekt visar kolumnen Föregående deltagare referensnumret för det projekt som föregångaren tillhör och antalet uppgifter, avgränsade med kolon.
 
@@ -101,7 +101,7 @@ Gör något av följande för att hitta föregående aktiviteter för en uppgift
 När du visar föregående aktiviteter i en lista med uppgifter kan du se någon av följande typer av föregående aktiviteter med deras respektive beroendetyper och förseningsmängder:
 
 * **1fs -** Föregående aktivitetsnummer är 1. Beroendetypen är Finish-Start. På projekttidslinjen schemaläggs den här aktiviteten att starta omedelbart efter att uppgift 1 är slutförd. Trots detta kan den fortfarande markeras som Pågår eller Fullständigt.
-* **1 -** Föregående aktivitetsnummer är 1. Det här är samma sak som **1fs**, eftersom **fs** är standardrelationen för föregångare i Workfront.
+* **1 -** Föregående aktivitetsnummer är 1. Detta är samma som **1fs** eftersom **fs** är standardrelationen för föregångare i Workfront.
 
 * **1fse -** Föregående aktivitetsnummer är 1. Beroendetypen är Finish-Start-Enforced. På projekttidslinjen visas den här aktiviteten som påbörjad omedelbart efter att uppgift 1 är slutförd. Workfront tillåter inte att den markeras som Pågår eller Fullständigt förrän uppgift 1 är slutförd. Workfront tillåter dock att timmar rapporteras för uppgiften.
 * **1fs+3d -** Föregående aktivitetsnummer är 1. Beroendetypen är Finish-Start med en fördröjningstid på 3 dagar. På projekttidslinjen visas den här aktiviteten som 3 arbetsdagar efter att uppgift 1 är slutförd.
@@ -110,7 +110,7 @@ När du visar föregående aktiviteter i en lista med uppgifter kan du se någon
 
   >[!NOTE]
   >
-  >Du måste lägga till det tvingande värdet (**e**) till Lag och inte till föregångaren.
+  >Du måste lägga till det tvingande värdet (**e**) i taggen, och inte i föregångaren.
 
 * **4515:2** Föregående aktivitetsnummer är 2. - Det här är ett slutdatum till början, ett beroende som inte krävs med föregångaren i projektet med referensnummer **4515**.
 
@@ -120,7 +120,7 @@ Du kan visa föregående information i följande områden i Workfront. Här finn
 
 * På aktivitetsnivån i avsnittet Föregående.
 
-  Information om hur du visar föregående information i avsnittet Föregående användare finns i avsnittet [Hitta föregående aktiviteter för en uppgift](#locate-the-predecessors-of-a-task) i den här artikeln.
+  Mer information om hur du visar föregående information i avsnittet Föregående aktiviteter finns i avsnittet [Hitta föregående aktiviteter för en aktivitet](#locate-the-predecessors-of-a-task) i den här artikeln.
 
 * I Gantt-diagrammet.
 
@@ -132,11 +132,11 @@ Du kan visa föregående information i följande områden i Workfront. Här finn
 
    * Använd den inbyggda standardvyn i en lista med uppgifter.
 
-     Mer information om hur du visar information om föregående i standardvyn finns i avsnittet [Hitta föregående aktiviteter för en uppgift](#locate-the-predecessors-of-a-task) i den här artikeln.
+     Mer information om hur du visar föregående information i standardvyn finns i avsnittet [Hitta föregående aktiviteter för en uppgift](#locate-the-predecessors-of-a-task) i den här artikeln.
 
    * Skapa en uppgiftsvy eller rapport och lägg till kolumnen Föregående aktiviteter i den vyn.
 
-     Mer information om hur du skapar en anpassad vy för uppgifter med föregående information finns i [Visa: information om föregående](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
+     Mer information om hur du skapar en anpassad vy för aktiviteter med föregående information finns i [Visa: information om föregående aktiviteter](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md).
 
 * I uppgiftshuvudet vid åtkomst av uppgiften.
 

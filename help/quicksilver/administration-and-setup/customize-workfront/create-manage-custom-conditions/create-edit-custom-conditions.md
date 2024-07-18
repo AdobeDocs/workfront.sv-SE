@@ -10,7 +10,7 @@ role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
 source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td>Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Skapa eller redigera ett anpassat villkor
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Projektinställningar** > **Villkor**.
+1. Klicka på **Projektinställningar** > **Villkor**.
 
-1. Klicka på fliken för objekttypen (**Projekt**, **Uppgift**, eller **Problem**) som du vill koppla till villkoret.
+1. Klicka på fliken för den objekttyp (**Projekt**, **Aktivitet** eller **Problem**) som du vill associera med villkoret.
 
 1. Om du vill skapa ett nytt villkor klickar du på **Lägg till ett nytt villkor**.
 
    eller
 
-   Om du vill redigera ett befintligt villkor håller du pekaren över villkoret som du vill redigera och klickar sedan på knappen **Redigera** -ikon som visas längst till höger.
+   Om du vill redigera ett befintligt villkor håller du pekaren över villkoret som du vill redigera och klickar sedan på ikonen **Redigera** som visas längst till höger.
 
    ![](assets/custom-condition-edit-nwe.jpg)
 
@@ -79,12 +79,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <tr> 
       <td>Liknar med </td> 
       <td><p>(Obligatoriskt, endast för projekt) Klicka på det alternativ i listrutan som bäst beskriver funktionen för det nya villkoret. För ett villkor som heter Spärra bra klickar du på På mål. Detta avgör hur standardvillkoren fungerar. Alla villkor du skapar måste motsvara något av alternativen i listrutan.</p>
-      <p>Mer information om standardförhållanden finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Ange ett anpassat villkor som standard för projekt</a> och <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Ange ett anpassat villkor som standard för uppgifter och ärenden</a>.</p>
+      <p>Mer information om standardvillkor finns i <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Ange ett anpassat villkor som standard för projekt</a> och <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">Ange ett anpassat villkor som standard för uppgifter och ärenden</a>.</p>
       <p>Det här alternativet kan inte ändras när du har skapat villkoret.</p></td> 
      </tr> 
      <tr> 
       <td>Nyckel</td> 
-      <td><p>(Obligatoriskt) Ange en alfanumerisk förkortning som användarna kan identifiera för ett projektvillkor. För en aktivitet eller ett problem anger du en tvåsiffrig numerisk kod från 01 till 99. </p>
+      <td><p>(Obligatoriskt) Ange en alfanumerisk förkortning som användarna kan identifiera för ett projektvillkor. För en uppgift eller ett utleverans skriver du en tvåsiffrig numerisk kod från 01 till 99. </p>
       <p>Nyckeln, som används i API:t och kan användas för rapportering, måste vara unik för varje objekt.</p>
       <p>Du kan inte ändra nyckeln för ett villkor när du har sparat villkoret. </p></td> 
      </tr> 
@@ -100,23 +100,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Du kan standardisera villkorsterminologi och färger för alla tre objekttyperna. Det gör du genom att kopiera villkorsnamnet och färghexkoden från en flik (Projekt, Aktivitet, Utgåva) till motsvarande villkor på de två andra flikarna.
 
-1. (Valfritt) Dra ![](assets/move-icon---dots.png) alla villkor till en ny position för att ändra ordningen på listan.
+1. (Valfritt) Dra ![](assets/move-icon---dots.png) vilket villkor som helst till en ny plats för att ändra ordningen på listan.
 
    Detta ändrar den ordning i vilken villkoren visas i projekt, uppgifter och ärenden:
 
    * När en användare redigerar ett projekt
 
-      ![](assets/change-condition-edit-project.png)
+     ![](assets/change-condition-edit-project.png)
 
    * När en användare ändrar villkoret för en uppgift eller ett problem på fliken Uppdateringar:
 
-      ![](assets/change-condition-update-comment.png)
+     ![](assets/change-condition-update-comment.png)
 
    * När en användare ändrar villkoret för en uppgift eller ett problem i en listvy:
 
-      ![](assets/change-conditions-list-dropdown-only.png)
+     ![](assets/change-conditions-list-dropdown-only.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 Du kan ange ditt anpassade villkor som standardvillkor för projekt eller för uppgifter och ärenden. Mer information finns i [Ange ett anpassat villkor som standard för projekt](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) och [Ange ett anpassat villkor som standard för uppgifter och ärenden](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 

@@ -6,9 +6,9 @@ description: Du kan redigera information om program som du har skapat eller som 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '966'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till program</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till program på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Bevilja åtkomst till program</a>. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>[!UICONTROL Edit] tillgång till program</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till program på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">Bevilja åtkomst till program</a>. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -46,16 +46,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Redigera program
 
 1. Gå till **[!UICONTROL Main Menu]**.
-1. Klicka **[!UICONTROL Programs]** och sedan klicka på namnet på ett program för att öppna det.
+1. Klicka på **[!UICONTROL Programs]** och sedan på namnet på ett program för att öppna det.
 
    >[!TIP]
    >
-   >Du kan komma åt ett program från portföljen som det är kopplat till genom att gå till portföljen först och sedan klicka på **[!UICONTROL Programs]** i den vänstra panelen. Mer information finns i [Skapa ett program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
+   >Du kan komma åt ett program från portföljen som det är associerat med genom att gå till portföljen först och sedan klicka på **[!UICONTROL Programs]** i den vänstra panelen. Mer information finns i [Skapa ett program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
 1. (Valfritt) Om du vill redigera begränsad information om programmet klickar du på **[!UICONTROL Program Details]** i den vänstra panelen.
 
@@ -67,19 +67,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Beroende på hur [!DNL Workfront] administratören eller gruppadministratören ändrade din layoutmall, fälten i [!UICONTROL Program Details] området kan ordnas om eller inte visas. Mer information finns i [Anpassa [!UICONTROL Details] visa med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Beroende på hur administratören eller gruppadministratören för [!DNL Workfront] ändrade din layoutmall kan fälten i området [!UICONTROL Program Details] ordnas om eller inte visas. Mer information finns i [Anpassa vyn [!UICONTROL Details] med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Redigera information i [!UICONTROL Details] gör du följande:
+   Så här redigerar du information i avsnittet [!UICONTROL Details]:
 
-   1. (Valfritt) Klicka på **[!UICONTROL Collapse All]** i det övre högra hörnet om du vill komprimera alla områden.
-   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på **högerriktad pil** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera området som du vill redigera.
-   1. Mer information om fälten som visas i [!UICONTROL Program Details] fortsätter du redigera programmet i [!UICONTROL Edit Program] enligt beskrivningen nedan.
-   1. (Valfritt) Om det inte finns några anpassade formulär kopplade till programmet börjar du skriva namnet på ett formulär i **[!UICONTROL Add custom form]** markerar du det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
-   1. (Valfritt) Klicka på **[!UICONTROL Export]** icon ![](assets/export.png) för att exportera [!UICONTROL Overview] och information om anpassade formulär till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Collapse All]** i det övre högra hörnet om du vill komprimera alla områden.
+   1. (Valfritt och villkorligt) När ett område är komprimerat klickar du på den **högerriktade pilen** ![](assets/right-pointing-arrow.png) bredvid varje område för att expandera det område som du vill redigera.
+   1. Om du vill ha information om de fält som visas i avsnittet [!UICONTROL Program Details] kan du fortsätta redigera programmet i rutan [!UICONTROL Edit Program] enligt beskrivningen nedan.
+   1. (Valfritt) Om det inte finns några anpassade formulär kopplade till programmet börjar du skriva namnet på ett formulär i fältet **[!UICONTROL Add custom form]**, markerar det när det visas i listan och klickar sedan på **[!UICONTROL Save Changes]**.
+   1. (Valfritt) Klicka på ikonen **[!UICONTROL Export]** ![](assets/export.png) om du vill exportera [!UICONTROL Overview] och anpassad formulärinformation till en PDF-fil. Klicka sedan på **[!UICONTROL Export]**. Välj bland följande:
 
       * Markera alla (visas bara när det finns minst ett anpassat formulär bifogat)
       * [!UICONTROL Overview]
@@ -92,17 +92,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       Mer information finns i [Exportera anpassade formulär och objektinformation](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
-
 1. Om du vill redigera all information om ett eller flera program gör du något av följande:
 
-   * Klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png) bredvid programnamnet &#x200B;**[!UICONTROL Edit].**
-   * Gå till en lista över program och välj ett eller flera program som du vill redigera. Klicka sedan på **[!UICONTROL Edit]** icon ![](assets/edit-icon.png) högst upp i listan.
+   * Klicka på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) bredvid programnamnet och &#x200B;**[!UICONTROL Edit].**
+   * Gå till en lista över program och välj ett eller flera program som du vill redigera. Klicka sedan på ikonen **[!UICONTROL Edit]** ![](assets/edit-icon.png) högst upp i listan.
 
-   The **[!UICONTROL Edit Program]** visas.
+   Dialogrutan **[!UICONTROL Edit Program]** visas.
 
    ![](assets/edit-program-box-nwe-350x236.png)
 
-   Alla programfält är tillgängliga i [!UICONTROL Edit Program] och grupperas efter de områden som visas i den vänstra panelen.
+   Alla programfält är tillgängliga i rutan [!UICONTROL Edit Program] och grupperas efter de områden som visas i den vänstra panelen.
 
 1. Det kan vara bra att ange information i följande avsnitt:
 
@@ -113,7 +112,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ### [!UICONTROL Overview] {#overview}
 
 1. Börja redigera ett program enligt beskrivningen ovan.
-1. Klicka **[!UICONTROL Overview]** och ange följande fält:
+1. Klicka på **[!UICONTROL Overview]** och ange följande fält:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;note below drafted for now)</p>
@@ -132,7 +131,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>Uppdatera namnet på programmet. </p> <p>Tips: Detta är inte tillgängligt när du har valt mer än ett program. </p> </td> 
+      <td> <p>Uppdatera namnet på programmet. </p> <p>Tips! Detta är inte tillgängligt när du har valt mer än ett program. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
@@ -140,11 +139,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>Börja skriva namnet på en användare som du vill ange som programhanterare och markera den när den visas i listan. Detta är den person som kan övervaka arbetet som definieras i projekten i programmet. </p> <p>Viktigt: När du utser någon till Program Manager får de automatiskt [!UICONTROL Manage] behörighet till programmet och projekten i programmet. </p> <p>Tips: Du kan snabbt uppdatera programhanteraren i programhuvudet. </p> </td> 
+      <td> <p>Börja skriva namnet på en användare som du vill ange som programhanterare och markera den när den visas i listan. Detta är den person som kan övervaka arbetet som definieras i projekten i programmet. </p> <p>Viktigt: När du utser någon till Program Manager får de automatiskt [!UICONTROL Manage] behörigheter till programmet och projekten i programmet. </p> <p>Tips! Du kan snabbt uppdatera programhanteraren i programhuvudet. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>Lägg till namnet på en enskild grupp om gruppen är associerad med programmet eller har ansvar för att slutföra det. </p> <p>Tips:  <p>Vid åtkomst till [!UICONTROL Group] fält från [!UICONTROL Program Details] gör du följande på sidan: </p> <p>Du kan se till att du väljer rätt grupp genom att hålla markören över den och klicka på [!UICONTROL information] icon <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Det här alternativet är inte tillgängligt i [!UICONTROL Edit Program] box. </p> </p> </td> 
+      <td> <p>Lägg till namnet på en enskild grupp om gruppen är associerad med programmet eller har ansvar för att slutföra det. </p> <p>Tips:  <p>Gör följande när du öppnar fältet [!UICONTROL Group] från sidan [!UICONTROL Program Details]: </p> <p>Du kan se till att du väljer rätt grupp genom att hålla markören över den och klicka på ikonen [!UICONTROL information] <img src="assets/info-icon.png"> som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Det här alternativet är inte tillgängligt i rutan [!UICONTROL Edit Program]. </p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Is Active]</td> 
@@ -153,30 +152,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka **[!UICONTROL Save Changes]** eller fortsätta redigera följande avsnitt.
+1. Klicka på **[!UICONTROL Save Changes]** eller fortsätt redigera följande avsnitt.
 
 ### [!UICONTROL Custom Forms]
 
 1. Börja redigera programmet enligt beskrivningen ovan.
-1. Klicka på **[!UICONTROL Add Forms]** på den nedrullningsbara menyn för att välja ett anpassat formulär och lägga till det i programmet.
+1. Klicka på listrutan **[!UICONTROL Add Forms]** för att välja ett anpassat formulär och lägga till det i programmet.
 
    Du måste skapa anpassade programformulär innan de kan läggas till.
 
    >[!NOTE]
    >
-   >Beroende på hur [!DNL Workfront] administratören anger behörigheter för avsnitten i ditt anpassade formulär, men alla kan inte visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva programmet. Mer information om hur du anger behörigheter i avsnitt i ett anpassat formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   >Beroende på hur din [!DNL Workfront]-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för själva programmet. Mer information om att ange behörigheter för avsnitt i ett anpassat formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Uppdatera fälten i de anpassade formulären och klicka sedan på **[!UICONTROL Save Changes]** eller fortsätta med följande avsnitt.
+1. Uppdatera fält i anpassade formulär och klicka sedan på **[!UICONTROL Save Changes]** eller fortsätt med följande avsnitt.
 
 ### [!UICONTROL Comment] {#comment}
 
 1. Börja redigera ett program enligt beskrivningen ovan.
-1. Klicka på **[!UICONTROL Comment]**.
+1. Klicka på **[!UICONTROL Comment]**.
 
    ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
-1. Lägg till en kommentar i **[!UICONTROL Post an update to the program]** fält.
-1. (Valfritt) Klicka på **[!UICONTROL People]** om du vill lägga till en användare eller ett team i kommentaren.
-1. (Valfritt) Klicka på **[!UICONTROL Lock]** om du vill låsa kommentaren och göra den privat för endast användare i ditt företag.
+1. Lägg till en kommentar i fältet **[!UICONTROL Post an update to the program]**.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL People]** för att lägga till en användare eller ett team i kommentaren.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Lock]** om du vill låsa kommentaren och göra den privat för endast användare i ditt företag.
 
-   När du har sparat ändringarna visas den kommentar du lade till i programmets [!UICONTROL Updates] och skickar ett e-postmeddelande till användarna som ingår i det.
+   När du har sparat ändringarna visas den kommentar du lägger till på programmets [!UICONTROL Updates]-flik och ett e-postmeddelande skickas till användarna som ingår i den.

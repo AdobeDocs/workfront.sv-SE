@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront Planning-moduler
-description: Med [!DNL Adobe Workfront Planning] -moduler kan du starta en [!DNL Adobe Workfront Fusion] scenario baserat på händelser i [!DNL Adobe] Workfront Planning-konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och ladda upp dokument.
+description: Med  [!DNL Adobe Workfront Planning] modulerna kan du starta ett [!DNL Adobe Workfront Fusion] scenario baserat på händelser i ditt [!DNL Adobe] Workfront Planning-konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och överföra dokument.
 author: Becky
 feature: Workfront Fusion
 hide: true
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront Planning] moduler
 
-Med [!DNL Adobe Workfront Planning] -moduler kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till [!DNL Adobe Workfront Planning] konto.
+Med modulerna [!DNL Adobe Workfront Planning] kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt [!DNL Adobe Workfront Planning]-konto.
 
 ## Åtkomstkrav
 
@@ -41,37 +41,37 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Skapa en anslutning till [!DNL Adobe Workfront Planning]
 
-Du kan skapa en anslutning till [!DNL Workfront Planning] direkt inifrån ett [!DNL Workfront Fusion] -modul.
+Du kan skapa en anslutning till ditt [!DNL Workfront Planning]-konto direkt inifrån en [!DNL Workfront Fusion]-modul.
 
-1. I alla [!DNL Workfront Planning] programmodul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] box.
+1. Klicka på **[!UICONTROL Add]** bredvid rutan [!UICONTROL Connection] i en [!DNL Workfront Planning]-programmodul.
 1. Ange ett namn för anslutningen.
 1. Välj om du vill ansluta till en produktionsmiljö eller en icke-produktionsmiljö.
 1. Ange om du ansluter till ett tjänstkonto eller ett personligt konto.
-1. Klicka **[!UICONTROL SAML log in]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka på **[!UICONTROL SAML log in]** för att skapa anslutningen och gå tillbaka till modulen.
 
-## [!DNL Adobe Workfront Planning] moduler och deras fält
+## [!DNL Adobe Workfront Planning]-moduler och deras fält
 
 ### Se händelser
 
@@ -87,7 +87,7 @@ Den här utlösarmodulen startar ett scenario när en post, posttyp eller arbets
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
@@ -95,7 +95,7 @@ Den här utlösarmodulen startar ett scenario när en post, posttyp eller arbets
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>Du kan ställa in filter så att endast poster som uppfyller de villkor du väljer bevakas.</p> <p>För varje filter anger du fältet som du vill att filtret ska utvärderas, operatorn och värdet som du vill att filtret ska tillåta. Du kan använda mer än ett filter genom att lägga till OCH-regler.</p> <p>Obs! Du kan inte redigera filter i befintliga [!DNL Workfront] webbhooks. Så här ställer du in olika filter för [!DNL Workfront] händelseprenumerationer, ta bort den aktuella webbkroken och skapa en ny.</p> <p>Mer information om händelsefilter finns i <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Evenemangsprenumerationsfilter i [!DNL Workfront] &gt; [!UICONTROL Watch Events] moduler</a> i Workfront-modulartikeln.</p> </td> 
+      <td> <p>Du kan ställa in filter så att endast poster som uppfyller de villkor du väljer bevakas.</p> <p>För varje filter anger du fältet som du vill att filtret ska utvärderas, operatorn och värdet som du vill att filtret ska tillåta. Du kan använda mer än ett filter genom att lägga till OCH-regler.</p> <p>Obs! Det går inte att redigera filter i befintliga [!DNL Workfront]-webbböcker. Om du vill ställa in olika filter för [!DNL Workfront]-händelseprenumerationer tar du bort den aktuella webbkroken och skapar en ny.</p> <p>Mer information om händelsefilter finns i <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">Evenemangsprenumerationsfilter i [!DNL Workfront] &gt; [!UICONTROL Watch Events] moduler</a> i Workfront-modulartikeln.</p> </td> 
      </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objects to watch]</td>
@@ -124,7 +124,7 @@ Den här åtgärdsmodulen tar bort en enskild posttyp i Workfront Planning med d
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -137,7 +137,7 @@ Den här åtgärdsmodulen tar bort en enskild posttyp i Workfront Planning med d
 
 ### Göra ett anpassat API-anrop
 
-Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Workfront Planning] API.
+Den här modulen gör ett anpassat API-anrop till API:t [!DNL Adobe Workfront Planning].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -145,14 +145,14 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Workfront Planning
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
      <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Ange en sökväg som är relativ till https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</p>
+        <p>Ange en sökväg som är relativ till https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
       </td>
     </tr>
      <tr>
@@ -168,14 +168,14 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Workfront Planning
         <p>[!UICONTROL API Path override]</p>
       </td>
       <td>
-        <p>Ange en sökväg som är relativ till https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</p>
+        <p>Ange en sökväg som är relativ till https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -188,12 +188,12 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Workfront Planning
     <tr>
       <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>För varje nyckel/värde-par som du vill lägga till i frågesträngen klickar du på <b>Lägg till objekt</b> och ange nyckeln och värdet.</p>
+        <p>För varje nyckel/värde-par som du vill lägga till i frågesträngen klickar du på <b>Lägg till objekt</b> och anger nyckel och värde.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -261,7 +261,7 @@ Den här åtgärden skapar en enda post i Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -289,7 +289,7 @@ Den här åtgärdsmodulen tar bort den angivna posten i Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -327,7 +327,7 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
 
 ### Hämta en post
 
-Den här åtgärdsmodulen hämtar en post från [!DNL Adobe Workfront Planning], som anges av dess ID.
+Den här åtgärdsmodulen hämtar en enskild post från [!DNL Adobe Workfront Planning], som anges av dess ID.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -335,7 +335,7 @@ Den här åtgärdsmodulen hämtar en post från [!DNL Adobe Workfront Planning],
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record ID]</td>
@@ -354,7 +354,7 @@ Den här åtgärdsmodulen hämtar alla poster av den angivna typen.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
@@ -374,7 +374,7 @@ Den här åtgärdsmodulen hämtar alla poster av den angivna typen.
 
 ### Hämta posttyper
 
-Den här åtgärdsmodulen hämtar en lista med posttyper i en [!DNL Adobe Workfront Planning] konto.
+Den här åtgärdsmodulen hämtar en lista med posttyper i ett [!DNL Adobe Workfront Planning]-konto.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -382,7 +382,7 @@ Den här åtgärdsmodulen hämtar en lista med posttyper i en [!DNL Adobe Workfr
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
   </tbody>
 </table>
@@ -397,7 +397,7 @@ Den här åtgärden uppdaterar en enda post i Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning], se <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Workfront Planning] finns i <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Workfront Planning]</a> i den här artikeln.</td>
     </tr>
      <tr>
       <td role="rowheader">

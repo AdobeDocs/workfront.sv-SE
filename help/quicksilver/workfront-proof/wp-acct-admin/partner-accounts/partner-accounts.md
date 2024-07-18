@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: Partnerkonton i [!DNL Workfront Proof]
-description: Det här avsnittet innehåller följande artiklar om partnerkonton i [!DNL Workfront Proof].
+title: Partnerkonton i  [!DNL Workfront Proof]
+description: Det här avsnittet innehåller följande artiklar om partnerkonton i  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Partnerkonton i [!DNL Workfront] Korrektur
+# Partnerkonton i [!DNL Workfront]-korrektur
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Hantera en partnerrelation mellan [!DNL Workfront Proof ]konton](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
-* [Dela objekt med en partner i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)
+* [Hantera en partnerrelation mellan  [!DNL Workfront Proof ]konton](../../../workfront-proof/wp-acct-admin/partner-accounts/manage-partner-relationship-between-wp-accts.md)
+* [Dela objekt med en partner i  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md)

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: Nyheter och favoriter i [!DNL Adobe Workfront]
+title: Senaste nytt och favoriter i  [!DNL Adobe Workfront]
 description: Läs de här artiklarna om du vill veta mer om hur du använder favoriter och de senaste versionerna i Workfront.
 feature: Get Started with Workfront
 author: Lisa
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Nyheter och favoriter i [!DNL Adobe Workfront]
+# Senaste nytt och favoriter i [!DNL Adobe Workfront]
 
 Det här avsnittet innehåller följande artiklar:
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1464'
+source-wordcount: '1465'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör kan du spåra användarändringar som utlösts i systemet under de senaste 90 dagarna med hjälp av granskningsloggarna som beskrivs nedan.
 
-Instruktioner om hur du visar och filtrerar det du vill se i granskningsloggarna finns i [Visa och exportera granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Instruktioner om hur du visar och filtrerar det du vill se i dessa granskningsloggar finns i [Visa och exportera granskningsloggar](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
 ## Information som finns i en granskningslogg
 
@@ -78,7 +78,7 @@ Följande fält registreras i alla poster i granskningsloggen:
 * [Projektinställningar](#project-preference)
 * [Allvarlighetsgrad](#severity)
 * [Status](#status)
-* [Inställningar för uppgifter och ärenden](#tasks-issues-preferences)
+* [Inställningar för aktiviteter och ärenden](#tasks-issues-preferences)
 * [Användare](#user)
 
 ### Åtkomstnivå {#access-level}
@@ -115,7 +115,7 @@ Systemet genererar en loggpost för företagsgranskning när en användare gör 
 
 * Tar bort ett företag
 
-Mer information om status finns i [Översikt över status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Mer information om status finns i [Statusöversikt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Villkor {#condition}
 
@@ -192,7 +192,7 @@ Systemet genererar en loggpost för anpassad avsnittsgranskning när en använda
 * Ändrar namnet eller beskrivningen för ett anpassat avsnitt
 * Tar bort ett anpassat avsnitt
 
-Mer information om anpassade avsnitt i anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Mer information om anpassade avsnitt i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Växelkurs {#exchange-rate}
 
@@ -207,7 +207,7 @@ Systemet genererar en loggpost för granskning av valutakurs när en användare 
 
 * Tar bort en valutakurs
 
-Mer information om hur du konfigurerar valutakurser finns i [Ställ in valutakurser](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Mer information om hur du konfigurerar valutakurser finns i [Konfigurera valutakurser](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ### Grupp {#group}
 
@@ -298,7 +298,7 @@ Systemet genererar en loggpost för allvarlighetsgrad när en användare utför 
 
 * Tar bort en allvarlighetsgrad för ett problem
 
-Mer information om hur du konfigurerar jobbroller finns i [Skapa eller anpassa utgåvans allvarlighetsgrad](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
+Mer information om hur du konfigurerar jobbroller finns i [Skapa eller anpassa utgåvans svårighetsgrad](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
 ### Status {#status}
 
@@ -315,7 +315,7 @@ Systemet genererar en loggpost för statusgranskning när en användare utför n
 
 * Tar bort en status på system- eller gruppnivå
 
-Mer information om status finns i [Översikt över status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Mer information om status finns i [Statusöversikt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 ### Inställningar för uppgifter och ärenden {#tasks-issues-preferences}
 
@@ -325,7 +325,7 @@ Systemet genererar en post i granskningsloggen i Inställningar för uppgifter o
 * Ändrar inställningen för en inställning
 * Ändrar en åtkomstinställning för uppgifter, ärenden eller förfrågningar
 
-Mer information om inställningar för åtgärder och problem finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om inställningar för aktiviteter och problem finns i [Konfigurera inställningar för aktiviteter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Användare {#user}
 

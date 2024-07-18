@@ -5,7 +5,8 @@ title: Skapa en KPI-rapport på en Canvas Dashboard
 description: En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas till på en Canvas Dashboard.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas till på en Canvas Dashboard.
 
-Allmän information om hur du lägger till och ordnar rapporter på en arbetsytans kontrollpanel finns i [Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+Allmän information om hur du lägger till och ordnar rapporter på en Canvas-kontrollpanel finns i [Lägga till, ta bort eller ordna rapporter på en Canvas-kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
 
 ## Åtkomstkrav
 
@@ -43,10 +44,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en KPI-rapport på en Canvas Dashboard
 
 >[!IMPORTANT]
 >
->Den här artikeln är inte färdig än. Se de allmänna instruktionerna för hur du lägger till en rapport på en arbetsytekontrollpanel i artikeln [Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>Den här artikeln är inte färdig än. Se de allmänna instruktionerna för hur du lägger till en rapport på en arbetsytans kontrollpanel i artikeln [Lägg till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).

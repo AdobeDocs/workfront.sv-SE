@@ -26,9 +26,9 @@ Användarnas tillgängliga tidsslutpunkt hämtar data om användarens tillgängl
 
 ## Begär parametrar
 
-* **userID**: array med strängar. Obligatoriskt. Exempel: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
+* **userID:n**: strängmatris. Obligatoriskt. Exempel: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
-* **fromDate**: datetime. sträng. Obligatoriskt. Exempel:  `"2022-07-10T00:00:00"`.
+* **fromDate**: datetime. sträng. Obligatoriskt. Exempel: `"2022-07-10T00:00:00"`.
 
 * **toDate**: datetime. sträng. Obligatoriskt. Exempel `"2022-07-20T23:59:59"`.
 

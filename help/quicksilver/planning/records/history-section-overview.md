@@ -28,7 +28,7 @@ Du kan samarbeta om Adobe Workfront Planning-poster genom att lägga till kommen
 
 I den högra panelen för en post visas följande avsnitt:
 
-* **Kommentar**: Visar kommentarer och svar som användare lägger till i poster. Mer information om hur du hanterar kommentarer i Workfront Planning-poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+* **Kommentarer**: Visar kommentarer och svar som användare lägger till i poster. Mer information om hur du hanterar kommentarer i Workfront Planning-poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * **Historik**: Visar ändringar som användarna gör i postfälten.
 
 ## Leta reda på historikavsnittet för en post
@@ -42,12 +42,12 @@ I den högra panelen för en post visas följande avsnitt:
 1. Klicka på ett posttypskort.
 Posttypssidan öppnas och alla poster av den typen visas.
 
-1. Välj en tabellvy på menyn **Visa** listruta.
+1. Välj en tabellvy i listrutan **Visa**.
 1. Klicka på namnet på en post i tabellvyn.
 
    Postens sida öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
-1. Klicka på **Visa historik** icon ![](assets/show-history-icon.png). Alla ändringar som görs i postens fält visas på den högra panelen, med början från den senaste.
-1. (Valfritt) Klicka på **Dölj historik** icon ![](assets/hide-history-icon.png) för att stänga den högra panelen.
+1. Klicka på ikonen **Visa historik** ![](assets/show-history-icon.png). Alla ändringar som görs i postens fält visas på den högra panelen, med början från den senaste.
+1. (Valfritt) Klicka på ikonen **Dölj historik** ![](assets/hide-history-icon.png) för att stänga den högra panelen.
 
 ## Överväganden om historikavsnittet
 

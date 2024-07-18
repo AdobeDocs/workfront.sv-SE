@@ -1,20 +1,20 @@
 ---
 navigation-topic: use-lists
 title: Ändra hur en lista visas
-description: I [!DNL Adobe Workfront]kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
+description: I  [!DNL Adobe Workfront] kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
 
 # Ändra hur en lista visas
 
-I [!DNL Adobe Workfront]kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
+I [!DNL Adobe Workfront] kan du anpassa hur en lista visas för dig. Andra användare som visar listan kan inte se dina ändringar.
 
 Du kan göra följande anpassningar:
 
@@ -24,11 +24,11 @@ Du kan göra följande anpassningar:
 
 >[!NOTE]
 >
->De ändringar du gör ovan återställs när du loggar ut från [!DNL Workfront] eller stänga webbläsaren. Dessa ändringar kan också återställas efter 8 timmar.
+>De ändringar du gör ovan återställs när du loggar ut från [!DNL Workfront] eller stänger webbläsaren. Dessa ändringar kan också återställas efter 8 timmar.
 
-Förutom de tillfälliga anpassningarna ovan kan du även justera vilka kolumner listan sorterar efter, vilket [!DNL Workfront] sparas även när du har loggat ut eller stängt webbläsaren. Om någon ändrar sorteringsalternativen i en listvy behålls dock inte den tidigare sorteringsmarkeringen.
+Förutom de tillfälliga anpassningarna ovan kan du även justera vilka kolumner listan sorterar efter, som [!DNL Workfront] behåller även efter att du har loggat ut eller stängt webbläsaren. Om någon ändrar sorteringsalternativen i en listvy behålls dock inte den tidigare sorteringsmarkeringen.
 
-Mer information om hur du ändrar informationen som visas i listan finns i [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Mer information om hur du ändrar informationen som visas i listan finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 ## Åtkomstkrav
 
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill ändra vyn för ett projekt måste du [!UICONTROL View] behörighet till projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå.<br>För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill ändra vyn för ett projekt behöver du [!UICONTROL View] åtkomst till Projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ändra hur en lista visas
 
@@ -79,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![expand_groupings__1_.png](assets/expand-groupings--1--350x227.png)
 
-1. (Valfritt och villkorligt) Om du vill visa ett visst antal objekt på skärmen klickar du på knappen **[!UICONTROL Showing]** nedrullningsbar meny i skärmens nedre högra hörn och välj sedan att visa **100**, **250**, **500**, **[!UICONTROL All]**, eller **2000** objekt.
+1. (Valfritt och villkorligt) Om du vill visa ett visst antal objekt på skärmen klickar du på den nedrullningsbara menyn **[!UICONTROL Showing]** i skärmens nedre högra hörn och väljer sedan att visa **100**-, **250**-, **500**-, **[!UICONTROL All]**- eller **2000** -objekt.
 
    ![](assets/list-number-page-350x119.png)
 
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Mer information om de två listtyperna finns i avsnittet [Skillnaden mellan de uppdaterade och de äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-   Resultatet av listan sidnumreras för att visa det valda antalet objekt per sida. Du kommer åt resultaten på andra sidor genom att klicka på bakåt- och framåtpilarna eller genom att markera en viss sida.
+   Resultatet av listan sidnumreras för att visa det valda antalet objekt per sida. Du kommer åt resultaten på andra sidor genom att klicka på bakåt- och framåtpilarna eller välja en viss sida.
 
 1. Om du vill ändra storlek på en kolumns bredd för du muspekaren över linjen som skiljer två kolumner åt och drar den sedan till önskad bredd genom att klicka.
 
@@ -102,9 +102,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Om du vill ändra ordningen på kolumnerna i en lista för du musen över en kolumnrubrik för att visa handverktyget och drar sedan kolumnen dit du vill att den ska visas.
 
    Kolumnens position sparas tills du uppdaterar sidan.\
-   Mer information om hur du anpassar bredden och ordningen på kolumnerna i en lista finns i artikeln [Ändra kolumnbredd och -ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+   Mer information om hur du anpassar bredden och ordningen på kolumnerna i en lista finns i artikeln [Ändra kolumnbredd och ordning](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-1. Om du vill justera sorteringsordningen för en lista klickar du på en kolumnrubrik för att markera den och trycker sedan på och håller ned CMD-tangenten (på [!DNL Mac]) eller CTRL-tangenten (på [!DNL Windows]) på tangentbordet och välj upp till två extra kolumnrubriker att sortera efter.
+1. Om du vill justera sorteringsordningen för en lista klickar du på en kolumnrubrik för att markera den, trycker sedan på och håller ned CMD-tangenten (på [!DNL Mac]) eller CTRL-tangenten (på [!DNL Windows]) på tangentbordet och väljer upp till två ytterligare kolumnrubriker för att sortera efter dem.
 
    Listan sorteras efter var och en av de markerade kolumnerna i den ordning som du har markerat.
 
@@ -112,4 +112,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Om du sorterar grupper i [!UICONTROL Groups] område i [!UICONTROL Setup]delar hierarkivyn för grupper och deras undergrupper inte upp sig när du ändrar hur listan sorteras - undergrupper behåller sin överordnade grupp. Listan sorteras först efter grupper på den översta nivån. Under varje överordnad grupp sorteras sedan listan med undergrupper på samma nivå tillsammans.
+   >Om du sorterar grupper i [!UICONTROL Groups]-området i [!UICONTROL Setup] delas inte hierarkivyn för grupper och deras undergrupper upp när du ändrar sättet som listan sorteras på. Undergrupper hålls ihop med sina överordnade grupper. Listan sorteras först efter grupper på den översta nivån. Under varje överordnad grupp sorteras sedan listan med undergrupper på samma nivå tillsammans.

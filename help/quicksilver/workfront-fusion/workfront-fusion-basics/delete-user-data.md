@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: Ta bort användardata i [!DNL Adobe Workfront Fusion]
-description: Du kan lagra och ta bort användardata i [!DNL Adobe Workfront Fusion] konto.
+title: Ta bort användardata i  [!DNL Adobe Workfront Fusion]
+description: Du kan lagra och ta bort användardata i ditt [!DNL Adobe Workfront Fusion] konto.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Ta bort användardata i [!DNL Adobe Workfront Fusion]
 
-Du kan lagra och ta bort användardata i följande områden i [!DNL Adobe Workfront Fusion] konto:
+Du kan lagra och ta bort användardata i följande områden på ditt [!DNL Adobe Workfront Fusion]-konto:
 
 * [!UICONTROL Scenario]
 * [!UICONTROL Connections]
@@ -49,17 +49,17 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Ta bort användardata
 
@@ -70,4 +70,4 @@ Så här tar du bort användardata:
    Om du till exempel vill ta bort ett scenario klickar du på **[!UICONTROL Scenario]** i den vänstra panelen.
 
 1. Klicka på nedpilen till höger om objektet som du vill ta bort och klicka sedan på **[!UICONTROL Delete]**.
-1. Klicka **[!UICONTROL Really]** för att bekräfta.
+1. Bekräfta genom att klicka på **[!UICONTROL Really]**.

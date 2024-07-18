@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
-title: HTTP &gt; Andra moduler
-description: The [!DNL Adobe Workfront Fusion] HTTP-appen innehåller olika moduler för kommunikation baserade på HTTP-protokollet (Hypertext Transfer Protocol). HTTP är grunden för datakommunikation för webben. Du kan använda modulerna för att hämta webbsidor och filer, anropa webhooks och API-slutpunkter och så vidare.
+title: HTTP&gt; Andra moduler
+description: HTTP-appen  [!DNL Adobe Workfront Fusion] innehåller olika moduler för kommunikation baserade på HTTP-protokollet (Hypertext Transfer Protocol). HTTP är grunden för datakommunikation för webben. Du kan använda modulerna för att hämta webbsidor och filer, anropa webhooks och API-slutpunkter och så vidare.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!UICONTROL Adobe Workfront Fusion] kräver [!UICONTROL Adobe Workfront Fusion] utöver en [!UICONTROL Adobe Workfront] licens.
+>[!UICONTROL Adobe Workfront Fusion] kräver en [!UICONTROL Adobe Workfront Fusion]-licens utöver en [!UICONTROL Adobe Workfront]-licens.
 
-The [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] app innehåller olika moduler för kommunikation baserade på HTTP-protokollet (Hypertext Transfer Protocol). HTTP är grunden för datakommunikation för webben. Du kan använda modulerna för att hämta webbsidor och filer, anropa webhooks och API-slutpunkter och så vidare.
+Appen [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] innehåller olika moduler för kommunikation baserat på HTTP-protokollet (Hypertext Transfer Protocol). HTTP är grunden för datakommunikation för webben. Du kan använda modulerna för att hämta webbsidor och filer, anropa webhooks och API-slutpunkter och så vidare.
 
 Vilket som är rätt val för modulen beror på vilken autentiserings-/auktoriseringsmekanism som resursen du vill ha tillgång till. Följande är exempel på moduler
 
 * Gör en begäran:universell modul är främst avsedd för resurser som inte använder någon typ av autentisering/auktorisering
-* Gör en grundläggande autentiseringsbegäran:för resurser som använder [!DNL HTTP] Grundläggande autentisering (BA)
+* Gör en grundläggande autentiseringsbegäran:för resurser som använder [!DNL HTTP] grundläggande autentisering (BA)
 * Gör en OAuth 2.0-begäran: för resurser som använder OAuth 2.0-auktoriseringsprotokoll
 * Gör en autentiseringsbegäran för klientcertifikat: för resurser som använder auktoriseringsprotokoll som kräver ett certifikat på klientsidan.
 * Gör en API-nyckelauktoriseringsbegäran: för resurser som använder API-nycklar för auktorisering.
@@ -36,16 +36,16 @@ Vilket som är rätt val för modulen beror på vilken autentiserings-/auktorise
 >
 >Om du ansluter till en Adobe-produkt som för närvarande inte har någon dedikerad anslutning rekommenderar vi att du använder Adobe Authenticator-modulen.
 >
->Mer information finns i [Modulen Adobe Authenticator](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>Mer information finns i [Adobe Authenticator-modulen](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
 
 ## Begär moduler
 
 I följande artiklar finns information om en specifik modul för begäranden:
 
-* [[!UICONTROL HTTP] >[!UICONTROL Make a request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
-* [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
-* [[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request] modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make a request]-modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make a Basic Authorization request]-modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-basic-auth-request.md)
+* [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]-modulen](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-oauth-2-request.md)
+* [[!UICONTROL HTTP] >[!UICONTROL Make a Client Certificate Authorization request]-modul](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-client-cert-auth-request.md)
 * [[!UICONTROL HTTP] >[!UICONTROL Make an API Key Authorization request]](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-an-api-key-auth-request.md)
 
 ## Andra åtgärdsmoduler
@@ -78,11 +78,11 @@ Den här åtgärdsmodulen åtgärdar en kedja av HTTP-omdirigeringar och returne
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
-   <td> <p>Ange eller mappa den URL som du vill matcha, till exempel en [!DNL bit.ly] URL.</p> </td> 
+   <td> <p>Ange eller mappa den URL som du vill matcha, till exempel en [!DNL bit.ly]-URL.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method] </td> 
-   <td> <p>Välj om du vill använda [!UICONTROL HEAD] metoden eller [!UICONTROL GET] -metod.</p> </td> 
+   <td> <p>Välj om du vill använda metoden [!UICONTROL HEAD] eller metoden [!UICONTROL GET].</p> </td> 
   </tr> 
  </tbody> 
 </table>

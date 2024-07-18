@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Lägga till en rapport på en instrumentpanel
 
-Du kan lägga till en rapport på en ny eller befintlig kontrollpanel direkt från en rapport. Du kan också lägga till en befintlig rapport på en kontrollpanel enligt beskrivningen i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Du kan lägga till en rapport på en ny eller befintlig kontrollpanel direkt från en rapport. Du kan också lägga till en befintlig rapport på en kontrollpanel, enligt beskrivningen i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -59,8 +59,8 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 ## Lägga till en rapport på en befintlig instrumentpanel
 
 1. Gå till en rapport som du har behörighet att hantera och du vill lägga till i en instrumentpanel.
-1. Klicka på **Rapportåtgärder** listruta.
-1. Klicka **Lägg till på instrumentpanelen**. Högst 10 nyligen ändrade kontrollpaneler - som ägs av den inloggade användaren - visas i ordningen för de senaste till äldsta.
+1. Klicka på listrutan **Rapportera åtgärder**.
+1. Klicka på **Lägg till i instrumentpanelen**. Högst 10 nyligen ändrade kontrollpaneler - som ägs av den inloggade användaren - visas i ordningen för de senaste till äldsta.
 1. Välj den kontrollpanel som du vill lägga till rapporten i.
 
    När du har valt kontrollpanelen kan du lägga till rapporten som om du redigerar den instrumentpanelen.
@@ -68,9 +68,9 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 ## Lägga till en rapport på en ny instrumentpanel
 
 1. Gå till en rapport som du har behörighet att hantera och du vill lägga till i en instrumentpanel.
-1. Klicka på **Rapportåtgärder** nedrullningsbar meny.
-1. Klicka **Lägg till på instrumentpanelen** och sedan klicka **Ny instrumentpanel** för att lägga till din rapport.\
+1. Klicka på listrutan **Rapportåtgärder**.
+1. Klicka på **Lägg till i instrumentpanelen** och sedan på **Ny instrumentpanel** för att lägga till rapporten.\
    En kontrollpanelsbyggare visas.
 
 1. (Valfritt) Välj en layout och ta med ytterligare rapporter på den nya instrumentpanelen.
-1. Klicka **Spara+stäng** för att lägga till rapporten.
+1. Klicka på **Spara+Stäng** för att lägga till rapporten.

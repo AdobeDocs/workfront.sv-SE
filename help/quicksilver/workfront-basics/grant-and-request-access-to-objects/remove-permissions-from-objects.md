@@ -70,24 +70,24 @@ Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från d
 
 1. (Villkorligt) Gör följande för program, portföljer och dokument:
 
-   1. Klicka på **Mer** icon ![](assets/more-icon.png)bredvid objektnamnet och klicka sedan på **Delning** eller **Dela.**
+   1. Klicka på ikonen **Mer** ![](assets/more-icon.png)bredvid objektnamnet och klicka sedan på **Dela** eller **Dela**.
 
       ![](assets/share-a-document-350x160.png)
 
-   1. Klicka på **x** bredvid namnet på en användare, ett team, en grupp, ett företag eller en jobbroll som ska tas bort i rutan för objektåtkomst.
+   1. Klicka på **x** bredvid namnet på en användare, ett team, en grupp, ett företag eller en jobbroll för att ta bort dem i rutan för objektåtkomst.
 
       ![](assets/remove-permissions-on-portfolio.png)
 
-   1. I **&lt; Användarnamn > har inte längre åtkomst till Workfront** väljer du om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
+   1. I listrutan **&lt; Användarnamn > tas Workfront-åtkomst bort från den här**-menyn väljer du om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
 
 1. (Villkorligt) Gör följande för projekt, uppgifter och ärenden:
 
-   1. Klicka **Dela** till höger om objektets namn.
+   1. Klicka på **Dela** till höger om objektets namn.
 
       ![](assets/new-share-button.png)
    1. Hitta den användare, roll, det team, den grupp eller det företag som du vill ta bort från objektet.
-   1. Klicka **Ta bort**.
-I **Ta bort &lt; Användarnamn > från** väljer du om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
+   1. Klicka på **Ta bort**.
+I listrutan **Ta bort &lt; användarnamn > från** väljer du om du vill att deras åtkomst ska tas bort från det markerade objektet eller från alla underordnade objekt som är kopplade till det.
 
       ![](assets/remove-permissions-on-project-nwe-350x479.png)
 
@@ -96,7 +96,7 @@ I **Ta bort &lt; Användarnamn > från** väljer du om du vill att deras åtkoms
    * Om du bara tar bort entiteten från objektet förlorar entiteten sina behörigheter för objektet och deras ärvda behörigheter till de underordnade objekten. Om de tidigare beviljats behörigheter till de underordnade objekten individuellt behåller de samma behörigheter för alla underordnade objekt som är kopplade till dem när du väljer det här alternativet.
    * Om du tar bort entiteten från objektet och alla underordnade objekt förlorar entiteten sina behörigheter till objektet och alla underordnade objekt, även när de tidigare fått individuell behörighet för varje underordnat objekt.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Ta bort behörigheter från flera objekt samtidigt
 
@@ -110,19 +110,19 @@ Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från f
 
    Mer information om vilka objekt som kan delas finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Markera flera objekt i listan och klicka sedan på **Dela** icon ![](assets/share-icon.png)högst upp i listan.
-1. Skriv namnet på användaren, rollen, teamet, gruppen eller företaget som du vill ta bort åtkomsten för i **Redigera `<Object Name>` behörighet till** fält.
-1. Välj **Ingen åtkomst**.
+1. Markera flera objekt i listan och klicka sedan på ikonen **Dela** ![](assets/share-icon.png) längst upp i listan.
+1. Skriv namnet på användaren, rollen, teamet, gruppen eller företaget som du vill ta bort åtkomsten för i fältet **Redigera `<Object Name>` åtkomst till**.
+1. Välj **Ingen åtkomst** på den nedrullningsbara menyn.
 
    ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. I `<User Name>`När Workfront-åtkomst tas bort från den här listrutan väljer du om du vill att deras åtkomst ska tas bort från de objekt du har markerat eller från alla andra underordnade objekt som är kopplade till den.\
+1. I den här listrutan för `<User Name>` tas åtkomsten till Workfront bort. Välj om du vill att åtkomsten ska tas bort från de objekt som du har markerat eller från alla andra underordnade objekt som är kopplade till den.\
    Följande scenarier finns:
 
    * Om du bara tar bort entiteten från objektet förlorar entiteten sina behörigheter för objektet och deras ärvda behörigheter till de underordnade objekten. Om de tidigare beviljats behörigheter till de underordnade objekten individuellt behåller de samma behörigheter för alla underordnade objekt som är kopplade till dem när du väljer det här alternativet. 
    * Om du tar bort entiteten från objektet och alla underordnade objekt förlorar entiteten sina behörigheter till objektet och alla underordnade objekt, även när de tidigare fått individuell behörighet för varje underordnat objekt.
 
-   **Exempel:** Välj om du bara vill ta bort behörigheter för de uppgifter som du har valt i en lista eller för de utgåvor och dokument som är kopplade till uppgifterna.
+   **Exempel:** Välj om du vill ta bort behörigheter till enbart de uppgifter du har markerat i en lista eller till de utgåvor och dokument som är kopplade till aktiviteterna.
 
    ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
@@ -130,7 +130,7 @@ Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från f
 
    Om de till exempel har behörigheten Hantera väljer du Contribute eller Visa i stället.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Ta bort ärvda behörigheter
 
@@ -143,18 +143,18 @@ Du kan ta bort enheter (användare, jobbroller, team, grupper, företag) från f
 Så här tar du bort ärvda behörigheter:
 
 1. Gå till ett objekt som du har behörigheten Hantera för. Gå till exempel till en uppgift.
-1. Gå till objektåtkomstrutan enligt beskrivningen i [Ta bort enheter från delningslistan för ett objekt](#remove-entities-from-the-sharing-list-of-an-object) i den här artikeln.
-1. Välj **x** nästa **Ärvd behörighet** i delningsrutan om du vill ta bort någon som visas där.
+1. Gå till åtkomstrutan för objekt enligt beskrivningen i avsnittet [Ta bort entiteter från delningslistan för ett objekt](#remove-entities-from-the-sharing-list-of-an-object) i den här artikeln.
+1. Markera **x** bredvid **Ärvd behörighet** i delningsrutan om du vill ta bort alla som finns där.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-   Detta garanterar att ingen som har behörighet till det överordnade objektet (till exempel projektet) har behörighet till den här uppgiften som standard. Du måste lista enskilda enheter i delningslistan för uppgiften för att kunna bevilja behörigheter för uppgiften.
+   Detta garanterar att ingen som har behörighet till det överordnade objektet (till exempel projektet) har behörighet till den här uppgiften som standard. Du måste lista  enskilda enheter i delningslistan för uppgiften att bevilja behörigheter för uppgiften.
 
    >[!TIP]
    >
    >Du kan inte ta bort enskilda enheter från listan Ärvda behörigheter. Du kan bara inaktivera ärvda behörigheter för alla enheter i listan.
 
-1. Klicka **Spara**. 
+1. Klicka på **Spara**. 
 
 ## Gör ett objekt privat
 
@@ -166,10 +166,10 @@ Så här gör du ett objekt privat:
 
 1. Gå till det objekt som du vill göra privat.\
    Navigera till exempel till en rapport.
-1. Klicka **Rapportåtgärder** sedan **Delning**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Dela**.
 
    ![](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Klicka **Ta bort offentlig åtkomst** för att ta bort externa användares åtkomst till rapporten.
-1. Klicka **Ta bort systemomfattande åtkomst** för att sluta dela det med alla Workfront-användare. 
-1. Klicka **Spara**.
+1. Klicka på **Ta bort offentlig åtkomst** för att ta bort externa användares åtkomst till rapporten.
+1. Klicka på **Ta bort systemomfattande åtkomst** om du vill sluta dela den med alla Workfront-användare. 
+1. Klicka på **Spara**.

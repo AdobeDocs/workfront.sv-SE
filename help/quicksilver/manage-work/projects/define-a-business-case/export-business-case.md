@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt, finansiella data och resurshantering</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till projekt, finansiella data och resurshantering</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -49,11 +49,11 @@ Du måste ha följande:
 ## Exportera affärsärendet
 
 1. Gå till projektet som du vill exportera affärsärendet från.
-1. Klicka **Affärsärende** i den vänstra panelen.
-1. I det övre högra hörnet **Översikt över affärsärenden** område, klicka **Exportera**.
+1. Klicka på **Affärsfall** i den vänstra panelen.
+1. Klicka på **Exportera** i det övre högra området **Affärsärendesammanfattning**.
 
    ![](assets/bc-summary--350x587.png)\
-   En PDF-fil laddas ned till datorn. Filen innehåller alla delar av affärsärendet i ett lättläst format.
+   A PDF  filen hämtas till datorn. Filen innehåller alla delar av affärsärendet i ett lättläst format.
 
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
 

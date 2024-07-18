@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjorts inom tidsramen för version 23.2. De här förbättringarna kommer att göras tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.
 
-En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Uppdateringar av utseendet och känslan i listan Utkast i området Begäranden
 
@@ -53,7 +53,7 @@ Ytterligare användarinformation visas nu när du lägger till användare i föl
 
 När du lägger till en användare i de områden som anges ovan visas även användarens primära roll och e-postadress, förutom användarens namn och avatar. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.
 
-Mer information, och en videodemonstration av en liknande funktion finns i&quot;Smart användarval för projektroller i Redigera- och detaljområdena&quot; i [2.4 Projektförbättringar](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Mer information och en videodemonstration av en liknande funktion finns i&quot;Smart användarval för projektroller i områdena Redigera och Detaljer&quot; i [2.4 Projektförbättringar](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Uppdaterad ikon för dokumentversion i Dokumentinformation
 

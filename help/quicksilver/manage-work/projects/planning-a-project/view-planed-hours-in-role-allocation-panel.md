@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Visa projektplanerade timmar på panelen Rollallokering
+title: Visa projektplanerade timmar i panelen Rollallokering
 description: Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt i ett projekt på panelen Rollallokering i projektet.
 author: Alina
 feature: Work Management
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Visa projektplanerade timmar på panelen Rollallokering
+# Visa projektplanerade timmar i panelen Rollallokering
 
 Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt i ett projekt på panelen Rollallokering i projektet.
 
@@ -21,10 +21,11 @@ Du kan visa rollallokering för alla jobbroller som har tilldelats arbetsobjekt 
 >
 >Den här artikeln hänvisar till att visa de jobbroller som är associerade med uppgifter och utgåvor i ett projekt och deras tilldelade planerade timmar på panelen Rolltilldelning i ett projekt. Mer information om hur du avstämde Planerade timmar med initieringstimmar med hjälp av rollallokeringspanelen när du använder Adobe Workfront scenarioplan finns i följande:
 >
->* [Visa rolltilldelning för projekt och initiativ i uppgiftslistan](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
->* [Visa rolltilldelning för projekt och initiativ i Utjämning av arbetsbelastning](../../../scenario-planner/show-role-allocation-workload-balancer.md)
+>* [Visa rollallokering för projekt och initiativ i uppgiftslistan](../../../scenario-planner/show-role-allocation-task-list-nwe.md)
+>* [Visa rollallokering för projekt och initiativ i Utjämning av arbetsbelastning](../../../scenario-planner/show-role-allocation-workload-balancer.md)
 >
 >  Du måste ha en licens för Scenarioplanering för att kunna se initieringstimmar på panelen Rollallokering. Mer information om scenarioplanen finns i [Kom igång med scenarioplanen](../../../scenario-planner/get-started-with-scenario-planning.md) .
+>
 
 ## Åtkomstkrav
 
@@ -74,7 +75,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -91,27 +92,32 @@ Du måste ha följande:
 
 * Uppgifter eller ärenden som tilldelats jobbroller eller användare som är kopplade till en jobbroll.
 
-   >[!TIP]
-   Om aktiviteterna eller problemen inte har tilldelats, tilldelats till team eller har tilldelats användare utan jobbroll är projektets planerade timmar noll på panelen Rolltilldelning.
+  >[!TIP]
+  >
+  >Om aktiviteterna eller problemen inte har tilldelats, tilldelats till team eller har tilldelats användare utan jobbroll är projektets planerade timmar noll på panelen Rolltilldelning.
 
 * Aktiviteter och problem med en varaktighet som är högre än noll.
 
-## Visa projektplanerade timmar på panelen Rollallokering
+## Visa projektplanerade timmar i panelen Rollallokering
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Projekt**.
 1. Klicka på namnet på ett projekt för att komma åt det. Sidan Projekt öppnas.
 1. Klicka på något av följande i den vänstra panelen:
 
    * **Uppgifter**
-   * **Utjämning av arbetsbelastning**
+   * **Utjämnare för arbetsbelastning**
 
-1. Klicka på **Visa rollallokering** icon ![](assets/show-role-allocation-icon.png).
+1. Klicka på ikonen **Visa rolltilldelning** ![](assets/show-role-allocation-icon.png) .
 
    Panelen Rolltilldelning visas.
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. Granska följande information i **Rollallokering** panel: |Fält | Beskrivning| |—|—| | **Jobbroll** |Jobbroller som tilldelats aktiviteter och ärenden i projektet. Dessa kan vara jobbroller som tilldelas direkt till uppgifter och ärenden eller jobbroller som är kopplade till användare som har tilldelats aktiviteter och ärenden i projektet.  | | **Planerade timmar** |Totalt antal planerade timmar från uppgifter och ärenden som tilldelats jobbroller eller användare som är associerade med en jobbroll i projektet. |
+1. Granska följande information på panelen **Rollallokering**:
+|Fält | Beskrivning|
+|—|—|
+| **Jobbroll** |Jobbroller som tilldelats aktiviteter och ärenden i projektet. Dessa kan vara jobbroller som tilldelas direkt till uppgifter och ärenden eller jobbroller som är kopplade till användare som har tilldelats aktiviteter och ärenden i projektet.  |
+| **Planerade timmar** |Totalt antal planerade timmar från uppgifter och ärenden som tilldelats jobbroller eller användare som är associerade med en jobbroll i projektet.  |
 
 
 

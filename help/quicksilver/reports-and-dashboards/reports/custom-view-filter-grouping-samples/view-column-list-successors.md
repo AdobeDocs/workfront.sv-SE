@@ -9,14 +9,14 @@ feature: Reports and Dashboards
 exl-id: 45e9cb13-99c7-4401-962e-2aea5e5258c0
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
 
-# Visa: lägga till en lista med efterföljande aktiviteter i en kolumn
+# Visa: lägg till en lista med efterföljande aktiviteter i en kolumn
 
-Du kan lägga till en kolumn i en uppgiftsvy för att visa en lista över de efterföljande uppgifterna. The **Uppgiftsefterföljande aktiviteter** -kolumnen innehåller både numret på den efterföljande parten och namnet.
+Du kan lägga till en kolumn i en uppgiftsvy för att visa en lista över de efterföljande uppgifterna. Kolumnen **Uppgiftens efterföljare** innehåller både antalet efterföljare och namnet.
 
 ![task_view_with_a_list_of_Succors_.png](assets/task-view-with-a-list-of-successors--350x118.png)
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,12 +58,11 @@ Så här lägger du till den här kolumnen i en uppgiftsvy:
 
 1. Gå till en befintlig uppgiftsvy.
 1. Expandera listrutan Visa och välj **Anpassa vy**.
-1. Klicka **Lägg till kolumn**.
-1. Klicka **Växla till textläge**.
-1. För musen över **Visa i den här kolumnen** och klicka **Klicka för att redigera text**.
+1. Klicka på **Lägg till kolumn**.
+1. Klicka på **Växla till textläge**.
+1. För musen över **Visa i den här kolumnen** och klicka på **Klicka för att redigera text**.
 
 1. Ta bort all text i rutan Textläge och ersätt den med följande kod:
+   <pre>displayname=Task Successors<br>listdelimiter=<br><br>listmethod=nested(Successors).lists<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({successor}).{taskNumber}, - {successor}.{name})<br>värdeformat=HTML</pre>
 
-   <pre>displayName=Uppgiftsövare<br>listdelimiter=<br><br>listmethod=nested(Succors).lists<br>textmode=true<br>type=iterate<br>valueExpression=CONCAT({Succor}).{taskNumber}, -,{Succor}.{name})<br>valueFormat=HTML</pre>
-
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.

@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Handläggningsbeslut och dokumentbeslut är begränsade för alla obetalda Workfront-licenser för nya planer. När användare når sitt tilldelade antal beslut uppgraderas de som standard till en Light-licens.
 
-Du kan inaktivera alternativet för automatisk uppgradering från inställningsområdet. Mer information om hur automatiska uppgraderingar fungerar finns i [Begränsat dokument och bevisbeslut för obetalda användare - översikt](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Du kan inaktivera alternativet för automatisk uppgradering från inställningsområdet. Mer information om hur automatiska uppgraderingar fungerar finns i [Begränsat dokument och korrekturbeslut för användare som inte är betalande - översikt](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
@@ -56,6 +56,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step-1-to-setup}}
 
-1. Expandera [!UICONTROL **System**] i den vänstra navigeringen klickar du på [!UICONTROL **Inställningar**].
-1. I [!UICONTROL **Allmänna inställningar**] -avsnittet, kontrollera [!UICONTROL **Inaktivera automatisk uppgradering på åtkomstnivåer**] box.
-1. Klicka [!UICONTROL **Spara**].
+1. Expandera [!UICONTROL **System**] i den vänstra navigeringen och klicka sedan på [!UICONTROL **Inställningar**].
+1. I avsnittet [!UICONTROL **Allmänna inställningar**] markerar du kryssrutan [!UICONTROL **Inaktivera automatisk uppgradering i åtkomstnivåer**].
+1. Klicka på [!UICONTROL **Spara**].

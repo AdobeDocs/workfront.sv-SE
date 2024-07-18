@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mallar som inkluderar åtkomst till Ta bort</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till mallar som inkluderar åtkomst till Ta bort</p> <p> <img src="assets/template-access-level-with-advanced-settings-350x113.png" style="width: 350;height: 113;"> </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -53,9 +53,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Att tänka på vid borttagning av mallar
 
 * De uppgifter som lades till i projekt när mallen bifogades finns kvar i projekten. Den malluppgiftsinformation som är kopplad till uppgifterna tas dock bort.
-* Namnet på mallen visas inte längre i **Mall** fält på **Ökning** projektunderflik.
+* Mallens namn visas inte längre i fältet **Mall** på underfliken **Översikt** i projektet.
 
-* Du kan återställa en nyligen borttagen mall från papperskorgen. Mer information om hur du återställer objekt från papperskorgen finns i [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+* Du kan återställa en nyligen borttagen mall från papperskorgen. Mer information om hur du återställer objekt från papperskorgen finns i [Återställa borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Ta bort en mall
 
@@ -63,10 +63,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Då öppnas en lista med mallar
 
-1. Markera mallen som du vill ta bort genom att klicka i kryssrutan till vänster om mallnamnet och sedan klicka på **Ta bort > Ja, ta bort den** för att bekräfta borttagningen.
+1. Markera mallen som du vill ta bort genom att klicka i kryssrutan till vänster om mallnamnet och klicka sedan på **Ta bort > Ja, ta bort** för att bekräfta borttagningen.
 
    eller
 
-   Klicka på namnet på en mall för att komma åt den och klicka sedan på **Mer** meny ![](assets/qs-more-icon-on-an-object.png) sedan **Ta bort mall > Ja, ta bort den**.
+   Klicka på namnet på en mall för att komma åt den, klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Ta bort mall > Ja, ta bort den**.
 
    Mallen är inte längre tillgänglig för att associeras med ett projekt.

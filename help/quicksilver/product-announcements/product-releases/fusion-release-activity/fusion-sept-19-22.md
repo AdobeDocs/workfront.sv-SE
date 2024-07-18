@@ -28,7 +28,7 @@ Med Adobe Journey Optimizer-modulerna kan du
 * Sök efter Adobe Journey Optimizer-poster med villkor som du anger
 * Göra ett anpassat API-anrop till Adobe Journey Optimizer API
 
-Mer information finns i [Adobe Journey Optimizer Modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
+Mer information finns i [Adobe Journey Optimizer-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md).
 
 ## Adobe Campaign Classic Connector och moduler är nu tillgängliga
 
@@ -40,4 +40,4 @@ Med Adobe Campaign Classic-modulerna kan du
 * Utför en åtgärd från Adobe Campaign API
 * Göra ett anpassat API-anrop till Adobe Campaign Classic API
 
-Mer information finns i [Adobe Campaign Classic moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).
+Mer information finns i [Adobe Campaign Classic-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md).

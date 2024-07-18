@@ -5,13 +5,13 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken
 description: Vissa dokument kan inte konverteras till korrektur.
 author: Courtney
-source-git-commit: a01c2e42dad1a7c00ac73fcaeb1202c56238a8bb
+exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
+source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
-
 
 # Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken
 

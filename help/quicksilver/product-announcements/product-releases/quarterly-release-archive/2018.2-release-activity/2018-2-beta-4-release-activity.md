@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.2 Beta 4 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 4-versionen. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 17 maj 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 4. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 17 maj 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2018.2 Beta 4 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 4-versionen. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 17 maj 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.2 Beta 4. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 17 maj 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för 2018.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Beta 4-versionen från 2018.2 innehåller förbättringar för Workfront-administratörer och andra användare:
+2018.2 Beta 4 innehåller förbättringar för Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -32,15 +32,15 @@ Beta 4-versionen från 2018.2 innehåller förbättringar för Workfront-adminis
 
 **För alla användare**
 
-* [Förbättringar av gränsen för pågående arbete för kanban-styrelsen](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
-* [Förbättrat gränssnitt för konfigurering av status för ett Agile-team](#improved-interface-for-configuring-statuses-for-an-agile-team)
+* [Förbättringar av begränsning av pågående arbete (WIP) för kanban-styrelsen](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [Förbättrat gränssnitt för konfigurering av status för ett team](#improved-interface-for-configuring-statuses-for-an-agile-team)
 * [Uppdaterad arbetslista (vänster panel) i hemområdet](#updated-work-list-left-panel-in-the-home-area)
-* [Ny Desktop Proofing Viewer för korrektur av interaktivt material (multimedia)](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* [Ny Desktop Proofing Viewer för korrektur av interaktivt (multimedia) innehåll](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
 * [Exportera användarvyn i resursplaneraren](#export-the-user-view-in-the-resource-planner)
 * [Stöd för Google Team Drives](#support-for-google-team-drives)
-* [Ny exportgräns för Gantt-schema](#new-export-limit-for-the-gantt-chart)
+* [Ny exportgräns för Gantt-schemat](#new-export-limit-for-the-gantt-chart)
 * [Alternativet Klistra in från Urklipp visas nu som nedtonat när du använder Internet Explorer eller Safari](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
-* [Ny betamiljö för Android tillsammans med nya funktioner](#new-beta-environment-for-android-along-with-new-features)
+* [Ny Beta-miljö för Android tillsammans med nya funktioner](#new-beta-environment-for-android-along-with-new-features)
 * [Exempel på filter för händelseprenumerationsmeddelanden](#examples-of-filters-for-event-subscriptions-messages)
 
 ## Förbättringar av gränsen för pågående arbete för kanban-styrelsen {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
@@ -51,7 +51,7 @@ Nu kan du konfigurera gränserna för pågående arbete (PIA) för varje kolumn 
 
 Före den här ändringen kunde du bara konfigurera en PIA-gräns som tillämpades på alla kolumner på Kanban-tavlan. 
 
-Mer information finns i avsnittet  [Konfigurera PIA-gränsen (Work in Progress)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) i artikeln  [Konfigurera Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Mer information finns i avsnittet  [Konfigurera gränsen för pågående arbete (PIA)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) i artikeln  [Konfigurera Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Uppdatera PIA-gränsen (Work in Progress) direkt från kanban-styrelsen
 
@@ -59,7 +59,7 @@ Nu kan teammedlemmar med redigeringsbehörighet för teamet uppdatera PIA-gräns
 
 Innan den här ändringen utfördes kunde du bara uppdatera PIA-gränsen från området Teaminställningar.
 
-Mer information finns i artikeln.
+Mer information finns i  i artikeln.
 
 ## Förbättrat gränssnitt för konfigurering av status för ett Agile-team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -81,7 +81,7 @@ Arbetslista i Hem-området innehåller följande förbättringar:
 
   Objekt som visas utanför hemområdet visas fortfarande som olästa i hemområdet.
 
-  Mer information finns i [Visa objekt i arbetslista i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Nu kan du skilja på olika problem med en problemikon som visas bredvid problemet.
 * Godkännanden urskiljs nu efter typ av godkännande, med typen av godkännande som visas. Möjliga godkännandetyper är Aktivitet, Projekt, Utgåva, Åtkomst, Dokument, Tidrapport och Korrektur.
@@ -102,20 +102,20 @@ Arbetslista i Hem-området innehåller följande förbättringar:
 
   Det här numret är inte tillgängligt för grupperingen Slutfört.
 
-  Mer information finns i [Visa objekt i arbetslista i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Mer information finns i [Visa objekt i arbetslistan i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
 * Ändra storlek på arbetslistan genom att dra och släppa. Du kan ändra storlek på arbetslistan så att den förbrukar upp till hälften av skärmen. Storleken som du anger behålls nästa gång du öppnar Home.
 
   Det gick inte att ändra storleken på arbetslistan före den här ändringen.
 
-* På begäran visas användaravataren för användaren som gjorde begäran med texten &quot;[Godkännare_namn] skulle vilja ha ert godkännande.&quot;
+* På begäran visas användaravataren för användaren som gjorde begäran med texten [Godkännare_namn].
 * När du skapar en ny personlig uppgift får du nu etiketten&quot;Att göra&quot;.
 
-  Mer information finns i [Skapa arbetsobjekt från startdelen](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) i artikeln [Skapa arbetsobjekt från startdelen](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Mer information finns i [Skapa arbetsobjekt från Hem](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) i artikeln [Skapa arbetsobjekt från Hem](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 * Sena objekt anges som sena endast efter en timme efter det planerade slutförandedatumet.
 
-Mer information om Hem-området finns i [Använda området Hem](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Mer information om Hem-området finns i [Använda Hem-området](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Ny Desktop Proofing Viewer för korrektur av interaktivt material (multimedia) {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
@@ -143,9 +143,9 @@ Mer information om skillnader i funktionalitet mellan Desktop Proofing Viewer oc
 
 Vi hade tillfälligt inaktiverat export av data från resursplaneraren när de visades i användarvyn för att åtgärda vissa prestandaproblem. I den här versionen återaktiveras exporten av data när resursplaneraren visas i användarvyn.
 
-Mer information om hur du exporterar resursplaneringsdata till Excel finns i avsnittet Exportalternativ i [Översikt över navigering i resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om hur du exporterar resursplaneringsdata till Excel finns i avsnittet Exportalternativ i [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Om du vill delta i vårt betaprogram för resursplaneraren går du till [Resursplaneringsprestanda - betaversion.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
+Om du vill delta i vårt aktuella betaprogram för resursplaneraren läser du [Resursplaneringsprestanda för Beta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
 
 ## Systeminställning: Sessionsinformation på externa sidor {#system-setting-session-information-in-external-pages}
 
@@ -153,7 +153,7 @@ Workfront-administratören kan nu begränsa användningen av sessionsinformation
 
 Före den här ändringen kunde användare som skapade externa sidor använda vilken sessionsinformation som helst när de bäddade in andra webbplatser i en Workfront-kontrollpanel. 
 
-Mer information om hur du konfigurerar systeminställningarna i Workfront finns i [Konfigurera säkerhetsinställningar för system](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Mer information om hur du konfigurerar systeminställningarna i Workfront finns i [Konfigurera systemsäkerhetsinställningar](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Stöd för Google Team Drives {#support-for-google-team-drives}
 
@@ -179,9 +179,9 @@ Före den här ändringen visades inte det här alternativet när Internet Explo
 
 Mer information om hur du klistrar in bilder från Urklipp finns i [Klistra in bilder från Urklipp](../../../../documents/managing-documents/paste-image-clipboard.md).
 
-## Ny betamiljö för Android tillsammans med nya funktioner {#new-beta-environment-for-android-along-with-new-features}
+## Nya Beta Environment for Android plus nya funktioner {#new-beta-environment-for-android-along-with-new-features}
 
-Nu kan du uppleva de senaste funktionerna som vårt team arbetar med för mobilappen innan de släpps för allmänheten genom att registrera sig som betatestare. Den här miljön stöds för närvarande bara för Android-telefoner med Workfront-mobilapp.
+Nu kan du uppleva de senaste funktionerna som vårt team arbetar med för mobilappen innan de släpps för allmänheten genom att registrera sig som betatestare. Den här miljön stöds för närvarande endast för Android-telefoner.
 
 Mer information om hur du registrerar dig som betatestare för Workfront mobilapp finns i .
 
@@ -215,4 +215,4 @@ Följande förbättringar är nu tillgängliga i betaversionen av mobilappen:
 
 ## Exempel på filter för händelseprenumerationsmeddelanden {#examples-of-filters-for-event-subscriptions-messages}
 
-För att visa hur du kan filtrera händelseprenumerationer så att de bara tar emot meddelanden som är relevanta för din organisation finns nu exempelkodfragment tillgängliga för filtrering av händelseflödet som kommer till slutpunkterna. Mer information om hur du visar filterexemplen finns i [Filtrera händelsens prenumerationsmeddelanden](../../../../wf-api/api/filter-event-sub-messages.md).
+För att visa hur du kan filtrera händelseprenumerationer så att de bara tar emot meddelanden som är relevanta för din organisation finns nu exempelkodfragment tillgängliga för filtrering av händelseflödet som kommer till slutpunkterna. Mer information om hur du visar filterexemplen finns i [Prenumerationsmeddelanden för filterhändelser](../../../../wf-api/api/filter-event-sub-messages.md).

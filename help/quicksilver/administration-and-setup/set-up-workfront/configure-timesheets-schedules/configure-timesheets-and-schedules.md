@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: set-up-workfront
 title: Konfigurera scheman och tidrapportinställningar
-description: Som en [!DNL Workfront] kan du definiera din arbetsvecka med hjälp av scheman och associera ett schema med en användare eller ett projekt. Detta gör att [!DNL Adobe Workfront] för att beräkna tidslinjer och användartillgänglighet. Du kan också konfigurera tidrapport och timinställningar.
+description: Som  [!DNL Workfront] administratör kan du definiera din arbetsvecka med hjälp av scheman och associera ett schema med en användare eller ett projekt. Detta gör att  [!DNL Adobe Workfront]  kan beräkna tidslinjer och användartillgänglighet. Du kan också konfigurera tidrapport och timinställningar.
 author: Caroline
 feature: System Setup and Administration
 role: Admin

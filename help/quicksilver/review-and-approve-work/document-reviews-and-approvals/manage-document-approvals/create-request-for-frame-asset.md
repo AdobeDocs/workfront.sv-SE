@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## Skapa en gransknings- eller godkännandebegäran från dokumentsammanfattningen
 
-1. Gå till projektet, aktiviteten eller problemet som innehåller den anslutna Frame.io och välj sedan **Dokument**.
+1. Gå till projektet, aktiviteten eller problemet som innehåller den anslutna Frame.io och välj sedan **Documents**.
 
    >[!TIP]
    >
@@ -61,17 +61,17 @@ You must have the following access to perform the steps in this article:
 
 1. Klicka på den Frame.io-anslutna resurs som du behöver för att öppna panelen Dokumentsammanfattning.
 
-1. (Valfritt) I dialogrutan **Version** väljer du den version av resursen som du vill godkänna. Den senaste versionen är markerad som standard.
+1. (Valfritt) I listrutan **Version** väljer du den version av resursen som du vill skapa ett godkännande för. Den senaste versionen är markerad som standard.
 
-1. Bläddra nedåt till **Godkännanden** -avsnittet och klicka sedan på **Lägg till**.
+1. Bläddra nedåt till avsnittet **Godkännanden** och klicka sedan på **Lägg till**.
 
 ![](assets/doc-summary-add-approvers.png)
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
+1. Om du vill lägga till en godkännare klickar du på **Godkännaren** och börjar skriva in ett användar- eller teamnamn.
 
-1. Om du vill lägga till en granskare klickar du på **Granskare** och börja skriva in ett användar- eller teamnamn.
+1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
    ![](assets/add-approver-and-deadline.png)
 
@@ -79,18 +79,18 @@ You must have the following access to perform the steps in this article:
 
 ## Skapa en gransknings- eller godkännandebegäran från sidan Dokumentinformation
 
-1. Håll muspekaren över dokumentet och klicka sedan **Dokumentinformation**.
+1. Håll markören över dokumentet och klicka sedan på **Dokumentinformation**.
    ![](assets/doc-details.png)
 
 1. I närheten av dokumentnamnet väljer du den version av dokumentet som du vill skapa ett godkännande för. Den senaste versionen är markerad som standard.
 
-1. Klicka på i den vänstra panelen **Godkännanden**.
+1. Klicka på **Godkännanden** i den vänstra panelen.
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du vill lägga till en godkännare klickar du på **Godkännare** och börja skriva ett användar- eller teamnamn.
+1. Om du vill lägga till en godkännare klickar du på **Godkännaren** och börjar skriva in ett användar- eller teamnamn.
 
-1. Om du vill lägga till en granskare klickar du på **Granskare** och börja skriva in ett användar- eller teamnamn.
+1. Om du vill lägga till en granskare klickar du på kryssrutan **Granskare** och börjar skriva in ett användar- eller teamnamn.
 
    ![](assets/add-approver-and-deadline.png)
 

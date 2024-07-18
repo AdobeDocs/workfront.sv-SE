@@ -18,5 +18,5 @@ ht-degree: 0%
 # Fatta ett beslut om ett bevis
 
 * [Godkänn ett korrektur](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-* [Fatta ett beslut om ett korrektur i korrekturläsaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* [Välj ett korrektur i korrekturläsaren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 * [Ändra ett befintligt beslut om ett korrektur](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)

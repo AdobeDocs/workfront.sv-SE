@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Edit] behörighet till [!UICONTROL Reports], [!UICONTROL Dashboards]och [!UICONTROL Calendars]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -50,20 +50,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Redigera en befintlig kalenderrapport
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Calendars]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Calendars]**.
 
-1. (Valfritt) Om du vill ändra namnet på kalenderrapporten klickar du på [!UICONTROL calendar name] och sedan göra önskade ändringar.\
+1. (Valfritt) Om du vill ändra namnet på kalenderrapporten klickar du på fältet [!UICONTROL calendar name] och gör sedan önskade ändringar.\
    ![Ändra rapportnamn](assets/titlechange-250x230.png)\
    Om du har delat kalenderrapporten med andra användare eller team uppdateras det ändrade kalendernamnet automatiskt i deras kalendervy.
 
 1. (Valfritt) Så här lägger du till ett projekt i kalenderrapporten:
 
    1. Klicka på **[!UICONTROL Add to Calendar].**
-   1. I **[!UICONTROL Project name]** börjar du skriva namnet på ett projekt som du vill lägga till kalenderhändelser från och klickar sedan på namnet när det visas i listrutan.\
+   1. I fältet **[!UICONTROL Project name]** börjar du skriva namnet på ett projekt som du vill lägga till kalenderhändelser från och klickar sedan på namnet när det visas i listrutan.\
 
       ![Välj projektnamnet](assets/calendar-project-name.png)
 Objekt från projektet och tillhörande uppgifter och utgåvor läggs till i kalenderrapporten.

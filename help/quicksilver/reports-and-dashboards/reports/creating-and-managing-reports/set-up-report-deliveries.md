@@ -21,10 +21,10 @@ ht-degree: 0%
 
 Du kan schemalägga rapporter som ska levereras automatiskt till användarna enligt ett angivet schema, eller så kan du skicka rapporter manuellt en gång. När du skickar en rapport från Adobe Workfront får användaren ett e-postmeddelande med Workfront-rapporten i en separat bifogad fil.
 
-Mer information om hur du ställer in en leveransrapport finns i artikeln [Schemalägg automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Mer information om hur du konfigurerar en rapport för leverans finns i artikeln [Boka en automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-Du kan inte schemalägga rapporter för leverans eller leverera dem manuellt i sandlådemiljön för förhandsgranskning. Mer information om förhandsvisningssandlådan finns i artikeln [Sandlådemiljön Adobe Workfront Preview](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
-Mer information om hur du levererar rapporter i sandlådemiljön för förhandsgranskning finns i artikeln [Skicka en rapport i förhandsgranskningssandlådemiljön](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
+Du kan inte schemalägga rapporter för leverans eller leverera dem manuellt i sandlådemiljön för förhandsgranskning. Mer information om förhandsvisningssandlådan finns i artikeln [The Adobe Workfront Preview Sandbox Environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).\
+Mer information om hur du levererar rapporter i sandlådemiljön för förhandsgranskning finns i artikeln [Skicka en rapport i sandlådemiljön för förhandsgranskning](../../../reports-and-dashboards/reports/creating-and-managing-reports/send-report-preview-sandbox-environment.md).
 
 ## Rapportleveransbegränsningar
 
@@ -41,15 +41,15 @@ Tänk på följande när du planerar leveransrapporter:
 
 Det finns flera storleksbegränsningar som påverkar hur rapporter visas i Workfront och hur de exporteras via manuell export, en levererad rapport eller via API:t:
 
-* **5 MB filstorlek:** Filstorleksgräns för exporterade rapporter som är schemalagda för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten.
+* **5 MB filstorlek:** Filstorleksgräns för exporterade rapporter som schemalagts för leverans. Om en exporterad fil som bifogas till ett e-postmeddelande är större än 5 MB, skickas en länk dit filen kan hämtas via e-post i stället för den bifogade exporterade rapporten.
 
   >[!NOTE]
   >
   >Excel .xlsx-filer som är större än 5 MB genererar inte något e-postmeddelande. Du kan exportera rapporten manuellt till det här formatet. Mer information om att exportera rapporter finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
-* **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för PDF- och tabbavgränsade filer.
+* **50 000 rader:** Antalet rader med data som tillåts i en rapportexport för pdf- och tabbavgränsade filer.
 
-  För Excel .xls-filer är den här gränsen **65 000 rader**.
+  För Excel .xls-filer är gränsen **65 000 rader**.
 
   För Excel .xlsx-filer är den här gränsen **100 000 rader**.
 
@@ -64,7 +64,7 @@ Det finns flera storleksbegränsningar som påverkar hur rapporter visas i Workf
    * En export via en API-integrering.
    * Data som exporteras med en snabbstart.
 
-     Mer information om hur du exporterar data via direktuppspelning finns i artikeln [Exportera data från Adobe Workfront via Quick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+     Mer information om hur du exporterar data via snabbstart finns i artikeln [Exportera data från Adobe Workfront via snabbstart](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
      >[!NOTE]
      >
@@ -74,8 +74,8 @@ Det finns flera storleksbegränsningar som påverkar hur rapporter visas i Workf
 
      Mer information om hur du exporterar användningsinformation för ett projekt finns i [Översikt över resursanvändningsrapporten](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* **65 530 hyperlänkar:** Det här är en gräns som gäller för dokument som innehåller fler än 65 530 hyperlänkar. Dessa dokument kan inte öppnas när de exporteras manuellt eller skickas i en levererad rapport. Observera att ett Excel-dokument kanske bara innehåller 200 rader med data, men att dokumentet inte öppnas om det finns fler än 65 530 länkar i dokumentet. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
-* **256 kolumner**: Det här är en gräns som gäller för dokument som innehåller fler än 256 kolumner. Dessa dokument kan inte exporteras manuellt eller skickas i en levererad rapport. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
+* **65,530 hyperlänkar:** Det här är en gräns som Excel har angett för dokument som innehåller fler än 65 530 hyperlänkar. Dessa dokument kan inte öppnas när de exporteras manuellt eller skickas i en levererad rapport. Observera att ett Excel-dokument kanske bara innehåller 200 rader med data, men att dokumentet inte öppnas om det finns fler än 65 530 länkar i dokumentet. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
+* **256 kolumner**: Det här är en gräns som Excel har angett för dokument som innehåller fler än 256 kolumner. Dessa dokument kan inte exporteras manuellt eller skickas i en levererad rapport. Den här gränsen gäller endast för Excel-filer, inte för andra format som stöds.
 
 Om du försöker exportera data utanför gränsen kanske du inte får alla förväntade data i exporten. En ändrad rapport skapas i stället inom gränsen.
 
@@ -127,9 +127,9 @@ När du skickar en rapport från Workfront får användaren ett e-postmeddelande
 
 ### Ämnesrad, bilagenamn och rapportrubrik {#subject-line-attachment-name-and-report-title}
 
-Mer information om ämnesraden i det levererade rapportmeddelandet finns i [Schemalägg automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+Mer information om ämnesraden i det levererade rapportmeddelandet finns i [Boka en automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
-Namnet på den bifogade rapporten är: *_Namn_på_rapport* följt av det exporterade filformatet.
+Den bifogade rapportens namn är: *The_Name_Of_The_Report* följt av det exporterade filformatet.
 
 Om du har schemalagt att den levererade rapporten ska formateras som en PDF eller HTML, kommer rapportens namn att vara:
 
@@ -167,7 +167,7 @@ Om rapporten har särskild formatering i webbprogrammet bör den levereras med d
 
 Rapportens filter, vy eller gruppering ingår inte i den levererade filen. Beskrivningen av rapporten inkluderas bara när du skickar rapporten som en PDF-fil.
 
-Mer information om hur du tar emot rapporter med en speciell vy finns i artikeln [Rapporter med en särskild vy](#reports-with-a-special-view).\
+Mer information om hur du tar emot rapporter med en specialvy finns i artikeln [Rapporter med en specialvy](#reports-with-a-special-view).\
 Mer information om hur du väljer standardfliken för en rapport och om specialformatering finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Länkar {#links}
@@ -180,15 +180,15 @@ Namnet på rapporten i e-postmeddelandet är också en länk.
 
 Du kan se om en rapport har konfigurerats för leverans genom att skapa följande:
 
-* **En vy** för objektet Rapport i en lista eller en rapport för rapporter: Skapa en vy i en lista över rapporter eller i en rapport för rapporter, och lägg till följande kolumn i vyn:\
+* **En vy** för rapportobjektet i en lista eller en rapport för rapporter: Skapa en vy i en lista med rapporter eller i en rapport för rapporter, och lägg till följande kolumn i vyn:\
   *Namn på schemalagd rapport.\
   *Namnen på alla leveranser som schemalagts för den rapporten listas i kolumnen i en punktlista.\
-  ![schedule_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
+  ![edul_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)
 
-* **Ett filter** för objektet Rapport: Skapa ett filter i en lista med rapporter eller i en rapport om rapporter med följande programsats: *Schemalagt rapport-ID är inte tomt*.\
+* **Ett filter** för rapportobjektet: Skapa ett filter i en lista med rapporter eller i en rapport om rapporter med följande uttryck: *ID för schemalagd rapport är inte tomt*.\
   Detta visar endast rapporter som har schemalagts i listan eller rapporten.\
   ![](assets/qs-scheduled-report-filter-350x101.png)\
-  Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Mer information om hur du skapar en rapport om rapporter finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+  Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Mer information om hur du skapar en rapport om rapporter finns i [Skapa en rapport om rapportaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Scheduling a Repeating Report Delivery</h2>

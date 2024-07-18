@@ -23,7 +23,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -32,7 +32,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 

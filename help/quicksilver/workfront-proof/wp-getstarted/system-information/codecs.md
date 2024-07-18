@@ -3,15 +3,15 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: Kodekar i [!DNL Workfront Proof]
-description: Kodekar i [!DNL Workfront Proof]
+title: Kodekar i  [!DNL Workfront Proof]
+description: Kodekar i  [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
 source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 2%
+source-wordcount: '94'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Kodekar som stöds
 
@@ -41,13 +41,13 @@ ht-degree: 2%
 * [!DNL Avid Meridien Uncompressed]
 * [!DNL AVImszh]
 * [!DNL AVIzlib]
-* AVS ([!DNL Audio Video Standard]) video
+* AVS-video ([!DNL Audio Video Standard])
 * [!DNL Beam Software VB]
 * [!DNL Bethesda VID] video
 * [!UICONTROL Bink] video
 * [!DNL Blackmagic 10-bit]
 * [!DNL Broadway MPEG Capture Codec]
-* [!DNL Brooktree 411] codec
+* [!DNL Brooktree 411]-kodek
 * [!DNL Brute Force & Ignorance]
 * [!DNL CamStudio]
 * [!DNL Camtasia Screen Codec]
@@ -63,16 +63,16 @@ ht-degree: 2%
 * [!UICONTROL Deluxe Paint Animation]
 * [!DNL DivX ;-)] ([!DNL MPEG-4])
 * [!DNL DNxHD] (VC3)
-* [!DNL DV] (Digital Video)
+* [!DNL DV] (digital video)
 * [!DNL Feeble Files]/[!DNL ScummVM DXA]
-* [!DNL FFmpeg] video codec #1
+* [!DNL FFmpeg] videokodek #1
 * [!DNL Flash Screen Video]
 * [!DNL Flash Video] (FLV) / [!DNL Sorenson Spark] / [!DNL Sorenson H.263]
 * [!DNL Forward Uncompressed Video Codec]
 * [!DNL fox motion video]
 * [!DNL FRAPS: Realtime Video Capture]
 * [!DNL GeoVision Advanced MPEG-4]
-* [!DNL GoToMeeting] codec (v1 och v2)
+* [!DNL GoToMeeting]-kodek (v1 och v2)
 * [!DNL H.261]
 * [!DNL H.263], [!DNL H.263+]
 * [!DNL H.264] / [!DNL AVC] / [!DNL MPEG-4 AVC] / [!DNL MPEG-4 part 10]
@@ -84,7 +84,7 @@ ht-degree: 2%
 * [!DNL id RoQ] video
 * [!DNL IFF ByteRun1]
 * [!DNL IFF ILBM]
-* [!DNL Independent JPEG Group's] codec
+* [!DNL Independent JPEG Group's]-kodek
 * [!DNL Infinite Video PSI_V]
 * [!DNL Intel Indeo 2]
 * [!DNL Intel Indeo 3]
@@ -92,7 +92,7 @@ ht-degree: 2%
 * [!DNL Intel Indeo 5]
 * [!DNL Interplay C93]
 * [!DNL Interplay MVE] video
-* [!DNL Karl Morton]&#39;s video codec
+* Videokodek för [!DNL Karl Morton]
 * [!DNL Kega Game Video]
 * [!DNL kensington webcam]
 * [!DNL Lagarith Lossless Video Codec]
@@ -127,7 +127,7 @@ ht-degree: 2%
 * [!DNL On2 VP7]
 * [!DNL Power VideoWorks] video
 * [!DNL ProRes 422]
-* [!DNL Psygnosis YOP] Video
+* [!DNL Psygnosis YOP]-video
 * [!DNL Q-team QPEG]
 * [!DNL QPEG]
 * [!DNL QuickTime 8BPS] video
@@ -146,7 +146,7 @@ ht-degree: 2%
 * [!DNL SMPTE VC-1]
 * [!DNL SMV2]
 * [!DNL Snow]
-* [!DNL SoftMedia ViVD V2] codec
+* [!DNL SoftMedia ViVD V2]-kodek
 * [!DNL Sony Digital Video (DV)]
 * [!DNL Sony PlayStation MDEC (Motion DECoder)]
 * [!DNL Sorenson Vector Quantizer 1] / [!DNL Sorenson Video 1] / [!DNL SVQ1]
@@ -162,7 +162,7 @@ ht-degree: 2%
 * [!DNL TrueMotion 2.0]
 * [!DNL UCOD-ClearVideo]
 * [!DNL VDOWave 3] avancerad kodek
-* [!DNL VDOWave] codec
+* [!DNL VDOWave]-kodek
 * [!DNL Verint Video Manager]
 * [!DNL Vianet Lsvx Video]
 * [!DNL VMware Screen Codec] / [!DNL VMware Video]
@@ -171,7 +171,7 @@ ht-degree: 2%
 * [!DNL VSS Codec Light]
 * [!DNL VSS Wavelet Video Codec]
 * [!DNL WebTrain Communication] förlustfri skärminspelning
-* [!DNL wincam screen capture] codec
+* [!DNL wincam screen capture]-kodek
 * [!DNL Windows Media Screen Codec 2]
 * [!DNL Windows Media Video (WMV)]
 * [!DNL Windows Media Video (VC-1) Advanced Profile]
@@ -180,8 +180,8 @@ ht-degree: 2%
 * [!DNL Windows Media Video 9 (WMV 9, WMV3)]
 * [!DNL Windows Media Video Adv]
 * [!DNL Windows Screen Video]
-* [!DNL Winnov Videum winx] codec
-* [!DNL Winnov Videum wnv1] codec
+* [!DNL Winnov Videum winx]-kodek
+* [!DNL Winnov Videum wnv1]-kodek
 * [!DNL Winnov WNV1]
 * [!DNL WorldConnect Wavelet Video]
 * [!DNL XAN Video]
@@ -195,9 +195,9 @@ ht-degree: 2%
 ## Kodekar som inte stöds
 
 * [!DNL Apple Intermediate]
-* [!DNL ProRes 4444] ([!DNL ProRes 422] Stöds)
+* [!DNL ProRes 4444] ([!DNL ProRes 422] stöds)
 * [!DNL HDV 720p60]
 * [!DNL Go2Meeting3 (G2M3)]
 * [!DNL Go2Meeting4 (G2M4)]
-* [!DNL ER AAC LD] (Felresistent, låg fördröjning variant av [!DNL AAC])
+* [!DNL ER AAC LD] (Felresistent, variant för låg fördröjning av [!DNL AAC])
 * [!DNL REDCODE]

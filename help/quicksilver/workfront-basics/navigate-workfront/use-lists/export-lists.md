@@ -7,16 +7,16 @@ author: Lisa
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
 
 # Exportera en lista
 
-Du kan exportera en lista med objekt från [!DNL Adobe Workfront]. När listan med objekt i [!DNL Workfront] innehåller fler än 2 000 objekt. Det enda sättet att granska alla objekt i listan på en sida är att exportera listan.
+Du kan exportera en lista med objekt från [!DNL Adobe Workfront]. När listan med objekt i [!DNL Workfront] innehåller fler än 2 000 objekt är det enda sättet att granska alla objekt i listan på en sida att exportera listan.
 
-Mer information om exportformat och -begränsningar finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Mer information om exportformat och begränsningar finns i [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Åtkomstkrav
 
@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill exportera ett projekts uppgiftslista måste du [!UICONTROL View] behörighet till projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå.<br>För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] behörighet till området som listan finns i</p> <p>Om du till exempel vill exportera ett projekts uppgiftslista behöver du [!UICONTROL View] åtkomst till Projekt.</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå.<br>Mer information om hur en [!DNL Workfront] -administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -45,13 +45,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Exportera en lista
 
 1. Gå till en lista med objekt.
 1. (Valfritt) Markera de filter, vyer och grupperingar som du vill använda i listan innan du exporterar.\
-   Mer information om filter, vyer och grupperingar finns i [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Mer information om filter, vyer och grupperingar finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 1. (Valfritt) Om du bara vill exportera vissa objekt i en lista markerar du alla objekt i listan som du vill ha med i den exporterade filen.
 
@@ -63,14 +63,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >   
    >   * **Markera för att visa alla eller 2 000 objekt i listorna**: Mer information finns i [Ändra hur en lista visas](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
    >   
-   >   * **Använd snabbfiltret**: Mer information finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).\
-      >     Snabbfiltret gäller bara för den aktuella sidan i listan.
-
+   >   * **Använd snabbfiltret**: Mer information finns i [Använda snabbfiltret i en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).\
+   >     Snabbfiltret gäller bara för den aktuella sidan i listan.
 
 
    ![select_all_projects_with_highlight_1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Klicka **[!UICONTROL Export]** ![Exportera](assets/export.png).
+1. Klicka på **[!UICONTROL Export]** ![Exportera](assets/export.png).
 
 1. Välj bland följande format:
 
@@ -79,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * [!DNL Excel] (xlsx)
    * Tabbavgränsad
 
-      En kopia av listan exporteras till något av dessa format och sparas på datorn.
+     En kopia av listan exporteras till något av dessa format och sparas på datorn.
 
 1. (Valfritt) Öppna den exporterade listan med lämpligt program.\
    Alla objekt i listan visas i den exporterade filen, oavsett om de visas på skärmen i webbprogrammet eller inte.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Anpassa fästa sidor med en layoutmall
 
-I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. De här sidorna kan du få åtkomst till via huvudmenyn ![](assets/main-menu-icon.png) eller kontrollpaneler.
+I en layoutmall kan du fästa de sidor som du vill att användarna alltid ska ha tillgängliga överst i Adobe Workfront. De här sidorna kan antingen nås via huvudmenyn ![](assets/main-menu-icon.png) eller instrumentpanelerna.
 
 Alla punkter som användarna har lagt till separat visas till höger om de punkter som du lägger till i layoutmallen.
 
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,7 +56,7 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 ## Fästa sidor med en layoutmall
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Under **Övre navigeringsområde**, klicka **Lägg till nytt häftstift**.
+1. Under **Övre navigeringsområdet** klickar du på **Lägg till nytt häftstift**.
 
 1. Gör något av följande i listrutan som visas:
 
@@ -64,13 +64,13 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
      >[!IMPORTANT]
      >
-     >För att visa områdena Scenarier och Mål krävs ytterligare licenser. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md) Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     >För att visa områdena Scenarier och Mål krävs ytterligare licenser. Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
-   * Klicka **Lägg till en instrumentpanel** och skriv sedan en beskrivning **Anpassad avsnittsrubrik** och lägga till kontrollpanelen.
+   * Klicka på **Lägg till en instrumentpanel**, skriv en beskrivande **anpassad avsnittsrubrik** och lägg till instrumentpanelen.
 
 1. Upprepa föregående steg om du vill fästa andra sidor.
 
-1. (Valfritt) Om du vill byta namn på ett häftstift håller du pekaren över stiftet, klickar på pilen bredvid stiftets namn och väljer **Byt namn på stift**. Skriv det nya stiftnamnet och klicka på bockmarkeringsikonen eller tryck på Retur.
+1. (Valfritt) Om du vill byta namn på ett häftstift håller du pekaren över stiftet, klickar på pilen bredvid nålnamnet och väljer **Byt namn på häftstiftet**. Skriv det nya stiftnamnet och klicka på bockmarkeringsikonen eller tryck på Retur.
 
    Ett litet popup-fönster visas i flera sekunder efter att du har klickat på bockmarkeringen eller tryckt på Retur, så att du kan ångra ändringen av nålens namn innan det sparas.
 
@@ -78,8 +78,8 @@ Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRK
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara**.
+   Klicka på **Spara** om du är klar med anpassningen.
 
    >[!TIP]
    >
-   >Du kan klicka **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   >Du kan klicka på **Spara** när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.

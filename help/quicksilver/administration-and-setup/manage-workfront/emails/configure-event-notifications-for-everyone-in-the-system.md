@@ -28,9 +28,9 @@ Du måste först ange vilka meddelanden du vill att alla användare ska få unde
 
 När meddelanden har aktiverats i inställningsområdet och visas på användarens profilsidor, kan enskilda användare eller en annan användare med en planlicens även konfigurera aktiverade meddelanden i en användarprofil för att styra vilka meddelanden som en viss användare får och hur ofta. Mer information finns i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-En lista över alla händelsemeddelanden som du kan aktivera och inaktivera finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+En lista med alla händelsemeddelanden som du kan aktivera och inaktivera finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-Mer information om hur du låser upp ett händelsemeddelande så att gruppadministratörer kan konfigurera det för sina grupper finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) och [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Information om hur du låser upp ett händelsemeddelande så att gruppadministratörer kan konfigurera det för sina grupper finns i [Lås upp eller låsa konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) och [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 ## Åtkomstkrav
 
@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,16 +70,16 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
 
 >[!TIP]
 >
->Du kan inte aktivera meddelanden för Workfront-mål under Konfigurera. Användarna kan bara aktivera de här meddelandena i sina profiler. Användare med Planera licenser kan aktivera dem för andra användare. Mer information om hur du aktiverar meddelanden om Workfront-mål för användare finns i [Meddelanden: Mål](../../../workfront-basics/using-notifications/notifications-goals.md).
+>Du kan inte aktivera meddelanden för Workfront-mål under Konfigurera. Användarna kan bara aktivera de här meddelandena i sina profiler. Användare med Planera licenser kan aktivera dem för andra användare. Mer information om hur du aktiverar Workfront-målmeddelanden för användare finns i [Meddelanden: Mål](../../../workfront-basics/using-notifications/notifications-goals.md).
 
 {{step-1-to-setup}}
 
-1. Klicka **E-post** > **Meddelanden**.
+1. Klicka på **E-post** > **Meddelanden**.
 
    ![](assets/notifications-area-under-setup-emails.png)
 
 
-1. Se till att **Händelsemeddelanden** -fliken är öppen.
+1. Kontrollera att fliken **Händelsemeddelanden** är öppen.
 1. Växla till vänster om händelsenamnet för att aktivera eller inaktivera den.
 
    Information om standardmeddelandestatus för en händelse finns i [Händelsemeddelanden](../../../workfront-basics/using-notifications/event-notifications.md).
@@ -94,4 +94,4 @@ Du måste aktivera meddelanden under Konfigurera i Workfront innan användare ka
    >
    >Den här funktionaliteten är inledningsvis bara tillgänglig för kunder i kluster 4 som en del av en fasad utrullning. Det kommer att bli tillgängligt för andra kluster kort därefter. Artikeln uppdateras när detta inträffar.
 
-   Mer information finns i [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+   Mer information finns i [Lås upp eller låsa konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).

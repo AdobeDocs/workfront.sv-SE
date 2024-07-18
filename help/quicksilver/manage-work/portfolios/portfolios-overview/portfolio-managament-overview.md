@@ -34,7 +34,7 @@ Personer som arbetar med PPM använder vanligtvis följande steg för att utför
 1. Utvärdera resurstillgängligheten för att utföra de valda projekten.
 1. Granska och utvärdera förloppet för projekten i portföljen och gör justeringar om det behövs.
 
-## Översikt över [!DNL Adobe Workfront] PPM-process
+## Översikt över PPM-processen [!DNL Adobe Workfront]
 
 Du kan prioritera dina projekt och se till att de är anpassade till dina verksamhetsmål och krav med hjälp av verktygen för hantering av Portfolio i [!DNL Workfront].
 
@@ -59,31 +59,31 @@ Mer information om hur du skapar ett affärsärende och en projektförfrågan fi
 
 När du har skickat in projektbegäran granskar projektledaren eller ett ledningsgrupp den och avgör om du ska godkänna projektet eller inte. Om de godkänner projektet väljs projektet ut för ett företag som heter Project Portfolio.
 
-Mer information om portföljer finns i [Portfolio, översikt i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Mer information om portföljer finns i [Översikt över Portfolio i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimering för Portfolio {#portfolio-optimization}
 
 När du har lagt till alla projekt i portföljen optimerar och prioriterar Portfolio Manager dem utifrån deras värde, justering och nytta för organisationen.
 
-Mer information om portföljoptimering finns i [Optimera projekt i Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Mer information om portföljoptimering finns i [Optimera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ### Resursplanering {#resource-planning}
 
-Resurshanteraren ser till att rätt resurser tilldelas projekten tillsammans med optimering av portföljens prestanda och prioritering av projekten. De bedömer tillgängligheten och fördelningen av resurserna med hjälp av de resurshanteringsverktyg som finns i [!DNL Workfront].
+Resurshanteraren ser till att rätt resurser tilldelas projekten tillsammans med optimering av portföljens prestanda och prioritering av projekten. De utvärderar tillgängligheten och allokeringen av resurserna med hjälp av de resurshanteringsverktyg som är tillgängliga i [!DNL Workfront].
 
 Beroende på vilka resurser som är tillgängliga kan du behöva prioritera om projekten i Portfolio Manager.
 
-Mer information om resurshantering finns i [Hantera resurser](../../../resource-mgmt/manage-resources.md) -avsnitt.
+Mer information om resurshantering finns i avsnittet [Hantera resurser](../../../resource-mgmt/manage-resources.md).
 
 ### Projektkörning {#project-execution}
 
-När du har fått projektgodkännandet från Portfolio Manager och valideringen av resurserna från Resource Manager, som projektägare, kan du placera projektet i statusen [!UICONTROL Current] så kan användarna påbörja arbetet för att slutföra projektet. Vi rekommenderar att du hämtar en baslinje för projektet i den här fasen, så att du får en referenspunkt för projektet i dess ursprungliga skick.
+När du har fått projektgodkännandet från Portfolio Manager och valideringen av resurserna från Resource Manager som projektägare kan du placera projektet i statusen [!UICONTROL Current] och dina användare kan påbörja arbetet för att slutföra projektet. Vi rekommenderar att du hämtar en baslinje för projektet i den här fasen, så att du får en referenspunkt för projektet i dess ursprungliga skick.
 
-Mer information om hur du hanterar projekt i [!DNL Workfront], se [Hantera projekt: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
-Mer information om hur du skapar baslinjer i projekt finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).
+Mer information om hur du hanterar projekt i [!DNL Workfront] finns i [Hantera projekt: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Mer information om hur du skapar baslinjer för projekt finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Postmortem för projekt {#project-postmortem}
 
 När du är klar med projekten i portföljen kan du granska varje projekts framgång genom att skapa en baslinje och jämföra den med den ursprungliga baslinjen.
 
-Mer information om hur du skapar baslinjer i projekt finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).
+Mer information om hur du skapar baslinjer för projekt finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).

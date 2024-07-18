@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägga till eller redigera ett visualiseringsblock i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
+* [Lägg till eller redigera ett visualiseringsblock i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
 * [Konfigurera en fältvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
 * [Konfigurera en kolumnvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
 * [Konfigurera cirkelvisualisering i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)

@@ -25,7 +25,7 @@ Du kan också överföra nya versioner av dokument och lägga till länkar till 
 
 Det finns inga begränsningar för vilka filtyper och filstorlekar du kan överföra till Workfront. För att överföringen ska lyckas måste den slutföras inom fem minuter och du måste ha tillräckligt med lagringsutrymme tillgängligt.
 
-Om du behöver information om hur du överför nya versioner av ett dokument till Workfront går du till [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
+Om du behöver information om hur du överför nya versioner av ett dokument till Workfront läser du [Överföra en ny version av ett dokument](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Åtkomstkrav
 
@@ -47,7 +47,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,7 +69,7 @@ Du kan lägga till nya dokument i Workfront från filsystemet på din arbetsstat
 Så här lägger du till ett dokument:
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill lägga till ett nytt dokument.
-1. Klicka på **Dokument** klickar du på **Lägg till ny** listruta.
+1. Klicka på fliken **Dokument** och klicka sedan på listrutan **Lägg till ny** .
 
    ![](assets/add-new-doc.png)
 
@@ -83,17 +83,17 @@ Så här lägger du till ett dokument:
       <td role="rowheader">Överför dokument från filsystemet till din arbetsstation</td> 
       <td> 
        <ol> 
-        <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Dokument.</strong></li> 
+        <li value="1">I listrutan <strong>Lägg till ny</strong> väljer du <strong>Dokument.</strong></li> 
         <li value="2"> <p>Bläddra till och välj det dokument som du vill lägga till i filsystemet på din arbetsstation.<br></p> <p>Du kan markera flera dokument genom att hålla ned Skift-tangenten när du markerar ytterligare filer.</p> </li> 
-        <li value="3">Klicka <strong>Öppna</strong>.</li> 
+        <li value="3">Klicka på <strong>Öppna</strong>.</li> 
        </ol> 
-       <p><b>ANMÄRKNING</b>: Du kan också dra och släppa filer direkt från filhanteraren i dokumentlistan.</td> 
+       <p><b>Obs!</b> Du kan också dra och släppa filer direkt från filhanteraren i dokumentlistan.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Överför dokument från ett tredjepartsprogram som Google Drive eller SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Från &lt;name_of_third-party_application&gt;</strong>.</p> <p>Om du till exempel vill överföra ett dokument från Google Drive klickar du på <strong>Från Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>Välj <strong>Från &lt;name_of_third-party_application&gt;</strong> i listrutan <strong>Lägg till ny</strong>.</p> <p>Om du till exempel vill överföra ett dokument från Google Drive klickar du på <strong>Från Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Följ instruktionerna för att välja dokumentet i tredjepartsprogrammet.<br></p> <p>Mer information om länkade dokument finns i <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Länka dokument från externa program</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -101,10 +101,10 @@ Så här lägger du till ett dokument:
       <td role="rowheader">Begär ett dokument från en annan Workfront-användare</td> 
       <td> 
        <ol> 
-        <li value="1">Från <strong>Lägg till ny</strong> nedrullningsbar meny, välja <strong>Begär ett dokument</strong>.</li> 
-        <li value="2">I <strong>Vilka begär du det från?</strong> anger du namnet på den användare som du begär dokumentet från.</li> 
-        <li value="3">I <strong>Berätta för dem vad du begär</strong> anger du namnet på dokumentet.</li> 
-        <li value="4"> <p>Klicka <strong>Skicka förfrågan</strong>.</p> <p>Din förfrågan visas på fliken Dokument.</p> <p>Mer information om hur du begär dokument finns i <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Begär ett dokument</a>.</p> </li> 
+        <li value="1">Välj <strong>Begär ett dokument</strong> i listrutan <strong>Lägg till nytt</strong>.</li> 
+        <li value="2">I rutan <strong>Vem begär det från</strong> skriver du namnet på den användare du begär dokumentet från.</li> 
+        <li value="3">Skriv namnet på dokumentet i rutan <strong>Ange vad du begär</strong>.</li> 
+        <li value="4"> <p>Klicka på <strong>Skicka begäran</strong>.</p> <p>Din förfrågan visas på fliken Dokument.</p> <p>Mer information om hur du begär dokument finns i <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Begär ett dokument</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
@@ -114,7 +114,7 @@ Så här lägger du till ett dokument:
 
 Workfront webbplats förhindrar att virus och annat skadligt innehåll kommer in på webbplatsen via dokument på följande sätt:
 
-* [Hur Workfront identifierar skadade filer](#how-workfront-detects-corrupted-files)
+* [Så här identifierar Workfront skadade filer](#how-workfront-detects-corrupted-files)
 * [Filnamnsbegränsningar](#file-name-restrictions)
 
 ### Hur Workfront identifierar skadade filer {#how-workfront-detects-corrupted-files}

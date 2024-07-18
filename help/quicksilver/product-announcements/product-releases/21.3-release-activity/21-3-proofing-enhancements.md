@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla korrekturförbättringar som gjorts i version 21.3 i förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 21 juli 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 Versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Ta bort möjligheten att skapa ett nytt dokument eller korrekturversion i en länkad mapp
 

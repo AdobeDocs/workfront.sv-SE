@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2017.3 Beta 4 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2017.3 Beta 4-versionen. Funktionerna på den här sidan var tillgängliga i förhandsvisningsmiljön den 25 september 2017. Den kommer att göras tillgänglig i produktionsmiljön i början av november 2017.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2017.3 Beta 4. Funktionerna på den här sidan var tillgängliga i förhandsvisningsmiljön den 25 september 2017. Den kommer att göras tillgänglig i produktionsmiljön i början av november 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2017.3 Beta 4 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2017.3 Beta 4-versionen. Funktionerna på den här sidan var tillgängliga i förhandsvisningsmiljön den 25 september 2017. Den kommer att göras tillgänglig i produktionsmiljön i början av november 2017.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2017.3 Beta 4. Funktionerna på den här sidan var tillgängliga i förhandsvisningsmiljön den 25 september 2017. Den kommer att göras tillgänglig i produktionsmiljön i början av november 2017.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2017.3 finns på  [Aktivitetsöversikt för 2017.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2017.3 finns på  [Aktivitetsöversikt för version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-Beta 4-versionen från 2017.3 innehåller förbättringar för både Workfront-administratörer och andra användare:
+2017.3 Beta 4 innehåller förbättringar för både Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -32,18 +32,18 @@ Beta 4-versionen från 2017.3 innehåller förbättringar för både Workfront-a
 
 **För alla användare**
 
-* [Duplicera uppgifter](#duplicate-tasks)
+* [Duplicera aktiviteter](#duplicate-tasks)
 * [Automatisera tilldelningar vid schemaläggning av resurser](#automate-assignments-when-scheduling-resources)
 * [Ändra tilldelningar för flera aktiviteter vid schemaläggning av resurser](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
-* [Tillämpa FTE-distribution på resursplaneraren](#apply-fte-distribution-to-the-resource-planner)
+* [Använd FTE-distribution i resursplaneraren](#apply-fte-distribution-to-the-resource-planner)
 * [Avsnitt för jobbroll för användarinställningar inkluderar procent av FTE-tillgänglighet](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
 * [Spara och hantera filter i användningsrapporten för ett projekt](#save-and-manage-filters-in-the-utilization-report-on-a-project)
 * [Ytterligare filteralternativ i användningsrapporten](#additional-filtering-options-in-the-utilization-report)
 * [Visa användningsrapporten per program eller Portfolio](#view-the-utilization-report-by-program-or-portfolio)
 * [Visa ursprunglig probleminformation i projekt- och aktivitetsrapporter](#show-original-issue-information-in-project-and-task-reports)
 * [Filtersystemsuppdateringar i uppdateringsströmmen är nu beständiga över objekt](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
-* [Rapport om Active Proof Stages i Workfront](#report-on-active-proof-stages-within-workfront)
-* [Tilldela anpassade Workfront-behörighetsprofiler till användare i Workfront](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
+* [Rapport om aktiva korrekturstadier i Workfront](#report-on-active-proof-stages-within-workfront)
+* [Tilldela anpassade Workfront Proof-behörighetsprofiler till användare i Workfront](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
 * [Timresurs tillagd i händelseprenumerationer](#hour-resource-added-to-event-subscriptions)
 
 ## Duplicera uppgifter {#duplicate-tasks}
@@ -52,7 +52,7 @@ Nu kan du snabbt duplicera en uppgift eller en uppsättning uppgifter i ett proj
 
 Före den här ändringen kan du kopiera en uppgift till antingen ett nytt projekt eller det befintliga projektet och ändra viss information medan du kopierade den.
 
-Mer information om att duplicera uppgifter finns i [Kopiera och duplicera uppgifter](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+För  Mer information om att duplicera uppgifter finns i [Kopiera och duplicera uppgifter](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 ## Automatisera tilldelningar vid schemaläggning av resurser {#automate-assignments-when-scheduling-resources}
 
@@ -86,7 +86,7 @@ Om schemat för en användare till exempel visar att de är tillgängliga för a
 
 Innan den här ändringen utfördes associerades namnet på användaren som endast visades i resursplaneraren för den primära rollen, och användarens fullständiga tillgänglighet baserat på användarens schema (100 timmar) endast med den primära rollen. Användarens Andra roll visas bara i resursplaneraren om användaren har tilldelats en aktivitet i den rollen och de tillgängliga timmarna för användaren i den andra rollen var noll.
 
-Mer information om hur tillgängliga timmar och tillgängliga heltidsanställda beräknas för användare och roller i resursplaneraren finns i [Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Mer information om hur tillgängliga timmar och tillgängliga heltidsanställda beräknas för användare och roller i resursplaneraren finns i [Översikt över beräkning av timmar och heltidsanställda för användare och roller i resursplaneraren](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
 ## Avsnitt för jobbroll för användarinställningar inkluderar procent av FTE-tillgänglighet {#job-role-section-for-user-settings-includes-percentage-of-fte-availability}
 
@@ -98,7 +98,7 @@ När du nu uppdaterar en användarprofil kan du lägga till ytterligare jobbroll
 
 Före den här ändringen kunde du inte tilldela en viss mängd FTE till någon av de jobbroller som användaren var associerad med.
 
-Mer information om hur du uppdaterar procentandelen FTE-tillgänglighet för användarens jobbroller finns i [Redigera en användares profil](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eller [Konfigurera mina inställningar](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Mer information om hur du uppdaterar procentandelen FTE-tillgänglighet för användarens jobbroller finns i [Redigera en användares profil](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eller [Konfigurera mina inställningar](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 ## Nytt inställningsområde för resurshantering i inställningsområdet {#new-resource-management-preferences-area-in-the-setup-area}
 
@@ -115,7 +115,7 @@ Nu kan du spara filter som du skapar i användningsrapporten. Dessutom kan du by
 
 Tidigare var du tvungen att ange individuella filteralternativ varje gång du filtrerade användningsrapporten.
 
-Mer information om hur du sparar och hanterar filter i användningsrapporten finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Mer information om att spara och hantera filter i användningsrapporten finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Ytterligare filteralternativ i användningsrapporten {#additional-filtering-options-in-the-utilization-report}
 
@@ -123,7 +123,7 @@ När du kör användningsrapporten är nu nya filtreringsfält för Portfolio, P
 
 Före den här ändringen kunde du bara filtrera efter portfölj, program och projekt genom att lägga till en ny filterregel.
 
-Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Mer information finns i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) i [Översikt över resursanvändningsrapporten](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Visa användningsrapporten per program eller Portfolio {#view-the-utilization-report-by-program-or-portfolio}
 
@@ -151,7 +151,7 @@ Den här informationen kan visas i en uppgifts- eller projektrapport eller i en 
 
 Före den här ändringen kunde du inte rapportera om den här informationen.
 
-Mer information om hur du skapar den anpassade textlägesvyn som hämtar information från originalutgåvan finns i [Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Mer information om hur du skapar den anpassade textlägesvyn som hämtar information från det ursprungliga problemet finns i [Visa information om ursprungliga problem i uppgifts- och projektlistor](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Filtersystemsuppdateringar i uppdateringsströmmen är nu beständiga över objekt {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
@@ -171,9 +171,9 @@ När du skapar en dokumentversionsrapport i Workfront finns det nu en kolumn som
 
 Mer information om tillgängliga fält i vyer och rapporter finns i [Ordlista för Adobe Workfront-terminologi](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-## Tilldela anpassade Workfront-behörighetsprofiler till användare i Workfront {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
+## Tilldela anpassade Workfront Proof-behörighetsprofiler till användare i Workfront {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
 
-När du nu aktiverar korrekturfunktioner för en användare i Workfront kan du tilldela en anpassad Workfront-behörighetsprofil. 
+När du nu aktiverar språkfunktioner för en användare i Workfront kan du tilldela en anpassad Workfront Proof-behörighetsprofil. 
 
 Före den här ändringen var endast följande behörighetsprofiler tillgängliga: Ansvarig, Hanterare, Administratör.
 

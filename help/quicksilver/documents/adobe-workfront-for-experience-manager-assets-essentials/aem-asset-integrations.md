@@ -54,9 +54,9 @@ Tack vare integreringen med Experience Manager kan du
 
 ## Kom igång
 
-1. [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+1. [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 1. Konfigurera integreringen:
    1. [Konfigurera Experience Manager Assets as a Cloud Service-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
 eller
    1. [Konfigurera integreringen av Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Använd integreringen: Skicka resurser, skapa länkade mappar, mappa metadata och mycket mer. Se [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) för mer information.
+1. Använd integreringen: Skicka resurser, skapa länkade mappar, mappa metadata och mycket mer. Mer information finns i [Adobe Workfront för Experience Manager Assets och Assets Essentials: artikelindex](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).

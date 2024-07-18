@@ -1,5 +1,5 @@
 ---
-title: Lägg till beräknade fält med formulärdesignern
+title: Lägga till beräknade fält i ett formulär
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: ca453e45dfe32d9545e95139ae7e41d0106e30ff
+source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
 workflow-type: tm+mt
-source-wordcount: '2355'
+source-wordcount: '2353'
 ht-degree: 0%
 
 ---
 
-# Lägg till beräknade fält med formulärdesignern
+# Lägga till beräknade fält i ett formulär
 
 Du kan lägga till ett beräknat anpassat fält som använder befintliga data för att generera nya data när det anpassade formuläret kopplas till ett objekt.
 
@@ -25,13 +25,13 @@ Ett beräknat anpassat fält kan innehålla:
 
   >[!INFO]
   >
-  > **Exempel:** Om du vill beräkna intäkterna från projekt och uppgifter kan du skapa ett beräknat anpassat fält som innehåller det inbyggda fältet Faktisk omsättning. När någon kopplar det anpassade formuläret till ett projekt eller en uppgift visas intäkterna för projektet eller uppgiften i fältet.
+  > **Exempel:** Om du vill beräkna intäkterna från projekt och aktiviteter kan du skapa ett beräknat anpassat fält som innehåller det inbyggda fältet Faktisk omsättning. När någon kopplar det anpassade formuläret till ett projekt eller en uppgift visas intäkterna för projektet eller uppgiften i fältet.
 
 * Ett uttryck som refererar till ett eller flera fält. Dessa kan vara anpassade fält, andra beräknade anpassade fält och inbyggda fält.
 
   >[!INFO]
   >
-  >**Exempel:** Om du vill beräkna vinsten som genereras av projekt och uppgifter kan du skapa ett beräknat anpassat fält som heter Vinst som innehåller ett matematiskt uttryck som subtraherar kostnaden från intäkterna.
+  >**Exempel:** Om du vill beräkna vinsten som genereras av projekt och aktiviteter kan du skapa ett beräknat anpassat fält med namnet Vinst som innehåller ett matematiskt uttryck som subtraherar kostnaden från intäkterna.
   >
   >För att göra detta kan du använda det matematiska uttrycket SUB (subtrahera) med de inbyggda Workfront-fälten Faktisk kostnad och Faktisk omsättning.
   >
@@ -56,7 +56,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront administratörer beviljar den här åtkomsten finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Ge användarna administrativ åtkomst till vissa områden</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront-administratörer beviljar åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
@@ -75,28 +75,28 @@ Du kan också ha en annan beräkning för samma fält i det nya formuläret. Om 
 >
 >Ändringar i beräknade uttryck kan göra att fältvärdet för objekt blir inaktuellt. Gör något av följande om du alltid vill se den aktuella beräkningen i dessa fält:
 >
->* När du har sparat ett objekt där du har redigerat data i ett kopplat anpassat formulär klickar du på ikonen Mer ![](assets/more-icon.png) på objektets huvudsida och beräkna om anpassade uttryck.
+>* När du har sparat ett objekt där du har redigerat data i ett kopplat anpassat formulär, klickar du på ikonen Mer ![](assets/more-icon.png) på objektets huvudsida och beräknar om anpassade uttryck.
 >* Markera alternativet Beräkna om anpassade uttryck när du redigerar flera objekt samtidigt.
 >* Välj alternativet Uppdatera tidigare beräkningar när du redigerar ett beräknat anpassat fält i ett anpassat formulär.
 
 Så här återanvänder du ett befintligt beräknat anpassat fält:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Anpassad Forms** till vänster.
+1. Klicka på **Egen Forms** i den vänstra panelen.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicka **Nytt anpassat formulär.**
-1. Välj vilka objekttyper du vill bifoga det anpassade formuläret till och klicka sedan på **Fortsätt**.
+1. Klicka på **Nytt anpassat formulär.**
+1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
-1. Klicka på längst upp till vänster på skärmen **Fältbibliotek**.
+1. Klicka på **Fältbibliotek** på skärmens övre vänstra sida.
 
    ![](assets/field-library.png)
 
-1. Använd sökrutan eller utöka **Beräknat** för att hitta det beräknade fält som du behöver och sedan dra fältet där du vill att det ska visas i det anpassade formuläret.
+1. Använd sökrutan eller utöka avsnittet **Beräknad** för att hitta det beräknade fält du behöver och dra sedan fältet där du vill att det ska visas i det anpassade formuläret.
 
 1. (Valfritt) Upprepa föregående steg om du vill lägga till andra fält.
 
@@ -107,11 +107,11 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
    >
    >Exempel på komplexa formulär är formulär med överlappande parametrar, beräknade anpassade datafält och flera värdealternativ i ett enda fält.
 
-1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Om du vill spara ändringarna klickar du på **Använd** och går vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
-   Klicka **Spara och stäng**.
+   Klicka på **Spara och stäng**.
 
 ## Lägg till ett nytt beräknat fält
 
@@ -119,18 +119,18 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
 >
 >Innan du skapar ett nytt beräknat anpassat fält identifierar du de befintliga fält som du vill inkludera, så att du är säker på att de data som behövs för beräkningen finns i Workfront.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Anpassad Forms** till vänster.
+1. Klicka på **Egen Forms** i den vänstra panelen.
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. Klicka **Nytt anpassat formulär.**
-1. Välj vilka objekttyper du vill bifoga det anpassade formuläret till och klicka sedan på **Fortsätt**.
+1. Klicka på **Nytt anpassat formulär.**
+1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
-1. På skärmens vänstra sida finns **Beräknat** och dra den till ett avsnitt på arbetsytan.
+1. Leta upp **Beräknat** till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
    ![](assets/drag-field-to-section.png)
 
@@ -144,7 +144,7 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
     <tbody> 
      <tr> 
       <td role="rowheader">Etikett</td> 
-      <td>Ange en etikett för fältet. Detta är vad användarna kommer att se när de använder det anpassade formuläret. Fältet <b>Namn</b>, som fylls i automatiskt, refereras av Workfront i rapporter.</td> 
+      <td>Ange en etikett för fältet. Detta är vad användarna kommer att se när de använder det anpassade formuläret. Workfront refererar till fältet <b>Namn</b>, som fylls i automatiskt, i rapporter.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Instruktioner</td> 
@@ -156,20 +156,20 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>Det format i vilket du vill att fältets resultat ska lagras och visas.</p> <p>Om fältet ska användas i matematiska beräkningar ska du alltid använda en <strong>Nummer</strong> eller en <strong>Valuta</strong> format. När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</p> 
-      <p><b>VIKTIGT</b>: Innan du väljer ett format bör du tänka på rätt format för det nya fältet. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p>
-      <p><strong>OBS!</strong> Beräknade fält med ett valutaformat bör inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td>
+      <td> <p>Det format i vilket du vill att fältets resultat ska lagras och visas.</p> <p>Om fältet ska användas i matematiska beräkningar ska du alltid använda formatet <strong>Number</strong> eller <strong>Currency</strong>. När du väljer Nummer eller Valuta kortas nummer som börjar med 0 automatiskt av systemet.</p> 
+      <p><b>VIKTIGT</b>: Innan du väljer ett format bör du överväga det nya fältets format. Det går inte att redigera formatfältet efter att det anpassade formuläret har sparats. Om du väljer fel format kan framtida beräkningar och aggregerade värden i rapport- och listgrupperingar påverkas.</p>
+      <p><strong>OBS!</strong> Beräknade fält med valutaformat får inte innehålla citattecken. (Använd till exempel 800.00 och inte "800.00.") Användning av citattecken kan få oväntade konsekvenser på grund av nyanser med språkformatering för valutatyper.</p></td>
      </tr> 
     </tbody> 
    </table>
 
-1. I **Beräkning** börjar du med att bygga din beräkning:
-   1. Klicka **Maximera** om du vill öppna beräkningsredigeraren och skapa din beräkning.</p>
+1. Börja bygga beräkningen i rutan **Beräkning**:
+   1. Klicka på **Maximera** för att öppna beräkningsredigeraren och skapa beräkningen.</p>
 En beräkning börjar oftast med ett uttryck följt av parenteser som innehåller de fält som du vill referera till när det anpassade formuläret är kopplat till ett objekt.
 
       Varje fält måste omges av klammerparenteser. När du börjar skriva namnet på ett fält ger systemet förslag och du kan välja ett som infogar det i beräkningen.
 
-+++ **Expandera för att se syntaxen som krävs i beräknade anpassade fält**
++++ **Utöka för att se syntax som krävs i beräknade anpassade fält**
 
       Varje fält måste ha den syntax som beskrivs nedan, med klammerparenteser runt varje fältnamn. När du börjar skriva namnet på ett fält ger systemet förslag och du kan välja ett som infogar det i beräkningen. Om du anger data i en beräkning felaktigt visas ett varningsmeddelande. Du kan inte spara formuläret om du inte redigerar beräkningen så att den innehåller giltiga fält och ett giltigt beräknat uttryck.
 
@@ -185,17 +185,17 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
         Fältnamn är skiftlägeskänsliga och måste visas exakt som de visas i Workfront.
 
-        Navigera till [Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/) för att identifiera de fältnamn som kan användas i beräkningar.
+        Navigera till [Workfront API Explorer](https://developer.adobe.com/workfront/api-explorer/) för att identifiera fältnamnen som kan användas i beräkningar.
 
-      * Om du vill att beräkningen ska referera till ett anpassat fält måste fältnamnet omges av klammerparenteser och föregås av `DE:` inom parentes.
+      * Om du vill att beräkningen ska referera till ett anpassat fält måste fältnamnet omges av klammerparenteser och föregås av `DE:` inom klammerparenteserna.
 
         Till exempel: `{DE:Profit}`
 
-        Alla anpassade fält som du kan välja mellan när du skriver visas. `DE:`.
+        Alla anpassade fält som du kan välja när du skriver `DE:` visas.
 
-         * Om du vill att beräkningen ska referera till ett fält som hämtar data från *parent* när det anpassade formuläret är kopplat till ett objekt, måste du före fältnamnet skriva objekttypen för det överordnade objektet, även inom klammerparenteser.
+         * Om du vill att beräkningen ska referera till ett fält som hämtar data från objektet *parent* när det anpassade formuläret kopplas till ett objekt, måste du före fältnamnet skriva objekttypen för det överordnade objektet, även inom klammerparenteser.
 
-        Om det anpassade formuläret till exempel är konfigurerat för att arbeta med uppgifter och du vill att fältet ska beräkna den faktiska intäkten för det överordnade objektet när formuläret kopplas till en uppgift, måste du ange `Project` som fälttyp:
+        Om det anpassade formuläret till exempel är konfigurerat att fungera med uppgifter och du vill att fältet ska beräkna den faktiska intäkten för det överordnade objektet när formuläret kopplas till en uppgift, måste du ange `Project` som fälttyp:
 
         `{project}.{actualRevenue}`
 
@@ -203,7 +203,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
         `{project}.{DE:profit}`
 
-        **Separera artiklar med punkter**
+        **Separera objekt med punkter**
 
         När du refererar till ett relaterat objekt i ett beräknat anpassat fält måste du separera objektnamn och attribut med punkter.
 
@@ -223,7 +223,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
         >[!NOTE]
         >
-        >Syntaxen för ett texthuvudfält skiljer sig lite från den för andra typer av fält eftersom du måste lägga till `:name` i slutet.
+        >Syntaxen för ett typhuvudfält skiljer sig lite från den för andra typer av fält eftersom du måste lägga till `:name` i slutet.
         >
         >Om du till exempel vill referera till det valda alternativet i ett anpassat typsnittsfält med namnet&quot;Executive sponsor&quot; skriver du:
         >
@@ -249,13 +249,13 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
         >[!INFO]
         >
-        >**Exempel:** Även om det inte finns något tilldelat till: Fältet Namn i projekt finns det ett inbyggt fält för ägare (som automatiskt fyller i med namnet på den person som skapade projektet, såvida inte någon ändrar detta manuellt).
+        >**Exempel:** Även om det inte finns något tilldelat till: Namnfält i projekt finns det ett inbyggt ägarfält (som automatiskt fylls i med namnet på den person som skapade projektet, såvida inte någon ändrar detta manuellt).
         >
-        >Så i ditt anpassade avgiftsfält kan du använda `$$OBJCODE` som visas nedan för att referera till fältet Ägare när det anpassade formuläret är kopplat till ett projekt och fältet Tilldelad till: Namn när formuläret är kopplat till en uppgift:
+        >I ditt anpassade avgiftsfält kan du använda `$$OBJCODE` så som visas nedan för att referera till fältet Ägare när det anpassade formuläret är kopplat till ett projekt, och fältet Tilldelad: Namn när formuläret är kopplat till en uppgift:
         >
         >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-        Mer information om variabler som `$$OBJCODE,` se [Översikt över filtervariabler för jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+        Mer information om variabler som `$$OBJCODE,` finns i [Översikt över variabler för jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
         **Automatiska uppdateringar av beräknade anpassade fält**
 
@@ -283,7 +283,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
       >
       >Du kan göra något av följande för att få hjälp med beräkningen:
       > 
-      >* Håll muspekaren över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk för mer information i artikeln [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Hovra över ett uttryck i beräkningen för att se en beskrivning, ett exempel som visar hur det kan användas och en Lär dig mer-länk till mer information i artikeln [Översikt över beräknade datauttryck](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Använd färgkodningen för att identifiera de komponenter du har lagt till. Uttryck visas i blått och fält visas i grönt.
       >  ![](assets/colors-fields-expressions.jpg)
@@ -295,7 +295,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
       >* Referensuttryck i en lång beräkning med hjälp av radnumren som visas till vänster.
 
 +++
-   1. Klicka **Minimera** när du är klar med beräkningen för det beräknade anpassade fältet.
+   1. Klicka på **Minimera** när du är klar med att skapa beräkningen för det beräknade anpassade fältet.
 
    1. (Valfritt) Använd något av följande alternativ för att ytterligare konfigurera det beräknade anpassade fältet:
 
@@ -313,13 +313,13 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
      </tr> 
      <tr> 
       <td role="rowheader">Visa formel i instruktioner</td> 
-      <td>Låt det här alternativet vara aktiverat om du vill att de användare som fyller i det anpassade formuläret ska se fältets formel när de hovrar över fältet. Mer information finns i <a href="#instructions" class="MCXref xref">Instruktioner</a> tidigare i denna tabell.</td> 
+      <td>Låt det här alternativet vara aktiverat om du vill att de användare som fyller i det anpassade formuläret ska se fältets formel när de hovrar över fältet. Mer information finns i informationen om <a href="#instructions" class="MCXref xref">Instruktioner</a> tidigare i den här tabellen.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka på **Använd** och gå vidare till ett annat avsnitt för att fortsätta skapa formuläret.
+1. Om du vill spara ändringarna klickar du på **Använd** och går vidare till ett annat avsnitt för att fortsätta skapa formuläret.
 
    eller
 
-   Klicka **Spara och stäng**.
+   Klicka på **Spara och stäng**.

@@ -25,4 +25,4 @@ Här följer några meddelanden som du kanske vill känna till:
 
 
 
-Mer information finns i [Meddelandearkiv](announcement-archive/announcement-archive.md).
+Mer information finns i [Meddelandearkivet](announcement-archive/announcement-archive.md).

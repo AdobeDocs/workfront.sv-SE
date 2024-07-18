@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i version 21.3 till förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 21 juli 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 Versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.3 finns i [21.3 versionsöversikt](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
 ## Utformning av startdelen för mobilappen
 
@@ -44,4 +44,4 @@ Följande artiklar uppdateras när appen släpps i appbutikerna:
 
 Evenemangsprenumerationsfilter är nu aktiverade i förhandsvisningsmiljöer. Du kan använda händelseprenumerationsfiltrering för att försäkra dig om att du bara får relevanta meddelanden. Om du skapar filter för dina prenumerationer kan det minska antalet meddelanden som slutpunkten behöver ta emot avsevärt.
 
-Mer information om händelseprenumerationer finns i [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md) och [Frågor och svar - Evenemangsprenumerationer](../../../wf-api/general/event-subs-faq.md).
+Mer information om händelseprenumerationer finns i [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md) och [Vanliga frågor och svar - Händelseprenumerationer](../../../wf-api/general/event-subs-faq.md).

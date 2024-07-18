@@ -27,14 +27,14 @@ I följande avsnitt finns en fullständig lista över de förbättringar som är
 * [Papperskorgen](#recycle-bin)
 * [Förbättringar av systemkonfigurationen](#system-configuration-enhancements)
 * [Förbättringar av resursplanering](#resource-scheduling-enhancements)
-* [Förbättringar av godkännanden](#approvals-enhancements)
+* [Godkännandeförbättringar](#approvals-enhancements)
 * [Förbättringar av projekt och dokument](#project-and-document-enhancements)
-* [Förbättrad användarhantering](#user-management-enhancements)
+* [Förbättringar av användarhantering](#user-management-enhancements)
 * [Förbättringar av e-postmeddelanden](#email-notification-enhancements)
 * [Förbättringar i mobiler och Outlook](#mobile-and-outlook-enhancements)
 * [Andra förbättringar](#other-enhancements)
-* [Förbättringar av korrektur](#proofing-enhancements)
-* [Funktionen släpper inte till produktion i R1](#functionality-not-releasing-to-production-in-r1)
+* [Korrekturförbättringar](#proofing-enhancements)
+* [Funktionen frigör inte till produktion i R1](#functionality-not-releasing-to-production-in-r1)
 * [2017 R1 Preview Release Webinars](#2017-r1-preview-release-webinars)
 * [Underhållsuppdateringar](#maintenance-updates)
 
@@ -48,19 +48,19 @@ Mer detaljerad information om de ändringar vi gör i vår versionsprocess finns
 
 ## Förbättringar av systemkonfigurationen {#system-configuration-enhancements}
 
-* [Anpassa Workfront Terminologi genom att ändra objektnamn](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#customizing-workfront-terminology-by-changing-object-names)
-* [Kontrollera åtkomst till anpassade Forms](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#control-access-to-custom-forms)
+* [Anpassa Workfront-termer genom att ändra objektnamn](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#customizing-workfront-terminology-by-changing-object-names)
+* [Kontrollera åtkomst till anpassad Forms](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#control-access-to-custom-forms)
 * [Uppdaterat utseende och känsla för flera systemkonfigurationssidor](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-look-and-feel-of-several-system-setup-pages)
 
 ## Förbättringar av resursplanering {#resource-scheduling-enhancements}
 
-* [Hantera användarallokeringar på tidslinjen för schemaläggning](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#manage-user-allocations-on-the-scheduling-timeline)
+* [Hantera användarallokeringar på tidslinjen ](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#manage-user-allocations-on-the-scheduling-timeline)
 * [Förbättringar av resursplanering](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#resource-scheduling-enhancements)
 * [Användarallokeringar är inaktiverade som standard](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#user-allocations-are-disabled-by-default)
 
 ## Förbättringar av godkännanden {#approvals-enhancements}
 
-* [Uppdaterade projekt-, uppgifts- och godkännandeprocesser](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#update-project-task-and-issue-approval)
+* [Uppdaterade projekt-, uppgifts- och utfärdandegodkännanden](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#update-project-task-and-issue-approval)
 * [Ändra en befintlig global godkännandeprocess för ett enskilt objekt](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#modify-an-existing-global-approval-process-for-an-individual-object)
 * [Inkludera start- och slutdatum för godkännande i rapporter](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#include-approval-start-and-end-dates-in-reports)
 * [Konfigurera objekt som ska uppdateras och som väntar på godkännande](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#configure-objects-that-are-pending-approval-to-be-updated)
@@ -70,7 +70,7 @@ Mer detaljerad information om de ändringar vi gör i vår versionsprocess finns
 
 * [Spåra projektförlopp med en användningsrapport](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#track-project-progress-with-a-utilization-report)
 * [Ändra status för ett projekt direkt från projektsidan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#change-the-status-of-a-project-directly-from-the-project-page)
-* [Förbättringar av vyn Milstolpe](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#milestone-view-improvements)
+* [Förbättringar i milstolpe-vyn](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#milestone-view-improvements)
 * [Förbättringar i milstolpevyn](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#enhancements-in-the-milestone-view)
 * [Förbättrad metod för länkning av externa filer](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#improved-method-for-connecting-external-files)
 
@@ -84,19 +84,19 @@ Mer detaljerad information om de ändringar vi gör i vår versionsprocess finns
 
 ## Förbättringar av e-postmeddelanden {#email-notification-enhancements}
 
-* [Uppdaterat utseende och känsla för flera e-postmeddelanden](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#updated-look-and-feel-of-email-notifications)
-* [Uppdaterat utseende och känsla för e-postmeddelanden om godkännande av dokument](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-look-and-feel-of-email-notifications)
+* [Utseende och känsla för flera e-postmeddelanden har uppdaterats](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#updated-look-and-feel-of-email-notifications)
+* [Uppdaterat utseende och känsla för e-postmeddelanden om dokumentgodkännande](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#updated-look-and-feel-of-email-notifications)
 * [Nya alternativ för e-postsammandrag för flera meddelandeområden](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#new-email-digest-options-for-several-notification-areas)
-* [Nya alternativ för e-postsammandrag av&quot;förfrågningar jag gjort&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
-* [Nya alternativ för e-postsammandrag för&quot;Åtgärder krävs&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
+* [Nya alternativ för e-postsammandrag för &quot;Förfrågningar jag har gjort&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md#new-email-digest-options-for-requests-i-have-made)
+* [Nya alternativ för e-postsammandrag för &quot;Åtgärder krävs&quot;](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#new-email-digest-options)
 * [Uppdaterade grupperingar för händelsemeddelanden i området för e-postinställningar](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#updated-event-notifications-in-the-setup-area)
-* [Opt out of Instant Notifications: In-Context Digest Configuration](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
+* [Avanmäl dig från snabbmeddelanden: Kontextsammanfattningskonfiguration](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#opt-out-of-instant-notifications-in-context-digest-configuration)
 * [Olika e-postmeddelanden har flyttats från avsnittet Åtgärd krävs till andra projektrelaterade avsnitt](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#various-email-notifications-moved-from-the-action-needed-section-to-other-project-related-sections)
 * [Ändringar av användarmeddelanden för gruppredigering](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#changes-to-bulk-editing-user-notifications)
 
 ## Förbättringar i mobiler och Outlook {#mobile-and-outlook-enhancements}
 
-Följande funktioner är för närvarande inte tillgängliga i Förhandsgranska eller Beta, men släpps till produktionsmiljön i R1:
+Följande funktionalitet är för närvarande inte tillgänglig i Preview eller Beta, men släpps till produktionsmiljön i R1:
 
 * [Kopiera text i mobilappen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-4.md#copy-text-in-the-mobile-app)
 * [Dela URL:en för ett objekt i mobilappen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-peview-1-and-2.md#share-the-url-of-an-object-in-the-mobile-app)
@@ -113,8 +113,8 @@ Språkförbättringar är inte tillgängliga i förhandsvisningsmiljön. Dessa f
 Följande förbättringar har släppts till Workfront-programmet med R1:
 
 * [Utför godkännandebeslut för korrektur från Min arbetsyta (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#make-approval-decisions-for-proofs-from-the-my-work-area)
-* [Rapport om korrekturgodkännanden på arbetsytan My Work (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#report-on-proofing-approvals)
-* [Generera automatiskt en ny version av ett dokumentkorrektur med dra-och-släpp (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#automatically-generate-a-new-version-of-a-document-proof-using-drag-and-drop)
+* [Rapport om korrekturgodkännanden på arbetsytan (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#report-on-proofing-approvals)
+* [Generera automatiskt en ny version av ett dokumentkorrektur med dra och släpp (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#automatically-generate-a-new-version-of-a-document-proof-using-drag-and-drop)
 * [Ge alla korrekturanvändare tillgång till Korrektur på högdagrar direkt från Workfront-gränssnittet (Workfront)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#enable-all-proofing-users-to-access-proofhq)
 
 ### KorrekturHQ-förbättringar
@@ -128,8 +128,8 @@ Följande förbättringar har släppts till programmet ProofHQ med R1:
    * Ny länk till Workfront (när ProofHQ-kontot är integrerat med ett Workfront-konto)
    * Uppdaterat utseende och känsla
 
-* [Inkludera ytterligare information i anpassade vyer (KorrekturHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)
-* [Förbättringar av korrekturrapporter (tidigare analyser) (Korrektur, högdagrar)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports)
+* [Inkludera ytterligare information i anpassade vyer (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views)
+* [Förbättringar av korrekturrapporter (tidigare analyser) (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports)
 * [Visa Korrektur för högdagrar i förhandsvisningsmiljön (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#view-proofhq-functionality-in-the-preview-environment)
 
 ## Andra förbättringar {#other-enhancements}
@@ -141,20 +141,20 @@ Följande förbättringar har släppts till programmet ProofHQ med R1:
 
 Funktionerna som beskrivs i det här avsnittet var tillgängliga i förhandsvisningsmiljön under R1-releasecykeln, men den här funktionaliteten släpps inte till Produktion i R1. Funktionen kommer att tas bort från förhandsvisningsmiljön i 6 veckor, vilket leder fram till R1-versionen till Production. När R1 har släppts till Production återinförs det i förhandsvisningsmiljön.
 
-* [Ny resursplaneringsfunktion (ej tillgänglig i produktion i R1)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Inte tillgängligt i produktion i R1; återstår i **Förhandsgranska**)
+* [Ny resursplaneringsfunktion (ej tillgänglig i produktion i R1)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Inte tillgänglig i produktion i R1; återstår i **Förhandsgranska**)
 
-* [Ändra ordning på kolumner i en lista med dra-och-släpp](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Inte tillgängligt i produktion i R1; återstår i **Tidig åtkomst**)
+* [Ändra ordning på kolumner i en lista med dra och släpp](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Inte tillgängligt i produktion i R1; återstår i **tidig åtkomst**)
 
-* [Uppdaterad Look and Feel i kontrollpanelslistan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Inte tillgängligt i produktion i R1; återstår i **Tidig åtkomst**)
+* [Uppdaterat utseende och känsla i instrumentpanelslistan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Inte tillgängligt i produktion i R1; återstår i **tidig åtkomst**)
 
-* [Funktioner som blev tillgängliga i förhandsgranskningen 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (Inte tillgängligt i produktion i R1. **borttagen från tidig åtkomst** den 19 april 2017)
+* [Funktioner som blev tillgängliga i förhandsvisning 2016](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (Inte tillgängligt i produktion i R1; **togs bort från tidig åtkomst** 19 april 2017)
 
 * [Integrering med Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#adobe-creative-cloud)
-* [Nytt fält för att hantera e-postmeddelanden i förhandsgranskningssandlådemiljön](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#new-field-for-managing-emails-in-the-preview-sandbox-environment) (Avsett inte att gå till Produktion på något ställe; endast tillgängligt i **Förhandsgranska** och **Anpassad uppdateringssandlåda**)
+* [Nytt fält för att hantera e-postmeddelanden i förhandsvisningssandlådemiljön](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#new-field-for-managing-emails-in-the-preview-sandbox-environment) (Inte avsett att gå till produktion alls; endast tillgängligt i **Förhandsgranska** och **Anpassad uppdateringssandlåda**)
 
 ## 2017 R1 Preview Release Webinars {#2017-r1-preview-release-webinars}
 
-Information om hur du visar webbinära inspelningar för R1-versionen finns i [Webbseminarier om R1-versionen](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).   
+Mer information om hur du visar webbinära inspelningar för R1-versionen finns i [R1-versionswebbseminarier](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md).   
 
 ## Underhållsuppdateringar {#maintenance-updates}
 

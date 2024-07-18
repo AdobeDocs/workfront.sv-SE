@@ -29,7 +29,7 @@ ht-degree: 0%
 
 När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en uppgift. Användare med lämplig åtkomst kan visa och övervaka status för problem allt eftersom projektet eller aktiviteten fortskrider till slutförandet, vilket eliminerar behovet av långa e-postkedjor eller statusmöten. Till skillnad från planerade aktiviteter representerar ärenden oplanerade arbetsuppgifter i Adobe Workfront.
 
-Du kan även lägga till problem i projekt som begäranden. Mer information finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Du kan även lägga till problem i projekt som begäranden. Mer information finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 >[!TIP]
 >
@@ -55,11 +55,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till problem</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter med möjlighet att lägga till problem i den uppgift eller det projekt där du skapade problemet</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörigheter med möjlighet att lägga till problem i den uppgift eller det projekt där du skapade problemet</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,9 +83,9 @@ När du har rätt behörighet och behörighet kan du skapa problem i ett projekt
 
 Organisationen bör ha en väldefinierad process för när och hur ett problem ska registreras. När du konfigurerar den här processen är det första steget att skapa det formulär som behövs för att skicka in ett ärende. Oavsett om du vill tillåta att utgåvor läggs till direkt i uppgifter och projekt, eller om du har frågeköer där utgåvor skickas, kan du definiera vilka Workfront-fält och vilka anpassade fält som är tillgängliga för användare när de skickar nya utgåvor och måste fyllas i. Formuläret Nytt problem kan innehålla viktig information som kan vara till hjälp när du snabbt vill lösa problemet.
 
-Fälten för de nya problemen i ett projekt definieras i avsnittet Köinformation i projektet där problemen loggas. Information om hur du konfigurerar avsnittet Köinformation i projektet finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Fälten för de nya problemen i ett projekt definieras i avsnittet Köinformation i projektet där problemen loggas. Mer information om hur du konfigurerar avsnittet Köinformation i projektet finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Information om hur du skapar problem genom att skicka dem till en begärandekö finns i [Skapa problem genom att ange en ny begäran](#create-issues-by-entering-a-new-request) i den här artikeln.
+Mer information om hur du skapar problem genom att skicka dem till en begärandekö finns i avsnittet [Skapa problem genom att ange en ny begäran](#create-issues-by-entering-a-new-request) i den här artikeln.
 
 ## Skapa problem i en uppgift eller ett projekt med knappen Nytt problem
 
@@ -155,25 +155,25 @@ Issues can be assigned to multiple users, job roles or to a team. For more infor
 Så här skapar du ett problem för en aktivitet eller ett projekt:
 
 1. Gå till ett projekt där du vill skapa problemet.
-1. (Valfritt) Om du vill logga problemet för en uppgift går du till **Uppgifter** och klicka sedan på namnet på en uppgift.
-1. Klicka på **Problem** -avsnitt.
+1. (Valfritt) Om du vill logga problemet för en aktivitet går du till området **Åtgärder** och klickar sedan på namnet på en aktivitet.
+1. Klicka på avsnittet **Problem**.
 
    Listan med projektproblem visas
 
-1. Klicka **Nytt problem** högst upp i listan över utgåvor.
+1. Klicka på **Nytt problem** högst upp i listan över utgåvor.
 Rutan Nytt problem visas.
 
    ![](assets/new-issue-box-matches-new-request-ui.png)
 
-1. (Villkorligt) Om den som skapat projektet har skapat köämnen eller ämnesgrupper i projektet läggs de till i det nya utgivningsformuläret. Ange **Ämnesgrupp** eller **Köämne** av din nya utgåva. Ämnesgrupper och Köämnen har namn som är anpassade efter din miljö.\
+1. (Villkorligt) Om den som skapat projektet har skapat köämnen eller ämnesgrupper i projektet läggs de till i det nya utgivningsformuläret. Ange **ämnesgruppen** eller **köämnet** för det nya problemet. Ämnesgrupper och Köämnen har namn som är anpassade efter din miljö.\
    Mer information om hur du skapar ämnesgrupper finns i [Skapa ämnesgrupper](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Mer information om hur du skapar köämnen finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    * Om det bara finns ett köämne i projektet visas det automatiskt.
    * Om ämnesgruppen inte har några köämnen eller ämnesgrupper under sig är ingenting tillgängligt i listrutan Ämnesgrupp.
 
-1. Lägg till problemnamnet i **Ämne** fält och sedan lägga till **Beskrivning**.
+1. Lägg till problemnamnet i fältet **Ämne** och lägg sedan till en **Beskrivning**.
 
-1. (Villkorligt) Om den som skapat projektet tillåts för **Typ av begäran** fält som ska visas i formuläret Nytt problem, välj typ av problem bland följande alternativ:
+1. (Villkorligt) Om den som skapat projektet tillåter att fältet **Typ av begäran** visas i formuläret Nytt problem, väljer du typ av problem bland följande alternativ:
 
    * Felrapport
    * Ändra ordning
@@ -187,20 +187,20 @@ Rutan Nytt problem visas.
    >* [Skapa en begärandekö](../../requests/create-and-manage-request-queues/create-request-queue.md)
    >  * [Skapa köämnen](../../requests/create-and-manage-request-queues/create-queue-topics.md)
 
-1. Fortsätt att ange fälten som är tillgängliga i **Nytt problem** formulär. Mer information om fälten som är tillgängliga när du anger en ny utgåva finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Fortsätt att ange fälten som är tillgängliga i formuläret **Ny utgåva**. Mer information om de fält som är tillgängliga när du anger ett nytt problem finns i [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!IMPORTANT]
    >
    >Alla problemrelaterade fält är inte tillgängliga i formuläret Ny utgåva. Den som skapar projektet aktiverar de fält som är tillgängliga när ett problem skapas när de definierar området Köinformation i projektet. Mer information finns i [Skapa en begärandekö](../../requests/create-and-manage-request-queues/create-request-queue.md).
 
 
-1. (Villkorligt) Om köämnen är kopplade till ett anpassat formulär visas det anpassade formuläret i dialogrutan **Nytt problem** formulär.\
+1. (Villkorligt) Om köämnen är kopplade till ett anpassat formulär visas det anpassade formuläret i formuläret **Nytt problem**.\
    eller\
-   Om projektet är kopplat till ett anpassat formulär via området Köinformation, visas formuläret i dialogrutan **Nytt problem** efter Workfront standardfält.
+   Om projektet är kopplat till ett anpassat formulär via området Köinformation, visas formuläret i formuläret **Nytt problem**, efter Workfront standardfält.
 
-   Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicka **Skicka**.
+1. Klicka på **Skicka**.
 
    Problem kan tilldelas flera användare, jobbroller eller ett team. Mer information om hur du tilldelar och hanterar begäranden finns i [Hantera arbets- och teamförfrågningar](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
@@ -209,7 +209,7 @@ Rutan Nytt problem visas.
 
 >[!IMPORTANT]
 >
->Projektägaren måste aktivera **Tillåt användare att lägga till interna utgåvor** när du definierar utgivningsinställningar för projektet innan du kan lägga till utleveranser i projektet eller aktiviteterna. Mer information om hur du konfigurerar probleminställningar för ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+>Projektägaren måste aktivera **Tillåt användare att lägga till interna utgåvor** när de definierar utgåvinställningar för projektet innan du kan lägga till utgåvor i projektet eller aktiviteterna. Mer information om hur du konfigurerar probleminställningar för ett projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 >
 
 När du snabbt vill lägga till flera problem kan du skapa problem för en uppgift eller ett projekt genom att lägga till dem i en lista med problem.
@@ -221,9 +221,9 @@ När du snabbt vill lägga till flera problem kan du skapa problem för en uppgi
 Så här skapar du interna utgåvor:
 
 1. Gå till ett projekt där du vill skapa problemet.
-1. (Valfritt) Om du vill logga problemet för en uppgift går du till **Uppgifter** och klicka sedan på namnet på en uppgift.
-1. Klicka på **Problem** i den vänstra panelen.
-1. Klicka **Lägg till fler problem** längst ned i problemlistan.
+1. (Valfritt) Om du vill logga problemet för en aktivitet går du till avsnittet **Åtgärder** och klickar sedan på namnet på en aktivitet.
+1. Klicka på avsnittet **Problem** i den vänstra panelen.
+1. Klicka på **Lägg till fler problem** längst ned i listan med utgåvor.
 
    En ny rad skapas i listan med problem i avsnittet Problem.
 
@@ -253,4 +253,4 @@ Du kan ange projekt som mottagare för att ta emot ärenden. Den här typen av p
 >
 >Termerna&quot;issue&quot; och&quot;request&quot; är utbytbara i Workfront.
 
-Mer information om hur du ställer in projekt som frågeköer för att ta emot problem finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du konfigurerar projekt som frågeköer för att ta emot problem finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).

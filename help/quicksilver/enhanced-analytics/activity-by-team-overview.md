@@ -23,7 +23,7 @@ I Activity by team-visualisering visas aktiviteter som inträffar under en viss 
 >[!NOTE]
 >
 >Visualiseringen av projektaktiviteten liknar den här visualiseringen, men den visar aktivitet baserat på personer som har tilldelats till projekt i stället för personer som har tilldelats till ett hemteam.\
->Mer information om projektaktivitetsvisualisering finns i [Visa projektaktivitetsvisualisering i Förbättrad analys](../enhanced-analytics/project-activity-overview.md).
+>Mer information om visualisering av projektaktivitet finns i [Visa visualisering av projektaktivitet i Förbättrad analys](../enhanced-analytics/project-activity-overview.md).
 
 ![](assets/activity-by-team-350x113.png){width="700"}
 
@@ -59,25 +59,25 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
-Information om krav för att använda Förbättrad analys finns i avsnittet Krav i [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Förutsättningar för att använda Förbättrad analys finns i avsnittet Förutsättningar i [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Förstå aktivitetsbaserad teamvisualisering
 
 De olika aktiviteterna visas i olika färger för att sammanfatta specifika händelser under den filtrerade tidsperioden:
 
-* **Användare som är inloggade**: Lila rutor visar att personer i hemteamet loggade in den dagen. En mörkare ton anger att fler personer loggar in.
+* **Användare som är inloggade**: lila rutor visar att personer i hemteamet är inloggade den dagen. En mörkare ton anger att fler personer loggar in.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* **Ändring av aktivitetsstatus**: Rutor för rosa visar att personer i hemteamet ändrade status för en uppgift den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
+* **Statusändring för aktivitet**: Rutor för rosa visar att personer i hemteamet ändrade status för en uppgift den dagen. En mörkare ton anger att ett högre antal uppgiftsstatusvärden ändras.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* **Slutförda uppgifter**: Blå rutor visar att folk i hemteamet slutförde en uppgift den dagen. En mörkare ton anger att fler uppgifter slutförs.
+* **Aktiviteter slutförda**: Blå rutor visar att personer i hemteamet slutförde en uppgift den dagen. En mörkare ton anger att fler uppgifter slutförs.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -89,12 +89,12 @@ Om du ser den här informationen blir det lättare att avgöra:
 * Vilka hemteam som jobbar för mycket eller använder systemet mer.
 * Om arbetsfördelningen är lämplig för hemteamet.
 
-Om du vill veta hur du får de bästa data för den här visualiseringen kan du läsa [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md).
+Om du vill lära dig hur du får bästa möjliga data för den här visualiseringen kan du läsa [Översikt över förbättrade analyser](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Visa Aktivitet efter teamvisualisering
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png)väljer **Analyser**.
-1. I den vänstra panelen väljer du **Folk**.
+1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon-16x12.png) och välj sedan **Analys**.
+1. Välj **Personer** i den vänstra panelen.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
@@ -138,7 +138,7 @@ Om du vill veta hur du får de bästa data för den här visualiseringen kan du 
 
    ![](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen Exportera ![](assets/export.png) i det övre högra hörnet av visualiseringen väljer du exportformat:
+1. (Valfritt) Om du vill exportera visualiseringsdata klickar du på ikonen Exportera ![](assets/export.png) i det övre högra hörnet av visualiseringen och väljer sedan exportformat:
 
    * **Diagram (PNG)**
    * **Datatabell (XSLX)**

@@ -21,4 +21,4 @@ Se:
 
 * [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md): I den här artikeln beskrivs hur du skapar en rapport från grunden.
 * [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): I den här artikeln beskrivs hur du skapar en kopia av en rapport.
-* [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): Den här artikeln innehåller information om textläge, som gör att du kan förbättra den information du redan har lagt till i rapporten med standardrapportverktyget.
+* [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md): Den här artikeln innehåller information om textläge, som gör att du kan förbättra den information som du redan har lagt till i rapporten med standardrapportverktyget.

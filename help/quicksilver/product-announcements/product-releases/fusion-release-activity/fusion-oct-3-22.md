@@ -32,4 +32,4 @@ Vi har lagt till några nya operatorer i händelsefiltret. Nu kan du använda n�
 
 Vi har också lagt till möjligheten att välja om du vill att filtret ska gälla för fältets gamla tillstånd eller för det nya läget. Om du t.ex. har valt att titta på det gamla tillståndet för ett fält och ställer in filtret på att bevaka status som pågår, kommer modulen att aktiveras när statusen ändras från Pågår till en ny status.
 
-Mer information om Adobe Workfront-modulerna finns i [Adobe Workfront Modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om Adobe Workfront-moduler finns i [Adobe Workfront-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).

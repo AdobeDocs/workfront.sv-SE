@@ -15,7 +15,7 @@ ht-degree: 1%
 
 # Uppdatera prioritet för utgåva
 
-Du kan definiera en prioritet för ett problem för att ange hur viktigt problemet är.
+Du kan definiera en prioritet för ett problem  för att ange hur viktigt problemet är.
 
 Du måste ha behörigheten Hantera för problemet för att kunna ändra prioriteten för problemet.  [Uppdatera prioriteten för ett problem](#update-the-priority-of-an-issue).
 
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,7 +57,7 @@ Adobe Workfront-administratörer kan ändra prioritetsetiketter i Workfront elle
 Du bör bekanta dig med numreringssekvensen för de prioriteter som används i organisationen.\
 Din organisation kan till exempel använda nummer 1 för att hänvisa till brådskande uppgifter, om prioritetens etikett har ändrats.
 
-Mer information om hur du anpassar namnen på prioriteter i din instans finns i [Skapa och anpassa prioriteringar](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
+Mer information om hur du anpassar namnen på prioriteter i din instans finns i [Skapa och anpassa prioriteter](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
 I följande tabell kan du se hur varje standardprioritetsetikett och dess motsvarande nummer är:
 
@@ -66,8 +66,8 @@ I följande tabell kan du se hur varje standardprioritetsetikett och dess motsva
  <col> 
  <thead> 
   <tr> 
-   <th>Prioritetsetikett <br>(Kan ändras) </th> 
-   <th>Prioritetsnummer <br>(Kan inte ändras) </th> 
+   <th>Prioritetsetikett <br>(kan ändras) </th> 
+   <th>Prioritetsnummer <br> (kan inte ändras) </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,16 +97,16 @@ I följande tabell kan du se hur varje standardprioritetsetikett och dess motsva
 ## Uppdatera prioriteten för ett problem {#update-the-priority-of-an-issue}
 
 1. Gå till det problem vars prioritet du vill ändra.
-1. Klicka **Ärendeinformation** till vänster.
+1. Klicka på **Probleminformation** i den vänstra panelen.
 
-   The **Ökning** -avsnittet ska visas som standard.
+   Avsnittet **Översikt** ska visas som standard.
 
-1. Klicka på **Prioritet** fältet i **Grundläggande information** område.
+1. Klicka på fältet **Prioritet** i området **Grundläggande information**.
 
    ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
-1. Välj ett värde för **Prioritet** fält.
+1. Välj ett värde för fältet **Prioritet**.
 
    Beroende på hur din Workfront-administratör har konfigurerat prioriteter i ditt system kan alternativen variera.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

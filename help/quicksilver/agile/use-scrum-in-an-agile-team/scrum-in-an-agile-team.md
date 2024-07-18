@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+* [Nedladdning](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
 * [Iterationer](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
-* [[!UICONTROL Scrum] board](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
+* [[!UICONTROL Scrum] bräde](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)

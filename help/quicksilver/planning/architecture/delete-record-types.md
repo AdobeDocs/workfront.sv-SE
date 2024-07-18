@@ -31,7 +31,7 @@ hide: yes
 
 Du kan ta bort posttyper när de inte längre är relevanta.
 
-Om du tar bort posttyper tas även all information som är kopplad till posttyperna bort. Mer information finns i [Att tänka på när du tar bort posttyper](#considerations-when-deleting-record-types) i den här artikeln.
+Om du tar bort posttyper tas även all information som är kopplad till posttyperna bort. Mer information finns i avsnittet [Att tänka på när du tar bort posttyper](#considerations-when-deleting-record-types) i den här artikeln.
 
 Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
@@ -80,7 +80,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade
 </td>
   </tr>
@@ -131,11 +131,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll muspekaren över posttypkortet, klicka på Mer-menyn och sedan **Ta bort**.
-   * Klicka på kortet för den posttyp som du vill ta bort och klicka på knappen **Mer** meny ![](assets/more-menu.png) till höger om posttypens namn och klicka sedan på **Ta bort**.
+   * Håll muspekaren över posttypkortet, klicka på menyn Mer och sedan **Ta bort**.
+   * Klicka på kortet för den posttyp som du vill ta bort, och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn på posttypssidan. Klicka sedan på **Ta bort**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. Typ **delete** i bekräftelserutan klickar du på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
+1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort.

@@ -78,11 +78,11 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du kopierar mål
 
-Du måste ha tillgång till Redigera mål på åtkomstnivån innan du kan kopiera mål. Mer information om hur du beviljar åtkomst till mål finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Du måste ha tillgång till Redigera mål på åtkomstnivån innan du kan kopiera mål. Mer information om att bevilja åtkomst till mål finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 Några av orsakerna till att du vill kopiera ett befintligt mål är:
 
@@ -178,23 +178,23 @@ To copy goals in the Production environment:
 -->
 
 
-1. Gå till ett mål och klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Kopiera mål**.
+1. Gå till ett mål och klicka på menyn **Mer** ![](assets/more-icon.png) och klicka sedan på **Kopiera mål**.
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Uppdatera följande information för det kopierade målet:
-   * **Målnamn**: Namnet på det nya målet. Standardnamnet för det kopierade målet är &quot;Kopia av &lt;original goal=&quot;&quot;>&quot;.
+   * **Målnamn**: Det nya målets namn. Standardnamnet för det kopierade målet är &quot;Kopia av &lt;ursprungligt mål>&quot;.
    * **Period**: Den tidsperiod under vilken du vill uppnå målet. Välj en tidsperiod i listrutan
 
      eller
 
-     Välj **Aktivera anpassade datum** för att ange anpassade datum för målets **Starta** och **Slutdatum**. Inställningen Aktivera anpassade datum är inaktiverad som standard.
+     Välj **Aktivera anpassade datum** om du vill ange anpassade datum för målets **start**- och **slutdatum**. Inställningen Aktivera anpassade datum är inaktiverad som standard.
 
      >[!TIP]
      >
      >   Om du avmarkerar Aktivera anpassade datum återställs det ursprungliga målets tidsperiod.
 
-      * **Målägare**: Ägaren till målet. Det kan vara användare, team, grupp eller företag. Standardvärdet är ägaren till det ursprungliga målet.
+      * **Målägare**: Målets ägare. Det kan vara användare, team, grupp eller företag. Standardvärdet är ägaren till det ursprungliga målet.
       * **Beskrivning**: Ytterligare information om målet.
       * **Kopiera resultat**: Välj det här alternativet om du vill överföra resultaten från det aktuella målet till det kopierade målet. Detta duplicerar de ursprungliga resultaten och kopplar dem till det kopierade målet. Resultatet av det kopierade målet har samma ägare, namn och uppmätta värden som det ursprungliga målets resultat.
 
@@ -203,7 +203,7 @@ To copy goals in the Production environment:
         >* Förloppet för det ursprungliga resultatet överförs inte till det kopierade målet.
         >* Om den ursprungliga ägaren togs bort eller inaktiverades från Workfront tilldelas det nya resultatet till den inloggade användaren.
 
-1. Klicka **Kopiera mål**.
+1. Klicka på **Kopiera mål**.
 
    Ett mål som liknar det ursprungliga skapas och har statusen Utkast.
 
@@ -211,9 +211,9 @@ To copy goals in the Production environment:
    >
    >Om du inte har kopierat resultaten från det ursprungliga målet måste du först koppla det nya målet till en förloppsindikator innan du kan aktivera det och börja arbeta mot att uppnå det.
    >Mer information om hur du associerar mål med förloppsindikatorer finns i följande artiklar:
-   >* [Lägga till resultat i mål i Adobe Workfront](../results-and-activities/add-results-to-goals.md)
-   >* [Lägga till aktiviteter i mål i Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   >* [Justera mål genom att koppla dem till Adobe Workfront mål](../goal-alignment/align-goals-by-connecting-them.md)
+   >* [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md)
+   >* [Lägg till aktiviteter i mål i Adobe Workfront-mål](../results-and-activities/add-activities-to-goals.md)
+   >* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md)
    >
    >Mer information om hur du aktiverar mål finns i [Aktivera mål](../goal-management/activate-goals.md).
 

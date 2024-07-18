@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera rapportelement i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera rapportelement i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -67,34 +67,34 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 Infoga ett datumbaserat jokertecken i en rapport:
 
 1. Gå till en rapport som du vill infoga ett datumbaserat jokertecken för.
-1. Klicka **Rapportåtgärder** sedan **Redigera**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
 
-1. Klicka på **Filter** -fliken.
-1. Klicka **Lägg till en filterregel**.
+1. Klicka på fliken **Filter**.
+1. Klicka på **Lägg till en filterregel**.
 1. Börja skriva namnet på fältet som du vill filtrera efter.\
    Du måste skriva fält som refererar till ett datum.
-1. Välj **Jämn** i listrutan för filtervariabeln.
+1. Välj **Lika med** i listrutan för filtervariabeln.
 
    >[!TIP]
    >
-   >Du måste alltid välja **Jämn** filtervariabeln när du arbetar med jokertecken i Adobe Workfront.
+   >Du måste alltid markera filtervariabeln **Lika med** när du arbetar med jokertecken i Adobe Workfront.
 
-1. I **Börja skriva namn ...** ruta, typ: `$$TODAY` om du vill visa information om något som inträffar samma dag som rapporten körs.
+1. I rutan **Börja skriva namn ...** skriver du: `$$TODAY` om du vill visa information om något som inträffar samma dag som rapporten körs.
 
    eller
 
-   Typ `$$NOW` om du vill visa information om något som inträffar vid samma datum och tid som rapporten körs.
+   Skriv `$$NOW` om du vill visa information om något som inträffar vid samma datum och tid som rapporten körs.
 
    Det här datumet är alltid annorlunda eftersom det ändras med det datum som rapporten faktiskt visas av en användare. så informationen i rapporten skiljer sig från dag till dag.
 
-1. (Valfritt) Om du vill visa information som inträffar inom en tidsram efter det datum då rapporten körs skriver du `$$TODAY+1w` för att visa information nästa vecka, eller `$$TODAY+2m` för att visa information under de kommande två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
-1. (Valfritt) Om du vill visa information om något som har inträffat inom en tidsram före det datum då rapporten körs skriver du `$$TODAY-1w` för att visa information från föregående vecka, eller `$$TODAY-2m` för att visa information från de senaste två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
+1. (Valfritt) Om du vill visa information som inträffar inom en tidsram efter datumet när rapporten körs skriver du `$$TODAY+1w` om du vill visa information nästa vecka eller `$$TODAY+2m` om du vill visa information under de kommande två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
+1. (Valfritt) Om du vill visa information om något som har inträffat inom en tidsram före datumet då rapporten körs skriver du `$$TODAY-1w` om du vill visa information från föregående vecka eller `$$TODAY-2m` om du vill visa information från de senaste två månaderna. Du kan också ange tidsramar för kvartal, timmar, dagar eller år.
 
-   En fullständig lista över attribut, kvalificerare och operatorer som du kan använda i datumbaserade jokertecken finns i artikeln [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   En fullständig lista över attribut, kvalificerare och operatorer som du kan använda i datumbaserade jokertecken finns i artikeln [Översikt över variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
 ## Ytterligare information
 
@@ -103,5 +103,5 @@ Se även:
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Lägg till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

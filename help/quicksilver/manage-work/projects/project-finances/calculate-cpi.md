@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller dollar, beroende på din PIM-metod (Performance Index Method). Mer information om hur du ställer in prestandaindexmetoden finns i [Ange PIM (Performance Index Method)](../../../manage-work/projects/project-finances/set-pim.md).
+Kostnadsprestandaindexet (CPI) beskriver förhållandet på projekt- eller aktivitetsnivå mellan den planerade kostnaden och den faktiska kostnaden. Projektledare granskar den här mätningen för att identifiera aktiviteter eller projekt som för närvarande spåras under- eller överkostnadsbaserat vid en viss tidpunkt. Kostnaden kan mätas i timmar eller dollar, beroende på din PIM-metod (Performance Index Method). Mer information om hur du ställer in prestandaindexmetoden finns i [Ange prestandaindexmetod (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Endast organisationer som kräver tidsregistrering kan använda CPI. Dessutom är kostnadsbaserade PIM-värden endast korrekta i organisationer som har definierat kostnadsnivåer för uppgiftstilldelningar (jobbroller eller användare).
 
@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt och finansiella data</p> <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till projekt och finansiella data</p> <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -71,7 +71,7 @@ Projektledare är införstådda med att ett CPI-värde på 1 innebär att projek
 
 ### Hur CPI beräknas {#how-cpi-is-calculated}
 
-I Adobe Workfront beror beräkningen för CPI på vilken prestandaindexmetod som valts för projektet. Mer information om hur du ställer in prestandaindexmetoden finns i [Ange PIM (Performance Index Method)](../../../manage-work/projects/project-finances/set-pim.md).
+I Adobe Workfront beror beräkningen för CPI på vilken prestandaindexmetod som valts för projektet. Mer information om hur du ställer in prestandaindexmetoden finns i [Ange prestandaindexmetod (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 * [CPI-beräkningar vid användning av timbaserad PIM](#cpi-calculations-when-using-hour-based-pim)
 * [CPI-beräkningar vid användning av kostnadsbaserad PIM](#cpi-calculations-when-using-cost-based-pim)
@@ -90,19 +90,19 @@ Annars
 CPI = 1
 ```
 
-* **För en icke-överordnad uppgift:**
+* **För en icke-överordnad aktivitet:**
 
-   ```
-   Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete / 100)
-   ```
+  ```
+  Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete / 100)
+  ```
 
-* **För en överordnad uppgift:**
+* **För en överordnad aktivitet:**
 Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat kostnadsarbete utfört för alla direkta underordnade aktiviteter.
 
 * **För ett projekt:**
 Totalt utfört budgeterat kostnadsarbete = summan av fältet Totalt budgeterat kostnadsarbete utfört för alla aktiviteter på den översta nivån (överordnade och fristående aktiviteter).
 
-Mer information om totalt budgeterat kostnadsarbete (BCWP) finns i [Beräkna utfört budgeterat kostnadsarbete (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Mer information om totalt budgeterat kostnadsarbete som utförts (BCWP) finns i [Beräkna budgeterat kostnadsarbete som utförts (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
 #### CPI-beräkningar vid användning av kostnadsbaserad PIM {#cpi-calculations-when-using-cost-based-pim}
 
@@ -156,29 +156,29 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 
 * Planerad kostnad för utfört arbete beräknas enligt följande formel:
 
-   ```
-   Planned Cost of Work Performed = Planned cost * Percent Complete / 100
-   ```
+  ```
+  Planned Cost of Work Performed = Planned cost * Percent Complete / 100
+  ```
 
 Totalt budgeterat kostnadsarbete som utförts beräknas för följande:
 
-* **För en icke-överordnad uppgift:**
+* **För en icke-överordnad aktivitet:**
 
-   ```
-   Total Budgeted Cost Work Performed = Planned Labor Cost * Percent Complete / 100
-   ```
+  ```
+  Total Budgeted Cost Work Performed = Planned Labor Cost * Percent Complete / 100
+  ```
 
-* **För en överordnad uppgift:**
+* **För en överordnad aktivitet:**
 
-   ```
-   Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field from all direct child tasks)
-   ```
+  ```
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field from all direct child tasks)
+  ```
 
 * **För ett projekt:**
 
-   ```
-   Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
-   ```
+  ```
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  ```
 
 
 
@@ -187,10 +187,10 @@ Totalt budgeterat kostnadsarbete som utförts beräknas för följande:
 Du kan visa CPI för ett projekt eller en uppgift i ett projekt, en uppgiftslista eller en rapport. Dessutom kan du visa den på projekt- eller aktivitetsnivå.
 
 1. Gå till det projekt eller den uppgift där du vill visa CPI:n.
-1. Expandera **Projektinformation** eller **Uppgiftsinformation** i den vänstra panelen, beroende på om du visar CPI för ett projekt eller en uppgift.
+1. Expandera **Projektinformation** eller **Aktivitetsinformation** i den vänstra panelen, beroende på om du visar CPI för ett projekt eller en uppgift.
 
-1. Klicka **Ekonomi**.
+1. Klicka på **Ekonomi**.
 
-   CPI visas i **CPI/SPI/CSI** fält.
+   Processorn visas i fältet **CPI/SPI/CSI**.
 
    ![](assets/cpi-on-project-nwe.png)

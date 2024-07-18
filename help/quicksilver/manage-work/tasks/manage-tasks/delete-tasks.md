@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till aktiviteter och projekt med åtkomst till Ta bort</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till uppgifter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Bevilja åtkomst till uppgifter</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>Redigera åtkomst till aktiviteter och projekt med åtkomst till Ta bort</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till aktiviteter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Bevilja åtkomst till aktiviteter</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Förstå processen med att ta bort uppgifter
 
-* [Begränsningar för att ta bort uppgifter](#limitations-for-deleting-tasks)
+* [Begränsningar för att ta bort aktiviteter](#limitations-for-deleting-tasks)
 * [Effekten av att ta bort uppgifter](#the-impact-of-deleting-tasks)
 
 ### Begränsningar för att ta bort uppgifter  {#limitations-for-deleting-tasks}
@@ -63,7 +63,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   (NOTE: the last statement is NWE&nbsp;only; not possible in classic)
   -->
 
-  Mer information om hur du aktiverar borttagning av uppgifter där timmar är loggade finns i avsnittet Borttagning i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Mer information om hur du aktiverar borttagning av uppgifter där timmar har loggats finns i avsnittet Borttagning i [Konfigurera systemomfattande aktivitet och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### Effekten av att ta bort uppgifter {#the-impact-of-deleting-tasks}
 
@@ -108,53 +108,53 @@ Beroende på hur din Workfront-administratör konfigurerar inställningarna för
 
 ### Ta bort flera uppgifter i ett projekt samtidigt  {#delete-multiple-tasks-in-a-project-simultaneously}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Projekt**.
+1. Klicka på **Projekt**.
 1. Klicka på projektnamnet som innehåller de uppgifter du vill ta bort.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka på **Åtgärder** i den vänstra panelen.
 1. Gör något av följande:
 
-   1. (Villkorligt) När **Spara automatiskt** växlingsknappen är aktiverad:
+   1. (Villkorligt) När växeln **Spara automatiskt** är aktiverad:
 
       1. Markera de uppgifter du vill ta bort och klicka sedan på **Mer**
-      1. Klicka **Ta bort** sedan **Ja, ta bort den** för att bekräfta borttagningen.
+      1. Klicka på **Ta bort** och sedan på **Ja, ta bort** för att bekräfta borttagningen.
 
          Uppgifterna tas bort.
 
-   1. (Villkorligt) Klicka på **Planläge** ikon och markera **Spara manuellt** om du vill ångra ändringarna som du gör i uppgiftslistan.
+   1. (Villkorligt) Klicka på ikonen **Planeringsläge** och välj **Spara manuellt** om du vill ångra ändringarna som du gör i uppgiftslistan.
 
       ![Välj Spara manuellt](assets/manual-save-option.png)
 
       Gör följande:
 
       1. Markera de uppgifter som du vill ta bort.
-      1. Klicka **Ta bort**.
+      1. Klicka på **Ta bort**.
       1. (Valfritt) Klicka på **Ångra** om du vill ångra ändringen och inte ta bort uppgifterna.
-      1. Klicka **Gör om** om du vill behålla ändringen och ta bort uppgiften.
-      1. Klicka **Spara** för att ta bort uppgifterna.
+      1. Klicka på **Gör om** om du vill behålla ändringen och ta bort uppgiften.
+      1. Klicka på **Spara** för att ta bort uppgifterna.
 
          Aktiviteter tas bort först när du har sparat ändringarna.
 
 ### Ta bort en enstaka uppgift {#delete-a-single-task}
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Projekt**.
+1. Klicka på **Projekt**.
 1. Klicka på projektnamnet som innehåller uppgiften som du vill ta bort.
-1. Klicka **Uppgifter** i den vänstra panelen.
+1. Klicka på **Åtgärder** i den vänstra panelen.
 1. Klicka på namnet på den uppgift som du vill ta bort.
-1. Klicka på **Mer** icon ![](assets/qs-more-menu.png)i det övre högra hörnet.
+1. Klicka på ikonen **Mer** ![](assets/qs-more-menu.png) i det övre högra hörnet.
 
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
-1. Klicka **Ta bort uppgift**.
-1. Om borttagning tillåts klickar du på **Ja, ta bort den**.
+1. Klicka på **Ta bort uppgift**.
+1. Om borttagning tillåts klickar du på **Ja och tar bort den**.
 
    Din Workfront-administratör eller gruppadministratör kanske inte tillåter att uppgifter tas bort där timmar har loggats.
 
-   Mer information om åtkomst och behörigheter som krävs för att ta bort en uppgift finns i avsnittet [Begränsningar för att ta bort uppgifter](#limitations-for-deleting-tasks) i den här artikeln.
+   Mer information om åtkomst och behörigheter som krävs för att ta bort en aktivitet finns i avsnittet [Begränsningar för att ta bort aktiviteter](#limitations-for-deleting-tasks) i den här artikeln.
 
 ## Återställ borttagna uppgifter
 
-En Workfront- eller gruppadministratör kan återställa uppgifter inom 30 dagar efter att de har tagits bort enligt beskrivningen i [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+En Workfront- eller gruppadministratör kan återställa uppgifter inom 30 dagar efter att de har tagits bort, vilket beskrivs i [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

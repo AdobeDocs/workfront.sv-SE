@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
-title: Konfigurera en moduls inställningar i [!DNL Adobe Workfront Fusion]
+title: Konfigurera en moduls inställningar i  [!DNL Adobe Workfront Fusion]
 description: Du måste konfigurera inställningar för varje modul som du skapar.
 author: Becky
 feature: Workfront Fusion
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Du måste konfigurera inställningar för varje modul som du skapar.
 
-Till exempel [[!DNL Dropbox] moduler](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) -moduler kräver att du anger målmappen dit du vill överföra filer. För [[!UICONTROL Email] moduler](../../workfront-fusion/apps-and-their-modules/email-modules.md) måste du ange den e-postadress dit e-postmeddelanden ska skickas.
+Modulerna [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md) kräver till exempel att du anger den målmapp där du vill överföra filer. För [[!UICONTROL Email] moduler](../../workfront-fusion/apps-and-their-modules/email-modules.md) måste du ange e-postadressen dit e-postmeddelanden ska skickas.
 
 >[!NOTE]
 >
@@ -43,25 +43,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>  
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Konfigurera en moduls inställningar
 
@@ -69,17 +69,17 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
    eller
 
-   Klicka på ikonen för modulen i scenarieredigeraren, enligt beskrivningen i [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+   Klicka på ikonen för modulen i scenarieredigeraren, enligt beskrivningen i [Skapa ett scenario i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Om det behövs för modulen skapar du en **[!UICONTROL Connection]** till ditt registrerade användarkonto för den aktuella tjänsten, enligt beskrivningen i [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. Om det behövs för modulen skapar du ett **[!UICONTROL Connection]** till ditt registrerade användarkonto för den aktuella tjänsten, enligt beskrivningen i [Anslutningsöversikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. Skriv lämplig text i varje fält.
 
    eller
 
-   Klicka **[!UICONTROL Map]** om det visas till höger om fältet, mappa ett objekt från en annan modul i ditt scenario.
+   Klicka på **[!UICONTROL Map]** om det visas till höger om fältet och mappa sedan ett objekt från en annan modul i ditt scenario.
 
    Folidparametrar krävs.
 
-   Mer information om de olika objekttyperna [!DNL Workfront Fusion] kan identifiera (t.ex. datum, nummer och text), se [Artikeldatatyper i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+   Mer information om de olika objekttyperna som [!DNL Workfront Fusion] kan identifiera (till exempel datum, nummer och text) finns i [Objektdatatyper i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 1. (Villkorligt) Om modulen har avancerade alternativ som du vill visa och använda väljer du **[!UICONTROL Show advanced settings]**.

@@ -19,20 +19,20 @@ ht-degree: 0%
 
 Med Workfront datasjön kan ni använda företagets Workfront-data med verktyg för affärsintelligens eller lagra dem på ett externt datalager.
 
-För att kunna koppla dina data i Workfront-sjön till en extern produkt måste du först lägga till nödvändiga IP-adresser i tillåtelselista enligt beskrivningen i [Lägg till IP-adresser i tillåtelselista](#add-ips-to-the-allowlist) nedan. De flesta produkter kräver dessutom ytterligare information om din datalinje för att upprätta en anslutning:
+Om du vill ansluta dina data i Workfront-sjön med en extern produkt måste du först lägga till alla IP-adresser som krävs i tillåtelselista enligt beskrivningen i [Lägg till IP-adresser i tillåtelselista](#add-ips-to-the-allowlist) nedan. De flesta produkter kräver dessutom ytterligare information om din datalinje för att upprätta en anslutning:
 
 | Fältnamn | Värde |
 |---------------|-------------|
-| Server | Anslutningens URL, utan `https://` (finns på **Dataåtkomst** sida i Workfront*) |
+| Server | Anslutningens URL, utan delen `https://` (finns på sidan **Dataåtkomst** i Workfront*) |
 | Port | `443` |
 | Databas | `WORKFRONT` |
 | Lagerställe | `READER_WH` |
 | Schema | `WF` |
 | Roll | `READER_ROLE` |
-| Användarnamn | Användarnamnet som valdes när anslutningen skapades (finns på **Dataåtkomst** sida i Workfront*) |
+| Användarnamn | Användarnamnet som valdes när anslutningen skapades (finns på **dataåtkomstsidan** i Workfront*) |
 | Lösenord | Lösenordet som väljs vid första inloggningen från Snowflake* |
 
-*Information om var du hittar **Dataåtkomst** sidan med dina Data Lake-anslutningar finns på [Skapa ett läsarkonto (tjänstkonto) för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Mer information om var du hittar sidan **Dataåtkomst** som innehåller dina dataanslutningar finns i [Skapa ett läsarkonto (tjänstkonto) för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
@@ -43,31 +43,31 @@ För att kunna koppla dina data i Workfront-sjön till en extern produkt måste 
 
 ## Lägg till IP-adresser i tillåtelselista
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
-1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
+1. Klicka på **System** > **Dataåtkomst** i den vänstra panelen.
 
-1. Klicka på **Tillåtna IP-adresser** klickar du på **Lägg till en IP-adress i Tillåtelselista** -knappen.
+1. Klicka på fliken **Tillåtna IP-adresser** och klicka sedan på knappen **Lägg till en IP-adress till Tillåtelselista** .
 
-1. Ange ett namn för IP-adressen i **IP-adressbeskrivning** och ange IP-adressen (eller CIDR-blocket) för verktyget som du vill använda i **IP-adress** och sedan klicka **Lägg till IP i Tillåtelselista**.
+1. Ange ett namn för IP-adressen i **IP-adressbeskrivningen** och ange IP-adressen (eller CIDR-blocket) för verktyget som du vill använda i **IP-adressen**. Klicka sedan på **Lägg till IP i Tillåtelselista**.
 
    ![Lägg till IP-adress](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## Ta bort en IP-adress från tillåtelselista
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Inställningar**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera**.
 
-1. Klicka på i den vänstra panelen **System** > **Dataåtkomst**.
+1. Klicka på **System** > **Dataåtkomst** i den vänstra panelen.
 
-1. Klicka på **Tillåtna IP-adresser** och sedan klicka på ikonen för kontrollpanelen ![Ikonen Ta bort](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) till höger om den IP-adress som du vill ta bort.
+1. Klicka på fliken **Tillåtna IP-adresser** och klicka sedan på papperskorgsikonen ![Ta bort ikon](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) till höger om den IP-adress du vill ta bort.
 
-1. I fönstret som visas markerar du kryssrutan för att bekräfta och klickar sedan på **Ta bort**.
+1. Markera rutan för att bekräfta i fönstret som visas och klicka sedan på **Ta bort**.
 
 ## Dela data med verktyg för affärsinformation
 
 Ett antal vanliga verktyg för affärsintelligens listas nedan. Länkarna tar dig till tjänstens dokumentationssajt för att lära dig mer om hur du ansluter till din datasjö.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
+* [Tablet PC](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
 * [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
 * [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
 * SAP HANA

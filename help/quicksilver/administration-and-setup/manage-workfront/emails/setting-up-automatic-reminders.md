@@ -58,11 +58,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ställ in automatiska påminnelser
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **E-post** >**Automatiska påminnelser**.
+1. Klicka på **E-post** >**Automatiska påminnelser**.
 
-1. I **Skicka ett sent meddelande till** markerar du något av följande alternativ:
+1. I området **Skicka ett sent meddelande till** väljer du något av följande alternativ:
 
    <table>
     <tr>
@@ -82,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tr>
     <tr>
         <td>Användaren Tilldelad till</td>
-        <td>(I dialogrutan <b>Skicka påminnelse om deadline till</b> område.) Välj det här alternativet om du vill att användaren som tilldelats en uppgift eller en utgåva ska få ett meddelande om att arbetsuppgiften närmar sig förfallodatumet.</td>
+        <td>(I området <b>Skicka påminnelse om deadline till </b>.) Välj det här alternativet om du vill att användaren som tilldelats en uppgift eller en utgåva ska få ett meddelande om att arbetsuppgiften närmar sig förfallodatumet.</td>
         <td></td>
     </tr>
 </table>
@@ -91,13 +91,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Tiden beräknas utifrån det planerade slutförandedatumet för aktiviteten eller utgåvan.
 
-   Ange antalet minuter, timmar, dagar, veckor eller månader som du vill lägga till tid till det planerade slutförandedatumet för aktiviteterna eller problemen. Välj **Förflutna minuter**, **Förflutna timmar**, **Förflutna dagar**, eller **Förflutna veckor** för att lägga till tid som omfattar helger, helger och ej arbetstid enligt ditt schema.
+   Ange antalet minuter, timmar, dagar, veckor eller månader som du vill lägga till tid till det planerade slutförandedatumet för aktiviteterna eller problemen. Välj **Förflutna minuter**, **Förflutna timmar**, **Förflutna dagar** eller **Förflutna veckor** om du vill lägga till tid som omfattar helger, helgdagar och ej arbetstid enligt schemat.
 
    Om en uppgift till exempel tilldelas på fredag och har en varaktighet på 3 förflutna dagar, är aktivitetens slutförandedatum inställt på måndag (förutsatt att lördag och söndag är en helg). Om aktiviteten har en varaktighet på 3 dagar (inte förfluten), är datumet för aktivitetens slutförande inställt på onsdag.
 
    ![](assets/time-increments-for-automatic-reminder.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Få automatiska påminnelser
 
@@ -105,10 +105,10 @@ Om du är angiven enhet i ett meddelande om automatisk påminnelse får du ett e
 
 Uppgifter med vissa beroendetyper kan levereras efter det angivna startdatumet, även om de är förfallna. Om en aktivitet till exempel har en föregångare med ett avslutsdatum (fs)-beroende, inkluderas den inte i e-postmeddelandet, även om det har passerat det angivna startdatumet, eftersom du inte kan starta aktiviteten förrän föregående har slutförts.
 
-Mer information om hur du tar emot e-postmeddelanden med automatiska påminnelser finns i [Automatiska påminnelser](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) avsnitt i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md).
+Mer information om hur du tar emot e-postmeddelanden med automatiska påminnelser finns i avsnittet [Automatiska påminnelser](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders) i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Skicka automatiska påminnelser
 
 Automatiska påminnelser skickas så snart den tidpunkt som valts av Workfront-administratören är klar.
 
-Om du vill utlösa att automatiska påminnelser skickas manuellt kan du göra det med Diagnostik. Mer information om hur du använder diagnostik i Workfront finns i [Använd diagnostik för att starta automatiserade processer](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
+Om du vill utlösa att automatiska påminnelser skickas manuellt kan du göra det med Diagnostik. Mer information om hur du får åtkomst till och använder diagnostik i Workfront finns i [Använda diagnostik för att utlösa automatiska processer](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).

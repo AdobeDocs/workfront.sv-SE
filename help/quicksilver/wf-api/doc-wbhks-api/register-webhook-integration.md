@@ -10,7 +10,7 @@ role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Adobe Workfront-administratörer kan lägga till en anpassad webbkrokintegrering för sitt företag genom att gå till Inställningar > Dokument > Anpassade integreringar i Workfront. På sidan Anpassad integrering i installationsprogrammet kan administratörer visa en lista över befintliga webkrok-integreringar för dokument. Från den här sidan kan integreringar läggas till, redigeras, aktiveras och inaktiveras.
 
-Om du vill lägga till en integrering klickar du **Lägg till anpassad integrering**.
+Om du vill lägga till en integrering klickar du på **Lägg till anpassad integrering**.
 
 ![](assets/webhooks-integration-350x230.png)
 

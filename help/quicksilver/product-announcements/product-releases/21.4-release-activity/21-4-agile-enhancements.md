@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla Agile-förbättringar som gjorts i version 21.4 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Användartilldelningar på Kanban- och Scrum-tavlor
 
@@ -33,7 +33,7 @@ När du lägger till en arbetsuppgift i en iteration ändras som standard det pl
 
 Det här alternativet gäller endast för Scrum-team och inte för Kanban-team.
 
-Mer information finns i [Konfigurera Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Mer information finns i [Konfigurera surrande](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Ändringar i den flexibla vyn i projekt
 
@@ -41,7 +41,7 @@ Mer information finns i [Konfigurera Scrum](../../../agile/get-started-with-agil
 >
 >Den här funktionen släpptes till förhandsvisningsmiljön den 16 september 2021.
 
-Som en del av version 21.3 har vi förbättrat sidhuvudet och artikeltavlan (se [Uppdateringar av Agile-kortets rubrik och anslagstavla](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Uppdateringarna gäller både iterationer och den flexibla vyn i projekt.
+Som en del av version 21.3 har vi förbättrat det flexibla kortets sidhuvud och artikeltavlor (se [Uppdateringar av rubriker och anslagstavla ](../../../product-announcements/product-releases/21.3-release-activity/21-3-project-enhancements.md#agile)). Uppdateringarna gäller både iterationer och den flexibla vyn i projekt.
 
 I version 21.4 återställer vi dessa förbättringar för en flexibel projektvy. Det görs inga ändringar i rörliga iterationer.
 
@@ -56,5 +56,5 @@ Följande ändringar återställs när det gäller den flexibla vyn i projekt:
 
 Nu kan du skapa en ny artikel eller utgåva direkt från Kanban-tavlan. Det gör det enklare att snabbt lägga till en ny artikel utan att behöva gå till ett projekt, en rapport eller en kontrollpanel för att skapa en uppgift.
 
-Mer information finns i [Lägg till artiklar och utgåvor från Kanban-tavlan](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
+Mer information finns i [Lägga till artiklar och utgåvor från Kanban-tavlan](../../../agile/use-kanban-in-an-agile-team/add-story-from-kanban-board.md).
 

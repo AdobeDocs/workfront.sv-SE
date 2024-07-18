@@ -10,7 +10,7 @@ role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,33 +46,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera standardspråkroller
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
    <!--
    <li In the left panel, click Proofs Proof roles.
    -->
 
-1. Klicka **Granskning och godkännande** i nedre delen av listan som visas till vänster.
-1. I **Roller för angivna mottagare av dokumentkorrektur** väljer du standardroll för användare och gästanvändare som läggs till i ett korrekturinställningsarbetsflöde.
+1. Klicka på **Granska och godkänn** längst ned i listan till vänster.
+1. I avsnittet **Roller för angivna mottagare av dokumentkorrektur** väljer du standardrollen för användare och gästanvändare som läggs till i ett korrekturarbetsflöde.
 
-   Se [Rättigheter som är kopplade till språkroller](#rights-associated-with-proofing-roles) nedan om du vill se en lista över varje korrekturroll och de rättigheter som är kopplade till den.
+   I [Rättigheter som är kopplade till språkroller](#rights-associated-with-proofing-roles) nedan finns en lista över alla språkroller och de rättigheter som är kopplade till dem.
 
    >[!NOTE]
    >
-   >* Denna inställning gäller endast användare som har skapats i Workfront-systemet efter att rollen har angetts. inte till befintliga användare.
-   >* Den person som lägger till användare till korrekturet kan justera den här rollen enligt beskrivningen i [Lägga till användare i ett korrektur](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Dela ett korrektur i Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   >* Den här inställningen gäller endast användare som har skapats i Workfront-systemet efter att rollen har angetts, inte befintliga användare.
+   >* Den person som lägger till användare i korrekturet kan justera den här rollen enligt beskrivningen i [Lägg till användare i ett korrektur](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) i [Dela ett korrektur i Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
+1. I avsnittet **Roller för icke-mottagare som öppnar dokumentkorrektur** väljer du standardrollen för användare och gästanvändare som kan få åtkomst till ett korrektur, men som inte har lagts till i korrekturets arbetsflöde.
 
-1. I **Roller för icke-mottagare som öppnar ett dokumentkorrektur** väljer du standardrollen för användare och gästanvändare som kan få åtkomst till ett korrektur, men som inte läggs till i korrekturets arbetsflöde.
+   Detta inträffar när användare och gäster har åtkomst till ett dokument som har bevisats. Även om de inte har lagts till i korrekturets arbetsflöde kan de öppna korrekturet.
 
-   Detta inträffar när användare och gäster har åtkomst till ett dokument som har skapats med ett bevis: Även om de inte har lagts till i korrekturens arbetsflöde kan de öppna korrekturet.
+   **Exempel:** Här är exempel på hur du kan använda den här inställningen:
 
-   **Exempel:** Här är några exempel på hur du kan använda den här inställningen:
-
-   * Du väljer **Skrivskyddad** för att begränsa all korrekturaktivitet, t.ex. att lägga till kommentarer och fatta beslut till dem som har ombetts att göra det.
+   * Du väljer **Skrivskyddad** om du vill begränsa alla korrekturaktiviteter, till exempel att lägga till kommentarer och fatta beslut till dem som har ombetts att göra det.
    * Du väljer **Granskare** eftersom du vill att alla i teamet ska kunna lägga till markeringar och kommentarer i ett korrektur.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Rättigheter som är kopplade till språkroller {#rights-associated-with-proofing-roles}
 
@@ -96,7 +95,7 @@ I följande tabell visas varje roll och de rättigheter som är kopplade till de
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Visa ett korrektur</strong> </p> </th> 
+   <th> <p><strong>Visa ett bevis</strong> </p> </th> 
    <th> <p><strong>Lägg till markeringar</strong> </p> </th> 
    <th> <p><strong>Lägg till kommentarer</strong> </p> </th> 
    <th> <p><strong>Redigera egna kommentarer om det inte finns några svar</strong> </p> </th> 
@@ -177,7 +176,7 @@ I följande tabell visas varje roll och de rättigheter som är kopplade till de
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Upphovsman</strong> </p> </td> 
+   <td> <p><strong>Författare</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

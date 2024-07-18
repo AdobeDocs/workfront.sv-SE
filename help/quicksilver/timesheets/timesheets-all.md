@@ -22,5 +22,5 @@ Det här avsnittet innehåller artiklarna i följande underavsnitt:
 
 * [Information om tidrapport: artikelindex](../timesheets/timesheets/timesheets.md)
 * [Skapa och hantera tidrapporter: artikelindex](../timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
-* [Konfigurera hur tid loggas: artikelindex](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+* [Konfigurera hur tiden loggas: artikelindex](../timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
 * [Tips, tricks och felsökning: artikelindex](../timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)

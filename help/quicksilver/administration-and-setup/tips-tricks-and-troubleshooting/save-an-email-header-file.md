@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Spara en e-postrubrikfil
-description: Ibland [!DNL Adobe Workfront] support kan begära en rubrikfil för e-post. Varje e-postprogram har ett eget sätt att hämta den här filen. Här följer några olika instruktioner för e-postprogram för att hitta och spara rubriken. [!DNL Outlook]
+description: Ibland kan  [!DNL Adobe Workfront] support begära en e-posthuvudfil. Varje e-postprogram har ett eget sätt att hämta den här filen. Här följer några olika instruktioner för e-postprogram för att hitta och spara rubriken. [!DNL Outlook]
 author: Caroline
 feature: System Setup and Administration
 role: Admin
@@ -12,18 +12,18 @@ exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
 source-wordcount: '173'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
 # Spara en e-postrubrikfil
 
-Ibland [!DNL Adobe Workfront] support kan begära en rubrikfil för e-post. Varje e-postprogram har ett eget sätt att hämta den här filen. Här följer några olika instruktioner för e-postprogram för att hitta och spara rubriken.
+Ibland kan supporten för [!DNL Adobe Workfront] begära en e-posthuvudfil. Varje e-postprogram har ett eget sätt att hämta den här filen. Här följer några olika instruktioner för e-postprogram för att hitta och spara rubriken.
 
 ## Outlook
 
 1. Öppna e-postmeddelandet.
-1. Klicka **[!UICONTROL View]** och markera **[!UICONTROL Message Options]**.
+1. Klicka på **[!UICONTROL View]** och välj **[!UICONTROL Message Options]**.
 
 1. Klicka på **[!UICONTROL Internet Headers]**.
 1. Spara hela rubrikfilen.
@@ -37,8 +37,8 @@ Ibland [!DNL Adobe Workfront] support kan begära en rubrikfil för e-post. Varj
 ## Gmail
 
 1. Öppna e-postmeddelandet.
-1. Klicka på **[!UICONTROL Reply]** nedrullningsbar meny i skärmens övre högra hörn.
-1. Bläddra nedåt och markera **[!UICONTROL Show Original]**.
+1. Klicka på den nedrullningsbara menyn **[!UICONTROL Reply]** i skärmens övre högra hörn.
+1. Bläddra nedåt och välj **[!UICONTROL Show Original]**.
 1. Spara hela rubrikfilen.
 
 ## Thunderfågel
@@ -51,7 +51,7 @@ Ibland [!DNL Adobe Workfront] support kan begära en rubrikfil för e-post. Varj
 ## Yahoo Mail
 
 1. Öppna meddelandet.
-1. Klicka **[!UICONTROL Actions]** och markera **[!UICONTROL View Full Header]**.
+1. Klicka på **[!UICONTROL Actions]** och välj **[!UICONTROL View Full Header]**.
 
 1. Spara hela rubrikfilen.
 

@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: workfront-proof-navigation-topic
-title: Hantera användare och kontakter i [!DNL Workfront Proof]
+title: Hantera användare och kontakter i  [!DNL Workfront Proof]
 description: Hantera användare och kontakter i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 

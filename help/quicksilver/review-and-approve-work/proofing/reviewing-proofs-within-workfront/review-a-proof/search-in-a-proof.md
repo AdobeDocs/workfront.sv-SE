@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -52,12 +52,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Sök efter innehåll i ett korrektur
 
 1. Öppna det korrektur som du vill söka i.
-1. Klicka på **Sök efter dokument** -ikon.
+1. Klicka på ikonen **Sök efter dokument** i verktygsfältet ovanför korrekturet.
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 
@@ -67,4 +67,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![Search_text_marked_as_you_type.png](assets/search-text-highlighted-as-you-type-350x214.png)
 
-1. Skriv texten som du vill söka efter och klicka sedan på **Upp** och **Ned** pilar för att skanna igenom sökresultaten i korrekturet.
+1. Skriv den text du vill söka efter och klicka sedan på pilarna **Upp** och **Ned** för att söka igenom sökresultaten i korrekturet.

@@ -33,9 +33,9 @@ Den här artikeln innehåller allmän information om effekten av att ändra uppg
 * Mer information om hur du tilldelar uppgifter finns i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md) och [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 * Mer information om hur du ändrar tilldelningar för flera aktiviteter i schemaläggningsområdet finns i&quot;Ändra flera användartilldelningar för aktiviteter i schemaläggningsområdena&quot;.
-* Mer information om hur du tilldelar uppgifter med hjälp av belastningsutjämnaren finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Mer information om hur du tilldelar uppgifter med hjälp av belastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Viss information i den här artikeln gäller även för uppdrag i ärenden. Mer information om hur du tilldelar problem och andra överväganden finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Viss information i den här artikeln gäller även för uppdrag i ärenden. Mer information om hur du tilldelar problem och andra överväganden finns i [Översikt över hur du ändrar problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## När användartilldelningar ska ändras för uppgifter
 
@@ -71,7 +71,7 @@ Borttagning av användare kan påverka aktivitetstimmar och allokeringsprocentsa
 
 När du tar bort en användare från en uppgift med följande varaktighetstyper:
 
-* **Enkelt:** De planerade timmar som tilldelats den användaren subtraheras från aktivitetens totala planerade timmar.
+* **Enkel:** Planerade timmar som tilldelats den användaren subtraheras från aktivitetens totala planerade timmar.
 
   >[!IMPORTANT]
   >
@@ -85,7 +85,7 @@ När du tar bort en användare från en uppgift med följande varaktighetstyper:
 
 Du kan ta bort uppdrag från en uppgift i taget eller ta bort uppdrag från flera uppgifter samtidigt.
 
-Mer information om hur du tar bort uppdrag från gruppaktiviteter finns i [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
+Mer information om hur du tar bort tilldelningar från gruppaktiviteter finns i [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md).
 
 Tänk på följande när du tar bort tilldelningar från uppgifter:
 

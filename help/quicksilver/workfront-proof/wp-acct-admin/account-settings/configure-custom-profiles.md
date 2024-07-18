@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Konfigurera anpassade profiler i [!DNL Workfront Proof]
-description: Som [!DNL Workfront] Korrekturfaktureringsadministratör eller [!DNL Workfront Proof] Administratör, du kan konfigurera anpassade profiler för andra användare.
+title: Konfigurera anpassade profiler i  [!DNL Workfront Proof]
+description: Som  [!DNL Workfront] Korrekturerad faktureringsadministratör eller [!DNL Workfront Proof] administratör kan du konfigurera anpassade profiler för andra användare.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront] Korrektur. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln refererar till funktionalitet i den fristående produkten [!DNL Workfront] Korrektur. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Som [!DNL Workfront Proof] Faktureringsadministratör eller [!DNL Workfront Proof] Administratör, du kan konfigurera anpassade profiler för andra användare.
+Som faktureringsadministratör för [!DNL Workfront Proof] eller administratör för [!DNL Workfront Proof] kan du konfigurera anpassade profiler för andra användare.
 
-Med anpassade profiler kan du tilldela detaljerade behörigheter till användare i ditt konto och definiera den åtkomstnivå och behörighet de har för objekten i ditt konto. Mer information om anpassade profiler finns i [Skapa och hantera anpassade profiler med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+Med anpassade profiler kan du tilldela detaljerade behörigheter till användare i ditt konto och definiera den åtkomstnivå och behörighet de har för objekten i ditt konto. Mer information om anpassade profiler finns i [Skapa och hantera anpassade profiler med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 Du kan justera layouten på sidan så att endast den information som är relevant visas:
 
@@ -33,7 +33,7 @@ Du kan justera layouten på sidan så att endast den information som är relevan
 
 ## Fliken Profiler
 
-The [!UICONTROL Profiles] Med -fliken kan du enkelt lägga till och hantera anpassade profiler. Härifrån kan du utföra följande åtgärder:
+På fliken [!UICONTROL Profiles] kan du enkelt lägga till och hantera anpassade profiler. Härifrån kan du utföra följande åtgärder:
 
 * Lägg till en ny profil (1)
 * Utför massåtgärder på profiler:
@@ -44,15 +44,15 @@ The [!UICONTROL Profiles] Med -fliken kan du enkelt lägga till och hantera anpa
 * Kopiera en profil (6)
 * Inaktivera en profil (7)
 
-Mer information om hur du anpassar fliken Profiler finns i [Skapa och hantera anpassade profiler med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+Mer information om hur du anpassar fliken Profiler finns i [Skapa och hantera anpassade profiler med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 ![Profiles_tab_1.png](assets/profiles-tab-1-350x190.png)
 
 ## Profilinformation
 
-På sidan Profilinformation kan du ändra de behörigheter som är aktiverade för din anpassade profil, kopiera profilen, ta bort profilen och visa listan över användare som profilen är tilldelad till.
+På sidan Profilinformation kan du ändra de behörigheter som har aktiverats för din anpassade profil, kopiera profilen, ta bort profilen och visa listan över användare som profilen har tilldelats.
 
-Mer information om de åtgärder du kan utföra på den här sidan finns i &quot;[Skapa och hantera anpassade profiler med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+Mer information om de åtgärder du kan utföra på den här sidan finns i [Skapa och hantera anpassade profiler med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 * [Åtkomst till sidan Profilinformation](#accessing-the-profile-details-page)
 * [Visa listan över användare med en tilldelad profil](#viewing-the-list-of-users-with-a-profile-assigned)
@@ -66,9 +66,9 @@ Så här kommer du åt profilinformationen:
 
 ### Visa listan över användare med en tilldelad profil {#viewing-the-list-of-users-with-a-profile-assigned}
 
-Så här visar du listan över användare som har tilldelats en viss profil:
+Så här visar du en lista över användare som har tilldelats en viss profil:
 
-1. Klicka på länken som visar antalet aktiva och inaktiverade användare med den här profilen (1).
+1. Klicka på länken som visar antalet aktiva och inaktiverade användare med profilen (1).
 1. Den här listan visas också på sidan Profilinformation.
 1. ![Users_list_1.png](assets/users-list-1-350x188.png)
 

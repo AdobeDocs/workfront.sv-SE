@@ -7,9 +7,10 @@ description: Layoutmallar från den klassiska Workfront-upplevelsen är inte lä
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: c68b63230b07ea8c8475b710e256b5e0f049b1eb
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -67,6 +68,3 @@ Du kan ange API-anrop i webbläsarens URL-fält och trycka på Retur. API-svaret
 1. Klistra in API-anropet från steg 4 i URL-fältet i webbläsaren och tryck på Retur.
 
    Då tas layoutmallen bort.
-
-
-

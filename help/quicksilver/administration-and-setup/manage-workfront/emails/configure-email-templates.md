@@ -59,13 +59,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **E-post** > **Meddelanden**> **E-postmallar**.
+1. Klicka på **E-post** > **Meddelanden**> **E-postmallar** i den vänstra panelen.
 
    ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
-1. Klicka **Ny e-postmall**.
+1. Klicka på **Ny e-postmall**.
 
-1. I **Ny e-postmall** anger du följande information:
+1. Ange följande information i rutan **Ny e-postmall**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -97,12 +97,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Brödtext </td> 
-      <td> <p>Lägg till texten för e-postmeddelandets innehåll.</p> <p>Du kan använda HTML-formatering för e-postinnehållet, vilket beskrivs i avsnittet <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägga till HTML-formatering i en e-postmall</a> i den här artikeln.</p> </td> 
+      <td> <p>Lägg till texten för e-postmeddelandets innehåll.</p> <p>Du kan använda HTML-formatering för e-postinnehållet, vilket beskrivs i avsnittet <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Lägg till HTML i en e-postmall</a> i den här artikeln.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Lägga till HTML-formatering i en e-postmall {#add-html-formatting-to-an-email-template}
 
@@ -117,7 +117,7 @@ HTML kan förbättra e-postmallarna, vilket visas i följande avsnitt.
 
 ### Länka till Workfront-objekt {#link-to-workfront-objects}
 
-Du kan inkludera länkar till Workfront-fält med `$$` jokertecken som anger att e-postgeneratorn ska söka efter värden från databasen som är kopplad till ett visst objekt.
+Du kan inkludera länkar till Workfront-fält genom att använda jokertecknet `$$` för att tala om för e-postgeneratorn att söka efter värden från databasen som är associerad med ett visst objekt.
 
 Innehållet i e-postmeddelandet för ett meddelande som varnar den som tilldelats uppgiften att uppgiften ska starta kan följa den här strukturen:
 
@@ -143,15 +143,15 @@ Innehållet i e-postmeddelandet för ett meddelande som varnar den som tilldelat
 
 Om du vill hämta jokertecknet för ett objekt gör du något av följande:
 
-* Gå till API-utforskaren och välj namnen på objekten på fliken Fält för ett objekt. Mer information om API Explorer finns i [API Explorer](/help/quicksilver/wf-api/general/api-explorer.md).
+* Gå till API-utforskaren och välj namnen på objekten på fliken Fält för ett objekt. Mer information om API-utforskaren finns i [API-utforskaren](/help/quicksilver/wf-api/general/api-explorer.md).
 
-* Använd `valuefield` det värde som du hittar i en rapportvy i textläge. Mer information om värden för textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+* Använd det `valuefield`-värde som du hittar i en rapportvy i textläge. Mer information om värden för textläge finns i [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-The `heading` värdet kan vara namnet på objektet, som du vill att det ska visas i e-postbrödtexten.
+Värdet `heading` kan vara objektets namn, så som du vill att det ska visas i e-postbrödtexten.
 
 ### Länka till anpassade fält med HTML {#link-to-custom-fields-with-html}
 
-Du kan inkludera länkar till användare och anpassade fält med `$$` jokertecken som anger att e-postgeneratorn ska söka efter värden från databasen som är associerad med objektet. De måste finnas på båda sidor om databasattributreferensen.
+Du kan inkludera länkar till användare och anpassade fält genom att använda jokertecknet `$$` för att tala om för e-postgeneratorn att söka efter värden från den databas som är associerad med objektet. De måste finnas på båda sidor om databasattributreferensen.
 
 Om du till exempel lägger till följande text som HTML skulle den tilldelade användarens förnamn läggas till i påminnelsemeddelandet som är kopplat till en uppgift:
 
@@ -163,7 +163,7 @@ Om du vill lägga till anpassade fält med samma formatering kan du lägga till 
 
 Det här är till exempel en e-postmall som innehåller en referens till ett anpassat fält med namnet Leveransdatum, och det förutsätts att fältet Leveransdatum tillhör en uppgift.
 
-Ersätt `<your domain>` med företagets Workfront-domän, utan hakparenteser:
+Ersätt `<your domain>` med ditt företags Workfront-domän, utan hakparenteser:
 
 ```html
 <html>
@@ -206,7 +206,7 @@ Ersätt `<your domain>` med företagets Workfront-domän, utan hakparenteser:
 
 Om du vill redigera en e-postmall för en påminnelse om ett sent projekt bör du ta hänsyn till den här informationen för fälten Ämne och Innehåll.
 
-Ersätt `<your domain>` med företagets Workfront-domän, utan hakparenteser.
+Ersätt `<your domain>` med ditt företags Workfront-domän, utan hakparenteser.
 
 **Ämne:**
 
@@ -242,9 +242,9 @@ Du kan också skapa en påminnelseavisering för en kommande uppgift eller ett k
 
 Följande kod kan inkluderas i en e-postmall som används för uppgifter och för att skicka påminnelsemeddelanden som skickas ett valfritt antal dagar före det planerade startdatumet för uppgiften eller utgåvan.
 
-Ersätt `<your domain>` med företagets Workfront-domän, utan hakparenteser.
+Ersätt `<your domain>` med ditt företags Workfront-domän, utan hakparenteser.
 
-Ändra `/task/view.` värdet i länken till arbetsposten till `/issue/view`.
+Om du vill använda det här för ett e-postmeddelande för ett problem ändrar du värdet `/task/view.` i länken till arbetsobjektet till `/issue/view`.
 
 **Ämne:**
 
@@ -289,4 +289,4 @@ Ersätt `<your domain>` med företagets Workfront-domän, utan hakparenteser.
 
 ![email_template_delivery.png](assets/email-template-delivered.png)
 
-När en e-postmall har skapats kan användare associera den med påminnelsemeddelanden enligt beskrivningen i [Ställ in påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+När en e-postmall har skapats kan användare associera den med påminnelsemeddelanden, vilket beskrivs i [Konfigurera påminnelsemeddelanden](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).

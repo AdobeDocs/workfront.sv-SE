@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -84,15 +84,15 @@ Följande prioriteter kan användas för att rangordna projekt i Adobe Workfront
 
 * **Fältet Projektprioritet**: Du kan tilldela en prioritet till ett projekt manuellt. I den här artikeln beskrivs hur du manuellt tilldelar en prioritet till ett projekt.
 
-  Mer information finns i avsnittet [Överväganden om projektprioritet](#considerations-about-project-priority) i den här artikeln.
+  Mer information finns i avsnittet [Att tänka på när det gäller projektprioritet](#considerations-about-project-priority) i den här artikeln.
 
-* **Ett projekts prioritet i Portfolio-optimering**, om projektet är kopplat till en portfölj:
+* **Prioriteten för ett projekt i Portfolio Optimizer**, om projektet är associerat med en portfölj:
 
   Mer information om prioriteten för ett projekt i Portfolio-optimering finns i artikeln [Prioritera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* **Projektets prioritet i resursplaneraren**: Du kan prioritera projekt manuellt i resursplaneraren för att ange vilka projekt som ska få resurser först.
+* **Prioriteten för ett projekt i resursplaneraren**: Du kan prioritera projekt manuellt i resursplaneraren för att ange vilka projekt som ska få resurser först.
 
-  Mer information om hur du prioriterar projekt i resursplaneraren finns i avsnittet Projektplaneringsprioritet i artikeln [Översikt över navigering i resursplanering](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+  Mer information om hur du prioriterar projekt i resursplaneraren finns i avsnittet om projektplaneringsprioritet i artikeln [Navigeringsöversikt för resursplanering](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Överväganden om projektprioritet {#considerations-about-project-priority}
 
@@ -111,17 +111,17 @@ Tänk på följande när du väljer en prioritet för dina projekt:
 * Uppgifter och frågor har också prioritet, men uppgifter, utgåvor och projektprioriteringar fungerar oberoende av varandra och påverkar inte automatiskt varandra. Du kan ha ett problem med hög prioritet eller en åtgärd med medelhög prioritet i ett projekt med låg prioritet.
 * Du kan uppdatera prioriteten för projekt i följande områden i Workfront:
 
-   * I **Redigera projekt** -dialogrutan.
-   * I **Projektinformation** -fliken i ett projekt.
+   * I dialogrutan **Redigera projekt** .
+   * På fliken **Projektinformation** i ett projekt.
    * I en projektlista eller rapport.
 
 ## Uppdatera fältet för projektprioritet
 
 1. Gå till det projekt vars prioritet du vill uppdatera.
-1. Klicka **Projektinformation** till vänster.
-1. Klicka på **Redigera** icon ![](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Ökning**.
+1. Klicka på **Projektinformation** i den vänstra panelen.
+1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png) i det övre högra hörnet av området Projektinformation och klicka sedan på **Översikt**.
 
-1. I **Prioritet** väljer du bland följande alternativ:
+1. Välj bland följande alternativ i fältet **Prioritet**:
 
    * Ingen
    * Låg
@@ -134,6 +134,6 @@ Tänk på följande när du väljer en prioritet för dina projekt:
 
    ![](assets/project-priority-picker-list-on-project-details-nwe-350x192.png)
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Du måste kommunicera med andra användare och förstå vad varje prioritetsnivå betyder för projektet.

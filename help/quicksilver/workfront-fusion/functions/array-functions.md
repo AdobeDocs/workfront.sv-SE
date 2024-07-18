@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
    <td> 
-   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>Aktuell: Inga [!DNL Workfront Fusion]-licenskrav.</p> 
    <p>eller</p> 
    <p>Äldre: Alla </p> 
    </td>  
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Planen [!DNL Workfront Fusion] ingår.</li></ul> 
    <p>eller</p> 
    <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -52,9 +52,9 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody>  
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Funktioner
 
@@ -67,7 +67,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 * [ta bort](#remove-array-value1-value2)
 * [lägg till](#add-array-value1-value2)
 * [map](#map-complex-array-keykey-for-filteringpossible-values-for-filtering)
-* [blanda]
+* [Blanda]
 * [sortera](#sort-array-order-key)
 * [reversera](#reverse-array)
 * [lägga](#flatten-array)
@@ -131,7 +131,7 @@ Mer information finns i [Mappa information från en modul till en annan i [!UICO
 
 ### [!UICONTROL sort (array; [order]; [key])]
 
-Sorterar värden i en array. Giltiga värden för `order` parametern är:
+Sorterar värden i en array. Giltiga värden för parametern `order` är:
 
 * `asc`
 
@@ -149,7 +149,7 @@ Sorterar värden i en array. Giltiga värden för `order` parametern är:
 
   skiftlägesokänslig fallande ordning: ..., C, c, B, b, A, a för text.
 
-Använd `key` -parameter för att komma åt egenskaper inuti komplexa objekt.
+Använd parametern `key` för att komma åt egenskaper i komplexa objekt.
 
 Använd råa variabelnamn för nycklar.
 
@@ -187,7 +187,7 @@ Skapar en ny array med alla underarrayelement sammanfogade rekursivt, upp till d
 
 ### [!UICONTROL distinct (array; [key])]
 
-Tar bort dubbletter inuti en array. Använd &quot;[!UICONTROL key]-argument för att komma åt egenskaper inuti komplexa objekt. Använd punktnotation om du vill komma åt kapslade egenskaper. Det första objektet i en array är index 1.
+Tar bort dubbletter inuti en array. Använd argumentet [!UICONTROL key] för att komma åt egenskaper i komplexa objekt. Använd punktnotation om du vill komma åt kapslade egenskaper. Det första objektet i en array är index 1.
 
 >[!INFO]
 >
@@ -221,13 +221,13 @@ Den här funktionen konverterar en samling till en array med nyckelvärdepar.
 
 Returnerar skillnaden mellan två arrayer.
 
-Ange ett av följande värden för `mode` parameter.
+Ange ett av följande värden för parametern `mode`.
 
 * `classic`: Returnerar en ny array som innehåller alla element i `array1` som inte finns i `array2`.
 
 * `symmetric`: Returnerar en array med element som inte är gemensamma för båda arrayerna.
 
-  Funktionen returnerar med andra ord en array som innehåller alla element i `array1` som inte finns i `array2`och alla element i `array2` som inte finns i `array1`.
+  Funktionen returnerar med andra ord en array som innehåller alla element i `array1` som inte finns i `array2` och alla element i `array2` som inte finns i `array1`.
 
   >[!INFO]
   >

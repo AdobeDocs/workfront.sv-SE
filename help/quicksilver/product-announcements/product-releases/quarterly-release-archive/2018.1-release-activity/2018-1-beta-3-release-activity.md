@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.1 Beta 3 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 3-versionen. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 7 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i början av 2018.
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i version 2018.1 av Beta 3. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 7 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i början av 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2018.1 Beta 3 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 3-versionen. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 7 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i början av 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i version 2018.1 av Beta 3. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 7 januari 2018. Den kommer att göras tillgänglig i produktionsmiljön i början av 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för 2018.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Beta 3-versionen från 2018.1 innehåller förbättringar för både Workfront-administratörer och andra användare:
+2018.1 Beta 3 innehåller förbättringar för både Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -33,9 +33,9 @@ Beta 3-versionen från 2018.1 innehåller förbättringar för både Workfront-a
 **För alla användare**
 
 * [Förbättringar av korrekturläsaren för HTML5](#html5-proofing-viewer-improvements)
-* [Förbättringar av korrektur i Workfront](#proofing-improvements-within-workfront)
+* [Korrekturförbättringar i Workfront](#proofing-improvements-within-workfront)
 * [Förbättringar av hemområdet](#home-area-improvements) 
-* [Flexibla förbättringar](#agile-improvements)
+* [Agile Improvements](#agile-improvements)
 * [Förbättringar av Gantt-schema](#gantt-chart-improvements)
 * [Förbättringar av resursplanering](#resource-planner-improvements)
 
@@ -52,7 +52,7 @@ När du återställer lösenordet för en annan användare uppmanas du som grupp
 
 Mer information om hur du återställer lösenord för andra användare finns i [Redigera en användares profil](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Mer information om en gruppadministratörs funktioner finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Mer information om funktionerna för en gruppadministratör finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Alternativ för åtkomstnivåinställningar för gruppadministratörer {#access-level-setup-options-for-group-administrators}
 
@@ -60,7 +60,7 @@ Som Workfront-administratör kan du nu styra om gruppadministratörer kan logga 
 
 Mer information om hur du konfigurerar åtkomstnivå för användare finns i [Bevilja åtkomst för användare](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-Mer information om en gruppadministratörs funktioner finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Mer information om funktionerna för en gruppadministratör finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Skapa tidrapportprofiler för grupper {#create-timesheet-profiles-for-groups}
 
@@ -70,15 +70,15 @@ Före den här ändringen kunde bara en Workfront-administratör skapa tidrappor
 
 Mer information om hur du skapar tidrapportprofiler finns i [Skapa, redigera och tilldela tidrapportprofiler](../../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Mer information om en gruppadministratörs funktioner finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Mer information om funktionerna för en gruppadministratör finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 ### Återställ borttagna objekt för användare som gruppadministratör {#recover-deleted-items-for-users-as-a-group-administrator}
 
 Om ett projekt är kopplat till en grupp som du är gruppadministratör för, kan du återställa projektet eller någon av dess borttagna uppgifter, utleveranser eller dokument från Papperskorgen. Före den här ändringen kunde bara en Workfront-administratör återställa objekt från papperskorgen.
 
-Mer information om hur du återställer borttagna objekt i Workfront finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Mer information om hur du återställer borttagna objekt i Workfront finns i [Återställa borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-Mer information om en gruppadministratörs funktioner finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Mer information om funktionerna för en gruppadministratör finns i avsnittet &quot;Capabilities of group administrators&quot; i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
 ## Förbättringar av korrekturläsaren för HTML5  {#html5-proofing-viewer-improvements}
 
@@ -121,17 +121,17 @@ Mer information finns i .
 
 ## Förbättringar av korrektur i Workfront {#proofing-improvements-within-workfront}
 
-* [Länka korrektur från Workfront Korrektur till Workfront](#link-proofs-from-workfront-proof-to-workfront)
+* [Länka korrektur från Workfront Proof till Workfront](#link-proofs-from-workfront-proof-to-workfront)
 * [Kan inte längre ta bort ett korrektur från ett dokument](#can-no-longer-remove-a-proof-from-a-document)
 * [Uppdaterad look och känsla vid generering och öppning av korrektur](#updated-look-and-feel-when-generating-and-opening-proofs)
 
-### Länka korrektur från Workfront Korrektur till Workfront {#link-proofs-from-workfront-proof-to-workfront}
+### Länka korrektur från Workfront Proof till Workfront {#link-proofs-from-workfront-proof-to-workfront}
 
-Nu kan du länka dokumentkorrektur som redan finns i ditt Workfront-korrekturkonto till Workfront.
+Nu kan du länka dokumentkorrektur som redan finns i ditt Workfront Proof-konto till Workfront.
 
 Före den här ändringen kunde du inte komma åt korrektur som redan fanns i Workfront Proof i Workfront. 
 
-Mer information finns i [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) in [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Mer information finns i [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md) i [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ### Kan inte längre ta bort ett korrektur från ett dokument {#can-no-longer-remove-a-proof-from-a-document}
 
@@ -139,7 +139,7 @@ Du kan inte längre ta bort ett korrektur från ett dokument. Om du vill ta bort
 
 Den här förbättringen minskar risken för att användare oavsiktligt tar bort alla versioner av ett korrekturdokument. 
 
-Mer information om hur du tar bort ett dokument finns i [Ta bort ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md) in [Ta bort ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md).
+Mer information om hur du tar bort ett dokument finns i [Ta bort ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md) i [Ta bort ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md).
 
 ### Uppdaterad look och känsla vid generering och öppning av korrektur {#updated-look-and-feel-when-generating-and-opening-proofs}
 
@@ -158,7 +158,7 @@ Nu kan du visa korrekturgodkännanden på Hem-området, förutom standardgodkän
 
 Tidigare kunde du visa Workfront-godkännanden, men du kunde inte visa godkännanden för ett korrektur.  
 
-Mer information finns i [Använda området Hem](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Mer information finns i [Använda hemområdet](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ### Standardfält visas när layoutmallen för objekt i hemområdet konfigureras {#default-fields-are-displayed-when-configuring-the-layout-template-for-items-in-the-home-area}
 
@@ -168,9 +168,9 @@ Mer information finns i&quot;Skapa och hantera layoutmallar&quot;.
 
 ## Flexibla förbättringar {#agile-improvements}
 
-* [Lägg till uppgifter och problem i iterationen direkt från sidan Aktivitets- eller Ärendeinformation](#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page)
+* [Lägg till aktiviteter och problem i iterationen direkt från aktivitets- eller ärendeinformationssidan](#add-tasks-and-issues-to-the-iteration-directly-from-the-task-or-issue-details-page)
 * [Inkludera problem i Scrum Backlog och Story Board för ett Agile Team](#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team)
-* [Använda grupperingar och filter i eftersläpningen för ett Agile-team](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
+* [Använd grupperingar och filter i eftersläpningen för ett Agile Team](#apply-groupings-and-filters-to-the-backlog-for-an-agile-team)
 * [Skapa en tom iteration och uppdatera den senare](#create-a-blank-iteration-and-update-it-later)
 * [Fälten &quot;Fokus&quot; och &quot;Capacity&quot; fylls i i förväg när en interaktion skapas](#the-focus-and-capacity-fields-are-pre-populated-when-creating-an-iteration)
 
@@ -180,7 +180,7 @@ Nu kan du lägga till uppgifter och ärenden som för närvarande är tilldelade
 
 Tidigare kunde du bara lägga till uppgifter i en iteration från efterloggen. 
 
-Mer information finns i [Skapa en iteration](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) in [Skapa en iteration](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+Mer information finns i [Skapa en iteration](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) i [Skapa en iteration](../../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
 
 ### Inkludera problem i Scrum Backlog och Story Board för ett Agile Team {#include-issues-on-the-scrum-backlog-and-story-board-for-an-agile-team}
 
@@ -196,7 +196,7 @@ Grupperings- och filteralternativen är nu tillgängliga i den flexibla eftersl�
 
 Före den här ändringen kan du tillämpa på vyer på den flexibla eftersläpningen.
 
-Mer information finns i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Mer information finns i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) i  [Hantera den flexibla eftersläpningen](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Skapa en tom iteration och uppdatera den senare {#create-a-blank-iteration-and-update-it-later}
 
@@ -221,13 +221,13 @@ Mer information finns i [Skapa en iteration](../../../../agile/use-scrum-in-an-a
 
 När du aktiverar redigeringsläget i Gantt-diagrammet kan du ändra informationen i diagrammet. Det gick inte att redigera informationen i Gantt-diagrammet före den här ändringen. Du kan bara redigera uppgiftsinformation i uppgiftslistan.
 
-Mer information om hur du redigerar Gantt-schemat finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Mer information om hur du redigerar Gantt-schemat finns i [Uppdatera information i Gantt-schemat för uppgiftslistan](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ### Ta bort föregående när Gantt-schemat redigeras {#remove-predecessors-when-editing-the-gantt-chart}
 
 Med redigeringsläget för Gantt-schemat kan du nu ta bort tidigare relationer mellan aktiviteter i Gantt-schemat för ett projekt. Före den här förbättringen kan du ta bort den föregående relationen endast i uppgiftslistan eller på aktivitetsnivån.
 
-Mer information om hur du redigerar Gantt-schemat finns i [Uppdatera information i Gantt-schema för uppgiftslista](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
+Mer information om hur du redigerar Gantt-schemat finns i [Uppdatera information i Gantt-schemat för uppgiftslistan](../../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
 
 ## Förbättringar av resursplanering {#resource-planner-improvements}
 
@@ -243,10 +243,10 @@ Mer information om hur du redigerar Gantt-schemat finns i [Uppdatera information
 
 Du kan nu budgetera dina resurser i resursplaneraren för valfritt datum, inom eller utanför projektets tidsram. Före den här förbättringen kunde du bara budgetera dina resurser för datum inom projektets tidsram.
 
-Mer information om budgeteringsresurser i resursplaneraren finns i avsnittet Budgeteringsresurser i resursplaneraren i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om budgeteringsresurser i resursplaneraren finns i avsnittet Budgeteringsresurser i resursplaneraren i [Översikt över resursplaneraren](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ### Visa data efter kostnad i resursplaneraren {#show-data-by-cost-in-the-resource-planner}
 
 Du kan nu visa informationen i resursplaneraren efter kostnad, förutom timvärden och FTE-värden. Du kan visa kostnader i resursplaneraren när du visar dem i vyerna Visa efter projekt eller Visa efter roll. Du kan inte visa kostnader när du visar resursplaneraren i vyn Visa efter användare.
 
-Mer information om hur du visar resursplaneraren efter timmar, FTE eller kostnadsvärden finns i [Översikt över navigering i resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om hur du visar resursplaneraren efter timmar, FTE eller kostnadsvärden finns i [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).

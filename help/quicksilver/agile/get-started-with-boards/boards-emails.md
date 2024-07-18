@@ -41,13 +41,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ange inställningar för e-postmeddelanden från anslagstavlor
 
 {{step1-to-boards}}
 
-1. Klicka [!UICONTROL **Inställningar**] på panelernas kontrollpanel.
+1. Klicka på [!UICONTROL **Inställningar**] på instrumentpanelen för paneler.
 1. Välj om du vill få e-post för att ha lagts till på en anslagstavla och tilldelats ett kort.
 
    ![E-postinställningar för anslagstavlor](assets/boards-email-preferences.png)

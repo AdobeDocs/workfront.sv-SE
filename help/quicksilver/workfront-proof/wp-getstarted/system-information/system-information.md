@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
-title: Systeminformation i [!DNL Workfront Proof]
+title: Systeminformation i  [!DNL Workfront Proof]
 description: Läs mer om systeminformation i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Testmiljö för förhandsgranskning av sandlådor - [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [Språkinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
-* [Kodekar i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)
+* [Testmiljö för förhandsgranskning av sandlåda -  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+* [Språkinställningar i  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [Kodekar i  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

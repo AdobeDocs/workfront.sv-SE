@@ -17,9 +17,9 @@ ht-degree: 0%
 
 När du skapar ett team blir du som standard teamägare.
 
-Du kan visa teamägare för alla team när du skapar en rapport för team och inkluderar [!UICONTROL Owner Name] i rapporten. (Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Du kan visa teamägare för alla team när du skapar en rapport för team och inkludera fältet [!UICONTROL Owner Name] i rapporten. (Mer information om hur du skapar en rapport finns i [Skapa en anpassad rapport](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
 
-För information om hur [!DNL Adobe Workfront] kan administratören skapa ett team från [!UICONTROL Setup] område, se [Skapa ett team från [!UICONTROL Setup] area](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Information om hur en [!DNL Adobe Workfront]-administratör kan skapa ett team från [!UICONTROL Setup]-området finns i [Skapa ett team från [!UICONTROL Setup]-området](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Åtkomstkrav
 
@@ -42,43 +42,43 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Skapa ett team
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
 
-1. Klicka på **[!UICONTROL Switch Teams]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan klicka **[!UICONTROL Create New Team]**.
+1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt ikon för team](assets/switch-team-icon.png) och klicka sedan på **[!UICONTROL Create New Team]**.
 
    ![Välj Skapa nytt team.](assets/create-new-team-350x198.png)
 
-1. I **[!UICONTROL New Team]** anger du följande information i rutan som visas:
+1. Ange följande information i rutan **[!UICONTROL New Team]** som visas:
 
-   * **[!UICONTROL Team Name]:** Skriv ett namn för det nya teamet.
-   * **[!UICONTROL Group]**: Om du vill tilldela gruppen till en associerad grupp börjar du skriva namnet på gruppen och väljer sedan namnet när den visas.
+   * **[!UICONTROL Team Name]:** Ange ett namn för det nya teamet.
+   * **[!UICONTROL Group]**: Om du vill tilldela teamet till en associerad grupp börjar du skriva namnet på gruppen och väljer sedan namnet när det visas.
 
-      Du kan se till att du associerar rätt grupp med teamet genom att hålla markören över gruppen och klicka på informationsikonen ![](assets/info-icon.png) som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.
+     Du kan kontrollera att du associerar rätt grupp med gruppen genom att hålla markören över den och klicka på informationsikonen ![](assets/info-icon.png) som visas bredvid den. Här visas ett verktygstips med information om gruppen, till exempel hierarkin för grupper ovanför och dess administratörer.
 
-      >[!NOTE]
-      >
-      >När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team ![Byt ikon för team](assets/switch-team-icon.png) för att lista alla team som har tilldelats de grupper som de hanterar.
+     >[!NOTE]
+     >
+     >När ett team tilldelas till en grupp eller undergrupp kan alla gruppadministratörer i den gruppen eller undergruppen hantera teamet utan att vara medlem i det. Gruppadministratörer kan gå till Teams-området från huvudmenyn och klicka på pilen Byt team ![Byt ikon](assets/switch-team-icon.png) för att lista alla team som har tilldelats de grupper som de hanterar.
 
    * **[!UICONTROL This is an Agile Team]:** Välj det här alternativet om du vill konfigurera det nya teamet så att det blir ett smidigt team.
 
-      Mer information om flexibla team finns på [Skapa ett smidigt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Mer information om flexibla team finns i [Skapa ett flexibelt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
    * **[!UICONTROL Team Members]:** Börja skriva namnet på en användare som ska läggas till i teamet och markera sedan namnet när det visas i listrutan.
 
-      Upprepa den här processen om du vill lägga till flera användare i teamet.
+     Upprepa den här processen om du vill lägga till flera användare i teamet.
 
-      Det finns ingen gräns för hur många användare du kan lägga till i ett team. Vi rekommenderar dock att du inte har ett alltför stort antal användare i ett team eftersom din arbetshantering kan bli alltför komplex för dessa team.
+     Det finns ingen gräns för hur många användare du kan lägga till i ett team. Vi rekommenderar dock att du inte har ett alltför stort antal användare i ett team eftersom din arbetshantering kan bli alltför komplex för dessa team.
 
    * **[!UICONTROL Description]:** Skriv en beskrivning för teamet.
 
-      Beskrivningen visas längst upp till höger i Teams-området när teamet är valt.
+     Beskrivningen visas längst upp till höger i Teams-området när teamet är valt.
 
-      >[!NOTE]
-      >
-      >Om beskrivningen är lång kan du klicka på den för att visa den fullständiga beskrivningen i ett popup-fönster. Om du har behörighet att redigera gruppinställningarna kan du även redigera beskrivningen direkt i popup-fönstret.
+     >[!NOTE]
+     >
+     >Om beskrivningen är lång kan du klicka på den för att visa den fullständiga beskrivningen i ett popup-fönster. Om du har behörighet att redigera gruppinställningarna kan du även redigera beskrivningen direkt i popup-fönstret.
 
 1. Klicka på **[!UICONTROL Create]**.

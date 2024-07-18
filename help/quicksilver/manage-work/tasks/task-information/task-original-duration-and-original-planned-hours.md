@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Som en del av planeringen av ett projekt bör du fastställa värdena för Plane
 
 Mer information om planerade timmar för uppgifter finns i [Översikt över planerade timmar](../../../manage-work/tasks/task-information/planned-hours.md).
 
-Mer information om aktivitetsvaraktighet finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Mer information om aktivitetens varaktighet finns i [Översikt över aktivitetens varaktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 Du kan se dessa värden på fliken Uppgiftsinformation eller när du redigerar en uppgift.
 
@@ -52,7 +52,7 @@ Om två uppgifter till exempel är fristående är deras ursprungliga varaktighe
 
 ![original_planning_hours_and_duration_without_parent.png](assets/original-planned-hours-and-duration-without-parent-350x38.png)
 
-När den första aktiviteten blir överordnad den andra aktiviteten fylls fälten Ursprunglig varaktighet och Ursprunglig planerad timme i med värdena för Varaktighet och Planerad timme för aktiviteten innan den blev överordnad. Ursprunglig varaktighet visas i minuter. Längden och de planerade timmarna för det underordnade blir den överordnade och den överordnade.
+När den första aktiviteten blir överordnad den andra aktiviteten fylls fälten Ursprunglig varaktighet och Ursprunglig planerad timme i med värdena för Varaktighet och Planerad timme för aktiviteten innan den blev överordnad. Ursprunglig varaktighet visas i minuter. Längden och de planerade timmarna för barnet blir den överordnade personens varaktighet och planerade timmar.
 
 ![original_and_planning_hours_with_a_parent_task.png](assets/original-and-planned-hours-with-a-parent-task-350x38.png)
 

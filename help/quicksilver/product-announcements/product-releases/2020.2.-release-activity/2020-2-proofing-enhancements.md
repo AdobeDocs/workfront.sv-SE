@@ -18,7 +18,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla korrekturförbättringar som gjorts i 2020.2-versionen av produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 maj 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.2 finns på [Översikt över version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.2 finns i [2020.2 versionsöversikt](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## Korrekturdomänen ändras från proofhq.com till workfront.com.
 
@@ -30,11 +30,11 @@ Om din brandvägg eller e-postserver är konfigurerad att endast tillåta åtkom
 
 &#42;.workfront.com
 
-The &#42;proofhq.com URL krävs fortfarande.
+URL:en för &#42;proofhq.com krävs fortfarande.
 
-Mer information om hur du uppdaterar tillåtelselista finns i [Konfigurera brandväggens tillåtelselista](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Mer information om hur du uppdaterar tillåtelselista finns i [Konfigurera tillåtelselista för brandväggen](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-Den här uppdateringen gäller endast för korrektur i Workfront. Den gäller inte om du använder det fristående programmet Workfront Proof.
+Den här uppdateringen gäller endast för korrektur i Workfront. Den gäller inte när du använder Workfront Proof fristående program.
 
 ## Granska korrekturkommentarer från gäster visas i uppdateringsområdet
 

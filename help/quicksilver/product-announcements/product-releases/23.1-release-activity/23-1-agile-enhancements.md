@@ -41,7 +41,7 @@ Datummappning gäller även anslutna checklisteobjekt som synkroniseras med unde
 
 Förfallodatumet på både anslutna kort och ad hoc-kort innehåller nu även ett tidsfält.
 
-Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
@@ -55,7 +55,7 @@ När du lägger till ett anslutet kort till en anslagstavla för en Workfront-up
 
 Objekt och underaktiviteter i checklistor länkades inte tidigare. Om du vill ta med en underuppgift på anslagstavlan kan du importera den som ett separat anslutet kort eller manuellt lägga till ett checklisteobjekt på ett kort.
 
-Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) och [Hantera checklisteobjekt på kort](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) och [Hantera checklisteobjekt på kort](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
@@ -67,7 +67,7 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 Det finns en ny konfigurationsinställning för att aktivera korträknare för alla kolumner på en anslagstavla. Om du använder PIA-gränsen för en kolumn läggs ingen separat korträknare till.
 
-Mer information finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Mer information finns i [Hantera kortpanelskolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 ## Söka och sortera på panelkontrollpanelen
 
@@ -87,9 +87,9 @@ Mer information finns i [Använda panelkontrollpanelen](/help/quicksilver/agile/
 
 Om ett kort på en anslagstavla har tilldelats en status, visas nu statusen på kortet så att du inte behöver öppna kortet för att se statusen. Den här förbättringen gäller för både ad hoc-kort och anslutna kort.
 
-Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) och [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Mer information finns i [Använd anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) och [Lägg till ett ad hoc-kort på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-![kortets status](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
+![status på kortet](/help/quicksilver/product-announcements/product-releases/assets/boards-connected-card-details-110922.png)
 
 ## Länkbara kort finns nu tillgängliga på ritytor
 
@@ -109,7 +109,7 @@ Du kan kopiera den fullständiga URL:en och skicka den till någon annan. De gå
 
 Tidigare var länkar tillgängliga för anslagstavlor men inte för specifika kort.
 
-Mer information om kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information om kort finns i [Lägga till ett ad hoc-kort på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använda anslutna kort på anslagstavlor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Filtrera efter anslutning på anslagstavlor
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön med R1 Preview 5. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 16 mars 2017.
 
-En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-release](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+En lista över alla ändringar som gjorts i R1 finns i [Aktivitetsöversikt för R1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 ## Spåra projektförlopp med en användningsrapport
 
@@ -36,7 +36,7 @@ Mer information om hur du konfigurerar platsen för fliken Utnyttjande finns i&q
 
 Nu kan du ändra en befintlig global godkännandeprocess när du kopplar den globala godkännandeprocessen till ett objekt. De ändringar du gör gäller bara för godkännandeprocessen för objektet där du associerar det.
 
-Mer information finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Associera en ny eller befintlig godkännandeprocess med arbete](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+Mer information finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
 ## Konfigurera rapporter så att det nya Gantt-schemat visas som standard
 
@@ -44,7 +44,7 @@ Du kan konfigurera projekt- och uppgiftsrapporter som du skapar så att det nya 
 
 Mer information om hur du konfigurerar rapporter för att visa det nya Gantt-schemat finns i [Redigera rapportinställningar](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
 
-Mer information om hur du visar Gantt-schemat i projektrapporter och aktivitetsrapporter finns i [Visa information i Gantt-schemat](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot; in [Visa information i Gantt-schemat](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Mer information om hur du visar Gantt-schemat i projektrapporter och aktivitetsrapporter finns i [Visa information i Gantt-schemat](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) i [Visa information i Gantt-schemat](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
 ## Förbättring av papperskorgen: Aktiviteter och underaktiviteter återställs till föregående ordning
 
@@ -52,17 +52,17 @@ När du återställer en uppgift eller en underuppgift efter att den har tagits 
 
 Före den här ändringen återställdes uppgifter och underaktiviteter som återställdes alltid som den senaste uppgiften (antingen i uppgiftslistan eller under den överordnade uppgiften), oavsett i vilken ordning de visades innan de togs bort.
 
-Mer information om hur du återställer objekt i Workfront finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Mer information om hur du återställer objekt i Workfront finns i [Återställa borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Förbättringar av vyn Milstolpe
 
 Följande förbättringar är nu tillgängliga när du visar en projektlista eller en projektrapport i vyn Milstolpe:
 
-* **Konfigurera om förloppsstatus och Procent färdigt ska visas i vyn:** Det finns ett nytt alternativ som gör att du kan konfigurera om Progress Status-ikoner ska visas i vyn Milstolpe. Dessutom kan du konfigurera om informationen Procent färdigt ska visas för projekt och uppgifter.\
-  Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **Konfigurera om förloppsstatus och Procent färdigt ska visas i vyn:** Det finns ett nytt alternativ som gör att du kan konfigurera om förloppsikoner ska visas i milstolpevyn. Dessutom kan du konfigurera om informationen Procent färdigt ska visas för projekt och uppgifter.\
+  Mer information finns i [Använd vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) i [Använd vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Redigera Procent färdigt direkt från vyn Milstolpe:** Nu kan du redigera Procent färdigt i projekt och uppgifter direkt i vyn Milstolpe.\
-  Mer information finns i [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Använda vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
+* **Redigera Procent färdigt direkt från milstolpe-vyn:** Nu kan du redigera Procent färdigt för projekt och uppgifter direkt från milstolpe-vyn.\
+  Mer information finns i [Använd vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) i [Använd vyn Milstolpe](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
 ## Uppdaterat utseende och känsla för flera systemkonfigurationssidor
 
@@ -82,7 +82,7 @@ Utseendet på följande sidor på menyn System i inställningsområdet har uppda
 
 Organisationshuvuden för händelsemeddelanden i området E-postinställningar matchar nu avsnittsrubrikerna som används i området för användarprofilsinställningar.
 
-Mer information om händelsemeddelanden finns i  [Konfigurera händelsemeddelanden för alla i systemet](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Mer information om händelsemeddelanden finns i  [Konfigurera händelseaviseringar för alla i systemet](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Opt out of Instant Notifications: In-Context Digest Configuration
 
@@ -185,8 +185,8 @@ Följande ändringar har lagts till som stöd för den framtida resursplanerings
   >
   >   
   >   
-  * Om du för närvarande kör rapporter om befintliga äldre resurspooler ändras inte de befintliga rapporterna.
-  * Om du vill skapa en ny rapport för de befintliga (jobbrollbaserade) äldre resurspoolerna måste du välja &quot;Äldre resurspooler&quot; som objekt för rapporten.
-  * Om du vill skapa en ny rapport för de nya (användarbaserade) resurspoolerna måste du välja Resurspooler som objekt för rapporten.
+  >   * Om du för närvarande kör rapporter om befintliga äldre resurspooler ändras inte de befintliga rapporterna.
+  >   * Om du vill skapa en ny rapport för de befintliga (jobbrollbaserade) äldre resurspoolerna måste du välja &quot;Äldre resurspooler&quot; som objekt för rapporten.
+  >   * Om du vill skapa en ny rapport för de nya (användarbaserade) resurspoolerna måste du välja Resurspooler som objekt för rapporten.
   >   
   >

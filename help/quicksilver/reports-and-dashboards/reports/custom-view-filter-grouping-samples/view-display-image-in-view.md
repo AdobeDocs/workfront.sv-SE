@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -66,7 +66,6 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >* Undvik att använda bilder som har överförts till Workfront. Eftersom bilder som lagras i Workfront inte är tillgängliga för allmänheten och har en åtkomstnyckel som går ut efter en viss tid, visas dessa bilder inte längre i vyn över tiden.
    >* En bild som sparats på datorn har ingen inbyggd URL. Hitta en webbplats som tillhandahåller bildvärdtjänster och som är värd för din bild där. Din organisation kanske redan har en sådan webbplats.
 
-
 1. Gå till bilden som du sparade i webbläsaren.
 1. Hämta bildens URL genom att göra följande:
 
@@ -74,14 +73,14 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: I used this blog post to document what kind of image we need for this: https://www.canto.com/blog/image-url/ (consulting uses this)) </p>
    -->
 
-   1. Högerklicka och välj **Kopiera bildplats**, eller **Hämta länk**, beroende på webbläsaren. Nu har du URL-adressen för den specifika bilden och kan klistra in den från Urklipp.
+   1. Högerklicka och välj **Kopiera bildplats** eller **Hämta länk**, beroende på webbläsaren. Nu har du URL-adressen för den specifika bilden och kan klistra in den från Urklipp.
    1. Se till att alla med den länken har behörighet att visa bilden genom att bara gå till länken och de behöver ingen inloggning för att komma åt den.
 
-1. Gå till ett projekt och klicka på **Mer** meny ![](assets/more-icon-45x33.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
+1. Gå till ett projekt, klicka på menyn **Mer** ![](assets/more-icon-45x33.png) bredvid namnet på projektet och klicka sedan på **Redigera**.
 
-1. I **URL** lägger du till länken till bilden.
+1. Lägg till länken till bilden i fältet **URL**.
 1. Navigera till en projektvy i en lista eller rapport och anpassa vyn.
-1. Klicka på kolumnrubriken för **Projektnamn** och sedan klicka **Växla till textläge**.
+1. Klicka på kolumnrubriken för **Projektnamn** och klicka sedan på **Växla till textläge**.
 
 1. Lägg till följande kod i kolumnen till den befintliga koden:
 
@@ -135,4 +134,4 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    Bilden du valde ersätter projektnamnet i projektvyn och bilden är en länk till projektet.
 
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.

@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 4 januari 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Uppdateringar av Microsoft 365 Email Connector
 

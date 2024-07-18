@@ -9,7 +9,7 @@ role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '269'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 ## Nya resurser
 
-Det här är en lista över resurser som är nya i API-version 9. En lista över uppdateringar som gjorts för resurserna i version 8 finns på [Uppdateringar av API-version 8](../../wf-api/api/new-api-version-8-updates.md)
+Det här är en lista över resurser som är nya i API-version 9. En lista över uppdateringar av resurserna för version 8 finns på [Uppdateringar av API-version 8](../../wf-api/api/new-api-version-8-updates.md)
 
 **AgileWork**
 
@@ -82,7 +82,7 @@ Det här är en lista över resurser som är nya i API-version 9. En lista över
 
 {style="table-layout:auto"}
 
-**KorrekturFilmetadata**
+**ProofFileMetadata**
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|

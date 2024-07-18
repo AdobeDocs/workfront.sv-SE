@@ -7,9 +7,9 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 420a9c24695f950ad191431ca6c6848b7649f3b1
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2384'
+source-wordcount: '2385'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter </td> 
-   <td> <p>Hantera behörigheter för en mall. </p> <p>Contribute eller högre behörigheter för mallaktiviteten.</p> </td> 
+   <td> <p>Hantera behörigheter för en mall. </p> <p>Contribute eller högre behörigheter för malluppgiften.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,12 +72,12 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 {{step1-to-templates}}
 
 1. Klicka på namnet på en mall för att öppna den.
-1. Klicka **Malluppgifter** till vänster.
+1. Klicka på **Malluppgifter** i den vänstra panelen.
 1. Klicka på namnet på en malluppgift i listan för att öppna malluppgiften.
-1. (Valfritt) Om du vill redigera flera malluppgifter samtidigt markerar du flera malluppgifter och klickar sedan på **Redigera** högst upp i malllistan.
-1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om mallaktivitet** i den vänstra panelen går du till områdena i detaljavsnittet för att redigera information för varje område.
-1. (Valfritt) Klicka på **Komprimera alla** icon ![](assets/collapse-all-icon.png) om du vill komprimera alla områden.
-1. Om du vill redigera information i detaljavsnittet klickar du på **Redigera** icon ![](assets/edit-icon.png)väljer du sedan något av områdena nedan eller klickar på **Redigera alla** för att redigera information i alla områden:
+1. (Valfritt) Om du vill redigera flera malluppgifter samtidigt markerar du flera malluppgifter och klickar sedan på **Redigera** överst i malllistan.
+1. (Villkorligt) Om du vill redigera begränsad information om en malluppgift klickar du på **Information om malluppgift** i den vänstra panelen. Gå sedan till områdena i detaljavsnittet för att redigera information för varje område.
+1. (Valfritt) Klicka på ikonen **Komprimera alla** ![](assets/collapse-all-icon.png) om du vill komprimera alla områden.
+1. Om du vill redigera information i detaljavsnittet klickar du på ikonen **Redigera** ![](assets/edit-icon.png) och väljer sedan något av områdena nedan. Du kan också klicka på **Redigera alla** om du vill redigera information i alla områden:
 
    * Ökning
    * Anpassad Forms
@@ -90,9 +90,9 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
    >
    >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta att redigera alla fält i rutan Redigera malluppgift nedan.
 
-1. (Villkorligt) Om du vill redigera all information om malluppgiften klickar du på **Mer** meny ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på malluppgiften och klicka sedan på **Redigera**.
+1. (Villkorligt) Om du vill redigera all information om mallaktiviteten klickar du på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på mallaktiviteten och sedan på **Redigera**.
 
-   The **Redigera mallaktivitet** visas.
+   Rutan **Redigera mallaktivitet** visas.
 
    >[!TIP]
    >
@@ -112,7 +112,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 ### Ökning {#overview}
 
 1. Börja redigera en malluppgift enligt beskrivningen ovan.
-1. Klicka **Ökning**.
+1. Klicka på **Översikt**.
 
    ![edit_task_overview.png](assets/edit-task-overview-350x438.png)
 
@@ -142,12 +142,12 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
         <li> <p><strong>Låg</strong> </p> </li> 
         <li> <p> <b>Normal</b></p> </li> 
         <li> <p><b>Hög</b> </p> </li> 
-        <li> <p><b>Urgent</b> </p> </li> 
+        <li> <p><b>Brådskande</b> </p> </li> 
        </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om redigeringsprioriteringar finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Skapa och anpassa prioriteringar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Varaktighetstyp</strong> </td> 
-      <td> <p>Den framtida uppgift som skapas från den här mallen kommer att ha den här varaktighetstypen. <br>Varaktighetstyp anger relationen mellan följande:</p> <p>- antal resurser som tilldelats en aktivitet</p> <p>- den totala arbetsinsats som krävs för att slutföra uppgiften</p> <p>- uppgiftens totala varaktighet. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en uppgift finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> <p>Välj bland följande alternativ:</p> 
+      <td> <p>Den framtida uppgift som skapas från den här mallen kommer att ha den här varaktighetstypen. <br>Varaktighetstyp identifierar relationen mellan följande:</p> <p>- antal resurser som tilldelats en aktivitet</p> <p>- den totala arbetsinsats som krävs för att slutföra uppgiften</p> <p>- uppgiftens totala varaktighet. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> <p>Välj bland följande alternativ:</p> 
        <ul> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Beräknad tilldelning</span> </p> </li> 
         <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Beräknat arbete</span> </p> </li> 
@@ -157,32 +157,32 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Varaktighet</strong> </td> 
-      <td> <p>Ange varaktigheten för framtida uppgifter i minuter, timmar, dagar, veckor eller månader. Den framtida uppgift som skapas från den här mallen har den varaktighet som anges här.</p> <p>Som standard mäter Workfront Varaktighet i dagar. Det här är den tid som du tillåter att aktiviteten förblir ofullständig innan den måste slutföras. Du kan inte ange varaktigheten för en aktivitet när <strong>Varaktighetstyp</strong> för uppgiften är <strong>Enkel</strong>eller när <strong>Aktivitetsbegränsning</strong> är <strong>Fasta datum</strong>.</p> <p><b>VIKTIGT</b></p> <p>Varaktighet är vanligtvis den tid som förflyter mellan planerad start och planerad slutförandetid för en mallaktivitet, och av den anledningen påverkar den mallens tidslinje. Detta avgör tidslinjen för det framtida projekt som skapas från mallen. </p> </td> 
+      <td> <p>Ange varaktigheten för framtida uppgifter i minuter, timmar, dagar, veckor eller månader. Den framtida uppgift som skapas från den här mallen har den varaktighet som anges här.</p> <p>Som standard mäter Workfront Varaktighet i dagar. Det här är den tid som du tillåter att aktiviteten förblir ofullständig innan den måste slutföras. Du kan inte ange varaktigheten för en aktivitet när aktivitetens <strong>Varaktighetstyp</strong> är <strong>Enkel</strong> eller när <strong>Aktivitetsbegränsning</strong> är <strong>Fasta datum</strong>.</p> <p><b>VIKTIGT</b></p> <p>Varaktighet är vanligtvis den tid som förflyter mellan planerad start och planerad slutförandetid för en mallaktivitet, och av den anledningen påverkar den mallens tidslinje. Detta avgör tidslinjen för det framtida projekt som skapas från mallen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planerade timmar</strong> </td> 
-      <td> <p>Ange antalet planerade timmar för den framtida aktiviteten i det projekt som skapas med den här mallen. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en uppgift när <strong>Varaktighetstyp</strong> är inställd på <strong>Beräknad tilldelning</strong>. </p> </td> 
+      <td> <p>Ange antalet planerade timmar för den framtida aktiviteten i det projekt som skapas med den här mallen. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen <strong>är inställd på <strong>Beräknat uppdrag</strong>.</strong> </p> </td> 
      </tr>
 
    <tr> 
       <td role="rowheader"><strong>Aktivitetsbegränsning</strong> </td> 
       <td> <p>Aktiviteten i projektet som skapas från den här mallen har den här begränsningen. Uppgiftsbegränsningar identifierar när en uppgift måste slutföras. </p> <p>Välj bland följande alternativ:</p> 
        <ul> 
-        <li><strong>Fasta datum</strong>. Ange en <strong>Planerad start</strong> och <strong>Planerat slutförandedatum.</strong></li> 
-        <li><strong>Måste börja på</strong>. Ange en <strong>Planerat startdatum.</strong></li> 
-        <li><strong>Måste avslutas</strong>. Ange en <strong>Planerat slutförandedatum</strong>.</li> 
+        <li><strong>Fasta datum</strong>. Ange en <strong>planerad start</strong> och ett <strong>planerat slutförandedatum.</strong></li> 
+        <li><strong>måste börja </strong>. Ange ett <strong>planerat startdatum.</strong></li> 
+        <li><strong>Måste avslutas </strong>. Ange ett <strong>planerat slutförandedatum</strong>.</li> 
         <li><strong>Så snart som möjligt</strong> </li> 
         <li><strong>Så sent som möjligt</strong> </li> 
         <li style="font-weight: bold;"><strong>Tidigaste tillgängliga tid</strong> </li> 
         <li style="font-weight: bold;"><strong>Senaste tillgängliga tid</strong> </li> 
-        <li>Börja inte senare än. Ange en <strong>Planerat startdatum</strong>.</li> 
-        <li><strong>Starta tidigast</strong>. Ange en <strong>Planerat startdatum</strong>.</li> 
-        <li><strong>Avsluta senast</strong>. Ange en <strong>Planerat slutförandedatum</strong>.</li> 
-        <li><strong>Avsluta tidigast</strong>. Ange en <strong>Planerat slutförandedatum</strong>.</li> 
+        <li>Börja inte senare än. Ange ett <strong>planerat startdatum</strong>.</li> 
+        <li><strong>Starta inte tidigare än </strong>. Ange ett <strong>planerat startdatum</strong>.</li> 
+        <li><strong>Slutför inte senare än </strong>. Ange ett <strong>planerat slutförandedatum</strong>.</li> 
+        <li><strong>Slutför inte tidigare än </strong>. Ange ett <strong>planerat slutförandedatum</strong>.</li> 
        </ul> <p>Mer information om uppgiftsbegränsning finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span style="font-weight: bold;">Startdag</span><span style="font-weight: normal;"> (Valfritt och villkorligt)</span> </td> 
+      <td role="rowheader"><span style="font-weight: bold;">Startdag</span><span style="font-weight: normal;"> (valfritt och villkorligt)</span> </td> 
       <td> <p> Du kan bara ange startdagen för en malluppgift när aktivitetsbegränsningen är något av följande:</p> 
        <ul> 
         <li>Måste börja på</li> 
@@ -192,7 +192,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
        </ul> <p>Detta motsvarar det datum inom tidslinjen för det framtida projektet då aktiviteten startar. För alla andra begränsningar beräknas startdagen i Workfront baserat på föregående beroende mellan uppgifterna. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Slutförandedagen</strong><span style="font-weight: normal;"> (Valfritt och villkorligt)</span> </td> 
+      <td role="rowheader"><strong>Slutförandedag</strong><span style="font-weight: normal;"> (valfritt och villkorligt)</span> </td> 
       <td> <p> Du kan bara ange slutdagen för en malluppgift när aktivitetsbegränsningen är något av följande:</p> 
        <ul style="list-style-type: circle;"> 
         <li>Måste avslutas</li> 
@@ -208,12 +208,12 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
    eller
 
-   Klicka **Spara ändringar**.
+   Klicka på **Spara ändringar**.
 
 ### Ekonomi {#finance}
 
 1. Börja redigera en uppgift enligt beskrivningen ovan.
-1. Klicka **Ekonomi**.
+1. Klicka på **Ekonomi**.
 
    ![edit_task_Finance.png](assets/edit-task-finance-350x216.png)
 
@@ -228,10 +228,10 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
       <td> <p>Ange kostnadstyp för den framtida aktiviteten. Detta avgör hur Kostnaden för aktiviteten beräknas, baserat på antalet timmar för aktiviteterna. </p> <p>Välj bland följande alternativ:</p> 
        <ul> 
         <li> <p style="font-weight: normal;"><span>Ingen kostnad</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Fast en timme</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Användare per timme</span> </p> </li> 
-        <li> <p style="font-weight: normal;"><span>Roll timvis</span> </p> </li> 
-       </ul> <p>Mer information om att hålla reda på kostnaderna finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
+        <li> <p style="font-weight: normal;"><span>Korrigerad timme</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Användartimme</span> </p> </li> 
+        <li> <p style="font-weight: normal;"><span>Roll varje timme</span> </p> </li> 
+       </ul> <p>Mer information om spårningskostnader finns i <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Spåra kostnader</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Intäktstyp</strong> </td> 
@@ -246,7 +246,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
         <li> <p style="font-weight: normal;">Användarens timma plus fast</p> </li> 
         <li> <p style="font-weight: normal;">Roll timvis plus fast</p> </li> 
         <li> <p style="font-weight: normal;">Fast intäkt</p> </li> 
-       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkt</a>.</p> </td> 
+       </ul> <p>Mer information om att spåra intäkter finns i <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Översikt över fakturering och intäkter</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -255,12 +255,12 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
    eller
 
-   Klicka **Spara ändringar**.
+   Klicka på **Spara ändringar**.
 
 ### Inställningar {#settings}
 
 1. Börja redigera en uppgift enligt beskrivningen ovan.
-1. Klicka **Inställningar**.
+1. Klicka på **Inställningar**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
 
@@ -287,26 +287,26 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
         <li> <p><strong>Ignorera sena varningar</strong> </p> </li> 
         <li> <p><strong>Komplettera automatiskt</strong> </p> </li> 
         <li> <p><strong>Föregående</strong> </p> </li> 
-       </ul> <p>Mer information om spårningsläget för uppgifter finns i <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Översikt över läget Uppgiftsspårning</a>.</p> </td> 
+       </ul> <p>Mer information om spårningsläget för uppgifter finns i <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Översikt över spårningsläget för aktiviteter</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Godkännandeprocess</strong> </td> 
       <td> <p>Välj den godkännandeprocess som du vill associera med malluppgiften. Workfront-administratören måste definiera processer för godkännande av uppgifter på systemnivå innan du kan koppla dem till malluppgifter. <span>En användare med administrativ åtkomst till godkännandeprocesser kan också skapa gruppspecifika godkännandeprocesser.</span> Mer information om hur du skapar godkännandeprocesser finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Skapa en godkännandeprocess för arbetsobjekt</a>.</p> <p>Tänk på följande när du lägger till godkännandeprocesser: </p> 
        <ul> 
        <li>Endast aktiva godkännandeprocesser visas i listan. </li> 
-       <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. Godkännandeprocesser som är kopplade till en annan grupp än mallens visas inte i listan.</p> <p>Viktigt: Om gruppen som är kopplad till mallen ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser</a>. </p> </li> 
-       <li> <p>Om du har lagt till en godkännandeprocess för enstaka användning visas den som&lt;custom&gt;" i det här fältet. Mer information finns i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>--> </li> 
+       <li> <p>Systemomfattande och gruppspecifika godkännandeprocesser visas i listan. Godkännandeprocesser som är kopplade till en annan grupp än mallens visas inte i listan.</p> <p>Viktigt: Om gruppen som är kopplad till mallen ändras blir den gruppspecifika godkännandeprocessen en godkännandeprocess för enstaka användning. Mer information om hur ändringar i projektgruppen eller ändringar i godkännandeprocessen påverkar godkännandeinställningarna finns i <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser</a>. </p> </li> 
+       <li> <p>Om du har lagt till en godkännandeprocess för en enstaka användning visas den som &lt;Anpassad&gt; i det här fältet. Mer information finns i <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associera en ny eller befintlig godkännandeprocess med arbete</a>. </p> <!--<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will be valid only for Classic when they edit the Edit Template box in NWE)</p>--> </li> 
        <li> <p>När malluppgifter gruppredigeras finns följande scenarier:</p> 
        <ul> 
        <li> <p>När du väljer malluppgifter från samma mallgrupp visas både godkännandeprocesser på system- och gruppnivå i det här fältet.</p> </li> 
        <li> <p>När du väljer malluppgifter från olika mallgrupper visas endast godkännandeprocesser på systemnivå i det här fältet.</p> </li> 
-       <li> <p>När någon av malluppgifterna har en enda godkännandeprocess, ersätts den av systemnivån <span>eller godkännandeprocess på gruppnivå</span> du väljer. </p> </li> 
+       <li> <p>När någon av malluppgifterna har en enda godkännandeprocess, ersätts den av den process på systemnivå <span>eller på gruppnivå</span> som du väljer. </p> </li> 
        </ul> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Påminnelsemeddelanden</strong> </td> 
-      <td> <p>Välj vilka påminnelsemeddelanden som du vill bifoga till malluppgiften. De kommer att bifogas till de framtida aktiviteterna i projektet som skapas från den här mallen. Systemadministratören måste konfigurera påminnelsemeddelanden innan du kan välja dem för en uppgift. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a>.</p> </td> 
+      <td> <p>Välj vilka påminnelsemeddelanden som du vill bifoga till malluppgiften. De kommer att bifogas till de framtida aktiviteterna i projektet som skapas från den här mallen. Systemadministratören måste konfigurera påminnelsemeddelanden innan du kan välja dem för en uppgift. Mer information om hur du konfigurerar påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Konfigurera påminnelsemeddelanden</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -315,48 +315,48 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
    eller
 
-   Klicka **Spara ändringar**.
+   Klicka på **Spara ändringar**.
 
 ### Uppdrag {#assignments}
 
 1. Börja redigera en uppgift enligt beskrivningen ovan.
-1. Klicka **Uppdrag**.
+1. Klicka på **Uppdrag**.
 
    ![tilldelningar_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
 
-1. Klicka **Lägg till tilldelad** om du vill lägga till en ny tilldelare till malluppgiften. Du kan tilldela användare, roller eller team till en uppgift. Du kan ha flera tilldelningar för en uppgift. De framtida aktiviteterna tilldelas samma resurser när de skapas från den här malluppgiften.
-1. (Valfritt) Om du har flera tilldelningar väljer du **Ägare** alternativknapp för att ange vilken användare eller roll som ska betraktas som aktivitetsägare eller primär tilldelad. Workfront markerar den första användaren eller jobbrollen som du tilldelar en malluppgift som ägare eller primär tilldelad.
-1. (Villkorligt och valfritt) Om uppgiftsbegränsningen är Beräknad arbets- eller insatsstyrd anger du **Allokering %** (tilldelningsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift.
+1. Klicka på **Lägg till tilldelad** för att lägga till en ny tilldelad till malluppgiften. Du kan tilldela användare, roller eller team till en uppgift. Du kan ha flera tilldelningar för en uppgift. De framtida aktiviteterna tilldelas samma resurser när de skapas från den här malluppgiften.
+1. (Valfritt) Om du har flera tilldelningar markerar du alternativknappen **Ägare** för att ange vilken användare eller roll som betraktas som aktivitetsägare eller primär tilldelad. Workfront markerar den första användaren eller jobbrollen som du tilldelar en malluppgift som ägare eller primär tilldelad.
+1. (Villkorligt och valfritt) Om aktivitetsbegränsningen är Beräknad arbets- eller insatsstyrd anger du **Allokering %** (allokeringsprocent) för varje tilldelad. Det här är den tid från schemat för den tilldelande personen som de kan lägga på den här aktiviteten. Om du ändrar allokeringsprocenten för en tilldelad ändrar du planerad tid för en uppgift.
 1. (Villkorligt och valfritt) Om uppgiftsbegränsningen är enkel anger du **Timmar** för varje tilldelad
 
    eller
 
-   Ange det totala antalet **Planerade timmar** för malluppgiften. Detta fördelar de totala timmarna jämnt mellan alla tilldelningar.
+   Ange det totala antalet **Planerade timmar** för mallaktiviteten. Detta fördelar de totala timmarna jämnt mellan alla tilldelningar.
 
-1. (Villkorligt och valfritt) Om uppgiftsbegränsningen är enkel anger du **Varaktighet** malluppgiften i dagar. Detta blir varaktigheten för den uppgift som skapas från den här mallen.
-1. (Valfritt) Välj en roll i **Uppdragarens roll** listruta. Det är den roll som den som tilldelas kan utföra den här framtida uppgiften. Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.
+1. (Villkorligt och valfritt) Om aktivitetsbegränsningen är enkel anger du **Varaktighet** för mallaktiviteten i dagar. Detta blir varaktigheten för den uppgift som skapas från den här mallen.
+1. (Valfritt) Välj en roll i listrutan **Tilldelningens roll**. Det är den roll som den som tilldelas kan utföra den här framtida uppgiften. Endast de jobbroller som är kopplade till varje tilldelad i deras profil visas i listrutan.
 1. (Valfritt) Fortsätt redigera följande avsnitt, beroende på vilken information du vill ändra.
 
    eller
 
-   Klicka **Spara ändringar**.
+   Klicka på **Spara ändringar**.
 
 ### Anpassad Forms {#custom-forms}
 
-Du kan definiera anpassade standardformulär som automatiskt ska kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du ställer in projektet så att det innehåller anpassade formulär för standarduppgifter finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+Du kan definiera anpassade standardformulär som automatiskt ska kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du konfigurerar projektet så att det innehåller anpassade formulär för standarduppgifter finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 1. Börja redigera en uppgift enligt beskrivningen ovan. test
-1. Klicka **Anpassad Forms**.
+1. Klicka på **Anpassad Forms**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Markera det eller de anpassade formulär som du vill koppla till malluppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). Du kan lägga till upp till tio anpassade formulär i en mallåtgärd. Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
+1. Markera det eller de anpassade formulär som du vill koppla till malluppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan lägga till upp till tio anpassade formulär i en mallåtgärd. Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
 1. (Villkorligt och valfritt) Om du har kopplat ett anpassat formulär till malluppgiften kan du redigera alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara malluppgiften.
 
    >[!NOTE]
    >
    >Beroende på hur din Workfront-administratör anger behörigheter för avsnitten i ditt anpassade formulär kan inte alla visa eller redigera samma fält i ett visst anpassat formulär. Behörigheterna att redigera fält i ett avsnitt i ett anpassat formulär beror på vilka behörigheter du har för malluppgiften eller den framtida uppgiften.\
-   >Mer information om hur du anger behörigheter i avsnitt i ett anpassat formulär finns i [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).\
+   >Mer information om att ange behörigheter för avsnitt i ett anpassat formulär finns i [Dela ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).\
    >Mer information om hur du anger aktivitetsbehörigheter finns i [Dela en uppgift](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).\
    >Mer information om hur du ställer in mallbehörigheter finns i [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
@@ -364,17 +364,17 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 
    eller
 
-   Klicka **Spara ändringar**.
+   Klicka på **Spara ändringar**.
 
 ### Kommentar {#comment}
 
 1. Börja redigera en uppgift enligt beskrivningen ovan.
-1. Klicka **Kommentar**.
+1. Klicka på **Kommentar**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Ange en kommentar som du vill visa i uppdateringsströmmen för malluppgiften i det tillgängliga fältet. Den här kommentaren är synlig för alla som har åtkomst till mallen och malluppgiften och tillgång till vyn Anteckningar.
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Ändringarna skickas för den här malluppgiften.
 

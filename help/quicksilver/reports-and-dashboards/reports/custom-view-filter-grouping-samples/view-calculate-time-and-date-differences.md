@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,16 +73,16 @@ Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Fa
 ![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Gå till en lista med uppgifter.
-1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
+1. Klicka på **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn** och börja skriva &quot;Planerat slutförandedatum&quot; i dialogrutan **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. Klicka på **Lägg till kolumn** och börja skriva &quot;Planerat slutförandedatum&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka **Lägg till kolumn** och börja skriva &quot;Faktiskt slutförandedatum&quot; i dialogrutan **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. Klicka på **Lägg till kolumn** och börja skriva&quot;Faktiskt slutförandedatum&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka **Lägg till kolumn** och sedan klicka **Växla till textläge**.
+1. Klicka på **Lägg till kolumn** och sedan på **Växla till textläge**.
 
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
 
    ```
     displayname=Planned-Actual Completion Date
@@ -93,7 +93,7 @@ Du kan till exempel beräkna skillnaden mellan Planerat slutförandedatum och Fa
     valueformat=HTML
    ```
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.
 
 ## Beräkna tiden och datumskillnaden mellan fältet på ett objekt och ett annat fält på ett överordnat objekt
 
@@ -103,16 +103,16 @@ Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Gå till en lista med uppgifter.
-1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
+1. Klicka på **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn** och börja skriva &quot; Project Planned Completion Date&quot; eller &quot;Parent Completion Date&quot; i **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. Klicka på **Lägg till kolumn** och börja skriva &quot; Project Planned Completion Date&quot; eller &quot;Parent Completion Date&quot; i fältet **Show i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka **Lägg till kolumn** och börja skriva &quot;Planerat slutförandedatum&quot; i dialogrutan **Visa i den här kolumnen** markerar du det när det visas i listan.
+1. Klicka på **Lägg till kolumn** och börja skriva &quot;Planerat slutförandedatum&quot; i fältet **Visa i den här kolumnen** och markera den när den visas i listan.
 
-1. Klicka **Lägg till kolumn** och sedan klicka **Växla till textläge**.
+1. Klicka på **Lägg till kolumn** och sedan på **Växla till textläge**.
 
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med någon av följande koder:
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med någon av följande koder:
 
    * Så här visar du skillnaden mellan projektets planerade slutförandedatum och aktivitetens datum:
 
@@ -131,4 +131,4 @@ Du kan till exempel beräkna skillnaden mellan det planerade slutförandedatumet
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.

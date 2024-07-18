@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Listor i version 2020.1. Dessa förbättringar är för närvarande tillgängliga i förhandsvisningsmiljön och kommer att vara tillgängliga i produktionsmiljön i slutet av mars eller början av april 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.1 finns på [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2020.1 versionsöversikt](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Nytt sparningsläge när du gör ändringar i en uppgiftslista: tidslinjens planeringsläge
 
@@ -30,7 +30,7 @@ Tänk på följande när du använder tidslinjeplaneringsläget för att spara �
 * Det går snabbare att skicka varje ändring än när du använder läget för att spara automatiskt eller manuellt.
 * Du kan ångra ändringarna innan du sparar dem.
 
-Mer information om hur du sparar ändringar i en uppgiftslista finns i avsnittet Redigera uppgifter med planeringsinställningen för tidslinjen i artikeln [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Mer information om hur du sparar ändringar i en uppgiftslista finns i avsnittet Redigera uppgifter med tidslinjens planeringsinställning i artikeln [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 ## Uppdaterat utseende och känsla för nya listor
 

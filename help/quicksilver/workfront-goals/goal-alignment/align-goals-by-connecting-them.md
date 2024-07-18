@@ -86,7 +86,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Justera mål genom att koppla dem till varandra
 
@@ -128,7 +128,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 -->
-1. Skapa två mål som du vill justera. Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+1. Skapa två mål som du vill justera. Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 1. (Valfritt) Aktivera de mål som du vill justera. Du kan justera mål som har statusen Utkast, Aktiv eller Inaktiv. Mer information om hur du aktiverar mål finns i [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md).
 1. Gå till målet som du vill justera (underordnat mål) mot ett annat mål (överordnat mål) och klicka på namnet för att öppna målsidan.
 
@@ -136,17 +136,17 @@ Aligning goals by connecting them differs depending on what environment you use.
    >
    >Om du till exempel vill att mål 2 ska påverka förloppet för mål 1 måste du gå till mål 2.
 
-1. Klicka **Målinformation** till vänster.
+1. Klicka på **Målinformation** i den vänstra panelen.
 
-1. I **Överordnad målinformation** område, klicka **Lägg till** i **Överordnat mål** fält om det inte finns något överordnat mål,
+1. Klicka på **Lägg till** i fältet **Överordnat mål** i området **Överordnad målinformation** om det inte finns något överordnat mål,
 
    eller
 
    Klicka på namnet på det överordnade målet och välj ett annat.
 
-1. Börja skriva namnet på ett befintligt mål i **Överordnat mål** markerar du det när det visas i listan. Endast mål från samma eller kommande perioder visas i listan.
+1. Börja skriva namnet på ett befintligt mål i fältet **Överordnat mål** och markera det sedan när det visas i listan. Endast mål från samma eller kommande perioder visas i listan.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
    Målet som du började med (mål 2) är nu det underordnade målet för det överordnade målet som du justerade det mot (mål 1).\
    De justerade målen visas i avsnittet Måljustering med mål 2 som sekundärt till mål 1.
@@ -154,12 +154,12 @@ Det underordnade målet visas i avsnittet Förloppsindikatorer för det överord
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. (Valfritt) Om du vill visa målen i avsnittet Måljustering går du till målområdet i Workfront och klickar på **Måljustering** i den vänstra panelen. Mer information om måljustering finns i [Navigera i avsnittet Måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. (Valfritt) Om du vill visa målen i avsnittet Måljustering går du till målområdet i Workfront och klickar sedan på avsnittet **Måljustering** i den vänstra panelen. Mer information om avsnittet Måljustering finns i [Navigera i avsnittet Måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 1. (Valfritt) Lägg till aktiviteter och resultat i något av målen för att ange deras framsteg. Mer information om hur du lägger till aktiviteter och resultat finns i följande artiklar:
 
-   * [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
    * [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-1. (Valfritt) Ta bort justeringen mellan två mål när du anser att det inte längre är relevant för organisationens övergripande strategi. Mer information om hur du tar bort justeringen mellan mål finns i [Ta bort måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
+1. (Valfritt) Ta bort justeringen mellan två mål när du anser att det inte längre är relevant för organisationens övergripande strategi. Mer information om hur du tar bort justering mellan mål finns i [Ta bort måljustering i Adobe Workfront-mål](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

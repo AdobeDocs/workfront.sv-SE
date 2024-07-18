@@ -3,13 +3,13 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Dela ett korrektur i Workfront Proof
-description: Om du har redigeringsbehörighet för ett korrektur kan du enkelt dela det med andra granskare. Alla kan läggas till i ett bevis eftersom du inte behöver ha ett [!DNL Workfront Proof] konto för granskning av korrektur.
+description: Om du har redigeringsbehörighet för ett korrektur kan du enkelt dela det med andra granskare. Alla kan läggas till i ett korrektur eftersom du inte behöver ett [!DNL Workfront Proof] konto för att granska korrektur.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -18,25 +18,24 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Om du har redigeringsbehörighet för ett korrektur kan du enkelt dela det med andra granskare. Alla kan läggas till i ett bevis eftersom du inte behöver ha ett [!DNL Workfront Proof] konto för granskning av korrektur.
+Om du har redigeringsbehörighet för ett korrektur kan du enkelt dela det med andra granskare. Alla kan läggas till i ett korrektur eftersom du inte behöver ha ett [!DNL Workfront Proof]-konto för att granska korrektur.
 
-Mer information om redigeringsrättigheter finns i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Mer information om redigeringsrättigheter finns i [Korrekturbehörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 Om du delar ett korrektur genom att lägga till granskare:
 
-* De personer du delar ett korrektur med visas i [!UICONTROL Workflow] på sidan Korrekturinformation i deras konton. Mer information om den här sidan finns i[Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+* De personer som du delar ett korrektur med visas i avsnittet [!UICONTROL Workflow] på sidan med korrekturinformation i sina konton. Mer information om den här sidan finns i [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 * Du kommer att kunna ange deras roll för beviset. Mer information finns i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
-* Du kan ange deras e-postaviseringar. Mer information finns i [Konfigurera e-postaviseringsinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+* Du kan ange deras e-postaviseringar. Mer information finns i [Konfigurera inställningar för e-postmeddelanden i [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
 >[!NOTE]
 >
->* När du lägger till någon i ett korrektur bestämmer du om du vill att de ska meddelas om beviset eller inte. Se [Nytt korrekturmeddelande](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) för mer information.
->* Du kan lägga till vem som helst i ett bevis (förutsatt att de har en giltig e-postadress). De behöver inte ha en [!DNL Workfront Proof] konto!
+>* När du lägger till någon i ett korrektur bestämmer du om du vill att de ska meddelas om beviset eller inte. Mer information finns i [Nytt korrekturmeddelande](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+>* Du kan lägga till vem som helst i ett bevis (förutsatt att de har en giltig e-postadress). De behöver inte ha något [!DNL Workfront Proof]-konto!
 >* Granskarna räknas inte in i användargränsen. Du kan lägga till så många personer i ett korrektur som du vill kostnadsfritt.
 >
-
 
 
 
@@ -44,21 +43,21 @@ Om du delar ett korrektur genom att lägga till granskare:
 
 Du kan lägga till granskare i ett korrektur när du skapar ett nytt korrektur eller överför en ny version av ett korrektur:
 
-1. Skapa korrekturet eller den nya versionen enligt beskrivningen i [Generera korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) och .
-1. På **[!UICONTROL New proof]** sida eller **[!UICONTROL New proof version]** sida, på **[!UICONTROL Workflow]** skriver du e-postadressen till den granskare som du vill lägga till.\
+1. Skapa korrekturet eller den nya versionen enligt beskrivningen i [Skapa korrektur i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) och .
+1. Skriv e-postadressen till den granskare som du vill lägga till i avsnittet **[!UICONTROL New proof]** eller **[!UICONTROL New proof version]** på sidan **[!UICONTROL Workflow]**.\
    Mer information om hur du delar ett korrektur med en grupp finns i [Lägg till grupper i ett korrektur](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).\
    Om du har delat korrektur med den här personen tidigare visas personens e-postadress i listrutan Komplettera automatiskt.\
-   Om du ångrar dig kan du ta bort en granskare från delningslistan genom att klicka på papperskorgen. Du kan enkelt ta bort alla granskare genom att klicka på papperskorgen.
+   Om du ångrar dig kan du ta bort en granskare från delningslistan genom att klicka på papperskorgsikonen. Du kan enkelt ta bort alla granskare genom att klicka på papperskorgen.
 
 1. Slutför korrekturläsningen eller den nya korrekturversionen.
 
 ## Lägga till granskare i ett befintligt korrektur
 
-1. Klicka på knappen **[!UICONTROL More]** till höger om korrekturet.\
+1. Klicka på knappen **[!UICONTROL More]** till höger om korrekturet på kontrollpanelen eller i valfri listvy.\
    ![](assets/more-button-small.png)
 
-1. Klicka **[!UICONTROL Share]** i listrutan.
-1. I **[!UICONTROL Share this version]** som visas lägger du till granskare genom att lägga till deras e-postadresser.\
+1. Klicka på **[!UICONTROL Share]** i listrutan.
+1. På sidan **[!UICONTROL Share this version]** som visas lägger du till granskare genom att lägga till deras e-postadresser.\
    Du kan även göra något av följande:
 
    * Ta bort alla granskare med ett klick (4).

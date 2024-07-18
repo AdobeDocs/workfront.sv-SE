@@ -30,7 +30,7 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 >
 >Varaktigheten för problem i projektet påverkar inte projektets längd.
 
-Projektets längd är antalet dagar mellan de två aktivitetsdatumen baserat på schemat som är associerat med projektet eller de användare som är tilldelade till aktiviteterna. Information om vilket schema Workfront använder för att beräkna varaktighet finns i [Översikt över scheman](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
+Projektets längd är antalet dagar mellan de två aktivitetsdatumen baserat på schemat som är associerat med projektet eller de användare som är tilldelade till aktiviteterna. Mer information om vilket schema Workfront använder för att beräkna varaktighet finns i [Översikt över scheman](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 
 ## Typ av projektvaraktighet
 
@@ -42,15 +42,15 @@ Det finns två typer av projektvaraktighet och formlerna som Workfront använder
 
 * **Planerad varaktighet**: 
 
-   ```
-   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
-   ```
+  ```
+  Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
+  ```
 
-* **Faktisk varaktighet**: 
+* **Verklig varaktighet**: 
 
-   ```
-   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day
-   ```
+  ```
+  Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day
+  ```
 
 ## Leta reda på projektvaraktighet
 
@@ -58,8 +58,8 @@ Du hittar alternativen Projektplanerad och Faktisk varaktighet i följande områ
 
 * . Under Projektinformation i avsnittet Översikt.
 
-   Mer information om underfliken Översikt i ett projekt finns i artikeln [Hantera information i projektöversiktsområdet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+  Mer information om underfliken Översikt för ett projekt finns i artikeln [Hantera information i projektöversiktsområdet](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
 * I en projektrapport genom att inkludera fälten Varaktighet eller Verklig varaktighet i rapporten.
 
-   Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla resurshanteringsförbättringar som gjorts i den andra utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den andra utgåvan av kvartal 2024.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns i [Översikt över den andra utgåvan av kvartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Indikator för manuellt justerade allokeringar i arbetsbelastningsutjämnaren
 
@@ -26,4 +26,4 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Om du vill ha större tydlighet om manuella justeringar eller konturering i Arbetsbelastningsutjämnaren kan du nu visa en pennikon som du justerar timvis.
 
-Mer information finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Mer information finns i [Hantera användartilldelningar i Utjämning av arbetsbelastning](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

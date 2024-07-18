@@ -18,11 +18,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till [!DNL Adobe Admin Console]. Om din organisation har anslutit sig till [!DNL Adobe Admin Console]måste du utföra den här åtgärden via [!DNL Adobe Admin Console].
+>Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Admin Console]. Om din organisation har anslutit sig till [!DNL Adobe Admin Console] måste du utföra den här åtgärden via [!DNL Adobe Admin Console].
 >
->Instruktioner om hur du lägger till en användare i[!DNL  Adobe Admin Console]finns i avsnittet Redigera användarinformation i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console] Administratör.
+>Instruktioner om hur du lägger till en användare i [!DNL  Adobe Admin Console] finns i avsnittet Redigera användarinformation i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Åtkomstkrav
 
@@ -43,32 +43,32 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> 
-     <p>Du måste vara en [!DNL Workfront Fusion] administratör för din organisation.</p>
-     <p>Du måste vara en [!DNL Workfront Fusion] administratör för ditt team.</p>
+     <p>Du måste vara administratör för [!DNL Workfront Fusion] för din organisation.</p>
+     <p>Du måste vara administratör för [!DNL Workfront Fusion] för ditt team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Lägga till användare i en organisation
 
@@ -98,15 +98,15 @@ Om du vill lägga till användare i organisationen måste du vara administratör
 
 Så här lägger du till en användare i organisationen:
 
-1. Navigera till **[!UICONTROL Organizations]** på menyn och välj den organisation som du vill lägga till en användare i.
-1. Öppna **[!UICONTROL Users]** i Dashboard.
-1. Klicka **[!UICONTROL Invite a new user]** fylla i formuläret (E-post, Meddelande, Roll) och skicka inbjudan genom att klicka på **[!UICONTROL Send]**.
+1. Navigera till **[!UICONTROL Organizations]** på menyn och markera den organisation du vill lägga till en användare i.
+1. Öppna fliken **[!UICONTROL Users]** i din instrumentpanel.
+1. Klicka på **[!UICONTROL Invite a new user]**, fyll i formuläret (E-post, Meddelande, Roll) och skicka inbjudan genom att klicka på **[!UICONTROL Send]**.
 
 >[!NOTE]
 >
 >   
->Om du inte ser [!UICONTROL Invite a new user] har din organisation gått med på [!DNL Adobe Business Platform.]
+>Om du inte ser knappen [!UICONTROL Invite a new user] har din organisation anslutit till [!DNL Adobe Business Platform.]
 >
->  Instruktioner om hur du lägger till en användare i en organisation som har anslutit till [!DNL Adobe Business Platform], se [Lägg till användare i [!DNL Adobe Workfront Fusion] via [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+>  Instruktioner om hur du lägger till en användare i en organisation som har anslutit till [!DNL Adobe Business Platform] finns i [Lägg till användare i [!DNL Adobe Workfront Fusion] via  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 Användaren får ett e-postmeddelande med en inbjudan där han/hon kan acceptera inbjudan.

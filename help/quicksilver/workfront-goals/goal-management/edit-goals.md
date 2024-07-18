@@ -77,7 +77,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du redigerar mål
 
@@ -145,7 +145,7 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Mål**.\
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Mål**.\
    En lista med mål visas.
 1. Klicka på ett mål.\
    Målsidan visas.
@@ -154,8 +154,8 @@ Editing goals differs depending on what environment you use.
 
 1. Gör något av följande om du vill redigera information för målet:
    * Klicka på fält som visas i målhuvudet för att uppdatera dem. Alla fält i rubriken kan inte redigeras.
-   * Klicka på **Mer-ikon** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
-   * Klicka **Målinformation** i den vänstra panelen och klicka på **Ikonen Redigera** ![](assets/edit-icon.png) i det övre högra hörnet och klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
+   * Klicka på ikonen **Mer** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Redigera**.
+   * Klicka på **Målinformation** i den vänstra panelen och klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet. Klicka sedan på **Redigera alla**. Börja uppdatera fält i delen Målinformation.
 
      >[!IMPORTANT]
      >
@@ -165,16 +165,16 @@ Editing goals differs depending on what environment you use.
 
    * Uppdatera följande information i målrubriken och tryck sedan på Retur för att spara ändringarna:
       * **Målnamn**: Klicka på målets namn och börja skriva ett nytt namn.
-      * **Ägare**: Klicka på namnet på ägaren och börja skriva namnet på en användare, ett team, en grupp eller ditt företag. Markera sedan namnet när det visas i listan. Du kan bara ha en ägare för ett mål.
+      * **Ägare**: Klicka på ägarnamnet och börja skriva namnet på en användare, grupp, grupp eller ditt företag. Markera sedan namnet när det visas i listan. Du kan bara ha en ägare för ett mål.
    * Uppdatera följande information i rutan Redigera mål och klicka sedan på **Spara**:
       * **Målnamn**
       * **Period**: Klicka för att uppdatera tidsperioden för målet\
         eller\
-        Välj **Aktivera anpassade datum** för att ange datum för målets **Starta** och **Slutdatum**.
+        Välj **Aktivera anpassade datum** om du vill ange datum för målets **start**- och **slutdatum**.
 
         >[!TIP]
         >
-        >Avmarkera **Aktivera anpassade datum** för att återgå till den ursprungliga tidsperioden för målet.
+        >Avmarkera **Aktivera anpassade datum** om du vill återgå till den ursprungliga tidsperioden för målet.
 
       * **Målägare**
       * **Beskrivning**: Lägg till eller uppdatera information om målet.
@@ -182,10 +182,10 @@ Editing goals differs depending on what environment you use.
 
    <!-- (should you update the title here after changing it at production??? - change it to Update goals in the goal Details section)-->
 
-1. (Valfritt) Klicka på **Förloppsindikatorer** i den vänstra panelen för att lägga till resultat, aktiviteter eller projekt till målet. Genom att lägga till förloppsindikatorer kan du se till att du kan spåra målets framsteg.
+1. (Valfritt) Klicka på **Förloppsindikatorer** i den vänstra panelen för att lägga till resultat, aktiviteter eller projekt i målet. Genom att lägga till förloppsindikatorer kan du se till att du kan spåra målets framsteg.
 Mer information finns i följande artiklar:
    * [Lägga till aktiviteter i mål i Adobe Workfront](../results-and-activities/add-activities-to-goals.md)
-   * [Lägga till resultat i mål i Adobe Workfront](../results-and-activities/add-results-to-goals.md).
-   * [Lägg till projekt i mål i Adobe Workfront](../results-and-activities/connect-projects-to-goals-overview.md).
+   * [Lägg till resultat i mål i Adobe Workfront ](../results-and-activities/add-results-to-goals.md).
+   * [Lägg till projekt i mål i Adobe Workfront-mål](../results-and-activities/connect-projects-to-goals-overview.md).
 
 </div>

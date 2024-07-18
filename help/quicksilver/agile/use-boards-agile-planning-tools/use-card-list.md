@@ -50,9 +50,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 {{step1-to-boards}}
 
 1. Om du vill öppna ett arbetsflöde klickar du på [!UICONTROL **Visa arbetsflöde**].
-1. Klicka på [!UICONTROL **Kortlista**] -fliken.
-1. Klicka [!UICONTROL **Lägg till kort**].
-1. I [!UICONTROL **Skapa/redigera kort**] lägger du till följande information:
+1. Klicka på fliken [!UICONTROL **Kortlista**].
+1. Klicka på [!UICONTROL **Lägg till kort**].
+1. Lägg till följande information i dialogrutan [!UICONTROL **Skapa/redigera kort**]:
 
    <table style="table-layout:auto"> 
     <tbody> 
@@ -83,14 +83,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka [!UICONTROL **Spara**].
+1. Klicka på [!UICONTROL **Spara**].
 1. Fortsätt lägga till kort tills du har skapat kortlistan.
 
 ## Visa kort
 
-Om du vill visa alla kort för arbetsflödet i en enda lista klickar du på [!UICONTROL **Listvy**] på fliken Kortlista.
+Om du vill visa alla kort för arbetsflödet i en enda lista klickar du på [!UICONTROL **listvyn**] på fliken Kortlista.
 
-Om du vill visa alla kort för arbetsflödet grupperade efter upprepning klickar du på [!UICONTROL **Iterationsvy**]. Oplanerade kort visas i sin egen grupp.
+Om du vill visa alla kort för arbetsflödet grupperade efter upprepning klickar du på [!UICONTROL **Iterationsvyn**]. Oplanerade kort visas i sin egen grupp.
 
 Om du vill redigera ett befintligt kort markerar du det i listan och klickar på [!UICONTROL **Redigera**].
 
@@ -98,17 +98,17 @@ Om du vill ta bort ett kort markerar du det i listan och klickar på [!UICONTROL
 
 ### Filterkort
 
-Kort kan bara arkiveras från iterationspanelen. När ett kort arkiveras visas det inte i kortlistan om du inte filtrerar för att visa arkiverade kort. Mer information om hur du arkiverar ett kort finns i [Ta bort eller arkivera ett kort från en anslagstavla](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
+Kort kan bara arkiveras från iterationspanelen. När ett kort arkiveras visas det inte i kortlistan om du inte filtrerar för att visa arkiverade kort. Mer information om att arkivera ett kort finns i [Ta bort eller arkivera ett kort från en anslagstavla](/help/quicksilver/agile/get-started-with-boards/delete-board-items.md).
 
 1. Åtkomst till kortlistan för arbetsflödet.
-1. Klicka [!UICONTROL **Filter**] och markera [!UICONTROL **Alla**], [!UICONTROL **Aktiva kort**], eller [!UICONTROL **Arkiverade kort**].
+1. Klicka på [!UICONTROL **Filter**] och välj [!UICONTROL **Alla**], [!UICONTROL **Aktiva kort**] eller [!UICONTROL **Arkiverade kort**].
 
-   När ett annat filter än standardfiltret används i kortlistan visas en indikator på filterikonen ![Filter tillämpat](assets/boards-filterapplied-30x30.png).
+   När ett annat filter än standardfiltret används i kortlistan visas en indikator på filterikonen ![Filter använt](assets/boards-filterapplied-30x30.png).
 
 ### Sök i kortlistan
 
 1. Åtkomst till kortlistan för arbetsflödet.
-1. Klicka [!UICONTROL **Sök**] och skriv ett sökord. Tryck sedan på Enter.
+1. Klicka på [!UICONTROL **Sök**] och skriv en sökterm. Tryck sedan på Enter.
 
    Alla kort som innehåller söktermen visas.
 Klicka på X för att rensa sökningen.
@@ -122,16 +122,16 @@ Klicka på X för att rensa sökningen.
 >Du måste skapa en iteration innan du kan lägga till kort i den. Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
 
 1. Åtkomst till kortlistan för arbetsflödet.
-1. Välj [!UICONTROL **Iterationsvy**] för att se vilka kort som har tilldelats en iteration och som är oplanerade.
+1. Välj [!UICONTROL **iterationsvyn**] för att se vilka kort som har tilldelats en iteration och vilka som är oplanerade.
 1. Välj ett oplanerat kort i listan och klicka på [!UICONTROL **Redigera**].
-1. Välj en iteration i [!UICONTROL **Iterationer**] fält.
-1. Om du använder artikelpunkter anger du ett värde i [!UICONTROL **Uppskattning**] fält.
-1. Klicka [!UICONTROL **Spara**].
+1. Välj en iteration i fältet [!UICONTROL **Iterations**].
+1. Om du använder artikelpunkter anger du ett värde i fältet [!UICONTROL **Beräkning**].
+1. Klicka på [!UICONTROL **Spara**].
 
    Kortet flyttas till iteration och iterationsmåtten visar antalet kort och punkter.
 
-   Du kan också dra och släppa ett kort från gruppen Oplanerade kort i iteration eller klicka på [!UICONTROL **Lägg till kort**] om du vill lägga till ett nytt kort i iterationen.
+   Du kan också dra och släppa ett kort från gruppen Oplanerade kort i iteration eller klicka på [!UICONTROL **Lägg till kort**] för att lägga till ett nytt kort i iteration.
 
 >[!TIP]
 >
->Om du har skapat en anslagsprocess visas alla oplanerade kort i kortlistan i [!UICONTROL Backlog] kolumn. När ett kort flyttas till en annan kolumn blir det en del av den aktiva iterationen. Kort som du lägger till i listan läggs till i en kolumn baserat på deras status.
+>Om du har skapat en upprepningsprocessboard visas alla oplanerade kort i kortlistan i kolumnen [!UICONTROL Backlog]. När ett kort flyttas till en annan kolumn blir det en del av den aktiva iterationen. Kort som du lägger till i listan läggs till i en kolumn baserat på deras status.

@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Instruktioner om hur du skapar faser för ett korrektur med ett automatiserat ar
 
 >[!NOTE]
 >
->Om en användare inte finns med i någon fas men har åtkomst till dokumentet och öppnar korrekturet, skapas en fas med namnet *Workfront*.
+>Om en användare inte finns med på några stadier men har åtkomst till dokumentet och öppnar korrekturet, skapas en scen med namnet *Workfront*.
 >
 >Användaren som öppnade korrekturet tilldelas den roll som anges i Inställningar > Granska och godkännade > Roller för icke-mottagare som öppnar ett dokumentkorrektur.
 

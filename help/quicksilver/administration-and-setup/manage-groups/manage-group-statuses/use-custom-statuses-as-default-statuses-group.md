@@ -10,7 +10,7 @@ role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 
 >[!INFO]
 >
->**Exempel:** Du kan skapa en anpassad status med namnet Slutförd och ange den som standardstatus med statusen Fullständig för Workfront.
+>**Exempel:** Du kan skapa en anpassad status med namnet Slutförd och ange den som en standardstatus med statusen Fullständig för Workfront.
 >
 >För uppgifter som ställs in på att ändras till statusen Fullständig när de når 100 % visas statusen Slutförd i stället för Fullständig.
 
@@ -43,7 +43,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,13 +58,13 @@ Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras
 
 ## Ange en anpassad status som standardstatus för en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png)klickar du sedan på namnet på gruppen där du vill skapa eller anpassa statusvärden.
-1. Klicka på i den vänstra panelen **Status** ![](assets/gear-icon-settings.png).
-1. Öppna **Projekt**, **Uppgifter**, eller **Problem** beroende på vilken typ av status du vill ange som standardstatus.
-1. Klicka **Ange standardstatus** nära det övre högra hörnet.
-1. I listrutan som visas, bredvid den status där du vill ange standardstatus, väljer du den standardstatus som du vill ange.
-1. Klicka **Spara**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen och klicka sedan på namnet på gruppen där du vill skapa eller anpassa statusvärden.
+1. Klicka på **Status** ![](assets/gear-icon-settings.png) i den vänstra panelen.
+1. Öppna fliken **Projekt**, **Åtgärder** eller **Problem**, beroende på vilken typ av status du vill ange som standardstatus.
+1. Klicka på **Ange standardstatus** i det övre högra hörnet.
+1. I listrutan som visas, bredvid den status där du vill ange standardstatus, väljer du den standardstatus du vill ange.
+1. Klicka på **Spara**.
 
    Statusen är nu tillgänglig som standardstatus för projekt som är kopplade till gruppen.
 
@@ -77,10 +77,10 @@ Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras
    >Om du tilldelar projektet till en annan grupp läses projektstatusen in igen och kan ändras.
 
    1. Gå till det projekt där du vill använda den anpassade statusen.
-   1. Klicka på Mer-menyn ![](assets/more-icon.png)och sedan klicka **Redigera**.
-   1. I **Redigera projekt** som visas i **Grupp** fält under **Projektassociation** markerar du gruppen som den anpassade statusen är kopplad till.
+   1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.
+   1. I rutan **Redigera projekt** som visas i fältet **Grupp** under **Projektassociation** markerar du gruppen som den anpassade statusen är associerad med.
 
-   1. Klicka **Spara ändringar**.
+   1. Klicka på **Spara ändringar**.
 
 ## Grupper ärver standardstatuskonfigurationer
 
@@ -94,6 +94,6 @@ Mer information finns i [Hur grupper ärver statusvärden](../../../administrati
 
 Om du döljer en standardstatus (genom att aktivera alternativet Dölj status för den) försöker systemet i stället ange en annan status med motsvarande typ som standard.
 
-Om det inte finns någon tillgänglig status av motsvarande typ visas statustypen som **Dold** och är inte tillgängligt för arbetsobjekt.
+Om det inte finns någon tillgänglig status av motsvarande typ visas statustypen som **Dold** och är inte tillgänglig för arbetsobjekt.
 
 ![](assets/when-hide-default-status-no-equivalent.png)

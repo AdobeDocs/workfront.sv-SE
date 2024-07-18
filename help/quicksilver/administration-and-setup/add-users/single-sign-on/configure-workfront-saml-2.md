@@ -27,7 +27,7 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör kan du konfigurera Workfront webb- och mobilprogram så att de integreras med en SAML 2.0-lösning för enkel inloggning (SSO).
 
-När du har konfigurerat SAML 2.0 i Workfront, enligt beskrivningen i följande avsnitt, kan du upprätthålla konfigurationen enligt beskrivningen i [Uppdatera SAML 2.0-metadata hos identitetsleverantören](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
+När du har konfigurerat SAML 2.0 i Workfront, enligt beskrivningen i följande avsnitt, kan du upprätthålla konfigurationen enligt beskrivningen i [Uppdatera SAML 2.0-metadata i identitetsleverantören](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
 
 ## Åtkomstkrav
 
@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,11 +65,11 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 {{step-1-to-setup}}
 
-1. Klicka **System** > **enkel inloggning (SSO).**
+1. Klicka på **System** > **enkel inloggning (SSO).**
 
-1. I **Typ** nedrullningsbar lista, välja **SAML 2.0.**
+1. I listrutan **Typ** väljer du **SAML 2.0.**
 
-1. Långt upp i alternativen som visas klickar du på **Ladda ned SAML 2.0-metadata** om du vill hämta filen på datorn.
+1. Klicka på **Hämta SAML 2.0-metadata** för att hämta filen på datorn. Det är nära de översta alternativen som visas.
 
    Din SAML 2.0-identitetsleverantör kräver en XML-fil med information som genereras i din Workfront-instans. När du har laddat ned filen måste du komma åt din SAML 2.0 Identity Provider-server och ladda upp XML-filen för Workfront SAML 2.0.
 
@@ -84,7 +84,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <td> Denna URL, som redan är ifylld för dig, identifierar Workfront för identitetsleverantören. Till exempel: <code>&lt;yourcompany&gt;.com/SAML2</code>.</td>
      </tr>
      <tr>
-      <td role="rowheader">Bindningstyp</span> </td>
+      <td role="rowheader">Bindningstyp </span> </td>
       <td> <p>Välj den metod som stöds av IDP-servern för att skicka autentiseringsinformation:</p>
        <ul>
        <li>POST</li>
@@ -93,15 +93,15 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr>
      <tr>
       <td role="rowheader">Fyll i fält från identitetsleverantörens metadata </td> 
-      <td>I SAML 2.0 Identity Provider-lösningen exporterar du en XML-fil för tjänstleverantörens metadata och sparar den på en tillfällig plats på datorn. Välj <strong>Välj fil</strong>söker du efter och markerar filen som du har sparat och lägger till den i din Workfront-konfiguration.</td> 
+      <td>I SAML 2.0 Identity Provider-lösningen exporterar du en XML-fil för tjänstleverantörens metadata och sparar den på en tillfällig plats på datorn. Välj <strong>Välj Arkiv</strong>, sök efter och markera filen som du sparade för att lägga till den i din Workfront-konfiguration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">URL för inloggningsportal</span> </td> 
+      <td role="rowheader">URL för inloggningsportal </span> </td> 
       <td>Ange din organisations gemensamma inloggningsportal. Det här är den URL där användare loggar in för att få tillgång till Workfront och alla andra program som är integrerade med SAML 2.0.</td> 
      </tr>
      <tr>
       <td role="rowheader">Utloggnings-URL</span> </td> 
-      <td> <p>Ange URL:en för utloggning för IDP-servern. Workfront skickar en HTTP-begäran till den här URL:en innan Workfront loggas ut. Detta stänger användarens session på fjärrservern när Workfront-sessionen stängs.</p> <p><b>ANMÄRKNING</b>: Du omdirigeras bara till utloggnings-URL om du har möjlighet <strong>Tillåt endast SAML 2.0-autentisering</strong> aktiverat i din användarprofil.</p> </td>
+      <td> <p>Ange URL:en för utloggning för IDP-servern. Workfront skickar en HTTP-begäran till den här URL:en innan Workfront loggas ut. Detta stänger användarens session på fjärrservern när Workfront-sessionen stängs.</p> <p><b>Obs!</b> Du omdirigeras bara till utloggnings-URL om du har alternativet <strong>Tillåt endast SAML 2.0-autentisering</strong> aktiverat i din användarprofil.</p> </td>
      </tr>
      <tr>
       <td role="rowheader">Ändra lösenord-URL </td> 
@@ -126,9 +126,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
        <p>När du markerar kryssrutan visas följande alternativ:</p> 
        <p> <img src="assets/saml-2.0-auto-provision-users-ui.png"> </p> 
        <p>Markera det Workfront-användarattribut som du vill mappa i listrutan och ange sedan motsvarande katalogattribut i användarkatalogen.</p> 
-       <p>The <strong>Katalogattribut</strong> fältet ska innehålla katalogattributnamnet från tabellen för användarattribut som du sparade när din SAML 2.0-konfiguration testades.</p> 
-       <p>Du kan ange ett standardvärde för Workfront i dialogrutan <strong>Standardvärde</strong> fält. Du kan också ange regler baserat på värdena från din SAML 2.0-identitetsleverantör.</p> 
-       <p><b>VARNING</b>: Workfront försöker mappa de attribut som anges nedan varje gång en användare loggar in i systemet. Därför rekommenderar vi inte att åtkomstnivåer mappas. Du kan enkelt ta bort administrativ åtkomst om ett attribut är felaktigt mappat. Klicka <strong>Lägg till mappning</strong> om du vill lägga till ytterligare regler.
+       <p>Fältet <strong>Katalogattribut</strong> ska innehålla katalogattributnamnet från tabellen för användarattribut som du sparade när din SAML 2.0-konfiguration testades.</p> 
+       <p>Du kan ange ett standardvärde för Workfront i fältet <strong>Standardvärde</strong>. Du kan också ange regler baserat på värdena från din SAML 2.0-identitetsleverantör.</p> 
+       <p><b>VARNING</b>: Workfront försöker mappa nedanstående attribut varje gång en användare loggar in i systemet. Därför rekommenderar vi inte att åtkomstnivåer mappas. Du kan enkelt ta bort administrativ åtkomst om ett attribut är felaktigt mappat. Klicka på <strong>Lägg till mappning</strong> om du vill lägga till ytterligare regler.
        </p> 
        <p>Du kan mappa följande Workfront-attribut:</p> 
       <ul> 
@@ -156,7 +156,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
       <li> <p>Tidrapportprofil</p> </li> 
       <li> <p>Titel</p> </li> 
       </ul>
-      <p>Klicka <strong>Spara</strong> när du är klar med mappningen av användarattribut.</p> </td> 
+      <p>Klicka på <strong>Spara</strong> när du är klar med mappningen av användarattribut.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Certifikat </td> 
@@ -170,19 +170,19 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
      </tr> 
      <tr> 
       <td role="rowheader">Aktivera </td> 
-      <td> <p>Aktiverar enkel inloggning på Workfront-systemet. Kontrollera att du har skickat inloggningsinstruktioner till användarna.</p> <p>När du har aktiverat SSO-konfigurationen i Workfront måste du aktivera <strong>Tillåt endast SAML 2.0-autentisering</strong> inställning för alla användare så att de kan använda enkel inloggning.</p> <p>Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> <p>Mer information om användarinställningar finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
+      <td> <p>Aktiverar enkel inloggning på Workfront-systemet. Kontrollera att du har skickat inloggningsinstruktioner till användarna.</p> <p>När du har aktiverat din SSO-konfiguration i Workfront måste du aktivera inställningen <strong>Tillåt endast SAML 2.0-autentisering</strong> för alla användare så att de kan använda SSO.</p> <p>Mer information om hur du uppdaterar användare för enkel inloggning finns i <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Uppdatera användare för enkel inloggning</a>.</p> <p>Mer information om användarinställningar finns i <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Bekräfta konfiguration </td> 
       <td> 
-      <p>Klicka <strong>Testanslutning</strong> verifiera att Workfront och SAML 2.0-identitetsleverantören kan kommunicera med varandra. Anslutningen fungerar bara om du har bytt ut XML-filerna.
+      <p>Klicka på <strong>Testa anslutning</strong> för att verifiera att Workfront och SAML 2.0-identitetsleverantören kan kommunicera med varandra. Anslutningen fungerar bara om du har bytt ut XML-filerna.
       </p> 
       <p>När du har testat länken mellan din SAML 2.0-identitetsleverantör och Workfront visas en skärm som liknar bilden nedan.</p>
-      <p><b>ANMÄRKNING</b>: Den här skärmen visas i ett webbläsarpopup-fönster så att du kan inaktivera popup-blockerare i webbläsaren.</p>
+      <p><b>Obs!</b> Den här skärmen visas i ett webbläsarpopup-fönster så att du kan inaktivera popup-blockerare i webbläsaren.</p>
       <p>Spara informationen som visas i tabellen för senare bruk.</p>
       <p><img src="assets/success-table-saml-2.png"></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara** för att spara SAML 2.0-konfigurationen.
+1. Klicka på **Spara** för att spara SAML 2.0-konfigurationen.

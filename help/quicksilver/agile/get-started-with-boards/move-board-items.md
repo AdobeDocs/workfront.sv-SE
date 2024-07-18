@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan flytta ett kort till valfri kolumn på kortet eller kopiera ett kort.
 
-Om kolumnprofiler är aktiverade för uppdatering av fältvärden kan status, tilldelningar och taggar uppdateras automatiskt när du flyttar ett kort från en kolumn till en annan. Mer information finns i&quot;Definiera kolumninställningar och -profiler&quot; i artikeln [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Om kolumnprofiler är aktiverade för uppdatering av fältvärden kan status, tilldelningar och taggar uppdateras automatiskt när du flyttar ett kort från en kolumn till en annan. Mer information finns i Definiera kolumninställningar och -profiler i artikeln [Hantera panelkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
 >[!NOTE]
 >
@@ -44,23 +44,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Flytta kort mellan kolumner
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Dra och släpp kortet i en annan spalt på den plats där det ska visas.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Dra och släpp kortet i en annan spalt på den plats där du vill att det ska visas.
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Move]**. Sedan på **[!UICONTROL Move Item]** välj en annan kolumn och markera **[!UICONTROL Move]**.
+   Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Move]**. Välj sedan en annan kolumn i rutan **[!UICONTROL Move Item]** och välj **[!UICONTROL Move]**.
 
    ![Flytta kort](assets/boards-move-card-350x217.png)
 
    >[!NOTE]
    >
-   >När du använder **[!UICONTROL Move Item]** så flyttas kortet alltid längst upp i kolumnen.
+   >När du använder rutan **[!UICONTROL Move Item]** flyttas kortet alltid längst upp i kolumnen.
 
 ## Flytta kort längst upp eller längst ned i en kolumn
 
@@ -69,9 +69,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Top of column]** eller **[!UICONTROL Bottom of column]**.
+   Klicka på menyn **[!UICONTROL More]** ![Mer meny](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Top of column]** eller **[!UICONTROL Bottom of column]**.
 
-   ![Menyn Mer](assets/boards-moremenu-350x329.png)
+   ![Mer-menyn](assets/boards-moremenu-350x329.png)
 
 ## Kopiera ett kort
 
@@ -82,8 +82,8 @@ Om du kopierar ett ad hoc-kort dupliceras alla fält på kortet, inklusive check
 >Du kan inte kopiera anslutna kort.
 
 1. Gå till styrelsen.
-1. Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Copy]**.
+1. Klicka på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Copy]**.
 
-   ![Menyn Mer](assets/boards-moremenu-350x329.png)
+   ![Mer-menyn](assets/boards-moremenu-350x329.png)
 
-   Ett nytt kort läggs till i samma kolumn med titeln &quot;kopia av - [ursprungligt kortnamn].&quot;
+   Ett nytt kort läggs till i samma kolumn med titeln &quot;kopia av - [ursprungligt kortnamn]&quot;.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 23.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
-En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.2-versionscykeln finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Introduktion till fältet Arbetstid för korrekt beräkning av användarkapacitet
 
@@ -36,7 +36,7 @@ Fältets standardvärde är 1, vilket anger att en användare tillbringar hela s
 Som ett resultat av den här uppdateringen beräknar Workfront användarens tillgänglighet med formlerna nedan, beroende på vad du har valt i området Resurshantering:
 
 * Standardschema:
-* Användarkapacitet = [(Schemalagda timmar - schemalagda undantag) * FTE - ledig tid] * Arbetstid
+* Användarkapacitet = [(schemalagda timmar - schemalagda undantag) * FTE - ledig tid ] * Arbetstid
 * Användarens schema:
 * Användarkapacitet = (schemalagda timmar - schemalagda undantag - ledig tid) * Arbetstid.
 

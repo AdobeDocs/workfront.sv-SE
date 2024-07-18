@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: db8cbf0a33830ab400d9acc0ec02fbabef2e19e8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 0%
@@ -23,11 +23,11 @@ En lista över alla ändringar som är tillgängliga i version 22.4 finns i [22.
 
 Det här plugin-programmet kan nu installeras i InDesign. Du får tillgång till information om arbetsuppgifterna, kan samarbeta med kollegor i uppdateringsområdet och kan skicka in korrektur för granskning utan att behöva lämna XD. Gå till Adobe Creative Cloud Marketplace och ladda ned pluginen idag.
 
-Mer information om plugin-programmet finns i [[!DNL Adobe Workfront] plugin för [!DNL Creative Cloud] Program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Mer information om plugin-programmet finns i [[!DNL Adobe Workfront] plugin-program för [!DNL Creative Cloud] program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-[Ladda ned Adobe Workfront för InDesign på marknaden idag](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
+[Hämta Adobe Workfront för InDesign på Marketplace idag](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Administratörer kan även [skapa ett paket med plugin-program](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) från Admin Console och distribuera till användare på ett hanterat eller självhanterat sätt.
+Administratörer kan även [skapa ett paket med plugin-program](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) från Admin Console och distribuera det till användare på ett hanterat eller självhanterat sätt.
 
 ## Synkronisera metadata för objekt med Experience Manager Assets-integreringen
 
@@ -57,7 +57,7 @@ Den här förbättringen av beskrivningen gäller både rörliga och icke-rörli
 
 Mer information finns i [Skapa ett team](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-## Workfront Campaigns (beta) - ett nytt sätt att hantera ditt arbete
+## Workfront Campaigns (Beta) - ett nytt sätt att hantera ditt arbete
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Följande funktioner ingår i den här versionen:
 
 * Ett nytt Workfront-objekt som heter Campaign
 
-* Ett nytt kampanjområde (betaversion) på huvudmenyn
+* Ett nytt område för kampanjer (Beta) på huvudmenyn
 
 * En lista över kampanjer i kampanjområdet
 

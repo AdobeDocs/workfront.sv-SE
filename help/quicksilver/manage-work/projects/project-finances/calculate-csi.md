@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Workfront beräknar kostnadsprestandaindex (CSI) för ett projekt eller en uppgi
 
 `CSI = CPI x SPI`
 
-Mer information om CPI finns i artikeln [Beräkna index för kostnadsprestanda (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Mer information om CPI finns i artikeln [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
 Mer information om SPI finns i artikeln [Beräkna SPI (Schedule Performance Index)](../../../manage-work/projects/project-finances/calculate-spi.md).
 

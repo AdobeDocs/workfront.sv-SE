@@ -19,7 +19,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 * För aktuell plan och licensstruktur:
 
-   * En Pro eller högre [Adobe Workfront](https://www.workfront.com/plans).
+   * En Pro eller en senare [Adobe Workfront-plan](https://www.workfront.com/plans).
    * En Adobe Workfront Goals-licens förutom en Workfront-licens.
 
 * För den nya planen och licensstrukturen:
@@ -32,7 +32,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
@@ -48,4 +48,4 @@ Som administratör kan du anpassa följande Workfront Goals-objektnamn med hjäl
 
 Att anpassa Workfront-målterminologi är identiskt med att anpassa terminologi i Workfront.
 
-Mer information om hur du anpassar terminologi i Workfront finns i [Anpassa användargränssnittsterminologi med hjälp av en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Mer information om hur du anpassar terminologi i Workfront finns i [Anpassa användargränssnittsterminologi med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

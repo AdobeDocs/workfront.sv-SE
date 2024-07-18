@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Förstå korrekturstatus i Workfront Proof
-description: I [!DNL Workfront Proof]finns det korrektur i olika lägen. Dessa lägen avgör vilka åtgärder du kan utföra på beviset, som att kommentera eller fatta beslut.
+description: I  [!DNL Workfront Proof] finns korrektur i olika lägen. Dessa lägen avgör vilka åtgärder du kan utföra på beviset, som att kommentera eller fatta beslut.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-I [!DNL Workfront Proof]finns det korrektur i olika lägen. Dessa lägen avgör vilka åtgärder du kan utföra på beviset, som att kommentera eller fatta beslut.
+I [!DNL Workfront Proof] finns korrektur i olika lägen. Dessa lägen avgör vilka åtgärder du kan utföra på beviset, som att kommentera eller fatta beslut.
 
 ## Förstå korrekturläge
 
@@ -47,7 +47,7 @@ Du kan låsa ett korrektur när du är klar med granskningen. Att låsa ett korr
 
 Alla användare med redigeringsbehörighet för korrekturet kan låsa upp det.
 
-Mer information om rättigheter finns i [Korrektur för behörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Mer information om rättigheter finns i [Korrekturbehörighetsprofiler i [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
@@ -63,22 +63,22 @@ När administratören har aktiverat ett utkast visas ditt bevis som Skickat i Dr
 
 ## Visa och ändra korrekturstatus
 
-Mer information om hur du visar en lista med alla korrektur i ett visst läge, till exempel visa alla aktiva eller låsta korrektur, finns i [Hantera objekt på sidan Vyer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) i artikeln [Hantera objekt på sidan Vyer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+Mer information om hur du visar en lista med alla korrektur i ett visst läge, till exempel om du vill visa alla aktiva eller låsta korrektur, finns i [Hantera objekt på sidan Vyer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) i artikeln [Hantera objekt på sidan Vyer i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Få åtkomst till dina [!DNL Workfront Proof] Instrumentpanel.
+1. Åtkomst till din [!DNL Workfront Proof]-instrumentpanel.
 
    Mer information finns i [Åtkomst [!DNL Workfront Proof] från Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-1. På **[!UICONTROL Dashboard]** klickar du på **[!UICONTROL Expand]** pilen bredvid det korrektur som du vill visa eller ändra läget för.
+1. På **[!UICONTROL Dashboard]** klickar du på pilen **[!UICONTROL Expand]** bredvid korrekturet som du vill visa eller ändra läget för.
 
    ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
-   The **[!UICONTROL Workflow process]** visas.
+   Avsnittet **[!UICONTROL Workflow process]** visas.
 
    ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Visa **[!UICONTROL State]** i **[!UICONTROL Workflow process]**.
 
-1. (Valfritt) Om du vill ändra läge för muspekaren över det aktuella läget **[!UICONTROL State]** och klicka på listrutan och välj sedan ett nytt läge.
+1. (Valfritt) Om du vill ändra läge för muspekaren över den aktuella **[!UICONTROL State]**, klickar på listrutan och väljer sedan ett nytt läge.
 
    ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

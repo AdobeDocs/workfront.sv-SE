@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,17 +52,17 @@ Om du låser upp ett projekt, en uppgift eller en utgåva blir gruppadministrat�
 
 Om ett fält inte har en lås/lås upp-knapp kan det inte låsas upp för gruppadministratörer för att konfigurera inställningar på gruppnivå. Konfigurationen är bara tillgänglig på systemnivå.
 
-Instruktioner om hur du låser eller låser upp ett projekt, en uppgift eller en utgåva på systemnivå finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Instruktioner om hur du låser eller låser upp ett projekt, en uppgift eller en utgåva på systemnivå finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!NOTE]
 >
->Efter [!DNL Workfront] administratören låser upp en inställning på systemnivå. Alla gruppadministratörer kan konfigurera den och sedan låsa den för att säkerställa att alla i gruppen och undergrupperna nedan använder samma konfiguration. Detta är parallellt med möjligheten att [!DNL Workfront] måste administratören konfigurera och låsa en inställning för alla i systemet. Mer information finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>När en [!DNL Workfront]-administratör har låst upp en inställning på systemnivå kan alla gruppadministratörer konfigurera den och sedan låsa den för att se till att alla i gruppen och undergrupperna nedan använder samma konfiguration. Detta är parallellt med möjligheten för en [!DNL Workfront]-administratör att konfigurera och låsa en inställning för alla i systemet. Mer information finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Lås eller lås upp ett projekt, en aktivitet eller en utgåva för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 
 ## Lås upp en projektinställning så att grupper kan konfigurera den
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicka **[!UICONTROL Project Preferences]** och sedan klicka **[!UICONTROL Projects]**.
+1. Klicka på **[!UICONTROL Project Preferences]** och sedan på **[!UICONTROL Projects]**.
 
 1. Gör något av följande:
 

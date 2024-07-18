@@ -4,25 +4,25 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Aktiva och inaktiverade objekt
-description: Som en [!DNL Adobe Workfront] kan du aktivera eller inaktivera objekt i systemet. Vi rekommenderar att du aldrig tar bort objekt som du kan inaktivera. Du bör helt enkelt inaktivera objektet för att förhindra framtida användning och ta bort det från listrutorna för andra objekt.
+description: Som  [!DNL Adobe Workfront] administratör kan du aktivera eller inaktivera objekt i systemet. Vi rekommenderar att du aldrig tar bort objekt som du kan inaktivera. Du bör helt enkelt inaktivera objektet för att förhindra framtida användning och ta bort det från listrutorna för andra objekt.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '722'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
 
 # Aktiva och inaktiverade objekt
 
-Som en [!DNL Adobe Workfront] kan du aktivera eller inaktivera objekt i systemet. Vi rekommenderar att du aldrig tar bort objekt som du kan inaktivera. Du bör helt enkelt inaktivera objektet för att förhindra framtida användning och ta bort det från listrutorna för andra objekt.
+Som [!DNL Adobe Workfront]-administratör kan du aktivera eller inaktivera objekt i systemet. Vi rekommenderar att du aldrig tar bort objekt som du kan inaktivera. Du bör helt enkelt inaktivera objektet för att förhindra framtida användning och ta bort det från listrutorna för andra objekt.
 
-Om du till exempel vill se en viss [!UICONTROL Hour Type], [!UICONTROL Hour Type] måste vara aktiv. En inaktiv eller inaktiverad [!UICONTROL Hour Type] visas inte i [!UICONTROL Hour Type] nedrullningsbar meny, men finns kvar i systemet för att hålla historikposten intakt om var detta [!UICONTROL Hour Type] kan ha använts tidigare.
+Om du till exempel vill se en viss [!UICONTROL Hour Type] måste [!UICONTROL Hour Type] vara aktiv. En inaktiv eller inaktiverad [!UICONTROL Hour Type] visas inte i den nedrullningsbara menyn [!UICONTROL Hour Type], men finns kvar i systemet för att behålla den historiska posten oförändrad där denna [!UICONTROL Hour Type] kan ha använts tidigare.
 
-Termen Aktiv används för att identifiera om vissa objekt är aktiverade i systemet. I det här sammanhanget används &quot;Aktiv&quot; för följande objekt:
+Termen &quot;Aktiv&quot; används för att identifiera om vissa objekt är aktiverade i systemet. I det här sammanhanget används &quot;Aktiv&quot; för följande objekt:
 
 ## E-postaviseringar
 
@@ -34,11 +34,11 @@ Mer information om hur du aktiverar eller inaktiverar e-postmeddelanden finns i 
 
 Du kan aktivera timtyper så att de kan väljas av användare vid loggningstid.
 
-Information om hur du aktiverar eller inaktiverar timtyper finns i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Mer information om hur du aktiverar eller inaktiverar timtyper finns i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 ## Portfolio
 
-En portfölj måste vara aktiv för att kunna visas på [!UICONTROL New Project (Business Case)] formulär.
+En portfölj måste vara aktiv för att kunna visas i formuläret [!UICONTROL New Project (Business Case)].
 
 Du kan aktivera en portfölj när du redigerar den.
 
@@ -46,7 +46,7 @@ Mer information om hur du redigerar portföljer finns i [Skapa en portfölj](../
 
 ## Program
 
-Ett program måste vara aktivt för att kunna visas på [!UICONTROL Program] -fält för ett projekt.
+Ett program måste vara aktivt för att kunna visas i fältet [!UICONTROL Program] för ett projekt.
 
 Du kan aktivera ett program medan du redigerar programmet.
 
@@ -62,7 +62,7 @@ Mer information om hur du redigerar mallar finns i [Redigera projektmallar](../.
 
 ## Godkännandeprocesser
 
-En godkännandeprocess måste vara aktiv för att kunna visas på [!UICONTROL Approval Process] -fält för ett projekt, en uppgift eller ett problem.
+En godkännandeprocess måste vara aktiv för att kunna visas i fältet [!UICONTROL Approval Process] för ett projekt, en aktivitet eller en utgåva.
 
 Du kan aktivera en godkännandeprocess medan du redigerar godkännandeprocessen.
 
@@ -70,23 +70,23 @@ Mer information om hur du redigerar godkännandeprocesser finns i [Skapa en godk
 
 ## Milstolpbanor
 
-En milstolpe-bana måste vara aktiv för att kunna visas på [!UICONTROL Milestone Path] -fält för ett projekt.
+En milstolpe-sökväg måste vara aktiv för att kunna visas i fältet [!UICONTROL Milestone Path] för ett projekt.
 
 Du kan göra en milstolpe-bana aktiv när du redigerar milstolpen.
 
-Mer information om hur du redigerar milstolpbanor finns i [Skapa en milstolpbana](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+Mer information om hur du redigerar milstolpebanor finns i [Skapa en milstolpebana](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Egna formulär
 
-Ett anpassat formulär måste vara aktivt för att kunna visas på [!UICONTROL Custom Form] -fält för ett annat objekt.
+Ett anpassat formulär måste vara aktivt för att kunna visas i fältet [!UICONTROL Custom Form] för ett annat objekt.
 
 Du kan aktivera ett anpassat formulär när du redigerar det anpassade formuläret.
 
-Mer information om hur du redigerar anpassade formulär och en lista över objekt som du kan associera dem med finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Mer information om hur du redigerar anpassade formulär och en lista över objekt som du kan associera dem med finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Företag
 
-Ett företag måste vara aktivt för att kunna visas på [!UICONTROL Company] -fält för ett projekt, en användare eller en mall.
+Ett företag måste vara aktivt för att kunna visas i fältet [!UICONTROL Company] för ett projekt, en användare eller en mall.
 
 Du kan göra ett företag aktivt när du redigerar företaget.
 
@@ -102,11 +102,11 @@ Mer information om hur du inaktiverar användare finns i [Inaktivera eller åter
 
 >[!IMPORTANT]
 >
->Om din organisation har anslutit sig till [!DNL Adobe Business Platform]måste du inaktivera användare via [!UICONTROL Adobe Admin Console].
+>Om din organisation har anslutit sig till [!DNL Adobe Business Platform] måste du inaktivera användare via [!UICONTROL Adobe Admin Console].
 >
->Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console], se avsnittet&quot;Ta bort användare&quot; i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console] Administratör.
+>Instruktioner om hur du inaktiverar en användare i [!UICONTROL Adobe Admin Console] finns i avsnittet Ta bort användare i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
 >
->För en lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Business Platform], se [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Business Platform] finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Team
 

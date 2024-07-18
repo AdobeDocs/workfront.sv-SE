@@ -17,6 +17,6 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Ökning](../../proofhq-api/general/overview.md)
+* [Översikt](../../proofhq-api/general/overview.md)
 <!--* [Code Samples](../../proofhq-api/general/code-samples.md) -->
 * [Vanliga frågor om SOAP API](../../proofhq-api/general/soap-api-faqs.md)

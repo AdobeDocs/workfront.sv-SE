@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägg till en gäst i [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
-* [Hantera dina kontakter i [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
-* [Förstå användare, medlemmar och gäster i [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)
+* [Lägg till en gäst i  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/add-guest.md)
+* [Hantera dina kontakter i  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md)
+* [Förstå användare, medlemmar och gäster i  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md)

@@ -20,14 +20,14 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Överföra filer via API](../../wf-api/api/uploading-files-api.md)
-* [Stöd för JSONP upphör](../../wf-api/api/ending-support-jsonp.md)
-* [Filtrera händelsens prenumerationsmeddelanden](../../wf-api/api/filter-event-sub-messages.md)
-* [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md)
-* [Prenumerationscertifikat för evenemang](../../wf-api/api/event-sub-certs.md)
+* [Överför filer via API](../../wf-api/api/uploading-files-api.md)
+* [Stöd för JSONP avslutas](../../wf-api/api/ending-support-jsonp.md)
+* [Filtrera prenumerationsmeddelanden för händelser](../../wf-api/api/filter-event-sub-messages.md)
+* [Återförsök med händelseprenumerationer](../../wf-api/api/event-sub-retries.md)
+* [Evenemangsprenumerationscertifikat](../../wf-api/api/event-sub-certs.md)
 * [Ange en API-version i integreringarna](../../wf-api/api/specify-api-version-integrations.md)
 
-* [Centrala API-ändringar: statussöksvar](../../wf-api/api/api-changes-search.md)
+* [Ändringar i Core API: statussöksvar](../../wf-api/api/api-changes-search.md)
 * [Uppdatera integreringar som använder API-standardversionshantering](../../wf-api/api/update-default-api-versioning.md)
 * [Borttagning av API-intern](../../wf-api/api/deprecation-api-internal.md)
 * [Inaktuella tecken i API-svar](../../wf-api/api/escaped-characters-api.md)
@@ -46,5 +46,5 @@ Det här avsnittet innehåller följande artiklar:
 * [Nyheter i API-version 10](../../wf-api/api/new-api-version-10.md)
 * [Nyheter i API-version 9](../../wf-api/api/new-api-version-9.md)
 * [Uppdateringar av API-version 8](../../wf-api/api/new-api-version-8-updates.md)
-* [Nyheter i API Version 7](../../wf-api/api/new-api-version-7.md)
+* [Nyheter i API-version 7](../../wf-api/api/new-api-version-7.md)
 * [Nyheter i API-version 6](../../wf-api/api/new-api-version-6.md)

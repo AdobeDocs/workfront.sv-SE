@@ -81,7 +81,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -147,7 +147,7 @@ Dessutom har vi stöd för följande uttryck för formelfält i Workfront Planni
    </td></tr>
 
 <tr> 
-   <td><strong>SETTIMEZON</strong> </td> 
+   <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Anger tidszonen för ett datum och en tid till en viss tidszon.</p> <p>Uttrycket formateras på följande sätt:
 
 <code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
@@ -155,12 +155,12 @@ Dessutom har vi stöd för följande uttryck för formelfält i Workfront Planni
    </td></tr>
 
 <tr> 
-   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td><strong>VECKOFYEAR</strong> </td> 
    <td> <p>Returnerar veckonumret i ett år. Du kan också ange vilken dag veckan börjar på (använd 1 för söndag eller 2 för måndag). Om det utelämnas startar veckor som standard på söndag.</p> <p>Uttrycket formateras på följande sätt:
 
 <code>VECKOFYEAR(date,2)</code>
 eller
-<code>VECKOFYEAR(datum)</code>
+<code>VECKOFYEAR(date)</code>
 </p>
    </td></tr>
 

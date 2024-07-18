@@ -25,7 +25,7 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >
 >* Av säkerhetsskäl kan du på vissa webbplatser inte bädda in webbsidor som en iframe. Om den webbsida som du vill bädda in i en instrumentpanel inte tillåter detta visas inte sidan i instrumentpanelen. Du kan dock fortfarande komma åt den externa sidan genom att klicka på instrumentpanelens namn.\
 >![](assets/qs-empty-external-page-report-350x165.png)\
->Om du vill tillåta inbäddning för en webbplats som du äger kan du tillsammans med webbadministratören justera **X-frame-options** inställning. Mer information finns i [X-frame-options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
+>Om du vill tillåta inbäddning för en webbplats som du äger kan du tillsammans med webbadministratören justera inställningen **X-Frame-Options** . Mer information finns i [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
 >* Instrumentpanelssidor stöds inte längre som inbäddade externa sidor i Dashboards. Befintliga kontrollpaneler ändras inte automatiskt för att ta bort dessa externa sidor, men ändringar av en kontrollpanel som innehåller en sådan referens kan inte sparas förrän referensen tas bort eller ändras.
@@ -47,7 +47,7 @@ Om din organisation till exempel har en webbaserad dokumentdatabas, wiki eller n
 >     * /group/:ID/content-dashboard__:dashboardID &#x200B;
 >     * /billingrecord/:ID/content-dashboard__:dashboardID
 >
->Som en alternativ lösning kan du överväga att ta med en listrapport på kontrollpanelen enligt beskrivningen i [Lägga till en rapport på en instrumentpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+>Som en alternativ lösning kan du överväga att ta med en listrapport på instrumentpanelen enligt beskrivningen i [Lägg till en rapport på en instrumentpanel](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 
 ## Åtkomstkrav
 
@@ -88,13 +88,13 @@ Du måste ha följande:
 
 Du måste skapa en kontrollpanel innan du kan bädda in en extern sida i den.
 
-Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Bädda in en extern sida i en kontrollpanel
 
 >[!IMPORTANT]
 >
->Du kan ta bort en extern sida från en kontrollpanel om den inte längre behövs. Du kan dock inte ta bort en extern sida efter att den har skapats i Workfront. Du kan bara ta bort en extern sida med API:t. Mer information finns i [Ta bort en extern sida från en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+>Du kan ta bort en extern sida från en kontrollpanel om den inte längre behövs. Du kan dock inte ta bort en extern sida efter att den har skapats i Workfront. Du kan bara ta bort en extern sida med API:t. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 
 1. Leta reda på webbadressen till den sida som ska visas i Workfront och kopiera webbadressen som finns i adressfältet.
 
@@ -104,21 +104,21 @@ Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpan
 
 {{step1-to-dashboards}}
 
-1. Om du vill redigera en befintlig instrumentpanel väljer du den instrumentpanel som du vill bädda in webbplatssidan i och klickar sedan på **Instrumentpanelsåtgärder** och sedan klicka **Redigera**
+1. Om du vill redigera en befintlig instrumentpanel väljer du den instrumentpanel som du vill bädda in webbplatssidan i och klickar sedan på **Instrumentpanelsåtgärder** och sedan på **Redigera**
 eller\
-   Om du vill skapa en ny kontrollpanel klickar du på **Ny instrumentpanel**.\
-   Mer information om hur du skapar en kontrollpanel finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+   Om du vill skapa en ny instrumentpanel klickar du på **Ny instrumentpanel**.\
+   Mer information om hur du skapar en kontrollpanel finns i [Skapa en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-1. Klicka **Lägg till extern sida** under **Välj layout/Lägg till rapporter/Lägg till kalendrar** område.
+1. Klicka på **Lägg till extern sida** under området **Välj layout/Lägg till rapporter/Lägg till kalendrar**.
 
    ![](assets/qs-add-external-page-350x239.png)
 
-   The **Lägg till extern sida** visas.
+   Rutan **Lägg till extern sida** visas.
 
 1. Ange följande information om den externa sidan:
 
    * **Namn**: Lägg till ett namn för instrumentpanelen.
-   * **Beskrivning**: Lägg till mer information om kontrollpanelen för att identifiera den information den innehåller. Beskrivningen visas på kontrollpanelen för alla som har tillgång till den när du har sparat den.
+   * **Beskrivning**: Lägg till mer information om instrumentpanelen för att identifiera den information den innehåller. Beskrivningen visas på kontrollpanelen för alla som har tillgång till den när du har sparat den.
    * **URL**: Klistra in den URL som du kopierade tidigare i det här fältet.
 
      Du kan ange följande typer av URL-adresser:
@@ -130,9 +130,9 @@ eller\
       * En mall-URL som innehåller sessionsinformation för en specifik webbplats.\
         Till exempel: *https://localhost/?session={!$$SESSION}*
 Du måste vara inloggad på den angivna webbplatsen för att kunna visa den externa sidan.\
-        Mer information om hur du hämtar ett sessions-ID från Workfront finns i [Grunderna i API](../../../wf-api/general/api-basics.md).\
+        Mer information om hur du hämtar ett SessionID från Workfront finns i [API-grunder](../../../wf-api/general/api-basics.md).\
         Din Workfront-administratör kan konfigurera dina systeminställningar på ett sätt som av säkerhetsskäl inte tillåter användning av sessionsinformation på externa sidor. I det här fallet läses den externa sidan inte in på instrumentpanelen.\
-        Mer information om systemsäkerhetsinställningar finns i [Konfigurera säkerhetsinställningar för system](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
+        Mer information om systemsäkerhetsinställningar finns i [Konfigurera systemsäkerhetsinställningar](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).\
         ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
      >[!WARNING]
@@ -140,9 +140,9 @@ Du måste vara inloggad på den angivna webbplatsen för att kunna visa den exte
      >Användning av SessionID är osäkert och rekommenderas inte.
      >
 
-   * **Höjd**: Ange en siffra som är större än 0 för att definiera utrymmet som den externa sidan upptar på kontrollpanelen. Standardhöjden är 500.
+   * **Höjd**: Ange ett tal som är större än 0 för att definiera det utrymme som den externa sidan upptar på instrumentpanelen. Standardhöjden är 500.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Sidan läggs automatiskt till på kontrollpanelen.
 
@@ -158,16 +158,16 @@ Så här uppdaterar du informationen för en extern sida som används i en kontr
 
 {{step1-to-dashboards}}
 
-1. Klicka på namnet på instrumentpanelen som du vill uppdatera för att öppna den och klicka på **Instrumentpanelsåtgärder** sedan **Redigera**.
+1. Klicka på namnet på den instrumentpanel som du vill uppdatera för att öppna den, och klicka på **Instrumentpanelsåtgärder** och sedan på **Redigera**.
 
-   The **Information om instrumentpanelen** öppnas.
+   Rutan **Information om instrumentpanelen** öppnas.
 
-1. I **Välj layout / Lägg till rapporter / Lägg till kalendrar** området på **Information om instrumentpanelen** letar du reda på den externa sida som du vill uppdatera, håller pekaren över den och klickar på **Redigera** -ikon.\
+1. I området **Välj layout/Lägg till rapporter/Lägg till kalendrar** i rutan **Information om instrumentpanelen** letar du reda på den externa sida som du vill uppdatera, håller pekaren över den och klickar på ikonen **Redigera** .\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
-1. I **Redigera extern sida** uppdaterar du fälten som du vill ändra och klickar sedan på **Spara**.
-1. (Valfritt) Klicka på **Ta bort** icon ![](assets/delete.png) om du vill ta bort den externa sidan från kontrollpanelen. Mer information finns i [Ta bort en extern sida från en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
-1. Klicka **Spara + Stäng**.
+1. Uppdatera fälten som du vill ändra i rutan **Redigera extern sida** och klicka sedan på **Spara**.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) om du vill ta bort den externa sidan från instrumentpanelen. Mer information finns i [Ta bort en extern sida från en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. Klicka på **Spara + Stäng**.
 
 ## Visa externa sidor i en rapport
 
@@ -175,7 +175,7 @@ Du kan visa alla externa sidor i Workfront i en extern sidrapport.
 
 {{step1-to-reports}}
 
-1. Klicka **Ny rapport** > markera **Extern sida**.
+1. Klicka på **Ny rapport** > välj **Extern sida**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,7 +183,7 @@ Du kan visa alla externa sidor i Workfront i en extern sidrapport.
 
    Mer information finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Klicka **Spara+stäng**.
+1. Klicka på **Spara+Stäng**.
 
    I den nya rapporten kan du visa namnet och URL:en som är kopplade till de externa sidorna i systemet.
 

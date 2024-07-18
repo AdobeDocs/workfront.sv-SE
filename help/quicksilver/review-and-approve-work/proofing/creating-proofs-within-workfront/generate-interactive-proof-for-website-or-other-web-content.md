@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -45,29 +45,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll
 
 1. Gå till projektet, uppgiften eller utgåvan där du vill skapa ett nytt korrektur för en webbplats eller en ny version av ett befintligt.
-1. Klicka **Dokument** till vänster.
-1. (Villkorligt) Om du skapar ett nytt korrektur klickar du **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
+1. Klicka på **Dokument** i den vänstra panelen.
+1. (Villkorligt) Om du skapar ett nytt korrektur klickar du på **Lägg till nytt** och sedan på **Korrektur** på menyn som visas.
 
-1. (Villkorligt) På **Nytt korrektur** visas om du skapar en ny version av ett befintligt korrektur:
+1. (Villkorligt) Om du skapar en ny version av ett befintligt korrektur visas sidan **Nytt korrektur**:
 
    1. Håll pekaren över det URL-korrektur som du vill skapa en ny version för och markera det sedan genom att klicka i den ljusblå bakgrunden runt det.
 
-      ![Select_proof_by_select_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. I **Lägg till ny** nedrullningsbar meny, klicka **Version** > **Korrektur**.
+   1. I listrutan **Lägg till ny** klickar du på **Version** > **Korrektur**.
 
-1. I **Lägg till filer** skriver du webbadressen till den webbplats du vill korrekturgranska och trycker sedan på **Retur**.  Du kan upprepa den här processen om du vill lägga till flera webbplatser som ska korrektur.
+1. I avsnittet **Lägg till filer** skriver du webbadressen till den webbplats som du vill korrekturgranska och trycker sedan på **Retur**.  Du kan upprepa den här processen om du vill lägga till flera webbplatser som ska korrektur.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
@@ -80,14 +80,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    ![](assets/click-url-350x137.png)
 
-1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du en **Korrekturnamn**.
-1. Välj **Interaktiv** och sedan klicka **Klar**.
+1. (Valfritt) Om du vill ändra namnet på korrekturet från webbplatsens URL till något annat anger du ett **korrekturnamn**.
+1. Välj **Interaktiv** och klicka sedan på **Klar**.
 
    >[!NOTE]
    >
    >Om du lägger till en ny version till ett befintligt URL-korrektur behålls alla alternativ som konfigurerats på det ursprungliga korrekturet eller den tidigare versionen i den här versionen.
 
-1. Klicka **Skapa korrektur** för att skapa ett enkelt korrektur utan någon granskningsprocess.\
+1. Klicka på **Skapa korrektur** om du vill skapa ett enkelt korrektur utan någon granskningsprocess.\
    eller\
    Fortsätt genom att konfigurera ett avancerat korrektur:
 

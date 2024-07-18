@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '410'
 ht-degree: 3%
 
 ---
@@ -40,7 +40,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -55,12 +55,12 @@ Du måste ha följande:
 
 Kontrollpanelen måste skapas innan du kan exportera den.
 
-Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
-## Exportera en kontrollpanel till en PDF-fil:
+## Exportera en kontrollpanel till en pdf-fil:
 
 1. Gå till den kontrollpanel som du vill exportera.
-1. Klicka **Instrumentpanelsåtgärder** väljer **Skriv ut**.
+1. Klicka på **Instrumentpanelsåtgärder** och välj sedan **Skriv ut**.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
@@ -82,21 +82,21 @@ Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpan
       <td>Google Chrome</td> 
       <td> 
        <ol> 
-        <li value="1">I <strong>Mål</strong> fält, markera <strong>Spara som PDF</strong>och sedan ändra andra utskriftsalternativ som du vill ändra.</li> 
-        <li value="2">Klicka <strong>Spara</strong>.</li> 
-        <li value="3">(Valfritt) Redigera <strong>Filnamn</strong>väljer du sedan ett nytt mappmål för filen.</li> 
-        <li value="4">Klicka <strong>Spara</strong> för att spara .pdf-filen på hårddisken.<br><br></li> 
+        <li value="1">I fältet <strong>Mål</strong> väljer du <strong>Spara som PDF</strong> och ändrar sedan eventuella andra utskriftsalternativ som du vill ändra.</li> 
+        <li value="2">Klicka på <strong>Spara</strong>.</li> 
+        <li value="3">(Valfritt) Redigera <strong>filnamnet</strong> och välj sedan ett nytt mappmål för filen.</li> 
+        <li value="4">Klicka på <strong>Spara</strong> för att spara pdf-filen på hårddisken.<br><br></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge och Mozilla Firefox</td> 
-      <td> <p>Obs! Om du använder Internet Explorer version 11 kanske du inte kan använda funktionen Skriv ut till PDF utan att installera ett plugin-program från tredje part.</p> 
+      <td> <p>Obs! Om du använder Internet Explorer version 11 kanske du inte kan använda funktionen Skriv ut till PDF utan att installera ett plugin-program från en annan leverantör.</p> 
        <ol> 
-        <li value="1">I <strong>Skrivare</strong> eller <strong>Välj skrivare</strong> fält, markera <strong>Microsoft Print to PDF</strong>och sedan ändra andra utskriftsalternativ som du vill ändra.</li> 
-        <li value="2">Klicka <strong>Skriv ut</strong>.</li> 
-        <li value="3">Ange <strong>Filnamn</strong></li> 
+        <li value="1">I fältet <strong>Skrivare</strong> eller <strong>Välj skrivare</strong> väljer du <strong>Microsoft Skriv ut till PDF</strong> och ändrar sedan eventuella andra utskriftsalternativ som du vill ändra.</li> 
+        <li value="2">Klicka på <strong>Skriv ut</strong>.</li> 
+        <li value="3">Ange ett <strong>filnamn</strong></li> 
         <li value="4">(Valfritt) Välj ett nytt mappmål för filen.</li> 
-        <li value="5">Klicka <strong>Spara</strong>.</li> 
+        <li value="5">Klicka på <strong>Spara</strong>.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -104,9 +104,9 @@ Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpan
       <td> 
        <ol> 
         <li value="1">Klicka på den nedrullningsbara pilen längst ned till vänster och välj sedan <strong>Spara som PDF</strong>.</li> 
-        <li value="2">Ange <strong>Filnamn</strong>.</li> 
+        <li value="2">Ange ett <strong>filnamn</strong>.</li> 
         <li value="3">(Valfritt) Ändra andra utskriftsalternativ som du vill ändra, inklusive att välja ett nytt mappmål för filen.</li> 
-        <li value="4">Klicka <strong>Spara</strong>.</li> 
+        <li value="4">Klicka på <strong>Spara</strong>.</li> 
        </ol> </td> 
      </tr> 
     </tbody> 

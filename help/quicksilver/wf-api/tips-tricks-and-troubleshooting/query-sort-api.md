@@ -23,6 +23,6 @@ Du kan sortera resultatet efter vilket fält som helst om du lägger till följa
 &entryDate_Sort=asc
 ```
 
-Om du t.ex. vill sortera efter planerat startdatum för aktiviteten tar du bort `entryDate` och ersätta den med `plannedCompletionDate`.
+Om du till exempel vill sortera efter planerad startdatum för aktiviteten tar du bort `entryDate` och ersätter den med `plannedCompletionDate`.
 
 Detta fungerar för de flesta fält i Adobe Workfront.

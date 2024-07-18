@@ -22,7 +22,7 @@ Beroendetyper refererar till föregående relationer mellan uppgifter. De defini
 
 >[!IMPORTANT]
 >
->Adobe Workfront begränsar inte de beroende aktiviteterna från att starta eller slutföra baserat på beroendetyper om inte de föregående relationerna upprätthålls. Mer information om att framtvinga föregående aktiviteter finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+>Adobe Workfront begränsar inte de beroende aktiviteterna från att starta eller slutföra baserat på beroendetyper om inte de föregående relationerna upprätthålls. Mer information om hur du framtvingar föregångare finns i [Tvinga föregångare](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 Du måste ange beroendetypen för en föregående relation när du upprättar relationen mellan dina uppgifter.
 
@@ -30,13 +30,13 @@ Mer information om föregående aktiviteter finns i [Översikt över föregåend
 
 Följande är Workfront beroendetyper:
 
-* **Slutstart (fs)**: Föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Det här är standardberoendetypen som används när ingen annan beroendetyp har angetts.
-* **Slutför (ff)**: Föregående aktivitet måste slutföras innan den beroende aktiviteten kan slutföras.
-* **Start-Start (ss)**: Föregående aktivitet måste starta innan den beroende aktiviteten kan startas. Du kan inte starta den beroende aktiviteten om inte föregående aktivitet har startats.
-* **Start-slut (sf)**: Föregående aktivitet måste starta innan den beroende aktiviteten kan slutföras. Du kan starta den beroende aktiviteten innan föregångaren startas, men du kan inte slutföra den om inte föregående aktivitet har startats.
-* **Schemalagd start (sd)**: Detta schemalägger en uppgift som Finish-Start, men den faktiska verkställighetstypen är en Finish-Finish. När du använder det här schemaläggs den beroende aktiviteten att starta efter att föregående aktivitet har slutförts. Tvingande åtgärder gör det dock så att den beroende aktiviteten kan starta när som helst, men den kan inte slutföras förrän föregående aktivitet är klar.
+* **Slutför-Start (fs)**: Föregående-aktiviteten måste avslutas innan den beroende aktiviteten kan startas. Det här är standardberoendetypen som används när ingen annan beroendetyp har angetts.
+* **Slutför (ff)**: Föregående-aktiviteten måste avslutas innan den beroende aktiviteten kan slutföras.
+* **Start-Start (ss)**: Föregående aktivitet måste startas innan den beroende aktiviteten kan startas. Du kan inte starta den beroende aktiviteten om inte föregående aktivitet har startats.
+* **Start-Finish (sf)**: Föregående aktivitet måste startas innan den beroende aktiviteten kan slutföras. Du kan starta den beroende aktiviteten innan föregångaren startas, men du kan inte slutföra den om inte föregående aktivitet har startats.
+* **Schemalagd-Start (sd)**: Detta schemalägger en aktivitet som Slutför-Start, men den faktiska tvingande typen är Slutför. När du använder det här schemaläggs den beroende aktiviteten att starta efter att föregående aktivitet har slutförts. Tvingande åtgärder gör det dock så att den beroende aktiviteten kan starta när som helst, men den kan inte slutföras förrän föregående aktivitet är klar.
 
 >[!NOTE]
 >
->Förkortningarna för Beroendetyper används i uppgiftslistor för att definiera föregående relationer. Mer information finns i [Exempel på föregående värden i en uppgiftslista](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Översikt över föregående aktiviteter](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+>Förkortningarna för Beroendetyper används i uppgiftslistor för att definiera föregående relationer. Mer information finns i [Exempel på föregående värden i en uppgiftslista](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) i [Översikt över föregående aktiviteter](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

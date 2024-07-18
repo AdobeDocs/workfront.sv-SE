@@ -22,13 +22,13 @@ ht-degree: 0%
 
 Den här sidan beskriver alla listförbättringar som gjorts i version 2019.4. Dessa förbättringar kommer att bli tillgängliga i produktionsmiljön den 11 november 2019.
 
-En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt över version 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.4 finns i [Översikt över utgåvan 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Uppdaterat utseende och känsla för nya listor</strong> <p>Listorna Projekt, Uppgift och Timmar har nu ett uppdaterat utseende och känsla. Andra listor som planerades att uppdateras med version 2019.4 kommer att uppdateras med en framtida version.</p> <p>Några av uppdateringarna är:</p> 
+   <td><strong>Uppdaterat utseende på nya listor</strong> <p>Listorna Projekt, Uppgift och Timmar har nu ett uppdaterat utseende och känsla. Andra listor som planerades att uppdateras med version 2019.4 kommer att uppdateras med en framtida version.</p> <p>Några av uppdateringarna är:</p> 
     <ul> 
      <li>En renare, rutnätsliknande design</li> 
      <li>Uppdaterade färger och teckensnitt</li> 
@@ -37,7 +37,7 @@ En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt öve
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Ny design som tillämpas på listor för rapporter, malluppgifter, Portfolio med mera</strong> <p>Viktigt: De här förbättringarna togs bort från förhandsvisningsmiljön den 8 november 2019 och kommer inte att ingå i 2019.4-versionen av Production. Dessa förbättringar kommer att läggas till i förhandsvisningsmiljön efter 2019.4-utgåvan av Production och kommer att göras tillgängliga för Production i en framtida version.</p> <p>Den nya listdesignen är nu tillgänglig i följande listor:</p> 
+   <td><strong>Ny design används i listor för rapporter, malluppgifter, Portfolio och mer</strong> <p>Viktigt: De här förbättringarna togs bort från förhandsvisningsmiljön den 8 november 2019 och kommer inte att ingå i 2019.4-versionen av Production. Dessa förbättringar kommer att läggas till i förhandsvisningsmiljön efter 2019.4-utgåvan av Production och kommer att göras tillgängliga för Production i en framtida version.</p> <p>Den nya listdesignen är nu tillgänglig i följande listor:</p> 
     <ul> 
      <li>Rapporter </li> 
      <li>Problem</li> 
@@ -82,8 +82,8 @@ En lista över alla ändringar som gjorts under 2019.4 finns på [Översikt öve
      <p>Påminnelser om kortkommandon finns nu i sökrutan med snabbfilter i listor för att göra det enklare för dig att komma åt filtren. </p> 
      <p>Kortkommandona är:</p> 
      <ul> 
-      <li><strong>I Windows (endast Internet Explorer):</strong> ALT+Skift+F</li> 
-      <li><strong>I Mac (alla webbläsare):</strong> Alt+F</li> 
+      <li><strong>I Windows (endast Internet Explorer):</strong> ALT+Skift+F</li> 
+      <li><strong>I Mac (alla webbläsare):</strong> Alternativ+F</li> 
      </ul> 
      <p>Snabbfilter finns i alla omdesignade listor. Information om de uppdaterade listorna och snabbfiltren finns i <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Kom igång med listor i Adobe Workfront</a>.</p>
     </div> </td> 

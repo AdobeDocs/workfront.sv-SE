@@ -9,7 +9,7 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ I det här avsnittet beskrivs hur du skapar ett korrektur med avancerade alterna
 
 API:t ProofHQ innehåller en rad åtgärder som inte är tillgängliga för korrektur i Workfront API. Genom att använda dessa åtgärder kan du ändra eller konfigurera korrekturet med större precision än vad som finns i Workfront API.
 
-En översikt över ProofHQ API finns i [PoofHQ - översikt](../../proofhq-api/general/overview.md). Du kan även använda [KorrekturHQ-dokumentation](https://api.proofhq.com/home.html).
+En översikt över API:t för Korrektur för högdagrar finns i [Översikt över högdagrar](../../proofhq-api/general/overview.md). Du kan även läsa [Korrektur för HQ-dokumentation](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
@@ -41,11 +41,11 @@ En översikt över ProofHQ API finns i [PoofHQ - översikt](../../proofhq-api/ge
 
 ### Skapa ett korrektur med avancerade korrekturfunktioner
 
-1. Skapa ett korrektur med `Document createProof` i Workfront API.
+1. Skapa ett korrektur med åtgärden `Document createProof` i Workfront API.
 
    >[!NOTE]
    >
-   När du skapar korrekturet anger du `{}` som värdet för `advancedProofingOptions` parameter.
+   >När du skapar korrekturet anger du `{}` som värde för parametern `advancedProofingOptions`.
 
 1. När korrekturet har skapats använder du API:t för Korrektur för att lägga till avancerade alternativ.
 
@@ -55,13 +55,13 @@ I det här avsnittet visas några exempeluppdateringar som du kan göra med API:
 
 **Exempel:**
 
-* [Ett korrektur kan laddas ned, har ett meddelande och delas offentligt](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [Ett korrektur kan hämtas, har ett meddelande och delas offentligt](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
 * [Uppdatera en fas så att den inte är privat, inte obligatorisk och endast kräver ett godkännande](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
 * [Lägg till två mottagare i ett korrektur utan primär beslutsfattare](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Ett korrektur kan laddas ned, har ett meddelande och delas offentligt**
+**Ett korrektur kan hämtas, har ett meddelande och delas offentligt**
 
-Dokumentation för den här slutpunkten finns på [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) sida.
+Dokumentation för den här slutpunkten finns på sidan [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html).
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -85,7 +85,7 @@ Dokumentation för den här slutpunkten finns på [ProofHQ API updateProof](http
 
 **Uppdatera en fas så att den inte är privat, inte obligatorisk och endast kräver ett godkännande**
 
-Dokumentation för den här slutpunkten finns på [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) sida.
+Dokumentation för den här slutpunkten finns på sidan [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) .
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -110,7 +110,7 @@ Dokumentation för den här slutpunkten finns på [ProofHQ API updateWorkflowPro
 
 **Lägg till två mottagare i ett korrektur utan primär beslutsfattare**
 
-Dokumentation för den här slutpunkten finns på [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) sida.
+Dokumentation för den här slutpunkten finns på sidan [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html).
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -149,17 +149,17 @@ I det här avsnittet beskrivs hur du skapar ett korrektur med avancerade korrekt
 
 ### Skapa ett korrektur med avancerade korrekturfunktioner
 
-Du kan skapa korrektur via Workfront API med `Document createProof` åtgärd. Den här åtgärden accepterar `advancedProofingOptions` parameter, som har värdetypen `string`. Ta med avancerade korrekturalternativ i `createProof` måste du ange alternativen i `advancedProofingOptions` i JSON-format.
+Du kan skapa korrektur med Workfront API genom att använda åtgärden `Document createProof`. Den här åtgärden accepterar parametern `advancedProofingOptions` som har värdetypen `string`. Om du vill inkludera avancerade korrekturalternativ i `createProof`-åtgärden måste du ange alternativen i parametern `advancedProofingOptions` i JSON-format.
 
 >[!NOTE]
 >
-Det kan vara svårt att förutsäga vilka fält som ska inkluderas i din avancerade korrekturinställningsalternativ för JSON. Du kanske vill granska organisationens nätverksdata samtidigt som du använder avancerad korrektur i Workfront och basera din JSON på de fält och värden som din organisation vanligtvis använder.
+>Det kan vara svårt att förutsäga vilka fält som ska inkluderas i din avancerade korrekturinställningsalternativ för JSON. Du kanske vill granska organisationens nätverksdata samtidigt som du använder avancerad korrektur i Workfront och basera din JSON på de fält och värden som din organisation vanligtvis använder.
 >
-Eftersom dessa fält kan vara svåra att förutse rekommenderar vi att du skapar ett korrektur med Workfront API och sedan uppdaterar det med API:t för Korrektur på HQ. Mer information finns i [Skapa ett korrektur med API:erna Workfront och ProofHQ (rekommenderas)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) i den här artikeln
+>Eftersom dessa fält kan vara svåra att förutse rekommenderar vi att du skapar ett korrektur med Workfront API och sedan uppdaterar det med API:t för Korrektur på HQ. Mer information finns i [Skapa ett korrektur med API:erna Workfront och ProofHQ (rekommenderas)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) i den här artikeln
 
 ### Exempel
 
-I det här exemplet visas fält och format som du kan använda när du skapar JSON för `advancedProofingOptions` parameter. Dina `advancedProofingOptions` JSON-filen kan ha fler eller färre fält än vad som visas här.
+I det här exemplet visas fält och formatering som du kan använda när du skapar JSON för parametern `advancedProofingOptions`. JSON-filen `advancedProofingOptions` kan ha fler eller färre fält än vad som visas här.
 
 **Exempel:**
 

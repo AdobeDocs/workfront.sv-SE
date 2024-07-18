@@ -7,7 +7,7 @@ role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
 source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge 
 
 >[!NOTE]
 >
->Detta skiljer sig från att ge en användare fullständig administrativ åtkomst till Workfront, vilket förklaras i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md). &#x200B;
+>Detta skiljer sig från att ge en användare fullständig administrativ åtkomst till Workfront, vilket förklaras i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md). &#x200B;
 
 ## Åtkomstkrav
 
@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,11 +51,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >
 >Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. (Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.)
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Åtkomstnivåer**.
+1. Klicka på **Åtkomstnivåer** i den vänstra panelen.
 1. Klicka på namnet på den åtkomstnivå som du vill använda för att ge användare administrativ åtkomst till vissa delar av Workfront.
-1. I **Tillåt administrativ åtkomst för** markerar du kryssrutor för att ge nödvändig administrativ åtkomst.
+1. I avsnittet **Tillåt administrativ åtkomst för** markerar du kryssrutorna för att ge nödvändig administrativ åtkomst.
 
    Med dessa alternativ kan du tilldela följande funktioner:
 
@@ -96,7 +96,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <li>Visa och redigera befintliga jobbroller</li> 
         <li>Lägg till nya jobbroller</li> 
         <li>Redigera rollfakturering och kostnadstariffer</li> 
-       </ul> <p><b>VIKTIGT</b>: Om du ger en planerare administratörsbehörighet för jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer automatiskt för användaren. Om du senare inaktiverar administrativ åtkomst till jobbroller för planeraren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad. Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till finansiella uppgifter</a>.</p> </td> 
+       </ul> <p><b>VIKTIGT</b>: Om du ger en planerare administratörsåtkomst till jobbroller aktiveras inställningen Redigera rollfakturering och kostnadstariffer för ekonomiska data automatiskt för användaren. Om du senare inaktiverar administrativ åtkomst till jobbroller för planeraren, visas jobbrollerna fortfarande för användaren eftersom inställningen Redigera rollfakturering och kostnadstariffer fortfarande är aktiverad. Om detta inträffar och du måste ta bort användarens åtkomst för att kunna visa jobbroller, måste du inaktivera användarens behörighetsinställning Redigera rollfakturering och kostnadstariffer. Instruktioner finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Milstolpar i min grupp</td> 
@@ -108,13 +108,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Tidrapporter och timmar</td> 
-      <td> <p>Tillåter användare att visa alla timmar och tidrapporter i Workfront.</p> <p>När det här alternativet är inaktiverat kan användare bara visa timmar på:</p> 
+      <td> <p>Låter användare visa alla timmar och tidrapporter i Workfront.</p> <p>När det här alternativet är inaktiverat kan användare bara visa timmar på:</p> 
        <ul> 
         <li>Projekt, uppgifter eller problem som de hanterar</li> 
         <li>Deras egen tidrapport</li> 
         <li>En tidrapport med någon som rapporterar till dem</li> 
         <li>En tidrapport som de godkänner</li> 
-       </ul> <p><b>ANMÄRKNING</b>:  <p>Vare sig det här alternativet är aktiverat eller inaktiverat kan gruppadministratörer skapa tidrapportprofiler för de grupper och undergrupper som de hanterar och tilldela dem till gruppmedlemmar vars användarprofiler de har tillgång till för redigering.</p> <p>Om du aktiverar det här alternativet kan det ge för mycket åtkomst för vissa gruppadministratörer eftersom de kan visa de tidrapporter som genereras av tidrapportprofiler (och timmar) för alla användare i systemet, inte bara för dem i de grupper de administrerar. Du kan inaktivera det här alternativet för gruppadministratörer som inte behöver så här mycket åtkomst.</p> </p> </td> 
+       </ul> <p><b>OBS</b>:  <p>Vare sig det här alternativet är aktiverat eller inaktiverat kan gruppadministratörer skapa tidrapportprofiler för de grupper och undergrupper som de hanterar och tilldela dem till gruppmedlemmar vars användarprofiler de har tillgång till för redigering.</p> <p>Om du aktiverar det här alternativet kan det ge för mycket åtkomst för vissa gruppadministratörer eftersom de kan visa de tidrapporter som genereras av tidrapportprofiler (och timmar) för alla användare i systemet, inte bara för dem i de grupper de administrerar. Du kan inaktivera det här alternativet för gruppadministratörer som inte behöver så här mycket åtkomst.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -124,4 +124,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >Du kan tillåta användare att ha administrativ åtkomst till användare. Mer information om hur du ger användare administrativ åtkomst till användare så att de kan hantera användarkonton finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Du kan tillåta användare att ha administrativ åtkomst till användare. Mer information om hur du ger användare administrativ åtkomst till användare så att de kan hantera användarkonton finns i [Bevilja åtkomst till användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).

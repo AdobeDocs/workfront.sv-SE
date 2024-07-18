@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Tillåtna åtgärder för utcheckade dokument
+## Åtgärder tillåts för utcheckade dokument
 
 Användare som hanterar åtkomst till dokumentet kan göra följande:
 
@@ -56,14 +56,14 @@ Användare som hanterar åtkomst till dokumentet kan göra följande:
 * Förhandsgranska dokumentet
 * Ladda ned dokumentet
 
-   >[!TIP]
-   >
-   > Även om en användare kan hämta ett dokument när det är utcheckat av en annan användare, rekommenderar vi att användare väntar tills dokumentet har checkats in igen innan de hämtar det. När ett dokument är utcheckat visar det ofta att det fortfarande pågår arbete med dokumentet. Väntar tills ett dokument har checkats in igen för att laddas ned ser till att användaren har den senaste versionen.
+  >[!TIP]
+  >
+  > Även om en användare kan hämta ett dokument när det är utcheckat av en annan användare, rekommenderar vi att användare väntar tills dokumentet har checkats in igen innan de hämtar det. När ett dokument är utcheckat visar det ofta att det fortfarande pågår arbete med dokumentet. Väntar tills ett dokument har checkats in igen för att laddas ned ser till att användaren har den senaste versionen.
 
 * Godkänn ett dokument eller tillämpa ett godkännande för dokumentet.
 * Granska dokumentet i korrekturläsaren
 
-   Mer information om korrektur finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md)
+  Mer information om korrektur finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md)
 
 ## Checka ut ett dokument
 
@@ -73,7 +73,7 @@ Om du har behörighet att hantera ett dokument kan du checka ut det för att fö
 
    Mer information om hur du lägger till dokument finns i [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Klicka på **Checka ut** icon ![](assets/check-out-25x23.png).
+1. Klicka på ikonen **Checka ut** ![](assets/check-out-25x23.png) .
 
 1. En låsikon ![](assets/lock-icon-locked-qs.png) visas till höger om dokumentnamnet. Dokumentet förblir utcheckat när du har loggat ut från Workfront.
 1. Endast den användare som checkade ut dokumentet eller Workfront-administratören kan checka in dokumentet.
@@ -87,7 +87,7 @@ Tänk på följande när det gäller utcheckade dokument:
 * Om Workfront-administratören tar bort en användare som har checkat ut ett dokument som han/hon äger och dokumentet överförs till ett objekt, förblir dokumentet utcheckat. Endast en Workfront-administratör kan checka in den igen.
 * Om Workfront-administratören tar bort en användare som har checkat ut ett dokument som han/hon äger och dokumentet bara överförs i dokumentområdet (inte på ett objekt), tas dokumentet bort med användaren.
 
-   Mer information om hur du tar bort användare finns i [Ta bort användare](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+  Mer information om hur du tar bort användare finns i [Ta bort användare](../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 * Om Workfront-administratören inaktiverar en användare förblir alla dokument som har checkats ut utcheckade. Endast en Workfront-administratör kan checka in dem igen. 
 
@@ -101,4 +101,4 @@ Så här checkar du in ett dokument:
 
    En låsikon ![](assets/lock-icon-locked-qs.png) visas till höger om dokumentnamnet.
 
-1. Klicka på **Checka in** icon ![](assets/check-in-25x22.png).
+1. Klicka på ikonen **Checka in** ![](assets/check-in-25x22.png) .

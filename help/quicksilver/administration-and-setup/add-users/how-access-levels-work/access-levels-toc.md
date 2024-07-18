@@ -29,4 +29,4 @@ Som Adobe Workfront-administratör kan du ge användare åtkomst att visa eller 
 ## Se även
 
 * Mer information om hur du skapar åtkomstnivåer finns i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
-* Mer information om hur användare kan dela objekt med varandra och bevilja behörigheterna Visa och Redigera för dessa objekt finns i [Bevilja och begär behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* Mer information om hur användare kan dela objekt med varandra, och om hur du beviljar behörigheterna Visa och Redigera för dessa objekt, finns i [Bevilja och begär behörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).

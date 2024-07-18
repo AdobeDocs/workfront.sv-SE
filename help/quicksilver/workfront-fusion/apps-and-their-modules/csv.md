@@ -10,14 +10,14 @@ feature: Workfront Fusion
 exl-id: 4e37482a-e84e-4ab2-a48f-7e7bfbecee56
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # CSV
 
-The [!DNL Adobe Workfront Fusion] [!UICONTROL CSV] Med -moduler kan du skapa CSV-filer och tolka CSV-text från ett mottaget textvärde eller en fil.
+Med modulerna [!DNL Adobe Workfront Fusion] [!UICONTROL CSV] kan du skapa CSV-filer och tolka CSV-text från ett mottaget textvärde eller en fil.
 
 ## Åtkomstkrav
 
@@ -38,31 +38,31 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Create CSV]
 
-The [!UICONTROL Create CSV] Med Aggregator kan du skapa en csv-text från mottagna textvärden.
+Med [!UICONTROL Create CSV]-aggregatorn kan du skapa en csv-text från mottagna textvärden.
 
-Mer information om aggregerare finns i [Aggregator-modulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+Mer information om aggregerare finns i [Aggregatormodulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -89,9 +89,9 @@ Mer information om aggregerare finns i [Aggregator-modulen i [!DNL Adobe Workfro
 
 ## [!UICONTROL Create CSV (advanced)]
 
-The [!UICONTROL Create CSV (advanced)] Med Aggregator kan du skapa en CSV-text från mottagna textvärden. Den använder en datastruktur som definierar CSV-kolumnerna i den resulterande CSV-filen. När kolumnerna har definierats visas de som fält i CSV-modulen och kan mappas till en senare modul i scenariot.
+Med [!UICONTROL Create CSV (advanced)]-aggregatorn kan du skapa en CSV-text från mottagna textvärden. Den använder en datastruktur som definierar CSV-kolumnerna i den resulterande CSV-filen. När kolumnerna har definierats visas de som fält i CSV-modulen och kan mappas till en senare modul i scenariot.
 
-Mer information om aggregerare finns i [Aggregator-modulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+Mer information om aggregerare finns i [Aggregatormodulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 
 <table style="table-layout:auto">
  <col> 
@@ -121,28 +121,28 @@ Mer information om aggregerare finns i [Aggregator-modulen i [!DNL Adobe Workfro
 </table>
 
 
-<p>Låt oss anta att du vill exportera dina Google-kontakter till en CSV-fil med två kolumner, "Fullständigt namn" och "E-post". Utdatapaketet från [!UICONTROL Google Contacts] &gt;[!UICONTROL Get contacts from a group] modulen har följande struktur. E-postadresserna lagras i <code>[!UICONTROL Emails[]]</code> objekt, som är en array med samlingar, där varje samling innehåller två objekt: <code>Label</code> och <code>Email</code>.</p>
+<p>Låt oss anta att du vill exportera dina Google-kontakter till en CSV-fil med två kolumner, "Fullständigt namn" och "E-post". Utdatapaketet från modulen [!UICONTROL Google Contacts] &gt;[!UICONTROL Get contacts from a group] har följande struktur. E-postadresserna lagras inuti <code>[!UICONTROL Emails[]]</code>-objektet, som är en array med samlingar, där varje samling innehåller två objekt: <code>Label</code> och <code>Email</code>.</p>
 <p> <img src="assets/transforming-350x546.png" style="width: 350;height: 546;"> </p>
-<p>Om du använder det enkla [!DNL Create CSV] visas en lista med kryssrutor som motsvarar ett pakets objekt på den översta nivån. Om du försöker kryssa <code>Full name</code> och <code>Emails</code> objekt, [!UICONTROL Create CSV] -modulen skapar följande utdata, vilket förmodligen inte är vad du vill ha:</p>
+<p>Om du använder den enkla [!DNL Create CSV]-modulen visas en lista med kryssrutor som motsvarar ett pakets objekt på den översta nivån. Om du försöker kryssa för <code>Full name</code> och <code>Emails</code> objekt skapar modulen [!UICONTROL Create CSV] följande utdata, vilket förmodligen inte är vad du vill ha:</p>
 <p>"emails","fullName"</p>
 <p>"[object Object]","Shon Winer"</p>
 <p>"[object Object]","Lizeth Fulmore"</p>
 <p>"[object Object]","Hilario Gullatt"</p>
 <p>"[object Object]","Abby Eisenbarth"</p>
-<p>Sedan objektet <code>Full Name</code> är av enkel text. Den exporteras bara fint. Men objektet <code>Emails</code>, som är en komplex typ av Array med samlingar, exporteras som [object Object], vilket är hur samlingar och arrayer omformas till text som standard. Mer information finns i <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Objektdatatyper i Adobe Workfront Fusion</a>.</p>
-<p>Så här exporterar du innehåll i <code>Email </code>objekt i den första samlingen i <code>Emails[]</code> i stället måste du använda [!UICONTROL Create CSV (advanced)] -modul. Med modulen kan du definiera enskilda kolumner i CSV-filen och mappa objekt till dem, inklusive de kapslade.</p>
+<p>Eftersom objektet <code>Full Name</code> är av enkel typ Text exporteras det bara fint. Men objektet <code>Emails</code>, som är av en komplex typ Array med samlingar, exporteras som [object Object], vilket är hur samlingar och arrayer omformas till text som standard. Mer information finns i <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Objektdatatyper i Adobe Workfront Fusion</a>.</p>
+<p>Om du i stället vill exportera innehåll för <code>Email </code>-objektet i den första samlingen av <code>Emails[]</code>-arrayen måste du använda [!UICONTROL Create CSV (advanced)]-modulen. Med modulen kan du definiera enskilda kolumner i CSV-filen och mappa objekt till dem, inklusive de kapslade.</p>
 <ol>
-<li value="1">Infoga modulen [!UICONTROL Create CSV (advanced)] i ett scenario och öppna konfigurationen.</li>
-<li value="2">Klicka på <strong>[!UICONTROL Add]</strong> knappen bredvid [!UICONTROL Data structure] för att skapa en ny datastruktur.</li>
-<li value="3"> <p>Skriv ett namn för datastrukturen och klicka på <strong>[!UICONTROL Add item]</strong> om du vill lägga till de enskilda kolumnerna. Om du vill exportera två kolumner: "Fullständigt namn" och "E-post" skulle den resulterande datastrukturen se ut så här:</p> <p> <img src="assets/google-contacts-350x524.png" style="width: 350;height: 524;"> </p> </li>
-<li value="4"> <p>När du har definierat datastrukturen ska fält som motsvarar varje enskild kolumn visas i konfigurationen för [!UICONTROL Create CSV (advanced)] så att du kan mappa objekten. Ta det första objektet från <code>[!UICONTROL Emails[]]</code> array och mappa dess objekt <code>Email </code>till fältet/kolumnen E-post:</p> <p> <img src="assets/create-csv-advanced-350x308.png" style="width: 350;height: 308;"> </p> </li>
-<li value="5"> <p>Kör scenariot. Sedan objektet <code>Emails[1]: Email</code> mappas till kolumnen"E-post" är av enkel typ Text, den exporteras korrekt nu:</p> <p>"Fullständigt namn","E-post"</p> <p>"Shon Winer","Shon@Winer.com"</p> <p>"Lizeth Fulmore","Lizeth@Fulmore.com"</p> <p>"Hilario Gullatt","Hilario@Gullatt.com"</p> <p>"Abby Eisenbarth","Abby@Eisenbarth.com"</p> </li>
+<li value="1">Infoga modulen [!UICONTROL Create CSV (advanced)] i ett scenario och öppna dess konfiguration.</li>
+<li value="2">Klicka på knappen <strong>[!UICONTROL Add]</strong> bredvid fältet [!UICONTROL Data structure] för att skapa en ny datastruktur.</li>
+<li value="3"> <p>Skriv ett namn för datastrukturen och klicka på knappen <strong>[!UICONTROL Add item]</strong> för att lägga till de enskilda kolumnerna. Om du vill exportera två kolumner: "Fullständigt namn" och "E-post" ser datastrukturen ut så här:</p> <p> <img src="assets/google-contacts-350x524.png" style="width: 350;height: 524;"> </p> </li>
+<li value="4"> <p>När du har definierat datastrukturen ska fält som motsvarar varje enskild kolumn visas i konfigurationen för modulen [!UICONTROL Create CSV (advanced)] så att du kan mappa objekten. Ta det första objektet från arrayen <code>[!UICONTROL Emails[]]</code> och mappa objektet <code>Email </code> till fältet/kolumnen E-post:</p> <p> <img src="assets/create-csv-advanced-350x308.png" style="width: 350;height: 308;"> </p> </li>
+<li value="5"> <p>Kör scenariot. Eftersom objektet <code>Emails[1]: Email</code> som är mappat till kolumnen"E-post" är av enkel typ, exporteras det korrekt nu:</p> <p>"Fullständigt namn","E-post"</p> <p>"Shon Winer","Shon@Winer.com"</p> <p>"Lizeth Fulmore","Lizeth@Fulmore.com"</p> <p>"Hilario Gullatt","Hilario@Gullatt.com"</p> <p>"Abby Eisenbarth","Abby@Eisenbarth.com"</p> </li>
 </ol>
 </div>
 
 ## [!UICONTROL Parse CSV]
 
-The [!UICONTROL Parse CSV] kan du tolka CSV-text från ett mottaget textvärde eller en fil.
+Med transformatorn [!UICONTROL Parse CSV] kan du tolka CSV-text från ett mottaget textvärde eller en fil.
 
 <table style="table-layout:auto">
  <col> 
@@ -162,7 +162,7 @@ The [!UICONTROL Parse CSV] kan du tolka CSV-text från ett mottaget textvärde e
     <ul> 
      <li>[!UICONTROL Comma]</li> 
      <li>[!UICONTROL Tab]</li> 
-     <li> <p>[!UICONTROL Other]</p> <p>Om du väljer [!UICONTROL Other]anger du det avgränsningstecken som CSV-filen använder för att avgränsa värden. Du måste ange exakt ett tecken.<br></p> </li> 
+     <li> <p>[!UICONTROL Other]</p> <p>Om du väljer [!UICONTROL Other] anger du avgränsningstecknet som CSV-filen använder för att avgränsa värden. Du måste ange exakt ett tecken.<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

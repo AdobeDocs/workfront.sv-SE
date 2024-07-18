@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1468'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,7 @@ ht-degree: 0%
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
-
-Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Översikt över hur du ändrar problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -37,17 +31,17 @@ Du kan tilldela utgåvor till användare, roller och team för att ange vem som 
 
 Utöver den här artikeln rekommenderar vi att du läser följande artiklar för mer information om hur du tilldelar problem:
 
-* [Översikt över ändring av utgivningstilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Översikt över att ändra problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Redigera problem](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Ändra användartilldelningar för flera utgåvor i en lista](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
-* [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Gör smarta uppdrag](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Skapa avancerade tilldelningar](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Gör smarta tilldelningar](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Översikt över smarta tilldelningar](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 Du kan tilldela en utgåva till en eller flera resurser på en enskild utgåva eller tilldela flera resurser till flera utgåvor samtidigt.
 
-Att tilldela ärenden och uppgifter är detsamma som i Adobe Workfront. Allmän information om hur du tilldelar uppgifter finns i [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Att tilldela ärenden och uppgifter är detsamma som i Adobe Workfront. Allmän information om hur du tilldelar uppgifter finns i [Översikt över hur du ändrar aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Åtkomstkrav
 
@@ -69,11 +63,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till problem</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter för det objekt där du kopierar problemet med möjlighet att lägga till problem.</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst för användare</a>.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter till det objekt där du kopierar problemet med möjligheten att lägga till problem.</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst till användare</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,29 +108,25 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
 ## Tilldela en utgåva
 
 1. Gå till ett ärende som du vill tilldela.
-1. Klicka **Tilldela till** i det övre högra hörnet av utgåvans rubrik, i **Uppdrag** area
+1. Klicka på **Tilldela till** i det övre högra hörnet av ärendehuvudet i området **Uppdrag**
 
    eller
 
    Klicka på namnet på de aktuella tilldelningarna, om utgåvan redan har tilldelats.
 
-   ![Knappen Tilldela till](assets/assign-to-button-in-header.png)
+   ![Tilldela till knapp](assets/assign-to-button-in-header.png)
 
 1. Gör något av följande:
 
    * Börja skriva namnet på en användare, roll eller team som du vill tilldela och klicka sedan på den när den visas i listan.
 
-     Exempelbild i produktionsmiljön:
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-     <span class="preview">![Uppdragssökning](assets/smart-assignments-issue-header.png)</span>
+     ![Uppdragssökning](assets/smart-assignments-issue-header.png)
 
    * (Villkorligt) Klicka på ett av namnen, rollerna eller teamen i de tillgängliga listorna
-   * Klicka **Tilldela mig** tilldela den till dig själv
-   * Klicka **Avancerat**.
+   * Klicka på **Tilldela mig** för att tilldela den till dig själv
+   * Klicka på **Avancerat**.
 
-     Att skapa avancerade uppdrag fungerar ungefär på samma sätt för uppgifter och ärenden. Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Att skapa avancerade uppdrag fungerar ungefär på samma sätt för uppgifter och ärenden. Mer information om hur du gör avancerade tilldelningar finns i [Skapa avancerade tilldelningar](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
      >[!TIP]
      >
@@ -151,8 +141,8 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. Klicka **Spara** för att slutföra tilldelningen av problemet.
-1. (Valfritt) Klicka på **X-ikon** bredvid namnet på tilldelningarna i uppdragsområdet i huvudet på utgåvan för att ta bort en tilldelning.
+1. Klicka på **Spara** för att slutföra tilldelningen av problemet.
+1. (Valfritt) Klicka på ikonen **X** bredvid namnet på tilldelningarna i området Uppdrag i huvudet på utgåvan för att ta bort en tilldelning.
 
 ## Tilldela en utgåva i en lista
 
@@ -171,16 +161,12 @@ Så här tilldelar du utgåvor i en lista:
 1. Gå till en lista med problem som har fälten Tilldelad, Tilldelad eller Uppdrag i vyn.
 1. Gör något av följande om du vill tilldela problem:
 
-   * Klicka inuti **Tilldelad till** eller **Tilldelad** fält och börja skriva namnet på en aktiv användare som du vill tilldela utgåvan och klicka sedan på den när den visas i listan.
+   * Klicka i fälten **Tilldelad till** eller **Tilldelad** och börja skriva namnet på en aktiv användare som du vill tilldela utgåvan och klicka sedan på den när den visas i listan.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * Klicka inuti **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela till utgåvan och klicka sedan på det när det visas i listan.
+   * Klicka i fältet **Uppdrag** och börja skriva namnet på en aktiv användare, jobbroll eller aktivt team som du vill tilldela utgåvan. Klicka sedan på den när den visas i listan.
 
-     Exempelbild i produktionsmiljön:
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
      ![Uppdragsfält](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
@@ -192,7 +178,7 @@ Så här tilldelar du utgåvor i en lista:
    >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Villkorligt) Klicka på knappen **Ikonen Personer** ![](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Villkorligt) När den visas i fältet Uppdrag klickar du på ikonen **Personer** ![](assets/teams.png) i det övre högra hörnet av uppdragsrutan för att öppna rutan Avancerade uppdrag och skapa avancerade uppdrag. Mer information finns i [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -204,23 +190,23 @@ Så här tilldelar du utgåvor i en lista:
 
 1. Gå till en lista över problem som du vill tilldela gruppvis.
 1. Markera flera problem i listan.
-1. Klicka på **Ikonen Redigera** ![](assets/qs-edit-icon.png).
+1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png).
 
-   The **Redigera problem** öppnas.
+   Dialogrutan **Redigera problem** öppnas.
 
-1. I **Uppdrag** markerar du **Tilldelad** börjar du sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela till alla utgåvor.
+1. I området **Tilldelningar** markerar du rutan **Tilldelad** och börjar sedan skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela alla utgåvor.
 
    >[!IMPORTANT]
    >
    >Om något av problemen redan har tilldelats läggs de resurser du anger här till i problemen i stället för att ersätta de befintliga resurserna i problemen.
 
-1. (Valfritt) Markera alternativknappen i dialogrutan **Ärendeägare** kolumn som anger vilken resurs som är den primära tilldelaren eller ägaren av utgåvan när du tilldelar mer än en resurs till utgåvan. Detta är inte tillgängligt för team.
-1. (Valfritt) Välj en roll som användaren ska fylla i problemet från **Välj en roll** nedrullningsbar meny i **Uppdragarens roll** när du tilldelar användare till utgåvor. Om du inte väljer någon roll väljs automatiskt användarens primära roll.
+1. (Valfritt) Markera alternativknappen i kolumnen **Utgivningsägare** för att ange vilken resurs som är den primära tilldelaren eller ägaren av utgåvan när du tilldelar mer än en resurs till utgåvan. Detta är inte tillgängligt för team.
+1. (Valfritt) Välj en roll som användaren ska fylla i problemet i listrutan **Välj en roll** i kolumnen **Tilldelningens roll** när du tilldelar användare till utgåvor. Om du inte väljer någon roll väljs automatiskt användarens primära roll.
 
 1. (Valfritt) Om du vill ta bort befintliga tilldelningar från alla utgåvor gör du något av följande:
 
-   1. Börja skriva namnet på en användare, roll eller team som du vill ta bort från utgåvan, markera det när det visas i listan och klicka på **Ta bort tilldelad** om du vill lägga till ytterligare tilldelningar som ska tas bort.
-   1. Klicka **Ta bort alla befintliga tilldelningar** om du vill ta bort alla tilldelningar från alla markerade utgåvor.
+   1. Börja skriva namnet på en användare, roll eller team som du vill ta bort från utgåvan, markera den när den visas i listan och klicka på **Ta bort tilldelningar** för att lägga till ytterligare tilldelningar som ska tas bort.
+   1. Klicka på **Ta bort alla befintliga tilldelningar** om du vill ta bort alla tilldelningar från alla markerade utgåvor.
 
-1. Klicka **Spara ändringar**.
-1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med utgåvor klickar du i en av dessa kolumner för ett problem och klickar sedan på **X-ikon** bredvid namnet på en tilldelad som ska ta bort den från utgåvan.
+1. Klicka på **Spara ändringar**.
+1. (Valfritt och villkorligt) När fälten Tilldelad till eller Uppdrag visas i listan med utgåvor klickar du i en av dessa kolumner för ett problem och sedan på ikonen **X** bredvid namnet på en tilldelad för att ta bort den från utgåvan.

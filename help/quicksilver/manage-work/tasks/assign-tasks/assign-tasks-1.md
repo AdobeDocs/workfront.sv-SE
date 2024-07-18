@@ -25,11 +25,11 @@ Du kan hantera uppgifter på olika sätt i Adobe Workfront. Metoderna i det här
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Översikt över ändring av uppgiftstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [Översikt över ändring av aktivitetstilldelningar](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-* [Skapa avancerade uppdrag](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Gör smarta uppdrag](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
+* [Skapa avancerade tilldelningar](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Översikt över smarta tilldelningar](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Gör smarta tilldelningar](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Ändra flera användartilldelningar i en uppgiftslista](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Hantera användar- och rollallokeringstimmar för uppgifter](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+* [Hantera användar- och rolltilldelningstimmar för aktiviteter](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
 * [Hantera användar- eller rollallokeringsprocent för uppgifter](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

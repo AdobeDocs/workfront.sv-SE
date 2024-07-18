@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: Organisationer i [!DNL Adobe Workfront Fusion]
+title: Organisationer i  [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront license].
 
 Det här avsnittet innehåller följande artiklar:
 
 * [[!DNL Adobe Workfront Fusion] organisationer och team](../../workfront-fusion/organizations/organizations-and-teams.md)
-* [Lägga till en användare i en organisation i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md)
-* [Hantera användare i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md)
-* [Organisationsroller i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)
+* [Lägg till en användare i en organisation i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/add-user-to-an-organization.md)
+* [Hantera användare i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/manage-fusion-users.md)
+* [Organisationsroller i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md)

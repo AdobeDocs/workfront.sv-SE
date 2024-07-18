@@ -72,7 +72,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Workfront Pl
 <tr>
    <td role="rowheader"><p>Objektbehörigheter</p></td>
    <td>
-   <p>Contribute eller högre behörigheter för arbetsytor och vyer som du inte skapat för att redigera, ta bort och dela dem samt för att skapa, redigera eller ta bort posttyper och poster.</p>
+   <p>Contribute eller högre behörighet till arbetsytor och vyer som du inte har skapat för att redigera, ta bort och dela dem samt för att skapa, redigera eller ta bort posttyper och poster.</p>
     <p>Systemadministratörer kan hantera arbetsytor som de inte skapade. </p>
     <p>Systemadministratörer kan inte hantera vyer som de inte skapade. </p>
    <p>Information om delningsbehörigheter för Workfront Planning-objekt finns i  
@@ -81,7 +81,7 @@ Du måste ha följande inställningar för att kunna använda Adobe Workfront Pl
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Anpassa huvudmenyn med hjälp av en layoutmall</a> och <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Tilldela användare till en layoutmall</a>. </p>  
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Anpassa huvudmenyn med en layoutmall</a> och <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Tilldela användare till en layoutmall</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -98,7 +98,7 @@ När organisationen har registrerats i Workfront Planning Program kan du lägga 
 
 1. Logga in på **Workfront** som Workfront-administratör.
 
-1. Lägg till **Planering** icon ![](assets/planning-icon.png) till **Huvudmeny** med **Layoutmall**.
+1. Lägg till ikonen **Planering** ![](assets/planning-icon.png) på **huvudmenyn** med en **layoutmall**.
 
    Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
@@ -116,7 +116,7 @@ Det finns inga åtkomstkontroller för Workfront Planning.
 
 Användare med alla typer av licenser har tillgång till Workfront Planning.
 
-Information om hur du beviljar åtkomst i Workfront finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Mer information om att bevilja åtkomst i Workfront finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Bevilja behörigheter
 
@@ -126,6 +126,6 @@ Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront
 
 Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra och hantera Workfront Planning-objekt.
 
-Information om hur licenstyper påverkar behörighetsnivåer för Workfront Planning-objekt finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Information om hur licenstyperna påverkar behörighetsnivåer för Workfront Planning-objekt finns i [Översikt över licenstypen när Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md) används.
 
 

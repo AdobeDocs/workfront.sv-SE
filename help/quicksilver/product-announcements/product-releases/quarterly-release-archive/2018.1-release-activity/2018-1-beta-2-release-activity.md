@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Beta 2-lanseringsaktivitet
+title: 2018.1 Beta 2 - versionsaktivitet
 description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 14 december 2017. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 author: Luke
 feature: Product Announcements
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Beta 2-lanseringsaktivitet
+# 2018.1 Beta 2 - versionsaktivitet
 
 Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 14 december 2017. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 
@@ -22,9 +22,9 @@ Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmil
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för 2018.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Beta 2-versionen från 2018.1 innehåller förbättringar för både Workfront-administratörer och andra användare:
+2018.1 Beta 2 innehåller förbättringar för både Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -32,10 +32,10 @@ Beta 2-versionen från 2018.1 innehåller förbättringar för både Workfront-a
 
 **För alla användare**
 
-* [Systembred widescreen-skärm](#system-wide-widescreen-display)
+* [Systembred widescreenskärm](#system-wide-widescreen-display)
 * [Ändra storlek på ögonblicksbild av tidslinje i Gantt-schema](#resize-timeline-snapshot-on-the-gantt-chart)
 * [Interaktiv resursplanerare i affärsärendet](#interactive-resource-planner-in-the-business-case)
-* [Visualisering i resursplaneraren - diagram över användarallokering](#visualization-in-the-resource-planner-user-allocation-chart)
+* [Visualisering i resursplaneraren - användarallokeringsschema](#visualization-in-the-resource-planner-user-allocation-chart)
 * [Förbättringar i hemområdet](#improvements-in-the-home-area)
 * [Förbättringar av nya korrekturläsare](#new-proofing-viewer-improvements) 
 
@@ -43,12 +43,12 @@ Beta 2-versionen från 2018.1 innehåller förbättringar för både Workfront-a
 
 Nu kan du utse gruppadministratörer i Workfront. Fältet Gruppägare har bytt namn till gruppadministratör, och användare som har utsetts till gruppadministratörer har ytterligare behörigheter för att hantera användare och layoutmallar för de grupper som de hanterar.
 
-* [Användarhantering efter gruppadministratör](#user-management-by-group-administrator)
+* [Användarhantering per gruppadministratör](#user-management-by-group-administrator)
 * [Hantering av layoutmallar per gruppadministratör](#layout-template-management-by-group-administrators)
 
 ### Användarhantering efter gruppadministratör {#user-management-by-group-administrator}
 
-Vi introducerar det nya konceptet **gruppadministratör**. Som stöd för detta finns **Gruppägare** fältet har bytt namn till **gruppadministratör** och de användare som har utsetts till gruppadministratörer har ytterligare behörigheter för att hantera användare och grupper.
+Vi presenterar det nya konceptet **gruppadministratör**. Som stöd för detta har fältet **Gruppägare** bytt namn till **gruppadministratör** och de användare som har angetts som gruppadministratörer har ytterligare behörighet att hantera användare och grupper.
 
 Förutom de behörigheter som gruppägaren tidigare hade för att hantera användare, har gruppadministratören nu följande extra åtkomst när de hanterar användare i de grupper där de har angetts som gruppadministratör:
 
@@ -112,7 +112,7 @@ Diagrammet innehåller följande information:
 
 Före den här ändringen kunde du bara visa allokeringen och tillgängligheten för enskilda användare i tabellformat.
 
-Mer information om användarallokeringsschemat i resursplaneraren finns i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om användarallokeringsschemat i resursplaneraren finns i [Översikt över resursplaneraren](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Förbättringar i hemområdet {#improvements-in-the-home-area}
 
@@ -130,14 +130,14 @@ Det finns nu flera förbättringar på Hem-området, bland annat:
 
 * När du har klickat på&quot;Arbeta med den&quot; på en begäran visas fälten som är kopplade till problemet i den högra panelen.
 
-  Mer information om hur du arbetar med begäranden från hemområdet finns i [Hantera arbets- och teamförfrågningar på Hem-området](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) in [Hantera arbets- och teamförfrågningar på Hem-området](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+  Mer information om hur du arbetar med begäranden från Hem-området finns i [Hantera arbets- och teamförfrågningar i Hem](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md) i [Hantera arbets- och teamförfrågningar i Hem-området](../../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
 * Peka på en avatar för en användare på ett arbetsobjekt i den vänstra panelen för att visa namnet på användaren.
 * Expandera området&quot;Sena&quot; i den vänstra panelen om du vill visa alla sena objekt (när det här området är komprimerat visas endast de första fem objekten).
 * När du har markerat ett objekt som fullständigt behålls objektet i den vänstra panelen tills du markerar ett annat objekt.\
-  Mer information om hur du visar slutförda objekt finns i [Visa objekt i arbetslista i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) in [Visa objekt i arbetslista i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Mer information om hur du visar slutförda objekt finns i [Visa objekt i arbetslistan i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) i [Visa objekt i arbetslistan i hemområdet](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-Mer information om hur du använder den nya hemsidan, samt information om skillnader i funktionalitet mellan Mitt arbete och Hem, finns i [Använda området Hem](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Mer information om hur du använder den nya Hem-delen, samt information om skillnader i funktionalitet mellan Mitt arbete och Hem, finns i [Använda Hem](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 ## Förbättringar av nya korrekturläsare  {#new-proofing-viewer-improvements}
 
@@ -149,7 +149,7 @@ Mer information om hur du använder den nya hemsidan, samt information om skilln
 
 ### Förbättrad layout och design {#improved-layout-and-design}
 
-Språkvisningsprogrammet har ett uppdaterat utseende och en uppdaterad känsla. Följande områden i korrekturläsaren uppdaterades:
+Språkvisningsprogrammet har ett uppdaterat utseende och en uppdaterad känsla. The  följande områden i korrekturläsaren uppdaterades:
 
 * Miniatyrområde
 

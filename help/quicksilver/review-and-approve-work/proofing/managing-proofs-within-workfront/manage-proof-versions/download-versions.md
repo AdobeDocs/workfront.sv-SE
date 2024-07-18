@@ -27,14 +27,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -44,18 +44,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Ladda ned en provversion
 
 1. Klicka på korrekturet i dokumentlistan.
-1. I sammanfattningen, under **Versioner** klickar du på Mer-menyn ![](assets/more-icon.png) till höger om versionen och klicka sedan på **Hämta** i listrutan som visas.
+1. Klicka på menyn Mer ![](assets/more-icon.png) till höger om versionen under **Versioner** i Sammanfattning och klicka sedan på **Hämta** i listrutan som visas.
 
    ![](assets/more-versions-350x143.png)
 
 ## Hämta alla versioner av ett korrektur
 
 1. Klicka på korrekturet i dokumentlistan.
-1. Klicka **Dokumentinformation** väljer **Alla versioner** i den vänstra panelen.
+1. Klicka på **Dokumentinformation** och välj sedan **Alla versioner** i den vänstra panelen.
 
-1. Klicka **Hämta alla** högst upp i listan.
+1. Klicka på **Hämta alla** överst i listan.

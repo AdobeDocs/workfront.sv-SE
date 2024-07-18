@@ -1,6 +1,6 @@
 ---
-title: Aktivitet för Workfront Fusion:&nbsp;Vecka den 7 februari 2022
-description: Aktivitet för Workfront Fusion:&nbsp;Vecka den 7 februari 2022
+title: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 7 februari 2022
+description: Aktivitet för Workfront Fusion-release:&nbsp;Vecka den 7 februari 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion under veckan 7 februari 2022.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Anaplan-anslutning och moduler är nu tillgängliga
 

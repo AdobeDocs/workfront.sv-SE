@@ -11,7 +11,7 @@ role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '739'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,14 +45,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa och hantera medlemskap i en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper**.
+1. Klicka på **Grupper** i den vänstra panelen.
 
    I den lista som visas kan Workfront-administratörer se alla grupper och undergrupper. Gruppadministratörer kan bara se de grupper och undergrupper som de administrerar.
 
 1. Klicka på namnet på gruppen som du vill redigera.
-1. På sidan som visas med **Gruppmedlemmar** gör något av följande om du väljer något i den vänstra menyn:
+1. Gör något av följande på sidan som visas när **Gruppmedlemmar** är markerat på den vänstra menyn:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -62,9 +62,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">Lägg till en användare i gruppen</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">Klicka <strong>Lägg till medlemmar</strong> <img src="assets/add-icon-plus-in-circle.png">börjar du skriva användarens namn och markerar det när det visas.</li> 
+        <li value="1">Klicka på <strong>Lägg till medlemmar</strong> <img src="assets/add-icon-plus-in-circle.png">, börja skriva användarens namn och markera det när det visas.</li> 
         <li value="2"> <p>Upprepa detta för alla andra användare som du vill lägga till.</p> <p>Du kan klicka på krysset till höger om ett namn om du inte vill lägga till användaren.</p> </li> 
-        <li value="3">Klicka <strong>Klar</strong> när du är klar.</li> 
+        <li value="3">Klicka på <strong>Klar</strong> när du är klar.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -72,7 +72,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Ta bort medlem</strong><img src="assets/remove-icon---x-in-circle.png">.</li> 
-        <li value="2"> <p>Klicka <strong>Ta bort</strong> i varningsmeddelandet som visas.</p> <p>Du kan hitta en användare som du vill ta bort från listan genom att klicka på <strong>Söka efter personer och grupper i listan</strong>, skriver deras namn i rutan och klickar sedan på namnet när det visas.</p> <p><b>ANMÄRKNING</b>:  
+        <li value="2"> <p>Klicka på <strong>Ta bort</strong> i varningsmeddelandet som visas.</p> <p>Du kan hitta en användare som du vill ta bort från listan genom att klicka på <strong>Sök efter personer och grupper i listan</strong>, skriva deras namn i rutan och sedan klicka på namnet när det visas.</p> <p><b>OBS</b>:  
           <ul> 
            <li>Om den här gruppen är hemgruppen för en användare som du vill ta bort måste du först tilldela en annan hemgrupp i användarens profil. Mer information finns i <a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">Översikt över hemgrupper</a> och <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.</li> 
            <li>Om gruppen bara har en gruppadministratör och du behöver ta bort honom eller henne från gruppen, måste du tilldela en annan gruppadministratör till gruppen först.</li> 
@@ -93,12 +93,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
         <li value="1">Markera ett eller flera användarnamn och klicka sedan på <strong>Exportera</strong> <img src="assets/export.png">.</li> 
-        <li value="2"> <p>Exportera data som en PDF-, Excel- eller tabbavgränsad fil.</p> <p>Mer information om att exportera data finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </li> 
+        <li value="2"> <p>Exportera data som en PDF, Excel eller tabbavgränsad fil.</p> <p>Mer information om att exportera data finns i <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportera data</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Visa och redigera medlemmarnas grupproller</td> 
-      <td> <p>The <strong>Grupproll</strong> -kolumnen listar varje medlems roll. Som gruppadministratör kan du dubbelklicka på en medlems roll för att ändra den.</p> <p>För medlemmar i gruppen som inte är gruppadministratörer går det inte att redigera den här kolumnen.</p> <p>Gruppadministratörer visas alltid överst i listan.</p> </td> 
+      <td> <p>I kolumnen <strong>Grupproll</strong> visas varje medlems roll. Som gruppadministratör kan du dubbelklicka på en medlems roll för att ändra den.</p> <p>För medlemmar i gruppen som inte är gruppadministratörer går det inte att redigera den här kolumnen.</p> <p>Gruppadministratörer visas alltid överst i listan.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Skicka en kommentar till gruppmedlemmar</td> 

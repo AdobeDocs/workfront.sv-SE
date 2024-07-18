@@ -37,13 +37,13 @@ Risker för ett projekt och deras potentiella kostnader finns i följande områd
 
 * På fliken Risker i projektet.
 * I Översikt över affärsärenden.\
-   Mer information om ett projekts affärsfall finns i artikeln [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Mer information om ett projekts affärsfall finns i artikeln [Skapa ett affärsärende för ett projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 * I en projektrapport när du lägger till fältet Planerad riskkostnad i rapportens kolumner.\
-   Mer information om hur du skapar rapporter i Workfront finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar rapporter i Workfront finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 * I Portfolio-optimering, när projektet är kopplat till ett Portfolio, i riskkolumnen.\
-   Summan av alla potentiella riskkostnader för alla projekt i portföljen adderar till risken för Portfolio.\
-   Mer information om Portfolio-optimering finns i artikeln [Portfolio Optimizer - översikt](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Summan av alla potentiella riskkostnader för alla projekt i portföljen adderar till risken för Portfolio.\
+  Mer information om optimering av Portfolio finns i artikeln [Översikt över optimering av Portfolio](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 Mer information om hur du skapar risker i ett projekt finns i artikeln [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 

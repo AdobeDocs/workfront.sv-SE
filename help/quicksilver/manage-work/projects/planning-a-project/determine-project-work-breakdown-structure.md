@@ -54,14 +54,14 @@ Om du vill definiera strukturresultat och slutprodukter i Workfront rekommendera
   Mer information om hur du skapar uppgifter finns i artikeln [Skapa uppgifter i ett projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md) .
 
 * Identifiera vilka som är de viktigaste resultaten av de uppgifter du just har skapat och koppla dem till milstolparna.\
-  Mer information om hur du skapar milstolpeuppgifter finns i artiklarna [Skapa en milstolpe-bana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Koppla milstolpar till uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+  Mer information om hur du skapar milstolpeuppgifter finns i artiklarna [Skapa en milstolpebana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) och [Associera milstolpar med uppgifter](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Dela upp uppgifter med för stort omfång i underaktiviteter. Koppla dem till den överordnade som definierar din slutprodukt.\
   Mer information om hur du skapar underaktiviteter finns i artikeln [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Identifiera beroendeförhållanden mellan underaktiviteter och mellan milstolpar.\
   I en beroenderelation är starten av en uppgift beroende av att en annan uppgift eller grupp av uppgifter har slutförts.\
-  Mer information om uppgiftsberoenden finns i artiklarna [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) och [Skapa en föregående relation i uppgiftslistan](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+  Mer information om aktivitetsberoenden finns i artiklarna [Översikt över aktivitetsföregångare](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) och [Skapa en föregående relation i uppgiftslistan](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
 * Fastställ om det behövs godkännanden och granskningar under projektets livstid. Skapa godkännandeprocesser som tillgodoser detta behov.\
   Mer information om godkännanden finns i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -74,13 +74,13 @@ Tänk på följande:
 
 * Uppgiftsbegränsningar definierar när arbete med en uppgift måste påbörjas eller avslutas.
 
-  Mer information om hur du definierar uppgiftsbegränsningar finns i artikeln [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  Mer information om hur du definierar uppgiftsbegränsningar finns i artikeln [Översikt över uppgiftsbegränsningar](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * En uppgifts varaktighet är den tidsram som är tillgänglig för att slutföra en uppgift. När du beräknar Varaktighet kanske du vill ange ett värde som tar hänsyn till möjligheten till en fördröjning. Om liknande projekt har slutförts tidigare kan det vara bra att ange det här värdet.
 
   Eftersom varaktighet är en uppskattning bör du se till att fastställa optimistiska tidsvärden för att ta hänsyn till faktorer som kan påverka uppgiften, t.ex. väder, strömavbrott, leverantörssvårigheter eller andra oförutsedda händelser. Se även till att du tar hänsyn till om det finns några associerade föregående- eller beroendeuppgifter och hur de kan placera begränsningar i arbetet och påverka slutförandet av uppgifter.
 
-  Beroende på aktivitetens varaktighetstyp kan du ändra varaktigheten för en aktivitet under ett projekts livstid, men detta påverkar även tidslinjen för projektet. Mer information om varaktigheten för en uppgift finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Beroende på aktivitetens varaktighetstyp kan du ändra varaktigheten för en aktivitet under ett projekts livstid, men detta påverkar även tidslinjen för projektet. Mer information om varaktigheten för en aktivitet finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Tilldela uppgifter
 
@@ -94,7 +94,7 @@ När du har definierat varaktigheten och begränsningarna för varje uppgift kan
 * Jobbroller
 * Team
 
-Mer information om hur du tilldelar uppgifter finns i artiklarna i [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md) -avsnitt.
+Mer information om hur du tilldelar uppgifter finns i artiklarna i avsnittet [Tilldela uppgifter](../../../manage-work/tasks/assign-tasks/assign-tasks-1.md).
 
 ## Hantera resurser
 
@@ -108,7 +108,7 @@ I början av ett räkenskapsår eller ett kvartal kanske du vill hantera dina re
 Mer information om hur du planerar att använda dina resurser på en högre nivå finns i artikeln [Kom igång med resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 När du hanterar dina resurser i samband med att du skapar arbetsfördelningsstrukturen för ett projekt och ser till att varje uppgift tilldelas rätt resurs, är du redo att schemalägga dina resurser för det arbete som behöver utföras.\
-Mer information om hur du schemalägger resurser finns i artiklarna i [Utjämning av arbetsbelastning: artikelindex](../../../resource-mgmt/workload-balancer/workload-balancer.md) -avsnitt.
+Mer information om att schemalägga resurser finns i artiklarna i avsnittet [Arbetsbelastningsutjämning: artikelindex](../../../resource-mgmt/workload-balancer/workload-balancer.md).
 
 ## Uppskatta projektekonomi
 
@@ -133,7 +133,7 @@ Om du vill veta mer om strukturen för ett projekt vill du visa följande uppgif
 
 När du är klar med strukturlistan kan du visa den i en uppgiftslista på projektnivå eller i en rapport.
 
-* [Visa strukturlistan i en uppgiftslista](#view-the-wbs-in-a-task-list)
+* [Visa strukturen i en uppgiftslista](#view-the-wbs-in-a-task-list)
 * [Visa strukturlistan i en uppgiftsrapport](#view-the-wbs-in-a-task-report)
 
 ### Visa strukturlistan i en uppgiftslista {#view-the-wbs-in-a-task-list}
@@ -141,12 +141,12 @@ När du är klar med strukturlistan kan du visa den i en uppgiftslista på proje
 Du kan visa uppgiftslistan på projektnivå.
 
 1. Gå till det projekt som du vill visa strukturen för arbetsfördelning för.
-1. Välj **Uppgifter** -fliken.
-1. (Valfritt) Välj **Ingenting** i **Gruppering** listruta.
+1. Välj fliken **Åtgärder**.
+1. (Valfritt) Välj **Ingenting** i listrutan **Gruppering**.
 
    Arbetsfördelningsstrukturen visar inte indraget för uppgifterna i strukturen.
 
-1. Från **Visa** och väljer **Arbetsfördelning** vy.
+1. I listrutan **Visa** och välj vyn **Arbetsfördelning** .
 
    Arbetsfördelningsstrukturen visas i den andra kolumnen i den valda vyn.
 

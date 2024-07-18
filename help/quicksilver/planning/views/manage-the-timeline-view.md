@@ -92,7 +92,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Hantera en tidslinjevy {#manage-a-timeline-view}
@@ -129,23 +129,23 @@ Så här hanterar du en tidslinjevy:
 1. Navigera genom tidslinjen på något av följande sätt:
 
    * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen.
-   * Klicka **Idag** för att centrera tidslinjen till dagens datum.
+   * Klicka på **Idag** för att centrera tidslinjen till dagens datum.
    * Välj något av följande alternativ i listrutan Tidsram för att uppdatera tidsstegen:
 
       * År
       * Kvartal
       * Månad
-1. Klicka **Växla till Standard** visa poster på separata rader <!--check to see if they updated the name of the setting here-->
+1. Klicka på **Växla till standardvyn** om du vill visa poster på separata rader <!--check to see if they updated the name of the setting here-->
 
    eller
 
-   Klicka **Växla till komprimerad vy** för att visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
+   Klicka på **Växla till komprimerad vy** för att visa de poster vars datum inte överlappar på samma rad. <!--check to see if they updated the name of the setting here-->
 
    Poster visas som standard i den komprimerade vyn.
 
 1. Gör följande för att snabbt hitta poster som matchar ett nyckelord:
 
-   1. Klicka på **Sök** icon ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med valfritt fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
+   1. Klicka på ikonen **Sök** ![](assets/search-icon.png) och börja skriva ett nyckelord som är associerat med ett fält i en post som visas på skärmen. Antalet korrekta matchningar visas bredvid sökobjektet och posten med rätt matchning markeras.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
@@ -155,7 +155,7 @@ Så här hanterar du en tidslinjevy:
 
    1. Tryck på Retur på tangentbordet för att gå till nästa sökbara fält.
    1. (Valfritt) Om det finns mer än en matchning klickar du på upp- och nedpilarna till höger om söknyckelordet för att hitta alla matchningar i tabellen.
-   1. Klicka på **x** -ikonen i sökrutan för att rensa sökordet.
+   1. Klicka på ikonen **x** i sökrutan för att ta bort söknyckelordet.
 
 1. Uppdatera följande vyelement enligt beskrivningen i underavsnitten nedan:
    * [Filter](#add-filters)
@@ -214,12 +214,12 @@ Tänk på följande när du arbetar med grupperingar i tidslinjevyn:
 
 Så här lägger du till en gruppering i tidslinjevyn:
 
-1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka **Gruppering** i det övre högra hörnet av tidslinjevyn.
+1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klicka på **Gruppering** i det övre högra hörnet av tidslinjevyn.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält** söker du efter ett annat fält och klickar sedan på det när det visas i listan.
+1. Klicka på ett av de föreslagna fälten eller klicka på **Välj ett annat fält**, sök efter ett annat fält och klicka sedan på det när det visas i listan.
 
    Grupperingen används automatiskt på tidslinjen och posterna visas inuti grupperingsrutan.
 
@@ -233,14 +233,14 @@ Så här lägger du till en gruppering i tidslinjevyn:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Valfritt) I **Gruppera poster efter** klickar du på **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
+1. (Valfritt) I rutan **Gruppera poster efter** klickar du på ikonen **x** till höger om ett fält som är markerat för grupperingen för att ta bort grupperingen
 
    eller
 
-   Klicka **Rensa alla** om du vill ta bort alla fält.
+   Klicka på **Rensa alla** om du vill ta bort alla fält.
 
-1. Klicka utanför **Gruppera poster efter** för att stänga den.
-1. (Valfritt) Klicka på **Inställningar** sedan **Färg** till färgkodsgrupperingar. Mer information finns i [Redigera inställningarna för tidslinjevyn](#edit-the-timeline-view-settings) i den här artikeln.
+1. Klicka utanför rutan **Gruppera poster efter** för att stänga den.
+1. (Valfritt) Klicka på **Inställningar** och sedan på **Färg** för att färgkoda grupperingar. Mer information finns i avsnittet [Redigera tidslinjevisningsinställningar](#edit-the-timeline-view-settings) i den här artikeln.
 
 <!-- 
 
@@ -254,15 +254,15 @@ this is not possible right now; if this is the same functionality as the table v
 
 Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informationen ska visas i tidslinjeavsnittet i vyn.
 
-1. Skapa en tidslinjevy för en posttyp, enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-1. Klicka **Inställningar**.
-1. Klicka **Datum och tid** i den vänstra panelen väljer du en **Startdatum** och **Slutdatum** som ska visas på tidslinjen. Du kan välja standarddatum för start och slut eller välja ett tillgängligt datumfält. De staplar som representerar posterna börjar på det datum som du anger som startdatum och slutar på det datum som motsvarar slutdatumet.
+1. Skapa en tidslinjevy för en posttyp enligt beskrivningen i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
+1. Klicka på **Inställningar**.
+1. Klicka på **Datum och tid** på den vänstra panelen och välj sedan ett **Startdatum** och ett **slutdatum** som ska visas på tidslinjen. Du kan välja standarddatum för start och slut eller välja ett tillgängligt datumfält. De staplar som representerar posterna börjar på det datum som du anger som startdatum och slutar på det datum som motsvarar slutdatumet.
 
    >[!NOTE]
    >
    >Poster som inte har några värden för start- eller slutdatum eller som har ett startdatum efter slutdatumet visas inte i tidslinjevyn.
 
-1. Klicka **Stapelformat** i den vänstra panelen för att ange vilka fält som ska visas i postfälten.
+1. Klicka på **Stapelformat** i den vänstra panelen för att ange vilka fält som ska visas i postfälten.
 
    Postens primära fält (eller rubrik), enligt postens tabellvy, är markerat som standard. <!--adjust this when the primary field is released??-->
 
@@ -272,8 +272,8 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >
    >    Du måste först lägga till miniatyrbilder i tabellvyn innan du kan visa dem i tidslinjevyn. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Klicka **Lägg till fält** om du vill lägga till upp till fyra fält i postfälten.
-1. Klicka inuti **Sökfält** och klicka på det fält som du vill lägga till.
+1. Klicka på **Lägg till fält** för att lägga till upp till 4 fält i postfälten.
+1. Klicka i rutan **Sökfält** och klicka på det fält som du vill lägga till.
 
    >[!TIP]
    >
@@ -285,11 +285,11 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Klicka **Färg** i den vänstra panelen, om du vill anpassa färgerna för posterna och grupperingarna på tidslinjen.
+1. Klicka på **Färg** i den vänstra panelen om du vill anpassa färgerna för posterna och grupperingarna i tidslinjen.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Villkorligt och valfritt) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i **Ange grupperingsfärg** avsnitt:
+1. (Villkorlig och valfri) Om du har lagt till en gruppering i tidslinjevyn väljer du bland följande alternativ för att ange en färg för grupperingen i avsnittet **Ange grupperingsfärg**:
 
    * **Standard (grått)**: Färgen på grupperingarna är inställd på grått. Det här är standardinställningen.
    * **Fältvärden**: Färgen på grupperingarna matchar färgen på fältet som du grupperar efter.
@@ -309,14 +309,14 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
    >
    >Om du inte har lagt till grupperingar i tidslinjevyn visas inte det här avsnittet.
 
-1. I **Ange postfärg** väljer du bland följande alternativ för att ange en färg för posterna:
+1. I avsnittet **Ange postfärg** väljer du bland följande alternativ för att ange en färg för posterna:
 
    * **Posttyp**: Färgen på posterna matchar färgen på den posttyp du valde. Det här är standardalternativet.
    * **Fältvärden**: Färgen på posterna matchar färgen i ett fält som du anger. Fortsätt med steg 10. <!--ensure this stays accurate-->
    * **Gruppering**: Färgen på posterna matchar färgen som du angav för grupperingarna. Det här alternativet är nedtonat när du inte har använt några grupperingar på tidslinjevyn.
-   * **Ingen**: Poster visas i ett vitt fält.
+   * **Ingen**: Posterna visas i ett vitt fält.
 
-1. (Villkorligt) Om du har valt **Fältvärden** för postfärgerna väljer du ett fält på menyn **Matcha postfärgen till** listruta.
+1. (Villkorligt) Om du valde **Fältvärden** för postfärgerna väljer du ett fält i listrutan **Matcha postfärgen till**.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 
@@ -326,6 +326,6 @@ Uppdatera inställningarna för tidslinjevyn för att ange vad och hur informati
 
    Om du inte har något fält med färgkodade alternativ för den valda posttypen är det här alternativet nedtonat.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Posterna visas i tidslinjevyn med de specifikationer som du har valt.

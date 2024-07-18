@@ -54,19 +54,19 @@ Mer information om hur du anger godkännare av tidrapporter finns i avsnittet [S
 
 ## Godkänn en tidrapport
 
-Du kan godkänna alla tidrapporter som har skickats in där du har utsetts till godkännare. När en tidrapport skickas in för godkännande visas tidrapporten i **Godkännanden** på din **Startsida**  sida. Mer information finns i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).
+Du kan godkänna alla tidrapporter som har skickats in där du har utsetts till godkännare. När en tidrapport skickas för godkännande visas tidrapporten i området **Godkännanden** på **Hem**  sida. Mer information finns i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Om Workfront-administratören har aktiverat händelsehanterarna Godkännande av tidrapport för användare och Avvisning av tidrapport för användare, meddelas du när tidrapporten har godkänts eller avvisats. Mer information om hur du aktiverar händelsemeddelanden finns i [Händelsemeddelandetyper](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Så här godkänner du en tidrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
-1. Klicka **Tidrapporter**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Tidrapporter**.
 1. Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
 
    eller
 
-   Välj **Mina tidrapportgodkännanden** filter längst upp i tidrapportlistan.
+   Välj filtret **Mina tidrapportgodkännanden** högst upp i tidrapportlistan.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -80,7 +80,7 @@ Så här godkänner du en tidrapport:
    >   
    >
 
-1. (Valfritt) Klicka på **sök** icon ![](assets/search-icon.png) högst upp i tidrapportlistan och skriv ett nyckelord för att hitta en viss tidrapport. Du kan söka efter en tidsram, en ägare eller en godkännare.
+1. (Valfritt) Klicka på ikonen **sök** ![](assets/search-icon.png) högst upp i tidrapportlistan och skriv ett nyckelord för att hitta en viss tidrapport. Du kan söka efter en tidsram, en ägare eller en godkännare.
 1. Klicka på tidsramen för den tidrapport som du vill godkänna. Tidrapporten öppnas.
 
    >[!TIP]
@@ -88,7 +88,7 @@ Så här godkänner du en tidrapport:
    >Tidrapporter som väntar på godkännande har statusen [!UICONTROL Submitted].
 
 
-1. Klicka **Godkänn**
+1. Klicka på **Godkänn**
 
    eller
 

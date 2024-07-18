@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Allocadia-moduler
-description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöden som använder Allocadia och ansluta det till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder Allocadia och ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Allocadia] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Allocadia], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Allocadia] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,42 +43,42 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Allocadia] moduler, du måste ha en [!DNL Allocadia] konto.
+Du måste ha ett [!DNL Allocadia]-konto för att kunna använda [!DNL Allocadia]-moduler.
 
 ## Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]
 
-Du kan skapa en anslutning till [!DNL Allocadia] direkt inifrån ett [!DNL Allocadia] -modul.
+Du kan skapa en anslutning till ditt [!DNL Allocadia]-konto direkt inifrån en [!DNL Allocadia]-modul.
 
-1. I alla [!DNL Allocadia] modul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] fält.
+1. Klicka på **[!UICONTROL Add]** bredvid fältet [!UICONTROL Connection] i någon [!DNL Allocadia]-modul.
 1. Välj om du vill använda den nordamerikanska servern eller den europeiska servern.
 1. Ange ditt användarnamn och lösenord.
-1. Klicka **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
 
-## [!DNL Allocadia] moduler och deras fält
+## [!DNL Allocadia]-moduler och deras fält
 
-När du konfigurerar [!DNL Allocadia] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Allocadia] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Allocadia] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Allocadia] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -101,11 +101,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt Allocadia-konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] till Workfront Fusion</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt Allocadia-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect Allocadia] till Workfront Fusion </a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <p>Välj om du vill att scenariot bara ska visa nya poster [!UICONTROL Updated Records Only]eller Nya och uppdaterade poster.</p> </td> 
+   <td> <p>Välj om du vill att scenariot ska visa enbart nya poster, [!UICONTROL Updated Records Only] eller nya och uppdaterade poster.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Enhetstyp</td> 
@@ -132,7 +132,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Custom API Call]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till [!DNL Allocadia] API. På så sätt kan du skapa en dataflödesautomatisering som inte kan uppnås av andra [!DNL Allocadia] moduler.
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Allocadia]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Allocadia]-modulerna.
 
 Åtgärden baseras på den entitetstyp (Allocadia-objekttyp) som du anger.
 
@@ -144,15 +144,15 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Allocadia] konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Allocadia]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till <code>https://api-na.allocadia.com/{version}</code> eller <code>https://api-eu.allocadia.com/{version}</code>.</td> 
+   <td>Ange en relativ sökväg till <code>https://api-na.allocadia.com/{version}</code> eller <code>https://api-eu.allocadia.com/{version}</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -164,7 +164,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -174,7 +174,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Read Record]
 
-Den här åtgärdsmodulen läser data från en enda post i [!DNL Allocadia].
+Den här åtgärdsmodulen läser data från en enskild post i [!DNL Allocadia].
 
 Du anger postens ID.
 
@@ -188,26 +188,26 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Allocadia] konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Allocadia]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Välj typ av [!DNL Allocadia] som du vill att modulen ska läsa.</td> 
+   <td>Välj den typ av [!DNL Allocadia]-post som du vill att modulen ska läsa.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td> <p>Markera de fält som du vill inkludera i modulens utdata. Vilka fält som är tillgängliga beror på [!UICONTROL Entity Type] du markerade.</p> </td> 
+   <td> <p>Markera de fält som du vill inkludera i modulens utdata. Vilka fält som är tillgängliga beror på vilken [!UICONTROL Entity Type] du har valt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Ange eller mappa det unika [!DNL Allocadia] ID för den post som du vill att modulen ska läsa.</td> 
+   <td>Ange eller mappa det unika [!DNL Allocadia]-ID:t för posten som du vill att modulen ska läsa.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Create Record]
 
-Den här åtgärdsmodulen skapar en post.
+Denna åtgärdsmodul skapar en post.
 
 Modulen returnerar postens ID och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
 
@@ -219,7 +219,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Allocadia] konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Allocadia]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -256,7 +256,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Allocadia] konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Allocadia]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
@@ -286,11 +286,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter [!UICONTROL Allocadia] konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!UICONTROL Allocadia]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Välj typ av [!DNL Allocadia] som du vill att modulen ska uppdatera. Andra fält visas baserat på den enhetstyp du väljer.</td> 
+   <td>Välj den typ av [!DNL Allocadia]-post som du vill att modulen ska uppdatera. Andra fält visas baserat på den enhetstyp du väljer.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
@@ -317,11 +317,11 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    td role="rowheader"&gt; <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Allocadia] konto till [!DNL Workfront Fusion], se <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Allocadia]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-allocadia-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Allocadia] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
-   <td>Välj typ av [!DNL Allocadia] poster som du vill att modulen ska söka efter. </td> 
+   <td>Välj den typ av [!DNL Allocadia]-post som du vill att modulen ska söka efter. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Budgets]</td> 
@@ -337,7 +337,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search criteria]</td> 
-   <td>Markera fältet som du vill söka efter, markera åtgärden och ange eller mappa värdet som du vill söka efter. Du kan lägga till [!DNL AND] eller [!DNL OR] regler för att ytterligare filtrera sökningen.</td> 
+   <td>Markera fältet som du vill söka efter, markera åtgärden och ange eller mappa värdet som du vill söka efter. Du kan lägga till [!DNL AND]- eller [!DNL OR]-regler om du vill filtrera sökningen ytterligare.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 

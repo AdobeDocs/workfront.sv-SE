@@ -22,7 +22,7 @@ Om grupper i din organisation måste konfigurera en uppgift eller en utgåva obe
 
 Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
 
-Mer information om hur Workfront-administratören låser upp inställningarna finns i [Låsa eller låsa upp projektinställningar för alla grupper i systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Mer information om hur Workfront-administratören låser upp inställningar finns i [Lås och lås upp projektinställningar för alla grupper i systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 >[!TIP]
 >
@@ -32,9 +32,9 @@ Mer information om hur Workfront-administratören låser upp inställningarna fi
 >
 >* Normalt förblir en olåst inställning olåst i oändlighet. Om Workfront-administratören låser om den aktiveras systeminställningen igen och inställningarna som gjorts av gruppadministratörerna går förlorade.
 >* Inställningarna för gruppen som är kopplad till ett projekt har företräde framför inställningarna för hemgruppen för användaren som skapar projektet.
->* Vissa gruppnivåinställningar påverkar projektmallar som du skapar för gruppen. Mer information finns i avsnittet [Visa, arbeta med och skapa mallar för din grupp i området Grupper](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) i artikeln [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* Vissa gruppnivåinställningar påverkar projektmallar som du skapar för gruppen. Mer information finns i avsnittet [Visa, arbeta med och skapa mallar för din grupp från gruppområdet](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) i artikeln [Skapa och ändra en grupps projektmallar](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* När en Workfront-administratör har låst upp en inställning på systemnivå kan du konfigurera den och sedan låsa den så att alla i gruppen och dess undergrupper använder samma konfiguration. Detta är parallellt med möjligheten för en Workfront-administratör att konfigurera och låsa en inställning för alla i systemet. Mer information finns i [Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* När en Workfront-administratör har låst upp en inställning på systemnivå kan du konfigurera den och sedan låsa den så att alla i gruppen och dess undergrupper använder samma konfiguration. Detta är parallellt med möjligheten för en Workfront-administratör att konfigurera och låsa en inställning för alla i systemet. Mer information finns i [Lås eller lås upp ett projekt, en uppgift eller en utgåva för undergrupper](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
 ## Åtkomstkrav
@@ -51,7 +51,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,19 +64,19 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Projektinställningar > Åtgärder och problem och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill konfigurera olåsta uppgifter och utgivningsinställningar för.
-1. På sidan som visas för gruppen klickar du på **Inställningar för aktivitet och problem**.
-1. På sidan som visas fortsätter du med ett av de 5 avsnitten som anges nedan för att konfigurera inställningar för områdena Ny åtgärdsstandard, Problem, Borttagning, Faktiska datum och Åtkomst. Klicka sedan på **Spara**.
+1. På sidan som visas för gruppen klickar du på **Inställningar för aktivitet och problem** på den vänstra panelen.
+1. På den sida som visas fortsätter du med något av de fem avsnitten som visas nedan för att konfigurera inställningarna för områdena Ny åtgärdsstandard, Problem, Borttagning, Faktiska datum och Åtkomst. Klicka sedan på **Spara**.
 
-   Om du hovrar över låsikonen ![](assets/lock-toggle-button-dimmed.png) Om du vill ha en inställning som du måste konfigurera och ett verktygstips visas som anger att den är låst kan du be Workfront-administratören att låsa upp den för alla grupper i organisationen.
+   Om du hovrar över låsikonen ![](assets/lock-toggle-button-dimmed.png) för en inställning som du måste konfigurera och ett verktygstips visas som anger att den är låst, kan du be Workfront-administratören att låsa upp den för alla grupper i organisationen.
 
    När den är olåst kan du och andra gruppadministratörer konfigurera den separat för dina egna grupper. Du kan även låsa den för gruppen och alla undergrupper under gruppen.
 
-   * [Nya standardinställningar för aktivitet](#new-task-defaults)
+   * [Nya aktivitetsstandardvärden](#new-task-defaults)
    * [Problem](#issues)
    * [Borttagning](#deletion)
    * [Faktiska datum](#actual-dates)
@@ -99,15 +99,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Varaktighetstyp </p> </td> 
-      <td> <p>Bestämmer relationen mellan antalet resurser (och deras allokeringsprocent) och varaktigheten eller den totala ansträngningen för aktiviteten. Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Typer av varaktighet och varaktighet för aktivitet: artikelindex</a></p> </td> 
+      <td> <p>Bestämmer relationen mellan antalet resurser (och deras allokeringsprocent) och varaktigheten eller den totala ansträngningen för aktiviteten. Mer information finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Typer av varaktighet och varaktighet: artikelindex</a></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Intäktstyp</td> 
-      <td> <p>Beräknar planerade och faktiska intäktsuppskattningar för en aktivitet. När <strong>Intäktstyp</strong> är inställd på<strong>Ej fakturerbar</strong>, genererar de planerade timmarna och de faktiska registrerade timmarna ingen intäktsuppskattning för uppgiften och arbetet med uppgiften bidrar inte till intäkterna på projektnivå.</p> </td> 
+      <td> <p>Beräknar planerade och faktiska intäktsuppskattningar för en aktivitet. När <strong>intäktstypen</strong> är inställd på <strong>Inte fakturerbar</strong> genererar planerade timmar och registrerade timmar ingen intäktsuppskattning för aktiviteten och arbetet med aktiviteten bidrar inte till intäkten på projektnivå.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kostnadstyp</td> 
-      <td> <p>Beräknar planerade och faktiska kostnadsuppskattningar för en aktivitet. När inställt på <strong>Ingen kostnad</strong>, planerade timmar och registrerade timmar inte genererar en planerad eller faktisk kostnadsuppskattning för uppgiften, och arbetet med uppgiften bidrar inte till projektnivåkostnaderna.</p> </td> 
+      <td> <p>Beräknar planerade och faktiska kostnadsuppskattningar för en aktivitet. När värdet är <strong>Ingen kostnad</strong> genereras ingen planerad eller faktisk kostnadsuppskattning för aktiviteten av planerade timmar och registrerade timmar, och arbetet med aktiviteten bidrar inte till projektnivåkostnaderna.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -120,19 +120,19 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Uppdatera automatiskt status för lösta problem när statusen för det lösta objektet ändras</td> 
-      <td> <p>När någon konverterar ett problem till ett projekt eller en uppgift blir både det ursprungliga problemet och det konverterade projektet eller den konverterade aktiviteten objekt som löses. Med den här inställningen kan du korrelera upplösningen för det ursprungliga problemet med upplösningen för dess objekt som kan lösas. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> <p>För att den här inställningen ska ha någon effekt kan du välja att <strong>Behåll det ursprungliga problemet och knyt lösningen till uppgiften</strong> måste väljas.</p> 
+      <td> <p>När någon konverterar ett problem till ett projekt eller en uppgift blir både det ursprungliga problemet och det konverterade projektet eller den konverterade aktiviteten objekt som löses. Med den här inställningen kan du korrelera upplösningen för det ursprungliga problemet med upplösningen för dess objekt som kan lösas. Mer information om hur du löser objekt finns i <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Översikt över objekt som kan lösas och lösas </a>.</p> <p>För att den här inställningen ska ha någon effekt måste du välja alternativet <strong>Behåll det ursprungliga problemet och koppla dess upplösning till uppgiften</strong>.</p> 
        <ul> 
         <li>När den här inställningen är aktiverad kan du skapa anpassade statusvärden med samma nyckel för både utgåvor, projekt och uppgifter. När projektet eller aktiviteten (som ett upplösningsbart objekt) blir en anpassad status, återspeglas ändringen även i problemets status. Statusnyckeln måste vara densamma för utleverans- och projekt- eller aktivitetsstatus.</li> 
-        <li>När den här inställningen är inaktiverad ställs objektstatus automatiskt in på standardstatus i stället för de anpassade. Mer information om standardstatusvärdena finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Åtkomst till listan över status för systemproblem</a>.</li> 
+        <li>När den här inställningen är inaktiverad ställs objektstatus automatiskt in på standardstatus i stället för de anpassade. Mer information om standardstatusvärdena finns i <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Öppna listan över status för systemproblem</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">När ett problem konverteras till en uppgift</td> 
       <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till uppgift:</p> 
        <ul> 
-        <li><strong>Behåll det ursprungliga problemet och knyt lösningen till uppgiften</strong>: När du konverterar ett problem förblir det synligt som ett problem tills det är klart. Status för problemet ändras automatiskt till Stängd när uppgiften har slutförts.</li> 
-        <li><strong>Tillåt att den primära kontakten har åtkomst till uppgiften</strong>: Ger den primära kontakten (den som skapat problemet) åtkomst till uppgiften för att granska den, göra uppdateringar och hålla dig informerad om hur den fortlöper</li> 
-        <li> <p><strong>Tillåt att de här inställningarna ändras under konverteringen</strong>: Användare som konverterar problemet kan ändra dessa alternativ under konverteringen av ett problem till en aktivitet.</p> <!--
+        <li><strong>Behåll det ursprungliga problemet och koppla dess upplösning till aktiviteten</strong>: När du konverterar problemet förblir det synligt som ett problem tills aktiviteten är slutförd. Status för problemet ändras automatiskt till Stängd när uppgiften har slutförts.</li> 
+        <li><strong>Tillåt att primär kontakt har åtkomst till aktiviteten</strong>: Ger den primära kontakten (den som skapade problemet) åtkomst till aktiviteten för att granska aktiviteten, göra uppdateringar och hålla dig informerad om dess förlopp</li> 
+        <li> <p><strong>Tillåt att de här inställningarna ändras under konvertering</strong>: Gör att den användare som konverterar problemet kan ändra alternativen under konverteringen av ett problem till en aktivitet.</p> <!--
           Screenshot when possible</p>
          --> </li> 
        </ul> </td> 
@@ -141,9 +141,9 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">När ett problem konverteras till ett projekt</td> 
       <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till projekt:</p> 
        <ul> 
-        <li><strong>Behåll det ursprungliga problemet och knyt dess lösning till projektet</strong>: När du konverterar problemet förblir det synligt som ett problem tills projektet är klart. Status för problemet ändras automatiskt till Stängd när projektet har slutförts.</li> 
-        <li><strong>Tillåt att primär kontakt har åtkomst till projektet</strong>: Ger den primära kontaktpersonen (den som skapat problemet) tillgång till projektet för att granska projektet, göra uppdateringar och hålla sig informerad om projektets förlopp.</li> 
-        <li><strong>Tillåt att de här inställningarna ändras under konverteringen</strong>: Användare som konverterar problemet kan ändra de listade alternativen under konverteringen av en utgåva till ett projekt.</li> 
+        <li><strong>Behåll det ursprungliga problemet och koppla dess upplösning till projektet</strong>: När du konverterar problemet förblir det synligt som ett problem tills projektet är klart. Status för problemet ändras automatiskt till Stängd när projektet har slutförts.</li> 
+        <li><strong>Tillåt primär kontakt att ha åtkomst till projektet</strong>: Ger den primära kontakten (den som skapade problemet) åtkomst till projektet för att granska projektet, göra uppdateringar och hålla dig informerad om projektets förlopp.</li> 
+        <li><strong>Tillåt att de här inställningarna ändras under konvertering</strong>: Gör att den användare som konverterar problemet kan ändra alternativen i listan under konverteringen av ett problem till ett projekt.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -162,8 +162,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
         <p><b>Tips</b>: Den här inställningen gäller även för att ta bort projekt som har uppgifter eller problem med timmar som är inloggade. Den här inställningen gäller inte för att ta bort projekt där tiden loggas direkt för projektet. </p> 
         <p>Tänk på följande:</p> 
         <ul> 
-         <li> <p>När det är markerat får du en informativ varning när du tar bort en uppgift eller ett problem. Varningen påminner dig om att om aktiviteten eller problemet har loggat timmar kommer de antingen att flyttas till projektet eller tas bort. Du kan konfigurera om timmarna ska tas bort eller flyttas till projektet under Inställningar för tidrapport och timmar i inställningarna för inställningarna. När du har bekräftat att du har sett varningen tas uppgiften eller problemet bort. Mer information om hur du konfigurerar inställningar för tidrapport och timmar finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Konfigurera tidrapport och timinställningar</a>. </p> <p>Tips: <span>När du tar bort ett projekt med uppgifter och ärenden som har loggade timmar, tas de loggade timmarna bort eller så bevaras de enligt inställningarna i Inställningar för tidrapport och timmar i Inställningar</span>. </p> </li> 
-         <li><span>När du avmarkerar det här alternativet får du en varning när du tar bort en uppgift eller ett problem med loggade timmar, eller när du tar bort ett projekt med timmar som loggats för dess uppgifter eller problem</span> <span>.</span> Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar tas bort. Aktiviteter, problem<span>eller projekt som har loggat timmar efter uppgifter och ärenden</span> kan inte tas bort. </li> 
+         <li> <p>När det är markerat får du en informativ varning när du tar bort en uppgift eller ett problem. Varningen påminner dig om att om aktiviteten eller problemet har loggat timmar kommer de antingen att flyttas till projektet eller tas bort. Du kan konfigurera om timmarna ska tas bort eller flyttas till projektet under Inställningar för tidrapport och timmar i inställningarna för inställningarna. När du har bekräftat att du har sett varningen tas uppgiften eller problemet bort. Mer information om hur du konfigurerar inställningar för tidrapport och timmar finns i <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Konfigurera tidrapport och timinställningar</a>. </p> <p>Tips: <span>När du tar bort ett projekt med uppgifter och problem som har loggade timmar tas de loggade timmarna bort eller så bevaras de enligt inställningarna i Inställningar för tidrapport och timmar i Inställningar </span>. </p> </li> 
+         <li><span>När du avmarkerar det här alternativet får du en varning när du tar bort en uppgift eller ett problem med loggade timmar, eller när du tar bort ett projekt med timmar som loggats för dess uppgifter eller problem.</span> <span></span> Varningen anger att administratören inte tillåter att uppgifter eller problem med loggade timmar tas bort. Det går inte att ta bort aktiviteter, utgåvor <span> eller projekt som har loggade timmar för aktiviteter och ärenden </span>. </li> 
         </ul> 
        </div> </td> 
      </tr> 
@@ -178,18 +178,18 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">När en uppgift eller ett problem går från"Nytt" till"Pågår" anger du det faktiska startdatumet som</td> 
-      <td> <p>Välj ett av följande alternativ för när det faktiska startdatumet registreras i Workfront när en uppgift eller ett problem uppstår <strong>Nytt</strong> till <strong>Pågår</strong>:</p> 
+      <td> <p>Välj något av följande alternativ för när det faktiska startdatumet spelas in i Workfront när en uppgift eller ett problem går från <strong>Nytt</strong> till <strong>Pågår</strong>:</p> 
        <ul> 
-        <li><strong>Nu:</strong> Faktiskt startdatum anges till aktuellt datum.</li> 
-        <li><strong>Planerat startdatum:</strong> Det faktiska startdatumet är inställt på det planerade startdatumet för aktiviteten eller utgåvan.</li> 
+        <li><strong>Nu:</strong> Det faktiska startdatumet är inställt på det aktuella datumet.</li> 
+        <li><strong>Det planerade startdatumet:</strong> Det faktiska startdatumet är inställt på det planerade startdatumet för aktiviteten eller utgåvan.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">När en uppgift eller ett problem har slutförts anger du det faktiska slutförandedatumet till</td> 
       <td> <p>Välj något av följande alternativ för när det faktiska slutförandedatumet registreras i Workfront när en uppgift eller ett problem har slutförts:</p> 
        <ul> 
-        <li><strong>Nu:</strong> Faktiskt slutförandedatum anges till aktuellt datum.</li> 
-        <li> <p><strong>Planerat slutförandedatum:</strong> Faktiskt slutförandedatum anges till planerat slutförandedatum för aktiviteten eller utgåvan.</p> </li> 
+        <li><strong>Nu:</strong> Det faktiska slutförandedatumet är inställt på det aktuella datumet.</li> 
+        <li> <p><strong>Planerat slutförandedatum:</strong> Faktiskt slutförandedatum är inställt på planerat slutförandedatum för aktiviteten eller utgåvan.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -229,24 +229,24 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
       <td role="rowheader">När någon tilldelas till en uppgift</td> 
       <td> 
        <ul> 
-        <li><strong>Ge dem ... åtkomst till en uppgift</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Bevilja åtkomst för användare</a>.</li> 
-        <li> <p><strong>Ge även ... tillgång till projektet</strong>: Definierar standardbehörigheten som en användare har för det projekt som han/hon har en uppgift tilldelad till. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
+        <li><strong>Ge dem ... åtkomst till en aktivitet</strong>: Definierar standardbehörigheten som en användare har för den uppgift de är tilldelade. Mer information om aktivitetsbehörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref"> Bevilja åtkomst för användare </a>.</li> 
+        <li> <p><strong>Bevilja även ... åtkomst till projektet</strong>: Definierar den standardbehörighet som en användare har till det projekt som de har tilldelats en aktivitet för. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">När någon har tilldelats ett problem</td> 
       <td> 
        <ul> 
-        <li><strong>Ge dem ... åtkomst till en uppgift</strong>: Definierar standardbehörigheten som en användare har för den uppgift han/hon är tilldelad till. Mer information om aktivitetsbehörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</li> 
-        <li> <p><strong>Ge även ... tillgång till projektet</strong>: Definierar standardbehörigheten som en användare har för det projekt som han/hon har en uppgift tilldelad till. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
+        <li><strong>Ge dem ... åtkomst till en aktivitet</strong>: Definierar standardbehörigheten som en användare har för den uppgift de är tilldelade. Mer information om aktivitetsbehörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</li> 
+        <li> <p><strong>Bevilja även ... åtkomst till projektet</strong>: Definierar den standardbehörighet som en användare har till det projekt som de har tilldelats en aktivitet för. Mer information om projektbehörigheter finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">När någon skickar en begäran</td> 
       <td> 
        <ul> 
-        <li><strong>Ge dem ... åtkomst till problemet</strong>: Definierar standardbehörigheten som en användare har på en begäran som de har skickat. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende</a>.</li> 
-        <li> <p><strong>Personer från samma företag ärver samma behörigheter för alla begäranden</strong>: Tillåter användare att se begäranden som andra användare från samma företag skickar. De har samma behörigheter för de begäranden som de själva har skickat.</p> </li> 
+        <li><strong>Ge dem ... åtkomst till problemet</strong>: Definierar standardbehörigheten som en användare har på en begäran som de har skickat. Mer information finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem</a>.</li> 
+        <li> <p><strong>Personer från samma företag ärver samma behörigheter för alla begäranden</strong>: Gör det möjligt för användare att se begäranden som andra användare från samma företag skickar. De har samma behörigheter för de begäranden som de själva har skickat.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

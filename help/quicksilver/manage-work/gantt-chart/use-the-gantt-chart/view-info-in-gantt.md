@@ -1,6 +1,6 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: Visa information i  [!UICONTROL Gantt Chart]
+title: Visa information i [!UICONTROL Gantt Chart]
 description: Aktivitetslistan Gantt Chart och Project list Gantt Chart innehåller information om projekt och uppgifter.
 author: Alina
 feature: Work Management
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Visa information i  [!UICONTROL Gantt Chart]
+# Visa information i [!UICONTROL Gantt Chart]
 
-Uppgiftslistan [!UICONTROL Gantt Chart] och projektlista [!UICONTROL Gantt Chart] visa information om projekt och uppgifter.
+Uppgiftslistan [!UICONTROL Gantt Chart] och projektlistan [!UICONTROL Gantt Chart] visar information om projekt och uppgifter.
 
 ## Åtkomstkrav
 
@@ -36,7 +36,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>[!UICONTROL View] eller högre åtkomst till projekt och uppgifter</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -45,17 +45,17 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-## Leta reda på  [!UICONTROL Gantt Chart]
+## Hitta [!UICONTROL Gantt Chart]
 
-Du kan hitta både Gantt-schemat för uppgiftslistan och projektlistan [!UICONTROL Gantt chart] från olika delar av Workfront. Mer information finns i [Kom igång med [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+Du kan hitta både aktivitetslistans Gantt-schema och projektlistan [!UICONTROL Gantt chart] från flera områden i Workfront. Mer information finns i [Kom igång med [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
-## Visa uppgifter på [!UICONTROL Critical Path]
+## Visa aktiviteter på [!UICONTROL Critical Path]
 
-I projektlistan [!UICONTROL Gantt Chart], uppgifter som inte finns på [!UICONTROL Critical Path] visas som ljusblå vågräta linjer. Uppgifter som finns på [!UICONTROL Critical Path] för ett projekt visas som röda vågräta linjer.
+I projektlistan [!UICONTROL Gantt Chart] visas uppgifter som inte finns på [!UICONTROL Critical Path] som ljusblå vågräta linjer. Uppgifter som finns på [!UICONTROL Critical Path] i ett projekt visas som röda vågräta linjer.
 
-Mer information om uppgifter finns i [!UICONTROL Critical Path], se [Översikt [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
+Mer information om aktiviteter på [!UICONTROL Critical Path] finns i [Översikt över projektet [!UICONTROL Critical Path]](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
 ## Visa aktivitetsinformation i projektlistan [!UICONTROL Gantt Chart]
 
@@ -63,11 +63,11 @@ Du kan visa uppgiftsinformation för ett projekt direkt från projektlistan. Upp
 
 >[!NOTE]
 >
->Du kan inte redigera uppgifter från projektlistan [!UICONTROL Gantt Chart].
+>Du kan inte redigera aktiviteter från projektlistan [!UICONTROL Gantt Chart].
 
 Du kan visa uppgiftsinformation för ett projekt direkt från en lista med projekt i följande områden:
 
-* I [!UICONTROL Projects] area
+* I området [!UICONTROL Projects]
 * Inom en Portfolio
 * Inom ett program
 
@@ -75,23 +75,23 @@ Så här visar du uppgifter i ett projekt från en lista med projekt:
 
 1. Gå till något av de områden som nämns ovan.
 
-   Från [!UICONTROL Main Menu], klicka **[!UICONTROL Projects]**.
+   Klicka till exempel på [!UICONTROL Main Menu] på **[!UICONTROL Projects]**.
 
    En lista med projekt visas.
 
-1. Klicka på **[!UICONTROL Gantt chart]** icon ![](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** ![](assets/gantt-icon-nwe.png) i skärmens övre högra hörn.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
    -->
 
-1. Klicka på **[!UICONTROL Show Task List]** -ikon.
+1. Klicka på ikonen **[!UICONTROL Show Task List]**.
 
 1. Klicka på listrutepilen bredvid namnet på projektet i projektlistan till vänster om du vill visa uppgifter under det projektet.\
-   Här visas aktivitetsinformation på  [!UICONTROL Gantt Chart].\
+   Detta visar aktivitetsinformation på [!UICONTROL Gantt Chart].\
    ![Show_task_list_enabled_project_expanded.png](assets/show-task-list-enabled-project-expanded-350x78.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Print]** -ikonen i det övre högra hörnet om du vill exportera [!UICONTROL Gantt Chart].
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Print]** i det övre högra hörnet för att exportera [!UICONTROL Gantt Chart].
 
    >[!NOTE]
    >
@@ -99,19 +99,19 @@ Så här visar du uppgifter i ett projekt från en lista med projekt:
 
 ## Ändra den tidsperiod för vilken information visas i [!UICONTROL Gantt Chart]
 
-Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill visa information på detaljnivå eller snabbt kan navigera till en dag-, vecka-, månad-, kvarts- eller årsvy:
+Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill visa information på detaljnivå, eller så kan du snabbt navigera till en dag-, vecka-, månad-, kvarts- eller årsvy:
 
 * [Ändra tidsperioden på en detaljnivå](#change-the-time-period-on-a-granular-level)
 * [Visa information per dag, vecka, månad, kvartal eller år](#view-information-by-day-week-month-quarter-or-year)
 
 ### Ändra tidsperioden på en detaljnivå {#change-the-time-period-on-a-granular-level}
 
-1. Hovra över tidslinjen i  [!UICONTROL Gantt Chart]drar du sedan zoomindikatorn från vänster till höger för att expandera eller krympa tidslinjen.\
+1. Håll pekaren över tidslinjen för [!UICONTROL Gantt Chart] och dra sedan zoomindikatorn från vänster till höger för att utöka eller dra samman tidslinjen.\
    ![zoom_tool_in_gantt.png](assets/zoom-tool-in-gantt-350x180.png)
 
 ### Visa information per dag, vecka, månad, kvartal eller år {#view-information-by-day-week-month-quarter-or-year}
 
-1. I  [!UICONTROL Gantt Chart]klickar du på listrutan för tidsbildrutor.
+1. Klicka på listrutan för tidsbildrutor i [!UICONTROL Gantt Chart].
 
    ![](assets/timeline-options.png)
 
@@ -125,8 +125,8 @@ Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill vi
    * **[!UICONTROL Week]**
    * **[!UICONTROL Day]**
 
-1. (Valfritt) Välj en mer detaljerad tidsram, till exempel [!UICONTROL Week] eller [!UICONTROL Day]och klicka och dra den vågräta rullningslisten längst ned i  [!UICONTROL Gantt Chart] om du vill flytta från vänster till höger på tidslinjen i projektet.\
-   En ögonblicksbild av tidslinjen [!UICONTROL Gantt] visas för att visa hela projektet.
+1. (Valfritt) Välj en mer detaljerad tidsram, till exempel [!UICONTROL Week] eller [!UICONTROL Day], och klicka och dra den vågräta rullningslisten längst ned i [!UICONTROL Gantt Chart] för att flytta från vänster till höger på tidslinjen i projektet.\
+   En ögonblicksbild av [!UICONTROL Gantt] visas för att visa hela projektet.
 
    >[!TIP]
    >
@@ -136,27 +136,27 @@ Du kan justera tidsperioden som visas på [!UICONTROL Gantt Chart] om du vill vi
 
 1. (Valfritt) Klicka var som helst inuti ögonblicksbilden av tidslinjen för att navigera till en viss punkt i projektets livslängd.\
    eller\
-   Dra handtagen i visningsprogrammet för ögonblicksbilder för att markera ett visst tidslinjeintervall och visa det i huvudfönstret [!UICONTROL Gantt].
+   Dra handtagen för ögonblicksbildvisningsprogrammet för att markera ett visst tidslinjeintervall och visa det i huvudfönstret [!UICONTROL Gantt].
 
 ## Använda filter, vyer och grupperingar
 
-The [!UICONTROL Gantt Chart] är en visuell representation av den information som visas i uppgiftslistan. Du kan använda filter, vyer och grupperingar på de objekt som listas i båda [!UICONTROL Gantt Chart]s.
+[!UICONTROL Gantt Chart] är en visuell representation av den information som för närvarande visas i uppgiftslistan. Du kan använda filter, vyer och grupperingar på de objekt som listas i båda [!UICONTROL Gantt Chart].
 
 >[!CAUTION]
 >
->Du kan inte använda filter, vyer och grupperingar när du markerar [!UICONTROL Manual] spara [!UICONTROL Timeline Planning] om du vill spara ändringar i uppgiftslistan. Mer information om hur du sparar ändringar av uppgifter i en lista finns i [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+>Du kan inte använda filter, vyer och grupperingar när du väljer [!UICONTROL Manual] Spara [!UICONTROL Timeline Planning] för att spara ändringar i uppgiftslistan. Mer information om hur du sparar ändringar i uppgifter i en lista finns i [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-Filter och grupperingar som du tillämpar på listan visas både i projektlistan och i uppgiftslistan  [!UICONTROL Gantt Chart]s och ingår också när Gantt-scheman exporteras:
+Filter och grupperingar som du tillämpar på listan återspeglas både i projektlistan och i uppgiftslistan [!UICONTROL Gantt Chart] och inkluderas även när Gantt-scheman exporteras:
 
 * Filter\
-   Du kan använda ett filter på listan för att styra den information som visas i [!UICONTROL Gantt Chart].\
-   Mer information om hur du använder ett filter finns i  [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Du kan använda ett filter på listan för att styra informationen som visas i [!UICONTROL Gantt Chart].\
+   Mer information om hur du använder ett filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Grupperingar\
-   Grupperingar som du använder i listan visas på [!UICONTROL Gantt Chart].\
-   Mer information om hur du använder en gruppering finns i  [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Grupperingar som du tillämpar på listan återspeglas på [!UICONTROL Gantt Chart].\
+   Mer information om hur du använder en gruppering finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivning i  [Exportera [!UICONTROL Gantt Chart] till PDF](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan utöver [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
+Vyer visas inte på [!UICONTROL Gantt Chart]. När du exporterar [!UICONTROL Gantt Chart] (enligt beskrivningen i [ Exportera [!UICONTROL Gantt Chart] till PDF ](../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md)) exporteras uppgiftslistan förutom [!UICONTROL Gantt chart], med den aktuella vyn tillämpad på listan.
 
 ## Konfigurera visningsalternativ
 

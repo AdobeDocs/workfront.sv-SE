@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!UICONTROL Adobe Workfront] licens.
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!UICONTROL Adobe Workfront]-licens.
 
 
 <table style="table-layout:auto">
@@ -32,11 +32,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Aggregator]</p> </td> 
-   <td> <p>En typ av modul som sammanfogar flera paket (flera datarrayer) till ett enda paket. Mer information finns i <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">[!UICONTROL Aggregator] modulen i [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>En typ av modul som sammanfogar flera paket (flera datarrayer) till ett enda paket. Mer information finns i modulen <a href="../../workfront-fusion/modules/aggregator-module.md" class="MCXref xref">[!UICONTROL Aggregator] i [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API-nyckel</td> 
-   <td>En unik kod som identifierar användaren, utvecklaren eller programmet som anropar en programvaras API, som används för autentisering. Sedan [!DNL Adobe Workfront Fusion] moduler fungerar genom att ansluta API:er. API-nycklar är ibland nödvändiga. API-nycklar distribueras av det program som kräver dem. Om du till exempel behöver en API-nyckel för [!DNL ActiveCampaign]begär du det via [!DNL ActiveCampaign] konto.</td> 
+   <td>En unik kod som identifierar användaren, utvecklaren eller programmet som anropar en programvaras API, som används för autentisering. Eftersom [!DNL Adobe Workfront Fusion] moduler fungerar genom att ansluta API:er, behövs ibland API-nycklar. API-nycklar distribueras av det program som kräver dem. Om du till exempel behöver en API-nyckel för [!DNL ActiveCampaign], begär du den via ditt [!DNL ActiveCampaign]-konto.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Program eller tjänst</td> 
@@ -52,11 +52,11 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>När du lägger till en app eller tjänst i ett scenario måste du troligen först skapa en anslutning mellan [!DNL Workfront Fusion] och programmet eller tjänsten för att hämta eller skicka valda data. Mer information finns i <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Anslutningar - översikt</a>.</p> </td> 
+   <td> <p>När du lägger till en app eller tjänst i ett scenario måste du troligen först skapa en anslutning mellan [!DNL Workfront Fusion] och appen eller tjänsten för att kunna hämta eller skicka markerade data. Mer information finns i <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Anslutningsöversikt</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cykel</p> </td> 
-   <td> <p>En cykel refererar till två faser av scenariot som körs: operation och commit. Scenariot kan bestå av en eller flera cykler. Mer detaljerad information finns i <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Körning av scenarier, cykler och faser i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>En cykel refererar till två faser av scenariot som körs: operation och commit. Scenariot kan bestå av en eller flera cykler. Mer detaljerad information finns i <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Scenariokörning, cykler och faser i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Datalager</p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Iterator]</p> </td> 
-   <td> <p>En typ av modul som gör att du kan ta ett datapaket (en datamatris) och dela upp det i separata paket. Mer information finns i <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] modulen i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>En typ av modul som gör att du kan ta ett datapaket (en datamatris) och dela upp det i separata paket. Mer information finns i modulen <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Modul</p> </td> 
@@ -96,7 +96,7 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Router]</p> </td> 
-   <td>Gör att du kan duplicera data eller lägga till nya vägar till ett scenario, så att du kan omdirigera data och hantera olika grupper av data separat. Mer information finns i <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">[!UICONTROL Router] modulen i [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td>Gör att du kan duplicera data eller lägga till nya vägar till ett scenario, så att du kan omdirigera data och hantera olika grupper av data separat. Mer information finns i modulen <a href="../../workfront-fusion/modules/router-module.md" class="MCXref xref">[!UICONTROL Router] i [!DNL Adobe Workfront Fusion]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Scenario</p> </td> 

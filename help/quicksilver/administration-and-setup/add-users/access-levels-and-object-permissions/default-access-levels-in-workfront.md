@@ -74,9 +74,9 @@ Den inbyggda åtkomstnivån för systemadministratörer är kopplad till avtalsl
 
 Användare med åtkomstnivån Systemadministratör kan göra allt i Workfront. De kan visa och redigera alla Workfront-objekt och all information som andra användare har angett i Workfront.
 
-De har också fullständig åtkomst till inställningsområdet, där de kan ändra alla inställningar på systemnivå. Och de kan komma åt alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om tillgängligt.
+De har också fullständig åtkomst till inställningsområdet, där de kan ändra alla inställningar på systemnivå. Och de kan komma åt alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om de är tillgängliga.
 
-Mer information finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ## Åtkomstnivå för plan
 
@@ -86,7 +86,7 @@ Planneråtkomstnivån är även kopplad till avtalslicensen och är utformad fö
 * Alla som ansvarar för planering, skapande och hantering av uppgifter, projekt, portfolior och program
 * Alla som ansvarar för att tilldela arbete (uppgifter och ärenden) till andra användare
 * Användare som skapar rapporter och som godkänner tidrapporter, arbetsuppgifter och dokument
-* Användare som behöver åtkomst till alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om tillgängligt
+* Användare som behöver åtkomst till alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om sådana finns
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån för planeraren och fastställa hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -122,7 +122,7 @@ Användare med den här åtkomstnivån:
 * Kan godkänna arbete och dokument, men inte tidrapporter
 * Kan få åtkomst till och dela rapporter
 * Kan kommunicera med andra användare i systemet
-* Det går inte att komma åt alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om tillgängligt, och deras&quot;Användare&quot;-område heter Teams. I Teams-området kan användare med den här åtkomstnivån bara visa team som de tillhör, tillsammans med arbetet som tilldelats dessa team.
+* Det går inte att komma åt alla områden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om den är tillgänglig, och deras användarområde heter Teams. I Teams-området kan användare med den här åtkomstnivån bara visa team som de tillhör, tillsammans med arbetet som tilldelats dessa team.
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån för Worker och bestämma hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -142,7 +142,7 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Användare |   |   | ✓ |
 | Team |   |   | ✓ (begränsad åtkomst) |
 | Mallar | ✓ |   |   |
-| Finansiella data |   | ✓ (Standardinställningen är Ingen åtkomst. Med visningsinställningen kan användaren bara visa området Ekonomi i projektinformationen.) |   |
+| Finansiella data |   | ✓ (Standardinställningen är Ingen åtkomst. Med visningsinställningen kan användaren bara visa området Ekonomi   i projektinformation.) |   |
 | Resurshantering |   | ✓ |   |
 | Scenarioplan |   |   | ✓ (Standardinställningen är Ingen åtkomst.) |
 | Workfront-mål |   |   | ✓ (Standardinställningen är Ingen åtkomst.) |
@@ -158,7 +158,7 @@ En berörd part med denna åtkomstnivå kan till exempel logga in på Workfront 
 Användare med åtkomstnivån Reviewer:
 
 * Det går inte att tilldela arbetsobjekt eller godkänna tidrapporter
-* Kan komma åt områdena Begäranden och dokument på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om tillgängligt
+* Kan komma åt områdena Begäranden och dokument på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om det är tillgängligt
 * Har begränsad möjlighet att skapa objekt - de kan inte skapa projekt, portfolior, program eller rapporter.
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån i Reviewer och bestämma hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -249,7 +249,7 @@ Mer begränsat för projekt och uppgifter än Worker-åtkomstnivån, är följan
   <tr> 
    <td>Finansiella data</td> 
    <td> </td> 
-   <td> <p>✓ (Standardinställningen är Ingen åtkomst. Med visningsinställningen kan användaren bara visa området Ekonomi i projektinformationen.)</p> </td> 
+   <td> <p>✓ (Standardinställningen är Ingen åtkomst. Med visningsinställningen kan användaren bara visa området Ekonomi   i projektinformation.)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -285,7 +285,7 @@ Användare med den här åtkomstnivån:
 * Kan överföra och godkänna dokument
 * Kan granska status för de utgåvor som de har skickat in
 * Det går inte att tilldela arbetsobjekt
-* Kan bara komma åt begäranden från området Förfrågningar på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om tillgängligt. Mer information om köer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Kan bara komma åt begäranden från området Begäranden på huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om det är tillgängligt. Mer information om begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Du kan skapa en anpassad version av den inbyggda åtkomstnivån för den begärande och fastställa hur mycket åtkomst den tillåter för de olika Workfront-objekttyperna. Mer information finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -327,7 +327,7 @@ Du kan inte ändra den här åtkomstnivån.
 
 >[!IMPORTANT]
 >
->Extern användare är bara tillgänglig om alternativet Samarbeta med personer utan Workfront-konton genom att använda deras e-postadress är aktiverat i området Systeminställningar i Inställningar. Mer information finns i [Konfigurera säkerhetsinställningar för system](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>Extern användare är bara tillgänglig om alternativet Samarbeta med personer utan Workfront-konton genom att använda deras e-postadress är aktiverat i området Systeminställningar i Inställningar. Mer information finns i [Konfigurera systemsäkerhetsinställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 Även om de här inställningarna inte visas i området Åtkomstnivåer för åtkomstnivån Extern användare har en användare med den här åtkomsten den högsta åtkomsten till Workfront-objekttyperna:
 

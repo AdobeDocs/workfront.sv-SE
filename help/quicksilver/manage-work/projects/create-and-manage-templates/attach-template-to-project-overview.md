@@ -10,7 +10,7 @@ feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1258'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 När du bifogar en mall till ett befintligt projekt ändrar du en del av informationen i projektet enligt mallen. En del av informationen i projektet ändras inte.
 
-Mer information om hur du bifogar en mall till ett projekt finns i [Bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Mer information om hur du bifogar en mall till ett projekt finns i [Koppla en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Att tänka på när du lägger till mallar i projekt
 
@@ -28,7 +28,7 @@ Tänk på följande när du lägger till mallar i projekt:
 * Du kan bara bifoga aktiva mallar till projekt.
 * Du kan bara bifoga en mall till ett projekt när projektet har statusen Fullständigt, Inaktuellt eller Väntar på godkännande om Adobe Workfront-administratören eller en gruppadministratör har aktiverat den här funktionen i området Projektinställningar. Mer information om hur du anger projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Såvida du inte utesluter att specifika malluppgifter läggs till i den bifogade processen, läggs alla malluppgifter till i det befintliga projektet.
-* De flesta mallinställningar läggs till i projektet. Vissa projektinställningar bevaras. Mer information finns i avsnittet [Förstå ändringar i projektfält när en mall bifogas](#understand-changes-to-project-fields-when-attaching-a-template) i den här artikeln.
+* De flesta mallinställningar läggs till i projektet. Vissa projektinställningar bevaras. Mer information finns i avsnittet [Förstå ändringar i projektfält när du bifogar en mall](#understand-changes-to-project-fields-when-attaching-a-template) i den här artikeln.
 
 ## Förstå ändringar i projektfält när en mall bifogas {#understand-changes-to-project-fields-when-attaching-a-template}
 
@@ -38,7 +38,7 @@ Tänk på följande när du lägger till mallar i projekt:
 
 Vissa mallinställningar överförs automatiskt till projektet, såvida du inte särskilt markerar att de inte ska tas med vid mallbifogningsprocessen. När du markerar dem som uteslutna bevaras projektfältets värden.
 
-Alla projektfält är dock inte tillgängliga för hantering när en mall bifogas till ett projekt. Mer information finns i [Bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Alla projektfält är dock inte tillgängliga för hantering när en mall bifogas till ett projekt. Mer information finns i [Koppla en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 I följande tabell beskrivs standardinställningen för vad som händer med projektfält när du kopplar en mall och vilka fält som du kan hantera under bilageprocessen för att åsidosätta standardbeteendet:
 
@@ -208,7 +208,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Resurspooler</td> 
+   <td>Resursgrupper</td> 
    <td>Tillagd i listan över befintliga resurspooler i projektet</td> 
    <td> </td> 
   </tr> 
@@ -228,7 +228,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Standardinställd Forms för aktivitet</td> 
+   <td>Anpassad Forms för aktivitetsstandard</td> 
    <td>Projektinformationen bevaras</td> 
    <td> </td> 
   </tr> 
@@ -239,7 +239,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Tillåt användare att lägga till interna utgåvor</span> </td> 
-   <td><span>Projektinformationen bevaras</span> </td> 
+   <td><span>Projektinformation bevaras</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -249,7 +249,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
   </tr> 
   <tr> 
    <td>Uppgifter</td> 
-   <td>Lades till längst ned i uppgiftslistan, förutom de befintliga projektaktiviteterna</td> 
+   <td>Lades till längst ned i uppgiftslistan, utöver befintliga projektuppgifter</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -259,7 +259,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
   </tr> 
   <tr> 
    <td>Risker (objekt i området Risker i projektet)</td> 
-   <td>Tillagt i projektet, utöver befintliga projektrisker </td> 
+   <td>Som läggs till i projektet, utöver befintliga projektrisker </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -279,7 +279,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
   </tr> 
   <tr> 
    <td>Utgifter</td> 
-   <td>Överfört från mallen utöver befintliga utgifter i projektet</td> 
+   <td>Överfört från mallen utöver befintliga utgifter för projektet</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
   </tr> 
   <tr> 
    <td>Köinformation, ämnesgrupper, köämnen, routningsregler</td> 
-   <td> <p>Överförd från mall</p> <p>Om du väljer <strong>Inställningar för köegenskaper och problem</strong> under bilageprocessen skrivs köinformationen för mallen över projektets. I det här fallet läggs reglerna för routning, köämnen och ämnesgrupper i mallen till i projektets. <br>Om projektet har ställts in som en begärandekö och mallen som du kopplar till projektet inte har ställts in som en begärandekö, tas köinformationen för projektet bort om du lämnar <strong>Inställningar för köegenskaper och problem</strong> kryssrutan är markerad. <br>Om du avmarkerar <strong>Köegenskaper och inställningar för problem</strong> bevaras alla inställningar för köinställningar för projektet och inga inställningar för köinställningar från mallen bifogas.</p> </td> 
+   <td> <p>Överförd från mall</p> <p>Om du väljer alternativet <strong>Köegenskaper och inställningar för problem</strong> under bilageprocessen skriver köinformationen för mallen över projektets. I det här fallet läggs reglerna för routning, köämnen och ämnesgrupper i mallen till i projektets. <br>Om projektet har konfigurerats som en begärandekö och mallen som du bifogar till projektet inte har ställts in som en begärandekö, tas köinformationen bort om du inte markerar kryssrutan <strong>Köegenskaper och inställningar för problem</strong> . <br>Om du avmarkerar kryssrutan <strong>Köegenskaper och utgivningsinställningar</strong> bevaras alla inställningar för köinställningar för projektet och inga köinställningar från mallen bifogas.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -314,7 +314,7 @@ I följande tabell beskrivs standardinställningen för vad som händer med proj
   </tr> 
   <tr> 
    <td>Föregående aktiviteter</td> 
-   <td> <p>Överförd från mall</p> <p>Om det här alternativet inte är markerat under bilageprocessen tas alla föregående anslutningar mellan malluppgifterna bort.</p> </td> 
+   <td> <p>Överförd från mall</p> <p>Om du avmarkerar alternativet under bilageprocessen tas alla föregående anslutningar mellan malluppgifterna bort.</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 

@@ -22,7 +22,7 @@ PKCE är ett säkert auktoriseringsflöde som fungerar bra med dynamiskt uppdate
 
 Ett PKCE-flöde har följande steg. Stegen i det här avsnittet visas endast i informationssyfte. Om du vill utföra dessa procedurer läser du i andra avsnitt i den här artikeln.
 
-1. Klienten skapar `code_challenge` genom att omforma `code_verifier` använda `S256` kryptering.
+1. Klienten skapar `code_challenge` genom att omforma `code_verifier` med hjälp av `S256`-kryptering.
 
 1. Klienten dirigerar webbläsaren till inloggningssidan för OAuth2, tillsammans med den genererade `code_challenge`. Du måste registrera din app (Client) så att OAuth2 kan godkänna auktoriseringsbegäran. Efter registreringen kan din app dirigera om webbläsaren till OAuth2.
 
@@ -32,11 +32,11 @@ Ett PKCE-flöde har följande steg. Stegen i det här avsnittet visas endast i i
 
 1. OAuth2 dirigerar tillbaka till ditt program med en `authorization code`.
 
-1. Programmet skickar den här koden tillsammans med `code_verifier`, till OAuth2.
+1. Programmet skickar den här koden tillsammans med `code_verifier` till OAuth2.
 
-1. OAuth2 Authorization Server transformerar `code_verifier` med `code_challenge_method` från den ursprungliga auktoriseringsbegäran och kontrollerar resultatet mot `code_challenge`. Om värdet för båda strängarna matchar har servern verifierat att förfrågningarna kommer från samma klient och kommer att skicka ett `access token`.
+1. OAuth2 Authorization Server transformerar `code_verifier` med `code_challenge_method` från den ursprungliga auktoriseringsbegäran och kontrollerar resultatet mot `code_challenge`. Om värdet för båda strängarna matchar har servern verifierat att förfrågningarna kom från samma klient och kommer att utfärda en `access token`.
 
-1. OAuth2 returnerar `access token`och eventuellt en `refresh token`.
+1. OAuth2 returnerar `access token` och eventuellt en `refresh token`.
 
 1. Programmet kan nu använda dessa token för att anropa resursservern, till exempel ett API för användarens räkning.
 
@@ -47,7 +47,7 @@ Ett PKCE-flöde har följande steg. Stegen i det här avsnittet visas endast i i
 
 Innan du kan implementera auktorisering måste du registrera din app i OAuth2 genom att skapa en appintegrering från Workfront.
 
-Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett ensidigt OAuth2-webbprogram med PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett OAuth2-webbprogram med en sida med PKCE](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) i [Skapa OAuth2-program för Workfront-integreringar](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Instruktioner om hur du skapar OAuth2-programmet finns i [Skapa ett ensidigt OAu
 
 ## Skapa korrekturnyckeln för kodutbyte
 
-På samma sätt som i det vanliga Authorization Code-flödet börjar din app med att dirigera om användarens webbläsare till din Authorization Server `/authorize` slutpunkt. I det här fallet måste du dock även skicka en kodutmaning.
+På samma sätt som standardflödet för auktoriseringskoder börjar din app med att dirigera om användarens webbläsare till `/authorize`-slutpunkten för auktoriseringsservern. I det här fallet måste du dock även skicka en kodutmaning.
 
 Det första steget är att generera en kodverifierare och en utmaning.
 
@@ -95,7 +95,7 @@ PKCE-generatorkoden skapar utdata som liknar följande:
 >}
 >```
 
-Din app sparar `code_verifier` för senare och skickar `code_challenge` tillsammans med auktoriseringsbegäran till din Authorization Server `/authorize` URL.
+Din app sparar `code_verifier` senare och skickar `code_challenge` tillsammans med auktoriseringsbegäran till auktoriseringsserverns `/authorize`-URL.
 
 ## Begär en auktoriseringskod
 
@@ -113,22 +113,22 @@ Om du använder standardservern för anpassad auktorisering ser din begärande-U
 
 Observera de parametrar som skickas:
 
-* `client_id` matchar klient-ID:t för OAuth2-programmet som du skapade i när du konfigurerade programmet.
+* `client_id` matchar klient-ID:t för OAuth2-programmet som du skapade i när du konfigurerade programmet.
 
   Instruktioner finns i Skapa ett ensidigt OAuth2-webbprogram med PKCE i Skapa OAuth2-program för Workfront-integreringar.
 
-* `response_type` är `code`, eftersom programmet använder behörighetstypen Authorization Code.
+* `response_type` är `code` eftersom programmet använder behörighetstypen Auktoriseringskod.
 
-* `redirect_uri` är den återanropsplats som användaragenten dirigeras till tillsammans med `code`. Detta måste matcha en av de omdirigerings-URL:er som du angav när du skapade OAuth2-programmet.
+* `redirect_uri` är återanropsplatsen som användaragenten dirigeras till tillsammans med `code`. Detta måste matcha en av de omdirigerings-URL:er som du angav när du skapade OAuth2-programmet.
 
-* `code_challenge_method` är hash-metoden som används för att generera utmaningen, vilket alltid är `S256` för Workfront Oauth2-program som använder PKCE.
+* `code_challenge_method` är den hash-metod som används för att generera utmaningen, som alltid är `S256` för Workfront Oauth2-program som använder PKCE.
 
-* `code_challenge` är den kodutmaning som används för PKCE.
+* `code_challenge` är den kodutmaning som används för PKCE.
 
 
 ## Byta ut koden för tokens
 
-Om du vill ändra auktoriseringskoden för en åtkomsttoken skickar du den till din auktoriseringsservers `/token` slutpunkt tillsammans med `code_verifier`.
+Om du vill ändra auktoriseringskoden för en åtkomsttoken skickar du den till auktoriseringsserverns `/token`-slutpunkt tillsammans med `code_verifier`.
 
 >[!INFO]
 >
@@ -148,15 +148,15 @@ Om du vill ändra auktoriseringskoden för en åtkomsttoken skickar du den till 
 
 Observera de parametrar som skickas:
 
-* `grant_type` är `authorization_code`, eftersom appen använder behörighetstypen Authorization Code.
+* `grant_type` är `authorization_code` eftersom appen använder behörighetstypen Auktoriseringskod.
 
-* `redirect_uri` måste matcha den URI som användes för att hämta auktoriseringskoden.
+* `redirect_uri` måste matcha den URI som användes för att hämta auktoriseringskoden.
 
-* `code` är auktoriseringskoden som du fick från slutpunkten /authorized.
+* `code` är auktoriseringskoden som du fick från slutpunkten /authorized.
 
-* `code_verifier` är PKCE-kodverifieraren som din app genereras i [Skapa korrekturnyckeln för kodutbyte](#Create).
+* `code_verifier` är PKCE-kodverifieraren som din app genererade i [Skapa korrekturnyckeln för kodutbyte](#Create).
 
-* `client_id` identifierar klienten och måste matcha värdet som är förregistrerat i OAuth2.
+* `client_id` identifierar klienten och måste matcha värdet som är förregistrerat i OAuth2.
 
 
 Om koden fortfarande är giltig och kodverifieraren matchar, får ditt program en åtkomsttoken.

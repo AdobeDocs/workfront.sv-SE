@@ -7,7 +7,7 @@ description: Du kan välja om du vill få nya Workfront-funktioner månadsvis el
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ff192113a73e19bf21a3e459cd793f82179dff3d
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -15,8 +15,6 @@ ht-degree: 0%
 ---
 
 # Skapa och redigera affärsregler
-
-{{highlighted-preview-article-level}}
 
 Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Affärsreglerna bidrar till att förbättra datakvaliteten och effektiviteten genom att förhindra åtgärder som kan äventyra dataintegriteten.
 
@@ -34,9 +32,9 @@ Affärsreglerna gäller för att skapa, redigera och ta bort objekt via API:t oc
 
 ## Åtkomstkrav
 
-+++ Utöka för att se åtkomstkraven för funktionen i den här artikeln.
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande uppgifter för att kunna utföra stegen i den här artikeln:
+Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +55,7 @@ Du måste ha följande uppgifter för att kunna utföra stegen i den här artike
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,24 +63,24 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 Formatet på en affärsregel är&quot;OM det definierade villkoret uppfylls förhindras användaren från att utföra åtgärden på objektet och meddelandet visas.&quot;
 
-Syntaxen för egenskaperna och andra funktioner i en affärsregel är densamma som syntaxen för ett beräkningsfält i ett anpassat formulär. Mer information om syntaxen finns i [Lägg till beräknade fält med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Syntaxen för egenskaperna och andra funktioner i en affärsregel är densamma som syntaxen för ett beräkningsfält i ett anpassat formulär. Mer information om syntaxen finns i [Lägga till beräknade fält med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Mer information om IF-programsatser finns i [Översikt över IF-programsatser](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) och [Villkorsoperatorer i beräknade anpassade fält](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Mer information om IF-satser finns i [&quot;IF&quot;-programöversikt](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) och [Villkorsoperatorer i beräknade anpassade fält](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-Mer information om användarbaserade jokertecken finns i [Generera rapporter med användarbaserade jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+Mer information om användarbaserade jokertecken finns i [Använda användarbaserade jokertecken för att generera rapporter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Mer information om datumbaserade jokertecken finns i [Generera rapporter med datumbaserade jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
-Ett API-jokertecken finns också i affärsreglerna. Du kan använda `$$ISAPI` om du bara vill aktivera regeln i användargränssnittet eller bara i API:t.
+Ett API-jokertecken finns också i affärsreglerna. Du kan använda `$$ISAPI` för att utlösa regeln endast i gränssnittet eller endast i API:t.
 
 Några enkla affärsregelscenarier är:
 
-* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Denna formel kan anges som: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Användare kan inte redigera ett projekt som har statusen Fullständigt. Denna formel skulle kunna uttryckas som: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Den här formeln kan anges som: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Användare kan inte redigera ett projekt som har statusen Fullständigt. Den här formeln kan anges som: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Ett scenario med kapslade IF-satser är:
 
-Användare kan inte redigera slutförda projekt och kan inte redigera projekt med ett planerat slutförandedatum i mars. Denna formel skulle kunna uttryckas som:
+Användare kan inte redigera slutförda projekt och kan inte redigera projekt med ett planerat slutförandedatum i mars. Denna formel kan anges som:
 
 ```
 IF(
@@ -98,24 +96,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. Klicka **Affärsregler** till vänster.
-1. Klicka **Ny affärsregel**.
+1. Klicka på **Affärsregler** i den vänstra panelen.
+1. Klicka på **Ny affärsregel**.
 1. Välj den objekttyp som affärsregeln ska tilldelas till och klicka sedan på **Fortsätt**.
 
    ![Markera ett objekt](assets/object-for-business-rule2.png)
 
-1. Skriv **Namn** för affärsregeln.
-1. I **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
+1. Skriv **namnet** för affärsregeln.
+1. I fältet **Är aktiv** väljer du om regeln ska vara aktiv när du sparar den.
 
-   Om du väljer **Nej**, sparas regeln som inaktiv och du kan aktivera den senare.
+   Om du väljer **Nej** sparas regeln som inaktiv och du kan aktivera den senare.
 
-1. Välj en **Utlösare** för affärsregeln. Alternativen är:
+1. Välj en **utlösare** för affärsregeln. Alternativen är:
 
    * **När objekt skapas:** Regeln används när en användare försöker skapa ett objekt.
    * **Vid objektredigering:** Regeln används när en användare försöker redigera ett objekt.
    * **Vid borttagning av objekt:** Regeln används när en användare försöker ta bort ett objekt.
 
-1. (Valfritt) Ange en **Beskrivning** av affärsregeln och vad som händer när den tillämpas.
+1. (Valfritt) Ange en **beskrivning** av affärsregeln och vad som händer när den tillämpas.
 1. Bygg formeln i formelredigeraren i mitten av dialogrutan för affärsregler.
 
    Formatet på en affärsregel är&quot;OM det definierade villkoret uppfylls förhindras användaren från att utföra åtgärden på objektet och meddelandet visas.&quot;
@@ -127,19 +125,19 @@ IF(
    * Eftersom objektet och åtgärden redan är definierade, tar du inte med dem i formeln.
    * Det anpassade felmeddelandet visas för användaren när de utlöser affärsregeln. Den ska innehålla tydliga instruktioner om vad som gick fel och hur problemet ska åtgärdas.
 
-   ![Lägg till affärsregeldialog](assets/add-business-rule-dialog-no-ai-button.png)
+   ![Dialogrutan Lägg till affärsregel](assets/add-business-rule-dialog-no-ai-button.png)
 
    Det här exemplet är en affärsregel för utgifter. Om den aktuella månaden är juni får användarna inte skapa nya utgifter, och det förklaras i meddelandet.
 
-   Fler exempel på affärsregler finns i [Scenarier för affärsregler](#scenarios-for-business-rules) i den här artikeln.
+   Mer exempel på affärsregler finns i [Scenarier för affärsregler](#scenarios-for-business-rules) i den här artikeln.
 
-1. (Valfritt) Använd formeln **Uttryck** och **Fält** i den högra panelen för att hjälpa till att skapa regeln.
+1. (Valfritt) Använd formeln **Uttryck** och **Fält** på den högra panelen för att få hjälp med att skapa regeln.
 
    Sök efter ett uttryck eller fält för att begränsa listan med tillgängliga objekt.
 
    Listan med tillgängliga fält är begränsad till fält som är relaterade till objekttypen för affärsregeln.
 
-1. Klicka **Spara** när du är klar med att skapa affärsregeln.
+1. Klicka på **Spara** när du är klar med att skapa affärsregeln.
 
 >[!NOTE]
 >
@@ -152,5 +150,5 @@ När en affärsregel är inaktiv visas Falskt i fältet Är aktiv i listan med a
 Så här aktiverar du en affärsregel:
 
 1. Markera affärsregeln i listan med regler och klicka på ikonen Redigera.
-1. Välj **Ja** for **Är aktiv** i dialogrutan för affärsregler.
-1. Klicka **Spara**.
+1. Välj **Ja** för **Är aktiv** i dialogrutan för affärsregler.
+1. Klicka på **Spara**.

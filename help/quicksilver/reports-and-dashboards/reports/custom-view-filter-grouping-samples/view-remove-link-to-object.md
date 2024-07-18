@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa: ta bort länken till ett objekt i en kolumn'
-description: Vissa objekt som du visar i en vy länkar till objektets detaljsida som standard. Kolumnen som visar namnet på ett projekt är till exempel en länk till projektet. kolumnen som visar namnet på en användare är en länk till användarens profilsida.
+title: 'Visa: ta bort länk till ett objekt i en kolumn'
+description: Vissa objekt som du visar i en vy länkar till objektets detaljsida som standard. Kolumnen som visar namnet på ett projekt är till exempel en länk till projektet. Kolumnen som visar namnet på en användare är en länk till användarens profilsida.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Visa: ta bort länken till ett objekt i en kolumn
+# Visa: ta bort länk till ett objekt i en kolumn
 
-Vissa objekt som du visar i en vy länkar till objektets detaljsida som standard. Kolumnen som visar namnet på ett projekt är till exempel en länk till projektet. kolumnen som visar namnet på en användare är en länk till användarens profilsida.
+Vissa objekt som du visar i en vy länkar till objektets detaljsida som standard. Kolumnen som visar namnet på ett projekt är till exempel en länk till projektet. Kolumnen som visar namnet på en användare är en länk till användarens profilsida.
 
 Du kan ta bort den här länken i textläge i kolumner som visas i alla vyer.
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>   
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -52,34 +52,34 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Exempel: Ta bort länken till en uppgift från kolumnen Uppgiftsnamn i en uppgiftsvy:
+## Exempel: Ta bort länken till en aktivitet från kolumnen Uppgiftsnamn i en uppgiftsvy:
 
 1. Gå till en lista med uppgifter.
-1. Från **Visa** nedrullningsbar meny, klicka **Ny vy** för att skapa en ny vy.
+1. Klicka på **Ny vy** i listrutan **Visa** för att skapa en ny vy.
 
    eller
 
-   Klicka på **Ikonen Redigera** ![](assets/edit-icon.png)
+   Klicka på ikonen **Redigera** ![](assets/edit-icon.png)
 
    Om du vill redigera en befintlig vy markerar du vyn.
 
-1. Klicka **Lägg till kolumn** om du vill lägga till en ny kolumn.
+1. Klicka på **Lägg till kolumn** för att lägga till en ny kolumn.
 
    eller
 
    Klicka på en befintlig kolumn med en länk till ett objekt.
 
-1. Klicka **Växla till textläge**.
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
-   <pre>displayName=Aktivitetsnamn<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueFormat=Sammansatt</pre>
+1. Klicka på **Växla till textläge**.
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
+   <pre>displayname=Aktivitetsnamn<br>länkat namn=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueExpression={name}</strong><br>valueFormat=Compound</pre>
 
    >[!TIP]
    >
    >Du kan använda liknande kod för andra objekt genom att justera följande:
    >
-   >* Ersätt **värdefält** kodrad med **värdeuttryck** och behålla samma namn inom klammerparenteser efter likhetstecknet.
-   >* Eliminera alla rader som börjar med `link.` från den ursprungliga texten i kolumnen. Ta till exempel bort alla följande rader:
+   >* Ersätt kodens **värdefält**-rad med **värdeuttryck** och behåll samma namn inom klammerparenteser efter likhetstecknet.
+   >* Ta bort alla rader som börjar med `link.` från den ursprungliga texten i kolumnen. Ta till exempel bort alla följande rader:
    >
    >  ```
    >  link.linkproperty.0.name=ID
@@ -90,4 +90,4 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    >  ```
    >
 
-1. Klicka **Spara** sedan **Spara vy**.
+1. Klicka på **Spara** och sedan på **Spara vy**.

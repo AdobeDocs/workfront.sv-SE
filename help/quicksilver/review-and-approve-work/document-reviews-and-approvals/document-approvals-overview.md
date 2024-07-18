@@ -27,7 +27,7 @@ Fortsätt läsa nedan för mer information om planerade funktioner och releaser 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3420544/)
 
-* **Inkluderande deltagande av intressenter**\
+* **Deltagande av intressenter**\
     Med nya dokumentgodkännanden kan både enskilda medarbetare och hela team inkluderas i godkännandeprocessen. Genom att underlätta detta bredare deltagande kan man säkerställa ett heltäckande engagemang från intressenternas sida och främja en mer välinformerad och samverkande beslutsmiljö.
 
 * **Differentierade gransknings- och godkännanderoller**\
@@ -36,7 +36,7 @@ Fortsätt läsa nedan för mer information om planerade funktioner och releaser 
 * **Versionsspecifika godkännanden**\
     Dokumentutvecklingens repetitiva natur leder ofta till flera versioner av samma dokument. Nya dokumentgodkännanden anpassar sig efter detta genom unika godkännandekedjor för varje version av ett dokument. På så sätt kan användare ladda upp en ny version och lägga till nya godkännare eller granskare efter behov, vilket säkerställer att feedback och godkännande är specifika för dokumentversionen och eliminerar eventuella förvirringar.
 
-* **Granskningshistorik**\
+* **Granskningsspår**\
     Med godkännande av nya dokument upprätthålls en verifieringskedja över alla godkännandeaktiviteter i aktivitetsströmmen, vilket utgör en värdefull resurs för framtida referens och efterlevnad.
 
 ## Versionsplan
@@ -47,9 +47,9 @@ Om du vill aktivera nya dokumentgodkännanden i din produktionsmiljö kontaktar 
 
 ## Använda nya dokumentgodkännanden
 
-Information om användare som vill skapa eller hantera dokumentgodkännanden finns i artiklarna i [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+För användare som vill skapa eller hantera dokumentgodkännanden, se artiklarna i [Konfigurera och hantera resurs- och dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-Information om användare som vill granska eller godkänna dokument som de har tagit emot en begäran finns i artiklarna i [Godkänn och granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+För användare som vill granska eller godkänna dokument som de har tagit emot en begäran om, se artiklarna i [Godkänn och granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

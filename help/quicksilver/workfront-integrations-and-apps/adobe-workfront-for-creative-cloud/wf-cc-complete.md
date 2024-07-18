@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Markera arbetsobjekt som slutförda med [!DNL Adobe Workfront] plugin
+# Markera arbetsobjekt som slutförda med plugin-programmet [!DNL Adobe Workfront]
 
-Du kan stanna i följande [!DNL Adobe Creative Cloud] och du kan arbeta smidigt i [!DNL Adobe Workfront] med plugin-programmet:
+Du kan stanna i följande [!DNL Adobe Creative Cloud]-program och slutföra ditt arbete i [!DNL Adobe Workfront] med plugin-programmet:
 
 {{cc-app-list}}
 
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> --> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</td> 
+   <td>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
@@ -54,23 +54,23 @@ Kontakta [!DNL Workfront] administratör.
 
 ## Slutför en arbetsuppgift
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Från **[!UICONTROL Work List]** väljer du den uppgift eller det problem som du vill markera som slutförd.
-1. Klicka på **[!UICONTROL Done]**.  Om du är den enda användaren som är tilldelad den här uppgiften eller utgåvan markeras objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] in [!DNL Workfront].
-1. (Villkorligt) Om flera användare har tilldelats den här uppgiften eller problemet klickar du på [!UICONTROL Done] öppnar en listruta. Då kan du:
+1. Välj den uppgift eller det problem som du vill markera som slutförd i **[!UICONTROL Work List]**.
+1. Klicka på **[!UICONTROL Done]**.  Om du är den enda användaren som är tilldelad den här uppgiften eller utgåvan markeras objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] i [!DNL Workfront].
+1. (Villkorligt) Om flera användare har tilldelats till den här uppgiften eller problemet, öppnas en listruta när du klickar på [!UICONTROL Done]. Då kan du:
 
-   Klicka **[!UICONTROL Done with my part]** om andra användare också måste göra sitt arbete för att uppgiften eller utgåvan ska vara slutförd.
+   Klicka på **[!UICONTROL Done with my part]** om andra användare också måste göra sitt arbete för att uppgiften eller utgåvan ska kunna slutföras.
 
    eller
 
-   Klicka **[!UICONTROL Complete]** (för uppgifter) eller **[!UICONTROL Resolved]** (för frågor) om inget annat arbete behöver göras med uppgiften eller problemet. Detta markerar objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] in [!DNL Workfront].
+   Klicka på **[!UICONTROL Complete]** (för aktiviteter) eller **[!UICONTROL Resolved]** (för problem) om ingen ytterligare åtgärd behöver utföras för uppgiften eller problemet. Detta markerar objektet [!UICONTROL Complete] eller [!UICONTROL Resolved] i [!DNL Workfront].
 
    >[!NOTE]
    >
-   >Om arbetsposten har föregångare är knappen Klar grå tills dessa föregångare har markerats som slutförda. Så här visar du föregångare i [!DNL Workfront]klickar du på uppgiftsnamnet.
+   >Om arbetsposten har föregångare är knappen Klar grå tills dessa föregångare har markerats som slutförda. Om du vill visa föregående aktiviteter i [!DNL Workfront] klickar du på aktivitetsnamnet.
    >![](assets/navigate-to-workfront.png)
 
 <!-- I dont think we need this one ![](assets/complete-work-350x529.png) -->

@@ -1,7 +1,7 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: Fäst sidor för att anpassa arbetsytan
-description: Du kan fästa ditt viktigaste arbete [!DNL Adobe Workfront] för ökad synlighet, bättre organisation och snabbare åtkomst. Fastnålade sidor är alltid tillgängliga från överkanten på alla sidor i Workfront.
+description: Du kan fästa ditt viktigaste arbete [!DNL Adobe Workfront] för ökad synlighet, bättre ordning och snabbare åtkomst. Fastnålade sidor är alltid tillgängliga från överkanten på alla sidor i Workfront.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Du kan fästa ditt viktigaste arbete i [!DNL Adobe Workfront] för ökad synlighet, bättre organisation och snabbare åtkomst. Fastnålade sidor är alltid tillgängliga från överkanten på alla sidor i Workfront.
 
-Du kan tilldelas till en layoutmall som redan har fästa sidor (enligt beskrivningen i [Anpassa fästa sidor med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Dessa fördefinierade punkter kan inte byta namn eller tas bort. Alla sidor som du fäster visas till höger om de fördefinierade stiften.
+Du kan tilldelas till en layoutmall som redan har fästa sidor (vilket beskrivs i [Anpassa fästa sidor med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Dessa fördefinierade punkter kan inte byta namn eller tas bort. Alla sidor som du fäster visas till höger om de fördefinierade stiften.
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Fäst en sida
 
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Detta kan vara vilket arbetsobjekt som helst, t.ex. ett projekt, en uppgift, en begärandekö.
 
-1. Klicka **[!UICONTROL Pin current page]** överst på sidan.
+1. Klicka på **[!UICONTROL Pin current page]** överst på sidan.
 
    Den fästa sidan är nu tillgänglig från överkanten på en sida i [!DNL Workfront].
 
@@ -61,7 +61,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    eller
 
-   Om du har många sidor fästa kan du behöva klicka på **[!UICONTROL More]meny** ![](assets/more-icon-spectrum.png) om du vill visa fler fästa sidor.
+   Om du har många sidor fästa kan du behöva klicka på **[!UICONTROL More]-menyn** ![](assets/more-icon-spectrum.png) för att visa fler fästa sidor.
 
    Den fästa sidan visas.
 
@@ -69,14 +69,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan ändra namnet på en fäst sida så att det blir mer meningsfullt för dig.
 
-1. Håll pekaren över den fästa sidan i den övre navigeringen eller **[!UICONTROL More menu]**.
+1. Hovra över den fästa sidan i den övre navigeringen eller **[!UICONTROL More menu]**.
 1. Klicka på pilen bredvid nålnamnet och välj **[!UICONTROL Rename pin]**.
 
-   ![Byt namn på stift](assets/rename-remove-pin.png)
+   ![Byt namn på stiftet](assets/rename-remove-pin.png)
 
 1. Skriv det nya stiftnamnet och klicka på bockmarkeringsikonen eller tryck på Retur.
 
-   ![Klicka på bockmarkeringen för att byta namn på nålen](assets/rename-pin-click-checkmark.png)
+   ![Klicka på bockmarkeringen för att byta namn på stiftet](assets/rename-pin-click-checkmark.png)
 
    Ett litet popup-fönster visas i flera sekunder efter att du har klickat på bockmarkeringen eller tryckt på Retur, så att du kan ångra ändringen av nålens namn innan det sparas.
 
@@ -84,14 +84,14 @@ Du kan ändra namnet på en fäst sida så att det blir mer meningsfullt för di
 
 Du kan ändra ordningen som fästa sidor visas.
 
-1. Håll pekaren över den fästa sidan i den övre navigeringen eller **[!UICONTROL More menu]**. När du ser handmarkören klickar du och drar stiftet till önskad ordning.
+1. Hovra över den fästa sidan i den övre navigeringen eller **[!UICONTROL More menu]**. När du ser handmarkören klickar du och drar stiftet till önskad ordning.
 
    Ändringarna sparas automatiskt och sparas nästa gång du öppnar Workfront.
 
 ## Ta bort en fäst sida
 
 1. Klicka på den fästa sida som du vill ta bort.
-1. Klicka **[!UICONTROL Unpin current page]** längst upp på skärmen.
+1. Klicka på **[!UICONTROL Unpin current page]** högst upp på skärmen.
 
    eller
 
@@ -99,4 +99,4 @@ Du kan ändra ordningen som fästa sidor visas.
 
    ![Ta bort stift](assets/rename-remove-pin.png)
 
-   Sidan är inte längre tillgänglig från överkanten på någon sida i [!DNL Workfront].
+   Sidan är inte längre tillgänglig från överkanten av någon sida i [!DNL Workfront].

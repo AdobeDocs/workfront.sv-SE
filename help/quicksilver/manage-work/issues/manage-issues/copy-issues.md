@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -46,11 +46,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till utleveranser</a>. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till problem</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter för det objekt du kopierar problemet till med möjligheten att lägga till problem.</p> <p> Information om hur du beviljar behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett ärende </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter till det objekt där du kopierar problemet med möjligheten att lägga till problem.</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,9 +78,9 @@ Följande objekt kopieras inte till den nya utgåvan som standard:
 
 Tänk på följande när du kopierar problem som innehåller dokument eller är kopplade till en begärandekö:
 
-* **När ett problem är kopplat till en begärandekö:** När du kopierar en utgåva till ett annat objekt och utgåvan är kopplad till en begärandekö, är den kopierade utgåvan inte längre kopplad till den ursprungliga kön som den första utgåvan kom från.
+* **När ett problem är kopplat till en begärandekö:** När du kopierar ett problem till ett annat objekt och problemet är kopplat till en begärandekö, är det kopierade problemet inte längre kopplat till den ursprungliga kö som det första problemet kom från.
 * **När ett dokument bifogas till utgåvan:** När du kopierar en utgåva till ett annat objekt och utgåvan har ett bifogat dokument, flyttas även dokumentet och dess versioner till den nya utgåvan. Eventuella korrektur eller godkännanden som är kopplade till dokumentet flyttas inte.
-* **När ett problem är länkat till ett dokument eller en mapp:** När du kopierar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, överförs länkarna till dokumenten till den kopierade utgåvan.
+* **När ett problem är länkat till ett dokument eller en mapp:** När du kopierar ett ärende som har dokument eller mappar länkade till en tredjepartstjänst som Google Drive, överförs länkarna till dokumenten till det kopierade problemet.
 
 ## Kopiera utgåvor i en lista
 
@@ -92,12 +92,12 @@ Du kan kopiera en eller flera utgåvor från en lista med utgåvor eller från e
 
    Gå till en problemrapport.
 
-1. Om du valde att gå till ett projekt klickar du på **Problem** till vänster.
-1. Markera det eller de problem som du vill kopiera och klicka på **Menyn Mer** överst i problemlistan klickar du på **Kopiera till**.
+1. Om du valde att gå till ett projekt klickar du på **Problem** i den vänstra panelen.
+1. Markera det eller de problem som du vill kopiera och klicka på menyn **Mer** överst i problemlistan och klicka sedan på **Kopiera till**.
 
    ![](assets/copy-issue-in-list-nwe-350x169.png)
 
-1. Fortsätt med att kopiera problemet, enligt beskrivningen i avsnittet [Kopiera en utgåva](#copy-a-single-issue) med början från steg 2.
+1. Fortsätt med att kopiera problemet, enligt beskrivningen i avsnittet [Kopiera ett enstaka problem](#copy-a-single-issue) med början från steg 2.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -109,21 +109,21 @@ Du kan kopiera en eller flera utgåvor från en lista med utgåvor eller från e
 
 Du kan kopiera en utgåva när du visar den.
 
-1. Gå till en utgåva som du vill kopiera och klicka sedan på **Mer** meny ![](assets/more-icon.png) till höger om problemets namn, och **Kopiera** till.
+1. Gå till ett problem som du vill kopiera och klicka sedan på menyn **Mer** ![](assets/more-icon.png) till höger om problemnamnet och **Kopiera** till.
 
    ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
-   The **Kopiera problem** visas.
+   Rutan **Kopiera utgåva** visas.
 
    ![](assets/copy-issue-box-nwe-350x285.png)
 
-1. I **Välj målprojekt** anger du namnet på det projekt där du vill kopiera problemen. Namnet på det aktuella projektet visas som standard.
+1. I avsnittet **Välj målprojekt** anger du namnet på det projekt där du vill kopiera problemen. Namnet på det aktuella projektet visas som standard.
 
    >[!TIP]
    >
    >Endast 100 projekt visas i listan.
 
-1. (Villkorligt) Klicka **begära åtkomst** om du inte har tillgång till kopieringsutgåvor av projektet.
+1. (Villkorligt) Klicka på **begär åtkomst** om du inte har åtkomst till kopieringsproblem i projektet.
 1. (Villkorligt) Fortsätt att kopiera utgåvan till det valda målprojektet utan att begära åtkomst om du har tillgång till att lägga till utgåvor till någon av åtgärderna i målprojektet.
 
    ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
@@ -132,7 +132,7 @@ Du kan kopiera en utgåva när du visar den.
    >
    >Liknande meddelanden visas om det valda projektet väntar på godkännande, är slutfört eller är inaktivt, när Workfront-administratören förhindrar att det uppstår problem i dessa projekt. Mer information finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-1. (Valfritt) I dialogrutan **Alternativ** avmarkerar du något av objekten i tabellen nedan för att ta bort dem från den nya utgåvan. Alla alternativ är markerade som standard.
+1. (Valfritt) I avsnittet **Alternativ** avmarkerar du något av objekten i tabellen nedan för att ta bort dem från den nya utgåvan. Alla alternativ är markerade som standard.
 
    >[!NOTE]
    >
@@ -152,7 +152,7 @@ Du kan kopiera en utgåva när du visar den.
      </tr> 
      <tr> 
       <td role="rowheader">Dokument</td> 
-      <td><span style="line-height: 1.5;">Tar bort allt på dokumentfliken, inklusive dokumentversioner, länkade dokument och mappar.</span> <br>Som standard kan dokumentkorrektur och godkännanden inte kopieras till en annan utgåva.</td> 
+      <td><span style="line-height: 1.5;">Tar bort allt på dokumentfliken, inklusive dokumentversioner, länkade dokument och mappar.</span> <br>Som standard går det inte att kopiera dokumentkorrektur och godkännanden till en annan utgåva.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Behörigheter</td> 
@@ -169,8 +169,8 @@ Du kan kopiera en utgåva när du visar den.
     </tbody> 
    </table>
 
-1. (Valfritt) I dialogrutan **Välj uppgift** väljer du den uppgift där du vill flytta problemet.
-1. Klicka **Kopiera utgåva** eller **Kopiera problem** om du har valt flera utgåvor i en lista.
+1. (Valfritt) I avsnittet **Välj uppgift** väljer du den uppgift där du vill flytta problemet.
+1. Klicka på **Kopiera utgåva** eller **Kopiera utgåvor** om du har markerat flera utgåvor i en lista.
 
    De kopierade utgåvorna läggs till i det angivna projektet.
 

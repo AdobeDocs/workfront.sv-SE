@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '317'
 ht-degree: 0%
 
 ---
@@ -27,29 +27,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Lägga till faser och användare i ett automatiserat arbetsflöde
 
-1. Håll markören över dokumentet i dokumentlistan och klicka sedan på **Korrektur** när den visas.
-1. I Adobe Workfront övre högra hörn klickar du på **Ny fas**.
+1. Håll markören över dokumentet i dokumentlistan och klicka sedan på **Korrekturarbetsflöde** när det visas.
+1. Klicka på **Ny scen** i det övre högra hörnet av Adobe Workfront.
 1. Ange följande:
 
    <table style="table-layout:auto"> 
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td>Välj om bara ett beslut krävs. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Integritet</strong> </td> 
+      <td role="rowheader"><strong>Sekretess</strong> </td> 
       <td>Välj om scenen är privat.</td> 
      </tr> 
      <tr> 
@@ -95,6 +95,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka **Lägg till fas**.
+1. Klicka på **Lägg till scen**.
 1. (Valfritt) Upprepa steg 3 och 4 tills du är nöjd med arbetsflödet.
-1. Klicka **Klar**.
+1. Klicka på **Klar**.

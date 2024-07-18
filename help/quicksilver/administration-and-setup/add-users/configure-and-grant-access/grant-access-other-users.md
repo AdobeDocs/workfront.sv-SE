@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,7 +46,7 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
 
 * En Workfront-administratör.
 
-  Mer information finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 * En användare med en standardplanlicens som även har åtkomst till användare, vilket förklaras i den här artikeln.
 
@@ -63,11 +63,11 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Så här ändrar du möjligheten för användare med en plan- eller arbetslicens att visa profiler för andra användare:
 
-   1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** till höger om **Användare**.
+   1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** till höger om **Användare**.
 
-   1. Inaktivera **Visa kontaktinformation** klickar du sedan på X för att stänga **Finjustera inställningarna** box.
+   1. Inaktivera **Visa kontaktinformation** och klicka sedan på X för att stänga rutan **Finjustera dina inställningar**.
 
-1. Klicka på kugghjulsikonen om du vill ändra möjligheten för användare med planlicens att redigera andra användare ![](assets/gear-icon-settings.png) på **Redigera** till höger om **Användare** väljer du sedan de funktioner du vill tilldela:
+1. Om du vill ändra möjligheten för användare med en planlicensåtkomst att redigera andra användare klickar du på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Redigera** till höger om **Användare** och väljer sedan de möjligheter du vill ge:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,12 +79,12 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
       &lt;!—
         <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Kontrollera att den här ändringen görs innan du raderar dessa två anteckningar. Den 29 mars 2019 säger req doc att detta beror på undersökningsresultaten.</p>
 
-       &lt;p>&lt;b>Obs&lt;/b>! Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.&lt;/p>
-       —>  &lt;/td>
+       &lt;p>&lt;b>Obs!&lt;/b>: Detta är inte tillgängligt om din organisation har anslutit till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.&lt;/p>
+       —> &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Ta bort</strong> </td> 
-      <td> <p> Tillåter användare att ta bort de användare som de själva har skapat.<br>Det här alternativet är aktiverat som standard.</p> <p><b>ANMÄRKNING</b>: Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.</p> </td> 
+      <td> <p> Tillåter användare att ta bort de användare som de själva har skapat.<br>Det här alternativet är aktiverat som standard.</p> <p><b>Obs!</b> Detta är inte tillgängligt om din organisation har anslutit sig till Adobe Admin Console. Kontakta nätverks- eller IT-administratören om du behöver mer information.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Användaradministratör (alla användare)</strong> </td> 
@@ -101,7 +101,7 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
         <ul>
          <li><p>Redigera, ta bort eller inaktivera användaren</p></li>
          <li>Logga in som användare</li>
-         <li><p>Återställ användarens lösenord</p><p><b>ANMÄRKNING</b>: En gruppadministratör kan inte logga in som eller återställa lösenordet för en Workfront-administratör.</p></li>
+         <li><p>Återställ användarens lösenord</p><p><b>OBS!</b>: En gruppadministratör kan inte logga in som eller återställa lösenordet för en Workfront-administratör.</p></li>
         </ul><p>Det här alternativet är inaktiverat som standard.</p></p> </td> 
      </tr> 
     </tbody> 
@@ -111,8 +111,8 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
    >
    >Om du inte vill ge gruppadministratörer åtkomst till alla medlemmar i de grupper som de administrerar kan du inaktivera båda alternativen för användaradministratörer ovan. Gruppadministratörer kan fortfarande komma åt gruppmedlemmar som de lägger till i Workfront eller som rapporterar till dem i Workfront.
 
-1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. När du är klar klickar du **Spara**.
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. När du är klar klickar du på **Spara**.
 
 ## Tillgång till användare per licenstyp
 

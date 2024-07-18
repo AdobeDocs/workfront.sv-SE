@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Hantera korrekturversioner
 
-* [Skapa en ny version av ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
+* [Skapa en ny version av ett bevis](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
 * [Visa korrekturversioner](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
 * [Visa och hantera information om korrekturversioner](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
 * [Hämta korrekturversioner](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)

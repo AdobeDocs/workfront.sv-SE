@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT SENSITIVE HELP LINKS.-->
 
-Som Adobe Workfront-administratör kan du skapa anpassade statusvärden för projekt, uppgifter och ärenden. Dessa kan vara till för användare i hela Workfront eller för specifika grupper eller undergrupper. Mer information om status finns i [Översikt över status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
+Som Adobe Workfront-administratör kan du skapa anpassade statusvärden för projekt, uppgifter och ärenden. Dessa kan vara till för användare i hela Workfront eller för specifika grupper eller undergrupper. Mer information om status finns i [Statusöversikt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,9 +66,9 @@ Du kan lägga till en anpassad status som kan användas av hela organisationen e
 
 När du skapar en anpassad status för hela organisationen kan du konfigurera den så att alla grupper i systemet kan använda den utan att redigera den. Eller så kan du konfigurera det så att gruppadministratörer kan ändra det för sina grupper, vilket förklaras i [Skapa eller redigera en gruppstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
 
-1. Klicka på i den vänstra panelen **Projektinställningar** > **Status**.
+1. Klicka på **Projektinställningar** > **Status** i den vänstra panelen.
 
 1. (Villkorligt) Om du skapar eller redigerar en status som ska användas i hela systemet måste du se till att **Systemstatus** är markerat i rutan i det övre högra hörnet.
 
@@ -80,13 +80,13 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Markera fliken för objekttypen (**Projekt**, **Uppgifter**, eller **Problem**) som du vill associera med statusen.
+1. Välj fliken för den objekttyp (**Projekt**, **Åtgärder** eller **Problem**) som du vill associera med statusen.
 
-1. Om du skapar en ny status klickar du på **Lägg till en ny status**.
+1. Om du skapar en ny status klickar du på **Lägg till ny status**.
 
    eller
 
-   Om du redigerar en befintlig status håller du pekaren över den och klickar sedan på **Redigera** som visas längst till höger.
+   Om du redigerar en befintlig status håller du pekaren över den och klickar sedan på ikonen **Redigera** som visas längst till höger.
 
    ![](assets/custom-status-edit.png)
 
@@ -141,8 +141,8 @@ När du skapar en anpassad status för hela organisationen kan du konfigurera de
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
-   Instruktioner om hur du gör den här statusen till standardstatus finns i [Använd anpassade statusvärden som standardstatusvärden](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+   Instruktioner om hur du gör den här statusen till standardstatus finns i [Använd anpassade statusvärden som standardstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-Mer information om hur du ändrar ordning på gruppstatus finns i [Ändra ordning på systemnivå och gruppstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+Mer information om hur du ändrar ordning på gruppstatus finns i [Ändra ordning på system- och gruppstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).

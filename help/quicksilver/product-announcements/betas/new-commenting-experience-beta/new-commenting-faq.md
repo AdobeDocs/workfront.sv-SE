@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller en lista med de vanligaste frågorna om den nya kommentarsfunktionen.
 
-Mer information om de nya kommentarfunktionerna finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Mer information om den nya kommentarsfunktionen finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## Kan jag bifoga olika filtyper förutom bilder till kommentarer?
 

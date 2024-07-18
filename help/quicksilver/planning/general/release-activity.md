@@ -27,13 +27,13 @@ ht-degree: 0%
 >
 >Din kontorepresentant kommer att informera dig om du är en del av det här steget.
 >
->Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+>Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
 >
 >I vissa fall kan den dokumentation som beskrivs i avsnitten nedan vara tillgänglig efter att de dokumenterade funktionerna släppts till Produktion.
 
 I den här artikeln listas de funktioner som släppts till Workfront Planning under 2024.
 
-Workfront planeringsprogram har startat sedan 22 maj 2023. En lista över alla funktioner som släpptes under 2023 finns på [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+Workfront planeringsprogram har startat sedan 22 maj 2023. En lista över alla funktioner som släpptes under 2023 finns i [Aktivitetsarkiv för Adobe Workfront Planning (Planering - lansering) för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
 
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 
@@ -51,7 +51,7 @@ Vi har tagit bort ett steg när vi använde Workfront-objekt som var kopplade ti
 
 När du klickar på namnet på ett Workfront-objekt från den Planning-post som är kopplad till det, öppnar du Workfront objektsida. Före den här förbättringen skulle en skrivskyddad Workfront Planning-sida för det anslutna Workfront-objektet öppnas där du kan navigera vidare till Workfront objektsida.
 
-Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 ### Endast användare med Standard eller Plan kan skapa vyer
 
@@ -95,7 +95,7 @@ AI-assistenten fungerar tillsammans med den valda sidan och med din åtkomst- oc
 
 AI-assistenten är för närvarande i en betafas och är tillgänglig för utvalda kunder. Kontakta din kontorepresentant för att få veta om du är berättigad att delta i den här fasen.
 
-Mer information finns i [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+Mer information finns i [Översikt över Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Ny sökruta när du väljer en arbetsyta eller posttyp
 
@@ -169,9 +169,9 @@ Vi har uppdaterat funktionen att lägga till en miniatyrbild eller omslagsbild t
 
 Mer information finns i följande artiklar:
 
-* [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Lägg till en omslagsbild i en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 
-* [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [Lägg till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ### Uppdatera postens titel på informationssidan
 
@@ -195,7 +195,7 @@ Förhandsgranska: Ska bestämmas
 
 Vi har lagt till länken Visa mer/Visa mindre i ett anslutet postfält, när det finns poster som annars skulle visas på mer än två rader på detaljsidan för en post.
 
-Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 ### Fyll i namnfältet automatiskt med postnamnet vid anslutning av posttyper
 
@@ -279,7 +279,7 @@ En del av informationen på landningssidan innehåller följande:
 
 * Kom igång självstudiekurs om Workfront Planning
 
-Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Ny startupplevelse för Workfront Planning
 
@@ -319,7 +319,7 @@ Förhandsgranska: Ska bestämmas
 
 Vi har nu introducerat ett alternativ där du snabbt kan ge alla medlemmar på en arbetsyta behörigheten Visa. Före den här förbättringen kunde endast användare som du delat en vy med få åtkomst till vyn. Det här alternativet är inte aktiverat som standard.
 
-Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 ### Uppdaterat utseende på planeringsikonen på huvudmenyn
 
@@ -327,7 +327,7 @@ Produktion: 30 maj 2024
 
 Förhandsgranska: Ska bestämmas
 
-Vi har uppdaterat utseendet på ikonen för planeringsområdet på huvudmenyn. Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+Vi har uppdaterat utseendet på ikonen för planeringsområdet på huvudmenyn. Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Byta namn på Workfront Planning Program
 
@@ -379,7 +379,7 @@ Följande åtgärder är tillgängliga under Planning i Workfront:
 
 * Öppna förhandsgranskningsrutan eller -sidan med information om du vill visa mer information om de anslutna posterna
 
-Mer information finns i [Hantera poster i Planning-delen av Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Vecka 13 maj 2024
 
@@ -582,7 +582,7 @@ Förhandsgranska: Ska bestämmas
 
 Vi har bytt namn på Maestro-området på Main Menu till Planning.
 
-En översikt över Adobe Workfront Planning finns på [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+En översikt över Adobe Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ### Ny upplevelse när en posttyp tas bort
 
@@ -656,7 +656,8 @@ Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/mana
 
 ### Dynamisk design av en postvy
 
-Produktion: 14 mars 2024 Förhandsvisning: Ska fastställas
+Produktion: 14 mars 2024
+Förhandsgranska: Ska bestämmas
 
 Vi har uppdaterat vyernas utseende och känsla på posttypssidan. De nya vyerna är dynamiskt responsiva och justeras snabbt till skärmstorleken. Alternativetiketterna för verktygsfält är dolda på mindre skärmar för att göra verktygsfältet enklare att använda.
 
@@ -673,7 +674,7 @@ Förhandsgranska: Ska bestämmas
 
 För att vara konsekvent med alla andra områden i systemet och för att kunna underhålla och styra alla vyer som är tillgängliga för dig som systemadministratör har du nu behörigheten Hantera för alla vyer som delas med dig på posttypssidan. Före den här förbättringen kunde vyskaparna ha gett dig behörighet att visa eller hantera vyn. Om vyn delas med dig och du är systemadministratör får du som standard behörigheten Hantera för vyn.
 
-Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 ### Obehörig sida vid delning av vy utan behörighet
 
@@ -683,7 +684,7 @@ Förhandsgranska: Ska bestämmas
 
 När en användare tar emot en länk till en posttyp och har åtkomst till arbetsytan men inte till den vy som delas i länken, visas en sida som meddelar användaren om att användaren inte har behörighet att se posttypen.
 
-Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 
 ### Ny etikett för systemadministratörer i delade dialogrutor
@@ -694,7 +695,7 @@ Förhandsgranska: Ska bestämmas
 
 Nu visas en&quot;Admin&quot;-etikett bredvid systemadministratörens namn i delningsdialogrutan när du delar en vy eller arbetsyta.
 
-Mer information finns i [Dela behörigheter - översikt](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Mer information finns i [Översikt över delningsbehörigheter](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
 ### Obehörig sida vid delning av vy utan behörighet
 
@@ -706,7 +707,7 @@ När en användare tar emot en länk till en posttyp och har åtkomst till arbet
 
 Du måste dela vyer förutom att dela arbetsytor så att andra kan komma åt samma posttypssida som du delar med en länk.
 
-Mer information finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 ## Vecka 4 mars 2024
 
@@ -768,9 +769,9 @@ Följande är de högsta behörighetsnivåerna som användare kan få baserat p�
 
 * Användare med en licens för Granska eller Begärande (eller Medarbetare, i den nya licensmodellen) kan bara visa de arbetsytor som delas med dem, samt posttyperna och posterna för dessa arbetsytor. De kan inte skapa, redigera eller ta bort posttyper eller poster.
 
-Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om den nya licensmodellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstyper vid användning av Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+Mer information om anslutningen mellan licenstyp och behörigheter i planeringsfunktionerna finns i [Översikt över licenstypen när du använder Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Nytt utseende och ny känsla i RTF-verktygsfältet för postfält
@@ -805,7 +806,7 @@ För anslutna fält kan du lägga till dem på något av följande sätt:
 
 Förbättringarna är nu tillgängliga när du uppdaterar fält i tabellvyn för en posttyp.
 
-Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 ## Vecka 29 januari 2024
 
@@ -844,7 +845,7 @@ Förhandsgranska: Ska bestämmas
 
 För att undvika förvirring och förenkla hanteringen av arbetsytor har vi tagit bort de automatiskt genererade skrivskyddade posttypkorten för anslutna externa objekt från en arbetsyta.
 
-Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 ## Vecka 22 januari 2024
 

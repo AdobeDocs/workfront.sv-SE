@@ -18,7 +18,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla ändringar av förbättringarna för resursplanering i version 2019.3. Den gjordes tillgänglig i produktionsmiljön den 19 augusti 2019.
 
-En lista över alla ändringar som gjorts under 2019.3 finns på [Aktivitetsöversikt för 2019.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Skapa en rapport för budgeterade timmar
 
@@ -32,7 +32,7 @@ Mer information om hur du visar budgeterade timmar i en rapport finns i [Rapport
 
 Du kan nu visa eller dölja kolumnen Faktiska timmar när du visar information per användare i resursplaneraren.
 
-Mer information om inställningarna i Resursplanering finns i [Inställningar](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) i [Översikt över navigering i resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om inställningarna i resursplaneraren finns i avsnittet [Inställningar](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) i navigeringsöversikten [Resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Resurspooler är beständiga i området Resursbudgetering i affärsärendet
 
@@ -46,5 +46,5 @@ Workfront-administratörer kan nu avgöra vilka användare som har åtkomst att 
 
 Före den här ändringen var all kostnadsinformation alltid tillgänglig för alla användare i resursplaneraren.
 
-Mer information om kostnader i Resursplaneraren finns i [Beräkna kostnader i resursplaneraren](../../../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Mer information om kostnadsinformation i resursplaneraren finns i [Beräkna kostnader i resursplaneraren](../../../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 

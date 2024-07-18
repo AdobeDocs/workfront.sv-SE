@@ -25,7 +25,7 @@ ht-degree: 0%
 </div>
 -->
 
-Planerade startdatum och planerade slutförandedatum för ett projekt är beroende av datumen för aktiviteterna i projektet. I den här artikeln beskrivs det planerade startdatumet för ett projekt. Information om schemalagt startdatum för aktiviteten finns i [Översikt över aktivitetens planerade startdatum](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Planerade startdatum och planerade slutförandedatum för ett projekt är beroende av datumen för aktiviteterna i projektet. I den här artikeln beskrivs det planerade startdatumet för ett projekt. Information om startdatum för den planerade aktiviteten finns i [Översikt över startdatum för den planerade aktiviteten](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 Det planerade startdatumet för ett projekt kan anges manuellt eller automatiskt, beroende på om du schemalägger projektet från Start eller från Slutförandedatumet.
 
@@ -35,7 +35,7 @@ Du måste ange det planerade startdatumet för ett projekt manuellt när du sche
 
 >[!NOTE]
 >
->När du ställer in det planerade startdatumet för ett projekt manuellt beräknar Workfront automatiskt projektets planerade slutförandedatum baserat på varaktigheten för alla uppgifter.
+>När du ställer in det planerade startdatumet för ett projekt manuellt, beräknas projektets planerade slutförandedatum automatiskt i Workfront baserat på varaktigheten för alla uppgifter.
 
 Mer information om hur du ställer in projektets planerade startdatum finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -74,9 +74,9 @@ Det planerade startdatumet för ett projekt anges automatiskt när du skapar pro
 
   Det planerade startdatumet matchar alltid datorns tid och datum, såvida du inte anger något annat i fältet setPlannedStartDate på projektbladet i snabbstartfilen.
 
-  Mer information om hur du importerar data med hjälp av snabbstarter finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Mer information om hur du importerar data med hjälp av snabbstart finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Mer information om hur du importerar projekt med hjälp av snabbstarter finns i [Scenario: enkel import av projekt och uppgifter](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Mer information om hur du importerar projekt med hjälp av snabbstartsfunktioner finns i [Snabbstartscenario: enkla projekt- och uppgiftsimportförberedelser](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -97,7 +97,7 @@ Det planerade startdatumet för ett projekt anges automatiskt när du skapar pro
 
 Du kan antingen ange det planerade startdatumet för en aktivitet eller låta Workfront beräkna det utifrån vissa kriterier.
 
-Mer information om det planerade startdatumet för en uppgift finns i [Översikt över aktivitetens planerade startdatum](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Information om det planerade startdatumet för en aktivitet finns i [Översikt över den planerade startdatumet för aktiviteten](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

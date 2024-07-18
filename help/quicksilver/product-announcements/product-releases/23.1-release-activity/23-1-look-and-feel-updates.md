@@ -55,7 +55,7 @@ För att skapa en mer enhetlig upplevelse inom Jira har vi uppdaterat integrerin
 
 Funktionen för integrering av Workfront för Jira har inte ändrats.
 
-Mer information om integrering av Workfront för Jira finns i [Adobe Workfront för Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
+Mer information om Workfront för Jira-integrering finns i [Adobe Workfront för Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
 ## Val av smarta användare vid uppdatering av användarfält
 
@@ -83,7 +83,7 @@ Det finns ytterligare användarinformation som visas när du lägger till använ
 
 När du lägger till en användare i användarfälten ovan visas även användarens primära roll och e-postadress, förutom användarens namn och avatar. Detta gör det lättare att skilja mellan flera användare med liknande eller identiska namn.
 
-Mer information, och en videodemonstration av en liknande funktion finns i&quot;Smart användarval för projektroller i Redigera- och detaljområdena&quot; i [2.4 Projektförbättringar](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Mer information och en videodemonstration av en liknande funktion finns i&quot;Smart användarval för projektroller i områdena Redigera och Detaljer&quot; i [2.4 Projektförbättringar](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
 ## Leta upp och känna av uppdateringar på meddelandesidan
 

@@ -49,7 +49,7 @@ I stället för att inkludera de användarna i objektet genom att tilldela dem e
 
 * Användare som är taggade i uppdateringar måste aktivera ett personligt meddelande i sin profil för att kunna ta emot e-postmeddelandet. Mer information finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-  Mer information om hur du lägger till uppdateringar till Workfront-objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+  Mer information om hur du lägger till uppdateringar i Workfront-objekt finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * När ett problem konverteras till ett projekt eller en uppgift kopieras uppdateringarna till det nya projektet eller den nya uppgiften, men det är inte de taggade användarna. Om du vill fortsätta konversationen måste du tagga deltagarna igen.
 
@@ -88,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Du kan tagga andra vid uppdateringar på följande sätt:
 
 * **Automatiskt**: När en användare startar en tråd, lägger till en kommentar eller lägger till ett svar, taggas de automatiskt och läggs till i taggarna för personer eller team i kommentarsrutan.
-* **Manuellt**: När du lägger till en användare manuellt i taggområdet i kommentarsrutan.
+* **Manuellt**: När du lägger till en användare manuellt i taggområdet för kommenteringsrutan.
 
 Du kan också ta bort användare som är taggade av misstag när du redigerar eller svarar på en kommentar.
 
@@ -98,11 +98,11 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
    >
    >Kommentarägaren kan inte se sitt eget namn under Tagga personer eller team i kommenteringsrutan.
 
-1. I **Tagga personer eller team** börjar du skriva namnet på den användare eller det team som du vill inkludera och klickar sedan på namnet när det visas i listrutan.
+1. I fältet **Tagga personer eller team** börjar du skriva namnet på den användare eller det team som du vill ta med och klickar sedan på namnet när det visas i listrutan.
 
    eller
 
-   Skriv @-symbolen i **Skriv en kommentar** börjar du skriva namnet på den användare eller det team som du vill inkludera i uppdateringen och klickar sedan på namnet när det visas i listrutan.
+   Skriv @-symbolen i **Skriv en kommentar**, börja skriva namnet på den användare eller det team som du vill ska ingå i uppdateringen och klicka sedan på namnet när det visas i listrutan.
 
    >[!TIP]
    > 
@@ -114,7 +114,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    ![Tagga en användare](assets/tag-others-unified-commenting-with-all-tab.png)
 
-1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn. Detta gör uppdateringen synlig endast för användare i ditt företag. The **Privat till mitt företag** är bara tillgängligt när ett företag anges i din Workfront-profil.
+1. (Valfritt) Aktivera **Privat till mitt företag** i uppdateringsrutans nedre högra hörn om du vill göra uppdateringen privat. Detta gör uppdateringen synlig endast för användare i ditt företag. Alternativet **Privat till mitt företag** är bara tillgängligt när ett företag har angetts i din Workfront-profil.
 
    >[!NOTE]
    >
@@ -127,7 +127,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
    >
    >Alla användare och teammedlemmar som visas i fältet&quot;Tagga personer eller team&quot; får ett meddelande i appen för uppdateringen och kan få ett e-postmeddelande, beroende på konfigurationen av deras e-postaviseringsinställningar. Användare som taggar sig i en kommentar eller svarar får ett meddelande om kommentaren eller svaret och kan se sitt namn i listan som medlem i tråden för resten av tråden, men de får inget annat meddelande om de inte taggar sig igen. Mer information finns i [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) och [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-1. Klicka **Skicka**.\
+1. Klicka på **Skicka**.\
    Användare som ingår i uppdateringen får automatiskt behörigheten Visa för objektet och kan visa och svara på uppdateringar som gjorts för objektet.
 
    Namnen på de taggade enheterna visas bredvid deras avatarer, upp till två enheter. Om fler än två enheter har taggats visas namnet på den första, förutom ett antal ytterligare enheter med taggar.
@@ -138,7 +138,7 @@ Du kan också ta bort användare som är taggade av misstag när du redigerar el
 
    Mer information om de ytterligare funktioner som är tillgängliga när du uppdaterar en arbetsuppgift finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Valfritt) Klicka på **Mer** meny ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Redigera**. Ta bort alla taggade användare och klicka sedan på **Skicka**.
+1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Redigera**. Ta bort någon av de taggade användarna och klicka sedan på **Skicka**.
 
    >[!IMPORTANT]
    >

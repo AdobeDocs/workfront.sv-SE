@@ -33,11 +33,11 @@ Du kan skapa initiativ genom att kopiera befintliga initiativ. Du kan kopiera in
   </tr> 
   <tr> 
    <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
@@ -70,15 +70,15 @@ Tänk på följande när du kopierar:
 
    * Det duplicerar inte det projekt som är associerat med initiativet.
    * Den kopplar inte det kopierade initiativet till projektet.
-   * Det ändrar inte [!DNL Scenario Planner] -avsnittet i projektet, för projekt som har publicerats minst en gång.
+   * Det ändrar inte avsnittet [!DNL Scenario Planner] i projektet, för projekt som har publicerats minst en gång.
 
-   Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+  Mer information om publicering av projekt finns i [Uppdatera eller skapa projekt genom publicering i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-   Mer information om hur du skapar initiativ genom att importera projekt finns i [Importera projekt till planer i [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
+  Mer information om hur du skapar initiativ genom att importera projekt finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) .
 
 ## Kopiera initiativ
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
    En lista över planer visas.
 
@@ -103,6 +103,6 @@ Tänk på följande när du kopierar:
 
 1. (Valfritt) Uppdatera prioriteten för dina nya initiativ.
 
-   Mer information om att prioritera initiativ finns i [Uppdatera initiala prioriteringar i [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
+   Mer information om att prioritera initiativ finns i [Uppdatera prioriteter för initiativ i  [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md).
 
-1. Klicka **[!UICONTROL Save Plan]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Save Plan]** om du vill spara ändringarna.

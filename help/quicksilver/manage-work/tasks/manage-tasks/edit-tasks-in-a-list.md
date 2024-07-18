@@ -35,11 +35,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för aktiviteten och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörighet för aktiviteten och projektet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +80,7 @@ Tänk på följande när du redigerar uppgifter i en lista:
 
 * Du kan styra när Workfront ska spara de ändringar du gör i uppgifterna i en lista. Ändringarna kan sparas automatiskt eller så kan du spara dem manuellt.
 
-  Information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i [Välj ett sparningsalternativ när du redigerar uppgifter i en lista](#select-a-save-option-when-editing-tasks-in-a-list) i den här artikeln.
+  Mer information om hur du konfigurerar när Workfront sparar ändringar som du gör i uppgifter i en lista finns i avsnittet [Välj ett sparalternativ när du redigerar uppgifter i en lista](#select-a-save-option-when-editing-tasks-in-a-list) i den här artikeln.
 
 * Andra användare måste uppdatera sina sidor innan de kan visa de uppdateringar du gör för en uppgift.
 
@@ -114,12 +114,12 @@ Tänk på följande när du sparar uppgiftslistan automatiskt:
 
 * Du kan använda en anpassad vy för uppgiftslistan och redigera uppgiftsrelaterade fält som du har tillgång till för uppdatering.
 * Du kan inte ångra automatiskt sparade ändringar. Det här är standardinställningen.
-* Workfront beräknar om tidslinjen för projektet och alla beroenden mellan projekt och projekt automatiskt efter varje ändring, när projektets uppdateringstyp är Automatisk eller Automatisk och Vid ändring. Mer information om projektets uppdateringstyp finns i [Välj typ av projektuppdatering](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront beräknar om tidslinjen för projektet och alla beroenden mellan projekt och projekt automatiskt efter varje ändring, när projektets uppdateringstyp är Automatisk eller Automatisk och Vid ändring. Mer information om projektets uppdateringstyp finns i [Välj projekttyp](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Så här redigerar du uppgifter i en lista och sparar ändringar automatiskt:
 
-1. Gå till projektet och klicka sedan på **Uppgifter** -avsnitt.
-1. Klicka på **Menyn Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) högst upp i listan och se till att **Spara automatiskt** är markerat.
+1. Gå till projektet och klicka sedan på avsnittet **Åtgärder**.
+1. Klicka på menyn **Planläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) högst upp i listan och kontrollera att alternativet **Spara automatiskt** är markerat.
 
    ![](assets/autosave-setting-enabled-quicksilver-task-list-350x308.png)
 
@@ -127,13 +127,13 @@ Så här redigerar du uppgifter i en lista och sparar ändringar automatiskt:
 
    ![](assets/inline-editing-a-task-350x26.png)
 
-1. (Valfritt) Tryck på **Escape** om du vill avbryta ändringarna.
+1. (Valfritt) Tryck på **Esc** om du vill avbryta ändringarna.
 1. Tryck på Retur för att spara ändringarna i aktiviteterna och på projekttidslinjen.
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 
    eller
 
-   Klicka på **Mer** meny ![](assets/more-icon-task-list.png) till höger om aktivitetsnamnet.
+   Klicka på **Mer**-menyn ![](assets/more-icon-task-list.png) till höger om aktivitetsnamnet.
 
 1. (Valfritt) Välj bland följande alternativ:
 
@@ -147,7 +147,7 @@ Så här redigerar du uppgifter i en lista och sparar ändringar automatiskt:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Redigera</strong></td> 
-      <td><p>Öppnar <strong>Redigera uppgift</strong> där du kan redigera uppgiften.</p><p>Mer information om hur du redigerar en uppgift finns i <a href="#edit-tasks-in-a-list" class="MCXref xref">Redigera uppgifter i en lista</a>.</p></td> 
+      <td><p>Öppnar rutan <strong>Redigera uppgift</strong>, där du kan redigera uppgiften.</p><p>Mer information om hur du redigerar en uppgift finns i <a href="#edit-tasks-in-a-list" class="MCXref xref">Redigera uppgifter i en lista</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort</td> 
@@ -179,7 +179,7 @@ Så här redigerar du uppgifter i en lista och sparar ändringar automatiskt:
      </tr> 
      <tr> 
       <td role="rowheader">Flytta till</td> 
-      <td><p>Flyttar aktiviteten till ett annat projekt.</p><p>Mer information om hur du flyttar uppgifter finns i <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Flytta uppgifter</a>.</p></td> 
+      <td><p>Flyttar aktiviteten till ett annat projekt.</p><p>Mer information om att flytta uppgifter finns i <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Flytta uppgifter</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -223,12 +223,12 @@ Det finns två sätt att spara ändringar av uppgifter manuellt i en lista. Dess
 Tänk på följande när du uppdaterar uppgifter i en lista efter att du har valt alternativet Spara standard manuellt:
 
 * Du kan använda en anpassad vy för uppgiftslistan och redigera uppgiftsrelaterade fält som du har behörighet att hantera i den vyn.
-* Workfront beräknar tidslinjen för projektet och alla projektrelaterade och projektövergripande beroenden när du klickar på Spara, när projektets uppdateringstyp är Automatisk eller Automatisk och vid ändring. Mer information om projektets uppdateringstyp finns i [Välj typ av projektuppdatering](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront beräknar tidslinjen för projektet och alla projektrelaterade och projektövergripande beroenden när du klickar på Spara, när projektets uppdateringstyp är Automatisk eller Automatisk och vid ändring. Mer information om projektets uppdateringstyp finns i [Välj projekttyp](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Så här redigerar du uppgifter i en lista när du väljer alternativet Spara standard manuellt:
 
-1. Gå till ett projekt och klicka sedan på **Uppgifter** avsnitt .
-1. Klicka på **Planläge** meny ![](assets/qs-list-mode-or-save-mode-icon-small.png) högst upp i listan och välj **Spara manuellt** och sedan klicka **Standard** > **Använd**.
+1. Gå till ett projekt och klicka sedan på avsnittet **Åtgärder** .
+1. Klicka på menyn **Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) längst upp i listan och välj **Manuell sparning**. Klicka sedan på **Standard** > **Använd**.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -241,14 +241,14 @@ Så här redigerar du uppgifter i en lista när du väljer alternativet Spara st
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. Tryck på Retur om du vill spara ändringarna tillfälligt.
-1. (Valfritt) Klicka på **Ångra-ikon** ![](assets/undo-icon-on-task-list.png) om du vill återställa en ändring och återställa ett fält till det ursprungliga läget.
-1. (Valfritt och villkorligt) Klicka på **Ikonen Gör om** ![](assets/redo-icon-on-task-list.png) för att återställa den ändring som du har ångrat.
+1. (Valfritt) Klicka på ikonen **Ångra** ![](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![](assets/redo-icon-on-task-list.png) om du vill återställa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra.
 
    eller
 
-   Klicka på **Mer** meny ![](assets/more-icon-task-list.png).
+   Klicka på menyn **Mer** ![](assets/more-icon-task-list.png).
 
 1. (Valfritt) Välj bland följande alternativ:
 
@@ -288,7 +288,7 @@ Så här redigerar du uppgifter i en lista när du väljer alternativet Spara st
    </table>
 
 1. Workfront uppdaterar alla projektrelaterade och projektövergripande beroenden när du ändrar tidslinjen för uppgifter.
-1. Klicka **Spara** när du vill behålla ändringarna permanent och spara tidslinjen för projektet.
+1. Klicka på **Spara** när du vill behålla aktivitetsändringarna permanent och spara tidslinjen för projektet.
 
 #### Spara ändringar i en uppgiftslista manuellt när du väljer alternativet Spara tidslinjeplanering manuellt {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}
 
@@ -303,12 +303,12 @@ Tänk på följande när du använder alternativet Spara tidslinjeplanering manu
 * Du kan inte använda alternativet för att spara tidslinjeplanering manuellt i projekt som har fler än 2 000 uppgifter.
 * Du kan inte använda en anpassad vy, filter eller gruppering för uppgiftslistan. Listrutorna Visa, Filtrera och Gruppera, samt ikonen för vyn Agile, är inaktiverade. Vyn som används som standard innehåller ett begränsat antal fält.
 * Tidslinjen för projektet och alla projektberoenden beräknas automatiskt efter varje ändring när projektets uppdateringstyp är Automatisk eller Automatisk och vid ändring.
-* Beroenden mellan projekt beräknas när du klickar på Spara, när projektets uppdateringstyp är Automatisk eller Automatisk och Vid ändring. Mer information om projektets uppdateringstyp finns i [Välj typ av projektuppdatering](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Beroenden mellan projekt beräknas när du klickar på Spara, när projektets uppdateringstyp är Automatisk eller Automatisk och Vid ändring. Mer information om projektets uppdateringstyp finns i [Välj projekttyp](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 Så här redigerar du uppgifter i en lista när du använder alternativet Spara tidslinjeplanering manuellt:
 
-1. Gå till ett projekt och klicka sedan på **Uppgifter** -avsnitt.
-1. Klicka på **Planläge** meny ![](assets/qs-list-mode-or-save-mode-icon-small.png) högst upp i listan och välj **Spara manuellt** och sedan klicka **Planering av tidslinje**> **Använd**.
+1. Gå till ett projekt och klicka sedan på avsnittet **Åtgärder**.
+1. Klicka på menyn **Planeringsläge** ![](assets/qs-list-mode-or-save-mode-icon-small.png) högst upp i listan och välj **Spara manuellt**. Klicka sedan på **Planering av tidslinje**> **Använd**.
 
    Det här alternativet är nedtonat för projekt med fler än 2 000 uppgifter.
 
@@ -343,14 +343,14 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. Tryck på Retur om du vill spara ändringarna tillfälligt.
-1. (Valfritt) Klicka på **Ångra-ikon** ![](assets/undo-icon-on-task-list.png) om du vill återställa en ändring och återställa ett fält till det ursprungliga läget.
-1. (Valfritt och villkorligt) Klicka på **Ikonen Gör om** ![](assets/redo-icon-on-task-list.png) för att återskapa den ändring du återfört.
+1. (Valfritt) Klicka på ikonen **Ångra** ![](assets/undo-icon-on-task-list.png) om du vill ångra en ändring och återställa ett fält till det ursprungliga läget.
+1. (Valfritt och villkorligt) Klicka på ikonen **Gör om** ![](assets/redo-icon-on-task-list.png) för att återskapa den ändring du ångrat.
 
 1. (Valfritt) Högerklicka på en uppgift som du vill ändra
 
    eller
 
-   Klicka på **Mer** meny ![](assets/more-icon-task-list.png).
+   Klicka på menyn **Mer** ![](assets/more-icon-task-list.png).
 
 1. Välj bland följande alternativ:
 
@@ -390,31 +390,31 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
    </table>
 
 1. Workfront uppdaterar alla projektrelaterade och projektövergripande beroenden när du ändrar tidslinjen för en uppgift.
-1. Klicka **Spara** när du vill behålla ändringarna permanent och spara tidslinjen för projektet.
+1. Klicka på **Spara** när du vill behålla aktivitetsändringarna permanent och spara tidslinjen för projektet.
 
 ## Redigera en uppgift i en lista med hjälp av Sammanfattning
 
 1. Gå till det projekt som innehåller uppgifter som du vill redigera.
-1. Klicka **Uppgifter** till vänster.
+1. Klicka på **Åtgärder** i den vänstra panelen.
 
    Listan med uppgifter i projektet visas.
 
-1. Klicka på Mer-menyn ![](assets/more-icon-task-list.png) efter uppgiftsnamnet klickar du på **Öppna sammanfattning**. Markera den uppgift som du vill redigera och klicka sedan på **Ikonen Öppna sammanfattning** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) i listans övre högra hörn.
+1. Klicka på menyn Mer ![](assets/more-icon-task-list.png) efter aktivitetsnamnet och klicka sedan på **Öppna sammanfattning**. Markera den uppgift som du vill redigera och klicka sedan på ikonen **Öppna sammanfattning** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) i det övre högra hörnet av listan.
 
-   The **Sammanfattning** öppnas.
+   **Sammanfattningen** öppnas.
 
    ![](assets/qs-task-right-panel-in-a-task-list-350x328.png)
 
-1. (Valfritt) Klicka på **X-ikon** i det övre högra hörnet av sammanfattningen för att stänga panelen och redigera uppgifterna infogat.
+1. (Valfritt) Klicka på ikonen **X** i det övre högra hörnet av sammanfattningen för att stänga panelen och redigera inline-uppgifterna.
 
    Följ stegen om hur du redigerar en uppgift i en lista för att infoga redigering av uppgiften.
 
-   Mer information om hur du redigerar en uppgift i en lista finns i [Att tänka på när du redigerar uppgifter i en lista](#considerations-about-editing-tasks-in-a-list) i den här artikeln.
+   Mer information om hur du redigerar uppgiften i en lista finns i [Att tänka på när du redigerar uppgifter i en lista](#considerations-about-editing-tasks-in-a-list) i den här artikeln.
 
-1. (Valfritt) Skriv en uppdatering för uppgiften i **Uppdateringar** område.
+1. (Valfritt) Skriv en uppdatering för aktiviteten i området **Uppdateringar**.
 1. Klicka på någon av följande ikoner eller områden för att gå till uppgiften och redigera information på aktivitetsnivå:
 
-   | Dokument | Klicka **Klicka här för att lägga till** om du vill lägga till dokument i uppgiften. |
+   | Dokument | Klicka **Klicka här om du vill lägga till** för att lägga till dokument i uppgiften. |
    |---|---|
    | Information | Klicka för att uppdatera information om uppgiften. |
    | Anpassad Forms | Klicka för att lägga till eller ta bort anpassad Forms eller för att uppdatera informationen i formulären. |
@@ -430,8 +430,8 @@ Så här redigerar du uppgifter i en lista när du använder alternativet Spara 
 Du kan redigera flera åtgärder samtidigt. Se till att du har behörighet att hantera uppgifter för att kunna redigera dem.
 
 1. Gå till ett projekt som innehåller uppgifter som du vill redigera gruppvis.
-1. Klicka **Uppgifter** till vänster.
-1. Se till att **Spara automatiskt** är markerat.
+1. Klicka på **Åtgärder** i den vänstra panelen.
+1. Kontrollera att alternativet **Spara automatiskt** är markerat.
 
    >[!IMPORTANT]
    >
@@ -440,29 +440,29 @@ Du kan redigera flera åtgärder samtidigt. Se till att du har behörighet att h
    Mer information om hur du sparar ändringar av uppgifter i en lista finns i avsnittet [Att tänka på när du redigerar uppgifter i en lista](#considerations-about-editing-tasks-in-a-list) i den här artikeln.
 
 1. Markera flera uppgifter i uppgiftslistan.
-1. Klicka på **Ikonen Redigera** ![](assets/qs-edit-icon.png).
+1. Klicka på ikonen **Redigera** ![](assets/qs-edit-icon.png).
 
-   The **Redigera uppgifter** öppnas.
+   Dialogrutan **Redigera uppgifter** öppnas.
 
 1. Ange den information som du vill ändra för alla uppgifter som du har markerat.
 
-   Att redigera information för alla uppgifter är detsamma som att redigera information för en uppgift. Om du vill redigera aktivitetens varaktighet måste de markerade aktiviteterna ha samma aktivitetsbegränsning, i annat fall **Varaktighet** fältet fylls inte i.
+   Att redigera information för alla uppgifter är detsamma som att redigera information för en uppgift. Om du vill redigera aktivitetens varaktighet måste de markerade aktiviteterna ha samma aktivitetsbegränsning, annars fylls inte fältet **Varaktighet** i.
 
    Mer information om hur du redigerar en uppgift finns i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
-   >Informationen som du ändrar för alla markerade uppgifter åsidosätter den befintliga informationen för enskilda uppgifter, förutom för **Uppdrag** fält. Om du lägger till en ny tilldelad i en gruppredigering läggs den tilldelade personen till i alla markerade uppgifter. Om andra tilldelningar har tilldelats de markerade aktiviteterna, förblir de tilldelade utöver den som lagts till via massredigering.
+   >Den information som du ändrar för alla markerade uppgifter åsidosätter den befintliga informationen för enskilda uppgifter, förutom fältet **Uppdrag**. Om du lägger till en ny tilldelad i en gruppredigering läggs den tilldelade personen till i alla markerade uppgifter. Om andra tilldelningar har tilldelats de markerade aktiviteterna, förblir de tilldelade utöver den som lagts till via massredigering.
 
-1. Klicka **Anpassad Forms** om du vill redigera anpassade formulär som är kopplade till alla markerade uppgifter. Endast aktiva anpassade formulär visas i listan.
+1. Klicka på **Anpassad Forms** om du vill redigera anpassade formulär som är kopplade till alla markerade åtgärder. Endast aktiva anpassade formulär visas i listan.
 
    Om de markerade uppgifterna inte har några vanliga anpassade formulär visas inga formulär i det här avsnittet.
 
    Du kan bara redigera fält i formulären som är kopplade till alla markerade uppgifter och som du har behörighet att redigera.
 
-1. (Valfritt) I delen Anpassad Forms väljer du **Beräkna om anpassade uttryck** för att säkerställa att alla beräknade anpassade fält som finns i de anpassade formulär som är kopplade till de valda uppgifterna är aktuella.
-1. Klicka **Spara ändringar**.
+1. (Valfritt) Markera alternativet **Beräkna om anpassade uttryck** i avsnittet Anpassad Forms för att se till att alla beräknade anpassade fält som finns i de anpassade formulär som är kopplade till de valda uppgifterna är aktuella.
+1. Klicka på **Spara ändringar**.
 
    Alla ändringar du har gjort visas nu för alla markerade uppgifter.
 
-Mer information om massredigering av anpassade formulär finns i avsnittet Redigera flera anpassade Forms när du redigerar objekt gruppvis i [Hantera anpassade formulär som är kopplade till objekt](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).
+Mer information om massredigering av anpassade formulär finns i avsnittet Redigera flera anpassade Forms-formulär när du redigerar objekt gruppvis i [Hantera anpassade formulär som är kopplade till objekt](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md).

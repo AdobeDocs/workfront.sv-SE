@@ -19,7 +19,7 @@ ht-degree: 0%
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront förändrar systemhanteringen för användare och lösenord. Dessa ändringar kommer att lanseras i en fasversion som kallas **Förbättrad autentisering** upplevelse. Förbättrad autentisering ger en enhetligare och säkrare inloggningsupplevelse för alla Workfront-produkter och -tjänster.
+Adobe Workfront förändrar systemhanteringen för användare och lösenord. De här ändringarna kommer att införas i en fasversion med namnet **Förbättrad autentisering**. Förbättrad autentisering ger en enhetligare och säkrare inloggningsupplevelse för alla Workfront-produkter och -tjänster.
 
 Följande tabell innehåller information om nuvarande och framtida funktioner:
 
@@ -153,7 +153,7 @@ Följande tabell innehåller information om nuvarande och framtida funktioner:
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Miljö</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Miljöstöd</strong> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 

@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Prenumerera på ett korrektur i [!DNL Workfront] Korrektur
+title: Prenumerera på ett korrektur i [!DNL Workfront] korrektur
 description: När en annan användare skickar dig att öppna en korrektur-URL och du öppnar den i webbläsaren, öppnas korrekturläsaren i skrivskyddat läge. Innan du kan arbeta med beviset måste du identifiera dig själv genom att prenumerera på det.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -18,21 +18,21 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 När en annan användare skickar dig att öppna en korrektur-URL och du öppnar den i webbläsaren, öppnas korrekturläsaren i skrivskyddat läge. Innan du kan arbeta med beviset måste du identifiera dig själv genom att prenumerera på det.
 
 >[!NOTE]
 >
->Innan användare kan prenumerera på ett korrektur måste prenumerationsinställningen vara aktiverad (se avsnittet [Konfigurera korrekturinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Konfigurera korrekturinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
+>Innan användare kan prenumerera på ett korrektur måste prenumerationsinställningen vara aktiverad (se avsnittet [Konfigurera korrekturinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) i [Konfigurera korrekturinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
 
-Så här prenumererar du på ett korrektur:
+Så här prenumererar du på ett bevis:
 
-1. Klicka **[!UICONTROL Sign In]** högst upp i korrekturläsaren.
-1. Skriv din e-postadress i **[!UICONTROL Sign in]** som visas.
-1. Om du inte är granskare eller användare av [!DNL Workfront Proof]skriver du ditt visningsnamn.\
+1. Klicka på **[!UICONTROL Sign In]** högst upp i korrekturläsaren.
+1. Skriv din e-postadress i rutan **[!UICONTROL Sign in]** som visas.
+1. Om du inte är granskare på korrekturet eller användare av [!DNL Workfront Proof] anger du ditt visningsnamn.\
    eller\
-   Om du har en [!DNL Workfront Proof] lösenord, skriv det (oavsett om du är granskare eller inte).\
+   Om du har ett [!DNL Workfront Proof]-lösenord skriver du det (oavsett om du är granskare eller inte).\
    Beroende på inställningarna för korrekturdelning via e-post som valts av den person som delade korrekturet kan du behöva följa valideringsinstruktionerna i ett e-postmeddelande som skickas till dig via e-post.
 
-1. Din roll för korrekturet är Prenumeration, som anges på sidan Korrekturinformation för korrekturet. Mer information om att ställa in roller för korrektur finns i [Konfigurera korrekturinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+1. Din roll för korrekturet är Prenumeration, som anges på sidan Korrekturinformation för korrekturet. Mer information om hur du ställer in roller för korrektur finns i [Konfigurera korrekturinställningar i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

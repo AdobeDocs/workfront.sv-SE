@@ -5,7 +5,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Target moduler
-description: I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] kan du skapa, läsa, uppdatera eller ta bort poster, lista alla poster av en viss typ, söka efter poster baserat på villkor som du anger eller utföra ett anpassat API-anrop till [!DNL Adobe Target] API.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder  [!DNL Adobe Target], as well as connect it to multiple third-party applications and services. [!DNL Adobe Target] moduler så att du kan skapa, läsa, uppdatera eller ta bort poster, lista alla poster av en viss typ, söka efter poster baserat på villkor som du anger eller utföra ett anpassat API-anrop till  [!DNL Adobe Target] API:t.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Target] Moduler
+# [!DNL Adobe Target] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Target], samt ansluta till flera tredjepartsprogram och -tjänster. [!DNL Adobe Target] kan du använda för att skapa, skapa, läsa, uppdatera eller ta bort poster, lista alla poster av en viss typ, söka efter poster baserat på villkor som du anger eller utföra ett anpassat API-anrop till [!DNL Adobe Target] API.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Adobe Target] samt ansluta det till flera tredjepartsprogram och -tjänster. Med modulerna [!DNL Adobe Target] kan du skapa, skapa, läsa, uppdatera eller ta bort poster, lista alla poster av en viss typ, söka efter poster baserat på villkor som du anger eller utföra ett anpassat API-anrop till API:t [!DNL Adobe Target] .
 
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -48,17 +48,17 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>
       <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
     </tr>
     </tr>
@@ -66,15 +66,15 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 </table>
 
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Innan du kan använda [!DNL Adobe Target] måste du se till att följande krav uppfylls:
+Innan du kan använda [!DNL Adobe Target]-anslutningen måste du se till att följande krav uppfylls:
 
-* Du måste ha en aktiv [!DNL Adobe Target] konto.
+* Du måste ha ett aktivt [!DNL Adobe Target]-konto.
 
 ## Skapa en anslutning till [!DNL Adobe Target]
 
@@ -85,9 +85,9 @@ Innan du kan använda [!DNL Adobe Target] måste du se till att följande krav u
 >* Befintliga anslutningar till tjänstkonton fortsätter att fungera till januari 2025. Du måste ersätta dina tjänstkontoanslutningar med Adobe Target Server-till-server-anslutningar senast i januari 2024.
 >* Du måste vara utvecklare för att din organisation ska kunna skapa en Adobe Target Server-till-server-anslutning. Utvecklarrollen anges i Adobe Admin Console.
 
-Skapa en anslutning för [!DNL Adobe Target] moduler:
+Så här skapar du en anslutning för dina [!DNL Adobe Target]-moduler:
 
-1. Klicka **[!UICONTROL Add]** bredvid rutan Anslutning.
+1. Klicka på **[!UICONTROL Add]** bredvid rutan Anslutning.
 
 1. Fyll i följande fält:
 
@@ -105,7 +105,7 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Connection type]</td>
-        <td>Ange om du skapar en anslutning till ett tjänstkonto eller en anslutning från Adobe Target Server till server.<p><b>VIKTIGT</b>: Anslutningar som skapas efter den 3 juni 2024 kräver en Adobe Target Server-till-server-anslutning. Befintliga anslutningar till tjänstkonton fortsätter att fungera till januari 2025. Du måste ersätta dina tjänstkontoanslutningar med Adobe Target Server-till-server-anslutningar senast i januari 2024.
+        <td>Ange om du skapar en anslutning till ett tjänstkonto eller en anslutning från Adobe Target Server till server.<p><b>VIKTIGT</b>: Anslutningar som skapats efter 3 juni 2024 kräver en Adobe Target Server-till-server-anslutning. Befintliga anslutningar till tjänstkonton fortsätter att fungera till januari 2025. Du måste ersätta dina tjänstkontoanslutningar med Adobe Target Server-till-server-anslutningar senast i januari 2024.
         </td>
       </tr>
       <tr>
@@ -120,30 +120,30 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Ange [!DNL Adobe] Klient-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange ditt klient-ID för [!DNL Adobe]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Ange [!DNL Adobe] Klienthemlighet. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange din [!DNL Adobe]-klienthemlighet. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Ange [!DNL Adobe] ID för tekniskt konto. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange ditt tekniska konto-ID för [!DNL Adobe]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Ange [!DNL Adobe] Organisations-ID. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+        <td>Ange ditt organisations-ID för [!DNL Adobe]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Tenant]</td>
         <td>
-          <p> Logga in på [!DNL Adobe Experience Cloud], öppna [!DNL Target]och klickar på [!DNL Target] kort. Använd det klient-ID som anges i URL-underdomänen.</p>
-          <p>Om din URL-adress till exempel är inloggad på [!DNL Adobe Target] är <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> blir ditt klient-ID"mincompany".</p>
+          <p> Logga in på [!DNL Adobe Experience Cloud], öppna [!DNL Target] och klicka på [!DNL Target]-kortet för att hitta din klient. Använd det klient-ID som anges i URL-underdomänen.</p>
+          <p>Om din URL när du är inloggad på [!DNL Adobe Target] till exempel är <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> är ditt klient-ID"mincompany".</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
-        <td>Retur <code>ent_marketing_sdk</code>       </td>
+        <td>Ange <code>ent_marketing_sdk</code>       </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
@@ -164,7 +164,7 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
               <p>Ange lösenordet för filen.</p>
             </li>
             <li value="5">
-              <p>Klicka <b>[!UICONTROL Save]</b> för att extrahera filen och återgå till anslutningsinställningarna.</p>
+              <p>Klicka på <b>[!UICONTROL Save]</b> för att extrahera filen och återgå till anslutningsinställningarna.</p>
             </li>
           </ol>
         </td>
@@ -172,11 +172,11 @@ Skapa en anslutning för [!DNL Adobe Target] moduler:
     </tbody>
     </table>
 
-1. Klicka **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att spara anslutningen och återgå till modulen.
 
-## [!DNL Adobe Target] moduler och deras fält
+## [!DNL Adobe Target]-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe Target] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe Target] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe Target] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe Target] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -210,7 +210,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -221,7 +221,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
         <b>Egenskap</b><p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">Skapa en egenskap</a> i Adobe Target API-dokumentationen.</p>
         </li>
         <li>
-        <b>Erbjudanderekommendation</b><p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Skapa ett nytt rabatterbjudande</a> i Adobe Target API-dokumentationen.</p>
+        <b>Erbjudanderekommendation</b><p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">Skapa ett nytt rastererbjudande</a> i Adobe Target API-dokumentationen.</p>
         </li>
         <li>
           <b>[!UICONTROL Offer JSON]</b>
@@ -236,7 +236,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
         </li>
         <li>
           <b>[!UICONTROL Audience]</b>
-          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">Skapa målgrupper</a> i Adobe Target API-dokumentationen.</p>
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">Skapa målgrupp</a> i Adobe Target API-dokumentationen.</p>
         </li>
         <li>
           <b>[!UICONTROL AB Activity]</b>
@@ -244,7 +244,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
         </li>
         <li>
           <b>[!UICONTROL XT Activity]</b>
-          <p>Fortsätt till <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a>.</p>
+          <p>Fortsätt till <a href="#xt-activity-fields" class="MCXref xref" >XT-aktivitetsfält</a>.</p>
         </li>
         <li>
           <b>[!UICONTROL AP Activity]</b>
@@ -476,7 +476,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     <tr>
       <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>För varje alternativ som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och fylla i följande fält:</p>
+        <p>För varje alternativ som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och fyller i följande fält:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Option local ID]</b>
@@ -501,11 +501,11 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     <tr>
       <td role="rowheader">[!UICONTROL Locations]</td>
       <td>
-        <p>För varje Mbox som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och fylla i följande fält:</p>
+        <p>För varje Mbox som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och fyller i följande fält:</p>
         <ul>
           <li>
             <p>[!UICONTROL Audience IDs]</p>
-            <p>För varje publik som du vill lägga till i Mbox klickar du på <b>[!UICONTROL Add item]</b> och välj Audience ID.</p>
+            <p>För varje målgrupp som du vill lägga till i rutan klickar du på <b>[!UICONTROL Add item]</b> och väljer publikens ID.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Location local ID]</b>
@@ -541,7 +541,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>För varje publik som du vill se upplevelsen klickar du <b>[!UICONTROL Add item]</b> och ange publikens ID.
+            <p>För varje publik som du vill se upplevelsen klickar du på <b>[!UICONTROL Add item]</b> och anger publikens ID.
 
 </p>
           </li>
@@ -563,7 +563,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts at]</td>
-      <td>Ange eller mappa datum och tid för att starta aktiviteten i formatet <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
+      <td>Ange eller mappa datumet och tiden för att starta aktiviteten i formatet <code>YYYY-MM-DD hh:mm:ss.z</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends at]</td>
@@ -609,12 +609,12 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Property IDs] </td>
-      <td>För varje egenskap som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och markera eller mappa egenskapens ID.</td>
+      <td>För varje egenskap som du vill lägga till i aktiviteten klickar du på <b>[!UICONTROL Add item]</b> och markerar eller mappar egenskapens ID.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Reporting audiences]</td>
       <td>
-        <p>För varje rapportpublik som du vill lägga till i aktiviteten klickar du på [!UICONTROL Add item] och ange följande information:</p>
+        <p>För varje rapportpublik som du vill lägga till i aktiviteten klickar du på [!UICONTROL Add item] och anger följande information:</p>
         <ul>
           <li>
             <p><b>[!UICONTROL Reporting Audience local ID]</b>
@@ -656,7 +656,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
       <td>
-        <p>Ange eller mappa ID:t för den arbetsyta som är associerad med erbjudandet. Om inget anges kopplas erbjudandet till kontots standardarbetsyta. Den här funktionen gäller endast för [!DNL Target] Premiumkonton.</p>
+        <p>Ange eller mappa ID:t för den arbetsyta som är associerad med erbjudandet. Om inget anges kopplas erbjudandet till kontots standardarbetsyta. Den här funktionen gäller endast för [!DNL Target] Premium-konton.</p>
       </td>
     </tr>
     <tr>
@@ -742,7 +742,7 @@ Denna åtgärdsmodul skapar en AB- eller XT-aktivitet, ett erbjudande eller en m
 
 #### [!UICONTROL Make a custom API call]
 
-Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API.
+Den här modulen gör ett anpassat API-anrop till API:t [!DNL Adobe Target].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -750,25 +750,25 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] Bas-URL]</td>
-      <td>Ange eller mappa [!DNL Target] bas-URL.</td>
+      <td>Ange eller mappa din [!DNL Target]-bas-URL.</td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>Ange en sökväg i förhållande till {baseURL}/</p>
+        <p>Ange en relativ sökväg till {baseURL}/</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL Method]</p>
       </td>
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -786,7 +786,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Target] API.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -803,7 +803,7 @@ Den här åtgärdsmodulen tar bort en enstaka AB-aktivitet, XT-aktivitet, erbjud
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -826,7 +826,7 @@ Den här åtgärdsmodulen hämtar data för en aktivitet, ett erbjudande, en må
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -849,7 +849,7 @@ Den här åtgärdsmodulen uppdaterar en post i Target.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -860,7 +860,7 @@ Den här åtgärdsmodulen uppdaterar en post i Target.
     <tr>
       <td role="rowheader">[!UICONTROL Field names]</td>
       <td>Markera de fält som du vill uppdatera. Fälten visas nedan.
-          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API-dokumentation</a>.</p>
+          <p>Mer information om fält finns i <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API-dokumentationen</a>.</p>
       </td>
     </tr>
   </tbody>
@@ -883,7 +883,7 @@ Den här sökmodulen hämtar en lista med poster av den valda typen.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -891,20 +891,20 @@ Den här sökmodulen hämtar en lista med poster av den valda typen.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Sort by]</td>
-      <td>För varje fält som du vill sortera efter klickar du på <b>[!UICONTROL Add item]</b> och markerar fältet och om de returnerade resultaten ska vara stigande eller fallande.</td>
+      <td>För varje fält som du vill sortera efter klickar du på <b>[!UICONTROL Add item]</b> och väljer fältet och om de returnerade resultaten ska vara stigande eller fallande.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Starts At]</td>
       <td>
         <p>Ange det tidigaste datum som du vill hämta poster för. </p>
-        <p>En lista över vilka datum- och tidsformat som stöds finns på <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>En lista över vilka datum- och tidsformat som stöds finns i <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Ends At]</td>
       <td>
         <p>Ange det senaste datum som du vill hämta poster för. </p>
-        <p>En lista över vilka datum- och tidsformat som stöds finns på <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>En lista över vilka datum- och tidsformat som stöds finns i <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Typtvång i [!DNL Adobe Workfront Fusion]</a>.</p>
       </td>
     </tr>
   </tbody>
@@ -920,7 +920,7 @@ Den här sökmodulen söker efter aktiviteter, erbjudanden eller målgrupper bas
 <tbody>
   <tr>
     <td role="rowheader">[!UICONTROL Connection]</td>
-    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target], se <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
+    <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Target] finns i <a href="#create-a-connection-to-adobe-target" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Target]</a> i den här artikeln.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -928,24 +928,24 @@ Den här sökmodulen söker efter aktiviteter, erbjudanden eller målgrupper bas
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Sort by]</td>
-    <td>För varje fält som du vill sortera efter klickar du på <b>[!UICONTROL Add item]</b> och markerar fältet och om de returnerade resultaten ska vara stigande eller fallande.</td>
+    <td>För varje fält som du vill sortera efter klickar du på <b>[!UICONTROL Add item]</b> och väljer fältet och om de returnerade resultaten ska vara stigande eller fallande.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Search criteria]</td>
-    <td>För varje regel som du vill ställa in markerar du fältet, operatorn och värdet. Klicka <b>[!UICONTROL Add AND rule]</b> om du vill skapa ytterligare regler.</td>
+    <td>För varje regel som du vill ställa in markerar du fältet, operatorn och värdet. Klicka på <b>[!UICONTROL Add AND rule]</b> om du vill skapa ytterligare regler.</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Offset]</td>
     <td>
-      <p>Ange numret på det första svar som du vill att modulen ska returnera. Det första returnerade svaret har en förskjutning på <code>0</code>. Använd det här fältet tillsammans med [!UICONTROL Maximum number of returned results] för att numrera svaren.</p>
-      <p>Om du till exempel vill se den tredje sidan med svar, när varje sida har tio svar, anger du [!UICONTROL Offset] till 20 och [!UICONTROL Maximum number of returned] resultatet blir 10.</p>
+      <p>Ange numret på det första svar som du vill att modulen ska returnera. Det första returnerade svaret har förskjutningen <code>0</code>. Använd det här fältet i kombination med fältet [!UICONTROL Maximum number of returned results] för att numrera svaren.</p>
+      <p>Om du till exempel vill se den tredje sidan med svar anger du [!UICONTROL Offset] till 20 och [!UICONTROL Maximum number of returned] resultat till 10 när varje sida har tio svar.</p>
     </td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Limit]</td>
     <td>
-      <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario. Använd det här fältet tillsammans med [!UICONTROL Offset] för att numrera svaren.</p>
-      <p>Om du till exempel vill se den tredje sidan med svar, när varje sida har tio svar, anger du [!UICONTROL Offset] till 20 och [!UICONTROL Maximum number of returned] resultatet blir 10.</p>
+      <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario. Använd det här fältet i kombination med fältet [!UICONTROL Offset] för att numrera svaren.</p>
+      <p>Om du till exempel vill se den tredje sidan med svar anger du [!UICONTROL Offset] till 20 och [!UICONTROL Maximum number of returned] resultat till 10 när varje sida har tio svar.</p>
     </td>
   </tr>
 </tbody>

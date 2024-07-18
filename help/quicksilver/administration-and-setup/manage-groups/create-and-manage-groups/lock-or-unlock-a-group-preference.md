@@ -25,7 +25,7 @@ Om du låser upp ett projekt, en uppgift eller en utgåva blir gruppadministrat�
 
 Detta är parallellt med möjligheten för en Workfront-administratör att låsa eller låsa upp en inställning för alla i systemet.
 
-Mer information om hur en Workfront-administratör kan låsa eller låsa upp en inställning för alla grupper i systemet finns i [Låsa eller låsa upp projektinställningar för alla grupper i systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Mer information om hur en Workfront-administratör kan låsa eller låsa upp en inställning för alla grupper i systemet finns i [Lås eller lås upp projektinställningar för alla grupper i systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
@@ -41,6 +41,7 @@ Mer information om hur en Workfront-administratör kan låsa eller låsa upp en 
 >* Om du flyttar en grupp under en grupp som har en olåst inställning påverkas inte den flyttade gruppen av den inställningen.
 >
 >  Om inställningen i den flyttade gruppen är låst när den flyttas förblir den låst, men gruppadministratören kan låsa upp den nu eftersom den är olåst för den överordnade gruppen.
+>
 
 ## Åtkomstkrav
 
@@ -56,7 +57,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,19 +66,19 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Låsa eller låsa upp ett gruppprojekt, en aktivitet eller en utleverans
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper**.
+1. Klicka på **Grupper** i den vänstra panelen.
 1. Klicka på namnet på gruppen där du vill låsa eller låsa upp en projektinställning.
-1. Klicka på i den vänstra panelen **Projektinställningar** eller **Inställningar för uppgifter och ärenden**.
+1. Klicka på **Projektinställningar** eller **Inställningar för aktiviteter och problem** i den vänstra panelen.
 
 1. Gör något av följande på sidan som visas för en inställning som är olåst på systemnivå eller för en grupp ovanför gruppen:
 
    * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![](assets/unlock-toggle-button.png).
    * Om du vill att alla grupper under din konfiguration ska använda din inställning måste du se till att den är låst ![](assets/lock-toggle-button.png).
 
-      >[!IMPORTANT]
-      >
-      >Det är viktigt att kommunicera med administratörer och användare i grupper under din egen för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla undergrupper nedan. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer i lägre undergrupper kan ha gjort.
+     >[!IMPORTANT]
+     >
+     >Det är viktigt att kommunicera med administratörer och användare i grupper under din egen för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla undergrupper nedan. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer i lägre undergrupper kan ha gjort.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

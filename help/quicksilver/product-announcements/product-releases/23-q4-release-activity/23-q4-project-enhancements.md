@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som gjorts i den fjärde utgåvan av kvartal 2023 i förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.10.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns i [Översikt över utgåvan fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Godkännanden av nya dokument
 
@@ -56,7 +56,7 @@ Mer information finns i [Redigera information i anpassade formulärfält](/help/
 
 Vi har gjort en ändring i hur Planerade timmar tilldelas återkommande uppgifter utan tilldelningar och med en typ av enkel varaktighet. När du nu anger Planerade timmar för en ny återkommande aktivitet med enkel varaktighetstyp och utan tilldelningar, tilldelas även timmarna till de enskilda perioderna. Före den här ändringen sparades inte timmarna för enskilda återkommande aktiviteter när de överordnade aktiviteterna inte tilldelades.
 
-Mer information om hur du skapar återkommande uppgifter finns i [Skapa återkommande uppgifter](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Mer information om hur du skapar återkommande aktiviteter finns i [Skapa återkommande aktiviteter](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Uppdateringar i realtid i uppgiftslistan
 

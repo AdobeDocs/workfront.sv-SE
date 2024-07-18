@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Varumärk din Adobe Workfront-instans](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+* [Ge din Adobe Workfront-instans ett varumärke](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
 * [Konfigurera en anpassad hjälp-URL](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

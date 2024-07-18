@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägga till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+* [Lägg till ett anpassat formulär i ett objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Redigera information i anpassade formulärfält](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Exportera anpassade formulär och objektinformation](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
 * [Hantera anpassade formulär som är kopplade till objekt](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

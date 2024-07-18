@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan skapa underordnade relationer på flera sätt i Adobe Workfront. En metod är att kedja uppgifter.
 
-Mer information om föregående åtgärder finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Mer information om föregående aktiviteter finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 Genom att kedja uppgifter kan du låta systemet skapa föregående relationer automatiskt för valda uppgifter, i stället för att manuellt skapa en relation för varje uppgift själv. Olika typer av föregående relationer kan fortfarande användas mellan uppgifter.
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter och projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -53,8 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Kedjuppgifter för att skapa föregående relationer
 
 1. Gå till det projekt som innehåller de uppgifter som du vill kedja.
-1. Klicka **Uppgifter** i den vänstra panelen.
-1. (Villkorligt) Välj **Spara automatiskt** i det övre högra hörnet av uppgiftslistan markerar du de uppgifter som du vill kedja.
+1. Klicka på **Åtgärder** i den vänstra panelen.
+1. (Villkorligt) Välj **Spara automatiskt** i det övre högra hörnet av uppgiftslistan och välj sedan de uppgifter som du vill kedja.
 
    ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >Det går inte att kedja uppgifter i en uppgiftslista när du manuellt sparar ändringar i uppgifter eller använder tidslinjens planeringsläge för att spara uppgifter.
 
-1. Högerklicka på de markerade uppgifterna och klicka sedan på **Kedja**.
+1. Högerklicka på de markerade aktiviteterna och klicka sedan på **Kedja**.
 1. Välj bland följande beroendetyper:
 
    * **Slutför-Start**
@@ -72,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Mer information om beroendetyper för föregångare finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. (Valfritt) Klicka på **Unchain** om några av uppgifterna tidigare har kedjats.
+1. (Valfritt) Klicka på **Ta bort kedja** om några av uppgifterna har kedjats tidigare.
 
    >[!CAUTION]
    >

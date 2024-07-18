@@ -2,27 +2,27 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Varumärken [!DNL Workfront] Korrekturwebbplats - avancerat
+title: Förse webbplatsen för  [!DNL Workfront] korrektur - avancerat
 description: Avancerad varumärkesprofilering finns för Select- och Premium-planer och ingår i kostnaden för planen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '771'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
 
-# Varumärken [!DNL Workfront Proof] webbplats - avancerad
+# Förse webbplatsen [!DNL Workfront Proof] - avancerad
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Avancerad varumärkesprofilering finns för Select- och Premium-planer och ingår i kostnaden för planen.
 
-Mer information om grundläggande branding, som inloggningssida, e-postmeddelanden och korrektur, finns i [Varumärken [!DNL Workfront Proof] webbplats](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Mer information om grundläggande branding, som innehåller inloggningssidan, e-postmeddelanden och korrektur, finns i [Varumärket på  [!DNL Workfront Proof] webbplatsen](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Bland de avancerade varumärkningsalternativen finns anpassning av följande områden:
 
@@ -32,14 +32,14 @@ Bland de avancerade varumärkningsalternativen finns anpassning av följande omr
 * Välkomstruta för instrumentpanel och snabbstartsruta
 * Sidfotstext
 * Favicon
-* Sidtitel
+* Sidrubrik
 * Hjälplänkar
 
 I följande avsnitt beskrivs avancerad branding mer ingående:
 
 ## Översikt över avancerad profilering
 
-Du hittar [!UICONTROL Branding configuration] -avsnittet på fliken i [Kontoinställningar](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) sida. Om du vill använda ändringarna på ditt konto måste du se till att alternativet Varumärkning är inställt på [!UICONTROL Enabled] (1).
+Avsnittet [!UICONTROL Branding configuration] finns på fliken på sidan [Kontoinställningar](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Om du vill tillämpa ändringarna på ditt konto måste du se till att alternativet Varumärke är inställt på [!UICONTROL Enabled] (1).
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 Se avsnittet nedan för mer detaljerad information om hur du konfigurerar alternativen för avancerad branding (2-14).
@@ -50,7 +50,7 @@ Du kan märka följande områden i [!DNL Workfront Proof]:
 
 * [Webbprogram](#web-application)
 * [Sidhuvud](#header)
-* [Sidhuvudslänkar](#header-links)
+* [Huvudlänkar](#header-links)
 * [Sidebar](#sidebar)
 * [Välkomstruta](#welcome-box)
 * [Avsnittshuvuden](#section-headers)
@@ -61,9 +61,9 @@ Du kan märka följande områden i [!DNL Workfront Proof]:
 
 Du kan välja mellan tre branding-alternativ för webbprogramrubriken (2):
 
-* Varumärkesbild i sidhuvudet
+* Märkesbild i sidhuvudet
 * Ditt kontonamn i huvudet
-* Om du inaktiverar varumärket [!DNL Workfront Proof] logotypen kommer att finnas kvar i webbprogrammets rubrik
+* Om du inaktiverar varumärket [!DNL Workfront Proof] förblir logotypen i webbprogrammets huvud
 
 Varumärkesbild - ändrar storlek till en maximal storlek på 550 x 90 px. Du kan använda JPG, GIF eller PNG, och de genomskinliga bakgrunderna stöds.
 
@@ -75,15 +75,15 @@ I det här fältet (3) kan du ange rubrikens bakgrund och välja en heltäckande
 
 Färg - här kan du, precis som i alla andra varumärkesfält i konfigurationen av färgschemat, antingen ange ett hexadecimalt färgvärde eller använda en praktisk färgväljare (klicka på textfältet så öppnas popup-fönstret). Standardbakgrundsfärgen för sidhuvudet är #232d2e.
 
-![Varumärke_färg_väljare.png](assets/branding---color-picker-350x131.png)
+![Varumärkning_färgen_picker.png](assets/branding---color-picker-350x131.png)
 
 Bakgrundsbild - kan kombineras med varumärkesbilden.
 
 * Du kan använda JPG, GIF eller PNG - för filer med genomskinlighet visas en vit bakgrundsfärg.
-* Sidhuvudets höjd är 96 px och den överförda bilden kommer inte att storleksändras för [!UICONTROL No repeat] alternativ.
+* Sidhuvudets höjd är 96 px och den överförda bilden kommer inte att storleksändras för alternativet [!UICONTROL No repeat].
 * Bakgrundsbilden placeras överst till vänster.
 
-### Sidhuvudslänkar {#header-links}
+### Huvudlänkar {#header-links}
 
 I det här fältet (4) kan du ändra färg och färg på länkarna i sidhuvudsmenyn som visas i kontots övre högra hörn.
 ![Header_links.png](assets/header-links-350x140.png)
@@ -107,7 +107,7 @@ I det här fältet (7) kan du ange färgen på välkomstrutan som visas på kont
 
 ### Avsnittshuvuden {#section-headers}
 
-I dessa fält kan du anpassa bakgrunden (8) och teckensnittsfärgen (9) för avsnittshuvuden i [[!UICONTROL Account Settings]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) sidor.
+Med dessa fält kan du anpassa bakgrunden (8) och teckensnittsfärgen (9) för avsnittshuvuden på [[!UICONTROL Account Settings]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) -sidorna.
 ![Section_headers.png](assets/section-headers-350x138.png)
 
 **Sidfot**
@@ -119,24 +119,24 @@ I det här fältet (10) i varumärkeskonfigurationen kan du skapa en sidfot som 
 >
 >Du kan inte redigera HTML i textredigeraren för sidfoten, men du kan klistra in en kopierad design (inklusive alla länkar och bilder).
 
-**Favicon and Page title**
+**Favicon och sidrubrik**
 
-Du kan anpassa hur [!DNL Workfront Proof] Sidorna visas i webbläsarna genom att du anger en egen favoritikonbild (.ICO-fil) (11) och sidrubrik (12). Dessa visas i webbläsarens flikar/fönsterrubriker för alla kontosidor.
+Du kan anpassa hur dina [!DNL Workfront Proof]-sidor visas i webbläsarna genom att ange en egen favoritikonbild (.ICO-fil) (11) och sidrubrik (12). Dessa visas i webbläsarens flikar/fönsterrubriker för alla kontosidor.
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->Ditt favoritikonobjekt visas även i sidhuvudena på [!DNL Workfront Proof] Visningsfönster för alla korrektur som skapats på ditt konto.
+>Ditt favoritikonobjekt visas även i rubrikerna i [!DNL Workfront Proof]-visningsprogramfönstren för alla korrektur som har skapats på ditt konto.
 
 **Hjälplänkar**
 
-Du kan anpassa dina egna hjälplänkar för att hänvisa användare och granskare till ditt eget innehåll. Om du vill aktivera den här uppsättningen [!UICONTROL Help links] (13) till Aktiverad och lägg till länkarna i nästa fält (14). Du kan konfigurera upp till fyra länkar och de blir tillgängliga:
+Du kan anpassa dina egna hjälplänkar för att hänvisa användare och granskare till ditt eget innehåll. Om du vill aktivera den här inställningen aktiverar du alternativet [!UICONTROL Help links] (13) och lägger till länkarna i nästa fält (14). Du kan konfigurera upp till fyra länkar och de blir tillgängliga:
 
-* i [!UICONTROL Header] menyn under [!UICONTROL Help] link
-   ![Help_links1.png](assets/help-links1-350x170.png)
+* på menyn [!UICONTROL Header] under länken [!UICONTROL Help]
+  ![Help_links1.png](assets/help-links1-350x170.png)
 
-* i [!UICONTROL Help] panelen [!DNL Workfront Proof] [!UICONTROL Viewer] sidebar
-   ![Help_links2.png](assets/help-links2-350x532.png)
+* i panelen [!UICONTROL Help] i sidlisten [!DNL Workfront Proof] [!UICONTROL Viewer]
+  ![Help_links2.png](assets/help-links2-350x532.png)
 
 För en extra avgift kan kunder med Enterprise-planer också anpassa följande:
 

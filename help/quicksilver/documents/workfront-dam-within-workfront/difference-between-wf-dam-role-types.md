@@ -35,7 +35,7 @@ Ni använder licenser för att avgöra vad en användare kan se och göra i Work
 * Begäran
 * Extern
 
-Se [Översikt över äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) om du vill ha en beskrivning av de olika licenstyperna i Workfront.
+I [Översikt över äldre licenser](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) finns en beskrivning av de olika licenstyperna i Workfront.
 
 ## Rolltyper för Workfront DAM
 

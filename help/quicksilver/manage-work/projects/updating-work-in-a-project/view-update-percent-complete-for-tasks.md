@@ -49,17 +49,17 @@ Du måste ha följande åtkomst för att kunna uppdatera uppgifter manuellt:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Områden där du kan uppdatera procentandelen färdigt för en uppgift
 
 Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
-* **I en uppgiftslista**: Du kan uppdatera procentandelen färdigt för en uppgift när kolumnen Procent färdigt visas.\
-  Mer information om redigering online finns i [Redigera objekt i en lista i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+* **I en uppgiftslista**: Du kan uppdatera procentandelen färdigt för en aktivitet när kolumnen Procent färdigt visas.\
+  Mer information om infogad redigering finns i [Redigera objekt i en lista i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-* **I vyn Milstolpe**: Du kan uppdatera procentandelen färdigt för en aktivitet när du använder vyn Milstolpe i en projektlista eller en projektrapport. Mer information finns i [Använda vyn Milstolpe](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+* **I milstolpevyn**: Du kan uppdatera procentandelen färdigt för en aktivitet när du använder milstolpevyn i en projektlista eller en projektrapport. Mer information finns i [Använd vyn Milstolpe](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
 <!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
@@ -72,11 +72,11 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
   >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
-* **I uppgiftsrubriken**: Du kan uppdatera procentandelen färdigt för en uppgift i uppgiftshuvudet. Mer information finns i [Redigera uppgifter](../../tasks/manage-tasks/edit-tasks.md).
+* **I uppgiftshuvudet**: Du kan uppdatera procentandelen färdigt för en aktivitet i uppgiftshuvudet. Mer information finns i [Redigera uppgifter](../../tasks/manage-tasks/edit-tasks.md).
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-* **På sammanfattningspanelen för en uppgift**: Du kan uppdatera procentandelen färdigt för en uppgift högst upp på panelen Sammanfattning när du visar uppgiften i följande områden:
+* **På sammanfattningspanelen för en uppgift**: Du kan uppdatera procentandelen färdigt för en uppgift högst upp på sammanfattningspanelen när du visar uppgiften i följande områden:
 
    * Uppgiftslista eller rapport
    * Tidrapport
@@ -86,9 +86,9 @@ Du kan uppdatera procentandelen färdigt för en aktivitet i följande områden:
 
   Mer information finns i [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
 
-* **Startsida**: Du kan uppdatera procentandelen färdigt för en uppgift eller ett ärende från panelen Sammanfattning i Hem eller från widgeten Mitt arbete.
+* **Hem**: Du kan uppdatera procentandelen färdigt för en uppgift eller ett problem från panelen Sammanfattning i Hem eller från widgeten Mitt arbete.
 
-Mer information finns i  [Komma igång med nya startsidan](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Mer information finns i [Komma igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Att tänka på när du uppdaterar procentandelen färdigt för en uppgift
 
@@ -106,18 +106,18 @@ Mer information finns i  [Komma igång med nya startsidan](/help/quicksilver/wor
    * En uppgiftslista
    * En lista över projekt och använd vyn Milstolpe
    * En uppgift genom att gå till uppgiftssidan
-1. Leta reda på **Procent färdigt** för den uppgift vars procent du vill uppdatera.
+1. Leta reda på fältet **Procent färdigt** för den uppgift vars procent du vill uppdatera.
 
    >[!TIP]
    >
    >  Fältet Procent färdigt visas alltid högst upp på panelen Sammanfattning.
 
 
-1. Klicka inuti **Procent färdigt** och ange ett tal mellan 0 och 100
+1. Klicka i fältet **Procent färdigt** och skriv ett tal mellan 0 och 100
 
    eller
 
-   Klicka och dra **Procent färdigt** fält till det nummer som behövs för att ange hur mycket av uppgiften du slutförde, när den är tillgänglig.
+   Klicka och dra fältet **Procent färdigt** till det nummer som behövs för att ange hur mycket av uppgiften du slutförde när den är tillgänglig.
 
    >[!NOTE]
    >

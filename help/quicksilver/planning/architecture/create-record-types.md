@@ -72,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade
 </td>
   </tr>
@@ -129,7 +129,7 @@ Du kan lägga till posttyper manuellt i avsnitten Driftposttyper och Taxonomier.
 
 Mer information om hur du skapar arbetsytor finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Mer information om vilka posttyper som ingår i respektive mall finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
+Mer information om vilka posttyper som ingår i varje mall finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 ## Skapa en posttyp från grunden
 
@@ -141,8 +141,8 @@ Mer information om vilka posttyper som ingår i respektive mall finns i [Lista �
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
 1. (Valfritt) Klicka på **Lägg till avsnitt** om du vill lägga till ett nytt avsnitt på arbetsytan.
-1. Klicka **Lägg till posttyp**.
-1. (Villkorligt) När du skapar posttyper genom att importera en Excel- eller CSV-fil, klickar du på **Från början**. I annat fall **Lägg till posttyp** öppnas.
+1. Klicka på **Lägg till posttyp**.
+1. (Villkorligt) Klicka på **Från början** när du skapar posttyper genom att importera en Excel- eller CSV-fil. I annat fall öppnas rutan **Lägg till posttyp**.
 
    ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -154,14 +154,14 @@ Mer information om vilka posttyper som ingår i respektive mall finns i [Lista �
       * Välj en färg som identifierar den nya posttypen. Det här är färgen på ikonen för posttyp. Grått är markerat som standard.
       * Välj en ikon i listan eller börja skriva namnet på en ikon för att beskriva vad den representerar och markera den sedan när den visas. Det här är ikonen för posttypen. Som standard är en filikon markerad.
 
-1. Klicka **Skapa**.
+1. Klicka på **Skapa**.
 
    Posttypkortet läggs till i avsnittet och på den arbetsyta som du har valt.
 Beskrivning av posttypen visas på kortet.
 
    ![](assets/record-type-card-with-description.png)
 
-1. (Valfritt) Håll markören över posttypskortet och klicka på knappen **Mer** icon ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** om du vill ändra information om posttypen.
+1. (Valfritt) Håll markören över posttypskortet, klicka på ikonen **Mer** ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** för att ändra information om posttypen.
 1. (Valfritt) Klicka på posttypskortet för att öppna posttypssidan.
 
    ![](assets/operational-record-type-blank.png)
@@ -184,10 +184,10 @@ Beskrivning av posttypen visas på kortet.
 
    eller
 
-   Klicka på **Mer** icon ![](assets/more-menu.png) till höger om posttypens namn och klicka på **Redigera** om du vill byta namn på den eller ändra informationen om den. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicka på ikonen **Mer** ![](assets/more-menu.png) till höger om posttypens namn och klicka på **Redigera** för att byta namn på den eller ändra informationen om den. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Valfritt) Klicka på **+ Ny post** om du vill lägga till poster av den valda posttypen. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
-1. (Valfritt) Klicka på **+** i tabellens övre högra hörn om du vill lägga till fler fält i posttypen.
+1. (Valfritt) Klicka på ikonen **+** i tabellens övre högra hörn för att lägga till fler fält i posttypen.
 
    Mer information om hur du skapar fält finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -231,10 +231,10 @@ Så här importerar du posttyper med en Excel-fil:
    eller
 
    Utöka den nedåtriktade pilen till höger om namnet på en befintlig arbetsyta i en arbetsyta, sök efter en arbetsyta och markera den när den visas i listan.
-1. Klicka **Lägg till posttyp**.
-1. Klicka **Excel/CSV**.
-1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** för att hitta en.
-1. Klicka **Granska dina data**.
+1. Klicka på **Lägg till posttyp**.
+1. Klicka på **Excel/CSV**.
+1. Dra och släpp en Excel- eller CSV-fil som tidigare sparats på datorn eller klicka på **Välj en CSV- eller Excel-fil** om du vill bläddra efter en.
+1. Klicka på **Granska dina data**.
 
    Rutan Förhandsgranska och redigera visas med följande information:
 
@@ -251,13 +251,13 @@ Så här importerar du posttyper med en Excel-fil:
    >    Blad som är tomma stöds inte och är nedtonade.
 
 
-1. (Valfritt) Klicka på **Välj ark att importera** och avmarkera de blad som du inte vill importera.
+1. (Valfritt) Klicka på listrutan **Markera ark som ska importeras** och avmarkera de blad som du inte vill importera.
 
    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
    Blad som du avmarkerat visas med grå bakgrund.
 
-1. Klicka **Importera** när du är redo att importera filen.
+1. Klicka på **Importera** när du är klar att importera filen.
 
    Följande information importeras till Workfront Planning:
 

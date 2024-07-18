@@ -30,11 +30,11 @@ Följande avsnitt på sidan Inställningar för tidrapport och timmar kan bara k
 
 * Borttagna projekt, uppgifter och ärenden
 
-Mer information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Information om hur en Workfront-administratör låser upp en tidrapport och timinställning finns i avsnittet [Lås upp tidrapport- och timinställningar för grupper](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 >[!TIP]
 >
->Konfiguration på gruppnivå kan även användas för projektinställningar och för uppgifter och utgåvor. Mer information finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+>Konfiguration på gruppnivå kan även användas för projektinställningar och för uppgifter och utgåvor. Mer information finns i [Konfigurera projektinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) och [Konfigurera aktivitets- och probleminställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Åtkomstkrav
 
@@ -52,7 +52,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -81,14 +81,14 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Tidrapport och timmar > Inställningar och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen vars tidrapport eller timinställningar du vill konfigurera.
-1. Klicka på i den vänstra panelen **Tidrapporter och timmar**.
+1. Klicka på **Tidrapporter och timmar** i den vänstra panelen.
 
-1. På sidan som visas i **Allmänna inställningar** konfigurerar du något av följande alternativ:
+1. Konfigurera något av följande alternativ på den sida som visas i avsnittet **Allmänna inställningar**:
 
    >[!TIP]
    >
@@ -106,7 +106,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
        <li>Deras tidrapporter som allmän tid</li>
        </ul> 
        <p>Detta är användbart när användare tänker vara borta från kontoret och vill logga in den tiden i förväg.</p> 
-       <p><b>ANMÄRKNING</b>: Du kan inte hindra användare från att logga in på uppgifter eller problem som har stängts eller avbrutits. Du kan bara hindra användare från att logga in på fullständiga eller döda projekt. Vi rekommenderar att du använder filter i listor med uppgifter och problem för att utesluta de som har slutförts eller avbrutits från att vara synliga för användarna.</p> </td> 
+       <p><b>Obs!</b> Du kan inte hindra användare från att logga in på aktiviteter eller problem som har stängts eller avbrutits. Du kan bara hindra användare från att logga in på fullständiga eller döda projekt. Vi rekommenderar att du använder filter i listor med uppgifter och problem för att utesluta de som har slutförts eller avbrutits från att vara synliga för användarna.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lägga till utgifter från en tidrapport</td> 
@@ -138,7 +138,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
     </tbody> 
    </table>
 
-1. I **Var användarna kan logga tid** konfigurerar du något av följande alternativ:
+1. Konfigurera något av följande alternativ i avsnittet **Där användare kan logga tid**:
 
    <table style="table-layout:auto">
     <col>
@@ -163,14 +163,14 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
    >
    >Den här inställningen används baserat på konfigurationen av användarens hemgruppsinställningar. Om de här inställningarna är aktiverade i användarens hemgruppsinställningar kan användaren logga tiden direkt i projekt, inklusive slutförda eller döda projekt, oavsett om det är tillåtet enligt projektets gruppinställningar eller inte.
 
-1. I **Förifyll tidrapporter** konfigurerar du något av följande alternativ:
+1. Konfigurera något av följande alternativ i avsnittet **Förfyll tidrapporter**:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Arbete som finns i &lt;number of="" weeks=""&gt; av tidrapportens arbetsområde</td> 
+      <td role="rowheader">Arbete som ligger inom &lt;antal veckor&gt; från tidrapporgens arbetsområde</td> 
       <td> <p>Definierar antalet veckor före och efter datumintervallet för tidrapporten som innehåller datum för uppgifter och ärenden som tilldelats användaren. Standardinställningen är 1 vecka, och du kan utöka intervallet till 4 veckor. Det innebär att tidrapporten är förifylld med uppgifter och ärenden som har datum var som helst mellan fyra veckor före datumintervallet i tidrapporten upp till fyra veckor efter datumintervallet i tidrapporten, om du väljer 4 veckor för intervallet. </p> </td> 
      </tr> 
      <tr> 
@@ -188,4 +188,4 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

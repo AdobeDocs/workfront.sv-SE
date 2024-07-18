@@ -65,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,22 +73,22 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 ## Skapa en föregångare för flera projekt
 
 1. Gå till den uppgift som ska vara din efterföljare (beroende uppgift).
-1. Klicka **Föregående** till vänster.
-1. Klicka **Lägg till föregående.**
-1. I **Överordnat projekt** börjar du skriva namnet på det projekt som innehåller den uppgift som du vill ska vara föregående till den aktuella uppgiften.
+1. Klicka på **Föregående** i den vänstra panelen.
+1. Klicka på **Lägg till föregående.**
+1. I fältet **Överordnat projekt** börjar du skriva namnet på projektet som innehåller aktiviteten som du vill ska vara föregående till den aktuella aktiviteten.
 1. Klicka på namnet när det visas i listrutan.
-1. I **Uppgifter** börjar du skriva namnet på den uppgift som du vill ska vara föregående till den aktuella uppgiften.
+1. I fältet **Uppgifter** börjar du skriva namnet på den uppgift som du vill ska vara föregående till den aktuella uppgiften.
 1. Ange följande information för att definiera relationen mellan föregående och beroende uppgift:
 
-   * **Beroendetyp:** Välj relationen som du vill att föregående aktivitet ska ha med den beroende aktiviteten. Standardrelationen är &quot;Slutför-Start&quot;, vilket innebär att föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Mer information om de olika beroendetyperna finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   * **Beroendetyp:** Välj relationen som du vill att föregående aktivitet ska ha med den beroende aktiviteten. Standardrelationen är &quot;Slutför-Start&quot;, vilket innebär att föregående aktivitet måste slutföras innan den beroende aktiviteten kan startas. Mer information om de olika beroendetyperna finns i [Översikt över aktivitetsberoendetyperna](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **Lag:** Ange den tid som måste förflyta efter slutförandet av en framtvingad föregångare tills den beroende aktiviteten kan börja. Mer information om olika typer av fördröjningar finns i [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Sena:** Ange hur lång tid som måste gå efter det att en framtvingad föregångare har slutförts tills den beroende aktiviteten kan börja. Mer information om de olika fördröjningstyperna finns i [Översikt över fördröjningstyper](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **Tvingad:** När det här alternativet är markerat kan beroendeförhållandet mellan de två aktiviteterna inte kringgås av användare som startar aktiviteter tidigt. Om du till exempel tillämpar en relation mellan Aktivitet A och Aktivitet B, kan inte Aktivitet B startas förrän Aktivitet A har slutförts. Mer information om att framtvinga föregående aktiviteter finns i [Tvinga föregående](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   * **Kräv:** När det här alternativet har valts kan beroendeförhållandet mellan de två aktiviteterna inte kringgås av användare som startar aktiviteter tidigt. Om du till exempel tillämpar en relation mellan Aktivitet A och Aktivitet B, kan inte Aktivitet B startas förrän Aktivitet A har slutförts. Mer information om hur du framtvingar föregångare finns i [Tvinga föregångare](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
      Om det här alternativet inte är markerat behandlas beroendet som ett förslag för användarna. Användarna kan t.ex. starta Aktivitet B innan Aktivitet A har slutförts.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Uppgifter som har en föregångare för flera projekt visar referensnumret för det projekt som föregångaren tillhör och antalet uppgifter, avgränsade med kolon, i kolumnen Föregående aktiviteter i en uppgiftslista.
 
@@ -100,11 +100,11 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    Klicka nära det övre hörnet av hovringsfönstret för att se mer information om föregående projekt.
 
-   Klicka **Se projekt** för att öppna föregående projekt.
+   Klicka på **Se Projekt** för att öppna föregående offerts projekt.
 
-   ![Information om föregångare mellan projekt](assets/cross-project-predecessor-details.png)
+   ![Information om föregående tvärprojekt](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >
-   >   The **Se projekt** visas bara när du visar en föregångare för flera projekt.
+   >   Alternativet **Se projekt** visas bara när du visar en föregångare för flera projekt.
 

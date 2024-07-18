@@ -2,20 +2,20 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-outlook
 title: Svara på en kommentar från Outlook
-description: När du får en [!DNL Adobe Workfront] e-postmeddelanden i din Outlook-inkorg kan du snabbt skicka en kommentar till [!DNL Workfront] genom att helt enkelt svara på meddelandet i Outlook.
+description: När du får ett  [!DNL Adobe Workfront] e-postmeddelande i din Outlook-inkorg kan du snabbt skicka en kommentar till  [!DNL Workfront] genom att svara på meddelandet i Outlook.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
 workflow-type: tm+mt
-source-wordcount: '233'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
 
 # Svara på en kommentar från [!DNL Outlook]
 
-När du får en [!DNL Adobe Workfront] e-postmeddelanden i [!DNL Outlook] kan du snabbt publicera en kommentar i [!DNL Workfront] genom att helt enkelt svara på meddelandet i Outlook.
+När du får ett [!DNL Adobe Workfront]-e-postmeddelande i din [!DNL Outlook]-inkorg kan du snabbt skicka en kommentar till [!DNL Workfront] genom att svara på meddelandet i Outlook.
 
 ## Åtkomstkrav
 
@@ -36,24 +36,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Dina [!DNL Workfront] administratör måste aktivera [!DNL Outlook for Office] med [!DNL Workfront] innan du kan använda den här integreringen.
+[!DNL Workfront]-administratören måste aktivera [!DNL Outlook for Office] med [!DNL Workfront] innan du kan använda den här integreringen.
 
 ## Svara på en kommentar från [!DNL Outlook]
 
-1. Välj [!DNL Workfront] e-postmeddelande som innehåller den kommentar som du vill svara på.
-1. Klicka på **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
-   Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt [!DNL Workfront] ikon.
+1. Markera det [!DNL Workfront]-e-postmeddelande som innehåller kommentaren som du vill svara på.
+1. Klicka på ikonen **[!DNL Workfront]** i det övre högra hörnet av e-postmeddelandet för att visa Workfront-tillägget.\
+   Du kan behöva klicka på den nedåtriktade pilen i det övre högra hörnet av ditt e-postmeddelande för att komma åt ikonen [!DNL Workfront].
 
-1. Klicka på **[!UICONTROL Menu]** icon ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan över tillgängliga [!DNL Workfront] alternativ.\
+1. Klicka på ikonen **[!UICONTROL Menu]** ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) för att visa listan med tillgängliga [!DNL Workfront]-alternativ.\
 
 
 1. Klicka på **[!UICONTROL Reply to Comment]**.
-1. Ange din kommentar i det angivna fältet.
-1. (Valfritt) Klicka på **[!UICONTROL Include Others]** börjar du skriva namnet på de användare som du vill ska ingå i uppdateringen och klickar sedan på namnet när det visas i listrutan.\
+1. Ange din kommentar i fältet.
+1. (Valfritt) Klicka på **[!UICONTROL Include Others]**, börja skriva namnet på de användare som du vill ta med i uppdateringen och klicka sedan på namnet när det visas i listrutan.\
    Upprepa den här processen om du vill inkludera fler användare och klicka sedan på **[!UICONTROL Done]**.\
    Som standard får den användare du svarar ett meddelande oavsett om du tar med dem eller inte.\
 

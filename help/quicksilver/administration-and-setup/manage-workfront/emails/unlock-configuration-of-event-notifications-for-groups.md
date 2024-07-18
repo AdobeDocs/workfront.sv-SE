@@ -21,7 +21,7 @@ Om du är Adobe Workfront-administratör kan du låsa upp eller låsa upp möjli
 
 Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
 
-När en administratör konfigurerar ett händelsemeddelande för en grupp påverkar konfigurationen användare för vilka gruppen, eller en av dess undergrupper, är deras hemgrupp. I sina användarprofiler ser dessa användare händelsemeddelanden som aktiveras för hemgruppen i stället för händelsemeddelanden som aktiveras i hela systemet. Mer information finns i [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+När en administratör konfigurerar ett händelsemeddelande för en grupp påverkar konfigurationen användare för vilka gruppen, eller en av dess undergrupper, är deras hemgrupp. I sina användarprofiler ser dessa användare händelsemeddelanden som aktiveras för hemgruppen i stället för händelsemeddelanden som aktiveras i hela systemet. Mer information finns i [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
@@ -58,19 +58,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 >
 >När du låser ett meddelande igen ärver alla grupper i systemet meddelandet exakt som du ställt in det. Detta åsidosätter ändringar som gruppadministratörer kan ha gjort för sina grupper, så det är en bra idé att först rådfråga dem.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **E-post** > **Meddelanden**.
+1. Klicka på **E-post** > **Meddelanden**.
 
-1. Se till att **Händelsemeddelanden** -fliken är öppen.
-1. Klicka på ikonen till höger om meddelandet för att växla det till låst ![Lås-ikon](assets/lock-toggle-button.png) eller olåst ![Lås upp ikon](assets/unlock-toggle-button.png) position.
+1. Kontrollera att fliken **Händelsemeddelanden** är öppen.
+1. Klicka på ikonen till höger om meddelandet för att växla till den låsta ![låsikonen](assets/lock-toggle-button.png) eller upplåst ![upplåsikonen](assets/unlock-toggle-button.png) .
 
    eller
 
-   Om du vill låsa upp eller låsa upp flera meddelanden samtidigt markerar du dem och klickar sedan på Lås upp ![Lås upp ikon](assets/unlock-icon-toolbar.png) eller Lås ![Lås-ikon](assets/lock-icon-locked-qs.png) som visas i verktygsfältet ovanför listan.
+   Om du vill låsa upp eller låsa upp flera meddelanden samtidigt markerar du dem och klickar sedan på knappen Lås upp ![ikon](assets/unlock-icon-toolbar.png) eller Lås ![ikon](assets/lock-icon-locked-qs.png) som visas i verktygsfältet ovanför listan.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 1. (Valfritt) Om du vill konfigurera händelsemeddelandet för en grupp på den översta nivån i stället för att lämna den här uppgiften till gruppens administratör kan du göra något av följande:
 
-   * Ta bort **Systemhändelsemeddelanden** i sökrutan ovanför listan med meddelanden söker du efter och markerar namnet på den översta gruppen för att visa dess meddelanden och aktiverar eller inaktiverar sedan de olåsta meddelandena i listan som visas.
-   * Klicka **Grupper** i den vänstra menyn klickar du på namnet på den översta gruppen. Klicka **Händelsemeddelanden** i den vänstra panelen konfigurerar du det olåsta händelsemeddelandet enligt anvisningarna i [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+   * Ta bort **systemhändelsemeddelanden** i sökrutan ovanför listan med meddelanden, sök efter och markera namnet på den översta gruppen för att visa dess meddelanden och aktivera eller inaktivera sedan de olåsta meddelandena i listan som visas.
+   * Klicka på **Grupper** i den vänstra menyn och klicka sedan på namnet på den översta gruppen. Klicka på **Händelsemeddelanden** i den vänstra panelen och konfigurera sedan det olåsta händelsemeddelandet enligt beskrivningen i [Visa och konfigurera händelsemeddelanden för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

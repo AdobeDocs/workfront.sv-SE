@@ -23,13 +23,13 @@ Du kan använda följande typer av filter i Adobe Workfront:
 
 * Snabbfilter i en lista med objekt för att hitta ett objekt med hjälp av ett nyckelord. Det här är temporära filter som du inte kan spara för framtida bruk.
 
-  Mer information om snabbfilter finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+  Mer information om snabbfilter finns i [Använda snabbfiltret i en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 * Permanenta filter som du kan spara och använda flera gånger i flera listor och rapporter. I den här artikeln beskrivs hur du skapar ett permanent filter eller redigerar ett befintligt i en lista eller rapport.
 
 * Filter inom andra områden av Workfront, utanför listor och rapporter.
 
-  En lista över alla filter i Workfront och de områden där du kan använda dem finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  En lista över alla filter i Workfront och de områden där du kan använda dem finns i [Filteröversikt](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Åtkomstkrav
 
@@ -73,7 +73,7 @@ eller
 
 <ul><li><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p></li></ul>
 
-<p><b>OBS!</b></p> <p> Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+<p><b>OBS!</b></p> <p> Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -119,7 +119,7 @@ Du kan skapa filter med hjälp av de typer av filterverktyg som beskrivs i tabel
 <li> <p>Listor </p> </li>
 </ul>
 <ul>
-<li> <p>Projektlistan i scenarioplaneraren</p> <p>Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt över scenarioplanen</a>. </p> </li>
+<li> <p>Projektlistan i scenarioplaneraren</p> <p>Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i <a href="../../../scenario-planner/scenario-planner-overview.md">Översikt över scenarioplanen</a>. </p> </li>
 </ul>
 <p><b>OBS!</b></p> <p>Standardverktyg för filter är inte tillgängliga i rapporter.
 </td>
@@ -137,7 +137,7 @@ Mer information om Workfront-objekt finns i [Förstå objekt i Adobe Workfront](
 Tänk på följande när du skapar filter med de olika gränssnitten:
 
 * Du hittar standardverktyget på samma platser som du hittar det gamla filtergränssnittet för de områden som listas i tabellen ovan.
-* Standardverktyget är standardgränssnittet för alla områden där det är tillgängligt. Klicka på knappen **Mer** meny bredvid [!UICONTROL **Filter**] och markera [!UICONTROL **Gå tillbaka till äldre filter**].
+* Standardverktyget är standardgränssnittet för alla områden där det är tillgängligt. Om du vill växla till det äldre filterverktyget klickar du på menyn **Mer** bredvid [!UICONTROL **Filter**] och väljer [!UICONTROL **Gå tillbaka till äldre filter**].
 
   ![Gå tillbaka till äldre filter](assets/use-legacy-filters.png)
 
@@ -145,7 +145,7 @@ Tänk på följande när du skapar filter med de olika gränssnitten:
 
   >[!TIP]
   >
-  >Ett Alla-filter ingår inte i standardverktyget eftersom alla listobjekt visas när inga filter används. Klicka [!UICONTROL **Rensa alla**] längst upp till höger i verktyget för att rensa alla aktiva filter och visa alla objekt. If [!UICONTROL **Rensa alla**] är nedtonat och inga filter tillämpas.
+  >Ett Alla-filter ingår inte i standardverktyget eftersom alla listobjekt visas när inga filter används. Klicka på [!UICONTROL **Rensa alla**] längst upp till höger i verktyget för att rensa alla aktiva filter och visa alla objekt. Om [!UICONTROL **Rensa alla**] är nedtonat tillämpas inga filter.
 
 * Standardversioner och äldre versioner har en något annorlunda syntax när du skapar flerprogramsfilter som kombinerar operatorerna AND och OR. Det innebär att dessa filter kan visas på olika sätt när du växlar från en byggare till en annan.
 
@@ -186,7 +186,7 @@ Du kan skapa filter med hjälp av standardgränssnittet i Builder på följande 
 Skapa ett filter med standardgränssnittet i Builder:
 
 1. Gå till en lista där du vill skapa ett filter eller som innehåller det filter som du vill anpassa.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) för att öppna Builder-gränssnittet.
 
    ![Standardfilterverktyg](assets/new-filters-all-filter-types.png)
 
@@ -217,12 +217,12 @@ Skapa ett filter med standardgränssnittet i Builder:
 
 1. Gör något av följande:
 
-   * Klicka **Nytt filter** för att skapa ett filter från grunden.
-   * Håll pekaren över ett befintligt filter som du har behörighet att hantera och klicka på **Redigera** icon ![Ikonen Redigera](assets/edit-icon.png) för att redigera den.
+   * Klicka på **Nytt filter** om du vill skapa ett filter från grunden.
+   * Håll pekaren över ett befintligt filter som du har behörighet att hantera och klicka på ikonen **Redigera** ![Redigera ](assets/edit-icon.png) för att redigera det.
 
      eller
 
-     Håll pekaren över ett befintligt filter som du har behörighet att visa och klicka på **Mer** meny ![Menyn Mer](assets/more-icon-spectrum.png)och klicka **Duplicera** om du vill kopiera det befintliga filtret och redigera en kopia.
+     Håll pekaren över ett befintligt filter som du har behörighet att visa, klicka på menyn **Mer** ![Mer](assets/more-icon-spectrum.png) och klicka på **Duplicera** för att kopiera det befintliga filtret och redigera en kopia.
 
    ![Fler menyalternativ](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -243,13 +243,13 @@ Skapa ett filter med standardgränssnittet i Builder:
    </tbody>
    </table>
 
-   ![Inkludera om alla eller några listrutor eller sanna](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
+   ![Inkludera om alla eller några eller sanna listrutor](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   Mer information om filteroperatorer finns i [Översikt över filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Mer information om filteroperatorer finns i [Filteröversikt](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicka på den nedrullningsbara menyn för att visa en lista över nyligen använda fält och föreslagna fält att filtrera efter. De föreslagna fälten visas för närvarande i listan som du filtrerar.
 
-   Du kan också välja **Bläddra bland fält** om du vill visa en lista med alla fält som du kan filtrera efter. Fälten i den avancerade sökningen grupperas efter objektkategori.
+   Du kan också välja **Bläddra i fält** om du vill visa en lista över alla fält som du kan filtrera efter. Fälten i den avancerade sökningen grupperas efter objektkategori.
 
    ![Hitta ett fält att filtrera efter](assets/new-filter-search-for-field.png)
 
@@ -261,20 +261,20 @@ Skapa ett filter med standardgränssnittet i Builder:
    >
    >När du skapar filtret visas resultatet omedelbart i listan. Om filterpanelen täcker listan kan du stänga den för att se visningen. Den information du angav finns kvar i verktyget när du öppnar panelen igen.
 
-1. Börja skriva värdet för ett fält som du vill filtrera efter. Börja med att skriva namnet på ett problem om du vill filtrera efter `Issue:Name`. Markera värdet när det visas i listan.
+1. Börja skriva värdet för ett fält som du vill filtrera efter. Börja till exempel skriva namnet på ett problem om du vill filtrera efter `Issue:Name`. Markera värdet när det visas i listan.
 
    >[!TIP]
    >
    >Beroende på vilken modifierare du har valt kan du välja flera värden.
 
-1. Klicka **Lägg till filter** om du vill välja ett annat fält lägger du till ett filtervillkor i filtersatsen.
-1. (Valfritt) Klicka på **Ta bort** icon ![Ikonen Ta bort](assets/delete.png) för att ta bort befintliga filtersatser.
+1. Klicka på **Lägg till filter** om du vill välja ett annat fält och lägga till ett filtervillkor i filterinstruktionen.
+1. (Valfritt) Klicka på ikonen **Ta bort** ![Ta bort ](assets/delete.png) om du vill ta bort befintliga filtersatser.
 
    eller
 
-   Klicka **Rensa alla** för att rensa alla filtervillkor.
+   Klicka på **Rensa alla** för att rensa alla filtervillkor.
 
-1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är **OCH**. Klicka på operatorn för att ändra den till **ELLER**.
+1. (Valfritt) Klicka på **Lägg till filtergrupp** om du vill lägga till ytterligare en uppsättning filtervillkor. Standardoperatorn mellan uppsättningarna är **AND**. Klicka på operatorn för att ändra den till **OR**.
 
    >[!TIP]
    >
@@ -288,7 +288,7 @@ Skapa ett filter med standardgränssnittet i Builder:
    >`(Project: Name Contains Marketing AND Project: Status Does not equal On Hold)`
    >I det här fallet kopplas varje filterprogramsats av en AND och filtergrupperna kopplas samman med en OR.
 
-1. (Valfritt) Klicka på **Textläge** om du vill fortsätta att skapa filtret i textläge.
+1. (Valfritt) Klicka på **Textläge** om du vill fortsätta bygga filtret i textläge.
 
    ![Välj textläge](assets/new-filter-select-text-mode.png)
 
@@ -302,17 +302,17 @@ Skapa ett filter med standardgränssnittet i Builder:
 
    Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicka **Avsluta textläge** för att återgå till standardgränssnittet för byggare.
+1. Klicka på **Avsluta textläge** om du vill återgå till standardgränssnittet för verktyget.
 
    >[!WARNING]
    >
    >Vissa textlägessatser stöds inte i standardverktyget eller det äldre gränssnittet. Om du avslutar textläget när du har skapat den här typen av programsatser kan ett varningsmeddelande genereras.
 
-1. (Valfritt) Klicka på **Använd** om du vill använda filtret på listan och se resultatet.
+1. (Valfritt) Klicka på **Använd** om du vill använda filtret i listan och visa resultatet.
 
    Om filtret inte ger några resultat är listan tom.
 
-1. Klicka **Spara som ny** för att spara filtret för framtida bruk.
+1. Klicka på **Spara som ny** om du vill spara filtret för framtida bruk.
 
    ![Namnge och spara filtret](assets/save-as-untitled-filter-ui-nwe.png)
 
@@ -322,7 +322,7 @@ Skapa ett filter med standardgränssnittet i Builder:
    >
    >Ge filtret ett namn så att du kan hitta det senare. Om du inte namnger filtret kallas det Namnlöst filter i systemet.
 
-1. Välj en ikon för det nya filtret på **Ikon** listruta.
+1. Välj en ikon för det nya filtret i listrutan **Ikon** .
 
    ![Välj en ikon för filtret](assets/new-filter-select-icon.png)
 
@@ -330,16 +330,16 @@ Skapa ett filter med standardgränssnittet i Builder:
 
    >[!TIP]
    >
-   >Klicka **Avbryt** tar dig när som helst tillbaka till filterområdet.
+   >När du klickar på **Avbryt** återgår du till filterbyggområdet.
 
-1. Klicka **Spara**. Filtret sparas i listan Sparat och används i objektlistan.
-1. (Valfritt) Om du vill flytta ett filter till favoritlistan håller du pekaren över ett filter i filterlådan och klickar på knappen **Favorit** icon ![Favoritikon](assets/favorites-icon-small.png).
+1. Klicka på **Spara**. Filtret sparas i listan Sparat och används i objektlistan.
+1. (Valfritt) Om du vill flytta ett filter till favoritlistan håller du pekaren över ett filter i filterlådan och klickar på ikonen **Favorit** ![Favorit](assets/favorites-icon-small.png) .
 
    eller
 
-   Håll pekaren över ett filter i filterlådan och klicka på Mer-menyn ![Menyn Mer](assets/more-icon-spectrum.png)och klicka **Favorit**.
+   Håll pekaren över ett filter i filterlådan, klicka på menyn Mer ![Mer](assets/more-icon-spectrum.png) och klicka på **Favorit**.
 
-1. (Valfritt) Klicka på **Staplingsfilter** för att aktivera staplade filter. Med det här alternativet kan du använda mer än ett sparat filter. Filterreglerna tillämpas i den ordning som du markerar dem.
+1. (Valfritt) Klicka på knappen **Staplingsfilter** för att aktivera staplade filter. Med det här alternativet kan du använda mer än ett sparat filter. Filterreglerna tillämpas i den ordning som du markerar dem.
 
    >[!TIP]
    >
@@ -347,15 +347,15 @@ Skapa ett filter med standardgränssnittet i Builder:
    >
    >När du markerar flera filter måste alla villkor för dem uppfyllas samtidigt för att matchande resultat ska visas.
 
-   ![Staplingsfilter](assets/new-filter-stack-filters.png)
+   ![Stackfilter](assets/new-filter-stack-filters.png)
 
    Antalet filter som du har valt visas bredvid filterikonen högst upp i objektlistan.
 
-   ![Antal valda filter](assets/number-of-filters-selected.png)
+   ![Antal markerade filter](assets/number-of-filters-selected.png)
 
 1. (Valfritt) Gör något av följande:
 
-   * Dela filtret med andra eller gör det tillgängligt i hela systemet. Mer information finns i [Dela ett filter, en vy eller en grupp](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Dela filtret med andra eller gör det tillgängligt i hela systemet. Mer information finns i [Dela ett filter, en vy eller en gruppering](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
    * Ta bort filtret om det inte längre är giltigt eller en dubblett. Du kan bara ta bort filter som du äger. Du kan ta bort filter som delats med dig. Mer information finns i [Ta bort filter, vyer och grupperingar](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
@@ -369,30 +369,30 @@ Du kan skapa äldre filter i listor och rapporter på följande sätt:
 Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär som när du skapar ett filter från början eller från ett befintligt filter.
 
 1. Gå till en lista eller rapport som innehåller filtret som du vill anpassa.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png).
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
 
    >[!TIP]
    >
    >Rapportskaparen måste tillåta att filter kan redigeras för att visa listrutan Filter i en rapport. Standardfiltret Rapport används som standard på en rapport. Standardfiltret för rapporten kan bara anpassas när du redigerar rapporten.
 
-   ![Listruta för filter](assets/filter-drop-down-expanded-nwe.png)
+   ![Listrutan Filter](assets/filter-drop-down-expanded-nwe.png)
 
-1. Klicka **Nytt filter** högst upp i filterlistan.
+1. Klicka på **Nytt filter** överst i filterlistan.
 
    eller
 
-   Håll pekaren över det filter som du vill ändra och klicka på **Redigera** icon ![](assets/edit-icon.png).
+   Håll pekaren över det filter som du vill ändra och klicka på ikonen **Redigera** ![](assets/edit-icon.png) .
 
    Verktyget för att anpassa filtret startas.
 
 1. Gör något av följande:
 
    * Ändra befintliga filterregler genom att klicka på den befintliga regeln och välja ett nytt alternativ.
-   * Lägga till en filterregel genom att klicka på **Lägg till en annan filterregel** börjar du skriva namnet på det alternativ som du vill lägga till en regel för i **Börja skriva fältnamn** och klicka sedan på den när den visas i listrutan.
+   * Lägg till en filterregel genom att klicka på **Lägg till en annan filterregel**, börja skriva namnet på alternativet som du vill lägga till en regel för i rutan **Börja skriva fältnamn** och klicka sedan på det när det visas i listrutan.
 
-     Fält som är kopplade till filterobjektet visas i **Börja skriva fältnamn** box.
+     Fält som är associerade med objektet i ditt filter visas i rutan **Börja skriva fältnamn**.
 
-   * Klicka **OCH** eller **ELLER** när du lägger till en filterregel.\
+   * Klicka på **AND** eller **OR** när du lägger till en filterregel.\
      När du lägger till filterregler använder du filtermodifierarna för att fastställa filtervillkoret. Mer information om filtermodifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -419,17 +419,17 @@ Oberoende av vilken metod du använder för att skapa filter ser det ut ungefär
 
    Mer information om hur du skapar ett filter med hjälp av textlägesgränssnittet finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicka **Spara filter** om du vill skapa ett filter eller ersätta det markerade med dina ändringar.
+1. Klicka på **Spara filter** om du vill skapa ett filter eller ersätta det markerade med dina ändringar.
 
    eller
 
-   Klicka **Spara som nytt filter** om du vill skapa ett filter från det markerade.
+   Klicka på **Spara som nytt filter** om du vill skapa ett filter från det markerade filtret.
 
    Det nya filtret visas i filterlistan och tillämpas automatiskt på den lista eller rapport som du har valt.
 
 1. (Valfritt) Gör något av följande:
 
-   * Dela filter som du skapar med andra användare eller gör dem tillgängliga i hela systemet. Mer information finns i [Dela ett filter, en vy eller en grupp](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+   * Dela filter som du skapar med andra användare eller gör dem tillgängliga i hela systemet. Mer information finns i [Dela ett filter, en vy eller en gruppering](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
    * Ta bort filter som du inte längre vill visa i listan. Mer information finns i [Ta bort filter, vyer och grupperingar](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
 

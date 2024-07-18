@@ -37,7 +37,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,26 +52,26 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >
 >Om du behöver aktivera om någon av dem kan du göra det när du har gjort något av följande:
 >
->* Ta bort den från den överordnade gruppen. Mer information finns i avsnittet [Ta bort en undergrupp från den överordnade gruppen och gör den till en grupp på den översta nivån](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Ta bort den från den överordnade gruppen. Mer information finns i avsnittet [Ta bort en undergrupp från den överordnade gruppen och gör den till en högnivågrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 >* Flytta den under en aktiv grupp. Mer information finns i avsnittet [Skapa, flytta, visa, redigera, kopiera, byta namn på, exportera eller ta bort en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. I den vänstra panelen väljer du **Grupper**.
+1. Välj **Grupper** i den vänstra panelen.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
 1. Klicka på namnet på gruppen för att öppna sidan.
 
-1. Klicka på Mer-menyn ![](assets/more-icon.png) bredvid namnet på gruppen och klicka sedan på **Inaktivera** eller **Återaktivera**.
+1. Klicka på menyn Mer ![](assets/more-icon.png) bredvid namnet på gruppen och klicka sedan på **Inaktivera** eller **Återaktivera**.
 
    >[!NOTE]
    >
    >Alternativet Är aktiv (alternativet Återaktivera i förhandsvisning) är inte tillgängligt om gruppen är en undergrupp till en inaktiverad grupp. Innan du kan återaktivera den måste du ta bort den från den överordnade gruppen eller flytta den under en grupp som är aktiv, vilket beskrivs i Viktigt-kommentaren ovan.
 
-1. (Villkorligt) Om du inaktiverar gruppen klickar du på **Inaktivera** i **Inaktivera grupp** som visas.
+1. (Villkorligt) Om du inaktiverar gruppen klickar du på **Inaktivera** i rutan **Inaktivera grupp** som visas.
 
 ## Överväganden för inaktiva grupper
 
@@ -79,9 +79,9 @@ Tänk på följande när det gäller en grupp som du inaktiverar genom att inakt
 
 * Om du inaktiverar en grupp inaktiveras även alla undergrupper under den. Detta inkluderar undergrupper som du lägger till efter att du har inaktiverat den.
 
-  Information om hur du återaktiverar en undergrupp i den här situationen finns i [Återaktivera en undergrupp under en inaktiv överordnad grupp](#about-reactivating-a-subgroup-below-an-inactive-parent-group) i den här artikeln.
+  Mer information om hur du återaktiverar en undergrupp i den här situationen finns i [Om att återaktivera en undergrupp under en inaktiv överordnad grupp](#about-reactivating-a-subgroup-below-an-inactive-parent-group) i den här artikeln.
 
-* När du går till området Grupper i Konfigurera kan du bara se aktiva grupper i listan eftersom Aktiv är standardfiltret ![](assets/filter-nwepng.png) för den. Om du vill se alla grupper som du hanterar, inklusive de inaktiva, kan du använda filtret Alla. Eller använd filtret Inaktiv för att endast visa de inaktiva.
+* När du går till gruppområdet i installationsprogrammet kan du bara se aktiva grupper i listan eftersom Active är standardfiltret ![](assets/filter-nwepng.png) för den. Om du vill se alla grupper som du hanterar, inklusive de inaktiva, kan du använda filtret Alla. Eller använd filtret Inaktiv för att endast visa de inaktiva.
 
   Mer information om filter i listor finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -102,10 +102,10 @@ Tänk på följande när det gäller en grupp som du inaktiverar genom att inakt
 
 Om du inaktiverar en grupp inaktiveras även alla undergrupper under den. Om du behöver aktivera om en av undergrupperna under en inaktiv grupp kan du göra något av följande:
 
-* Flytta undergruppen under en aktiv grupp. Aktivera sedan alternativet Är aktiv för den flyttade gruppen enligt anvisningarna i avsnittet [Inaktivera eller återaktivera en grupp](#View) i den här artikeln.
+* Flytta undergruppen under en aktiv grupp. Aktivera sedan alternativet Är aktiv för den flyttade gruppen, vilket förklaras i avsnittet [Inaktivera eller återaktivera en grupp](#View) i den här artikeln.
 
   Instruktioner om hur du flyttar en grupp finns i [Flytta en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/move-a-group.md).
 
-* Ta bort undergruppen från den överordnade gruppen (vilket gör undergruppen till en grupp på den översta nivån). Aktivera sedan alternativet Är aktiv för den flyttade gruppen enligt anvisningarna i avsnittet [Inaktivera eller återaktivera en grupp](#View) i den här artikeln.
+* Ta bort undergruppen från den överordnade gruppen (vilket gör undergruppen till en grupp på den översta nivån). Aktivera sedan alternativet Är aktiv för den flyttade gruppen, vilket förklaras i avsnittet [Inaktivera eller återaktivera en grupp](#View) i den här artikeln.
 
-  Instruktioner om hur du tar bort en undergrupp från den överordnade gruppen finns i avsnittet [Ta bort en undergrupp från den överordnade gruppen och gör den till en grupp på den översta nivån](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Instruktioner om hur du tar bort en undergrupp från den överordnade gruppen finns i avsnittet [Ta bort en undergrupp från den överordnade gruppen och gör den till en högnivågrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

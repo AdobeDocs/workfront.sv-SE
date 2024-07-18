@@ -21,7 +21,7 @@ Workfront Scenario Planner är endast tillgänglig med nya Adobe Workfront.
 
 Följande funktioner har lagts till i version 20.4:
 
-## Publicera scenarier för att uppdatera och skapa projekt från Workfront Scenario Planner
+## Publish scenarier för att uppdatera och skapa projekt från Workfront Scenario Planner
 
 Med en ny funktion i Workfront Scenario Planner kan du nu publicera ett scenario och kartlägga dess satsningar i vanliga projekt. Detta skapar projekt från befintliga initiativ eller uppdaterar projekt som redan är kopplade till initiativ som har importerats i planen. Initiativinformation överförs till projekten, vilket sparar tid när det gäller datainmatning och säkerställer exakthet.
 
@@ -34,7 +34,7 @@ Följande nya funktioner ingår:
 * Initiativ information i projektet uppdaterar flödet
 * Initiativinformation i rapporter
 
-Mer information om att publicera en plan finns i [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
+Mer information om att publicera en plan finns i [Uppdatera eller skapa projekt genom att publicera initiativ i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 I följande video ser du hur du kan skapa ett projekt genom att publicera ett scenario:
 
@@ -44,5 +44,5 @@ I följande video ser du hur du kan uppdatera ett projekt som tidigare importera
 
 Om du vill bjuda in andra användare att samarbeta med dig när du arbetar i Workfront Scenarioplan kan du nu dela planer som du har skapat med andra användare. Om du har åtkomst till en plan som du inte har skapat med en länk innan den här förbättringen har gjorts måste planen delas med dig nu innan du kan komma åt den.
 
-Information om hur du delar en plan i scenarioplaneraren finns i [Dela en plan i scenarioplanen](../../../scenario-planner/share-a-plan.md).
+Mer information om hur du delar en plan i scenarioplaneraren finns i [Dela en plan i scenarioplaneraren](../../../scenario-planner/share-a-plan.md).
 

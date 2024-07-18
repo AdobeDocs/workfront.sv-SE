@@ -24,7 +24,7 @@ Vi rekommenderar att timmar loggas på arbetsuppgifter, som är uppgifter och pr
 
 Som Workfront-administratör kan du dock även tillåta användare att logga in på projekt, beroende på vilka arbetsflöden som finns i organisationen.
 
-Mer information om hur du konfigurerar systemet så att användarna kan logga in på projekt finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Mer information om hur du konfigurerar systemet så att användare kan logga in på projekt finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 ## Åtkomstkrav
 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge senare åtkomst till uppgifter, projekt eller ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till uppgifter, projekt eller ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -77,7 +77,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 ## Hitta faktiska timmar
 
-Att hitta värdet för Faktiska timmar för ett objekt är identiskt för uppgifter, projekt och ärenden.
+Att hitta värdet för Faktiska timmar för ett objekt är identiskt för uppgifter, projekt och utgåvor.
 
 Information om faktiska timmar finns på följande platser:
 
@@ -93,8 +93,8 @@ Att hitta faktiska timmar i detaljavsnittet är identiskt för projekt, uppgifte
 Så här hittar du faktiska timmar i Uppgiftsinformation:
 
 1. Gå till en uppgift som du vill granska de faktiska timmarna för.
-1. Klicka **Uppgiftsinformation** i den vänstra panelen.
-1. Klicka **Översikt** och lägg märke till **Faktiska timmar** värde.
+1. Klicka på **Uppgiftsinformation** i den vänstra panelen.
+1. Klicka på **Översikt** och observera värdet för **Faktiska timmar**.
 
    Detta är det totala antalet timmar som loggats för den här aktiviteten.
 
@@ -105,15 +105,15 @@ Att hitta faktiska timmar i avsnittet Timmar är identiskt för projekt, uppgift
 Så här hittar du faktiska timmar i avsnittet Timmar:
 
 1. Gå till en uppgift som du vill granska de faktiska timmarna för.
-1. Klicka **Timmar** i den vänstra panelen.
+1. Klicka på **Timmar** i den vänstra panelen.
 
-   Beroende på din konfiguration kan avsnittet Timmar visas under **Visa fler**.
+   Beroende på din konfiguration kan avsnittet Timmar visas under **Visa mer**.
 
    Här visas en lista med timposter som är inloggade på uppgiften.
 
-1. Se till att **Standard** visa och **Projekt** gruppering används i den här listan.
+1. Se till att grupperingen **Standard** och **Project** används i den här listan.
 
-   Numret som visas på grupperingsraden för **Timmar** kolumn är det totala antalet faktiska timmar för uppgiften.
+   Numret som visas i grupperingsraden för kolumnen **Timmar** är det totala antalet faktiska timmar för aktiviteten.
 
 ### Faktiska timmar i rapporter {#actual-hours-in-reports}
 
@@ -123,12 +123,12 @@ Att lägga till kolumnen Faktiska timmar i en uppgiftsvy liknar att skapa en vy 
 
 Så här visar du faktiska timmar i en uppgiftsrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer du **Uppgift** som ditt objekt.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Aktivitet** som objekt.
 
-1. Klicka **Lägg till kolumn** och börja skriva **Faktiska timmar** när **Visa i den här kolumnen** rullgardinsmenyfältet visas. Markera fältet när det visas i listan.
+1. Klicka på **Lägg till kolumn** och börja skriva **Faktiska timmar** när listrutan **Visa i den här kolumnen** visas. Markera fältet när det visas i listan.
 
-1. Klicka **Spara + Stäng** för att spara rapporten.
+1. Klicka på **Spara + stäng** för att spara rapporten.
 
    I kolumnen Faktiska timmar visas antalet timmar som loggats för varje uppgift.
 
@@ -137,11 +137,11 @@ Så här visar du faktiska timmar i en uppgiftsrapport:
 Om du vill se hur arbetet med tilldelade uppgifter och ärenden fortskrider kan du visa dem i följande verktyg för resurshantering:
 
 * Användningsrapport.\
-   Mer information om användningsrapporten finns i [Översikt över resursanvändningsrapporten](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+  Mer information om användningsrapporten finns i [Översikt över resursanvändningsrapporten](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * Resursplanering.
 
-   Information om hur du visar faktiska timmar i resursplaneraren finns i [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
+  Information om hur du visar faktiska timmar i resursplaneraren finns i [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md).
 
 ## Loggtid
 

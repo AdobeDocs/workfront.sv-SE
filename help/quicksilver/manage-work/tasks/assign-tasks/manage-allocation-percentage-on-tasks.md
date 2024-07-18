@@ -6,20 +6,14 @@ description: Allokeringsprocenten representerar den tid en tilldelad resurs är 
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
 
 # Hantera användar- eller rollallokeringsprocent för uppgifter
-
-<span class="preview">Den markerade informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Det är bara tillgängligt i förhandsvisningsmiljön för alla kunder eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
-
-<span class="preview">Mer information om snabba versioner finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 Allokeringsprocenten representerar den tid en tilldelad resurs är planerad att arbeta med en aktivitet på en dag. Det är procentandelen av en arbetsdag (enligt användaren eller projektschemat) som en resurs tilldelas under aktivitetens varaktighet.
 
@@ -45,11 +39,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörigheter för aktiviteten</p> <p>Redigera behörigheter för att uppdatera allokeringsprocent i rutan Redigera uppgift</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörighet till uppgiften</p> <p>Redigera behörigheter för att uppdatera allokeringsprocent i rutan Redigera uppgift</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,32 +63,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Ändra användar- eller rollprocentallokering för en uppgift
 
 1. Gå till en aktivitet vars resurser du ändrar procentallokeringen för.
-1. Klicka på **Mer** meny ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på uppgiften och klicka sedan på **Redigera**.
+1. Klicka på **Mer**-menyn ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på aktiviteten och klicka sedan på **Redigera**.
 
    eller
 
-   Klicka på **Uppdrag** i uppgiftshuvudet och klicka sedan **Avancerat**.
+   Klicka på området **Uppdrag** i uppgiftshuvudet och klicka sedan på **Avancerat**.
 
-1. Se till att **Varaktighetstyp** en av följande uppgifter:
+1. Kontrollera att aktivitetens **varaktighetstyp** är något av följande:
 
    * Beräknat arbete
    * Ansträngningsstyrd
 
    >[!TIP]
    >
-   >* I Workfront används följande formel för beräkning av tilldelningens varaktighet: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
+   >* Workfront använder följande formel för beräkning av tilldelningens varaktighet för varje tilldelad: `Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day / Number of assignees`.
    >* För den enkla varaktighetstypen kan du beräkna antalet tilldelade timmar för varje resurs, inte allokeringsprocenten.
 
-1. Klicka **Uppdrag** och sedan ändra **Allokeringar** för varje tilldelad uppgift.
+1. Klicka på **Tilldelningar** och ändra sedan **Allokeringar** för varje uppgiftstilldelad.
 
    Du kan bara ändra allokeringsprocenten för användar- och jobbrolltilldelningar.
 
    Du kan inte ändra allokeringsprocenten för ett team som tilldelats en aktivitet.
 
-   Exempelbild i produktionsmiljön:
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
    ![Ändra allokeringsprocent](assets/advanced-assignments-allocation-percentage.png)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '643'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Om du märker att korrekturläsaren inte visar gränssnittsteckensnitt på rätt sätt kan det bero på vissa problem med teckensnitten på din Mac-dator. Du kan lösa problemet genom att försöka med följande lösningar:
 
@@ -29,11 +29,11 @@ Kontrollera om det finns några dubbletter av teckensnitt i systemet.
 
 1. Stäng webbläsaren som du använder.
 1. Öppna programmet Teckensnittsbok i mappen Program.
-1. Klicka **[!UICONTROL All Fonts]** (1)
+1. Klicka på **[!UICONTROL All Fonts]** (1).
 1. Klicka på **[!UICONTROL Edit]** > **[!UICONTROL Look for Enabled Duplicates]**.
 
-1. Klicka **[!UICONTROL Yes]** för att lösa dubbletter.
-1. Om du ser en varning om skadade teckensnitt klickar du på **[!UICONTROL Yes]**.
+1. Klicka på **[!UICONTROL Yes]** för att lösa dubbletter.
+1. Om du ser ett varningsmeddelande om skadade teckensnitt klickar du på **[!UICONTROL Yes]**.
 1. Starta om datorn.
 1. Försök med korrekturet igen.
 
@@ -47,7 +47,7 @@ Det andra steget är att rensa teckensnittscachen och det finns flera sätt att 
 
 Det första är att helt enkelt starta om i felsäkert läge genom att hålla ned Skift-tangenten omedelbart när du hör startchimerna vid start. När det här läget läses in bör en förloppsindikator visas, där systemet kör olika kontroller- och underhållsrutiner, varav en är att rensa teckensnittscachen.
 
-Det andra sättet är att använda terminalen, vilket kan göras genom att köra följande kommando från ett administratörskonto: *sudo atsutil databaser -remove*
+Det andra sättet är att använda terminalen, vilket kan göras genom att köra följande kommando från ett administratörskonto: *sudo atsutil database -remove*
 
 >[!NOTE]
 >
@@ -55,21 +55,21 @@ Det andra sättet är att använda terminalen, vilket kan göras genom att köra
 
 Ett annat sätt är att använda ett teckensnittscache-verktyg som t.ex. FontNuke och rensa cacheminnet med hjälp av det.
 
-Många prepress- och designstudior använder också Universal Type Server för att hantera licensiering och distribution av teckensnitt. Ibland kan ett problem uppstå med Universal Type Server-teckensnittscachen, vilket kan orsaka [!DNL Workfront Proof] anteckningar som ska försvinna.
+Många prepress- och designstudior använder också Universal Type Server för att hantera licensiering och distribution av teckensnitt. Ibland kan ett problem uppstå med Universell Type Server-teckensnittscachen, vilket kan göra att [!DNL Workfront Proof] anteckningar försvinner.
 
 Åtgärda problemet genom att rensa Universell Type Server-teckensnittscachen och starta om Universal Type Server.
 
-## Korrigera [!DNL Flash] teckensnittskonflikt
+## Korrigera teckensnittskonflikt för [!DNL Flash]
 
 Du kanske inte har åtkomst till den här funktionen eftersom den stöds av [!DNL Flash], som har tagits bort i de flesta miljöer.
 
-Det äldre korrekturläsaren baseras på [!DNL Flash Player] och ibland kan det finnas en teckensnittskonflikt mellan OS X och [!DNL Flash Player]. Försök med följande:
+Det äldre korrekturläsaren baseras på [!DNL Flash Player] och ibland kan det finnas en teckensnittskonflikt mellan OS X och [!DNL Flash Player] när texten saknas i korrekturläsaren. Försök med följande:
 
-1. Öppna Finder och öppna **[!UICONTROL Go]** -fliken.
-1. Tryck på Option-tangenten ( ⌥ Alt) för att öppna [!UICONTROL Library] i listrutan.
-1. Håll ned Option-tangenten och klicka på [!UICONTROL Library] mapp.
-1. Efter [!UICONTROL Library] mapp öppnas, gå till [!UICONTROL Fonts] i.
-1. Flytta alla teckensnitt som finns i [!UICONTROL Fonts] till en annan mapp, kanske på skrivbordet (skapa inte en annan mapp i mappen Fonts).
+1. Öppna Finder och öppna fliken **[!UICONTROL Go]**.
+1. Tryck på Option-tangenten ( ⌥ Alt) för att öppna mappen [!UICONTROL Library] i listrutan.
+1. Håll ned Option-tangenten och klicka på mappen [!UICONTROL Library].
+1. När mappen [!UICONTROL Library] öppnas går du till mappen [!UICONTROL Fonts] i.
+1. Flytta alla teckensnitt som finns i mappen [!UICONTROL Fonts] till en annan mapp, kanske på skrivbordet (skapa inte en annan mapp i mappen Fonts).
 1. Den här åtgärden döljer alla anpassade teckensnitt. Du bör fortfarande ha standardsystemteckensnitten sparade på sin separata plats.
 1. Avsluta och starta om [!DNL Safari].
 1. Öppna korrekturet igen.

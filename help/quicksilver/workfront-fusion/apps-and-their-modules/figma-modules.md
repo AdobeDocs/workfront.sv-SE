@@ -5,20 +5,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Figma-moduler
-description: Med [!DNL Adobe Workfront Fusion] I Figma-moduler kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också publicera en kommentar eller ringa ett anrop till Figma API.
+description: Med  [!DNL Adobe Workfront Fusion] Figma-modulen kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också publicera en kommentar eller ringa ett anrop till Figma API.
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
 
-# [!DNL Figma] Moduler
+# [!DNL Figma] moduler
 
-Med [!DNL Adobe Workfront Fusion] [!DNL Figma] kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också lägga in en kommentar eller ringa [!DNL Figma] API.
+Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Figma] kan du hämta listor med kommentarer, filer, filversioner eller projekt. Du kan också publicera en kommentar eller ringa ett anrop till [!DNL Figma]-API:t.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -47,34 +47,34 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>
       <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td>
     </tr>
   </tbody>
 </table>
 
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Figma] moduler, du måste ha en [!DNL Figma] konto.
+Du måste ha ett [!DNL Figma]-konto för att kunna använda [!DNL Figma]-moduler.
 
-## [!DNL Figma] moduler och deras fält
+## [!DNL Figma]-moduler och deras fält
 
-När du konfigurerar [!DNL Figma] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Figma] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Figma] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Figma] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -108,7 +108,7 @@ Den här åtgärdsmodulen tar bort en enskild kommentar från en fil.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
       </td>
     </tr>
     <tr>
@@ -124,7 +124,7 @@ Den här åtgärdsmodulen tar bort en enskild kommentar från en fil.
 
 #### [!UICONTROL List comments]
 
-I den här sökmodulen visas alla kommentarer som är kopplade till en enda fil i [!DNL Figma].
+I den här sökmodulen visas alla kommentarer som är kopplade till en enskild fil i [!DNL Figma].
 
 <table style="table-layout:auto"> 
   <col/>
@@ -132,7 +132,7 @@ I den här sökmodulen visas alla kommentarer som är kopplade till en enda fil 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
@@ -140,10 +140,10 @@ I den här sökmodulen visas alla kommentarer som är kopplade till en enda fil 
         <p>Ange eller mappa fil-ID:t för filen som du vill hämta kommentarer för. </p>
         <ul>
           <li>
-            <p>Om du inte känner till ID:t klickar du på <b>[!UICONTROL Find Files]</b> och ange eller mappa ID:t för projektet som filen är kopplad till, och markera sedan filen.</p>
+            <p>Om du inte känner till ID:t klickar du på <b>[!UICONTROL Find Files]</b> och anger eller mappar ID:t för projektet som filen är kopplad till. Markera sedan filen.</p>
           </li>
           <li>
-            <p>Om du inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och ange eller mappa ID:t för det team som äger projektet som filen är kopplad till, markera projektet och markera sedan filen.</p>
+            <p>Om du inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och anger eller mappar ID:t för det team som äger projektet som filen är kopplad till. Markera sedan projektet och markera sedan filen.</p>
           </li>
         </ul>
       </td>
@@ -166,7 +166,7 @@ Den här åtgärdsmodulen skickar en kommentar till en Figma-fil.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td  role="rowheader">[!UICONTROL File ID]</td>
@@ -174,10 +174,10 @@ Den här åtgärdsmodulen skickar en kommentar till en Figma-fil.
         <p>Ange eller mappa fil-ID:t för filen som du vill skicka en kommentar till. </p>
         <ul>
           <li>
-            <p>Om du inte känner till filens ID klickar du på <b>[!UICONTROL Find Files]</b> och ange eller mappa ID:t för projektet som filen är kopplad till, och markera sedan filen.</p>
+            <p>Om du inte känner till filens ID klickar du på <b>[!UICONTROL Find Files]</b> och anger eller mappar ID:t för projektet som filen är kopplad till. Markera sedan filen.</p>
           </li>
           <li>
-            <p>Om du försöker hitta filens ID och inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och ange eller mappa ID:t för det team som äger projektet som filen är kopplad till. Markera projektet och markera sedan filen.</p>
+            <p>Om du försöker hitta filens ID och inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och anger eller mappar ID:t för det team som äger projektet som filen är associerad med. Markera projektet och markera sedan filen.</p>
           </li>
         </ul>
       </td>
@@ -211,7 +211,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
@@ -222,25 +222,25 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
             <p><b>[!UICONTROL File]</b>
             </p>
             <p>Modulen returnerar det dokument som refereras av [!UICONTROL Key] som ett JSON-objekt. Filnyckeln kan tolkas från en Figma-fils-URL.</p>
-            <p>För fält, se <a href="#Get2" class="MCXref xref" >[!UICONTROL Get a file or image: File]</a>.</p>
+            <p>Mer information finns i <a href="#Get2" class="MCXref xref" >[!UICONTROL Get a file or image: File]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL File nodes]</b>
             </p>
-            <p>Returnerar de noder som ID:n refererar till som ett JSON-objekt. Noderna hämtas från [!DNL Figma] fil som refereras till av [!UICONTROL Key].</p>
-            <p>För fält, se <a href="#Get3" class="MCXref xref" >[!UICONTROL Get a file or image: File nodes]</a>.</p>
+            <p>Returnerar de noder som ID:n refererar till som ett JSON-objekt. Noderna hämtas från filen [!DNL Figma] som [!UICONTROL Key] refererar till.</p>
+            <p>Mer information finns i <a href="#Get3" class="MCXref xref" >[!UICONTROL Get a file or image: File nodes]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Image]</b>
             </p>
             <p>Modulen återger bilder från en fil.</p>
-            <p>För fält, se <a href="#Get4" class="MCXref xref" >[!UICONTROL Get a file or image: Image]</a>.</p>
+            <p>Mer information finns i <a href="#Get4" class="MCXref xref" >[!UICONTROL Get a file or image: Image]</a>.</p>
           </li>
           <li>
             <p><b>[!UICONTROL Image fills]</b>
             </p>
-            <p>Modulen returnerar hämtningslänkar för alla bilder som finns i bildfyllningar i ett dokument. Bildfyllningar är så här [!DNL Figma] representerar alla bilder som användaren har angett. När du drar en bild till [!DNL Figma], [!DNL Figma] skapar en rektangel med en enda fyllning som representerar bilden, och användaren kan omforma rektangeln (och egenskaper på fyllningen).</p>
-            <p>För fält, se <a href="#Get5" class="MCXref xref" >[!UICONTROL Get a file or image: Image fills]</a>.</p>
+            <p>Modulen returnerar hämtningslänkar för alla bilder som finns i bildfyllningar i ett dokument. Bildfyllningar är så här [!DNL Figma] representerar eventuella användardefinierade bilder. När du drar en bild till [!DNL Figma] skapar [!DNL Figma] en rektangel med en enda fyllning som representerar bilden, och användaren kan omforma rektangeln (och egenskaperna för fyllningen).</p>
+            <p>Mer information finns i <a href="#Get5" class="MCXref xref" >[!UICONTROL Get a file or image: Image fills]</a>.</p>
           </li>
         </ul>
       </td>
@@ -267,7 +267,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
       <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Om du bara vill returnera en delmängd av dokumentet anger du de noder som du vill att modulen ska returnera. Modulen returnerar noderna i listan, deras underordnade noder och allt som finns mellan rotnoden och noderna i listan.</p>
-        <p>För varje nod som du vill returnera klickar du på <b>[!UICONTROL Add]</b> och ange texten för noden.</p>
+        <p>För varje nod som du vill returnera klickar du på <b>[!UICONTROL Add]</b> och anger texten för noden.</p>
       </td>
     </tr>
     <tr>
@@ -289,11 +289,11 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Geometry]</td>
-      <td>Om du vill returnera vektordata anger du <code>paths</code>.</td>
+      <td>Ange <code>paths</code> om du vill returnera vektordata.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Plugin data]</td>
-      <td>En kommaavgränsad lista med plugin-id:n och/eller strängen[!UICONTROL shared]". Alla data som finns i dokumentet som skrivs av dessa plugin-program inkluderas i resultatet i <code>pluginData</code> och <code>sharedPluginData</code> egenskaper.</td>
+      <td>En kommaavgränsad lista med plugin-ID:n och/eller strängen [!UICONTROL shared]. Alla data som finns i dokumentet som skrivs av dessa plugin-program inkluderas i resultatet i egenskaperna <code>pluginData</code> och <code>sharedPluginData</code>.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Branch data]</td>
@@ -316,7 +316,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
       <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Ange de noder som du vill att modulen ska returnera och konvertera</p>
-        <p>För varje nod som du vill returnera klickar du på <b>[!UICONTROL Add]</b> och ange texten för noden.</p>
+        <p>För varje nod som du vill returnera klickar du på <b>[!UICONTROL Add]</b> och anger texten för noden.</p>
       </td>
     </tr>
     <tr>
@@ -342,7 +342,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Geometry]</td>
-      <td>Om du vill returnera vektordata anger du <code>paths</code>.</td>
+      <td>Ange <code>paths</code> om du vill returnera vektordata.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Plugin data]</td>
@@ -366,7 +366,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
       <td role="rowheader" [!UICONTROL>Nod-ID:n]</td>
       <td>
         <p>Ange de noder som du vill att modulen ska återge.</p>
-        <p>För varje nod som du vill återge klickar du på <b>[!UICONTROL Add]</b> och ange texten för noden.</p>
+        <p>För varje nod som du vill återge klickar du på <b>[!UICONTROL Add]</b> och anger texten för noden.</p>
       </td>
     </tr>
     <tr>
@@ -399,7 +399,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL SVG - Simplify Stroke]</td>
-      <td>Aktivera det här alternativet om du vill förenkla inre/yttre linjer och om möjligt använda linjeattribut i stället för &lt;mask&gt;. Standard: [!UICONTROL true].</td>
+      <td>Aktivera det här alternativet om du vill förenkla inre/yttre linjer och använda linjeattribut om det är möjligt i stället för &lt;mask&gt;. Standard: [!UICONTROL true].</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Use absolute bounds]</td>
@@ -427,24 +427,24 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
 
 ### [!UICONTROL List file version history]
 
-Den här sökmodulen returnerar versionshistoriken för en enskild fil i [!UICONTROL Figma].
+Denna sökmodul returnerar versionshistoriken för en enskild fil i [!UICONTROL Figma].
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
       <td>
         <p>Ange eller mappa fil-ID:t för filen som du vill hämta versionshistorik för. </p>
         <ul>
           <li>
-            <p>Om du inte känner till filens ID klickar du på <b>[!UICONTROL Find Files]</b> och ange eller mappa ID:t för projektet som filen är kopplad till, och markera sedan filen.</p>
+            <p>Om du inte känner till filens ID klickar du på <b>[!UICONTROL Find Files]</b> och anger eller mappar ID:t för projektet som filen är kopplad till. Markera sedan filen.</p>
           </li>
           <li>
-            <p>Om du försöker hitta filens ID och inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och ange eller mappa ID:t för det team som äger projektet som filen är kopplad till. Markera projektet och markera sedan filen.</p>
+            <p>Om du försöker hitta filens ID och inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och anger eller mappar ID:t för det team som äger projektet som filen är associerad med. Markera projektet och markera sedan filen.</p>
           </li>
         </ul>
       </td>
@@ -466,7 +466,7 @@ Sökmodulen returnerar en lista med alla filer i det angivna projektet.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
@@ -474,7 +474,7 @@ Sökmodulen returnerar en lista med alla filer i det angivna projektet.
         <p>Ange eller mappa det projekt-ID som du vill hämta filer för. </p>
         <ul>
           <li>
-            <p>Om du inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och ange eller mappa ID:t för det team som projektet är kopplat till, och välj sedan projektet.</p>
+            <p>Om du inte känner till projektets ID klickar du på <b>[!UICONTROL Find Projects]</b> och anger eller mappar ID:t för det team som projektet är kopplat till. Markera sedan projektet.</p>
           </li>
         </ul>
       </td>
@@ -496,7 +496,7 @@ Sökmodulen returnerar en lista över alla projekt i det angivna teamet.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Team ID]</td>
@@ -522,7 +522,7 @@ Den här åtgärdsmodulen hämtar ett enskilt format eller en komponent, eller e
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td role="rowheader">&lt;[!UICONTROL Object> key]</td>
@@ -539,17 +539,17 @@ Den här åtgärdsmodulen hämtar ett enskilt format eller en komponent, eller e
     <tr>
       <td role="rowheader">[!UICONTROL After]</td>
       <td>
-        <p>Ange eller mappa numret på resultatet efter vilket du vill börja hämta resultaten. Detta kan kombineras med [!UICONTROL Page Size] fält för att paginera resultat.</p>
+        <p>Ange eller mappa numret på resultatet efter vilket du vill börja hämta resultaten. Detta kan kombineras med fältet [!UICONTROL Page Size] för att numrera resultaten.</p>
         <p>Detta värde motsvarar inte objekt-ID.</p>
-        <p>Det här fältet kan inte användas tillsammans med [!UICONTROL Before] fält.</p>
+        <p>Det här fältet kan inte användas i kombination med fältet [!UICONTROL Before].</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Before]</td>
       <td>
-        <p>Ange eller mappa det antal resultat som du vill börja hämta resultat innan. Detta kan kombineras med [!UICONTROL Page Size] fält för att paginera resultat.</p>
+        <p>Ange eller mappa det antal resultat som du vill börja hämta resultat innan. Detta kan kombineras med fältet [!UICONTROL Page Size] för att numrera resultaten.</p>
         <p>Detta värde motsvarar inte objekt-ID.</p>
-        <p>Det här fältet kan inte användas tillsammans med [!UICONTROL After] fält.</p>
+        <p>Det här fältet kan inte användas i kombination med fältet [!UICONTROL After].</p>
       </td>
     </tr>
   </tbody>
@@ -573,18 +573,18 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Instruktioner om hur du ansluter [!DNL Figma] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+      <td> <p>Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
       <td>
-        <p>Ange en sökväg i förhållande till <code>https://api.figma.com/v1/</code>.</p>
+        <p>Ange en relativ sökväg till <code>https://api.figma.com/v1/</code>.</p>
         <p>Exempel: <code>[!DNL files/7179110/comments]</code></p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Method]</td>
-      <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td>
+      <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Headers]</td>
@@ -603,7 +603,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -612,7 +612,7 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
 
 #### [!UICONTROL Watch events]
 
-Den här utlösarmodulen startar ett scenario när någon av följande händelser inträffar för ett specifikt team i ditt [!DNL Figma] grupprum
+Den här utlösarmodulen startar ett scenario när någon av följande händelser inträffar för ett specifikt team i ditt [!DNL Figma]-teamspace
 
 * Filuppdatering
 
@@ -635,10 +635,10 @@ Den här utlösarmodulen startar ett scenario när någon av följande händelse
         <p>Så här lägger du till en ny webbkrok:</p>
         <ol>
           <li value="1">
-            <p>Klicka <b>[!UICONTROL Add]</b> bredvid [!UICONTROL Webhook] fält.</p>
+            <p>Klicka på <b>[!UICONTROL Add]</b> bredvid fältet [!UICONTROL Webhook].</p>
           </li>
           <li value="2">
-            <p>Välj den anslutning som du vill använda för den här webkroken. Instruktioner om hur du ansluter [!DNL Figma] konto till [!UICONTROL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner.</a></p>
+            <p>Välj den anslutning som du vill använda för den här webkroken. Instruktioner om hur du ansluter ditt [!DNL Figma]-konto till [!UICONTROL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - grundläggande instruktioner.</a></p>
           </li>
           <li value="3">
             <p>Välj händelsetypen som du vill att modulen ska bevaka.</p>
@@ -647,10 +647,10 @@ Den här utlösarmodulen startar ett scenario när någon av följande händelse
             <p>Ange ID:t för det team vars händelser du vill att webbkroken ska bevaka.</p>
           </li>
           <li value="5">
-            <p>Ange [!UICONTROL Status] eller [!UICONTROL Description] av händelser som du vill att webbkroken ska titta på.</p>
+            <p>Ange [!UICONTROL Status] eller [!UICONTROL Description] för händelser som du vill att webbkroken ska bevaka.</p>
           </li>
           <li value="6">
-            <p>Klicka <b>[!UICONTROL Save]</b> om du vill spara webkroken och gå tillbaka till modulen.</p>
+            <p>Klicka på <b>[!UICONTROL Save]</b> för att spara webkroken och återgå till modulen.</p>
           </li>
         </ol>
       </td>

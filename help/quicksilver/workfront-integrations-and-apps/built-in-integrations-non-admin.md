@@ -142,7 +142,7 @@ Följande inbyggda integreringar är för närvarande tillgängliga i Workfront.
      <li>Ta emot [!DNL Workfront] meddelanden i [!DNL Slack] </li> 
      <li>Hantera godkännanden i Slack </li> 
      <li>Skapa [!DNL Workfront] aktiviteter och ärenden från [!DNL Slack] </li> 
-     <li>Post kommentarer till ett projekt eller en uppgift från Slack</li> 
+     <li>Skicka kommentarer till ett projekt eller en uppgift från Slack</li> 
     </ul> </td> 
   </tr> 
   <tr> 

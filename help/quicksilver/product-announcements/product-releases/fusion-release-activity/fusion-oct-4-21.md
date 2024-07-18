@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 4 oktober 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Se befintliga händelsefilter i Workfront > Bevaka händelser-moduler
 
@@ -28,7 +28,7 @@ För större tydlighet har vi gjort det möjligt att se händelsefiltren som anv
 
 Tidigare kunde användare bara se händelsefilter när de skapade webkroken, och det fanns inget sätt att visa filtren i en befintlig Workfront > Bevaka händelser-modul.
 
-Mer information finns i [Evenemangsprenumerationsfilter i Workfront > Bevaka händelser-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) in [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Evenemangsprenumerationsfilter i Workfront > Bevaka händelser-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md#event) i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Koppla anpassade formulär till Workfront-objekt med Workfront > Skapa post- och Uppdatera postmoduler
 
@@ -36,7 +36,7 @@ För att göra användningen av anpassade formulär mer lik upplevelsen i Workfr
 
 Tidigare kunde du ange värden i fält i anpassade formulär, men de var inte ordnade efter formulär och kunde vara svåra att hitta.
 
-Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Använd RTF i kommentarer och anpassade fält som skapats i Workfront Fusion
 
@@ -55,6 +55,6 @@ Uppdateringarna har stöd för följande RTF-format:
 
 Tidigare kunde formaterad text bara läggas till i kommentarer eller anpassade fält via Workfront eller Workfront API.
 
-Mer information om modulerna Skapa post och Uppdatera post finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om modulerna Skapa post och Uppdatera post finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-Mer information om RTF i kommentarer och anpassade fält finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Mer information om den RTF-text som finns i kommentarer eller anpassade fält finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).

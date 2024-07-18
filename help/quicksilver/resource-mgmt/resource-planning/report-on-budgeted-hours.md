@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Rapport om budgeterade timmar för resursplanering
 
-Du kan budgetera resurser för dina projekt med Resursplanering. Mer information om hur du budgeterar resurser med Adobe Workfront Resursplanering finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Du kan budgetera resurser för dina projekt med Resursplanering. Mer information om hur du budgeterar resurser med Adobe Workfront Resursplanering finns i artikeln [Budgetresurser i Resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 Budgeteringsresurser innebär att du definierar (eller budgeterar) ett visst antal timmar som resurserna i ett projekt behöver för att slutföra sitt arbete i projektet. Om du vill dela information om budgeterad timme som du anger i resursplaneraren med andra användare som kanske inte har tillgång till resursplaneraren kan du skapa en rapport om budgeterad timme. Mer information finns i [Rapport: Budgeterad timme](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 

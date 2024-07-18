@@ -43,7 +43,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -59,11 +59,11 @@ Du måste ha följande:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på **Flytta** icon ![](assets/move-document--25x19.png).
-1. I listrutan i rutan som visas klickar du på **Problem**, **Projekt** eller **Uppgift** för att ange vilken typ av objekt du vill flytta dokumentet till. 
+1. Klicka på ikonen **Flytta** ![](assets/move-document--25x19.png).
+1. I listrutan i rutan som visas klickar du på **Problem**, **Projekt** eller **Aktivitet** för att ange vilken typ av objekt du vill flytta dokumentet till. 
 
-1. Ange namnet på **Problem**, **Projekt** eller **Uppgift** i textrutan.
+1. Skriv namnet på **Utgåva**, **Projekt** eller **Aktivitet** i textrutan.
 
-1. Klicka **Slutför**.
+1. Klicka på **Slutför**.
 
 Du kan också flytta ett dokument från sidan Dokumentinformation. Mer information finns i artikeln.

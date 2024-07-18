@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om ni har anslutit er till Adobe Admin Console behöver ni inte vidta några åtgärder.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Adobe Workfront-servrarna använder SAML 2.0-protokollet för autentisering och auktorisering. När det nya certifikatet har uppdaterats är det giltigt i ett år. När det är dags för dig att förnya certifikatet på din identitetsleverantör får du en varning i Workfront om att den här ändringen måste utföras. Som Workfront-administratör kan du hantera den här ändringen på systemnivå.
 
@@ -64,7 +64,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,13 +72,13 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 Så här granskar du varningsmeddelandet och bekräftar uppdateringen av SAML 2.0-metadata hos din identitetsleverantör:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **System** > **Enkel inloggning**.
+1. Klicka på **System** > **Enkel inloggning**.
 
-1. I **Typ** nedrullningsbar meny, välja **SAML 2.0**.
+1. I listrutan **Typ** väljer du **SAML 2.0**.
 
-1. Klicka **Ladda ned SAML 2.0-metadata**.
+1. Klicka på **Hämta SAML 2.0-metadata**.
 
    Detta hämtar det förnyade Workfront-certifikatet för SAML 2.0, som innehåller rätt metadata för servern.
 
@@ -93,7 +93,7 @@ Så här granskar du varningsmeddelandet och bekräftar uppdateringen av SAML 2.
 
 1. Uppdatera det nya certifikatet som du hämtade på din identitetsleverantörsserver.
 1. (Villkorligt) Om URL:en för ACS (Assertion Consumer Service) eller URL:en för svar har ändrats hos din identitetsleverantör, ändrar du tillbaka den till den URL du kopierade i steg 5.
-1. I Workfront på **SSO-sida (Single Sign-on)** kontrollerar du att det här alternativet är markerat: **Det nya Workfront-certifikatet har redan överförts till identitetsleverantören**.
+1. Kontrollera att det här alternativet är markerat på sidan **enkel inloggning (SSO)** i Workfront: **Det nya Workfront-certifikatet har redan överförts till identitetsleverantören**.
 
    >[!NOTE]
    >
@@ -103,11 +103,11 @@ Så här granskar du varningsmeddelandet och bekräftar uppdateringen av SAML 2.
    >   * Det nya certifikatet är tillgängligt
    >* När det här fältet är markerat kan Workfront-administratörer logga in på Workfront med sina inloggningsuppgifter för enkel inloggning eller Workfront-uppgifter.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Varningsmeddelandet visas inte längre eftersom du har bekräftat att SAML 2.0-certifikatet har förnyats på identitetsleverantörens server.
 
-1. Klicka **Testanslutning** för att testa konfigurationen.
+1. Klicka på **Testa anslutningen** för att testa konfigurationen.
 
    Ett meddelande som bekräftar att anslutningen lyckades visas.
 

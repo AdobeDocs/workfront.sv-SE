@@ -18,11 +18,11 @@ ht-degree: 0%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Adobe Workfront] är inte utformat för att replikera eller ersätta dina befintliga system för att hantera, periodisera och spåra ledig tid.
+[!DNL Adobe Workfront] är inte utformat för att replikera eller ersätta dina befintliga system för hantering, upplupning och spårning av ledig tid.
 
-Det är dock viktigt att ange när en godkänd tid är ledig, eftersom detta påverkar både ditt schema och [!UICONTROL Planned Completion Dates] av de uppgifter du har tilldelats.
+Det är dock viktigt att ange när en godkänd tid är ledig, eftersom detta påverkar både ditt schema och [!UICONTROL Planned Completion Dates] för de uppgifter du är tilldelad.
 
-Om du till exempel har tilldelats en aktivitet som är schemalagd att ta två veckor och du planerar att ta tre dagar ledigt under den tiden, [!DNL Workfront] lägger till tre dagar i aktivitetstidslinjen för att ta hänsyn till ledigt.
+Om du till exempel har tilldelats en aktivitet som är schemalagd att ta två veckor och du planerar att ta tre dagar ledigt under den tiden, lägger [!DNL Workfront] till tre dagar i tidslinjen för aktiviteten för att ta hänsyn till den lediga tiden.
 
 Resurshanteringsverktygen använder också din personliga ledig tid för att ange när du är tillgänglig för schemalagt arbete.
 
@@ -56,27 +56,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>[!UICONTROL Manager] med [!UICONTROL Edit User] åtkomst (för att ändra tiden i kalendern för andra användare)<br>
-   <strong>OBS!</strong> Om en chef redigerar en annan användares personliga tid i kalendern visas alla poster i användarens tidszon och inte i hanterarens tidszon.</td> 
+   <td>[!UICONTROL Manager] med [!UICONTROL Edit User] åtkomst (för att ändra tid för andra användares kalender)<br>
+   <strong>Obs!</strong> Om en hanterare redigerar en annan användares personliga tid i kalendern visas alla poster i användarens tidszon och inte i hanterarens tidszon.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Konfigurera personlig timeout i [!DNL Workfront]
+## Konfigurera personlig tid av i [!DNL Workfront]
 
 {{step1-click-profile-pic}}
 
-1. Klicka på i den vänstra panelen **[!UICONTROL Time Off]**.
+1. Klicka på **[!UICONTROL Time Off]** i den vänstra panelen.
 1. Välj önskat datum för din personliga ledig tid.
 
-   ![Personlig tid i kalendern](assets/personal-time-off-calendar.png)
+   ![Personlig tid för kalendern](assets/personal-time-off-calendar.png)
 
-1. Välj **[!UICONTROL All day]**, om du tar en hel dag ledigt.
+1. Välj **[!UICONTROL All day]** om du vill ta en hel dag ledigt.
 
    Låt kryssrutan vara avmarkerad om du tar mindre än en hel dag bort och ange start- och sluttider för din tid.
 
 1. Klicka på **[!UICONTROL Save]**.
 
-   Din lediga tid syns nu tvärs över [!DNL Workfront] i resurshanteringsverktyg som Resursplanering och Arbetsbelastningsutjämnare. När du har tilldelats arbete under den här tiden får användaren ett verktygstips om att du har schemalagt en ledig tid.
+   Din lediga tid är nu synlig i hela [!DNL Workfront]-systemet i resurshanteringsverktyg som Resursplanering och Arbetsbelastningsutjämning. När du har tilldelats arbete under den här tiden får användaren ett verktygstips om att du har schemalagt en ledig tid.

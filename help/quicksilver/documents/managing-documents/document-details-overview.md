@@ -20,9 +20,9 @@ På sidan Dokumentinformation kan du visa, kommunicera och hantera egenskaperna 
 
 ## Öppna sidan Dokumentinformation
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Dokument**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Dokument**.
 
-1. Håll muspekaren över dokumentet och klicka sedan **Dokumentinformation**.
+1. Håll markören över dokumentet och klicka sedan på **Dokumentinformation**.
 
    ![](assets/document-details-350x179.png)
 
@@ -37,22 +37,22 @@ Du kan utföra följande åtgärder för både dokument och korrektur på sidan 
 * Redigera dokumentbeskrivningen
 * Checka in eller checka ut ett dokument
 
-Dessutom kan du använda ikonen Mer ![](assets/more-icon.png) bredvid dokumentnamnet för att utföra följande åtgärder:
+Du kan dessutom använda ikonen Mer ![](assets/more-icon.png) bredvid dokumentnamnet för att utföra följande åtgärder:
 
 * Dela
 * Flytta
 * Ta bort
-* Hämta
+* Ladda ned
 * Skicka
 
 ## Utför åtgärder som är specifika för korrektur
 
 Du kan utföra följande åtgärder från dokumentinformationssidan om du arbetar med korrekturarbetsflödet:
 
-* Visa information om skickade, öppnade, kommentarer, beslut (SOCD)
+* Visa information om Skickat, Öppnat, Kommentar, Beslut (SOCD)
 * Öppna ett korrektur
 * Öppna utskriftssammanfattning
 * Låsa eller låsa upp ett korrektur
 * Redigera anpassade korrekturfält
 
-   Korrektur för anpassade fält måste ställas in i Workfront Korrektur. Mer information finns i [Skapa och hantera anpassade fält i Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+  Korrektur för anpassade fält måste ställas in i Workfront Proof. Mer information finns i [Skapa och hantera anpassade fält i Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).

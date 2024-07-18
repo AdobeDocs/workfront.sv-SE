@@ -42,35 +42,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ta bort ett kort från en anslagstavla
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Delete]**.
-1. Klicka **[!UICONTROL Delete]** på bekräftelsemeddelandet.
+1. Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Delete]**.
+1. Klicka på **[!UICONTROL Delete]** i bekräftelsemeddelandet.
 
 ## Arkivera ett kort från en styrelse
 
 1. Gå till styrelsen.
-1. Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Archive]**.
+1. Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Archive]**.
 
    Arkiverade kort är dolda från anslagstavlan om du inte använder ett filter för att visa dem. Mer information finns i [Filtrera en anslagstavla för att visa arkiverade kort](#filter-a-board-to-show-archived-cards) i den här artikeln.
 
-   An [!UICONTROL Archive] icon ![Arkiv](assets/archive-icon-spectrum-25x20.png) visas på arkiverade kort. Du kan inte redigera ett arkiverat kort, men du kan ta bort det eller flytta det till en annan kolumn.
+   En [!UICONTROL Archive]-ikon ![Arkiv](assets/archive-icon-spectrum-25x20.png) visas på arkiverade kort. Du kan inte redigera ett arkiverat kort, men du kan ta bort det eller flytta det till en annan kolumn.
 
-1. Klicka på knappen **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Restore]**.
+1. Om du vill återställa ett arkiverat kort klickar du på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) på kortet och väljer **[!UICONTROL Restore]**.
 
 ## Filtrera en anslagstavla för att visa arkiverade kort {#filter-a-board-to-show-archived-cards}
 
 Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslagstavlan så att även arkiverade kort visas.
 
 1. Gå till styrelsen.
-1. Klicka [!UICONTROL **Konfigurera**] till höger om ritytan för att öppna panelen Konfigurera.
-1. Expandera [!UICONTROL **Kort**].
-1. Aktivera [!UICONTROL **Visa arkiverade kort direkt**].
-1. Klicka [!UICONTROL **Filter**], expandera [!UICONTROL Archived Cards] och markera **[!UICONTROL Archived cards]** för att visa eventuella arkiverade kort.
+1. Klicka på [!UICONTROL **Konfigurera**] till höger på kortet för att öppna konfigurationspanelen.
+1. Expandera [!UICONTROL **kort**].
+1. Aktivera [!UICONTROL **Visa arkiverade kort på anslagstavlan**].
+1. Klicka på [!UICONTROL **Filter**], expandera avsnittet [!UICONTROL Archived Cards] och välj **[!UICONTROL Archived cards]** om du vill visa arkiverade kort.
 
    Filtret visar antalet arkiverade kort.
 
@@ -78,6 +78,6 @@ Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslags
 
    >[!NOTE]
    >
-   >The [!UICONTROL Archived Cards] -avsnittet är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort. Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+   >Avsnittet [!UICONTROL Archived Cards] är inte tillgängligt i filtret om du inte har aktiverat konfigurationsinställningen för att visa arkiverade kort. Mer information finns i [Anpassa vilka fält som ska visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
-1. Välj **[!UICONTROL Archived cards]** igen för att ta bort alternativet och endast visa aktiva kort.
+1. Välj **[!UICONTROL Archived cards]** igen om du vill ta bort alternativet och bara visa aktiva kort.

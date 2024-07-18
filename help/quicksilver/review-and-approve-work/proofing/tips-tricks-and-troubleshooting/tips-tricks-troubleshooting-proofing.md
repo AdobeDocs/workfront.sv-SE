@@ -17,8 +17,8 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Visa en lista över användare som har en korrekturlicens i Adobe Workfront](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
-* [Redigera fältet Korrekturbehörighetsprofil i flera](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
+* [Visa en lista över användare med en språklicens i Adobe Workfront](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
+* [Redigera fältet Korrekturbehörighetsprofil i gruppvis](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
 * [Inaktivera delning av korrektur via offentlig URL eller inbäddningskod](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
 * [Vanliga frågor: korrektur vid migrering från Adobe Workfront - USA till EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)

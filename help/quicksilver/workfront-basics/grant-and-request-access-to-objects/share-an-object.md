@@ -38,22 +38,22 @@ I den här artikeln beskrivs hur du delar följande objekt:
 Mer information om hur du delar alla andra objekt i Workfront finns i följande artiklar:
 
 * Mer information om mallar finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
-* Korrektur finns på [Dela ett korrektur i Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+* Korrektur finns i [Dela ett korrektur i Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 * Rapporter, kontrollpaneler och kalendrar finns i följande artiklar:
 
    * [Dela en rapport i Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Dela en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
    * [Dela en kalenderrapport](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
-  Mer information finns i [Dela rapporter, kontrollpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) för allmän information om att dela rapporter, kontrollpaneler och kalendrar.
+  Se även [Dela rapporter, instrumentpaneler och kalendrar](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) för allmän information om delning av rapporter, instrumentpaneler och kalendrar.
 
-* Information om filter, vyer och grupperingar finns i [Dela ett filter, en vy eller en grupp](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-* Information om dokumentmappar finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+* Information om filter, vyer och grupperingar finns i [Dela ett filter, en vy eller en gruppering](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Mer information om dokumentmappar finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Information om planer finns i [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md).
 
   Detta kräver ytterligare en licens.
 
-* För mål, se [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md). Detta kräver ytterligare en licens.
+* Se [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md) för mer information. Detta kräver ytterligare en licens.
 
 ## Åtkomstkrav
 
@@ -93,11 +93,11 @@ Du måste ha följande för att kunna dela objekt:
 
    Mer information om vilka objekt som kan delas finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Klicka på **Dela** intill objektnamnet.
+1. Klicka på knappen **Dela** bredvid objektnamnet.
 
    ![](assets/new-share-button.png)
 
-1. I **Bevilja &lt; objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet i listrutan.
+1. I rutan **Bevilja &lt; objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
 
    ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
 
@@ -132,16 +132,16 @@ Du måste ha följande för att kunna dela objekt:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Det finns olika avancerade alternativ för Visa, Hantera och Contribute beroende på vilket objekt som är markerat.\
+   Visa, Hantera och Contribute har olika avancerade alternativ beroende på vilket objekt som är markerat.\
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på listrutan under **Vem har åtkomst** klickar du på i listrutan **Alla i systemet kan visa**.
+1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på listrutan under **Vem har åtkomst** och sedan på **Alla i systemet kan visa** i listrutan.
 
    ![](assets/new-share-everyone-access.png)
 
    Alla användare kan se objektet baserat på de behörigheter som du anger.
 
-1. (Valfritt och villkorligt) Klicka på **Kugghjul** icon ![](assets/gear-icon-settings.png)markerar du kryssrutan bredvid **Ange som min projektåtkomstmall** för att ange behörigheterna som en mall.
+1. (Valfritt och villkorligt) När du delar ett projekt klickar du på ikonen **Kugga** ![](assets/gear-icon-settings.png) och markerar sedan kryssrutan bredvid **Ange som mall för projektåtkomst** för att ange behörigheterna som en mall.
 
    När du har definierat behörigheter för ett projekt tillämpas dessa behörigheter automatiskt nästa gång du skapar ett projekt från början.
 
@@ -155,7 +155,7 @@ Du måste ha följande för att kunna dela objekt:
 
    Du kan ange behörigheter för de projekt som ska skapas från en mall när du delar mallen. Mer information finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Villkorligt) Om du vill dela objektet med externa användare klickar du på **Kopiera länk** och sedan distribuera länken till externa användare.
+1. (Villkorligt) Om du vill dela objektet med externa användare klickar du på **Kopiera länk** och distribuerar sedan länken till externa användare.
 
    Alla användare med länken kan visa objektet.
 
@@ -163,7 +163,7 @@ Du måste ha följande för att kunna dela objekt:
    >
    >Vi rekommenderar att du använder försiktighet när du delar objekt som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Dela ett dokument, en portfölj eller ett program från sidan
 
@@ -173,7 +173,7 @@ Du måste ha följande för att kunna dela objekt:
 
 1. För portföljer och program:
 
-   Klicka på **Dela** intill objektnamnet.
+   Klicka på knappen **Dela** bredvid objektnamnet.
 
    ![](assets/new-share-button.png)
 
@@ -181,11 +181,11 @@ Du måste ha följande för att kunna dela objekt:
 
    För dokument:
 
-   Klicka på **Mer** icon ![](assets/more-icon.png) bredvid objektnamnet och klicka sedan på **Dela**.
+   Klicka på ikonen **Mer** ![](assets/more-icon.png) bredvid objektnamnet och klicka sedan på **Dela**.
 
    ![](assets/share-a-document-350x160.png)
 
-1. I **Ge &lt; Objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet i listrutan.
+1. I rutan **Ge &lt; Objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
 
    ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
 
@@ -217,18 +217,18 @@ Du måste ha följande för att kunna dela objekt:
 
      ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
-1. (Valfritt) Klicka på **Avancerade inställningar** för att konfigurera specifika behörigheter för objektet.
+1. (Valfritt) Klicka på **Avancerade inställningar** om du vill konfigurera specifika behörigheter för objektet.
 
-   Det finns olika avancerade alternativ för Visa, Hantera och Contribute beroende på vilket objekt som är markerat.\
+   Visa, Hantera och Contribute har olika avancerade alternativ beroende på vilket objekt som är markerat.\
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. (Valfritt) Om du vill göra objektet tillgängligt för alla användare i systemet klickar du på **Kugghjul** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg)klickar du på i listrutan **Gör detta synligt för hela systemet**.
+1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på ikonen **Kugga** ![](assets/gear-icon-settings-with-dn-arrow.jpg) och sedan på **Gör det synligt i hela systemet** i listrutan.
 
    Alla användare kan se objektet baserat på de behörigheter som du anger.
 
-1. (Valfritt) Om du vill göra objektet offentligt klickar du på **Gör detta offentligt för externa användare**.
+1. (Valfritt) Om du vill göra objektet offentligt klickar du på **Gör det offentligt för externa användare**.
 
    >[!TIP]
    >
@@ -236,7 +236,7 @@ Du måste ha följande för att kunna dela objekt:
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
 
-1. (Villkorligt) Om objektet är offentligt för externa användare klickar du på **kopiera länk** och sedan distribuera länken till externa användare.
+1. (Villkorligt) Om du har gjort objektet offentligt för externa användare klickar du på **kopiera länken** och distribuerar sedan länken till externa användare.
 
    Alla användare med länken kan visa objektet.
 
@@ -244,7 +244,7 @@ Du måste ha följande för att kunna dela objekt:
    >
    >Vi rekommenderar att du använder försiktighet när du delar objekt som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Dela enstaka objekt eller gruppobjekt från en lista
 
@@ -252,11 +252,11 @@ Du måste ha följande för att kunna dela objekt:
 
    Mer information om vilka objekt som kan delas finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Klicka i kryssrutan bredvid de objekt som du vill dela och klicka sedan på **Delningsikon** ![](assets/share-icon.png) överst på sidan.
+1. Klicka i kryssrutan bredvid de objekt som du vill dela och klicka sedan på ikonen **Dela** ![](assets/share-icon.png) överst på sidan.
 
    ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
 
-1. I **&lt; Object > Access** visas, börjar skriva i **Redigera &lt; Objektnamn > åtkomst för** Ange namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objekten med och klicka sedan på namnet när det visas i listrutan.
+1. I fönstret **&lt; Objekt > Åtkomst** visas börjar du skriva namnet på användaren, teamet, rollen, gruppen eller företaget som du vill dela objekten med i rutan **Redigera > Objektnamn > åtkomst för**. Klicka sedan på namnet när det visas i listrutan.
 
    ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
 
@@ -284,7 +284,7 @@ Du måste ha följande för att kunna dela objekt:
 
      >[!TIP]
      >
-     >Du kan bara ge Contribute-behörigheter till följande objekt:
+     >Du kan bara ge Contribute behörigheter till följande objekt:
      >
      >   * Projekt
      >   * Uppgifter
@@ -297,18 +297,18 @@ Du måste ha följande för att kunna dela objekt:
      >
      >Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
 
-1. (Valfritt) Klicka på **Avancerade inställningar** för att konfigurera specifika behörigheter för objektet.
+1. (Valfritt) Klicka på **Avancerade inställningar** om du vill konfigurera specifika behörigheter för objektet.
 
-   Det finns olika avancerade alternativ för Visa, Hantera och Contribute beroende på vilket objekt som är markerat.\
+   Visa, Hantera och Contribute har olika avancerade alternativ beroende på vilket objekt som är markerat.\
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. (Valfritt) Om du vill göra objektet tillgängligt för alla användare i systemet klickar du på **Kugghjul** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) klickar du på i listrutan **Gör detta synligt för hela systemet**.
+1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på ikonen **Kugga** ![](assets/gear-icon-settings-with-dn-arrow.jpg) och sedan på **Gör det synligt i hela systemet** i listrutan.
 
    Alla användare kan se objekten baserat på de behörigheter som du anger.
 
-1. (Valfritt och villkorligt) Klicka på **Kugghjul** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg)klickar du på i listrutan **Ange som min projektåtkomstmall** för att ange behörigheterna som en mall.
+1. (Valfritt och villkorligt) När du delar ett projekt klickar du på ikonen **Kugga** ![](assets/gear-icon-settings-with-dn-arrow.jpg) och sedan på **Ange som mall för projektåtkomst** i listrutan för att ange behörigheterna som en mall.
 
    När du har definierat behörigheter för ett projekt tillämpas dessa behörigheter automatiskt nästa gång du skapar ett projekt från början.
 
@@ -322,7 +322,7 @@ Du måste ha följande för att kunna dela objekt:
 
    Du kan ange behörigheter för de projekt som ska skapas från en mall när du delar mallen. Mer information finns i [Dela projektmallar](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Valfritt) Klicka på om du vill göra objekten offentliga **Gör detta offentligt för externa användare**.
+1. (Valfritt) Klicka på **Gör detta offentligt för externa användare** om du vill göra objektet/objekten offentliga.
 
    >[!TIP]
    >
@@ -330,7 +330,7 @@ Du måste ha följande för att kunna dela objekt:
 
    ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
 
-1. (Villkorligt) Om du har gjort objekten allmänna för externa användare klickar du på **kopiera länk** och sedan distribuera länken till externa användare.
+1. (Villkorligt) Om du har gjort objektet/objekten offentliga för externa användare klickar du på **kopiera länken** och distribuerar sedan länken till externa användare.
 
    Alla användare med länken kan visa objektet.
 
@@ -338,4 +338,4 @@ Du måste ha följande för att kunna dela objekt:
    >
    >Vi rekommenderar att du använder försiktighet när du delar objekt som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

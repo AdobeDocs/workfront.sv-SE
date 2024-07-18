@@ -79,7 +79,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
@@ -99,16 +99,16 @@ Tänk på följande när du uppdaterar förloppet för mål:
 
   Se även följande artiklar:
 
-   * Mer information om hur du lägger till aktiviteter i mål finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
-   * Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
-   * Information om hur Workfront-mål beräknar förloppet för ett mål finns i [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md).
+   * Mer information om hur du lägger till aktiviteter i mål finns i [Lägga till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+   * Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   * Mer information om hur Workfront-mål beräknar förloppet för ett mål finns i [Översikt över målförloppet och villkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 * Du måste skapa mål och aktivera dem innan du kan uppdatera deras status.
 
   Se även följande artiklar:
 
-   * Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
-   * Information om hur du aktiverar mål finns i [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md).
+   * Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+   * Mer information om hur du aktiverar mål finns i [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!IMPORTANT]
   >
@@ -245,7 +245,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 Så här uppdaterar du förloppet för mål:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -255,7 +255,7 @@ Så här uppdaterar du förloppet för mål:
    Du kan också klicka på Måljustering på den vänstra panelen.
 
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
-1. Klicka **Progress-indikatorer** till vänster.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
 
    I listan med förloppsindikatorer visas alla förloppsindikatorer för det mål du valt.
 
@@ -268,7 +268,7 @@ Så här uppdaterar du förloppet för mål:
    >    De underordnade målens framsteg och projektens förlopp driver i sin tur förloppet för det valda målet.
 
 
-1. Om du vill uppdatera förloppet för ett resultat eller en aktivitet klickar du på värdet i **Faktiskt förlopp** kolumn för resultatet eller aktiviteten och ange ett tal för att uppdatera värdet och tryck sedan på Retur.
+1. Om du vill uppdatera förloppet för ett resultat eller en aktivitet klickar du på värdet i kolumnen **Faktiskt förlopp** för resultatet eller aktiviteten och skriver ett tal för att uppdatera värdet. Tryck sedan på Retur.
 
    ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 

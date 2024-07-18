@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Användare
-description: Läs mer om användare i Workfront Proof.
+description: Läs om Användare i Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Skapa användare med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
-* [Konfigurera användarinformation med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
-* [Skapa och hantera anpassade profiler med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
-* [Flytta användare mellan konton med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)
+* [Skapa användare med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md)
+* [Konfigurera användarinformation med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md)
+* [Skapa och hantera anpassade profiler med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md)
+* [Flytta användare mellan konton med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/move-users-between-accounts.md)

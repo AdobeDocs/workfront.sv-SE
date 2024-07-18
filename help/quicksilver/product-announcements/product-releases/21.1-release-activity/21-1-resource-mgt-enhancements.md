@@ -19,17 +19,17 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1 - versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1-versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Utjämning av arbetsbelastning för projekt
 
 Utjämningen av arbetsbelastning är nu tillgänglig i ett projekt. Nu har du ett alternativ för att välja mellan att använda arbetsbelastningsutjämnaren eller schemaläggningsverktyget för att hantera dina projektresurser.
 
-Mer information om var arbetsbelastningsutjämnaren finns i Adobe Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Mer information om var arbetsbelastningsutjämnaren kan placeras i Adobe Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Workfront Balancer för ett team
 
 Utjämningen av arbetsbelastning är nu tillgänglig i ett team. Nu har du ett alternativ för att välja mellan att använda belastningsutjämnaren eller schemaläggningsverktyget för att hantera dina teamresurser.
 
-Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Mer information om var arbetsbelastningsutjämnaren kan placeras i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

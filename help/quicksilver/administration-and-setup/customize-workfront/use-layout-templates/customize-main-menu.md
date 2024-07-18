@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Som Adobe Workfront-administratör eller gruppadministratör kan du använda en layoutmall för att konfigurera de alternativ som användare ser när de öppnar huvudmenyn i Workfront.
 
-![Alternativ på huvudmenyn](assets/main-menu-with-blueprints-no-branding.png)
+![Huvudmenyalternativ](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Anpassa huvudmenyn
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka **Ange huvudmeny** i mallens övre högra hörn.
+1. Klicka på **Ange huvudmeny** i mallens övre högra hörn.
 
    Rutan Huvudmeny öppnas och du kan se de områden som för närvarande visas på mallens huvudmeny, samt de alternativ som är tillgängliga att lägga till. Följande är alla möjliga objekt som du kan lägga till:
    * Startsida
@@ -89,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!NOTE]
      >
-     >Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+     >Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
    * Team
    * Användare
@@ -108,7 +108,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
      >[!NOTE]
      >
-     >Målet kräver ytterligare licens. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Målet kräver ytterligare licens. Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Mina uppdateringar
    * Varumärkena
@@ -116,19 +116,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Gör något av följande:
 
-   * Dölj ![](assets/remove-icon---x-in-circle.png) **Aktiva objekt** som du inte vill visa
+   * Dölj ![](assets/remove-icon---x-in-circle.png) **aktiva objekt** som du inte vill visa
    * Visa ![](assets/add-icon-plus-in-circle.png) **Tillgängliga objekt** som du vill visa på huvudmenyn.
-   * Dra ![](assets/move-icon---dots.png) **Aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
+   * Dra ![](assets/move-icon---dots.png) **aktiva objekt** om du vill ändra deras visningsordning på huvudmenyn.
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.
 
-   Du kan också klicka **Avbryt** om du vill ångra ändringarna.
+   Du kan när som helst klicka på **Avbryt** om du vill ångra ändringarna.
 
 1. Fortsätt att anpassa layoutmallen.
 
    eller
 
-   Om du är klar med anpassningen klickar du på **Spara**.
+   Klicka på **Spara** om du är klar med anpassningen.
 
    >[!TIP]
    >

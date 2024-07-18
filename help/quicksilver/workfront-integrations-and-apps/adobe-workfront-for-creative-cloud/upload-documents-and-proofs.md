@@ -2,21 +2,21 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Ladda upp dokument och korrektur från [!DNL Adobe Workfront plugin] till [!DNL Creative Cloud]
-description: Ladda upp dokument och korrektur från [!DNL Adobe Workfront plugin] till [!DNL Creative Cloud]
+title: Överför dokument och korrektur från  [!DNL Adobe Workfront plugin] till  [!DNL Creative Cloud]
+description: Överför dokument och korrektur från  [!DNL Adobe Workfront plugin] till  [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 67952bf88a782595e13e559bfbc14ce1c622d432
+exl-id: 88870441-8895-477c-9409-f2c33654545a
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
-
-# Ladda upp dokument och korrektur från [!DNL Adobe Workfront plugin] till [!DNL Creative Cloud]
+# Överför dokument och korrektur från [!DNL Adobe Workfront plugin] till [!DNL Creative Cloud]
 
 Du kan överföra dina projekt som dokument för snabb granskning och godkännande eller bara lagra dem i [!DNL Adobe Workfront].
 
@@ -31,7 +31,7 @@ I det här avsnittet beskrivs kända dokumentbegränsningar i [!DNL Workfront fo
 
 ### Nya dokumentversioner accepterar endast en fil för överföring
 
-För [!DNL Workfront] -dokument kan inte innehålla flera filer. Vissa inställningar måste vara inaktiverade för att du ska kunna överföra nya dokumentversioner till Workfront.
+Eftersom [!DNL Workfront]-dokument inte kan innehålla flera filer måste vissa inställningar inaktiveras för att du ska kunna överföra nya dokumentversioner till Workfront.
 
 >[!NOTE]
 >
@@ -39,9 +39,9 @@ För [!DNL Workfront] -dokument kan inte innehålla flera filer. Vissa inställn
 
 
 
-Byta tillbaka till en enda fil i [!DNL InDesign]:
+Så här ändrar du växeln tillbaka till en enda fil i [!DNL InDesign]:
 
-1. Öppna **Ange inställningar för exportfil** -dialogrutan.
+1. Öppna dialogrutan **Ange inställningar för exportfil**.
 
    ![](assets/file-export-settings.png)
 
@@ -49,9 +49,9 @@ Byta tillbaka till en enda fil i [!DNL InDesign]:
 
    <table>
     <tr>
-    <td><strong>PDF och PDF</strong>
+    <td><strong>PDF och PDF-PRINT</strong>
     </td>
-    <td>Avmarkera <strong>Skapa separata filer i PDF</strong>.
+    <td>Avmarkera <strong>Skapa separata PDF-filer</strong>.
     </td>
     </tr>
     <tr>
@@ -59,11 +59,11 @@ Byta tillbaka till en enda fil i [!DNL InDesign]:
     </td>
     <td>Välj <strong>Intervall</strong> och skriv ett enda sidnummer. 
     <p>
-    <strong>Anteckning</strong>: Om du vill överföra hela dokumentet måste du skapa ett korrektur. 
+    <strong>Obs!</strong> Om du vill överföra det fullständiga dokumentet måste du skapa ett korrektur. 
     </td>
     </tr>
     <tr>
-    <td><strong>ePub OCH EPUB</strong>
+    <td><strong>EPUB och EPUB-FIXED</strong>
     </td>
     <td>Inga justeringar behövs.
     </td>
@@ -79,7 +79,7 @@ Byta tillbaka till en enda fil i [!DNL InDesign]:
     </td>
     <td>Välj <strong>Intervall</strong> och skriv ett enda sidnummer. 
     <p>
-    <strong>Anteckning</strong>: Om du vill överföra hela dokumentet måste du skapa ett korrektur. 
+    <strong>Obs!</strong> Om du vill överföra det fullständiga dokumentet måste du skapa ett korrektur. 
     </td>
     </tr>
     <tr>
@@ -87,7 +87,7 @@ Byta tillbaka till en enda fil i [!DNL InDesign]:
     </td>
     <td>Välj <strong>Intervall</strong> och skriv ett enda sidnummer. 
     <p>
-    <strong>Anteckning</strong>: Om du vill överföra hela dokumentet måste du skapa ett korrektur. 
+    <strong>Obs!</strong> Om du vill överföra det fullständiga dokumentet måste du skapa ett korrektur. 
     </td>
     </tr>
     <tr>

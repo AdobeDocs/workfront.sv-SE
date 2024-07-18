@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p>Visa eller ge användare högre åtkomst</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -121,15 +121,15 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
 
 1. Gå till projektet som du vill lägga till användare i.
 
-1. Klicka **Folk** till vänster. Du kan behöva klicka **Visa fler** först.
+1. Klicka på **Personer** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
 
-1. Klicka **Lägg till användare**.
+1. Klicka på **Lägg till användare**.
 
    Dialogrutan Lägg till användare i projektgruppen visas.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. I **Lägg till användare** börjar du skriva namnet på en aktiv Workfront-användare som du vill lägga till i projektteamet och klickar sedan på namnet i listrutan.
+1. I rutan **Lägg till användare** börjar du skriva namnet på en aktiv Workfront-användare som du vill lägga till i projektteamet och klickar sedan på namnet när det visas i listrutan.
 
    Upprepa det här steget om du vill lägga till flera användare i projektteamet. Användarna måste tillhöra den grupp som är associerad med projektet.
 
@@ -141,7 +141,7 @@ Mer information om vilka meddelanden som kan aktiveras för användare i projekt
    >  Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Klicka **Lägg till**.
+1. Klicka på **Lägg till**.
 
    Användarna får behörigheten Visa i projektet och får meddelanden om projektet som en del av projektteamet.
 

@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,45 +52,45 @@ Du kan visa mappar i miniatyrvyn, standardvyn eller listvyn. Om du vill ändra v
 
 ## Skapa en smart mapp 
 
-1. Gå till **Dokument** där du vill skapa den smarta mappen.
-1. Klicka **Lägg till ny**.
-1. Klicka **Smart mapp**.
-1. Ange ett namn för den smarta mappen i **Mappnamn** fält.
-1. Klicka **Lägg till en filterregel**.
+1. Gå till området **Dokument** där du vill skapa den smarta mappen.
+1. Klicka på **Lägg till ny**.
+1. Klicka på **Smart mapp**.
+1. Ange ett namn för den smarta mappen i fältet **Mappnamn**.
+1. Klicka på **Lägg till en filterregel**.
 1. Identifiera den information som ska fyllas i i rapporten genom att välja lämplig datatyp.
 1. Välj önskad filterkvalificerare. 
 1. Slutför filterregeln och klicka sedan på **Spara mapp**.
 
 ## Redigera en smart mapp 
 
-1. Gå till **Dokument** som innehåller den smarta mapp som du vill redigera.
-1. I **Mappar** klickar du på **Mer** icon ![](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
-1. Klicka **Redigera**.
+1. Gå till området **Dokument** som innehåller den smarta mappen som du vill redigera.
+1. I kolumnen **Mappar** klickar du på ikonen **Mer** ![](assets/more-icon.png) bredvid den smarta mapp som du vill redigera.
+1. Klicka på **Redigera**.
 
-   The **Redigera smart mapp** visas.\
+   Dialogrutan **Redigera smart mapp** visas.\
    ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.
 
 ## Byta namn på en smart mapp 
 
-1. Gå till **Dokument** som innehåller den smarta mapp som du vill byta namn på.
-1. I **Mappar** klickar du på listrutepilen bredvid den smarta mapp som du vill byta namn på.
+1. Gå till området **Dokument** som innehåller den smarta mappen som du vill byta namn på.
+1. I kolumnen **Mappar** klickar du på den nedrullningsbara pilen bredvid den smarta mapp som du vill byta namn på.
 1. Ange ett nytt namn för mappen och tryck sedan på **Retur**.
 
 ## Kopiera en smart mapp
 
-1. Gå till **Dokument** som innehåller den smarta mapp som du vill kopiera.
-1. I **Mappar** klickar du på listrutepilen bredvid den smarta mapp som du vill kopiera.
-1. Klicka **Kopiera**.
+1. Gå till området **Dokument** som innehåller den smarta mappen som du vill kopiera.
+1. I kolumnen **Mappar** klickar du på den nedrullningsbara pilen bredvid den smarta mapp som du vill kopiera.
+1. Klicka på **Kopiera**.
 
-   The **Redigera smart mapp** visas. The **Mappnamn** -fältet innehåller mappens ursprungliga namn, med ordet Kopiera inom parentes.
+   Dialogrutan **Redigera smart mapp** visas. Fältet **Mappnamn** innehåller mappens ursprungliga namn, med ordet Kopiera inom parentes.
 
 1. Gör ändringarna och klicka sedan på **Spara mapp**.
 
 ## Ta bort en smart mapp 
 
-1. Gå till **Dokument** som innehåller den smarta mapp som du vill ta bort.
-1. I **Mappar** klickar du på listrutepilen bredvid den smarta mapp som du vill ta bort.
-1. Klicka **Ta bort**.
-1. Klicka **Ja, ta bort den**.
+1. Gå till området **Dokument** som innehåller den smarta mappen som du vill ta bort.
+1. I kolumnen **Mappar** klickar du på den nedrullningsbara pilen bredvid den smarta mapp som du vill ta bort.
+1. Klicka på **Ta bort**.
+1. Klicka på **Ja, ta bort den**.

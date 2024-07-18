@@ -11,7 +11,7 @@ feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -39,29 +39,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-För att kunna använda [Fusion App] med [!DNL Workfront Fusion]måste du ha ett FTP-konto.
+Du måste ha ett FTP-konto för att kunna använda [Fusion App] med [!DNL Workfront Fusion].
 
 ## Skapa en anslutning i en FTP-modul {#create-a-connection}
 
@@ -97,15 +97,15 @@ För att kunna använda [Fusion App] med [!DNL Workfront Fusion]måste du ha ett
    <td> <p>[!UICONTROL Reject unauthorized certificates]</p> </td> 
    <td> <p>Aktivera det här alternativet om du vill verifiera FTP-servercertifikatet. Om verifieringen misslyckas skapas inte anslutningen. Certifikatet måste uppfylla ett av följande kriterier för att kunna godkännas:</p> 
     <ul> 
-     <li>signeras av en rot <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certifikatutfärdare</a></li> 
-     <li>undertecknas av en mellanliggande certifikatutfärdare (se t.ex. <a href="https://knowledge.digicert.com/solution/SO16297.html">Hur certifikatkedjor fungerar</a> för ytterligare förklaring). I det här fallet ska alla mellanliggande certifikat installeras på FTP-servern.</li> 
-     <li>vara ett självsignerat certifikat som anges i [!UICONTROL Self-signed certificate] fält (se nedan)</li> </ul>
+     <li>signeras av en rotcertifikatutfärdare (<a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a>)</li> 
+     <li>signeras av en mellanliggande certifikatutfärdare (mer information finns i <a href="https://knowledge.digicert.com/solution/SO16297.html">Hur certifikatkedjor fungerar</a>). I det här fallet ska alla mellanliggande certifikat installeras på FTP-servern.</li> 
+     <li>vara ett självsignerat certifikat i fältet [!UICONTROL Self-signed certificate] (se nedan)</li> </ul>
 
 Om det här alternativet är inaktiverat verifieras inte FTP-servercertifikatet. Vi rekommenderar starkt att du inte inaktiverar alternativet eftersom det gör anslutningen osäker och utgör en allvarlig säkerhetsrisk.</td>
 </tr> 
   <tr> 
    <td> <p>[!UICONTROL Self-signed certificate]</p> </td> 
-   <td> <p>Klicka på <b>[!UICONTROL Extract]</b> för att öppna dialogrutan för överföring.</p> <p>Överför certifikatet för att använda TLS med ditt självsignerade certifikat. [!DNL Workfront Fusion] sparar eller lagrar inte data som du anger, t.ex. filer och lösenord. Fil och lösenord används endast för att extrahera certifikatet.</p> </td> 
+   <td> <p>Klicka på knappen <b>[!UICONTROL Extract]</b> för att öppna dialogrutan för överföring.</p> <p>Överför certifikatet för att använda TLS med ditt självsignerade certifikat. [!DNL Workfront Fusion] sparar eller lagrar inte data som du anger, t.ex. filer och lösenord. Fil och lösenord används endast för att extrahera certifikatet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -131,11 +131,11 @@ Om det här alternativet är inaktiverat verifieras inte FTP-servercertifikatet.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Folder]</p> </td> 
-   <td> <p>Markera den mapp som du vill bevaka.</p> <p><b>Obs!</b> Endast en mapp per scenario tillåts. Undermappar ignoreras.</p> <p><b>Tips:</b> Om du vill hålla reda på flera mappar skapar du ett oberoende scenario för var och en av dem.</p> </td> 
+   <td> <p>Markera den mapp som du vill bevaka.</p> <p><b>Obs!</b> Endast en mapp per scenario tillåts. Undermappar ignoreras.</p> <p><b>Tips!</b> Om du vill hålla reda på flera mappar skapar du ett oberoende scenario för var och en av dem.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned files] </td> 
-   <td> <p>Ange maximalt antal resultat som [!DNL Workfront Fusion] kommer att fungera med under en cykel. Om värdet är för högt kan anslutningen avbrytas på sidan om den angivna tredjepartstjänsten (timeout). [!DNL Workfront Fusion] har ingen inverkan på detta. Vi rekommenderar att du anger ett lägre värde och antingen definierar ett högre värde för det maximala antalet cykler eller kör scenariot oftare.</p> </td> 
+   <td> <p>Ange det maximala antalet resultat som [!DNL Workfront Fusion] ska arbeta med under en cykel. Om värdet är för högt kan anslutningen avbrytas på sidan om den angivna tredjepartstjänsten (timeout). [!DNL Workfront Fusion] har ingen påverkan på detta. Vi rekommenderar att du anger ett lägre värde och antingen definierar ett högre värde för det maximala antalet cykler eller kör scenariot oftare.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,7 +176,7 @@ Den här åtgärdsmodulen ändrar behörighetsinställningarna för en fil eller
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Permissions]</td>
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-               <p>Ange önskade fil- eller mappbehörigheter. Använd chmod-parametrarna. Till exempel: <code>777 </code>eller <code>-rwxrwxrwx</code>.</p>
+               <p>Ange önskade fil- eller mappbehörigheter. Använd chmod-parametrarna. Till exempel: <code>777 </code> eller <code>-rwxrwxrwx</code>.</p>
                <p>Behörigheterna måste matcha mönstret <code> /(.?([r-][w-][x-]){3})|[0-7]{3,4}/</code>.</p>
             </td>
          </tr>

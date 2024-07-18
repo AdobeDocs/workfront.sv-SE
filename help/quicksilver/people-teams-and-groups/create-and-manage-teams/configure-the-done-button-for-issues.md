@@ -8,23 +8,23 @@ feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
 
-# Konfigurera [!UICONTROL Done] knapp för problem
+# Konfigurera knappen [!UICONTROL Done] för problem
 
-The [!UICONTROL Done] kan automatiskt ange status för en uppgift eller ett problem. Som standard [!DNL Adobe Workfront] markerar ett problem som [!UICONTROL Resolved] när en tilldelad klickar [!UICONTROL Done] på deras arbetsuppgift.
+Knappen [!UICONTROL Done] kan automatiskt ange status för en aktivitet eller ett problem. Som standard markerar [!DNL Adobe Workfront] ett problem som [!UICONTROL Resolved] när en tilldelad klickar på [!UICONTROL Done] på sin arbetspost.
 
-## Översikt
+## Ökning
 
-Användare med vissa behörigheter kan konfigurera [!UICONTROL Done] om du vill visa vissa statusvärden i systemet. Det finns tre olika sätt [!UICONTROL Done] fungerar för problem i [!DNL Workfront]:
+Användare med vissa behörigheter kan konfigurera knappen [!UICONTROL Done] så att den återspeglar vissa statusvärden i systemet. Det finns tre olika sätt som knappen [!UICONTROL Done] fungerar på för problem i [!DNL Workfront]:
 
-* Om användaren har en tilldelad [!UICONTROL Home Team], a [!DNL Workfront] administratör eller en användare med [!UICONTROL Plan] licensen kan konfigurera [!UICONTROL Done] för att visa vissa statusvärden för teammedlemmar. Se [Konfigurera [!UICONTROL Done] knapp för ett team](#configure-the-uicontrol-done-button-for-a-team) i den här artikeln.
-* Om användaren inte har en [!UICONTROL Home Team], men de har [!UICONTROL Other Teams] i sin profil söker Workfront efter inställningen för [!UICONTROL Done] på något av de team som är kopplade till användaren. Urvalet är slumpmässigt och statusen som är associerad med någon av teamen används för problemet.
-* Om användaren inte har en [!UICONTROL Home Team] tilldelade, [!UICONTROL Done] knapp för problem är kopplad till ett systemgenererat [!UICONTROL Resolved] status som har kod med tre bokstäver [!UICONTROL RLV]. Det finns inga konfigurationsalternativ tillgängliga i det här scenariot. The [!UICONTROL Done] anges automatiskt som standard för denna knapp.
-* Om [!UICONTROL Resolved] ([!UICONTROL RLV]) tas bort och användaren markerar problemet som [!UICONTROL Done] har inte [!UICONTROL Home Team]är standardutgivningsstatusen knuten till det som är inställt som standard för [!UICONTROL Closed] för gruppen som är tilldelad projektet som utleveransen tillhör. Workfront-administratören kan konfigurera en systemomfattande standardinställning för gruppen. Se [Konfigurera [!UICONTROL Done] när [!UICONTROL Resolved] status har tagits bort](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) i den här artikeln.
+* Om användaren har en tilldelad [!UICONTROL Home Team] kan en [!DNL Workfront]-administratör eller en användare med en [!UICONTROL Plan]-licens konfigurera knappen [!UICONTROL Done] så att den återspeglar vissa statusvärden för teammedlemmar. Se [Konfigurera knappen [!UICONTROL Done] för ett team](#configure-the-uicontrol-done-button-for-a-team) i den här artikeln.
+* Om användaren inte har någon [!UICONTROL Home Team], men har [!UICONTROL Other Teams] i sin profil, söker Workfront efter inställningen för knappen [!UICONTROL Done] i något av de team som är kopplade till användaren. Urvalet är slumpmässigt och statusen som är associerad med någon av teamen används för problemet.
+* Om användaren inte har tilldelats [!UICONTROL Home Team] är knappen [!UICONTROL Done] för problem kopplad till en systemgenererad [!UICONTROL Resolved]-status som har koden [!UICONTROL RLV] med tre bokstäver. Det finns inga konfigurationsalternativ tillgängliga i det här scenariot. Knappen [!UICONTROL Done] får automatiskt den här statusen som standard.
+* Om statusen [!UICONTROL Resolved] ([!UICONTROL RLV]) tas bort och användaren markerar problemet som [!UICONTROL Done] har ingen [!UICONTROL Home Team], är standardutgivningsstatusen knuten till det som har angetts som standard för [!UICONTROL Closed] för gruppen som tilldelats det projekt som utleveransen tillhör. Workfront-administratören kan konfigurera en systemomfattande standardinställning för gruppen. Se [Konfigurera knappen [!UICONTROL Done] när statusen [!UICONTROL Resolved] har tagits bort](#configure-the-uicontrol-done-button-when-the-uicontrol-resolved-status-has-been-deleted) i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -46,22 +46,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td>Systemadministratörsåtkomst krävs för att konfigurera [!UICONTROL Done] när [!UICONTROL Resolved] status har tagits bort</td> 
+   <td>Systemadministratörsåtkomst krävs för att konfigurera knappen [!UICONTROL Done] när statusen [!UICONTROL Resolved] tas bort</td> 
   </tr> 
  </tbody> 
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Konfigurera [!UICONTROL Done] knapp för ett team
+## Konfigurera knappen [!UICONTROL Done] för ett team
 
-Du kan ändra vilken status som ska användas för arbetsuppgiften med [!UICONTROL Done] -knappen. Du kan också ange flera statusvärden och låta användaren välja vilken status som passar bäst.
+Du kan ändra vilken status som ska användas för arbetsobjektet med knappen [!UICONTROL Done]. Du kan också ange flera statusvärden och låta användaren välja vilken status som passar bäst.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Teams]**.
 
-1. Klicka på **[!UICONTROL Switch team]** väljer du sedan ett nytt team i listrutan eller söker efter ett team i sökfältet.
-1. Klicka på **[!UICONTROL More]** menyn och klicka sedan på **[!UICONTROL Edit]**.
-1. Hitta **[!UICONTROL Done Button]** längst ned i **[!UICONTROL Team Settings]** sida.
+1. Klicka på ikonen **[!UICONTROL Switch team]** och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
+1. Klicka på menyn **[!UICONTROL More]** och sedan på **[!UICONTROL Edit]**.
+1. Hitta avsnittet **[!UICONTROL Done Button]** längst ned på sidan **[!UICONTROL Team Settings]**.
 
 1. Välj en status eller mer än en status för varje arbetsuppgiftstyp.
 
@@ -69,12 +69,12 @@ Du kan ändra vilken status som ska användas för arbetsuppgiften med [!UICONTR
    >
    >Tänk på följande när du väljer status för uppgifter eller problem:
    >
-   >* När du väljer en status för varje typ av arbetsuppgift, ställs uppgiften eller utleveransstatusen in på den statusen när en användare klickar på [!UICONTROL Done] på deras objekt. Om du anger flera statusvärden för varje typ av arbetsuppgift läggs en listruta till i [!UICONTROL Done] och användaren måste välja en status för att kunna ändra status för arbetsuppgiften.
-   >* Du kan bara associera statusvärden på systemnivå med [!UICONTROL Done] -knappen. Du kan inte associera gruppspecifika statusvärden med arbetsartikelstatusvärden.
-   >* När en användare som är tilldelad objektet placerar objektet i den status som är associerad med [!UICONTROL Done] -knapp, objektet visas som [!UICONTROL Done] för den användaren oavsett om den valda statusen är en [!UICONTROL Completed] eller [!UICONTROL Closed] status eller en arbetsstatus.
+   >* När du väljer en status för varje typ av arbetsuppgift, ställs uppgiften eller utleveransstatusen in på den statusen när en användare klickar på [!UICONTROL Done] på sitt objekt. Om du anger flera statusvärden för varje typ av arbetsobjekt läggs en nedrullningsbar meny till i knappen [!UICONTROL Done] och användaren måste välja en status för att kunna ändra statusen för arbetsobjektet.
+   >* Du kan bara associera statusvärden på systemnivå med knappen [!UICONTROL Done]. Du kan inte associera gruppspecifika statusvärden med arbetsartikelstatusvärden.
+   >* När en användare som är tilldelad objektet placerar objektet i den status som är associerad med knappen [!UICONTROL Done], visas objektet som [!UICONTROL Done] för den användaren oavsett om den status du väljer är en [!UICONTROL Completed] - eller [!UICONTROL Closed] -status eller en arbetsstatus.
    >   
    >   
-   >  Du kan till exempel associera [!UICONTROL Done] knappen Pågår gör att arbetsposten visas som [!UICONTROL Done] för den användare som ändrar status från Nytt till Pågår.
+   >  Om du till exempel associerar knappen [!UICONTROL Done] med Pågår visas arbetsobjektet som [!UICONTROL Done] för användaren som ändrar statusen från Nytt till Pågår.
    >   
    >* Problemtyperna är anpassningsbara och kan ha andra namn än de som visas nedan i din miljö.\
    >  Följande är standardåtgärder och problemtyper:
@@ -85,57 +85,57 @@ Du kan ändra vilken status som ska användas för arbetsuppgiften med [!UICONTR
    >   * [!UICONTROL Change Order]
    >   * [!UICONTROL Bug Report]
 
-   Om uppgiften eller utgåvan har tilldelats flera användare visas en[!UICONTROL Done with my part]&quot; i den nedrullningsbara menyn, förutom de olika statusar som valts för ditt team.
+   Om aktiviteten eller utgåvan har tilldelats flera användare visas ett [!UICONTROL Done with my part]-alternativ i listrutan, utöver de statusvärden som har valts för ditt team.
 
 1. Klicka på **[!UICONTROL Save Changes]**.
 
 ## Associera användare med ett hemteam
 
-Så här gör du ändringar i [!UICONTROL Done] för användarna kan du göra de inställningar som du har ändrat i hemgruppen för användarna synliga.
+Om du vill göra ändringarna av [!UICONTROL Done]-knappfunktionen synliga för användarna kan du göra gruppen vars inställningar du har ändrat hemgruppen för användarna.
 
 Så här associerar du användare med ett hemteam:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 
-1. Klicka **[!UICONTROL Users]** väljer du sedan den eller de användare som du vill associera med ett hemteam.
-1. Klicka på **[!UICONTROL More]** väljer du **[!UICONTROL Edit]**.\
+1. Klicka på **[!UICONTROL Users]** och välj sedan den eller de användare som du vill associera med ett hemteam.
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. I **[!UICONTROL Organization]** väljer du **[!UICONTROL Home Team]** fält. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
+1. Markera fältet **[!UICONTROL Home Team]** i avsnittet **[!UICONTROL Organization]**. Börja skriva namnet på det team vars inställningar du vill associera med användarna. Klicka på teamets namn när du ser det i listan.
 
 1. Klicka på **[!UICONTROL Save Changes]**.\
    De användare du har valt är nu associerade med ett hemteam.
-Alla gruppinställningar, inklusive statusvärdena som är kopplade till [!UICONTROL Done] är nu synliga för dessa användare.
+Alla gruppinställningar, inklusive statusvärdena som är kopplade till knappen [!UICONTROL Done], visas nu för dessa användare.
 
-## Konfigurera [!UICONTROL Done] när [!UICONTROL Resolved] status har tagits bort
+## Konfigurera knappen [!UICONTROL Done] när statusen [!UICONTROL Resolved] har tagits bort
 
-Om en användare inte har något hemteam och det systemomfattande standardvärdet för [!UICONTROL Resolved] ([!UICONTROL RLV]) har tagits bort, en [!DNL Workfront] administratören kan konfigurera [!UICONTROL Closed] status för gruppen på projektet. [!DNL Workfront] väljer den här statusen för ett stängt problem när användaren klickar på [!DNL Done] -knappen.
+Om en användare inte har något hemteam och det systemomfattande standardvärdet för [!UICONTROL Resolved] ([!UICONTROL RLV]) har tagits bort, kan en [!DNL Workfront]-administratör konfigurera [!UICONTROL Closed]-statusen för gruppen på projektet. [!DNL Workfront] väljer den här statusen för ett stängt problem när användaren klickar på knappen [!DNL Done].
 
-### Hitta gruppen som är associerad med projektet
+### Sök efter gruppen som är associerad med projektet
 
-När en användare skapar ett projekt tilldelas hemgruppen automatiskt till projektet. Användare med [!UICONTROL Manage] åtkomst till projektet kan ändra gruppen i [!UICONTROL Project Details] när som helst. För att förstå vilken status [!DNL Workfront] används för ett slutfört problem i det här fallet måste du förstå vilken grupp som är associerad med projektet som problemet gäller och vilken standardstatus för [!UICONTROL Closed] den här gruppen har för problem.
+När en användare skapar ett projekt tilldelas hemgruppen automatiskt till projektet. Användare med [!UICONTROL Manage] åtkomst till projektet kan när som helst ändra den här gruppen i avsnittet [!UICONTROL Project Details]. För att förstå vilken status [!DNL Workfront] använder för ett slutfört problem i det här fallet måste du förstå vilken grupp som är associerad med projektet som problemet gäller och vilken standardstatus för [!UICONTROL Closed] som den här gruppen har för problem.
 
-Så här hittar du gruppen som är associerad med projektet:
+Så här söker du efter gruppen som är associerad med projektet:
 
 1. Gå till ett projekt.
-1. Klicka på till vänster på sidan **[!UICONTROL Project Details]**.
-1. Leta reda på **[!UICONTROL Project association]** avsnitt, hitta **[!UICONTROL Group]**.\
+1. Klicka på **[!UICONTROL Project Details]** till vänster på sidan.
+1. Leta reda på avsnittet **[!UICONTROL Project association]** och sök efter **[!UICONTROL Group]**.\
    Det här är gruppnamnet som du behöver använda för att kontrollera statusen i inställningsområdet. I följande avsnitt finns instruktioner om hur du uppdaterar standardstatusen för en viss grupp.
 
 ### Uppdatera standardstatus för en viss grupp
 
-Som [!UICONTROL Workfront] kan du uppdatera status för en viss grupp:
+Som [!UICONTROL Workfront]-administratör kan du uppdatera statusen för en specifik grupp:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. Klicka på i den vänstra panelen **[!UICONTROL Project Preferences]** sedan **[!UICONTROL Statuses]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på **[!UICONTROL Project Preferences]** i den vänstra panelen och sedan på **[!UICONTROL Statuses]**.
 
-1. Klicka **[!UICONTROL Issues]** och skriv sedan namnet på gruppen i **[!UICONTROL System Statuses]** sökruta till höger.
+1. Klicka på **[!UICONTROL Issues]** och skriv sedan namnet på gruppen i sökrutan **[!UICONTROL System Statuses]** till höger.
 
 1. Markera gruppen.
-1. Klicka på **[!UICONTROL Set Default Statuses]** nedrullningsbar meny och välj sedan en standardstatus för [!UICONTROL Closed]. [!DNL Workfront] använder den här statusen för ett stängt problem när en användare klickar på [!UICONTROL Done] -knappen.
+1. Klicka på listrutan **[!UICONTROL Set Default Statuses]** och välj sedan en standardstatus för [!UICONTROL Closed]. [!DNL Workfront] använder den här statusen för ett stängt problem när en användare klickar på knappen [!UICONTROL Done].
 
    >[!IMPORTANT]
    >
-   >Den här statusen används endast när användaren inte har tilldelats något Home Team och [!UICONTROL RLV] status har tagits bort.
+   >Den här statusen används endast när användaren inte har tilldelats något hemteam och [!UICONTROL RLV]-statusen har tagits bort.
 
 1. Klicka på **[!UICONTROL Save]**.

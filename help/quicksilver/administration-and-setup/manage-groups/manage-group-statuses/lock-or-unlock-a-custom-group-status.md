@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Låsta och olåsta gruppstatusar
 
-Att låsa en grupps anpassade status är ett sätt att se till att personer i gruppen och dess undergrupper använder samma processer i arbetsflödet. När en gruppstatus är låst är den tillgänglig för alla användare i gruppen och i de nedre grupperna. Även om du (eller en Workfront-administratör) kan redigera eller ta bort en status som du låser, kan inte administratörer av undergrupper nedan göra det för dessa grupper; kan de bara ändra visningsordningen i statuslistan.
+Att låsa en grupps anpassade status är ett sätt att se till att personer i gruppen och dess undergrupper använder samma processer i arbetsflödet. När en gruppstatus är låst är den tillgänglig för alla användare i gruppen och i de nedre grupperna. Även om du (eller en Workfront-administratör) kan redigera eller ta bort en status som du låser, kan inte administratörer av undergrupper nedan göra det för dessa grupper. De kan bara ändra visningsordningen i statuslistan.
 
 Omvänt kan administratörer av undergrupper som är mindre flexiblare hantera de unika arbetsflöden som används i deras grupper genom att låsa upp en grupps anpassade status. När en gruppstatus är olåst kan administratörer av undergrupper ändra sina attribut eller ta bort den för dessa undergrupper.
 

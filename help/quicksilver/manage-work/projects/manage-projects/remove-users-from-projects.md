@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan ta bort användare från ett projekt när de inte längre deltar i arbetet med projektet. Att ta bort användare från projekt påverkar uppgifter, ärenden och projektroller. Borttagna användare slutar ta emot meddelanden som är avsedda för projektgruppen. Mer information om meddelanden för projektteamen finns i [Händelsemeddelandetyper](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
-De användare som är associerade med ett projekt visas i området Personer i ett projekt. De representerar projektteamet. Mer information om projektteamet finns i [Översikt över projektgruppen](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+De användare som är associerade med ett projekt visas i området Personer i ett projekt. De representerar projektteamet. Mer information om projektteamet finns i [Översikt över projektteamet](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,10 +54,10 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 När en användare tas bort från ett projekt kan uppgifter eller problem som tilldelats dem påverkas, beroende på om uppgiften eller problemet slutfördes när användaren togs bort:
 
-* **Om objektet inte slutförs när användaren tas bort:** Artikeln omtilldelas till en jobbroll om en jobbroll redan har tilldelats, eller om den har tilldelats till den jobbroll som användaren utförde på artikeln. Om artikeln eller användaren inte har tilldelats någon jobbroll måste du tilldela om posten manuellt.
+* **Om objektet inte slutförs när användaren tas bort:** Objektet omtilldelas till en jobbroll om en jobbroll redan har tilldelats, eller om det har tilldelats till den jobbroll som användaren tog i objektet. Om artikeln eller användaren inte har tilldelats någon jobbroll måste du tilldela om posten manuellt.
 * **Om objektet slutförs när användaren tas bort:** Namnet på den borttagna användaren finns kvar på objektet.
-* **Om användaren som tas bort även är skaparen av ett projekt:** Projektet tas inte bort från sina **Projekt som jag är på** i området Projekt. Projektet tas bort från listorna för alla andra användare som filtrerar projektet efter fältet Anges av.
-* **Om användaren är projektägare eller sponsor:** Användaren fortsätter att vara sponsor eller ägare av projektet.
+* **Om användaren som tagits bort även är skapare av ett projekt:** Projektet tas inte bort från deras **Projekt jag är på** i projektområdet. Projektet tas bort från listorna för alla andra användare som filtrerar projektet efter fältet Anges av.
+* **Om användaren är projektägare eller sponsor:** Användaren behåller sin roll som sponsor eller projektägare.
 
 ## Ta bort användare från ett projekt och projektgrupp
 
@@ -67,16 +67,16 @@ När användare fyller roller i ett projekt blir de en del av projektgruppen.
 
 När du tar bort användare från deras roller i projektet blir de kvar i projektteamet.
 
-Mer information om användarroller i ett projekt finns i [Hantera projektgruppen](../planning-a-project/manage-project-team.md).
+Mer information om användarnas roller i ett projekt finns i [Hantera projektteamet](../planning-a-project/manage-project-team.md).
 
 Så här tar du bort användare från projektteamet:
 
 1. Gå till det projekt där du vill ta bort användarna.
 
-1. Klicka **Folk** i den vänstra panelen markerar du de användare som du vill ta bort. Du kan behöva klicka **Visa fler** sedan **Folk**.
+1. Klicka på **Personer** i den vänstra panelen och markera sedan de användare som du vill ta bort. Du kan behöva klicka på **Visa fler** och sedan på **Personer**.
 
-1. Klicka på **Ta bort** icon  ![Ta bort objekt](assets/remove-icon---x-in-circle.png) högst upp i listan över användare.
+1. Klicka på ikonen **Ta bort** ![Ta bort objekt](assets/remove-icon---x-in-circle.png) högst upp i listan över användare.
 
-1. Klicka **Ja, ta bort markerade användare** för att bekräfta borttagningen.
+1. Klicka på **Ja, ta bort markerade användare** för att bekräfta borttagningen.
 
    Användarna tas bort från projektteamet och från ofullständiga uppgifter eller problem som de kan tilldelas till. De får inte längre meddelanden som är avsedda för projektteamet.

@@ -9,7 +9,7 @@ role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Följande resurser ändrades för API-version 13.
      <li> <p><a href="#breadcrumb" class="MCXref xref">BreadCrumb</a> </p> </li> 
      <li> <p><a href="#burndownevent" class="MCXref xref">BurndownEvent</a> </p> </li> 
      <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
-     <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#documentversion" class="MCXref xref">Dokumentversion</a> </p> </li> 
      <li> <p><a href="#group" class="MCXref xref">Grupp </a> </p> </li> 
      <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
      <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
@@ -51,14 +51,14 @@ Följande resurser ändrades för API-version 13.
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Projekt</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">KorrekturGodkännande</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">Korrektur för godkännande</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
-     <li> <p><a href="#task" class="MCXref xref">Uppgift</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Aktivitet</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
      <li> <p><a href="#timesheet" class="MCXref xref">Tidrapport</a> </p> </li> 
      <li> <p><a href="#timesheetprofile" class="MCXref xref">Tidrapportprofil</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
-     <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegering</a> </p> </li> 
+     <li> <p><a href="#userdelegation" class="MCXref xref">Användardelegering</a> </p> </li> 
      <li> <p><a href="#work" class="MCXref xref">Arbete </a> </p> </li> 
     </ul> </td> 
   </tr> 
@@ -89,7 +89,7 @@ Mer information om åtkomstnivåer finns i [Hur åtkomstnivåer fungerar](../../
 
 Ett BreadCrumb-objekt representerar ett element i hierarkin för överordnade/underordnade element för ett Workfront-arbetsobjekt. Brevbeskrivningar visar hur en arbetsuppgift passar in i den större strukturen för Portfolio, projekt, projekt och uppgifter.
 
-Mer information om vägbeskrivningar finns i [En översikt över vägbeskrivningar i nya Adobe Workfront](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Mer information om vägbeskrivningar finns i [Översikt över vägbeskrivningar i den nya Adobe Workfront-upplevelsen](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -99,7 +99,7 @@ Mer information om vägbeskrivningar finns i [En översikt över vägbeskrivning
    <td> <p>Direktfält</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Objektkoder finns i <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Objektkoder finns i <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API-utforskaren</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -109,7 +109,7 @@ Mer information om vägbeskrivningar finns i [En översikt över vägbeskrivning
 
 Ett BurndownEvent-objekt representerar ett objekt som ändrar bundet för en iteration.
 
-Mer information om nedladdning finns i [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+Mer information om nedladdning finns i [Nedladdning](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -241,7 +241,7 @@ JournalEntry-resursen lade till flaggan REPORTABLE.
 
 Adobe Workfront-administratörer och gruppadministratörer kan skapa mallar för att anpassa layoutelementen i Adobe Workfront. LayoutTemplate-objektet är specifikt för Adobe Workfront Classic.
 
-Objektet som representerar layoutmallar i den nya Adobe Workfront-upplevelsen finns på [UITemplate](#uitemplate)
+Objektet som representerar layoutmallar i den nya Adobe Workfront-upplevelsen finns i [UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -292,7 +292,7 @@ Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsu
    <td> <p>Sökfält</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>preferredByUsersMM</b> </p> </li> 
+     <li> <p><b>FavitedByUsersMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -342,7 +342,7 @@ Ett ProofApproval-objekt representerar ett godkännande som är direkt kopplat t
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats till Help Desk-området där användarna kan skicka problem till den.
 
-Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om begärandeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -374,7 +374,7 @@ Ett Task-objekt representerar en arbetsuppgift som måste utföras som ett steg 
    <td> <p>Sökfält</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>preferredByUsersMM</b> </p> </li> 
+     <li> <p><b>FavitedByUsersMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -524,7 +524,7 @@ Ett Work-objekt är ett vanligt gränssnitt som både Task och OpTask ärver och
    <td> <p>Sökfält</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>preferredByUsersMM</b> </p> </li> 
+     <li> <p><b>FavitedByUsersMM</b> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

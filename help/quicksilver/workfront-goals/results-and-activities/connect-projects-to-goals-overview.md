@@ -90,7 +90,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du kopplar projekt till mål
 
@@ -125,17 +125,17 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Lägg till projekt i mål
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) (draft this for Shell: or click the **Huvudmeny** ![](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) **Mål**.
+1. Klicka på **huvudmenyn** ![](assets/main-menu-icon.png) (gör ett utkast för Shell: eller klicka på **huvudmenyn** ![](assets/three-line-main-menu-icon.png) i det övre vänstra hörnet, om det är tillgängligt.) och sedan på **Mål**.
 1. Öppna målsidan genom att klicka på namnet på ett mål i mållistan.
-1. Klicka **Progress-indikatorer** till vänster.
-1. Från **Ny förloppsindikator** nedrullningsbar meny, klicka **Lägg till befintligt projekt**.
+1. Klicka på **Förloppsindikatorer** i den vänstra panelen.
+1. Klicka på **Lägg till befintligt projekt** i den nedrullningsbara menyn **Ny förloppsindikator**.
 
    Rutan Lägg till projekt i mål visas.
-1. (Valfritt) Uppdatera **Visa**, **Filter**, eller **Gruppering** genom att klicka på respektive ikoner i det övre högra hörnet av listan för att ändra hur projektlistan visas.
-1. (Valfritt) Klicka på **Sök** icon ![](assets/search-icon.png) och börja skriva namnet på ett projekt för att snabbt hitta det i listan.
-1. Välj de projekt som du vill lägga till i målet och klicka sedan på **Lägg till**.
+1. (Valfritt) Uppdatera **vyn**, **filtret** eller **grupperingen** genom att klicka på respektive ikoner i det övre högra hörnet av listan för att ändra hur projektlistan visas.
+1. (Valfritt) Klicka på ikonen **Sök** ![](assets/search-icon.png) och börja skriva namnet på ett projekt för att snabbt hitta det i listan.
+1. Markera de projekt som du vill lägga till i målet och klicka sedan på **Lägg till**.
 
-   De valda projekten läggs till i målet och visas i avsnittet Progress-indikatorer på målsidan, under **Projekt** gruppering.
+   De valda projekten läggs till i målet och visas i avsnittet med förloppsindikatorer på målsidan, under grupperingen **Projekt**.
 
    När du har aktiverat målet uppdateras målets förlopp automatiskt när förloppet för ett projekt uppdateras. Mer information om hur du aktiverar ett mål finns i [Aktivera mål i Adobe Workfront-mål](../goal-management/activate-goals.md).
 

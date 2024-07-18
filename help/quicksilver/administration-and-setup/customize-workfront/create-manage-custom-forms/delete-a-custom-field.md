@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ För att förbättra systemets prestanda och göra formulären enklare att anvä
 >
 >Du kan visa alla anpassade formulär och rapporter som använder ett anpassat fält som du vill ta bort för att avgöra vilka återverkningar som kan uppstå. Mer information finns i [Visa alla anpassade formulär som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) och [Visa alla rapporter som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >
->Du kan också, för att komma till en tillfällig lösning, undvika att förlora data i fält som inte längre används, se [Ta bort ett anpassat fält utan att förlora data som användarna har angett](#remove-a-custom-field-without-losing-data-that-users-have-entered) i den här artikeln.
+>Du kan också, för att komma runt problemet, undvika att förlora data i fält som inte längre används, se [Ta bort ett anpassat fält utan att förlora data som användare har angett](#remove-a-custom-field-without-losing-data-that-users-have-entered) i den här artikeln.
 
 ## Åtkomstkrav
 
@@ -53,16 +53,16 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ta bort ett anpassat fält eller en anpassad widget från systemet
 
 {{step-1-to-setup}}
 
-1. Klicka **Anpassad Forms.**
-1. Klicka **Fält** för att öppna området Fält.
+1. Klicka på **Anpassad Forms.**
+1. Klicka på **Fält** för att öppna fältområdet.
 1. Markera det anpassade fältet eller widgeten och klicka sedan på **Ta bort**.
-1. Om du är säker på att du vill ta bort objektet permanent och (om det är ett anpassat fält) alla associerade data på objekt där det bifogades, klickar du på **Ja, ta bort den**.
+1. Om du är säker på att du permanent vill ta bort objektet och (om det är ett anpassat fält) alla associerade data på objekt där det bifogades, klickar du på **Ja, Ta bort**.
 
 ## Ta bort ett anpassat fält utan att förlora data som användarna har angett {#remove-a-custom-field-without-losing-data-that-users-have-entered}
 
@@ -75,13 +75,12 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    1. Lägg till anpassade fält i det nya formuläret som du vill ta bort från det ursprungliga anpassade formuläret.
 
-      * Om du använder det anpassade formulärverktyget läser du [Återanvända ett anpassat fält eller en anpassad widget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * Om du använder formulärdesignern kan du läsa [Lägg till nya eller befintliga fält i det anpassade formuläret](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      Mer information finns i avsnittet [Lägg till nya eller befintliga fält i det anpassade formuläret](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. Spara det nya anpassade formuläret.
 
-1. Begränsa åtkomsten till det anpassade formuläret till användare med administrativ åtkomst, enligt beskrivningen i [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
-1. Använd det nya anpassade formuläret på de objekt där det ursprungliga anpassade formuläret redan används, enligt beskrivningen i [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Begränsa åtkomsten till det anpassade formuläret till användare med administrativ åtkomst, enligt beskrivningen i [Dela ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+1. Använd det nya anpassade formuläret på de objekt där det ursprungliga anpassade formuläret redan används, vilket beskrivs i [Lägg till ett anpassat formulär till ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
    Genom att använda det nya anpassade formuläret på dessa objekt säkerställs att historiska rapporteringsdata inte påverkas.
 

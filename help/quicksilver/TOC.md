@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '14438'
+source-wordcount: '14266'
 ht-degree: 0%
 
 ---
@@ -593,42 +593,21 @@ ht-degree: 0%
       * Anpassade formulär {#custom-forms}
          * [Anpassade formulär: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
          * [Översikt över anpassade formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-         * Äldre anpassad formulärbyggare {#custom-form-builder}
-            * Använd det anpassade formulärverktyget {#use-the-custom-form-builder}
-               * [Använda den äldre anpassade formulärverktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-               * [Skapa eller redigera ett anpassat formulär med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-               * [Kopiera ett anpassat formulär och skapa ett nytt med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-               * [Lägga till ett anpassat fält med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-               * [Lägga till en bild eller en annan resurswidget i ett anpassat formulär med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-               * [Lägga till en avsnittsbrytning med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-               * [Lägg till beräknade data med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-               * [Återanvända ett befintligt beräknat anpassat fält med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-               * [Placera anpassade fält och widgetar med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-               * [Dela för anpassade fält och widgetar med den äldre versionen av verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-               * [Återanvända ett anpassat fält eller en anpassad widget med den äldre versionen av verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-               * [Lägg till visningslogik och hoppa över logik med äldre verktyg](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-               * [Förhandsgranska och fyll i ett anpassat formulär med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-               * [Ta bort objekttyper i ett anpassat formulär med det äldre verktyget](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
-         * Formulärdesignern {#form-designer}
-            * [Formulärdesigner](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
-            * [Översikt över formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-            * Designa ett anpassat formulär {#design-a-form}
-               * [Designa ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-               * [Designa ett formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-               * [Designa ett formulär från en kopia med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
-               * [Lägg till beräknade fält med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-               * [Lägg till visningslogik och hoppa över logik med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-               * [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-               * [Organisera och förhandsgranska ett formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-            * Hantera ett formulär {#manage-a-form}
-               * [Hantera ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
-               * [Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
-               * [Byta namn på ett anpassat formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
-               * [Konfigurera delning för anpassade fält och widgetar med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
+         * Designa ett anpassat formulär {#design-a-form}
+            * [Designa ett formulär: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+            * [Designa ett formulär med formulärdesignern](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [Designa ett formulär från en kopia](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+            * [Lägga till beräknade fält i ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+            * [Lägga till visningslogik och hoppa över logik i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+            * [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+            * [Ordna och förhandsgranska ett formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * Hantera anpassade formulär {#manage-custom-forms}
-            * [Hantera anpassade formulär och fält](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [Hantera anpassade formulär och fält: artikelindex](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+            * [Lägga till eller ta bort objekttyper från ett befintligt anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+            * [Byta namn på ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+            * [Konfigurera delning för anpassade fält och widgetar i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
             * [Dela ett eget formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-            * [Åtkomst till anpassade fält](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+            * [Åtkomst till ett delat anpassat fält](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
             * [Inaktivera eller återaktivera ett anpassat formulär](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
             * [Referera till anpassade formulär i rapporter](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
             * [Visa rapporter som använder anpassade fält eller widgetar](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)

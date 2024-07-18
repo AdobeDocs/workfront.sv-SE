@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Skapa en godkännandemall för resurser och dokument
 
-<span class="preview">Informationen på den här sidan avser funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningssandlådemiljön.</span>
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 I området Workfront Setup kan användare med en standardlicens skapa återanvändbara godkännandemallar. När du har skapat mallar för godkännande kan du använda dem på resurser i dokumentområdet för ett projekt, en uppgift eller en utgåva.
 
@@ -45,21 +45,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en godkännandemall
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **Granskning och godkännande** > **Godkännandemallar**.
-1. Klicka **Ny mall** till höger på sidan.
+1. Klicka på **Granska och godkänn** > **Godkännandemallar** i den vänstra panelen.
+1. Klicka på **Ny mall** till höger på sidan.
 1. Ange följande information:
 
    | Mallnamn | Börja skriva ett namn för mallen. |
    |----------------------------|---|
    | **(Valfritt) Tidsram** | Ange tidsramen i dagar. Tidsgränsen för godkännande beräknas från det här fältet när mallen tillämpas på en resurs. |
    | **Lägg till godkännare eller granskare** | Börja skriva namnet på användare eller team och ange dem sedan som granskare eller godkännare. |
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 

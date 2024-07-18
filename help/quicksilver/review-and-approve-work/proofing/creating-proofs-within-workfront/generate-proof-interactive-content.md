@@ -27,7 +27,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Gammal plan: Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -39,12 +39,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Skapa ett korrektur för interaktivt innehåll i en ZIP-fil
 
@@ -63,10 +63,10 @@ När du lägger till interaktivt innehåll i en ZIP-fil till ett korrektur skapa
    * När det gäller ZIP-filer som skapats i iOS identifierar verktyget automatiskt rätt mapp där innehållet placeras.
 
 1. Gå till projektet, aktiviteten eller utgåvan där du vill överföra ZIP-filen.
-1. Klicka **Dokument** i den vänstra panelen .
-1. Klicka **Lägg till ny** och sedan klicka **Korrektur** på menyn som visas.
-1. I **Lägg till filer** , dra och släpp eller bläddra efter den ZIP-fil du behöver.
-1. Klicka **Skapa korrektur** för att skapa ett enkelt korrektur utan någon granskningsprocess.\
+1. Klicka på **Dokument** i den vänstra panelen.
+1. Klicka på **Lägg till ny** och sedan på **Korrektur** på den meny som visas.
+1. I avsnittet **Lägg till filer** drar och släpper du eller bläddrar efter den ZIP-fil du behöver.
+1. Klicka på **Skapa korrektur** om du vill skapa ett enkelt korrektur utan någon granskningsprocess.\
    eller\
    Fortsätt genom att konfigurera ett avancerat korrektur:
 

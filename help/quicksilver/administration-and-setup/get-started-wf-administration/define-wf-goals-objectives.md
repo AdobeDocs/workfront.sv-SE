@@ -37,7 +37,7 @@ Du kan uppnå detta i Workfront genom att konfigurera följande:
 
 * Skapa en Workfront Request Queue för att hantera specifika förfrågningar inom organisationen.
 
-  Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  Mer information om frågeköer finns i [Skapa en frågekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 * Skapa en rapport för att visa eventuella utestående problem som inte stängts inom 5 dagar.
 
@@ -64,7 +64,7 @@ Du kan uppnå detta i Workfront genom att konfigurera följande:
 
 * Skapa en kontrollpanel som visar hur årets projektportföljer fortskrider.
 
-  Mer information om hur du skapar en kontrollpanel finns i [Skapa en instrumentpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+  Mer information om hur du skapar en kontrollpanel finns i [Skapa en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Förbättra kvaliteten på tjänsterna med bättre hantering av interna processer
 

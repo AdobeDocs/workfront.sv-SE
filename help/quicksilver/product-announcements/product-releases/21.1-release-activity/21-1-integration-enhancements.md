@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla integreringsförbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1 - versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1-versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Förbättringar av Adobe Workfront-meddelanden i Microsoft Teams
 

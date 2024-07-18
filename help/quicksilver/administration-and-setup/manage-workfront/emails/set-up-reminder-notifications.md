@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,17 +77,17 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
 
 {{step-1-to-setup}}
 
-1. Klicka **E-post** > **Meddelanden** > **Påminnelsemeddelanden**.
+1. Klicka på **E-post** > **Meddelanden** > **Påminnelsemeddelanden**.
 
    ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
-1. Klicka **Nytt påminnelsemeddelande**.
+1. Klicka på **Nytt påminnelsemeddelande**.
 
 1. Klicka på den objekttyp som du vill associera med påminnelsemeddelandet i listrutan.
 
    Om du till exempel vill bifoga en påminnelse till en tidrapport klickar du på **Tidrapport**.
 
-1. I **Nytt påminnelsemeddelande** anger du följande information.
+1. Ange följande information i rutan **Nytt påminnelsemeddelande** som visas.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -99,7 +99,7 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
      </tr> 
      <tr> 
       <td role="rowheader">Kvalificeringsperiod</td> 
-      <td> <p>Ange antalet timmar, arbetsdagar, dagar (kalenderdagar), veckor eller månader före eller efter datumet i <strong>Timing</strong> fält.</p> <p><b>ANMÄRKNING</b>:  
+      <td> <p>Ange antalet timmar, arbetsdagar, dagar (kalenderdagar), veckor eller månader före eller efter datumet i fältet <strong>Timing</strong>.</p> <p><b>OBS</b>:  
         <ul> 
          <li> <p>Påminnelsemeddelanden börjar 24 timmar efter det angivna datumet och när alla villkor är uppfyllda.</p> </li> 
          <li> <p>Påminnelsemeddelanden för projekt, uppgifter och utgåvor som utlöses varje kväll vid midnatt i USA Mountain Time. Alla objekt som är berättigade till ett påminnelsemeddelande från den dagen utlöser ett meddelande till de avsedda användarna kort efter den tidpunkten.</p> </li> 
@@ -122,13 +122,13 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
       <td role="rowheader">Kriterier</td> 
       <td> <p>Välj villkoren för att kvalificera påminnelsemeddelandet som ska schemaläggas. Påminnelsemeddelanden är inte schemalagda såvida inte valet av villkor uppfylls.</p> <p>Följande villkorsalternativ är tillgängliga, beroende på vilken objekttyp du valde i steg 4:</p> 
        <ul> 
-        <li><strong>Ofullständigt i aktuella projekt:</strong> <i>(Tillgängligt för uppgifter och utgivningspåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas endast när objektstatusen som påminnelsemeddelandet är associerat med inte är Fullständig och projektstatusen är Aktuell.</li> 
-        <li><strong>Alla i aktuella projekt:</strong> <i>(Tillgängligt för uppgifter och utgivningspåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas oavsett objektstatus och endast när det projektstatus som påminnelsemeddelandet är kopplat till är Aktuell.</li> 
-        <li><strong>Ofullständiga projekt:</strong> <i>(Tillgängligt för projektpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när projektstatusen är något annat än Fullständigt.</li> 
+        <li><strong>Ofullständigt i aktuella projekt:</strong> <i>(Tillgängligt för påminnelser om aktiviteter och ärenden)</i> Påminnelsemeddelandet schemaläggs att endast skickas när objektstatusen som påminnelsemeddelandet är associerat med inte är Fullständigt och projektstatusen är Aktuell.</li> 
+        <li><strong>Alla i aktuella projekt:</strong> <i>(Tillgängligt för påminnelser om aktiviteter och utleveranser)</i> Påminnelsemeddelandet schemaläggs att skickas oavsett objektstatus och endast när det projektstatus som påminnelsemeddelandet är associerat med är Aktuell.</li> 
+        <li><strong>Ofullständiga projekt:</strong> <i>(Tillgängligt för projektpåminnelser)</i> Påminnelsemeddelandet är schemalagt att skickas när projektstatusen är något annat än Fullständigt.</li> 
         <li><strong>Alla projekt:</strong> <i>(Tillgängligt för projektpåminnelser)</i> Påminnelsemeddelandet är schemalagt att skickas oavsett projektstatus.</li> 
-        <li><strong>Öppna tidrapporter:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatusen är öppen.</li> 
-        <li><strong>Skickade tidrapporter:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatus har skickats.</li> 
-        <li><strong>Öppna tidrapport eller mindre än 40 timmar per vecka:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatusen är öppen eller när tidrapporten har loggats under 40 timmar.</li> 
+        <li><strong>Öppna tidrapporter:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatus är Öppen.</li> 
+        <li><strong>Skickade tidrapporter:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatusen har skickats.</li> 
+        <li><strong>Öppna tidrapport eller mindre än 40 timmar per vecka:</strong> <i>(Tillgängligt för tidrapportpåminnelser)</i> Påminnelsemeddelandet schemaläggs att skickas när tidrapportstatusen är öppen eller när tidrapporten har loggats mindre än 40 timmar.</li> 
         <li><strong>E-postmall:</strong> I listrutan väljer du en e-postmall som ska bifogas påminnelsen.<br>Mer information om hur du skapar en e-postmall finns i <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Konfigurera e-postmallar</a>.</li> 
        </ul> </td> 
      </tr> 
@@ -150,14 +150,14 @@ Mer information om hur du skapar en e-postmall finns i [Konfigurera e-postmallar
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
-1. Bifoga påminnelsemeddelandet till en arbetsuppgift enligt beskrivningen i [Bifoga ett påminnelsemeddelande till ett objekt](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
+1. Klicka på **Spara**.
+1. Bifoga påminnelsemeddelandet till ett arbetsobjekt, så som beskrivs i [Bifoga ett påminnelsemeddelande till ett objekt](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## Få en påminnelseavisering
 
 När villkoret är uppfyllt för det objekt som har påminnelsemeddelandet bifogat, utlöses ett e-postmeddelande till användaren som definierats i påminnelsemeddelandet.
 
-Mer information om hur du tar emot påminnelsemeddelanden finns i [Påminnelsemeddelanden](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) avsnitt i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md).
+Mer information om att ta emot påminnelsemeddelanden finns i avsnittet [Påminnelsemeddelanden](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) i [Adobe Workfront-meddelanden](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Leverans av testpåminnelsemeddelanden
 
@@ -170,9 +170,9 @@ Så här aktiverar du ett påminnelsemeddelande manuellt:
 
 {{step-1-to-setup}}
 
-1. Klicka **System** > **Diagnostik** i det nedre vänstra hörnet av Workfront.
+1. Klicka på **System** > **Diagnostik** i det nedre vänstra hörnet av Workfront.
 
-1. Klicka **Skicka påminnelsemeddelanden** och vänta på att de skickas.
+1. Klicka på **Skicka påminnelsemeddelanden** och vänta på bekräftelsen högst upp på skärmen att de har skickats.
 
    De användare som anges i påminnelsemeddelandet får ett e-postmeddelande.
 

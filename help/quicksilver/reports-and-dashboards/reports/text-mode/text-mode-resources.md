@@ -27,13 +27,13 @@ Använd följande dokumentation om du vill veta mer om hur gränssnittet Textlä
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Översikt över textläge](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
+* [Textläge - översikt](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
 * [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Redigera en vy i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [Redigera textläge i en gruppering](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-* [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Egna exempel på vy, filter och gruppering: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -49,7 +49,7 @@ Det här avsnittet innehåller följande artiklar:
   </MadCap:conditionalText>
   -->
 
-* [Använda villkorsstyrd formatering i textläge](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
+* [Använd villkorlig formatering i textläge](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
 * [Formatera datum i textlägesrapporter](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Formatera tal, valuta och procentvärden i textlägesrapporter](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
 * [Jämför fält i villkorlig formatering](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)

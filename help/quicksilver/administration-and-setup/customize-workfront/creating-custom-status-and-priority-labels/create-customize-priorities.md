@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,30 +50,30 @@ Som Workfront-administratör kan du göra följande ändringar av standardpriori
 * Byt namn på prioriteter.
 * Ändra ordningen på prioriteterna.
 
-   Mer information om hur du ändrar ordning på prioriteter finns i [Skapa en prioritet för en projektuppgift eller ett ärende](#create-a-priority-for-a-project-task-or-issue).
+  Mer information om hur du ändrar ordning på prioriteter finns i [Skapa en prioritet för en projektuppgift eller Problem](#create-a-priority-for-a-project-task-or-issue).
 
 * Ändra standardprioritet.
 
-   Mer information om hur du ändrar standardprioritet finns i [Skapa en prioritet för en projektuppgift eller ett ärende](#create-a-priority-for-a-project-task-or-issue).
+  Mer information om hur du ändrar standardprioritet finns i [Skapa en prioritet för en projektuppgift eller ett problem](#create-a-priority-for-a-project-task-or-issue).
 
 * Redigera beskrivningen för prioriteterna.
 * Ange en färg för varje prioritet.
 
-   Färgen på prioriteten används i diagramrapporter när du grupperar resultaten efter **Prioritet**.
+  Färgen på prioriteten används i diagramrapporter när du grupperar dina resultat efter **Prioritet**.
 
-   Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Mer information om diagramrapporter finns i [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* Ta bort prioriteringar.
+* Ta bort prioriteter.
 
-   När du tar bort en befintlig prioritet måste du välja en annan.
+  När du tar bort en befintlig prioritet måste du välja en annan.
 
 * Dölj prioriteter.
 
-   Mer information om hur du döljer prioriteter finns i [Skapa en prioritet för en projektuppgift eller ett ärende](#create-a-priority-for-a-project-task-or-issue).
+  Mer information om hur du döljer prioriteter finns i [Skapa en prioritet för en projektuppgift eller ett problem](#create-a-priority-for-a-project-task-or-issue).
 
-   >[!NOTE]
-   >
-   >Du måste ha minst en prioritet i ditt Workfront-konto för varje objekt.
+  >[!NOTE]
+  >
+  >Du måste ha minst en prioritet i ditt Workfront-konto för varje objekt.
 
 Prioriteringarna som anges som standard för varje objekttyp (projekt, uppgift och utgåva) är identiska:
 
@@ -87,12 +87,12 @@ Prioriteringarna som anges som standard för varje objekttyp (projekt, uppgift o
 
 Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteringar som speglar organisationens behov.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Projektinställningar** > **Prioriteringar**.
+1. Klicka på **Projektinställningar** > **Prioriteter** i den vänstra panelen.
 
-1. Klicka på fliken för den objekttyp som du vill skapa en prioritet för (**Projekt**, **Uppgift**, eller **Problem**).
-1. Klicka **Lägg till en ny prioritet**.
+1. Klicka på fliken för den objekttyp som du vill skapa en prioritet för (**Projekt**, **Aktivitet** eller **Problem**).
+1. Klicka på **Lägg till en ny prioritet**.
 1. Ange följande information för den nya prioriteten:
 
    <table style="table-layout:auto"> 
@@ -105,7 +105,7 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
      </tr> 
      <tr> 
       <td role="rowheader">Prioritet</td> 
-      <td> <p>När du lägger till en ny prioritet tilldelas den som standard ett nummer. Redigera det här numret om det inte passar dina behov.</p> <p>The <strong>Prioritet</strong> talet för varje prioritet måste vara unikt för det markerade objektet.<br>Antalet prioriteter återspeglar hur viktigt projektet, uppgiften eller frågan är: det högsta talet motsvarar den högsta prioriteten.</p> <p><b>ANMÄRKNING</b>: Du kan inte redigera prioritetsnumret när du har sparat prioriteten. </p> </td> 
+      <td> <p>När du lägger till en ny prioritet tilldelas den som standard ett nummer. Redigera det här numret om det inte passar dina behov.</p> <p><strong>Importance</strong>-numret för varje prioritet måste vara unikt för det valda objektet.<br>Antalet prioriteter återspeglar vikten av projektet, aktiviteten eller utgåvan: det högsta antalet motsvarar den högsta prioriteten.</p> <p><b>Obs!</b> Du kan inte redigera prioritetsnumret när du har sparat prioriteten. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Färg</td> 
@@ -113,7 +113,7 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
      </tr> 
      <tr> 
       <td role="rowheader">Standardprioritet</td> 
-      <td> <p>Bestäm om detta ska vara standardprioritet eller inte genom att markera alternativknappen.</p> <p>Om en prioritet anges som <strong>Standardprioritet</strong>väljs den automatiskt för alla projekt, uppgifter eller utgåvor i Workfront. <strong>Normal</strong> är standardprioritet för alla objekt i Workfront.</p> </td> 
+      <td> <p>Bestäm om detta ska vara standardprioritet eller inte genom att markera alternativknappen.</p> <p>Om en prioritet har angetts som <strong>standardprioritet</strong> väljs den automatiskt för alla projekt, aktiviteter eller utgåvor i Workfront. <strong>Normal</strong> är standardprioritet för alla objekt i Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beskrivning</td> 
@@ -121,14 +121,14 @@ Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteri
      </tr> 
      <tr> 
       <td role="rowheader">Dölj</td> 
-      <td> <p>Markera den här rutan om du vill dölja prioriteten.</p><p>När du väljer <b>Dölj</b> prioriteten visas inte någonstans i Workfront och användarna kan inte välja den för sina projekt, uppgifter och ärenden.</p> 
+      <td> <p>Markera den här rutan om du vill dölja prioriteten.</p><p>När du väljer alternativet <b>Dölj</b> visas inte prioriteten någonstans i Workfront och användarna kan inte välja den för sina projekt, uppgifter och ärenden.</p> 
       <p><b>VIKTIGT</b>: Vi rekommenderar att du döljer de prioriteringar som du inte längre vill använda, i stället för att ta bort dem. Genom att dölja dem sparar du fortfarande alla historiska data om objekt som har slutförts med den här prioriteten, samtidigt som du förhindrar att andra väljer den här prioriteten i framtiden. </p>
-      <p>Om du vill kan du ändra ordningen på prioriteterna genom att dra och släppa dem i önskad ordning. Detta ändrar visningsordningen för projekt, uppgifter och ärenden. Detta ändrar inte <b>Prioritet</b> tal. </p></td> 
+      <p>Om du vill kan du ändra ordningen på prioriteterna genom att dra och släppa dem i önskad ordning. Detta ändrar visningsordningen för projekt, uppgifter och ärenden. Detta ändrar inte <b>Importance</b>-numret. </p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 Instruktioner om hur du prioriterar projekt, uppgifter och problem finns i följande artiklar:
 

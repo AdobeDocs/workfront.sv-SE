@@ -8,8 +8,8 @@ feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
 source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '354'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -46,20 +46,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Flytta en artikel från en iteration eller en kanban-tavla till eftersläpningen
 
 1. Gå till den iteration eller den kanban-panel som innehåller artikeln som du vill flytta till eftersläpningen.
-1. Klicka på upprepningsrubriken överst på sidan.
-1. På **[!UICONTROL Stories]** markerar du de artiklar som du vill flytta.
-1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Move to]**.
+1. Klicka på iterationshuvudet högst upp på sidan.
+1. Markera de artiklar som du vill flytta på fliken **[!UICONTROL Stories]**.
+1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Move to]**.
 
-   The **[!UICONTROL Move Story]** visas.
+   Dialogrutan **[!UICONTROL Move Story]** visas.
 
    ![Dialogrutan Flytta artikel](assets/iteration-story-move.png)
 
-1. Välj *team_name*&#39;s Backlog.\
+1. Välj eftersläpning för *team_name*.\
    I ovanstående exempel är teamnamnet &#x200B; **Marknadsföring.**
 
 1. Klicka på **[!UICONTROL Move Story]**.
@@ -70,21 +70,21 @@ Du kan flytta en berättelse till en annan upprepning för ditt Scrum-team.
 
 >[!NOTE]
 >
->The **[!UICONTROL Move to]** är inte tillgängligt för överordnade artiklar på en iteration. Du kan bara flytta underaktiviteter till en annan iteration.
+>Alternativet **[!UICONTROL Move to]** är inte tillgängligt för överordnade artiklar i en iteration. Du kan bara flytta underaktiviteter till en annan iteration.
 
 1. Gå till den iteration som innehåller artikeln som du vill flytta.
-1. Klicka på upprepningsrubriken överst på sidan.
-1. På **[!UICONTROL Stories]** markerar du de artiklar som du vill flytta.
+1. Klicka på iterationshuvudet högst upp på sidan.
+1. Markera de artiklar som du vill flytta på fliken **[!UICONTROL Stories]**.
 1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Move to]**.
 
-   The **[!UICONTROL Move Story]** visas.
+   Dialogrutan **[!UICONTROL Move Story]** visas.
 
    ![Dialogrutan Flytta artikel](assets/iteration-story-move.png)
 
-1. Välj **[!UICONTROL Another Iteration]** väljer du den iteration där du vill flytta artikeln i listrutan.
+1. Välj **[!UICONTROL Another Iteration]** och välj sedan den iteration där du vill flytta artikeln i den nedrullningsbara menyn.
 
    >[!NOTE]
    >
-   >Arbetsuppgiften [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] påverkas av en inställning på [!UICONTROL Edit Team] sida. Mer information finns i avsnittet [[!UICONTROL Configure] hur datum används när arbetsobjekt läggs till i en iteration](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Arbetsobjektet [!UICONTROL Planned Start Date] och [!UICONTROL Planned Completion Date] påverkas av en inställning på sidan [!UICONTROL Edit Team]. Mer information finns i avsnittet [[!UICONTROL Configure] om hur datum tillämpas när arbetsobjekt läggs till i en iteration](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera repet](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicka på **[!UICONTROL Move Story]**.

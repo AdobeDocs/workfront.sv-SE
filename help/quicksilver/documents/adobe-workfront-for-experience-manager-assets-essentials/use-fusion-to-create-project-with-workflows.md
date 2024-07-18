@@ -62,11 +62,11 @@ Du måste ha följande:
    </td>
   </tr>
   <tr>
-   <td><strong>Konfigurationer på åtkomstnivå*</strong>
+   <td><strong>Åtkomstnivåkonfigurationer*</strong>
    </td>
    <td>Redigera åtkomst till dokument
      <p>
-       <strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
+       <strong>Obs! </strong>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <strong>Skapa eller ändra anpassade åtkomstnivåer</strong>.
      </p>
    </td>
   </tr>
@@ -86,19 +86,19 @@ Innan du börjar,
 
 Om du vill skapa ett projekt som innehåller Adobe Experience Manager-arbetsflöden i Workfront Fusion måste du använda modulen Workfront > Div-åtgärd.
 
-1. Lägg till **Workfront** > **Div-åtgärd** till ditt scenario.
-1. I **Anslutning** markerar du den Workfront-anslutning som ansluter till det konto som modulen ska använda.
+1. Lägg till modulen **Workfront** > **Div åtgärd** i ditt scenario.
+1. I fältet **Anslutning** väljer du den Workfront-anslutning som ansluter till kontot som den här modulen ska använda.
 
    Instruktioner om hur du skapar en anslutning finns i [Anslut [!DNL Workfront] till [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) i artikeln Workfront-moduler.
 
    Instruktioner om hur du skapar klient-ID och klienthemlighet som du måste skapa en anslutning finns i [Skapa ett OAuth-program](#create-an-oauth-application) i den här artikeln.
 
-1. I **Posttyp** fält, markera `Issue`.
-1. I **Åtgärd** fält, markera `convertToProject`.
-1. I **ID** ska du ange eller mappa ID:t för problemet som du konverterar till ett projekt.
+1. Välj `Issue` i fältet **Posttyp**.
+1. Välj `convertToProject` i fältet **Åtgärd**.
+1. Ange eller mappa ID:t för det problem som du konverterar till ett projekt i fältet **ID**.
 1. Aktivera **Visa avancerade inställningar**.
-1. Rulla längst ned i modulen och leta upp **Projekt (avancerad samling)** fält.
-1. Klistra in följande text i **Projekt (avancerad samling)** fält.
+1. Bläddra längst ned i modulen och leta upp fältet **Projekt (avancerad samling)**.
+1. Klistra in följande text i fältet **Projekt (avancerad samling)**.
 
    ```
    {
@@ -111,7 +111,7 @@ Om du vill skapa ett projekt som innehåller Adobe Experience Manager-arbetsflö
 
 1. Ersätt `Folder tree ID here` med mapp-ID:n.
 
-   Information om hur du hittar mappträds-ID finns i [Leta rätt på mappträds-ID:n](#locate-folder-tree-ids) i den här artikeln.
+   Mer information om hur du hittar mappträds-ID finns i [Leta reda på mappträds-ID](#locate-folder-tree-ids) i den här artikeln.
 
    Om du vill använda mer än ett mappträd avgränsar du ID:n med kommatecken:
 
@@ -121,7 +121,7 @@ Om du vill skapa ett projekt som innehåller Adobe Experience Manager-arbetsflö
 
    Du kan mappa mall-ID från en tidigare modul (till exempel en Workfront > Sökmodul) eller leta reda på det i URL:en till mallsidan i Workfront.
 
-1. Klicka **OK** för att spara modulkonfigurationen.
+1. Klicka på **OK** för att spara modulkonfigurationen.
 
 ## Leta rätt på mappträds-ID:n
 
@@ -129,17 +129,17 @@ Så här hittar du mappträds-ID:n:
 
 >[!NOTE]
 >
->De här instruktionerna använder webbläsaren Chrome.
+>De här instruktionerna använder Chrome webbläsare.
 
 1. Öppna den mall som du vill använda för det här projektet i Workfront. Den här mallen måste innehålla den Adobe Experience Manager-konfiguration som du vill använda för projektet.
 1. Öppna utvecklarverktygen för webbläsaren.
-1. Öppna **Nätverk** i utvecklingsverktygen.
-1. I **Filter** ruta, ange `object-workflow`.
+1. Öppna fliken **Nätverk** i utvecklarverktygen.
+1. Ange `object-workflow` i rutan **Filter**.
 1. Klicka på det alfanumeriska ID:t som visas i kolumnen Namn.
 
    ![Söker efter mapp-ID 1](assets/finding-folder-id-1.png)
 
-1. Klicka på **Förhandsgranska** till höger om det alfanumeriska ID:t.
+1. Klicka på fliken **Förhandsgranska** till höger om det alfanumeriska ID:t.
 1. Öppna följande komprimerade avsnitt:
    1. `data`
    1. `objectWorkflow`
@@ -149,25 +149,25 @@ Så här hittar du mappträds-ID:n:
 
    Varje mappträd representeras av en siffra. 0 (noll) representerar den första mappen i listan, 1 representerar den andra och så vidare. Om mallen bara innehåller ett mappträd är det 0.
 
-1. Öppna mappträdet som du vill använda för det nya projektet. Anteckna `_id` fältvärde. Om du vill använda mer än ett mappträd bör du tänka på alla `_id` fältvärden för de mappträd som du vill använda.
+1. Öppna mappträdet som du vill använda för det nya projektet. Notera fältvärdet `_id`. Om du vill använda mer än ett mappträd bör du notera alla `_id`-fältvärden för de mappträd som du vill använda.
 
    ![Söker efter mapp-ID 2](assets/finding-folder-id-2.png)
 
-   De här är `aemNativeFolderTreeIDs`  värden som du anger i **Projekt (avancerad samling)** fältet i **Workfront** > **Diverse åtgärder** Fusion-modul.
+   Detta är de `aemNativeFolderTreeIDs` värden som du anger i fältet **Projekt (avancerad samling)** i **Workfront** > **Andra åtgärder** Fusion-modulen.
 
 ## Skapa ett OAuth-program
 
 Du måste konfigurera ett OAuth-program i Workfront för den här modulens anslutning. Du behöver bara göra detta en gång för en viss Workfront-anslutning i Fusion.
 
-1. I Workfront börjar du skapa ett OAuth-program enligt beskrivningen i [Skapa ett OAuth2-program med användarens inloggningsuppgifter (kodflöde för auktorisering)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) i artikeln Create OAuth2 applications for [!DNL Workfront] integreringar.
+1. I Workfront börjar du skapa ett OAuth-program enligt beskrivningen i [Skapa ett OAuth2-program med hjälp av användarautentiseringsuppgifter (auktoriseringskodflöde)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) i artikeln Skapa OAuth2-program för [!DNL Workfront]-integreringar.
 1. Kopiera klient-ID och klienthemlighet till en säker plats.
-1. I **Omdirigera URI:er** anger du följande:
+1. Ange följande i fältet **Omdirigerings-URI**:
 
    ```
    http://app.workfrontfusion.com/oauth/cb/workfront-workfront
    ```
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 Du använder detta klient-ID och klienthemlighet när du konfigurerar modulens anslutning i Fusion.
 

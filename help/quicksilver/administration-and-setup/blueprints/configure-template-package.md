@@ -10,7 +10,7 @@ role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licens</strong></td>
+   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td>
    <td>[!UICONTROL Plan]</td> 
   </tr> 
   <tr> 
@@ -45,12 +45,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Konfigurera en projektmallsplan
 
 1. Hitta den plan du vill använda.
-1. Klicka **[!UICONTROL Install]** väljer du sedan en miljö:
+1. Klicka på **[!UICONTROL Install]** och välj sedan en miljö:
 
    <table style="table-layout:auto">
         <tr>
         <td><strong>Produktion</strong></td>
-        <td>Produktionen är er aktiva miljö.</td>
+        <td>Produktionen är er livemiljö.</td>
     </tr>
     <tr>
         <td><strong>Förhandsgranska sandlåda</strong></td>
@@ -76,15 +76,15 @@ Välj hur du vill installera mallen.
 
 Du kan också ange mallägandeskap innan du installerar ritningen. Du kan ändra de här fälten när mallen har installerats. Mer information finns i [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-![[!UICONTROL Template Preferences] section](assets/Blueprints_TemplatePreferences.png)
+![[!UICONTROL Template Preferences] avsnitt ](assets/Blueprints_TemplatePreferences.png)
 
-1. I [!UICONTROL Template Preferences] anger du ett nytt mallnamn.
+1. Ange ett nytt mallnamn i avsnittet [!UICONTROL Template Preferences].
 1. Ange följande:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Template owner]<strong></td>
-        <td>Den här personen tar emot [!UICONTROL Manage] behörigheter för mallen och blir projektägare när mallen används för att skapa ett projekt.</td>
+        <td>Den här personen får [!UICONTROL Manage] behörigheter i mallen och blir projektägare när mallen används för att skapa ett projekt.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Template sponsor]</strong></td>
@@ -103,7 +103,7 @@ Du kan också ange mallägandeskap innan du installerar ritningen. Du kan ändra
 1. Välj om mallen ska installeras som aktiv eller inaktiv.
 1. Välj om du vill använda de definierade inställningarna för nya utgåvor, om det finns några inställningar.
 
-   Klicka **[!UICONTROL See issue preferences]** om du vill visa de specifika inställningar som ska installeras med planen. Projekt som skapas från den importerade mallen använder de här inställningarna för nya utgåvor som läggs till i [!UICONTROL Issues] -avsnitt.
+   Klicka på **[!UICONTROL See issue preferences]** om du vill granska de inställningar som ska installeras med planen. Projekt som skapas från den importerade mallen använder de här inställningarna för nya utgåvor som läggs till i avsnittet [!UICONTROL Issues].
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,17 +126,16 @@ Du kan också ange mallägandeskap innan du installerar ritningen. Du kan ändra
 
    >[!INFO]
    >
-   >**Exempel:** De nya utgåvsinställningarna i den här planen innehåller fyra köteman. Användaren väljer ett av dessa ämnen när han/hon skapar ett problem. (Eftersom det bara finns en ämnesgrupp används den automatiskt och användaren behöver inte markera den.) När användaren har slutfört och skickat problemet avgör routningsreglerna vilken jobbroll eller vilket team det är tilldelat.
-   >![Exempel på inställningar för nya utgåvor](assets/Blueprints_IssuePrefsDetails.png)
+   >**Exempel:** De nya utgåvsinställningarna i den här planen innehåller fyra köämnen. Användaren väljer ett av dessa ämnen när han/hon skapar ett problem. (Eftersom det bara finns en ämnesgrupp används den automatiskt och användaren behöver inte markera den.) När användaren har slutfört och skickat problemet avgör routningsreglerna vilken jobbroll eller vilket team det är tilldelat.
+   >![Exempelinställningar för nya utgåvor](assets/Blueprints_IssuePrefsDetails.png)
    >![Köämnen för nya utgåvor](assets/blueprints-newissueqtopicsexample-350x204.png)
-   >![Utleverans dirigerad till jobbroll](assets/Blueprints_ProjectShowsIssueAssignment.png)
+   >![Utfärdandet har vidarebefordrats till jobbrollen](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
    >
    >* Genom att använda inställningarna för problem kan du skapa ett konsekvent sätt att hantera nya utgåvor eller förfrågningar i dina projekt.
-   >* När du anger de här inställningarna konverteras inte projekt som skapas från mallen automatiskt till begärandeköer. Mer information om hur du ställer in en begärandekö finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >* När du anger de här inställningarna konverteras inte projekt som skapas från mallen automatiskt till begärandeköer. Mer information om hur du konfigurerar en begärandekö finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
    >* Alla utkast innehåller inte nya inställningar för utgåvor.
-
 
 
 ## [!UICONTROL Role mapping] {#role-mapping}
@@ -145,11 +144,11 @@ Du kan också ange mallägandeskap innan du installerar ritningen. Du kan ändra
 >
 >Det här avsnittet kanske inte visas i vissa ritningar.
 
-Vissa mallar innehåller förskrivna jobbroller. Med jobbroller kan du tilldela rätt personer när mallen konverteras till ett projekt. Du kan anpassa hur roller mappas innan du installerar ritningen. Klicka **[!UICONTROL See role descriptions]** om du vill veta mer om de roller som finns i planen.
+Vissa mallar innehåller förskrivna jobbroller. Med jobbroller kan du tilldela rätt personer när mallen konverteras till ett projekt. Du kan anpassa hur roller mappas innan du installerar ritningen. Klicka på **[!UICONTROL See role descriptions]** om du vill veta mer om de roller som är tillgängliga i planen.
 
 Planen söker efter rollnamnet för att se om några befintliga roller matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga roller matchar kan du skapa dem i en plan.
 
-![[!UICONTROL Role Mapping] section](assets/Blueprints_RoleMapping.png)
+![[!UICONTROL Role Mapping] avsnitt ](assets/Blueprints_RoleMapping.png)
 
 1. Om det finns en roll kan du välja något av följande alternativ:
 
@@ -166,9 +165,9 @@ Planen söker efter rollnamnet för att se om några befintliga roller matchar. 
 
 >[!NOTE]
 >
->Installationsprocessen använder inte roller för specifika personer. Du bör verifiera personerna i dessa roller efter att du har installerat lösningen för utkast och tilldela personer om det behövs. Mer information finns i [Åtgärder som ska vidtas efter installation av en plan](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Installationsprocessen använder inte roller för specifika personer. Du bör verifiera personerna i dessa roller efter att du har installerat lösningen för utkast och tilldela personer om det behövs. Mer information finns i [Åtgärder som ska vidtas efter att en plan har installerats](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Mer information om jobbroller i [!DNL Workfront], se [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Mer information om jobbroller i [!DNL Workfront] finns i [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## [!UICONTROL Team mapping] {#team-mapping}
 
@@ -176,30 +175,30 @@ Mer information om jobbroller i [!DNL Workfront], se [Skapa och hantera jobbroll
 >
 >Det här avsnittet kanske inte visas i vissa ritningar.
 
-Vissa mallar innehåller förskrivna team. Arbetet som tilldelats ett team kan utföras av alla medlemmar i teamet. Du kan anpassa hur team mappas innan du installerar planen. Klicka **[!UICONTROL See team descriptions]** om du vill veta mer om de team som finns i planen.
+Vissa mallar innehåller förskrivna team. Arbetet som tilldelats ett team kan utföras av alla medlemmar i teamet. Du kan anpassa hur team mappas innan du installerar planen. Klicka på **[!UICONTROL See team descriptions]** om du vill veta mer om vilka team som finns tillgängliga i planen.
 
 Planen söker efter teamets namn för att se om några befintliga team matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga team matchar kan du skapa dem i en plan.
 
-![[!UICONTROL Team Mapping] section](assets/Blueprints_TeamMapping.png)
+![[!UICONTROL Team Mapping] avsnitt ](assets/Blueprints_TeamMapping.png)
 
 1. Om ett team finns kan du välja något av följande alternativ:
 
    1. Skapa ett nytt team med ett annat namn och skriv namnet i textrutan.
-   1. Använd [!UICONTROL existing team]väljer du sedan ett team i valrutan.
+   1. Använd [!UICONTROL existing team] och välj sedan ett team i valrutan.
    1. Använd inte mappat team. Det här alternativet rekommenderas inte eftersom vissa uppgifter inte har tilldelats några team.
 
 1. Om ett team inte finns kan du välja något av följande alternativ:
 
-   1. Skapa ett nytt team. Det här alternativet skapar teamet som vi rekommenderar.
+   1. Skapa ett nytt team. Med det här alternativet skapas teamet som vi rekommenderar.
    1. Skapa ett nytt team med ett annat namn och skriv namnet i textrutan.
-   1. Använd [!UICONTROL existing team]väljer du sedan ett team i valrutan.
+   1. Använd [!UICONTROL existing team] och välj sedan ett team i valrutan.
    1. Använd inte mappat team. Det här alternativet rekommenderas inte eftersom vissa uppgifter inte har tilldelats några team.
 
 >[!NOTE]
 >
->Installationsprocessen lägger inte till personer i teamen. Du bör verifiera personerna i teamet efter att du har installerat lösningen för utkast och tilldela personer om det behövs. Mer information finns i [Åtgärder som ska vidtas efter installation av en plan](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Installationsprocessen lägger inte till personer i teamen. Du bör verifiera personerna i teamet efter att du har installerat lösningen för utkast och tilldela personer om det behövs. Mer information finns i [Åtgärder som ska vidtas efter att en plan har installerats](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Mer information om hur team fungerar i [!DNL Workfront], se [Skapa och hantera team](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
+Mer information om hur team fungerar i [!DNL Workfront] finns i [Skapa och hantera team](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
 ## Företagsmappning {#company-mapping}
 
@@ -207,34 +206,34 @@ Mer information om hur team fungerar i [!DNL Workfront], se [Skapa och hantera t
 >
 >Det här avsnittet kanske inte visas i vissa ritningar.
 
-Vissa ritningar innehåller förskrivna företag. Ett företag är en organisationsenhet som kan representera din organisation, en avdelning inom organisationen eller en kund som du arbetar med. Du kan anpassa hur företag mappas innan du installerar ritningen. Klicka **[!UICONTROL See company descriptions]** om du vill veta mer om de företag som finns i planen.
+Vissa ritningar innehåller förskrivna företag. Ett företag är en organisationsenhet som kan representera din organisation, en avdelning inom organisationen eller en kund som du arbetar med. Du kan anpassa hur företag mappas innan du installerar ritningen. Klicka på **[!UICONTROL See company descriptions]** om du vill veta mer om de företag som finns i planen.
 
 Planen söker efter företagsnamnet för att se om några befintliga företag matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga företag matchar kan du skapa en plan för dem. Det primära företaget i planen mappas till det primära företaget i din miljö, även om de inte har samma namn.
 
-![[!UICONTROL Company Mapping] section](assets/Blueprints_CompanyMapping.png)
+![[!UICONTROL Company Mapping] avsnitt ](assets/Blueprints_CompanyMapping.png)
 
 1. Om det finns ett företag kan du välja något av följande alternativ:
 
    1. Skapa ett nytt företag med ett annat namn och skriv namnet i textrutan.
-   1. Använd befintligt företag och välj sedan ett företag i valrutan.\
+   1. Använd ett befintligt företag och välj sedan ett företag i valrutan.\
 
       Det primära företaget i planen mappas till det primära företaget i din miljö, även om de inte har samma namn.
    1. Använd inte mappat företag. Det här alternativet rekommenderas inte eftersom företagsreferenserna i andra objekt kommer att vara tomma.
 
 1. Om ett företag inte finns kan du välja något av följande alternativ:
 
-   1. Skapa ett nytt företag. Det här alternativet skapar företaget som planen rekommenderar.
+   1. Skapa ett nytt företag. Med det här alternativet skapas det företag som planen rekommenderar.
    1. Skapa ett nytt företag med ett annat namn och skriv namnet i textrutan.
-   1. Använd befintligt företag och välj sedan ett företag i valrutan.
+   1. Använd ett befintligt företag och välj sedan ett företag i valrutan.
    1. Använd inte mappat företag. Det här alternativet rekommenderas inte eftersom företagsreferenserna i andra objekt kommer att vara tomma.
 
 >[!NOTE]
 >
->Information om hur du konfigurerar företag efter att du har installerat ritningen finns i [Åtgärder som ska vidtas efter installation av en plan](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Mer information om hur du konfigurerar företagen efter att du har installerat ritningen finns i [Åtgärder som ska vidtas efter att en plan har installerats](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
 Mer information om hur du associerar en mall med ett företag finns i [Redigera projektmallar](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-Mer information om hur företag fungerar i [!DNL Workfront], se [Skapa och redigera företag](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Mer information om hur företag fungerar i [!DNL Workfront] finns i [Skapa och redigera företag](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## [!UICONTROL Group mapping] {#group-mapping}
 
@@ -242,16 +241,16 @@ Mer information om hur företag fungerar i [!DNL Workfront], se [Skapa och redig
 >
 >Det här avsnittet kanske inte visas i vissa ritningar.
 
-Vissa utkast innehåller förskrivna grupper. En grupp är en grupp användare som sammanfaller med avdelningsstrukturen. Grupper liknar, men skiljer sig från, team och företag i Workfront. Du kan anpassa hur grupper mappas innan du installerar ritningen. Klicka **[!UICONTROL See group descriptions]** om du vill veta mer om de grupper som finns i planen.
+Vissa utkast innehåller förskrivna grupper. En grupp är en grupp användare som sammanfaller med avdelningsstrukturen. Grupper liknar, men skiljer sig från, team och företag i Workfront. Du kan anpassa hur grupper mappas innan du installerar ritningen. Klicka på **[!UICONTROL See group descriptions]** om du vill veta mer om de grupper som är tillgängliga i planen.
 
 Planen söker efter gruppnamnet för att se om några befintliga grupper matchar. Sökningen är skiftlägeskänslig, så namnen måste vara en exakt matchning. Om inga befintliga grupper matchar kan du skapa dem i planen.
 
-![[!UICONTROL Group Mapping] section](assets/Blueprints_GroupMapping.png)
+![[!UICONTROL Group Mapping] avsnitt ](assets/Blueprints_GroupMapping.png)
 
-1. Om det finns en grupp kan du välja **[!UICONTROL Remap Group]** och välj något av följande alternativ:
+1. Om det finns en grupp kan du markera **[!UICONTROL Remap Group]** och välja något av följande alternativ:
 
-   1. **[!UICONTROL Create a new group with a different name]** skriver du sedan det namn som ska tilldelas den här gruppen. Referenser till gruppen i definitionen av utkast kopplas i stället till den nya gruppen.
-   1. **[!UICONTROL Replace with an existing group]** söker du efter och markerar en grupp i markeringsrutan.
+   1. **[!UICONTROL Create a new group with a different name]** och skriv sedan det namn som ska tilldelas den här gruppen. Referenser till gruppen i definitionen av utkast kopplas i stället till den nya gruppen.
+   1. **[!UICONTROL Replace with an existing group]**, sök efter och markera en grupp i markeringsrutan.
 
       >[!NOTE]
       >
@@ -260,11 +259,11 @@ Planen söker efter gruppnamnet för att se om några befintliga grupper matchar
 1. Om en grupp inte finns kan du:
 
    1. Ändra det föreslagna gruppnamnet genom att skriva det i textrutan.
-   1. Välj **[!UICONTROL Remap Group]** och välja [!UICONTROL Replace with an existing group]söker du efter och markerar en grupp i markeringsrutan.
-   1. Välj **[!UICONTROL Remap Group]** och välja **[!UICONTROL Insert under an existing group]** söker du efter och markerar en grupp i markeringsrutan. Med det här alternativet skapas en ny undergrupp under den befintliga gruppen.
+   1. Markera **[!UICONTROL Remap Group]** och välj [!UICONTROL Replace with an existing group]. Sök efter och markera sedan en grupp i markeringsrutan.
+   1. Markera **[!UICONTROL Remap Group]** och välj **[!UICONTROL Insert under an existing group]**. Sök efter och markera sedan en grupp i markeringsrutan. Med det här alternativet skapas en ny undergrupp under den befintliga gruppen.
 
 >[!NOTE]
 >
->Information om hur du konfigurerar grupper efter att du har installerat ritningen finns i [Åtgärder som ska vidtas efter installation av en plan](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Information om hur du konfigurerar grupperna efter att du har installerat ritningen finns i [Åtgärder som ska vidtas efter att du har installerat en ritning](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Mer information om hur du använder grupper i [!DNL Workfront], se [Översikt över grupper](../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Mer information om hur du använder grupper i [!DNL Workfront] finns i [Översikt över grupper](../../administration-and-setup/manage-groups/groups-overview/groups.md).

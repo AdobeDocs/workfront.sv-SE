@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
    <td> 
-   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>Aktuell: Inga [!DNL Workfront Fusion]-licenskrav.</p> 
    <p>eller</p> 
    <p>Äldre: Alla </p> 
    </td>  
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Planen [!DNL Workfront Fusion] ingår.</li></ul> 
    <p>eller</p> 
    <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -52,9 +52,9 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody>  
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL length (text or buffer)]
 
@@ -133,7 +133,7 @@ Ersätter söksträngen med den nya strängen.
 >
 >Returnerar: [!UICONTROL Hi World]
 
-Reguljära uttryck (omges av `/.../`) kan användas som söksträng med en kombination av flaggor (till exempel `g`, `i`, `m`) tillagd:
+Reguljära uttryck (omslutna av `/.../`) kan användas som söksträng med en kombination av flaggor (till exempel `g`, `i`, `m`) tillagda:
 
 >[!INFO]
 >
@@ -146,7 +146,7 @@ Reguljära uttryck (omges av `/.../`) kan användas som söksträng med en kombi
 Ersättningssträngen kan innehålla följande speciella ersättningsmönster:
 
 * `$&` Infogar den matchande delsträngen.
-* `$n` Om n är ett positivt heltal som är mindre än 100 infogar delmatchningssträngen med den n:te parentesen. Detta är 1-indexerat.
+* `$n` Där n är ett positivt heltal mindre än 100 infogar den n:te parentesala delmatchningssträngen. Detta är 1-indexerat.
 
 >[!INFO]
 >
@@ -162,7 +162,7 @@ Ersättningssträngen kan innehålla följande speciella ersättningsmönster:
 
 >[!CAUTION]
 >
->Använd inte namngivna hämtningsgrupper som `/ is (?<number>\d+)/` i ersättningssträngsargumentet. Om du gör det uppstår ett fel.
+>Använd inte namngivna hämtningsgrupper som `/ is (?<number>\d+)/` i ersättningssträngargumentet. Om du gör det uppstår ett fel.
 
 Mer information om reguljära uttryck finns i [Textparser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
@@ -360,16 +360,16 @@ Beräknar sha512-hash för en sträng. Om nyckelargumentet anges returneras sha5
 Kodningar som stöds:
 
 * &quot;[!UICONTROL hex]&quot; (standard)
-* &quot;[!UICONTROL base64]&quot;
-* &quot;[!UICONTROL latin1]&quot;
+* [!UICONTROL base64]
+* [!UICONTROL latin1]
 
 Nyckelkodningar som stöds:
 
 * &quot;[!UICONTROL text]&quot; (standard)
-* &quot;[!UICONTROL hex]&quot;
-* &quot;[!UICONTROL base64]&quot; eller &quot;[!UICONTROL binary]&quot;
+* [!UICONTROL hex]
+* [!UICONTROL base64] eller [!UICONTROL binary]
 
-Vid användning av[!UICONTROL binary]&quot;nyckelkodning, en nyckel måste vara en buffert, inte en sträng.
+När [!UICONTROL binary]-tangentkodning används måste en nyckel vara en buffert, inte en sträng.
 
 >[!INFO]
 >

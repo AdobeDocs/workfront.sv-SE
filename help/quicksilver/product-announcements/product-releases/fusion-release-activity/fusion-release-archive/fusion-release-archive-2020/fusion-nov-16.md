@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 16 november 2020.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Uppdateringar till Jira Cloud-anslutningen
 
@@ -35,13 +35,13 @@ För att utöka de sätt som du kan använda Jira Cloud-anslutningen har vi lagt
 
 Vi har även uppdaterat befintliga moduler som stöder objekttypen Sprint. Tidigare gick det bara att komma åt Sprint-objektet via modulen för anpassade API-anrop.
 
-Mer information finns i [Jira Software-moduler](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Mer information finns i [Jira-programmoduler](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
 ## Körnings-ID är nu tillgängligt för mappning i scenarier
 
 Körnings-ID för ett scenario är nu tillgängligt på mappningspanelen. Detta ID representerar en specifik körning av scenariot och kan användas som metadata. Körnings-ID kan till exempel sparas med en post som skapas i Fusion, så att du senare kan avgöra vilken Fusion-körning som posten skapades i. Du hittar det körnings-ID som finns på mappningspanelen under Allmänna funktioner.
 
-Mer information om scenariokörningar finns i [Körning av scenarier, cykler och faser i Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Mer information om scenariokörningar finns i [Scenariokörning, cykler och faser i Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Kortkommandon för Workfront Fusion 2.0-scenarier
 
@@ -50,7 +50,7 @@ Vi har lagt till några kortkommandon för att göra scenarioskapandet enklare:
 * Ctrl/Cmd+Skift+Retur: Kör ett scenario en gång
 * Ctrl/Cmd + Skift + S: Spara ett scenario
 
-Mer information om hur du skapar scenarier i Workfront Fusion 2.0 finns i [Skapa ett scenario i Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
+Mer information om hur du skapar Workfront Fusion 2.0-scenarier finns i [Skapa ett scenario i Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ## Uppdateringar till Office 365 Excel-anslutningsprogrammet
 
@@ -74,4 +74,4 @@ Vi har uppdaterat Workfront Connector så att OAuth 2.0 används. Den här uppda
 
 Befintliga anslutningar kräver för närvarande inga ändringar. Du kan dock återauktorisera befintliga anslutningar om du vill dra nytta av fördelarna med OAuth 2.0.
 
-Mer information finns i [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

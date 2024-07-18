@@ -30,4 +30,4 @@ Se till att du gör följande när du är klar med planeringen av dina projekt i
    * [Resursplanering:artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Kom igång med scenarioplanen](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* Schemalägg dina resurser eller tilldela dem till aktiviteter och ärenden. När du tilldelar resurser till uppgifter och ärenden kan du faktiskt koppla användare, team eller roller till specifika arbetsobjekt, vilket gör dem ansvariga för att slutföra dessa objekt. Mer information finns i [Översikt över belastningsutjämnare](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Schemalägg dina resurser eller tilldela dem till aktiviteter och ärenden. När du tilldelar resurser till uppgifter och ärenden kan du faktiskt koppla användare, team eller roller till specifika arbetsobjekt, vilket gör dem ansvariga för att slutföra dessa objekt. Mer information finns i [Översikt över belastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

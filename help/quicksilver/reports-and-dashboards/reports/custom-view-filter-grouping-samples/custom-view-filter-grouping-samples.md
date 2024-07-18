@@ -35,35 +35,35 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 
 ## Exempel på anpassade vyer
 
-* [Visa: namn på överordnade uppgifter som versaler](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
+* [Visa: visa namn på överordnade uppgifter som endast versaler](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/column-show-name-parent-tasks-all-caps.md)
 * [Visa: Faktiska timmar över planerade timmar i samma kolumn i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-actual-hours-planned-hours-task-view.md)
-* [Visa: den tilldelade användarens företag och hemgrupp](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
-* [Visa: baslinjeavvikelse för Varaktighet och Planerat arbete i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
+* [Visa: Den tilldelade användarens företag och hemgrupp](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-assigned-users-company-home-group.md)
+* [Visa: baslinjeavvikelse för Varaktighet och Planerat arbete i en aktivitetsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-baseline-variance-duration-planned-work-task-view.md)
 * [Visa: beräkna övertidskostnad i en tidrapportvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-overtime-cost-timesheet-view.md)
-* [Visa: beräkna tid- och datumskillnader](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
+* [Visa: Beräkna skillnader i tid och datum](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
 * [Visa: visa resultatet av en beräkning mellan två fält i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
 * [Visa: lägg till en lista med efterföljande aktiviteter i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
 * [Visa och gruppera: visa projekt, faktisk varaktighet aggregerat med medelvärdet i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
-* [Visa: information om kombinerade uppgifter och utgåvor i en timlista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
+* [Visa: information om kombinerade aktiviteter och ärenden i en timlista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [Visa: visa en bild i stället för en sträng i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [Visa: visningsobjekt som inte ingår i standardgränssnittet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [Visa: visa information om ursprunglig utgåva i uppgifts- och projektlistor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [Visa: visa information om ursprungligt problem i uppgifts- och projektlistor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [Visa: visa Program- och Portfolio-information i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
-* [Visa: visa indrag för uppgifter i en uppgiftslista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
+* [Visa: visa indrag för aktiviteter i en uppgiftslista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [Visa: dokumentrapport med länk till ett korrektur](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)
 * [Visa: redigera bredden på en kolumn permanent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md)
 * [Visa: utökad användarinformation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-expanded-user-details.md)
 * [Visa: dölj innehållet i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hide-column-content.md)
 * [Visa: timmar med information om överordnad aktivitet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-hours-parent-task-information.md)
 * [Visa: problem med godkännandeinformation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-approval-information.md)
-* [Visa: problem med företagsnamnet för upphovspersonen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
+* [Visa: problem med företagsnamnet för upphovsmannen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-company-name-originator.md)
 * [Visa: problem med att lösa objektinformation](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-issues-resolving-object-details.md)
 * [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)
 * [Visa: projektvy med flera rader](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-multi-row-project-view.md)
-* [Visa: information om ursprunglig utleverans för uppgifter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
-* [Visa: visa relationen överordnad-underordnad i en uppgift genom att dra in uppgifterna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
+* [Visa: information om ursprungligt problem för aktiviteter och projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md)
+* [Visa: visa den överordnade-underordnade relationen i en uppgift genom att dra in uppgifterna](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)
 * [Visa: Planerade timmar kontra faktiska timmar per tilldelning i en uppgiftsvy](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-planned-hours-actual-hours-assignment-task-view.md)
-* [Visa: information om föregående](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
+* [Visa: information om föregående ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-predecessor-details.md)
 * [Visa: projekt med alla användare och roller i projektteamet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-all-project-team-users-roles.md)
 * [Visa: lista över projektanvändare med jobbroller](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)
 * [Visa: ta bort länk till ett objekt i en kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-remove-link-to-object.md)
@@ -79,12 +79,12 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-resource-pool-quick-links.md" class="MCXref xref" xrefformat="{para}">View: Resource Pool quick links</a> </p> </li>
   -->
 
-* [Visa: visa överordnade uppgifter på upp till 4 nivåer](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
+* [Visa: visa överordnade uppgifter upp till 4 nivåer djupt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-show-parent-tasks-4-levels.md)
 * [Visa: överföringssökväg för problem](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-submission-path-issues.md)
-* [Visa: aktivitet med Alla datum-avvikelse](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
+* [Visa: aktivitet med variansen Alla datum](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-task-all-dates-variance.md)
 * [Visa: aktiviteter som påverkas av schemaundantag](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-tasks-impacted-schedule-exceptions.md)
 * [Visa: extern URL med anpassat datafält](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-url-using-custom-data-field.md)
-* [Visa: användarroll i procent av FTE-tillgänglighet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
+* [Vy: användarjobbrollens procentandel av FTE-tillgänglighet](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-job-role-percentage-fte-availability.md)
 * [Visa: användarens personliga ledig tid](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
 
   <!--
@@ -94,29 +94,29 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 ## Exempel på anpassade filter
 
 * [Filter: visa ofullständiga föregångare mellan projekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
-* [Filter: visa ofullständiga projektövergripande efterföljande](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [Filter: visa ofullständiga efterföljande tvärprojekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
 * [Filter: visa aktuella projekt som väntar på godkännande](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [Filter: visa endast objekt med godkännandestatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [Filter: ta bort objekt i en lista genom att jämföra två fält](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)
 * [Filter: visa överordnade uppgifter](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-parent-task-filter.md)
-* [Filter: Rapport för korrekturgodkännande om du vill utesluta tidigare korrekturversioner](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
+* [Filter: Rapport om godkännande av korrektur för att utesluta tidigare korrekturversioner](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md)
 * [Filter: skapa flera filterregler som refererar till samma fält (&quot;AND&quot;-satser)](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-refrence-the-same-field-multiple-times.md)
-* [Filter: visa rapporter som är schemalagda för leverans](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
+* [Filter: visa rapporter som schemalagts för leverans](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-report-delivery-filter.md)
 * [Filter: visa objekt efter status med samma namn när statusvärdena är kopplade till olika grupper](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-same-name-statuses-from-different-groups.md)
 
 ## Exempel på anpassade grupperingar
 
-* [Gruppera en rapport efter ett anpassat fält som har flera val](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
+* [Gruppera en rapport i ett anpassat fält som består av flera markeringar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-multi-select-custom-field.md)
 * [Gruppering: Hemgrupp för projektägare i en lista över timmar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
 * [Gruppering: Aktivitetsgruppering på fyra nivåer för Portfolio, programägare, projektägare och projektstatus](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-4-level-task-grouping.md)
-* [Gruppering: lägga till en fjärde gruppering i en lista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
-* [Gruppera: ordna listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
+* [Gruppering: lägg till en fjärde gruppering i en lista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-add-fourth-grouping.md)
+* [Gruppering: Organisera listresultat med ett beräknat värde som är gemensamt för alla objekt i grupperingen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-by-calculated-common-values.md)
 * [Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md)
 * [Gruppering: ange om resultatet av en gruppering ska komprimeras eller expanderas i textläge](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-collapsed-or-expanded-results.md)
 * [Gruppering: uppdelad projektprocent 1](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-1.md)
-* [Gruppering: uppdelad projektprocent 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
+* [Gruppering: procentuell uppdelning av projekt 2](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-percent-breakdown-2.md)
 * [Gruppera: projekt efter anmälningsdatum](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-projects-entry-date.md)
-* [Gruppering: Projektsponsorer i timmar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
+* [Gruppering: Projektsponsor i timmar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-hours.md)
 * [Gruppering: Projektsponsor för en uppgiftslista](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-project-sponsor-task-list.md)
 * [Gruppering: redigera visningsnamnet i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-rename-grouping.md)
 * [Gruppering: Hemgrupp för projektägare i en lista över timmar](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-home-group-project-owner-list-hours.md)
@@ -126,9 +126,9 @@ I det här avsnittet finns exempel på anpassade vyer, filter och grupperingar s
 
 ## Andra anpassade rapportelement och rapporter
 
-* [Rapporter eller listor: visa användare som är kopplade till ett objekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
+* [Rapporter eller listor: visa användare som är associerade med ett objekt](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
 * [Rapport: Budgeterad timme](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)
-* [Rapport: vy och gruppering av kombinerade uppgifter och utgåvor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
+* [Rapport: vy och gruppering av kombinerade aktiviteter och utgåvor](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-combined-task-issue-view-grouping.md)
 * [Diagrama en rapport med ett anpassat fält som har flera val](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
 
 <!--

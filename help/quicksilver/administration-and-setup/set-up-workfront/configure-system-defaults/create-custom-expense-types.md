@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Skapa anpassade utgiftstyper
-description: Som en [!DNL Adobe Workfront] kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
+description: Som  [!DNL Adobe Workfront] administratör kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
 source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Som en [!DNL Adobe Workfront] kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
+Som [!DNL Adobe Workfront]-administratör kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
 
-Du kan redigera eller ta bort alla utgiftstyper som du skapar. Du kan inte ta bort eller redigera det inbyggda [!DNL Workfront] utgiftstyper.
+Du kan redigera eller ta bort alla utgiftstyper som du skapar. Du kan inte ta bort eller redigera de inbyggda [!DNL Workfront] utgiftstyperna.
 
 ## Åtkomstkrav
 
@@ -41,14 +41,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Standardutgiftstyper
 
-Utgiftstyper som finns i [!DNL Workfront] Som standard kan du inte ta bort eller redigera följande:
+Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras med följande:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Consulting]
@@ -59,10 +59,10 @@ Utgiftstyper som finns i [!DNL Workfront] Som standard kan du inte ta bort eller
 
 ## Skapa anpassade utgiftstyper
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 1. Klicka på **[!UICONTROL Expense Types]**.
 1. Klicka på **[!UICONTROL New Expense Type]**.
-1. I **[!UICONTROL New Expense Type]** anger du följande information i rutan som visas:
+1. Ange följande information i rutan **[!UICONTROL New Expense Type]** som visas:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -91,7 +91,7 @@ Utgiftstyper som finns i [!DNL Workfront] Som standard kan du inte ta bort eller
      </tr> 
      <tr> 
       <td role="rowheader">Hastighet</td> 
-      <td> <p>Ange priset per enhet. Det här är ett valutaformaterat fält och representerar kostnaden för varje enhet som är etablerad i <strong>[!UICONTROL Calculated Unit]</strong> fält. </p> <p>Frekvensen kan innehålla ett numeriskt värde med upp till 4 siffror efter decimaltalet. Exempel: 1.0375</p> </td> 
+      <td> <p>Ange priset per enhet. Det här är ett valutaformaterat fält och representerar kostnaden för varje enhet som har upprättats i fältet <strong>[!UICONTROL Calculated Unit]</strong>. </p> <p>Frekvensen kan innehålla ett numeriskt värde med upp till 4 siffror efter decimaltalet. Exempel: 1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -101,11 +101,11 @@ Utgiftstyper som finns i [!DNL Workfront] Som standard kan du inte ta bort eller
 
 ## Ändra anpassade utgiftstyper
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
 1. Klicka på **[!UICONTROL Expense Types]**.
 1. Välj den utgiftstyp som du vill ändra och klicka sedan på **[!UICONTROL Edit]**.
 
-   The **[!UICONTROL Edit Expense Type]** visas.
+   Dialogrutan **[!UICONTROL Edit Expense Type]** visas.
 
 1. Gör önskade ändringar och klicka sedan på **[!UICONTROL Save Changes]**.\
    Utgiftstypen är nu tillgänglig så att användare kan associera den med sina utgifter för projekt och uppgifter.

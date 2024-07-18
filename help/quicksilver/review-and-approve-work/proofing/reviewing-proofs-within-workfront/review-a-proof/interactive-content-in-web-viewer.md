@@ -29,23 +29,23 @@ Webbkorrekturläsaren har följande begränsningar:
 
 >[!IMPORTANT]
 >
->Du måste installera det äldre plugin-programmet för webbläsare för att kunna kommentera interaktiva korrektur i Web Proofing Viewer. Denna plugin är bara tillgänglig i Firefox i [Firefox-tilläggslager](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
+>Du måste installera det äldre plugin-programmet för webbläsare för att kunna kommentera interaktiva korrektur i Web Proofing Viewer. Det här plugin-programmet är bara tillgängligt i Firefox i [Firefox-tilläggsarkivet](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/).
 
 ## Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer
 
 1. Öppna ett korrektur som skapats från en ZIP-fil med interaktivt innehåll.
 
-   Mer information finns i [Förbereda interaktivt innehåll i en ZIP-fil för korrektur](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Översikt över korrektur av interaktivt material](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+   Mer information finns i [Förbereda interaktivt innehåll i en ZIP-fil för korrektur](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) i [Översikt över interaktivt innehåll](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
    Se även [Skapa ett korrektur för interaktivt innehåll i en ZIP-fil](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-1. Klicka **Lägg till kommentar**.
+1. Klicka på **Lägg till kommentar**.
 
    Ett meddelande uppmanar dig att hämta webbläsartillägget för interaktivt innehåll.
 
-1. Klicka **Lägg till i webbläsare** för att gå till hämtningssidan för tillägget i webbläsarens butik och sedan hämta tillägget.
-1. Klicka på i Web Proofing Viewer **Läs in korrekturet igen**.
+1. Klicka på **Lägg till i webbläsare** för att gå till hämtningssidan för tillägg i webbläsarens butik och hämta sedan tillägget.
+1. Klicka på **Läs in korrekturet igen** i Web Proofing Viewer.
 
-När tillägget är installerat i webbläsaren visas en statisk skärmbild av innehållet varje gång du klickar på **Lägg till kommentar**. På den här skärmbilden kan du lägga till kommentarer med markeringar.
+När tillägget är installerat i webbläsaren visas en statisk skärmbild av ditt innehåll varje gång du klickar på **Lägg till kommentar**. På den här skärmbilden kan du lägga till kommentarer med markeringar.
 
  

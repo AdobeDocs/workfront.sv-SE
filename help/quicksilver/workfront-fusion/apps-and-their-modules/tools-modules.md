@@ -4,22 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: verktyg
-description: The [!DNL Adobe Workfront Fusion Tools] innehåller flera användbara moduler som kan förbättra ditt scenario.
+description: Avsnittet  [!DNL Adobe Workfront Fusion Tools] innehåller flera användbara moduler som kan förbättra ditt scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: 97a68fbc-1272-43fc-b4f2-4c1c9e590741
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1975'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Tools]
 
-The [!DNL Adobe Workfront Fusion Tools] innehåller flera användbara moduler som kan förbättra ditt scenario.
+Avsnittet [!DNL Adobe Workfront Fusion Tools] innehåller flera användbara moduler som kan förbättra ditt scenario.
 
-[!UICONTROL Tools] är tillgängliga från listan över program, eller från [!UICONTROL Tools] icon ![](assets/tools-icon-small.png) längst ned på skärmen.
+[!UICONTROL Tools] moduler är tillgängliga i listan över appar eller från [!UICONTROL Tools]-ikonen ![](assets/tools-icon-small.png) längst ned på skärmen.
 
 ## Åtkomstkrav
 
@@ -40,25 +40,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL Tools] och deras fält
 
@@ -73,7 +73,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 
 Med den här modulen kan du skapa en anpassad utlösare och definiera dess indatapaket.
 
-Du kan använda den här modulen för kontakter eller andra listor som är schemalagda att skickas till en angiven e-postadress (till exempel [!UICONTROL Email] >[!UICONTROL Send an Email], eller [!DNL Gmail] >[!UICONTROL Send an Email] eller som en enkel påminnelse som aktiveras när du vill.
+Du kan använda den här modulen för kontakter eller andra listor som är schemalagda att skickas till en angiven e-postadress (till exempel [!UICONTROL Email] >[!UICONTROL Send an Email] eller [!DNL Gmail] >[!UICONTROL Send an Email] moduler), eller som en enkel påminnelse som utlöses när du vill.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,9 +97,9 @@ Du kan använda den här modulen för kontakter eller andra listor som är schem
 
 #### [!UICONTROL Get Multiple Variables]
 
-Den här modulen hämtar värden som tidigare skapats av [!UICONTROL Set Variable] eller [!UICONTROL Set Multiple Variables] -modul.
+Den här modulen hämtar värden som tidigare har skapats av modulen [!UICONTROL Set Variable] eller [!UICONTROL Set Multiple Variables].
 
-Den här modulen kan läsa variabler som har ställts in var som helst i scenariot, även om variabeln har ställts in på en annan väg än där [!UICONTROL Get Multiple Variables] modulen finns. Det enda kravet är att [!UICONTROL Tools] > [!UICONTROL Set Variable] eller [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] modulen körs före [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] -modul. Mer information om i vilken ordning moduler körs finns i [Routermodul i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Den här modulen kan läsa variabler som har angetts var som helst i scenariot, även om variabeln har angetts i en annan väg än där modulen [!UICONTROL Get Multiple Variables] finns. Det enda kravet är att modulen [!UICONTROL Tools] > [!UICONTROL Set Variable] eller [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] körs före modulen [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables]. Mer information om i vilken ordning moduler körs finns i [Routermodulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -114,17 +114,17 @@ Den här modulen kan läsa variabler som har ställts in var som helst i scenari
 
 >[!INFO]
 >
->**Exempel:**  Följande är möjliga användningar av [!UICONTROL Set]/[!UICONTROL Get (multiple) variable(s)] moduler:
+>**Exempel:** Följande är möjliga användningar av modulerna [!UICONTROL Set]/[!UICONTROL Get (multiple) variable(s)]:
 >
 >* Om du vill lagra ett beräknat värde för senare användning, även i en annan väg. Detta är användbart när värdet används i flera moduler och formeln för att beräkna värdet är alltför komplex.
->* Felsöka en formel. Om en formel som används i en modul inte verkar ge rätt resultat kopierar du formeln och klistrar in den i en [!UICONTROL Set Variable] som du infogar före den relevanta modulen. Koppla från modulerna efter [!UICONTROL Set Variable] och köra scenariot. Verifiera [!UICONTROL Set Variable] modulens utdata, justera eller förenkla formeln, kör scenariot igen och fortsätta göra det tills problemet är löst.
+>* Felsöka en formel. Om en formel som används i en modul inte verkar ge rätt resultat kopierar du formeln och klistrar in den i en [!UICONTROL Set Variable]-modul som du infogar före den relevanta modulen. Koppla från modulerna efter modulen [!UICONTROL Set Variable] och kör scenariot. Verifiera utdata från modulen [!UICONTROL Set Variable], justera eller förenkla formeln, kör scenariot igen och fortsätt göra det tills problemet har lösts.
 
 
 #### [!UICONTROL Get Variable]
 
-Den här modulen hämtar ett värde som tidigare skapats av [!UICONTROL Set Variable] eller [!UICONTROL Set Multiple Variables] -modul.
+Den här modulen hämtar ett värde som tidigare har skapats av modulen [!UICONTROL Set Variable] eller [!UICONTROL Set Multiple Variables].
 
-Den här modulen kan läsa variabler som har ställts in var som helst i scenariot, även om variabeln har ställts in på en annan väg än där [!UICONTROL Get Variable] modulen finns. Det enda kravet är att [!UICONTROL Tools] > [!UICONTROL Set Variable] eller [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] modulen körs före [!UICONTROL Tools] > [!UICONTROL Get Variable] -modul. Mer information om i vilken ordning moduler körs finns i [Routermodul i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Den här modulen kan läsa variabler som har angetts var som helst i scenariot, även om variabeln har angetts i en annan väg än där modulen [!UICONTROL Get Variable] finns. Det enda kravet är att modulen [!UICONTROL Tools] > [!UICONTROL Set Variable] eller [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] körs före modulen [!UICONTROL Tools] > [!UICONTROL Get Variable]. Mer information om i vilken ordning moduler körs finns i [Routermodulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,27 +161,27 @@ Den här modulen returnerar ett värde som ökas med 1 efter varje moduls åtgä
 >
 >**Exempel:**
 >
->Ett av användningsområdena för modulen är att implementera en tilldelning av aktiviteter, leads, e-postmeddelanden och så vidare, till användare i en grupp. Algoritmen väljer tilldelningar från en grupp i någon rationell ordning, vanligtvis uppifrån och ned i en lista. När algoritmen når slutet av listan ger den sedan nästa tilldelning till användaren högst upp i listan och fortsätter att göra tilldelningar nedåt i listan.
+>Ett av användningsområdena för modulen är att implementera en tilldelning av aktiviteter, leads, e-postmeddelanden och så vidare, till användare i en grupp. Algoritmen väljer tilldelningar från en grupp i någon rationell ordning, som vanligtvis går uppifrån och ned i en lista. När algoritmen når slutet av listan ger den sedan nästa tilldelning till användaren högst upp i listan och fortsätter att göra tilldelningar nedåt i listan.
 >
 >Följande scenario skickar ett e-postmeddelande till den första mottagaren efter varje ojämnt numrerad körning av ett scenario och till den andra mottagaren efter varje jämn körning av ett scenario.
 >
 >![](assets/example-email-350x246.gif)
 >
 >1. Så här skapar du det här scenariot:
->1. Ange modulens **[!UICONTROL Reset a value]** fält till Aldrig.
+>1. Ange att fältet **[!UICONTROL Reset a value]** för modulen ska vara Aldrig.
 >1. Ange flöde för udda värden. Ange filtret för den här vägen med den modulus-matematiska funktionen som är lika med `1`:
 >
 >   ![](assets/odd-350x459.png)
 >
->  **Anteckning**: Glöm inte att ändra [!UICONTROL Equal to] operator från standard [!UICONTROL Text] operatorn till [!UICONTROL Numeric] -operator.
+>  **Obs!**: Glöm inte att ändra operatorn [!UICONTROL Equal to] från standardoperatorn [!UICONTROL Text] till operatorn [!UICONTROL Numeric].
 >
->1. Ange vägen för jämna värden med modulus math-funktionen som är lika med `0`:
+>1. Ange vägen för jämna värden med den modulus-matematiska funktionen som är lika med `0`:
 >
 >Ökningsfunktionen lägger till en varje gång scenariot körs. Filtren kontrollerar ökningen och agerar utifrån dess värde och ser till att e-postmeddelandena distribueras jämnt.
 
 #### [!UICONTROL Set Multiple Variables]
 
-Den här modulen skapar variabler som kan mappas av andra moduler i flödet. Variabeln kan också mappas till [!UICONTROL Get Variable] eller [!UICONTROL Get Multiple Variables] moduler för alla vägar i scenariot.
+Den här modulen skapar variabler som kan mappas av andra moduler i flödet. Variabeln kan också mappas till modulerna [!UICONTROL Get Variable] eller [!UICONTROL Get Multiple Variables] för alla vägar i scenariot.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -204,7 +204,7 @@ Den här modulen skapar variabler som kan mappas av andra moduler i flödet. Var
    <td> <p>Ange hur länge du vill att variablerna ska förbli giltiga (behåll samma värde).</p> 
     <ul> 
      <li><strong>[!UICONTROL One cycle]</strong>: Variabeln är giltig för en cykel. Användbart när flera webbhooks i en enda scenariokörning tas emot (fler webbhooks = fler cykler). </li> 
-     <li><strong>[!UICONTROL One execution]</strong>: Variabeln är giltig för en scenariokörning. En körning kan innehålla en eller flera cykler.</li> 
+     <li><strong>[!UICONTROL One execution]</strong>: Variabeln är giltig för körning av ett scenario. En körning kan innehålla en eller flera cykler.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +212,7 @@ Den här modulen skapar variabler som kan mappas av andra moduler i flödet. Var
 
 #### [!UICONTROL Set Variable]
 
-Den här modulen skapar en variabel som kan mappas av andra moduler i flödet. Variabeln kan också mappas till [!UICONTROL Get Variable] eller [!UICONTROL Get Multiple Variables] moduler för alla vägar i scenariot.
+Den här modulen skapar en variabel som kan mappas av andra moduler i flödet. Variabeln kan också mappas till modulerna [!UICONTROL Get Variable] eller [!UICONTROL Get Multiple Variables] för alla vägar i scenariot.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -227,7 +227,7 @@ Den här modulen skapar en variabel som kan mappas av andra moduler i flödet. V
    <td> <p>Ange hur länge du vill att variablerna ska förbli giltiga (behåll samma värde).</p> 
     <ul> 
      <li><strong>[!UICONTROL One cycle]</strong>: Variabeln är giltig för en cykel. Användbart när flera webbhooks i en enda scenariokörning tas emot (fler webbhooks = fler cykler). </li> 
-     <li><strong>[!UICONTROL One execution]</strong>: Variabeln är giltig för en scenariokörning. En körning kan innehålla en eller flera cykler.</li> 
+     <li><strong>[!UICONTROL One execution]</strong>: Variabeln är giltig för körning av ett scenario. En körning kan innehålla en eller flera cykler.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -241,7 +241,7 @@ Den här modulen skapar en variabel som kan mappas av andra moduler i flödet. V
 
 Med den här modulen kan du fördröja scenarioflödet i upp till 300 sekunder (5 minuter).
 
-Den här funktionen kan vara användbar om du t.ex. vill sänka [!DNL target] belastningen på tjänstservern eller för att imitera det mänskliga beteendet när du skickar SMS eller e-postmeddelanden i grupp.
+Den här funktionen kan vara användbar om du till exempel vill sänka belastningen på tjänstservern [!DNL target] eller imitera det mänskliga beteendet när du skickar SMS eller e-post.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -291,7 +291,7 @@ I den här modulen kan du hämta numeriska värden, sedan använda någon av de 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
-   <td> <p>Definiera ett uttryck som du vill gruppera aggregerade utdata med. Det här uttrycket kan innehålla ett eller flera mappade objekt. Sammanlagda data delas sedan upp i grupper med hjälp av det här uttryckets värde. Varje grupp skickar som ett separat paket med en nyckel (det utvärderade uttrycket) och ett värde (det aggregerade värdet). Du kan använda nyckeln som ett filter i efterföljande moduler.</p> </td> 
+   <td> <p>Definiera ett uttryck som du vill gruppera aggregerade utdata med. Det här uttrycket kan innehålla ett eller flera mappade objekt. De aggregerade data delas sedan upp i grupper med hjälp av det här uttryckets värde. Varje grupp skickar som ett separat paket med en nyckel (det utvärderade uttrycket) och ett värde (det aggregerade värdet). Du kan använda nyckeln som ett filter i efterföljande moduler.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
@@ -322,11 +322,11 @@ Den här modulen sammanfogar värden från de valda fälten i mottagna paket til
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Column separator]</p> </td> 
-   <td> <p>Välj eller ange den typ av avgränsare som ska separera fältvärdeskolumnerna i det resulterande paketet. Om du väljer [!UICONTROL Other]anger du tecknet som du vill använda för att avgränsa värden till avgränsningsfältet.</p> </td> 
+   <td> <p>Välj eller ange den typ av avgränsare som ska separera fältvärdeskolumnerna i det resulterande paketet. Om du väljer [!UICONTROL Other] anger du tecknet som du vill använda för att avgränsa värden till avgränsningsfältet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Row separator]</p> </td> 
-   <td> <p>Välj eller ange den typ av avgränsare som ska separera fältvärdesraderna i det resulterande paketet. Om du väljer [!UICONTROL Other]anger du tecknet som du vill använda för att avgränsa värden till avgränsningsfältet.</p> </td> 
+   <td> <p>Välj eller ange den typ av avgränsare som ska separera fältvärdesraderna i det resulterande paketet. Om du väljer [!UICONTROL Other] anger du tecknet som du vill använda för att avgränsa värden till avgränsningsfältet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
@@ -353,7 +353,7 @@ Den här modulen sammanfogar värden från de valda fälten i mottagna paket til
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Row separator]</p> </td> 
-   <td> <p>Välj eller ange den typ av avgränsare som ska separera fältvärdesraderna i det resulterande paketet. Om du väljer [!UICONTROL Other]anger du tecknet som du vill använda för att avgränsa värden till avgränsningsfältet.</p> </td> 
+   <td> <p>Välj eller ange den typ av avgränsare som ska separera fältvärdesraderna i det resulterande paketet. Om du väljer [!UICONTROL Other] anger du tecknet som du vill använda för att avgränsa värden till avgränsningsfältet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
@@ -372,7 +372,7 @@ Den här modulen sammanfogar värden från de valda fälten i mottagna paket til
 
 >[!INFO]
 >
->**Exempel:** Du kan använda textaggregatorn för att infoga fler värden (till exempel kundnamn eller anteckningar) i ett enda paket och skicka ett e-postmeddelande som innehåller alla värden i e-postmeddelandets brödtext eller e-postmeddelandets ämne.
+>**Exempel:** Du kan använda textaggregatorn för att infoga fler värden (till exempel kundnamn eller anteckningar) i ett paket och skicka ett e-postmeddelande som innehåller alla värden i e-postmeddelandets brödtext eller e-postmeddelandets ämne.
 
 ### Transformers
 
@@ -437,18 +437,18 @@ Kontrollerar om indatavärdet matchar den angivna listan med värden. Returnerar
      <p>Ett reguljärt uttryck är en teckensekvens där varje tecken antingen är ett metatecken med en speciell innebörd eller ett reguljärt tecken med en litteral betydelse. Dessa tecken och metatecken identifierar ett mönster som kan användas för att söka efter text. Om du t.ex. vill söka efter namn kan du skapa ett reguljärt uttryck som söker efter ett mönster som består av två ord i följd som börjar med versaler. Reguljära uttryck är ett kraftfullt verktyg för att söka efter och ändra text.</p> 
      <p>En diskussion om reguljära uttryck ligger utanför den här artikelns räckvidd. Vi rekommenderar följande resurser:</p> 
      <ul> 
-      <li>En fullständig lista med metatecken finns på <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Reguljära uttryck</a> i MDN-webbdokument.</li> 
-      <li>Vi rekommenderar en självstudiekurs om hur du skapar reguljära uttryck <a href="https://regexone.com/">RegexOne</a>.</li> 
-      <li>För att experimentera med reguljära uttryck rekommenderar vi <a href="https://regex101.com/">Reguljära uttryck 101</a> webbplats. Markera ECMAScript-FLAVOR (JavaScript) på den vänstra panelen.</li> 
+      <li>En fullständig lista över metatecken finns i <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions">Reguljära uttryck</a> i MDN-webbdokument.</li> 
+      <li>Om du vill ha en genomgång om hur du skapar reguljära uttryck rekommenderar vi <a href="https://regexone.com/">RegexOne</a>.</li> 
+      <li>Om du vill experimentera med reguljära uttryck rekommenderar vi webbplatsen <a href="https://regex101.com/">Reguljära uttryck 101</a>. Markera ECMAScript (JavaScript) FLAVOR i den vänstra panelen.</li> 
      </ul> 
     </div> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Cases] </td> 
-   <td> <p>Om indata innehåller ett värde som anges för [!UICONTROL Pattern] fältet, sedan det värde som anges för [!UICONTROL Output] fältet returneras.</p> <p>Om indata inte matchar något av de värden som du har angett i en [!UICONTROL Pattern] och något av följande inträffar:</p> 
+   <td> <p>Om indata innehåller ett värde som har angetts för fältet [!UICONTROL Pattern], returneras värdet som har angetts för fältet [!UICONTROL Output].</p> <p>Om indata inte matchar något av de värden som du har angett i ett [!UICONTROL Pattern]-fält händer något av följande:</p> 
     <ul> 
-     <li>Värdet från [!UICONTROL Else] fältet returneras</li> 
-     <li>Om det inte finns något värde i [!UICONTROL Else] inga utdata returneras.</li> 
+     <li>Värdet från fältet [!UICONTROL Else] returneras</li> 
+     <li>Om det inte finns något värde i fältet [!UICONTROL Else] returneras inga utdata.</li> 
     </ul> </td> 
   </tr> 
   <tr> 

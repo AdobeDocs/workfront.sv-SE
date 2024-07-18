@@ -36,11 +36,11 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>Redigera åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>Redigera åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
@@ -49,25 +49,25 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Skapa scenarier
 
 Ett scenario är en kopia av en plan. Du kan skapa så många scenarier du behöver. Vi rekommenderar dock att du håller antalet scenarier så lågt som möjligt så att du enkelt kan jämföra dem.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png)och sedan klicka [!UICONTROL Scenarios].
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
 
 1. Skapa en plan.
 
-   Mer information om att skapa planer finns i [Skapa och redigera planer i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+   Mer information om hur du skapar planer finns i [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   Den första plan du skapar sparas automatiskt som[!UICONTROL Initial scenario].&quot;
+   Den första plan du skapar sparas automatiskt som [!UICONTROL Initial scenario].
 
-1. Klicka på nedåtpilen bredvid ett befintligt scenario och klicka sedan på **[!UICONTROL Copy]** -ikon.
+1. Klicka på nedåtpilen bredvid ett befintligt scenario och klicka sedan på ikonen **[!UICONTROL Copy]** .
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   Detta skapar ett nytt scenario med samma information som det kopierade scenariot. Den får automatiskt namnet &quot;[!UICONTROL Scenario 2]&quot; om det är det andra scenariot i din plan, &quot;[!UICONTROL Scenario 3]&quot;om det är den tredje, och så vidare. Du kan inte byta namn på dina scenarier. Det finns ingen gräns för hur många kopior du kan göra.
+   Detta skapar ett nytt scenario med samma information som det kopierade scenariot. Det får automatiskt namnet [!UICONTROL Scenario 2] om det är det andra scenariot i din plan, [!UICONTROL Scenario 3] om det är det tredje och så vidare. Du kan inte byta namn på dina scenarier. Det finns ingen gräns för hur många kopior du kan göra.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -83,15 +83,15 @@ Ett scenario är en kopia av en plan. Du kan skapa så många scenarier du behö
      >
      >När du tar bort ett initiativ i ett scenario tas det bara bort från det valda scenariot, inte från alla scenarier.
 
-     Mer information om hur du skapar initiativ finns i [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+     Mer information om hur du skapar initiativ finns i [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
    * Uppdatera prioriteringarna i era initiativ
    * Justera personer eller budgetinformation
    * Granska och justera initialkonflikter i ditt scenario
 
-     Mer information om hur du löser konflikter finns i [Lös initialkonflikter i [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
+     Mer information om hur du löser konflikter finns i [Lös initialkonflikter i  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. Klicka **[!UICONTROL Save Plan]** för att spara ändringarna.
+1. Klicka på **[!UICONTROL Save Plan]** om du vill spara ändringarna.
 
 ## Jämför scenarier
 
@@ -114,7 +114,7 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
     <tbody> 
      <tr> 
       <td>Namn på scenariot</td> 
-      <td> <p>Ett namn som genererats automatiskt av Workfront och som inte kan redigeras. Till exempel "[!UICONTROL Initial scenario]", "[!UICONTROL Scenario 2]och så vidare. </p> </td> 
+      <td> <p>Ett namn som genererats automatiskt av Workfront och som inte kan redigeras. Till exempel [!UICONTROL Initial scenario], [!UICONTROL Scenario 2] och så vidare. </p> </td> 
      </tr> 
      <tr> 
       <td>Scenariobeskrivning</td> 
@@ -130,19 +130,19 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
      </tr> 
      <tr> 
       <td>Budget</td> 
-      <td>Den totala budgeten som har definierats för planen i det här scenariot. Budgetinformation om planer finns i <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Planer - översikt i [!DNL Scenario Planner]</a>. </td> 
+      <td>Den totala budgeten som har definierats för planen i det här scenariot. Budgetinformation om planer finns i Översikt över <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Planer i [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Kostnader</td> 
-      <td>De kostnader som är förknippade med satsningarna på scenariot. Mer information om kostnader finns i <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativen i [!DNL Scenario Planner]</a>. </td> 
+      <td>De kostnader som är förknippade med satsningarna på scenariot. Mer information om kostnader finns i <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Översikt över initiativ i [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Användning</td> 
-      <td>The [!UICONTROL Budget Utilization] Procentandel för planen i det här scenariot. Mer information om [!UICONTROL Budget Utilization] procent, se <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Planer - översikt i [!DNL Scenario Planner]</a>. </td> 
+      <td>Procentandelen [!UICONTROL Budget Utilization] för planen i det här scenariot. Mer information om procentandelen [!UICONTROL Budget Utilization] finns i <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Planöversikt i [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Nettovärde</td> 
-      <td>The [!UICONTROL Net Value] i planen i detta scenario. Mer information om [!UICONTROL Net Value] för en plan, se <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Planer - översikt i [!DNL Scenario Planner]</a>. </td> 
+      <td>Planens [!UICONTROL Net Value] i det här scenariot. Mer information om [!UICONTROL Net Value] för en plan finns i <a href="../scenario-planner/plans-overview.md" class="MCXref xref">Planöversikt i [!DNL Scenario Planner]</a>. </td> 
      </tr> 
      <tr> 
       <td>Initiativ</td> 
@@ -166,24 +166,24 @@ När du har skapat dina scenarier kan du jämföra dem för att hitta det bästa
 
 1. Klicka på namnet på ett scenario för att komma åt det och ändra det.
 
-   Mer information finns i [Skapa scenarier](#create-scenarios) i den här artikeln.
+   Mer information finns i avsnittet [Skapa scenarier](#create-scenarios) i den här artikeln.
 
-1. Klicka **[!UICONTROL Add description]** för att lägga till en beskrivning av scenariot
+1. Klicka på **[!UICONTROL Add description]** om du vill lägga till en beskrivning av scenariot
 
    eller
 
    Klicka på beskrivningsfältet för att uppdatera det och klicka sedan var som helst på skärmen för att spara ändringarna.
 
-1. (Valfritt) Klicka på **[!UICONTROL More]** meny ![](assets/more-icon.png) till **[!UICONTROL Copy]** eller **[!UICONTROL Delete]** scenariot.
+1. (Valfritt) Klicka på **[!UICONTROL More]**-menyn ![](assets/more-icon.png) för att **[!UICONTROL Copy]** eller **[!UICONTROL Delete]** för scenariot.
 
    ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
-   När du kopierar ett scenario visas det automatiskt på kortsidan och får ett nytt namn enligt följande mönster: &quot;[!UICONTROL Scenario] `<next number in order>`.&quot;
+   När du kopierar ett scenario visas det automatiskt på kortsidan och får ett nytt namn enligt följande mönster: [!UICONTROL Scenario] `<next number in order>`.
 
-1. (Villkorligt) Om du klickade **[!UICONTROL Delete]**, klicka **[!UICONTROL Yes, delete it]** för att bekräfta.
+1. (Villkorligt) Om du klickade på **[!UICONTROL Delete]** klickar du på **[!UICONTROL Yes, delete it]** för att bekräfta.
 
    Borttagna scenarier kan inte återställas.
 
-   Mer information om att ta bort scenarier finns i [Ta bort planer i dialogrutan [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
+   Mer information om att ta bort scenarier finns i [Ta bort planer i  [!DNL Scenario Planner]](../scenario-planner/delete-plans.md).
 
-1. Klicka **[!UICONTROL Save Plan]** för att spara dina scenarier och din plan.
+1. Klicka på **[!UICONTROL Save Plan]** om du vill spara dina scenarier och din plan.

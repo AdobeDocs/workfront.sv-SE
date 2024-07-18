@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Felhantering av utlösta fel i [!DNL Adobe Workfront Fusion]
 
-I vissa fall kanske du vill framtvinga ett stopp av scenariokörningen följt av [Återställning](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) eller [Verkställ](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) fasa in eller stoppa bearbetningen av en väg och eventuellt lagra den i kön med ofullständiga körningar.
+I vissa fall kanske du vill stoppa scenariokörningen följt av fasen [Återställning](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback) eller [Verkställ](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit) eller stoppa bearbetningen av en väg och eventuellt lagra den i kön med ofullständiga körningar.
 
-Felhanteringsdirektiven kan för närvarande inte användas utanför ett [Felhanterarflöde](../../workfront-fusion/errors/error-handling.md#error) och [!DNL Adobe Workfront Fusion] har ingen modul som gör att du enkelt kan generera (utlösa) fel villkorligt.
+För närvarande kan inte felhanteringsdirektiven användas utanför omfånget för en [Felhanterarväg](../../workfront-fusion/errors/error-handling.md#error) och [!DNL Adobe Workfront Fusion] erbjuder inte en modul som gör att du enkelt kan generera (utlösa) fel villkorligt.
 
-Information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
 Mer information om felhanteringsdirektiv finns i [Direktiv om felhantering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
@@ -44,37 +44,37 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion licenses]](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion licenses]](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Tillfällig lösning för Throw
 
-Om du vill att ett fel ska utlösas villkorligt kan du konfigurera en modul så att den eventuellt kan misslyckas under åtgärden. En möjlighet är att använda [!UICONTROL JSON] > [!UICONTROL Parse JSON] modul (se [JSON-moduler](../../workfront-fusion/apps-and-their-modules/json-modules.md)), konfigurerad att utlösa ett fel (BundleValidationError i det här fallet):
+Om du vill att ett fel ska utlösas villkorligt kan du konfigurera en modul så att den eventuellt kan misslyckas under åtgärden. Ett sätt är att använda modulen [!UICONTROL JSON] > [!UICONTROL Parse JSON] (se [ JSON-moduler](../../workfront-fusion/apps-and-their-modules/json-modules.md)), som konfigurerats för att utlösa ett fel (BundleValidationError i det här fallet):
 
 Du kan sedan bifoga ett av felhanteringsdirektiven till felhanteringsvägen till:
 
 * Tvinga scenariokörningen att stoppa och utföra återställningsfasen: [!UICONTROL Rollback]
 * Tvinga scenariokörningen att stoppa och utföra implementeringsfasen: [!UICONTROL Commit]
-* Stoppa bearbetning av en rutt: [!UICONTROL Ignore]
+* Stoppa bearbetning av en väg: [!UICONTROL Ignore]
 * Stoppa bearbetningen av en väg och lagra den i kön med ofullständiga körningsmappar: [!UICONTROL Break]
 
-I följande exempel visas hur du använder [!DNL Rollback] direktiv:
+I följande exempel visas hur direktivet [!DNL Rollback] används:
 
 ![](assets/rollback-directive-350x175.png)

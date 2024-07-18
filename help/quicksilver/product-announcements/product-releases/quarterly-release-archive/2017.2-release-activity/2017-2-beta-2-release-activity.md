@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2017.2 Beta 2 - versionsaktivitet
-description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
+description: Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # 2017.2 Beta 2 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
+Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i 2017.2 Beta 2. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 24 maj 2017. Den kommer att finnas tillgänglig i produktionsmiljön mellan slutet av juli och början av augusti 2017.
 
 >[!IMPORTANT]
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2017.2 finns på [Aktivitetsöversikt för 2017.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2017.2 finns i [Översikt över versionsaktivitet för 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-Beta 2-versionen från 2017.2 innehåller förbättringar både för Workfront-administratörer och andra användare:
+2017.2 Beta 2 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer:**
 
@@ -55,11 +55,11 @@ Mer information om att prenumerera på objekt finns i [Prenumerera på objekt i 
 
 Du kan avbeställa prenumerationer via länken &quot;Avbeställ&quot; i prenumerationens mejl. Tidigare kunde du bara avbryta prenumerationen på ett objekt från Workfront-gränssnittet.
 
-Mer information om hur du avbryter prenumerationen på e-postmeddelanden finns i avsnittet om att avanmäla dig via e-post i [Adobe Workfront-meddelanden](../../../../workfront-basics/using-notifications/wf-notifications.md) 
+Mer information om hur du avbryter prenumerationen på e-postmeddelanden finns i avsnittet om att välja bort e-postmeddelanden i [Adobe Workfront-meddelanden](../../../../workfront-basics/using-notifications/wf-notifications.md) 
 
 ## Konfigurera hur milstolpar visas i Gantt-schemat {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***KORRIGERING **: Den här funktionen finns inte i förhandsvisningssandlådemiljön. Den planeras släppas vid en senare tidpunkt under juni 2017.*
+***KORRIGERING **: Den här funktionen finns inte i förhandsvisningssandlådemiljön. Den planeras släppas vid ett senare datum, under juni 2017.*
 
 Det finns nu två alternativ för att visa information om milstolpar i ett Gantt-schema. Du kan konfigurera någon av eller båda följande milstolpeindikatorer:
 
@@ -96,7 +96,7 @@ Användare med korrekturlicens kan göra något av följande:
 * Öppna ett korrektur på en tidigare version av ett korrekturdokument
 * Visa korrekturinformation om en tidigare version av ett korrekturdokument
 
-Mer information finns i [Hantera dokumentversioner](../../../../documents/managing-documents/manage-document-versions.md) in [Hantera dokumentversioner](../../../../documents/managing-documents/manage-document-versions.md).
+Mer information finns i [Hantera dokumentversioner](../../../../documents/managing-documents/manage-document-versions.md) i [Hantera dokumentversioner](../../../../documents/managing-documents/manage-document-versions.md).
 
 ## Nytt begäranobjekt i korrekturgodkännanderapport {#new-requester-object-in-proof-approval-report}
 
@@ -108,6 +108,6 @@ Det nya begärandeobjektet i rapporten för korrektur av godkännande innehålle
 >
 > Den här informationen är endast tillgänglig i rapporten från den tidpunkt då den här funktionen först introducerades i respektive förhandsgransknings- eller produktionsmiljö. Information i rapporter om objektet Requester innan den här funktionen introducerades är inte tillgänglig.
 
-Du får åtkomst till objektet Beställare när du skapar en rapport för godkännande av korrektur, vilket beskrivs i [Skapa en anpassad rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Du får åtkomst till objektet Begär när du skapar en rapport för godkännande av korrektur, vilket beskrivs i [Skapa en anpassad rapport](../../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Mer information om objektrapporten för korrekturgodkännanden finns i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) avsnitt i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objektrapporten för korrekturgodkännanden finns i avsnittet [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) i [Förstå objekt i Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

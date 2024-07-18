@@ -24,16 +24,16 @@ These enhancements will be included in the following releases:
 >|<ul><li>23.8 (August 31, 2023)</li><li>23.9 (September 28, 2023)</li><li>23.10 (October 26, 2023)</li></ul>| <ul><li>23.10 (Week of October 26, 2023)</li></ul>|
 -->
 
-Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för webbinariet för att visa en on-demand-inspelning här](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
+Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för webbinariet om du vill visa en inspelning på begäran här](https://webinars.on24.com/adobe_workfront/whatsnewin2310?partnerref=releasenotes).
 
-<span class="preview">Funktioner utanför cykeln (de som lanserades till Production före fjärde utgåvan av kvartal 2023) markeras med gult.</span>
+<span class="preview">Funktioner utanför cykeln (de som lanserades till Produktion före fjärde utgåvan av kvartal 2023) är markerade i gult.</span>
 
 >[!IMPORTANT]
 >
 >23.3-versionen innehåller ett alternativ för att flytta organisationen till månatliga releaser. Därför ändrar Workfront numreringsschemat för releaser så att det tar hänsyn till både månads- och kvartalsvisa versionsspår.
 >
->* Om du är på **snabb release (månadsvis)** track, the release after 23.3 is **23.8**, den 31 augusti 2023.
-> * Om du är på **kvartalsvis** release track, the release after 23.3 is **23.10**, i veckan den 26 oktober 2023.
+>* Om du använder spåret **fast release (månadsvis)** är releasen efter 23.3 **23.8** den 31 augusti 2023.
+> * Om du är på **kvartalsvis** versionsspåret är releasen efter 23.3 **23.10**, veckan efter 26 oktober 2023.
 > 
 > Kvartalsvisa releaser kommer att innehålla funktionalitet från tre månadsversioner. Den 23.10 kvartalsversionen kommer till exempel att innehålla funktioner som släpptes i månadsversionerna 23.8, 23.9 och 23.10.
 >
@@ -74,7 +74,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Bevis- och dokumentbeslut som är tillgängliga för kunder med äldre licensmodell</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Bevisuella och dokumenterade beslut tillgängliga för äldre licensmodellkunder</a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Gamla kunder som ännu inte gått över till den nya licensmodellen för Adobe Workfront kan nu se data med antalet beslut om bevis/dokument per användare och månad i en enda rapport. Dessa data är tillgängliga när du kör en rapport om användarbeslut.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -109,9 +109,9 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till värdealternativ från ett externt API till ett anpassat formulär</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till värdealternativ från ett externt API i ett anpassat formulär</a></p>
                         <p>[!BADGE In production ]{type=Informative}</p>
-                        <p>En ny fälttyp, <strong>Extern sökning</strong>finns nu på den anpassade formulärdesignern. När du har data lagrade på ett externt system kan du med den här fälttypen läsa in alternativ från ett externt API och filtrera baserat på andra fältvärden i det anpassade formuläret.</p>
+                        <p>En ny fälttyp, <strong>Extern sökning</strong>, är nu tillgänglig för den anpassade formulärdesignern. När du har data lagrade på ett externt system kan du med den här fälttypen läsa in alternativ från ett externt API och filtrera baserat på andra fältvärden i det anpassade formuläret.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -148,7 +148,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Underuppgifter finns nu på Adobe Workfront Boards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Underaktiviteter är nu tillgängliga på Adobe Workfront Boards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>När du lägger till ett anslutet kort till en anslagstavla för en Workfront-uppgift importeras alla befintliga underaktiviteter till kortet. När du skapar en underaktivitet på ett anslutet kort läggs en underaktivitet till i Workfront-aktiviteten.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -184,7 +184,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägga till dokument på anslutna kort</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Nu kan du bifoga dokument på anslutna kort på Adobe Workfront Boards. Alla dokument som du lägger till på kortet blir tillgängliga på fliken Dokument i den anslutna uppgiften eller utgåvan, och samma filtyper stöds i båda områdena.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Lägg till dokument på anslutna kort</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Nu kan du bifoga dokument på anslutna kort på Adobe Workfront Boards. Alla dokument som du lägger till på kortet blir tillgängliga på fliken Dokument i den anslutna uppgiften eller utgåvan, och samma filtyper stöds i båda områdena.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -205,7 +205,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokument som är tillgängliga på anslutna kort är skrivskyddade</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För anslutna kort på Adobe Workfront Boards kan du nu visa dokument som bilder och PDF. Du kan antingen förhandsgranska ett dokument i webbläsaren eller hämta det till datorn. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Dokument som är tillgängliga på anslutna kort är endast tillgängliga för visning</a></p><p>[!BADGE In production ]{type=Informative}</p><p>För anslutna kort på Adobe Workfront Boards kan du nu visa dokument som bilder och PDF. Du kan antingen förhandsgranska ett dokument i webbläsaren eller hämta det till datorn. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -226,7 +226,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Styrelsevy för ett projekt som nu är tillgängligt för frågor</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Du kan nu få åtkomst till en vy över en projektutgåva. Kanban-panelen kan hjälpa dig att spåra problemets förlopp på ett mer visuellt sätt än att visa dem i listan. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Vy över ett projekt som nu är tillgängligt för utleveranser</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Du kan nu få åtkomst till en vy över en projektutgåva. Kanban-panelen kan hjälpa dig att spåra problemets förlopp på ett mer visuellt sätt än att visa dem i listan. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -304,7 +304,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegera arbetsknapp för widgetarna Projekt, Uppgift och Problem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Delegera arbetsknapp för widgetarna Projekt, Aktivitet och Problem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>En vanlig efterfrågad funktion på den gamla hemsidan är att vi nu har lagt till en delegatknapp i widgetarna Mitt arbete, Mina uppgifter och Mina problem så att du enkelt kan delegera arbete när du inte är på kontoret. Observera att delegering av arbete måste vara aktiverat i din Workfront-miljö för att knappen ska visas.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -323,7 +323,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för bokrutor för nytt hem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ny widget för anslagstavlor för nytt hem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>Förutom de nya arbetshanteringsalternativen i Nytt hem kan du nu visa en anslagstavla på startsidan!</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -421,7 +421,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Stöd för anpassad terminologi i Nytt hem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Stöd för anpassad terminologi för Nytt hem</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>För att bättre kunna tillgodose organisationernas unika behov använder Nytt hem nu anpassad terminologi för objekt som definieras i en förekomsts layoutmallar. Om till exempel"Projekt"-objekt har omdöpts till"Kampanjer" i din Workfront-instans visas widgeten Mina projekt som Mina kampanjer i Nytt hem.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -437,7 +437,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Knappen Ny startsida har tagits bort för konton som har inaktiverat Ny startsida</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Knappen Nytt hem har tagits bort för konton som har inaktiverat Nytt hem</a> </p>
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Knappen Testa ny startsida finns inte längre för konton där Ny startsida har inaktiverats. Nytt hem måste aktiveras på nytt av systemadministratören innan enskilda användare kan använda knappen för att prova Nytt hem.</p>
                     </td>
@@ -457,7 +457,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Växla till Ny standardwidget för hem</a> </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Ändra till ny standardwidget för hem</a> </p>
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Widgeten Att göra, som kräver behörighet att skapa uppgifter, finns nu bara i standardwidgetuppsättningen för användare med licenstyperna Standard, Plan och Work. Dessutom har widgeten automatiskt tagits bort från startsidorna för användare med alla andra licenstyper.</p>
                     </td>
@@ -496,7 +496,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrade upplevelser när du skickar dokument till SharePoint (GraphAPI)</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har gjort några ändringar som gör det enklare att hitta mappar när du skickar dokument till dina SharePoint-mappar (GraphAPI)</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av upplevelsen när dokument skickas till SharePoint (GraphAPI)</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har gjort några ändringar som gör det enklare att hitta mappar när du skickar dokument till dina SharePoint-mappar (GraphAPI)</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -511,7 +511,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppgraderingar för att dra och släppa för dokumentintegreringar</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har gjort några förbättringar för att lägga till tydlighet och ta bort användarfel när en fil dras och släpps till en länkad mapp.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Uppgraderingar att dra och släppa för dokumentintegreringar</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Vi har gjort några förbättringar för att lägga till tydlighet och ta bort användarfel när en fil dras och släpps till en länkad mapp.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -662,7 +662,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Ändringar på huvudmenyn för Contributor</a> </p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Huvudmenyn för Contributor ändras</a> </p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>För att informera medverkande/begärande om vilka funktioner som är tillgängliga med en betald Workfront-licenstyp kan de nu se alla alternativ som finns på huvudmenyn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -681,7 +681,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Förbättringar av kommentarupplevelsen</a> </p>
+                        <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md" class="MCXref xref" xrefformat="{para}">Förbättringar av betaversionen av nya kommentarfunktioner</a> </p>
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Förbättringar av uppdateringsavsnittet görs tillgängliga inom tidsramen för den fjärde utgåvan av kvartal 2023 för betaversionen av kommentarsfunktionen. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön för alla kunder med den fjärde utgåvan av kvartal 2023 (oktober 2023).</p>
                     </td>
@@ -701,7 +701,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nya betaversioner av Canvas Dashboards</a> </p>
+                        <a href="/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md" class="MCXref xref" xrefformat="{para}">Nya betaversioner av arbetsytans kontrollpaneler</a> </p>
                         <p>[!BADGE In production ]{type=Informative}</p>
                         <p>Förbättringar av arbetsytans kontrollpaneler görs tillgängliga inom tidsramen för den fjärde utgåvan av kvartal 2023 som en del av den pågående betaversionen. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön för alla kunder med den fjärde utgåvan av kvartal 2023 (oktober 2023).</p>
                     </td>
@@ -721,7 +721,7 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under fjärde kvartalet 2023</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för det fjärde kvartalet 2023. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under tidsramen för fjärde kvartalet 2023</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för det fjärde kvartalet 2023. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
@@ -741,15 +741,15 @@ Webbseminariet 23.10 släpptes den 5 oktober 2023. Du kan [registrera dig för w
 
 ### Workfront Fusion-förbättringar
 
-Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än den fjärde utgåvan av kvartal 2023. Mer information om de senaste funktionerna finns i [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än den fjärde utgåvan av kvartal 2023. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
 Det finns för närvarande inga uppdateringar av scenarioplanen i den här versionen. Det här området uppdateras när det finns uppdateringar.
 
-### Förbättringar av Workfront-korrektur
+### Workfront Proof-förbättringar
 
-Det finns för närvarande inga Workfront Proof-uppdateringar. Det här området uppdateras när det finns uppdateringar.
+Det finns inga Workfront Proof-uppdateringar just nu. Det här området uppdateras när det finns uppdateringar.
 
 ### Förbättringar av Workfront-mål
 
@@ -759,17 +759,17 @@ Det finns inga Workfront Goals-uppdateringar just nu i den här versionen. Det h
 
 API version 17 släpptes 12 oktober 2023. För API-version 17 har vi ändrat vissa resurser och slutpunkter. Vissa av ändringarna har stöd för nya funktioner och andra gör det enklare för dig att använda informationen som är tillgänglig via API:t.
 
-Information om nyheter och uppdateringar finns på [Nyheter i API-version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Information om nyheter och uppdateringar finns i [Nyheter i API-version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Mer information om API-versioner finns i [API-versionshantering och supportschema](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Workfront Maintenance Updates
 
-Mer information om underhållsuppdateringar som gjordes i version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Mer information om underhållsuppdateringar som gjorts under version 2.3 finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Uppdateringar
 
-Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet &quot;Nyheter&quot; i [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
 
 ### Funktioner som snart ska tas bort från Workfront
 

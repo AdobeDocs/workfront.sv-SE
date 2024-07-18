@@ -27,7 +27,7 @@ Syftet med kontrollpanelen är att ge snabb åtkomst till information. Du kan fy
 
 * Externa sidor
 
-  Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+  Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
 När du har skapat de här objekten och lagt till dem på en kontrollpanel kan du redigera kontrollpanelen för att lägga till fler objekt i den, ta bort befintliga objekt från den eller redigera instrumentpanelsinformationen.
 
@@ -53,7 +53,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -68,25 +68,25 @@ Du måste ha följande:
 
 Du måste skapa en kontrollpanel innan du kan redigera den.
 
-Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 ## Redigera en kontrollpanel
 
 1. Gå till den instrumentpanel som du vill redigera.
-1. Klicka **Instrumentpanelsåtgärder** och sedan klicka **Redigera**.
+1. Klicka på **Instrumentpanelsåtgärder** och sedan på **Redigera**.
 
    ![](assets/qs-dashboard-actions-menu-350x318.png)
 
    >[!TIP]
    >
-   >Mer information om hur du tar bort en kontrollpanel finns i [Ta bort en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
+   >Mer information om hur du tar bort en kontrollpanel finns i [Ta bort en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md).
 
 1. Överväg att redigera följande fält:
 
-   * **Namn**: Redigera namnet på kontrollpanelen.
+   * **Namn**: Redigera namnet på instrumentpanelen.
    * **Beskrivning**: Ange en beskrivning för instrumentpanelen.
 
-1. I **Tillgängliga rapporter och kalendrar** börjar du skriva namnet på en rapport, kalender eller extern sida i **Sök efter namn eller typ..** och sedan dra och släppa rapporten eller kalendern i layoutfönstret till höger.
+1. I avsnittet **Tillgängliga rapporter och kalendrar** börjar du skriva namnet på en rapport, kalender eller extern sida i fältet **Sök efter namn eller typ ...**. Dra sedan rapporten eller kalendern i layoutfönstret till höger.
 
    >[!NOTE]
    >
@@ -95,9 +95,9 @@ Mer information om hur du skapar kontrollpaneler finns i [Skapa en instrumentpan
 1. (Valfritt) Välj en ny layout för kontrollpanelen genom att klicka på en alternativknapp som motsvarar den layout du vill använda.
 1. (Valfritt) För muspekaren över namnet på en befintlig rapport och klicka på papperskorgsikonen för att ta bort den från kontrollpanelen.
 1. (Valfritt) Ändra ordningen på rapporterna på kontrollpanelen genom att klicka på namnet på en rapport, dra den och släppa den på önskad plats i layoutfönstret.
-1. (Valfritt) Klicka på **Lägg till extern sida** om du vill lägga till en extern sida på kontrollpanelen.\
+1. (Valfritt) Klicka på **Lägg till extern sida** om du vill lägga till en extern sida på instrumentpanelen.\
    eller\
-   Leta reda på en befintlig extern sida på kontrollpanelen, för muspekaren över den och klicka på **Redigera** om du vill redigera den externa sidan.\
-   Mer information om hur du lägger till eller redigerar externa sidor på en kontrollpanel finns i [Bädda in en extern webbsida i en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+   Leta reda på en befintlig extern sida i kontrollpanelen, peka på den och klicka på ikonen **Redigera** för att redigera den externa sidan.\
+   Mer information om hur du lägger till eller redigerar externa sidor i en kontrollpanel finns i [Bädda in en extern webbsida i en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.

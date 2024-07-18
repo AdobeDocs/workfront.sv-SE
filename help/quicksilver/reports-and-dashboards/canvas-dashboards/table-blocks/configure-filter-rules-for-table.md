@@ -36,7 +36,7 @@ Det finns tre komponenter i en filterregel:
  </tbody> 
 </table>
 
-**Exempel:** Om du vill begränsa resultaten i rapporten så att endast projekt som ägs av Jane Doe visas, kan du skapa en filterregel med fältet&quot;Projektägare&quot;, operatorn&quot;Lika med&quot; och värdet&quot;Jane Doe&quot;.
+**Exempel:** Om du vill begränsa resultaten i din rapport så att endast projekt som ägs av Jane Doe visas, kan du skapa en filterregel med fältet&quot;Projektägare&quot;, operatorn&quot;Lika med&quot; och värdet&quot;Jane Doe&quot;.
 
 Du kan också visa endast projekt som har en tilldelad projektägare, som har fältet&quot;Projektägare&quot; och operatorn&quot;Inte tom&quot;.
 
@@ -46,19 +46,19 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Konfigurera filterregler för en tabell
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på&#x200B;**Rapportering**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
 
-1. Klicka **Ny rapport**.
+1. Klicka på **Ny rapport**.
 
    eller
 
-   Klicka på **Menyn Mer** icon ![](assets/more-icon.png) i rapportrubriken väljer du **Redigera**.
+   Gå till en befintlig rapport, klicka på ikonen **Mer meny** ![](assets/more-icon.png) i rapportrubriken och välj sedan **Redigera**.
 
 1. Om du vill gruppera rader i en ny tabell drar eller dubbelklickar du på ett tabellblock på arbetsytan.
 
    eller
 
-   Klicka på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken.
+   Om du vill gruppera rader i en befintlig tabell klickar du på ikonen **Redigera** ![](assets/edit-icon.png) i tabellhuvudet.
 
 1. I den högra panelen letar du reda på det fält som du vill filtrera tabellen efter och drar det sedan till filteravsnittet.
 
@@ -79,15 +79,15 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
       <td> <p>Detta returnerar bara resultat som inte är exakta träffar för det sökda värdet.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Är tom</strong> </td> 
+      <td role="rowheader"><strong>är tom</strong> </td> 
       <td> <p>Fältet finns för objektet men fältet har ännu inte fått något värde.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Är inte tom</strong> </td> 
+      <td role="rowheader"><strong>är inte tom</strong> </td> 
       <td> <p>Fältet som du filtrerar efter finns och har fått ett värde.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Är mindre än</strong> </td> 
+      <td role="rowheader"><strong>är mindre än</strong> </td> 
       <td> <p>Detta söker efter alla resultat med ett värde som är mindre än det som anges, utan att det angivna värdet tas med.</p> </td> 
      </tr> 
      <tr> 
@@ -95,7 +95,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
       <td> <p>Detta söker efter alla resultat med ett värde som är mindre än eller lika med det angivna värdet.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Är större än</strong> </td> 
+      <td role="rowheader"><strong>är större än</strong> </td> 
       <td> <p>Detta söker efter alla resultat med ett värde som är större än det angivna värdet, utan att det angivna värdet tas med.</p> </td> 
      </tr> 
      <tr> 
@@ -121,13 +121,13 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
    >[!NOTE]
    >
-   >Värden som anges här är **not** skiftlägeskänslig.
+   >De värden som anges här är **inte** skiftlägeskänsliga.
 
 1. (Valfritt) Gör så här om du vill lägga till en till filterregel i regeluppsättningen:
 
-   1. Dra ett annat fält till **Släpp om du vill lägga till en annan regel** i avsnittet Filter nedanför den andra regeln.
+   1. Dra ett annat fält till **Släpp om du vill lägga till ytterligare en regel** i filteravsnittet nedanför den andra regeln.
    1. Upprepa steg 4-6.
-   1. I den nedrullningsbara listan till vänster om den nya regeln väljer du **OCH** eller **ELLER**.
+   1. I den nedrullningsbara listrutan till vänster om den nya regeln väljer du **AND** eller **OR**.
 
       <table style="table-layout:auto"> 
        <col> 
@@ -141,7 +141,7 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
         </tr> 
         <tr> 
          <td role="rowheader"> <p>ELLER</p> </td> 
-         <td> <p>När du kopplar filterregler eller regeluppsättningar till operatorn OR anger du att du vill <strong>minst</strong> en regel - eller regeluppsättning - på den nivån ska uppfyllas.</p> </td> 
+         <td> <p>När du kopplar filterregler eller regeluppsättningar med OR-operatorn anger du att du vill att <strong>minst</strong> en regel - eller regeluppsättning - på den nivån ska uppfyllas.</p> </td> 
         </tr> 
        </tbody> 
       </table>
@@ -152,6 +152,6 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. (Villkorligt) Gör så här om du vill lägga till ytterligare en filterregeluppsättning:
 
-   1. Dra fältet som du vill lägga till till **Lägga till en regeluppsättning** området nedanför dina andra filterregeluppsättningar.
+   1. Dra fältet som du vill lägga till till i området **Lägg till en regeluppsättning** nedanför dina andra filterregeluppsättningar.
    1. Upprepa steg 4-7.
-   1. Välj i listrutan till vänster om den nya regeluppsättningen **OCH** eller **ELLER**. Dessa operatorer fungerar på samma sätt som de som listas i steg 7, men gäller för hela regeluppsättningar i stället för enskilda regler i en uppsättning.***
+   1. Välj **AND** eller **OR** i den nedrullningsbara listan till vänster om den nya regeluppsättningen. Dessa operatorer fungerar på samma sätt som de som listas i steg 7, men gäller för hela regeluppsättningar i stället för enskilda regler i en uppsättning.***

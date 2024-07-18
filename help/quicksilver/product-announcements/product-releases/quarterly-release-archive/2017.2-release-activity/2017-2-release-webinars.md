@@ -20,7 +20,7 @@ Dessa webbinarier fokuserades på de funktioner som fanns i version 2017.2. 
 
 2017.2-utgåvan är för närvarande tillgänglig för test i Preview. 2017.2-utgåvan kommer att vara tillgänglig i produktionsmiljön i slutet av juli eller början av augusti 2017.
 
-Mer information om funktionerna i webbinarierna finns i [Aktivitetsöversikt för 2017.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) sida.
+Mer detaljerad information om de funktioner som beskrivs i webbinarierna finns på [2017.2-aktivitetsöversikten](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
 Följande webbinära inspelningar är tillgängliga:
 
@@ -102,4 +102,4 @@ Den här delen av webbinariet innehåller följande ämnen:
 
 ## 2017.2 Beta 1 och 2 (24 maj 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-Det här webbseminariet presenterades den 24 maj 2017. Det här webbinariet innehåller funktioner som är tillgängliga i 2017.2 Beta 1- och Beta 2-versionerna.
+Det här webbseminariet presenterades den 24 maj 2017. Det här webbinariet innehåller funktioner som finns i 2017.2 Beta 1 och Beta 2.

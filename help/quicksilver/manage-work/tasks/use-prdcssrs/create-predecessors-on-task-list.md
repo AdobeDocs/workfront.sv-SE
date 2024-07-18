@@ -61,26 +61,26 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Skapa en föregående
 
 1. Gå till ett projekt.
-1. Klicka **Uppgifter** till vänster.
-1. Kontrollera att den aktuella vyn visar **Föregående** kolumn.
+1. Klicka på **Åtgärder** i den vänstra panelen.
+1. Kontrollera att kolumnen **Föregående** visas i den aktuella vyn.
 
    Om kolumnen Föregående inte visas i vyn kan du ändra till en vy som gör det eller lägga till kolumnen i vyn.
 
 1. Välj den uppgift som du vill ange som beroende uppgift.
-1. Klicka inuti **Föregående** kolumn.
-1. Ange det aktivitetsnummer som du vill ange som föregångare för den valda uppgiften och tryck sedan på **Retur**.
+1. Klicka i kolumnen **Föregående**.
+1. Skriv det aktivitetsnummer som du vill ange som föregångare till den markerade aktiviteten och tryck sedan på **Retur**.
 
    >[!TIP]
    >
    >Så här lägger du till en föregångare för flera projekt:
    >
-   >1. Klicka på **Planläge** ikon och välj **Spara automatiskt**.
+   >1. Klicka på ikonen **Planeringsläge** och välj **Spara automatiskt**.
    >
    >1. Skriv in referensnumret för föregående projekts projekt följt av kolon och uppgiftens nummer. Skriv till exempel: 765021:12. Detta anger att referensnumret för föregående projekt är 765021 och föregående är uppgiftsnummer 12 i projektet.
    >
-   >1. Lägg till beroendetypen för den här föregångaren. Mer information finns i [Skapa föregångare mellan projekt](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+   >1. Lägg till beroendetypen för den här föregångaren. Mer information finns i [Skapa föregående projekt mellan projekt](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
    >
-   >Tryck **Retur**.
+   >Tryck på **Retur**.
    >
    >**VIKTIGT**
    >
@@ -88,13 +88,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    Föregående-ikonen blir grön när föregående aktivitet har markerats som slutförd. Detta signalerar att den beroende aktiviteten är klar för arbete.
 
-   Mer information om de relationstyper som finns i kolumnen Föregångare finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+   Mer information om de relationstyper som finns i kolumnen Föregående aktiviteter finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Visa föregående information
 
 Du kan snabbt visa information om föregående i uppgiftslistan.
 
-1. Håll markören över föregående nummer i uppgiftslistan **Föregående** kolumn.
+1. Håll markören över föregående nummer i kolumnen **Föregående** i uppgiftslistan.
 
    En ruta med information om föregående visning visas.
 
@@ -106,7 +106,7 @@ Du kan snabbt visa information om föregående i uppgiftslistan.
 
    **Projektnamn:** Namnet på det projekt där föregångaren finns. Projektet identifieras som det aktuella projektet om föregående projekt tillhör samma projekt som aktiviteten, eller som ett korsprojekt om föregående projekt tillhör ett annat projekt. I ovanstående exempel är projektnamnet Digital Asset Production (Integrated) - Project. Mer information om föregående projekt finns i [Skapa föregångare mellan projekt](../../tasks/use-prdcssrs/cross-project-predecessors.md).
 
-   Du kan expandera projektinformationen för att se projektets planerade start- och slutdatum, villkor, status, procent slutfört och ägare. För ett korsprojekt kan du sedan klicka **Se projekt** för att öppna projektet.
+   Du kan expandera projektinformationen för att se projektets planerade start- och slutdatum, villkor, status, procent slutfört och ägare. För ett korsprojekt kan du sedan klicka på **Se projekt** för att öppna projektet.
 
    **ID:** Referensnumret för det projekt där föregångaren finns.
 
@@ -114,6 +114,6 @@ Du kan snabbt visa information om föregående i uppgiftslistan.
 
    **Planerat slut:** Det planerade slutförandedatumet för föregående aktivitet.
 
-   **Antal föregående:** Antalet föregångare för den föregångare som refereras. I exemplet ovan har föregångaren 1.
+   **Antal föregångare:** Antalet föregångare för den föregångare som refereras. I exemplet ovan har föregångaren 1.
 
-   **Antal efterföljande:** Antalet efterföljande (eller beroende) uppgifter för föregående som refereras. I exemplet ovan har den föregående som refereras 1 efterföljande.
+   **Antal efterföljande:** Antalet efterföljande (eller beroende) aktiviteter för föregående som refereras. I exemplet ovan har den föregående som refereras 1 efterföljande.

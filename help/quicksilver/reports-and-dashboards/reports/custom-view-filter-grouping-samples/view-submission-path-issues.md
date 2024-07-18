@@ -9,16 +9,16 @@ feature: Reports and Dashboards
 exl-id: bee1e066-c3f4-4d74-92b0-ab7f43d52a50
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
 
-# Visa: inskickningssökväg för utleveranser
+# Visa: överföringssökväg för problem
 
 Du kan visa den sökväg genom vilken ett problem har skickats in i en problemrapport. Sökvägen anger kön, ämnesgrupp och köämne där problemet ursprungligen skickades.
 
-![issue_submission_path.png](assets/issue-submission-path-350x66.png)
+![issue_submit_path.png](assets/issue-submission-path-350x66.png)
 
 ## Åtkomstkrav
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>   
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -55,14 +55,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Visa överföringssökvägen för utgåvor
 
 1. Gå till en lista med problem.
-1. Från **Visa** nedrullningsbar meny, välja **Ny vy**.
+1. Välj **Ny vy** i listrutan **Visa**.
 
-1. I **Förhandsgranska kolumn** område, klicka **Lägg till kolumn**.
+1. Klicka på **Lägg till kolumn** i området **Förhandsvisa kolumn**.
 
 1. Klicka på den nya kolumnens rubrik och klicka sedan på **Växla till textläge**.
-1. För musen över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
-
+1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
    <pre>displayname= Issue Path<br>linkedname=direct <br>namekey=displayQueueBreadcrumb <br>valueField=displayQueueBreadcrumb <br>valueFormat=HTML<br></pre>
 
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.

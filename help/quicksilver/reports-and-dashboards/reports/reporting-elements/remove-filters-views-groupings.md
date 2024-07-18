@@ -37,7 +37,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Visa eller ge senare åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge senare åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -67,23 +67,23 @@ Följande scenarier gäller när du tar bort eller tar bort ett filter med stand
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png).
-1. Håll pekaren över ett filter under **Delas med mig** klickar du på **Mer** meny ![Mer-ikon](assets/more-icon-spectrum.png)och sedan klicka **Ta bort**.
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
+1. Hovra över ett filter under **Delat med mig**, klicka på **Mer**-menyn ![Mer-ikonen](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 
    ![Ta bort filter](assets/new-filters-more-menu-remove-filter.png)
 
-1. Välj **Ta bort** på bekräftelsemeddelandet för att permanent ta bort filtret.
+1. Välj **Ta bort** i bekräftelsemeddelandet om du vill ta bort filtret permanent.
 
 ### Ta bort ett filter med standardverktyget
 
 1. Gå till en lista med projekt, uppgifter, utgåvor, portfolior, program, användare, mallar eller grupper.
-1. Klicka på **Filter** icon ![Filterikon](assets/filter-nwepng.png).
-1. Håll pekaren över ett filter som du har behörighet att ta bort och klicka på **Mer** meny ![Mer-ikon](assets/more-icon-spectrum.png)och sedan klicka **Ta bort**.
+1. Klicka på ikonen **Filter** ![Filter ](assets/filter-nwepng.png) .
+1. Håll pekaren över ett filter som du har behörighet att ta bort, klicka på ikonen **Mer** ![Mer](assets/more-icon-spectrum.png) och klicka sedan på **Ta bort**.
 
    ![Ta bort filter](assets/new-filters-more-menu-options-with-delete.png)
 
-1. (Valfritt) Klicka på **Avbryt** på bekräftelsemeddelandet för att undvika borttagning och återgå till filterlistan.
-1. Klicka **Ta bort** på bekräftelsemeddelandet för att bekräfta borttagningen.
+1. (Valfritt) Klicka på **Avbryt** i bekräftelsemeddelandet för att undvika borttagningen och återgå till filterlistan.
+1. Bekräfta borttagningen genom att klicka på **Ta bort** i bekräftelsemeddelandet.
 
    Filtret tas bort för dig och alla användare som har behörighet till det.
 
@@ -97,25 +97,25 @@ Hur du tar bort ett rapportelement beror på om du skapade det eller om det dela
 
 Följande scenarier gäller när du tar bort ett filter, en vy eller en gruppering:
 
-* **Om du skapade elementet och tog bort det**, tas elementet bort från Workfront-systemet. Det är inte längre tillgängligt för användare som du tidigare delat det med.
-* **Om elementet delades med dig och du tar bort det**, tas elementet bara bort åt dig. Den användare som ursprungligen skapade den och alla andra användare som den har delats med har fortfarande åtkomst till den.
+* **Om du skapade elementet och tog bort det** tas elementet bort från Workfront-systemet. Det är inte längre tillgängligt för användare som du tidigare delat det med.
+* **Om elementet delades med dig och du tar bort det** tas elementet bara bort åt dig. Den användare som ursprungligen skapade den och alla andra användare som den har delats med har fortfarande åtkomst till den.
 
 ### Ta bort ett filter, en vy eller en gruppering med det äldre verktyget
 
 1. Gå till en lista med objekt eller en rapport.
-1. (Villkorligt) Klicka på **Filter**, **Visa**, eller **Gruppering** hovra sedan över det filter, den vy eller gruppering som du vill ta bort och klicka på **Mer** icon ![](assets/more-icon.png)sedan **Ta bort**. Filtret, vyn eller grupperingen tas bort.
-1. (Villkorligt) Klicka på **Gruppering**, **Filter**, eller **Visa** nedrullningsbar meny och välj **Ta bort gruppering**, **Ta bort filter**, eller **Ta bort vy**.
+1. (Villkorligt) Klicka på ikonen **Filter**, **Visa** eller **Gruppering** i en lista och för sedan pekaren över det filter, den vy eller den gruppering som du vill ta bort, klicka på ikonen **Mer** ![](assets/more-icon.png) och sedan på **Ta bort**. Filtret, vyn eller grupperingen tas bort.
+1. (Villkorligt) Klicka på listrutan **Gruppering**, **Filter** eller **Visa** och välj **Ta bort gruppering**, **Ta bort filter** eller **Ta bort vy** i en rapport.
 
-   The **Mina grupperingar**, **Mina filter,** eller **Mina vyer** visas.
+   Dialogrutan **Mina grupperingar**, **Mina filter** eller **Mina vyer** visas.
 
    Alla rapportelement som du har behörighet att ta bort kan tas bort. Andra rapportelement visas som nedtonade.
 
-1. Klicka på **x** -ikonen bredvid ett rapportelement som du vill ta bort.
-1. (Villkorligt) Klicka **Ja, ta bort den** om du valde att ta bort ett filter, en vy eller en gruppering som du skapade och senare delade med andra. Filtret, vyn eller grupperingen tas bort från Workfront-systemet.
+1. Klicka på ikonen **x** bredvid ett rapportelement som du vill ta bort.
+1. (Villkorligt) Klicka på **Ja, ta bort** om du valt att ta bort ett filter, en vy eller en gruppering som du har skapat och senare delat med andra. Filtret, vyn eller grupperingen tas bort från Workfront-systemet.
 
    >[!TIP]
    >
    >Om du tar bort ett filter, en vy eller en gruppering som du har skapat utan att dela det med andra tas det bort från systemet utan att någon bekräftelse behöver skickas.
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.
 

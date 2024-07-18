@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr>
 
 <tr> 
@@ -37,16 +37,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront-administratören om du vill veta vilken plan- eller korrekturåtkomst du har.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan- eller korrekturåtkomst du har.
 
 ## Återställa ett arkiverat korrektur
 
 Alla, även gästgranskare, kan återställa arkiverade bevis.
 
 1. Gå till det dokument som innehåller det arkiverade korrektur som du vill få åtkomst till.
-1. Klicka **Öppna korrektur**.
+1. Klicka på **Öppna korrektur**.
 
    En sida visas som förklarar att korrekturet har arkiverats.
 
-1. Klicka **Oarkiv** för att avarkivera beviset.
-1. Uppdatera webbläsaren och klicka sedan på **Korrektur** igen.
+1. Klicka på **Avarkivera** för att avarkivera korrekturet.
+1. Uppdatera webbläsaren och klicka sedan på **Korrektur** igen.

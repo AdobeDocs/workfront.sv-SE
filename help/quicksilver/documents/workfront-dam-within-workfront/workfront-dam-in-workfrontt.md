@@ -23,5 +23,5 @@ Det här avsnittet innehåller följande artiklar:
 
 * [Aktivera Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md)
 * [Hantera dokument med Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-* [Adobe Workfront rolltyper för licensiering kontra rolltyper för Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
+* [Adobe Workfront licensrolltyper jämfört med Adobe Workfront DAM-rolltyper](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
 * [Hjälp om Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

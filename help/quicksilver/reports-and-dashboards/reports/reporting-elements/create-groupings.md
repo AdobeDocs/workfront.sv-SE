@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att skapa en gruppering i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att skapa en gruppering i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -55,19 +55,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skapa en gruppering
 
 1. Gå till rapporten eller listan där du vill skapa en anpassad gruppering.
-1. Klicka på **Gruppering** ikon .
+1. Klicka på ikonen **Gruppera** .
 
    ![Välj ny gruppering](assets/newgrouping-nwe-standard-350x304.png)
 
-1. Klicka **Ny gruppering**.
+1. Klicka på **Ny gruppering**.
 Gränssnittsverktyget för att skapa grupperingen startar.
 
-1. I **Förhandsgranska gruppering** avsnitt, klicka **Lägg till gruppering** för att definiera hur informationen i rapporten ska ordnas. En förhandsgranskning av hur grupperingen ser ut i rapporten visas nedan.
+1. I avsnittet **Förhandsgranska gruppering** klickar du på **Lägg till gruppering** för att definiera hur informationen i rapporten ska ordnas. En förhandsgranskning av hur grupperingen ser ut i rapporten visas nedan.
 
 1. Börja skriva namnet på det fält som representerar hur du vill organisera informationen i rapporten och klicka sedan på det när det visas i listrutan.
-1. (Valfritt och villkorligt) När du skapar en gruppering i en uppdaterad lista väljer du **Komprimera den här grupperingen som standard** om du vill att resultatet i grupperingen ska visas komprimerat i stället för expanderat. Den här inställningen är inaktiverad som standard och resultatet av grupperingen visas alltid i den utökade listan.
+1. (Valfritt och villkorligt) När du skapar en gruppering i en uppdaterad lista väljer du **Komprimera den här grupperingen som standard** om du vill att resultaten i grupperingen ska visas komprimerade i stället för expanderade. Den här inställningen är inaktiverad som standard och resultatet av grupperingen visas alltid i den utökade listan.
 
-   Mer information om uppdaterade och äldre listor finns i avsnittet [Skillnaden mellan de uppdaterade och de äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Mer information om uppdaterade och äldre listor finns i avsnittet [Skillnaden mellan de uppdaterade och äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -76,13 +76,12 @@ Gränssnittsverktyget för att skapa grupperingen startar.
    >[!TIP]
    >
    >* När du justerar grupperingar manuellt när du visar en lista kommer Workfront ihåg dina manuella inställningar tills du loggar ut. När du loggar in igen visas listan enligt den här inställningen.
-   >* Resultatet av en gruppering visas alltid utökat när du har öppnat dem från ett diagramelement eller i en äldre lista. I dessa fall ignoreras inställningen.
-
+   >* Resultatet av en gruppering visas alltid utökat när du har öppnat dem från ett diagramelement eller i en äldre lista. I dessa fall ignoreras den här inställningen.
 
 1. Upprepa steg 4, 5 och 6 för att definiera ytterligare grupperingar.\
    Du kan definiera upp till tre grupperingar för att ordna information. Du kan organisera informationen ytterligare med upp till fyra grupperingar genom att skapa en matrisrapport. Mer information om matrisrapporter finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Klicka **Spara gruppering**.
+1. Klicka på **Spara gruppering**.
 
 ## Ytterligare information
 

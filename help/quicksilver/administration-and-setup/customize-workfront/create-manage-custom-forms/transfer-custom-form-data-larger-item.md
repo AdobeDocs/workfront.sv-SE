@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -52,34 +52,34 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Först: Lägg till ytterligare objekt i det anpassade formuläret
 
 {{step-1-to-setup}}
 
-1. Klicka **Anpassad Forms**.
-1. Hitta det formulär du behöver och klicka sedan på ![Ikonen Redigera](assets/edit-icon.png).
+1. Klicka på **Anpassad Forms**.
+1. Leta reda på formuläret som du behöver och klicka sedan på ![Redigera-ikonen](assets/edit-icon.png).
 1. Längst upp i formuläret lägger du till objektet som du vill konvertera uppgiften eller utgåvan till.
 
    >[!INFO]
    >
    >**Exempel**: Om du vill överföra anpassade formulärdata till ett projekt väljer du Projekt.
 
-1. Klicka **Använd** längst ned i formuläret.
+1. Klicka på **Använd** längst ned i formuläret.
 
-1. Fortsätt till [Andra: Konvertera problemet eller uppgiften och överför anpassade formulärdata](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Fortsätt till [Sekund: Konvertera problemet eller aktiviteten och överför anpassade formulärdata](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
 ## Andra: Konvertera problemet eller uppgiften och överför anpassade formulärdata {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Lägg till ytterligare objekt i det anpassade formuläret i det problem eller den uppgift du konverterar, enligt anvisningarna i avsnittet [Först: Lägg till ytterligare objekt i det anpassade formuläret](#first-add-additonal-objects-to-the-custom-form) i den här artikeln.
-1. Konvertera ett problem eller en uppgift med **Anpassad Forms** i rutan som visas för att välja det anpassade formulär som du behöver. Instruktioner finns i följande artiklar:
+1. Lägg till ytterligare objekt i det anpassade formuläret för det problem eller den uppgift som du konverterar, enligt beskrivningen i avsnittet [Första: Lägg till ytterligare objekt i det anpassade formuläret](#first-add-additonal-objects-to-the-custom-form) i den här artikeln.
+1. Konvertera utgåvan eller aktiviteten med alternativet **Anpassad Forms** i rutan som visas för att välja det anpassade formulär som du behöver. Instruktioner finns i följande artiklar:
 
    * [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Konvertera ett problem till en uppgift i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Konvertera en uppgift till ett projekt](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. I **Konvertera till (objekttyp)** klickar du på **Lägg till Forms** och välj det formulär du kopierade i föregående avsnitt.
+1. I dialogrutan **Konvertera till (objekttyp)** som visas klickar du på listrutan **Lägg till Forms** och väljer det formulär som du kopierade i föregående avsnitt.
 
    Informationen som hämtas i de anpassade fälten för utgåvan överförs nu till det anpassade formuläret för uppgiften.
 
@@ -91,7 +91,7 @@ First you need to make sure that you retain any custom form data on a task or is
 
 >[!TIP]
 >
->Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see the section [Start editing a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

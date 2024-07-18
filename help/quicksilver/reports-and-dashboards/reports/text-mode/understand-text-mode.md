@@ -6,9 +6,9 @@ description: Du kan skapa en rapport eller en lista i Adobe Workfront med hjälp
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '798'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Mer information om hur du skapar rapporter i textläge, inklusive klasser, video
 
 >[!TIP]
 >
->Du kan också utöka funktionerna för beräknade anpassade fält genom att använda en version av textläget för anpassade fält. Syntaxen och reglerna för att skapa ett beräknat anpassat fält skiljer sig från dem du använder i rapporter och listor. Mer information om hur du lägger till ett beräknat anpassat fält finns i [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+>Du kan också utöka funktionerna för beräknade anpassade fält genom att använda en version av textläget för anpassade fält. Syntaxen och reglerna för att skapa ett beräknat anpassat fält skiljer sig från dem du använder i rapporter och listor. Mer information om hur du lägger till ett beräknat anpassat fält finns i [Lägg till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * Innan du börjar använda textläge i dina rapporter rekommenderar vi att du går igenom våra lektioner för avancerad rapportering för att få en bättre förståelse för vårt textläge. <!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Vi rekommenderar att du använder standardläget för att säkerställa att de rapporter du skapar förblir intakta när Workfront uppdateras. I textläget kan du skapa mer komplexa vyer, filter och grupperingar, men det är också mer komplicerat att underhålla och garanteras inte när Workfront uppdateras.
@@ -53,7 +53,7 @@ Mer information om hur du skapar rapporter i textläge, inklusive klasser, video
 
 * Det finns en uppsättning regler och en unik syntax som du måste använda för att kunna skapa rapporter och listor i textläge. Kontrollera att du känner till Workfront syntax för textläge innan du börjar.
 
-  Mer information om syntax och regler för användning av textläge finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+  Mer information om syntax och regler för användning av textläge finns i [Syntaxöversikt i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 * När du har anpassat ett rapportelement i textläge kanske du inte kan växla tillbaka till standardläge (i en vy) eller så kan koden för det element du skapade tas bort (i filter och grupperingar). Detta beror på att inte alla fält som stöds i textläge stöds i standardläge.
 
@@ -74,7 +74,7 @@ Mer information om standardlägesgränssnittet och hur du skapar en rapport elle
 
 I textläget kan du skapa mer komplexa vyer, filter, grupperingar och uppmaningar genom att låta dig använda fält som inte är tillgängliga i standardlägesgränssnittet. I Workfront-textläge är en samling kodade satser som anger vilka objekt som ska visas i en rapport eller lista.
 
-En fullständig lista över alla våra rapportbara fält finns i [API Explorer](../../../wf-api/general/api-explorer.md).
+En fullständig lista över alla våra rapportbara fält finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Mer information om hur du använder textläge i vyer, filter och grupperingar fi
 
 Anpassade uppmaningar kan bara redigeras i textläge. Du kan bara komma åt uppmaningar från en rapport.
 
-Mer information om hur du får åtkomst till textlägesgränssnittet för anpassade uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Mer information om hur du får åtkomst till textlägesgränssnittet för anpassade uppmaningar finns i [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Vanliga skäl att använda textläge {#common-reasons-to-use-text-mode}
 
@@ -254,7 +254,6 @@ Mer information om vanliga användningsområden för textläge finns i [Översik
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p>
    <note type="important">
    <span>When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see</span>
-   <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.
    </note>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({DE:Developer Name}</code>) </p>

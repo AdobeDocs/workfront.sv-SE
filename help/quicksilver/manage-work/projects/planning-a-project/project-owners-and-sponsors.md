@@ -40,7 +40,7 @@ Du kan använda fältet Projektägare till följande:
 
   >[!IMPORTANT]
   >
-  >När du tilldelar projektägaren ett godkännande och ingen utses till projektägare tilldelas godkännandet till Workfront huvudadministratör enligt anvisningarna i avsnittet Kundinformation i inställningsområdet. Mer information finns i [Konfigurera grundläggande information för ditt system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+  >När du tilldelar projektägaren ett godkännande och ingen utses till projektägare tilldelas godkännandet till Workfront huvudadministratör enligt anvisningarna i avsnittet Kundinformation i inställningsområdet. Mer information finns i [Konfigurera grundläggande information för systemet](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
   >
 
 

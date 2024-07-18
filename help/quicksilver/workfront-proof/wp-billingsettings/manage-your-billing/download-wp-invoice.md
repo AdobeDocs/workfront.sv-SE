@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
-title: Laddar ned [!DNL Workfront Proof] Faktura
+title: Hämtar din  [!DNL Workfront Proof] faktura
 description: Den första dagen i en ny faktureringsperiod skickas din prenumerationsfaktura till huvudkontakten på ditt konto och till e-postadressen för faktureringskopia, om du har definierat någon.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ---
 
-# Laddar ned [!DNL Workfront Proof] Faktura
+# Hämtar din [!DNL Workfront Proof]-faktura
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Den första dagen i en ny faktureringsperiod skickas din prenumerationsfaktura till huvudkontakten för ditt konto och till [!UICONTROL Billing CC] e-postadress, om du har en angiven.
+Den första dagen i en ny faktureringsperiod skickas din prenumerationsfaktura till huvudfaktureringskontakten på ditt konto och till e-postadressen [!UICONTROL Billing CC], om du har definierat någon.
 
-Fakturan visas även i [!UICONTROL Billing] i [!DNL Workfront Proof] konto, tillgängligt för hämtning. Se [The [!DNL Workfront Proof] Faktureringssida](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) om du behöver mer information.
+Fakturan visas även i avsnittet [!UICONTROL Billing] på ditt [!DNL Workfront Proof]-konto som kan hämtas. Se [Faktureringssidan [!DNL Workfront Proof] Om du vill ha mer information.](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 Följande information finns på fakturan:
 
 * Företagsnamn och adress
-* Fakturadatum
+* Datum för fakturan
 * Betalningsvillkor och förfallodatum
-* Information om [!DNL Workfront] Planbevis (bevis, användare och lagringsgränser)
+* Information om din [!DNL Workfront]-korrekturplan (korrektur, användare och lagringsgränser)
 * PO-nummer (om sådant finns)
 * Leveransadress (om sådan finns)
 * Planens pris
@@ -51,13 +51,13 @@ Vi skickar alla våra automatiska fakturor för prenumerationer i USD som standa
 
 1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Billing]**.
 
-1. I **[!UICONTROL Billing History]** på faktureringssidan som visas klickar du på listrutan till höger om fakturan och väljer **[!UICONTROL Download PDF Invoice]**.
+1. I avsnittet **[!UICONTROL Billing History]** på sidan Fakturering klickar du på listrutan till höger om fakturan och väljer sedan **[!UICONTROL Download PDF Invoice]**.
 
-1. Servicefakturor (t.ex. för [!UICONTROL Success Start] program, anpassade landningssidor) är för närvarande inte tillgängliga på din faktureringssida. Om du behöver kopior av dessa dokument kan du kontakta vårt finansteam på finance@proofhq.com.
+1. Fakturor för tjänster (t.ex. anpassade landningssidor för ditt [!UICONTROL Success Start]-program) är för närvarande inte tillgängliga på din faktureringssida. Om du behöver kopior av dessa dokument kan du kontakta vårt finansteam på finance@proofhq.com.
 
 ## Användbara länkar {#useful-links}
 
-Om du vill ändra faktureringsinformationen för ditt konto går du till avsnittet Faktureringskontakt och adress på sidan Fakturering. Se [The [!DNL Workfront] Korrekturfaktureringssida](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+Om du vill ändra faktureringsinformationen för ditt konto går du till avsnittet Faktureringskontakt och adress på sidan Fakturering. Se [sidan för  [!DNL Workfront] Korrekturfakturering](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
 Mer information om hur du ändrar kreditkortsinformationen för ditt konto finns i [Välja betalningsmetod i Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 

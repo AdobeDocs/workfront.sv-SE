@@ -10,7 +10,7 @@ role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1767'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Mer information om händelseprenumerationer finns i [API för händelseprenumera
 
 Det här avsnittet innehåller kodfragment för filtrering som du kan implementera för att minska inläsningen av händelseprenumerationsmeddelanden.  För att du ska kunna se skillnaderna i syntaxen för olika språk visar de här fragmenten samma uppsättning filter skrivna på följande språk:
 
-Du kan se exempel på filtrering på [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples), där du kan se skillnaderna i syntax för varje språk och hur du interagerar med AWS SDK. De här exemplen skrivs som AWS Lambdas, som är en vanlig metod för att använda mellanliggande filtrerings- och bearbetningskomponenter.
+Du kan visa exempel på filtrering på [https://github.com/workfront/workfront-event-subscription-filter-examples](https://github.com/workfront/workfront-event-subscription-filter-examples) där du kan se skillnaderna i syntax för varje språk och hur du interagerar med AWS SDK. De här exemplen skrivs som AWS Lambdas, som är ett vanligt sätt att använda mellanfiltrerings- och bearbetningskomponenter.
 
 Följande kodfragment är nästan redo för driftsättning och kan användas som en startpunkt för att hjälpa dig att skriva egna, mer komplexa filter och bearbetningskomponenter.
 
@@ -65,7 +65,7 @@ I följande exempel i Java visas hur du filtrerar projektnyttolaster baserat på
 
 3. När du har tolkat kartan &quot;newState&quot; från meddelandet kontrollerar du att objektets grupp-ID matchar det grupp-ID som du identifierade i steg 1.
 
-4. (Villkorligt) Om ID:n **inte** matchar, släpper du meddelandet så att ett tomt svar returneras.
+4. (Villkorligt) Om ID:n **inte matchar** släpper du meddelandet så att ett tomt svar returneras.
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -111,13 +111,13 @@ I följande exempel i Java visas hur du filtrerar projektnyttolaster baserat på
 
    Syftet med att överlåta ansvaret för att skicka meddelandet till en annan Lambda är att undvika en timeout i leveransbegäran från tjänsten Event Subscription. För närvarande är den tillåtna tidsgränsen för leverans inställd på fem sekunder. Om filtret tar längre tid än vad inställningen tillåter kan du bearbeta begäran, men tjänsten Event Subscription (Händelseabonnemang) kommer att gå ut och hamna i en repetitionsloop tills den får ett svar på 200 nivåer inom tidsgränsen.
 
-   Mer information om hur du hanterar meddelandeleverans finns i [Förbättra meddelandeleveransen samtidigt som tidsgränser överskrids](#improving-message-delivery-while-accommodating-timeouts).
+   Mer information om hur du hanterar meddelandeleverans finns i [Förbättra meddelandeleveransen samtidigt som tidsgränser accepteras](#improving-message-delivery-while-accommodating-timeouts).
 
 ### Python
 
 Den största skillnaden mellan Java- och Python-exemplen är att i Java-exemplet tas händelsprenumerationsmeddelandet emot som den första parametern, och i Python-exemplet är den första parametern en Lambda-proxyhändelse, som innehåller händelsprenumerationsmeddelandet tillsammans med information om AWS Lambda-proxybegäran.
 
-I följande exempel i Python visas hur du filtrerar projektnyttolaster baserat på projektets grupp-ID, som i  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
+I följande exempel i Python visas hur du filtrerar projektnyttolaster baserat på projektets grupp-ID, som i [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)
 
 1. Upprätta det grupp-ID som du letar efter och skapa det som en statisk konstant.
 
@@ -188,7 +188,7 @@ I följande exempel i Python visas hur du filtrerar projektnyttolaster baserat p
 
 Node.js-exemplet med filtrering av projektgrupps-ID kan läsas på liknande sätt som Java- och Python-exemplen. Precis som med Python-exemplet är den första parametern en Lambda-proxyhändelse och den andra parametern är Lambda-kontexten.
 
-I följande exempel i Node.js visas hur du filtrerar projektnyttolaster baserat på projektets grupp-ID, som i  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
+I följande exempel i Node.js visas hur du filtrerar projektnyttolaster baserat på projektets grupp-ID, som i [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)
 
 1. Upprätta det grupp-ID som du letar efter och skapa det som en statisk konstant.
 
@@ -261,24 +261,24 @@ I följande exempel i Node.js visas hur du filtrerar projektnyttolaster baserat 
 
    AWS SDK används för att anropa en annan Lambda som ansvarar för att leverera det filtrerade meddelandet till önskad slutpunkt.\
    Syftet med att överlåta ansvaret för att skicka meddelandet till en annan Lambda är att undvika en timeout i leveransbegäran från tjänsten Event Subscription. För närvarande är tidsgränsen för leverans inställd på fem sekunder. Om filtret tar längre tid än vad inställningen tillåter kan du bearbeta begäran, men tjänsten Event Subscription (Händelseabonnemang) kommer att gå ut och hamna i en repetitionsloop tills den får ett svar på 200 nivåer inom tidsgränsen.\
-   Mer information om hur du hanterar meddelandeleverans finns i [Förbättra meddelandeleveransen samtidigt som tidsgränser överskrids](#improving-message-delivery-while-accommodating-timeouts).
+   Mer information om hur du hanterar meddelandeleverans finns i [Förbättra meddelandeleveransen samtidigt som tidsgränser accepteras](#improving-message-delivery-while-accommodating-timeouts).
 
 ## Förbättra meddelandeleveransen samtidigt som tidsgränser överskrids
 
-Tjänsten Event Subscription har en strikt tidsgräns för **fem sekunder** för alla leveransförfrågningar. Om meddelandets leverans överskrider den tillåtna tiden startar tjänsten Event Subscription en ny testcykel för meddelandet.
+Tjänsten Event Subscription har en strikt tidsgräns på **fem sekunder** för alla leveransbegäranden. Om meddelandets leverans överskrider den tillåtna tiden startar tjänsten Event Subscription en ny testcykel för meddelandet.
 
-Du kan till exempel skapa ett filter för projektgrupp-ID som liknar ett av exemplen i [Filtrera händelsemeddelanden](#filtering-event-messages) och du tar med en databassökning för att avgöra om meddelandet behövs. Det är möjligt att databassökningen tillsammans med den tid som krävs för bearbetning och för att Lambda ska kunna kallstarta kan ta mer än fem sekunder, vilket gör att tjänsten Event Subscription kan försöka leverera meddelandet igen.
+Du skapar till exempel ett projektgrupp-ID-filter som liknar ett av exemplen i [Filtrera händelsemeddelanden](#filtering-event-messages) och du inkluderar en databassökning för att avgöra om meddelandet behövs. Det är möjligt att databassökningen tillsammans med den tid som krävs för bearbetning och för att Lambda ska kunna kallstarta kan ta mer än fem sekunder, vilket gör att tjänsten Event Subscription kan försöka leverera meddelandet igen.
 
-Du kan avvärja ett nytt försök genom att separera de tidskrävande delarna av processen från den logik som avgör om meddelandet ska bearbetas och levereras. Genom att göra det kan du acceptera meddelandet och skicka tillbaka ett svar på 200 nivåer till tjänsten Event Subscription, medan du asynkront fortsätter att bearbeta eller filtrera meddelandet i bakgrunden (se steg 5 i [Java](#java) till exempel).
+Du kan avvärja ett nytt försök genom att separera de tidskrävande delarna av processen från den logik som avgör om meddelandet ska bearbetas och levereras. Genom att göra det kan du acceptera meddelandet och skicka tillbaka ett svar på 200 nivåer till tjänsten Event Subscription, samtidigt som du asynkront fortsätter att bearbeta eller filtrera meddelandet i bakgrunden (se steg 5 i [Java](#java) för ett exempel).
 
 
 Även om bearbetningen eller filtreringen inte överskrider tidsgränsen på fem sekunder är det ändå bra att separera den första beröringspunkten för meddelandefiltrering eller -bearbetning från andra behandlings- eller leveranssteg på klientsidan. På så sätt har överlämnandet av meddelandet till destinationen från tjänsten Event Subscription minimalt med tid och prestanda för båda parter.
 
-Mer information om återförsöksmekanismen finns i [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md).
+Mer information om återförsöksmekanismen finns i [Återförsök av händelseprenumerationer](../../wf-api/api/event-sub-retries.md).
 
 ## Implementera värdbaserade filter i den molnlösa arkitekturen
 
-Om du inte kan utnyttja en molnarkitektur för händelseprenumerationsfiltrering kan du ändå använda exemplen i [Filtrera händelsemeddelanden](#filtering-event-messages) som vägkartor över hur du implementerar egna värdbaserade filter eller bearbetningskomponenter.
+Om du inte kan utnyttja en molnarkitektur för händelseprenumerationsfiltrering kan du fortfarande använda exemplen i [Filtrera händelsemeddelanden](#filtering-event-messages) som vägkartor över hur du implementerar egna värdbaserade filter eller bearbetningskomponenter.
 
 ### Justera filterexempel för fristående tjänster
 
@@ -330,6 +330,6 @@ Genom att fråga efter resurser ser du till att dina integrerande system har den
 
 ### Implementera asynkron bearbetning i Leverera meddelanden
 
-Alla exempel i [Filtrera händelsemeddelanden](#filtering-event-messages) överför ansvaret för att leverera filtrerade meddelanden till en annan AWS Lambda. Detta görs för att undvika att den tidsgräns på fem sekunder som anges i leveransbegäran överskrids, vilket framtvingas av den händelseprenumerationstjänst som utfärdar begäran.
+Alla exempel i avsnittet [Filtrera händelsemeddelanden](#filtering-event-messages) överför ansvaret för att leverera filtrerade meddelanden till en annan AWS Lambda. Detta görs för att undvika att den tidsgräns på fem sekunder som anges i leveransbegäran överskrids, vilket framtvingas av den händelseprenumerationstjänst som utfärdar begäran.
 
 I en molnfri arkitektur kan du behöva implementera en asynkron bearbetningsmekanism som liknar hur AWS SDK tillåter asynkrona anrop till andra AWS Lambdas. De flesta moderna programmeringsspråk har tredjeparts- eller kärnbibliotek som hanterar asynkron bearbetning, vilket gör att du kan utnyttja den asynkrona bearbetning som implementeras i våra exempel.

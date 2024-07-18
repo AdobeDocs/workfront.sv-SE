@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Adobe Campaign v7/v8-moduler
-description: Med [!DNL Adobe Campaign] -moduler kan du starta en [!DNL Adobe Workfront Fusion] scenario baserat på händelser i [!DNL Adobe Campaign] konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och ladda upp dokument.
+description: Med  [!DNL Adobe Campaign] modulerna kan du starta ett [!DNL Adobe Workfront Fusion] scenario baserat på händelser i ditt [!DNL Adobe Campaign] konto, skapa, läsa eller uppdatera avtal och andra poster, söka efter poster med villkor som du anger och överföra dokument.
 author: Becky
 feature: Workfront Fusion
 exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Adobe Campaign] moduler
 
-Med [!DNL Adobe Campaign] -moduler kan du starta en [!DNL Adobe Workfront Fusion] scenario baserat på händelser i [!DNL Adobe Campaign v7/v8] konto, skapa, läsa eller uppdatera poster, söka efter poster med villkor som du anger och utföra anpassade API-anrop.
+Med modulerna [!DNL Adobe Campaign] kan du starta ett [!DNL Adobe Workfront Fusion]-scenario baserat på händelser i ditt [!DNL Adobe Campaign v7/v8]-konto, skapa, läsa eller uppdatera poster, söka efter poster med villkor som du anger och utföra anpassade API-anrop.
 
 ## Åtkomstkrav
 
@@ -39,29 +39,29 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Du måste lägga till Fusion-IP-adresserna i [!DNL Adobe Campaign].
+Du måste lägga till Fusion-IP-adresserna till [!DNL Adobe Campaign].
 
 * Instruktioner om hur du lägger till IP-adresser i Campaign-tillåtelselista finns i [Lägga till IP-adresser i tillåtelselista](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) i Adobe Campaign-dokumentationen.
 * En lista över IP-adresser som ska läggas till i tillåtelselista finns i [IP-adresser för åtkomst till Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
@@ -70,11 +70,11 @@ Du måste lägga till Fusion-IP-adresserna i [!DNL Adobe Campaign].
 
 >[!IMPORTANT]
 >
->Vi rekommenderar att du skapar en server-till-server-anslutning. Adobe Campaign har uppdaterat sitt API så att det endast accepterar server-till-server-anslutningar. Om du ansluter till Campaign version 8 eller senare **måste** skapa en server till server-anslutning.
+>Vi rekommenderar att du skapar en server-till-server-anslutning. Adobe Campaign har uppdaterat sitt API så att det endast accepterar server-till-server-anslutningar. Om du ansluter till Campaign version 8 eller senare måste du **skapa en server-till-server-anslutning**.
 >
->Mer information om Campaigns nya anslutningskrav finns i [Migrering av tekniska aktörer från Campaign till Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) i kampanjdokumentationen.
+>Mer information om Campaigns nya anslutningskrav finns i [Migrering av tekniska operatorer för Campaign till Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) i dokumentationen för Campaign.
 
-1. I alla [!DNL Adobe Campaign] modul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] fält.
+1. Klicka på **[!UICONTROL Add]** bredvid fältet [!UICONTROL Connection] i någon [!DNL Adobe Campaign]-modul.
 1. Fyll i följande fält:
    <table style="table-layout:auto"> 
       <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -96,7 +96,7 @@ Du måste lägga till Fusion-IP-adresserna i [!DNL Adobe Campaign].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Base URL]</td>
-          <td>Ange den bas-URL som du använder för att ansluta till din [!DNL Adobe Campaign] -instans.</td>
+          <td>Ange den bas-URL som du använder för att ansluta till din [!DNL Adobe Campaign]-instans.</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Username]</td>
@@ -108,11 +108,11 @@ Du måste lägga till Fusion-IP-adresserna i [!DNL Adobe Campaign].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Om du skapar en server-till-server-anslutning anger du [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].</td>
+          <td>Om du skapar en server-till-server-anslutning anger du din [!DNL Adobe] [!UICONTROL Client ID]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Om du skapar en server-till-server-anslutning anger du [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
+          <td>Om du skapar en server-till-server-anslutning anger du din [!DNL Adobe] [!UICONTROL Client Secret]. Detta finns i avsnittet [!UICONTROL Credentials details] i [!DNL Adobe Developer Console].
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Environment]</td>
@@ -124,11 +124,11 @@ Du måste lägga till Fusion-IP-adresserna i [!DNL Adobe Campaign].
         </tr>
    </tbody>
     </table>
-1. Klicka **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
 
-## [!DNL Adobe Campaign] moduler och deras fält
+## [!DNL Adobe Campaign]-moduler och deras fält
 
-När du konfigurerar [!DNL Adobe Campaign] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Adobe Campaign] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Adobe Campaign] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Adobe Campaign] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -150,7 +150,7 @@ Denna schemalagda utlösarmodul startar ett scenario när en post ändras.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
@@ -166,7 +166,7 @@ Denna schemalagda utlösarmodul startar ett scenario när en post ändras.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
-   <td>För varje anpassat fält som du vill inkludera i utdata klickar du på <b>[!UICONTROL Add]</b> och ange namnet på det anpassade fältet.</td> 
+   <td>För varje anpassat fält som du vill ta med i utdata klickar du på <b>[!UICONTROL Add]</b> och anger namnet på det anpassade fältet.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
@@ -188,7 +188,7 @@ Denna schemalagda utlösarmodul startar ett scenario när en post ändras.
 
 #### [!UICONTROL Create a record]
 
-Denna åtgärdsmodul skapar en ny post i [!DNL Adobe Campaign].
+Den här åtgärdsmodulen skapar en ny post i [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -196,11 +196,11 @@ Denna åtgärdsmodul skapar en ny post i [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Välj typ av [!DNL Adobe Campaign] poster som du vill skapa.</td> 
+   <td>Välj den typ av [!DNL Adobe Campaign]-post som du vill skapa.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields] </td> 
@@ -208,14 +208,14 @@ Denna åtgärdsmodul skapar en ny post i [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields]</td> 
-   <td> För varje anpassat fält som du vill lägga till i den nya posten klickar du på <b>[!UICONTROL Add item]</b> och ange eller mappa fältets namn och värde. </td> 
+   <td> För varje anpassat fält som du vill lägga till i den nya posten klickar du på <b>[!UICONTROL Add item]</b> och anger eller mappar fältets namn och värde. </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Make a custom API call]
 
-Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Campaign] API
+Den här modulen gör ett anpassat API-anrop till API:t [!DNL Adobe Campaign]
 
 <table style="table-layout:auto"> 
   <col/>
@@ -223,7 +223,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Campaign] API
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
@@ -240,7 +240,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Campaign] API
       <td>
         <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.</p>
         <p>Exempel: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] lägger till [!UICONTROL x-security] tokenhuvud automatiskt.</p>
+        <p>[!DNL Workfront Fusion] lägger till [!UICONTROL x-security]-tokenhuvudet automatiskt.</p>
       </td>
     </tr>
     <tr>
@@ -251,7 +251,7 @@ Den här modulen gör ett anpassat API-anrop till [!DNL Adobe Campaign] API
 
 #### [!UICONTROL Delete Record]
 
-Den här åtgärdsmodulen tar bort en enstaka post från [!DNL Adobe Campaign].
+Den här åtgärdsmodulen tar bort en post från [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -259,7 +259,7 @@ Den här åtgärdsmodulen tar bort en enstaka post från [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -275,7 +275,7 @@ Den här åtgärdsmodulen tar bort en enstaka post från [!DNL Adobe Campaign].
 
 #### [!UICONTROL Perform an action]
 
-Den här åtgärdsmodulen utför en markerad åtgärd på ett objekt i [!DNL Adobe Campaign] API.
+Den här åtgärdsmodulen utför en markerad åtgärd på ett objekt i API:t [!DNL Adobe Campaign].
 
 Mer information om specifika åtgärder och fält finns i [[!DNL Adobe Campaign] - API-dokumentation](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
@@ -285,7 +285,7 @@ Mer information om specifika åtgärder och fält finns i [[!DNL Adobe Campaign]
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -304,7 +304,7 @@ Mer information om specifika åtgärder och fält finns i [[!DNL Adobe Campaign]
 
 #### [!UICONTROL Read a record]
 
-Denna åtgärdsmodul läser en post från [!DNL Adobe Campaign].
+Den här åtgärdsmodulen läser en post från [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -312,11 +312,11 @@ Denna åtgärdsmodul läser en post från [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Välj typ av [!DNL Adobe Campaign] poster som du vill läsa.</td> 
+   <td>Välj den typ av [!DNL Adobe Campaign]-post som du vill läsa.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -328,7 +328,7 @@ Denna åtgärdsmodul läser en post från [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
-   <td>För varje anpassat fält som du vill inkludera i utdata klickar du på <b>[!UICONTROL Add]</b> och ange namnet på det anpassade fältet.</td> 
+   <td>För varje anpassat fält som du vill ta med i utdata klickar du på <b>[!UICONTROL Add]</b> och anger namnet på det anpassade fältet.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -344,7 +344,7 @@ Den här åtgärdsmodulen prenumererar på eller avbryter en användares prenume
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subscribe or unsubscribe]</td> 
@@ -363,7 +363,7 @@ Den här åtgärdsmodulen prenumererar på eller avbryter en användares prenume
 
 #### [!UICONTROL Update record]
 
-Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Adobe Campaign].
+Den här åtgärdsmodulen uppdaterar en enskild post i [!DNL Adobe Campaign].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -371,11 +371,11 @@ Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Adobe Campaign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Välj typ av [!DNL Adobe Campaign] poster som du vill skapa.</td> 
+   <td>Välj den typ av [!DNL Adobe Campaign]-post som du vill skapa.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL ID] </td> 
@@ -387,7 +387,7 @@ Den här åtgärdsmodulen uppdaterar en enda post i [!DNL Adobe Campaign].
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Custom fields]</td> 
-   <td> För varje anpassat fält som du vill uppdatera klickar du på <b>[!UICONTROL Add item]</b> och ange eller mappa fältets namn och värde. </td> 
+   <td> För varje anpassat fält som du vill uppdatera klickar du på <b>[!UICONTROL Add item]</b> och anger eller mappar fältets namn och värde. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -404,11 +404,11 @@ Sökmodulen returnerar poster baserat på angivna villkor.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign], se <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
+   <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Campaign] finns i <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Campaign]</a> i den här artikeln.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
-   <td>Välj typ av [!DNL Adobe Campaign] poster som du vill skapa.</td> 
+   <td>Välj den typ av [!DNL Adobe Campaign]-post som du vill skapa.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 

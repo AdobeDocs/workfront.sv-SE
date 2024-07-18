@@ -28,9 +28,9 @@ Tänk på följande scenarier, beroende på om en åtgärd är den kritiska sök
 
 * För uppgifter som finns på projektets kritiska sökväg eller som har efterföljande aktiviteter på den kritiska sökvägen, matchar Slack-datumet uppgiftens beräknade slutförandedatum såvida inte aktivitetens förloppsstatus redan är sen eller ligger bakom.
 
-   Mer information om den kritiska sökvägen finns i [Översikt över projektets kritiska sökväg](../../../manage-work/tasks/manage-tasks/critical-path.md).
+  Mer information om den kritiska sökvägen finns i [Översikt över projektets kritiska sökväg](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-   Mer information om aktiviteternas förloppsstatus finns i [Översikt över status för åtgärdsförlopp](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Mer information om aktiviteternas förloppsstatus finns i [Översikt över status för aktivitetsstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 * För uppgifter som inte finns på den kritiska sökvägen ökar den korta tiden tiden den tid som aktiviteten schemaläggs. För dessa uppgifter ligger Slack-datumet kvar i framtiden tills uppgifterna blir så sena att de börjar påverka projektets slutförandedatum.
 

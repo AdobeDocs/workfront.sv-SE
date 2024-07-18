@@ -19,7 +19,7 @@ ht-degree: 0%
 Det här avsnittet innehåller följande underavsnitt:
 
 * [API](../wf-api/api/api.md)
-* [Document Webhooks API](../wf-api/doc-wbhks-api/document-webhooks-api.md)
+* [API för dokumentwebbhooks](../wf-api/doc-wbhks-api/document-webhooks-api.md)
 * [Allmänt om API](../wf-api/general/api-general.md)
 * [Tips, tricks och felsökning för Adobe Workfront API](../wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
 * [Adobe Workfront Objects](../wf-api/wf-objects/workfront-objects.md)

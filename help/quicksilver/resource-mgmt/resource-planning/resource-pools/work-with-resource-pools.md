@@ -23,7 +23,7 @@ Som resurshanterare kan du hantera dina resurser genom att lägga till användar
 
 Effektiv resurshantering kan inte ske utan att du fyller i resurspoolerna med användare och bifogar dem till projekt. Detta är en förutsättning för att använda funktionen för resursplanering.
 
-Mer information om vilka krav som krävs innan du kan börja använda resursplanering finns i avsnittet Krav för att arbeta i resursplaneraren i [Översikt över resursplanering](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om vilka krav som krävs innan du kan börja använda resursplanering finns i avsnittet Krav för att arbeta i resursplaneraren i [Översikt över resursplaneraren](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Mer information om hur du skapar och hanterar resurspooler finns i följande artiklar:
 
@@ -82,11 +82,11 @@ Vi rekommenderar följande tillvägagångssätt:
 
 * Du kan låta alla användare i samma resurspool tillhöra samma team.
 
-   Om du till exempel vill att alla användare i ett marknadsföringsteam ska vara tillgängliga för ett projekt, vill du ha en marknadsföringsresurspool där du lägger till alla användare i det teamet. Du kan sedan associera marknadsföringsresurspoolen med de projekt som teamets medlemmar är tilldelade till.
+  Om du till exempel vill att alla användare i ett marknadsföringsteam ska vara tillgängliga för ett projekt, vill du ha en marknadsföringsresurspool där du lägger till alla användare i det teamet. Du kan sedan associera marknadsföringsresurspoolen med de projekt som teamets medlemmar är tilldelade till.
 
 * Du kan låta alla användare i samma resurspool utföra liknande roller, särskilt om rollerna är efterfrågade och måste budgeteras separat.
 
-   Du kan till exempel ha externa resurser som fungerar som konsulter och som du vill ha tillgängliga för ett projekt då och då. Du kan skapa en resurspool för konsulter som du kan koppla till dina projekt, där du kan placera båda användarna som interna eller externa konsulter.
+  Du kan till exempel ha externa resurser som fungerar som konsulter och som du vill ha tillgängliga för ett projekt då och då. Du kan skapa en resurspool för konsulter som du kan koppla till dina projekt, där du kan placera båda användarna som interna eller externa konsulter.
 
 * Du kan också skapa resurspooler per avdelning eller kostnadsställe.
 * Vi rekommenderar inte att alla användare i systemet läggs till i en resurspool om du har ett stort antal användare, eller om du hanterar resurser för ett stort antal projekt samtidigt.

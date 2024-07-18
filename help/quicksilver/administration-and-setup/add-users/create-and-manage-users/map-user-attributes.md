@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,13 +77,13 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 ### Mappa användarattribut i den klassiska upplevelsen
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **System** > **enkel inloggning (SSO)**.
+1. Klicka på **System** > **enkel inloggning (SSO)**.
 
-1. I **Typ** nedrullningsbar meny, klicka **SAML 2.0**.
+1. Klicka på **SAML 2.0** i listrutan **Typ**.
 
-1. Klicka **Mappa användarattribut**.
+1. Klicka på **Mappa användarattribut**.
 
    ![](assets/map-user-attributes.png)
 
@@ -125,20 +125,20 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
       ![](assets/rule-fields.png)
 
-   Klicka **Lägg till regel** om du vill lägga till fler regler i attributet.
+   Du kan klicka på **Lägg till regel** om du vill lägga till fler regler i attributet.
 
-1. (Valfritt) Om du vill mappa fler användarattribut klickar du på **Lägg till mappning** och upprepa steg 6-7.
-1. Klicka **Spara**.
+1. (Valfritt) Om du vill mappa fler användarattribut klickar du på **Lägg till mappning** och upprepar steg 6-7.
+1. Klicka på **Spara**.
 
 ### Mappa användarattribut i Adobe enhetliga upplevelse
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-left.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-left.png) i det övre vänstra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **System** > **enkel inloggning (SSO)**.
+1. Klicka på **System** > **enkel inloggning (SSO)**.
 
-1. Välj **Adobe** -fliken.
+1. Klicka på fliken **Adobe**.
 
-1. (Valfritt och villkorligt) Om din organisation har konfigurerat attributmappning i den klassiska upplevelsen och du vill kopiera den attributmappningen till den enhetliga upplevelsen i Adobe klickar du på **Migrera mappningar**. Du kan sedan ta bort, ta bort eller redigera mappningarna.
+1. (Valfritt och villkorligt) Om din organisations attributmappning har konfigurerats i den klassiska upplevelsen och du vill kopiera den attributmappningen till den enhetliga Adobe-upplevelsen klickar du på **Migrera mappningar**. Du kan sedan ta bort, ta bort eller redigera mappningarna.
 
    >[!NOTE]
    >
@@ -146,9 +146,9 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 1. Om du vill skapa en ny attributmappning klickar du på **Lägg till mappning**.
 
-1. Klicka på pilen bredvid fältnamnet för Workfront och välj [!DNL Workfront] fält som du vill mappa till.
+1. Klicka på pilen bredvid fältnamnet för Workfront och markera fältet [!DNL Workfront] som du vill mappa till.
 
-1. (Valfritt) Om du vill skapa mer än en regel för ett visst fält klickar du på pilen bredvid **Alltid** och välj den operator som du vill att regeln ska använda.
+1. (Valfritt) Om du vill skapa mer än en regel för ett givet fält klickar du på pilen bredvid **Alltid** och väljer den operator som du vill att regeln ska använda.
 
 1. (Villkorligt) Om du har valt en operator förutom Alltid, markerar du fältet Workfront och värdet som operatorn gäller för.
 
@@ -160,16 +160,16 @@ Om du vill ta reda på om din organisation har en enhetlig Adobe-upplevelse kan 
 
 1. Ange namnet på det identitetshanteringsfält som du vill använda, eller ange texten för det konstanta värde som du vill använda.
 
-1. (Valfritt) Om du vill lägga till fler regler för samma Workfront-fält klickar du på **Lägg till ny regel** och följ steg 4-9.
+1. (Valfritt) Om du vill lägga till fler regler för samma Workfront-fält klickar du på **Lägg till ny regel** och följer steg 4-9.
 
    >[!IMPORTANT]
    >
    > * Alla linjer under och alltid kommer att ignoreras. Om du har en regel för alltid måste du flytta den längst ned i listan med regler. Du kan flytta regler i listan genom att klicka på menyn med tre punkter till höger om linjen och flytta regeln uppåt eller nedåt.
-   > * Om du vill skapa en linje mitt i listan klickar du på menyn med tre punkter bredvid den linje som du vill ska vara ovanför eller nedanför den nya linjen och väljer **Lägg till linje ovanför** eller **Lägg till linje nedanför**.
+   > * Om du vill skapa en regel i mitten av listan klickar du på menyn med tre punkter bredvid regeln som du vill placera ovanför eller nedanför den nya regeln och väljer **Lägg till regel ovanför** eller **Lägg till regel nedanför**.
 
 1. Om du vill ta bort en regel klickar du på menyn med tre punkter bredvid regeln som du vill ta bort och väljer **Ta bort**.
-1. Om du vill ta bort en koppling klickar du på **Ta bort** som finns på kortet för den mappningen.
+1. Om du vill ta bort en mappning klickar du på ikonen **Ta bort** som finns på kortet för den mappningen.
 
-1. Bläddra till sidans överkant och klicka på **Spara**.
+1. Om du vill spara bläddrar du längst upp på sidan och klickar på **Spara**.
 
 

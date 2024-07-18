@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td>  
    <td> 
-   <p>Aktuell: Nej [!DNL Workfront Fusion] krav på licens.</p> 
+   <p>Aktuell: Inga [!DNL Workfront Fusion]-licenskrav.</p> 
    <p>eller</p> 
    <p>Äldre: Alla </p> 
    </td>  
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ingår.</li></ul> 
+   <p>Nytt:</p> <ul><li>[!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront] Plan: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Planen [!DNL Workfront Fusion] ingår.</li></ul> 
    <p>eller</p> 
    <p>Aktuell: Din organisation måste köpa [!DNL Adobe Workfront Fusion].</p> 
    </td>  
@@ -54,9 +54,9 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
  </tbody>  
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!UICONTROL average ([array of values]) average(value1; [value2], ...)]
 

@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -44,11 +44,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter i en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter till en rapport</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,23 +57,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Köra en rapport
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
 
 1. Välj bland följande alternativ:
 
    * **Mina rapporter:** Rapporter som du har skapat.
-   * **Delas med mig:** Rapporter som andra användare har delat med dig.
-   * **Alla rapporter:** Alla rapporter i systemet som du har tillgång till.
+   * **Delad med mig:** Rapporter som andra användare har delat med dig.
+   * **Alla rapporter:** Alla rapporter i systemet som du har åtkomst till.
 
 1. Klicka på namnet på rapporten som du vill köra.\
    eller\
    Om rapporten skapades med hjälp av uppmaningar väljer du lämplig information i listrutorna och klickar sedan på **Kör rapport**.\
-   Mer information om uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
+   Mer information om uppmaningar finns i [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
    Innehållet i rapporten visas med en tidsstämpel i rapportens övre högra hörn som innehåller datum, tid och tidszon när rapporten kördes från den användare som körde rapporten.
 
-1. (Valfritt) Klicka på **Ikonen Läs in igen** ![](assets/qs-report-refresh-icon.png) om du vill uppdatera resultaten i en rapport om rapporten har visats i webbläsaren ett tag.
+1. (Valfritt) Klicka på ikonen **Läs in igen** ![](assets/qs-report-refresh-icon.png) om du vill uppdatera resultatet i en rapport om rapporten har visats i webbläsaren ett tag.
 
-1. (Villkorligt) Om rapporten innehåller filter eller uppmaningar klickar du på **Visa filter och frågor** om du vill visa en lista med filter och uppmaningar som används i den rapport du visar. Om rapporten bara innehåller filter eller endast uppmaningar, **Visa filter** eller **Visa frågor** visas i stället.
+1. (Villkorligt) Om rapporten innehåller filter eller uppmaningar klickar du på **Visa filter och uppmaningar** för att visa en lista med filter och uppmaningar som används i den rapport som du visar. Om rapporten bara innehåller filter eller endast uppmaningar visas **Visa filter** eller **Visa frågor** i stället.
 
    ![Visa filter och uppmaningar](assets/qs-reports-showfiltersandprompts-2022-350x136.png)
 
@@ -86,8 +86,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Din rapport kan cachelagras om den har visats i webbläsaren ett tag. Du kan tvinga en cachelagrad rapport att läsas in igen när du utför någon av följande åtgärder:
 
 * Redigera rapportinställningarna och spara rapporten.
-* Ändra vyn, gruppen eller filtret.
-* Klicka på **Ikonen Läs in igen**
+* Ändra vy, grupp eller filter.
+* Klicka på ikonen **Läs in igen**
 Det här alternativet är tillgängligt i det övre högra hörnet på sidan i meddelanderutan som anger när rapporten sparades, eller så är det tillgängligt i det övre högra hörnet av instrumentpanelen som rapporten placeras på. Mer information om hur du läser in instrumentpaneler igen finns i avsnittet Visa instrumentpaneler i artikeln [Kom igång med instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Gå till flikarna Sammanfattning, Matris eller Diagram för att få åtkomst till alla sidor i rapporten efter den första sidan.

@@ -28,6 +28,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 * [Uppdatera användare för enkel inloggning](../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md)
 * [Konfigurera Adobe Workfront med SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
-* [Uppdatera SAML 2.0-metadata hos identitetsleverantören](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
+* [Uppdatera SAML 2.0-metadata i identitetsleverantören](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md)
 * [Konfigurera Adobe Workfront med SAML 2.0 med ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md)
 * [Inaktivera enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/deactivate-sso.md)

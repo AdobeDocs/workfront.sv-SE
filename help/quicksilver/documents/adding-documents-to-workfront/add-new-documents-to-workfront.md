@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
+* [Lägg till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)
 * [Länka dokument från externa program](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
 * [Ta bort länkar mellan Adobe Workfront och externa dokumentlagringsleverantörer](../../documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
 * [Begär ett dokument](../../documents/adding-documents-to-workfront/request-a-document.md)

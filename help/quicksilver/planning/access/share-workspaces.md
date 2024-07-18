@@ -83,7 +83,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Dela behörigheter till en arbetsyta
 
@@ -100,7 +100,7 @@ Så här delar du en arbetsyta med andra:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. I **Ge arbetsytan åtkomst till** börjar du skriva namnet på en användare eller grupp och klickar sedan på den när den visas i listan.
+1. I fältet **Bevilja arbetsyteåtkomst till** börjar du skriva namnet på en användare eller grupp och klickar sedan på den när den visas i listan.
 
    ![](assets/sharing-ui-with-groups.png)
 
@@ -110,9 +110,9 @@ Så här delar du en arbetsyta med andra:
    * Hantera
 
      Mer information om behörighetsnivåer och vilka åtgärder användare kan utföra för varje nivå finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
-1. Klicka **Kopiera länk** om du vill kopiera en länk till arbetsytan till Urklipp.
+1. Klicka på **Kopiera länk** om du vill kopiera en länk till arbetsytan till Urklipp.
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 
 ## Ta bort behörigheter till en arbetsyta
@@ -122,6 +122,6 @@ Så här delar du en arbetsyta med andra:
 
 1. Öppna arbetsytan som du vill ta bort behörigheter till och klicka sedan på **Dela** i skärmens övre högra hörn.
 1. Klicka på listrutan till höger om ett användar- eller gruppnamn och klicka sedan på **Ta bort**.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Användaren eller användarna som tillhör gruppen som tagits bort har inte längre åtkomst till arbetsytan eller dess objekt.

@@ -19,7 +19,7 @@ ht-degree: 0%
 * [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](updated-mobile-app.md)
 * [TLS 1.2 krävs i Adobe Workfront](tls-1-disabled.md)
 * [Outlook 365-tillägget är nu tillgängligt](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
-* [Ersättning av verktyg baserade på Flash i Adobe Workfront](replace-flash-tools.md)
+* [Ersättning av Flash-baserade verktyg i Adobe Workfront](replace-flash-tools.md)
 * [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](pop-removal-request-queue.md)
 * [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](pop-removal-request-queue.md)
 * [Nya IP-adresser för Adobe Workfront e-post med version 21.1](new-email-ip-21-1.md)

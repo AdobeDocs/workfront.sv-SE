@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Lägg till ett korrektur i en [!DNL Basecamp] Projekt](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Lägg till ett korrektur i ett [!DNL Basecamp] projekt](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
 * [Integrera [!DNL Workfront Proof] med [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [Granska ett korrektur i [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Förstå [!DNL Basecamp] Integrering med [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Granska ett korrektur i  [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [Förstå  [!DNL Basecamp] integreringen med [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

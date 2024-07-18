@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Behörighetsprofiler för korrektur avgör vilka övergripande behörigheter användare har för alla korrektur i ditt konto. Behörighetsprofiler för korrektur tilldelas användare i deras användarprofil.
 
-Behörighetsprofiler för korrektur skiljer sig från korrekturroller. Mer information om korrekturroller finns i [Översikt över profilroller](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Behörighetsprofiler för korrektur skiljer sig från korrekturroller. Mer information om korrekturroller finns i [Översikt över korrekturroller](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ I följande tabell visas de behörigheter som är tillgängliga för respektive 
    </td>
    <td colspan="3" ><strong>Andra användares objekt</strong>
    </td>
-   <td><strong>Administratör</strong>
+   <td><strong>Admin</strong>
    </td>
   </tr>
   <tr>
@@ -139,7 +139,7 @@ I följande tabell visas de behörigheter som är tillgängliga för respektive 
 
 ### Administratör
 
-Administratörer har åtkomst till [Kontoinställningar](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) och har följande behörigheter:
+Administratörer har åtkomst till [kontoinställningar](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) och har följande behörigheter:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -175,7 +175,7 @@ Administratörer har åtkomst till [Kontoinställningar](https://support.workfro
  </tbody> 
 </table>
 
-&#42;Finns endast i Workfront Proof.
+&#42;Endast tillgängligt i den fristående Workfront Proof-produkten.
 
 ### Supervisor
 

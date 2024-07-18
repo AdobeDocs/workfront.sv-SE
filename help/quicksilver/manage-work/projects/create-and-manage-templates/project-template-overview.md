@@ -62,7 +62,7 @@ Tänk på följande när du skapar mallar:
 
 * Lägg till de föregående relationerna mellan aktiviteterna i själva slutet, när du har en tydlig förståelse för den framtida projektplanen i sin helhet. Att lägga till föregångare till malluppgifter liknar att lägga till föregående aktiviteter till aktiviteter i ett projekt.
 
-  Mer information om hur du lägger till föregående aktiviteter i uppgifter finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+  Mer information om hur du lägger till föregående aktiviteter i aktiviteter finns i [Översikt över föregående aktiviteter](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 * Ange vem mallen ska delas med för framtida bruk och vilka projekt som ska skapas från mallen ska delas med. Mer information om att dela mallar finns i [Dela projektmallar](../../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 * Använd globala godkännandeprocesser och lägg till dem i dina mall- och malluppgifter om det går. Detta sparar tid när uppgifter eller det framtida projektet behöver gå igenom samma godkännanden.

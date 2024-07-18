@@ -18,18 +18,17 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)</p>
 -->
 
-Granskarna tilldelas [!UICONTROL My Updates] som standard. De har tillgång till en modifierad version av [!UICONTROL Home] endast när [!DNL Adobe Workfront] administratören lägger till [!UICONTROL Home] till layoutmallen.
+Granskare tilldelas som standard området [!UICONTROL My Updates]. De kan bara komma åt en ändrad version av [!UICONTROL Home]-området när en [!DNL Adobe Workfront] -administratör lägger till [!UICONTROL Home]-området i sin layoutmall.
 
-I den här artikeln beskrivs aktiviteter som du kan utföra i [!UICONTROL Home] området om du har [!UICONTROL Review] licens.
+I den här artikeln beskrivs aktiviteter som du kan utföra i området [!UICONTROL Home] om du har en [!UICONTROL Review]-licens.
 
-Mer information om standardnavigering för [!UICONTROL Review]-licensanvändare, se [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md). Mer information om [!UICONTROL My Updates] område, se [Använd [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
+Mer information om standardnavigeringen för [!UICONTROL Review]-licensanvändare finns i [Förstå navigeringen för en [!UICONTROL Review]-licensanvändare](../../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md). Mer information om området [!UICONTROL My Updates] finns i [Använd området [!UICONTROL My Updates]](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md).
 
 >[!TIP]
 >
 >* Allmänna uppdateringar mellan användare utanför ett objekt är inte aktiverade.
->* Även om användare med [!UICONTROL Review] licensen kan tilldelas uppgifter, de får inte e-post eller andra meddelanden om tilldelningar och de kan inte markera dem som[!UICONTROL Done].&quot;
+>* Även om användare med en [!UICONTROL Review]-licens kan tilldelas uppgifter, får de inga e-postmeddelanden eller andra meddelanden om tilldelningar, och de kan inte markera dem som [!UICONTROL Done].
 >
-
 
 
 
@@ -54,31 +53,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Godkänn arbete
 
-1. (Villkorligt) Om [!DNL Workfront] administratören lade till startområdet i layoutmallen genom att klicka på **[!DNL Workfront]avatar** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront].
+1. (Villkorligt) Om [!DNL Workfront]-administratören har lagt till hemområdet i layoutmallen klickar du på ikonen **[!DNL Workfront]avatar** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront] .
 
    eller
 
-   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)och sedan klicka **[!UICONTROL Home]**.
+   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på **[!UICONTROL Home]**.
 
    >[!NOTE]
    >
-   >The [!DNL Workfront] administratören kan göra följande ändringar i [!DNL Workfront] i din miljö:
+   >Administratören [!DNL Workfront] kan göra följande ändringar av ikonen [!DNL Workfront] i din miljö:
    >
    >   
    >   
    >   * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >   * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **[!UICONTROL Home]**.
-
+   >   * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **[!UICONTROL Home]**.
 
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Välj ett godkännande på menyn [!UICONTROL Work List] till vänster på skärmen.
-1. Klicka **[!UICONTROL Approve]**, **[!UICONTROL Changes]**, eller **[!UICONTROL Reject]**.
+1. Välj ett godkännande från [!UICONTROL Work List] till vänster på skärmen.
+1. Klicka på **[!UICONTROL Approve]**, **[!UICONTROL Changes]** eller **[!UICONTROL Reject]**.
 
    >[!IMPORTANT]
    >
@@ -88,13 +86,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Delegera godkännanden
 
-1. (Villkorligt) Om [!DNL Workfront] administratören lade till startområdet i layoutmallen genom att klicka på **[!UICONTROL Workfront]avatar** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront]
+1. (Villkorligt) Om [!DNL Workfront]-administratören har lagt till hemområdet i layoutmallen klickar du på ikonen **[!UICONTROL Workfront]avatar** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront] .
 
    eller
 
-   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)och sedan klicka **[!UICONTROL Home]**.
+   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på **[!UICONTROL Home]**.
 
-1. Klicka **[!UICONTROL Delegate My Approvals]** ovanför arbetslistan.
+1. Klicka på **[!UICONTROL Delegate My Approvals]** ovanför arbetslistan.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
@@ -108,30 +106,30 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Påminn eller återkalla godkännanden som du har skickat
 
-1. (Villkorligt) Om [!DNL Workfront] administratören lade till startområdet i layoutmallen genom att klicka på **[!UICONTROL Workfront]avatar** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront].
+1. (Villkorligt) Om [!DNL Workfront]-administratören har lagt till hemområdet i layoutmallen klickar du på ikonen **[!UICONTROL Workfront]avatar** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront] .
 
    eller
 
-   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)och sedan klicka **[!UICONTROL Home]**.
+   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på **[!UICONTROL Home]**.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Expandera **[!UICONTROL Approvals I've Submitted]** gruppering i arbetslistan.
+1. Expandera grupperingen **[!UICONTROL Approvals I've Submitted]** i arbetslistan.
 1. Välj ett godkännande.
-1. Klicka på i det övre högra hörnet **[!UICONTROL Recall]** eller **[!UICONTROL Remind]**.
+1. Klicka på **[!UICONTROL Recall]** eller **[!UICONTROL Remind]** i det övre högra hörnet.
 
 ## Göra kommentarer
 
-1. (Villkorligt) Om [!DNL Workfront] administratören lade till [!UICONTROL Home] till layoutmallen klickar du på **[!UICONTROL Workfront]avatar** icon ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront].
+1. (Villkorligt) Om [!DNL Workfront]-administratören har lagt till området [!UICONTROL Home] i din layoutmall klickar du på ikonen **[!UICONTROL Workfront]avatar** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av [!DNL Adobe Workfront] .
 
    eller
 
-   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png)och sedan klicka **[!UICONTROL Home]**.
+   Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på **[!UICONTROL Home]**.
 
    ![](assets/home-for-reviewers-adobe-350x159.png)
 
-1. Välj ett godkännande på menyn [!UICONTROL Work List] till vänster på skärmen.
-1. I den högra panelen klickar du på **[!UICONTROL Start a new update]** box.
+1. Välj ett godkännande från [!UICONTROL Work List] till vänster på skärmen.
+1. Klicka i rutan **[!UICONTROL Start a new update]** i den högra panelen.
 1. Gör uppdateringen.
 1. Klicka på **[!UICONTROL Update]**.
 

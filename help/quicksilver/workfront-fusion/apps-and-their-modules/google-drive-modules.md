@@ -5,22 +5,22 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Google Drive-moduler
-description: The [!DNL Adobe Workfront Fusion Google Drive] Med moduler kan du övervaka, söka, skapa, uppdatera, ta bort och hantera filer, mappar och delade enheter i dina [!DNL Google Drive].
+description: Modulerna  [!DNL Adobe Workfront Fusion Google Drive] gör att du kan övervaka, söka, skapa, uppdatera, ta bort och hantera filer, mappar och delade enheter i din [!DNL Google Drive].
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2467'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive] moduler
 
-The [!DNL Adobe Workfront Fusion] [!DNL Google Drive] Med moduler kan du övervaka, söka, skapa, uppdatera, ta bort och hantera filer, mappar och delade enheter i dina [!DNL Google Drive].
+Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Google Drive] kan du övervaka, söka, skapa, uppdatera, ta bort och hantera filer, mappar eller delade enheter i [!DNL Google Drive].
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du ansluta [!DNL Google Drive] konton för flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du ansluta ditt [!DNL Google Drive]-konto till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -45,39 +45,39 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 
 
 ## Ansluter [!DNL Google Drive] till [!DNL Workfront Fusion]
 
-Om du [!DNL @gmail.com] eller [!DNL @googlemail.com] användare du måste skapa en OAuth-klient på [den [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) för att [!UICONTROL Client ID] och [!UICONTROL Client Secret].
+Om du är [!DNL @gmail.com] eller [!DNL @googlemail.com] användare måste du skapa en OAuth-klient på [ [!DNL Google Cloud Platform]](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) för att få [!UICONTROL Client ID] och [!UICONTROL Client Secret].
 
-Stegvisa instruktioner för hur du skapar OAuth-klienten (och hämtar [!UICONTROL Client ID] och [!UICONTROL Client Secret]), se [Anslut [!DNL Adobe Workfront Fusion] till [!DNL Google Services] med en anpassad OAuth-klient](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
+Stegvisa instruktioner om hur du skapar OAuth-klienten (och hämtar [!UICONTROL Client ID] och [!UICONTROL Client Secret]) finns i [Anslut [!DNL Adobe Workfront Fusion] till [!DNL Google Services] med en anpassad OAuth-klient](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 
-Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!UICONTROL Workfront Fusion] finns i [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
-## [!DNL Google Drive] moduler och deras fält
+## [!DNL Google Drive]-moduler och deras fält
 
-När du konfigurerar [!DNL Google Drive] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Google Drive] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Google Drive] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Google Drive] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -105,7 +105,7 @@ Hämtar filinformation när en fil läggs till eller ändras i den angivna mappe
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection] </td>
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Select the folder to be watched]</td>
@@ -144,14 +144,14 @@ Hämtar filinformation när en fil läggs till eller ändras i den angivna mappe
   </tr> 
   <tr> 
     <td>[!UICONTROL Maximum number of downloaded files]</td>
-    <td>Ange maximalt antal resultat som [!DNL Workfront Fusion] laddas ned under en cykel (antalet repetitioner per scenario).</td>
+    <td>Ange det maximala antalet resultat som [!DNL Workfront Fusion] ska hämta under en cykel (antalet upprepningar per scenariokörning).</td>
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Watch All Files]
 
-Hämtar filinformation när en fil finns i [!DNL Google Drive] läggs till eller ändras.
+Hämtar filinformation när en fil i [!DNL Google Drive] läggs till eller ändras.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -159,7 +159,7 @@ Hämtar filinformation när en fil finns i [!DNL Google Drive] läggs till eller
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL What files to watch]</td> 
@@ -194,7 +194,7 @@ Hämtar filinformation när en fil finns i [!DNL Google Drive] läggs till eller
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>Ange maximalt antal resultat som [!DNL Workfront Fusion] laddas ned under en cykel (antalet repetitioner per scenario).</td> 
+   <td>Ange det maximala antalet resultat som [!DNL Workfront Fusion] ska hämta under en cykel (antalet upprepningar per scenariokörning).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -209,7 +209,7 @@ Startar när en ny fil delas med dig eller när en befintlig delad fil uppdatera
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select the folder to be watched]</td> 
@@ -248,7 +248,7 @@ Startar när en ny fil delas med dig eller när en befintlig delad fil uppdatera
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>Ange maximalt antal resultat som [!DNL Workfront Fusion] laddas ned under en cykel (antalet repetitioner per scenario).</td> 
+   <td>Ange det maximala antalet resultat som [!DNL Workfront Fusion] ska hämta under en cykel (antalet upprepningar per scenariokörning).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -263,7 +263,7 @@ Startar när en kommentar läggs till eller ändras i den markerade filen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File]</td> 
@@ -275,7 +275,7 @@ Startar när en kommentar läggs till eller ändras i den markerade filen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned comments]</td> 
-   <td>Ange maximalt antal kommentarer som [!DNL Workfront Fusion] returneras under en cykel (antalet repetitioner per scenario som körs).</td> 
+   <td>Ange det maximala antalet kommentarer som [!DNL Workfront Fusion] ska returnera under en cykel (antalet upprepningar per scenario-körning).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -294,7 +294,7 @@ Startar när en kommentar läggs till eller ändras i den markerade filen.
 
 #### [!UICONTROL Upload a File]
 
-Överför en fil till [!DNL Google Drive].
+Överför en fil till din [!DNL Google Drive].
 
 <table style="table-layout:auto"> 
  <col> 
@@ -302,7 +302,7 @@ Startar när en kommentar läggs till eller ändras i den markerade filen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 
@@ -322,11 +322,11 @@ Startar när en kommentar läggs till eller ändras i den markerade filen.
   </tr> 
   <tr> 
    <td>[!UICONTROL File name]</td> 
-   <td>Markera filnamnet. Det här alternativet är tillgängligt om du väljer "[!UICONTROL Map]" i [!UICONTROL source file] fält.</td> 
+   <td>Markera filnamnet. Det här alternativet är tillgängligt om du väljer [!UICONTROL Map] i fältet [!UICONTROL source file].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data]</td> 
-   <td>Markera den datafil som du vill överföra. Det här alternativet är tillgängligt om du väljer "[!UICONTROL Map]" i [!UICONTROL source file] fält.</td> 
+   <td>Markera den datafil som du vill överföra. Det här alternativet är tillgängligt om du väljer [!UICONTROL Map] i fältet [!UICONTROL source file].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Title]</td> 
@@ -334,7 +334,7 @@ Startar när en kommentar läggs till eller ändras i den markerade filen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert a file]</td> 
-   <td>Om du aktiverar det här alternativet kan modulen konvertera filer till motsvarande [!DNL Google] format.</td> 
+   <td>Om du aktiverar det här alternativet kan modulen konvertera filer till motsvarande [!DNL Google]-format.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -349,7 +349,7 @@ Uppdaterar metadata eller innehåll för en fil.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -381,11 +381,11 @@ Uppdaterar metadata eller innehåll för en fil.
   </tr> 
   <tr> 
    <td>[!UICONTROL File name]</td> 
-   <td>Markera filnamnet. Det här alternativet är tillgängligt om du väljer "[!UICONTROL Map]" i [!UICONTROL source file] fält.</td> 
+   <td>Markera filnamnet. Det här alternativet är tillgängligt om du väljer [!UICONTROL Map] i fältet [!UICONTROL source file].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data]</td> 
-   <td>Markera den datafil som du vill överföra. Det här alternativet är tillgängligt om du väljer "[!UICONTROL Map]" i [!UICONTROL source file] fält.</td> 
+   <td>Markera den datafil som du vill överföra. Det här alternativet är tillgängligt om du väljer [!UICONTROL Map] i fältet [!UICONTROL source file].</td> 
   </tr> 
  </tbody> 
 </table>
@@ -400,7 +400,7 @@ Kopierar en fil till den nya platsen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -435,7 +435,7 @@ Tar bort en fil eller mapp permanent.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -454,7 +454,7 @@ Flyttar en fil eller mapp till papperskorgen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -473,7 +473,7 @@ Hämtar filen med angivet ID.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Documents] filer att formatera]</td> 
@@ -508,7 +508,7 @@ Söker efter filer eller mappar baserat på sökvillkor.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -520,7 +520,7 @@ Söker efter filer eller mappar baserat på sökvillkor.
   </tr> 
   <tr> 
    <td>[!UICONTROL List a folder]</td> 
-   <td>Navigera till den mapp som du vill söka efter filerna eller mapparna i.</td> 
+   <td>Navigera till mappen som du vill söka efter filer eller mappar.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Retrieve]</td> 
@@ -535,20 +535,20 @@ Söker efter filer eller mappar baserat på sökvillkor.
        <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Ange en del av filnamnet eller det fullständiga filnamnet (inklusive suffixet) som du vill söka efter.</p> </li> 
        <li> <p><strong>[!UICONTROL Search Options]</strong> </p> <p>Välj om du vill söka efter den exakta termen eller om du vill söka efter namn som innehåller söktermen.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>[!UICONTROL Fulltext] sök</strong> </p> 
+     <li> <p><strong>[!UICONTROL Fulltext] sökning</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Ange sökord du vill söka i [!DNL Google Drive].</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Ange de sökord du vill söka efter i din [!DNL Google Drive].</p> </li> 
       </ul> </li> 
      <li> <p><strong>Ange anpassad sökfråga</strong> </p> 
       <ul> 
-       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Ange den anpassade sökfrågan. Mer information finns i [!UICONTROL Search for Files] i den här artikeln.</p> </li> 
-       <li> <p><strong>Lägg till mappen ovan i frågan</strong> </p> <p>Söker efter mappen i den överordnade samlingen. Detta söker efter alla filer och mappar som finns direkt i den ovan markerade mappen.</p> </li> 
+       <li> <p><strong>[!UICONTROL Query]</strong> </p> <p>Ange den anpassade sökfrågan. Mer information finns i avsnittet [!UICONTROL Search for Files] i artikeln.</p> </li> 
+       <li> <p><strong>Lägg till den markerade mappen ovan i frågan</strong> </p> <p>Söker efter mappen i den överordnade samlingen. Detta söker efter alla filer och mappar som finns direkt i den ovan markerade mappen.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned results]</td> 
-   <td>Ange maximalt antal filer eller mappar [!DNL Workfront Fusion] returneras under en körningscykel.</td> 
+   <td>Ange det maximala antalet filer eller mappar som [!DNL Workfront Fusion] returnerar under en körningscykel.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -567,7 +567,7 @@ Skapar en mapp på den angivna platsen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -587,7 +587,7 @@ Skapar en mapp på den angivna platsen.
   </tr> 
   <tr> 
    <td>[!UICONTROL Share folder]</td> 
-   <td>Välj det här alternativet om du vill dela mappen med alla som har [!UICONTROL Share] länk. I annat fall är delningslänken bara till för ägaren.</td> 
+   <td>Välj det här alternativet om du vill dela mappen med någon som har länken [!UICONTROL Share]. I annat fall är delningslänken bara till för ägaren.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -602,7 +602,7 @@ Hämtar delningslänken för en fil i Google Drive.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Google Drive] konto till [!DNL Workfront Fusion], se <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Google Drive]-konto till [!DNL Workfront Fusion] finns i <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">Ansluter [!DNL Google Drive] till [!UICONTROL Workfront Fusion]</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -617,20 +617,20 @@ Hämtar delningslänken för en fil i Google Drive.
 
 Det finns flera situationer när det inte går att överföra eller uppdatera en fil:
 
-* Den överförda filen är för stor och överskrider den tillåtna maxstorleken för din [!DNL Google Drive] eller så har du överskridit din [!DNL Google Drive] lagringsgräns. Du kan antingen uppgradera din lagringsplan eller ta bort befintliga filer från [!DNL Google Drive] service.
+* Den överförda filen är för stor och överskrider maxgränsen för filstorlek som tillåts för din [!DNL Google Drive]-plan, eller så har du överskridit lagringsgränsen för [!DNL Google Drive]. Du kan antingen uppgradera din lagringsplan eller ta bort befintliga filer från tjänsten [!DNL Google Drive].
 * Den valda mappen som filen skulle överföras till finns inte längre. Scenariot stoppas och du måste sedan välja en målmapp igen.
 
 ## Sök efter filer
 
 I modullistfilerna i en mapp kan du använda en egen fråga som består av följande delar:
 
-* **[!UICONTROL Field]** - Attribut för filen som söks igenom, till exempel attributet `name` av filen.
+* **[!UICONTROL Field]** - Attribut för filen som söks igenom, till exempel filens attribut `name`.
 
-* **[!UICONTROL Operator]** - Test som utförs på data för att ge en matchning, till exempel `contains`.
+* **[!UICONTROL Operator]** - Testa data för att ge en matchning, till exempel `contains`.
 
 * **[!UICONTROL Value]** - Innehållet i attributet som testas, till exempel namnet på filen `My cool document`.
 
-Kombinera klausuler med kopplingar `and` eller `or`och negera frågan med `not`.
+Kombinera satser med kopplingarna `and` eller `or` och negera frågan med `not`.
 
 * [Fält](#fields)
 * [Värdetyper](#value-types)
@@ -673,13 +673,13 @@ Kombinera klausuler med kopplingar `and` eller `or`och negera frågan med `not`.
   </tr> 
   <tr> 
    <td><code>[!UICONTROL modifiedDate]</code> </td> 
-   <td> datum<sup>4</sup></td> 
+   <td> date<sup>4</sup></td> 
    <td><code> &lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
    <td> <p> Datum för den senaste ändringen av filen.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL lastViewedByMeDate]</code> </td> 
-   <td> datum<sup>4</sup></td> 
+   <td> date<sup>4</sup></td> 
    <td><code>&lt;=</code>, <code>&lt;</code>, <code>=</code>, <code>!=</code>, <code>></code>, <code>>=</code></td> 
    <td> <p> Det datum då användaren senast visade en fil.</p> </td> 
   </tr> 
@@ -699,7 +699,7 @@ Kombinera klausuler med kopplingar `and` eller `or`och negera frågan med `not`.
    <td><code>[!UICONTROL parents]</code></td> 
    <td>samling </td> 
    <td><code>in </code> </td> 
-   <td> <p>Om [!UICONTROL parents] -samlingen innehåller det angivna ID:t.</p> </td> 
+   <td> <p>Anger om [!UICONTROL parents]-samlingen innehåller det angivna ID:t.</p> </td> 
   </tr> 
   <tr> 
    <td><code>[!UICONTROL owners]</code></td> 
@@ -736,21 +736,21 @@ Kombinera klausuler med kopplingar `and` eller `or`och negera frågan med `not`.
 
 Tänk på följande om operatorer i dessa fält:
 
-* The `contains` operatorn utför bara prefixmatchning för en `title`.
+* Operatorn `contains` utför bara prefixmatchning för en `title`.
 
-  Titeln&quot;HelloWorld&quot; matchar till exempel `title contains 'Hello'` men inte för `title contains 'World'`.
+  Titeln&quot;HelloWorld&quot; matchar till exempel för `title contains 'Hello'` men inte för `title contains 'World'`.
 
-* The `contains` operatorn utför bara matchning på hela strängtoken för `fullText`.
+* Operatorn `contains` utför bara matchning för hela strängtoken för `fullText`.
 
-  Om den fullständiga texten i ett dokument till exempel innehåller strängen &quot;HelloWorld&quot; är det bara frågan `fullText contains 'HelloWorld'` returnerar ett resultat. Frågor som `fullText contains 'Hello'` skulle inte returnera resultat i det här scenariot.
+  Om den fullständiga texten i ett dokument till exempel innehåller strängen &quot;HelloWorld&quot; returnerar bara frågan `fullText contains 'HelloWorld'` ett resultat. Frågor som `fullText contains 'Hello'` returnerar inte resultat i det här scenariot.
 
-* The `contains` -operatorn matchar på en exakt alfanumerisk fras om den omges av citattecken.
+* Operatorn `contains` matchar en exakt alfanumerisk fras om den omges av dubbla citattecken.
 
-  Om `fullText` i ett dokument innehåller strängen &quot;Hello there world&quot; och därefter frågan `fullText contains '"Hello there"'` returnerar ett resultat, men frågan `fullText contains '"Hello world"'` inte.
+  Om till exempel `fullText` för ett dokument innehåller strängen &quot;Hello where world&quot; returnerar frågan `fullText contains '"Hello there"'` ett resultat, men frågan `fullText contains '"Hello world"'` gör det inte.
 
-  Dessutom, eftersom sökningen är alfanumerisk, om `fullText` i ett dokument innehåller strängen &quot;Hello_world&quot; och därefter frågan `fullText contains '"Hello world"'` returnerar ett resultat.
+  Eftersom sökningen är alfanumerisk returnerar frågan `fullText contains '"Hello world"'` ett resultat om `fullText` i ett dokument innehåller strängen Hello_world.
 
-* Fält i `type` datum är för närvarande inte jämförbara med varandra, bara med konstanta datum.
+* Fält med datumet `type` kan för närvarande inte jämföras med varandra, bara med konstanta datum.
 
 ### Värdetyper
 
@@ -766,7 +766,7 @@ Tänk på följande om operatorer i dessa fält:
  <tbody> 
   <tr> 
    <td>Sträng </td> 
-   <td> <p>Omge med enkla citattecken '. Escape-enkla citattecken i frågor med <code>\'</code>, t.ex.<code> 'Valentine\'s Day'</code>.</p> </td> 
+   <td> <p>Omge med enkla citattecken '. Escape-enkla citattecken i frågor med <code>\'</code>, t.ex. <code> 'Valentine\'s Day'</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Boolean </td> 
@@ -843,11 +843,11 @@ Tänk på följande om operatorer i dessa fält:
 </table>
 
 För sammansatta satser kan du använda parenteser för att gruppera satser. Till exempel:
-`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` Den här sökningen returnerar alla filer med en MIME-typ för bild eller video som senast ändrades efter 4 juni 2012. För `and` och `or` -operatorer utvärderas från vänster till höger, utan parenteser, returnerar exemplet ovan endast bilder som ändrats efter 4 juni 2012, men alla videor returneras, även de som ändrats före 4 juni 2012.
+`modifiedDate > '2012-06-04T12:00:00' and (mimeType contains 'image/' or mimeType contains 'video/')` Den här sökningen returnerar alla filer med en MIME-typ för bild eller video som senast ändrades efter 4 juni 2012. Eftersom operatorerna `and` och `or` utvärderas från vänster till höger, utan parenteser, returnerar exemplet ovan endast bilder som ändrats efter 4 juni 2012, men alla videor returneras, även de som har ändrats före 4 juni 2012.
 
 ### Exempel
 
-Alla exempel på den här sidan visar den okodade `<q>q</q>` parameter, var `title = 'hello'` är kodad som `title+%3d+%27hello%27`. Klientbibliotek hanterar den här kodningen automatiskt.
+Alla exempel på den här sidan visar den okodade parametern `<q>q</q>`, där `title = 'hello'` är kodad som `title+%3d+%27hello%27`. Klientbibliotek hanterar den här kodningen automatiskt.
 
 * Sök efter filer med namnet &quot;hello&quot;
   <pre>title = 'hello'</pre>
@@ -856,7 +856,7 @@ Alla exempel på den här sidan visar den okodade `<q>q</q>` parameter, var `tit
 * Sök efter filer som inte är mappar
   <pre>mimeType != 'application/vnd.google-apps.folder'</pre>
 * Sök efter filer med ett namn som innehåller orden &quot;hello&quot; och &quot;hejdå&quot;
-  <pre>titeln innehåller "hello" och [!UICONTROL name] innehåller 'adjö'</pre>
+  <pre>titeln innehåller "hello" och [!UICONTROL name] innehåller 'hejdå'</pre>
 * Sök efter filer med ett namn som inte innehåller ordet &quot;hello&quot;
   <pre>inte titeln innehåller 'hello'</pre>
 * Sök efter filer som innehåller ordet &quot;hello&quot; i innehållet
@@ -866,12 +866,12 @@ Alla exempel på den här sidan visar den okodade `<q>q</q>` parameter, var `tit
 * Sök efter filer som innehåller den exakta frasen&quot;hello world&quot; i innehållet
   <pre>fullText innehåller '"hello world"'fullText innehåller '"hello_world"'</pre>
 * Sök efter filer med en fråga som innehåller tecknet &quot;\&quot; (t.ex. &quot;\authors&quot;)
-  <pre>fullText innehåller '\\authors'</pre>
+  <pre>fullText innehåller \\authors</pre>
 * Sök efter filer som kan skrivas av användaren &quot;test@example.org&quot;
-  <pre>'test@example.org' i [!DNL writers]</pre>
-* Sök efter ID `1234567` i `parents` samling. Detta söker efter alla filer och mappar som finns direkt i mappen vars ID är `1234567`.
-  <pre>"1234567" i [!UICONTROL parents]</pre>
-* Sök efter alias-ID `appDataFolder` i `parents` samling. Detta söker efter alla filer och mappar som finns direkt under [Programdatamapp](https://developers.google.com/drive/api/v2/appdata).
+  <pre>test@example.org i [!DNL writers]</pre>
+* Sök efter ID `1234567` i samlingen `parents`. Detta söker efter alla filer och mappar som finns direkt i den mapp vars ID är `1234567`.
+  <pre>1234567 tum [!UICONTROL parents]</pre>
+* Sök efter alias-ID:t `appDataFolder` i samlingen `parents`. Detta söker efter alla filer och mappar som finns direkt under mappen [Application Data](https://developers.google.com/drive/api/v2/appdata).
   <pre>appDataFolder i parent</pre>
 * Sök efter filer som kan skrivas av användarna &quot;test@example.org&quot; och &quot;test2@example.org&quot;
   <pre>test@example.org i skribenter och test2@example.org i skribenter</pre>
@@ -881,7 +881,7 @@ Alla exempel på den här sidan visar den okodade `<q>q</q>` parameter, var `tit
   <pre>modifiedDate &gt; '2012-06-04T12:00:00' // standardtidszonen är UTC</pre><pre>modifiedDate &gt; '2012-06-04T12:00:00-08:00'</pre>
 * Sök efter filer som delas med den behöriga användaren med &quot;hello&quot; i namnet
   <pre>sharedWithMe och title innehåller "hello"</pre>
-* Sök efter filer med en [anpassad filegenskap](https://developers.google.com/drive/api/v2/properties) namngiven `additionalID` med värdet `8e8aceg2af2ge72e78`.
+* Sök efter filer med en [anpassad filegenskap](https://developers.google.com/drive/api/v2/properties) med namnet `additionalID` och värdet `8e8aceg2af2ge72e78`.
   <pre>har { key='additionalID' och value='8e8aceg2af2ge72e78' och visibility='PRIVATE' }</pre>
 
-Källan till den här guiden är [[!DNL Google Drive] dokumentation](https://developers.google.com/drive/api/v2/search-shareddrives).
+Source i den här handboken är [[!DNL Google Drive] dokumentation](https://developers.google.com/drive/api/v2/search-shareddrives).

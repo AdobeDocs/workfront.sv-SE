@@ -30,7 +30,7 @@ Användarupplevelsen för webkrosbaserade integreringar liknar den för befintli
 * Överför filer till den externa dokumentleverantören
 * Visa en miniatyrbild för dokumentet
 
-**Referenskörning**
+**Referensimplementering**
 
 Workfront ger exempel på en referensimplementering för att hjälpa till att snabbt komma igång med utvecklingen av en ny webbhooksimplementering. De här exemplen finns på [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Exemplen är Java-baserade och gör det möjligt för Workfront att ansluta dokument i ett nätverksfilsystem. 
 

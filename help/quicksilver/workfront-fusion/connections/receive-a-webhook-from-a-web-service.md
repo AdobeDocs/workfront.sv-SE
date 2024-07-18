@@ -3,20 +3,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Ta emot en webkrok från en webbtjänst
-description: Om en webbtjänst inte är implementerad som en app i [!DNL Adobe Workfront Fusion], men det har stöd för att skicka webhooks, kan du lägga till tjänsten i ett scenario med hjälp av den anpassade webkrokmodulen som en direktutlösare.
+description: Om en webbtjänst inte är implementerad som en app i  [!DNL Adobe Workfront Fusion], men den har stöd för att skicka webbhooks, kan du lägga till tjänsten i ett scenario med hjälp av den anpassade webbkrokmodulen som en direktutlösare.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
 # Ta emot en webkrok från en webbtjänst
 
-Om en webbtjänst inte är implementerad som en app i [!DNL Adobe Workfront Fusion], men det har stöd för att skicka webhooks, kan du lägga till tjänsten i ett scenario med hjälp av den anpassade webkrokmodulen som en direktutlösare.
+Om en webbtjänst inte är implementerad som en app i [!DNL Adobe Workfront Fusion], men den har stöd för att skicka webbhooks, kan du lägga till tjänsten i ett scenario med hjälp av den anpassade webbkrokmodulen som en direktutlösare.
 
 ## Åtkomstkrav
 
@@ -37,40 +37,40 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Ta emot en webkrok
 
-1. Lägg till **[!UICONTROL Webhooks]>[!UICONTROL Custom webhook]** till ditt scenario.
-1. Klicka **[!UICONTROL Add]**, skriv en **[!UICONTROL Webhook name]** i rutan som visas och sedan klickar du **[!UICONTROL Save]**.
+1. Lägg till modulen **[!UICONTROL Webhooks]>[!UICONTROL Custom webhook]** i ditt scenario.
+1. Klicka på **[!UICONTROL Add]**, skriv **[!UICONTROL Webhook name]** i rutan som visas och klicka sedan på **[!UICONTROL Save]**.
 
-1. Klicka **[!UICONTROL Copy address to clipboard]** och sedan klicka **[!UICONTROL OK]**.
+1. Klicka på **[!UICONTROL Copy address to clipboard]** och sedan på **[!UICONTROL OK]**.
 
 1. Logga in på webbtjänsten och gör följande:
 
-   1. I [!UICONTROL Settings] för webbtjänsten, skapa en webkrok.
+   1. Skapa en webkrok i området [!UICONTROL Settings] för webbtjänsten.
    1. Klistra in adressen som du kopierade till Urklipp i steg 3.
    1. Välj den händelse som ska utlösa webkroken.
 
-1. I [!DNL Workfront Fusion] scenario, ange händelsen eller händelserna som du vill utlösa [!UICONTROL Custom webhook] -modul.
+1. I scenariot [!DNL Workfront Fusion] anger du händelsen eller händelserna som du vill ska utlösa modulen [!UICONTROL Custom webhook].
 1. Kör scenariot.
 
-   När en eller flera händelser inträffar [!UICONTROL Custom webhook] modulutlösare och scenariot körs.
+   När händelsen eller händelserna inträffar utlöses modulen [!UICONTROL Custom webhook] och scenariot körs.

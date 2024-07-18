@@ -27,7 +27,7 @@ I den här artikeln beskrivs skillnaderna mellan beräknade och planerade datum 
 
 När aktiviteten skapas för första gången bör datumen för planerad, projicerad och beräknad matcha. Det finns vissa undantag. 
 
-Mer information om projekt-, uppgifts- och utgivningsdatum i Adobe Workfront finns i [Översikt över Project-, Task- och Issue-datum i Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+Mer information om projekt-, uppgifts- och utgivningsdatum i Adobe Workfront finns i [Översikt över projekt-, uppgifts- och utgivningsdatum i Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Översikt över planerade datum
 
@@ -60,7 +60,7 @@ Skillnaden mellan beräknade och beräknade datum är:
 
 * Beräknade datum tar endast hänsyn till det verkliga förloppet för en aktivitet under en viss tidpunkt.
 
-**Exempel:** Om vi har en aktivitet som har ett planerat startdatum den 20 september och ett planerat slutförandedatum den 24 september och måste avslutas vid begränsning, är det planerade slutförandedatumet den 24 september. Den här aktiviteten har en varaktighet på 4 dagar.
+**Exempel:** Om vi har en aktivitet som har ett planerat startdatum den 20 september och ett planerat slutförandedatum den 24 september och som måste avslutas den måste avslutas den 24 september. Den här aktiviteten har en varaktighet på 4 dagar.
 
 Det beräknade slutförandedatumet beräknas utifrån det aktuella förloppet för arbetet i uppgiften. Om det är den 23 september idag och uppgiften inte har startat ännu är det beräknade slutförandedatumet den 27 september (det ska vara slutfört efter 4 dagar, förutsatt att arbetet har startats idag).
 
@@ -75,15 +75,15 @@ I följande lista visas flera scenarier när de beräknade datumen för uppgifte
 
 * När en uppgift har markerats som slutförd:
 
-  *Planerade datum = beräknade datum = faktiska datum*
+  *Planerade datum = Uppskattade datum = faktiska datum*
 
 * När en uppgift har ett faktiskt startdatum:
 
-  *Planerat startdatum = beräknat startdatum = faktiskt startdatum*
+  *Planerat startdatum = Beräknat startdatum = faktiskt startdatum*
 
 * När en aktivitet inte har ett faktiskt startdatum, men det finns ett obligatoriskt villkor för det planerade startdatumet (måste börja den) som kommer i framtiden:
 
-  *Planerat startdatum = villkorsdatum*
+  *Planerat startdatum = Begränsningsdatum*
 
   Mer information om begränsningsdatum finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -103,7 +103,7 @@ I följande lista visas flera scenarier när de beräknade datumen för uppgifte
 
 * När en aktivitet inte har ett uppdaterat implementeringsdatum, ett framtvingat villkorsdatum i framtiden eller har ett tidigare begränsningsdatum:
 
-  *Planerat slutförandedatum = systemberäkning för slutförandedatum baserat på den aktuella förloppet och återstående arbete*
+  *Planerat slutförandedatum = systemberäkning för slutförandedatum baserat på den aktuella förloppet och det arbete som återstår att utföra*
 
 ### Förstå när beräknade datum uppdateras för uppgifter {#understand-when-the-estimated-dates-update-on-tasks}
 

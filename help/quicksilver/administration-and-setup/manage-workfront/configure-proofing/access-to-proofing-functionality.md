@@ -25,29 +25,29 @@ Vilka språkfunktioner som är tillgängliga för användarna beror på vilken W
 Det finns för närvarande tre alternativa stavningsplaner för korrektur i Workfront:
 
 * **Nya Workfront-planer**: Språkkontroll inkluderas automatiskt för alla licenser i de nya Workfront-planerna.
-* **Aktuella Workfront Pro+-planer**: Språkkontroll ingår automatiskt i Work- och Plan-licenser om du har ett Workfront-abonnemang för proffs, företag eller företag.
+* **Aktuella Workfront Pro+-planer**: Korrektur inkluderas automatiskt för Work- och Plan-licenser om du har Workfront-planer för proffs, företag eller företag.
 * **Äldre Workfront Premium-planer**: Det här alternativet gäller äldre Workfront-planer - Select, Enterprise, Premium. Språkkontroll ingår inte automatiskt i licenserna i den här planen. Du måste ge korrekturåtkomst till specifika användare i deras användarprofil.
 
   Om du är Workfront-administratör kan du kontrollera och se vilken plan din instans är på genom att gå till Inställningar > System > Licenser.
 
 ### Språkfunktioner i Workfront
 
-Information om hur du beviljar och återkallar en användares åtkomst till att skapa och visa korrektur i Workfront finns i [Konfigurera en användares språkkontroll](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+Mer information om hur du beviljar och återkallar en användares åtkomst till att skapa och visa korrektur i Workfront finns i [Konfigurera en användares korrekturåtkomst](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
 * Generera statiska eller interaktiva korrektur på externa URL:er och dokument. Mer information finns i [Skapa korrektur](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Lägg in automatiserade arbetsflöden i korrektur. Mer information finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Ange åtkomst- och prenumerationsinställningar för korrektur. Mer information finns i [Konfigurera åtkomst- och prenumerationsinställningar för ett bevis](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
-* Tilldela anpassade korrekturbehörighetsprofiler när du aktiverar språkfunktioner för en användare i Workfront. Mer information finns i [Aktivera och inaktivera korrektur för en användare (endast äldre planer)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Konfigurera en användares språkkontroll](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+* Tilldela anpassade korrekturbehörighetsprofiler när du aktiverar språkfunktioner för en användare i Workfront. Mer information finns i [Aktivera och inaktivera språkkontroll för en användare (endast äldre planer)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) i [Konfigurera en användares språkåtkomst](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 * Spåra korrekturstatus och status. Mer information finns i [Översikt över korrektur och status](../../../review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md).
-* Ange behörighetsprofilen Workfront Proof när du skapar korrekturanvändare i Workfront, vilket beskrivs i det här avsnittet.
+* Ange Workfront Proof behörighetsprofil när du skapar språkanvändare i Workfront, enligt beskrivningen i det här avsnittet.
 
-  De här profilerna påverkar endast behörigheter i Workfront Korrektur, inte i Workfront.
+  Dessa profiler påverkar endast behörigheter i Workfront Proof, inte i Workfront.
 
 * Jämför två korrektur eller två versioner av samma bevis. Mer information finns i [Jämför korrektur](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
-* Skapa en korrekturgodkännanderapport. Mer information finns i  [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* Skapa en korrekturgodkännanderapport. Mer information finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 * Visa korrekturfasen som är aktiv för varje dokumentversion i rapporten Dokumentversion. Scenens namn visas i kolumnen &quot;Aktiva korrekturstadier&quot;. Om ingen scen är aktiv i dokumentversionen är kolumnen tom. Mer information om tillgängliga fält i vyer och rapporter finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-* Konfigurera när korrektur med ett automatiserat arbetsflöde visas för användare som är kopplade till en viss fas. Mer information finns i [Konfigurera korrektursynlighet baserat på arbetsflödesfasaktivitet](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) in  [Konfigurera delningsinställningar för dina användare](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
-* Smidig åtkomst till Workfront Proof direkt från Workfront Global Navigation Bar (ingen extra inloggning krävs). Mer information finns i [Öppna Workfront Proof från Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+* Konfigurera när korrektur med ett automatiserat arbetsflöde visas för användare som är kopplade till en viss fas. Mer information finns i [Konfigurera korrekturvisning baserat på arbetsflödesfasaktivitet](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md#configuring-proof-visibility-based-on-workflow-stage-activity) i [Konfigurera delningsinställningar för användarna](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
+* Smidig åtkomst till Workfront Proof direkt från Workfront Global Navigation Bar (ingen extra inloggning krävs). Mer information finns i [Åtkomst till Workfront Proof från Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 <!--
 >[!NOTE]

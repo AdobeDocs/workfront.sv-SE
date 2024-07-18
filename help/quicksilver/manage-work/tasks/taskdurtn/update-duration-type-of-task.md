@@ -35,7 +35,7 @@ Du måste ha följande för att ändra varaktighetstypen för en uppgift:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Redigera åtkomst till uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -55,19 +55,19 @@ Förutom att uppdatera varaktighetstypen för en uppgift enligt beskrivningen i 
 
 Så här uppdaterar du varaktighetstypen för en aktivitet:
 
-1. Klicka **Huvudmeny** > **Projekt** klickar du sedan på ett projekt för att komma åt det.
-1. Klicka på **Uppgifter** i den vänstra panelen.
-1. Klicka **Uppgiftsinformation** i den vänstra panelen och i området Översikt klickar du på **Typ av varaktighet**.
+1. Klicka på **Huvudmeny** > **Projekt** och klicka sedan på ett projekt för att komma åt det.
+1. Klicka på avsnittet **Åtgärder** i den vänstra panelen.
+1. Klicka på **Aktivitetsinformation** i den vänstra panelen och klicka sedan på **Varaktighetstyp** i området Översikt.
 
    ![](assets/duration-type-all-options-on-overview-350x155.png)
 
 1. Välj bland följande alternativ
 
-   | Typ av varaktighet | Mer information |
+   | Varaktighetstyp | Mer information |
    |---|---|
    | Beräknat arbete | Mer information finns i [Översikt över varaktighetstyp: Beräknat arbete](../../../manage-work/tasks/taskdurtn/calculated-work.md). |
-   | Ansträngningsstyrd | Mer information finns i [Översikt över varaktighetstyp: Ansträngningsstyrd](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
-   | Beräknad tilldelning | Mer information finns i [Översikt över varaktighetstyp: Beräknad tilldelning](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
+   | Ansträngningsstyrd | Mer information finns i [Översikt över varaktighetstypen: Arbetsplatsstyrd](../../../manage-work/tasks/taskdurtn/effort-driven.md). |
+   | Beräknad tilldelning | Mer information finns i [Översikt över varaktighetstyp: Beräknat uppdrag](../../../manage-work/tasks/taskdurtn/calculated-assignment.md). |
    | Enkel | Mer information finns i [Översikt över varaktighetstyp: Enkel](../../../manage-work/tasks/taskdurtn/simple-duration-type.md). |
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Tips, tricks och felsökning för [!DNL Adobe Workfront] Mobilappar
-description: Tips, tricks och felsökning för [!DNL Adobe Workfront] Mobilappar
+title: Tips, tricks och felsökning för  [!DNL Adobe Workfront] mobilappar
+description: Tips, tricks och felsökning för  [!DNL Adobe Workfront] mobilappar
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Tips, tricks och felsökning för [!DNL Adobe Workfront] Mobilappar
+# Tips, tricks och felsökning för [!DNL Adobe Workfront]-mobilappar
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Felmeddelande på [!DNL Adobe Workfront] Mobilapp: &quot;[!UICONTROL Your account is not API enabled.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [Felmeddelande på  [!DNL Adobe Workfront] mobilappen: [!UICONTROL Your account is not API enabled.]](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

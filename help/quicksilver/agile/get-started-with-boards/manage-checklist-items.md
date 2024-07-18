@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Genom att använda en checklista på ett kort kan du dela upp arbetet i mindre steg eller lägga till anteckningar till kortet. Checklisteobjekt är tillgängliga på både ad hoc-kort och anslutna kort.
 
-Mer information om kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)och [Hantera kort](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
+Mer information om kort finns i [Lägga till ett ad hoc-kort på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md), [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) och [Hantera kort](/help/quicksilver/agile/get-started-with-boards/move-board-items.md).
 
 ## Åtkomstkrav
 
@@ -40,54 +40,54 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägga till en checklista på ett kort
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på kortet för att öppna [!UICONTROL Card Details] box.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **[!UICONTROL Boards]**.
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicka på kortet för att öppna rutan [!UICONTROL Card Details].
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
+   Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
-1. Om du vill lägga till ett nytt objekt klickar du på **[!UICONTROL Add checklist item]**. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.
+1. Klicka på **[!UICONTROL Add checklist item]** om du vill lägga till ett nytt objekt. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.
 
    Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.
 
-1. Klicka ![Ikonen Detaljer](assets/checklist-chevron.png) för att öppna [!UICONTROL Checklist Item Details] box.
+1. Klicka på ikonen ![Detaljer](assets/checklist-chevron.png) för att öppna rutan [!UICONTROL Checklist Item Details].
 
-   ![Krysslisteobjektinformation](assets/checklist-item-details.png)
+   ![Checklist Item Details box](assets/checklist-item-details.png)
 
 1. (Valfritt) Lägg till en beskrivning, tilldelningar, förfallodatum och uppskattningstimmar för checklistobjektet.
 
-   Information om något av dessa fält finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) eller [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Information om något av dessa fält finns i [Lägga till ett ad hoc-kort på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) eller [Använd anslutna kort på anslagstavlor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Klicka **[!UICONTROL Close]** för att återgå till kortinformation och en fullständig lista över objekt i checklistor.
+1. Klicka på **[!UICONTROL Close]** om du vill återgå till kortinformationen och till den fullständiga listan med checklisteobjekt.
 
    Tilldelningarna och förfallodatumet visas på objektet.
 
-1. Om du vill kopiera ett objekt klickar du på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på objektet och välj **[!UICONTROL Copy]**.
-1. Klicka på knappen **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på objektet och välj **[!UICONTROL Delete]**.
+1. Om du vill kopiera ett objekt klickar du på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) på objektet och väljer **[!UICONTROL Copy]**.
+1. Om du vill ta bort ett alternativ i en checklista klickar du på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) för objektet och väljer **[!UICONTROL Delete]**.
 
 ## Fullständiga checklisteobjekt
 
 1. Gå till styrelsen och leta upp kortet som checklistan finns på.
-1. Klicka på kortet för att öppna [!UICONTROL Card Details] box.
+1. Klicka på kortet för att öppna rutan [!UICONTROL Card Details].
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![Menyn Mer](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
+   Klicka på **[!UICONTROL More]**-menyn ![Mer meny](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
 1. Markera kryssrutan bredvid objektet som är färdigt.
 
-   Räknaren uppdateras för att visa de slutförda objekten.
+   Räknaren uppdateras för att visa slutförda objekt.
 
    Du kan avmarkera kryssrutan om du behöver lägga tillbaka objektet i listan.
 
-   ![Slutfört checklisteobjekt](assets/checklist-items-with-chevron.png)
+   ![Slutförd checklistepost](assets/checklist-items-with-chevron.png)
 
-1. Klicka **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
+1. Klicka på **[!UICONTROL Close]** för att gå tillbaka till anslagstavlan.
 
    Räknaren på kortet uppdateras också.

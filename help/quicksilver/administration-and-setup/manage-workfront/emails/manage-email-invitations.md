@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >Det förfarande som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Admin Console. Om du har anslutit dig till Adobe Admin Console måste du utföra den här åtgärden via Adobe Admin Console.
 >
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns på [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Som Adobe Workfront-administratör kan du lägga till användare i Workfront och meddela dem att de har lagts till genom att använda e-postinbjudningar.
 
@@ -69,23 +69,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 E-postinbjudningar genereras i följande scenarier:
 
-* När du skapar en ny användare väljer du **Skicka en inbjudan via e-post till den här personen** på **Ny användare** formulär. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* När du importerar flera nya användare och du väljer **Skicka inbjudna e-postmeddelanden till dessa personer** alternativ. Mer information om hur du importerar flera nya användare finns i [Importera användare](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* När du skapar en ny användare och väljer **Skicka en inbjudan via e-post till den här personen** i formuläret **Ny användare**. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* När du importerar flera nya användare och du väljer alternativet **Skicka inbjudningsmeddelanden till dessa personer**. Mer information om hur du importerar flera nya användare finns i [Importera användare](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 * När användarna har skapats kan du manuellt generera inbjudningar till användare som ännu inte har registrerat sitt konto hos Workfront och som inte har etablerat något Workfront-lösenord.\
-  Användare som har ett konto som skapats men ännu inte registrerat sitt konto markeras som **Oregistrerad** i Workfront.
+  Användare som har ett konto som har skapats men ännu inte registrerat sitt konto markeras som **Oregistrerad** i Workfront.
 
   >[!NOTE]
   >
-  >Om du avmarkerar **Skicka en e-postinbjudan till den här personen** När du skapar användaren kan e-postinbjudan inte genereras manuellt. Det går bara att skicka om e-postinbjudningarna manuellt för användare som har skickats den ursprungliga e-postinbjudan när deras konto skapades. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  >Om du avmarkerar rutan **Skicka en e-postinbjudan till den här personen** när du skapar användaren kan e-postinbjudan inte genereras manuellt. Det går bara att skicka om e-postinbjudningarna manuellt för användare som har skickats den ursprungliga e-postinbjudan när deras konto skapades. Mer information om hur du skapar nya användare finns i [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png).
-1. Välj den användare som visar **Oregistrerad** etikett efter namn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+1. Välj den användare som visar etiketten **Oregistrerad** efter sitt namn.
 
    ![](assets/unreg-user-qs-350x221.png)
 
-1. Klicka på ikonen Mer ![](assets/more-icon.png)och sedan klicka **Påminn användaren om att registrera**.
+1. Klicka på ikonen Mer ![](assets/more-icon.png) och sedan på **Påminn användare om att registrera**.
 
    En e-postinbjudan skickas till den nya användaren med en ny länk som denne kan använda för att skapa sitt Workfront-lösenord.
 
@@ -101,11 +101,11 @@ Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
 
 Som Workfront-administratör kan du konfigurera det meddelande du vill ta med i e-postinbjudningarna för nya användare.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i listan till vänster **E-post** > **Inbjudningar**.
+1. Klicka på **E-post** > **Inbjudningar** i listan till vänster.
 
-1. I **Allmänna alternativ** gör du någon av följande ändringar:
+1. Gör någon av följande ändringar i avsnittet **Allmänna alternativ**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -116,18 +116,18 @@ Som Workfront-administratör kan du konfigurera det meddelande du vill ta med i 
       <td> <p>Ange efter hur lång tid e-postinbjudningarna inte längre innehåller en giltig länk till Workfront. Standardantalet dagar är 45.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Inkludera ett meddelande och/eller tjänstens giltighetstid</strong> </td> 
+      <td role="rowheader"><strong>Inkludera ett meddelande och/eller tjänstens varaktighet</strong> </td> 
       <td> <p>Välj det här alternativet om du vill ändra e-postinbjudan för alla nya användare som har lagts till i Workfront. Detta gäller inte användare med en begärande licens.</p> 
        <ul> 
         <li><strong>Meddelande</strong>: Om du väljer att ändra e-postinbjudan för alla nya användare anger du den text som du vill inkludera i dina e-postinbjudningar som e-postbrödtext.</li> 
         <li><strong>Villkor</strong>: Om du väljer att ändra e-postinbjudan för alla nya användare anger du den text du vill inkludera i e-postinbjudningarna som villkor.<br></li> 
-        <li><strong>Inkludera ett meddelande och/eller en serviceperiod för helpdesk-användare</strong>: Välj det här alternativet om du vill ändra e-postinbjudan för alla nya användare som har lagts till i Workfront och som har en beställarlicens.</li> 
-        <li><strong>Meddelande</strong>: Om du väljer att ändra e-postinbjudan för alla nya användare med en beställarlicens anger du den text du vill inkludera i dina e-postinbjudningar som e-postbrödtext.</li> 
-        <li><strong>Villkor</strong>: Om du väljer att ändra e-postinbjudan för alla nya användare med en beställarlicens anger du den text du vill inkludera i dina e-postinbjudningar som villkor.<br></li> 
-        <li> <p>I <strong>Förhandsgranska inbjudan</strong> kan du se en förhandsgranskning av din e-postinbjudan. Om du valde att ta med ett anpassat meddelande i din e-postinbjudan visas det anpassade meddelandet i det här området.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
+        <li><strong>Inkludera ett meddelande och/eller tjänstvillkor för helpdesk-användare</strong>: Välj det här alternativet om du vill ändra e-postinbjudan för alla nya användare som har lagts till i Workfront och som har en begärande licens.</li> 
+        <li><strong>Meddelande</strong>: Om du väljer att ändra e-postinbjudan för alla nya användare med en begärande licens anger du den text som du vill inkludera i e-postinbjudningarna som e-postbrödtext.</li> 
+        <li><strong>Villkor</strong>: Om du väljer att ändra e-postinbjudan för alla nya användare med en beställarlicens anger du den text som du vill inkludera i dina e-postinbjudningar som villkor.<br></li> 
+        <li> <p>I avsnittet <strong>Förhandsgranska inbjudan</strong> kan du se en förhandsgranskning av din e-postinbjudan. Om du valde att ta med ett anpassat meddelande i din e-postinbjudan visas det anpassade meddelandet i det här området.</p> <p> <img src="assets/email-invitation-for-all-users-preview-qs-350x190.png" style="width: 350;height: 190;"> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

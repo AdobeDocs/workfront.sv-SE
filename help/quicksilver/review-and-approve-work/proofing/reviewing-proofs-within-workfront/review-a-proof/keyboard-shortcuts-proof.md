@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ De kortkommandon som beskrivs i den här artikeln är tillgängliga i både Web 
   <tr> 
    <td><strong>Kortkommando</strong> </td> 
    <td><strong>Åtgärd på videokorrektur</strong> </td> 
-   <td><strong>Åtgärd vid statiska korrektur</strong> </td> 
+   <td><strong>Åtgärd på statiska korrektur</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p>Blanksteg<br>eller<br>k (versal eller gemen)</p> </td> 
+   <td> <p>Blanksteg<br>Eller<br>k (versaler eller gemener)</p> </td> 
    <td> <p>Spela upp eller pausa video</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -73,7 +73,7 @@ De kortkommandon som beskrivs i den här artikeln är tillgängliga i både Web 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Ctrl+Enter </p> <p><strong>Windows:</strong> cmd+return</p> </td> 
+   <td> <p><strong>Mac:</strong> Ctrl+Enter </p> <p><strong>Windows:</strong> cmd+return</p> </td> 
    <td> <p>Spara kommentar</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -93,7 +93,7 @@ De kortkommandon som beskrivs i den här artikeln är tillgängliga i både Web 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 (noll)<br>eller<br> fn+vänsterpil<br> eller<br> Hemtangent</p> </td> 
+   <td> <p>0 (noll)<br>Eller<br> fn+vänsterpil<br> eller<br> hemtangent</p> </td> 
    <td> <p>Starta om videon</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -113,32 +113,32 @@ De kortkommandon som beskrivs i den här artikeln är tillgängliga i både Web 
    <td> <p>Zooma in eller ut</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Ctrl+0</p> <p><strong>Windows:</strong> Ctrl+0</p> </td> 
+   <td> <p><strong>Mac:</strong> Ctrl+0</p> <p><strong>Windows:</strong> Ctrl+0</p> </td> 
    <td> <p> Anpassa till sida</p> </td> 
    <td> <p>Anpassa till sida</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Ctrl+1</p> <p><strong>Windows:</strong> Ctrl+1</p> </td> 
+   <td> <p><strong>Mac:</strong> Ctrl+1</p> <p><strong>Windows:</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Zooma till 100 % </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Ctrl+2</p> <p><strong>Windows:</strong> Ctrl+2</p> </td> 
+   <td> <p><strong>Mac:</strong> Ctrl+2</p> <p><strong>Windows:</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Anpassa till bredd </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> Ctrl+3</p> <p><strong>Windows:</strong> Ctrl+3 </p> </td> 
+   <td> <p><strong>Mac:</strong> Ctrl+3</p> <p><strong>Windows:</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Anpassa till höjd </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+ <br>eller <br>cmd+shift+scroll up</p> <p><strong>Windows:</strong> Ctrl++</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd++ <br> eller <br>cmd+shift+scroll up</p> <p><strong>Windows:</strong> Ctrl++</p> </td> 
    <td> <p> Zooma in</p> </td> 
    <td> <p>Zooma in </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Mac:</strong> cmd+- <br>eller <br>cmd+shift+scroll down</p> <p><strong>Windows:</strong> Ctrl+-</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+- <br> eller <br>cmd+shift+scroll down</p> <p><strong>Windows:</strong> Ctrl+-</p> </td> 
    <td> <p>Zooma ut </p> </td> 
    <td> <p>Zooma ut</p> </td> 
   </tr> 

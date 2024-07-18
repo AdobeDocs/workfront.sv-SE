@@ -30,12 +30,12 @@ Systemadministratörer kan uppdatera en inställning så att du kan logga tid f�
 
 Som systemadministratör gör du följande:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Expandera **Tidrapporter och timmar** och sedan klicka **Inställningar**.
+1. Expandera **Tidrapporter och timmar** och klicka sedan på **Inställningar**.
 
-1. I **Allmänna inställningar** väljer du **Logga timmar för framtida datum**.
+1. I avsnittet **Allmänna inställningar** väljer du **Loggtimmar för framtida datum**.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 Mer information om detta och andra alternativ för tidrapporter och timmar finns i [Konfigurera tidrapport och timinställningar](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

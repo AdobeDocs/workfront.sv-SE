@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: Integrering med Workfront Proof
-description: Läs mer om Workfront Proof-integreringar.
+title: Workfront Proof-integreringar
+description: Läs om Workfront Proof integreringar.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [[!DNL Workfront Proof] API](../../workfront-proof/wp-integrations/api/wp-api.md)
+* [API för [!DNL Workfront Proof]](../../workfront-proof/wp-integrations/api/wp-api.md)
 * [[!DNL Box]](../../workfront-proof/wp-integrations/box/box.md)
 * [[!DNL Basecamp]](../../workfront-proof/wp-integrations/basecamp/basecamp.md)
 * [[!DNL Basecamp Classic]](../../workfront-proof/wp-integrations/basecamp-classic/basecamp-classic.md)

@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -75,15 +75,15 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
 1. Gå till rapporten där du vill lägga till en fråga.
 1. Expandera **Rapportåtgärder** och klicka sedan på **Redigera**.
 
-1. Klicka **Rapportinställningar**.
-1. I **Rapportera uppmaningar** område, klicka **Lägg till en fråga**.\
+1. Klicka på **Rapportinställningar**.
+1. Klicka på **Lägg till en fråga** i området **Rapportera frågor**.\
    ![](assets/qs-add-a-prompt-350x216.png)
 
 1. (Villkorligt) Markera det fält som du vill att uppmaningen ska baseras på. Börja skriva namnet på fältet och klicka för att markera det när det visas i listan.\
    Vilka alternativ som är tillgängliga för användare som kör rapporten varierar beroende på vilket fält du väljer.\
-   Om du t.ex. väljer ett datumfält som Faktiskt slutförandedatum i en aktivitetsrapport, är &quot;Faktiskt slutförandedatum&quot; namnet på uppmaningen. När du redigerar den här uppmaningen när du kör den här rapporten kan du välja bland en uppsättning modifierare för att skapa din filtersats. Den här processen är identisk med att skapa ett filter. Mer information om modifierare finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Om du t.ex. väljer ett datumfält som Faktiskt slutförandedatum i en aktivitetsrapport, är &quot;Faktiskt slutförandedatum&quot; namnet på uppmaningen. När du redigerar den här uppmaningen när du kör den här rapporten kan du välja bland en uppsättning modifierare för att skapa din filtersats. Den här processen är identisk med att skapa ett filter. Mer information om modifierare finns i [Filter och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Villkorligt) Klicka **Anpassad fråga** för att skapa en egen uppmaning.
+1. (Villkorligt) Klicka på **Egen fråga** om du vill skapa en anpassad fråga.
 
    En anpassad fråga är en fördefinierad fråga där du hårdkodar filtervillkoren innan du kör rapporten. I det här fallet finns en anpassad fråga närmare ett filter än en fråga.
 
@@ -91,13 +91,13 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
 
    Ange följande information för den anpassade prompten: Villkoret för en anpassad prompt kan bara redigeras i textläge. Detta gör att flera villkor kan användas i ett enda fält.
 
-   * **Fält:** Detta är namnet på uppmaningen, som du ser den innan du kör rapporten.
-   * **Etikett:** Det här är namnet på ett av alternativen i uppmaningen som du ser det innan du kör rapporten.
+   * **Fältnamn:** Detta är namnet på uppmaningen, som du ser den innan du kör rapporten.
+   * **Etikett:** Det här är namnet på ett av alternativen i uppmaningen, som du ser det innan du kör rapporten.
    * **Villkor:** Ange ett villkor som definierar uppmaningen.
 
    Använd samma syntax som du använder när du anger ett textlägesfilter och koppla programsatser till &quot;&amp;&quot;. Mer information om hur du redigerar ett filter i textläge finns i [Redigera ett filter i textläge](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-   Till exempel **Villkor** fält för den anpassade uppmaningen för följande scenarier kan se ut så här:
+   Fältet **Villkor** i den anpassade uppmaningen för följande scenarier kan till exempel se ut så här:
 
    * alla uppgifter i framtida projekt där projektstatusen är Idea, Begärd, Planerad och Aktuell:
 
@@ -111,14 +111,14 @@ Instruktioner om hur du skapar en rapport finns i [Skapa en rapport](../../../re
      project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
      ```
 
-   Mer information om modifiering i textläge finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Mer information om modifierare i textläge finns i [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
    >Du kan inte ändra villkoren för en anpassad fråga när du kör rapporten, som du skulle göra med en standardfråga. Du kan ha så många fördefinierade villkor för en anpassad fråga som du behöver.
 
 1. (Valfritt) Upprepa steg 4 eller steg 5 för att skapa så många uppmaningar som behövs.
-1. Klicka **Klar** och sedan klicka **Spara+stäng** för att spara rapporten.
+1. Klicka på **Klar** och sedan på **Spara+stäng** för att spara rapporten.
 
 ## Använda en uppmaning i en rapport
 
@@ -130,10 +130,10 @@ Så här kör du en rapport med en fråga:
 
    ![](assets/qs-prompt-drop-downs-350x229.png)
 
-1. Välj ett villkor för en eller alla uppmaningar som visas på **Fråga** -fliken.\
+1. Välj ett villkor för en eller alla uppmaningar som visas på fliken **Fråga**.\
    (Valfritt) Du kan lämna uppmaningarna tomma och inte filtrera rapporten efter uppmaningsvillkoren.
 
-1. Klicka **Kör rapport**.\
+1. Klicka på **Kör rapport**.\
    (Villkorligt) Om du fyllde i uppmaningarna filtreras rapporten efter de villkor som du har valt för dina uppmaningar.\
    (Villkorligt) Om du lämnade uppmaningarna tomma filtreras inte rapporten efter uppmaningsvillkoren. Rapporten visas som om den inte filtrerats.
 
@@ -154,4 +154,4 @@ Följande är begränsningar när det gäller att dela rapporter från Workfront
   Mer information om att dela rapporter finns i artikeln [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 * När du schemalägger en begärd rapport för leverans innehåller rapporten i e-postbilagan de data som efterfrågas. När användaren klickar på länken i e-postmeddelandet för att få åtkomst till rapporten måste han/hon logga in först för att kunna visa rapporten och köra uppmaningen själv.
 
-  Mer information om att schemalägga en levererad rapport finns i [Schemalägg automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
+  Mer information om att schemalägga en levererad rapport finns i [Schemalägg en automatisk rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

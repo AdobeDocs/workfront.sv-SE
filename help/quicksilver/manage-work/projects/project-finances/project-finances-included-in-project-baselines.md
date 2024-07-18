@@ -22,7 +22,7 @@ När du skapar en baslinje hämtas uppgiftsinformationen också till baslinjeupp
 
 Mer information om hur du skapar projektbaslinjer finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).
 
-## Ekonomisk information i baslinjer
+## Finansiell information som ingår i baslinjer
 
 Du kan skapa rapporter för Originalplan eller Originalplan för att visa information som hämtats om projektet eller uppgifterna vid en viss tidpunkt.
 
@@ -30,7 +30,7 @@ Förutom namn- och datuminformation innehåller baslinjer och basuppgifter ekono
 
 Mer information om vad varje fält visar finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-* [Ekonomisk information som ingår i Baslinjerapporter](#financial-information-included-in-baseline-reports)
+* [Ekonomisk information ingår i originalrapporter](#financial-information-included-in-baseline-reports)
 * [Ekonomisk information som ingår i rapporter om originalaktiviteter](#financial-information-included-in-baseline-task-reports)
 
 ### Ekonomisk information som ingår i Baslinjerapporter {#financial-information-included-in-baseline-reports}
@@ -45,7 +45,7 @@ Följande ekonomiska projektinformation är tillgänglig från Baseline-objektet
 * Budgeterad kostnad
 * Resursplanering - budgeterad arbetskostnad
 
-   Resursplaneringens budgeterade arbetskostnad är arbetskostnaden för projektet baserat på antalet timmar som budgeterats för projektet i resursplaneraren när originalplanen skapades.
+  Resursplaneringens budgeterade arbetskostnad är arbetskostnaden för projektet baserat på antalet timmar som budgeterats för projektet i resursplaneraren när originalplanen skapades.
 
 * Fast kostnad
 * Planerad intäkt

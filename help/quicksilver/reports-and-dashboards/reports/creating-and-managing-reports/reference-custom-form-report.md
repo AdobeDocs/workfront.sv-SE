@@ -6,9 +6,9 @@ description: Du kan referera till de anpassade formerna för ett objekt i rappor
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Du kan referera till de anpassade formerna för ett objekt i rapporten Vyer, Filter och grupperingar för det objektet.
 
-Du kan referera till innehållet i anpassade formulär som ska inkluderas i en rapport, eller så kan du referera till information om de anpassade formulären som ska inkluderas i en rapport.
+Du kan referera till innehållet i anpassade formulär som ska inkluderas i en rapport eller referera till information om de anpassade formulären som ska inkluderas i en rapport.
 
 ## Åtkomstkrav
 
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Det anpassade formuläret måste finnas innan du kan referera till det i en rapport.
 
-Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Referera innehållet i anpassade formulär
 
@@ -61,11 +61,11 @@ Du kan referera till fält i anpassade formulär. När ett anpassat formulär ha
 >[!NOTE]
 >
 >För fält som har flera alternativ är alla alternativ tillgängliga i rapportens filter och uppmaningar, inklusive de som är dolda.\
->Mer information om hur du döljer alternativ för ett anpassat fält med flera alternativ finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Mer information om hur du döljer alternativ för ett anpassat fält med flera alternativ finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 När du skapar rapporten använder du bara formulärets objekttyp som fältkälla och använder namnet på det anpassade fältet som fältnamn.
 
-Du kan till exempel ha ett anpassat formulär tillämpat på alla projekt som innehåller det anpassade fältet **Konsult**. Använd **Projekt** objekttyp som fältkälla och använd **Konsult** som fältnamn. Ange filterkvalificeraren till **Jämn**, skriver du Olivia Kim.
+Du kan till exempel ha ett anpassat formulär tillämpat på alla projekt som innehåller det anpassade fältet **Konsult**. Om du vill skapa en rapport med en lista över alla projekt där Olivia Kim är konsult använder du objekttypen **Projekt** som fältkälla och använder **Konsult** som fältnamn. Ange filterkvalificeraren till **Lika med** och skriv Olivia Kim.
 
 ![](assets/qs-consultant-filter-example-350x126.png)
 
@@ -79,7 +79,7 @@ Du kan referera till information om anpassade formulär, t.ex. namnet på anpass
 
 * Det primära anpassade formuläret som används på ett objekt:
 
-   Det här är det formulär som visas först på objektets detaljsida.
+  Det här är det formulär som visas först på objektets detaljsida.
 
 * Alla anpassade formulär (om mer än ett anpassat formulär används på ett objekt)
 
@@ -94,14 +94,14 @@ Du kan referera till anpassade formulär i vyer, filter och grupperingar:
 Så här visar du alla anpassade formulär som är kopplade till ett objekt:
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. På **Kolumner** utökar du objekttypen som det anpassade formulär som du vill referera till används på och klickar sedan på **Kategorinamn**.\
-   Om du till exempel vill visa alla anpassade formulär som är kopplade till en uppgift expanderar du **Uppgift** fältkälla, klicka sedan på **Kategorinamn** fältnamn.\
+1. På fliken **Kolumner** expanderar du objekttypen som det anpassade formulär som du vill referera till används på och klickar sedan på **Kategorinamn**.\
+   Om du till exempel vill visa alla anpassade formulär som är associerade med en uppgift expanderar du fältkällan **Aktivitet** och klickar sedan på fältnamnet **Kategorinamn**.\
    ![](assets/qs-category-name-column-350x267.png)
 
 Så här visar du endast det primära anpassade formuläret som är associerat med objektet:
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. På **Kolumner** -fliken, expandera **Kategori** fältkälla, klicka sedan på **Namn** fältnamn.\
+1. Expandera fältkällan **Kategori** på fliken **Kolumner** och klicka sedan på fältnamnet **Namn**.\
    ![](assets/qs-category-name-column-2-350x248.png)
 
 ### Referera anpassade formulär i ett rapportfilter {#reference-custom-forms-in-a-report-filter}
@@ -109,7 +109,7 @@ Så här visar du endast det primära anpassade formuläret som är associerat m
 Så här filtrerar du alla anpassade formulär som är associerade med objekttypen:
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. På **Filter** flik, expandera **Kategorier** och sedan klicka **Namn**.\
+1. Expandera **Kategorier** på fliken **Filter** och klicka sedan på **Namn**.\
    ![](assets/qs-categories-name-filter-350x311.png)
 
 1. Välj den villkorskvalificerare som du vill använda:
@@ -121,20 +121,20 @@ Så här filtrerar du alla anpassade formulär som är associerade med objekttyp
    * Jämn
    * Inte lika med
 
-   Mer information om respektive kvalificerare finns i artikeln [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Mer information om respektive kvalificerare finns i artikeln [Filter och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >
-   >Om fältet som du filtrerar efter har flera alternativ och du använder **Inte lika med** eller **Innehåller inte** -kvalificerare, filtrerar bort resultat som bara innehåller det val du anger. Om fältet innehåller ytterligare alternativ, inklusive det angivna, filtreras inte dessa resultat från rapporten. Detta inkluderar filtrering för flera anpassade Forms om de är kopplade till samma objekt.
+   >Om fältet som du filtrerar efter har flera alternativ och du använder kvalificerarna **Inte lika med** eller **Innehåller inte** filtreras resultaten ut, som bara innehåller det alternativ som du anger. Om fältet innehåller ytterligare alternativ, inklusive det angivna, filtreras inte dessa resultat från rapporten. Detta inkluderar filtrering för flera anpassade Forms om de är kopplade till samma objekt.
 
 1. Börja skriva namnet på det anpassade formulär som du vill filtrera på och klicka sedan på namnet när det visas i listrutan.
-1. (Valfritt) Klicka på **Lägg till en annan filterregel** och sedan upprepa steg 2-4 för att skapa ytterligare filterregler.
-1. Klicka **Spara+stäng**.
+1. (Valfritt) Klicka på **Lägg till en annan filterregel** och upprepa sedan steg 2-4 för att skapa ytterligare filterregler.
+1. Klicka på **Spara+Stäng**.
 
 Om du bara vill filtrera det primära anpassade formuläret som är associerat med objekttypen:
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. På **Filter** -fliken, expandera **Kategori** fältkälla, klicka sedan på **Namn** fältnamn.\
+1. Expandera fältkällan **Kategori** på fliken **Filter** och klicka sedan på fältnamnet **Namn**.\
    ![](assets/qs-category-name-filter-350x437.png)
 
 1. Välj den villkorskvalificerare som du vill använda:
@@ -146,18 +146,18 @@ Om du bara vill filtrera det primära anpassade formuläret som är associerat m
    * Jämn
    * Inte lika med
 
-   Mer information om respektive kvalificerare finns i artikeln [Filter- och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Mer information om respektive kvalificerare finns i artikeln [Filter och villkorsmodifierare](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. Börja skriva namnet på det anpassade formulär som du vill filtrera på och klicka sedan på namnet när det visas i listrutan.
-1. (Valfritt) Klicka på **Lägg till en annan filterregel** och sedan upprepa steg 2-4 för att skapa ytterligare filterregler.
-1. Klicka **Spara+stäng**.
+1. (Valfritt) Klicka på **Lägg till en annan filterregel** och upprepa sedan steg 2-4 för att skapa ytterligare filterregler.
+1. Klicka på **Spara+Stäng**.
 
 ### Referera till anpassade formulär i en rapportgruppering {#reference-custom-forms-in-a-report-grouping}
 
 >[!NOTE]
 >
->Du kan bara gruppera objekt efter det primära anpassade formulär som är associerat med objektet; Du kan inte gruppera objekt efter alla formulär som är kopplade till objektet.
+>Du kan bara gruppera objekt efter det primära anpassade formulär som är associerat med objektet. Du kan inte gruppera objekt efter alla formulär som är associerade med objektet.
 
 1. Börja skapa en rapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. På **Grupperingar** flik, expandera **Kategori** och sedan klicka **Namn**.\
+1. Expandera **Kategori** på fliken **Grupperingar** och klicka sedan på **Namn**.\
    ![](assets/qs-category-name-grouping-350x373.png)

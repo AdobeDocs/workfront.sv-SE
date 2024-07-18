@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '927'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-den 4 april 2022. En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+den 4 april 2022. En lista över alla ändringar som är tillgängliga i version 2.2 finns i [2.2 versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Konfigurera ett anpassat formulär som ska fungera med flera objekttyper
 
@@ -33,18 +33,16 @@ Tidigare kunde du konfigurera ett anpassat formulär så att det bara fungerar m
 
 Den här funktionen fungerar med alla anpassade formulär som skapats tidigare i Workfront. Om du till exempel redan har ett anpassat formulär som har skapats för objekttypen Task kan du nu konfigurera formuläret så att det även fungerar med andra objekttyper, till exempel Projekt och Problem.
 
-Mer information finns i avsnittet [Börja skapa ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* Vid den första förhandsversionen av den här funktionen inaktiverades möjligheten att kopiera ett anpassat formulär med flera objekt tillfälligt. Denna möjlighet aktiverades den 24 mars. Mer information om hur du kopierar ett anpassat formulär finns i [Kopiera ett anpassat formulär och skapa ett nytt](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* I ett beräknat anpassat fält är vissa fält som du refererar till kanske inte kompatibla med objekttyper som har konfigurerats för formuläret. Vår lösning är ett jokertecken som gör det möjligt att beräkna olika värden beroende på vilket objekt som formuläret är kopplat till. Vi lade till jokertecknet den 24 mars. Mer information om hur du använder programmet finns i avsnittet [Beräknade anpassade fält i anpassade formulär med flera objekt](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) i artikeln [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* För avsnittsbrytningar i anpassade formulär har vi skapat en uppsättning gemensamma visnings- och redigeringsbehörigheter som fungerar för alla objekttyper som du kan konfigurera för ett formulär. I ett scenario har vi funnit att en av dessa behörigheter, Begränsad redigering, kan orsaka fel i ett formulär. Den här lagades den 24 mars. Mer information om avsnittsbrytningar finns i [Lägga till en avsnittsbrytning i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* Vid den första förhandsversionen av den här funktionen inaktiverades möjligheten att kopiera ett anpassat formulär med flera objekt tillfälligt. Denna möjlighet aktiverades den 24 mars.
+>* I ett beräknat anpassat fält är vissa fält som du refererar till kanske inte kompatibla med objekttyper som har konfigurerats för formuläret. Vår lösning är ett jokertecken som gör det möjligt att beräkna olika värden beroende på vilket objekt som formuläret är kopplat till. Vi lade till jokertecknet den 24 mars.
+>* För avsnittsbrytningar i anpassade formulär har vi skapat en uppsättning gemensamma visnings- och redigeringsbehörigheter som fungerar för alla objekttyper som du kan konfigurera för ett formulär. I ett scenario har vi funnit att en av dessa behörigheter, Begränsad redigering, kan orsaka fel i ett formulär. Den här lagades den 24 mars.
 >
 
 ## Katalogen med utkast är tillgänglig för alla användare, och administratörer kan tillåta förfrågningar
 
-Alla Adobe Workfront-användare kan nu bläddra i katalogen med tillgängliga ritningar. Mer information finns i [Bläddra i katalogen med ritningar och begär installation av ritningar](../../../administration-and-setup/blueprints/browse-catalog.md).
+Alla Adobe Workfront-användare kan nu bläddra i katalogen med tillgängliga ritningar. Mer information finns i [Bläddra i katalogen med utkast och begära installation av utkast](../../../administration-and-setup/blueprints/browse-catalog.md).
 
 Dessutom kan systemadministratören ge användare åtkomst att begära installation av ritningar. Om du tilldelar en begärandekö för att lagra begäranden kan användarna göra förfrågningar från katalogen med utkast. Mer information finns i [Konfigurera åtkomst till ritningar](../../../administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
@@ -60,11 +58,10 @@ Tidigare var anpassade formulär helt textbaserade.
 >
 >I de nya Adobe Workfront-upplevelseområdena som ännu inte har moderniserats, till exempel den ruta som visas när du redigerar objekt i grupp, visas inte anpassade formulärbilder. De visas allt eftersom vi fortsätter att uppdatera dessa områden.
 
-Mer information finns i [Lägga till eller redigera en resurswidget i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Nya standardkonfigurationer för åtkomstnivå
 
-För att bättre passa behoven hos de flesta administratörer som skapar nya åtkomstnivåer har vi ändrat standardkonfigurationen för alternativen&quot;Finjustera dina inställningar&quot; nedan. Dessa visas när du klickar på kugghjulsikonen ![](assets/gear-icon-in-access-levels.png) på knappen Redigera.
+För att bättre passa behoven hos de flesta administratörer som skapar nya åtkomstnivåer har vi ändrat standardkonfigurationen för alternativen&quot;Finjustera dina inställningar&quot; nedan. Dessa visas när du klickar på kugghjulsikonen ![](assets/gear-icon-in-access-levels.png) på en redigeringsknapp.
 
 Alla dessa ändringar inaktiverar ett alternativ som tidigare var aktiverat som standard. Om detta inte passar organisationens behov kan du aktivera dem när du skapar en ny åtkomstnivå eller när som helst senare.
 

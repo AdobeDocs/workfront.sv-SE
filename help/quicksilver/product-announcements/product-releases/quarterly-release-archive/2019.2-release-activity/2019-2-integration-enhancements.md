@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla integrerings- och mobilförbättringar som ingår i version 2019.2. Funktionen planeras bli tillgänglig i produktionsmiljön den 20 maj 2019.
 
-En lista över alla ändringar som gjorts under 2019.2 finns på [Översikt över versionsaktivitet 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.2 finns i [2019.2 Release Activity Overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Förbättringar av Workfront för Microsoft Teams
 

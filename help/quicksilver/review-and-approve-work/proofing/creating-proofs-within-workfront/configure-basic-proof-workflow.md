@@ -34,7 +34,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>
    <p>Nytt: Alla</p>
     <p>Aktuell plan: Pro eller högre</p>
-   <p>Äldre plan: Välj eller högre</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <p>Äldre plan: Välj eller högre</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -53,22 +53,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill veta vilken plan, roll eller behörighetsprofil du har.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 +++
 
 ## Skapa ett avancerat korrektur med ett grundläggande arbetsflöde
 
-1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på **Dokument** -fliken.
-1. Klicka **Lägg till ny** > Korrektur, ladda upp innehållet och gå igenom avsnitten nedan.
+1. Gå till projektet, aktiviteten eller utgåvan där du vill ha korrekturet och klicka sedan på fliken **Dokument** .
+1. Klicka på **Lägg till nytt** > Korrektur, ladda upp innehållet och arbeta sedan igenom avsnitten nedan.
 
    eller
 
-   Håll pekaren över ett befintligt dokument och klicka sedan på **Skapa korrektur** > **Avancerat korrektur** och arbeta igenom avsnitten nedan.
+   Håll muspekaren över ett befintligt dokument, klicka på **Skapa korrektur** > **Avancerat korrektur** och gå igenom avsnitten nedan.
 
 ## Konfigurera arbetsflödet och lägga till granskare
 
-1. Välj **Grundläggande**.
+1. Välj **Grundläggande** i avsnittet Arbetsflödestyp.
 1. Ange vilka användare du vill lägga till och välj sedan en korrekturroll.
 
    ![](assets/new-proof---roles-350x213.png)
@@ -93,8 +93,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <thead> 
      <tr> 
       <th> <p> </p> </th> 
-      <th> <p><strong>Visa ett korrektur</strong> </p> </th> 
-      <th> <p><strong>Lägga till markeringar</strong> </p> </th> 
+      <th> <p><strong>Visa ett bevis</strong> </p> </th> 
+      <th> <p><strong>Lägg till markeringar</strong> </p> </th> 
       <th> <p><strong>Lägg till kommentarer</strong> </p> </th> 
       <th> <p><strong>Redigera egna kommentarer om det inte finns några svar</strong> </p> </th> 
       <th> <p><strong>Fatta ett beslut</strong> </p> </th> 
@@ -174,7 +174,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td> </td> 
      </tr> 
      <tr> 
-      <td> <p><strong>Upphovsman</strong> </p> </td> 
+      <td> <p><strong>Författare</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -219,19 +219,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader">Lösa kommentarer och tillämpa åtgärder </td> 
       <td> <p>Gör att Workfront-användaren kan göra följande:</p> 
        <ul> 
-        <li>Lös en kommentar efter att den har adresserats, vilket förklaras i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Lös korrekturkommentarer</a>.</li> 
-        <li>Tillämpa åtgärder på kommentarer, vilket förklaras i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Använda funktionsmakron för korrekturkommentarer</a>. </li> 
+        <li>Lös en kommentar när den har adresserats, vilket förklaras i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md" class="MCXref xref">Lös korrekturkommentarer</a>.</li> 
+        <li>Tillämpa åtgärder på kommentarer enligt beskrivningen i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Använd åtgärder på korrekturkommentarer</a>. </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dela korrektur genom att tagga</td> 
-      <td> <p>Låter granskaren lägga till valfri Workfront-användare i korrekturet enligt anvisningarna i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tagga användare för att dela ett korrektur</a>.</p> <p>Obs!  <p>Om de här två alternativen inte är tillgängliga (nedtonade) har användaren redan en behörighetsprofil som gör det möjligt att lösa kommentarer, tillämpa åtgärder på kommentarer och tagga användare. </p> <p>Om alternativen inte visas är den person du har lagt till inte licensinnehavare för Workfront.</p> </p> </td> 
+      <td> <p>Låter granskaren lägga till valfri Workfront-användare i korrekturet enligt beskrivningen i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tagga användare för att dela ett korrektur</a>.</p> <p>Obs!  <p>Om de här två alternativen inte är tillgängliga (nedtonade) har användaren redan en behörighetsprofil som gör det möjligt att lösa kommentarer, tillämpa åtgärder på kommentarer och tagga användare. </p> <p>Om alternativen inte visas är den person du har lagt till inte licensinnehavare för Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Upprepa steg 1-3 för alla andra användare som du har lagt till i korrekturet.
-1. För varje användare som du delar med finns följande i **E-postaviseringar** väljer du vilken typ av e-postaviseringar som användaren får när han/hon gör kommentarer och fattar beslut om korrekturet:
+1. För varje användare som du delar med väljer du i den nedrullningsbara listan **E-postaviseringar** vilken typ av e-postaviseringar som användaren får när han/hon gör kommentarer och fattar beslut om korrekturet:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -259,11 +259,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Daglig sammanfattning</td> 
-      <td>Workfront skickar ett e-postmeddelande med alla kommentarer, svar och beslut listade endast dagar när det finns någon aktivitet utöver din egen.<p>Den här varningen är ett bra sätt att se en sammanfattning av projektet utan att behöva överbelastas med flera uppdateringar under dagen.</p><p>Ett exempel på hur den här sammanfattningen används är en avdelningsledare som vill övervaka projektets övergripande förlopp.</p><p>Mer information finns i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Hantera meddelanden för korrekturkommentarer och beslut</a>.</p></td> 
+      <td>Workfront skickar ett e-postmeddelande med alla kommentarer, svar och beslut listade endast dagar när det finns någon aktivitet utöver din egen.<p>Den här varningen är ett bra sätt att se en sammanfattning av projektet utan att behöva överbelastas med flera uppdateringar under dagen.</p><p>Ett exempel på hur den här sammanfattningen används är en avdelningsledare som vill övervaka projektets övergripande förlopp.</p><p>Mer information finns i <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Hantera meddelanden om korrekturkommentarer och beslut</a>.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Ingen e-post</td> 
-      <td>Workfront skickar inga e-postaviseringar.<br>Detta är användbart för en person som endast läggs till i ett korrektur för referens och som inte behöver underrättas om några ändringar.<p>Systemets standardvärde är Daglig sammanfattning (visas också som Inte angivet). Om du eller dina granskare inte gör några andra ändringar har alla dina korrektur den här inställningen.</p></td> 
+      <td>Workfront skickar inga e-postaviseringar.<br>Det här är användbart för en person som bara läggs till i ett korrektur för referens och som inte behöver informeras om några ändringar.<p>Systemets standardvärde är Daglig sammanfattning (visas också som Inte angivet). Om du eller dina granskare inte gör några andra ändringar har alla dina korrektur den här inställningen.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -272,13 +272,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera e-postinställningar för korrekturet {#configure-email-settings-for-the-proof}
 
-1. I **E-postmeddelande** väljer du om du vill skicka e-postmeddelanden och ett anpassat meddelande till de användare som du markerade i [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](#workflow) tidigare i den här artikeln:
+1. I avsnittet **E-postmeddelande** väljer du om du vill skicka e-postmeddelanden och ett anpassat meddelande till de användare du valde i [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](#workflow) tidigare i den här artikeln:
 
    <table>
    <tbody>
    <tr>
    <td>Meddela mottagarna om det här beviset</td>
-   <td>Välj det här alternativet om du vill skicka ett e-postmeddelande till användarna. När <strong>Grundläggande delning</strong> är markerat i <strong>Arbetsflöde</strong> skickas ett e-postmeddelande när korrekturet skapas. När <strong>Automatiserat arbetsflöde</strong> är markerat i <strong>Arbetsflöde</strong> skickas ett e-postmeddelande när korrekturet kommer in i det automatiserade arbetsflöde som användaren är kopplad till.</td>
+   <td>Välj det här alternativet om du vill skicka ett e-postmeddelande till användarna. När <strong>Grundläggande delning</strong> har valts i avsnittet <strong>Arbetsflöde</strong> skickas ett e-postmeddelande när korrekturet skapas. När <strong>Automatiskt arbetsflöde</strong> har valts i avsnittet <strong>Arbetsflöde</strong> skickas ett e-postmeddelande när korrekturet kommer in i det automatiserade arbetsflöde som användaren är kopplad till.</td>
    </tr>
    <tr>
    <td>Lägg till anpassat meddelande</td>
@@ -292,7 +292,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera korrekturinställningar {#configure-proof-settings}
 
-1. I **Korrekturinställningar** väljer du något av följande alternativ:
+1. Välj något av följande alternativ i avsnittet **Korrekturinställningar**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -321,7 +321,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Hämta originalfil</td> 
-      <td>När det här alternativet är markerat kan granskarna hämta originalfilen som korrekturet skapades från.<br>När det här alternativet är avmarkerat visas inte längre ikonen Hämta.<br>Det här alternativet är aktiverat som standard.</td> 
+      <td>När det här alternativet är markerat kan granskarna hämta originalfilen som korrekturet skapades från.<br>När det här alternativet är avmarkerat visas inte längre hämtningsikonen.<br>Det här alternativet är aktiverat som standard.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dela korrektur via offentlig URL eller inbäddningskod</td> 
@@ -331,21 +331,21 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td role="rowheader">Prenumerera på korrektur via offentlig URL eller inbäddningskod</td> 
       <td>När det här alternativet är markerat kan personer som inte har lagts till explicit i korrekturet prenumerera på korrekturet. Den person som prenumererar på beviset får rollen och e-postadressen som du anger i följande inställningar:
        <ul>
-        <li><strong>Abonnentroll:</strong> Standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet. </li>
-        <li><strong>Inställningar för e-postavisering för prenumeranter:</strong> Standardvarningsmeddelandet som tilldelas alla granskare som prenumererar på korrekturet.</li>
+        <li><strong>Prenumerantroll:</strong> Standardkorrekturrollen som tilldelas alla granskare som prenumererar på korrekturet. </li>
+        <li><strong>E-postaviseringsinställningar för prenumeranter:</strong> Standardaviseringen för e-post som tilldelas alla granskare som prenumererar på korrekturet.</li>
        </ul><p>
         <ul>
-         <li><strong>Åtkomstbevis via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till beviset. Du kan välja <strong>Ingen e-post</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>E-post med korrektur</strong> (prenumeranten får en länk till beviset via e-post utan verifiering) eller <strong>E-postmeddelanden om validering och korrektur</strong> (prenumeranten får en länk till beviset via e-post och måste klicka på länken för att få tillgång till ett bevis. Syftet med det här alternativet är att se till att personen har angett en korrekt e-postadress som han/hon har tillgång till).</li>
-        </ul><p>Obs! Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägarna, så att de kan bestämma i vilken fas personen ska läggas till.<br></p></p></td> 
+         <li><strong>Åtkomst via e-postlänk krävs för:</strong> Konfigurera om prenumeranten får ett e-postmeddelande med en länk till korrekturet. Du kan välja <strong>Inget e-postmeddelande</strong> (e-postlänk krävs inte för att få åtkomst till korrekturet), <strong>E-postmeddelande för korrektur endast</strong> (prenumeranten får en länk till korrekturet via e-post utan någon verifiering) eller <strong>E-postmeddelanden för validering och korrekturet </strong> (prenumeranten får en länk till korrekturet och måste klicka på ett bevis. Syftet med det här alternativet är att se till personen har angett korrekt e-postadress som de har tillgång till).</li>
+        </ul><p>Obs!  Om korrekturet har ett automatiserat arbetsflöde bifogat, kommer alla prenumerationer att generera bekräftelsemeddelanden till korrekturägarna, så att de kan bestämma i vilken fas personen ska läggas till.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **Skapa korrektur**.
+1. Klicka på **Skapa bevis**.
 
    Workfront börjar generera ett korrektur av de valda dokumenten eller webbplatserna. Beroende på filstorlek och typ kan fördröjningen för en dokumentöverföring variera. Ha tålamod när större filer tar längre tid att generera. Du kan navigera bort från sidan och Workfront fortsätter att generera filen. Den maximala filöverföringsstorleken är 4 GB.
 
-1. När korrekturet har skapats klickar du på **Öppna korrektur** för att starta korrekturläsaren.
+1. När korrekturet har skapats klickar du på **Öppna korrektur** för att starta korrekturläsaren.
 
    ![](assets/open-proof-350x132.png)
 

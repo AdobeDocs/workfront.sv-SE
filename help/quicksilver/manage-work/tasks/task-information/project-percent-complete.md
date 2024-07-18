@@ -40,7 +40,7 @@ Du kan ändra procentandelen färdigt för en uppgift manuellt. Detta är inte e
 
 Workfront använder procentandelen färdigt för en enskild uppgift för att beräkna procentandelen färdigt för den överordnade uppgiften eller procentandelen färdigt för projektet.
 
-Mer information om hur du uppdaterar procentandelen färdigt för en uppgift finns i [Visa och uppdatera Procent färdigt för uppgifter](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
+Mer information om hur du uppdaterar procentandelen färdigt för en aktivitet finns i [Visa och uppdatera procent färdigt för aktiviteter](../../../manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md).
 
 ### Hur Workfront beräknar Procent färdigt för en överordnad uppgift {#how-workfront-calculates-percent-complete-on-a-parent-task}
 

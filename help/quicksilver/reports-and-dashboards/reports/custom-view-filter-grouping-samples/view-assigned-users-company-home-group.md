@@ -9,12 +9,12 @@ feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '426'
 ht-degree: 0%
 
 ---
 
-# Visa: tilldelad användares företag och hemgrupp
+# Visa: den tilldelade användarens företag och hemgrupp
 
 Den här uppgiftsvyn visar företag och hemgrupp för uppgiftens primära ägare. Dessa är värden som inte är tillgängliga i standardgränssnittet, men som är tillgängliga via textläge.
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -55,12 +55,12 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 ## Visa den tilldelade användarens företag och hemgrupp
 
 1. Gå till en lista med uppgifter.
-1. Från **Visa** nedrullningsbar meny, välja **Ny vy**.
+1. Välj **Ny vy** i listrutan **Visa**.
 
-1. I **Förhandsgranska kolumn** -område, ta bort alla kolumner utom en.
+1. Ta bort alla kolumner utom en i området **Förhandsvisa kolumn**.
 1. Klicka på rubriken för den återstående kolumnen och klicka sedan på **Växla till textläge**.
-1. För musen över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
-   <pre>column.0.descriptionkey=name<br> column.0.link.linkproperty.0.name=ID<br> column.0.link.linkproperty.0.valuefield=ID<br> column.0.link.linkproperty.0.valueformat=int<br> column.0.link.lookup=link.view<br> column.0.link.valuefield=objCode<br> column.0.link.valueFormat=val<br> column.0.linkedname=direct<br> column.0.listsort=string(name)<br> column.0.namekey=name.abbr<br> column.0.querysort=name<br> column.0.shortview=false<br> column.0.stretch=100<br> column.0.valuefield=name<br> column.0.valueformat=HTML<br> column.0.width=150<br> column.1.descriptionkey=tilldelad till<br> column.1.link.linkproperty.0.name=ID<br> column.1.link.linkproperty.0.valuefield=assignTo:ID<br> column.1.link.linkproperty.0.valueformat=int<br> column.1.link.lookup=link.view<br> column.1.link.valueField=assignTo:objCode<br> column.1.link.valueFormat=val<br> column.1.linkedname=assignTo<br> column.1.listsort=nested(assignTo).string(name)<br> column.1.namekey=tilldelad till<br> column.1.querysort=assignTo:name<br> column.1.shortview=false<br> column.1.stretch=0<br> column.1.valuefield=assignTo:name<br> column.1.valueformat=HTML<br> column.1.width=150<br> column.2.description=Tilldelad till företag<br> column.2.displayName=Assignated To Company<br> column.2.linkedname=assignTo:company<br> column.2.listsort=nested(assignTo:company).string(name)<br> column.2.namekey=tilldelad till<br> column.2.querysort=assignTo:company:name<br> column.2.shortview=false<br> column.2.stretch=0<br> column.2.valuefield=assignTo:company:name<br> column.2.valueformat=HTML<br> column.2.width=150<br> column.3.description=Tilldelad till hemgrupp<br> column.3.displayName=Tilldelad till hemgrupp<br> column.3.linkedname=assignTo:homeGroup<br> column.3.listsort=nested(assignTo:homeGroup).string(name)<br> column.3.namekey=tilldelad till<br> column.3.querysort=assignTo:homeGroup:name<br> column.3.shortview=false<br> column.3.stretch=0<br> column.3.valuefield=assignTo:homeGroup:name<br> column.3.valueformat=HTML<br> column.3.width=150</pre>
+1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
+   <pre>column.0.descriptionkey=name<br> column.0.link.linkproperty.0.name=ID<br> column.0.link.link.property.0.valuefield=ID<br> column.0.link.linkproperty.0.valueformat=int<br> column.0.link.lookup=link.view<br> column.0.link.valuefield=objCode<br> column.0.link.valueFormat=val<br> column.0.linkedname=direct<br> column.0.listsort=string(name)<br> column.0.namekey=name.abbr<br> column.0.querysort=name<br> column.0.shortview=false<br> column.0.stretch=100<br> column.0.valuefield=name<br> column.0.valueformat=HTML<br> column.0.width=150<br> column.1.descriptionkey=assignerad till<br> column.1.link.linkproperty.0.name=ID<br> column.1.link.linkproperty.0.valuefield=assignTo:ID<br> column.1.link.linkproperty.0.valueformat=int<br> column.1.link.lookup=link.view<br> column.1.link.valuefield=assignTo:objCode<br> column.1.link.valueFormat=val<br> column.1.linkedname=assignTo<br> column.1.listsort=nested(assignTo).string(name)<br> column.1.namekey=assignedto<br> column.1.querysort=assignTo:name<br> column.1.shortview=false<br> column.1.stretch=0<br> column.1.valuefield=assignTo:name{name 29} column.1.valueformat=HTML<br> column.1.width=150<br> column.2.description=Assigned To Company<br> column.2.displayname=Assigned To Company<br> column.2.linkedname=assignTo:company<br> column.2.listsort=nested(assignTo:company).string(name)<br> column.2.namekey=assignedto<br> column.2.querysort=assignTo:company:name<br> column.2.shortview=false<br> column.2.stretch=0<br> column.2.valuefield=assignTo:company:name<br> column .2.valueFormat=HTML<br> column.2.width=150<br> column.3.description=Assigned To Home Group<br> column.3.displayname=Assigned To Home Group<br> column.3.linkedname=assignTo:homeGroup<br> column.3.listsort=nested(assignTo:homeTo Group).string(name)<br> column.3.namekey=assignedto<br> column.3.querysort=assignTo:homeGroup:name<br> column.3.shortview=false<br> column.3.stretch=0<br> column.3.valuefield=assignTo:homeGroup:name<br> column.3.valueformat=HTML<br> column.3.width=150<br></pre>
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

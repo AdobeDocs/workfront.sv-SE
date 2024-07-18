@@ -101,13 +101,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Att tänka på när du uppdaterar arbete
 
-* Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+* Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visar uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 * Du kan lägga till kommentarer till Workfront-objekt från andra program som är integrerade med Workfront eller från Workfront mobilapp.
 
@@ -121,7 +121,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
   >[!TIP]
   >
-  >Kommentarägare taggas automatiskt. Mer information finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+  >Kommentarägare taggas automatiskt. Mer information finns i [Tagga andra om uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 
 * Du kan lägga till en kommentar i ett objekt som du kan visa, eller så kan du logga in som Workfront- eller gruppadministratör och lägga till en kommentar för en annan användares räkning. Mer information finns i [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
@@ -232,8 +232,8 @@ You can add updates to the following objects:
 I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter och problem. Det liknar att uppdatera de flesta andra objekt.
 
 1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
-1. Klicka  **Uppdateringar** till vänster.
-The **Kommentar** -fliken är markerad som standard.
+1. Klicka på **Uppdateringar** i den vänstra panelen.
+Fliken **Kommentarer** är markerad som standard.
 
    <!--
    1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
@@ -245,7 +245,7 @@ The **Kommentar** -fliken är markerad som standard.
          ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
    -->
 
-1. Börja skriva en kommentar i **Ny kommentar** box.
+1. Börja skriva en kommentar i rutan **Ny kommentar**.
 
    ![Ny kommentarruta](assets/comment-box-all-tabs.png)
 
@@ -257,8 +257,8 @@ The **Kommentar** -fliken är markerad som standard.
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
 
-1. (Valfritt) I dialogrutan **Tagga personer eller team** börjar du skriva namnet på eller e-postadressen till en användare, eller ett team som du vill inkludera i kommentaren, och markerar det sedan när det visas i listan.
-1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
+1. (Valfritt) I området **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet [Använd RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    >[!TIP]
    >
@@ -269,8 +269,8 @@ The **Kommentar** -fliken är markerad som standard.
    >Indikatorn&quot;Nytt&quot; visas bara när både användaren som angav en ny uppdatering och användaren som håller på att uppdatera använder den nya kommentarfunktionen.
    >![](assets/real-time-new-red-indicator-unified-commenting.png)
 
-1. Klicka **Skicka** för att lägga till uppdateringen i Workfront-objektet.
-1. (Valfritt) Om du vill redigera en kommentar klickar du på **Mer** meny ![](assets/more-menu.png) i kommentarens övre högra hörn och klicka sedan på **Redigera**.
+1. Klicka på **Skicka** för att lägga till uppdateringen till Workfront-objektet.
+1. (Valfritt) Om du vill redigera en kommentar klickar du på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och sedan på **Redigera**.
 
    >[!IMPORTANT]
    >
@@ -290,15 +290,15 @@ The **Kommentar** -fliken är markerad som standard.
    >* Datumstämpeln bredvid kommentaren är datumet för den ursprungliga kommentaren, inte datumet för den senaste redigeringen.
    >* När du lägger till en kommentar för en annan användares räkning (när du loggar in som en annan användare som Workfront- eller gruppadministratör) kan du inte redigera kommentaren om du är inloggad som den andra användaren. Du kan bara redigera kommentaren efter att du har loggat ut som användare och loggat in som du själv.
 
-1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i **Lägg till svar ...** för att svara på en befintlig kommentar, följ sedan stegen 3-7 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i området **Lägg till svar ...** för att svara på en befintlig kommentar och följ sedan stegen 3-7 ovan. <!--(**************insure this stays accurate***********)--> Mer information om hur du svarar på en uppdatering finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet medan du lade till dina kommentarer, klickar du på **Visa** inuti den blå **banner för nya kommentarer** längst ned på skärmen för att visa dessa kommentarer.
+1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet medan du lade till dina kommentarer, klickar du på **Visa** i den blå **nya kommentarsbanderollen** längst ned på skärmen för att visa dessa kommentarer.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Ytterligare kommentarer visas längst ned på skärmen.
 
-1. (Valfritt) Klicka på **Gilla** icon![](assets/like-icon.png). Ikonen uppdateras med antalet gilla-markeringar.
+1. (Valfritt) Klicka på ikonen **Gilla**![](assets/like-icon.png) . Ikonen uppdateras med antalet gilla-markeringar.
 1. (Villkorligt och valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på antalet medlemmar som ingår i uppdateringen för att visa en lista över entiteter som kommentaren du angav delas med.
 
    ![](assets/members-icons-expanded-unshimmed.png)
@@ -308,7 +308,7 @@ The **Kommentar** -fliken är markerad som standard.
    >Namnen på de två första taggade enheterna visas bredvid deras avatarer. Om fler än två enheter är taggade visas bara namnet på den första och antalet ytterligare enheter.
 
 1. (Valfritt) Klicka på en kommenterares namn för att se deras namn, roll och e-postadress i en informationsruta. Klicka på kommentarens namn igen i informationsrutan för att öppna användarprofilen.
-1. (Valfritt) Klicka på **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När objektet eller något av dess underordnade objekt uppdateras, genererar Workfront en anteckning om den uppdateringen och visar den på fliken Systemaktivitet.
+1. (Valfritt) Klicka på fliken **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När objektet eller något av dess underordnade objekt uppdateras, genererar Workfront en anteckning om den uppdateringen och visar den på fliken Systemaktivitet.
 
    Mer information finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -316,22 +316,22 @@ The **Kommentar** -fliken är markerad som standard.
    >
    >Du kan inte lägga till en kommentar i en systemuppdatering. Alla svar som gjordes på systemaktivitetsposter i den tidigare kommentarsfunktionen lades dock till i fliken Systemaktivitet som skrivskyddade. De gamla kommentarerna togs bort från Workfront den 11 april 2024.
 
-1. (Valfritt) Klicka på **Alla** om du vill visa både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning.
+1. (Valfritt) Klicka på fliken **Alla** om du vill visa både användarkommentarer och systemaktivitetskommentarer på ett och samma ställe. Det här är en flik som bara är för visning.
 
    >[!TIP]
    >
-   >Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en kommentar på fliken Alla klickar du **Svara i kommentarer** om du vill öppna kommentaren på fliken Kommentarer.
+   >Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en kommentar på fliken Alla klickar du på **Svara i kommentarer** för att öppna kommentaren på fliken Kommentarer.
 
 ## Använda RTF i en Workfront-uppdatering{#use-rich-text-in-a-workfront-update}
 
 Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till olika objekt i den, som känslolägesikoner, länkar eller bilder.
 
-1. Gå till **Uppdateringar** i ett Workfront-objekt och börja skriva en kommentar.
-1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du attribut på **RTF** när du skriver.
+1. Gå till området **Uppdateringar** för ett Workfront-objekt och börja skriva en kommentar.
+1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du alla attribut i verktygsfältet **RTF** när du skriver.
 
    ![](assets/rich-text-toolbar.png)
 
-   | **Attribut** | **Knappen Verktygsfält** | **Mac kortkommandon** | **Kortkommandon i Windows** |
+   | **Attribut** | **Verktygsfältsknapp** | **Mac kortkommandon** | **Windows-kortkommandon** |
    |---|---|---|---|
    | Fet | ![](assets/mceclip10.png) | Jesse+b | Ctrl+B |
    | Kursiv | ![mceclip9.png](assets/mceclip9.png) | Jesse+i | Ctrl+I |
@@ -343,7 +343,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
    <!--remove the last row when we remove legacy from the system-->
 
-   Om du vill avbryta formateringen av text avmarkerar du attributet på **RTF** verktygsfält.
+   Om du vill avbryta textformateringen avmarkerar du attributet i verktygsfältet **RTF** .
 
 
    <!-- in the table above: take "Create Links" verbiage from the hyperlink when the old commenting is removed and the commenting beta is the only way to comment - with October 2023-->
@@ -361,7 +361,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. (Valfritt) Klicka på **emoji** icon ![](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
+1. (Valfritt) Klicka på ikonen **emoji** ![](assets/emoji-icon.png) för att lägga till känslolägesikoner i uppdateringen.
 
    >[!NOTE]
    >
@@ -375,18 +375,18 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 1. (Valfritt) Så här lägger du till en URL-länk till ytterligare informationskällor:
 
    1. Klicka i uppdateringen där du vill infoga en länk.
-   1. På **RTF** klickar du på **Hyperlänk** icon ![](assets/link-icon.png).
+   1. Klicka på ikonen **Hyperlänk** ![](assets/link-icon.png) i verktygsfältet **RTF** .
 
-   1. I **Skapa länk** ruta som visas, under **URL** skriver eller klistrar du in URL-adressen för den källa som du vill länka till.
+   1. I rutan **Skapa länk** som visas, under **URL**, skriver eller klistrar du in URL:en för den källa som du vill länka till.
 
-   1. Under **Text som ska visas** skriver du eller klistrar in länktexten.
-   1. Klicka **Spara**.
+   1. Skriv eller klistra in länktexten under **Text som ska visas**.
+   1. Klicka på **Spara**.
 
 1. (Valfritt) Gör något av följande om du vill bifoga en bild till uppdateringen:
 
    * Spara bilden på datorn och dra och släpp den i området Ny kommentar.
    * Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren.<!-- This is not available in the legacy commenting experience.-->
-   * Klicka på **Lägg till bild** icon ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
+   * Klicka på ikonen **Lägg till bild** ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
 
 
    >[!NOTE]
@@ -407,17 +407,17 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 
 1. (Valfritt) Gör något av följande om du vill visa en bild i den befintliga uppdateringen:
 
-   * Klicka på **Förhandsgranska** icon ![](assets/previewimageicon-31x31.png) på miniatyrbilden för att öppna bilden i full storlek på en ny flik i webbläsaren.
-   * Klicka på **Ladda ned** icon ![](assets/downloadimageicon.png) på miniatyrbilden för att hämta bilden.
+   * Klicka på ikonen **Förhandsgranska** ![](assets/previewimageicon-31x31.png) på miniatyrbilden av bilden om du vill öppna bilden i full storlek på en ny flik i webbläsaren.
+   * Klicka på ikonen **Hämta** ![](assets/downloadimageicon.png) på miniatyrbilden för att hämta bilden.
 
-1. Klicka **Skicka** för att lägga till din kommentar.
+1. Klicka på **Skicka** för att lägga till din kommentar.
 
 ## Söka efter en uppdatering
 
 Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett objekt.
 
-1. Gå till **Uppdateringar** del av ett objekt.
-1. Börja skriva ett nyckelord <!--or a user's name --> i **Sök** i det övre högra hörnet av **Kommentar** -fliken.
+1. Gå till avsnittet **Uppdateringar** för ett objekt.
+1. Börja skriva ett nyckelord <!--or a user's name --> i rutan **Sök** i det övre högra hörnet av fliken **Kommentarer**.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 
@@ -427,11 +427,11 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
 
    ![Sök i uppdateringar](assets/updates-all-tabs-with-search-field.png)
 
-   Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller den visas högst upp i uppdateringsavsnittet.
+   Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller det visas högst upp i uppdateringsavsnittet.
 
    Workfront söker igenom hela objektets uppdateringsström, utanför kommentarerna som visas på skärmen.
 
-1. Klicka på **x** -ikonen i sökfältet för att rensa sökresultaten och återgå till alla kommentarer.
+1. Klicka på ikonen **x** i sökfältet för att rensa sökresultaten och återgå till alla kommentarer.
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
@@ -463,7 +463,7 @@ Alternativet Kopiera länk kopierar kommentaren eller länken till Urklipp så a
 
 1. Gå till den uppdatering vars länk du vill kopiera.
 
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera länk**.
+1. Klicka på menyn **Mer** och sedan på **Kopiera länk**.
 
 1. Klistra in länken som du kopierade i föregående steg i ett e-postmeddelande eller i ett annat program för att dela den med andra. Den delade länken öppnar kommentaren som du delade länken från.
 
@@ -478,14 +478,14 @@ Alternativet Kopiera länk kopierar kommentaren eller länken till Urklipp så a
 Alternativet Kopiera brödtext kopierar texten från en specifik uppdatering till Urklipp.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** menyn och klicka sedan på **Kopiera brödtext**.
+1. Klicka på menyn **Mer** och sedan på **Kopiera brödtext**.
 
 #### Offertsvar
 
 Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som en blockcitat.
 
 1. Gå till den uppdatering eller det svar som du vill kopiera.
-1. Klicka på **Mer** menyn och klicka sedan på **Offertsvar**.
+1. Klicka på menyn **Mer** och klicka sedan på **Offertsvar**.
 
    En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
 
@@ -561,15 +561,15 @@ Beroende på vilken åtkomst din Workfront-administratör ger kan du ta bort upp
 Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort uppdateringar som gjorts av en annan användare. Om en användares åtkomstnivå tillåter att användaren tar bort sina egna uppdateringar, kan Workfront-administratören logga in som den användaren och ta bort de uppdateringar han/hon har gjort. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) och [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Gå till den uppdatering eller det svar som du vill ta bort.
-1. Klicka på **Mer** -menyn bredvid den uppdatering eller det svar som du vill ta bort och klicka sedan på **Ta bort**.
+1. Klicka på menyn **Mer** bredvid den uppdatering eller det svar du vill ta bort och klicka sedan på **Ta bort**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. Klicka på **Ta bort**.
+1. Klicka på **Ta bort** i det meddelande som visas.
 
    >[!NOTE]
    >
-   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort. Mer information finns i [Använda RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
+   >Om du tar bort en uppdatering med en bifogad bild tas både kommentaren och bilden bort. Mer information finns i avsnittet [Använd RTF i en Workfront-uppdatering](#use-rich-text-in-a-workfront-update) i den här artikeln.
 
    När kommentaren som du tar bort har tillhörande svar, finns det en indikation på att kommentaren togs bort med namnet på den användare som tog bort den.
 
@@ -586,7 +586,7 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
 
   ![](assets/user-update-cl-350x277.png)
 
-* **Systemuppdateringar:** Systemet uppdaterar poster som tar bort uppgifter eller problem, lägger till eller tar bort dokumentversioner, bifogar eller tar bort en begäran om godkännande samt redigerar eller ändrar objektet. Systemuppdateringar visas på flikarna Systemaktivitet och Alla i uppdateringsavsnittet.
+* **Systemuppdateringar:** Systemet uppdaterar postborttagning av uppgifter eller problem, lägger till eller tar bort dokumentversioner, bifogar eller tar bort en godkännandebegäran samt redigeringar eller ändringar som gjorts i objektet. Systemuppdateringar visas på flikarna Systemaktivitet och Alla i uppdateringsavsnittet.
 
   ![](assets/system-updates-cl-350x277.png)
 
@@ -599,7 +599,7 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
    * Malluppgift
    * Ad hoc-kort
 
-Mer information om systemuppdateringar finns i avsnittet Uppdateringar. [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Mer information om systemuppdateringar i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--

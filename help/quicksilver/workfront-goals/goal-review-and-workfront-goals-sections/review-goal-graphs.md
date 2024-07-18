@@ -83,7 +83,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Typer av diagram i Workfront-mål
 
@@ -99,7 +99,7 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
     <ul> 
      <li>Ett totalt antal mål för den valda tidsperioden. Mål med valfri status beaktas. </li> 
      <li>Förloppsstatus för mål med statusen Aktiv och Stängd.</li> 
-    </ul> <p>Mer information om hur Workfront-mål beräknar förloppsstatus finns i <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Översikt över målets förlopp och villkor i Adobe Workfront-mål</a>.</p> </td> 
+    </ul> <p>Mer information om hur Workfront-mål beräknar förloppsstatus finns i <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Översikt över förloppet och villkoret i Adobe Workfront-mål</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Målförloppsdiagram</td> 
@@ -114,14 +114,14 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
 ## Granska målförloppet i diagram
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Detta öppnar området Workfront-mål.
 
-1. Klicka **Diagram** till vänster.
+1. Klicka på **Diagram** på den vänstra panelen.
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -173,12 +173,12 @@ Följande diagram är tillgängliga i diagramavsnittet eller Workfront-mål:
 
    * **Veckodatum**: Månad, dag och år för den valda veckan.
    * **Förlopp**: Ett genomsnitt av den faktiska procentandelen färdigt av alla mål för den valda veckan.
-   * **Baslinje**: Ett genomsnitt av den förväntade procentandelen färdigt av alla mål för den valda veckan.
+   * **Baslinje**: Ett genomsnitt av den förväntade procentandelen slutfört av alla mål för den valda veckan.
 
 1. (Valfritt) Klicka på **Förlopp** längst ned i förloppsdiagrammet för att ta bort den totala förloppslinjen
 
    eller
 
-   Klicka **Baslinje** längst ned i förloppsdiagrammet för att ta bort den förväntade förloppet från diagrammet.
+   Klicka på **Baslinje** längst ned i förloppsdiagrammet för att ta bort den förväntade förloppet från diagrammet.
 
  

@@ -21,7 +21,7 @@ Resurspooler är användarsamlingar som hjälper dig att hantera resurser i Adob
 I följande artiklar beskrivs funktionen när du använder resurspooler för att hantera projekt i Adobe Workfront.
 
 * [Översikt över resurspooler](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-* [Skapa resursgrupper](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Skapa resurspooler](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [Associera resurspooler med projekt och mallar](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
 * [Associera resurspooler med användare](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
 * [Ta bort användare från resurspooler](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)

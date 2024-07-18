@@ -6,9 +6,9 @@ description: Koppla samman materialet med innehållet i Experience Manager Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -55,9 +55,9 @@ Du måste ha följande:
    </td>
   </tr>
   <tr>
-   <td><strong>Konfigurationer på åtkomstnivå</strong>
+   <td><strong>Åtkomstnivåkonfigurationer</strong>
    </td>
-   <td>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <strong>Bevilja användaren fullständig administrativ åtkomst</strong>.
+   <td>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <strong>Bevilja en användare fullständig administrativ åtkomst</strong>.
    </td>
   </tr>
 </table>
@@ -68,8 +68,8 @@ Du måste ha följande:
 
 ## Konfigurera integreringen
 
-1. Klicka på **Huvudmeny** i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar**.
-1. Välj  **Dokument** ![dokument, ikon](assets/document-icon.png) i den vänstra panelen väljer **Integrering med Experience Manager**.
+1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera**.
+1. Välj **Dokument** ![Dokument-ikon](assets/document-icon.png) i den vänstra panelen och välj sedan **Experience Manager-integrering**.
 1. Välj **Lägg till integrering med Experience Manager**.
 1. Ange följande:
 
@@ -96,7 +96,7 @@ Du måste ha följande:
    </tr>
    </table>
 
-1. Klicka **Spara** eller gå vidare till [Konfigurera metadata (valfritt)](#set-up-metadata-optional) i den här artikeln.
+1. Klicka på **Spara** eller gå vidare till avsnittet [Konfigurera metadata (valfritt)](#set-up-metadata-optional) i den här artikeln.
 
 
 ## Konfigurera metadata (valfritt)
@@ -108,8 +108,8 @@ Mappa Workfront-objektdata till mediefält i Experience Manager Assets. Metadata
 
 Innan du börjar måste du
 
-* Konfigurera ett metadataschema i Experience Manager Assets Essentials enligt anvisningarna i [Konfigurera metadatamappning mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-* (Valfritt) Konfigurera anpassade formulärfält i Workfront. Workfront har många anpassade fält som du kan använda. Du kan dock även skapa egna anpassade fält. Mer information finns i [Skapa eller redigera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+* Konfigurera ett metadataschema i Experience Manager Assets Essentials enligt beskrivningen i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+* (Valfritt) Konfigurera anpassade formulärfält i Workfront. Workfront har många anpassade fält som du kan använda. Du kan dock även skapa egna anpassade fält. Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Workfront- och Experience Manager Assets-fält som stöds
 
@@ -117,9 +117,9 @@ Innan du börjar måste du
 
 Du kan mappa ett fält som stöds av Workfront till ett nyckelord i Experience Manager Assets Essentials.
 
-Om du vill länka ett fält till ett nyckelord väljer du `xcm:keywords` i listrutan för Experience Manager Assets i metadatamappningsområdet.
+Om du vill länka ett fält till ett nyckelord väljer du `xcm:keywords` i listrutan Experience Manager Assets i metadatamappningsområdet.
 
-Om du vill mappa flera enkelradiga textfält till nyckelord anger du en kommaseparerad lista över nyckelordsvärden på Workfront-sidan av metadatamappningen. `xcm:keywords` på Experience Manager Assets sida. Varje fältvärde kopplas till ett separat nyckelord. Du kan använda ett beräkningsfält för att kombinera flera Workfront-fält till ett enda kommaseparerat textfält.
+Om du vill mappa flera enkelradiga textfält till nyckelord anger du en kommaseparerad lista över nyckelordsvärden i Workfront-sidan av metadatamappningen och `xcm:keywords` på Experience Manager Assets-sidan. Varje fältvärde kopplas till ett separat nyckelord. Du kan använda ett beräkningsfält för att kombinera flera Workfront-fält till ett enda kommaseparerat textfält.
 
 <!--
 Look for essentials article
@@ -129,20 +129,20 @@ For more information on keywords in Experience Manager Assets, including how to 
 +++
 
 
-### Resurser
+### Assets
 
 Metadata mappas när en resurs överförs från Workfront för första gången. Dokument med inbyggda eller anpassade fält mappas automatiskt till de angivna fälten första gången en resurs skickas till Experience Manager Assets Essentials.
 
-1. I **Workfront** väljer du ett inbyggt eller anpassat Workfront-fält.
+1. I kolumnen **Workfront fält** väljer du ett inbyggt eller anpassat Workfront-fält.
    >[!NOTE]
    >
    >Du kan mappa ett enstaka Workfront-fält till flera Experience Manager Assets-fält. Du kan inte mappa flera Workfront-fält till ett enda Experience Manager Assets-fält.
-1. I **Experience Manager** väljer du ett Experience Manager Assets-fält.
+1. I fältet **Experience Manager** väljer du ett Experience Manager Assets-fält.
 
    Om du vill mappa ett Workfront-fält till en Experience Manager Assets-tagg väljer du `xcm:keywords`.
 1. Upprepa steg 1 och 2 efter behov.
    ![aktivera metadata](assets/metadata-assets-essentials.png)
-1. Klicka **Spara** eller gå vidare till [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.
+1. Klicka på **Spara** eller gå vidare till avsnittet [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.
 
 
 ## Konfigurera länkade mappar (valfritt)

@@ -7,7 +7,7 @@ role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
 source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,30 +45,31 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa antalet licenser som används i en grupp
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på gruppens namn.
-1. På den sida som visas i sidhuvudsområdet i det övre högra hörnet visas **Licenser som används** område för att se antalet **Plan** och **Arbete** licenser som används för närvarande.
+1. På den sida som visas i sidhuvudet i det övre högra hörnet kan du visa området **Licenser som används** för att se antalet **Planera** och **Arbeta** licenser som används.
 
    Om du visar en grupp på den översta nivån och Workfront-administratören har definierat ett maximalt antal licenser för gruppen, visas även dessa siffror. I gruppen nedan kan till exempel högst 10 användare ha en planlicens och 15 kan ha en arbetslicens:
 
    ![](assets/licenses-used-allocated.png)
 
-   Mer information om hur en Workfront-administratör definierar ett maximalt antal tilldelade licenser för en grupp finns i avsnittet [Ange högsta antal licenser för en hemgrupp](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) i artikeln [Hantera tillgängliga licenser i ditt system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+   Mer information om hur en Workfront-administratör definierar ett maximalt antal tilldelade licenser för en grupp finns i avsnittet [Ange maximalt antal licenser för en hemgrupp](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) i artikeln [Hantera tillgängliga licenser i systemet](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
    >[!NOTE]
    >
    >Om gruppen du tittar på är en undergrupp kan du bara visa antalet licenser som används, inte det maximala antalet licenser som tilldelas för gruppen. Detta beror på att Workfront-administratörer inte har definierat ett högsta antal licenser för en undergrupp.
    >
    >![](assets/subgroup-used-licenses-only.png)
+   >
 
-1. Om du vill ha olika antal av varje licenstyp som används i gruppen (inklusive Granska och Begär) klickar du i textområdet direkt nedan **Licenser som används:**
+1. Om du vill ha olika antal av varje typ av licens som används i gruppen (inklusive granskning och begäran) klickar du i textområdet direkt under **Licenser som används:**
 
    ![](assets/click-text-to-see-more.png)
 
-   Den ruta som visas innehåller samma information för alla fyra licenstyperna i Workfront: Planera, arbeta, granska och begär. Längst ned i rutan visas det totala antalet licenser som används av medlemmar i den här gruppen eller en av dess undergrupper:
+   Den ruta som visas innehåller samma information för alla fyra Workfront-licenstyperna: Plan, Work, Review och Request. Längst ned i rutan visas det totala antalet licenser som används av medlemmar i den här gruppen eller en av dess undergrupper:
 
    ![](assets/more-license-info.png)
 

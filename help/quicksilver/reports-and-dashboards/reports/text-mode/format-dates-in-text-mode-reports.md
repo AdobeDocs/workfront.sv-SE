@@ -8,23 +8,23 @@ feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 1%
+source-wordcount: '198'
+ht-degree: 0%
 
 ---
 
 # Formatera datum i textlägesrapporter
 
-Datum kan konfigureras för visning i en mängd olika format i rapporter och listor i Adobe Workfront. Om du vill skapa ett datumformat måste du ändra `valueformat` raden i textlägeskoden i kolumnen.
+Datum kan konfigureras för visning i en mängd olika format i rapporter och listor i Adobe Workfront. Om du vill skapa ett datumformat måste du ändra raden `valueformat` i textlägeskoden i kolumnen.
 
-`valueformat= [new date format]` Om du t.ex. vill att det beräknade slutförandedatumet ska visas som MM/DD/ÅÅ ser koden ut så här:
+`valueformat= [new date format]` Om du till exempel vill att det beräknade slutförandedatumet ska visas som MM/DD/ÅÅ ser koden ut så här:
 
 ```
 valueformat=atDate
 valuefield=projectedCompletionDate
 ```
 
-Om du vill visa det planerade slutförandedatumet som *Mth, DD, Year* skulle koden se ut så här:
+Om du vill visa det planerade slutförandedatumet som *mån, DD, år* ser koden ut så här:
 
 ```
 valueformat=mediumAtdate
@@ -41,7 +41,7 @@ valueformat
 
  värden för textläge:
 
-| **Format** | Exempel  | ***valueFormat=*** |
+| **Format** | Exempel  | ***värdeformat=*** |
 |---|---|---|
 | MM/DD/YY | 10/11/18 | `atDate` |
 | MM/DD/YY-tid | 10/11/18 12:00 pm | `longAtDate` |

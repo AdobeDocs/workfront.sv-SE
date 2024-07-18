@@ -24,7 +24,7 @@ Mer information om faktureringsposter finns i artikeln [Skapa faktureringsposter
 
 >[!NOTE]
 >
->Om du aktiverar det här alternativet tas inte tidrapportgodkännarens möjlighet att godkänna tid bort från tidrapporten. Om projektägaren inte godkänner eller avvisar tid kan en tidrapportgodkännare fortfarande godkänna tiden på en tidrapport.
+>Om du aktiverar det här alternativet tas inte tidrapportgodkännarens möjlighet att godkänna tiden bort från tidrapporten. Om projektägaren inte godkänner eller avvisar tid kan en tidrapportgodkännare fortfarande godkänna tiden på en tidrapport.
 
 ## Åtkomstkrav
 
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt eller högre</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -79,11 +79,11 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här kräver du projektledarens godkännande för timmar i projektet:
 
 1. Gå till projektet där du vill ha godkännande i timmar.
-1. Klicka på **Mer** icon ![](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
+1. Klicka på ikonen **Mer** ![](assets/more-icon.png) till höger om projektnamnet och klicka sedan på **Redigera**.\
    Dialogrutan Redigera projekt visas.
 
-1. I **Projektinställningar** avsnitt, markera **Kräv tid för godkännande av det här projektet**.
-1. Klicka **Spara**.\
+1. I avsnittet **Projektinställningar** väljer du **Kräv tid för att godkännas för det här projektet**.
+1. Klicka på **Spara**.\
    När tiden loggas och godkänns blir dessa timmar låsta och kan inte ändras av användaren som angav dem i projektet eller tidrapporten. Endast en Workfront-administratör kan justera den registrerade tiden.
 
 ## Godkänn och avvisa tid i ett projekt
@@ -97,15 +97,15 @@ Om du ställer in ett projekt för att kräva godkännande på de loggade timmar
 Så här godkänner eller avvisar du timmar i ett projekt:
 
 1. Gå till projektet.
-1. Klicka på **Timmar** i den vänstra panelen. Detta kan finnas under **Visa fler** område.
+1. Klicka på området **Timmar** i den vänstra panelen. Detta kan finnas under området **Visa mer**.
 
-1. Timmar som loggats för problem, uppgifter och projektvisning och ska ha statusen **Skickat**.\
+1. Timmar som loggats för problem, uppgifter och projektvisning och som ska ha statusen **Skickat**.\
    Klicka i rutan till vänster om timuppgifterna för att välja de timmar som du vill godkänna.
 
-1. Klicka **Godkänn**.\
+1. Klicka på **Godkänn**.\
    Status för timmarna ändras till **Godkänd**.\
    Om du senare avvisar de godkända timmarna ändras statusen för timmarna till **Inte godkänt**.\
-   När du inkluderar de godkända timmarna i en faktureringspost ändras statusen för timmarna till **Fakturerat och godkänt**. Timmar som lagts till i en faktureringspost kan inte tas bort. Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md)
+   När du inkluderar de godkända timmarna i en faktureringspost ändras statusen för timmarna till **Fakturerad och godkänd**. Timmar som lagts till i en faktureringspost kan inte tas bort. Mer information om hur du skapar faktureringsposter finns i artikeln [Skapa faktureringsposter](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Valfritt) Klicka på **Avvisa** för att avvisa tidsposter i projektet.\
+1. (Valfritt) Klicka på **Avvisa** om du vill avvisa tidsposterna i projektet.\
    Status för timmarna ändras till **Avvisad**.

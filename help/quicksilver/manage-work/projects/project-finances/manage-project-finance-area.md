@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa eller öka åtkomst till projekt och finansiella data</p> <p>Redigera åtkomst till projekt och finansiella data för att redigera finansiell information om projektet</p> <p><b>ANMÄRKNING</b></p>
-   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -62,8 +62,8 @@ Tänk på följande när du visar eller redigerar information på finansområdet
 ## Visa finansieringsinformation för ett projekt
 
 1. Gå till ett projekt.
-1. Klicka **Projektinformation** till vänster.
-1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi**.
+1. Klicka på **Projektinformation** i den vänstra panelen.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av informationsavsnittet och klicka sedan på **Ekonomi**.
 
    ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
@@ -79,7 +79,7 @@ Tänk på följande när du visar eller redigerar information på finansområdet
     <tbody> 
      <tr> 
       <td role="rowheader">Resultatindexmetod</td> 
-      <td> Styr den metod som Workfront använder för att beräkna värden för upparbetat värde. Det kan vara timbaserat eller kostnadsbaserat. <br>Mer information om PIM finns i artikeln <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Ange PIM (Performance Index Method)</a></td> 
+      <td> Styr den metod som Workfront använder för att beräkna värden för upparbetat värde. Det kan vara timbaserat eller kostnadsbaserat. <br>Mer information om PIM finns i artikeln <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 
@@ -92,7 +92,7 @@ Tänk på följande när du visar eller redigerar information på finansområdet
      </tr> 
      <tr> 
       <td role="rowheader">Uppskattning vid slutförande</td> 
-      <td> Prognostiserad total kostnad för ditt projekt, i timmar om PIM (Performance Index Method) är timbaserad och den representeras i ett valutavärde om PIM (Performance Index Method) är kostnadsbaserad.<br>Mer information om hur du beräknar offerten vid slutförande finns i artikeln <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Beräkna uppskattning vid slutförande</a></td> 
+      <td> Prognostiserad total kostnad för ditt projekt, i timmar om PIM (Performance Index Method) är timbaserad och den representeras i ett valutavärde om PIM (Performance Index Method) är kostnadsbaserad.<br>Mer information om beräkning av uppskattning vid slutförande finns i artikeln <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Beräkna uppskattning vid slutförande (EAC)</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Budget</td> 
@@ -149,9 +149,9 @@ Så här redigerar du information på underfliken Projektfinansiering:
    >
    >Du måste ha behörigheten Hantera för projektet för att kunna utföra följande steg. Vi rekommenderar också att endast projektägaren ska göra ändringar på projektets finansunderflik.
 
-1. Klicka **Projektinformation** till vänster.
-1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi** . Då öppnas finansdelen för redigering.
-1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka **+Lägg till** om du vill lägga till information i ett tomt fält.
+1. Klicka på **Projektinformation** i den vänstra panelen.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ekonomi** . Då öppnas finansdelen för redigering.
+1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka på **+Lägg till** för att lägga till information i ett tomt fält.
 
    >[!TIP]
    >
@@ -174,15 +174,15 @@ Så här redigerar du information på underfliken Projektfinansiering:
       <td> <p>Styr den metod som Workfront använder för att beräkna projektresultatmått. Detta konfigureras på systemnivå av administratören, men du kan även redigera det på projektnivå. Välj något av följande alternativ:</p> 
        <ul> 
         <li><strong>Timbaserad:</strong>Workfront använder de planerade timmarna för att beräkna projektets CPI och EAC, och projektets EAC visas som ett tal i timmar. </li> 
-        <li><strong>Kostnadsbaserad:</strong>Workfront använder den planerade arbetskostnaden vid beräkning av projektets CPI och EAC och EAC visas som ett valutavärde. När du väljer det här alternativet kontrollerar du att dina uppgiftstilldelningar (jobbroller eller användare) är kopplade till kostnadstariffer.</li> 
+        <li><strong>Kostnadsbaserad:</strong>Workfront använder den planerade arbetskostnaden vid beräkning av projektets CPI och EAC, och EAC visas som ett valutavärde. När du väljer det här alternativet kontrollerar du att dina uppgiftstilldelningar (jobbroller eller användare) är kopplade till kostnadstariffer.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Uppskattning vid slutförande</td> 
       <td> <p>Representerar den beräknade totala kostnaden för ditt projekt eller din uppgift när den har slutförts. Detta konfigureras på systemnivå av administratören, men du kan även redigera det på projektnivå. Välj något av följande alternativ:</p> 
        <ul> 
-        <li><strong>Beräkna på projektnivå</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att de faktiska timmarna/faktiska arbetskostnaderna anges i EAC-formlerna. Beräkningen inkluderar Faktiska timmar/kostnader och utgifter som lagts till direkt i den överordnade uppgiften eller projektet.</li> 
-        <li><strong>Samla upp från aktiviteter/underaktiviteter</strong>: EAC för den överordnade uppgiften och projektet bestäms genom att EAC summeras för varje underordnad uppgift. Den här beräkningen exkluderar faktiska timmar/kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</li> 
+        <li><strong>Beräkna på projektnivå</strong>: EAC för den överordnade aktiviteten och projektet bestäms genom att de faktiska timmarna/faktiska arbetskostnaderna anges i EAC-formlerna. Beräkningen inkluderar Faktiska timmar/kostnader och utgifter som lagts till direkt i den överordnade uppgiften eller projektet.</li> 
+        <li><strong>Samla in från aktiviteter/underaktiviteter</strong>: EAC för den överordnade aktiviteten och projektet bestäms genom att summera EAC för varje underordnad aktivitet. Den här beräkningen exkluderar faktiska timmar/kostnader och utgifter som läggs till direkt i den överordnade aktiviteten eller projektet.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -199,9 +199,9 @@ Så här redigerar du information på underfliken Projektfinansiering:
      </tr> 
      <tr> 
       <td role="rowheader">Projektvaluta</td> 
-      <td> <p>Ange en valuta för det här projektet, om den skiljer sig från standardvalutan i systemet. Standardvalutan i ditt system definieras av din Workfront-administratör. Mer information om hur du ställer in växelkurser i Workfront finns i artikeln <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> </td> 
+      <td> <p>Ange en valuta för det här projektet, om den skiljer sig från standardvalutan i systemet. Standardvalutan i ditt system definieras av din Workfront-administratör. Mer information om hur du ställer in valutakurser i Workfront finns i artikeln <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställa in valutakurser</a>.</p> </td> 
      </tr>
     </tbody> 
    </table>
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

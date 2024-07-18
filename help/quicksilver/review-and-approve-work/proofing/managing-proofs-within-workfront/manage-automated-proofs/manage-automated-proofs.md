@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Hantera automatiska korrektur
 
-* [Visa automatiska arbetsflödesfaser i ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
+* [Visa automatiska arbetsflödesfaser på ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
 * [Visa aktiva faser i ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
-* [Skapa eller redigera ett automatiserat arbetsflöde för ett befintligt korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+* [Skapa eller redigera ett automatiskt arbetsflöde för ett befintligt korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
 * [Redigera korrekturfaser och granskare](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md)
 * [Konvertera ett grundläggande arbetsflöde till ett automatiserat arbetsflöde vid ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
 * [Lägga till faser och användare i ett automatiserat arbetsflöde vid ett korrektur](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)

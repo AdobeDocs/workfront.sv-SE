@@ -95,37 +95,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Att tänka på vid användning av Arbetsinsats
 
-* När projektaktiviteterna har 0 planerade timmar och du aktiverar inställningen Använd arbetsinsats för att automatiskt beräkna inställningen för planerad timmar för aktiviteten i projektet, blir standardnivån för arbetsinsats som är associerad med dem medelstor. Planerade timmar uppdateras automatiskt för uppgifter av typen enkel varaktighet. Mer information finns i avsnittet  [Arbetsinsatser](#levels-of-work-effort) i den här artikeln.
-* När projektaktiviteterna har planerade timmar som är större än 0 och du aktiverar inställningen Använd arbetsinsats för att automatiskt beräkna inställningen för planerade timmar för aktiviteten i projektet, uppdateras nivån för arbetsinsats enligt antalet planerade timmar utan att ändra antalet planerade timmar för uppgifter av typen Enkel varaktighet. Mer information finns i avsnittet [Hur Workfront beräknar arbetsinsatsen baserat på planerade timmar](#how-workfront-calculates-work-effort-based-on-planned-hours) i den här artikeln.
-* När projektaktiviteterna har 0 planerade timmar och du aktiverar inställningen Använd arbetsinsats för att automatiskt beräkna inställningen Planerade timmar för aktiviteten i projektet och sedan uppdatera nivån för arbetsinsats från medelstor till liten eller stor, uppdateras även de planerade timmarna. Mer information finns i avsnittet [Hur Workfront beräknar planerade timmar baserat på arbetsinsats](#how-workfront-calculates-planned-hours-based-on-work-effort) i den här artikeln.
+* När projektaktiviteterna har 0 planerade timmar och du aktiverar inställningen Använd arbetsinsats för att automatiskt beräkna inställningen Planerade timmar för aktiviteten i projektet, kommer standardnivån för arbetsinsats som är associerad med dem att vara Medium. Planerade timmar uppdateras automatiskt för uppgifter av typen enkel varaktighet. Mer information finns i avsnittet [Nivåer för arbetsinsats](#levels-of-work-effort) i den här artikeln.
+* När projektaktiviteterna har planerade timmar som är större än 0 och du aktiverar inställningen Använd arbetsinsats för att automatiskt beräkna inställningen för planerade timmar för aktiviteten i projektet, uppdateras nivån för arbetsinsats enligt antalet planerade timmar utan att ändra antalet planerade timmar för uppgifter av typen Enkel varaktighet. Mer information finns i avsnittet [Hur Workfront beräknar arbetsinsats baserat på Planerade timmar](#how-workfront-calculates-work-effort-based-on-planned-hours) i den här artikeln.
+* När projektaktiviteterna har 0 planerade timmar och du aktiverar inställningen Använd arbetsinsats för att automatiskt beräkna inställningen Planerade timmar för aktiviteten i projektet och sedan uppdatera nivån för arbetsinsats från Medium till Liten eller Stor, uppdateras även Planerade timmar. Mer information finns i avsnittet [Hur Workfront beräknar planerade timmar baserat på arbetsinsats](#how-workfront-calculates-planned-hours-based-on-work-effort) i den här artikeln.
 * När du infogar redigeringsuppgifter och ändrar både fältet Planerade timmar och Arbetsinsats för aktiviteten samtidigt, uppdateras de planerade timmarna med det värde du anger, medan värdet för Arbetsinsats beräknas baserat på dina uppdaterade planerade timmar.
-* När du uppdaterar värdet för arbetsinsats för en uppgift beräknas varaktigheten inte längre automatiskt baserat på de planerade timmarna. Mer information om hur varaktigheten beräknar för uppgifter med enkel varaktighet finns i [Översikt över varaktighetstyp: Enkel](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+* När du uppdaterar värdet för arbetsinsats för en uppgift beräknas varaktigheten inte längre automatiskt baserat på de planerade timmarna. Mer information om hur varaktigheten beräknas för enkla varaktighetsuppgifter finns i [Översikt över varaktighetstyp: Enkel](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
 * När du ändrar varaktighetstypen för en uppgift från Enkel till någon annan typ, är fältet Arbetskraft dolt för uppgiften. De planerade timmarna förblir oförändrade.
-* Du kan inte uppdatera arbetsinsats för en överordnad aktivitet. Arbetsinsats för en överordnad uppgift beräknas automatiskt baserat på antalet planerade timmar för aktiviteterna som är en sammanslagning av alla underordnade uppgifter. Mer information om överordnade uppgifter finns i [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+* Du kan inte uppdatera arbetsinsats för en överordnad aktivitet. Arbetsinsats för en överordnad uppgift beräknas automatiskt baserat på antalet planerade timmar för aktiviteterna som är en sammanslagning av alla underordnade uppgifter. Mer information om överordnade aktiviteter finns i [Skapa underaktiviteter](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 ## Aktivera användning av Arbetskraft i stället för Planerade timmar
 
-1. Gå till ett projekt och klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Redigera**.
-1. Klicka **Uppgiftsinställningar** väljer du sedan alternativet **Använd Arbetsinsats för att automatiskt beräkna planerade timmar för uppgift**. Detta är som standard avmarkerat.
+1. Gå till ett projekt och klicka på menyn **Mer** ![](assets/more-icon.png) och klicka sedan på **Redigera**.
+1. Klicka på **Aktivitetsinställningar** och välj sedan alternativet **Använd arbetsinsats för att automatiskt beräkna planerade timmar för aktiviteter**. Detta är som standard avmarkerat.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
-   Mer information om hur du aktiverar användningen av arbetsinsats i ett projekt finns i avsnittet Aktivitetsinställningar i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md) artikel.
+   Mer information om hur du aktiverar användningen av Arbetsinställningar för ett projekt finns i avsnittet Aktivitetsinställningar i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md) .
 
-1. Klicka **Uppgifter** på den vänstra panelen klickar du sedan på namnet på en uppgift för att komma åt den.
-1. Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Redigera**. Kontrollera att aktiviteten har en enkel varaktighetstyp.
+1. Klicka på **Åtgärder** på den vänstra panelen och klicka sedan på namnet på en uppgift för att komma åt den.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera**. Kontrollera att aktiviteten har en enkel varaktighetstyp.
 
    >[!TIP]
    >
    >Du kan även uppdatera arbetsinsatsen för en uppgift i avsnittet Uppgiftsinformation.
 
-1. I **Ökning** klickar du i listrutan Arbetskraft för att korrigera den mängd arbete som krävs för att slutföra uppgiften.
+1. Klicka på listrutan Arbetskraft i området **Översikt** för att korrigera mängden arbete som krävs för att slutföra uppgiften.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 
    Mer information om hur du uppdaterar fältet Arbetskraft för en uppgift finns i följande artiklar:
 
-   * Avsnittet&quot;Översikt&quot; i [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md) artikel
+   * Avsnittet Översikt i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
    * [Hantera aktivitetsinformation i området Översikt över aktivitetsinformation](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Arbetsinsatser {#levels-of-work-effort}
@@ -155,8 +155,8 @@ Som Workfront-administratör definierar du de normala timmarna per arbetsdag i o
    <td>En liten arbetsinsats för att slutföra en uppgift anges till 25 % av de normala timmarna per arbetsdag. Det innebär att en uppgift som tilldelats denna nivå av arbetsinsats bör ta upp till 2 timmar om dagen att slutföra på en dag. <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
-   <td>Medel</td> 
-   <td> <p>En medelhög arbetsnivå för att slutföra en uppgift är 50 % av de normala timmarna per arbetsdag. Det innebär att en uppgift som tilldelats denna nivå av arbetsinsats bör ta mer än 2 och mindre än 6 timmar att slutföra på en dag. <code>(0.50*80=4)</code> </p> <p>Obs! När inställningen Använd arbetsinsats för att automatiskt beräkna aktivitetens planerade timmar är aktiverad i projektet är det här standardinställningen för en aktivitet, om aktiviteten hade 0 planerade timmar innan den här inställningen var aktiverad. Detta gör att aktiviteten Planerade timmar uppdateras till 4 timmar. </p> </td> 
+   <td>Medium</td> 
+   <td> <p>En Medium-nivå för att slutföra en uppgift är 50 % av de normala timmarna per arbetsdag. Det innebär att en uppgift som tilldelats denna nivå av arbetsinsats bör ta mer än 2 och mindre än 6 timmar att slutföra på en dag. <code>(0.50*80=4)</code> </p> <p>Obs! När inställningen Använd arbetsinsats för att automatiskt beräkna aktivitetens planerade timmar är aktiverad i projektet är det här standardinställningen för en aktivitet, om aktiviteten hade 0 planerade timmar innan den här inställningen var aktiverad. Detta gör att aktiviteten Planerade timmar uppdateras till 4 timmar. </p> </td> 
   </tr> 
   <tr> 
    <td>Stor</td> 
@@ -173,7 +173,7 @@ När du aktiverar inställningen Använd arbetsinsats för att automatiskt berä
 Task Planned Hours = Number of days in task Duration * Work Effort percentage * Typical hours per work day
 ```
 
-En uppgift med en varaktighet på 3 dagar och en arbetsinsats på mellan har till exempel 12 planerade timmar:
+En uppgift med en varaktighet på 3 dagar och en arbetsinsats på Medium har till exempel 12 planerade timmar:
 
 ```
 Planned Hours = 3*4=12
@@ -195,7 +195,7 @@ Workfront använder följande formel för att uppdatera arbetsinsatsen enligt de
 Work Effort level = Task Planned Hours / Duration / Typical hours per work day
 ```
 
-Om du till exempel har en aktivitet med en varaktighet på 2 dagar och du uppdaterar de planerade timmarna från 8 till 20 timmar, uppdateras arbetsinsatsen för aktiviteten från Medel till Stor:
+Om du till exempel har en aktivitet med en varaktighet på 2 dagar och du uppdaterar de planerade timmarna från 8 till 20 timmar, uppdateras arbetsinsatsen för aktiviteten från Medium till Stor:
 
 ```
 Work Effort level = 20 / 2 / 8 = 125 % = Large

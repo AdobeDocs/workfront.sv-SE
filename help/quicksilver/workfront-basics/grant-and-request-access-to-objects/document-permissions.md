@@ -9,14 +9,14 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '616'
 ht-degree: 0%
 
 ---
 
 # Dela ett dokument
 
-Din Adobe Workfront-administratör ger användarna åtkomst till att visa eller redigera dokument när de tilldelar åtkomstnivåer enligt [Bevilja åtkomst till dokument](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
+Din Adobe Workfront-administratör ger användare åtkomst att visa eller redigera dokument när de tilldelar åtkomstnivåer, enligt beskrivningen i [Bevilja åtkomst till dokument](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
 Den åtkomstnivå som Workfront-administratören beviljar användare ger dem möjlighet att antingen visa eller redigera dokument. Förutom detta kan andra användare även ge andra behörighet att visa eller hantera specifika dokument som de har överfört själva eller som de har tillgång till.
 
@@ -26,7 +26,7 @@ Användaren som överför ett dokument till Workfront har som standard behörigh
 
 Mer information om hur du delar en hel dokumentmapp finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-## Att tänka på när det gäller att dela dokument
+## Att tänka på vid dokumentdelning
 
 Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -42,19 +42,19 @@ Förutom övervägandena nedan, se även [Översikt över delningsbehörigheter 
 
 * Du kan också dela ett dokument offentligt eller i hela systemet.
 
-   >[!CAUTION]
-   >
-   >Vi rekommenderar att du använder försiktighet när du delar objekt som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
+  >[!CAUTION]
+  >
+  >Vi rekommenderar att du använder försiktighet när du delar objekt som innehåller konfidentiell information med externa användare. På så sätt kan de visa information utan att vara Workfront-användare eller del av organisationen.
 
 * Du kan dela ett dokument med någon som inte har ett Workfront-konto genom att lägga till deras e-postadress i fältet Ge dokumentåtkomst till.
 * När du delar ett dokument har användarna samma åtkomst till alla dokumentversioner och alla dokumentkorrektur.\
-   Mer information om korrektur i Workfront finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md) -avsnitt.
+  Mer information om korrektur i Workfront finns i avsnittet [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 * Du kan ärva behörigheter till dokument från de objekt de är kopplade till. Din Workfront-administratör kan begränsa arvet av behörigheter för dokument på din åtkomstnivå.
 
-   Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Mer information om att begränsa ärvda behörigheter i dokument finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-   Du kan ta bort ärvda behörigheter i dokument manuellt. Mer information finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+  Du kan ta bort ärvda behörigheter i dokument manuellt. Mer information finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Ett bifogat dokument ärver endast behörigheter från det objekt som det bifogades till. Om du skapar en mapp på objektet och flyttar dokumentet till mappen, ärver den mappens behörigheter. Men om du skapar en mapp i ett överordnat eller indirekt överordnat objekt och flyttar dokumentet till den mappen, ärver den inte mappens behörigheter.
 
@@ -90,7 +90,7 @@ I följande tabell visas vilka behörigheter du kan ge användarna när de får 
    <td> </td> 
   </tr> 
   <tr> 
-   <td scope="row">Hämta</td> 
+   <td scope="row">Ladda ned</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -135,7 +135,7 @@ I följande tabell visas vilka behörigheter du kan ge användarna när de får 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Överför ny version</td> 
+   <td scope="row">Ladda upp ny version</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -212,6 +212,6 @@ I följande tabell visas vilka behörigheter du kan ge användarna när de får 
  </tbody> 
 </table>
 
-&#42; Åtgärden delas av både dokument och dokumentmappar.
+Åtgärden &#42; delas av både dokument och dokumentmappar.
 
 &#42;&#42; Du måste ha en separat korrekturlicens kopplad till ditt Workfront-konto för att kunna bevisa dokument. Kontakta din kontoansvarige om du vill skaffa en korrekturlicens. Mer information om korrektur i Workfront finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).

@@ -19,4 +19,4 @@ ht-degree: 0%
 Det här avsnittet innehåller följande underavsnitt:
 
 * [Nytt hem](../../workfront-basics/using-home/new-home/new-home.md)
-* [Använd [!UICONTROL Home] area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Använd området [!UICONTROL Home]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

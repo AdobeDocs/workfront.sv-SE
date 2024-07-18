@@ -1,5 +1,5 @@
 ---
-title: Byta namn på ett anpassat formulär med formulärdesignern
+title: Byta namn på ett anpassat formulär
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
 
-# Byta namn på ett anpassat formulär med formulärdesignern
+# Byta namn på ett anpassat formulär
 
 Du kan byta namn på ett anpassat formulär när som helst efter att det har skapats med formulärdesignern.
 
@@ -45,22 +45,22 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Byta namn på ett anpassat formulär med formulärdesignern
 
 {{step-1-to-setup}}
 
-1. Klicka **Anpassad Forms** till vänster.
+1. Klicka på **Egen Forms** i den vänstra panelen.
 
    I den vy som visas kan du granska alla anpassade formulär som har skapats för din organisation. Du kan också se vem som har skapat varje formulär, vilken objekttyp det fungerar med och om det är aktivt.
 
-1. Markera det anpassade formulär som du vill ändra namn på och klicka sedan på ![Ikonen Redigera](assets/edit-icon2.png).
+1. Markera det anpassade formulär som du vill ändra namn på och klicka sedan på ![redigeringsikonen](assets/edit-icon2.png).
 1. Om du vill ändra titeln klickar du på formulärets namn.
 1. Om du vill ändra beskrivningen klickar du i beskrivningstextrutan.
 
-1. Klicka **Spara och stäng**.
+1. Klicka på **Spara och stäng**.
 
    >[!TIP]
    >
-   >Klicka **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.
+   >Du kan klicka på **Använd** när som helst medan du skapar ett anpassat formulär för att spara ändringarna och behålla formuläret öppet.

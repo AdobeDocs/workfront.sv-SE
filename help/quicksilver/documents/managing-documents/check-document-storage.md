@@ -26,12 +26,12 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över äldre licenser</a>*</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -40,9 +40,9 @@ Du måste ha följande:
 
 ## Kontrollera dokumentlagring
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
-1. Klicka på i den vänstra panelen **System** > **Kundinformation**.
-1. I **Grundläggande information** avsnitt, hitta **Lagringskvot**. Här kan du se hur mycket lagringsutrymme du använder just nu samt hur mycket lagringsutrymme din Workfront-plan omfattar.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på **System** > **Kundinformation** i den vänstra panelen.
+1. Gå till **Lagringskvot** i avsnittet **Grundläggande information**. Här kan du se hur mycket lagringsutrymme du använder just nu samt hur mycket lagringsutrymme din Workfront-plan omfattar.
 
 Lagringskvoten uppdateras dagligen för att visa det senaste antalet.
 

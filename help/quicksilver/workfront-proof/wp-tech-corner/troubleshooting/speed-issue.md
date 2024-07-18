@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Snabba upp problem i [!DNL Workfront Proof]
-description: Den här hjälpsidan kan hjälpa dig att avgöra om det finns några hastighetsproblem som du kan uppleva när du använder [!DNL Workfront Proof] är relaterade till din internetleverantör eller [!DNL Workfront Proof]dess leveransnätverk.
+title: Snabba upp problem i  [!DNL Workfront Proof]
+description: Den här hjälpsidan kan hjälpa dig att avgöra om hastighetsproblem som kan uppstå när du använder  [!DNL Workfront Proof] är relaterade till Internet-leverantörens eller  [!DNL Workfront Proof]s leveransnätverk.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 42e999a6-5b27-482d-a7cf-b8030272da32
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Den här hjälpsidan kan hjälpa dig att avgöra om det finns några hastighetsproblem som du kan uppleva när du använder [!DNL Workfront Proof] är relaterade till din internetleverantör eller [!DNL Workfront Proof]dess leveransnätverk.
+Den här hjälpsidan kan hjälpa dig att avgöra om hastighetsproblem som kan uppstå när du använder [!DNL Workfront Proof] är relaterade till din Internet-leverantör eller [!DNL Workfront Proof]s leveransnätverk.
 
-Hastighetsproblem beror i allmänhet på den lokala Internet-anslutningen eller lokala Internet-åtkomstinställningar (t.ex. där en proxyserver används) och därför ligger de tyvärr utanför kontrollen över [!DNL Workfront Proof].
+Hastighetsproblem beror vanligtvis på den lokala Internet-leverantörsanslutningen eller den lokala Internet-åtkomstkonfigurationen (t.ex. där en proxyserver används) och därför ligger tyvärr utanför kontrollen för [!DNL Workfront Proof].
 
 Det finns dock några steg du kan ta för att kontrollera din anslutningshastighet, vilket gör att grundorsaken till de problem du upplever kan fastställas. Alla dessa steg är lika viktiga för felsökningsprocessen och vi rekommenderar att du tar dig tid att samla in information om alla steg i listan för att få den mest korrekta diagnosen av problemet.
 
@@ -31,12 +31,12 @@ När du har samlat in alla uppgifter rekommenderar vi att du rådfrågar din lok
 
 ## Fastställ vilken del av systemet som är långsam
 
-När du använder [!DNL Workfront Proof]kan du arbeta med kontrollpanelen, till exempel för att hantera mappinnehåll och användare eller med [!DNL Workfront Proof] Visningsprogram: utföra en korrekturgranskning, kontrollera kommentarer som redan gjorts och så vidare.
+När du använder [!DNL Workfront Proof] kanske du arbetar med instrumentpanelen, till exempel för att hantera mappinnehåll och användare eller med [!DNL Workfront Proof]-visningsprogrammet: utföra en korrekturgranskning, kontrollera kommentarer som redan har gjorts och så vidare.
 
-Att avgöra vilken del av systemet som är långsam är det första steget när det gäller att felsöka hastighetsproblem. När du rapporterar [!DNL Workfront Proof] Om du är långsam bör du beskriva följande:
+Att avgöra vilken del av systemet som är långsam är det första steget när det gäller att felsöka hastighetsproblem. När du rapporterar att [!DNL Workfront Proof] är långsam ska du beskriva följande:
 
 * Har du långsam användning av andra webbsidor?
-* Inträffar problemet på kontrollpanelen eller [!DNL Workfront Proof] Visningsprogram?
+* Inträffar problemet i instrumentpanelen eller [!DNL Workfront Proof]-visningsprogrammet?
 * Vilken exakt del av systemet är långsam? (t.ex. bearbeta ett nytt korrektur eller öppna en kommentar i [!DNL Workfront Proof] Viewer)
 
 ## Köra spårvägs- och pingtester
@@ -48,7 +48,7 @@ När du får prestandaproblem är det viktigt att du kör kommandot traceroute f
    * Windows: **tracert app.proofhq.com**
    * Mac/Linux: **traceroute app.proofhq.com**
 
-1. (Endast Windows) Typ **ping app.proofhq.com**.
+1. (Endast Windows) Skriv **ping app.proofhq.com**.
 1. När ping-åtgärden är klar högerklickar du i kommandotolken och väljer Alla.
 1. Kopiera och klistra in resultaten i svaret på ditt e-postmeddelande.
 Se till att du tillåter att kalkering och ping slutförs innan du skickar resultaten till supportteamet.

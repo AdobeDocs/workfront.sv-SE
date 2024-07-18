@@ -29,4 +29,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Ange ett anpassat villkor som standard för uppgifter och ärenden](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)
 * [Ta bort ett anpassat villkor](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
 
-Mer information om villkor och hur du tillämpar dem på projekt, uppgifter och problem finns i [Översikt över projektvillkor och villkorstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) och [Uppdatera villkor för aktiviteter och ärenden](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+Mer information om villkor och hur du tillämpar dem på projekt, uppgifter och problem finns i [Översikt över projektvillkor och villkorstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) och [Uppdatera villkor för aktiviteter och problem](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).

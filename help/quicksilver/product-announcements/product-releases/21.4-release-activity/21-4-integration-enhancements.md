@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla integreringsförbättringar som gjorts i version 21.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Länka dokument från Dropbox Business
 
@@ -42,7 +42,7 @@ Följande uppdateringar visas nu i Workfront för integrering med Slack:
 
 Den här uppdateringen kräver att du auktoriserar om Workfront för integrering med Slack. Information om hur du godkänner integreringen finns i [Konfigurera Adobe Workfront för Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Mer information om Workfront för Slack-meddelanden finns i [Få Adobe Workfront-meddelanden i Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Mer information om Workfront for Slack-meddelanden finns i [Ta emot Adobe Workfront-meddelanden i Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Mer tydlig information om kontoåtkomst när du godkänner Adobe Workfront-integreringar
 

@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Korrektur för tekniker
-description: Workfront Korrektur för tekniker
+title: Workfront Proof teknikhörn
+description: Workfront Proof teknikhörn
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -22,6 +22,6 @@ Det här avsnittet innehåller följande underavsnitt:
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 * [Korrekturtyper](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

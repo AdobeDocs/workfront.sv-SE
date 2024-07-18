@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -21,16 +21,16 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Du kan budgetera dina resurser i Adobe Workfront Resursplanering genom att använda kostnadsvärden i stället för timvärden eller FTE-värden. Kostnadsvärden är inte tillgängliga för **Visa efter användare** i resursplaneraren.
+Du kan budgetera dina resurser i Adobe Workfront Resursplanering genom att använda kostnadsvärden i stället för timvärden eller FTE-värden. Kostnadsvärden är inte tillgängliga för vyn **Visa efter användare** i resursplaneraren.
 
 >[!IMPORTANT]
 >
 >Du måste associera användare och jobbroller med kostnad per timme för att visa kostnadsinformation i resursplaneraren.\
->Mer information om hur du associerar självkostnad per timme med jobbroller finns i [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
->Mer information om hur du associerar självkostnad per timme med användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+>Mer information om hur du associerar kostnadsnivåer per timme med jobbroller finns i [Skapa och hantera jobbroller](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).\
+>Mer information om hur du associerar kostnad per timme med användare finns i [Redigera en användares profil](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 Innan du budgeterar dina resurser måste du se till att du har en god förståelse för vad som behöver göras (Planerade timmar, FTE eller Kostnad) och vilken tid användarna är öppna för arbete (Tillgängliga timmar, FTE eller Kostnad).\
-Mer information om hur du förstår informationen i resursplaneraren vid budgetering med timmar eller heltidsekvivalenter finns i [Översikt över timmar, heltidsanställda och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Mer information om hur du förstår informationen i resursplaneraren vid budgetering med timmar eller heltidsekvivalenter finns i [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
 ## Åtkomstkrav
 
@@ -52,7 +52,7 @@ Du måste ha följande:
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data, projekt och användare</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -69,19 +69,19 @@ Som standard visas tillgänglighets- och allokeringsinformationen i timmar i res
 
 Så här visar du tillgänglig, planerad och budgeterad information efter kostnad i resursplaneraren:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Resurser**.
+1. Klicka på **Resurs**.
 1. Gå till Resursplaneraren.
 1. (Villkorligt) Välj **Visa efter projekt** eller **Visa efter roll**.\
-   Som standard **Visa efter projekt** är markerat.\
+   Som standard är **Visa efter projekt** valt.\
    Allokerings- och tillgänglighetsinformationen visas i timmar.
 
-1. Från **Timmar** nedrullningsbar meny, välja **Kostnad**.
+1. Välj **Kostnad** i listrutan **Timmar**.
 
    Om du inte har åtkomst till finansiella data på din åtkomstnivå är det här alternativet inte tillgängligt.\
    Om projekt har en annan valuta än systemvalutan visas Kostnad för de här projekten i resursplaneraren, konverterad i systemets valuta. Systemadministratören definierar systemvalutan.\
-   Mer information om hur du ställer in systemvalutan i Workfront och konverteringsgrader finns i [Ställ in valutakurser](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
+   Mer information om hur du ställer in systemvalutan i Workfront och konverteringsgrader finns i [Konfigurera valutakurser](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).\
    ![cost_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Beräkna tillgänglig kostnad i resursplaneraren
@@ -137,8 +137,8 @@ Om rollen inte har någon kostnad per timme är den tillgängliga rollkostnaden 
    * Ett team\
      En uppgift som tilldelats ett team betraktas som icke tilldelad, enligt resursplaneraren.
 
-* The **Kostnadstyp** av projektets uppgifter.\
-  Mer information om kostnadstypen för en uppgift finns i [Spåra kostnader](../../manage-work/projects/project-finances/track-costs.md).
+* **Kostnadstyp** för aktiviteterna i projektet.\
+  Mer information om kostnadstypen för en aktivitet finns i [Spåra kostnader](../../manage-work/projects/project-finances/track-costs.md).
 
 * Giltiga datum för kostnadstarifferna för jobbroller och användare.
 
@@ -150,17 +150,17 @@ Om rollen inte har någon kostnad per timme är den tillgängliga rollkostnaden 
 
 Följande scenarier används vid beräkning av planerad kostnad för användare, roller och projektet:
 
-* När **Kostnadstyp** är **Användartimme **och det finns **ingen tilldelning** på uppgiften:
+* När **kostnadstypen** är **Användare per timme **och det inte finns **någon tilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 
      De planerade kostnaderna för roll och användare är $0,00.
 
-   * **Planerad kostnad för projekt**:
+   * **Planerad projektkostnad**:
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Användare per timme** och det finns **användartilldelning** på uppgiften:
+* När **kostnadstypen** är **Användartimme** och det finns en **användartilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -178,11 +178,11 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Planerad kostnad för projekt**:
+   * **Planerad projektkostnad**:
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Användare per timme** och det finns **jobbrolltilldelning** på uppgiften:
+* När **kostnadstypen** är **Användartimme** och det finns en **jobbrolltilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -194,21 +194,21 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Systemnivåkostnaden per timkostnad för den jobbroll som är tilldelad till aktiviteten används för att beräkna planerad kostnad.
 
-   * **Planerad kostnad för projekt**:
+   * **Planerad projektkostnad**:
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Roll timvis** och det finns **ingen tilldelning** på uppgiften:
+* När **kostnadstypen** är **Roll timme** och det finns **ingen tilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 
      De planerade kostnaderna för roll och användare är $0,00.
 
-   * **Planerad kostnad för projekt**:
+   * **Planerad projektkostnad**:
 
      Projektets planerade kostnad är 0,00 USD.
 
-* När **Kostnadstyp** är **Roll timvis** och det finns **användartilldelning** på uppgiften:
+* När **kostnadstypen** är **Roll timme** och det finns en **användartilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -222,13 +222,13 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Om användaren inte är associerad med någon roll i aktiviteten är den planerade kostnaden $0,00.
 
-   * **Planerad kostnad för projekt**:
+   * **Planerad projektkostnad**:
 
      Projektets planerade kostnad beräknas med följande formel:
 
      `Project Planned Cost = SUM(Role Planned Costs)`
 
-* När **Kostnadstyp** är **Roll timvis** och det finns **jobbrolltilldelning** på uppgiften:
+* När **kostnadstypen** är **Roll timme** och det finns en **jobbrolltilldelning** för aktiviteten:
 
    * **Roll och användarplanerad kostnad**:
 
@@ -240,7 +240,7 @@ Följande scenarier används vid beräkning av planerad kostnad för användare,
 
      Workfront tittar på den jobbroll som användaren utför i uppgiften för att beräkna den planerade kostnaden för rollen.
 
-   * **Planerad kostnad för projekt**:
+   * **Planerad projektkostnad**:
 
      Projektets planerade kostnad beräknas med följande formel:
 

@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Uppdatera artikelstatus på [!UICONTROL Kanban] board
+# Uppdatera status för artiklar på [!UICONTROL Kanban]-tavlan
 
-Du kan ändra status för en artikel direkt från [!UICONTROL Kanban] för att spegla hur berättelserna fortskrider.
+Du kan ändra status för en artikel direkt från [!UICONTROL Kanban]-panelen för att spegla hur artiklarna fortskrider.
 
 >[!NOTE]
 >
->Endast statusvärden markerade i [!UICONTROL Story Board] i [!UICONTROL team settings] finns på [!UICONTROL Kanban] och i statusmenyn. Mer information finns i [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+>Endast statusar som är markerade i avsnittet [!UICONTROL Story Board] i området [!UICONTROL team settings] är tillgängliga på [!UICONTROL Kanban]-panelen och i listrutan med status. Mer information finns i [Konfigurera kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 
 ## Åtkomstkrav
 
@@ -39,20 +39,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Uppdatera status för artiklar på Kanban-tavlan
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Teams]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
 
-1. (Valfritt) Klicka på **[!UICONTROL Switch team]** icon ![Byt ikon för team](assets/switch-team-icon.png)och sedan antingen välja en ny [!UICONTROL Kanban] i listrutan eller sök efter ett team i sökfältet.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt [!UICONTROL Kanban]-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Gå till [!UICONTROL Kanban] bräda där du vill uppdatera status för en artikel.
-1. Dra en artikel från en statuskolumn på [!UICONTROL Kanban] och in i en annan spalt.\
-   En artikel finns kvar i [!UICONTROL Complete] i två veckor efter att den har lagts till.\
-   ![Flytta artikel till en annan kolumn](assets/agile-storyboard-progress.png)
+1. Gå till [!UICONTROL Kanban] där du vill uppdatera status för en artikel.
+1. Dra en artikel från en statuskolumn på [!UICONTROL Kanban] och till en annan kolumn.\
+   En artikel finns kvar i kolumnen [!UICONTROL Complete] i två veckor efter att den har lagts till.\
+   ![Flytta artikeln till en annan kolumn](assets/agile-storyboard-progress.png)

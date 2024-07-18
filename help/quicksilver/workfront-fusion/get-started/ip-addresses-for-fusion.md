@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# IP-adresser för åtkomst [!DNL Adobe Workfront Fusion]
+# IP-adresser för åtkomst till [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront license].
 
 Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista för att tillåta öppen kommunikation mellan din miljö och [!DNL Adobe Workfront Fusion].
 
-Lägg till följande IP-adresser i tillåtelselista för att aktivera [!DNL Workfront Fusion] för att komma åt ditt system.
+Lägg till följande IP-adresser i tillåtelselista för att [!DNL Workfront Fusion] ska kunna komma åt ditt system.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -87,4 +87,4 @@ Om din organisation använder utgående nätverksfiltrering lägger du till föl
 >
 >Utgående nätverksfiltrering är ovanlig. Fråga nätverksadministratören om du behöver uppdatera tillåtelselista för att få plats.
 
-Mer information om hur du ställer in tillåtelselista i din organisation finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Mer information om hur du konfigurerar tillåtelselista i din organisation finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

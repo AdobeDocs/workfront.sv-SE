@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Arbeta med korrektur och filer i [!DNL Workfront Proof]
-description: Arbeta med korrektur och filer i [!DNL Workfront Proof].
+title: Arbeta med korrektur och filer i  [!DNL Workfront Proof]
+description: Arbeta med korrektur och filer i  [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Automatiserat arbetsflöde i [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
-* [Grundfunktioner i [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
+* [Automatiskt arbetsflöde i  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
+* [Grundläggande funktioner i  [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [Skapa korrektur och filer](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
 * [Hantera ditt arbete](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
 * [Ordna ditt arbete](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)

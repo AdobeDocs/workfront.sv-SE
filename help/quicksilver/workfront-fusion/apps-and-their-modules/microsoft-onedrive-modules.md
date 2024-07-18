@@ -5,7 +5,7 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Microsoft OneDrive-moduler
-description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöden som använder OneDrive samt ansluta det till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder OneDrive samt ansluta det till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 # [!DNL Microsoft OneDrive] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL OneDrive], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL OneDrive] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,36 +43,36 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL OneDrive] moduler, du måste ha en [!DNL Microsoft OneDrive] konto.
+Du måste ha ett [!DNL Microsoft OneDrive]-konto för att kunna använda [!DNL OneDrive]-moduler.
 
 
 
 
-## Ansluta [!DNL OneDrive] service till [!DNL Workfront Fusion]
+## Ansluter tjänsten [!DNL OneDrive] till [!DNL Workfront Fusion]
 
-Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!UICONTROL Workfront Fusion], se [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - Grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
+Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!UICONTROL Workfront Fusion] finns i [Skapa en anslutning till [!UICONTROL Adobe Workfront Fusion] - grundläggande instruktioner](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -80,9 +80,9 @@ Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!UICONTROL Workfron
 >
 >Om en användare till exempel har behörighet att läsa tabell som beviljats via Excel-anslutningen och sedan skapar en anslutning i Outlook-anslutningen för att läsa e-post, visar tillståndsskärmen både den behörighet som redan har beviljats för att läsa tabell och den behörighet som nyligen har krävts för att skriva e-post.
 
-## [!DNL Microsoft OneDrive] moduler och deras fält
+## [!DNL Microsoft OneDrive]-moduler och deras fält
 
-När du konfigurerar [!DNL OneDrive] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL OneDrive] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL OneDrive] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL OneDrive] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -114,7 +114,7 @@ Den här utlösarmodulen startar ett scenario när en fil eller mapp skapas elle
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Files/Folders]</td> 
@@ -140,7 +140,7 @@ Den här utlösarmodulen startar ett scenario när en fil eller mapp skapas elle
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Välj om du vill bevaka filer, mappar eller båda.</p> <p>Obs! Du kan inte bevaka mappar i en [!UICONTROL Shared With Me] kör.</p> </td> 
+   <td> <p>Välj om du vill bevaka filer, mappar eller båda.</p> <p>Obs! Du kan inte bevaka mappar i en [!UICONTROL Shared With Me]-enhet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -161,7 +161,7 @@ Den här sökmodulen returnerar filer och mappar baserat på de villkor du anger
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] plats]</td> 
@@ -173,13 +173,13 @@ Den här sökmodulen returnerar filer och mappar baserat på de villkor du anger
        <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigera till mappen som du vill att modulen ska söka i. Du kan också ange en fråga för att filtrera de returnerade resultaten.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>Modulen söker efter filer som har delats med enhetens ägare.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats som du vill att modulen ska söka efter. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj den [!DNL SharePoint]-plats som du vill att modulen ska söka i. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera gruppen vars enhet du vill att modulen ska söka i.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Välj om du vill söka efter filer, mappar eller både och.</p> <p>Obs! Du kan inte söka efter mappar i en [!UICONTROL Shared With Me] kör.</p> </td> 
+   <td> <p>Välj om du vill söka efter filer, mappar eller både och.</p> <p>Obs! Du kan inte söka efter mappar i en [!UICONTROL Shared With Me]-enhet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -198,7 +198,7 @@ Den här åtgärdsmodulen hämtar metadata för en angiven fil.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -227,11 +227,11 @@ Den här åtgärdsmodulen hämtar metadata för en angiven fil.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa den enhet som innehåller filen som du vill hämta. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Markera eller mappa den enhet som innehåller filen som du vill hämta. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
-   <td> <p>Om du valde [!UICONTROL Enter Manually]anger eller mappar du fil-ID:t eller sökvägen till filen som du vill hämta.</p> <p>Om du valde [!UICONTROL Select from the list]markerar du filen som du vill hämta.</p> </td> 
+   <td> <p>Om du har markerat [!UICONTROL Enter Manually] anger eller mappar du fil-ID:t eller sökvägen till filen som du vill hämta.</p> <p>Om du har markerat [!UICONTROL Select from the list] markerar du filen som du vill hämta.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -246,7 +246,7 @@ Den här åtgärdsmodulen hämtar den angivna filen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -275,11 +275,11 @@ Den här åtgärdsmodulen hämtar den angivna filen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa enheten som innehåller filen som du vill hämta. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Markera eller mappa enheten som innehåller filen som du vill hämta. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
-   <td> <p>Om du valde [!UICONTROL Enter Manually]anger eller mappar filens ID eller sökväg som du vill hämta.</p> <p>Om du valde [!UICONTROL Select from the list]markerar du filen som du vill hämta.</p> </td> 
+   <td> <p>Om du valde [!UICONTROL Enter Manually] anger eller mappar du fil-ID:t eller sökvägen till filen som du vill hämta.</p> <p>Om du valde [!UICONTROL Select from the list] markerar du filen som du vill hämta.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Convert to PDF]</td> 
@@ -334,7 +334,7 @@ Den här åtgärdsmodulen överför en fil till den angivna mappen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ange (mapplats-ID och -sökväg)</td> 
@@ -349,13 +349,13 @@ Den här åtgärdsmodulen överför en fil till den angivna mappen.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Välj den enhet som innehåller filen som du vill hämta.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats som innehåller den mapp där du vill överföra en fil. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj den [!DNL SharePoint]-plats som innehåller mappen dit du vill överföra en fil. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera den grupp vars enhet innehåller mappen dit du vill överföra en fil.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Välj den enhet som innehåller mappen dit du vill överföra en fil. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Välj den enhet som innehåller mappen dit du vill överföra en fil. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -382,7 +382,7 @@ Den här åtgärdsmodulen skapar en ny mapp på den angivna enheten.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] plats]</td> 
@@ -393,13 +393,13 @@ Den här åtgärdsmodulen skapar en ny mapp på den angivna enheten.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Välj den enhet där du vill skapa en mapp.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats där du vill skapa en mapp. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj den [!DNL SharePoint]-plats där du vill skapa en mapp. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera gruppen som äger enheten där du vill skapa en mapp.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Välj den enhet där du vill skapa en mapp. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Välj den enhet där du vill skapa en mapp. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -426,7 +426,7 @@ Den här åtgärdsmodulen returnerar en delningslänk för den angivna filen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -455,11 +455,11 @@ Den här åtgärdsmodulen returnerar en delningslänk för den angivna filen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa enheten som innehåller filen som du vill hämta en delningslänk för. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Markera eller mappa enheten som innehåller filen som du vill hämta en delningslänk för. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
-   <td> <p>Om du valde [!UICONTROL Enter Manually]anger eller mappar du fil-ID:t eller sökvägen till filen som du vill hämta en delningslänk för.</p> <p>Om du valde [!UICONTROL Select] i listan väljer du den fil som du vill hämta en delningslänk för.</p> </td> 
+   <td> <p>Om du valde [!UICONTROL Enter Manually] anger eller mappar du fil-ID:t eller sökvägen för filen som du vill hämta en delningslänk för.</p> <p>Om du valde [!UICONTROL Select] i listan markerar du filen som du vill hämta en delningslänk för.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Permission Type]</td> 
@@ -482,7 +482,7 @@ Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapp
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -505,13 +505,13 @@ Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapp
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Ange ID:t för den enhet som innehåller filen eller mappen som du vill flytta.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats som innehåller filen eller mappen som du vill flytta. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Markera platsen [!DNL SharePoint] som innehåller filen eller mappen som du vill flytta. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera gruppen vars enhet innehåller filen eller mappen som du vill flytta.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa den enhet som innehåller filen eller mappen som du vill flytta. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Markera eller mappa den enhet som innehåller filen eller mappen som du vill flytta. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Välj [!UICONTROL File/Folder]</td> 
@@ -519,7 +519,7 @@ Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapp
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> <p role="rowheader">[!UICONTROL Folder] / [!UICONTROL Folder ID] / [!UICONTROL Folder Path]</p> </td> 
-   <td> <p>Om du valde [!UICONTROL Enter Manually]anger eller mappar du ID:t eller sökvägen till filen eller mappen som du vill flytta.</p> <p>Om du valde [!UICONTROL Select] i listan markerar du filen eller mappen som du vill flytta.</p> </td> 
+   <td> <p>Om du markerade [!UICONTROL Enter Manually] anger eller mappar du ID:t eller sökvägen för filen eller mappen som du vill flytta.</p> <p>Om du markerade [!UICONTROL Select] i listan markerar du filen eller mappen som du vill flytta.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
@@ -538,13 +538,13 @@ Den här åtgärdsmodulen flyttar en fil eller mapp till en ny mapp
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Ange ID:t för den enhet där du vill flytta filen eller mappen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats där du vill flytta filen eller mappen. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj den [!DNL SharePoint]-plats där du vill flytta filen eller mappen. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera gruppen som du vill flytta filen eller mappen till.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa enheten som innehåller mappen som du vill flytta filen eller mappen till. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> <p>Om du lämnar detta tomt kan filen eller mappen bara flyttas inom samma [!DNL OneDrive].</p> <p>Du kan flytta filer och mappar från [!UICONTROL My Drive] till [!UICONTROL Site's Drive] eller en [!UICONTROL Group's Drive]. </p> <p>Du kan flytta filer från en [!UICONTROL Site's Drive] till samma enhet på samma plats.</p> <p>Du kan flytta filer från en [!UICONTROL Group's Drive] till samma enhet i samma grupp.</p> </td> 
+   <td> <p>Markera eller mappa enheten som innehåller mappen som du vill flytta filen eller mappen till. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> <p>Om du lämnar detta tomt kan filen eller mappen bara flyttas inom samma [!DNL OneDrive].</p> <p>Du kan flytta filer och mappar från [!UICONTROL My Drive] till en [!UICONTROL Site's Drive] eller en [!UICONTROL Group's Drive]. </p> <p>Du kan bara flytta filer från en [!UICONTROL Site's Drive] till samma enhet på samma plats.</p> <p>Du kan bara flytta filer från en [!UICONTROL Group's Drive] till samma enhet i samma grupp.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -563,7 +563,7 @@ Den här åtgärdsmodulen kopierar en fil till en ny mapp
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
@@ -592,11 +592,11 @@ Den här åtgärdsmodulen kopierar en fil till en ny mapp
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa den enhet som innehåller filen som du vill kopiera. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Markera eller mappa den enhet som innehåller filen som du vill kopiera. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> </td> 
-   <td> <p>Om du valde [!UICONTROL Enter Manually]anger eller mappar du ID:t eller sökvägen för filen som du vill kopiera.</p> <p>Om du valde [!UICONTROL Select] i listan markerar du filen som du vill kopiera.</p> </td> 
+   <td> <p>Om du markerade [!UICONTROL Enter Manually] anger eller mappar du ID:t eller sökvägen för filen som du vill kopiera.</p> <p>Om du markerade [!UICONTROL Select] i listan markerar du filen som du vill kopiera.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
@@ -615,13 +615,13 @@ Den här åtgärdsmodulen kopierar en fil till en ny mapp
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Ange ID:t för den enhet där du vill kopiera filen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats där du vill kopiera filen. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj den [!DNL SharePoint]-plats där du vill kopiera filen. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera gruppen som du vill kopiera filen till.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa enheten som innehåller mappen som du vill kopiera filen till. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> <p>Om du lämnar detta tomt kan filen eller mappen bara kopieras inom samma [!UICONTROL OneDrive].</p> <p>Du kan kopiera filer och mappar från [!UICONTROL My Drive] till [!UICONTROL Site's Drive] eller en [!UICONTROL Group's Drive]. </p> <p>Du kan kopiera filer från en [!UICONTROL Site's Drive] till samma enhet på samma plats.</p> <p>Du kan kopiera filer från en [!UICONTROL Group's Drive] till samma enhet i samma grupp.</p> </td> 
+   <td> <p>Markera eller mappa enheten som innehåller mappen som du vill kopiera filen till. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> <p>Om du lämnar detta tomt kan filen eller mappen bara kopieras inom samma [!UICONTROL OneDrive].</p> <p>Du kan kopiera filer och mappar från [!UICONTROL My Drive] till en [!UICONTROL Site's Drive] eller en [!UICONTROL Group's Drive]. </p> <p>Du kan bara kopiera filer från en [!UICONTROL Site's Drive] till samma enhet på samma plats.</p> <p>Du kan bara kopiera filer från en [!UICONTROL Group's Drive] till samma enhet i samma grupp.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -644,7 +644,7 @@ Den här åtgärdsmodulen tar bort den markerade filen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter (File/Folder ID & Path)]</td> 
@@ -667,13 +667,13 @@ Den här åtgärdsmodulen tar bort den markerade filen.
        <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Ange ID:t för den enhet som innehåller filen eller mappen som du vill ta bort.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Välj [!DNL SharePoint] Plats som innehåller filen eller mappen som du vill ta bort. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Markera platsen [!DNL SharePoint] som innehåller filen eller mappen som du vill ta bort. Tillgängliga platser är platser följt av den inloggade användaren.</p> </li> 
      <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Markera gruppen vars enhet innehåller filen eller mappen som du vill ta bort.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Markera eller mappa den enhet som innehåller filen eller mappen som du vill ta bort. Det här fältet är inte tillgängligt om du har valt [!UICONTROL No] i [!UICONTROL Enable to Enter a Drive ID] fält.</p> </td> 
+   <td> <p>Markera eller mappa den enhet som innehåller filen eller mappen som du vill ta bort. Det här fältet är inte tillgängligt om du har markerat [!UICONTROL No] i fältet [!UICONTROL Enable to Enter a Drive ID].</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Välj [!UICONTROL File/Folder]</td> 
@@ -681,7 +681,7 @@ Den här åtgärdsmodulen tar bort den markerade filen.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
-   <td> <p>Om du valde [!UICONTROL Enter Manually]anger eller mappar du fil-ID:t eller sökvägen till filen som du vill ta bort.</p> <p>Om du valde [!UICONTROL Select] i listan markerar du filen som du vill ta bort.</p> </td> 
+   <td> <p>Om du har markerat [!UICONTROL Enter Manually] anger eller mappar du fil-ID:t eller sökvägen till filen som du vill ta bort.</p> <p>Om du markerade [!UICONTROL Select] i listan markerar du filen som du vill ta bort.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -698,15 +698,15 @@ Denna modul utför ett anpassat API-anrop.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Instruktioner om hur du ansluter [!DNL OneDrive] konto till [!DNL Workfront Fusion], se <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner</a></td> 
+   <td>Instruktioner om hur du ansluter ditt [!DNL OneDrive]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner</a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg i förhållande till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/drive/root/children</code></td> 
+   <td>Ange en relativ sökväg till <code>https://graph.microsoft.com</code>. Exempel:<code> /v1.0/me/drive/root/children</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -718,7 +718,7 @@ Denna modul utför ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -732,6 +732,6 @@ Denna modul utför ett anpassat API-anrop.
 
 Det finns flera möjliga problem när det inte går att överföra eller uppdatera en fil:
 
-* Den överförda filen är för stor och överskrider den maximala filstorleken för din [!DNL OneDrive] eller så har du använt alla [!DNL OneDrive] kontots lagringsutrymme. Om du vill ha mer lagringsutrymme tar du bort befintliga filer från [!DNL OneDrive] eller uppgradera [!DNL OneDrive] konto.
-* Det går inte att överföra två filer med samma namn till en enda mapp med OneDrive. Om målmappen innehåller en fil med samma namn som den fil som överförs avslutas scenariot med ett fel. Lösningen är att byta namn på filen som överförs. Om du vill uppdatera en fil använder du [!UICONTROL Update a file] åtgärd.
+* Den överförda filen är för stor och överskrider maxgränsen för filstorlek för din [!DNL OneDrive]-plan, eller så har du använt hela lagringskvoten för ditt [!DNL OneDrive]-konto. Om du vill ha mer lagringsutrymme tar du bort befintliga filer från [!DNL OneDrive] eller uppgraderar ditt [!DNL OneDrive]-konto.
+* Det går inte att överföra två filer med samma namn till en enda mapp med OneDrive. Om målmappen innehåller en fil med samma namn som den fil som överförs avslutas scenariot med ett fel. Lösningen är att byta namn på filen som överförs. Om du vill uppdatera en fil använder du åtgärden [!UICONTROL Update a file].
 * Den tidigare markerade mappen, som filen överförs till, finns inte längre. Scenariot stoppas och du måste välja målmappen igen.

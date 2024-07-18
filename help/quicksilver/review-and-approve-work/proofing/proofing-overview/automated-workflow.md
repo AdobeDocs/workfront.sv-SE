@@ -18,9 +18,9 @@ ht-degree: 0%
 
 <!-- Audited: 01/2024 -->
 
-Med automatiserade arbetsflöden kan du skapa en serie sekventiella eller parallella granskningsfaser, upprätta beroenden mellan dessa faser och begränsa synligheten för vissa användare. Om granskningsprocessen består av olika steg flyttar automatiserade arbetsflöden automatiskt korrekturet genom de olika stegen och informerar berörda granskare och godkännare längs vägen. Mer information om hur du konfigurerar ett automatiskt arbetsflöde finns i [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Med automatiserade arbetsflöden kan du skapa en serie sekventiella eller parallella granskningsfaser, upprätta beroenden mellan dessa faser och begränsa synligheten för vissa användare. Om granskningsprocessen består av olika steg flyttar automatiserade arbetsflöden automatiskt korrekturet genom de olika stegen och informerar berörda granskare och godkännare längs vägen. Mer information om hur du konfigurerar ett automatiserat arbetsflöde finns i [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Exempel:**  Med automatiserade arbetsflöden kan ni hantera komplexa korrekturgranskningsprocesser som:
+**Exempel:** Med automatiserade arbetsflöden kan du hantera komplexa korrekturgranskningsprocesser som:
 
 * När olika grupper eller granskare måste granska innehållet i en viss ordning
 * När det finns beroenden mellan användarens aktivitet när de granskar innehållet

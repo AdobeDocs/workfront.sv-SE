@@ -22,10 +22,10 @@ Den här sidan beskriver alla administratörsförbättringar som ingår i versio
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2019.2 finns på [Översikt över versionsaktivitet 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.2 finns i [2019.2 Release Activity Overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Ange jobbroller för timtransaktioner
 
 Du kan nu ange en jobbroll när du loggar in i Workfront. Om du vill använda den här funktionen måste Workfront-administratören aktivera en inställning under Tidrapport och timmar > Inställningar.
 
-Mer information om hur du anger en jobbroll när du loggar tid finns i artikeln [Loggtid](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Mer information om hur du anger en jobbroll under loggningstiden finns i artikeln [Loggtid](../../../../timesheets/create-and-manage-timesheets/log-time.md).

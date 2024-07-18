@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -69,10 +69,10 @@ Följande objekt kopieras aldrig från ett befintligt projekt till ett nytt:
 ## Kopiera en mall
 
 1. Gå till mallen som du vill kopiera.
-1. Klicka på **Mer** meny ![](assets/qs-more-icon-on-an-object.png)och sedan klicka **Kopiera**.
-1. Ange ett namn för mallen i **Nytt mallnamn** fält.
+1. Klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Kopiera**.
+1. Ange ett namn för mallen i fältet **Nytt mallnamn**.
 
    Som standard är det nya namnet **Kopia av `<original template name>`.**
 
 1. Välj om du vill **Bevara användartilldelningar för uppgifter och mallar**: välj det här alternativet om du vill överföra alla uppgifter och malltilldelningar från den ursprungliga mallen till den nya mallen.
-1. Klicka **Spara** om du vill skapa en kopia av mallen.
+1. Klicka på **Spara** för att skapa en kopia av mallen.

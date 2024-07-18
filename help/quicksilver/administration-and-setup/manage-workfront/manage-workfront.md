@@ -24,7 +24,7 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Konfigurera rapporter](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [E-post](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [Säkerhet](../../administration-and-setup/manage-workfront/security/security.md)
-* [Växelkurser](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
+* [Valutakurser](../../administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
 * [Hantera borttagna objekt](../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
 * [Diagnostik](../../administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
 * [Spark-Starts](../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts.md)

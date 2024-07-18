@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: 'Frågor och svar: korrektur inom migrering från Adobe Workfront - USA till EMEA'
-description: Adobe Workfront kontaktar direkt alla organisationer som berörs av migreringen av Workfront Proof US till EMEA.
+description: Adobe Workfront kontaktar alla organisationer som berörs av migrationen från Workfront Proof USA till EMEA.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ## Hur vet jag om den här ändringen påverkar vår organisation? 
 
-Adobe Workfront kontaktar direkt alla organisationer som berörs av migreringen av Workfront Proof US till EMEA.
+Adobe Workfront kontaktar alla organisationer som berörs av migrationen från Workfront Proof USA till EMEA.
 
 ## Behöver jag göra något för att förbereda mig för migreringen?
 
@@ -33,7 +33,7 @@ När kontomigreringen är klar börjar vi flytta alla dina filer från vårt dat
 
 När migreringen är klar kan du och dina användare bara komma åt filer och korrektur från EMEA:s datacenter. 
 
-## Vad händer med den URL som jag använder för att öppna Workfront Proof?
+## Vad händer med den URL som jag använder för att komma åt Workfront Proof?
 
 För att migreringen ska bli möjlig måste den URL som du använder för att få åtkomst till systemet ändras från proofhq.com till proofhq.eu. Alla som använder den gamla proofhq.com efter migreringen får ett meddelande med den nya inloggningslänken:
 

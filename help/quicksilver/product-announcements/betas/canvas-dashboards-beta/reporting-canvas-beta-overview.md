@@ -21,19 +21,19 @@ ht-degree: 0%
 
 Den nya rapportfunktionen i Workfront är under utveckling. När vi utformade Reporting Canvas har vi arbetat hårt med att skapa en upplevelse som ger maximal flexibilitet i kombination med en intuitiv, modulär design, så att användare som du på bästa sätt kan utnyttja dina egna data när de skapar och delar rapporter. Tack vare en ny, enhetlig rapporttyp som gör att du kan dra och släppa nästan alla element på en obegränsad arbetsyta blir det snart enklare än någonsin att skapa ett visuellt datamasterverk.
 
-Den här artikeln innehåller information om den aktuella privata betaversionen, som är begränsad till specifika kunder. Nya rapportfunktioner för arbetsytan distribueras nu via Canvas Dashboards. Se **Utvecklingsplan** nedan för mer information.
+Den här artikeln innehåller information om den aktuella privata betaversionen, som är begränsad till specifika kunder. Nya rapportfunktioner för arbetsytan distribueras nu via Canvas Dashboards. Mer information finns i **Utvecklingsplan** nedan.
 
 ### Utvecklingsplan
 
 Vi är i slutskedet när det gäller att lösa ett problem med datakvalitet som vi observerade tidigt i betaversionen av Reporting Canvas. Vi kommer snart att återuppta arbetet med att ta fram nya visualiseringar, utvidga urvalet av rapporteringspliktiga Workfront-objekt och förbättra upplevelserna av att skapa och distribuera rapporter, som alla är viktiga för att förverkliga våra mål för Rapportera arbetsyta.
 
-Vi kommer att leverera dessa nya upplevelser stegvis, från och med version 23.2, via den nya sidan Canvas Dashboards som nu är tillgänglig i din förhandsvisningsmiljö. På arbetsytans kontrollpaneler kan du visa befintliga rapporter tillsammans med de nya rapporteringsfunktionerna som vi håller på att skapa, och de kommer att fungera som vår primära miljö för driftsättning och testning av nya funktioner för Reporting Canvas. Mer information om hur du aktiverar och använder arbetsytans kontrollpaneler finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Vi kommer att leverera dessa nya upplevelser stegvis, från och med version 23.2, via den nya sidan Canvas Dashboards som nu är tillgänglig i din förhandsvisningsmiljö. På arbetsytans kontrollpaneler kan du visa befintliga rapporter tillsammans med de nya rapporteringsfunktionerna som vi håller på att skapa, och de kommer att fungera som vår primära miljö för driftsättning och testning av nya funktioner för Reporting Canvas. Mer information om hur du aktiverar och använder arbetsytans kontrollpaneler finns i [Översikt över arbetsytans kontrollpaneler](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Delta i betaversionen
 
 >[!IMPORTANT]
 >
->Betaversionsinformationen nedan är till för administratörer som redan har inkluderats i betaversionen av Reporting Canvas, som inte längre accepterar nya deltagare. Om du vill testa de nya funktionerna i Rapportera arbetsyta när de läggs till, se **Utvecklingsplan** ovan om du vill ha information om hur du aktiverar Canvas Dashboards.
+>Betaversionsinformationen nedan är till för administratörer som redan har inkluderats i betaversionen av Reporting Canvas, som inte längre accepterar nya deltagare. Om du vill testa de nya funktionerna i Rapportera arbetsyta när de läggs till kan du läsa **Utvecklingsplan** ovan för information om hur du aktiverar Canvas-instrumentpaneler.
 
 ### Tillgänglighet
 
@@ -43,8 +43,8 @@ Betaversionen av Reporting Canvas är tillgänglig för alla organisationer på 
 
 Betaversionen av Reporting Canvas är helt valfri, men kan bara väljas av en Workfront-administratör. Så här väljer du systemadministratör:
 
-1. Välj **Rapportering (beta)** -ikonen på huvudmenyn i din Workfront-instans.
-1. Klicka **Acceptera** att acceptera villkoren.
+1. Välj ikonen **Rapportering (beta)** på huvudmenyn för din Workfront-instans.
+1. Klicka på **Acceptera** för att acceptera villkoren.
 1. Tillåt att organisationens data läggs till i rapportarbetsytan (detta kan ta upp till några timmar).
 1. Börja använda Rapportera arbetsyta.
 
@@ -52,26 +52,26 @@ När data har lagts till i Rapporteringsarbetsyta kan andra systemadministratör
 
 Så här väljer du andra användare som inte är Workfront-administratörer:
 
-1. Välj **Rapportering (beta)** -ikonen på huvudmenyn i din Workfront-instans.
-1. Klicka på **Behörigheter för rapportarbetsytan**.
+1. Välj ikonen **Rapportering (beta)** på huvudmenyn för din Workfront-instans.
+1. Klicka på **Rapportera arbetsytebehörigheter**.
 1. Sök efter och välj de användare du vill delta i.
 
    >[!IMPORTANT]
    >
-   >Användare som du ger åtkomst till Reporting Canvas får åtkomst till **alla** data i systemet i skrivskyddad kapacitet, oavsett deras standardbehörigheter för att visa dessa data.
+   >Användare som du ger åtkomst till Reporting Canvas får tillgång till **alla**-data i systemet i skrivskyddad kapacitet, oavsett deras standardbehörigheter för att visa dessa data.
 
-1. Klicka **Spara**.
-1. Lägg till **Rapportering (beta)** -ikonen i huvudlayoutmallen för varje markerad användare. Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-1. Varje användare måste sedan individuellt navigera till **Rapportering (beta)** på huvudmenyn och acceptera villkoren.
+1. Klicka på **Spara**.
+1. Lägg till ikonen **Rapportering (beta)** i huvudlayoutmallen för varje användare som har valts. Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Varje användare måste sedan navigera individuellt till ikonen **Rapportering (beta)** på huvudmenyn och acceptera villkoren.
 
 ### Skicka feedback
 
 Så här skickar du feedback om betaversionen:
 
-1. Klicka på knappen **Skicka feedback** -knappen.
-1. Fyll i formuläret och klicka sedan **Skicka**.
+1. Klicka på knappen **Skicka feedback** när du är i Reporting Canvas i Workfront.
+1. Fyll i formuläret och klicka sedan på **Skicka**.
 
-## Vanliga frågor om betaversion
+## BETA FAQ
 
 +++Kan jag migrera mina äldre rapporter till Reporting Canvas?
 
@@ -86,7 +86,7 @@ Vår nuvarande strategi för migrering i den officiella versionen är att göra 
    1. Ge dig möjlighet att exportera en CSV-fil med alla rapporter och kontrollpaneler i systemet tillsammans med relevant spårningsinformation (antal vyer, när och av vem).
    1. Exportera rapporter som har konfigurerats med schemalagda leveranser tillsammans med mottagarna.
 
-1. Markera de rapporter och kontrollpaneler som du vill migrera och klicka sedan på **Migrera**
+1. Markera de rapporter och instrumentpaneler som du vill migrera och klicka sedan på **Migrera**
 
    Det här är en enkelriktad migrering. Den skapar en kopia av de markerade rapporterna och kontrollpanelerna till Rapporteringsarbetsyta och lämnar den äldre rapporten eller kontrollpanelen oförändrad i det aktuella rapportverktyget.
 
@@ -125,7 +125,7 @@ En Workfront-administratör kan inte avanmäla sig från betaversionen, men andr
 
 1. Logga in som systemadministratör.
 1. Navigera till Rapporteringsarbetsyta.
-1. Klicka på Rapporteringsarbetsyta **behörigheter**.
+1. Klicka på Rapportera arbetsyta **behörigheter**.
 1. Ta bort de användare som du vill avanmäla från betaversionen från listan som har valts in.
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 +++

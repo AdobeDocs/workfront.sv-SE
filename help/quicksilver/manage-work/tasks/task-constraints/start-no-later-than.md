@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ---
 
-# Översikt över uppgiftsbegränsning: Starta inte senare än
+# Översikt över aktivitetsbegränsning: Starta inte senare än
 
 Starta tidigast (SNLT) är en aktivitetsbegränsning som schemalägger en aktivitet att starta före det datum du anger.
 
 Tänk på följande när du arbetar med SNLT-begränsningen:
 
-* Du bör använda begränsningen Starta senast när projektet är schemalagt från fullständigt datum. I det här fallet kan du ange en mjuk begränsning för en aktivitet innan den tvingar andra beroende uppgifter att visas som Risksumma.
-* Starta tidigast är standardbegränsningen om ett projekt använder schemaläggningsläget Schemalägg från slutförandedatum och system- eller gruppstandardvärdet för startdatumet för en aktivitet är Idag. Mer information om var du ska ange standardbegränsning för en ny uppgift finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Du bör använda begränsningen Start inte senare än när projektet är schemalagt från fullständigt datum. I det här fallet kan du ange en mjuk begränsning för en aktivitet innan den tvingar andra beroende uppgifter att visas som Risksumma.
+* Starta tidigast är standardbegränsningen om ett projekt använder schemaläggningsläget Schemalägg från slutförandedatum och system- eller gruppstandardvärdet för startdatumet för en aktivitet är Idag. Mer information om var du ska ange standardbegränsning för en ny uppgift finns i [Konfigurera systemomfattande uppgifter och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * När du använder SNLT-begränsningen med ett Schedule From Start Date-projekt schemalägger Adobe Workfront aktiviteten på samma sätt som en Så snart som möjligt-åtgärd.
 * När du flyttar eller kopierar en uppgift med en SNLT-begränsning till ett annat projekt kan villkoret för aktiviteten eller datumen i projektet ändras beroende på vilka villkorsdatumen är och vilka datum projektet börjar och slutförs. Följande scenarier finns:
 
@@ -32,15 +32,16 @@ Tänk på följande när du arbetar med SNLT-begränsningen:
 
       * När målprojektet är schemalagt från slutförande:
 
-         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date ändras aktivitetsbegränsningen till As Late As Possible.
+         * När begränsningsdatumet för aktiviteten är senare än Project Completion Date, ändras aktivitetsbegränsningen till As Late As Possible.
          * När villkorsdatumet för aktiviteten är tidigare än det planerade startdatumet för projektet ändras projektets planerade startdatum så att det matchar startvillkorsdatumet för aktiviteten.
+
       * Oavsett schemat för projektet, när villkorsdatumet för aktiviteten ligger inom projektets start- och slutförandedatum, finns det inga ändringar i aktivitetsbegränsningen eller projektdatumen.
 
-   Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+  Mer information om att flytta uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-   Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -53,22 +53,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Skicka ett e-postmeddelande till en projektgruppsmedlem {#send-an-email-to-a-project-team-member}
 
 1. Gå till ett projekt vars medlemmar i projektteamet du vill skicka ett e-postmeddelande till.
-1. Klicka **Folk** i den vänstra panelen. Du kan behöva klicka **Visa fler** först.
+1. Klicka på **Personer** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
 
-   Om du vill uppdatera alla medlemmar i projektteamet klickar du på **Uppdatera alla** i det övre vänstra hörnet av listan över projektgruppsmedlemmar.
+   Om du vill uppdatera alla medlemmar i projektteamet klickar du på **Uppdatera alla** i det övre vänstra hörnet i listan över medlemmar i projektteamet.
 
    eller
 
    Om du vill uppdatera vissa medlemmar i projektteamet väljer du en eller flera användare i listan och klickar sedan på **Skicka uppdatering till användare******.\
    ![Kommentar_1.png](assets/commenting-1-350x352.png)
 
-1. Skriv din uppdatering i **Publicera en uppdatering av det här projektet** fält.
-1. (Valfritt) Om du vill göra uppdateringen privat klickar du på knappen **Lås** ikon.
+1. Skriv din uppdatering i fältet **Publicera en uppdatering för projektet**.
+1. (Valfritt) Om du vill göra uppdateringen privat klickar du på ikonen **Lås** .
 
    Användare utanför företaget kan inte visa en privat uppdatering.
 
-1. (Valfritt) Klicka på **Folk** om du vill lägga till fler mottagare som inte är markerade.
-1. Klicka **Skicka**.
+1. (Valfritt) Klicka på ikonen **Personer** om du vill lägga till fler mottagare som inte är markerade.
+1. Klicka på **Skicka**.
 
    Uppdateringen och namnen på de användare som ingår i den visas på fliken Uppdateringar i projektet.
 
@@ -79,7 +79,7 @@ Du kan skicka projektuppdateringar till teammedlemmar och till andra användare 
 1. Gå till ett projekt från vilket du vill skicka uppdateringar till andra användare.
 1. (Valfritt och villkorligt) Om användarna som du vill skicka uppdateringar till inte är med i projektteamet lägger du till dem i projektteamet.
 
-   Mer information om hur du lägger till användare i projektteamet finns i [Hantera projektgruppen](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Mer information om hur du lägger till användare i projektteamet finns i [Hantera projektteamet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 1. Skicka en uppdatering till medlemmarna i projektteamet enligt beskrivningen i
 

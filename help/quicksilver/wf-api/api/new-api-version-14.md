@@ -9,7 +9,7 @@ role: Developer
 exl-id: eca5d1cc-6348-445c-be84-c0a29f15980d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '891'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Följande resurser ändrades för API-version 14.
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [DocumentVersion (DOCV)](#documentversion-docv)
 * [Grupp (GRUPP)](#group-group)
-* [NoteTag (NTAG)](#notetag-ntag)
+* [Anteckningstagg (NTAG)](#notetag-ntag)
 * [Projekt (PROJ)](#project-proj)
 * [QueueDef (QUED)](#queuedef-qued)
 * [Resursallokering (RSALLO)](#resource-allocation-rsallo)
@@ -51,7 +51,7 @@ Ett BillingRecord-objekt registrerar intäkter, timmar eller utgifter som kan fa
 
 Mer information om faktureringsposter finns i [Skapa faktureringsposter](../../manage-work/projects/project-finances/create-billing-records.md).
 
-Faktureringsposten-objektet lade till flaggan **DATA_EXTENDIBLE**.
+Faktureringspostobjektet lade till flaggan **DATA_EXTENDIBLE**.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -152,7 +152,7 @@ Ett CustomerPreferences-objekt representerar den uppsättning inställningar som
    <td role="rowheader">Direktfält</td> 
    <td> 
     <ul> 
-     <li> <p><b>name</b> </p> <p>Tillagt möjligt värde:</p> 
+     <li> <p><b>namn</b> </p> <p>Tillagt möjligt värde:</p> 
       <ul> 
        <li> <p>Tillåt användare att lägga till bilder i uppdateringar (uppdateringar:images.toggle)</p> </li> 
       </ul> <p>Den här parametern stöder möjligheten att lägga till bilder i uppdateringar av arbetsobjekt. </p> <p>Mer information finns i <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Uppdatera arbete</a>.</p> </li> 
@@ -205,7 +205,7 @@ Mer information om grupper finns i [Grupper kontra team i Adobe Workfront](../..
 
 Ett NoteTag-objekt representerar taggen för en användare eller ett team i en uppdatering av ett arbetsobjekt.
 
-Mer information om hur du taggar i uppdateringar finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Mer information om taggning i uppdateringar finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -215,7 +215,7 @@ Mer information om hur du taggar i uppdateringar finns i [Tagga andra för uppda
    <td role="rowheader">Operationer</td> 
    <td> <p>Följande åtgärder har lagts till i objektet NoteTag:</p> 
     <ul> 
-     <li> <p><b>COUNT</b> </p> </li> 
+     <li> <p><b>ANTAL</b> </p> </li> 
      <li> <p><b>GET</b> </p> </li> 
      <li> <p><b>RAPPORT</b> </p> </li> 
      <li> <p><b>SÖK</b> </p> </li> 
@@ -246,7 +246,7 @@ Projekt är arbetsuppgifter inom Workfront och är en viktig byggsten i det sät
 
 Ett QueueDef-objekt representerar en kö, vilket är ett projekt som har publicerats i Help Desk-området där användarna kan skicka utgåvor till den.
 
-Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om begärandeköer finns i [Skapa en begärandekö](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -256,7 +256,7 @@ Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-wor
    <td role="rowheader">Åtgärder</td> 
    <td> 
     <ul> 
-     <li> <p><b>searchByPath</b> </p> <p>Tillagd. Den här åtgärden stöder möjligheten att söka efter begäranden genom att använda sökvägen via begärandekön och ämnesgrupper.</p> <p>Mer information om hur du söker i begärandeköer efter sökväg finns i <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Skapa förfrågningar och generera utkast i Workfront webbprogram</a> in <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Skapa och skicka Adobe Workfront-förfrågningar</a>.</p> </li> 
+     <li> <p><b>searchByPath</b> </p> <p>Tillagd. Den här åtgärden stöder möjligheten att söka efter begäranden genom att använda sökvägen via begärandekön och ämnesgrupper.</p> <p>Mer information om hur du söker i begärandeköer efter sökväg finns i <a href="../../manage-work/requests/create-requests/create-submit-requests.md#create-requests-in-the-web-app" class="MCXref xref">Skapa begäranden och generera utkast i Workfront webbprogram</a> i <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Skapa och skicka Adobe Workfront-begäranden</a>.</p> </li> 
     </ul> <p> </p> </td> 
   </tr> 
  </tbody> 
@@ -266,13 +266,13 @@ Mer information om frågeköer finns i [Skapa en begärandekö](../../manage-wor
 
 Ett resursallokeringsobjekt representerar uppskattningen av resurser som behövs för ett visst projekt. Det här objektet används endast i den äldre resursplaneraren. Använd BGHR (Budgeted Hour) för motsvarande fält i den nya resursplaneraren.
 
-Objektet Resursallokering tog bort flaggan **RAPPORTERBART**.
+Resursallokeringsobjektet tog bort flaggan **REPORTABLE**.
 
 ### Roll (ROLE) {#role-role}
 
 Ett rollobjekt (jobbroll) representerar en funktionskapacitet eller en kompetensuppsättning som en användare kan fylla, till exempel Designer eller Product Manager.
 
-Mer information om jobbroller finns i [Översikt över jobbroll](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+Mer information om jobbroller finns i [Översikt över jobbrollen](../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

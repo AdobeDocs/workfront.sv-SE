@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '856'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
@@ -42,14 +42,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil för korrektur du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Ändra visningen av ditt korrektur
 
 Du kan visa ett statiskt korrektur som innehåller flera sidor i en enda vy, i en fortsättningsvy eller i en tidningsvy.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
 1. I det övre vänstra hörnet av korrekturläsaren hittar du visningsalternativen.\
    ![changing_the_view.png](assets/changing-the-view-350x213.png)
@@ -79,7 +79,7 @@ Du kan visa ett statiskt korrektur som innehåller flera sidor i en enda vy, i e
 
 Miniatyrpanelen visas på den vänstra sidan av korrekturläsaren. Du kan använda området med miniatyrbilder för att navigera genom korrekturet. Miniatyrbilder är särskilt användbara när ett korrektur innehåller flera sidor.
 
-* [Dölja och visa panelen Miniatyrer](#hide-and-display-the-thumbnails-panel)
+* [Dölj och visa panelen Miniatyrer](#hide-and-display-the-thumbnails-panel)
 * [Zooma och panorera i miniatyrbildsvyn](#zoom-and-pan-in-the-thumbnail-view)
 
 ### Dölja och visa panelen Miniatyrer {#hide-and-display-the-thumbnails-panel}
@@ -87,9 +87,9 @@ Miniatyrpanelen visas på den vänstra sidan av korrekturläsaren. Du kan använ
 Panelen Miniatyrer visas som standard. Du kan dölja eller justera panelens storlek.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. Klicka på **Miniatyrbild** ikonen i det övre vänstra hörnet av korrekturläsaren.\
+1. Klicka på ikonen **Miniatyrbild** i det övre vänstra hörnet i korrekturläsaren.\
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Valfritt) Klicka på miniatyrbildikonen igen för att visa miniatyrbildspanelen.
@@ -105,7 +105,7 @@ Zoomområdet på panelen Miniatyrbilder visar området för det korrektur som du
 Så här zoomar och panorerar du i miniatyrbildsvyn:
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
 1. Leta reda på det aktuella zoomområdet på panelen Miniatyrbilder.\
    Zoomområdet visas som en blå ram runt miniatyrbildens kanter.
@@ -120,36 +120,36 @@ Så här zoomar och panorerar du i miniatyrbildsvyn:
 Du kan rotera korrekturet i korrekturläsaren. När du roterar ett korrektur som innehåller flera sidor roteras alla sidor samtidigt.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. Klicka på **Rotera** ikonen längst ned i korrekturläsaren.
+1. Klicka på ikonen **Rotera** längst ned i korrekturläsaren.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   Korrekturläget roteras 90 grader varje gång du klickar på **Rotera** -ikon.
+   Korrekturläget roteras 90 grader varje gång du klickar på ikonen **Rotera** .
 
 ## Zooma och panorera ett korrektur
 
 Du kan justera zoomprocenten när du visar korrekturet. När du visar ett korrektur med en större zoomningsprocent kan du använda panoreringsalternativet för att navigera till olika delar av korrekturet.
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
 1. Gör något av följande om du vill justera provtryckets zoomningsprocent:
 
-   * Klicka på **Zooma** kan du antingen klicka på korrekturet för att visa korrekturet i en högre zoomnivå eller dra över ett område i korrekturet för att bara visa det området.
+   * Klicka på ikonen **Zooma** och klicka sedan på korrekturet för att visa korrekturet i en högre zoomnivå, eller dra över ett område i korrekturet för att bara visa det området.
 
      ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-   * Klicka på den aktuella zoomningsprocenten, klicka på en ny zoomningsprocent eller klicka på **Anpassa till bredd**, **Anpassa till höjd**, eller **Anpassa till sida**.
+   * Klicka på den aktuella zoomprocenten, klicka på en ny zoomningsprocent eller klicka på **Anpassa till bredd**, **Anpassa till höjd** eller **Anpassa till sida**.
 
      ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-   * Klicka på **Plus** eller **Minus** ikoner för att öka eller minska zoomningsprocenten.
+   * Klicka på ikonerna **plus** eller **minus** om du vill öka eller minska zoomprocenten.
 
      ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. Om du behöver panorera till ett visst område i videoklippet klickar du på **Panorera** och dra sedan korrekturet efter behov.
+1. Om du behöver panorera till ett visst område i videoklippet klickar du på ikonen **Panorera** och drar sedan korrekturet efter behov.
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 

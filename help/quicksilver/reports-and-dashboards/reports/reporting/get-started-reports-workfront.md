@@ -7,9 +7,9 @@ description: Rapporterna ger insyn i vad som händer med användare och arbete. 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3294'
+source-wordcount: '3295'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Rapporterna ger insyn i vad som händer med användare och arbete. Med hjälp av rapporter kan du visa information om objekt i Adobe Workfront.
 
-Mer information om hur du förstår objekt och hur de kan rapporteras i Workfront-programmet finns i [Adobe Workfront-objekt - översikt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om hur du förstår objekt och hur de kan rapporteras i Workfront-programmet finns i [Översikt över Adobe Workfront-objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Rapportelement
 
@@ -32,7 +32,7 @@ Rapporterna är en kombination av följande tre element i Workfront:
  <tbody> 
   <tr> 
    <td role="rowheader">Visa</td> 
-   <td> <li>Definierar kolumnerna i rapporten och vilken information du kan inkludera i varje kolumn.</li> <li>Mer information om vyer finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Översikt över vyer i Adobe Workfront</a>.</li> </td> 
+   <td> <li>Definierar kolumnerna i rapporten och vilken information du kan inkludera i varje kolumn.</li> <li>Mer information om vyer finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Vyöversikt i Adobe Workfront</a>.</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gruppering</td> 
@@ -40,7 +40,7 @@ Rapporterna är en kombination av följande tre element i Workfront:
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <li>Styr mängden information som visas i en rapport.</li> <li>Mer information om filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Översikt över filter</a>.</li> <li>Mer information om filtermodifierare finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- och villkorsmodifierare</a>.</li> <li>Du kan filtrera med jokertecken för att göra filtren mer allmänna och ge dem mer flexibilitet.</li> <li>Mer information om att använda jokertecken i filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Variabler för jokertecken</a>.</li> </td> 
+   <td> <li>Styr mängden information som visas i en rapport.</li> <li>Mer information om filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Översikt över filter</a>.</li> <li>Mer information om filtermodifierare finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- och villkorsmodifierare</a>.</li> <li>Du kan filtrera med jokertecken för att göra filtren mer allmänna och ge dem mer flexibilitet.</li> <li>Mer information om hur du använder jokertecken i filter finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Jokerteckensfiltervariabler</a>.</li> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,7 +49,7 @@ Rapporterna är en kombination av följande tre element i Workfront:
 >
 >När du väljer ett nytt filter, en ny vy eller en gruppering i en lista behålls markeringen även om du loggar ut från Workfront eller stänger webbläsaren.
 
-Mer information om rapportelement finns i [Rapportelement: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+Mer information om rapportelement finns i [Rapportera element: filter, vyer och grupperingar](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
 Du kan förbättra dina rapporter genom att lägga till följande element:
 
@@ -60,19 +60,19 @@ Du kan förbättra dina rapporter genom att lägga till följande element:
   Mer information om matrisrapporter finns i [Skapa en matrisrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
 * En fråga: Ett öppet filter som du kan anpassa och tillämpa på olika sätt varje gång du kör rapporten.\
-  Mer information om uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Mer information om uppmaningar finns i [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 När du skapar en rapport kan du ändra dessa element individuellt i rapportverktyget.
 
 Ett annat sätt att göra informationen i dina rapporter mer relevant är genom att använda villkorsstyrd formatering i dina vyer.\
-Mer information om att använda villkorsstyrd formatering finns i [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Mer information om villkorsstyrd formatering finns i [Använda villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Systemrapporter
 
 Workfront tillhandahåller flera systemrapporter som hämtas till ditt system som standard.\
 När du har angett information i systemet kan du använda dessa rapporter för att visa informationen visuellt.
 
-Mer information om hur du får åtkomst till systemrapporter och vilka systemrapporter som är tillgängliga finns i [Använd inbyggda rapporter från Adobe Workfront](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+Mer information om hur du får åtkomst till systemrapporter och vilka systemrapporter som är tillgängliga finns i [Använd inbyggda Adobe Workfront-rapporter](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
 
 ## Skapa rapporter
 
@@ -89,14 +89,14 @@ Mer information om hur du skapar rapporter finns i [Översikt över kalenderrapp
 ### Krav för att skapa rapporter {#prerequisites-for-creating-reports}
 
 * Du måste ha en planlicens (aktuella licenser) eller en standardlicens (nya licenser) för att kunna skapa egna rapporter.\
-  Mer information om licenstyperna för Workfront finns i [Översikt över licenser](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) för aktuella licenser, och [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) för nya licenser.
+  Information om Workfront licenstyper finns i [Licensöversikt](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) för aktuella licenser och [Översikt över nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) för nya licenser.
 
 * Din Workfront-administratör måste ge dig åtkomst till Redigera rapporter på din åtkomstnivå.\
-  Mer information om hur du beviljar åtkomst till rapporter i Redigera finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Information om hur du beviljar åtkomst till redigeringsrapporter finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Din Workfront-administratör måste ge dig åtkomst till Redigera filter, Vyer och grupperingar på din åtkomstnivå.
 
-  Mer information om hur du ger åtkomst till redigeringsfilter, vyer och grupperingar finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Mer information om att bevilja åtkomst till redigeringsfilter, vyer och grupperingar finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Du måste definiera ett objekt som du vill rapportera om. Rapporterna är objektspecifika i Workfront och du måste börja med att välja en objekttyp innan du kan börja skapa rapporten. Du kan bara rapportera om objekt som är tillgängliga i Workfront gränssnitt.
 
@@ -107,16 +107,16 @@ När du skapar en rapport i Workfront blir du standardägare av rapporten och de
 När du kopierar en rapport blir du automatiskt ägare till den kopierade rapporten.
 Information om hur du kopierar rapporter finns i [Skapa en kopia av en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Du kan se vem som äger en rapport genom att granska **Anges av** fält.
+Du kan se vem som äger en rapport genom att granska fältet **Anges av**.
 
-![Anges efter fält](assets/nwe-entered-by-350x218.png)
+![Anges av fält](assets/nwe-entered-by-350x218.png)
 
 ### Skapa rapporter i verktyget {#create-reports-in-the-builder-interface}
 
 Vi rekommenderar att du använder gränssnittet för att skapa rapporter först för att skapa en ny rapport. Gränssnittet innehåller en smidig uppsättning verktyg som hjälper dig att sätta ihop olika element för att skapa den rapport du vill ha. Du har objekt och fält som du kan välja från listor och lägga till i alla rapportelement.\
 Mer information om hur du skapar rapporter i gränssnittet för att skapa rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-En lista med objekt som du kan rapportera om finns i [Rapport om objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) i artikeln [Adobe Workfront-objekt - översikt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+En lista över objekt som du kan rapportera om finns i avsnittet [Rapport om objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) i artikeln [Översikt över Adobe Workfront-objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Mer information om fälten som du kan visa i rapporter finns i [Ordlista för Adobe Workfront-terminologi](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -125,7 +125,7 @@ Mer information om fälten som du kan visa i rapporter finns i [Ordlista för Ad
 Ibland kanske du inte kan hitta vissa fält i Builder-gränssnittet, men de kan finnas i API:t.\
 Mer information om vilka fält som är tillgängliga i API:t finns i artikeln [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Mer information om hur du använder API Explorer finns i artikeln [Använda API Explorer](../../../wf-api/general/using-api-explorer.md).
+Mer information om hur du använder API Explorer finns i artikeln [Använda API-utforskaren](../../../wf-api/general/using-api-explorer.md).
 
 >[!NOTE]
 >
@@ -137,7 +137,7 @@ I textläget kan du skapa mer komplexa vyer, filter, grupperingar och uppmaninga
 
 Du måste använda en specifik syntax för att använda Workfront textläge.
 
-Mer information om Workfront syntax för textläge finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Mer information om Workfront-syntax för textläge finns i [Syntaxöversikt för textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
 #### Beräknade kolumner, Villkorlig formatering och andra användningsområden för textläge {#calculated-columns-conditional-formatting-and-other-uses-of-text-mode}
 
@@ -147,7 +147,7 @@ En lista över de vanligaste användningsområdena för textläge i en rapport f
 
 Mer information om hur du inkluderar beräknade anpassade data i rapporter finns i [Beräknade anpassade data i rapporter](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Mer information om hur du jämför fält i villkorsstyrd formatering finns i [Jämför fält i villkorlig formatering](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Mer information om hur du jämför fält i villkorsstyrd formatering finns i [Jämför fält i villkorsstyrd formatering](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Du kan också referera till samlingsfält med hjälp av textläge i rapporter.\
 Mer information om hur du använder textläge för att visa samlingsinformation i en rapport finns i [Referenssamlingar i en rapport](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
@@ -156,13 +156,13 @@ Mer information om hur du använder textläge för att visa samlingsinformation 
 
 Vi har ett bibliotek med exempel på de mest använda vyerna, filtren och grupperingarna som du kan skapa i textläge.
 
-Om du vill bläddra i det här biblioteket och använda några av de exempel vi erbjuder kan du läsa artikeln [Anpassad vy, filter och gruppering av exempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+Om du vill bläddra i det här biblioteket och använda några av de exempel vi erbjuder kan du läsa artikeln [Anpassad vy, filter och grupperingsexempel: artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
 
 ## Flikarna i en rapport
 
 En rapport kan innehålla flera flikar när du kör rapporten i gränssnittet.
 
-Mer information om hur du kör en rapport finns i artikeln [Köra en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
+Mer information om hur du kör en rapport finns i artikeln [Kör en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 På varje flik visas den information du inkluderar i rapporten i något olika format. Välj det format som bäst passar er organisation.
 
@@ -206,7 +206,7 @@ Rapporter som innehåller ett diagram har en diagramflik.
 >När du klickar på ett diagramelement kan den utökade informationen visas på ett annat sätt än det diagram som är baserat på din tidszon.\
 >Till exempel slutförde en användare i Kalifornien en uppgift kl. 21.30 PST den 12 februari. När en användare i New York visar en rapport som innehåller den här uppgiften som slutförd, visas det faktiska slutförandedatumet som den 13 februari på både fliken Information och diagraminformationen eftersom den slutfördes kl. 12.30 EST den 13 februari. I diagrammet inkluderas det dock i grupperingen 12 februari tills du expanderar diagramelementet.
 
-Mer information om hur du skapar en rapport med ett diagram finns i artikeln [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+Mer information om hur du skapar en rapport med ett diagram finns i artikeln [Lägg till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 ### Fliken Uppmaningar {#prompts-tab}
 
@@ -214,7 +214,7 @@ Rapporter som innehåller en fråga har fliken Fråga.
 
 Med en uppmaning kan du lägga till ett filter i en rapport varje gång du kör rapporten. När du lägger till en fråga i rapporten blir fliken Fråga automatiskt rapportens standardflik. Detta kan inte ändras till en annan flik.
 
-Mer information om hur du skapar ett meddelande för en rapport finns i artikeln [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Mer information om hur du skapar en fråga för en rapport finns i artikeln [Lägg till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ## Dela rapporter
 
@@ -249,7 +249,7 @@ När rapporten har exporterats till något av dessa format kan du dela den med a
 
 ### Lägga till en rapport på en instrumentpanel {#add-a-report-to-a-dashboard}
 
-Du kan lägga till en rapport på en kontrollpanel och dela kontrollpanelen med andra användare. Mer information om hur du lägger till rapporter på en kontrollpanel finns i [Lägga till en rapport på en instrumentpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
+Du kan lägga till en rapport på en kontrollpanel och dela kontrollpanelen med andra användare. Mer information om hur du lägger till rapporter på en kontrollpanel finns i [Lägga till en rapport på en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
 
 ## Skapa kalendrar
 
@@ -287,7 +287,7 @@ Följande termer används som referens för Workfront-rapporter:
   </tr> 
   <tr> 
    <td>Attribut</td> 
-   <td> Fältet för ett objekt enligt definitionen i databasen. Den används i ett textlägesuttryck. <br>Statusfältet visas som <em>status</em> när det används i ett textlägesuttryck. </td> 
+   <td> Fältet för ett objekt enligt definitionen i databasen. Den används i ett textlägesuttryck. <br>Statusfältet visas till exempel som <em>status</em> när det används i ett textlägesuttryck. </td> 
   </tr> 
   <tr> 
    <td>Bean eller JavaBean</td> 
@@ -299,7 +299,7 @@ Följande termer används som referens för Workfront-rapporter:
   </tr> 
   <tr> 
    <td>Camera Case</td> 
-   <td> <p>Camel Case refererar till ett specifikt sätt att skriva programmeringselement till strängar för flerordsattribut tillsammans. När du stavar ett attribut i Camera Case är den första bokstaven i det första ordet gemen, det finns inget mellanrum mellan orden, och den första bokstaven i efterföljande ord är versaler.</p> <p>Hemgrupp skrivs till exempel som <em>homeGroup</em>, resurspoolen blir <em>resourcePool</em>och faktiskt startdatum blir <em>actualStartDate</em>.</p> </td> 
+   <td> <p>Camel Case refererar till ett specifikt sätt att skriva programmeringselement till strängar för flerordsattribut tillsammans. När du stavar ett attribut i Camera Case är den första bokstaven i det första ordet gemen, det finns inget mellanrum mellan orden, och den första bokstaven i efterföljande ord är versaler.</p> <p>Hemgruppen skulle till exempel skrivas som <em>homeGroup</em>, resurspoolen skulle vara <em>resourcePool</em> och det faktiska startdatumet skulle vara <em>actualStartDate</em>.</p> </td> 
   </tr> 
   <tr> 
    <td>Diagram</td> 
@@ -311,7 +311,7 @@ Följande termer används som referens för Workfront-rapporter:
      <li>Linje</li> 
      <li>Mätare</li> 
      <li>Bubbla</li> 
-    </ul> <p>Mer information om hur du lägger till diagram i rapporter finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Lägga till ett diagram i en rapport</a>.</p> </td> 
+    </ul> <p>Mer information om hur du lägger till diagram i rapporter finns i artikeln <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Lägg till ett diagram i en rapport</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Information</td> 
@@ -323,15 +323,15 @@ Följande termer används som referens för Workfront-rapporter:
   </tr> 
   <tr> 
    <td>Fält</td> 
-   <td> <p>Hänvisar till objektens attribut. "Status" är till exempel ett fält för Projekt, Åtgärder eller Problem. "Portfolio Manager" är ett fält för objektet Portfolio.</p> <p>Du kan också ha anpassade fält som du skapar själv och lägger till i anpassade formulär.<br>Mer information om hur du skapar anpassade formulär finns i artikeln <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Skapa eller redigera ett anpassat formulär</a>.</p> </td> 
+   <td> <p>Hänvisar till objektens attribut. "Status" är till exempel ett fält för Projekt, Åtgärder eller Problem. "Portfolio Manager" är ett fält för objektet Portfolio.</p> <p>Du kan också ha anpassade fält som du skapar själv och lägger till i anpassade formulär.<br>Mer information om hur du skapar anpassade formulär finns i artikeln <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Designa ett formulär med formulärdesignern</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Fältnamn </td> 
-   <td>Värdet för ett attribut som visas i en vy, används i villkoret för ett filter eller som ett gemensamt element i en gruppering. Alternativen för Fältnamn är beroende av valet av fältkälla.</td> 
+   <td>Värdet för ett attribut som visas i en vy, används i villkoret för ett filter eller som ett gemensamt element i en gruppering. Alternativen för Fältnamn är beroende av Source-valet Fält.</td> 
   </tr> 
   <tr> 
-   <td>Fältkälla </td> 
-   <td>Värdet för ett objekt som visas i en vy, eller används som villkor för ett filter, eller som ett gemensamt element för en gruppering. Alternativen i Fältkälla beror på objekttypen för det gränssnittselement som skapas. Med fältkällan kan du referera till attribut från andra objekt än UI-elementets objekttyp.</td> 
+   <td>Field Source </td> 
+   <td>Värdet för ett objekt som visas i en vy, eller används som villkor för ett filter, eller som ett gemensamt element för en gruppering. Alternativen i Field Source är beroende av objekttypen för det gränssnittselement som skapas. I Source-fältet kan du referera till attribut från andra objekt än UI-elementets objekttyp.</td> 
   </tr> 
   <tr> 
    <td>Filter</td> 
@@ -347,11 +347,11 @@ Följande termer används som referens för Workfront-rapporter:
   </tr> 
   <tr> 
    <td>Objekt- eller objekttyp</td> 
-   <td> Ett objekt är ett Workfront-programelement (till exempel Projekt, Aktivitet, Grupp, Företag, Filter). Objekttypen används när du skapar en ny rapport, vy, filter eller gruppering för att identifiera vilket objekt som är i fokus för rapporten. Rapporter kan bara ha en objekttyp, vilket är rapportens huvudobjekt.<br>Överordnade objekt kan refereras i samma rapport.<br>Mer information om objekthierarkin finns i avsnittet om ömsesidigt beroende och hierarki i artikeln <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront-objekt - översikt</a>.</td> 
+   <td> Ett objekt är ett Workfront-programelement (till exempel Projekt, Aktivitet, Grupp, Företag, Filter). Objekttypen används när du skapar en ny rapport, vy, filter eller gruppering för att identifiera vilket objekt som är i fokus för rapporten. Rapporter kan bara ha en objekttyp, vilket är rapportens huvudobjekt.<br>Överordnade objekt kan refereras i samma rapport.<br>Mer information om objekthierarkin finns i avsnittet Förstå beroende och hierarki i artikeln <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Översikt över Adobe Workfront-objekt</a>.</td> 
   </tr> 
   <tr> 
    <td>Fråga</td> 
-   <td> <p>Ett valfritt rapportelement som kan läggas till i en rapport när du behöver använda ett annat filter varje gång du kör rapporten.</p> <p>Mer information om uppmaningar finns i <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Lägga till en fråga i en rapport</a>.</p> </td> 
+   <td> <p>Ett valfritt rapportelement som kan läggas till i en rapport när du behöver använda ett annat filter varje gång du kör rapporten.</p> <p>Mer information om uppmaningar finns i <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Lägga till en uppmaning i en rapport</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Kvalificerare eller villkorsmodifierare</td> 
@@ -359,8 +359,8 @@ Följande termer används som referens för Workfront-rapporter:
     <ul> 
      <li>På fliken Filter</li> 
      <li>Skärmen Avancerade alternativ för kolumnen på fliken Kolumner (Visa). Genom att definiera en kvalificerare kan du jämföra fältnamnet med ett annat fält eller värde.</li> 
-     <li> I en anpassad fråga<br><p>Mer information om uppmaningar finns i <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Lägga till en fråga i en rapport</a>.</p>.</li> 
-    </ul> <p>Om du till exempel skapar ett filter för uppgifter med dagens planerade slutförandedatum, väljer du <strong>Jämn</strong> i fältet Kvalificerare och dagens datum i fältet Datum:</p> <p><em>Aktivitet &gt; Planerat slutförandedatum &gt; lika med&gt;(dagens datum)</em> </p> <p>I det här scenariot är kvalificeraren <strong>Jämn</strong>.<br>Mer information om kvalificerare finns i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- och villkorsmodifierare</a>.</p> </td> 
+     <li> I en anpassad fråga<br><p>Mer information om uppmaningar finns i <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Lägga till en uppmaning i en rapport</a>.</p>.</li> 
+    </ul> <p>Om du till exempel skapar ett filter för aktiviteter med ett planerat slutförandedatum i dag, väljer du <strong>Lika med</strong> i fältet Kvalificerare och dagens datum i fältet Datum:</p> <p><em>Aktivitet&gt; Planerat slutförandedatum &gt; lika med&gt;(dagens datum)</em> </p> <p>I det här scenariot är kvalificeraren <strong>lika med</strong>.<br>Mer information om kvalificerare finns i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter och villkorsmodifierare</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Rapport </td> 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Versionsaktivitet för Workfront Fusion: 14 november 2022
 
-**Microsoft Power BI-anslutning och -moduler finns nu tillgängliga**
+**Microsoft Power BI Connector och moduler är nu tillgängliga**
 
 Nu kan du ansluta Adobe Workfront Fusion till ditt Microsoft Power BI-konto.
 

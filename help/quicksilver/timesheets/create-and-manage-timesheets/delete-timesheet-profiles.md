@@ -37,7 +37,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Ge användarna administrativ åtkomst till vissa områden</a>.</p>  <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste ha administrativ åtkomst till tidrapporter. </p> <p>Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Bevilja användare administrativ åtkomst till vissa områden</a>.</p>  <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -46,14 +46,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Ta bort tidrapportprofiler
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
 1. Om du tar bort en tidrapportprofil som används i hela systemet klickar du på **Tidrapport och timmar**.
 
    eller
 
-   Om du tar bort en tidrapportprofil för en grupp klickar du på **Grupper** och klicka sedan på gruppens namn.
+   Om du tar bort en tidrapportprofil för en grupp klickar du på **Grupper** och sedan på gruppens namn.
 
-1. Klicka **Tidrapportprofiler**.
-1. Välj minst en tidrapportprofil som du vill ta bort och klicka sedan på **Mer > Ta bort**.
-1. I meddelanderutan som visas klickar du på **Ja, ta bort I** t.
+1. Klicka på **Tidrapportprofiler**.
+1. Markera minst en tidrapportprofil som du vill ta bort och klicka sedan på **Mer > Ta bort**.
+1. Klicka på **Ja, Ta bort** t i meddelanderutan som visas.

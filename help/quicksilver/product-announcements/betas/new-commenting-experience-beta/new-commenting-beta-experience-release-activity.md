@@ -41,9 +41,9 @@ ht-degree: 0%
 
 Den nya kommentarsfunktionen ger en ny design till uppdateringsavsnittet för Workfront-objekt.
 
-Information om vilka Workfront-objekt som visas i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Mer information om vilka Workfront-objekt som visar uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Information om tidslinjen för releasen för den nya kommentarsfunktionen finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Mer information om tidslinjen för att släppa den nya kommentarsfunktionen finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Funktioner som släppts under betaperioden
@@ -70,7 +70,7 @@ Förhandsgranska och producera för alla kunder: 19 oktober 2023.
 
 >[!NOTE]
 >
->Denna begränsning har tagits bort efter 28 november 2023. Mer information finns i [Första utgåvan, kvartal 2024, översikt](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Denna begränsning har tagits bort efter 28 november 2023. Mer information finns i [Översikt över utgåvan för första kvartalet 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 
 Projekt, uppgifter, utgåvor och dokument visar uppdateringar som börjar den 1 januari 2019 nu. Före den här förbättringen har den nya kommentarsupplevelsen endast hämtat uppdateringar från juni 2022 för dessa objekt.
@@ -91,7 +91,7 @@ Förhandsgranska och producera för alla kunder: 24 augusti 2023
 
 ### Vecka 14 augusti 2023
 
-[Se en videodemonstration av alla funktioner som släpptes under veckan 14 augusti 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
+[Visa en videodemonstration av alla funktioner som släpptes under veckan 14 augusti 2023](https://video.tv.adobe.com/v/3422912/){target=_blank}
 
 #### Ny kommentarfunktion för ytterligare objekt
 
@@ -147,7 +147,7 @@ Produktion för kvartalsvis lansering: Med version 23.10 (oktober 2023)
 
 Vi gör den nya kommentarsupplevelsen till standardupplevelsen för följande objekt: projekt, uppgifter, problem och dokument.  Den gamla kommentarfunktionen förblir ett alternativ när du öppnar objekten.
 
-Vi har också bytt namn till&quot;Kommentera betaversion&quot; till&quot;Ny kommentar&quot;.
+Vi har också bytt namn till&quot;Kommentera Beta&quot; till&quot;Ny kommentar&quot;.
 
 Mer information finns i [Ny kommentarsfunktion](../new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -215,7 +215,7 @@ Produktionsrelease: 29 juni 2023
 
 #### Ny kommentarsfunktion för kort i området för anslagstavlor
 
-Den nya kommentarsupplevelsen är nu tillgänglig för kort i området för anslagstavlor. Det här är den enda tillgängliga upplevelsen för kort. Mer information finns i [23.3 - versionsöversikt](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+Den nya kommentarsupplevelsen är nu tillgänglig för kort i området för anslagstavlor. Det här är den enda tillgängliga upplevelsen för kort. Mer information finns i [Översikt över version 23.3](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
 Förhandsgranska: 15 juni 2023
 
@@ -225,7 +225,7 @@ Produktion för alla kunder: med version 23.3 (juli 2023)
 
 #### Lägga till blockcitattecken i en kommentar
 
-Du kan nu lägga till blockcitattecken i en kommentar med ett RTF-verktygsfält i den nya funktionen Beta för kommentering.
+Nu kan du lägga till blockcitattecken i en kommentar med ett RTF-verktygsfält i den nya kommenteringsfunktionen i Beta.
 
 Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
@@ -251,9 +251,9 @@ Produktion: 13 juni 2023
 
 ### Vecka 29 maj 2023
 
-#### Nya kommentarer Beta-upplevelser för projekt, uppgifter och dokument
+#### Ny kommenteringsupplevelse i Beta för projekt, uppgifter och dokument
 
-Den nya kommenteringsfunktionen Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns det bara för problem och mål att kommentera betaversionen.
+Den nya kommenteringsfunktionen i Beta är nu tillgänglig för projekt, uppgifter och dokument. Före den här uppdateringen fanns kommenteringsupplevelsen av Beta endast tillgänglig för problem och mål.
 
 Förhandsgranska: 1 juni 2023
 
@@ -261,11 +261,11 @@ Produktion: med version 23.3 (juli 2023)
 
 >[!NOTE]
 >
->Alla funktioner som släpps till den nya kommenteringsfunktionen Beta från och med 1 juni 2023 kommer att vara tillgängliga i Production för projekt, uppgifter och dokument efter version 23.3 till Production. Mer information finns i [23.3 - versionsöversikt](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+>Alla funktioner som släpps till den nya kommenteringsfunktionen i Beta från och med 1 juni 2023 kommer att vara tillgängliga i Production för projekt, uppgifter och dokument efter version 23.3 till Production. Mer information finns i [23.3 versionsöversikt](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 #### Nytt utseende på taggen&quot;edited&quot; efter redigering av en kommentar
 
-När du redigerar en kommentar i den nya betafunktionen för kommentering läggs en&quot;redigerad&quot; tagg till i kommentaren. Den här taggen har nu ett nytt utseende och en ny känsla från den som ursprungligen släpptes. Datum- och tidsstämplarna för kommentaren är de som hör till den ursprungliga kommentaren. De är inte datum- och tidsstämplar för när redigeringen gjordes.  Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+När du redigerar en kommentar i den nya kommenteringsfunktionen i Beta läggs en&quot;redigerad&quot; tagg till i kommentaren. Den här taggen har nu ett nytt utseende och en ny känsla från den som ursprungligen släpptes. Datum- och tidsstämplarna för kommentaren är de som hör till den ursprungliga kommentaren. De är inte datum- och tidsstämplar för när redigeringen gjordes.  Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Förhandsgranska: 31 maj 2023
 
@@ -273,15 +273,15 @@ Produktion: 1 juni 2023
 
 #### Kommentarer från underordnade objekt rullas upp till ett överordnat objekt
 
-När du aktiverar betafunktionen för kommentarer, kommer kommentarerna som är kopplade till ett underordnat objekt nu att gå upp till det överordnade objektet. Kommentarer från dokument visas till exempel nu i den fråga där dokumenten är bifogade. Mer information finns i [Översikt över uppdateringsavsnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+När du aktiverar kommenteringsfunktionen i Beta, kommer kommentarerna som är kopplade till ett underordnat objekt att sammanfogas med det överordnade objektet. Kommentarer från dokument visas till exempel nu i den fråga där dokumenten är bifogade. Mer information finns i [Översikt över uppdateringsavsnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Förhandsgranska: 1 juni 2023
 
 Produktion: 1 juni 2023
 
-#### Logga in i den nya kommenteringsfunktionen Beta
+#### Logga in i den nya kommenteringsfunktionen i Beta
 
-Du kan logga tid för problem, uppgifter och projekt från uppdateringsområdet när du använder den nya kommenteringsfunktionen Beta. Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Du kan logga tid för problem, uppgifter och projekt i uppdateringsområdet när du använder den nya kommenteringsfunktionen i Beta. Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Förhandsgranska: 1 juni 2023
 
@@ -308,7 +308,7 @@ Produktion: 18 maj 2023
 
 Vi ändrar det sätt på vilket bilagor fungerar när du tar bort eller redigerar en kommentar som innehåller en bifogad fil. När du redigerar en kommentar och tar bort den bifogade filen, eller när du tar bort en kommentar som innehåller en bifogad fil, tas den bifogade filen även bort från dokumentområdet. Före den här ändringen fanns de bifogade filerna kvar i ditt dokumentområde i den tidigare kommentarsfunktionen. Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Tillgängligt för att kommentera betaversionen och för Workfront-mål, som standard, på följande datum:
+Finns för kommentering av Beta och Workfront-mål som standard på följande datum:
 
 * Förhandsgranska och produktion: 4 maj 2023
 
@@ -317,19 +317,19 @@ Tillgängligt för att kommentera betaversionen och för Workfront-mål, som sta
 
 Följande underhållsuppdatering har släppts för att ge möjlighet att kommentera betaversioner och för att hitta mål:
 
-Redigera bifogade bilder när du redigerar en kommentar. Mer information finns i avsnittet &quot;Maintenance Update on April 27&quot; i artikeln <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
+Redigera bifogade bilder när du redigerar en kommentar. Mer information finns i avsnittet &quot;Underhållsuppdatering den 27 april&quot; i artikeln <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
 
 ### 20 april 2023
 
 Följande underhållsuppdatering har släppts för att ge möjlighet att kommentera betaversioner och för att hitta mål:
 
-Behåll bilder som utkast när du flyttar bort från en uppdatering för mål och för problem i kommenteringsbetaupplevelsen. Mer information finns i avsnittet &quot;Maintenance Update on April 20&quot; i artikeln <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
+Behåll bilder som utkast när du flyttar bort från en uppdatering för mål och för problem i kommenteringsbetaupplevelsen. Mer information finns i avsnittet &quot;Underhållsuppdatering den 20 april&quot; i artikeln <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
 
 ### 17 april 2023
 
 Följande underhållsuppdatering har släppts för att ge möjlighet att kommentera betaversioner och för att hitta mål:
 
-Visa nya kommentarer utanför det synliga skärmområdet i uppdateringsavsnittet för problem (nya kommentarer för betaversionen) och mål. Mer information finns i avsnittet &quot;Maintenance Update on April 17&quot; i artikeln  <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
+Visa nya kommentarer utanför det synliga skärmområdet i uppdateringsavsnittet för problem (nya kommentarer för Beta) och mål. Mer information finns i avsnittet &quot;Underhållsuppdatering den 17 april&quot; i artikeln <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Uppdateringar i april 2023</a>.
 
 
 ### 6 april 2023

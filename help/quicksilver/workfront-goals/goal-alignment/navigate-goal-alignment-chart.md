@@ -77,14 +77,14 @@ eller
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Navigera i avsnittet Måljustering
 
-1. Klicka på **Huvudmeny** icon ![Ikon för huvudmenyn](../goal-alignment/assets/dots-main-menu-icon.png) i skärmens övre högra hörn och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![Huvudmeny ](../goal-alignment/assets/dots-main-menu-icon.png) i skärmens övre högra hörn och klicka sedan på **Mål**.
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-alignment/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
-1. Klicka **Måljustering** till vänster.
+1. Klicka på **Måljustering** i den vänstra panelen.
 1. Använd filtren i det övre högra hörnet av justeringsdiagrammet om du bara vill markera de mål som är viktiga för dig. Mer information om hur du använder filter i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    De mål som matchar dina filter visas i justeringsdiagrammet på kort.
@@ -113,13 +113,13 @@ eller
      </tr> 
      <tr> 
       <td role="rowheader">Målförloppsindikator <span>och förlopp</span></td> 
-      <td> <p>Målförloppet visar hur mycket av målet som för närvarande har uppnåtts. Detta är en automatisk beräkning av medelvärdet av förloppet för alla justerade mål, resultat och aktiviteter för målet baserat på den tid som gått sedan målets tidsperiod startades. Information om hur du beräknar framsteg för mål finns i <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Översikt över målets förlopp och villkor i Adobe Workfront-mål</a>. </p> 
+      <td> <p>Målförloppet visar hur mycket av målet som för närvarande har uppnåtts. Detta är en automatisk beräkning av medelvärdet av förloppet för alla justerade mål, resultat och aktiviteter för målet baserat på den tid som gått sedan målets tidsperiod startades. Mer information om hur du beräknar förloppet för mål finns i <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Översikt över målförloppet och villkoret i Adobe Workfront-mål</a>. </p> 
        <div> 
         <p>Målets faktiska förlopp vid dagens datum. Följande förloppsvärden och färger visar hur sannolikt det är att målet uppnås i tid: </p> 
         <ul> 
          <li><span>På mål</span> (grön indikator): målet är i tid och kommer att uppnås i tid.</li> 
-         <li> <span>Risk</span> (gul indikator): målet ligger efter och kanske inte uppnås i tid.</li> 
-         <li> <span>I problem</span> (röd indikator): målet riskerar att inte uppnås i tid. </li> 
+         <li> <span>Vid risk</span> (gul indikator): målet ligger efter och kanske inte uppnås i tid.</li> 
+         <li> <span>I problem </span> (röd indikator): det finns risk för att målet inte kan uppnås i tid. </li> 
         </ul> 
        </div> </td> 
      </tr> <!--
@@ -130,7 +130,7 @@ eller
      --> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td><span>Mål i alla statusar visas i avsnittet Måljustering.</span> </td> 
+      <td><span>Mål i alla statusvärden visas i avsnittet Måljustering.</span> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -139,7 +139,7 @@ eller
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. Klicka på **nedåtriktad pil** -ikonen under ett mål för att ytterligare expandera och visa de underordnade målen.
+1. Klicka på ikonen **nedåtriktad pil** under ett mål om du vill expandera och visa de underordnade målen ytterligare.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
@@ -151,7 +151,7 @@ eller
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Klicka **Visa dem** för att visa de mål som för närvarande elimineras av filtret.
+1. Klicka på **Visa dem** för att visa de mål som för närvarande är eliminerade av filtret.
 
    Observera följande ändringar i justeringsdiagrammet:
 
@@ -162,7 +162,7 @@ eller
 
      En länk för återanvändning av filter visas till vänster om filternamnet.
 
-1. (Valfritt) Klicka på **Återanvänd filter** för att återgå till det ursprungliga resultatet och visa målhierarkin.
+1. (Valfritt) Klicka på **Använd om filter** om du vill återgå till det ursprungliga resultatet och visa målhierarkin.
 1. (Valfritt) Håll muspekaren över förloppsindikatorn för att förstå var målförloppet ska vara för den aktuella dagen.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
@@ -178,7 +178,7 @@ eller
       <td>Förloppsstatusen är alltid aktuell. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Faktisk</span> </td> 
+      <td role="rowheader"><span>Faktiskt</span> </td> 
       <td>Målets faktiska förlopp (i procent) vid dagens datum, beräknat genom att ta hänsyn till alla förloppsindikatorer för målet. Målförloppsindikatorer är anpassade till mål, aktiviteter och resultat. </td> 
      </tr> 
      <tr> 
@@ -188,12 +188,12 @@ eller
     </tbody> 
    </table>
 
-1. Klicka på ett målkort för att öppna målsidan. Mer information om hur du redigerar befintliga mål finns i [Redigera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/edit-goals.md). Information om hur du uppdaterar förloppet för mål finns i [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Klicka på ett målkort för att öppna målsidan. Mer information om hur du redigerar befintliga mål finns i [Redigera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/edit-goals.md). Mer information om hur du uppdaterar förloppet för mål finns i [Uppdatera målförloppet i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 1. Klicka på uppåtpilen för målet på aktuell nivå för att gå tillbaka till föregående nivå i hierarkin i diagrammet.
 
    eller
 
-   (Valfritt) Klicka på **Avsluta målhierarki** om du vill visa korten för alla mål som matchar det aktuella filtret, utan att visa kopplingen till varandra.
+   (Valfritt) Klicka på **Avsluta målhierarki** om du vill visa korten för alla mål som matchar det aktuella filtret, utan att visa deras anslutning till varandra.
 
 

@@ -9,7 +9,7 @@ role: Admin
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -31,21 +31,21 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a> </td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över licenser</a> </td> 
-   <td> <p>Plan </p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licensöversikt</a> </td> 
+   <td> <p>Plan </p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Använd diagnostik för att starta automatiserade processer
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Expandera **System** och sedan klicka **Diagnostik**.
+1. Expandera **System** och klicka sedan på **Diagnostik**.
 1. Välj något av följande alternativ:
 
    <table style="table-layout:auto"> 
@@ -54,15 +54,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Skicka försenade meddelanden</td> 
-      <td> <p>Skickar automatiskt påminnelsemeddelanden manuellt för förfallna uppgifter och problem. </p> <p>Mer information om hur du ställer in automatiska påminnelser finns i <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Ställ in automatiska påminnelser</a>.</p> </td> 
+      <td> <p>Skickar automatiskt påminnelsemeddelanden manuellt för förfallna uppgifter och problem. </p> <p>Mer information om hur du ställer in automatiska påminnelser finns i <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Konfigurera automatiska påminnelser</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Skicka tidiga meddelanden</td> 
-      <td> <p>Skickar automatiskt påminnelsemeddelanden manuellt för uppgifter och ärenden som närmar sig förfallodatum.</p> <p>Mer information om hur du ställer in automatiska påminnelser finns i <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Ställ in automatiska påminnelser</a>.</p> </td> 
+      <td> <p>Skickar automatiskt påminnelsemeddelanden manuellt för uppgifter och ärenden som närmar sig förfallodatum.</p> <p>Mer information om hur du ställer in automatiska påminnelser finns i <a href="../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md" class="MCXref xref">Konfigurera automatiska påminnelser</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Skicka påminnelsemeddelanden</td> 
-      <td> <p>Skickar påminnelsemeddelanden manuellt. </p> <p>Mer information om hur du ställer in påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Ställ in påminnelsemeddelanden</a>.</p> </td> 
+      <td> <p>Skickar påminnelsemeddelanden manuellt. </p> <p>Mer information om hur du ställer in påminnelsemeddelanden finns i <a href="../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md" class="MCXref xref">Konfigurera påminnelsemeddelanden</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kontrollera alla POP-konton</td> 
@@ -76,7 +76,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
      </tr> 
      <tr> 
       <td role="rowheader">Återställ standardkundrapporter</td> 
-      <td>Återställer standardrapporterna som ursprungligen levererades med Workfront, så att de visas i <strong>Rapporter</strong> för alla användare.</td> 
+      <td>Återställer standardrapporterna som ursprungligen levererades med Workfront, så att de visas i avsnittet <strong>Rapporter</strong> för alla användare.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Generera tidrapporter</td> 

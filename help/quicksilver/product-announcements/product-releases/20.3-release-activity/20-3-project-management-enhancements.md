@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ En lista över alla ändringar som är tillgängliga i version 20.3 finns i [20.
 När systemadministratören skapar anpassade formulärfält som är konfigurerade för formatering kan du nu formatera text i de fält där du använder dem mest: i listor i hela Workfront. I stället för att gå in i området Detaljer och formatera text i det anpassade formuläret kan du klicka på ett fält i en lista och använda Fet, Kursiv och Understruken för text där.
 
 Observera att den här funktionen bara är tillgänglig i de uppdaterade listorna. Mer information om uppdaterade listor finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
-
-Information om hur en Workfront-administratör skapar textfält med formatering finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 ## Uppdaterat utseende och känsla för flera globala sidhuvuden
 
@@ -72,7 +70,7 @@ Den nya sammanfattningspanelen till höger om dokumentlistan är nu tillgänglig
 
 Vissa åtgärder är inte tillgängliga just nu, men kommer att läggas till i en framtida version. Bland dessa åtgärder finns korrekturläsningsarbetsflödet.
 
-Mer information finns i [Sammanfattning av dokumentöversikt](../../../documents/managing-documents/summary-for-documents.md).
+Mer information finns i [Sammanfattning för dokumentöversikt](../../../documents/managing-documents/summary-for-documents.md).
 
 ## Förbättringar i dokumentinformation
 
@@ -109,9 +107,8 @@ Mer information finns i Skapa ett anpassat formulär i den nya Workfront-uppleve
 
 ## Nytt för administratörer: Skapa både ett internt namn och en etikett som är riktad mot användaren för ett anpassat formulärfält
 
-Om du vill ha större flexibilitet när det gäller etiketter och ommärkning av anpassade formulärfält kan du nu skapa en intern *name* för ett fält utöver användaren *label* du har använt. Detta ger dig frihet att ändra den fältetikett som visas för användarna utan att ändra fältnamnet som visas i systemet.
+För att du ska få större flexibilitet vid etikettering och ommärkning av anpassade formulärfält kan du nu skapa ett internt *namn* för ett fält utöver den användarvänliga *etiketten* som du har använt. Detta ger dig frihet att ändra den fältetikett som visas för användarna utan att ändra fältnamnet som visas i systemet.
 
 Tidigare visades etiketten både ovanför fältet för användare och användes av systemet för att identifiera fältet. Om du ändrade etiketten för användare så fungerade inte fältet som det var när det användes, eftersom systemet inte längre kunde identifiera det.
 
-Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

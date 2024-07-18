@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion veckan efter 23 augusti 2021.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Typsnittsfält är nu tillgängliga i Workfront-moduler
 
@@ -28,7 +28,7 @@ För att göra det enklare att använda moduler har vissa listrutor ersatts med 
 
 Tidigare valde användare objekt i listrutor. Beroende på vilket objekt det är kan listorna vara långa och det kan vara besvärligt att bläddra och hitta objekt.
 
-Mer information om Workfront-moduler finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om Workfront-moduler finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Faktureringspostobjekt är nu tillgängligt i Workfront-moduler
 
@@ -43,7 +43,7 @@ Faktureringspostobjektet är tillgängligt i listrutor med objektval i följande
 
 Tidigare var faktureringspostobjektet endast tillgängligt via mappning.
 
-Mer information finns i [Adobe Workfront moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

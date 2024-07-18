@@ -18,10 +18,10 @@ Nedan följer olika resurser om Event-prenumerationer i Adobe Workfront:
 
 * [API för händelseprenumeration](../../wf-api/general/event-subs-api.md)
 * [Bästa praxis för händelseteckning](../../wf-api/general/event-sub-best-practice.md)
-* [Leveranskrav för evenemangsprenumeration](../../wf-api/general/setup-event-sub-endpoint.md)
+* [Leveranskrav för händelseprenumeration](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Resursfält för händelseprenumeration](../../wf-api/api/event-sub-resource-fields.md)
-* [Återkommande prenumerationer på evenemang](../../wf-api/api/event-sub-retries.md)
-* [Filtrera händelsens prenumerationsmeddelanden](../../wf-api/api/filter-event-sub-messages.md)
+* [Återförsök med händelseprenumerationer](../../wf-api/api/event-sub-retries.md)
+* [Filtrera prenumerationsmeddelanden för händelser](../../wf-api/api/filter-event-sub-messages.md)
 * [Utgående meddelandeformat för händelseprenumerationer](../../wf-api/api/message-format-event-subs.md)
 * [Frågor och svar - Evenemangsprenumerationer](../../wf-api/general/event-subs-faq.md)
 

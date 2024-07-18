@@ -22,14 +22,14 @@ ht-degree: 0%
 
 Som projektledare kan du använda faktureringstariffer för att få intäkter från dina projekt.
 
-I den här artikeln beskrivs hur du spårar intäkter för projekt. Intäkterna beräknas på olika sätt i utnyttjanderapporten. Information om intäktsberäkningar i användningsrapporten finns i [Visa information om resursutnyttjande](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+I den här artikeln beskrivs hur du spårar intäkter för projekt. Intäkterna beräknas på olika sätt i utnyttjanderapporten. Mer information om intäktsberäkningar i användningsrapporten finns i [Visa information om resursutnyttjande](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 ## Översikt över faktureringspriser
 
 Tänk på följande när du arbetar med faktureringstaxor:
 
 * Du behöver en plan- eller standardlicens med Redigera-åtkomst till finansiella data för att kunna hantera faktureringstaxor.\
-  Mer information om att bevilja åtkomst till finansiella data finns i [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Mer information om att bevilja åtkomst till finansiella data finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 * Faktureringstariffer är intäkter per arbetsenhet som är kopplad till jobbroller eller användare.
 
@@ -50,7 +50,7 @@ Tänk på följande när du arbetar med faktureringstaxor:
 >Kurserna som beräknar intäkten tillhör användaren som loggar tiden eller deras jobbroller.
 
 * [Faktureringstaxor för användare](#user-billing-rates)
-* [Faktureringshastigheter för jobbroll](#job-role-billing-rates)
+* [Faktureringstaxor för jobbroll](#job-role-billing-rates)
 * [Fasta faktureringspriser för projekt eller uppgifter](#fixed-billing-rates-for-projects-or-tasks)
 * [Åsidosätt faktureringstariffer](#override-billing-rates)
 
@@ -60,7 +60,7 @@ När du skapar en användare kan du som användaradministratör associera dem me
 
 Mer information om hur du skapar användare finns i artikeln [Lägg till användare](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-![Redigera användarkostnader och faktureringstariffer](assets/edit-user-cost-billing-rate-1.png)
+![Redigera användarkostnader och faktureringstaxor](assets/edit-user-cost-billing-rate-1.png)
 
 ### Faktureringshastigheter för jobbroll {#job-role-billing-rates}
 
@@ -68,7 +68,7 @@ När du är Adobe Workfront-administratör och skapar en jobbroll kan du koppla 
 
 Du kan definiera värdet för faktureringssatsen för en jobbroll med hjälp av basvalutan i ditt Workfront-system eller med en annan anpassad valuta.
 
-Mer information om hur du skapar jobbroller och åsidosätter deras valutor finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Mer information om hur du skapar jobbroller och åsidosätter deras valuta finns i artikeln [Skapa och hantera jobbroller](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ![Redigera kostnader och faktureringstariffer för jobbroller](assets/edit-job-role-multiple-billing-rates-new.png)
 
@@ -79,7 +79,7 @@ Utöver timtaxor för användare och jobbroller kan du även ha följande fasta 
 * Fast belopp för fast timintäktstyp
 * Fast belopp för intäktstyp med fast intäkt
 
-Mer information om hur de fasta faktureringstarifferna används för att beräkna intäkter finns i [Översikt över intäktstyper för uppgifter](#overview-of-task-revenue-types).
+Mer information om hur de fasta faktureringstarifferna används för att beräkna intäkter finns i [Översikt över intäktstyper för aktiviteter](#overview-of-task-revenue-types).
 
 ### Åsidosätt faktureringstariffer {#override-billing-rates}
 
@@ -91,11 +91,11 @@ Du kan åsidosätta faktureringstaxor för jobbroller för:
 
 * Ett specifikt företag
 
-  Mer information om hur du skapar faktureringstaxor för jobbroller för ett företag finns i [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+  Mer information om hur du skapar faktureringstariffer för jobbroller för ett företag finns i [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 * Ett specifikt projekt
 
-  Mer information om hur du skapar faktureringssatser för jobbroller för ett projekt finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+  Mer information om hur du skapar faktureringstariffer för jobbroller för ett projekt finns i artikeln [Översikt över åsidosättande av faktureringstaxor för jobbroller och beräkning av intäkter för ett projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Spåra intäktsbelopp
 
@@ -112,7 +112,7 @@ I följande tabell visas vilka typer av intäkter som är associerade med uppgif
   <tr> 
    <td role="rowheader">Planerad intäkt</td> 
    <td> <p>För uppgifter är detta den intäkt som är kopplad till de planerade timmarna för uppgifter. Planerade timmar från alla uppgifter räknas upp till planerade timmar för projektet för att bidra till beräkningen av projektets planerade timmar. </p> <p>Mer information om planerade timmar i Workfront finns i <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Översikt över planerade timmar</a>. </p> <ul><li><p>Workfront beräknar planerad intäkt för uppgifter med den här formeln:</p>
-   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>ANMÄRKNING</strong></br> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumeffektiva ändringar av tariffen.</p> </li><li><p>Workfront beräknar planerade intäkter för projekt med följande formel:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
+   <p><code>Task Planned Revenue = Planned Hours * Billing hourly rate</code><p> <p><strong>Obs!</strong></br> Timpriset för fakturering i formeln tar hänsyn till datumeffektiva ändringar av tariffen.</p> </li><li><p>Workfront beräknar planerade intäkter för projekt med följande formel:</p> <p><code>Project Planned Revenue = SUM (All tasks Planned Revenue) + Fixed Revenue</code></p>
    <p><b>ANMÄRKNING</b>
 
 <p>Projektets planerade inkomster som visas i området Projektinformation och i projektrapporter skiljer sig från den planerade intäkten som visas i användningsrapporten. </p></li></ul> <p>Den planerade intäkten i området Projektinformation återspeglar uppgiftsintäkten som är kopplad till aktiviteten Planerade timmar samt projektets fasta intäkt. Planerad intäkt i användningsrapporten visar planerad intäkt som bara är associerad med de planerade timmarna från aktivitetstilldelningarna i projektet. </p> 
@@ -120,20 +120,20 @@ I följande tabell visas vilka typer av intäkter som är associerade med uppgif
       <p>Om projektet har 1 uppgift med 10 timmar, som tilldelats en konsult med en timtaxa på 20 USD och projektet har en fast intäkt på 100 USD, visar användningsrapporten 200 USD för planerad intäkt (den planerade intäkten som är associerad med timmarna för uppgiften). I avsnittet Projektinformation visas $300 (den planerade intäkten från aktiviteten och den fasta intäkten för projektet). </p> 
      </div> </p> <p>Uppgiftsplanerad intäkt beräknas med hjälp av timtaxan för fakturering för användare eller jobbroller som är tilldelade till aktiviteterna. Inkomsttypen för aktiviteterna påverkar vilken tariff (användare eller roll) som används för att beräkna planerad intäkt. Mer information finns i följande avsnitt i den här artikeln:</p> 
     <ul> 
-     <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Översikt över intäktstyper för uppgifter</a> </p> </li> 
-     <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">Intäktsberäkningar för uppgifter som baseras på användar- och rolltilldelningar</a> </p> </li> 
+     <li> <p><a href="#overview-of-task-revenue-types" class="MCXref xref">Översikt över aktivitetsintäktstyper</a> </p> </li> 
+     <li> <p><a href="#revenue-calculations-for-tasks-based-on-user-and-role-assignments" class="MCXref xref">Intäktsberäkningar för aktiviteter baserade på användar- och rolltilldelningar</a> </p> </li> 
     </ul> <p>Information om beräkningar av planerade intäkter i användningsrapporten finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visa information om resursutnyttjande</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Faktisk intäkt*</td> 
-   <td> <p>Inkomsterna som är kopplade till de faktiska timmarna för uppgifter, utgåvor och projekt. </p> <p>I allmänhet beräknas Faktiska intäkter i Workfront enligt följande formel:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>ANMÄRKNING</strong></br> Timtaxan för fakturering i formeln tar hänsyn till eventuella datumeffektiva ändringar av tariffen.</p> <p>Information om faktiska intäktsberäkningar i användningsrapporten finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visa information om resursutnyttjande</a>. </p> <p><b>TIPS</b>
+   <td> <p>Inkomsterna som är kopplade till de faktiska timmarna för uppgifter, utgåvor och projekt. </p> <p>I allmänhet beräknas Faktiska intäkter i Workfront enligt följande formel:</p> <p><code>Actual Revenue = Actual Hours * Billing rate</code> </p> <p><strong>Obs!</strong></br> Timpriset för fakturering i formeln tar hänsyn till datumeffektiva ändringar av tariffen.</p> <p>Information om faktiska intäktsberäkningar i användningsrapporten finns i <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md" class="MCXref xref">Visa information om resursutnyttjande</a>. </p> <p><b>TIPS</b>
 
 Du kan inte visa Faktisk intäkt på utleveransnivå, men intäkterna som är kopplade till Faktiska timmar i problemen bidrar till projektets faktiska intäkt. </p> </td>
 </tr> 
  </tbody> 
 </table>
 
-*För faktiska timmar avser användarens priser alltid den användare som loggar timmarna eller antalet jobbroller. Information om när Workfront använder användarsiffrorna och när de använder sina jobbroller finns i [Intäktsberäkningar](#revenue-calculations) i den här artikeln.
+*För faktiska timmar avser användarens priser alltid den användare som loggar timmarna eller antalet jobbroller. Mer information om när Workfront använder hastigheterna för användaren och när de använder hastigheterna för sina jobbroller finns i avsnittet [Intäktsberäkningar](#revenue-calculations) i den här artikeln.
 
 <!--Note from the table for Planned Revenue line: 
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the note below is duplicated in this article: /Content/Resource Mgmt/Resource utilization/view-utilization-information.htm and in the glossary)</p>
@@ -144,7 +144,7 @@ Om en uppgift med Inkomsttyp för användartimme till exempel planeras ta 2 timm
 Du kan registrera intäkter på följande sätt:
 
 * Genom att definiera intäktstypen för dina uppgifter och associera användare eller roller som tilldelats till arbetsobjekt med faktureringstariffer. Detta beräknar intäkten med beloppet för planerade eller faktiska timmar för arbetsposterna. Du kan ange ett tak till det högsta belopp som debiteras för timtaxor, eller inte.\
-  Mer information om hur du anger en uppgifts intäktstyp finns i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+  Mer information om hur du anger intäktstyp för en uppgift finns i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 * Genom att fakturera en fast intäktsnivå för aktiviteter eller projekt.\
   Om du har uppgifter med Fast intäkt läggs beloppet för Fast intäkt till som planerad intäkt för en aktivitet eller ett projekt, och den planerade intäkten för en aktivitet blir tillgänglig att läggas till i en faktureringspost som fast intäkt.
@@ -156,11 +156,11 @@ Du kan också markera dina uppgifter som&quot;Inte fakturerbar&quot;, och då ä
 ## Översikt över intäktstyper för uppgifter {#overview-of-task-revenue-types}
 
 Som standard anges Intäktstypen för alla nya uppgifter i enlighet med de inställningar för Aktivitet och problem som du har angett av Workfront- eller gruppadministratören.\
-Mer information om hur du definierar inställningar för åtgärder och problem för din Workfront-instans finns i artikeln [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om hur du definierar inställningar för åtgärder och problem för din Workfront-instans finns i artikeln [Konfigurera systemomfattande uppgifter och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Projektägaren kan ändra aktiviteternas intäktstyp och Fast intäkt för projekt.\
 Mer information om hur du anger fasta intäkter för ett projekt finns i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).\
-Mer information om hur du anger en uppgifts intäktstyp finns i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+Mer information om hur du anger intäktstyp för en uppgift finns i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 Du kan använda följande intäktstyper för dina uppgifter eller projekt:
 
@@ -176,11 +176,11 @@ Du kan använda följande intäktstyper för dina uppgifter eller projekt:
  <tbody> 
   <tr> 
    <td> <p>Fast intäkt</p> </td> 
-   <td> <p>Den här typen kan användas med projekt och uppgifter. </p> <p>När du kopplar en mall till ett projekt läggs den fasta intäkten från mallen till projektets fasta intäkt. Mer information finns i <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Översikt över att bifoga en mall till ett projekt</a>. </p> <p>För uppgifter beräknas alltid aktivitetens intäkt, oavsett aktivitetstilldelningar, med det fasta belopp som har angetts för uppgiften. </p> <p>Fasta intäkter från underordnade uppgifter summeras till intäkten för den överordnade aktiviteten och sedan till intäkterna för projektet. Om ett fast belopp definieras för den överordnade aktiviteten och/eller projektet läggs beloppet till i den planerade intäkten som samlas in från underordnade aktiviteter.</p> <p>Beloppet för fasta intäkter för uppgifter kan inkluderas i en faktureringspost i projektet.</p> </td> 
+   <td> <p>Den här typen kan användas med projekt och uppgifter. </p> <p>När du kopplar en mall till ett projekt läggs den fasta intäkten från mallen till projektets fasta intäkt. Mer information finns i <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Översikt över hur du bifogar en mall till ett projekt</a>. </p> <p>För uppgifter beräknas alltid aktivitetens intäkt, oavsett aktivitetstilldelningar, med det fasta belopp som har angetts för uppgiften. </p> <p>Fasta intäkter från underordnade uppgifter summeras till intäkten för den överordnade aktiviteten och sedan till intäkterna för projektet. Om ett fast belopp definieras för den överordnade aktiviteten och/eller projektet läggs beloppet till i den planerade intäkten som samlas in från underordnade aktiviteter.</p> <p>Beloppet för fasta intäkter för uppgifter kan inkluderas i en faktureringspost i projektet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Användare per timme</p> </td> 
-   <td> <p>Den här typen kan bara användas för uppgifter. </p> <p>Den faktureringsfrekvens som du anger för en viss användare multiplicerad med antalet planerade timmar för den uppgiften blir uppgiftens planerade intäktsbelopp. Den faktureringsfrekvens som du anger för en viss användare multiplicerad med det antal timmar som användaren loggar mot uppgiften är uppgiftens faktiska intäktsbelopp. <br>Om du till exempel skapar en användare och anger $20 för fältet Fakturering per timme, och användaren skickar 5 timmar för en uppgift på tidrapporten, blir aktivitetens faktiska faktureringsbelopp $100.</p>
+   <td> <p>Den här typen kan bara användas för uppgifter. </p> <p>Den faktureringsfrekvens som du anger för en viss användare multiplicerad med antalet planerade timmar för den uppgiften blir uppgiftens planerade intäktsbelopp. Den faktureringsfrekvens som du anger för en viss användare multiplicerad med det antal timmar som användaren loggar mot uppgiften är uppgiftens faktiska intäktsbelopp. <br>Om du till exempel skapar en användare och anger $20 för fältet Fakturering per timme, och användaren skickar 5 timmar för en aktivitet på tidrapporten, blir aktivitetens faktiska faktureringsbelopp $100.</p>
    <p>En användarprofil kan innehålla flera faktureringspriser med giltighetsdatum. Den första användarens faktureringstaxa på 20 USD upphör 30 april 2023 och den andra användarens faktureringstaxa på 25 USD börjar 1 maj 2023. Om användaren skickar in två timmar den 28 april och tre timmar den 2 maj för en uppgift, är aktivitetens faktiska faktureringsbelopp 40 USD + 75 = 115 USD.</p>
    <p><b>TIPS</b>
 
@@ -188,11 +188,11 @@ Det här är standardintäktstypen när du skapar en uppgift.</p> </td>
 </tr> 
   <tr> 
    <td> <p>Roll timvis</p> </td> 
-   <td> <p>Den här typen kan bara användas för uppgifter.</p> <p>Den här typen liknar Användare per timme, men använder jobbrollfrekvenser i stället för användarfrekvenser.</p> <p><strong>ANMÄRKNING</strong><br>En jobbroll kan också ha flera faktureringstariffer med giltighetsdatum.</p></td> 
+   <td> <p>Den här typen kan bara användas för uppgifter.</p> <p>Den här typen liknar Användare per timme, men använder jobbrollfrekvenser i stället för användarfrekvenser.</p> <p><strong>Obs!</strong><br>En jobbroll kan också ha flera faktureringstariffer med giltighetsdatum.</p></td> 
   </tr> 
   <tr> 
    <td> <p>Användare per timme med ändpunkt</p> </td> 
-   <td> <p>Den här typen kan bara användas för uppgifter.</p> <p>Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange. <br>Om en användares faktureringsfrekvens till exempel är $25, men aktivitetens beloppsgräns är $20, och användaren loggar en timme, är aktivitetens faktiska intäkt $20. </p> </td> 
+   <td> <p>Den här typen kan bara användas för uppgifter.</p> <p>Aktiviteter faktureras varje timme som användaren anger, men de har ett maxbelopp som du kan ange. <br>Om faktureringssatsen för en användare till exempel är $25, men värdet för Avtalsbelopp för aktiviteten är $20, och användaren loggar en timme, är Faktisk intäkt för aktiviteten $20. </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Roll timvis med ändpunkt</p> </td> 
@@ -212,7 +212,7 @@ Det här är standardintäktstypen när du skapar en uppgift.</p> </td>
   </tr> 
   <tr> 
    <td> <p>Ej fakturerbar</p> </td> 
-   <td> <p>Den här typen kan bara användas för uppgifter.</p> <p>Denna intäktstyp påverkar inte intäkterna. </p> <p>Om ett överordnat objekt har den här inställningen kommer underordnade uppgifter med en faktureringstyp fortfarande att gälla som vanligt.</p> <p>När en användare utan åtkomst till ekonomiska data eller en användare utan ekonomisk behörighet för en mall skapar ett projekt från den mallen, är det här standardintäktstypen för aktiviteterna i projektet.</p> <p>Mer information om åtkomst till finansiella data finns i artikeln <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till finansiella uppgifter</a>.<br>Mer information om objektbehörigheter finns i artikeln <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Översikt över delningsbehörigheter för objekt</a>.<br>Mer information om hur du skapar projekt från mallar finns i artikeln <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Skapa ett projekt med en mall</a>. </p> </td> 
+   <td> <p>Den här typen kan bara användas för uppgifter.</p> <p>Denna intäktstyp påverkar inte intäkterna. </p> <p>Om ett överordnat objekt har den här inställningen kommer underordnade uppgifter med en faktureringstyp fortfarande att gälla som vanligt.</p> <p>När en användare utan åtkomst till ekonomiska data eller en användare utan ekonomisk behörighet för en mall skapar ett projekt från den mallen, är det här standardintäktstypen för aktiviteterna i projektet.</p> <p>Mer information om åtkomst till finansiella data finns i artikeln <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.<br>Mer information om objektbehörigheter finns i artikeln <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Översikt över objektdelningsbehörigheter</a>.<br>Mer information om hur du skapar projekt från mallar finns i artikeln <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Skapa ett projekt med en mall</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -248,11 +248,11 @@ Tänk på följande när du beräknar intäkter för en aktivitet:
 
 Det finns en hierarki som du använder för intäktsberäkningar baserat på uppgiftstilldelningar.
 
-Om Workfront-administratören har aktiverat **Tilldela jobbroller till timposter manuellt** inställning i området Inställningar för tidrapporter och timmar, och användarens loggningstid i projektet väljer en annan roll att associera med den här tiden, beräknar alltid aktivitetens eller projektets faktiska intäkt baserat på rollen som är associerad med timposten. Mer information om hur du aktiverar loggningstid för en viss jobbroll finns i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Om din Workfront-administratör har aktiverat inställningen **Tilldela jobbroller till timposter manuellt** i Inställningar för tidrapporter och timmar, och inloggningstiden för användaren i projektet väljer en annan roll att associera med den här tiden, beräknas alltid aktivitetens eller projektets faktiska inkomster baserat på den roll som är associerad med timposten. Mer information om hur du aktiverar loggningstid för en viss jobbroll finns i artikeln [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 Följande scenarier används för att beräkna aktivitetsinkomster baserat på intäktstyp och aktivitetstilldelningens typ:
 
-* **Uppgiftens intäktstyp är Användd timme**
+* **Aktivitetens intäktstyp är Användare per timme**
 
   <table style="table-layout:auto"> 
    <col> 
@@ -269,17 +269,17 @@ Följande scenarier används för att beräkna aktivitetsinkomster baserat på i
     <tr> 
      <td role="rowheader">Fakturering per timma för planerad intäkt</td> 
      <td>$0,00</td> 
-     <td> Om en användare har en faktureringstaxa i sin profil används den taxan för att beräkna planerad intäkt. I annat fall används systemets faktureringsfrekvens för den primära jobbrollen. <br><p><b>ANMÄRKNING</b>  Användaren kan tilldelas till uppgiften med en av de sekundära jobbrollerna, men i stället används den primära jobbrollens hastighet här.</p><p>Om användarens roll har ändrats under tilldelningen används de korrekta satserna när projektets ekonomi beräknas om.</p></td> 
+     <td> Om en användare har en faktureringstaxa i sin profil används den taxan för att beräkna planerad intäkt. I annat fall används systemets faktureringsfrekvens för den primära jobbrollen. <br><p><b>Obs!</b> Användaren kan tilldelas till aktiviteten med en av sina sekundära jobbroller, men hastigheten för den primära jobbrollen används här i stället.</p><p>Om användarens roll har ändrats under tilldelningen används de korrekta satserna när projektets ekonomi beräknas om.</p></td> 
      <td><p><span class="preview">Om ett kurskort är kopplat till projektet beräknas den planerade intäkten baserat på jobbrollen från tariffkortet.</span></p> <p><span class="preview">Faktureringspriserna kan åsidosättas på projektnivå.</span></p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Fakturering per timtariff för faktisk intäkt</td> 
      <td>Om användaren som loggar timmarna har en faktureringsfrekvens i sin profil används den taxan. 
-     <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna, används platsens frekvens.</span>
-     <br>I annat fall används faktureringsfrekvensen för deras primära jobbroll. Om det inte finns någon faktureringstaxa som är associerad med användaren eller dennes primära roll är den faktiska intäkten 0,00 USD. <br><p><b>ANMÄRKNING</b>
+     <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna används platsens frekvens.</span>
+     <br>I annat fall används faktureringsfrekvensen för den primära jobbrollen. Om det inte finns någon faktureringstaxa som är associerad med användaren eller dennes primära roll är den faktiska intäkten 0,00 USD. <br><p><b>ANMÄRKNING</b>
 
   Endast de frekvenser som är associerade med användaren som loggar tiden tas med i beräkningen, även när en annan användare tilldelas till uppgiften.</p></td>
-  <td>Om användaren som loggar timmarna har en faktureringsfrekvens i sin profil används den taxan. <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna, används platsens frekvens.</span><br>I annat fall används faktureringsfrekvensen för deras primära jobbroll. Om det inte finns någon faktureringstaxa som är associerad med användaren eller dennes primära roll är den faktiska intäkten 0,00 USD. <br><p><b>ANMÄRKNING</b>
+  <td>Om användaren som loggar timmarna har en faktureringsfrekvens i sin profil används den taxan. <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna används platsens frekvens.</span><br>I annat fall används faktureringsfrekvensen för den primära jobbrollen. Om det inte finns någon faktureringstaxa som är associerad med användaren eller dennes primära roll är den faktiska intäkten 0,00 USD. <br><p><b>ANMÄRKNING</b>
 
   Endast de frekvenser som är associerade med användaren som loggar tiden tas med i beräkningen, även när en annan användare tilldelas till uppgiften.</p></td>
   <td>Om användaren som loggar timmarna har en faktureringsfrekvens i sin profil används den taxan. I annat fall används faktureringsfrekvensen för deras primära jobbroll.<br><p><b>ANMÄRKNING</b>
@@ -289,7 +289,7 @@ Följande scenarier används för att beräkna aktivitetsinkomster baserat på i
    </tbody> 
   </table>
 
-* **Uppgiftens intäktstyp är roll per timme**
+* **Aktivitetens intäktstyp är roll per timme**
 
   <table style="table-layout:auto"> 
    <col> 
@@ -306,13 +306,13 @@ Följande scenarier används för att beräkna aktivitetsinkomster baserat på i
     <tr> 
      <td role="rowheader">Fakturering per timma för planerad intäkt</td> 
      <td>$0,00</td> 
-     <td><p>Workfront tittar på den jobbroll som användaren utför för uppgiften att beräkna den planerade intäkten. <br>Om användaren inte är associerad med någon roll för uppgiften är Intäkterna $0,00.</p> <p><strong>ANMÄRKNING</strong><br>Om användarens roll har ändrats under tilldelningen används de korrekta satserna när projektets ekonomi beräknas om.</p> </td> 
+     <td><p>Workfront tittar på den jobbroll som användaren utför för uppgiften att beräkna den planerade intäkten. <br>Om användaren inte är associerad med någon roll för aktiviteten är Intäkten $0,00.</p> <p><strong>Obs!</strong><br>Om användarens roll har ändrats under tilldelningen används rätt belopp när projektets ekonomi beräknas om.</p> </td> 
      <td><p><span class="preview">Om ett kurskort är kopplat till projektet beräknas den planerade intäkten baserat på jobbrollen från tariffkortet.</span></p> <p><span class="preview">Faktureringspriserna kan åsidosättas på projektnivå.</span></p></td> 
     </tr> 
     <tr> 
      <td role="rowheader">Fakturering per timtariff för faktisk intäkt</td> 
-     <td>Workfront använder faktureringsfrekvensen för den primära jobbrollen för användaren som loggar tiden. <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna, används platsens frekvens.</span> <br>Om användaren som loggar tiden inte har någon jobbroll associerad med dem, eller om den primära jobbrollen inte har någon faktureringsfrekvens, är Faktisk intäkt $0,00. </td> 
-     <td> Om användaren som loggar tiden är tilldelad uppgiften, används faktureringssatsen för den jobbroll som är associerad med användaren för uppgiften för att beräkna den faktiska intäkten. <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna, används platsens frekvens.</span> <br>I annat fall används faktureringsfrekvensen för deras primära jobbroll. Om användaren inte har någon primär jobbroll eller om deras primära jobbroll inte har någon faktureringsfrekvens, är Faktisk intäkt $0,00. </td> 
+     <td>Workfront använder faktureringsfrekvensen för den primära jobbrollen för användaren som loggar tiden. <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna används platsens frekvens.</span> <br>Om användaren som loggar tiden inte har någon jobbroll associerad med dem, eller om den primära jobbrollen inte har någon faktureringsfrekvens, är den faktiska intäkten 0,00 USD. </td> 
+     <td> Om användaren som loggar tiden är tilldelad uppgiften, används faktureringssatsen för den jobbroll som är associerad med användaren för uppgiften för att beräkna den faktiska intäkten. <br><span class="preview">När tiden loggas för en användare eller roll som har en platsspecifik tilldelning i de avancerade tilldelningarna används platsens frekvens.</span> <br>I annat fall används faktureringsfrekvensen för den primära jobbrollen. Om användaren inte har någon primär jobbroll eller om deras primära jobbroll inte har någon faktureringsfrekvens, är Faktisk intäkt $0,00. </td> 
      <td>Om en av jobbrollerna för användaren som loggar tiden är tilldelad uppgiften, används den jobbrollfrekvensen. Om den jobbroll som är tilldelad uppgiften inte är associerad med användaren som loggar tiden, används faktureringssatsen för användarens primära roll för att beräkna den faktiska intäkten. Om användaren inte har någon jobbroll eller om ingen hastighet är associerad med den primära jobbrollen, används den jobbroll som tilldelats uppgiften. </td> 
     </tr> 
    </tbody> 
@@ -379,12 +379,12 @@ Du kan spåra följande intäktstyper för projekt:
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Information om hur planerad intäkt beräknas för aktiviteten finns i [Intäktsberäkningar för uppgifter som baseras på användar- och rolltilldelningar](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i den här artikeln.
+  Information om hur den planerade omsättningen beräknas finns i avsnittet [Intäktsberäkningar för uppgifter som baseras på användar- och rolltilldelningar](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i den här artikeln.
 
 * Faktisk intäkt för ett projekt beräknas med följande formel:
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Information om hur aktiviteten Faktisk intäkt beräknas finns i [Intäktsberäkningar för uppgifter som baseras på användar- och rolltilldelningar](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i den här artikeln.
+Information om hur aktiviteten Faktisk intäkt beräknas finns i avsnittet [Intäktsberäkningar för uppgifter som baseras på användar- och rolltilldelningar](#revenue-calculations-for-tasks-based-on-user-and-role-assignments) i den här artikeln.
 
 För den faktiska intäkt som är associerad med de timmar som är loggade direkt till projektet eller problemen, använder Workfront faktureringshastigheten för den användare som loggar tiden i projektet. Om användaren inte har någon faktureringstakt kopplad till sin profil använder Workfront faktureringstakten för sin primära roll. Om båda tarifferna är noll är den faktiska intäkt som är associerad med de timmar som är loggade i projektet eller utställningarna noll.

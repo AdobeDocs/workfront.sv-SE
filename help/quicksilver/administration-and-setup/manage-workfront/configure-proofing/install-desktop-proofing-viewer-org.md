@@ -31,7 +31,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Premium eller Select</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Premium eller Select</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Systemkrav
 
@@ -63,17 +63,17 @@ När du har installerat Desktop Proofing Viewer för din organisation kan du ang
 
 {{step1-to-proofing}}
 
-1. Klicka **Kontoinställningar** i det övre högra hörnet av Workfront Proof och klicka sedan på **Inställningar** -fliken.
+1. Klicka på **Kontoinställningar** i det övre högra hörnet av Workfront Proof och klicka sedan på fliken **Inställningar** .
 
-1. Under **Korrekturinställningar**, i slutet av **Desktop Proofing Viewer for Interactive proofing** rad, klicka **Inställningar**.
+1. Under **Korrekturinställningar** klickar du på **Konfigurera** i slutet av raden **Språkkontroll för interaktivt korrektur**.
 
    ![Korrekturinställningar](assets/proof-defaults.png)
 
-1. Klicka **Aktiverad och standard** och sedan klicka **Spara**.
+1. Klicka på **Aktiverad och standard** och klicka sedan på **Spara**.
 
 ## Installera Desktop Proofing Viewer för dina användare
 
-* [Installera Desktop Proofing Viewer på Mac](#installing-the-desktop-proofing-viewer-on-mac)
+* [Installerar Desktop Proofing Viewer på Mac](#installing-the-desktop-proofing-viewer-on-mac)
 * [Installera Desktop Proofing Viewer i Windows](#installing-the-desktop-proofing-viewer-on-windows)
 
 ### Installera Desktop Proofing Viewer på Mac {#installing-the-desktop-proofing-viewer-on-mac}
@@ -84,7 +84,7 @@ När du har installerat Desktop Proofing Viewer för din organisation kan du ang
    * Om du använder förhandsvisningsmiljön klickar du på [Mac Preview Download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview-2.1.19.pkg).
 
 1. Öppna filen som du just laddat ned för att starta installationen.
-1. I installationsrutan som visas klickar du på **Fortsätt** och sedan klicka **Installera**.
+1. I installationslådan som visas klickar du på **Fortsätt** och sedan på **Installera**.
 
    ![Installationsruta](assets/install-wf-proof-box.png)
 
@@ -94,11 +94,11 @@ När du har installerat Desktop Proofing Viewer för din organisation kan du ang
 
 1. Hämta appen genom att göra något av följande på användarens dator:
 
-   * I produktionsmiljön klickar du på [Windows Production-nedladdning för Desktop Proofing Viewer](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
-   * I förhandsgranskningsmiljön klickar du på [Windows Preview-hämtning för Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
+   * I produktionsmiljön klickar du på [Windows Production Download for the Desktop Proofing Viewer](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.19.exe).
+   * I förhandsgranskningsmiljön klickar du på [Windows Preview-nedladdning för Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.19.exe).
 
 1. Öppna filen som du just laddat ned för att starta installationen.
-1. I säkerhetsvarningsrutan som visas klickar du på **Kör**.
+1. Klicka på **Kör** i säkerhetsvarningsrutan som visas.
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 

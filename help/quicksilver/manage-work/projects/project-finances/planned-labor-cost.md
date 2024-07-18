@@ -22,7 +22,7 @@ Planerad arbetskostnad för ett projekt är en beräkning mellan kostnaden som �
 
 ## Översikt över planerad arbetskostnad
 
-The **Planerad arbetskostnad** för ett projekt beräknas genom att man lägger till alla planerade arbetskostnader för alla uppgifter i projektet.
+Den **planerade arbetskostnaden** för ett projekt beräknas genom att alla planerade arbetskostnader läggs till för alla aktiviteter i projektet.
 
 >[!TIP]
 >
@@ -54,7 +54,7 @@ Du hittar Planerad arbetskostnad för ett projekt i följande områden i Workfro
 * En projektrapport
 * En lista med projekt
 * En baslinjerapport där du kan spåra den över tid
-* Via API
+* Via API:t
 
 Mer information om hur du skapar rapporter och använder Workfront API finns i följande artiklar:
 

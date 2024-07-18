@@ -9,7 +9,7 @@ role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,12 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>accessorID</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>accessorID:n</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">accessorIDs</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Strängarray</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Lista över personer-/team-ID:n som kan komma åt det här objektet</td> 
    <td> </td> 
-   <td> <p><span class="dtRead">Skrivskyddad</span> </p> <p><span class="dtLazy">Lazy Read</span> </p> <p><span class="dtDyn">Dynamisk</span> </p> <p><span class="dtGrp">Inte grupperingsbar</span> </p> </td> 
+   <td> <p><span class="dtRead">Skrivskyddad</span> </p> <p><span class="dtLazy">Lazy Read</span> </p> <p><span class="dtDyn">Dynamisk</span> </p> <p><span class="dtGrp">Kan inte grupperas</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;catObjCode&quot;}"><strong>catObjCode</strong> </td> 
@@ -60,7 +60,7 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type of Object the Custom form is related to&quot;}">Objekttyp som det anpassade formuläret är relaterat till</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;[{\&quot;label\&quot;:\&quot;Company\&quot;,\&quot;value\&quot;:\&quot;CMPY\&quot;},{\&quot;label\&quot;:\&quot;Task\&quot;,\&quot;value\&quot;:\&quot;TASK\&quot;},{\&quot;label\&quot;:\&quot;Project\&quot;,\&quot;value\&quot;:\&quot;PROJ\&quot;},{\&quot;label\&quot;:\&quot;Portfolio\&quot;,\&quot;value\&quot;:\&quot;PORT\&quot;},{\&quot;label\&quot;:\&quot;Program\&quot;,\&quot;value\&quot;:\&quot;PRGM\&quot;},{\&quot;label\&quot;:\&quot;User\&quot;,\&quot;value\&quot;:\&quot;USER\&quot;},{\&quot;label\&quot;:\&quot;Document\&quot;,\&quot;value\&quot;:\&quot;DOCU\&quot;},{\&quot;label\&quot;:\&quot;Issue\&quot;,\&quot;value\&quot;:\&quot;OPTASK\&quot;},{\&quot;label\&quot;:\&quot;Expense\&quot;,\&quot;value\&quot;:\&quot;EXPNS\&quot;},{\&quot;label\&quot;:\&quot;Iteration\&quot;,\&quot;value\&quot;:\&quot;ITRN\&quot;}]&quot;}"><code>[{"label":"Company","value":"CMPY"},{"label":"Task","value":"TASK"},{"label":"Project","value":"PROJ"},{"label":"Portfolio","value":"PORT"},{"label":"Program","value":"PRGM"},{"label":"User","value":"USER"},{"label":"Document","value":"DOCU"},{"label":"Issue","value":"OPTASK"},{"label":"Expense","value":"EXPNS"},{"label":"Iteration","value":"ITRN"}]</code> </td> 
-   <td> <p><span class="dtEdit">Redigerbar</span> </p> <p><span class="dtReq">Obligatoriskt</span> </p> </td> 
+   <td> <p><span class="dtEdit">Redigerbar</span> </p> <p><span class="dtReq">Krävs</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;customerID&quot;}"><strong>customerID</strong> </td> 
@@ -68,7 +68,7 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the Customer&quot;}">Kundens ID</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Inte grupperingsbar</span> </p> </td> 
+   <td> <p><span class="dtGrp">Kan inte grupperas</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;description&quot;}"><strong>description</strong> </td> 
@@ -84,7 +84,7 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the User that added the Custom Form&quot;}">ID för användaren som lade till det anpassade formuläret</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Inte grupperingsbar</span> </p> </td> 
+   <td> <p><span class="dtGrp">Kan inte grupperas</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
@@ -100,7 +100,7 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the first group with access to the custom form&quot;}">ID för den första gruppen som har åtkomst till det anpassade formuläret</td> 
    <td> </td> 
-   <td> <p><span class="dtEdit">Redigerbar</span> </p> <p><span class="dtGrp">Inte grupperingsbar</span> </p> </td> 
+   <td> <p><span class="dtEdit">Redigerbar</span> </p> <p><span class="dtGrp">Kan inte grupperas</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;hasCalculatedFields&quot;}"><strong>hasCalculatedFields</strong> </td> 
@@ -108,7 +108,7 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Boolean&quot;}">Boolean</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Does the form have calculated fields associated with it?&quot;}">Har formuläret associerade beräkningsfält?</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Inte grupperingsbar</span> </p> </td> 
+   <td> <p><span class="dtGrp">Kan inte grupperas</span> </p> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>lastUpdateDate</strong> </td> 
@@ -124,15 +124,15 @@ meddelande: &quot;APIModel INTERNAL saknar stöd för fältprojekttid (OpTask)&q
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">ID för den senaste användaren som ska uppdatera objektet</td> 
    <td> </td> 
-   <td> <p><span class="dtGrp">Inte grupperingsbar</span> </p> </td> 
+   <td> <p><span class="dtGrp">Kan inte grupperas</span> </p> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>name</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;name&quot;}"><strong>namn</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name&quot;}">Namn</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Sträng</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Name of the Object&quot;}">Objektets namn</td> 
    <td> </td> 
-   <td> <p><span class="dtEdit">Redigerbar</span> </p> <p><span class="dtReq">Obligatoriskt</span> </p> </td> 
+   <td> <p><span class="dtEdit">Redigerbar</span> </p> <p><span class="dtReq">Krävs</span> </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Project med version 2020.1. Dessa förbättringar är för närvarande tillgängliga i förhandsvisningsmiljön och kommer att vara tillgängliga i produktionsmiljön i slutet av mars eller början av april 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.1 finns på [Översikt över version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.1 finns i [2020.1 versionsöversikt](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 ## Se enklare vilka som är taggade i en uppdatering
 
@@ -28,7 +28,7 @@ Taggade användare visas också i kommentarsrutan.
 
 Före den här förbättringen visades inte de användare som tidigare taggats i rutan Meddela.
 
-Mer information finns i [Tagga andra för uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Mer information finns i [Tagga andra om uppdateringar](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Inkludera och identifiera citerad text i en uppdateringskommentar eller svar
 
@@ -47,13 +47,13 @@ Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-wo
 
 För att du bättre ska kunna förstå riskerna med dina projekt kan du nu se vilka och när en risk angavs och när den uppdaterades i ett projekt. Du kan få tillgång till den här informationen i en riskvy och via det offentliga Workfront-API:t. Dessa fält är tillgängliga med API-version 11, som släpps med 2020.1 Production.
 
-Information om risker i Workfront finns på [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Mer information om risker i Workfront finns i [Skapa och redigera risker i projekt](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 ## Ytterligare fält har lagts till för baslinjer och baslinjeaktiviteter
 
 För att du bättre ska kunna förstå de ekonomiska framstegen i dina projekt kan du nu inkludera ytterligare kostnads- och intäktsinformation i en baslinje- eller en baslinjeaktivitetsrapport. Den ytterligare ekonomiska informationen läggs inte till i de baslinjer som du har sparat, men den läggs till för nya baslinjer.
 
-Information om ekonomiska fält för projekt och uppgifter som är tillgängliga från objekten Baslinje och Originaluppgift finns på [Projektfinansiering som ingår i projektbaslinjer](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+Mer information om ekonomiska fält för projekt och aktiviteter som är tillgängliga från objekten Baslinje och Originalaktivitet finns i [Projektfinanser ingår i projektbaslinjer](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
 ## Problem med statusen&quot;Avslutade-väntande godkännande&quot; anses vara ofullständiga
 
@@ -63,5 +63,5 @@ Före den här ändringen beaktades stängda problem i statusen&quot;Avslutade g
 
 Alla problem som har placerats i en stängd - Väntande godkännandestatus före den här ändringen fungerar på samma sätt som tidigare, anses vara slutförda och gör att projektet även kan slutföras. Alla problem som har placerats i den här statusen efter den här ändringen kommer att betraktas som ofullständiga.
 
-Mer information om projektstatus finns i [Öppna listan över status för systemprojekt](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+Mer information om projektstatus finns i [Åtkomst till listan över systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
 

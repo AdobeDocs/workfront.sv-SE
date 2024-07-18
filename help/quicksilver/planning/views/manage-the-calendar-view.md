@@ -88,7 +88,7 @@ Mer information om Adobe Workfront Planning-vyer och hur du hanterar dem finns i
  </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hantera en kalendervy {#manage-a-calendar-view}
 
@@ -117,7 +117,7 @@ Så här hanterar du en kalendervy:
 1. Navigera i kalendern genom att göra något av följande:
 
    * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i kalendern.
-   * Klicka **Idag** för att centrera kalendern på dagens datum.
+   * Klicka på **Idag** om du vill centrera kalendern till dagens datum.
    * Välj något av följande alternativ på den nedrullningsbara menyn för tidsram för att uppdatera tidsstegen:
 
       * Månad

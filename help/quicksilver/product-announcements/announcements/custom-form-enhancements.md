@@ -4,9 +4,9 @@ description: Följande viktiga förbättringar har gjorts för hantering av anpa
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 0%
 
 ---
@@ -38,8 +38,6 @@ Användarna kan för närvarande inte se widgeten i följande områden: &#x200B;
 * Rutan Redigera för objektet, om det inte har det nya Adobe Workfront-gränssnittet (t.ex. rutan Redigera utgift)
 * &#x200B; Workfront mobilapp
 
-Mer information om hur du lägger till widgetar i anpassade formulär finns i [Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Koppla ett anpassat formulär till flera objekttyper
 
 Du kan koppla flera objekttyper till ett nytt anpassat formulär:
@@ -68,8 +66,6 @@ Detta är särskilt användbart när du konverterar ett problem eller en uppgift
 >
 >När konverteringen sker måste det anpassade formuläret redan vara kopplat till den objekttyp som du konverterar till.
 
-Instruktioner om hur du lägger till en resurswidget i ett anpassat formulär finns i [Lägga till eller redigera en bild eller en annan resurswidget i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 Tänk på följande när du skapar eller redigerar ett anpassat formulär med flera objekt:
 
 * [Behörighetsalternativ för avsnittsbrytningar](#permission-options-for-section-breaks)
@@ -90,19 +86,17 @@ I ett anpassat formulär som är associerat med objekttyper från båda dessa gr
 
 När du associerar en objekttyp som använder andra behörighetsalternativ än de andra objekttyperna som redan finns i ett anpassat formulär, visas ett meddelande där du kan växla till den gemensamma uppsättningen behörighetsalternativ som används för formuläret. Den här ändringen gäller för alla fält, även om de inte är under en avsnittsbrytning.
 
-Mer information finns i [Lägga till en avsnittsbrytning i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
-
 ### Beräknad kompatibilitet för anpassade fält
 
-I ett anpassat formulär med flera objekt, om ett beräknat fält refererar till fält som är tillgängliga för användning med alla formulärets associerade objekttyper (till exempel {name}, {description}och {entryDate}, som är tillgängliga för flera objekttyper) beräknas data korrekt, oavsett vilket objekt du bifogar det till.
+Om ett beräknat fält refererar till fält som är tillgängliga för användning med alla formulärets associerade objekttyper (till exempel {name}, {description} och {entryDate}, som är tillgängliga för flera objekttyper) i ett anpassat formulär med flera objekt, beräknas data korrekt, oavsett vilket objekt du kopplar det till.
 
-Om du till exempel har ett formulär med flera objekt för projekt och utgåvor, och du lägger till ett beräkningsfält som innehåller {name} -uttrycket visar fältet projektnamnet när du lägger till formuläret i ett projekt och aktivitetsnamnet där du lägger till formuläret i en uppgift.
+Om du till exempel har ett formulär med flera objekt för projekt och utgåvor, och du lägger till ett beräkningsfält som innehåller uttrycket {name}, visas projektnamnet när du lägger till formuläret i ett projekt och aktivitetsnamnet där du lägger till formuläret i en uppgift.
 
 Om ett beräkningsfält i formuläret refererar till ett fält som inte är kompatibelt med alla formulärets objekttyper får du en varning om att göra ändringar.
 
 >[!INFO]
 >
->**Exempel:** I ett anpassat formulär som är associerat med uppgiftsobjekttypen skapar du ett beräknat anpassat fält som refererar till det inbyggda fältet Tilldelad: Namn, så att det kan visa namnet på den primära tilldelade personen när formuläret är kopplat till en uppgift:
+>**Exempel:** I ett anpassat formulär som är associerat med aktivitetsobjekttypen skapar du ett beräknat anpassat fält som refererar till det inbyggda fältet Tilldelad: Namn, så att det kan visa namnet på den primära tilldelade personen när formuläret är kopplat till en uppgift:
 >
 >```
 >Assigned To: Name{assignedTo}.{name}
@@ -113,9 +107,9 @@ Om ett beräkningsfält i formuläret refererar till ett fält som inte är komp
 När detta inträffar kan du göra något av följande:
 
 * Ta bort ett av de två inkompatibla objekten från det anpassade formuläret, antingen objekttypen eller det refererade fältet.
-* Behåll båda objekten och använd filtret för jokertecken `$$OBJCODE` som ett villkor i ett IF-uttryck för att skapa två olika versioner av fältet I Charge. Detta gör att fältet kan fungera utan problem, oavsett vilken typ av objekt formuläret är kopplat till.
+* Behåll båda objekten och använd jokerteckensfiltervariabeln `$$OBJCODE` som ett villkor i ett IF-uttryck för att skapa två olika versioner av fältet I debitering. Detta gör att fältet kan fungera utan problem, oavsett vilken typ av objekt formuläret är kopplat till.
 
-  I exemplet ovan finns det ett inbyggt fält för ägare (som automatiskt fylls i med namnet på den person som skapade projektet, såvida inte någon ändrar detta manuellt), även om det inte finns något inbyggt fält för Tilldelad: namn för projekt. Så i ditt anpassade avgiftsfält kan du använda `$$OBJCODE` som visas nedan för att referera till fältet Ägare när det anpassade formuläret är kopplat till ett projekt och fältet Tilldelad till: Namn när formuläret är kopplat till en uppgift:
+  I exemplet ovan finns det ett inbyggt fält för ägare (som automatiskt fylls i med namnet på den person som skapade projektet, såvida inte någon ändrar detta manuellt), även om det inte finns något inbyggt fält för Tilldelad: namn för projekt. I ditt anpassade avgiftsfält kan du använda `$$OBJCODE` så som visas nedan för att referera till fältet Ägare när det anpassade formuläret är kopplat till ett projekt, och fältet Tilldelad: Namn när formuläret är kopplat till en uppgift:
 
   ```
   IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})
@@ -123,11 +117,10 @@ När detta inträffar kan du göra något av följande:
 
 >[!NOTE]
 >
->  Om du lägger till en objekttyp framför ett fältnamn refererar den till objektets överordnade objekt, så du kan inte använda `{project}.{name}` med ett projekt, men du kan använda det med en uppgift.
+>  Om du lägger till en objekttyp framför ett fältnamn refererar den till objektets överordnade objekt, så du kan inte använda `{project}.{name}` med ett projekt, men du kan använda den med en uppgift.
 
-Instruktioner om hur du lägger till ett beräknat anpassat fält i ett anpassat formulär finns i [Lägga till beräknade data i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-Mer information om variabler som `$$OBJCODE`, se [Översikt över filtervariabler för jokertecken](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+Mer information om variabler som `$$OBJCODE` finns i [Översikt över jokerteckensfiltervariabler](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Varning om hur du tar bort en objekttyp från ett anpassat formulär
 

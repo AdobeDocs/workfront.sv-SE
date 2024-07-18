@@ -21,8 +21,8 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Skapa ett formelfält
 
-1. Skapa eller navigera till ett tabellblock enligt beskrivningen i [Lägga till eller redigera ett tabellblock i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
-1. På tabellrubriken i rapporten klickar du på **Redigera** icon ![](assets/edit-icon.png).
+1. Skapa eller navigera till ett tabellblock enligt beskrivningen i [Lägg till eller redigera ett tabellblock i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md).
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) på tabellrubriken i rapporten.
 
    ![](assets/edit-icon-table-header-350x71.png)
 
@@ -30,14 +30,14 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
    >
    >Om du just har skapat tabellen och ännu inte har lagt till några fält klickar du i stället på knappen Redigera mitt i tabellen.
 
-1. Klicka **Nytt +** högst upp på **Fält** i den högra panelen.
-1. Klicka på knappen **Redigera** icon ![](assets/edit-icon.png) bredvid fältnamnet i det övre vänstra hörnet för att ändra formelfältets namn.
-1. Dra **Funktioner** eller **Fält** från den vänstra panelen till fältbyggaren i mitten för att lägga till dem i formelfältet.
+1. Klicka på **Nytt +** överst i listan **Fält** på den högra panelen.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) bredvid fältnamnet i det övre vänstra hörnet på den nya sidan som öppnas om du vill ändra formelfältets namn.
+1. Dra **Funktioner** eller **Fält** från den vänstra panelen till fältverktyget i mitten för att lägga till dem i formelfältet.
 
 
    >[!TIP]
    >
-   >När du skapar formelfältet kan du **Förhandsgranska fält** till höger visas exempel på resultatfältet.
+   >När du skapar formelfältet visas exempel på det resulterande fältet i **fältförhandsvisningen** till höger.
 
    Varje funktion innehåller ett antal tomma prickade rektanglar som används som argument vid beräkningen av ett resultat. Dessa kan fyllas i genom att du anger statisk text eller siffror, drar och släpper ett fält från den vänstra panelen (med fältets värde i beräkningen) eller genom att dra och släppa en annan funktion (skapa en kapslad funktion). Möjliga funktioner:
 
@@ -67,4 +67,4 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
    {style="table-layout:auto"}
 
-1. Klicka på **Gå tillbaka** pilen i skärmens övre vänstra hörn för att återgå till tabellen.
+1. Klicka på pilen **Gå tillbaka** i det övre vänstra hörnet av skärmen för att gå tillbaka till tabellen.

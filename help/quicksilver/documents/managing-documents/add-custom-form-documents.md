@@ -6,9 +6,9 @@ description: Du kan lägga till ett anpassat formulär i ett dokument eller i en
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,20 +57,20 @@ Så här lägger du till ett anpassat formulär i ett dokument:
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på **Sammanfattning** icon ![](assets/summary-panel-icon.png)och sedan hitta **Detaljer** -avsnitt.
-1. I **Lägg till anpassat formulär** börjar du skriva och väljer ett eget formulär. Formuläret sparas automatiskt i dokumentet.
+1. Klicka på ikonen **Sammanfattning** ![](assets/summary-panel-icon.png) och leta upp avsnittet **Information**.
+1. I rutan **Lägg till anpassat formulär** börjar du skriva och väljer ett anpassat formulär. Formuläret sparas automatiskt i dokumentet.
 
    >[!NOTE]
    >
-   >Endast aktiva anpassade formulär visas i listrutan. Du kan lägga till upp till 10 anpassade formulär per dokument. Om du behöver skapa ett anpassat formulär kan du läsa mer i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   >Endast aktiva anpassade formulär visas i listrutan. Du kan lägga till upp till 10 anpassade formulär per dokument. Om du behöver skapa ett anpassat formulär kan du läsa [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Redigera ett eget formulär
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
 1. Hitta det dokument du behöver.
 
-1. Klicka på **Sammanfattning** icon ![](assets/summary-panel-icon.png)och sedan hitta **Detaljer** -avsnittet nära toppen.
-1. Klicka **Redigera** i det övre högra hörnet och sedan färdigställa det önskade formuläret.
+1. Klicka på ikonen **Sammanfattning** ![](assets/summary-panel-icon.png) och leta sedan upp avsnittet **Detaljer** uppe.
+1. Klicka på **Redigera** i det övre högra hörnet och utöka sedan det önskade formuläret.
 1. Gör de ändringar du behöver och klicka sedan på **Spara**.
 
    ![](assets/edit-custom-form-350x265.png)

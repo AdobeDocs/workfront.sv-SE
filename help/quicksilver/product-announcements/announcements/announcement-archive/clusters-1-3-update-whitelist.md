@@ -8,8 +8,8 @@ feature: Product Announcements
 exl-id: 77d43206-1db7-4075-a063-043f8c9f75ed
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 4%
+source-wordcount: '317'
+ht-degree: 0%
 
 ---
 
@@ -43,7 +43,7 @@ Se till att IP-blocken för ditt tillåtelselista uppdateras senast 13 maj 2019.
 
 Tack för ditt fortsatta stöd för Workfront när vi skapar en mer tillförlitlig och robust upplevelse för våra kunder.
 
-Om du har ytterligare frågor kontaktar du vårt supportteam genom att besöka experience.workfront.com eller genom att ringa 844.306.4357 (USA) eller +44.1256.274200 (EMEA).
+Om du har ytterligare frågor kan du kontakta vårt supportteam på experience.workfront.com eller genom att ringa 844.306.4357 (USA) eller +44.1256.274200 (EMEA).
 
 ## Vanliga frågor
 

@@ -19,15 +19,15 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Förbättrad analys - översikt](../enhanced-analytics/enhanced-analytics-overview.md)
-* [Använda filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md)
-* [Förstå nyckeltal för förbättrade analyser](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
-* [Visa flygplansvisualisering i Förbättrad analys](../enhanced-analytics/flight-plan-overview.md)
+* [Förbättrad analysöversikt](../enhanced-analytics/enhanced-analytics-overview.md)
+* [Använd filter i Förbättrad analys](../enhanced-analytics/use-enhanced-analytics-filters.md)
+* [Förstå KPI:er för förbättrade analyser](../enhanced-analytics/understand-enhanced-analytics-kpis.md)
+* [Visa visualisering av flygplan i Förbättrad analys](../enhanced-analytics/flight-plan-overview.md)
 * [Visa Burndown-visualisering i Förbättrad analys](../enhanced-analytics/burndown-overview.md)
 * [Visa uppgifter i flygvisualisering i Förbättrad analys](../enhanced-analytics/tasks-in-flight-overview.md)
-* [Visa projektaktivitetsvisualisering i Förbättrad analys](../enhanced-analytics/project-activity-overview.md)
-* [Visa projekttreemap-visualisering i Förbättrad analys](../enhanced-analytics/project-treemap-overview.md)
-* [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](../enhanced-analytics/activity-by-team-overview.md)
+* [Visa visualisering av projektaktivitet i Förbättrad analys](../enhanced-analytics/project-activity-overview.md)
+* [Visa visualisering av projekttreemap i Förbättrad analys](../enhanced-analytics/project-treemap-overview.md)
+* [Visa aktivitetsvisualisering per team i Förbättrad analys](../enhanced-analytics/activity-by-team-overview.md)
 <!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
@@ -37,4 +37,4 @@ Det här avsnittet innehåller följande artiklar:
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-Mer ingående utbildning om Förbättrad analys finns i [Förbättrade inlärningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).
+Mer information om förbättrade analysmöjligheter finns i [Förbättrade utbildningsvägar för analyser](https://one.workfront.com/s/enhanced-analytics-program).

@@ -28,7 +28,7 @@ Funktionerna som beskrivs på den här sidan är för närvarande tillgängliga 
 
 * [Förbättringar för administratörer](#enhancements-for-administrators)
 * [Förbättringar för alla användare](#enhancements-for-all-users)
-* [Mobilförbättringar](#mobile-enhancements)
+* [Mobila förbättringar](#mobile-enhancements)
 * [Versionswebbseminarier](#release-webinars)
 
   <!--
@@ -39,13 +39,13 @@ Funktionerna som beskrivs på den här sidan är för närvarande tillgängliga 
 
 I följande avsnitt beskrivs förbättringar som är tillgängliga för Workfront-administratörer i Workfront 2017.3:
 
-* [Uppdaterad layoutmall som har stöd för hemområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated-layout-template-to-support-the-home-area) (Endast förhandsvisning)
+* [Uppdaterad layoutmall som stöder hemområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated-layout-template-to-support-the-home-area) (endast förhandsvisning)
 
 * [Nytt inställningsområde för resurshantering i inställningsområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-resource-management-preferences-area-in-the-setup-area)
 * [Förhindra att uppgifter och problem tas bort när timmar loggas](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#new-setting-to-prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [Borttagning av inställningen &quot;tidig åtkomst&quot; från inställningsområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#removal-of-the-early-access-setting)
-* [Ändra standardadress för e-postadress](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#workfront-default-email-address-change)
-* [Begränsa åtkomst till arbetsflöden efter scenaktivering (Workfront-korrektur)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#restrict-access-to-workflows-by-stage-activation)
+* [Borttagning av inställningen &quot;Tidig åtkomst&quot; från inställningsområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#removal-of-the-early-access-setting)
+* [Ändra Workfront standardadress för e-post](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#workfront-default-email-address-change)
+* [Begränsa åtkomst till arbetsflöden efter scenaktivering (Workfront Proof)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#restrict-access-to-workflows-by-stage-activation)
 * [SSO-information för sandlådorna för anpassad uppdatering och förhandsvisning Uppdatera inte](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#sso-information-for-custom-refresh-sandboxes-does-not-refresh)
 * [Ny konfiguration för återanrop av begäranden i området Godkännandeinställningar](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#new-configuration-for-recalling-requests)
 
@@ -55,14 +55,14 @@ I följande avsnitt beskrivs förbättringar som är tillgängliga för slutanv�
 
 ### Förbättringar av resursplanering
 
-* [Tillämpa FTE-distribution på resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#apply-fte-distribution-to-the-resource-planner)
+* [Använd FTE-distribution i resursplaneraren](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#apply-fte-distribution-to-the-resource-planner)
 * [Förbättrad resursplanering: Filter](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#resource-planner-improvement-filters)
-* [Förbättring av resursplanering: Visa utgivningstimmar i området Inställningar](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#resource-planner-improvement-show-issue-hours-in-settings)
-* [Resursplaneringsalternativ för att ändra vyn](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#resource-planner-option-to-change-the-view)
+* [Förbättring av resursplanering: Visa utfärdandetimmar i området Inställningar](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#resource-planner-improvement-show-issue-hours-in-settings)
+* [Alternativ för resursplanering om du vill ändra vyn](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#resource-planner-option-to-change-the-view)
 * [Resursplanering: Visa data via FTE](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-show-data-by-fte)
 * [Resursplanering: Visa data per vecka och kvartal](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-show-data-by-week-and-quarter)
 * [Resursplanering: Visa efter användare](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-view-by-user)
-* [Resursplanering: Dra och släpp projekt för att ange prioritet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-drag-and-drop-projects)
+* [Resursplanerare: Dra och släpp projekt för att ange prioritet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-drag-and-drop-projects)
 * [Resursplanering: Exportera data i resursplaneraren till Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-export-data)
 
 ### Förbättringar av resursplanering
@@ -70,14 +70,14 @@ I följande avsnitt beskrivs förbättringar som är tillgängliga för slutanv�
 * [Automatisera tilldelningar vid schemaläggning av resurser](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#automate-assignments-when-scheduling-resources)
 * [Visa schemaläggningsområde i helskärmsläge](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-scheduling-area-in-full-screen-mode)
 * [Fler datumintervallalternativ för visning av resursplaneringsområdet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#more-date-range-options-for-viewing-the-resource-scheduling-area)
-* [Visa beräknade datum på tidslinjen för schemaläggning](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-projected-dates-on-the-scheduling-timeline)
+* [Visa beräknade datum på tidslinjen ](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#view-projected-dates-on-the-scheduling-timeline)
 * [Ändra tilldelningar för flera aktiviteter vid schemaläggning av resurser](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#modify-assignments-for-specific-tasks-within-a-project)
 
 ### Rapportförbättringar
 
 * [Visa ursprunglig probleminformation i projekt- och aktivitetsrapporter](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#show-information-in-project-and-taks-reports)
 * [Anpassa diagramfärger](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#customize-chart-colors)
-* [Ändra storlek på och ordna om kolumner i rapporter och listor](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#resize-and-reorder-columns-in-reports-and-lists)
+* [Ändra storlek på och ändra ordning på kolumner i rapporter och listor](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#resize-and-reorder-columns-in-reports-and-lists)
 * [Instrumentpanelsinformation i rapportlistor](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#dashboar)
 * [Resursplanering: Exportera data i resursplaneraren till Excel](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#resource-planner-export-data)
 * [Inbyggda rapporter innehåller uppdaterade beskrivningar](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#built-in-reports-contain-updated-descriptions)
@@ -86,15 +86,15 @@ I följande avsnitt beskrivs förbättringar som är tillgängliga för slutanv�
 ### Förbättringar av Agile
 
 * [Kanban för Agile](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#kanban-for-agile)
-* [Inkludera problem i Scrum-eftersläpningen för ett Agile Team](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-backlog) Borttagen
+* [Inkludera problem i Scrum-eftersläpningen för ett Agile Team](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-backlog) har tagits bort
 
-* [Inkludera frågor i Scrum Agile Story Board](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-story-board) Borttagen
+* [Inkludera problem på Scrum Agile Story Board](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#include-issues-on-the-story-board) har tagits bort
 
-* [Använda grupperingar och filter i eftersläpningen för ett Agile-team](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#apply-groupings-and-filters-to-the-backlog) Borttagen
+* [Använd grupperingar och filter i eftersläpningen för ett Agile Team](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#apply-groupings-and-filters-to-the-backlog) Borttagen
 
 ### Förbättringar av mitt arbete
 
-* [Hem (uppdaterade min arbetsyta)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#home-area) (Endast förhandsvisning)
+* [Hem (Min arbetsyta har uppdaterats)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#home-area) (endast förhandsvisning)
 
 ### Förbättringar i användningsrapporten
 
@@ -115,34 +115,34 @@ I följande avsnitt beskrivs förbättringar som är tillgängliga för slutanv�
 
 ### Projektförbättringar
 
-* [Duplicera uppgifter](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#duplicate-tasks)
+* [Duplicera aktiviteter](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#duplicate-tasks)
 * [Alternativet Rensa anpassade data vid kopiering av uppgifter och problem](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#clear-custom-data-option-when-copying-tasks-and-issues)
 * [Skapa ett projekt direkt från en mall](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#create-a-project-directly-from-a-template)
 * [Ytterligare alternativ vid kopiering av projekt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-3-release-activity.md#additional-options-when-copying-projects)
-* [Förbättrade dokument: Smidigt gränssnitt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#document-enhancements-streamlined-interface)
+* [Dokumentförbättringar: Effektivt gränssnitt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#document-enhancements-streamlined-interface)
 * [Ny Gantt-schemaomdesign](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#new-gantt-chart)
-* [Varumärkning i exporterade rapporter, listor och kontrollpaneler](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#branding-in-exported-reports-lists-and-dashboards)
+* [Varumärkning i exporterade rapporter, listor och instrumentpaneler](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#branding-in-exported-reports-lists-and-dashboards)
 * [Förbättringar när du kopierar uppgifter och flyttar uppgifter eller problem](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#improvements-when-copying-tasks-and-moving-tasks-or-issues)
 
 ### Förbättringar av korrektur
 
-**Förbättringar av korrektur i Workfront**
+**Språkförbättringar i Workfront**
 
 * [Förbättrad användarupplevelse och ytterligare funktioner](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#improved-user-experience-and-additiona-functionality)
-* [Rapport om Active Proof Stages i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#report-on-active-proof-stages-within-workfront)
-* [Tilldela anpassade Workfront-behörighetsprofiler till användare i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
+* [Rapport om aktiva korrekturstadier i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#report-on-active-proof-stages-within-workfront)
+* [Tilldela anpassade Workfront Proof-behörighetsprofiler till användare i Workfront](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
 * [Dela direkt från korrekturläsaren](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#share-directly-from-the-proofing-viewer)
 * [Konfigurera standardprofilroller](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#configuring-default-proof-roles)
 
-**Förbättringar av korrektur i både Workfront och Workfront**
+**Språkförbättringar i både Workfront Proof och Workfront**
 
-* [Uppdateringar för korrekturläsaren för HTML 5](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
+* [Uppdateringar för korrekturläsare för HTML5](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
 * [Starta om och hoppa över videokorrektur i HTML5 (kortkommandon)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#restart-and-skip-in-html5-proofing)
 
 ### Andra förbättringar
 
-* [Widescreen](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#widescreen-display)
-* [Ny Look för e-postmeddelanden om kommunikation](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#new-look-form-communication-emails)
+* [Widescreen-skärm](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#widescreen-display)
+* [Ny funktion för att leta efter e-postmeddelanden om kommunikation](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#new-look-form-communication-emails)
 * [Avsnitt för jobbroll för användarinställningar inkluderar procent av FTE-tillgänglighet](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#new-job-roles-interface-for-user-settings)
 * [Filtersystemsuppdateringar i uppdateringsströmmen är nu beständiga över objekt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#filter-system-updates-in-the-update-stream)
 * [RTF-formatering för uppdateringar och e-postmeddelanden](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#rich-text-formatting)
@@ -151,8 +151,8 @@ I följande avsnitt beskrivs förbättringar som är tillgängliga för slutanv�
 
 ### API-förbättringar
 
-* [API 8 ute nu](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#api-8-now-availabe) 
-* [Borttagna och inaktuella versioner av API:t](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#removed-and-deprecated-versions-of-the-api) 
+* [API 8 är nu tillgängligt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#api-8-now-availabe) 
+* [Borttagna och inaktuella versioner av API](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#removed-and-deprecated-versions-of-the-api) 
 * [Återförsök av händelseprenumerationer för olevererbara meddelanden](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#event-subscription-retries-for-undeliverable-messages)
 * [Uppdaterat meddelandeformat för händelseprenumerationer](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#updated)
 * [Timresurs tillagd i händelseprenumerationer](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#hour-resource-added-to-event-subscription)
@@ -171,7 +171,7 @@ Följande funktionalitet lades till i produktionsversionen av Workfront-mobilapp
 * Bevis på godkännandebegäranden
 * Push-meddelanden för prenumerationsobjekt
 
-Mer information om dessa ändringar finns i [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](../../../announcements/announcement-archive/updated-mobile-app.md).
+Mer information om de här ändringarna finns i [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](../../../announcements/announcement-archive/updated-mobile-app.md).
 
 Följande ytterligare funktioner kommer att bli tillgängliga före produktionsreleasen den 8 november:
 
@@ -182,4 +182,4 @@ Följande ytterligare funktioner kommer att bli tillgängliga före produktionsr
 
 ## Versionswebbseminarier {#release-webinars}
 
- Om du vill visa webbinarium-inspelningar för 2017.3-utgåvan går du till [2017.3-utgåvan, webbinarier](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md).
+ Om du vill visa webbinarium-inspelningar för version 2017.3 ska du läsa [2017.3-utgåvan av webbinarier](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-webinars.md).

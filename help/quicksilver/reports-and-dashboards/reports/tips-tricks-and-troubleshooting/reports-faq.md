@@ -42,7 +42,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -92,7 +92,7 @@ Mer information om hur du ändrar filter och grupperingar finns i artiklarna [Ö
 Rapporten eller kalendern kan ha en jokerteckensfiltervariabel som pekar på användaren som är inloggad. I det här fallet visar rapporten information baserat på den användare som är inloggad. Justera filtret för att ta bort jokertecknet som pekar på den inloggade användaren.\
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-En fullständig lista med användarbaserade översikt över jokerteckenfiltervariabler finns i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+En fullständig lista med användarbaserade översikt över jokerteckenfiltervariabler finns i [Översikt över jokerteckensfiltervariabler](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Varför verkar uppgifterna i min rapport ofullständiga?
 
@@ -111,37 +111,37 @@ Mer information finns i [Kör och leverera en rapport med åtkomsträttigheter f
 Om du vill visa alla uppgifter eller ärenden som du har tilldelats, oavsett om du är ägare (eller primär tilldelad) eller inte, använder du följande filter i en aktivitets- eller problemrapport:
 
 1. Få åtkomst till en aktivitet eller en problemrapport.
-1. På **Filter** flik, klicka **Lägg till en filterregel**.
+1. Klicka på **Lägg till en filterregel** på fliken **Filter**.
 
-1. I **Börja skriva fältnamn..** fält, börja skriva **Namn på uppdragsanvändare** markerar du den när den visas i listan.
+1. I fältet **Börja skriva fältnamn ...** börjar du skriva **Tilldelningsanvändarnamn** och markerar det när det visas i listan.
 
    >[!NOTE]
    >
-   >Använd inte **Tilldelad till namn** som det här filtret endast för de uppgifter och utgåvor som du är primär tilldelad eller ägare för.
+   >Använd inte fältet **Tilldelad till namn** eftersom det här filtret endast gäller de uppgifter och utgåvor som du är primär tilldelad eller ägare för.
 
-1. Välj **Jämn** modifierare.
+1. Välj modifieraren **Lika med**.
 1. Börja skriva *$$USER.ID* i textrutan och välj den i listrutan som visas.\
    På så sätt ser du alla uppgifter och problem som har tilldelats den inloggade användaren. Du kan ersätta jokertecknet med ett specifikt användarnamn.\
    ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
 ## Varför visas inte länkarna Lägg till problem/Lägg till uppgifter längst ned i listan med ärenden och uppgifter i ett projekt?
 
 ### Svar
 
-Kontrollera först att du har rätt behörighet och behörighet för att lägga till problem och uppgifter i ett projekt. I det här fallet bör du se **Lägg till problem** och **Lägg till aktiviteter** länkar längst ned i **Problem** och **Uppgifter** listor.
+Kontrollera först att du har rätt behörighet och behörighet för att lägga till problem och uppgifter i ett projekt. I det här fallet bör du se länkarna **Lägg till problem** och **Lägg till uppgifter** längst ned i listorna **Problem** och **Åtgärder** .
 
 Det finns dock några saker som kan förhindra att länkarna visas:
 
 * Om du har använt snabbfiltret på dessa listor visas inte länkarna. Ta bort snabbfiltret och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
-  Information om snabbfiltret finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+  Mer information om snabbfiltret finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* Om du har en **Gruppering** länkarna visas inte i dessa listor. Ta bort **Gruppering** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
+* Om du har använt en **gruppering** på de här listorna visas inte länkarna. Ta bort **grupperingen** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
   Mer information om hur du skapar grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-* Om du har en **Visa** länkarna visas inte i listor som har en annan valuta än projektets standardvaluta. Ändra **Visa** till **Projektets ursprungliga valuta** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
-  Mer information om hur du ändrar valuta i vyn finns i [Skapa rapporter om finansiella data med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Om du har använt en **Visa** på de här listorna som har en annan valuta än projektets standardvaluta, visas inte länkarna. Ändra **Visa** till **Projektets ursprungliga valuta** och länkarna ska visas så att du kan lägga till problem och uppgifter i dina projekt.\
+  Mer information om hur du ändrar valutan i din vy finns i [Skapa ekonomiska datarapporter med unika valutakurser](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ![](assets/nwe-project-original-currency-350x229.png)
 
@@ -152,10 +152,10 @@ Det finns dock några saker som kan förhindra att länkarna visas:
 Informationen i rapporter eller kontrollpaneler uppdateras inte automatiskt.
 
 Informationen kan uppdateras manuellt i en cachelagrad rapport.\
-Mer information om hur du uppdaterar en cachelagrad rapport finns i [Köra en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
+Mer information om hur du uppdaterar en cachelagrad rapport finns i [Kör en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md).
 
 Informationen kan uppdateras manuellt i en cachelagrad kontrollpanel.\
-Mer information om att uppdatera en cachelagrad kontrollpanel finns i avsnittet [Visa instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) i artikeln [Kom igång med instrumentpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
+Mer information om hur du uppdaterar en cachelagrad kontrollpanel finns i avsnittet [Visa kontrollpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md#running-dashboards) i artikeln [Kom igång med kontrollpaneler](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 ## Kan jag ändra rapportens ägare?
 
@@ -164,7 +164,7 @@ Mer information om att uppdatera en cachelagrad kontrollpanel finns i avsnittet 
 Du kan inte ändra rapportens ägare. Den användare som skapade rapporten kan dock tillåta andra användare att redigera rapporten. Hur du kan tillåta användare att redigera en rapport beror på vilken typ av användare du är.
 
 * Systemadministratörer kan tillåta användare med en planlicens att redigera rapporter genom att konfigurera alternativet Redigera i rapportraden så att de får tillgång till Skapa en rapport.\
-  Mer information finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Mer information finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Alla slutanvändare som har tillgång till att skapa och dela rapporter kan låta andra redigera enskilda rapporter genom att dela dem och ge andra användare behörigheten Hantera.\
   Mer information finns i [Dela en rapport i Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
@@ -175,9 +175,9 @@ Om du har behörighet att visa eller hantera en rapport kan du också göra en k
 
 ### Svar
 
-Ibland är rapportens ägare även den användare som anges i **Kör den här rapporten med åtkomsträttigheterna för:** i rapporten. Om **Kör den här rapporten med åtkomsträttigheterna för:** om användaren är inaktiverad visas rapporten inte längre för användare som har delat rapporten med sig. När det händer kan du göra rapporten tillgänglig igen genom att lämna **Kör den här rapporten med åtkomsträttigheter för:** tomt eller ange en aktiv användare i fältet.
+Ibland är rapportens ägare också den användare som anges i **Kör den här rapporten med åtkomsträttigheten** i rapportfältet. Om **Kör den här rapporten med åtkomsträttigheterna för**-användaren inaktiveras visas inte längre rapporten för användare som har den delade rapporten. När det inträffar kan du göra rapporten tillgänglig igen genom att lämna **Kör den här rapporten med åtkomstbehörigheten** tom eller genom att ange en aktiv användare i fältet.
 
-Läs mer om **Kör den här rapporten med åtkomsträttigheter för:** fält, se [Kör och leverera en rapport med åtkomsträttigheter för en annan användare](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Information om hur du identifierar alla rapporter som ägs av inaktiverade användare finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+Om du vill veta mer om fältet **Kör den här rapporten med åtkomsträttigheter för:** kan du läsa [Kör och leverera en rapport med åtkomsträttigheter för en annan användare](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). Information om hur du identifierar alla rapporter som ägs av inaktiverade användare finns i [Skapa en rapport om rapporteringsaktiviteter](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 ## Hur får jag åtkomst till en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?
 
@@ -188,7 +188,7 @@ När du tar bort en användare kan du fortfarande få åtkomst till alla rapport
 * En instrumentpanel som innehåller rapporten
 * Ett anpassat avsnitt som innehåller en kontrollpanel för rapporten
 
-Mer information om hur du tar bort en användare finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+Mer information om konsekvenserna av att ta bort en användare finns i [Ta bort användare](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 Om du har åtkomst till rapporten via Visa kan du göra följande:
 

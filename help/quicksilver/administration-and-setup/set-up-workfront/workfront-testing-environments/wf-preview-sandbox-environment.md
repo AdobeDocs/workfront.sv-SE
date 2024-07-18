@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: The [!DNL Adobe Workfront] Förhandsgranska sandlådemiljö
+title: 'Sandlådemiljö för förhandsgranskning:  [!DNL Adobe Workfront] '
 description: Sandlådan för förhandsgranskning är en testmiljö som fungerar som en kopia av din livemiljö. Den uppdateras varje helg av Workfront. Data som läggs till i din livemiljö på fredag visas i din förhandsvisningssandlåda senast följande måndag. Alla supportpaket har åtkomst till den här sandlådan.
 author: Lisa
 feature: System Setup and Administration
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ---
 
-# The [!DNL Adobe Workfront] Förhandsgranska sandlådemiljö
+# Sandlådemiljön för förhandsgranskning av [!DNL Adobe Workfront]
 
 <!-- Audited: 12/2023 -->
 
-Det finns två testmiljöer för [!DNL Workfront] som är kopior av [!DNL Workfront] produktionsmiljö:
+Det finns två testmiljöer för [!DNL Workfront] som är repliker av din [!DNL Workfront]-produktionsmiljö:
 
 * Sandlådan Förhandsgranska
 
-  Sandlådan Preview är en testmiljö som fungerar som en kopia av din aktiva miljö och uppdateras varje helg av [!DNL Workfront]. Data som läggs till i din livemiljö på fredag visas i din förhandsvisningssandlåda senast följande måndag.
+  Sandlådan för förhandsgranskning är en testmiljö som fungerar som en replik av din aktiva miljö och uppdateras varje helg av [!DNL Workfront]. Data som läggs till i din livemiljö på fredag visas i din förhandsvisningssandlåda senast följande måndag.
 
   Alla supportpaket har tillgång till förhandsvisnings-sandlådan.
 
 * Sandlådan Anpassad uppdatering
 
-  Sandlådan för anpassad uppdatering är en separat testmiljö som uppdateras manuellt av dig. Det finns en extra kostnad för att hämta den anpassade uppdateringssandlådan. Mer information om den här miljön finns i [The [!DNL Adobe Workfront] Anpassad miljö för uppdatering av sandlådan](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
+  Sandlådan för anpassad uppdatering är en separat testmiljö som uppdateras manuellt av dig. Det finns en extra kostnad för att hämta den anpassade uppdateringssandlådan. Mer information om den här miljön finns i [Anpassad sandlådemiljö för uppdatering](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md). [!DNL Adobe Workfront] 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,8 +39,8 @@ Det finns två testmiljöer för [!DNL Workfront] som är kopior av [!DNL Workfr
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>[!UICONTROL Standard] Supportpaket</strong> </p> </th> 
-   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL Preferred]och [!UICONTROL Enterprise] Supportpaket</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Standard] Support Package</strong> </p> </th> 
+   <th> <p><strong>[!UICONTROL Plus], [!UICONTROL Preferred] och [!UICONTROL Enterprise] Supportpaket </strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -65,7 +65,7 @@ Sandlådan Preview innehåller dina faktiska produktionsdata, men den uppdateras
 
 Data flödar åt samma håll, från produktion till förhandsgranskning, och inte åt andra hållet. En uppdatering av förhandsvisningsmiljön schemaläggs alltid av [!DNL Workfront] varje helg.
 
-Förhandsgranska sandlådan tillåter även [!DNL Workfront] för att driftsätta nya funktioner i en säker miljö, innan de är klara att driftsättas för produktion. Du kan testa de nya funktionerna och ge [!DNL Workfront] ge feedback om deras funktionalitet genom att gå till förhandsgranskningssandlådan. Därför ligger koden för förhandsvisningssandlådan alltid före produktionskoden, även om dina data uppdateras varje vecka.
+Med Förhandsgranska sandlåda kan [!DNL Workfront] även distribuera nya funktioner i en säker miljö innan de är klara att distribueras till Produktion. Du kan testa de nya funktionerna och ge [!DNL Workfront] feedback om deras funktioner genom att gå till förhandsvisningssandlådan. Därför ligger koden för förhandsvisningssandlådan alltid före produktionskoden, även om dina data uppdateras varje vecka.
 
 Förhandsvisningsmiljön är idealisk för att köra utbildningar, testa nya funktioner och fastställa installationsfunktioner.
 
@@ -73,26 +73,26 @@ Förhandsvisningsmiljön är idealisk för att köra utbildningar, testa nya fun
 >
 >Lägg märke till den blå banderollen högst upp på skärmen när du öppnar förhandsvisningssandlådan. Banderollen kan inte tas bort medan du arbetar i den här miljön.
 >
->Namnet på miljön som du använder (förhandsversion) och den officiella versionen av koden visas på banderollen. Klicka **[!UICONTROL See what's new]** om du vill ha information om den versionen.
+>Namnet på miljön som du använder (förhandsversion) och den officiella versionen av koden visas på banderollen. Klicka på **[!UICONTROL See what's new]** om du vill ha information om den versionen.
 >
 >![](assets/preview-banner-nwe-350x161.png)
 
 ## Åtkomst till sandlådan Förhandsgranska
 
-Som standard, som [!DNL Workfront] administratör, du har åtkomst till [!UICONTROL Preview] Sandlådemiljö. Om du inte har åtkomst till [!UICONTROL Preview] Sandlådemiljö enligt beskrivningen i det här avsnittet, kontakta [!DNL Workfront] eller vårt kundsupportteam.
+Som standard har du som [!DNL Workfront]-administratör åtkomst till [!UICONTROL Preview]-sandlådemiljön. Om du inte kan komma åt sandlådemiljön [!UICONTROL Preview] enligt beskrivningen i det här avsnittet kontaktar du [!DNL Workfront]-administratören eller vårt kundsupportteam.
 
 
-### Få åtkomst till sandlådan Förhandsvisa från [!DNL Workfront] Gränssnitt {#accessing-the-preview-sandbox-from-the-workfront-interface}
+### Åtkomst till förhandsgranskningssandlådan från gränssnittet [!DNL Workfront] {#accessing-the-preview-sandbox-from-the-workfront-interface}
 
-Som en [!DNL Workfront] -administratör kan du komma åt sandlådan Preview via [!DNL Workfront] gränssnitt.
+Som [!DNL Workfront]-administratör kan du komma åt förhandsgranskningssandlådan via gränssnittet [!DNL Workfront].
 
 Så här kommer du åt förhandsvisningssandlådan:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
-1. Klicka **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
+1. Klicka på **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 
-1. I **[!UICONTROL Test Environments]** avsnitt, klicka **[!UICONTROL Sandbox Preview]**.
+1. Klicka på **[!UICONTROL Sandbox Preview]** i avsnittet **[!UICONTROL Test Environments]**.
 
 1. Logga in med dina autentiseringsuppgifter för förhandsgranskning.
 
@@ -104,7 +104,7 @@ Du kommer åt förhandsgranskningssandlådan via en URL.
 
 #### Åtkomst till förhandsgranskningssandlådan för konton i kluster 1,2,3 och 5 {#accessing-the-preview-sandbox-for-accounts-on-cluster-1-2-3-and-5}
 
-URL:en för förhandsvisningssandlådan är: `https://companyname.preview.workfront.com/`.
+URL:en för förhandsgranskningssandlådan är: `https://companyname.preview.workfront.com/`.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ Så här loggar du in i förhandsvisningssandlådan med en URL:
 
 1. Navigera till denna URL: `https://companyname.preview.workfront.com/`.
 
-   Du kan även komma åt förhandsvisningssandlådan genom att gå till [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
+   Du kan även få åtkomst till förhandsgranskningssandlådan genom att gå till [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
 
 1. Logga in med dina autentiseringsuppgifter för förhandsgranskning.
 
@@ -137,18 +137,18 @@ Så här loggar du in i förhandsvisningssandlådan med en URL:
 
 ## Ta emot e-postmeddelanden från sandlådan Förhandsgranska
 
-Workfront inaktiverar all e-postkommunikation från sandlådemiljön Preview. Om du vill få e-postmeddelanden från förhandsgranskningssandlådemiljön måste du aktivera den här funktionen i dina användarinställningar. Mer information om hur du aktiverar e-postmeddelanden i sandlådemiljön för förhandsgranskning finns i [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Workfront inaktiverar all e-postkommunikation från sandlådemiljön Preview. Om du vill få e-postmeddelanden från förhandsgranskningssandlådemiljön måste du aktivera den här funktionen i dina användarinställningar. Mer information om hur du aktiverar e-postmeddelanden i sandlådemiljön för förhandsgranskning finns i [Aktivera leverans av e-postmeddelanden från sandlådemiljön för förhandsgranskning](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!NOTE]
 >
->Rapportleverans och push-meddelanden på mobilappen är alltid inaktiverade för förhandsvisningssandlådemiljön. Varken du eller [!DNL Workfront] administratören kan aktivera rapportleverans eller push-meddelanden för mobilappen när du öppnar sandlådemiljön för förhandsgranskning.
+>Rapportleverans och push-meddelanden på mobilappen är alltid inaktiverade för förhandsvisningssandlådemiljön. Varken du eller administratören för [!DNL Workfront] kan aktivera rapportleverans eller push-meddelanden för mobilappen när du använder sandlådemiljön för förhandsgranskning.
 >
 >Mer information om rapportleveranser för produktionsmiljön finns i [Översikt över rapportleverans](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 
 ## enkel inloggning (SSO)
 
-Om du använder enkel inloggning ska du samarbeta med vårt kundsupportteam för att se till att den är korrekt konfigurerad så att du kan använda dina inloggningsuppgifter för att logga in på [!UICONTROL Preview] Sandbox. Om din första inloggning misslyckas kontaktar du din vanliga supportkontakt eller [!DNL Workfront] administratör för hjälp.
+Om du använder enkel inloggning bör du samarbeta med vårt kundsupportteam för att se till att den är korrekt konfigurerad så att du kan använda dina autentiseringsuppgifter för enkel inloggning för att logga in på sandlådan [!UICONTROL Preview]. Om din första inloggning misslyckas kontaktar du din vanliga supportkontakt eller [!DNL Workfront]-administratören för att få hjälp.
 
 Mer information om enkel inloggning finns i [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
@@ -156,9 +156,9 @@ Mer information om enkel inloggning finns i [Översikt över enkel inloggning i 
 
 >[!IMPORTANT]
 >
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till [!DNL Adobe Admin Console]. Om din organisation har anslutit sig till [!DNL Adobe Admin Console], ingen åtgärd krävs.
+>Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Admin Console]. Om din organisation har anslutit sig till [!DNL Adobe Admin Console] behövs ingen åtgärd.
 >
->För en lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Admin Console], se [Plattformsbaserade administrationsskillnader ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till [!DNL Adobe Admin Console] finns i [Plattformsbaserade administrationsskillnader ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 Om du vill konfigurera din förhandsvisningssandlåda så att den fungerar med en enkel inloggningslösning kan du göra det genom att konfigurera den separat från produktionsmiljön. Konfigurationen av enkel inloggning i förhandsgranskningssandlådan är oberoende av SSO-konfigurationen i produktionsmiljön.
@@ -167,14 +167,14 @@ När din förhandsvisningssandlåda uppdateras (varje helg) kopieras inte SSO-in
 
 Stegen för att konfigurera enkel inloggning i förhandsgranskningssandlådan liknar de som används för att konfigurera den i produktionsmiljön.
 
-Mer information om konfiguration [!DNL Workfront] med SSO, se [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Mer information om hur du konfigurerar [!DNL Workfront] med enkel inloggning finns i [Översikt över enkel inloggning i Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 ## Prestanda och tillgänglighet för förhandsvisningsmiljön
 
-[!DNL Workfront] Förhandsgranskningsmiljöer är inte avsedda för prestanda- eller laddningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
+[!DNL Workfront] Förhandsgranskningsmiljöer är inte avsedda för prestanda- eller inläsningstestning. Använd i stället dessa miljöer för att validera funktionaliteten med organisationens befintliga arbetsflöden.
 
 [!DNL Workfront] Förhandsvisningsmiljöer är alltid tillgängliga.
 
-Alla driftavbrott till en [!DNL Workfront] Förhandsgranskningsmiljön under kontorstid kommer att vara den första prioriteten omedelbart efter att eventuella produktionsproblem har lösts.
+Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö under normal kontorstid kommer att vara den första prioriteten omedelbart efter att eventuella produktionsproblem har lösts.
 
-Alla driftavbrott till en [!DNL Workfront] Förhandsvisningsmiljön på helger (lördagar och söndagar) kommer att hanteras så att miljön körs under kontorstid på måndag.
+Alla avbrott i en [!DNL Workfront]-förhandsvisningsmiljö på helger (lördagar och söndagar) adresseras så att miljön körs under kontorstid på måndag.

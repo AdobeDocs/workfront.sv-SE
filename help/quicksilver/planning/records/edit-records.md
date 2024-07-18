@@ -72,7 +72,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Contribute eller högre behörighet till en arbetsyta</a> </p>  
+   <td> <p>Contribute eller högre behörighet till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -85,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när du redigerar poster
 
@@ -127,7 +127,7 @@ Du kan redigera en post i följande områden:
 1. Klicka på ett posttypskort.
 
    Posttypssidan öppnas.
-1. (Villkorligt) Klicka på fliken i en tabellvy eller klicka på **+ Visa** för att skapa en tabellvy. Tabellvyn ska vara standardvy, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
+1. (Villkorligt) Klicka på fliken i en tabellvy eller klicka på **+-vy** för att skapa en tabellvy. Tabellvyn ska vara standardvy, såvida du inte har visat posttypen i en annan typ av vy när du senast öppnade den.
 
    Posterna som är associerade med den valda posttypen visas i tabellvyn.
 1. Klicka inuti en post för att börja redigera information om den infogade posten.
@@ -141,7 +141,7 @@ Du kan redigera en post i följande områden:
    >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
 
-1. (Valfritt och villkorligt) Använd följande när du redigerar ett stycketextfält **RTF** formateringsalternativ:
+1. (Valfritt och villkorligt) Använd följande formateringsalternativ för **RTF** när du redigerar ett stycketextfält:
 
    * Fet
    * Kursiv
@@ -152,8 +152,8 @@ Du kan redigera en post i följande områden:
 
    ![](assets/rich-text-toolbar-on-paragraph-field.png)
 
-1. (Valfritt) Dubbelklicka på ett kopplat postfält för att lägga till kopplade poster eller objekt till en annan post. Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
-1. Tryck **Retur** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. A **Sparad** indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
+1. (Valfritt) Dubbelklicka på ett kopplat postfält för att lägga till kopplade poster eller objekt till en annan post. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+1. Tryck på **Enter** på tangentbordet eller klicka utanför en rad för att spara ändringarna. Ändringarna sparas automatiskt. En **sparad**-indikator visas kort i tabellvyns övre högra hörn för att visa att ändringarna sparades.
 
 
 1. (Valfritt) Om du vill kopiera och klistra in information från ett fält till ett annat gör du något av följande:
@@ -205,11 +205,11 @@ Du kan redigera en post i följande områden:
 
    eller
 
-   I tabellvyn klickar du på **Öppna detaljer** icon ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen. Postens förhandsgranskning öppnas i vyn.
+   Klicka på ikonen **Öppna detaljer** ![](assets/open-details-icon-in-table-name-field.png) i den första kolumnen i tabellvyn. Postens förhandsgranskning öppnas i vyn.
 
    ![](assets/details-box.png)
 
-1. (Valfritt) Klicka på **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
+1. (Valfritt) Klicka på menyn **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
 
    Postens rubrik är det primära fältet i posten när den visas i en tabellvy. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
 
@@ -224,11 +224,11 @@ Du kan redigera en post i följande områden:
 
 1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten. Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Valfritt) Håll pekaren över miniatyrbildikonen och klicka sedan på **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** om du vill lägga till en miniatyrbild. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Valfritt) Håll pekaren över miniatyrbildikonen och klicka sedan på **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** för att lägga till en miniatyrbild. Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront sparar automatiskt ändringarna.
 
-1. (Valfritt) Klicka på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sida](#edit-a-record-from-the-records-page) i den här artikeln.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik. Fortsätt redigera posten enligt beskrivningen i [Redigera en post från postens sidavsnitt](#edit-a-record-from-the-records-page) i den här artikeln.
 
 ### Redigera en post från postens sida
 
@@ -244,9 +244,9 @@ Du kan redigera en post i följande områden:
 
 1. Gör något av följande:
 
-   * Från vilken vy som helst öppnar du postens förhandsgranskning enligt beskrivningen i [Redigera en post från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln klickar du på **Öppna på ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postförhandsgranskningen om du vill öppna postens sida på en ny flik.
+   * Från vilken vy som helst öppnar du postens förhandsgranskning enligt beskrivningen i [Redigera en post från postens förhandsgranskning i en vy](#edit-a-record-from-the-records-preview-in-a-view) i den här artikeln och klickar sedan på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
-   * Från **Tabell** visa, hovra över namnet på en post och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Visa**
+   * I vyn **Tabell** för du muspekaren över namnet på en post, klickar på menyn **Mer** ![](assets/more-menu.png) och sedan på **Visa**
 
      ![](assets/contextual-menu-for-record-row.png)
 
@@ -254,7 +254,7 @@ Du kan redigera en post i följande områden:
 
      ![](assets/details-page.png)
 
-1. (Valfritt) Klicka på **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
+1. (Valfritt) Klicka på menyn **Mer** till höger om postens titel och klicka sedan på **Byt namn**. Detta uppdaterar fältet som visas som postens titel.
 
    Postens rubrik är det primära fältet i posten när den visas i en tabellvy. Mer information finns i [Hantera tabellvyn](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -267,15 +267,15 @@ Du kan redigera en post i följande områden:
    >  * Länkade fält som skapas genom att koppla posttyper. Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Fält av följande typer: Skapat av, Skapat den, Senast ändrat av, Senast ändrat den, Formelfält.
 
-1. (Valfritt) Klicka på **Lägg till omslag** för att lägga till en omslagsbild i posten
+1. (Valfritt) Klicka på **Lägg till omslag** om du vill lägga till en omslagsbild i posten
 
    eller
 
-   Hovra över den befintliga omslagsbilden och klicka sedan på **Mer** meny ![](assets/more-menu.png) > **Överför** om du vill lägga till en ny omslagsbild för posten.
+   Håll pekaren över den befintliga omslagsbilden och klicka sedan på menyn **Mer** ![](assets/more-menu.png) > **Överför** för att lägga till en ny omslagsbild för posten.
 
    Mer information finns i [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Valfritt) Hovra över en befintlig miniatyrbild eller över **miniatyrbildikon** ![](assets/record-thumbnail-icon-on-details-page.png)och klickar sedan på **Mer** meny ![](assets/more-menu.png) > **Redigera miniatyrbild** om du vill lägga till en miniatyrbild för posten.
+1. (Valfritt) Hovra över en befintlig miniatyrbild eller ikonen **miniatyrbild** ![](assets/record-thumbnail-icon-on-details-page.png) och klicka sedan på menyn **Mer** ![](assets/more-menu.png) > **Redigera miniatyrbild** för att lägga till en miniatyrbild för posten.
 
    Mer information finns i [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
@@ -285,4 +285,4 @@ Du kan redigera en post i följande områden:
 
 När du har kopplat poster till Workfront-objekt kan du redigera Workfront Planning-poster i Workfront från objektets Planning-avsnitt.
 
-Mer information finns i [Hantera poster i Planning-delen av Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

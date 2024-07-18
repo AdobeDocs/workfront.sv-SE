@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjorts inom tidsramen för version 2.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön minst två veckor efter att förhandsvisningen släppts.
 
-En lista över alla ändringar som är tillgängliga i version 2.3 finns i [22.3 Versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2.3 finns i [2.3 versionsöversikt](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
 ## Globala uppdateringar av utseende och känsla
 
@@ -43,6 +43,6 @@ Verktygsfälten i följande listor och rapporter har nu ett modernt utseende och
 
 >[!NOTE]
 >
->Denna ändring uppdaterades i produktionen den 23 maj 2022. Se [Underhållsuppdatering 26 maj 2022 för mer information](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
+>Denna ändring uppdaterades i produktionen den 23 maj 2022. Se [Underhållsuppdateringen den 26 maj 2022 för mer information](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
 
 Vi har uppdaterat vägbeskrivningarna i alla områden där vägbeskrivningar finns tillgängliga. Objekten i vägbeskrivningarna avgränsas nu med rörledningar (|). Före den här uppdateringen separerades de med snedstreck (/).

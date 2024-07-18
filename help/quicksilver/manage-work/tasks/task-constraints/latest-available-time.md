@@ -24,7 +24,7 @@ Du kan använda LAT-begränsningen när du vill schemalägga en uppgift att bör
 
 Begränsningen skiljer sig från Så snart som möjligt eftersom den inte tvingar föregående eller efterföljande aktiviteter att schemaläggas om. Det påverkar bara schemat för den uppgift som det är associerat med och anger den till den senaste tillgängliga tiden baserat på dess förhållande till andra uppgifter.
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera aktivitetsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -54,15 +54,15 @@ Begränsningen Senaste tillgängliga tid skiljer sig från begränsningen som Sa
 
 I den här situationen:
 
-* **Senaste tillgängliga tid:** Om du använder den senaste tillgängliga tidsbegränsningen för föregående aktivitet prioriteras efterföljande efterföljande åtgärds flexibla villkor.
+* **Senaste tillgängliga tid:** Om du använder den senaste tillgängliga tidsbegränsningen för föregående aktivitet prioriteras den efterföljande aktivitetens flexibla begränsning.
 
-  **Exempel:** Aktivitet A är till exempel en föregångare till aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
+  **Exempel:** Till exempel är Aktivitet A en föregångare till Aktivitet B. Aktivitet A har den senaste tillgängliga tidsbegränsningen och aktivitet B har begränsningen Per så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets början som möjligt.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **Så sent som möjligt:** I det här fallet ges företräde till föregående aktivitet om du använder begränsningen som Sena som möjligt för föregående aktivitet.
+* **Så här sent som möjligt:** I det här scenariot prioriterar föregående aktivitet med begränsningen Så sent som möjligt för föregående aktivitet.
 
-  **Exempel:** Aktivitet A är till exempel en föregångare till Aktivitet B. Aktivitet A har begränsningen Så sent som möjligt och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
+  **Exempel:** Till exempel är Aktivitet A en föregångare till Aktivitet B. Aktivitet A har begränsningen Så sent som möjligt och aktivitet B har begränsningen Så snart som möjligt. I så fall är uppgift A schemalagd så nära projektets slut som möjligt.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

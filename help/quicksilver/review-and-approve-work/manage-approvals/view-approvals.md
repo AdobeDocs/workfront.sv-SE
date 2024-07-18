@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -59,10 +59,10 @@ Du kan visa eller hantera godkännanden från följande områden:
 * I hemområdet
 
    * Alla projekt, uppgifter, utgåvor, tidrapporter, dokument och åtkomst som väntar på ditt godkännande visas i Hem-området när du väljer att visa alla eller godkännanden.
-   * Godkännanden som du själv har skickat visas även i Hem, i avsnittet Godkännanden som jag har skickat i arbetslistan. Mer information finns i [Granska material som du skickar in för godkännande på Hem-sidan](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
+   * Godkännanden som du själv har skickat visas även i Hem, i avsnittet Godkännanden som jag har skickat i arbetslistan. Mer information finns i avsnittet [Granskningsarbete som du skickar in för godkännande i hemområdet](#review-work-you-submit-for-approval-in-the-home-area) i den här artikeln.
    * Godkännanden tas bort från Hem-området när det associerade projektet, aktiviteten eller utgåvan har markerats som Löst, Spärrat, Stängt eller Avbrutet.
 
-  Mer information om hur du använder Home finns i [Kom igång med Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Mer information om att använda Hem finns i [Kom igång med Hem](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * I huvudet på ett projekt, en uppgift, en utgåva, ett dokument eller ett korrektur
 * I avsnittet Godkännanden för ett projekt, en uppgift eller ett ärende
@@ -78,17 +78,17 @@ Du kan visa eller hantera godkännanden från följande områden:
 
 ## Granska material som du skickar in för godkännande på Hem-sidan {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
+1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
    >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
-1. Välj **Arbetslista** och klickar sedan på **Filter** nedrullningsbar meny och välj **Godkännanden**.
-1. Expandera **Godkännanden som jag har skickat** och hitta de godkännanden du skickade.
+1. Välj **Arbetslista**, klicka på listrutan **Filter** och välj **Godkännanden**.
+1. Expandera avsnittet **Godkännanden som jag har skickat** och hitta de godkännanden som du har skickat.
 
    ![](assets/approvals-submitted-section-in-home-nwe-350x401.png)
 
@@ -102,7 +102,7 @@ Du kan visa godkännandestatusen för ett objekt i följande avsnitt av objektet
  <tbody> 
   <tr> 
    <td role="rowheader">Uppdateringar </td> 
-   <td> <p>Visar alla godkännandestatusar när de inträffar. Godkännandestatus visas i linje med andra statusvärden som visas på <strong>Uppdateringar</strong> -avsnitt.</p> </td> 
+   <td> <p>Visar alla godkännandestatusar när de inträffar. Godkännandestatus visas i linje med andra statusvärden som visas i avsnittet <strong>Uppdateringar</strong> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Godkännanden</td> 
@@ -116,7 +116,7 @@ Du kan visa godkännandestatusen för ett objekt i följande avsnitt av objektet
 
 ### Använd uppdateringsområdet för att visa godkännandestatus {#use-the-updates-area-to-view-an-approval-status}
 
-När ett godkännande initieras för ett projekt, en uppgift eller ett ärende visas en status i **Uppdateringar** -fliken för objektet, som anger godkännandestatusen. En ny status visas när objektet övergår genom godkännandeprocessen. Detta inkluderar följande händelser:
+När ett godkännande initieras för ett projekt, en aktivitet eller ett problem visas en status på fliken **Uppdateringar** för objektet, vilket anger godkännandestatusen. En ny status visas när objektet övergår genom godkännandeprocessen. Detta inkluderar följande händelser:
 
 * En godkännandeprocess initieras för ett objekt. Godkännandeprocessen initieras när statusen ändras.
 * Objektet har avvisats
@@ -137,7 +137,7 @@ Du kan se var en uppgift eller ett problem som du arbetar med just nu befinner s
 Så här ser du det aktuella läget för var en uppgift eller en utgåva befinner sig i godkännandeprocessen:
 
 1. Gå till projektet, aktiviteten eller utgåvan som godkännandet är kopplat till.
-1. Klicka på i den vänstra panelen **Godkännanden**. Du kan behöva klicka först **Visa fler**.
+1. Klicka på **Godkännanden** i den vänstra panelen. Du kan behöva klicka först på **Visa mer**.
 
    På fliken Godkännanden visas fullständig information om alla tidigare godkännandesökvägar och steg. Du kan se exakt vem som har fattat ett beslut om godkännandet eller om godkännandet har ställts in för ett team, en jobbroll eller en användare.
 

@@ -10,7 +10,7 @@ role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Detta är användbart om organisationens säkerhetspolicy begränsar användare 
 
 >[!IMPORTANT]
 >
->IT-teamet bör se till att inkommande e-post från `notifications@my.workfront.com` är inte blockerad i din organisations system.
+>IT-teamet bör se till att inkommande e-post från `notifications@my.workfront.com` inte blockeras i din organisations system.
 >
 >Alla e-postmeddelanden från Workfront skickas från den adressen för att öka e-postleveransen och för att eliminera förfalskning av e-postmeddelanden. Detta innefattar både automatiska varningar och kommunikation mellan användare.
 >
@@ -36,7 +36,7 @@ Detta är användbart om organisationens säkerhetspolicy begränsar användare 
 >Joan Harris <notifications@my.workfront.com>
 >```
 
-Information om hur du konfigurerar brandväggen för din organisation för att öppna kommunikationen mellan din miljö och Adobe Workfront-servrarna finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Information om hur du konfigurerar brandväggen för din organisation för att öppna kommunikationen mellan din miljö och Adobe Workfront-servrarna finns i [Konfigurera tillåtelselista för din brandvägg](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Åtkomstkrav
 
@@ -56,25 +56,25 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Andra tillåtelselista
 
-Om din organisation har Enterprise-planen kan du konfigurera en Adobe Workfront IP-tillåtelselista som begränsar åtkomsten till Workfront till 45 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
+Om din organisation har Enterprise-planen kan du konfigurera en Adobe Workfront IP-tillåtelselista som begränsar åtkomsten till Workfront till 45 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet. Mer information finns i [Begränsa åtkomst till Adobe Workfront via IP-adress](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 Om din brandvägg eller e-postserver är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista. Detta öppnar för kommunikation mellan din miljö och Adobe Workfront-servrarna. Mer information om detta finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Konfigurera din e-postadress tillåtelselista
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **System** > **Kundinformation**.
+1. Klicka på **System** > **Kundinformation**.
 
-1. I **E-post Tillåtelselista** avsnitt, markera **Aktivera Tillåtelselista för domän** och sedan klicka **Lägg till domän**.
-1. I rutan som visas skriver du en domän som du vill tillåta, till exempel `ourcompany.com`och sedan klicka **Lägg till domän**.
+1. I avsnittet **E-post Tillåtelselista** väljer du **Aktivera domän Tillåtelselista** och klickar sedan på **Lägg till domän**.
+1. I rutan som visas skriver du in en domän som du vill tillåta, till exempel `ourcompany.com`, och klickar sedan på **Lägg till domän**.
 
 1. Upprepa föregående steg om du vill lägga till andra domäner som du vill tillåta.
 1. När du är klar klickar du på **Spara**.

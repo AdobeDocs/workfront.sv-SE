@@ -25,7 +25,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -34,7 +34,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Läs följande artiklar för att lära dig var du börjar med Workfront-mål, hur viktigt det är att använda mål, hur du skapar, redigerar, kommenterar och hanterar mål samt hur du filtrerar och skriver ut målinformation:
 
@@ -49,7 +49,7 @@ Läs följande artiklar för att lära dig var du börjar med Workfront-mål, hu
 * [Redigera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/edit-goals.md)
 * [Ta bort och inaktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
 * [Översikt över målstatus i Adobe Workfront-mål](../../workfront-goals/goal-management/goal-status-overview.md)
-* [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
+* [Översikt över målförlopp och villkor i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
 * [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md)
 * [Uppdatera mål i avsnittet Målinformation i Adobe Workfront-mål](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)

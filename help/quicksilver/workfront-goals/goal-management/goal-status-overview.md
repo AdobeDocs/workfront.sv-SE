@@ -24,7 +24,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -57,7 +57,7 @@ Målstatus anger om ett mål är aktivt och om det håller på att spelas in, el
 
 ## Översikt över målstatus i Workfront-mål
 
-Mer information om hur du skapar mål för Workfront finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+Mer information om hur du skapar Workfront-mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 Mer information om hur du aktiverar mål finns i [Aktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/activate-goals.md).
 
@@ -70,7 +70,7 @@ Mål kan ha någon av följande statusar i Workfront-mål:
 
 ### Utkast {#draft}
 
-* Detta är standardstatus för ett nyligen skapat mål. Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+* Detta är standardstatus för ett nyligen skapat mål. Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 * Workfront-mål registrerar inte framsteg i ett utkast.
 * Du kan inte uppdatera förloppet för ett utkast.
 * Du kan inte stänga eller inaktivera utkast eftersom de saknar förloppsinformation.
@@ -102,7 +102,7 @@ Mål kan ha någon av följande statusar i Workfront-mål:
 
 * Du kan inaktivera ett aktivt mål när ägaren har slutat arbeta med det tillfälligt eller permanent. Du kan behålla den för att få historisk information. Detta uppdaterar målets status till Inaktiv.
 
-  Mer information om hur du inaktiverar mål finns i avsnittet Inaktivera mål i artikeln [Ta bort och inaktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
+  Mer information om att inaktivera mål finns i avsnittet Inaktivera mål i artikeln [Ta bort och inaktivera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
 
 * Du kan inte inaktivera ett utkast eller ett stängt mål.
 * Du kan återaktivera ett inaktivt mål och fortsätta arbeta med det.

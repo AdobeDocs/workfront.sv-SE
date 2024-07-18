@@ -18,21 +18,21 @@ ht-degree: 0%
 Nedan följer riktlinjer för hur kolumnbredder fungerar i Adobe Workfront:
 
 * Workfront definierar bredden på kolumner i listor och rapporter som standard.
-* Workfront justerar automatiskt bredden på kolumnerna enligt `valueformat`information i alla listor och rapporter, om inte annat anges i kolumnens textläge.
+* Workfront justerar automatiskt bredden på kolumnerna enligt informationen `valueformat` i alla listor och rapporter, om inte annat anges i kolumnernas textläge.
 
   >[!NOTE]
   >
-  >Workfront justerar inte bredden på kolumnerna enligt `valueformat` information i listorna som finns under Inställningar och Rapporter.
+  >Workfront justerar inte bredden på kolumnerna enligt informationen `valueformat` i listorna som finns i inställnings- och rapportområdena.
 
-  The `valueformat` värdet definierar vilken typ av information som visas i kolumnen. Kolumner som visar ett tal är till exempel smalare än kolumner som visar fältet Beskrivning.
+  Värdet `valueformat` definierar vilken typ av information som visas i kolumnen. Kolumner som visar ett tal är till exempel smalare än kolumner som visar fältet Beskrivning.
 
 * Du kan anpassa bredden på kolumnerna i listor och rapporter i Workfront så att de passar dina behov, beroende på vilken typ av information du vill visa i kolumner.
 
-  Du kan ändra kolumnbredden temporärt, medan du visar en lista eller rapport, eller permanent, genom att justera bredden på kolumnen i vybyggaren. Information om hur du ändrar bredden på kolumner tillfälligt finns i [Att tänka på när du tillfälligt ändrar bredden och ordningen på kolumner](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) i den här artikeln.
+  Du kan ändra kolumnbredden temporärt, medan du visar en lista eller rapport, eller permanent, genom att justera bredden på kolumnen i vybyggaren. Mer information om hur du tillfälligt ändrar kolumnbredden finns i avsnittet [Saker att tänka på när du tillfälligt ändrar kolumnernas bredd och ordning](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) i den här artikeln.
 
 * Kolumner som visas i inbyggda vyer har bredder som tidigare definierats av Workfront och som är hårdkodade. Om du vill ändra dessa bredder måste du uppdatera bredden på kolumnerna manuellt med hjälp av textläget i vybyggaren.
 
-  Mer information om hur du ändrar kolumnen i textläge finns i [Visa: redigera bredden på en kolumn permanent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
+  Mer information om hur du ändrar kolumnen i textläge finns i [Visa: redigera bredden för en kolumn permanent](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Åtkomstkrav
 
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyn i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera vyn i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -67,7 +67,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Du kan ändra bredden och ordningen på kolumnerna i dina rapporter på följande sätt:
 
-* [Ändra bredden och ordningen på kolumner tillfälligt](#modify-width-and-order-of-columns-temporarily)
+* [Ändra kolumnernas bredd och ordning temporärt](#modify-width-and-order-of-columns-temporarily)
 * [Ändra kolumnernas bredd och ordning permanent](#modify-width-and-order-of-columns-permanently)
 
 ### Ändra bredden och ordningen på kolumner tillfälligt {#modify-width-and-order-of-columns-temporarily}
@@ -76,7 +76,7 @@ Du kan dra kolumnkanter för att ändra storlek på kolumner och dra och släppa
 
 Mer information om Workfront-listor finns i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* [Att tänka på när du tillfälligt ändrar bredden och ordningen på kolumner](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
+* [Saker att tänka på när du tillfälligt ändrar kolumnernas bredd och ordning](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
 * [Ändra storlek på kolumner tillfälligt](#resize-columns-temporarily)
 * [Ordna om kolumner tillfälligt](#reorder-columns-temporarily)
 
@@ -90,7 +90,7 @@ Tänk på följande när du tillfälligt ändrar storlek på och ordnar kolumner
 
 >[!NOTE]
 > 
->Kolumnbredderna begränsas av webbläsarfönstrets storlek. Om sidan uppdateras kommer kolumnerna att minskas i bredd tills alla kolumner får plats i fönstret utan vågrät rullning. Om du vill tvinga en kolumn att förbli bredare än vad webbläsaren får plats, måste du ange kolumnens bredd i textläge enligt beskrivningen i [Ändra kolumnernas bredd och ordning permanent](#modify-width-and-order-of-columns-permanently) och du undviker att justera kolumnbredderna manuellt genom att dra i kanterna.
+>Kolumnbredderna begränsas av webbläsarfönstrets storlek. Om sidan uppdateras kommer kolumnerna att minskas i bredd tills alla kolumner får plats i fönstret utan vågrät rullning. Om du vill tvinga en kolumn att förbli bredare än vad webbläsaren får plats, måste du ange kolumnens bredd i textläge enligt beskrivningen i [Ändra kolumnernas bredd och ordning permanent](#modify-width-and-order-of-columns-permanently) och undvika att justera kolumnbredderna manuellt genom att dra i kanterna.
 >
 
 * När du ändrar ordning på kolumner behålls den ordning du väljer bara tills du navigerar bort från listan eller uppdaterar webbläsarsidan. När du har navigerat bort från listan eller uppdaterat webbläsarsidan återgår kolumnerna till sin standardordning.
@@ -108,7 +108,7 @@ Tänk på följande när du tillfälligt ändrar storlek på och ordnar kolumner
 
 * Om du exporterar en lista till en fil överförs inte kolumnernas tillfälliga ordning till den exporterade filen. Den exporterade filen visar ordningen på kolumnerna i den ursprungliga listan, innan kolumnerna har sorterats om.
 
-Mer information om att exportera data från listor och rapporter finns i artikeln [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Mer information om hur du exporterar data från listor och rapporter finns i artikeln [Exportera data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 #### Ändra storlek på kolumner tillfälligt {#resize-columns-temporarily}
 
@@ -131,7 +131,7 @@ Mer information om att exportera data från listor och rapporter finns i artikel
 
 ### Ändra kolumnernas bredd och ordning permanent {#modify-width-and-order-of-columns-permanently}
 
-Se avsnittet om du vill ändra ordning på kolumner permanent [Skapa eller anpassa en standardvy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) i artikeln [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Om du vill ändra ordning på kolumner permanent läser du avsnittet [Skapa eller anpassa en standardvy](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-a-standard-view) i artikeln [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 Du kan endast ändra bredden på en kolumn permanent genom att använda textläge.
 

@@ -26,13 +26,13 @@ I den här artikeln beskrivs några metodtips som vi rekommenderar när vi börj
 
 Workfront Planning-modulen är en av tre distinkta, men sammankopplade, Workfront-funktioner som tillsammans skapar ett väl fungerande marknadsföringssystem. De tre funktionerna är:
 
-* **Planering**: De nya avancerade funktionerna i Workfront Planning.
+* **Planering**: De nya avancerade funktionerna som ingår i Workfront Planning.
 
-* **Arbetsflöde**: De samarbetsfunktioner du använder idag i Workfront (projektledning, resurshantering etc.)
+* **Arbetsflöde**: De samarbetsfunktioner för arbetshantering som du använder idag i Workfront (projekthantering, resurshantering osv.)
 
 * **Automatisering och integrering**: De omfattande integrerings- och automatiseringsfunktionerna i Workfront Fusion.
 
-Workfront Planning är mycket anpassningsbart. Mer information om Workfront Planning - terminologi och nyckelbegrepp finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+Workfront Planning är mycket anpassningsbart. Mer information om Workfront Planning-terminologi och nyckelbegrepp finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Frågor att ställa innan du konfigurerar Workfront Planning
 
@@ -40,7 +40,7 @@ När du har lärt dig Workfront Planning-terminologi och -arkitektur kan du bör
 
 Några frågor du kan ställa själv när du konfigurerar Planning är:
 
-* **Vill jag använda arbetsytor för större organisationsgrupper? Eller borde jag uppmuntra folk att skapa egna?**
+* **Vill jag använda arbetsytor för större organisationsgrupper? Eller ska jag uppmuntra folk att konfigurera egna?**
 
   Du kanske tycker att det finns en bra användning för båda. Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 
@@ -54,22 +54,22 @@ Några frågor du kan ställa själv när du konfigurerar Planning är:
 
   Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md)
 
-* **Hur ska jag skapa mina register? Finns det en extern lista eller ett kalkylblad som redan innehåller de poster jag behöver lägga till i Planning som jag kan använda? Kommer poster att läggas till gradvis beroende på behov? Eller kommer de att importeras med Fusion eller anpassad API-integrering?**
+* **Hur ska jag skapa mina register? Finns det en extern lista eller ett kalkylblad som redan innehåller de poster jag behöver lägga till i Planning som jag kan använda? Kommer poster att läggas till gradvis beroende på behov? Eller importeras de med en Fusion- eller anpassad API-integrering?**
 
   Mer information finns i:
 
    * [Skapa poster](/help/quicksilver/planning/records/create-records.md)
    * [Adobe Workfront Planning-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 
-* **Vilka fält behöver jag skapa för mina register?**
+* **Vilka fält behöver jag skapa för mina poster?**
 
   Mer information finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-* **Vilka Workfront- eller AEM Assets-objekttyper behöver jag ansluta till Workfront Planning-posttyper för att kunna visa beroenden och skapa ett smidigt arbetsflöde för min organisation?**
+* **Vilka Workfront- eller AEM Assets-objekttyper måste jag ansluta till posttyperna Workfront Planning för att kunna visa beroenden och skapa ett smidigt arbetsflöde för min organisation?**
 
   Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-* **Vilka marknadsföringskalendrar och vyer behöver jag berätta om mina kampanjer? Och vilka intressenter kan jag göra dessa vyer tillgängliga för smidigt samarbete?**
+* **Vilka marknadsföringskalendrar och vyer behöver jag berätta om mina kampanjer? Vilka intressenter kan jag göra de här vyerna tillgängliga för smidigt samarbete?**
 
   Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 

@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: Kom igång med [!DNL Adobe Workfront Fusion]
+title: Kom igång med  [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens förutom en Adobe Workfront-licens.
 author: Becky
 feature: Workfront Fusion
@@ -20,17 +20,17 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] kräver [!DNL Adobe Workfront Fusion] utöver en [!DNL Adobe Workfront license].
+>[!DNL Adobe Workfront Fusion] kräver en [!DNL Adobe Workfront Fusion]-licens utöver en [!DNL Adobe Workfront license].
 
 Det här avsnittet innehåller följande artiklar:
 
-* [[!DNL Adobe Workfront Fusion] översikt](../../workfront-fusion/get-started/workfront-fusion-overview.md)
-* [Grundläggande termer i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
-* [Skapa enkla scenarier i [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
-* [Skapa en metod för automatisering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
-* [Skapa ett scenario för praktikintegrering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
-* [[!DNL Adobe Workfront Fusion] skyddsräcken](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
-* [IP-adresser för åtkomst [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
+* [[!DNL Adobe Workfront Fusion] - översikt](../../workfront-fusion/get-started/workfront-fusion-overview.md)
+* [Grundläggande termer i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
+* [Skapa scenarier för enkel praxis i  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+* [Skapa ett scenario för övningsautomatisering i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
+* [Skapa ett övningsintegreringsscenario i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
+* [[!DNL Adobe Workfront Fusion] prestandaräkrar](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
+* [IP-adresser för åtkomst av  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
-* [Åtgärder i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
+* [Åtgärder i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
 * [Adobe Workfront Fusion - videoöversikt](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)

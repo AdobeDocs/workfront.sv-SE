@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Vanliga frågor om Adobe Workfront Fusion
-description: I den här artikeln behandlas vanliga frågor om [!DNL Adobe Workfront Fusion], inklusive information om objekt som ofta används i Fusion-arbetsflöden
+description: I den här artikeln behandlas vanliga frågor om  [!DNL Adobe Workfront Fusion], inklusive information om objekt som ofta används i Fusion-arbetsflöden
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
@@ -36,31 +36,31 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Vad är ett scenario?
 
 ### Svar
 
-Ett scenario definierar en sekvens av steg som ska köras av [!DNL Adobe Workfront Fusion]. För varje scenario anger du datakällan, hur data ska behandlas och vilka data som ska användas och vad som ska ignoreras. [!DNL Workfront Fusion] Med kan du skapa så många scenarier du behöver, och även de mest avancerade scenarierna är möjliga.
+Ett scenario definierar en serie steg som ska köras av [!DNL Adobe Workfront Fusion]. För varje scenario anger du datakällan, hur data ska behandlas och vilka data som ska användas och vad som ska ignoreras. Med [!DNL Workfront Fusion] kan du skapa så komplexa scenarier som du behöver. Även de mest avancerade scenarierna är möjliga.
 
 Mer information finns i [Skapa ett scenario för praktikintegrering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
 
@@ -74,15 +74,15 @@ Du kan använda så många moduler du vill i ett scenario. Du kan skapa oberoend
 
 ### Svar
 
-Ja. Använda [!DNL Workfront Fusion], kan filer tas emot, sparas, omformas, konverteras, krypteras och så vidare. Dessutom [!DNL Workfront Fusion] innehåller ett stort antal inbyggda funktioner som gör att användarna kan arbeta effektivt och kreativt med de data som finns i filerna.
+Ja. Med [!DNL Workfront Fusion] kan filer tas emot, sparas, omformas, konverteras, krypteras och så vidare. Dessutom innehåller [!DNL Workfront Fusion] ett stort antal inbyggda funktioner som är utformade för att användarna ska kunna arbeta effektivt och kreativt med data i filerna.
 
 Mer information finns i [Om att mappa filer i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md).
 
-## Vad händer om jag släpper [!DNL Workfront Fusion] Vill du bearbeta ett e-postmeddelande som innehåller mer än en bifogad fil?
+## Vad händer om jag låter [!DNL Workfront Fusion] bearbeta ett e-postmeddelande som innehåller mer än en bifogad fil?
 
 ### Svar
 
-Om du använder [!UICONTROL Email] modul [!UICONTROL Retrieve attachments], skickas varje bifogad fil separat genom resten av modulerna i scenariot. Liknande moduler är också tillgängliga i andra program som tar emot flera filer samtidigt.
+Om du använder [!UICONTROL Email]-modulen [!UICONTROL Retrieve attachments] skickas varje bifogad fil individuellt genom resten av modulerna i scenariot. Liknande moduler är också tillgängliga i andra program som tar emot flera filer samtidigt.
 
 Mer information finns i [[!UICONTROL Email] moduler](../../workfront-fusion/apps-and-their-modules/email-modules.md).
 
@@ -90,15 +90,15 @@ Mer information finns i [[!UICONTROL Email] moduler](../../workfront-fusion/apps
 
 ### Svar
 
-Vanliga scenarier körs med intervall enligt det schema du anger (t.ex. varje timme, var femte minut, en gång i månaden och så vidare). Det finns särskilda utlösare, så kallade direktutlösare (webhooks), som kan starta ditt scenario omedelbart efter att de har tagit emot data från en viss tjänst. Direktutlösare kan vara mycket användbara. Vi rekommenderar att du använder dem när det är möjligt. De hjälper till att minska antalet åtgärder. Mottagna data bearbetas omedelbart utan att vänta på nästa schemalagda körning. Till exempel [!DNL Google Sheets] modul [!UICONTROL Watch Changes] startar ett scenario omedelbart efter att en cell har uppdaterats.
+Vanliga scenarier körs med intervall enligt det schema du anger (t.ex. varje timme, var femte minut, en gång i månaden och så vidare). Det finns särskilda utlösare, så kallade direktutlösare (webhooks), som kan starta ditt scenario omedelbart efter att de har tagit emot data från en viss tjänst. Direktutlösare kan vara mycket användbara. Vi rekommenderar att du använder dem när det är möjligt. De hjälper till att minska antalet åtgärder. Mottagna data bearbetas omedelbart utan att vänta på nästa schemalagda körning. [!DNL Google Sheets]-modulen [!UICONTROL Watch Changes] startar till exempel ett scenario omedelbart efter att en cell har uppdaterats.
 
 ## Vad är aggregatorer?
 
 ### Svar
 
-An [!UICONTROL Aggregator] sammanfogar data i en enda samling. Ett exempel på detta är filer som komprimeras till ett ZIP-arkiv och skickas som en e-postbilaga.
+En [!UICONTROL Aggregator] sammanfogar data i en enda samling. Ett exempel på detta är filer som komprimeras till ett ZIP-arkiv och skickas som en e-postbilaga.
 
-Mer information finns i [[!UICONTROL Aggregator] modulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
+Mer information finns i modulen [[!UICONTROL Aggregator] i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md).
 
 ## Vad är en operation?
 
@@ -110,12 +110,12 @@ En åtgärd är en åtgärd som utförs av en modul. En åtgärd inträffar t.ex
 
 ### Svar
 
-Dataöverföring avser mängden data som överförs genom ditt scenario. Anta till exempel att du har ett scenario som hämtar en 100 kB-bild från FTP och minskar dess storlek till 50 kB och sparar båda bilderna som [!DNL Dropbox]. Mängden data som används i detta scenario är 250 kB.
+Dataöverföring avser mängden data som överförs genom ditt scenario. Anta till exempel att du har ett scenario som hämtar en 100 kB-bild från FTP och minskar dess storlek till 50 kB och sparar båda bilderna i [!DNL Dropbox]. Mängden data som används i detta scenario är 250 kB.
 
 ## Vad är en anslutning?
 
 ### Svar
 
-En anslutning är länken mellan [!DNL Workfront Fusion] konto och den tredjepartstjänst som du vill använda. Anslutningen kan enkelt skapas när du redigerar ett scenario. Om du vill lägga till en anslutning klickar du på **[!UICONTROL Add]** i modulinställningarna och följ instruktionerna steg för steg.
+En anslutning är länken mellan ditt [!DNL Workfront Fusion]-konto och den tredjepartstjänst som du vill använda. Anslutningen kan enkelt skapas när du redigerar ett scenario. Om du vill lägga till en anslutning klickar du på knappen **[!UICONTROL Add]** i modulinställningen och följer instruktionerna.
 
-Mer information finns i [Anslutningar - översikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+Mer information finns i [Anslutningsöversikt](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

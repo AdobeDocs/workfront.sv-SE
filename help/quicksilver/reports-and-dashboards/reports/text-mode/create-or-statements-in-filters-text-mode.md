@@ -24,21 +24,21 @@ Mer information om hur du skapar filter finns i följande artiklar:
 
 ## Filteroperatorer för textläge
 
-Mer information om Adobe Workfront filteroperatorer i standardfiltergränssnittet finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om Adobe Workfront filteroperatorer i standardfiltergränssnittet finns i [Filteröversikt](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront har två filteroperatorer som kopplar ihop varje filterprogramsats:
 
-* **OCH**: När du kopplar en filterprogramsats med operatorn AND anger du att du vill att båda filterprogramsatserna ska uppfyllas samtidigt.
+* **AND**: När du kopplar en filterprogramsats med operatorn AND till två anger du att du vill att båda filterprogramsatserna ska uppfyllas samtidigt.
 
   Programsatserna i ett filter förenas som standard med operatorn AND.
 
   När du skapar ett AND-filter i textlägesgränssnittet behöver du inte använda operatorn AND. Det antas.
 
-  **Exempel:** Om du vill filtrera efter uppgifter som har ett planerat slutförandedatum som är idag och ett Procent färdigt som är lägre än 100 % använder du följande textlägeskod:
+  **Exempel:** Använd följande textlägeskod om du vill filtrera efter aktiviteter som har dagens planerade slutförandedatum och ett procenttal som är lägre än 100 %:
 
   <pre>planeradSlutförandedatum=$$TODAY</pre><pre>planningCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
 
-* **ELLER**: När du kopplar ihop två filtersatser av operatorn OR anger du att du vill att någon av programsatserna ska uppfyllas.
+* **OR**: När du ansluter 2 filtersatser av operatorn OR anger du att du vill att någon av programsatserna ska uppfyllas.
 
   >[!TIP]
   >
@@ -46,9 +46,9 @@ Workfront har två filteroperatorer som kopplar ihop varje filterprogramsats:
 
   När du skapar ett OR-filter med hjälp av textlägesgränssnittet måste du använda operatorn OR.
 
-  **Exempel:** Om du vill filtrera efter uppgifter som har ett planerat slutförandedatum i dag eller ett Procent färdigt som är lägre än 100 % använder du följande textlägeskod:
+  **Exempel:** Använd följande textlägeskod om du vill filtrera efter aktiviteter som har ett Planerat slutförandedatum i dag eller ett Procent färdigt som är lägre än 100 %:
 
-  <pre>planeradSlutförandedatum=$$TODAY</pre><pre>planningCompletionDate_Mod=eq</pre><pre>ELLER:1:percentComplete=100</pre><pre>ELLER:1:percentComplete_Mod=lt</pre>
+  <pre>planeradSlutförandedatum=$$TODAY</pre><pre>planningCompletionDate_Mod=eq</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
 
 ## Textlägessyntax för OR-filter
 
@@ -66,13 +66,13 @@ Textlägessyntaxen för ett OR-filter måste innehålla följande:
 
   Du kan ha flera OR-satser i ett filter. I det här fallet får varje OR-programsats ett tal, i den ordning som du vill att programsatserna ska tillämpas.
 
-  **Exempel:**  Om du vill filtrera efter uppgifter som har ett planerat slutförandedatum idag ELLER ett Procent färdigt som är lägre än 100 % ELLER statusvärdet Nytt använder du följande textlägeskod:
+  **Exempel:** Om du vill filtrera efter aktiviteter som har ett Planerat slutförandedatum som är i dag ELLER ett Procent färdigt som är lägre än 100 % ELLER Status som nytt använder du följande textlägeskod:
 
-  <pre>planeradSlutförandedatum=$$TODAY</pre><pre>planningCompletionDate_Mod=eq</pre><pre>ELLER:1:status=NEW</pre><pre>ELLER:1:status_Mod=in</pre><pre>ELLER:2:percentComplete=100</pre><pre>ELLER:2:percentComplete_Mod=lt</pre>
+  <pre>planeradSlutförandedatum=$$TODAY</pre><pre>planningCompletionDate_Mod=eq</pre><pre>ELLER:1:status=NYTT</pre><pre>OR:1:status_Mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
 
-* Namnet på fälten eller attributen som du refererar till i ett filter måste skrivas med kamelstil. Mer information om kamelcase finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+* Namnet på fälten eller attributen som du refererar till i ett filter måste skrivas med kamelstil. Mer information om kamelfall finns i [Översikt över syntaxen i textläge](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 * När du refererar till anpassade fält i ett OR-filter måste du infoga DE: mellan OR-modifierarsyntaxen och namnet på det anpassade fältet. Du måste stava namnet på det anpassade fältet så som det visas i Workfront-gränssnittet.
 
-  **Exempel:** Om du vill filtrera efter uppgifter som har statusvärdet Nytt ELLER Procent färdigt lägre än 100 % ELLER ett anpassat fält med namnet Kontotyp med värdet Lika, använder du följande textlägeskod:
+  **Exempel:** Om du vill filtrera efter aktiviteter som har statusen Nytt ELLER Procent färdigt lägre än 100 % ELLER ett anpassat fält med namnet Kontotyp och värdet Lika, använder du följande textlägeskod:
 
-  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>ELLER:1:percentComplete=100</pre><pre>ELLER:1:percentComplete_Mod=lt</pre><pre>ELLER:2:DE:Kontotyp=Versalt</pre><pre>ELLER:2:DE:Account Type_Mod=in</pre>
+  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>ELLER:2:DE:Kontotyp=Stad</pre><pre>OR:2:DE:Account Type_Mod=in</pre>

@@ -45,7 +45,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -61,13 +61,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här lägger du till den här kolumnen i en uppgiftsvy:
 
 1. Gå till en lista med uppgifter.
-1. Från **Visa** nedrullningsbar meny, klicka **Ny vy**.
+1. Klicka på **Ny vy** i listrutan **Visa**.
 
-1. Klicka **Lägg till kolumn** sedan **Växla till textläge**.
+1. Klicka på **Lägg till kolumn** och **Växla till textläge**.
 
-1. Håll muspekaren över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i dialogrutan **Textläge** och ersätt den med följande kod:
-   <pre>displayName=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueFormat=HTML</pre>
+1. Hovra över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
+   <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
 
-1. (Valfritt) Följ stegen som beskrivs i [Gruppering: visa resultatet av att samla flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-1. Klicka **Spara** sedan **Spara vy**.
+1. (Valfritt) Om du vill samla de värden som visas i vyn i en gruppering följer du stegen som beskrivs i [Gruppera: visa resultatet av att samla flera beräknade värden i en gruppering](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+1. Klicka på **Spara** och sedan på **Spara vy**.

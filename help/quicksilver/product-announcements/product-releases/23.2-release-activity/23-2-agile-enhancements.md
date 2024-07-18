@@ -17,13 +17,13 @@ ht-degree: 0%
 
 Den här sidan beskriver alla smidiga förbättringar som gjorts i version 23.2 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
-En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.2-versionscykeln finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Lägga till uppgifter och problem från objektinformation på en Workfront-arbetsyta eller i ett arbetsflöde
 
 Nu kan du lägga till befintliga uppgifter eller problem i en lista med Workfront-kort eller arbetsflödeskort direkt från objektinformationen. Alla objekt som du lägger till på en anslagstavla blir anslutna kort och alla objekt som läggs till i en arbetsström läggs till i kortlistan som oplanerade kort.
 
-Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+Mer information finns i [Lägga till befintliga uppgifter eller ärenden på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Iterationsfunktioner som finns i Adobe Workfront Boards
 
@@ -35,7 +35,7 @@ Flera nya funktioner som finns på Workfront Boards gör det möjligt att använ
 
 Observera att samlingar har bytt namn till arbetsflöden. Med arbetsflöden kan ni visualisera data på olika sätt. Du kan visa objekt på kort i en lista, på en bräda eller på en iteration. Kort i en arbetsström kan också delas mellan flera ritytor. Du kan enkelt underlätta arbetsflöden med kort och kort i en arbetsström.
 
-Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)och [Använda kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md), [Skapa en iteration i ett arbetsflöde](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md) och [Använd kortlistan](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3417059/){target=_blank}
 
@@ -43,7 +43,7 @@ Mer information finns i [Hantera arbetsflöden](/help/quicksilver/agile/use-boar
 
 Nu kan du lägga till befintliga uppgifter eller problem i ett arbetsflöde i Workfront Boards direkt från en list- eller rapportvy. Alla objekt som du lägger till i arbetsflödet läggs till i kortlistan som oplanerade kort.
 
-Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+Mer information finns i [Lägga till befintliga uppgifter eller ärenden på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 ## Lägg till anpassade fält på kort på en anslagstavla
 
@@ -53,7 +53,7 @@ Precis som med standardfälten kan du välja att visa det anpassade fältet i de
 
 Alla data från det anpassade fältet på kortet är skrivskyddade.
 
-Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Mer information finns i [Anpassa vilka fält som ska visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 ## Lägga till uppgifter och problem från listor och rapporter till en Workfront-styrelse
 
@@ -61,7 +61,7 @@ Nu kan du lägga till befintliga uppgifter eller problem på en Workfront-styrel
 
 Fältet för anslagstavlor är nu även tillgängligt för att lägga till i listor och rapporter för uppgifter eller problem. I det här fältet visas alla anslagstavlor som en uppgift eller ett problem har lagts till i.
 
-Mer information finns i [Lägga till befintliga uppgifter eller problem i en styrelse](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
+Mer information finns i [Lägga till befintliga uppgifter eller ärenden på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md).
 
 
 ## Logga timmar på anslutna kort på anslagstavlan
@@ -74,7 +74,7 @@ Nu kan du logga timmar på anslutna kort, på samma sätt som du gör för en up
 
 Fälten för tidsloggning visas inte på anslutna kort som standard. Du måste aktivera **Timmar** i området Konfigurera under Kort.
 
-Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 
 ## Anpassa visning av fält på ett kort
@@ -86,7 +86,7 @@ Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/ag
 
 Anpassning är nu tillgängligt för att konfigurera vilka fält som ska visas på ett kort, både i den fullständiga vyn när kortet är öppet och i den komprimerade kortvyn på kortet. När du inaktiverar ett fält visas inte i någon av vyerna. Du kan även aktivera ett fält i den fullständiga vyn och dölja det i den komprimerade vyn.
 
-Mer information finns i [Anpassa vilka fält som visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Mer information finns i [Anpassa vilka fält som ska visas på ett kort](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3415710/){target=_blank}
 
@@ -132,7 +132,7 @@ Tidigare var kortberäkningen en manuell inmatning och mappades inte till något
 
 Uppskattningsfältet på både ad hoc-kort och anslutna kort har inte längre någon teckengräns. Tidigare var det maximala antalet tecken 99.
 
-Mer information finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Kort för förhandsgranskning i inloppskolumnen
 

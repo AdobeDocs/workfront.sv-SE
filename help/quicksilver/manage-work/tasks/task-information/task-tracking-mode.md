@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Du kan justera inställningen för spårningsläge för en uppgift när du skapar eller redigerar en uppgift för att styra hur och när statusindikatorerna för en uppgift visas. I Adobe Workfront visas statusflaggor när du konfigurerar vissa inställningar för att spåra förloppet för uppgifter.
 
-Mer information om aktiviteternas förloppsstatus finns i [Översikt över status för åtgärdsförlopp](../../../manage-work/tasks/task-information/task-progress-status.md).
+Mer information om aktiviteternas förloppsstatus finns i [Översikt över status för aktivitetsstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -73,7 +73,7 @@ Följande undantag finns:
 >
 >Om du väljer att låta uppgifter slutföras automatiskt markeras aktiviteten som slutförd när projekttiden beräknas om. Om projektets uppdateringstyp är inställd på Automatisk eller Automatisk och vid ändring, beräknas projekttidslinjen dagligen. Mer information om tidslinjeomberäkningar för projekt finns i [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->Tiden för det faktiska slutförandedatumet är midnatt på dagen när tidslinjen beräknas automatiskt. Den tid som används för att generera den här tidsstämpeln är datorns tidszon som definieras av Workfront-administratören under Kundinformation i installationsprogrammet. Mer information om hur du ställer in datorns tidszon finns i [Konfigurera grundläggande information för ditt system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>Tiden för det faktiska slutförandedatumet är midnatt på dagen när tidslinjen beräknas automatiskt. Den tid som används för att generera den här tidsstämpeln är datorns tidszon som definieras av Workfront-administratören under Kundinformation i installationsprogrammet. Mer information om hur du ställer in datorns tidszon finns i [Konfigurera grundläggande information för systemet](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Föregående {#predecessor}
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
 source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1449'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa åtkomst eller senare till projekt </p>
 
-<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+<p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -58,23 +58,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Öppna avsnittet Översikt
 
 1. Gå till det projekt vars översiktsavsnitt du vill visa.
-1. Klicka **Projektinformation** till vänster.
-1. The **Ökning** -avsnittet ska visas först som en del av projektinformationen och ska expanderas som standard
+1. Klicka på **Projektinformation** i den vänstra panelen.
+1. Avsnittet **Översikt** ska visas först som en del av projektinformationen och ska expanderas som standard
 
    eller
 
-   Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ökning**. Då öppnas området Översikt för redigering.
+   Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**. Då öppnas området Översikt för redigering.
 
    >[!NOTE]
    >
    >Beroende på hur din Workfront-administratör har konfigurerat layoutmallen kanske inte översiktsavsnittet visas först, och då komprimeras det. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Villkorligt) Om det finns ett specifikt fält som behöver uppdateras i ett projekt men inte visas i det här avsnittet, klickar du på **Menyn Mer** ![](assets/more-icon.png) bredvid projektnamnet, och **Redigera** om du vill visa fler projektfält.
+1. (Villkorligt) Om det finns ett specifikt fält som behöver uppdateras i ett projekt men inte visas i det här avsnittet, klickar du på menyn **Mer** ![](assets/more-icon.png) bredvid projektnamnet och **Redigera** om du vill visa fler projektfält.
 
    Mer information om hur du redigerar projekt finns i [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Redigera eller granska fälten i tabellen nedan som visas i **Ökning** -avsnitt.\
-   Om du vill redigera ett fält som är tillgängligt för redigering klickar du på fältet eller klickar **+Lägg till** om du vill lägga till information i ett tomt fält.
+1. Redigera eller granska fälten i tabellen nedan som visas i avsnittet **Översikt**.\
+   Om du vill redigera ett fält som är tillgängligt för redigering klickar du på fältet eller på **+Lägg till** för att lägga till information i ett tomt fält.
 
    >[!NOTE]
    >
@@ -151,7 +151,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Resurshanteraren</td> 
-      <td> <p>Det här är den person som kan hantera användarresurser i projektet. </p> <p>Mer information om Resurshanterare finns i artikeln <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Ange resurshanterare för ett projekt eller en mall </a>.</p> </td> 
+      <td> <p>Det här är den person som kan hantera användarresurser i projektet. </p> <p>Mer information om resurshanterare finns i artikeln <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Ange resurshanterare för ett projekt eller en mall </a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -195,32 +195,32 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr>
      <tr> 
       <td role="rowheader"><span>Initiativvaraktighet</span> </td> 
-      <td><span>varaktigheten för motsvarande initiativ när projektet är kopplat till ett initiativ. Det här fältet kan inte redigeras.</span> </td> 
+      <td><span>Det motsvarande initiativets varaktighet när projektet är kopplat till ett initiativ. Det här fältet kan inte redigeras.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Senast publicerat den</span> </td> 
-      <td><span>Det datum då projektet senast offentliggjordes från ett motsvarande initiativ.</span> </td> 
+      <td role="rowheader"><span>Senaste publiceringsdatum</span> </td> 
+      <td><span>Datumet då projektet senast publicerades från ett motsvarande initiativ.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Startdatum för projekt</span> </td> 
+      <td role="rowheader"><span>Startdatum för initiativ</span> </td> 
       <td><span>Den första dagen i startmånaden för initiativet, när projektet är kopplat till ett initiativ.</span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Startdatum för projektet</span> </td> 
-      <td><span>Den sista dagen i programmets slutmånad, när projektet är kopplat till ett initiativ. </span> </td> 
+      <td role="rowheader"><span>Startdatum</span> </td> 
+      <td><span>Den sista dagen i initialets slutmånad, när projektet är kopplat till ett initiativ. </span> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span>Initiera befattningsroller inom heltidsanställda och timmar</span> </td> 
+      <td role="rowheader"><span>Initiera befattningsroller i heltidsanställda och timmar</span> </td> 
       <td> <p>Information om de associerade jobbrollerna och deras tidsfördelningar för initiativet. Detta omfattar följande:</p> 
        <ul> 
         <li>Jobbrollsnamn</li> 
         <li>Antal heltidsanställda</li> 
-        <li> <p>Antal timmar för alla heltidsanställda</p> <p>Du kan beräkna antalet jobbroller som behövs för din plan eller ditt initiativ med hjälp av timmar eller heltidsanställda. </p> <p>Mer information finns i <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplaneraren</a>. </p> </li> 
-       </ul> <p>Tips: <span>Om antalet befattningar är olika för varje månad i initiativet visas det maximala antalet roller som krävs för initiativet i det här fältet. Om du till exempel behöver en konsult för januari och 2 för februari, visar kolumnen 2 heltidsanställda och motsvarande antal timmar för 2 heltidsanställda för alla månader.</span> </p> </td> 
+        <li> <p>Antal timmar för alla heltidsanställda</p> <p>Du kan beräkna antalet jobbroller som behövs för din plan eller ditt initiativ med hjälp av timmar eller heltidsanställda. </p> <p>Mer information finns i <a href="../../../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplanen</a>. </p> </li> 
+       </ul> <p>Tips: <span>Om antalet jobbroller är olika för varje månad i initiativet visas det maximala antalet roller som krävs för initiativet i det här fältet. Om du till exempel behöver en konsult för januari och 2 för februari, visar kolumnen 2 heltidsanställda och motsvarande antal timmar för 2 heltidsanställda för alla månader.</span> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Mer information om hur du länkar projekt till initiativ finns i [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
+   Mer information om hur du länkar projekt med initiativ finns i [Uppdatera eller skapa projekt genom att publicera initiativ i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

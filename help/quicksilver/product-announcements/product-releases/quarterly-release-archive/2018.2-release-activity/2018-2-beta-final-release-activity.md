@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.2 Beta Final release activity
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i den slutliga betaversionen 2018.2. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 20 juni 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
+title: 2018.2 Beta Final Release Activity
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i Beta Final-utgåvan 2018.2. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 20 juni 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,24 +14,24 @@ ht-degree: 0%
 
 ---
 
-# 2018.2 Beta Final release activity
+# 2018.2 Beta Final Release Activity
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i den slutliga betaversionen 2018.2. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 20 juni 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i Beta Final-utgåvan 2018.2. Funktionerna gjordes tillgängliga i förhandsvisningsmiljön den 20 juni 2018. Den kommer att göras tillgänglig i produktionsmiljön i juli 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för 2018.2-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.2 finns på  [Aktivitetsöversikt för version 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Följande nya funktioner lanseras i samband med 18.2-utgåvan:
 
 * [Ange e-postleveranstjänster för svar på Workfront e-postmeddelanden](#specify-mail-delivery-services-for-replying-to-workfront-email-notifications)
 * [Ta emot e-postmeddelanden för kommentarer om dokument](#receive-email-notifications-for-comments-on-documents)
 * [Systemspårade uppdateringar innehåller inte längre en ikon](#system-tracked-updates-no-longer-contain-an-icon)
-* [Alternativ för att konvertera en kommentar till en uppgift har tagits bort](#option-to-convert-a-comment-to-a-task-was-removed)
+* [Alternativet att konvertera en kommentar till en aktivitet har tagits bort](#option-to-convert-a-comment-to-a-task-was-removed)
 * [Workfront för Salesforce](#workfront-for-salesforce)
-* [Förbättringar av Workfront för Slack](#workfront-for-slack-improvements)
+* [Förbättringar för Workfront för Slack](#workfront-for-slack-improvements)
 * [Mobilförbättringar](#mobile-improvements)
 
 ## Ange e-postleveranstjänster för svar på Workfront e-postmeddelanden {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -93,7 +93,7 @@ Följande Workfront-meddelanden kan även konfigureras för att levereras i Slac
 
 Innan den här förbättringen kunde du inte få Workfront-meddelanden i Slack.
 
-Mer information om Workfront-meddelanden i Slack finns i [Få Adobe Workfront-meddelanden i Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Mer information om Workfront-meddelanden i Slack finns i [Ta emot Adobe Workfront-meddelanden i Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Mobilförbättringar {#mobile-improvements}
 
@@ -113,10 +113,10 @@ Följande nya funktioner kommer att lanseras i mobilbutikerna i samband med prod
 
   Den här funktionen är bara tillgänglig för iOS mobilapp.
 
-Följande funktioner har redan släppts till Android Beta-versionen av Workfront-mobilappen, och de kommer också att släppas för mobila Android- och iOS-appar. Upplevelsen för iOS-plattformen innehåller följande skillnader jämfört med den redan lanserade Android-upplevelsen:
+Följande funktioner har redan släppts till Android Beta-versionen av Workfront-mobilappen och de släpps också till Android och iOS mobilappar. Upplevelsen för iOS-plattformen innehåller följande skillnader jämfört med den Android-upplevelse som redan släppts:
 
 * Nytt navigeringsfält längst ned för iOS 
 
 * Ny självstudiekurs för iOS 
 
-Mer information om de här funktionerna och om du vill se videofilmer som visar dem finns i [2018.2 Beta 4 - versionsaktivitet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) och [2018.2 Beta 5 - versionsaktivitet](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).
+Mer information om de här funktionerna och om du vill se videoklipp som visar dem finns i [2018.2 släppningsaktivitet för Beta 4](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md) och [2018.2 släppningsaktivitet för Beta 5](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md).

@@ -39,8 +39,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
+     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Admin (gruppanvändare)</b> är aktiverad måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om inställningen <b>Användare</b> på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -48,12 +48,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Skapa direktrapporter
 
-1. Börja redigera en användare enligt beskrivningen i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-1. I **Organisation** kontrollerar du att ett företag har valts i **Företag** fält.
+1. Börja redigera en användare enligt beskrivningen i [Redigera en användarprofil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. Kontrollera att ett företag har valts i fältet **Företag** i avsnittet **Organisation**.
 
    Det här fältet får inte vara tomt.
 
-1. I **Direktrapporter** anger du de användare som rapporterar till den användare som du redigerar.
+1. I fältet **Direktrapporter** anger du eventuella användare som rapporterar till den användare som du redigerar.
 
-1. (Valfritt) I dialogrutan **Rapporter till** anger du namnet på den användare som den här användaren rapporterar till.
-1. Klicka **Spara ändringar**.
+1. (Valfritt) I fältet **Rapporter till** anger du namnet på den användare som den här användaren rapporterar till.
+1. Klicka på **Spara ändringar**.

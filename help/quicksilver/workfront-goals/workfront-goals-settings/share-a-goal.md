@@ -77,7 +77,7 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Överväganden om att dela mål
 
@@ -118,7 +118,7 @@ Du måste ha följande:
 
 ## Dela ett mål
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Du måste ha följande:
 
 1. Klicka på namnet på ett mål i listan. Målsidan öppnas.
 
-1. Klicka på **Mer-ikon** bredvid målnamnet och klicka sedan på **Dela**.
+1. Klicka på ikonen **Mer** bredvid målnamnet och klicka sedan på **Dela**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -137,20 +137,20 @@ Du måste ha följande:
 
 1. Gör något av följande:
 
-   * Välj **Hantera hela systemet** inställning för att ge hanteringsbehörighet till alla i systemet som har Redigera-åtkomst till mål på åtkomstnivå. Detta är som standard avmarkerat för alla nya mål.
-   * Börja skriva namnet på en användare som du vill ge behörigheten Hantera i **Ge Hantera åtkomst till** box. Markera namnet när det visas i listan.
+   * Välj inställningen **Hantera i hela systemet** om du vill ge alla i systemet som har Redigera-åtkomst till mål på åtkomstnivån Hantera-behörighet. Detta är som standard avmarkerat för alla nya mål.
+   * Börja skriva namnet på en användare som du vill ge behörigheten Hantera i rutan **Ge behörigheten Hantera till**. Markera namnet när det visas i listan.
 
      >[!TIP]
      >
      >Du kan bara dela ett mål med andra användare. Du kan inte dela mål med grupper, team eller ditt företag.
 
-1. Klicka **Dela**.
+1. Klicka på **Dela**.
 
    Målet delas med de användare som du har angett. En etikett för hela systemet eller namnet på de användare som har behörigheten Hantera för målet visas i fältet Åtkomst till hantering på panelen Målinformation.
 
 ## Alternativ för målbehörighet
 
-I följande tabell visas de behörigheter som du kan ge när du delar ett mål. Mer information om vilka användare som får åtkomst baserat på deras licens finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+I följande tabell visas de behörigheter som du kan ge när du delar ett mål. Mer information om vilka användare som får åtkomst baserat på deras licens finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 

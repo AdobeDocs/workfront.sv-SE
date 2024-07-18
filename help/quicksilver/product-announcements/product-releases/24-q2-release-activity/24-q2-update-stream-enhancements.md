@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla uppdateringsströmmar och meddelandeförbättringar som gjorts i den andra utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns i [Översikt över den andra utgåvan av kvartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Nya kommentarfunktioner i iterationer
 
@@ -24,7 +24,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 >
 >Förhandsversion: 11 april 2024; Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
-För att ge en enhetlig upplevelse i hela programmet har vi lagt till den nya kommentarsfunktionen i iterationer. Mer information finns i [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+För att ge en enhetlig upplevelse i hela programmet har vi lagt till den nya kommentarsfunktionen i iterationer. Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Åtkomst till det gamla kommentarsområdet har tagits bort
 
@@ -42,9 +42,9 @@ Mer information finns i [Ny kommentarsfunktion](/help/quicksilver/product-announ
 >
 >Förhandsversion: 1 mars 2024; Produktion för snabb release: Med version 24.3 (14 mars 2024); Produktion för alla kunder: Med version 24.4 (11 april 2024)
 
-Vi har nu lagt till de nya kommentarsfunktionerna i **Lägg till ny uppdatering** snabbåtgärdsknappen i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nytt hem.
+Vi har nu lagt till den nya kommentarsfunktionen i snabbåtgärdsknappen **Lägg till ny uppdatering** i widgetarna Mitt arbete, Mina projekt, Mina uppgifter och Mina problem i nya Hem.
 
-Mer information finns i [Kom igång med nya startsidan](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Ytterligare kommentarsinformation finns i den nya kommentarsfunktionen
 
@@ -71,7 +71,7 @@ Kommentarer som har gjorts i systemaktivitetsposterna i den tidigare kommentarfu
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar kl. 2:00)
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar klockan 2:00)
 
 ## Ny flik för uppdateringsström för att hämta både kommentarer och systemaktivitetsposter
 
@@ -85,7 +85,7 @@ Fliken Alla är bara för visning. Du kan inte svara på kommentarer eller tagga
 
 Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar 0:31)
+[Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Diskussionen om den här specifika funktionen börjar vid 0:31)
 
 ## Ny kommentarsström är nu tillgänglig på panelen Sammanfattning
 
@@ -95,6 +95,6 @@ Mer information finns i [Översikt över uppdateringsavsnittet](/help/quicksilve
 
 Vi har nu lagt till den nya kommentarsfunktionen i sammanfattningspanelen för uppgifts- och problemlistor.
 
-Mer information finns i [Sammanfattning](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+Mer information finns i [Sammanfattningsöversikt](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3427991/){target=_blank}

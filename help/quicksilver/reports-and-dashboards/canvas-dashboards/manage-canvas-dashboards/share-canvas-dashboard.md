@@ -5,7 +5,8 @@ title: Dela en arbetsytans kontrollpanel
 description: Du kan dela en Canvas Dashboard med andra Adobe Workfront-användare så att de kan visa eller redigera den.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 0%
@@ -41,18 +42,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Dela en arbetsytans kontrollpanel
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 
-1. Klicka på i den vänstra panelen **Kontrollpaneler på arbetsytan** klickar du sedan på namnet på den arbetsytekontrollpanel som du vill dela.
+1. Klicka på **Kontrollpaneler för arbetsytan** i den vänstra panelen och klicka sedan på namnet på den kontrollpanel för arbetsytan som du vill dela.
 
-1. Klicka på **Dela** i sidans övre högra hörn.
+1. Klicka på knappen **Dela** i det övre högra hörnet på sidan.
 
-1. I **Ge åtkomst till:** fält för **Instrumentpanelsdelning** börjar du skriva in namnen på specifika användare, team, roller, grupper eller företag i din Workfront-instans som du vill dela Canvas Dashboard med. När namnet du söker visas i listan över automatiskt ifyllda fält under fältet klickar du på det för att lägga till det i listan över avsedda mottagare.
+1. I fältet **Ge åtkomst till:** i fönstret **Kontrollpanelsdelning** som visas börjar du skriva in namnen på specifika användare, team, roller, grupper eller företag i din Workfront-instans som du vill dela arbetsytans kontrollpanel med. När namnet du söker visas i listan över automatiskt ifyllda fält under fältet klickar du på det för att lägga till det i listan över avsedda mottagare.
 
-1. (Valfritt) När du har lagt till en entitet i listan över avsedda mottagare kan du redigera vilken typ av åtkomst de får för den här Canvas-instrumentpanelen. Som standard får de bara **Visa** åtkomst, men du kan ge dem behörigheten Hantera genom att klicka **Visa >** bredvid enheten och sedan välja **Hantera** i listrutan. Observera att åtkomstnivån för vissa entiteter inte kan ändras, till exempel administratörer.
+1. (Valfritt) När du har lagt till en entitet i listan över avsedda mottagare kan du redigera vilken typ av åtkomst de får för den här Canvas-instrumentpanelen. Som standard får de bara åtkomst till **Visa**, men du kan ge dem behörigheten Hantera genom att klicka på **Visa >** bredvid entiteten och sedan välja **Hantera** i listrutan. Observera att åtkomstnivån för vissa entiteter inte kan ändras, till exempel administratörer.
 
-1. När du har lagt till alla som du vill dela arbetsytans kontrollpanel med klickar du på **Dela** -knappen.
+1. När du har lagt till alla som du vill dela arbetsytans kontrollpanel med klickar du på knappen **Dela** .

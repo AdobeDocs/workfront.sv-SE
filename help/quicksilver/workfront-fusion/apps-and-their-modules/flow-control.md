@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: 0f315192-c15e-48e8-a5b6-827c300f0e5c
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '591'
 ht-degree: 0%
 
 ---
@@ -38,50 +38,50 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Upprepare
 
-Du kan använda en [!UICONTROL Repeater] för att upprepa en uppgift ett visst antal gånger. A [!UICONTROL Repeater] modulen genererar paket, det ena efter det andra.
+Du kan använda en [!UICONTROL Repeater]-modul för att upprepa en uppgift ett visst antal gånger. En [!UICONTROL Repeater]-modul genererar paket, det ena efter det andra.
 
-Du kan till exempel använda en [!UICONTROL Repeater] för att skicka fem e-postmeddelanden med avsnitten &quot;Hello 1&quot;, &quot;Hello 2&quot; och så vidare, genom att ansluta **[!UICONTROL Email]>[!UICONTROL Send me an email]** till [!UICONTROL Repeater] -modul.
+Du kan till exempel använda en [!UICONTROL Repeater]-modul för att skicka fem e-postmeddelanden med avsnitten &quot;Hello 1&quot;, &quot;Hello 2&quot; och så vidare, genom att ansluta modulen **[!UICONTROL Email]>[!UICONTROL Send me an email]** till modulen [!UICONTROL Repeater] .
 
-Så här använder du en [!UICONTROL Repeater] modul:
+Så här använder du en [!UICONTROL Repeater]-modul:
 
-1. Klicka på [!UICONTROL Flow Control] icon ![](assets/flow-control-icon.gif) längst ned på skärmen klickar du på **[!UICONTROL Repeater]** på menyn som visas.
-1. Klicka på [!UICONTROL Repeater] paketet och klicka sedan på **[!UICONTROL Connect automatically]** i rutan som visas.
-1. I [!UICONTROL Flow Control] som visas anger du antalet upprepningar (utgående paket) som du vill ha i dialogrutan **[!UICONTROL Repeats]** box.
+1. Klicka på ikonen [!UICONTROL Flow Control] ![](assets/flow-control-icon.gif) längst ned på skärmen och klicka sedan på **[!UICONTROL Repeater]** på menyn som visas.
+1. Klicka på paketet [!UICONTROL Repeater] och klicka sedan på **[!UICONTROL Connect automatically]** i rutan som visas.
+1. I rutan [!UICONTROL Flow Control] som visas skriver du det antal upprepningar (utgående paket) som du vill ha i rutan **[!UICONTROL Repeats]**.
 
    I vårt e-postexempel skriver du 5.
 
    ![](assets/repeater-2-350x207.png)
 
-   Värdet för objektet ökar i varje repetition med det här värdet som anges i **[!UICONTROL Step]** -fält som du kan visa genom att markera **[!UICONTROL Show advanced settings]**. Numret är som standard 1.
+   Objektets värde ökar i varje repetition med det här värdet som anges i fältet **[!UICONTROL Step]**, som du kan visa genom att välja **[!UICONTROL Show advanced settings]**. Numret är som standard 1.
 
-1. Klicka **[!UICONTROL OK]** för att stänga **[!UICONTROL Flow Control]** box.
+1. Klicka på **[!UICONTROL OK]** för att stänga rutan **[!UICONTROL Flow Control]**.
 
-1. Klicka på appen eller tjänstmodulen som är ansluten till [!UICONTROL Repeater] -modul.
+1. Klicka på appen eller tjänstmodulen som är ansluten till modulen [!UICONTROL Repeater].
 1. Skriv den information som du vill upprepa i rutan som visas.
 
-   I vårt e-postexempel skriver du Hello i [!UICONTROL Subject] box, then map `i` från upprepningsmodulen.
+   I vårt e-postexempel skriver du Hello i rutan [!UICONTROL Subject] och sedan mappar du `i` från den upprepade modulen.
 
    ![](assets/repeater-3-350x207.png)
 
@@ -89,25 +89,25 @@ Så här använder du en [!UICONTROL Repeater] modul:
 |---|---|
 | [!UICONTROL Initial value] | Ange eller mappa numret som du vill att modulen ska ange som `i` i den första iterationen. Standardvärdet är 1. |
 | [!UICONTROL Repeats] | Ange eller mappa det antal gånger som du vill att modulen ska upprepas. Talet måste vara större än eller lika med 0 och mindre än eller lika med 10 000. |
-| [!UICONTROL Step] | Detta är talet som modulen ökar värdet för `i`. Standardvärdet är 1. |
+| [!UICONTROL Step] | Detta är talet som modulen ökar värdet för `i` med. Standardvärdet är 1. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Antalet upprepningar bestäms inte av värdet för `i`, som det skulle vara i en slinga i programmeringen. Modulen upprepas det antal gånger som anges i [!UICONTROL Repeats] fält. Värdet `i` ändras för varje iteration i [!DNL repeater] och kan mappas till senare moduler. Exemplet ovan mappar värdet för `i` i Hello-meddelandet, vilket resulterar i meddelanden som innehåller&quot;Hello 1&quot;,&quot;Hello 2&quot; osv.
+>Antalet upprepningar bestäms inte av värdet `i`, vilket skulle vara i en slinga i programmeringen. Modulen upprepas det antal gånger som anges i fältet [!UICONTROL Repeats]. Värdet `i` ändras för varje iteration i modulen [!DNL repeater] och kan mappas till senare moduler. I exemplet ovan mappas värdet för `i` till Hello-meddelandet, vilket resulterar i meddelanden som innehåller&quot;Hello 1&quot;,&quot;Hello 2&quot; och så vidare.
 
 ## [!UICONTROL Iterator]
 
-An [!UICONTROL Iterator] är en särskild typ av modul som konverterar en array till en serie paket. Varje matrisobjekt blir ett separat paket i [!UICONTROL Iterator] modulutdata. Mer information finns i [[!UICONTROL Iterator] modulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+En [!UICONTROL Iterator] är en särskild typ av modul som konverterar en array till en serie paket. Varje matrisobjekt blir ett separat paket i [!UICONTROL Iterator]-modulens utdata. Mer information finns i modulen [[!UICONTROL Iterator] i  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ## Matrisaggregering
 
-En arrayaggregator är en speciell typ av modul som gör det möjligt att sammanfoga flera paket till ett enda paket. Mer information finns i [[!UICONTROL Aggregator] i Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
+En arrayaggregator är en speciell typ av modul som gör det möjligt att sammanfoga flera paket till ett enda paket. Mer information finns i modulen [[!UICONTROL Aggregator] i Adobe Workfront Fusion](../../workfront-fusion/modules/aggregator-module.md).
 
 ## [!UICONTROL Router]
 
-The [!UICONTROL Router] kan du dela in ditt flöde i flera olika flöden och bearbeta data i varje flöde på olika sätt. En gång en [!UICONTROL Router] modulen tar emot ett paket som vidarebefordrar det till varje ansluten rutt i den ordning som rutterna kopplades till [!UICONTROL Router] -modul. Mer information finns i [Routermodul i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
+Med modulen [!UICONTROL Router] kan du dela in ditt flöde i flera flöden och bearbeta data i varje flöde på olika sätt. När en [!UICONTROL Router]-modul tar emot ett paket vidarebefordrar den till varje ansluten väg i den ordning som rutterna kopplades till [!UICONTROL Router]-modulen. Mer information finns i [Routermodulen i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/router-module.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

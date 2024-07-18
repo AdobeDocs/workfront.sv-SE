@@ -10,14 +10,14 @@ role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
 # Anpassa den vänstra panelen med en layoutmall
 
-I en layoutmall kan du anpassa vad användarna ser i det vänstra panelområdet genom att [!DNL Adobe Workfront].
+I en layoutmall kan du anpassa vad användarna ser i det vänstra panelområdet genom [!DNL Adobe Workfront].
 
 Du kan till exempel ta reda på vilket av följande objekt som visas i den vänstra panelen när du visar en uppgift:
 
@@ -51,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> Om du vill utföra de här stegen på systemnivå måste du ha [!UICONTROL System Administrator] åtkomstnivå.<p>Om du vill utföra dem för en grupp måste du vara gruppchef.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> Om du vill utföra de här stegen på systemnivå måste du ha åtkomstnivån [!UICONTROL System Administrator].<p>Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,17 +59,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Anpassa den vänstra panelen för ett område i [!DNL Workfront]:
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]** klickar du sedan på den vänstra panelen som du vill anpassa.
+1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **[!UICONTROL Customize what users see]** och klicka sedan på den vänstra panelen som du vill anpassa.
 
    >[!NOTE]
    >
-   >Mer information om [!UICONTROL Home] i den här nedrullningsbara listan finns mer information [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Mer information om alternativet Listor finns i [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
+   >Mer information om alternativet [!UICONTROL Home] i den här listrutan finns i [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). Mer information om alternativet Listor finns i [Anpassa filter, vyer och grupperingar med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. I **[!UICONTROL Left panel]** gör något av följande för att avgöra vad som ska visas för alternativet i den vänstra panelen ([!DNL Workfront] område eller objekttyp) som du har valt:
+1. I listan **[!UICONTROL Left panel]** gör du något av följande för att avgöra vad som kommer att visas för det alternativ ([!DNL Workfront] område eller objekttyp) som du har valt i den vänstra panelen:
 
-   * Visa ![](assets/add-secondary-nav-item.png) eller dölja ![](assets/delete-secondary-nav-item.png) objekt. Alla objekt utan ![](assets/add-secondary-nav-item.png) eller ![](assets/delete-secondary-nav-item.png) kan inte döljas.
+   * Visa ![](assets/add-secondary-nav-item.png) eller dölj ![](assets/delete-secondary-nav-item.png) objekt. Objekt utan ![](assets/add-secondary-nav-item.png) eller ![](assets/delete-secondary-nav-item.png) kan inte döljas.
 
-   * Dra objekt ![](assets/move-icon---dots.png) om du vill ändra deras ordning på den vänstra panelen.
+   * Dra objekt ![](assets/move-icon---dots.png) för att ändra deras ordning på den vänstra panelen.
    <table style="table-layout:auto"> 
     <col> 
     <col> 
@@ -142,12 +142,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>Namnet på en instrumentpanel</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>ANMÄRKNING</b>: Om du har skapat anpassade flikar för [!UICONTROL Reports] område med hjälp av en layoutmall i [!DNL Adobe Workfront Classic]visas de längst ned i listan. För användarna visas de längst ned på den vänstra panelen i [!UICONTROL Dashboards] område.</p> </td> 
+      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>Obs!</b> Om du har skapat anpassade flikar för området [!UICONTROL Reports] med hjälp av en layoutmall i [!DNL Adobe Workfront Classic] visas de längst ned i listan. För användare visas de längst ned på den vänstra panelen i området [!UICONTROL Dashboards].</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
       <td>Namnet på ett Scrum-team</td> 
-      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>OBS!</strong> The <strong>[!UICONTROL Current iteration]</strong> visas bara i den vänstra panelen när det finns minst en uppgift eller ett problem i iterationen.</p></td> 
+      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>OBS!</strong> Objektet <strong>[!UICONTROL Current iteration]</strong> visas bara på den vänstra panelen när det finns minst en uppgift eller ett problem i iterationen.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban Team]</td> 
@@ -197,14 +197,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!NOTE]
    >
-   >De tre sista objekten i **[!UICONTROL Customize what users see]** nedrullningsbar lista ([!UICONTROL Lists], [!UICONTROL Home and Summary]och [!UICONTROL Branding]) används för att konfigurera andra områden än den vänstra panelen. Mer information om dem finns i följande artiklar:
+   >De sista tre objekten i listrutan **[!UICONTROL Customize what users see]** ([!UICONTROL Lists], [!UICONTROL Home and Summary] och [!UICONTROL Branding]) används för att konfigurera andra områden än den vänstra panelen. Mer information om dem finns i följande artiklar:
 >   >   
 * [Anpassa filter, vyer och grupperingar med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
->* [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [Varumärke Adobe [!DNL Workfront] använda en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+>* [Anpassa [!UICONTROL Home] och [!UICONTROL Summary] med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+* [Märke Adobe [!DNL Workfront] med en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Valfritt) Om du vill lägga till ett vänsterpanelsobjekt som länkar till någon av organisationens kontrollpaneler klickar du på **[!UICONTROL Add custom section]**, skriv en **[!UICONTROL Custom section title]** för objektet och lägg sedan till kontrollpanelen.
+1. (Valfritt) Om du vill lägga till ett vänsterpanelsobjekt som länkar till någon av organisationens kontrollpaneler klickar du på **[!UICONTROL Add custom section]**, skriver **[!UICONTROL Custom section title]** för objektet och lägger sedan till kontrollpanelen.
 
    Instrumentpanelsobjekt visas längst ned på den vänstra panelen. Användarna ser den anpassade avsnittsrubrik som du skriver bredvid instrumentpanelsobjektet när de hovrar över den vänstra panelen.
 
@@ -222,4 +222,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    >[!TIP]
    >
-   Du kan klicka [!UICONTROL Save] när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.
+   Du kan klicka på [!UICONTROL Save] när som helst för att spara förloppet och sedan fortsätta att ändra mallen senare.

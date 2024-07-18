@@ -83,7 +83,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,40 +94,40 @@ Du kan ange fördröjningstyper för uppgifter när du definierar deras föregå
 ### Ange typ av fördröjning i avsnittet Föregående aktiviteter i en uppgift {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. Gå till en uppgift som du vill definiera föregångaren och taggtypen för.
-1. Klicka **Föregående** till vänster. Du kanske måste klicka **Visa fler** och sedan **Föregående**.
-1. Klicka **Lägg till föregående**.
-1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du **Överordnat projekt** namn med ett annat projekt.
+1. Klicka på **Föregående** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Föregående**.
+1. Klicka på **Lägg till föregående**.
+1. (Valfritt) Om du vill lägga till en föregångare för flera projekt ersätter du namnet **Överordnat projekt** med ett annat projekt.
 1. Börja skriva namnet på föregående aktivitet och markera den när den visas i listan.
 1. Välj **Beroendetyp**.
 
-   Mer information om föregående beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   Mer information om föregående beroendetyper finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Ange en **Lag** ett numeriskt värde. Du kan ange negativa tal om du vill ange en negativ fördröjning.
+1. Ange ett **Lag**-värde med ett numeriskt värde. Du kan ange negativa tal om du vill ange en negativ fördröjning.
 1. Välj bland följande alternativ för att identifiera vilken typ av fördröjning du vill ange för föregående användare:
 
    * **Dagar**
    * **Kalenderdagar**
    * **Procent**
    * **Veckodag**
-   * **Veckodag (ej noll)**
+   * **Veckodag (inte noll)**
 
      Mer information om dessa Lag-typer och hur de beräknas finns i avsnittet [Lag Types](#lag-types) i den här artikeln.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ### Ange typ av fördröjning i en uppgiftslista  {#indicate-lag-types-in-a-task-list}
 
-1. Gå till en uppgiftslista och välj **Standard** vy.
+1. Gå till en uppgiftslista och välj vyn **Standard**.
 
-1. Klicka inuti **Föregående** -kolumn som motsvarar den uppgift för vilken du vill ange en föregångare och ett fördröjningsvärde.
+1. Klicka i kolumnen **Föregående** som motsvarar aktiviteten som du vill ange en föregångare och en fördröjning för.
 1. Ange följande utan blanksteg:
 
    * numret på den uppgift som du vill ange som föregående för den valda uppgiften
    * förkortningen för den beroendetyp som du vill ange mellan aktiviteterna
 
-     Mer information om förkortningarna för Beroendetyper finns i [Översikt över typer av uppgiftsberoenden](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+     Mer information om förkortningarna för Beroendetyper finns i [Översikt över aktivitetsberoendetyper](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * antingen **+** för en positiv fördröjning eller **-** för negativ fördröjning
+   * antingen en **+** för positiv fördröjning eller en **-** för negativ fördröjning
 
    * mängden fördröjning
    * förkortningen för den Lag-typ som du vill använda

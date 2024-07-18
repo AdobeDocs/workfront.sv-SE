@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- printing or exporting goals is no longer possible, but see if they add it later-->
 
-När du eller andra användare har skapat mål kan du granska deras förlopp och information i mållistan. Mer information om hur du skapar mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
+När du eller andra användare har skapat mål kan du granska deras förlopp och information i mållistan. Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 
 ## Åtkomstkrav
 
@@ -79,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hantera mål i mållistan
 
@@ -196,7 +196,7 @@ Tänk på följande när du granskar mållistan:
 
 Så här hanterar du mål i mållistan:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)  i det övre högra hörnet och klicka sedan på **Mål**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Mål**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -207,7 +207,7 @@ Så här hanterar du mål i mållistan:
 
    * **Namn**: Målets namn.
    * **Ägare**: Målägarens namn.
-   * **Period**: Den tidsperiod som målet är schemalagt för.
+   * **Period**: Den tidsperiod för vilken målet har schemalagts.
    * **Status**: Målets status kan vara något av följande:
       * Aktiv
       * Utkast
@@ -216,9 +216,9 @@ Så här hanterar du mål i mållistan:
 
      Mer information om målstatus finns i [Översikt över målstatus i Adobe Workfront-mål](../goal-management/goal-status-overview.md).
 
-     Justeringsikonen visas för mål som är justerade mot andra mål. Mer information om hur du justerar mål finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../goal-alignment/align-goals-by-connecting-them.md).
+     Justeringsikonen visas för mål som är justerade mot andra mål. Mer information om att justera mål finns i [Justera mål genom att koppla dem i Adobe Workfront-mål](../goal-alignment/align-goals-by-connecting-them.md).
 
-   * **Villkor**: En visuell representation av hur målet fortskrider inom den tidsperiod som har tilldelats för att målet ska slutföras.
+   * **Villkor**: En visuell representation av hur målet fortskrider inom den tidsperiod som har allokerats för att målet ska slutföras.
 
      Ett målvillkor kan vara något av följande:
 
@@ -227,13 +227,13 @@ Så här hanterar du mål i mållistan:
       * Risk
       * I problem
 
-     Mer information om målvillkor finns i [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
+     Mer information om målvillkor finns i [Översikt över målstatus och villkor i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
 
    * **Förlopp**: Förloppsindikatorn för målet i procent. Färgen på förloppsindikatorn matchar färgen på målets villkor.
 
-     Mer information finns i [Beräkna målstatus i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
+     Mer information finns i [Beräkna målförlopp i Adobe Workfront-mål](../goal-management/calculate-goal-progress.md).
 
-1. Klicka på filterikonen ![](assets/filter-icon.png) i det övre högra hörnet av mållistan och tillämpa filter för att endast visa mål som är viktiga för dig.
+1. Klicka på filterikonen ![](assets/filter-icon.png) i det övre högra hörnet av mållistan och använd filter för att endast visa mål som är viktiga för dig.
 
    Mer information om hur du använder filter i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
 
@@ -243,10 +243,10 @@ En pil visas till höger om det fält som listan sorteras efter.
 1. (Valfritt) Klicka på fältet i kolumnen igen om du vill sortera samma kolumn i fallande ordning.
 1. Klicka på namnet på ett mål för att öppna målets sida.
 1. Välj ett mål i listan och klicka sedan på något av följande alternativ högst upp i listan:
-   * **Redigera** icon ![](assets/edit-icon.png) om du vill redigera information om målet. Mer information finns i [Redigera mål i Adobe Workfront-mål](../goal-management/edit-goals.md).
-   * **Dela** icon ![](assets/share-icon.png) för att dela målet med andra människor. Mer information finns i [Dela ett mål i Adobe Workfront-mål](../workfront-goals-settings/share-a-goal.md).
-   * **Öppna justering** icon ![](assets/align-icon-unshimmed.png) för att öppna området Måljustering. Det här alternativet visas bara när det valda målet är justerat mot ett annat mål.
-   * **Ta bort** icon ![](assets/delete-icon.png) för att ta bort målet och klicka sedan på **Ta bort** för att bekräfta.  Mer information finns i [Ta bort och inaktivera mål i Adobe Workfront-mål](../goal-management/delete-and-deactivate-goals.md).
+   * **Redigera** ikon ![](assets/edit-icon.png) om du vill redigera information om målet. Mer information finns i [Redigera mål i Adobe Workfront-mål](../goal-management/edit-goals.md).
+   * **Dela** ikon ![](assets/share-icon.png) om du vill dela målet med andra. Mer information finns i [Dela ett mål i Adobe Workfront-mål](../workfront-goals-settings/share-a-goal.md).
+   * **Öppna justeringsikonen** ![](assets/align-icon-unshimmed.png) om du vill öppna området för måljustering. Det här alternativet visas bara när det valda målet är justerat mot ett annat mål.
+   * **Ta bort** ikon ![](assets/delete-icon.png) om du vill ta bort målet och klicka sedan på **Ta bort** för att bekräfta.  Mer information finns i [Ta bort och inaktivera mål i Adobe Workfront-mål](../goal-management/delete-and-deactivate-goals.md).
 
 
 

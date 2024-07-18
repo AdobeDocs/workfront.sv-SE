@@ -10,7 +10,7 @@ feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -38,17 +38,17 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr>
  </tbody> 
@@ -56,9 +56,9 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-&#42;&#42;För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Använda en webkrok i [!DNL Workfront Fusion]
+## Använd en webkrok i [!DNL Workfront Fusion]
 
 >[!NOTE]
 >
@@ -66,11 +66,11 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 
 Så här använder du en webkrok för att ansluta en app till [!DNL Workfront Fusion]:
 
-1. Lägg till **[!UICONTROL Webhooks]** >**[!UICONTROL Custom Webhook]** startmodul till ditt scenario.
+1. Lägg till **[!UICONTROL Webhooks]** >**[!UICONTROL Custom Webhook]**-modulen för snabbutlösare i ditt scenario.
 
-1. Klicka **[!UICONTROL Add]** bredvid Webkrok-fältet och ange ett namn för den nya webkroken.
+1. Klicka på **[!UICONTROL Add]** bredvid Webkrok-fältet och ange ett namn för den nya webkroken.
 1. (Valfritt) Klicka på **[!UICONTROL Advanced Settings]**.
-1. I **[!UICONTROL IP restrictions]** anger du en kommaavgränsad lista över IP-adresser som modulen kan ta emot data från.
+1. I fältet **[!UICONTROL IP restrictions]** anger du en kommaavgränsad lista över IP-adresser som modulen kan ta emot data från.
 1. Klicka på **[!UICONTROL Save]**
 
 När du har skapat en webbkrok visas en unik URL. Det här är adressen som webbhoven skickar data till. Workfront Fusion validerar de data som skickas till den här adressen och skickar dem sedan för behandling i scenariot.
@@ -81,11 +81,11 @@ När du har skapat en webbkrok visas en unik URL. Det här är adressen som webb
 
 ### Konfigurera webbhakens datastruktur {#configure-the-webhook-s-data-structure}
 
-För att kunna känna igen datastrukturen för inkommande nyttolast, [!DNL Workfront Fusion] tolkar exempeldata som du skickar till den visade adressen. Du kan ange exempeldata genom att göra en ändring i tjänsten eller appen som får tjänsten eller appen att anropa webbkroken. Du kan till exempel ta bort en fil.
+[!DNL Workfront Fusion] tolkar exempeldata som du skickar till den visade adressen för att identifiera datastrukturen för den inkommande nyttolasten. Du kan ange exempeldata genom att göra en ändring i tjänsten eller appen som får tjänsten eller appen att anropa webbkroken. Du kan till exempel ta bort en fil.
 
-Du kan också följa stegen nedan för att skicka exempeldata via [!UICONTROL HTTP] > [!UICONTROL Make a request] -modul.
+Du kan också följa stegen nedan för att skicka exempeldata via modulen [!UICONTROL HTTP] > [!UICONTROL Make a request].
 
-1. Skapa ett nytt scenario med **[!UICONTROL HTTP]** > **[!UICONTROL Make a request]** modul
+1. Skapa ett nytt scenario med modulen **[!UICONTROL HTTP]** > **[!UICONTROL Make a request]**
 
 1. Konfigurera modulen med följande värden:
 
@@ -95,7 +95,7 @@ Du kan också följa stegen nedan för att skicka exempeldata via [!UICONTROL HT
     <tbody> 
      <tr> 
       <td role="rowheader"><p>[!UICONTROL URL] </p></td> 
-      <td>Ange webbkrogens URL. Den här URL:en finns i [!UICONTROL Webhooks] som du har använt för att konfigurera webkroken.</td> 
+      <td>Ange webbkrokens URL. Du hittar den här URL:en i modulen [!UICONTROL Webhooks] som du har använt för att konfigurera webkroken.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Method] </td> 
@@ -118,19 +118,19 @@ Du kan också följa stegen nedan för att skicka exempeldata via [!UICONTROL HT
 
    ![](assets/new-scenario-set-up-like-this-350x446.png)
 
-1. Öppna scenariot med [!UICONTROL Webhooks] i en separat webbläsarflik eller fönster.
-1. Klicka på i webbmodulen **[!UICONTROL Redetermine data structure]**.
+1. Öppna scenariot med modulen [!UICONTROL Webhooks] på en separat webbläsarflik eller i ett separat fönster.
+1. Klicka på **[!UICONTROL Redetermine data structure]** i webbmodulen.
 
    Du behöver inte bryta länken till andra moduler från webbhooks-modulen.
 
-1. Växla till scenariot med [!UICONTROL HTTP] och kör.
+1. Växla till scenariot med modulen [!UICONTROL HTTP] och kör det.
 1. Växla tillbaka till scenariot med modulen Webhooks.
 
-   A &quot;[!UICONTROL Successfully determined]&quot; betyder att modulen har fastställt datastrukturen.
+   Ett [!UICONTROL Successfully determined]-meddelande betyder att modulen har fastställt datastrukturen.
 
    ![](assets/successfully-determined-350x175.png)
 
-1. Klicka **[!UICONTROL OK]** för att spara datastrukturen.
+1. Klicka på **[!UICONTROL OK]** om du vill spara datastrukturen.
 
    Webkrokens objekt är nu tillgängliga på mappningspanelen för användning med efterföljande moduler i scenariot.
 
@@ -148,7 +148,7 @@ Om en webkrok tar emot data och det inte finns något aktivt scenario som förv�
 
 [!DNL Workfront Fusion] validerar alla inkommande data mot den valda datastrukturen. Beroende på inställningarna för scenariot lagras data antingen i kön för bearbetning eller bearbetas omedelbart.
 
-Om någon del av uppgifterna inte godkänns vid valideringen, [!DNL Workfront Fusion] returnerar en 400 HTTP-statuskod och anger, i HTTP-svarets brödtext, orsaken till varför inkommande data misslyckades vid valideringskontrollerna. Om valideringen av inkommande data lyckas returnerar Workfront Fusion ett &quot;[!UICONTROL 200 Accepted]&quot;.
+Om någon del av data inte godkänns vid valideringen returnerar [!DNL Workfront Fusion] en HTTP-statuskod på 400 och anger, i HTTP-svarets brödtext, varför inkommande data misslyckades vid valideringskontrollerna. Om valideringen av inkommande data lyckas returnerar Workfront Fusion statusen [!UICONTROL 200 Accepted].
 
 * [[!UICONTROL Query String]](#query-string)
 * [[!UICONTROL Form Data]](#form-data)
@@ -198,7 +198,7 @@ Workfront Fusion
 ---generatedboundary
 ```
 
-För att kunna ta emot filer som är kodade med `multipart/form-data`måste du konfigurera en datastruktur med en `collection` typfält som innehåller kapslade fält `name`, `mime`och `data`. Fältet `name` är en `text` och innehåller namnet på den överförda filen. The `mime` är en `text` och innehåller en fil i MIME-format. Fältet `data` är en `buffer` och innehåller binära data för filen som överförs.
+För att kunna ta emot filer som är kodade med `multipart/form-data` måste du konfigurera en datastruktur med ett `collection`-typfält som innehåller de kapslade fälten `name`, `mime` och `data`. Fältet `name` är av typen `text` och innehåller namnet på den överförda filen. `mime` är en `text`-typ och innehåller en fil i MIME-format. Fältet `data` är av typen `buffer` och innehåller binära data för filen som överförs.
 
 Mer information om MIME-format finns i [MIME-moduler](../../workfront-fusion/apps-and-their-modules/mime.md).
 
@@ -216,7 +216,7 @@ Content-Type: application/json
 >
 >Om du vill komma åt det ursprungliga JSON-objektet aktiverar du JSON-direktanslutningen när du konfigurerar webkroken.
 >
->1. Klicka **[!UICONTROL Add]** för att lägga till en ny webbkrok.
+>1. Klicka på **[!UICONTROL Add]** om du vill lägga till en ny webbkrok.
 >1. Klicka på **[!UICONTROL Show advanced settings]**.
 >1. Klicka på **[!UICONTROL JSON pass-through]**.
 >
@@ -225,54 +225,54 @@ Content-Type: application/json
 
 Aktivera Hämta begäranderubriker när du konfigurerar webkroken om du vill få åtkomst till webbhakens sidhuvuden.
 
-1. Klicka **[!UICONTROL Add]** för att lägga till en ny webbkrok.
+1. Klicka på **[!UICONTROL Add]** om du vill lägga till en ny webbkrok.
 1. Klicka på **[!UICONTROL Show advanced settings]**.
 1. Klicka på **[!UICONTROL Get request headers]**.
 
-Du kan extrahera ett visst rubrikvärde med en kombination av `map()` och `get()` funktioner.
+Du kan extrahera ett visst rubrikvärde med kombinationen av funktionerna `map()` och `get()`.
 
 >[!INFO]
 >
 >**Exempel:**
 >
->I exemplet nedan visas en formel som extraherar värdet för `authorization` sidhuvud från `Headers[]` array. Formeln används i ett filter som jämför det extraherade värdet med den angivna texten för att skicka endast webhooks om det finns en matchning.
+>I exemplet nedan visas en formel som extraherar värdet för huvudet `authorization` från arrayen `Headers[]`. Formeln används i ett filter som jämför det extraherade värdet med den angivna texten för att skicka endast webhooks om det finns en matchning.
 >
 >![](assets/set-up-a-filter-350x169.png)
 >
->Mer information om hur du hämtar en arrays element med en viss nyckel finns i [Mappa ett arrayelement med en given nyckel](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) i artikeln [Mappa information från en modul till en annan i Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+>Mer information om hur du hämtar en arrays element med en viss nyckel finns i [Mappa en arrays element med en viss nyckel](../../workfront-fusion/mapping/map-information-between-modules.md#mapping) i artikeln [Mappa information från en modul till en annan i Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ## Svara på webhooks
 
 Standardsvaret på ett webkrok-anrop är texten&quot;Godkänd&quot;. Svaret returneras till appen som anropade webkroken när den anpassade webkrosmodulen kördes.
 
 * [Testa svaret på en webkrok](#test-the-response-to-a-webhook)
-* [Exempel på svar från HTML](#html-response-example)
+* [Exempel på HTML-svar](#html-response-example)
 * [Exempel på omdirigering](#redirect-example)
 
 ### Testa svaret på en webkrok
 
-1. Inkludera **[!UICONTROL Custom Webhook]** i ditt scenario.
+1. Inkludera modulen **[!UICONTROL Custom Webhook]** i ditt scenario.
 1. Lägg till en ny webbkrok i modulen.
 1. Kopiera webkroks-URL:en till Urklipp.
 1. Kör scenariot.
 
-   Blixtikonen på [!UICONTROL Custom Webhook] modulen ändras till snurrande punkter. Detta visar att modulen nu väntar på webkrok-anropet.
+   Blixtikonen i modulen [!UICONTROL Custom Webhook] ändras till snurrande punkter. Detta visar att modulen nu väntar på webkrok-anropet.
 
 1. Öppna ett nytt webbläsarfönster, klistra in den kopierade URL:en i adressfältet och tryck på **[!UICONTROL Enter]**.
 
-   The [!UICONTROL Custom Webhook] -modulen aktiveras och webbläsaren visar en ny sida.
+   Modulen [!UICONTROL Custom Webhook] aktiveras och webbläsaren visar en ny sida.
 
 Om du vill anpassa webkroks svar ska du använda modulen Webkrok Response.
 
 Modulens konfiguration innehåller två fält: [!UICONTROL Status] och [!UICONTROL Body].
 
-* The [!UICONTROL Status] fältet innehåller HTTP-svarsstatuskoder som 2xx för Slutfört (till exempel `200` for OK), 3xx for Redirection (till exempel `307` för tillfällig omdirigering), 4xx för klientfel (till exempel `400` for Bad Request), osv.
+* Fältet [!UICONTROL Status] innehåller HTTP-svarsstatuskoder som 2xx för Slutfört (till exempel `200` för OK), 3xx för Omdirigering (till exempel `307` för tillfällig omdirigering), 4xx för klientfel (till exempel `400` för Felaktig begäran) och så vidare.
 
-* The [!UICONTROL Body] -fältet innehåller allt som accepteras av webkroks samtal. Det kan vara enkel text, HTML, XML, JSON och så vidare.
+* Fältet [!UICONTROL Body] innehåller allt som accepteras av webkrockens anrop. Det kan vara enkel text, HTML, XML, JSON och så vidare.
 
   >[!TIP]
   >
-  >Vi rekommenderar att du ställer in `Content-Type` sidhuvud till motsvarande MIME-typ: `text/plain` för oformaterad text, `text/html` HTML, `application/json` för JSON, `application/xml` för XML och så vidare. Mer information om MIME-typer finns i [MIME-moduler](../../workfront-fusion/apps-and-their-modules/mime.md).
+  >Vi rekommenderar att du ställer in rubriken `Content-Type` på motsvarande MIME-typ: `text/plain` för oformaterad text, `text/html` för HTML, `application/json` för JSON, `application/xml` för XML och så vidare. Mer information om MIME-typer finns i [MIME-moduler](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Tidsgränsen för att skicka ett svar är 40 sekunder. Om svaret inte är tillgängligt inom den perioden returnerar Workfront Fusion statusen&quot;200 Accepted&quot;.
 
@@ -282,7 +282,7 @@ Tidsgränsen för att skicka ett svar är 40 sekunder. Om svaret inte är tillg�
 >
 >**Exempel:**
 >
->Konfigurera [!UICONTROL Webhook Response] modul enligt följande:
+>Konfigurera modulen [!UICONTROL Webhook Response] enligt följande:
 >
 ><table style="table-layout:auto"> 
 &gt; <col> 
@@ -317,7 +317,7 @@ Tidsgränsen för att skicka ett svar är 40 sekunder. Om svaret inte är tillg�
 
 >[!INFO]
 >
->**Exempel:** Konfigurera [!UICONTROL Webhook Response] modul enligt följande:
+>**Exempel:** Konfigurera modulen [!UICONTROL Webhook Response] enligt följande:
 >
 ><table style="table-layout:auto"> 
 &gt; <col> 
@@ -354,8 +354,8 @@ Inaktiverade webhooks tas bort och avregistreras automatiskt om de inte är ansl
 
 ### Saknade objekt på mappningspanelen
 
-Om några objekt saknas på mappningspanelen i inställningarna för modulerna efter [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] klickar du på **[!UICONTROL Webhooks]>[!UICONTROL Custom Webhook]** för att öppna installationsprogrammet och klicka på **[!UICONTROL Re-determine data structure]**:
+Om några objekt saknas i mappningspanelen i inställningarna för modulerna efter modulen [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] klickar du på modulen **[!UICONTROL Webhooks]>[!UICONTROL Custom Webhook]** för att öppna dess inställningar och sedan på **[!UICONTROL Re-determine data structure]**:
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 
-Följ sedan stegen som beskrivs i avsnittet [Konfigurera webbhakens datastruktur](#configure-the-webhook-s-data-structure) i den här artikeln.
+Följ sedan de steg som beskrivs i avsnittet [Konfigurera webkrockens datastruktur](#configure-the-webhook-s-data-structure) i den här artikeln.

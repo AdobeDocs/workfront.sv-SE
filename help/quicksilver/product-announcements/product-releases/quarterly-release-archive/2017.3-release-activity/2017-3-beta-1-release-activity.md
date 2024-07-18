@@ -22,25 +22,25 @@ Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmil
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2017.3 finns på  [Aktivitetsöversikt för 2017.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2017.3 finns på  [Aktivitetsöversikt för version 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-Beta 1-versionen från 2017.3 innehåller förbättringar både för Workfront-administratörer och andra användare:
+2017.3 Beta 1 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer:**
 
 * [Förhindra att uppgifter och problem tas bort när timmar loggas](#prevent-tasks-and-issues-from-being-deleted-when-hours-are-logged)
-* [Borttagning av inställningen &quot;tidig åtkomst&quot; från inställningsområdet](#removal-of-the-early-access-setting-from-the-setup-area)
+* [Borttagning av inställningen &quot;Tidig åtkomst&quot; från inställningsområdet](#removal-of-the-early-access-setting-from-the-setup-area)
 * [Ändra standardadress för e-postadress](#workfront-default-email-address-change)
 
 **För alla användare:**
 
 * [Förbättringar av resursplanering](#resource-scheduling-improvements)
-* [Widescreen](#widescreen-display)
-* [Ändra storlek på och ordna om kolumner i rapporter och listor](#resize-and-reorder-columns-in-reports-and-lists)
+* [Widescreen-skärm](#widescreen-display)
+* [Ändra storlek på och ändra ordning på kolumner i rapporter och listor](#resize-and-reorder-columns-in-reports-and-lists)
 * [Alternativet Rensa anpassade data vid kopiering av uppgifter och problem](#clear-custom-data-option-when-copying-tasks-and-issues)
 * [Skapa ett projekt direkt från en mall](#create-a-project-directly-from-a-template)
 * [Meddelande i appen för prenumererade objekt](#in-app-notification-for-subscribed-objects)
-* [@Taggning är för närvarande inte tillgänglig i förhandsvisningsmiljön](#tagging-currently-not-available-in-the-preview-environment)
+* [@Taggning är inte tillgänglig i förhandsvisningsmiljön](#tagging-currently-not-available-in-the-preview-environment)
 * [Inkludera information om användarallokering i användningsrapporten för ett projekt](#include-user-allocation-information-in-the-utilization-report-on-a-project)
 
 ## Förbättringar av resursplanering {#resource-scheduling-improvements}
@@ -104,7 +104,7 @@ Nu kan du ändra ordning på och ändra storlek på kolumner i en rapport eller 
 
 Den här funktionen är inte tillgänglig för kontrollpanelslistor eller rapporter eftersom dessa listor har omdesignats i en ny datarutnätstruktur. Alla andra listor kommer att ha den här funktionen aktiverad i den här versionen.
 
-Mer information om hur du ändrar storlek på och ändrar ordning på kolumner finns i [Ändra kolumnbredd och -ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
+Mer information om hur du ändrar storlek på och ändrar ordning på kolumner finns i [Ändra kolumnbredd och ordning](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
 ## Alternativet Rensa anpassade data vid kopiering av uppgifter och problem {#clear-custom-data-option-when-copying-tasks-and-issues}
 
@@ -114,13 +114,13 @@ Före den här ändringen kopierades även anpassade data som ingår i ett anpas
 
 Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Mer information om kopieringsproblem finns i [Kopiera problem](../../../../manage-work/issues/manage-issues/copy-issues.md).
+Mer information om kopieringsproblem finns i [Kopieringsproblem](../../../../manage-work/issues/manage-issues/copy-issues.md).
 
 ## Skapa ett projekt direkt från en mall {#create-a-project-directly-from-a-template}
 
 Nu kan du skapa ett projekt från en mall på mallnivå.
 
-Före den här ändringen kan du bara skapa ett projekt från en mall på fliken Projekt i området Projekt i Workfront med hjälp av **Nytt projekt från mall** alternativ.
+Före den här ändringen kan du bara skapa ett projekt från en mall på fliken Projekt i området Projekt i Workfront genom att använda alternativet **Nytt projekt från mall**.
 
 Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett projekt med en mall](../../../../manage-work/projects/create-projects/create-project-from-template.md).
 
@@ -134,7 +134,7 @@ Mer information om hur du tar bort uppgifter finns i [Ta bort uppgifter](../../.
 
 Mer information om hur du tar bort problem finns i [Ta bort problem](../../../../manage-work/issues/manage-issues/delete-issues.md).
 
-Mer information om hur du aktiverar systeminställningen för borttagning av uppgifter och problem finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om hur du aktiverar systeminställningen för borttagning av uppgifter och problem finns i [Konfigurera inställningar för aktiviteter och problem i hela systemet](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Borttagning av inställningen &quot;tidig åtkomst&quot; från inställningsområdet {#removal-of-the-early-access-setting-from-the-setup-area}
 
@@ -154,15 +154,15 @@ Mer information finns i .
 
 ## Meddelande i appen för prenumererade objekt {#in-app-notification-for-subscribed-objects}
 
-När en användare kommenterar projekt, uppgifter och utgåvor som du prenumererar på får du nu ett meddelande i appen. Mer information om prenumerationer i appmeddelanden finns i [Visa och hantera meddelanden i appen](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+När en användare kommenterar projekt, uppgifter och utgåvor som du prenumererar på får du nu ett meddelande i appen. Mer information om prenumerationsmeddelanden i appen finns i [Visa och hantera meddelanden i appen](../../../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-Beroende på vilka funktioner din Workfront-administratör har aktiverat kan du även få e-postmeddelanden om prenumerationsobjekt. Du kan enkelt avbeställa en prenumeration via en länk i ett e-postmeddelande som beskrivs i [Adobe Workfront-meddelanden](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Beroende på vilka funktioner din Workfront-administratör har aktiverat kan du även få e-postmeddelanden om prenumerationsobjekt. Du kan enkelt avbryta prenumerationen på ett objekt via en länk i ett prenumerationsmeddelande, vilket beskrivs i [Adobe Workfront-meddelanden](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 Du har alltid fått ett e-postmeddelande om prenumerationsobjekt och det fanns inget alternativ för att få ett meddelande i appen.
 
 Du kan inaktivera e-post för prenumeration, men du kan inte inaktivera meddelanden i appen för prenumerationsobjekt. Mer information finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Mer information om att prenumerera på objekt finns i [Prenumerera på objekt i Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Mer information om hur du prenumererar på objekt finns i [Prenumerera på objekt i Adobe Workfront](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## @Taggning är för närvarande inte tillgänglig i förhandsvisningsmiljön {#tagging-currently-not-available-in-the-preview-environment}
 
@@ -173,9 +173,9 @@ När vi arbetar med att lägga till funktioner för RTF-format i uppdateringsfl�
 * Problem
 * Tidrapport
 
-Du kan fortfarande tagga andra genom att klicka på **Inkludera andra i den här uppdateringen** -ikon.
+Du kan fortfarande tagga andra genom att klicka på ikonen **Inkludera andra på den här uppdateringen** .
 
-Mer information finns i [Tagga andra för uppdateringar](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Mer information finns i [Tagga andra om uppdateringar](../../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 ## Inkludera information om användarallokering i användningsrapporten för ett projekt {#include-user-allocation-information-in-the-utilization-report-on-a-project}
 

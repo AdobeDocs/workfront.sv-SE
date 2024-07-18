@@ -4,7 +4,8 @@ description: Förbättrad ekonomisk förvaltning för tredje kvartalet 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2681e878b3366b08343aa8d0a513b71126d2a67b
+exl-id: c8f78a68-41d3-4cb3-ade5-577bd85181b3
+source-git-commit: 0132485ba872dbd5961145e0d46fc7500169d728
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 På den här sidan beskrivs alla förbättringar av den ekonomiska hanteringen som gjorts i den tredje utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den tredje utgåvan av kvartal 2024.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns i [Översikt över utgåvan tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Fakturerbara och ej fakturerbara utgiftsfält tillgängliga för projekt och uppgifter
 

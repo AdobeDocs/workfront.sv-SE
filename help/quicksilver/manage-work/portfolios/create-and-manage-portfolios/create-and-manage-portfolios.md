@@ -24,6 +24,6 @@ Det här avsnittet innehåller följande artiklar:
 * [Skapa en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 * [Ta bort och inaktivera portföljer](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
 * [Redigera portföljer](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
-* [Lägga till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Lägg till projekt i en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
 * [Ta bort ett projekt från en portfölj](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
 * [Granska begärda projekt](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

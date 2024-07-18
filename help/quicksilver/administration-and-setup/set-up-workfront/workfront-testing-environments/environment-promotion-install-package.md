@@ -21,7 +21,7 @@ ht-degree: 0%
 
 När du har skapat ett paket kan du installera det i en annan miljö.
 
-Du måste installera ett paket i miljön som du vill kopiera objekt till **till**. Om du till exempel konfigurerar ett projekt i din anpassade sandlådemiljö för uppdatering och befordrar det till din produktionsmiljö, måste du installera paketet i din produktionsmiljö.
+Du måste installera ett paket i miljön som du vill kopiera objekt **till**. Om du till exempel konfigurerar ett projekt i din anpassade sandlådemiljö för uppdatering och befordrar det till din produktionsmiljö, måste du installera paketet i din produktionsmiljö.
 
 >[!IMPORTANT]
 >
@@ -47,18 +47,18 @@ Du måste ha följande:
    <tr>
    <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara en [!DNL Workfront] administratör.
+   <td>Du måste vara en [!DNL Workfront]-administratör.
    </td>
   </tr>
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Förutsättningar
 
 Du måste skapa ett miljöerbjudande innan du kan installera det.
 
-Instruktioner finns i [Skapa eller redigera ett miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
+Instruktioner finns i [Skapa eller redigera ett miljöbefordringspaket](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
 ## Paketstatus för installation
 
@@ -68,29 +68,29 @@ Vi rekommenderar att du flyttar paketet till TESTING-status och installerar det 
 
 Så här redigerar du ett pakets status:
 
-1. Välj paketet enligt beskrivningen i  [Redigera eller sätta ihop ett befintligt paket](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) i artikeln Skapa och redigera miljöerbjudandepaket.
-1. Klicka **Redigera paket**.
-1. Klicka **Status**.
+1. Markera paketet enligt beskrivningen i [Redigera eller sammanställ ett befintligt paket](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) i artikeln Skapa och redigera miljöerbjudandepaket.
+1. Klicka på **Redigera paket**.
+1. Klicka på **Status**.
 1. Välj önskad status i listrutan.
 
-Mer information om status finns i [Status för miljöerbjudande](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) i artikeln Översikt över hur du flyttar objekt mellan Workfront-miljöer.
+Mer information om status finns i [Miljöskyddsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) i artikeln Översikt över rörliga objekt mellan Workfront-miljöer.
 
 ## Installera ett paket
 
 >[!NOTE]
 >
->* Om du vill installera ett paket måste du vara inloggad i den miljö där du vill installera paketet. Det här är den miljö som du kopierar objekt i **till**.
+>* Om du vill installera ett paket måste du vara inloggad i den miljö där du vill installera paketet. Det här är miljön som du kopierar objekt **till**.
 
 1. Gå till den miljö där du vill installera paketet.
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![Ikonen Inställningar](/help/_includes/assets/gear-icon-setup.png).
-1. Välj **System** i den vänstra navigeringen väljer du **Miljömarknadsföring**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+1. Välj **System** i den vänstra navigeringen och välj sedan **Miljökampanj**.
 1. Välj paketet i listan som visas.
 1. För varje objekt som har en kollision väljer du hur kollisionen ska lösas.
 
    Lös en kollision genom att klicka på listrutepilen bredvid objekttypen och välja den åtgärd som du vill utföra.
 
    Mer information finns i [Konflikter](#collisions) i den här artikeln
-1. Om du vill distribuera paketet till den nya miljön klickar du **Distribuera** längst upp till höger på skärmen.
+1. Om du vill distribuera paketet till den nya miljön klickar du på **Distribuera** längst upp till höger på skärmen.
 
 ## Konflikter
 
@@ -107,7 +107,7 @@ Du kan visa kollisioner genom att klicka på listrutan bredvid varje objekttyp. 
 Om du vill lösa en konflikt väljer du en åtgärd i kolumnen Distributionsåtgärd eller använder den standardåtgärd som redan visas.
 
 * **Skapa med nytt namn**: Skapa ett nytt objekt i målmiljön. Om objektet finns i målmiljön kan du skapa ett nytt objekt med ett nytt namn. Om den inte finns i målmiljön kan du skapa objektet med ett nytt namn eller med namnet som objektet har i paketet.
-* **Använd befintlig**: Objektet i paketet installeras inte och objektet som redan fanns i målmiljön ändras inte.
+* **Använd befintlig**: Objektet i paketet är inte installerat och objektet som redan fanns i målmiljön är oförändrat.
 * **Skriv över**: Objektet i paketet ersätter det befintliga objektet i målmiljön.
 
   Du kan också välja vilka objekt som ska skrivas över även om en kollision inte upptäcks.
@@ -117,7 +117,7 @@ Om du vill lösa en konflikt väljer du en åtgärd i kolumnen Distributionsåtg
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
-Standardvärden är `Create new` om objektet inte finns i målmiljön, och `Use existing` om objektet finns i målmiljön. Du kan återgå till standardmappningen genom att klicka på **Återställ till standardmappning**.
+Standardvärdena är `Create new` om objektet inte finns i målmiljön och `Use existing` om objektet finns i målmiljön. Du kan återställa standardmappningen genom att klicka på **Återställ till standardmappning**.
 
 ## Skriva över överordnade och underordnade objekt
 
@@ -131,7 +131,7 @@ Den här funktionen påverkar följande överordnade och underordnade objekt:
 
 | Överordnat objekt | Underordnade objekt |
 |---|---|
-| Projekt | Uppgift<br>QueueDef (ködefinition)<br>RoutingRule |
+| Projekt | Aktivitet<br>QueueDef (ködefinition)<br>RoutingRule |
 | Mall | TemplateTask<br>QueueDef (ködefinition)<br>RoutingRule |
 | Parameter (anpassat formulärfält) | ParameterOption (alternativet för anpassat formulärfält) |
 | CalendarInfo | CalendarSection |

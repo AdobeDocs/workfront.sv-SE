@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Dela arbetsbelastningsutjämnaren med en länk
 
-Du kan dela belastningsutjämnaren med andra användare som kanske inte har resursområdet tillgängligt. Mer information om hur du använder belastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Du kan dela belastningsutjämnaren med andra användare som kanske inte har resursområdet tillgängligt. Mer information om hur du använder arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Åtkomstkrav
 
@@ -44,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Problem</p> </li> 
     </ul> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -81,7 +81,7 @@ Följande alternativ är tillgängliga för användare som visar arbetsbelastnin
 * Ikonen Inställningar
 * Ikonen Visa allokeringar
 
-  Mer information om hur du använder dessa alternativ finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+  Mer information om hur du använder dessa alternativ finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 * Ikonen Visa rollallokeringar
 
@@ -98,27 +98,27 @@ Användaren som tar emot den delade länken kan inte göra följande i arbetsbel
 Du behöver följande åtkomst för att visa information i arbetsbelastningsutjämnaren från en delad länk:
 
 * En giltig Adobe Workfront-licens och du måste vara inloggad på Workfront.
-* Visa minst åtkomst till resurshantering på din åtkomstnivå. Mer information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* Visa minst åtkomst till resurshantering på din åtkomstnivå. Information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 * Visa behörigheter för de projekt, uppgifter, utgåvor och användare som visas i Utjämning av arbetsbelastning.
 
 ## Dela arbetsbelastningsutjämnaren med andra användare från en länk
 
 1. Gå till Utjämning av arbetsbelastning
 
-   Mer information om hur du använder belastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   Mer information om hur du får åtkomst till arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 1. (Valfritt) Gör något av följande:
 
    * Uppdatera valet av tidsperiod.
-   * Klicka **Dag, vecka**, eller **Månad** för att visa information varje dag, vecka eller månad.
+   * Klicka på **Dag, Vecka** eller **Månad** om du vill visa information om dag, vecka eller månad.
 
      ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
    * Använd filter på områdena Ej tilldelat och Tilldelat arbete.
 
-     Mer information om filtrering av information i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     Mer information om filtrering av information i arbetsbelastningsutjämnaren finns i [Filtrera information i Arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Klicka på **länkikon** ![](assets/wb-shearable-link-icon-small.png).
+1. Klicka på **länkikonen** ![](assets/wb-shearable-link-icon-small.png).
 
    Då läggs länken till i Urklipp.
 
@@ -127,7 +127,7 @@ Du behöver följande åtkomst för att visa information i arbetsbelastningsutj�
    * Klistra in den i ett e-postmeddelande, chattmeddelande eller något annat program och dela den med andra användare.
    * Lägg till den i ett anpassat avsnitt som en extern sida, lägg till det anpassade avsnittet i en användarprofil eller i en layoutmall och dela sedan layoutmallen med användare, team, jobbroller eller grupper.
 
-     Mer information om hur du skapar en extern sida finns i [Bädda in en extern webbsida i en instrumentpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Mer information om hur du lägger till anpassade avsnitt i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     Mer information om hur du skapar en extern sida finns i [Bädda in en extern webbsida i en kontrollpanel](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). Mer information om hur du lägger till anpassade avsnitt i en layoutmall finns i [Anpassa den vänstra panelen med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >

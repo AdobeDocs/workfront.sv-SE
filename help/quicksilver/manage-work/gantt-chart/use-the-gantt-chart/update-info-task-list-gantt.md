@@ -8,25 +8,25 @@ feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
 source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
 
 # Uppdatera information i uppgiftslistan [!UICONTROL Gantt Chart]
 
-Uppgiftslistan [!UICONTROL Gantt Chart] visar information om aktiviteter som finns i ett projekt eller en mall.
+Uppgiftslistan [!UICONTROL Gantt Chart] innehåller information om aktiviteter som finns i ett projekt eller en mall.
 
-I en mall används uppgiftslistan [!UICONTROL Gantt Chart] återger uppdateringar som gjorts i mallens uppgiftslista på aktivitetsnivå. Du kan inte redigera [!UICONTROL Gantt chart] som är kopplade till en mall.
+I en mall återspeglar uppgiftslistan [!UICONTROL Gantt Chart] uppdateringar som gjorts i mallens uppgiftslista på aktivitetsnivå. Du kan inte redigera [!UICONTROL Gantt chart] som är associerad med en mall.
 
-I ett projekt kan du uppdatera uppgiftsinformationen direkt i uppgiftslistan [!UICONTROL Gantt Chart].
+I ett projekt kan du uppdatera aktivitetsinformation direkt i uppgiftslistan [!UICONTROL Gantt Chart].
 
 I den här artikeln beskrivs följande åtgärder som du kan utföra direkt i uppgiftslistan [!UICONTROL Gantt Chart]:
 
 * Ändra aktivitetsvaraktighet
 * Skapa eller ta bort tidigare relationer
 * Ändra start- och slutdatum för aktivitet
-* Uppdateringsprocent klart
+* Procent av uppdatering klar
 * Projektresurser på nivå
 
 ## Åtkomstkrav
@@ -47,7 +47,7 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] åtkomst till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till projekt och uppgifter</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,28 +56,28 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ändra aktivitetsvaraktighet
 
 1. Gå till det projekt som du vill ändra.
-1. Klicka **[!UICONTROL Tasks]** i den vänstra panelen.
+1. Klicka på **[!UICONTROL Tasks]** i den vänstra panelen.
 
    ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
-1. Klicka på **[!UICONTROL Gantt chart]** ikon.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]**.
 
-   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
+   ![Klicka på Gantt-schemaikonen](assets/click-gantt-chart-icon.png)
 
-   Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
+   Alla ändringar sparas automatiskt när alternativet **[!UICONTROL Autosave]** aktiveras. Den är aktiverad som standard.
 
-1. (Valfritt) Klicka på **[!UICONTROL Plan mode]** ikon och markera **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Håll pekaren över tidslinjen för en uppgift och dra tidslinjen till ett annat datum.
 1. Släpp indikatorn när du har nått rätt nya slutförandedatum för uppgiften.
-1. (Valfritt och villkorligt) Om du har valt att spara ändringarna manuellt klickar du på **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** ikoner om du vill avbryta eller duplicera någon av ändringarna.
+1. (Valfritt och villkorligt) Om du har valt att spara ändringarna manuellt klickar du på ikonerna **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** om du vill avbryta eller duplicera någon av ändringarna.
 
    >[!TIP]
    >
@@ -85,31 +85,31 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >
    >   
    >   
-   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
-   >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
+   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] för att göra om.
+   >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] för att göra om.
    >   
    >
 
-1. Klicka **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
 
 ## Skapa eller ta bort tidigare relationer
 
 1. Gå till det projekt som du vill ändra.
-1. I **[!UICONTROL Tasks]** klickar du på **[!UICONTROL Gantt chart]** ikon.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
 
-   The **[!UICONTROL Autosave]** är markerat som standard, och då sparas alla ändringar automatiskt.
+   Alternativet **[!UICONTROL Autosave]** är markerat som standard. I så fall sparas alla ändringar automatiskt.
 
-   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
+   ![Klicka på Gantt-schemaikonen](assets/click-gantt-chart-icon.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Plan mode]** ikon och markera **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Om du vill skapa en föregående relation klickar du på startpunkten för en uppgift och drar den till slutpunkten för uppgiften.
-1. Om du vill ta bort en föregående relation klickar du på en föregående rad som kopplar samman två åtgärder för att markera den och trycker sedan på **[!UICONTROL Delete]** på tangentbordet.\
+1. Om du vill ta bort en föregående relation klickar du på en föregående rad som ansluter två åtgärder för att markera den och trycker sedan på **[!UICONTROL Delete]** på tangentbordet.\
    ![Delete_predecessor.png](assets/delete-predecessor-350x152.png)
 
-1. (Valfritt och villkorligt) Om du valde att spara ändringarna manuellt klickar du på **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** ikoner om du vill avbryta eller duplicera någon av ändringarna.
+1. (Valfritt och villkorligt) Om du valde att spara ändringarna manuellt klickar du på ikonerna **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** om du vill avbryta eller duplicera någon av ändringarna.
 
    >[!TIP]
    >
@@ -117,8 +117,8 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >
    >   
    >   
-   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
-   >   * [!DNL Windows]: [!UICONTROL Use Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
+   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] för att göra om.
+   >   * [!DNL Windows]: [!UICONTROL Use Ctrl + Z] att ångra och [!UICONTROL Ctrl + Y] att göra om.
    >   
    >
 
@@ -127,13 +127,13 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 ## Ändra start- och slutdatum för aktivitet
 
 1. Gå till det projekt som du vill ändra.
-1. I **[!UICONTROL Tasks]** klickar du på **[!UICONTROL Gantt chart]** ikon.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
 
-   Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
+   Alla ändringar sparas automatiskt när alternativet **[!UICONTROL Autosave]** aktiveras. Den är aktiverad som standard.
 
-   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
+   ![Klicka på Gantt-schemaikonen](assets/click-gantt-chart-icon.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Plan mode]** ikon och markera **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
@@ -142,11 +142,11 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
 
    ![Change_start_end_date.png](assets/change-start-end-date.png)
 
-1. Om du ändrar aktivitetsdatumet på ett sätt som påverkar aktivitetsbegränsningen klickar du på **[!UICONTROL Accept]** för att bekräfta ändringen av uppgiftsbegränsningen.
+1. Om du ändrar aktivitetsdatumet på ett sätt som påverkar aktivitetsbegränsningen klickar du på **[!UICONTROL Accept]** för att bekräfta ändringen av aktivitetsbegränsningen.
 
    >[!NOTE]
    >
-   >Om aktiviteten har någon av följande begränsningar uppdateras [!UICONTROL Task Constraint] till [!UICONTROL Start No Earlier] Thin om projektet är schemalagt från [!UICONTROL Start Date] eller [!UICONTROL Finish No Later Than] om projektet är planerat från [!UICONTROL Completion Date]:
+   >Om aktiviteten har någon av följande begränsningar uppdateras [!UICONTROL Task Constraint] till [!UICONTROL Start No Earlier], om projektet är schemalagt från [!UICONTROL Start Date] eller [!UICONTROL Finish No Later Than] om projektet är schemalagt från [!UICONTROL Completion Date]:
    >
    >   
    >   
@@ -158,61 +158,61 @@ Du måste ha följande för att kunna följa stegen i den här artikeln:
    >   
    >I vissa fall kan de föregående relationerna hindra aktiviteterna från att starta tidigare och det är inte tillåtet att flytta aktiviteten.
 
-1. (Valfritt och villkorligt) Om du har valt att spara ändringarna manuellt klickar du på **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** ikoner om du vill avbryta eller duplicera någon av ändringarna.
+1. (Valfritt och villkorligt) Om du har valt att spara ändringarna manuellt klickar du på ikonerna **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** om du vill avbryta eller duplicera någon av ändringarna.
 
    >[!TIP]
    >
-   >Du kan använda följande kortkommandon för att ångra eller göra om ändringar på [!UICONTROL Gantt chart]:
+   >Du kan använda följande kortkommandon för att ångra eller göra om ändringar i [!UICONTROL Gantt chart]:
    >
    >   
    >   
-   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
-   >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
+   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] för att göra om.
+   >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] för att göra om.
    >   
    >
 
 1. Klicka på **[!UICONTROL Save]**.
 
-## Uppdateringsprocent klart
+## Procent av uppdatering klar
 
 1. Gå till det projekt som du vill ändra.
-1. I **[!UICONTROL Tasks]** klickar du på **[!UICONTROL Gantt chart]** ikon.
+1. Klicka på ikonen **[!UICONTROL Gantt chart]** i området **[!UICONTROL Tasks]**.
 
-   ![Klicka på ikonen Gantt-schema](assets/click-gantt-chart-icon.png)
+   ![Klicka på Gantt-schemaikonen](assets/click-gantt-chart-icon.png)
 
-   Alla ändringar sparas automatiskt när **[!UICONTROL Autosave]** är aktiverat. Den är aktiverad som standard.
+   Alla ändringar sparas automatiskt när alternativet **[!UICONTROL Autosave]** aktiveras. Den är aktiverad som standard.
 
-1. (Valfritt) Klicka på **[!UICONTROL Plan mode]** ikon och markera **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Plan mode]** och välj **[!UICONTROL Manual save Standard]** eller **[!UICONTROL Timeline Planning]** om du vill spara ändringarna manuellt.
 1. Dubbelklicka på procenttalet i uppgiften och ange numret.
 
    >[!IMPORTANT]
    >
-   >Du måste ha [!UICONTROL % Complete] markerat i [!UICONTROL Options] för att uppdatera procent färdigt. Om du vill göra det klickar du på **[!UICONTROL Options]** ikon och markera **[!UICONTROL % Complete]**.
+   >Du måste ha markerat [!UICONTROL % Complete] i dialogrutan [!UICONTROL Options] för att kunna uppdatera procent färdigt. Om du vill göra det klickar du på ikonen **[!UICONTROL Options]** och väljer **[!UICONTROL % Complete]**.
    >
    >
    >![update_percent_complete.png](assets/update-percent-complete-350x175.png)   >
    >
 
-1. (Valfritt och villkorligt) Om du valde att spara ändringarna manuellt klickar du på **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** ikoner om du vill avbryta eller duplicera någon av ändringarna.
+1. (Valfritt och villkorligt) Om du valde att spara ändringarna manuellt klickar du på ikonerna **[!UICONTROL Undo]** eller &#x200B;**[!UICONTROL Redo]** om du vill avbryta eller duplicera någon av ändringarna.
 
    >[!TIP]
    >
-   >Du kan använda följande kortkommandon för att ångra eller göra om ändringar på [!UICONTROL Gantt chart]:
+   >Du kan använda följande kortkommandon för att ångra eller göra om ändringar i [!UICONTROL Gantt chart]:
    >
    >   
    >   
-   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] att göra om.
-   >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] att göra om.
+   >   * [!DNL Mac]: Använd [!UICONTROL Command + Z] för att ångra och [!UICONTROL Command + Shift + Z] för att göra om.
+   >   * [!DNL Windows]: Använd [!UICONTROL Ctrl + Z] för att ångra och [!UICONTROL Ctrl + Y] för att göra om.
    >   
    >
 
-1. Klicka **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
+1. Klicka på **[!UICONTROL Save]** i det övre högra hörnet av [!UICONTROL Gantt chart].
 
 ## Nivå projektresurser
 
-Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut era resurser.
+Du kan använda uppgiftslistan [!UICONTROL Gantt Chart] för att jämna ut dina resurser.
 
-Mer information om resursutjämning finns i [!UICONTROL Gantt chart], se [Nivåresurser i [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
+Mer information om att jämna ut resurser i [!UICONTROL Gantt chart] finns i [Nivåresurser i [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

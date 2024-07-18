@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Försök att hantera fel igen i [!DNL Adobe Workfront Fusion]
+title: Försök att hantera fel igen i  [!DNL Adobe Workfront Fusion]
 description: I vissa fall kan det vara bra att köra en felande modul ett par gånger om det finns en möjlighet att orsaken till felet kan passera över tiden.
 author: Becky
 feature: Workfront Fusion
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Försök att hantera fel igen i [!DNL Adobe Workfront Fusion]
+# Försök igen med felhantering i [!DNL Adobe Workfront Fusion]
 
 I vissa fall kan det vara bra att köra en felande modul igen om det finns en möjlighet att orsaken till felet kan passera över tiden.
 
@@ -37,38 +37,38 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Tillfälliga lösningar [!UICONTROL Retry] felhanteringsdirektiv
+## Tillfälliga lösningar på direktivet [!UICONTROL Retry] för felhantering
 
-[!UICONTROL Adobe Workfront Fusion] för närvarande inte erbjuder [!UICONTROL Retry] felhanteringsdirektiv, men två temporära lösningar kan användas för att efterlikna dess funktionalitet. Mer information finns i [Direktiv om felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
+[!UICONTROL Adobe Workfront Fusion] erbjuder för närvarande inte direktivet [!UICONTROL Retry] för felhantering, men två temporära lösningar kan användas för att efterlikna dess funktioner. Mer information finns i [Direktiv om felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md).
 
-### Använd [!UICONTROL Break] direktiv
+### Använd direktivet [!UICONTROL Break]
 
-1. Aktivera alternativet **[!UICONTROL Allow storing of Incomplete Executions]** alternativ.
+1. Aktivera alternativet **[!UICONTROL Allow storing of Incomplete Executions]** på panelen för scenarioinställningar.
 
    Mer information finns i [Panelen för scenarioinställningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-1. Koppla en felhanterarväg till modulen enligt beskrivningen i [Felhantering i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
-1. Länka [!UICONTROL Break] -direktivet till felhanterarvägen och konfigurera den.
+1. Koppla en felhanterarväg till modulen, vilket beskrivs i [Felhantering i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md).
+1. Länka direktivet [!UICONTROL Break] till felhanterarvägen och konfigurera det.
 
    Mer information finns i [Direktiv om felhantering i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md).
 
@@ -77,32 +77,32 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 #### Nackdelar
 
 * Det minsta intervallet för återförsök är en minut.
-* Om modulen bearbetar flera paket och bearbetningen av ett paket misslyckas, flyttas den partiella körningen (endast det paket som orsakade felet) till den ofullständiga körningsmappen och schemaläggs för nya försök enligt [!UICONTROL Break] -inställningar. Den aktuella körningen fortsätter dock och modulen fortsätter att bearbeta efterföljande paket. Du kan aktivera[!UICONTROL Sequential processing]&quot; i [!UICONTROL Scenario settings] för att förhindra att scenariot körs igen tills körningen i mappen Ofullständiga körningar har åtgärdats.
+* Om modulen bearbetar flera paket och bearbetningen av ett paket misslyckas, flyttas den partiella körningen (endast det paket som orsakade felet) till den ofullständiga körningsmappen och schemaläggs för nya försök enligt [!UICONTROL Break]-direktivets inställningar. Den aktuella körningen fortsätter dock och modulen fortsätter att bearbeta efterföljande paket. Du kan aktivera alternativet [!UICONTROL Sequential processing] i [!UICONTROL Scenario settings] om du vill förhindra att scenariot körs igen tills körningen i mappen Ofullständiga körningar har lösts.
 
   Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
-### Använd [!UICONTROL Repeater] modul
+### Använd modulen [!UICONTROL Repeater]
 
-1. Använd **[!UICONTROL Repeater]** och ange dess **[!UICONTROL Repeats]** till maximalt antal försök.
-1. Länka den eventuellt felaktiga modulen till **[!UICONTROL Repeater]** -modul.
-1. Koppla en felhanterarväg till den här modulen (se [Felhantering i [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
-1. Länka **[!UICONTROL Tools]>[!UICONTROL Sleep]** till felhanterarvägen och ange dess **[!UICONTROL Delay]** till antalet sekunder mellan försöken.
+1. Distribuera modulen **[!UICONTROL Repeater]** och ställ in fältet **[!UICONTROL Repeats]** på maximalt antal försök.
+1. Länka den modul som kan misslyckas till modulen **[!UICONTROL Repeater]**.
+1. Koppla en felhanterarväg till modulen (se [Felhantering i [!DNL Adobe Workfront Fusio]n](../../workfront-fusion/errors/error-handling.md)).
+1. Länka modulen **[!UICONTROL Tools]>[!UICONTROL Sleep]** till felhanterarvägen och ställ in fältet **[!UICONTROL Delay]** på antalet sekunder mellan försöken.
 
-1. Länka **[!UICONTROL Ignore]** efter **[!UICONTROL Tools]>[!UICONTROL Sleep]** modul (se [Direktiv om felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
+1. Länka direktivet **[!UICONTROL Ignore]** efter modulen **[!UICONTROL Tools]>[!UICONTROL Sleep]** (se [Direktiv om felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/directives-for-error-handling.md)).
 
-1. Länka **[!UICONTROL Tools]>[!UICONTROL Set variable]** modulen efter den eventuellt felaktiga modulen och konfigurera den för att lagra modulens resultat i en variabel som till exempel heter `Result`.
+1. Länka modulen **[!UICONTROL Tools]>[!UICONTROL Set variable]** efter den modul som kan misslyckas och konfigurera den så att den lagrar modulens resultat i en variabel som till exempel heter `Result`.
 
-1. Länka **[!UICONTROL Array aggregator]** modulen efter **[!UICONTROL Tools]>[!UICONTROL Set variable]** och väljer **[!DNL Repeater]** i fältet Källmodul.
+1. Länka modulen **[!UICONTROL Array aggregator]** efter **[!UICONTROL Tools]>[!UICONTROL Set variable]** och välj modulen **[!DNL Repeater]** i fältet Source-modul.
 
-1. Länka **[!UICONTROL Tools]>[!UICONTROL Get variable]** till **[!UICONTROL Array aggregator]** och konfigurera den för att få fram värdet för `Result` variabel.
+1. Länka modulen **[!UICONTROL Tools]>[!UICONTROL Get variable]** till modulen **[!UICONTROL Array aggregator]** och konfigurera den så att värdet för variabeln `Result` hämtas.
 
-1. Infoga **[!UICONTROL Tools]>[!UICONTROL Get variable]** modulen mellan **[!UICONTROL Repeater]** och den modul som kan misslyckas och konfigurera den för att få fram värdet för `Result` variabel.
+1. Infoga modulen **[!UICONTROL Tools]>[!UICONTROL Get variable]** mellan modulen **[!UICONTROL Repeater]** och den modul som kan misslyckas och konfigurera den så att värdet för variabeln `Result` hämtas.
 
-1. Infoga ett filter mellan detta **[!UICONTROL Tools]>[!UICONTROL Get variable]** och den eventuellt felaktiga modulen bara fortsätter om `Result` variabeln finns inte.
+1. Infoga ett filter mellan den här **[!UICONTROL Tools]>[!UICONTROL Get variable]**-modulen och den eventuellt felaktiga modulen så att den bara fortsätter om variabeln `Result` inte finns.
 
 >[!INFO]
 >
->**Exempel:** Här är ett exempel på ett scenario där [!UICONTROL HTTP] >[!UICONTROL Make a request] representerar den modul som kan misslyckas:
+>**Exempel:** Här är ett exempel på scenario där modulen [!UICONTROL HTTP] >[!UICONTROL Make a request] representerar den modul som kan misslyckas:
 >
 >![](assets/http-make-request-350x116.png)
 >

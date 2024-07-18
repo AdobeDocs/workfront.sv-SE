@@ -18,17 +18,17 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Du kan anpassa den typ av information som du visar i en lista eller rapport genom att hantera vyn av listan eller rapporten. Du kan visa objekt och deras attribut i en vy. Mer information om Adobe Workfront objekt finns i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Du kan anpassa den typ av information som du visar i en lista eller rapport genom att hantera vyn av listan eller rapporten. Du kan visa objekt och deras attribut i en vy. Mer information om objekt i Adobe Workfront finns i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Överväganden om vyer
 
 * Du kan anpassa befintliga vyer. Alla användare som kan visa vyerna kan också se dina ändringar.
 * Din Adobe Workfront-administratör måste ge dig åtkomst för att redigera filter, vyer och grupperingar för att kunna skapa vyer.
 
-  Mer information om hur du beviljar åtkomst finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  Mer information om att bevilja åtkomst finns i [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 * Din behörighetsnivå för en vy avgör hur en vy sparas. Om du skapade vyn från början kan du spara ändringarna, annars uppmanas du att spara en version av vyn. Om du gör ändringar i en vy som du har delat med andra påverkas även dessa.
-* Du kan bara anpassa en vy som delats med dig om den användare som delade den gav dig behörigheten Hantera. Mer information om hur du delar en vy finns i [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Du kan bara anpassa en vy som delats med dig om den användare som delade den gav dig behörigheten Hantera. Mer information om hur du delar en vy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 Du kan anpassa befintliga vyer, skapa vyer baserade på befintliga vyer eller skapa vyer från grunden.
 
@@ -55,7 +55,7 @@ Följande typer av vyer kan du använda i listor och rapporter i Workfront:
 
 ## Dela en vy
 
-Mer information om hur du delar en vy finns i [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+Mer information om hur du delar en vy finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Ta bort en vy
 

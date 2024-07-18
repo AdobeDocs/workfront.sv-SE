@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: koppling
 navigation-topic: connections-annd-webhooks
-title: Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner
+title: Skapa en anslutning till  [!DNL Adobe Workfront Fusion]  - grundläggande instruktioner
 description: Många [!DNL Adobe Workfront Fusion] anslutningar kräver ingen anpassad konfiguration när en anslutning skapas. I den här artikeln beskrivs standardprocessen för att skapa anslutningar.
 author: Becky
 feature: Workfront Fusion
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Skapa en anslutning till [!DNL Adobe Workfront Fusion] - Grundläggande instruktioner
+# Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner
 
 ## Åtkomstkrav
 
@@ -36,39 +36,39 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Skapa en anslutning
 
-Skapa en anslutning inuti en [!DNL Workfront Fusion] modul:
+Så här skapar du en anslutning inuti en [!DNL Workfront Fusion]-modul:
 
-1. Klicka **[!UICONTROL Add]** bredvid [!UICONTROL Connection] för att öppna **[!UICONTROL Create a connection]** -panelen.
-1. (Valfritt) Ändra standardinställningen **[!UICONTROL Connection name]**.
-1. (Villkorligt) Om programmet kräver avancerade anslutningsinställningar, till exempel ett ID, en nyckel eller [!UICONTROL secret]anger du den informationen.
+1. Klicka på **[!UICONTROL Add]** bredvid rutan [!UICONTROL Connection] för att öppna panelen **[!UICONTROL Create a connection]**.
+1. (Valfritt) Ändra standardvärdet **[!UICONTROL Connection name]**.
+1. (Villkorligt) Om programmet kräver avancerade anslutningsinställningar, till exempel ett ID, en nyckel eller [!UICONTROL secret], anger du den informationen.
 
-   Du kan behöva klicka **[!UICONTROL Show advanced settings]** om du vill visa fälten där du kan ange den här typen av information.
+   Du kan behöva klicka på **[!UICONTROL Show advanced settings]** för att visa fälten där du kan ange den här typen av information.
 
 1. Klicka på **[!UICONTROL Continue]**.
 1. I inloggningsfönstret som visas anger du dina inloggningsuppgifter för att logga in på appen om du inte redan har gjort det.
-1. (Villkorligt) Om ett **[!UICONTROL Allow]** klickar du på knappen för att ansluta programmet till [!DNL Workfront Fusion].
+1. (Villkorligt) Om en **[!UICONTROL Allow]**-knapp visas kontrollerar du de åtgärder som anslutningsprogrammet kan utföra och klickar sedan på knappen för att ansluta appen till [!DNL Workfront Fusion].
 
    >[!NOTE]
    >

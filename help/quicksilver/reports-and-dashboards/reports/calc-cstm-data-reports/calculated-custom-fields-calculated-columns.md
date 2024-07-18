@@ -7,9 +7,9 @@ description: Om du vill samla flera fält i Adobe Workfront och visa det sammanl
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 Om du vill samla flera fält i Adobe Workfront och visa det sammanlagda värdet i ett nytt fält kan du skapa följande:
 
 * Ett beräknat anpassat fält i ett anpassat formulär\
-  Mer information om hur du lägger till ett beräknat anpassat fält i ett anpassat formulär finns i avsnittet [Lägga till ett beräknat fält i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) i artikeln [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Mer information om hur du lägger till ett beräknat anpassat fält i ett anpassat formulär finns i [Lägg till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * En beräknad kolumn i en vy\
   Mer information om hur du använder beräkningar i en vy finns i avsnittet [Använd textläge i vyer](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) i artikeln [Översikt över vanliga användningsområden för textläge](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Även om du använder textläge för att skapa både beräknade fält och beräknade kolumner skiljer sig syntaxen för att skapa dem åt. Läs artiklarna ovan om du vill veta mer om hur du skapar beräknade fält och beräknade kolumner. Mer information om de olika syntaxerna som används i beräknade datamängder, som beräknade anpassade fält och kolumner, finns i avsnittet [Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) i den här artikeln.
+Även om du använder textläge för att skapa både beräknade fält och beräknade kolumner skiljer sig syntaxen för att skapa dem åt. Läs artiklarna ovan om du vill veta mer om hur du skapar beräknade fält och beräknade kolumner. Mer information om de olika syntaxerna som används i beräknade datamängder, t.ex. beräknade anpassade fält och kolumner, finns i avsnittet [Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) i den här artikeln.
 
 Du kan använda samma beräkningar i båda beräkningsfälten samt i en beräknad kolumn. Beroende på vad du vill göra med beräkningarna kan det dock vara bra att bygga en jämfört med en annan.
 
@@ -62,15 +62,15 @@ Skillnaderna mellan de två syntaxerna är:
   </tr> 
   <tr> 
    <td> <p>Använd namnet på fälten så som de visas i Workfront-gränssnittet.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Exempel på fältnamn som används i ett beräknat anpassat fält: <code>Planned Completion Date</code>.</p> </td> 
-   <td> <p>Använd namnet på objekten eller fälten så som de visas i Workfront-databasen. Namnen på objekt och fält stavas med gemener eller med kameler, om de är sammansatta namn. </p> <p>En inventering av alla objekt och fält i Workfront som de visas i databasen finns på <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Exempel på fältnamn som används i ett beräknat anpassat rapportelement: <code>plannedCompletionDate</code>.</p> </td> 
+   <td> <p>Använd namnet på objekten eller fälten så som de visas i Workfront-databasen. Namnen på objekt och fält stavas med gemener eller med kameler, om de är sammansatta namn. </p> <p>En inventering av alla objekt och fält i Workfront som de visas i databasen finns i <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Exempel: </b></span></span>Exempel på fältnamn som används i ett beräknat anpassat rapportelement: <code>plannedCompletionDate</code>.</p> </td> 
   </tr> 
   <tr> 
    <td>Omge fältnamn inom parentes eller klammerparentes</td> 
-   <td> <p>Omge inte fältnamn inom parentes eller parentes när du använder dem i en <code>valuefield </code>linje.</p> <p>Omge fältnamn inom klammerparentes när du använder dem i en <code>valueexpression</code> linje.</p> </td> 
+   <td> <p>Omslut inte fältnamn inom parenteser eller parenteser när du använder dem på en <code>valuefield </code>rad.</p> <p>Omslut fältnamn inom klammerparentes när du använder dem på en <code>valueexpression</code>-rad.</p> </td> 
   </tr> 
   <tr> 
    <td>Avgränsa fälten med punkter</td> 
-   <td> <p>Separera fälten med kolon när du använder dem i en <code>valuefield</code>linje.</p> <p>Separera fälten efter punkter när du använder dem i en <code>valueexpression</code>linje.</p> </td> 
+   <td> <p>Separera fälten med kolon när du använder dem på en <code>valuefield</code>rad.</p> <p>Separera fälten med punkter när du använder dem på en <code>valueexpression</code>rad.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -85,9 +85,9 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 ## Åtgärder som utlöser uppdateringen av ett beräknat anpassat fält
 
-* Klicka på ikonen Mer på ett objekts huvudsida ![](assets/more-icon.png)och sedan klicka **Beräkna om uttryck**
+* På ett objekts huvudsida klickar du på ikonen Mer ![](assets/more-icon.png) och sedan på **Beräkna om uttryck**
 
-* Massredigera flera objekt när **Beräkna om anpassade uttryck** är aktiverat
+* Redigera flera objekt gruppvis när **Beräkna om anpassade uttryck** är aktiverat
 * Redigera ett anpassat formulär när **Uppdatera tidigare beräkningar** är aktiverat för det beräknade anpassade fältet
 
 ## När beräknade kolumner ska användas i en vy

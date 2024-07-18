@@ -27,13 +27,13 @@ I den nya Workfront-versionen visas alternativet Växla till klassisk på huvudm
 
 I Workfront Classic visas alternativet Växla till den nya upplevelsen på den meny som visas när du klickar på profilbilden i det övre högra hörnet av det globala navigeringsfältet.
 
-Den här funktionen ingår nu i [Grundläggande om administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
 
 ## Förbättrad kryptering för Workfront Proof
 
 Vi gör några ändringar för att förbättra styrkan på kryptering av data-i-rörelse i Workfront korrekturprogram. De svaga TLS-lärarna kommer att bli inaktuella den 11 november 2020.
 
-Kontrollera att du använder en webbläsare som stöds när du använder Workfront. Mer information om vilka webbläsare som stöds finns i [Krav för Adobe Workfront webbläsare](../../../workfront-basics/workfront-browser-requirements.md).
+Kontrollera att du använder en webbläsare som stöds när du använder Workfront. Mer information om vilka webbläsare som stöds finns i [Adobe Workfront webbläsarkrav](../../../workfront-basics/workfront-browser-requirements.md).
 
 ## Nytt utseende och känsla för 3 e-postmallar
 
@@ -43,7 +43,7 @@ För att förbättra läsbarheten och den övergripande upplevelsen har följand
 * En beroende uppgift som du är tilldelad till är nu klar att starta
 * E-postmeddelande för team med föregående slutförd
 
-Information om hur du aktiverar e-post för testning i förhandsvisningsmiljön finns i avsnittet Hantera e-postmeddelanden i förhandsvisningsavsnittet i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Om du vill aktivera e-post för testning i förhandsvisningsmiljön läser du avsnittet Hantera e-postmeddelanden i förhandsgranskningsavsnittet i [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Nya e-postmeddelanden för team
 
@@ -62,10 +62,10 @@ Observera också att vår moderna formatering nu förbättrar upplevelsen av att
 
 Mer information om hur du konfigurerar e-postmeddelanden finns i [Konfigurera händelsemeddelanden för alla i systemet](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Den här funktionen ingår nu i [Utbildningsväg för e-post och meddelanden i programmet](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) på Workfront One.
+Den här funktionen finns nu med i utbildningssökvägen [E-post och i programmet ](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) på Workfront One.
 
 ## Nya API-objekt som utlöser händelseprenumerationsuppdateringar
 
 Två nya API-objekt, documentVersion och proofApproval, skapades och har konfigurerats för att utlösa uppdateringar av händelseprenumerationer när ett dokument versionsindelas eller godkänns.
 
-En fullständig lista över fält som är associerade med varje objekt finns i [Resursfält för händelseprenumeration](../../../wf-api/api/event-sub-resource-fields.md).
+En fullständig lista över fält som är associerade med varje objekt finns i [Resursfält för händelseprenumerationer](../../../wf-api/api/event-sub-resource-fields.md).

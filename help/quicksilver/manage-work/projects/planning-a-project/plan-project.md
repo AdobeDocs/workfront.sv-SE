@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1397'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ När du har definierat projektets övergripande omfattning kan du sedan bestämm
 
 ## Preliminär projektplanering
 
-* [Definiera start- och slutdatum för projektet](#define-the-start-and-completion-date-of-the-project)
+* [Definiera projektets start- och slutförandedatum](#define-the-start-and-completion-date-of-the-project)
 * [Definiera projektschemat](#define-the-project-schedule)
 * [Hantera ytterligare information som behövs för att planera projektet](#manage-additional-information-needed-for-planning-the-project)
 
@@ -85,7 +85,7 @@ Du kan ställa följande frågor:
   Mer information om hur du definierar vilka uppdateringar som ska spåras i Workfront finns i artikeln [Systemspårade uppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Är det någon information som du måste spåra som inte har något fält i Workfront att lagra det i? Om ja, skapar du Anpassad Forms för projekt eller uppgifter där du kan lagra den här informationen.\
-  Mer information om hur du skapar anpassade formulär finns i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  Mer information om hur du skapar anpassade formulär finns i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Finns det några kontrollpunkter för godkännande som måste beviljas innan arbetet med ett projekt kan fortsätta? Om ja, skapa godkännandeprocesser för projekt eller uppgifter som du kan använda när du skapar projektet.\
   Mer information om godkännandeprocesser finns i artikeln [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -95,7 +95,7 @@ Du kan ställa följande frågor:
 När du har fastställt de viktigaste målen för ett projekt och du har beslutat att projektet är värt att eftersträva, bör du beräkna tidslinjen för varje mål. Varje mål kan bli en av dina uppgifter i projektet.
 
 Detta hjälper dig att prioritera dina mål och planera arbetsfördelningsstrukturen utifrån detta. Arbetsfördelningsstrukturen definierar tidslinjen för projektet.\
-Mer information om hur du skapar uppgifter i ett projekt finns i avsnittet [Definiera uppgifter](#define-tasks).
+Mer information om hur du skapar aktiviteter i ett projekt finns i avsnittet [Definiera aktiviteter](#define-tasks).
 
 Tänk på följande när du skapar tidslinjen för projektet:
 
@@ -114,7 +114,7 @@ Tänk på följande när du skapar tidslinjen för projektet:
 
   Vi rekommenderar att du använder överordnade uppgifter som milstolpar.
 
-  Mer information om hur du använder milstolpeuppgifter finns i [Skapa en milstolpe-bana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Mer information om hur du använder milstolpeuppgifter finns i [Skapa en milstolpebana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Definiera en tidslinje för varje mål. Om du arbetar med överordnade uppgifter måste varje underordnad uppgift ha ett definierat Start- och Slutförandedatum. Tiden mellan det tidigaste startdatumet för en aktivitet och det senaste slutförandedatumet för en aktivitet i samma projekt resulterar i projekttidslinjen.
 
@@ -135,13 +135,13 @@ Tänk på följande när du definierar uppgifter:
 
 * Definiera tidslinjen för varje uppgift. Detta hämtas i fältet Varaktighet för varje uppgift.
 
-  Mer information om aktivitetens varaktighet finns i artikeln [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+  Mer information om aktivitetens varaktighet finns i artikeln [Översikt över aktivitetens varaktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 * Definiera relationen mellan de överordnade och underordnade aktiviteterna.
 * Definiera föregående relation mellan aktiviteterna.
 * Koppla en milstolpe-sökväg till projektet och associera en milstolpe med dess respektive uppgift.
 
-  Mer information om hur du använder milstolpeuppgifter finns i artikeln [Skapa en milstolpe-bana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+  Mer information om hur du använder milstolpeuppgifter finns i artikeln [Skapa en milstolpebana](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 * Definiera mängden arbete som behövs för att slutföra varje uppgift. Detta visas i fältet Planerade timmar för varje uppgift.
 
@@ -153,5 +153,5 @@ Tänk på följande när du definierar uppgifter:
    * Minska antalet planerade timmar för varje uppgift.
    * Lägg till fler användare i en uppgift för att se till att den kan slutföras under den tilldelade tiden.
    * Tilldela om uppgifterna till användare som inte har några andra begränsningar.\
-     Mer information om hur du planerar projektresurser finns i artikeln [Resursplanering: artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
-     Mer information om hur du schemalägger resurser för att utföra arbetet i ett projekt finns i [Översikt över belastningsutjämnare](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+     Mer information om planering av projektresurser finns i artikeln [Resursplanering: artikelindex](../../../resource-mgmt/resource-planning/resource-planning-overview.md).\
+     Mer information om hur du schemalägger resurser för att utföra arbetet i ett projekt finns i [Översikt över belastningsutjämning](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

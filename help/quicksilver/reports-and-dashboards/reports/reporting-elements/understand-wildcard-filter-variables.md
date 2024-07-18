@@ -7,9 +7,9 @@ description: Genom att använda jokertecken i filter kan du referera till en all
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Du kan använda filtervariabler, som också kallas jokertecken, när du skapar f
     </tr>
     <tr>
         <td>Villkorsstyrd formatering i vyer</td>
-        <td>Mer information om villkorlig formatering finns i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Använd villkorsstyrd formatering i vyer</a>.
+        <td>Mer information om villkorsstyrd formatering finns i artikeln <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Använd villkorsstyrd formatering i vyer</a>.
     </tr>
     <tr>
         <td>Beräknade anpassade fält</td>
@@ -64,7 +64,7 @@ Mer information om beräknade anpassade fält och kolumner finns i artikeln <a h
 
 ## Datumbaserade jokerteckensfiltervariabler
 
-Alternativen för datumbaserade jokertecken kan användas i kombination med alla datumfilterattribut. Mer information om hur du lägger till ett datumbaserat jokertecken i en rapport finns i artikeln [Generera rapporter med datumbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Alternativen för datumbaserade jokertecken kan användas i kombination med alla datumfilterattribut. Mer information om hur du lägger till ett datumbaserat jokertecken i en rapport finns i artikeln [Använd datumbaserade jokertecken för att generera rapporter](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
@@ -78,11 +78,11 @@ Du kan välja mellan följande datumbaserade jokertecken:
  <tbody> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$IDAG</strong> </p> </td> 
-   <td> <p>Vi rekommenderar att du skapar datumkänsliga filter med detta jokertecken så att du slipper skapa filtret igen i morgon, nästa vecka eller nästa månad.</p> <p>Om du till exempel vill visa alla uppgifter som förfaller idag kan du använda följande regel i ett uppgiftsfilter: <em>Planerat startdatum mindre än $$TODAY</em>.</p> <p>$$TODAY är alltid lika med midnatt för den aktuella dagen.</p> </td> 
+   <td> <p>Vi rekommenderar att du skapar datumkänsliga filter med detta jokertecken så att du slipper skapa filtret igen i morgon, nästa vecka eller nästa månad.</p> <p>Om du till exempel vill visa alla aktiviteter som förfaller idag kan du använda följande regel i ett aktivitetsfilter: <em>Planerat startdatum mindre än $$TODAY</em>.</p> <p>$$TODAY är alltid lika med midnatt för den aktuella dagen.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td width="100" role="rowheader"> <p><strong>$$NU</strong> </p> </td> 
-   <td> <p>Detta liknar jokertecknet $$TODAY, men innehåller aktuellt datum och aktuell tid. $$NOW är lika med aktuellt datum och aktuell tid.</p> <p>Om du till exempel vill visa alla timposter som har angetts fram till den aktuella tiden, kan du göra detta genom att använda följande regel i ett timfilter: <em>Planerat startdatum mindre än $$NOW</em>.</p> <p>Obs! Detta jokertecken stöds inte i resursplaneraren.</p> </td> 
+   <td> <p>Detta liknar jokertecknet $$TODAY, men innehåller aktuellt datum och aktuell tid. $$NOW är lika med aktuellt datum och aktuell tid.</p> <p>Om du till exempel vill visa alla timposter som har tillhandahållits fram till den aktuella tiden kan du göra detta genom att använda följande regel i ett timfilter: <em>Planerat startdatum mindre än $$NOW</em>.</p> <p>Obs! Detta jokertecken stöds inte i resursplaneraren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -114,7 +114,7 @@ Om du vill ange olika tidsperioder och olika tidpunkter (framtida eller tidigare
 
 {style="table-layout:auto"}
 
-Jokertecknet `$$TODAYb+2w` hänvisar till&quot;2 veckor från början av denna vecka&quot;. Jokertecknet *`$$NOW+2h` hänvisar till&quot;2 timmar från och med nu&quot;.
+Jokertecknet `$$TODAYb+2w` refererar till exempel till&quot;2 veckor från början av den här veckan&quot;. Jokertecknet *`$$NOW+2h` refererar till&quot;2 timmar från och med nu&quot;.
 
 ## Användarbaserade variabler för jokertecken
 
@@ -122,7 +122,7 @@ Jokertecknet `$$TODAYb+2w` hänvisar till&quot;2 veckor från början av denna v
 >
 >Om ett filter eller en rapport innehåller en användarbaserad jokerteckensfiltervariabel visar resultaten alltid information som filtrerats av den användare som är inloggad. När du delar ett sådant filter eller en sådan rapport med en annan användare, hämtar jokertecknet information för användaren som tittar på rapporten. De två användarna ser olika resultat.
 >
->Mer information om hur du lägger till ett användarbaserat jokertecken i en rapport finns i artikeln [Generera rapporter med användarbaserade jokertecken](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+>Mer information om hur du lägger till ett användarbaserat jokertecken i en rapport finns i artikeln [Använda användarbaserade jokertecken för att generera rapporter](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 Du kan välja mellan följande användarbaserade variabler:
 
@@ -134,7 +134,7 @@ Du kan välja mellan följande användarbaserade variabler:
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
    <td> <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>Den vanligaste användarbaserade variabeln är $$USER.ID. Detta returnerar alltid den inloggade användarens ID. Detta är det ID som används för att identifiera vilken användare som har skapat varje objekt och deras arbetstilldelningar.</p> <p>När jokertecknet används i rapporter minskar det antalet rapporter som du behöver skapa i systemet. Du kan skapa en rapport och dela den med flera användare, och resultatet ändras baserat på den användare som är inloggad och tittar på rapporten.</p> <p>Om du till exempel vill skapa en rapport för alla utgåvor som tilldelats den användare som är inloggad, kan du använda följande regel i ett utgåvfilter: <em>Tilldelad till ID är lika med $$USER.ID</em>.</p> <p>Workfront använder den här variabeln i följande inbyggda filter:</p> 
+    --> <p>Den vanligaste användarbaserade variabeln är $$USER.ID. Detta returnerar alltid den inloggade användarens ID. Detta är det ID som används för att identifiera vilken användare som har skapat varje objekt och deras arbetstilldelningar.</p> <p>När jokertecknet används i rapporter minskar det antalet rapporter som du behöver skapa i systemet. Du kan skapa en rapport och dela den med flera användare, och resultatet ändras baserat på den användare som är inloggad och tittar på rapporten.</p> <p>Om du till exempel vill skapa en rapport för alla utgåvor som tilldelats den användare som är inloggad, kan du använda följande regel i ett utgivningsfilter: <em>Tilldelad till ID är lika med $$USER.ID</em>.</p> <p>Workfront använder den här variabeln i följande inbyggda filter:</p> 
     <ul> 
      <li>Mina rapporter</li> 
      <li>Mina projekt</li> 
@@ -182,7 +182,7 @@ Du kan välja mellan följande användarbaserade variabler:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.homeGroupID</strong> </p> </td> 
-   <td> <p>Variabeln $$USER.homeGroupID refererar till ID:t för hemgruppen för den inloggade användaren. Som gruppadministratör kan du använda den här variabeln för att filtrera endast objekt som tillhör användarna i din hemgrupp.</p> <p>Om du till exempel vill se alla ofullständiga uppgifter för projekt i gruppen Finance använder du följande filterregler i ett uppgiftsfilter:<br><em>Projekt: Grupp-ID är lika med $$USER.homeGroupID </em><br><em>Procent färdigt mindre än 100</em></p> <p>Om du vill visa alla ofullständiga uppgifter som tilldelats enskilda personer i en viss grupp som är hemgruppen för den inloggade användaren använder du följande filterregler i ett uppgiftsfilter:</p> <p><em>Tilldelad: Grupp-ID är lika med $$USER.homeGroupID<br>Procent färdigt mindre än 100</em> </p> </td> 
+   <td> <p>Variabeln $$USER.homeGroupID refererar till ID:t för hemgruppen för den inloggade användaren. Som gruppadministratör kan du använda den här variabeln för att filtrera endast objekt som tillhör användarna i din hemgrupp.</p> <p>Om du till exempel vill se alla ofullständiga uppgifter i projekt i den ekonomiska gruppen använder du följande filterregler i ett aktivitetsfilter:<br><em>Projekt: Grupp-ID motsvarar $$USER.homeGroupID </em><br><em>Procent färdigt mindre än 100</em></p> <p>Om du vill visa alla ofullständiga uppgifter som tilldelats enskilda personer i en viss grupp som är hemgruppen för den inloggade användaren använder du följande filterregler i ett uppgiftsfilter:</p> <p><em>Tilldelad: Grupp-ID motsvarar $$USER.homeGroupID<br>Procent färdigt mindre än 100</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"> <p><strong>$$USER.otherGroupIDs</strong> </p> </td> 
@@ -202,7 +202,7 @@ Du kan välja mellan följande användarbaserade variabler:
   </tr> 
   <tr valign="top"> 
    <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
-   <td> <p>Variabeln $$USER.roleIDs refererar till alla jobbroller som är associerade med den inloggade användaren. Med den här variabeln kan du rapportera uppgifter eller ärenden som tilldelats någon av de jobbroller som är kopplade till den inloggade användaren. </p> <p>Om du till exempel vill se alla uppgifter som tilldelats någon av de roller som är associerade med den inloggade användaren, kan du använda följande filterregel i ett uppgiftsfilter:</p> <p><i>Aktivitet: Roll-ID är lika med $$USERID.roleID<br></i> </p> <p>Tips: <i>Aktivitet: Roll-ID är lika med $$USERID.roleID</i> filterregeln finns i de inbyggda filtren Ej tilldelade uppgifter i Min roll och Ej tilldelade problem i Min roll. </p> </td> 
+   <td> <p>Variabeln $$USER.roleIDs refererar till alla jobbroller som är associerade med den inloggade användaren. Med den här variabeln kan du rapportera uppgifter eller ärenden som tilldelats någon av de jobbroller som är kopplade till den inloggade användaren. </p> <p>Om du till exempel vill se alla uppgifter som tilldelats någon av de roller som är associerade med den inloggade användaren, kan du använda följande filterregel i ett uppgiftsfilter:</p> <p><i>Aktivitet: Roll-ID är lika med $$USERID.roleID<br></i> </p> <p>Tips! <i>Aktiviteten: Roll-ID är lika med $$USERID.roleIDs</i> filterregeln finns i de inbyggda filtren Ej tilldelade uppgifter i Min roll och Ej tilldelade ärenden i min roll. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -222,7 +222,6 @@ Du kan välja mellan följande objektbaserade jokertecken:
      <p>Variabeln $$OBJCODE refererar till objekttypen. </p> 
      <p>Om formulärets valda objekttyper i ett anpassat formulär inte är kompatibla med ett fält som refereras i ett beräknat anpassat fält, kan du använda jokertecknet för att undvika problemet med att skapa dubbletter för de objekttyperna.</p> 
      <p>I det beräknade anpassade fältet gör du detta genom att ta med jokertecknet i ett IF-uttryck, så att beräkningen kan generera olika värden för vart och ett av formulärets objekttyper. </p> 
-     <p>Mer information och ett exempel finns i avsnittet <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Beräknade anpassade fält i anpassade formulär med flera objekt</a> i artikeln <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Lägga till beräknade data i ett anpassat formulär</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

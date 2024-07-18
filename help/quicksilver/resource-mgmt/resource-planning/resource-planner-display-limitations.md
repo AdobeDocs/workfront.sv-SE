@@ -9,7 +9,7 @@ feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
@@ -26,9 +26,9 @@ Vi rekommenderar följande för optimala prestanda när du visar och exporterar 
 
 * Använd filter för att minska mängden information som visas i resursplaneraren och endast visa information som är relevant för dig.
 * Använd alla exportalternativ för att minska den mängd information du exporterar samtidigt och för att vara säker på att du bara exporterar relevant information.\
-   Mer information om hur du använder filter och exportalternativ i Resursplaneraren finns i [Filtrera information i resursplaneraren](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+  Mer information om hur du använder filter och exportalternativ i resursplaneraren finns i [Filtrera information i resursplaneraren](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-   Mer information om hur du exporterar information från resursplaneraren finns i [Exportera information från resursplaneraren](../../resource-mgmt/resource-planning/export-resource-planner.md).
+  Mer information om att exportera information från resursplaneraren finns i [Exportera information från resursplaneraren](../../resource-mgmt/resource-planning/export-resource-planner.md).
 
 Hur mycket information du kan visa eller exportera beror på vilken vy du använder och vilken miljö du använder för att komma åt resursplaneraren.
 
@@ -36,10 +36,10 @@ Hur mycket information du kan visa eller exportera beror på vilken vy du använ
 
 Tänk på följande när du använder projektvyn på resursplaneraren:
 
-* Du kan bara se projekt som du har åtkomst till att hantera.
+* Du kan bara se projekt som du har åtkomst till för att hantera.
 * Du kan expandera varje projekt för att visa roller som är kopplade till det och varje roll för att visa de användare som är kopplade till det.
 
-   Du kan visa upp till 300 projekt när du bläddrar längst ned i listan, såvida det inte finns mer än 30 000 rader med projekt, roller och användare. Du får sedan ett varningsmeddelande om att du har nått gränsen på 30 000 rader.
+  Du kan visa upp till 300 projekt när du bläddrar längst ned i listan, såvida det inte finns mer än 30 000 rader med projekt, roller och användare. Du får sedan ett varningsmeddelande om att du har nått gränsen på 30 000 rader.
 
 * Du kan visa tre eller fyra tidsperioder i taget, beroende på skärmstorleken.
 
@@ -59,7 +59,7 @@ Tänk på följande när du använder rollvyn i resursplaneraren när du har anv
 * Du kan se upp till 300 roller när du bläddrar till slutet av listan, såvida det inte finns mer än 30 000 rader med roller, projekt och användare. Du får sedan ett varningsmeddelande om att du har nått gränsen på 30 000 rader för vad du kan visa på skärmen.
 * Du kan expandera varje roll för att visa en lista över projekt och varje projekt för att visa en lista över användare som kan uppfylla de rollerna i projekten.
 
-   20 projekt visas som standard och du kan använda alternativet Läs in mer för att visa ytterligare projekt, eller rulla under varje projekt för att läsa in fler användare.
+  20 projekt visas som standard och du kan använda alternativet Läs in mer för att visa ytterligare projekt, eller rulla under varje projekt för att läsa in fler användare.
 
 * Du kan visa tre eller fyra tidsperioder beroende på skärmens storlek.
 
@@ -80,11 +80,11 @@ Tänk på följande när du använder användarvyn i resursplaneraren:
    * Har loggat in minst en gång.
 
 * Du kan expandera varje användare för att visa projekt som är kopplade till den och varje projekt för att visa roller som är kopplade till den.\
-   De första 50 projekten och rollerna visas som standard, och du kan använda alternativet Läs in mer för att visa ytterligare projekt eller roller.
+  De första 50 projekten och rollerna visas som standard, och du kan använda alternativet Läs in mer för att visa ytterligare projekt eller roller.
 
-   >[!NOTE]
-   >
-   >Om du har filtrerat listan över användare efter projekt kan bara de användare som är kopplade till de filtrerade projekten expanderas och även visa timinformation
+  >[!NOTE]
+  >
+  >Om du har filtrerat listan över användare efter projekt kan bara de användare som är kopplade till de filtrerade projekten expanderas och även visa timinformation
 
 * Du kan se upp till 2 000 användare i webbgränssnittet. Workfront visar ett varningsmeddelande när du når den här gränsen.
 * Du kan visa tre eller fyra tidsperioder beroende på skärmens storlek.

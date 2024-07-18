@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -66,9 +66,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ### Schemalägg rapporter i förhandsgranskningsmiljön
 
-Om en levererad rapport produceras eller inte i förhandsgranskningsmiljön beror på om **Ta emot e-postmeddelanden från den här testmiljön** är aktiverat eller inte.
+Huruvida en levererad rapport skapas eller inte i förhandsvisningsmiljön beror på om **Ta emot e-post från den här testmiljön** är aktiverat eller inte.
 
-Mer information om hur du aktiverar e-post från sandlådemiljön finns i [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Mer information om hur du aktiverar e-postmeddelanden från sandlådemiljön finns i [Aktivera leverans av e-postmeddelanden från sandlådemiljön för förhandsgranskning](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
@@ -76,14 +76,14 @@ Schemaläggningsrapporter för leverans i förhandsvisningsmiljön är identiska
 
 När du schemalägger en rapport för leverans i förhandsgranskningsmiljön finns följande scenarier:
 
-* När **Ta emot e-postmeddelanden från den här testmiljön** är inaktiverat för den användare som tar emot rapporten. Ingen fil skapas när rapporten schemaläggs för leverans.
-* När **Ta emot e-postmeddelanden från den här testmiljön** är aktiverat för den användare som tar emot rapporten. Filen som skapas när leveransrapporten schemaläggs läggs till på fliken Dokument för användaren.
+* När **Ta emot e-post från den här testmiljön** är inaktiverat för den användare som tar emot rapporten skapas ingen fil när rapporten schemaläggs för leverans.
+* När **Ta emot e-post från den här testmiljön** är aktiverat för den användare som tar emot rapporten, läggs den fil som skapas när rapporten schemaläggs för leverans till på fliken Dokument för användaren.
 
 ## Schemalägg rapporter i sandlådemiljön för anpassad uppdatering
 
 Huruvida en levererad rapport skapas eller inte i sandlådan för anpassad uppdatering beror på om inställningen Ta emot e-post från den här testmiljön är aktiverad eller inte.
 
-Mer information om hur du aktiverar e-postmeddelanden från förhandsvisningsmiljön finns i avsnittet [Visa och ändra inställningarna för e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) i artikeln [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Information om hur du aktiverar e-postmeddelanden från förhandsvisningsmiljön finns i avsnittet [Visa och ändra inställningarna för e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) i artikeln [Ändra dina egna e-postmeddelanden](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

@@ -44,7 +44,7 @@ Följande typer av filter kan du använda i Workfront:
   </tr> 
   <tr> 
    <td><strong>Tillfälliga eller permanenta filter för särskilda områden</strong></td> 
-   <td>Skapad av Workfront eller anpassad av dig eller andra användare. Du kan spara permanenta filter och använda mer än en gång, eller använda dem tillfälligt för att tillgodose dina behov utan att spara dem. Osparade filter kan inte delas eller tas bort. De finns i specialområden, vilket beskrivs i avsnittet <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfront filter för specialområden</a> i den här artikeln. </td> 
+   <td>Skapad av Workfront eller anpassad av dig eller andra användare. Du kan spara permanenta filter och använda mer än en gång, eller använda dem tillfälligt för att tillgodose dina behov utan att spara dem. Osparade filter kan inte delas eller tas bort. De är tillgängliga i specialområden, vilket beskrivs i avsnittet <a href="#workfront-filters-for-special-areas" class="MCXref xref">Workfront-filter för specialområden</a> i den här artikeln. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,13 +53,13 @@ Följande typer av filter kan du använda i Workfront:
 
 Med snabbfilter kan du söka efter ett objekt på skärmen med hjälp av ett nyckelord. När du har uppdaterat sidan tas det tillfälliga snabbfiltret bort. Du kan inte spara temporära filter för återanvändning.
 
-Mer information om snabbfilter finns i [Använda snabbfiltret på en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+Mer information om snabbfilter finns i [Använda snabbfiltret i en lista](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
 ## Workfront permanenta filter för listor och rapporter
 
 Du kan använda permanenta filter som du, andra eller Workfront som har skapats i objektlistor eller rapporter.
 
-Mer information om objekt i Workfront och vilka du kan skapa rapporter för finns i [Adobe Workfront-objekt - översikt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om objekt i Workfront och vilka du kan skapa rapporter för finns i [Översikt över Adobe Workfront-objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Mer information om filter i listor och rapporter finns i följande artiklar:
 
@@ -72,21 +72,21 @@ Mer information om filter i listor och rapporter finns i följande artiklar:
 Du kan antingen använda inbyggda filter eller skapa anpassade filter i följande områden av Workfront:
 
 * Startsida\
-  Mer information finns i [Filtrera arbetslistan](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) i artikeln [Visa objekt i arbetslista i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Mer information finns i avsnittet [Filtrera arbetslistan](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) i artikeln [Visa objekt i arbetslistan i hemområdet](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Området med förfrågningar. Du kan inte anpassa filter i området Förfrågningar.
 
-  Mer information finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+  Mer information finns i [Leta rätt på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 * Resursplanering\
   Mer information finns i artikeln [Filtrera information i resursplaneraren](../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
 * Användningsrapport
 
-  Mer information finns i avsnittet [Information om filteranvändning](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) i artikeln [Visa information om resursutnyttjande](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+  Mer information finns i avsnittet [Filteranvändningsinformation](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) i artikeln [Visa information om resursutnyttjande](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Utjämning av arbetsbelastning
 
-  Mer information finns i [Filtrera information i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+  Mer information finns i [Filtrera information i Arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 * Analysområde
 
@@ -98,7 +98,7 @@ Du kan antingen använda inbyggda filter eller skapa anpassade filter i följand
 
 * Scenarioplan
 
-  Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+  Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
@@ -112,13 +112,13 @@ Du kan antingen använda inbyggda filter eller skapa anpassade filter i följand
 
   Mer information finns i följande artiklar:
 
-   * [Skapa och redigera planer i scenarioplaneraren](../../../scenario-planner/create-and-edit-plans.md)
-   * [Uppdatera eller skapa projekt genom att publicera initiativ i Scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md)
+   * [Skapa och redigera planer i scenarioplanen](../../../scenario-planner/create-and-edit-plans.md)
+   * [Uppdatera eller skapa projekt genom att publicera initiativ i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md)
    * [Importera projekt till planer i scenarioplaneraren](../../../scenario-planner/import-projects-to-plans.md)
 
 * Mål
 
-  Målet kräver ytterligare licens. Mer information om Workfront-mål finns på [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+  Målet kräver ytterligare licens. Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
   Du kan använda inbyggda filtervillkor, men du kan inte skapa anpassade filter som kan återanvändas för målområdet.
 
@@ -146,7 +146,7 @@ När du arbetar med listor och rapporter kan du filtrera information på skärme
 
 Mer information om Workfront-listor finns i [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-Information om Workfront-rapporter finns på [Kom igång med rapporter](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Information om Workfront-rapporter finns i [Kom igång med rapporter](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Tänk på följande när du arbetar med filter i listor eller rapporter:
 
@@ -162,7 +162,7 @@ Tänk på följande när du arbetar med filter i listor eller rapporter:
   >
   >Tänk på att om du gör ändringar i ett filter som du har delat med andra påverkas även ändringarna.
 
-* Du kan bara anpassa ett filter som delats med dig om den användare som delade det gav dig behörigheten Hantera. Mer information om hur du delar ett filter finns i [Dela ett filter, en vy eller en grupp](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Du kan bara anpassa ett filter som delats med dig om den användare som delade det gav dig behörigheten Hantera. Mer information om hur du delar ett filter finns i [Dela ett filter, en vy eller en gruppering](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Element i ett filter
 
@@ -184,7 +184,7 @@ Ett filter innehåller följande element:
  <tbody> 
   <tr> 
    <td><strong>Objekt</strong></td> 
-   <td> <p>Workfront-databasobjektet för filtret. Mer information om vilka objekt som kan rapporteras i Workfront finns i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront-objekt - översikt</a>. </p> <p>Projekt, uppgifter, ärenden, användare eller dokument kan till exempel vara objekt i ett filter. </p> </td> 
+   <td> <p>Workfront-databasobjektet för filtret. Mer information om vilka objekt som kan rapporteras i Workfront finns i <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Översikt över Adobe Workfront-objekt</a>. </p> <p>Projekt, uppgifter, ärenden, användare eller dokument kan till exempel vara objekt i ett filter. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Fält</strong></td> 
@@ -209,11 +209,11 @@ Ett filter innehåller följande element:
 
 Workfront har två filteroperatorer som kopplar ihop varje filterprogramsats:
 
-* **OCH**: När du kopplar två filtersatser av operatorn AND anger du att du vill att båda filtersatserna ska uppfyllas samtidigt.
+* **AND**: När du kopplar två filterprogramsatser av operatorn AND anger du att du vill att båda filterprogramsatserna ska uppfyllas samtidigt.
 
   Programsatserna i ett filter förenas som standard med operatorn AND.
 
-* **ELLER**: När du kopplar ihop två filtersatser av operatorn OR anger du att du vill att någon av programsatserna ska uppfyllas.
+* **OR**: När du ansluter två filtersatser av operatorn OR anger du att du vill att någon av programsatserna ska uppfyllas.
 
   >[!TIP]
   >
@@ -274,7 +274,7 @@ Om du vill skapa ett filter som bara söker efter projekt där det tredje altern
 
 Den här syntaxen ser till att värdena läses tillsammans som ett alternativ. Om du utelämnar snedstrecket läser Workfront kommatecknet som OR. I så fall markeras bara de projekt som har det första eller det andra alternativet.
 
-Den här syntaxen gäller även när du skapar uppmaningar. Mer information om hur du använder uppmaningar finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+Den här syntaxen gäller även när du skapar uppmaningar. Mer information om hur du använder uppmaningar finns i [Lägga till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ### Skapa filter för vars värden är ett anpassat flervalsfält {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 

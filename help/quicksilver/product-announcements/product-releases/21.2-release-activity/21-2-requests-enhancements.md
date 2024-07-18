@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # 21.2 Förbättrade begäranden
 
-Den här sidan beskriver alla begäranden som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla begäranden som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Styr vilken typ av uppdrag du tilldelar en ny begäran
 
@@ -48,9 +48,9 @@ I takt med att vi fortsätter att införliva din feedback om hur du skapar förf
 * Ange tydligt med en x-ikon att du kan ta bort ett val för frågetyp, ämnesgrupp eller köämne när du har valt det.
 * Ange en stängningsknapp när du skapar en ny begäran för att lämna begäran utan att utkastet går förlorat. Förutom den här ändringen har knappen &quot;Ignorera&quot; bytt namn till &quot;Kasta utkast&quot;.
 
-Mer information om hur du skapar nya begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skapar nya begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.
 
 ## Förbättringar av arbetsflödet för förfrågningar
 
@@ -60,11 +60,11 @@ Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Ex
 
 I takt med att vi fortsätter att lyssna på och införliva dina synpunkter har vi lagt till flera förbättringar i arbetsflödet för nya förfrågningar som gör din interaktion med Adobe Workfront enklare och mer intuitiv. Dessa förbättringar är:
 
-* Du kan välja var avsnittet Dokument ska placeras för att överföra filer när du skapar en frågekö när du definierar köinställningarna. Du kan placera det här avsnittet antingen före eller efter de anpassade fälten i begärandeformuläret. Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-* Sortering av listan Skickade begäranden efter en av kolumnerna bevaras nu när du navigerar bort från sidan. Mer information finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
-* När du skapar en ny begäran finns knapparna Skicka och Avbryt nu längst ned i formuläret Ny begäran. Mer information finns i [Skapa och skicka Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+* Du kan välja var avsnittet Dokument ska placeras för att överföra filer när du skapar en frågekö när du definierar köinställningarna. Du kan placera det här avsnittet antingen före eller efter de anpassade fälten i begärandeformuläret. Mer information finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Sortering av listan Skickade begäranden efter en av kolumnerna bevaras nu när du navigerar bort från sidan. Mer information finns i [Leta rätt på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+* När du skapar en ny begäran finns knapparna Skicka och Avbryt nu längst ned i formuläret Ny begäran. Mer information finns i [Skapa och skicka Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.
 
 ## Öppna sammanfattningspanelen i avsnittet Skickat i området Begäranden
 
@@ -74,9 +74,9 @@ Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Ex
 
 För att få en enhetlig upplevelse i alla delar av Adobe Workfront har vi lagt till ikonen Öppna sammanfattning i avsnittet Skickat i området Begäranden. Nu kan du öppna panelen Sammanfattning för skickade problem och se mer information om problemen, tilldela dem eller lägga till ett dokument eller en kommentar.
 
-Mer information om de skickade förfrågningarna finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Mer information om skickade begäranden finns i [Leta rätt på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.
 
 ## Återställa borttagna fält för nya problem i ett formulär för nya begäranden
 
@@ -86,7 +86,7 @@ Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Ex
 
 I och med den nya designen av formuläret New Request som startades med den tidigare versionen hade vi förhindrat att flera fält i området New Issue Fields i avsnittet Project Queue Details visades när en ny begäran skickades. Efter att ha tagit med din feedback har vi beslutat att återföra fälten så att de kan visas på formuläret Ny begäran.
 
-Mer information finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Ny upplevelse när begäranden skickas i området Förfrågningar
 
@@ -102,9 +102,9 @@ För att skapa enhetlighet med den nya Workfront-upplevelsen och för att effekt
 
 Möjlighet att dela en länk till begärandekön, ämnesgruppen eller köämnet när du anger begäran.
 
-Mer information om hur du skickar begäranden finns i [Skapa och skicka Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skickar begäranden finns i [Skapa och skicka Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.
 
 ## Dela en länk till en begärandekö när du skickar en begäran
 
@@ -118,4 +118,4 @@ Innan du skickar en ny begäran kan du kopiera en länk till begärandekön, äm
 
 Mer information om hur du delar en länk till en begärandekö när du skickar en begäran finns i [Dela en länk till en begärandekö](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.

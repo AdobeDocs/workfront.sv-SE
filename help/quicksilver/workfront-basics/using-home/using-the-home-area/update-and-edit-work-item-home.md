@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Uppdatera eller redigera en arbetsuppgift i hemområdet
-description: Du kan visa och lägga till uppdateringar för en arbetsuppgift i [!UICONTROL Home] i Adobe Workfront. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
+description: Du kan visa och lägga till uppdateringar för ett arbetsobjekt i området [!UICONTROL Home] i Adobe Workfront. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Uppdatera eller redigera en arbetsuppgift i [!UICONTROL Home] area
+# Uppdatera eller redigera ett arbetsobjekt i [!UICONTROL Home]-området
 
 <!--Audited: April 2024-->
 
-Du kan visa och lägga till uppdateringar för en arbetsuppgift i [!UICONTROL Home] område i [!DNL Adobe Workfront]. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
+Du kan visa och lägga till uppdateringar för ett arbetsobjekt i [!UICONTROL Home]-området i [!DNL Adobe Workfront]. Du kan även redigera andra data som är relaterade till arbetsposten om du har tillgång till dem för att redigera dem.
 
 ## Åtkomstkrav
 
@@ -46,19 +46,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>Contribute-behörigheter eller högre för de uppgifter och ärenden du behöver arbeta med</p> </td> 
+   <td> <p>Contribute behörigheter eller högre för de uppgifter och problem du behöver arbeta med</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta din [!DNL Workfront] administratör. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Visa uppdateringar för en arbetsuppgift
 
 Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **[!UICONTROL Home]**.
-1. I **[!UICONTROL Work List]** markerar du det objekt där du vill visa uppdateringar.\
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. I området **[!UICONTROL Work List]** markerar du objektet där du vill visa uppdateringar.\
    Uppdateringar visas i den högra panelen.
 
 1. (Valfritt) Om du vill filtrera systemuppdateringar så att endast användaruppdateringar visas växlar du **[!UICONTROL Show System Updates]** till Av.
@@ -67,20 +67,20 @@ Du kan visa uppdateringar för alla arbetsobjekt i [!UICONTROL Work List]:
 
 ## Tillhandahålla uppdateringar för en arbetsuppgift
 
-Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL Work] Lista:
+Du kan tillhandahålla uppdateringar för alla arbetsobjekt i listan [!UICONTROL Work]:
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **[!UICONTROL Home]**.
-1. I **[!UICONTROL Work List]** markerar du objektet där du vill göra en uppdatering.
-1. Klicka på i den högra panelen **[!UICONTROL Update]** för att visa ett textfält.
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. I området **[!UICONTROL Work List]** markerar du objektet där du vill göra en uppdatering.
+1. Klicka på **[!UICONTROL Update]** i den högra panelen för att visa ett textfält.
 
    ![](assets/make-an-update-box-expanded-home-nwe-350x204.png)
 
 1. Ange din uppdatering i fältet som visas.
 1. (Valfritt) Ange någon av följande information:\
-   **[!UICONTROL Commit Date]:** Välj ett datum i datumväljaren när du bekräftar att arbetsuppgiften ska slutföras.\
-   **[!UICONTROL How's it going?]:** Välj ett nytt villkor för uppgiften eller utgåvan. Mer information om aktivitets- och problemförhållanden finns i [Uppdatera villkor för aktiviteter och ärenden](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
-   **[!UICONTROL Status]:** Välj en ny status för uppgiften eller utgåvan. Mer information om uppgiftsstatus finns i [Uppdatera aktivitetsstatus](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Mer information om status för problem finns i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
-   **[!UICONTROL Completion Bar]:** Ange hur stor procentandel av arbetet som har slutförts genom att dra förloppsindikatorn till önskad procentandel. Du kan också dubbelklicka på det avslutande fältet och ange ett procenttal som är färdigt.
+   **[!UICONTROL Commit Date]:** Välj ett datum från datumväljaren när du bekräftar att arbetsobjektet ska slutföras.\
+   **[!UICONTROL How's it going?]:** Välj ett nytt villkor för aktiviteten eller problemet. Mer information om aktivitets- och problemvillkor finns i [Uppdatera villkor för aktiviteter och problem](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).\
+   **[!UICONTROL Status]:** Välj en ny status för aktiviteten eller utgåvan. Mer information om aktivitetsstatus finns i [Uppdatera aktivitetsstatus](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). Mer information om status för problem finns i [Åtkomst till listan över status för systemproblem](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).\
+   **[!UICONTROL Completion Bar]:** Ange hur stor del av arbetet som har slutförts genom att dra förloppsindikatorn till önskad procentandel. Du kan också dubbelklicka på det avslutande fältet och ange ett procenttal som är färdigt.
 
 1. Klicka på **[!UICONTROL Update]**.
 
@@ -88,8 +88,8 @@ Du kan tillhandahålla uppdateringar för alla arbetsobjekt i [!UICONTROL Work] 
 
 Du kan redigera alla fält på arbetsobjekt som du har tillgång till för redigering.
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, klickar du på **[!UICONTROL Home]**.
-1. I **[!UICONTROL Work List]** markerar du det objekt som du vill redigera.\
+1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på **huvudmenyn** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om det är tillgängligt, och klicka sedan på **[!UICONTROL Home]**.
+1. Markera det objekt som du vill redigera i området **[!UICONTROL Work List]**.\
    Alla fält som du har tillgång till för visning visas på den högra panelen.
 
 1. Håll markören över det fält som du vill redigera i den högra panelen.\

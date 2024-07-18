@@ -20,7 +20,7 @@ ht-degree: 0%
 Det här avsnittet innehåller följande artiklar:
 
 * [Portfolio Management overview](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [Portfolio, översikt i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [Översikt över Portfolio i  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [Navigera i en portfölj](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

@@ -19,11 +19,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Grundläggande korrekturprocess i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
-* [Intern och extern granskning i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
-* [Arbeta med formgivare och projektledare i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
-* [Arbeta med frilansare i [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)
+* [Grundläggande korrekturprocess i  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/basic-proof-process.md)
+* [Intern och sedan extern granskning i  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/internal-external-review.md)
+* [Arbeta med designers och projektledare i  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-designers-project-managers.md)
+* [Arbeta med frilansare i  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/workflow-examples/work-freelancers.md)

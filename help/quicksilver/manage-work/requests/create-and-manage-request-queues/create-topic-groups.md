@@ -54,7 +54,7 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -62,7 +62,7 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
 Om du till exempel har en frågekö för marknadsföringsförfrågningar kan du ha en ämnesgrupp för&quot;Mors Day Campaign&quot;, med en ämnesgrupp på andra nivån&quot;Digital Media&quot; och ytterligare en ämnesgrupp för&quot;Print Media&quot;. Sedan kan du ha flera köämnen i varje ämnesgrupp. Exempel: &quot;Banner Ad&quot; och &quot;Blog&quot; kan vara köämnen för ämnesgruppen &quot;Digital Media&quot;.
 
-Mer information om hur du skapar frågeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om hur du skapar frågeköer finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!TIP]
 >
@@ -78,10 +78,10 @@ Vi rekommenderar att du skapar ämnesgrupper innan du skapar ett köämne. En ä
 Så här skapar du en ämnesgrupp:
 
 1. Gå till projektet som du publicerade som en kö för hjälpbegäran.\
-   Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Mer information om hur du publicerar ett projekt som en kö för hjälpbegäranden finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicka **Ämnesgrupper** till vänster. Du kan behöva klicka **Visa fler** sedan **Ämnesgrupper**.
-1. Klicka **Ny ämnesgrupp**.
+1. Klicka på **Ämnesgrupper** i den vänstra panelen. Du kan behöva klicka på **Visa fler** och sedan på **Ämnesgrupper**.
+1. Klicka på **Ny ämnesgrupp**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
@@ -89,8 +89,8 @@ Så här skapar du en ämnesgrupp:
 
    * **Namn**: Namnet visas för användare som skickar begäranden till den här begärandekön.
    * **Beskrivning**: Beskrivningen visas när användare väljer ämnesgruppen när en ny begäran skickas.
-   * **Lägg till i ämnesgrupp**: Du kan lägga till den nya ämnesgruppen i en befintlig ämnesgrupp eller lägga till den direkt i projektet som publiceras som en kö för hjälpbegäran.
+   * **Lägg till i ämnesgrupp**: Du kan lägga till den nya ämnesgruppen i en befintlig ämnesgrupp eller lägga till den direkt i projektet som publicerats som en kö för hjälpbegäran.
 
-1. Klicka **Spara**.\
+1. Klicka på **Spara**.\
    Detta skapar en ny ämnesgrupp i din begärandekö. Nu kan du välja ytterligare kategorier från den första listrutan under en frågekö.\
-   Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   Mer information om hur du skickar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).

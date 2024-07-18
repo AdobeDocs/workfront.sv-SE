@@ -82,11 +82,11 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Överväganden när mål stängs eller öppnas igen
 
-* Du måste ha tillgång till Redigera mål på åtkomstnivån innan du kan stänga och öppna mål igen. Mer information om hur du beviljar åtkomst till mål finns i [Ge åtkomst till Adobe Workfront mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+* Du måste ha tillgång till Redigera mål på åtkomstnivån innan du kan stänga och öppna mål igen. Mer information om att bevilja åtkomst till mål finns i [Bevilja åtkomst till Adobe Workfront-mål](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 * Du kan bara stänga aktiva mål. Du kan inte stänga mål som har statusen Utkast.
 
   Mer information om målstatus finns i [Översikt över målstatus i Adobe Workfront-mål](../../workfront-goals/goal-management/goal-status-overview.md).
@@ -95,13 +95,13 @@ Du måste ha följande:
 
   >[!CAUTION]
   >
-  >När ett mål som har aktiva bidragande mål stängs ändras dess förlopp efter att det stängts för att ange förloppet för de bidragande aktiva målen. Mer information om hur du justerar mål finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  >När ett mål som har aktiva bidragande mål stängs ändras dess förlopp efter att det stängts för att ange förloppet för de bidragande aktiva målen. Mer information om att justera mål finns i [Justera mål genom att koppla dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* Uppdatera målets förloppsindikatorer innan du stänger målet för att se till att det avslutas med ett korrekt förloppsvärde. Om alla förloppsindikatorer har uppnåtts bör målprocenten vara 100 % och ditt mål har uppnåtts. Mer information om hur du uppdaterar dina mål finns i [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Uppdatera målets förloppsindikatorer innan du stänger målet för att se till att det avslutas med ett korrekt förloppsvärde. Om alla förloppsindikatorer har uppnåtts bör målprocenten vara 100 % och ditt mål har uppnåtts. Mer information om hur du uppdaterar dina mål finns i [Uppdatera målförloppet i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 * Lämna eventuella slutkommentarer som en uppdatering av de mål som du stänger. Mer information om hur du lägger till kommentarer i mål finns i [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 * Du kan inte längre uppdatera förloppet för resultat och aktiviteter för ett mål som du stänger.
 * Du kan öppna ett stängt mål igen om du vill fortsätta arbeta med det.
-* Om målet inte har uppnåtts bör du överväga att kopiera merparten av informationen till nästa tidsperiod (kvartal eller år). Det här är ett bra alternativ för mål som är desamma från en tidsperiod till nästa eller mål som du kanske måste arbeta med att uppnå inom nästa tidsram. Mer information om att kopiera mål finns i [Kopiera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/copy-goals.md). Du kan även uppdatera tidsperioden för målet i stället för att kopiera den till en annan period.
+* Om målet inte har uppnåtts bör du överväga att kopiera merparten av informationen till nästa tidsperiod (kvartal eller år). Det här är ett bra alternativ för mål som är desamma från en tidsperiod till nästa eller mål som du kanske måste arbeta med att uppnå inom nästa tidsram. Mer information om kopieringsmål finns i [Kopiera mål i Adobe Workfront-mål](../../workfront-goals/goal-management/copy-goals.md). Du kan även uppdatera tidsperioden för målet i stället för att kopiera den till en annan period.
 * Workfront tar bort kommentarerna för ett stängt mål när du öppnar det igen. Om du måste behålla kommentarerna rekommenderar vi att du kopierar det stängda målet inklusive eventuella resultat som är kopplade till det, i stället för att öppna det igen.
 
 
@@ -144,7 +144,7 @@ Closing goals differs depending on what environment you use.
 1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 -->
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    Mållistan öppnas.
 
@@ -153,19 +153,19 @@ Closing goals differs depending on what environment you use.
 
 1. (Valfritt) Ändra filtren så att endast aktiva mål visas.
 
-   Information om filtrering av information i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
+   Mer information om filtrering av information i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
 1. Klicka på ett aktivt mål.
 
    Målsidan öppnas.
 
    ![](assets/goal-page-unshimmed.png)
-1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Stäng**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet och klicka sedan på **Stäng**.
 
    Målet stängs och du får en bekräftelse i skärmens övre högra hörn.
 
    ![](assets/goal-close-confirmation-with-add-closing-notes-link.png)
 
-1. (Valfritt) Klicka på **Lägg till slutkommentarer** om du vill lägga till kommentarer om det här målet och varför du måste stänga det.
+1. (Valfritt) Klicka på **Lägg till slutkommentarer** i bekräftelserutan om du vill lägga till kommentarer om det här målet och varför du måste stänga det.
 1. Lägg till slutkommentarer och klicka sedan på **Lägg till anteckningar**.
 
    ![](assets/add-closing-notes-box-unshimmed.png)
@@ -210,7 +210,7 @@ Reopening goals differs depending on what environment you use.
 
 -->
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)> **Mål** längst upp till höger.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png)> **Mål** i det övre högra hörnet.
 
    Mållistan öppnas.
 
@@ -219,11 +219,11 @@ Reopening goals differs depending on what environment you use.
 
 1. (Valfritt) Ändra filtren så att endast stängda mål visas.
 
-   Information om filtrering av information i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
+   Mer information om filtrering av information i Workfront-mål finns i [Filtrera information i Adobe Workfront-mål](../goal-management/filter-information-wf-goals.md).
 1. Klicka på namnet på ett stängt mål.
 
    Målsidan öppnas.
-1. Klicka på **Mer** meny ![](assets/more-icon.png) till höger om målnamnet, och sedan **Öppna igen** > **Öppna igen**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om målnamnet och **Öppna igen** > **Öppna igen**.
 
    Följande saker händer:
    * Målet är nu öppet och har statusen Aktiv.

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Nedbrytningsdiagrammet ger en visuell representation av hur artiklar utvecklas genom upprepningen. Den faktiska nedbränningsgraden mäts mot den ideala nedladdningsfrekvensen för tidslinjen i iteration.
 
-Nedbrytningsdiagrammet justeras baserat på den valda dagen. Den aktuella dagen är standarddatum. När en föregående dag har valts, alla data i nedladdningsdiagrammet och alla värden i [!UICONTROL completion status] ovanför nedladdningsdiagrammet beräknas om för att representera data som de var i slutet av den valda dagen. (Du kan välja föregående dagar eller den aktuella dagen. Du kan inte välja dagar i framtiden.)
+Nedbrytningsdiagrammet justeras baserat på den valda dagen. Den aktuella dagen är standarddatum. När en föregående dag har valts beräknas alla data i nedladdningsdiagrammet och alla värden i avsnittet [!UICONTROL completion status] ovanför nedladdningsdiagrammet om för att representera data som de var i slutet av den valda dagen. (Du kan välja föregående dagar eller den aktuella dagen. Du kan inte välja dagar i framtiden.)
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
@@ -32,11 +32,11 @@ Nedladdningsschemat innehåller följande visuella indikatorer:
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>Idealisk nedbränningsgrad baserad på när iterationen påbörjades.</p> <p>Den här raden visas inte om upprepningens omfattning aldrig ändras (timmar eller punkter läggs aldrig till eller tas bort).</p> <p>Den här raden visas som platt när arbete utförs en ledig dag. Mer information finns i <a title="Använda Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Hur dagar ledigt påverkar nedladdningsschemat</a>.</p> </td> 
+   <td> <p>Idealisk nedbränningsgrad baserad på när iterationen påbörjades.</p> <p>Den här raden visas inte om upprepningens omfattning aldrig ändras (timmar eller punkter läggs aldrig till eller tas bort).</p> <p>Den här raden visas som platt när arbete utförs en ledig dag. Mer information finns i <a title="Använda Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Hur dagar kvar påverkar nedladdningsschemat</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>Idealisk nedladdningsfrekvens baserad på aktuella artiklar eller uppgifter.</p> <p>Den aktuella idealiska nedladdningsfrekvensen (helblå linje) skiljer sig från den ursprungliga idealiska nedladdningsfrekvensen (prickad blå linje) när timmar eller punkter läggs till eller tas bort från iterationen efter att iterationen påbörjats.</p> <p>Den här raden visas som platt när arbete utförs en ledig dag.</p> <p>Mer information finns i <a title="Använda Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Hur dagar ledigt påverkar nedladdningsschemat</a>.</p> </td> 
+   <td> <p>Idealisk nedladdningsfrekvens baserad på aktuella artiklar eller uppgifter.</p> <p>Den aktuella idealiska nedladdningsfrekvensen (helblå linje) skiljer sig från den ursprungliga idealiska nedladdningsfrekvensen (prickad blå linje) när timmar eller punkter läggs till eller tas bort från iterationen efter att iterationen påbörjats.</p> <p>Den här raden visas som platt när arbete utförs en ledig dag.</p> <p>Mer information finns i <a title="Använda Agile Burndown Chart" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Hur dagar kvar påverkar nedladdningsschemat</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
@@ -58,7 +58,7 @@ Nedladdningsschemat innehåller följande visuella indikatorer:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
    <td> <p>En grön eller röd punkt visas i den faktiska nedladdningshastigheten när arbete bränns ned. (När den faktiska nedbränningsgraden den dagen är röd är punkten röd. När den faktiska nedladdningsfrekvensen den dagen är grön är punkten grön.)</p> <p>Arbetet bränns ned när något av följande inträffar:</p> 
     <ul> 
-     <li> The [!UICONTROL Percent Complete] har blivit ännu vanligare.<br>[!UICONTROL Percent Complete] ökas när: 
+     <li> [!UICONTROL Percent Complete] utökas i artikeln.<br>[!UICONTROL Percent Complete] ökas när: 
       <ul> 
        <li> <p>Manuellt ändrad</p> </li> 
        <li> <p>Antalet poäng eller timmar uppdateras i artikeln</p> </li> 
@@ -71,9 +71,9 @@ Nedladdningsschemat innehåller följande visuella indikatorer:
 
 ## Hur dagar ledigt påverkar nedladdningsschemat {#how-days-off-affect-the-burndown-chart}
 
-Standardschemat som definieras i [!DNL Workfront] påverkar nedladdningsschemat genom att utelämna dagar (helger och helger) från nedladdningen. Nedladdningsschemat använder standardschemat för att definiera arbetsdagar (enligt beskrivningen i  [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+Standardschemat som definieras i [!DNL Workfront] påverkar nedladdningsschemat genom att utesluta dagar utan (helger och helger) från nedladdningen. Nedladdningsschemat använder standardschemat för att definiera arbetsdagar (enligt beskrivningen i  [Skapa ett schema](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Agile-team kan införliva teamspecifika, icke-arbetsdagar genom att definiera ett alternativt schema (enligt beskrivningen i artikeln) [Använd ett alternativt teamschema för nedladdningsscheman](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Det alternativa schemat visas sedan i nedladdningsschemat för alla upprepningar som teamet har tilldelats. Det alternativa schemat påverkar bara nedladdningsschemat.
+Agile-team kan införliva teamspecifika, icke-arbetsrelaterade dagar genom att definiera ett alternativt schema (enligt beskrivningen i artikeln [Använd ett alternativt teamschema för nedladdningsscheman](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). Det alternativa schemat visas sedan i nedladdningsschemat för alla upprepningar som teamet har tilldelats. Det alternativa schemat påverkar bara nedladdningsschemat.
 
 Lediga dagar visas endast i nedladdningsschemat om:
 
@@ -88,8 +88,8 @@ Lediga dagar visas endast i nedladdningsschemat om:
 * Du visar nedladdningsschemat en dag ledigt. (Den dag du visar visas i nedladdningsdiagrammet.)
 * Du slutför det totala återstående arbetet för iterationen en dag bort.
 
-  När en användare slutför det totala återstående arbetet för iterationen en dag bort, [!UICONTROL Estimated Completion] visas det datum då iterationen slutfördes.
+  När en användare slutför det totala återstående arbetet för iterationen en dag bort, visar fältet [!UICONTROL Estimated Completion] datumet då iterationen slutfördes.
 
-  Om du anger slutdatumet för upprepningen för en arbetsdag som inte är arbetsdag och iterationen spåras till att slutföras i tid, kommer [!UICONTROL Estimated Completion] datumet anges för den sista arbetsdagen före det iteration-slutdatum som du anger (eftersom arbetet inte schemalagts att brännas ned på lediga dagar).
+  Om du anger slutdatumet för upprepningen för en arbetsdag som inte är arbetsdag och upprepningen spåras till färdig i tid, anges datumet [!UICONTROL Estimated Completion] för den sista arbetsdagen före det slutdatum för upprepningen som du anger (eftersom arbetet inte schemalagts att brännas ned på arbetsdagar som inte är arbetsdag) när du planerar upprepningen.
 
-  Slutdatumet för iterationen anges när iterationen planeras, vilket beskrivs i artikeln [Skapa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
+  Slutdatumet för iteration anges när iteration planeras, vilket beskrivs i artikeln [Skapa en iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).

@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Problem
 
 När du kör en rapport, eller visar den på en kontrollpanel, returnerar följande fel:\
-*Vi provar det igen. Du är inte inloggad.*
+*Vi försöker igen. Du är inte inloggad.*
 
 Inga resultat visas i rapporten.
 
@@ -64,12 +64,12 @@ Du måste ha behörigheten Hantera för rapporten för att kunna ändra rapporti
 Så här justerar du rapporten och ser resultaten:
 
 1. Gå till rapporten.
-1. Klicka **Rapportåtgärder** > **Redigera** > **Rapportinställningar**.
+1. Klicka på **Rapportera åtgärder** > **Redigera** > **Rapportinställningar**.
 
-1. Ange namnet på en aktiv användare i **Kör den här rapporten med åtkomsträttigheterna för:** fält.\
+1. Ange namnet på en aktiv användare i fältet **Kör den här rapporten med åtkomstbehörigheten**.\
    eller\
-   Lämna **Kör den här rapporten med åtkomsträttigheterna för:** fältet är tomt.
+   Lämna fältet **Kör den här rapporten med åtkomstbehörigheten** tomt.
 
-1. Klicka **Klar**.
-1. Klicka **Spara + Stäng**.\
+1. Klicka på **Klar**.
+1. Klicka på **Spara + Stäng**.\
    Felet bör inte visas igen när den här rapporten körs.

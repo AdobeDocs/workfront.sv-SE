@@ -19,7 +19,7 @@ ht-degree: 0%
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
 -->
 
-Mål med ett förlopp för In-problem riskerar att inte uppnås och representeras av en röd förloppsindikator i Adobe Workfront-målen. Du bör granska dina mål ofta och förstå varför framstegen släpar efter. Mer information om målförloppet finns i [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md).
+Mål med ett förlopp för In-problem riskerar att inte uppnås och representeras av en röd förloppsindikator i Adobe Workfront-målen. Du bör granska dina mål ofta och förstå varför framstegen släpar efter. Mer information om målförloppet finns i [Översikt över målförloppet och målvillkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Åtkomstkrav
 
@@ -81,11 +81,11 @@ Du måste ha följande:
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Recommendations för att förhindra att mål når en utveckling i In-Trouble
 
-Innan målen når upp till en utveckling av I Problem kan du övervaka dem ofta och justera deras framsteg när de når en riskutveckling. Mål som riskerar att hamna i trubbel. Mer information om målförloppet finns i [Översikt över målets förlopp och villkor i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
+Innan målen når upp till en utveckling av I Problem kan du övervaka dem ofta och justera deras framsteg när de når en riskutveckling. Mål som riskerar att hamna i trubbel. Mer information om målförloppet finns i [Översikt över målförloppet och målvillkoret i Adobe Workfront-mål](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
 Innan dina mål når en utveckling i Problem rekommenderar vi följande:
 
@@ -94,11 +94,11 @@ Innan dina mål når en utveckling i Problem rekommenderar vi följande:
 
 ## Granska problemmål i mållistan
 
-Du kan se målen i alla delar av Workfront mål. Mer information om Workfront-mål finns i [Översikt över avsnitten om Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+Du kan se målen i alla delar av Workfront mål. Mer information om avsnitten om Workfront-mål finns i [Översikt över avsnitten om Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
 
 I den här artikeln beskrivs hur du granskar mål i mållistan.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) > **Mål** längst upp till höger.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) > **Mål** i det övre högra hörnet.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -107,7 +107,7 @@ I den här artikeln beskrivs hur du granskar mål i mållistan.
 
 1. (Rekommenderas) Justera följande filter för mållistan för att granska riskmålen:
 
-   * Klicka **Företag** sedan **Mina team** sedan **Mina grupper** sedan **Personligt** mål i den här ordningen för att visa mål som tillhör organisationen, era team, grupper och sedan era egna mål.
+   * Klicka på **Företag**, **Mina team**, **Mina grupper** och sedan på **Personliga** mål i den här ordningen för att visa mål som tillhör din organisation, dina team, grupper och sedan dina egna mål.
 
      >[!TIP]
      >
@@ -116,12 +116,12 @@ I den här artikeln beskrivs hur du granskar mål i mållistan.
      >
      >Du kan inte söka efter företag som använder det här fältet. Som standard är det bara den organisation som äger din Workfront-instans som är vald.
 
-   * För varje organisationsenhet som du väljer ovan klickar du på **Nytt filter** > **Förlopp** > **I problem** >**Använd.**
+   * Klicka på **Nytt filter** > **Förlopp** > **I problem** >**Använd.** för var och en av de organisationsenheter du väljer ovan.
    * (Valfritt) Välj den tidsperiod för vilken du vill visa mål.
 
      Förloppsindikatorn visas i rött för varje mål i mållistan.
 
-     Mer information om hur du filtrerar mål med hjälp av alla andra villkor i den högra panelen finns i [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+     Mer information om hur du filtrerar mål med hjälp av alla andra villkor på den högra panelen finns i [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 1. Håll pekaren över förloppsindikatorn för att se hur stor den faktiska förloppsprocenten är och vad det förväntade värdet är för den aktuella dagen.
 
@@ -131,9 +131,9 @@ I den här artikeln beskrivs hur du granskar mål i mållistan.
 
    Felfria mål för de valda användarna visas i mållistan.
 
-1. Klicka på ett målnamn för att öppna målsidan och klicka sedan på **Förloppsindikatorer** till vänster. Visa vilken förloppsindikator som gör att målet ligger bakom och uppdatera förloppet för indikatorn på raden i **Faktiskt förlopp** -kolumnen i listan med förloppsindikatorer.
+1. Klicka på ett målnamn för att öppna målsidan och klicka sedan på **Förloppsindikatorer** i den vänstra panelen. Visa vilken förloppsindikator som gör att målet ligger bakom och uppdatera förloppet för indikatorn inline i kolumnen **Faktisk förlopp** i listan Förloppsindikatorer.
 
-   Information om hur du uppdaterar resultat och aktiviteter finns i [Uppdatera målstatus i Adobe Workfront-mål](../goal-review-and-workfront-goals-sections/check-in-goals.md)
+   Mer information om att uppdatera resultat och aktiviteter finns i [Uppdatera målförloppet i Adobe Workfront-mål](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
    ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 

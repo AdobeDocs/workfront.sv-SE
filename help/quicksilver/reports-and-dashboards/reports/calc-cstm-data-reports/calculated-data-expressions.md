@@ -7,9 +7,9 @@ description: Du kan använda datauttryck för att definiera beräknade anpassade
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2165'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan använda beräknade datauttryck i:
 
 * Ett beräknat anpassat fält i ett anpassat formulär
 
-  Mer information om hur du skapar beräknade anpassade fält i anpassade formulär i Workfront finns i [Lägga till beräknade data i ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  Mer information om hur du skapar beräknade anpassade fält i anpassade formulär i Workfront finns i [Lägg till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * En beräknad anpassad kolumn i en rapport eller lista när du använder textläge
 
@@ -83,11 +83,11 @@ Mer information om syntaxen som du måste använda i en beräknad anpassad kolum
 
 I listorna nedan definieras de tillgängliga uttryck som du kan använda när du skapar en av de tre olika typerna av beräknade anpassade fält i Workfront:
 
-* [Anpassade fält för datum och tid](#date-time-calculated-custom-fields)
+* [Anpassade fält för datum och tid ](#date-time-calculated-custom-fields)
 * [Matematiskt beräknade anpassade fält](#mathematical-calculated-custom-fields)
 * [Textberäknade anpassade fält](#text-calculated-custom-fields)
 
-Du kan använda uttrycken nedan för att skapa beräknade anpassade kolumner. Du måste emellertid använda rätt syntax för en beräknad anpassad kolumn, enligt beskrivningen i avsnittet  [Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) i den här artikeln.
+Du kan använda uttrycken nedan för att skapa beräknade anpassade kolumner. Du måste dock använda rätt syntax för en beräknad anpassad kolumn, enligt beskrivningen i avsnittet [Syntax för beräknade anpassade fält kontra beräknade anpassade kolumner](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) i den här artikeln.
 
 ### Anpassade fält för datum och tid {#date-time-calculated-custom-fields}
 
@@ -108,13 +108,13 @@ Du kan skapa ett anpassat datum- eller tidsfält med följande uttryck:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>DAGAR</strong> </td> 
+   <td><strong>ADDDAYS</strong> </td> 
    <td> <p>Lägger till antalet dagar till datumet. Talvärdet kan innehålla delar av dagar. 1.5 lägger till exempel till en och en halv dag till datumet.</p> <p>Uttrycket formateras på följande sätt:</p>
 
 <p><code>ADDDAYS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>VECKODAGAR</strong> </td> 
+   <td><strong>ADDWEEKDAYS</strong> </td> 
    <td> <p>Lägger till antalet veckodagar till datumet. Det här uttrycket lägger bara till heltalsvärden till datumet, avrundat nedåt. </p> <p>Uttrycket formateras på följande sätt:</p>
 
 <p><code>ADDWEEKDAYS(date, number)</code></p> </td> 
@@ -132,13 +132,13 @@ Du kan skapa ett anpassat datum- eller tidsfält med följande uttryck:
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>CLEARME</strong> </td> 
+   <td><strong>RENSA</strong> </td> 
    <td> <p>Rensar tidsdelen av ett datum och formateras enligt följande. I det här exemplet är datumet startdatum för ett arbetsobjekt.</p>
 
 <p><code>CLEARTIME({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DATUM</strong> </td> 
+   <td><strong>DATE</strong> </td> 
    <td> <p>Konverterar en sträng till ett datum och formateras enligt följande:</p>
 
 <p><code>DATE(string)</code></p> </td> 
@@ -174,7 +174,7 @@ Du kan skapa ett anpassat datum- eller tidsfält med följande uttryck:
 <p><code>DAYSINSPLITWEEK({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>DAGSINÅRIT</strong> </td> 
+   <td><strong>DAGSINYEAR</strong> </td> 
    <td> <p>Returnerar det totala antalet dagar under datumåret som ett tal och formateras enligt följande. I det här exemplet är datumet startdatum för ett arbetsobjekt.</p>
 
 <p><code>DAYSINYEAR({entryDate})</code></p> </td> 
@@ -216,7 +216,7 @@ Du kan skapa ett anpassat datum- eller tidsfält med följande uttryck:
 <p><code>SECOND({entryDate})</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>VECKDAYDIFF</strong> </td> 
+   <td><strong>VECKODAYDIFF</strong> </td> 
    <td> <p>Returnerar antalet veckodagar mellan två datum, med beaktande av start- och slutdagarna för den valda perioden samt tidsstämplarna för dessa dagar. Om starttiden för startdatumet till exempel är 3 PM räknas inte startdagen som en heldag.</p> <p>Uttrycket formateras på följande sätt:</p>
 
 <p><code>WEEKDAYDIFF(date2, date1)</code></p> </td> 
@@ -275,7 +275,7 @@ Du kan skapa ett beräknat anpassat fält som använder några av följande mate
 <p><code>DIV(number1, number2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>FLOG</strong> </td> 
+   <td><strong>FLOOR</strong> </td> 
    <td>Avrundar ett tal nedåt till närmaste heltal och formateras enligt följande. I det här exemplet används antalet objekt under objektet som det anpassade formuläret är kopplat till.
 
 <p><code>FLOOR({numberOfChildren})</code></p></td> 
@@ -287,7 +287,7 @@ Du kan skapa ett beräknat anpassat fält som använder några av följande mate
 <p><code>LN({numberOfChildren})</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>LOG</strong> </td> 
+   <td><strong>LOGG</strong> </td> 
    <td>Returnerar logaritmvärdet för number2 till bastalet1 och formateras enligt följande:
 
 <p><code>LOG(number1, number2)</code></p></td> 
@@ -305,7 +305,7 @@ Du kan skapa ett beräknat anpassat fält som använder några av följande mate
 <p><code>MIN(item1, item2, ...)</code></p></td> 
   </tr> 
   <tr> 
-   <td><strong>NUMMER</strong> </td> 
+   <td><strong>NUMBER</strong> </td> 
    <td>Konverterar en sträng till ett tal och formateras enligt följande:<p><code>NUMBER(string)</code></p></td> 
   </tr> 
   <tr> 
@@ -325,7 +325,7 @@ Du kan skapa ett beräknat anpassat fält som använder några av följande mate
    </td> 
   </tr> 
   <tr> 
-   <td><strong>ROUND</strong> </td> 
+   <td><strong>RUNDA</strong> </td> 
    <td>Avrundar talet upp till angivna decimaler och formateras enligt följande:
 
 <p><code>ROUND(number, precision)</code></p></td> 
@@ -434,7 +434,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 
 <p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Off Track","")</code></p>
 
-<p>Mer information om att skapa IF-satser finns i <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref">Översikt över IF-programsatser</a>.</p> </td> 
+<p>Mer information om hur du skapar IF-satser finns i Översikt över <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md" class="MCXref xref"> IF-satser </a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>IFIN</strong> </td> 
@@ -458,7 +458,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 </p><p><code>IN(value, value1[, value2...])</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ISBLANK</strong> </td> 
+   <td><strong>ÄRBLANK</strong> </td> 
    <td> <p>Returnerar true om värdet är null eller tomt, annars returneras false.</p> <p>Uttrycket formateras på följande sätt:
 
 </p><p><code>ISBLANK(value)</code></p> </td> 
@@ -500,7 +500,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>STRÄNG</strong> </td> 
+   <td><strong>STRING</strong> </td> 
    <td> <p>Konverterar ett tal till en sträng och formateras enligt följande:</p>
 
 <p><code>STRING(number)</code></p> </td> 
@@ -518,7 +518,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ÄMNE</strong> </td> 
+   <td><strong>SUBSTR</strong> </td> 
    <td> <p>Returnerar tecken i en sträng baserat på det start- och slutindex som anges och formateras enligt följande:</p>
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
@@ -530,7 +530,7 @@ Du kan skapa ett beräknat anpassat fält som visar ett textformaterat värde me
 <p><code>TRIM(string)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ÖVRE</strong> </td> 
+   <td><strong>UPPER</strong> </td> 
    <td> <p>Returnerar en sträng med versaler och formateras enligt följande:</p>
 
 <p><code>UPPER(string)</code></p> </td> 

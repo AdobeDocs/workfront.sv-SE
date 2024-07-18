@@ -19,11 +19,11 @@ ht-degree: 0%
 Övertid beräknas inte som standard i Adobe Workfront, men du kan skapa en tidrapport som beräknar övertid.
 
 Om användaren är kopplad till en kostnad per timme i sin profil kan du även beräkna kostnadsbeloppet för den användarens övertid.\
-Mer information om hur du associerar användare med självkostnad per timme finns i artikeln [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Mer information om hur du associerar användare med kostnad per timme finns i artikeln [Konfigurera mina inställningar](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 >[!NOTE]
 >
->Fältet Övertid som du kan lägga till i en tidrapportvy i en lista eller rapport visar informationen som finns i fältet Övertid i tidrapporten. Den här informationen uppdateras manuellt av en användare som har behörighet att ändra tidrapporten. Mer information om fältet Övertid i en tidrapport finns i artikeln [Översikt över tidrapportslayout](../../../timesheets/timesheets/timesheet-layout.md).
+>Fältet Övertid som du kan lägga till i en tidrapportvy i en lista eller rapport visar informationen som finns i fältet Övertid i tidrapporten. Den här informationen uppdateras manuellt av en användare som har behörighet att ändra tidrapporten. Mer information om fältet Övertid i en tidrapport finns i artikeln [Översikt över tidrapportslayouten](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Åtkomstkrav
 
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -65,30 +65,30 @@ Så här lägger du till en beräknad övertidskolumn i en tidrapportvy:
 
    Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Klicka **Anpassa vy** i en lista över tidrapporter.
+1. Klicka på **Anpassa vy** i en lista över tidrapporter.
 
    eller
 
-   Välj **Kolumner (vy)** i en tidrapportrapport.
+   Välj fliken **Kolumner (Visa)** i en tidrapportrapport.
 
-1. Klicka **Lägg till kolumn**.
-1. Klicka **Växla till textläge**.
-1. I **Visa i den här kolumnen** område, klicka **Klicka för att redigera text**.
-1. Kopiera och klistra in följande textlägeskod i **Textläge** -dialogrutan.
-   <pre>displayName=Beräknad övertidskostnad<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueFormat=currencyStringCurrencyRounded</pre>
+1. Klicka på **Lägg till kolumn**.
+1. Klicka på **Växla till textläge**.
+1. Klicka på **Klicka för att redigera text** i området **Visa i den här kolumnen**.
+1. Kopiera och klistra in följande textlägeskod i dialogrutan **Textläge**.
+   <pre>displayname=Calculated Overtime Cost<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}&gt;40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>värdeformat=currencyStringCurrencyRounded</pre>
 
    >[!NOTE]
    >
    >I den här beräkningen antas att användaren vanligtvis arbetar en 40-timmarsvecka.
 
-1. Klicka **Spara** namnger du den nya vyn och klickar på **Spara vy** i en lista över tidrapporter.
+1. Klicka på **Spara**, ge den nya vyn ett namn och klicka sedan på **Spara vy** i en lista över tidrapporter.
 
    eller
 
-   Klicka **Spara + Stäng** i en tidrapportrapport.
+   Klicka på **Spara + stäng** i en tidrapportrapport.
 
-1. (Valfritt och villkorligt) Om du skapar en tidrapport anger du ett namn för rapporten och klickar sedan på **Spara rapport**.
+1. (Valfritt och villkorligt) Om du skapar en tidrapportrapport anger du ett namn för rapporten och klickar sedan på **Spara rapport**.
 
-   Kostnaden för övertid visas i **Beräknad övertidskostnad** kolumn.
+   Kostnaden för övertid för varje användare visas i kolumnen **Beräknad övertidskostnad** .
 
    ![calculate_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)

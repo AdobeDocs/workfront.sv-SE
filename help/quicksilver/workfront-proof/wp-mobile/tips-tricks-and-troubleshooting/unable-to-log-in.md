@@ -1,35 +1,36 @@
 ---
-title: Det går inte att logga in på [!DNL Workfront Proof] Mobilapp
-description: Felsöka inloggning i mobilappen Workfront Proof.
+title: Det går inte att logga in på  [!DNL Workfront Proof] mobilappen
+description: Felsöka inloggning i Workfront Proof mobilapp.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
 
 ---
 
-# Det går inte att logga in på [!DNL Workfront Proof] Mobilapp
+# Det går inte att logga in på mobilappen [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problem
 
-När du försöker logga in på [!DNL Workfront Proof] Mobilapp som returneras:
+När du försöker logga in på [!DNL Workfront Proof]-mobilappen returneras:
 
 &quot;Användarnamnet eller lösenordet är felaktigt. Försök igen.&quot;
 
-Detta problem uppstår när du startar [!DNL Workfront Proof] Mobilappen som sig själv eftersom den försöker logga in på en fristående [!DNL Workfront Proof] och inte den som är integrerad med Workfront.
+Det här problemet inträffar när du startar mobilappen [!DNL Workfront Proof] fristående eftersom den försöker logga in på ett fristående [!DNL Workfront Proof]-system, inte det som är integrerat med Workfront.
 
 ## Lösning
 
-När du använder båda [!DNL Workfront] &amp; [!DNL Workfront Proof],
+När både [!DNL Workfront] och [!DNL Workfront Proof] används,
 
-1. Se till att båda [!DNL Workfront] Mobilappen och [!DNL Workfront Proof] Mobilappen installeras på din enhet.
-1. Logga in på [!DNL Workfront] Mobilapp och Gå till dokumentet som du vill korrekturgranska.
+1. Kontrollera att både [!DNL Workfront]-mobilappen och [!DNL Workfront Proof]-mobilappen är installerade på enheten.
+1. Logga in på [!DNL Workfront]-mobilappen och gå till dokumentet som du vill korrekturgranska.
 1. Klicka på ikonen med tre punkter i skärmens övre högra hörn och klicka sedan på **[!UICONTROL Proofing]**.
-The [!DNL Workfront Proof] Mobilappen startar automatiskt inloggningen.
+Mobilappen [!DNL Workfront Proof] startar automatiskt din inloggning.
 Nu kan du arbeta med korrektur i dokumentet.

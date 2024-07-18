@@ -1,26 +1,27 @@
 ---
-title: Workfront Proof-mobilapp för surfplattor
-description: The [!DNL Workfront Proof] Med en app kan du enkelt granska och godkänna dina korrektur när du är på språng. Appen kan laddas ned av alla, du behöver inte vara en [!DNL Workfront Proof] som kan granska korrektur på surfplattan eller mobilen.
+title: Workfront Proof mobilapp för surfplattor
+description: Med surfappen  [!DNL Workfront Proof] kan du enkelt granska och godkänna dina korrektur när du är på språng. Appen är tillgänglig för hämtning för alla, du behöver inte vara en [!DNL Workfront Proof] användare för att kunna granska korrektur på din surfplatta eller din telefon.
 hide: true
 hidefromtoc: true
-source-git-commit: 02e55be36d3b649aeb5b81d185538f77ac3d4ec7
+exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
+source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1934'
 ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] mobilapp för surfplattor
+# Mobilappen [!DNL Workfront Proof] för surfplattor
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-The [!DNL Workfront Proof] Med en app kan du enkelt granska och godkänna dina korrektur när du är på språng. Appen kan laddas ned av alla, du behöver inte vara en [!DNL Workfront Proof] som kan granska korrektur på surfplattan eller mobilen.
+Med appen [!DNL Workfront Proof] kan du enkelt granska och godkänna dina korrektur när du är på språng. Appen är tillgänglig för hämtning för alla, du behöver inte vara [!DNL Workfront Proof]-användare för att kunna granska korrektur på din surfplatta eller din telefon.
 
-Gäster kan bara klicka på [!UICONTROL Go to proof] i e-postmeddelandet som de får för att öppna korrekturet i appen.
+Gäster kan bara klicka på knappen [!UICONTROL Go to proof] i det e-postmeddelande de får för att öppna korrekturet i appen.
 
-[!DNL Workfront Proof] -användare kan logga in i appen och använda kontrollpanelen för att hantera sitt arbete på ett smidigt sätt.
+[!DNL Workfront Proof] användare kan logga in i appen och använda instrumentpanelen för att hantera sitt arbete på ett smidigt sätt.
 
 ## Enhetskrav
 
@@ -33,10 +34,10 @@ Det här är en app som är särskilt framtagen för surfplattor. Om du vill anv
 
 >[!IMPORTANT]
 >
->Mobilappen Workfront Proof stöds inte längre och är tillgänglig i befintligt skick.  Problem i appen kommer inte att åtgärdas.
+>Workfront Proof mobilapp stöds inte längre och är tillgänglig i befintligt skick.  Problem i appen kommer inte att åtgärdas.
 
 
-The [!DNL Workfront Proof] app finns i Apple App Store och Google Play Store.
+Appen [!DNL Workfront Proof] finns i Apple App Store och Google Play Store.
 
 1. Klicka på länken nedan för att hämta appen och installera den på din enhet.
 
@@ -46,11 +47,11 @@ The [!DNL Workfront Proof] app finns i Apple App Store och Google Play Store.
 
 ## Logga in
 
-The [!DNL Workfront Proof] surfplatteappen ger dig tillgång till kontrollpanelen med de korrektur som du behöver åtgärda. Så här öppnar du kontrollpanelen:
+Appen för surfplattan [!DNL Workfront Proof] ger dig tillgång till instrumentpanelen med de korrektur som du behöver åtgärda. Så här öppnar du kontrollpanelen:
 
 1. Gör något av följande:
 
-   * Logga in med [!DNL Workfront Proof] autentiseringsuppgifter.
+   * Logga in med dina autentiseringsuppgifter för [!DNL Workfront Proof].
 
      Om du får en korrekturinbjudan via e-post och öppnar den i din mobila enhet leder länken dig till korrekturet i appen. Du behöver inte vara användare för att kunna granska korrektur, men du måste ha appen installerad på din enhet för att kunna visa dem.
 
@@ -62,13 +63,13 @@ The [!DNL Workfront Proof] surfplatteappen ger dig tillgång till kontrollpanele
 
 ## Kontrollpanelen
 
-Om du vill vara inloggad på [!DNL Workfront Proof] konto:
+Om du vill vara inloggad på ditt [!DNL Workfront Proof]-konto:
 
-1. Aktivera **[!UICONTROL Keep me logged in]** i sidofältsmenyn under **[!UICONTROL Settings]**:
+1. Aktivera **[!UICONTROL Keep me logged in]** på sidofältsmenyn under **[!UICONTROL Settings]**:
 
 ![Keep_me_logged_in.gif](assets/keep-me-logged-in-350x446.gif)
 
-The *[!UICONTROL Dashboard]* kommer att ta dig tillbaka till kontrollpanelen från vilken vy som helst i appen. Du kan också använda den för att läsa in kontrollpanelen igen.
+Länken *[!UICONTROL Dashboard]* tar dig tillbaka till instrumentpanelen från valfri vy i appen. Du kan också använda den för att läsa in kontrollpanelen igen.
 
 Andra element på kontrollpanelen är sökfältet där du kan söka efter kontot efter korrekturnamnet och olika vyer som hjälper dig att hantera din arbetsbelastning på ett effektivt sätt.
 
@@ -76,11 +77,11 @@ Andra element på kontrollpanelen är sökfältet där du kan söka efter kontot
 
 ## Hantera din arbetsbelastning med hjälp av instrumentpanelsvyer
 
-På samma sätt som kontrollpanelsdiagram i webbprogrammet visar vi i mobilappen en lista över korrektur som delats med dig. Välkomstmeddelandet högst upp på sidan ger dig det totala antalet korrektur och under vilka vi delar upp dem *I tid*, *Vid risk* och *Sena korrektur*.
+På samma sätt som kontrollpanelsdiagram i webbprogrammet visar vi i mobilappen en lista över korrektur som delats med dig. Välkomstmeddelandet högst upp på sidan ger dig totalt antal korrektur och under vilka vi delar upp dem i *I tid*, *I risk* och *Sena korrektur*.
 
-* **Tidskorrektur** är de korrektur som antingen inte har någon deadline eller som är längre än 24 timmar.
-* **Vid riskkorrektur** är de där deadline är inom de kommande 24 timmarna - förloppsindikatorn är orange för dessa korrektur.
-* **Sena korrektur** är de korrektur som redan har passerat tidsgränsen - förloppsindikatorn är röd för dessa korrektur. När tidsgränsen nåtts [!DNL Workfront Proof] skickar ett automatiskt påminnelsemeddelande till de sena beslutsfattarna och korrekturägaren.
+* **På-tidskorrektur** är de korrektur som antingen inte har någon deadline angiven eller som är utanför med mer än 24 timmar.
+* **Vid riskkorrektur** är det de där tidsgränsen är inom de närmaste 24 timmarna - förloppsindikatorn är orange för dessa korrektur.
+* **Sena korrektur** är de korrektur som redan har passerat tidsgränsen - förloppsindikatorn är röd för dessa korrektur. När tidsgränsen nåtts skickar [!DNL Workfront Proof] ett automatiskt påminnelsemeddelande via e-post till de sena beslutsfattarna och korrekturägaren.
 
 Dessa korrektur grupperas i olika vyer, vilket gör att du enkelt kan prioritera ditt arbete, med början från korrektur som redan är förbi deadline.
 
@@ -90,16 +91,16 @@ En annan vy som du kanske tycker är användbar är vyn Senaste. Den visar de ko
 
 ## Granska korrektur i appen
 
-1. Klicka på korrekturnamnet som ska öppnas i [!DNL Workfront Proof] Visningsprogram.
+1. Klicka på provets namn för att öppna det i [!DNL Workfront Proof]-visningsprogrammet.
 
    eller
 
-   Om du vill öppna ett korrektur från ett mejl kan granskarna klicka på **[!UICONTROL Go to proof]** i meddelandet.
-Om du har en [!DNL Workfront Proof] kan du logga in och komma åt ditt korrektur från kontrollpanelen.
+   Om du vill öppna ett korrektur från ett e-postmeddelande kan granskarna klicka på länken **[!UICONTROL Go to proof]** i meddelandet.
+Om du har ett [!DNL Workfront Proof]-konto kan du logga in och komma åt ditt korrektur från instrumentpanelen.
 
    >[!NOTE]
    >
-   >Du måste ha appen installerad på enheten för att kunna granska korrektur i [!DNL Workfront Proof]även om du inte har en [!DNL Workfront Proof] konto.
+   >Du måste ha appen installerad på din enhet för att kunna granska korrektur i [!DNL Workfront Proof], även om du inte har något [!DNL Workfront Proof]-konto.
 
    När du öppnar ett korrektur för första gången visar vi en demo som hjälper dig att komma igång med att granska korrektur i appen.
 
@@ -107,7 +108,7 @@ Om du har en [!DNL Workfront Proof] kan du logga in och komma åt ditt korrektur
 
 1. Navigera i korrekturet:
 
-   * Om du vill gå till en viss sida i korrekturet sveper du åt sidan eller använder [!UICONTROL thumbnails] lista.
+   * Om du vill gå till en viss sida i korrekturet sveper du åt sidan eller använder listan [!UICONTROL thumbnails].
 
      Du kan också använda pilarna längst ned på sidan eller ange ett visst sidnummer.
 
@@ -115,13 +116,13 @@ Om du har en [!DNL Workfront Proof] kan du logga in och komma åt ditt korrektur
    * Zooma in genom att nypa skärmen.
    * Om du vill panorera håller du ned och flyttar runt bilden tills du hittar rätt position.
 
-     Att granska korrektur i mobilappen är lika enkelt som att granska korrektur med [!DNL Workfront Proof] Visningsprogram. Här nedan ska vi titta närmare på hur man lägger in kommentarer och markeringar, hanterar feedback och fattar beslut. Vi kommer också att diskutera olika alternativ som finns i programmets sidofält.
+     Att granska korrektur i mobilappen är lika enkelt som att granska korrektur med [!DNL Workfront Proof] Viewer. Här nedan ska vi titta närmare på hur man lägger in kommentarer och markeringar, hanterar feedback och fattar beslut. Vi kommer också att diskutera olika alternativ som finns i programmets sidofält.
 
 ## Kommentera i appen
 
 I videon nedan visas grunderna för kommentering i mobilappen. Här visas hur du gör en kommentar, hur du skickar ett svar till en kommentar, hur du använder olika markeringar och tar bort dem samt hur du redigerar och tar bort kommentarer.
 
-Du kan bara redigera och ta bort kommentarer om inget svar har skickats. Om du inte ser [!UICONTROL trash] -ikonen kan det hända att det här alternativet har inaktiverats av [!DNL Workfront Proof] administratör.
+Du kan bara redigera och ta bort kommentarer om inget svar har skickats. Om du inte ser ikonen [!UICONTROL trash] kan det bero på att det här alternativet har inaktiverats av [!DNL Workfront Proof]-administratören.
 
 Det finns tre visningsalternativ för kommentarer i appen. Du kan växla mellan dem genom att klicka på kommentarknappen.
 
@@ -129,11 +130,11 @@ Det finns tre visningsalternativ för kommentarer i appen. Du kan växla mellan 
 * **[!UICONTROL Single comment view]** visar en kommentar i taget. Gå till nästa kommentar genom att trycka på pilen längst upp på sidan.
 * **[!UICONTROL Hide comments view]** döljer alla kommentarer.
 
-Varje markering som finns kvar på korrekturet släpper en nål på bilden. Om du vill visa kommentaren och markeringen som är kopplad till stiftet trycker du bara på stiftet. Det kan du bara göra om kommentarredigeringsrutan är stängd. Stäng kommentarsrutan genom att trycka på [!UICONTROL x] i rutans övre vänstra kommentar.
+Varje markering som finns kvar på korrekturet släpper en nål på bilden. Om du vill visa kommentaren och markeringen som är kopplad till stiftet trycker du bara på stiftet. Det kan du bara göra om kommentarredigeringsrutan är stängd. Om du vill stänga kommentarsrutan trycker du på [!UICONTROL x] i den övre vänstra kommentaren i rutan.
 
 ## Textanteckningsverktyg
 
-Korrektur på resande fot finns i [!DNL Workfront Proof] app. Textanteckningsverktyget är tillgängligt i markeringsverktygsfältet när du klickar på den orangefärgade **[!UICONTROL Add comment]** -knappen.
+Språktext i farten finns i surfplattan [!DNL Workfront Proof]. Textanteckningsverktyget är tillgängligt i markeringsverktygsfältet när du klickar på den orangefärgade knappen **[!UICONTROL Add comment]**.
 
 1. Välj verktyget och tryck sedan på ordet som du vill markera.
 1. Håll fingret på ordet tills markeringen blir tillgänglig och använd skjutreglagen för att markera hela ordet eller frasen som du vill markera.
@@ -143,7 +144,7 @@ Korrektur på resande fot finns i [!DNL Workfront Proof] app. Textanteckningsver
    | **[!UICONTROL Highlight]** | Markerar texten och kopierar den till kommentarsrutan. |
    |---|---|
    | **[!UICONTROL Replace]** | Lägger till [[!UICONTROL REPLACE]] och [[!UICONTROL WITH]] i kommentarsrutan tillsammans med texten, vilket gör det enklare för dig att rekommendera ersättningstext. |
-   | **[!UICONTROL Delete]** | Strömmar igenom texten och lägger till [DELETE] till kommentarsrutan. |
+   | **[!UICONTROL Delete]** | Strömmar genom texten och lägger till [DELETE] i kommentarsrutan. |
    | **[!UICONTROL Insert after]** | Lägger till [INFOGA EFTER] i kommentarsrutan. |
 
    {style="table-layout:auto"}
@@ -152,9 +153,9 @@ Korrektur på resande fot finns i [!DNL Workfront Proof] app. Textanteckningsver
 
 ## Hantera kommentarer i mobilappen
 
-När alla har lämnat kommentarer och markeringar på korrekturet behöver korrekturläsaren ofta gå igenom kommentarerna och bestämma vilka ändringar som ska göras i nästa version av korrekturet. I [!DNL Workfront Proof] Du kan använda Åtgärder på kommentarer för att flagga varje enskild kommentar och markera de som ska åtgärdas.
+När alla har lämnat kommentarer och markeringar på korrekturet behöver korrekturläsaren ofta gå igenom kommentarerna och bestämma vilka ändringar som ska göras i nästa version av korrekturet. I [!DNL Workfront Proof] kan du använda åtgärder på kommentarer för att flagga varje enskild kommentar och markera de som ska åtgärdas.
 
-Åtgärder för kommentarer måste ställas in på ditt konto av [!DNL Workfront Proof] och kan bara användas på korrektur av personer som har redigeringsbehörighet.
+Åtgärder för kommentarer måste konfigureras i ditt konto av administratören för [!DNL Workfront Proof] och kan bara användas på ett korrektur av personer som har redigeringsbehörighet.
 
 När du arbetar med att förbereda nästa version av ditt korrektur kan du checka av kommentarer medan du arbetar. Kommentaren markeras som löst med en grön bock. Om du behöver öppna kommentaren igen kan du klicka på pilen längst ned i kommentarrutan.
 
@@ -166,7 +167,7 @@ Om du vill förhindra att andra granskare svarar på en kommentarstråd kan du l
 
 ## Granska videokorrektur
 
-Det är enkelt att granska video var du än är med [!DNL Workfront Proof] app. I videon nedan visas hur du gör kommentarer, markeringar och beslut i appen.
+Det är enkelt att granska video när du är i farten med appen [!DNL Workfront Proof]. I videon nedan visas hur du gör kommentarer, markeringar och beslut i appen.
 
 ## Jämförelseläge
 
@@ -174,7 +175,7 @@ Med jämförelseläget i appen för surfplattor kan du enkelt jämföra två oli
 
 >[!NOTE]
 >
->På grund av iOS begränsningar går det inte att jämföra två videor på iPad. Det finns på surfplattor med Android-operativsystem.
+>På grund av iOS begränsningar går det inte att jämföra två videor på iPad. Det finns på surfplattor med Android operativsystem.
 
 Jämförelseläget är tillgängligt i skärmens övre högra hörn.
 
@@ -199,9 +200,9 @@ Med jämförelseverktyget kan du jämföra versioner sida vid sida för att kont
 
 1. Tryck på den gröna beslutsknappen överst på sidan.
 
-   ![beslut.png](assets/decisions-350x303.png)
+   ![Decision.png](assets/decisions-350x303.png)
 
-   Om du inte ser de gröna **[!UICONTROL Finish review]** och du tycker att du ska fatta ett beslut om beviset, [!DNL Workfront Proof] administratören kan uppdatera din korrekturroll enligt anvisningarna i [Hantera korrekturroller i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   Om du inte ser den gröna **[!UICONTROL Finish review]**-knappen och du tycker att du bör fatta ett beslut om korrekturet, kan din [!DNL Workfront Proof]-administratör uppdatera din korrekturroll enligt beskrivningen i [Hantera korrekturroller i  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ## Sidofältet för korrekturläsaren
 
@@ -217,6 +218,6 @@ Sidlisten innehåller många användbara funktioner. Beroende på din behörighe
 | **[!UICONTROL Notifications]** | Gör att du kan uppdatera dina e-postaviseringar om det korrektur som du håller på att granska. Detta ändrar inte standardinställningarna. |
 | **[!UICONTROL Lock]** | Gör att du kan låsa korrekturet. Du måste ha redigeringsbehörighet för beviset för att kunna se det här alternativet. |
 | **[!UICONTROL Delete]** | Flyttar korrekturet till papperskorgen. Du måste ha redigeringsbehörighet för korrekturet för att kunna ta bort det. |
-| **[!UICONTROL Settings]** | Du kan välja att visa punkter och/eller markeringar på korrekturet. Du kan också aktivera [!UICONTROL Keep me logged in] för att förhindra att du loggas ut från appen. |
+| **[!UICONTROL Settings]** | Du kan bestämma dig för att visa punkter och/eller markeringar i korrekturet. Du kan även aktivera [!UICONTROL Keep me logged in] för att förhindra att du loggas ut från appen. |
 | **[!UICONTROL Help]** | Här kan du visa en demo igen. |
 | **[!UICONTROL Log out]** | Loggar ut dig från appen och ditt konto. |

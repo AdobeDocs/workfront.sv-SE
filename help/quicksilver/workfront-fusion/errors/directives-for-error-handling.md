@@ -3,19 +3,19 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: Direktiv om felhantering i [!DNL Adobe Workfront Fusion]
-description: I den här artikeln beskrivs direktiv som du kan använda för felhantering i [!DNL Adobe Workfront Fusion] scenarier.
+title: Direktiv för felhantering i  [!DNL Adobe Workfront Fusion]
+description: I den här artikeln beskrivs direktiv som du kan använda för felhantering i dina  [!DNL Adobe Workfront Fusion] -scenarier.
 author: Becky
 feature: Workfront Fusion
 exl-id: dcf4f7e3-78d8-4eb4-9483-8a1c18b0e436
 source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
 
-# Direktiv om felhantering i [!DNL Adobe Workfront Fusion]
+# Direktiv för felhantering i [!DNL Adobe Workfront Fusion]
 
 ## Åtkomstkrav
 
@@ -36,25 +36,25 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Direktiv för felhantering
 
@@ -64,11 +64,11 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Återställning</p> <p> <img src="assets/rollback.png"> </p> </td> 
-   <td> <p>Körningen av scenariot stoppas omedelbart och en <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">Återställning</a> -fasen startas för alla moduler i ett försök att återställa alla till deras ursprungliga tillstånd. De efterföljande modulerna bearbetas inte.</p> <p>Om du utelämnar ett fåtal feltyper inaktiveras scenariot efter det antal på varandra följande fel som anges under scenarieinställningarna. Mer information finns i <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">Antal efterföljande fel</a>.</p> <p>Scenariots körningsstatus är markerad som "error".</p> <p>Obs! Detta är standardbeteendet om ingen felhanterarväg är kopplad till modulen och <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">[!UICONTROL Allow storing incomplete executions]</a> ställa in under [!UICONTROL Scenario settings] är inte markerad.</p> </td> 
+   <td> <p>Scenariokörningen stoppas omedelbart och en <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback" class="MCXref xref">återställningsfas</a> startas på alla moduler i ett försök att återställa alla till deras ursprungliga tillstånd. De efterföljande modulerna bearbetas inte.</p> <p>Om du utelämnar ett fåtal feltyper inaktiveras scenariot efter det antal på varandra följande fel som anges under scenarieinställningarna. Mer information finns i <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#number" class="MCXref xref">Antal efterföljande fel</a>.</p> <p>Scenariots körningsstatus är markerad som "error".</p> <p>Obs! Detta är standardbeteendet om ingen felhanterarväg är kopplad till modulen och inställningen <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">[!UICONTROL Allow storing incomplete executions]</a> under [!UICONTROL Scenario settings] inte är markerad.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Verkställ</p> <p> <img src="assets/commit.png"> </p> </td> 
-   <td> <p>Scenariokörningen stoppas omedelbart och en implementeringsfas startas på alla moduler. De efterföljande modulerna bearbetas inte.</p> <p>Alla obearbetade paket ignoreras.</p> <p>Scenariots körningsstatus är markerad som "success". Mer information om implementeringsfaser finns i <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit" class="MCXref xref">Verkställ</a> i artikeln <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Körning av scenarier, cykler och faser i Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Scenariokörningen stoppas omedelbart och en implementeringsfas startas på alla moduler. De efterföljande modulerna bearbetas inte.</p> <p>Alla obearbetade paket ignoreras.</p> <p>Scenariots körningsstatus är markerad som "success". Mer information om implementeringsfaser finns i <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit" class="MCXref xref">Genomför</a> i artikeln <a href="../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md" class="MCXref xref">Scenariokörning, cykler och faser i Adobe Workfront Fusion</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Återuppta</p> <p> <img src="assets/resume.png"> </p> </td> 
@@ -80,7 +80,7 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Brytning</p> <p> <img src="assets/break.png"> </p> </td> 
-   <td> <p>Scenario-körningens tillstånd lagras i kön med ofullständiga körningar där felet kan lösas manuellt. Mer information finns i <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">Visa och lösa ofullständiga körningar i Adobe Workfront Fusion</a>. </p> <p>Det finns dock några undantag. Mer information finns i <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Tillåt lagring av ofullständiga körningar</a> i artikeln <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Panelen för scenarioinställningar i Adobe Workfront Fusion</a>.</p> <p>De efterföljande modulerna bearbetas inte.</p> <p>Om det finns obearbetade paket fortsätter scenariokörningen normalt.</p> <p>Scenariots körningsstatus är markerad som "varning" när [!UICONTROL Automatically complete execution] är inaktiverat.</p> <p>Se <a href="#break" class="MCXref xref">[!UICONTROL Break]</a> för mer information.</p> </td> 
+   <td> <p>Scenario-körningens tillstånd lagras i kön med ofullständiga körningar där felet kan lösas manuellt. Mer information finns i <a href="../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md" class="MCXref xref">Visa och lösa ofullständiga körningar i Adobe Workfront Fusion</a>. </p> <p>Det finns dock några undantag. Mer information finns i <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md#allow" class="MCXref xref">Tillåt lagring av ofullständiga körningar</a> i artikeln <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Panelen för scenarioinställningar i Adobe Workfront Fusion</a>.</p> <p>De efterföljande modulerna bearbetas inte.</p> <p>Om det finns obearbetade paket fortsätter scenariokörningen normalt.</p> <p>Scenariots körningsstatus är markerad som "varning" när alternativet [!UICONTROL Automatically complete execution] är inaktiverat.</p> <p>Mer information finns i avsnittet <a href="#break" class="MCXref xref">[!UICONTROL Break]</a> nedan.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Försök igen</p> <p> <img src="assets/retry.png"> </p> </td> 
@@ -93,14 +93,14 @@ För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Work
 >
 >* Felhanteringsdirektiven kan för närvarande inte användas utanför en felhanteringsväg.
 >
->   Mer information finns i [Felhanterarflöde](../../workfront-fusion/errors/error-handling.md#error) i artikeln [Felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
->* [!DNL Workfront Fusion] för närvarande inte har någon Throw-modul som gör att du enkelt kan generera (utlösa) fel, men en tillfällig lösning kan användas för att efterlikna funktionen.
+>   Mer information finns i [Felhanterarväg](../../workfront-fusion/errors/error-handling.md#error) i artikeln [Felhantering i Adobe Workfront Fusion](../../workfront-fusion/errors/error-handling.md).
+>* [!DNL Workfront Fusion] har för närvarande ingen Throw-modul som gör att du enkelt kan generera (utlösa) fel villkorligt, men en tillfällig lösning kan användas för att efterlikna dess funktioner.
 >
->   Mer information finns i [Tillfällig lösning för Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) i artikeln [Felhantering av fel i Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
+>   Mer information finns i [Lösning för Throw](../../workfront-fusion/errors/throw.md#workaround-for-throw) i artikeln [Hantering av utlösta fel i Adobe Workfront Fusion](../../workfront-fusion/errors/throw.md).
 
 ## Brytning {#break}
 
-När ett fel hanteras av [!DNL Break] -direktivet skapas en post i mappen Ofullständiga körningar. Den här posten lagrar läget för scenariokörningen tillsammans med data från tidigare moduler. Posten refererar till modulen där felet uppstod och innehåller information om vilka data som togs emot av modulen som indata. För varje datapaket som orsakar felet skapas en separat post.
+När ett fel hanteras av direktivet [!DNL Break] skapas en post i mappen Ofullständiga körningar. Den här posten lagrar läget för scenariokörningen tillsammans med data från tidigare moduler. Posten refererar till modulen där felet uppstod och innehåller information om vilka data som togs emot av modulen som indata. För varje datapaket som orsakar felet skapas en separat post.
 
 Mer information finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
 
@@ -110,13 +110,13 @@ Du kan lösa felet manuellt genom att uppdatera scenariot (om det behövs) och k
 
 Du kan också konfigurera scenariot så att det automatiskt bearbetar en ofullständig körning genom att köra scenariot igen. Så här konfigurerar du modulen för att bearbeta ofullständiga körningar:
 
-1. I Break-modulen aktiverar du [!UICONTROL **Slutför körningen automatiskt**] alternativ.
-1. I **Antal försök** ange eller mappa det maximala antal försök som du vill att modulen ska göra om körningen
+1. Aktivera alternativet [!UICONTROL **Slutför körning automatiskt**] i Break-modulen.
+1. I fältet **Antal försök** anger eller mappar du det maximala antalet försök som du vill att modulen ska göra om körningen
 
    Talet måste vara mellan 1 och 100.
-1. I **Intervall mellan försök** anger eller mappar antalet minuter mellan varje nytt försök.
+1. Ange eller mappa antalet minuter mellan varje försök i fältet **Intervall mellan försök**.
 
-När det här alternativet är aktiverat hämtas den ofullständiga körningen när ett fel inträffar (efter den tid som anges i [!UICONTROL Interval between attempts] -fält) och körs med ursprungliga indata. Detta upprepas tills körningen av modulen har slutförts utan fel eller tills det angivna antalet försök har uppnåtts.
+När det här alternativet är aktiverat hämtas den ofullständiga körningen (efter den tid som anges i fältet [!UICONTROL Interval between attempts]) och körs med de ursprungliga indata. Detta upprepas tills körningen av modulen har slutförts utan fel eller tills det angivna antalet försök har uppnåtts.
 
 >[!NOTE]
 >

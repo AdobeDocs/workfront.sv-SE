@@ -11,7 +11,7 @@ feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: true
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: db8cbf0a33830ab400d9acc0ec02fbabef2e19e8
 workflow-type: tm+mt
 source-wordcount: '213'
 ht-degree: 0%
@@ -22,9 +22,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 30 november 2020.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Hastighetsgräns för Workfront Fusion 2.0-webbhooks.
 
@@ -32,7 +32,7 @@ Vi har introducerat ett nytt prestandaresäkerhetsskydd för Workfront Fusion 2.
 
 Tidigare var webkrok-begäranden inte begränsade.
 
-Mer information finns i [Adobe Workfront Fusion - prestandaräknare](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
+Mer information finns i [Adobe Workfront Fusions prestandaresäkerhetsutkast](../../../../../workfront-fusion/get-started/fusion-performance-guardrails.md).
 
 ## Lägga till ett anpassat formulär i ett Workfront-objekt i Workfront Fusion 2.0
 
@@ -40,7 +40,7 @@ För att du ska kunna lägga till anpassade formulär till objekt är Workfront 
 
 Tidigare var det inte möjligt att använda en Workfront Fusion 2.0-modul för att lägga till ett anpassat formulär i ett objekt i Workfront.
 
-Mer information om Workfront > Div. Åtgärdsmodul, se [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information om Workfront > Div. Åtgärdsmodul, se [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

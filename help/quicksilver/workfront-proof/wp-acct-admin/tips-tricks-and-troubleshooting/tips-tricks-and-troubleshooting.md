@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting;reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
-title: Tips, tricks och felsökning för [!DNL Workfront] Korrektur för kontoadministration
-description: Lär dig hur du felsöker Workfront Korrekturkonton.
+title: Tips, tricks och felsökning för  [!DNL Workfront] Korrekturkontoadministration
+description: Lär dig hur du felsöker Workfront Proof-konton.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# Tips, tricks och felsökning för [!DNL Workfront Proof] kontoadministration
+# Tips, tricks och felsökning för kontoadministration av [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Frågor och svar: [!DNL Workfront Proof] - Migrering från USA till EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
+* [Vanliga frågor: [!DNL Workfront Proof] - Migrering mellan USA och EMEA](../../../workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)

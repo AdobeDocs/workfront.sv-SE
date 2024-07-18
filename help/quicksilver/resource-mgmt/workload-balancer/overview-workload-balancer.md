@@ -26,11 +26,11 @@ När projektledare har planerat arbetet i projekt genom att skapa uppgifter och 
 >
 >Du kan använda belastningsutjämnaren för att tilldela användare verkligt arbete (uppgifter och ärenden).
 >
->Du måste använda Resursplanering och inte Utjämning av arbetsbelastning för att beräkna rollallokeringar för dina projekt på en hög nivå. Mer information om resursplaneraren finns i [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>Du måste använda Resursplanering och inte Utjämning av arbetsbelastning för att beräkna rollallokeringar för dina projekt på en hög nivå. Mer information om resursplaneraren finns i [Översikt över resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 I den här artikeln beskrivs det allmänna syftet med Utjämning av arbetsbelastning och några av de bästa sätten att konfigurera projekt och resurser så att de kan användas.
 
-Om du vill se videosjälvstudiekurser om arbetsbelastningsutjämnaren går du till [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) sida. Välj **Hantera resurser** > **Utjämning av arbetsbelastning** och välja en självstudiekurs.
+Gå till sidan [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html) om du vill se videosjälvstudiekurser om arbetsbelastningsutjämnaren. Välj **Hantera resurser** > **Utjämning av arbetsbelastning** på den vänstra menyn och välj en självstudiekurs.
 
 ## Leta reda på arbetsbelastningsutjämnaren
 
@@ -44,7 +44,7 @@ Vi rekommenderar att du använder Utjämning av arbetsbelastning i följande omr
 * På projektnivå i avsnittet Arbetsbelastningsutjämning i ett projekt.
 * På teamnivå, i avsnittet Arbetsbelastningsutjämning i ett team.
 
-Mer information om hur du hittar arbetsbelastningsutjämnaren finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Mer information om hur du hittar arbetsbelastningsutjämnaren finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Fördelar med Utjämning av arbetsbelastning
 
@@ -58,18 +58,18 @@ Tänk på följande fördelar när du använder arbetsbelastningsutjämnaren:
 * Som personledare kan ni skydda era medarbetare från bränning och ge dem möjlighet att göra sitt bästa med bättre fokus, kvalitet och engagemang. Ni kan se till att de används fullt ut, bryta vattentäta skott och göra det möjligt att anpassa arbetet mellan olika team.
 * När du tilldelar arbete på aktivitets- eller problemnivå har du inte insikt i hur mycket en användare kan vara upptagen. När du använder Utjämning av arbetsbelastning kan du visa vilka användare som har tillgänglighet i sin arbetsbelastning för att slutföra uppgiften eller problemet i tid. Detta inkluderar deras ledig tid och information om schemaläggningsundantag.
 
-  Mer information finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+  Mer information finns i [Översikt över hur du tilldelar arbete i Arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  Du kan också tilldela flera arbetsobjekt samtidigt, vilket gör det enklare att distribuera flera arbetsobjekt samtidigt i flera projekt. Mer information finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+  Du kan också tilldela flera arbetsobjekt samtidigt, vilket gör det enklare att distribuera flera arbetsobjekt samtidigt i flera projekt. Mer information finns i [Tilldela flera arbeten samtidigt med hjälp av arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 * Cheferna kan fatta vältajmade personalbeslut genom öppenhet och insyn i hur de använder sina anställda.
-* Teammedlemmarna drar nytta av bättre samarbete eftersom de alla kan se vad deras medarbetare arbetar med vid en viss tidpunkt. Mer information om den åtkomst som behövs för att visa eller hantera resurser i Utjämning av arbetsbelastning finns i [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+* Teammedlemmarna drar nytta av bättre samarbete eftersom de alla kan se vad deras medarbetare arbetar med vid en viss tidpunkt. Mer information om den åtkomst som behövs för att visa eller hantera resurser i arbetsbelastningsutjämnaren finns i [Åtkomst som behövs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 * Dela den med alla som inte har tillgång till resursområdet genom att bädda in en länk till den på en anpassad flik. Mer information finns i [Dela arbetsbelastningsutjämnaren med en länk](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * Visualisera och hantera människors arbetsbelastning och efterfrågan i en vy på global nivå, projekt- eller teamnivå, beroende på din roll. När du hanterar projekt omfattar detta inte bara resurstilldelning för projektet, utan även visualisering av resursallokeringen från Adobe Workfront Scenario Planner. Anställda använder Workfront Scenario Planner för att hantera jobbfärdigheter i hela organisationen. Scenarioplaneraren är bara tillgänglig i den nya Adobe Workfront-upplevelsen.
 
   >[!NOTE]
   >
-  >  Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenario Planner finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
+  >  Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../scenario-planner/scenario-planner-overview.md).
 
 
 ## Bästa tillvägagångssätt för att använda belastningsutjämnaren
@@ -84,13 +84,13 @@ Vi rekommenderar följande metodtips för att planera projekt, konfigurera anvä
 
 Vi rekommenderar att du använder filter så att du bara kan visa den information som är relevant för dig för både ej tilldelade och tilldelade arbetsuppgifter.
 
-Mer information om hur du skapar och använder filter i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Mer information om hur du skapar och använder filter i Arbetsbelastningsutjämnaren finns i [Filtrera information i Arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
 ### Bästa tillvägagångssätt för att konfigurera användare
 
 * Som den användare som schemalägger arbete åt andra måste du ha rätt behörighet och behörighet för att schemalägga resurser för arbete.
 
-  Mer information om åtkomsten som behövs för att hantera arbetsbelastningen för dina resurser i Arbetsbelastningsutjämnaren finns i [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+  Mer information om åtkomsten som krävs för att hantera arbetsbelastningen för dina resurser i arbetsbelastningsutjämnaren finns i [Åtkomst som behövs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
 * De användare vars arbetsbelastning du vill hantera måste uppfylla följande kriterier så att informationen om deras tillgänglighet och kompetens är korrekt:
 
@@ -100,11 +100,11 @@ Mer information om hur du skapar och använder filter i Utjämning av arbetsbela
    * Om en användare inte är associerad med ett schema, är standardschemat i ditt Workfront-system associerat med användaren som standard för resurshantering.
    * Se till att scheman för schemaundantag uppdateras.
 
-     Mer information om hur du skapar scheman finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+     Mer information om att skapa scheman finns i [Skapa ett schema](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
    * Få sin&quot;Time Off&quot;-kalender uppdaterad i sin profil.
 
-     Mer information om hur du uppdaterar en användares ledig tid-kalender finns i [Konfigurera ledig tid](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     Mer information om hur du uppdaterar en användares Tid utanför kalendern finns i [Konfigurera personlig tid för ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
@@ -131,15 +131,15 @@ Se till att följande konfigurering av uppgifter och utgåvor finns innan du bö
 
 * Granska följande artiklar innan du börjar använda Utjämning av arbetsbelastning:
 
-   * I den här artikeln beskrivs hur du navigerar i arbetsbelastningsutjämnaren för att utföra följande åtgärder: [Navigera till arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
+   * I den här artikeln beskrivs hur du navigerar i arbetsbelastningsutjämnaren för att utföra följande åtgärder: [Navigera i arbetsbelastningsutjämnaren](../workload-balancer/navigate-the-workload-balancer.md).
 
    * I följande artiklar beskrivs hur du tilldelar arbete och hanterar användartilldelningar:
 
-      * [Översikt över tilldelning av arbete i belastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Hantera användarallokeringar i Utjämning av arbetsbelastning](../workload-balancer/manage-user-allocations-workload-balancer.md).
+      * [Översikt över tilldelning av arbete i arbetsbelastningsutjämnaren](../workload-balancer/assign-work-in-workload-balancer.md).
+      * [Hantera användarallokeringar i arbetsbelastningsutjämnaren](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
-* Utjämningen av arbetsbelastning finns i flera olika delar av Workfront. Mer information om var du kan hitta belastningsutjämnaren finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* Utjämningen av arbetsbelastning finns i flera olika delar av Workfront. Mer information om var du kan hitta arbetsbelastningsutjämnaren finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Åtkomst krävs för att använda arbetsbelastningsutjämnaren
 
-Du måste ha rätt åtkomst och behörighet för Workfront till specifika projekt för att kunna visa och använda arbetsbelastningsutjämnaren i Workfront. Mer information om åtkomsten som behövs för att använda belastningsutjämnaren finns i artikeln [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
+Du måste ha rätt åtkomst och behörighet för Workfront till specifika projekt för att kunna visa och använda arbetsbelastningsutjämnaren i Workfront. Mer information om den åtkomst som behövs för att använda arbetsbelastningsutjämnaren finns i artikeln [Åtkomst som behövs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

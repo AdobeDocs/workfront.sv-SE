@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla rapportförbättringar som gjorts i version 21.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Nytt utseende och ny känsla för uppdragsfältet i uppdaterade listor och rapporter
 
@@ -58,6 +58,6 @@ För att matcha det moderna utseendet i andra områden i den nya Workfront-upple
 * När du klickar på ett texthuvudsfält visas nu förslagsmenyn innan du anger text.
 * Menyn med förslag är mer responsiv med värdenas längd och dessa värden trunkeras nu i slutet när teckengränsen nås i stället för i mitten av värdet.
 
-Information om uppdaterade listor finns i [Skillnaden mellan de uppdaterade och de äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Mer information om uppdaterade listor finns i avsnittet [Skillnaden mellan de uppdaterade och äldre listorna](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) i artikeln [Kom igång med listor i Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 ![](assets/typeahead-updates-350x336.png)

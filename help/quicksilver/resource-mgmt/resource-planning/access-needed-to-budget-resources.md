@@ -48,22 +48,22 @@ För att kunna budgetera resurser, hantera resurspooler och se Kostnadsinformati
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> 
     <ul> 
-     <li> <p>Redigera åtkomsten till resurshantering på din åtkomstnivå som innehåller:</p> 
+     <li> <p>Redigera åtkomsten till resurshanteringen på din åtkomstnivå som innehåller:</p> 
       <ul> 
        <li> <p>Åtkomst att redigera projektprioriteringar och budgettimmar. </p> </li> 
        <li> <p>Åtkomst för att hantera resurspooler, om du behöver hantera resurspoolen.</p> </li> 
-      </ul> <p>Mer information om åtkomstnivån Resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Bevilja åtkomst till resurshantering</a>.</p> </li> 
+      </ul> <p>Mer information om åtkomstnivån för resurshantering finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Bevilja åtkomst till resurshantering</a>.</p> </li> 
      <li> <p>Redigera åtkomst till projekt och användare. </p> </li> 
-     <li> <p> Redigera åtkomsten till finansiella data på din åtkomstnivå om du behöver visa eller hantera information via kostnad.</p> <p>Mer information om åtkomstnivån för finansiella data finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till finansiella uppgifter</a>.</p> </li> 
+     <li> <p> Redigera åtkomsten till finansiella data på din åtkomstnivå om du behöver visa eller hantera information via kostnad.</p> <p>Mer information om åtkomstnivån för finansiella data finns i artikeln <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Bevilja åtkomst till ekonomiska data</a>.</p> </li> 
     </ul>
 
-<p><b>ANMÄRKNING</b> </p>
+<p><b>OBS!</b> </p>
 
-<p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+<p> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för projektet med behörigheterna Hantera ekonomi.</p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Information om ekonomiska behörigheter för ett projekt finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a></a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Begär åtkomst till objekt </a>.</p>
+   <td> <p>Hantera behörigheter för projektet med behörigheterna Hantera ekonomi.</p> <p>Mer information om projektbehörigheter finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Dela ett projekt i Adobe Workfront</a>.</p> <p>Mer information om ekonomiska behörigheter för ett projekt finns i artikeln <a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">Dela ekonomiska behörigheter för ett objekt</a></a>.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">Begär åtkomst till objekt </a>.</p>
 
 <p><b>ANMÄRKNING</b>
 

@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar av resurshanteringen som gjorts med 2020.2-versionen till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 maj 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.2 finns på [Översikt över version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.2 finns i [2020.2 versionsöversikt](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 Personer är en Tier 1-resurs. Med belastningsutjämnaren kan du skydda dem från utbränning och ge dem möjlighet att göra sitt bästa, samtidigt som de anpassas till viktiga företagsstrategier. Vi presenterar en omdesignad schemaläggningsfunktion som gör att du kan visualisera och hantera människors arbetsbelastning och efterfrågan i samma vy. Användargränssnittet ger tydlig visuell mappning av över- och underanvändning och är transparent för alla intressenter. Personhanterare kan använda den informationen som indata och från samma skärm balansera arbetet genom tidslinjen, som sedan återspeglas i resten av Workfront-plattformen.
 
 >[!NOTE]
 >
->Utjämningen av arbetsbelastning började lanseras som en betaversion i version 2019.4. Alla förbättringar av belastningsutjämnaren är i allmänhet tillgängliga i version 2020.2. De förbättringar som beskrivs på den här sidan lades till i version 2020.2. En översikt över belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Utjämningen av arbetsbelastning började lanseras som en betaversion i version 2019.4. Alla förbättringar av belastningsutjämnaren är i allmänhet tillgängliga i version 2020.2. De förbättringar som beskrivs på den här sidan lades till i version 2020.2. En översikt över arbetsbelastningsutjämnaren finns i [Översikt över arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 ## Justera daglig och veckovis allokering i Utjämning av arbetsbelastning
 
@@ -36,7 +36,7 @@ Före den här förbättringen var detta bara möjligt med verktygen för resurs
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(DO NOT ADD THIS, JUST ADD THE VIDEO FOR NOW: For information about managing allocations in the Workload Balancer, see /Content/Resource Mgmt/Workload Balancer/Manage hours in the Workload Balancer.htm.)</p>
 -->
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -45,7 +45,7 @@ Före den här förbättringen var detta bara möjligt med verktygen för resurs
 
 Om du vill göra informationen i Utjämning av arbetsbelastning relevant för dig kan du nu skapa filter för både Ej tilldelat arbete och Tilldelade arbetsområden i Utjämning av arbetsbelastning och spara dem för framtida bruk. Du kan sedan redigera den sparade versionen för att göra små ändringar i den i stället för att börja från början med ett nytt filter.
 
-Mer information om filtrering i Arbetsbelastningsutjämnaren finns i [Hantera filter i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+Mer information om filtrering i arbetsbelastningsutjämnaren finns i [Hantera filter i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -55,7 +55,7 @@ Mer information om filtrering i Arbetsbelastningsutjämnaren finns i [Hantera fi
 
 .
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -64,9 +64,9 @@ Mer information om filtrering i Arbetsbelastningsutjämnaren finns i [Hantera fi
 
 För att du ska kunna fatta rätt beslut om tilldelning kan du nu med en ny inställning visa skillnaden mellan antalet timmar mellan de timmar som en användare är tillgänglig att arbeta enligt sitt schema och de timmar som han/hon redan har tilldelats till arbetet (återstående timmar). Den nya inställningen är nu tillgänglig i Utjämning av arbetsbelastning.
 
-Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera till arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
+Mer information om hur du visar information i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Nya Adobe Workfront
 
@@ -76,9 +76,9 @@ För att du lättare ska förstå hur uppgifter påverkar arbetsbelastningen fö
 
 Före den här ändringen uppdaterades endast information i området Tilldelad arbetsyta i Utjämnaren.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera till arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Den nya Adobe Workfront-upplevelsen (tidigare endast för uppgifter)
@@ -90,9 +90,9 @@ För att effektivisera din upplevelse finns nu en inställningsruta som visar yt
 * Gruppera efter projekt
 * Visa antingen Allokerade timmar eller Återstående timmar för dina aktiviteter och projekt.
 
-Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera till arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).).
+Mer information om hur du visar information i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648).)
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -101,9 +101,9 @@ Mer information om hur du visar information i Arbetsbelastningsutjämnaren finns
 
 Nu kan du dela personalens arbetsbörda med chefer så att de kan få en kontext om personalens behov. För detta kan du nu dela arbetsbelastningsutjämnaren genom att dela en unik URL till arbetsbelastningsutjämnaren med någon annan.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera till arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -114,9 +114,9 @@ För att ytterligare hjälpa dig att anpassa tidslinjens varaktighet för belast
 
 Före den här förbättringen visas alltid information om arbetsbelastningsutjämnaren med början i den aktuella veckan.
 
-Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera till arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
+Mer information om hur du navigerar i arbetsbelastningsutjämnaren finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) (eller om du använder Adobe Workfront Classic, se [Navigera i arbetsbelastningsutjämnaren](https://one.workfront.com/s/article/Navigate-the-Workload-Balancer-1841453648)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Den nya Adobe Workfront-upplevelsen (tidigare)
@@ -129,13 +129,13 @@ Om du till exempel flyttar eller kopierar en uppgift med en must Start On-begrä
 
 Före den här ändringen ändras alltid aktivitetsbegränsningen till Så snart som möjligt.
 
-Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta aktiviteter](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta uppgifter](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Information om hur du kopierar uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-En översikt över alla uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över begränsning av aktivitet](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+En översikt över alla aktivitetsbegränsningar finns i [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över aktivitetsbegränsning](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -146,7 +146,7 @@ För att förhindra dataförlust när du uppdaterar information på detaljsidan 
 
 Mer information om hur du redigerar uppgifter i en lista finns i [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Nya Adobe Workfront
 
@@ -161,11 +161,11 @@ Anpassade statusvärden kan nu användas både i enstaka och i systemomfattande 
 * Skapa en godkännandeprocess för ett objekt (projekt, uppgift eller utgåva) och basera den på statusvärden som är kopplade till gruppen som arbetar med objektet. Detta inkluderar alla anpassade statusvärden som är associerade med gruppen.
 * Skapa en global godkännandeprocess och gör den tillgänglig endast för gruppen eller för alla i systemet.
 
-För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapar godkännandeprocesser](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapa godkännandeprocesser](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-För användare finns information om hur du associerar godkännandeprocesser med arbetsobjekt i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Koppla en ny eller befintlig godkännandeprocess till arbete](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Information om hur du associerar godkännandeprocesser med arbetsobjekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Associera en ny eller befintlig godkännandeprocess med arbete](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -174,7 +174,7 @@ För användare finns information om hur du associerar godkännandeprocesser med
 
 För att göra det enklare att hantera en användares tilldelningar till en arbetsuppgift i Utjämning av arbetsbelastning kan du nu dubbelklicka på arbetsposten. Du kan även använda menyalternativet Redigera allokeringar. Dessutom behöver du inte längre aktivera displaying-allokeringar för att kunna uppdatera dem.
 
-Mer information om hur du hanterar allokeringar i Arbetsbelastningsutjämnaren finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Mer information om hur du hanterar allokeringar i belastningsutjämnaren finns i [Hantera användarallokeringar i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 ## Uppdatera aktivitetsplanerade timmar i arbetsbelastningsutjämnaren
 
@@ -184,10 +184,10 @@ Mer information om hur du hanterar allokeringar i Arbetsbelastningsutjämnaren f
 
 Ett nytt alternativ i området Resurshantering på åtkomstnivån ger nu användare med den här åtkomsten möjlighet att redigera Planerade timmar från belastningsutjämnaren. När du justerar allokeringar i belastningsutjämnaren behöver den totala dagliga allokeringen inte matcha antalet planerade timmar för aktiviteterna. När du har sparat dina allokeringar blir det totala antalet allokeringstimmar antalet planerade timmar för uppgiften. Detta är bara möjligt för aktiviteter som har en enkel varaktighetstyp.
 
-Mer information om hur du hanterar allokeringar i Arbetsbelastningsutjämnaren finns i [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Mer information om hur du hanterar allokeringar i belastningsutjämnaren finns i [Hantera användarallokeringar i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 Mer information om hur du beviljar åtkomst till resurshantering finns i [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
 ## Ta bort betaetiketten från arbetsbelastningsutjämnaren
 
-I version 2020.2 är arbetsbelastningsutjämnaren inte längre i betaversion och du kan använda resursutjämnaren för att granska och hantera resurstilldelningar och allokeringar. Betaetiketten har tagits bort i förhandsvisningsmiljön. Samma ändring kommer att göras i 20.2-utgåvan. Mer information om belastningsutjämnaren finns i [Översikt över belastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+I version 2020.2 är arbetsbelastningsutjämnaren inte längre i betaversion och du kan använda resursutjämnaren för att granska och hantera resurstilldelningar och allokeringar. Betaetiketten har tagits bort i förhandsvisningsmiljön. Samma ändring kommer att göras i 20.2-utgåvan. Mer information om arbetsbelastningsutjämnaren finns i [Översikt över arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).

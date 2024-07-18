@@ -14,18 +14,18 @@ ht-degree: 0%
 
 # Kom igång med [!DNL Scenario Planner]
 
-The [!DNL Scenario Planner] kräver ytterligare licens för [!DNL Adobe Workfront] licens. Mer information om Workfront [!DNL Scenario Planner], se [The [!DNL Scenario Planner] översikt](../scenario-planner/scenario-planner-overview.md).
+[!DNL Scenario Planner] kräver ytterligare en licens till [!DNL Adobe Workfront]-licensen. Mer information om Workfront [!DNL Scenario Planner] finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
 
-Du kan använda [!DNL Adobe Workfront Scenario Planner] för att skapa planer på företagsnivå som skisserar företagets övergripande strategiska resultat. Du kan definiera flera initiativ för en plan och placera dem i olika scenarier för att hitta den optimala lösningen för att genomföra planen.
+Du kan använda [!DNL Adobe Workfront Scenario Planner] för att skapa företagsplaner som ger en översikt över företagets övergripande strategiska resultat. Du kan definiera flera initiativ för en plan och placera dem i olika scenarier för att hitta den optimala lösningen för att genomföra planen.
 
-För en översikt över [!DNL Workfront Scenario Planner], se [The [!DNL Scenario Planner] översikt](../scenario-planner/scenario-planner-overview.md).
+En översikt över [!DNL Workfront Scenario Planner] på hög nivå finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
 
 ## Metoder för att använda [!DNL Workfront Scenario Planner]
 
 Det finns två sätt att använda [!DNL Workfront Scenario Planner]:
 
-* **En uppifrån och ned-metod**: Som chef kan du använda [!DNL Workfront Scenario Planner] för att planera smidigt, granska scenarier för era högnivåsatsningar och samla in feedback för framtiden på ett sammanhängande sätt. Här kan ni definiera hur många resurser och vilken budget organisationen behöver för att kunna ta fram strategiska initiativ för ert företag.
-* **En nedifrån och upp-metod**: Som arbetschef kan du använda [!DNL Workfront Scenario Planner] för att definiera resultat för olika avdelningar. Här kan ni börja med att skissa upp de olika avdelningsinitiativen för att uppnå dessa resultat, samtidigt som ni anger vilka resurser och vilken budget som krävs för att uppnå dem. Oberoende av vad organisationens chef har för budget kan ni tala om för dem vad avdelningen behöver genom att definiera kostnader och resurser för varje initiativ. När du är klar med den här planeringen utvärderar organisationens chef alla initiativ, skapar och inspekterar flera scenarier och avgör vad som passar i budgeten och vad som behöver planeras om.
+* **En uppifrån och ned-metod**: Som chef kan du använda [!DNL Workfront Scenario Planner] för att planera smidigt, granska scenarier för dina högnivåinitiativ och samla in feedback för framtiden på ett sammanhängande sätt. Här kan ni definiera hur många resurser och vilken budget organisationen behöver för att kunna ta fram strategiska initiativ för ert företag.
+* **En nedifrån och upp-metod**: Som arbetshanterare kan du använda [!DNL Workfront Scenario Planner] för att definiera avdelningsutfall för företaget. Här kan ni börja med att skissa upp de olika avdelningsinitiativen för att uppnå dessa resultat, samtidigt som ni anger vilka resurser och vilken budget som krävs för att uppnå dem. Oberoende av vad organisationens chef har för budget kan ni tala om för dem vad avdelningen behöver genom att definiera kostnader och resurser för varje initiativ. När du är klar med den här planeringen utvärderar organisationens chef alla initiativ, skapar och inspekterar flera scenarier och avgör vad som passar i budgeten och vad som behöver planeras om.
 
 ## Fördelar med att använda [!DNL Workfront Scenario Planner]
 
@@ -33,39 +33,39 @@ Som affärschef måste ni planera rätt uppsättning initiativ i större skala o
 
 Ni måste snabbt och enkelt utveckla rimliga scenarier och sedan fastställa den bästa vägen framåt för att säkerställa att ni uppfyller era affärsbehov.
 
-Följande är fördelar med [!DNL Workfront Scenario Planner] för att hjälpa dig uppnå detta resultat:
+Följande är fördelar med [!DNL Workfront Scenario Planner] som hjälper dig att uppnå det här resultatet:
 
-* Frihand och ad hoc: Du kan snabbt skapa scenarier som definierar organisationens viktiga initiativ med minimalt, högnivåindata för resurser som behövs.
-* Visual and simple: Du kan snabbt skapa ett enkelt och informativt schema för den plan du vill att organisationen ska följa.
-* Markera beroenden: Ta del av den viktigaste informationen, identifiera nödvändiga ändringar och se förslag på vilka personaländringar eller monetära förändringar du kan behöva göra för att slutföra strategin.
-* Bestäm den bästa vägen framåt: Spara och jämför scenarier, underlätta samarbete och samförstånd och genomför planen för genomförande.
-* Koppla samman er strategi med ert material: Importera projekt som nya initiativ för dina planer.
+* Frihand och ad hoc: Du kan snabbt skapa scenarier som definierar organisationens huvudinitiativ med minimalt antal indata på hög nivå för resurser som behövs.
+* Visuell och enkel: Du kan snabbt skapa ett visuellt schema för den plan som du vill att organisationen ska följa som är enkelt och informativt.
+* Framhäv beroenden: Hitta den viktigaste informationen, identifiera nödvändiga ändringar och se förslag på vilka personaländringar eller monetära ändringar du kan behöva göra för att slutföra strategin.
+* Bestäm den bästa vägen framåt: Spara och jämför scenarier, underlätta samarbete och samförstånd och implementera planen för utförande.
+* Koppla samman er strategi med ert arbete: Importera projekt som nya initiativ för era planer.
 
-## Leta reda på [!DNL Workfront Scenario Planner] i Workfront
+## Hitta [!DNL Workfront Scenario Planner] i Workfront
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Scenarios]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Scenarios]**.
 
    <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   The [!DNL Workfront Scenario Planner] visas.
+   [!DNL Workfront Scenario Planner] visas.
 
    >[!IMPORTANT]
    >
-   >The [!DNL Workfront Scenario Planner] innehåller de planer du har skapat. Om du vill se en annan användares plan måste han/hon dela URL:en för den planen med dig.
+   >[!DNL Workfront Scenario Planner] innehåller de planer du har skapat. Om du vill se en annan användares plan måste han/hon dela URL:en för den planen med dig.
 
 1. (Valfritt) Klicka på namnet på en plan för att öppna den och se informationen.
 
    eller
 
-   Klicka **[!UICONTROL New Plan]** för att lägga till en ny plan.
+   Klicka på **[!UICONTROL New Plan]** om du vill lägga till en ny plan.
 
-   Mer information om att skapa planer finns i [Skapa och redigera planer i scenarioplaneraren](../scenario-planner/create-and-edit-plans.md).
+   Mer information om hur du skapar planer finns i [Skapa och redigera planer i scenarioplanen](../scenario-planner/create-and-edit-plans.md).
 
 ## [!DNL Workfront Scenario Planner] objekt
 
-Tabellen nedan beskriver [!DNL Workfront Scenario Planner] objekt. Dina [!DNL Workfront] kan administratören anpassa sitt namn i systemet genom att ändra en layoutmall och tilldela den till användare, team eller grupper. Mer information om hur du anpassar objektnamn med hjälp av en layoutmall finns i [Anpassa användargränssnittsterminologi med hjälp av en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Tabellen nedan beskriver [!DNL Workfront Scenario Planner]-objekten. Administratören för [!DNL Workfront] kan anpassa sitt namn i systemet genom att ändra en layoutmall och tilldela den till användare, team eller grupper. Mer information om hur du anpassar objektnamn med hjälp av en layoutmall finns i [Anpassa användargränssnittsterminologi med hjälp av en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
-Mer information om [!DNL Workfront] objekt, se [Förstå objekt i Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om [!DNL Workfront] objekt finns i [Förstå objekt i Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 | Objektnamn | Beskrivning |
 |---|---|

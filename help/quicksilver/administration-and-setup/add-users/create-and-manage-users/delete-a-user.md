@@ -53,8 +53,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Du måste ha något av följande:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p><b>Användare</b> ange din åtkomstnivå som <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst en av de två <b>Användaradministratör</b> alternativ aktiverade under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>av dessa två alternativ, om användaren <b>Administratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om <b>Användare</b> ange en åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst för användare</a>.</p> </li> 
+     <li> <p>Åtkomstnivån Systemadministratör. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
+     <li> <p><b>Användare</b> i din åtkomstnivå har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två <b>användaradministratörsalternativen</b> som har aktiverats under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Om användaren <b>Admin (gruppanvändare)</b> är aktiverad måste du vara gruppadministratör för en grupp där användaren är medlem.</p> <p>Mer information om inställningen <b>Användare</b> på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -64,7 +64,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 När du inaktiverar en användare händer följande:
 
-* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront-korrektur: artikelindex](../../../workfront-proof/workfront-proof.md).
+* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront Proof-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront Proof: artikelindex](../../../workfront-proof/workfront-proof.md).
 * Användaren kan inte längre tilldelas arbete.
 * Användaren kan inte längre läggas till i uppdateringar.
 * Användaren kan inte längre läggas till i team eller grupper.
@@ -76,8 +76,8 @@ När du inaktiverar en användare händer följande:
 
      >[!NOTE]
      >
-     >Om du inaktiverar en användare och inte längre kan visa rapporter eller kontrollpaneler som är kopplade till en användare, kan du behöva uppdatera **Kör den här rapporten med åtkomsträttigheterna för:** fält.\
-     >Mer information finns i [Varför kan jag inte komma åt en rapport som ägs av en inaktiverad användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) i [Vanliga frågor och svar om rapporter](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artikel.
+     >Om du inaktiverar en användare och inte längre kan visa rapporter eller instrumentpaneler som är kopplade till en användare, kan du behöva uppdatera **Kör den här rapporten med åtkomstbehörigheten**.\
+     >Mer information finns i [Varför kan jag inte komma åt en rapport som ägs av en inaktiverad användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) i artikeln [Rapporterar vanliga frågor och svar](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Dokument
    * Uppdateringar
@@ -87,7 +87,7 @@ När du inaktiverar en användare händer följande:
 
 Om du tar bort en användare händer följande:
 
-* Tar bort användarens licenser till både Workfront och Workfront Proof om Workfront-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront-korrektur: artikelindex](../../../workfront-proof/workfront-proof.md).
+* Tar bort användarens licenser till både Workfront och Workfront Proof, om Workfront Proof-komponenten är kopplad till ditt Workfront-konto. Mer information om Workfront Proof finns i [Workfront Proof: artikelindex](../../../workfront-proof/workfront-proof.md).
 * Användaren kan inte längre tilldelas arbete.
 * Användaren kan inte längre läggas till i uppdateringar.
 * Användaren kan inte längre läggas till i team eller grupper.
@@ -100,7 +100,7 @@ Om du tar bort en användare händer följande:
      >[!NOTE]
      >
      >Du förlorar även åtkomsten till anpassade avsnitt som innehöll kontrollpaneler som är kopplade till den borttagna användaren.\
-     >Mer information finns i [Hur får jag åtkomst till en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) i [Vanliga frågor och svar om rapporter](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) artikel.
+     >Mer information finns i [Hur kommer jag åt en instrumentpanel som innehåller en rapport som ägs av en borttagen användare?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) i artikeln [Rapporterar vanliga frågor och svar](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md).
 
    * Uppdateringar
    * Timmar
@@ -118,11 +118,11 @@ Du kan ta bort användare en åt gången permanent eller ta bort flera användar
 
 ## Ta bort en eller flera användare
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Användare**.
-1. Markera minst en användare som du vill ta bort och klicka på menyn Mer ![](assets/more-icon.png)och sedan klicka **Ta bort**.
-1. Klicka i rutan som visas **Ta bort** för att bekräfta borttagningen.
+1. Klicka på **Användare**.
+1. Markera minst en användare som du vill ta bort, klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Ta bort**.
+1. I rutan som visas klickar du på **Ta bort** för att bekräfta borttagningen.
 
    Processen att ta bort användare körs som en bakgrundsprocess, så du kan fortsätta använda Workfront när användaren eller användarna tas bort.
 

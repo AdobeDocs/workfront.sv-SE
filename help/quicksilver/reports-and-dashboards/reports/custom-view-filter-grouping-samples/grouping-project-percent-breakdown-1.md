@@ -2,30 +2,30 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Gruppering: projektprocentuell uppdelning 1'
+title: 'Gruppering: projektprocentuell uppdelning 1'
 description: I den här anpassade projektgrupperingen kan du visa projekt grupperade efter ett intervall av deras procentvärden för slutförande.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 2%
+source-wordcount: '280'
+ht-degree: 0%
 
 ---
 
-# Gruppering: projektprocentuell uppdelning 1
+# Gruppering: uppdelad projektprocent 1
 
 I den här anpassade projektgrupperingen kan du visa projekt grupperade efter ett intervall av deras procentvärden för slutförande.
 
 I följande gruppering ordnas projekt efter procentvärdet färdigt i en av dessa grupperingar:
 
-* 0%
-* 1-25%
-* 26-50%
-* 51-75%
-* 76-99%
-* 100%
+* 0 %
+* 1-25 %
+* 26-50 %
+* 51-75 %
+* 76-99 %
+* 100 %
 
 ![percent_complete_break_custom_project_grouping_25__increments.png](assets/percent-complete-breakdown-custom-350x56.png)
 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en gruppering</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr>  
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -66,10 +66,10 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 Så här använder du den här grupperingen:
 
 1. Gå till en lista med projekt.
-1. Från **Gruppering** nedrullningsbar meny, välja **Ny gruppering**.
+1. Välj **Ny gruppering** i listrutan **Gruppering**.
 
-1. Klicka **Växla till textläge**.
+1. Klicka på **Växla till textläge**.
 1. Ta bort texten i rutan och klistra in följande kod i det tillgängliga utrymmet:
-   <pre>group.0.linkedname=direct<br>group.0.name=Procent, uppdelning<br>group.0.notime=false<br>group.0.valueexpression=IF({percentComplete}=0,"0 %",IF({percentComplete}&lt;=26,"0-25 %",IF({percentComplete}&lt;=51,"25-50 %",IF({percentComplete}&lt;=76,"50-75 %",IF({percentComplete} &lt;100,"75-99 %","100 %")))<br>group.0.valueformat=string</pre>
+   <pre>group.0.linkedname=direct<br>group.0.name=Percent Breakdown<br>group.0.notime=false<br>group.0.valueexpression=IF({percentComplete}=0,"0 %",IF({percentComplete}&lt;=26,"0-25 %",IF({percentComplete}&lt;=51,"25-50 %" IF({percentComplete}&lt;=76,"50-75 %",IF({percentComplete}&lt;100,"75-99 %","100 %")))<br>group.0.valueFormat=string</pre>
 
-1. Klicka **Spara gruppering**.
+1. Klicka på **Spara gruppering**.

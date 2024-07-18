@@ -1,21 +1,21 @@
 ---
-title: Konfigurera [!DNL Workfront] och [!DNL Frame.io] integration
+title: Konfigurera integreringen av [!DNL Workfront] och [!DNL Frame.io] erna
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Som en [!DNL Adobe Workfront] administratör kan du integrera [!DNL Workfront] med [!DNL Frame.io] och ge organisationen ett smidigt sätt att granska och godkänna resurser.
+description: Som  [!DNL Adobe Workfront] administratör kan du integrera [!DNL Workfront] med [!DNL Frame.io] och ge din organisation ett smidigt sätt att granska och godkänna resurser.
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-source-git-commit: 089173acb8fecd920ca096c5bf9c6ee61910c20b
+exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
+source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 0%
 
 ---
 
-
-# Konfigurera [!DNL Workfront] och [!DNL Frame.io] integration
+# Konfigurera integreringen [!DNL Workfront] och [!DNL Frame.io]
 
 Workfront-administratören aktiverar integreringen mellan Workfront och Frame.io genom att konfigurera standardkontot för Frame.io under Konfigurera och sedan ange Frame.io-användare i Workfront. Detta gör att projektsamordnaren kan planera och initiera arbetet med Workfront-projekt samt granska och godkänna arbetsflöden.
 
@@ -24,7 +24,7 @@ Workfront-administratören aktiverar integreringen mellan Workfront och Frame.io
 
 >[!IMPORTANT]
 >
->Den här funktionen är bara tillgänglig för organisationer som har anslutit sig till [!DNL Adobe Admin Console].
+>Den här funktionen är bara tillgänglig för organisationer som har anslutit till [!DNL Adobe Admin Console].
 
 Du måste ha följande:
 
@@ -44,20 +44,20 @@ Du måste ha följande:
   </tr>
 
 <tr>
-   <td><strong>Konfigurationer på åtkomstnivå</strong>
+   <td><strong>Åtkomstnivåkonfigurationer</strong>
    </td>
-   <td>Du måste vara en [!DNL Workfront] administratör.
+   <td>Du måste vara en [!DNL Workfront]-administratör.
    </td>
   </tr>
 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-## Konfigurera en standardinställning [!DNL Frame.io] konto [!BADGE Kommer snart]{type=Informative}
+## Konfigurera ett standardkonto för [!DNL Frame.io] [!BADGE Kommer snart]{type=Informative}
 
-En gång som standard [!DNL Frame.io] konto har konfigurerats, projekt har skapats i [!DNL Workfront] har ett spegelprojekt skapat i Frame.io.
+När ett standardkonto för [!DNL Frame.io] har konfigurerats har projekt som skapats i [!DNL Workfront] ett spegelprojekt skapats i Frame.io.
 
 >[!IMPORTANT]
 >
@@ -71,11 +71,11 @@ Så här konfigurerar du ett Frame.io-konto med en Workfront-grupp:
 
 {{step-1-to-setup}}
 
-1. Klicka på i den vänstra panelen **Grupper**.
+1. Klicka på **Grupper** i den vänstra panelen.
 1. Välj en befintlig grupp eller klicka på **Skapa grupp**.
-1. Klicka på i den vänstra panelen **Anslut till bildruta.io**.
+1. Klicka på **Anslut till bildruta.io** i den vänstra panelen.
 1. Ange API-utvecklartoken.
-1. Klicka **Initiera anslutning**.
+1. Klicka på **Initiera anslutning**.
 1. (Villkorligt) Om du är administratör för mer än ett Frame.io-konto väljer du det konto som du vill använda.
 
 ## Aktivera Frame.io-användare
@@ -96,11 +96,10 @@ Så här aktiverar du användare av Frame.io:
 
 {{step-1-to-users}}
 
-1. Markera en eller flera användare och klicka sedan på **Redigera** icon ![](assets/edit-icon.png).
-1. Aktivera kryssrutan Lägg till i projekt i bildruta.io i Access-avsnittet och markera sedan **Ja** i listrutan.
+1. Markera en eller flera användare och klicka sedan på ikonen **Redigera** ![](assets/edit-icon.png) .
+1. Aktivera kryssrutan Lägg till i projekt i Frame.io i åtkomstavsnittet och välj sedan **Yes** i listrutan.
    ![](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >
    >Om den här rutan inte är markerad behåller användaren åtkomst till tidigare tilldelningar och läggs till i Frame.io-projekt som flyttas framåt.<!-- If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.-->
-

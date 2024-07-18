@@ -13,9 +13,9 @@ ht-degree: 1%
 
 ---
 
-# Uppdatera ditt arbete med [!DNL Adobe Workfront] plugin
+# Uppdatera ditt arbete med plugin-programmet [!DNL Adobe Workfront]
 
-Du kan uppdatera ditt arbete från något av följande [!DNL Adobe Creative Cloud] program:
+Du kan uppdatera ditt arbete från något av följande [!DNL Adobe Creative Cloud]-program:
 
 {{cc-app-list}}
 
@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</td> 
+   <td>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -49,7 +49,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
@@ -81,12 +81,12 @@ Du kan uppdatera ditt arbete från följande områden i plugin-programmet:
 
 Så här skickar du en uppdatering:
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Från **[!UICONTROL Work List]** markerar du arbetsuppgiften som du vill publicera en uppdatering på.
-1. Klicka **[!UICONTROL Update]** i navigeringsfältet.\
+1. I **[!UICONTROL Work List]** väljer du den arbetsuppgift som du vill publicera en uppdatering på.
+1. Klicka på **[!UICONTROL Update]** i navigeringsfältet.\
    ![](assets/photoshop-update-350x295.png)
 
 1. Klicka på **[!UICONTROL New Update]**.

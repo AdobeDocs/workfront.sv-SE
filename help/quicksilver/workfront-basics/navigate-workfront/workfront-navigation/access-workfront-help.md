@@ -6,14 +6,14 @@ feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '147'
 ht-degree: 0%
 
 ---
 
-# Åtkomst [!DNL Adobe Workfront] help
+# Hjälp om åtkomst till [!DNL Adobe Workfront]
 
-[!DNL Workfront] innehåller en mängd olika typer av material som hjälper dig att hitta svar på frågor du har om funktionaliteten i de olika produkter som finns i [!DNL Workfront].
+[!DNL Workfront] erbjuder en mängd olika typer av innehåll som hjälper dig att hitta svar på frågor som du kan ha angående funktionaliteten i de olika produkterna i [!DNL Workfront].
 
 ## Åtkomstkrav
 
@@ -36,13 +36,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill ta reda på vilken plan eller licenstyp du har kontaktar du [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
-## Öppna [!DNL Adobe Workfront] dokumentation om Experience League
+## Få åtkomst till dokumentationen för [!DNL Adobe Workfront] på Experience League
 
-1. Gå till [[!DNL Adobe Workfront] dokumentationssida på [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
+1. Gå till [[!DNL Adobe Workfront] dokumentationssidan på [!DNL Experience League]](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=en).
 
-Förutom att söka efter hjälpdokumentation kan du även få tillgång till följande [!DNL Workfront] från Experience League:
+Förutom att söka efter hjälpdokumentation kan du även komma åt följande [!DNL Workfront]-resurser från Experience League:
 
 * Workfront Tutorials: Mer information finns i [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=en).
 
@@ -53,4 +53,4 @@ Förutom att söka efter hjälpdokumentation kan du även få tillgång till fö
 
 {{step1-click-main-menu}}
 
-1. Klicka **[!UICONTROL Help]** ![Hjälpikon](assets/help-icon.png).
+1. Klicka på **[!UICONTROL Help]** ![hjälpikon](assets/help-icon.png).

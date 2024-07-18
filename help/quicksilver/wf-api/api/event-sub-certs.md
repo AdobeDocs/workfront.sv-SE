@@ -9,7 +9,7 @@ role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ server {
 }
 ```
 
-Mer information finns i [NGiNX-dokumentation för ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
+Mer information finns i dokumentationen för [NGiNX för ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html).
 
 ### Apache
 
@@ -89,7 +89,7 @@ Listen 443
 Mer information finns i
 
 * [Klientautentisering och åtkomstkontroll](https://httpd.apache.org/docs/2.4/ssl/ssl_howto.html#accesscontrol)
-* [Modulläge för Apache_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
+* [Apache-modulläge_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 
 ## Mappning av certifikat till miljö

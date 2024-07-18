@@ -39,7 +39,7 @@ Tänk på följande när du arbetar med filter, vyer och grupperingar:
 
 * Din Workfront-administratör måste ge dig åtkomst till rapporter, instrumentpaneler och kalendrar på din åtkomstnivå för att kunna visa eller redigera rapporter.
 
-  Information om hur du beviljar åtkomst till rapporter, kontrollpaneler och kalendrar finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Information om hur du beviljar åtkomst till rapporter, instrumentpaneler och kalendrar finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Om du väljer ett filter, en vy eller en gruppering i en rapport eller lista behåller Workfront markeringen för objektets listor även efter att du har loggat ut eller stängt webbläsaren. Om du t.ex. väljer en viss vy för en uppgiftsrapport visas valet för andra uppgiftslistor, t.ex. listan med uppgifter i ett projekt.
 
@@ -95,8 +95,8 @@ Vissa attribut för grupperingar är:
 
 Förutom filter, vyer och grupperingar kan du även lägga till följande element i en rapport:
 
-* **Fråga**: Ett öppet filter som kan anpassas och tillämpas olika varje gång du kör en rapport.\
-  Mer information om uppmaningar finns i artikeln [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Fråga**: Ett öppet filter som kan anpassas och tillämpas på olika sätt varje gång du kör en rapport.\
+  Mer information om uppmaningar finns i artikeln [Lägg till en uppmaning i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Diagram**: Du kan förbättra dina rapporter genom att lägga till ett diagram och visa informationen på ett visuellt sätt.\
-  Mer information om diagram i rapporter finns i artikeln [Lägga till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+* **Diagram**: Du kan förbättra dina rapporter genom att lägga till ett diagram till dem och visa informationen på ett visuellt sätt.\
+  Mer information om diagram i rapporter finns i artikeln [Lägg till ett diagram i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

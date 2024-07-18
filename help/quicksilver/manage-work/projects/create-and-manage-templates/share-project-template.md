@@ -19,7 +19,7 @@ Du kan dela en mall med användare eller definiera hur projekt som skapas från 
 
 När du delar ett objekt i Adobe Workfront kan andra användare visa, bidra till eller redigera det objektet.
 
-Mer information om Workfront behörigheter finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Mer information om Workfront-behörigheter finns i [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 Mer information om vilka behörigheter du kan ge användare när du delar en mall finns i [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till mallar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -62,36 +62,36 @@ Du kan dela dina mallar med andra användare genom att använda malldelning. Den
 
 Så här delar du en mall:
 
-1. Från **Huvudmeny** icon ![](assets/main-menu-icon.png), klicka **Mallar**.
+1. Klicka på **Mallar** på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) .
 
 1. Gör något av följande:\
-   Klicka på namnet på en mall för att öppna den och klicka sedan på **Mer** meny ![](assets/qs-more-icon-on-an-object.png)sedan **Malldelning**.
+   Klicka på namnet på en mall för att öppna den, klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
 
    eller
 
-   Välj en mall från listan och klicka på ikonen Dela ![](assets/share-icon.png)och sedan klicka **Mall.**
+   Välj en mall från listan, klicka på delningsikonen ![](assets/share-icon.png) och sedan på **Mall.**
 
    >[!TIP]
    >
    >Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
 
-1. I **Mallåtkomst** markerar du de personer, team, roller, grupper eller företag som du vill dela mallen med.
+1. I rutan **Mallåtkomst** markerar du de personer, team, roller, grupper eller företag som du vill dela mallen med.
 
-   Du kan också klicka på **Alternativ** -ikonen för att göra mallen tillgänglig för hela systemet:
+   Du kan också klicka på ikonen **Alternativ** för att göra mallen tillgänglig i hela systemet:
 
 1. Välj något av följande i listrutan för varje enhet som du delar med:
 
-   * **Visa**: Användare med dessa behörigheter kan visa mallen och skapa ett projekt med hjälp av den eller bifoga den till ett befintligt projekt.
+   * **Visa**: Användare med de här behörigheterna kan visa mallen och skapa ett projekt med hjälp av den, eller bifoga den till ett befintligt projekt.
 
-      >[!TIP]
-      >
-      >Din Workfront-administratör måste ge dig redigeringsåtkomst till projekt för att kunna skapa projekt.
+     >[!TIP]
+     >
+     >Din Workfront-administratör måste ge dig redigeringsåtkomst till projekt för att kunna skapa projekt.
 
-   * **Hantera**: Användare med dessa behörigheter kan redigera eller ta bort mallen.
+   * **Hantera**: Användare med de här behörigheterna kan redigera eller ta bort mallen.
 
-      Mer information om de avancerade inställningarna ![](assets/gear-icon-in-access-levels.png) finns här, se avsnittet [Avancerade inställningar för malldelning](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) i artikeln [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Mer information om de avancerade inställningarna ![](assets/gear-icon-in-access-levels.png) som finns här finns i avsnittet [Avancerade inställningar för malldelning](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) i artikeln [Dela en mall](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Dela ett projekt från en mall {#share-a-project-from-a-template}
 
@@ -100,15 +100,15 @@ Med Projektdelning för mallar kan du definiera vem som har behörighet för de 
 Så här delar du framtida projekt som skapats från en mall med användare:
 
 1. Gör något av följande:\
-   Klicka på namnet på en mall för att öppna den och klicka sedan på **Mer** meny ![](assets/qs-more-icon-on-an-object.png)sedan **Malldelning**.
+   Klicka på namnet på en mall för att öppna den, klicka på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) och sedan på **Malldelning**.
 
    ![Dela projekt från mall](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
    eller
 
-   Välj en mall från listan och klicka på **Dela** och sedan klicka **Projekt.**
+   Välj en mall från listan, klicka på **Dela** och sedan på **Projekt.**
 
-1. I **Projektåtkomst** markerar du de personer, team, roller, grupper eller företag som mallen delas med.
+1. I rutan **Projektåtkomst** markerar du de personer, team, roller, grupper eller företag som mallen delas med.
 
    >[!TIP]
    >
@@ -116,14 +116,14 @@ Så här delar du framtida projekt som skapats från en mall med användare:
 
 1. Välj något av följande i listrutan för varje enhet:
 
-   * **Ingen åtkomst**: Du kan ange vilka användare som inte har tillgång till mallen.\
-      Det här alternativet är endast tillgängligt när du delar projekt gruppvis från mallar. 
-   * **Visa**: Användare med dessa behörigheter kan visa projekt som skapats från mallen.
-   * **Contribute**: Användare med den här behörigheten kan bidra till projekt som skapas från mallen 
-   * **Hantera**: Användare med dessa behörigheter kan hantera eller ta bort projekt som skapats från den här mallen.
+   * **Ingen åtkomst**: Du kan ange vilka användare som inte har åtkomst till mallen.\
+     Det här alternativet är endast tillgängligt när du delar projekt gruppvis från mallar. 
+   * **Visa**: Användare med den här behörigheten kan visa projekt som skapats från mallen.
+   * **Contribute**: Användare med de här behörigheterna kan bidra till projekt som skapas från mallen 
+   * **Hantera**: Användare med de här behörigheterna kan hantera eller ta bort projekt som skapats från den här mallen.
 
-1. (Valfritt) Klicka på **Alternativ** om du vill göra projekten tillgängliga i hela systemet.
-1. Klicka **Spara**.
+1. (Valfritt) Klicka på ikonen **Alternativ** för att göra projekten tillgängliga i hela systemet.
+1. Klicka på **Spara**.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -138,7 +138,7 @@ Så här delar du framtida projekt som skapats från en mall med användare:
 </div>
 -->
 
-## Dela mallar och projekt från mallar i grupp
+## Dela mallar och projekt från mallar
 
 Du kan dela flera mallar samt projekt från flera mallar samtidigt.
 
@@ -149,17 +149,17 @@ Du kan dela flera mallar samt projekt från flera mallar samtidigt.
 1. Gå till en lista med mallar.
 1. Markera flera mallar och klicka sedan på ![Dela](assets/share-icon.png).
 
-   ![Dela mallar och projekt i grupp](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe-2022.png)
+   ![Dela mallar eller projekt i grupp](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe-2022.png)
 
    >[!TIP]
    >
    >Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
 
-1. Klicka **Mall** för att dela de valda mallarna.
+1. Klicka på **Mall** om du vill dela de valda mallarna.
 
    eller
 
-   Klicka **Projekt** för att dela projekt som ska skapas från de valda mallarna.
+   Klicka på **Projekt** om du vill dela de projekt som ska skapas från de valda mallarna.
 
 1. Fortsätt att dela mallarna eller projekten enligt beskrivningen i följande avsnitt i den här artikeln:
 

@@ -7,7 +7,7 @@ feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,7 +56,7 @@ Tänk på följande när du godkänner ett affärsärende för ett projekt:
 * Du måste manuellt gå till de enskilda projekt som behöver godkännas av ett affärsärende för att se att de väntar på godkännande. Det finns ingen meddelandefunktion i Workfront som varnar någon om att han eller hon måste godkänna ett projekts affärsfall.
 * Du kan hitta projekt som väntar på godkännande av affärsärendet antingen genom att skapa en projektrapport eller genom att öppna portföljen som de är kopplade till. 
 
-  Mer information om Portfolio finns i artikeln [Översikt över Portfolio i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Mer information om Portfolio finns i artikeln [Portfolio overview i Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Godkänn affärsärendet genom att skapa en projektrapport
 
@@ -68,16 +68,16 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 
    Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Välj **Visa** fliken för rapporten och klicka sedan på **Lägg till kolumn**.
+1. Välj fliken **Visa** i rapporten och klicka sedan på **Lägg till kolumn**.
 
-1. Börja skriva &quot;Status&quot; i **Visa i den här kolumnen** och markera det här fältet när det visas i listan.
+1. Börja skriva &quot;Status&quot; i fältet **Visa i den här kolumnen** och markera det här fältet när det visas i listan.
 
     I den här kolumnen visas projektens status.
 
-1. Välj **Filter** fliken för rapporten och klicka sedan på **Lägg till en filterregel**.
+1. Välj fliken **Filter** i rapporten och klicka sedan på **Lägg till en filterregel**.
 
-1. Börja skriva &quot;Status&quot; i **Visa bara projekt där ...** och markera det när det visas i listan.
-1. Välj **Jämn** för filtermodifieraren.
+1. Börja skriva &quot;Status&quot; i **Visa bara projekt där fältet ...** finns och markera det när det visas i listan.
+1. Välj **Lika med** som filtermodifierare.
 1. Börja skriva &quot;Requested&quot; i det tillgängliga fältet. 
 
    Detta garanterar att rapporten endast innehåller projekt som har statusen Begärd.
@@ -108,19 +108,19 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 
    för att visa var du har utsetts till Portfolio Manager. 
 
-1. Klicka **Spara+stäng**.
+1. Klicka på **Spara+Stäng**.
 
    Observera att alla projekt i rapporten har statusen **Begärd**.
 
 1. Klicka på namnet på ett projekt i rapporten för att öppna det.
-1. Klicka **Affärsärende** till vänster.
-1. Klicka **Godkänn** eller **Avvisa** i området Affärsärendesammanfattning för att godkänna eller avvisa affärsärendet.
+1. Klicka på **Affärsfall** i den vänstra panelen.
+1. Klicka på **Godkänn** eller **Avvisa** i området Sammanfattning av affärsärenden för att godkänna eller avvisa affärsärendet.
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
    Projektstatusen ändras till **Godkänd** om affärsärendet har godkänts.
 
-   Projektstatusen ändras till **Avvisad** om ärendet inte godkänns.
+   Projektstatusen ändras till **Avvisad** om affärsärendet avvisas.
 
    >[!NOTE]
    >
@@ -128,4 +128,4 @@ Så här skapar du en rapport för projekt som väntar på godkännande av sina 
 
 ## Godkänn affärsärendet genom att gå till begärda projekt i en portfölj
 
-Mer information om hur du granskar begärda projekt finns i artikeln [Granska begärda projekt](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+Mer information om granskning av begärda projekt finns i artikeln [Granska begärda projekt](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

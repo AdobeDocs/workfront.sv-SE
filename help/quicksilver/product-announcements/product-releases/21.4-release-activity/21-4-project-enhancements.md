@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som gjorts i version 21.4 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 4 oktober 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 Versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.4 finns i [21.4 versionsöversikt](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Inkludera bilder i uppdateringar
 
@@ -29,7 +29,7 @@ Tidigare var det enda sättet att dela en bild i Workfront att bifoga den till e
 
 Mer information finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Innan Workfront-användare kan inkludera bilder i uppdateringar måste den här funktionen först aktiveras av Adobe Workfront-administratören enligt beskrivningen i [Konfigurera inställningar för användaruppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
+Innan Workfront-användare kan inkludera bilder i uppdateringar måste den här funktionen först aktiveras av Adobe Workfront-administratören, enligt beskrivningen i [Konfigurera inställningar för användaruppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
 ## Uppdaterad algoritm för smarta tilldelning
 
@@ -37,7 +37,7 @@ Vi har förbättrat algoritmen som används för smarta tilldelningar. Med den n
 
 Före den här förbättringen övervägde Workfront tilldelningarna för de överordnade uppgifterna och andra användarattribut som är relaterade till tilldelningarna när de föreslog användare.
 
-Mer information om smarta tilldelningar finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Mer information om smarta tilldelningar finns i [Översikt över smarta tilldelningar](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Ny upplevelse när du skapar ett projekt från en mall
 
@@ -48,7 +48,7 @@ Vi har gjort om gränssnittet för att skapa ett projekt från en mall så att d
 
 Vi har uppdaterat gränssnittet för att skapa projektet både när du skapar det från både projektet och mallområdet.
 
-För information, [Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md).
+[Skapa ett projekt med en mall](../../../manage-work/projects/create-projects/create-project-from-template.md) om du vill ha information.
 
 ## Ny upplevelse när mallar bifogas till projekt
 
@@ -62,7 +62,7 @@ För att din användning av Workfront ska vara förenlig med den nya Workfront-u
 * Lägga till mallar i en lista med favoriter under bilageprocessen
 * Visa alla alternativ för att hantera mall- och projektinställningar på en sammanhängande sida
 
-Mer information finns i [Bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Mer information finns i [Koppla en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Enhetliga värden för varaktighet och varaktighet för uppgifter
 
@@ -96,6 +96,4 @@ Det har blivit enklare att visa och markera kryssrutor och alternativknappar i a
 Detta beror på hur du placerar fälten i det anpassade formuläret. Om du placerar ett annat fält på samma rad med kryssrutan eller alternativknappsfältet kan det hända att alternativen bara har tillräckligt mycket vågrätt utrymme för att visas i en enda kolumn.
 
 Mer information om hur du fyller i ett anpassat formulär finns i [Redigera information i anpassade formulärfält](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
-
-Mer information om hur du skapar en kryssruta eller ett alternativknappsfält i ett anpassat formulär finns i avsnitten [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) och [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) i artikeln [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

@@ -38,7 +38,7 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
+   <td>Du kan göra korrektur som ursprungligen skapades i Workfront Proof tillgängliga i Workfront. För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -50,12 +50,12 @@ Du kan länka dokument och mappar till Adobe Workfront från följande källor:
   </tr> 
   <tr> 
    <td role="rowheader">Andra dokumentleverantörer (via anpassade dokumentintegreringar)</td> 
-   <td> <p class="workfront_plans">För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</p> </td>
+   <td> <p class="workfront_plans">För de aktuella licenserna krävs en Pro Workfront-plan eller högre för att den här funktionen ska kunna användas. För de nya licenserna innehåller alla planer den här funktionen. Mer information om olika tillgängliga planer finns i <a href="https://www.workfront.com/plans">Workfront-planer</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
 
-Innan du länkar dokument eller mappar måste Workfront-administratören aktivera den här funktionen för varje dokumentleverantör, eller för en anpassad dokumentintegrering, vilket beskrivs i [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Innan du länkar dokument eller mappar måste Workfront-administratören aktivera den här funktionen för varje dokumentleverantör eller för en anpassad dokumentintegrering, enligt beskrivningen i [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 Du kan granska och godkänna dokument som är länkade till en extern molnleverantör på samma sätt som du gör med dokument som överförs direkt till Workfront.
 
@@ -86,7 +86,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -105,7 +105,7 @@ Du kan länka befintliga dokument till en extern molnleverantör. Detta inkluder
 
 ### Förutsättningar {#prerequisites}
 
-Innan du länkar dokument eller mappar måste Workfront-administratören aktivera den här funktionen för varje dokumentleverantör, eller för en anpassad dokumentintegrering, vilket beskrivs i [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Innan du länkar dokument eller mappar måste Workfront-administratören aktivera den här funktionen för varje dokumentleverantör eller för en anpassad dokumentintegrering, enligt beskrivningen i [Konfigurera dokumentintegreringar](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ### Länka ett externt dokument till Workfront {#link-an-external-document-to-workfront}
 
@@ -115,19 +115,19 @@ Du kan länka dokument till Workfront från ett externt program som Google och M
 >
 >Dropbox lagrar dokument baserat på filsökvägen. Därför går det inte att komma åt en fil som är länkad från Dropbox om den flyttas, byter namn eller tas bort.
 
-1. Gå till **Dokument** i Workfront där du vill ha dokumentet.
-1. Klicka **Lägg till ny** klickar du sedan på den externa dokumentleverantören där du vill länka dokument till Workfront.
+1. Gå till området **Dokument** i Workfront där du vill ha dokumentet.
+1. Klicka på **Lägg till ny** och klicka sedan på den externa dokumentleverantören där du vill länka dokument till Workfront.
 
    Om du till exempel vill länka dokument från Dropbox klickar du på **Från Dropbox**.
 
    Externa leverantörer som du redan har auktoriserat visas högst upp i listan.
 
 1. (Villkorligt) Om du uppmanas att logga in på den externa tjänsten anger du dina inloggningsuppgifter för tjänsten i rutan som visas och klickar sedan på **Logga in**.
-1. (Villkorligt) Om du uppmanas att godkänna det externa programmet klickar du på knappen **Auktorisera** -knappen.
+1. (Villkorligt) Om du uppmanas att auktorisera det externa programmet klickar du på knappen **Auktorisera** .
 
    Du behöver bara göra detta en gång.
 
-1. I sökrutan i **Länka externa filer och mappar** anger du namnet på det objekt du vill söka efter och trycker sedan på **Retur** om du vill se alla resultat från det externa programmet, oavsett i vilken mapp de lagras.
+1. I sökrutan i rutan **Länka externa filer och mappar** som visas skriver du namnet på det objekt som du vill söka efter och trycker sedan på **Retur** för att se alla resultat från det externa programmet, oavsett i vilken mapp de lagras.
 
    eller
 
@@ -135,13 +135,13 @@ Du kan länka dokument till Workfront från ett externt program som Google och M
 
    Även om du kan markera flera dokument är bara de dokument som är markerade i den aktuella vyn länkade. Om du t.ex. markerar ett dokument och sedan går till en mapp, är det dokument som du ursprungligen markerade inte länkat.
 
-1. (Villkorligt) Om du är Workfront DAM-kund klickar du på **Miniatyrbild** om du vill visa filer som miniatyrbilder.
+1. (Villkorligt) Om du använder Workfront DAM klickar du på ikonen **Miniatyrbild** för att visa filer som miniatyrbilder.
 
    >[!NOTE]
    >
    >Workfront DAM-kunder kan visa miniatyrer när de länkar dokument från Workfront DAM. Miniatyrbilder kan också visas för Workfront DAM-kunder för andra tjänster som Dropbox och Box. Det går inte att visa miniatyrbilder för andra tjänster än Workfront DAM i Workfront, och miniatyrbilder visas aldrig när du länkar dokument från SharePoint eller Google Drive.
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.
 
    I Workfront visas molnleverantörens ikon bredvid dokumenten.
 
@@ -154,24 +154,24 @@ Du kan länka dokument till Workfront från ett externt program som Google och M
 
 Du kan lägga till en ny version av ett dokument som är länkat till Workfront från ett externt program.
 
-1. Gå till **Dokument** markerar du det länkade dokumentet där dokumentet är länkat.
+1. Gå till området **Dokument** där dokumentet är länkat och markera sedan det länkade dokumentet.
 
    >[!IMPORTANT]
    >
    >Dokumentet måste finnas utanför en länkad mapp för att du ska kunna skapa en ny version.
 
-1. Klicka **Lägg till ny** > **Version** klickar du sedan på den externa dokumentleverantören.
+1. Klicka på **Lägg till ny** > **Version** och klicka sedan på den externa dokumentleverantören.
 
    Om du till exempel vill länka en ny version av ett dokument från Dropbox klickar du på **Från Dropbox**.
 
    Externa leverantörer som du redan har auktoriserat visas högst upp i listan.
 
 1. (Villkorligt) Om du uppmanas att logga in på den externa tjänsten anger du dina inloggningsuppgifter för tjänsten i rutan som visas och klickar sedan på **Logga in**.
-1. (Villkorligt) Om du uppmanas att godkänna det externa programmet klickar du på **Auktorisera**.
+1. (Villkorligt) Om du uppmanas att auktorisera det externa programmet klickar du på **Auktorisera**.
 
    Du behöver bara göra detta en gång.
 
-1. I sökrutan i **Länka externa filer och mappar** anger du namnet på det objekt du vill söka efter och trycker sedan på **Retur** om du vill se alla resultat från det externa programmet, oavsett i vilken mapp de lagras.
+1. I sökrutan i rutan **Länka externa filer och mappar** som visas skriver du namnet på det objekt som du vill söka efter och trycker sedan på **Retur** för att se alla resultat från det externa programmet, oavsett i vilken mapp de lagras.
 
    eller
 
@@ -179,13 +179,13 @@ Du kan lägga till en ny version av ett dokument som är länkat till Workfront 
 
    Du kan markera flera dokument, men bara dokument som är markerade i den aktuella vyn är länkade. Om du t.ex. markerar ett dokument och sedan går till en mapp, är det dokument som du ursprungligen markerade inte länkat.
 
-1. (Villkorligt) Om du är Workfront DAM-kund klickar du på **Miniatyrbild** om du vill visa filer som miniatyrbilder.
+1. (Villkorligt) Om du använder Workfront DAM klickar du på ikonen **Miniatyrbild** för att visa filer som miniatyrbilder.
 
    >[!NOTE]
    >
    >Workfront DAM-kunder kan visa miniatyrer när de länkar dokument från Workfront DAM. Miniatyrbilder kan också visas för Workfront DAM-kunder för andra tjänster som Dropbox och Box. Det går inte att visa miniatyrbilder för andra tjänster än Workfront DAM i Workfront, och miniatyrbilder visas aldrig när du länkar dokument från SharePoint eller Google Drive.
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.
 
    I Workfront visas molnleverantörens ikon bredvid dokumenten, vilket anger att de är länkade till den externa molnleverantören.
 
@@ -193,7 +193,7 @@ Du kan lägga till en ny version av ett dokument som är länkat till Workfront 
    >
    >För dokument som är länkade till Box visas inte länken till dokumentet i Box förrän du uppdaterar sidan.
 
-Information om hur du lägger till en ny version av ett dokument som du har överfört till Workfront från filsystemet finns i [Lägga till dokument i Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Mer information om hur du lägger till en ny version av ett dokument som du har överfört till Workfront från filsystemet finns i [Lägg till dokument i Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) i [Lägg till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Länka Workfront Proof-dokument {#link-workfront-proof-documents}
 
@@ -201,14 +201,14 @@ Du kan länka korrektur till Workfront som ursprungligen fanns i Workfront Proof
 
 Du kan bara länka de korrektur som du har åtkomst till Visa i Workfront Proof.
 
-1. Gå till **Dokument** i Workfront där du vill ha dokumentet.
-1. Klicka **Lägg till ny** och sedan klicka **Från Workfront Proof**.
+1. Gå till området **Dokument** i Workfront där du vill ha dokumentet.
+1. Klicka på **Lägg till ny** och sedan på **Från Workfront Proof**.
 
    >[!NOTE]
    >
    >Alternativen på den här menyn kan variera beroende på vilka tredjepartsleverantörer som är konfigurerade i din miljö.
 
-1. I **Länka korrektur från Workfront Proof** börjar du skriva namnet på det korrektur som du vill göra tillgängligt i Workfront.
+1. I rutan **Länkkorrektur från Workfront Proof** som visas börjar du skriva namnet på det korrektur som du vill göra tillgängligt i Workfront.
 
    Listan filtreras när du skriver.
 
@@ -216,7 +216,7 @@ Du kan bara länka de korrektur som du har åtkomst till Visa i Workfront Proof.
 
    Ett nedtonat korrekturnamn går inte att länka eftersom korrekturet redan är kopplat till ett dokument i Workfront.
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.
 
    Den senaste versionen av korrekturet är länkad till Workfront. När du öppnar korrekturet är alla versioner tillgängliga i korrekturläsaren.
 
@@ -224,11 +224,11 @@ Du kan bara länka de korrektur som du har åtkomst till Visa i Workfront Proof.
 
 Du kan skapa ett nytt Google-dokument i Workfront. Du kan inte skapa nya dokument från Workfront för andra molnleverantörer.
 
-1. Gå till **Dokument** i Workfront där du vill ha dokumentet.
-1. Klicka **Lägg till ny** > **Google-fil** väljer du sedan den typ av Google-dokument som du vill skapa.
-1. Om **Lägg till Google Drive-konto** visas klickar du på **Auktorisera Google Drive**.
+1. Gå till området **Dokument** i Workfront där du vill ha dokumentet.
+1. Klicka på **Lägg till ny** > **Google-fil** och välj sedan den typ av Google-dokument som du vill skapa.
+1. Om rutan **Lägg till Google Drive-konto** visas klickar du på **Auktorisera Google Drive**.
 
-   Ett Google-dokument läggs till i **Dokument** -fliken.
+   Ett Google-dokument läggs till på fliken **Dokument**.
 
    >[!NOTE]
    >
@@ -245,15 +245,15 @@ Du kan överföra och länka ett dokument från Workfront till en extern molnlev
 Användare utan Workfront-åtkomst kan se dokumentet i det externa programmet om de har tillgång till programmet.
 
 1. Markera ett dokument som har överförts till Workfront.
-1. Klicka **Mer** >**Skicka till** väljer du sedan den molnleverantör som du vill lagra det länkade dokumentet hos.
+1. Klicka på **Mer** >**Skicka till** och välj sedan den molnleverantör som du vill lagra det länkade dokumentet hos.
 
-   Du kan också använda menyn Mer ![](assets/more-icon.png) på sidan Dokumentinformation för att göra detta.
+   Du kan också använda Mer-menyn ![](assets/more-icon.png) på sidan Dokumentinformation för att göra detta.
 
 1. Markera den mapp i providerns program där du vill lagra dokumentet.
 
    Detta kan vara vilken mapp som helst i providerns program, inklusive en delad mapp.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Den externa leverantörens logotyp visas bredvid dokumentnamnet för att ange att dokumentet nu är länkat till Workfront och lagrat av den externa molnleverantören.
 
@@ -277,14 +277,14 @@ När du synkroniserar mappinnehåll från ett externt dokumentprogram använder 
 
 ### Länka en eller flera externa mappar {#link-one-or-more-external-folders}
 
-1. Gå till det område i Workfront där du vill ha mappen och klicka sedan på  **Dokument** ![](assets/document-icon.png) i den vänstra panelen .
+1. Gå till det område i Workfront där du vill ha mappen och klicka sedan på **Dokument** ![](assets/document-icon.png) i den vänstra panelen.
 
-1. Klicka **Lägg till ny** klickar du sedan på den externa dokumentleverantör som du vill länka en mapp från till Workfront.
+1. Klicka på **Lägg till ny** och klicka sedan på den externa dokumentleverantör som du vill länka en mapp från till Workfront.
 1. (Villkorligt) Om du ännu inte har auktoriserat den externa tjänsten anger du dina inloggningsuppgifter för den externa leverantören och klickar sedan på **Logga in**.
 
    Externa leverantörer som du redan har auktoriserat visas högst upp i listan.
 
-1. I **Länka externa filer och mappar** som visas bläddrar du till och markerar de mappar som du vill länka.
+1. I rutan **Länka externa filer och mappar** som visas bläddrar du till och markerar de mappar som du vill länka.
 
    eller
 
@@ -296,11 +296,11 @@ När du synkroniserar mappinnehåll från ett externt dokumentprogram använder 
    >
    >När du länkar mappar från Google Drive kan du bara länka mappar som finns på din personliga enhet (Min enhet) och Team Drive. Du kan inte länka mappar från området Delat med mig.
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.
 
    I Workfront visas molnleverantörens logotyp bredvid mappen, vilket anger att den är länkad till den externa molnleverantören.
 
-1. (Valfritt) Om du vill byta namn på mappen så att mappnamnet i Workfront skiljer sig från mappnamnet i det externa dokumentprogrammet markerar du mappen i **Mappar** klickar du på Mer-menyn ![](assets/more-icon.png)  som visas bredvid mappnamnet och sedan klickar du på **Byt namn**.
+1. (Valfritt) Om du vill byta namn på mappen så att mappnamnet i Workfront skiljer sig från mappnamnet i det externa dokumentprogrammet, markerar du mappen i avsnittet **Mappar**, klickar på menyn Mer ![](assets/more-icon.png) som visas bredvid mappnamnet och klickar sedan på **Byt namn** .
 
    ![](assets/documents-folderlink-rename-nwe-350x154.png)
 
@@ -310,7 +310,7 @@ Det här ändrar inte namnet på mappen i det externa programmet.
 
 Du kan skapa en ny mapp i en befintlig länkad mapp. Du kan också dra en annan mapp till en befintlig länkad mapp.
 
-1. Om du vill skapa en ny mapp i en befintlig länkad mapp går du till den befintliga mappen och skapar sedan den nya mappen enligt anvisningarna i [Skapa dokumentmappar](../../documents/organizing-documents/create-documents-folder.md).
+1. Om du vill skapa en ny mapp i en befintlig länkad mapp går du till den befintliga mappen och skapar sedan den nya mappen enligt beskrivningen i [Skapa dokumentmappar](../../documents/organizing-documents/create-documents-folder.md).
 
    eller
 
@@ -329,11 +329,11 @@ Du kan skapa en ny mapp i en befintlig länkad mapp. Du kan också dra en annan 
 
 När du lägger till ett dokument i en länkad mapp via Workfront, läggs det automatiskt till som ett länkat dokument.
 
-1. Markera den länkade mapp där du vill ha dokumentet och klicka på **Lägg till nytt > Dokument**, bläddra sedan till dokumentet och lägg till det i mappen.
+1. Markera den länkade mapp där du vill ha dokumentet, klicka på **Lägg till nytt > Dokument**, bläddra sedan till dokumentet och lägg till det i mappen.
 
    eller
 
-   I **Dokument** där du vill ha dokumentet drar du det till en länkad mapp.
+   Dra dokumentet till en länkad mapp i området **Dokument** där du vill ha dokumentet.
 
    En ny version av dokumentet skapas automatiskt i det externa programmet och länkas till Workfront.
 
@@ -349,8 +349,8 @@ När du lägger till ett dokument i en länkad mapp via Workfront, läggs det au
 
 När du tar bort ett länkat dokument eller en länkad mapp från det externa programmet förblir dokumentet eller mappen kvar i Workfront-systemet tills du också tar bort den från Workfront.
 
-1. Markera det länkade dokumentet eller mappen och klicka sedan på **Ta bort**.
-1. I bekräftelserutan som visas klickar du på **Ja, bryt länken**.
+1. Markera det länkade dokumentet eller den länkade mappen och klicka sedan på **Ta bort**.
+1. Klicka på **Ja, bryt länken** i bekräftelserutan som visas.
 
    Dokumentet är inte länkat från Workfront webbplats. Den påverkas inte i det externa programmet.
 

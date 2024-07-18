@@ -33,7 +33,7 @@ För att förbättra användarnas upplevelse när de arbetar med förfrågningar
 
 Före den här förbättringen visades inte knappen Ny begäran i området Begäranden för dessa användare. Kopiering och inlämning av en begäran som ny är också begränsad.
 
-Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skapar begäranden finns i [Skapa och skicka Adobe Workfront-begäranden](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Kopiera och skicka begäranden
 
@@ -55,6 +55,6 @@ Mer information finns i [Kopiera och skicka begäranden](../../../manage-work/re
 
 För att förbättra synligheten och interaktionen med panelen Sammanfattning har vi lagt till en etikett till ikonen Öppna sammanfattning i avsnittet Skickat i området Begäranden. Etiketten är nu dynamisk och uppdateras beroende på om panelen är öppen eller stängd.
 
-När du öppnar panelen Sammanfattning utan att först markera en begäran visas nu en mer användarvänlig bild som tydligt instruerar användaren att markera ett objekt innan panelen öppnas. Mer information finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+När du öppnar panelen Sammanfattning utan att först markera en begäran visas nu en mer användarvänlig bild som tydligt instruerar användaren att markera ett objekt innan panelen öppnas. Mer information finns i [Leta rätt på skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Den här ändringen innebär att panelen Sammanfattning för uppgifter, utgåvor och dokument också har uppdaterats. Mer information om panelen Sammanfattning finns i [Sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+Den här ändringen innebär att panelen Sammanfattning för uppgifter, utgåvor och dokument också har uppdaterats. Mer information om panelen Sammanfattning finns i [Översikt över sammanfattning](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).

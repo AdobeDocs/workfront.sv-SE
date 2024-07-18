@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 
 </td>
@@ -102,10 +102,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Arbetsytans sida visas.
 
-1. Klicka på **Mer** meny ![](assets/more-menu.png) bredvid arbetsytans namn och klicka sedan på **Ta bort**.
+1. Klicka på menyn **Mer** ![](assets/more-menu.png) bredvid arbetsytans namn och klicka sedan på **Ta bort**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 
-1. Skriv &quot;**delete**&quot; i det tillgängliga utrymmet, klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
+1. Skriv **delete** i det angivna utrymmet och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
    Arbetsytan tas bort och kan inte återskapas. Alla posttyper, poster, fält och vyer som är kopplade till dem tas också bort. <!--ensure this is right at or before GA-->

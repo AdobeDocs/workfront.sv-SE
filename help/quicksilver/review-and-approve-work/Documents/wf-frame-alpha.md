@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Betaprogram - Workfront + Frame.io
-description: Vi är glada över att kunna lansera betaprogrammet för Workfront + Frame.io. Här hittar du information om den senaste betaversionen samt en kort videogenomgång som hjälper dig att komma igång.
+title: Beta Program - Workfront + Frame.io
+description: Vi är glada över att kunna lansera Beta för Workfront + Frame.io. Här hittar du information om den senaste Beta-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# Betaprogram - Workfront + Frame.io
+# Beta Program - Workfront + Frame.io
 
 Välkommen till betaprogrammet för integrering av Workfront + Frame.io! Som en del av denna betaversion får du tidig tillgång till vår integrerade Workfront + Frame.io-upplevelse och kan dela med dig av dina synpunkter som i slutänden kommer att forma den slutliga upplevelse vi lanserar för vår bredare kundbas. Med den här integreringen vill vi skapa ett smidigt arbetsflöde mellan Workfront och Frame.io som fokuserar på att ge en perfekt, enhetlig lösning för granskning och godkännande.
 
-Här hittar du information om den senaste betaversionen samt en kort videogenomgång som hjälper dig att komma igång.
+Här hittar du information om den senaste Beta-releasen tillsammans med en kort videogenomgång som hjälper dig att komma igång.
 
 >[!IMPORTANT]
 >
 >Betaversionen är nu stängd och vi tar inte längre emot nya deltagare.
 
 
-## Maj 2024: Betaversionsuppdateringar i Workfront
+## Maj 2024: Beta-uppdateringar i Workfront
 
 I majversionen finns följande funktioner:  
 
@@ -48,7 +48,7 @@ Som en del av vårt arbete med att förbättra projektsynkroniseringen mellan Wo
 Håll ordning på godkännandestatus för alla slags filer direkt i dokumentlistan. Med ett enkelt klick på den övergripande statusen får du tillgång till en detaljerad beskrivning av alla deltagare som deltar i godkännandeprocessen, tillsammans med deras enskilda status. Dessutom kan du effektivisera arbetsflödet genom att påminna alla godkännare med bara ett klick, vilket ger snabba svar och effektiv dokumenthantering. 
 
 
-## Mars 2024: Betaversionsuppdateringar i Frame.io
+## Mars 2024: Beta-versionsuppdateringar i Frame.io
 
 +++ Expandera för att visa de funktioner som lanserades i mars 2024
 
@@ -62,9 +62,9 @@ Menyalternativen för att lägga till en resurs i Workfront har uppdaterats så 
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Mars 2024: Betaversionsuppdateringar i Workfront
+## Mars 2024: Beta Release-uppdateringar i Workfront
 
-I den här betaversionen har vi:
+I den här Beta-versionen har vi:
 
 ### Lägga till en deadline för dokumentgranskningar och godkännanden
 
@@ -94,7 +94,7 @@ Vi har lagt till följande nyckeltal för prestandaindikatorer i widgeten Alla g
 
 Du kan fördjupa dig i kategorierna ovan för en mer detaljerad vy. Widgeten Alla godkännanden är tillgänglig på nya hempaneler och arbetsytans kontrollpaneler.
 
-Mer information finns i [Kom igång med nya startsidor](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+Mer information finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ### Lås gransknings- och godkännandena när ett övergripande beslut har fattats
 
@@ -112,11 +112,11 @@ När en ny dokumentversion överförs kan nästa granskningsomgång startas meda
 
 Med den här integreringen är vårt mål att göra det möjligt för kreatörer att behålla sina valfria verktyg (CC eller Frame.io) för att skapa innehåll och utföra peer-granskningar, samtidigt som projektledare koordinerar arbetet och initierar och övervakar den formella granskningsprocessen inifrån Workfront. Detta kan uppnås genom att man använder det bästa av båda lösningarna: Workfront nya dokumentgodkännanden för att hantera innehållsgodkännanden, tillsammans med de innehållsgranskningsfunktioner som Frame.io erbjuder. De nya dokumentgodkännandena och Frame.io kommer tillsammans att utgöra vår nya heltäckande upplevelse för granskning och godkännande av innehåll. 
 
-För att du enkelt ska kunna testa betaprogrammets nya funktioner har vi skapat ett nytt test-konto för Frame.io och kopplat det till en ny grupp som kallas `Frame.io testing` i Workfront Preview- eller Sandbox-miljö.
+För att du enkelt ska kunna testa de nya funktionerna i betaprogrammet har vi skapat ett nytt test-konto för Frame.io och kopplat det till en ny grupp med namnet `Frame.io testing` i din befintliga Workfront Preview- eller Sandbox-miljö.
 
 ### Detaljerade testinstruktioner
 
-För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för detta detaljerade testscenario kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+För deltagare som vill testa ytterligare funktioner har vi skapat ett mer komplicerat testscenario. En guide för det här detaljerade testscenariot kan laddas ned här: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 
 
 ## Demonstrationsvideo
@@ -127,4 +127,4 @@ För deltagare som vill testa ytterligare funktioner har vi skapat ett mer kompl
 
 Vi värdesätter dina synpunkter och anser att ditt perspektiv är avgörande för att vi ska kunna skapa bästa möjliga produkt.
 
-Eftersom du har specifik feedback om vad som krävs för att ditt företag ska kunna använda den här lösningen i produktionen skickar du den till [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Eftersom du har specifik feedback om vad som krävs för att ditt företag ska kunna använda den här lösningen i Produktion skickar du den till [etienneb@adobe.com](mailto:etienneb@adobe.com).

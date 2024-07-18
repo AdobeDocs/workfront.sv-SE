@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten till objekt som är kopplade till godkännanden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Godkänn ett dokument från startsidan
 
-1. Klicka på **Startsida** icon ![](../assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
+1. Klicka på ikonen **Hem** ![](../assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
@@ -62,9 +62,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    >
    >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
    >
-   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](../assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](../assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
-1. Klicka **Filter** längst upp till vänster på sidan och se till att **Godkännanden** är markerad.
+1. Klicka på **Filter** längst upp till vänster på sidan och kontrollera att **Godkännanden** är markerat.
 
    Alla arbetsobjekt som kräver ditt godkännande visas i listan.
 
@@ -76,19 +76,19 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på något av följande två godkännandealternativ i det övre högra hörnet på sidan:
 
-   * The **Godkänn** listrutan innehåller två alternativ:
+   * Listrutan **Godkänn** innehåller två alternativ:
 
       * **Godkänn** anger att inga ändringar behövs för den här versionen av dokumentet och att godkännande ges.
 
-      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
+      * **Godkänn med ändringar** indikerar att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges om ändringarna görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som krävs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** för att skicka godkännandebeslutet utan ytterligare information.
 
-   * **Behöver göras** anger att dokumentversionen inte är godkänd och kräver betydande ändringar.
+   * **Behöver arbete** indikerar att dokumentversionen inte är godkänd och kräver betydande ändringar.
 
    Tänk på följande när du visar dokumentgodkännanden i hemmet:
 
-   * Namnet på den användare som begärde godkännandet visas ovanför dokumentnamnet i Hem med texten &quot;*Användare A* skulle vilja ha ditt godkännande den..&quot;, liksom under **Skickat av** i godkännandeinformationen som visas till höger när ett godkännande har valts.
+   * Namnet på den användare som begärde godkännandet visas ovanför dokumentnamnet i Hem med texten *Användare A* vill ha ditt godkännande den..., samt under **Skickat av** i godkännandeinformationen som visas till höger när ett godkännande har valts.
 
-   * När du har bestämt dig för ett godkännande finns godkännandet kvar på fliken Mina godkännanden med texten&quot;Beslutsfattad&quot; tills du klickar på knappen **Uppdatera** eller tills webbläsarsidan uppdateras.
+   * När ett beslut har fattats om ett godkännande behålls godkännandet på fliken Mina godkännanden med texten &quot;Beslutsfattad&quot; tills du klickar på knappen **Uppdatera** eller tills du uppdaterar webbläsarsidan.
 
 ## Godkänn ett dokument från dokumentsidan
 
@@ -104,13 +104,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på något av följande två godkännandealternativ i det övre högra hörnet på sidan:
 
-   * The **Godkänn** listrutan innehåller två alternativ:
+   * Listrutan **Godkänn** innehåller två alternativ:
 
       * **Godkänn** anger att inga ändringar behövs för den här versionen av dokumentet och att godkännande ges.
 
-      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
+      * **Godkänn med ändringar** indikerar att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges om ändringarna görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som krävs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** för att skicka godkännandebeslutet utan ytterligare information.
 
-   * **Behöver göras** anger att dokumentversionen inte är godkänd och kräver betydande ändringar.
+   * **Behöver arbete** indikerar att dokumentversionen inte är godkänd och kräver betydande ändringar.
 
 ## Godkänn ett dokument från rutan Dokumentsammanfattning
 
@@ -128,10 +128,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 1. Klicka på ett av följande två godkännandealternativ i det övre högra hörnet av rutan Dokumentsammanfattning:
 
-   * The **Godkänn** listrutan innehåller två alternativ:
+   * Listrutan **Godkänn** innehåller två alternativ:
 
       * **Godkänn** anger att inga ändringar behövs för den här versionen av dokumentet och att godkännande ges.
 
-      * **Godkänn med ändringar** anger att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges under förutsättning att dessa ändringar görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som behövs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** att skicka godkännandebeslutet utan ytterligare information.
+      * **Godkänn med ändringar** indikerar att vissa små ändringar fortfarande krävs i dokumentet, men godkännande ges om ändringarna görs. Om du väljer det här alternativet visas ett fönster som innehåller en textruta med namnet **Nästa steg** där du kan ange vilka ändringar som krävs för att dokumentet ska godkännas. Du kan antingen ange den informationen och klicka på **Lägg till meddelande** eller klicka på **Hoppa över** för att skicka godkännandebeslutet utan ytterligare information.
 
-   * **Behöver göras** anger att dokumentversionen inte är godkänd och kräver betydande ändringar.
+   * **Behöver arbete** indikerar att dokumentversionen inte är godkänd och kräver betydande ändringar.

@@ -9,7 +9,7 @@ role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`added validator LESS_THAN_EQUAL
+`<sup>1</sup>`tillagd validerare LESS_THAN_EQUAL
 
 ### BudgeteradTimme
 
@@ -150,7 +150,7 @@ Följande befintliga resurser har uppdaterats med den här versionen av Workfron
 
 | Fält | Referenser | Samlingar | Sök | Åtgärder | Frågor | Operationer |
 |---|---|---|---|---|---|---|
-| name `<sup>1</sup>` |   |   |   |   |   |   |
+| namn `<sup>1</sup>` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -274,7 +274,7 @@ Utgift
 
 {style="table-layout:auto"}
 
-<sup>1</sup>tillagd valideringsvaluta
+<sup>1</sup>tillagd verifieringsvaluta
 
 ### Uppgift
 
@@ -296,7 +296,7 @@ Utgift
 
 {style="table-layout:auto"}
 
-<sup>1</sup> added validator LESS_THAN
+<sup>1</sup> lade till valideraren LESS_THAN
 
 ### TeamAssignment
 

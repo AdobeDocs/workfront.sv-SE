@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla förbättringar som gjorts i Adobe Workfront Fusion den 17 augusti 2020.
 
-En lista med alla senaste ändringar finns på [Versionsaktivitet för Adobe Workfront Fusion](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+En lista med alla senaste ändringar finns i [Adobe Workfront Fusion-versionsaktivitet](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-En lista med de senaste felkorrigeringarna i Workfront Fusion finns i [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar som heter Workfront Fusion Maintenance Update.
+En lista med de senaste felkorrigeringarna i Workfront Fusion finns på sidan [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) och sök efter uppdateringar med namnet Workfront Fusion Maintenance Update.
 
 ## Det är enklare att konvertera objekt med anpassade data i modulen &quot;Andra åtgärder&quot; i Workfront
 
@@ -32,7 +32,7 @@ När du väljer någon av åtgärderna convertToProject eller convertToTask hjä
 * Det finns ingen ny lista med Project-standardfält (eller aktivitetsfält) som du kan fylla i eller mappa för det nya objektet. Tidigare krävdes en avancerad konfiguration för den här modulen. Om du har använt den här modulen tidigare är din avancerade konfiguration fortfarande tillgänglig under Avancerade inställningar.
 * En ny parameter: Kopiera anpassade data. Om det här alternativet är aktiverat kopieras alla anpassade fält som har värden på det ursprungliga objektet och som finns på det nya objektet automatiskt till det nya objektet.
 
-Mer information finns i [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Överför ett dokument till en viss mapp i Workfront Upload Document Module.
 
@@ -40,7 +40,7 @@ När du överför ett dokument till ett projekt, en uppgift eller ett ärende ka
 
 Tidigare var det inte möjligt att överföra direkt till en mapp.
 
-Mer information finns i [Adobe Workfront moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Mer information finns i [Adobe Workfront-moduler](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
 ## Ute nu: Hubspot CRM och moduler
 

@@ -22,7 +22,7 @@ När någon lägger till dig i en kommentar på postsidan får du ett meddelande
 >
 >Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
 >
->Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Åtkomstkrav
 
@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <p> Produkt</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>För att kunna ta emot meddelanden i appen från Workfront Planning och hantera aviseringsinställningarna måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe enhetliga upplevelse för Workfront</a>.</p>
+   <p>För att kunna ta emot meddelanden i appen från Workfront Planning och hantera aviseringsinställningarna måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Visa eller högre behörigheter på en arbetsyta</a> </p>  
+   <td> <p>Visa eller högre behörigheter på en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -84,14 +84,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Hantera meddelandeinställningar
 
 1. Logga in på Workfront med dina Adobe Experience Cloud-uppgifter.
-1. Klicka på **kontomeny** icon ![](assets/account-menu-icon-on-experience-cloud.png) i skärmens övre högra hörn och klicka sedan på **Inställningar**.
-1. Under **Meddelanden** avsnitt, klicka **Workfront**följer du stegen i följande artikel för att hantera aviseringsinställningarna för Workfront Planning:
+1. Klicka på ikonen **kontomeny** ![](assets/account-menu-icon-on-experience-cloud.png) i skärmens övre högra hörn och klicka sedan på **Inställningar**.
+1. Klicka på **Workfront** under avsnittet **Notifications** och följ sedan stegen i följande artikel för att hantera dina aviseringsinställningar för Workfront Planning:
    [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Mer information om Workfront Planning-meddelanden finns i följande artiklar:
 
-* Mer information om kommentarer på poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
-* Mer information om meddelanden i appen från Workfront Planning finns i [Hantera meddelanden i appen för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Mer information om kommentarer om poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+* Information om meddelanden i appen från Workfront Planning finns i [Hantera meddelanden i appen för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * Information om e-postmeddelanden från Workfront Planning finns i [Hantera e-postmeddelanden för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar som är tillgängliga i förhandsvisningsmiljön i R1.4-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 15 februari 2017.
 
-En lista över alla ändringar som gjorts i R1 finns i [Workfront R1](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
+En lista över alla ändringar som gjorts i R1 finns i [Workfront R1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
 
 ## Uppdaterade projekt-, uppgifts- och godkännandeprocesser
 
@@ -77,7 +77,7 @@ Följande förbättringar lades till vid återställning av borttagna projekt, u
 
 * Du får nu ett e-postmeddelande när du har återställt ett objekt.\
   Som Workfront-administratör får du nu ett e-postmeddelande när du har återställt ett projekt, en uppgift eller ett problem som tidigare har tagits bort. Du får ett e-postmeddelande med information om återställningsprocessens status.\
-  Mer information om hur du återställer objekt i Workfront finns i [Återställ borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Mer information om hur du återställer objekt i Workfront finns i [Återställa borttagna objekt](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 * När objektet återställs registreras borttagningen och återställningen av objektet i objektets uppdateringsström och i det överordnade objektets uppdateringsström.\
   Tidigare spelades endast borttagningen in i det överordnade objektets uppdateringsström.\
@@ -92,7 +92,7 @@ Det finns ett nytt gränssnitt för hantering av grupper och undergrupper som ge
 
 Fältet Gruppägare och fältet Gruppmedlemmar kombineras nu till ett enda fält med en lista över gruppmedlemmar som listas nedan. Dessutom kan du filtrera listan med gruppmedlemmar och ändra om de är ägare eller medlem. 
 
-Mer information om hur du lägger till undergrupper i grupper samt anger användare som medlemmar eller gruppägare i grupper finns i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) och [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+Mer information om hur du lägger till undergrupper i grupper samt anger användare som medlemmar eller gruppägare i grupper finns i [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) och [Skapa en grupp](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
 
  
 

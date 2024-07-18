@@ -9,7 +9,7 @@ role: Admin
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,11 @@ Du kan importera exporterade data på följande sätt:
 * Om du använder exporterade rapporter manuellt
 * Oftast om du använder Spark-Starts
 
-   Mer information om hur du importerar data till Workfront med Quick-Starts finns i [Importera data till Adobe Workfront med en snabbstartsmall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Mer information om hur du importerar data till Workfront med Quick-Starts finns i [Importera data till Adobe Workfront med en Quick-Start-mall](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 Sandlådemiljön för förhandsgranskning uppdateras under våra underhållsperioder under helgen.
 
-Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö finns i [Adobe statuswebbplats](https://status.adobe.com).
+Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö finns i [statuswebbplatsen för Adobe](https://status.adobe.com).
 
 >[!IMPORTANT]
 >
@@ -51,10 +51,10 @@ När du har fastställt att ett borttaget objekt behöver återställas av vårt
 * Beräknat datum och tid för borttagning
 * Objekt-GUID (om möjligt)
 
-   Se följande information när du söker efter GUID för ett objekt:
+  Se följande information när du söker efter GUID för ett objekt:
 
-   * GUID kan hittas genom att referera till e-postmeddelanden som utlöses av interaktion med objektet (tilldelningar till, kommentarer till osv.)
-   * Exempel på ett GUID som finns i slutet av en URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
+   * GUID kan hittas genom att referera till e-postmeddelanden som aktiveras av interaktion med objektet (tilldelningar till, kommentarer till osv.)
+   * Exempel på ett GUID som hittades i slutet av en URL: `yourdomain.my.workfront.com/issue/view?ID=568bfa96011220154c8ca4c4e691556b`
 
 När du har samlat in den här informationen eller om du behöver hjälp, ring vårt kundsupportteam på 844-306-HELP(4357) eller skicka in en biljett online.
 

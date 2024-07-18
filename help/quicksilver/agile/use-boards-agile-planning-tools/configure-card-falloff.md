@@ -9,7 +9,7 @@ feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -41,22 +41,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Konfigurera kortutfall
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Configure]** till höger om ritytan för att öppna panelen Konfigurera.
+1. Klicka på **[!UICONTROL Configure]** till höger om kortet för att öppna konfigurationspanelen.
 1. Expandera **[!UICONTROL Cards]**.
 1. Aktivera **[!UICONTROL Automatically archive cards from the board]**.
 
-   ![Inställningar för kortets utfall](assets/card-falloff-switch.png)
+   ![Inställningar för kortavstängning](assets/card-falloff-switch.png)
 
 1. Välj när kort ska arkiveras från styrelsen. Du kan välja upp till 8 veckor eller upp till 60 dagar.
 
    Datumet avgörs från när kortet senast ändrades.
 
 1. Välj vilken kolumn du vill ta bort kort från.
-1. Klicka **[!UICONTROL Save]** på bekräftelsemeddelandet.
-1. Klicka **[!UICONTROL Hide configure]** för att stänga [!UICONTROL Configure] -panelen. Konfigurationsinställningarna används automatiskt när du uppdaterar ritytan.
+1. Klicka på **[!UICONTROL Save]** i bekräftelsemeddelandet.
+1. Klicka på **[!UICONTROL Hide configure]** för att stänga panelen [!UICONTROL Configure]. Konfigurationsinställningarna används automatiskt när du uppdaterar ritytan.

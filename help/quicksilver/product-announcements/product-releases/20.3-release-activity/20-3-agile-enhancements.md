@@ -26,7 +26,7 @@ Nu kan du välja hur länge Kort ska vara kvar på Kanban-tavlan.
 
 Tidigare slutade kort på Kanban-tavlan efter 14 dagar.
 
-Mer information finns i [Konfigurera Kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Mer information finns i [Konfigurera kanban](../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ## Agile boards läser in 50 arbetsuppgifter åt gången
 

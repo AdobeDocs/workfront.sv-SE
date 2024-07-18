@@ -5,9 +5,10 @@ title: Bryt länken till eller ta bort resurser och mappar från Experience Mana
 description: Du kan bryta länken till eller ta bort objekt som är länkade till Workfront från Adobe Experience Manager Assets.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: 4c52182cb8150faafcf872ac9115c404e544cf6c
+exl-id: f082be12-2adc-4234-a01a-7543c032a35a
+source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -20,8 +21,8 @@ Du kan bryta länken till eller ta bort objekt som är länkade till Workfront f
 
 När du tar bort ett länkat dokument eller en länkad mapp i Workfront bryts länken från Experience Manager Assets och tas endast bort i Workfront. Dokumentet eller resursen påverkas inte i Experience Manager Assets.
 
-1. Markera det länkade dokumentet eller mappen och klicka sedan på **Ta bort**.
-1. I bekräftelserutan som visas klickar du på **Ja, bryt länken**.
+1. Markera det länkade dokumentet eller den länkade mappen och klicka sedan på **Ta bort**.
+1. Klicka på **Ja, bryt länken** i bekräftelserutan som visas.
 
    Dokumentet är inte länkat från Workfront webbplats. Den påverkas inte i det externa programmet.
 

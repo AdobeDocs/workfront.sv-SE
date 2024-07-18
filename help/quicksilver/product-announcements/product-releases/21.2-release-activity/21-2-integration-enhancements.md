@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # 21.2 Integration enhancements
 
-Den här sidan beskriver alla integreringsförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla integreringsförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Nu kommer Adobe Workfront för XD
 
 Vi är glada över att kunna meddela att vi lanserar vårt nya plugin-program: Adobe Workfront för XD. Med denna plugin kan du få tillgång till information om arbetsuppgifterna, samarbeta med kollegor i uppdateringsområdet och skicka in korrektur för granskning - allt utan att behöva lämna XD. Gå till Adobe XD Marketplace och ladda ned pluginen idag.
 
-Mer information om vad du kan göra med Adobe Workfront för XD finns i [Hantera arbetet med Adobe Workfront plugin för Creative Cloud-program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
+Mer information om vad du kan göra med Adobe Workfront för XD finns i [Hantera arbete med Adobe Workfront-plugin-programmet för Creative Cloud-program](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
 ## Sök efter mappar i dokumentintegreringar

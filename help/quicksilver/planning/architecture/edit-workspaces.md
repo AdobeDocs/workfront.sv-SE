@@ -92,44 +92,44 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 1. Klicka på ett arbetsytekort för att öppna arbetsytan.
 1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på **Retur**.
-1. Klicka på **Mer** meny ![](assets/more-menu.png) till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Redigera**.
+1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Redigera**.
 
    ![](assets/edit-workspace-box.png)
 
-   Uppdatera följande information i **Arbetsytan Redigera** box:
+   Uppdatera följande information i rutan **Redigera arbetsyta**:
 
    * Lägg till ett namn för arbetsytan. <!--did they add a label for this field?-->
    * **Beskrivning**: Lägg till information om arbetsytan.
    * Välj en ikon som du vill associera med arbetsytan.
 
-1. Klicka **Spara** om du vill stänga arbetsytan Editor och tillämpa ändringarna.
+1. Klicka på **Spara** för att stänga arbetsyterutan för redigering och tillämpa ändringarna.
 
 1. (Valfritt) Gör något av följande om du vill lägga till ett nytt avsnitt i arbetsytan:
 
-   * Klicka **Lägg till avsnitt** längst ned på arbetsytan.
-   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Lägg till avsnittet ovan** eller **Lägg till avsnitt nedan**.
+   * Klicka på **Lägg till avsnitt** längst ned på arbetsytan.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på menyn **Mer** ![](assets/more-menu.png). Klicka sedan på **Lägg till avsnitt ovanför** eller **Lägg till avsnitt nedan**.
 
 1. (Valfritt) Gör något av följande om du vill ändra platsen för ett avsnitt:
 
-   * Håll muspekaren över namnet på ett avsnitt och klicka på **ta** icon ![](assets/grab-icon.png)och sedan dra och släpp den på den högra platsen.
-   * Håll muspekaren över namnet på ett avsnitt och klicka på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Flytta uppåt** eller **Flytta nedåt**. Avsnittet flyttas uppåt eller nedåt i arbetsytan.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på ikonen **gripning** ![](assets/grab-icon.png). Dra och släpp den sedan på den högra platsen.
+   * Håll muspekaren över namnet på ett avsnitt och klicka på menyn **Mer** ![](assets/more-menu.png). Klicka sedan på **Flytta upp** eller **Flytta ned**. Avsnittet flyttas uppåt eller nedåt i arbetsytan.
 
 1. (Valfritt) Så här tar du bort ett avsnitt på arbetsytan:
 
-   1. Håll muspekaren över namnet på ett avsnitt och klicka sedan på **Mer** meny ![](assets/more-menu.png)och sedan klicka **Ta bort**. <!--add screen shot when UI is final?-->
-   1. Markera ett nytt avsnitt som du vill flytta alla posttyper till och klicka sedan på **Ta bort**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   1. Håll muspekaren över namnet på ett avsnitt, klicka på menyn **Mer** ![](assets/more-menu.png) och klicka sedan på **Ta bort**. <!--add screen shot when UI is final?-->
+   1. Markera ett nytt avsnitt om du vill flytta alla posttyper till det och klicka sedan på **Ta bort**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Alla posttyper flyttas till urvalssektionen och avsnittet tas bort.
 
-1. (Valfritt) Klicka på **Lägg till posttyp** om du vill lägga till posttyper på arbetsytan.
+1. (Valfritt) Klicka på **Lägg till posttyp** för att lägga till posttyper på arbetsytan.
 
    Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Valfritt) Håll muspekaren över ett posttypskort och klicka på **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** om du vill ändra utseendet på en posttyp.
+1. (Valfritt) Håll markören över ett posttypskort, klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Redigera** för att ändra utseendet på en posttyp.
 
    Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Valfritt) Håll muspekaren över ett posttypskort och klicka på **Mer** meny ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Ta bort** om du vill ta bort en posttyp.
+1. (Valfritt) Håll markören över ett posttypskort, klicka på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet och klicka sedan på **Ta bort** för att ta bort en posttyp.
 
    Mer information finns i [Ta bort posttyper](/help/quicksilver/planning/architecture/delete-record-types.md).
 

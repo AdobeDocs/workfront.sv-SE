@@ -67,5 +67,5 @@ Följande tabell visar skillnader och likheter mellan grupper och team:
 | Tilldela layoutmallar | ✓ | ✓ |
 | Alla användare med en planlicens kan tilldela den till en annan användare |  | ✓ |
 | Anpassa status | ✓ |  |
-| Anpassa [!UICONTROL Done] knapp |  | ✓ |
+| Anpassa knappen [!UICONTROL Done] |  | ✓ |
 | Spåra licenser | ✓ |  |

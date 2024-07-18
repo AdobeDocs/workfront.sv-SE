@@ -25,10 +25,10 @@ I det här avsnittet hittar du information och instruktioner om hur du konfigure
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Översikt över hur du definierar mål för implementeringen av Adobe Workfront](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-* [Hantera tillgängliga licenser i ditt system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
-* [Konfigurera grundläggande information för ditt system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
-* [Översikt över brandväggen](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
+* [Översikt över hur du definierar mål för din Adobe Workfront-implementering](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [Hantera tillgängliga licenser i systemet](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+* [Konfigurera grundläggande information för systemet](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
+* [Brandvägg - översikt](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
 * [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 * [Konfigurera din e-postadress tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Skicka meddelanden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)

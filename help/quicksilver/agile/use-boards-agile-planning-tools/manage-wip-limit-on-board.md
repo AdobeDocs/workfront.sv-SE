@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# Hantera [!UICONTROL Work in Progress] (PIA) begränsning av antalet anställda
+# Hantera gränsen för [!UICONTROL Work in Progress] (PIA) på ett moderkort
 
-Du kan konfigurera en [!UICONTROL Work In Progress] (PIA) för varje kolumn på en anslagstavla.
+Du kan konfigurera en [!UICONTROL Work In Progress] (WIP)-gräns för varje kolumn på en anslagstavla.
 
 Pågående arbete-begränsningen är bara en visuell varning och förhindrar inte att du har fler objekt i varje kolumn än den gräns du anger.
 
@@ -41,24 +41,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ange PIA-gräns för en kolumn
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Boards]**.
-1. Gå till en anslagstavla. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
+1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Leta reda på den kolumn som du vill lägga till PIA-gränsen i.
 
-   Information om hur du lägger till en ny kolumn finns i [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Mer information om hur du lägger till en ny kolumn finns i [Hantera kortpanelskolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-1. Klicka på **[!UICONTROL More]** -menyn i kolumnen och väljer **[!UICONTROL Edit]** för att öppna området Inställningar.
-1. Under [!UICONTROL Column Policies], aktivera **[!UICONTROL Work in progress]limit** princip för att begränsa antalet kort som kan läggas till i kolumnen.
-1. Ange begränsningsnumret i dialogrutan **[!UICONTROL Set limit]** fält.
+1. Klicka på menyn **[!UICONTROL More]** i kolumnen och välj **[!UICONTROL Edit]** för att öppna inställningsområdet.
+1. Under [!UICONTROL Column Policies] aktiverar du principen **[!UICONTROL Work in progress]limit** för att begränsa antalet kort som kan läggas till i kolumnen.
+1. Skriv gränsnumret i fältet **[!UICONTROL Set limit]**.
 
-   ![PIA-gräns för kolumn](assets/boards-wip-limit-in-column.png)
+   ![Pågående arbete-begränsning för kolumn](assets/boards-wip-limit-in-column.png)
 
    Antalet kort och gränsen visas överst i kolumnen. Om kolumnen innehåller fler kort än gränsen blir räknaren röd.
 
    ![Räknare för PIA-begränsning](assets/boards-wip-limit-counter.png)
 
-1. Klicka **[!UICONTROL Close]** för att avsluta [!UICONTROL Settings] och visa kolumnen och dess kort.
+1. Klicka på **[!UICONTROL Close]** för att avsluta området [!UICONTROL Settings] och visa kolumnen och dess kort.

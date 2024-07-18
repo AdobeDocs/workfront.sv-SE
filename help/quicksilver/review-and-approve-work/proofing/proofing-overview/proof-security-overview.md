@@ -20,7 +20,7 @@ Du kan lägga till extra säkerhetsåtgärder till korrektur.
 
 ## Inloggning krävs
 
-Den inloggning som krävs förbättrar säkerheten för de korrektur som skapas i ditt konto. Du kan aktivera inloggning som krävs för alla korrektur på kontonivån eller aktivera den för enskilda korrektur efter behov. Mer information om att aktivera för ditt konto finns i [Konfigurera standardinställningar för korrektur](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Den inloggning som krävs förbättrar säkerheten för de korrektur som skapas i ditt konto. Du kan aktivera inloggning som krävs för alla korrektur på kontonivån eller aktivera den för enskilda korrektur efter behov. Mer information om hur du aktiverar för ditt konto finns i [Konfigurera standardkorrekturinställningar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 >[!NOTE]
 >
@@ -34,12 +34,12 @@ När inloggning krävs är granskarna skyldiga att logga in med sina e-postadres
 >
 >För att effektivisera inloggningsprocessen rekommenderar vi att du konfigurerar enkel inloggning i Workfront och Workfront. Mer information om att aktivera enkel inloggning finns i >
 >* [Enkel inloggning i Workfront: artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Konfigurera enkel inloggning för Workfront-korrekturanvändare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Konfigurera enkel inloggning för Workfront Proof-användare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## Elektronisk signatur
 
-Elektroniska signaturer gör att du kan förbättra säkerheten på dina korrektur och följa säkerhetsstandarder som ISO. Du kan aktivera elektroniska signaturer för alla korrektur på kontonivån eller aktivera det för enskilda korrektur efter behov. Mer information finns i [Konfigurera standardinställningar för korrektur](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Elektroniska signaturer gör att du kan förbättra säkerheten på dina korrektur och följa säkerhetsstandarder som ISO. Du kan aktivera elektroniska signaturer för alla korrektur på kontonivån eller aktivera det för enskilda korrektur efter behov. Mer information finns i [Konfigurera standardkorrekturinställningar](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 ## Signera ett bevis elektroniskt
 
@@ -48,5 +48,5 @@ När inställningen för elektroniska signaturer är aktiverad på ett korrektur
 >[!IMPORTANT]
 >
 >Om du vill signera ett korrektur elektroniskt med inloggningsuppgifter för enkel inloggning måste du konfigurera enkel inloggning i Workfront Proof. Mer information om att aktivera enkel inloggning finns i >
->* [Konfigurera enkel inloggning för Workfront-korrekturanvändare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Konfigurera enkel inloggning för Workfront Proof-användare](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Visa och gruppera: visa projektets faktiska varaktighet aggregerat med genomsnittet i en gruppering'
+title: 'Visa och gruppera: visa projekt, faktisk varaktighet aggregerat med medelvärdet i en gruppering'
 description: Du kan lägga till följande kolumn i en projektrapport om du vill visa den faktiska varaktigheten som ett genomsnitt i en gruppering.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 31794fe9-a04a-437d-8d2e-40e0cb6e6104
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att ändra en rapport</p> <p>Redigera åtkomst till filter, vyer och grupperingar för att ändra en vy</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -60,13 +60,12 @@ Så här lägger du till den här kolumnen i en projektvy:
    Mer information om hur du skapar grupperingar finns i artikeln [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Gå till en befintlig projektvy.
-1. Expandera listrutan Visa och välj **Anpassa vy**.
-1. Klicka **Lägg till kolumn**.
-1. Klicka **Växla till textläge**.
-1. För musen över **Visa i den här kolumnen** och klicka **Klicka för att redigera text**.
+1. Expandera listrutan Visa och välj **Anpassa vy**.
+1. Klicka på **Lägg till kolumn**.
+1. Klicka på **Växla till textläge**.
+1. För musen över **Visa i den här kolumnen** och klicka på **Klicka för att redigera text**.
 
 1. Ta bort all text i rutan Textläge och ersätt den med följande kod:
+   <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualDuration <br>aggregator.valueField=actualDurationMinutes <br>aggregator.valueFormat=val <br>displayname=Project Actual Durationunitfield=durationUnit.Unit value <br> linkedname=project <br>namekey=actualDuration <br>namekeyargkey=actualDuration <br>querysort=actualDurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueFormat=compound#M:D <br>viewalias=actualDuration<br></pre>
 
-   <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualDuration <br>aggregator.valueField=actualDurationMinutes <br>aggregator.valueFormat=val <br>displayName=Project Actual Duration <br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualDuration <br>namekeyargkey=actualDuration <br>querysort=actualDurationMinutes <br>textmode=true <br>valueField=actualDurationMinutes <br>valueFormat=compound#M:D <br>viewalias=actualDuration</pre>
-
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.

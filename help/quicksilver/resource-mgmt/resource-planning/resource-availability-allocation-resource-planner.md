@@ -1,19 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner
+title: Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner
 description: Du kan visa tillgängligheten för dina resurser och mängden planerat eller budgeterat arbete för dina projekt i resursplaneraren. Dessa värden visas i timmar, FTE (heltidsekvivalent) eller kostnadsbelopp och är ordnade i kolumner.
 author: Alina
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
 source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
 
-# Granska resurstillgänglighet och tilldelning med Adobe Workfront Resource Planner
+# Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner
 
 Du kan visa tillgängligheten för dina resurser och mängden planerat eller budgeterat arbete för dina projekt i resursplaneraren. Dessa värden visas i timmar, FTE (heltidsekvivalent) eller kostnadsbelopp och är ordnade i kolumner.
 
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Projekt</p> </li> 
     </ul> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -68,15 +68,15 @@ Du måste uppfylla alla krav som krävs för att kunna arbeta med resursplanerar
 >
 >Om något av de krav som krävs för att resursplaneraren ska fungera korrekt saknas, kan vissa siffror vara noll, eller så kan budgeterade timmar vara nedtonade.
 
-## Tillgång till och tilldelning av resurser
+## Tillgänglighet och resurstilldelning
 
-Kolumnerna som visar tillgängligheten och allokeringen av dina resurser ändras beroende på vilken vy du använder i resursplaneraren. Mer information om hur du visar informationen i resursplaneraren efter projekt, roll eller användare finns i [Översikt över navigering i resursplanering](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Kolumnerna som visar tillgängligheten och allokeringen av dina resurser ändras beroende på vilken vy du använder i resursplaneraren. Mer information om hur du visar informationen i resursplaneraren efter projekt, roll eller användare finns i [Navigeringsöversikt för resursplanering](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 Tänk på följande när du ändrar vyn till Resursplanering:
 
-* När du använder **Visa efter projekt** eller **Visa efter roll** visas följande kolumner:
+* När du använder vyerna **Visa efter projekt** eller **Visa efter roll** kan du se följande kolumner:
 
-   <!--
+  <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   (NOTE: Alina: (some of the information in this area is also covered in Calculating Costs in the RP - https://workfront.zendesk.com/hc/en-us/articles/115004186433 - update this article also, when changes here occur)
   </MadCap:conditionalText>
@@ -90,7 +90,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
    * Timmar, heltidsekvivalenter eller kostnadsavvikelse
    * Nettotimmar, heltidsekvivalenter eller kostnad
 
-* När du använder **Visa efter användare** kan du se följande kolumner:
+* När du använder vyn **Visa efter användare** kan du se följande kolumner:
 
    * Tillgängliga timmar eller heltidsekvivalenter
    * Planerade timmar eller heltidsekvivalenter
@@ -99,17 +99,16 @@ Tänk på följande när du ändrar vyn till Resursplanering:
 
 >[!TIP]
 >
->Informationen är inte tillgänglig som Kostnad när du använder **Visa efter användare** till resursplaneraren.
+>Informationen är inte tillgänglig som kostnad när vyn **Visa efter användare** används i resursplaneraren.
 >
 >Mer information om vad varje kolumn visar får du om du för musen över namnet på den kolumn där talet visas.\
 >![Net_hours_res_planner_mouse_over.png](assets/net-hours-res-planner-mouse-over-350x95.png)
 >
 >Mer information om vilka data som visas i varje kolumn finns i följande artiklar:
 >
->* [Översikt över timmar, heltidsekvivalenter och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
->* [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+>* [Översikt över timma-, FTE- och kostnadsinformation i projekt- och rollvyerna i resursplaneraren](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+>* [Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när användarvyn används](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 >
-
 
 ## Visa information per timme, heltid eller kostnad
 
@@ -118,7 +117,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
    Som standard visas informationen som timmar i resursplaneraren.
 
 1. Expandera listrutan.\
-   ![Timmar_After_or_cost_dropdown.png](assets/hours-fte-or-cost-dropdown.png)
+   ![Timmar_Efter_or_cost_dropdown.png](assets/hours-fte-or-cost-dropdown.png)
 
 1. Välj bland följande alternativ:
 
@@ -132,13 +131,13 @@ Tänk på följande när du ändrar vyn till Resursplanering:
      </tr> 
      <tr> 
       <td role="rowheader">FTE</td> 
-      <td> <p>Visar tillgänglighets- och allokeringsinformation i heltidsekvivalenter.</p> <p>Mer information om hur FTE beräknas i resursplaneraren finns i <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och heltidsekvivalent för användare och roller i resursplaneraren</a>. </p> </td> 
+      <td> <p>Visar tillgänglighets- och allokeringsinformation i heltidsekvivalenter.</p> <p>Mer information om hur FTE beräknas i resursplaneraren finns i <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Översikt över beräkning av timmar och FTE för användare och roller i resursplaneraren</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kostnad</td> 
-      <td> <p>Visar tillgänglighets- och allokeringsinformation per kostnad om du visar resursplaneraren i projekt- eller rollvyerna. Informationen visar värden i systemets valuta. Din Workfront-administratör definierar systemvalutan. Mer information om hur du ställer in systemvalutan i Workfront finns i <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Ställ in valutakurser</a>.</p> <p><b>ANMÄRKNING</b>
+      <td> <p>Visar tillgänglighet och allokeringsinformation per kostnad om du visar resursplaneraren i projekt- eller rollvyerna. Informationen visar värden i systemets valuta. Din Workfront-administratör definierar systemvalutan. Mer information om hur du ställer in systemvalutan i Workfront finns i <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Konfigurera valutakurser</a>.</p> <p><b>ANMÄRKNING</b>
 
-   Du måste associera användare och jobbroller med kostnad per timme för att visa kostnadsinformation i resursplaneraren.<br style="font-style: italic;">Mer information om hur du associerar självkostnad per timme med jobbroller finns i <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.<br style="font-style: italic;">Mer information om hur du associerar självkostnad per timme med användare finns i <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.<br style="font-style: italic;">Mer information om hur kostnaden beräknas i resursplaneraren finns i <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Beräkna kostnader i resursplaneraren </a>.</p> </td>
+   Du måste associera användare och jobbroller med kostnad per timme för att visa kostnadsinformation i resursplaneraren.<br style="font-style: italic;">Mer information om hur du associerar kostnadsnivåer per timme med jobbroller finns i <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Skapa och hantera jobbroller</a>.<br style="font-style: italic;">Mer information om hur du associerar kostnadsnivåer per timme med användare finns i <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Redigera en användares profil</a>.<br style="font-style: italic;">Mer information om hur kostnaden beräknas i resursplaneraren finns i <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Beräkna kostnader i resursplaneraren </a>.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Anpassa</td> 
@@ -147,17 +146,17 @@ Tänk på följande när du ändrar vyn till Resursplanering:
     </tbody> 
    </table>
 
-1. (Villkorligt) Om du har valt **Anpassa**, anger alternativ i **Anpassa visade mätvärden** för att ställa in din anpassade vy.
+1. (Villkorligt) Om du valde **Anpassa** anger du alternativ i rutan **Anpassa visade mätvärden** för att konfigurera din anpassade vy.
 
    ![](assets/planner-customize-view-box-350x114.png)
 
-1. I **Vytyp** Markera en av följande vyer i kolumnen till vänster:
+1. I kolumnen **Vytyp** till vänster väljer du en av följande vyer:
 
    * Projekt
    * Roll
    * Användare
 
-1. I **Visa markerade objekt** markerar du den typ av information som du vill visa i kolumnerna i den markerade vyn. I följande tabell visas vilka alternativ som är tillgängliga i varje vy:
+1. I avsnittet **Visa markerade objekt** väljer du den typ av information som du vill visa i kolumnerna i den markerade vyn. I följande tabell visas vilka alternativ som är tillgängliga i varje vy:
 
    | **Alternativ** | Användarvy | Projektvy | Rollvy |
    |---|---|---|---|
@@ -170,7 +169,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
    | Differens | ✔ |   |   |
    | Procent | ✔ |   |   |
 
-1. Välj **Använd planerade värden (zloty) i nettoberäkningar** om du vill använda planerad i stället för budgeterad information när du beräknar nettovärden i projekt- och rollvyerna.
+1. Välj **Använd planerade (PLN)-värden i NET-beräkningar** om du vill använda Planerad i stället för Budgeterad information när du beräknar nettovärden i projekt- och rollvyerna.
 
    När du väljer det här alternativet beräknar Workfront nettovärdena med följande formel:
 
@@ -182,7 +181,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
    >
    >**Det här alternativet används bara när du väljer minst ett alternativ för att anpassa vyn i avsnittet Visa markerade objekt.**
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    Den anpassade vy som innehåller de markerade kolumnerna visas.
 
@@ -194,7 +193,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
 
    ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
-## Visa användarallokeringsdiagram
+## Visa användarallokeringsdiagrammet
 
 Du kan visa den planerade fördelningen av användare mot deras tillgänglighet i ett diagram.
 
@@ -202,7 +201,7 @@ Så här visar du allokeringen av användare i ett diagram:
 
 1. Gå till Resursplaneraren.
 
-   Mer information om åtkomst till resursplaneraren finns i [Leta reda på resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) i artikeln [Översikt över resursplanering](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Mer information om åtkomst till resursplaneraren finns i avsnittet [Hitta resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) i artikeln [Översikt över resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 1. Välj **Visa efter användare**.
 
@@ -210,7 +209,7 @@ Så här visar du allokeringen av användare i ett diagram:
    >
    >Du kan bara visa användarallokeringsdiagrammet i användarvyn.
 
-1. Klicka på **Användarallokeringsdiagram** icon ![RP_user_allokering_chart.png](assets/rp-user-allocation-chart.png) om du vill visa följande information:
+1. Klicka på ikonen **Användarallokeringsdiagram** ![RP_user_allokering_chart.png](assets/rp-user-allocation-chart.png) för att visa följande information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -234,19 +233,19 @@ Så här visar du allokeringen av användare i ett diagram:
    </tr> 
      <tr> 
       <td role="rowheader">Det finns en överallokering för minst en användare under den här tidsperioden</td> 
-      <td>Detta visar att det finns en överallokering för minst en användare i en tidsperiod, även om den totala tiden för alla användare inte är överallokerad för tidsperioden.<br>Du måste bläddra igenom listan med användare och timmarna för användaren som är överallokerad markeras med rött.</td> 
+      <td>Detta visar att det finns en överallokering för minst en användare i en tidsperiod, även om den totala tiden för alla användare inte är överallokerad för tidsperioden.<br>Du måste bläddra igenom listan över användare och timmarna för den användare som är överallokerad markeras med rött.</td> 
      </tr> 
     </tbody> 
    </table>
 
    ![RP_user_allokering_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
 
-1. (Valfritt) Klicka på **Överbeläggning % för alla användare** området i diagrammet.\
+1. (Valfritt) Klicka på området **Överbeläggning % för alla användare** i diagrammet.\
    Alla användare som är överallokerade markeras med rött.
-1. (Valfritt) Klicka på **Underutnyttjande % för alla användare** området i diagrammet.\
+1. (Valfritt) Klicka på **Underutnyttjande % för alla användare** i diagrammet.\
    Alla användare som är underutnyttjade markeras med blått.
 
-1. (Valfritt) Klicka på indikatorikonen ![one_user_overallok_marker.png](assets/one-user-overallocation-marker.png) som visar var du har minst en användare övertilldelad.\
-   De användare som är överallokerade markeras med rött.
+1. (Valfritt) Klicka på indikatorikonen ![one_user_overallokering_marker.png](assets/one-user-overallocation-marker.png) som visar var du har minst en användare överallokerat.\
+   De överallokerade användarna markeras med rött.
 
 1. (Valfritt) Uppdatera sidan om du vill komprimera diagrammet.

@@ -3,7 +3,7 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Förstå användare, medlemmar och gäster i [!DNL Workfront Proof]
+title: Förstå användare, medlemmar och gäster i  [!DNL Workfront Proof]
 description: Användare, medlemmar och gäster är de tre typer av kontakter som du kan arbeta med på sidan Kontakter.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -19,20 +19,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Användare, medlemmar och gäster är de tre typer av kontakter som du kan arbeta med på sidan Kontakter.
 
-Se [Hantera dina kontakter i [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md) om du vill ha mer information om sidan Kontakter.
+Mer information om kontaktsidan finns i [Hantera dina kontakter i [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/manage-contacts.md).
 
 * **Användare**
 
-   Användarna har [!DNL Workfront Proof] logga in på din organisations konto. Om du är en [!DNL Workfront Proof] kan du lägga till en ny användare. Se [Skapa användare med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) för mer information.
+  Användare har en [!DNL Workfront Proof]-inloggning i organisationens konto. Om du är [!DNL Workfront Proof]-administratör kan du lägga till en ny användare. Mer information finns i [Skapa användare med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).
 
 * **Medlemmar**
 
-   Medlemmar har sina egna [!DNL Workfront Proof] logga in på ett annat företags konto (inte ditt eget). Du kan inte konvertera medlemmar till användare i ditt konto.
+  Medlemmar har sin egen [!DNL Workfront Proof]-inloggning i en annan organisations konto (inte din egen). Du kan inte konvertera medlemmar till användare i ditt konto.
 
 * **Gäster**
 
-   Gästerna har inte sina egna [!DNL Workfront Proof] logga in på din organisations konto, men du har lagt till deras information i ditt konto (t.ex. gästgranskare på korrektur). Du kan konvertera gäster till användare. Mer information finns i [Skapa användare med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).
+  Gäster har inte egna [!DNL Workfront Proof]-inloggningar i din organisations konto, men du har lagt till deras information i ditt konto (till exempel gästgranskare på korrektur). Du kan konvertera gäster till användare. Mer information finns i [Skapa användare med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md).

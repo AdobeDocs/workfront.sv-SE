@@ -24,7 +24,7 @@ En kalenderrapport är en dynamisk rapport som ger en visuell representation av 
 * Problem
 * Projekt
 
-Din möjlighet att få åtkomst till kalenderrapporter i [!DNL Adobe Workfront] bestäms av din åtkomstnivå. Mer information om åtkomst som krävs för att visa kalenderrapporter finns i [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+Din möjlighet att komma åt kalenderrapporter i [!DNL Adobe Workfront] bestäms av din åtkomstnivå. Mer information om åtkomsten som krävs för att visa kalenderrapporter finns i [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Skapa egna kalendrar
 
@@ -40,11 +40,11 @@ Din möjlighet att få åtkomst till kalenderrapporter i [!DNL Adobe Workfront] 
 >
 >Den personliga kalendern skapas inte om du har tillgång till andra kalendrar, till exempel en systemomfattande delad kalender eller kalendrar som delas specifikt med dig.
 
-Dessutom kan du skapa kalendrar och komma åt kalendrar som delas med dig av andra användare. Det finns ingen gräns för hur många kalendrar du kan få åtkomst till i [!DNL Workfront].
+Dessutom kan du skapa kalendrar och komma åt kalendrar som delas med dig av andra användare. Det finns ingen gräns för hur många kalendrar du kan komma åt i [!DNL Workfront].
 
 >[!NOTE]
 >
->Du måste ha [!UICONTROL Edit] behörighet till [!UICONTROL Reports], [!UICONTROL Dashboards]och [!UICONTROL Calendars] på din åtkomstnivå för att skapa en kalenderrapport. Kontakta [!DNL Workfront] administratör om du vill ha mer information.
+>Du måste ha [!UICONTROL Edit] åtkomst till [!UICONTROL Reports], [!UICONTROL Dashboards] och [!UICONTROL Calendars] på din åtkomstnivå för att skapa en kalenderrapport. Kontakta [!DNL Workfront]-administratören om du vill ha mer information.
 
 ## Gruppera artiklar efter datum
 

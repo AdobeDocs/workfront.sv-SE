@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som gjorts i tredje kvartersversionen 2024 till förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns på [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den tredje utgåvan av kvartal 2024 finns i [Översikt över utgåvan tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## Redigera aktiviteten och utfärda datum och villkor för implementering från huvud- eller detaljavsnittet
@@ -29,7 +29,7 @@ För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi 
 
 Mer information om hur du uppdaterar implementeringsdatum och villkor finns i följande artiklar:
 
-* [Uppdatera villkor för aktiviteter och ärenden](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Uppdatera villkor för aktiviteter och problem](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Uppdatera implementeringsdatum för aktiviteter och ärenden](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3429471/){target=_blank}

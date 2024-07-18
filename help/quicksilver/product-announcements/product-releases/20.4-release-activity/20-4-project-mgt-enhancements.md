@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 0%
 
 ---
@@ -27,13 +27,11 @@ Fram tills nu, när du skapade ett anpassat fält, var det redigerbart av alla i
 
 För att göra den här upplevelsen bekant för dig har vi utformat användargränssnittet för den här funktionen så att det liknar andra objektområden som delas i Workfront.
 
-Mer information finns i [Konfigurera delning för anpassade fält och widgetar](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
-
 ## Nytt för administratörer: Standardanpassad formulärdelning
 
 Vi har standardiserat delning för anpassade Forms så att du kan använda samma Workfront-process för objektdelning som du redan känner till. Och den nya delningsfunktionen ger dig större kontroll över vem som kan redigera, ta bort och använda anpassade Forms som du skapar. Du kan begränsa delning för ett anpassat formulär till vissa användare, roller, team, grupper och företag. Du kan även avgöra om mottagarna kan visa eller hantera det anpassade formuläret.
 
-Mer information finns i [Dela ett eget formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+Mer information finns i [Dela ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
 
 ## Exportera anpassade formulär och översiktsinformation från detaljavsnittet för ett projekt, en uppgift eller ett ärende
 
@@ -65,7 +63,7 @@ För att spara tid och öka förståelsen för ett projekts övergripande hälsa
 
 Du kan göra markeringar i diagrammen för att visa olika aspekter av uppgifter och problem i ett projekt och klicka på vissa element för att visa aktivitetsinformation.
 
-Den här funktionen ingår nu i [Grundläggande om planering, del 3 utbildningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering, del 3-inlärningsväg](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) på Workfront One.
 
 ## Nytt för administratörer: Tilldela en företagsledare till en grupp
 
@@ -75,7 +73,7 @@ Det nya fältet Business Leader kan användas i rapportfilter, vyer och grupperi
 
 Mer information finns i [Översikt över företagsledare](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
 
 ## Nytt för administratörer: Associera portföljer, program och företag med grupper
 
@@ -85,7 +83,7 @@ Du kan t.ex. lista alla organisationens portföljer i en rapport och titta i kol
 
 Mer information finns i avsnittet Om att associera en grupp med ett objekt i artikeln [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
 
 ## Nytt för administratörer: Administratörer för en grupp som tilldelats ett företag kan hantera företaget
 
@@ -93,9 +91,9 @@ Vi har gjort det enkelt för en gruppadministratör att hantera ett företag som
 
 Mer information finns i [Skapa och redigera företag](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-Mer information om administrativ åtkomst till företag finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Mer information om administrativ åtkomst till företag finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
 
 ## Ersätta knappen Work On It (Arbeta på) med en Start-knapp
 
@@ -103,9 +101,9 @@ För att hjälpa till att hämta det datum och den tid då arbetet faktiskt star
 
 Uppdaterades den 24 september: När du klickat på Starta uppgift eller Starta utgåva kan du nu välja att återställa ditt val och ange att du kanske inte är redo att börja arbeta med en arbetsuppgift genom att klicka på Ångra. Arbetsuppgiften återgår till statusen Nytt och datumet för implementering och det faktiska startdatumet tas bort. Alternativet Ångra visas mycket kort och tas bort när du navigerar bort från eller uppdaterar sidan.
 
-Mer information om hur du konfigurerar det här alternativet finns i [Ersätta knappen Work On It (Arbeta på) med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Mer information om hur du konfigurerar det här alternativet finns i [Ersätt knappen Arbeta på med en Start-knapp](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Den här funktionen ingår nu i [Grundläggande kursväg för arbetare](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) och [Grundläggande om administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Grundläggande kursväg för arbetare](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) och [Grundläggande för administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
 
 ## Tillåt flera utkast för ett köämne
 
@@ -113,7 +111,7 @@ För att du ska få större frihet när du arbetar med begäranden finns det int
 
 Före den här förbättringen sparade Workfront endast ett utkast för varje köämne i din begärandekö.
 
-Mer information om hur du skickar begäranden finns i &quot; [Skapa och skicka Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skickar begäranden finns i [Skapa och skicka Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Tilldela en grupp till ett team
 
@@ -123,7 +121,7 @@ När du tilldelar ett team till en grupp kan dess gruppadministratörer hantera 
 
 Mer information finns i [Skapa ett team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna, del 1 utbildningsväg](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) på Workfront One.
 
 ## Med nya fält kan du rapportera data för en grupp på den översta nivån och alla dess undergrupper
 
@@ -140,5 +138,5 @@ Mer information om hur du använder fält i listor och rapporter finns i [Ordlis
 
 När du tar bort ett sparat utkast kan du nu klicka på Avbryt på bekräftelsemeddelandet som informerar dig om att utkastet kommer att tas bort. På så sätt förlorar du inte utkastet om du skulle ångra dig.
 
-Den här funktionen är bara tillgänglig i den nya Workfront-upplevelsen. Mer information finns i [Skapa och skicka Workfront-förfrågningar](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
+Den här funktionen är bara tillgänglig i den nya Workfront-upplevelsen. Mer information finns i [Skapa och skicka Workfront-begäranden](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html).
 

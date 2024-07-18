@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Använd meddelanden: artikelindex
 
-[!DNL Adobe Workfront] skickar e-postmeddelanden, meddelanden i appen och mobilmeddelanden som varnar dig om aktiviteter i [!DNL Workfront].
+[!DNL Adobe Workfront] skickar e-postmeddelanden, meddelanden i appen och mobilmeddelanden som varnar dig om aktivitet i [!DNL Workfront].
 
 <!-- Audited: 01/2024 -->
 
@@ -24,7 +24,7 @@ Det här avsnittet innehåller följande artiklar:
 
 * [[!DNL Adobe Workfront] meddelanden](../../workfront-basics/using-notifications/wf-notifications.md)
 * [Ändra dina egna e-postmeddelanden](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [Prenumerera på objekt i [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [Prenumerera på objekt i  [!DNL Adobe Workfront]](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [Översikt över meddelanden i appen](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [Visa och hantera meddelanden i appen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '''Rapport: kombinerad aktivitet och utgåva Visa och gruppera'
+title: 'Rapport: kombinerad vy och gruppering av aktiviteter och utgåvor'
 description: Den här rapporten om arbetsuppgift visar både uppgifter och problem som användare har accepterat att arbeta med i en rapport. Det är bäst när det kombineras med en anpassad gruppering.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här rapporten om arbetsuppgift visar både uppgifter och problem som användare har accepterat att arbeta med i en rapport. Det är bäst när det kombineras med en anpassad gruppering.
 
-Den här rapporten använder `sharecol=true` i vyn om du vill kombinera flera fält under samma kolumnrubrik. Mer information om `sharecol` -tagg, se [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Den här rapporten använder `sharecol=true` i vyn för att kombinera flera fält under samma kolumnrubrik. Mer information om taggen `sharecol` finns i [Visa: sammanfoga information från flera kolumner i en delad kolumn](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
@@ -46,7 +46,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -57,18 +57,18 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-## Skapa en rapport med en kombination av vy och gruppering av uppgifter och utgåvor
+## Bygg en rapport med en kombinerad vy och gruppering av uppgifter och utgåvor
 
 Så här skapar du en rapport med den här vyn:
 
-1. Från **Huvudmeny** ![](assets/main-menu-icon.png), klicka **Rapporter**.
+1. Klicka på **Rapporter** på **huvudmenyn** ![](assets/main-menu-icon.png).
 
-1. Klicka **Ny rapport** och markera objektet **Arbetsobjekt** i listrutan.
+1. Klicka på **Ny rapport** och välj objektet **Arbetsobjekt** i listrutan.
 
-1. I **Förhandsgranska kolumn** klickar du på rubriken för den enda kolumnen som visas.
-1. Klicka **Växla till textläge**.
-1. För musen över textlägesområdet och klicka **Klicka för att redigera text**.
-1. Ta bort den text du hittar i **Textläge** och ersätt den med följande kod:
+1. Klicka på rubriken för den enda kolumn som visas i området **Förhandsvisa kolumn**.
+1. Klicka på **Växla till textläge**.
+1. För musen över textlägesområdet och klicka på **Klicka för att redigera text**.
+1. Ta bort texten som du söker i rutan **Textläge** och ersätt den med följande kod:
 
    ```
    column.0.description=Task or Issue 
@@ -272,4 +272,4 @@ Så här skapar du en rapport med den här vyn:
 
    Den här grupperingen grupperar alla uppgifter tillsammans och alla ärenden tillsammans.
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.

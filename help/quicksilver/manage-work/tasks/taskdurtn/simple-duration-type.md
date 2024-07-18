@@ -16,17 +16,17 @@ ht-degree: 0%
 
 # Översikt över varaktighetstyp: Enkel
 
-Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om Varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Den enkla varaktighetstypen är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Översikt över den enkla varaktighetstypen
 
-Workfront eller en gruppadministratör kan ange standardvaraktighetstypen för ditt system eller din grupp som Enkel. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och ärenden som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront eller en gruppadministratör kan ange standardvaraktighetstypen för ditt system eller din grupp som Enkel. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 Följande saker händer när en aktivitet har varaktighetstypen Enkel:
 
 * Projektledare kan ändra både tidslängden och den planerade timmen för en uppgift när de ändrar hur timmarna ska fördelas mellan de tilldelade.
 
-  Mer information finns i [Uppdatera planerade timmar och varaktighet för en aktivitet med enkel varaktighetstyp](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+  Mer information finns i [Uppdatera planerade timmar och varaktighet för en aktivitet med en enkel varaktighetstyp](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
 
   >[!IMPORTANT]
   >
@@ -36,14 +36,14 @@ Följande saker händer när en aktivitet har varaktighetstypen Enkel:
   >
   > `Task Duration = Task Planned Hours / Typical hours per work day`
   >
-  >Din Workfront-administratör definierar `Typical hours per work day` under Projektinställningar i instansens inställningar.
+  >Din Workfront-administratör definierar `Typical hours per work day` i området Projektinställningar i instansens installationsprogram.
 
 * Allokeringsprocenten är dold och allokeringstimmar är tillgängliga för redigering, i stället.
 * Alla nya kunder har varaktighetstypen på systemnivå inställd på Enkel.
 
 ## Ändra varaktighetstypen för en aktivitet till Enkel
 
-Mer information om hur du ändrar varaktighetstypen för en uppgift finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Mer information om hur du ändrar varaktighetstypen för en aktivitet finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

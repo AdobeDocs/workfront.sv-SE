@@ -28,7 +28,7 @@ ht-degree: 0%
 >
 >Din kontorepresentant kommer att informera dig om du är en del av det här steget.
 >
->Mer information finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+>Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
 
 Du kan använda AI-assistenten för att generera, uppdatera eller ta bort poster baserat på den aktuella sidkontexten och poststrukturen.
 
@@ -38,7 +38,7 @@ Användarens kommandon och AI:ns körning av dessa kommandon fungerar tillsamman
 
 * AI-assistenten är som standard tillgänglig för Workfront-administratörer.
 
-* Workfront-administratören måste aktivera AI-assistenten för alla andra användare. Mer information finns i [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* Workfront-administratören måste aktivera AI-assistenten för alla andra användare. Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * AI-assistenten fungerar för varje sida. De förfrågningar du skickar för AI-assistenten måste referera till funktioner som är tillgängliga på den sida som du har öppnat.
 
@@ -72,15 +72,15 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
 
 ## Åtkomst till AI-assistenten
 
-1. Logga in på Workfront och gå till **Planering** område.
+1. Logga in på Workfront och gå till **Planering**.
 
-1. Klicka på en **arbetsytekort**.
+1. Klicka på ett **arbetsytekort**.
 
-1. (Valfritt) Klicka på en **posttypskort**.
+1. (Valfritt) Klicka på ett **posttypskort**.
 
-1. (Valfritt) Klicka på en **record** för att öppna postens **Information** sida.
+1. (Valfritt) Klicka på en **post** för att öppna postens **informationssida**.
 
-1. Klicka på **AI Assistant, ikon** i skärmens övre högra hörn i det globala navigeringsfältet.
+1. Klicka på ikonen **AI-assistenten** i det övre högra hörnet av skärmen i det globala navigeringsfältet.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

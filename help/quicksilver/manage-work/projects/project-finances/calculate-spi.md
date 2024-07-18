@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '449'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst till projekt och finansiella data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst till projekt och finansiella data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -60,13 +60,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Projektledare är införstådda med att SPI-värdet 1 innebär att projektet är planerat eller tidsplanerat.  Värden större än 1 visar att ett projekt ligger före schemat och värden mindre än 1 innebär att ett projekt ligger efter schemat.  Ju längre bort från 1, desto större avvikelse från planen.
 
-| **SPI-värde** | **Indikation för &quot;Vid schemaläggning&quot;** |
+| **SPI-värde** | **Indikation på schemat** |
 |---|---|
 | 1 | Vid plan eller tidplan |
 | > 1 (större än 1) | Före schemat |
 | &lt; 1 (mindre än 1) | Efter schema |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Hur Workfront beräknar SPI  {#how-workfront-calculates-spi}
 
@@ -87,10 +87,10 @@ Om du till exempel har ett projekt med en aktivitet och aktiviteten har 10 plane
 1. Gå till det projekt eller den uppgift där du vill visa SPI.
 1. Beroende på om du vill visa SPI för ett projekt eller en uppgift gör du något av följande:
 
-   1. Klicka **Projektinformation** i den vänstra panelen och sedan visa **Ekonomi** område.
+   1. Klicka på **Projektinformation** i den vänstra panelen och visa sedan området **Ekonomi**.
 
-   1. Klicka **Uppgiftsinformation** i den vänstra panelen och sedan visa **Ekonomi** område.
+   1. Klicka på **Uppgiftsinformation** i den vänstra panelen och visa sedan området **Ekonomi**.
 
       ![](assets/spi-on-project-nwe.png)
 
-1. Hitta **CPI/SPI/CSI** fält.
+1. Hitta fältet **CPI/SPI/CSI**.

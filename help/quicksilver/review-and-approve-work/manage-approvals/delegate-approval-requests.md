@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Delegera godkännandebegäran
 
-Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret. Du kan delegera uppgifter och utleveranser eller delegera godkännandebegäranden. I den här artikeln beskrivs hur du delegerar godkännandebegäranden. Mer information om delegering av uppgifter och ärenden finns i [Hantera delegering av uppgifter och utgåvor](../../manage-work/delegate-work/how-to-delegate-work.md).
+Du kan tillfälligt delegera det arbete du är tilldelad när du inte är på kontoret. Du kan delegera uppgifter och utleveranser eller delegera godkännandebegäranden. I den här artikeln beskrivs hur du delegerar godkännandebegäranden. Mer information om delegering av uppgifter och ärenden finns i [Hantera uppgifter och utfärda delegering](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 Du kan delegera följande typer av godkännanden, oavsett hur du tilldelades godkännandet (oavsett om det tilldelats direkt till dig, till ett team som du är medlem i eller till din jobbroll):
 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+&#42;Kontakta Workfront-administratören om du vill ta reda på vilken plan eller licenstyp du har.
 
 ## Förstå användaråtkomst för delegerade godkännanden
 
@@ -66,8 +66,8 @@ Under den angivna godkännandeperioden har användaren som du delegerar en godk�
 
   >[!NOTE]
   >
-  > Adobe Workfront-administratören kan hindra användare från att komma åt vissa objekttyper. När en användare inte har åtkomst till en objekttyp och ett godkännande av den typen delegeras till användaren, har användaren inte åtkomst till objektet via Visa. Användaren kan dock fortfarande godkänna eller avvisa begäranden om godkännande från **Startsida** sida, enligt beskrivning i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).\
-  Användare A tillhör till exempel grupp A. Workfront-administratören har begränsat åtkomsträttigheterna för grupp A så att användare i den här gruppen inte kan visa uppgifter i Workfront. Om en begäran om aktivitetsgodkännande delegeras till Användare A kan Användare A inte visa den uppgift som godkännandet är kopplat till. Användare A kan dock godkänna eller avvisa godkännandebegäran från hemsidan.
+  > Adobe Workfront-administratören kan hindra användare från att komma åt vissa objekttyper. När en användare inte har åtkomst till en objekttyp och ett godkännande av den typen delegeras till användaren, har användaren inte åtkomst till objektet via Visa. Användaren kan dock fortfarande godkänna eller avvisa begäranden om godkännande från sidan **Hem**, enligt beskrivningen i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  >Användare A tillhör till exempel grupp A. Workfront-administratören har begränsat åtkomsträttigheterna för grupp A så att användare i den här gruppen inte kan visa uppgifter i Workfront. Om en begäran om aktivitetsgodkännande delegeras till Användare A kan Användare A inte visa den uppgift som godkännandet är kopplat till. Användare A kan dock godkänna eller avvisa godkännandebegäran från hemsidan.
 
   Information om hur Workfront-administratören kan begränsa åtkomst till objekttyper i installationsprogrammet finns i  [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
@@ -103,65 +103,65 @@ Tänk på följande när du delegerar godkännanden:
 
 Så här delegerar du godkännanden till en annan användare:
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
+1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
-   Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
-   * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
+   >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
    eller
 
-   Klicka på **Huvudmeny** ikon > **ditt namn** > **Tid av** till vänster.
+   Klicka på ikonen **Huvudmeny** > **ditt namn** > **Stäng av** i den vänstra panelen.
 
-1. (Valfritt och villkorligt) Klicka på knappen **Filter** nedrullningsbar meny och klicka sedan på **Godkännanden**.
+1. (Valfritt och villkorligt) I området Hem klickar du på listrutan **Filter** och sedan på **Godkännanden**.
 
-1. (Villkorligt) Klicka **Delegera mina godkännanden**
+1. (Villkorligt) Klicka på **Delegera mina godkännanden**
 
    eller
 
-   Om din system- eller gruppadministratör har aktiverat uppgiften och utfärdandedelegeringen klickar du på **Delegera** och sedan klicka **Delegera godkännanden**.
+   Om din system- eller gruppadministratör har aktiverat aktiviteten och utfärdat delegering klickar du på **Delegera** och sedan på **Delegera godkännanden**.
 
    ![](assets/delegate-approvals-nwe.png)
 
 1. Ange följande information i avsnittet Delegera mina godkännanden:
 
    * **Namn**: Börja skriva namnet på den användare som du vill delegera godkännanden till och klicka sedan på namnet när det visas i listrutan.
-   * **Startdatum**: Välj vilket datum som godkännandena ska börja vidarebefordras. Vidarebefordran börjar kl. 12.00 på det datum du väljer.\
+   * **Startdatum**: Välj det datum då godkännanden ska vidarebefordras. Vidarebefordran börjar kl. 12.00 på det datum du väljer.\
      Startdatumet måste vara det aktuella datumet eller ett framtida datum.
    * **Slutdatum**:Gör något av följande:
 
       * Välj det datum då godkännanden inte längre ska vidarebefordras. Vidarebefordran upphör kl. 23.59 på det datum du väljer.
-      * Välj **Inget slutdatum** för att konfigurera Workfront att delegera godkännanden på obestämd tid.
+      * Välj **Inget slutdatum** om du vill konfigurera Workfront att delegera godkännanden på obestämd tid.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ### Uppdatera eller stoppa en godkännandedelegering {#update-or-stop-an-approval-delegation}
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
+1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
-   Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
-   * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
+   >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
-1. Klicka på **Filter** nedrullningsbar meny och klicka sedan på **Godkännanden**.
+1. Klicka på listrutan **Filter** och sedan på **Godkännanden**.
 
-1. (Villkorligt) Klicka **Redigera delegering**
+1. (Villkor) Klicka på **Redigera delegering**
 
    eller
 
-   Om din aktivitets- eller gruppadministratör har aktiverat och utfärdat delegering klickar du på **Redigera delegering** och sedan klicka **Delegera godkännanden**.
+   Om aktiviteten och delegeringen har aktiverats av systemadministratören eller gruppadministratören klickar du på **Redigera delegering** och sedan på **Delegera godkännanden**.
 
 1. (Villkorligt) Gör något av följande:
 
    * Så här uppdaterar du den befintliga godkännandedelegeringen: Ändra den information som visas och klicka sedan på **Spara**.
 
-   * Så här avbryter du den befintliga delegeringen: Klicka **Avbryt delegering** och sedan klicka **Avbryt delegering** för att bekräfta.
+   * Så här stoppar du den befintliga delegeringen: Klicka på **Stoppa delegering** och sedan på **Stoppa delegering** för att bekräfta.
 
      ![](assets/stop-delegation-nwe.png)
 
@@ -175,16 +175,16 @@ Du kan bara visa följande typer av godkännandedelegeringar i arbetslistan:
 
 Så här visar du delegerade godkännanden:
 
-1. Klicka på **Startsida** icon ![](assets/home-icon-30x29.png) i Adobe Workfront övre vänstra hörn.
+1. Klicka på ikonen **Hem** ![](assets/home-icon-30x29.png) i det övre vänstra hörnet av Adobe Workfront.
 
    >[!NOTE]
    >
-   Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
+   >Workfront-administratören kan göra följande ändringar av hemikonen i din miljö:
    >
-   * Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
-   * Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmeny** ![](assets/main-menu-icon.png) i sidans övre högra hörn och klicka sedan på **Startsida**.
+   >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
+   >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet på sidan och sedan på **Hem**.
 
-1. Klicka på **Filter** nedrullningsbar meny och klicka sedan på **Godkännanden**.\
+1. Klicka på listrutan **Filter** och sedan på **Godkännanden**.\
    Alla godkännanden visas som standard i listan, inklusive godkännanden som tilldelats dig och godkännanden som delegerats till dig.
 
    ![](assets/delegated-to-me-nwe-350x93.png)

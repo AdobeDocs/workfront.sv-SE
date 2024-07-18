@@ -15,4 +15,4 @@ ht-degree: 0%
 
 # Skapa och hantera Agile-team
 
-Mer information om hur du skapar och hanterar flexibla team finns i [Skapa ett smidigt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Mer information om hur du skapar och hanterar flexibla team finns i [Skapa ett flexibelt team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).

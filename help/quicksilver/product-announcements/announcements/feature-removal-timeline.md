@@ -26,7 +26,7 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
   <tr> 
    <td><b>Funktion eller produktområde</b></td> 
    <td><strong>Senaste versionen med nya funktioner</strong> </td> 
-   <td> <p rowspan="2"><strong>Viktiga datum</strong> </p> <p rowspan="2"> </p> </td> 
+   <td> <p rowspan="2"><strong>Nyckeldatum</strong> </p> <p rowspan="2"> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Adobe Workfront Classic <p style="font-weight: normal;">Mer information kommer.</p> </td> 
@@ -34,12 +34,12 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td> <p>Senaste versionen med nya funktionsförbättringar i Classic med version 21.2</p> <p>Stöds inte längre den 31 mars 2022</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Stöd för Internet Explorer</p> <p>Nu när stödet för Internet Explorer har tagits bort har Workfront officiellt stöd för Microsoft Edge. </p> <p>Mer information om vilka webbläsare som stöds finns i <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Krav för Adobe Workfront webbläsare</a>.</p> </td> 
+   <td> <p>Stöd för Internet Explorer</p> <p>Nu när stödet för Internet Explorer har tagits bort stöder Workfront officiellt Microsoft Edge. </p> <p>Mer information om vilka webbläsare som stöds finns i <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront webbläsarkrav</a>.</p> </td> 
    <td>Med version 21.1</td> 
    <td>Stöds inte längre med version 21.2</td> 
   </tr> 
   <tr> 
-   <td> <p>Resursplanering</p> <p>Utjämning av arbetsbelastning ger en förbättrad upplevelse vid schemaläggning av resurser.</p> <p>Mer information om belastningsutjämnaren finns i <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Översikt över belastningsutjämnare</a>.</p> </td> 
+   <td> <p>Resursplanering</p> <p>Utjämning av arbetsbelastning ger en förbättrad upplevelse vid schemaläggning av resurser.</p> <p>Mer information om belastningsutjämnaren finns i <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Översikt över belastningsutjämnaren</a>.</p> </td> 
    <td> </td> 
    <td> <p>Stöds inte längre den 9 november 2020 (med version 20.4)</p> <p>—</p> <p>Borttagen från Workfront efter första halvåret 2022</p> </td> 
   </tr> 
@@ -49,7 +49,7 @@ Olika funktioner fasas ut ur Adobe Workfront. Här följer en kort beskrivning a
    <td>Borttagen från Workfront-plattformen den 31 mars 2021</td> 
   </tr> 
   <tr> 
-   <td> <p>Flash</p> <p>Nu finns det olika verktyg i Workfront som ersättning för varje verktyg som är baserat på Flash. Mer detaljerad information finns i <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersättning av verktyg baserade på Flash i Adobe Workfront</a>.</p> </td> 
+   <td> <p>Flash</p> <p>Nu finns det olika verktyg i Workfront som ersättning för varje verktyg som är baserat på Flash. Mer information finns i <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersättning av Flash-baserade verktyg i Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Borttagen från Workfront-plattformen den 19 november 2020</p> </td> 
   </tr> <!--

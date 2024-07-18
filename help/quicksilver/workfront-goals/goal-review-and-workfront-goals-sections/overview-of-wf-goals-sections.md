@@ -24,7 +24,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -46,7 +46,7 @@ Du kan använda filter för att endast visa de mål som är viktiga för dig i v
 Här följer en kort översikt över avsnitten om Workfront-mål och vilka alternativ som finns för att hantera mål. För mer information om ytterligare åtgärder som du kan utföra i varje avsnitt av Workfront-mål rekommenderar vi även följande artiklar:
 
 * [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md)
-* [Uppdatera målstatus i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+* [Uppdatera målförloppet i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 * [Filtrera information i Adobe Workfront-mål](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 
 
@@ -54,7 +54,7 @@ Här följer en kort översikt över avsnitten om Workfront-mål och vilka alter
 
 Du kan använda mållistan för att granska mål som tillhör dig, dina team, grupper eller din organisation. Du kan visa mål i vilken status som helst och från vilken tidsperiod som helst.
 
-Mer information om hur du navigerar i mållistan och hanterar mål finns i [Hantera mål i mållistan för Adobe Workfront mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Mer information om hur du navigerar i mållistan och hanterar mål finns i [Hantera mål i mållistan över Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![](assets/goal-list-unshimmed.png)
 
@@ -76,7 +76,7 @@ Använd mållistan för att göra följande:
 
 Du kan använda avsnittet Diagram för att få en helhetsbild av hälsotillståndet för mål som tillhör dig eller din organisation. Du kan visa förloppsinformation om mål i vilken status som helst från en viss tidsperiod i det här avsnittet.
 
-Mer information om hur du använder diagramavsnittet finns i [Granska diagram för att förstå målutvecklingstrender i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+Mer information om hur du använder diagramavsnittet finns i [Granska diagram för att förstå målförloppstrender i Adobe Workfront-mål](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
 ![](assets/graphs-section-unshimmed.png)
 
@@ -94,7 +94,7 @@ Mer information om hur du navigerar i avsnittet Måljustering för att hantera m
 
 Mer information om hur du justerar mål finns i följande artiklar:
 
-* [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Justera mål genom att ansluta dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [Justera mål genom att konvertera resultat och aktiviteter till mål](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ![](assets/goal-alignment-section-unshimmed.png)

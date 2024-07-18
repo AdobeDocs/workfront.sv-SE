@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,15 +70,13 @@ Innan du kan utföra de åtgärder som beskrivs i den här artikeln måste du ko
 
   Mer information om hur du lägger till fält som du vill att Workfront ska spåra finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
-* Alla anpassade fält som du vill rapportera om har inställningen **Visa fältändringar i uppdateringsflöden** aktiverat.
-
-  Mer information om hur du aktiverar den här inställningen för ett anpassat fält finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
+* Alla anpassade fält som du vill rapportera om har inställningen **Visa fältändringar i uppdateringsfeeds** aktiverad.
 
 ## Översikt över journaltrans.
 
 Eftersom rapporten Journal Entry frågar efter systemuppdateringar kan den returnera ett stort antal resultat. Därför rekommenderar vi att du filtrerar efter specifika objekt - som projekt, program, portföljer, grupper och så vidare - när du skapar rapporten.
 
-Mer information om olika objekttyper i Workfront finns i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Mer information om de olika objekttyperna i Workfront finns i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >
@@ -98,7 +96,7 @@ Standardvyn för den här rapporten innehåller följande kolumner:
  <tbody> 
   <tr> 
    <td><strong>Fältnamn</strong> </td> 
-   <td> <p><span style="font-weight: normal;">Namnet på det påverkade fältet. Beroende på hur du konfigurerar rapporten kan den här kolumnen innehålla fält för status, ägar-ID, aktivitetsnamn, planerat slutförandedatum eller andra fält.</span> </p> <p><span style="font-weight: normal;">När</span> <strong>DE</strong>:<span style="font-weight: normal;"> visas i den här kolumnen, vilket anger att fältet som visas är ett anpassat fält.</span></p> </td> 
+   <td> <p><span style="font-weight: normal;">Namnet på det påverkade fältet. Beroende på hur du har konfigurerat rapporten kan den här kolumnen innehålla fält för status, ägar-ID, aktivitetsnamn, planerat slutförandedatum eller annat.</span> </p> <p><span style="font-weight: normal;">När </span> <strong>DE</strong>:<span style="font-weight: normal;"> visas i den här kolumnen indikerar det att fältet som visas är ett anpassat fält.</span></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Ändra typ</strong> </td> 
@@ -125,7 +123,7 @@ Standardvyn för den här rapporten innehåller följande kolumner:
    <td> <p>Datumet då fältet ändrades.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Redigerat efter namn</strong> </td> 
+   <td><strong>Redigerad av namn</strong> </td> 
    <td> <p>Användaren som ändrade fältet.</p> </td> 
   </tr> 
  </tbody> 
@@ -143,7 +141,7 @@ Mer information om hur du ställer in vyer, filter och grupperingar för rapport
 -->
 
 * [Se vilka statusändringar som har gjorts](#see-what-status-changes-occurred)
-* [Se när en uppgift eller ett problem har tagits bort](#see-when-a-task-or-issue-was-deleted)
+* [Se när en uppgift eller ett problem togs bort](#see-when-a-task-or-issue-was-deleted)
 * [Se hur anpassade fält ändrades under ett projekts livscykel](#see-how-custom-fields-changed-over-the-course-of-a-project-s-life-cycle)
 * [Se hur det planerade slutförandedatumet ändrades under ett projekts livscykel](#see-how-the-planned-completion-date-changed-over-the-course-of-a-project-s-life-cycle)
 * [Se om ägaren till ett projekt har ändrats](#see-if-the-owner-of-a-project-changed)
@@ -158,7 +156,7 @@ Du kan ställa in journalpostrapporten så att den visar:
 * Vem har ändrat status
 * När statusändringen ägde rum
 
-Om du vill se ett projekts hälsotillstånd kan du även konfigurera rapporten så att samma information visas med projektet **Villkor** fält.
+Om du vill se ett projekts hälsotillstånd kan du även konfigurera rapporten så att samma information visas med hjälp av projektfältet **Villkor**.
 
 Den här informationen kan användas för att hjälpa till med revision och för att illustrera hur väl du och din organisation planerar.
 
@@ -169,16 +167,16 @@ Den här informationen kan användas för att hjälpa till med revision och för
 >[!TIP]
 >
 >Om du vill jämföra skillnaden i dagar mellan villkorsändringar kan du använda Förbättrad analys.\
->Mer information om förbättrade analyser finns i [Förbättrad analys - översikt](../../../enhanced-analytics/enhanced-analytics-overview.md).
+>Mer information om förbättrade analyser finns i [Översikt över förbättrade analyser](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Journalpost**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
-1. I **Kolumner (vy)** lägger du till följande kolumner:
+1. Lägg till följande kolumner på fliken **Kolumner (Visa)**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -192,11 +190,11 @@ Den här informationen kan användas för att hjälpa till med revision och för
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Fältnamn</p> </td> 
-      <td> <p>Namnet på det påverkade fältet. I detta fall <strong>status</strong> ska visas i den här kolumnen.</p> </td> 
+      <td> <p>Namnet på det påverkade fältet. I det här fallet bör <strong>status</strong> visas i den här kolumnen.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ändra typ</p> </td> 
-      <td> <p>Den typ av ändring som gjorts i det påverkade fältet, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong>, eller <strong>Redigera</strong>.</p> </td> 
+      <td> <p>Den typ av ändring som har gjorts i det påverkade fältet, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong> eller <strong>Redigera</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Redigerat efter namn</p> </td> 
@@ -211,11 +209,11 @@ Den här informationen kan användas för att hjälpa till med revision och för
       <td> <p>Nyckeln för föregående status. Här följer statusnycklarna för standardprojektstatusarna:</p> 
        <ul> 
         <li> <p> <strong>CUR</strong>: Aktuell</p> </li> 
-        <li> <p><strong>UTBILDNING</strong>: Död</p> </li> 
-        <li> <p><strong>ONH</strong>: Väntar</p> </li> 
+        <li> <p><strong>DÖD</strong>: Död</p> </li> 
+        <li> <p><strong>ONH</strong>: Väntande</p> </li> 
         <li> <p><strong>PLN</strong>: Planering</p> </li> 
         <li> <p><strong>CPL</strong>: Slutförd</p> </li> 
-        <li> <p><strong>REQ</strong>: Begärt</p> </li> 
+        <li> <p><strong>REQ</strong>: Begärd</p> </li> 
         <li> <p><strong>APR</strong>: Godkänd</p> </li> 
         <li> <p><strong>REJ</strong>: Avvisad</p> </li> 
         <li> <p><strong>IDA</strong>: Idea</p> </li> 
@@ -234,25 +232,25 @@ Den här informationen kan användas för att hjälpa till med revision och för
       <td> <p>Den typ av objekt som fick statusändringen.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Ärendenamn<br>(Valfritt)</p> </td> 
+      <td> <p style="font-weight: bold;">Ärendenamn <br> (valfritt)</p> </td> 
       <td> <p>Namnet på utgåvan som hade en statusändring.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p style="font-weight: bold;">Aktivitetsnamn<br>(Valfritt)</p> </td> 
+      <td> <p style="font-weight: bold;">Uppgiftsnamn<br> (valfritt)</p> </td> 
       <td> <p>Namnet på den uppgift som hade en statusändring.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** och lägg sedan till filterregeln **Fältnamn** > **Jämn** > **status**.
+1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till filterregeln **Fältnamn** > **Lika med** > **status**.
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
-   >Om du vill rapportera om villkorsändringar kan du i stället lägga till filterregeln **Fältnamn** > **Jämn** > **Villkor**.
+   >Om du vill rapportera om villkorsändringar kan du i stället lägga till filterregeln **Fältnamn** > **Lika med** > **Villkor**.
 
    Mer information om hur du lägger till filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -264,15 +262,15 @@ Den här informationen kan användas för att hjälpa till med revision och för
 
    >[!IMPORTANT]
    >
-   >Skapa en filterregel som använder modifieraren **Innehåller** kan faktiskt öka inläsningstiden. Därför rekommenderar vi att du använder en annan modifierare som **Jämn** när det är möjligt att filtrera efter ett specifikt projekt- eller objekt-ID på högre nivå.
+   >Om du skapar en filterregel som använder modifieraren **Innehåller** kan inläsningstiden faktiskt öka. Därför rekommenderar vi att du använder en annan modifierare som **Lika** när det är möjligt för att filtrera efter ett visst projekt eller ett objekt-ID på högre nivå.
 
    Mer information om hur du lägger till en fråga finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. I **Grupperingar** flik, klicka **Tillämpa en befintlig gruppering** väljer **Projekt**.
+1. Klicka på **Använd en befintlig gruppering** på fliken **Grupperingar** och välj sedan **Projekt**.
 
    Mer information om hur du lägger till grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
    Din nya rapport läses in.
 
@@ -285,14 +283,14 @@ Du kan ställa in journalpostrapporten så att den visar:
 
 Så här ser du när en uppgift eller ett problem togs bort:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Journalpost**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
-1. I **Kolumner (vy)** lägger du till följande kolumner:
+1. Lägg till följande kolumner på fliken **Kolumner (Visa)**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -310,7 +308,7 @@ Så här ser du när en uppgift eller ett problem togs bort:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ändra typ</p> </td> 
-      <td> <p>Den typ av ändring som inträffade. The <strong>Ta bort</strong> visas i den här kolumnen.</p> </td> 
+      <td> <p>Den typ av ändring som inträffade. Ändringen <strong>Ta bort</strong> visas i den här kolumnen.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Anmälningsdatum</p> </td> 
@@ -327,12 +325,12 @@ Så här ser du när en uppgift eller ett problem togs bort:
     </tbody> 
    </table>
 
-   Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande filter:
+1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande filter:
 
-   * **Ändra typ** > **Jämn** > **Ta bort**
-   * **Projekt-ID** > **Jämn** > **`<project>`**
+   * **Ändra typ** > **Lika med** > **Ta bort**
+   * **Projekt-ID** > **Lika med** > **`<project>`**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -347,15 +345,15 @@ Så här ser du när en uppgift eller ett problem togs bort:
 
    >[!IMPORTANT]
    >
-   >Skapa en filterregel som använder modifieraren **Innehåller** kan faktiskt öka inläsningstiden. Därför rekommenderar vi att du använder en annan modifierare som **Jämn** när det är möjligt att filtrera efter ett specifikt projekt- eller objekt-ID på högre nivå.
+   >Om du skapar en filterregel som använder modifieraren **Innehåller** kan inläsningstiden faktiskt öka. Därför rekommenderar vi att du använder en annan modifierare som **Lika** när det är möjligt för att filtrera efter ett visst projekt eller ett objekt-ID på högre nivå.
 
    Mer information om hur du lägger till en fråga finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Valfritt) I dialogrutan **Grupperingar** flik, klicka **Tillämpa en befintlig gruppering** väljer **Projekt**.
+1. (Valfritt) Klicka på **Använd en befintlig gruppering** på fliken **Grupperingar** och välj sedan **Projekt**.
 
    Mer information om hur du lägger till grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
    Din nya rapport läses in.
 
@@ -369,14 +367,14 @@ Du kan spåra viktiga fältändringar under projektets gång. Du kan ställa in 
 
 Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Journalpost**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
-1. I **Kolumner (vy)** lägger du till följande kolumner:
+1. Lägg till följande kolumner på fliken **Kolumner (Visa)**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -390,11 +388,11 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Fältnamn</p> </td> 
-      <td> <p>Namnet på det anpassade fältet som påverkas.</p> <p><span style="font-weight: normal;">När</span> <strong>DE</strong>:<span style="font-weight: normal;"> visas i den här kolumnen, vilket anger att fältet som visas är ett anpassat fält.</span></p> </td> 
+      <td> <p>Namnet på det anpassade fältet som påverkas.</p> <p><span style="font-weight: normal;">När </span> <strong>DE</strong>:<span style="font-weight: normal;"> visas i den här kolumnen indikerar det att fältet som visas är ett anpassat fält.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ändra typ</p> </td> 
-      <td> <p>Den typ av ändring som gjorts i det påverkade fältet, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong>, eller <strong>Redigera</strong>.</p> </td> 
+      <td> <p>Den typ av ändring som har gjorts i det påverkade fältet, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong> eller <strong>Redigera</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Redigerat efter namn</p> </td> 
@@ -426,22 +424,22 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Nytt textvärde</p> </td> 
-      <td> <p>Det aktuella textvärdet i det anpassade fältet.</p> <p>Om det anpassade fältet är ett typsnittsfält visas <strong>Nytt textvärde</strong> visas objekt-ID i kolumnen.</p> </td> 
+      <td> <p>Det aktuella textvärdet i det anpassade fältet.</p> <p>Om det anpassade fältet är ett typsnittsfält visas objekt-ID:t i kolumnen <strong>Nytt textvärde</strong> .</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-   Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande filter:
+1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande filter:
 
    * **Fältnamn för journalpost** > **Innehåller** > **DE**
 
      >[!TIP]
      >
-     >Lägg till filterregeln om du vill begränsa rapporten till specifika anpassade fält **Fältnamn för journalpost** > **Jämn** > **`<custom field>`**.
+     >Om du vill begränsa den här rapporten till specifika anpassade fält lägger du till filterregeln **Fältnamn för journalpost** > **Lika med** > **`<custom field>`**.
 
-   * **Projekt-ID** > **Jämn** > **`<project>`**
+   * **Projekt-ID** > **Lika med** > **`<project>`**
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -455,15 +453,15 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
    >[!IMPORTANT]
    >
-   >Skapa en filterregel som använder modifieraren **Innehåller** kan faktiskt öka inläsningstiden. Därför rekommenderar vi att du använder en annan modifierare som **Jämn** när det är möjligt att filtrera efter ett specifikt projekt- eller objekt-ID på högre nivå.
+   >Om du skapar en filterregel som använder modifieraren **Innehåller** kan inläsningstiden faktiskt öka. Därför rekommenderar vi att du använder en annan modifierare som **Lika** när det är möjligt för att filtrera efter ett visst projekt eller ett objekt-ID på högre nivå.
 
    Mer information om hur du lägger till en fråga finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. I **Grupperingar** flik, klicka **Tillämpa en befintlig gruppering** väljer **Projekt**.
+1. Klicka på **Använd en befintlig gruppering** på fliken **Grupperingar** och välj sedan **Projekt**.
 
    Mer information om hur du lägger till grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
    Din nya rapport läses in.
 
@@ -471,14 +469,14 @@ Så här ser du hur anpassade fält har ändrats under ett projekts livscykel:
 
 Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planerade slutförandedatumet ändras under ett projekts livstid.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Journalpost**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
-1. I **Kolumner (vy)** lägger du till följande kolumner:
+1. Lägg till följande kolumner på fliken **Kolumner (Visa)**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -492,11 +490,11 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Fältnamn</p> </td> 
-      <td> <p>Namnet på det påverkade fältet.</p> <p><span style="font-weight: normal;">När</span> <strong>DE</strong>:<span style="font-weight: normal;"> visas i den här kolumnen, vilket anger att fältet som visas är ett anpassat fält.</span></p> </td> 
+      <td> <p>Namnet på det påverkade fältet.</p> <p><span style="font-weight: normal;">När </span> <strong>DE</strong>:<span style="font-weight: normal;"> visas i den här kolumnen indikerar det att fältet som visas är ett anpassat fält.</span></p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ändra typ</p> </td> 
-      <td>Den typ av ändring som inträffade, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong>, eller <strong>Redigera</strong>.</td> 
+      <td>Den typ av ändring som inträffade, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong> eller <strong>Redigera</strong>.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Redigerat efter namn</p> </td> 
@@ -537,12 +535,12 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
     </tbody> 
    </table>
 
-   Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande:
+1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande:
 
-   * **Fältnamn** > **Jämn** > **Datum**
-   * **Projekt-ID** > **Jämn** > **`<project>`**
+   * **Fältnamn** > **Lika med** > **Datum**
+   * **Projekt-ID** > **Lika med** > **`<project>`**
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -556,15 +554,15 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 
    >[!IMPORTANT]
    >
-   >Skapa en filterregel som använder modifieraren **Innehåller** kan faktiskt öka inläsningstiden. Därför rekommenderar vi att du använder en annan modifierare som **Jämn** när det är möjligt att filtrera efter ett specifikt projekt- eller objekt-ID på högre nivå.
+   >Om du skapar en filterregel som använder modifieraren **Innehåller** kan inläsningstiden faktiskt öka. Därför rekommenderar vi att du använder en annan modifierare som **Lika** när det är möjligt för att filtrera efter ett visst projekt eller ett objekt-ID på högre nivå.
 
    Mer information om hur du lägger till en fråga finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. I **Grupperingar** flik, klicka **Tillämpa en befintlig gruppering** väljer **Projekt**.
+1. Klicka på **Använd en befintlig gruppering** på fliken **Grupperingar** och välj sedan **Projekt**.
 
    Mer information om hur du lägger till grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
    Din nya rapport läses in.
 
@@ -572,14 +570,14 @@ Du kan ställa in journalanmälningsrapporten för att visa hur ofta det planera
 
 Du kan ställa in journalanmälningsrapporten för att visa hur många gånger projektägaren, eller projektledaren, ändras under ett projekts livslängd.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
-1. Klicka **Ny rapport** väljer **Journalpost**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Journalpost**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
 
    Report builder läses in.
 
-1. I **Kolumner (vy)** lägger du till följande kolumner:
+1. Lägg till följande kolumner på fliken **Kolumner (Visa)**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -593,11 +591,11 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
     <tbody> 
      <tr> 
       <td> <p style="font-weight: bold;">Fältnamn</p> </td> 
-      <td>Namnet på det påverkade fältet. The <strong>ownerID</strong> visas i den här kolumnen.</td> 
+      <td>Namnet på det påverkade fältet. <strong>ownerID</strong> visas i den här kolumnen.</td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Ändra typ</p> </td> 
-      <td> <p>Den typ av ändring som inträffade, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong>, eller <strong>Redigera</strong>.</p> </td> 
+      <td> <p>Den typ av ändring som inträffade, till exempel <strong>Lägg till</strong>, <strong>Ta bort</strong> eller <strong>Redigera</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td> <p style="font-weight: bold;">Övre objektkod</p> </td> 
@@ -626,12 +624,12 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
     </tbody> 
    </table>
 
-   Mer information om hur du lägger till kolumner finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du lägger till kolumner finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Filter** flik, klicka **Lägg till filterregel** lägger du sedan till följande:
+1. Klicka på **Lägg till filterregel** på fliken **Filter** och lägg sedan till följande:
 
-   * **Fältnamn** > **Jämn** > **ownerID**
-   * **Projekt-ID** > **Jämn** > **`<project name>`**
+   * **Fältnamn** > **Lika med** > **ownerID**
+   * **Projekt-ID** > **Lika med** > **`<project name>`**
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -645,14 +643,14 @@ Du kan ställa in journalanmälningsrapporten för att visa hur många gånger p
 
    >[!IMPORTANT]
    >
-   >Skapa en filterregel som använder modifieraren **Innehåller** kan faktiskt öka inläsningstiden. Därför rekommenderar vi att du använder en annan modifierare som **Jämn** när det är möjligt att filtrera efter ett specifikt projekt- eller objekt-ID på högre nivå.
+   >Om du skapar en filterregel som använder modifieraren **Innehåller** kan inläsningstiden faktiskt öka. Därför rekommenderar vi att du använder en annan modifierare som **Lika** när det är möjligt för att filtrera efter ett visst projekt eller ett objekt-ID på högre nivå.
 
    Mer information om hur du lägger till en fråga finns i [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. (Valfritt) I dialogrutan **Grupperingar** flik, klicka **Tillämpa en befintlig gruppering** väljer **Projekt**.
+1. (Valfritt) Klicka på **Använd en befintlig gruppering** på fliken **Grupperingar** och välj sedan **Projekt**.
 
    Mer information om hur du lägger till grupperingar finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
    Din nya rapport läses in.

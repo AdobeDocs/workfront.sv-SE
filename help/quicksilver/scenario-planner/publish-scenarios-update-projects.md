@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]
+# Uppdatera eller skapa projekt genom att publicera initiativ i [!DNL Scenario Planner]
 
-Publicera ett scenario från [!DNL Adobe Workfront Scenario Planner] innebär följande:
+Publicering av ett scenario från [!DNL Adobe Workfront Scenario Planner] ger följande:
 
 * Skapar projekt från satsningarna på scenariot och länkar samman dem.
-* Uppdaterar projekt som redan är kopplade till initiativ i scenariot med information från det länkade initiativet. Projekt kan också länkas till initiativ när du importerar dem till en plan. Mer information finns i [Importera projekt till planer i [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
+* Uppdaterar projekt som redan är kopplade till initiativ i scenariot med information från det länkade initiativet. Projekt kan också länkas till initiativ när du importerar dem till en plan. Mer information finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md)
 
 ## Åtkomstkrav
 
@@ -39,17 +39,17 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td>Produkt </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du får [!DNL Workfront Scenario Planner], se <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p></p> <p>Åtkomstnivå*</p> </td> 
    <td> 
     <ul> 
-    <li>[!UICONTROL Edit] behörighet för [!DNL Scenario Planner] och projekt</li></ul>
+    <li>[!UICONTROL Edit] åtkomst för [!DNL Scenario Planner] och projekt</li></ul>
 
 <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektbehörigheter</p> </td> 
@@ -62,9 +62,9 @@ Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger y
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-Mer information om åtkomst till [!DNL Workfront Scenario Planner], se [Åtkomst krävs för att använda [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+Mer information om åtkomst till [!DNL Workfront Scenario Planner] finns i [Åtkomst krävs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
 
 ## Förutsättningar
 
@@ -81,7 +81,7 @@ Innan du börjar:
 
   >[!TIP]
   >
-  >När ett projekt finns på flera planer och du publicerar information till projektet från alla planer, skrivs den senaste publiceringen över [!DNL Scenario Planner] information om projektet.
+  >När det finns ett projekt på flera planer och du publicerar information till projektet från alla planer, skriver den senaste publiceringen över befintlig [!DNL Scenario Planner]-information i projektet.
 
 * Om initiativ skapades på planen genom att projekt importerades till planen uppdateras även de länkade projekten med initiativinformation när man publicerar initiativet.
 
@@ -89,20 +89,20 @@ Innan du börjar:
   >
   >Du kan importera samma projekt till flera planer. Publicering kan skriva över initialinformation i ett projekt som är kopplat till flera initiativ.
 
-  Mer information om hur du skapar initiativ genom att importera projekt finns i [Importera projekt till planer i [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Mer information om hur du skapar initiativ genom att importera projekt finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Ändringar som görs i projektet överförs inte till det kopplade initiativet.
 
 
 
-## Publicera initiativ
+## Publish-initiativ
 
 >[!IMPORTANT]
 >
->Om du ändrar några initiativ i planen, inklusive löser konflikter, måste du publicera om initiativet för att den nya informationen ska synas i projektet. Den här informationen visas endast i projekt som är kopplade till initiativ när du publicerar motsvarande initiativ. Mer information om hur du löser konflikter mellan initiativ finns i [Lös initialkonflikter i [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
+>Om du ändrar några initiativ i planen, inklusive löser konflikter, måste du publicera om initiativet för att den nya informationen ska synas i projektet. Den här informationen visas endast i projekt som är kopplade till initiativ när du publicerar motsvarande initiativ. Mer information om hur du löser konflikter mellan initiativ finns i [Lös initialkonflikter i  [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i Workfront övre högra hörn och klicka sedan på **[!UICONTROL Scenarios]**
-1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på **[!UICONTROL Filter]** icon ![](assets/filter-nwepng.png) i planens övre högra hörn och välj något av följande alternativ:
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **[!UICONTROL Scenarios]**
+1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på ikonen **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) i planens övre högra hörn och väljer något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -118,42 +118,42 @@ Innan du börjar:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Shared with me]</td> 
-      <td> <p>Visar planer som du inte har skapat men som delas med dig.</p> <p>Viktigt: Du måste ha [!UICONTROL Manage] behörigheter till planer som delas med dig för att kunna publicera dem. </p> </td> 
+      <td> <p>Visar planer som du inte har skapat men som delas med dig.</p> <p>Viktigt! Du måste ha [!UICONTROL Manage] behörigheter till planer som delas med dig för att kunna publicera dem. </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Search]** icon ![](assets/search-icon.png) och börja skriva namnet på en plan för att snabbt hitta den i listan.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) och börja skriva namnet på en plan för att snabbt hitta den i listan.
 1. (Villkorligt) Skapa en plan om du vill publicera från en ny plan.
 
-   Mer information om att skapa planer finns i [Skapa och redigera planer i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) .
+   Mer information om hur du skapar planer finns i [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) .
 
 1. (Valfritt) Klicka på namnet på en befintlig plan och skapa nya scenarier för planen.
 
-   Mer information om hur du skapar scenarier för en plan finns i [Skapa och jämföra planscenarier i [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
+   Mer information om hur du skapar scenarier för en plan finns i [Skapa och jämföra planscenarier i  [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md).
 
 1. (Valfritt) Uppdatera initiativen för en befintlig eller ny plan eller skapa nya.
 
-   Mer information om hur du skapar initiativ finns i [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Mer information om hur du skapar initiativ finns i [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Klicka på **[!UICONTROL Save plan]**.
-1. Välj scenariot som du vill publicera i **[!UICONTROL Initial scenario]** nedrullningsbar meny och klicka sedan på **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png) längst upp till höger.
+1. Välj det scenario som du vill publicera i listrutan **[!UICONTROL Initial scenario]** och klicka sedan på **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png) i det övre högra hörnet.
 
    eller
 
-   Klicka **[!UICONTROL Compare scenarios]** hovra över det scenariokort du vill publicera från och klicka sedan på **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png).
+   Klicka på **[!UICONTROL Compare scenarios]**, håll muspekaren över det scenario-kort som du vill publicera från och klicka sedan på **[!UICONTROL Go to Publish]** ![](assets/go-to-publish-button-icon.png).
 
-   The [!UICONTROL Publish initiatives] visas med en lista över alla initiativ i scenariot. Om något av initiativen redan har publicerats är projektikonen ![](assets/project-icon-sp.png) visas efter deras namn och **[!UICONTROL Last published]** datumet anges i listan.
+   Sidan [!UICONTROL Publish initiatives] visas med en lista över alla initiativ i scenariot. Om någon av initiativen har publicerats tidigare visas projektikonen ![](assets/project-icon-sp.png) efter deras namn och datumet **[!UICONTROL Last published]** fylls i i listan.
 
    >[!TIP]
    >
-   >Initiativ som har skapats genom att projekt har importerats visas också med en projektikon ![](assets/project-icon-sp.png) till höger om sitt namn
+   >Initiativ som har skapats genom att projekt har importerats visas också med projektikonen ![](assets/project-icon-sp.png) till höger om namnet
 
    ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på **[!UICONTROL Filter]** icon ![](assets/filter-nwepng.png) i planens övre högra hörn och välj något av följande alternativ:
+1. (Valfritt och villkorligt) Om du vill publicera från en befintlig plan klickar du på ikonen **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) i planens övre högra hörn och väljer något av följande alternativ:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -176,8 +176,8 @@ Innan du börjar:
 
    ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Valfritt) Klicka på **[!UICONTROL Search]** icon ![](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
-1. Välj en eller flera initiativ att publicera och skapa eller uppdatera projekt från dem, och klicka sedan på **[!UICONTROL Publish initiatives]**.
+1. (Valfritt) Klicka på ikonen **[!UICONTROL Search]** ![](assets/search-icon.png) och börja skriva namnet på ett initiativ för att snabbt hitta det i listan.
+1. Välj en eller flera initiativ att publicera och skapa eller uppdatera projekt från dem och klicka sedan på **[!UICONTROL Publish initiatives]**.
 
    Detta skapar ett nytt projekt från varje vald initiativ eller uppdaterar befintliga kopplade projekt, om de publicerade initiativen redan var kopplade till ett projekt.
 
@@ -187,22 +187,22 @@ Innan du börjar:
 
 1. (Villkorligt) Gör något av följande:
 
-   * Om du har publicerat ett initiativ klickar du **[!UICONTROL See associated project]** att öppna det projekt som skapats eller uppdaterats från initiativet.
-   * Om du har publicerat mer än ett initiativ klickar du **[!UICONTROL See associated projects]** för att öppna en lista över projekt som publicerats från initiativ. [!DNL Workfront] använder [!DNL Scenario Planner] Som standard filtreras projekt till listan med projekt. De senast publicerade projekten visas högst upp i listan.
+   * Om du har publicerat ett initiativ klickar du på **[!UICONTROL See associated project]** för att öppna projektet som har skapats eller uppdaterats från det.
+   * Om du har publicerat mer än ett initiativ klickar du på **[!UICONTROL See associated projects]** för att öppna en lista över projekt som publicerats från initiativ. [!DNL Workfront] använder filtret [!DNL Scenario Planner] Projekt på listan med projekt som standard. De senast publicerade projekten visas högst upp i listan.
 
      ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Gå till följande områden om du vill se information om projektet:
 
-   * **The [!UICONTROL Updates] section**: En uppdatering publiceras för att ange att projektet skapades eller uppdaterades från initiativet. Uppdateringen innehåller namnet på det initiativ som skapade eller uppdaterade projektet och det länkade namnet på den plan som innehåller initiativet. Du kan klicka på namnet på planen i uppdateringen för att öppna planen i [!DNL Scenario Planner].
+   * **Avsnittet [!UICONTROL Updates]**: En uppdatering publiceras som anger att projektet skapades eller uppdaterades från initiativet. Uppdateringen innehåller namnet på det initiativ som skapade eller uppdaterade projektet och det länkade namnet på den plan som innehåller initiativet. Du kan klicka på namnet på planen i uppdateringen för att öppna planen i [!DNL Scenario Planner].
 
      ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
-   * **The [!UICONTROL Overview] området på [!UICONTROL Project Details] section**: En ny [!DNL Scenario Planner] som innehåller information från det länkade initiativet.
+   * **Området [!UICONTROL Overview] i [!UICONTROL Project Details] avsnittet**: Ett nytt [!DNL Scenario Planner]-avsnitt skapas i det här området som innehåller information från det länkade initiativet.
 
      ![](assets/scenario-planner-on-project-details-350x135.png)
 
-     Följande initiativinformation publiceras i [!DNL Scenario Planner] området på [!UICONTROL Project Details] avsnitt:
+     Följande initialinformation publiceras i området [!DNL Scenario Planner] i avsnittet [!UICONTROL Project Details]:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -210,11 +210,11 @@ Innan du börjar:
       <tbody> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Duration]</span> </td> 
-        <td><span>varaktigheten för motsvarande initiativ när projektet är kopplat till ett initiativ. Det här fältet kan inte redigeras.</span> </td> 
+        <td><span>Det motsvarande initiativets varaktighet när projektet är kopplat till ett initiativ. Det här fältet kan inte redigeras.</span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Last Published Date]</span> </td> 
-        <td><span>Det datum då projektet senast offentliggjordes från ett motsvarande initiativ.</span> </td> 
+        <td><span>Datumet då projektet senast publicerades från ett motsvarande initiativ.</span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Start Date]</span> </td> 
@@ -222,7 +222,7 @@ Innan du börjar:
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative End Date]</span> </td> 
-        <td><span>Den sista dagen i programmets slutmånad, när projektet är kopplat till ett initiativ. </span> </td> 
+        <td><span>Den sista dagen i initialets slutmånad, när projektet är kopplat till ett initiativ. </span> </td> 
        </tr> 
        <tr> 
         <td role="rowheader"><span>[!UICONTROL Initiative Job Roles in FTEs and Hours]</span> </td> 
@@ -230,7 +230,7 @@ Innan du börjar:
          <ul> 
           <li>Jobbrollsnamn</li> 
           <li>Antal heltidsanställda</li> 
-          <li> <p>Antal timmar för alla heltidsanställda</p> <p>Du kan beräkna antalet jobbroller som behövs för din plan eller ditt initiativ med hjälp av timmar eller heltidsanställda.</p> <p>Mer information finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplaneraren</a>. </p> </li> 
+          <li> <p>Antal timmar för alla heltidsanställda</p> <p>Du kan beräkna antalet jobbroller som behövs för din plan eller ditt initiativ med hjälp av timmar eller heltidsanställda.</p> <p>Mer information finns i <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Skapa och redigera planer i scenarioplanen</a>. </p> </li> 
          </ul> 
       <p><b>TIPS</b>
 
@@ -241,34 +241,34 @@ Innan du börjar:
 
      >[!NOTE]
      >
-     >Alla användare med [!UICONTROL View] åtkomst till projektet kan se [!DNL Scenario Planner] i [!UICONTROL Overview] område. Du kan styra om det här området ska visas i dialogrutan [!UICONTROL Details] med hjälp av en layoutmall. Om användarna inte har någon associerad layoutmall visas det här området som standard.
+     >Alla användare med [!UICONTROL View]-åtkomst till projektet kan se avsnittet [!DNL Scenario Planner] i området [!UICONTROL Overview]. Du kan styra om det här området ska visas i avsnittet [!UICONTROL Details] med hjälp av en layoutmall. Om användarna inte har någon associerad layoutmall visas det här området som standard.
      >
      >   
      >   
-     >   * Mer information om hur du lägger till eller tar bort områden i [!UICONTROL Details] avsnitt med en layoutmall, se [Anpassa [!UICONTROL Details] visa med en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
-     >   * Mer information finns i [!UICONTROL Overview] området på [!UICONTROL Project Details], se [[!UICONTROL Manage] information i projektet [!UICONTROL Overview] area](../manage-work/projects/manage-projects/understand-project-overview-area.md).
+     >   * Mer information om hur du lägger till eller tar bort områden i avsnittet [!UICONTROL Details] med hjälp av en layoutmall finns i [Anpassa vyn [!UICONTROL Details] med hjälp av en layoutmall](../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+     >   * Mer information om hur du visar information i området [!UICONTROL Overview] i [!UICONTROL Project Details] finns i [[!UICONTROL Manage] -information i projektområdet [!UICONTROL Overview] ](../manage-work/projects/manage-projects/understand-project-overview-area.md).
      >   
      >
 
-   * **The [!UICONTROL Role Allocation] på panelen [!UICONTROL Workload Balancer] eller projektets uppgiftslista**: Information om rollfördelningen på initiativet fyller i på detta område, förutom rollfördelningen på projektet.
+   * **Panelen [!UICONTROL Role Allocation] i [!UICONTROL Workload Balancer] eller aktivitetslistan för projektet**: Information om rollallokering för initiativet fylls i i det här området, förutom rollallokeringar för projektet.
 
-     Mer information finns i [Översikt över avstämning av resursallokeringar mellan projekt och initiativ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
+     Mer information finns i [Översikt över att stämma av resursallokeringar mellan projekt och initiativ](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
      ![](assets/role-allocation-panel-350x174.png)
 
      Ändringar av datum eller resurser för projektet påverkar inte motsvarande initiativ eller något av de områden i projektet som innehåller initiativinformation.
 
-   * **The [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case] projektet**: Ett nytt alternativ för hantering av projektresurser med [!DNL Scenario Planner] information läggs till i [!UICONTROL Resource Budgeting] området på [!UICONTROL Business Case] av projektet.
+   * **Området [!UICONTROL Resource Budgeting] i [!UICONTROL Business Case] projektet**: Ett nytt alternativ för att hantera projektresurser med hjälp av [!DNL Scenario Planner]-information läggs till i [!UICONTROL Resource Budgeting]-området i [!UICONTROL Business Case] för projektet.
 
-     Mer information finns i [Budgetresurser i [!UICONTROL Business Case] med [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     Mer information finns i [Budgetresurser i [!UICONTROL Business Case] med  [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
      ![](assets/sp-in-business-case-selected-350x110.png)
 
-1. (Valfritt) Granska följande information i [!DNL Scenario Planner] efter att du har publicerat ett scenario:
+1. (Valfritt) Granska följande information i [!DNL Scenario Planner] när du har publicerat ett scenario:
 
    * Det publicerade scenariot blir det första när du har publicerat initiativ från det.
    * Du kan inte publicera från något annat scenario efter att du har publicerat ett scenario minst en gång.
-   * The [!UICONTROL Go to Publish] Alternativet tas bort från alla andra scenarier efter att minst ett initiativ har publicerats från ett scenario.
+   * Alternativet [!UICONTROL Go to Publish] tas bort från alla andra scenarier efter att minst ett initiativ har publicerats från ett scenario.
    * En grön indikator visas bredvid de publicerade initialernas projektikoner i planen.
 
      ![](assets/indicator-for-published-initiative-icon-350x119.png)
@@ -283,6 +283,6 @@ Innan du börjar:
 
 1. (Valfritt) Uppdatera information om initiativet och upprepa den process som beskrivs ovan för att publicera initiativet på nytt och uppdatera information om det länkade projektet.
 
-   Mer information om redigeringsinitiativ finns i [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+   Mer information om redigeringsinitiativ finns i [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 

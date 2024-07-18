@@ -4,7 +4,8 @@ description: Andra kvartalet 2024-integreringsförbättringar
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 50b2a86a1319f520ec00b0060f6c6ae0c4dfc597
+exl-id: 6e9b5c5c-562d-4591-a2ab-c8fd9da353fd
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 0%
@@ -15,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla integreringsförbättringar som gjorts i andra utgåvan av kvartalet 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön i den andra utgåvan av kvartal 2024.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den andra utgåvan av kvartal 2024 finns i [Översikt över den andra utgåvan av kvartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Förbättringar av automatiserat arbetsflöde för att skapa mappar i Adobe Experience Manager-integreringen
 
@@ -31,12 +32,6 @@ Nu kan du:
 * Skapa flera mappträd och ange sedan ett som standard för integreringen.
 * Ställ in filter baserat på anpassade formulärfältdata så att ett angivet mappträd skapas i Adobe Experience Manager.
 
-Information om hur du konfigurerar länkade mappar i Adobe Experience Manager-arbetsflöden finns i [Skapa länkade Adobe Experience Manager-mappar](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
+Mer information om hur du konfigurerar länkade mappar i Adobe Experience Manager-arbetsflöden finns i [Skapa länkade Adobe Experience Manager-mappar](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
 
-Information om hur du använder Adobe Experience Manager-arbetsflöden i projekt och projektmallar finns i[Använda arbetsflöden i Experience Manager Assets-integrering](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-
-
-
+Mer information om hur du använder Adobe Experience Manager-arbetsflöden i projekt eller projektmallar finns i [Använda arbetsflöden i Experience Manager Assets-integreringen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!UICONTROL MIME] moduler
 
-Du kan använda MIME-typer i Adobe Workfront Fusion. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen `text/html` bearbetas i en annan webbläsare än en fil med MIME-typ `image/jpeg`. MIME-typer fungerar oberoende av operativsystem och maskinvara.
+Du kan använda MIME-typer i Adobe Workfront Fusion. MIME-typer (Multipurpose Internet Mail Extension) är etiketter som gör att program kan identifiera olika typer av data som delas på Internet. Webbservrar och webbläsare använder MIME-typen för att avgöra vad som ska göras med en fil. En fil med till exempel MIME-typen `text/html` kommer att bearbetas i en annan webbläsare än en fil med MIME-typen `image/jpeg`. MIME-typer fungerar oberoende av operativsystem och maskinvara.
 
 ## Åtkomstkrav
 
@@ -38,31 +38,31 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL MIME] moduler och deras fält
+## [!UICONTROL MIME]-moduler och deras fält
 
 ### [!UICONTROL Get a MIME type]
 
-Denna transformatormodul returnerar den MIME-typ som är associerad med ett visst namn, en viss sökväg eller ett visst tillägg.
+Den här transformatormodulen returnerar den MIME-typ som är associerad med ett visst namn, en viss sökväg eller ett visst tillägg.
 
 <table style="table-layout:auto"> 
  <col> 

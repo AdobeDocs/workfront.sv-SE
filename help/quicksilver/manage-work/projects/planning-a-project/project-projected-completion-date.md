@@ -57,7 +57,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hur Adobe Workfront fastställer det planerade slutförandedatumet
 
@@ -69,29 +69,29 @@ Vilka kriterier som används för att bestämma det planerade slutförandedatume
 
   Ett högre procentvärde för slutförande flyttar till exempel det planerade slutförandedatumet för aktiviteten närmare den aktuella dagen. Om aktivitetens status är Nytt och aktiviteten Planerat slutförandedatum är nära eller har passerat, flyttas det planerade slutförandedatumet in i framtiden.
 
-* **Uppgifter:** Det planerade slutförandedatumet för uppgifter fastställs utifrån följande kriterier:
+* **Uppgifter:** Det beräknade slutförandedatumet för aktiviteter bestäms utifrån följande kriterier:
 
-   * **Förloppsuppdateringar för uppgiften som utförs av den som tilldelats uppgiften:** Förloppsuppdateringar inkluderar ändringar i procent slutfört och ändringar av aktivitetsstatus.
-   * **Bekräftelsedatum:** Om den tilldelade aktiviteten anger ett implementeringsdatum ändras det planerade slutförandedatumet så att det matchar implementeringsdatumet.
+   * **Förloppsuppdateringar som har gjorts för aktiviteten av aktivitetstilldelaren:** Förloppsuppdateringar omfattar ändringar i procent färdigt och ändringar av aktivitetsstatus.
+   * **Bekräftelsedatum:** Om aktivitetstilldelaren anger ett implementeringsdatum ändras det planerade slutförandedatumet så att det matchar implementeringsdatumet.
 
-     Mer information om implementeringsdatum finns i artikeln [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     Mer information om implementeringsdatum finns i artikeln [Bekräfta datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-   * **Föregående:** Om det inte blir några förseningar för föregående aktiviteter ska det planerade slutförandedatumet matcha det planerade slutförandedatumet. När fördröjningar inträffar visar de beroende aktiviteterna ett planerat slutförandedatum som är större än det planerade slutförandedatumet.
+   * **Föregående:** Om det inte uppstår några förseningar för föregående aktiviteter bör det planerade slutförandedatumet matcha det planerade slutförandedatumet. När fördröjningar inträffar visar de beroende aktiviteterna ett planerat slutförandedatum som är större än det planerade slutförandedatumet.
 
-     Mer information om planerat slutförandedatum för uppgifter finns i [Översikt över aktivitetens planerade slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+     Mer information om schemalagt slutförandedatum för aktiviteter finns i [Översikt över aktiviteten Planerat slutförandedatum](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
   >[!IMPORTANT]
   >
   >När en uppgifts föregångare har ett faktiskt slutförandedatum får de beroende aktiviteterna ett planerat slutförandedatum enligt följande scenario:
   >
   >
-  >Om projektet har uppgift A, Aktivitet B och Aktivitet C, och Aktivitet B är efterföljare till Aktivitet A, Aktivitet C är efterföljare till Aktivitet B och ett Faktiskt slutförandedatum läggs till i Aktivitet A, beräknas det planerade slutförandedatumet automatiskt om för Aktivitet B (under förutsättning att **Uppdateringstyp** av projektet är inställt på Automatisk och Vid ändring), men det kommer inte att beräknas om för Aktivitet C. För närvarande beräknar Workfront det planerade slutförandedatumet för aktiviteter som ligger en nivå upp eller ned från den uppdaterade aktiviteten, av prestandaskäl. 
+  >Om projektet har Aktivitet A, Aktivitet B och Aktivitet C, och Aktivitet B är efterföljare till Aktivitet A, Aktivitet C är efterföljare till Aktivitet B och ett Faktiskt slutförandedatum läggs till i Aktivitet A, beräknas det planerade slutförandedatumet automatiskt om för Aktivitet B (förutsatt att **Uppdateringstyp** för projektet är inställt på Automatisk och Vid ändring), men det beräknas inte om för Aktivitet C. beräknar Workfront det planerade slutförandedatumet för aktiviteter som ligger en nivå upp eller ned från den uppdaterade aktiviteten, av prestandaskäl. 
 
-* **Problem:** Utgåvan av planerat slutförandedatum är inledningsvis inställd på att matcha det planerade slutförandedatumet för utleverans.
+* **Problem:** Utgåvan av det beräknade slutförandedatumet är från början inställd på att matcha det planerade slutförandedatumet för utleverans.
 
   Om den som har tilldelats utgåvan anger ett datum för implementeringen ändras både det planerade slutförandedatumet och det planerade slutförandedatumet så att de matchar implementeringsdatumet.
 
-  Mer information om implementeringsdatum finns i artikeln [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  Mer information om implementeringsdatum finns i artikeln [Bekräfta datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Visa planerat slutförandedatum
 
@@ -100,14 +100,14 @@ Du kan visa projektens, aktivitetens och problemens beräknade slutförandedatum
 ### Visa planerat slutförandedatum för ett projekt {#view-the-projected-completion-date-of-a-project}
 
 1. Gå till det projekt där du vill visa det planerade slutförandedatumet.
-1. Klicka **Projektinformation** till vänster.
-1. Leta reda på **Planerat slutförandedatum** fältet i **Ökning** > **Projektdatum** -avsnitt.
+1. Klicka på **Projektinformation** i den vänstra panelen.
+1. Leta reda på fältet **Planerat slutförandedatum** i avsnittet **Översikt** > **Projektdatum**.
 
 ### Visa planerat slutförandedatum för en uppgift {#view-the-projected-completion-date-of-a-task}
 
 1. Gå till den uppgift där du vill visa det planerade slutförandedatumet.
-1. Klicka **Uppgiftsinformation** till vänster.
-1. Leta reda på **Planerat slutförandedatum** fältet i **Ökning** > **Datum och begränsning för uppgift** -avsnitt.
+1. Klicka på **Uppgiftsinformation** i den vänstra panelen.
+1. Leta reda på fältet **Planerat slutförandedatum** i avsnittet **Översikt** > **Aktivitetsdatum och begränsning**.
 
 ### Visa planerat slutförandedatum för ett problem {#view-the-projected-completion-date-of-an-issue}
 
@@ -116,12 +116,12 @@ Du kan bara visa det planerade slutförandedatumet för utgåvor i en problemrap
 Så här skapar du en problemrapport som innehåller det planerade slutförandedatumet:
 
 1. Skapa en problemrapport enligt beskrivningen i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Välj **Kolumner (vy)** -fliken.
-1. Klicka **Lägg till kolumn** och börja skriva **Planerat slutförandedatum** i **Visa i den här kolumnen:** fält.
+1. Välj fliken **Kolumner (Visa)**.
+1. Klicka på **Lägg till kolumn** och börja skriva **Planerat slutförandedatum** i fältet **Visa i den här kolumnen:**.
 
-1. Markera den när den visas i listan, under **Problem** -objekt. 
-1. Klicka **Spara + Stäng**.
+1. Markera den när den visas i listan, under objektet **Utgåva** . 
+1. Klicka på **Spara + Stäng**.
 
-   The **Planerat slutförandedatum** kolumnen i rapporten fylls i. 
+   Kolumnen **Planerat slutförandedatum** i rapporten fylls i. 
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

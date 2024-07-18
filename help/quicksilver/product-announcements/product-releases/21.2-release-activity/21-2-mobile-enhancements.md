@@ -8,16 +8,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
 
 # 21.2 Mobilförbättringar
 
-Den här sidan beskriver alla mobilförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 Versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Den här sidan beskriver alla mobilförbättringar som gjorts i version 21.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 10 maj 2021. En lista över alla ändringar som är tillgängliga i version 21.2 finns i [21.2 versionsöversikt](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
 ## Tidrapportkommentarer
 
@@ -46,8 +46,6 @@ Mobilappen har nu stöd för följande objekt i anpassade formulärtypsnittsfäl
 * Team
 * Mall
 
-Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Spara begäranden som utkast i Workfront mobilapp
 
 >[!NOTE]
@@ -56,4 +54,4 @@ Mer information finns i [Skapa eller redigera ett anpassat formulär](../../../a
 
 Nu kan du spara delvis ifyllda begäranden som utkast i mobilappen. Vi har lagt till ett nytt avsnitt i området Begär så att du enkelt kan hitta dina utkast.
 
-Mer information finns på [Adobe Workfront för Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) eller [Adobe Workfront för iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+Mer information finns i [Adobe Workfront för Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) eller [Adobe Workfront för iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla administratörsförbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1 - versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1-versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Ny åtkomstnivåinställning för kopiering av projekt
 
@@ -31,7 +31,7 @@ Mer information om åtkomstnivån Planera finns i [Bevilja åtkomst till projekt
 
 Mer information om hur du kopierar ett projekt finns i [Kopiera ett projekt](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront-upplevelsen, del 1: Utbildningsväg för användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) i Workfront One.
 
 ## I ett anpassat formulär på ett objekt markerar du alla objekt i ett flervalsfält
 
@@ -61,9 +61,9 @@ Mer information finns i [Redigera information i anpassade formulärfält](../../
 
 Adobe Workfront-administratörer kan nu ge gruppadministratörer mer självbestämmande genom att låsa upp enskilda uppgifter och utgåvor. När en inställning är olåst kan gruppadministratörer konfigurera den för sina grupper så att den passar varje grupps unika behov och interna processer.
 
-Mer information finns i [Konfigurera inställningar för aktiviteter och utgåvor för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+Mer information finns i [Konfigurera aktivitets- och probleminställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 2: Projektinställningar](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront-upplevelsen, del 2: Utbildningsväg för projektinställningar](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-1-project-workfl-MCTBVZ3Q3J5RHNLIPPZPFSQRLKUY) i Workfront One.
 
 ## Konfigurera åtkomstnivåinställningar för portföljer och program separat
 
@@ -75,7 +75,7 @@ Mer information om hur du konfigurerar en åtkomstnivå finns i [Skapa eller än
 
 Mer information om åtkomstinställningar som du kan konfigurera för program och portföljer finns i [Konfigurerbar åtkomst till funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront-upplevelsen, del 1: Utbildningsväg för användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) i Workfront One.
 
 ## Markera alla kryssrutor i en serie när du redigerar information i ett anpassat formulär
 
@@ -108,7 +108,7 @@ Tidigare var det bara en grupp på den översta nivån som kunde ha gruppadminis
 
 Mer information finns i avsnittet [Gruppadministratörer för undergrupper](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) i artikeln [Översikt över undergrupper](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront-upplevelsen, del 1: Utbildningsväg för användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) i Workfront One.
 
 ## Konfigurera händelsemeddelanden för grupper
 
@@ -122,12 +122,12 @@ Tidigare var händelsemeddelanden bara konfigurerbara av en Workfront-administra
 
 Mer information finns i följande artiklar:
 
-* [Lås upp eller lås konfigurationen av händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
+* [Lås upp eller lås upp konfigurationen för händelsemeddelanden för alla grupper](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [Visa och konfigurera händelseaviseringar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-Den här funktionen ingår nu i [Grundläggande om administratörer i den nya Workfront-upplevelsen, del 1: Användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Administratörsgrunderna i den nya Workfront-upplevelsen, del 1: Utbildningsväg för användarorganisation](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-MCUPSLH2M2WBDTFI2VKSRE2BRGKY) i Workfront One.
 
-Den här funktionen ingår nu i [E-post och meddelanden i appen i den nya Workfront-upplevelsen](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [e-post och meddelanden i appen i den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) på Workfront One.
 
 ## Arbeta med gruppprojekt och godkännandeprocesser i området Grupper
 
@@ -149,5 +149,5 @@ För att avgöra hur bra licenserna distribueras kan du nu visa antalet licenser
 
 Om du hanterar en grupp på den översta nivån kan du visa både antalet licenser som används i en grupp (och dess undergrupper) och det maximala antalet licenser som tilldelas för gruppen.
 
-Mer information finns i [Visa antalet licenser som tilldelats och används i en grupp i den nya Adobe Workfront-upplevelsen](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Mer information finns i [Visa antalet licenser som allokerats och använts i en grupp i den nya Adobe Workfront-upplevelsen](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 

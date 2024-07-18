@@ -2,23 +2,23 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Kortkommandon i [!DNL Workfront Proof] korrekturläsare
+title: Kortkommandon i  [!DNL Workfront Proof] språkgranskaren
 description: Den information som beskrivs i det här avsnittet finns både i Web Proofing Viewer och Desktop Proofing Viewer.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e134ac7a-7a9d-4923-8622-b602856e4925
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
-# Kortkommandon i [!DNL Workfront Proof] korrekturläsare
+# Kortkommandon i [!DNL Workfront Proof] korrekturläsaren
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Den information som beskrivs i det här avsnittet finns både i Web Proofing Viewer och Desktop Proofing Viewer.
 
@@ -30,10 +30,10 @@ Den information som beskrivs i det här avsnittet finns både i Web Proofing Vie
   <tr> 
    <td><strong>Kortkommando</strong> </td> 
    <td><strong>Åtgärd på videokorrektur</strong> </td> 
-   <td><strong>Åtgärd vid statiska korrektur</strong> </td> 
+   <td><strong>Åtgärd på statiska korrektur</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p>Blanksteg<br>eller<br>k (versal eller gemen)</p> </td> 
+   <td> <p>Blanksteg<br>Eller<br>k (versaler eller gemener)</p> </td> 
    <td> <p>Spela upp eller pausa video</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -78,7 +78,7 @@ Den information som beskrivs i det här avsnittet finns både i Web Proofing Vie
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+Enter </p> <p><strong>[!DNL Windows]:</strong> cmd+return</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+Enter </p> <p><strong>[!DNL Windows]:</strong> cmd+return</p> </td> 
    <td> <p>Spara kommentar</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -98,7 +98,7 @@ Den information som beskrivs i det här avsnittet finns både i Web Proofing Vie
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0 (noll)<br>eller<br> fn+vänsterpil<br> eller<br> Hemtangent</p> </td> 
+   <td> <p>0 (noll)<br>Eller<br> fn+vänsterpil<br> eller<br> hemtangent</p> </td> 
    <td> <p>Starta om videon</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -118,32 +118,32 @@ Den information som beskrivs i det här avsnittet finns både i Web Proofing Vie
    <td> <p>Zooma in eller ut</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+0</p> <p><strong>[!DNL Windows]:</strong> Ctrl+0</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+0</p> <p><strong>[!DNL Windows]:</strong> Ctrl+0</p> </td> 
    <td> <p> Anpassa till sida</p> </td> 
    <td> <p>Anpassa till sida</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+1</p> <p><strong>[!DNL Windows]:</strong> Ctrl+1</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+1</p> <p><strong>[!DNL Windows]:</strong> Ctrl+1</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Zooma till 100 % </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+2</p> <p><strong>[!DNL Windows]:</strong> Ctrl+2</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+2</p> <p><strong>[!DNL Windows]:</strong> Ctrl+2</p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Anpassa till bredd </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+3</p> <p><strong>[!DNL Windows]:</strong> Ctrl+3 </p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> Ctrl+3</p> <p><strong>[!DNL Windows]:</strong> Ctrl+3 </p> </td> 
    <td> <p> </p> </td> 
    <td> <p>Anpassa till höjd </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> cmd+ <br>eller <br>cmd+shift+scroll up</p> <p><strong>[!DNL Windows]:</strong> Ctrl++</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd++ <br> eller <br>cmd+shift+scroll up</p> <p><strong>[!DNL Windows]:</strong> Ctrl++</p> </td> 
    <td> <p> Zooma in</p> </td> 
    <td> <p>Zooma in </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>[!DNL Mac]:</strong> cmd+- <br>eller <br>cmd+shift+scroll down</p> <p><strong>[!DNL Windows]:</strong> Ctrl+-</p> </td> 
+   <td> <p><strong>[!DNL Mac]:</strong> cmd+- <br> eller <br>cmd+shift+scroll down</p> <p><strong>[!DNL Windows]:</strong> Ctrl+-</p> </td> 
    <td> <p>Zooma ut </p> </td> 
    <td> <p>Zooma ut</p> </td> 
   </tr> 

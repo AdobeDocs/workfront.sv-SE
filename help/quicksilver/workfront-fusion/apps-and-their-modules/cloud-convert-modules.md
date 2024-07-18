@@ -7,14 +7,14 @@ feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '2499'
+source-wordcount: '2468'
 ht-degree: 0%
 
 ---
 
 # [!DNL CloudConvert] moduler
 
-I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder CloudConvert samt ansluta det till flera tredjepartsprogram och -tjänster. The [!DNL CloudConvert] kan du övervaka och hantera jobb, uppgifter och importera och exportera filer i [!DNL CloudConvert] konto.
+I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som använder CloudConvert samt ansluta det till flera tredjepartsprogram och -tjänster. Med modulerna [!DNL CloudConvert] kan du övervaka och hantera jobb, uppgifter samt importera och exportera filer i ditt [!DNL CloudConvert]-konto.
 
 <table style="table-layout:auto">
  <col> 
@@ -31,17 +31,17 @@ I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som anv�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -49,22 +49,22 @@ I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsflöden som anv�
 
 ## Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
 
-Koppla samman [!DNL CloudConvert] konto till [!DNL Workfront Fusion]måste du hämta API-nyckeln från [!DNL CloudConvert] konto.
+Om du vill ansluta ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] måste du hämta API-nyckeln från ditt [!DNL CloudConvert]-konto.
 
-1. Logga in på [!DNL CloudConvert] konto och öppna [!UICONTROL Dashboard].
-1. Öppna **[!UICONTROL Authorization]>[!UICONTROL API Keys]** -avsnitt.
+1. Logga in på ditt [!DNL CloudConvert]-konto och öppna [!UICONTROL Dashboard].
+1. Öppna avsnittet **[!UICONTROL Authorization]>[!UICONTROL API Keys]**.
 1. Klicka på **[!UICONTROL Create New API key]**.
-1. Ange namnet på API-nyckeln, aktivera de scope du vill använda och klicka sedan på **[!UICONTROL Create]**.
+1. Ange namnet på API-nyckeln, aktivera de scope som du vill använda och klicka sedan på **[!UICONTROL Create]**.
 1. Kopiera den angivna token och lagra den på en säker plats.
-1. I [!DNL Workfront Fusion], börja skapa ett scenario och öppna [!DNL CloudConvert] modulens **[!UICONTROL Create a connection]** -dialogrutan.
+1. I [!DNL Workfront Fusion] börjar du skapa ett scenario och öppnar dialogrutan **[!UICONTROL Create a connection]** för modulen [!DNL CloudConvert].
 
    Instruktioner finns i [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Ange den token du sparade i steg 5 och klicka sedan på **[!UICONTROL Continue]** för att upprätta anslutningen.
+1. Ange den token som du sparade i steg 5 och klicka sedan på **[!UICONTROL Continue]** för att upprätta anslutningen.
 
-## [!DNL CloudConvert] moduler och deras fält {#cloudconvert-modules-and-their-fields}
+## [!DNL CloudConvert]-moduler och deras fält {#cloudconvert-modules-and-their-fields}
 
-När du konfigurerar [!DNL CloudConvert] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL CloudConvert] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL CloudConvert] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL CloudConvert] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -97,7 +97,7 @@ Modulen returnerar filens ID och eventuella associerade fält, tillsammans med e
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -105,7 +105,7 @@ Modulen returnerar filens ID och eventuella associerade fält, tillsammans med e
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format] </td> 
-   <td>Ange om du vill spara den hämtade webbplatsen i PNG-, JPG- eller PDF-format. </td> 
+   <td>Välj om du vill spara den hämtade webbplatsen i PNG-, JPG- eller PDF-format. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File Name] </td> 
@@ -117,7 +117,7 @@ Modulen returnerar filens ID och eventuella associerade fält, tillsammans med e
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Conversion and engine specific options] </p> </td> 
-   <td>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> dokumentation för <code>input_format</code> och <code>output_format</code>.</td> 
+   <td>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -dokumentationen för <code>input_format</code> och <code>output_format</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a file] </td> 
@@ -136,7 +136,7 @@ Konverterar en fil till ett valt utdataformat.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input file]</td> 
@@ -172,7 +172,7 @@ Konverterar en fil till ett valt utdataformat.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Conversion and engine specific options] </p> </td> 
-   <td>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> dokumentation för <code>input_format</code> och <code>output_format</code>.</td> 
+   <td>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -dokumentationen för <code>input_format</code> och <code>output_format</code>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Download a file] </td> 
@@ -191,7 +191,7 @@ Gör att du kan lägga till en eller flera filer i arkivet ZIP, RAR, 7Z, TAR, TA
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -215,7 +215,7 @@ Gör att du kan lägga till en eller flera filer i arkivet ZIP, RAR, 7Z, TAR, TA
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options] </td> 
-   <td> <p>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> dokumentation för <code>input_format</code> och <code>output_format</code>.</p> </td> 
+   <td> <p>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -dokumentationen för <code>input_format</code> och <code>output_format</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a File]</td> 
@@ -234,7 +234,7 @@ Sammanfogar minst två filer till en PDF. Om indatafilerna inte är PDF konverte
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -258,7 +258,7 @@ Sammanfogar minst två filer till en PDF. Om indatafilerna inte är PDF konverte
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options] </td> 
-   <td> <p>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> dokumentation för <code>input_format</code> och <code>output_format</code>.</p> </td> 
+   <td> <p>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -dokumentationen för <code>input_format</code> och <code>output_format</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a File]</td> 
@@ -283,7 +283,7 @@ När du konfigurerar den här modulen visas följande fält.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input File]</td> 
@@ -314,7 +314,7 @@ När du konfigurerar den här modulen visas följande fält.
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Print]</strong>: Optimering för tryck</p> 
+     <li> <p><strong>[!UICONTROL Print]</strong>: Optimering för utskrift</p> 
       <ul> 
        <li> <p>Ta bort överflödiga och onödiga data för utskrift</p> </li> 
        <li> <p>Nedsampla, klippa och komprimera bilder på ett intelligent sätt</p> </li> 
@@ -349,7 +349,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options]</td> 
-   <td> <p>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> dokumentation för <code>input_format</code> och <code>output_format</code>.</p> </td> 
+   <td> <p>Ange konverterings- och motorspecifika alternativ. Information om tillgängliga alternativ finns i <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API </a> -dokumentationen för <code>input_format</code> och <code>output_format</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a file]</td> 
@@ -368,7 +368,7 @@ När du konfigurerar den här modulen visas följande fält.
 
 #### [!UICONTROL Create a Job (advanced)]
 
-Den här modulen skapar ett jobb. Ett jobb kan vara en eller flera uppgifter som identifieras i [!UICONTROL Name] och länkas mellan dem med [!UICONTROL Input] fält.
+Den här modulen skapar ett jobb. Ett jobb kan vara en eller flera uppgifter som identifieras i fältet [!UICONTROL Name] och länkas mellan varandra med hjälp av fältet [!UICONTROL Input].
 
 <table style="table-layout:auto">
  <col> 
@@ -376,11 +376,11 @@ Den här modulen skapar ett jobb. Ett jobb kan vara en eller flera uppgifter som
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input Files]</td> 
-   <td> <p>Välj om du vill överföra en fil med [!DNL Workfront Fusion]eller ange den URL som filen ska överföras från.</p> </td> 
+   <td> <p>Välj om du vill överföra en fil med [!DNL Workfront Fusion] eller ange den URL som filen ska överföras från.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Upload a File]</td> 
@@ -396,7 +396,7 @@ Den här modulen skapar ett jobb. Ett jobb kan vara en eller flera uppgifter som
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Tasks]</p> </td> 
-   <td> <p>Lägg till uppgifter som ska utföras i jobbet.</p> <p>Beskrivningarna av åtgärdens fält finns i motsvarande avsnitt.</p> 
+   <td> <p>Lägg till uppgifter som ska utföras i jobbet.</p> <p>Beskrivningarna av operationsfälten finns i motsvarande avsnitt.</p> 
     <ul> 
      <li><a href="#convert-a-file" class="MCXref xref">[!UICONTROL Convert a file]</a> </li> 
      <li><a href="#capture-a-website" class="MCXref xref">[!UICONTROL Capture a Websit]e</a> </li> 
@@ -405,7 +405,7 @@ Den här modulen skapar ett jobb. Ett jobb kan vara en eller flera uppgifter som
      <li><a href="#merge-files" class="MCXref xref">[!UICONTROL Merge Files]</a> </li> 
     </ul> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Execute a Command]</strong> </p> <p>Mer information om hur du kör ett kommando finns i <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API-dokumentation</a>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Execute a Command]</strong> </p> <p>Mer information om hur du kör ett kommando finns i <a href="https://cloudconvert.com/api/v2/command#command-tasks">[!DNL CloudConvert] API-dokumentationen </a>.</p> </li> 
      <li> <p><strong>[!UICONTROL Export a File to Temporary URL]</strong> </p> <p> Ange aktivitetens namn och indatans aktivitetsnamn (t.ex. konvertering).</p> </li> 
     </ul> </td> 
   </tr> 
@@ -430,7 +430,7 @@ Den här modulen tar bort ett jobb, inklusive alla uppgifter och data.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Job ID]</td> 
@@ -449,7 +449,7 @@ Den här modulen hämtar jobbinformation.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Job ID]</td> 
@@ -468,7 +468,7 @@ Den här modulen hämtar alla jobb som har körts i ditt konto.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status] </td> 
@@ -487,8 +487,8 @@ Utlöses när ett jobb i ditt konto eller din uppgift skapas, avslutas eller mis
 
 >[!NOTE]
 >
->* Jobbet som skapades av [!UICONTROL Create a Job (advanced)] modulen består av *flera* uppgifter.
->* The [!UICONTROL New Job Event] utlösaren aktiveras också när en *individuell* aktiviteten har skapats, slutförts eller misslyckats.
+>* Jobbet som skapas av modulen [!UICONTROL Create a Job (advanced)] består av *flera* uppgifter.
+>* Utlösaren [!UICONTROL New Job Event] aktiveras också när en *enskild*-aktivitet skapas, har slutförts eller misslyckats.
 >
 
 <table style="table-layout:auto">
@@ -501,11 +501,11 @@ Utlöses när ett jobb i ditt konto eller din uppgift skapas, avslutas eller mis
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format] </td> 
-   <td>Ange om du vill spara den hämtade webbplatsen i PNG-, JPG- eller PDF-format. </td> 
+   <td>Välj om du vill spara den hämtade webbplatsen i PNG-, JPG- eller PDF-format. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event]</td> 
@@ -516,7 +516,7 @@ Utlöses när ett jobb i ditt konto eller din uppgift skapas, avslutas eller mis
 
 >[!NOTE]
 >
->* Om du arbetar med arrayaggregatorn (du t.ex. har många filer i olika format att konvertera) använder du **[!UICONTROL I don't know the input format]** i [!UICONTROL Add a task] -dialogrutan. Annars returneras felet.
+>* Om du arbetar med Array Aggregator (du t.ex. har många filer i olika format att konvertera) använder du alternativet **[!UICONTROL I don't know the input format]** i dialogrutan [!UICONTROL Add a task]. Annars returneras felet.
 >* Länkar aktiviteter inom jobbet (namn > indata, namn > indata,..):
 >
 >  ![](assets/linking-name-across-jobs-350x808.png)>
@@ -540,7 +540,7 @@ Den här modulen avbryter en aktivitet som har statusen Väntar eller Bearbetnin
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -563,7 +563,7 @@ Ta bort en uppgift, inklusive alla data.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -582,7 +582,7 @@ Den här modulen hämtar filnamn och fildata från den angivna aktiviteten.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -601,7 +601,7 @@ Den här modulen hämtar aktivitetsinformation.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -620,7 +620,7 @@ Den här modulen hämtar alla uppgifter i ditt konto baserat på filterinställn
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status] </td> 
@@ -632,7 +632,7 @@ Den här modulen hämtar alla uppgifter i ditt konto baserat på filterinställn
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Operation] </td> 
-   <td> <p>Ange åtgärdstypen om du bara vill returnera uppgifter med den angivna åtgärden. </p> <p>Obs! Använd [!UICONTROL List Possible Operations] för att hämta åtgärder.</p> </td> 
+   <td> <p>Ange åtgärdstypen om du bara vill returnera uppgifter med den angivna åtgärden. </p> <p>Obs! Använd modulen [!UICONTROL List Possible Operations] för att hämta åtgärder.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
@@ -651,7 +651,7 @@ Den här modulen skapar en ny uppgift baserat på inställningarna (nyttolast) f
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -675,7 +675,7 @@ Hämtar autentiserad kontoinformation om den aktuella användaren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL CloudConvert] konto till [!DNL Workfront Fusion], se <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Anslut [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL CloudConvert]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL CloudConvert] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -694,11 +694,11 @@ Gör att du kan utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Ange en sökväg som är relativ till <code>https://api.cloudconvert.com/</code>. Exempel: <code>/v2/tasks</code></p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] API v2-dokumentation</a>.</p> </td> 
+   <td> <p>Ange en relativ sökväg till <code>https://api.cloudconvert.com/</code>. Exempel: <code>/v2/tasks</code></p> <p>En lista över tillgängliga slutpunkter finns i <a href="https://cloudconvert.com/api/v2">[!DNL CloudConvert] API v2-dokumentationen </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   td&gt; <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -710,7 +710,7 @@ Gör att du kan utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödtexten för API-anropet i form av ett standard-JSON-objekt. När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
+   <td> <p>Lägg till brödtexten för API-anropet i form av ett standard-JSON-objekt. Om du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.<img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -725,7 +725,7 @@ Metod: `GET`
 
 ![](assets/cloudconvert-api-example-input.png)
 
-Matchningar av sökningen finns i modulens utdata under [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data].
+Det går att hitta matchningar av sökningen i modulens utdata under [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data].
 
 I vårt exempel returnerades 6 uppgifter:
 
@@ -733,7 +733,7 @@ I vårt exempel returnerades 6 uppgifter:
 
 ## Felsökning {#troubleshooting}
 
-I följande tabell visas möjliga fel och deras lösningar:
+I följande tabell finns information om möjliga fel och deras lösningar:
 
 <table style="table-layout:auto">
  <col> 
@@ -751,7 +751,7 @@ I följande tabell visas möjliga fel och deras lösningar:
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL You have exceeded the maximum conversion time.]</span> </p> </td> 
-   <td> <p>Kostnadsfria [!DNL CloudConvert] 25 konverteringsminuter per dag. Om din användning överskrider gränsen för kostnadsfri prenumeration kan du byta till ett (förbetalt) paket eller en prenumeration.</p> </td> 
+   <td> <p>Kostnadsfri [!DNL CloudConvert]-plan erbjuder 25 konverteringsminuter dagligen. Om din användning överskrider gränsen för kostnadsfri prenumeration kan du byta till ett (förbetalt) paket eller en prenumeration.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><span style="font-weight: normal;">[!UICONTROL Failed to read frame size: Could not seek to 1508. �/output/JLIADSA00137P0.mp3: Invalid argument.]</span> </p> </td> 
@@ -759,42 +759,42 @@ I följande tabell visas möjliga fel och deras lösningar:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL RuntimeError:] </p> <p><span style="font-weight: normal;">[!UICONTROL Maximum number of repeats exceeded.]</span> </p> </td> 
-   <td> <p>Leta reda på motsvarande [!DNL CloudConvert] jobb i [!DNL CloudConvert] Kontrollpanelens lista över jobb och kontrollera jobbets varaktighet:</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>The [!DNL CloudConvert] &gt; [!UICONTROL Convert a File] modulens timeout är inställd på 3 minuter. Om jobbets varaktighet överstiger 3 minuter (möjligen på grund av en tillfällig överbelastning av [!DNL CloudConvert] -tjänst) genereras det ovannämnda felet av modulen.</p> <p>Här bör du tänka på något av följande:</p> 
+   <td> <p>Leta reda på motsvarande [!DNL CloudConvert]-jobb i [!DNL CloudConvert]-kontrollpanelens lista över jobb och kontrollera jobbets varaktighet:</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>Tidsgränsen för modulen [!DNL CloudConvert] &gt; [!UICONTROL Convert a File] är 3 minuter. Om jobbets varaktighet överstiger 3 minuter (möjligen på grund av en tillfällig överbelastning av tjänsten [!DNL CloudConvert]), genereras felet ovan i modulen.</p> <p>Här bör du tänka på något av följande:</p> 
     <ul> 
-     <li>Aktivera <strong>[!UICONTROL Allow storing of Incomplete Executions]</strong> i scenarioinställningarna för att lagra de ofullständiga körningarna för senare manuell upplösning. Du kan också bifoga en felhanteringsväg till [!DNL CloudConvert] med [!UICONTROL Break] -direktiv som automatiskt löser de ofullständiga körningarna.</li> 
-     <li>Inaktivera <strong>[!UICONTROL Download a file] option</strong> i [!DNL CloudConvert] &gt; [!UICONTROL Convert a file] -modul. I det här fallet väntar modulen inte på konverteringsresultatet. Skapa ett nytt scenario och använd [!DNL CloudConvert] &gt; [!UICONTROL New Job Event] utlösare.</li> 
+     <li>Aktivera alternativet <strong>[!UICONTROL Allow storing of Incomplete Executions]</strong> i scenarioinställningarna för att lagra de ofullständiga körningarna för senare manuell lösning. Du kan också koppla en felhanteringsväg till modulen [!DNL CloudConvert] med direktivet [!UICONTROL Break] för att lösa de ofullständiga körningarna automatiskt.</li> 
+     <li>Inaktivera alternativet <strong>[!UICONTROL Download a file] </strong> i modulen [!DNL CloudConvert] &gt; [!UICONTROL Convert a file]. I det här fallet väntar modulen inte på konverteringsresultatet. Skapa ett nytt scenario och använd utlösaren [!DNL CloudConvert] &gt; [!UICONTROL New Job Event] för att få konverteringsresultatet.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Exempel på arbetsflöde för [!DNL CloudConvert] koppling
+## Exempelarbetsflöde för [!DNL CloudConvert]-koppling
 
 >[!INFO]
 >
->**Exempel:** Konvertera en video från MOV till MP4-format
+>**Exempel:** Konverterar en video från MOV till MP4-format
 >
 >1. Besök [https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
->1. Klicka **[!UICONTROL Select File]** och välj MOV-exempelfilen.
->1. Klicka på listrutan bredvid **[!UICONTROL Convert to]** och välja **[!UICONTROL MP4]**.
+>1. Klicka på **[!UICONTROL Select File]** och välj MOV-exempelfilen.
+>1. Klicka på listrutan bredvid **[!UICONTROL Convert to]** och välj **[!UICONTROL MP4]**.
 >
->1. Klicka på **[!UICONTROL wrench]** ikon.
+>1. Klicka på ikonen **[!UICONTROL wrench]**.
 >1. Konfigurera inställningarna för MP4-komprimering så som du vill ha dem.
 >1. Klicka på **[!UICONTROL Convert]**.
 >1. När konverteringen är klar klickar du på **[!UICONTROL Download]**.
 >1. Granska den konverterade videon.
 >1. Upprepa steg 1 till 8 tills du har hittat de optimala konverteringsinställningarna för steg 5.
 >1. Besök [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
->1. Välj **[!UICONTROL mov]** för **[!UICONTROL input_format]** fält.
+>1. Välj **[!UICONTROL mov]** som **[!UICONTROL input_format]**-fält.
 >
->1. Välj **[!UICONTROL mp4]** för **[!UICONTROL output_format]** fält.
+>1. Välj **[!UICONTROL mp4]** som **[!UICONTROL output_format]**-fält.
 >
 >1. En lista med alla möjliga parametrar som video_codec, crf, osv. visas.
->1. I Workfront Fusion 2.0 infogar du **[!UICONTROL CloudConvert]** > **[!UICONTROL Convert a File]** i ditt scenario.
+>1. I Workfront Fusion 2.0 infogar du modulen **[!UICONTROL CloudConvert]** > **[!UICONTROL Convert a File]** i ditt scenario.
 >
 >1. Öppna modulens inställningar.
 >1. Konfigurera modulen enligt nedan:
 >
 >   ![](assets/cloudconvert-mp4-example.png)
 >
->1. Se till att du inkluderar alla inställningar i fältet Konvertering och motorspecifika alternativ: för varje inställning från steg 5, leta upp motsvarande parameter från steg 13 och dess motsvarande värde.
+>1. Se till att inkludera alla inställningar i fältet Konvertering och motorspecifika alternativ: för varje inställning från steg 5 letar du reda på motsvarande parameter från steg 13 och dess motsvarande värde.

@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Hantera [!DNL Adobe Workfront Fusion] användare i din organisation
 
-[!DNL Adobe Workfront Fusion] administratörer kan hantera användarroller inuti [!DNL Workfront Fusion].
+[!DNL Adobe Workfront Fusion]-administratörer kan hantera användarroller inuti [!DNL Workfront Fusion].
 
 <!--
 
@@ -54,56 +54,56 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
    <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> 
-     <p>Du måste vara en [!DNL Workfront Fusion] administratör för din organisation.</p>
-     <p>Du måste vara en [!DNL Workfront Fusion] administratör för ditt team.</p>
+     <p>Du måste vara administratör för [!DNL Workfront Fusion] för din organisation.</p>
+     <p>Du måste vara administratör för [!DNL Workfront Fusion] för ditt team.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Visa eller redigera användarroller {#view}
 
 [!DNL Adobe Workfront Fusion] administratörer kan visa och uppdatera användarroller.
 
-1. När du är inloggad som en [!DNL Workfront Fusion] administratör, välja **[!UICONTROL Users]** i den vänstra navigeringen.
-1. Klicka **[!UICONTROL Details]** på raden för den användare som du vill visa.
-1. (Valfritt) Om du vill uppdatera användarens roll klickar du på listrutan i dialogrutan **[!DNL Role]** i raden i organisationen där du vill ändra användarens roll och sedan välja den nya rollen.
+1. När du är inloggad som [!DNL Workfront Fusion]-administratör väljer du **[!UICONTROL Users]** i den vänstra navigeringen.
+1. Klicka på **[!UICONTROL Details]** på raden för den användare som du vill visa.
+1. (Valfritt) Om du vill uppdatera användarens roll klickar du på listrutan i kolumnen **[!DNL Role]** på raden i organisationen där du vill ändra användarens roll och väljer sedan den nya rollen.
 
 ## Visa eller redigera användarinformation {#view2}
 
-[!DNL Adobe Workfront Fusion] administratörer kan visa och uppdatera användarinformation.
+[!DNL Adobe Workfront Fusion]-administratörer kan visa och uppdatera användarinformation.
 
-1. När du är inloggad som en [!DNL Workfront Fusion] administratör, välja **[!UICONTROL Users]** i den vänstra navigeringen.
-1. Klicka **[!UICONTROL Details]** på raden för den användare som du vill visa.
-1. (Valfritt) Om du vill uppdatera användarens information klickar du på **[!UICONTROL Options]** i skärmens övre högra hörn och välj **[!UICONTROL Change Details]**.
+1. När du är inloggad som [!DNL Workfront Fusion]-administratör väljer du **[!UICONTROL Users]** i den vänstra navigeringen.
+1. Klicka på **[!UICONTROL Details]** på raden för den användare som du vill visa.
+1. (Valfritt) Om du vill uppdatera användarens information klickar du på **[!UICONTROL Options]** i skärmens övre högra hörn och väljer sedan **[!UICONTROL Change Details]**.
 
 ## Ta bort en användare {#delete}
 
-[!DNL Adobe Workfront Fusion] administratörer kan ta bort användare.
+[!DNL Adobe Workfront Fusion]-administratörer kan ta bort användare.
 
-1. När du är inloggad som en [!DNL Workfront Fusion] administratör, välja [!UICONTROL Users] i den vänstra navigeringen.
-1. Klicka **[!UICONTROL Details]** på raden för den användare som du vill visa.
-1. (Valfritt) Om du vill uppdatera användarens information klickar du på **[!UICONTROL Options]** i skärmens övre högra hörn och välj **[!UICONTROL Delete]**.
+1. När du är inloggad som [!DNL Workfront Fusion]-administratör väljer du [!UICONTROL Users] i den vänstra navigeringen.
+1. Klicka på **[!UICONTROL Details]** på raden för den användare som du vill visa.
+1. (Valfritt) Om du vill uppdatera användarens information klickar du på **[!UICONTROL Options]** i skärmens övre högra hörn och väljer sedan **[!UICONTROL Delete]**.
 
 ### Att tänka på när du tar bort en användare i Workfront Fusion
 

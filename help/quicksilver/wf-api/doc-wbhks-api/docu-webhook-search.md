@@ -62,7 +62,7 @@ JSON innehåller en lista med metadata för filer och mappar som matchar frågan
 
 **Exempel:**
 
-Exempel:  `https://www.acme.com/api/search?query=test-query`
+Exempel: `https://www.acme.com/api/search?query=test-query`
 
 ```
 [ 

@@ -9,25 +9,25 @@ feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
 source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
 
-# Översikt över initiativen i [!DNL Scenario Planner]
+# Initiativöversikt i [!DNL Scenario Planner]
 
-The [!DNL Scenario Planner] är bara tillgängligt i nya [!DNL Adobe Workfront] upplevelse och kräver en extra licens. Mer information om [!DNL Workfront Scenario Planner], se [The [!DNL Scenario Planner] översikt](../scenario-planner/scenario-planner-overview.md).
-Som affärschef kan du skapa initiativ för planer i [!DNL Adobe Workfront Scenario Planner]. Mer information om att skapa planer finns i artikeln [Skapa och redigera planer i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
+[!DNL Scenario Planner] är bara tillgängligt i den nya [!DNL Adobe Workfront]-upplevelsen och kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
+Som affärschef kan du skapa initiativ för planer i [!DNL Adobe Workfront Scenario Planner]. Mer information om hur du skapar planer finns i artikeln [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 ## Översikt över initiativ
 
-Använda [!DNL Workfront Scenario Planner]kan du beräkna och granska följande information för varje initiativ:
+Med hjälp av [!DNL Workfront Scenario Planner] kan du beräkna och granska följande information för varje initiativ:
 
 * Uppskatta vilken typ och hur många roller som kan behövas för att slutföra initiativet. Detta ökar antalet obligatoriska arbetsuppgifter för planen samt beräknar de personkostnader som du kan granska för ett initiativ.
 * Uppskatta de fasta kostnaderna i samband med det arbete som krävs för att slutföra projektet.
 * Uppskatta den planerade förmån som företaget kan få när projektet är slutfört.
 
-Om du vill visa information om dina initiativ kan du komma åt enskilda initiativ inom en plan. Mer information om att skapa och komma åt initiativ finns i artikeln [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+Om du vill visa information om dina initiativ kan du komma åt enskilda initiativ inom en plan. Mer information om att skapa och komma åt initiativ finns i artikeln [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 ## Överväganden om initiativ
 
@@ -36,9 +36,9 @@ Tänk på följande när du skapar initiativ:
 * Du måste skapa en plan innan du kan skapa ett initiativ.
 * Du kan skapa initiativ från grunden eller importera projekt till en plan. Projekten blir initiativ inom planen.
 
-   Mer information om hur du skapar initiativ från grunden finns i [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+  Mer information om att skapa initiativ från grunden finns i [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
-   Mer information om hur du importerar projekt till en plan för att skapa initiativ från projekt finns i [Importera projekt till planer i [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Mer information om hur du importerar projekt till en plan för att skapa initiativ från projekt finns i [Importera projekt till planer i  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Initiativen är mindre planeringsenheter än planer och de skapas endast som en del av en plan.
 * Det kortaste initiativet kan ha en varaktighet på en månad. Det längsta initiativet kan ha en varaktighet på fem år.
@@ -47,15 +47,15 @@ Tänk på följande när du skapar initiativ:
 * Ni kan prioritera initiativ inom en plan för att se till att det viktigaste initiativet får mest budget och mest resurser.
 * När du skapar initiativ i en plan kan alla som ser den planen också se alla initiativ i planen.
 
-   <!--
+  <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change when we add to the access levels granularity)</p>
   -->
 
-* Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är länkade till dem. Mer information om publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+* Du kan publicera initiativ för att skapa projekt eller för att uppdatera projekt som är länkade till dem. Mer information om publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera initiativen i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Finansiell information om initiativ
 
-Du kan granska ekonomisk information om enskilda initiativ för att förstå hur initiativen passar in i planen. Mer information om hur du kommer åt ett initiativ finns i artikeln [Skapa och redigera i [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
+Du kan granska ekonomisk information om enskilda initiativ för att förstå hur initiativen passar in i planen. Mer information om hur du kommer åt ett initiativ finns i artikeln [Skapa och redigera initiativ i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 Följande ekonomiska indikatorer för ett initiativ kan visas i en plan:
 
@@ -73,7 +73,7 @@ Följande ekonomiska indikatorer för ett initiativ kan visas i en plan:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fixed Costs]</td> 
-   <td> <p><span style="font-weight: normal;">Det här är en manuell inmatning där du kan uppskatta <span>Ett månadsbelopp för fasta kostnader för varje månad i initiativet.</span> Detta inkluderar inte kostnaderna för de roller som tillkommit i initiativet och som ingår i [!UICONTROL People Cost] fält.</span> </p> </td> 
+   <td> <p><span style="font-weight: normal;">Det här är en manuell inmatning där du kan beräkna <span>en månadskostnad för fasta kostnader för varje månad i initiativet.</span> Detta inkluderar inte kostnaderna som är associerade med rollerna som lagts till i initiativet som fångas in i fältet [!UICONTROL People Cost].</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL People Costs]</td> 
@@ -83,11 +83,11 @@ Följande ekonomiska indikatorer för ett initiativ kan visas i en plan:
       <li> <p>Antalet heltidsekvivalenter per månad för samma jobbroll kan skilja sig från månad till månad.</p> </li> 
       <li> <p>[!DNL Workfront] Parlamentet anser att det finns 160 arbetstimmar på en månad. </p> </li> 
      </ul> 
-     <p>[!DNL Workfront] beräknar [!UICONTROL People Costs] för ett initiativ som använder följande formel:</p> <p><code>Initiative People Costs = SUM(Monthly people cost)</code> </p> 
-    <p> [!DNL Workfront] Beräknar de månatliga personkostnaderna för varje månad under Initiativets löptid med hjälp av följande formel:</p> 
+     <p>[!DNL Workfront] beräknar [!UICONTROL People Costs] för ett initiativ med följande formel:</p> <p><code>Initiative People Costs = SUM(Monthly people cost)</code> </p> 
+    <p> [!DNL Workfront] beräknar de månatliga personkostnaderna för varje månad under initieringens varaktighet med följande formel:</p> 
      <p><code>Monthly People Costs = SUM(Job role hourly rate * 160 * Number of FTEs)</code> </p> 
       <p><b>EXEMPEL</b></p>
-      <p>Om du har ett projekt med en varaktighet på sex månader som kräver 1 Designer med en timtaxa på 50 USD för en heltidsanställd varje månad och en webbdesigner med en timtaxa på 100 USD för två månader av initiativet, beräknas startkostnaderna enligt följande:</p>
+      <p>Om du har ett projekt med en varaktighet på sex månader som kräver 1 Designer med en timtaxa på 50 USD per månad och en Web Designer med en timtaxa på 100 USD under två månader av initiativet, beräknas startkostnaderna enligt följande:</p>
       <code>Initiative People Costs = 50*160*6 + 100*160*2 = 48,000 + 32,000 = 80,000</code>        
   </td> 
   </tr> 
@@ -97,7 +97,7 @@ Följande ekonomiska indikatorer för ett initiativ kan visas i en plan:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Net Value amount]</td> 
-   <td> <p style="font-weight: normal;">Detta representerar värdet av ert initiativ när ni tar hänsyn till de totala kostnaderna och den planerade förmånen som beräknas på initiativet. [!DNL Workfront] Beräknar nettovärdet av ett initiativ med hjälp av följande formel:</p> <p style="font-weight: normal;"><code>Initiative Net Value = Initiative Planned Benefit - Initiative Costs</code> </p> </td> 
+   <td> <p style="font-weight: normal;">Detta representerar värdet av ert initiativ när ni tar hänsyn till de totala kostnaderna och den planerade förmånen som beräknas på initiativet. [!DNL Workfront] beräknar nettovärdet för ett initiativ med följande formel:</p> <p style="font-weight: normal;"><code>Initiative Net Value = Initiative Planned Benefit - Initiative Costs</code> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -138,4 +138,4 @@ Du kan visa initialinformation i rapporter enligt tabellen nedan. Den här infor
  </tbody> 
 </table>
 
-*Dessa fält innehåller information från det projekt som är kopplat till initiativet, endast när projektet skapades från ett projekt eller publicerades till ett projekt minst en gång. Mer information om publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera i [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+*Dessa fält innehåller information från det projekt som är kopplat till initiativet, endast när projektet skapades från ett projekt eller publicerades till ett projekt minst en gång. Mer information om publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera initiativen i  [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).

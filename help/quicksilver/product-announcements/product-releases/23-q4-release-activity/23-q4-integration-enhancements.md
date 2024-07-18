@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla integreringsförbättringar som gjorts i den fjärde utgåvan av kvartal 2023 i förhandsvisningsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.10.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns på [Versionsöversikt för fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2023 finns i [Översikt över utgåvan fjärde kvartalet 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
 ## Förbättrade upplevelser när du skickar dokument till SharePoint (GraphAPI)
 
@@ -26,7 +26,7 @@ Vi har gjort några ändringar i hur du skickar dokument till dina SharePoint-ma
 * I fönstret Skicka till visas nu upp till 500 webbplatser, mappar och dokument.
 * Sökresultaten visar nu olika ikoner för SharePoint webbplatser och mappar, vilket tydligt anger vilka resultat som är webbplatser och vilka som är mappar. Filerna visar ingen ikon.
 
-Mer information finns i [Länka dokument via den nya SharePoint-integreringen](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
+Mer information finns i [Länka dokument via den nya SharePoint-integrationen](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Uppgraderingar för att dra och släppa för dokumentintegreringar
 

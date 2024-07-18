@@ -42,11 +42,11 @@ Dessa varaktighetstyper känns inte igen av Microsoft Project. För närvarande 
 
 ## Varaktighetstypen ändras vid export från Workfront till MS Project
 
-När du exporterar projekt från Workfront till Microsoft Project blir uppgifter som styrs av satsningar fasta. Enkelt, Beräknat arbete och Beräknat uppdrag blir fasta enheter.
+När du exporterar projekt från Workfront till Microsoft Project blir uppgifter som styrs av satsningar fasta. Enkelt, Beräknat arbete och Beräknad tilldelning blir fasta enheter.
 
 ## Varaktighetstypen ändras vid import från MS Project till Workfront
 
-När du importerar projekt från Microsoft Project till Workfront blir Fasta enheter&quot;Ansträngningsstyrda&quot;. Fast arbete och Fast varaktighet får den standardvaraktighetstyp som din Workfront-administratör har valt för datorn. Mer information finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+När du importerar projekt från Microsoft Project till Workfront blir Fasta enheter&quot;Ansträngningsstyrda&quot;. Fast arbete och Fast varaktighet får den standardvaraktighetstyp som din Workfront-administratör har valt för ditt system. Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--
 <note type="warning">

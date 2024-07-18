@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Konfigurera [!DNL Adobe Workfront]
-description: Som en [!DNL Workfront] kan du konfigurera organisationens standardinställningar, tidrapporter, scheman, hur användarna är organiserade i systemet, automatiska systemuppdateringar och [!DNL Workfront] testmiljöer som du använder.
+title: Konfigurera  [!DNL Adobe Workfront]
+description: Som  [!DNL Workfront] administratör kan du konfigurera din organisations standardinställningar, tidrapporter, scheman, hur användarna är organiserade i systemet, automatiska systemuppdateringar och de  [!DNL Workfront] testmiljöer du använder.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Som en [!DNL Adobe Workfront] kan du konfigurera organisationens standardinställningar, tidrapporter, scheman, hur användarna är organiserade i systemet, automatiska systemuppdateringar och [!DNL Workfront] testmiljöer som du använder.
+Som [!DNL Adobe Workfront]-administratör kan du konfigurera din organisations standardinställningar, tidrapporter, scheman, hur användarna är organiserade i systemet, automatiska systemuppdateringar och de [!DNL Workfront] -testmiljöer som du använder.
 
 Följande underavsnitt innehåller artiklar om hur du konfigurerar Workfront-instansen och anger systeminställningarna:
 

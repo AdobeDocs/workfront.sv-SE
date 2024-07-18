@@ -4,7 +4,7 @@ content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: Systemspårade uppdateringar
-description: Adobe Workfront fångar upp aktiviteten som äger rum på vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates] område.
+description: Adobe Workfront fångar upp aktiviteten som äger rum på vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates]-område.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -27,21 +27,21 @@ ht-degree: 0%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] hämtar aktiviteten för vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates] -avsnitt.
+[!DNL Adobe Workfront] fångar aktiviteten som äger rum på vissa objekt genom att logga statusinformation i objektets [!UICONTROL Updates] -avsnitt.
 
 Mer information om uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-The [!UICONTROL Updates] omfattar följande typer av uppdateringar:
+Området [!UICONTROL Updates] innehåller följande typer av uppdateringar:
 
-* **Användaruppdateringar:** Anges manuellt av användare. Kallas även kommentarer, svar och anteckningar. Användaruppdateringar visas på flikarna Kommentarer och Alla i uppdateringsavsnittet för ett objekt.
+* **Användaruppdateringar:** Användare har angett manuellt. Kallas även kommentarer, svar och anteckningar. Användaruppdateringar visas på flikarna Kommentarer och Alla i uppdateringsavsnittet för ett objekt.
 
   Mer information om hur du konfigurerar användaruppdateringar finns i [Konfigurera inställningar för användaruppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
   ![](assets/updates-qs-350x125.png)
 
-* **Systemuppdateringar:** Automatiskt skapat av systemet. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har gjorts för objektet. Systemuppdateringar visas i systemaktiviteten och på flikarna Alla i uppdateringsavsnittet för ett objekt.
+* **Systemuppdateringar:** Automatiskt utförd av systemet. En systemuppdatering innehåller en kort anteckning som beskriver vilken typ av ändring som har gjorts för objektet. Systemuppdateringar visas i systemaktiviteten och på flikarna Alla i uppdateringsavsnittet för ett objekt.
 
-  Mer information om systemuppdateringsflöden och hur du aktiverar dem finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  Mer information om systemuppdateringsfeeds och hur du aktiverar dem finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
   ![](assets/system-updates-example-unified-stream.png)
 
@@ -56,7 +56,7 @@ The [!UICONTROL Updates] omfattar följande typer av uppdateringar:
 
 Systemspårade uppdateringar är inte tillgängliga för alla objekt som har uppdateringsområdet.
 
-* The [!UICONTROL Updates] -området är tillgängligt för följande objekt:
+* Området [!UICONTROL Updates] är tillgängligt för följande objekt:
 
    * [!UICONTROL Project]
    * [!UICONTROL Task]
@@ -71,21 +71,21 @@ Systemspårade uppdateringar är inte tillgängliga för alla objekt som har upp
    * [!UICONTROL Timesheet]
    * [!UICONTROL Story]
 
-     I [!DNL Workfront], en artikel är en uppgift.
+     I [!DNL Workfront] är en artikel en uppgift.
    * [!UICONTROL Iteration]
    * [!UICONTROL Goal]
 
-     Du måste ha ytterligare en licens för att ha tillgång till [!UICONTROL Goals] område. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-   * [!UICONTROL Card] ombord
+     Du måste ha ytterligare en licens för att ha tillgång till området [!UICONTROL Goals]. Mer information finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+   * [!UICONTROL Card] på en bräda
 
-     Mer information om uppdateringar av kort finns i [Använd anslutna kort på ritytor](../../../agile/get-started-with-boards/connected-cards.md).
+     Mer information om uppdateringar av kort finns i [Använda anslutna kort på kort](../../../agile/get-started-with-boards/connected-cards.md).
 
 * [!DNL Workfront] spårar inte systemuppdateringar för följande objekt:
 
    * [!UICONTROL Team]
    * [!UICONTROL Template]
    * [!UICONTROL Template Task]
-   * Ad hoc [!UICONTROL Card]
+   * Ad-hoc [!UICONTROL Card]
    * [!UICONTROL Iterations]
 
 
@@ -96,7 +96,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
 * Användaruppdateringar visas på fliken Kommentarer och systemuppdateringar visas på flikarna Systemaktivitet och Alla.
 
-  En lista över objekt som inte har fliken Systemaktivitet eller Alla finns på [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+  En lista över objekt som inte har systemaktiviteten eller flikarna Alla finns i [Översikt över uppdateringsavsnittet](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
 
 * Du kan inte lägga till ett svar i en systemuppdatering. Eventuella svar på systemaktivitetsposter i den tidigare kommentarsfunktionen före 11 april 2024 fylls dock i på fliken Systemaktivitet som skrivskyddade.
 
@@ -119,7 +119,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] administratörer kan definiera vilken typ av ändringar som systemet ska spåra i [!UICONTROL Updates] område. Inte alla objekt som har [!UICONTROL Updates] området har också konfigurerats [!UICONTROL update] feeds. Följande objekt har en [!UICONTROL Updates] Område som hämtar systemspårade uppdateringsfeeds, men som inte har konfigurerbara uppdateringsflöden:
+* [!DNL Workfront]-administratörer kan definiera vilken typ av ändringar som systemet ska spåra i området [!UICONTROL Updates]. Alla objekt som har ett [!UICONTROL Updates]-område har inte också konfigurerbara [!UICONTROL update]-feeds. Följande objekt har ett [!UICONTROL Updates]-område som hämtar systemspårade uppdateringsfeeds, men som inte har konfigurerbara uppdateringsfeeds:
 
    * [!UICONTROL Document]
    * [!UICONTROL Timesheet]

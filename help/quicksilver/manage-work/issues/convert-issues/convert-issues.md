@@ -19,14 +19,14 @@ ht-degree: 0%
 
 Om mer arbete behöver utföras för att slutföra ett problem efter att utgåvan har skickats kan du konvertera utgåvan till ett projekt eller till en uppgift.
 
-Mer information om hur du konverterar problem till uppgifter finns i [Konvertera ett problem till en uppgift i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
+Mer information om hur du konverterar problem till aktiviteter finns i [Konvertera ett problem till en aktivitet i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
 Mer information om hur du konverterar problem till projekt finns i [Konvertera ett problem till ett projekt i Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
 ## Att tänka på vid konvertering av problem
 
 * När du konverterar utleveranser till uppgifter eller projekt överförs den mesta informationen från utleveransen till uppgiften eller projektet, om inte annat anges i den här artikeln.
-* Din Workfront-administratör eller gruppadministratör har redan angett inställningar för vad som ska hända med ett problem, dess lösning och den primära kontaktens åtkomst när den konverteras till ett projekt eller en uppgift, enligt beskrivningen i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Din Workfront-administratör eller gruppadministratör har redan angett inställningar för vad som ska hända med ett problem, dess upplösning och den primära kontaktens åtkomst när den konverteras till ett projekt eller en uppgift, enligt beskrivningen i [Konfigurera systemomfattande uppgifter och inställningar för problem](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront tar bort alla godkännanden som är kopplade till problem under konverteringen.
 * Workfront skriver över problemets objekt när du konverterar det till en uppgift eller ett projekt. Den nya aktiviteten eller problemet blir det nya objekt som löser problemet efter konvertering.
 * Tänk på följande:
@@ -38,20 +38,20 @@ Mer information om hur du konverterar problem till projekt finns i [Konvertera e
 
 * När du konverterar ett problem överförs inte behörigheterna till de ursprungliga problemen till det konverterade objektet (uppgift eller projekt).
 
-* När du konverterar en utgåva till ett projekt med hjälp av en mall överförs den mesta informationen från mallen till det nya projektet. Men viss information från problemet kan också överföras till det nya projektet. Mer information finns i [Översikt över projektfält vid konvertering av ett ärende till ett projekt med en mall](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) i den här artikeln.
+* När du konverterar en utgåva till ett projekt med hjälp av en mall överförs den mesta informationen från mallen till det nya projektet. Men viss information från problemet kan också överföras till det nya projektet. Mer information finns i avsnittet [Översikt över projektfält när du konverterar ett ärende till ett projekt med hjälp av en mall](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) i den här artikeln.
 * När du konverterar ett problem flyttas inte alla dokument eller deras information till det nya objektet som problemet konverteras till. Följande objekt inkluderas när du konverterar ett ärende som har bifogade dokument eller dokumentlänkar:
 
    * Dokument
    * Dokumentlänkar till tredjepartstjänster som Google Drive eller SharePoint.
    * Versioner
-   * Korrektur inkluderas endast när alternativet **Behåll det ursprungliga problemet och knyt lösningen till den här uppgiften** är omarkerad.
+   * Korrektur inkluderas bara när alternativet **Behåll det ursprungliga problemet och koppla dess upplösning till den här aktiviteten** inte är markerat.
    * Dokumentgodkännanden inkluderas inte när du konverterar ett problem som har bifogade dokument och dokumentlänkar.
 
 * Om du bestämmer dig för att behålla utgåvan vid konverteringen och har bifogade dokument, kopieras dokumentet och dess versioner till projektet eller uppgiften. Korrektur och dokumentgodkännanden kopieras inte till projektet eller uppgiften.
 * Om du bestämde dig för att inte behålla utgåvan vid konverteringen och den har bifogade dokument, överförs dokumentet, dess versioner och korrekturet till projektet eller uppgiften. Dokumentgodkännandena överförs inte till projektet eller uppgiften.
 * Om du har dokument och mappar länkade till originalutgåvan från tredjepartstjänster, som Google Drive, oavsett om du behåller utgåvan eller inte under konverteringen, kopieras dessa länkar till det nya objektet.
 * Utskickskommentarer kopieras också till uppgiften eller projektet som konverteras från problemet, men taggade användare överförs inte.
-* Om du vill överföra anpassad formulärinformation från utgåvan till projektet eller uppgiften som du konverterar den till måste du se till att du har ett anpassat projekt eller en anpassad uppgift som innehåller samma fält som du vill överföra från utgåvan. Mer information finns i [Överför anpassade formulärdata vid konvertering av ett objekt](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* Om du vill överföra anpassad formulärinformation från utgåvan till projektet eller uppgiften som du konverterar den till måste du se till att du har ett anpassat projekt eller en anpassad uppgift som innehåller samma fält som du vill överföra från utgåvan. Mer information finns i [Överför anpassade formulärdata när du konverterar ett objekt](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
 ## Översikt över projektfält vid konvertering av ett ärende till ett projekt med en mall {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
@@ -101,8 +101,8 @@ I följande tabell visas projektinformation och om den överförs från mallen e
    <td>Projektdatum</td> 
    <td> 
     <ul> 
-     <li> <p><b>Planerat startdatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad, enligt tidszonen för mallens schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från slutförande. </p> </li> 
-     <li> <p><b>Planerat slutförandedatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad, enligt tidszonen för mallens schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från start. </p> </li> 
+     <li> <p><b>Planerat startdatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad enligt tidszonen för mallschemats schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från slutförande. </p> </li> 
+     <li> <p><b>Planerat slutförandedatum</b>: Den närmaste arbetstiden baserat på mallschemats arbetstid bör vara förmarkerad enligt tidszonen för mallschemats schema. Det här fältet är inaktiverat om fältet Schemalägg från är inställt på Från start. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

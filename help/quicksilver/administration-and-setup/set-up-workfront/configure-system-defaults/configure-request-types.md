@@ -19,7 +19,7 @@ ht-degree: 0%
 
 När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en viss uppgift. Du kan också skicka begäranden som spelas in som utleveranser i ett projekt som har angetts som en frågekö. Problem och förfrågningar anses vara utbytbara i Adobe Workfront.
 
-Mer information om hur du skapar problem i [!DNL Workfront], se [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md). Mer information om hur du skapar begäranden i [!DNL Workfront], se [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md). Mer information om hur du associerar frågetyper med projekt finns i [Definiera frågetyper för ett projekt](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Mer information om hur du skapar problem i [!DNL Workfront] finns i [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md). Mer information om hur du skapar begäranden i [!DNL Workfront] finns i [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md). Mer information om hur du associerar frågetyper med projekt finns i [Definiera frågetyper för ett projekt](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Åtkomstkrav
 
@@ -39,7 +39,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,26 +63,26 @@ You must have at least one request type selected. You can select multiple reques
 
 ## Anpassa namnen på förfrågningstyperna
 
-Som [!DNL Workfront] kan du konfigurera namnen på förfrågningstyperna i systemet. De nya namnen visas i alla områden i [!DNL Workfront] där **[!UICONTROL Issue Type]** eller **[!UICONTROL Request Type]** visas fält:
+Som [!DNL Workfront]-administratör kan du konfigurera namnen på förfrågningstyperna i systemet. De nya namnen visas i alla områden i [!DNL Workfront] där fälten **[!UICONTROL Issue Type]** eller **[!UICONTROL Request Type]** visas:
 
-* I **[!UICONTROL Queue Details]** del av ett projekt som ska ta emot utleveranser eller förfrågningar.
-* Om mer än en frågetyp har valts för en frågekö går du till **[!UICONTROL New Issue]Formulär** i **[!UICONTROL Issue Type]** när du skapar ett nytt problem eller skickar en ny begäran.
+* I området **[!UICONTROL Queue Details]** i ett projekt som ska ta emot problemen eller förfrågningarna.
+* Om du har valt mer än en frågetyp för en frågekö, i **[!UICONTROL New Issue]Formulär** i fältet **[!UICONTROL Issue Type]**, när du skapar ett nytt problem eller skickar en ny begäran.
 
-   Mer information om hur du skapar problem i [!DNL Workfront], se  [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md)
+  Mer information om hur du skapar problem i [!DNL Workfront] finns i [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md)
 
-   Mer information om hur du skapar begäranden i [!DNL Workfront], se  [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Mer information om hur du skapar begäranden i [!DNL Workfront] finns i [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* På **[!UICONTROL Queue Topic Detail]** när du konfigurerar köämne.\
+* När du konfigurerar köämnet i formuläret **[!UICONTROL Queue Topic Detail]**.\
    Mer information om hur du skapar köämnen finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Så här anpassar du namnen på begärandetyperna:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
 
-1. Klicka på **[!UICONTROL Issues]** -fliken.
-1. Överst på **[!UICONTROL Issues]** hovra över namnet på en frågetyp och klicka sedan på **[!UICONTROL Edit]** -ikon som visas.
+1. Klicka på fliken **[!UICONTROL Issues]**.
+1. Överst på fliken **[!UICONTROL Issues]** håller du muspekaren över namnet på en frågetyp och klickar sedan på ikonen **[!UICONTROL Edit]** som visas.
 
    ![](assets/edit-request-type-name-nwe.png)
 
@@ -92,4 +92,4 @@ Så här anpassar du namnen på begärandetyperna:
 
 Du kan associera varje begärandetyp med olika utgivningsstatus. Du kan också ändra i vilken ordning statusvärdena visas för ett problem, beroende på vilken typ av problem det är.
 
-Mer information om hur du ändrar standardordningen för utgivningsstatus och konfigurerar utgivningsstatus finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) avsnitt i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Mer information om hur du ändrar standardordningen för utgivningsstatus och konfigurerar utgivningsstatus finns i avsnittet [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

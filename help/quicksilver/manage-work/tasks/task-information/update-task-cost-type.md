@@ -19,7 +19,7 @@ Den planerade och faktiska kostnaden för aktiviteterna och deras arbetskostnade
 
 Du kan konfigurera kostnadstypen för enskilda uppgifter i projektet. Varje kostnadstyp påverkar värdena för Planerad kostnad och Verklig kostnad.
 
-Information om hur du spårar kostnader i Adobe Workfront finns i [Spåra kostnader](../../../manage-work/projects/project-finances/track-costs.md).
+Mer information om att spåra kostnader i Adobe Workfront finns i [Spåra kostnader](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Åtkomstkrav
 
@@ -39,11 +39,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till projekt, uppgifter och ekonomiska data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till projekt, uppgifter och ekonomiska data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute eller högre behörighet för ett projekt</p> <p>Hantera behörigheter för en uppgift</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute eller högre behörighet till ett projekt</p> <p>Hantera behörigheter för en uppgift</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,8 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Konfigurera kostnadstypen för en enskild uppgift
 
 1. Gå till aktiviteten där du vill konfigurera kostnadstypen.
-1. Klicka **Uppgiftsinformation** i den vänstra panelen och sedan expandera **Ekonomi** område.
-1. Dubbelklicka **Kostnadstyp** och välj den kostnadstyp som du vill använda för uppgiften.
+1. Klicka på **Uppgiftsinformation** i den vänstra panelen och utöka området **Ekonomi**.
+1. Dubbelklicka på **Kostnadstyp** och välj den kostnadstyp som du vill använda för uppgiften.
 
    ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
 
@@ -65,6 +65,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    * Användare per timme
    * Roll timvis
 
-   Mer information om de olika kostnadstyperna finns i [Spåra kostnader](../../../manage-work/projects/project-finances/track-costs.md).
+   Mer information om varje uppgiftskostnadstyp finns i [Spåra kostnader](../../../manage-work/projects/project-finances/track-costs.md).
 
-1. Klicka **Spara** **Ändringar** **.**
+1. Klicka på **Spara** **Ändringar** **.**

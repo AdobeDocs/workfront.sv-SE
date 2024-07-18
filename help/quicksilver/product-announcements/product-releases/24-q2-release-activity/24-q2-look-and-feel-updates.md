@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Den här sidan beskriver mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet som gjordes inom tidsramen för den andra utgåvan, kvartal 2024.
 
-En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2024 finns på [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i den andra utgåvan av kvartal 2024 finns i [Översikt över den andra utgåvan av kvartal 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## Håll utkik efter uppdateringar med två e-postmallar
 
@@ -34,4 +34,4 @@ E-postmallarna för att lägga till en godkännare till en resurs och för att l
 
 Vi har uppdaterat flikarna för Forms, Fält och Avsnitt i Konfigurera > Anpassad Forms till en mer modern design som är förenlig med andra delar av Workfront. Du kommer nu åt de tre områdena från den vänstra navigeringsmenyn. Filter, vyer och grupperingar är fortfarande tillgängliga för listorna. Den uppdaterade designen gäller för anpassade formulär, fält och avsnitt som skapats både i den nya formulärdesignern och i den gamla formulärbyggaren.
 
-Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) och [Skapa eller redigera ett anpassat formulär med det äldre formulärverktyget](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

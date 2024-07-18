@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projektförbättringar som gjorts med 2020.2-utgåvan till produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 maj 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.2 finns på [Översikt över version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.2 finns i [2020.2 versionsöversikt](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## För Workfront-administratörer: Ny felsäker när projektstatusen för nya projekt är dold eller olåst
 
@@ -28,7 +28,7 @@ För att säkerställa att nya projekt alltid har en status, även om en adminis
 
 Mer information om hur du anger inställningar för status för alla nya projekt finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -42,9 +42,9 @@ Upplevelsen av att ange projektinställningar är nu mer intuitiv och lättanvä
 * Om du anger ett ogiltigt nummer för ett alternativ som&quot;Normalt antal timmar per arbetsdag&quot; visas ett varningsmeddelande omedelbart i stället för att visas när du klickar på Spara.
 * Alternativetiketter matchar motsvarande gränssnittstext någon annanstans i Workfront, t.ex. området Detaljer och rapporterna.
 
-Information om området Projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
+Mer information om området Projektinställningar finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) (eller om du använder Adobe Workfront Classic, se [Ange projektinställningar](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -55,7 +55,7 @@ Nu väljs det senaste filtret, vyn eller grupperingen som tillämpats på en vis
 
 Tidigare, när en användare tillämpade ett filter, en vy eller en gruppering på en rapportlista och sedan navigerade bort från den sidan, visades standardfiltret, vyn eller grupperingen nästa gång användaren navigerade till samma rapport.
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Nya Adobe Workfront
 * Adobe Workfront Classic
@@ -68,13 +68,13 @@ Om du till exempel flyttar eller kopierar en uppgift med en must Start On-begrä
 
 Före den här ändringen ändras alltid aktivitetsbegränsningen till Så snart som möjligt.
 
-Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta aktiviteter](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
+Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md) (eller om du använder Adobe Workfront Classic, se [Flytta uppgifter](https://one.workfront.com/s/article/Moving-Tasks-2081996259)).
 
-Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
+Information om hur du kopierar uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) (eller om du använder Adobe Workfront Classic, se [Kopiera och duplicera uppgifter](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605)).
 
-En översikt över alla uppgiftsbegränsningar finns i [Översikt över uppgiftsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över begränsning av aktivitet](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
+En översikt över alla aktivitetsbegränsningar finns i [Översikt över aktivitetsbegränsning](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) (eller om du använder Adobe Workfront Classic, se [Översikt över aktivitetsbegränsning](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -85,7 +85,7 @@ För att förhindra dataförlust när du uppdaterar information på detaljsidan 
 
 Mer information om hur du redigerar uppgifter i en lista finns i [Redigera uppgifter i en lista](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Nya Adobe Workfront
 

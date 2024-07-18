@@ -92,7 +92,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt och mallar</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -132,7 +132,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 * De användare som du anger som resurshanterare för ett projekt eller en mall blir inte automatiskt en del av projektgruppen.
 
-  Mer information om projektteam finns i [Hantera projektgruppen](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+  Mer information om projektteam finns i [Hantera projektteamet](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 * Du kan utse resurshanterare för projekt eller för projektmallar. När du anger Resurshanterare för en projektmall blir alla användare som du anger som resurshanterare för mallen automatiskt Resurshanterare för alla projekt som skapas med den mallen.
 * Du kan visa fältet Resurshanterare i följande områden:
@@ -140,7 +140,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
    * När du redigerar ett projekt, enligt beskrivningen i den här artikeln.
    * När du redigerar en mall, enligt beskrivningen i den här artikeln.
    * När projekt- eller mallrapporter skapas. Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-   * När du skapar eller anpassar ett projekt eller en mallvy för en lista. Mer information finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * När du skapar eller anpassar ett projekt eller en mallvy för en lista. Mer information finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * Du kan snabbt lägga till eller ta bort resurshanterare för flera projekt eller mallar genom att lägga till resurshanterarfältet i en vy av en lista eller ett projekt och redigera det här fältet med hjälp av redigering i rad.
 
@@ -148,7 +148,7 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
 1. Gör något av följande:
 
-   * Om du vill lägga till resurshanterare i ett enskilt projekt går du till det projekt där du vill utse en eller flera resurshanterare och klickar sedan på knappen **Menyn Mer** bredvid projektnamnet, och **Redigera .**
+   * Om du vill lägga till resurshanterare i ett enskilt projekt går du till det projekt där du vill utse en eller flera resurshanterare, klickar på **Mer-menyn** bredvid projektnamnet och sedan på **Redigera.**
 
    * Om du vill lägga till resurshanterare i flera projekt samtidigt går du till en lista med projekt, markerar de projekt där du vill utse en eller flera resurshanterare och klickar sedan på **Redigera**.
 
@@ -158,32 +158,32 @@ Användare som läggs till som resurshanterare i ett projekt eller en mall får 
 
      Mer information om hur du skapar ett projekt finns i [Skapa ett projekt](../../../manage-work/projects/create-projects/create-project.md).
 
-1. I **Ökning** i dialogrutan Redigera projekt klickar du på **Resurshanteraren** fält.
+1. Klicka i fältet **Resurshanteraren** i avsnittet **Översikt** i dialogrutan Redigera projekt.
 1. Börja skriva namnet på den användare som du vill lägga till som resurshanterare för projektet och klicka sedan på namnet när det visas i listan.
 
    Upprepa det här steget om du vill lägga till flera resurshanterare för projektet.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.
 
 ## Ange resurshanterare för en mall
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Mallar**.
+1. Klicka på **Mallar**.
 
 1. Gör något av följande:
 
-   * Om du vill lägga till resurshanterare i en enda mall går du till mallen där du vill utse en eller flera resurshanterare och klickar sedan på knappen **Menyn Mer** bredvid mallnamnet, och **Redigera .**
+   * Om du vill lägga till resurshanterare i en enskild mall går du till mallen där du vill utse en eller flera resurshanterare, klickar på menyn **Mer** bredvid mallnamnet och sedan på **Redigera.**
 
    * Om du vill lägga till resurshanterare i flera mallar samtidigt går du till en lista med mallar och väljer de mallar där du vill utse en eller flera resurshanterare. Klicka sedan på **Redigera**.
 
      Befintliga resurshanterare tas inte bort från mallarna som du redigerar. Alla användare som du lägger till på det här sättet läggs till som resurshanterare i mallen förutom befintliga resurshanterare.
 
-   * Om du vill lägga till resurshanterare i en ny mall klickar du på **Ny mall** och klicka sedan på **Menyn Mer** bredvid mallnamnet, och **Redigera .**
+   * Om du vill lägga till resurshanterare i en ny mall klickar du på **Ny mall** och sedan på **Mer-menyn** bredvid mallnamnet och sedan på **Redigera.**
 
-1. I **Ökning** -avsnittet, klicka i **Resurshanteraren** fält.
+1. Klicka i fältet **Resurshanteraren** i avsnittet **Översikt**.
 1. Börja skriva namnet på den användare som du vill lägga till som resurshanterare för mallen och klicka sedan på namnet när det visas i listan.
 
    Upprepa det här steget om du vill lägga till flera resurshanterare i mallen.
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

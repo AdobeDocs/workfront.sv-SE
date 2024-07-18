@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '993'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 Adobe Workfront har två olika korrekturläsare:
 
-* **Webbkorrekturläsare:** Utformad främst för korrektur av statiska filer och videofiler. Körs i Google Chrome, Firefox eller Safari.
-* **Desktop Proofing Viewer:** Utformad för korrektur av interaktiva filer samt video och statiska filer. Kör som ett fristående program på din arbetsstation. Mer information finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Webbkorrekturläsare:** Utformad främst för korrektur av statiska filer och videofiler. Körs i Google Chrome, Firefox eller Safari.
+* **Desktop Proofing Viewer:** Utformad för korrektur av interaktiva filer samt video- och statiska filer. Kör som ett fristående program på din arbetsstation. Mer information finns i [Förstå Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Om din organisation av säkerhetsskäl inte kan använda appen Desktop Proofing Viewer kan din Workfront-administratör konfigurera ditt system så att du kan granska interaktivt innehåll som paketerats i en ZIP-arkivfil i Web Proofing Viewer. Mer information finns i  [Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Om din organisation av säkerhetsskäl inte kan använda appen Desktop Proofing Viewer kan din Workfront-administratör konfigurera ditt system så att du kan granska interaktivt innehåll som paketerats i en ZIP-arkivfil i Web Proofing Viewer. Mer information finns i  [Konfigurera interaktiv korrektur av innehåll i Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 Följande lista hjälper dig att förstå vilket korrekturläsare du kan använda för att kontrollera vissa typer av innehåll:
 
-* **Interaktivt webbinnehåll - URL**: Om du skapar ett korrektur för webbinnehåll med en URL-adress och vill korrekturgranska innehållet interaktivt, måste du använda Desktop Proofing Viewer.
-* **Interaktivt webbinnehåll - ZIP-fil**: Om du skapar ett korrektur för webbinnehåll med en ZIP-fil kan du antingen använda Web Proofing Viewer (med vissa begränsningar) eller Desktop Proofing Viewer. Mer information om begränsningarna med att använda Web Proofing Viewer för interaktivt innehåll finns i [Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Interaktivt webbinnehåll - URL**: Om du skapar ett korrektur för webbinnehåll med hjälp av en URL-adress och vill korrekturgranska innehållet interaktivt, måste du använda Desktop Proofing Viewer.
+* **Interaktivt webbinnehåll - ZIP-fil**: Om du skapar ett korrektur för webbinnehåll med hjälp av en ZIP-fil kan du antingen använda Web Proofing Viewer (med vissa begränsningar) eller Desktop Proofing Viewer. Mer information om begränsningarna med att använda Web Proofing Viewer för interaktivt innehåll finns i [Konfigurera korrektur av interaktivt innehåll i Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Statiskt och videomaterial**: Om du skapar ett korrektur med statiskt innehåll kan du antingen använda Web Proofing Viewer eller Desktop Proofing Viewer.
+* **Statiskt innehåll och videomaterial**: Om du skapar ett korrektur som innehåller statiskt innehåll kan du antingen använda Web Proofing Viewer eller Desktop Proofing Viewer.
 
 ## Statiska korrektur
 
@@ -43,7 +43,7 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
 | Miniatyrbildsvisning | ✓ | ✓&#42; |
 | Navigator för statiskt korrektur | ✓ | ✓&#42; |
 | Dokumentsökning | ✓ | ✓&#42; |
-| Posta kommentar på flera sidor | ✓ (tillgänglig i alla vyer) | ✓&#42; (tillgängligt på alla vyer) |
+| Posta kommentar på flera sidor | ✓ (tillgänglig i alla vyer) | ✓&#42; (tillgänglig i alla vyer) |
 | Avancerade statiska kortkommandon | ✓ (mer information finns i [Kortkommandon i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(mer information finns i [Kortkommandon i korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
@@ -281,8 +281,8 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
   </tr> 
   <tr> 
    <td>Skapa en ny version</td> 
-   <td> <p>Finns endast i Workfront Proof (framtidsplanerat vid korrektur i Workfront)<br></p> </td> 
-   <td>Finns endast i Workfront Proof (framtidsplanerat vid korrektur i Workfront)</td> 
+   <td> <p>Finns endast i Workfront Proof (framtidsplaneras vid korrektur i Workfront)<br></p> </td> 
+   <td>Finns endast i Workfront Proof (framtidsplaneras vid korrektur i Workfront)</td> 
   </tr> 
   <tr> 
    <td>Granska korrekturinformation </td> 
@@ -336,13 +336,13 @@ Följande lista hjälper dig att förstå vilket korrekturläsare du kan använd
   </tr> 
   <tr> 
    <td>Hantera korrektur från samma mapp</td> 
-   <td><strong>Finns endast i Workfront Proof</strong> </td> 
-   <td><strong>Finns endast i Workfront Proof</strong> </td> 
+   <td><strong>Endast tillgängligt i Workfront Proof</strong> </td> 
+   <td><strong>Endast tillgängligt i Workfront Proof</strong> </td> 
   </tr> 
   <tr> 
    <td>Varumärke (anpassade logotyper)</td> 
    <td>✓</td> 
-   <td> ✓<br>(Workfront logotyp på startsidan) </td> 
+   <td> ✓<br> (Workfront logotyp på startsida) </td> 
   </tr> 
   <tr> 
    <td>Anpassade länkar (endast Workfront Proof)</td> 

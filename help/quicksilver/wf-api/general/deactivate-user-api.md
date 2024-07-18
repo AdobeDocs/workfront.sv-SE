@@ -20,9 +20,9 @@ ht-degree: 0%
 
 När en användare lämnar organisationen kan du inaktivera användaren, göra Adobe Workfront-licensen tillgänglig för en annan användare och förhindra att de oavsiktligt tilldelas arbete. Genom att inaktivera en användare bevarar du användarens arbetshistorik, inklusive arbetsuppgifterna och kopplingen till anteckningar, timmar och dokument.
 
-Mer information om hur du inaktiverar en användare finns i &quot; [Inaktivera eller återaktivera en användare](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+Mer information om hur du inaktiverar en användare finns i [Inaktivera eller återaktivera en användare](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-Mer information om hur du använder Core API finns i [Grunderna i API](../../wf-api/general/api-basics.md).
+Mer information om hur du använder Core API finns i [API-grunder](../../wf-api/general/api-basics.md).
 
 Så här inaktiverar du en användare via API:
 
@@ -34,19 +34,19 @@ Så här inaktiverar du en användare via API:
 
 1. Leta reda på GUID för användaren som du vill inaktivera.
 
-   1. Använd följande API-begäran för att hämta GUID för alla användare i systemet. Observera att **isActive** fältvisning **true** för användare som är aktiva och **false** för användare som har inaktiverats:
+   1. Använd följande API-begäran för att hämta GUID för alla användare i systemet, observera att fältet **isActive** visar **true** för användare som är aktiva och **false** för användare som har inaktiverats:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/search?fields=isActive
 ```
 
-1. Leta reda på GUID för användaren som du vill inaktivera med hjälp av följande **PUT** begäran om att ändra användarens **isActive** fältvärde till **false**:
+1. Leta reda på GUID för den användare som du vill inaktivera genom att använda följande **PUT**-begäran för att ändra användarens **isActive**-fältvärde till **false**:
 
 ```
 <domain>`.my.workfront.com/attask/api/v15.0/USER/`<user's GUID>`?updates={"isActive":"false"}&method=put&apiKey=`<apiKey>`&fields=isActive
 ```
 
-1. Svaret visar att **isActive** fältvärdet har ändrats från **true** till **false** som anger att användaren har inaktiverats:
+1. Svaret visar att fältvärdet **isActive** har ändrats från **true** till **false** vilket anger att användaren har inaktiverats:
 
 <!-- [Copy](javascript:void(0);) -->
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;data:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ID:&nbsp;"592125e60089b88fae8b51c08383e144",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name:&nbsp;"Tyler Reid",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;objCode:&nbsp;"USER",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;isActive:&nbsp;false&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>}<br></code></pre>

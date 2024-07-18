@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.1 Betaversionsaktivitet 1
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 1-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 1 december 2017. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
+title: 2018.1 Beta 1 - versionsaktivitet
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 1. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 1 december 2017. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,30 +14,30 @@ ht-degree: 0%
 
 ---
 
-# 2018.1 Betaversionsaktivitet 1
+# 2018.1 Beta 1 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 1-versionen. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 1 december 2017. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.1 Beta 1. Funktionerna på den här sidan gjordes tillgängliga i förhandsvisningsmiljön den 1 december 2017. Den kommer att göras tillgänglig i produktionsmiljön i mars 2018.
 
 >[!IMPORTANT]
 >
 > Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för 2018.1-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2018.1 finns på  [Aktivitetsöversikt för version 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
-Beta 1-versionen från 2018.1 innehåller förbättringar för både Workfront-administratörer och andra användare:
+2018.1 Beta 1 innehåller förbättringar för både Workfront-administratörer och andra användare:
 
 **För administratörer**
 
-* [Uppdaterad layoutmall som har stöd för hemområdet](#updated-layout-template-to-support-the-home-area)
+* [Uppdaterad layoutmall som stöder hemområdet](#updated-layout-template-to-support-the-home-area)
 * [Inaktivera korrektur av e-postmeddelanden som skickats från Workfront](#disable-proofing-email-notifications-sent-from-workfront)
 * [Nya resurser har lagts till i händelseprenumerationer](#new-resources-added-to-event-subscriptions)
 
 **För alla användare**
 
-* [Hem (uppdaterade min arbetsyta)](#home-area-updated-my-work-area)
-* [Visa data om resursplanering under Affärsärende och uppdaterad ärendesammanfattning](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
+* [Hemma (min arbetsyta har uppdaterats)](#home-area-updated-my-work-area)
+* [Visa resursplaneringsdata under Affärsärende och uppdaterad affärsfallssammanfattning](#display-resource-planner-data-under-the-business-case-and-updated-business-case-summary)
 * [Visa procentandelen för allokering av planerad timma i resursplaneraren](#display-the-percentage-of-planned-hour-allocation-in-the-resource-planner)
-* [Uppdateringstyperna &quot;Automatisk och Vid ändring&quot; och &quot;Ändra endast&quot; utlöser uppdateringar till överordnade objekt samtidigt som uppgifter uppdateras](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
+* [Uppdateringstyperna Automatisk och Vid ändring och Endast ändring utlöser uppdateringar till överordnade objekt samtidigt som aktiviteter uppdateras](#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated)
 * [Ögonblicksbild för tidslinje tillgänglig i Gantt-schema](#timeline-snapshot-available-in-the-gantt-chart)
 
 ## Hem (uppdaterade min arbetsyta) {#home-area-updated-my-work-area}
@@ -82,7 +82,7 @@ Användarvyn för resursplaneraren innehåller nu en ny kolumn som gör att du k
 
 Före den här ändringen kunde du bara visa det totala antalet planerade och tillgängliga timmar för användare och jobbroller i separata kolumner.
 
-Mer information om kolumnen Procentandel för allokering av timmar finns i avsnittet Visa skillnaden mellan tillgängliga och planerade timmar eller FTE i resursplaneraren i [Översikt över resursplanering](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Mer information om kolumnen Procentandel för allokering av timmar finns i avsnittet Visa skillnaden mellan tillgängliga och planerade timmar eller FTE i resursplaneraren i [Översikt över resursplaneraren](../../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Uppdateringstyperna &quot;Automatisk och Vid ändring&quot; och &quot;Ändra endast&quot; utlöser uppdateringar till överordnade objekt samtidigt som uppgifter uppdateras {#the-automatic-and-on-change-and-change-only-update-types-trigger-updates-to-the-parent-objects-at-the-same-time-as-tasks-are-updated}
 
@@ -97,7 +97,7 @@ När du nu väljer uppdateringstyperna &quot;Automatiskt och vid ändring&quot; 
 
 Före den här ändringen var du tvungen att uppdatera sidan för att se till att även de överordnade objekten och tidslinjen i projektet uppdaterades.
 
-Mer information om ett projekts uppdateringstyp finns i [Välj typ av projektuppdatering](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
+Mer information om uppdateringstypen för ett projekt finns i [Välj projekttyp](../../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 ## Ögonblicksbild för tidslinje tillgänglig i Gantt-schema {#timeline-snapshot-available-in-the-gantt-chart}
 
@@ -114,7 +114,7 @@ Mer information om hur information visas i Gantt-schemat finns i [Konfigurera hu
 Nu kan du skapa evenemangsprenumerationer för följande resurser:
 
 * **Utgift:** Meddelar dig när en utgift läggs till eller ändras.
-* **Tilldelning:** Meddelar dig när ett uppdrag läggs till eller ändras för en uppgift eller ett problem för en användare, en jobbroll eller ett team.
+* **Tilldelning:** Meddelar dig när en tilldelning läggs till eller ändras för en aktivitet eller ett problem för en användare, en jobbroll eller ett team.
 * **Tidrapport:** Meddelar dig när en tidrapport har skickats, avvisats eller godkänts.
 
 Mer information om händelseprenumerationer finns i [API för händelseprenumeration](../../../../wf-api/general/event-subs-api.md).

@@ -16,10 +16,10 @@ ht-degree: 0%
 
 # Betaversionsinformation för Canvas Dashboards
 
-Kontrollpaneler på arbetsytan är en funktion som för närvarande är under utveckling. Med den kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Observera att även om vi är tacksamma för ditt deltagande under betatestningsfasen så kanske delar av funktionen inte är fullständiga eller fungerar som de ska. Skicka eventuella synpunkter på din upplevelse genom att följa instruktionerna i [Ge feedback](#provide-feedback) nedan.
+Kontrollpaneler på arbetsytan är en funktion som för närvarande är under utveckling. Med den kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Observera att även om vi är tacksamma för ditt deltagande under betatestningsfasen så kanske delar av funktionen inte är fullständiga eller fungerar som de ska. Skicka feedback om din upplevelse genom att följa instruktionerna i avsnittet [Ge feedback](#provide-feedback) nedan.
 
-Grundläggande information om hur du använder Canvas-kontrollpaneler finns i [Kom igång med Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-En lista över all dokumentation för arbetsytans kontrollpaneler finns på [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Grundläggande information om hur du använder Canvas-kontrollpaneler finns i [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+En lista över all dokumentation för kontrollpaneler på arbetsytan finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 **Beta-schema:**
 
@@ -33,9 +33,9 @@ En lista över all dokumentation för arbetsytans kontrollpaneler finns på [Öv
 
 Så här anmäler du dig till betaversionen:
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 
-1. Klicka på **Gå med i betaversionen av arbetsytans kontrollpaneler** betaknappen i sidans övre högra hörn.
+1. Klicka på betaknappen **Anslut till betaknappen för arbetsytans kontrollpaneler** i det övre högra hörnet på sidan.
 
    >[!NOTE]
    >
@@ -47,11 +47,11 @@ Så här anmäler du dig till betaversionen:
 
 Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ instruktionerna nedan för att dela din erfarenhet med oss.
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 
-1. Klicka på i den vänstra panelen **Kontrollpaneler på arbetsytan**.
+1. Klicka på **Arbetsytans kontrollpaneler** i den vänstra panelen.
 
-1. Klicka på **Skicka feedback** längst ned till höger på sidan, ange din feedback i det formulär som visas och klicka på **Skicka**.
+1. Klicka på knappen **Skicka feedback** längst ned till höger på sidan, ange din feedback i det formulär som visas och klicka sedan på **Skicka**.
 
 ## Planerade funktioner
 

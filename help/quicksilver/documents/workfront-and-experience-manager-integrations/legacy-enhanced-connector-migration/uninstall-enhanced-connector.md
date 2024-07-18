@@ -2,28 +2,28 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Avinstallera den utökade Workfront for Adobe Experience Manager-anslutningen
-description: Du måste avinstallera Workfront med den förbättrade Adobe Experience Manager-anslutningen till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
+description: Du måste avinstallera Workfront med Adobe Experience Manager förbättrade anslutning till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
 source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
 
 # Avinstallera Workfront med Adobe Experience Manager förbättrad anslutning
 
-Du måste avinstallera Workfront med den förbättrade Adobe Experience Manager-anslutningen till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
+Du måste avinstallera Workfront med Adobe Experience Manager förbättrade anslutning till den senaste inbyggda integreringen som kopplar Workfront och Adobe Experience Manager Assets as a Cloud Service.
 
 ## Förutsättningar
 
-* (Valfritt) Om det behövs kan du återställa ändringar som gjorts i Workfront brandväggskonfiguration och AEM inställningar.
+* (Valfritt) Om det behövs kan du återställa ändringar som gjorts i Workfront brandväggskonfiguration och AEM.
 
 ## Avinstallera den förbättrade anslutningen
 
-1. Få åtkomst till och klona din AEM as a Cloud Service databas via Cloud Manager.
+1. Kom åt och klona din AEM as a Cloud Service-databas från Cloud Manager.
 
 1. Öppna din klonade Git-databas i den utvecklingsmiljö du väljer.
 
@@ -51,7 +51,7 @@ Du måste avinstallera Workfront med den förbättrade Adobe Experience Manager-
    >
    >Kontrollera att den version som refereras i ovanstående kodblock, dvs. 1.8.0, återspeglar den version som avinstalleras från koden.
 
-1. Ta bort följande beroende från filen pom.xml i projektets undermodul med namnet **alla**.
+1. Ta bort följande beroende från filen pom.xml i projektets undermodul med namnet **all**.
 
    ```
    <!-- Workfront Tools -->
@@ -86,7 +86,7 @@ Du måste avinstallera Workfront med den förbättrade Adobe Experience Manager-
    </repository>
    ```
 
-1. (Villkorligt) Ta bort serverkonfigurationen från settings.xml, som finns i följande sökväg./cloudmanager/maven/settings.xml i projektets rot.&#39;
+1. (Villkorligt) Ta bort serverkonfigurationen från settings.xml, som finns i följande sökväg./cloudmanager/maven/settings.xml in the project root.&#39;
 
    ```
            <server>
@@ -102,6 +102,6 @@ Du måste avinstallera Workfront med den förbättrade Adobe Experience Manager-
        </server>
    ```
 
-1. Genomför ändringarna och skicka koden till molnhanterardatabasen
+1. Genomför ändringarna och skicka koden till Cloud Manager-databasen
 
-1. Kör Cloud Manager-pipeline för att distribuera ändringarna på din Cloud Services-instans
+1. Kör Cloud Manager pipeline för att distribuera ändringarna på din Cloud Services-instans

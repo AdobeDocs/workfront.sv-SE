@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Ställ in ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]
+title: Konfigurera ett korrektur med ett automatiserat arbetsflöde i  [!DNL Workfront Proof]
 description: Det här upprepas information som finns i Konfigurera korrektur i Workfront. Konsolidera här eller där. Kanske bättre här.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Ställ in ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]
+# Konfigurera ett korrektur med ett automatiserat arbetsflöde i [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Automatiserat arbetsflöde gör det enklare för er att hantera granskning och godkännande av innehåll när ni har komplexa granskningsprocesser, eller om ni skickar innehåll för granskning till samma grupper av personer regelbundet.
 
@@ -31,47 +31,47 @@ Du kan lägga till ett automatiskt arbetsflöde i ett korrektur när du överfö
 ## Skapa ett korrektur med automatiserat arbetsflöde
 
 1. Börja skapa korrekturet.
-1. I **[!UICONTROL Share]** avsnitt, klicka **[!UICONTROL Use Automated Workflow]**.
+1. Klicka på **[!UICONTROL Use Automated Workflow]** i avsnittet **[!UICONTROL Share]**.
 
    Du kan avmarkera det här alternativet om du vill växla tillbaka till ett standardarbetsflöde.
 
-1. (Valfritt) Om du vill använda en mall för automatiserat arbetsflöde som [!DNL Workfront] administratör konfigurerad och delad med dig, markera den i **[!UICONTROL Select a Workflow template]** nedrullningsbar meny.
+1. (Valfritt) Om du vill använda en mall för automatiserat arbetsflöde som din [!DNL Workfront]-administratör har konfigurerat och delat med dig, markerar du den i listrutan **[!UICONTROL Select a Workflow template]**.
 
    >[!NOTE]
    >
-   >Din möjlighet att ändra mallen beror på mallinställningarna som konfigurerats av [!DNL Workfront] administratör. Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
+   >Din möjlighet att ändra mallen beror på mallinställningarna som konfigurerats av administratören för [!DNL Workfront]. Om möjligheten att ändra mallen är inaktiverad kan bara mallens ägare ändra den.
 
 1. Ange följande information för att konfigurera det första steget i det automatiserade arbetsflödet:
 
-   * **[!UICONTROL Name]:** Scennamnet visas i arbetsflödesdiagrammet och inkluderas i e-postmeddelanden som skickas till granskarna.
-   * **[!UICONTROL Deadline]:** Fältets funktionalitet varierar beroende på vilket alternativ du väljer i dialogrutan **[!UICONTROL Deadline calculated from]** nedrullningsbar lista.
+   * **[!UICONTROL Name]:** Scennamnet visas i arbetsflödesdiagrammet och inkluderas i e-postmeddelanden som skickas till granskare.
+   * **[!UICONTROL Deadline]:** Funktionerna för det här fältet varierar beroende på vilket alternativ du väljer i listrutan **[!UICONTROL Deadline calculated from]**.
 
    * **[!UICONTROL From proof creation]:** Välj slutdatum för korrekturet.
-   * **[!UICONTROL From stage activation]:** Välj det antal arbetsdagar som ska läggas till på scenens aktiveringsdatum för att automatiskt ange en deadline för korrekturet.
+   * **[!UICONTROL From stage activation]:** Välj det antal arbetsdagar som ska läggas till i scenens aktiveringsdatum för att automatiskt ange en deadline för korrekturet.
    * **[!UICONTROL Activate stage]:** För varje steg i arbetsflödet kan du bestämma när det ska aktiveras. Följande alternativ är tillgängliga för den första fasen.
 
       * Vid korrekturskapande
       * Vid en viss tidpunkt och ett visst datum
       * Manuellt\
 
-         Ytterligare alternativ är tillgängliga för efterföljande steg. Dessa alternativ kräver en överordnad scen. De är:
+        Ytterligare alternativ är tillgängliga för efterföljande steg. Dessa alternativ kräver en överordnad scen. De är:
       * Efter att föregående tidsgräns har nåtts
       * Alla beslut godkänns eller godkänns med ändringar
       * Alla beslut godkänns
       * Alla beslut fattas
-   * **[!UICONTROL Deadline calculated from]:** Det alternativ du väljer i den här listrutan påverkar vilka alternativ som är tillgängliga i **[!UICONTROL Deadline]** fält.
+   * **[!UICONTROL Deadline calculated from]:** Det alternativ du väljer i den här listrutan påverkar vilka alternativ som är tillgängliga i fältet **[!UICONTROL Deadline]**.
 
-   * **[!UICONTROL Proof creation]:** I **[!UICONTROL Deadline]** markerar du deadlinedatum för korrekturet.
+   * **[!UICONTROL Proof creation]:** I fältet **[!UICONTROL Deadline]** väljer du korrekturens deadline.
 
-   * **[!UICONTROL Stage activation]:** I **[!UICONTROL Deadline]** ska du välja antalet arbetsdagar som ska läggas till på scenens aktiveringsdatum för att automatiskt ange en deadline för korrekturet.
+   * **[!UICONTROL Stage activation]:** I fältet **[!UICONTROL Deadline]** väljer du det antal arbetsdagar som ska läggas till i scenens aktiveringsdatum för att automatiskt ange en deadline för korrekturet.
 
    * **[!UICONTROL Lock stage]:** Välj när scenen kan låsas.
-   * **[!UICONTROL Primary decision maker]:** Välj primär beslutsfattare på scenen. Beslutsfattare är bara tillgängliga i listrutan efter att du har lagt till granskare på scenen.
-   * **[!UICONTROL Only one decision required]:** Välj det här alternativet om du vill att granskningen ska slutföras när en av beslutsfattarna fattar sitt beslut.\
+   * **[!UICONTROL Primary decision maker]:** Välj den primära beslutsfattaren på scenen. Beslutsfattare är bara tillgängliga i listrutan efter att du har lagt till granskare på scenen.
+   * **[!UICONTROL Only one decision required]:** Välj det här alternativet om du vill att granskningen ska slutföras efter att en av beslutsfattarna har fattat sitt beslut.\
 
-      Det här alternativet är inte tillgängligt om du har angett en användare i **[!UICONTROL Primary decision maker]** nedrullningsbar meny.
+     Det här alternativet är inte tillgängligt om du har angett en användare i listrutan **[!UICONTROL Primary decision maker]**.
 
-   * **[!UICONTROL Private stage]:** När det här alternativet är markerat är kommentarer och beslut inte synliga för personer som inte har lagts till i det här steget eller som inte är tillsynsmyndigheter, administratörer eller faktureringsadministratörer i kontot
+   * **[!UICONTROL Private stage]:** När det här alternativet är markerat är kommentarer och beslut inte synliga för personer som inte har lagts till på den här scenen eller som inte är tillsynsansvariga, administratörer eller faktureringsadministratörer i kontot
 
 
 1. (Valfritt) Lägg till granskare på scenen.
@@ -81,10 +81,10 @@ Du kan lägga till ett automatiskt arbetsflöde i ett korrektur när du överfö
    * Granskare som läggs till på en privat scen kan bara se den scen de läggs till i korrekturet och kommentarerna som görs på den scenen.
    * Om du lägger till en användare på en scen får användaren som standard åtkomst till korrekturet från det att korrekturet skapas.\
 
-      Systemadministratören kan konfigurera korrektursystemet för att hindra användare från att få åtkomst till korrekturet tills arbetsflödet går in i den fas där användaren lades till. Mer information finns i
+     Systemadministratören kan konfigurera korrektursystemet för att hindra användare från att få åtkomst till korrekturet tills arbetsflödet går in i den fas där användaren lades till. Mer information finns i
 
-1. (Valfritt) Klicka på **[!UICONTROL New stage]** och sedan upprepa steg 4 och steg 5 för att lägga till flera steg i det automatiserade arbetsflödet.
-1. Fortsätt skapa korrekturet genom att ange nödvändig information i [!UICONTROL Organize] och [!UICONTROL More settings] i [!UICONTROL New Proof] sida, enligt beskrivning i
+1. (Valfritt) Klicka på **[!UICONTROL New stage]** och upprepa sedan steg 4 och steg 5 för att lägga till flera steg i det automatiserade arbetsflödet.
+1. Fortsätt skapa korrekturet genom att ange nödvändig information i avsnitten [!UICONTROL Organize] och [!UICONTROL More settings] på sidan [!UICONTROL New Proof] enligt beskrivningen i
 
 ## Automatiserade arbetsflödesdiagram
 
@@ -100,11 +100,11 @@ Om du inte behöver se diagrammet kan du dölja det (1).
 
 Du kan lägga till ytterligare en fas i ett arbetsflöde som du skapar eller ändrar.
 
-1. Om du lägger till en scen i ett befintligt korrektur går du till sidan med korrekturinformation, som beskrivs på [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. I **[!UICONTROL Workflow]** avsnitt, klicka **[!UICONTROL New stage]**.
+1. Om du lägger till en scen i ett befintligt korrektur går du till sidan Korrekturinformation, som beskrivs i [Hantera korrekturinformation i [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Klicka på **[!UICONTROL New stage]** i avsnittet **[!UICONTROL Workflow]**.
 
-1. Ange information för scenen som i steg 4 under [!UICONTROL Creating a Proof with an Automated Workflow] i den här artikeln.
-1. Klicka **[!UICONTROL Add stage]** och sedan klicka **[!UICONTROL Done]**.
+1. Ange information för scenen som i steg 4 under avsnittet [!UICONTROL Creating a Proof with an Automated Workflow] i den här artikeln.
+1. Klicka på **[!UICONTROL Add stage]** och sedan på **[!UICONTROL Done]**.
 
 ## Ta bort en scen
 
@@ -120,16 +120,16 @@ Du kan lägga till ytterligare en fas i ett arbetsflöde som du skapar eller än
    * Vid korrekturskapande
    * Vid en viss tidpunkt och ett visst datum
    * Manuellt
-   * Bara dessa tre alternativ är tillgängliga för ditt första steg. De andra alternativen blir tillgängliga när du lägger till en andra fas; kräver du att du väljer en överordnad scen.
+   * Bara dessa tre alternativ är tillgängliga för ditt första steg. De andra alternativen blir tillgängliga när du lägger till en andra fas. De kräver att du väljer en överordnad scen.
    * Efter att föregående deadline har nåtts (ett överordnat stadium måste plockas)
-   * Alla beslut godkänns eller [!UICONTROL Approved with changes] (kräver val av överordnad fas)
+   * Alla beslut är godkända eller [!UICONTROL Approved with changes] (kräver att en överordnad fas väljs)
    * Alla beslut är godkända (kräver att en överordnad fas väljs)
-   * Alla beslut fattas (kräver val av överordnad fas)
+   * Alla beslut fattas (kräver att en överordnad fas väljs)
 
 * **[!UICONTROL Deadline]:** Du kan bestämma hur deadline ska beräknas för varje steg i ett arbetsflöde. Alternativen är:
 
-   * Från korrekturskapande: I [!UICONTROL deadline] fält (9) kan du välja slutdatum för korrekturet.
-   * Från och med scenaktiveringen: I [!UICONTROL deadline] väljer du hur många arbetsdagar som ska läggas till på scenens aktiveringsdatum för att automatiskt ange en deadline för korrekturet.
+   * Från det att korrekturet skapas: I fältet [!UICONTROL deadline] (9) kan du välja slutdatum för korrekturet.
+   * Från scenaktivering: I listrutan [!UICONTROL deadline] väljer du det antal arbetsdagar som ska läggas till i scenens aktiveringsdatum för att automatiskt ange en tidsgräns för korrekturet.
 
 * **[!UICONTROL Lock]:** Det finns ett antal alternativ som avgör när en scen kan låsas. Alternativen är:
 
@@ -138,14 +138,14 @@ Du kan lägga till ytterligare en fas i ett arbetsflöde som du skapar eller än
    * När nästa scen börjar
    * När alla beslut fattas
 
-**[!UICONTROL Primary decision maker]**: Du satte den primära beslutsfattaren på scenen. De tillgängliga beslutsfattarna visas i listan först när du har lagt till granskarna på scenen.
+**[!UICONTROL Primary decision maker]**: Du ställer in den primära beslutsfattaren på scenen. De tillgängliga beslutsfattarna visas i listan först när du har lagt till granskarna på scenen.
 
 >[!NOTE]
 >
 >Om du väljer en primär beslutsfattare är endast ett alternativ i det här skedet inte längre tillgängligt.
 
 * **[!UICONTROL Only one decision required]**: Du kan aktivera det här alternativet på en scen. Detta innebär att översynen kommer att slutföras när en av beslutsfattarna fattar sitt beslut.
-* **[!UICONTROL Privacy]:** Varje steg kan göras privat. Om en scen är privat visas inte kommentarerna och besluten för personer som inte har lagts till i den här fasen, eller som inte är tillsynsmyndigheter, administratörer eller faktureringsadministratörer i kontot. Mer information finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md) .
+* **[!UICONTROL Privacy]:** Varje fas kan göras privat. Om en scen är privat visas inte kommentarerna och besluten för personer som inte har lagts till i den här fasen, eller som inte är tillsynsmyndigheter, administratörer eller faktureringsadministratörer i kontot. Mer information finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md) .
 
 ## Lägga till granskare på en scen
 
@@ -161,28 +161,27 @@ Du kan lägga till ytterligare en fas i ett arbetsflöde som du skapar eller än
    >* Granskare som inte har lagts till på en privat scen kan inte se scenen på det korrektur eller de kommentarer som har gjorts på den scenen.
 
 
-
-## Konvertera ett korrektur till ett automatiserat arbetsflöde
+## Konvertera korrektur till automatiserat arbetsflöde
 
 Du kan konvertera ett enkelt korrektur till ett automatiserat arbetsflöde.
 
 1. Klicka på **[!UICONTROL Convert to Automated Workflow]** på sidan [!UICONTROL Proof details].
-När korrekturet har omarbetats till automatiserat arbetsflöde är alla stadier aktiva, offentliga och deras [!UICONTROL Lock stage] är inställt på Manuell som standard. Alla steg finns kvar hos användarna och deras inställningar.
+När korrekturet har omarbetats till automatiserat arbetsflöde är alla stadier aktiva, offentliga och deras [!UICONTROL Lock stage]-alternativ är inställt på Manuellt som standard. Alla faser finns kvar hos användarna och deras inställningar.
 
    * Aktiveringsfasen är inställd på Vid korrekturskapande i varje fas.
    * Deadline beräknad från alternativ är inställd på Korrekturskapande i varje fas.
    * Om endast ett beslutsalternativ valdes på det grundläggande beviset har alla faser det valt.
-   * Om det finns grundläggande bevis [!UICONTROL Primary decision maker] markerades, ställs stadier med den mottagaren in på dem och alla andra har värdet Ingen.
+   * Om inget grundläggande korrektur [!UICONTROL Primary decision maker] valdes ställs faserna med den mottagaren in på dem och alla andra har värdet Ingen.
    * Scennamnet ändras inte.
 
 ## Lägga till ytterligare en mall i ett befintligt automatiserat arbetsflöde
 
 När ett grundläggande korrektur har konverterats till ett automatiserat arbetsflöde kan du lägga till ytterligare mall i det.
 
-1. På sidan Korrekturinformation i avsnittet Arbetsflöde klickar du på **[!UICONTROL Add template].**
+1. Klicka på **[!UICONTROL Add template]i avsnittet Arbetsflöde på sidan Korrekturinformation.**
 
-   * Mallinställningar avgör vad som kan göras med ett korrektur som den här mallen lades till i. Om mallen till exempel har [!UICONTROL Add a stage and Add people to stages] inaktiverade alternativ, knappar till [!UICONTROL add stage] och [!UICONTROL share proof] kommer inte att synas.
-   * If [!UICONTROL Add a stage option] är inaktiverat i den angivna mallen när den har lagts till [!UICONTROL Add template] knappen inte visas.
+   * Mallinställningar avgör vad som kan göras med ett korrektur som den här mallen lades till i. Om mallen till exempel har [!UICONTROL Add a stage and Add people to stages]-alternativen inaktiverade visas inte knapparna till [!UICONTROL add stage] och [!UICONTROL share proof].
+   * Om [!UICONTROL Add a stage option] är inaktiverat i den angivna mallen visas inte knappen [!UICONTROL Add template] när du har lagt till den.
    * När en person läggs till på en scen i en mall för automatiserat arbetsflöde, men redan finns på korrekturet, tas personen automatiskt bort från scenen om mallen används. Om ingen annan har lagts till i just det här steget visas följande fel eftersom systemet inte tillåter att en tom fas läggs till i arbetsflödet.
 
-      ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)
+     ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)

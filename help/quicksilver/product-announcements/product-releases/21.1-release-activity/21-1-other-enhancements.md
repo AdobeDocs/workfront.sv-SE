@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1 - versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1-versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Uppdateringar av kraven för misslyckade händelseprenumerationer
 
@@ -27,7 +27,7 @@ Vi uppdaterar kraven för mjuk inaktivering vid fel med händelseprenumeration. 
 
 Dessutom kommer vi att lägga till krav på inaktivering från och med februari 2021.
 
-Mer information om de nya kraven för inaktivering och inaktivering av hårddisk finns i [Frågor och svar - Evenemangsprenumerationer](../../../wf-api/general/event-subs-faq.md).
+Mer information om de nya kraven för mjuk inaktivering och inaktivering finns i [Vanliga frågor och svar - Händelseprenumerationer](../../../wf-api/general/event-subs-faq.md).
 
 ## Nya Team-fält tillgängliga för Daily Digest
 
@@ -41,13 +41,13 @@ Vi ersätter POP-e-postalternativet för begärandeköer med ett nytt system som
 
 Dessa ändringar är tillgängliga för test i förhandsvisning.
 
-E-post inaktiveras automatiskt i alla förhandsvisningsmiljöer. Information om hur du aktiverar e-post för testning finns i [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+E-post inaktiveras automatiskt i alla förhandsvisningsmiljöer. Information om hur du aktiverar e-post för testning finns i [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådemiljön](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-Mer information finns i [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Mer information finns i [Gör det möjligt för användare att skicka ett problem via e-post till ett begärandeköprojekt](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 Mer information om varför vi gör den här ändringen finns i [Nytt Adobe Workfront-hanterat system som ersätter POP-e-post för begärandeköer med 21.1](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Den här funktionen ingår nu i [Köhantering i nya Workfront](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [köhanteringen i den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) på Workfront One.
 
 ## Begränsa timredigering för tidrapporter
 

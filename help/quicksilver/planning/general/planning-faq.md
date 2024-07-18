@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Den här artikeln innehåller en lista med de vanligaste frågorna om Adobe Workfront Planning.
 
-Mer information om Workfront Planning finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Vad är Workfront Planning?
 
@@ -30,15 +30,15 @@ Workfront Planning, som tidigare kallades Project Maestro, är en ny funktion so
 
 Workfront Planning-modulen är en av tre distinkta, men sammankopplade, Workfront-funktioner som tillsammans skapar ett väl fungerande marknadsföringssystem. De tre funktionerna är:
 
-* **Planering**: De nya avancerade funktionerna i Workfront Planning.
+* **Planering**: De nya avancerade funktionerna som ingår i Workfront Planning.
 
-* **Arbetsflöde**: De samarbetsfunktioner du använder idag i Workfront (projektledning, resurshantering etc.)
+* **Arbetsflöde**: De samarbetsfunktioner för arbetshantering som du använder idag i Workfront (projekthantering, resurshantering osv.)
 
 * **Automatisering och integrering**: De omfattande integrerings- och automatiseringsfunktionerna i Workfront Fusion.
 
 ## När kommer Workfront Planning att släppas?
 
-Den senaste Workfront Planning-releasen är planerad till 28 augusti 2024. Aktuell information om vilka funktioner som släpps finns i [Adobe Workfront Planerar aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+Den senaste Workfront Planning-releasen är planerad till 28 augusti 2024. Aktuell information om vilka funktioner som släpps för närvarande finns i [Adobe Workfront Planering - aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
 
 ## Vad händer efter det att Workfront Planning är klar i ett tidigt skede?
 
@@ -50,7 +50,7 @@ Den här funktionen kommer snart att vara tillgänglig.
 
 ## Måste vi migrera till IMS?
 
-Ja. Kunder som vill köpa Workfront Planning måste migrera till Adobe Unified Experience/Adobe Business Platform. Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Ja. Kunder som vill köpa Workfront Planning måste migrera till Adobe Unified Experience/Adobe Business Platform. Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Kan du ge exempel på olika arbetsytor?
 
@@ -68,7 +68,7 @@ Från juni 2024 kan arbetsytorna inte ansluta till varandra. Den här funktional
 
 ## Finns det några mjuka eller hårda begränsningar för hur många arbetsytor som tillåts i en organisation?
 
-Du kan ha upp till 1 000 arbetsytor i din organisations Workfront-instans. Mer information om begränsningar finns i [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md).
+Du kan ha upp till 1 000 arbetsytor i din organisations Workfront-instans. Mer information om begränsningar finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 ## Kan aktuella objekt i Workfront-systemet vara tillgängliga i Planning, eller måste detta byggas manuellt?
 
@@ -145,7 +145,7 @@ Ja. Snart kan vi rapportera om planeringsinformation via Canvas Dashboards.
 
 ## Kan vi hämta planeringsdata även med API:t?
 
-Ja. Det finns redan ett Planning API och en Fusion-anslutning. Mer information finns i [Adobe Workfront Planning-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Dokumentation för Workfront Planning API kommer snart.
+Ja. Det finns redan ett Planning API och en Fusion-anslutning. Mer information finns i [Planeringsmoduler för Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Dokumentation för Workfront Planning API kommer snart.
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -175,7 +175,7 @@ Public views that are shared are visible  -->
 
 ## Hur delar du en vy internt?
 
-Mer information om att dela vyer finns i [Visa](/help/quicksilver/planning/access/share-views.md).
+Mer information om att dela vyer finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 ## Varje gång du skapar en arbetsyta måste du dela vyer igen?
 
@@ -197,4 +197,4 @@ Nej.
 
 ## Kommer det att finnas anpassningsbara API:er för att använda vår egen DAM istället för Adobe DAM?
 
-Det finns redan ett Planning API och en Fusion-anslutning. Mer information finns i [Adobe Workfront Planning-moduler](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Dokumentation för Workfront Planning API kommer snart. Du kan använda API:t för att skapa anpassade integreringar.
+Det finns redan ett Planning API och en Fusion-anslutning. Mer information finns i [Planeringsmoduler för Adobe Workfront](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Dokumentation för Workfront Planning API kommer snart. Du kan använda API:t för att skapa anpassade integreringar.

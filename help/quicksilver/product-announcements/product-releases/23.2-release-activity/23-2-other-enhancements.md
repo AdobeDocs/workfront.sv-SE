@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i version 23.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
-En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.2-versionscykeln finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Nyheter för Workfront for Creative Cloud plugins
 
@@ -26,7 +26,7 @@ Vi har lagt till följande ändringar i plugin-programmen för Workfront för Cr
 * Insticksprogrammet meddelar dig nu när en aktivitet har en föregångare
 * Koreanska stöds nu som språk
 
-## Ny kommentarsfunktion för utgåvor Beta
+## Ny kommenteringsupplevelse för problem i Beta
 
 En uppdatering av kommentarsfunktionerna i Adobe Workfront håller på att utvecklas. Den här uppdateringen innehåller ett nytt gränssnitt, nya funktioner och förbättrade prestanda i uppdateringsavsnittet för vissa objekt.
 
@@ -60,8 +60,8 @@ I plugin-programmet Adobe Workfront for XD kan du nu välja att exportera rityto
 
 Mer information finns i följande artiklar:
 
-* [Överför [!DNL XD] ritytor som dokument till [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
-* [Överför [!DNL XD] ritytor som korrektur till [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
+* [Överför  [!DNL XD] ritytor som dokument till [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-docs.md)
+* [Överför  [!DNL XD] ritytor som korrektur till [!DNL Workfront]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-proofs.md)
 
 ## NetNew customers to be conboard to Adobe Unified Experience
 
@@ -75,7 +75,7 @@ Adobe enhetliga upplevelse omfattar:
 * En&quot;företagsväljare&quot; för att växla mellan Workfront organisationer och miljöer
 * Navigering med alternativ för Workfront-sidor, Adobe Experience Cloud-inställningar och din Workfront-profil
 
-Mer information finns i [Adobe enhetliga upplevelse för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 

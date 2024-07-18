@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Visa information om arbetsuppgift med [!DNL Adobe Workfront] plugin
+# Visa information om arbetsobjekt med plugin-programmet [!DNL Adobe Workfront]
 
-Du kan visa information om projekt, uppgifter, ärenden och dokument från följande [!DNL Adobe Creative Cloud] program:
+Du kan visa information om projekt, aktiviteter, utgåvor och dokument från följande [!DNL Adobe Creative Cloud]-program:
 
 {{cc-app-list}}
 
@@ -39,11 +39,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</td> 
+   <td>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL View] behörighet till projekt, uppgifter eller ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL View] behörighet till projekt, uppgifter eller ärenden</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -52,7 +52,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
@@ -60,38 +60,38 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Visa information och anpassade formulärdata
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Markera arbetsposten som du vill visa.
+1. Markera den arbetsuppgift som du vill visa.
 
    >[!TIP]
    >
-   >Använd **[!UICONTROL Menu]** om du vill gå till det överordnade objektet för arbetsposten.
+   >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på **[!UICONTROL Details]** icon ![](assets/details.png) i navigeringsfältet för att visa:
+1. Klicka på ikonen **[!UICONTROL Details]** ![](assets/details.png) i navigeringsfältet för att visa:
 
    * [!UICONTROL Description]
    * [!UICONTROL Planned Completion Date]
    * [!UICONTROL Status]
    * [!UICONTROL Assigned to]
-   * [!UICONTROL Project Owner] (Endast projekt)
+   * [!UICONTROL Project Owner] (endast projekt)
    * Anpassade formulärdata
 
 ## Visa dokumentinformation
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Markera arbetsposten som du vill visa.
+1. Markera den arbetsuppgift som du vill visa.
 
    >[!TIP]
    >
-   >Använd **[!UICONTROL Menu]** om du vill gå till det överordnade objektet för arbetsposten.
+   >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) i navigeringsfältet dubbelklickar du på ett dokument för att visa:
+1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett dokument för att visa:
 
    * [!UICONTROL Description]
    * [!UICONTROL File Type]
@@ -102,55 +102,55 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Visa korrekturinformation
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Markera arbetsposten som du vill visa.
+1. Markera den arbetsuppgift som du vill visa.
 
    >[!TIP]
    >
-   >Använd **[!UICONTROL Menu]** om du vill gå till det överordnade objektet för arbetsposten.
+   >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) dubbelklicka på ett korrektur i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
 
-1. Klicka på pilikonen i miniatyrbildens övre högra hörn för att öppna korrekturinformationen i [!DNL Workfront].
+1. Klicka på pilikonen i det övre högra hörnet av miniatyrbilden för att öppna korrekturinformationen i [!DNL Workfront].
 
 ![öppna sidan med korrekturinformation i Workfront.](assets/go-to-proof-details.png)
 
-## Visa status för ett korrektur
+## Visa status för ett bevis
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Markera arbetsposten som du vill visa.
+1. Markera den arbetsuppgift som du vill visa.
 
    >[!TIP]
    >
-   >Använd **[!UICONTROL Menu]** om du vill gå till det överordnade objektet för arbetsposten.
+   >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på **[!UICONTROL Document]** icon ![](assets/documents.png) dubbelklicka på ett korrektur i navigeringsfältet.
+1. Klicka på ikonen **[!UICONTROL Document]** ![](assets/documents.png) i navigeringsfältet och dubbelklicka sedan på ett korrektur.
 
-1. Rulla längst ned för att visa korrekturets aktuella status. Mer information om Skickat, Öppnat, Kommentar, Beslut (SOCD) finns i [Översikt över dokumentinformation](/help/quicksilver/documents/managing-documents/document-details-overview.md).
+1. Rulla längst ned för att visa korrekturets aktuella status. Mer information om skickade, öppnade, kommentarer, beslut (SOCD) finns i [Översikt över dokumentinformation](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
 ![](assets/proof-status.png)
 
 ## Visa underaktiviteter och ärenden
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Markera arbetsposten som du vill visa.
+1. Markera den arbetsuppgift som du vill visa.
 
    >[!TIP]
    >
-   >Använd **[!UICONTROL Menu]** om du vill gå till det överordnade objektet för arbetsposten.
+   >Använd ikonen **[!UICONTROL Menu]** för att gå till arbetsobjektets överordnade objekt.
 
-1. Klicka på **[!UICONTROL Issue]** icon ![](assets/issues.png) eller **Underuppgift** icon ![](assets/subtasks.png).
+1. Klicka på ikonen **[!UICONTROL Issue]** ![](assets/issues.png) eller **Underaktivitet** ![](assets/subtasks.png) .
 
-1. Välj uppgift eller problem och klicka sedan på **[!UICONTROL Details]** icon ![](assets/details.png) i navigeringsfältet för att visa:
+1. Markera uppgiften eller problemet och klicka sedan på ikonen **[!UICONTROL Details]** ![](assets/details.png) i navigeringsfältet för att visa:
 
    * [!UICONTROL Planned Completion Date]
    * [!UICONTROL Status]

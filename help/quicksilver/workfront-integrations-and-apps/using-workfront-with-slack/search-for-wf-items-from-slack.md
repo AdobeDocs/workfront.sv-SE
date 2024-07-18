@@ -2,22 +2,22 @@
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
 title: Sök efter [!DNL Adobe Workfront] objekt från [!DNL Slack]
-description: Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] app installerad.
+description: Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] appen som är installerad.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
 
 # Sök efter [!DNL Adobe Workfront] objekt från [!DNL Slack]
 
-Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack]om din instans av [!DNL Slack] har haft [!DNL Workfront] app installerad.
+Du kan söka efter [!DNL Adobe Workfront] objekt från [!DNL Slack] om appen [!DNL Workfront] har installerats på din instans av [!DNL Slack].
 
-Mer information om konfiguration [!DNL Workfront] med [!DNL Slack], se [Konfigurera [!DNL Adobe Workfront] for [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Mer information om hur du konfigurerar [!DNL Workfront] med [!DNL Slack] finns i [Konfigurera [!DNL Adobe Workfront] för [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Åtkomstkrav
 
@@ -36,19 +36,19 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.\
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.\
 
 ## Förutsättningar
 
-Innan du kan söka efter [!DNL Workfront] objekt från [!DNL Slack]måste du
+Innan du kan söka efter [!DNL Workfront] objekt från [!DNL Slack] måste du
 
-* Konfigurera [!DNL Workfront] for [!DNL Slack]\
-   Instruktioner om konfigurering [!DNL Workfront for Slack], se [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+* Konfigurera [!DNL Workfront] för [!DNL Slack]\
+   Instruktioner om hur du konfigurerar [!DNL Workfront for Slack] finns i [Konfigurera [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Sök efter [!DNL Workfront] objekt från [!DNL Slack]:
 
-1. Logga in på [!DNL Slack] instans och logga in på [!DNL Workfront] från [!DNL Slack].\
-   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack], se&quot;Logga in på [!DNL Workfront] från [!DNL Slack]&quot; i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Logga in på din [!DNL Slack]-instans och logga in på [!DNL Workfront] från [!DNL Slack].\
+   Mer information om hur du loggar in på [!DNL Workfront] från [!DNL Slack] finns i avsnittet Logga in på [!DNL Workfront] från [!DNL Slack] i [Åtkomst [!DNL Adobe Workfront] från [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Börja skriva något av följande kommandon i meddelandefältet från valfri kanal:
 
@@ -77,7 +77,7 @@ Innan du kan söka efter [!DNL Workfront] objekt från [!DNL Slack]måste du
    * Företag
    * Anteckning
 
-      Du kan bara markera en objekttyp åt gången.\
+     Du kan bara markera en objekttyp åt gången.\
       En lista med objekt som matchar sökvillkoren visas.
 
-1. Klicka på namnet på ett objekt för att öppna det i [!DNL Workfront] på en ny flik i webbläsaren.
+1. Klicka på namnet på ett objekt för att öppna det i [!DNL Workfront] på en ny webbläsarflik.

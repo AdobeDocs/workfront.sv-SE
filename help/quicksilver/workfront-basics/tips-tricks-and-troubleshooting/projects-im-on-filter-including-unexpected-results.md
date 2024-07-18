@@ -28,7 +28,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] licens</strong></td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
@@ -40,16 +40,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Problem
 
-The [!UICONTROL **Projekt som jag är på**] Filtret innehåller resultat som jag inte förväntar mig, eftersom jag inte är tilldelad eller associerad med dessa projekt.
+Filtret [!UICONTROL **Projekt som jag är i**] innehåller resultat som jag inte förväntar mig, eftersom jag inte har tilldelats eller associerats med dessa projekt.
 
 ## Lösning
 
-The [!UICONTROL **Projekt som jag är på**] filtret innehåller projekt som innehåller användaren i någon av dess [!UICONTROL **Projektinformation**] fält, inklusive fält som är enkla att missa eller som fyllts i automatiskt, t.ex. [!UICONTROL **Anges av**] eller [!UICONTROL **Sponsorns-ID**]. Det finns två möjliga lösningar för att ta bort oönskade resultat:
+Filtret [!UICONTROL **Projekt som jag är i**] innehåller projekt som innehåller användaren i något av dess [!UICONTROL **projektinformationsfält**], inklusive enkelt missade eller automatiskt ifyllda fält som [!UICONTROL **Anges av**] eller [!UICONTROL **Sponsorns-ID**]. Det finns två möjliga lösningar för att ta bort oönskade resultat:
 
-1. Kontrollera [!UICONTROL **Projektinformation**] för varje oväntat projekt som ingår i filtret, och ta bort ditt namn från alla fält.
+1. Kontrollera [!UICONTROL **projektinformationen**] för varje oväntat projekt som ingår i filtret och ta bort ditt namn från alla fält.
 
    ELLER
 
-1. Prova med ett liknande filter, som [!UICONTROL **Projekt jag äger**], som endast innehåller projekt som är specifikt tilldelade dig.
+1. Försök med ett liknande filter, till exempel [!UICONTROL **Projekt som jag äger**], som bara innehåller projekt som har tilldelats dig.
 
-Mer information om hur du använder filter i [!DNL Workfront], se [Översikt över filter](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Mer information om hur du använder filter i [!DNL Workfront] finns i [Filteröversikt](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

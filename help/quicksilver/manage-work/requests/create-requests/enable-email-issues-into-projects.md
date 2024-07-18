@@ -19,7 +19,7 @@ ht-degree: 0%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-Du kan konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post. Du kan bara tillåta att utleveranser e-postas till ett projekt om projektet har angetts som en frågekö. Mer information om hur du skapar ett Request Queue-projekt finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Du kan konfigurera ett projekt så att användare kan lägga till problem i projektet via e-post. Du kan bara tillåta att utleveranser e-postas till ett projekt om projektet har angetts som en frågekö. Mer information om hur du skapar ett begärandeköprojekt finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Åtkomstkrav
 
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till problem</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -80,12 +80,12 @@ Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
 >Vi rekommenderar att det projekt som du ställer in för att ta emot begäranden via e-post inte ska ha mer än ett köämne. Om de inskickade förfrågningarna är avsedda för olika resurser eller projekt bör du dirigera eller flytta dem manuellt efter att de har skickats.
 
 1. Gå till det projekt som du vill aktivera för att ta emot utgåvor via e-post.
-1. Klicka **Köinformation** till vänster. Du kan behöva klicka **Visa fler** först.
-1. I **Kötyp** område, markera **Publish som kö för hjälpbegäran**.
+1. Klicka på **Köinformation** i den vänstra panelen. Du kan behöva klicka på **Visa fler** först.
+1. I området **Kötyp** väljer du **Publish som kö för hjälpbegäran**.
 
-1. Bläddra nedåt till **E-postköinställningar** område och sedan markera **Aktivera inmatning via e-post**.
+1. Bläddra ned till området **Inställningar för e-postkö** och välj sedan **Aktivera inmatning av begäran via e-post**.
 
-1. Ange början på e-postadressen i dialogrutan **Ange e-postadress** box.
+1. Ange början på e-postadressen i rutan **Ange e-postadress**.
 
    Du måste skapa en unik e-postadress. Vi rekommenderar att du använder ditt företagsnamn som en del av din e-postadress.
 
@@ -98,11 +98,11 @@ Dessa villkor måste vara uppfyllda innan den här funktionen aktiveras:
    >This was the case previously, but it's not working this way anymore, since August 2022: * Emails forwarded to this email address are not added as issues to the project in&nbsp;Workfront. Only emails created from this email address are added as issues.
    -->
 
-1. (Valfritt) Välj **Vidarebefordra alla problem som inte kan skickas via e-post** anger du en e-postadress för vidarebefordran i rutan nedan.
+1. (Valfritt) Markera **Vidarebefordra alla problem som inte kan skickas via e-post** och ange sedan en e-postadress för vidarebefordran i rutan nedan.
 
    Den här e-postadressen får information om e-postmeddelanden som inte kunde skickas till projektet.
 
-1. Klicka **Spara**. När användare med ett aktivt Workfront-konto skickar ett e-postmeddelande till den här e-postadressen skapas nu ett problem i Workfront-projektet.
+1. Klicka på **Spara**. När användare med ett aktivt Workfront-konto skickar ett e-postmeddelande till den här e-postadressen skapas nu ett problem i Workfront-projektet.
 
    >[!NOTE]
    >
