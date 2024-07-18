@@ -6,14 +6,16 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
 # Gör smarta uppdrag
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -27,13 +29,13 @@ Du kan använda smarta tilldelningar för att identifiera vem som är bäst på 
 
 Smarta uppdrag är förslag för användare, roller eller team som Adobe Workfront presenterar för dig när du tilldelar resurser till arbetsobjekt. Workfront baserar sina förslag på en algoritm som avgör vilken resurs som passar bäst för jobbet.
 
-<span class="preview">Det finns två separata algoritmer i Workfront som beräknar smarta tilldelningar som fungerar på olika sätt för uppgifter och för problem. </span>
+Det finns två separata algoritmer i Workfront som beräknar smarta tilldelningar som fungerar på olika sätt för olika uppgifter och för olika utgåvor.
 
 Mer information om villkoren som används för att fastställa smarta tilldelningar finns i [Översikt över smarta tilldelningar](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Gör smarta uppdrag
 
@@ -71,35 +75,25 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
    * En uppgiftslista eller utgivningslista eller rapport
    * En aktivitets- eller utgivningsrubrik
    * Åtgärds- eller ärendesammanfattningspanelen
-   * <span class="preview">En ny aktivitet eller ett nytt problem när du lägger till en ny aktivitet eller ett nytt problem i ett projekt</span>
+   * En ny aktivitet eller nytt problem när du lägger till en ny uppgift eller ett nytt problem i ett projekt
    * Uppdragsfältet för ett objekt som visas i hemområdet
    * En uppgift eller ett problem i arbetsbelastningsutjämnaren
 
 1. Placera markören i uppdragsfältet och vänta i två sekunder.
 
-   <div class="preview">
-   Ett eller flera av följande avsnitt med förslag på smarta uppdrag visas:
+   För problem visas de smarta tilldelningarna i följande avsnitt:
 
-   * **Föreslagna tilldelningar**: Visar för aktiviteter. <!--remove the note when we go to production with smarter assignments-->
+   * **Användare och team**
+   * **Jobbroller**
 
-     >[!TIP]
-     >
-     >   Listrubriken visar **Här är några rekommendationer** i stället för **Föreslagna tilldelningar** i produktionsmiljön.
-     >
-   * **Användare och team**: Visar uppgifter och problem.
-   * **Jobbroller**: Visar uppgifter och ärenden.
-   * **Klassificera jobbroller för kort**: Visar för uppgifter. Mer information finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+   ![](assets/smart-assignments-issue-header.png)
 
    För uppgifter visas de smarta tilldelningarna i följande avsnitt, beroende på vilken fas av algoritmens beräkning som identifierar tilldelningarna:
 
-   * **Föreslagna tilldelningar**: Tilldelningar som identifieras i den första fasen i den smarta uppgiftens algoritmberäkning. <span class="preview">Det här avsnittet är inte tillgängligt för problem.</span>
-   * <span class="preview">**Användare och team**, **Jobbroller** eller **Betygsätt jobbroller för kort**: Tilldelningar som identifieras i den andra fasen av den smarta tilldelningens algoritmberäkning. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * **Föreslagna tilldelningar**: Visar tilldelningar som identifieras i den första fasen i den smarta tilldelningsalgoritmen för aktiviteten.
+   * **Användare och team**, **Jobbroller** eller <span class="preview">**Betygsätt jobbroller för kort**</span>: Tilldelningar som identifieras i den andra fasen av den smarta tilldelningens algoritmberäkning.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

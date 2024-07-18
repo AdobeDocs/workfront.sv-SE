@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    eller
 
-   Klicka på uppdragsnamnet om uppgiften eller utgåvan redan har tilldelats.
+   Klicka på uppdragsnamnet om uppgiften redan är tilldelad.
 
-   I produktionsmiljön:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">I förhandsvisningsmiljön:</span>
    ![Uppdrag](assets/assignments-box-in-task-header.png)
 
 1. Gör något av följande:
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en roll i listan Jobbroller om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Villkorligt) Klicka på ett av namnen i listorna <span class="preview">**Föreslagna tilldelningar**, **Användare och team**, **Jobbroller** eller **Klassificera kortroller**</span> när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Villkorligt) Klicka på ett av namnen i listorna **Föreslagna tilldelningar**, **Användare och team**, **Jobbroller** eller <span class="preview">**Klassificera kortroller**</span> när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Du kan börja skriva namnet på en användare, ett team eller en jobbroll som ska tilldelas uppgiften och sedan markera den när den visas i listan.
 
@@ -215,7 +211,7 @@ Så här tilldelar du uppgifter i en lista:
      >
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
-     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj rollen för system-/standardjobb om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+     ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en jobbroll om du vill använda standardfaktureringssatsen för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Villkorligt) När den visas i fältet **Tilldelningar** klickar du på ikonen **Personer** i det övre högra hörnet av uppdragsrutan för att öppna rutan **Avancerade tilldelningar** och skapa avancerade tilldelningar.

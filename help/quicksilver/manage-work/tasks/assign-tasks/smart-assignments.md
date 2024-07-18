@@ -7,9 +7,9 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -49,13 +49,13 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">En uppgiftslista eller rapport i uppdragskolumnen </span>
+* En uppgiftslista eller rapport i uppdragskolumnen
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">En aktivitetsrubrik i uppdragsfältet</span>
+* En uppgiftsrubrik i uppdragsfältet
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * En ärenderubrik i uppdragsfältet
 
@@ -63,24 +63,24 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * Åtgärdens eller ärendets sammanfattningspanel i uppdragsområdet
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">Fältet Uppdrag i rutan Ny uppgift när du lägger till en uppgift i ett projekt</span>
+* Fältet Uppdrag i rutan Ny uppgift när du lägger till en uppgift i ett projekt
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* Uppdragsfältet för ett objekt som visas i hemområdet när du öppnar en uppgift eller ett ärende
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterier för smarta tilldelningar
-
-<div class="preview">
 
 Smarta uppdrag fungerar annorlunda för uppgifter än för ärenden.
 
@@ -134,17 +134,16 @@ Om det första steget i smarta uppdrag inte hittar några träffar, beräknar Wo
 
 Mer information finns i avsnittet [Kriterier för smarta tilldelningar för uppgifter och problem](#smart-assignments-criteria-for-tasks-and-issues) i den här artikeln.
 
-Uppdrag som identifieras i den här fasen visas i avsnitten **Användare och team**, **Jobbrolltilldelningar** och **Klassificera kortroller** i fältet Uppdrag. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Uppdrag som identifieras i den här fasen visas i avsnitten **Användare och team**, **Jobbrolltilldelningar** och <span class="preview">**Klassificera kortroller**</span> i fältet Uppdrag. <span class="preview">Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Kriterier för smarta uppdrag för uppgifter och ärenden
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">Följande villkor gäller endast för uppgifter när den första fasen i den smarta tilldelningsberäkningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för aktiviteter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard. </span>
+>Följande villkor gäller endast för uppgifter när den första fasen i beräkningen av den smarta tilldelningen inte hittade några matchningar. Mer information finns i avsnittet [Första fasen i beräkningen av smart tilldelning för aktiviteter](#first-phase-of-smart-assignment-calculation-for-tasks) i den här artikeln. Följande kriterier gäller alltid för problem som standard.
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Användare rekommenderas i listrutan Smarta tilldelningar baserat på en kombination av följande kriterier (listas i ordning från viktigaste till minst viktiga):
 

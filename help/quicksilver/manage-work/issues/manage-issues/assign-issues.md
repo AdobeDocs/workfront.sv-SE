@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1412'
 ht-degree: 0%
 
 ---
 
 # Tilldela ärenden
 
-<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
+<!--Audited: 07/2024-->
 
 Du kan tilldela utgåvor till användare, roller och team för att ange vem som ansvarar för att slutföra utgåvorna. Allmän information om hur du tilldelar problem finns i [Översikt över hur du ändrar problemtilldelningar](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -45,7 +45,7 @@ Att tilldela ärenden och uppgifter är detsamma som i Adobe Workfront. Allmän 
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,25 +54,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td> <p>Nytt: Medarbetare eller högre</p>
+   <p>Aktuell: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till problem på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Bevilja åtkomst till problem</a>. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till problem</p> <p>Visa eller högre åtkomst till projekt och uppgifter för att tilldela ett problem</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för problemet</p> <p>Contribute-behörigheter till det objekt där du kopierar problemet med möjligheten att lägga till problem.</p> <p> Mer information om att bevilja behörigheter för problem finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Dela ett problem </a></p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Bevilja åtkomst till användare</a>.</p> </td> 
+   <td> <p>Hantera behörigheter för problemet</p> <p> Visa behörigheter eller högre för det projekt eller den uppgift där problemet finns, när du tilldelar ett problem</p><p>Contribute-behörigheter eller högre till det projekt eller den uppgift där problemet finns, när flera utgåvor tilldelas.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Överväganden för flera tilldelningar till jobbroller, team och användare
 
@@ -137,7 +140,7 @@ Tänk på följande när du tilldelar flera resurser till en arbetsuppgift:
      >Du måste ha inställningen Visa kontaktinformation aktiverad på din åtkomstnivå för att användare ska kunna visa användarnas e-postmeddelanden. Mer information finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
-     <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 

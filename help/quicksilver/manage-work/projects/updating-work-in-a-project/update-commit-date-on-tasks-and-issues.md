@@ -6,9 +6,9 @@ description: Du kan uppdatera implementeringsdatumet för en uppgift eller ett �
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '552'
 ht-degree: 0%
 
 ---
@@ -16,11 +16,13 @@ ht-degree: 0%
 
 # Uppdatera implementeringsdatum för aktiviteter och ärenden
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du har tilldelats manuellt. Mer information om implementeringsdatum i Adobe Workfront finns i [Genomför datumöversikt](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -28,7 +30,7 @@ Du kan uppdatera implementeringsdatumet för en uppgift eller ett ärende som du
 
 <!--Audited: 01/2024-->
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> 
-   För de nya licenserna:
+   Nytt:
    <ul>
    <li><p>Standard för uppgifter</p> </li>
    <li><p>Medarbetare eller högre för problem</p></li>
    </ul>
-   För aktuella licenser:
+   Aktuell:
 <ul>
    <li><p>Arbeta eller högre för uppgifter</p></li> 
    <li><p>Begär eller högre för problem</p></li>
@@ -65,7 +67,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -77,10 +81,10 @@ Innan du kan redigera implementeringsdatumet för en uppgift eller utgåva måst
 Du kan uppdatera implementeringsdatumet för en uppgift eller ett problem i följande områden i Workfront:
 
 * Avsnittet Information om en uppgift eller ett problem
-* <span class="preview">Aktivitets- eller problemhuvudet</span>
+* Aktivitets- eller utgivningsrubriken
 
-  <span class="preview">Din Workfront- eller gruppadministratör måste lägga till implementeringsdatumet i huvud för aktiviteten eller utgåvan av din layoutmall för att kunna visa det från aktivitets- eller utgivningssidan.
-Mer information finns i [Anpassa objektrubriker med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  Din Workfront- eller gruppadministratör måste lägga till implementeringsdatumet i uppgifts- eller utgivningsrubriken i layoutmallen för att kunna visa det från uppgifts- eller utgivningssidan.
+Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor.
 
@@ -98,9 +102,9 @@ Uppdateringen av implementeringsdatumet är identisk för uppgifter och utgåvor
 
    Mer information om hur du tar reda på vem som är aktivitetsägare för ett problem eller en uppgift finns i avsnittet [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) i artikeln [Redigera uppgifter](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. <span class="preview">(Villkorligt och valfritt) Om Workfront- eller gruppadministratören har lagt till implementeringsdatumet i huvud för aktiviteten eller utgåvan klickar du på fältet **Bekräftelsedatum** i huvudet och väljer sedan ett datum i kalendern. Om implementeringsdatumet inte finns i huvudet fortsätter du med följande steg. </span>
+1. (Villkorligt och valfritt) Om Workfront- eller gruppadministratören har lagt till implementeringsdatumet i huvud för aktiviteten eller utgåvan klickar du på fältet **Bekräftelsedatum** i huvudet och väljer sedan ett datum i kalendern. Om implementeringsdatumet inte finns i huvudet fortsätter du med följande steg.
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. Klicka på **Uppgiftsinformation** eller **Ärendeinformation** i den vänstra panelen.
 1. Klicka på **Översikt** för att expandera den.

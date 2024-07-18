@@ -6,20 +6,22 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
 
 # Uppdatera villkor för aktiviteter och ärenden
 
-<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 Villkoret för en aktivitet eller ett problem är en flagga som anger hur den ska gå. Detta skiljer sig från arbetsobjektets status, som anger det aktuella utvecklingssteget för objektet.
 
@@ -29,7 +31,7 @@ Villkorsvärdena som vi hänvisar till i den här artikeln är som standard till
 
 ## Åtkomstkrav {#access-requirements}
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>
-
-För de nya licenserna:
-<ul><li><p>Standard för uppgifter</p></li>
+   <td> 
+   Nytt:
+   <ul><li><p>Standard för uppgifter</p></li>
    <li><p>Medarbetare eller högre för problem</p></li></ul>
-
-
-För aktuella licenser:
-<ul><li><p>Arbeta eller högre för uppgifter</p></li>
+   Aktuell:
+   <ul><li><p>Arbeta eller högre för uppgifter</p></li>
    <li><p>Begär eller högre för problem</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ För aktuella licenser:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -78,9 +79,9 @@ Villkor visas som en flagga som är kopplad till uppgifter eller problem. De kan
 
 Du hittar villkoren för åtgärder och problem i följande områden av Workfront:
 
-* <span class="preview">Sidan Detaljer visas när en Workfront- eller gruppadministratör har lagt till den i din layoutmall. Mer information finns i [Anpassa detaljvyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* Sidan Detaljer visas när en Workfront- eller gruppadministratör har lagt till den i layoutmallen. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-* <span class="preview">Rubriken för en aktivitet eller ett problem när en Workfront- eller gruppadministratör har lagt till den i layoutmallen. Mer information finns i [Anpassa objektrubriker med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* Rubriken för en uppgift eller ett problem, efter att en Workfront- eller gruppadministratör har lagt till den i layoutmallen. Mer information finns i [Anpassa objektrubriker med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 * Panelen Sammanfattning visas när en Workfront- eller gruppadministratör har lagt till den i layoutmallen. Mer information finns i [Anpassa hem och sammanfattning med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
@@ -110,7 +111,7 @@ Du kan uppdatera villkoret för en uppgift eller ett problem manuellt i en rappo
 
 >[!NOTE]
 >
->Du kan be system- eller gruppadministratören att lägga till villkorsfältet på panelen Sammanfattning så att det blir enklare att uppdatera det i olika delar av Workfront.
+>Du kan be system- eller gruppadministratören att lägga till villkorsfältet på sammanfattningspanelen eller huvud- eller utleveranssidorna eller informationssidorna.
 >
 >Mer information finns i följande artiklar:
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-Gör något av följande om du vill uppdatera villkoret för en uppgift eller ett problem manuellt:
+Du kan uppdatera villkoret för uppgifter och problem manuellt i olika områden av Workfront. I följande avsnitt beskrivs hur du manuellt kan uppdatera villkor för uppgifter och problem.
 
-<div class="preview">
+### Uppdatera villkoret för en aktivitet eller ett problem i huvud för aktiviteten eller problemet
 
-1. Så här uppdaterar du villkoret för en aktivitet eller ett problem i huvud för aktiviteten eller problemet:
+1. (Villkorligt) Om Workfront- eller gruppadministratören har lagt till fältet Villkor i huvud för aktiviteten eller problemet i layoutmallen klickar du på fältet **Villkor** i sidhuvudet och väljer bland följande alternativ:
+   * Går smidigt
+   * Vissa bekymmer
+   * Större vägspärrar
 
-   1. (Villkorligt) Om Workfront- eller gruppadministratören har lagt till fältet Villkor i huvud för aktiviteten eller problemet i layoutmallen klickar du på fältet **Villkor** i sidhuvudet och väljer bland följande alternativ:
-      * Går smidigt
-      * Vissa bekymmer
-      * Större vägspärrar
+   ![](assets/condition-in-task-header.png)
+1. Klicka på Enter för att spara villkoret.
 
-      ![](assets/condition-in-task-header.png)
-   1. Klicka på Enter för att spara villkoret.
+### Uppdatera villkoret för en aktivitet eller ett problem i avsnittet med information om aktiviteten eller problemet
 
-1. Så här uppdaterar du villkoret för en aktivitet eller ett problem i avsnittet med information om aktiviteten eller problemet:
-
-   1. (Villkorligt) Om Workfront- eller gruppadministratören har lagt till villkorsfältet i informationsavsnittet för en uppgift eller ett problem i layoutmallen klickar du på **Information** i den vänstra panelen, sedan på **Aktivitetsvillkor** eller **Utfärdandevillkor** och väljer något av följande alternativ:
-      * Går smidigt
-      * Vissa bekymmer
-      * Större vägspärrar
+1. (Villkorligt) Om Workfront- eller gruppadministratören har lagt till villkorsfältet i informationsavsnittet för en uppgift eller ett problem i layoutmallen klickar du på **Information** i den vänstra panelen, sedan på **Aktivitetsvillkor** eller **Utfärdandevillkor** och väljer något av följande alternativ:
+   * Går smidigt
+   * Vissa bekymmer
+   * Större vägspärrar
 1. Klicka på **Spara ändringar**. Aktivitets- eller utgivningsvillkoret uppdateras.
 
-</div>
-
-Så här uppdaterar du villkoret för en aktivitet eller ett problem i en rapport eller lista:
+### Uppdatera villkoret för en aktivitet eller ett problem i en rapport eller lista
 
 1. Gå till en lista över uppgifter eller problem som du har behörighet att hantera. Kontrollera att fältet **Villkor** visas i listvyn.
 
