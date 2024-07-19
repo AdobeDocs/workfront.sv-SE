@@ -31,7 +31,7 @@ recommendations: noDisplay, noCatalog
 
 Du kan redigera fältinställningarna för fält som redan har skapats i Adobe Workfront Planning.
 
-Mer information om hur du skapar planeringsfält i Adobe Workfront finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
+Mer information om hur du skapar Adobe Workfront Planning-fält finns i [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
 I den här artikeln beskrivs hur du kan redigera inställningarna för Workfront Planning-fält. Mer information om hur du redigerar fältvärden för poster finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 
@@ -79,7 +79,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta</a> </p>  
+   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -92,7 +92,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -138,7 +138,7 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
 
    Då öppnas posttypens sida.
 
-1. (Villkorligt) Klicka på fliken för en **Tabellvy**.
+1. (Villkorligt) Klicka på fliken i en **tabellvy**.
 
    Alla befintliga poster som är associerade med posttypen visas i tabellvyns rader.
 1. Håll markören över kolumnrubriken för ett fält som du vill redigera, klicka sedan på nedåtpilen efter fältnamnet och klicka sedan på **Redigera fält**
@@ -159,7 +159,7 @@ Du måste tänka på följande innan du gör ändringar i ett fälts konfigurati
 
    Fältinformationen uppdateras för alla som har åtkomst till arbetsytan.
 
-1. (Villkorligt) Klicka på för länkade postfält **Redigera sökfält** och lägga till eller ta bort fält från den länkade posttypen.
+1. (Villkorligt) För länkade postfält klickar du på **Redigera uppslagsfält** och lägger till eller tar bort något av fälten från den länkade posttypen.
 
    Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 

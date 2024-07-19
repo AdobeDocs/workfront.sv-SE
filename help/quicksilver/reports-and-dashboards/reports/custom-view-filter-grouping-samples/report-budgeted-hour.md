@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -61,13 +61,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 ## Bygg en budgeterad timrapport
 
-1. Klicka på **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
+1. Klicka på **Huvudmenyn** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
 
-1. Klicka **Ny rapport > Budgeterad timme**.
+1. Klicka på **Ny rapport > Budgeterad timme**.
 
    Standardvyn används för rapporten.
 
-1. (Valfritt) Om du vill göra rapporten lättare att läsa klickar du på **Budgeterade timmar** kolumn, sedan **Växla till textläge** och sedan ändra
+1. (Valfritt) Om du vill göra rapporten enklare att läsa klickar du på kolumnen **Budgeterade timmar**, **Växla till textläge** och ändrar sedan
 
    ```
    valuefield
@@ -83,20 +83,20 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
    Detta avrundar antalet budgeterade timmar till ett antal decimaler som du anger.
 
-   Mer information om hur du avrundar ett tal i Workfront finns i artikeln [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Mer information om hur du rundar av ett tal i Workfront finns i artikeln [Översikt över beräknade datauttryck](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. (Valfritt) Klicka på **Lägg till kolumn** om du vill lägga till ytterligare kolumner.
+1. (Valfritt) Klicka på **Lägg till kolumn** om du vill lägga till fler kolumner.
 1. (Valfritt) För att rapporten ska bli lättare att läsa rekommenderar vi att du lägger till en gruppering i den. Vi föreslår följande gruppering:
 
-   Klicka på **Grupperingar** gör du något av följande:
+   Klicka på fliken **Grupperingar** och gör sedan något eller flera av följande:
 
-   1. Klicka **Lägg till gruppering** och börja skriva &quot;Projektnamn&quot; och markera det sedan när det visas i listan.
-   1. Klicka **Lägg till gruppering** och börja skriva&quot;Jobbrollnamn&quot; och markera det sedan när det visas i listan.
-   1. Klicka **Lägg till gruppering** och börja skriva **Fördelningsdatum** markerar du den när den visas i listan och väljer sedan den tidsram som du vill gruppera efter på menyn **Gruppera datum efter** fält.
+   1. Klicka på **Lägg till gruppering** och börja skriva &quot;Projektnamn&quot;. Markera grupperingen när den visas i listan.
+   1. Klicka på **Lägg till gruppering** och börja skriva &quot;Jobbrollnamn&quot; och markera det när det visas i listan.
+   1. Klicka på **Lägg till gruppering** och börja skriva **Allokeringsdatum**, markera den när den visas i listan och välj sedan den tidsram som du vill gruppera i fältet **Gruppera datum efter**.
 
-1. (Valfritt) Klicka på **Filter** för att lägga till filter i rapporten.
-1. (Valfritt) Klicka på **Diagram** om du vill lägga till ett diagram i rapporten.
-1. Klicka **Spara + Stäng**.
+1. (Valfritt) Klicka på **Filter** om du vill lägga till filter i rapporten.
+1. (Valfritt) Klicka på **Diagram** om du vill lägga till ett diagram i rapporten.
+1. Klicka på **Spara + Stäng**.
 
 ## Granska rapporten om budgeterad timme
 

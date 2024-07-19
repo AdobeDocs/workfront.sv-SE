@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1222'
 ht-degree: 0%
 
 ---
@@ -33,14 +33,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Dela en korrekturlänk
 
@@ -64,12 +64,12 @@ Genom att dela en korrekturlänk får Workfront-användare åtkomst. Användare 
 >
 >Inställningen Tillåt delning av korrektur via offentlig URL eller inbäddningskod måste vara aktiverad.
 
-1. Markera dokumentet som innehåller det korrektur som du vill dela med användarna.
+1. Markera det dokument som innehåller det korrektur som du vill dela med användarna.
 
    Du kan bara markera ett dokument. Du kan inte dela länken för flera dokument samtidigt.
 
-1. Klicka **Dela** > **Korrekturlänk**.
-1. I **Korrekturlänk** gör något av följande i den ruta som visas:
+1. Klicka på **Dela** > **Korrekturlänk**.
+1. Gör något av följande i rutan **Korrekturlänk** som visas:
 
    * Om du vill kopiera länken till Urklipp klickar du på **Kopiera länk**.
 
@@ -77,7 +77,7 @@ Genom att dela en korrekturlänk får Workfront-användare åtkomst. Användare 
 
    * Så här skickar du länken direkt från Adobe Workfront:
 
-      1. I **Eller e-postlänk till** börjar du skriva och väljer namnet på mottagaren. Eller ange e-postadressen till en extern användare som du vill dela med.
+      1. I fältet **Eller e-postlänk till** börjar du skriva och väljer namnet på mottagaren. Eller ange e-postadressen till en extern användare som du vill dela med.
 
          >[!NOTE]
          >
@@ -91,7 +91,7 @@ Genom att dela en korrekturlänk får Workfront-användare åtkomst. Användare 
           <tbody>
            <tr>
             <td role="rowheader">Skicka offentlig länk</td>
-            <td><p>Inkluderar en knapp i e-postmeddelandet som dirigerar användare till korrekturet i det korrekturläsare som de använder och beviljar visningsåtkomst.</p><p>If <strong>Prenumerera på korrektur via offentlig URL eller inbäddningskod</strong> är inaktiverat för korrekturet, kan användare logga in med sina inloggningsuppgifter för Workfront för att lägga till kommentarer i korrekturet. Om det är aktiverat kan alla som anger sin e-postadress och sitt namn (inget lösenord krävs) signera och lägga till kommentarer i korrekturet.</p></td>
+            <td><p>Inkluderar en knapp i e-postmeddelandet som dirigerar användare till korrekturet i det korrekturläsare som de använder och beviljar visningsåtkomst.</p><p>Om <strong>Prenumerera på korrektur via offentlig URL eller inbäddningskod</strong> är inaktiverat för korrekturet kan användare logga in med sina inloggningsuppgifter för Workfront för att lägga till kommentarer i korrekturet. Om det är aktiverat kan alla som anger sin e-postadress och sitt namn (inget lösenord krävs) signera och lägga till kommentarer i korrekturet.</p></td>
            </tr>
            <tr>
             <td role="rowheader">Skicka nedladdningslänk</td>
@@ -104,7 +104,7 @@ Genom att dela en korrekturlänk får Workfront-användare åtkomst. Användare 
           </tbody>
          </table>
 
-      1. Klicka **Skicka**.
+      1. Klicka på **Skicka**.
 
          Mottagarna får ett e-postmeddelande med information om det korrektur och de knappar du valt att inkludera.
 
@@ -123,7 +123,7 @@ Du kan lägga till valfri Workfront-användare i korrekturet om du har redigerin
 
 >[!NOTE]
 >
->Tänk på följande om du använder en äldre Workfront-plan där språkkontroll kan aktiveras och inaktiveras för en användare:
+>Tänk på följande om du använder en äldre Workfront-plan där korrektur kan aktiveras och inaktiveras för en användare:
 >
 >* Mottagarna behöver inte ha språkkontroll aktiverat för att kunna granska korrekturet.
 >* När Automatiserat arbetsflöde är aktiverat och du lägger till en användare till korrekturet som inte har språkkontroll aktiverat i Workfront, skapas en ny fas i det automatiserade arbetsflödet. Användaren som du lägger till läggs automatiskt till på den nya scenen när han/hon visar korrekturet för första gången. (Mer information finns i [Översikt över automatiserat arbetsflöde](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).)
@@ -132,18 +132,18 @@ Du kan lägga till valfri Workfront-användare i korrekturet om du har redigerin
 ### Lägga till användare i ett befintligt korrektur från fliken Dokument
 
 1. Markera dokumentet som innehåller det korrektur som du vill lägga till användare i.
-1. Om korrekturet inte har ett automatiskt arbetsflöde (steg) klickar du på **Mer** ikonen i det övre högra hörnet av scenen 1 och klicka sedan på **Dela** i listrutan.
+1. Om korrekturet inte har ett automatiskt arbetsflöde (steg) klickar du på ikonen **Mer** i det övre högra hörnet av scenen 1 och sedan på **Dela** i listrutan.
 
    eller
 
-   Om korrekturet har ett automatiskt arbetsflöde klickar du på **Mer** ikonen i det övre högra hörnet av scenen där du vill lägga till granskaren och klicka sedan på **Dela** i listrutan.
+   Om korrekturet har ett automatiserat arbetsflöde klickar du på ikonen **Mer** i det övre högra hörnet av scenen där du vill lägga till granskaren. Klicka sedan på **Dela** i listrutan.
 
-1. I **Dela den här versionen** ruta som visas, under **Dela** börjar du skriva namnet eller e-postadressen till en användare som du vill dela korrekturet med och klickar sedan på namnet när det visas i listrutan.
+1. I rutan **Dela den här versionen** som visas, under **Dela**, börjar du skriva namnet eller e-postadressen till en användare som du vill dela korrekturet med och klickar sedan på namnet som visas i listrutan.
 
 1. (Valfritt) Upprepa det här steget om du vill lägga till flera användare till korrekturet.
 1. (Valfritt) Ange en deadline för granskarna.
-1. (Valfritt) Kontrollera **Meddela personer via e-post** är markerat om du vill att granskarna ska veta att du har lagt till dem i korrekturet.
-1. (Valfritt) **Lägg till ett anpassat meddelande** till e-postmeddelandet.
+1. (Valfritt) Kontrollera att **Meddela personer via e-post** är markerat om du vill att granskarna ska veta att du har lagt till dem i korrekturet.
+1. (Valfritt) **Lägg till ett anpassat meddelande** i e-postmeddelandet.
 1. När du har lagt till alla granskare klickar du på **Dela**.
 
 ### Lägga till användare i ett befintligt korrektur från korrekturläsaren
@@ -164,10 +164,10 @@ Du kan skapa en rapport som rapporterar om korrekturgodkännanden som har delats
 
 Du får åtkomst till det här godkännandet när du skapar en rapport baserad på ett objekt, vilket beskrivs i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Mer information om objektrapporten för korrekturgodkännanden finns i [Rapport om objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) avsnitt i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+Mer information om objektrapporten för korrekturgodkännanden finns i avsnittet [Rapport om objekt](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) i [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
 
 ## Godkänn ett delat korrektur
 
 När en användare lägger till dig i ett korrektur och beviljar rollen Godkännare eller rollen Granskare och godkännare med hjälp av automatiserat arbetsflöde, visas godkännandebegäran på fliken Godkännanden i Hem eller Min arbetsyta. Sedan kan du titta på beviset och godkänna det direkt från Workfront.
 
-Mer information om hur du fattar beslut om godkännande på arbetsytan Mitt arbete finns i [Godkänn arbete från startsidan](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) eller [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) in [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).
+Mer information om hur du fattar beslut om godkännande på arbetsytan Mitt arbete finns i [Godkänn arbete på startsidan](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) eller [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) i [Godkänna arbete](../../../review-and-approve-work/manage-approvals/approving-work.md).

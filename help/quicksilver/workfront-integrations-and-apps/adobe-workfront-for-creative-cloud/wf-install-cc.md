@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Installera och öppna [!DNL Adobe Workfront for design and video]
-description: Du kan installera [!DNL Adobe Workfront for design and video] från Adobe Marketplace.
+description: Du kan installera  [!DNL Adobe Workfront for design and video]  från Adobe Marketplace.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
@@ -57,36 +57,36 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td><p>Du måste ha en [!DNL Adobe Creative Cloud] utöver en [!DNL Workfront] licens.</p><p>Mer information finns i <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud supportpolicy</a>.</p></td> 
+   <td><p>Du måste ha en [!DNL Adobe Creative Cloud]-licens förutom en [!DNL Workfront]-licens.</p><p>Mer information finns i <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud supportpolicy</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 +++
 
 ## Förutsättningar
 
-* Du måste installera [!DNL Creative Cloud] det program du vill använda innan du installerar Workfront-plugin-programmet för det programmet.
+* Du måste installera det [!DNL Creative Cloud]-program du vill använda innan du installerar Workfront-plugin-programmet för det programmet.
 
-## Installera [!DNL Workfront for design and video] för er organisation
+## Installera [!DNL Workfront for design and video] för din organisation
 
-Om du är [!DNL Adobe Admin Console] administratör kan du inkludera [!DNL Adobe Workfront for design and video] in [!DNL Creative Cloud] distributionspaket. Mer information finns i [Inkludera plugin-program i paketet](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
+Om du är [!DNL Adobe Admin Console]-administratör kan du inkludera [!DNL Adobe Workfront for design and video] i [!DNL Creative Cloud] distributionspaket. Mer information finns i [Inkludera plugin-program i ditt paket](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html).
 
-[Se en självstudiekurs här](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
+[Visa en självstudiekurs här](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}.
 
-[!DNL Adobe Admin Console] administratörer kan också skapa paket som bara innehåller plugin-program för distribution till användare. Mer information finns i [Skapa [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] paket för dina användare i [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+[!DNL Adobe Admin Console]-administratörer kan också skapa paket som bara innehåller plugin-program för distribution till användare. Mer information finns i [Skapa [!UICONTROL [!DNL Adobe Workfront] för [!DNL Creative Cloud]] paket för dina användare i  [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
 ## Installera [!DNL Workfront for design and video] individuellt
 
-Du kan installera [!DNL Adobe Workfront for design and video] för dig själv från [!DNL Adobe Exchange].
+Du kan installera [!DNL Adobe Workfront for design and video] själv från [!DNL Adobe Exchange].
 
-1. Gå till [Installationssida för Adobe Workfront för design och video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) på Adobe Exchange.
-1. Klicka på **Öppna [!DNL Adobe Creative Cloud] datorprogram**.
-1. En gång [!DNL Adobe Creative Cloud] plugin-hanteraren öppnas, klicka **[!UICONTROL Install]**.
+1. Gå till installationssidan för [Adobe Workfront för design och video](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=108938&amp;workflow=share) på Adobe Exchange.
+1. Klicka på **Öppna [!DNL Adobe Creative Cloud] skrivbordsapp** i den dialogruta som visas.
+1. När plugin-hanteraren för [!DNL Adobe Creative Cloud] öppnas klickar du på **[!UICONTROL Install]**.
 1. Läs informationen i dialogrutan och klicka sedan på **[!UICONTROL OK]**.
-1. En gång [!DNL Workfront for design and video] i installerat, öppna [!DNL Creative Cloud] app du behöver och hitta [!DNL Workfront] plugin-program på panelen för plugin-program.
+1. När [!DNL Workfront for design and video] har installerats öppnar du den [!DNL Creative Cloud]-app du behöver och letar upp plugin-programmet [!DNL Workfront] på panelen för plugin-program.
 
 1. Fortsätt till följande avsnitt för information om hur du öppnar [!DNL Workfront for design and video].
 
@@ -96,7 +96,7 @@ Du kan installera [!DNL Adobe Workfront for design and video] för dig själv fr
 
 1. Skapa ett nytt projekt eller öppna ett befintligt.
 
-1. Klicka på i den övre menyn **Windows** > **Tillägg** > **Adobe Workfront-menyn**.
+1. Klicka på **Windows** > **Tillägg** > **Adobe Workfront-meny** på den översta menyn.
 
    >[!NOTE]
    >
@@ -107,37 +107,37 @@ Du kan installera [!DNL Adobe Workfront for design and video] för dig själv fr
 
    >[!TIP]
    >
-   >Om du inte ser [!DNL Adobe Workfront for design and video] när du har öppnat det från menyn Tillägg kan det ligga bakom appen Creative Cloud. Försök att minimera appen för att hitta plugin-programmet.
+   >Om du inte ser [!DNL Adobe Workfront for design and video] när du har öppnat den från menyn Tillägg kan det finnas bakom appen Creative Cloud. Försök att minimera appen för att hitta plugin-programmet.
 
 1. Fortsätt till följande avsnitt för information om hur du loggar in på [!DNL Adobe Workfront for design and video].
 
 
 ## Logga in på [!DNL Adobe Workfront for design and video]
 
-1. Från **[!UICONTROL Plugins]** menyn längst upp på skärmen väljer du **[!UICONTROL Plugin Panel]**.
+1. Välj **[!UICONTROL Plugin Panel]** på menyn **[!UICONTROL Plugins]** överst på skärmen.
 1. Välj **[!DNL Adobe Workfront for design and video]**.
 1. Ange din domän och klicka sedan på **[!UICONTROL Log in]**. En webbläsarsida öppnas.
 
    >[!TIP]
    >
-   >* Om du vill hitta din domän öppnar du en webbläsare och navigerar till [!DNL Workfront] -instans och kopiera den första delen av URL:en:\
+   >* Om du vill hitta din domän öppnar du en webbläsare, navigerar till din [!DNL Workfront]-instans och kopierar den första delen av URL-adressen:\
    >![](assets/domain-350x50.png)
    >
    > * Om din Workfront-instans är integrerad med Experience Cloud ber du din administratör att ge dig den Workfront-domän som finns under Product > Workfront i Admin Console.
 
-1. Ange [!DNL Workfront] inloggningsuppgifter och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
+1. Ange dina [!DNL Workfront]-inloggningsuppgifter i webbläsaren och klicka sedan på **[!UICONTROL Log in]**. Om ditt företag använder en enkel inloggning (SSO) dirigeras du till din SSO-leverantörs sida för att logga in.
 
    >[!NOTE]
    >
-   >Du behöver inte ange [!DNL Workfront] autentiseringsuppgifter om du loggade in nyligen.
+   >Du behöver inte ange dina [!DNL Workfront]-inloggningsuppgifter om du nyligen har loggat in.
 
-1. Följ instruktionerna för att logga in på [!DNL Workfront].
+1. Logga in på [!DNL Workfront] genom att följa anvisningarna.
 
    >[!NOTE]
    >
    >* [!DNL Workfront] ansluter till [!DNL Adobe Creative Cloud] med OAuth 2.0, en säker standard som används av de flesta webbaserade integreringar för autentisering och auktorisering av användare.
-   >* När du uppmanas att ange [domän eller värd] på [!DNL Workfront] konto, skriv in det i följande format: *ditt företagsDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
+   >* När du uppmanas att ange [domän eller värd] för ditt [!DNL Workfront]-konto skriver du det i det här formatet: *ditt företags sDomain.my.workfront.com*. Företagets domän är vanligtvis namnet på ditt företag.
 
-1. Klicka **[!UICONTROL Allow Access]** för att slutföra inloggningen.
+1. Klicka på **[!UICONTROL Allow Access]** för att slutföra inloggningen.
 1. Gå tillbaka till [!DNL Adobe Photoshop] för att se ditt arbete.
 

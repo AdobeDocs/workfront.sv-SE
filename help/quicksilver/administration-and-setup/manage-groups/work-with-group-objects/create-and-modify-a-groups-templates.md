@@ -35,7 +35,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -48,14 +48,14 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 ## Visa, arbeta med och skapa mallar för din grupp i området Grupper
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper** ![](assets/groups-icon.png).
+1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
 1. Klicka på namnet på gruppen som du vill skapa eller ändra mallar för.
-1. Klicka på i den vänstra panelen **Mallar** för att lista de mallar som är associerade med gruppen och med eventuella undergrupper som den har.
+1. Klicka på **Mallar** i den vänstra panelen för att visa de mallar som är kopplade till gruppen och till eventuella undergrupper.
 
-   Du måste ha behörigheten Visa för en mall för att kunna se den i den här listan. Mer information om åtkomst finns i [Bevilja åtkomst till mallar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+   Du måste ha behörigheten Visa för en mall för att kunna se den i den här listan. Mer information om den här åtkomsten finns i [Bevilja åtkomst till mallar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
 1. Gör något av följande:
 
@@ -65,34 +65,34 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
     <tbody> 
      <tr> 
       <td role="rowheader">Lägga till en mall</td> 
-      <td> <p>Klicka <strong>Ny mall</strong>och sedan konfigurera den med de tillgängliga alternativen. Mer information om de här alternativen finns i <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Skapa en projektmall</a>.</p> <p>Mallen kopplas automatiskt till gruppen.</p> <p>Mer information om hur gruppinställningar används för nya mallar finns i <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref">Hur inställningar gäller för mallar och malluppgifter</a> i den här artikeln.</p> </td> 
+      <td> <p>Klicka på <strong>Ny mall</strong> och konfigurera den sedan med de tillgängliga alternativen. Mer information om de här alternativen finns i <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Skapa en projektmall</a>.</p> <p>Mallen kopplas automatiskt till gruppen.</p> <p>Mer information om hur gruppinställningar gäller för nya mallar finns i <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref">Hur inställningar gäller för mallar och malluppgifter</a> i den här artikeln.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Redigera en eller flera mallar</td> 
-      <td> <p>Markera minst en mall och klicka på ikonen Redigera <img src="assets/edit-icon.png">använder du sedan något av de tillgängliga alternativen för att konfigurera det. Mer information om de här alternativen finns i <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Redigera projektmallar</a>.</p> <p>Ikonen Redigera är bara tillgänglig om du har behörighet att redigera till alla mallar du väljer. Mer information om åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Bevilja åtkomst till mallar</a>.</p> </td> 
+      <td> <p>Välj minst en mall, klicka på ikonen Redigera <img src="assets/edit-icon.png"> och använd sedan något av de tillgängliga alternativen för att konfigurera den. Mer information om de här alternativen finns i <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Redigera projektmallar</a>.</p> <p>Ikonen Redigera är bara tillgänglig om du har behörighet att redigera till alla mallar du väljer. Mer information om den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Bevilja åtkomst till mallar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ta bort en eller flera mallar</td> 
-      <td> <p>Markera minst en mall och klicka sedan på ikonen Ta bort <img src="assets/delete.png">.</p> <p>Den här ikonen är bara tillgänglig om du har redigeringsåtkomst till alla mallar som du väljer. Mer information om åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Bevilja åtkomst till mallar</a>.</p> </td> 
+      <td> <p>Välj minst en mall och klicka sedan på ikonen Ta bort <img src="assets/delete.png">.</p> <p>Den här ikonen är bara tillgänglig om du har redigeringsåtkomst till alla mallar som du väljer. Mer information om den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Bevilja åtkomst till mallar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dela en eller flera mallar</td> 
-      <td> <p>Välj minst en mall och klicka på ikonen Dela <img src="assets/share-icon.png">klickar du sedan på något av följande alternativ i listrutan:</p> 
+      <td> <p>Välj minst en mall, klicka på delningsikonen <img src="assets/share-icon.png"> och klicka sedan på något av följande alternativ i listrutan:</p> 
        <ul> 
-        <li> <p><strong>Mall</strong>: I <strong>Mallåtkomst</strong> som visas lägger du till namn för att ange vilka du vill ha åtkomst till själva mallen.</p> <p>Mer information finns i avsnittet <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Dela en mall</a> i artikeln <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Dela projektmallar</a>.</p> </li> 
-        <li><strong>Projekt</strong>: I <strong>Projektåtkomst</strong> ruta som visas, lägg till namn för att ange vilka du vill ha åtkomst till projekt som skapats från mallen</li> 
-       </ul> <p>Ikonen Dela är bara tillgänglig om du har delningsåtkomst till alla mallar du väljer. Mer information om åtkomst finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Bevilja åtkomst till mallar</a>.</p> </td> 
+        <li> <p><strong>Mall</strong>: I rutan <strong>Mallåtkomst</strong> som visas lägger du till namn för att ange vilka du vill ha åtkomst till själva mallen.</p> <p>Mer information finns i avsnittet <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Dela en mall</a> i artikeln <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Dela projektmallar</a>.</p> </li> 
+        <li><strong>Projekt</strong>: I rutan <strong>Projektåtkomst</strong> som visas lägger du till namn för att ange vilka du vill ha åtkomst till projekt som skapats från mallen</li> 
+       </ul> <p>Ikonen Dela är bara tillgänglig om du har delningsåtkomst till alla mallar du väljer. Mer information om den här åtkomsten finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Bevilja åtkomst till mallar</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Exportera listan med mallar</td> 
-      <td>Klicka <strong>Exportera</strong> <img src="assets/export.png">väljer du sedan det filformat du vill använda för den exporterade listan.</td> 
+      <td>Klicka på <strong>Exportera</strong> <img src="assets/export.png"> och välj sedan det filformat som du vill använda för den exporterade listan.</td> 
      </tr> 
     </tbody> 
    </table>
 
 ## Hur inställningar gäller för mallar och malluppgifter {#how-preferences-apply-to-templates-and-template-tasks}
 
-När du skapar en projektmall konfigureras inställningarna i tabellerna nedan automatiskt av en korrelerande projekt- eller uppgiftsinställning.
+När du skapar en projektmall konfigureras inställningarna som anges i tabellerna nedan automatiskt av en korrelerande projekt- eller uppgiftsinställning.
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ När du skapar en projektmall konfigureras inställningarna i tabellerna nedan a
 >Om du har associerat den med en grupp träder inställningen på gruppnivå i kraft. Detta inträffar i följande scenarier:
 >
 >* Du skapar mallen från området Grupper, vilket förklaras i den här artikeln
->* Du anger en grupp när du skapar mallen med hjälp av en Kickstart-fil
+>* Du anger en grupp när du skapar mallen med hjälp av en snabbstartfil
 >* Du anger en grupp när du skapar mallen med API:t
 >
 >Om du inte har kopplat den nya mallen till en grupp börjar inställningarna på systemnivå gälla. Detta inträffar i scenarierna nedan. (Om du senare tilldelar en grupp till mallen eller malluppgiften påverkar inte gruppens inställningar den.)
@@ -110,7 +110,6 @@ När du skapar en projektmall konfigureras inställningarna i tabellerna nedan a
 >* Du anger ingen grupp när du skapar mallen med hjälp av en Kickstart-fil
 >* Du anger ingen grupp när du skapar mallen med API:t
 >
-
 
 * [Projektmallsinställningar som konfigurerats av projekt- och uppgiftsinställningar](#project-template-settings-configured-by-project-and-task-preferences)
 * [Malluppgiftsinställningar som konfigurerats av uppgiftsinställningarna](#template-task-settings-configured-by-task-preferences)
@@ -134,7 +133,7 @@ När du skapar en projektmall konfigureras inställningarna i tabellerna nedan a
    <td> <p>Konfigureras av projektinställningen "Schemalägg från" på gruppnivå om du associerar den nya mallen med en grupp, eller samma projektinställning på systemnivå om du inte gör det.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Användartid ledig</p> </td> 
+   <td role="rowheader"> <p>Användaren är ledig</p> </td> 
    <td> <p>Konfigureras av projektinställningen på gruppnivå,"användartid av", om du kopplar den nya mallen till en grupp, eller samma projektinställning på systemnivå om du inte gör det.</p> </td> 
   </tr> 
   <tr> 
@@ -150,21 +149,22 @@ När du skapar en projektmall konfigureras inställningarna i tabellerna nedan a
 
 Mer information om projektinställningarna i den här tabellen finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Mer information om inställningar för aktivitet och problem finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om inställningar för aktivitet och problem finns i [Konfigurera inställningar för åtgärd och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!NOTE]
 >
 >* Om du ändrar gruppen som är kopplad till en befintlig projektmall ändras inte mallens inställningar.
 >* Om du flyttar en befintlig malluppgift till en annan mall förblir följande inställningar oförändrade i malluppgiften, oavsett vilken grupp som är associerad med den nya mallen:>
-   >   * Typ av varaktighet
-   >   * Intäktstyp
-   >   * Kostnadstyp
+>   * Varaktighetstyp
+>   * Intäktstyp
+>   * Kostnadstyp
 >
 >  Malluppgiften påverkas dock av inställningen &quot;När någon tilldelas till en uppgift&quot; i den nya mallen. Mer information finns i avsnittet [Åtkomst](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) i artikeln [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 >
 >* När en administratör sparar ett projekt som en mall ärvs alla inställningar för mallen från projektet, inklusive gruppen.
 >
 >  När en administratör konverterar en uppgift eller ett problem till ett projekt med hjälp av en mall, bestäms alla inställningar för mallen av vad som redan har sparats i mallen.
+>
 
 ### Malluppgiftsinställningar som konfigurerats av uppgiftsinställningarna {#template-task-settings-configured-by-task-preferences}
 
@@ -175,7 +175,7 @@ När du skapar en malluppgift konfigureras vissa av dess inställningar automati
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>Typ av varaktighet </p> </td> 
+   <td role="rowheader"> <p>Varaktighetstyp </p> </td> 
    <td> <p>Konfigureras av aktivitetsinställningen "Varaktighetstyp" på gruppnivå om du kopplar mallen till en grupp, eller av samma åtgärd och utleveransinställning på systemnivå om du inte gör det.</p> </td> 
   </tr> 
   <tr> 
@@ -189,4 +189,4 @@ När du skapar en malluppgift konfigureras vissa av dess inställningar automati
  </tbody> 
 </table>
 
-Mer information om uppgiftsinställningarna i den här tabellen finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Mer information om uppgiftsinställningarna som anges i den här tabellen finns i [Konfigurera inställningar för aktiviteter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).

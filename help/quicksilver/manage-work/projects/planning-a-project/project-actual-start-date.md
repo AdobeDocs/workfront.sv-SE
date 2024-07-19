@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 * Det faktiska startdatumet fylls i när arbetet faktiskt börjar med projektet, aktiviteten eller utgåvan.
 * Faktiskt startdatum visas inte på fliken Projektinformation om projektet inte har startats ännu.
 
-   Faktiskt startdatum visas tomt på flikarna Aktivitets- och Utfärdandeinformation om arbetet inte har startats ännu.
+  Faktiskt startdatum visas tomt på flikarna Aktivitets- och Utfärdandeinformation om arbetet inte har startats ännu.
 
 * Du kan ändra det faktiska startdatumet för en uppgift eller ett problem manuellt, men du kan inte ändra det faktiska startdatumet för ett projekt.
 
@@ -62,15 +62,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 * Workfront ställer automatiskt in faktiskt datum för ett projekt när något av följande inträffar:
 
-   * En uppgiftstilldelad ändrar status för en uppgift från *Nytt* till en annan status som inte motsvarar *Nytt*.
+   * En tilldelad aktivitet ändrar status för en aktivitet från *Nytt* till en annan status som inte motsvarar *Nytt*.
 
    * En tilldelad uppgift ändrar Procent färdigt för en uppgift.
 
-      >[!IMPORTANT]
-      >
-      >Projektets faktiska startdatum fylls inte i när projektet har markerats som Aktuellt. Faktiskt arbete måste starta på aktiviteterna i projektet innan projektets faktiska startdatum fylls i.
+     >[!IMPORTANT]
+     >
+     >Projektets faktiska startdatum fylls inte i när projektet har markerats som Aktuellt. Faktiskt arbete måste starta på aktiviteterna i projektet innan projektets faktiska startdatum fylls i.
 
-      I dessa fall anges projektets faktiska startdatum till det datum och den tidpunkt då dessa åtgärder utfördes för den tidigaste aktiviteten i projektet. Detta anger att projektet faktiskt startades på detta datum och denna tid.
+     I dessa fall anges projektets faktiska startdatum till det datum och den tidpunkt då dessa åtgärder utfördes för den tidigaste aktiviteten i projektet. Detta anger att projektet faktiskt startades på detta datum och denna tid.
 
 ## Hitta det faktiska startdatumet för ett projekt
 
@@ -79,13 +79,13 @@ Du kan hitta det faktiska startdatumet för ett projekt i följande områden:
 * I avsnittet Detaljer för ett projekt.
 * När du lägger till det faktiska startdatumet för objektet Projekt i rapporten i en projektrapport eller projektvy.
 
-   Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Mer information om hur du skapar rapporter finns i artikeln [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Så här hittar du det faktiska startdatumet i avsnittet Detaljer i projektet:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Projekt**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Projekt**.
 1. Klicka på det projekt som du vill visa det faktiska startdatumet för.
-1. Klicka **Projektinformation** i den vänstra panelen och sedan gå till **Översikt** -avsnitt.
+1. Klicka på **Projektinformation** i den vänstra panelen och gå sedan till avsnittet **Översikt**.
 
    Det faktiska startdatumet visas tillsammans med andra projektdatum.
 

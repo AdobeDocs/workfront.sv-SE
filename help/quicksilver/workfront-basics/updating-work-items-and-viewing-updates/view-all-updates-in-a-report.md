@@ -60,7 +60,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Mer information finns på [Åtkomstkrav i Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Skapa en anteckningsrapport
 
@@ -68,26 +68,26 @@ Att skapa en rapport för anteckningar för ett objekt är identiskt, oavsett ob
 
 Om du till exempel vill skapa en anteckningsrapport för alla anteckningar i ett projekt:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Rapporter**.
-1. Klicka **Ny rapport** väljer du **Anteckning**.
+1. Klicka på **Rapporter**.
+1. Klicka på **Ny rapport** och välj sedan **Obs!**.
 
-1. (Valfritt) Klicka på **Vyer** sedan **Lägg till kolumn** för att lägga till **Namn** i **Projekt** i rapportens vy. 
+1. (Valfritt) Klicka på **Vyer** och sedan på **Lägg till kolumn** för att lägga till **namnet** för **projektet** i rapportvyn. 
 
-1. (Valfritt) Klicka på **Grupperingar** sedan **Lägg till gruppering** att gruppera efter **Projektnamn**, om du rapporterar om flera projekt samtidigt.\
+1. (Valfritt) Klicka på **Grupperingar** och sedan på **Lägg till gruppering** i gruppen med **Projektnamn** om du rapporterar flera projekt samtidigt.\
    Detta gör att anteckningarna grupperas efter deras respektive projekt, vilket gör rapporten lättare att läsa. 
 
-1. (Valfritt) Klicka på **Filter,** sedan **Lägg till en filterregel**.
-1. Lägg till ett filter för **Anteckning** > **Anteckningstext** > **Är inte tom**.
+1. (Valfritt) Klicka på **Filter,** och sedan **Lägg till en filterregel**.
+1. Lägg till ett filter för **Obs!** > **Anteckningstext** > **Är inte tom**.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Om ett projektfält uppdaterades men ingen anteckning lades till vid tidpunkten för uppdateringen **Anteckningstext** av uppdateringen visas som **(Ingen text har lagts till för uppdatering)**.
+   >   Om ett projektfält uppdaterades men ingen anteckning lades till vid tidpunkten för uppdateringen, visas **anteckningstexten** för uppdateringen som **(Ingen text har lagts till för uppdatering)**.
 
 
-1. (Valfritt) Lägg till ytterligare ett filter för **Projekt** > **Namn** > **Lika med** och lägg till ett eller flera projektnamn som du vill visa anteckningar för.
-1. Klicka **Spara + Stäng**.\
+1. (Valfritt) Lägg till ett annat filter för **Projekt** > **Namn** > **Lika med** och lägg till ett eller flera projektnamn som du vill visa anteckningar för.
+1. Klicka på **Spara + Stäng**.\
    Alla uppdateringar som har angetts i projektet av alla användare med behörighet att åtminstone visa projektet visas i rapporten.

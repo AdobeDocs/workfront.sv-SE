@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Din Adobe Workfront-administratör kan ge dig åtkomst att visa eller redigera ekonomiska data när du tilldelar åtkomstnivån. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 Förutom den åtkomstnivå som användare har beviljats kan du även ge dem behörighet att visa eller hantera ekonomi för specifika projekt, uppgifter eller problem som du har tillgång till för delning.
 
-Mer information om vad användare på varje åtkomstnivå kan göra med ekonomiska data finns i avsnittet [Finansiella uppgifter](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) i artikeln [Tillgängliga funktioner för varje objekttyp](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Mer information om vad användare på varje åtkomstnivå kan göra med ekonomiska data finns i avsnittet [Finansiella data](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) i artikeln [Tillgängliga funktioner för varje objekttyp](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
 ## Åtkomstkrav
 
@@ -70,7 +70,7 @@ Du måste ha följande för att kunna dela finansiell information om objekt:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomst till projekt, uppgifter, ärenden och ekonomiska data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomst till projekt, uppgifter, ärenden och ekonomiska data</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -85,15 +85,15 @@ Du måste ha följande för att kunna dela finansiell information om objekt:
 
 Tänk på följande när du tilldelar ekonomiska behörigheter till objekt:
 
-* Du kan bevilja ekonomiska behörigheter för projekt, uppgifter, ärenden, <span class="preview">och betygskort</span>.
-* Behörigheter kan ärvas: Om du har behörigheten Visa ekonomi för ett projekt ärver du automatiskt behörigheten Visa ekonomi för aktiviteterna och problemen i projektet.
+* Du kan bevilja ekonomiska behörigheter för projekt, aktiviteter, utgåvor, <span class="preview">och betygskort</span>.
+* Behörigheter kan ärvas: om du har behörigheten Visa finansiering för ett projekt ärver du automatiskt behörigheten Visa ekonomi för aktiviteterna och problemen i projektet.
 
 Så här tilldelar du ekonomiska behörigheter till ett objekt:
 
 1. Gå till en uppgift, ett projekt eller ett problem som du vill dela med andra.
-1. Klicka på Mer-menyn nära objektets namn ![](assets/more-icon.png)och sedan klicka **Delning**.
+1. I närheten av objektets namn klickar du på Mer-menyn ![](assets/more-icon.png) och sedan på **Delning**.
 
-1. I **Ge `<Object name>` behörighet till** börjar skriva namnet på en användare, ett team, en roll, en grupp eller ett företag som du vill dela objektet med.
+1. I fältet **Ge `<Object name>` åtkomst till** börjar du skriva namnet på en användare, ett team, en roll, en grupp eller ett företag som du vill dela objektet med.
 
    >[!TIP]
    >
@@ -101,18 +101,18 @@ Så här tilldelar du ekonomiska behörigheter till ett objekt:
 
 1. Om en nedrullningsbar meny visas till höger om det namn du valde, klickar du på något av följande alternativ som är tillgängliga:
 
-   * **Se det**
-   * **Contribute to it**
+   * **Visa det**
+   * **Contribute till det**
    * **Hantera det**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-1. I samma nedrullningsbara meny klickar du på **Avancerade inställningar** gör du något av följande:
+1. Klicka på **Avancerade inställningar** i samma nedrullningsbara meny och gör sedan något av följande:
 
-   * Om du valde något av de tre alternativen i föregående steg bör du kontrollera att **Visa ekonomi** är markerat.
-   * Om du valde **Hantera ekonomi** i föregående steg, se till att **Hantera ekonomi** är markerat.
+   * Om du valde något av de tre alternativen i föregående steg kontrollerar du att **Visa finansiering** är markerat.
+   * Om du valde **Hantera ekonomi** i föregående steg kontrollerar du att **Hantera ekonomi** är markerat.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
 ## Ekonomisk behörighet för alla delningsnivåer
 

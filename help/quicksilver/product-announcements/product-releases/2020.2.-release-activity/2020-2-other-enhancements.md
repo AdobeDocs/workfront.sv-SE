@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i 2020.2-versionen av produktionsmiljön. Dessa förbättringar gjordes tillgängliga i produktionsmiljön den 11 maj 2020.
 
-En lista över alla ändringar som är tillgängliga i version 2020.2 finns på [Översikt över version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2020.2 finns i [2020.2 versionsöversikt](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## För Workfront-administratörer: Nyare layoutmallar som skapats i Workfront Classic finns nu i den nya Workfront-upplevelsen
 
@@ -26,7 +26,7 @@ Layoutmallar som skapats i Workfront Classic efter hösten 2019 finns nu i den n
 
 Mer information finns i [Layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Nya Adobe Workfront
 
@@ -55,11 +55,11 @@ Anpassade statusvärden kan nu användas både i enstaka och i systemomfattande 
 * Skapa en godkännandeprocess för ett objekt (projekt, uppgift eller utgåva) och basera den på statusvärden som är kopplade till gruppen som arbetar med objektet. Detta inkluderar alla anpassade statusvärden som är associerade med gruppen.
 * Skapa en global godkännandeprocess och gör den tillgänglig endast för gruppen eller för alla i systemet.
 
-För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapar godkännandeprocesser](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
+För användare med administrativ åtkomst till godkännandeprocesser finns information om hur du konfigurerar godkännandeprocesser i [Skapa en godkännandeprocess för arbetsobjekt](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) (eller om du använder Adobe Workfront Classic, se [Skapa godkännandeprocesser](https://one.workfront.com/s/article/Creating-Approval-Processes-1001577410)).
 
-För användare finns information om hur du associerar godkännandeprocesser med arbetsobjekt i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Koppla en ny eller befintlig godkännandeprocess till arbete](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
+Information om hur du associerar godkännandeprocesser med arbetsobjekt finns i [Associera en ny eller befintlig godkännandeprocess med arbete](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) (eller om du använder Adobe Workfront Classic, se [Associera en ny eller befintlig godkännandeprocess med arbete](https://one.workfront.com/s/article/Associating-a-New-or-Existing-Approval-Process-with-Work-708455630)).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Adobe Workfront Classic
 * Nya Adobe Workfront
@@ -72,7 +72,7 @@ När du klickar på Avancerad sökning på menyn Sök eller utför en grundlägg
 
 Mer information finns i [Sök i Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
-**Finns i följande miljöer:**
+**Tillgängligt i dessa miljöer:**
 
 * Nya Adobe Workfront
 
@@ -84,4 +84,4 @@ För att göra det lättare för användare att trigga, felsöka och lösa probl
 * Ombyggt tjänsten så att den har mindre komplexa beroenden och därmed skalas mer effektivt
 * Förbättrade övervaknings- och varningsfunktioner
 
-Mer information finns på [Frågor och svar - Evenemangsprenumerationer](../../../wf-api/general/event-subs-faq.md) och [Bästa praxis för händelseteckning](../../../wf-api/general/event-sub-best-practice.md).
+Mer information finns i [Vanliga frågor och svar - Evenemangsprenumerationer](../../../wf-api/general/event-subs-faq.md) och [Bästa tillvägagångssätt för händelseteckning](../../../wf-api/general/event-sub-best-practice.md).

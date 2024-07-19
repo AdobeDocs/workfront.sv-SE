@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla projekthanteringsförbättringar som gjorts i version 21.1 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön den 15 februari 2021.
 
-En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1 - versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 21.1 finns i [21.1-versionsöversikt](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Export finns nu i avsnittet Metrics i ett projekt
 
@@ -27,7 +27,7 @@ Om du enklare vill dela status och förlopp för ett projekt kan du nu exportera
 
 Mer information finns i [Översikt över projektstatistik](../../../manage-work/projects/manage-projects/project-metrics.md).
 
-Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 3: Hantera ett projekt](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Grundläggande om planering för den nya Workfront-upplevelsen, del 3: Hantera en Project](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-MCG6OJL724XRBLHBXEAKGAUZOJ6U)-utbildningsväg på Workfront One.
 
 ## Uppdatera utleveransprocent slutfört när projektet eller aktiviteten konverterades från utleveransuppdateringen
 
@@ -39,11 +39,11 @@ Mer information om hur du konverterar problem finns i [Översikt över objekt so
 
 För att du ska kunna hantera dina skickade begäranden på ett enklare och mer konsekvent sätt har vi tagit bort avsnitten Begäranden som jag har skickat och Alla begäranden i området Begäranden och ersatt dem med en ny skickad lista. Listan har en välbekant utseende som matchar alla andra listor i systemet, vilket gör att du kan filtrera efter olika kategorier av skickade begäranden och snabbt söka efter en begäran som kan vara svår att hitta.
 
-Mer information om hur du söker efter skickade begäranden finns i [Sök efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
+Mer information om hur du söker efter skickade begäranden finns i [Söka efter skickade begäranden](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
-Den här funktionen ingår nu i [Collaborator Fundamentals för nya Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [grunderna i Collaborator för den nya inlärningsvägen för Workfront Experience](https://one.workfront.com/s/learningpath1/collaborator-fundamentals-for-the-new-workfront-experience-MCY5AMOQQTGFDVZB4ODS6TXCYE2A) i Workfront One.
 
-Den här funktionen ingår nu i [Begäranden i den nya Workfront-upplevelsen](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) utbildningsväg på Workfront One.
+Den här funktionen ingår nu i [Förfrågningar i den nya inlärningsvägen för Workfront](https://one.workfront.com/s/learningpath3/core-team-requests-in-the-new-workfront-experience-MCHWSSDWRFC5EKXFBXTQ6MJNKE7E) på Workfront One.
 
 ## Fält som tagits bort från sidan Ny begäran
 
@@ -65,7 +65,7 @@ Följande fält för nya problem visas bara när du skapar ett problem i projekt
 
 Vi har ersatt fälten Tilldelad till, Jobbroll och Team med det nya fältet Uppdrag på sidan Ny begäran, för att effektivt utse en användare, jobbroll eller team i ett gemensamt fält när du skickar en ny begäran.
 
-Mer information om hur du definierar nya fält för problem i ett projekt finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Mer information om hur du definierar nya fält för problem i ett projekt finns i [Skapa en frågekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Ny upplevelse när begäranden skickas i området Förfrågningar
 
@@ -81,7 +81,7 @@ För att skapa enhetlighet med den nya Workfront-upplevelsen och för att effekt
 
 Möjlighet att dela en länk till begärandekön, ämnesgruppen eller köämnet när du anger begäran.
 
-Mer information om hur du skickar begäranden finns i [Skapa och skicka Workfront-förfrågningar](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Mer information om hur du skickar begäranden finns i [Skapa och skicka Workfront-begäranden](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Dela en länk till en begärandekö när du skickar en begäran
 
@@ -115,4 +115,4 @@ Tidigare kunde information för delegering av uppgifter, utgåvor och projektgod
 * Vilken användare har delegerats dessa godkännanden
 * Start- och slutdatum för dessa delegationer
 
-Mer information finns på [Skapa en delegeringsrapport för användare](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).
+Mer information finns i [Skapa en användardelegeringsrapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md).

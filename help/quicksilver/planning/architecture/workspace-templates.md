@@ -100,18 +100,18 @@ You must have the following:
 
 Följande är arbetsytemallar i Workfront Planning och det antal fält de innehåller:
 
-* **Grundläggande: Marknadsföringshantering**: Idealiskt för organisationer som bygger grunden för ett grundläggande marknadsföringssystem. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
+* **Grundläggande: Marknadsföringshantering**: Perfekt för organisationer som bygger på ett grundläggande marknadsföringssystem. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
-      * **Campaign**: 15 fält
+      * **Kampanj**: 15 fält
    * Taxonomier:
 
       * **Personas**: 7 fält
       * **Varumärken**: 6 fält
       * **Produkter**: 5 fält
 
-* **Avancerat: Marknadsföringshantering**: Lämpligt för team som vill utforska mer nyanserade marknadsföringsstrategier. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
+* **Avancerat: Marknadsföringshantering**: Lämpligt för team som är redo att utforska mer avancerade marknadsföringsstrategier. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
@@ -119,44 +119,44 @@ Följande är arbetsytemallar i Workfront Planning och det antal fält de inneh�
       * **Program**: 23 fält
 
    * Taxonomier:
-      * **Regioner**: 1 fält
+      * **Områden**: 1 fält
       * **Kundresefaser**: 4 fält
-      * **Målgrupper**: 8 fält
-      * **Leveranser**: 12 fält
+      * **Publiker**: 8 fält
+      * **Slutprodukter**: 12 fält
       * **Varumärken**: 6 fält
 
-* **Enterprise: Marketing Management**: Utformad för stora eller mogna organisationer med komplexa marknadsföringssystem. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
+* **Företag: Marknadshantering**: Utformad för stora eller mogna organisationer med komplexa marknadsföringssystem. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
       * **Kampanjer**: 15 fält
       * **Program**: 15 fält
-      * **Taktik**: 11 fält
-      * **Verksamhet**: 18 fält
+      * **Tactics**: 11 fält
+      * **Aktiviteter**: 18 fält
 
    * Taxonomier:
 
       * **Produkter**: 10 fält
-      * **Leveranser**: 18 fält
+      * **Slutprodukter**: 18 fält
       * **Målgrupper**: 8 fält
-      * **Regioner**: 8 fält
+      * **Områden**: 8 fält
       * **Underregioner**: 7 fält
       * **Partners**: 7 fält
-      * **Användningsexempel**: 7 fält
+      * **Använd fall**: 7 fält
       * **Kundresefaser**: 3 fält
 
-* **Försäljningshantering**: Du kan skapa ett omfattande säljsystem som effektiviserar säljprocessen och ökar effektiviteten. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
+* **Försäljningshantering**: Du kan skapa ett omfattande säljsystem som effektiviserar din försäljningsprocess och förbättrar effektiviteten. Mallen innehåller följande posttyper och antal fält, inklusive fält som är kopplade till andra posttyper:
 
    * Operativa posttyper:
 
-      * **Möjligheter**: 11 fält
+      * **Möjlighet**: 11 fält
       * **Aktivitet**: 9 fält
-      * **Campaign**: 8 fält
+      * **Kampanj**: 8 fält
    * Taxonomier:
       * **Konto**: 7 fält
       * **Lead**: 14 fält
       * **Kontakt**: 12 fält
-      * **Län**: 3 fält
+      * **Region**: 3 fält
       * **Bransch**: 2 fält
       * **Buying Center**: 1 fält
       * **Produkt/tjänst**: 1 fält

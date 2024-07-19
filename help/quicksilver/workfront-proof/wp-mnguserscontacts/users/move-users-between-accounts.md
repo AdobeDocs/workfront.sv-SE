@@ -2,14 +2,14 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Flytta användare mellan konton med [!DNL Workfront Proof]
-description: Om du är en [!DNL Workfront Proof] och du har ett eller flera satellitkonton anslutna till huvudkontot, kan du flytta användarna mellan alla dessa konton.
+title: Flytta användare mellan konton med  [!DNL Workfront Proof]
+description: Om du är  [!DNL Workfront Proof] administratör och har ett eller flera satellitkonton anslutna till huvudkontot kan du flytta användarna mellan alla dessa konton.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -18,26 +18,26 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
-Om du är en [!DNL Workfront] Korrekturadministratör och du har ett eller flera satellitkonton anslutna till huvudkontot, kan du flytta användarna mellan alla dessa konton.
+Om du är en [!DNL Workfront]-korrekturadministratör och har ett eller flera satellitkonton anslutna till huvudkontot kan du flytta användarna mellan alla dessa konton.
 
 ## Flytta användare mellan anslutna konton
 
 1. Klicka på **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**.
 
-1. Öppna **[!UICONTROL Users]** -fliken.
-1. Klicka på **[!UICONTROL Move user]** ikon (1). ![Move_user2.png](assets/move-user2-350x95.png)
+1. Öppna fliken **[!UICONTROL Users]**.
+1. Klicka på ikonen **[!UICONTROL Move user]** (1). ![Move_user2.png](assets/move-user2-350x95.png)
 
 1. I rutan Flytta användare som visas bekräftar du den användare som du vill flytta (1).
-1. Välj ett destinationskonto i listan med anslutna konton (2).
+1. Välj ett målkonto i listan med anslutna konton (2).
 1. Tilldela profilbehörigheten (3) som den här användaren ska ha på det nya kontot.
 1. Välj en användare (4) som ska överta ägarskapet för de objekt som inte ska flyttas.
-Detta inkluderar de objekt som du bestämmer dig för att lämna på det gamla kontot och de objekt som inte kan flyttas (se [Objekt som inte kan flyttas](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) nedan).
+Detta inkluderar de objekt som du kommer att lämna på det gamla kontot och de objekt som inte kan flyttas (se [Objekt som inte kan flyttas](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) nedan).
 
 1. Markera kryssrutorna om du vill flytta korrektur (5) och filer (6) tillsammans med användaren.
 1. Skapa ett namn för mappen (7) där alla flyttade objekt placeras på det nya kontot.
-1. Klicka **[!UICONTROL Move user]** (8) för att påbörja processen.
+1. Klicka på **[!UICONTROL Move user]** (8) för att starta processen.
    ![Moving_users_pop-up.png](assets/moving-users-pop-up-350x380.png)
 
 Om du väljer att flytta användaren utan sina korrektur och filer utförs den här åtgärden direkt. Om du väljer att flytta användaren tillsammans med sina korrektur och filer, kommer användarens profil att omtilldelas direkt, men korrekturen och filerna kommer gradvis att visas på målkontot eftersom den här åtgärden tar tid att överföra data.
@@ -76,7 +76,7 @@ Om ett bevis har ett fåtal versioner och var och en av dem ägs av en annan anv
 
 ### Grupper
 
-Grupper måste återskapas av den flyttade användaren på deras nya konto. Mer information finns i [Skapa korrekturgrupper med [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+Grupper måste återskapas av den flyttade användaren på deras nya konto. Mer information finns i [Skapa korrekturgrupper med  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
 
 ### Anpassade vyer
 

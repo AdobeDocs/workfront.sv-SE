@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Låsta och olåsta statusvärden på systemnivå
 
-Genom att låsa anpassade statusvärden kan du se till att alla i organisationen använder samma processer i sitt arbetsflöde. När en status är låst är den tillgänglig för alla användare i systemet. Även om du kan redigera eller ta bort en status som du låser kan gruppadministratörer inte göra det för sina grupper; kan de bara ändra visningsordningen i statuslistan.
+Genom att låsa anpassade statusvärden kan du se till att alla i organisationen använder samma processer i sitt arbetsflöde. När en status är låst är den tillgänglig för alla användare i systemet. Även om du kan redigera eller ta bort en status som du låser kan gruppadministratörer inte göra det för sina grupper. De kan bara ändra visningsordningen i statuslistan.
 
 Omvänt gör det möjligt för gruppadministratörer att hantera de unika arbetsflöden som används i deras grupper mer flexibelt om man låser upp anpassade statusar. När en status är olåst kan gruppadministratörer ändra dess attribut eller ta bort den för sina grupper.
 
@@ -29,7 +29,7 @@ Instruktioner om hur du låser eller låser upp en systemnivåstatus finns i [Sk
 
 ## Olåsta statusvärden i godkännandeprocesser
 
-Du kan använda både låsta och olåsta lägen i en systemgodkännandeprocess. Om du skapar en systemgodkännandeprocess med en olåst systemstatus kan användare i hela systemet bifoga godkännandeprocessen till vilket projekt, vilken uppgift eller vilken utgåva som helst i systemet.
+Du kan använda både låsta och olåsta lägen i en systemgodkännandeprocess. Om du skapar en systemgodkännandeprocess med en olåst systemstatus kan användare i hela systemet bifoga godkännandeprocessen till alla projekt, aktiviteter eller utgåvor i systemet.
 
 Varningsmeddelanden visas i följande scenarier för att hjälpa dig och dina användare att förstå resultaten av följande scenarier:
 

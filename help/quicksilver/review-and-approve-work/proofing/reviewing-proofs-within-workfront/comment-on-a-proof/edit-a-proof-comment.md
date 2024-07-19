@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Supervisor</td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Redigera korrekturkommentarer
 
@@ -62,15 +62,15 @@ Du kan redigera alla kommentarer som du gör på ett korrektur. Dessutom kan fö
 Så här redigerar du korrekturkommentarer:
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
-1. Hitta det korrektur du behöver och klicka sedan **Öppna korrektur**.
+1. Leta reda på det korrektur du behöver och klicka sedan på **Öppna korrektur**.
 
-1. (Villkorligt) Om kommentarsområdet inte är öppet klickar du på **Visa kommentarer** i det övre högra hörnet.
-1. Håll muspekaren över kommentaren som du vill redigera och klicka på **Mer** ikon som visas, klicka sedan på **Redigera**.
+1. (Villkorligt) Om kommentarsområdet inte är öppet klickar du på **Visa kommentarer** i det övre högra hörnet.
+1. Håll markören över kommentaren som du vill redigera, klicka på ikonen **Mer** som visas och klicka sedan på **Redigera**.
 
 1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
 
-1. Gör eventuella ändringar i kommentaren och klicka sedan på **Bokför**.
+1. Gör eventuella ändringar i kommentaren och klicka sedan på **Post**.
 
    >[!NOTE]
    >
-   >Etiketten&quot;Redigerad&quot; visas i kommentaren. När en granskare för muspekaren över detta visas ditt namn och datum och tid för ändringarna. Om du redigerar kommentaren flera gånger visas den här informationen endast för den senaste ändringen. Den här etiketten visas också ovanför kommentaren när du markerar dokumentet i området Dokument och visar **Uppdateringar** i Sammanfattning.
+   >Etiketten&quot;Redigerad&quot; visas i kommentaren. När en granskare för muspekaren över detta visas ditt namn och datum och tid för ändringarna. Om du redigerar kommentaren flera gånger visas den här informationen endast för den senaste ändringen. Den här etiketten visas också ovanför kommentaren när du markerar dokumentet i området Dokument och visar fliken **Uppdateringar** i sammanfattningen.

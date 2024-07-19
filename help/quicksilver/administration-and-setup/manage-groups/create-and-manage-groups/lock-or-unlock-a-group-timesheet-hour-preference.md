@@ -10,7 +10,7 @@ role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,9 @@ Om du däremot låser upp en inställning på gruppnivå blir undergruppsadminis
 
 Detta är parallellt med möjligheten för en Workfront-administratör att låsa eller låsa upp en inställning för alla i systemet.
 
-Information om hur en Workfront-administratör kan låsa eller låsa upp en tidrapport och timinställning för alla grupper i systemet finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Mer information om hur en Workfront-administratör kan låsa eller låsa upp en tidrapport och timinställning för alla grupper i systemet finns i [Konfigurera tidrapport och timinställningar](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Mer information om hur du konfigurerar en tidrapport och timinställningar för en grupp finns i [Konfigurera tidrapport och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Mer information om hur du konfigurerar en tidrapport och timinställningar för en grupp finns i [Konfigurera tidrapport- och timinställningar för en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 <!--
 Unlike other Lock/Unlock articles that start just like this one, we need the steps here. In other areas, the lock/unlock step is part of the article about setting preferences or creating statuses.</p>
@@ -43,6 +43,7 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* Om du flyttar en grupp under en grupp som har en olåst inställning påverkas inte den flyttade gruppen av den inställningen.
 >
 >  Om inställningen i den flyttade gruppen är låst när den flyttas förblir den låst, men gruppadministratören kan låsa upp den nu eftersom den är olåst för den överordnade gruppen.
+>
 
 ## Åtkomstkrav
 
@@ -58,7 +59,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Du måste vara gruppadministratör för gruppen eller Workfront-administratör. Mer information finns i <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppadministratörer</a> och <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -71,19 +72,19 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Tidrapport och timmar > Inställningar och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den vänstra panelen **Grupper**.
+1. Klicka på **Grupper** i den vänstra panelen.
 1. Klicka på namnet på gruppen där du vill låsa eller låsa upp en tidrapport och timinställning.
-1. Klicka på i den vänstra panelen **Inställningar för tidrapporter och timmar**.
+1. Klicka på **Inställningar för tidrapporter och timmar** i den vänstra panelen.
 
 1. Gör något av följande på sidan som visas:
 
    * Om du vill att administratörer för grupper under gruppen ska kunna konfigurera en inställning för sina grupper, låser du upp den ![](assets/unlock-toggle-button.png).
-   * Om du vill att alla grupper under din konfiguration ska använda din inställning måste du se till att den är låst ![](assets/lock-toggle-button.png) (det här är standardvärdet).
+   * Om du vill att alla grupper under din konfiguration ska använda din inställning, måste du se till att den är låst ![](assets/lock-toggle-button.png) (detta är standardinställningen).
 
-      >[!IMPORTANT]
-      >
-      >Det är viktigt att kommunicera med administratörer och användare i grupper under din egen för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla undergrupper nedan. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer i lägre undergrupper kan ha gjort.
+     >[!IMPORTANT]
+     >
+     >Det är viktigt att kommunicera med administratörer och användare i grupper under din egen för att säkerställa att alla behov beaktas när du konfigurerar en låst inställning. När du låser den ärvs konfigurationen för den av alla undergrupper nedan. Om inställningen har låsts upp under en viss tid ersätter konfigurationen de som gruppadministratörer i lägre undergrupper kan ha gjort.
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

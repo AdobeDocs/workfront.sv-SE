@@ -19,7 +19,7 @@ Din synlighet för objekt i Adobe Workfront beror på din åtkomst till den type
 
 >[!NOTE]
 >
->I den här artikeln beskrivs hur du kan begära behörigheter för alla objekt utom för planer i Adobe Workfront Scenario Planner. Information om hur du begär åtkomst till planer finns i [Begär åtkomst till en plan i scenarioplanen](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
+>I den här artikeln beskrivs hur du kan begära behörigheter för alla objekt utom för planer i Adobe Workfront Scenario Planner. Mer information om hur du begär åtkomst till planer finns i [Begär åtkomst till en plan i scenarioplanen](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
 
 Din Workfront-administratör konfigurerar din åtkomst till en typ av objekt på din åtkomstnivå. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -77,7 +77,7 @@ Du måste ha följande för att kunna dela objekt:
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Visa åtkomst eller högre till objekt som du begär behörighet till</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
  </tbody> 
 </table>
@@ -88,7 +88,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 
 Följande standarddelningsregler träder i kraft automatiskt när de ställs in som standardalternativ i ditt Workfront-system.
 
-* Användare som tilldelats en uppgift eller ett problem har Contribute-åtkomst.
+* Användare som tilldelats en aktivitet eller ett problem har Contribute-åtkomst till den.
 * Projekt-, Portfolio- och programhanterare har behörigheten Hantera för de objekt de äger.
 * Användare som ingår i en konversation har åtkomst till Visa på objektet där konversationen sker.
 * Användare som tilldelats som godkännare har åtkomst till Visa på det objekt som väntar på godkännande.
@@ -108,16 +108,16 @@ Om du inte redan har åtkomst till ett objekt och navigerar till det objektet fr
 
 Så här begär du inledande åtkomst till ett objekt:
 
-1. Klicka **Begär åtkomst**.\
-   The **Begär åtkomst** visas.
+1. Klicka på **Begär åtkomst**.\
+   Dialogrutan **Begär åtkomst** visas.
 
 1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn.
 1. Välj den användare i listrutan som du vill ska få din åtkomstbegäran.\
    Endast tio användare visas i listrutan. Listan sorteras i bokstavsordning.\
-   Mer information om ordningen för användarna i den här listrutan finns i  [Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Mer information om ordningen för användarna i den här nedrullningsbara menyn finns i [Hierarki i listrutorna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Välj den typ av åtkomst du begär i listrutan.
-1. (Valfritt) I dialogrutan **PS** anger du en anteckning till användaren om varför du behöver ytterligare åtkomst.
+1. (Valfritt) I fältet **P.S.** anger du en anteckning till användaren om varför du behöver ytterligare åtkomst.
 
    ![](assets/request-access-dialog-350x314.png)
 
@@ -132,23 +132,23 @@ Så här begär du ytterligare åtkomst till ett objekt som du redan har begrän
 
 1. Gå till objektet som du vill begära ytterligare åtkomst för.
 
-1. Klicka på **Mer** till höger om projektnamnet och klicka sedan på **Begär mer åtkomst**.
+1. Klicka på menyn **Mer** till höger om projektnamnet och klicka sedan på **Begär mer åtkomst**.
 
    ![](assets/request-access-in-project-350x201.png)
 
 1. (Villkorligt) Om fler än en användare har behörighet att ge dig ytterligare åtkomst visas en nedrullningspil bredvid användarens namn.
 1. Välj den användare i listrutan som du vill ska få din åtkomstbegäran.\
    Endast tio användare visas i listrutan. Listan sorteras i bokstavsordning.\
-   Mer information om ordningen för användarna i den här listrutan finns i  [Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   Mer information om ordningen för användarna i den här nedrullningsbara menyn finns i [Hierarki i listrutorna Begär åtkomst och Begär mer åtkomst](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Välj den åtkomstnivå du begär i listrutan.
-1. (Valfritt) I dialogrutan **PS** anger du en anteckning om varför du behöver ytterligare åtkomst.
-1. Klicka **Begär åtkomst**.\
+1. (Valfritt) I fältet **P.S.** anger du en anteckning om varför du behöver ytterligare åtkomst.
+1. Klicka på **Begär åtkomst**.\
    ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarki för de nedrullningsbara menyerna Begär åtkomst och Begär mer åtkomst {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
-* [Förstå hierarkin för användare som listas i listrutorna Begär åtkomst och Begär mer åtkomst](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
+* [Förstå hierarkin med användare som listas i listrutorna Begär åtkomst och Begär mer åtkomst](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus)
 * [Förstå objektets ägare](#understand-the-owner-of-an-object)
 
 ### Förstå hierarkin för användare som listas i listrutorna Begär åtkomst och Begär mer åtkomst {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
@@ -213,11 +213,11 @@ Användarnas ordning i listrutorna Begär åtkomst eller Begär mer åtkomst bes
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><span>Planer</span> </td> 
-   <td> <p><span>Ägaren är planens skapare.</span> </p> <p>Detta kräver ytterligare en licens. </p> <p><span>Mer information om Workfront Scenario Planner finns i</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a>.</p> </td> 
+   <td> <p><span>Ägaren är planens skapare.</span> </p> <p>Detta kräver ytterligare en licens. </p> <p><span>Mer information om Workfront Scenarioplan finns i </span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Översikt över scenarioplanen</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>Mål</td> 
-   <td> <p>Ägaren är den användare som anges som ägare. De kanske inte är samma person som målskaparen. </p> <p>Detta kräver ytterligare en licens. </p> <p>Mer information om Workfront-mål finns på <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Översikt över Adobe Workfront-mål</a>. </p> </td> 
+   <td> <p>Ägaren är den användare som anges som ägare. De kanske inte är samma person som målskaparen. </p> <p>Detta kräver ytterligare en licens. </p> <p>Mer information om Workfront-mål finns i <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Översikt över Adobe Workfront-mål</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

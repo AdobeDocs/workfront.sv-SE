@@ -34,7 +34,7 @@ För att förbättra din upplevelse när du använder belastningsutjämnaren har
 * Panelen Inställningar har gjorts om så att den innehåller alternativ som tidigare fanns i verktygsfältet. Detta förbättrar användningen av utrymmet i verktygsfältet.
 * Lagt till möjlighet att anpassa färgtemat efter projekt. När du väljer att färgkoda efter projekt visas varje projekt och dess arbetsobjekt i samma färg. Färgerna är unika för varje projekt. Före den här förbättringen kunde du bara färgkoda efter projektstatus.
 
-Mer information finns i [Navigera till arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Mer information finns i [Navigera i arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Tilldela flera arbeten med hjälp av belastningsutjämnaren
 
@@ -44,7 +44,7 @@ Före den här förbättringen kunde du bara tilldela en användare till ett arb
 
 De nya grupptilldelningarna innehåller även nya filtreringsfunktioner per projekt och aktivitetsstatus, utöver Namn.
 
-Mer information finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Mer information finns i [Översikt över hur du tilldelar arbete i Arbetsbelastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Åsidosätt valuta vid hantering av jobbroller
 

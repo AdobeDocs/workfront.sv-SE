@@ -24,7 +24,7 @@ Du kan visa eller redigera information om en uppgift genom att gå till området
 I den här artikeln beskrivs hur du visar eller redigerar information i området Översikt i Uppgiftsinformation. Mer information om hur du uppdaterar andra områden i Uppgiftsinformation finns i följande artiklar:
 
 * [Hantera aktivitetsfinanser i avsnittet Uppgiftsinformation](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
-* [Lägga till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
+* [Lägg till ett anpassat formulär i ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Hantera anpassade formulär som är kopplade till objekt](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Åtkomstkrav
@@ -39,7 +39,7 @@ Du måste ha följande:
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront<b> plan*</b> </p> </td> 
+   <td> <p>Adobe Workfront<b>-plan*</b> </p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
@@ -47,13 +47,13 @@ Du måste ha följande:
    <td> <p>Arbeta eller högre</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Konfigurationer på åtkomstnivå*</strong> </td> 
-   <td> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du har rätt åtkomstnivå men ändå inte kan redigera detaljavsnittet för uppgiften frågar du Adobe Workfront om de har angett ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td> <p>Visa eller öka åtkomsten till projekt och uppgifter</p> <p>Om du har rätt åtkomstnivå men ändå inte kan redigera detaljavsnittet för uppgiften frågar du Adobe Workfront om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>Contribute eller högre behörigheter för projektet</p> <p>Visa behörigheter för aktiviteten om du vill visa information i detaljavsnittet. </p> 
-   <p>Contribute-behörighet för aktiviteten så att följande information uppdateras i avsnittet Detaljer:</p>
+   <td> <p>Contribute eller högre behörighet för projektet</p> <p>Visa behörigheter för aktiviteten om du vill visa information i detaljavsnittet. </p> 
+   <p>Contribute-behörigheter för att uppdatera följande information i informationsavsnittet:</p>
 
 <ul>
    <li>Beskrivning</li>
@@ -68,8 +68,8 @@ Du måste ha följande:
 ## Redigera uppgiftsinformation i avsnittet Översikt över aktivitetsinformation
 
 1. Gå till en uppgift som du vill visa eller redigera.
-1. Klicka **Uppgiftsinformation** i den vänstra panelen .
-1. Gå till **Ökning** för att visa mer information om uppgiften.
+1. Klicka på **Uppgiftsinformation** i den vänstra panelen.
+1. Gå till området **Översikt** om du vill visa mer information om aktiviteten.
 
    Som standard är Översikt det första området i avsnittet Uppgiftsinformation och det färdigställs.
 
@@ -77,13 +77,13 @@ Du måste ha följande:
    >
    >Beroende på hur din Workfront-administratör eller gruppadministratör konfigurerar vår layoutmall kan fälten i avsnittet Uppgiftsinformation ordnas om eller inte visas. Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. Klicka på **Redigera** icon ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Ökning**.
+1. Klicka på ikonen **Redigera** ![](assets/edit-icon.png) i det övre högra hörnet av detaljavsnittet och klicka sedan på **Översikt**.
 
    >[!TIP]
    >
    >Du kan inte redigera fält som har genererats automatiskt av Workfront eller som du inte har behörighet att redigera.
 
-1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka **+Lägg till** om du vill lägga till information i ett tomt fält.
+1. Redigera alla fält som är tillgängliga för redigering genom att klicka en gång på fältet eller klicka på **+Lägg till** för att lägga till information i ett tomt fält.
 1. Visa eller redigera något av följande fält.
 
    Alla fält kan inte redigeras.  
@@ -117,7 +117,7 @@ Du måste ha följande:
         <li> <p>Normal </p> </li> 
         <li> <p>Hög </p> </li> 
         <li> <p> Urgent </p> </li> 
-       </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om uppgiftsprioriteringar finns i <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Uppdatera aktivitetsprioritet</a>. </p> </td> 
+       </ul> <p>Beroende på vilka projektinställningar du har valt av Workfront-administratören kan prioritetsnamnen vara olika för dig. Mer information om aktivitetsprioriteter finns i <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Uppdatera aktivitetsprioritet</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Varaktighetstyp</td> 
@@ -126,7 +126,7 @@ Du måste ha följande:
         <li> <p>Antalet resurser som tilldelats en aktivitet </p> </li> 
         <li> <p>Den totala arbetsinsats som krävs för att slutföra uppgiften </p> </li> 
         <li> <p> Aktivitetens totala varaktighet. </p> </li> 
-       </ul> <p>Din Workfront-administratör <span> eller en gruppadministratör</span> väljer standardinställningen för varaktighetstyp för aktiviteterna i systemet eller gruppen. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en uppgift finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> <p>Välj bland följande alternativ: </p> 
+       </ul> <p>Workfront-administratören <span> eller en gruppadministratör </span> väljer standardinställningen för varaktighet för aktiviteterna i systemet eller gruppen. Mer information om hur du anger standardinställningar för projekt finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurera systemomfattande projektinställningar</a>. </p> <p>Med varaktighetstyper kan du ange konsekventa resurstilldelningar baserat på uppgiftens behov. Mer information om varaktighetstypen för en aktivitet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> <p>Välj bland följande alternativ: </p> 
        <ul> 
         <li> <p>Beräknad tilldelning </p> </li> 
         <li> <p> Beräknat arbete </p> </li> 
@@ -196,7 +196,7 @@ Du måste ha följande:
            </tr> 
           </tbody> 
          </table> 
-         <p><strong>ANMÄRKNING</strong> </p>
+         <p><strong>OBS!</strong> </p>
          <p> Förfluten tid är en tidsenhet för en uppgifts varaktighet. Det är tiden mellan det planerade startdatumet och det planerade slutförandedatumet för en aktivitet som omfattar helger, helger och ledig tid. Med andra ord är förfluten tid en del av kalenderdagarna. Med normal tid räknas helger, helger och ledig tid som undantag från uppgiftens varaktighet. Mer information om aktivitetens varaktighet finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>. </p> 
          <p> 
          <!--You cannot specify the Duration of a task when the Duration Type of the task is Simple, or when the Task Constraint is Fixed Dates. (NOTE: Anna said this is now possible for all duration types in the Assignments area. It's not here, but to clear confusion, I am drafting this out of here.)--></p> 
@@ -213,7 +213,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Planerade timmar</td> 
-      <td> <p>Ange antalet planerade timmar för aktiviteten i timmar. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> </td> 
+      <td> <p>Ange antalet planerade timmar för aktiviteten, i timmar. Detta är den faktiska tid det skulle ta för uppgiftens tilldelare att slutföra den. Du kan bara ange antalet planerade timmar för en aktivitet när varaktighetstypen är inställd på Beräknad tilldelning. Mer information om varaktighetstyper finns i <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Översikt över aktivitetsvaraktighet och varaktighetstyp</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Faktiska timmar</td> 
@@ -231,7 +231,7 @@ Du måste ha följande:
         <p>Välj bland följande alternativ:</p> 
         <ul> 
          <li>Liten</li> 
-         <li>Medel <span style="font-weight: normal;">(det här är standardvärdet för en ny uppgift)</span></li> 
+         <li>Medium <span style="font-weight: normal;"> (det här är standardvärdet för en ny aktivitet)</span></li> 
          <li>Stor</li> 
         </ul> 
         <p><strong>ANMÄRKNING</strong></p> 
@@ -243,27 +243,27 @@ Du måste ha följande:
       <td role="rowheader">Aktivitetsbegränsning</td> 
       <td> <p>Bestäm när uppgiften ska slutföras genom att ange en aktivitetsbegränsning. </p> <p>Välj bland följande alternativ: </p> 
        <ul> 
-        <li> <p><span>Fasta datum</span> </p> <p>Ange en <strong>Planerad start</strong> och <strong>Planerat slutförandedatum</strong>. </p> </li> 
-        <li> <p><span>Måste börja på</span> </p> <p>Ange en <strong>Planerat startdatum</strong>. </p> </li> 
-        <li> <p><span>Måste avslutas</span> </p> <p>Ange en <strong>Planerat slutförandedatum</strong>. </p> </li> 
+        <li> <p><span>Fasta datum</span> </p> <p>Ange en <strong>planerad start</strong> och ett <strong>planerat slutförandedatum</strong>. </p> </li> 
+        <li> <p><span>måste börja </span> </p> <p>Ange ett <strong>planerat startdatum</strong>. </p> </li> 
+        <li> <p><span>Måste avslutas </span> </p> <p>Ange ett <strong>planerat slutförandedatum</strong>. </p> </li> 
        </ul> 
        <ul> 
         <li> <p><span>Så snart som möjligt</span></p> </li> 
         <li> <p><span>Så sent som möjligt</span></p> </li> 
         <li> <p><span>Tidigaste tillgängliga tid</span></p> </li> 
         <li> <p> <span>Senaste tillgängliga tid</span></p> </li> 
-        <li> <p><span>Starta senast</span> </p> </li> 
+        <li> <p><span>Starta inte senare än</span> </p> </li> 
         <li> <p>Ange ett planerat startdatum</p> </li> 
-        <li> <p><span>Starta tidigast</span> </p> <p>Ange en <strong>Planerat startdatum</strong>. </p> </li> 
-        <li> <p> Slutför <span>Inte senare än</span></p> <p>Ange en <strong>Planerat slutförandedatum</strong>. </p> </li> 
-        <li> <p> Slutför <span>Inte tidigare än</span></p> <p>Ange en <strong>Planerat slutförandedatum</strong></p> </li> 
+        <li> <p><span>Starta inte tidigare än </span> </p> <p>Ange ett <strong>planerat startdatum</strong>. </p> </li> 
+        <li> <p> Avsluta <span>inte senare än </span></p> <p>Ange ett <strong>planerat slutförandedatum</strong>. </p> </li> 
+        <li> <p> Avsluta <span>inte tidigare än </span></p> <p>Ange ett <strong>planerat slutförandedatum</strong></p> </li> 
        </ul> <p>Mer information om uppgiftsbegränsning finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planerat startdatum</td> 
       <td> <p>När aktiviteten är planerad att starta. Det planerade startdatumet för en uppgift anges och påverkas av ett antal faktorer:</p> 
        <ul> 
-        <li>Beroende på den systemomfattande inställningen för det planerade startdatumet för aktiviteten kan startdatumet för en ny aktivitet i ett projekt antingen vara idag eller startdatumet för projektet som standard. <span>Gruppadministratören för den grupp som är associerad med projektet kan också ange den här inställningen för gruppen.</span> Mer information om aktivitetsinställningar på systemnivå eller gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurera inställningar för uppgifter och problem i hela systemet</a>.</li> 
+        <li>Beroende på den systemomfattande inställningen för det planerade startdatumet för aktiviteten kan startdatumet för en ny aktivitet i ett projekt antingen vara idag eller startdatumet för projektet som standard. <span>Gruppadministratören för den grupp som är associerad med projektet kan också ange den här inställningen för gruppen.</span> Mer information om aktivitetsinställningar på systemnivå eller gruppnivå finns i <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurera inställningar för aktiviteter och problem i hela systemet</a>.</li> 
         <li>Beroende på vad som föregår uppgiften väljs det planerade startdatumet av Workfront som nästa tillgängliga datum efter att föregående aktiviteter har slutförts, eller startats, beroende på vilket förhållande som föregick aktiviteten. Mer information om föregående relationer finns i <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Översikt över föregående aktiviteter</a>.</li> 
         <li>Projektledaren eller aktivitetsägaren kan manuellt ange det planerade startdatumet när aktivitetsbegränsningen är antingen Fast datum eller Måste starta på. Mer information om uppgiftsbegränsningar finns i <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Översikt över uppgiftsbegränsning</a>.</li> 
        </ul> </td> 
@@ -287,7 +287,7 @@ Du måste ha följande:
      </tr> 
      <tr> 
       <td role="rowheader">Planerat slutförandedatum</td> 
-      <td> <p>"Faktiskt" datum för när uppgiften ska slutföras baserat på förloppet för tidigare uppgifter och på förloppsuppdateringar som gjorts av uppdragsgivaren. Det här är ett beräkningsfält och du kan inte redigera det manuellt.</p> <p> Det planerade slutförandedatumet och det planerade slutförandedatumet börjar på samma datum när ett projekt planeras för första gången. Det planerade slutförandedatumet kan flyttas från det planerade slutförandet om projektet utvecklas och aktiviteten inte har startats ännu. Mer information om planerade slutförandedatum finns i <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Översikt över planerat slutförandedatum för projekt, uppgifter och ärenden</a>.</p> </td> 
+      <td> <p>"Faktiskt" datum för när uppgiften ska slutföras baserat på förloppet för tidigare uppgifter och på förloppsuppdateringar som gjorts av uppdragsgivaren. Det här är ett beräkningsfält och du kan inte redigera det manuellt.</p> <p> Det planerade slutförandedatumet och det planerade slutförandedatumet börjar på samma datum när ett projekt planeras för första gången. Det planerade slutförandedatumet kan flyttas från det planerade slutförandet om projektet utvecklas och aktiviteten inte har startats ännu. Mer information om planerade slutförandedatum finns i <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Översikt över planerat slutförandedatum för projekt, uppgifter och problem</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Faktiskt slutförandedatum</td> 
@@ -315,11 +315,11 @@ Du måste ha följande:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Återkommande frekvens</td> 
-      <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Det är den frekvens med vilken uppgifterna i återgivningen inträffar. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>. </p> </td> 
+      <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Det är den frekvens med vilken uppgifterna i återgivningen inträffar. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Varaktighet per förekomst</td> 
-      <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift. Mer information om hur du skapar återkommande uppgifter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande uppgifter</a>. </p> <p><strong>ANMÄRKNING</strong></p> <p> Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet. </p> </td> 
+      <td> <p>Detta visas endast på den överordnade för återkommande uppgifter. Den visar varaktigheten för varje återkommande uppgift. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> <p><strong>ANMÄRKNING</strong></p> <p> Varaktigheter som ändras i enskilda återkommande aktiviteter visar inte det värde som anges i det här fältet. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -360,4 +360,4 @@ Du måste ha följande:
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about editing financial information for a task, see <a href="../../../manage-work/tasks/manage-tasks/task-finances-in-details.md" class="MCXref xref">Manage task finances in the Task Details section</a>. </p>
    -->
 
-1. Klicka **Spara ändringar**.
+1. Klicka på **Spara ändringar**.

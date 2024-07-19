@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '978'
 ht-degree: 0%
 
 ---
@@ -31,14 +31,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -48,22 +48,22 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Hantera meddelanden för korrekturkommentarer och beslut
 
 1. Öppna det korrektur som du vill konfigurera de meddelanden du får.
-1. Om det vänstra verktygsfältet inte visas klickar du på **Meny** -ikonen i det övre vänstra hörnet av Web Proofing Viewer.
+1. Om det vänstra verktygsfältet inte visas klickar du på ikonen **Meny** som finns i det övre vänstra hörnet i Web Proofing Viewer.
 
    ![Menu_icon_in_Proofing_Viewer.png](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klicka på knappen **Inställningar** ikon. ![Settings_icon.png](assets/settings-icon.png)
+1. Klicka på ikonen **Inställningar** i det vänstra verktygsfältet. ![Settings_icon.png](assets/settings-icon.png)
 
-1. Under **Skicka mig e-postmeddelanden om** klickar du på den inställning du vill använda för korrekturet.
+1. Under **Skicka mig e-postmeddelanden om** klickar du på inställningen som du vill använda för korrekturet.
 
    Den inställning du väljer gäller bara för det korrektur du har öppnat.
 
-   Systemstandard är **Daglig sammanfattning**. Om du eller dina granskare inte gör några andra ändringar har alla dina korrektur den här inställningen.
+   Systemstandarden är **Daglig sammanfattning**. Om du eller dina granskare inte gör några andra ändringar har alla dina korrektur den här inställningen.
 
    <table style="table-layout:auto"> 
     <col> 

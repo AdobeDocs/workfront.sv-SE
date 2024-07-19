@@ -33,7 +33,7 @@ Standardmetoderna för HTTP motsvarar följande åtgärder:
 * **PUT** - Redigerar ett befintligt objekt
 * **DELETE** - Tar bort ett objekt
 
-Mer information och exempel på varje åtgärd finns i [Dokumentation för utvecklare av Workfront Planning API](https://developer.adobe.com/wf-planning/).
+Mer information och exempel på de olika åtgärderna finns i [dokumentationen för Workfront Planning API-utvecklare](https://developer.adobe.com/wf-planning/).
 
 ### Fälttyper och sökmodifieringar som används med dem
 
@@ -116,25 +116,25 @@ Workfront Planning stöder följande sökmodifierare:
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Returnerar poster vars fältvärde är efter filtret  </td>
-        <td>"2024-05-15T20:00:00,000Z"  </td>
+        <td>"2024-05-15T20:00:00.000Z"  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
         <td>Returnerar poster vars fältvärde är före filtret </td>
-        <td>"2024-05-12T20:00:00,000Z" </td>
+        <td>"2024-05-12T20:00:00.000Z" </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Returnerar poster vars fältvärde är mellan filtret  </td>
-        <td><ul><li>"2024-05-12T20:00:00,000Z" </li><li>"2024-05-14T20:00:00,000Z" </li><ul>  </td>
+        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
         <td>Returnerar poster vars fältvärde inte är mellan filtret  </td>
-        <td><ul><li>"2024-05-09T20:00:00,000Z"  </li><li>"2024-05-17T20:00:00,000Z"  </li><ul>  </td>
+        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>
@@ -329,9 +329,9 @@ Begärandetext:
 
 ### Frågebegränsningar och sidnumrerade svar
 
-Som standard returnerar Planning API-begäranden 500 resultat från början av listan. Om du vill åsidosätta standardbegränsningen för antal resultat kan du använda `limit` parametern i dina förfrågningar och ange den till ett annat nummer, upp till 2000 resultat.
+Som standard returnerar Planning API-begäranden 500 resultat från början av listan. Om du vill åsidosätta standardbegränsningen för antal resultat kan du använda parametern `limit` i dina begäranden och ange ett annat tal, upp till 2 000 resultat.
 
-Vi rekommenderar att du använder sidnumrerade svar för stora datauppsättningar genom att lägga till `offset` parametern för dina förfrågningar. Med sidnumrerade svar kan du ange platsen för det första resultatet som ska returneras.
+Vi rekommenderar att du använder sidnumrerade svar för stora datauppsättningar genom att lägga till parametern `offset` i dina förfrågningar. Med sidnumrerade svar kan du ange platsen för det första resultatet som ska returneras.
 
 Om du till exempel vill returnera resultatet 2001-4000 kan du använda följande begäran. I det här exemplet returneras 2000 poster som har aktiv status, från och med resultatet 2001:
 
@@ -354,7 +354,7 @@ Begärandetext:
 
 Använd en sorteringsparameter för att försäkra dig om att resultatet är rätt sidnumrerat. Detta gör att resultaten kan returneras i samma ordning, så att sidnumreringen inte upprepas eller hoppar över resultat.
 
-Mer information om sortering finns i [Sortera frågeresultat i API](#sorting-query-results-in-the-api) i den här artikeln.
+Mer information om sortering finns i [Sortera frågeresultat i API:t](#sorting-query-results-in-the-api) i den här artikeln.
 
 
 

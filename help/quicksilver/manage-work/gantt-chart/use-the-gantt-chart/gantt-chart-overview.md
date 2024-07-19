@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: gantt-chart
 title: Översikt över Gantt-schema
-description: Hitta information om [!UICONTROL Gantt] Diagram i följande artiklar.
+description: Hitta information om diagrammet [!UICONTROL Gantt] i följande artiklar.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Gantt Chart] översikt
+# [!UICONTROL Gantt Chart] - översikt
 
 Det här avsnittet innehåller följande artiklar:
 

@@ -25,10 +25,12 @@ Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med v
 
 För att upprätthålla en robust och skalbar korrekturbehandlingslösning ändrar vi de Microsoft Office-filtyper och filstorleksbegränsningar som stöds.
 
-Följande Office-filtyper stöds inte längre som korrektur: XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
+Följande Office-filtyper stöds inte längre som korrektur:
+XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-Användare kan fortsätta skapa korrektur för följande Office-filtyper: DOC, DOCX, PPT, PPTX, XLS, XLSX
+Användare kan fortsätta skapa korrektur för följande Office-filtyper:
+DOC, DOCX, PPT, PPTX, XLS, XLSX
 
 Storleksgränsen för PowerPoint- och Word-filer är nu 512 MB.
 
-Mer information finns i [Översikt över filtyper och storleksbegränsningar som stöds för korrektur](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Mer information finns i [Översikt över språkfiltyper och storleksbegränsningar som stöds](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

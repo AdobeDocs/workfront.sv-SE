@@ -10,14 +10,14 @@ feature: Workfront Fusion, Digital Content and Documents
 exl-id: 89efa9d5-00c9-4bb5-97b3-2b2f9d73721d
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '792'
 ht-degree: 0%
 
 ---
 
 # Bildmoduler
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Image] Med -moduler kan du få information om en viss bild (dimensioner, typ o.s.v.), konvertera en bild till ett annat filformat och direkt ändra storlek på bilden.
+Med modulerna [!DNL Adobe Workfront Fusion] [!UICONTROL Image] kan du hämta information om en viss bild (dimensioner, typ och så vidare), konvertera en bild till ett annat filformat och direkt ändra bildens storlek.
 
 ## Åtkomstkrav
 
@@ -38,27 +38,27 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Image] moduler och deras fält
+## [!UICONTROL Image]-moduler och deras fält
 
 När du konfigurerar den här modulen visas följande fält. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
@@ -80,11 +80,11 @@ Den här transformerarmodulen ändrar en bilds höjd och bredd enligt de villkor
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data]</td> 
-   <td>Mappa filen som du vill konvertera. Det här fältet är tillgängligt om du har valt [!UICONTROL Map] i [!UICONTROL Source file] fält.</td> 
+   <td>Mappa filen som du vill konvertera. Det här fältet är tillgängligt om du har markerat [!UICONTROL Map] i fältet [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
-   <td>Ange ett namn för den konverterade filen. Det här fältet är tillgängligt om du har valt [!UICONTROL Map] i [!UICONTROL Source file] fält.</td> 
+   <td>Ange ett namn för den konverterade filen. Det här fältet är tillgängligt om du har markerat [!UICONTROL Map] i fältet [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL I want to]</td> 
@@ -99,7 +99,7 @@ Den här transformerarmodulen ändrar en bilds höjd och bredd enligt de villkor
      <li> <p>[!UICONTROL Maximum height or width]</p> <p>Minskar en bild så att dess höjd och bredd inte överskrider de värden du anger. Eftersom det här alternativet behåller förhållandet mellan höjd och bredd kan en av dimensionerna vara mindre än den angivna. Om till exempel både höjd och bredd anges som 40, kommer en bild på 400x300 att minskas till 40x30.</p> </li> 
      <li> <p>[!UICONTROL Minimum width]</p> <p>Förstorar en bild till en bredd som du anger. Höjden beräknas automatiskt.</p> </li> 
      <li> <p>[!UICONTROL Minimum height]</p> <p>Förstorar en bild till en höjd som du anger. Bredden beräknas automatiskt.</p> </li> 
-     <li> <p>[!UICONTROL Minimum height or width]</p> <p>Förstorar en bild så att dess höjd och bredd inte är mindre än de värden du anger. Eftersom detta alternativ bevarar förhållandet mellan höjd och bredd kan en av dimensionerna vara större än angivet. Om till exempel både höjd och bredd anges som 300 förstoras en bild på 40x30 till 400x300.</p> </li> 
+     <li> <p>[!UICONTROL Minimum height or width]</p> <p>Förstorar en bild så att dess höjd och bredd inte är mindre än de värden du anger. Eftersom det här alternativet bevarar förhållandet mellan höjd och bredd kan en av dimensionerna vara större än angivet. Om till exempel både höjd och bredd anges som 300 förstoras en bild på 40 x 30 till 400 x 300.</p> </li> 
      <li> <p>[!UICONTROL Percent]</p> <p>Ändrar bildstorleken med ett procentvärde baserat på det värde du anger. </p> </li> 
     </ul> </td> 
   </tr> 
@@ -116,14 +116,14 @@ Den här transformerarmodulen ändrar en bilds höjd och bredd enligt de villkor
 
 ### [!UICONTROL Convert a format]
 
-Den här transformatormodulen ändrar formatet för en bildfil. Den här modulen är kompatibel med följande format:
+Den här transformerarmodulen ändrar formatet för en bildfil. Den här modulen är kompatibel med följande format:
 
 * PNG
 * JPG
 * GIF
 * BMP
 
-Både källfilen och utdata måste ha något av dessa format. Till exempel [!UICONTROL Image] >[!UICONTROL Convert a format] kan omvandla en PNG-fil till en BMP-fil eller en BMP till en JPG.
+Både källfilen och utdata måste ha något av dessa format. Modulen [!UICONTROL Image] >[!UICONTROL Convert a format] kan till exempel omvandla en PNG-fil till en BMP-fil eller en BMP till en JPG.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -135,11 +135,11 @@ Både källfilen och utdata måste ha något av dessa format. Till exempel [!UIC
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data]</td> 
-   <td>Mappa filen som du vill konvertera. Det här fältet är tillgängligt om du har valt [!UICONTROL Map] i [!UICONTROL Source file] fält.</td> 
+   <td>Mappa filen som du vill konvertera. Det här fältet är tillgängligt om du har markerat [!UICONTROL Map] i fältet [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
-   <td>Ange ett namn för den konverterade filen. Det här fältet är tillgängligt om du har valt [!UICONTROL Map] i [!UICONTROL Source file] fält.</td> 
+   <td>Ange ett namn för den konverterade filen. Det här fältet är tillgängligt om du har markerat [!UICONTROL Map] i fältet [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output format]</td> 
@@ -162,11 +162,11 @@ Den här transformatormodulen returnerar grundläggande information om en modul.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Data]</td> 
-   <td>Mappa filen som du vill konvertera. Det här fältet är tillgängligt om du har valt Karta i [!UICONTROL Source file] fält.</td> 
+   <td>Mappa filen som du vill konvertera. Det här fältet är tillgängligt om du har valt Karta i fältet [!UICONTROL Source file].</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File name]</td> 
-   <td>Ange ett namn för den konverterade filen. Det här fältet är tillgängligt om du har valt Karta i [!UICONTROL Source file] fält.</td> 
+   <td>Ange ett namn för den konverterade filen. Det här fältet är tillgängligt om du har valt Karta i fältet [!UICONTROL Source file].</td> 
   </tr> 
  </tbody> 
 </table>
@@ -178,5 +178,5 @@ Den här transformatormodulen returnerar grundläggande information om en modul.
 Det finns tre fall då en åtgärd kan avslutas med ett fel:
 
 * Mottagna data fanns inte i formatet JPG/GIF/PNG/BMP
-* Gränsen för maximal bredd/höjd har överskridits när bildens dimensioner ändrades. Bildstorleken får inte överstiga bredden 3 840 px och höjden 2 160 px
+* Gränsen för maximal bredd/höjd har överskridits när bildens dimensioner ändrades. Bildstorleken får inte överskrida 3 840 px bredd och 2 160 px höjd
 * Den största tillåtna storleken för en bild har överskridits när bildens dimensioner eller format ändrades.

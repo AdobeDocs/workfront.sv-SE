@@ -1,6 +1,6 @@
 ---
-title: '''[!DNL Adobe Workfront] dokumentation'
-description: Dokumentation för [!DNL Adobe Workfront].
+title: '[!DNL Adobe Workfront]-dokumentation'
+description: Dokumentation för  [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 source-git-commit: 31c87d326cb34a153ba17e7b9769d79d0141c113
@@ -10,7 +10,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront] dokumentation
+# Dokumentation för [!DNL Workfront]
 
 Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. Använd följande länkar, hjälpartiklar och andra resurser från Adobe Workfront för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 
@@ -23,7 +23,7 @@ Välkommen till Adobe Workfront hemsida för produkt och teknisk dokumentation. 
 * [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Versionsaktivitet för Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB 2024 års utgåvor]
+>[!TAB 2024-utgåvor]
 
 * [Första utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Andra utgåvan, kvartal 2024, översikt](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -87,16 +87,16 @@ Att söka i dokumentation kan vara mer effektivt med några strategiska strategi
 
 ### Använda fältet Innehållsförteckning och Sök
 
-* **Innehållsförteckning**: Börja med innehållsförteckningen för att få en översikt över tillgängliga ämnen och begränsa till specifika ämnen i de expanderande avsnitten.
+* **Innehållsförteckning**: Börja med innehållsförteckningen för att få en översikt över tillgängliga ämnen och begränsa dig till specifika ämnen genom de expanderande avsnitten.
 * **Sökfältet**: Använd sökfältet för att hitta dokumentation. Ange specifika termer för ditt problem eller ämne. I stället för allmänna termer som&quot;projekthantering&quot; ska du använda&quot;tidslinjeinställning för projekt&quot; eller&quot;aktivitetssamband&quot;.
 
 ![](assets/exl-site-nav.png)
 
 ### Utforska utbildningsavsnitten
 
-* **Utbildningsmaterial**: Navigera till [Workfront utbildning](https://experienceleague.adobe.com/en/browse/workfront) sida för ett bibliotek med utbildningsvideor och artiklar som hjälper dig att förstå Workfront funktioner och inställningar bättre. Du kan även få tillgång till utbildningsmaterial på [learning.adobe.com](https://learning.adobe.com/).
-* **Kurser**: Sök [strukturerade kurser](https://experienceleague.adobe.com/home?Solution=Workfront#courses) som hjälper dig att använda olika Workfront-funktioner i en logisk sekvens.
+* **Utbildningsmaterial**: Navigera till [Workfront utbildningssida](https://experienceleague.adobe.com/en/browse/workfront) för ett bibliotek med utbildningsvideor och artiklar som är utformade för att hjälpa dig förstå Workfront funktioner och inställningar bättre. Du kan även få tillgång till betalt utbildningsmaterial på [learning.adobe.com](https://learning.adobe.com/).
+* **Kurser**: Hitta [strukturerade kurser](https://experienceleague.adobe.com/home?Solution=Workfront#courses) som vägleder dig genom att använda olika Workfront-funktioner i en logisk sekvens.
 
 ### Hitta svar i communityforum
 
-* **Ställ frågor**: Om dokumentationen inte svarar på din fråga kan du försöka publicera i [Workfront Community-forum](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) där andra användare och experter kan erbjuda hjälp.
+* **Ställ frågor**: Om dokumentationen inte svarar på din fråga kan du prova att publicera i [Workfront Community-forumen](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) där andra användare och experter kan erbjuda hjälp.

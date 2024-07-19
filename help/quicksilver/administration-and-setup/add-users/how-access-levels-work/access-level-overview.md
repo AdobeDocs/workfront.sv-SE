@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Användare med åtkomstnivån Systemadministratör kan göra allt inom Workfront
 
 De har även tillgång till hela inställningsområdet, där de kan ändra alla inställningar på systemnivå och komma åt alla områden på huvudmenyn.
 
-Mer information finns i [Bevilja användaren fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Mer information finns i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
 ### Standardåtkomstnivå
 
@@ -266,7 +266,7 @@ Användare med denna inbyggda åtkomstnivå:
 * Kan godkänna projekt, uppgifter och ärenden
 * Kan granska status för de utgåvor som de har skickat in
 * Kan tilldelas arbetsobjekt men kan inte slutföra dem
-* Kan bara komma åt begäranden från huvudmenyn. Mer information om köer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Kan bara komma åt begäranden från huvudmenyn. Mer information om begärandeköer finns i [Skapa en begärandekö](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
 >
@@ -281,8 +281,8 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Projekt |   | ✓ |   |
 | Uppgift |   | ✓ |   |
 | Problem |   |   | ✓ |
-| Portfolio | ✓ |   |   |
-| Program | ✓ |   |   |
+| Portfolio |   | ✓ |   |
+| Program |   | ✓ |   |
 | Rapporter (inklusive instrumentpaneler och kalenderrapporter) |   | ✓ (Endast fliken Detaljer) |   |
 | Filter, vyer och grupperingar |   |   | ✓ |
 | Dokument |   |   | ✓ |
@@ -297,6 +297,13 @@ Följande är de högsta tillgängliga åtkomstinställningarna för objekt på 
 | Mål |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Från och med version 24.7 har Contributor som standard åtkomst till Program och Portfolio.
+>
+> 
+>Medverkande som anlitas före version 24.7 har som standard fortfarande ingen tillgång till Program och Portfolio. Du kan uppdatera deras åtkomst för att visa dem manuellt om det behövs.
 
 ### Åtkomstnivå för externa användare
 
@@ -314,7 +321,7 @@ Du kan inte ändra den här åtkomstnivån.
 
 >[!IMPORTANT]
 >
->Extern användare är bara tillgänglig om alternativet Samarbeta med personer utan Workfront-konton genom att använda deras e-postadress är aktiverat i området Systeminställningar i Inställningar. Mer information finns i [Konfigurera säkerhetsinställningar för system](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>Extern användare är bara tillgänglig om alternativet Samarbeta med personer utan Workfront-konton genom att använda deras e-postadress är aktiverat i området Systeminställningar i Inställningar. Mer information finns i [Konfigurera systemsäkerhetsinställningar](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 #### **Åtkomstinformation**
 
@@ -399,8 +406,8 @@ En användare kan ge mottagaren någon av följande behörigheter till det enski
    * Med externa användare som inte har någon Workfront-licens (inte tillgänglig för alla objekt)
    * Med en e-postadress (endast tillgängligt för dokument och kalendrar)
 
-* **Contribute**: (ej tillgängligt för alla objekt)
-* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som har beviljats av den som delar objektet. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
+* **Contribute**: (inte tillgängligt för alla objekt)
+* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som har beviljats av delningslisten. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
 
 ### Exempel på scenarier
 

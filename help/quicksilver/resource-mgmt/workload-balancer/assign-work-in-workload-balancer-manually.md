@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Du kan tilldela arbetsobjekt till användare manuellt med hjälp av Adobe Workfront Workload Balancer.
 
-Allmän information om hur du tilldelar arbete till användare med hjälp av Utjämning av arbetsbelastning finns i [Översikt över tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Allmän information om hur du tilldelar arbete till användare med hjälp av arbetsbelastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Åtkomstkrav
 
@@ -48,11 +48,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Problem</p> </li> 
     </ul> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,15 +65,15 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
 1. Gå till den arbetsbelastningsutjämnare där du vill tilldela arbete.
 
-   Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Leta reda på arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Du kan tilldela användare arbete med hjälp av belastningsutjämnaren i resursområdet, i projektet eller på teamnivå. Mer information om var arbetsbelastningsutjämnaren finns i Workfront finns i [Hitta arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Valfritt) Gå till **Ej tilldelat arbete** och använda ett filter för att visa uppgifter eller problem
+1. (Valfritt) Gå till området **Ej tilldelat arbete** och använd ett filter för att visa uppgifter eller problem
 
    eller
 
-   Gå till **Tilldelat arbete** och expandera namnet på en användare för att visa arbetsobjekten som tilldelats dem, om du vill tilldela om deras poster.
+   Gå till området **Tilldelad arbetsplats** och expandera namnet på en användare för att visa de arbetsobjekt som har tilldelats dem, om du vill tilldela om deras objekt.
 
-1. Klicka på **Menyn Mer** ![](assets/qs-more-menu.png) till vänster om namnet på en arbetsuppgift och klicka sedan på **Tilldela detta till**.
+1. Klicka på menyn **Mer** ![](assets/qs-more-menu.png) till vänster om namnet på ett arbetsobjekt och klicka sedan på **Tilldela det här till**.
 
    ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
@@ -86,7 +86,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
 1. Gör något av följande:
 
-   * Börja skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela objektet i **Sök efter personer, roller eller team** markerar du det när det visas i listan och klickar sedan på **Spara**.
+   * Börja skriva namnet på en användare, en jobbroll eller ett team som du vill tilldela objektet i fältet **Sök efter personer, roller eller team**, markera det när det visas i listan och klicka sedan på **Spara**.
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
 
    >[!TIP]
    >
-   > Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Använd fliken Delegeringar för att visa användare som har delegerats till arbetsposten. Mer information om att delegera arbete finns i [Hantera delegering av uppgifter och utgåvor](../../manage-work/delegate-work/how-to-delegate-work.md).
+   > Om din Workfront- eller gruppadministratör har aktiverat delegeringar i din miljö använder du fliken Uppdrag för att tilldela användare till uppgiften eller problemet. Använd fliken Delegeringar för att visa användare som har delegerats till arbetsposten. Mer information om delegering av arbete finns i [Hantera uppgifter och utfärda delegering](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 
    Detta tilldelar eller omtilldelar arbetsuppgiften till de angivna tilldelningarna.
@@ -122,18 +122,18 @@ Du kan tilldela arbetsobjekt som ännu inte har tilldelats en användare eller t
    >   
    >
 
-   * Klicka **Avancerat** för att få åtkomst till avancerade uppdrag.
+   * Klicka på **Avancerat** för att komma åt avancerade tilldelningar.
 
-     Mer information om avancerade uppdrag finns i [Skapa avancerade uppdrag](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Mer information om hur du gör avancerade uppdrag finns i [Skapa avancerade uppdrag](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Valfritt) Klicka på **Ikonen Visa allokeringar** ![](assets/show-allocations-icon-small.png)och klickar sedan på **Menyn Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
+1. (Valfritt) Klicka på ikonen **Visa allokeringar** ![](assets/show-allocations-icon-small.png) och sedan på menyn **Mer** ![](assets/qs-more-menu.png) > **Redigera allokeringar**.
 
    eller
 
    Dubbelklicka på en daglig eller veckovis allokering för att ändra den tid som användaren tilldelas arbetsuppgiften.
 
-   Mer information om hur du ändrar användartilldelningar i Utjämning av arbetsbelastning finns i avsnittet Ändra användartilldelningar i artikeln [Hantera användarallokeringar i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Mer information om hur du ändrar användartilldelningar i arbetsbelastningsutjämnaren finns i avsnittet &quot;Ändra användartilldelningar&quot; i artikeln [Hantera användartilldelningar i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   Mer information om hur du tar bort tilldelningar från ett arbetsobjekt med hjälp av arbetsbelastningsutjämnaren finns i [Ta bort tilldelning av arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   Mer information om hur du tar bort tilldelningar från ett arbetsobjekt med hjälp av arbetsbelastningsutjämnaren finns i [Ta bort tilldelning av arbete i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
     

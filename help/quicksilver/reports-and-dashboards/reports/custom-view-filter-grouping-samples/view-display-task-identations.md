@@ -7,7 +7,7 @@ description: I den här uppgiftsvyn kan du lägga till kod i kolumnen Uppgiftsna
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
-source-git-commit: db8cbf0a33830ab400d9acc0ec02fbabef2e19e8
+source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 0%

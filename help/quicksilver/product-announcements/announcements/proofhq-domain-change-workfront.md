@@ -15,16 +15,16 @@ ht-degree: 0%
 
 # Ändringar som krävs för att lägga till korrektur i tillåtelselista
 
-Korrekturdomänen ändras från proofhq.com till workfront.com.
+Korrekturdomänen ändras from proofhq.com till workfront.com.
 
 Om din brandvägg eller e-postserver är konfigurerad att endast tillåta åtkomst till vissa leverantörer, måste du lägga till följande extra URL-adress i din tillåtelselista för att se till att användare i din organisation kan visa korrektur i Adobe Workfront både i webbläsarvisningsprogrammet och i skrivbordsvisningsprogrammet:
 
 &#42;.workfront.com
 
-The &#42;proofhq.com URL krävs också.
+URL:en för &#42;proofhq.com krävs fortfarande.
 
-Mer information om hur du uppdaterar tillåtelselista finns i [Konfigurera brandväggens tillåtelselista](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Mer information om hur du uppdaterar tillåtelselista finns i [Konfigurera tillåtelselista för brandväggen](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Denna uppdatering gäller endast korrektur inom Workfront; gäller inte när du använder det fristående Workfront Proof-programmet.
+>Den här uppdateringen gäller endast för korrektur i Workfront. Den gäller inte när du använder Workfront Proof fristående program.

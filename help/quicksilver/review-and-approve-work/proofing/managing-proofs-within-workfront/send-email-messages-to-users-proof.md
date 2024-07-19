@@ -29,14 +29,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om åtkomst till korrektur med olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Tillgång till korrekturfunktioner i Workfront</a>.</p> </td> 
+   <td> <p>Aktuell plan: Pro eller högre</p> <p>eller</p> <p>Äldre plan: Välj eller Premium</p> <p>Mer information om korrekturåtkomst för olika planer finns i <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Åtkomst till korrekturfunktioner i Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Valfritt (Du måste ha språkkontroll aktiverat för användaren)</p> </td> 
+   <td> <p>Aktuell plan: Arbete eller plan</p> <p>Äldre plan: Alla (du måste ha språkkontroll aktiverat för användaren)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Behörighetsprofil för korrektur </td> 
+   <td role="rowheader">Behörighetsprofil för bevis </td> 
    <td>Chef eller högre</td> 
   </tr> 
   <tr> 
@@ -45,29 +45,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Om du vill veta vilken plan, roll eller behörighetsprofil du har kontaktar du Workfront- eller Workfront-administratören.
+&#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
 ## Skicka e-postmeddelanden till användare vid korrektur
 
 1. Sök efter dokumentet för det korrektur som innehåller de användare som du vill skicka ett meddelande till.
-1. Håll muspekaren över dokumentet och klicka sedan **Korrektur**.
+1. Håll muspekaren över dokumentet och klicka sedan på **Korrektur**.
 
    ![](assets/proof-workflow-doc-list-350x92.png)
 
-1. Om du vill skicka ett meddelande till alla användare på scenen klickar du på knappen **Mer** på scenen och välj **Meddelande alla**.
+1. Om du vill skicka ett meddelande till alla användare på scenen klickar du på menyn **Mer** på scenen och väljer **Meddelande alla**.
 
    ![](assets/message-stage-350x122.png)
 
-1. Om du vill skicka ett meddelande till en enskild användare klickar du på knappen **Mer** -menyn bredvid användaren och välj **Meddelande**.
+1. Om du vill skicka ett meddelande till en enskild användare klickar du på menyn **Mer** bredvid användaren och väljer **Meddelande**.
 
    ![](assets/message-user-350x121.png)
 
-1. I **Meddelandeinformation** anger du följande information:
+1. Ange följande information i avsnittet **Meddelandeinformation**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -79,10 +79,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      </tr> 
      <tr> 
       <td role="rowheader">Ignorera anpassat meddelande</td> 
-      <td> <p>Klicka <strong>Ignorera anpassat meddelande</strong> om du bara vill inkludera standardinnehållet för e-post.</p> <p>Standardpåminnelsemeddelandet innehåller följande information:</p> 
+      <td> <p>Klicka på <strong>Ignorera anpassat meddelande</strong> om du bara vill inkludera standardinnehållet för e-post.</p> <p>Standardpåminnelsemeddelandet innehåller följande information:</p> 
        <ul> 
-        <li>Personlig länk till beviset<br>Miniatyrbild av korrekturbilden<br></li> 
-        <li>Följande korrekturinformation: Bevisnamn, versionsnummer, mappnamn (om tillämpligt) och en lista över granskarna och deras förlopp i korrekturet.</li> 
+        <li>Personlig länk till korrekturbilden<br>Miniatyrbild<br></li> 
+        <li>Följande korrekturinformation: Korrekturnamn, versionsnummer, mappnamn (om tillämpligt) och en lista över granskarna och deras förlopp i korrekturet.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -96,4 +96,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     </tbody> 
    </table>
 
-1. Klicka **Skicka.**
+1. Klicka på **Skicka.**

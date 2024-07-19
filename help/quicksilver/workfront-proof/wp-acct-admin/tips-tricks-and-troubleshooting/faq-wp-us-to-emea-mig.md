@@ -3,27 +3,27 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: tips-tricks-and-troubleshooting-account-administration-workfront-proof
-title: 'Vanliga frågor: Workfront Proof - migrering från USA till EMEA'
-description: Workfront kontaktar direkt alla organisationer som berörs av migreringen av Workfront Proof US till EMEA.
+title: 'Vanliga frågor: migrering från Workfront Proof - USA till EMEA'
+description: Workfront kontaktar alla organisationer som berörs av migrationen från Workfront Proof USA till EMEA.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1aa69e5-f7e5-46d5-814e-e11a999e36db
 source-git-commit: 20fcf4dd07c1058559533501f7e297d78c43a70b
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
 
-# Frågor och svar: [!UICONTROL Workfront Proof] - Migrering från USA till EMEA
+# Vanliga frågor: [!UICONTROL Workfront Proof] - migrering från USA till EMEA
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Hur vet jag om den här ändringen påverkar vår organisation?
 
-[!DNL Workfront] kontaktar direkt alla organisationer som berörs av [!DNL Workfront Proof] Migrering från USA till EMEA.
+[!DNL Workfront] kontaktar alla organisationer som påverkas av migreringen från [!DNL Workfront Proof] USA till EMEA direkt.
 
 ## Behöver jag göra något för att förbereda mig för migreringen?
 
@@ -41,13 +41,13 @@ När migreringen är klar kan du och dina användare bara komma åt filer och ko
 
 ## Vad händer med den URL som jag använder för att komma åt [!DNL Workfront Proof]?
 
-Den här URL:en ändras inte. Du kan komma åt [!DNL Workfront] exakt som du har gjort tidigare.
+Den här URL:en ändras inte. Du kommer att kunna komma åt [!DNL Workfront]-systemet precis som du har gjort tidigare.
 
 ## Kan jag fortfarande använda mina gamla korrekturlänkar och bokmärken?
 
-Korrekturspecifika bokmärken fungerar inte längre efter migreringen. Alla som använder ett får ett meddelande som ger åtkomst till beviset via en [!UICONTROL Go to Proof] knapp:
+Korrekturspecifika bokmärken fungerar inte längre efter migreringen. Alla som använder en får ett meddelande som ger åtkomst till korrekturet via en [!UICONTROL Go to Proof]-knapp:
 
-![This_proof_has_been_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
+![This_proof_has_be_migrated.png](assets/this-proof-has-been-migrated-350x361.png)
 
 ## Kommer mitt användarnamn och lösenord att vara detsamma som tidigare?
 
@@ -61,4 +61,4 @@ Om du har ett annat amerikanskt konto som du är partner med och du måste behå
 
 ## Vad händer om jag använder enkel inloggning på mitt konto?
 
-Om du använder enkel inloggning på ditt korrekturkonto måste du konfigurera om kontot så att det använder det nya [!DNL proofhq.eu] domän.
+Om du använder enkel inloggning på ditt korrekturkonto måste du konfigurera om kontot så att det använder den nya domänen [!DNL proofhq.eu].

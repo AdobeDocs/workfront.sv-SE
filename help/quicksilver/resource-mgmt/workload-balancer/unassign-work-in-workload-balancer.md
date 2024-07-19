@@ -21,7 +21,7 @@ Du kan ta bort användartilldelningar från arbetsobjekt manuellt, genom att dra
 
 Mer information om hur du frigör användare genom att dra och släppa finns i [Tilldela arbete i belastningsutjämnaren genom att dra och släppa](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
 
-Mer information om att ta bort flera användare samtidigt finns i [Tilldela flera arbeten med hjälp av belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Mer information om att frigöra flera användare samtidigt finns i [Tilldela flera användare samtidigt med hjälp av belastningsutjämnaren för arbetsbelastning](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Åtkomstkrav
 
@@ -50,11 +50,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
      <li> <p>Projekt</p> </li> 
      <li> <p>Uppgifter</p> </li> 
      <li> <p>Problem</p> </li> 
-    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute-behörigheter eller högre för projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -69,14 +69,14 @@ Du kan antingen ta bort tilldelning från användare och flytta dem till arbetsy
 
 Så här tar du bort tilldelning av arbetsobjekt från användare:
 
-1. Gå till **Tilldelat arbete** och utöka en användare.
+1. Gå till området **Tilldelat arbete** i Utjämning av arbetsbelastning och expandera en användare.
 1. Gör något av följande:
 
    * Hitta det objekt som du vill ta bort tilldelning för i en användares område, klicka på det och dra och släpp det i området Ej tilldelat eller i en annan användares område.
-   * Klicka på **Mer** icon ![](assets/more-icon-task-list.png) till höger om namnet på en arbetsuppgift klickar du på **Tilldela detta till** tar du sedan bort namnet på enheterna som är tilldelade arbetsuppgiften eller anger ett annat namn och klickar på **Spara**.
+   * Klicka på ikonen **Mer** ![](assets/more-icon-task-list.png) till höger om namnet på ett arbetsobjekt, klicka på **Tilldela det här till**, ta bort namnet på enheterna som har tilldelats arbetsobjektet eller ange ett annat namn och klicka sedan på **Spara**.
 
      ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    Objektet visas i området Ej tilldelat arbete om det matchar filtervillkoren för det området och inte har tilldelats någon annan användare, eller om det har tilldelats en annan användare i användarområdet.
 
-   Mer information om filtrering av information i Utjämning av arbetsbelastning finns i [Filtrera information i Utjämning av arbetsbelastning](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+   Mer information om filtrering av information i arbetsbelastningsutjämnaren finns i [Filtrera information i Arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).

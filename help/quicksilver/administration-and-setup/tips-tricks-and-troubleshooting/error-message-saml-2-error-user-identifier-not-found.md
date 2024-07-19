@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Felmeddelande: SAML 2.0-fel: Användaridentifieraren hittades inte'
+title: 'Felmeddelande: SAML 2.0 Fel: Det gick inte att hitta användaridentifieraren'
 description: Du kan inte upprätta en anslutning till ADFS.
 author: Caroline
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
 
-# Felmeddelande: SAML 2.0-fel: Användaridentifieraren hittades inte
+# Felmeddelande: SAML 2.0 Fel: Användaridentifieraren hittades inte
 
 ## Problem
 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront] administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja användaren fullständig administrativ åtkomst</a>.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör. Mer information finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,6 +65,6 @@ Kontrollera att det finns ett anspråk för namn-ID på ADFS-servern:
 1. Välj **[!UICONTROL Trust Relationship]** > **[!UICONTROL Relying Party Trusts]** i den vänstra rutan.
 
 1. Högerklicka på förlitande part-förtroendet för Adobe Workfront och välj **[!UICONTROL Edit Claim Rules]**.
-1. Verifiera att anspråket har en **[!UICONTROL Outgoing Claim Type]** av **[!UICONTROL Name ID]**.
+1. Kontrollera att anspråket har **[!UICONTROL Outgoing Claim Type]** av **[!UICONTROL Name ID]**.
 
 ![1.png](assets/1-350x287.png)

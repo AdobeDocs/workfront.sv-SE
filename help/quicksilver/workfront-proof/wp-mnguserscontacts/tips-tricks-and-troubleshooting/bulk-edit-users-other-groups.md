@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problem:
 
@@ -30,10 +30,13 @@ När ändringarna har sparats togs alla befintliga andra grupper bort och endast
 
 Det beteende som blir resultatet beror på det aktuella gruppmedlemskapet för de valda användarna:
 
-* Om alla de valda användarna har andra gruppmedlemskap som matchar exakt.. När du har valt användare och valt [!UICONTROL edit], [!UICONTROL Other Groups] visas en fullständig lista över alla grupper som användarna tillhör.
+* Om alla valda användare är medlemmar i andra grupper exakt likadana ...
+När du har valt användare och valt [!UICONTROL edit] visas den fullständiga listan i fältet [!UICONTROL Other Groups]
+av alla grupper som dessa användare tillhör.
 
-* Om de valda användarna har andra andra gruppmedlemskap.. När du har valt användare och klickat [!UICONTROL Edit], [!UICONTROL Other Groups] fältet kommer att vara tomt.
+* Om de valda användarna har andra andra gruppmedlemskap..
+När du har markerat användarna och klickat på [!UICONTROL Edit] blir fältet [!UICONTROL Other Groups] tomt.
 
-När du klickar **[!UICONTROL Save Changes]**, sparas det som visas i fältet Andra grupper.
+När du klickar på **[!UICONTROL Save Changes]** sparas det som visas i fältet Andra grupper.
 
 Föregående innehåll i fältet skrivs över.

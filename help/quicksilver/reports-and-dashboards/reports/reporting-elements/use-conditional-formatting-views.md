@@ -62,7 +62,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera en vy i en rapport</p> <p><b>ANMÄRKNING</b></p> <p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera en vy i en rapport</p> <p><b>ANMÄRKNING</b></p> <p>Om du inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -89,13 +89,13 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
 
    eller
 
-   Klicka **Ny rapport** väljer du sedan en objekttyp för att skapa en ny rapport.
+   Klicka på **Ny rapport** och välj sedan en objekttyp för att skapa en ny rapport.
 
-1. (Villkorligt) Om du redigerar en befintlig rapport klickar du på **Rapportåtgärder** och sedan klicka **Redigera**.
+1. (Villkorligt) Om du redigerar en befintlig rapport klickar du på **Rapportåtgärder** och sedan på **Redigera**.
 
-1. I **Kolumner (vy)** klickar du för att markera en befintlig kolumn eller klickar på **Lägg till kolumn** för att skapa en kolumn.
-1. I **Visa i den här kolumnen** i det övre vänstra hörnet av rapportverktyget markerar du fältet som du vill visa i den nya kolumnen.
-1. Klicka **Avancerade alternativ**.
+1. Klicka för att markera en befintlig kolumn på fliken **Kolumner (Visa)** eller klicka på **Lägg till kolumn** för att skapa en kolumn.
+1. I fältet **Visa i den här kolumnen** i det övre vänstra hörnet av rapportverktyget markerar du fältet som du vill visa i den nya kolumnen.
+1. Klicka på **Avancerade alternativ**.
 
 1. Ange följande information:
 
@@ -118,7 +118,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
     </tbody> 
    </table>
 
-1. Klicka **Lägg till en regel för den här kolumnen**.
+1. Klicka på **Lägg till en regel för kolumnen**.
 
    <!--
    <note type="note">
@@ -126,10 +126,10 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
    </note>
    -->
 
-1. I **När:** anger du en villkorssats för kolumnen.
+1. Ange en villkorssats för kolumnen i avsnittet **När:**.
 
    Till exempel:&quot;när aktivitetsprocenten är lika med (skiftlägeskänslig) 50.&quot;
-1. I **Visa fältet så här:** anger hur det här fältet ser ut när villkoret som definieras ovan är uppfyllt.
+1. I avsnittet **Visa fältet så här:** anger du hur det här fältet ska se ut när villkoret som definieras ovan uppfylls.
 
    Ange följande information:
 
@@ -159,7 +159,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Visa text</strong></td> 
-      <td> <p>Välj det här alternativet om du vill visa en anpassad etikett för den här kolumnen i stället för dess verkliga värde. Ange den text som ska visas i stället för värdet i det angivna fältet.</p> <p><b>VIKTIGT</b></p> <p>Markera <strong>Visa text</strong> inaktiverar möjligheten att redigera texten i den här kolumnen.<br>Du kan inte heller ändra värdet för en Predecessor-kolumn eftersom den innehåller inbyggd logik.</p> </td> 
+      <td> <p>Välj det här alternativet om du vill visa en anpassad etikett för den här kolumnen i stället för dess verkliga värde. Ange den text som ska visas i stället för värdet i det angivna fältet.</p> <p><b>VIKTIGT</b></p> <p>Om du väljer <strong>Visa text</strong> inaktiveras möjligheten att redigera texten i den här kolumnen.<br>Du kan inte heller ändra värdet för en föregående kolumn eftersom den innehåller inbyggd logik.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Använd på hela raden</strong></td> 
@@ -168,7 +168,7 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
     </tbody> 
    </table>
 
-1. Klicka **Lägg till regel**.\
+1. Klicka på **Lägg till regel**.\
    Du kan lägga till ytterligare regler i samma kolumn eller lägga till regler i andra kolumner.
 
    Reglerna tillämpas i den ordning de skapades. De kombineras men de skriver inte över varandra, men en kolumnregel har företräde framför en radregel i samma cell.
@@ -189,6 +189,6 @@ Mer information om hur du skapar en rapport finns i [Skapa en rapport](../../../
    * Lägg till kolumnregeln igen för den röda bakgrunden i sena projekt.
    * När du sparar reglerna och vyn används inte den röda bakgrunden i ett projekt som har avbrutits.
 
-1. Klicka **Klar**.
-1. Klicka **Spara + Stäng**.\
+1. Klicka på **Klar**.
+1. Klicka på **Spara + Stäng**.\
    I rapporten ser användare ändringar i formatet om de angivna villkoren har uppfyllts.

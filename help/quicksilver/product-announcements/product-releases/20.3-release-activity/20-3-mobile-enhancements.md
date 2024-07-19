@@ -32,9 +32,9 @@ Mer information finns i [Adobe Workfront Fusion](../../../workfront-fusion/workf
 
 Workfront samarbetar med MobileIron, en plattform för hantering av mobila enheter (MDM), för att ge företag en säkrare och mer kontrollerad mobilupplevelse.
 
-Med Workfront for MobileIron kan administratörer begränsa funktioner som kopiera/klistra in och skärmdumpar. Du kan hämta appen Workfront for MobileIron på [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
+Med Workfront for MobileIron kan administratörer begränsa funktioner som kopiera/klistra in och skärmdumpar. Du kan hämta appen Workfront för MobileIron på [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront).
 
-Mer information om hur du konfigurerar programmet finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Mer information om hur du konfigurerar appen finns i [Konfigurera Adobe Workfront för MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 ## Ny mobil Virtual Assistant
 
@@ -52,5 +52,5 @@ Fäst kommandon
 
 Du kan använda stiftfunktionen för att få tillgång till sparade virtuella assistentkommandon samt nålar från webbläsaren.
 
-**Obs! Den mobila virtuella assistenten är inaktuell i april 2024.**
+**Obs! Den mobila virtuella assistenten har tagits bort från april 2024.**
 

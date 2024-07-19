@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] Team
+title: Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] team
 description: När teamägaren har installerat Adobe Workfront för Microsoft Teams kan du skicka in Workfront-begäranden från ditt Microsoft Teams-konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om hur du installerar Workfront för Microsoft Teams finns i Installera Workfront för Microsoft Teams.
 author: Becky
 feature: Workfront Integrations and Apps
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] Team
+# Skicka [!DNL Adobe Workfront] förfrågningar från [!DNL Microsoft] team
 
 >[!NOTE]
 >
 >Integreringen av Adobe Workfront för Microsoft Teams stöds för närvarande bara för den klassiska Microsoft Teams.
 
-När teamägaren har installerat [!DNL Adobe Workfront for Microsoft Teams]kan du skicka in [!DNL Workfront] från [!DNL Microsoft Teams] konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om installation [!DNL Workfront for Microsoft Teams], se [Installerar [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+När teamägaren har installerat [!DNL Adobe Workfront for Microsoft Teams] kan du skicka [!DNL Workfront] förfrågningar från ditt [!DNL Microsoft Teams]-konto. För att kunna göra det måste du ha ett Workfront-konto med tillgång till förfrågningar. Mer information om hur du installerar [!DNL Workfront for Microsoft Teams] finns i [Installera [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Använd [!DNL Adobe Workfront for Microsoft Teams integration]måste du använda en annan webbläsare än [!DNL Internet Explorer].
+>[!DNL Microsoft Teams] stöder inte längre [!DNL Internet Explorer]. Om du vill använda [!DNL Adobe Workfront for Microsoft Teams integration] måste du använda en annan webbläsare än [!DNL Internet Explorer].
 
 
 ## Åtkomstkrav
@@ -45,24 +45,24 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
-Dina [!DNL Microsoft Teams] teamägaren måste installera [!DNL Workfront] for [!DNL Microsoft Teams] innan du kan använda den.
+Din [!DNL Microsoft Teams]-teamägare måste installera [!DNL Workfront] för [!DNL Microsoft Teams] innan du kan använda det.
 
 ## Skicka [!DNL Workfront] förfrågningar från [!DNL Microsoft Teams]
 
-1. Klicka på **[!UICONTROL More added apps]** (tre punkter) ikon i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
+1. Klicka på ikonen **[!UICONTROL More added apps]** (tre punkter) i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
-1. Klicka **[!DNL Workfront]** i listan som visas.
-1. Klicka på **[!UICONTROL Requests]** -fliken.
+1. Klicka på **[!DNL Workfront]** i listan som visas.
+1. Klicka på fliken **[!UICONTROL Requests]**.
 1. Klicka på **[!UICONTROL New Request]**.
-1. I **[!UICONTROL Select a Request Type]** markerar du den begärandekö där du vill skicka begäran.
+1. I rutan **[!UICONTROL Select a Request Type]** väljer du den begärandekö där du vill skicka begäran.
 1. (Valfritt) Välj en ämnesgrupp eller ett ämne i kön om de är tillgängliga i kön.
 1. Ange följande information:
 
-   (Beroende på hur kön med begäranden har konfigurerats kan alternativen och rutorna som visas variera. En fullständig lista och en beskrivning av möjliga fält finns på [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../manage-work/requests/create-requests/create-submit-requests.md).)
+   (Beroende på hur kön med begäranden har konfigurerats kan alternativen och rutorna som visas variera. En fullständig lista och beskrivning av möjliga fält finns i [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../manage-work/requests/create-requests/create-submit-requests.md).)
 
    <table style="table-layout:auto"> 
     <col> 
@@ -78,33 +78,33 @@ Dina [!DNL Microsoft Teams] teamägaren måste installera [!DNL Workfront] for [
      </tr> 
      <tr> 
       <td role="rowheader"> </td> 
-      <td> <p>Bifoga alla dokument som du vill inkludera i begäran. Du kan bifoga dokument genom att dra och släppa eller genom att klicka [!UICONTROL Select file] och bläddra till och markera dokumentet i filsystemet.</p> </td> 
+      <td> <p>Bifoga alla dokument som du vill inkludera i begäran. Du kan bifoga dokument genom att dra och släppa eller genom att klicka på [!UICONTROL Select file] och bläddra till och markera dokumentet i filsystemet.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Valfritt) Om [!DNL Workfront] administratör kopplade anpassade formulär till begärandekön. Ange informationen i fälten som finns i de anpassade formulären.
+1. (Valfritt) Om administratören av [!DNL Workfront] kopplade anpassade formulär till kön med förfrågningar anger du informationen i fälten som är tillgängliga för anpassade formulär.
 1. De anpassade formulären visas längst ned i den nya begäran.
 1. Klicka på **[!UICONTROL Submit]**.
 
-   Begäran visas i [!DNL Workfront], i den angivna begärandekön. Du får en bekräftelse på att begäran har skickats.
+   Begäran visas i [!DNL Workfront] i den angivna begärandekön. Du får en bekräftelse på att begäran har skickats.
 
-## Visa [!DNL Workfront] som du skickade in [!DNL Microsoft Teams]
+## Visa [!DNL Workfront] förfrågningar som du har skickat in [!DNL Microsoft Teams]
 
-1. Klicka på **[!UICONTROL More added apps]** (tre punkter) ikon i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
+1. Klicka på ikonen **[!UICONTROL More added apps]** (tre punkter) i det vänstra navigeringsfältet i [!DNL Microsoft Teams].
 
-1. Klicka **[!DNL Workfront]** i listan som visas.
-1. Klicka på **[!UICONTROL Requests]** -fliken.
+1. Klicka på **[!DNL Workfront]** i listan som visas.
+1. Klicka på fliken **[!UICONTROL Requests]**.
 
-   Begäranden du har skickat visas i [!UICONTROL My submitted requests] området på [!UICONTROL Requests] -fliken. Du kan inte konfigurera den information som visas på den här fliken om de begäranden som du har skickat.
+   Begäranden som du har skickat visas i området [!UICONTROL My submitted requests] på fliken [!UICONTROL Requests]. Du kan inte konfigurera den information som visas på den här fliken om de begäranden som du har skickat.
 
-   Du kan visa följande information om dina skickade förfrågningar i [!UICONTROL My submitted requests] området på [!UICONTROL Requests] tab:
+   Du kan visa följande information om dina skickade begäranden i [!UICONTROL My submitted requests]-området på fliken [!UICONTROL Requests]:
 
    * **[!UICONTROL Subject]**: Namnet på begäran
    * **[!UICONTROL Reference number]**
    * **[!UICONTROL Request type]**: Namnet på den begärandekö där du skickade begäran
    * **[!UICONTROL Status]**
-   * **[!UICONTROL Submitted on]**: Det datum då du skickade din begäran
+   * **[!UICONTROL Submitted on]**: Datumet då du skickade begäran
    * **[!UICONTROL Assigned to]**
 
-1. (Valfritt) Klicka på rubriken för någon av kolumnerna i listan för att sortera listan efter den kolumnen. Som standard [!DNL Workfront] sorterar listan efter [!UICONTROL Submitted on] datum, med början från den senast skickade begäran.
+1. (Valfritt) Klicka på rubriken för någon av kolumnerna i listan för att sortera listan efter den kolumnen. Som standard sorterar [!DNL Workfront] listan efter datumet [!UICONTROL Submitted on], med början vid den senast skickade begäran.

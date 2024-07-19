@@ -35,7 +35,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -48,29 +48,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Skicka en tidrapport för godkännande
 
-* [Skicka en tidrapport för godkännande](#submit-a-timesheet-for-approval)
+* [Skicka in en tidrapport för godkännande](#submit-a-timesheet-for-approval)
 * [Visa status för en skickad tidrapport](#view-the-status-of-a-submitted-timesheet)
 
 ### Skicka en tidrapport för godkännande
 
-När en tidrapportgodkännare har angetts (enligt beskrivningen i avsnittet) [Utse godkännare av tidrapporter](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) i artikeln [Godkänn en tidrapport](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), **Stäng** längst ned i tidrapporten ändras till **Skicka för godkännande** -knappen.
+När en tidrapportgodkännare har angetts (enligt beskrivningen i avsnittet [Ange godkännare för tidrapport](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) i artikeln [Godkänn en tidrapport](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)) ändras knappen **Stäng** längst ned i tidrapporten till knappen **Skicka för godkännande** .
 
 Så här skickar du in en tidrapport för godkännande:
 
 1. Gå till en tidrapport som har konfigurerats att ha en godkännare.
-1. Loggtid enligt beskrivningen i [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Klicka **Skicka för godkännande** för att starta godkännandeprocessen för tidrapporten.
+1. Loggtid, enligt beskrivningen i [Loggtid](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. Klicka på **Skicka för godkännande** för att starta godkännandeprocessen för tidrapporten.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   The **Skicka för godkännande** knappen ersätts av **Godkänn**, **Avvisa** och **Återkalla** knappar. Tidrapportens status ändras till **Skickat**.
+   Knappen **Skicka för godkännande** ersätts av knapparna **Godkänn**, **Avvisa** och **Återkalla**. Status för tidrapporten ändras till **Skickat**.
 
-   När tidrapporten skickas in för godkännande ser godkännaren tidrapporten som listas i **Godkännanden** området på **Startsida** sida. Följande saker kan hända:
+   När tidrapporten skickas för godkännande ser godkännaren tidrapporten som listas i området **Godkännanden** på sidan **Hem**. Följande saker kan hända:
 
-   * Om de godkänner det **Återkalla** knappen ändras till **Öppna igen** och tidrapportens status uppdateras till **Öppna**.
-   * Om de avvisar det **Skicka för godkännande** knappen ersätter **Återkalla** och tidrapportens status uppdateras till **Avvisad**.
+   * Om de godkänner det ändras knappen **Återkalla** till **Öppna igen** och tidrapportens status uppdateras till **Öppna**.
+   * Om de avvisar den ersätter knappen **Skicka för godkännande** knappen **Återkalla** och tidrapportens statusuppdatering **Avvisad**.
 
-1. (Valfritt) Klicka på **Återkalla** om du behöver öppna tidrapporten igen och uppdatera din tid. Mer information finns i [Återkalla en tidrapport](#recall-a-timesheet) i den här artikeln.
+1. (Valfritt) Klicka på **Återkalla** om du behöver öppna tidrapporten igen och uppdatera din tid. Mer information finns i avsnittet [Återkalla en tidrapport](#recall-a-timesheet) i den här artikeln.
 
 ### Visa status för en skickad tidrapport {#view-the-status-of-a-submitted-timesheet}
 
@@ -82,14 +82,14 @@ Utan dessa meddelanden kan du lära dig mer om status för dina skickade tidrapp
 
 Så här visar du status för en tidrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
-1. Klicka **Tidrapporter**. The **Alla** filtret är markerat som standard.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på **Tidrapporter**. Filtret **Alla** är markerat som standard.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Valfritt) Uppdatera filtret i listan över tidrapporter genom att göra något av följande:
 
-   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
+   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du godkänner
 
      eller
 
@@ -99,7 +99,7 @@ Så här visar du status för en tidrapport:
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen Filter ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på Filterikonen ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -111,7 +111,7 @@ Så här visar du status för en tidrapport:
    >   
    >
 
-1. (Villkorligt) Om du har valt **Mina tidrapporter** måste du se till att **Standard** vyn används och du ser **Status** kolumn.
+1. (Villkorligt) Om du valde **Mina tidrapporter** kontrollerar du att vyn **Standard** används och noterar kolumnen **Status**.
 
    Tidrapporter kan ha följande status:
 
@@ -121,11 +121,11 @@ Så här visar du status för en tidrapport:
     <tbody> 
      <tr> 
       <td role="rowheader">Öppna</td> 
-      <td> <p>Din tidrapport är öppen och du kan logga tid. </p> <p>En återkallad tidrapport visas med statusen Öppna. Mer information finns i <a href="#recall-a-timesheet" class="MCXref xref">Återkalla en tidrapport</a> i den här artikeln. </p> </td> 
+      <td> <p>Din tidrapport är öppen och du kan logga tid. </p> <p>En återkallad tidrapport visas med statusen Öppna. Mer information finns i avsnittet <a href="#recall-a-timesheet" class="MCXref xref">Återkalla en tidrapport</a> i den här artikeln. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Skickat</td> 
-      <td>Du har skickat in din tidrapport för godkännande, men den har inte godkänts än. Du kan återkalla en inskickad tidrapport om du vill fortsätta redigera den. Mer information finns i <a href="#recall-a-timesheet" class="MCXref xref">Återkalla en tidrapport</a> i den här artikeln. </td> 
+      <td>Du har skickat in din tidrapport för godkännande, men den har inte godkänts än. Du kan återkalla en inskickad tidrapport om du vill fortsätta redigera den. Mer information finns i avsnittet <a href="#recall-a-timesheet" class="MCXref xref">Återkalla en tidrapport</a> i den här artikeln. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Stängd</td> 
@@ -148,11 +148,11 @@ Du kan återkalla en tidrapport som redan har skickats in för godkännande. End
 
 Så här återkallar du en tidrapport:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
 
-1. Klicka **Tidrapporter**.
-1. Klicka **Mina tidrapporter** i skärmens övre högra hörn eller välj **Mina tidrapporter** från **Filter** ![](assets/filter-nwepng.png) listruta.
+1. Klicka på **Tidrapporter**.
+1. Klicka på **Mina tidrapporter** i skärmens övre högra hörn eller välj **Mina tidrapporter** i listrutan **Filter** ![](assets/filter-nwepng.png).
 1. Klicka på tidsramen för en tidrapport med statusen **Skickat**.
-1. Klicka **Återkalla**.
+1. Klicka på **Återkalla**.
 
    Tidrapporten kan redigeras igen och dess status ändras till **Öppna**.

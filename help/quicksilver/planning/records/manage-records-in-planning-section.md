@@ -77,8 +77,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr>
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program</a> </p> 
-   <p>I Workfront Planning, Contribute eller högre behörighet till en arbetsyta</a> </p>  
+   <td> <p>I Workfront: Visa eller högre behörigheter för ett projekt, en portfölj eller ett program </a> </p> 
+   <p>I Workfront Planning, Contribute eller högre behörigheter till en arbetsyta </a> </p>  
    <p>Systemadministratörer har behörighet till alla Workfront Planning-arbetsytor, inklusive de som de inte skapade</p>
 </td>
   </tr>
@@ -91,7 +91,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </tbody>
 </table>
 
-*Mer information finns på [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Att tänka på när det gäller planeringsavsnittet för Workfront-objekt
 
@@ -113,11 +113,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Arbetsytan öppnas och posttyperna visas som kort.
 
 1. Klicka på kortet för en posttyp som är kopplad till ett Workfront-projekt, en portfölj eller ett program.
-1. Gå till ett anslutet postfält som har en anslutning till ett Workfront-objekt, antingen i tabellvyn eller från postens informationssida. Mer information finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+1. Gå till ett anslutet postfält som har en anslutning till ett Workfront-objekt, antingen i tabellvyn eller från postens informationssida. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 1. Klicka på namnet på ett Workfront-objekt i det anslutna postfältet.
 Objektets sida öppnas i Workfront.
 
-1. Klicka **Planering** till vänster.
+1. Klicka på **Planering** i den vänstra panelen.
 
    >[!NOTE]
    >
@@ -135,13 +135,13 @@ Objektets sida öppnas i Workfront.
 
 1. Klicka på ett postkort om du vill visa mer information om posten. Postens förhandsvisningsruta visas.
 1. (Valfritt) Börja ändra fält i postens förhandsvisningsruta. Ändringarna sparas automatiskt.
-1. (Valfritt) Klicka på **Öppna på en ny flik** icon ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida. Postens informationssida öppnas i Workfront Planning.
-1. Håll muspekaren över ett minneskort och klicka sedan på ikonen för att koppla från post **-** och sedan klicka **Koppla från**.
+1. (Valfritt) Klicka på ikonen **Öppna på en ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida. Postens informationssida öppnas i Workfront Planning.
+1. Håll muspekaren över ett postkort, klicka på ikonen för att koppla från post **-** och klicka sedan på **Koppla från**.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
-1. Klicka **Anslut** för att ansluta fler poster.
+1. Klicka på **Anslut** för att ansluta fler poster.
 
    >[!NOTE]
    >

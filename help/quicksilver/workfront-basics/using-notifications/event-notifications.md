@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -19,23 +19,23 @@ Händelsemeddelanden är e-postmeddelanden som utlöses av olika typer av hände
 
 >[!NOTE]
 >
->Händelsemeddelanden är en av flera typer [!DNL Adobe Workfront] meddelanden. Mer information om alla [!DNL Workfront] meddelandetyper, se [[!DNL Adobe Workfront] meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
+>Händelsemeddelanden är en av flera typer av [!DNL Adobe Workfront]-meddelanden. Mer information om alla [!DNL Workfront]-meddelandetyper finns i [[!DNL Adobe Workfront] meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Konfigurera händelsemeddelanden
 
 E-postmeddelanden med händelsemeddelanden kan konfigureras på följande nivåer i listan nedan. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
 
-* **Systemnivå**: A [!DNL Workfront] administratören kan aktivera och inaktivera händelsemeddelanden på systemnivå, vilket förklaras i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* **Systemnivå**: En [!DNL Workfront]-administratör kan aktivera och inaktivera händelsemeddelanden på systemnivå, vilket förklaras i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-  Alla grupper ärver systemmeddelanden som standard, men gruppadministratörer kan eventuellt ändra vissa konfigurationer på gruppnivån om det tillåts av [!DNL Workfront] administratör, enligt beskrivningen i nästa punkt nedan.
+  Alla grupper ärver systemmeddelanden som standard, men gruppadministratörer kan eventuellt ändra vissa konfigurationer på gruppnivån, om det tillåts av [!DNL Workfront]-administratören, vilket förklaras i nästa punktlista nedan.
 
-* **Gruppnivå**: En gruppadministratör kan konfigurera ett händelsemeddelande för grupper som de hanterar efter en [!DNL Workfront] administratören låser upp den här funktionen för grupper. Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller [!DNL Workfront] administratörer (för alla grupper). Mer information finns i [Visa och konfigurera händelseaviseringar för en grupp](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+* **Gruppnivå**: En gruppadministratör kan konfigurera ett händelsemeddelande för grupper som de hanterar efter att en [!DNL Workfront]-administratör har låst upp den här funktionen för grupper. Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för [!DNL Workfront]-administratörer (för alla grupper). Mer information finns i [Visa och konfigurera händelsemeddelanden för en grupp](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
   >[!NOTE]
   >
   >Den här funktionaliteten är inledningsvis bara tillgänglig för kunder i kluster 4 som en del av en fasad utrullning. Det kommer att bli tillgängligt för andra kluster kort därefter. Artikeln uppdateras när detta inträffar.
 
-* **Användarnivå**: Alla händelsemeddelanden som aktiveras i hela systemet visas i varje användares [!UICONTROL Notifications] i respektive profil. Användarna kan aktivera och inaktivera sina enskilda händelsemeddelanden där.
+* **Användarnivå**: Alla händelsemeddelanden som aktiveras i hela systemet visas i varje användares [!UICONTROL Notifications] -avsnitt i den enskilda profilen. Användarna kan aktivera och inaktivera sina enskilda händelsemeddelanden där.
 
   [!DNL Workfront] administratörer och användare med behörighet att redigera andra användare kan också aktivera och inaktivera meddelanden i profilen för enskilda användare.
 
@@ -43,14 +43,14 @@ E-postmeddelanden med händelsemeddelanden kan konfigureras på följande nivåe
 
   >[!NOTE]
   >
-  >Meddelanden på användarnivå innehåller även [!DNL Workfront Goals] meddelanden. Men [!DNL Workfront] administratören eller gruppadministratören kan inte konfigurera meddelanden för [!DNL Workfront Goals]. Varje användare måste konfigurera sina egna [!DNL Workfront Goals] meddelanden i sin profil. Om du har behörighet att redigera användare kan du även ändra dessa meddelanden för andra. För aktivering [!DNL Workfront Goals] meddelanden om din profil eller om andra användare som du har behörighet att redigera finns i [Meddelanden: Mål](../../workfront-basics/using-notifications/notifications-goals.md).
+  >Meddelanden på användarnivå innehåller även [!DNL Workfront Goals] meddelanden. Administratören [!DNL Workfront] eller gruppadministratören kan dock inte konfigurera meddelanden för [!DNL Workfront Goals]. Varje användare måste konfigurera sina egna [!DNL Workfront Goals]-meddelanden i sin profil. Om du har behörighet att redigera användare kan du även ändra dessa meddelanden för andra. Information om hur du aktiverar [!DNL Workfront Goals]-meddelanden för din profil eller för andra användare som du har behörighet att redigera finns i [Meddelanden: Mål](../../workfront-basics/using-notifications/notifications-goals.md).
 
-  Om du vill ha mer information om vilka meddelanden [!DNL Workfront] administratörer kan konfigurera, se [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). [!DNL Workfront Goals] är bara tillgängliga i den nya [!DNL Adobe Workfront] upplevelse.
+  Mer information om vilka meddelanden [!DNL Workfront]-administratören kan konfigurera finns i [Konfigurera händelsemeddelanden för alla i systemet](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md). [!DNL Workfront Goals] är bara tillgängligt i den nya [!DNL Adobe Workfront]-upplevelsen.
 
 ## Innehåll för händelsemeddelanden
 
 Ett e-postmeddelande med en händelse innehåller information om händelsen som inträffade och en länk till [!DNL Workfront] där du kan se händelsen i systemet. Mer information om hur du tar emot e-postmeddelanden finns i [[!DNL Adobe Workfront] meddelanden](../../workfront-basics/using-notifications/wf-notifications.md).
 
-A [!DNL Workfront] administratören kan inte ändra innehållet i e-postmeddelandena eftersom de har konfigurerats av [!DNL Workfront]. De kan dock ändra ämnesraderna i e-postmeddelanden om händelser. Mer information finns i [Anpassa e-postämnen för händelsemeddelanden](../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+En [!DNL Workfront]-administratör kan inte ändra innehållet i e-postmeddelanden eftersom de har konfigurerats av [!DNL Workfront]. De kan dock ändra ämnesraderna i e-postmeddelanden om händelser. Mer information finns i [Anpassa e-postavsnitt för händelsemeddelanden](../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-En lista över alla [!DNL Workfront] händelsemeddelanden, tillsammans med en kort beskrivning av varje händelse och om den är aktiv eller inaktiv som standard, finns i [Händelsemeddelanden är tillgängliga i [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+En lista över alla [!DNL Workfront]-händelsemeddelanden, tillsammans med en kort beskrivning av varje händelse och om den är aktiv eller inaktiv som standard, finns i [Händelsemeddelanden tillgängliga i  [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).

@@ -10,14 +10,14 @@ feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Iterator] modulen i [!DNL Adobe Workfront Fusion]
+# [!UICONTROL Iterator]-modulen i [!DNL Adobe Workfront Fusion]
 
-An [!UICONTROL Iterator] är en särskild typ av modul som konverterar en array till en serie paket. Varje arrayobjekt genereras som ett separat paket.
+En [!UICONTROL Iterator]-modul är en särskild typ av modul som konverterar en array till en serie paket. Varje arrayobjekt genereras som ett separat paket.
 
 Mer information finns i [Typer av moduler](../../workfront-fusion/modules/module-types.md) och [Mappa en array i Adobe Workfront Fusion](../../workfront-fusion/mapping/map-an-array.md).
 
@@ -40,9 +40,9 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
@@ -54,11 +54,11 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 
 Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Iterator] modulkonfiguration
+## Modulkonfiguration för [!UICONTROL Iterator]
 
-Du skapar en [!UICONTROL Iterator] -modulen på samma sätt som du konfigurerar andra moduler. The [!UICONTROL Array] fältet innehåller den array som ska konverteras eller delas upp i separata paket.
+Du konfigurerar en [!UICONTROL Iterator]-modul på samma sätt som du konfigurerar andra moduler. Fältet [!UICONTROL Array] innehåller arrayen som ska konverteras eller delas upp i separata paket.
 
 ![](assets/set-up-iterator-350x190.jpg)
 
@@ -68,42 +68,42 @@ Mer information finns i [Konfigurera en moduls inställningar i Adobe Workfront 
 >
 >**Exempel:**
 >
->* I scenariot nedan visas hur du hämtar e-postmeddelanden med bilagor och sparar de bifogade filerna som enskilda filer i ett valt [!DNL Dropbox] mapp.
+>* I nedanstående scenario visas hur du hämtar e-postmeddelanden med bilagor och sparar de bifogade filerna som enskilda filer i en vald [!DNL Dropbox]-mapp.
 >
->   E-postmeddelanden kan innehålla en array med bilagor. The [!UICONTROL Iterator] som infogats efter den första modulen gör att du kan hantera varje bifogad fil separat. The [!UICONTROL Iterator] delar upp arrayen med bilagor i enskilda paket. Varje paket, med en bifogad fil, sparas sedan en i taget i ett markerat [!DNL Dropbox] mapp. The [!UICONTROL Iterator] moduluppsättningen visas ovan: den [!UICONTROL Array] fältet ska innehålla `Attachments` array.
+>   E-postmeddelanden kan innehålla en array med bilagor. Modulen [!UICONTROL Iterator] som infogats efter den första modulen gör att du kan hantera varje bifogad fil separat. Modulen [!UICONTROL Iterator] delar upp arrayen med bilagor i enskilda paket. Varje paket, med en bifogad fil, sparas sedan en i taget i en markerad [!DNL Dropbox]-mapp. [!UICONTROL Iterator]-modulens konfiguration visas ovan: [!UICONTROL Array]-fältet ska innehålla `Attachments`-arrayen.
 >
 >   ![](assets/attachments-array-350x154.jpg)
 >
->* För enkelhetens skull: [!DNL Workfront Fusion] appar erbjuder specialiserad [!UICONTROL Iterator] moduler med förenklad konfiguration. Till exempel [!UICONTROL Email] -appen innehåller [!UICONTROL Iterator] modul [!UICONTROL Email] > [!UICONTROL Iterate attachments] som ger samma resultat som [!UICONTROL Iterator] -modul.
+>* För enkelhetens skull erbjuder många [!DNL Workfront Fusion]-appar specialiserade [!UICONTROL Iterator]-moduler med en förenklad konfiguration. Appen [!UICONTROL Email] innehåller till exempel den speciella [!UICONTROL Iterator] module [!UICONTROL Email] > [!UICONTROL Iterate attachments] som ger samma resultat som den allmänna [!UICONTROL Iterator]-modulen.
 >
 >   ![](assets/specialized-iterators-350x135.jpg)
 
 
-## Felsökning: Mappningspanelen visar inte mappningsbara objekt under [!UICONTROL Iterator] modul
+## Felsökning: Mappningspanelen visar inte mappningsbara objekt i modulen [!UICONTROL Iterator]
 
-När en [!UICONTROL Iterator] modulen saknar information om strukturen för arrayens objekt, mappningspanelen i modulerna efter [!UICONTROL Iterator] modulen visar endast två objekt under [!UICONTROL Iterator] module :`Total number of bundles` och `Bundle order position`:
+När en [!UICONTROL Iterator]-modul inte har information om strukturen för arrayens objekt, visar mappningspanelen i modulerna efter [!UICONTROL Iterator]-modulen endast två objekt under [!UICONTROL Iterator]-modulen: `Total number of bundles` och `Bundle order position`:
 
 ![](assets/mapping-panel-doesnt-display-350x147.png)
 
-Detta beror på att varje modul ansvarar för att tillhandahålla information om de objekt den matar ut, så att dessa objekt kan visas korrekt på mappningspanelen i efterföljande moduler. Det kan dock hända att flera moduler inte kan lämna denna information i vissa fall. till exempel [!UICONTROL JSON] > [!UICONTROL Parse JSON] eller [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] moduler som saknar datastruktur.
+Detta beror på att varje modul ansvarar för att tillhandahålla information om de objekt den matar ut, så att dessa objekt kan visas korrekt på mappningspanelen i efterföljande moduler. Det kan dock hända att flera moduler inte kan tillhandahålla den här informationen i vissa fall, till exempel [!UICONTROL JSON] > [!UICONTROL Parse JSON] eller [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] moduler som saknar datastruktur.
 
 Lösningen är att manuellt köra scenariot för att få modulen att lära sig mer om de objekt den matar ut så att den kan ge information till följande moduler.
 
-Om du till exempel har en [!UICONTROL JSON] > [!UICONTROL Parse JSON] modul utan datastruktur enligt nedan:
+Om du till exempel har en [!UICONTROL JSON] > [!UICONTROL Parse JSON]-modul utan datastruktur enligt nedan:
 
 ![](assets/json-parse-json-350x285.png)
 
-Och sedan om du ansluter en [!UICONTROL Iterator] för att mappa modulens utdata till fältet Array på inställningspanelen i [!UICONTROL Iterator] module :
+Om du ansluter en [!UICONTROL Iterator]-modul till den kan du inte mappa modulens utdata till fältet Array på inställningspanelen i modulen [!UICONTROL Iterator] :
 
 ![](assets/connect-iterator-module-350x146.png)
 
-Du löser detta genom att starta scenariot manuellt i scenarioredigeraren. Du kan bryta länken till modulerna efter [!UICONTROL JSON] > [!UICONTROL Parse JSON] för att förhindra att flödet fortsätter. Du kan även högerklicka på [!UICONTROL JSON] > [!UICONTROL Parse JSON] och välja **[!UICONTROL Run this module only]** på snabbmenyn för att endast köra [!UICONTROL JSON] > [!UICONTROL Parse JSON] -modul.
+Du löser detta genom att starta scenariot manuellt i scenarioredigeraren. Du kan bryta länken mellan modulerna efter modulen [!UICONTROL JSON] > [!UICONTROL Parse JSON] för att förhindra att flödet fortsätter. Du kan också högerklicka på modulen [!UICONTROL JSON] > [!UICONTROL Parse JSON] och välja **[!UICONTROL Run this module only]** på snabbmenyn om du bara vill köra modulen [!UICONTROL JSON] > [!UICONTROL Parse JSON] .
 
-När [!UICONTROL JSON] > [!UICONTROL Parse JSON] exekverar, lär sig om de objekt som genereras och ger denna information till alla efterföljande moduler, inklusive Iterator-modulen. Mappningspanelen i Iteratorns inställningar visar sedan objekten:
+När [!UICONTROL JSON] > [!UICONTROL Parse JSON] körs lär den sig om de objekt som den matar ut och skickar informationen till alla efterföljande moduler, inklusive Iterator-modulen. Mappningspanelen i Iteratorns inställningar visar sedan objekten:
 
 ![](assets/mapping-panel-displays-items-350x131.png)
 
-Mappningspanelen i modulerna som är anslutna efter [!UICONTROL Iterator] -modulen visar de objekt som finns i arrayens objekt:
+Mappningspanelen i modulerna som är anslutna efter modulen [!UICONTROL Iterator] visar dessutom objekten som finns i arrayens objekt:
 
 ![](assets/items-contained-in-array-350x156.png)
 

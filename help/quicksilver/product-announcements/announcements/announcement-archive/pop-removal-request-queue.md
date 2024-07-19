@@ -8,7 +8,7 @@ feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
 source-git-commit: f05b462ff596ccc19215ca684802a9820a98211a
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -23,16 +23,16 @@ POP-tekniken är ett otillförlitligt och mindre säkert e-postalternativ. Dessu
 
 ## Vilken åtgärd behöver jag vidta?
 
-Du måste skapa en ny e-postadress för varje begärandekö som du har konfigurerat med POP-e-post i produktionsmiljön och distribuera den nya e-postadressen efter behov. Mer information finns i [Gör det möjligt för användare att skicka ett ärende via e-post till ett begärandeköprojekt](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Du måste skapa en ny e-postadress för varje begärandekö som du har konfigurerat med POP-e-post i produktionsmiljön och distribuera den nya e-postadressen efter behov. Mer information finns i [Gör det möjligt för användare att skicka ett problem via e-post till ett begärandeköprojekt](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Vad är övergångsplanen?
 
-Från och med version 21.1 i början av februari har du 60 dagar på dig att övergå till den nya *@intag.workfront.com* e-postadress som du skapar. Under 60-dagarsperioden fortsätter det POP-e-postmeddelande som användes tidigare att fungera.
+Från och med version 21.1 i början av februari har du 60 dagar på dig att övergå till den nya e-postadressen *@intag.workfront.com* som du skapar. Under 60-dagarsperioden fortsätter det POP-e-postmeddelande som användes tidigare att fungera.
 
 ## Hur testar jag detta i Preview?
 
-Om du vill testa den här ändringen i förhandsgranskningen måste du aktivera e-post i förhandsvisningsmiljön. Det gör du genom att följa instruktionerna i Hantera e-postmeddelanden i förhandsgranskningsavsnittet i [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådan](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Om du vill testa den här ändringen i förhandsgranskningen måste du aktivera e-post i förhandsvisningsmiljön. Det gör du genom att följa instruktionerna i Hantera e-postmeddelanden i förhandsgranskningsavsnittet i [Aktivera leverans av e-postmeddelanden från förhandsgranskningssandlådemiljön](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!IMPORTANT]
 >
->Det du anger här överförs inte till produktionsmiljön. Du måste gå igenom den här processen igen när funktionen har släppts till Produktion.
+>Det du anger här kommer inte att överföras till produktionsmiljön. Du måste gå igenom den här processen igen när funktionen har släppts till Produktion.

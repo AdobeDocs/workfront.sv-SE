@@ -10,13 +10,13 @@ feature: System Setup and Administration
 role: Admin
 hide: true
 hidefromtoc: true
-source-git-commit: d04b8e9ea2977ea1987bbf13d796e105eb8f0ab4
+exl-id: 1f7fce86-0ba9-4407-842d-5f8625c9de70
+source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
 workflow-type: tm+mt
 source-wordcount: '137'
 ht-degree: 0%
 
 ---
-
 
 # Uppdatera alternativ för automatisk uppgradering på åtkomstnivåer
 
@@ -28,20 +28,20 @@ Så här visar du vilka åtkomstnivåer som har tilldelats som alternativ för a
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png.png). -->
 
-1. Klicka på i den högra panelen **Åtkomstnivåer**.
+1. Klicka på **Åtkomstnivåer** i den högra panelen.
 
-1. Öppna **Vyer** område.
+1. Öppna området **Vyer**.
 
-1. Välj **Ny vy** eller välja en befintlig vy och markera **Redigera** ikon.
+1. Välj **Ny vy** eller en befintlig vy och välj ikonen **Redigera** .
 
-1. Välj **Lägg till kolumn** och söka efter **Uppgradera till**.
+1. Välj **Lägg till kolumn** och sök efter **Uppgradera till**.
 
-1. Klicka **Spara vy**.
+1. Klicka på **Spara vy**.
 
 ## Tilldela ett nytt uppgraderingsalternativ till en åtkomstnivå
 
 Så här tilldelar du ett nytt alternativ för automatisk uppgradering till en åtkomstnivå:
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka på i den högra panelen **Åtkomstnivåer**.
+1. Klicka på **Åtkomstnivåer** i den högra panelen.

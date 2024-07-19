@@ -21,39 +21,39 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 ## Lägga till eller redigera ett tabellblock
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Rapportering**.
-1. Klicka **Ny rapport**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapportering**.
+1. Klicka på **Ny rapport**.
 
    eller
 
-   Klicka på **Mer** icon ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
+   Gå till en befintlig rapport, klicka på ikonen **Mer** ![](assets/more-icon-27x15.png) i rapportrubriken och klicka sedan på **Redigera**.
 
-1. Till höger på skärmen under **Lägga till ett block**, antingen:
+1. Till höger på skärmen under **Lägg till ett block**, antingen:
 
-   Dra **Tabell** icon ![](assets/table-icon.png) till arbetsytan direkt till önskad plats.
+   Dra ikonen **Tabell** ![](assets/table-icon.png) till arbetsytan direkt till önskad plats.
 
    eller
 
-   Dubbelklicka på **Tabell** icon ![](assets/table-icon.png) om du vill lägga till en tabell högst upp på arbetsytan.
+   Dubbelklicka på ikonen **Tabell** ![](assets/table-icon.png) för att lägga till en tabell högst upp på arbetsytan.
 
    >[!TIP]
    >
    >Du kan ändra storleken på blocket efter att det har placerats genom att dra i hörnhandtagen.
 
-1. Klicka **Namnlöst register** i tabellhuvudet och skriv en rubrik för tabellen.
+1. Klicka på **Namnlös tabell** i tabellrubriken och skriv en rubrik för tabellen.
 
    ![](assets/table-name-350x142.png)
 
-1. Klicka **Redigera** mitt i tabellblocket för att konfigurera tabellen.
+1. Klicka på **Redigera** i mitten av tabellblocket för att konfigurera tabellen.
 
    >[!NOTE]
    >
-   >Om tabellen redan var en del av arbetsytan (till exempel när du redigerar en befintlig rapport) visas **Redigera** knappen visas inte i mitten av blocket. Om du vill redigera tabellen klickar du på **Redigera** icon ![](assets/edit-icon.png) i tabellrubriken i stället.
+   >Om tabellen redan var en del av arbetsytan (till exempel när du redigerar en befintlig rapport) visas inte knappen **Redigera** i mitten av blocket. Om du vill redigera tabellen klickar du i stället på ikonen **Redigera** ![](assets/edit-icon.png) i tabellhuvudet.
    >![](assets/edit-icon-table-header-350x71.png)
 
-1. I **Fält** till höger, leta upp ett fält som du vill lägga till som en kolumn i tabellen och dra det sedan till den plats i tabellen där du vill ha det, eller dubbelklicka på det för att lägga till det som den sista kolumnen i tabellen.
+1. I panelen **Fält** till höger letar du reda på ett fält som du vill lägga till som en kolumn i tabellen och drar det sedan till tabellen där du vill ha det, eller dubbelklickar på det för att lägga till det som den sista kolumnen i tabellen.
 
-   Du kan skriva text i **Sök** för att hitta ett specifikt fält efter namn. Du kan också använda de två listrutemenyerna under den här rutan för att begränsa listan med visade fält till ett eller båda av följande:
+   Du kan skriva text i rutan **Sök** för att hitta ett specifikt fält efter namn. Du kan också använda de två listrutemenyerna under den här rutan för att begränsa listan med visade fält till ett eller båda av följande:
 
    * Objekttypen som är associerad med fältet som du vill använda, till exempel Projekt eller Aktivitet
    * Den fälttyp du vill använda, till exempel Datum eller Valuta
@@ -66,6 +66,6 @@ Innan du börjar måste du registrera dig för betaversionen av Reporting Canvas
 
 1. Gör något av följande för att konfigurera tabellen ytterligare:
 
-   * **Lägg till ett formelfält**: Klicka **Nytt +** högst upp på **Fält** lista. Mer information om hur du skapar ett formelfält finns i [Skapa ett formelfält i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
-   * **Lägga till ett filter**: Dra fältet som du vill att tabellen ska filtreras efter till **Filter** ovanför tabellen. Mer information om hur du ställer in filterregler finns i [Filtrera en tabell i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
-   * **Gruppera rader efter specifika attribut**: Dra fältet som du vill att tabellen ska grupperas i till **Grupp** ovanför tabellen. Mer information om hur du skapar radgrupper finns i [Gruppera tabellrader i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).
+   * **Lägg till ett formelfält**: Klicka på **Nytt +** överst i listan **Fält**. Mer information om hur du skapar ett formelfält finns i [Skapa ett formelfält i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md).
+   * **Lägg till ett filter**: Dra fältet som du vill att tabellen ska filtreras av till avsnittet **Filter** ovanför tabellen. Mer information om hur du ställer in filterregler finns i [Filtrera en tabell i Rapporteringsarbetsyta](../../../reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md).
+   * **Gruppera rader efter specifika attribut**: Dra fältet som du vill att tabellen ska grupperas efter till avsnittet **Grupp** ovanför tabellen. Mer information om hur du skapar radgrupper finns i [Gruppera tabellrader i rapportarbetsytan](../../../reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md).

@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -43,11 +43,11 @@ Förloppet för korrektur anger det arbete som utförts med ett korrektur från 
   </tr> 
   <tr> 
    <td> <p><strong></strong> </p> <p><strong>Kommentarer gjorda</strong> </p> </td> 
-   <td> <p>Alla tilldelade mottagare gör minst en kommentar på korrekturet.</p> <p>Om det inte finns någon granskare tilldelad korrekturet visas <strong>C</strong> visas inte i förloppsindikatorn.</p> </td> 
+   <td> <p>Alla tilldelade mottagare gör minst en kommentar på korrekturet.</p> <p>Om korrekturet inte har tilldelats några granskare visas inte ikonen <strong>C</strong> i förloppsindikatorn.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Beslut</strong> </p> </td> 
-   <td> <p>Alla tilldelade godkännare fattar ett beslut om beviset. Alla tilldelade godkännare fattar ett beslut om beviset, såvida inte den som skapat beviset bara anger ett beslut.</p> <p>Om inga godkännare (beslutsfattare) har utsetts för bevisupptagningen ska <strong>D</strong> visas inte i förloppsindikatorn. </p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Beslutet har fattats</strong> </p> </td> 
+   <td> <p>Alla tilldelade godkännare fattar ett beslut om beviset. Alla tilldelade godkännare fattar ett beslut om beviset, såvida inte den som skapat beviset bara anger ett beslut.</p> <p>Om inga godkännare (beslutsfattare) har angetts för korrekturet visas inte ikonen <strong>D</strong> i förloppsindikatorn. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -55,9 +55,9 @@ Förloppet för korrektur anger det arbete som utförts med ett korrektur från 
 Förloppsikonerna kan visas i följande färger för att visa viss information om korrekturets förlopp:
 
 * **Grön**: Slutförd.
-* **Vit**: Inte fullständigt.
-* **Orange**: Inte fullständigt och deadline är mindre än 24 timmar.
-* **Röd**: Inte komplett och förbi deadline.
+* **Vit**: Inte slutförd.
+* **Orange**: Inte slutförd och deadline är mindre än 24 timmar.
+* **Röd**: Inte slutförd och har passerat tidsgränsen.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Förloppsikonerna kan visas i följande färger för att visa viss information o
 
 ## Översikt över korrekturstatus
 
-Korrekturstatusen visar statusen för de beslut som krävs för beviset. Bevisets status styrs av deltagaren i det värsta fallet. Anta till exempel att det finns tre beslut om beviset: två har statusen **Accepterad** och en har statusen **Avvisad**. Det värsta fallet **Avvisad** överstyr de andra besluten och bevisets övergripande status visas som **Avvisad**. 
+Korrekturstatusen visar statusen för de beslut som krävs för beviset. Bevisets status styrs av deltagaren i det värsta fallet. Anta till exempel att det finns tre beslut för korrekturet: två har statusen **Godkänd** och en har statusen **Avvisad**. Det värsta fallet-beslutet av **Avvisad** överstyr de andra besluten och korrekturets totala status visas som **Avvisad**. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 

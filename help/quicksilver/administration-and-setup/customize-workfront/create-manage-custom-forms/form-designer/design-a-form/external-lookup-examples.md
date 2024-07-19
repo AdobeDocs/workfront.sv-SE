@@ -30,10 +30,10 @@ Du kan använda den externa sökningen för att hämta data från din Workfront-
 I det här exemplet visas hur du anropar Workfront API och hämtar data från det befintliga statusfrågefältet till det externa sökfältet.
 
 1. Öppna det anpassade formuläret.
-1. På skärmens vänstra sida finns **Extern sökning** och dra den till ett avsnitt på arbetsytan.
-1. Ange **Etikett** och **Namn** för fältet.
+1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. Ange fältets **etikett** och **namn**.
 1. Välj **Format** för fältet.
-1. Ange API-URL-anropet i **Bas-API-URL** fält.
+1. Ange API-URL-anropet i fältet **Bas-API URL**.
 
    * Du kan lägga till $$HOST för att referera till samma instans.
    * Du kan lägga till $$QUERY om du vill filtrera resultaten baserat på en fråga i ett annat fält.
@@ -41,26 +41,26 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från de
    **Exempel**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
 
-1. Granska **Beroenden** för fälten som det här sökfältet refererar till i API:t.
+1. Granska **beroendena** för fälten som det här sökfältet refererar till i API:t.
 
    Ett beroendefält kan vara vilket anpassat eller inbyggt fält som helst som finns på objektets informationssida.
 
-   I det här exemplet `{DE:StatusQuery}` ersätts med värdet för det anpassade fältet StatusQuery.
+   I det här exemplet ersätts `{DE:StatusQuery}` med värdet för det anpassade statusfrågefältet.
 
 1. Välj **HTTP-metod**.
 
-   Detta är troligtvis mest sannolikt **Hämta**.
+   Detta kommer troligtvis att vara **Get**.
 
-1. Ange **JSON-sökväg** för att få resultat från ditt API-anrop.
+1. Ange **JSON-sökvägen** för att få resultat från ditt API-anrop.
 
    **Exempel**
    `$.data[*].name`
 
    >[!NOTE]
    >
-   >**Sidhuvud** ingen information krävs för ett anrop till samma Workfront-instans.
+   >**Rubrik** krävs inte för ett anrop till samma Workfront-instans.
 
-1. Klicka **Använd**.
+1. Klicka på **Använd**.
 
    ![Konfigurera API-anrop till Workfront i anpassat format](assets/external-lookup-to-workfront.png)
 
@@ -74,54 +74,54 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från de
 
 Du kan använda den externa sökningen för att anropa ett externt, offentligt API och hämta data.
 
-I det här exemplet visas hur du anropar ett API med länder (som <https://api.first.org/data/v1/countries>) så att du inte behöver hårdkoda alla landsnamn i listrutan.
+I det här exemplet visas hur du anropar ett API med länder (till exempel <https://api.first.org/data/v1/countries>) så att du inte behöver hårdkoda alla landsnamn i listrutan.
 
 1. Öppna det anpassade formuläret.
-1. På skärmens vänstra sida finns **Extern sökning** och dra den till ett avsnitt på arbetsytan.
-1. Ange **Etikett** och **Namn** för fältet.
+1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. Ange fältets **etikett** och **namn**.
 1. Välj **Format** för fältet.
-1. Ange API-URL-anropet i **Bas-API-URL** fält.
+1. Ange API-URL-anropet i fältet **Bas-API URL**.
 
    * Du kan lägga till $$QUERY för att implementera frågefiltrering för slutanvändarna.
 
    **Exempel**
-Listar alla länder: <https://api.first.org/data/v1/countries>
+Visar alla länder: <https://api.first.org/data/v1/countries>
 
-   Låter användaren söka efter vilket land som helst i listrutan: <https://api.first.org/data/v1/countries?q=$$QUERY>
+   Tillåter användaren att söka efter ett land i listrutan: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
    Låter användaren söka efter ett land i en region: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * De tillgängliga områdena definieras i ett separat anpassat fält i Workfront.
    * När användaren väljer en region i formuläret visar fältet för extern sökning endast länderna i den regionen (i vilket land som regionen definieras i API:t). Användaren kan också söka efter ett land i den valda regionen.
 
-1. Granska **Beroenden** för fälten som det här sökfältet refererar till i API:t.
+1. Granska **beroendena** för fälten som det här sökfältet refererar till i API:t.
 
    Ett beroendefält kan vara vilket anpassat eller inbyggt fält som helst som finns på objektets informationssida.
 
-   I det här exemplet `{DE:Region}` ersätts med värdet för det anpassade fältet Region.
+   I det här exemplet ersätts `{DE:Region}` med värdet för det anpassade fältet Region.
 
 1. Välj **HTTP-metod**.
 
-   Detta är troligtvis mest sannolikt **Hämta**.
+   Detta kommer troligtvis att vara **Get**.
 
-1. Ange **JSON-sökväg** för att få resultat från ditt API-anrop.
+1. Ange **JSON-sökvägen** för att få resultat från ditt API-anrop.
 
    Med det här alternativet kan data extraheras från den JSON som returneras av API-URL:en. Det är ett sätt att välja vilka värden från JSON som ska visas i listrutealternativen.
 
    **Exempel**
    `$.data[*].country`
 
-1. (Valfritt) Klicka på **Lägg till sidhuvud** och skriv eller klistra in nyckelvärdepar som krävs för autentisering med API:t.
+1. (Valfritt) Klicka på **Lägg till huvud** och skriv eller klistra in det nyckel/värde-par som krävs för autentisering med API:t.
 
    >[!NOTE]
    >
    >Rubrikfälten är inte ett säkert ställe att lagra inloggningsuppgifter på och du bör vara försiktig med vad du anger och sparar.
 
-1. (Valfritt) Välj **Flervalsmeny** för att användaren ska kunna välja mer än ett värde i listrutan.
+1. (Valfritt) Välj **Flervalslistruta** om du vill att användaren ska kunna välja mer än ett värde i listrutan.
 
-1. Klicka **Använd**.
+1. Klicka på **Använd**.
 
-   ![Konfigurera API-anrop till publikt API i anpassat formulär](assets/external-lookup-to-api-for-countries.png)
+   ![Konfigurera API-anrop till publikt API i anpassat format](assets/external-lookup-to-api-for-countries.png)
 
    När det anpassade formuläret läggs till i ett Workfront-objekt (i det här exemplet ett projekt) ser det ut ungefär så här.
 

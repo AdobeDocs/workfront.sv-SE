@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,30 +56,35 @@ Du kan visa tidrapportets totala timmar i tidrapporthuvudet.
 
 ## Visa det totala antalet timmar på tidrapporten i en lista över tidrapporter
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Tidrapporter**. The **Alla** Filtret är markerat som standard och visar alla tidrapporter du har tillgång till.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Tidrapporter**. Filtret **Alla** är markerat som standard och visar alla tidrapporter som du har åtkomst till.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Valfritt) Uppdatera filtret i listan över tidrapporter genom att göra något av följande:
 
-   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
+   * Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du godkänner
 
-      eller
+     eller
 
-      Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
+     Välj **Mina tidrapporter** om du bara vill visa dina tidrapporter.
 
-      Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
+     Detta tillämpar filtren Mina tidrapportgodkännanden eller Min tidrapport på listan med tidrapporter.
 
-      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicka på ikonen Filter ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicka på Filterikonen ![](assets/filter-nwepng.png) om du vill använda ett annat filter eller skapa ett nytt. Mer information om hur du skapar eller uppdaterar filter finns i [Skapa eller redigera filter i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+
    >[!NOTE]
    >
    >Alternativen Mina tidrapportgodkännanden och Mina tidrapporter visas inte högst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtren Mina tidrapportgodkännanden och Mina tidrapporter från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
-   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >
+   >   
+   >   
+   >   * [Anpassa filter, vyer och grupperingar med en layoutmall](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   
+   >
 
-
-1. (Valfritt) Klicka på **Visa** ![](assets/view-icon.png) eller **Gruppering** ![](assets/grouping.png) ikoner för att använda en annan vy eller gruppering eller för att skapa en ny.
+1. (Valfritt) Klicka på ikonerna **Visa** ![](assets/view-icon.png) eller **Gruppera** ![](assets/grouping.png) om du vill använda en annan vy eller gruppering eller skapa en ny.
 
    Mer information om hur du skapar filter, vyer och grupperingar finns i följande artiklar:
 
@@ -87,9 +92,10 @@ Du kan visa tidrapportets totala timmar i tidrapporthuvudet.
    * [Skapa eller redigera vyer i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Skapa grupperingar i Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Det totala antalet timmar för varje tidrapport som visas i **Totalt antal timmar** kolumn.
+1. Det totala antalet timmar för varje tidrapport som visas i kolumnen **Totalt antal timmar**.
 
    ![](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
 
    >[!TIP]
-   När du använder standardvyn för en lista med tidrapporter visas kolumnen Totalt antal timmar i rött om den tid som loggas för objekten på tidrapporten överstiger antalet timmar i tidrapporgens tidsram. Mer information finns i fältet&quot;Totalt antal timmar&quot; i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >
+   >När du använder standardvyn för en lista med tidrapporter visas kolumnen Totalt antal timmar i rött om den tid som loggas för objekten på tidrapporten överstiger antalet timmar i tidrapporgens tidsram. Mer information finns i fältet&quot;Total Hours&quot; i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

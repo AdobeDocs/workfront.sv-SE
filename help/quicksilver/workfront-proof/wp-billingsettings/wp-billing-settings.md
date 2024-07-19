@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Korrekturinställningar för Workfront
-description: Läs mer om fakturering av Workfront Proof.
+title: Faktureringsinställningar för Workfront Proof
+description: Läs mer om Workfront Proof fakturering.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] Faktureringsinställningar
+# Faktureringsinställningar för [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande underavsnitt:
 

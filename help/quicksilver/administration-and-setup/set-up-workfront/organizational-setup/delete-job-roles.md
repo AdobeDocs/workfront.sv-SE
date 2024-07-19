@@ -39,12 +39,12 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till jobbroller</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Administrativ åtkomst till jobbroller</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ta bort en jobbroll
 
@@ -52,7 +52,7 @@ Du måste ha följande:
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
 -->
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront]och sedan klicka **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Klicka på **[!UICONTROL Job Roles].**
 1. Markera den jobbroll som du vill ta bort och klicka sedan på **[!UICONTROL Delete].**
@@ -60,16 +60,16 @@ Du måste ha följande:
 
    * **Ersätt jobbrollen med en annan jobbroll:** Välj den nya jobbrollen i listrutan.
 
-      Alla aktuella och tidigare resursallokeringar som är associerade med den borttagna jobbrollen överförs till den jobbroll som du väljer.
+     Alla aktuella och tidigare resursallokeringar som är associerade med den borttagna jobbrollen överförs till den jobbroll som du väljer.
 
-      Användare som bara har en tilldelad jobbroll tilldelas den nya jobbrollen som du väljer; användare som har tilldelats en sekundär jobbroll tilldelas inte om till den jobbroll som du väljer.
+     Användare som bara har en tilldelad jobbroll tilldelas om till den jobbroll som du väljer. Användare som har en sekundär jobbroll tilldelad till dem tilldelas inte den jobbroll som du väljer.
 
    * **Ta bort jobbrollen och dess resursallokering:** Välj **[!UICONTROL None]** i listrutan.
 
-      >[!IMPORTANT]
-      >
-      >Om du tar bort en jobbroll tas alla aktuella och tidigare resursallokeringar som hör till den jobbrollen bort för alla projekt.
+     >[!IMPORTANT]
+     >
+     >Om du tar bort en jobbroll tas alla aktuella och tidigare resursallokeringar som hör till den jobbrollen bort för alla projekt.
 
-      &#x200B; till exempel om en uppgift eller utleverans endast har tilldelats den jobbrollen, kommer uppgiften eller utleveransen att tas bort efter att jobbrollen har tagits bort.
+     &#x200B; till exempel om en uppgift eller utleverans endast har tilldelats den jobbrollen, kommer uppgiften eller utleveransen att tas bort efter att jobbrollen har tagits bort.
 
-1. Klicka på  **[!UICONTROL Yes, Delete It]**.
+1. Klicka på **[!UICONTROL Yes, Delete It]**.

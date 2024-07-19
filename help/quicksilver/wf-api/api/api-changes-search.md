@@ -10,7 +10,7 @@ role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -51,9 +51,9 @@ För Ärendegruppsstatus:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Alla dessa tre slutpunkter accepterar **includeHidden=true** -parameter för att hämta dolda projekt-/uppgifts-/utgivningsstatusar för en viss grupp. När du utformar dina statussökfrågor efter dessa metodexempel ser du till att all gruppstatusinformation inkluderas i varje svar.
+Alla dessa tre slutpunkter accepterar parametern **includeHidden=true** för att hämta de dolda statusvärdena för projekt/aktivitet/problem i en viss grupp. När du utformar dina statussökfrågor efter dessa metodexempel ser du till att all gruppstatusinformation inkluderas i varje svar.
 
-Här är ett exempel på en statussökfråga som görs till en uppgiftsgrupp som innehåller en låst status på systemnivå **Egen_1** och en olåst status **Egen_2**:
+Här är ett exempel på en statussökfråga som görs till en uppgiftsgrupp som innehåller en låst status på systemnivå **Custom_1** och en olåst status **Custom_2**:
 
 >**Exempel:**
 

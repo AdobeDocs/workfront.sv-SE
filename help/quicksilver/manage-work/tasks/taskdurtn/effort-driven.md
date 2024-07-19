@@ -2,37 +2,37 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '''Typ av varaktighet: Ansträngningsdriven'
+title: 'Typ av varaktighet: ansträngningsstyrd'
 description: Ansträngningsstyrd är en typ av varaktighet som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
 
-# Översikt över varaktighetstyp: Ansträngningsstyrd
+# Översikt över varaktighetstyp: ansträngningsstyrd
 
 Ansträngningsstyrd är en typ av varaktighet som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 ## Översikt över aktivitetsstyrd varaktighetstyp
 
-Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som aktivitetsstyrd. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och ärenden som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront eller en gruppadministratör kan ange systemets eller gruppens standardtyp för varaktighet som aktivitetsstyrd. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 I det här scenariot finns det en risk för godtycklig förkortning av projektplanen, såvida du inte som projektledare tar dig tid att fundera över om aktiviteten egentligen är en aktivitetsstyrd uppgift.
 
 Använd ansträngningsalternativet för att:
 
-* Fastställ planerad varaktighet baserat på antalet resurser som är tillgängliga för att arbeta med uppgiften. Varaktigheten är lika med Planerade timmar. Planerad varaktighet är lika med Planerade timmar delat med antalet tilldelningar.
+* Fastställ den planerade varaktigheten baserat på antalet resurser som är tillgängliga för att arbeta med uppgiften. Varaktigheten är lika med Planerade timmar. Planerad varaktighet är lika med Planerade timmar dividerat med antalet tilldelningar.
 
-   Den ansträngningsnivå som används för uppgiften avgör arbetsfördelningen och varaktigheten.
+  Den ansträngningsnivå som används för uppgiften avgör arbetsfördelningen och varaktigheten.
 
 * Spåra det totala antalet timmar som har ägnats åt en aktivitet när flera resurser har tilldelats.
 
-   När resurser läggs till minskar aktivitetens planerade varaktighet. (Principen om att&quot;många händer ska göra ljusverk&quot; visar vilken effekt den här varaktighetstypen har på den planerade varaktigheten för en uppgift.)
+  När resurser läggs till minskar aktivitetens planerade varaktighet. (Principen om att&quot;många händer ska göra ljusverk&quot; visar vilken effekt den här varaktighetstypen har på den planerade varaktigheten för en uppgift.)
 
 I följande avsnitt finns mer detaljerad information om hur Workfront beräknar den planerade varaktigheten för en aktivitetsstyrd uppgift och vilken effekt som tillägg av resurser har på uppgiften med den här varaktighetstypen.
 
@@ -46,7 +46,7 @@ Planned Hours (in hours) = Duration (in days)
 
 Du kan justera aktivitetens varaktighet manuellt.
 
-Workfront förutsätter att det finns åtta arbetstimmar per arbetsdag. Din Workfront- eller gruppadministratör definierar timmarna per arbetsdag med inställningen Normal antal timmar per arbetsdag i Projektinställningar i Inställningar. Mer information om hur du ändrar uppgifter och ärenden som en del av dina projektinställningar på systemnivå finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront förutsätter att det finns åtta arbetstimmar per arbetsdag. Din Workfront- eller gruppadministratör definierar timmarna per arbetsdag med inställningen Normal antal timmar per arbetsdag i Projektinställningar i Inställningar. Mer information om hur du ändrar inställningar för aktiviteter och utgåvor som en del av dina projektinställningar på systemnivå finns i [Konfigurera uppgifter och utgåvor för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!TIP]
 >
@@ -54,7 +54,7 @@ Workfront förutsätter att det finns åtta arbetstimmar per arbetsdag. Din Work
 
 Tänk på följande scenarier:
 
-* [Resurser tilldelas 100 % till uppgiften](#resources-are-allocated-100-to-the-task)
+* [Resurser tilldelas 100 % till aktiviteten](#resources-are-allocated-100-to-the-task)
 * [Resurser tilldelas för olika procentsatser av tid till uppgiften](#resources-are-allocated-for-various-percentages-of-time-to-the-task)
 
 ### Resurser tilldelas 100 % till uppgiften {#resources-are-allocated-100-to-the-task}
@@ -131,7 +131,7 @@ I följande tabell visas hur den planerade varaktigheten ändras genom att resur
 
 ## Ändra varaktighetstypen för en uppgift till insatsstyrd
 
-Mer information om hur du ändrar varaktighetstypen för en uppgift finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Mer information om hur du ändrar varaktighetstypen för en aktivitet finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

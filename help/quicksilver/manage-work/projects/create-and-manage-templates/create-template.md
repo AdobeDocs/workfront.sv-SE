@@ -66,27 +66,27 @@ Du måste ha följande:
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Skapa en mall
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om tillgängligt), klicka på **[!UICONTROL Main Menu]** icon ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Mallar**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Mallar**.
 
-1. Klicka **Ny mall**.
+1. Klicka på **Ny mall**.
 
    Mallen är namnlös.
 
    ![Ny mall](assets/create-template-nwe-2022-350x102.png)
 
 1. Ange ett namn för den nya mallen i mallhuvudet och tryck sedan på **Retur.**
-1. Klicka på **Malluppgifter** i den vänstra panelen.
-1. Klicka **Börja lägga till malluppgifter**.
+1. Klicka på avsnittet **Malluppgifter** i den vänstra panelen.
+1. Klicka på **Börja lägga till malluppgifter**.
 
    eller
 
-   Klicka **Ny mallaktivitet** för att börja lägga till uppgifter i mallen.
+   Klicka på **Ny mallaktivitet** om du vill lägga till aktiviteter i mallen.
 
    Att lägga till malluppgifter i en mall är detsamma som att lägga till uppgifter i ett projekt.
 
@@ -96,18 +96,18 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    >
    >Du kan inte lägga till återkommande uppgifter i en mall.
 
-1. (Valfritt) Klicka på **Gantt-schema** i det övre högra hörnet av uppgiftslistan för att visa en visuell representation av mallens uppgiftslista.
+1. (Valfritt) Klicka på ikonen **Gantt-schema** i det övre högra hörnet av uppgiftslistan för att visa en visuell representation av mallens uppgiftslista.
 
    >[!TIP]
    >
    >Du kan inte redigera aktiviteter direkt från det här Gantt-diagrammet.
 
-1. Om du vill lägga till information i den nya mallen klickar du på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Redigera**.
+1. Om du vill lägga till information i den nya mallen klickar du på menyn **Mer** ![](assets/more-icon.png) och sedan på **Redigera**.
 
    Mer information om hur du redigerar en mall finns i [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Klicka **Spara ändringar**.
-1. (Valfritt) Om du vill lägga till fler objekt i mallen kan du läsa avsnittet [Lägga till ytterligare objekt i en mall](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) i artikeln [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+1. Klicka på **Spara ändringar**.
+1. (Valfritt) Om du vill lägga till ytterligare objekt i mallen läser du avsnittet [Lägg till ytterligare objekt i en mall](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#add-additional-items-to-a-template) i artikeln [Redigera projektmallar](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Mallinställningar som bestäms av gruppassociationen
 

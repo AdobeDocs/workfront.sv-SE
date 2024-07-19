@@ -23,7 +23,7 @@ in January 2022
 </MadCap:conditionalText>
 -->
 
-den 4 april 2022. En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+den 4 april 2022. En lista över alla ändringar som är tillgängliga i version 2.2 finns i [2.2 versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Nu finns Adobe Workfront Boards!
 
@@ -40,7 +40,7 @@ Observera att korten på ritytan inte är kopplade till objekt och arbetsobjekt 
 
 En systemadministratör måste aktivera anslagstavlor i layoutmallar för att göra alternativet tillgängligt för alla användare på huvudmenyn.
 
-Mer information finns i [Översikt över styrelser](../../../agile/boards-overview.md).
+Mer information finns i [Översikt över anslagstavlor](../../../agile/boards-overview.md).
 
 ## Ytterligare förbättringar i Workfront Boards
 
@@ -114,7 +114,7 @@ Mer information finns i följande artiklar:
 * [Beräkna om projekttidslinjer](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
 * [Beräkna om projektekonomi](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Redigera information i anpassade formulärfält](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [Bifoga en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
+* [Koppla en mall till ett projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Exportera ett projekt till Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
 * [Prenumerera på objekt i Adobe Workfront](../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 

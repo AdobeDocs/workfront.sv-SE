@@ -19,13 +19,13 @@ ht-degree: 0%
 
 Den här sidan beskriver alla ändringar av integrering och mobilförbättringar som gjorts i version 2019.3. Den gjordes tillgänglig i produktionsmiljön den 19 augusti 2019.
 
-En lista över alla ändringar som gjorts under 2019.3 finns på [Aktivitetsöversikt för 2019.3-utgåvan](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.3 finns i [Översikt över versionsaktiviteten för 2019.3 ](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Stöd för delade objekt i MS OneDrive-integreringen
 
 Nu kan du länka dina delade OneDrive-filer och -mappar till Workfront-objekt. På samma sätt kan du överföra filer i Workfront till delade mappar i OneDrive.
 
-Mer information finns i avsnitten [Länka ett externt dokument till Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Länka en eller flera externa mappar](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder)och [Uppdatera och länka ett dokument från Workfront till en extern molnleverantör](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) i artikeln [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Mer information finns i avsnitten [Länka ett externt dokument till Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Länka en eller flera externa mappar](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) och [Uppdatera och länka ett dokument från Workfront till en extern molnleverantör](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) i artikeln [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Mer information finns i avsnittet [Länka ett externt dokument till Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) i artikeln [Länka dokument från externa program](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -39,7 +39,7 @@ Den här ändringen kan påverka både användarinloggningar och API-integrering
 
   Om företagsdomänen inte ingår i Workfront URL:er visas nu ett nytt domänfält på inloggningsskärmen förutom fälten Användarnamn och Lösenord.
 
-  För de flesta kunder krävs ingen ändring eftersom domäninformationen redan finns i Workfront URL. Till exempel &quot;*domän*.my.workfront.com.&quot;
+  För de flesta kunder krävs ingen ändring eftersom domäninformationen redan finns i Workfront URL. Exempel: *domän*.my.workfront.com.
 
 * **API-integreringar**
 
@@ -61,7 +61,7 @@ Mer information om hur du hanterar den här funktionen finns i [Adobe Workfront 
 
 För att göra Workfront mobilapp säkrare för dig och ditt företag loggas användare ut automatiskt efter 15 dagars inaktivitet. Workfront-administratörer kan anpassa den här tidsgränsen i webbprogrammet under Konfigurera > System > Inställningar.
 
-Mer information finns i [Konfigurera säkerhetsinställningar för system](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Mer information finns i [Konfigurera systemsäkerhetsinställningar](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 ## Mobilappen kräver domän vid inloggning
 

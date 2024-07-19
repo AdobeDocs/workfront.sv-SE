@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1b4c914108e8c9e04d026520d20675d2a88dd485
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '1599'
+source-wordcount: '1601'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Endast användare med en standardlicens kan ha fullständig åtkomst till portf�
 | Ta bort | ✓&#42; |   |   |   |
 | Dela | ✓&#42; |   |   |   |
 | Dela hela systemet | ✓&#42; |   |   |   |
-| Visa | ✓&#42; | ✓&#42; |   |   |
+| Visa | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Redigera information | ✓ |   |   |   |
 | Bifoga anpassade formulär | ✓ |   |   |   |
 | Redigera anpassade fält | ✓ |   |   |   |
@@ -157,7 +157,7 @@ Endast användare med en standardlicens har fullständig åtkomst till program.
 | Ta bort | ✓&#42; |   |   |   |
 | Dela | ✓&#42; |   |   |   |
 | Dela hela systemet | ✓&#42; |   |   |   |
-| Visa | ✓&#42; | ✓&#42; |   |   |
+| Visa | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | Redigera information | ✓ |   |   |   |
 | Bifoga anpassade formulär | ✓ |   |   |   |
 | Redigera anpassade fält | ✓ |   |   |   |
@@ -237,7 +237,7 @@ Användare med en Standard-licens har fullständig åtkomst till rapporter. Alla
 | Generera korrektur | ✓ |   |   |   |
 | Ta bort korrektur | ✓ | ✓ | ✓ |   |
 | Lägg till/ta bort&#42;&#42; | ✓ | ✓ | ✓ |   |
-| Byt namn&#42;&#42; | ✓ | ✓ | ✓ |   |
+| Byt namn på &#42;&#42; | ✓ | ✓ | ✓ |   |
 | Länk (med integration) | ✓ | ✓ | ✓ |   |
 | Bryt länk (med integration) | ✓ | ✓ | ✓ |   |
 
@@ -308,8 +308,8 @@ Endast användare med en Standard-licens har fullständig åtkomst till ekonomis
 | Visa ekonomiska data | ✓&#42; | ✓&#42; |   |   |
 | <span class="preview">Hantera tariffkort</span> | ✓ |   |   |   |
 | Visa information efter kostnad i Resursplaneringsverktygen | ✓ |   |   |   |
-| Budgetresurser i verktygen för resursplanering&#42;&#42; | ✓ |   |   |   |
-| Visa resursallokering i verktygen för resursplanering&#42; | ✓ | ✓ |   |   |
+| Budgetresurser i resursplaneringsverktygen &#42;&#42; | ✓ |   |   |   |
+| Visa resursallokering i resursplaneringsverktygen &#42; | ✓ | ✓ |   |   |
 | Skapa risker i projekt | ✓ |   |   |   |
 | Visa risker i projekt | ✓ | ✓ |   |   |
 
@@ -324,29 +324,29 @@ Endast användare med en standardlicens har fullständig åtkomst till resurshan
 | Åtgärd | Standard | Ljus | Medarbetare | Extern användare |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Redigera prioriteringar och budgettimmar i planeraren | ✓&#42; |   |   |   |
-| Skapa, redigera, ta bort resurspooler&#42;&#42; | ✓&#42; |   |   |   |
+| Skapa, redigera och ta bort resurspooler&#42;&#42; | ✓&#42; |   |   |   |
 | `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42; |   |   |   |
 | Visa projektprioriteringar i Resursplanering | ✓&#42; |   |   |   |
 | Visa resursallokering i verktygen för resursplanering | ✓&#42; | ✓&#42; |   |   |
 | Visa resurspooler | ✓&#42; | ✓&#42; |   |   |
-| Budgetresurser i verktygen för resursplanering&#42;&#42; | ✓ |   |   |   |
+| Budgetresurser i resursplaneringsverktygen &#42;&#42; | ✓ |   |   |   |
 | Bifoga resurspooler till projekt, mallar och användare | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
 &#42; Med en åtkomstnivå kan Workfront-administratörer inaktivera eller aktivera den här funktionen.
 
-&#42;&#42;Kräver ytterligare åtkomst till finansiella data och behörigheter för projektekonomi. Om du ger en planeringsanvändare åtkomst till Resurshantering som inte har tillgång till ekonomiska data, kan användaren fortfarande se timallokeringarna i resursplaneraren, men inte växla till kostnadsvyn eller visa affärsärendet. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela ekonomiska behörigheter för ett objekt](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Kräver ytterligare åtkomst till finansiella data och behörigheter för projektekonomi. Om du ger en planeringsanvändare åtkomst till Resurshantering som inte har tillgång till ekonomiska data, kan användaren fortfarande se timallokeringarna i resursplaneraren, men inte växla till kostnadsvyn eller visa affärsärendet. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) och [Dela ekonomiska behörigheter för ett objekt](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Kräver behörighet att Contribute för objektet, med Gör tilldelningar aktiverade under Avancerade inställningar. Mer information finns i avsnittet [Förstå ärvda behörigheter och objekthierarkin](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) i artikeln [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Kräver behörighet till Contribute för objektet, med Aktivera tilldelningar under Avancerade inställningar. Mer information finns i avsnittet [Förstå ärvda behörigheter och objekthierarkin](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) i artikeln [Översikt över delningsbehörigheter för objekt](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Område för scenarioplanering
 
 | Åtgärd | Standard | Ljus | Medarbetare | Extern användare |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
 | Skapa/redigera befintliga planer och initiativ | ✓ | ✓ |   |   |
-| Lägg till eller redigera jobbrollsinformation om planer och initiativ&#42; | ✓ | ✓ |   |   |
-| Lägg till eller redigera kostnadsinformation om planer och initiativ&#42; | ✓ | ✓ |   |   |
+| Lägg till eller redigera jobbrollinformation för planer och initiativ &#42; | ✓ | ✓ |   |   |
+| Lägg till eller redigera kostnadsinformation om planer och initiativ &#42; | ✓ | ✓ |   |   |
 | Ta bort planer och initiativ | ✓ | ✓ |   |   |
 | Visa scenarier på huvudmenyn | ✓ | ✓ |   |   |
 | Visa planer och initiativ som användaren har skapat&#42; | ✓ | ✓ |   |   |
@@ -357,7 +357,7 @@ Endast användare med en standardlicens har fullständig åtkomst till resurshan
 >
 >Användare kan visa en plan som en annan användare har skapat endast om en länk till planen delas med dem.
 
-&#42; För att användare ska kunna se finansiella data i en plan eller ett initiativ måste de ha tillgång till finansiella data. Mer information finns i [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42; För att användare ska kunna visa ekonomiska data i en plan eller ett initiativ måste de ha tillgång till ekonomiska data. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Workfront målområde
 

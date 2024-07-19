@@ -9,9 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
+source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -62,14 +62,14 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
         <td>Portfolio</td>
         <td>Redigera</td>
         <td>Visa</td>
-        <td>Ingen åtkomst</td>
+        <td>Visa</td>
         <td>Ingen åtkomst</td>
     </tr>
     <tr>
         <td>Program</td>
         <td>Redigera</td>
         <td>Visa</td>
-        <td>Ingen åtkomst</td>
+        <td>Visa</td>
         <td>Ingen åtkomst</td>
     </tr>
     <tr>
@@ -144,28 +144,28 @@ Tabellen nedan visar den högsta åtkomstnivån (Redigera eller Visa) som var oc
     </tr>
 </table>
 
-&#42; Användare med en Contributor-licens kan endast visa rapporter, instrumentpaneler och kalendrar som delas med dem.
+&#42;-användare med en Contributor-licens kan bara visa rapporter, instrumentpaneler och kalendrar som delas med dem.
 
 >[!NOTE]
 >
->Användare med en Light-licens eller en Contributor-licens har begränsade delningsmöjligheter. Mer information finns i [Översikt över licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Användare med en Light-licens eller en Contributor-licens har begränsade delningsmöjligheter. Mer information finns i [Licensöversikt](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
 >Externa användare kan inte söka efter objekt i Workfront. De kan visa dokument och kalendrar som delas med dem. De kan också se vilka användare som delar objekt med dem.
 
 Du hittar detaljerad information om vilka åtkomstnivåer som tillåts för varje objekt och område i följande artiklar:
 
 * [Bevilja åtkomst till projekt](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
-* [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Bevilja åtkomst till utleveranser](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
+* [Bevilja åtkomst till utgåvor](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Bevilja åtkomst till dokument](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
 * [Bevilja åtkomst till portföljer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
 * [Bevilja åtkomst till program](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [Ge åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Bevilja åtkomst till filter, vyer och grupperingar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Bevilja åtkomst till användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
 * [Bevilja åtkomst för team](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Bevilja åtkomst till mallar](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
-* [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
+* [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Bevilja åtkomst till resurshantering](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Bevilja åtkomst till scenarioplan](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Ge åtkomst till Adobe Workfront mål](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

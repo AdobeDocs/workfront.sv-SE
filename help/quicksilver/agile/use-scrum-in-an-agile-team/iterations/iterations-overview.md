@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Översikt över iterationer
 
-Agile-iterationer består av tre områden: status, nedladdning och artikeltavlan.
+Agile iterations består av tre områden: slutförandestatus, nedladdning och artikeltavlan.
 
 ![](assets/agile-iteration-with-callouts.png)
 
-Mer information om nedladdningsschemat och status för slutförande finns i [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md) -avsnitt.
+Mer information om nedladdningsschemat och status för slutförande finns i avsnittet [[!UICONTROL Burndown]](../../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
-Mer information om artikelpanelen finns i [[!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md) -avsnitt.
+Mer information om artikelpanelen finns i avsnittet [[!UICONTROL Scrum] board](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md).

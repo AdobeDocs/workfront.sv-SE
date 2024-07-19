@@ -37,7 +37,7 @@ Det faktiska slutförandedatumet för ett projekt anges på följande sätt:
   >
   >Workfront använder det faktiska slutförandedatumet från projektets uppgift som slutfördes sist som det faktiska slutförandedatumet för hela projektet.
 
-En Workfront- eller gruppadministratör avgör om Workfront använder dagens datum, det planerade slutförandedatumet för en uppgift eller ett problem när dessa är inställda på Fullständigt eller Stängt. Mer information om hur du anger inställningar för åtgärder och problem finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+En Workfront- eller gruppadministratör avgör om Workfront använder dagens datum, det planerade slutförandedatumet för en uppgift eller ett problem när dessa är inställda på Fullständigt eller Stängt. Mer information om hur du anger inställningar för aktiviteter och problem finns i [Konfigurera inställningar för aktiviteter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 <!--this statement is confusing, not sure what it is referring to, so I am drafting this for now: The value for the Actual Completion Date is always what is considered the current date and time.-->
 

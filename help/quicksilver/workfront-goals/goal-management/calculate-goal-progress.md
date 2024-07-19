@@ -23,7 +23,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
      eller
 
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront](https://www.workfront.com/plans).
+     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
 
 * För aktuell plan och licensstruktur:
 
@@ -32,7 +32,7 @@ Din organisation måste ha följande för att kunna använda de funktioner som b
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
-Mer information om åtkomst till Workfront-mål finns på [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront beräknar automatiskt målutvecklingen baserat på förloppet för sina förloppsindikatorer.
 
@@ -57,7 +57,7 @@ När du har aktiverat ett mål börjar Workfront Target beräkna dess förlopp o
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
 * [Faktisk procent slutförd](#actual-percent-complete)
-* [Förväntad procent slutfört](#expected-percent-complete)
+* [Förväntad procent slutförd](#expected-percent-complete)
 * [Förlopp och villkor](#progress)
 
 ### Faktisk procent slutförd {#actual-percent-complete}
@@ -68,15 +68,15 @@ Följande punkter betraktas som förloppsindikatorer för målen:
 
 * Resultat
 
-  Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  Mer information om hur du lägger till resultat i mål finns i [Lägga till resultat i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
 * Verksamhet
 
-  Mer information om hur du lägger till aktiviteter, inklusive projekt, till mål finns i [Lägga till aktiviteter i mål i Adobe Workfront](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  Mer information om hur du lägger till aktiviteter, inklusive projekt, till mål finns i [Lägg till aktiviteter i mål i Adobe Workfront-mål](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
 * Justerade underordnade mål
 
-  Mer information om mål för överordnade och underordnade finns i [Justera mål genom att koppla dem till Adobe Workfront mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  Mer information om mål för överordnade och underordnade finns i [Justera mål genom att ansluta dem i Adobe Workfront-mål](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
   Workfront Target beräknar den faktiska procentandelen som slutförs med följande formel:
 
@@ -137,7 +137,7 @@ Tabellen nedan visar målvillkorsetiketterna och målförloppsprocenten som är 
   </tr> 
   <tr> 
    <td>Nytt</td> 
-   <td> <p>Målet är nyskapat och har ännu inte registrerats. Ett målförlopp visas som Nytt tills någon uppdaterar förloppet för första gången. </p> <p>Information om hur du uppdaterar målförloppet finns i <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Uppdatera målstatus i Adobe Workfront-mål</a>.</p> </td> 
+   <td> <p>Målet är nyskapat och har ännu inte registrerats. Ett målförlopp visas som Nytt tills någon uppdaterar förloppet för första gången. </p> <p>Information om hur du uppdaterar målförloppet finns i <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Uppdatera målförloppet i Adobe Workfront-mål</a>.</p> </td> 
    <td>Ingen procent</td> 
    <td>Inget fält</td> 
    <td><img src="assets/new-goal-icon-condition.png" alt="new_target_icon_condition.png"></td>
@@ -150,7 +150,7 @@ Tabellen nedan visar målvillkorsetiketterna och målförloppsprocenten som är 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
-   <td> <p><span>Risk</span> </p> </td> 
+   <td> <p><span>Vid risk</span> </p> </td> 
    <td>Målet släpar efter, men det kan fortfarande vara möjligt att slutföra det i tid. </td> 
    <td>70-89,99 %</td> 
    <td>Gul</td>

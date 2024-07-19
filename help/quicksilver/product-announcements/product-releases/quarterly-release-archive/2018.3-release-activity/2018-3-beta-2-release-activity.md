@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: 2018.3 Beta 2-lanseringsaktivitet
-description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 2. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 augusti 2018. Förbättrade korrekturfunktioner som lanseras med Beta 2 kommer att vara tillgängliga i förhandsvisningsmiljön onsdagen den 18 juli. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
+title: 2018.3 Beta 2 - versionsaktivitet
+description: Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 2. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 augusti 2018. Förbättringar av korrektur som släpps med Beta 2 kommer att finnas i förhandsvisningsmiljön onsdagen den 18 juli. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# 2018.3 Beta 2-lanseringsaktivitet
+# 2018.3 Beta 2 - versionsaktivitet
 
-Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 2. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 augusti 2018. Förbättrade korrekturfunktioner som lanseras med Beta 2 kommer att vara tillgängliga i förhandsvisningsmiljön onsdagen den 18 juli. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
+Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmiljön i 2018.3 Beta 2. Funktionerna kommer att vara tillgängliga i förhandsvisningsmiljön den 1 augusti 2018. Förbättringar av korrektur som släpps med Beta 2 kommer att finnas i förhandsvisningsmiljön onsdagen den 18 juli. Den kommer att göras tillgänglig i produktionsmiljön i november 2018.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Den här sidan beskriver alla ändringar som senast fanns i förhandsvisningsmil
 
 En lista över alla ändringar som gjorts under 2018.3 finns på  [Aktivitetsöversikt för version 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-Beta 2-versionen från 2018.3 innehåller förbättringar både för Workfront-administratörer och andra användare:
+2018.3 Beta 2 innehåller förbättringar både för Workfront-administratörer och andra användare:
 
 **För administratörer**
 
@@ -33,12 +33,12 @@ Beta 2-versionen från 2018.3 innehåller förbättringar både för Workfront-a
 **För alla användare**
 
 * [Visa godkännanden som delegerats till mig i hemområdet](#view-approvals-delegated-to-me-in-the-home-area)
-* [Exportera data för en viss period i resursplaneraren](#export-data-for-a-given-period-in-the-resource-planner)
+* [Exportera data för en angiven period i resursplaneraren](#export-data-for-a-given-period-in-the-resource-planner)
 * [Dagliga summor visas nu i rött när användaren är överallokerad](#daily-totals-now-display-in-red-when-the-user-is-overallocated)
-* [Aktiviteter och problem döljs på tidslinjen för schemaläggning när de minimeras](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
+* [Aktiviteter och problem döljs på tidslinjen när de minimeras](#tasks-and-issues-are-hidden-on-the-scheduling-timeline-when-minimized)
 * [Filtrera kommentarer och svar efter användare i korrekturläsaren](#filter-comments-and-replies-by-user-in-the-proofing-viewer)
-* [Kommentera ett intervall med tagningar i ett videoklipp](#comment-on-a-range-of-footage-in-a-video-proof)
-* [Nytt verktyg för kommentarmarkering i korrekturläsaren](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
+* [Kommentera ett intervall av tagningar i ett videokorrektur](#comment-on-a-range-of-footage-in-a-video-proof)
+* [Nytt verktyg för Polyline för kommentarmarkering i korrekturläsaren](#new-polyline-tool-for-comment-markup-in-the-proofing-viewer)
 * [Borttagning av Flash för rapport-, kalender- och dokumentdelning](#flash-removal-for-report-calendar-and-document-sharing)
 
 ## Uppdatera e-postadressen i användarprofilen som gruppadministratör {#update-the-email-address-in-the-user-profile-as-a-group-administrator}
@@ -63,7 +63,7 @@ Ett nytt fönster visas nu när du exporterar informationen i Resursplaneraren d
 
 Före den här förbättringen kunde du bara exportera den information som visas på skärmen.
 
-Mer information om hur du exporterar data från resursplaneraren finns i [Översikt över navigering i resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) i artikeln [Översikt över navigering i resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Mer information om att exportera data från resursplaneraren finns i [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md) i artikeln [Navigeringsöversikt för resursplanering](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Dagliga summor visas nu i rött när användaren är överallokerad {#daily-totals-now-display-in-red-when-the-user-is-overallocated}
 
@@ -81,7 +81,7 @@ När du minimerar uppgifter och problem på tidslinjen för schemaläggning döl
 
 Tidigare när uppgifter och problem minimerades fanns uppgifterna och problemen kvar på tidslinjen för schemaläggning för användare och roller, men de skulle visas i en komprimerad vy.
 
-Mer information om hur du minimerar aktiviteter och problem i tidslinjen för schemaläggning finns i&quot;Kom igång med resursschemaläggning&quot;.
+Mer information om hur du minimerar aktiviteter och problem i tidslinjen finns i  &quot;Kom igång med resursplanering&quot;.
 
 ## Filtrera kommentarer och svar efter användare i korrekturläsaren {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 

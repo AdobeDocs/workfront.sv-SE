@@ -2,7 +2,7 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Översikt över aktivitetsbegränsning: Fasta datum'
+title: 'Översikt över aktivitetsbegränsning: fasta datum'
 description: Du kan använda aktivitetsbegränsningen Fasta datum när du vill ange ett exakt startdatum och slutdatum för dina uppgifter. Mer information om uppgiftsbegränsningar finns i Översikt över uppgiftsbegränsning.
 author: Alina
 feature: Work Management
@@ -23,7 +23,7 @@ Du kan använda aktivitetsbegränsningen Fasta datum när du vill ange ett exakt
 Tänk på följande när du använder villkoret Fasta datum:
 
 * När du väljer aktivitetsbegränsningen Fasta datum (FIXT) måste du ange aktivitetens Planerade startdatum och Planerat slutförandedatum. I det här fallet ignoreras aktivitetens föregående relation.
-* Aktivitetens varaktighetsfält kan inte redigeras när du använder FIXT-begränsningen. Varaktighet beräknas som skillnaden mellan aktivitetens planerade startdatum och planerade slutförandedatum.
+* Fältet Varaktighet för aktiviteten kan inte redigeras när du använder FIXT-begränsningen. Varaktighet beräknas som skillnaden mellan aktivitetens planerade startdatum och planerade slutförandedatum.
 * Om aktivitetens varaktighetstyp är Ansträngningsstyrd påverkar antalet tilldelningar för aktiviteten även aktivitetens varaktighet.
 * När du flyttar eller kopierar en uppgift med en FIXT-begränsning till ett annat projekt kan villkoret för aktiviteten eller datumen i projektet ändras beroende på vilka villkorsdatumen är och vilka datum projektet börjar och slutförs. Följande scenarier finns:
 
@@ -31,15 +31,17 @@ Tänk på följande när du använder villkoret Fasta datum:
 
       * När ett villkorsdatum för aktiviteten är tidigare än projektets startdatum ändras villkoret till Så snart som möjligt.
       * När ett eller båda villkorsdatumen för aktiviteten är senare än projektets planerade slutförandedatum, ändras projektets planerade slutförandedatum så att det matchar slutvillkorsdatumet för aktiviteten.
+
    * När målprojektet är schemalagt från slutförande:
 
       * När ett villkorsdatum för aktiviteten är senare än Project Completion Date, ändras aktivitetsbegränsningen till As Late As Possible.
       * När ett eller båda villkorsdatumen för aktiviteten är tidigare än projektets planerade startdatum ändras projektets planerade startdatum så att det matchar startvillkorsdatumet för aktiviteten.
+
    * Oavsett schemat för projektet, när villkorsdatumen för aktiviteten ligger inom projektets start- och slutförandedatum, finns det inga ändringar i aktivitetsbegränsningen eller projektdatumen.
 
-   Mer information om hur du flyttar uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Mer information om att flytta uppgifter finns i [Flytta uppgifter](../../../manage-work/tasks/manage-tasks/move-tasks.md). Mer information om att kopiera uppgifter finns i [Kopiera och duplicera uppgifter](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Mer information om hur du uppdaterar aktivitetsbegränsningen för en uppgift finns i [Uppdatera uppgiftsbegränsningen för en uppgift](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Mer information om hur du uppdaterar aktivitetsbegränsningen för en aktivitet finns i [Uppdatera aktivitetsbegränsningen för en aktivitet](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -22,11 +22,11 @@ Under Dokument kan du ordna, hantera och visa metadata för dokument som överf�
 
 Det finns två typer av dokumentområden. Funktionerna är desamma för båda:
 
-* **Dokumentområde i ett program, en portfölj, ett projekt, en uppgift eller en utgåva:** Visar alla dokument som du har tillgång till för ett visst projekt, en viss uppgift eller ett visst ärende. Klicka för att öppna området **Dokument** ![](assets/document-icon-12x14.png) i den vänstra panelen när du visar ett projekt, en uppgift eller ett problem.
+* **Dokumentområde i ett program, en portfölj, ett projekt, en aktivitet eller ett ärende:** Visar alla dokument som du har tillgång till för ett visst projekt, en viss aktivitet eller ett visst problem. Om du vill komma åt det här området klickar du på **Dokument** ![](assets/document-icon-12x14.png) i den vänstra panelen när du visar ett projekt, en uppgift eller ett problem.
 
-* **Området Globala dokument:** Visar alla dokument som du har tillgång till i Workfront. Klicka för att öppna området **Dokument** ![](assets/document-icon.png) på huvudmenyn ![](assets/main-menu-icon.png).
+* **Området Globala dokument:** Visar alla dokument som du har tillgång till i Workfront. Klicka på **Dokument** ![](assets/document-icon.png) på huvudmenyn ![](assets/main-menu-icon.png) om du vill komma åt det här området.
 
-Information om hur du överför dokument till Workfront finns i [Lägga till dokument i Adobe Workfront från filsystemet](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Mer information om hur du överför dokument till Workfront finns i [Lägga till dokument till Adobe Workfront från ditt filsystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 
 Dokumentområdet registrerar ett antal av följande objekt:
@@ -46,7 +46,7 @@ Du kan klicka på rubriken Detaljer för att gå till hela dokumentinformationsd
 
 ![](assets/documents-area-v2-350x199.png)
 
-Mer information om sammanfattningen finns i [Sammanfattning av dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
+Mer information om sammanfattningen finns i [Sammanfattning för dokumentöversikt](../../documents/managing-documents/summary-for-documents.md).
 
 ## Beslutsbevis
 
@@ -60,9 +60,9 @@ I ett projekt, en uppgift eller ett problem där dokument överförs, kan du kon
 
 I det globala dokumentområdet kan du ställa in två typer av mappar för att ordna de dokument du har tillgång till:
 
-* **Smarta mappar:** Visa endast de dokument som du vill se. Mer information finns i [Skapa och hantera smarta mappar](../../documents/organizing-documents/create-manage-smart-folders.md).
+* **Smarta mappar:** Visa endast de dokument som du vill visa. Mer information finns i [Skapa och hantera smarta mappar](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Mina mappar:** Ordna dokumenten som du vill ha dem. Mer information finns i [Skapa dokumentmappar](../../documents/organizing-documents/create-documents-folder.md).
+* **Mina mappar:** Ordna dokument som du vill ha dem. Mer information finns i [Skapa dokumentmappar](../../documents/organizing-documents/create-documents-folder.md).
 
 ## Utökad dokumentinformation
 

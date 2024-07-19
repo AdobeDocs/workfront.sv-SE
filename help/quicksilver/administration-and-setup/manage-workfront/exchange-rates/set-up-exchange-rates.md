@@ -57,18 +57,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara Workfront-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Ställ in valutakurser
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i Adobe Workfront övre högra hörn och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
 
-1. Klicka **Projektinställningar** > **Växelkurser.**
+1. Klicka på **Projektinställningar** > **Exchange-priser.**
 
-1. Klicka **Lägg till valuta.**
+1. Klicka på **Lägg till valuta.**
 1. Börja skriva namnet på valutan och klicka sedan på den när den visas i listrutan.
 
 1. I fältet Tillhandahålls anger du kursen för den valda valutan, beroende på vilken valuta som är angiven som basvaluta i systemet.
@@ -76,7 +76,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Det här är den valuta som används som standard för alla projekt och rapporter i hela systemet.
 
-1. Klicka **Spara** för att spara ändringarna.
+1. Klicka på **Spara** för att spara ändringarna.
 
 ## Ge användarna möjlighet att ändra standardvalutan för ett projekt
 
@@ -84,7 +84,7 @@ Användarna kan ändra standardvalutan för ett projekt när följande villkor �
 
 * Användaren har en planlicens med administrativ åtkomst till Exchange-priser.
 
-  Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Mer än en valuta är aktiverad i Workfront.
 
@@ -96,7 +96,7 @@ Användarna kan ändra valutan för en jobbroll när följande villkor är uppfy
 
 * Användaren har en planlicens med administrativ åtkomst till jobbroller.
 
-  Mer information finns i [Ge användarna administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+  Mer information finns i [Bevilja användare administrativ åtkomst till vissa områden](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Mer än en valuta är aktiverad i Workfront.
 

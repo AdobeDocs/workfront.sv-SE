@@ -22,4 +22,4 @@ Du måste uppdatera timkostnaden för en användare eller jobbroll (på grund av
 
 ## Lösning
 
-Lägg till de timmar som du inte vill ska ändras till en faktureringspost i projektet och ange status för faktureringsposten till Fakturerad.  Detta låser den gamla nivån och ignoreras av åtgärden Beräkna om finanser.  Alla timmar som inte tillhör en faktureringspost beräknas till den nya avgiften. Mer information finns i [Beräkna om projektekonomi](../../manage-work/projects/project-finances/recalculate-project-finances.md).
+Lägg till de timmar som du inte vill ska ändras till en faktureringspost i projektet och ange status för faktureringsposten till Fakturerad.  Detta låser i den gamla kursen och ignoreras av åtgärden Beräkna om finanser.  Alla timmar som inte tillhör en faktureringspost beräknas till den nya avgiften. Mer information finns i [Beräkna om projektekonomi](../../manage-work/projects/project-finances/recalculate-project-finances.md).

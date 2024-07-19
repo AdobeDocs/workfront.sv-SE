@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Agile är en arbetsmetod som gör det möjligt för team att slutföra små, hanterbara arbetsmängder vid en konsekvent gräns. Teamen kan hantera artiklar på en eftersläpning eller en anslagstavla och inte uppgifter i ett projekt. [!DNL Adobe Workfront] innehåller verktyg som hjälper team att arbeta smidigt.
 
-[!DNL Workfront] är enkla men ändå flexibla verktyg för teamsamarbete. Mer information om ritytor finns i [Översikt över styrelser](../agile/boards-overview.md).
+[!DNL Workfront] anslagstavlor är enkla men ändå flexibla verktyg för teamsamarbete. Mer information om anslagstavlor finns i [Översikt över anslagstavlor](../agile/boards-overview.md).
 
 Ytterligare avancerade verktyg för team använder antingen Kanban eller Scrum. Mer information om metoderna Kanban och Scrum finns i avsnittet [Bestäm en flexibel metod](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding) i artikeln [Skapa ett smidigt team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
@@ -30,19 +30,19 @@ Så här börjar du använda avancerad flexibilitet i Workfront:
 
 1. Konfigurera det flexibla teamet att använda Kanban eller Scrum.
 
-   Mer information finns i [Konfigurera Kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) eller [Konfigurera Scrum](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   Mer information finns i [Konfigurera kanban](../agile/get-started-with-agile-in-workfront/configure-kanban.md) eller [Konfigurera skärpa](../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Kanban-team: Hantera eftersläpningen och skapa [!UICONTROL Kanban] bräda.
+1. Kanban-team: Hantera eftersläpningen och skapa [!UICONTROL Kanban]-styrelsen.
 
-   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) och [Kanban - översikt](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
+   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) och [Kanban-översikt](../agile/use-kanban-in-an-agile-team/kanban-overview.md).
 
-1. Scrum Teams: Hantera eftersläpningen, skapa en iteration och skapa [!UICONTROL Scrum] bräda.
+1. Scrum teams: Hantera eftersläpningen, skapa en iteration och skapa [!UICONTROL Scrum]-tavlan.
 
-   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Översikt över iterationer](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)och [Översikt över Scrum board](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Översikt över iterationer](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) och [Översikt över kontrollpanelen](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
 1. Lägg till uppgifter från projekt i eftersläpningen eller i artikelgruppen.
 
-   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Lägg till befintliga uppgifter eller ärenden i [!UICONTROL Kanban] board](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md)och [Lägga till artiklar i en befintlig upprepning](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   Mer information finns i [Hantera den flexibla eftersläpningen](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md), [Lägga till befintliga uppgifter eller ärenden på [!UICONTROL Kanban] anslagstavlan](../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) och [Lägga till artiklar i en befintlig upprepning](../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Använd flexibel i ett projekt
 

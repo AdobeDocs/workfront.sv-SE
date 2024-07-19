@@ -48,12 +48,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 {{step1-to-boards}}
 
 1. Om du vill öppna ett arbetsflöde klickar du på [!UICONTROL **Visa arbetsflöde**].
-1. Välj [!UICONTROL Iteration Process] bräda.
+1. Välj [!UICONTROL Iteration Process]-tavlan.
 1. Granska mätområdet ovanför brädet högst upp till höger. Klicka på upp- och nedpilarna för att flytta mellan iterationer.
 
    Följande mätvärden visas: totalt antal punkter som har tilldelats iterationen, återstående punkter som ännu inte har slutförts i iterationen och antalet punkter som har slutförts i iterationen.
 
-1. (Valfritt) Klicka på [!UICONTROL **Iterationsinformation**] icon ![Iterationsinformation](assets/iteration-details-button.png) för att öppna informationsdialogrutan för den valda iterationen.
+1. (Valfritt) Klicka på ikonen [!UICONTROL **Iterationsinformation**] ![Iterationsinformation](assets/iteration-details-button.png) för att öppna informationsdialogrutan för den valda iterationen.
 
 ## Granska upprepningsmått på instrumentpanelen
 

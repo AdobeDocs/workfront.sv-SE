@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## Problem
 
-Du ser mer än ett av samma godkännande i [!UICONTROL Home Work List].
+Du ser mer än ett av samma godkännande i din [!UICONTROL Home Work List].
 
 ## Orsak
 

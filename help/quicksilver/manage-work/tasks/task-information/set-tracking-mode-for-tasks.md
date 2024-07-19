@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Spårningsläget för en aktivitet avgör hur aktivitetens förloppsstatus uppdateras i Adobe Workfront.
 
-Mer information om spårningsläge för uppgifter finns i [Översikt över läget Uppgiftsspårning](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Mer information om spårningsläge för uppgifter finns i [Översikt över spårningsläget för aktiviteter](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Åtkomstkrav
 
@@ -59,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till uppgifter </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a></p> </td> 
+   <td> <p>Redigera åtkomst till uppgifter </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Översikt över Adobe Workfront-licenser</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -84,11 +84,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Så här anger du spårningsläget:
 
 1. Gå till den uppgift som du vill ställa in spårningsläget för.
-1. Klicka på **Mer** icon ![](assets/qs-more-icon-on-an-object.png)bredvid namnet på uppgiften och klicka sedan på **Redigera**.
+1. Klicka på ikonen **Mer** ![](assets/qs-more-icon-on-an-object.png)bredvid namnet på aktiviteten och klicka sedan på **Redigera**.
 
    Dialogrutan Redigera uppgift öppnas.
 
-1. I **Inställningar** -avsnittet använder du **Spårningsläge** för att välja spårningsläge för uppgiften.
+1. I avsnittet **Inställningar** använder du listrutan **Spårningsläge** för att välja spårningsläget för uppgiften.
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
@@ -100,6 +100,6 @@ Så här anger du spårningsläget:
    * Komplettera automatiskt
    * Föregående
 
-   Mer information om alternativen för spårningsläge finns i [Översikt över läget Uppgiftsspårning](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   Mer information om alternativen för spårningsläge finns i [Översikt över spårningsläge](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.

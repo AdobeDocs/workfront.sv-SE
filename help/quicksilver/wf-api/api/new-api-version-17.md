@@ -9,7 +9,7 @@ role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1353'
 ht-degree: 0%
 
 ---
@@ -211,7 +211,7 @@ Baslinjeobjektet tog bort flaggan **INLINE_EDITABLE**.
 
 Ett BillingRecord-objekt registrerar intäkter, timmar eller utgifter som kan faktureras. Den här informationen kan användas för att skapa fakturor i ett externt redovisningssystem.
 
-Faktureringsposten-objektet tog bort flaggan **INLINE_EDITABLE**.
+Faktureringsposten tog bort flaggan **INLINE_EDITABLE**.
 
 <!--
 
@@ -257,7 +257,7 @@ Ett CustomerPreferences-objekt representerar den uppsättning inställningar som
       <td>
         <ul>
           <li>
-            <p><b>name</b>
+            <p><b>namn</b>
             </p>
             <p>Lagt till det möjliga värdet "config.defaultToNewHomeDescription" (customer:config.defaultToNewHome)&gt;/p?<p>På så sätt kan en organisation göra den nya hemupplevelsen till standardupplevelsen för sina användare.</p>
           </li>
@@ -357,7 +357,7 @@ Ett Group-objekt representerar en uppsättning användare och team. Grupper repr
 
 Ett Timobjekt representerar en timme som loggas av en användare på en tidrapport.
 
-Objektet Timme tog bort flaggan **INLINE_EDITABLE**.
+Hour-objektet tog bort flaggan **INLINE_EDITABLE**.
 
 ### Iteration (ITRN)
 
@@ -395,7 +395,7 @@ JournalEntry-objektet kan ställas in för att logga information om specifika ob
               <li>Granskaren har ändrats (ARC)</li>
               <li>Granskningen är klar (RDC)</li>
               <li>Granskningen har återkallats (RDR)</li>
-              <li>Publicera (PUB)</li>
+              <li>Publish (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -438,7 +438,7 @@ Ett LinkedFolder-objekt representerar en mapp som är länkad från en extern do
 
 Ett OpTask-objekt kallas vanligtvis för ett problem. Ett problem är en arbetsuppgift som vanligtvis anger att det finns ett problem som förhindrar att en uppgift eller ett projekt slutförs. Ett problem kan också vara en Help Desk-begäran. Ändringsorder, begäranden och buggar är också problem.
 
-Objektet Issue tog bort flaggan **INLINE_EDITABLE**.
+Issue-objektet tog bort flaggan **INLINE_EDITABLE**.
 
 ### Projekt (PROJ)
 
@@ -508,7 +508,7 @@ Rate-objektet tog bort flaggan **INLINE_EDITABLE**.
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>The <b>setRatesForRole</b> åtgärden har ändrats för att lägga till följande fält:
+        <p>Åtgärden <b>setRatesForRole</b> har ändrats så att följande fält läggs till:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>

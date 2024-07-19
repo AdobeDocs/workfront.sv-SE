@@ -9,7 +9,7 @@ role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
   <tr> 
    <th>Fält</th> 
    <th>Referenser</th> 
-   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Samlingar</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Samlingar</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++++ </p> </th> 
    <th>Sök</th> 
    <th>Åtgärder</th> 
    <th>Frågor</th> 
@@ -244,7 +244,7 @@ ht-degree: 0%
 
 ### AccessRule<sup>1</sup>
 
-<sup>1</sup> Flaggad som rapportbar
+<sup>1</sup> har flaggats som rapportbar
 
  
 
@@ -268,7 +268,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Rapporteringsbar flagga borttagen
+<sup>1</sup> Rapporteringsbar flagga har tagits bort
 
  
 
@@ -282,9 +282,9 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Datumvalidering tillagd
+<sup>1</sup> Datumverifiering har lagts till
 
-<sup>2</sup> Inte_Filterbar flagga tillagd
+<sup>2</sup> Inte_Filterable-flagga tillagd
 
  
 
@@ -298,7 +298,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Inkluderingsproblem för tillagda fält
+<sup>1</sup> Tillagda fält includeIssues
 
  
 
@@ -353,7 +353,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> PRECISION-valideraren har ändrats för 8 till 9
+<sup>1</sup> Ändrad PRECISION-validerare för 8 till 9
 
  
 
@@ -459,7 +459,7 @@ ht-degree: 0%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Text ändrad från Int till Double 
+<sup>1</sup> Typen har ändrats från Int till Double 
 
  
 
@@ -499,7 +499,7 @@ ht-degree: 0%
   <tr> 
    <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
-   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">tidrapportProfilTimtyper</span> </td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">tidrapportProfileHourTypes</span> </td> 
    <td> </td> 
    <td>getAvailableActions</td> 
    <td> </td> 

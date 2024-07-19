@@ -20,12 +20,12 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här artikeln handlar om funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur inuti [!DNL Adobe Workfront], se [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
+>Den här artikeln hänvisar till funktionalitet i den fristående produkten [!DNL Workfront Proof]. Mer information om korrektur i [!DNL Adobe Workfront] finns i [Korrektur](../../../review-and-approve-work/proofing/proofing.md).
 
 Det här avsnittet innehåller följande artiklar:
 
-* [The [!DNL Workfront Proof] Faktureringssida](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
+* [Faktureringssidan för [!DNL Workfront Proof] ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 <!--* [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md) -->
-* [Välj betalningsmetod i [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
-* [Laddar ned [!DNL Workfront Proof] Faktura](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
-* [Stäng [!DNL Workfront Proof] konto](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
+* [Välja betalningsmetod i  [!DNL Workfront Proof]](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
+* [Hämtar din  [!DNL Workfront Proof] faktura](../../../workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
+* [Stäng ditt [!DNL Workfront Proof] konto](../../../workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)

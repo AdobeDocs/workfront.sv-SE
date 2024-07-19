@@ -18,11 +18,11 @@ ht-degree: 0%
 
 Du kan överföra filer med Workfront API:er med API-verktyg som Postman eller med enkla cURL-kommandon.
 
-Information om hur du överför dokument finns i instruktionerna för **Överför dokument** i WORKFRONT [Bokför beteende](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Du kan också använda samma instruktioner för cURL-begäranden.
+Information om hur du överför dokument finns i instruktionerna för **överföring av dokument** i Workfront [Efterarbete](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Du kan också använda samma instruktioner för cURL-begäranden.
 
-**Följ dessa riktlinjer när du använder API-verktyg för att överföra filer:**
+**Följ de här riktlinjerna när du använder API-verktyg för att överföra filer:**
 
-* Använd API-verktygsalternativet för att överföra filen. Dessa är ofta **Välj fil** på begärandeskärmen.
+* Använd API-verktygsalternativet för att överföra filen. Detta är ofta en **Välj fil**-knapp på begärandeskärmen.
 
 * Använd POSTENS HTTP-metod för att göra en begäran om att överföra filen.
 

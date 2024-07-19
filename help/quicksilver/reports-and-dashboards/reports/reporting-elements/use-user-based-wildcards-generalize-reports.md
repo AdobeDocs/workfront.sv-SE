@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera rapportelement i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar för att redigera rapportelement i en rapport</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
@@ -63,25 +63,25 @@ Instruktioner om hur du skapar rapporter finns i [Skapa en rapport](../../../rep
 Infoga ett användarbaserat jokertecken i en rapport:
 
 1. Gå till en rapport som du vill infoga ett användarbaserat jokertecken för.
-1. Klicka **Rapportåtgärder** sedan **Redigera**.
+1. Klicka på **Rapportera åtgärder** och sedan på **Redigera**.
 
-1. Klicka på **Filter** -fliken.
-1. Klicka **Lägg till en filterregel**.
+1. Klicka på fliken **Filter**.
+1. Klicka på **Lägg till en filterregel**.
 1. Börja skriva namnet på fältet som du vill filtrera efter.\
    Du måste skriva fält som refererar till användarobjektet eller användarinformation.
-1. Välj **Jämn** i listrutan för filtervariabeln.
+1. Välj **Lika med** i listrutan för filtervariabeln.
 
    >[!TIP]
    >
-   >Du måste alltid välja **Jämn** filtervariabeln när du arbetar med jokertecken i Adobe Workfront.
+   >Du måste alltid markera filtervariabeln **Lika med** när du arbetar med jokertecken i Adobe Workfront.
 
-1. I **Börja skriva namn ...** ruta, typ: `$$USER.ID` eller `$$USER.name` om du vill att rapporten ska visa information om användaren som loggar in, baserat på deras namn. Du kan infoga andra jokertecken som refererar till den inloggade användarens Group, Team, Company eller annan information.
+1. I rutan **Börja skriva namn ...** skriver du: `$$USER.ID` eller `$$USER.name` om du vill att rapporten ska visa information om användaren som loggar in, baserat på deras namn. Du kan infoga andra jokertecken som refererar till den inloggade användarens Group, Team, Company eller annan information.
 
-   En fullständig lista över användarbaserade jokertecken finns i [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   En fullständig lista över användarbaserade jokertecken finns i [Översikt över variabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
 ## Ytterligare information
 
@@ -91,5 +91,5 @@ Se även:
 * [Översikt över filtervariabler för jokertecken](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Skapa eller redigera filter i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Lägga till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Lägg till en fråga i en rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [Använd villkorsstyrd formatering i vyer](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

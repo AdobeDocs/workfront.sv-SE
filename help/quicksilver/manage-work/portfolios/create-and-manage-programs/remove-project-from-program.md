@@ -21,7 +21,7 @@ Du kan ta bort ett projekt från ett program genom att göra något av följande
 * Ta bort den permanent från det aktuella programmet och koppla den inte till något annat program.
 * Ta bort projektet permanent.
 
-   Mer information om hur du tar bort projekt finns i [Ta bort projekt](../../../manage-work/projects/manage-projects/delete-projects.md).
+  Mer information om hur du tar bort projekt finns i [Ta bort projekt](../../../manage-work/projects/manage-projects/delete-projects.md).
 
 ## Åtkomstkrav
 
@@ -41,29 +41,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] tillgång till Portfolio, program och projekt</p> <p>Du måste ha [!UICONTROL Delete] åtkomst till projekt för att ta bort projekt.</p> <p><b> ANMÄRKNING</b>
+   <td> <p>[!UICONTROL Edit] tillgång till Portfolio, program och projekt</p> <p>Du måste ha [!UICONTROL Delete]-åtkomst till projekt för att kunna ta bort projekt.</p> <p><b> ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] administratören kan ändra din åtkomstnivå, se <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörighet till portföljen, programmet och projektet</p> <p>Du måste ha [!UICONTROL Delete] behörighet till projektet för att ta bort det. </p> <p>När du har skapat ett program har du [!UICONTROL Manage] behörighet till den som standard.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen, programmet och projektet</p> <p>Du måste ha [!UICONTROL Delete] behörigheter för projektet för att kunna ta bort det. </p> <p>När du har skapat ett program har du som standard [!UICONTROL Manage] behörighet till det.</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Ta bort ett projekt från ett program
 
 1. Gå till ett program och klicka på **[!UICONTROL Projects]** i den vänstra panelen.
 
 1. Välj det projekt som du vill ta bort
-1. Klicka på **[!UICONTROL Remove Projects]** nedrullningsbar meny.
-1. Klicka **[!UICONTROL Delete]** > **[!UICONTROL Yes, Delete it]** för att ta bort projektet från Workfront.
+1. Klicka på listrutan **[!UICONTROL Remove Projects]**.
+1. Klicka på **[!UICONTROL Delete]** > **[!UICONTROL Yes, Delete it]** för att ta bort projektet från Workfront.
 
    eller
 
-   Klicka **[!UICONTROL Remove]** **[!UICONTROL from Program]** för att ta bort den från det valda programmet.
+   Klicka på **[!UICONTROL Remove]** **[!UICONTROL from Program]** för att ta bort den från det valda programmet.
 
-   Om du klickade [!UICONTROL Remove from Program], är projektet inte längre associerat med det valda programmet.
+   Om du klickade på [!UICONTROL Remove from Program] kopplas projektet inte längre till det valda programmet.

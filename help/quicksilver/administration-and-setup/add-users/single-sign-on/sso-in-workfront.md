@@ -44,8 +44,8 @@ Workfront kan integreras med följande SSO-lösningar:
 
 * Samordnade lösningar som stöder SAML 2.0
 
-  Mer information om hur du integrerar Workfront med SAML 2.0 finns i [Konfigurera Adobe Workfront med SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+  Information om hur du integrerar Workfront med SAML 2.0 finns i [Konfigurera Adobe Workfront med SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
 
 * Samordnade lösningar som stöder SAML 2.0 med hjälp av ADFS
 
-  Mer information om hur du integrerar Workfront med SAML 2.0 med ADFS finns i [Konfigurera Adobe Workfront med SAML 2.0 med ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).
+  Information om hur du integrerar Workfront med SAML 2.0 med ADFS finns i [Konfigurera Adobe Workfront med SAML 2.0 med ADFS](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2-adfs.md).

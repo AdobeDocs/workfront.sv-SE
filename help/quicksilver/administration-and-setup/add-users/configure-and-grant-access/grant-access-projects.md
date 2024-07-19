@@ -54,14 +54,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Konfigurera användaråtkomst till projekt med en anpassad åtkomstnivå
 
 1. Börja skapa eller redigera åtkomstnivån enligt beskrivningen i [Skapa eller ändra anpassade åtkomstnivåer](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på **Visa** eller **Redigera** till höger om Projekt och välj sedan de funktioner som du vill bevilja under **Finjustera inställningarna**.
+1. Klicka på kugghjulsikonen ![](assets/gear-icon-settings.png) på knappen **Visa** eller **Redigera** till höger om Projekt och välj sedan de funktioner som du vill ge under **Finjustera inställningarna**.
 
    ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
@@ -69,10 +69,10 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
    >
    >* Användare med en arbetslicens har begränsade projekträttigheter. De kan bidra till ett projekt, men inte hantera ett.
    >* Användare med en granskningslicens har behörighet att visa projekt från konverterade utgåvor, men deras visningsrättigheter är begränsade.
-   >* Information om behörigheter som användare kan ge när de delar projekt med andra finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
-   >* När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan t.ex. hindra användare från att ta bort projekt på åtkomstnivån, men detta förhindrar dem inte från att ta bort aktiviteter, som har lägre rankning än projekt.Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >* Mer information om behörigheter som användare kan ge när de delar projekt med andra finns i [Dela ett projekt i Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >* När du konfigurerar en åtkomstnivåinställning för en viss typ av objekt påverkar den konfigurationen inte användarens åtkomst till objekt med lägre rankning. Du kan till exempel begränsa användare från att ta bort projekt på åtkomstnivån, men detta förhindrar inte att de tar bort aktiviteter, som har lägre rankning än projekt. Mer information om objekthierarkin finns i avsnittet [Objektens inbördes beroende och hierarki](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) i artikeln [Förstå objekt i Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Valfritt) Klicka på **ange standardinställningar för delning** till höger om alternativet Skapa, och sedan **Lägg till regel** om du vill lägga till en delningsregel för nya projekt.
+1. (Valfritt) Klicka på **ange delningsstandardvärden** till höger om alternativet Skapa och **Lägg till regel** om du vill lägga till en delningsregel för nya projekt.
 
    När användaren med den här åtkomstnivån skapar ett projekt delas projektet automatiskt med de användare som du väljer på menyn till vänster.
 
@@ -88,9 +88,9 @@ Mer information om tabellen finns i [Åtkomstkrav i Workfront-dokumentation](/he
 
    Du kan upprepa det här steget om du vill lägga till så många projektdelningsregler som du behöver för åtkomstnivån.
 
-1. Klicka på X för att stänga **Finjustera inställningarna** box.
-1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med någon av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till finansiella uppgifter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. När du är klar klickar du **Spara**.
+1. Klicka på krysset för att stänga rutan **Finjustera dina inställningar**.
+1. (Valfritt) Om du vill konfigurera åtkomstinställningar för andra objekt och områden på den åtkomstnivå du arbetar med ska du fortsätta med en av artiklarna i [Konfigurera åtkomst till Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), till exempel [Bevilja åtkomst till aktiviteter](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) och [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. När du är klar klickar du på **Spara**.
 
    När åtkomstnivån har skapats kan du tilldela den till en användare. Mer information finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

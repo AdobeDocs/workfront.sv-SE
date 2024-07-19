@@ -20,7 +20,7 @@ Korrekturroller gör att du kan bevilja behörigheter för enskilda korrektur. K
 
 ## Korrekturroller
 
-Korrekturroller ges till användare för ett enskilt bevis när användaren bjuds in att granska beviset. Om du har en Workfront Pro+-plan kan du tilldela korrekturroller till användare med en Work- eller Plan-licens. Om du har en Workfront Premium Legacy-plan kan du tilldela korrekturroller till användare med en angiven korrekturlicens. Mer information finns i [Tillgång till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+Korrekturroller ges till användare för ett enskilt bevis när användaren bjuds in att granska beviset. Om du har en Workfront Pro+-plan kan du tilldela korrekturroller till användare med en Work- eller Plan-licens. Om du har en Workfront Premium Legacy-plan kan du tilldela korrekturroller till användare med en angiven korrekturlicens. Mer information finns i [Åtkomst till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Korrekturroller ges till användare för ett enskilt bevis när användaren bjud
 
 Korrekturrollen definierar vilka åtgärder en granskare kan vidta i förhållande till det specifika korrekturet.
 
-**Exempel:** Om du har tilldelats rollen Granskare uppmanas du att granska korrekturet genom att lägga till markeringar och kommentarer, men du har inte möjlighet att godkänna eller avvisa korrekturet.
+**Exempel:** Om du har tilldelats rollen Granskare ombeds du att granska korrekturet genom att lägga till markeringar och kommentarer, men du har inte möjlighet att godkänna eller neka korrekturet.
 
 Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (även om deras kontoprofil inte tillåter det) och låter dem använda ytterligare funktioner som att lägga till åtgärder i kommentarer, skapa nya versioner och lägga till fler granskare till korrekturet.
 
@@ -50,8 +50,8 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Visa ett korrektur</strong> </p> </th> 
-   <th> <p><strong>Lägga till markeringar</strong> </p> </th> 
+   <th> <p><strong>Visa ett bevis</strong> </p> </th> 
+   <th> <p><strong>Lägg till markeringar</strong> </p> </th> 
    <th> <p><strong>Lägg till kommentarer</strong> </p> </th> 
    <th> <p><strong>Redigera egna kommentarer om det inte finns några svar</strong> </p> </th> 
    <th> <p><strong>Fatta ett beslut</strong> </p> </th> 
@@ -131,7 +131,7 @@ Vissa korrekturroller ger en granskare redigeringsbehörighet för korrekturet (
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Upphovsman</strong> </p> </td> 
+   <td> <p><strong>Författare</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 

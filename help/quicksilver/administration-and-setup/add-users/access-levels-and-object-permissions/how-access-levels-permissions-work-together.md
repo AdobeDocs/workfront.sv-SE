@@ -67,7 +67,7 @@ På en anpassad åtkomstnivå kan du konfigurera inställningarna för dessa obj
 >
 >Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. (Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.)
 
-En detaljerad förklaring av de olika standardåtkomstnivåerna finns i [Inbyggda åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+En detaljerad förklaring av alla standardåtkomstnivåer finns i [Inbyggda åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 Instruktioner om hur du tilldelar en åtkomstnivå till en användare finns i [Redigera en användares profil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -81,8 +81,8 @@ När du delar ett objekt med någon i systemet kan en användare ge mottagaren n
    * Med externa användare som inte har någon Workfront-licens (inte tillgänglig för alla objekt)
    * Med en e-postadress (endast tillgängligt för dokument)
 
-* **Contribute**: (ej tillgängligt för alla objekt)
-* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som har beviljats av den som delar objektet. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
+* **Contribute**: (inte tillgängligt för alla objekt)
+* **Hantera**: När någon delar ett objekt bestäms mottagarens rättigheter till objektet av en kombination av mottagarens åtkomstnivå och behörigheterna till objektet som har beviljats av delningslisten. Den lägsta åtkomstnivån som är tillgänglig i den kombinationen är vad som avgör vad mottagaren kan göra med objektet.
 
   >[!INFO]
   >

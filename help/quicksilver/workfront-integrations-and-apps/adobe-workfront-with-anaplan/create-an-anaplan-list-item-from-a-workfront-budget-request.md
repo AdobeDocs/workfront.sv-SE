@@ -1,25 +1,25 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Skapa en [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] budgetförfrågan
-description: Det här integreringsscenariot länkar en [!DNL Adobe Workfront] projekt (kampanj) med [!DNL Anaplan] budgetlisteartikel. Detta uppnås genom att en budgetförfrågan läggs till i [!DNL Workfront] projekt som behöver få finansiering. Det här scenariot söker efter obearbetade budgetbegäranden och kör sedan en process för att skapa en tom budgetlistartikel i [!DNL Anaplan] för att få igång budgetallokeringsprocesserna i Anaplan.
+title: Skapa ett  [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] budgetförfrågan
+description: Det här integreringsscenariot länkar ett [!DNL Adobe Workfront] projekt (kampanj) med ett [!DNL Anaplan] budgetlistobjekt. Detta uppnås genom att en budgetförfrågan läggs till i  [!DNL Workfront] projektet som behöver få finansiering. Det här scenariot söker efter obearbetade budgetbegäranden och kör sedan en process för att skapa ett tomt budgetlistobjekt i  [!DNL Anaplan]  för att starta budgetallokeringsprocesser i Anaplan.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
-# Skapa en [!DNL Anaplan] listobjekt från en [!DNL Adobe Workfront] budgetförfrågan
+# Skapa ett [!DNL Anaplan]-listobjekt från en [!DNL Adobe Workfront]-budgetförfrågan
 
-Det här integreringsscenariot länkar en [!DNL Adobe Workfront] projekt (kampanj) med [!DNL Anaplan] budgetlisteartikel. Detta uppnås genom att en budgetförfrågan läggs till i [!DNL Workfront] projekt som behöver få finansiering. Det här scenariot söker efter obearbetade budgetbegäranden och kör sedan en process för att skapa en tom budgetlistartikel i [!DNL Anaplan] för att snabbt komma igång med budgetallokeringsprocesser i [!DNL Anaplan].
+Det här integreringsscenariot länkar ett [!DNL Adobe Workfront]-projekt (kampanj) med ett [!DNL Anaplan]-budgetlistobjekt. Detta uppnås genom att en budgetförfrågan läggs till i projektet [!DNL Workfront] som behöver få finansiering. Det här scenariot söker efter obearbetade budgetbegäranden och kör sedan en process för att skapa ett tomt budgetlistobjekt i [!DNL Anaplan] för att starta budgetallokeringsprocesser i [!DNL Anaplan].
 
 >[!IMPORTANT]
 >
->&quot;Campaign&quot; i den här artikeln avser det användningsfall för marknadsföringskampanj som det här scenariot representerar och inte på något sätt är kopplat till [!DNL Workfront Fusion] Adobe Campaign-anslutning eller till den nyligen borttagna [!UICONTROL Campaign] objekt i [!DNL Workfront].
+>&quot;Campaign&quot; i den här artikeln avser det användningsfall för marknadsföringskampanj som det här scenariot representerar och är inte på något sätt kopplat till [!DNL Workfront Fusion] Adobe Campaign-anslutningen eller till det nyligen borttagna [!UICONTROL Campaign]-objektet i [!DNL Workfront].
 
 ## Åtkomstkrav
 
@@ -43,32 +43,32 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</td> 
+   <td>Din organisation måste köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</td> 
   </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-&#42;&#42;För information om[!DNL  Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Mer information om[!DNL  Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## Starthändelse
 
 Detta scenario är schemalagt att köras var 15:e minut.
 
-## Förväntat [!DNL Workfront] Konfiguration
+## [!DNL Workfront]-konfiguration förväntades
 
-Du måste ha följande i [!DNL Workfront] om du vill använda det här scenariot:
+Du måste ha följande i [!DNL Workfront] för att kunna använda det här scenariot:
 
-* En användarprofil i [!DNL Workfront] namngiven *[!UICONTROL *[!DNL Anaplan] Integration]**, som har systemadministratörsbehörighet.
+* En användarprofil i [!DNL Workfront] med namnet *[!UICONTROL *[!DNL Anaplan] Integration]** som har systemadministratörsbehörighet.
 
-   Mer information om hur du skapar en användare i [!DNL Workfront], se [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+  Mer information om hur du skapar en användare i [!DNL Workfront] finns i [Lägg till användare](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* A **[!UICONTROL Budget Request]** anpassat formulär kopplat till [!UICONTROL Request] -objekt.
+* Ett **[!UICONTROL Budget Request]** anpassat formulär som är kopplat till objektet [!UICONTROL Request].
 
-   Följande obligatoriska fält måste inkluderas i det anpassade formuläret för att underlätta datamappning till [!DNL Anaplan]:
+  Följande obligatoriska fält måste inkluderas i det anpassade formuläret för att underlätta datamappning till [!DNL Anaplan]:
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -99,14 +99,14 @@ Du måste ha följande i [!DNL Workfront] om du vill använda det här scenariot
    </tbody> 
   </table>
 
-   Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-* Projektmallar som representerar kampanjer och andra projekt som kräver finansiering, konfigurerade med en [!UICONTROL Budget Request] köämne. The [!UICONTROL Budget Request] köämnet har tilldelats till att använda [!UICONTROL Budget Request] eget formulär.
-* A **[!UICONTROL Campaign Brief]** -formulär för projektobjektet.
+* Projektmallar som representerar kampanjer och andra projekt som behöver finansieras, konfigurerade med ett [!UICONTROL Budget Request]-kötema. Köämnet [!UICONTROL Budget Request] har tilldelats till det anpassade formuläret [!UICONTROL Budget Request].
+* Ett **[!UICONTROL Campaign Brief]**-formulär för projektobjektet.
 
-   Formuläret måste innehålla följande fält:
+  Formuläret måste innehålla följande fält:
 
-   <table style="table-layout:auto"> 
+  <table style="table-layout:auto"> 
    <col> 
    </col> 
    <col> 
@@ -141,17 +141,17 @@ Du måste ha följande i [!DNL Workfront] om du vill använda det här scenariot
    </tbody> 
   </table>
 
-   Mer information om hur du skapar anpassade formulär finns i [Skapa eller redigera ett anpassat formulär](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+  Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Förväntat [!DNL Anaplan] Konfiguration
+## [!DNL Anaplan]-konfiguration förväntades
 
-Du måste ha följande i [!DNL Anaplan] om du vill använda det här scenariot:
+Du måste ha följande i [!DNL Anaplan] för att kunna använda det här scenariot:
 
-* En användarprofil i [!DNL Anaplan] namngiven **[!UICONTROL [!DNL Workfront] Integration]**, som har systemadministratörsbehörighet.
-* The [!DNL Anaplan] Modell som du vill använda för det här scenariot.
-* Listan i [!DNL Anaplan] Modell som fångar kampanjbudgetar.
+* En användarprofil i [!DNL Anaplan] med namnet **[!UICONTROL [!DNL Workfront] Integration]** som har systemadministratörsbehörighet.
+* Modellen [!DNL Anaplan] som du vill använda för det här scenariot.
+* Listan i modellen [!DNL Anaplan] som samlar in kampanjbudgetar.
 
-   Listans modul måste ha stöd för följande attribut:
+  Listans modul måste ha stöd för följande attribut:
 
    * [!UICONTROL Workfront Project GUID]
    * [!UICONTROL Campaign Name]
@@ -160,44 +160,44 @@ Du måste ha följande i [!DNL Anaplan] om du vill använda det här scenariot:
    * [!UICONTROL Budget Request Type]
    * [!UICONTROL Reason for Funding Adjustment]
 
-   Den här listan och modulen måste lagra ytterligare information som är nödvändig för den normala funktionen hos [!DNL Anaplan], inklusive möjligheten att ställa in en budget och meddela att budgetlisteposten är klar att synkroniseras tillbaka till [!DNL Workfront].
+  Den här listan och modulen måste lagra ytterligare information som är nödvändig för den normala funktionen i [!DNL Anaplan], inklusive möjligheten att ställa in en budget och meddela att budgetlistobjektet är klart att synkroniseras tillbaka till [!DNL Workfront].
 
-Instruktioner om dessa åtgärder finns i [!DNL Anaplan] dokumentation.
+Instruktioner om dessa åtgärder finns i dokumentationen för [!DNL Anaplan].
 
 ## Distribuerar till [!DNL Workfront Fusion]
 
-Utför följande steg för att distribuera integreringsscenariot till din [!DNL Fusion] konto. Detta bör endast göras efter att du fyllt i [!DNL Workfront] och [!DNL Anaplan] konfiguration.
+Utför följande steg för att distribuera det här integreringsscenariot till ditt [!DNL Fusion]-konto. Detta bör endast göras efter att den nödvändiga [!DNL Workfront]- och [!DNL Anaplan]-konfigurationen har slutförts.
 
-1. Navigera till [!UICONTROL Templates] menyn i [!DNL Workfront Fusion] och klicka på **[!UICONTROL Create an [!DNL Anaplan] list item from a Workfront budget request]** scenariomall.
-1. Ersätt variabelvärdena för följande [!DNL Anaplan] variabler:
+1. Navigera till menyn [!UICONTROL Templates] i [!DNL Workfront Fusion] och klicka på mallen för **[!UICONTROL Create an [!DNL Anaplan] list item from a Workfront budget request]**-scenarier.
+1. Ersätt variabelvärdena för följande [!DNL Anaplan]-variabler:
 
    | Variabelnamn | Ersätt värde med |
    |---|---|
-   | [!UICONTROL [!DNL Anaplan] Workspace ID] | ID:t för en arbetsyta från din [!DNL Anaplan] konto. |
-   | [!UICONTROL [!DNL Anaplan] Model ID] | ID:t för en modell från din [!DNL Anaplan] och den valda arbetsytan. |
-   | [!UICONTROL [!DNL Anaplan] Module Name] | Namnet på modulen som beskriver kampanjattributen i det valda [!DNL Anaplan] Lista. |
-   | [!UICONTROL Campaign List Name] | Namnet på listan från din [!DNL Anaplan] och den valda arbetsytan och modellen. |
+   | [!UICONTROL [!DNL Anaplan] Workspace ID] | ID för en arbetsyta från ditt [!DNL Anaplan]-konto. |
+   | [!UICONTROL [!DNL Anaplan] Model ID] | ID:t för en modell från ditt [!DNL Anaplan]-konto och den valda arbetsytan. |
+   | [!UICONTROL [!DNL Anaplan] Module Name] | Namnet på modulen som beskriver kampanjattributen i den valda [!DNL Anaplan]-listan. |
+   | [!UICONTROL Campaign List Name] | Namnet på listan från ditt [!DNL Anaplan]-konto och den valda arbetsytan och modellen. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
-   Information om hur du konfigurerar filer och processer finns i [!DNL Anaplan] installationsdokumentation.
+   Information om hur du konfigurerar filer och processer finns i installationsdokumentationen för [!DNL Anaplan].
 
-1. Markera eller lägga till en [!DNL Anaplan] anslutningsprofil.
-1. Uppdatera alla återstående [!DNL Anaplan] moduler med [!DNL Anaplan] anslutning när du uppmanas till detta.
-1. Markera eller lägga till en [!DNL Workfront] anslutningsprofil.
+1. Välj eller lägg till en [!DNL Anaplan]-anslutningsprofil.
+1. Uppdatera alla återstående [!DNL Anaplan] moduler med en [!DNL Anaplan]-anslutning när du uppmanas till det.
+1. Välj eller lägg till en [!DNL Workfront]-anslutningsprofil.
 
    När du har distribuerat mallen är det här modulen som du uppdaterar för att lägga till eller ta bort anpassade fältreferenser från värdet för fältegenskapen om du vill ändra de mappade standardfälten till [!DNL Anaplan].
 
-1. Uppdatera alla återstående [!DNL Workfront] moduler med [!DNL Workfront] anslutning när du uppmanas till detta.
+1. Uppdatera alla återstående [!DNL Workfront] moduler med en [!DNL Workfront]-anslutning när du uppmanas till det.
 
 ## Andra rekommenderade scenariomallar
 
 Om du vill slutföra arbetsflödet som den här mallen representerar måste du även distribuera följande extra mall:
 
-* [[!UICONTROL Apply an [!DNL Anaplan] budgetallokering till en [!DNL Adobe Workfront] projekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Apply an [!DNL Anaplan] budgetallokering till ett [!DNL Adobe Workfront] projekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Ytterligare scenarier för utgiftsoptimering är:
 
-* [[!UICONTROL Send [!DNL Adobe Workfront] projektuppdateringar till [!DNL Anaplan] listobjekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL Send [!DNL Adobe Workfront] faktiskt antal timmars uppdateringar av en [!DNL Anaplan] listobjekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [[!UICONTROL Send [!DNL Adobe Workfront] utgifter för [!DNL Anaplan] listobjekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL Send [!DNL Adobe Workfront] projektuppdateringar till ett  [!DNL Anaplan] listobjekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Send [!DNL Adobe Workfront] faktiska timmars uppdateringar av ett  [!DNL Anaplan] listobjekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Send [!DNL Adobe Workfront] utgifter för ett  [!DNL Anaplan] listobjekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

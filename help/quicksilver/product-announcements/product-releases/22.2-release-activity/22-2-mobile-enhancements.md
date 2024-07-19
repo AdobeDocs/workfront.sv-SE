@@ -25,7 +25,7 @@ in January 2022
 
 den 4 april 2022.
 
-En lista över alla ändringar som är tillgängliga i version 2.2 finns i [22.2 Versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga i version 2.2 finns i [2.2 versionsöversikt](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
 ## Ritningar och kommentarer om korrekturdokument i mobilappen
 

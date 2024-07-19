@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Den här sidan beskriver alla andra förbättringar som gjorts i version 23.2 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön med version 23.2.
 
-En lista över alla ändringar som är tillgängliga i version 23.2 finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.2-versionscykeln finns i [23.2 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
 ## Biometrisk inloggning och anslagstavlor i mobilappen
 
@@ -32,4 +32,4 @@ Mer information finns i [Logga in på [!DNL Adobe Workfront]](/help/quicksilver/
 
 Boards-samlingar stöds nu också i mobilappen, vilket gör att mobilanvändare kan visa alla samlingar de har tillgång till i skrivbordsversionen från sin lista över mobilanslagstavlor.
 
-Mer information finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] för mobiler](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+Mer information finns i [[!DNL Adobe Workfront] [!UICONTROL Boards] för mobil](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).

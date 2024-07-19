@@ -9,7 +9,7 @@ role: Developer
 exl-id: 76c5eca6-be82-4331-9da9-9943e0bda669
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '248'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Nedan följer exempel på olika programmeringsspråk som används för att inter
 
 Du kan ladda ned dessa exempel på Workfront Github-sidan:  [https://github.com/Workfront](https://github.com/Workfront)
 
-Om du vill hitta exempel i databasen anger du `example` till **Hitta en databas...** box.
+Om du vill hitta exempel i databasen anger du `example` i rutan **Hitta en databas..**.
 
 >[!NOTE]
 >

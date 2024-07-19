@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Konfigurera användare att logga tid i timmar eller dagar
-description: Användare med en planeringslicens kan konfigurera om de loggar in [!DNL Adobe Workfront] i timmar eller dagar. Som Workfront-administratör kan du konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar.
+description: Användare med en planeringslicens kan konfigurera om de loggar tid på  [!DNL Adobe Workfront]  i timmar eller dagar. Som Workfront-administratör kan du konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 <!--this article should be removed from the admin area because this is not an admin function; we have another article linked below in the user area for timesheets -->
 
-Användare med [!UICONTROL Planner] licensen kan konfigurera om de loggar in tid [!DNL Adobe Workfront] i timmar eller dagar. Som [!DNL Workfront] kan du konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar.
+Användare med en [!UICONTROL Planner]-licens kan konfigurera om de loggar tid på [!DNL Adobe Workfront] i timmar eller dagar. Som [!DNL Workfront]-administratör kan du konfigurera den här inställningen för enskilda användare eller för flera användare i organisationen. Som standard loggar användarna tid i timmar.
 
-Mer information om hur du konfigurerar användare att logga tid i timmar eller dagar finns i [Konfigurera om tid är inloggad i timmar eller dagar](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).
+Mer information om hur du konfigurerar användare att logga tid i timmar eller dagar finns i [Konfigurera om tiden är inloggad i timmar eller dagar](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md).

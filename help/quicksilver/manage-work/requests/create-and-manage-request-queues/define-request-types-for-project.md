@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -28,18 +28,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-plan</a>*</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Översikt över licenser</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licensöversikt</a>*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
    <td> <p>Redigera åtkomst till projekt</p> <p><b>ANMÄRKNING</b>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
+Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -60,17 +60,17 @@ Innan du börjar måste du göra följande:
 
 ## Överväganden om frågetyper
 
-* Du kan ange vilken typ av problem eller förfrågningar som kan loggas i ett projekt när du konfigurerar **Köinformation** området för projektet.
+* Du kan ange vilken typ av ärenden eller förfrågningar som kan loggas i ett projekt när du konfigurerar området **Köinformation** för projektet.
 * Du behöver inte aktivera projektet som en frågekö för att kunna definiera frågetyper för ett projekt. Alla problem som loggas för ett projekt kan märkas med en annan frågetyp.
 * Om du lägger till köämnen i ditt projekt måste du definiera frågetyper för varje köämne för att kunna visa dem när du lägger till ett nytt problem eller en ny begäran. Mer information finns i [Skapa köämnen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Definiera utgåva eller förfrågningstyper för ett projekt
 
-1. Klicka **Projekt** på huvudmenyn. ![](assets/main-menu-icon.png)
+1. Klicka på **Projekt** på huvudmenyn. ![](assets/main-menu-icon.png)
 
 1. Klicka på namnet på projektet för att öppna det.
-1. Klicka på i den vänstra panelen **Köinformation**.
-1. I **Köegenskaper** väljer du **Typ av begäran** du vill ha för projektet.
+1. Klicka på **Köinformation** i den vänstra panelen.
+1. I avsnittet **Köegenskaper** väljer du de **typer av begäranden** som du vill använda för projektet.
 
    >[!NOTE]
    >
@@ -85,8 +85,8 @@ Innan du börjar måste du göra följande:
 
    >[!TIP]
    >
-   >Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. Mer information finns i [Konfigurera begärandetyper](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >Din Workfront-administratör kan ha bytt namn på några av dessa alternativ. Mer information finns i [Konfigurera typer av förfrågningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Klicka **Spara**.
+1. Klicka på **Spara**.
 
    De begärandetyper du har angett kan väljas när du anger en ny utgåva för en uppgift eller ett projekt, eller när du skickar en ny begäran till projektet, om projektet är aktiverat som en begärandekö.

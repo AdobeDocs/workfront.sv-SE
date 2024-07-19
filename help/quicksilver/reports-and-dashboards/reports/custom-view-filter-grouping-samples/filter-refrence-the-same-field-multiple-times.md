@@ -7,7 +7,7 @@ description: I standardlägesgränssnittet, när du försöker skapa flera filte
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: d3525d9f286e08258d75d770d257b325b9ee8ca9
+source-git-commit: 661f925b4e485069122ef4278b2914d206387974
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 0%

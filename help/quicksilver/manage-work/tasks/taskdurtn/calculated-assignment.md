@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: '''Typ av varaktighet: Beräknad tilldelning'
+title: 'Varaktighetstyp, översikt: Beräknad tilldelning'
 description: Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i Översikt över Varaktighet och Varaktighetstyp.
 author: Alina
 feature: Work Management
 exl-id: 5f1f6109-5d54-4c3f-9aa5-dc6ce165a1cd
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
-# Översikt över varaktighetstyp: Beräknad tilldelning
+# Översikt över varaktighetstyp: Beräknat uppdrag
 
 Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i Adobe Workfront. Allmän information om varaktighetstyper i Workfront finns i [Översikt över aktivitetsvaraktighet och varaktighetstyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
@@ -25,16 +25,16 @@ Beräknad tilldelning är en varaktighetstyp som du kan ange för en uppgift i A
 -->
 
 * När du använder en beräknad tilldelningens varaktighetstyp måste du ange både en varaktighet och ett antal planerade timmar för aktiviteten. Workfront dividerar sedan beloppet för Planerade timmar med antalet timmar i Varaktighet, och sedan med antalet resurser som tilldelats aktiviteten för att beräkna allokeringsprocenten (beräknar tilldelningen) för varje resurs. Varje resurs får samma värde för sin allokeringsprocent. I det här fallet kan du inte ändra allokeringsvärdena för varje resurs.
-* Workfront eller en gruppadministratör kan ange systemets eller gruppens standardvaraktighetstyp som beräknad tilldelning. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och ärenden som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera inställningar för uppgifter och problem i hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Workfront eller en gruppadministratör kan ange systemets eller gruppens standardvaraktighetstyp som beräknad tilldelning. I det här fallet skapas alla nya uppgifter med den här varaktighetstypen. Mer information om hur du ändrar uppgifter och utgåvor som en del av dina projektinställningar på system- eller gruppnivå finns i [Konfigurera uppgifter och ärenden för hela systemet](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-   I det här fallet har aktiviteten standardvärdet en dagslängd och 0 timmars planerade timmar som standard. Såvida inte projektledaren anger en mer korrekt varaktighet och fyller i fältet Planerade timmar med en realistisk uppskattning, verkar resurserna vara underallokerade.
+  I det här fallet har aktiviteten standardvärdet en dagslängd och 0 timmars planerade timmar som standard. Såvida inte projektledaren anger en mer korrekt varaktighet och fyller i fältet Planerade timmar med en realistisk uppskattning, verkar resurserna vara underallokerade.
 
 Beräknad tilldelning är den önskade varaktighetstypen i följande situationer:
 
 * När tilldelningar har ett aktivitetsfönster men inte hela den tid som tilldelats för att slutföra sitt arbete. Du har till exempel tilldelats att leverera en rapport till den ansvarige i slutet av veckan. Du har en femdagarsperiod, men det tar bara tio timmar att göra ett utkast.
 * När en enskild resurs tilldelas till en aktivitet eftersom projektledaren kan uppskatta planerad varaktighet och planerad ansträngningsmängd oberoende av varandra.
 
-   Du kan använda den beräknade varaktighetstypen för arbete för samma resultat, men projektledaren måste ange en procentallokering för resursen för att det beräknade värdet för Planerade timmar ska påverkas. Detta gör projektplaneringen svårare och mer tidskrävande.
+  Du kan använda den beräknade varaktighetstypen för arbete för samma resultat, men projektledaren måste ange en procentallokering för resursen för att det beräknade värdet för Planerade timmar ska påverkas. Detta gör projektplaneringen svårare och mer tidskrävande.
 
 Allokeringsprocenten för varje resurs beräknas enligt följande:
 
@@ -48,7 +48,7 @@ I scenariot nedan har till exempel varje uppgift en varaktighet på 3 dagar. Pro
 
 ## Ändra varaktighetstypen för en aktivitet till Beräknat uppdrag
 
-Mer information om hur du ändrar varaktighetstypen för en uppgift finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Mer information om hur du ändrar varaktighetstypen för en aktivitet finns i [Uppdatera varaktighetstypen för en aktivitet](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

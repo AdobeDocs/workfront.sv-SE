@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Datalagermoduler
-description: An [!DNL Adobe Workfront Fusion] datalager, som liknar en databas eller en enkel tabell, kan lagra data från scenarier, vilket gör det möjligt att överföra data mellan enskilda scenarier eller scenariokörningar. Du kan använda ett datalager för att lagra nya data från olika system under synkroniseringen.
+description: Ett  [!DNL Adobe Workfront Fusion] datalager, som liknar en databas eller en enkel tabell, kan lagra data från scenarier, vilket gör det möjligt att överföra data mellan enskilda scenarier eller scenariokörningar. Du kan använda ett datalager för att lagra nya data från olika system under synkroniseringen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # [!UICONTROL Data store] moduler
 
-An [!DNL Adobe Workfront Fusion] datalager, som liknar en databas eller en enkel tabell, kan lagra data från scenarier, vilket gör det möjligt att överföra data mellan enskilda scenarier eller scenariokörningar. Du kan använda ett datalager för att lagra nya data från olika system under synkroniseringen.
+Ett [!DNL Adobe Workfront Fusion]-datalager, som liknar en databas eller en enkel tabell, kan lagra data från scenarier, vilket gör det möjligt att överföra data mellan enskilda scenarier eller scenariokörningar. Du kan använda ett datalager för att lagra nya data från olika system under synkroniseringen.
 
-Med datalagermodulerna kan du lägga till, ersätta, uppdatera, hämta, ta bort, söka efter eller räkna poster i [!DNL Adobe Workfront Fusion] datalager.
+Med datalagermodulerna kan du lägga till, ersätta, uppdatera, hämta, ta bort, söka efter eller räkna poster i datalagret [!DNL Adobe Workfront Fusion].
 
 Mer information om hur du skapar, redigerar och felsöker datalager finns i [Datalager i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
@@ -46,41 +46,41 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet], [!UICONTROL [!DNL Workfront Fusion] för Automatisering av arbete]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkter: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta din [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!UICONTROL Data Store] måste du först skapa ett datalager.
+Om du vill använda [!UICONTROL Data Store] moduler måste du först skapa ett datalager.
 
 Mer information om hur du skapar datalager finns i [Datalager i [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
-## [!UICONTROL Data Store] moduler och deras fält
+## [!UICONTROL Data Store]-moduler och deras fält
 
-När du konfigurerar datalagermoduler [!DNL Workfront Fusion] visar fälten som listas nedan. Dessutom kan ytterligare datalagerfält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar datalagermoduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare datalagerfält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-Alla [!UICONTROL Data Store] moduler är åtgärdstypmoduler.
+Alla [!UICONTROL Data Store]-moduler är åtgärdstypmoduler.
 
 * [Lägg till/ersätta en post](#addreplace-a-record)
 * [Uppdatera en post](#update-a-record)
@@ -101,7 +101,7 @@ Modulen returnerar postens ID och eventuella associerade fält, tillsammans med 
 
 >[!NOTE]
 >
->Modulen genererar ett fel när du försöker lägga till den post som redan finns i datalagret under samma namn och [!UICONTROL Overwrite an existing record] alternativet är inaktiverat.
+>Modulen genererar ett fel när du försöker lägga till den post som redan finns i datalagret med samma namn och alternativet [!UICONTROL Overwrite an existing record] är inaktiverat.
 
 När du konfigurerar den här modulen visas följande fält.
 
@@ -271,7 +271,7 @@ När du konfigurerar den här modulen visas följande fält.
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p> Ange maximalt antal sökresultat [!DNL Workfront Fusion] returneras under en körningscykel.</p> </td> 
+   <td> <p> Ange det maximala antalet sökresultat som [!DNL Workfront Fusion] returnerar under en körningscykel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 

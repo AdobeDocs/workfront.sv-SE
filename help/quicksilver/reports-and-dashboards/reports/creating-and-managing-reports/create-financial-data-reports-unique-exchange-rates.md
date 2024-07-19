@@ -19,7 +19,7 @@ Om flera valutakurser har konfigurerats i Adobe Workfront kan du ange ekonomiska
 
 >[!IMPORTANT]
 >
->Om du väljer en annan valuta än standardvalutan i en vy visas inte längre länkarna **Lägg till fler aktiviteter** och **Lägg till fler problem** längst ned i en projektlista.
+>Om du väljer en annan valuta än standardvalutan i en vy visas inte längre länkarna **Lägg till fler uppgifter** och **Lägg till fler problem** längst ned i projektlistan.
 
 Mer information om hur du ändrar standardvalutan för ett visst projekt finns i [Ändra projektvalutan](../../../manage-work/projects/project-finances/change-project-currency.md).
 
@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p> <p>Redigera åtkomst till filter, vyer, grupperingar</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -56,14 +56,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Förutsättningar
 
-Innan du kan visa alternativa valutor enligt beskrivningen i det här avsnittet måste Workfront-administratören först aktivera och konfigurera flera valutor under Konfigurera i Workfront. Mer information finns i [Ställ in valutakurser](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Innan du kan visa alternativa valutor enligt beskrivningen i det här avsnittet måste Workfront-administratören först aktivera och konfigurera flera valutor under Konfigurera i Workfront. Mer information finns i [Konfigurera valutakurser](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
 ## Tillämpa ekonomiska värden på en rapport {#apply-financial-values-to-a-report}
 
 Så här konverterar du ekonomiska värden mellan valutor när du arbetar med rapporter:
 
 1. Gå till rapporten där du vill konvertera ekonomiska värden till en annan valuta.
-1. Klicka på **Visa** listruta, klicka **Ändra valuta** väljer du sedan någon av följande valutor som du vill visa ekonomiska värden i:
+1. Klicka på listrutan **Visa**, klicka på **Ändra valuta** och välj sedan en av följande valutor som du vill visa ekonomiska värden i:
 
    * Projektets ursprungliga valuta
    * Valfri annan valuta
@@ -108,25 +108,25 @@ Så här visar du två projekt med anpassade valutor i en rapport:
 
    Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png)och sedan klicka **Rapportering**.
-1. Klicka **Ny rapport** sedan **Projektrapport**.
-1. I **Kolumner (vy)** flik, lägga till **Faktisk kostnad** kolumn och sammanfatta det med **Summa**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) och sedan på **Rapportering**.
+1. Klicka på **Ny rapport** och sedan på **Projektrapport**.
+1. Lägg till en **faktisk kostnad**-kolumn på fliken **Kolumner (Visa)** och sammanfatta den med **Summa**.
 
-   Mer information om hur du skapar en kolumn finns i [Översikt över vyer i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Mer information om hur du skapar en kolumn finns i [Vyöversikt i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. I **Grupperingar** -flik, använda en **Planerat slutförandedatum** gruppering.
+1. Använd en **planerad slutförandegruppering** på fliken **Grupperingar**.
 
    Mer information om hur du skapar en gruppering finns i [Översikt över grupperingar i Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. I **Filter** flik, lägga till ett filter för **Projektnamn** och välja de två projekten med olika valutor.
+1. Lägg till ett filter för **Projektnamn** på fliken **Filter** och markera de två projekten med olika valutor.
 
    Mer information om hur du skapar ett filter finns i [Översikt över filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicka **Spara + Stäng**.
+1. Klicka på **Spara + Stäng**.
 
-   Summan av **Faktisk kostnad** visas i grupperingen med hjälp av systemets standardvaluta, oavsett vilken valuta projekten i rapporten har.
+   Summan av den **faktiska kostnaden** visas i grupperingen med systemets standardvaluta, oavsett vilken valuta projekten i rapporten har.
 
-   ![Valuta som visas i gruppering](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
+   ![Valutan visas i gruppering](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    Om de två projekten har olika valutor, visas systemets standardvaluta även i rapportens gruppering.
 
@@ -143,14 +143,14 @@ Om en gruppering används för en uppgift eller timlista i ett projekt visas sum
    >
    >Uppgifterna ska tilldelas användare eller jobbroller med priset per timkostnad.
 
-1. Klicka **Uppgifter**.
-1. Expandera **Visa** nedrullningsbar meny och välj **Ny vy**.
-1. Lägg till **Faktisk kostnad** i den nya vyn som en ny kolumn och sammanfatta den med **Summa**.
-1. Klicka **Klar** och sedan klicka **Spara vy**.
-1. Expandera **Gruppering** nedrullningsbar meny och välj **Ny gruppering**.
+1. Klicka på **Åtgärder**.
+1. Expandera den nedrullningsbara menyn **Visa** och välj **Ny vy**.
+1. Lägg till **faktisk kostnad** i den nya vyn som en ny kolumn och sammanfatta den med **Summa**.
+1. Klicka på **Klar** och sedan på **Spara vy**.
+1. Expandera listrutan **Gruppering** och välj **Ny gruppering**.
 1. Lägg till **Faktiskt slutförandedatum** i den nya grupperingen som ett nytt fält och klicka sedan på **Spara gruppering**.
 
-   The **Faktisk kostnad** kolumner sammanfattas i den nya grupperingen och visar summan i projektets valuta.
+   Kolumnen **Verklig kostnad** sammanfattar i den nya grupperingen och visar summan i projektets valuta.
 
 ## Redigera rapporter med unika valutor
 
@@ -163,12 +163,12 @@ Så här redigerar du ett ekonomiskt fält i en rapport:
    >[!NOTE]
    >
    >Om standardvalutan inte visas för en lista i något annat område kan du redigera vyn så att standardvalutan visas.\
-   >Mer information om hur du ändrar valutan i en vy finns i avsnittet i den här artikeln [Tillämpa ekonomiska värden på en rapport](#apply-financial-values-to-a-report).
+   >Mer information om hur du ändrar valutan i en vy finns i avsnittet i den här artikeln [Använda ekonomiska värden i en rapport](#apply-financial-values-to-a-report).
 
-1. Klicka **Rapportåtgärder** väljer **Redigera**.
-1. Klicka **Rapportinställningar**.
-1. Klicka på **Standardvaluta** nedrullningsbar meny och välj **Projektets ursprungliga valuta**.
+1. Klicka på **Rapportera åtgärder** och välj sedan **Redigera**.
+1. Klicka på **Rapportinställningar**.
+1. Klicka på listrutan **Standardvaluta** och välj sedan **Projektets ursprungliga valuta**.
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 
-1. Klicka **Klar**.
+1. Klicka på **Klar**.

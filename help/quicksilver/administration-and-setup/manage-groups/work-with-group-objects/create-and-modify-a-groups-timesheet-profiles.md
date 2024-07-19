@@ -43,7 +43,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Du måste vara gruppadministratör för gruppen.</p>  <p>Du måste också ha administrativ åtkomst till tidrapporter. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Ge användarna administrativ åtkomst till vissa områden</a>.</p>  <p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Du måste vara gruppadministratör för gruppen.</p>  <p>Du måste också ha administrativ åtkomst till tidrapporter. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Bevilja användare administrativ åtkomst till vissa områden</a>.</p>  <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,17 +60,17 @@ Du kan ta bort tidrapportprofiler som används av en grupp som du hanterar. Inst
 
 ## Generera grupptidrapporter manuellt
 
-Om du vill aktivera ändringar som du har gjort för att gruppera tidrapportprofiler så att de återspeglar den aktuella gruppens tidrapporter, måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Instruktioner finns i [Generera tidrapporter manuellt från tidrapporter och timmar](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) in [Generera tidrapporter manuellt](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+Om du vill aktivera ändringar som du har gjort för att gruppera tidrapportprofiler så att de återspeglar den aktuella gruppens tidrapporter, måste du först ta bort de befintliga tidrapporterna och sedan generera nya manuellt. Instruktioner finns i [Generera tidrapporter manuellt från tidrapporter och timmar](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md#manually) i [Generera tidrapporter manuellt](../../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
 Mer information om hur du tar bort grupptidrapporter finns i [Ta bort tidrapporter i Adobe Workfront](../../../timesheets/create-and-manage-timesheets/delete-timesheets.md).
 
 ## Exportera tidrapportprofiler på gruppnivå
 
-1. Klicka på **Huvudmeny** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Inställningar** ![](assets/gear-icon-settings.png).
-1. Klicka **Grupper**.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+1. Klicka på **Grupper**.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.
 
 1. Klicka på namnet på gruppen med de tidrapportprofiler som du vill exportera.
-1. Klicka **Tidrapportprofiler**.
-1. Klicka **Exportera** om du vill exportera listan med tidrapportprofiler för gruppen.
+1. Klicka på **Tidrapportprofiler**.
+1. Klicka på **Exportera** om du vill exportera listan med tidrapportprofiler för gruppen.

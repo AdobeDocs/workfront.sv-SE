@@ -38,34 +38,34 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägga till medlemmar i en styrelse
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Skapa en ny styrelse eller redigera en befintlig. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på **[!UICONTROL Add member]** icon ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
-1. I **[!UICONTROL Add members]** börjar du skriva ett namn och markerar det när det visas i listan.
+1. Klicka på ikonen **[!UICONTROL Add member]** ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
+1. I rutan **[!UICONTROL Add members]** börjar du skriva ett namn och markerar det sedan när det visas i listan.
 
    Du kan välja en enskild medlem eller ett team. Om du väljer ett team läggs teamet till i styrelsen.
 
    >[!NOTE]
    >
-   >En enskild användare måste ha **[!UICONTROL View]** eller **[!UICONTROL Edit]** om de har angett åtkomstnivå för sina team, eller så kan de inte visa styrelsen.
+   >En enskild användare måste ha alternativet **[!UICONTROL View]** eller **[!UICONTROL Edit]** angivet i sin åtkomstnivå för team, annars kan de inte visa styrelsen.
 
 
    ![Lägg till medlemmar i styrelsen](assets/boards-add-members.png)
 
 ## Ta bort medlemmar från en anslagstavla
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Skapa en ny styrelse eller redigera en befintlig. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka på **[!UICONTROL Add member]** icon ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
-1. I **[!UICONTROL Add members]** klickar du på X bredvid ett person- eller teamnamn för att ta bort dem från styrelsen.
+1. Klicka på ikonen **[!UICONTROL Add member]** ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
+1. I rutan **[!UICONTROL Add members]** klickar du på X bredvid namnet på en person eller ett team för att ta bort dem från styrelsen.
 
    ![Ta bort medlem från anslagstavlan](assets/boards-remove-member-from-board-350x367.png)
 
-   När du tar bort en medlem från en styrelse tas de inte bort från de kort som de har tilldelats. För anslutna kort uppdateras även tilldelningarna på [!DNL Workfront] aktivitet eller problem.
+   När du tar bort en medlem från en styrelse tas de inte bort från de kort som de har tilldelats. För anslutna kort uppdateras även tilldelningarna för aktiviteten eller utgåvan [!DNL Workfront].
 
    Medlemmar tas bara bort från den här styrelsen. De tas inte bort från andra styrelser som de tillhör.
 

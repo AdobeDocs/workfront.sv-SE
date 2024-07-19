@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Den här sidan beskriver alla brädor och smidiga förbättringar som gjorts i version 23.3. Dessa förbättringar gjordes tillgängliga i produktionsmiljön med version 23.3 den 20 och 21 juli 2023.
 
-En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns på [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+En lista över alla ändringar som är tillgängliga vid den här tidpunkten i 23.3-versionscykeln finns i [23.3 Versionsöversikt](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-Mer information om hur du väljer att använda nya funktioner i Boards före kvartalsversionen finns i [Tidig registrering av nya funktioner för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
+Mer information om hur du väljer att använda nya funktioner i Boards före kvartalsversionen finns i [Tidig anmälan för Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
 ## Agile View of a project displays a kanban board
 
@@ -72,7 +72,7 @@ Mer information finns i [Skapa en iteration i ett arbetsflöde](/help/quicksilve
 
 Nu kan du lägga till kommentarer i både ad hoc-kort och anslutna kort på anslagstavlan och tagga andra användare på kommentarerna. Kommentarerna finns i kortinformationen. Kommentarsfunktionen för anslagstavlor använder den nya kommentarsfunktionen från Adobe Workfront.
 
-Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information finns i [Lägga till ett ad hoc-kort på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använda anslutna kort på anslagstavlor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
@@ -120,13 +120,13 @@ Mer information finns i [Skapa eller redigera en anslagstavla](/help/quicksilver
 
 ## Migrera smidiga team-kanban-kort till styrelser
 
-En ny **Lägg till i anslagstavlor** -knapp på ett smidigt team Kanban boards gör att du kan lägga till alla kort från Kanban-tavlan till en Workfront-styrelse. Du kan välja att skapa ett nytt Workfront-kort eller lägga till korten på en befintlig anslagstavla.
+Med en ny **Lägg till i styrelser**-knapp i flexibla team-kanban-styrelser kan du lägga till alla kort från Kanban-styrelsen till en Workfront-styrelse. Du kan välja att skapa ett nytt Workfront-kort eller lägga till korten på en befintlig anslagstavla.
 
 Kortens placering på Workfront board baseras på spaltregler. (En princip kan till exempel flytta alla kort med statusen &quot;Pågår&quot; till en viss kolumn.) Om det inte finns några profiler eller om korten inte matchar profilerna placeras korten i kolumnen längst till vänster. För närvarande läggs inga kort i kolumnen Eftersläpning på det äldre kortet till på Workfront-kortet.
 
 Korten tas inte bort från den flexibla teamets Kanban-tavla, och kortstatusändringarna synkroniseras med båda tavlorna. Du kan låta båda styrelserna vara aktiva tills du är redo att byta till Workfront Boards.
 
-Mer information finns i [Migrera smidiga team-kanban-kort till Workfront-styrelser](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Mer information finns i [Migrera smidiga team-kanban-kort till Workfront-kort](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 [Visa en videodemonstration av den här funktionen](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
@@ -140,7 +140,7 @@ I takt med att fler fältalternativ läggs till på kort på Workfront Boards ha
 
 Nu kan du även lägga till URL:er i fältet Beskrivning och de blir klickbara länkar när kortinformationen sparas. Uppdateringarna gäller både ad hoc-kort och anslutna kort.
 
-Mer information finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Mer information finns i [Lägga till ett ad hoc-kort på en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) och [Använda anslutna kort på anslagstavlor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 

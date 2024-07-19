@@ -43,7 +43,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td><p>Åtkomstnivå för systemadministratören</p><p><b>ANMÄRKNING</b>: Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td><p>Åtkomstnivå för systemadministratören</p><p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,8 +51,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 ## Bevilja administrativ åtkomst för en layoutmall
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Klicka **Bevilja åtkomst till** i det övre avsnittet på sidan.
-1. Klicka på **Lägg till en grupp**, börja skriva namnet på gruppen, klicka på namnet när det visas och klicka sedan på **Klar**.
+1. Klicka på **Bevilja åtkomst till** i det övre avsnittet på sidan.
+1. I rutan som visas klickar du på **Lägg till en grupp**, börjar skriva namnet på gruppen, klickar på namnet när det visas och klickar sedan på **Klar**.
 
    Alla användare som är utsedda som gruppadministratörer för den grupp du anger kan administrera layoutmallen. Mallen är dock inte tilldelad gruppmedlemmen för användning. Mer information om hur du tilldelar en layoutmall till en grupp finns i [Tilldela en layoutmall till användare](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) i den här artikeln.
 

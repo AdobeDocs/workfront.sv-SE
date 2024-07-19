@@ -79,15 +79,15 @@ När du får ett e-postmeddelande kan du snabbt öppna det associerade Workfront
 1. Öppna e-postmeddelandet som genererats av en uppdatering i Workfront.
 
    ![email.png](assets/email-350x202.png)
-1. Klicka **Kommentar** från e-postmeddelandet.
+1. Klicka på **Kommentar** i e-postmeddelandet.
 
    Sidan Information om objektet öppnas i Workfront.
 
 1. Gå till uppdateringen som du vill lägga till ett svar på.
 
-   Förutom att se vilka användare som aktivt deltar i konversationen kan du se vilka som taggats i varje svar högst upp i uppdateringstråden. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får meddelanden när en uppdatering eller ett svar görs för objektet. Om du vill tagga fler användare läser du [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   Förutom att se vilka användare som aktivt deltar i konversationen kan du se vilka som taggats i varje svar högst upp i uppdateringstråden. Dessa användare, tillsammans med alla användare som prenumererar på objektet, får meddelanden när en uppdatering eller ett svar görs för objektet. Mer information om hur du taggar fler användare finns i [Tagga andra för uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Klicka **Svara,** ange ditt svar och klicka sedan på **Svara**.
+1. Klicka på **Svara,** ange ditt svar och klicka sedan på **Svara**.
 
    Svaret läggs till som en ny kommentar i kommentarstråden.
 
@@ -113,6 +113,6 @@ Så här lägger du till en uppdatering i ett e-postmeddelande från Workfront:
 1. Skriv din uppdatering i e-postsvaret.
 
    Bifogade filer tillåts inte och eventuell RTF-formatering som används på en uppdatering i ett e-postmeddelande visas inte på uppdateringen när den visas på fliken Uppdateringar.
-1. Klicka **Skicka**.
+1. Klicka på **Skicka**.
 
    Din uppdatering läggs till som ett svar på kommunikationstråden för objektet.

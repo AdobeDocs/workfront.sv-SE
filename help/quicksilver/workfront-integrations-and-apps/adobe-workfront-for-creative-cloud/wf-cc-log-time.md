@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Loggtid med [!DNL Adobe Workfront] plugin
+# Loggtid med plugin-programmet [!DNL Adobe Workfront]
 
-Du kan logga tid för projekt, uppgifter och ärenden som du arbetar med direkt i något av följande [!DNL Adobe Creative Cloud] program:
+Du kan logga tid för projekt, uppgifter och problem som du arbetar med direkt i något av följande [!DNL Adobe Creative Cloud]-program:
 
 {{cc-app-list}}
 
@@ -41,7 +41,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till uppgifter eller problem</p> <p>Obs! Om du fortfarande inte har åtkomst kan du fråga [!DNL Workfront] om de anger ytterligare begränsningar för din åtkomstnivå. För information om hur en [!DNL Workfront] kan administratören ändra din åtkomstnivå, se <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till uppgifter eller problem</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -50,7 +50,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Förutsättningar
 
@@ -58,16 +58,16 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Loggtid med Adobe Workfront plugin
 
-The [!DNL Workfront] administratören avgör vilka projektspecifika timtyper som är tillgängliga enligt beskrivningen i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+Administratören [!DNL Workfront] avgör vilka projektspecifika timtyper som är tillgängliga enligt beskrivningen i [Hantera timtyper](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 
 Så här loggar du tid med Workfront-plugin-programmet:
 
-1. Klicka på **[!UICONTROL Menu]** ikonen i det övre högra hörnet och välj **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
+1. Klicka på ikonen **[!UICONTROL Menu]** i det övre högra hörnet och välj sedan **[!UICONTROL Work List]**. Du kan också använda menyn för att navigera till överordnade objekt.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Från **[!UICONTROL Work List]** väljer du arbetsposten som du vill logga in på.
-1. Klicka **[!UICONTROL Time]** i navigeringsfältet.
+1. I **[!UICONTROL Work List]** väljer du det arbetsobjekt du vill logga in på.
+1. Klicka på **[!UICONTROL Time]** i navigeringsfältet.
 
    ![](assets/log-time-350x337.png)
 

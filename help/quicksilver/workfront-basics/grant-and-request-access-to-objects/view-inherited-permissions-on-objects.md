@@ -71,7 +71,7 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa eller öka åtkomsten för de objekt som du vill visa behörigheter för</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Visa eller öka åtkomsten för de objekt som du vill visa behörigheter för</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -84,20 +84,20 @@ Du måste ha följande:
 
 ## Visa ärvda behörigheter för ett objekt
 
-Att visa ärvda behörigheter är identiskt för alla objekt.
+Visning av ärvda behörigheter är identiskt för alla objekt.
 
 Så här visar du ärvda behörigheter för ett projekt:
 
 1. Gå till ett projekt vars delningsbehörigheter du vill visa.
-1. Klicka på **Mer** meny ![](assets/more-icon.png)och sedan klicka **Delning**.
+1. Klicka på menyn **Mer** ![](assets/more-icon.png) och sedan på **Delning**.
 
-1. Expandera **Ärvda behörigheter** lista.
+1. Expandera listan **Ärvda behörigheter**.
 
    I den här listan visas namnen på användare som har åtkomst till antingen portföljen eller det program som projektet tillhör och som även har behörighet till projektet.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. (Valfritt) Information om hur du tar bort ärvda behörigheter från ett objekt finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. (Valfritt) Mer information om hur du tar bort ärvda behörigheter från ett objekt finns i [Ta bort behörigheter från objekt](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]
    >

@@ -22,7 +22,7 @@ Den här sidan beskriver alla Agile-förbättringar som ingår i version 2019.2.
 >
 >Funktionerna som beskrivs på den här sidan kan ändras innan de är tillgängliga i produktionsmiljön.
 
-En lista över alla ändringar som gjorts under 2019.2 finns på [Översikt över versionsaktivitet 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+En lista över alla ändringar som gjorts under 2019.2 finns i [2019.2 Release Activity Overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Spåra procent färdigt vid problem i Agile Tools
 

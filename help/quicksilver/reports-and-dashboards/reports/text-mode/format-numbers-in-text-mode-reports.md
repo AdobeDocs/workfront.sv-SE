@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Numeriska värden, inklusive valutor, kan konfigureras för visning i olika format i rapporter och listor i Adobe Workfront.
 
-Om du vill ändra formatet för ett numeriskt värde måste du redigera **värdeformat** rad i kolumnen.
+Om du vill ändra formatet för ett numeriskt värde måste du redigera raden **värdeformat** i kolumnen.
 
 Om du till exempel vill visa kolumnen Budget som $1000 ser värdeformatraden ut så här:
 
@@ -30,7 +30,7 @@ valuefield=budget
 
 Mer information om hur du använder villkorsstyrd formatering i Workfront-rapporter och -listor i textläge finns i [Använda villkorsstyrd formatering i textläge](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-Du kan formatera tal med följande värden för `valueformat` rad i kolumnen:
+Du kan formatera tal med följande värden för raden `valueformat` i kolumnen:
 
 | Exempel | `valueformat=` |
 |---|---|

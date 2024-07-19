@@ -19,7 +19,7 @@ Du kan snabbt lägga till ett kort till en anslagstavla och tilldela det till en
 
 >[!NOTE]
 >
->Ad hoc-korten på en anslagstavla är inte kopplade till arbetsuppgifter i [!DNL Adobe Workfront]. Mer information om anslutna kort finns i [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+>Ad hoc-korten på en anslagstavla är inte anslutna till arbetsobjekt i [!DNL Adobe Workfront]. Mer information om anslutna kort finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Åtkomstkrav
 
@@ -42,23 +42,23 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta din [!DNL Workfront] administratör.
+&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 ## Lägg till ett ad hoc-kort med fullständig information
 
 Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront].
 
-1. Klicka på **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront, klicka sedan på **[!UICONTROL Boards]**.
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Boards]**.
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicka **[!UICONTROL Add card]>[!UICONTROL New card]**.
+1. Klicka på **[!UICONTROL Add card]>[!UICONTROL New card]**.
 
-   The [!UICONTROL Card Details] visas.
+   Rutan [!UICONTROL Card Details] visas.
 
    >[!NOTE]
    >
-   >Om du klickar utanför fältet Namn sparas ad hoc-kortet automatiskt som&quot;Namnlöst&quot; längst ned i den vänstra kolumnen. Om du vill avsluta utan att spara kortet måste du klicka [!UICONTROL **Avbryt**] utan att klicka någon annanstans i [!UICONTROL Card Details] box.
+   >Om du klickar utanför fältet Namn sparas ad hoc-kortet automatiskt som&quot;Namnlöst&quot; längst ned i den vänstra kolumnen. Om du vill avsluta utan att spara kortet måste du klicka på [!UICONTROL **Avbryt**] utan att klicka någon annanstans i rutan [!UICONTROL Card Details].
 
-1. I **[!UICONTROL Card Details]** lägger du till följande information:
+1. Lägg till följande information i rutan **[!UICONTROL Card Details]**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -74,11 +74,11 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Column]</strong> </td> 
-      <td>Markera kortets kolumn. Om du lämnar <strong>[!UICONTROL Column]</strong> om fältet är tomt placeras kortet i den första kolumnen till vänster om kortet.</td>
+      <td>Markera kortets kolumn. Om du lämnar fältet <strong>[!UICONTROL Column]</strong> tomt placeras kortet i den första kolumnen till vänster om kortet.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Status]</strong> </td> 
-      <td>Välj en status för kortet. Klicka <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till [!UICONTROL Complete].</td> 
+      <td>Välj en status för kortet. Om du klickar på <strong>[!UICONTROL Mark Complete]</strong> högst upp på kortet ändras statusen automatiskt till [!UICONTROL Complete].</td> 
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Due date]</strong></td> 
@@ -90,7 +90,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
-      <td>Om du vill tilldela kortet klickar du <strong>[!UICONTROL Add Assignment]</strong> och börja skriva ett namn i sökfältet. Markera den sedan när den visas i resultatlistan. Du kan lägga till både enskilda personer och team, och du kan tilldela flera personer eller team till ett kort.</td>
+      <td>Om du vill tilldela kortet klickar du på <strong>[!UICONTROL Add Assignment]</strong> och börjar skriva ett namn i sökfältet. Markera den sedan när den visas i resultatlistan. Du kan lägga till både enskilda personer och team, och du kan tilldela flera personer eller team till ett kort.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
@@ -98,26 +98,26 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Connection]</strong> </td>
-      <td>Du kan ansluta ett ad hoc-kort till en [!DNL Workfront] aktivitet eller problem. Mer information finns i"Konvertera ett ad hoc-kort till ett anslutet kort" i artikeln <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Använd anslutna kort på ritytor</a>.</td>
+      <td>Du kan ansluta ett ad hoc-kort till en [!DNL Workfront]-aktivitet eller ett problem. Mer information finns i"Konvertera ett ad hoc-kort till ett anslutet kort" i artikeln <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Använd anslutna kort på kort</a>.</td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om objekt i checklistor finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p> </td> 
+      <td> <p>Klicka på <strong>[!UICONTROL Add checklist item]</strong>. Skriv sedan objektets titel och tryck på Retur. Ett annat objekt läggs till automatiskt. Fortsätt att ange titlar för att lägga till fler objekt.</p> <p>Räknaren högst upp i checklistan visar antalet slutförda objekt och det totala antalet objekt.</p> <p>Mer information om checklisteobjekt finns i <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Hantera checklisteobjekt på kort</a>.</p> </td> 
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Klicka på <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Använd formateringsverktygen för att formatera texten. (Bilder är inte tillgängliga i kommentarer på ad hoc-kort.) Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort inget e-postmeddelande.
-      </p><p>Klicka <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
+      <td><p>Klicka i fältet <strong>[!UICONTROL New comment]</strong> och skriv din kommentar. Använd formateringsverktygen för att formatera texten. (Bilder är inte tillgängliga i kommentarer på ad hoc-kort.) Om du vill tagga en person eller ett team använder du sökrutan längst ned i kommentarsområdet. Användaren behöver inte vara medlem i styrelsen.</p><p><strong>OBS!</strong> För närvarande får användare som är taggade i kommentarer på ad hoc-kort ingen e-postavisering.
+      </p><p>Klicka på <strong>[!UICONTROL Submit]</strong> för att lägga till kommentaren på kortet.</p>
       <p>Mer information om att kommentera finns i <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Uppdatera arbete</a>.</p></td>
      </tr>
     </tbody> 
    </table>
 
-   ![Ad hoc-kortdetaljer](assets/ad-hoc-card-details-with-comments.png)
+   ![Ad hoc-kortinformation](assets/ad-hoc-card-details-with-comments.png)
 
    Använd den vänstra navigeringspanelen för att flytta mellan fältavsnitt på kortinformationen.
 
-1. Klicka **[!UICONTROL Close]** för att lägga till kortet i styrelsen.
+1. Klicka på **[!UICONTROL Close]** om du vill lägga till kortet i kortet.
 
    Tilldelarna, taggarna, förfallodatumet, räknaren för checklistor, beräknade timmar och status visas på kortet.
 
@@ -126,7 +126,7 @@ Ett ad hoc-kort är inte anslutet till en arbetsuppgift i [!DNL Adobe Workfront]
 Du kan lägga till ad hoc-kort med endast en titel för att snabbt fylla i din anslagstavla.
 
 1. Gå till den anslagstavla som du vill lägga till kort i.
-1. Klicka på **[!UICONTROL Add]** icon ![Lägg till kort](assets/addicon-spectrum.png) i kolumnen där du vill lägga till kortet.
+1. Klicka på ikonen **[!UICONTROL Add]** ![Lägg till kort](assets/addicon-spectrum.png) i kolumnen där du vill lägga till kortet.
 1. Skriv kortnamnet och tryck på Retur.
 
    Ett annat kort läggs automatiskt till under det nya kortet.
@@ -143,8 +143,8 @@ Du kan lägga till ad hoc-kort med endast en titel för att snabbt fylla i din a
 
    eller
 
-   Klicka på **[!UICONTROL More]** meny ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
+   Klicka på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) på kortet och välj **[!UICONTROL Edit]**.
 
-1. I [!UICONTROL Card Details] uppdaterar du informationen efter behov och klickar på **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
+1. Uppdatera informationen efter behov i rutan [!UICONTROL Card Details] och klicka på **[!UICONTROL Close]** för att gå tillbaka till styrelsen.
 
-   Om du har aktiverat kolumnprofiler för att uppdatera fältvärden flyttas kortet automatiskt till motsvarande kolumn om du ändrar statusen på kortet. Mer information finns i&quot;Definiera kolumninställningar och -profiler&quot; i artikeln [Hantera kortkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+   Om du har aktiverat kolumnprofiler för att uppdatera fältvärden flyttas kortet automatiskt till motsvarande kolumn om du ändrar statusen på kortet. Mer information finns i Definiera kolumninställningar och -profiler i artikeln [Hantera panelkolumner](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).

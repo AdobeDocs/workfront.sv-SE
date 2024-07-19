@@ -11,7 +11,7 @@ role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ För en offentlig grupp kan alla användare (i eller utanför gruppen) som har b
 
 Du kan bara redigera det här alternativet på den översta överordnade gruppen i en grupphierarki som har mer än en nivå. Alla undergrupper i den överordnade gruppen ärver inställningen.
 
-Om du skapar en undergrupp under en grupp som är offentlig, är undergruppen också offentlig som standard. Mer information om hur du skapar och publicerar en grupp finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). Mer information om vilken åtkomst som krävs för att redigera användare finns i [Bevilja åtkomst för användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+Om du skapar en undergrupp under en grupp som är offentlig, är undergruppen också offentlig som standard. Mer information om hur du skapar en grupp och gör den offentlig finns i [Skapa en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). Mer information om den åtkomst som krävs för att redigera användare finns i [Bevilja åtkomst till användare](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 Alla grupper som du lägger till i en befintlig grupp blir automatiskt en undergrupp och är inte längre en huvudgrupp. Undergruppen behåller dock sina befintliga användare, liksom eventuella associationer med projekt, utgåvor och uppgifter, utöver alla projekt-, uppgifts- och utgivningsstatusar som tillhör den nya överordnade gruppen.
 
@@ -62,4 +62,4 @@ Alternativt kan du lämna administreringen av undergruppen till de gruppadminist
 >
 >Om du lägger till en användare i en undergrupp och den användaren är gruppadministratör för en grupp var som helst ovanför undergruppen, har den användaren administratörsbehörighet för att hantera undergruppen, även om användaren inte har tilldelats en gruppadministratör för den.
 
-Mer information om vilka åtgärder som är tillgängliga för en Adobe Workfront-administratör som hanterar Workfront-systemet, en gruppadministratör som hanterar en högnivågrupp och en gruppadministratör som hanterar en undergrupp finns i [Åtgärder tillåts för olika typer av administratörer](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).
+Mer information om vilka åtgärder som är tillgängliga för en Adobe Workfront-administratör som hanterar Workfront-systemet, en gruppadministratör som hanterar en högnivågrupp och en gruppadministratör som hanterar en undergrupp finns i [Åtgärder som är tillåtna för olika typer av administratörer](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md).

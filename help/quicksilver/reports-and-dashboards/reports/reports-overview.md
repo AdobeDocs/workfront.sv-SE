@@ -26,7 +26,7 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Använd inbyggda rapporter](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [Skapa och hantera rapporter](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
 * [Beräknade anpassade data i rapporter](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [Anpassad vy, filter och gruppering av exempel: artikelindex](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Egna exempel på vy, filter och gruppering: artikelindex](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [Resurser för textläge: artikelindex](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
 * [Översikt över rapportanvändning](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
 * [Kalendrar: artikelindex](../../reports-and-dashboards/reports/calendars/calendars.md)

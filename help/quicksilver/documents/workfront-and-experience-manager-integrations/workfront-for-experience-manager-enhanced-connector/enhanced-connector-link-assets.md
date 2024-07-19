@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Länka resurser och mappar med den förbättrade kopplingen
 
-Du kan länka en resurs eller mapp från Experience Manager Assets till ett Workfront-objekt som stöder dokument. Resurser som skickas från Experience Manager Assets räknas inte in i din totala dokumentlagring i Workfront. Dokument som överförs och skickas från Workfront till Experience Manager Assets räknas med i det övergripande lagringsutrymmet.
+Du kan länka en resurs eller mapp från Experience Manager Assets till ett Workfront-objekt som stöder dokument. Assets som skickas från Experience Manager Assets räknar inte med att bli din totala dokumentlagring i Workfront. Dokument som överförs och skickas från Workfront till Experience Manager Assets räknas med i det övergripande lagringsutrymmet.
 
 ## Åtkomstkrav
 
@@ -38,7 +38,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>Redigera åtkomst till dokument</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -59,13 +59,13 @@ Innan du börjar måste du
 
 Du kan länka en resurs från Experience Manager Assets till Workfront. När resursen är länkad kan du
 
-* [Korrektur för en länkad resurs för Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [Korrektur för länkad resurs för Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
 * [Överföra en ny version av ett dokument](../../../documents/managing-documents/upload-new-document-version.md)
 
 Så här länkar du en resurs till Experience Manager Assets:
 
-1. Gå till **Dokument** i Workfront där du vill lägga till dokumentet.
-1. Klicka **Lägg till ny** väljer du sedan den Experience Manager Assets-integrering som administratören har konfigurerat.
+1. Gå till området **Dokument** i Workfront där du vill lägga till dokumentet.
+1. Klicka på **Lägg till ny** och välj sedan den Experience Manager Assets-integrering som administratören har konfigurerat.
 
    >[!NOTE]
    >
@@ -75,16 +75,16 @@ Så här länkar du en resurs till Experience Manager Assets:
 
    ![](assets/select-an-asset.png)
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.
 
 ## Länka en mapp från Experience Manager Assets
 
 Behörigheter att visa enskilda resurser i en mapp kräver Experience Manager Assets-behörigheter.
 
-Så här länkar du en mapp till Experience Manager Assets:
+Länka en mapp till Experience Manager Assets:
 
-1. Gå till **Dokument** i Workfront där du vill lägga till dokumentet.
-1. Klicka **Lägg till ny** väljer du sedan den Experience Manager Assets-integrering som administratören har konfigurerat.
+1. Gå till området **Dokument** i Workfront där du vill lägga till dokumentet.
+1. Klicka på **Lägg till ny** och välj sedan den Experience Manager Assets-integrering som administratören har konfigurerat.
 
    >[!NOTE]
    >
@@ -94,7 +94,7 @@ Så här länkar du en mapp till Experience Manager Assets:
 
    ![](assets/select-a-folder.png)
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.
 
 ## Länka en ny version från Experience Manager Assets
 
@@ -106,9 +106,9 @@ Du kan hämta en ny resurs från Experience Manager Assets och lägga till den i
 
 Så här länkar du en ny version från Experience Manager Assets:
 
-1. Gå till **Dokument** i Workfront där du vill lägga till dokumentet.
+1. Gå till området **Dokument** i Workfront där du vill lägga till dokumentet.
 1. Markera den resurs som du vill ersätta med en ny version. Du kan inte skapa en ny version av en resurs i en länkad mapp.
-1. Klicka **Lägg till ny** väljer du sedan den Experience Manager Assets-integrering som administratören har konfigurerat.
+1. Klicka på **Lägg till ny** och välj sedan den Experience Manager Assets-integrering som administratören har konfigurerat.
 
    >[!NOTE]
    >
@@ -118,4 +118,4 @@ Så här länkar du en ny version från Experience Manager Assets:
 
    ![](assets/select-an-asset.png)
 
-1. Klicka **Länk**.
+1. Klicka på **Länk**.

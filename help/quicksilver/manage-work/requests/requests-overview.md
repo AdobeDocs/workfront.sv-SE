@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Skapa och hantera frågeköer](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [Skapa och hantera begärandeköer](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
 * [Skapa förfrågningar](../../manage-work/requests/create-requests/create-requests.md)

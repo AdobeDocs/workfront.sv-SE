@@ -5,20 +5,20 @@ product-area: workfront-integrations;documents
 keywords: koppling
 navigation-topic: apps-and-their-modules
 title: Datadogmoduler
-description: I en [!DNL Adobe Workfront Fusion] kan du automatisera arbetsflöden som använder Datadog, samt ansluta det till flera tredjepartsprogram och -tjänster.
+description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder Datadog samt ansluta den till flera tredjepartsprogram och -tjänster.
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '771'
 ht-degree: 0%
 
 ---
 
 # [!DNL Datadog] moduler
 
-I en [!DNL Adobe Workfront Fusion] scenario kan du automatisera arbetsflöden som använder [!DNL Datadog], samt ansluta till flera tredjepartsprogram och -tjänster.
+I ett [!DNL Adobe Workfront Fusion]-scenario kan du automatisera arbetsflöden som använder [!DNL Datadog] samt ansluta det till flera tredjepartsprogram och -tjänster.
 
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
@@ -43,50 +43,50 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] licens**</td> 
    <td>
-   <p>Aktuellt licenskrav: Nej [!DNL Workfront Fusion] krav på licens.</p>
+   <p>Aktuellt licenskrav: Inget [!DNL Workfront Fusion]-licenskrav.</p>
    <p>eller</p>
-   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för automatisering och integrering av arbetet] </p>
+   <p>Gammalt licenskrav: [!UICONTROL [!DNL Workfront Fusion] för Automatisering och integrering av arbetet] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuellt produktbehov: Om du har [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] Planera, din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Aktuellt produktkrav: Om du har planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Adobe Workfront] måste din organisation köpa både [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln. [!DNL Workfront Fusion] ingår i planen [!UICONTROL Ultimate] [!DNL Workfront].</p>
    <p>eller</p>
-   <p>Krav för äldre produkt: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] om du vill använda de funktioner som beskrivs i den här artikeln.</p>
+   <p>Äldre produktkrav: Din organisation måste köpa [!DNL Adobe Workfront Fusion] och [!DNL Adobe Workfront] för att kunna använda de funktioner som beskrivs i den här artikeln.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront] administratör.
+Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
-För information om [!DNL Adobe Workfront Fusion] licenser, se [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Förutsättningar
 
-Används [!DNL Datadog] moduler, du måste ha en [!DNL Datadog] konto.
+Du måste ha ett [!DNL Datadog]-konto för att kunna använda [!DNL Datadog]-moduler.
 
 ## Anslut [!DNL Datadog] till [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
 
 ### Hämta API-nyckeln och programnyckeln {#retrieve-your-api-key-and-application-key}
 
-Koppla samman [!DNL Datadog] konto till [!DNL Workfront Fusion] du behöver hämta en API-nyckel och en programnyckel från [!DNL Datadog] konto.
+Om du vill ansluta ditt [!DNL Datadog]-konto till [!DNL Workfront Fusion] måste du hämta en API-nyckel och en programnyckel från ditt [!DNL Datadog]-konto.
 
-1. Logga in på [!DNL Datadog] konto.
-1. Klicka på **[!UICONTROL Integrations]** och sedan klicka **[!UICONTROL APIs]**.
-1. På huvudskärmen klickar du på **[!UICONTROL API Keys]**.
+1. Logga in på ditt [!DNL Datadog]-konto.
+1. Klicka på **[!UICONTROL Integrations]** i den vänstra navigeringspanelen och sedan på **[!UICONTROL APIs]**.
+1. Klicka på **[!UICONTROL API Keys]** på huvudskärmen.
 1. Hovra över det lila fältet för att visa API-nyckeln.
 1. Kopiera API-nyckeln till en säker plats.
-1. På huvudskärmen klickar du på **[!UICONTROL Application Keys]**.
+1. Klicka på **[!UICONTROL Application Keys]** på huvudskärmen.
 1. Hovra över det lila fältet för att visa programnyckeln.
 1. Kopiera programnyckeln till en säker plats.
 
-### Skapa en anslutning till [!DNL Datadog] in [!DNL Workfront Fusion]
+### Skapa en anslutning till [!DNL Datadog] i [!DNL Workfront Fusion]
 
-Du kan skapa en anslutning till [!DNL Datadog] direkt inifrån [!UICONTROL Datadog] -modul.
+Du kan skapa en anslutning till ditt [!DNL Datadog]-konto direkt inifrån en [!UICONTROL Datadog]-modul.
 
-1. I alla [!UICONTROL Datadog] modul, klicka på **[!UICONTROL Add]** bredvid [!UICONTROL Connection] fält.
+1. Klicka på **[!UICONTROL Add]** bredvid fältet [!UICONTROL Connection] i någon [!UICONTROL Datadog]-modul.
 1. Fyll i modulens fält enligt följande:
 
 <table style="table-layout:auto">
@@ -95,7 +95,7 @@ Du kan skapa en anslutning till [!DNL Datadog] direkt inifrån [!UICONTROL Datad
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Connection Type]</td> 
-      <td> <p> Välj [!UICONTROL [!DNL Datadog] Application] option to get full access to [!DNL Datadog] API.</p> </td> 
+      <td> <p> Välj alternativet [!UICONTROL [!DNL Datadog] Application] om du vill ha fullständig åtkomst till API:t för [!DNL Datadog].</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Connection Name]</td> 
@@ -107,20 +107,20 @@ Du kan skapa en anslutning till [!DNL Datadog] direkt inifrån [!UICONTROL Datad
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL API Key]</td> 
-      <td> <p> Ange [!DNL Datadog] API-nyckel. </p> <p>Instruktioner om hur du hämtar API-nyckeln finns i <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Hämta API-nyckeln och programnyckeln</a> i den här artikeln.</p> </td> 
+      <td> <p> Ange din [!DNL Datadog] API-nyckel. </p> <p>Instruktioner om hur du hämtar API-nyckeln finns i <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Hämta API-nyckeln och programnyckeln</a> i den här artikeln.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Application Key]</td> 
-      <td> <p> Ange [!DNL Datadog] programnyckel. </p> <p>Instruktioner om hur du hämtar programnyckeln finns i <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Hämta API-nyckeln och programnyckeln</a> i den här artikeln.</p> </td> 
+      <td> <p> Ange programnyckeln för [!DNL Datadog]. </p> <p>Instruktioner om hur du hämtar programnyckeln finns i <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref">Hämta API-nyckeln och programnyckeln</a> i den här artikeln.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicka **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
+1. Klicka på **[!UICONTROL Continue]** för att skapa anslutningen och gå tillbaka till modulen.
 
-## [!DNL Datadog] moduler och deras fält
+## [!DNL Datadog]-moduler och deras fält
 
-När du konfigurerar [!DNL Datadog] moduler, [!DNL Workfront Fusion] visar fälten som listas nedan. Tillsammans med dessa finns ytterligare [!DNL Datadog] fält kan visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
+När du konfigurerar [!DNL Datadog] moduler visar [!DNL Workfront Fusion] fälten som listas nedan. Dessutom kan ytterligare [!DNL Datadog] fält visas, beroende på faktorer som din åtkomstnivå i appen eller tjänsten. En rubrik med fet stil i en modul visar ett obligatoriskt fält.
 
 Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den för att ange variabler och funktioner för det fältet. Mer information finns i [Mappa information från en modul till en annan i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
@@ -133,7 +133,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 #### [!UICONTROL Post Timeseries Points]
 
-Med modulen kan du bokföra data från tidsserier som kan graderas [!DNL Datadog]Det är kontrollpaneler.
+Med modulen kan du publicera tidsseriedata som kan visas på kontrollpanelerna för [!DNL Datadog].
 
 Gränsen för komprimerade nyttolaster är 3,2 megabyte (3200000) och 62 megabyte (62914560) för dekomprimerade nyttolaster.
 
@@ -143,7 +143,7 @@ Gränsen för komprimerade nyttolaster är 3,2 megabyte (3200000) och 62 megabyt
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Datadog] konto till [!DNL Workfront Fusion], se <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Datadog] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Datadog]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Datadog] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Series]</td> 
@@ -152,7 +152,7 @@ Gränsen för komprimerade nyttolaster är 3,2 megabyte (3200000) och 62 megabyt
      <li> <p><strong>[!UICONTROL Metric]</strong> </p> <p>Ange namnet på tidsserierna.</p> </li> 
      <li> <p><strong>[!UICONTROL Type]</strong> </p> <p>Välj typ av mätvärde.</p> </li> 
      <li> <p><strong>[!UICONTROL Interval]</strong> </p> <p> Om måttets typ är hastighet eller antal definierar du motsvarande intervall.</p> </li> 
-     <li> <p><strong>[!UICONTROL Points]</strong> </p> <p>Lägg till punkter som hör till ett mätvärde.</p> <p>Detta är en JSON-array med punkter. Varje punkt har följande format: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Obs!  <p>Tidsstämpeln måste vara i sekunder.</p> <p>Tidsstämpeln måste vara aktuell. Aktuell definieras som inte mer än 10 minuter i framtiden eller mer än 1 timme tidigare.</p> <p> Det numeriska värdeformatet ska vara ett flyttal.</p> </p> <p>Det här fältet måste innehålla minst 1 objekt.</p> </li> 
+     <li> <p><strong>[!UICONTROL Points]</strong> </p> <p>Lägg till punkter som hör till ett mätvärde.</p> <p>Detta är en JSON-array med punkter. Varje punkt har följande format: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Obs!  <p>Tidsstämpeln måste vara i sekunder.</p> <p>Tidsstämpeln måste vara aktuell. Aktuell definieras som inte mer än 10 minuter i framtiden eller mer än 1 timme i det förflutna.</p> <p> Det numeriska värdeformatet ska vara ett flyttal.</p> </p> <p>Det här fältet måste innehålla minst 1 objekt.</p> </li> 
      <li> <p><strong>[!UICONTROL Host]</strong> </p> <p>Ange namnet på värden som genererade måttet.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -169,15 +169,15 @@ Med den här åtgärdsmodulen kan du utföra ett anpassat API-anrop.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter [!DNL Datadog] konto till [!DNL Workfront Fusion], se <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Anslut [!DNL Datadog] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Datadog]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Datadog] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en sökväg som är relativ till <code>https://api.datadoghq.com/api/</code>. Exempel:<code> /v1/org</code>.</td> 
+   <td>Ange en relativ sökväg till <code>https://api.datadoghq.com/api/</code>. Exempel:<code> /v1/org</code>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">HTTP-förfrågningsmetoder i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -189,7 +189,7 @@ Med den här åtgärdsmodulen kan du utföra ett anpassat API-anrop.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar citattecknen utanför villkorssatsen.</p> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -197,7 +197,7 @@ Med den här åtgärdsmodulen kan du utföra ett anpassat API-anrop.
  </tbody> 
 </table>
 
-**Exempel:** Följande API-anrop returnerar alla instrumentpaneler i [!DNL Datadog] konto:
+**Exempel:** Följande API-anrop returnerar alla instrumentpaneler i ditt [!DNL Datadog]-konto:
 
 URL: `/v1/dashboard`
 
