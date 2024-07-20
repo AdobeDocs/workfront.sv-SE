@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 0%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 0%
    * Korrektur {#proofing}
       * [Korrektur: artikelindex](review-and-approve-work/proofing/proofing.md)
       * Korrekturöversikt {#proofing-overview}
-         * [Korrektur - översikt](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [Språköversikt: artikelindex](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [Översikt över behörighetsprofiler för korrektur](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [Översikt över profilroller](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [Översikt över automatiserat arbetsflöde](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 0%
          * [Översikt över korrektur och status](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Skillnader mellan Web Proofing Viewer och Desktop Proofing Viewer - översikt](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * Skapa korrektur {#create-proofs}
-         * [Skapa korrektur](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [Skapa korrektur: artikelindex](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [Konfigurera standardinställningar för personligt korrektur](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [Skapa ett korrektur för flera sidor](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 0%
          * [Skapa ett avancerat korrektur med ett grundläggande arbetsflöde](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Hantera korrektur i Adobe Workfront {#manage-proofs-in-workfront}
-         * [Hantera korrektur i Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Hantera korrektur i Adobe Workfront: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * Hantera korrektur {#manage-proofs}
-            * [Hantera korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [Hantera korrektur: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [Redigera korrekturinställningar](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Skriva ut en korrektursammanfattning i Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [Ta bort ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 0%
             * [Använd rapporten för godkännande av korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Öppna Workfront Proof från Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * Hantera korrekturversioner {#manage-proof-versions}
-            * [Hantera korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [Hantera korrekturversioner: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [Skapa en ny version av ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [Visa korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [Visa och hantera information om korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [Hämta korrekturversioner](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * Hantera korrekturgranskare {#manage-proof-reviewers}
-            * [Hantera korrekturgranskare](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [Hantera korrekturgranskare: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [Konfigurera åtkomst- och prenumerationsinställningar för ett bevis](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Dela ett korrektur i Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [Skicka e-postmeddelanden till granskare vid korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * Hantera korrekturmeddelanden {#manage-proof-notifications}
-            * [Hantera korrekturmeddelanden](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [Hantera korrekturmeddelanden: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [Hantera meddelanden för korrekturkommentarer och beslut](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * Hantera korrekturtider {#manage-proof-deadlines}
-            * [Hantera korrekturtider](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [Hantera korrekturtider: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [Ange en tidsgräns för ett befintligt grundläggande korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [Lägga till, redigera eller ta bort en deadline för en fas](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [Ange deadlines för enskilda granskare](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [Ta bort enskilda deadlines för granskare](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * Hantera automatiska korrektur {#manage-automated-proofs}
-            * [Hantera automatiska korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [Hantera automatiska korrektur: artikelindex](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [Visa automatiska arbetsflödesfaser i ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [Visa aktiva faser i ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [Skapa eller redigera ett automatiserat arbetsflöde för ett befintligt korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 0%
             * [Konvertera ett grundläggande arbetsflöde till ett automatiserat arbetsflöde vid ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [Lägga till faser och användare i ett automatiserat arbetsflöde vid ett korrektur](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * Använd Desktop Proofing Viewer {#use-the-desktop-proofing-viewer}
-         * [Använda Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [Använda Desktop Proofing Viewer: artikelindex](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [Installera Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [Uppdatera Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [Öppna korrektur i Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [Granska icke-interaktivt innehåll i Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [Frågor och svar - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Granska korrektur i Adobe Workfront {#review-proofs-in-workfront}
-         * [Granska korrektur i Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Granska korrektur i Adobe Workfront: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * Granska ett bevis {#review-a-proof}
-            * [Granska ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [Granska ett korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [Visa innehåll i ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [Mäta ett område inom ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [Ändra måttenheten för tidslinjen i ett videoklipp](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 0%
             * [Ändra interaktiv korrekturupplösning i korrekturläsaren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [Konfigurera inställningar för korrekturläsare](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * Kommentera ett korrektur {#comment-on-a-proof}
-            * [Kommentera korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [Kommentera korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [Kommentera ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [Visa och svara på korrekturkommentarer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [Söka efter, filtrera och sortera korrekturkommentarer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 0%
             * [Använda funktionsmakron för korrekturkommentarer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [Tagga användare för att dela ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * Fatta ett beslut om ett bevis {#make-decision-on-proof}
-            * [Fatta ett beslut om ett bevis](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [Fatta ett beslut om ett korrektur: artikelindex](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [Godkänn ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [Fatta ett beslut om ett korrektur i korrekturläsaren](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [Ändra ett befintligt beslut om ett korrektur](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Tips, tricks och felsökning för korrektur i Adobe Workfront {#ttt-proofing-in-workfront}
-         * [Tips, tricks och felsökning för korrektur i Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Tips, tricks och felsökning för korrektur i Adobe Workfront: artikelindex](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Visa en lista över användare som har en korrekturlicens i Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [Redigera fältet Korrekturbehörighetsprofil i flera](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [Inaktivera delning av korrektur via offentlig URL eller inbäddningskod](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 0%
          * [Dokumentnamnet har ändrats efter överföringen och innehåller ett ogiltigt tecken](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Korrektur för PowerPoint med inbäddad video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * Tips, tricks och felsökning för godkännanden {#ttt-approvals}
-      * [Tips, tricks och felsökning för godkännanden](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Tips, tricks och felsökning för godkännanden: artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Visa antalet korrektur- och dokumentbeslut för alla användare](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Tidrapporter {#timesheets}
    * [Tidrapporter: artikelindex](timesheets/timesheets-all.md)

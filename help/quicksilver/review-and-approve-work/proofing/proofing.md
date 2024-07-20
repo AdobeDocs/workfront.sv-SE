@@ -8,9 +8,9 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Granska och kommentera i samma dokument som era kreativa team arbetar i. Med Spr
 
 Det här avsnittet innehåller följande underavsnitt:
 
-* [Språköversikt](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [Språköversikt: artikelindex](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Hantera korrektur i Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Granska korrektur i Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

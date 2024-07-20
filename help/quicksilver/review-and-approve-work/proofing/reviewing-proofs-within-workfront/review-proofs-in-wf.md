@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Granska korrektur i Adobe Workfront
+title: "Granska korrektur i Adobe Workfront: artikelindex"
 description: Lär dig hur du granskar korrektur i Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '47'
+source-wordcount: '51'
 ht-degree: 0%
 
 ---
 
-# Granska korrektur i Adobe Workfront
+# Granska korrektur i Adobe Workfront: artikelindex
 
 Det här avsnittet innehåller följande artiklar:
 
