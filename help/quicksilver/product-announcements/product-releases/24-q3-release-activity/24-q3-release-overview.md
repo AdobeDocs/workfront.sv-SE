@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
+source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1813'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Affärsregler är nu tillgängliga</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>Administratörer kan nu lägga till affärsregler under Konfigurera i Workfront.</p>
                         <p>Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Reglerna byggs med en formel som liknar beräkningsfält i anpassade formulär.</p>
                     </td>
@@ -79,6 +79,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Anpassad formulärdesigner är vanligtvis tillgänglig i Adobe Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Med version 24.7 blir blankettkonstruktören allmänt tillgänglig och blir standardupplevelsen när man skapar och redigerar anpassade blanketter i Adobe Workfront. När du skapar ett nytt anpassat formulär eller öppnar ett befintligt, visas formulärdesignerns arbetsyta i arbetsytan.</p>
                         <p>Efter den här versionen har du inte längre möjlighet att återgå till det tidigare formulärverktyget.</p>
                     </td>
@@ -127,6 +128,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Lägg till ett nytt anpassat fält från fältområdet</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Nu kan du lägga till ett nytt anpassat fält eller en ny widget direkt från fältområdet i Workfront, utan att öppna ett anpassat formulär för att skapa fältet. På så sätt kan du snabbt skapa återanvändbara anpassade fält.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -221,7 +223,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av Workfront för Experience Manager Assets och Assets Essentials</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi har gjort följande förbättringar för integreringen av Workfront för Experience Manager Assets och Assets Essentials:</p>
                         <ul>
                             <li><p>Integreringen har nu stöd för GCP som molntjänstleverantör. AWS och Azure stöddes tidigare.</p></li>
@@ -261,7 +263,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Redigera aktiviteten och skicka bekräftelsedatum och villkor från huvud- eller detaljavsnittet</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -281,7 +283,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -301,7 +303,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -340,12 +342,13 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Säkerhetsuppdateringar för Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Säkerhetsuppdateringen Workfront Proof Desktop Proofing Viewer 2.1.35 innehåller säkerhetsfelkorrigeringar för säkerhetsluckor som har identifierats i tidigare versioner.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: juli 2024</p>
+                                <p>Förhandsversion: 4 juli 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktion för alla kunder: 4 juli 2024</span></p>
@@ -375,6 +378,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Ledig tid återspeglas nu i arbetsbelastningsutjämnaren</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>För att smidigt justera arbete när den primära tilldelaren för en aktivitet har en schemalagd tid inaktiverad, omfördelar nu arbetsbelastningsutjämnaren timmar till både den primära och den sekundära användaren när projekttidslinjen beräknas om.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -423,6 +427,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience finns nu för fler Workfront-organisationer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>För att ge företag och organisationer tillgång till fördelarna med Adobe Unified Experience har vi börjat göra den tillgänglig för befintliga Workfront-kunder. </p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -440,6 +445,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Hjälpknappen har tagits bort från navigeringsfältet</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Hjälpknappen i huvudnavigeringsfältet har tagits bort för att ge en enhetlig upplevelse för användare som inte använder det enhetliga gränssnittet. Den här knappen, som inte finns för användare i Unified Shell, är länkad till Workfront-dokumentationen och överflödig med en liknande hjälpknapp tillgänglig för alla användare på huvudmenyn.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -456,7 +462,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättrat användargränssnitt för användare med begränsad objektåtkomst</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>När en användare inte har åtkomst till ett objekt visas"Ingen åtkomst" var som helst där objektnamnet visas i Workfront. Den här förbättrade upplevelsen gäller även Workfront API.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
