@@ -6,9 +6,9 @@ description: Om du vill installera appen innan den blir tillgänglig på  [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
@@ -197,3 +197,39 @@ Till exempel *yourDomain.my.workfront.com*.
 
    [!UICONTROL Salesforce]-användare kan använda appen [!DNL Workfront] när du har lagt till avsnittet [!DNL Workfront] i sina [!UICONTROL Opportunity]- eller [!UICONTROL Account]-sidlayouter.\
    Mer information om hur du konfigurerar avsnittet [!DNL Workfront] för användare finns i [Konfigurera avsnittet  [!DNL Adobe Workfront] Konfigurera för [!DNL Salesforce] användare](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md).
+
+## Konfigurera behörigheter för Workfront för Salesforce-integrering
+
+### Behörigheter för `workfront_business`
+
+1. Navigera till **Inställningar** > **Säkerhet** > **Betrodda URL:er**.
+1. Välj `workfront_business` i listan.
+1. Klicka på **Redigera**.
+1. Under CSP-direktiv kontrollerar du följande alternativ:
+
+   * connect-src (skript)
+   * font-src (fonts)
+   * frame-src (iframe-innehåll)
+   * img-src (bilder)
+   * media-src (ljud och video)
+   * style-src (stylesheets)
+
+1. Klicka på **Spara**.
+
+
+### Behörigheter för workfront_session
+
+1. Navigera till **Inställningar** > **Säkerhet** > **Betrodda URL:er**.
+1. Välj `workfront_session` i listan.
+1. Klicka på **Redigera**.
+1. Under CSP-direktiv kontrollerar du följande alternativ:
+
+   * connect-src (skript)
+   * font-src (fonts)
+   * frame-src (iframe-innehåll)
+   * img-src (bilder)
+   * media-src (ljud och video)
+   * style-src (stylesheets)
+
+1. Klicka på **Spara**.
+
