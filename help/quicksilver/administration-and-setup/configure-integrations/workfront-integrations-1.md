@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -306,9 +306,9 @@ Mer information finns i [Översikt över integreringar för Adobe Workfront för
 
 [!DNL Workfront] har många partnerintegreringar som berikar din [!DNL Workfront]-upplevelse.
 
-Exempel på befintliga partnererbjudanden är integreringar med [!DNL Salesforce.com], [!DNL Oracle Responsys] och [!DNL Microsoft Visual Studio].
+Workfront har många partnerintegreringar som berikar din Workfront-upplevelse. Exempel på befintliga partnererbjudanden är integreringar med Claravine, RWS Group med flera.
 
-Mer information om dessa och andra partnerintegreringar finns på [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+Mer information om dessa och andra partnerintegreringar finns på [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE).
 
 ## API för [!DNL Workfront]
 
