@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Det här avsnittet innehåller följande artiklar:
 * [Ange spårningsläge för aktiviteter](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [Uppdatera nivåfördröjning för aktivitet](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [Uppdatera uppgiftskostnadstyp](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [Skillnad mellan beräknade och beräknade datum](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [Översikt över planerade och beräknade datum](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Skillnad mellan planerad varaktighet och varaktighet för uppgifter](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

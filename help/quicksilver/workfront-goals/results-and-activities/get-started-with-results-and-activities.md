@@ -7,31 +7,31 @@ description: Du måste lägga till resultat, aktiviteter eller anpassade mål ti
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
 
 # Kom igång med resultat och aktiviteter i Adobe Workfront-mål
 
-Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
-
-* För den nya planen och licensstrukturen:
-
-   * En Ultimate-plan
-
-     eller
-
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
-
-* För aktuell plan och licensstruktur:
-
-   * En Pro eller högre
-   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
-
-Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>[!IMPORTANT]
+>
+>Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>
+>* För den nya planen och licensstrukturen:
+>
+>   * Den ultimata Workfront-planen
+>    
+>* För aktuell plan och licensstruktur:
+>
+>   * En plan för Pro eller senare Workfront
+>   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>
+>Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+> 
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 När du skapar ett mål har målet statusen Utkast. Mer information om att skapa mål finns i [Skapa mål i Adobe Workfront-mål](../../workfront-goals/goal-management/create-goals.md).
 

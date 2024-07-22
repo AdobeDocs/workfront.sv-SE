@@ -7,9 +7,9 @@ description: Scenario Planner kräver en separat licens utöver Adobe Workfront-
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -18,12 +18,16 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-[!DNL Scenario Planner] kräver en separat licens utöver [!DNL Adobe Workfront]-licensen.
+Syftet med [!DNL Workfront Scenario Planner] är att påskynda genomförandet av dina organisationsnivåplaner och hjälpa dig att fatta viktiga beslut som ger förutsägbara och önskade resultat för din verksamhet.
+
+Du måste ha följande [!DNL Workfront]-plan för att få tillgång till [!DNL Workfront Scenario Planner]:
+
+* För den nya Workfront-planen: En [!UICONTROL Ultimate]-plan.
+* För den aktuella [!DNL Workfront]-planen: du måste ha en Business-plan eller en senare plan, förutom att köpa en [!DNL Scenario Planner]-licens.
+
 Mer information om den åtkomst som krävs för att använda [!DNL Workfront Scenario Planner] finns i [Åtkomst som krävs för att använda  [!DNL Scenario Planner]](access-needed-to-use-sp.md).
 
 ## [!DNL Scenario Planner] - översikt
-
-Syftet med [!DNL Workfront Scenario Planner] är att påskynda genomförandet av dina organisationsnivåplaner och hjälpa dig att fatta viktiga beslut som ger förutsägbara och önskade resultat för din verksamhet.
 
 Med hjälp av [!DNL Workfront Scenario Planner] kan du skapa företagsplaner som skisserar företagets övergripande strategiska resultat. Du kan definiera flera initiativ för en plan och placera dem i olika scenarier för att hitta den optimala lösningen för att genomföra planen.
 

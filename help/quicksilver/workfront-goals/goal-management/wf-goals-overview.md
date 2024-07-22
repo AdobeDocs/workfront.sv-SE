@@ -7,31 +7,29 @@ description: Workfront-mål hjälper er att definiera, kommunicera och uppnå st
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Översikt över Adobe Workfront-mål
 
-Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
-
-* För den nya planen och licensstrukturen:
-
-   * En Ultimate-plan
-
-     eller
-
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
-
-* För aktuell plan och licensstruktur:
-
-   * En Pro eller högre
-   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
-
-Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>[!IMPORTANT]
+>
+>Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>
+>* För den nya planen och licensstrukturen:
+>
+>   * Den ultimata Workfront-planen
+>    
+>* För aktuell plan och licensstruktur:
+>
+>   * En plan för Pro eller senare Workfront
+>   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>
+>Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 
 
 Workfront-mål hjälper er att definiera, kommunicera och uppnå strategiska resultat genom att koppla ihop strategi för att genomföra arbetet och leverera det. Ni kan fokusera på det som verkligen betyder något för alla, göra framsteg mätbara och göra det möjligt för team att uppnå enastående resultat. Folk kan göra sitt bästa i vetskapen om att deras bidrag har en meningsfull effekt.

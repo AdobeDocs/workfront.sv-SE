@@ -6,18 +6,14 @@ description: Översikt över avstämning av resursallokeringar mellan projekt oc
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
 # Översikt över avstämning av resursallokeringar mellan projekt och initiativ
-
->[!IMPORTANT]
->
->Din organisation måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] så att du kan visa initialinformation för ett projekt. Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i [Åtkomst som behövs för att använda scenarioplaneraren](../scenario-planner/access-needed-to-use-sp.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>

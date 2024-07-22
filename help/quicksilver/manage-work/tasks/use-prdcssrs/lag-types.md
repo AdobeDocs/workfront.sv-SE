@@ -7,9 +7,9 @@ description: Lag är den tid som måste förflyta efter slutförandet av en fram
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1463'
 ht-degree: 0%
 
 ---
@@ -56,8 +56,6 @@ De planerade, planerade och beräknade datumen för efterföljande uppgifter ber
 
 -->
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -67,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td><p>Nytt: Standard</p>
        <p>eller</p>
        <p>Aktuell: Planera </p> </td>
@@ -83,7 +81,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

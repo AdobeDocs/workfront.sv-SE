@@ -7,57 +7,66 @@ description: När ni planerar företagets långsiktiga strategi finns det mycket
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '893'
 ht-degree: 0%
 
 ---
 
 # Skapa och jämföra planscenarier i [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 När ni planerar företagets långsiktiga strategi finns det mycket information som ni kanske inte har eller tänker på i början. Det tar tid och experimenterande att komma fram till en slutlig strategi som era intressenter kan acceptera. Genom att utföra en konsekvensanalys för att skapa flera scenarier för din plan kan du förutse och utvärdera potentiella omständigheter på ett korrekt sätt och i slutändan utveckla den bästa möjliga planen.
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] eller högre</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Aktuell: [!UICONTROL Business] eller högre</p>
+   <p>Nytt: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licens*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
+   <td> <p>Nytt: Ljus eller högre</p> 
+   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produkt* </td> 
+   <td> 
+   <p>För nuvarande Workfront-planer: </p>
+   <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om åtkomst och behörigheter för [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>Redigera åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Åtkomstnivå </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
+   <td> <p>Objektbehörigheter </p> </td> 
    <td> <p>[!UICONTROL Manage] behörigheter till en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa scenarier
 
 Ett scenario är en kopia av en plan. Du kan skapa så många scenarier du behöver. Vi rekommenderar dock att du håller antalet scenarier så lågt som möjligt så att du enkelt kan jämföra dem.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
+{{step1-to-scenario-planner}}
 
-1. Skapa en plan.
+1. Skapa en plan eller klicka på namnet på en befintlig plan.
 
    Mer information om hur du skapar planer finns i [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 

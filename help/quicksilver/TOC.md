@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 18cda76ad78f07e5349d90421ea55e88084459b2
 workflow-type: tm+mt
 source-wordcount: '14298'
 ht-degree: 0%
@@ -1316,7 +1316,7 @@ ht-degree: 0%
          * [Ange spårningsläge för uppgifter](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
          * [Uppdatera nivåfördröjning för aktivitet](manage-work/tasks/task-information/task-leveling-delay.md)
          * [Uppdatera uppgiftens kostnadstyp](manage-work/tasks/task-information/update-task-cost-type.md)
-         * [Differentiera mellan planerade och beräknade datum](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+         * [Översikt över planerade och beräknade datum](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [Översikt över aktivitetens ursprungliga varaktighet och ursprungliga planerade timmar](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [Skillnad mellan planerad varaktighet och varaktighet för uppgifter](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * Skapa aktiviteter {#create-tasks}

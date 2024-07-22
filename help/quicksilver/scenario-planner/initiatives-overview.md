@@ -7,16 +7,15 @@ description: Scenarioplaneraren finns endast i den nya Adobe Workfront-upplevels
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
 
 # Initiativöversikt i [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] är bara tillgängligt i den nya [!DNL Adobe Workfront]-upplevelsen och kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
 Som affärschef kan du skapa initiativ för planer i [!DNL Adobe Workfront Scenario Planner]. Mer information om hur du skapar planer finns i artikeln [Skapa och redigera planer i  [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 ## Översikt över initiativ

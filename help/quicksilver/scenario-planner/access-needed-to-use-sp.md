@@ -7,33 +7,24 @@ description: Scenarioplaneraren kräver en separat licens från Adobe Workfront 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
 
 # Åtkomst krävs för att använda [!DNL Scenario Planner]
 
-[!DNL Scenario Planner] kräver ytterligare en licens. Mer information om [!DNL Workfront Scenario Planner] finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
+<!--Audited: 04/2024-->
+
+[!DNL Scenario Planner] har ytterligare licenskrav. Mer information om [!DNL Workfront Scenario Planner] finns i [Översikt [!DNL Scenario Planner] Översikt](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 Utan rätt åtkomst eller behörigheter kanske du inte kan visa [!UICONTROL Scenarios]-området för [!DNL  Adobe Workfront] eller hantera planer eller initiativ för din organisation. I hanteringen av planer och initiativ ingår att skapa, redigera och ta bort dem.
-
->[!IMPORTANT]
->
->När du använder [!UICONTROL Scenarios] kan du bara visa och hantera planer som du har skapat. Om du vill att andra användare ska kunna visa eller hantera de planer du har skapat måste du göra följande:
->
->* Skicka en länk till din plan till andra användare
->* Dela planen med andra användare
->
->  Mer information om hur du delar en plan finns i [Dela en plan i  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
->
->När en användare inaktiveras har deras planer ingen ägare och går inte att komma åt om de inte tidigare delats med en länk.
 
 ## Åtkomst krävs för att visa och använda [!DNL Adobe Workfront Scenario Planner]
 
@@ -43,13 +34,7 @@ Du måste se till att alla följande villkor uppfylls innan du kan komma åt [!D
 
    Beroende på om du använder den nya eller nuvarande Workfront-planen måste din organisation ha något av följande:
 
-   * För de nya planerna måste din organisation ha något av följande:
-
-      * Planen [!UICONTROL Ultimate] [!DNL Workfront]. Scenarioplanen ingår i Ultimate-planen.
-
-        eller
-
-      * Planen [!UICONTROL Select] eller [!UICONTROL Prime] [!DNL Workfront], förutom att köpa en separat [!DNL Scenario Planner]-licens.
+   * För de nya planerna måste din organisation ha planen [!UICONTROL Ultimate] [!DNL Workfront]. Scenarioplaneraren ingår bara i planen [!UICONTROL Ultimate].
 
    * För de aktuella Workfront-planerna måste din organisation ha båda följande:
 
@@ -133,7 +118,20 @@ Din [!DNL Workfront]-administratör måste tilldela dig följande åtkomst så a
 
 Åtkomstnivåer fungerar tillsammans med behörigheter i [!DNL Workfront] för att ge dig insyn i planer och initiativ som du inte har skapat. Förutom att du måste ha rätt åtkomstnivå för att få åtkomst till [!DNL Scenario Planner] måste du också ha rätt behörighet till planen som du vill visa eller hantera, om du inte är den som har skapat planen.
 
-Som standard har du bara tillgång till planer som du har skapat. Om du vill visa planer som andra användare har skapat måste de dela sina planer med dig. Mer information om delningsplaner finns i [Dela en plan i  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+Alla användare, inklusive systemadministratörer, har endast åtkomst till planer som de har skapat.
 
-Om en användare delar en länk till en plan utan att också dela planen, kan du begära behörigheter till planen. Mer information om hur du begär behörigheter till planer finns i [Begär åtkomst till en plan i  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+Om du vill visa planer som andra användare har skapat måste de dela sina planer med dig på följande sätt:
+
+* Dela planen med dig
+
+  Mer information om delningsplaner finns i [Dela en plan i  [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+
+* Skicka en länk till en plan som de har skapat
+
+  Om en användare delar en länk till en plan utan att också dela planen, kan du begära behörigheter till planen. Mer information om hur du begär behörigheter till planer finns i [Begär åtkomst till en plan i  [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md).
+
+>[!NOTE]
+>
+>När en användare inaktiveras har deras planer ingen ägare och går inte att komma åt om de inte tidigare delats med en länk.
+
 

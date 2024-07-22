@@ -7,33 +7,28 @@ description: Målanpassningen säkerställer att alla i organisationen är på s
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
 
 # Översikt över måljustering i Adobe Workfront-mål
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
-> 
+>
 >* För den nya planen och licensstrukturen:
+>
+>   * Den ultimata Workfront-planen
 >    
->   * En Ultimate-plan
->        
->     eller
->        
->   * Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna.
->       Mer information finns i [Adobe Workfront priser och paketering](https://www.workfront.com/plans).
->      
 >* För aktuell plan och licensstruktur:
->    
->   * En Pro eller senare [Adobe Workfront-plan]
+>
+>   * En plan för Pro eller senare Workfront
 >   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
->    
+>
 >Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 > 
 >Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).

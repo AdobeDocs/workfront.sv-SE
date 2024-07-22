@@ -6,18 +6,16 @@ description: När du har kopplat projekt och initiativ kan du hantera deras resu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # Visa rolltilldelning för projekt och initiativ i uppgiftslistan
 
->[!IMPORTANT]
->
->Din organisation måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] så att du kan visa initialinformation för ett projekt. Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i [Åtkomst som behövs för att använda  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+<!--Audited: 07/2024-->
 
 När du har kopplat projekt och initiativ kan du hantera deras resurstilldelning sida vid sida för att säkerställa att de matchar. På så sätt undviker du att överallokera eller underutnyttja dem.
 
@@ -27,36 +25,43 @@ Allmän information om hur du förenar resurser mellan projekt och initiativ, in
 
 ## Åtkomstkrav
 
-Du måste göra följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] eller högre</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Aktuell: [!UICONTROL Business] eller högre</p>
+   <p>Nytt: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licens*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
+   <td> <p>Nytt: Ljus eller högre</p> 
+   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produkt* </td> 
+   <td> 
+   <p>För nuvarande Workfront-planer: </p>
+   <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om åtkomst och behörigheter för [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>[!UICONTROL View] eller högre åtkomst till projekt </p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!UICONTROL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!UICONTROL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Åtkomstnivå </td> 
+   <td> <p>[!UICONTROL View] eller högre åtkomst till [!UICONTROL Projects]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>[!UICONTROL View] eller högre behörighet till projektet</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i [!DNL Scenario Planner]</a>.</p> <p>Mer information om hur du begär ytterligare åtkomst till ett projekt finns i <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>. </p> </td> 
+   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <p>[!UICONTROL View] behörigheter till ett projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa rolltilldelning för projekt och initiativ i uppgiftslistan
 

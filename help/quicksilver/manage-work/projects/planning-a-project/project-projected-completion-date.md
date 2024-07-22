@@ -7,9 +7,9 @@ description: Det planerade slutförandedatumet är en beräknad realtidsindikato
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: d71ee30378c39975366f4f257e3f7b17aba0c0ae
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ I följande avsnitt beskrivs hur det planerade slutförandedatumet bestäms för
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 
 <table style="table-layout:auto"> 
@@ -36,7 +36,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
    <td> 
    <p>Nytt: 
    <ul><li><p>Medarbetare eller senare för att visa det planerade slutförandedatumet i en rapport</p></li> <li><p>En standardlicens för att skapa en rapport</p></li> </ul>
@@ -47,7 +47,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Åtkomstnivå</td> 
    <td> <p>Visa eller ge högre åtkomst till projekt</p> <p>Du måste ha behörighet att redigera rapporter, instrumentpaneler och kalendrar för att skapa en rapport</p> <p>Du måste ha behörighet att redigera filter, vyer och grupperingar för att kunna skapa en rapport eller ändra en listvy</p>  </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om informationen i den här tabellen finns i [Åtkomstkraven i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hur Adobe Workfront fastställer det planerade slutförandedatumet
 
@@ -85,7 +87,7 @@ Vilka kriterier som används för att bestämma det planerade slutförandedatume
   >När en uppgifts föregångare har ett faktiskt slutförandedatum får de beroende aktiviteterna ett planerat slutförandedatum enligt följande scenario:
   >
   >
-  >Om projektet har Aktivitet A, Aktivitet B och Aktivitet C, och Aktivitet B är efterföljare till Aktivitet A, Aktivitet C är efterföljare till Aktivitet B och ett Faktiskt slutförandedatum läggs till i Aktivitet A, beräknas det planerade slutförandedatumet automatiskt om för Aktivitet B (förutsatt att **Uppdateringstyp** för projektet är inställt på Automatisk och Vid ändring), men det beräknas inte om för Aktivitet C. beräknar Workfront det planerade slutförandedatumet för aktiviteter som ligger en nivå upp eller ned från den uppdaterade aktiviteten, av prestandaskäl. 
+  >Om projektet har Aktivitet A, Aktivitet B och Aktivitet C, och Aktivitet B är efterföljare till Aktivitet A, Aktivitet C är efterföljare till Aktivitet B och ett Faktiskt slutförandedatum läggs till i Aktivitet A, beräknas det planerade slutförandedatumet automatiskt om för Aktivitet B (förutsatt att **Uppdateringstyp** för projektet är inställt på Automatisk och Vid ändring), men det beräknas inte om för Aktivitet C. beräknar Workfront det planerade slutförandedatumet för aktiviteter som ligger en nivå upp eller ned från den uppdaterade aktiviteten, av prestandaskäl.
 
 * **Problem:** Utgåvan av det beräknade slutförandedatumet är från början inställd på att matcha det planerade slutförandedatumet för utleverans.
 
@@ -119,9 +121,9 @@ Så här skapar du en problemrapport som innehåller det planerade slutföranded
 1. Välj fliken **Kolumner (Visa)**.
 1. Klicka på **Lägg till kolumn** och börja skriva **Planerat slutförandedatum** i fältet **Visa i den här kolumnen:**.
 
-1. Markera den när den visas i listan, under objektet **Utgåva** . 
+1. Markera den när den visas i listan, under objektet **Utgåva** .
 1. Klicka på **Spara + Stäng**.
 
-   Kolumnen **Planerat slutförandedatum** i rapporten fylls i. 
+   Kolumnen **Planerat slutförandedatum** i rapporten fylls i.
 
    ![](assets/issue-projected-completion-date-in-view-nwe-350x148.png)

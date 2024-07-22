@@ -7,9 +7,9 @@ description: Adobe Workfront-administratören måste se till att vissa villkor u
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -48,10 +48,7 @@ Adobe Workfront-administratören måste se till att alla följande villkor uppfy
 
 Beroende på vilken Workfront-plan ditt företag är baserat på finns följande scenarier:
 
-* Om ditt företag har en ny Workfront-plan måste du ha något av följande:
-
-   * En Ultimate Workfront-plan. Workfront-mål ingår i den här planen.
-   * A Select or higher Workfront plan and a separate Workfront Goals license.
+* Om ditt företag har en ny Workfront-plan måste du ha en Ultimate Workfront-plan. Workfront-mål ingår endast i den här planen.
 
 * Om ditt företag har den aktuella Workfront-planen måste din organisation köpa ytterligare en licens, utöver Workfront-licensen, för att dina användare ska kunna komma åt Workfront mål.
 

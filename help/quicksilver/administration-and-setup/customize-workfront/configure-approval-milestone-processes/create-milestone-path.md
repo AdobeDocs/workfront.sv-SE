@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Som Adobe Workfront-administratör kan du skapa milstolpar som sedan kan användas i alla projekt i systemet. De ändringar du gör i milstolpbanorna i det här området påverkar hela Workfront-systemet.
-author: Alina, Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

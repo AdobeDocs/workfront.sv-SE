@@ -7,7 +7,7 @@ description: Adobe Workfront fastställer förloppsstatusen för en aktivitet ge
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Följande kriterier bestämmer förloppsstatusen för en uppgift:
   </tr> 
   <tr> 
    <td> <p><strong>Bakom</strong> </p> </td> 
-   <td> <p>En aktivitet anses ligga <strong>bakom</strong> när det beräknade slutförandedatumet är senare eller lika med det planerade slutförandedatumet och tidigare än det planerade slutförandedatumet.</p> <p>Det planerade slutförandedatumet är en realtidsvy över när aktiviteten ska slutföras baserat på tidigare förlopp. Även om aktiviteten startades för sent anses den inte vara försenad ännu, eftersom de planerade och planerade slutförandedatumen fortfarande ligger kvar i framtiden och aktiviteten kan fortfarande slutföras i tid.</p> <p>Obs! Statusen <strong>Bakom</strong> och <strong>Vid risk</strong> är nästan identiska. <strong>Vid risk</strong> indikerar dock att det finns vissa obligatoriska aktivitetsbegränsningar (Måste sluta på, Måste starta på, fasta datum) på ett eller båda de planerade datumen. Om det inte finns några tvingande begränsningar för aktiviteten är de beräknade datumen samma som de beräknade datumen och återspeglar systemberäkningen för slutförandedatumet baserat på aktivitetens aktuella förlopp. Aktiviteten anses inte vara sen ännu eftersom de planerade och planerade slutförandedatumen fortfarande ligger kvar i framtiden och aktiviteten kan fortfarande slutföras i tid.<br>Mer information om Planerade och beräknade datum finns i <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Differentiera mellan beräknade och beräknade datum </a>.</p> </td> 
+   <td> <p>En aktivitet anses ligga <strong>bakom</strong> när det beräknade slutförandedatumet är senare eller lika med det planerade slutförandedatumet och tidigare än det planerade slutförandedatumet.</p> <p>Det planerade slutförandedatumet är en realtidsvy över när aktiviteten ska slutföras baserat på tidigare förlopp. Även om aktiviteten startades för sent anses den inte vara försenad ännu, eftersom de planerade och planerade slutförandedatumen fortfarande ligger kvar i framtiden och aktiviteten kan fortfarande slutföras i tid.</p> <p>Obs! Statusen <strong>Bakom</strong> och <strong>Vid risk</strong> är nästan identiska. <strong>Vid risk</strong> indikerar dock att det finns vissa obligatoriska aktivitetsbegränsningar (Måste sluta på, Måste starta på, fasta datum) på ett eller båda de planerade datumen. Om det inte finns några tvingande begränsningar för aktiviteten är de beräknade datumen samma som de beräknade datumen och återspeglar systemberäkningen för slutförandedatumet baserat på aktivitetens aktuella förlopp. Aktiviteten anses inte vara sen ännu eftersom de planerade och planerade slutförandedatumen fortfarande ligger kvar i framtiden och aktiviteten kan fortfarande slutföras i tid.<br>Mer information om Planerade och beräknade datum finns i <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Översikt över beräknade och beräknade datum </a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Sena</strong> </p> </td> 

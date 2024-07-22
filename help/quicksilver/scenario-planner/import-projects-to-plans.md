@@ -6,9 +6,9 @@ description: Du kan importera befintliga projekt till en plan. De importerade pr
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 844dddec944b6cfb0957eecf09c2980e9d0577cc
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1587'
 ht-degree: 0%
 
 ---
@@ -27,36 +27,43 @@ Du kan importera befintliga projekt till en plan. De importerade projekten omvan
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] eller högre</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Aktuell: [!UICONTROL Business] eller högre</p>
+   <p>Nytt: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licens*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
+   <td> <p>Nytt: Ljus eller högre</p> 
+   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produkt* </td> 
+   <td> 
+   <p>För nuvarande Workfront-planer: </p>
+   <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om åtkomst och behörigheter för [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Åtkomstnivå </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
-   <td> <p>[!UICONTROL Manage] behörigheter till en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i scenarioplanen</a>.</p> </td> 
+   <td> <p>Objektbehörigheter </p> </td> 
+   <td> <p>[!UICONTROL Manage] behörigheter till en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du importerar projekt till planer som nya initiativ
 
@@ -126,8 +133,6 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
  </tbody> 
 </table>
 
-
-
 ## Importera projekt till en plan
 
 >[!IMPORTANT]
@@ -147,7 +152,7 @@ När du importerar ett projekt till en plan importeras viss projektinformation o
 >  Mer information om hur publiceringsinitiativen påverkar de länkade projekten finns i [Uppdatera eller skapa projekt genom att publicera initiativen i scenarioplanen](../scenario-planner/publish-scenarios-update-projects.md).
 >
 
-1. Klicka på **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på [!DNL Scenarios] för att komma åt [!DNL Scenario Planner].
+{{step1-to-scenario-planner}}
 
 1. Klicka på namnet på en plan där du vill importera projekt.
 1. Klicka på **[!UICONTROL New Initiative]** och sedan på **[!UICONTROL Import Projects]**.

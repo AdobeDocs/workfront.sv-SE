@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -43,15 +43,15 @@ Följande är fördelar med [!DNL Workfront Scenario Planner] som hjälper dig a
 
 ## Hitta [!DNL Workfront Scenario Planner] i Workfront
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **[!UICONTROL Scenarios]**.
+{{step1-to-scenario-planner}}
 
-   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
+<!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   [!DNL Workfront Scenario Planner] visas.
+[!DNL Workfront Scenario Planner] visas.
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Workfront Scenario Planner] innehåller de planer du har skapat. Om du vill se en annan användares plan måste han/hon dela URL:en för den planen med dig.
+>[!IMPORTANT]
+>
+>[!DNL Workfront Scenario Planner] innehåller de planer du har skapat. Om du vill se en annan användares plan måste han/hon dela URL:en för den planen med dig.
 
 1. (Valfritt) Klicka på namnet på en plan för att öppna den och se informationen.
 

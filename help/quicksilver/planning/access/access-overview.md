@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Det finns begränsningar för licens- och delningsbehörighet för att använda 
 
 ## Åtkomstkrav
 
-Du måste ha följande inställningar för att kunna använda Adobe Workfront Planning:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto">
  <col>
@@ -88,6 +88,8 @@ Du måste ha följande inställningar för att kunna använda Adobe Workfront Pl
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Dela planeringsområdet på huvudmenyn med andra

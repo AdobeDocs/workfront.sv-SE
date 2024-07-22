@@ -6,9 +6,9 @@ description: Du kan ta bort planer som du har skapat. Du kan inte ta bort planer
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '478'
 ht-degree: 0%
 
 ---
@@ -19,36 +19,43 @@ Du kan ta bort planer som du har skapat. Du kan inte ta bort planer som delas me
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] eller högre</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Aktuell: [!UICONTROL Business] eller högre</p>
+   <p>Nytt: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> licens*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] licens*</p> </td> 
+   <td> <p>Nytt: Ljus eller högre</p> 
+   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Produkt</b> </td> 
-   <td> <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om hur du hämtar [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Produkt* </td> 
+   <td> 
+   <p>För nuvarande Workfront-planer: </p>
+   <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om åtkomst och behörigheter för [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
-   <td> <p>[!UICONTROL Edit] åtkomst eller högre till [!DNL Scenario Planner]</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td>Åtkomstnivå </td> 
+   <td> <p>[!UICONTROL Edit] åtkomst till [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Objektbehörigheter</strong> </p> </td> 
+   <td> <p>Objektbehörigheter </p> </td> 
    <td> <p>[!UICONTROL Manage] behörigheter till en plan</p> <p>Mer information om hur du begär ytterligare åtkomst till en plan finns i <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Begär åtkomst till en plan i [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ta bort planer
 
@@ -74,9 +81,9 @@ Du kan ta bort en plan eller ta bort ett scenario i en plan.
 
 Så här tar du bort en plan:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
+{{step1-to-scenario-planner}}
 
-   En lista över planer visas.
+En lista över planer visas.
 
 1. Klicka på namnet på en plan för att öppna den.
 1. Klicka på **[!UICONTROL More menu]** ![](assets/more-menu.png) till höger om plannamnet och klicka sedan på **[!UICONTROL Delete]** > **[!UICONTROL Yes, delete it]**.
