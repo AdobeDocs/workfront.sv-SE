@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Hantera timtyper
 description: Du kan associera timtyper med timposterna. Timtyper är etiketter som du använder för att definiera timposterna.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
 
 # Hantera timtyper
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ Det finns två uppsättningar timtyper:
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p>
+   <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Inbyggda timtyper
 
@@ -85,7 +92,7 @@ Som [!DNL Workfront]-administratör kan du skapa nya timtyper för din organisat
 
 Så här skapar du nya timtyper:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]**.
 
@@ -131,7 +138,7 @@ Inaktivering av timtyper döljer timtyperna var som helst i [!DNL Workfront] dä
 
 Så här inaktiverar du en timtyp:
 
-1. Klicka på **[!UICONTROL Setup]** i det övre högra hörnet av [!DNL Adobe Workfront] i det globala navigeringsfältet.
+{{step-1-to-setup}}
 
 1. Expandera **[!UICONTROL Timesheet & Hours Preferences]** och klicka sedan på **[!UICONTROL Hour Types]**.
 

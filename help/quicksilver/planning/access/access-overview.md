@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,9 @@ Det finns begränsningar för licens- och delningsbehörighet för att använda 
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -52,14 +54,14 @@ Det finns begränsningar för licens- och delningsbehörighet för att använda 
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p>
+   <p>Valfritt för att visa Workfront planeringsinformation</p>
    <p>Om du vill skapa arbetsytor måste du ha följande licens:</p>
    <ul>
    <li>
    Nytt: Standard
    </li>
    <li>
-   Aktuell: Arbetare eller högre
+   Aktuell: Planera
    </li>
    </ul>
   </td>
@@ -118,7 +120,7 @@ Det finns inga åtkomstkontroller för Workfront Planning.
 
 Användare med alla typer av licenser har tillgång till Workfront Planning.
 
-Mer information om att bevilja åtkomst i Workfront finns i [Skapa och ändra anpassade åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Bevilja behörigheter
 

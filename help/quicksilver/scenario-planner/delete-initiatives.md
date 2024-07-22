@@ -6,9 +6,9 @@ description: Du kan ta bort initiativ för en plan som du har skapat eller för 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -96,9 +96,9 @@ En lista över planer visas.
 
 ### Ta bort satsningar {#delete-initiatives-in-bulk}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) och sedan på [!UICONTROL Scenarios].
+{{step1-to-scenario-planner}}
 
-   En lista över planer visas.
+En lista över planer visas.
 
 1. Klicka på namnet på en plan för att öppna den och leta sedan reda på det initiativ du vill ta bort.
 1. Markera rutorna till vänster om de initiativ som du vill ta bort, klicka sedan på **[!UICONTROL Delete]** på menyn som visas längst ned i planen och klicka sedan på **[!UICONTROL Yes, delete them]**.
