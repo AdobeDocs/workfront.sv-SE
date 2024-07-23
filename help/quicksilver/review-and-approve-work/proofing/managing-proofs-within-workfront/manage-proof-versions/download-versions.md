@@ -6,9 +6,9 @@ description: Du kan hämta en enstaka version eller alla versioner av ett korrek
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan hämta en enstaka version eller alla versioner av ett korrektur.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Ladda ned en provversion
 

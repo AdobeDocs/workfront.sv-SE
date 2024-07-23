@@ -6,9 +6,9 @@ description: Ett korrektur arkiveras automatiskt när det inte öppnas på 60 da
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '209'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Ett korrektur arkiveras automatiskt när det inte öppnas på 60 dagar i följd. Arkiverade korrektur visas fortfarande i dokumentlistan på samma sätt som innan beviset arkiverades.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -38,6 +40,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan- eller korrekturåtkomst du har.
+
++++
 
 ## Återställa ett arkiverat korrektur
 

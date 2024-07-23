@@ -6,9 +6,9 @@ description: Du kan använda rapporten för godkännande av korrektur för att v
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan använda rapporten för godkännande av korrektur för att visa information om korrektur i din miljö.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -46,9 +48,12 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Använd rapporten för godkännande av korrektur
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Rapporter**.
+{{step1-to-reports}}
+
 1. Klicka på **Ny rapport** och rulla sedan för att välja **Korrekturgodkännande**.
 
    ![](assets/proof-approval-report.png)

@@ -6,9 +6,9 @@ description: Du kan skriva ut en korrektursammanfattning, spara den som PDF elle
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '758'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan skriva ut en korrektursammanfattning, spara den som PDF eller exportera den som en XLS-fil eller PDF-fil som är optimerad för Adobe Reader.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skriva ut en korrektursammanfattning eller spara den som en PDF-fil
 

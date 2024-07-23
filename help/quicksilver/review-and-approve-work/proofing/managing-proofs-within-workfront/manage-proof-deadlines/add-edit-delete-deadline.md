@@ -7,9 +7,9 @@ description: Du kan justera tidsgränsen för korrektur som du skapar eller äge
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 23010732-dab7-461d-876a-56f9928a2a23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Du kan justera tidsgränsen för korrektur som du skapar eller äger.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Lägga till, redigera eller ta bort en deadline för en fas
 

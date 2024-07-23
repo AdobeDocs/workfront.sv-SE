@@ -6,9 +6,9 @@ description: Du kan konfigurera vissa åtkomst- och prenumerationsinställningar
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '960'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan konfigurera vissa åtkomst- och prenumerationsinställningar för enskilda korrektur, t.ex. om användare ska behöva logga in och om användare ska kunna prenumerera på korrekturet. Du kan ställa in åtkomst- och prenumerationsinställningar för ett korrektur medan du skapar det, eller så kan du ställa in dem för ett korrektur som redan finns i Workfront.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Konfigurera åtkomst- och prenumerationsinställningar när du skapar ett bevis
 

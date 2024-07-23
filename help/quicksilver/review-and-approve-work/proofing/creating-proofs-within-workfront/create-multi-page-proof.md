@@ -6,9 +6,9 @@ description: Du kan kombinera flera filer till ett enda flersidigt korrektur. Gr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan kombinera flera filer till ett enda flersidigt korrektur. Granskarna kan använda navigeringsverktygen i korrekturläsaren för att bläddra igenom sidorna i ett flersidigt korrektur.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill veta vilken plan, licens eller behörighetsprofil du har.
+
++++
 
 ## Skapa ett korrektur för flera sidor
 

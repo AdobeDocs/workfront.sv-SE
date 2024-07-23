@@ -6,9 +6,9 @@ description: Du kan generera ett nytt interaktivt korrektur eller en ny version 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ I ett interaktivt korrektur kan granskarna navigera och interagera som vanligt m
 >Se till att webbplatsen eller det interaktiva innehållet är tillgängligt för dem som ska granska den. De har bara tillgång till det i korrekturläsningen om de även kan använda det på internet.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skapa ett interaktivt korrektur för en webbplats eller annat webbinnehåll
 

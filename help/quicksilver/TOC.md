@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 99299e2717b0603d53b394c123a86f4e56c4c1c5
+source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
 workflow-type: tm+mt
 source-wordcount: '14320'
 ht-degree: 0%
@@ -1820,8 +1820,8 @@ ht-degree: 0%
          * [Ta bort godkännare eller granskare från en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Skapa en godkännandemall för resurser och dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
-      * Godkänn och granska resurser och dokument {#review-and-approve-documents}
-         * [Godkänn och granska dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+      * Granska och godkänn resurser och dokument {#review-and-approve-documents}
+         * [Granska och godkänna dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [Granska ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Godkänn ett dokument](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * Korrektur {#proofing}

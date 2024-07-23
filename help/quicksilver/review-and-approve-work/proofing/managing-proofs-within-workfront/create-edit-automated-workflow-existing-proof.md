@@ -6,9 +6,9 @@ description: Automatiska arbetsflöden gör det enklare att hantera granskningsp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1236'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Automatiska arbetsflöden gör det enklare att hantera granskningsprocessen om p
 Mer information om hur du skapar ett automatiserat arbetsflöde för ett nytt korrektur finns i [Skapa ett avancerat korrektur med ett automatiserat arbetsflöde](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -47,6 +49,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skapa eller redigera ett automatiserat arbetsflöde för ett befintligt korrektur:
 

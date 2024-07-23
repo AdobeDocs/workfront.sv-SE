@@ -6,9 +6,9 @@ description: Du kan generera ett korrektur för interaktivt innehåll som inte f
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan generera ett korrektur för interaktivt innehåll som inte finns på webbplatsen och som lagras i en ZIP-fil. Exempel på den här typen av webbinnehåll är bl.a. annonser med direktuppspelad video eller ljud, HTML-animeringar och interaktiva banners.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skapa ett korrektur för interaktivt innehåll i en ZIP-fil
 

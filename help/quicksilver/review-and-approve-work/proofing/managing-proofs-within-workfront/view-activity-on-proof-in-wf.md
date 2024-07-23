@@ -6,9 +6,9 @@ description: Du kan visa aktivitet som har inträffat i korrekturet. Aktiviteten
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan visa aktivitet som har inträffat i korrekturet. Aktiviteten omfattar senaste ändringar av beviset, inklusive datum och beskrivning av aktiviteten samt användaren som utförde åtgärden.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Visa aktivitet på ett korrektur i Adobe Workfront
 

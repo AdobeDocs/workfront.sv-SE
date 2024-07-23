@@ -6,9 +6,9 @@ description: Du kan generera ett nytt statiskt korrektur eller en ny version av 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Du kan generera ett nytt statiskt korrektur eller en ny version av ett befintlig
 Tänk på följande när du skapar statiska korrektur för en webbplats eller annat webbinnehåll:
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -47,6 +49,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skapa ett statiskt korrektur för en webbplats eller annat webbinnehåll
 

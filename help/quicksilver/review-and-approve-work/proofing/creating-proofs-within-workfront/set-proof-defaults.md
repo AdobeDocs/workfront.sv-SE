@@ -6,9 +6,9 @@ description: Du kan definiera standardinställningar för personligt korrektur s
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan definiera standardinställningar för personligt korrektur som gäller för korrektur som du skapar. Dessa standardvärden används varje gång du genererar ett första provtryck eller överför en ny provversion i Workfront.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -42,9 +44,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
++++
+
 ## Konfigurera standardinställningar för personligt korrektur
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Korrektur**.
+{{step1-to-proofing}}
 
 1. Klicka på din avatar i det övre högra hörnet och välj **Personliga inställningar**.
 1. Välj fliken **Korrekturinställningar** och ange sedan följande information:

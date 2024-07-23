@@ -6,9 +6,9 @@ description: Under gransknings- och godkännandeprocessen kan du skicka ett medd
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Under gransknings- och godkännandeprocessen kan du skicka ett meddelande till e
 Du kan välja mellan att skicka ett generiskt påminnelsemeddelande eller att skicka ett anpassat meddelande till en eller alla användare som är kopplade till en viss fas.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skicka e-postmeddelanden till användare vid korrektur
 

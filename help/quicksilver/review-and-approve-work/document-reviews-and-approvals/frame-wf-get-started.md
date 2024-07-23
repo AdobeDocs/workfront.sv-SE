@@ -1,20 +1,20 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Kom igång med granskning och godkännande av resurser med Frame.io
+title: Kom igång med granskning och godkännande av material med Frame.io
 description: Läs mer om den formella granskningen och godkännandeprocessen i Workfront och Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 4f54504cc0efdee532df49aacaf7c651178847e6
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
 
 ---
 
-# Kom igång med granskning och godkännande av resurser med Frame.io
+# Kom igång med granskning och godkännande av material med Frame.io
 
 Det nya arbetsflödet för granskning och godkännande av resurser bygger på en nära integrering mellan Workfront och Frame.io. Integreringen tar det bästa av det varje produkt har att erbjuda och kombinerar dem för att skapa en upplevelse som gör att alla som arbetar med innehållsframtagning kan arbeta med sina favoritverktyg, samtidigt som de har tillgång till kommentarer, filer och statusuppdateringar - som synkroniseras i båda systemen i realtid.
 

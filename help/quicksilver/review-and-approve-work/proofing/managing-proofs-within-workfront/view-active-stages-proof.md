@@ -6,9 +6,9 @@ description: Du kan visa de aktuella aktiva stegen på ett korrektur som innehå
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan visa de aktuella aktiva stegen på ett korrektur som innehåller ett automatiserat arbetsflöde.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Visa aktiva faser i ett korrektur
 

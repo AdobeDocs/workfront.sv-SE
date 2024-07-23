@@ -7,9 +7,9 @@ description: Du kan ta bort en deadline för den scen som granskaren är på.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 80daeadb-5780-4f83-b757-54146a4dcd6e
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 Du kan ta bort en deadline för den scen som granskaren är på.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Ta bort enskilda deadlines för granskare
 

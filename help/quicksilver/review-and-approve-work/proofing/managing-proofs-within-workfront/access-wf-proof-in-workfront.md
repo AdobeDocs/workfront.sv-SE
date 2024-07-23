@@ -7,9 +7,9 @@ description: Du kan snabbt komma åt ditt Workfront Proof-konto direkt från Ado
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ Kontakta Workfront-administratören om du inte har åtkomst till Workfront Proof
 
 ## Öppna Workfront Proof från Workfront {#access-workfront-proof-from-workfront}
 
-Som standard kan endast användare med administratörsbehörighet i Workfront få åtkomst till Workfront Proof enligt beskrivningen i det här avsnittet. 
+Som standard kan endast användare med administratörsbehörighet i Workfront få åtkomst till Workfront Proof enligt beskrivningen i det här avsnittet.
 
-1. Klicka på Korrektur ![](assets/proofing-main-menu.png) på huvudmenyn ![](assets/main-menu-icon.png).
+{{step1-to-proofing}}
 
-   Du loggas automatiskt in på ditt Workfront Proof Premium-konto.
+Du loggas automatiskt in på ditt Workfront Proof Premium-konto.
 
 Information om vilka funktioner som är tillgängliga efter att du har loggat in på ditt Workfront Proof Premium-konto finns på [Workfront hjälpwebbplats](https://support.workfront.com).
 

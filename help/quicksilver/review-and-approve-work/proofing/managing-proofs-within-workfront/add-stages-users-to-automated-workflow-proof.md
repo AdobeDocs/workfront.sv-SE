@@ -6,9 +6,9 @@ description: Om du är korrekturägare kan du lägga till faser i ett befintligt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Om du är korrekturägare kan du lägga till faser i ett befintligt automatiserat arbetsflöde.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Lägga till faser och användare i ett automatiserat arbetsflöde
 

@@ -6,9 +6,9 @@ description: När du arbetar med ett korrektur, oavsett om du är en Adobe Workf
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '989'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ När du arbetar med ett korrektur, oavsett om du är en Adobe Workfront-använda
 >Dessa meddelanden skiljer sig från de e-postaviseringar som du kan få om flödet av korrektur mellan granskare. De skiljer sig också från e-postaviseringsinställningarna som du kan konfigurera i Workfront. 
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -49,6 +51,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Hantera meddelanden för korrekturkommentarer och beslut
 

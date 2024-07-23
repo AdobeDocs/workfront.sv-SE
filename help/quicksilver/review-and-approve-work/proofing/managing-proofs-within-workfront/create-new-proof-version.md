@@ -6,9 +6,9 @@ description: Det kan vara en stor utmaning att hantera feedback i flera versione
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1734'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Tänk på följande när du skapar en ny version av ett korrektur:
 >Om ett korrektur skapas i Adobe Workfront måste alla nya versioner som skapas för det korrekturet också skapas i Workfront. Du kan inte skapa en ny version av ett korrektur i Workfront Proof om det beviset har skapats i Workfront.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -58,6 +60,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Skapa en ny version av ett korrektur i Workfront
 
@@ -228,7 +232,7 @@ Om det fanns ett eget ämne/meddelande i den tidigare versionen av korrekturet v
 
   >[!NOTE]
   >
-  > Detta påverkas inte av något anpassat standardämne/standardmeddelande som sparats i dina personliga inställningar.
+  >Detta påverkas inte av något anpassat standardämne/standardmeddelande som sparats i dina personliga inställningar.
 
 Om du har ett standardämne och ett standardmeddelande sparat i dina personliga inställningar påverkar detta vilket meddelande som visas som standard på sidan Ny version:
 

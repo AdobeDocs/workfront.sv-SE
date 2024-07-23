@@ -6,9 +6,9 @@ description: Du kan dela korrekturdokument i Adobe Workfront genom att dela doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
-source-git-commit: 5c0cd18074cffdf0a4fe15affaf61add7314a83a
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1233'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Om du delar korrekturet, enligt beskrivningen i den här artikeln, har mottagare
 >Du kan också dela ett korrektur inifrån korrekturläsaren. Instruktioner finns i [Dela ett korrektur från korrekturläsaren](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -55,6 +57,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Dela en korrekturlänk
 
