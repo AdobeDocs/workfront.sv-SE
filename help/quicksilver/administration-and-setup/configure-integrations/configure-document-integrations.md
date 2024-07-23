@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '999'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Du kan konfigurera följande integreringar för hantering av dokument:
 
   För de aktuella planerna krävs en [!UICONTROL Pro] [!DNL Workfront]-plan eller högre för att den här funktionen ska kunna användas. Den här funktionen är tillgänglig för alla planer för nya planer. Mer information om olika tillgängliga planer finns i [Workfront-planer](https://www.workfront.com/plans).
 
-Dessutom kan du förbättra dokumentupplevelsen för [!DNL Workfront] med ett DAM-system (Digital Asset Management) eller med DAM-integreringar från tredje part. Administratörer måste aktivera de här funktionerna för att användare ska kunna länka tjänsten till sitt [!DNL Workfront]-konto. Mer information om Workfront DAM finns i [Hantera dokument med [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+Dessutom kan du förbättra dokumentupplevelsen av [!DNL Workfront] med en DAM-integrering från tredje part. Administratörer måste aktivera de här funktionerna för att användare ska kunna länka tjänsten till sitt [!DNL Workfront]-konto.
 
 ## Konfigurera integreringar för att hantera dokument
 
@@ -197,8 +197,6 @@ När den anpassade dokumentintegreringen har skapats kan du göra den tillgängl
 1. Klicka på **[!UICONTROL Save]** för att skapa integreringen.
 
 ## Använd dokumentintegreringar
-
-Mer information om hur användare kan använda [!DNL Workfront DAM] finns i [Hantera dokument med  [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 Mer information om hur användare kan använda korrektur finns i [Skapa korrektur](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 

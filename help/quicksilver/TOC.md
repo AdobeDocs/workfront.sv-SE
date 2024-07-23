@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '14320'
+source-wordcount: '14277'
 ht-degree: 0%
 
 ---
@@ -792,7 +792,6 @@ ht-degree: 0%
       * [Skapa OAuth2-program för Workfront-integreringar](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [Visa och hantera anpassade OAuth2-program](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [Konfigurera JumpSeat-integrering](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-      * [Hjälp om Adobe Workfront DAM](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
    * Ritytor {#blueprints}
       * [Utkast](administration-and-setup/blueprints/blueprints.md)
       * [Översikt över utkast](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1132,12 +1131,6 @@ ht-degree: 0%
       * [Ordna dokument](documents/organizing-documents/organize-documents.md)
       * [Skapa dokumentmappar](documents/organizing-documents/create-documents-folder.md)
       * [Skapa och hantera smarta mappar](documents/organizing-documents/create-manage-smart-folders.md)
-   * Workfront DAM i Adobe Workfront {#wf-dam-within-workfront}
-      * [WORKFRONT DAM i ADOBE WORKFRONT](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-      * [Aktivera Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-      * [Hantera dokument med Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-      * [Adobe Workfront rolltyper för licensiering kontra rolltyper för Adobe Workfront DAM](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Hjälp om Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront- och Experience Manager Assets-integreringar {#wf-aem-integrations}
       * [Workfront- och Experience Manager Assets-integreringar](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront för Experience Manager förbättrad anslutning {#wf-aem-enhanced-connector}
