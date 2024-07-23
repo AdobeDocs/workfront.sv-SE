@@ -7,7 +7,8 @@ description: Du kan välja om du vill få nya Workfront-funktioner månadsvis el
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
+source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -75,7 +76,7 @@ Ett API-jokertecken finns också i affärsreglerna. Du kan använda `$$ISAPI` f�
 
 Några enkla affärsregelscenarier är:
 
-* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Den här formeln kan anges som: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Användare kan inte lägga till nya utgifter under den sista veckan i februari. Den här formeln kan anges som: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
 * Användare kan inte redigera ett projekt som har statusen Fullständigt. Den här formeln kan anges som: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 Ett scenario med kapslade IF-satser är:
