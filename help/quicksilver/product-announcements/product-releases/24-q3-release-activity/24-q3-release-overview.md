@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '1849'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Affärsregler är nu tillgängliga</a></p>
                         [!BADGE In production ]{type=Informative}
@@ -74,6 +74,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Endast tillgängligt för organisationer med den nya Ultimate-planen.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -278,13 +279,12 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Den här funktionen har tillfälligt tagits bort från produktionen för kunder som inte har den snabba versionen.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Vi har lagt till samma funktioner för mer relevanta smarta tilldelningar i fältet Uppdrag i rutan Ny uppgift när en uppgift läggs till i ett projekt och i en projektuppgiftslista.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -296,16 +296,15 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">Den här funktionen har tillfälligt tagits bort från produktionen för kunder som inte är med i snabbversionsschemat.</span>&lt;/
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -317,7 +316,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                                 <p>Produktion för snabb lansering: Med version 24.5 (16 maj 2024)</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024)</p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)</p>
                             </li>
                         </ul>
                     </td>

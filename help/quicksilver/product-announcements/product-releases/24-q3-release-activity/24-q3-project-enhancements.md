@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -27,18 +27,32 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 För att göra det enklare för dig att uppdatera uppgifter och ärenden har vi nu lagt till fälten Genomför datum och villkor som alternativ att lägga till i åtgärdshuvuden och utgivningsrubriker och Detaljer i en layoutmall. Användarna kan nu uppdatera dessa fält från sidhuvudet eller detaljavsnittet på en sida när de tilldelas den ändrade layoutmallen. Före den här förbättringen kunde du inte lägga till villkor och datum för implementering av uppgifter och utgåvor när du anpassade rubrikerna.
 
-Mer information om hur du uppdaterar implementeringsdatum och villkor finns i följande artiklar:
+Mer information om hur du uppdaterar datum och villkor för implementering finns i följande artiklar:
 
 * [Uppdatera villkor för aktiviteter och problem](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Uppdatera implementeringsdatum för aktiviteter och ärenden](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 [Visa en videodemonstration av den här funktionen.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
+## Fler relevanta tilldelningar har lagts till i arbetsflödet Ny uppgift
+
+>[!NOTE]
+>
+>Förhandsversion: 13 februari 2024; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024).
+
+Vi har lagt till samma funktionalitet för mer relevanta smarta tilldelningar i uppdragsfältet i följande områden:
+
+* Rutan Ny uppgift när du lägger till en uppgift i ett projekt
+
+* I en projektuppgiftslista
+
+Mer information finns i [Översikt över smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## Mer relevanta smarta tilldelningar
 
 >[!NOTE]
 >
->Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.7 (18 juli 2024).
+>Förhandsversion: 21 december 2023; Produktion för snabb release: Med version 24.5 (16 maj 2024); Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024).
 
 Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.
 

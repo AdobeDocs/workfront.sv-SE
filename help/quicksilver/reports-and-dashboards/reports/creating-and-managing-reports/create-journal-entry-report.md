@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2738'
+source-wordcount: '2722'
 ht-degree: 0%
 
 ---
@@ -66,11 +66,9 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Innan du kan utföra de åtgärder som beskrivs i den här artikeln måste du kontrollera följande:
 
-* Alla fält som du vill rapportera om spåras i Workfront. Du kan bara rapportera data från uppdateringsområdet som spåras.
+* Alla fält (inklusive anpassade fält) som du vill rapportera om spåras i Workfront. Du kan bara rapportera data från uppdateringsområdet som spåras.
 
   Mer information om hur du lägger till fält som du vill att Workfront ska spåra finns i [Konfigurera systemuppdateringar](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Alla anpassade fält som du vill rapportera om har inställningen **Visa fältändringar i uppdateringsfeeds** aktiverad.
 
 ## Översikt över journaltrans.
 
