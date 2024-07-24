@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '748'
 ht-degree: 0%
 
 ---
@@ -24,12 +24,6 @@ ht-degree: 0%
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
-
->[!IMPORTANT]
->
->Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Admin Console. Om din organisation har anslutit sig till Adobe Admin Console är den här åtgärden inte tillgänglig.
->
->En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade skillnader i administration (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Som Adobe Workfront-administratör kan du ibland behöva få åtkomst till Workfront för en annan användares räkning.
 
