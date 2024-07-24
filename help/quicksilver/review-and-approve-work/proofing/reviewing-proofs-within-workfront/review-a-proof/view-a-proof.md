@@ -6,16 +6,25 @@ description: Lär dig hur du visar innehåll i ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
 # Visa innehåll i ett korrektur
 
+Du kan använda korrekturläsaren för att visa och kommentera filer i Workfront.
+
+>[!NOTE]
+>
+>Om din Workfront-instans finns på Unified Experience öppnas korrekturläsaren på en ny flik.
+
+
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -43,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Ändra visningen av ditt korrektur
 
