@@ -6,14 +6,16 @@ description: Du kan ordna dina projekt genom att lägga till dem i program inom 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
 # Lägga till ett projekt i ett program
+
+<!--Audited: 7/2024-->
 
 Du kan ordna dina projekt genom att lägga till dem i program inom portföljer. Du kan ha flera projekt i ett program, men du kan bara associera ett program med ett projekt.
 
@@ -25,32 +27,35 @@ Mer information om hur du skapar program finns i [Skapa ett program](../../../ma
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Team] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>Nytt: Standard</p> 
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL View] tillgång till Program eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] tillgång till Program eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL View] behörighet till programmet</p> <p>[!UICONTROL Manage] behörigheter till projekten</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] behörighet till programmet</p> <p>[!UICONTROL Manage] behörigheter till projekten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägg till ett projekt i ett befintligt program
 
@@ -96,4 +101,4 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. (Villkorligt) Om du har markerat **[!UICONTROL Existing Project]** gör du följande:
 
    1. I dialogrutan **[!UICONTROL Add Projects]** skriver du namnet på projektet i fältet som visas och markerar det när det visas i listan. Du kan lägga till flera projekt samtidigt.
-   1. Klicka på **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Projektet visas på fliken **[!UICONTROL Projects]** i programmet och är nu associerat med programmet och portföljen. 
+   1. Klicka på **[!UICONTROL Add Projects]**.**&#x200B;** &#x200B; Projektet visas på fliken **[!UICONTROL Projects]** i programmet och är nu associerat med programmet och portföljen.

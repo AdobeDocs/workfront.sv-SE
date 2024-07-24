@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1171'
 ht-degree: 0%
 
 ---
 
 # Skapa avancerade uppdrag
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Du kan hantera uppgifter eller ärenden med hjälp av Avancerade uppdrag.
 
@@ -92,7 +100,7 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
 
 1. Klicka på **Avancerat**.
 
-   ![Klicka på Avancerat](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Klicka på Avancerat](assets/assignments-box-in-task-header.png)</span>
 
 1. I fältet **Sök efter personer, roller och team** börjar du skriva namnet på en användare, roll eller team och klickar sedan på namnet i listrutan.
 
@@ -138,15 +146,10 @@ Dessutom kan du göra avancerade uppdrag inom följande områden av Workfront:
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * När du har ändrat tilldelningar för uppgifter manuellt kan aktiviteternas planerade timmar uppdateras. Mer information finns i avsnittet Uppdatera planerade timmar för aktiviteter när användartilldelningar hanteras i artikeln [Översikt över planerade timmar](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * Du kan inte ändra tilldelningar manuellt för utleveranser.
      >   * Du kan inte ändra allokeringar för team som tilldelats aktiviteter manuellt.
-     >   
-     >
 
    * **Tilldelningens roll:** Välj den roll som användaren ska använda när den här tilldelningen utförs.  Användarens primära roll visas som standard. Klicka i rutan Tilldelningens roll för att välja en annan roll.  När du tilldelar uppgiften eller utgåvan till en roll först, och sedan lägger till en användare som kan slutföra rollen som ett andra uppdrag, filtreras listan med föreslagna användare för de användare som kan uppfylla de roller som redan tilldelats uppgiften och utgåvan.
 

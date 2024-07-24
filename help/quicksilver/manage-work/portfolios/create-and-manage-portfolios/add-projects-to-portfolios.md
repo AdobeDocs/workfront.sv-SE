@@ -6,7 +6,7 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -33,8 +33,9 @@ Tänk på följande när du lägger till projekt i portföljer:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Alla</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Nytt: Alla</p>
+   <p>Aktuell:[!UICONTROL Business] eller högre</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
@@ -42,12 +43,12 @@ Tänk på följande när du lägger till projekt i portföljer:
    <p>Aktuell:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>[!UICONTROL View] behörighet till Portfolio eller högre</p> <p>[!UICONTROL Edit] behörighet till projekt</p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] access Portfolio</p> <p>[!UICONTROL Edit] behörighet till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL View] behörighet till portföljen</p> <p>[!UICONTROL Manage] behörigheter till projekten</p>  </td> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>[!UICONTROL Manage] behörigheter till projekten</p>  </td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ description: Ett program representerar en samling projekt som delar en gemensam 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td>
 
-<td> <p>Nytt: Alla</p><p>eller</p><p>Aktuell: [!UICONTROL Business] eller högre</p> </td> 
+<td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens</td> 

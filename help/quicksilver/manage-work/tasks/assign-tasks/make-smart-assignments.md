@@ -6,7 +6,7 @@ description: Du kan använda smarta tilldelningar för att identifiera vem som �
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -23,15 +23,15 @@ ht-degree: 0%
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Du kan använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet.
 
 Smarta uppdrag är förslag för användare, roller eller team som Adobe Workfront presenterar för dig när du tilldelar resurser till arbetsobjekt. Workfront baserar sina förslag på en algoritm som avgör vilken resurs som passar bäst för jobbet.
 
-Det finns två separata algoritmer i Workfront som beräknar smarta tilldelningar som fungerar på olika sätt för olika uppgifter och för olika utgåvor.
+<span class="preview">Det finns två separata algoritmer i Workfront som beräknar smarta tilldelningar som fungerar på olika sätt för uppgifter och för utgåvor.</span>
 
-Mer information om villkoren som används för att fastställa smarta tilldelningar finns i [Översikt över smarta tilldelningar](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+Mer information om villkoren som används för att fastställa smarta tilldelningar finns i [Översikt över smarta tilldelningar](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Åtkomstkrav
 
@@ -75,7 +75,7 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
    * En uppgiftslista eller utgivningslista eller rapport
    * En aktivitets- eller utgivningsrubrik
    * Åtgärds- eller ärendesammanfattningspanelen
-   * En ny aktivitet eller nytt problem när du lägger till en ny uppgift eller ett nytt problem i ett projekt
+   * <span class="preview">En ny aktivitet</span> eller en ny utgåva när du lägger till <span class="preview">en ny aktivitet</span> eller ett problem i ett projekt
    * Uppdragsfältet för ett objekt som visas i hemområdet
    * En uppgift eller ett problem i arbetsbelastningsutjämnaren
 
@@ -90,14 +90,14 @@ Smarta uppdrag är tillgängliga på de flesta platser där du kan göra uppdrag
 
    För uppgifter visas de smarta tilldelningarna i följande avsnitt, beroende på vilken fas av algoritmens beräkning som identifierar tilldelningarna:
 
-   * **Föreslagna tilldelningar**: Visar tilldelningar som identifieras i den första fasen i den smarta tilldelningsalgoritmen för aktiviteten.
+   * <span class="preview">**Föreslagna tilldelningar**: Visar tilldelningar som identifieras i den första fasen i den smarta tilldelningsalgoritmen för aktiviteten.</span>
    * **Användare och team**, **Jobbroller** eller <span class="preview">**Betygsätt jobbroller för kort**</span>: Tilldelningar som identifieras i den andra fasen av den smarta tilldelningens algoritmberäkning.
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
-1. Markera användaren i listan med rekommendationer genom att klicka på namnet på användaren.
+1. Välj resursen i listan med rekommendationer genom att klicka på deras namn.
 
 1. (Valfritt) Klicka på **Tilldela mig** för att tilldela arbetsobjektet till dig själv.
 

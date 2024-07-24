@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 Du kan tilldela uppgifter till användare, jobbroller eller team för att ange vem som ansvarar för att slutföra uppgifterna. Du kan tilldela en uppgift till mer än en resurs åt gången.
 
@@ -55,6 +55,8 @@ Utöver den här artikeln rekommenderar vi att du läser följande artiklar för
 * [Översikt över tilldelning av arbete i belastningsutjämnaren](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Åtkomstkrav
+
+<!-- Audited: 07/2024-->
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">När du lägger till en jobbrolltilldelning kan du söka efter jobbrollen eller platsen. Välj en roll i listan Jobbroller om du vill använda standardfaktureringsnivån för tilldelningen, eller välj en jobbroll för tariffkort om du vill använda faktureringssatsen från tariffkortet. Mer information om tariffkort finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
-   * (Villkorligt) Klicka på ett av namnen i listorna **Föreslagna tilldelningar**, **Användare och team**, **Jobbroller** eller <span class="preview">**Klassificera kortroller**</span> när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * (Villkorligt) Klicka på ett av namnen i listorna <span class="preview">**Föreslagna tilldelningar**</span>, **Användare och team**, **Jobbroller** eller <span class="preview">**Klassificera kortroller**</span> när de visas. Mer information finns i [Översikt över smarta uppdrag](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
      Du kan börja skriva namnet på en användare, ett team eller en jobbroll som ska tilldelas uppgiften och sedan markera den när den visas i listan.
 

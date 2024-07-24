@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3551'
+source-wordcount: '3773'
 ht-degree: 0%
 
 ---
@@ -473,3 +473,36 @@ Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agil
 
 Du kan logga tid från Workfront mobilapp.
 Mer information finns i [Adobe Workfront för Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) eller [Adobe Workfront för iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Redigera loggade timmar i listor och rapporter
+
+Du kan redigera loggade timmar i följande områden:
+
+* Alla områden där du lade till timmarna, inklusive öppna tidrapporter
+* Timlistor och rapporter.
+
+Du kan redigera följande element för en timinmatning när du redigerar en timinmatning i en lista eller rapport:
+
+* Antal timmar
+* Timtyp
+* Jobbroll som är associerad med timinmatningen
+
+Beroende på vilken typ av timposter du redigerar är följande fält tillgängliga för redigering:
+
+* När du redigerar projektspecifika timmar:
+
+   * Du kan redigera antalet timmar.
+   * Du kan bara ändra timtypen till projektspecifika typer.
+   * Du kan bara ändra timjobbrolltilldelningen om den aktiverades i inställningarna. Mer information finns i [Konfigurera tidrapport och timinställningar](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+
+* När du redigerar allmänna timmar:
+
+   * Du kan redigera antalet timmar.
+   * Du kan bara ändra timtypen till allmänna typer.
+   * Du kan inte ändra timjobbrolltilldelningen eftersom allmänna timmar inte kan associeras med roller.
+
+* När du redigerar en blandning av allmänna och projektspecifika timmar, gruppvis:
+
+   * Du kan redigera antalet timmar.
+   * Du kan inte ändra timtyp eftersom allmänna timtyper inte kan ändras till projektspecifika typer och projektspecifika timtyper inte kan ändras till allmänna typer.
+   * Du kan inte ändra jobbrolltilldelningen eftersom allmänna timmar inte kan associeras med roller.

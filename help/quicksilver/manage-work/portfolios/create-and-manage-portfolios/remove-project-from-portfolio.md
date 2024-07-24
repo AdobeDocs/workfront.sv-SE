@@ -6,14 +6,16 @@ description: Du kan ta bort ett projekt från en portfölj och associera det med
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
 
 # Ta bort ett projekt från en portfölj
+
+<!--Audited: 7/2024-->
 
 Du kan ta bort ett projekt från en portfölj och associera det med en annan portfölj eller ta bort kopplingen mellan ett projekt och en portfölj helt.
 
@@ -21,7 +23,7 @@ Du kan också ta bort projekt från en portfölj som också tar bort dem från [
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,24 +31,29 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td> <p>Nytt: Alla</p>
+   <p>Aktuell: [!UICONTROL Business] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>[!UICONTROL View] behörighet till Portfolio eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörigheter på Portfolio för att ta bort projekt <br>[!UICONTROL Manage] behörigheter med [!UICONTROL Delete]-åtkomst till projekten för att ta bort dem från portföljen</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] behörigheter för portföljen och de projekt som ska tas bort</p>
+   <p>[!UICONTROL Manage] behörigheter med [!UICONTROL Delete] åtkomst till projekten för att ta bort dem från portföljen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ta bort ett projekt från en portfölj
 

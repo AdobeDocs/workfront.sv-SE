@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '7473'
+source-wordcount: '7513'
 ht-degree: 0%
 
 ---
@@ -242,11 +242,17 @@ Mer information om hur du skapar ett projekt från en mall finns i [Skapa ett pr
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Ange Portfolio som projektet tillhör. Du måste skapa en Portfolio innan den visas i listrutan. Endast aktiva portföljer kan associeras med ett projekt. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.</td> 
+         <td>Ange Portfolio som projektet tillhör. Du måste skapa en Portfolio innan den visas i listrutan. Endast aktiva portföljer kan associeras med ett projekt. Mer information om hur du skapar portföljer finns i <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Skapa en portfölj </a>.
+         <p><b>ANMÄRKNING</b></p>
+         <p>Du måste ha behörigheten Hantera för portföljen för att kunna lägga till eller ta bort den i projektet.</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
-         <td> <p>Om du har valt ett Portfolio för projektet anger du ett program för projektet. Vissa Portfolio har kanske inga program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program kan associeras med ett projekt. </p> <p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> </td> 
+         <td> <p>Om du har valt ett Portfolio för projektet anger du ett program för projektet. Vissa Portfolio har kanske inga program. Du måste skapa ett program innan det visas i den här listrutan. Endast aktiva program kan associeras med ett projekt. </p> <p>Mer information om hur du skapar program finns i <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Skapa ett program</a>.</p> 
+      <p><b>ANMÄRKNING</b></p>
+         <p>Du måste ha behörigheten Hantera för programmet för att kunna lägga till eller ta bort det i projektet.</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Grupp</strong></td> 

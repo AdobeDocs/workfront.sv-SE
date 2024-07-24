@@ -7,14 +7,16 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
 
 # Översikt över smarta uppdrag
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 0%
 
 <span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan för tredje kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 När du hanterar uppgifter och ärenden kan du använda smarta tilldelningar för att identifiera vem som är bäst på att slutföra arbetet. Smarta tilldelningar är förslag som Adobe Workfront ger dig när du tilldelar resurser arbetsobjekt baserat på en algoritm som avgör vilken resurs som passar bäst för jobbet. Smarta uppdrag kan vara användare, jobbroller eller team.
 
@@ -36,10 +38,10 @@ Den här artikeln innehåller allmän information om smarta tilldelningar. Mer i
 
 Tänk på följande när du arbetar med smarta uppdrag:
 
-* Algoritmen fungerar oberoende för uppgifter och problem. Det innebär att listan med föreslagna användare för problem kan skilja sig från listan med föreslagna användare för en uppgift eftersom Workfront skapar listorna enligt kriterier som gäller problem och uppgifter separat.
-* Smarta tilldelningar rekommenderar inte jobbroller eller team. De är i stället förslag från användare som bäst lämpar sig för att slutföra en uppgift eller ett problem.
-* De föreslagna uppdragen är alltid aktiva användare.
-* Användaren som visas först bör vara den bästa matchningen för uppgiften.
+* <span class="preview">Algoritmen fungerar oberoende för uppgifter och problem. Det innebär att listan med föreslagna användare för problem kan skilja sig från listan med föreslagna användare för en uppgift eftersom Workfront skapar listorna enligt kriterier som gäller problem och uppgifter separat. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* De föreslagna uppdragen är alltid aktiva användare, jobbroller eller team.
+* Resursen som anges först bör vara den bästa matchningen för aktiviteten.
 
 ## Hitta förslag på smarta uppdrag
 
@@ -51,11 +53,11 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * En uppgiftslista eller rapport i uppdragskolumnen
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * En uppgiftsrubrik i uppdragsfältet
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * En ärenderubrik i uppdragsfältet
 
@@ -67,7 +69,7 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * Fältet Uppdrag i rutan Ny uppgift när du lägger till en uppgift i ett projekt
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
 * Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Kriterier för smarta tilldelningar
@@ -86,11 +88,13 @@ Smarta uppdrag fungerar annorlunda för uppgifter än för ärenden.
 
 ### Kriterier för smarta tilldelningar för uppgifter
 
-Beräkningen av smarta tilldelningar för aktiviteten fungerar i två faser som använder två olika algoritmer.
+Beräkningen av smarta tilldelningar för aktiviteten fungerar i <span class="preview">två faser som använder två olika algoritmer.</span>
 
-Beroende på vilken algoritm som hittar den smarta tilldelningen visas tilldelningarna under två separata avsnitt i fältet Uppdrag. Mer information finns i [Skapa smarta uppdrag](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
+<span class="preview">Beroende på vilken algoritm som hittar den smarta tilldelningen visas tilldelningarna under två separata avsnitt i fältet Uppdrag.</span> Mer information finns i [Skapa smarta tilldelningar](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md).
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### Första fasen i beräkningen av smart tilldelning för uppgifter
 
@@ -127,6 +131,8 @@ Beräkningen av likhetspoängen och den ordning i vilken tilldelningarna listas 
 * Uppdrag som identifieras i den här fasen listas i    **Föreslagna tilldelningar** i uppdragsfältet för uppgifter.
 
 * Om det inte finns några matchningar som använder den här beräkningen startar den andra fasen av smarta tilldelningar, som beräknas med en annan algoritm.
+
+</div>
 
 #### Andra fasen av beräkning av smart tilldelning för uppgifter
 

@@ -6,9 +6,9 @@ description: Du kan redigera information om portföljer som du har skapat eller 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Du kan redigera en [!UICONTROL portfolio] på portföljsidan eller redigera port
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,35 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alla</p> </td> 
+   <td> <p>Nytt: Alla</p>
+   <p>Aktuell:[!UICONTROL Business] eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Översikt över licenser för Adobe [!DNL Workfront]*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenser*</td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om åtkomst till portföljer på din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">Bevilja åtkomst till portföljer</a>. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>. </p> </td> 
+   <td role="rowheader">Åtkomstnivå</td> 
+   <td> <p>[!UICONTROL Edit] behörighet till Portfolio</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörigheter till en portfölj</p> <p> Mer information om att bevilja behörigheter till portföljer finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">Dela en portfölj </a>. </p> <p>Mer information om hur du begär ytterligare behörigheter finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] behörigheter till en portfölj</p>
+   <p> Hantera behörigheter för projekten i portföljen för att lägga till eller ta bort dem från portföljen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Redigera portföljer
 
-1. Gå till **[!UICONTROL Main Menu]**.
-1. Klicka på **[!UICONTROL Portfolios]** och sedan på namnet på en portfölj för att öppna den.
+{{step1-to-portfolios}}
+
+1. Klicka på namnet på en portfölj för att öppna den.
 1. (Valfritt) Om du vill redigera begränsad information om portföljen klickar du på **[!UICONTROL Portfolio Details]** i den vänstra panelen.
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)

@@ -9,9 +9,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,9 @@ Det finns två uppsättningar timtyper:
   >
   >Om du aktiverar några projektspecifika timtyper i ditt [!DNL Workfront]-system måste minst en projektspecifik timtyp aktiveras för varje projekt i systemet. Du kan inte aktivera en projektspecifik timtyp på systemnivå och har inga projektspecifika timtyper tillgängliga på projektnivå.
 
-* **Allmänna timtyper**: Allmänna timmar kan inte associeras med ett projekt, en aktivitet eller ett problem, och de loggas direkt i en tidrapport. Mer information om loggningstid finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Allmänna timtyper**: Allmänna timmar kan inte associeras med ett projekt, en aktivitet eller ett problem, och de loggas direkt i en tidrapport.
+
+Mer information om hur du loggar timmar och associerar dem med timtyper finns i [Loggtid](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Åtkomstkrav
 
