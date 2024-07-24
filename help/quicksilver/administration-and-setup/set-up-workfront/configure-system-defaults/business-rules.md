@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
+source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
 
 # Skapa och redigera affärsregler
+
+>[!IMPORTANT]
+>
+>Affärsreglerna är inte tillgängliga för tillfället.
 
 Med en affärsregel kan du validera Workfront-objekt och hindra användare från att skapa, redigera eller ta bort ett objekt när vissa villkor är uppfyllda. Affärsreglerna bidrar till att förbättra datakvaliteten och effektiviteten genom att förhindra åtgärder som kan äventyra dataintegriteten.
 
