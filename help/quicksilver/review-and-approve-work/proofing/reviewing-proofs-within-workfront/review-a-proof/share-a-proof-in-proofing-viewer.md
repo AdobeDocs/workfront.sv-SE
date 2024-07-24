@@ -6,9 +6,9 @@ description: Du kan dela ett korrektur från korrekturläsaren om delning har ak
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan dela ett korrektur från korrekturläsaren om delning har aktiverats av k
 >Inställningen Tillåt delning av korrektur via offentlig URL eller inbäddningskod måste vara aktiverad.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -49,6 +51,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Dela URL
 

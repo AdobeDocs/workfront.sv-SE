@@ -6,9 +6,9 @@ description: Det händer att nya programuppdateringar med förbättringar och fe
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: d058009af82c201cc5584cf4a1e8d3a5ec0a0cc9
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Det händer att nya programuppdateringar med förbättringar och felkorrigeringa
 >Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md). -->
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -40,6 +42,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

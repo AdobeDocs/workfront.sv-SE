@@ -6,9 +6,9 @@ description: Lär dig att snabbt hitta text i ett korrektur.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Du kan snabbt hitta text i ett korrektur som har skapats för följande typer av
 >Korrektur som skapats före 26 april 2017 kanske inte är sökbara.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -53,6 +55,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Sök efter innehåll i ett korrektur
 

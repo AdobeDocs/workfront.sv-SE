@@ -6,9 +6,9 @@ description: Du kan visa en tidigare version av ett korrektur om det finns ett. 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '311'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan visa en tidigare version av ett korrektur om det finns ett. Tidigare vers
 >Informationen som beskrivs i den här artikeln är endast tillgänglig med Web Proofing Viewer och endast när du granskar video eller statiskt korrektur.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -49,6 +51,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Visa tidigare korrekturversioner i korrekturläsaren
 

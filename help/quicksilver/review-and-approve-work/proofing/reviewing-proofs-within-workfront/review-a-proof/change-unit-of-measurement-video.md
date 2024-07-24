@@ -6,9 +6,9 @@ description: Du kan justera den måttenhet som används i videons tidslinje. Du 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan justera den måttenhet som används i videons tidslinje. Du kan visa tidslinjen i Tid, Bildruta eller Tidskod.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Ändra tidslinjens måttenhet
 

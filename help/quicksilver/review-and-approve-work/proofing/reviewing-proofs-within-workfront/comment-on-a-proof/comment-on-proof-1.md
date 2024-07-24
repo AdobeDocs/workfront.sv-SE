@@ -6,9 +6,9 @@ description: Med kommentarer kan du ge feedback på innehåll och samarbeta med 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ När du taggar användare i kommentarer om ett korrektur kan de användare som d
 * Om du har lagts till i beviset som en extern användare och är medlem i en annan miljö med ett annat korrekturkonto, kan du bara tagga de användarna från din ursprungliga miljö. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -55,6 +57,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
 
++++
+
 ## Kommentera ett korrektur
 
 1. Gå till projektet, aktiviteten eller utgåvan som innehåller dokumentet och välj sedan **Dokument**.
@@ -78,7 +82,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Draw en frihandslinje</strong> </td> 
+      <td role="rowheader"><strong>Rita en frihandslinje</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
       <td>Gör att du kan lägga till en frihandslinje på det markerade området.</td> 
      </tr> 
@@ -98,7 +102,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
       <td>Markerar det markerade området.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Draw en rektangel</strong> </td> 
+      <td role="rowheader"><strong>Rita en rektangel</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Gör att du kan rita en rektangel runt ett område.</td> 
      </tr> 

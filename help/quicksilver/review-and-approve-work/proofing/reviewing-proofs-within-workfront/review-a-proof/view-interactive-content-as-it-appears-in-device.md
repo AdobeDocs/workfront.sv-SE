@@ -6,9 +6,9 @@ description: Du kan förhandsgranska hur ett interaktivt korrektur ser ut på ol
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan förhandsgranska hur ett interaktivt korrektur ser ut på olika enheter, så att du kan se hur innehållet visas och svarar baserat på olika upplösningar.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront- eller Workfront Proof-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil du har.
+
++++
 
 ## Enhets- och upplösningsvyer i Desktop Proofing Viewer jämfört med Web Proofing Viewer
 
