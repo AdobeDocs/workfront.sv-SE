@@ -7,7 +7,7 @@ description: När du hanterar uppgifter och ärenden kan du använda smarta till
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 0%
@@ -51,13 +51,13 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
   ![](assets/smart-assignments-issue-list.png)
 
-* En uppgiftslista eller rapport i uppdragskolumnen
+* <span class="preview">En uppgiftslista eller rapport i uppdragskolumnen</span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* En uppgiftsrubrik i uppdragsfältet
+* <span class="preview">En aktivitetsrubrik i uppdragsfältet</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * En ärenderubrik i uppdragsfältet
 
@@ -67,9 +67,9 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* Fältet Uppdrag i rutan Ny uppgift när du lägger till en uppgift i ett projekt
+* <span class="preview">Fältet Uppdrag i rutan Ny uppgift när du lägger till en uppgift i ett projekt</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ Du kan visa smarta uppdrag i följande områden där du kan tilldela uppgifter e
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem
+* <span class="preview">Utjämning av arbetsbelastning i området Tilldelad den här till när du tilldelar en uppgift eller ett problem</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Kriterier för smarta tilldelningar
