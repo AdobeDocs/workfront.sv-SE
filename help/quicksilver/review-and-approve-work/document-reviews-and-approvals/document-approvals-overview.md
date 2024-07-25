@@ -6,22 +6,47 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3fc398c4ce2283964982ac0dd00b9533f62c11c0
+source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
 
 # Översikt över godkännande av nya dokument
 
-Godkännanden av nya dokument innebär en helt ny utformning av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
-
-Fortsätt läsa nedan för mer information om planerade funktioner och releaser för godkännande av nya dokument.
-
 >[!IMPORTANT]
 >
 >Innehållet i den här artikeln hänvisar till den uppdaterade funktionen för dokumentgodkännande som bara är tillgänglig för specifika konton. Mer information om standardgodkännandeprocesser finns i artiklarna i [Arbetsgodkännanden](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+Godkännanden av nya dokument innebär en helt ny utformning av den befintliga godkännandeprocessen som för närvarande är under utveckling för Adobe Workfront. Den är för närvarande tillgänglig i begränsad version och är utformad för att vara en praktisk och effektiv lösning för företag som kräver omfattande engagemang från intressenter och versionsspecifika dokumentgodkännanden. Dess genomtänkta design och målinriktade nya funktioner underlättar samarbete, tydlighet och versionskontroll i godkännandeprocessen, vilket förbättrar effektiviteten och ansvarsfördelningen.
+
+## Viktiga skillnader jämfört med korrektur och godkännande av äldre dokument
+
+**Korrektur**
+
+* Beslutsknappar för dokumentgodkännande är inte tillgängliga i korrekturläsaren. Beslut kan fattas i dokumentsammanfattningen, Workfront hemwidgetar eller på sidan Dokumentinformation.
+* Deltagare i dokumentgodkännande visas i dokumentsammanfattningen, inte på fliken för korrekturarbetsflöde.
+* Nya dokumentgodkännanden stöds inte i det aktuella rapportverktyget. Widgeten Alla godkännanden som finns på nya hempaneler och arbetsytor innehåller följande information om nya dokumentgodkännanden:
+
+   * Godkännanden genom beslut
+   * Genomsnittlig godkännandetid
+   * Väntande godkännanden
+   * Försenade godkännanden
+
+**Godkännanden av äldre dokument**
+
+* Du kan lägga till granskare förutom godkännare.
+* Du kan utse ett helt Workfront-team som antingen granskare eller godkännare.
+* Du kan ange en deadline för granskningen eller godkännandet.
+* Du kan skapa och återanvända godkännandemallar.
+* Du kan visa flera nyckelresultatindikatorer för dina godkännanden i Workfront Home-widgetar.
+
+## Använda nya dokumentgodkännanden
+
+För användare som vill skapa eller hantera dokumentgodkännanden, se artiklarna i [Konfigurera och hantera resurs- och dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+
+För användare som vill granska eller godkänna dokument som de har tagit emot en begäran om, se artiklarna i [Godkänn och granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 ## Nya funktioner och designmål
 
@@ -45,17 +70,4 @@ Vi håller på att göra nya dokumentgodkännanden tillgängliga för användare
 
 Om du vill aktivera nya dokumentgodkännanden i din produktionsmiljö kontaktar du din kundansvarige eller strategiska kontohanterare.
 
-## Använda nya dokumentgodkännanden
 
-För användare som vill skapa eller hantera dokumentgodkännanden, se artiklarna i [Konfigurera och hantera resurs- och dokumentgodkännanden: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-
-För användare som vill granska eller godkänna dokument som de har tagit emot en begäran om, se artiklarna i [Godkänn och granska dokument: artikelindex](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
-
->[!IMPORTANT]
->
->De nya dokumentgodkännandena stöds inte i det aktuella rapportverktyget. Widgeten Alla godkännanden som finns på nya hempaneler och arbetsytor innehåller följande information om nya dokumentgodkännanden:
->
->* Godkännanden genom beslut
->* Genomsnittlig godkännandetid
->* Väntande godkännanden
->* Försenade godkännanden
