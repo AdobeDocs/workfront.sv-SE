@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 3eb17c355f78e14924c8ef36570b76d5719e322e
+source-git-commit: 0b92e1b80aab05e1deb4651ef41f2a042d697e1e
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Godkännanden av nya dokument innebär en helt ny utformning av den befintliga g
 
 ## Viktiga skillnader jämfört med korrektur och godkännande av äldre dokument
 
-**Korrektur**
+**Skillnader jämfört med korrektur**
 
 * Beslutsknappar för dokumentgodkännande är inte tillgängliga i korrekturläsaren. Beslut kan fattas i dokumentsammanfattningen, Workfront hemwidgetar eller på sidan Dokumentinformation.
 * Deltagare i dokumentgodkännande visas i dokumentsammanfattningen, inte på fliken för korrekturarbetsflöde.
@@ -34,13 +34,17 @@ Godkännanden av nya dokument innebär en helt ny utformning av den befintliga g
    * Väntande godkännanden
    * Försenade godkännanden
 
-**Godkännanden av äldre dokument**
+**Skillnader jämfört med godkännanden för äldre dokument**
 
-* Du kan lägga till granskare förutom godkännare.
-* Du kan utse ett helt Workfront-team som antingen granskare eller godkännare.
-* Du kan ange en deadline för granskningen eller godkännandet.
-* Du kan skapa och återanvända godkännandemallar.
-* Du kan visa flera nyckelresultatindikatorer för dina godkännanden i Workfront Home-widgetar.
+Med godkännanden av nya dokument kan man
+
+* Lägg till granskare förutom godkännare
+* Utse ett helt Workfront-team som granskare eller godkännare
+* Ange en tidsgräns för granskning eller godkännande
+* Skapa och återanvänd godkännandemallar
+* Använd nya versioner för
+* Visa flera viktiga resultatindikatorer för dina godkännanden i Workfront Home widgets
+* Använd kontrollpanelerna på arbetsytan för att visa rapportinformation om godkännanden av nya dokument
 
 ## Använda nya dokumentgodkännanden
 
