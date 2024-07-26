@@ -6,9 +6,9 @@ description: Du kan ta bort uppgifter som kan vara dubbletter eller som har skap
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Beroende på hur din Workfront-administratör konfigurerar inställningarna för
    1. (Villkorligt) När växeln **Spara automatiskt** är aktiverad:
 
       1. Markera de uppgifter du vill ta bort och klicka sedan på **Mer**
-      1. Klicka på **Ta bort** och sedan på **Ja, ta bort** för att bekräfta borttagningen.
+      1. Klicka på **Ta bort** och sedan på **Ta bort** för att bekräfta borttagningen.
 
          Uppgifterna tas bort.
 
@@ -149,7 +149,7 @@ Beroende på hur din Workfront-administratör konfigurerar inställningarna för
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Klicka på **Ta bort uppgift**.
-1. Om borttagning tillåts klickar du på **Ja och tar bort den**.
+1. Om borttagningen tillåts klickar du på **Ta bort**.
 
    Din Workfront-administratör eller gruppadministratör kanske inte tillåter att uppgifter tas bort där timmar har loggats.
 
