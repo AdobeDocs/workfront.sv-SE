@@ -6,9 +6,9 @@ description: Du kan länka [!DNL Jira] ärenden till [!DNL Adobe Workfront] uppg
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1126'
+source-wordcount: '1197'
 ht-degree: 0%
 
 ---
@@ -136,18 +136,24 @@ Mer information om hur du uppdaterar länkade objekt finns i [Uppdatera länkade
 Så här länkar du [!DNL Jira] ärenden manuellt till [!DNL Workfront] objekt:
 
 1. (Villkorligt) Logga in på [!DNL Workfront] och hitta ett problem eller en uppgift som du vill länka till [!DNL Jira] -problemet.
-1. (Villkorligt) Kopiera **URL** för objektet i Workfront från adressfältet för objektet.
+1. (Villkorligt) Kopiera **[!UICONTROL Reference Number]** för objektet i Workfront från området [!UICONTROL Details].
 
    eller
 
-   Kopiera **[!UICONTROL Reference Number]** för objektet i Workfront från området [!UICONTROL Details].
+   Kopiera **URL** för objektet i Workfront från adressfältet för objektet.
+
+   >[!IMPORTANT]
+   >
+   >Om din organisation har anslutit sig till Adobe Unified Experience måste du använda **Reference Number** för att länka Workfront-objekt till Jira. (Alternativet URL är tillgängligt, men returnerar ett fel om du använder det.) Mer information om den enhetliga upplevelsen finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+   >
+   >För organisationer som inte använder Adobe Unified Experience bör du inte använda URL-alternativet eftersom URL:er kan ändras.
 
    >[!NOTE]
    >
    >Du måste ha en [!DNL Workfront]-licens för att kunna logga in på [!DNL Workfront]. Annars måste en [!DNL Workfront]-användare ange den här informationen till dig.
 
 1. I [!DNL Jira] navigerar du till ett problem som du vill länka manuellt till [!DNL Workfront]-objektet.
-1. Klistra in **URL** eller **[!UICONTROL Reference Number]** för det [!DNL Workfront]-objekt som du vill länka till i den högra panelen [!DNL Workfront].
+1. Klistra in **[!UICONTROL Reference Number]** eller **URL** för det [!DNL Workfront]-objekt som du vill länka till i den högra panelen [!DNL Workfront].
 
 1. Klicka på **[!UICONTROL Link]**.
 
