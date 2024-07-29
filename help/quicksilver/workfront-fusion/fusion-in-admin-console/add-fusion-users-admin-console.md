@@ -8,9 +8,9 @@ description: Du kan lägga till en användare i Adobe Admin Console och tilldela
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,6 @@ Instruktioner finns i [Visa eller redigera användarroller](../organizations/man
 
 ## Tilldela en befintlig användare i [!DNL Adobe Admin Console] till [!DNL Workfront Fusion]
 
-1. Börja redigera användaren enligt beskrivningen i avsnittet Redigera användarinformation i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) i [!DNL Adobe Admin Console]-dokumentationen.
+Du kan lägga till en befintlig användare i ett team i Fusion. Detta hanteras inuti Fusion.
 
-1. Lägg till **[!DNL Adobe Workfront Fusion]** i de produkter som tilldelats användaren.
+Instruktioner finns i [Lägga till en användare i ett team](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) i artikeln Lägga till en användare i en organisation eller ett team i Adobe Workfront Fusion.

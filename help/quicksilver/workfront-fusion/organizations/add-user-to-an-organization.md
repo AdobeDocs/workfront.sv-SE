@@ -7,20 +7,20 @@ description: Du kan lägga till användare i organisationer i Adobe Workfront Fu
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
+source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
-# Lägga till en användare i en organisation i Adobe Workfront Fusion
+# Lägga till en användare i en organisation eller ett team i Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >
 >Den procedur som beskrivs på den här sidan gäller endast för organisationer som ännu inte har anslutit till [!DNL Adobe Admin Console]. Om din organisation har anslutit sig till [!DNL Adobe Admin Console] måste du utföra den här åtgärden via [!DNL Adobe Admin Console].
 >
->Instruktioner om hur du lägger till en användare i [!DNL  Adobe Admin Console] finns i avsnittet Redigera användarinformation i artikeln [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) eller kontakta [!UICONTROL Adobe Admin Console]-administratören.
+>Instruktioner om hur du lägger till en användare när din organisation har flyttats till [!DNL  Adobe Admin Console] och Adobe Unified Experience finns i [Lägg till användare till [!DNL Adobe Workfront Fusion] via  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md).
 >
 >En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Admin Console finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
@@ -100,13 +100,65 @@ Så här lägger du till en användare i organisationen:
 
 1. Navigera till **[!UICONTROL Organizations]** på menyn och markera den organisation du vill lägga till en användare i.
 1. Öppna fliken **[!UICONTROL Users]** i din instrumentpanel.
-1. Klicka på **[!UICONTROL Invite a new user]**, fyll i formuläret (E-post, Meddelande, Roll) och skicka inbjudan genom att klicka på **[!UICONTROL Send]**.
+1. Klicka på **[!UICONTROL Invite a new user]** och skicka inbjudan genom att klicka på **[!UICONTROL Send]**.
 
->[!NOTE]
->
->   
->Om du inte ser knappen [!UICONTROL Invite a new user] har din organisation anslutit till [!DNL Adobe Business Platform.]
->
->  Instruktioner om hur du lägger till en användare i en organisation som har anslutit till [!DNL Adobe Business Platform] finns i [Lägg till användare i [!DNL Adobe Workfront Fusion] via  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+   >[!NOTE]
+   >
+   >   
+   >Om du inte ser knappen [!UICONTROL Invite a new user] har din organisation anslutit till [!DNL Adobe Business Platform.]
+   >
+   >  Instruktioner om hur du lägger till en användare i en organisation som har anslutit till [!DNL Adobe Business Platform] finns i [Lägg till användare i [!DNL Adobe Workfront Fusion] via  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+
+1. Fyll i formuläret.
+
+   <table style="table-layout:auto">
+<col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Email address]</td>
+      <td>
+        Ange användarens e-postadress
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>
+        <p>Ange användarens fullständiga namn</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Role] </td>
+      <td>Välj användarens roll. Mer information om roller finns i <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md">Organisations- och teamroller.</a></p>
+   </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Team</td>
+      <td>Välj alla team som du vill att användaren ska vara medlem i.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Anteckning</td>
+      <td>Ange en anteckning för användaren. Den här anteckningen visas i användarens e-postmeddelande med en inbjudan.</td>
+    </tr>
+  </tbody>
+</table>
 
 Användaren får ett e-postmeddelande med en inbjudan där han/hon kan acceptera inbjudan.
+
+## Lägg till en användare i ett team
+
+Dina användare tilldelas team när du skapar dem. Om en befintlig användare måste läggas till i ett team kan du lägga till dem på teamets användarsida.
+
+Att lägga till en användare i ett team hanteras från sidan för det teamet.
+
+1. Gå till det team du vill lägga till användaren i genom att välja **Organisationer** i den vänstra panelen, klicka på fliken **Team** på organisationssidan och sedan välja teamet.
+
+   eller
+
+   Om du är på sidan för ett annat team klickar du på grupplistrutan överst på sidan.
+
+1. På teamets sida (med teamnamnet längst upp på sidan) väljer du fliken **Användare**.
+1. Leta reda på användaren på sidan. Användare i din organisation visas på den här sidan även om de inte är medlem i gruppen.
+1. Klicka på **Ingen** till höger om användarens namn och välj sedan den roll du vill att de ska ha i teamet.
+
+Användaren läggs till i teamet.
