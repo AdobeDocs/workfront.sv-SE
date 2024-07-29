@@ -6,9 +6,9 @@ description: Du kan ladda upp ritytorna som dokument för snabb granskning och g
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: ee3dc446-6886-4285-a942-4f44f5c0ac31
-source-git-commit: 68dae619348c3359ea8a7ae3ff84543d5e4171ec
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 Du kan överföra dina ritytor som korrektur direkt till [!DNL Adobe Workfront] för en grundlig granskning och godkännande.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -49,6 +51,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta [!DNL Workfront]- eller [!DNL Workfront Proof]-administratören om du vill ta reda på vilken plan, roll eller behörighetsprofil för korrektur du har.
+
++++
 
 ## Förutsättningar
 

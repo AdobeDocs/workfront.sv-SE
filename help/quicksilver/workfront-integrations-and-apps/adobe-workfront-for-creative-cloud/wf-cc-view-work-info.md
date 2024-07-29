@@ -6,9 +6,9 @@ description: Du kan visa information om projekt, uppgifter, problem och dokument
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Du kan visa information om projekt, aktiviteter, utgåvor och dokument från fö
 {{cc-app-list}}
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -53,6 +55,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förutsättningar
 

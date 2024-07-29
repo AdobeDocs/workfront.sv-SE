@@ -6,10 +6,10 @@ description: Du kan uppdatera ditt material med Adobe Workfront plugin.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 1%
+source-wordcount: '207'
+ht-degree: 0%
 
 ---
 
@@ -19,8 +19,9 @@ Du kan uppdatera ditt arbete från något av följande [!DNL Adobe Creative Clou
 
 {{cc-app-list}}
 
-
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +51,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förutsättningar
 

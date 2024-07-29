@@ -6,9 +6,9 @@ description: Hitta det material du tilldelats i Adobe Workfront utan att behöva
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Hitta det arbete du har tilldelats i [!DNL Adobe Workfront] utan att lämna föl
 {{cc-app-list}}
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -43,6 +45,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förutsättningar
 

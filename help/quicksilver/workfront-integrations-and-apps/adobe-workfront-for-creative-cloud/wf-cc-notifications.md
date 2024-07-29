@@ -6,9 +6,9 @@ description: Du kan få meddelanden i Adobe Creative Cloud från [!DNL Adobe Wor
 author: Courtney,Becky
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: b07474c0-ba41-4382-8374-040f633a47ed
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,9 @@ Meddelanden finns i följande Adobe Creative Cloud-program:
 
 ## Åtkomstkrav
 
-&lt;Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,6 +51,8 @@ Meddelanden finns i följande Adobe Creative Cloud-program:
 </table>
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Förutsättningar
 
