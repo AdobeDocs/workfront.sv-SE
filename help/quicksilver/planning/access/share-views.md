@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Du kan dela en vy med följande enheter:
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Dela behörigheter till en vy <!--internally-->
 
@@ -141,8 +141,6 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
    >[!TIP]
    >
    >   Vyer som delas med dig har en personindikator ![](assets/view-shared-with-others-people-icon.png) bredvid visningsikonen. Vyer utan personindikatorn är vyer som du har skapat.
-
-
 
 <!--
 ## Share permissions to a view publicly

@@ -6,7 +6,7 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 0%
@@ -41,14 +41,14 @@ Du kan dela följande objekt:
 
 * Vyer
 
-  Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
+   * Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
+     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+     <!--move the link above to the end of this section-->
 
 Du kan dela en arbetsyta eller vy med följande enheter:
 
 * Användare
 * Grupper
-
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 
 ## Att tänka på när du delar objekt i Adobe Workfront Planning
 
@@ -60,6 +60,14 @@ Du kan dela en arbetsyta eller vy med följande enheter:
 * Du kan dela en länk till en arbetsyta eller till en vy med andra.
 
   Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
+
+  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
+    The following scenarios exist:
+        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+        * Users who receive the link to a view can access the view in the following ways: 
+        
+            * Must be active users and log in to Workfront
+            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
 
 ## Delningsbehörigheter för Adobe Workfront Planning-objekt
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7580c7638c9e4d0f9aa53d208d9773fa1524ab54
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
++++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
 <table style="table-layout:auto">
  <col>
@@ -68,9 +68,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Nytt: Standard</p>
+   <p>Aktuell: Planera</p> 
   </td>
   </tr>
 
@@ -93,6 +94,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 </tbody>
 </table>
+
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>

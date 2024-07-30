@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '16732'
+source-wordcount: '16806'
 ht-degree: 0%
 
 ---
@@ -303,7 +303,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet. </p>
-   <p> Det här fältet är fortfarande synligt i [!UICONTROL project] och [!UICONTROL tasks] rapporter och listor.</p>  </td> 
+   <p> Det här fältet är fortfarande synligt i [!UICONTROL project] rapporter och listor.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -443,7 +443,7 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>Detta är ett inaktuellt fält. All information som det här fältet kan visa är relaterad till en funktion som [!DNL Workfront] har tagit bort. Det går inte att uppdatera det här fältet.</p>
   <p>De här områdena har tagits bort från [!DNL Workfront]. </p> 
-  <p>Fältet är fortfarande synligt i [!UICONTROL project] och [!UICONTROL task] rapporter och listor.</p>
+  <p>Fältet är fortfarande synligt i [!UICONTROL project] rapporter och listor.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>Totalt för [!UICONTROL Planned Labor Cost] och [!UICONTROL Planned Expense Cost] för projektet. Detta inkluderar inte [!UICONTROL Planned Risk Cost] i projektet.  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL Planned Date Alignment]</td> 
+   <td> <p>Det här är en automatisk indikator som Workfront tilldelar projekt, uppgifter och utleveranser för att visa när ett objekt kommer att slutföras i förhållande till det planerade slutförandedatumet. </p>
+   <p>Följande är möjliga värden för den planerade datumjusteringsindikatorn: </p>
+<ul>
+<li>Kommer att utföras på det planerade slutförandedatumet</li>
+<li>Kommer att utföras före planerat slutförandedatum</li>
+<li>Utför efter planerat slutförandedatum</li></ul>
+<p>Den planerade datumjusteringen visas i projekt-, uppgifts- och utgivningslistor och rapporter. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
