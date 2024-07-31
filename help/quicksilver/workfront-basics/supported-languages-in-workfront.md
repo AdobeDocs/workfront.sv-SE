@@ -6,9 +6,9 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '1022'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront har stöd för följande språk:
 * Kinesiska - förenklad (zh-CN)
 * Kinesiska - traditionell (zh-TW)
 
-Det språk som används för att visa Workfront i webbläsaren styrs av språkinställningarna i webbläsaren. Se till att du väljer ett språk för webbläsaren som finns i listan med språk som stöds.
+Det språk som används för att visa Workfront i webbläsaren styrs av webbläsarens språkinställningar om organisationen inte använder IMS, eller av Adobe Experience Cloud profilspråk om organisationen inte använder IMS. I båda fallen måste du välja ett språk som visas i listan med språk som stöds.
 
 Om du vill visa utgående e-post på något av de språk som stöds ändrar du inställningarna för e-postadress för användare eller kundinformation i Workfront.\
 Du måste vara Workfront-administratör för att kunna ändra inställningarna för kundinformation.\
@@ -97,22 +97,34 @@ Mer information om Workfront Fusion finns i [Adobe Workfront Fusion - översikt]
 
 Du kan ändra det språk som används för att visa Workfront och det språk som används i utgående e-postmeddelanden genom att ändra följande inställningar:
 
-* Språket i webbläsaren
+* Språket i webbläsaren (för användare som inte använder IMS)
+* Det primära och sekundära språket i din AEM (för användare på IMS)
 * Inställningarna för kundinformation och användarens e-postadress i ditt Workfront-konto.
 
 För att se alla tillgängliga översättningar för ditt valda språk bör både Workfront nationella inställningar och webbläsarens nationella inställningar anges till samma språk.
 
 * [Ändra webbläsarspråk](#change-the-browser-language)
+* [Ändra Adobe Experience Cloud-språk](#change-the-adobe-experience-cloud-language)
 * [Ändra e-postadresser för Workfront och användare](#change-the-workfront-and-user-locales)
 
 ### Ändra webbläsarspråk {#change-the-browser-language}
 
-När du ändrar webbläsarspråk visas Workfront-gränssnittet på det språket.\
+Om din organisation inte använder IMS visas ditt Workfront-gränssnitt på det språket när du byter webbläsarspråk.\
 Mer information om vilka språk som stöds av Workfront finns i [Språk som stöds i Adobe Workfront](#supported-languages).
 
 Webbläsarspråket måste ändras för enskilda användare.
 
 Se hjälpmenyn för din webbläsare för mer information om hur du byter språk i din webbläsare.
+
+## Ändra Adobe Experience Cloud-språk
+
+Om din organisation använder IMS avgör ditt profilspråk i Adobe Experience Cloud vilket språk som visas i Workfront.
+
+1. Klicka på din profilbild längst till höger i verktygsfältet i Adobe Experience Cloud och klicka sedan på **Inställningar**. Adobe Experience Cloud-verktygsfältet finns direkt ovanför Workfront huvudverktygsfält.
+
+1. Klicka på namnet på det valda språket under **Profil** under ditt namn och din e-postadress.
+
+1. Välj önskade språk i listrutorna **Första språket** och **Andra språket**. Det första språket är ditt standardspråk, medan det andra språket bara visas om det första språket inte stöds av ett visst program.
 
 ### Ändra e-postadresser för Workfront och användare {#change-the-workfront-and-user-locales}
 

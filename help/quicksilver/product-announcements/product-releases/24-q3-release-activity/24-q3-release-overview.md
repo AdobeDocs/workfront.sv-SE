@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1835'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,7 @@ Webbseminariet live 24.7 avbröts, men du kan fortfarande [se en videodemonstrat
                             </li>
                         </ul>
                         <p><i>Endast tillgängligt för organisationer med den nya Ultimate-planen.</i></p>
+                        <p><span class="preview">Den här funktionen är inte tillgänglig för tillfället.</span></p>
                     </td>
                 </tr>
                 <tr>
