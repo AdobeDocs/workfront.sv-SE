@@ -6,7 +6,7 @@ description: Du kan skapa godkännandemallar för att effektivisera godkännande
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 0%
@@ -61,6 +61,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    |----------------------------|---|
    | **(Valfritt) Tidsram** | Ange tidsramen i dagar. Tidsgränsen för godkännande beräknas från det här fältet när mallen tillämpas på en resurs. |
    | **Lägg till godkännare eller granskare** | Börja skriva namnet på användare eller team och ange dem sedan som granskare eller godkännare. |
+
 1. Klicka på **Spara**.
 
 

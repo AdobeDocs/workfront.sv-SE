@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2798'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Den här sidan innehåller information om de funktioner som finns i version 23.3
 >23.3-utgåvan innehåller ett alternativ för att flytta organisationen till månadsutgåvor. Därför ändrar Workfront numreringsschemat för releaser så att det tar hänsyn till både månads- och kvartalsvisa versionsspår.
 >
 >* Om du använder spåret **fast release (månadsvis)** blir releasen efter 23.3 **23.8** den 31 augusti 2023.
-> * Om du är på **kvartalsvis** versionsspåret blir releasen efter 23.3 **23.10**, veckan efter 26 oktober 2023.
+>* Om du är på **kvartalsvis** versionsspåret blir releasen efter 23.3 **23.10**, veckan efter 26 oktober 2023.
 > 
 > Kvartalsvisa releaser kommer att innehålla funktionalitet från tre månadsversioner. Den 23.10 kvartalsversionen kommer till exempel att innehålla funktioner som släpptes i månadsversionerna 23.8, 23.9 och 23.10.
 >

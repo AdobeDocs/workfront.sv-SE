@@ -6,7 +6,7 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '2984'
 ht-degree: 0%
@@ -339,6 +339,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    | Hyperlänk | ![mceclip7.png](assets/mceclip7.png) | <br>Så här öppnar du rutan Lägg till länkar:¥+K</br> <br>Så här klistrar du in en länk över den markerade texten: +V</br> | <br>Så här öppnar du rutan Lägg till länkar: Ctrl+K</br> <br>Så här klistrar du in en länk över den markerade texten: Ctrl+V</br> |
    | Punktlista | ![mceclip6.png](assets/mceclip6.png) | Jesse+Shift+8 | Ctrl+Skift+8 |
    | Numrerad lista | ![mceclip5.png](assets/mceclip5.png) | Jesse+Shift+7 | Ctrl+Skift+7 |
+
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
    <!--remove the last row when we remove legacy from the system-->

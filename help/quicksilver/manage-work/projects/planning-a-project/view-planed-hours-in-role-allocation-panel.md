@@ -6,7 +6,7 @@ description: Du kan visa rollallokering för alla jobbroller som har tilldelats 
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -114,10 +114,9 @@ Du måste ha följande:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Granska följande information på panelen **Rollallokering**:
-|Fält | Beskrivning|
-|—|—|
-| **Jobbroll** |Jobbroller som tilldelats aktiviteter och ärenden i projektet. Dessa kan vara jobbroller som tilldelas direkt till uppgifter och ärenden eller jobbroller som är kopplade till användare som har tilldelats aktiviteter och ärenden i projektet.  |
-| **Planerade timmar** |Totalt antal planerade timmar från uppgifter och ärenden som tilldelats jobbroller eller användare som är associerade med en jobbroll i projektet.  |
 
-
+   | Fält | Beskrivning |
+   |---|---|
+   | **Jobbroll** | Jobbroller som tilldelats aktiviteter och ärenden i projektet. Dessa kan vara jobbroller som tilldelas direkt till uppgifter och ärenden eller jobbroller som är kopplade till användare som har tilldelats aktiviteter och ärenden i projektet. |
+   | **Planerade timmar** | Det totala antalet planerade timmar från uppgifter och utgåvor som tilldelats jobbroller eller användare som är associerade med en jobbroll i projektet. |
 
