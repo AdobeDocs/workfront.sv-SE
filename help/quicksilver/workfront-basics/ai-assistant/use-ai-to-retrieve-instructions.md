@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Om du till exempel frågar AI-assistenten&quot;Hur skapar jag en begärandekö&q
 Så här får du information eller instruktioner från Workfront Documentation med hjälp av AI Assistant:
 
 1. Klicka på ikonen **AI-assistenten** ![AI-assistenten](assets/ai-assistant-icon.png) i skärmens övre högra hörn.
-1. Ange din uppmaning i textområdet längst ned på panelen AI Assistant.
+1. På AI Assistant-panelen anger du din uppmaning i textområdet längst ned på panelen.
 
    Det kan ta en stund innan AI Assistant hittar informationen, beroende på hur stor eller komplex frågan är. Vi rekommenderar enkla uppmaningar.
 
