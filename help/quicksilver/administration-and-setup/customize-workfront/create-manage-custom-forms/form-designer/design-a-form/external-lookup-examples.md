@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,13 @@ Ett externt uppslagsfält i ett anpassat formulär anropar ett externt API och r
 
 I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API. Du kan också använda den externa sökningen för att kommunicera med ett externt system som Jira, Salesforce eller ServiceNow.
 
-Externa sökfält är bara tillgängliga i den nya formulärdesignern, inte i den gamla formulärbyggaren. Mer information om hur du lägger till ett externt uppslagsfält i ett anpassat formulär och ytterligare definitioner för de externa uppslagskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om hur du lägger till ett externt uppslagsfält i ett anpassat formulär och ytterligare definitioner för de externa uppslagskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Konfigurera ett externt sökfält för samma instans av Workfront
 
 Du kan använda den externa sökningen för att hämta data från din Workfront-instans till det anpassade formuläret.
+
+### Använd inbyggda Workfront-fältvärden i den externa sökningen
 
 I det här exemplet visas hur du anropar Workfront API och hämtar data från det befintliga statusfrågefältet till det externa sökfältet.
 
@@ -69,6 +71,43 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från de
    ![Anpassat formulär med externt sökfält](assets/external-lookup-project-status-example1.png)
 
    ![Alternativ för extern sökning baserat på status](assets/external-lookup-project-status-example2.png)
+
+### Använd anpassade fältvärden i den externa sökningen
+
+I det här exemplet visas hur du anropar Workfront API och hämtar data från ett anpassat fält till fältet för extern sökning. Det anpassade exempelfältet heter&quot;Egna färger&quot;.
+
+1. Öppna det anpassade formuläret.
+1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
+1. Ange fältets **etikett** och **namn**.
+1. Välj **Format** för fältet.
+1. Ange API-URL-anropet i fältet **Bas-API URL**.
+
+   **Exempel**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Granska **beroendena** för fälten som det här sökfältet refererar till i API:t.
+
+   Ett beroendefält kan vara vilket anpassat eller inbyggt fält som helst som finns på objektets informationssida.
+
+1. Välj **HTTP-metod**.
+
+   Detta kommer troligtvis att vara **Get**.
+
+1. Ange **JSON-sökvägen** för att få resultat från ditt API-anrop.
+
+   **Exempel**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * &quot;parameterValues&quot; refererar till alla anpassade fält i Workfront för det objekt du är på.
+   * I det här exemplet är&quot;DE:Combo Colors&quot; det specifika anpassade fältet som innehåller de värden som du vill hämta.
+
+   >[!NOTE]
+   >
+   >**Rubrik** krävs inte för ett anrop till samma Workfront-instans.
+
+1. Klicka på **Använd**.
+
+   När det anpassade formuläret läggs till i ett Workfront-objekt visas alla värden i fältet&quot;Kombinationsfärger&quot; i listrutan Extern sökning.
 
 ## Konfigurera ett externt sökfält för ett offentligt API
 
