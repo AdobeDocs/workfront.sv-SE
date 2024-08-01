@@ -7,9 +7,9 @@ description: Följande offentliga mallar är för närvarande tillgängliga i Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1257'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,12 @@ Mallarna automatiserar Workfront processer och arbetsflöden.
 ### [!BADGE Nytt!]{type=Informative}
 
 Den här Fusion-mallen skapar en standardchecklista för alla kort som anger en viss kolumn på en viss anslagstavla i tid.
+
+### [!BADGE Nytt!]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+Detta scenario utlöses av att ett nytt projekt skapas. I det här scenariot kan du skapa en anslagstavla som heter efter projektet, byta namn på eller skapa kolumner utifrån dina behov, skapa anpassade taggar och koppla ett intag-kolumnfilter till det ursprungliga projektet.  Tusentals ytterligare ändringar kan göras, men från och med här kan du se möjligheterna att skapa en startpunkt för er organisations standardiseringsarbete.
 
 ### Workfront - Skapa projekt från CSV
 
