@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
+source-wordcount: '5654'
 ht-degree: 0%
 
 ---
@@ -39,24 +39,12 @@ De släppta funktionerna listas i den ordning de släpps, med den senaste först
 
 Workfront Planning har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som beskrivs i de här artiklarna är för närvarande tillgängliga i Produktion.
 
-## Vecka 29 juli 2024
-
-### Adobe Workfront Planning Public API är nu tillgängligt
-
-Produktion: 30 juli 2024
-
-Förhandsgranska: Ska bestämmas
-
-Adobe Workfront Planning Public API är nu tillgängligt.
-
-Mer information finns i [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Vecka 29 juli 2024
+
+### Adobe Workfront Planning Public API är nu tillgängligt
+
+Produktion: 30 juli 2024
+
+Förhandsgranska: Ska bestämmas
+
+Adobe Workfront Planning Public API är nu tillgängligt.
+
+Mer information finns i [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
+
+### Infoga och duplicera poster i tabellvyn
+
+Produktion: 1 augusti 2024
+Förhandsgranska: Ska bestämmas
+
+Vi har introducerat följande funktioner när vi arbetar med poster i tabellvyn:
+
+* Duplicera poster: du kan snabbt skapa en post genom att duplicera en befintlig.  En identisk post skapas. Den här funktionen är bara tillgänglig i tabellvyn.
+
+* Du kan infoga en ny post ovanför eller under en befintlig post i tabellvyn. Före den här förbättringen lägger du bara till poster längst ned i tabellvyn.
+
+Du kan utföra de nya funktionerna i följande områden:
+
+* Menyn Mer för en post
+
+* Det nya verktygsfältet som har lagts till längst ned på postsidan i tabellvyn
+
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md)
+
 
 ## 8 juli 2024
 

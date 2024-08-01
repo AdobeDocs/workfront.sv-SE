@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '930'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,9 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* Skapa dem manuellt för posttyper
-* Skapa poster genom att kopiera och klistra in information från en extern lista.
+* Lägg till dem från posttypssidan
+* Kopiera och klistra in en lista med poster från en extern lista
+* Duplicera dem
 
 I den här artikeln beskrivs hur du skapar poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -95,7 +96,7 @@ I den här artikeln beskrivs hur du skapar poster. Mer information om hur du han
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Skapa poster genom att lägga till dem manuellt till posttypen <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Skapa poster genom att lägga till dem till posttypen <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 Du kan skapa poster i tabellvyn för en posttypssida.
 
@@ -118,7 +119,8 @@ Alla poster av den valda typen visas i vyn.
 
       * Klicka på **Ny post** i den sista raden i tabellen
 
-      * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Det här annonserar en tom rad.
+      * Klicka på **Skift + Retur** på tangentbordet från valfri kolumn eller rad i tabellen. Då läggs en tom rad till under den post du börjar från.
+      * Håll markören över en posts primära fält, klicka på menyn **Mer** ![](assets/more-menu.png) till höger om fältet och klicka sedan på **Infoga post ovanför** eller **Infoga post nedanför**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Skapa poster genom att kopiera och klistra in information från en extern lista
+## Skapa poster genom att kopiera och klistra in dem från en extern lista
 
 1. Börja skapa poster i tabellvyn, enligt beskrivningen i avsnittet [Skapa poster genom att manuellt lägga till dem till en posttyp](#create-records-by-manually-adding-them-to-a-record-type) i den här artikeln.
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * Raderna innehåller de nya posterna
    * Kolumnerna fyller i information för posternas fält.
+
+
+## Skapa poster genom att duplicera dem
+
+Mer information om att duplicera poster finns i [Duplicera poster](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

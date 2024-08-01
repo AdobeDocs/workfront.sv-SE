@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2630'
 ht-degree: 0%
 
 ---
@@ -135,9 +135,8 @@ Att lägga till kolumner i en vy är detsamma som att lägga till fält i en pos
 
 Du kan lägga till upp till 500 fält (eller kolumner) i en tabellvy.
 
-1. Gå till en posttypssida och välj en **tabellvy** i listrutan.
+1. Gå till en posttypssida och klicka på en tabellvyflik, eller klicka på **+ Visa** för att lägga till en ny vy, och välj sedan **Tabell**.
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till fält (eller kolumner) enligt beskrivningen i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
    Kolumnerna som du lägger till är synliga för alla användare som kommer åt posttypen och läggs till som nya fält på postens sida.
@@ -213,9 +212,8 @@ Raderna i en tabellvy visar enskilda poster av den valda posttypen.
 
 Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 
-1. Gå till en posttypssida och välj en **tabellvy** i listrutan.
+1. Gå till en posttypssida och klicka på en tabellvyflik, eller klicka på **+ Visa** för att lägga till en ny vy, och välj sedan **Tabell**.
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Börja lägga till poster (eller rader) enligt beskrivningen i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    Posterna som du lägger till i tabellvyn sparas omedelbart och visas för alla användare som har behörigheten Visa eller högre på arbetsytan.
@@ -229,13 +227,8 @@ Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
    >[!NOTE]
    >
    >Du kan inte ändra ordning på rader om du använder minst en sortering i tabellvyn.
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >De ändringar du gör i radordningen är synliga för alla användare som har åtkomst till posttypen
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -244,6 +237,7 @@ Du kan ha upp till 50 000 poster (eller rader) för posttypen S.
 Med filter kan du minska mängden information som visas på skärmen.
 
 Tänk på följande när du arbetar med filter i tabellvyn:
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * De filter som du skapar för tabellvyn fungerar oberoende av filtren i tidslinjevyn när de används för samma posttyp.
