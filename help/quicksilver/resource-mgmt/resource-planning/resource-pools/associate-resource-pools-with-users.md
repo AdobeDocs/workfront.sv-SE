@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associera resurspooler med användare
-description: Associera resurspooler med användare
-author: Alina
+description: Du måste skapa en resurspool innan du kan associera den med användare. Du kan associera användare med resurspooler när du skapar resurspooler.
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
