@@ -6,9 +6,9 @@ description: Resurspooler är användarsamlingar som gör det enklare att hanter
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -93,14 +93,14 @@ Du måste ha följande:
     </tbody>
    </table>
 
-1. (Valfritt) Använd länken **Ångra** för att ta bort användare som lagts till via en grupp, ett team, ett företag eller en jobbroll. <span class="preview">(Ångra-funktionen är inte tillgänglig för tillfället i förhandsvisningsmiljön.)</span>
+1. (Valfritt) Använd länken **Ångra** för att ta bort användare som lagts till via en grupp, ett team, ett företag eller en jobbroll.
 
    >[!NOTE]
    >
    >Det finns ingen gräns för hur många användare du kan ha i en resurspool. Vi rekommenderar dock att du inte lägger till för många användare i en resurspool eftersom resurshantering annars kan bli en utmaning. I listan över användare visas endast de första 2 000 användarna i resurspoolen, och de visas i bokstavsordning.
 
    <span class="preview">Exempelbild i förhandsvisningsmiljön:</span>
-   <span class="preview">![Användare har lagts till i resurspoolen](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Användare har lagts till i resurspoolen](assets/users-in-resource-pool2.png)</span>
 
    Exempelbild i produktionsmiljön:
    ![Användare har lagts till i resurspoolen](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
