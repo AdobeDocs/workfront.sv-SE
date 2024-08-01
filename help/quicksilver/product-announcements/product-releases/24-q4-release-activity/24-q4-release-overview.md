@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -154,3 +154,11 @@ Mer information om underhållsuppdateringar som gjordes i den fjärde utgåvan a
 ### Uppdateringar
 
 Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
+### Funktioner som snart ska tas bort från Workfront
+
+Följande funktioner kommer snart att tas bort från Workfront:
+
+#### Borttagning av den gamla hemupplevelsen med 24.10
+
+Vi kommer officiellt att ta bort den gamla hemupplevelsen med version 24.10. Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen. Mer information om övergången, inklusive vad användare och administratörer kan göra för att förbereda, kommer.

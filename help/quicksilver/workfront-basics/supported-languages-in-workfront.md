@@ -6,16 +6,16 @@ description: Du kan ändra vilket språk som används för att visa Adobe Workfr
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1037'
 ht-degree: 0%
 
 ---
 
 # Språk som stöds i Adobe Workfront
 
-Du kan ändra vilket språk som används för att visa Adobe Workfront och e-postmeddelanden från Workfront genom att justera språkinställningarna i webbläsaren och ditt standardspråk för e-post i Workfront.
+Du kan ändra vilket språk som används för att visa Adobe Workfront och e-postmeddelanden från Workfront genom att justera språkinställningarna i webbläsaren (om det inte är IMS) eller språkinställningarna för din Adobe Experience Cloud-profil (om det är IMS) och ditt standardspråk för e-post i Workfront.
 
 Workfront terminologi uppdateras för de språk som stöds i varje Workfront-uppdatering.
 
