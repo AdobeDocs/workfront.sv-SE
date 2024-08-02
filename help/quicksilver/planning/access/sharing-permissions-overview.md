@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '800'
 ht-degree: 0%
 
 ---
@@ -37,15 +37,17 @@ Du kan dela följande objekt:
 
 * Arbetsytor
 
-  När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna. Vyer delas inte.
+   * Du kan dela arbetsytor med personer i din organisation.
+   * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna. Vyer delas inte.
 
 * Vyer
 
-   * Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor. Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+   * Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor.
+   * Du kan dela en vy offentligt med personer utanför organisationen när du genererar en offentlig länk för en vy.Personer som öppnar postsidan från en offentlig länk kan visa alla poster och deras fält, inklusive anslutna poster och fält.
 
-Du kan dela en arbetsyta eller vy med följande enheter:
+  Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
+
+Internt kan du dela en arbetsyta eller vy med följande Workfront-enheter:
 
 * Användare
 * Grupper
@@ -59,15 +61,12 @@ Du kan dela en arbetsyta eller vy med följande enheter:
 * Andra användare, inklusive systemadministratörer, kan bara komma åt vyer som de har skapat eller som har delats med dem. Systemadministratörer kan endast ges behörighet för att hantera en vy.
 * Du kan dela en länk till en arbetsyta eller till en vy med andra.
 
-  Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan eller posttypssidan som visas i den valda vyn.
+  Följande scenarier finns:
+   * Användare som får länken till en arbetsyta måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
+   * Användare som får länken till en vy kan komma åt vyn på följande sätt:
 
-  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
-    The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
-        
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+      * Måste vara aktiva användare och logga in på Workfront om länken till vyn delades internt.
+      * Kan vara externa användare till Workfront och få åtkomst till vyn via en offentlig delad länk, utan att logga in på Workfront.
 
 ## Delningsbehörigheter för Adobe Workfront Planning-objekt
 
@@ -156,37 +155,25 @@ Du måste ge användarna behörighet att visa vyer för att de ska ha tillgång 
 * Radhöjd
 * Inställningar
 
-
-<!--You can share views internally or publicly. -->
+Du kan dela vyer internt eller offentligt.
 
 Följande behörighetsnivåer gäller för vyer och visningselement:
 
-|        | Hantera (Endast inbjudna personer kan komma åt) | Visa (Endast inbjudna personer kan komma åt) | Alla på arbetsytan kan visa* |
+| Intern delning | Hantera (Endast inbjudna personer kan komma åt) | Visa (Endast inbjudna personer kan komma åt) | Alla på arbetsytan kan visa* |
 |--------|--------|-------|------------------------------|
 | Redigera | ✓ |       |                            |
 | Ta bort | ✓ |       |                            |
 | Dela | ✓ |       |                           |
 | Visa | ✓ | ✓ | ✓ |
-| Åtkomst till vyn | ✓ | ✓ | ✓ |
-| Använd temporära filter, grupperingar, sortera | ✓ | ✓ | ✓ |
+| Använd | ✓ | ✓ | ✓ |
+
+| Offentlig delning | Visa |
+|--------|-------|
+| Visa | ✓ |
+| Använd | ✓ |
 
 *Användarna måste ha behörigheten Visa eller högre för en arbetsyta för att få åtkomst till vyn.
 
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
-
-|   Public sharing      | View  |
-|--------|-------|
-| View   | ✓     |
-| Apply  | ✓     |
--->
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -196,5 +183,15 @@ Följande behörighetsnivåer gäller för vyer och visningselement:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->

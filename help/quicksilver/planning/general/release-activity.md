@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
+source-wordcount: '5786'
 ht-degree: 0%
 
 ---
@@ -38,27 +38,6 @@ Workfront planeringsprogram har startat sedan 22 maj 2023. En lista över alla f
 De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
 
 Workfront Planning har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som beskrivs i de här artiklarna är för närvarande tillgängliga i Produktion.
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## Vecka 29 juli 2024
 
@@ -91,6 +70,23 @@ Du kan utföra de nya funktionerna i följande områden:
 
 Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md)
 
+### Dela Workfront Planning-vyer offentligt
+
+Produktion: 2 augusti 2024
+
+Förhandsgranska: Ska bestämmas
+
+Om du vill arbeta smidigt med externa intressenter kan du nu dela postvyer med andra utanför organisationen. Du kan dela en offentlig länk till den vy du vill att andra ska ha tillgång till.
+
+Följande funktioner ingår i uppdateringen:
+
+* Dela vyn över en posttypssida med en offentlig länk som skulle ha upphört att gälla ett visst datum.
+
+* Den delade länken är tillgänglig för alla utanför företaget under en begränsad tid, vilket anges med utgångsdatumet. Det krävs ingen inloggning för att visa den delade vyn.
+
+* Personer som kommer åt vyn från den offentliga länken kan inte skapa andra vyer, redigera den delade vyn eller lägga till, ta bort eller redigera postinformation.
+
+Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
 
 ## 8 juli 2024
 

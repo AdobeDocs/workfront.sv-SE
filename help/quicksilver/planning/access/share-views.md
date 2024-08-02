@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,8 @@ När du delar en vy ger du andra behörighet att komma åt alla element i vyn. O
 
 Du kan dela en vy med följande enheter:
 
-* Workfront
-* Workfront-grupper
-<!--* Publicly, with users outside Workfront
--->
+* Internt, med Workfront användare och grupper
+* Offentligt, med användare utanför Workfront
 
 ## Åtkomstkrav
 
@@ -95,9 +93,21 @@ Du kan dela en vy med följande enheter:
 
 +++
 
-## Dela behörigheter till en vy <!--internally-->
+## Att tänka på vid vydelning
 
-Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera till <!--with users or groups in Workfront-->.
+* Du kan ge interna Workfront-användare behörigheten Visa eller Hantera för en vy.
+
+* Användare med behörigheten Hantera kan ändra visningsinställningarna, dela, duplicera eller ta bort dem.
+
+* Du kan dela vyer med personer utanför organisationen via en offentlig länk.
+
+* När du delar en vy offentligt är länken tillgänglig för alla utanför företaget under en begränsad tid, vilket anges med utgångsdatumet. Det krävs ingen inloggning för att visa den delade tabellvyn.
+
+* Personer utanför organisationen som har åtkomst till en vy kan inte skapa andra vyer, redigera den delade vyn eller lägga till, ta bort eller redigera postinformation i tabellen.
+
+## Dela behörigheter till en vy internt
+
+Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera med användare eller grupper i Workfront.
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   Fliken **Intern delning** bör vara markerad som standard.
 
-1. (Valfritt) Välj bland följande alternativ för att dela vyn:
+1. (Valfritt) Välj bland följande alternativ i området **Vem har åtkomst**:
 
    * **Endast inbjudna personer har åtkomst till**: Du måste ange användare eller grupper som du vill dela vyn med. Det här är standardalternativet.
    * **Alla på arbetsytan kan visa**: Alla användare som har behörighet att visa eller högre på arbetsytor kan komma åt vyn.
 
-1. I fältet **Bevilja åtkomst till** kan du börja skriva namnet på en användare eller grupp och sedan klicka på den när den visas i listan.  <!--***********replace screen shot below when public sharing is released***********-->
+1. I fältet **Bevilja åtkomst till** kan du börja skriva namnet på en användare eller grupp och sedan klicka på den när den visas i listan.
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera t
    >
    >   Vyer som delas med dig har en personindikator ![](assets/view-shared-with-others-people-icon.png) bredvid visningsikonen. Vyer utan personindikatorn är vyer som du har skapat.
 
-<!--
-## Share permissions to a view publicly
+## Dela behörigheter till en vy offentligt
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera med personer som inte har någon Workfront-licens och som kan vara externa för din organisation.
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Så här delar du en vy offentligt i Workfront Planning:
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. Öppna arbetsytan vars vy du vill dela och klicka sedan på ett posttypskort.
 
-   This opens the record type page.
+   Då öppnas posttypssidan.
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. Håll markören över den vy du vill dela på fliken Visa och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om vynamnet. Klicka sedan på **Dela**.
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. Klicka på **Offentlig delning**.
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. Aktivera inställningen **Skapa offentlig länk**.
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   En länk blir tillgänglig. Det här är en offentlig länk. När de delas kan alla som har länken, även personer utanför organisationen, få åtkomst till posttypssidan och visa poster och fält på sidan.
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. Klicka på ikonen **Kopiera länk** ![](assets/copy-link-view.png) för att kopiera länken till Urklipp.
 
-1. Click **Save**.
+1. Ange ett datum manuellt eller använd kalendern i fältet **Länkens förfallodatum** för att välja ett förfallodatum för den offentliga länken. Postsidvyn är inte tillgänglig efter det valda datumet.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. Klicka på **Spara**.
 
--->
+   Vyikonen uppdateras för att ange att vyn delas offentligt.
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. (Valfritt) Klistra in länken som du kopierade till ett e-postmeddelande, chattmeddelande, dokument eller i en Workfront-kommentar för att dela den med andra.
 
 ## Ta bort behörigheter till en vy
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. Öppna arbetsytan vars vy du vill sluta dela och klicka sedan på ett posttypskort. Då öppnas posttypssidan.
 1. Håll muspekaren över fliknamnet för den vy du vill ta bort delning från och klicka på menyn **Mer** ![](assets/more-menu.png) och sedan på **Dela**.
-1. Hitta användaren eller gruppen du vill ta bort och klicka sedan på **Ta bort** i listrutan Behörigheter till höger om användarens eller gruppens namn.
+1. Så här tar du bort den interna delningen av en vy:
+
+   1. Kontrollera att fliken **Intern delning** är markerad.
+   1. Hitta användaren eller gruppen du vill ta bort, utöka listrutan med behörigheter till höger om användarens eller gruppens namn och klicka sedan på **Ta bort**.
+
+1. Så här tar du bort den offentliga delningen av en vy:
+
+   1. Klicka på fliken **Offentlig delning**.
+   1. Avmarkera alternativet **Skapa offentlig länk**.
+
 1. Klicka på **Spara**.
-Användaren eller användarna som tillhör gruppen som tagits bort har inte längre åtkomst till vyn. Användarna som har tagits bort från vyn får inget meddelande om att de har förlorat åtkomsten.
 
-<!--Replace the above instructions with the following when public sharing is released: 
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
-
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
-
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   Personer har inte längre åtkomst till vyn. Användarna som har tagits bort från vyn får inget meddelande om att de inte längre har åtkomst till den.
