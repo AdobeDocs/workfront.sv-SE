@@ -7,7 +7,7 @@ description: I den här artikeln beskrivs varför aktiva eller inaktiverade scen
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 0%
@@ -76,6 +76,6 @@ Du måste skapa ett scenario innan du kan aktivera det.
 ## Aktivera eller inaktivera ett scenario:
 
 1. Klicka på **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) i den vänstra panelen och klicka sedan på scenariot för att öppna det.
-1. Klicka på växlingsknappen **[!UICONTROL On/Off]** i fönstrets övre högra hörn.
+1. Klicka på växlingsknappen **[!UICONTROL On/Off]** i fönstrets nedre vänstra hörn.
 
    ![](assets/on-off-switch.jpg)
