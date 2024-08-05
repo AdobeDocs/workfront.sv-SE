@@ -10,9 +10,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: ad74648a70bbb44e8093e30e111f75859d6baa68
+source-git-commit: 45890d5d9346baebe0984d581828c778d98eec5a
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Lägg till dokument | ✓ | ✓ |   |   |
 | Lägg till utgåva | ✓ | ✓ |   |   |
 | Lägga till uppgifter | ✓ |   |   |   |
-| Ge uppdateringar/kommentarer | ✓ | ✓ |   |   |
+| Ge uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |
 | Ändra status | ✓ |   |   |   |
 | Loggtimmar | ✓ | ✓ |   |   |
 | Redigera uppdrag | ✓ |   |   |   |
@@ -89,7 +89,7 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Redigera finanser | ✓ |   |   |   |
 | Lägg till/redigera utgifter | ✓ |   |   |   |
 | Visa finansiering | ✓ | ✓ |   |   |
-| Lägg till uppdateringar/kommentarer | ✓ | ✓ |   |   |
+| Lägg till uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
