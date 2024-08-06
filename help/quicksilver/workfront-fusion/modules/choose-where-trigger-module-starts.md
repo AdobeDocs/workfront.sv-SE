@@ -7,9 +7,9 @@ description: Vissa utlösarmoduler låter dig välja det första paket från vil
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Du kan också ange om du vill hämta alla paket eller bara paketen från efter e
 Mer information om utlösarmoduler finns i avsnittet [Utlösarmoduler](../../workfront-fusion/modules/module-types.md#triggers) i artikeln [Typer av moduler](../../workfront-fusion/modules/module-types.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
@@ -60,6 +62,8 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Välj var en utlösarmodul ska starta
 

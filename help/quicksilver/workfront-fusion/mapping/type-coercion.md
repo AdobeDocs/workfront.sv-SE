@@ -8,9 +8,9 @@ description: I det här dokumentet beskrivs hur  [!DNL Adobe Workfront Fusion] f
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Typtvång i [!DNL Adobe Workfront Fusion]
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
@@ -55,6 +57,8 @@ Du måste ha följande åtkomst för att kunna använda funktionerna i den här 
 Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ### Typtvång
 

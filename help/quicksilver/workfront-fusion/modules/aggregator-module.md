@@ -8,9 +8,9 @@ description: En aggregeringsmodul är en typ av modul som utformats för att sam
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ En aggregeringsmodul är en typ av modul som utformats för att sammanfoga flera
 Mer information om modultyper finns i [Typer av moduler](../../workfront-fusion/modules/module-types.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna använda funktionerna i den här artikeln:
 
@@ -60,7 +62,9 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, l
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## modulen [!UICONTROL Aggregator]
++++
+
+## Översikt över modulen [!UICONTROL Aggregator]
 
 När en [!UICONTROL Aggregator]-modul körs gör den följande:
 
@@ -77,16 +81,16 @@ I följande bild visas en typisk inställning för modulen [!UICONTROL Aggregato
  <tbody> 
   <tr> 
    <td> <p>[!UICONTROL Source Module]</p> </td> 
-   <td> <p>Modulen från vilken paketaggregeringen börjar. Källmodulen är vanligtvis en iterator eller en sökmodul som matar ut en serie paket. När du konfigurerar aggregatorns källmodul (och stänger aggregatorns inställning), kapslas vägen mellan källmodulen och aggregatormodulen in i ett grått område så att du tydligt kan se början och slutet av aggregeringen. 
+   <td> <p>Modulen där paketaggregeringen startar. Källmodulen är vanligtvis en iterator eller en sökmodul som matar ut en serie paket.</p><p>När du konfigurerar aggregatorns källmodul (och stänger aggregatorns inställning), kapslas vägen mellan källmodulen och aggregatormodulen in i ett grått område så att du tydligt kan se början och slutet av aggregeringen. 
    </p> <p>Mer information om iteratorer finns i modulen <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] i [!DNL Adobe Workfront Fusion]</a></p> <p>Mer information om sökmoduler finns i sökmoduler i <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Olika typer av moduler</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Target structure type]</p> </td> 
-   <td> <p>(Gäller endast för modulen [!UICONTROL Array aggregator].) Den målstruktur i vilken data ska aggregeras. Med standardalternativet, [!UICONTROL Custom], kan du välja objekt som ska aggregeras i utdatapaketets <code>Array </code>objekt för A[!UICONTROL rray aggregator]:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>När du ansluter fler moduler efter modulen [!UICONTROL Array aggregator] och återgår till modulens inställningar, kommer listrutan för strukturtypen [!UICONTROL Target] att innehålla alla följande moduler och deras fält av typen Array med samlingar, vilket visas i fältet [!UICONTROL Attachments] i modulen [!DNL Slack] &gt;[!UICONTROL Create a Message]:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>(Gäller endast för modulen [!UICONTROL Array aggregator].) Målstrukturen där data sammanställs. Med standardalternativet, [!UICONTROL Custom], kan du välja objekt som ska aggregeras i <code>Array </code>objektet för utdatapaketet i [!UICONTROL Array aggregator]:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>När du ansluter fler moduler efter modulen [!UICONTROL Array aggregator] och återgår till modulens inställningar, kommer listrutan för strukturtypen [!UICONTROL Target] att innehålla alla följande moduler och deras fält som är av typen "Array of Collections", vilket visas i fältet [!UICONTROL Attachments] i modulen [!DNL Slack] &gt;[!UICONTROL Create a Message] :</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aggregated fields]</td> 
-   <td>Markera de fält som du vill inkludera i aggregeringsmodulens utdata.</td> 
+   <td>De fält som du vill inkludera i aggregeringsmodulens utdata.</td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
@@ -108,22 +112,24 @@ I följande bild visas en typisk inställning för modulen [!UICONTROL Aggregato
 >Paket som genereras av moduler mellan källmodulen och modulen [!UICONTROL Aggregator] skrivs inte ut av modulen [!UICONTROL Aggregator], så de är inte tillgängliga för modulerna i flödet efter [!UICONTROL Aggregator]. Om du behöver data från ett paket som matats ut av en modul mellan källmodulen och [!UICONTROL Aggregator]-modulen, måste du se till att inkludera det angivna objektet i [!UICONTROL Aggregator]-modulens inställningar (som i fältet [!UICONTROL Aggregated fields] i inställningarna för [!UICONTROL Array aggregator] -modulen).
 
 
->[!INFO]
->
->**Exempel:** Användningsfall: Zippar alla e-postbilagor och överför ZIP till [!DNL Dropbox]
->
->Scenariot nedan visar hur man gör:
->
->* Titta på en postlåda för inkommande e-post: [!UICONTROL Email] >[!UICONTROL Watch emails] utlösare kommer att generera ett paket med objektet `Attachments[]`, som är en matris som innehåller alla e-postbilagor.
->
->* Iterera e-postens bilagor: [!UICONTROL Email] >[!UICONTROL Iterate attachments] iterator tar objekten från `Attachments[]`-arrayen en i taget och skickar dem vidare som separata paket.
->
->* Sammanställa de paket som skickas från modulen [!UICONTROL Email] >[!UICONTROL Iterate attachments]: [!UICONTROL Archive] >[!UICONTROL Create an archive aggregator] ackumulerar alla paket som tas emot och returnerar ett enda paket som innehåller ZIP-filen.
->
->* Överför den resulterande ZIP-filen till [!DNL Dropbox]: [!DNL Dropbox] > [!UICONTROL Upload a file] hämtar ZIP-filen från modulen [!UICONTROL Archive] > [!UICONTROL Create an archive] och överför den till [!DNL Dropbox].
->
->![](assets/dropbox-archive-350x87.png)
->
->Nedan visas ett exempel på konfiguration av [!UICONTROL Archive] > [!UICONTROL Create an archive]-aggregatorn:
->
->![](assets/archive-create-an-archive-350x484.png)
+## Exempelscenario för hur aggregerare fungerar
+
+I det här exempelscenariot visas hur du komprimerar alla e-postbilagor och överför ZIP till [!DNL Dropbox].
+
+![](assets/dropbox-archive-350x87.png)
+
+Scenariot nedan visar hur man gör:
+
+* Den första modulen bevakar en postlåda för inkommande e-post: [!UICONTROL Email] >[!UICONTROL Watch emails] utlösare kommer att generera ett paket med objektet `Attachments[]`, som är en matris som innehåller alla e-postbilagor.
+
+* Den andra modellen itererar om e-postens bilagor: [!UICONTROL Email] >[!UICONTROL Iterate attachments] iterator tar objekten från `Attachments[]`-arrayen en i taget och skickar dem vidare som separata paket.
+
+* Den tredje modulen aggregerar de paket som skickas ut av modulen [!UICONTROL Email] >[!UICONTROL Iterate attachments]: [!UICONTROL Archive] >[!UICONTROL Create an archive aggregator] ackumulerar alla paket som tas emot och returnerar ett enda paket som innehåller ZIP-filen.
+
+* Den sista modulen överför den resulterande ZIP-filen till [!DNL Dropbox]: [!DNL Dropbox] > [!UICONTROL Upload a file] hämtar ZIP-filen från modulen [!UICONTROL Archive] > [!UICONTROL Create an archive] och överför den till [!DNL Dropbox].
+
+
+
+Nedan visas ett exempel på konfiguration av [!UICONTROL Archive] > [!UICONTROL Create an archive]-aggregatorn:
+
+![](assets/archive-create-an-archive-350x484.png)
