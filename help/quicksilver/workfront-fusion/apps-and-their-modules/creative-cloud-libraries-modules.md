@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Workfront Fusion Adobe Creative Cloud] biblioteksm
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ Med modulerna [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries
 Om du behöver instruktioner om hur du skapar ett scenario kan du läsa [Skapa ett scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Mer information om moduler finns i [Moduler i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+
+>[!IMPORTANT]
+>
+>Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.
 
 ## Åtkomstkrav
 
@@ -113,7 +117,7 @@ Denna åtgärdsmodul arkiverar ett element från ett bibliotek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -136,7 +140,7 @@ Den här åtgärdsmodulen returnerar ett enskilt element från ett bibliotek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -182,7 +186,7 @@ Den här åtgärdsmodulen hämtar en lista med element i ett bibliotek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -236,7 +240,7 @@ Denna åtgärdsmodul överför en liten filresurs till ett befintligt bibliotek.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -287,7 +291,7 @@ Denna utlösarmodul startar ett scenario när ett element läggs till i ett bibl
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -311,7 +315,7 @@ Den här utlösarmodulen startar ett scenario när ett element i ett bibliotek u
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -341,7 +345,7 @@ Den här utlösarmodulen startar ett scenario när ett nytt bibliotek skapas.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -360,7 +364,7 @@ Den här utlösarmodulen startar ett scenario när ett befintligt bibliotek uppd
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du ansluter ditt [!DNL Adobe Creative Cloud]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till [!DNL Adobe Workfront Fusion] - grundläggande instruktioner.</td>
+      <td>Välj en befintlig Creative Cloud Libraries-anslutning. Det går för närvarande inte att skapa en anslutning i Creative Cloud Libraries Connector. Befintliga anslutningar fungerar som förväntat.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
