@@ -10,9 +10,9 @@ description: Med  [!DNL Adobe Experience Manager Assets] connector for [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
 workflow-type: tm+mt
-source-wordcount: '1308'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -70,6 +70,9 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 * Du måste konfigurera [!UICONTROL Server-to-server]-flödet i [!DNL Adobe Developer console].
 
   Instruktioner om hur du konfigurerar flödet [!UICONTROL Server-to-server] i [!DNL Adobe Developer console] finns i [Generera åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+* Ditt Adobe Experience Manager-konto måste ha skrivbehörighet.
+
+  Instruktioner om hur du lägger till skrivbehörigheter till ditt Adobe Experience Manager tekniska konto finns i [Tjänstens autentiseringsuppgifter](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) i Adobe Experience Manager-dokumentationen.
 
 ## Anslut [!DNL Adobe Experience Manager Assets] till [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -100,9 +103,13 @@ Så här skapar du en anslutning för dina [!DNL Adobe Experience Manager Assets
 
 >[!NOTE]
 >
->Informationen för dessa fält genereras som en del av konfigurationen av [!UICONTROL Server-to-server]-flödet på [!DNL Adobe Developer Console]. Dessa värden finns i JSON-tjänstens inloggningsinformation som genereras som en del av den konfigurationen.
+>* Informationen för dessa fält genereras som en del av konfigurationen av [!UICONTROL Server-to-server]-flödet på [!DNL Adobe Developer Console]. Dessa värden finns i JSON-tjänstens inloggningsinformation som genereras som en del av den konfigurationen.
 >
->Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server]-flödet på [!UICONTROL Adobe Developer Console] finns i [Generera åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>   Instruktioner om hur du konfigurerar [!UICONTROL Server-to-server]-flödet på [!UICONTROL Adobe Developer Console] finns i [Generera åtkomsttoken för API:er på serversidan](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>
+>* Ditt Adobe Experience Manager-konto måste ha skrivbehörighet.
+>
+>   Instruktioner om hur du lägger till skrivbehörigheter till ditt Adobe Experience Manager tekniska konto finns i [Tjänstens autentiseringsuppgifter](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) i Adobe Experience Manager-dokumentationen.
 
 
 <table style="table-layout:auto"> 
