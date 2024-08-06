@@ -7,7 +7,7 @@ description: Veckodagens startdag på min tidrapport matchar inte veckodagens st
 author: Alina
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '293'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Veckodagens startdag på min tidrapport matchar inte veckodagens startdag som ha
 
 ## Lösning
 
-Startdagen i veckan för en tidrapport i Adobe Workfront använder språk- och språkinställningarna i webbläsaren för att bestämma veckodagen. På grund av detta måste du uppdatera språk- och språkinställningarna för webbläsaren. 
+Startdagen i veckan för en tidrapport i Adobe Workfront använder språk- och språkinställningarna i webbläsaren för att bestämma veckodagen. På grund av detta måste du uppdatera språk- och språkinställningarna för webbläsaren.
 
 Om webbläsarspråket till exempel är Engelska och språkinställningen är USA, startar veckan på söndag. Alternativt kan webbläsarspråket anges till engelska och språkinställningen till Storbritannien är startdagen måndag.
 
@@ -37,4 +37,4 @@ Här följer anvisningar om hur du ändrar språk- och språkinställningar för
 * **IE 11:** Tools -> Internet Options -> General -> Languages
 * **Safari:** Tyvärr tillåter inte Safari att webbläsarspråk ändras utan att hela operativsystemsspråket ändras. Det är antagligen enklare att installera en annan webbläsare, som Chrome eller Firefox.
 
- 
+

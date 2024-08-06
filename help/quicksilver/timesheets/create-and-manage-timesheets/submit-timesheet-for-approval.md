@@ -6,18 +6,22 @@ description: Om du skickar in tidrapporten för godkännande får din chef insyn
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '860'
 ht-degree: 0%
 
 ---
 
 # Skicka en tidrapport för godkännande
 
+<!--Audited: 8/2024-->
+
 Om du skickar in tidrapporten för godkännande får din chef insyn i arbetstiden. Godkännarna kan verifiera att all registrerad tid har allokerats i rätt områden och att ett tillräckligt antal timmar har registrerats för tidsperioden.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -26,25 +30,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td> <p>Nytt: Ljus eller högre </p>
+   <p>Aktuell: Granska eller senare </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa eller öka åtkomsten till uppgifter och problem </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter i tidrapporten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skicka en tidrapport för godkännande
 
@@ -68,7 +75,7 @@ Så här skickar du in en tidrapport för godkännande:
    När tidrapporten skickas för godkännande ser godkännaren tidrapporten som listas i området **Godkännanden** på sidan **Hem**. Följande saker kan hända:
 
    * Om de godkänner det ändras knappen **Återkalla** till **Öppna igen** och tidrapportens status uppdateras till **Öppna**.
-   * Om de avvisar den ersätter knappen **Skicka för godkännande** knappen **Återkalla** och tidrapportens statusuppdatering **Avvisad**.
+   * Om de avvisar det ersätter knappen **Skicka för godkännande** knappen **Återkalla** och tidrapportens statusuppdatering **Avvisad**.
 
 1. (Valfritt) Klicka på **Återkalla** om du behöver öppna tidrapporten igen och uppdatera din tid. Mer information finns i avsnittet [Återkalla en tidrapport](#recall-a-timesheet) i den här artikeln.
 

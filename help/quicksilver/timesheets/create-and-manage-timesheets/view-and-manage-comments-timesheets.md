@@ -6,9 +6,9 @@ description: Du kan kommentera tidrapporter, vilka objekt som ingår i tidrappor
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Du kan kommentera följande objekt i en tidrapport:
 * På ett enskilt objekt, som en uppgift eller ett problem
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -42,7 +44,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivåkonfiguration</td> 
-   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> </td> 
+   <td> <p>Visa eller ge högre åtkomst till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
@@ -53,6 +55,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 *Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Visa timpostkommentarer på en tidrapport {#view-hour-entry-comments-on-a-timesheet}
 
 Du kan konfigurera kommentarer som görs på enskilda timposter som ska visas i tidrapporten. Alternativet att visa och dölja kommentarer påverkar inte kommentarer som gjorts på den övergripande tidrapporten eller kommentarer som gjorts på enskilda objekt. Mer information finns i  [Gör kommentarer på en tidrapport](#make-comments-on-a-timesheet).
@@ -61,9 +65,10 @@ Som standard döljs kommentarer första gången du öppnar en tidrapport.
 
 Så här visar du kommentarer på en tidrapport:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klicka på **Tidrapporter**.
+Området **Tidrapporter** öppnas.
+
 1. Öppna tidrapporten där du vill visa kommentarer.
 1. Klicka på **Visa kommentarer** i det övre högra hörnet av tidrapporten.
 Kommentarerna visas under objektet där timinmatningen och kommentaren loggades.

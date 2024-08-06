@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,13 @@ ht-degree: 0%
 
 Du kan dela en vy med andra för att säkerställa samarbete när du arbetar med poster i Adobe Workfront Planning.
 
-Om du ger behörighet till en arbetsyta ger det inte andra användare behörighet till vyerna på posttypssidorna. Du måste tilldela behörigheter till enskilda vyer på en posttypsida för att kunna dela dem med andra användare.
-
-När du delar en vy ger du andra behörighet att komma åt alla element i vyn. Om du till exempel ger dem behörigheten Hantera för en vy kan de ändra grupperingen, filtret, sorteringen eller utseendet på fält.
+>[!IMPORTANT]
+>
+>* Om du ger behörighet till en arbetsyta ger det inte andra användare behörighet till vyerna på posttypssidorna. Du måste tilldela behörigheter till enskilda vyer på en posttypsida för att kunna dela dem med andra användare.
+>
+>* Att bevilja behörigheter till en vy påverkar inte behörigheterna att visa posterna. Registreringsbehörigheter beviljas genom att arbetsytor för delning delas.
+>
+>* När du delar en vy ger du andra behörighet att komma åt alla element i vyn. Om du till exempel ger dem behörigheten Hantera för en vy kan de ändra grupperingen, filtret, sorteringen eller utseendet på fält.
 
 
 Du kan dela en vy med följande enheter:
@@ -78,6 +82,7 @@ Du kan dela en vy med följande enheter:
 <tr>
    <td role="rowheader"><p>Behörigheter</p></td>
    <td> <p>Hantera behörigheter till en vy</p>  
+   <p>Endast användare med behörigheten Hantera på en arbetsyta kan dela en vy offentligt.</p>
 </td>
   </tr>
 
@@ -101,9 +106,9 @@ Du kan dela en vy med följande enheter:
 
 * Du kan dela vyer med personer utanför organisationen via en offentlig länk.
 
-* När du delar en vy offentligt är länken tillgänglig för alla utanför företaget under en begränsad tid, vilket anges med utgångsdatumet. Det krävs ingen inloggning för att visa den delade tabellvyn.
+* När du delar en vy offentligt är länken tillgänglig för alla utanför företaget under en begränsad tid, vilket anges med utgångsdatumet. Det krävs ingen inloggning för att visa den delade vyn.
 
-* Personer utanför organisationen som har åtkomst till en vy kan inte skapa andra vyer, redigera den delade vyn eller lägga till, ta bort eller redigera postinformation i tabellen.
+* Personer utanför organisationen som har åtkomst till en vy kan inte skapa andra vyer, redigera den delade vyn eller lägga till, ta bort eller redigera postinformation i vyn.
 
 ## Dela behörigheter till en vy internt
 
@@ -145,16 +150,25 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
      Systemadministratörer får alltid behörigheten Hantera för vyer som delas med dem.
 
 1. Klicka på **Kopiera länk** för att kopiera en länk till vyn till Urklipp.
-1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 1. Klicka på **Spara**.
 
-   >[!TIP]
-   >
-   >   Vyer som delas med dig har en personindikator ![](assets/view-shared-with-others-people-icon.png) bredvid visningsikonen. Vyer utan personindikatorn är vyer som du har skapat.
+   Vyn uppdateras med en personikon ![](assets/view-shared-with-others-people-icon.png) som anger att vyn nu delas med andra användare.
+
+   >>
+   [!TIP]
+   >>
+   Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
+
+1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 
 ## Dela behörigheter till en vy offentligt
 
 Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera med personer som inte har någon Workfront-licens och som kan vara externa för din organisation.
+
+>[!IMPORTANT]
+>
+Endast användare med behörigheten Hantera på en arbetsyta kan dela arbetsytans vyer offentligt.
+
 
 Så här delar du en vy offentligt i Workfront Planning:
 
@@ -182,9 +196,13 @@ Så här delar du en vy offentligt i Workfront Planning:
 
 1. Klicka på **Spara**.
 
-   Vyikonen uppdateras för att ange att vyn delas offentligt.
+   Vyn uppdateras med den globala ikonen ![](assets/public-shared-view-icon-highlighted.png) som anger att vyn delas offentligt.
 
-   ![](assets/public-shared-view-icon-highlighted.png)
+   >>
+   [!TIP]
+   >
+   >Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
+
 
 1. (Valfritt) Klistra in länken som du kopierade till ett e-postmeddelande, chattmeddelande, dokument eller i en Workfront-kommentar för att dela den med andra.
 

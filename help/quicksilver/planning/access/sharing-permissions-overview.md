@@ -6,9 +6,9 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '846'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Du kan dela eller ta bort behörigheter till en arbetsyta eller vy i Adobe Workfront Planning.
+Du kan dela eller ta bort behörigheter till en Adobe Workfront Planning-arbetsyta eller -vy.
 
 I den här artikeln beskrivs behörighetsnivåerna för Workfront Planning-objekt.
 
@@ -38,11 +38,16 @@ Du kan dela följande objekt:
 * Arbetsytor
 
    * Du kan dela arbetsytor med personer i din organisation.
-   * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna. Vyer delas inte.
+   * När du delar en arbetsyta delas även alla posttyper, poster och fält som är kopplade till arbetsytorna.
+
+     När du delar en arbetsyta delas inte vyerna. Vyer delas separat.
 
 * Vyer
 
    * Du måste ge användare, inklusive systemadministratörer, behörighet att komma åt vyer separat från deras behörigheter till att komma åt arbetsytor.
+   * När du delar en vy delas alla vyelement, inklusive filter, gruppering, sortering och inställningar.
+
+     När du delar en vy delas inte de poster som visas i vyn. Posterna måste delas med arbetsytor som delar dem.
    * Du kan dela en vy offentligt med personer utanför organisationen när du genererar en offentlig länk för en vy.Personer som öppnar postsidan från en offentlig länk kan visa alla poster och deras fält, inklusive anslutna poster och fält.
 
   Mer information finns i [Dela vyer](/help/quicksilver/planning/access/share-views.md).
@@ -124,7 +129,7 @@ Följande behörighetsnivåer gäller för poster:
 
 |        | Hantera | Contribute | Visa |
 |--------|--------|------------|-------|
-| Skapa | ✓ |            |       |
+| Skapa | ✓ | ✓ |       |
 | Ta bort | ✓ | ✓ |       |
 | Redigera | ✓ | ✓ |       |
 | Visa | ✓ | ✓ | ✓ |

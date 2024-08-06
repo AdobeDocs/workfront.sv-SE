@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 68aa3f1fb0d754bb913dbf8ea4e1e64660fd0cda
+source-git-commit: fa6028c04930e2daae7d139ec3863d694484a788
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14294'
 ht-degree: 0%
 
 ---
@@ -2047,6 +2047,7 @@ ht-degree: 0%
       * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)
+      * [Översikt över posttyper för anslutning](planning/architecture/connect-record-types-overview.md)
       * [Koppla posttyper](planning/architecture/connect-record-types.md)
       * [Redigera posttyper](planning/architecture/edit-record-types.md)
       * [Ta bort arbetsytor](planning/architecture/delete-workspaces.md)

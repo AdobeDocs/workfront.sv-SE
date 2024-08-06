@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3773'
+source-wordcount: '3854'
 ht-degree: 0%
 
 ---
@@ -47,12 +47,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Nytt: 
-   <ul><li>Ljus eller högre för att logga allmänna timmar i en tidrapport</li>
-   <li>Standard för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul>
-
-
-<p>Aktuell: 
+   <td> <p>Nytt: </p>
+   <p>Ljus eller högre för att logga timmar i ett projekt, en uppgift, en utgåva eller allmänna timmar på en tidrapport</p>
+   <p>Aktuell: 
    <ul><li>Granska eller senare för att logga allmänna timmar i en tidrapport</li>
    <li>Arbeta eller senare för att logga timmar i ett projekt, en uppgift eller ett ärende</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Mer information finns i [Adobe Workfront för Android](/help/quicksilver/workfro
 
 ## Redigera loggade timmar i listor och rapporter
 
+>[!CAUTION]
+>
+>* Du kan inte ändra timposter som tillhör en stängd tidrapport. Du måste först öppna tidrapporten igen och sedan ändra informationen för timinmatning.
+>* När du ändrar timtyp från en typ som inte räknas som intäkt till en annan typ som räknas som intäkt, ändras också projektets ekonomi. Om du ändrar timtyper från en typ som räknas som intäkt till en typ som inte räknas som intäkt uppdateras även projektets ekonomi.
+>
+>Mer information finns i [Hantera timtyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
+>
 Du kan redigera loggade timmar i följande områden:
 
 * Alla områden där du lade till timmarna, inklusive öppna tidrapporter

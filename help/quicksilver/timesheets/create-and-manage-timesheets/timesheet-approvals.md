@@ -6,14 +6,16 @@ description: Processen att godkänna tidrapporter ger cheferna insyn i arbetstid
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
 
 # Godkänn en tidrapport
+
+<!--Audited: 8/2024-->
 
 Processen att godkänna tidrapporter ger cheferna insyn i arbetstiden för sina direkta rapporter. Godkännarna kan verifiera att all registrerad tid har allokerats i rätt områden och att tillräckligt många timmar har registrerats för perioden.
 
@@ -22,6 +24,8 @@ Adobe Workfront ger möjlighet att konfigurera tidrapportgodkännanden som stöd
 Information om hur du skickar in en tidrapport finns i [Skicka en tidrapport för godkännande](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -32,36 +36,41 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td> <p>Nytt: Standard</p>
+   <p>Aktuell: Planera </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Utse godkännare av tidrapporter
 
 Tidrapporter brukar godkännas av personalchefer eller personal. (Tidrapporter godkänns normalt inte av projektledare.)
 
-En tidrapportgodkännare definieras när du skapar tidrapportprofilen. Du måste ha en planlicens för att kunna utses till godkännare.
+En tidrapportgodkännare definieras när du skapar tidrapportprofilen. Du måste ha en planlicens för att kunna utses till godkännare.
 
 Mer information om hur du anger godkännare av tidrapporter finns i avsnittet [Skapa eller redigera en tidrapportprofil](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) i artikeln [Skapa, redigera och tilldela tidrapportprofiler](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ## Godkänn en tidrapport
 
-Du kan godkänna alla tidrapporter som har skickats in där du har utsetts till godkännare. När en tidrapport skickas för godkännande visas tidrapporten i området **Godkännanden** på **Hem**  sida. Mer information finns i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).
+Du kan godkänna alla tidrapporter som har skickats in där du har utsetts till godkännare. När en tidrapport skickas för godkännande visas tidrapporten i området **Godkännanden** på sidan **Hem** . Mer information finns i [Godkänna arbete](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Om Workfront-administratören har aktiverat händelsehanterarna Godkännande av tidrapport för användare och Avvisning av tidrapport för användare, meddelas du när tidrapporten har godkänts eller avvisats. Mer information om hur du aktiverar händelsemeddelanden finns i [Händelsemeddelandetyper](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 Så här godkänner du en tidrapport:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
-1. Klicka på **Tidrapporter**.
+{{step1-to-timesheets}}
+
+Området **Tidrapporter** öppnas.
+
 1. Välj **Mina tidrapportgodkännanden** i det övre högra hörnet av sidan om du bara vill visa tidrapporter som du har godkänt
 
    eller
@@ -72,7 +81,7 @@ Så här godkänner du en tidrapport:
 
    >[!NOTE]
    >
-   >Alternativet Mina tidrapportgodkännanden visas inte längst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtret Mina tidrapportgodkännanden från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
+   >Alternativet Mina tidrapportgodkännanden visas inte längst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtret Mina tidrapportgodkännanden från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
    >
    >   
    >   

@@ -6,20 +6,24 @@ description: Du kan visa det totala antalet timmar på tidrapporten. Det totala 
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
 # Visa totalt antal timmar på tidrapporten
 
+<!--Audited: 8/2024-->
+
 Du kan visa det totala antalet timmar på tidrapporten. Det totala antalet tidrapportstimmar inkluderar timmar som loggats för projekt, uppgifter, utleveranser och alla allmänna timmar.
 
 Det totala antalet timmar motsvarar timmar som skickats in via tidrapporten, uppdateringsområdet eller timområdet för projekt, uppgifter eller utgåvor.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -28,25 +32,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska </p> </td> 
+   <td> <p>Nytt: Ljus eller högre </p>
+   <p>Aktuell: Granska eller senare</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till uppgifter och ärenden</p> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td> <p>Visa eller ge högre åtkomst till uppgifter och ärenden</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter för uppgifter och problem</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan eller licenstyp du har.
+*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Visa det totala antalet timmar för en tidrapport i tidrapporthuvudet
 
@@ -56,9 +63,11 @@ Du kan visa tidrapportets totala timmar i tidrapporthuvudet.
 
 ## Visa det totala antalet timmar på tidrapporten i en lista över tidrapporter
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Tidrapporter**. Filtret **Alla** är markerat som standard och visar alla tidrapporter som du har åtkomst till.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+Området **Tidrapporter** öppnas.
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Valfritt) Uppdatera filtret i listan över tidrapporter genom att göra något av följande:
 
@@ -76,7 +85,7 @@ Du kan visa tidrapportets totala timmar i tidrapporthuvudet.
 
    >[!NOTE]
    >
-   >Alternativen Mina tidrapportgodkännanden och Mina tidrapporter visas inte högst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtren Mina tidrapportgodkännanden och Mina tidrapporter från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
+   >Alternativen Mina tidrapportgodkännanden och Mina tidrapporter visas inte högst upp i tidrapportlistan eller i filterlistan om Workfront-administratören eller en gruppadministratör har tagit bort filtren Mina tidrapportgodkännanden och Mina tidrapporter från antingen listkontrollerna i inställningsområdet eller från layoutmallen. Mer information finns i följande artiklar:
    >
    >   
    >   
@@ -98,4 +107,4 @@ Du kan visa tidrapportets totala timmar i tidrapporthuvudet.
 
    >[!TIP]
    >
-   >När du använder standardvyn för en lista med tidrapporter visas kolumnen Totalt antal timmar i rött om den tid som loggas för objekten på tidrapporten överstiger antalet timmar i tidrapporgens tidsram. Mer information finns i fältet&quot;Total Hours&quot; i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >När du använder standardvyn för en lista med tidrapporter visas kolumnen Totalt antal timmar i rött om den tid som loggas för objekten på tidrapporten överstiger antalet timmar i tidrapporgens tidsram. Mer information finns i fältet&quot;Total Hours&quot; i [Ordlista för Adobe Workfront-terminologi](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
