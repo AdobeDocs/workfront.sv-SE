@@ -11,7 +11,7 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 5c80b8f7c8934500679d31fc15a06fe3789a6f2b
+source-git-commit: 4c1b784442d000d189be076903c4c65fca42e68f
 workflow-type: tm+mt
 source-wordcount: '3236'
 ht-degree: 0%
@@ -392,7 +392,7 @@ Den här åtgärdsmodulen returnerar konfigurationen för begränsning eller beg
 * [Söka efter ett paket](#look-up-a-package)
 * [Importera ett paket](#import-a-package)
 * [Publish ett paket](#publish-a-package)
-* [Skicka in en import](#submit-an-import)
+* [Skicka en import](#submit-an-import)
 
 
 
