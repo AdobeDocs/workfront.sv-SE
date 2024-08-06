@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 969231d27e1ef2f3f3cd2847664c22f1f21f1911
+source-git-commit: 990b27821fcf5ae4f3ec954ddd3b58ed1b140319
 workflow-type: tm+mt
-source-wordcount: '6090'
+source-wordcount: '6252'
 ht-degree: 0%
 
 ---
@@ -53,10 +53,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Klicka på **Egen Forms** i den vänstra panelen.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Klicka på **Nytt anpassat formulär.**
 1. Välj vilka objekttyper du vill koppla det anpassade formuläret till och klicka sedan på **Fortsätt**.
 
@@ -76,6 +72,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Sedan kan du börja lägga till fält i det anpassade formuläret. Se följande avsnitt:
    * [Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Kommentarer till fältnamn och etiketter](#notes-on-field-names-and-labels)
    * [Lägg till textfält](#add-text-fields)
    * [Lägg till beräknade fält](#add-calculated-fields)
    * [Lägga till alternativknappar, kryssrutegrupper och listrutor](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -89,7 +86,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Du kan använda nya eller befintliga fält när du utformar ditt anpassade formulär.
 
-## Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär
+### Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär
 
 1. Klicka på **Fältbibliotek** på skärmens övre vänstra sida.
 
@@ -108,6 +105,39 @@ Du kan använda nya eller befintliga fält när du utformar ditt anpassade formu
    eller
 
    Klicka på **Spara och stäng**.
+
+### Kommentarer till fältnamn och etiketter {#notes-on-field-names-and-labels}
+
+**label** är tillgänglig för de flesta fält. Det är en beskrivande etikett som visas ovanför fältet eller widgeten i det anpassade formuläret. Du kan när som helst ändra etiketten.
+
+>[!NOTE]
+>
+>Använd inte specialtecken i den här etiketten. De visas inte korrekt i rapporter.
+
+Ett **namn** krävs för varje fält. Det här namnet är det som används i systemet för att identifiera fältet. När du konfigurerar fältet eller widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.
+
+>[!NOTE]
+>
+>Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront.
+>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.
+>
+>Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.
+>
+>Vi rekommenderar att du inte använder punkt-/punkttecken i det anpassade fältnamnet för att förhindra fel när du använder fältet i olika områden av Workfront.
+
+Följande specialtecken stöds inte i anpassade fältetiketter och namn.
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Lägg till textfält
 
@@ -158,13 +188,13 @@ Lägga till ett textfält:
     <li>Enkelradig text</li>
     <li>Stycketext</li>
     <li>Text med formatering</li>
-    <li>Beskrivande text - kommer snart</li>
+    <li>Beskrivning</li>
     </ul></td>
     </tr>
     <tr>
     <td>Etikett</td>
     <td><p>Skriv en beskrivande etikett som ska visas ovanför widgeten. Du kan när som helst ändra etiketten.<p>
-    <p>VIKTIGT: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter.</p></td>
+    <p>VIKTIGT: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p></td>
     <td><ul>
     <li>Enkelradig text</li>
     <li>Stycketext</li>
@@ -174,11 +204,7 @@ Lägga till ett textfält:
     <tr>
      <td>Namn</td>
     <td><p>(Obligatoriskt) Det här namnet är det som identifierar fältet. När du konfigurerar widgeten för första gången och skriver etiketten fylls fältet Namn automatiskt i så att det matchar det. Men fälten Etikett och Namn är inte synkroniserade, vilket ger dig frihet att ändra etiketten som användarna ser utan att behöva ändra namnet som systemet ser.</p>
-    <p><b>VIKTIGT</b>:   
-      <ul> 
-      <li>Även om det går att göra det rekommenderar vi att du inte ändrar det här namnet efter att du eller andra användare har börjat använda det anpassade formuläret i Workfront. Om du gör det kommer systemet inte längre att känna igen det anpassade fältet där det nu kan refereras till i andra områden av Workfront. <p>Om du t.ex. lägger till det anpassade fältet i en rapport och senare ändrar namnet, känner Workfront inte igen det i rapporten och det slutar fungera som det ska om du inte lägger till det i rapporten igen med det nya namnet.</p> </li>
-      <li> <p>Vi rekommenderar att du inte skriver in ett namn som redan används för inbyggda Workfront-fält.</p> </li>
-      <li><p>Vi rekommenderar att du inte använder punkt-/punkttecken i det anpassade fältnamnet för att förhindra fel när du använder fältet i olika områden av Workfront.</p></li>
+    <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p>
     </td>
     <td><ul>
     <li>Enkelradig text</li>
@@ -189,7 +215,7 @@ Lägga till ett textfält:
     </tr>
     <tr>
     <td>Instruktioner</td>
-    <td>Skriv in ytterligare information om widgeten. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.
+    <td>Ange eventuell ytterligare information om fältet. När användarna fyller i det anpassade formuläret kan de föra musen över frågeteckenikonen för att visa ett verktygstips som innehåller den information du skriver här.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
