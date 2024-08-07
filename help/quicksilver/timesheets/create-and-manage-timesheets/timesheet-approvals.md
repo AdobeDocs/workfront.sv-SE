@@ -6,9 +6,9 @@ description: Processen att godkänna tidrapporter ger cheferna insyn i arbetstid
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
    <td> <p>Nytt: Standard</p>
-   <p>Aktuell: Planera </p> </td> 
+   <p>Aktuell: Planera </p> 
+   <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till tidrapporter och timmar </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Utse godkännare av tidrapporter
 
-Tidrapporter brukar godkännas av personalchefer eller personal. (Tidrapporter godkänns normalt inte av projektledare.)
+Tidrapporter brukar godkännas av personalchefer eller personal. Tidrapporter godkänns vanligtvis inte av projektledare. Projektledare kan godkänna tidsinloggade projekt, men team- eller personalchefer bör godkänna tidrapporter.
 
 En tidrapportgodkännare definieras när du skapar tidrapportprofilen. Du måste ha en planlicens för att kunna utses till godkännare.
 

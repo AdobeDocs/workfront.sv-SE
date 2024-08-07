@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
+source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
 workflow-type: tm+mt
 source-wordcount: '2001'
 ht-degree: 0%
@@ -293,7 +293,7 @@ Så här hittar du Workfront Planning:
 
 1. Klicka på **Planering** ![](assets/planning-icon.png).
 
-   Startsidan för Workfront Planning öppnas.
+   Huvudsidan för Workfront Planning öppnas.
 
    ![](assets/planning-landing-page-admin.png)
 
@@ -303,8 +303,8 @@ Så här hittar du Workfront Planning:
 
 
 1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på någon av följande flikar:
-   * **Mina arbetsytor**: Visar arbetsytor som du har skapat.
-   * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig.
+   * **Mina arbetsytor**: Visar arbetsytor som du har skapat. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+   * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
    För alla andra användare visas alla arbetsytor som de har skapat eller har delat med dem i området **Arbetsytor** .
 

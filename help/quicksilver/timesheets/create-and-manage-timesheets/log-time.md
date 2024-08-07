@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
 source-wordcount: '3854'
 ht-degree: 0%
@@ -480,6 +480,7 @@ Mer information finns i [Adobe Workfront för Android](/help/quicksilver/workfro
 >
 >Mer information finns i [Hantera timtyper](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md).
 >
+
 Du kan redigera loggade timmar i följande områden:
 
 * Alla områden där du lade till timmarna, inklusive öppna tidrapporter

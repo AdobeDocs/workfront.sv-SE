@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,15 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 ## Att tänka på när det gäller arbetsytor
 
 * Du kan skapa arbetsytor för specifika organisationsenheter inom organisationen, så att de matchar det unika sätt som varje enhet fungerar på.
+* Beroende på din Workfront-licens visas arbetsytorna på följande flikar i Planning-området:
+
+   * För systemadministratörer visas arbetsytorna på följande flikar:
+
+      * **Mina arbetsytor**: Visar arbetsytor som du har skapat. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig. &lt;!—Ersätt med: Andra arbetsytor: Visar alla andra arbetsytor i systemet. >
+
+   * För alla andra användare visas arbetsytor som de har skapat och arbetsytor som andra delar med dem i området Arbetsytor.
+
 * De posttyper som en arbetsyta innehåller bör återspegla arbetslivscykeln för en organisationsenhet.
 * När du skapar en arbetsyta är det bara du som har behörighet att komma åt och hantera arbetsytan. Du måste dela det med andra användare för att de ska kunna samarbeta med dig på samma plats. Mer information finns i [Dela en arbetsyta](/help/quicksilver/planning/access/share-workspaces.md). Systemadministratörer kan hantera alla arbetsytor, även de som de inte skapade.
 * Du kan ha följande:
@@ -144,6 +153,7 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
    * En tom arbetsyta med namnet **Namnlös Workspace** där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
    * En arbetsyta som namnges efter mallen som du valde och som fylls med exempelposttyper. Du kan anpassa posttyperna och arbetsytan ytterligare.
 
+   För Workfront-administratörer visas den nya arbetsytan på fliken **Mina arbetsytor** . <!--replace this with: Workspaces I'm on tab-->
 1. Klicka i namnet på arbetsytan i sidhuvudet på den nya arbetsytan för att byta namn på den och tryck sedan på Retur.
 
 1. (Valfritt och villkorligt) Om du har skapat arbetsytan från en mall klickar du inuti namnet på **driftposttyperna** eller **taxonomierna** .
