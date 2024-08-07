@@ -9,9 +9,9 @@ description: Med Adobe Photoshop-modulerna kan du starta ett Adobe Workfront Fus
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3347'
+source-wordcount: '3689'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
-* [Använda Photoshop-redigeringar](#apply-psd-edits)
+* [Använda PSD-redigeringar](#apply-psd-edits)
 * [Korrigera en bild automatiskt](#auto-color-correct-an-image)
 * [Konvertera bildformat](#convert-image-format)
 * [Skapa en mask](#create-a-mask)
@@ -263,14 +263,14 @@ I den här åtgärdsmodulen används en rad dokument- och lagernivåredigeringar
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
+        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ Den här åtgärdsmodulen korrigerar automatiskt den angivna bilden.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
+        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ Den här åtgärdsmodulen konverterar en fil till JPEG, PNG, PSD eller TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
+        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ Den här åtgärdsmodulen returnerar en PNG-fil med ett mönster runt motivet.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att maskfilen ska lagras.</p>
+        <p>Välj den filtjänst där du vill att maskfilen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen där maskfilen ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen där maskfilen ska lagras. Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -575,6 +575,119 @@ Den här åtgärdsmodulen redigerar textlager i en Photoshop-fil.
    <td> Välj komprimeringsnivå för utdatafilen. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Kör Photoshop-åtgärder (JSON)
+
+Den här åtgärdsmodulen kör Photoshop-åtgärder med JSON-kommandon.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Photoshop] finns i <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Photoshop]</a> i den här artikeln.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
+      <td>
+        <p>Välj den filtjänst där filen som du vill redigera lagras.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Input) File location]</p>
+      </td>
+   <td> Ange eller mappa URL:en eller sökvägen till filen som du vill redigera. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Ange JSON-kommandot för det funktionsmakro du vill utföra.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
+      <td>
+        <p>För varje teckensnitt, mönster, pensel eller ytterligare bild som du vill använda i den här åtgärden klickar du på Lägg till objekt och anger objektets lagringsplats och filplats.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+      </td>
+   <td> Ange eller mappa URL:en eller sökvägen till filen som du vill använda. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
+      <td>
+        <p>Välj den filtjänst där du vill att den redigerade filen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Ange eller mappa URL:en eller sökvägen där den redigerade filen ska lagras.  Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Välj filtyp för den redigerade filen. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Välj om den nyligen redigerade filen ska skriva över alla utdatafiler som redan finns.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Välj komprimeringsnivå för utdatafilen. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>För varje konverterad fil som du vill skapa klickar du på Lägg till objekt och anger lagringsplats, plats och typ enligt tabellen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Välj den filtyp som du vill konvertera filen till. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Välj om den nyligen redigerade filen ska skriva över alla utdatafiler som redan finns. Detta gäller endast filer i Adobe-lager.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### Kör djuposkärpa
@@ -725,117 +838,6 @@ Den här åtgärdsmodulen kör en Photoshop-åtgärd på den markerade bilden.
    <td> Välj komprimeringsnivå för utdatafilen. </td> 
     </tr>
   </tbody>
-</table>
-
-### Kör Photoshop-åtgärder (JSON)
-
-Den här åtgärdsmodulen kör Photoshop-åtgärder med JSON-kommandon.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Instruktioner om hur du skapar en anslutning till [!DNL Adobe Photoshop] finns i <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe Photoshop]</a> i den här artikeln.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
-      <td>
-        <p>Välj den filtjänst där filen som du vill redigera lagras.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Input) File location]</p>
-      </td>
-   <td> Ange eller mappa URL:en eller sökvägen till filen som du vill redigera. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Action JSON]</td>
-      <td>
-        <p>Ange JSON-kommandot för det funktionsmakro du vill utföra.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
-      <td>
-        <p>För varje teckensnitt, mönster, pensel eller ytterligare bild som du vill använda i den här åtgärden klickar du på Lägg till objekt och anger objektets lagringsplats och filplats.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
-      </td>
-   <td> Ange eller mappa URL:en eller sökvägen till filen som du vill använda. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
-      <td>
-        <p>Välj den filtjänst där du vill att den redigerade filen ska lagras.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file URL]</p>
-      </td>
-   <td> Ange eller mappa URL:en eller sökvägen där den redigerade filen ska lagras. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file type]</p>
-      </td>
-   <td> Välj filtyp för den redigerade filen. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
-      <td>
-        <p>Välj om den nyligen redigerade filen ska skriva över alla utdatafiler som redan finns.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Compression]</p>
-      </td>
-   <td> Välj komprimeringsnivå för utdatafilen. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs]</td>
-      <td>
-        <p>För varje konverterad fil som du vill skapa klickar du på Lägg till objekt och anger lagringsplats, plats och typ enligt tabellen.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
-      <td>
-        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) File location]</p>
-      </td>
-   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) Type]</p>
-      </td>
-   <td>Välj den filtyp som du vill konvertera filen till. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
-      <td>
-        <p>Välj om den nyligen redigerade filen ska skriva över alla utdatafiler som redan finns. Detta gäller endast filer i Adobe-lager.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Maximum number of returned results]</p>
-      </td>
-   <td>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### Kör produktbeskärning
@@ -1020,14 +1022,14 @@ Den här åtgärdsmodulen identifierar huvudmotivet i bilden och tar bort bakgru
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
+        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras.  Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1115,14 +1117,14 @@ Den här åtgärdsmodulen ersätter ett smart objekt i ett PSD-lager och skapar 
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p>
+        <p>Välj den filtjänst där du vill att den nya filen ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen till den plats där den nya filen ska lagras.  Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ Den här åtgärden ändrar storlek på en bild med samma proportioner.
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
-        <p>Välj den filtjänst där filen som du vill ändra storlek på lagras.</p>
+        <p>Välj den filtjänst där filen som du vill ändra storlek på lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen till filen som du vill ändra storlek på. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen till filen som du vill ändra storlek på.  Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>
@@ -1269,18 +1271,17 @@ Den här åtgärdsmodulen lägger till en vattenstämpel till den markerade bild
       </td>
    <td> Ange eller mappa det avstånd i pixlar från bildens överkant som vattenstämpeln ska vara.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Välj den filtjänst där du vill att filen med vattenstämpel ska lagras.</p>
+        <p>Välj den filtjänst där du vill att filen med vattenstämpel ska lagras.</p><p>Om du väljer Fusion internal storage blir filen tillgänglig för senare moduler, men filen blir inte tillgänglig utanför scenariot.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Ange eller mappa URL:en eller sökvägen där filen med vattenstämpel ska lagras. </td> 
+   <td> Ange eller mappa URL:en eller sökvägen där filen med vattenstämpel ska lagras. Detta är bara nödvändigt om du inte har valt Fusion intern lagring för utdatalagringen.</td> 
     </tr>
     <tr>
       <td role="rowheader">
