@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 992a4b2c220664b660e871b3d464350d8f6f1a53
 workflow-type: tm+mt
-source-wordcount: '14301'
+source-wordcount: '14306'
 ht-degree: 0%
 
 ---
@@ -2113,6 +2113,7 @@ ht-degree: 0%
          * [Lägg till en webkrok i ett grundläggande scenario i  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Skapa en metod för automatisering i Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Skapa ett scenario för praktikintegrering i Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
+      * [AI Assistant i Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
       * [Adobe Workfront Fusion - prestandaräknare](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [IP-adresser för åtkomst till Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion-licenser](workfront-fusion/get-started/license-automation-vs-integration.md)
