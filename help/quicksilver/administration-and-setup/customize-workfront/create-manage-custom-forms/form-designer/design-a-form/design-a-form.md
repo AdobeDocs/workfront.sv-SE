@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
 ht-degree: 0%
@@ -552,7 +552,7 @@ Så här lägger du till texthuvud- och datumfält:
 
 Ett externt uppslagsfält anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan. Det externa sökfältet är också tillgängligt i listor och rapporter.
 
-Exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API finns i [Exempel på fältet för extern sökning i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+Exempel på hur du använder det externa sökfältet för att anropa samma instans av Workfront eller ett offentligt API finns i [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >

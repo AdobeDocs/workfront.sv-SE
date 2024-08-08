@@ -5,18 +5,14 @@ description: Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '1997'
+source-wordcount: '1987'
 ht-degree: 0%
 
 ---
 
 # Kom igång med listor i [!DNL Adobe Workfront]
-
-<!--
-{{highlighted-preview}}
--->
 
 Du kan visa listor med objekt i [!DNL Adobe Workfront] för att få information om dem, som start- och förfallodatum, användare som är tilldelade dem och andra objekt som är kopplade till dem.
 
@@ -208,12 +204,10 @@ Nedan visas några typer av objektlistor som du kan hitta i [!DNL Workfront] och
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">Lista över anpassade formulär</td> 
+   <td>Lista över anpassade formulär</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>Obs!</b> Det här är för närvarande bara tillgängligt i förhandsvisningsmiljön</p> </li> 
+     <li>[!UICONTROL Setup] &gt;[!UICONTROL Custom Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 

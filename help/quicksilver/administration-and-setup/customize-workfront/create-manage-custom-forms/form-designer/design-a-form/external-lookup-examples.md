@@ -3,25 +3,25 @@ title: Exempel på det externa sökfältet i ett anpassat formulär
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Ett externt uppslagsfält i ett anpassat formulär anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API.
+description: Ett fält för extern sökning i ett anpassat formulär anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Exempel på det externa sökfältet i ett anpassat formulär
 
-Ett externt uppslagsfält i ett anpassat formulär anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan.
+Ett fält för extern sökning i ett anpassat formulär anropar ett externt API och returnerar värden som alternativ i ett nedrullningsbart fält. Användare som arbetar med objektet som det anpassade formuläret är kopplat till kan välja ett eller flera av dessa alternativ i listrutan.
 
 I den här artikeln finns exempel på hur du använder fältet för extern sökning för att anropa samma instans av Workfront eller ett offentligt API. Du kan också använda den externa sökningen för att kommunicera med ett externt system som Jira, Salesforce eller ServiceNow.
 
-Mer information om hur du lägger till ett externt uppslagsfält i ett anpassat formulär och ytterligare definitioner för de externa uppslagskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om hur du lägger till ett externt sökfält i ett anpassat formulär och ytterligare definitioner för de externa sökningskomponenterna finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Konfigurera ett externt sökfält för samma instans av Workfront
 
@@ -72,9 +72,9 @@ I det här exemplet visas hur du anropar Workfront API och hämtar data från de
 
    ![Alternativ för extern sökning baserat på status](assets/external-lookup-project-status-example2.png)
 
-### Använd anpassade fältvärden i den externa sökningen
+### Använd anpassade fältvärden i extern sökning
 
-I det här exemplet visas hur du anropar Workfront API och hämtar data från ett anpassat fält till fältet för extern sökning. Det anpassade exempelfältet heter&quot;Egna färger&quot;.
+I det här exemplet visas hur du anropar Workfront API och hämtar data från ett anpassat fält till det externa sökfältet. Det anpassade exempelfältet heter&quot;Egna färger&quot;.
 
 1. Öppna det anpassade formuläret.
 1. Leta upp **extern sökning** till vänster på skärmen och dra den till ett avsnitt på arbetsytan.
@@ -167,3 +167,23 @@ Visar alla länder: <https://api.first.org/data/v1/countries>
    ![Anpassat formulär med externt sökfält](assets/external-lookup-countries-example1.png)
 
    ![Alternativ för extern sökning för ett land baserat på region](assets/external-lookup-countries-example2.png)
+
+## Fler användningsexempel för externa sökfält
+
+Det finns många andra användningsområden för att skapa en extern sökning.
+
+**Använd skiftläge:** Ersätt typsnittsfält eftersom de kan orsaka problem med rapporteringen.
+**Lösning:** Använd ett API-anrop till befintliga objekt i systemet.
+
+Exempel på bas-API-URL för mallar som ersätter ett typsnittsfält:
+`$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**Använd skiftläge:** Skapa listrutefält med fler funktioner (det finns t.ex. radbrytning i fältet Extern sökning).
+**Lösning:** Använd ett API-anrop till befintliga objekt i systemet eller skapa ett nytt objekt och använd ett API-anrop till det här objektet.
+
+**Använd skiftläge:** Definiera ett sätt för användare att behålla sina egna fält utanför det anpassade formulärområdet. Konfigurera fältet Extern sökning så kan du ge användarna till de objekt som fältet består av. Det här alternativet passar bra för underhållsområden och team.
+**Lösning:** Skapa ett nytt objekt och använd ett API-anrop till det här objektet.
+
+**Använd skiftläge:** Integrering med objekt utanför Workfront. Du kan till exempel få åtkomst till ett annat system för att få namnet på varje användare, i stället för att begränsas i ett typsnittsfält.
+**Lösning:** Webkrok-/Fusion-automatisering för att ansluta till andra system.
+
