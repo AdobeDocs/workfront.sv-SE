@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 ## Adobe Workfront-förbättringar
 
 * [Projektförbättringar](#project-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Projektförbättringar
@@ -95,6 +96,42 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
            </tbody>
         </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av inloggningsfunktionen för Outlook-integrering</a></p>
+                        <p>Inloggningen för Outlook-integrering har strömlinjeformats så att alla kunder ser samma knapp för att logga in på Workfront oavsett om de är IMS-aktiverade eller inte. De efterföljande inloggningsstegen skiljer sig åt för IMS- och icke-IMS-instanser, men den inledande sidan är densamma för alla användare.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 6 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 6 augusti 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### Andra förbättringar
 
