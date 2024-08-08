@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Du kan importera användare till Adobe Workfront-platsen genom att synkronisera användare från en nätverkskatalogtjänst (till exempel Active Directory eller en annan LDAP-katalog) eller importera användare med hjälp av en kalkylbladsimportfil.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 1949a0bb213553f1f1f252c4382a90514fcd0b5b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Du kan importera användare med hjälp av en kalkylbladsimportfil.
 Innan du skapar en ny användare måste du se till att du har skapat alla objekt som du vill associera med användaren. Om du till exempel inte har skapat ett schema kan du inte tilldela det till den nya användaren ett schema, och fältet som du använder för att associera ett schema med den nya användaren visas inte på skärmen Ny användare.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -60,9 +62,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
++++
+
 ## Använd en kalkylbladsimportfil för att importera användare
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
 
 1. Klicka på listrutan **Ny användare** och sedan på **Importera användare**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -47,6 +47,8 @@ Du kan återaktivera en användare när som helst.
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
++++
+
 ## Förutsättningar
 
 Innan du inaktiverar en Workfront-administratör, Standard eller Plan-licens måste du koppla deras objekt och aktiviteter till en annan användare.
@@ -90,7 +94,7 @@ Tänk på följande när du inaktiverar en användare:
 
 Så här inaktiverar du en användare:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
 
 1. Markera en användare, klicka på ikonen **Mer** ![](assets/more-icon.png) och klicka sedan på **Inaktivera**.
 
@@ -104,7 +108,7 @@ Workfront-administratörer och användare av Planera licenser kan se avaktiverin
 
 Så här schemalägger du en användare för inaktivering:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
 
 1. Välj användarens namn.
 
@@ -131,7 +135,7 @@ Vi rekommenderar att du skapar en rapport för användare som du har schemalagt 
 
 ## Återaktivera en användare
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
 
 1. Markera en användare, klicka på ikonen Mer ![](assets/more-icon.png) och sedan på **Aktivera**.
 

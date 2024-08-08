@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Ändra lösenordet för en användare som har tilldelats automatiskt
-description: När en ny användare försöker ändra sitt tillfälliga lösenord anger han/hon ofta sin e-postadress och får ett felmeddelande om ett felaktigt användarnamn. De måste ange sitt systemtilldelade användarnamn, som är deras GUID (Global Unique Identifier). Eftersom det är svårt att komma ihåg och använda ett GUID rekommenderar vi att du ändrar en ny användares användarnamn till e-postadressen i Workfront och sedan tillåter att användaren ändrar sitt lösenord.
-author: Caroline
+title: Ändra lösenordet för en automatiskt tilldelad användare
+description: Vi rekommenderar att du ändrar en ny användares användarnamn till e-postadressen för Workfront och sedan låter användaren ändra sitt lösenord.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ Eftersom det kan vara svårt att använda GUID-användarnamn rekommenderar vi at
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Ändra lösenordet för en användare som har tilldelats automatiskt
 

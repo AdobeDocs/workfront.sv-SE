@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '807'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ När en användare lämnar organisationen kan du ta bort den användaren från A
 -->
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -59,6 +61,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Ta bort kontra inaktivera en användare
 
@@ -118,9 +122,8 @@ Du kan ta bort användare en åt gången permanent eller ta bort flera användar
 
 ## Ta bort en eller flera användare
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step-1-to-users}}
 
-1. Klicka på **Användare**.
 1. Markera minst en användare som du vill ta bort, klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Ta bort**.
 1. I rutan som visas klickar du på **Ta bort** för att bekräfta borttagningen.
 

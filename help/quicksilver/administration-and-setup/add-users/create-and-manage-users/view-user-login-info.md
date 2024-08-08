@@ -1,16 +1,16 @@
 ---
-title: Visa inloggningsinformation för användare
+title: Visa information om användarinloggning
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Du kan se hur ofta användare loggar in på Workfront, liksom den senaste gången de loggade in, genom att ange att du vill inkludera informationen i en lista över användare eller i en rapport för användare.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Du kan se hur ofta användare loggar in på Adobe Workfront, liksom den senaste gången de loggade in, genom att ange att du vill inkludera informationen i en lista över användare eller i en rapport för användare.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -45,6 +47,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Hur Workfront registrerar inloggningsinformation
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2242'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Du kan redigera flera användarkonton samtidigt. När användare gruppredigeras 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -63,9 +65,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
++++
+
 ## Redigera flera användarkonton samtidigt
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
 
 1. Markera mer än en användare och klicka sedan på ikonen Redigera ![](assets/edit-icon.png).
 

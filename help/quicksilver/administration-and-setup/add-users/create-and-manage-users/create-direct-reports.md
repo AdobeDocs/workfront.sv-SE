@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Du kan ange användare som direkta rapporter till en annan användare. På så sätt kan du skapa ett organisationsschema som visar organisationens hanteringsstruktur.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Du kan ange användare som direkta rapporter till en annan användare. På så sätt kan du skapa ett organisationsschema som visar organisationens hanteringsstruktur. Mer information finns i [Visa organisationsschemat](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
++++
+
 ## Skapa direktrapporter
 
 1. Börja redigera en användare enligt beskrivningen i [Redigera en användarprofil](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -54,6 +58,5 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    Det här fältet får inte vara tomt.
 
 1. I fältet **Direktrapporter** anger du eventuella användare som rapporterar till den användare som du redigerar.
-
 1. (Valfritt) I fältet **Rapporter till** anger du namnet på den användare som den här användaren rapporterar till.
 1. Klicka på **Spara ändringar**.

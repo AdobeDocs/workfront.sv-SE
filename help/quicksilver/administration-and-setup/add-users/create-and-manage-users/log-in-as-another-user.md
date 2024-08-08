@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -48,6 +48,8 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -73,6 +75,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Logga in och utför åtgärder som en annan användare
 
