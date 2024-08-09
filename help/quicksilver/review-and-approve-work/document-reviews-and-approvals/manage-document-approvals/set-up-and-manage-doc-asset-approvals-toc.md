@@ -2,18 +2,18 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex"
+title: 'Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex'
 description: Det här avsnittet innehåller artiklar om hur du hanterar godkännande av resurser och dokument i Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '91'
+source-wordcount: '98'
 ht-degree: 0%
 
 ---
-
 
 # Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex
 
@@ -25,3 +25,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Ta bort godkännare eller granskare från en resurs eller ett dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Skapa en godkännandemall för resurser och dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 * [Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+* [Använd godkännanden och korrektur av nya dokument tillsammans](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
