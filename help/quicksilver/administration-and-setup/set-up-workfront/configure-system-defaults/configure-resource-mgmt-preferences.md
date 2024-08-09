@@ -4,13 +4,13 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: Konfigurera inställningar för resurshantering
 description: Som  [!DNL Adobe Workfront] administratör kan du konfigurera inställningarna för resurshantering för ditt system. De här resurshanteringsinställningarna avgör hur användartillgänglighet eller -kapacitet och FTE beräknas för  [!DNL Workfront] resursplanerings- och planeringsverktygen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '667'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Som [!DNL Adobe Workfront]-administratör kan du konfigurera [!UICONTROL Resourc
 </table>
 -->
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören
  </tbody> 
 </table>
 
++++
+
 ## Information som beaktas vid beräkning av en användares kapacitet
 
 Vid beräkning av en användares kapacitet tar Workfront hänsyn till följande information:
@@ -97,7 +101,8 @@ Mer information om planering och planering av resurser i [!DNL Workfront] finns 
 >
 >Eftersom det här är en global inställning påverkar det här valet alla beräkningar för hela systemet, för alla användare, i alla resurshanteringsverktyg.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Klicka på **[!UICONTROL Resource Management]**.
 1. Välj en av följande metoder för att beräkna tillgängligheten för användare i [!DNL Workfront]:
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Graderingskort gör att din organisation enkelt kan hantera faktureringstaxor för projekt. Mer information finns i [Hantera tariffkort](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). Som administratör för [!DNL Adobe] [!DNL Workfront] kan du konfigurera de standardplatser som är tillgängliga för tilldelning till jobbroller i tariffkort. Detta garanterar att priskorten korrekt återspeglar marknadsräntorna på varje plats.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,6 +46,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Konfigurera platser för hela organisationen
 

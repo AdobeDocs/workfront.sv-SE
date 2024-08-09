@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Skapa, redigera och dela standardfilter, vyer och grupperingar
 description: Du kan skapa standardfilter, -vyer och -grupperingar och sedan göra dem tillgängliga för användare i organisationen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '776'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ Du kan skapa standardfilter, -vyer och -grupperingar och sedan göra dem tillgä
 När du skapar standardfilter, vyer och grupperingar enligt beskrivningen i den här artikeln kan användare som du delar dem med utnyttja dem när de visar sina listor. Användare kan skapa egna filter, vyer och grupperingar baserat på de som du skapar, men de kan inte ändra direkt på dem som du skapar.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -47,6 +49,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Skapa standardfilter, vyer eller grupperingar
 

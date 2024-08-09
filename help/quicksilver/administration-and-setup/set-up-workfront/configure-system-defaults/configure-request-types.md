@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: Konfigurera begärandetyper
+title: Konfigurera frågetyper
 description: När du arbetar med ett projekt kanske du upptäcker att oväntade händelser inträffar. Du kan logga oväntade händelser som problem för ett visst projekt eller en viss uppgift. Du kan också skicka begäranden som spelas in som utleveranser i ett projekt som har angetts som en frågekö. Problem och förfrågningar anses vara utbytbara i Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ När du arbetar med ett projekt kanske du upptäcker att oväntade händelser in
 Mer information om hur du skapar problem i [!DNL Workfront] finns i [Skapa problem](../../../manage-work/issues/manage-issues/create-issues.md). Mer information om hur du skapar begäranden i [!DNL Workfront] finns i [Skapa och skicka [!DNL Adobe Workfront] förfrågningar](../../../manage-work/requests/create-requests/create-submit-requests.md). Mer information om hur du associerar frågetyper med projekt finns i [Definiera frågetyper för ett projekt](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -43,6 +45,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ Som [!DNL Workfront]-administratör kan du konfigurera namnen på förfrågnings
 
 Så här anpassar du namnen på begärandetyperna:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
 

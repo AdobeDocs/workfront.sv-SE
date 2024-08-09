@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Låsa eller låsa upp projektinställningar för alla grupper i systemet
+title: Lås eller lås upp projektinställningar för alla grupper i systemet
 description: Grupper i din organisation kan behöva en projektinställning som är annorlunda konfigurerad för sina unika arbetsflöden. Du kan låsa upp inställningen för alla grupper i hela organisationen så att de kan konfigurera den på egen hand.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: 3e97df265df83965d094d8723fe76043ff4af80e
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '543'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Grupper i din organisation kan behöva en projektinställning som är annorlunda
 När en inställning är olåst och gruppadministratören ändrar den, hämtas konfigurationen för den inställningen från gruppnivåinställningen i stället för från systemnivåinställningen för de projekt som är kopplade till gruppen.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,6 +46,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Om låsta och olåsta inställningar
 
 Genom att låsa ett projekt, en uppgift eller en utgåva som du har konfigurerat på systemnivå kan du vara säker på att alla använder samma inställning för den inställningen. Även om du fortfarande kan konfigurera om en inställning som du låser kan gruppadministratörer inte konfigurera om den för sina grupper.
@@ -60,7 +64,7 @@ Instruktioner om hur du låser eller låser upp ett projekt, en uppgift eller en
 
 ## Lås upp en projektinställning så att grupper kan konfigurera den
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Project Preferences]** och sedan på **[!UICONTROL Projects]**.
 

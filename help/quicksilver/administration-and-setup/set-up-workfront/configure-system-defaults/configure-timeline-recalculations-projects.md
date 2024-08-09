@@ -4,13 +4,13 @@ product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
 title: Konfigurera tidslinjeomberäkningar för projekt
 description: Genom att beräkna om tidslinjer kan chefer se hur krafter utanför projektet påverkar projektets tidslinje. Ett projekts tidslinje hänvisar till planerade och planerade datum för projektet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Som [!DNL Adobe Workfront]-administratör kan du manuellt beräkna om tidslinjer
 I den här artikeln beskrivs hur du som [!DNL Workfront]-administratör kan bestämma hur och när [!DNL Workfront] automatiskt beräknar projekttidslinjer genom att konfigurera projektinställningar i området [!UICONTROL Setup].
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -46,11 +48,13 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
++++
+
 ## Konfigurera automatiska omberäkningar
 
 Som [!DNL Adobe Workfront]-administratör kan du konfigurera när [!DNL Workfront] automatiskt beräknar om projekttidslinjer. [!DNL Workfront] kan beräkna om projekttidslinjer antingen varje kväll eller när projektomfånget ändras, eller både och.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen [!UICONTROL **Huvudmeny**] ![](assets/lines-main-menu.png) i det övre vänstra hörnet av [!DNL Workfront], om den är tillgänglig, och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 

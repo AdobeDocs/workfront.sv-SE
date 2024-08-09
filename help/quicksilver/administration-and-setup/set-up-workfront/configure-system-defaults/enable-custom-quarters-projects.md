@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Aktivera anpassade kvartal för projekt
 description: I rapporteringssyfte kan du skapa anpassade kvartal om organisationens kvartal baseras på andra specifika villkor än kalenderdatum (t.ex. arbetsdagar eller kunddagar).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ I rapporteringssyfte kan du skapa anpassade kvartal om organisationens kvartal b
 Du kan konfigurera upp till åtta anpassade kvartal för ditt [!DNL Adobe Workfront]-system.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,9 +46,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Konfigurera anpassade kvartal för ditt [!DNL Workfront]-system
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 

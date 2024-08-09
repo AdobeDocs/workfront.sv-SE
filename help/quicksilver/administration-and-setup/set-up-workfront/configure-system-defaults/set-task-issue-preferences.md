@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Konfigurera inställningar för uppgifter och problem i hela systemet
+title: Konfigurera inställningar för aktiviteter och problem i hela systemet
 description: Du kan konfigurera systemomfattande inställningar för uppgifter och problem. Dessa inställningar påverkar hur dina användare skapar uppgifter och problem i Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 0%
@@ -74,7 +74,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Arbeta på den</a> </li>
-  -->
+  —&gt;
 
 * [[!UICONTROL Access]](#access)
 
@@ -118,7 +118,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL När ett problem konverteras till en uppgift]</td> 
+    <td role="rowheader" [!UICONTROL>När ett problem konverteras till en uppgift]</td> 
     <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till uppgift:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: När du konverterar ett problem förblir det synligt som ett problem tills det är klart. Status för problemet ändras automatiskt till [!UICONTROL Closed] när aktiviteten slutförs. När detta är avmarkerat tas problemet bort.</p> <p><b>OBS</b>:  <p>Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:</p> 

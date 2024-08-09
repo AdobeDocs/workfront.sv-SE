@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Konfigurera systemomfattande projektinställningar
+title: Konfigurera inställningar för systemomfattande projekt
 description: Som  [!DNL Adobe Workfront] administratör kan du konfigurera standardinställningarna för alla projekt som skapas i hela systemet. Inställningarna påverkar projekt, uppgifter och problembeteende.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2123'
 ht-degree: 0%

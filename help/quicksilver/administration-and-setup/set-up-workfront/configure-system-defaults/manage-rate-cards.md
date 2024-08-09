@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Med tariffkort kan du definiera flera faktureringspriser per roll, baserat på plats. Du kan vara Designer-baserad i Paris och en andra Designer-baserad i New York, var och en med olika faktureringstaxor. Det krävs dock ingen plats för jobbroller på ett tariffkort. En faktureringsfrekvens för en jobbroll (och eventuell plats) på ett kurskort kan även innehålla giltighetsdatum.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Lägg till ett tariffkort
 

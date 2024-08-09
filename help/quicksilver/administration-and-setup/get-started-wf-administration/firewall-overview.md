@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: Översikt över brandväggen
 description: Eftersom Adobe Workfront kommunicerar med din organisations nätverk måste organisationens brandvägg vara konfigurerad för att tillåta sådan kommunikation. Brandväggar är mycket effektiva säkerhetsåtgärder som fungerar genom att en organisations nätverk skiljs från internet. De ser till att endast utvalda data- och nätverkstrafik kan flyttas in i eller ut ur organisationens nätverk. Brandväggen tillåter eller blockerar data baserat på den webbplats som skickar eller tar emot data. Som Adobe Workfront-administratör måste du se till att data som skickas till eller från Workfront kan passera företagets brandvägg.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Ge nätverksadministratören följande information:
 
 ### Visa din organisations kluster och Workfront-plan {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Setup]** ![ikonen Konfigurera](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. Klicka på **System** i den vänstra panelen
 1. Välj **Kundinformation** om du vill visa klustret.

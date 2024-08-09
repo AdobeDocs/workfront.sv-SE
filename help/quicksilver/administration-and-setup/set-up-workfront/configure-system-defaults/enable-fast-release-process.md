@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Aktivera eller inaktivera snabba releaser för din organisation
+title: Aktivera eller inaktivera snabbversioner för din organisation
 description: Du kan välja om du vill få nya Workfront-funktioner månadsvis eller kvartalsvis.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,8 @@ Tänk på följande när du aktiverar eller inaktiverar snabbversionsprocessen:
 
 Så här aktiverar eller inaktiverar du snabbversionsprocessen:
 
-1. Klicka på ikonen **Huvudmeny** och sedan på **Konfigurera**.
+{{step-1-to-setup}}
+
 1. Expandera **System** i den vänstra navigeringen och klicka sedan på **Inställningar**.
 1. Markera kryssrutan **Tillåt snabbsläppsprocess** om du vill aktivera snabba releaser.
 

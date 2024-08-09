@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Anpassa standardproblemtyper
 description: Du kan anpassa etiketterna för varje standardutgåva för att bättre matcha den terminologi som används i organisationen. Problemtyper är användbara när du vill anpassa utgivningsstatus och skapa begärandeköer.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Problemtyper är användbara i följande fall:
 Du kan anpassa etiketterna för varje standardutgåva för att bättre matcha den terminologi som används i organisationen.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Standardutgivningstyper
 
@@ -70,7 +74,7 @@ Tänk på följande när du anpassar problemtyper:
 
 Så här anpassar du en problemtyp:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
 

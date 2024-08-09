@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Konfigurera brandväggens tillåtelselista
+title: Konfigurera brandväggens Tillåtelselista
 description: Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista. Detta öppnar kommunikationen mellan din miljö och Adobe Workfront-servrarna och gör att dina användare kan skicka meddelanden från Workfront och använda enkel inloggning med Active Directory eller LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,8 @@ IP-adresserna som du måste lägga till i tillåtelselista på brandväggen bero
 
 Så här hittar du din organisations kluster:
 
-1. Som Workfront-administratör klickar du på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och sedan på **Konfigurera** .
+{{step-1-to-setup}}
+
 1. Klicka på **System** i den vänstra navigeringen och välj sedan **Kundinformation**.
 1. Leta reda på fältet **Klusterinställning** längst upp till höger på sidan. Organisationens kluster listas här.
 

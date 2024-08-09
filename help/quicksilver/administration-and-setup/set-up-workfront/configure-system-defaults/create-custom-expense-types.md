@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Skapa anpassade utgiftstyper
 description: Som  [!DNL Adobe Workfront] administratör kan du skapa anpassade utgiftstyper för att definiera och spåra utgifter som är kopplade till dina aktiviteter och projekt. Utgifter är icke-arbetskostnader som kan kopplas till uppgifter eller projekt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -24,6 +24,8 @@ Som [!DNL Adobe Workfront]-administratör kan du skapa anpassade utgiftstyper f�
 Du kan redigera eller ta bort alla utgiftstyper som du skapar. Du kan inte ta bort eller redigera de inbyggda [!DNL Workfront] utgiftstyperna.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Standardutgiftstyper
 
 Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras med följande:
@@ -59,7 +63,8 @@ Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras me
 
 ## Skapa anpassade utgiftstyper
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Klicka på **[!UICONTROL Expense Types]**.
 1. Klicka på **[!UICONTROL New Expense Type]**.
 1. Ange följande information i rutan **[!UICONTROL New Expense Type]** som visas:
@@ -101,7 +106,8 @@ Utgiftstyperna som finns i [!DNL Workfront] kan inte tas bort eller redigeras me
 
 ## Ändra anpassade utgiftstyper
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Klicka på **[!UICONTROL Expense Types]**.
 1. Välj den utgiftstyp som du vill ändra och klicka sedan på **[!UICONTROL Edit]**.
 
