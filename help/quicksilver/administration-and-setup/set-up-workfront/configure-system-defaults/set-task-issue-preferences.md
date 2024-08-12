@@ -118,7 +118,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>När ett problem konverteras till en uppgift]</td> 
+    <td role="rowheader">[!UICONTROL När ett problem konverteras till en uppgift]</td> 
     <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till uppgift:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: När du konverterar ett problem förblir det synligt som ett problem tills det är klart. Status för problemet ändras automatiskt till [!UICONTROL Closed] när aktiviteten slutförs. När detta är avmarkerat tas problemet bort.</p> <p><b>OBS</b>:  <p>Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:</p> 
