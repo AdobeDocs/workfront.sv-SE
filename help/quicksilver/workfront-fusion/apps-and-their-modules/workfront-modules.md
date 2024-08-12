@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '5783'
+source-wordcount: '5804'
 ht-degree: 0%
 
 ---
@@ -147,7 +147,8 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 >[!NOTE]
 >
->Om du inte ser de mest aktuella fälten i en Workfront-modul kan det bero på problem med cachelagring. Vänta en timme och försök igen.
+>* Om du inte ser de mest aktuella fälten i en Workfront-modul kan det bero på problem med cachelagring. Vänta en timme och försök igen.
+>* HTTP 429-statuskoder från Adobe Workfront bör inte orsaka inaktiveringar, utan i stället utlösa en kort körningspaus i scenariot.
 
 ![](assets/map-toggle-350x74.png)
 
