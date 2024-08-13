@@ -1,5 +1,5 @@
 ---
-title: Varumärk Adobe Workfront med en layoutmall
+title: Märk Adobe Workfront med en layoutmall
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,8 @@ Mer information om layoutmallar för grupper finns i [Skapa och ändra en grupps
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Varumärk Adobe Workfront med en layoutmall
 

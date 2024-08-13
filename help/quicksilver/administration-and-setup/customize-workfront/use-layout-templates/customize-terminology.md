@@ -1,5 +1,5 @@
 ---
-title: Anpassa användargränssnittsterminologi med hjälp av en layoutmall
+title: Anpassa användargränssnittets terminologi med hjälp av en layoutmall
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Anpassa användargränssnittets terminologi
 

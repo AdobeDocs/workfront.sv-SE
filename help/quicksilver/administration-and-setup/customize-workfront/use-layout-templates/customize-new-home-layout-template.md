@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '840'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,8 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Anpassa nytt hem med en layoutmall
 

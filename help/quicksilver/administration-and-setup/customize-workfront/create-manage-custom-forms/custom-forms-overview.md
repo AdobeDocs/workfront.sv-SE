@@ -1,5 +1,5 @@
 ---
-title: Översikt över anpassade formulär
+title: Översikt över anpassade Forms
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ ht-degree: 0%
 # Översikt över anpassade formulär
 
 <!--Audited: 12/2023-->
+
+{{highlighted-preview}}
 
 {{form-designer-default}}
 
@@ -30,6 +32,8 @@ Du kan t.ex. bifoga ett anpassat formulär med namnet&quot;Marketing Content Res
 ## Skapa ett eget formulär
 
 Formulärdesignern har en arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt. Du kan också dra och släppa fält i avsnitten när du utformar formuläret. Du kan ändra storlek på skärmens högra sida för att ge mer utrymme för fältalternativen.
+
+<span class="preview">Med en **Layout**-knapp (visas inte i den här bilden) kan du välja mellan två- eller trekolumnsarbetsytor. Knappen anger vilken layout som är markerad. Layouten med tre kolumner visar fältinställningarna i kolumnen längst till höger. I layouten med två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.</span>
 
 Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

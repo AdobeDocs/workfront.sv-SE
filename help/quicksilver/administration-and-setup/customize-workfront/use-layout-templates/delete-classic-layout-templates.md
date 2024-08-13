@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Layoutmallar från den klassiska Workfront-upplevelsen är inte längre tillgän
 Du kan lösa dessa inkonsekvenser genom att ta bort de klassiska layoutmallarna. Eftersom de inte är tillgängliga i Workfront-gränssnittet måste du använda Workfront API för att ta bort dem.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -43,6 +45,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Ta bort klassiska layoutmallar med ett API-anrop
 
