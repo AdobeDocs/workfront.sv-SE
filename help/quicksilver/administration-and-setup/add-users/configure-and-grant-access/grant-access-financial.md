@@ -1,16 +1,16 @@
 ---
-title: Bevilja åtkomst till finansiella uppgifter
+title: Bevilja åtkomst till finansiella data
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Som Adobe Workfront-administratör kan du definiera en användares åtkomst till ekonomiska data i Workfront via åtkomstnivån.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Som Adobe Workfront-administratör kan du definiera en användares åtkomst till
 * Resursbudgetinformation i Resursplaneringsverktygen
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Överväganden att bevilja tillgång till finansiella uppgifter
 

@@ -1,18 +1,18 @@
 ---
-title: Visa användarnas åtkomstnivåer och licenser
+title: Visa dina användares åtkomstnivåer och licenser
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: åtkomst,nivå,licens
 navigation-topic: access-levels
 description: Du kan se vilken åtkomstnivå och licens som tilldelas varje användare i en användarlista eller rapport.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 Du kan se vilken åtkomstnivå och licens som tilldelas varje användare i en användarlista eller rapport.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -46,11 +48,13 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Visa användarnas åtkomstnivåer och licenser
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare**.
+{{step-1-to-users}}
 
-   Som standard visas alla användare som är inställda som aktiva i listan.
+Som standard visas alla användare som är inställda som aktiva i listan.
 
 1. Välj **Licenser** i listrutan **Visa**.
 

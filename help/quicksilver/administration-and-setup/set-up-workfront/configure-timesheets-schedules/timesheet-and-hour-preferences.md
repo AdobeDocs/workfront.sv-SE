@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1261'
 ht-degree: 0%
 
 ---
@@ -33,11 +33,11 @@ Som [!DNL Adobe Workfront]-administratör kan du ange inställningar för tidrap
 >
 >Mer information finns i [Loggtid](../../../timesheets/create-and-manage-timesheets/log-time.md) och [Översikt över tidrapporten](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-
-
 Alla ändringar du gör i tidrapporter påverkar alla tidrapporter som skapas i framtiden.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -64,6 +64,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ange inställningar för tidrapport och timme
 

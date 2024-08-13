@@ -1,13 +1,13 @@
 ---
-title: Ge användarna administrativ åtkomst till vissa områden
+title: Bevilja användare administrativ åtkomst till vissa områden
 description: Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge användare med en avtalslicens administrativ åtkomst till vissa delar av systemet.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att ge 
 >Detta skiljer sig från att ge en användare fullständig administrativ åtkomst till Workfront, vilket förklaras i [Bevilja en användare fullständig administrativ åtkomst](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md). &#x200B;
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -45,13 +47,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Bevilja plananvändare administrativ åtkomst till vissa delar av Workfront
 
 >[!IMPORTANT]
 >
 >Vi rekommenderar att du låter de inbyggda åtkomstnivåerna vara oförändrade så att du kan referera till dem när du har konfigurerat användarna. Om du vill anpassa en åtkomstnivå kopierar du standardåtkomstnivån och ändrar kopian. (Du kan göra detta för alla åtkomstnivåer förutom systemadministratör och extern användare.)
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Åtkomstnivåer** i den vänstra panelen.
 1. Klicka på namnet på den åtkomstnivå som du vill använda för att ge användare administrativ åtkomst till vissa delar av Workfront.

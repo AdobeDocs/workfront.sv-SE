@@ -1,16 +1,16 @@
 ---
-title: Ge åtkomst till rapporter, instrumentpaneler och kalendrar
+title: Bevilja åtkomst till rapporter, instrumentpaneler och kalendrar
 user-type: administrator
 product-area: system-administration;dashboards;calendars
 navigation-topic: configure-access-to-workfront
 description: Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till rapporter, instrumentpaneler och kalendrar i Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 776bb223-3481-4ea9-8049-276b2dec95c5
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Den här åtkomsten ger även åtkomst till externa sidor. Mer information om ex
 >Mer information om behörigheter som användare kan bevilja för en rapport, instrumentpanel eller kalender när de delar den finns i [Dela rapporter, instrumentpaneler och kalendrar](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Konfigurera användaråtkomst till rapporter, instrumentpaneler och kalendrar med en anpassad åtkomstnivå
 

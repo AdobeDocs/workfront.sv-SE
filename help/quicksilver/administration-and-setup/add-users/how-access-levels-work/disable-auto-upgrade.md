@@ -1,18 +1,18 @@
 ---
-title: Inaktivera alternativet för automatisk uppgradering för obetalda användare i den nya licensplanen
+title: Inaktivera alternativet för automatisk uppgradering för icke-betalda användare i den nya licensplanen
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: åtkomst,nivå,system,administratör,standard,ljus,medarbetare
 navigation-topic: access-levels
 description: Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront. Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Du kan inaktivera alternativet för automatisk uppgradering från inställningso
 >När detta är inaktiverat uppgraderas inte obetalda användare som överträffar det angivna antalet beslut automatiskt.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Inaktivera automatiska uppgraderingar för obetalda användare
 

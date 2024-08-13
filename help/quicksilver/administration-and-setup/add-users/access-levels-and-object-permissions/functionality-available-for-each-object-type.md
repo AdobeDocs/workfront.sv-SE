@@ -6,13 +6,13 @@ keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
 navigation-topic: access-levels
 title: Tillgängliga funktioner för varje objekttyp för olika åtkomstnivåer
 description: I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -519,7 +519,7 @@ Endast användare med en planlicens kan ha fullständig åtkomst till [utvalda o
 |---|---|---|---|---|---|
 | Redigera prioriteringar och budgettimmar i planeraren | ✓&#42; |   |   |   |   |
 | Skapa, redigera och ta bort resurspooler&#42;&#42; | ✓&#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| Uppdatera planerade timmar i arbetsbelastningsutjämnaren &#42;&#42;&#42; | ✓* |   |   |   |   |
 | Visa projektprioriteringar i Resursplanering | ✓&#42; |   |   |   |   |
 | Visa resursallokering i verktygen för resursplanering | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | Visa resurspooler | ✓&#42; | ✓&#42; | ✓&#42; |   |   |

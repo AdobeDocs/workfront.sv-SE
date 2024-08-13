@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Aktivera Outlook för Workfront och SAML 2.0
+title: Aktivera Outlook för användning med Workfront och SAML 2.0
 description: Om du aktiverar SAML 2.0-autentisering och du vill att dina användare ska kunna logga in på Workfront från Microsoft Outlook med sina SAML 2.0-inloggningsuppgifter, måste du aktivera SAML 2.0 för autentisering i Office-tillägg.
-author: Caroline, Becky
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Om du aktiverar SAML 2.0-autentisering och du vill att dina användare ska kunna
 >Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,9 +52,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Aktivera Outlook för Workfront och SAML 2.0
 
-1. Klicka på **Konfigurera** i det övre högra hörnet av Adobe Workfront i det globala navigeringsfältet.
+{{step-1-to-setup}}
+
 1. Klicka på **System** > **Inställningar**.
 
 1. Kontrollera att **Tillåt SAML 2.0-autentisering i Office 365-tillägg** är aktiverat i avsnittet **Säkerhet**.

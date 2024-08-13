@@ -1,13 +1,13 @@
 ---
 title: Bevilja åtkomst till scenarioplan
 description: Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till Scenarioplanering.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4343f0ff-2f78-4556-801f-db9d94f80c95
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att def
 Förutom tillgång till Scenarioplanering måste en användare med en åtkomstnivå som inte är systemadministratör också ha tillgång till ekonomiska data för att kunna se all finansiell information i en plan, t.ex. budgetar, kostnader och jobbrollstariffer. Mer information finns i [Bevilja åtkomst till ekonomiska data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -50,6 +52,8 @@ Du måste ha följande:
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Konfigurera användaråtkomst till scenarioplanen med en anpassad åtkomstnivå
 

@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Om du skapar en anpassad intern hjälpwebbplats som innehåller information om hur din organisation använder Workfront kan du konfigurera hjälpikonen för huvudmenyn för att gå till den webbplatsen. Detta påverkar inte huvudhjälplänken på huvudmenyn och de sammanhangsberoende hjälplänkarna i hela Workfront, som tar användare till Workfront hjälpwebbplats.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Detta påverkar inte huvudhjälplänken på huvudmenyn och de sammanhangsberoend
 Information om hur användare kommer åt både en anpassad hjälp-URL som du konfigurerar i Workfront och den vanliga Workfront-hjälpwebbplatsen finns i [Få tillgång till Workfront-hjälpen i den nya Adobe Workfront-upplevelsen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -50,9 +52,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Konfigurera en anpassad hjälp-URL
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på Konfigurera.
+{{step-1-to-setup}}
+
 1. Klicka på **System** > **Inställningar**.
 1. I avsnittet **Allmänna inställningar** skriver du den URL där din anpassade hjälpwebbplats finns i fältet **Anpassad hjälp-URL**.
 

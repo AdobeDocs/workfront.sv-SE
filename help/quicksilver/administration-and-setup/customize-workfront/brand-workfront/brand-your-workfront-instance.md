@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Som Workfront-administratör kan du märka Workfront med logotyper på inloggningsskärmen, i det övre navigeringsområdet och på huvudmenyn. Du kan också ändra bakgrundsbilden och färgen på inloggningsskärmen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '912'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,8 @@ Du kan också ändra bakgrundsbilden och färgen på inloggningsskärmen:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Varumärk inloggningsskärmen
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Varumärke**.
 

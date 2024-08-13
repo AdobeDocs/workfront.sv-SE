@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: När en användare klickar på Arbeta med det eller lägger till en uppdateringskommentar till en ny uppgift som de har tilldelats (utan att manuellt ange ett villkor för uppgiften), visar Adobe Workfront standardvillkoret för uppgifter, som har konfigurerats i installationsprogrammet. Detsamma gäller för problem.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ När en användare klickar på Arbeta med det eller lägger till en uppdaterings
 Workfront använder det inbyggda villkoret Going Smoothly som standardvillkor för uppgifter och, separat, för problem. Som Workfront-administratör kan du ändra standardvillkoret för båda de här objekttyperna till ett anpassat villkor som du har skapat.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,9 +46,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Ange ett anpassat villkor som standardvillkor för uppgifter eller för ärenden:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Projektinställningar** > **Villkor**.
 

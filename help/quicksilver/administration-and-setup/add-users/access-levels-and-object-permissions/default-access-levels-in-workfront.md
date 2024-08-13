@@ -6,11 +6,11 @@ keywords: åtkomst,modell,tratt,diagram,nivåer,behörigheter
 navigation-topic: access-levels
 title: Inbyggda åtkomstnivåer
 description: Var och en av de sex inbyggda åtkomstnivåerna är utformad för en viss typ av användare, inklusive systemadministratör, planerare, arbetare, granskare, begärare och extern användare. Dessa åtkomstnivåer låter dig styra vad användare kan redigera och visa i systemet. Om du behöver en anpassad åtkomstnivå kan du kopiera en inbyggd åtkomstnivå och ändra den efter den åtkomstnivå du vill ha för de olika Workfront-objekttyperna.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 0%

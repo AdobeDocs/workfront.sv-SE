@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: behörighet,nivå,system,administratör,planerare,arbetare,granskare,begärande,extern,användare
 navigation-topic: access-levels
 description: Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront. Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden. Var och en av de sex inbyggda åtkomstnivåerna är kopplad till en av de fem Workfront-licenserna som är Plan, Work, Review, Request och External.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '302'
 ht-degree: 0%

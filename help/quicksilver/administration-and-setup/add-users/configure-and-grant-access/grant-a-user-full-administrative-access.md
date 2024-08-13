@@ -1,13 +1,13 @@
 ---
-title: Bevilja användaren fullständig administrativ åtkomst
+title: Bevilja fullständig administratörsåtkomst för användare
 description: Du kan ge användare fullständig administrativ åtkomst till Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Som Adobe Workfront-administratör kan du skapa en annan Workfront-administratö
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Ge fullständig systemadministratörsåtkomst till en enskild användare
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
 
 1. Klicka på namnet på den användare som du vill ge administratörsbehörighet till.
 1. Klicka på menyn Mer ![](assets/more-icon.png) och sedan på **Redigera**.

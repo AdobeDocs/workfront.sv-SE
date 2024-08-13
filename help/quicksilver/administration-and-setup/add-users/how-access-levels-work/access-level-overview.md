@@ -6,11 +6,11 @@ product-area: system-administration
 keywords: åtkomst,nivå,system,administratör,standard,ljus,medarbetare
 navigation-topic: access-levels
 description: Alla användare måste ha en åtkomstnivå för att kunna logga in och arbeta i Workfront. Du använder åtkomstnivån för att styra vad en användare kan se och göra med vissa Workfront-objekt och -områden.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1745'
 ht-degree: 0%

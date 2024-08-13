@@ -1,16 +1,16 @@
 ---
-title: Ge åtkomst till Adobe Workfront mål
+title: Bevilja åtkomst till Adobe Workfront mål
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till Workfront-mål.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör kan du använda en åtkomstnivå för att definiera en användares åtkomst till Adobe Workfront-mål, vilket förklaras i [Översikt över åtkomstnivåer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att ge användare åtkomst till Workfront-mål:
 
@@ -49,6 +51,8 @@ Du måste ha följande för att ge användare åtkomst till Workfront-mål:
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomstnivå du har.
 
 Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
++++
 
 ## Ge användare åtkomst till Workfront-mål med en anpassad åtkomstnivå
 

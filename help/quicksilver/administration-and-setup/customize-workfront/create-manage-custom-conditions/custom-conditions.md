@@ -5,12 +5,12 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Ett villkor är en visuell representation av hur ett projekt, en uppgift eller ett problem fortskrider. Som Adobe Workfront-administratör kan du använda de villkor som skapats av Workfront för att använda dem i projekt, uppgifter och utgåvor. Du kan också skapa anpassade villkor som bättre motsvarar organisationens behov.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 0%

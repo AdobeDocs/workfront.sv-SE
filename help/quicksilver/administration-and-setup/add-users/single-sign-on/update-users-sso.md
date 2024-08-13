@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Du kan börja förbereda din importfil genom att skapa en rapport över alla anv
 
 Processen att uppdatera användare för enkel inloggning lägger antingen till SSO-användarnamnsfältet till dina Workfront-användare om det inte finns någon, eller uppdaterar värdet i det fältet om det redan finns ett värde kopplat till användarna.
 
-1. Klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **System** och välj sedan **Uppdatera användare för enkel inloggning**.
 
