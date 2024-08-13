@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 0%
@@ -25,6 +25,7 @@ Du kan skapa poster genom att göra något av följande:
 * Lägg till dem från posttypssidan
 * Kopiera och klistra in en lista med poster från en extern lista
 * Duplicera dem
+  <!--* Add them as you connect them from other records-->
 
 I den här artikeln beskrivs hur du skapar poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -214,3 +215,27 @@ You can import records from other applications by linking them to existing recor
 ## Skapa poster genom att duplicera dem
 
 Mer information om att duplicera poster finns i [Duplicera poster](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+
+<!--check the steps with the release of in-context record types epic: 
+
+## Create records by connecting them
+
+You can create records while you connect them from other records. 
+
+You must have the following before you can add new records by connecting them from existing records:
+
+* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
+To create records as you are connecting them from other records: 
+
+1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+
+    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+
+    The record is created and added to the connected record field. 
+1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
+1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+
+-->

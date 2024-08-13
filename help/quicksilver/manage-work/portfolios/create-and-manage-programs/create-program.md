@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Skapa ett program
-description: Ett program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna. Program får inte finnas utanför en portfölj.
+description: Ett program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna. Programmen utgör en underindelning av portföljer och får inte finnas utanför en portfölj. Program har vanligtvis samma resurser som andra program i samma portfölj. Du kan skapa program för att ordna dina portföljer när de blir för stora.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,12 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Ett program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna. Program får inte finnas utanför en portfölj.
+Ett program representerar en samling projekt som delar en gemensam strategi, mål eller mål som överskrider projektgränserna.
+Programmen utgör en underindelning av portföljer och får inte finnas utanför en portfölj. Program har vanligtvis samma resurser som andra program i samma portfölj.
+
+Du kan skapa program för att ordna dina portföljer när de blir för stora.
+
+Du kan till exempel ha ett räkenskapsår för marknadsföring 2024 Portfolio som innehåller alla dina Marketing Division-projekt. Du kan överväga att ordna dina projekt ytterligare i räkenskapskvartal och lägga till räkenskapskvartal 1-4 2024-program under räkenskapsåret 2024 Portfolio.
 
 ## Åtkomstkrav
 

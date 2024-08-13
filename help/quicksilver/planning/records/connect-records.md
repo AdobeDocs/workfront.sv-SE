@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2507'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
@@ -156,7 +156,6 @@ Du kan ansluta följande:
 
    * Från en planeringspost i Workfront Planning
 
-
 ## Krav för att länka poster
 
 Om du vill länka poster till andra poster eller objekt måste du ha följande:
@@ -181,7 +180,7 @@ Om du vill länka poster till andra poster eller objekt måste du ha följande:
 
    Arbetsytan öppnas och posttyperna visas som kort.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
-1. Välj en **tabellvy** på den nedrullningsbara menyn **Visa** i det övre högra hörnet på posttypssidan.
+1. Klicka på namnet på en **tabellvy** för att öppna den.
 1. (Valfritt) Lägg till poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. (Villkorligt) När du har kopplat den markerade posttypen till en annan posttyp går du till den länkade postkolumnen och dubbelklickar på cellen som motsvarar den post som du vill länka till andra poster.
 
@@ -191,9 +190,18 @@ Om du vill länka poster till andra poster eller objekt måste du ha följande:
 
    * Klicka på namnet på en ansluten post i listan för att lägga till den till den valda posten. Posten läggs till automatiskt.
    * Börja skriva namnet på en post och klicka på den när den visas i listan. Posten läggs till automatiskt.
-   * Klicka på **Visa alla** om du vill visa alla poster.
 
-1. (Villkorligt) Om du klickade på **Markera alla** i föregående steg visas rutan **Anslut objekt** .
+   <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+   >[!TIP]
+   >
+   >    Du kan öppna postens sida genom att klicka på postens namn i vyn, leta reda på det länkade postfältet och dubbelklicka på fältet (om det redan finns poster anslutna) eller klicka på **Koppla poster** (om fältet är tomt) för att lägga till poster från den anslutna posten eller objekttypen.
+   >
+   >![](assets/connect-records-from-record-page-field.png)
+
+1. (Valfritt) Klicka på **Visa alla** om du vill visa alla poster.
+
+1. (Villkorligt) Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
    ![](assets/connected-objects-table-for-records.png)
 
@@ -201,17 +209,11 @@ Om du vill länka poster till andra poster eller objekt måste du ha följande:
 
    eller
 
-   Markera namnet på en eller flera poster i rutan och klicka sedan på **Anslut objekt** i det övre högra hörnet av rutan Anslut objekt.
-
-   >[!TIP]
-   >
-   >    Du kan öppna postens sida, söka efter det länkade postfältet och klicka på det anslutna fältet (om det redan finns poster anslutna) eller klicka på **Koppla poster** (om fältet är tomt) för att lägga till poster från den anslutna posten eller objekttypen.
-   >
-   >![](assets/connect-records-from-record-page-field.png)
+   Markera namnet på en eller flera poster i rutan och klicka sedan på **Anslut objekt**.
 
    Följande ska läggas till:
 
-   * De länkade posterna visas i det länkade postfältet för den post som du valde i steg 6. <!--accurate?-->
+   * De länkade posterna visas i det länkade postfältet för den post som du valde i ett tidigare steg.
    * De länkade fälten fylls i med informationen från de länkade posterna om du lade till länkade sökfält när du kopplade posttyperna.
 
    När du uppdaterar de länkade posterna uppdateras de länkade fälten för de poster som du länkar från automatiskt. Du kan inte redigera länkade fält manuellt.
@@ -259,7 +261,12 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
    * Klicka på ett objekt i listan för att lägga till det i den markerade posten. Objekten listas i bokstavsordning. Objektet läggs till automatiskt.
    * Börja skriva namnet på ett objekt och klicka på det när det visas i listan. Objektet läggs till automatiskt.
-   * Klicka på **Visa alla** om du vill visa alla objekt som du har minst behörighet att visa.
+
+   >[!TIP]
+   >
+   >Du kan öppna en postsida från vyn, dubbelklicka på det länkade postfältet eller klicka på **Anslut** i fältet för att lägga till objekt från den anslutna objekttypen.
+
+1. (Valfritt) Klicka på **Visa alla** om du vill visa alla objekt som du har minst behörighet att visa.
 
 1. (Villkorligt) Om du klickade på **Visa alla** i föregående steg visas rutan **Anslut objekt** .
 
@@ -269,7 +276,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
    eller
 
-   Markera namnet på ett eller flera objekt i rutan och klicka sedan på **Anslut objekt** i det övre högra hörnet av rutan Anslut objekt.
+   Markera namnet på ett eller flera objekt i rutan och klicka sedan på **Anslut objekt**.
 
    >[!IMPORTANT]
    >
@@ -281,10 +288,6 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
    * De markerade Workfront-objekten läggs till i det länkade postfältet.
    * Om du lade till dem när du kopplade posttypen med Workfront fylls de länkade fälten (eller sökfälten) för Workfront-objekten automatiskt i med information från Workfront.
-
-   >[!TIP]
-   >
-   >Du kan öppna en postsida, leta upp det länkade postfältet och klicka på ikonen **+** i fältet för att lägga till objekt från den anslutna objekttypen.
 
    Mer information om hur du ansluter posttyper med objekt från ett annat program finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 

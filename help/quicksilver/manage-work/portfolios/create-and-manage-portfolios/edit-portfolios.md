@@ -1,14 +1,14 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: Redigera portföljer
-description: Du kan redigera information om portföljer som du har skapat eller som andra användare har skapat om de har delat dem med dig.
+title: Redigera Portfolio
+description: Du kan redigera information om portföljer som du har skapat eller som andra användare har skapat om de har delat dem med dig. I den här artikeln beskrivs hur du kan söka efter, söka efter och redigera en portfölj, om du har behörighet att göra det.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---

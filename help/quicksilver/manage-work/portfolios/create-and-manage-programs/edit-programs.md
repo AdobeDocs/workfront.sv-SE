@@ -2,13 +2,13 @@
 product-area: programs
 navigation-topic: create and manage programs
 title: Redigera program
-description: Du kan redigera information om program som du har skapat eller som andra användare har skapat om de har delat dem med dig.
+description: Du kan redigera information om program som du har skapat eller som andra användare har skapat om de har delat dem med dig. I den här artikeln beskrivs hur du kan söka efter, söka efter och redigera ett program, om du har behörighet att göra det.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
