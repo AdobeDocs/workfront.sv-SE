@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14309'
 ht-degree: 0%
 
 ---
@@ -804,9 +804,6 @@ ht-degree: 0%
       * [Konfigurera en plan](administration-and-setup/blueprints/configure-template-package.md)
       * [Åtgärder som ska vidtas efter installation av en plan](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [Lista över tillgängliga ritningar](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * Vanliga frågor om administratörer {#admin-faq}
-      * [Vanliga frågor om administratörer](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-      * [OnTask OnPremise - supportpolicy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
    * Administration i Adobe Admin Console {#admin-in-admin-console}
       * [Workfront Administration i Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Förbered för Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
