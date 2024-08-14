@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
@@ -136,11 +136,11 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
    Arbetsytan öppnas och posttyperna visas.
 1. Gör något av följande:
 
-   * Håll muspekaren över posttypkortet, klicka på menyn Mer och sedan **Ta bort**.
+   * Håll markören över posttypkortet, klicka på menyn **Mer** och sedan på **Ta bort**.
    * Klicka på kortet för den posttyp som du vill ta bort, och klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn på posttypssidan. Klicka sedan på **Ta bort**.
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Skriv **delete** i bekräftelserutan och klicka sedan på **Ta bort permanent**. Detta är inte skiftlägeskänsligt.
 
-   Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort.
+   Den valda posttypen, tillsammans med deras fält, associerade poster och vyer, tas bort och kan inte återställas.

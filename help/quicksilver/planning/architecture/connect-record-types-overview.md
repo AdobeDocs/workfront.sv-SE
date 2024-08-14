@@ -1,12 +1,12 @@
 ---
-title: Översikt över posttyper för anslutning
+title: Översikt över anslutningsposttyper
 description: Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyperna Adobe Workfront Planning till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1086'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Du kan ange att enskilda posttyper relaterar till varandra eller till objekt från andra program genom att koppla dem.
 
-Den här artikeln innehåller en översikt över hur posttyper ansluter och beskriver de typer av anslutningar som du kan upprätta mellan post- och objekttyper.
+Den här artikeln är en översikt över posttypsanslutningar och beskriver de typer av anslutningar som du kan upprätta mellan post- och objekttyper.
 
 Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -29,9 +29,9 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
 
 * Du kan ansluta följande enheter i Adobe Workfront Planning:
 
-   * Två posttyper
+   * Två posttyper.
 
-     Posttyperna måste tillhöra samma arbetsyta.
+     Som standard kan du koppla två posttyper från samma arbetsyta. Du kan också ställa in posttyper för att ansluta till posttyper från andra arbetsytor.
    * En posttyp och en objekttyp från ett annat program.
 
 * Du kan koppla posttyper för Workfront Planning till följande objekttyper från följande program:
@@ -70,38 +70,51 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-   * **När du lägger till länkade (eller uppslag) fält från posten eller objektet som du ansluter till**: Ett länkat (eller uppslagsfält) med information från posten som du ansluter till visas på posten som du ansluter från.
+   * **När du lägger till länkade (eller uppslag) fält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
 
      Du kan koppla fält från andra posttyper eller objekt från andra program till posttypen Workfront Planning.
 
      Länkade fält är skrivskyddade och visar automatiskt information från kopplade poster eller objekt när du kopplar posterna eller objekten.
 
+     Du kan referera till uppslagsfält från andra post- eller objekttyper i formler, filter eller grupperingar.
+
      Om du t.ex. kopplar posttypen&quot;Campaign&quot; till ett Workfront-projekt och väljer att överföra fältet Planerat slutförandedatum för projektet till Workfront Planning-posten, skapas automatiskt ett länkat fält med namnet Planerat slutförandedatum (från projekt) för kampanjen. Du kan inte redigera det här länkade fältet manuellt. I fältet Planerat slutförandedatum (från projekt) visas det planerade slutförandedatumet för de länkade projekten.
 
      >[!IMPORTANT]
      >
-     >Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i programmet för de länkade objekttyperna.
+     >Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i sökfälten, oavsett deras behörigheter eller åtkomstnivå i programmet för de länkade objekttyperna <!--or their permissions in other workspaces-->.
+
+<!--see the commented out text above for the release of cross-workspace connections-->
 
 * Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
 
   Länkade fält föregås av en ikon som anger fälttypen. Länkade (eller uppslag) fält föregås av ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
 
-* Uppslagsfält föregås av en ikon som anger vilken typ av information som visas i fältet.
 
 ## Anslutningstyper
 
 När du har upprättat en anslutning mellan två posttyper eller mellan en post och en objekttyp från ett annat program, kan du lägga till poster i de anslutna postfälten.
 
-Beroende på hur många poster du kan lägga till i en anslutning kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
+Beroende på hur många poster du kan lägga till i ett anslutet postfält kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
 
 * [En till många](#one-to-many-connection-type)
 * [En till en](#many-to-one-connection-type)
 * [Många till ett](#many-to-one-connection-type)
 * [Många till många](#many-to-many-connection-type)
 
+>[!WARNING]
+>
+>Dessa alternativ är inte tillgängliga vid anslutning av följande:
+>* Två poster från olika arbetsytor
+>
+>* En posttyp och AEM resurser
+
+
 <!-- add screen shots for each type of connection below-->
 
 ### Anslutningstyp en till många
+
+![](assets/one-to-many-connection-picker.png)
 
 När du väljer en-till-många-anslutningstyp mellan posttyper kan du senare ansluta en post med flera poster som du ansluter till.
 
@@ -111,6 +124,8 @@ När du väljer den här anslutningstypen kan du senare bara ändra den till en 
 
 ### En-till-en-anslutningstyp
 
+![](assets/one-to-one-connection-picker.png)
+
 När du väljer en-till-en-anslutningstyp mellan posttyper kan du senare ansluta en post med en annan post som du ansluter till.
 
 Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman en kampanj med ett projekt. Ett projekt kan bara kopplas till en kampanj.
@@ -118,6 +133,8 @@ Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman en ka
 När du väljer den här anslutningstypen kan du ändra den senare till en annan anslutningstyp.
 
 ### Anslutningstyp för många-till-ett
+
+![](assets/many-to-one-connection-picker.png)
 
 När du väljer anslutningstypen många-till-en mellan posttyper kan du senare ansluta många poster med bara en post som du ansluter till.
 
@@ -127,8 +144,11 @@ När du väljer den här anslutningstypen kan du senare bara ändra den till en 
 
 ### Anslutningstyp för många-till-många
 
+![](assets/many-to-many-connection-picker.png)
+
 När du väljer anslutningstypen många-till-många mellan posttyper kan du senare ansluta många poster med flera poster som du ansluter till.
 
 Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman flera kampanjer med flera projekt. Du kan också koppla samman flera projekt med flera kampanjer.
 
 När du väljer den här anslutningstypen kan du inte ändra anslutningstypen efter att du har sparat den.
+

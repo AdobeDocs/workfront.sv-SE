@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1888'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Så här hanterar du en tidslinjevy:
 
 1. Navigera genom tidslinjen på något av följande sätt:
 
-   * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen.
+   * Klicka på vänster- och högerikonerna eller använd den vågräta rullningen för att flytta bakåt och framåt i tidslinjen. När du uppdaterar sidan bevaras den markerade tidsramen.
    * Klicka på **Idag** för att centrera tidslinjen till dagens datum.
    * Välj något av följande alternativ i listrutan Tidsram för att uppdatera tidsstegen:
 

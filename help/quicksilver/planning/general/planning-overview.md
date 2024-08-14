@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e65b57c903b08dc734e93b9690ce91407f1d08e0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1836'
 ht-degree: 0%
 
 ---
@@ -115,6 +115,8 @@ Mer information om hur du beviljar åtkomst till och aktiverar andra för att an
 Även om Workfront Planning är en del av Workfront innehåller den egna koncept och terminologi. Se till att du känner till de nya koncepten innan du börjar konfigurera Workfront Planning för din organisation.
 
 Ramverket för Workfront Planning är helt anpassningsbart. Du kan skapa alla posttyper, deras attribut och alla fält som är kopplade till dem för att passa din organisations behov.
+
+Det finns begränsningar för hur många Workfront Planning-objekt du kan skapa. Mer information finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
 
 Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
@@ -252,34 +254,6 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 
 Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
-
-
-## Begränsningar för Adobe Workfront Planning-objekt
-
-I följande tabell visas gränserna för hur många objekt du kan skapa i Workfront Planning. Begränsningarna kan komma att ändras när vi går vidare till nästa utvecklingsfas.
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-| Adobe Workfront Planning-objekt | Gräns |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Antal arbetsytor för en Workfront-instans | 1 000 |
-| Antal avsnitt för en arbetsyta | 50 |
-| Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
-| Antal poster för en posttyp | 50 000 |
-| Antal fält för en posttyp eller taxonomi | 500 |
-| Antal tecken för ett textfält | 1 000 tecken |
-| Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |
-| Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
-| Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
-| Storlek på Excel-fil som du kan importera* | 5 MB |
-| Antal vyer som en användare kan skapa för en posttyp | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*Den här funktionen har inaktiverats tillfälligt och kommer att finnas tillgänglig vid ett senare tillfälle.
-
 
 ## Hitta Adobe Workfront Planning
 

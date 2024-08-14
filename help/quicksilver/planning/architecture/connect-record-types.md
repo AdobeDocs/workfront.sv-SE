@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Du kan koppla posttyper till varandra eller posttyper med objekttyper från andr
 I den här artikeln beskrivs hur du kan koppla två Workfront Planning-posttyper till en Workfront Planning-posttyp med ett objekt från ett annat program.
 
 När du har upprättat anslutningen mellan poster eller objekttyper kan du koppla enskilda poster till varandra och visa fält från den länkade posten eller objekttypen på en Workfront Planning-post.
+
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Mer information om hur du ansluter en Workfront Planning-post till ett objekt från ett annat program finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
 
@@ -194,7 +196,9 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
 
 1. I fältet **Posttyp** söker du efter en posttyp eller väljer något av följande:
 
-   * En annan posttyp från den del av arbetsytan som du valde
+   * En annan posttyp från den arbetsyta du valde
+
+     <!--replace screen shot below-->
 
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -204,7 +208,15 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
      > 
      >Om du inte har andra posttyper i den valda arbetsytan visas inte arbetsyteavsnittet.
 
+     <!--remove the first sentence in the tip above at GA-->
+
+     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+
    * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
+
+     <!--replace screen shot below-->
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -221,7 +233,14 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    >Du kan ha flera anslutningar till samma post eller objekttyp. Om du inte redigerar namnet på det anslutna fältet lägger Workfront till en siffra efter namnet på den anslutna posten för att ange antalet anslutna posttyper med samma namn.
 
    * **Beskrivning**: Ytterligare information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
-   * **Tillåt flera poster**: Välj det här alternativet om du vill ange att användare kan lägga till flera poster när fältet för den länkade posttypen visas på de ursprungliga posterna. Detta är markerat som standard.
+   * **Tillåt flera poster**: Välj det här alternativet om du vill ange att användare kan lägga till flera poster när fältet för den länkade posttypen visas på de ursprungliga posterna. Detta är markerat som standard. <!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **Välj uppslagsfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på den post som du vill använda. Detta är markerat som standard.
 
      >[!TIP]
@@ -245,7 +264,7 @@ Ett exempel på hur du ansluter posttyper och poster finns i [Exempel på att an
    >
    >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till en post av typen Workfront Planning inaktiverar du reglaget **Titel** i området **Postutseende** om du inte vill att titeln för anslutna poster eller resurser ska visas i det länkade fältet. När det här alternativet är inaktiverat visas endast posternas miniatyrbilder i de länkade fälten. Poster utan miniatyrbild visar i stället en bildikon. Växlingsknappen är aktiverad som standard. Ett exempel på hur de anslutna posterna visas visas i området **Postutseende**.
+1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till en post av typen Workfront Planning avmarkerar du reglaget **Titel** i området **Postutseende** om du inte vill att titeln för anslutna poster eller resurser ska visas i det länkade fältet. När du avmarkerar det här alternativet visas endast posternas miniatyrbilder i de länkade fälten. Poster utan miniatyrbild visar i stället en bildikon. Växlingsknappen är markerad som standard. Ett exempel på hur de anslutna posterna visas visas i området **Postutseende**.
 
    >[!TIP]
    >

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Workfront Planning kan även länka till objekttyper från andra system och skap
 
 I artiklarna i följande avsnitt beskrivs hur du kan konfigurera arbetsytorna i Adobe Workfront Planning, definiera de posttyper som är byggstenarna för dessa arbetsytor och börja använda dess funktioner:
 
+* [Arbetsytor - översikt](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Översikt över posttyper](/help/quicksilver/planning/architecture/overview-of-record-types.md)

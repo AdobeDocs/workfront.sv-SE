@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 0%
@@ -147,7 +147,6 @@ Du kan ansluta följande:
 * Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan kan se anslutningarna mellan posterna eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
 * Du kan koppla en post till ett eller flera objekt från ett annat program.
-
 * Du kan koppla objekt från Workfront till Workfront Planning-poster i följande områden:
    * Från en planeringspost i Workfront Planning.
    * Under Planning för ett Workfront-objekt.

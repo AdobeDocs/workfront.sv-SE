@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
+source-wordcount: '14317'
 ht-degree: 0%
 
 ---
@@ -2039,11 +2039,13 @@ ht-degree: 0%
       * [Adobe Workfront Planning - allmän information: artikelindex](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning - översikt](planning/general/planning-overview.md)
       * [Grunderna i Adobe Workfront Planning API](planning/general/planning-api-basics.md)
+      * [Översikt över begränsningar för Adobe Workfront Planning-objekt](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning AI Assistant - översikt](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planerar aktuell versionsaktivitet](planning/general/release-activity.md)
       * [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](planning/general/release-activity-archives-2023.md)
    * Adobe Workfront Planning Architecture {#adobe-workfront-planning-architecture}
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
+      * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)
       * [Skapa arbetsytor](planning/architecture/create-workspaces.md)
       * [Översikt över posttyper](planning/architecture/overview-of-record-types.md)
       * [Skapa posttyper](planning/architecture/create-record-types.md)
