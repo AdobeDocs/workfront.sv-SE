@@ -6,7 +6,7 @@ description: Även om det inte finns någon gräns för hur många användare du
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Ta bort användare från resurspooler
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Även om det inte finns någon gräns för hur många användare du kan ha i en resurspool visas endast de första 2 000 användarna i listan i bokstavsordning.
 
@@ -75,6 +75,7 @@ eller\
    Börja skriva namnet på ett företag, en jobbroll, ett team eller en grupp om du vill ta bort alla användare som är associerade med de entiteterna.
 
    <span class="preview">Exempelbild i förhandsvisningsmiljön:<span>
+
    ![Ta bort användare från resurspoolen](assets/remove-users-from-resource-pool.png)
 
    Exempelbild i produktionsmiljön:

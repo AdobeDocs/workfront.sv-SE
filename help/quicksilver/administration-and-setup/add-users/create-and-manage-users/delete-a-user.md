@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
 
 # Ta bort användare
+
+>[!IMPORTANT]
+>
+>Den procedur som beskrivs på denna sida gäller endast organisationer som ännu inte har anslutit sig till Adobe Business Platform. Om du har anslutit dig till Adobe Business Platform måste du ta bort användare i Adobe Admin Console.
+>
+>En lista över procedurer som skiljer sig åt beroende på om din organisation har anslutit sig till Adobe Business Platform finns i [Plattformsbaserade administrationsskillnader (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 När en användare lämnar organisationen kan du ta bort den användaren från Adobe Workfront.
 

@@ -1,7 +1,7 @@
 ---
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2355'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 0%
 ## Markerad förhandsgranskning för hela artikeln {#highlighted-preview-article-level}
 
 <span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+
+## Förhandsgranskning och snabb version Q4 2024 {#preview-and-fast-release-Q424}
+
+<span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i förhandsvisningsmiljön för alla kunder, eller i produktionsmiljön för kunder som aktiverat snabba versioner.</span>
+
+<span class="preview">Mer information om snabba releaser finns i [Aktivera eller inaktivera snabba releaser för din organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">Mer information om den aktuella versionen finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 ## Förhandsgranskning och snabb version Q4 2023 {#preview-and-fast-release}
 
