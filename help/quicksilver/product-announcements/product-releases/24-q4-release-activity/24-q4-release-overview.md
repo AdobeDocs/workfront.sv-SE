@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,49 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 
 ## Adobe Workfront-förbättringar
 
+* [Administratörsförbättringar]
 * [Projektförbättringar](#project-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Andra förbättringar](#other-enhancements)
+
+### Administratörsförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layoutknappen i den anpassade formulärdesignern tillåter två eller tre kolumner</a></p>
+                        <p>Med en layoutknapp i den anpassade formulärdesignern kan du välja mellan två- eller trekolumnsarbetsytor. Den ursprungliga formulärdesignern använder tre kolumner och fältinställningarna visas i kolumnen längst till höger. Om du markerar två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 12 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: Med version 24.9 (september 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: TBD</p>
+                            </li>
+                        </ul>
+                        <p><i>Den här funktionen ingår i en fasad version och kommer att vara tillgänglig för ett begränsat antal kunder i september.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Projektförbättringar
 
@@ -77,7 +117,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -154,7 +194,29 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI Assistant finns i Workfront</a></p>
+                        <p>Vi har lagt till Adobe AI Assistant till Workfront så att du enklare kan utföra ditt arbete. AI Assistant kan hjälpa dig genom att:</p>
+                        <ul>
+                            <li>Sammanfatta arbetsobjekt och dokument så att du snabbt kan få en allmän förståelse för uppgifter, projekt och resurser.</li>
+                            <li>Tillhandahålla information från Experience League-dokumentation, föra in instruktioner och referensmaterial i Workfront och länka till mer ingående dokumentation.</li>
+                            <li>Skapa och förfina formler för beräknade anpassade formulärfält, generera formler från textmeddelanden eller hitta fel i befintliga formler.</li>
+                            </ul>
+                            <p>Din Workfront-administratör kan aktivera eller inaktivera AI Assistant för din organisation. AI-assistenten är tillgänglig för instanser med planerna Select, Prime och Ultimate.</p>
+                        </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 28 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Produktionsrelease: 28 augusti 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 
