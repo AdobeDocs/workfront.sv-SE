@@ -7,7 +7,7 @@ description: I den här artikeln beskrivs de inställningar som är tillgänglig
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 0%
@@ -132,10 +132,7 @@ Det kan vara praktiskt att ange fler cykler när du vill förhindra avbrott i an
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->[!UICONTROL Maximum number of returned files] i modulen [!UICONTROL Dropbox] >[!UICONTROL Watch files] är inställd på `10`.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>[!UICONTROL Maximum number of returned files] i modulen [!UICONTROL Workfront] >[!UICONTROL Watch records] är inställd på `10`.
 >Om 100 begäranden skickas till [!DNL Workfront], och fältet [!UICONTROL Limit] är inställt på 10, lämnas 90 filer obearbetade efter att ett scenario har körts. De nästa 10 filerna bearbetas i nästa körning av schemalagda scenario.
 >
 >### Högsta antal cykler är 10

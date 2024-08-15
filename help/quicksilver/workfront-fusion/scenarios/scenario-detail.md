@@ -7,9 +7,9 @@ description: Scenarioinformation i  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,10 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
      <tr> 
       <td role="rowheader">[!UICONTROL Modules diagram] </td> 
       <td>På den här fliken visas den visuella representationen av scenariot. Diagrammet är detsamma som i scenarioredigeraren</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Reports] (tabb) </td> 
+      <td> <p>Öppna den här fliken om du vill se ett diagram över antalet åtgärder som har utförts under de senaste 30 dagarna.</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History] (tabb) </td> 

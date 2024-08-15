@@ -7,7 +7,7 @@ description: I den här artikeln beskrivs hur du skapar ett integreringsscenario
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '2013'
 ht-degree: 0%
@@ -120,7 +120,7 @@ Att skapa ett scenario består av flera huvuduppgifter:
    Scenarioredigeraren visas med en tom modul i mitten, den [!DNL Google Sheets]-app som du har förinläst och några alternativ i verktygsfältet längst ned.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
 När du börjar skapa ett nytt scenario är det en bra idé att börja med att skapa ett namn för det.

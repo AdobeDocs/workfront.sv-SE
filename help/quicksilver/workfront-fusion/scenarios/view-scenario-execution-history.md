@@ -7,7 +7,7 @@ description: Du kan visa information om alla körningar för ett scenario eller 
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 0%
@@ -70,8 +70,6 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
    Om du arbetar med scenariot i scenarioredigeraren klickar du på vänsterpilen ![](assets/exit-editing-arrow.png) i fönstrets övre vänstra hörn.
 
 1. Visa informationen i listan till höger.
-
-   ![](assets/open-history-tab-350x202.png)
 
    Du kan också klicka för att se en helsidesvy av den här informationen. I helsidesvyn kan du filtrera historiken för att visa specifika körningar.
 

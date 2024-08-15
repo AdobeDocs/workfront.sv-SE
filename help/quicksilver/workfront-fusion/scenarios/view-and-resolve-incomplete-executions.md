@@ -7,7 +7,7 @@ description: Mappen [!UICONTROL Incomplete executions] lagrar scenariekörningar
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '591'
 ht-degree: 0%
@@ -65,9 +65,13 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
 ## Visa ofullständiga körningar
 
-Om en modul påträffar ett fel under åtgärden läggs en ny ofullständig körning till i mappen Ofullständiga körningar. Varje ofullständig körning innehåller scenariots plan och alla paket som kan mappas till den misslyckade modulen. Du kan öppna listan över ofullständiga körningar genom att klicka på fliken [!UICONTROL Incomplete Executions] på sidan med scenariedetaljer:
+Om en modul påträffar ett fel under åtgärden läggs en ny ofullständig körning till i mappen Ofullständiga körningar. Varje ofullständig körning innehåller scenariots plan och alla paket som kan mappas till den misslyckade modulen. Du kan öppna listan över ofullständiga körningar genom att klicka på fliken [!UICONTROL Incomplete Executions] på sidan med scenariodetaljer.
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 Mer information finns i [Fel som leder till ofullständiga körningar](#errors-resulting-into-incomplete-executions).
 
