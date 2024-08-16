@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Visa alla anpassade formulär som använder ett visst anpassat fält eller en viss widget
+title: Visa alla anpassade Forms som använder ett visst anpassat fält eller en viss widget
 description: Du kan ta reda på vilka anpassade formulär som använder ett anpassat fält eller en anpassad widget som du vill ändra eller ta bort. Det är viktigt att utvärdera om dessa anpassade formulär behöver justeras för att fortsätta fungera som de ska eller för att fortsätta vara användbart efter att du har ändrat eller tagit bort fältet eller widgeten.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan ta reda på vilka anpassade formulär som använder ett anpassat fält el
 Mer information om anpassade fält och widgetar i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -48,6 +50,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ta reda på vilka anpassade formulär som använder ett visst anpassat fält eller en viss widget
 

@@ -1,5 +1,5 @@
 ---
-title: Lägga till beräknade fält i ett formulär
+title: Lägg till beräkningsfält i ett formulär
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 420c26c22cb1e6c0eab0f4cb0e211922d9ed2350
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '2353'
+source-wordcount: '2319'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Ett beräknat anpassat fält kan innehålla:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -47,21 +49,26 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront-administratörer beviljar åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Återanvända ett befintligt beräknat anpassat fält i ett anpassat formulär
 
@@ -81,7 +88,7 @@ Du kan också ha en annan beräkning för samma fält i det nya formuläret. Om 
 
 Så här återanvänder du ett befintligt beräknat anpassat fält:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Egen Forms** i den vänstra panelen.
 
@@ -119,7 +126,7 @@ Så här återanvänder du ett befintligt beräknat anpassat fält:
 >
 >Innan du skapar ett nytt beräknat anpassat fält identifierar du de befintliga fält som du vill inkludera, så att du är säker på att de data som behövs för beräkningen finns i Workfront.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Egen Forms** i den vänstra panelen.
 

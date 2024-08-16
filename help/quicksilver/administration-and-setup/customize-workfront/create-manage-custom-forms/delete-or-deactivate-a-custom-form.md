@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
-source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Du kan ta bort ett anpassat formulär från systemet.
 >Om du tar bort ett anpassat formulär tas även alla anpassade data bort från objekten som är kopplade till formuläret. Det går inte att återställa borttagna data. Överväg att inaktivera ett anpassat formulär i stället. När du inaktiverar ett anpassat formulär som du inte längre använder behåller du alla tillhörande historiska data. Mer information finns i [Återaktivera eller inaktivera ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -51,10 +53,12 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Ta bort ett anpassat formulär
 
 {{step-1-to-setup}}
 
-1. Klicka på **Anpassad Forms.**
+1. Klicka på **Anpassad Forms**.
 1. Markera det anpassade formuläret och klicka sedan på ikonen ![Ta bort](assets/delete-icon.png).
 1. Om du är säker på att du permanent vill ta bort det anpassade formuläret och alla associerade data på objekt som det bifogades till klickar du på **Ja, Ta bort det**.

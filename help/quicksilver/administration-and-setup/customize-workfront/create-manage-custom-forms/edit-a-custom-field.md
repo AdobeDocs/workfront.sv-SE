@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Lägga till eller redigera ett anpassat fält, en avsnittsbrytning eller en widget
+title: Lägga till eller redigera ett anpassat fält, avsnittsbrytning eller widget
 description: Du kan redigera egenskaperna för ett anpassat fält, en avsnittsbrytning eller en widget som används i ett anpassat formulär i din Adobe Workfront-instans. Dessa innehåller objektets etikett, namn, instruktioner och så vidare.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Du kan också redigera egenskaperna för ett anpassat fält, en avsnittsbrytning
 Mer information om anpassade fält och widgetar i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till ett anpassat fält eller en anpassad widget
 

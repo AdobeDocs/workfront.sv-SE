@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: RTF-fältslagring i API
+title: Lagring av RTF-fält i API
 description: Om ett objekt, t.ex. ett projekt, en utgåva eller en uppgift innehåller RTF-text, lagras det och är tillgängligt som ett parametervärde via Workfront API.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2e4b18be-14bb-4d47-8e63-e2f4a5dc376f
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%

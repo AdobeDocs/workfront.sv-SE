@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Ta bort ett anpassat fält eller en anpassad widget från systemet
+title: Ta bort ett anpassat fält eller en widget från systemet
 description: För att förbättra systemets prestanda och göra formulären enklare att använda för användarna kan du ta bort anpassade fält och widgetar från systemet när de inte längre används.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ För att förbättra systemets prestanda och göra formulären enklare att anvä
 >Du kan också, för att komma runt problemet, undvika att förlora data i fält som inte längre används, se [Ta bort ett anpassat fält utan att förlora data som användare har angett](#remove-a-custom-field-without-losing-data-that-users-have-entered) i den här artikeln.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -54,6 +56,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ta bort ett anpassat fält eller en anpassad widget från systemet
 

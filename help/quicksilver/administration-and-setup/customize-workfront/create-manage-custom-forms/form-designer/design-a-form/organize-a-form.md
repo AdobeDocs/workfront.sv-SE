@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Du kan ordna ett anpassat formulär med formulärdesignern och förhandsgranska 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -28,22 +30,26 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td>
-   <p>Ny plan: Standard</p>
+   <p>Nytt: Standard</p>
    <p>eller</p>
-   <p>Aktuell plan: Plan</p></td> 
+   <p>Aktuell: Planera</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Administrativ åtkomst till anpassade formulär</p> <p>Mer information om hur Workfront-administratörer beviljar åtkomst finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Administrativ åtkomst till anpassade formulär</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till en avsnittsbrytning
 

@@ -6,7 +6,7 @@ description: Från kontrollpanelen [!UICONTROL boards] kan du skapa en ny panel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
