@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,7 @@ I den högra panelen för en post visas följande avsnitt:
 1. Klicka på ett posttypskort.
 Posttypssidan öppnas och alla poster av den typen visas.
 
-1. Välj en tabellvy i listrutan **Visa**.
-1. Klicka på namnet på en post i tabellvyn.
+1. Klicka i valfri vy på namnet på en post.
 
    Postens sida öppnas. Kommentarsområdet öppnas som standard i den högra panelen.
 1. Klicka på ikonen **Visa historik** ![](assets/show-history-icon.png). Alla ändringar som görs i postens fält visas på den högra panelen, med början från den senaste.

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 0%
 
 ---
@@ -89,8 +89,9 @@ Mer information om nya funktioner och när de släpps finns i [Adobe Workfront P
 | Visa | ✓ | |  |
 | Dela vyer offentligt med externa resurser | ✓ | |  |
 | Duplicera vyer | ✓ | |  |
-| Skicka begäranden |                               |                                  | ✓ |
-| Kreativ översikt |                               |                                  | ✓ |
+| Skicka begäranden |                               | ✓ |                 |
+| Exportera postinformation till Word |                               | ✓ |                 |
+| Exportera postinformation till PDF |                               |                                  | ✓ |
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
 | Lägga till kommentarer i poster | ✓ |                                  |                 |
 | Få meddelanden i appen | ✓ |                                  |                 |
@@ -104,8 +105,9 @@ Mer information om nya funktioner och när de släpps finns i [Adobe Workfront P
 | Anslut planeringsposter från Workfront-objekt | ✓ |                                  |                 |
 | Workfront Planning Public API | ✓ |                                  |                 |
 | Workfront Planning AI Assistant* | ✓ |                                  |                 |
+| Rapportering om Workfront Planning Information (Canvas Dashboard) |                               | ✓ |                 |
 
-*AI-assistenten har tagits bort tillfälligt och kommer att återkomma vid ett senare tillfälle.
+*AI-assistenten har tagits bort tillfälligt och blir tillgänglig vid ett senare tillfälle.
 
 ## Aktivera Adobe Workfront Planning för användare i din Workfront-instans
 

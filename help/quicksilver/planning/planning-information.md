@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
@@ -51,15 +51,20 @@ Här hittar du allmän information om nya Workfront Planning:
 * [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md): En översikt på hög nivå över Adobe Workfront Planning, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Workfront Planning här.
 * [Adobe Workfront Planning-objektbegränsningar - översikt](/help/quicksilver/planning/general/limitations-overview.md): En lista med begränsningar för antalet objekt som du kan skapa i Workfront Planning.
 * [Adobe Workfront Planering - aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md): En lista över alla funktioner som har släppts sedan lanseringen av Adobe Workfront Planning-programmet, den 22 maj 2023 med exakta releasedatum och en kort översikt över alla funktioner.
+
+## Ytterligare funktioner för Workfront Planning
+
 * [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Med Workfront AI Assistant för Planning kan du söka efter poster eller skapa, uppdatera och ta bort poster med kommandon och låta assistenten utföra arbetet åt dig.
 
   >[!NOTE]
   >
-  >    Workfront AI Assistant är för närvarande tillgängligt för utvalda kunder i betatestning. Kontakta din kontorepresentant för att få veta om du är berättigad att delta och testa det här nya erbjudandet.
+  >    Workfront AI Assistant har tagits bort tillfälligt och är tillgänglig vid ett senare tillfälle.
 
 * [Adobe Workfront planeringsmoduler för Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Med Adobe Workfront Planning-modulerna kan du utlösa ett scenario när händelser inträffar i Workfront Planning. Du kan också skapa, läsa, uppdatera och ta bort poster eller utföra ett anpassat API-anrop till ditt Adobe Workfront Planning-konto.
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
+
+<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
 
 ## Workfront Planning - arkitektur och funktionalitet
 

@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
-><span class="preview">AI-assistenten har tagits bort tillfälligt och kommer att återkomma vid ett senare datum.</span>
+><span class="preview">Workfront AI Assistant har tagits bort tillfälligt och är tillgänglig vid ett senare datum.</span>
 >Informationen i den här artikeln gäller Adobe Workfront Planning och Workfront AI Assistant (beta), som är nya erbjudanden från Adobe Workfront.
 >
 >För närvarande är Workfront Planning i ett tidigt skede och Workfront AI Assistant är i en betafas.
