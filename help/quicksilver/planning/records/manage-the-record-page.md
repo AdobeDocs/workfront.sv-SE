@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -145,11 +145,11 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
-   Postsidan öppnas.
+   Postsidan öppnas. <!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. Håll markören över det tomma utrymmet till vänster om fälten i förhandsgranskningen eller på sidan för att lägga till ett avsnitt genom att klicka på ikonen **Lägg till avsnitt** ![](assets/add-section-icon.png) .
+1. I förhandsgranskningen av posten <!--**Details** tab of the--> eller på sidan för du pekaren över det tomma utrymmet till vänster om fälten och klickar sedan på ikonen **Lägg till avsnitt** ![](assets/add-section-icon.png) för att lägga till ett avsnitt.
 1. Klicka i avsnittets namn och ersätt **Namnlöst avsnitt** med ett namn. Klicka sedan på Retur. Fälten som visas under avsnittet är automatiskt en del av det nya avsnittet.
 1. Börja dra och släppa fält till det nya avsnittet, så som beskrivs i avsnittet [Ordna om fält i postförhandsgranskningen eller informationssidan](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
 
@@ -182,7 +182,13 @@ Alla avsnitt expanderas som standard.
 
    Alla ändringar i avsnitt och fältordning sparas automatiskt.
 
-## Ordna om fält på sidan för postförhandsgranskning eller detaljer
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Ordna om fält i postens förhandsgranskning eller sida
 
 {{step1-to-planning}}
 

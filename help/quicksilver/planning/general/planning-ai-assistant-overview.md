@@ -1,23 +1,24 @@
 ---
-title: Översikt över Adobe Workfront Planning AI Assistant
+title: Adobe Workfront Planning AI Assistant - översikt
 description: Du kan använda AI-assistenten för att generera, uppdatera eller ta bort poster baserat på den aktuella sidkontexten och poststrukturen. Användarens kommandon och AI:ns körning av dessa kommandon fungerar tillsammans för att se till att ändringar som görs av AI återspeglas korrekt i din miljö.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Workfront Planning AI Assistant - översikt
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">AI-assistenten har tagits bort tillfälligt och kommer att återkomma vid ett senare datum.</span>
 >Informationen i den här artikeln gäller Adobe Workfront Planning och Workfront AI Assistant (beta), som är nya erbjudanden från Adobe Workfront.
 >
 >För närvarande är Workfront Planning i ett tidigt skede och Workfront AI Assistant är i en betafas.
@@ -36,7 +37,7 @@ Användarens kommandon och AI:ns körning av dessa kommandon fungerar tillsamman
 
 ## Överväganden om AI-assistenten
 
-* AI-assistenten är som standard tillgänglig för Workfront-administratörer.
+* AI-assistenten är som standard tillgänglig för den huvudsakliga Workfront-administratören. Mer information finns i [Konfigurera grundläggande information för systemet](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * Workfront-administratören måste aktivera AI-assistenten för alla andra användare. Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 

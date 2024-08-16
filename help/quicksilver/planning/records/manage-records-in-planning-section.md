@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,9 @@ Planeringsavsnittet är tillgängligt för följande Workfront-objekt:
 
 ## Att tänka på när det gäller planeringsavsnittet för Workfront-objekt
 
-* Först måste du koppla posttyper till Workfront-objekttyper och poster till Workfront-objekt för att kunna visa dem i Workfront.
+* Workfront Planning-posttyper måste vara anslutna till Workfront objekttyper.
+
+* Minst en post måste vara ansluten till ett Workfront-objekt för att du ska kunna visa poster i Workfront.
 
   Mer information finns i följande artiklar:
 
