@@ -6,9 +6,9 @@ description: Du kan skriva ut en korrektursammanfattning, spara den som PDF elle
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,8 @@ Du kan skriva ut en korrektursammanfattning direkt från dokumentlistan.
 
 >[!NOTE]
 >
->Du kan inte skriva ut flera korrektursammanfattningar från dokumentlistan samtidigt.
+>* Sammanfattningar som är större än 1 GB stöds inte.
+>* Du kan inte skriva ut flera korrektursammanfattningar från dokumentlistan samtidigt.
 
 1. I dokumentlistan som innehåller korrekturet för du muspekaren över raden som innehåller dokumentet och klickar sedan på **Skriv ut sammanfattning**.
 
