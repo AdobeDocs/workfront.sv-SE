@@ -7,24 +7,51 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Ändra beräknade fältformler med AI Assistant
+# Generera eller ändra beräknade fältformler med AI Assistant
 
-Du kan använda AI Assistant för att lösa fel i ogiltiga anpassade uttryck i beräkningsfält.
+Du kan använda AI Assistant för att generera formler baserat på en uppmaning som du anger. Du kan också lösa fel i ogiltiga anpassade uttryck i beräkningsfält.
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Prime eller Ultimate</p>
+       <p>eller</p>
+       <p>Aktuell: Inte tillgänglig</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Inte tillgänglig</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Generera ett beräknat fältuttryck
+
+## Ändra ett beräknat fältuttryck
 
 När du skapar beräkningsfältet i det anpassade formulärbyggaren visas ett felmeddelande under fältet om formeln är ogiltig.
 
 ![Ogiltigt uttrycksfel](assets/invalid-expression.png)
 
 AI Assistant kan hjälpa dig att ändra formeln till ett giltigt beräknat fältuttryck.
-
-## Ändra ett beräknat fältuttryck
 
 Så här ändrar du ett ogiltigt beräknat fältuttryck:
 

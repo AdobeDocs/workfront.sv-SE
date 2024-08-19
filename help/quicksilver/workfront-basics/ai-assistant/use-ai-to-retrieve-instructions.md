@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 32f2c7227ba5851f5a9de85bd350fe9093a5fc8f
+source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,31 @@ ht-degree: 0%
 AI Assistant hittar information i Workfront-dokumentationen och du behöver inte besöka Adobe Experience League för att få den hjälp du behöver.
 
 Om du till exempel frågar AI-assistenten&quot;Hur skapar jag en begärandekö&quot; returneras instruktioner om hur du skapar begäran som hämtas från artikeln [Skapa och hantera begärandeköer](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+## Åtkomstkrav
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Inte tillgänglig</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Inte tillgänglig</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Hämta information från AI Assistant
 
