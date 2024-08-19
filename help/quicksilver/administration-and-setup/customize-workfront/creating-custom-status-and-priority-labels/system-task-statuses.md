@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Systemuppgiftsstatus
+title: Systemaktivitetsstatus
 description: De tre inbyggda aktivitetsstatusarna i Workfront krävs, vilket innebär att du kan låsa upp, byta namn på och ordna om dem, men du kan inte dölja eller ta bort dem. Du kan också lägga till nya aktivitetsstatusar för systemet för att passa behoven i din organisation. Att ändra status för en uppgift är vanligtvis en manuell process, men ibland ändras status för en uppgift automatiskt beroende på andra faktorer som inträffar i systemet.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 0%

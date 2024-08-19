@@ -1,15 +1,15 @@
 ---
-title: Hur ändringar i gruppering och godkännandeprocess påverkar tilldelade godkännandeprocesser
+title: Hur ändringar i grupp- och godkännandeprocessen påverkar tilldelade godkännandeprocesser
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: I den här artikeln förklaras vad som händer när en godkännandeprocess redan används när en Workfront-administratör (eller en användare med administrativ åtkomst till godkännandeprocesser) ändrar sin koppling till en grupp.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '1495'
 ht-degree: 0%

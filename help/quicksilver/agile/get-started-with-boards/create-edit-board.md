@@ -6,9 +6,9 @@ description: Från kontrollpanelen [!UICONTROL boards] kan du skapa en ny panel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
       >[!NOTE]
       >
-      >Kortgränsen för dynamiska kort är 700 uppgifter och 700 utgåvor, totalt 1 400 kort. Ett stort antal kort på kortet kan påverka kortets prestanda.
+      >Kortgränsen för dynamiska kort är 700 uppgifter och 700 utgåvor, totalt 1 400 kort. Ett stort antal kort på kortet kan påverka kortets prestanda. Alla arkiverade kort, både dolda och synliga, räknas mot denna gräns.
 
    1. (Valfritt) Välj [!UICONTROL **Arkivera inte slutförda kort**] om du vill att slutförda uppgifter och utgåvor ska placeras på anslagstavlan som synliga kort i kolumnen Slutfört. När det här alternativet inte är markerat hämtas färdiga kort när styrelsen skapas till styrelsen som arkiverade kort.
 

@@ -1,13 +1,13 @@
 ---
 title: Skapa och anpassa prioriteringar
 description: Du kan styra prioriteter för projekt, uppgifter och utgåvor under Konfigurera i Workfront. Prioriteringarna lägger stor vikt vid projekt, uppgifter och problem i Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Du kan styra prioriteter för projekt, uppgifter och utgåvor under Konfigurera i Workfront. Prioriteringarna lägger stor vikt vid projekt, uppgifter och problem i Adobe Workfront.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -42,6 +44,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Anpassa befintliga prioriteringar
 
@@ -87,7 +91,7 @@ Prioriteringarna som anges som standard för varje objekttyp (projekt, uppgift o
 
 Förutom standardprioriteringarna i Workfront kan du lägga till egna prioriteringar som speglar organisationens behov.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Projektinställningar** > **Prioriteter** i den vänstra panelen.
 

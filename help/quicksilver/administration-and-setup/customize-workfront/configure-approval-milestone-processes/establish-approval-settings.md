@@ -1,16 +1,16 @@
 ---
-title: Konfigurera globala inställningar för godkännande
+title: Konfigurera inställningar för globalt godkännande
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Som Adobe Workfront-administratör kan du ange globala inställningar för godkännandeprocesser i Workfront. De här inställningarna påverkar alla godkännandeprocesser för arbetsobjekt i systemet.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör kan du ange globala inställningar för godkännandeprocesser i Workfront. De här inställningarna påverkar alla godkännandeprocesser för arbetsobjekt i systemet.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,12 +46,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Konfigurera globala inställningar för godkännande
 
-1. Logga in på Workfront som Workfront-administratör.
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-1. Klicka på **Processer** > **Godkännanden** .
+1. Klicka på **Processer** > **Godkännanden**.
 
 1. Klicka på ikonen **Inställningar** ![](assets/gear-icon-settings.png) bredvid namnet på området **Godkännanden** .
 

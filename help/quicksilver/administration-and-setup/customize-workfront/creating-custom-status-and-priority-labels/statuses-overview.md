@@ -3,13 +3,13 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Översikt över status
+title: Statusöversikt
 description: Om du vill ta reda på vilket utvecklingsstadium ett projekt, en uppgift eller ett problem har kan användaren visa statusen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0fa2f445-be8e-405f-864a-dbc4726d096b
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%

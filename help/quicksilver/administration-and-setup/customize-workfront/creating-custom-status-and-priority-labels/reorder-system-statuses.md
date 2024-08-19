@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Ändra ordning på systemnivå och gruppstatus
 description: Som Workfront-administratör kan du ändra ordningen för projekt-, uppgifts- och utfärdandestatus för alla i systemet eller för en enskild grupp.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Som Workfront-administratör kan du ändra ordningen för projekt-, uppgifts- oc
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
+
++++
 
 ## Standardordning för statusvärden
 
@@ -108,7 +112,7 @@ Som standard visas statusvärden i följande ordning:
 
 ## Ändra ordning på status för uppgifter och projekt i hela systemet eller för en grupp
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Projektinställningar > Status** i den vänstra panelen.
 1. (Villkorligt) Om du ändrar ordning på statusarna för en grupp börjar du skriva namnet på gruppen i rutan i det övre högra hörnet och klickar sedan på namnet när det visas.

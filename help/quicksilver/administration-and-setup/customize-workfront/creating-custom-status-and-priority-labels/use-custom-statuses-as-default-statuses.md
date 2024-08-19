@@ -4,13 +4,13 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Använd anpassade statusvärden som standardstatusvärden
 description: När en anpassad status anges som standardstatus används den nya standardstatusen i hela systemet på olika sätt. Hur det används beror på om det är inställt som standardstatus på systemnivå eller standardstatus på gruppnivå.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 När en anpassad status anges som standardstatus används den nya standardstatusen i hela systemet på olika sätt. Hur det används beror på om det är inställt som standardstatus på systemnivå eller standardstatus på gruppnivå.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -41,6 +43,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Anpassade standardstatusvärden på systemnivå
 
@@ -76,7 +80,8 @@ Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras
 
 ## Ange en anpassad status som standardstatus
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
+
 1. Klicka på **Projektinställningar** > **Status** i den vänstra panelen.
 1. (Villkorligt) Om du anger en standardstatus för en grupp börjar du med att skriva namnet på gruppen på menyn i det övre högra hörnet och markerar den när den visas.
 1. Öppna fliken **Projekt**, **Åtgärder** eller **Problem**, beroende på vilken typ av status du vill ange som standardstatus.

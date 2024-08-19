@@ -1,17 +1,17 @@
 ---
-title: Öppna listan över status för systemprojekt
+title: Få åtkomst till listan över systemprojektstatus
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Användarna kan ange status för ett projekt så att andra användare kan se projektets aktuella utvecklingsstadium vid en viss tidpunkt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Du kan också lägga till anpassade projektstatusvärden som passar organisation
 Som Workfront-administratör konfigurerar du standardstatusen för alla nya projekt i systemet. Instruktioner finns i [Konfigurera systemomfattande projektinställningar](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -49,13 +51,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Åtkomst till projektstatus
 
 Som Workfront-administratör kan du komma åt listan över projektstatus på systemnivå.
 
 Mer information om hur du redigerar en systemstatus och skapar anpassade statusvärden finns i [Skapa eller redigera en status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Projektinställningar** > **Status**.
 

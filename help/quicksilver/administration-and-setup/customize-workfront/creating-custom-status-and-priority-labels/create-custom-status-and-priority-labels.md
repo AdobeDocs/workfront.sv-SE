@@ -1,23 +1,23 @@
 ---
-title: Status och prioritetsetiketter
+title: "Skapa anpassade statusvärden och prioritetsetiketter: artikelindex"
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: Som Adobe Workfront-administratör kan du skapa anpassade statusvärden för projekt, uppgifter och ärenden. Dessa kan vara till för användare i hela Workfront eller för specifika grupper eller undergrupper. En arbetsuppgifts status representerar dess aktuella utvecklingsstatus.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 94248a76-6531-4196-964d-6fd51ed02f6a
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '139'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# Skapa anpassade statusvärden och prioritetsetiketter
+# Skapa anpassade statusvärden och prioritetsetiketter: artikelindex
 
 Det här avsnittet innehåller följande artiklar:
 

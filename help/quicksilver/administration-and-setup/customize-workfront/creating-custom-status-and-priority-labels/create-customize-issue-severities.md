@@ -1,16 +1,16 @@
 ---
-title: Skapa eller anpassa utgåvans allvarlighetsgrad
+title: Skapa eller anpassa allvarlighetsgrader för utgåvor
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Dina användare kan använda allvarlighetsgrader för att definiera hur allvarligt ett problem är. Du kan anpassa någon av de fem standardserierna som finns i Adobe Workfront eller skapa en ny allvarlighetsgrad för dina användare.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Dina användare kan använda allvarlighetsgrader för att definiera hur allvarli
 >Aktiviteter och projekt har ingen allvarlighetsgrad.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -51,6 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Inbyggda problemallvarlighetsgrader
 
@@ -85,7 +89,7 @@ Workfront har fem inbyggda problemallvarlighetsgrader:
 
 Som Workfront-administratör kan du skapa och redigera utgåvor som passar dina användares behov.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Projektinställningar** > **Allvarlighetsgrader** i den vänstra panelen.
 

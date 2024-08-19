@@ -2,27 +2,27 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Lista objekt med väntande godkännandeprocesser som använder en viss status
+title: Lista objekt med en väntande godkännandeprocess med en viss status
 description: Om du försöker ta bort en status kan ett felmeddelande tala om för dig att den inte kan tas bort eftersom den används i väntande godkännandeprocesser för objekt i systemet. Om du vill hitta och granska objekten för att bestämma vad du behöver göra kan du köra en rapport som listar dem.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: e20934501c2117455ca7950834d868f78576dee7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
 
-# Lista objekt med väntande godkännandeprocesser som använder en viss status
+# Lista objekt med en väntande godkännandeprocess som använder en viss status
 
-Om du försöker ta bort en status kan ett felmeddelande tala om för dig att den inte kan tas bort eftersom den finns i minst en väntande godkännandeprocess i systemet. Du kan köra en rapport för att lista objekten där den befinner sig i en väntande godkännandeprocess och sedan bestämma vad du behöver göra för varje.
+Om du försöker ta bort en status kan ett felmeddelande tala om för dig att den inte kan tas bort eftersom den befinner sig i minst en väntande godkännandeprocess i systemet. Du kan köra en rapport för att lista objekten där den befinner sig i en väntande godkännandeprocess och sedan bestämma vad du behöver göra för varje.
 
 ## I standardläge
 
-1. Gå till området **Rapportering** i det globala navigeringsfältet och välj sedan fliken **Rapporter** .
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
+{{step1-to-reports}}
+
 1. Klicka på **Ny rapport** och välj sedan **Projektrapport**, **Aktivitetsrapport** eller **Problemrapport**.
 1. Öppna fliken **Filter**.
 1. Klicka på **Lägg till en filterregel** och gör sedan följande för att konfigurera regeln:
@@ -42,7 +42,8 @@ Om du försöker ta bort en status kan ett felmeddelande tala om för dig att de
 
 ## I textläge
 
-1. Klicka på ikonen Huvudmeny ![](assets/main-menu-icon.png) i det övre högra hörnet och klicka sedan på **Rapporter**.
+{{step1-to-reports}}
+
 1. Klicka på **Ny rapport** och välj sedan **Projektrapport**, **Aktivitetsrapport** eller **Problemrapport**.
 1. Öppna fliken **Filter**.
 1. Välj **Växla till textläge**.

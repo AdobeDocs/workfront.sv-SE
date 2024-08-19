@@ -1,16 +1,16 @@
 ---
-title: Godkännandeprocesser och milstolpar
+title: Godkännandeprocesser och milstolpebanor
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: Du kan skapa en godkännandeprocess som användare kan koppla till en arbetsuppgift, ett dokument eller ett korrektur. Du kan också skapa milstolpesökvägar som kan användas på alla projekt i systemet.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 0%
