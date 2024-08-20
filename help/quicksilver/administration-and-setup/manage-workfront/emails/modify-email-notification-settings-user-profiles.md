@@ -3,13 +3,13 @@ user-type: administrator
 product-area: system-administration
 keywords: ändra,e-post,meddelande,inställningar,massredigera,konfigurera,flera,användare
 navigation-topic: emails-administration
-title: Ändra e-postaviseringsinställningar för flera användare
+title: Ändra e-postmeddelandeinställningar för flera användare
 description: Den här artikeln innehåller information för Workfront- eller gruppadministratörer om hur de kan uppdatera e-postmeddelanden för andra användare.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '458'
 ht-degree: 0%

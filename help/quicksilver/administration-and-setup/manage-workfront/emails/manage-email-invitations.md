@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Mer information om hur du tar emot e-postinbjudningar finns i [Ta emot e-postinb
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Generera e-postinbjudningar {#generate-email-invitations}
 
 E-postinbjudningar genereras i följande scenarier:
@@ -80,7 +84,8 @@ E-postinbjudningar genereras i följande scenarier:
 
 Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
+
 1. Välj den användare som visar etiketten **Oregistrerad** efter sitt namn.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ Generera e-postinbjudningar till befintliga oregistrerade användare manuellt:
 
 Som Workfront-administratör kan du konfigurera det meddelande du vill ta med i e-postinbjudningarna för nya användare.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **E-post** > **Inbjudningar** i listan till vänster.
 

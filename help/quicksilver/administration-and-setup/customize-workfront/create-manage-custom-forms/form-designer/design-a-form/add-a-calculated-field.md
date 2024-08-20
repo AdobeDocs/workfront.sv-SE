@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
 source-wordcount: '2319'
 ht-degree: 0%
@@ -239,7 +239,7 @@ En beräkning börjar oftast med ett uttryck följt av parenteser som innehålle
 
         **Beräknade anpassade fält i anpassade formulär med flera objekt**
 
-        I ett anpassat formulär med flera objekt måste de valda objekttyperna vara kompatibla med minst ett fält som refereras i formulärets beräknade anpassade fält. Fält som inte är kompatibla med objektet visas N/A i formuläret.
+        I ett anpassat formulär med flera objekt måste de valda objekttyperna vara kompatibla med minst ett fält som refereras i formulärets beräknade anpassade fält. Fält som inte är kompatibla med objektet kommer att visa N/A i formuläret.
 
         För att säkerställa att beräkningsfältet visar rätt resultat för alla objekttyper måste du använda `$$OBJCODE` för att definiera en beräkning för varje objekttyp.
 

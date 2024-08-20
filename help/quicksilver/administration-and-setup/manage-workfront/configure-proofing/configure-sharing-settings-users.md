@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör eller Workfront Proof-administratör kan du konfigurera användarkonton med vilka korrektur kan delas, om användare kan se alla versioner av ett korrektur och när användare får åtkomst till delade objekt.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -44,9 +46,11 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Konfigurera delning med andra konton
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** och sedan på fliken **Inställningar** .
 
@@ -57,7 +61,7 @@ Du måste ha följande:
 
 ## Konfigurera synlighet för alla versioner av ett delat korrektur
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** och sedan på fliken **Inställningar** .
 
@@ -75,7 +79,7 @@ Du kan ange när korrektur med ett automatiserat arbetsflöde ska visas för anv
 
 Så här konfigurerar du när korrektur med ett automatiserat arbetsflöde visas för användarna:
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** och sedan på fliken **Inställningar** .
 

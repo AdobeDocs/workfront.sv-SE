@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1221'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör eller Workfront Proof-administratör kan du anpassa korrekturinställningarna för din organisation. De här inställningarna innehåller standarddelningsalternativ, branding med mera.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande:
 
@@ -44,6 +46,8 @@ Du måste ha följande:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Konfigurera åtgärder
 
 Mer information om hur du använder åtgärder i korrekturläsaren finns i [Använda åtgärder på korrekturkommentarer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -56,7 +60,7 @@ Du kan konfigurera åtgärder för din organisation på följande sätt:
 
 ### Lägga till eller byta namn på en åtgärd {#add-or-rename-an-action}
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** i det övre högra hörnet av Workfront Proof-gränssnittet och klicka sedan på fliken **Inställningar** .
 
@@ -73,7 +77,7 @@ Du kan konfigurera åtgärder för din organisation på följande sätt:
 
 ### Inaktivera eller återaktivera en åtgärd {#deactivate-or-reactivate-an-action}
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** i det övre högra hörnet av Workfront Proof-gränssnittet och klicka sedan på fliken **Inställningar** .
 
@@ -82,7 +86,7 @@ Du kan konfigurera åtgärder för din organisation på följande sätt:
 
 ### Ordna om funktionsmakron {#reorder-actions}
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** i det övre högra hörnet av Workfront Proof-gränssnittet och klicka sedan på fliken **Inställningar** .
 
@@ -98,7 +102,7 @@ Mer information om hur användare kan välja enheter när de granskar interaktiv
 
 Så här lägger du till en anpassad enhet:
 
-1. I Workfront klickar du på huvudmenyn ![](assets/main-menu-icon.png) och sedan på Korrektur ![](assets/proofing-in-main-menu.png) för att öppna Workfront Proof.
+{{step1-to-proofing}}
 
 1. Klicka på **Inställningar** > **Kontoinställningar** i det övre högra hörnet av Workfront Proof-gränssnittet och klicka sedan på fliken **Inställningar** .
 

@@ -4,14 +4,15 @@ content-type: reference
 product-area: system-administration;reporting;setup
 navigation-topic: manage-workfront
 title: Konfigurera rapporter
-description: Du kan konfigurera listkontroller och inbyggda Workfront-rapporter.
+description: Administratören kan konfigurera inbyggda Workfront-rapporter.
 feature: System Setup and Administration
 role: Admin
+author: Nolan, Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 4b865423-803f-4758-b466-c4fc9a7268dc
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '22'
+source-wordcount: '20'
 ht-degree: 0%
 
 ---

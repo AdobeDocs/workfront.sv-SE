@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ För att förbättra systemets prestanda och göra formulären enklare att anvä
 
 >[!CAUTION]
 >
->Om du tar bort ett anpassat fält tas även alla anpassade data som användarna har angett i fältet bort när de fyller i anpassade formulär som är kopplade till objekt. Det går inte att återställa borttagna data.
+>Om du tar bort ett anpassat fält tas även alla anpassade data som användarna har angett i fältet bort när de fyller i anpassade formulär som är kopplade till objekt. Det går inte att återställa borttagna data. Det finns heller inget meddelandesystem för att varna personer som använder det anpassade formuläret om att det har tagits bort.
 >
 >Du kan visa alla anpassade formulär och rapporter som använder ett anpassat fält som du vill ta bort för att avgöra vilka återverkningar som kan uppstå. Mer information finns i [Visa alla anpassade formulär som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) och [Visa alla rapporter som använder ett visst anpassat fält eller en viss widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Konfigurera standardinställningar för e-postmeddelanden om korrektur
+title: Konfigurera standardinställningar för e-postmeddelanden för korrektur
 description: Språkanvändare i Adobe Workfront kan få e-postmeddelanden från både Workfront och Workfront Proof när kommentarer eller beslut fattas i ett korrektur. Om användare redan får e-postmeddelanden från Workfront Proof rekommenderar vi att du inaktiverar meddelanden som skickas från Workfront för att undvika dubbla e-postmeddelanden.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Så här konfigurerar du inställningar för korrekturmeddelanden via e-post som skickas från Workfront:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Expandera **E-post** och klicka sedan på **Granska och godkänn**.
 

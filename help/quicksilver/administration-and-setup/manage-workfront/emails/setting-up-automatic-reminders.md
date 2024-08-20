@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Ställ in automatiska påminnelser
-description: Ställ in automatiska påminnelser
+title: Konfigurera automatiska påminnelser
+description: Du kan ställa in automatiska påminnelser för att utlösa e-postmeddelanden när alla uppgifter eller problem förfaller, förfaller eller nära det planerade slutförandedatumet.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ En automatisk påminnelse kan skickas till en eller flera av följande:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Ställ in automatiska påminnelser
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-1. Klicka på **E-post** >**Automatiska påminnelser**.
+1. Klicka på **E-post** > **Automatiska påminnelser**.
 
 1. I området **Skicka ett sent meddelande till** väljer du något av följande alternativ:
 
@@ -85,7 +89,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
         <td>(I området <b>Skicka påminnelse om deadline till </b>.) Välj det här alternativet om du vill att användaren som tilldelats en uppgift eller en utgåva ska få ett meddelande om att arbetsuppgiften närmar sig förfallodatumet.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Välj den tidpunkt då den automatiska påminnelsen ska skickas genom att välja hur lång tid som ska gå före eller efter förfallodatumet för arbetsuppgiften.
 

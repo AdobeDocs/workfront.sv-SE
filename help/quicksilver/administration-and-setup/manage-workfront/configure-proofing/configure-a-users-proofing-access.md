@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Konfigurera en användares språkkontroll
+title: Konfigurera en användares språkåtkomst
 description: Som Adobe Workfront-administratör eller Workfront Proof-administratör kan du konfigurera en användares åtkomst till att skapa och visa korrektur i Workfront och Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1240'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Som Adobe Workfront-administratör eller Workfront Proof-administratör kan du k
 Mer information om korrekturfunktioner för grundläggande och integrerad korrektur finns i [Åtkomst till korrekturfunktioner i Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -46,6 +48,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Aktivera och inaktivera korrektur för en användare (endast äldre planer) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 Om din organisation använder en äldre Select- eller Premium Workfront-plan, som Workfront-administratör, kan du aktivera och inaktivera språkfunktioner för användaren.
@@ -63,7 +67,8 @@ När du aktiverar korrektur för en användare aktiveras alternativet att använ
 
 Den behörighetsprofil du väljer tilldelas användarna för varje bevis som finns i organisationen.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Användare** ![](assets/users-icon-in-main-menu.png) .
+{{step-1-to-users}}
+
 1. Markera en eller flera användare och klicka sedan på **Redigera**.
 
 1. I avsnittet **Åtkomst** klickar du på något av följande Workfront Proof-behörighetsalternativ i listrutan **Korrekturprofil**:

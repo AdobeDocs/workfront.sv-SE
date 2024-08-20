@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Konfigurera standardspråkroller
+title: Konfigurera roller för standardkorrektur
 description: Som Adobe Workfront-administratör kan du konfigurera standardspråkroller för användare och gästanvändare som har åtkomst till korrektur som skapats i Workfront. Alla som lägger till användare i ett korrektur kan justera de här rollerna åt dem.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör kan du konfigurera standardspråkroller för användare och gästanvändare som har åtkomst till korrektur som skapats i Workfront. Alla som lägger till användare i ett korrektur kan justera de här rollerna åt dem.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -44,11 +46,13 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Konfigurera standardspråkroller
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-   <!--
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

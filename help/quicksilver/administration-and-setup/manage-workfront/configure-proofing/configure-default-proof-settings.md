@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Konfigurera standardinställningar för korrektur
+title: Konfigurera standardkorrekturinställningar
 description: Med de här inställningarna kan du ange standardvärden som gäller för alla nya korrektur som skapas av användarna. Användarna kan dock åsidosätta de flesta av dessa inställningar när de skapar ett korrektur.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '557'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Konfigurera nya standardinställningar för korrektur
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera**.
+{{step-1-to-setup}}
+
 1. Klicka på **Korrekturinställningar** > **Korrekturinställningar** i den vänstra panelen.
 1. Konfigurera följande inställningar i avsnittet **Nya korrekturinställningar**:
 
@@ -113,7 +114,8 @@ Användare kan använda korrekturbeslut för att ange korrekturstatus efter gran
 
 Så här konfigurerar du korrekturbeslut:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera**.
+{{step-1-to-setup}}
+
 1. Klicka på **Korrekturinställningar** > **Korrekturinställningar** i den vänstra panelen.
 1. I avsnittet **Beslut** kan du
 

@@ -6,10 +6,11 @@ title: Dölj inbyggda rapporter
 description: Adobe Workfront har en omfattande lista över inbyggda standardrapporter som användare kan öppna och visa. Som Workfront-administratör kan du ändra en användares åtkomstnivå för att dölja inbyggda rapporter så att användare inte har tillgång till dem.
 feature: System Setup and Administration
 role: Admin
+author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,8 @@ ht-degree: 0%
 Adobe Workfront har en omfattande lista över inbyggda standardrapporter som användare kan öppna och visa. Som Workfront-administratör kan du ändra en användares åtkomstnivå för att dölja inbyggda rapporter så att användare inte har tillgång till dem.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -41,9 +44,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Dölj inbyggda rapporter
 
-1. Klicka på **Konfigurera** på **huvudmenyn** ![](assets/main-menu-icon.png).
+{{step-1-to-setup}}
+
 1. Klicka på **Åtkomstnivåer**.
 1. Välj åtkomstnivån som du vill dölja inbyggda rapporter för och klicka sedan på **Redigera**.
 1. För objektet **Rapporter** klickar du på ikonen **Inställningar** bredvid den högsta tillgängliga åtkomstnivån och avmarkerar sedan **Visa inbyggda rapporter**.

@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Skapa och hantera automatiserade arbetsflödesmallar
+title: Skapa och hantera automatiska arbetsflödesmallar
 description: Som Adobe Workfront-administratör kan du skapa automatiska arbetsflödesmallar som innehåller de granskare som har korrekturroller och meddelandeinställningar som du anger, om ditt företags innehållsgranskningsprocess ofta upprepas eller innehåll ofta granskas av samma personer. En mall för automatiserat arbetsflöde kan vara enkel med bara en eller två granskare eller komplex med många faser och beroenden.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

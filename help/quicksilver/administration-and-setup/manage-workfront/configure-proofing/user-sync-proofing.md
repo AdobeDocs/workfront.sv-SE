@@ -9,7 +9,7 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
-source-git-commit: b310e36c9eb148db631e7a3552a35dcccc652d60
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%

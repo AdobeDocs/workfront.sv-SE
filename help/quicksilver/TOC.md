@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 0%
@@ -406,13 +406,13 @@ ht-degree: 0%
             * [Webbseminarier om R1-versionen](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * Meddelanden {#announcements}
       * [Meddelanden](product-announcements/announcements/announcements.md)
-      * [Förbättringar av anpassade formulär](product-announcements/announcements/custom-form-enhancements.md)
       * [Schema över funktioner som inte längre stöds](product-announcements/announcements/feature-removal-timeline.md)
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Avbeställ utskick från meddelandecentret i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * Meddelandearkiv {#announcement-archive}
          * [Meddelandearkiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [Förbättringar av anpassade formulär](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [Uppdaterad mobilapp för iOS och Android (tidig augusti 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [TLS 1.2 krävs i Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365-tillägget är nu tillgängligt](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

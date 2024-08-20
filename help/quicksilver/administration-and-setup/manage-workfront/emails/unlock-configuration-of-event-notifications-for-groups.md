@@ -8,9 +8,9 @@ author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ När en administratör konfigurerar ett händelsemeddelande för en grupp påver
 >
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -52,13 +54,15 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Lås upp eller låsa upp möjligheten att konfigurera ett händelsemeddelande igen
 
 >[!IMPORTANT]
 >
 >När du låser ett meddelande igen ärver alla grupper i systemet meddelandet exakt som du ställt in det. Detta åsidosätter ändringar som gruppadministratörer kan ha gjort för sina grupper, så det är en bra idé att först rådfråga dem.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **E-post** > **Meddelanden**.
 
