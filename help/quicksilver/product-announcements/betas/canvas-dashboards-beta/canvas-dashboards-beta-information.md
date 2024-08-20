@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Kontrollpaneler på arbetsytan är en funktion som för närvarande är under ut
 Grundläggande information om hur du använder Canvas-kontrollpaneler finns i [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 En lista över all dokumentation för kontrollpaneler på arbetsytan finns i [Översikt över kontrollpaneler på arbetsytan](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Beta-schema:**
+**Beta-status**
 
-* Stängt betatestdatum - TBA
-* Open beta start date - TBA
-* Planerat frisläppningsdatum - TBA
+Canvas Dashboards är för närvarande i en sluten betatestningsfas och är därför endast tillgänglig genom inbjudan till specifika kunder.
 
 ## Delta i betaversionen
 

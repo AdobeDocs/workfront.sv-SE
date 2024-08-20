@@ -6,14 +6,18 @@ description: En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '189'
 ht-degree: 0%
 
 ---
 
 # Skapa en KPI-rapport på en Canvas Dashboard
+
+>[!IMPORTANT]
+>
+>Den här sidan beskriver funktioner som endast är tillgängliga för användare som är inskrivna i den stängda betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
 
 En KPI-rapport som tydligt visar en enda aggregerad KPI kan läggas till på en Canvas Dashboard.
 

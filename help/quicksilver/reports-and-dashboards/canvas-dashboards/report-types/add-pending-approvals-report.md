@@ -6,14 +6,18 @@ description: En rapport om väntande godkännanden som innehåller data om vänt
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
 
 # Lägg till en rapport om väntande godkännanden på en Canvas-kontrollpanel
+
+>[!IMPORTANT]
+>
+>Den här sidan beskriver funktioner som endast är tillgängliga för användare som är inskrivna i den stängda betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
 
 En rapport om väntande godkännanden som innehåller data om väntande och tidigare godkännandebeslut kan läggas till på en Canvas Dashboard.
 

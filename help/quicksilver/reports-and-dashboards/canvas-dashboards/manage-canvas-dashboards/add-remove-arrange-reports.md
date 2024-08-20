@@ -6,14 +6,18 @@ description: När du har skapat en Canvas Dashboard kan du lägga till rapporter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Lägga till, ta bort eller ordna rapporter på en arbetsytans kontrollpanel
+
+>[!IMPORTANT]
+>
+>Den här sidan beskriver funktioner som endast är tillgängliga för användare som är inskrivna i den stängda betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
 
 När du har skapat en Canvas Dashboard kan du lägga till rapporter som visar dina Adobe Workfront-data i olika format. Rapporterna kan flyttas och storleksändras på arbetsytan efter behov. Mer information om hur du skapar en Canvas-kontrollpanel finns i [Kom igång med Canvas-kontrollpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

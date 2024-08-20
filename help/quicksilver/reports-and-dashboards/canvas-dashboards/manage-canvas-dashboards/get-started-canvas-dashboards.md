@@ -6,14 +6,18 @@ description: Grundläggande anvisningar för hur du använder Canvas-kontrollpan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
 
 # Kom igång med arbetsytans kontrollpaneler
+
+>[!IMPORTANT]
+>
+>Den här sidan beskriver funktioner som endast är tillgängliga för användare som är inskrivna i den stängda betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
 
 Med arbetsytans kontrollpaneler kan du enkelt visualisera dina Adobe Workfront-data genom att lägga till olika rapporttyper på en anpassningsbar arbetsyta. Den här sidan innehåller grundläggande anvisningar om hur du använder Canvas Dashboards, inklusive hur du navigerar till din lista över Canvas Dashboards samt hur du skapar och redigerar dem.
 
