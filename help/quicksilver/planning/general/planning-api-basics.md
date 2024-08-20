@@ -1,16 +1,16 @@
 ---
-title: Grundläggande om Adobe Workfront Planning API
+title: Grunderna i Adobe Workfront Planning API
 description: Målet för Adobe Workfront Planning API är att förenkla byggintegreringen med Planning genom att införa en REST-full arkitektur som fungerar över HTTP. I det här dokumentet förutsätts att du känner till REST- och JSON-svar och beskriver den metod som används i Planning API.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
 
 ---
-
 
 # Grunderna i Adobe Workfront Planning API
 
@@ -98,13 +98,13 @@ Workfront Planning stöder följande sökmodifierare:
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>Returnerar poster vars fältvärde är större än eller lika med filtret  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Returnerar poster vars fältvärde är mindre än filtret  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ Begärandetext:
 Använd en sorteringsparameter för att försäkra dig om att resultatet är rätt sidnumrerat. Detta gör att resultaten kan returneras i samma ordning, så att sidnumreringen inte upprepas eller hoppar över resultat.
 
 Mer information om sortering finns i [Sortera frågeresultat i API:t](#sorting-query-results-in-the-api) i den här artikeln.
-
-
-
