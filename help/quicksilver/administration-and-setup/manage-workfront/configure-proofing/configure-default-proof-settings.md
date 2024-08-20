@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,38 @@ ht-degree: 0%
 # Konfigurera standardinställningar för korrektur
 
 Med de här inställningarna kan du ange standardvärden som gäller för alla nya korrektur som skapas av användarna. Användarna kan dock åsidosätta de flesta av dessa inställningar när de skapar ett korrektur.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   eller
+   <p>Aktuell: Planera</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td> <p>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+
++++
 
 ## Konfigurera nya standardinställningar för korrektur
 

@@ -6,7 +6,7 @@ description: Du kan generera ett nytt statiskt korrektur eller en ny version av 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
@@ -75,7 +75,7 @@ Om du vill skapa ett statiskt bevis måste webbplatsen vara tillgänglig för al
 
    >[!NOTE]
    >
-   > URL:en får inte innehålla fler än 1 000 tecken.
+   > URL:en får inte innehålla fler än 2 000 tecken.
 
 1. Klicka på den URL som du har lagt till.
 
