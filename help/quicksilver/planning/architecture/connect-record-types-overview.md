@@ -4,9 +4,9 @@ description: Ett sätt att ange hur enskilda posttyper relaterar till varandra �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,18 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
 
 ## Att tänka på när du ansluter posttyper
 
+Det finns två anslutningssteg i Workfront Planning:
+
+1. Först måste du upprätta en anslutning mellan två posttyper eller en posttyp och en objekttyp från ett annat program. Mer information om hur du kan ansluta posttyper finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
+1. För det andra kan du koppla enskilda poster av en typ till poster av en annan typ efter att de två posttyperna är kopplade. Mer information om att ansluta poster finns i [Koppla poster](/help/quicksilver/planning/records/connect-records.md).
+
+Tänk på följande när det gäller att ansluta posttyper:
+
 * Du kan ansluta följande enheter i Adobe Workfront Planning:
 
    * Två posttyper.
 
-     Som standard kan du koppla två posttyper från samma arbetsyta. Du kan också ställa in posttyper för att ansluta till posttyper från andra arbetsytor.
+     Som standard kan du koppla två posttyper från samma arbetsyta. Du kan också ställa in posttyper för att ansluta till posttyper från andra arbetsytor. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
    * En posttyp och en objekttyp från ett annat program.
 
 * Du kan koppla posttyper för Workfront Planning till följande objekttyper från följande program:
@@ -82,73 +89,79 @@ Mer information om hur du ansluter posttyper finns i [Koppla posttyper](/help/qu
 
      >[!IMPORTANT]
      >
-     >Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i sökfälten, oavsett deras behörigheter eller åtkomstnivå i programmet för de länkade objekttyperna <!--or their permissions in other workspaces-->.
+     >Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i sökfälten, oavsett deras behörigheter eller åtkomstnivå i programmet för de länkade objekttyperna eller deras behörigheter i andra arbetsytor.
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
 
-* Länkade postfält föregås av en relationsikon ![](assets/relationship-field-icon.png).
+     Länkade fält föregås av en ikon som anger fälttypen. Länkade (eller uppslag) fält föregås av ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
 
-  Länkade fält föregås av en ikon som anger fälttypen. Länkade (eller uppslag) fält föregås av ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## Anslutningstyper
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-När du har upprättat en anslutning mellan två posttyper eller mellan en post och en objekttyp från ett annat program, kan du lägga till poster i de anslutna postfälten.
-
-Beroende på hur många poster du kan lägga till i ett anslutet postfält kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
-
-* [En till många](#one-to-many-connection-type)
-* [En till en](#many-to-one-connection-type)
-* [Många till ett](#many-to-one-connection-type)
-* [Många till många](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->Dessa alternativ är inte tillgängliga vid anslutning av följande:
->* Två poster från olika arbetsytor
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* En posttyp och AEM resurser
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### Anslutningstyp en till många
-
-![](assets/one-to-many-connection-picker.png)
-
-När du väljer en-till-många-anslutningstyp mellan posttyper kan du senare ansluta en post med flera poster som du ansluter till.
-
-Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman en kampanj med flera projekt. Men ett projekt kan bara kopplas till en kampanj.
-
-När du väljer den här anslutningstypen kan du senare bara ändra den till en många-till-många-anslutningstyp.
-
-### En-till-en-anslutningstyp
-
-![](assets/one-to-one-connection-picker.png)
-
-När du väljer en-till-en-anslutningstyp mellan posttyper kan du senare ansluta en post med en annan post som du ansluter till.
-
-Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman en kampanj med ett projekt. Ett projekt kan bara kopplas till en kampanj.
-
-När du väljer den här anslutningstypen kan du ändra den senare till en annan anslutningstyp.
-
-### Anslutningstyp för många-till-ett
-
-![](assets/many-to-one-connection-picker.png)
-
-När du väljer anslutningstypen många-till-en mellan posttyper kan du senare ansluta många poster med bara en post som du ansluter till.
-
-Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman flera kampanjer med ett projekt. Ett projekt kan kopplas till flera kampanjer.
-
-När du väljer den här anslutningstypen kan du senare bara ändra den till en många-till-många-anslutningstyp.
-
-### Anslutningstyp för många-till-många
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-När du väljer anslutningstypen många-till-många mellan posttyper kan du senare ansluta många poster med flera poster som du ansluter till.
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-Om ni till exempel kopplar ihop kampanjer med projekt kan ni koppla samman flera kampanjer med flera projekt. Du kan också koppla samman flera projekt med flera kampanjer.
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-När du väljer den här anslutningstypen kan du inte ändra anslutningstypen efter att du har sparat den.
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 

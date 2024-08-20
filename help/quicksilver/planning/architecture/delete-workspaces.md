@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -100,27 +100,16 @@ Vi rekommenderar att du återskapar vissa eller alla posttyper, poster, fält oc
 
 {{step1-to-planning}}
 
-1. (Villkorligt) Om du är Workfront-administratör klickar du på **Mina arbetsytor** för att få åtkomst till arbetsytor som du har skapat, eller **Andra arbetsytor** för att få åtkomst till arbetsytor som andra delar med dig. <!--change it to Workspaces I'm on-->
+1. (Villkorligt) Om du är Workfront-administratör klickar du på **Arbetsytor som jag är på** för att komma åt arbetsytor som du har skapat, eller **Andra arbetsytor** för att komma åt arbetsytor som andra delar med dig.
 
-1. Klicka på kortet för den arbetsyta som du vill ta bort.
+1. (Valfritt) Klicka på **Visa alla** om du vill visa ytterligare arbetsytor. Länken **Visa alla** visas bara när du har fler än två rader med arbetsytekort.
+1. (Valfritt) Klicka på **Visa färre** om du vill begränsa antalet arbetsytor som visas på skärmen.
+1. Gör något av följande om du vill ta bort en arbetsyta:
 
-   Arbetsytans sida visas.
-
-<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To delete a workspace, do one of the following:
-
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Delete**.
-
-   ![](assets/permanently-delete-workspace-confirmation.png)
-   -->
-
-1. Klicka på menyn **Mer** ![](assets/more-menu.png) bredvid arbetsytans namn och klicka sedan på **Ta bort**.
+   * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![](assets/more-menu.png) i kortets övre högra hörn
+eller
+   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![](assets/more-menu.png) till höger om arbetsytans namn.
+1. Klicka på **Ta bort**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 

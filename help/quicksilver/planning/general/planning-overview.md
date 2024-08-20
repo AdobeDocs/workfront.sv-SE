@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
@@ -78,11 +78,11 @@ Mer information om nya funktioner och när de släpps finns i [Adobe Workfront P
 | Sortera poster i tidslinjevyn |                               | ✓ |                  |
 | Sortera grupperingar i tabellvyn |                               | ✓ |                  |
 | Sortera grupperingar i tidslinjevyn |                               | ✓ |                  |
-| Ansluta arbetsytor |                               | ✓ |                  |
 | Söka efter poster i tabellvyn | ✓ |   |
 | Söka efter poster i tidslinjevyn | ✓ |   |
 | Koppla samman Workfront Planning-poster med Workfront-projekt, program, portfolior, företag, grupper | ✓ |                                 |                  |
 | Koppla Workfront Planning-poster till Adobe Experience Manager-resurser | ✓ |                                  |                 |
+| Anslut planeringsposter från olika arbetsytor | ✓ |                                  |                 |
 | Spela in sida med detaljerad information | ✓ |                                  |                  |
 | Uppdatera layouten för postens sida | ✓ |                                 |                  |
 | Dela arbetsytor | ✓ | |  |
@@ -282,10 +282,10 @@ Så här hittar du Workfront Planning:
 
 
 1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på någon av följande flikar:
-   * **Mina arbetsytor**: Visar arbetsytor som du har skapat. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **Arbetsytor som jag är på**: Visar arbetsytor som du har skapat eller arbetsytor som delas med dig.
+   * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet.
 
-   För alla andra användare visas alla arbetsytor som de har skapat eller har delat med dem i området **Arbetsytor** .
+   För alla andra användare visas båda arbetsytorna som de har skapat eller har delat med sig i området **Arbetsytor**.
 
 1. (Valfritt och rekommenderas) Fortsätt med några av följande åtgärder för att skapa din arbetsstruktur:
 

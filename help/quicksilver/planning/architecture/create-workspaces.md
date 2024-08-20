@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,10 @@ Du kan skapa en arbetsyta och lägga till posttyper för att ordna dina objekt i
    * En tom arbetsyta med namnet **Namnlös Workspace** där du kan börja lägga till posttyper manuellt när du skapar en arbetsyta från grunden.
    * En arbetsyta som namnges efter mallen som du valde och som fylls med exempelposttyper. Du kan anpassa posttyperna och arbetsytan ytterligare.
 
-   För Workfront-administratörer visas den nya arbetsytan på fliken **Mina arbetsytor** . <!--replace this with: **Workspaces I'm on** tab-->
+   För Workfront-administratörer visas den nya arbetsytan på fliken **Arbetsytor som jag är på**.
+
+   För alla andra användare som kan skapa arbetsytor visas den nya arbetsytan i området **Arbetsytor**.
+
 1. Klicka i namnet på arbetsytan i sidhuvudet på den nya arbetsytan för att byta namn på den och tryck sedan på Retur.
 
 1. (Valfritt och villkorligt) Om du har skapat arbetsytan från en mall klickar du inuti namnet på **driftposttyperna** eller **taxonomierna** .

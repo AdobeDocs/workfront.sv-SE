@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 0%
@@ -110,6 +110,17 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
 * Du måste lägga till de fält som du refererar till i formler när de visas i Workfront Planning-gränssnittet.
+<!--* You can format the result of a formula calculation by choosing from the following options:
+
+   * Text
+   * Number
+   * Percent
+   * Currency
+   * Tags
+   * Date
+
+   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
+
 
 ## Formler som stöds
 

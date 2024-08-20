@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -91,28 +91,20 @@ Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation]
 
 {{step1-to-planning}}
 
-1. (Villkorligt) Om du är Workfront-administratör klickar du på **Mina arbetsytor** för att få åtkomst till arbetsytor som du har skapat, eller **Andra arbetsytor** för att få åtkomst till arbetsytor som andra delar med dig. <!--replace My workspaces with **Workspaces I'm on**-->
+1. (Villkorligt) Om du är Workfront-administratör klickar du på **Arbetsytor som jag är på** för att komma åt arbetsytor som du har skapat, eller **Andra arbetsytor** för att komma åt arbetsytor som andra delar med dig.
 
-<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To edit a workspace, do one of the following:
+1. (Valfritt) Klicka på **Visa alla** om du vill visa ytterligare arbetsytor. Länken **Visa alla** visas bara när du har fler än två rader med arbetsytekort.
+1. (Valfritt) Klicka på **Visa färre** om du vill begränsa antalet arbetsytor som visas på skärmen.
+1. Gör något av följande om du vill redigera en arbetsyta:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Edit**.
+   * Håll pekaren över arbetsytans kort och klicka sedan på menyn **Mer** ![](assets/more-menu.png) i kortets övre högra hörn
+eller
+   * Klicka på ett arbetsytekort för att öppna arbetsytan och klicka sedan på menyn **Mer** ![](assets/more-menu.png) till höger om arbetsytans namn.
+1. Klicka på **Redigera**.
 
-   ![](assets/edit-workspace-box.png)
-   -->
-
-1. Klicka på ett arbetsytekort för att öppna arbetsytan.
-
-   Sidan Arbetsyta öppnas.
-
-1. Klicka inuti arbetsytans namn i arbetsytans sidhuvud för den nya arbetsytan och tryck sedan på **Retur**.
-1. Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om arbetsytans namn i sidhuvudet och klicka sedan på **Redigera**.
+   Rutan **Arbetsytan för redigering** visas.
 
    ![](assets/edit-workspace-box.png)
 

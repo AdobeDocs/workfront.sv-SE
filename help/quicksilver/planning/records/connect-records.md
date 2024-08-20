@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 0%
 
 ---
@@ -428,7 +428,6 @@ Så här ansluter du poster med AEM resurser:
 Du måste ha följande för att kunna ansluta Workfront Planning-poster från Workfront-objekt:
 
 * Anslutningar mellan posttyper och Workfornt-objekttyper som har upprättats i Workfront Planning.
-* Minst en anslutning mellan en post och ett Workfront-objekt.
 * Din Workfront- eller gruppadministratör måste lägga till Planning-avsnittet till de Workfront-objekttyper som kan ansluta till Planning-posttyper i din Layoutmall.
 
 Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

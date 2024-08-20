@@ -4,9 +4,9 @@ description: En arbetsyta är en samling posttyper som används av ett team och 
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,8 @@ En arbetsyta är en samling posttyper som används av en organisationsenhet och 
 
    * För systemadministratörer visas arbetsytorna på följande flikar:
 
-      * **Mina arbetsytor**: Visar arbetsytor som du har skapat. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet, inklusive de som delas med dig. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Arbetsytor som jag är på**: Visar arbetsytor som du har skapat eller arbetsytor som delas med dig.
+      * **Andra arbetsytor**: Visar alla andra arbetsytor i systemet.
 
    * För alla andra användare visas arbetsytor som de har skapat och arbetsytor som andra delar med dem i området Arbetsytor.
 
@@ -55,6 +55,7 @@ En arbetsyta är en samling posttyper som används av en organisationsenhet och 
   Systemadministratörer kan hantera alla arbetsytor, även de som de inte skapade.
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Det finns begränsningar för hur många arbetsyteobjekt du kan skapa i Workfront Planning. Mer information finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
 
 
