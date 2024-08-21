@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs de inställningar som är tillgänglig
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1137'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,30 @@ Det här alternativet avgör hur [!DNL Adobe Workfront Fusion] fortsätter om et
 
 ## [!UICONTROL Sequential processing]
 
-Det här alternativet avgör hur [!DNL Workfront Fusion] fortsätter om ett fel inträffar och körningen av ett scenario flyttas till [vyn och löser ofullständiga körningar i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). Om alternativet [!UICONTROL Sequential processing] är aktiverat slutar Workfront Fusion att bearbeta aktivitetssekvensen helt tills alla ofullständiga körningar har lösts. Om alternativet [!UICONTROL Sequential processing] är inaktiverat fortsätter scenariot att köras enligt schemat, tillsammans med upprepade försök att köra de ofullständiga körningarna igen.
+Det här alternativet tvingar alla körningar att ske i rätt ordning och är i första hand relevant för webhooks och ofullständiga körningar.
+
+När sekventiell bearbetning är aktiverad inaktiveras parallella körningar av scenariot.
+
+### Webbhooks
+
+Om en webbkrokutlösare har konfigurerats som `instant` och sekventiell bearbetning har aktiverats, kommer alla webkrocknyttolaster att ställas i kö och bearbetas i den ordning som de kommer fram. Detta kan vara användbart när händelser från externa system bearbetas i exakt ordning.
+
+>[!NOTE]
+>
+>Bearbetningsfördröjningar sker automatiskt när varje nyttolast bearbetas innan nästa startas.
+
+### Ofullständiga körningar
+
+Om&quot;Ofullständiga körningar&quot; också är aktiverat pausas scenariot om ett fel inträffar under körningen av ett scenario. Då händer något av följande:
+
+* Om alternativet Sekventiell bearbetning är **aktiverat** avbryter Workfront Fusion bearbetningen av den befintliga sekvensen tills alla ofullständiga körningar har lösts.
+* Om alternativet Sequential Processing är **inaktiverat** fortsätter scenariot att köras enligt schemat, tillsammans med upprepade försök att köra de ofullständiga körningarna igen.
+
+Mer information om ofullständiga körningar finns i [Visa och lösa ofullständiga körningar i Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md).
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
