@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -106,10 +106,12 @@ Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksil
 
 ## Överväganden om formelfält
 
-* Formelfält refererar till fält som tillhör samma posttyp. Du kan inte referera till fält från andra posttyper när du skapar ett formelfält. <!--is this still accurate??-->
+* Formelfält refererar till fält som tillhör samma posttyp.
+* Du kan bara referera till fält från andra posttyper när du kopplar en annan posttyp till den som du skapar ett formelfält för.
 * Du kan inte ändra fälttypen för ett formelfält när du har sparat det.
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
 * Du måste lägga till de fält som du refererar till i formler när de visas i Workfront Planning-gränssnittet.
+* Du kan bara referera till fält som visas i tabellvyn för en posttyp eller på sidan med postinformation.
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text

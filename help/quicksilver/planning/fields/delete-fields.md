@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,13 @@ Du kan ta bort Workfront Planning-fält som inte längre är relevanta.
 * Du kan bara ta bort ett fält i posttyptabellvyn.
 * Du kan inte ta bort det primära fältet för en post.
 * All information som lagras i fältet tas bort och kan inte återställas.
-* När du tar bort ett länkat postfält tas även alla länkade sökfält bort från den posttyp du länkar från. De länkade postfälten för de posttyper som du länkar till tas inte bort.
+* När du tar bort ett anslutet postfält tas även alla anslutna sökfält bort från den posttyp som du ansluter från. De anslutna postfälten för de posttyper du ansluter till tas också bort från den post du ansluter till.
+
+  Om du till exempel ansluter kampanjer till en annan posttyp som kallas product, och du tar bort fältet Product connected och fältet Product&#39;s Status lookup från kampanjen, tas följande bort:
+
+   * Det produktanslutna fältet från kampanjen
+   * Uppslagsfältet Produktstatus från kampanjen
+   * Det kampanjanslutna fältet från produkten.
 
   Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 

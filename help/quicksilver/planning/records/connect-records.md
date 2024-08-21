@@ -1,13 +1,13 @@
 ---
-title: Koppla poster
+title: Anslut poster
 description: När du har skapat anslutningar mellan posttyper kan du koppla enskilda poster till varandra.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2287'
 ht-degree: 0%
 
 ---
@@ -151,11 +151,11 @@ Om du vill koppla poster till andra poster eller objekt måste du ha följande:
 
 Du kan koppla poster från Workfront Planning inom följande områden:
 
-* Från en planeringspost i Workfront Planning i de anslutna fälten i tabellvyn.
+* Från en planeringspost i Workfront Planning i de anslutna postfälten i tabellvyn.
 * Från en planeringspost i Workfront Planning i postförhandsgranskningen eller på sidan i de anslutna postfälten.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+  * From a Planning record in the record's preview or page on the Connections tab.-->
 
 ### Anslut Adobe Workfront Planning-poster från tabellvyn eller postsidan <!--Details tab of the-->
 
@@ -211,7 +211,7 @@ Du kan koppla poster från Workfront Planning inom följande områden:
    >
    >* Vi använder länkade fält och sökfält omväxlande.
    >
-   >* Om du har aktiverat inställningen **Tillåt flera poster** när du ansluter posttyperna visas fältvärdena för de flera markerade objekten antingen avgränsade med kommatecken eller aggregerade enligt den aggregator du har valt.
+   >* När du väljer att koppla ihop flera poster när du kopplar ihop posttyperna visas fältvärdena från de olika objekten antingen separerade med kommatecken eller aggregeras enligt den aggregator du väljer.
 
 1. (Valfritt) Stäng sidan med posttyper och gå till den arbetsyta du valt.
 1. Klicka på kortet för den posttyp som du länkade till.
@@ -286,7 +286,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 
    >[!TIP]
    >
-   >* När du aktiverar inställningen Tillåt flera poster visas värdena i uppslagsfälten avgränsade med kommatecken eller aggregeras enligt den aggregator du väljer.
+   >* När du väljer att koppla ihop flera poster när du kopplar ihop posttyperna visas värdena i uppslagsfälten antingen separerade med kommatecken eller aggregeras enligt den aggregator du väljer.
    >
    >* Inget länkat postfält skapas för de länkade Workfront-objekten i Workfront.
 
@@ -360,7 +360,7 @@ Så här ansluter du poster med AEM resurser:
 
      >[!TIP]
      >
-     >* Om du har aktiverat inställningen Tillåt flera poster visas värdena för de olika objekten antingen separerade med kommatecken eller aggregerade enligt den aggregator du har valt.
+     >* När du väljer att koppla ihop flera poster när du kopplar ihop posttyperna, visas värdena för de olika objekten antingen avgränsade med kommatecken eller aggregerade enligt den aggregator du väljer.
      >
      >* Ett länkat postfält till de länkade posterna för Workfront Planning skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
 
@@ -408,6 +408,12 @@ Så här ansluter du poster med AEM resurser:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

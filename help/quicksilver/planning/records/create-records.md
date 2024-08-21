@@ -1,13 +1,13 @@
 ---
 title: Skapa poster
-description: När du använder Adobe Workfront Planning är en post en instans av en posttyp.
+description: När du använder Adobe Workfront Planning är en post en instans av en posttyp. Du kan skapa unika poster för varje posttyp i Workfront Planning genom att manuellt lägga till dem i tabellvyn, importera dem från en lista, duplicera dem eller skapa dem när du ansluter dem till andra poster.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* Lägg till dem från posttypssidan
+* Lägga till dem från posttypssidan i tabellvyn
 * Kopiera och klistra in en lista med poster från en extern lista
 * Duplicera dem
-  <!--* Add them as you connect them from other records-->
+  <!--* Create them as you connect them from other records-->
 
 I den här artikeln beskrivs hur du skapar poster. Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -92,10 +92,13 @@ I den här artikeln beskrivs hur du skapar poster. Mer information om hur du han
 
 +++
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!--For the release of in-context record creation - add this to the table above for permissions and access:
+
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
+
 
 ## Skapa poster genom att lägga till dem till posttypen <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
@@ -219,12 +222,17 @@ Mer information om att duplicera poster finns i [Duplicera poster](/help/quicksi
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

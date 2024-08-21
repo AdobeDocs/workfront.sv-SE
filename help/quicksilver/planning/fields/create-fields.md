@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Du kan skapa fält på följande sätt i Workfront Planning:
 
 * Från början
 * Genom att ansluta posttyper
-* Importera posttyper med en Excel- eller CSV-fil
 * Genom att skapa en posttyp
 * Skapa en arbetsyta från en mall
+  <!--* By importing record types using an Excel or CSV file-->
 
 Mer information om Workfront Planning-fält finns i [Fältöversikt](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -401,7 +401,13 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ Du kan skapa länkade postfält när du lägger till en ny anslutning mellan tv�
 
 Mer information om hur du ansluter posttyper för Workfront Planning finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## Skapa fält genom att importera posttyper med en Excel- eller CSV-fil
+<!--## Create fields by importing record types using an Excel or CSV file
 
-Mer information finns i [Skapa posttyper](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Skapa fält genom att skapa en posttyp
 

@@ -4,9 +4,9 @@ description: Ett sätt att ange hur enskilda posttyper relaterar till varandra �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -62,26 +62,26 @@ Tänk på följande när det gäller att ansluta posttyper:
      >
      >Om du har frågor om hur du kommer igång med Adobe Admin Console kan du läsa [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-* När du har skapat enskilda poster för en posttyp kan du välja de poster som du ansluter till från det länkade posttypsfältet. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+* När du har skapat poster för de anslutna posttyperna kan du länka dem till varandra via det anslutna postfältet.  Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
 
 * När du har kopplat en posttyp till en annan posttyp eller till en objekttyp från ett annat program finns följande scenarier:
 
-   * **När du ansluter två posttyper**: Ett länkat postfält skapas för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till.
+   * **När du ansluter två typer av planeringspost** skapas ett länkat postfält för den posttyp som du ansluter från. Ett liknande länkat postfält skapas för den posttyp som du ansluter till.
 
-     Om du till exempel kopplar posttypen&quot;Campaign&quot; till posttypen&quot;Product&quot; skapas ett länkat postfält som du kallar&quot;Linked Product&quot; i posttypen Campaign. En länkad posttyp som automatiskt heter&quot;Campaign&quot; skapas på produktposttypen.
+     Om du till exempel ansluter posttypen&quot;Campaign&quot; med posttypen&quot;Product&quot; skapas ett länkat postfält (anslutningsfält) som du kallar&quot;Linked Product&quot; i posttypen Campaign. En länkad posttyp som automatiskt heter&quot;Campaign&quot; skapas på produktposttypen.
 
    * **När du ansluter en posttyp med en objekttyp från ett annat program**:
 
       * Ett länkat postfält skapas för den posttyp som du ansluter från. Inget länkat postfält skapas automatiskt i det andra programmets objekttyp.
-
       * Planeringspostfält är inte tillgängliga från Workfront-objekt.
       * Du kan planera postfält från Experience Manager-resurser när Workfront-administratören konfigurerar metadatamappningen genom integrationen mellan Workfront och Adobe Experience Manager Assets. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * Planeringsposter visas på Workfront-objektets planeringflik. Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-   * **När du lägger till länkade (eller uppslag) fält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
+   * **När du lägger till uppslagsfält från posten eller objektet som du ansluter till**: Förutom att skapa ett länkat postfält kan du även ansluta till fält från den anslutna posten eller objekttypen som kallas uppslagsfält. Ett länkat (eller sökfält) med information från den post som du ansluter till visas på den post som du ansluter från.
 
      Du kan koppla fält från andra posttyper eller objekt från andra program till posttypen Workfront Planning.
 
-     Länkade fält är skrivskyddade och visar automatiskt information från kopplade poster eller objekt när du kopplar posterna eller objekten.
+     Länkade fält är skrivskyddade och visar automatiskt information från anslutna poster.
 
      Du kan referera till uppslagsfält från andra post- eller objekttyper i formler, filter eller grupperingar.
 
@@ -111,17 +111,17 @@ Depending on how many records you can add to a connected record field, the follo
 >These options are not available when connecting the following: 
 >* Two records from different workspaces
 >
->* A record type and AEM assets
+>* A record type and Experience Manager assets
 
 ### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
+When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
+For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
 
-A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
 
 When you select this connection type, you cannot change the connection type after you save it. 
 
@@ -129,19 +129,21 @@ When you select this connection type, you cannot change the connection type afte
 
 ![](assets/one-to-many-connection-picker.png)
 
-When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+
+For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
 
 A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
 
 When you select this connection type, you can later change it only to a many-to-many connection type. 
- 
+
 ### Many-to-one connection type
 
 ![](assets/many-to-one-connection-picker.png)
 
-When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
 
 For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
 
@@ -153,7 +155,7 @@ When you select this connection type, you can later change it only to a many-to-
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
 
 For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
 
