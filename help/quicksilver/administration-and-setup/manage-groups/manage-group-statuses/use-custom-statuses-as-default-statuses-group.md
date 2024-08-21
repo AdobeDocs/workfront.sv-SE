@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Använd en anpassad status som standardstatus för en grupp
-description: Som gruppadministratör kan du konfigurera en anpassad status som standardstatus för en grupp eller undergrupp som du hanterar. Detta är användbart när systemet automatiskt behöver tilldela en Workfront-status till ett projekt, en uppgift eller ett problem. Ett projekt, en uppgift eller ett problem visar alltid den anpassade status som du anger som standardstatus i stället för att visa den Workfront-status som det motsvarar.
-author: Caroline
+description: Som gruppadministratör kan du konfigurera en anpassad status som standardstatus för en grupp eller undergrupp som du hanterar.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '678'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,8 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Utfärdandestatus
 
 Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras för den (Felrapport, Ändra ordning, Problem och Begäran). I den utgivningsstatus som visas nedan kan statusen Återöppnad inte användas som standardstatus eftersom typen Ändra ordning inte har valts:
@@ -58,7 +62,8 @@ Om den anpassade statusen är Problem, måste alla fyra problemtyperna aktiveras
 
 ## Ange en anpassad status som standardstatus för en grupp
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
+
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen och klicka sedan på namnet på gruppen där du vill skapa eller anpassa statusvärden.
 1. Klicka på **Status** ![](assets/gear-icon-settings.png) i den vänstra panelen.
 1. Öppna fliken **Projekt**, **Åtgärder** eller **Problem**, beroende på vilken typ av status du vill ange som standardstatus.

@@ -1,17 +1,17 @@
 ---
-title: Konfigurera inställningar för aktiviteter och utgåvor för en grupp
+title: Konfigurera inställningar för aktivitet och problem för en grupp
 user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: grupp,inställningar,aktivitet,problem,låsa upp
 navigation-topic: create-and-manage-groups
 description: Om grupper i din organisation måste konfigurera en uppgift eller en utgåva oberoende av hur den är konfigurerad på systemnivå, kan en Adobe Workfront-administratör låsa upp inställningen. Som gruppadministratör kan du sedan konfigurera inställningen för gruppen så att den påverkar alla uppgifter eller problem som är kopplade till gruppen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,8 @@ Mer information om hur Workfront-administratören låser upp inställningar finn
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Konfigurera olåsta uppgifter och utgivningsinställningar för en grupp på den översta nivån
 
 >[!TIP]
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Projektinställningar > Åtgärder och problem och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 

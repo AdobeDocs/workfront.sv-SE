@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Som gruppadministratör för en grupp kan du tilldela andra användare som gruppadministratörer för den gruppen. Adobe Workfront-administratörer kan också göra detta.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '252'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Mer information om gruppadministratörer och vad de kan göra finns i [Gruppadmi
 Allmän information om grupper finns i [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -44,9 +46,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Tilldela en användare som gruppadministratör
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 

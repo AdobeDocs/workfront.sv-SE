@@ -3,14 +3,14 @@ title: Översikt över hemgrupper
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: En hemgrupp tilldelas i användarens profil. Alla användare måste ha en hemgrupp. En användare kan tillhöra mer än en grupp, men kan bara ha en hemgrupp. Även om alla befintliga grupper i systemet kan tilldelas som en användares hemgrupp rekommenderar vi att du skapar och tilldelar nya grupper som representerar större organisationsenheter. När du skapar hemgrupper bör du tänka på hur din organisation delar upp dina Adobe Workfront-användare.
-author: Caroline
+description: En hemgrupp tilldelas i användarens profil. Alla användare måste ha en hemgrupp.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---

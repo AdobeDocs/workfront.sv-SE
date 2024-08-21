@@ -2,23 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Konfigurera påverkan på timmar när ett objekt tas bort och återställs
+title: Konfigurera effekt på timmar när ett objekt tas bort och återställs
 description: Du kan konfigurera vad som ska hända med timmar när någon tar bort ett projekt, en uppgift eller ett problem som timmarna är inloggade mot. Det alternativ du väljer avgör också vad som händer med timmarna om projektet, aktiviteten eller problemet återställs vid ett senare tillfälle. (Mer information om hur du återställer objekt i Workfront finns i Återställa borttagna objekt.)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
 
-# Konfigurera påverkan på timmar när ett objekt tas bort och återställs
+# Konfigurera effekt på timmar när ett objekt tas bort och återställs
 
 Du kan konfigurera vad som ska hända med timmar när någon tar bort ett projekt, en uppgift eller ett problem som timmarna är inloggade mot. Det alternativ du väljer avgör också vad som händer med timmarna om projektet, aktiviteten eller problemet återställs vid ett senare tillfälle. (Mer information om hur du återställer objekt i Workfront finns i [Återställa borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -41,9 +43,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Konfigurera hur timmar hanteras när ett objekt tas bort och återställs
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Expandera **Tidrapporter och timmar** och klicka sedan på **Inställningar**.
 

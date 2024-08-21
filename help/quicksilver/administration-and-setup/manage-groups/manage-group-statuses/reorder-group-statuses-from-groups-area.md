@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Ordna om gruppstatus
+title: Ändra ordning på gruppstatus
 description: Som gruppadministratör kan du ändra ordningen för projekt-, uppgifts- och utfärdandestatus för en grupp som du hanterar.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,8 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 </table>
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
+
++++
 
 ## Standardordning för statusvärden
 
@@ -108,7 +112,7 @@ Som standard visas statusvärden i följande ordning:
 
 ## Ändra ordning på statusvärden för uppgifter och projekt i en grupp som du hanterar
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** i den vänstra panelen och klicka sedan på gruppens namn.
 1. Klicka på **Status** i den vänstra panelen.
@@ -122,7 +126,7 @@ Som standard visas statusvärden i följande ordning:
 
 ## Ändra ordning på statusvärden för utgåvor
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** i den vänstra panelen och klicka sedan på gruppens namn.
 1. Klicka på **Status** i den vänstra panelen.

@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Skapa och ändra en grupps företag
+title: Skapa och ändra en koncerns företag
 description: När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med företag som är kopplade till gruppen och någon av dess undergrupper.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta
 Om det finns grupper ovanför gruppen kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -42,9 +44,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Visa, arbeta med och skapa företag för din grupp från gruppområdet
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 

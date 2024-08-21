@@ -4,13 +4,13 @@ product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Inaktivera eller återaktivera en grupp
 description: Du kan inaktivera en grupp som du hanterar och som du inte längre använder.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 Du kan inaktivera en grupp som du hanterar och som du inte längre använder.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -44,6 +46,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Inaktivera eller återaktivera en grupp
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >* Ta bort den från den överordnade gruppen. Mer information finns i avsnittet [Ta bort en undergrupp från den överordnade gruppen och gör den till en högnivågrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 >* Flytta den under en aktiv grupp. Mer information finns i avsnittet [Skapa, flytta, visa, redigera, kopiera, byta namn på, exportera eller ta bort en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) i artikeln [Hantera en undergrupp](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
->
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Välj **Grupper** i den vänstra panelen.
 

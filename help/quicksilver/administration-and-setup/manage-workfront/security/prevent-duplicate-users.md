@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Förhindra dubblerade användare
+title: Förhindra dubblering av användare
 description: När du skapar en ny användare i Adobe Workfront kan du inte längre använda en e-postadress som redan används av en annan användare, även om e-postadressen varierar beroende på fall (till exempel JohnDoe@example.com och johndoe@example.com). Om du dessutom vill förbereda dig för framtida autentiseringsförbättringar ser du till att alla användare har unika e-postadresser i en Workfront-instans.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 När du skapar en ny användare i Adobe Workfront kan du inte längre använda en e-postadress som redan används av en annan användare, även om e-postadressen varierar beroende på fall (till exempel JohnDoe@example.com och johndoe@example.com). Om du dessutom vill förbereda dig för framtida autentiseringsförbättringar ser du till att alla användare har unika e-postadresser i en Workfront-instans.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -42,6 +44,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Skapa användare med unika mejladresser
 
 Från och med version 2019.4 kan du när du skapar en ny användare i Workfront inte längre använda en e-postadress som redan används av en annan användare, även om e-postadressen varierar från fall till fall. Du kan till exempel inte skapa en användare med e-postadressen JohnDoe@example.com om en annan användare har e-postadressen johndoe@example.com.
@@ -53,7 +57,7 @@ Så här korrigerar du dubbla e-postadresser i en Workfront-instans:
 
 1. Undersök eventuella duplicerade användare och bestäm vilken användare som inte längre behövs.
 
-   1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Användare**. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. Välj **Alla** på menyn **Filter**.
 

@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 keywords: SAML 2.0,säkerhet,certifikat,administratör,undantag,konfigurera,metadata
 navigation-topic: security
-title: Förnya Adobe Workfront SAML 2.0-metadatacertifikatet
+title: Förnya Adobe Workfront SAML 2.0 Metadata Certificate
 description: Adobe Workfront-servrarna använder SAML 2.0-protokollet för autentisering och auktorisering. När det nya certifikatet har uppdaterats är det giltigt i ett år. När det är dags för dig att förnya certifikatet på din identitetsleverantör får du en varning i Workfront om att den här ändringen måste utföras. Som Workfront-administratör kan du hantera den här ändringen på systemnivå.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 Så här granskar du varningsmeddelandet och bekräftar uppdateringen av SAML 2.0-metadata hos din identitetsleverantör:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Enkel inloggning**.
 

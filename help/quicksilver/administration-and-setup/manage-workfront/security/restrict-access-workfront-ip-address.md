@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: Begränsa åtkomst till Adobe Workfront via IP-adress
 description: Du kan konfigurera en Adobe Workfront IP tillåtelselista som begränsar åtkomsten till Workfront till 45 IP-adresser eller IP-adressintervall som du anger. Detta ger ytterligare ett säkerhetslager för Workfront-programmet.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan konfigurera en Adobe Workfront IP tillåtelselista som begränsar åtkoms
 Dessa IP-adresser eller IP-adressintervall ska anges av nätverksadministratören.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -44,6 +46,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
  </tbody> 
 </table>
 
++++
+
 ## Andra tillåtelselista
 
 Om brandväggen eller e-postservern är konfigurerad att endast tillåta åtkomst till vissa leverantörer måste du lägga till vissa IP-adresser i tillåtelselista. Detta öppnar för kommunikation mellan din miljö och Adobe Workfront-servrarna. Mer information om detta finns i [Konfigurera brandväggens tillåtelselista](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
@@ -54,7 +58,7 @@ Om din organisation använder Enterprise-planen kan du konfigurera Workfront e-p
 
 När du har lagt till IP-adresser i Workfront tillåtslista kan bara de IP-adresserna användas för åtkomst till Workfront. Användare som försöker få åtkomst till Workfront från en annan IP-adress får ett felmeddelande om att deras IP-adress är blockerad.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Kundinformation.**
 

@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Visa och hantera nyligen borttagna objekt i en grupp
 description: När du visar en grupp som du hanterar i området Grupper kan du visa, filtrera, återställa och exportera de nyligen borttagna arbetsobjekten, dokumenten och mallarna.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,8 @@ Om det finns grupper ovanför gruppen kan deras administratörer även göra det
 Mer information om borttagna objekt finns i [Hantera borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -54,9 +56,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Visa och hantera nyligen borttagna objekt i en grupp
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 

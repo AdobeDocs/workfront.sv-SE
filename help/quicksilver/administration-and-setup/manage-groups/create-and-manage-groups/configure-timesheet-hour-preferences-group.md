@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: grupp,inställningar,uppgift,grupper,problem,låsa upp
 navigation-topic: create-and-manage-groups
-title: Konfigurera tidrapport och timinställningar för en grupp
+title: Konfigurera tidrapport- och timinställningar för en grupp
 description: På systemnivå kan en Adobe Workfront-administratör låsa upp tidrapport- och timinställningsavsnitten Allmänna inställningar och Fyll i i förväg med tidrapporter. Detta gör att gruppadministratörer kan konfigurera alternativen i dessa avsnitt separat för sina egna grupper.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En Adobe Workfront-administratör kan låsa upp följande avsnitt av tidrapport 
 
 * Allmänna inställningar
 * Var användarna kan logga tid
-* Förifyll tidrapporter
+* Fyll i tidrapporter i förväg
 
 Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
 
@@ -81,7 +81,7 @@ Tänk på följande information om hur du konfigurerar en olåst tidrapport elle
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Tidrapport och timmar > Inställningar och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 

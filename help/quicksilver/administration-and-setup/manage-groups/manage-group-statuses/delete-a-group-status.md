@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: Ta bort en gruppstatus
 description: Som gruppadministratör kan du ta bort en status för en grupp som du hanterar om den inte är konfigurerad som obligatorisk eller låst på systemnivå, eller för en högre grupp i hierarkin.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '569'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 >* Status som väntar på godkännande för minst ett objekt som är associerat med gruppen eller en av dess undergrupper.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -49,9 +51,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Ta bort en gruppstatus
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** i den vänstra panelen.
 1. Klicka på namnet på gruppen på den översta nivån.

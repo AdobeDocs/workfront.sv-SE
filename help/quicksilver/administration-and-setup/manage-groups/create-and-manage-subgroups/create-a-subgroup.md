@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-subgroups
 title: Skapa en undergrupp
 description: Du kan skapa en undergrupp under en grupp som du hanterar för att ordna användare och projekt och för att tilldela behörigheter i Adobe Workfront. Vanligtvis hanterar gruppadministratörer grupper och undergrupper. De kan använda gruppsidan för att hantera sina grupper och undergrupper på ett och samma ställe.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,8 @@ Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer
 Vanligtvis hanterar gruppadministratörer grupper och undergrupper. De kan använda gruppsidan för att hantera sina grupper och undergrupper på ett och samma ställe. Mer information om hur grupper och undergrupper fungerar i Workfront finns i [Översikt över grupper](../../../administration-and-setup/manage-groups/groups-overview/groups.md) och [Översikt över undergrupper](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -44,9 +46,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Lägg till en undergrupp
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper**.
 

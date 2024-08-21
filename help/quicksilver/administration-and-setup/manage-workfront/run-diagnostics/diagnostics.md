@@ -7,9 +7,10 @@ title: Diagnostik
 description: Du kan använda Diagnostik för att manuellt aktivera automatiserade processer, som tidsbaserade skript, omberäkningar och e-postmeddelanden.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: a87d5416-d73f-411c-988a-9dedb933ccd5
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '31'
 ht-degree: 0%

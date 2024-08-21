@@ -3,24 +3,26 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
-title: 'Spark-Starts-scenario: Förberedelser för företag, grupp, roll och användare har startats'
+title: "Kickstartscenario: Förberedelser för företag, grupp, roll och användare har startats"
 description: När du börjar implementera Adobe Workfront, i stället för att ange data manuellt, kan du importera kundlistan, interna avdelningar, jobbroller och användarinformation.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
+source-wordcount: '1100'
 ht-degree: 0%
 
 ---
 
-# Scenario med snabb start: Förberedelser för företag, grupper, roller och användare har startats
+# Fast-Starts-scenario: Förberedelser för företag, grupp, roll och användare
 
 När du börjar implementera Adobe Workfront, i stället för att ange data manuellt, kan du importera kundlistan, interna avdelningar, jobbroller och användarinformation.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -42,6 +44,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Vad du kan importera
 
@@ -157,7 +161,7 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 
 ## Ladda ned en snabbstartsmall
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Snabbstart** > **Importera data.**
 
@@ -299,4 +303,4 @@ I följande tabeller visas vilka användare som ska importeras och olika använd
 1. Fyll i annan användarinformation efter behov och spara sedan filen.
 1. Importera Excel-filen.
 
-   Följ anvisningarna i avsnittet **Importera snabbstartsfiler** i den här artikeln.
+   Följ anvisningarna i [Importera data till Adobe Workfront med en snabbstartmall](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

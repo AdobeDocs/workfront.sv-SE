@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Återställ borttagna objekt
-description: Om du är Workfront-administratör kan du återställa projekt, uppgifter, utgåvor, dokument och mallar i Adobe Workfront om de har tagits bort de senaste 30 dagarna. Efter 30 dagar tas dessa objekt bort permanent och kan inte återställas. När du återställer ett objekt återställs även alla dess underordnade objekt och fält. Om du till exempel återställer ett projekt återställs även alla aktiviteter, ärenden, dokument, timmar, anteckningar, tilldelningar och anpassade data i projektet.items
+description: Om du är Workfront-administratör kan du återställa projekt, uppgifter, utgåvor, dokument och mallar i Adobe Workfront om de har tagits bort de senaste 30 dagarna. Efter 30 dagar tas dessa objekt bort permanent och kan inte återställas.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---

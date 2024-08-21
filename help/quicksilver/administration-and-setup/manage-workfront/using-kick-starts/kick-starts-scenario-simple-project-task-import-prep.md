@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
-title: Startar enkelt scenario-enkla projekt- och uppgiftsimportförberedelser
+title: "Kickstartscenario: Förberedelse för enkel projekt- och uppgiftsimport"
 description: Beskriver i detalj de tillgängliga inställningarna och kontrollerna för ett grundläggande projekt- och uppgiftsimport med hjälp av metoden Snabbstart.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
 # Startscenario: enkel import av projekt och uppgifter
 
-Beskriver i detalj de tillgängliga inställningarna och kontrollerna för ett grundläggande projekt- och uppgiftsimport med hjälp av metoden Snabbstart.
+Beskriver i detalj de tillgängliga inställningarna och kontrollerna för ett grundläggande projekt- och uppgiftsimport med hjälp av snabbstartsmetoden.
 
 ## Scenario
 
-Implementeringsteamet vill importera projekt- och uppgiftsinformation för aktiva projekt i stället för att manuellt mata in dessa data i systemet.
+Implementeringsteamet importerar hellre projekt- och uppgiftsinformation för aktiva projekt istället för att manuellt mata in dessa data i systemet.
 
 * [Projekt](#projects)
 * [Uppgiftslista](#task-list)

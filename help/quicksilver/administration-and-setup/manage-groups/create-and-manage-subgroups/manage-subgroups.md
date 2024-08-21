@@ -5,13 +5,13 @@ keywords: hantera,undergrupp,redigera
 navigation-topic: create-and-manage-subgroups
 title: Hantera en undergrupp
 description: Som gruppadministratör för en undergrupp kan du skapa, flytta, visa, redigera, kopiera, byta namn på, exportera och ta bort undergruppen. Du kan också göra en undergrupp till en grupp på den översta nivån genom att ta bort den från den överordnade gruppen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1253'
 ht-degree: 1%
 
 ---
@@ -27,6 +27,8 @@ Om det finns grupper ovanför gruppen kan deras administratörer även göra det
 Mer information om undergrupper finns i [Översikt över undergrupper](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -47,9 +49,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Skapa, flytta, visa, redigera, kopiera, byta namn på, exportera eller ta bort en undergrupp
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
@@ -125,9 +129,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 >
 >I Workfront representeras den här marknadsföringsavdelningen av en grupp som heter Marketing, med tre undergrupper som kallas Field Marketing, Product Marketing och Digital Marketing. Om du vill visa de projekt som tillhör hela marknadsföringsavdelningen (alla fyra grupper) kan du skapa ett filter för projektområdet med följande filterregel:
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >Du kan också använda fältet Överst överordnat namn för att identifiera data som är kopplade till en grupp på den översta nivån, men bara i Vyer, inte i Filter eller Grupperingar.
 
@@ -141,7 +143,7 @@ Du kan göra en undergrupp till en grupp på den översta nivån genom att ta bo
 >
 >Instruktioner om hur du inaktiverar och återaktiverar grupper finns i avsnitten [Visa och hantera information om en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) och [Visa och hantera information om en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) i artikeln [Visa och hantera information om en grupp](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 
@@ -159,8 +161,6 @@ Tänk på följande när du kopierar en undergrupp.
 
 * Om en undergrupp som du kopierar har egna undergrupper, inkluderas de i kopian och deras namn formateras enligt följande:
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Alla undergrupper som tillhör en offentlig grupp är också publika, så alla användare med redigeringsåtkomst, i eller utanför gruppen, kan lägga till användare i undergruppen.

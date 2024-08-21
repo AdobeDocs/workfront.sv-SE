@@ -5,11 +5,11 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: Översikt över undergrupper
 description: Du kan skapa upp till 14 nivåer med undergrupper under en grupp. På någon av dessa nivåer kan du skapa ett obegränsat antal parallella undergrupper.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 0%

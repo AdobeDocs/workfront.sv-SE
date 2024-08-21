@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: Hantera API-nycklar
 description: För att minimera säkerhetsluckor i API:t kan Adobe Workfront-administratörer hantera de API-nycklar som används för att ge program åtkomst till Workfront för en användares räkning.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ Exempel på program som utnyttjar Workfront API är:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Workfront API-nycklar
 
 Varje användare i Workfront har en unik API-nyckel. Nyckeln genereras per användare när användaren öppnar en integrering som utnyttjar Workfront API (t.ex. Workfront mobilapp eller dokumentintegrering).
@@ -74,7 +78,7 @@ Du kan generera, återställa eller ta bort API-nyckeln för ditt administratör
 >
 >Du kan också generera en API-nyckel via API:t. Mer information finns i avsnittet om [API för händelseprenumeration](../../../wf-api/general/event-subs-api.md) i [API:t för händelseprenumeration](../../../wf-api/general/event-subs-api.md).
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System >** **Kundinformation.**
 1. (Villkorligt) Utför någon av följande åtgärder:
@@ -98,7 +102,7 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
 
 1. (Villkorligt) Om din organisation använder enkel inloggning (SSO), kan du tillfälligt inaktivera alternativet som kräver SSO-autentisering.
 
-   1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+   {{step-1-to-setup}}
 
    1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
    1. I fältet **Typ** väljer du den typ av enkel inloggning som din organisation använder.
@@ -115,7 +119,7 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
 
 1. (Villkorligt) Aktivera alternativet som kräver SSO-autentisering om du inaktiverade det i steg 1.
 
-   1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+   {{step-1-to-setup}}
 
    1. Expandera **System** och klicka sedan på **Enkel inloggning (SSO)**.
 
@@ -126,7 +130,7 @@ Du kan generera och hantera API-nycklar för användare i andra roller än Workf
 
 Du kan konfigurera API-nycklar så att de upphör att gälla för alla användare i systemet. När API-nyckeln för en användare upphör att gälla måste användaren autentisera på nytt för alla program som använder Workfront API för att få åtkomst till Workfront. Du kan ändra hur ofta API-nycklarna förfaller. Du kan också konfigurera om API-nycklar ska förfalla när lösenordet för en användare förfaller.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Kundinformation**.
 1. I området **API-nyckelinställningar**, i listrutan **Efter skapande**, förfaller **API-nycklar i**, väljer du den tidsram som du vill att API-nycklarna ska förfalla.
@@ -151,9 +155,9 @@ Om du är orolig för en viss säkerhetsöverträdelse i ditt Workfront-system k
 >
 >Om du tar bort API-nycklar för alla användare blir ALLA API-nycklar ogiltiga för alla användare i systemet. Den här åtgärden gör att alla integreringar i Workfront misslyckas tills du genererar en ny API-nyckel i Workfront och uppdaterar alla integreringar.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
-1. Expandera **System** och klicka sedan på **Kundinformation.**
+1. Expandera **System** och klicka sedan på **Kundinformation**.
 
 1. I området **API-nyckelinställningar** klickar du på **Ta bort alla API-nycklar** och sedan på **Ta bort** **alla**.
 

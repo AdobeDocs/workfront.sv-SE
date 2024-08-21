@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: visa,grupp,händelse,meddelanden,konfigurera,aktivera,inaktivera
 navigation-topic: create-and-manage-groups
-title: Visa och konfigurera händelseaviseringar för en grupp
+title: Visa och konfigurera händelsemeddelanden för en grupp
 description: Som gruppadministratör kan du visa händelsemeddelanden som aktiveras för en grupp som du hanterar. Om en Adobe Workfront-administratör låser upp ett händelsemeddelande kan du konfigurera det för en toppnivågrupp som du hanterar. Konfigurationen av ett händelsemeddelande består av att aktivera eller inaktivera det.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Mer information om standardinställningen för meddelanden för en händelse fin
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -51,10 +53,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Visa och konfigurera en grupps händelsemeddelanden
 
-1. (Villkorligt och valfritt) Om du är Workfront-administratör och redan finns på sidan E-postmeddelanden (Inställningar > E-post > Meddelanden) kan du göra följande och sedan gå vidare till steg 6: Ta bort **systemhändelsemeddelanden** i rutan ovanför listan, börja skriva gruppens namn i rutan och klicka på den när den visas.
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+>[!TIP]
+>
+>Om du är Workfront-administratör och redan är på sidan E-postaviseringar (Inställningar > E-post > Meddelanden) kan du göra följande och sedan gå vidare till steg 6: Ta bort **systemhändelsemeddelanden** i rutan ovanför listan, börja skriva gruppens namn i rutan och klicka på den när den visas.
+
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** ![](assets/groups-icon.png) i den vänstra panelen.
 

@@ -4,13 +4,13 @@ product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: Skapa och hantera en grupps tidrapportprofiler
 description: När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta med de tidrapportprofiler som administratörerna för gruppen, eller någon av dess undergrupper, har administratörsbehörighet för.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ När du visar en grupp som du hanterar i området Grupper kan du visa och arbeta
 Om det finns grupper ovanför gruppen som du hanterar kan deras administratörer även göra detta för gruppen. Detsamma gäller för Workfront-administratörer (för alla grupper).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -50,6 +52,8 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Skapa och redigera tidrapportprofiler på gruppnivå
 
 Du kan skapa och redigera tidrapportprofiler som ska användas i en grupp som du hanterar. Instruktioner finns i [Skapa, redigera och tilldela tidrapportprofiler](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -66,7 +70,8 @@ Mer information om hur du tar bort grupptidrapporter finns i [Ta bort tidrapport
 
 ## Exportera tidrapportprofiler på gruppnivå
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
+
 1. Klicka på **Grupper**.
 
    I listan som visas kan du se de grupper som du hanterar, tillsammans med eventuella undergrupper som de har. Adobe Workfront-administratörer kan se alla grupper.

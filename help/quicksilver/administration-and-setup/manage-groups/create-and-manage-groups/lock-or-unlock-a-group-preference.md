@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Låsa eller låsa upp ett projekt, en uppgift eller en utleverans för undergrupper
+title: Lås eller lås upp ett projekt, en aktivitet eller en utgåva för undergrupper
 description: Som gruppadministratör kan du konfigurera och sedan låsa ett projekt, en uppgift eller en utgåva om en Workfront-administratör har låst upp det på systemnivå.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Mer information om hur en Workfront-administratör kan låsa eller låsa upp en 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -64,9 +66,11 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Låsa eller låsa upp ett gruppprojekt, en aktivitet eller en utleverans
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** i den vänstra panelen.
 1. Klicka på namnet på gruppen där du vill låsa eller låsa upp en projektinställning.

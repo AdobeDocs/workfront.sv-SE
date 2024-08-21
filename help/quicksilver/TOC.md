@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
+source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
 workflow-type: tm+mt
 source-wordcount: '14337'
 ht-degree: 0%
@@ -707,8 +707,8 @@ ht-degree: 0%
       * Hantera borttagna objekt {#manage-deleted-items}
          * [Hantera borttagna objekt](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [Återställ borttagna objekt](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [Visa återställt objekt](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-         * [Hur borttagna objekt påverkar objekt](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+         * [Visa återställda objekt](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [Hur borttagna objekt påverkar timmar](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [Återställ enskilda underordnade objekt](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * Diagnostik {#diagnostics}
          * [Diagnostik](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

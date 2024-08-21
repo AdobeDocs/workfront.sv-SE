@@ -4,13 +4,13 @@ product-area: system-administration
 navigation-topic: security
 title: Ändra din Adobe Workfront-domän
 description: Som Adobe Workfront-administratör och behörig Workfront Support-kontakt kan du begära hjälp från Workfront Support-team för att ändra din organisations Workfront-domän.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,8 @@ ht-degree: 0%
 Som Adobe Workfront-administratör och behörig Workfront Support-kontakt kan du begära hjälp från Workfront Support-team för att ändra din organisations Workfront-domän.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -48,6 +50,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Begär en domänändring
 
 1. Börja skapa en supportbiljett på Experience League.
@@ -64,7 +68,7 @@ Om ditt företag använder enkel inloggning krävs följande steg när du har ä
 >
 >Detta är inte tillgängligt om din organisations Workfront-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **System** > **Kundinformation** i det vänstra sidofältet och kontrollera att din domän är uppdaterad på sidan Kundinformation.
 

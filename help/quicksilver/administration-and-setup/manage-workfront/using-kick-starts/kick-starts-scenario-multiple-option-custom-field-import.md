@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,sparkstart,kickstarter,sparkstarter
 navigation-topic: use-kick-starts
-title: 'Spark-Starts-scenario: Importera anpassade fält med flera alternativ till Workfront'
+title: "Kickstartscenario: Importera anpassade fält med flera alternativ till Workfront"
 description: Du kan importera anpassade fält med flera alternativ i Adobe Workfront med funktionen Snabbstart.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -51,8 +51,9 @@ Om du har god förståelse för databasobjekten och strukturen i Workfront kan d
 
 Så här exporterar du befintliga data från Workfront:
 
-1. Klicka på **Huvudmeny > Konfigurera** i det övre högra hörnet av Workfront-gränssnittet.
-1. Expandera menyn **System** till vänster och klicka sedan på **Exportera data (snabbstart)**.
+{{step-1-to-setup}}
+
+1. Expandera **System** på den vänstra menyn och klicka sedan på **Exportera data (snabbstart)**.
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Så här exporterar du befintliga data från Workfront:
 
 När du har läst in information om befintliga anpassade fält i systemet kan du hämta en ny startmall för importen.
 
-1. Klicka på **Huvudmeny > Konfigurera** i det övre högra hörnet av Workfront-gränssnittet.
+{{step-1-to-setup}}
 
-1. Expandera menyn **System** till vänster.
+1. Expandera **System** i den vänstra menyn.
 
 1. Klicka på **Importera data (snabbstart)**.
 
@@ -129,9 +130,6 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
    >Mer information om namnen på objekten i Workfront-databasen finns i [API-utforskaren](../../../wf-api/general/api-explorer.md).
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. Kontrollera att följande information är korrekt formaterad:
@@ -245,7 +243,9 @@ Så här fyller du i Excel-kalkylbladet med information om de nya anpassade fäl
 
 När du har utfört stegen som beskrivs i föregående avsnitt fortsätter du med följande för att överföra de nya fälten och formulären till Workfront:
 
-1. Klicka på **Importera data** **(Quick-Starts) **under menyn **Huvudmeny > Inställningar > System** .
+{{step-1-to-setup}}
+
+1. Klicka på **System > Importera data (snabbstart)**.
 
 1. Klicka på **Välj Arkiv** under avsnittet **Överför data med snabbstartskalkylblad**.
 

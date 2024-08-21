@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Lås eller lås upp en grupptidrapport och timinställning
+title: Lås eller lås upp en grupptidrapport och timinställningar
 description: Om du är gruppadministratör kan du konfigurera och sedan låsa en tidrapport och timinställning för gruppen efter att en Workfront-administratör har låst upp den på systemnivå.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* Om du flyttar en grupp under en grupp som har en olåst inställning påverkas inte den flyttade gruppen av den inställningen.
 >
 >  Om inställningen i den flyttade gruppen är låst när den flyttas förblir den låst, men gruppadministratören kan låsa upp den nu eftersom den är olåst för den överordnade gruppen.
->
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -66,13 +67,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta Workfront-administratören om du behöver ta reda på vilken plan eller licenstyp du har.
 
++++
+
 ## Lås eller lås upp en grupptidrapport och timinställning
 
 >[!TIP]
 >
 >Om du är Workfront-administratör kan du kringgå steg 1-4 genom att gå till Inställningar > Tidrapport och timmar > Inställningar och sedan söka efter gruppens namn i rutan längst upp på sidan.
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera** ![](assets/gear-icon-settings.png) .
+{{step-1-to-setup}}
 
 1. Klicka på **Grupper** i den vänstra panelen.
 1. Klicka på namnet på gruppen där du vill låsa eller låsa upp en tidrapport och timinställning.

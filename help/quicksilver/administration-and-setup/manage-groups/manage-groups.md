@@ -4,20 +4,24 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-description: En Workfront-administratör kan skapa användargrupper som sammanfaller med avdelningsstrukturen. Grupper liknar, men skiljer sig från, team och företag. Workfront-administratören ger grupper åtkomst till de områden i Workfront där de behöver arbeta och kommunicera. Varje grupp kan sedan separera sin Workfront-information, t.ex. användare, mallar, egna formulär och projekt från andra avdelningar.
-author: Caroline
+description: Grupper liknar, men skiljer sig från, team och företag. Workfront-administratören ger grupper åtkomst till de områden i Workfront där de behöver arbeta och kommunicera.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bda8d47c-5ec7-4654-b7bd-c6fb854c3084
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '95'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
 # Hantera grupper
+
+En Workfront-administratör kan skapa användargrupper som sammanfaller med avdelningsstrukturen. Grupper liknar, men skiljer sig från, team och företag.
+
+Workfront-administratören ger grupper åtkomst till de områden i Workfront där de behöver arbeta och kommunicera. Varje grupp kan sedan separera sin Workfront-information, t.ex. användare, mallar, egna formulär och projekt från andra avdelningar.
 
 Det här avsnittet innehåller följande underavsnitt:
 

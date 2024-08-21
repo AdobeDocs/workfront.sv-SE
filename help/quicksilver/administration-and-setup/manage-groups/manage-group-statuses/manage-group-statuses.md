@@ -5,12 +5,12 @@ product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Hantera gruppstatus
 description: Som gruppadministratör kan du skapa anpassade statusvärden för en grupp som du hanterar. Detta eliminerar behovet av dussintals företagsövergripande anpassade statusar och ger större självständighet i grupphierarkierna. Du kan också redigera en systemnivåstatus för en grupp som du hanterar om en Workfront-administratör har låst upp statusen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 0%

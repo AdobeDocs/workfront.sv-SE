@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Anpassade statusvärden för en aktivitet eller ett problem som flyttas eller kopieras
+title: Anpassade statusvärden för en aktivitet eller ett problem som har flyttats eller kopierats
 description: När du flyttar eller kopierar en uppgift eller ett problem till ett annat projekt kan vissa statusvärden för aktiviteten eller problemet uppdateras så att de matchar statusvärdena som används av målprojektgruppen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
