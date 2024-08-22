@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ En lista över all dokumentation för kontrollpaneler på arbetsytan finns i [Ö
 
 **Beta-status**
 
-Canvas Dashboards är för närvarande i en sluten betatestningsfas och är därför endast tillgänglig genom inbjudan till specifika kunder.
+Canvas Dashboards är för närvarande i en offentlig betatestningsfas och kan därför ändras ofta. Se nedan för instruktioner om hur du anmäler dig till betaversionen.
 
 ## Delta i betaversionen
 

@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '14337'
+source-wordcount: '14341'
 ht-degree: 0%
 
 ---
@@ -410,6 +410,7 @@ ht-degree: 0%
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Avbeställ utskick från meddelandecentret i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+      * [Guide för föråldrad hemborttagning](product-announcements/announcements/legacy-home-deprecation.md)
       * Meddelandearkiv {#announcement-archive}
          * [Meddelandearkiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Förbättringar av anpassade formulär](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)

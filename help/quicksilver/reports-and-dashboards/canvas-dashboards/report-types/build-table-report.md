@@ -6,9 +6,9 @@ description: En tabellrapport som visar dina data som en konfigurerbar tabell ka
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '188'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den här sidan beskriver funktioner som endast är tillgängliga för användare som är inskrivna i den stängda betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
+>Den här sidan beskriver funktioner som är tillgängliga som en del av betaversionen av Canvas Dashboards. Se [Betaversionsinformation för arbetsytans kontrollpaneler](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) om du vill veta mer.
 
 En tabellrapport som visar dina data som en konfigurerbar tabell kan läggas till på en Canvas Dashboard.
 
