@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -34,9 +34,10 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 
 ## Adobe Workfront-förbättringar
 
-* [Administratörsförbättringar]
-* [Projektförbättringar](#project-enhancements)
+* [Administratörsförbättringar](#administrator-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Projektförbättringar](#project-enhancements)
+* [Förbättringar av korrektur](#proofing-enhancements)
 * [Andra förbättringar](#other-enhancements)
 
 ### Administratörsförbättringar
@@ -73,6 +74,41 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             </li>
                         </ul>
                         <p><i>Den här funktionen ingår i en fasad version och kommer att vara tillgänglig för ett begränsat antal kunder i september.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av inloggningsfunktionen för Outlook-integrering</a></p>
+                        <p>Inloggningen för Outlook-integrering har strömlinjeformats så att alla kunder ser samma knapp för att logga in på Workfront oavsett om de är IMS-aktiverade eller inte. De efterföljande inloggningsstegen skiljer sig åt för IMS- och icke-IMS-instanser, men den inledande sidan är densamma för alla användare.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 6 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 6 augusti 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
            </tbody>
         </table>
 
-### Integration enhancements
+### Förbättringar av korrektur
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av inloggningsfunktionen för Outlook-integrering</a></p>
-                        <p>Inloggningen för Outlook-integrering har strömlinjeformats så att alla kunder ser samma knapp för att logga in på Workfront oavsett om de är IMS-aktiverade eller inte. De efterföljande inloggningsstegen skiljer sig åt för IMS- och icke-IMS-instanser, men den inledande sidan är densamma för alla användare.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Kromiumuppdatering för Desktop Proofing Viewer</a></p>
+                        <p>Vi uppgraderar Desktop Proofing Viewer till stöd för Chromium 126.0.6478.127 som löser problem med gränssnittselement i interaktiva korrektur.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 6 augusti 2024</p>
+                                <p>Förhandsversion: 29 augusti 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktionsrelease för alla kunder: 6 augusti 2024</span></p>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 29 augusti 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### Andra förbättringar
 
