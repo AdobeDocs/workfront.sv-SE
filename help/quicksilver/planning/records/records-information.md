@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
@@ -44,3 +44,4 @@ I följande artiklar beskrivs hur du kan skapa och hantera poster och deras info
 * [Lägga till en miniatyrbild i en post](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [Lägga till en omslagsbild till en post](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Hantera postsidans layout](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md)

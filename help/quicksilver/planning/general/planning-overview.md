@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1900'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 0%
 >
 >En fullständig lista över alla avsnitt och artiklar som dokumenterar Workfront Planning finns i [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Introduktion till Adobe Workfront Planning
 
@@ -56,6 +51,8 @@ Nedan följer några av de viktigaste funktionerna:
 * Länka till objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
 
 ## Adobe Workfront Planning-funktioner
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront Planning och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
@@ -90,7 +87,7 @@ Mer information om nya funktioner och när de släpps finns i [Adobe Workfront P
 | Dela vyer offentligt med externa resurser | ✓ | |  |
 | Duplicera vyer | ✓ | |  |
 | Skicka begäranden |                               | ✓ |                 |
-| Exportera postinformation till Word |                               | ✓ |                 |
+| Exportera postinformation till Word | ✓ |                                  |                 |
 | Exportera postinformation till PDF |                               |                                  | ✓ |
 | Anpassa färg och ikon för en post | ✓ |                                  |                 |
 | Lägga till kommentarer i poster | ✓ |                                  |                 |
@@ -203,9 +200,9 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
    * Senast ändrad av
    * Senast ändrat den
 
-* **Länkade posttyper**, **Länkade poster** och **Länkade postfält** eller **Anslutna posttyper**, **Anslutna poster** och **Anslutna fält**: Du kan skapa en anslutning mellan följande entiteter i Workfront Planning:
+* **Anslutna posttyper**, **Anslutna poster** och **Anslutna fält**: Du kan skapa en anslutning mellan följande entiteter i Workfront Planning:
 
-   * Två posttyper.
+   * Två posttyper för Workfront Planning.
    * En posttyp och en Workfront-objekttyp, program-, portfölj-, företag- eller gruppobjekttyp.
    * En posttyp och en Adobe Experience Manager-resurs eller mapp.
 
@@ -224,7 +221,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   >[!TIP]
   >
-  > Du kan inte lägga till följande fälttyper som sökfält:
+  > Du kan inte lägga till följande fälttyper som sökfält från den anslutna posten eller objekttyperna:
   >
   >* Folk
   >* Skapad av
@@ -246,11 +243,11 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   Här följer några vytyper som du kan använda på posttypssidan:
 
-   * **Tabellvy**: Visar poster och deras fält i ett tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Det här är standardvyn.
+   * **Tabellvy**: Visar poster och deras fält, inklusive anslutna fält och uppslagsfält, i tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Det här är standardvyn.
 
      ![](assets/table-view-example.png)
 
-   * **Tidslinjevy**: Visar poster som har minst två datumtypsfält på en kronologisk tidslinje.
+   * **Tidslinjevy**: Visar poster som har minst två datumtypsfält på en kronologisk tidslinje. Du kan visa upp till 5 anslutna posttyper och deras poster i tidslinjevyn.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Så här hittar du Workfront Planning:
    >[!TIP]
    >
    >    Din Workfront-administratör kan lägga till Planning-området till alternativet Välj landningssida i layoutmallen, så att du kan öppna Planning när du loggar in på Workfront. Mer information finns i [Anpassa landningssidan med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
-
 
 1. (Villkorligt och valfritt) Om du är Workfront-administratör klickar du på någon av följande flikar:
    * **Arbetsytor som jag är på**: Visar arbetsytor som du har skapat eller arbetsytor som delas med dig.

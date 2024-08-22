@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '14341'
+source-wordcount: '14345'
 ht-degree: 0%
 
 ---
@@ -2043,10 +2043,10 @@ ht-degree: 0%
       * [Adobe Workfront Planning - allmän information: artikelindex](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning - översikt](planning/general/planning-overview.md)
       * [Grunderna i Adobe Workfront Planning API](planning/general/planning-api-basics.md)
-      * [Översikt över begränsningar för Adobe Workfront Planning-objekt](planning/general/limitations-overview.md)
       * [Adobe Workfront Planning AI Assistant - översikt](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfront Planerar aktuell versionsaktivitet](planning/general/release-activity.md)
       * [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](planning/general/release-activity-archives-2023.md)
+      * [Översikt över begränsningar för Adobe Workfront Planning-objekt](planning/general/limitations-overview.md)
    * Adobe Workfront Planning Architecture {#adobe-workfront-planning-architecture}
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)
       * [Arbetsytor - översikt](planning/architecture/workspaces-overview.md)
@@ -2091,6 +2091,7 @@ ht-degree: 0%
       * [Lägga till en omslagsbild till en post](planning/records/add-a-cover-image-to-a-record.md)
       * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
       * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
+      * [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md)
    * Adobe Workfront planeringsvyer {#adobe-workfront-planning-views}
       * [Vyer: artikelindex](planning/views/views-information.md)
       * [Hantera postvyer](planning/views/manage-record-views.md)

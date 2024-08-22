@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
@@ -24,11 +24,7 @@ role: User, Admin
 hide: yes
 -->
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!-- update the title to "Article index" when we get out of early access and we inhide this article-->
-
-<!--remove the video at open early access or before-->
+<!--update the metadata with real information when making this available to GA-->
 
 {{planning-important-intro}}
 
@@ -43,10 +39,6 @@ I artiklarna i avsnitten nedan beskrivs hur du kan konfigurera Workfront Plannin
 ## Allmän information om Adobe Workfront Planning
 
 Här hittar du allmän information om nya Workfront Planning:
-
-<!--update the video when we have something better, especially after early access - remove it-->
-
-<!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md): En översikt på hög nivå över Adobe Workfront Planning, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Workfront Planning här.
 * [Adobe Workfront Planning-objektbegränsningar - översikt](/help/quicksilver/planning/general/limitations-overview.md): En lista med begränsningar för antalet objekt som du kan skapa i Workfront Planning.

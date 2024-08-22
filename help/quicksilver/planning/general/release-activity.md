@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '6116'
+source-wordcount: '6694'
 ht-degree: 0%
 
 ---
@@ -34,22 +34,7 @@ Adobe Workfront Planning capabilities are currently available to all customers. 
 >You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
 >
 >For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
-
-## Workfront Planning release timeline
-
-| Time               | Release                                 |
-|--------------------|-----------------------------------------|
-| 2023               | Workfront Planning beta release         |
-| First half of 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |
-
-The following articles describe the features released during the release for Workfront Planning: 
-
-* [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lists features released during the beta release, in 2023.
-* This article lists the features that were released to Workfront Planning during the early access period in 2024.
-* `[]()` lists features released after the general availability release on August 28, 2024. 
--->
+>-->
 
 >[!IMPORTANT]
 >
@@ -65,73 +50,29 @@ The following articles describe the features released during the release for Wor
 >
 >I vissa fall kan den dokumentation som beskrivs i avsnitten nedan vara tillgänglig efter att de dokumenterade funktionerna släppts till Produktion.
 
-I den här artikeln listas de funktioner som släppts till Workfront Planning under 2024.
+<!--Not sure if we should enable this - Richard: 
 
-Workfront planeringsprogram har startat sedan 22 maj 2023. En lista över alla funktioner som släpptes under 2023 finns i [Aktivitetsarkiv för Adobe Workfront Planning (Planering - lansering) för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md).
+## Workfront Planning release timeline
 
-De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
+| Time               | Release                                 |
+|--------------------|-----------------------------------------|
+| August - December 2023               | Workfront Planning beta release         |
+| January - August 2024 | Workfront Planning early release        |
+| August 28, 2024    | Workfront Planning general availability |-->
+
+I följande artiklar beskrivs de funktioner som släpptes under lanseringen av Workfront Planning:
+
+* [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) visar funktioner som släpptes under betaversionen 2023.
+* I den här artikeln listas de funktioner som lanserats till Workfront Planning under den tidiga åtkomstperioden 2024.
+
+  De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
+
+<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
+-->
 
 Workfront Planning har tillfälligt tagits bort från förhandsgransknings- och sandlådemiljöerna sedan januari 2024. Alla funktioner som beskrivs i de här artiklarna är för närvarande tillgängliga i Produktion.
 
 <!--
-
-### Break down connected records in the timeline view
-
-Production: <date> 
-
-Preview: To be determined 
-
-As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
-
-For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
-
-This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
-
-This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
-
-You can display up to 5 levels of record types in the same timeline for one record.  
-
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
-
-### New Connections tab in the record details area
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have added a new tab on the record's preview and page. Now, when you click the record name in a view, the record's preview and the record's page display the following tabs: 
-
-* **Details**: Displays all record fields, thumbnail, and cover image. 
-
-* **Connections**: Displays all record or object types and their records or objects that are connected to the selected record. You can add more records to the record or object types that already display connected records from the Connections tab.  
-
-For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
-
-### Create records, projects, and portfolios as you connect them
-
-Production: <date> 
-
-Preview: To be determined 
-
-You now have the capability to create records, projects, or portfolios as you connect them to existing records. For example, if you connect Workfront Planning campaigns with Workfront projects, and you determine that a particular project does not exist, you can add it as a new project in the connected record field. The project is then added to Workfront. Newly added records are added to their respective record type pages in the table view.   
-
-At this time, you can create the following when connecting records: 
-
-* Records 
-* Projects without a template 
-* Portfolios 
- 
-You cannot create other connected Workfront objects or AEM assets when connecting them to a record. 
-
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-
-## Export record details to Word
-
-Production: <date> 
-
-Preview: To be determined 
-
-You can now export a record's details to a Word document (.docx). For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -157,29 +98,6 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-### Add connection type options
-
-Production: <date> 
-Preview: To be determined 
-
-Now, when you configure a connection between two record types, you can define whether users can connect single or multiple records in each of the record types of the connection. This ensures that you can reliably design your team's workflows and ensure that users only select the information expected according to their processes.  
-
-For example, you can now choose from the following types of connections when you link two record types:  
-
-* Many to many. When you select this connection type, it is not possible to change it after you save it 
-* One to many 
-* One to one 
-* Many to one 
- 
-This allows you to define how many records of the connected record types users can connect after a connection is established.  
-
-The new connection types are not supported for the following record type connections: 
- 
-* When you connect record types with AEM assets 
-* When you connect record types that don't belong to the same workspace (**********ensure this feature was released before you post this release note; otherwise, hide**********) 
-
-For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 -->
 
@@ -214,6 +132,91 @@ Systemadministratörer kan nu konfigurera posttyper så att de ansluts från and
 Före den här förbättringen kunde du bara ansluta posttyper som tillhör samma arbetsyta, tillsammans med objekttyper från andra program.
 
 Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+### Visa anslutna poster i tidslinjevyn med hjälp av funktionen Brytning
+
+Produktion: 22 augusti 2024
+
+Förhandsgranska: Ska bestämmas
+
+Som visningshanterare för tidslinje kan du nu visa relationerna mellan anslutna poster genom att dela upp poster i visuella hierarkier i tidslinjevyn.
+
+Om du till exempel visar kampanjer i tidslinjevyn som är länkade till Produkter, och Produkter har associationer med Projekt, kan du nu visa Produkter under Kampanjer och Projekt under deras respektive Produkter.
+
+På så sätt kan du smidigt navigera mellan flera nivåer av relationer, allt i samma tidslinjevy.
+
+Detta är inte en faktisk hierarki (inget objekt är högre än ett annat). Det är en visuell hierarki som visar anslutna posttyper i en tidslinjevy.
+
+Du kan visa upp till 5 nivåer med posttyper på samma tidslinje för en post.
+
+Mer information finns i [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+### Fliken Nya anslutningar i området med postinformation
+
+Produktion: 22 augusti 2024
+
+Förhandsgranska: Ska bestämmas
+
+Vi har lagt till en ny flik i postens förhandsgransknings- och sidområden. När du klickar på postnamnet i en vy visas följande flikar på postens förhandsgranskning och postens sida:
+
+* **Information**: Visar alla postfält, miniatyrbilder och omslagsbilder. Du kan redigera fält på fliken Detaljer.
+
+* **Anslutningar**: Visar alla post- eller objekttyper och tillhörande poster eller objekt. Du kan lägga till fler poster från fliken Anslutningar.
+
+Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+
+### Skapa poster, projekt och portfolior när du kopplar ihop dem
+
+Produktion: 22 augusti 2024
+
+Förhandsgranska: Ska bestämmas
+
+Nu kan du skapa poster, projekt och portfolior när du kopplar dem till befintliga poster.
+
+Om du t.ex. kopplar ihop Workfront Planning-kampanjer med Workfront-projekt och fastställer att ett visst projekt inte finns, kan du lägga till det som ett nytt projekt i det anslutna postfältet. Projektet läggs sedan till i Workfront. Nya poster läggs till på deras respektive posttypssidor i tabellvyn.
+
+Nu kan du skapa följande när du ansluter poster:
+
+* Workfront Planning - poster
+* Workfront Projects utan mall
+* Workfront Portfolio
+
+Du kan inte skapa andra anslutna Workfront-objekt eller Experience Manager-resurser när du ansluter dem till en post.
+
+Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+
+## Exportera postinformation till Word
+
+Produktion: 22 augusti 2024
+
+Förhandsgranska: Ska bestämmas
+
+Du kan nu exportera en posts informationssida eller förhandsgranska till ett Word-dokument (.docx).
+
+Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
+
+### Lägg till alternativ för anslutningstyp
+
+Produktion: 22 augusti 2024
+Förhandsgranska: Ska bestämmas
+
+När du nu konfigurerar en anslutning mellan två posttyper kan du definiera om användare ska kunna ansluta en eller flera poster i var och en av anslutningstyperna. På så sätt kan du på ett tillförlitligt sätt utforma teamets arbetsflöden och se till att användarna bara väljer den information som förväntas utifrån deras processer.
+
+Du kan nu välja mellan följande typer av anslutningar när du länkar två posttyper:
+
+* Många för många. När du väljer den här anslutningstypen går det inte att ändra den när du har sparat den.
+* En till många
+* En till en
+* Många till en.
+
+På så sätt kan du definiera hur många poster i de anslutna posttyperna som användare kan ansluta när en anslutning upprättas.
+
+De nya anslutningstyperna stöds inte för följande posttypsanslutningar:
+
+* När du ansluter posttyper med Experience Manager-resurser
+* När du ansluter posttyper som inte tillhör samma arbetsyta
+
+Mer information finns i [Översikt över posttyper för anslutning](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Vecka 12 augusti 2024
 
