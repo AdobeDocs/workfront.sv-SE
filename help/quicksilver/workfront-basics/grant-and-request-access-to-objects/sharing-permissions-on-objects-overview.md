@@ -6,9 +6,9 @@ description: Du kan dela eller ta bort behörigheter till ett objekt som du har 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1182'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ Följande tabell visar behörighetsnivån som du kan välja när du delar ett ob
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Gör detta synligt för hela systemet</strong></td> 
-   <td> <p>Objektet kan hittas i sökningar och visas av alla som har ett Workfront-konto.</p> </td> 
+   <td> <p>Objektet kan hittas i sökningar och visas av användare med ett Workfront-konto.</p><p><b>Obs!&gt;/b&gt;: Användare med Contributor- eller Requestor-licenser kan inte se projekt, även om den här inställningen är aktiverad. </td> 
   </tr> 
  </tbody> 
 </table>
