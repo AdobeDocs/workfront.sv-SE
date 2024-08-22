@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,10 @@ Om du vill aktivera AI Assistant för din organisation måste **alla** av följa
 
   Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+* Workfront Planning AI Assistant har andra funktioner än Workfront AI Assistant.
+
+  Mer information om AI Assistant i Workfront Planning finns i [Översikt över Adobe Workfront Planning AI Assistant](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
 
 ## Funktioner som är tillgängliga i AI Assistant
 
@@ -85,7 +89,7 @@ AI Assistant har för närvarande följande funktioner:
 
   Mer information finns i [Generera eller ändra beräknade fältformler med AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-## ## Access AI Assistant
+## Access AI Assistant
 
 1. Klicka på AI Assistant-ikonen ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) överst på en Workfront-sida.
 1. Skriv din fråga eller fråga i panelen till höger på skärmen.
