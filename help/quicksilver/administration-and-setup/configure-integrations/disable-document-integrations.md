@@ -1,16 +1,17 @@
 ---
-title: Inaktivera dokumentintegreringar
+title: Inaktivera dokumentintegrering
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Som  [!DNL anAdobe] [!DNL Workfront]-administratör kan du inaktivera anslutningen mellan Workfront och någon av dokumentleverantörerna från tredje part.
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +22,8 @@ Som [!DNL Adobe] [!DNL Workfront]-administratör kan du inaktivera anslutningen 
 När du inaktiverar anslutningen mellan [!DNL Workfront] och en dokumentleverantör försvinner länkarna till dokumenten från [!DNL Workfront]. Användare kan inte längre se de länkade dokumenten, de kan inte göra några ändringar i dokumenten via länkarna [!DNL Workfront] och de kan inte lägga till fler dokument till den providern.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
@@ -45,12 +48,15 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
 
 &#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
 
++++
+
 ## Inaktivera integreringar med molnleverantörer
 
 Så här inaktiverar du dokumentintegreringar för [!UICONTROL Workfront DAM], [!DNL Box], [!DNL Dropbox], [!DNL Google Drive], [!DNL Microsoft OneDrive], [!DNL WebDAM]:
 
 1. Logga in på [!DNL Workfront] som [!DNL Workfront]-administratör.
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Cloud Providers]**.
 
@@ -62,7 +68,8 @@ Så här inaktiverar du dokumentintegreringar för [!UICONTROL Workfront DAM], [
 ## Inaktivera integreringen av [!DNL SharePoint]
 
 1. Logga in på [!DNL Workfront] som [!DNL Workfront]-administratör.
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Expandera **[!UICONTROL Documents]** och klicka sedan på **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Välj den [!DNL SharePoint]-integrering som du vill inaktivera.
@@ -72,7 +79,8 @@ Så här inaktiverar du dokumentintegreringar för [!UICONTROL Workfront DAM], [
 ## Inaktivera anpassade integreringar
 
 1. Logga in på [!DNL Workfront] som administratör.
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Custom Integration]**.
 1. Välj den anpassade integrering som du vill inaktivera.

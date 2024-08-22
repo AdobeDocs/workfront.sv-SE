@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Konfigurera en plan
+title: Konfigurera en utkast
 description: Du kan konfigurera information om projektmallen eller organisationsstrukturen innan du installerar planen.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '1764'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Du kan konfigurera information om en plan innan du installerar den. Plantyper f�
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -28,19 +30,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td>
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td>
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konfigurera en projektmallsplan
 

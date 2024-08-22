@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Konfigurera åtkomst till ritningar
+title: Konfigurera åtkomst till utkast
 description: Som systemadministratör kan du ge användare åtkomst att begära installation av utkast genom att ställa in en begärandekö där förfrågningarna lagras. Där har du en plats där du kan spåra och uppdatera begäranden.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Som systemadministratör kan du:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -41,19 +43,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p> Alla</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>[!UICONTROL System Administrator]</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar {#prerequisites}
 
@@ -68,7 +77,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 Innan användare kan begära att du installerar utkast för dem måste du välja en begärandekö för dessa begäranden. Tills kön med begäranden har definierats kan användare bara bläddra i katalogen med utkast.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Blueprints]**.
+{{step1-to-blueprints}}
+
 1. Klicka på **[!UICONTROL Configure blueprint requests]** överst till höger på katalogskärmen.
 
    <!--

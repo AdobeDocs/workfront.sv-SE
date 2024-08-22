@@ -1,5 +1,5 @@
 ---
-title: Konfigurera integreringen av [!DNL Workfront] och [!DNL Frame.io] erna
+title: Konfigurera  [!DNL Workfront] och [!DNL Frame.io] integreringen
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '405'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -26,25 +26,23 @@ Workfront-administratören aktiverar integreringen mellan Workfront och Frame.io
 >
 >Den här funktionen är bara tillgänglig för organisationer som har anslutit till [!DNL Adobe Admin Console].
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
-   </td>
-   <td>Alla
-   </td>
+   <td>[!DNL Adobe Workfront] plan</td>
+   <td>Alla</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenser</strong>
+   <td>[!DNL Adobe Workfront] licenser
    </td>
-   <td>Aktuell: [!UICONTROL Plan] <br>
-   Nytt: [!UICONTROL Standard]
-   </td>
+   <td><p>Aktuell: [!UICONTROL Plan]</p>
+   <p>Nytt: [!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>Åtkomstnivåkonfigurationer</strong>
+  <tr>
+   <td>Konfigurationer på åtkomstnivå
    </td>
    <td>Du måste vara en [!DNL Workfront]-administratör.
    </td>
@@ -54,6 +52,7 @@ Du måste ha följande:
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Konfigurera ett standardkonto för [!DNL Frame.io] [!BADGE Kommer snart]{type=Informative}
 

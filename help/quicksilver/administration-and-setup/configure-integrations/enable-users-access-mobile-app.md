@@ -1,17 +1,17 @@
 ---
-title: Ge användarna tillgång till mobilappen
+title: Ge användarna åtkomst till mobilappen
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Du kan aktivera eller inaktivera åtkomst till  [!DNL Adobe Workfront] mobilappen.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 0%
 Du kan aktivera eller inaktivera åtkomst till mobilappen [!DNL Adobe Workfront].
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -43,9 +45,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
++++
+
 ## Ge användarna tillgång till mobilappen
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Setup],** i det övre högra hörnet på sidan.
 

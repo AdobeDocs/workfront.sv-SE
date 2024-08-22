@@ -1,16 +1,16 @@
 ---
-title: Ställ in metadatamappning
+title: Konfigurera metadatamappning
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Metadata är beskrivande information som är kopplad till ett dokument. Du kan konfigurera  [!DNL Adobe Workfront] så att metadata inkluderas med dokument som skickas till [!DNL Workfront] program.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '579'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 Metadata är beskrivande information som är kopplad till ett dokument. Du kan konfigurera [!DNL Adobe Workfront] så att den inkluderar metadata med dokument som skickas till [!DNL Workfront]-program.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -41,6 +43,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Om [!DNL Workfront] metadata
 
@@ -64,7 +68,7 @@ Innan du kan mappa fält för metadatamappningsprocessen måste du aktivera prog
 
 ## Konfigurera [!DNL Workfront] för att skicka metadata
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** i den vänstra panelen.
 
@@ -82,7 +86,8 @@ Innan du kan mappa fält för metadatamappningsprocessen måste du aktivera prog
 ## Ta bort mappade fält
 
 1. Logga in på [!DNL Workfront] som administratör.
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]** i den vänstra panelen.
 

@@ -6,9 +6,9 @@ description: Koppla samman materialet med innehållet i Experience Manager Asset
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -27,48 +27,51 @@ Koppla samman materialet med innehållet i Experience Manager Assets Essentials 
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront-plan*</strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>Alla
    </td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront-licenser*</strong>
+   <td>[!DNL Adobe Workfront] licens
    </td>
-   <td>Plan
+   <td><p>Aktuell: [!UICONTROL Plan]</p>
+   <p>Nytt: [!UICONTROL Standard]</p></td>
+  </tr>
+  <tr>
+   <td>[!DNL Experience Manager] licens
+   </td>
+   <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Experience Manager licens</strong>
-   </td>
-   <td>Standard
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Produkt</strong>
+   <td>Produkt
    </td>
    <td>Du måste ha Experience Manager Assets Essentials, och du måste läggas till i produkten som användare i Admin Console.
    </td>
   </tr>
   <tr>
-   <td><strong>Åtkomstnivåkonfigurationer</strong>
+   <td>Konfigurationer på åtkomstnivå
    </td>
-   <td>Du måste vara Workfront-administratör. Mer information om Workfront-administratörer finns i <strong>Bevilja en användare fullständig administrativ åtkomst</strong>.
+   <td>Du måste vara en [!DNL Workfront]-administratör.
    </td>
   </tr>
 </table>
 
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
-
++++
 
 ## Konfigurera integreringen
 
-1. Klicka på ikonen **Huvudmeny** i det övre högra hörnet av Adobe Workfront och klicka sedan på **Konfigurera**.
+{{step-1-to-setup}}
+
 1. Välj **Dokument** ![Dokument-ikon](assets/document-icon.png) i den vänstra panelen och välj sedan **Experience Manager-integrering**.
 1. Välj **Lägg till integrering med Experience Manager**.
 1. Ange följande:
@@ -126,20 +129,21 @@ Look for essentials article
 For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
-+++
-
 
 ### Assets
 
 Metadata mappas när en resurs överförs från Workfront för första gången. Dokument med inbyggda eller anpassade fält mappas automatiskt till de angivna fälten första gången en resurs skickas till Experience Manager Assets Essentials.
 
 1. I kolumnen **Workfront fält** väljer du ett inbyggt eller anpassat Workfront-fält.
+
    >[!NOTE]
    >
    >Du kan mappa ett enstaka Workfront-fält till flera Experience Manager Assets-fält. Du kan inte mappa flera Workfront-fält till ett enda Experience Manager Assets-fält.
+
 1. I fältet **Experience Manager** väljer du ett Experience Manager Assets-fält.
 
    Om du vill mappa ett Workfront-fält till en Experience Manager Assets-tagg väljer du `xcm:keywords`.
+
 1. Upprepa steg 1 och 2 efter behov.
    ![aktivera metadata](assets/metadata-assets-essentials.png)
 1. Klicka på **Spara** eller gå vidare till avsnittet [Konfigurera länkade mappar (valfritt)](#set-up-linked-folders-optional) i den här artikeln.

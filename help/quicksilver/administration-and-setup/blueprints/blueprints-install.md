@@ -3,15 +3,15 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Installera en plan
+title: Installera en utkast
 description: Du kan installera en plan i din produktionsmiljö eller i en sandlådemiljö.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '479'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Du kan installera en plan i din produktionsmiljö eller i en sandlådemiljö.
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -29,19 +31,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p> Alla</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront]-licens</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Var ska jag installera en plan? {#where-should-i-install-a-blueprint}
 
@@ -73,7 +82,8 @@ Du kan installera ditt paket i följande miljöer:
 
 ## Installera ritningen
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Blueprints]**.
+{{step1-to-blueprints}}
+
 1. Hitta den plan du vill installera. Du kan filtrera efter användningsfall, mognadsnivå, installationsstatus och typ till höger.
 1. (Valfritt) Klicka på **[!UICONTROL Details]** om du vill veta hur ritningen fungerar.
 1. Klicka på **[!UICONTROL Install]**.

@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront-integreringar
+title: Adobe Workfront Integrations
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '1138'
 ht-degree: 0%
@@ -260,7 +260,7 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <li>Ta emot [!DNL Workfront] meddelanden i [!DNL Slack] </li> 
      <li>Hantera godkännanden i [!DNL Slack] </li> 
      <li>Skapa [!DNL Workfront] aktiviteter och ärenden från [!DNL Slack] </li> 
-     <li>Post kommenterar ett projekt eller en uppgift från [!DNL Slack]</li> 
+     <li>Skicka kommentarer till ett projekt eller en uppgift från [!DNL Slack]</li> 
     </ul> <p>Mer information finns i <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
