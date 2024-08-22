@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14295'
 ht-degree: 0%
 
 ---
@@ -434,8 +434,6 @@ ht-degree: 0%
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Ny aktivitet för att frisläppa kommentarer](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nya vanliga frågor och svar om kommenteringsupplevelser](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Betaversion av integrationen Workfront och Frame.io {#frame-io-wf-integration-beta}
-         * [Adobe Workfront och Frame.io inbyggt integrerat beta](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Betaversion av Workfront Data Lake {#data-lake-beta}
          * [Betainformation för Workfront Data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration och konfiguration {#administration-and-setup}
@@ -785,7 +783,6 @@ ht-degree: 0%
    * Konfigurera integreringar {#configure-integrations}
       * [Konfigurera integreringar](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-integreringar](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [Konfigurera integreringen av [!DNL Workfront] och [!DNL Frame.io] erna](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Konfigurera Experience Manager Assets as a Cloud Service-integrering](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Konfigurera integreringen av Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Konfigurera Workfront med Adobe Experience Manager äldre anslutning](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1198,7 +1195,6 @@ ht-degree: 0%
          * [Skapa ett projekt med en mall](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importera ett projekt från Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Skapa projektbaslinjer](manage-work/projects/create-projects/create-baselines.md)
-         * [Skapa ett projekt som är kopplat till Frame.io](manage-work/projects/create-projects/create-frame-connected-project.md)
       * Uppdatera arbete i ett projekt {#update-work-on-a-project}
          * [Uppdatera arbete i ett projekt: artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Tillämpa statusvärden på arbete som är associerat med en grupp](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1809,15 +1805,12 @@ ht-degree: 0%
       * [Resurs- och dokumentgranskning och godkännande: artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Översikt över dokumentgodkännanden](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Översikt över dokumentets beslutsstatus](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Kom igång med granskning och godkännande av material med Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * Konfigurera och hantera tillgångs- och dokumentgodkännanden {#manage-asset-review-and-approval}
          * [Ställ in och hantera tillgångs- och dokumentgodkännanden: artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [Skapa en begäran om dokumentgranskning eller godkännande](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Skapa en gransknings- eller godkännandebegäran för en Frame.io-resurs](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
          * [Lägga till ytterligare granskare eller godkännare till en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [Ta bort godkännare eller granskare från en resurs eller ett dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [Skapa en godkännandemall för resurser och dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [Lägga till en Frame.io-resurs i ett anslutet Workfront-projekt](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
          * [Använd godkännanden och korrektur av nya dokument tillsammans](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * Granska och godkänn resurser och dokument {#review-and-approve-documents}
          * [Granska och godkänna dokument: artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
