@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Spara en e-postrubrikfil
 description: Ibland kan  [!DNL Adobe Workfront] support begära en e-posthuvudfil. Varje e-postprogram har ett eget sätt att hämta den här filen. Här följer några olika instruktioner för e-postprogram för att hitta och spara rubriken. [!DNL Outlook]
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee048fc8-63cc-4905-b5e2-f5870bcc6cb2
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%

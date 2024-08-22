@@ -5,11 +5,11 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Aktiva och inaktiverade objekt
 description: Som  [!DNL Adobe Workfront] administratör kan du aktivera eller inaktivera objekt i systemet. Vi rekommenderar att du aldrig tar bort objekt som du kan inaktivera. Du bör helt enkelt inaktivera objektet för att förhindra framtida användning och ta bort det från listrutorna för andra objekt.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 0%

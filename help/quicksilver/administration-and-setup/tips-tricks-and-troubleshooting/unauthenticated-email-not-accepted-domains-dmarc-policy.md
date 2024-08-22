@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: När ett autentiserat e-postmeddelande inte accepteras på grund av domänens DMARC-princip
+title: Oautentiserad e-post accepteras inte på grund av domänens DMARC-princip
 description: Om ett e-postmeddelande som skickas från  [!DNL Workfront] systemet inte accepteras på grund av domänens DMARC-princip, kan e-postadministratören åtgärda problemet genom att konfigurera e-postsystemet så att alla e-postmeddelanden tillåts från workfront.com.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '166'
 ht-degree: 0%
 
 ---

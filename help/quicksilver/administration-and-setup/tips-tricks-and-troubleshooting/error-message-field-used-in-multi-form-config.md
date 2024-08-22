@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Felmeddelande: Det finns ett litet problem. Det fältet används i en flerformulärskonfiguration'
+title: "Felmeddelande: Det finns ett litet problem. Det fältet används i en flerformulärskonfiguration"
 description: När du ändrar en beräkning i ett beräknat anpassat fält i ett anpassat formulär och ett felmeddelande anger att fältet används i en flerformulärskonfiguration, måste du ersätta fältet med ett nytt fält som innehåller den beräkning som du vill använda.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ I den här artikeln beskrivs hur du hittar objektet och sedan löser problemet p
 
 ## Hitta det objekt som de anpassade formulären är kopplade till {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]**.
 1. Använd vyn **[!UICONTROL Field List]** för att hitta det beräknade fält som du försöker ändra och notera alla anpassade formulär som det används i (t.ex. formulär 1, formulär 2, formulär 3).

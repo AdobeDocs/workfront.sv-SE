@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Adobe Workfront användarautentiseringsuppgifter jämfört med  [!DNL SAML] användarautentiseringsuppgifter
-description: När användaren har skapats kan du redigera användaren och aktivera"Tillåt endast SAML 2.0-autentisering" så att användaren och lösenordet styrs av SAML-systemet. När det här alternativet är aktiverat kan användaren bara logga in via SAML. När de går till  [!DNL Workfront] URL:en omdirigeras de automatiskt till SAML-systemet och uppmanas att ange sitt SAML-användarnamn och -lösenord.
-author: Caroline
+title: Adobe Workfront användarautentiseringsuppgifter jämfört med SAML användarautentiseringsuppgifter
+description: När användaren har skapats kan du redigera användaren och aktivera"Tillåt endast SAML 2.0-autentisering" så att användaren och lösenordet styrs av SAML-systemet. När det här alternativet är aktiverat kan användaren bara logga in via SAML.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '229'
 ht-degree: 0%
 
 ---

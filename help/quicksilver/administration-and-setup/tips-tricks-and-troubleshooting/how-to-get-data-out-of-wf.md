@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Exportera historiska data från Adobe Workfront: pros and cons'
+title: "Exportera historiska data från Adobe Workfront: pros and Cons"
 description: I den här artikeln förklaras för- och nackdelarna med fyra alternativ som du kan använda för att exportera historiska data från Workfront.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,13 @@ I den här artikeln förklaras för- och nackdelarna med fyra alternativ som du 
 
 ## Använd en av våra partners
 
-[!DNL AtAppStore], en [!DNL Workfront]-certifierad partner, har en lättanvänd app som gör att du kan hämta dina data. Den här appen innehåller även ett visningsprogram som gör att du enkelt kan visa dina data.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) har en lättanvänd app (deras [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/)-lösning) som gör att du kan hämta dina data själv. Med ett valfritt visningsprogram (deras [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) -lösning) kan du enkelt visa dina data offline.
 
-* **Fördelar:** Alla dina [!DNL Workfront]-objekt exporteras, inklusive anpassade fält. Visningsprogrammets gränssnitt är enkelt att använda och läsa och kan enkelt importeras i en [!DNL MS Access]-databas.
+* **Fördelar:** Alla dina [!DNL Workfront] huvudobjekt exporteras, inklusive anpassade fält och anteckningar, som sedan lagras i en lättillgänglig [!DNL MS Access]-databas. Visningsprogrammets gränssnitt är enkelt att använda och läsa. Extrahering av dokument är också tillgängligt separat som en tjänst, där utdata är ordnade i en logisk mappstruktur som mappar till varje dokument (och eventuellt till tidigare versioner).
 
-* **Kon:** Dokument exporteras inte. Du måste ladda ned dem separat. Mer information finns på [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Kon:** Det finns en teknisk begränsning på 2 GB data, men med AtAppStore kan du endast köpa det du behöver.
+
+* **Kostnader:** Mer information finns på [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Begär en [!DNL Postgres]-datadumpfil från vårt databasteam
 
@@ -35,6 +37,7 @@ Din kontoansvarige kan skicka en begäran till vårt databasteam om att exporter
 * **Pros**: Du får hela din datainläsning, inklusive anpassade fält och dokument som lagras i systemet.
 
 * **Kon**: Databasfilen är svår att läsa: du kan inte läsa den här filen om du inte överför den till en [!DNL Postgres]-databas och återupprättar relationerna mellan tabellerna. Dokumenten lagras på en separat filserver och måste extraheras separat med en separat process av AOS-teamet. Då finns det ingen organisation för dokumenten och de hänvisas alla till av deras GUID.
+
 * **Kostnad**: Det är en kostnad kopplad till den här hämtningen, beroende på hur lång tid det tar för teamet att skapa filen. Kontakta en återförsäljare för mer information eller för att komma igång.
 
 ## Exportera via [!UICONTROL Kick-Starts]

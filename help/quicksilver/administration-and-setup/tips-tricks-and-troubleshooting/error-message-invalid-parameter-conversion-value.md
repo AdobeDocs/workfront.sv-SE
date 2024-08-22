@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Felmeddelande: Ogiltig parameter: konverteringsvärde'
+title: "Felmeddelande: Ogiltig parameter: Konverteringsvärde"
 description: '"Du får följande felmeddelande när du försöker ändra formatet för ett anpassat fält i ett befintligt anpassat formulär: "Ogiltig parameter: konverteringsvärdet `&lt;..&gt;`"'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -29,28 +29,41 @@ Det här meddelandet visas i följande scenario:
 
 Du har t.ex. ett anpassat fält som är formaterat som text.  Nu vill du ändra formatet för det anpassade fältet till Valuta. Någonstans i din Adobe Workfront-instans är det här fältet redan kopplat till ett objekt och innehåller redan angiven information. Den befintliga informationen i minst ett sådant fält är redan formaterad som text. Därför kan inte fältets format ändras till Valuta.
 
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront-plan</a>*</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licensöversikt</a>*</p> </td> 
-   <td>Plan</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Åtkomstnivå*</strong> </td> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till:</p> 
     <ul> 
      <li> <p>Skapa rapporter, instrumentpaneler och kalendrar</p> </li> 
      <li> <p>Skapa filter, vyer och grupperingar</p> </li> 
-    </ul> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+    </ul>
   </tr> 
  </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lösning
 
