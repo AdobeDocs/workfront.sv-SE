@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '2287'
+source-wordcount: '2710'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,6 @@ hide: yes
 -->
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--if you change steps here, also update steps in the "Connect records" article-->
 
 # Koppla poster
 
@@ -68,6 +67,74 @@ Du kan ansluta följande:
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
+Du måste ha följande för att kunna komma åt Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkter</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Alla </p> 
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td> Standard
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta för att ansluta poster </p>  
+   <p>Visa eller högre behörigheter på en arbetsyta för att visa alla anslutningar till objekt och fält från andra program, oavsett vilken åtkomst du har i det andra programmet. </p>
+   <p>Visa eller ange högre behörigheter för de objekt som du vill länka från Workfront eller Experience Manager Assets. </p>
+   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -76,62 +143,57 @@ Du kan ansluta följande:
  <tbody>
     <tr>
 <tr>
-<td>Produkt</p> </td>
+<td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>För att kunna koppla ihop Adobe Workfront Planning-poster med Experience Manager Assets måste ni ha en Adobe Experience Manager Assets-licens och instansen av Workfront måste ingå i Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
+   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alla</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nytt: Standard</p>
-   <p>Aktuell: Planera</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta för att ansluta poster </p>  
-   <p>Visa eller högre behörigheter på en arbetsyta för att visa alla anslutningar till objekt och fält från andra program, oavsett vilken åtkomst du har i det andra programmet. </p>
-   <p>Visa eller ange högre behörigheter för de objekt som du vill länka från Workfront eller Experience Manager Assets. </p>
-   <p>Systemadministratörer har behörighet för alla arbetsytor, inklusive de som de inte skapade.</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace to connect records </p>  
+   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Krav för att ansluta poster
 
@@ -149,15 +211,13 @@ Om du vill koppla poster till andra poster eller objekt måste du ha följande:
 
 ## Koppla ihop poster från Workfront Planning
 
-Du kan koppla poster från Workfront Planning inom följande områden:
+Du kan koppla poster från Workfront Planning i följande områden i en Planning-post:
 
-* Från en planeringspost i Workfront Planning i de anslutna postfälten i tabellvyn.
-* Från en planeringspost i Workfront Planning i postförhandsgranskningen eller på sidan i de anslutna postfälten.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.-->
+* De kopplade postfälten i tabellvyn.
+* Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
+* Postens förhandsgranskning eller sida på fliken Anslutningar.
 
-### Anslut Adobe Workfront Planning-poster från tabellvyn eller postsidan <!--Details tab of the-->
+### Koppla ihop Adobe Workfront Planning-poster från tabellvyn eller fliken Information på postsidan
 
 {{step1-to-planning}}
 
@@ -176,15 +236,15 @@ Du kan koppla poster från Workfront Planning inom följande områden:
    * Klicka på namnet på en ansluten post i listan för att lägga till den till den valda posten. Posten läggs till automatiskt.
    * Börja skriva namnet på en post och klicka på den när den visas i listan. Posten läggs till automatiskt.
 
-   <!--1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
-    
-    You can also create projects and portfolios by adding them to a record in the connected record field. You can create only blank projects, without a template by adding them to a record. 
-    
-     -->
+1. (Valfritt) Om du inte kan hitta en post eller ett objekt att ansluta, och du vill lägga till den, klickar du på **+ Lägg till** för att lägga till en ny post. Mer information finns i&quot;Skapa poster när du ansluter dem&quot; i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
-   >    Du kan öppna postens sida genom att klicka på postens namn i vyn, leta reda på det länkade postfältet och dubbelklicka på fältet (om det redan finns poster anslutna) eller klicka på **Koppla poster** (om fältet är tomt) för att lägga till poster från den anslutna posten eller objekttypen.
+   >    Du kan öppna en postsida genom att göra följande i tabellvyn:
+   >1. Klicka på postens namn i vyn.
+   >1. Leta reda på det länkade postfältet och dubbelklicka på fältet (om det redan finns poster anslutna)
+   >eller
+   >Klicka på **Anslut poster** (om fältet är tomt) om du vill lägga till poster från den anslutna posten eller objekttypen.
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -211,7 +271,7 @@ Du kan koppla poster från Workfront Planning inom följande områden:
    >
    >* Vi använder länkade fält och sökfält omväxlande.
    >
-   >* När du väljer att koppla ihop flera poster när du kopplar ihop posttyperna visas fältvärdena från de olika objekten antingen separerade med kommatecken eller aggregeras enligt den aggregator du väljer.
+   >* När du väljer att koppla ihop flera poster när du kopplar ihop posttyperna, visas fältvärdena från de olika objekten antingen separerade med kommatecken eller aggregeras enligt den aggregator du valde när du kopplade posttyperna.
 
 1. (Valfritt) Stäng sidan med posttyper och gå till den arbetsyta du valt.
 1. Klicka på kortet för den posttyp som du länkade till.
@@ -222,7 +282,7 @@ Du kan koppla poster från Workfront Planning inom följande områden:
 
    Observera att det **Campaign**-länkade postfältet visar namnen på de kampanjer som du länkade till produkter på sidan Produkttyp. Om du uppdaterar Campaign-informationen uppdateras automatiskt det Campaign-länkade postfältet för produktposttypen.
 
-### Koppla Adobe Workfront Planning-poster till Workfront-objekt från tabellvyn eller postsidan <!--Details tab of the-->
+### Koppla Adobe Workfront Planning-poster till Workfront-objekt från tabellvyn eller fliken Information på postsidan
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -242,6 +302,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
 1. Välj en **tabellvy** i listrutan **Visa**.
 
 1. Klicka på **Ny post** om du vill lägga till enskilda poster till den posttyp som du har valt. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+
 1. (Villkorligt) När du har kopplat den markerade posttypen till en Workfront-objekttyp går du till kolumnen för det länkade objektet och dubbelklickar på cellen för den post som du vill länka till objekt från Workfront.
 
    ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -254,6 +315,10 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
    >[!TIP]
    >
    >Du kan öppna en postsida från vyn, dubbelklicka på det länkade postfältet eller klicka på **Anslut** i fältet för att lägga till objekt från den anslutna objekttypen.
+
+1. (Valfritt) Om du inte kan hitta något objekt att ansluta och du vill lägga till det klickar du på **+ Lägg till** för att skapa och lägga till ett nytt projekt eller en ny portfölj.
+
+   Du kan bara lägga till projekt utan en mall eller portföljer när du kopplar dem till planeringsposter. Du kan inte lägga till nya program, användare eller företag.
 
 1. (Valfritt) Klicka på **Visa alla** om du vill visa alla objekt som du har minst behörighet att visa.
 
@@ -301,7 +366,7 @@ När du har skapat en anslutning mellan en posttyp och en Workfront-objekttyp ka
    Detta lägger till eller tar bort länkade fält från Workfront Planning-poster. Informationen som är kopplad till de borttagna fälten finns kvar i Workfront.
 
 
-### Koppla Workfront Planning-poster till Adobe Experience Manager-objekt från tabellvyn eller postsidan <!--Details tab of the-->
+### Koppla Workfront Planning-poster till Adobe Experience Manager-objekt från tabellvyn eller fliken Information på postsidan
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -364,7 +429,7 @@ Så här ansluter du poster med AEM resurser:
      >
      >* Ett länkat postfält till de länkade posterna för Workfront Planning skapas inte för de länkade Experience Manager-resurserna i Experience Manager Assets-programmet.
 
-1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager Assets från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen Experience Manager i ett popup-fönster. <!--update screen shot with hi-rez picture-->
+1. (Valfritt) Gå till den posttyp som du länkade till Experience Manager Assets från och klicka på namnet på en resurs i det länkade postfältet. Information om resursen Experience Manager i ett popup-fönster.
 
    ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -394,46 +459,42 @@ Så här ansluter du poster med AEM resurser:
 
    Då läggs länkade fält till eller tas bort från posterna. Informationen som är kopplad till de borttagna fälten finns kvar i Adobe Experience Assets.
 
-<!--
-### Connect Workfront Planning records from the Connections tab of the record page
+### Koppla Workfront Planning-poster till andra poster eller objekt från fliken Anslutningar på postsidan
 
-1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
-1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
-1. Click the name of a record. 
+1. Gå till en vy av en posttyp som har kopplats till andra typer av Planning-poster eller objekttyper från andra program.
+1. Följ stegen som beskrivs i de föregående underavsnitten för att hitta en post i vyn som du vill koppla till andra poster eller objekt.
+1. Klicka på namnet på en post.
 
-    The preview page opens. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) to open the record's page. 
-1. Click the **Connections** tab in the record's preview or page. 
+   Förhandsgranskningssidan öppnas.
+1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) för att öppna postens sida.
+1. Klicka på fliken **Anslutningar** på postens förhandsgranskning eller sida.
 
-    ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
-    All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+   Alla post- eller objekttyper som är länkade till den valda posttypen visas som avsnitt. Kopplade poster eller objekt visas under sina post- eller objekttyper på kort.
 
-    >[!TIP]
-    >
-    >    Only connected records that have individual records connected display by default.
+   >[!TIP]
+   >
+   >    Endast kopplade poster som har enskilda poster anslutna visas som standard.
 
-1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
+1. (Valfritt) Klicka på **Visa alla anslutningar** om du vill visa alla anslutna posttyper, inklusive de utan anslutna poster.
 
-1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
+1. (Valfritt) Klicka på nedåtpilen till vänster om ett avsnitt för att komprimera det.
 
-1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
-    The Connect button does not display if there are no records currently connected to the selected record. 
-1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
-    The records and objects are added immediately.
-1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+1. (Villkorligt) Klicka på **Anslut** om du vill lägga till fler poster eller objekt av samma typ.
+1. Följ stegen som beskrivs i de föregående avsnitten för att ansluta poster från Workfront Planning eller objekt från Workfront eller Experience Manager Assets.
+Posterna och objekten läggs till omedelbart.
+1. (Valfritt) Hovra över det anslutna kortet för en post eller ett objekt och klicka sedan på ikonen **Koppla från post** **-** för att koppla bort den från den markerade posten.
 
-    ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
-    The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
-
--->
+   Posten kopplas omedelbart bort från alla områden i Workfront Planning eller från andra program där den kan visas som ansluten. Alla värden för sökfält tas också bort.
 
 ## Koppla ihop poster från Workfront-objekt
 
 Du måste ha följande för att kunna ansluta Workfront Planning-poster från Workfront-objekt:
 
-* Anslutningar mellan posttyper och Workfornt-objekttyper som har upprättats i Workfront Planning.
-* Din Workfront- eller gruppadministratör måste lägga till Planning-avsnittet till de Workfront-objekttyper som kan ansluta till Planning-posttyper i din Layoutmall.
+* Anslutningar mellan posttyper och Workfront-objekttyper som har upprättats i Workfront Planning.
+* Din Workfront- eller gruppadministratör måste lägga till planeringsavsnittet i Workfront-projekt, portföljer och program i din layoutmall.
 
 Mer information finns i [Hantera poster i planeringsavsnittet för Adobe Workfront-objekt](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

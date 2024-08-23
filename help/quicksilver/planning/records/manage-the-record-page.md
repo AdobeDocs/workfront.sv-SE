@@ -5,14 +5,14 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1356'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Hantera postsidans layout
 
@@ -36,7 +36,11 @@ Mer information finns i följande artiklar:
 
 ## Åtkomstkrav
 
+<!--Updated for GA-->
+
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
+
+Du måste ha följande för att kunna komma åt Workfront Planning:
 
 <table style="table-layout:auto">
  <col>
@@ -47,51 +51,65 @@ Mer information finns i följande artiklar:
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Produkter</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Något av följande Workfront-planer:</p>
+<ul><li>Välj</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td>
    <td>
 <p>Alla</p>
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td>
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p>
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
    <td>
-   <p>Nytt: Standard</p>
-   eller
-   <p>Aktuell: Planera</p> 
+   <p>Standard</p>
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p>
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront Planning</p>  
+  <tr>
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
-</td>
+   <td role="rowheader"><p>Objektbehörigheter</p></td>
+   <td>
+   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn och planeringsområdet för projekt, portföljer och program. </p> Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -145,11 +163,11 @@ Så här lägger du till ett avsnitt i en postförhandsgranskning eller sida:
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
-   Postsidan öppnas. <!--The Details tab opens by default. -->
+   Postsidan öppnas. Fliken Detaljer öppnas som standard.
 
    ![](assets/details-page.png)
 
-1. I förhandsgranskningen av posten <!--**Details** tab of the--> eller på sidan för du pekaren över det tomma utrymmet till vänster om fälten och klickar sedan på ikonen **Lägg till avsnitt** ![](assets/add-section-icon.png) för att lägga till ett avsnitt.
+1. På fliken **Detaljer** i postförhandsgranskningen eller på sidan för du pekaren över det tomma utrymmet till vänster om fälten och klickar sedan på ikonen **Lägg till avsnitt** ![](assets/add-section-icon.png) för att lägga till ett avsnitt.
 1. Klicka i avsnittets namn och ersätt **Namnlöst avsnitt** med ett namn. Klicka sedan på Retur. Fälten som visas under avsnittet är automatiskt en del av det nya avsnittet.
 1. Börja dra och släppa fält till det nya avsnittet, så som beskrivs i avsnittet [Ordna om fält i postförhandsgranskningen eller informationssidan](#rearrange-fields-in-the-record-preview-or-details-page) i den här artikeln.
 
@@ -182,11 +200,23 @@ Alla avsnitt expanderas som standard.
 
    Alla ändringar i avsnitt och fältordning sparas automatiskt.
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (Valfritt) Klicka på ikonen **Exportera** ![](assets/export-icon-in-record-details-page.png) om du vill exportera fliken Detaljer till en Word-fil. Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
 
-      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+1. (Valfritt) Klicka på fliken **Anslutningar** bredvid fliken **Detaljer** . Du kan behöva klicka på **Mer** innan du klickar på fliken **Anslutningar**.
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+   Alla poster eller objekt som är kopplade till den valda posten visas under namnen på posttypen, eller i det program de tillhör.
+
+   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+1. (Valfritt) Välj inställningen **Visa alla poster** i det övre högra hörnet på fliken Anslutningar. Alla anslutna posttyper visas, inklusive de som ännu inte har några kopplade poster. Som standard är alternativet avmarkerat och posttyper utan kopplade poster är dolda.
+
+1. (Valfritt) Klicka på **Anslut** för att lägga till fler poster till de anslutna posttyperna. Mer information finns i [Anslut poster](/help/quicksilver/planning/records/connect-records.md).
+
+1. (Valfritt) Hovra över ett postkort, klicka på ikonen för att koppla från post **-** och klicka sedan på **Koppla från**. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+Följande saker händer:
+   * Posten är inte längre ansluten till Workfront-objektet.
+   * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
+   * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
 
 ## Ordna om fält i postens förhandsgranskning eller sida
 

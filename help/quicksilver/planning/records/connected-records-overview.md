@@ -4,9 +4,9 @@ description: När du har skapat anslutningar mellan posttyper kan du koppla ensk
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -40,23 +40,17 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 
 * Alla som har åtkomst till Workfront Planning och View eller högre behörighet till arbetsytan kan se anslutningarna mellan posterna eller mellan poster och andra programobjekt. De kan visa anslutna poster och objekt oavsett deras behörigheter i de program du ansluter till.
 * Du kan visa och redigera alla andras anslutningar om du har behörigheten Hantera på arbetsytan där de anslutna posterna finns.
-* Du kan koppla en post till ett eller flera objekt från ett annat program. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* Du kan koppla en post till ett eller flera objekt från ett annat program. Mer information finns i avsnittet Anslutningstyper i artikeln [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Områden där du kan koppla poster
 
 Du kan koppla poster till andra poster eller till objekt från andra program i följande områden:
 
-* Du kan koppla poster från Workfront Planning till Workfront-objekt inom följande områden:
-   * Från en planeringspost i Workfront Planning i de anslutna fälten i tabellvyn.
-   * Från en planeringspost i Workfront Planning i postförhandsgranskningen eller på sidan i de anslutna postfälten.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  -->
+* Du kan koppla poster från Workfront Planning till Workfront-objekt eller Experience Manager Assets-objekt i följande områden i en Planning-post:
 
-* Du kan ansluta Workfront Planning-poster till Experience Manager Assets inom följande områden:
-
-   * Från en planeringspost i Workfront Planning i tabellvyn.
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+   * De kopplade postfälten i tabellvyn för en posttyp i Planning.
+   * Postens förhandsgranskning eller sida i de anslutna postfälten på fliken Information.
+   * Postens förhandsgranskning eller sida på fliken Anslutningar.
 
 * Du kan koppla Workfront-objekt till Workfront Planning-poster i följande områden:
 

@@ -4,20 +4,17 @@ description: Ett sätt att ange hur enskilda posttyper relaterar till varandra �
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
 
 
 <!--update metadata at GA-->
-<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # Översikt över anslutna posttyper
-
-<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 Du kan ange att enskilda posttyper relaterar till varandra eller till objekt från andra program genom att koppla dem.
 
@@ -95,75 +92,76 @@ Tänk på följande när det gäller att ansluta posttyper:
 
      Länkade fält föregås av en ikon som anger fälttypen. Länkade (eller uppslag) fält föregås av ikoner som anger att ett fält är ett tal, ett stycke eller ett datum.
 
-<!--## Connection types
+## Anslutningstyper
 
-After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
+När du har upprättat en anslutning mellan två posttyper eller mellan en post och en objekttyp från ett annat program, kan du lägga till poster i de anslutna postfälten.
 
-Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
+Beroende på hur många poster du kan lägga till i ett anslutet postfält kan du välja mellan följande anslutningstyper vid anslutning av posttyper:
 
-* [Many to many](#many-to-many-connection-type)
-* [One to many](#one-to-many-connection-type)
-* [Many to one](#many-to-one-connection-type)
-* [One to one](#many-to-one-connection-type)
+* [Många till många](#many-to-many-connection-type)
+* [En till många](#one-to-many-connection-type)
+* [Många till ett](#many-to-one-connection-type)
+* [En till en](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->These options are not available when connecting the following: 
->* Two records from different workspaces
+>Dessa alternativ är inte tillgängliga vid anslutning av följande:
 >
->* A record type and Experience Manager assets
+>* Två poster från olika arbetsytor
+>
+>* En posttyp och Experience Manager-resurser
 
-### Many-to-many connection type
+### Anslutningstyp för många-till-många
 
 ![](assets/many-to-many-connection-picker.png)
 
-When you create a many-to-many connection between record types, you can then select multiple records in the connection field from both record types. 
+När du skapar en många-till-många-anslutning mellan posttyper kan du sedan välja flera poster i anslutningsfältet från båda posttyperna.
 
-For example, if you create a many-to-many connection between campaigns and projects, you can select multiple projects for each campaign, and multiple campaigns for each project. 
+Om du till exempel skapar en många-till-många-anslutning mellan kampanjer och projekt kan du välja flera projekt för varje kampanj och flera kampanjer för varje projekt.
 
-A real-life example of a many-to-many relationship type is the relationship between movies and actors. Each movie can have multiple actors, and each actor can play in multiple movies. 
+Ett exempel på hur många-till-många-relationer är relationen mellan filmer och skådespelare. Varje film kan ha flera skådespelare och varje skådespelare kan spela upp i flera filmer.
 
-When you select this connection type, you cannot change the connection type after you save it. 
+När du väljer den här anslutningstypen kan du inte ändra anslutningstypen efter att du har sparat den.
 
-### One-to-many connection type
+### Anslutningstyp en till många
 
 ![](assets/one-to-many-connection-picker.png)
 
 
-When you create a one-to-many connection between record types, you can then select multiple records in the connection field in the current record type, but the corresponding connection field in the record type you connect to will allow selecting only one record. The connected record field that is automatically created on the second record type is automatically set to a many-to-one relationship type. 
+När du skapar en en en-till-många-anslutning mellan posttyper kan du sedan markera flera poster i anslutningsfältet i den aktuella posttypen, men det motsvarande anslutningsfältet i den posttyp som du ansluter till tillåter bara att du väljer en post. Det anslutna postfältet som skapas automatiskt för den andra posttypen ställs automatiskt in på en många-till-ett-relationstyp.
 
-For example, if you create a one-to-many connection between campaigns and projects, you can select multiple projects for each campaign, but each project can be connected to only one campaign.
+Om du till exempel skapar en en en-till-många-anslutning mellan kampanjer och projekt kan du välja flera projekt för varje kampanj, men varje projekt kan bara kopplas till en kampanj.
 
-A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+Ett exempel på hur en en-till-många-relation ser ut i verkligheten är relationen mellan bibliotek och böcker: ett bibliotek har många böcker i sitt lager, men en viss bok kan bara finnas i ett bibliotek vid en given tidpunkt.
 
-When you select this connection type, you can later change it only to a many-to-many connection type. 
+När du väljer den här anslutningstypen kan du senare bara ändra den till en många-till-många-anslutningstyp.
 
-### Many-to-one connection type
+### Anslutningstyp för många-till-ett
 
 ![](assets/many-to-one-connection-picker.png)
 
 
-When you create a many-to-one connection between record types, you can then connect each record in the current record type with only one record from the connected record type. The connected record field that is automatically created on the second record type is automatically set to a one-to-many relationship type. 
+När du skapar en många-till-en-anslutning mellan posttyper kan du sedan koppla varje post i den aktuella posttypen med endast en post från den anslutna posttypen. Det anslutna postfältet som skapas automatiskt för den andra posttypen ställs automatiskt in på en 1:N-relationstyp.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+Om du till exempel kopplar ihop kampanjer med projekt och väljer den här typen av anslutning kan du bara lägga till ett projekt i en kampanj. Men ni kan lägga till flera kampanjer i ett projekt.
 
-A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+Ett exempel på hur många filmer och skådespelare som finns i verkligheten är relationen mellan många filmer och en skådespelare: en skådespelare kan vara i många filmer, men varje film kan bara ha en viss skådespelare en gång i sin filmserie.
 
-When you select this connection type, you can later change it only to a many-to-many connection type.
+När du väljer den här anslutningstypen kan du senare bara ändra den till en många-till-många-anslutningstyp.
 
-### One-to-one connection type
+### En-till-en-anslutningstyp
 
 ![](assets/one-to-one-connection-picker.png)
 
-When you create a one-to-one connection between record types, in both record types you can connect each record only with one record from the other record type.
+När du skapar en en en-till-en-anslutning mellan posttyper kan du i båda posttyperna koppla varje post endast till en post från den andra posttypen.
 
-For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+Om du till exempel kopplar ihop kampanjer med projekt och väljer den här typen av anslutning kan du koppla samman en kampanj med ett projekt. Ett projekt kan bara kopplas till en kampanj.
 
-A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+Ett exempel på en personlig relation är den som finns mellan en person och det egna landets unika identifierare (som personnummer, pass-ID, lokalt ID): varje person har bara en unik identifierare för ett land och varje unik identifierare kan bara länkas till en person.
 
-When you select this connection type, you can later change it to any other connection type. 
+När du väljer den här anslutningstypen kan du ändra den senare till en annan anslutningstyp.
 
--->
+
 
 
 

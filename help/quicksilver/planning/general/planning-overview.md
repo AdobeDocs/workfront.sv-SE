@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1900'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,13 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
->Workfront Planning är för närvarande i ett tidigt skede som är öppet för ett begränsat antal kunder.
+>Du måste vara kund hos Workfront och din organisation måste köpa en Adobe Workfront Planning-plan, förutom en Workfront-plan, för att kunna komma åt funktionerna i Worfront Planning. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>Mer information om hur du får åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 >
->Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
->
->Din kontorepresentant skulle ha informerat dig om du var en del av det här steget.
->
->En fullständig lista över alla avsnitt och artiklar som dokumenterar Workfront Planning finns i [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
 
+Den här artikeln innehåller allmän information om Workfront Planning.
+
+En fullständig lista över artiklar som innehåller dokumentation för Workfront Planning finns i [Adobe Workfront Planning: artikelindex](/help/quicksilver/planning/planning-information.md).
 
 ## Introduktion till Adobe Workfront Planning
 
@@ -52,11 +51,16 @@ Nedan följer några av de viktigaste funktionerna:
 
 ## Adobe Workfront Planning-funktioner
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 I följande tabell visas huvudfunktionerna som kommer att vara tillgängliga i Workfront Planning och en tidslinje för deras tillgänglighet. Listan innehåller inte alla funktioner.
 
+<!--at GA: update the link below to the new place for release notes-->
+
 Mer information om nya funktioner och när de släpps finns i [Adobe Workfront Planering - aktuell versionsaktivitet](/help/quicksilver/planning/general/release-activity.md).
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 | Funktion | Ute nu | Kommer snart | Forskning |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
