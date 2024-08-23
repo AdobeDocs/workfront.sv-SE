@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Skapa routningsregler
 description: Routningsregler styr vad Adobe Workfront gör med problem när de skickas till en frågekö. Mer information om hur du skapar begärandeköer finns i Skapa en begärandekö.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -75,12 +75,12 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
     <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td>
    <td> <p>Redigera åtkomst till projekt</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p> Hantera behörigheter för projektet</p> </td> 
+   <td> <p> Hantera behörigheter för projektet</p> </td>
   </tr> 
  </tbody> 
 </table>

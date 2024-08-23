@@ -2,13 +2,13 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Skapa förfrågningar
+title: Skapa begäranden
 description: Förfrågningar och ärenden är utbytbara i Adobe Workfront. Du kan skapa begäranden genom att skicka en begäran i Workfront, skicka en begäran i ett annat program eller skicka en begäran via e-post till ett projekt som är konfigurerat som en frågekö.
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 0%

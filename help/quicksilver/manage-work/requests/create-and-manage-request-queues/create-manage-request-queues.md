@@ -2,15 +2,15 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Skapa och hantera frågeköer
+title: Skapa och hantera köer för begäranden
 description: Du kan skapa begärandeköer i Adobe Workfront för att hämta in oplanerat arbete i din organisation. I följande artiklar beskrivs hur du kan konfigurera projekt så att de fungerar som begärandeköer.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%

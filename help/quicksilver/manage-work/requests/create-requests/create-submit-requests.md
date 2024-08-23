@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Skapa och skicka Adobe Workfront-förfrågningar
+title: Skapa och skicka begäranden
 description: Planerat arbete representeras i Adobe Workfront av projekt och uppgifter. Du kan dock arbeta i en miljö där oplanerat arbete - i form av slumpmässiga begäranden - kan komma in när som helst. Workfront tillhandahåller ett arbetsflöde för den här typen av miljö genom att använda frågeköer.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2335'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
 
-# Skapa och skicka Adobe Workfront-förfrågningar
+# Skapa och skicka begäranden
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Medarbetare eller högre</p>
    eller
    <p>Aktuell: Begäran eller senare</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till problem</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Mer information om hur du skapar begäranden från befintliga utkast finns i [Sk
 
 Så här skapar du en begäran i Workfront webbprogram:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet.
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. Klicka på **Förfrågningar** och sedan på **Ny begäran** i det övre högra hörnet på sidan.
+1. Klicka på **Ny begäran** i det övre högra hörnet på sidan.
 
    >[!TIP]
    >
