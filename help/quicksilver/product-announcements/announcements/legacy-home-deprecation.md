@@ -5,9 +5,9 @@ title: Guide för föråldrad hemborttagning
 description: Den här sidan innehåller information om den kommande borttagningen av äldre Hem.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Adobe Workfront-användare, vi har nyheter - vi kommer snart att ta bort äldre 
 
 ![](assets/legacy-home-worklist-view.png)
 
-Den här sidan kommer att bli inaktuell i version 24.10 (planerad till 17 oktober 2024). Då måste du gå över till den nya hemupplevelsen. Om du har använt det äldre hemmet för att hantera ditt arbete, oroa dig inte! Förutom att ständigt förbättra nya hemmet har vi arbetat med att skapa en smidig arbetshantering som kallas Mina prioriteringar.
+Den här sidan kommer att bli inaktuell i version 24.10 (planerad till 17 oktober 2024). Då måste du gå över till den nya hemupplevelsen. Om du har använt det äldre hemmet för att hantera ditt arbete, oroa dig inte! Förutom att ständigt förbättra nya hemsidor har vi arbetat med att skapa en smidig arbetshantering som kallas prioriteringar.
 Vi vet dock att en sådan här förändring kan vara störande och vi vill hjälpa dig med övergången på alla sätt vi kan. Den här sidan innehåller information om exakt vad som kommer att ändras, råd om hur du förbereder övergången och svar på vanliga frågor.
 
 ## Undertryckningsinformation
@@ -35,7 +35,7 @@ Vi vet dock att en sådan här förändring kan vara störande och vi vill hjäl
 
 * Nytt hem är redan tillgängligt som ersättning. Mer information om hur du använder nya Hem finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md). Den kan anpassas av både användare via personaliseringsalternativ och administratörer via layoutmallar.
 
-* Mina prioriteringar är under utveckling och kommer att fungera som en annan del av den smidigare arbetshanteringen i Adobe Workfront.
+* Prioriteringarna är under utveckling och kommer att fungera som en annan del av den smidigare arbetshanteringen i Adobe Workfront.
 
 ## Förbered för borttagning
 
@@ -57,7 +57,7 @@ Om du gör detta så snart som möjligt får användarna tid att anpassa sig til
 
 ### Följ hemupplevelsen när den utvecklas
 
-Vi rekommenderar också att du håller dig uppdaterad med den senaste versionsinformationen (se [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md)) för att lära dig mer om ändringar som gjorts i hemupplevelsen när vi närmar oss den. Dessutom kan du fortsätta att läsa om Mina prioriteringar för att bättre förstå vår vision om framtiden för arbetshantering i Adobe Workfront (mer information kommer snart).
+Vi rekommenderar också att du håller dig uppdaterad med den senaste versionsinformationen (se [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md)) för att lära dig mer om ändringar som gjorts i hemupplevelsen när vi närmar oss den. Dessutom kan du fortsätta att läsa om Prioriteringar för att bättre förstå vår vision för framtiden för arbetshantering i Adobe Workfront (mer information kommer snart).
 
 ### Be om hjälp
 
@@ -70,7 +70,7 @@ Om du stöter på problem under övergången kontaktar du din kontoansvarige/sup
 Nej, den tas bort helt från programmet.
 +++
 
-+++ Är alla funktioner i det äldre hemmet tillgängliga i det nya hemmet (eller så småningom i Mina prioriteringar)?
++++ Är alla funktioner i det äldre hemmet tillgängliga i det nya hemmet (eller kanske i prioriteter)?
 
 Nästan, med undantag av:
 
@@ -78,7 +78,7 @@ Nästan, med undantag av:
 
 * Det går inte att visa tidsstämplar för objektets förfallodatum.
 
-* Det går för närvarande inte att visa datumet för implementeringen i uppdateringsflödet. Det finns dock en tillgänglig lösning: visa datumet för implementeringen i sidhuvudsanpassningen via layoutmallar.
+* Det går för närvarande inte att visa datumet för implementeringen i uppdateringsflödet. Det finns dock en tillgänglig lösning: visa datumet för implementeringen i sidhuvudet genom att anpassa layoutmallen.
 +++
 
 +++Hur styr jag vilka widgetar som användare har tillgång till i nya Hem?
@@ -102,5 +102,5 @@ Anpassade fält kan visas i nytt hem genom att:
 
 +++Kan jag skicka feedback?
 
-Ja! Gör det genom att klicka på knappen **Ge feedback** i appen på din nya hemsida, via den kommande sidan Mina prioriteringar eller via [Workfront Ideas-forumet](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+Ja! Gör det genom att klicka på knappen **Ge feedback** i appen på din nya hemsida, via sidan Prioriteter eller via [Workfront Ideas-forumet](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 +++
