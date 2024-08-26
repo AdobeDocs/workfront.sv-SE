@@ -1,19 +1,18 @@
 ---
 title: Översikt över licenstyp vid användning av Adobe Workfront Planning
-description: Din åtkomst till Adobe Workfront Planning beror på licenstypen, förutom dina behörigheter till objekt.
-hidefromtoc: true
-hide: true
+description: Din åtkomst till Adobe Workfront Planning beror på licenstypen, förutom dina behörigheter till objekt. Alla användare i organisationen har inte samma åtkomst och behörigheter för att använda Adobe Workfront Planning. I den här artikeln beskrivs de åtkomstnivåer som användare kan ha till Adobe Workfront Planning.
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '502'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront plannint. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
-<!--update the title and the metadata title if Workfront Planning is NOT its own product - because the title is too generic for it being a Workfront capability-->
 
 # Översikt över licenstyper vid användning av Adobe Workfront Planning
 
@@ -26,114 +25,62 @@ Din Adobe Workfront-licenstyp fungerar tillsammans med dina Adobe Workfront Plan
 
 Mer information om behörigheter för objekt i Workfront Planning finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
+Mer information om åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+
 ## Förhållandet mellan Workfront licenstyper och Workfront Planning permissions
 
 Tabellen nedan beskriver förhållandet mellan licenstypen för en användare i Adobe Workfront och den behörighetsnivå som du kan ge dem till Adobe Workfront Planning-objekt baserat på den licensen.
 
 Om du ger en användare behörighet till en arbetsyta får den även behörighet att spela in typer, poster och fält.
 
+Du måste ge användarna separata behörigheter för vyer, utöver de som de har för arbetsytor, för att kunna komma åt och hantera vyer.
 
 | Adobe Workfront licenstyp* | Högsta tillåtna behörighet i Adobe Workfront Planning |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Nytt: Standard <br> eller <br>Aktuell: Planera | Användare kan hantera arbetsytor. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster och fält. <br> Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade. |
-| Nytt: Light, Contributor <br> eller <br>Current: Work, Requestor, Reviewer | Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor. <br>-användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält. |
+| Standard | <p>Användare kan hantera arbetsytor och vyer. De kan skapa, redigera och ta bort arbetsytor, posttyper, poster, fält och vyer.</p> <br> <p>Systemadministratörer har behörigheten Hantera för alla arbetsytor, inklusive de som de inte skapade.</p> |
+| Ljus eller Medarbetare | <p>Användarna kan visa de arbetsytor som delas med dem samt posttyper, poster och fält för dessa arbetsytor.</p> <br> <p>Användarna kan visa de vyer som delas med dem, men de kan inte skapa egna. </p><br> <p>Användare kan inte skapa, redigera eller ta bort arbetsytor, posttyper, poster eller fält.</p> |
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront Planning finns inte för tidigare Workfront-licenser.
+Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--Replace the table above with the following at GA:
 
+<!--OLD 
 
 | Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Standard                     | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| Light or Contributor  | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
+| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
 
-*Workfront Planning is not available for legacy Workfront licenses. 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ### Licenstyper och behörigheter för arbetsytan
 
-Endast användare med en standardlicens (eller en planlicens) kan ha Contribute- eller Hantera-behörigheter för arbetsytor. Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytor som delas med dem.
+Endast användare med en standardlicens kan ha Contribute- eller Manage-behörighet till arbetsytor. Användare med alla andra licenstyper kan ha behörigheten Visa på arbetsytor som delas med dem.
 
 Systemadministratörer kan visa alla arbetsytor i systemet, även de som de inte skapade.
-
-Det finns begränsningar för hur många Workfront Planning-objekt du kan ha. Mer information finns i [Översikt över begränsningar för Adobe Workfront Planning-objekt](/help/quicksilver/planning/general/limitations-overview.md).
 
 >[!INFO]
 >
 >**EXEMPEL:**
 >
->Beställare (eller medarbetare, enligt den nya licensmodellen) kan inte bidra till eller hantera arbetsytor och deras objekt.
+>Medarbetare eller användare med ljuslicens kan inte bidra till eller hantera arbetsytor och deras objekt.
 >
 >Det finns en indikation i delningsrutan om att användare inte kan beviljas behörighet att bidra till eller hantera en arbetsyta när de har en licens på lägre nivå, eftersom dessa behörighetsnivåer är nedtonade.
 >
->![](assets/permissions-grayed-out-for-requestor-user.png)
-
-
-<!--Replace all the content in the section above with the following at Planning GA
-
-
-Only users with a Standard license can have Contribute or Manage permissions to workspaces. Users with all other license types can have View permissions to workspaces shared with them. 
-
-System administrators can view all workspaces in the system, even the ones they did not create. 
-
->[!INFO]
->
->**EXAMPLE:** 
->
->Contributors or Light-license users cannot contribute to or manage workspaces and their objects. 
->
->There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
->
 >![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
--->
 
 
 ### Licenstyper och visningsbehörigheter
 
-Endast användare med en standardlicens (eller en planlicens) kan ha behörigheten Hantera för att visa. Användare med alla andra licenstyper kan ha behörigheten Visa för vyer som delas med dem.
+Endast användare med en standardlicens kan ha behörigheten Hantera för att visa. Användare med alla andra licenstyper kan ha behörigheten Visa för vyer som delas med dem.
 
 >[!INFO]
 >
 >**EXEMPEL:**
 >
->Medarbetare (eller beställare och granskare) kan inte hantera vyer. De kan använda temporära filter, sorteringar eller grupperingar för vyer som de har åtkomst till.
+>Medarbetare eller användare med ljuslicens kan inte hantera vyer. De kan använda temporära filter, sorteringar eller grupperingar för vyer som de har åtkomst till.
 >
 >Det finns en indikation i delningsrutan om att användare inte kan beviljas behörighet att hantera en vy när de har en licens på lägre nivå, eftersom dessa behörighetsnivåer är nedtonade.
 >
->![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
-
-
-<!--Replace all of the above in this section with the following at GA:
-
-Only users with a Standard license can have Manage permissions to views. Users with all other license types can have View permissions to views shared with them. 
-
->[!INFO]
->
->**EXAMPLE:** 
->
->Contributors or Light-license users cannot manage views. They can apply temporary filters, sorts, or groupings to views they can access. 
->
->There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
->
->![](assets/permissions-grayed-out-for-light-user.png)-->
-
-
-
-<!--Replace all of the above with this:
-
-The table below describes the relationship between the license type of a user in Adobe Workfront and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license. 
-
-Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
-
-You must grant view permissions separately from workspace permissions. 
-
-
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | <ul><li>Users can contribute to or manage workspaces and they can manage views. They can create, edit, or delete workspaces, record types, records, fields, and views.</li> <li> System administrators have Manage permissions to all workspaces, including the ones they did not create.</li> <li> System administrators can only access views they created.</li></ul>                                                                                                                     |
-|New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | <ul><li>Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces.</li> <li>Users can access views shared with them and apply temporary filters, sorts, or groupings, but they cannot modify the views. </li><li> Users cannot create, edit, or delete workspaces, record types, records, fields, or views.</li></ul>|
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
+>![](assets/permissions-grayed-out-for-light-user.png)

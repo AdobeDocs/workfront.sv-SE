@@ -1,23 +1,25 @@
 ---
-title: Skapa ett begärandeformulär i Adobe Workfront Planning
-description: När du har valt en posttyp i Adobe Workfront Planning kan du skapa ett begärandeformulär som är kopplat till den posttypen och dela en länk till den med andra interna eller externa användare.
+title: Skapa och hantera ett begärandeformulär i Adobe Workfront Planning
+description: När du har valt en posttyp i Adobe Workfront Planning kan du skapa ett begärandeformulär och associera det med den posttypen. Du kan sedan dela en länk till den med andra interna eller externa användare. Användare som har en länk till formuläret kan fylla i fältvärdena på det och genom att skicka det kan de lägga till en ny post för den posttyp som är associerad med det.
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '1101'
 ht-degree: 0%
 
 ---
 
-# Skapa ett begärandeformulär i Adobe Workfront Planning
+# Skapa och hantera ett begärandeformulär i Adobe Workfront Planning
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
 När du har valt en posttyp i Adobe Workfront Planning kan du skapa ett begärandeformulär och associera det med den posttypen. Du kan sedan dela en länk till den med andra interna eller externa användare. <!--double-check on the external part of it-->
+
+Användare som har en länk till formuläret kan fylla i fältvärdena på det och genom att skicka det kan de lägga till en ny post för den posttyp som är associerad med det.
 
 ## Åtkomstkrav
 
@@ -52,7 +54,8 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 <tr>
    <td role="rowheader"><p>Adobe Workfront Planning*</p></td>
    <td>
-<p>Alla </p>   </td>
+<p>Alla </p>  
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront</p></td>
@@ -118,31 +121,76 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 1. Klicka på **Skapa**. Formuläret för förfrågan för den valda posttypen öppnas.
 
+   ![](assets/campaigns-request-form-edit-mode.png)
+
    Formuläret innehåller som standard följande information:
 
+   * Alla postfält som är tillgängliga i tabellvyn för den valda posttypen.
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än.
    * Alla fält som är associerade med posttypen.
 
    Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
 
-1. (Valfritt) Ta bort fältet **Ämne** eftersom det inte visas i Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Håll muspekaren över de fält i formuläret som du vill ta bort. De läggs till på fliken **Fält** till vänster i formuläret.
-1. Klicka på ett fält och använd sedan kontrollerna till höger i formuläret för att definiera någon av följande information om fälten:
+1. (Valfritt) Håll markören över fält i formuläret som du vill ta bort och klicka sedan på ikonen **x** för att ta bort dem. De läggs till på fliken **Fält** till vänster om formuläret.
+
+   Ta till exempel bort fältet **Ämne** eftersom det inte visas i Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
+1. Klicka på ett fält och använd sedan kontrollerna till höger om formuläret för att definiera deras storlek, eller någon av följande information om fälten:
 
    * **Etikett**: Det här är namnet på fältet som det kommer att visas i begärandeformuläret. Detta ändrar inte postfältets namn.
    * **Instruktioner**: Lägg till mer information om fältet.
    * **Gör ett obligatoriskt fält**: När du väljer det här alternativet måste fältet ha ett värde. Annars kan formuläret inte skickas.
    * **Lägg till logik**: Definiera vilka villkor som måste uppfyllas för att fältet ska kunna visas eller döljas.
 
-1. Klicka på fliken Innehållselement till höger i formuläret och lägg till något av följande element:
+1. (Valfritt) Klicka på fliken **Innehållselement** till vänster i formuläret och lägg till något av följande element:
 
-   * Beskrivning
-   * Avsnittsbrytning
+   * **Beskrivande text**
+   * **Avsnittsbrytning**
 
    Mer information om hur du skapar ett anpassat formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+1. (Valfritt) Klicka på **Förhandsgranska** om du vill visa hur formuläret kommer att visas för andra användare när de kommer att använda det för att skicka en ny post.
+1. Klicka på **Publish** för att publicera formuläret och få en unik länk till det.
 
+   Följande saker händer:
+
+   * Publish-knappen har tagits bort.
+   * Knappen **Avpublicera** läggs till i formuläret. Om du klickar på den går det inte att komma åt formuläret.
+   * En **Dela**-knapp läggs till i formuläret.
+
+1. Klicka på **Dela** om du vill dela formuläret med andra.
+
+   ![](assets/share-box-for-request-form.png)
+
+1. Välj bland följande alternativ för att ange vilka typer av användare som har åtkomst till det här formuläret:
+
+   * Alla som visar eller har högre åtkomst till arbetsytan
+   * Alla som har Contribute eller senare åtkomst till arbetsytan
+   * Alla med länken
+
+   >[!IMPORTANT]
+   >
+   >När du väljer Vem som helst med länken kan vem som helst, även personer utanför organisationen som saknar ett Workfront-konto, få åtkomst till formuläret och skicka en ny post.
+
+1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken upphör att gälla och du måste uppdatera länkdatumet innan de kan komma åt formuläret igen.  <!--add info here about how long the expiration date should be; logged bug-->
+
+1. Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret.
+
+   Alternativen för formulärdelning sparas och länken kopieras till Urklipp. Nu kan du dela den med andra.
+
+   Mer information om hur du skapar poster med hjälp av en länk till ett begärandeformulär finns i [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md).
+
+1. Klicka på **Spara** längst ned till höger på skärmen för att spara formuläret.
+1. Klicka på vänsterpilen till vänster om formulärets namn i rubriken för att stänga formuläret.
+
+   Posttypssidan öppnas.
+1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-menu.png) till höger om posttypens namn i rubriken och gör sedan något av följande:
+   * Klicka på **Uppdatera begärandeformuläret** om du vill göra några ändringar i begärandeformuläret.
+   * Klicka på **Kopiera länk till begärandeformuläret** om du vill dela länken till formuläret med andra.
+
+   >[!TIP]
+   >
+   >Det finns en indikation på att länken delas offentligt när så är fallet.
 
 
 

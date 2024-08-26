@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '14299'
+source-wordcount: '14318'
 ht-degree: 0%
 
 ---
@@ -250,6 +250,9 @@ ht-degree: 0%
          * [Versionsaktivitet för Workfront Fusion: 16 november 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Versionsaktivitet för Workfront Fusion: 30 november 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
          * [Versionsaktivitet för Workfront Fusion: 21 september 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+      * Aktivitet för lansering av Adobe Workfront Planning {#planning-release-activity}
+         * [Adobe Workfront Planning - lanseringsaktivitet](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Versionsaktivitet för Adobe Workfront Scenario Planner {#scenario-planner-release}
          * [Versionsaktivitet för Adobe Workfront Scenario Planner](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [Adobe Workfront Scenario Planner med version 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2038,8 +2041,8 @@ ht-degree: 0%
       * [Adobe Workfront Planning - översikt](planning/general/planning-overview.md)
       * [Grunderna i Adobe Workfront Planning API](planning/general/planning-api-basics.md)
       * [Adobe Workfront Planning AI Assistant - översikt](planning/general/planning-ai-assistant-overview.md)
-      * [Adobe Workfront Planerar aktuell versionsaktivitet](planning/general/release-activity.md)
-      * [Aktivitetsarkiv för lansering av Adobe Workfront Planning för 2023](planning/general/release-activity-archives-2023.md)
+      * [Adobe Workfront Planning Release Activity för 2024](planning/general/release-activity.md)
+      * [Adobe Workfront Planning Release Activity för 2023](planning/general/release-activity-archives-2023.md)
       * [Översikt över begränsningar för Adobe Workfront Planning-objekt](planning/general/limitations-overview.md)
    * Adobe Workfront Planning Architecture {#adobe-workfront-planning-architecture}
       * [Arkitektur: artikelindex](planning/architecture/architecture-information.md)

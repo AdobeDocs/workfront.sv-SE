@@ -4,9 +4,9 @@ description: Du kan skapa ett begärandeformulär för varje posttyp, dela det m
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 0%
 
 ---
@@ -19,5 +19,5 @@ Du kan skapa ett begärandeformulär för varje posttyp, dela det med användare
 
 Det här avsnittet innehåller följande artiklar:
 
-* [Skapa ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Skicka Adobe Workfront Planning-begäranden](/help/quicksilver/planning/requests/submit-requests.md)

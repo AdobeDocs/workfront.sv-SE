@@ -1,32 +1,17 @@
 ---
+content-type: release-notes
 title: "Adobe Workfront Planning Release Activity: Artikelindex"
-description: Det här är en lista med artiklar som dokumenterar frisläppningsaktiviteten för Adobe Workfront Planning-produkten.
+description: Detta är versionsaktiviteten för Adobe Workfront Planning-produkten.
+author: Alina
+feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '118'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-
-
-<!--update metadata:
----
-content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
-description: This is the release activity for the Adobe Workfront Planning product. 
-author: Alina
-feature: Product Announcements
-recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
- -->
-
-<!--add to TOC and miniTOC-->
 
 # Versionsaktivitet för Adobe Workfront Planning: artikelindex
 
@@ -42,6 +27,13 @@ hide: yes
 >En översikt över Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Den här artikeln innehåller en lista med information om släppningsaktiviteter för Adobe Workfront Planning-produkten.
+Den här artikeln innehåller en lista med artiklar om frisläppningsaktiviteter för Adobe Workfront Planning-produkten.
 
 * [Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+
+<!-- remove this after 25.1 and consider removing the pages too-->
+
+En lista över alla funktioner som släpptes före den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i följande artiklar:
+
+* [Adobe Workfront Planning Release Activity för 2024](/help/quicksilver/planning/general/release-activity.md)
+* [Adobe Workfront Planning Release Activity för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

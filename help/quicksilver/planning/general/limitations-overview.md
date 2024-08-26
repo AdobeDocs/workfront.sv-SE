@@ -1,20 +1,24 @@
 ---
 title: Översikt över begränsningar för Adobe Workfront Planning-objekt
 description: Adobe Workfront Planning har gränser för hur många objekt du kan skapa i din instans. Objektbegränsningar finns för att förbättra produktprestanda och förbättra din upplevelse av Workfront Planning.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 2%
+source-wordcount: '316'
+ht-degree: 1%
 
 ---
 
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
 # Översikt över begränsningar för Adobe Workfront Planning-objekt
+
+{{planning-important-intro}}
+
 
 Adobe Workfront Planning har gränser för hur många objekt du kan skapa i din instans. Objektbegränsningar finns för att förbättra produktprestanda och förbättra din upplevelse av Workfront Planning.
 
@@ -22,10 +26,12 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 
 | Adobe Workfront Planning-objekt | Gräns |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Antal arbetsytor för en Workfront-instans | 1 000 |
+| Antal arbetsytor för en Workfront-instans | obegränsat* |
 | Antal avsnitt för en arbetsyta | 50 |
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
-| Antal poster för en posttyp | 50 000 |
+| Antal poster för en posttyp | 25 000 |
+| Antal poster för en arbetsyta | 25 000 för kunder med Planning-planen <br> 500 000 för kunder med Planning Plus-planen |
+| Antal totala poster för en instans av Workfront Planning-typen | 500 000 för kunder med Planning-planen <br>2 miljoner för kunder med Planning Plus-planen |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält | 1 000 tecken |
 | Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |
@@ -33,22 +39,25 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Frekvensen med vilken API-begäranden kan göras | 200 begäranden per minut |
 | Antal vyer som en användare kan skapa för en posttyp | 100 |
 
-<!--| Size of CSV of Excel file you can import* | 5MB |-->
+*Vi rekommenderar att du inte har för många arbetsytor eftersom de kan bli svåra att hantera och arbetsflödena kan vara för fragmenterade.
 
-<!--[!IMPORTANT]
->
->*This functionality has been temporarily removed and it will be available at a later date.-->
+Information om priser och paketering för Workfront Planning finns i [Adobe Workfront priser och paketering](https://business.adobe.com/products/workfront/pricing.html).
 
-<!--At GA, replace the table above with this:
+<!--
+****************KEEP THIS COMMENTED OUT:
+| Size of CSV of Excel file you can import** | 5MB |
+**This functionality has been temporarily removed and it will be available at a later date.**********************
+-->
+
+
+<!--OLD limitations (before GA:)
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-|     Number of Workspaces for one Workfront instance                                      |   unlimited*                                                                                                        |
+|     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
 |     Number of sections for one workspace                                      |   50                                                                                                         |
 |     Number of Record Types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
-|     Number of records for one record type                                               |   25,000                                                                                                        |
-|     Number of records for one workspace                                               |   25,000 for customers with the Planning plan <br> 500,000 for customers with the Planning Plus  plan                                                                                                         |
-|     Number of total records for one instance of Workfront Planning type                                               |   500,000 for customers with the Planning plan <br>2 million for customers with the Planning Plus plan                                                                                                        |
+|     Number of records for one record type                                               |   50,000                                                                                                        |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
 |     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
@@ -56,9 +65,10 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Number of views one user can create for one record type | 100 |
 
-*We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
-
-****************KEEP THIS COMMENTED OUT:
-| Size of CSV of Excel file you can import** | 5MB |
-**This functionality has been temporarily removed and it will be available at a later date.**********************
 -->
+<!--| Size of CSV of Excel file you can import* | 5MB |-->
+
+<!--[!IMPORTANT]
+>
+>*This functionality has been temporarily removed and it will be available at a later date.-->
+

@@ -1,18 +1,22 @@
 ---
 title: Grunderna i Adobe Workfront Planning API
 description: Målet för Adobe Workfront Planning API är att förenkla byggintegreringen med Planning genom att införa en REST-full arkitektur som fungerar över HTTP. I det här dokumentet förutsätts att du känner till REST- och JSON-svar och beskriver den metod som används i Planning API.
-hidefromtoc: true
-hide: true
+author: Becky
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 1%
 
 ---
 
+
 # Grunderna i Adobe Workfront Planning API
+
+{{planning-important-intro}}
 
 Målet för Adobe Workfront Planning API är att förenkla byggintegreringen med Planning genom att införa en REST-full arkitektur som fungerar över HTTP. I det här dokumentet förutsätts att du känner till REST- och JSON-svar och beskriver den metod som används i Planning API.
 

@@ -1,20 +1,20 @@
 ---
 title: Hantera postvyer
 description: Du kan visa poster i en tabell-, tidslinje- eller kalendervy när du använder Adobe Workfront Planning.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 0%
 
 ---
 
-# Hantera postvyer
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Hantera postvyer
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ I den här artikeln beskrivs följande information om postvyer:
 
 
 ## Åtkomstkrav
-
-<!--Updated for GA-->
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
@@ -87,7 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <ul><li><p>Valfritt för att visa Workfront Planning-information</p></li>
+   <td> <ul><li><p>Standard, Light eller Contributor för att visa Workfront Planning-information</p></li>
    <li><p>Standard, för att skapa arbetsytor</p></li></ul>
    <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 

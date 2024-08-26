@@ -1,16 +1,18 @@
 ---
 title: Hantera aviseringsinställningar för Adobe Workfront Planning
 description: Du kanske kan hantera dina meddelandeinställningar för Adobe Workfront Planning. I den här artikeln beskrivs hur du konfigurerar dina meddelandeinställningar.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
+
 
 # Hantera aviseringsinställningar för Adobe Workfront Planning
 
@@ -18,17 +20,79 @@ ht-degree: 0%
 
 När någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen samt ett e-postmeddelande om kommentaren.
 
->[!IMPORTANT]
->
->Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
->
->Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
 ## Åtkomstkrav
 
-<!--ensure this is truly 'Any' license when we go to GA-->
-
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
+
+Du måste ha följande för att kunna komma åt Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkter</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Alla </p> 
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p><p>Standard, Light eller Contributor
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Visa eller högre behörigheter på en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -39,51 +103,50 @@ När någon lägger till dig i en kommentar på postsidan får du ett meddelande
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>För att kunna ta emot meddelanden i appen från Workfront Planning och hantera aviseringsinställningarna måste din organisations instans av Workfront integreras med Adobe Unified Experience. Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
+   <p>In order to receive in-app notifications from Workfront Planning and manage notification preferences, your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alla</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>Alla</p> 
+   <p>Any</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller i Workfront Planning. </p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls in Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Visa eller högre behörigheter på en arbetsyta </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
-
-+++
+-->
 
 ## Hantera meddelandeinställningar
 
@@ -100,7 +163,7 @@ Mer information om Workfront Planning-meddelanden finns i följande artiklar:
 
 
 
-<!--replace the first section of this article with this; also remove the IMPORTANT at the top to require Unified Experience - below - when BOTH IMS and non-IMS customers will receive notifications: 
+<!--OLD: notifications are not available to non-IMS customers: 
 
 When someone adds you to a comment in the record page, you may receive an in-app as well as an email notification about the comment. 
 

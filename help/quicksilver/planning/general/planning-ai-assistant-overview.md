@@ -1,35 +1,22 @@
 ---
 title: Adobe Workfront Planning AI Assistant - översikt
 description: Du kan använda AI-assistenten för att generera, uppdatera eller ta bort poster baserat på den aktuella sidkontexten och poststrukturen. Användarens kommandon och AI:ns körning av dessa kommandon fungerar tillsammans för att se till att ändringar som görs av AI återspeglas korrekt i din miljö.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Workfront Planning AI Assistant - översikt
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">Workfront AI Assistant har tagits bort tillfälligt och är tillgänglig vid ett senare datum.</span>
->Informationen i den här artikeln gäller Adobe Workfront Planning och Workfront AI Assistant (beta), som är nya erbjudanden från Adobe Workfront.
->
->För närvarande är Workfront Planning i ett tidigt skede och Workfront AI Assistant är i en betafas.
->
->Workfront Planning och AI Assistant (beta) är öppna för ett begränsat antal kunder.
->
->Du måste vara kund hos Workfront för att kunna använda dessa funktioner.
->
->Din kontorepresentant kommer att informera dig om du är en del av det här steget.
->
->Mer information finns i [Översikt över Adobe Workfront-planering](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 Du kan använda AI-assistenten för att generera, uppdatera eller ta bort poster baserat på den aktuella sidkontexten och poststrukturen.
 
@@ -37,7 +24,8 @@ Användarens kommandon och AI:ns körning av dessa kommandon fungerar tillsamman
 
 ## Överväganden om AI-assistenten
 
-* AI-assistenten är som standard tillgänglig för den huvudsakliga Workfront-administratören. Mer information finns i [Konfigurera grundläggande information för systemet](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* AI-assistenten måste aktiveras för din organisation innan den är tillgänglig för användare i ditt företag. Mer information finns i [Översikt över AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+* När Workfront har aktiverat AI-assistenten för din organisation är den tillgänglig för den huvudsakliga Workfront-administratören. Mer information finns i [Konfigurera grundläggande information för systemet](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 * Workfront-administratören måste aktivera AI-assistenten för alla andra användare. Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -71,7 +59,7 @@ Du kan nu använda AI-assistenten för att utföra följande åtgärder:
 * Ta bort poster
 * Återställ poster som du just har tagit bort
 
-## Åtkomst till AI-assistenten
+## Gå till AI-assistenten i Planning Area
 
 1. Logga in på Workfront och gå till **Planering**.
 

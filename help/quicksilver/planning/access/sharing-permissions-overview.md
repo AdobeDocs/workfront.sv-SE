@@ -1,19 +1,18 @@
 ---
 title: Översikt över delningsbehörigheter i Adobe Workfront Planning
-description: Du kan dela eller ta bort behörigheter till en Adobe Workfront Planning-arbetsyta eller -vy.
-hidefromtoc: true
-hide: true
+description: Alla användare i organisationen har inte samma åtkomst och behörigheter för att använda Adobe Workfront Planning. I den här artikeln beskrivs allmän information om hur du delar eller tar bort behörigheter till en arbetsyta eller vy i Adobe Workfront Planning.
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
@@ -178,8 +177,6 @@ Följande behörighetsnivåer gäller för vyer och visningselement:
 | Använd | ✓ |
 
 *Användarna måste ha behörigheten Visa eller högre för en arbetsyta för att få åtkomst till vyn.
-
-
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |
