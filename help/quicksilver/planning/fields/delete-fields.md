@@ -1,29 +1,19 @@
 ---
 title: Ta bort fält
 description: I Adobe Workfront Planning kan du ta bort anpassade fält som inte längre är relevanta.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
+author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!---
-title: Delete fields
-description: In Adobe Planning, you can delete custom fields that are no longer relevant.
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: (*******************WE NEED A NEW ONE*******************)
-role: User, Administrator (************is this right???************)
-recommendations: noDisplay, noCatalog
---->
 
 # Ta bort fält
 
@@ -56,6 +46,76 @@ Du kan ta bort Workfront Planning-fält som inte längre är relevanta.
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
+Du måste ha följande för att kunna komma åt Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkter</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Alla </p> 
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+
+OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -65,56 +125,51 @@ Du kan ta bort Workfront Planning-fält som inte längre är relevanta.
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alla</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nytt: Standard</p>
-   <p>Aktuell: Planera</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
  </tbody>
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+-->
 
 ## Ta bort fält
 

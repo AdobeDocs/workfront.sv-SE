@@ -3,9 +3,9 @@ title: Begär behörighet till en vy eller en Workspace
 description: Du kan begära behörigheter för en vy eller en arbetsyta som andra har skickat till dig en länk som inte tidigare har delats med dig.
 hidefrontoc: true
 hide: true
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '504'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -27,6 +27,8 @@ role: User
 # Begära behörigheter till en vy eller arbetsyta
 
 Du kan begära behörigheter för en vy eller en arbetsyta som andra har skickat till dig en länk som inte tidigare har delats med dig.
+
+Att begära behörigheter till en vy liknar att begära behörigheter till en arbetsyta.
 
 ## Åtkomstkrav
 
@@ -86,8 +88,10 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
-   <td>  <p>Hantera behörigheter till en vy</p>  
-   <p>Endast användare med behörigheten Hantera på en arbetsyta kan dela en vy offentligt.</p></td> 
+   <td>  <p>När din behörighetsbegäran har beviljats kan du få följande behörigheter:</p>
+   <ul><li><p>Visa eller hantera för en vy</p></li>
+   <li><p>Visa, Contribute eller Hantera på en arbetsyta</p></li></ul>  
+   <p>Endast användare med behörigheten Hantera på en arbetsyta och en vy kan dela en vy offentligt.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
@@ -100,20 +104,32 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 +++
 
-## Begära och tilldela behörigheter till en vy eller arbetsyta
+## Begär behörigheter till en vy eller arbetsyta
 
-När någon delar en länk till en arbetsyta eller en vy där du inte har tillgång till den med dig, finns följande scenario:
+Att begära behörigheter till en vy liknar att begära behörighet till en arbetsyta.
+
+När någon delar en länk till en arbetsyta eller en vy där du inte har tillgång till den med dig:
 
 1. Klicka på länken som delas med dig för vyn eller arbetsytan.
 
    En **Du har inte åtkomst**-sida visas som informerar dig om att du inte har åtkomst till vyn eller arbetsytan.
 
+   ![](assets/request-access-to-view.png)
+
 1. (Villkorligt) Om den delade länken är för en vy för en arbetsyta där du har åtkomst klickar du på **Öppna med befintlig vy**. Om du har behörighet att komma åt arbetsytan öppnas posttypssidan i standardvyn.
 
-1. (Valfritt) Lägg till ett anpassat meddelande i rutan.
+1. (Valfritt och villkorligt) Om du inte har behörighet att visa arbetsytan lägger du till ett anpassat meddelande i rutan som är tillgänglig och klickar sedan på **Begär åtkomst**.
 
-1. Klicka på **Begär åtkomst**.
+   Alla användare med behörigheten Hantera för vyn eller arbetsytan får följande meddelanden om åtkomstbegäran:
+   * Ett meddelande i appen
+     ![](assets/in-app-notification-for-access-request.png)
+   * Ett e-postmeddelande
+     ![](assets/email-notification-for-access-request.png)
 
-   Alla användare med behörigheten Hantera för vyn eller arbetsytan får ett e-postmeddelande om din begäran.
-1. Användare som har fått e-postmeddelandet för åtkomstbegäran går till vyn eller arbetsytan och ger dig behörighet.
-1. Du får ett e-postmeddelande som meddelar dig om att du har beviljats åtkomst till vyn eller arbetsytan. Du kommer åt vyn eller arbetsytan via e-postmeddelandet.
+   Mer information om hur du tilldelar behörigheter till vyer och arbetsytor finns i följande artiklar:
+
+   * [Visa](/help/quicksilver/planning/access/share-views.md)
+   * [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Villkorligt) När du tilldelas behörighet till vyn eller arbetsytan i vyn eller arbetsytan får du ett e-postmeddelande med en bekräftelse på att behörighet har beviljats eller nekats. <!--check this - I was not able to test this-->
+
+

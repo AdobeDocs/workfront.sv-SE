@@ -1,18 +1,18 @@
 ---
 title: Skapa posttyper
 description: Posttyperna är objekttyperna för Adobe Workfront Planning. I Workfront Planning kan du skapa anpassade posttyper som illustrerar de arbetsuppgifter som behövs i organisationens livscykel.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: f713e8fa72c98b6df2509e71acd7080d4df46a3a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '810'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--this is linked to the UI in an empty workspace screen-->
 
 # Skapa posttyper
@@ -27,6 +27,76 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
+Du måste ha följande för att kunna komma åt Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkter</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Alla </p> 
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Hantera behörigheter till en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>  </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+
+<!--
+OLD: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -36,62 +106,51 @@ Mer information om posttyper finns i [Översikt över posttyper](/help/quicksilv
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td> Adobe Workfront
    </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alla</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Aktuell: Planera</p>
-   eller
-   <p>Nytt: Standard </p> 
+   <p>Current: Plan</p>
+   Or
+   <p>New: Standard </p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter till en arbetsyta </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
  </tbody>
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-+++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+-->
 
 ## Att tänka på när du skapar posttyper
 

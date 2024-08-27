@@ -1,30 +1,19 @@
 ---
 title: Hantera tidslinjevyn
 description: Få åtkomst till och redigera poster i en tidslinjevy på posttypssidan för Adobe Workfront Planning. Anpassa tidslinjen med filter, grupperingar och inställningar. Använd funktionen Uppdelning för att visa kopplade poster.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
+source-wordcount: '2621'
 ht-degree: 0%
 
 ---
 
 # Hantera tidslinjevyn
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Mer information om postvyer finns i [Hantera postvyer](/help/quicksilver/plannin
 
 ## Åtkomstkrav
 
-<!--Updated for GA-->
++++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande för att kunna komma åt Workfront Planning:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <ul><li><p>Valfritt för att visa Workfront Planning-information</p></li>
-   <li><p>Standard, för att skapa arbetsytor</p></li></ul>
+   <td><p> Standard </p>
    <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
-   <p>Visa eller högre behörighet till en vy för att tillfälligt ändra visningsinställningarna</p> </td> 
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 
@@ -102,6 +88,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Hantera en tidslinjevy {#manage-a-timeline-view}
 

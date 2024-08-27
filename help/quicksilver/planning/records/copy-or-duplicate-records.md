@@ -1,20 +1,19 @@
 ---
 title: Duplicera poster
 description: Du kan duplicera en befintlig post i tabellvyn. En identisk kopia av den befintliga posten läggs till på posttypssidan.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
 
 
 # Duplicera poster
-
-<!--update the metadata after GA-->
 
 {{planning-important-intro}}
 
@@ -26,6 +25,75 @@ Du kan duplicera en befintlig post i tabellvyn. En identisk kopia av den befintl
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
+Du måste ha följande för att kunna komma åt Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkter</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Alla </p> 
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>   <p>Contribute eller högre behörighet till en arbetsyta </a> </p>  
+   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--
+OLD:
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -35,52 +103,52 @@ Du kan duplicera en befintlig post i tabellvyn. En identisk kopia av den befintl
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alla</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nytt: Standard</p>
-   <p>Aktuell: Planera</p>  
+   <p>New: Standard</p>
+   <p>Current: Plan</p>  
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>Konfigurationer på åtkomstnivå</p></td>
-   <td> <p>Det finns inga åtkomstkontroller för Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Contribute eller högre behörighet till en arbetsyta </a> </p>  
-   <p>Systemadministratörer har behörighet till alla arbetsytor, inklusive de som de inte skapade</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Workfront- eller gruppadministratören måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
+-->
 
 
 ## Duplicera en post <!--in a record type table (I don't think you can create them elsewhere right now)-->

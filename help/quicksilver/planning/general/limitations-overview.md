@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -30,8 +30,8 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal avsnitt för en arbetsyta | 50 |
 | Antal posttyper för en arbetsyta | 1 000 (inkluderar posttyper från alla avsnitt och de som skapas när en arbetsytemall används) |
 | Antal poster för en posttyp | 25 000 |
-| Antal poster för en arbetsyta | 25 000 för kunder med Planning-planen <br> 500 000 för kunder med Planning Plus-planen |
-| Antal totala poster för en instans av Workfront Planning-typen | 500 000 för kunder med Planning-planen <br>2 miljoner för kunder med Planning Plus-planen |
+| Antal poster för en arbetsyta | 25 000 för kunder med Planning <br> 500 000 för kunder med Planning Plus |
+| Antal poster för en instans av Workfront Planning | 500 000 för kunder med Planning-planen <br>2 miljoner för kunder med Planning Plus |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält | 1 000 tecken |
 | Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |

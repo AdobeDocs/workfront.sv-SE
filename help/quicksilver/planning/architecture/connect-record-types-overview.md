@@ -1,18 +1,17 @@
 ---
 title: Översikt över anslutna posttyper
 description: Ett sätt att ange hur enskilda posttyper relaterar till varandra är att koppla dem. Du kan även koppla posttyperna Adobe Workfront Planning till objekttyper från andra program för att förbättra användarupplevelsen och behålla fokus i ett program.
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 45134c538465a25767de1863d99a10c23bb8edf0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 0%
 
 ---
 
-
-<!--update metadata at GA-->
 
 # Översikt över anslutna posttyper
 

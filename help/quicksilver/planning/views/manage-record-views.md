@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
@@ -42,9 +42,9 @@ I den här artikeln beskrivs följande information om postvyer:
 
 ## Åtkomstkrav
 
-+++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
++++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+Du måste ha följande för att kunna komma åt Workfront Planning:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
-   <td> <ul><li><p>Standard, Light eller Contributor för att visa Workfront Planning-information</p></li>
-   <li><p>Standard, för att skapa arbetsytor</p></li></ul>
+   <td><p> Standard </p>
    <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 <tr> 
    <td role="rowheader"><p>Objektbehörigheter</p></td> 
    <td>   <p>Hantera behörigheter till en vy</p>  
-   <p>Visa eller högre behörighet till en vy för att tillfälligt ändra visningsinställningarna</p> </td> 
+   <p>Visa behörigheter till en vy för att tillfälligt ändra visningsinställningarna</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layoutmall</p></td> 

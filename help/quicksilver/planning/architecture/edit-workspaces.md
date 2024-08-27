@@ -1,18 +1,17 @@
 ---
 title: Redigera arbetsytor
 description: Du kan redigera informationen om en befintlig arbetsyta, som att byta namn på den.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Redigera arbetsytor
 
@@ -30,6 +29,73 @@ Alla ändringar du gör på en arbetsyta är synliga för alla som har minst beh
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
+Du måste ha följande för att kunna komma åt Workfront Planning:
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Produkter</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront-plan*</p></td> 
+   <td> 
+<p>Något av följande Workfront-planer:</p> 
+<ul><li>Välj</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning är inte tillgängligt för tidigare Workfront-planer</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
+   <td> 
+<p>Alla </p> 
+<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront</p></td> 
+   <td> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-licens*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning är inte tillgängligt för tidigare Workfront-licenser</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td> 
+   <td> <p>Det finns inga åtkomstnivåkontroller för Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Objektbehörigheter</p></td> 
+   <td>  <p>Hantera behörigheter på arbetsytan </p>   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layoutmall</p></td> 
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn. </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--OLD
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -39,53 +105,53 @@ Alla ändringar du gör på en arbetsyta är synliga för alla som har minst beh
     <tr>
 <tr>
 <td>
-   <p> Produkt</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront-avtal</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Din organisation måste vara registrerad på Workfront Planning i ett tidigt skede </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>Alla</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront-licens*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Nytt: Standard</p>
-   <p>Aktuell: Planera</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>Åtkomstnivåkonfiguration</p></td>
-   <td> <p>Det finns inga åtkomstnivåkontroller för Workfront Planning</p>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Behörigheter</p></td>
-   <td> <p>Hantera behörigheter på arbetsytan </p>  
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to the workspace </p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Du måste lägga till planeringsområdet i layoutmallen. Mer information finns i <a href="/help/quicksilver/planning/access/access-overview.md">Åtkomstöversikt</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>You must add the Planning area to your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-Mer information om åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
+-->
 
 ## Redigera en arbetsyta
 

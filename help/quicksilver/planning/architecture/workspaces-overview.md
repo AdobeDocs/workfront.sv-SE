@@ -1,17 +1,16 @@
 ---
 title: Översikt över arbetsytor
 description: En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Du kan anpassa arbetsytorna i Adobe Workfront Planning så att de passar arbetsflödena för dina organisationsenheter.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 0%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Arbetsytor - översikt
 
@@ -19,7 +18,6 @@ ht-degree: 0%
 
 En arbetsyta är en samling posttyper som används av en organisationsenhet och den representerar enhetens arbetslivscykel och processer. Du kan anpassa arbetsytorna helt i Adobe Workfront Planning.
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

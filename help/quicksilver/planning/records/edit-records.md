@@ -1,11 +1,12 @@
 ---
 title: Redigera poster
 description: Du kan redigera postinformation i Adobe Workfront Planning. Du måste skapa posttyper innan du kan börja skapa och redigera poster.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1833'
 ht-degree: 0%
@@ -29,8 +30,6 @@ Mer information om hur du skapar poster finns i [Skapa poster](/help/quicksilver
 &lt;!— här anger du att fälten i detaljvyn är desamma som fälten i tabellvyn - den här artikeln är länkad från vyerna Hantera post för att referera till den här informationen—>
 
 ## Åtkomstkrav
-
-<!--Updated for GA-->
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 

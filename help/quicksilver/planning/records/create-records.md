@@ -1,11 +1,12 @@
 ---
 title: Skapa poster
 description: När du använder Adobe Workfront Planning är en post en instans av en posttyp. Du kan skapa unika poster för varje posttyp i Workfront Planning genom att manuellt lägga till dem i tabellvyn, importera dem från en lista, duplicera dem eller skapa dem när du ansluter dem till andra poster.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 0%
@@ -36,8 +37,6 @@ Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i f�
 * [Hantera tidslinjevyn](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Åtkomstkrav
-
-<!--Updated for GA-->
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
 
