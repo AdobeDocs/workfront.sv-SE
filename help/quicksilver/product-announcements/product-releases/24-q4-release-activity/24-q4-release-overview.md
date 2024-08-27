@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -216,16 +216,14 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
             <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under den fjärde perioden i kvartalet 2024 </a></p>
-                        <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för det fjärde kvartalet 2024. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allmän tillgänglighet för Adobe Workfront Planning</a></p>
+                        <p>Workfront Planning är tillgängligt för alla kunder som har köpt en Workfront Planning-licens, utöver Workfront-licensen. Kontakta din kontorepresentant om du vill ha mer information om Workfront Planning.</p>
+                        <p>Information om den senaste utgåvan av Workfront Planning varje kvartal finns i avsnittet <a href="#workfront-planning-enhancements">Förbättringar av Workfront Planning</a> nedan.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsgranskningsversion: Under den fjärde kvartersutgåvan 2024</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></p>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 28 augusti 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -251,6 +249,22 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                             </li>
                         </ul>
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Uppdateringar av utseende och känsla under den fjärde perioden i kvartalet 2024 </a></p>
+                        <p>Mindre uppdateringar av utseendet och känslan i olika delar av Adobe Workfront-programmet görs inom tidsramen för det fjärde kvartalet 2024. Granska de enskilda versionsinformationen för specifika releasedatum.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsgranskningsversion: Under den fjärde kvartersutgåvan 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease: Granska versionsinformationen för specifika datum</span></p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>                            
            </tbody>
         </table>
@@ -260,6 +274,10 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 ### Workfront Fusion-förbättringar
 
 Nya funktioner i Workfront Fusion finns i Production vid en senare tidpunkt än den fjärde utgåvan av kvartal 2024. Mer information om de senaste funktionerna finns i [Adobe Workfront Fusion-versionsaktivitet](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+### Förbättringar av Workfront Planning
+
+Nya funktioner i Workfront Planning finns i Production. Mer information om de senaste funktionerna finns i [Versionsaktiviteten för Adobe Workfront Planning Fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md).
 
 ### Förbättringar av Workfront Scenario Planner
 
