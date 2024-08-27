@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Boards-kontakten för att automatis
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2395'
+source-wordcount: '2435'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Den här kopplingen finns för närvarande i Beta.
+>The Boards Fusion Connector har betastatus. Detta innebär att stödet för den här kopplingen är begränsat och kan komma att ändras på grund av styrelsens framtida utveckling. Dessutom kan det finnas ändringar i GraphQL API utan föregående meddelande som kan påverka Fusion-anslutningsprocessen.
 
 Adobe Workfront Boards är flexibla verktyg som ger teamsamarbete genom att ge åtkomst till en delad anslagstavla som innehåller kolumner och kort.
 

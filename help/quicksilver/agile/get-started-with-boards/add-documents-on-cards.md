@@ -6,9 +6,9 @@ description: Du kan lägga till dokument på anslutna kort på Adobe Workfront B
 author: Lisa
 feature: Agile
 exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
-source-git-commit: d76b2931217d4124eac13356e9142e7bbe0873c4
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -23,26 +23,36 @@ Du kan lägga till dokument på anslutna kort på Adobe Workfront Boards. Alla d
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
+ <col> 
+ <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> 
+   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
+   <p>eller</p>
+   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   </td> 
   </tr> 
-  <tr>
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td>
-   <td><p>[!UICONTROL Edit] behörighet till dokument</p><p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p></td>
+   <tr>
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td>
+   <td>[!UICONTROL Edit] behörighet till dokument</td>
   </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till ett dokument på ett kort
 

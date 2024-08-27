@@ -2,14 +2,14 @@
 filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Ta bort eller arkivera en anslagstavla
+title: Ta bort eller arkivera en styrelse
 description: Du kan ta bort eller arkivera en styrelse i Workfront. Om du tar bort en anslagstavla permanent tas den bort från Workfront, och om du arkiverar en anslagstavla behålls alla kort och kan återställas vid ett senare tillfälle.
 author: Lisa
 feature: Agile
 exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
-source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -20,32 +20,39 @@ Du kan ta bort eller arkivera en styrelse i [!DNL Workfront]. Om du tar bort en 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> 
+   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
+   <p>eller</p>
+   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ta bort en anslagstavla
 
 När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] och kan inte återställas. Alla kort som finns ombord tas också bort tillsammans med styrelsen.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. På kontrollpanelen väljer du den panel som ska öppnas.
 1. Klicka på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid kortnamnet och välj **[!UICONTROL Delete]**. Klicka sedan på **[!UICONTROL Delete board]** i bekräftelsemeddelandet.
 
@@ -59,7 +66,8 @@ När du tar bort en anslagstavla tas den bort permanent från [!DNL Workfront] o
 
 Arkiverade anslagstavlor behåller alla kort och uppgifter. Alla användare kan när som helst arkivera eller återställa en anslagstavla.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. På kontrollpanelen väljer du den panel som ska öppnas.
 1. Klicka på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid kortnamnet och välj **[!UICONTROL Archive]**.
 
@@ -69,7 +77,8 @@ Arkiverade anslagstavlor behåller alla kort och uppgifter. Alla användare kan 
 
 En arkiverad anslagstavla kan återställas när som helst. Alla användare kan återställa en arkiverad anslagstavla.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Klicka på filterikonen ![Filter](assets/filter-icon-spectrum-25x25.png) på kontrollpanelen och välj **[!UICONTROL Archived Boards]**.
 1. Leta reda på den anslagstavla som du vill återställa genom att klicka på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) bredvid kortnamnet och välja **[!UICONTROL Restore]**.
 

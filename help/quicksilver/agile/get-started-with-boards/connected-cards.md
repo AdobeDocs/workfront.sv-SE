@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Använd anslutna kort på ritytor
+title: Använd anslutna kort på kort
 description: Du kan lägga till ett kort på din anslagstavla som är kopplat till befintliga uppgifter och problem i Workfront.
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1372'
+source-wordcount: '1346'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Lägg till ett anslutet kort
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Gå till en styrelse. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på **[!UICONTROL Add card]>[!UICONTROL Connected card]**.
 1. Välj ett projekt och välj sedan en uppgift eller ett problem som ska läggas till som ett kort på ritytan.

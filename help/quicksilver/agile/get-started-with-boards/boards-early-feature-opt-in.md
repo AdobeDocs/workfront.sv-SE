@@ -2,19 +2,19 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Tidig tillgång till funktioner för  [!DNL Adobe Workfront] anslagstavlor
+title: Tidig tillgång för  [!DNL Workfront] anslagstavlor
 description: Läs den här artikeln om du vill veta mer om  [!DNL Workfront Boards] deltagande för tidiga funktioner.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
-source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
-# Tidig anmälan av funktioner för [!DNL Adobe Workfront] [!UICONTROL Boards]
+# Tidig anmälan av funktioner för [!DNL Workfront] [!UICONTROL Boards]
 
 Anmäl dig till nya funktioner för [!DNL Adobe Workfront] [!UICONTROL Boards] startades i juli 2022.
 

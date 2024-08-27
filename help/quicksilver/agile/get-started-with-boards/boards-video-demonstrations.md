@@ -2,19 +2,19 @@
 filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
-title: Adobe Workfront Boards - videodemonstrationer
+title: Workfront Boards - videodemonstrationer
 description: I de här videofilmerna kommer du till olika typer av anslagstavlor i Adobe Workfront och visas exempel på hur du kan använda anslagstavlor i ditt dagliga arbete.
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
-source-git-commit: 9ce75ec2daded7f53975857707a39d42a179ba0f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
 
-# Adobe Workfront Boards - videodemonstrationer
+# Workfront Boards - videodemonstrationer
 
 <!--Audited: 12/2023-->
 

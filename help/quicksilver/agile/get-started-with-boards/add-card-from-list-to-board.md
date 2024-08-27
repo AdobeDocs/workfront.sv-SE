@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Lägga till befintliga uppgifter eller problem på en Adobe Workfront-arbetsyta eller arbetsflöde
+title: Lägg till befintliga uppgifter eller ärenden i en Workfront-styrelse
 description: Du kan lägga till en uppgift eller ett problem till en styrelse i Adobe Workfront från en list- eller rapportvy.
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '586'
 ht-degree: 0%
 
 ---
 
-# Lägg till befintliga uppgifter eller problem på en [!DNL Adobe Workfront]-anslagstavla eller arbetsflöde
+# Lägg till befintliga aktiviteter eller ärenden på en [!DNL Workfront]-anslagstavla
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ Du kan lägga till en uppgift eller ett problem på en anslagstavla eller ett ar
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto">
@@ -30,26 +32,33 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
    <td> <p>Alla</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td>
-   <td> <p>[!UICONTROL Work] eller högre</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td>
+   <td>
+   <p>Nytt: [!UICONTROL Standard]</p> 
+   <p>eller</p>
+   <p>Aktuell: [!UICONTROL Work] eller högre</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td>
-   <td> <p>[!UICONTROL View] eller högre behörighet till uppgiften eller problemet</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td>
+   <td role="rowheader">Objektbehörigheter</td>
+   <td>[!UICONTROL View] eller högre behörighet till uppgiften eller problemet </td>
   </tr>
  </tbody>
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till befintliga uppgifter eller problem till en styrelse eller ett arbetsflöde från en lista
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
-1. Välj något av följande: **[!UICONTROL Projects]**, **[!UICONTROL Reporting]** eller **[!UICONTROL Dashboards]**.
+{{step1-click-main-menu}}
+
+1. Välj något av följande: **[!UICONTROL Projects]**, **[!UICONTROL Reports]** eller **[!UICONTROL Dashboards]**.
 1. Gå till det projekt, den rapport eller den kontrollpanel som innehåller den uppgift eller det problem som du vill lägga till på panelen eller arbetsflödet.
 1. Markera en eller flera uppgifter eller problem.
 
@@ -70,7 +79,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Lägga till befintliga uppgifter eller utgåvor till en styrelse eller en arbetsström från objektinformationen
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
+
 1. Klicka på [!UICONTROL **Projekt**] och sedan på namnet på ett projekt för att öppna det.
 1. Klicka på [!UICONTROL **Åtgärder**] eller [!UICONTROL **Problem**] i den vänstra panelen.
 1. Klicka på den uppgift, deluppgift eller utgåva som du vill lägga till på en arbetsyta eller i ett arbetsflöde.

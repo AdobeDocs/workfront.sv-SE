@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Lägga till eller ta bort medlemmar från en anslagstavla
+title: Lägga till eller ta bort medlemmar från en styrelse
 description: Personer måste läggas till i styrelsen som medlemmar innan de kan se styrelsen och tilldelas kort.
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -19,30 +19,37 @@ Personer och team måste läggas till i styrelsen som medlemmar innan de kan se 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Request] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> 
+   <p>Nytt: [!UICONTROL Contributor] eller senare</p> 
+   <p>eller</p>
+   <p>Aktuell: [!UICONTROL Request] eller högre</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till medlemmar i en styrelse
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Skapa en ny styrelse eller redigera en befintlig. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på ikonen **[!UICONTROL Add member]** ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
 1. I rutan **[!UICONTROL Add members]** börjar du skriva ett namn och markerar det sedan när det visas i listan.
@@ -58,7 +65,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 ## Ta bort medlemmar från en anslagstavla
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Skapa en ny styrelse eller redigera en befintlig. Mer information finns i [Skapa eller redigera en anslagstavla](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicka på ikonen **[!UICONTROL Add member]** ![Lägg till medlemmar](assets/boards-addmember-spectrum-25x25.png).
 1. I rutan **[!UICONTROL Add members]** klickar du på X bredvid namnet på en person eller ett team för att ta bort dem från styrelsen.

@@ -1,13 +1,13 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: "Kom igång med anslagstavlor: artikelindex"
+title: "Kom igång med brädor: artikelindex"
 description: Läs dessa artiklar och lär dig hur du använder anslagstavlor i Workfront.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 0%
