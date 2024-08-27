@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '939'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Vissa rader innehåller information med etiketterna&quot;Nytt&quot; och&quot;Akt
    <td role="rowheader">Adobe Workfront</td> 
    <td> Adobe Workfront planer avser den uppsättning funktioner som din organisation har köpt. De flesta Workfront-funktionerna finns i alla planer, med några få undantag, huvudsakligen för strategisk planering och företagskontroller. 
    <ul><li>Kontakta Workfront-administratören om du vill veta vilken Adobe Workfront-plan din organisation använder, inklusive om din organisation är under den nya eller nuvarande paketeringsmodellen.</li>
-   <li>Instruktioner om hur en Workfront-administratör kan hitta din organisations Workfront-plan finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan</a>.</li></ul> </td> 
+   <li>Instruktioner om hur en Workfront-administratör kan hitta din organisations Workfront-plan finns i <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Visa din organisations kluster och Workfront-plan</a>.</li><li>Mer information om nya Workfront-planer finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
