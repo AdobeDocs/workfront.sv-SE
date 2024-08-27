@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 0%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 0%
       * [Översikt över licenstyper vid användning av Adobe Workfront Planning](planning/access/license-type-overview.md)
       * [Dela arbetsytor](planning/access/share-workspaces.md)
       * [Visa](planning/access/share-views.md)
+      * [Begära behörigheter till en vy eller arbetsyta](planning/access/request-permissions.md)
    * Adobe Workfront Planning-poster {#adobe-workfront-planning-records}
       * [Poster: artikelindex](planning/records/records-information.md)
       * [Skapa poster](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 0%
       * [Hantera postsidans layout](planning/records/manage-the-record-page.md)
       * [Hantera poster i Planning-delen av Adobe Workfront-objekt](planning/records/manage-records-in-planning-section.md)
       * [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Adobe Workfront Planning-begäranden {#adobe-workfront-planning-requests}
+      * [Adobe Workfront Planning Requests: artikelindex](planning/requests/requests-article-index.md)
+      * [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](planning/requests/create-request-form.md)
+      * [Skicka Adobe Workfront Planning-begäranden för att skapa poster](planning/requests/submit-requests.md)
    * Adobe Workfront planeringsvyer {#adobe-workfront-planning-views}
       * [Vyer: artikelindex](planning/views/views-information.md)
       * [Hantera postvyer](planning/views/manage-record-views.md)

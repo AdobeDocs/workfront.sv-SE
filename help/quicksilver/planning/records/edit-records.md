@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
@@ -187,6 +187,10 @@ Du kan redigera en post i följande områden:
 * [Från ett Workfront-objekt i Planning-avsnittet](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Redigera en post textbundet i tabellvyn för en posttyp
+
+När du redigerar poster från tabellvyn visas en indikation på vilket fält som redigeras av andra användare när du visar posten.
+
+Mer information finns i [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).
 
 {{step1-to-planning}}
 

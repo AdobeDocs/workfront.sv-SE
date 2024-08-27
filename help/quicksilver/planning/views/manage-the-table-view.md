@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2786'
 ht-degree: 0%
 
 ---
@@ -180,6 +180,7 @@ Så här hanterar du en tabellvy:
    * [Filter](#add-filters)
    * [Gruppering](#add-groupings)
    * [Sortera](#add-a-sort)
+   * [Aktivera indikator för närvaro i realtid](#enable-the-real-time-presence-indicator)
 
 
 ### Lägg till kolumner (eller fält) {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### Aktivera indikator för närvaro i realtid
+
+Avatarerna för andra användare som redigerar postinformation samtidigt som du visar i det övre högra hörnet av alla postvyer, som standard.
+
+När du visar tabellvyn kan du även visa vilket fält en annan användare redigerar när du visar posten.
+
+Mer information finns i avsnittet&quot;Aktivera indikator för närvaro i realtid&quot; i artikeln [Hantera postvyer](/help/quicksilver/planning/views/manage-record-views.md).

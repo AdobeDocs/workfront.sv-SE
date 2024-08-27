@@ -1,19 +1,18 @@
 ---
 title: Skicka Adobe Workfront Planning-begäranden
 description: När någon delar en länk till ett begärandeformulär med dig från en posttypsida i Adobe Workfront Planning, kan du lägga till en begäran om att skapa poster för den posttyp som är associerad med förfrågningsformuläret.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
 
 # Skicka Adobe Workfront Planning-begäranden för att skapa poster
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 0%
 När någon delar en länk till ett begärandeformulär med dig från en posttypsida i Adobe Workfront Planning, kan du lägga till en begäran om att skapa poster för den posttyp som är associerad med förfrågningsformuläret.
 
 Workfront-användare och externa användare kan skicka förfrågningar till posttyperna Planning och skapa poster. <!--double check on the external users-->
+
+I den här artikeln beskrivs hur du kan skicka en begäran om att lägga till nya poster i en posttyp.
+
+Mer information om hur en arbetsytehanterare kan skapa ett begärandeformulär och associera det med en posttyp finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Åtkomstkrav
 
@@ -57,7 +60,6 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    <td>
 <p>Alla </p>  
 <p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront</p></td>
    <td>
@@ -110,7 +112,7 @@ Följande måste finnas innan du kan skicka en begäran till ett Workfront Plann
 * Formuläret för begäran måste delas med en länk på ett sätt som gör att du kan komma åt det. Följande scenarier finns:
 
    * Om du har ett Workfront-konto har länken bara delats med interna personer och du har tillgång till arbetsytan. Personer utanför Workfront kan inte komma åt en länk som delas internt.
-   * Om du inte har något Workfront-konto har länken delats med externa personer. Workfront-användare kan också använda en länk som delas med externa personer.
+   * Om du inte har något Workfront-konto har länken delats med externa personer. Workfront-användare kan även komma åt en länk som delas med externa personer.
 
 * Länken till formuläret får inte upphöra att gälla.
 

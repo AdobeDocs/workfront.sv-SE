@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1450'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* Lägga till dem från posttypssidan i tabellvyn
+* Lägga till poster från posttypsidan i tabellvyn
 * Kopiera och klistra in en lista med poster från en extern lista
-* Duplicera dem
-* Skapa dem när du kopplar dem från andra poster
-  <!--* Create them by submitting a request form-->
+* Duplicera poster från en tabellvy
+* Skapa poster när du kopplar dem från andra poster
+* Skapa dem genom att skicka ett begärandeformulär till en posttyp
 
 I den här artikeln beskrivs hur du skapar poster.
 
@@ -165,8 +165,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 +++
 
-
-## Skapa poster genom att lägga till dem till posttypen <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Skapa poster genom att lägga till dem till en posttyp i en posttypstabell
 
 Du kan skapa poster i tabellvyn för en posttypssida.
 
@@ -311,13 +310,12 @@ Så här skapar du poster när du kopplar dem från andra poster:
 eller
 Klicka på namnet för att öppna informationssidan och lägga till information där.
 
-<!--
-## Create records by submitting a request form
+## Skapa poster genom att skicka ett begärandeformulär till en posttyp
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+När någon skapar ett begärandeformulär för en posttyp och delar en länk till den med dig, kan du skicka en begäran som skapar en post för den posttypen.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Mer information finns i [Skapa och hantera ett begärandeformulär i Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Både Workfront-användare och användare utanför din organisation kan skicka begäranden till posttyperna Planning och skapa poster, om de har en länk till förfrågningsformuläret.
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+Mer information finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).

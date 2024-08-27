@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-När någon taggar dig i en postkommentar kan du få ett meddelande i appen för den taggen.
+Du kan få meddelanden i appen från Workfront Planning när följande scenarier finns:
 
->[!IMPORTANT]
->
->Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
->
->Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+* Någon taggar dig i en postkommentar
 
-Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+  Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+* Någon ber om din behörighet att komma åt en vy eller arbetsyta
+* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--verify this-->
+* Någon har nekat dig åtkomst för en vy eller arbetsyta. <!--verify this-->
 
 ## Åtkomstkrav
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## Hantera meddelanden i appen
+## Hantera meddelanden i appen när någon taggar dig i en kommentar
 
 1. (Villkorligt) När någon har taggat dig i en kommentar för en post går du till ikonen **Notifications** ![](assets/experience-cloud-notifications-icon.png) i appen i Adobe Experience Cloud.
 
@@ -170,3 +169,8 @@ OLD:
 
 1. (Valfritt) Klicka på **Markera alla som lästa** för att ange att du har läst alla meddelanden.
 1. (Valfritt) Klicka på **Visa alla** för att gå till sidan **Meddelanden** i Adobe Experience Cloud.
+
+
+## Hantera meddelanden i appen när du begär, beviljar eller nekar behörigheter till en vy eller arbetsyta
+
+Mer information om att begära, bevilja eller neka behörigheter för en vy eller arbetsyta finns i [Begär behörigheter för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).

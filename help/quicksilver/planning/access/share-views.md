@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: c497276579c5d70c29fe961e43356e1ae603262d
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -273,29 +273,27 @@ Så här delar du en vy offentligt i Workfront Planning:
 
 1. (Valfritt) Klistra in länken som du kopierade till ett e-postmeddelande, chattmeddelande, dokument eller i en Workfront-kommentar för att dela den med andra.
 
-<!--
-## Grant permissions to a view from a permission request
+## Bevilja behörigheter för en vy från en behörighetsbegäran
 
-Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+Användare som har åtkomst till en länk till en vy som de inte har behörighet till kan begära behörighet till vyn. Alla användare med behörigheten Hantera för vyn får behörighetsbegäran och kan bevilja eller neka behörigheter.
 
-1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-   * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (Villkorligt) Om du är vyhanterare kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
-   The **Pending access requests** box displays. 
+   * Ett meddelande i appen
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+   * Ett e-postmeddelande
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
+eller
+Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på meddelandet i listan.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   Rutan **Väntande åtkomstbegäranden** visas.
 
-   If you approved the request, the users are added to the sharing box of the view. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. Markera den användare som du vill godkänna eller neka behörighet för och klicka sedan på **Godkänn alla** eller **Neka alla**.
+1. Klicka på vänsterpilen till vänster om **Väntande åtkomstbegäranden** och klicka sedan på **Spara**.
+
+   Om du godkände begäran läggs användarna till i delningsrutan för vyn. Användaren som begär behörighet får en e-postbekräftelse på att deras begäran har godkänts. <!--will they also get an in-app notification??-->
 
 ## Ta bort behörigheter till en vy
 

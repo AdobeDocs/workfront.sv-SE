@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -21,19 +21,11 @@ ht-degree: 0%
 Du kan få e-postmeddelanden från Workfront Planning när följande scenarier finns:
 
 * Någon taggar dig i en postkommentar
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->Företaget måste vara en Adobe-kund för enhetlig upplevelse för att kunna ta emot meddelanden från Workfront Planning.
->
->Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-
-Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+  Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+* Någon ber om din behörighet att komma åt en vy eller arbetsyta
+* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--verify this-->
+* Någon har nekat dig åtkomst för en vy eller arbetsyta. <!--verify this-->
 
 ## Åtkomstkrav
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## Hantera e-postmeddelanden <!--when someone tags you in a comment-->
+## Hantera e-postmeddelanden när någon taggar dig i en kommentar
 
 1. (Villkorligt) När någon taggar dig i en kommentar för en post, går du till e-postmeddelandet som informerar dig om taggen och kommentaren. E-postmeddelandets avsändare är Adobe Experience Cloud.
 
@@ -173,8 +165,6 @@ OLD:
 1. (Villkorligt) Om det är tillgängligt klickar du på **Visa alla meddelanden**. <!--check with Lilit - do non-IMS users have this button??-->
 Sidan **Meddelanden** öppnas i Adobe Experience Cloud. Alla meddelanden från alla Adobe Experience Cloud-program visas.
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## Hantera e-postmeddelanden när du begär, beviljar eller nekar behörigheter till en vy eller arbetsyta
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+Mer information om att begära, bevilja eller neka behörigheter för en vy eller arbetsyta finns i [Begär behörigheter för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).

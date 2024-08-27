@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -162,17 +162,16 @@ OLD:
 * Du kan uppdatera beräkningen av ett formelfält när du har sparat det och resultatet av beräkningen uppdateras automatiskt för alla poster av samma typ.
 * Du måste lägga till de fält som du refererar till i formler när de visas i Workfront Planning-gränssnittet.
 * Du kan bara referera till fält som visas i tabellvyn för en posttyp eller på sidan med postinformation.
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* Du kan definiera formatet för värdet i en formelberäkning genom att välja bland följande formatalternativ:
 
    * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
-   * Date
+   * Nummer
+   * Procent
+   * Valuta
+   * Taggar
+   * Datum
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Formler som stöds
 

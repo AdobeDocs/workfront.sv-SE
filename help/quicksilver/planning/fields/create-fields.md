@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
+source-wordcount: '3609'
 ht-degree: 0%
 
 ---
@@ -449,34 +449,31 @@ Mer information finns i [Översikt över formelfält](/help/quicksilver/planning
    >
    >* Du kan referera till ett fält som ligger upp till fyra nivåer från den aktuella posttypen. Om du till exempel skapar ett formelfält för en aktivitetsposttyp och aktiviteten är kopplad till produktposttypen som är kopplad till kampanjposttypen som är kopplad till ett Workfront-projekt, kan du referera till projektets budget i formeln som du skapar för aktivitetsposttypen.
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. I fältet **Format** väljer du bland följande alternativ för att identifiera formatet på resultatet som visas i formeltypsfältet:
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **Text**: Resultatet av formelfältet visas som oformaterad text.
+   * **Number**: Resultatet av formelfältet visas som ett tal.
+   * **Procent**: Resultatet av formelfältet visas som ett tal följt av en procentsymbol.
+   * **Valuta**: Resultatet av formelfältet visas som ett tal som föregås eller följs av en valutasymbol.
+   * **Taggar**: Resultatet av formelfältet visas som en tagg med objektets namn.
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >Vi rekommenderar taggar för fält som visar arrayer. I det här fallet visas varje arraymedlem som en separat tagg.
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **Datum**: Resultatet av formelfältet visas som ett datum.
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     En förhandsgranskning av hur resultatet kommer att se ut visas under fältet **Format**.
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >Om formelresultatet inte matchar det valda formatet visas ett felmeddelande där det visas.
 
--->
 1. Klicka på **Skapa**.
 
    Det nya formelfältet läggs till som en kolumn till posttypen och dess värden kan kopplas till poster.
-
 
 ### Folk
 

@@ -5,9 +5,9 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
@@ -186,29 +186,27 @@ Så här delar du en arbetsyta med andra:
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt arbetsytan.
 1. Klicka på **Spara**.
 
-<!--
-## Grant permissions to a workspace from a permission request
+## Bevilja behörigheter till en arbetsyta från en behörighetsbegäran
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+Användare som har åtkomst till en länk till en arbetsyta som de inte har behörighet till kan begära behörigheter till arbetsytan. Alla användare med behörigheten Hantera på arbetsytan får behörigheten och kan bevilja eller neka behörigheter.
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. (Villkorligt) Om du är chef för en arbetsyta kan du få en begäran från en annan användare om att få åtkomst till vyn i följande områden:
 
-   The **Pending access requests** box displays. 
+   * Ett meddelande i appen
+     ![](assets/in-app-notification-for-access-request.png)
+   * Ett e-postmeddelande
+     ![](assets/email-notification-for-access-request.png)
+1. (Villkorligt) Klicka på meddelandet i appen i meddelandefältet i Workfront
+eller
+Klicka på **Visa alla meddelanden** i e-postmeddelandet och klicka sedan på meddelandet i listan.
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   Rutan **Väntande åtkomstbegäranden** visas.
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. Markera den användare som du vill godkänna eller neka behörighet för och klicka sedan på **Godkänn alla** eller **Neka alla**.
+1. Klicka på vänsterpilen till vänster om **Väntande åtkomstbegäranden** och klicka sedan på **Spara**.
+
+   Om du godkände begäran läggs användarna till i delningsrutan på arbetsytan. Användaren som begär behörighet får en e-postbekräftelse på att deras begäran har godkänts. <!--will they also get an in-app notification??-->
 
 
 ## Ta bort behörigheter till en arbetsyta

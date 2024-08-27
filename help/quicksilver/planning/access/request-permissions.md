@@ -1,11 +1,13 @@
 ---
 title: Begär behörighet till en vy eller en Workspace
 description: Du kan begära behörigheter för en vy eller en arbetsyta som andra har skickat till dig en länk som inte tidigare har delats med dig.
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -130,6 +132,6 @@ När någon delar en länk till en arbetsyta eller en vy där du inte har tillg�
 
    * [Visa](/help/quicksilver/planning/access/share-views.md)
    * [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Villkorligt) När du tilldelas behörighet till vyn eller arbetsytan i vyn eller arbetsytan får du ett e-postmeddelande med en bekräftelse på att behörighet har beviljats eller nekats. <!--check this - I was not able to test this-->
+1. (Villkorligt) När arbetsytehanteraren ger dig behörighet till vyn eller arbetsytan får du ett e-postmeddelande och ett meddelande i appen med en bekräftelse på att behörighet har beviljats. <!--check this - I was not able to test this-->
 
 

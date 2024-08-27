@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '431'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-När någon lägger till dig i en kommentar på postsidan får du ett meddelande i appen samt ett e-postmeddelande om kommentaren.
+Du kan få meddelanden i programmet eller via e-post när följande åtgärder inträffar i Workfront Planning:
+
+* Någon lägger till dig i en kommentar på postsidan
+* Någon ber om behörighet att komma åt en vy eller arbetsyta
+* Någon ger eller nekar dig behörighet att komma åt en vy eller arbetsyta <!--test this - could not test before GA-->
 
 ## Åtkomstkrav
 
@@ -90,6 +94,12 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 +++
 
+
+Mer information om Workfront Planning-meddelanden finns i följande artiklar:
+
+* Mer information om kommentarer om poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
+* Information om meddelanden i appen från Workfront Planning finns i [Hantera meddelanden i appen för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* Information om e-postmeddelanden från Workfront Planning finns i [Hantera e-postmeddelanden för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 <!--
 
 OLD: 
@@ -152,16 +162,18 @@ OLD:
 
 1. Logga in på Workfront med dina Adobe Experience Cloud-uppgifter.
 1. Klicka på ikonen **kontomeny** ![](assets/account-menu-icon-on-experience-cloud.png) i skärmens övre högra hörn och klicka sedan på **Inställningar**.
-1. Klicka på **Workfront** under avsnittet **Notifications** och följ sedan stegen i följande artikel för att hantera dina aviseringsinställningar för Workfront Planning:
-   [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Klicka på **Workfront** under avsnittet **Meddelanden**.
+1. Markera de meddelanden som du vill ta emot.
+eller
+Avmarkera de meddelanden som du vill sluta ta emot.
 
-Mer information om Workfront Planning-meddelanden finns i följande artiklar:
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. Följande meddelanden är tillgängliga för Workfront:
 
-* Mer information om kommentarer om poster finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
-* Information om meddelanden i appen från Workfront Planning finns i [Hantera meddelanden i appen för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Information om e-postmeddelanden från Workfront Planning finns i [Hantera e-postmeddelanden för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+   * **Meningar**: Du får ett meddelande när någon taggar dig i en kommentar i Workfront Planning
+   * **Begäranden**: Du får ett meddelande när någon begär behörighet till ett Workfront Planning-objekt
 
-
+   Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

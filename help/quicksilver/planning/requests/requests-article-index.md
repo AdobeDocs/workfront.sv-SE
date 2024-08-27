@@ -1,10 +1,11 @@
 ---
-title: "Adobe Workfront Planning Requests: artikelindex"
+title: "Adobe Workfront Planning Requests: Article Index"
 description: Du kan skapa ett begärandeformulär för varje posttyp, dela det med användare och lägga till nya poster genom att fylla i och skicka formuläret.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 0%
@@ -14,8 +15,6 @@ ht-degree: 0%
 # Adobe Workfront Planning Requests: artikelindex
 
 Du kan skapa ett begärandeformulär för varje posttyp, dela det med användare och lägga till nya poster genom att fylla i och skicka formuläret.
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 Det här avsnittet innehåller följande artiklar:
 

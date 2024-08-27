@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 0%
@@ -377,5 +377,5 @@ En uppdaterad lista över släppta funktioner finns i [Aktivitet för lansering 
 
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md): Målet för Adobe Workfront Planning API är att förenkla byggintegreringar med Planning genom att införa en REST-full arkitektur som fungerar över HTTP.
 
-* Rapporteringsfunktioner för Workfront Planning: Nu kan du visa Workfront Planning-information i en rapport i Workfront med Workfront Canvas Dashboard. Mer information finns i [Kom igång med Canvas-instrumentpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Rapporteringsfunktioner för Workfront Planning**: Nu kan du visa Workfront Planning-information i en rapport i Workfront med Workfront Canvas Dashboard. Mer information finns i [Kom igång med Canvas-instrumentpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

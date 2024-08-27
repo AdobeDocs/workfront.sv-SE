@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1368'
 ht-degree: 0%
 
 ---
@@ -37,6 +37,7 @@ I den här artikeln beskrivs följande information om postvyer:
 * [Skapa och redigera en vy](#create-or-edit-record-views)
 * [Ta bort en vy](#delete-views)
 * [Duplicera en vy](#duplicate-views)
+* [Aktivera visningsindikatorer i realtid i en vy](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -343,3 +344,22 @@ Som standard visas alla poster av den valda typen i tabellvyn.
 
    Vyn är duplicerad och den nya vyns namn följer följande mönster: `Original view's name (Copy)`. Fliken Ny vy visas i slutet av alla visningsflikar.
 
+## Aktivera närvaroindikatorn i realtid i en vy
+
+Avatarerna för andra användare som redigerar postinformation samtidigt som du visar i det övre högra hörnet av alla postvyer, som standard.
+
+När du visar tabellvyn kan du även visa vilket fält en annan användare redigerar när du visar posten.
+
+1. Gå till en posttypssida och öppna en vy.
+1. (Villkorligt) Om andra användare redigerar poster av den markerade typen samtidigt visas deras avatarer i vyns övre högra hörn.
+1. Klicka på listrutan intill avatarerna och välj **Visa medarbetare**. Växlingsknappen är markerad som standard.
+
+   ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Villkorligt) Öppna en tabellvy och det fält som någon annan redigerar markeras i den färg som motsvarar konturen av deras avatar i tabellvyn.
+
+   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det redigerade fältet visas bara med konturer i tabellvyn.

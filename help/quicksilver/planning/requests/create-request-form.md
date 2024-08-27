@@ -1,12 +1,13 @@
 ---
 title: Skapa och hantera ett begärandeformulär i Adobe Workfront Planning
 description: När du har valt en posttyp i Adobe Workfront Planning kan du skapa ett begärandeformulär och associera det med den posttypen. Du kan sedan dela en länk till den med andra interna eller externa användare. Användare som har en länk till formuläret kan fylla i fältvärdena på det och genom att skicka det kan de lägga till en ny post för den posttyp som är associerad med det.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1138'
 ht-degree: 0%
 
 ---
@@ -17,9 +18,13 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-När du har valt en posttyp i Adobe Workfront Planning kan du skapa ett begärandeformulär och associera det med den posttypen. Du kan sedan dela en länk till den med andra interna eller externa användare. <!--double-check on the external part of it-->
+Du kan skapa ett begärandeformulär och associera det med en posttyp i Adobe Workfront Planning. Du kan sedan dela en länk till den med andra interna eller externa användare.
 
-Användare som har en länk till formuläret kan fylla i fältvärdena på det och genom att skicka det kan de lägga till en ny post för den posttyp som är associerad med det.
+Användare med en länk till formuläret kan uppdatera fältvärdena på det och lägga till nya poster genom att skicka det.
+
+I den här artikeln beskrivs hur en arbetsytehanterare kan skapa ett begärandeformulär som är associerat med en posttyp.
+
+Mer information om hur du skickar en begäran till en posttyp för att skapa en post finns i [Skicka Adobe Workfront Planning-begäranden för att skapa poster](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Åtkomstkrav
 
@@ -170,9 +175,11 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    >[!IMPORTANT]
    >
-   >När du väljer Vem som helst med länken kan vem som helst, även personer utanför organisationen som saknar ett Workfront-konto, få åtkomst till formuläret och skicka en ny post.
+   >När du väljer **Vem som helst med länken** kan vem som helst få åtkomst till formuläret och skicka en ny post, även personer utanför organisationen som inte har något Workfront-konto.
 
-1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken upphör att gälla och du måste uppdatera länkdatumet innan de kan komma åt formuläret igen.  <!--add info here about how long the expiration date should be; logged bug-->
+1. (Villkorligt) Om du valde **Vem som helst med länken** i föregående steg väljer du **länkens förfallodatum** i den tillgängliga kalendern. Användarna får ett felmeddelande när länken upphör att gälla och du måste uppdatera länkdatumet innan de kan komma åt formuläret igen.
+
+   Du kan välja framtida datum inom 180 dagar från dagens datum.
 
 1. Klicka på **Spara och kopiera länken** för att spara delningsinformationen för formuläret.
 
@@ -191,6 +198,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >[!TIP]
    >
    >Det finns en indikation på att länken delas offentligt när så är fallet.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 
