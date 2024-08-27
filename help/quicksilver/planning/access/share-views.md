@@ -224,9 +224,8 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
    Vyn uppdateras med en personikon ![](assets/view-shared-with-others-people-icon.png) som anger att vyn nu delas med andra användare.
 
-   >>
-   [!TIP]
-   >>
+   >[!TIP]
+   >
    Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
 
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
@@ -268,8 +267,7 @@ Så här delar du en vy offentligt i Workfront Planning:
 
    Vyn uppdateras med den globala ikonen ![](assets/public-shared-view-icon-highlighted.png) som anger att vyn delas offentligt.
 
-   >>
-   [!TIP]
+   >[!TIP]
    >
    >Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
 
