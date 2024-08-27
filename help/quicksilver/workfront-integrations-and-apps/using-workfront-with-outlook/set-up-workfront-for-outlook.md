@@ -6,9 +6,9 @@ description: Med  [!DNL Adobe Workfront] [!DNL Outlook]-tillägget kan du utför
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Tillägget [!DNL Workfront] för [!DNL Outlook] stöds i miljöer som uppfyller 
 Workfront stöder följande versioner av [!DNL Outlook]:
 
 * [!DNL Outlook 2013] eller senare [!DNL Windows]
-*[!DNL  Outlook 2016] eller senare [!DNL Windows]
+* [!DNL Outlook 2016] eller senare [!DNL Windows]
 * [!DNL Outlook] på [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] på [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] på webben
@@ -90,7 +90,7 @@ När klienten konfigureras måste användaren välja någon av följande kontoty
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com] &#x200B;**&#x200B;** &#x200B; Om klienten är konfigurerad att ansluta med POP3 eller IMAP läses inte [!DNL Workfront]-tillägget in.
+* [!DNL Outlook.com] Om klienten är konfigurerad att ansluta med POP3 eller IMAP läses inte tillägget [!DNL Workfront] in.
 
 ### Krav för e-postserver {#mail-server-requirements}
 

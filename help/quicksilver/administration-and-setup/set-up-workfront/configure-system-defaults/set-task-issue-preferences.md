@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1748'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL När ett problem konverteras till en uppgift]</td> 
+    <td role="rowheader">[!UICONTROL When converting an issue to a task]</td> 
     <td> <p>Inställningarna i det här avsnittet avgör vad som händer under konverteringsprocessen från problem till uppgift:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: När du konverterar ett problem förblir det synligt som ett problem tills det är klart. Status för problemet ändras automatiskt till [!UICONTROL Closed] när aktiviteten slutförs. När detta är avmarkerat tas problemet bort.</p> <p><b>OBS</b>:  <p>Användare som saknar åtkomst eller behörighet att ta bort problem kan inte ta bort problemet eftersom de konverterar det, oavsett status för den här inställningen. Mer information om åtkomst och behörigheter till problem finns i:</p> 

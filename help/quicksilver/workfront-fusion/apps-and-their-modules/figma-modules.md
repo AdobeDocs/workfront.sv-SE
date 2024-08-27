@@ -9,9 +9,9 @@ description: Med  [!DNL Adobe Workfront Fusion] Figma-modulen kan du hämta list
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -363,7 +363,7 @@ Den här åtgärdsmodulen hämtar en enda fil eller bild från ett Figma-bibliot
       <td>Markera filen som du vill returnera JSON från.</td>
     </tr>
     <tr>
-      <td role="rowheader" [!UICONTROL>Nod-ID:n]</td>
+      <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Ange de noder som du vill att modulen ska återge.</p>
         <p>För varje nod som du vill återge klickar du på <b>[!UICONTROL Add]</b> och anger texten för noden.</p>

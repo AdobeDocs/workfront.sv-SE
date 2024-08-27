@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Du måste ha följande för att kunna dela objekt:
 
 1. I rutan **Bevilja &lt; objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ Du måste ha följande för att kunna dela objekt:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Visa, Hantera och Contribute har olika avancerade alternativ beroende på vilket objekt som är markerat.\
+   Visa, Hantera och Contribute har olika avancerade alternativ beroende på vilket objekt som är markerat.
+
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på listrutan under **Vem har åtkomst** och sedan på **Alla i systemet kan visa** i listrutan.
@@ -187,7 +188,7 @@ Du måste ha följande för att kunna dela objekt:
 
 1. I rutan **Ge &lt; Objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ Du måste ha följande för att kunna dela objekt:
    >
    >Det här alternativet är inte tillgängligt för alla objekt.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Villkorligt) Om du har gjort objektet offentligt för externa användare klickar du på **kopiera länken** och distribuerar sedan länken till externa användare.
 
@@ -254,11 +255,11 @@ Du måste ha följande för att kunna dela objekt:
 
 1. Klicka i kryssrutan bredvid de objekt som du vill dela och klicka sedan på ikonen **Dela** ![](assets/share-icon.png) överst på sidan.
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. I fönstret **&lt; Objekt > Åtkomst** visas börjar du skriva namnet på användaren, teamet, rollen, gruppen eller företaget som du vill dela objekten med i rutan **Redigera > Objektnamn > åtkomst för**. Klicka sedan på namnet när det visas i listrutan.
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ Du måste ha följande för att kunna dela objekt:
      >
      >Du kan bara ge Contribute behörigheter till följande objekt:
      >
-     >   * Projekt
-     >   * Uppgifter
-     >   * Problem
-     >  
+     >* Projekt
+     >* Uppgifter
+     >* Problem
+     >
 
    * **Hantera:** Användare har fullständig åtkomst till objektet utan administratörsbehörighet (som ges på åtkomstnivå). Dessutom har de alla behörigheterna Visa och Contribute.
 
@@ -328,7 +329,7 @@ Du måste ha följande för att kunna dela objekt:
    >
    >Det här alternativet är inte tillgängligt för alla objekt.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Villkorligt) Om du har gjort objektet/objekten offentliga för externa användare klickar du på **kopiera länken** och distribuerar sedan länken till externa användare.
 

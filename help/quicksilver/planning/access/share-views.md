@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 0%
@@ -226,7 +226,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
    >[!TIP]
    >
-   Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
+   >Vyer utan personer eller globala ikoner är vyer som du har skapat och som inte delas med andra. Vyer som inte delas visas bara för dig.
 
 1. Dela den kopierade länken med andra. Användare som tar emot länken måste vara aktiva användare och logga in på Workfront för att kunna komma åt posttypssidan och visa den i den valda vyn.
 
@@ -236,7 +236,7 @@ Du kan dela vyer som du har skapat eller vyer som du har behörigheten Hantera m
 
 >[!IMPORTANT]
 >
-Endast användare med behörigheten Hantera på en arbetsyta kan dela arbetsytans vyer offentligt.
+>Endast användare med behörigheten Hantera på en arbetsyta kan dela arbetsytans vyer offentligt.
 
 
 Så här delar du en vy offentligt i Workfront Planning:

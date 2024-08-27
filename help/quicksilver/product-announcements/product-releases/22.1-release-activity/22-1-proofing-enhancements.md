@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 0%
@@ -48,7 +48,6 @@ Alla användare kan också dra nytta av den förbättrade anslutningen mellan Wo
 Mer information finns i
 
 * [Proof Roles - översikt](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-*  
 
 ## Förbättringar av elektroniska signaturer för korrektur
 

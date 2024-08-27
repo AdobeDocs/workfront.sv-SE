@@ -10,9 +10,9 @@ description: I ett Adobe Workfront Fusion-scenario kan du automatisera arbetsfl�
 author: Becky
 feature: Workfront Fusion
 exl-id: 889b417c-04a9-4dbf-9a34-0dab65f11f03
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 0b8a4e3864cf9ca2c179a824bdb87977819c9383
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1283'
 ht-degree: 0%
 
 ---
@@ -102,17 +102,13 @@ En [!DNL Microsoft Word]-mall är ett vanligt [!DNL Microsoft Word]-dokument (.d
 
 ### Enkel värdetagg {#simple-value-tag}
 
-En enkel värdetagg ersätts med ett motsvarande värde. Taggens namn motsvarar fältets [!UICONTROL Key]-värde, som är placerat inom dubbla klammerparenteser, till exempel
-
-
-<pre>&lbrace;&lbrace;name&rbrace;&rbrace;</pre>
-
-
-.
+En enkel värdetagg ersätts med ett motsvarande värde. Taggens namn motsvarar fältets [!UICONTROL Key]-värde, som är placerat inom dubbla klammerparenteser, till exempel `{{name}}`.
 
 **Exempel:** Om du vill skapa ett dokument med texten &quot;Hi, Petr!&quot; kan du använda en [!DNL Microsoft Word Template]-modul för att skapa följande mall:
 
-<pre>&gt; Hej &lbrace;&lbrace;name&rbrace;&rbrace;!</pre>
+```
+> Hi {{name}}!
+```
 
 Om du vill göra det ställer du in modulen enligt följande:
 
@@ -123,12 +119,21 @@ Om du vill göra det ställer du in modulen enligt följande:
 Du kan använda ett villkorsmärkord för att figursätta text som bara ska återges när vissa villkor uppfylls. Om du vill radbryta texten placerar du den mellan inledande och avslutande villkorstaggar, till exempel &quot;hasPhone&quot;, om villkoret är huruvida data innehåller ett telefonnummer eller inte. Namnet på en öppningstagg föregås av hash-tecknet #. Namnet på en avslutande tagg föregås av ett snedstreck /, vilket visas i exemplet nedan.
 
 **Exempel:** Om du vill skapa ett dokument som innehåller en kunds telefonnummer om indata innehåller ett telefonnummer, men ingen e-postadress, kan du använda en [!DNL Microsoft Word Template]-modul och skapa följande mall:
-<pre>&gt; &lbrace;&lbrace;#hasPhone&rbrace;&rbrace;Telefon: &lbrace;&lbrace;phone&rbrace;&rbrace; &lbrace;&lbrace;/hasPhone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;#hasEmail&rbrace;&rbrace;E-post: &lbrace;&lbrace;email&rbrace;&rbrace; &lbrace;&lbrace;/hasEmail&rbrace;&rbrace;</pre>Om du vill göra det ställer du in modulen enligt följande:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+Om du vill göra det ställer du in modulen enligt följande:
 
 ![](assets/word-template-conditional-350x501.png)
 
 I dokumentet visas telefonnumret så här:
-<pre>&gt; Telefon: 444551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Loop-tagg {#loop-tag}
 
@@ -141,7 +146,11 @@ Du kan använda en loop-tagg, som också kallas avsnittstagg, för att upprepa e
 
 **Exempel:** Om du vill skapa ett dokument med namn och telefonnummer för varje kontakt i en kundlista kan du använda en [!DNL Microsoft Word Template]-modul och skapa följande mall:
 
-<pre>&gt; &lbrace;&lbrace;#contact&rbrace;&rbrace;</pre><pre>&gt;     &lbrace;&lbrace;name&rbrace;&rbrace;, &lbrace;&lbrace;phone&rbrace;&rbrace;</pre><pre>&gt; &lbrace;&lbrace;/contact&rbrace;&rbrace;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 Om du vill göra det ställer du in modulen enligt följande:
 
