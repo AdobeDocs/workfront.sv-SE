@@ -2,13 +2,13 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Konfigurera Kanban
-description: Du skapar ett kanban- eller Scrum-team i  [!DNL Adobe Workfront].
+description: Du kan konfigurera följande alternativ för Kanban-team under eller efter det att teamet har skapats.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1385'
+source-wordcount: '1396'
 ht-degree: 0%
 
 ---
@@ -46,26 +46,26 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: [!UICONTROL Standard]</p> 
    eller
    <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till team</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -148,7 +148,7 @@ Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att 
 1. Klicka på ikonen **[!UICONTROL Switch Teams]** ![Byt team ](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det flexibla team som du vill hantera.
-1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ Så här begränsar du PIA för ditt Kanban-team:
 
 1. Kontrollera att Kanban är markerat i avsnittet **[!UICONTROL Agile]** i avsnittet **[!UICONTROL Methodology]**.
 
-1. I avsnittet **[!UICONTROL Story Board]**, i fältet **[!UICONTROL WIP Limit]**, anger du det maximala antalet objekt som tillåts i varje kolumn på den [!UICONTROL Kanban] flexibla artikelpanelen. Du kan ange olika gränser för varje kolumn. Den maximala gräns du kan ange för varje kolumn är 100.\
-   När inställningen är angiven visas ett varningsmeddelande på den [!UICONTROL Kanban] flexibla artikelpanelen när gränsen överskrids för en kolumn på artikelpanelen. Det här varningsmeddelandet visas bara första gången som PIA-gränsen överskrids. Det här varningsmeddelandet visas inte i kolumner som har en status som är lika med [!UICONTROL Complete].\
-   Begränsningen för PIA är bara en visuell varning och förhindrar inte teamet från att ha fler objekt i en enda kolumn än den gräns som du anger.
+1. I avsnittet **[!UICONTROL Story Board]**, i fältet **[!UICONTROL WIP Limit]**, anger du det maximala antalet objekt som tillåts i varje kolumn på den [!UICONTROL Kanban] flexibla artikelpanelen. Du kan ange olika gränser för varje kolumn. Den maximala gräns du kan ange för varje kolumn är 100.
+När inställningen är angiven visas ett varningsmeddelande på den [!UICONTROL Kanban] flexibla artikelpanelen när gränsen överskrids för en kolumn på artikelpanelen. Det här varningsmeddelandet visas bara första gången som PIA-gränsen överskrids. Det här varningsmeddelandet visas inte i kolumner som har en status som är lika med [!UICONTROL Complete].
+Begränsningen för PIA är bara en visuell varning och förhindrar inte teamet från att ha fler objekt i en enda kolumn än den gräns som du anger.
 
    ![Pågående arbete-begränsning](assets/wip-limit-350x193.png)
 

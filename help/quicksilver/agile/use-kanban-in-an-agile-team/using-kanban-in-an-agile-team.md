@@ -2,13 +2,13 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Kanban i ett rörligt team
+title: Kanban i ett Agile Team
 description: Läs de här artiklarna om du vill veta mer om hur du använder Kanban i ett smidigt team.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 0%

@@ -2,12 +2,12 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Statusöversikt för Iteration-slutförande
+title: Statusöversikt för Iteration Completion
 description: Fyllningsinformationen som beskrivs i den här artikeln visas ovanför nedladdningsschemat.
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: 373f2522b85196d6395f189ae6cfe03449cac61a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%

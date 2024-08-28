@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Använd flaggor på artiklar på Kanban-tavlan
+title: Använd flaggor på artiklar på Kanban-styrelsen
 description: På  [!DNL Kanban] board ger flaggor en visuell indikation på när en artikel är klar att flyttas till nästa status. På så sätt kan Kanban-team använda en"pull"-metod i stället för en"push"-metod när de flyttar artiklar mellan olika statusar.
 author: Lisa
 feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -28,53 +28,57 @@ Tänk på följande när du använder flaggor i artiklar:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Work] eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå*</strong></td> 
-   <td> <p>[!UICONTROL Worker] eller högre</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p> 
+   eller
+   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Använd flaggor i artiklar på [!UICONTROL Kanban]-tavlan
 
 Så här ändrar du en flagga för en artikel:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt [!UICONTROL Kanban]-team i listrutan eller sök efter ett team i sökfältet.
 
 1. Gå till [!UICONTROL Kanban]-panelen där du vill ändra en flagga för en artikel.
-1. Expandera artikelrutan om du vill visa flaggan.\
-   Flaggan är inställd på **[!UICONTROL On Track]** för varje artikel som standard.\
+1. Expandera artikelrutan om du vill visa flaggan.
+Flaggan är inställd på **[!UICONTROL On Track]** för varje artikel som standard.
    ![Kanban-kort](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Klicka på den aktuella flaggan och välj sedan bland följande flaggalternativ:
 
-   * **[!UICONTROL On Track]:** Artikeln har rätt status och ingen åtgärd behöver vidtas just nu.\
+   * **[!UICONTROL On Track]:** Artikeln har rätt status och ingen åtgärd behöver vidtas just nu.
 
-     Det här är standardflaggan för varje artikel på Kanban-tavlan.\
-      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+     Det här är standardflaggan för varje artikel på Kanban-tavlan.
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Is Blocked]:** Artikeln kan inte fortsätta till nästa status. När den här flaggan anges för en artikel räknas artikeln inte mot Pågående arbete-gränsen. (Mer information om PIA-begränsningar finns i artikeln [Konfigurera kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).\
+   * **[!UICONTROL Is Blocked]:** Artikeln kan inte fortsätta till nästa status. När den här flaggan anges för en artikel räknas artikeln inte mot Pågående arbete-gränsen. (Mer information om PIA-begränsningar finns i artikeln [Konfigurera kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).)
 
      ![kanban_flag_locked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Ready to Pull]:** Artikeln kan flyttas till nästa status av en annan medlem i teamet.\
+   * **[!UICONTROL Ready to Pull]:** Artikeln kan flyttas till nästa status av en annan medlem i teamet.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

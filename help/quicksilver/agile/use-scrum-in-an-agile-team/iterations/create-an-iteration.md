@@ -6,9 +6,9 @@ description: Iterationer är en nyckelkomponent för Scrum-team när det gäller
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Iterationer är en nyckelkomponent för Scrum-team när det gäller att planera 
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>[!UICONTROL Review] eller högre</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Light] eller senare</p> 
+   eller
+   <p>Aktuell: [!UICONTROL Review] eller högre</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägga till en upprepning
 
 Använd funktionen [!UICONTROL Add Iteration] för att snabbt skapa en iteration och lägga till uppgifter och problem senare.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
-1. Klicka på **[!UICONTROL Add Iteration]** på fliken **[!UICONTROL Iterations]**.\
+1. Klicka på **[!UICONTROL Add Iteration]** på fliken **[!UICONTROL Iterations]**.
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. Ange följande:
@@ -90,7 +96,7 @@ Använd funktionen [!UICONTROL Add Iteration] för att snabbt skapa en iteration
 
 Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med uppgifter på din eftersläpning.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
 
@@ -129,10 +135,10 @@ Använd funktionen [!UICONTROL Plan Iteration] för att skapa en iteration med u
     </tbody> 
    </table>
 
-1. (Valfritt) Välj artiklar om du vill lägga till dem i iterationen nu eller hoppa över det här steget och lägga till artiklar i en iteration vid ett senare tillfälle. Artikeln högst upp i efterloggen har högre prioritet. Artiklar markeras med grönt när de passar in i kapaciteten. De markeras med rött om de inte gör det.\
-   Du kan lägga till både uppgifter och ärenden i en enda iteration:
+1. (Valfritt) Välj artiklar om du vill lägga till dem i iterationen nu eller hoppa över det här steget och lägga till artiklar i en iteration vid ett senare tillfälle. Artikeln högst upp i efterloggen har högre prioritet. Artiklar markeras med grönt när de passar in i kapaciteten. De markeras med rött om de inte gör det.
+Du kan lägga till både uppgifter och ärenden i en enda iteration:
 
-   * **Om du vill lägga till uppgifter i iterationen:** På fliken **[!UICONTROL Backlog]** kontrollerar du att fliken **[!UICONTROL Stories]** är markerad (den här fliken är markerad som standard när du visar eftersläpningen). Markera de artiklar som du vill lägga till i iterationen.\
+   * **Om du vill lägga till uppgifter i iterationen:** På fliken **[!UICONTROL Backlog]** kontrollerar du att fliken **[!UICONTROL Stories]** är markerad (den här fliken är markerad som standard när du visar eftersläpningen). Markera de artiklar som du vill lägga till i iterationen.
 
      När du lägger till uppgifter i en iteration beräknas startdatumet för aktiviteten enligt beskrivningen i [[!UICONTROL Understand] hur startdatum för aktiviteten beräknas när de läggs till i en iteration ](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration).
 
@@ -151,4 +157,4 @@ När du lägger till en uppgift som en artikel i en iteration används begränsn
 
 [!UICONTROL Project End Date] används i stället för   om projektets startdatum är efter upprepningens startdatum och projektets slutdatum är efter upprepningens slutdatum.
 
-Du kan konfigurera enskilda Scrum-team så att de använder projektdatum som standard, i stället för upprepningsdatum. Mer information finns i avsnittet [Konfigurera hur datum ska användas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+Du kan konfigurera enskilda Scrum-team så att de använder projektdatum som standard, i stället för upprepningsdatum. Mer information finns i avsnittet [Konfigurera hur datum ska användas när arbetsobjekt läggs till i en iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) i artikeln [Konfigurera repet](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Hantera den flexibla eftersläpningen
+title: Hantera Agile-eftersläpningen
 description: Uppgifter och ärenden kan tilldelas ett smidigt team och läggas till i teamets eftersläpning som berättelser, beroende på den flexibla metod teamet använder.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1271'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -39,20 +39,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
+   <td> <p>Nytt: [!UICONTROL Standard]</p> 
+   eller
+   <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>Nytt: [!UICONTROL Standard]</p><p>eller</p><p>Aktuell: [!UICONTROL Worker] eller högre</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Objektbehörigheter</strong></td> 
-   <td> <p>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på</p>  </td> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td>[!UICONTROL Manage] åtkomst till det projekt som artikeln är på </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ Du kan ändra ordning på artiklarna i eftersläpningslistan genom att dra och s
    >
    >Om en uppgift eller ett ärende har tilldelats ett rörligt team och projektet inte har en status som motsvarar Aktuell, visas de inte i eftersläpningen. De påverkar dock fortfarande antalet eftersläpningar i kolumnen Ordning.
 
-1. Markera en eller flera artiklar och dra dem sedan till den ordning som du vill att de ska visas i eftersläpningen.\
+1. Markera en eller flera artiklar och dra dem sedan till den ordning som du vill att de ska visas i eftersläpningen.
    ![Dra och släpp eftersläpningsobjekt](assets/agile-backlog-drag-and-drop.png)
 
 ### Dela upp artiklar {#break-down-stories}
@@ -96,8 +94,8 @@ Eftersom artiklar i en eftersläpning varierar i storlek kan användarna dela up
 Så här bryter du ned en artikel:
 
 1. Gå till den eftersläpning som innehåller artikeln som du vill bryta ned.
-1. Markera artikeln som du vill bryta ned och klicka sedan på **[!UICONTROL Breakdown Story]**.\
-   Dialogrutan [!UICONTROL Breakdown Story] visas.\
+1. Markera artikeln som du vill bryta ned och klicka sedan på **[!UICONTROL Breakdown Story]**.
+Dialogrutan [!UICONTROL Breakdown Story] visas.
    ![Dialogrutan Detaljerad artikel](assets/backlog-breakdown-dialog.png)
 
 1. Ange ett namn och en uppskattning för artikeln och välj om artikeln är klar.
@@ -186,12 +184,10 @@ Så här tilldelar du en uppgift eller en utgåva till ett smidigt team:
 1. (Valfritt) Ta bort alla befintliga tilldelningar.
 1. Klicka på **[!UICONTROL Add Assignee]**.
 1. Börja skriva namnet på det flexibla team som du vill ska tilldelas uppgiften eller utgåvan och klicka sedan på teamnamnet när det visas i listrutan.
-1. Klicka på **[!UICONTROL Save Changes]**.\
-   Uppgiften eller utgåvan är nu tillgänglig i teamets eftersläpning.
+1. Klicka på **[!UICONTROL Save Changes]**.
+Uppgiften eller utgåvan är nu tillgänglig i teamets eftersläpning.
 
 ## Flytta artiklar till eller från eftersläpningen
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
 
 * [Flytta artiklar från eftersläpningen till en iteration eller + board](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Flytta befintliga artiklar till eftersläpningen](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ Så här tilldelar du en uppgift eller en utgåva till ett smidigt team:
 ### Flytta artiklar från eftersläpningen till en iteration eller + board
 
 1. Gå till eftersläpningen i det flexibla teamet.
-1. Markera de artiklar som du vill flytta till en iteration eller en kanban-panel och klicka sedan på **[!UICONTROL More]** > **[!UICONTROL Move to]**.\
-   Om artikeln flyttas till en [!UICONTROL Kanban]-anslagstavla visas [!UICONTROL Move Story to the Kanban]-anslagstavlan.\
-   Om du flyttar artikeln till en upprepning visas dialogrutan [!UICONTROL Move Story to an Iteration].\
+1. Markera de artiklar som du vill flytta till en iteration eller en kanban-panel och klicka sedan på **[!UICONTROL More]** > **[!UICONTROL Move to]**.
+Om artikeln flyttas till en [!UICONTROL Kanban]-anslagstavla visas [!UICONTROL Move Story to the Kanban]-anslagstavlan.
+Om du flyttar artikeln till en upprepning visas dialogrutan [!UICONTROL Move Story to an Iteration].
    ![Dialogrutan Flytta artikel](assets/agile-backlog-addtoiteration.png)
 
 1. Gör något av följande:

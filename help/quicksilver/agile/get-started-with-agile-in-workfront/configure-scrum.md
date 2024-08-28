@@ -6,9 +6,9 @@ description: Du kan konfigurera följande alternativ för Scrum-team under eller
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,8 @@ Mer information om hur du konfigurerar ett Kanban-team finns i [Konfigurera Kanb
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -41,26 +43,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: [!UICONTROL Standard]</p> 
    eller
    <p>Aktuell: [!UICONTROL Work] eller högre</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till team</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Konfigurera om artiklar ska beräknas i punkter eller timmar
 
@@ -72,13 +76,13 @@ Du kan konfigurera artiklar att beräknas med hjälp av punkter eller timmar.
 
 Så här konfigurerar du hur berättelser beräknas för ditt team:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!UICONTROL Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 1. Välj det flexibla team som du vill hantera.
 1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
 
-   Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.\
+   Endast teammedlemmar med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
 1. I avsnittet **[!UICONTROL Agile]** i området **[!UICONTROL Estimate Stories in]** väljer du om du vill använda punkter eller timmar för att beräkna artikelns storlek (arbetsbelastning). Om du väljer Punkter anger du hur många timmar som ska vara lika med 1 punkt. (Standardvärdet är 1 punkt = 8 timmar.) Detta är antalet planerade timmar som läggs till i artikeln.
@@ -100,7 +104,7 @@ Du kan definiera de statusar som finns på artikeltavlan för det flexibla teame
 
 Så här definierar du de statusvärden som är tillgängliga för den artikelpanel som är kopplad till det flexibla teamet:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
@@ -158,13 +162,13 @@ Du kan visa ytterligare data (inklusive anpassade data) på artikelkort. Du kan 
 
 Så här konfigurerar du artikelkort som tilldelats det flexibla teamet så att ytterligare fält visas:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!UICONTROL Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det flexibla team som du vill hantera.
-1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
-   Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
+Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
 
    ![Redigera team](assets/edit-team-settings-350x205.png)
 
@@ -182,7 +186,7 @@ Som standard färgkodas plattor i en flexibel iteration enligt det projekt som a
 
 Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
@@ -201,7 +205,7 @@ Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
 
       * Hög = Röd
       * Medium = gul
-      * Låg = Grön\
+      * Låg = Grön
 
         Om systemadministratören har konfigurerat anpassade prioriteringar för ditt [!DNL Workfront]-system är den högsta prioriteten röd, den näst högsta är gul och den tredje är grön.
    * **[!UICONTROL Task Owner]**: Alla artiklar med samma primära tilldelade färg är samma färg. Den primära tilldelaren är den användare som först tilldelades uppgiften.
@@ -213,15 +217,16 @@ Så här ändrar du hur färger tilldelas artiklar för ett smidigt team:
 
 När du lägger till ett arbetsobjekt i en upprepning av en upprepning ändras som standard det planerade startdatumet och det planerade slutförandedatumet för arbetsobjektet så att de matchar iterationens start- och slutdatum. Du kan välja att behålla originaldatum för alla arbetsobjekt för teamet.
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe] Workfront och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. (Valfritt) Klicka på ikonen **[!UICONTROL Switch team]** ![Byt team-ikon](assets/switch-team-icon.png) och välj sedan ett nytt Scrum-team i listrutan eller sök efter ett team i sökfältet.
-1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
-   Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
+Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
 1. I avsnittet [!UICONTROL Agile] i området [!UICONTROL When a Work Item is Added to an Iteration] väljer du bland följande alternativ:
 
-   * **[!UICONTROL Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: När arbetsobjekt läggs till i en iteration ändras arbetsuppgiftens datum till upprepningsdatum.\
+   * **[!UICONTROL Modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: När arbetsobjekt läggs till i en iteration ändras arbetsobjektens datum till upprepningsdatum.
 
-     Mer information om hur datumen ändras finns i avsnittet [Förstå hur artikeltillägg påverkar aktivitetsdatum](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa) i artikeln [Lägga till artiklar i en befintlig iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+     Mer information om hur datumen ändras finns i avsnittet [Förstå hur artikeltillägg påverkar aktivitetsdatum](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) i artikeln [Lägga till artiklar i en befintlig iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
    * **[!UICONTROL Do not modify the Planned Start Date and Planned Completion Date to match the iteration start and end dates]**: När arbetsobjekt läggs till i en iteration behåller arbetsobjekten sina ursprungliga datum.
 
    Om du ändrar datumalternativet justeras inte datum för arbetsobjekt som redan finns i upprepningen.

@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: Skapa ett smidigt team
+title: Skapa ett Agile Team
 description: Med Adobe Workfront kan smidiga team slutföra arbetet på ett inkrementellt och organiserat sätt.
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: Standard</p>
    Aktuell: 
    <ul><li><p>[!UICONTROL Plan] skapa ett nytt smidigt team</p></li> 
@@ -53,7 +53,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,14 +71,14 @@ Med den [!DNL Kanban] flexibla metoden i [!DNL Workfront] kan du enklare flytta 
 
 Följande funktionalitet stöder den här metoden:
 
-* Visa eftersläpningen på den [!DNL Kanban] flexibla artikelpanelen.\
-   Mer information finns i [Lägg till eftersläpning på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
+* Visa eftersläpningen på den [!DNL Kanban] flexibla artikelpanelen.
+Mer information finns i [Lägg till eftersläpning på [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Konfigurera objekt på eftersläpningen så att de automatiskt läggs till på den [!UICONTROL Kanban] mobila artikelpanelen när andra objekt flyttas till en status som motsvarar fullständig.\
-   Mer information finns i avsnittet [Konfigurera artiklar som ska läggas till automatiskt från eftersläpningen](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) i artikeln [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+* Konfigurera objekt på eftersläpningen så att de automatiskt läggs till på den [!UICONTROL Kanban] mobila artikelpanelen när andra objekt flyttas till en status som motsvarar fullständig.
+Mer information finns i avsnittet [Konfigurera artiklar som ska läggas till automatiskt från eftersläpningen](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) i artikeln [Konfigurera Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Konfigurera en PIA-gräns (Work In Progress) som ska visas på den [!UICONTROL Kanban] mobila artikelpanelen.\
-   Mer information finns i [Hantera gränsen för pågående arbete (PIA) på Kanban-tavlan](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
+* Konfigurera en PIA-gräns (Work In Progress) som ska visas på den [!UICONTROL Kanban] mobila artikelpanelen.
+Mer information finns i [Hantera gränsen för pågående arbete (PIA) på Kanban-tavlan](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Fördelar med att använda Scrum i [!DNL Workfront]
 
@@ -89,8 +89,8 @@ Följande funktionalitet stöder den här metoden:
 * Inkludera problem på [!UICONTROL Scrum]-artikelpanelen
 * Inkludera problem i eftersläpningen i ett smidigt team
 * Underaktiviteter kan visas på [!UICONTROL Scrum]-artikelpanelen
-* Visa ett nedladdningsbart diagram för att se förloppet mot artiklar under upprepningen\
-   Mer information finns i [Översikt över Agile-nedladdningsdiagram](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
+* Visa ett nedladdningsbart diagram för att se förloppet mot artiklar under upprepningen
+Mer information finns i [Översikt över Agile-nedladdningsdiagram](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Skapa ett smidigt team
 
@@ -150,19 +150,21 @@ Följande funktionalitet stöder den här metoden:
 
 Du kan konvertera ett befintligt team till ett smidigt team:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
 1. Välj det team som du vill konvertera till ett smidigt team.
-1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.\
-   Endast teammedlemmar med antingen en [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.\
+1. Klicka på menyn **[!UICONTROL More]** och välj sedan **[!UICONTROL Edit]**.
+
+   Endast teammedlemmar med en [!UICONTROL Standard]-, [!UICONTROL Plan]- eller [!UICONTROL Work]-licens kan se det här alternativet.
    ![](assets/edit-team-settings-350x205.png)
 
 1. Välj **[!UICONTROL This is an Agile Team]** i avsnittet **[!UICONTROL Agile]**.
 
 1. I avsnittet **[!UICONTROL Methodology]** väljer du om teamet ska använda en **[!UICONTROL Scrum]** eller **[!UICONTROL Kanban]** flexibel metod.
 
-1. Klicka på **Spara ändringar.**
+1. Klicka på **Spara ändringar**.
 
    Teamet sparas som ett Agile-team. Du kan konfigurera det nya teamet som ett Scrum- eller Kanban-team när du redigerar teamet.
 
