@@ -4,18 +4,14 @@ content-type: reference
 description: Översikt över AI Assistant
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 3db36df88d4bb716cf4c37cd76b6d058a5a6f9b6
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '607'
 ht-degree: 0%
 
 ---
 
 # Översikt över AI Assistant
-
->[!IMPORTANT]
->
->Workfront AI Assistant har tagits bort tillfälligt och är tillgänglig vid ett senare tillfälle.
 
 Workfront AI Assistant hjälper dig att slutföra ditt arbete genom att erbjuda information och förslag i appen i en konversation på ett naturligt språk. AI Assistant kan ge dig en smidigare arbetsupplevelse genom att
 
@@ -47,6 +43,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Förutsättningar för AI-assistenten
+
+## Förutsättningar för AI-assistenten
 
 Om du vill aktivera AI Assistant för din organisation måste **alla** av följande gälla:
 
