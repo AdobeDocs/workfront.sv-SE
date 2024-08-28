@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '2710'
+source-wordcount: '2714'
 ht-degree: 0%
 
 ---
@@ -225,7 +225,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 
    Arbetsytan öppnas och posttyperna visas som kort.
 1. Klicka på kortet för en posttyp för att öppna posttypssidan.
-1. Klicka på namnet på en **tabellvy** för att öppna den.
+1. Klicka på namnet på en tabellvy för att öppna den.
 1. (Valfritt) Lägg till poster till den posttyp du valde genom att lägga till en ny rad i tabellen. Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 1. (Villkorligt) När du har kopplat den markerade posttypen till en annan posttyp går du till den länkade postkolumnen och dubbelklickar på cellen som motsvarar den post som du vill länka till andra poster.
 
@@ -240,7 +240,7 @@ Du kan koppla poster från Workfront Planning i följande områden i en Planning
 
    >[!TIP]
    >
-   >    Du kan öppna en postsida genom att göra följande i tabellvyn:
+   >    Du kan öppna en posts sida och koppla andra poster genom att göra följande i tabellvyn:
    >1. Klicka på postens namn i vyn.
    >1. Leta reda på det länkade postfältet och dubbelklicka på fältet (om det redan finns poster anslutna)
    >eller

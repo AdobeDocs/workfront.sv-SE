@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 0%
@@ -179,7 +179,7 @@ Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/m
 
 ### AI-assistenten har återaktiverats för Workfront Planning
 
-Produktion och förhandsgranskning: 28 augusti 2024
+Förhandsgranska och produktion: 28 augusti 2024
 
 Workfront AI Assistant har återaktiverats för Workfront Planning Area.
 
@@ -187,7 +187,7 @@ Mer information om Workfront Planning AI Assistant finns i [Adobe Workfront Plan
 
 ### Rapporteringsfunktioner för Workfront Planning med Canvas Dashboard
 
-Produktion och produktion: 28 augusti 2024
+Förhandsgranska och produktion: 28 augusti 2024
 
 Nu kan du visa Workfront Planning-information i en rapport med Workfront Canvas Dashboard. Mer information finns i [Kom igång med Canvas-instrumentpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

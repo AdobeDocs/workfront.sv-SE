@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User
 author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 743dbef27149f42ee2328e45a76be660657a75bb
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 0%
@@ -191,6 +191,8 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 
    * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
+
+     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
 
      >[!TIP]
      >

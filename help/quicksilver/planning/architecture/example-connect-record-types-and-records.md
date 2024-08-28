@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1949'
 ht-degree: 0%
 
 ---
@@ -44,12 +44,21 @@ Så här gör du:
    * **Posttyp**: Produkt <!--did they change the casing here?-->
    * **Namn**: Ge det nya fältet ett namn. Till exempel&quot;Produktinformation&quot;. Det här är namnet på det länkade postfältet.
    * **Beskrivning**: Lägg till en beskrivning för det nya fältet. Exempel:&quot;Det här är de produkter som jag vill att mina kampanjer ska vara kopplade till.&quot; Beskrivningen av fältet visas när du hovrar över fältet i kolumnrubriken.
-   * **Tillåt flera poster**: Om du låter det här alternativet vara markerat kan användare välja flera poster när det länkade posttypsfältet (produktinformation) visas på de ursprungliga posterna (kampanjer). I vårt fall kan användarna välja flera produkter som ska kopplas till en kampanj.
+   * **Anslutningstyp**: Välj bland följande alternativ:
+      * **Många till många**: Användare kan koppla en kampanj till flera produkter och en produkt till flera kampanjer.
+      * **En till många**: Användare kan koppla en kampanj till flera produkter och en produkt till en kampanj.
+      * **Många till en**: Användare kan koppla en kampanj till en produkt och en produkt till många kampanjer.
+      * **En till en**: Användarna kan koppla en kampanj till en produkt och en produkt till en kampanj.
+
+     >[!NOTE]
+     >
+     >Alternativet **Anslutningstyp** är inte tillgängligt vid anslutning av poster från olika arbetsytor eller vid anslutning av Experience Manager-resurser. Mer information finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+
+   * **Postutseende**: Avmarkera alternativet **Titel** om du inte vill visa produktnamn när du lägger till dem i kampanjens produktinformationsfält. Om det här alternativet är aktiverat visas både miniatyrbilden och titeln. Växlingsknappen är aktiverad som standard.
    * **Markera uppslagsfält**: Om du låter det här alternativet vara markerat öppnas rutan **Lägg till uppslagsfält** så att du kan länka produktfält med kampanjposttypen. Du kan klicka på **Hoppa över** om du vill hoppa över det här steget och lägga till produktfält senare.
 
    ![](assets/new-connection-with-product-record-type.png)
 
-1. (Valfritt) Avmarkera alternativet **Titel** i avsnittet **Postutseende** om du bara vill visa postens miniatyrbild i de anslutna fälten. Om det här alternativet är aktiverat visas både miniatyrbilden och titeln. Växlingsknappen är aktiverad som standard.
 1. (Villkorligt) Om du valde alternativet **Välj uppslagsfält** i föregående steg klickar du på ikonen **+** för fältet **Budget** i listan med fält som är associerade med posttypen **Produkt** och sedan på **Lägg till fält**. Detta skapar ett fält med namnet **Budget (från produktinformation)**, som är namnet på det länkade fältet. All information för produktbudgeten visas i det här fältet för kampanjposterna.
 
    ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -138,8 +147,12 @@ Så här gör du:
    * **Posttyp**: Projekt (från Workfront underavsnitt)
    * **Namn**: Ge det nya fältet ett namn, till exempel &quot;Projektinformation&quot;.
    * **Beskrivning**: Lägg till en beskrivning för det nya fältet. Exempel:&quot;Detta är de projekt som jag vill att mina kampanjer ska vara kopplade till.&quot; Beskrivningen visas i tabellvyn när du hovrar över fältnamnet i kolumnrubriken.
-   * 
-      * **Tillåt flera poster**: Om det här alternativet är markerat kan användare välja flera projekt när det länkade projekttypsfältet (projektinformation) visas på de ursprungliga posterna (kampanjer).
+   * **Anslutningstyp**: Välj bland följande alternativ:
+      * **Många till många**: Användare kan koppla en kampanj till flera produkter och en produkt till flera kampanjer.
+      * **En till många**: Användare kan koppla en kampanj till flera produkter och en produkt till en kampanj.
+      * **Många till en**: Användare kan koppla en kampanj till en produkt och en produkt till många kampanjer.
+      * **En till en**: Användarna kan koppla en kampanj till en produkt och en produkt till en kampanj.
+   * **Länka endast objekt som matchar det här villkoret**: Välj ett anpassat formulär i listrutan **Eget formulär**. Endast projekt som är kopplade till de angivna formulären är tillgängliga för att kopplas till kampanjer. Du kan välja flera formulär.
    * **Markera uppslagsfält**: Om du låter det här alternativet vara markerat öppnas rutan **Lägg till uppslagsfält** så att du kan länka projektfält med kampanjposttypen. Du kan klicka på **Hoppa över** om du vill hoppa över det här steget och lägga till projektfält senare.
 
    ![](assets/new-connection-tab-with-workfront-option.png)

@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -221,11 +221,11 @@ Användare med alla typer av Workfront-licenser har tillgång till Workfront Pla
 
 ## Bevilja behörigheter
 
-Du måste ge användare behörigheter till arbetsytor och vyer för Workfront Planning som du skapar för att de ska kunna komma åt dem.
+Du måste ge användarna behörigheter till arbetsytorna och vyerna i Workfront Planning som du skapar så att de kan komma åt dem.
 
 Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Din Adobe Workfront-licenstyp fungerar tillsammans med dina Workfront Planning-behörigheter så att du kan visa, bidra och hantera Workfront Planning-objekt.
+Din Adobe Workfront-licenstyp fungerar med dina Workfront Planning-behörigheter så att du kan visa, bidra och hantera Workfront Planning-objekt.
 
 Information om hur licenstyperna påverkar behörighetsnivåer för Workfront Planning-objekt finns i [Översikt över licenstypen när Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md) används.
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '1989'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 * Få meddelanden i appen
 * Ta emot e-postmeddelanden
 * Lägga till miniatyrbilder och försättsblad i poster
-* Visa ändringshistorik för en post
+* Visa ändringshistoriken för en post
 * RTF-formatering för styckefält
 * Få åtkomst till planeringsposter från Workfront-objekt
 * Anslut planeringsposter från Workfront-objekt
@@ -174,8 +174,6 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
 * **Workspace**: En samling posttyper som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.
 
-  En Workfront-instans kan ha högst 1 000 arbetsytor.
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -204,9 +202,15 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning innehåller en arbetsyta för försäljning, marknadsföring och produkthantering.
+  Adobe Workfront Planning innehåller följande mallar:
 
-  Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
+   * Grundläggande: Marknadsföringshantering
+   * Avancerat: Marknadsföringshantering
+   * Enterprise: Marketing Management
+   * Försäljningshantering
+   * Produkthantering
+
+  Mer information finns i [Lista över arbetsytemallar](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Fält**: Fält är attribut som du kan lägga till i posttyper. Fält innehåller information om posttypen. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -293,7 +297,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   Här följer några vytyper som du kan använda på posttypssidan:
 
-   * **Tabellvy**: Visar poster och deras fält, inklusive anslutna fält och uppslagsfält, i tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Det här är standardvyn.
+   * **Tabellvy**: Visar poster och deras fält, inklusive anslutna fält och uppslagsfält, i ett tabellformat. Raderna i tabellen är de enskilda posterna och kolumnerna är postfälten. Tabellvyn är standardvy.
 
      ![](assets/table-view-example.png)
 
