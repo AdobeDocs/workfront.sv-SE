@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '7338'
+source-wordcount: '7432'
 ht-degree: 0%
 
 ---
@@ -28,28 +28,14 @@ ht-degree: 0%
 >En översikt över Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-<!--[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
->
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative will inform you if you are part of this stage.
->
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
->In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
+I den här artikeln listas de funktioner som lanserades till Workfront Planning under den tidiga åtkomstperioden 2024.
 
-I den här artikeln listas de funktioner som lanserats till Workfront Planning under den tidiga åtkomstperioden 2024.
-
-De släppta funktionerna listas i den ordning de släpps, med den senaste först. Kunder som deltar i Workfront Planning Program har tillgång till alla funktioner i produktionsmiljön.
+De släppta funktionerna listas i den ordning de släpps, med den senaste först.
 
 Se även följande artiklar för fler funktioner som lanserats för Workfront Planning:
 
-* [Adobe Workfront Planning Release Activity för 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) listar funktioner som släpptes under betaversionen 2023.
-* [Aktivitet för lansering av Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) visar funktioner som för närvarande släpps på Workfront Planning, efter att det blev allmänt tillgängligt den 28 augusti 2024.
+* [Planeringsaktivitet för Adobe Workfront 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) för funktioner som släpptes under betaversionen under 2023.
+* [Aktivitet för lansering av Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) för funktioner som för närvarande släpps på Workfront Planning, efter att det blev allmänt tillgängligt den 28 augusti 2024.
 
 ## Tidslinjen i Workfront Planning
 
@@ -130,14 +116,6 @@ Som arbetsytehanterare kan du nu definiera formatet för de värden som visas i 
 
 Mer information finns i avsnittet Formel i artikeln [Skapa fält](/help/quicksilver/planning/fields/create-fields.md).
 
-### Aktivera Workfront Planning-meddelanden för åtkomstbegäranden
-
-Förhandsgranska och produktion: 28 augusti 2024
-
-När du begär åtkomst till en arbetsyta får användaren som du begär åtkomst från ett e-postmeddelande om begäran. När din begäran har beviljats får du ett e-postmeddelande med en bekräftelse eller ett avslag på din begäran. Du kan komma åt vyn eller arbetsytan från e-postmeddelandet när behörighet har beviljats.
-
-Mer information finns i [Begär behörighet för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
-
 ### Visningsindikatorer i realtid i en postvy
 
 Förhandsgranska och produktion: 28 augusti 2024
@@ -175,48 +153,43 @@ Mer information finns i följande artiklar:
 * [Exempel på det externa sökfältet i ett anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [Grunderna i Adobe Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md)
 
-<!--
-### New Settings menu in the Calendar view
+### Menyn Nya inställningar i kalendervyn
 
-Preview and Production: August 28, 2024 
+Förhandsgranska och produktion: 28 augusti 2024
 
-There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+Det finns ett nytt inställningsalternativ som du kan använda för att anpassa utseendet på postfälten i kalendervyn. Du kan göra följande:
 
-* Update the date and time of the records  
+* Uppdatera datum och tid för posterna
 
-* Update the bar style 
+* Uppdatera stapelformatet
 
-* Change the color of the record bars or their groupings to match one of the following:  
+* Ändra färgen på postfälten eller deras grupperingar så att de matchar något av följande:
 
-    * The color of the record type 
+   * Posttypens färg
 
-    * The color of a field that you select 
+   * Färgen på ett fält som du väljer
 
-    * The color of the grouping 
+   * Färgen på grupperingen
 
-    * No color (the default) 
+   * Ingen färg (standard)
 
- When matching colors to a certain field, you can select only fields with color-coded options. 
+När du matchar färger till ett visst fält kan du bara markera fält med färgkodade alternativ.
 
- For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+Mer information finns i [Hantera kalendervyn](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
+### AI-assistenten har återaktiverats för Workfront Planning
 
-### The AI Assistant has been re-enabled for Workfront Planning
+Produktion och förhandsgranskning: 28 augusti 2024
 
-Production and Preview: August 28, 2024
+Workfront AI Assistant har återaktiverats för Workfront Planning Area.
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+Mer information om Workfront Planning AI Assistant finns i [Adobe Workfront Planning AI Assistant - översikt](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
-For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
- 
+### Rapporteringsfunktioner för Workfront Planning med Canvas Dashboard
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+Produktion och produktion: 28 augusti 2024
 
-Production and Production: August 28, 2024 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
--->
+Nu kan du visa Workfront Planning-information i en rapport med Workfront Canvas Dashboard. Mer information finns i [Kom igång med Canvas-instrumentpaneler](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ## Vecka 19 augusti 2024
 
