@@ -8,10 +8,10 @@ description: Frågor och svar om Workfront marknadsföring.
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '296'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Marknadsföring över domäner stöds inte för närvarande. Du måste uppgrader
 
 ### Svar
 
-Nej. Miljöerbjudande är tillgängligt för både IMS-aktiverade och icke-IMSWorkfront-instanser.
+Nej. Miljökampanj är tillgänglig för både IMS-aktiverade och icke-IMS Workfront-instanser.
 
 ## Hur kan vi ta reda på om vår Workfront-instans finns på en Prime- eller Ultimate-licens?
 
@@ -73,4 +73,3 @@ Nej, delning stöds inte för närvarande.
 * &quot;Använd befintlig&quot; är detsamma som att&quot;hoppa över&quot; eller ignorera distributionen, eftersom den mappar till det befintliga objektet i målmiljön och inte gör några ändringar.
 * Om du vill hoppa över objekt rekommenderar vi att du tar bort
 objekt som du inte vill installera från erbjudandepaketet eller från källmiljön direkt. När du har tagit bort objekten sätter du ihop paketet igen.
-
