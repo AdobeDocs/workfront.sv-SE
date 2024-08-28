@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
-source-wordcount: '82'
+source-wordcount: '86'
 ht-degree: 15%
 
 ---
@@ -29,4 +29,5 @@ Det här avsnittet innehåller följande underavsnitt:
 * [Bevilja och begär behörigheter för objekt](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [Hantera ditt konto och din profil](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [Mobilappar](../workfront-basics/mobile-apps/mobile-apps.md)
+* [AI Assistant i Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Tips, tricks och felsökning för Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
