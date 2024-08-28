@@ -6,9 +6,9 @@ description: Din [!DNL Adobe Workfront] profil innehåller information om dig sj
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2901'
 ht-degree: 0%
 
 ---
@@ -339,7 +339,8 @@ Du kan ändra något av följande i det här underavsnittet:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
-   <td>Ange önskat språk här. Detta styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden.</td> 
+   <td><p>Ange önskat språk här. Detta styr vilket språk, datum och nummerformat som används i utgående e-postmeddelanden.</p>
+   <p><strong>Obs!</strong> När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Mer information finns i <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändra Adobe Experience Cloud-språk</a> i artikeln <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Språk som stöds i Adobe Workfront</a>.</p></td> 
   </tr>
 
 <tr> 

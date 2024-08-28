@@ -4,11 +4,11 @@ navigation-topic: get-started-with-workfront
 title: Språk som stöds i Adobe Workfront
 description: Du kan ändra vilket språk som används för att visa Adobe Workfront och e-postmeddelanden från Workfront genom att justera språkinställningarna i webbläsaren och ditt standardspråk för e-post i Workfront.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -116,7 +116,7 @@ Webbläsarspråket måste ändras för enskilda användare.
 
 Se hjälpmenyn för din webbläsare för mer information om hur du byter språk i din webbläsare.
 
-## Ändra Adobe Experience Cloud-språk
+### Ändra Adobe Experience Cloud-språk
 
 Om din organisation använder IMS avgör ditt profilspråk i Adobe Experience Cloud vilket språk som visas i Workfront.
 
@@ -149,6 +149,10 @@ Så här ändrar du Workfront standardspråk för e-post:
 ### Ändra användarens e-postspråk {#change-the-user-locale}
 
 När du ändrar ditt språkområde för e-post för användare ändrar du språk, datum och nummerformat som används i dina utgående meddelanden. De här inställningarna åsidosätter de systeminställningar som har valts under Kundinformation i installationsprogrammet.
+
+>[!NOTE]
+>
+>När din organisation använder Adobe Unified Experience lagras språkinställningarna i din Adobe-profil och e-postspråkinställningen används inte. Se [Ändra Adobe Experience Cloud ](#change-the-adobe-experience-cloud-language) i den här artikeln.
 
 Så här ändrar du din e-postadress för användare:
 
