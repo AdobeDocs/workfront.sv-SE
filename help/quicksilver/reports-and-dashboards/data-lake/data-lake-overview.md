@@ -2,22 +2,22 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Workfront Data Lake - översikt
-description: Översikt över Workfront Data Lake-kapacitet
+title: Workfront Data Connect - översikt
+description: En översikt över Workfront Data Connect
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
 
 ---
 
-# Översikt över dataanslutning
+# Workfront Data Connect - översikt
 
-Data Connect ger oöverträffad åtkomst till Workfront-data med hjälp av Snowflake-teknik, vilket gör att du kan besvara affärskritiska frågor och mäta värdet av dina processer. Tack vare den här funktionen kan företagskunder förhöra sina data med datavisualiseringsverktyg direkt från Workfront datalager eller exportera Workfront-data till ett kundägt datalager.
+Workfront Data Connect ger oöverträffad åtkomst till Workfront-data med hjälp av Snowflake-teknik, vilket gör att du kan besvara affärskritiska frågor och mäta värdet av dina processer. Tack vare den här funktionen kan företagskunder förhöra sina data med datavisualiseringsverktyg direkt från Workfront datalager eller exportera Workfront-data till ett kundägt datalager.
 
 Abonnenterna kan koppla samman sina valfria affärsinformationsverktyg (Tableau, Power BI, Domo, Looker osv.) till Data Connect för att skapa datavisualiseringar med följande datatyper:
 

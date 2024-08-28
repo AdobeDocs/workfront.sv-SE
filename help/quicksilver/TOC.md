@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
+source-wordcount: '14358'
 ht-degree: 0%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 0%
          * [Ny kommentarsfunktion](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [Ny aktivitet för att frisläppa kommentarer](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [Nya vanliga frågor och svar om kommenteringsupplevelser](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Betaversion av Workfront Data Lake {#data-lake-beta}
-         * [Betainformation för Workfront Data Lake](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect beta {#data-lake-beta}
+         * [Workfront Data Connect beta-information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration och konfiguration {#administration-and-setup}
    * [Administration och inställning: artikelindex](administration-and-setup/administration-and-setup.md)
    * Kom igång med administration {#get-started-administration}
@@ -1734,12 +1734,12 @@ ht-degree: 0%
       * [Visa projektaktivitetsvisualisering i Förbättrad analys](enhanced-analytics/project-activity-overview.md)
       * [Visa projekttreemap-visualisering i Förbättrad analys](enhanced-analytics/project-treemap-overview.md)
       * [Visa aktivitetsbaserad teamvisualisering i Förbättrad analys](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront Data Lake {#data-lake}
-      * [Workfront Data Lake - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront Data Connect {#data-lake}
+      * [Workfront Data Connect - översikt](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Skapa ett läsarkonto](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Upprätta en anslutning till Workfront Data Lake](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Workfront Data Lake Data Didictionary](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [Grundläggande frågeexempel för Workfront datasjön](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Upprätta en anslutning till Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Workfront Data Connect-dataordlista](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Exempel på Workfront Data Connect-frågor](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Hantera resurser {#manage-resources}
    * [Hantera resurser](resource-mgmt/manage-resources.md)
    * Resurshantering {#resource-management}

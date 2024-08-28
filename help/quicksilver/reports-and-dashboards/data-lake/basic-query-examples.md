@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ I det här exemplet visas hur du kan skapa en fråga som returnerar anpassade da
 
 ### Scenario
 
-Din organisation, PeopleSoft, använder ett anpassat formulär som heter Finance Integration. Formuläret är kopplat till varje projekt och innehåller följande fält:
+Din organisation som använder ett anpassat formulär som heter Finance Integration. Formuläret är kopplat till varje projekt och innehåller följande fält:
 
-* **PeopleSoft Business Unit** - Ett anpassat fält som innehåller en sträng.
-* **PeopleSoft ProjectID** - Ett anpassat fält som innehåller en numerisk sträng.
-* **Utökat projektnamn** - Ett beräknat anpassat datafält som sammanfogar värdena för PeopleSoft Business Unit, PeopleSoft ProjectID och Workfront-projektnamnet i en enda sträng.
+* **Affärsenhet** - Ett anpassat fält som innehåller en sträng.
+* **ProjectID** - Ett anpassat fält som innehåller en numerisk sträng.
+* **Utökat projektnamn** - Ett beräknat anpassat datafält som sammanfogar värdena för affärsenhet, projekt-ID och Workfront-projektnamnet i en enda sträng.
 
 Du måste inkludera den här informationen i svaret på en fråga mot Data Connect. Anpassade datavärden för en post i datasjön finns i kolumnen `parameterValues`. Den här kolumnen lagras som ett JSON-objekt.
 
@@ -40,8 +40,8 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
-    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
+    parametervalues:"DE:Project ID" :: int as ProjectID,
     parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
@@ -54,8 +54,8 @@ Frågan ovan returnerar följande data:
 * `projectid` - det inbyggda Workfront-projekt-ID:t
 * `parametervalues` - en kolumn som lagrar ett JSON-objekt
 * `name` - Workfront egna projektnamn
-* `PeopleSoft Business Unit` - ett anpassat datavärde som ingår i objektet `parametervalues`
-* `PeopleSoft Project ID` - ett anpassat datavärde som ingår i objektet `parametervalues`
+* `Business Unit` - ett anpassat datavärde som ingår i objektet `parametervalues`
+* `Project ID` - ett anpassat datavärde som ingår i objektet `parametervalues`
 * `Expanded Project Name` - ett anpassat datavärde som ingår i objektet `parametervalues`
 
 <!--## Task query 

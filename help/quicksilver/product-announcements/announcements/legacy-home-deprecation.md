@@ -5,9 +5,9 @@ title: Guide för föråldrad hemborttagning
 description: Den här sidan innehåller information om den kommande borttagningen av äldre Hem.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Vi rekommenderar administratörer:
 
 1. Tilldela om de andra användarna till den nya startsidans layout.
 
-Om du gör detta så snart som möjligt får användarna tid att anpassa sig till den nya upplevelsen och anpassa sina nya hemsidor efter sina egna behov.
+Om du gör detta så snart som möjligt får användarna tid att anpassa sig till den nya upplevelsen och anpassa sina nya hemsidor efter sina egna behov. Se [Ta bort, lägga till och ordna om widgetar i nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) för information om hur en användare kan anpassa widgetarna på sin egen nya Hem-sida.
 
 ### Följ hemupplevelsen när den utvecklas
 
@@ -74,7 +74,7 @@ Nej, den tas bort helt från programmet.
 
 Nästan, med undantag av:
 
-* Kalender, som för närvarande finns med på vår färdplan för nya Hem.
+* Kalender, som för närvarande finns med på vår färdplan för prioriteringar.
 
 * Det går inte att visa tidsstämplar för objektets förfallodatum.
 
