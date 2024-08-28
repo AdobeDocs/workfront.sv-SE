@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Upprätta en anslutning till Workfront Data Lake
 description: Med Workfront datasjön kan ni använda er organisations Workfront-data med populära affärsintelligensverktyg eller lagra dem i ett externt datalager.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '524'
 ht-degree: 0%
 
 ---
 
-# Upprätta en anslutning till Workfront Data Lake
+# Upprätta en anslutning till Workfront Data Connect
 
-Med Workfront datasjön kan ni använda företagets Workfront-data med verktyg för affärsintelligens eller lagra dem på ett externt datalager.
+Med Workfront Data Connect kan ni använda företagets Workfront-data med verktyg för affärsintelligens eller lagra dem på ett externt datalager.
 
-Om du vill ansluta dina data i Workfront-sjön med en extern produkt måste du först lägga till alla IP-adresser som krävs i tillåtelselista enligt beskrivningen i [Lägg till IP-adresser i tillåtelselista](#add-ips-to-the-allowlist) nedan. De flesta produkter kräver dessutom ytterligare information om din datalinje för att upprätta en anslutning:
+Om du vill ansluta Data Connect-datasjön till en extern produkt måste du först lägga till alla IP-adresser som krävs i tillåtelselista enligt beskrivningen i [Lägg till IP-adresser i tillåtelselista](#add-ips-to-the-allowlist) nedan. De flesta produkter kräver dessutom ytterligare information om din datalinje för att upprätta en anslutning:
 
 | Fältnamn | Värde |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Om du vill ansluta dina data i Workfront-sjön med en extern produkt måste du f
 | Användarnamn | Användarnamnet som valdes när anslutningen skapades (finns på **dataåtkomstsidan** i Workfront*) |
 | Lösenord | Lösenordet som väljs vid första inloggningen från Snowflake* |
 
-*Mer information om var du hittar sidan **Dataåtkomst** som innehåller dina dataanslutningar finns i [Skapa ett läsarkonto (tjänstkonto) för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*Information om var du hittar **dataåtkomstsidan** som innehåller dina dataanslutningsanslutningar finns i [Skapa ett läsarkonto (tjänstkonto) för Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
 >När en post har lagts till i IP-tillåtelselista tillåts inte längre alla andra IP-adresser. Se till att du har angett alla IP-adresser som krävs - både för att skapa och läsa upplevelser i visualiseringsverktyget - innan du försöker använda verktyget. Annars kan du råka ut för ett fel med ogiltiga autentiseringsuppgifter.
 >
 >Om du inte har några IP-adresser i tillåtelselista men fortfarande har problem med att ansluta till ett BI-verktyg, kontrollerar du proxyserverkonfigurationen för BI-verktyget.
-
 
 ## Lägg till IP-adresser i tillåtelselista
 

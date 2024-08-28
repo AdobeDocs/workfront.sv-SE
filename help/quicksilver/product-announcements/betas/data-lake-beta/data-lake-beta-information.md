@@ -1,23 +1,23 @@
 ---
-navigation-topic: data-lake-beta
-title: Betainformation för Workfront Data Lake
-description: Allmän information om betaversionen av Workfront Data Lake
+navigation-topic: data-connect-beta
+title: Workfront Data Connect beta-information
+description: Allmän information om betaversionen av Workfront Data Connect
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
 
-# Betainformation för Workfront Data Lake
+# Workfront Data Connect beta-information
 
-Workfront datasjön är ett nytt verktyg som för närvarande är under utveckling och som ger ett dedikerat gränssnitt där organisationer kan hämta data för användning i populära affärsanalysverktyg eller för lagring i externa datalager - utan att behöva använda komplicerade API- eller Fusion-lösningar. Den här sidan innehåller information om hur du kan hjälpa oss genom att testa och ge feedback på det här verktyget under vår pågående betaversion.
+Workfront Data Connect är ett nytt utvecklingsverktyg som ger ett dedikerat gränssnitt där organisationer kan hämta in data för användning i populära affärsanalysverktyg eller lagra externa datalager - utan att behöva använda komplicerade API- eller Fusion-lösningar. Den här sidan innehåller information om hur du kan hjälpa oss genom att testa och ge feedback på det här verktyget under vår pågående betaversion.
 
-Mer information om hur du använder Workfront-sjön finns i [Workfront Data Lake - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Mer information om hur du använder Workfront Data Connect finns i [Workfront Data Connect - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 **Beta-schema:**
 
@@ -30,11 +30,11 @@ Mer information om hur du använder Workfront-sjön finns i [Workfront Data Lake
 
 >[!IMPORTANT]
 >
->Du måste vara systemadministratör för Workfront för att kunna registrera dig för Workfront beta av datasjön.
+>Du måste vara systemadministratör för Workfront för att kunna registrera dig för betaversionen av Data Connect.
 
 Fyll i och skicka in formuläret på följande länk för att registrera din organisation i betaversionen:
 
-[Betaversion av Workfront Data Lake ](https://adobe.ly/workfrontdatalake)
+[Workfront Data Connect - betaregistrering](https://adobe.ly/workfrontdatalake)
 
 ### Ge feedback
 
@@ -48,7 +48,7 @@ Vi uppskattar att vi tar fram det här verktyget under betatestningen. Följ ins
 
 ## Planerade funktioner
 
-Nedan finns listor över objekt som för närvarande stöds i betaversionen, objekt som vi planerar att lägga till stöd för under betatestningen samt funktioner som ingår i vår framtida färdplan för Workfront Data Lake.
+Nedan finns listor över objekt som för närvarande stöds i betaversionen, objekt som vi planerar att lägga till stöd för under betatestningen samt funktioner som ingår i vår framtida färdplan för Data Connect.
 
 ### Tillgängliga objekt
 

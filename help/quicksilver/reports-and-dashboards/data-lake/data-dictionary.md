@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Data Lake Data-ordlista
-description: Den här sidan innehåller information om datastrukturen och innehållet i Workfront datasjön.
+navigation-topic: data connect
+title: Workfront Data Connect-dataordlista
+description: Den här sidan innehåller information om datastrukturen och innehållet i Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
 
-# Workfront Data Lake Data Didictionary
+# Workfront Data Connect-dataordlista
 
-Den här sidan innehåller information om datastrukturen och innehållet i Workfront datasjön.
+Den här sidan innehåller information om datastrukturen och innehållet i Workfront Data Connect.
 
 >[!NOTE]
 >
->Data i Workfront Data Lake uppdateras var fjärde timme, så de senaste ändringarna kanske inte omedelbart återspeglas.
+>Data i Data Connect uppdateras var fjärde timme, så de senaste ändringarna kanske inte återspeglas direkt.
 
 ## Tabelltyper
 
-Det finns ett antal tabelltyper som du kan använda för att visa dina Workfront-data på ett sätt som ger dig den mest insikt.
+Det finns ett antal tabelltyper som du kan använda i Data Connect för att visa dina Workfront-data på ett sätt som ger dig den mest insikt.
 
 * **Aktuell tabell**
 
@@ -43,9 +43,9 @@ Det finns ett antal tabelltyper som du kan använda för att visa dina Workfront
 
 ## Enhetsrelationsdiagram
 
-Objekt i Workfront (och därför i din datalinje) definieras inte bara av deras individuella värden, utan av deras relationer med andra objekt. I entitetsrelationsdiagrammet nedan finns en mappning på hög nivå av objektrelationer i Workfront datasjön. Diagrammet kan visas och laddas ned via följande länk:
+Objekt i Workfront (och därför i Data Connect-datavinen) definieras inte bara av deras individuella värden, utan av deras relationer med andra objekt. I entitetsrelationsdiagrammet nedan finns en mappning på hög nivå av objektrelationer i Data Connect. Diagrammet kan visas och laddas ned via följande länk:
 
-[Workfront Data Lake Entity Relations Diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Relationsdiagram för dataanslutning](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Det finns ett antal datumobjekt som ger information om när specifika händelser
 
 ## Terminologisk tabell
 
-Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnittet och API) med deras motsvarande namn i datasjön.
+Följande tabell korrelerar objektnamn i Workfront (samt deras namn i gränssnittet och API:t) med deras motsvarande namn i Data Connect.
 
 <table>
 <thead>

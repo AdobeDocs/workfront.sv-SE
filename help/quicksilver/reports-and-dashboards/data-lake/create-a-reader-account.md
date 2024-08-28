@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Skapa ett läsarkonto (tjänstkonto) för Snowflake
-description: För att få tillgång till data i Workfront Data Lake måste du först skapa ett läsarkonto för Snowflake.
+description: För att få åtkomst till data i Data Connect måste du först skapa ett läsarkonto i Snowflake.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
 
 # Skapa ett läsarkonto (tjänstkonto) för Snowflake
 
-För att få tillgång till data i Workfront-sjön måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för varje ny anslutning. När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataåtkomst** (**Huvudmeny** > **Inställningar** > **System** > **Dataåtkomst**) på fliken **Befintliga anslutningar** .
+För att få åtkomst till data i Data Connect måste du först skapa ett Snowflake-läsarkonto (eller tjänstkonto) för varje ny anslutning. När du har skapat en anslutning kan du hitta dess associerade URL och användarnamn genom att klicka på den på sidan **Dataåtkomst** (**Huvudmeny** > **Inställningar** > **System** > **Dataåtkomst**) på fliken **Befintliga anslutningar** .
 
-Mer information om hur du använder en nyligen skapad anslutning till en extern produkt finns i [Upprätta en anslutning till Workfront-datasjön](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
+Mer information om hur du använder en nyligen skapad anslutning med en extern produkt finns i [Upprätta en anslutning till Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Åtkomstkrav
 
@@ -68,7 +68,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
    ![Återställ Snowflake-lösenord](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. Nu kan du använda ditt användarnamn och nya lösenord för att komma åt din Workfront-datasjön i Snowflake eller det företagsvisualiseringsverktyg som du väljer.
+1. Nu kan du använda ditt användarnamn och nya lösenord för att få åtkomst till Data Connect-datasjön i Snowflake eller det företagsvisualiseringsverktyg som du väljer.
 
 ## Återkalla ett läsarkonto
 
