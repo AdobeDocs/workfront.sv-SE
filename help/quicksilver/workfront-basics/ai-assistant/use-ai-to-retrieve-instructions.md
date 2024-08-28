@@ -5,7 +5,7 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 0%
@@ -55,3 +55,4 @@ Så här får du information eller instruktioner från Workfront Documentation m
 1. Visa svaret på AI-assistentpanelen.
 1. (Valfritt) Om svaret inte innehåller den information du behöver kan du förfina ditt svar och försöka igen.
 1. (Valfritt och villkorligt) Om svaret innehåller en länk till en Adobe Experience League-artikel klickar du på länken för att öppna artikeln i ett nytt fönster.
+

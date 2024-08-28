@@ -5,7 +5,7 @@ description: Du kan använda AI Assistant för att lösa fel i ogiltiga anpassad
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -68,3 +68,4 @@ Så här ändrar du ett ogiltigt beräknat fältuttryck:
 >Vi rekommenderar att du testar beräkningsfältet för att se till att det hämtar det förväntade resultatet.
 
 Mer information om beräkningsfält i Workfront finns i [Lägg till beräknade fält i ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+

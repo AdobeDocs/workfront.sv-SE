@@ -5,7 +5,7 @@ description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen 
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 0%
@@ -67,3 +67,4 @@ Så här visar du en sammanfattning av ett objekt:
    Det kan ta en stund innan AI Assistant genererar sammanfattningen, beroende på hur stort eller komplext objektet är.
 
 1. Visa AI-sammanfattningen på AI-assistentpanelen.
+
