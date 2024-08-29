@@ -7,14 +7,31 @@ description: Adobe Workfront-mål innehåller en uppsättning fördefinierade h�
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
 # Aktivera meddelanden om Adobe Workfront-mål
+
+>[!IMPORTANT]
+>
+>Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>
+>* För den nya planen och licensstrukturen:
+>
+>   * Den ultimata Workfront-planen
+>    
+>* För aktuell plan och licensstruktur:
+>
+>   * En plan för Pro eller senare Workfront
+>   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>
+>Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+> 
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront Goals innehåller en uppsättning händelsemeddelanden som du kan aktivera för ditt konto. Dessa händelsemeddelanden utlöser e-postkommunikation varje gång det villkor som definieras av händelsen uppfylls.
 

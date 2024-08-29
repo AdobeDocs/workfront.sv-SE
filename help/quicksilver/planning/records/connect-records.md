@@ -4,8 +4,11 @@ description: När du har skapat anslutningar mellan posttyper kan du koppla ensk
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 0%

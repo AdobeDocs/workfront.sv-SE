@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Informationen i den här artikeln avser funktioner som har släppts till den nya kommentarsfunktionen.
+>Informationen i den här artikeln hänvisar till funktioner som släppts till den nya kommentarsfunktionen.
 >
 >Betaprogrammet för den nya kommentarsupplevelsen inleddes i april 2023 och avslutades i oktober 2023, med versionen från oktober 2023.
 >

@@ -6,9 +6,9 @@ description: Du kan lägga till kommentarer till alla mål som du kan visa i Ado
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
    <td role="rowheader">Adobe Workfront-plan*</td> 
    <td> 
    <p>För den nya planen och licensstrukturen:
-  <ul><li>En Ultimate-plan </li>
-  eller
-  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+  <ul><li>En Ultimate-plan </li></ul>
+   </p>
 <p>För aktuell plan och licensstruktur: 
 <ul><li> En Pro eller högre </li>
   <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>
@@ -89,95 +88,90 @@ Du måste ha följande åtkomst för att kunna utföra de åtgärder som beskriv
 
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
-
 ## Hantera målkommentarer
 
 Du kan lägga till kommentarer till mål i uppdateringsavsnittet på målsidan.
-
-Du kan svara på eller gilla en kommentar som du eller andra har lagt till i det här området.
 
 1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet eller på ikonen **Huvudmeny** ![](assets/lines-main-menu.png) i det övre vänstra hörnet, om den är tillgänglig, och klicka sedan på **Mål** .
 Detta öppnar mållistan.
 1. Leta reda på målet som du vill lägga till kommentarer i och klicka sedan på namnet för att öppna målsidan.
 1. Klicka på **Uppdateringar** i den vänstra panelen.
-1. (Valfritt) Om du vill hitta en befintlig kommentar börjar du skriva ett nyckelord <!--or a user's name--> i rutan **Sök** i det övre högra hörnet på fliken **Kommentarer**.
 
+   Mer information om hur du hanterar kommentarer till Workfront-objekt finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   Nyckelordet <!--or user--> som du sökte efter markeras och kommentarerna som innehåller det visas högst upp i uppdateringsavsnittet.
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
-   >[!NOTE]
-   >
-   >Du måste söka efter ett ord i en kommentar eller ett svar. Du kan inte söka efter taggade användare eller team.
+      >[!NOTE]
+      >
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-1. Klicka på ikonen **x** i sökfältet för att rensa sökresultaten och återgå till den fullständiga uppdateringen.
-1. Klicka på fliken **Kommentarer** i det övre vänstra hörnet i uppdateringsområdet.
-1. Börja skriva en kommentar i rutan **Ny kommentar**.
-
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Om du navigerar bort från uppdateringsavsnittet innan du är klar med att skriva och skicka en kommentar, kommer kommentaren på sidan att vara i utkastläge även efter att du loggat ut och loggat in igen. Utkast sparas i 7 dagar efter vilka de tas bort och kan inte återställas. Kommentarerna är bara synliga för användaren som skriver dem.
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
-1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
-   * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
-   * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
-1. (Valfritt) Om du vill lägga till RTF-formatering i en uppdatering, en hyperlänk eller ett känslolägesikoner använder du alternativen i verktygsfältet RTF eller ikonerna intill. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Valfritt) I området **Tagga personer eller team** börjar du skriva namnet eller e-postadressen för en användare, eller ett team som du vill inkludera i kommentaren, och markerar sedan användaren när den visas i listan.
-1. Välj alternativet **Privat till mitt företag** för att göra kommentaren synlig endast för personer i ditt företag.
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
-   >[!TIP]
-   >
-   >Du måste ange ett företag i din profil för att det här alternativet ska vara tillgängligt i uppdateringsområdet.
+      >[!TIP]
+      >
+      >You must have a Company specified in your profile to have this option available in the Updates area. 
 
-1. Klicka på **Skicka**.
+1. Click **Submit**. 
 
-   >[!TIP]
-   >
-   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar, visas en röd linje med en ny indikator som informerar dig om de nyare kommentarerna samt ett blått meddelande längst ned på skärmen som anger antalet nya kommentarer.
-   >
-   >Indikatorn visas bara när kommentaren har skickats för objektet och inte när kommentaren fortfarande är sammansatt.
-   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
-
-1. (Valfritt) Om du vill redigera en kommentar klickar du på menyn **Mer** ![](assets/more-icon.png) till höger om ikonen Gilla och sedan på **Redigera**.
-1. Redigera informationen i kommentaren eller ta bort någon av de taggade användarna.
-Du kan redigera din kommentar inom 15 minuter från det att du skickat in den. En&quot;redigerad&quot; indikator läggs till till vänster om datumstämpeln som visas när kommentaren uppdaterades.
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
+      >
+      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment or remove any of the tagged users. 
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > * Ett e-postmeddelande skapas för att meddela användare om din uppdatering endast när du skickar den ursprungliga uppdateringen. Inget e-postmeddelande genereras när du har redigerat uppdateringen.
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >
-   > * Datumstämpeln är datumet för den ursprungliga kommentaren och inte datumet för den senaste uppdateringen.
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-icon.png) och klicka sedan på något av följande alternativ för att kopiera information från en kommentar till Urklipp eller till ett nytt svar:
+1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
-   * **Kopiera länk** om du vill kopiera länken till en uppdatering, utan svaren.
-   * **Kopiera brödtext** om du vill kopiera texten i en uppdatering.
-   * **Citat-svar** om du vill öppna en ny kommentarsruta där den ursprungliga kommentaren citeras i ett nytt svar och markeras som ett blockcitat.
+      * **Copy link** to copy the link of an update, without the replies.
+      * **Copy body text** to copy the text of an update. 
+      * **Quote reply** to open a new comment box where the original comment is quoted in a new reply and is marked as a block quote.
 
-     Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. (Valfritt) Klicka på menyn **Mer** ![](assets/more-icon.png) till höger om en kommentar och klicka sedan på **Ta bort** för att ta bort en kommentar som du har lagt till. Mer information finns i [Uppdatera arbete](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Valfritt) Klicka på **Svara** för att svara på en befintlig kommentar och följ sedan stegen 5-9 ovan. Mer information om hur du svarar på uppdateringar finns i [Svara på uppdateringar](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
-1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i uppdateringsavsnittet, klickar du på **Visa** i den blå **nya kommentarsbanderollen** längst ned på skärmen för att visa dessa kommentarer.
-
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
    ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-   Ytterligare kommentarer visas längst ned på skärmen.
-1. (Valfritt) Klicka på ikonen **Gilla**![](assets/like-icon.png) om du vill gilla en kommentar som någon annan har lagt till. Ikonen uppdateras med antalet gilla-markeringar.
-
-1. (Valfritt) Klicka på fliken **Systemaktivitet** för att visa uppdateringar som loggats av systemet. När ett mål uppdateras genererar Workfront en anteckning om den uppdateringen som visas på fliken Systemaktivitet. Workfront registrerar också en systemuppdatering när ett resultat, en aktivitet eller ett projekt läggs till i målet eller när det uppdateras. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

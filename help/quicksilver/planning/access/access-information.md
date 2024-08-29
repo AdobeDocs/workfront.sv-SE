@@ -1,14 +1,14 @@
 ---
 title: "Adobe Workfront Planning Access Information: Article Index"
-description: Som Workfront-administratör måste du ge användarna åtkomst till Adobe Workfront Planning. Följande artiklar innehåller information om vilken åtkomst användarna behöver för att använda Workfront Planning.
+description: Som Workfront-administratör måste du ge användarna åtkomst till Adobe Workfront Planning. Följande artiklar innehåller information om vilken åtkomst användarna behöver för att använda Workfront Planning samt hur de begär och beviljar behörigheter när användarna inte har tillgång till dem.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '121'
 ht-degree: 0%
 
 ---

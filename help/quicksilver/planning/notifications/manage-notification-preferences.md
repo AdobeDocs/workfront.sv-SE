@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kan få meddelanden i programmet eller via e-post när följande åtgärder i
 
 * Någon lägger till dig i en kommentar på postsidan
 * Någon ber om behörighet att komma åt en vy eller arbetsyta
-* Någon ger eller nekar dig behörighet att komma åt en vy eller arbetsyta <!--test this - could not test before GA-->
+* Någon ger dig behörighet att komma åt en vy eller arbetsyta <!--I could not test this but Isk confirmed-->
 
 ## Åtkomstkrav
 
@@ -62,7 +62,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ Avmarkera de meddelanden som du vill sluta ta emot.
 1. Följande meddelanden är tillgängliga för Workfront:
 
    * **Meningar**: Du får ett meddelande när någon taggar dig i en kommentar i Workfront Planning
-   * **Begäranden**: Du får ett meddelande när någon begär behörighet till ett Workfront Planning-objekt
+   * **Begäranden**: Du får ett meddelande när någon begär eller ger dig behörighet till ett Workfront Planning-objekt
 
    Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

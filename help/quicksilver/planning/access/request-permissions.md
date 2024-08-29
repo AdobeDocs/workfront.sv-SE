@@ -1,42 +1,35 @@
 ---
 title: Begär behörighet till en vy eller en Workspace
-description: Du kan begära behörigheter för en vy eller en arbetsyta som andra har skickat till dig en länk som inte tidigare har delats med dig.
+description: När någon delar en länk till en vy eller arbetsyta som du inte har åtkomst till, kan du begära behörighet för att kunna öppna den. I den här artikeln förklaras stegen för att begära åtkomst till en vy eller arbetsyta när du stöter på en delad länk som du inte kan öppna.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # Begära behörigheter till en vy eller arbetsyta
 
-Du kan begära behörigheter för en vy eller en arbetsyta som andra har skickat till dig en länk som inte tidigare har delats med dig.
+Du kan begära behörigheter för en vy eller arbetsyta när någon delar en länk med dig till vyn eller arbetsytan som du inte har åtkomst till.
 
 Att begära behörigheter till en vy liknar att begära behörigheter till en arbetsyta.
+
+I den här artikeln beskrivs hur du begär åtkomst till en vy eller arbetsyta när någon delar en länk med dig och du inte har åtkomst till den delade sidan.
+
+Mer information om hur du tilldelar behörigheter till vyer och arbetsytor finns i följande artiklar:
+
+* [Visa](/help/quicksilver/planning/access/share-views.md)
+* [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkraven för Workfront Planning.
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Du måste ha följande för att kunna komma åt Workfront Planning:
 
@@ -128,10 +121,6 @@ När någon delar en länk till en arbetsyta eller en vy där du inte har tillg�
    * Ett e-postmeddelande
      ![](assets/email-notification-for-access-request.png)
 
-   Mer information om hur du tilldelar behörigheter till vyer och arbetsytor finns i följande artiklar:
-
-   * [Visa](/help/quicksilver/planning/access/share-views.md)
-   * [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Villkorligt) När arbetsytehanteraren ger dig behörighet till vyn eller arbetsytan får du ett e-postmeddelande och ett meddelande i appen med en bekräftelse på att behörighet har beviljats. <!--check this - I was not able to test this-->
+1. (Villkorligt) När arbetsytehanteraren ger dig behörighet till vyn eller arbetsytan får du ett e-postmeddelande och ett meddelande i appen med en bekräftelse på att behörighet har beviljats. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 

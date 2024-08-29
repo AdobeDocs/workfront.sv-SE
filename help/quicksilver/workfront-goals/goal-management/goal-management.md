@@ -8,29 +8,30 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
 # Målhantering i Adobe Workfront-mål
 
-Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
-
-* För den nya planen och licensstrukturen:
-
-   * En Ultimate-plan
-
-     eller
-
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
-
-* För aktuell plan och licensstruktur:
-
-   * En Pro eller högre
-   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>[!IMPORTANT]
+>
+>Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>
+>* För den nya planen och licensstrukturen*:
+>
+>   * En Ultimate-plan
+>    
+>* För aktuell plan och licensstruktur:
+>
+>   * En Pro eller högre
+>   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>
+>*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+>
 
 Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
 

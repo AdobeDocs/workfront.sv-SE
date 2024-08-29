@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
+source-wordcount: '3007'
 ht-degree: 0%
 
 ---
@@ -378,7 +378,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    1. Klicka i uppdateringen där du vill infoga en länk.
    1. Klicka på ikonen **Hyperlänk** ![](assets/link-icon.png) i verktygsfältet **RTF** .
 
-   1. I rutan **Skapa länk** som visas, under **URL**, skriver eller klistrar du in URL:en för den källa som du vill länka till.
+   1. I rutan **Skapa länk**, under **URL**, skriver eller klistrar du in URL:en för den källa som du vill länka till.
 
    1. Skriv eller klistra in länktexten under **Text som ska visas**.
    1. Klicka på **Spara**.
@@ -386,7 +386,7 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
 1. (Valfritt) Gör något av följande om du vill bifoga en bild till uppdateringen:
 
    * Spara bilden på datorn och dra och släpp den i området Ny kommentar.
-   * Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren.<!-- This is not available in the legacy commenting experience.-->
+   * Kopiera en skärmbild från datorn och klistra sedan in den i kommentaren.
    * Klicka på ikonen **Lägg till bild** ![](assets/add-image-mountain-with-plus-icon.png) och bläddra till bilden på datorn.
 
 
@@ -399,7 +399,8 @@ Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till o
    >* Din Workfront-administratör måste aktivera tillägg av bilder i avsnittet Inställningar för uppdatering av feeds i Workfront-gränssnittsområdet innan du kan se ikonerna för bilden eller Lägg till bilaga. Mer information finns i [Konfigurera inställningar för användaruppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
    >* Största bildfilsstorlek är 7 MB. Bildfiltyper som stöds är .jpg, .gif och .png.
    >* Bilder är tillgängliga från uppdateringsavsnittet för ett objekt och är även tillgängliga i området Dokument under huvudmenyn.
-   >* Du kan klistra in bilden genom att högerklicka i den nya kommentaren eller genom att trycka på CTRL + V för Windows (eller Δ+ V för Mac) på tangentbordet.
+   >Du kan kopiera en skärmbild från datorn med en tangentbordskombination, eller till exempel funktionen Skriv ut skärm (på Windows-datorer).
+   >* Du kan klistra in bilden genom att högerklicka i den nya kommentaren och sedan klicka på **Klistra in** eller genom att trycka på CTRL + V för Windows (eller Δ+ V för Mac) på tangentbordet.
    >* Du kan skicka en uppdatering med en bild och utan text.
    >* När du tar bort en kommentar som innehåller en bild tas bilden bort både från uppdateringsavsnittet och från dokumentområdet. Bilden tas också bort från dokumentområdet när du redigerar en kommentar och tar bort bilden.
    >* När någon tar bort en bild som är kopplad till en kommentar från dokumentområdet tas den även bort från kommentaren.

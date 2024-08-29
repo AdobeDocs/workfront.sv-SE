@@ -6,7 +6,7 @@ description: Villkoret för en aktivitet eller ett problem är en flagga som ang
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Villkorsvärdena som vi hänvisar till i den här artikeln är som standard till
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa eller öka behörigheter för aktiviteter och ärenden för att visa deras villkor</p>
-   <p>Hantera behörigheter för aktiviteter och problem för att uppdatera villkoret</p>
+   <p>Contribute behörigheter för uppgifter och problem för att uppdatera villkoret</p>
   </td> 
   </tr> 
  </tbody> 

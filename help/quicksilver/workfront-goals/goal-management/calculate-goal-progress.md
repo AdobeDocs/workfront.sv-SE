@@ -6,9 +6,9 @@ description: Målutvecklingen styrs av förloppsindikatorer som aktiviteter, res
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -35,12 +35,6 @@ Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront G
 Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront beräknar automatiskt målutvecklingen baserat på förloppet för sina förloppsindikatorer.
-
-## Förutsättningar
-
-Du måste ha följande innan du kan börja:
-
-* En layoutmall som innehåller området Mål på huvudmenyn.
 
 ## Översikt över målets förlopp och tröskelvärde
 

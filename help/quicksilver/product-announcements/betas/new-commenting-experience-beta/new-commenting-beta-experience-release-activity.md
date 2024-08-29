@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 0%
@@ -33,9 +33,9 @@ ht-degree: 0%
 >
 >Betaprogrammet för den nya kommentarsupplevelsen inleddes i april 2023 och avslutades i oktober 2023, med versionen från oktober 2023.
 > 
+>Alla funktioner som ingår i den nya kommentarsupplevelsen har varit tillgängliga för alla kunder i produktionsmiljön sedan 11 april 2024.
 >Mer information finns i [Ny kommentarsfunktion](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
->Alla funktioner som ingår i den nya kommentarsupplevelsen har varit tillgängliga för alla kunder i produktionsmiljön sedan 11 april 2024.
 
 ## Ny plats för kommenteringsupplevelsen och lansera tidslinjen
 

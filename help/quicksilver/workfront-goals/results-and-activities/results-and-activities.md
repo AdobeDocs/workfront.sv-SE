@@ -8,9 +8,9 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '205'
 ht-degree: 0%
 
 ---
@@ -18,22 +18,22 @@ ht-degree: 0%
 
 # Resultat och aktiviteter i Adobe Workfront mål
 
-Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
-
-* För den nya planen och licensstrukturen:
-
-   * En Ultimate-plan
-
-     eller
-
-     Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. Mer information finns i [Adobe Workfront-plan](https://www.workfront.com/plans).
-
-* För aktuell plan och licensstruktur:
-
-   * En Pro eller högre
-   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
-
-Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+>[!IMPORTANT]
+>
+>Din organisation måste ha följande för att kunna använda de funktioner som beskrivs i den här artikeln:
+>
+>* För den nya planen och licensstrukturen:
+>
+>   * Den ultimata Workfront-planen
+>    
+>* För aktuell plan och licensstruktur:
+>
+>   * En plan för Pro eller senare Workfront
+>   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
+>
+>Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
+> 
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Om du vill registrera framsteg med Workfront-mål måste du koppla förloppsindikatorer till målen. Förutom resultat och aktiviteter kan du även associera projekt eller underordnade mål med ett mål för att registrera framsteg.
 

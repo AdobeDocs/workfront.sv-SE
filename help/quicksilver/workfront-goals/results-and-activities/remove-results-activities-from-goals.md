@@ -7,9 +7,9 @@ description: Du kan ta bort resultat, aktiviteter och projekt från mål i Adobe
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '732'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,8 @@ Du måste ha följande:
    <td role="rowheader">Adobe Workfront-plan*</td> 
    <td> 
    <p>För den nya planen och licensstrukturen:
-  <ul><li>En Ultimate-plan </li>
-  eller
-  <li>Ytterligare en licens för Adobe Workfront Goals för Prime- eller Select Adobe Workfront-planerna. </li></ul> </p>
+  <ul><li>En Ultimate-plan </li></ul>
+   </p>
 <p>För aktuell plan och licensstruktur: 
 <ul><li> En Pro eller högre </li>
   <li>En Adobe Workfront Goals-licens förutom en Workfront-licens.</li></ul></p>

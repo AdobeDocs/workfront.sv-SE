@@ -7,9 +7,9 @@ description: Workfront-mål hjälper er att definiera, kommunicera och uppnå st
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,8 @@ ht-degree: 0%
 >   * En Adobe Workfront Goals-licens förutom en Workfront-licens.
 >
 >Kontakta er kontoansvarige på Workfront för att få veta mer om en Workfront Goals-licens.
-
+> 
+>Mer information om åtkomst till Workfront-mål finns i [Krav för att använda Workfront-mål](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Workfront-mål hjälper er att definiera, kommunicera och uppnå strategiska resultat genom att koppla ihop strategi för att genomföra arbetet och leverera det. Ni kan fokusera på det som verkligen betyder något för alla, göra framsteg mätbara och göra det möjligt för team att uppnå enastående resultat. Folk kan göra sitt bästa i vetskapen om att deras bidrag har en meningsfull effekt.
 
@@ -42,9 +43,9 @@ Mer information om de bästa sätten att använda Workfront-mål finns i [Kom ig
 >
 >Strategiska mål som ni hanterar med hjälp av Workfront-mål får inte blandas ihop med projektnivåmål som ingår i projektets affärsmål. Mer information om mål på projektnivå finns i [Skapa mål för affärsärenden](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
-## Funktioner som ingår i Workfront mål
+## Workfront Goals-funktioner
 
-Följande funktionalitet ingår för närvarande i Workfront Goals:
+Följande funktionalitet ingår i Workfront-målen:
 
 * Skapa kvartalsvisa eller årsvisa mål och tilldela dem till användare, team, grupper eller till din organisation. Du kan också anpassa måltidslinjer.
 

@@ -3,9 +3,10 @@ title: Lista över arbetsytemallar
 description: En arbetsyta är en samling posttyper som används av ett team och representerar teamets arbetslivscykel. Adobe Workfront Planning innehåller en uppsättning mallar som hjälper dig att komma igång med grundläggande posttyper och fält när du skapar arbetsytan.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '531'
 ht-degree: 0%

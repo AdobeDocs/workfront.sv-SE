@@ -3,11 +3,12 @@ title: Hantera aviseringar om Adobe Workfront-planering i appen
 description: När någon taggar dig i en postkommentar får du ett e-postmeddelande för den taggen.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -23,8 +24,7 @@ Du kan få meddelanden i appen från Workfront Planning när följande scenarier
 
   Mer information om hur du taggar andra i en postkommentar finns i [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md).
 * Någon ber om din behörighet att komma åt en vy eller arbetsyta
-* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--verify this-->
-* Någon har nekat dig åtkomst för en vy eller arbetsyta. <!--verify this-->
+* Någon bekräftar att din åtkomst har beviljats för en vy eller arbetsyta <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Åtkomstkrav
 
@@ -64,7 +64,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
-<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience.</p> 
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. (Valfritt) Klicka på **Markera alla som lästa** för att ange att du har läst alla meddelanden.
 1. (Valfritt) Klicka på **Visa alla** för att gå till sidan **Meddelanden** i Adobe Experience Cloud.
 
+## Hantera meddelanden i appen när du begär och beviljar behörigheter
 
-## Hantera meddelanden i appen när du begär, beviljar eller nekar behörigheter till en vy eller arbetsyta
+Du får meddelanden i appen när någon begär eller ger dig behörighet till en vy eller arbetsyta.
 
 Mer information om att begära, bevilja eller neka behörigheter för en vy eller arbetsyta finns i [Begär behörigheter för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
+
+Information om hur du hanterar dina Workfront Planning-meddelanden finns i [Hantera aviseringsinställningar för Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
