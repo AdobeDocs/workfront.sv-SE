@@ -6,9 +6,9 @@ description: Du måste skapa en resurspool innan du kan associera den med använ
 author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -33,38 +33,45 @@ Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../..
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro och högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro och högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt, mallar och användare som du associerar resurspoolerna med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Hantera behörigheter för de projekt, mallar och användare som du vill associera resurspoolerna med</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Associera resurspooler med en användare
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step-1-to-users}}
 
-1. Klicka på **Användare**.
 1. Markera rutan bredvid namnet på en användare i listan och klicka sedan på **Redigera**.
 1. Klicka på **Resursplanering**.
 1. Börja skriva namnet på en resurspool som du vill associera med användaren i fältet **Resurspooler** och markera den sedan i listan när den visas.\
@@ -83,9 +90,8 @@ Du kan redigera flera användare samtidigt och associera samma resurspooler med 
 
 Så här associerar du resurspooler med flera användare samtidigt:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step-1-to-users}}
 
-1. Klicka på **Användare**.
 1. Markera flera användare i listan och klicka på **Redigera**.
 1. Klicka på **Resursplanering**.
 1. Börja skriva namnet på en resurspool som du vill associera med användarna i fältet **Resurspooler** och markera den sedan i listan när den visas.\

@@ -6,9 +6,9 @@ description: Även om det inte finns någon gräns för hur många användare du
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---
@@ -27,33 +27,32 @@ Mer information om resurspooler finns i [Översikt över resurspooler](../../../
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro och högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro och högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Visa eller ge användare högre åtkomst</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>(NOTE:&nbsp;I don't think this is needed for removing users from the pool)</p> <p>Manage permissions for the projects, templates, and users you associate the Resource Pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Visa eller ge användare högre åtkomst</p></td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

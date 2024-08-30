@@ -4,12 +4,12 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Kom igång med resurshantering
 description: Med Resurshantering kan du konfigurera ditt system så att användningen av dina resurser beräknas utifrån tillgängligheten, så att det arbete som måste utföras i tid och budget slutförs korrekt.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -137,11 +137,11 @@ Följande användare har tillgång till verktygen för resurshantering i Workfro
 Du måste vara en av följande användare och ha följande åtkomst och behörigheter för att komma åt resurshanteringsverktygen:
 
 * Systemadministratören.
-* En användare med en planlicens.
+* En användare med en Standard- eller Plan-licens.
 
   En användare med en arbetslicens kan använda belastningsutjämnaren för ett projekt och hantera tilldelningar och tilldelningar.
 
-  Förutom att du har en Work-licens eller en senare licens måste du ha följande för att kunna använda specifika resurshanteringsverktyg:
+  Förutom att du har en licens för Work (Work) eller högre (eller en standardlicens) måste du ha följande för att kunna använda specifika resurshanteringsverktyg:
 
    * Redigera åtkomst till resurshantering (behövs inte för att göra tilldelningar i arbetsbelastningsutjämnaren)
    * Redigera åtkomst till finansiella data för att visa kostnadsinformation i resursplaneraren
@@ -168,7 +168,6 @@ Du måste uppfylla en uppsättning krav innan du kan använda resurshanteringsve
 Mer information om kraven för varje resurshanteringsverktyg i Workfront finns i:
 
 * Avsnittet [Krav för att arbeta i resursplaneraren](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) i artikeln [Resursplaneringsöversikt](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * Avsnittet [Bästa tillvägagångssätt för att använda arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) i artikeln [Översikt över belastningsutjämnaren](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Åtkomst krävs för att budgetera resurser i Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Åtkomst krävs för att hantera resurser i arbetsbelastningsutjämnaren](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

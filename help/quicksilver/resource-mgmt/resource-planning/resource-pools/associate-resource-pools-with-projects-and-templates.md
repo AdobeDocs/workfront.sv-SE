@@ -6,9 +6,9 @@ description: Resurspooler är användarsamlingar som hjälper dig att hantera re
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -41,32 +41,40 @@ Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../..
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro och högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro och högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Hantera resurspooler</p> <p>Redigera åtkomst till projekt, mallar och användare</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt, mallar och användare som du associerar resurspoolerna med</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Hantera behörigheter för de projekt, mallar och användare som du vill associera resurspoolerna med</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Associera resurspooler med ett projekt eller en mall
 
