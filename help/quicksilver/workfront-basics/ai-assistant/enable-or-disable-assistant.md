@@ -5,7 +5,7 @@ description: Du kan styra vilka åtkomstnivåer i organisationen som har tillgå
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 091e59dcdd2c3844bda08bb8ed9d22a5f0060e59
+source-git-commit: 88efd929f48ba73993a2bb503b6c3fa3420f90d2
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -57,5 +57,5 @@ Så här inaktiverar du AI Assistant för en given åtkomstnivå:
 1. I fönstret Redigera åtkomstnivå bläddrar du nedåt i fönstret och klickar på **Ange ytterligare begränsningar..**.
 1. Aktivera alternativet **Inaktivera Workfront AI Assistant** i området Ange ytterligare begränsningar.
 1. Klicka på **Spara**.
-1. Upprepa steg 3-6 för varje åtkomstnivå som du vill aktivera AI-assistenten för.
+1. Upprepa steg 3-6 för varje åtkomstnivå som du vill inaktivera AI-assistenten för.
 
