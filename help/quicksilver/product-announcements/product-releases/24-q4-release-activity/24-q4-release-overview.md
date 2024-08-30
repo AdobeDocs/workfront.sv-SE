@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 >
 >| Månadsrelease | Kvartalsvis utgivning |
 >|----|----|
->| <ul><li>24.8 (augusti 2024)</li><li>24.9 (september 2024)</li><li>24.10 (oktober 2024)</li></ul> | <ul><li>24.10 (oktober 2024)</li></ul> |
+>| <ul><li>24.8 (15 augusti 2024)</li><li>24.9 (12 september 2024)</li><li>24.10 (oktober 2024)</li></ul> | <ul><li>24.10 (oktober 2024)</li></ul> |
 >
 >Observera att för den sista utgåvan av varje kvartal (24.10 i kvartal) kommer användare med fast releaseschema att få releasen en dag i förtid.
 >
@@ -58,6 +58,25 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Återställa kampanjer för miljöförbättringar</a></p>
+                        <p>För att göra miljökampanjen mer flexibel och enklare att använda har vi aktiverat återställningsfunktionen. Nu kan du återställa paket inom 24 timmar, så att du enklare kan återställa tidigare konfigurationer som har påverkats av ett paket för miljöbefordran.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 29 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: Med version 24.9 (12 september 2024)</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layoutknappen i den anpassade formulärdesignern tillåter två eller tre kolumner</a></p>
                         <p>Med en layoutknapp i den anpassade formulärdesignern kan du välja mellan två- eller trekolumnsarbetsytor. Den ursprungliga formulärdesignern använder tre kolumner och fältinställningarna visas i kolumnen längst till höger. Om du markerar två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.</p>
                     </td>
@@ -67,7 +86,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                                 <p>Förhandsversion: 12 augusti 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: Med version 24.9 (september 2024)</p>
+                                <p>Production for fast release: Med version 24.9 (12 september 2024)</p>
                             </li>
                             <li>
                                 <p>Produktionsrelease för alla kunder: TBD</p>
@@ -192,6 +211,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Kromiumuppdatering för Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi uppgraderar Desktop Proofing Viewer till stöd för Chromium 126.0.6478.127 som löser problem med gränssnittselement i interaktiva korrektur.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -217,6 +237,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allmän tillgänglighet för Adobe Workfront Planning</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront Planning är tillgängligt för alla kunder som har köpt en Workfront Planning-licens, utöver Workfront-licensen. Kontakta din kontorepresentant om du vill ha mer information om Workfront Planning.</p>
                         <p>Information om den senaste utgåvan av Workfront Planning varje kvartal finns i avsnittet <a href="#workfront-planning-enhancements">Förbättringar av Workfront Planning</a> nedan.</p>
                     </td>
@@ -231,6 +252,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI Assistant finns i Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi har lagt till Adobe AI Assistant till Workfront så att du enklare kan utföra ditt arbete. AI Assistant kan hjälpa dig genom att:</p>
                         <ul>
                             <li>Sammanfatta arbetsobjekt och dokument så att du snabbt kan få en allmän förståelse för uppgifter, projekt och resurser.</li>
