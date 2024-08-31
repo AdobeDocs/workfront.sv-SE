@@ -4,8 +4,9 @@ description: Ett s√§tt att ange hur enskilda posttyper relaterar till varandra √
 feature: Workfront Planning
 role: User
 author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
 source-wordcount: '2137'
 ht-degree: 0%
