@@ -7,9 +7,9 @@ description: Läs de här tipsen när du får ett felmeddelande om att användar
 author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -18,26 +18,35 @@ ht-degree: 0%
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Alla</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront</p> </td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens</strong></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Nytt: Standard</p>
+   <p>eller</p>
+   <p>Aktuell: Planera</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Konfigurationer på åtkomstnivå</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Systemadministratör</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Fråga
 
@@ -57,7 +66,8 @@ Detta kan bero på att användarnamnet eller e-postadressen inte är unik i den 
 
 Kontrollera att användarnamnet och e-postadressen är unika i den aktuella [!DNL Workfront]-instansen:
 
-1. Som [!DNL Workfront]-administratör klickar du på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och sedan på **[!UICONTROL Users]**.
+{{step-1-to-users}}
+
 1. I listan med personer kan du kontrollera i kolumnen **[!UICONTROL Email]** för att se till att det inte finns några dubbla e-postmeddelanden.
 1. Lägg till en kolumn för användarnamn i vyn.
 

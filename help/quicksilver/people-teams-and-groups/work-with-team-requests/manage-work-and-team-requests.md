@@ -7,9 +7,9 @@ description: En begäran representerar en väntande aktivitet eller utleverans. 
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -24,26 +24,36 @@ En begäran representerar en väntande aktivitet eller utleverans. Arbetsförfr�
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alla</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] licens*</strong></td> 
-   <td> <p>Granska eller högre för att tilldela eller arbeta med en begäran; Arbeta eller högre för att tilldela om en begäran</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+   <p>Så här tilldelar du eller arbetar med en begäran:
+   <p>Nytt: Ljus eller högre </br>
+    eller</br>
+   Aktuell: Granska eller senare</p>
+   <p>Så här tilldelar du om en begäran:
+   <p>Nytt: Standard</br>
+    eller</br>
+   Aktuell: Arbete eller högre</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Tilldela en förfrågan till ett team {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ Du kan manuellt tilldela en begäran till ett team från teamsidan, enligt beskr
 
 Så här tilldelar du en förfrågan till ett team manuellt från teamsidan:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 
@@ -80,7 +90,8 @@ Så här tilldelar du en förfrågan till ett team manuellt från teamsidan:
 
 Du kan tilldela om begäranden som har tilldelats ditt team:
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. Klicka på ikonen **[!UICONTROL Switch team]** ![Byt ikon för team](assets/switch-team-icon.png) och välj sedan ett nytt team i listrutan eller sök efter ett team i sökfältet.
 1. Välj **[!UICONTROL Team Requests]** i den vänstra navigeringspanelen.
 1. Klicka på ikonen **[!UICONTROL Reassign]**.
