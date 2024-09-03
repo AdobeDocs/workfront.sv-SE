@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
@@ -104,11 +104,13 @@ Om du vill utföra dem för en grupp måste du vara gruppchef</p> <p><b>Obs!</b>
 1. I avsnittet **Detaljer** gör du något av följande för att anpassa vad användarna ser i detaljvyn:
 
    * Dra avsnittshuvuden ![](assets/move-icon---dots.png) för att ändra deras ordning.
-   * Aktivera eller inaktivera alternativ under **Översikt** och **Anpassad Forms** för att visa eller dölja dem.
+   * Aktivera eller inaktivera alternativ under de olika områdena (till exempel **Översikt**, **Ekonomi** och **Anpassad Forms**) för att visa eller dölja dem.
 
      Om du döljer alla fält i ett av dessa avsnitt, döljs hela avsnittet.
 
-     Alla fält är aktiverade som standard.
+     Alla fält är aktiverade som standard. Du kan markera eller avmarkera kryssrutan **Markera alla** i ett område om du vill visa eller dölja alla fält i det området.
+
+   ![Vyn Detaljer i layoutmallen](assets/layout-template-details-view.png)
 
 1. Fortsätt att anpassa layoutmallen.
 
