@@ -8,9 +8,9 @@ description: Följande allmänna funktioner är tillgängliga på panelen för m
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '322'
 ht-degree: 0%
 
 ---
@@ -73,6 +73,12 @@ Returnerar värdesökvägen för ett objekt eller en array. Använd punktnotatio
 
 Returnerar `value1` om uttrycket utvärderas till true, annars returneras `value2`.
 
+Om du vill skapa en if-programsats som bara returnerar ett värde om två eller flera uttryck utvärderas till true använder du nyckelordet `and`.
+
+Använd operatorerna `and` och `or` om du vill kombinera `if`-satser.
+
+![och operator](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**Exempel:**
@@ -81,9 +87,14 @@ Returnerar `value1` om uttrycket utvärderas till true, annars returneras `value
 >
 >    Returnerar A
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   Returnerar B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    Returnerar B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ Returnerar `value1` om det här värdet inte är tomt, annars returneras `value2
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Utvärderar ett värde (kallas uttryck) mot en lista med värden. Returnerar resultatet som motsvarar det första matchande värdet.
+Utvärderar ett värde (kallas uttryck) mot en lista med värden. Returnerar resultatet som motsvarar det första matchande värdet. Om du vill ta med ett `else`-värde lägger du till det efter det sista uttrycket eller värdet.
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ Utvärderar ett värde (kallas uttryck) mot en lista med värden. Returnerar res
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  Returnerar 4
+>   Returnerar 4
+>   
+>   I den här funktionen är 4 det värde som ska returneras om inga uttryck används (värdet `else`).
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
