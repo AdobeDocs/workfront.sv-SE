@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,24 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Tom skärmkorrigering för Windows-användare med Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>Ett problem med den nya versionen av 2.1.36 Desktop Proofing Viewer som gjorde att vissa Windows-användare såg en tom skärm när de öppnade visningsprogrammet har åtgärdats. </p>
+                        <p>Ny version för Windows-användare: 2.1.37</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 30 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 30 augusti 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
