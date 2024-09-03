@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
+source-wordcount: '1392'
 ht-degree: 0%
 
 ---
@@ -356,10 +356,12 @@ När du visar tabellvyn kan du även visa vilket fält en annan användare redig
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Villkorligt) Öppna en tabellvy och det fält som någon annan redigerar markeras i den färg som motsvarar konturen av deras avatar i tabellvyn.
+1. (Villkorligt) Öppna en tabellvy och det fält som någon annan redigerar markeras i den färg som motsvarar konturen för avataren i tabellvyn.
+
+   Om avatarens högdagerfärg är grå redigerade användaren inte posten för mer än 30 sekunder sedan.
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det redigerade fältet visas bara med konturer i tabellvyn.
+   >Du kan välja alternativet **Visa medarbetare** från vilken vy som helst. Det fält som redigeras av andra kontureras bara i tabellvyn.

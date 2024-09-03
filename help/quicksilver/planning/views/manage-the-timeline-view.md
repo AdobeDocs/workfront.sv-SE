@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 0%
 
 ---
@@ -403,7 +403,7 @@ Du kan visa anslutna poster i en posts tidslinjevy genom att använda funktionen
 * Du kan visa anslutna poster eller objekt under posterna för den valda posttypen i tidslinjevyn.
 * Du kan visa följande i tidslinjevyn med hjälp av funktionen Uppdelning:
    * Workfront Planning-poster kopplade till den valda posttypen.
-   * Workfront-objekttyper (************* eller AEM Assets *************) som är kopplade till den valda posttypen.
+   * Workfront-objekttyper eller Experience Manager-resurser som är kopplade till den valda posttypen.
    * Workfront Planning-poster eller objekt från andra program som är anslutna till poster som är kopplade till den valda posttypen.
 
      Du kan till exempel koppla kampanjer till portföljer. Dessutom kan ni koppla samman en annan posttyp, produkter, projekt och kampanjer. När ni bygger kampanjens tidslinjevy kan ni dela upp kampanjerna efter portföljer, produkter och projekt.

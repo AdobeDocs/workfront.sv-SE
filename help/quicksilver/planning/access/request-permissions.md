@@ -5,15 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
 
 
 # Begära behörigheter till en vy eller arbetsyta
+
+>[!IMPORTANT]
+>
+>De funktioner som beskrivs i den här artikeln är bara tillgängliga när din organisation har anslutit sig till Adobe Unified Experience.
+>
+>Mer information finns i [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
 
 Du kan begära behörigheter för en vy eller arbetsyta när någon delar en länk med dig till vyn eller arbetsytan som du inte har åtkomst till.
 
@@ -66,6 +73,8 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience för att få tillgång till alla funktioner i Workfront Planning.</p> 
+<p><b>VIKTIGT</b></p>
+<p>Användarna i din organisation kan begära behörigheter för vyer och arbetsytor endast när din organisation är registrerad på Adobe Unified Experience. </p>
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 

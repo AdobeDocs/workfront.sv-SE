@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -64,6 +64,7 @@ Du kan få e-postmeddelanden från Workfront Planning när följande scenarier f
    <td role="rowheader"><p>Adobe Workfront</p></td> 
    <td> 
 <p>Din organisations instans av Workfront måste integreras med Adobe Unified Experience.</p> 
+<p>Användarna i din organisation får meddelanden från Workfront Planning endast när din organisation är registrerad på Adobe Unified Experience. </p>
 <p>Mer information finns i <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 

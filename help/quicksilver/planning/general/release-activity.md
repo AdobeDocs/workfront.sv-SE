@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,11 @@ Förhandsgranska och produktion: 28 augusti 2024
 När du begär åtkomst till en arbetsyta eller vy får användaren som du begär åtkomst från ett e-postmeddelande om begäran. När din begäran har beviljats får du ett e-postmeddelande med en bekräftelse på att din begäran har godkänts.
 
 Du kan komma åt vyn eller arbetsytan från e-postmeddelandet när behörighet har beviljats.  <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>Din organisation måste vara registrerad på Adobe Unified Experience för att användare ska kunna begära och bevilja behörigheter för en vy eller en arbetsyta från en behörighetsbegäran.
+
 
 Mer information finns i [Begär behörighet för en vy eller en arbetsyta](/help/quicksilver/planning/access/request-permissions.md).
 
