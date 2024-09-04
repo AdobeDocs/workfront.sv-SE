@@ -2,12 +2,12 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Översikt över resursplanering
+title: Resursplanering - översikt
 description: Du kan beräkna och budgetera allokeringen av dina resurser till de projekt som de är tilldelade och prognostisera deras tillgänglighet för framtida arbete med hjälp av Resursplanering.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
 ht-degree: 0%

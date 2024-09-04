@@ -6,7 +6,7 @@ description: Även om det inte finns någon gräns för hur många användare du
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td role="rowheader">Adobe Workfront</td> 
    <td><p>Nytt: Alla</p>
        <p>eller</p>
-       <p>Aktuell: Pro och högre</p> </td> 
+       <p>Aktuell: Pro eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 

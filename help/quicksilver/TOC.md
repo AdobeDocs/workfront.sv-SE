@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '14363'
+source-wordcount: '14362'
 ht-degree: 0%
 
 ---
@@ -1756,7 +1756,7 @@ ht-degree: 0%
          * [Associera resurspooler med användare](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [Ta bort användare från resurspooler](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [Kom igång med resursplanering](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [Tillgång till budgetresurser i Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [Tillgång till budgetresurser i Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [Översikt över resursplanering](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Leta reda på resursplaneraren](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [Översikt över navigering i resursplanering](resource-mgmt/resource-planning/resource-planner-navigation.md)

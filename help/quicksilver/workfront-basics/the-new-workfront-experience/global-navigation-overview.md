@@ -5,9 +5,9 @@ description: Det övre navigeringsfältet - som visas högst upp på skärmen i 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
@@ -32,11 +32,13 @@ Workfront-administratören kan anpassa hemikonen för att öppna en annan sida g
 
 Du kan fästa sidor som du besöker ofta så att de visas i det övre navigeringsfältet. Mer information om fasta sidor finns i [Anpassa arbetsytan genom att fästa sidor](../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-## [!UICONTROL Help]-menyn
+<!--
+## [!UICONTROL Help] menu
 
-På menyn **[!UICONTROL Help]** kan du söka efter hjälp med en viss uppgift, hitta mer information om hur du använder [!DNL Workfront], visa innehåll som är relaterat till sidan som du är på eller skicka feedback om din upplevelse.
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-Mer information om hjälpmenyn finns i [Åtkomst [!DNL Adobe Workfront] hjälpen](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL Notifications]-menyn
 

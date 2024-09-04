@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Granska resurstillgänglighet och allokering med Adobe Workfront Resource Planner
+title: Granska resurstillgänglighet och allokering med hjälp av Adobe Workfront resursplanerare
 description: Du kan visa tillgängligheten för dina resurser och mängden planerat eller budgeterat arbete för dina projekt i resursplaneraren. Dessa värden visas i timmar, FTE (heltidsekvivalent) eller kostnadsbelopp och är ordnade i kolumner.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Du kan visa tillgängligheten för dina resurser och mängden planerat eller bud
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro och högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Ljus eller högre</p>
+       <p>eller</p>
+       <p>Aktuell: Granska eller senare</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
      <li> <p>Resurshantering</p> </li> 
      <li> <p>Finansiella data</p> </li> 
      <li> <p>Användare</p> </li> 
      <li> <p>Projekt</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för de projekt som du vill visa i resursplaneraren</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa eller högre behörigheter för de projekt som du vill visa i resursplaneraren</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## Förutsättningar
 
@@ -173,9 +173,7 @@ Tänk på följande när du ändrar vyn till Resursplanering:
 
    När du väljer det här alternativet beräknar Workfront nettovärdena med följande formel:
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

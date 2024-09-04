@@ -2,13 +2,13 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Leta reda på resursplaneraren
-description: '(Den här artikeln kom ut: utkast till det innehållet i artikeln när den här artikeln publicerades: /Content/Resource Management/Resource Planning/get-started-resource-planner.html)'
-author: Alina
+description: Du kan använda Resursplanering för att hantera tilldelningen av resurser till projekt. Du kan komma åt resursplaneraren för flera projekt samtidigt eller för ett projekt från projektets ärendeområde.
+author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -23,38 +23,42 @@ Du kan använda Resursplanering för att hantera tilldelningen av resurser till 
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro och högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Granska eller högre<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> <p>Planera eller högre för att hitta resursplaneraren i det globala området</p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Ljus eller högre;</br>
+          Standard för att hitta resursplaneraren på huvudmenyn</p>
+       <p>eller</p>
+       <p>Aktuell: Granska eller högre;</br>
+       Planera att hitta resursplaneraren på huvudmenyn</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller senare till resurshantering</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller senare till resurshantering</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa behörigheter för projekt och användare </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Visa behörigheter för projekt och användare </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -79,14 +83,14 @@ När du använder Resursplanering för flera projekt representerar resursalloker
 
 Så här öppnar du planeringsavsnittet i resursområdet:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klicka på **Resurs**. Planeraren visas som standard.  Mer information om budgeteringsresurser i resursplaneraren finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Planeraren visas som standard.  Mer information om budgeteringsresurser i resursplaneraren finns i artikeln [Budgetresurser i resursplaneraren med projekt- och rollvyerna](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-   ![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
-1. Håll pekaren över den vänstra panelen och klicka på **Resurspooler**.\
-   Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+1. Klicka på **Resurspooler** i den vänstra panelen.
+Mer information om hur du skapar resurspooler finns i [Skapa resurspooler](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Använd resursplaneraren för ett projekt {#use-the-resource-planner-for-one-project}
 

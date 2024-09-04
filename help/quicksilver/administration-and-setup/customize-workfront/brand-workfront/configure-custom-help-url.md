@@ -3,14 +3,14 @@ title: Konfigurera en anpassad hjälp-URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Om du skapar en anpassad intern hjälpwebbplats som innehåller information om hur din organisation använder Workfront kan du konfigurera hjälpikonen för huvudmenyn för att gå till den webbplatsen. Detta påverkar inte huvudhjälplänken på huvudmenyn och de sammanhangsberoende hjälplänkarna i hela Workfront, som tar användare till Workfront hjälpwebbplats.
+description: Om du skapar en anpassad intern hjälpwebbplats som innehåller information om hur din organisation använder Workfront kan du konfigurera hjälpikonen för huvudmenyn för att gå till den webbplatsen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,9 @@ Om du skapar en anpassad intern hjälpwebbplats som innehåller information om h
 
 ![](assets/custom-help-button.png)
 
-Detta påverkar inte huvudhjälplänken på huvudmenyn och de sammanhangsberoende hjälplänkarna i hela Workfront, som tar användare till Workfront hjälpwebbplats.
+Detta påverkar inte de sammanhangsberoende hjälplänkarna i Workfront, som tar användarna till Workfront hjälpwebbplats.
 
-![](assets/custom-help-url.png)
-
-Information om hur användare kommer åt både en anpassad hjälp-URL som du konfigurerar i Workfront och den vanliga Workfront-hjälpwebbplatsen finns i [Få tillgång till Workfront-hjälpen i den nya Adobe Workfront-upplevelsen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Mer information om hur användare kommer åt både en anpassad hjälp-URL som du konfigurerar i Workfront och den vanliga Workfront-hjälpwebbplatsen finns i [Få åtkomst till Adobe Workfront-hjälpen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Åtkomstkrav
 
@@ -64,3 +62,5 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    Om din anpassade hjälpplats kräver inloggningsuppgifter krävs dessa för användare när de kommer åt webbplatsen från Workfront. Autentiseringsuppgifterna till din anpassade hjälpwebbplats kan behöva hanteras separat från Workfront-autentiseringsuppgifterna om du inte använder enkel inloggning (SSO).
 
 1. Klicka på **Spara**.
+
+   När du har sparat en anpassad hjälp-URL kan du gå tillbaka till Workfront standardhjälpwebbplats genom att ta bort den anpassade URL:en och klicka på **Spara**.

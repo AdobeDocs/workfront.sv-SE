@@ -4,10 +4,10 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Kom igång med resursplanering
 description: Du kan använda resursplaneringsverktygen för att hantera dina jobbroller, deras tillgänglighet och allmänna tilldelning till projekt baserat på den här tillgängligheten.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%

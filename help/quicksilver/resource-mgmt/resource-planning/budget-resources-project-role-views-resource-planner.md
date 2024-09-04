@@ -3,12 +3,12 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Budgetresurser i resursplaneraren med projekt- och rollvyerna
 description: Du kan budgetera resurser i Adobe Workfront Resursplanering med projekt- och rollvyerna. Du kan inte budgetera resurser med användarvyn i resursplaneraren.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2121'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,8 @@ Läs följande artiklar innan du börjar budgetera information i resursplanerare
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Pro och högre</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+    <td><p>Nytt: Alla</p>
+       <p>eller</p>
+       <p>Aktuell: Pro eller högre</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data till budgetresurser perCost</p> <p>Redigera åtkomst till projekt och användare</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Redigera åtkomst till resurshantering som inkluderar åtkomst till Redigera prioriteringar och budgettimmar i Resursplanering</p> <p>Redigera åtkomst till finansiella data för att budgetera resurser efter kostnad</p> <p>Redigera åtkomst till projekt och användare</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>Hantera behörigheter för de projekt som du vill budgetera information för</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Budgetresurser i resursplaneraren
 
@@ -74,9 +80,8 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Klicka på **Resurs**.
 1. **Planeraren** visas som standard.
 1. (Villkorligt) Välj vyn **Visa efter projekt**.
 1. Expandera projekten och jobbrollerna för att hantera allokeringen för projektet, jobbrollerna eller användarna.
@@ -87,9 +92,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * Klicka på menyn **Mer** för användarens jobbroll och klicka sedan på **Ange användares planerade timmar som budgeterade**.\
      Varje användares budgeterade timmar beräknas med följande formel:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Gör något av följande om du vill budgetera allokering för jobbroller:
 
@@ -102,17 +105,13 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * (Villkorligt) Om du har budgeterat timmar för användare klickar du på menyn **Mer** för jobbrollen och sedan på **Totalt antal användares budgeterade timmar för rollen**.\
      Budgeterade timmar för varje roll beräknas med följande formel:
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * Klicka på menyn **Mer** för projektet och klicka sedan på **Ange rollernas planerade timmar som budgeterade**.\
      Budgeterade timmar för varje roll beräknas med följande formel:\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de 
    * Budgetera rollerna under projektet enligt beskrivningen i steg 7.\
      Projektets budgeterade timmar beräknas enligt följande formel:
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * I kolumnen **BDG** anger du manuellt antal budgeterade timmar, heltidsekvivalenter eller kostnader för projektet.\
      Detta uppdaterar rollbudgeterade timmar enligt beskrivningen i steg 7.\
@@ -175,9 +172,7 @@ Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
    * Klicka på menyn **Mer** för projektet och klicka sedan på **Ange användares planerade timmar som budgeterade**.\
      Varje användares budgeterade timmar beräknas med följande formel:
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. Gör något av följande om du vill budgetera allokering för jobbroller:
 
@@ -187,15 +182,11 @@ Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
    * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade.**Rollbudgeterade timmar beräknas med följande formel:\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *Projektets budgeterade timmar beräknas med följande formel:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * I kolumnen **BDG** anger du manuellt antal budgeterade timmar, heltidsekvivalenter eller kostnader för de projekt som listas under jobbrollen.\
      Detta lägger till antalet projektbudgeterade timmar i rollen.
@@ -213,24 +204,20 @@ Om du vill budgetera allokeringar i resursplaneraren i rollvyn***:
    * Klicka på menyn **Mer** för jobbrollen och klicka sedan på **Ange projektens planerade timmar som budgeterade**.\
      Projektets budgeterade timmar beräknas enligt följande formel:
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      Projektets budgeterade timmar läggs till i rollens budgeterade timmar.
 
    * (Villkorligt) Om du har budgeterat timmarna för användarna klickar du på menyn **Mer** för projektet och sedan på **Totalt antal användares budgeterade timmar för projektet**.\
      Projektets budgeterade timmar beräknas med följande formel:
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. Klicka på **Spara**.\
-   När du har budgeterat dina resurser i resursplaneraren visas de budgeterade timmarna för dina resurser och eventuella kostnader som är kopplade till dem i affärsärendet för varje projekt.\
-   Mer information om hur du förstår resursbudgeteringsområdet för affärsärendet finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   När du har budgeterat dina resurser i resursplaneraren visas de budgeterade timmarna för dina resurser och eventuella kostnader som är kopplade till dem i affärsärendet för varje projekt.
+Mer information om hur du förstår resursbudgeteringsområdet för affärsärendet finns i artikeln [Budgetresurser i affärsärendet](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Valfritt) Markera vyn **Visa efter användare** om du vill att användaröverbeläggningar eller underutnyttjande mellan tillgängliga och planerade timmar ska visas för varje användare. Budgeterade timmar visas inte i vyn Visa efter användare.
 
