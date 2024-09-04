@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '1717'
 ht-degree: 0%
@@ -94,8 +94,27 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ### Utlösare
 
-* [[!UICONTROL Watch records]](#watch-records)
 * [[!UICONTROL Watch events (Instant)]](#watch-events-instant)
+* [[!UICONTROL Watch records]](#watch-records)
+
+#### [!UICONTROL Watch events (Instant)]
+
+Den här utlösarmodulen startar ett scenario när en post skapas eller uppdateras.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
+   <td> <p>Ange den webkrok som du vill att modulen ska använda.</p> <p>Mer information om webbhooks finns i <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Direktutlösare (webhooks) i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Watch records]
 
@@ -129,41 +148,22 @@ Den här utlösarmodulen startar ett scenario när en post skapas eller uppdater
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch events (Instant)]
-
-Den här utlösarmodulen startar ett scenario när en post skapas eller uppdateras.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
-   <td> <p>Ange den webkrok som du vill att modulen ska använda.</p> <p>Mer information om webbhooks finns i <a href="../../workfront-fusion/webhooks/instant-triggers-webhooks.md" class="MCXref xref">Direktutlösare (webhooks) i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Åtgärder
 
-* [[!UICONTROL Custom API call]](#custom-api-call)
-* [[!UICONTROL Create a record]](#create-a-record)
-* [[!UICONTROL Update a record]](#update-a-record)
-* [[!UICONTROL Download a File]](#download-a-file)
-* [[!UICONTROL Upload a File]](#upload-a-file)
-* [[!UICONTROL Read a record]](#read-a-record)
 * [[!UICONTROL Add Leads to a List]](#add-leads-to-a-list)
+* [[!UICONTROL Clone a Program]](#clone-a-program)
+* [[!UICONTROL Create a record]](#create-a-record)
+* [[!UICONTROL Custom API call]](#custom-api-call)
+* [[!UICONTROL Download a File]](#download-a-file)
+* [[!UICONTROL Read a record]](#read-a-record)
 * [[!UICONTROL Remove Leads from a List]](#remove-leads-from-a-list)
 * [[!UICONTROL Schedule a Campaign]](#schedule-a-campaign)
-* [[!UICONTROL Copy a Program]](#copy-a-program)
+* [[!UICONTROL Update a record]](#update-a-record)
+* [[!UICONTROL Upload a File]](#upload-a-file)
 
-#### [!UICONTROL Custom API call]
+#### [!UICONTROL Add Leads to a List]
 
-Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Marketo]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Marketo]-modulerna.
+Den här åtgärdsmodulen lägger till en eller flera leads till en lista med lead-ID:t.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -174,31 +174,39 @@ Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till 
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Ange en relativ sökväg till <code>https://{your-base-url}.mktorest.com/</code>.</td> 
+   <td role="rowheader">[!UICONTROL List ID]</td> 
+   <td>Ange eller mappa ID:t för listan där du vill lägga till leads.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL Lead IDs]</td> 
+   <td> <p>För varje lead som du vill lägga till i listan klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar sedan ID:t för det lead som du vill lägga till. Du kan lägga till upp till 300 leads för modulen som ska läggas till i listan.</p> <p>Klicka på kartväxeln för att mappa en befintlig samling leads som du vill lägga till i listan.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Clone a Program]
+
+Den här åtgärdsmodulen gör en kopia av ett program med det befintliga programmets ID.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion] lägger till auktoriseringsrubrikerna åt dig.</p> </td> 
+   <td role="rowheader">[!UICONTROL Existing Program ID]</td> 
+   <td>Ange eller mappa ID:t för programmet som du vill kopiera.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Lägg till frågan för API-anropet i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"name":"something-urgent"}</code></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL New Program Name]</p> </td> 
+   <td> <p>Ange eller mappa ett namn för det nya programmet</p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ange eller mappa det maximala antal poster som du vill att modulen ska arbeta med under varje körningscykel för scenario.</p> </td> 
+   <td role="rowheader">[!UICONTROL Folder ID]</td> 
+   <td>Ange eller mappa ID:t för mappen där du vill att det nya programmet ska placeras.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -260,6 +268,147 @@ Denna åtgärdsmodul skapar en ny post i [!DNL Marketo]
  </tbody> 
 </table>
 
+#### [!UICONTROL Custom API call]
+
+Med den här åtgärdsmodulen kan du göra ett anpassat autentiserat anrop till API:t [!DNL Marketo]. På så sätt kan du skapa en dataflödesautomatisering som inte kan utföras av de andra [!DNL Marketo]-modulerna.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td>Ange en relativ sökväg till <code>https://{your-base-url}.mktorest.com/</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Välj den HTTP-förfrågningsmetod som du behöver för att konfigurera API-anropet. Mer information finns i <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">Metoder för HTTP-begäran i [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Lägg till rubrikerna för begäran i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"Content-type":"application/json"}</code></p> <p>[!UICONTROL Workfront Fusion] lägger till auktoriseringsrubrikerna åt dig.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Lägg till frågan för API-anropet i form av ett standard-JSON-objekt.</p> <p>Exempel: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ange eller mappa det maximala antal poster som du vill att modulen ska arbeta med under varje körningscykel för scenario.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Download a File]
+
+Den här åtgärdsmodulen hämtar en fil med hjälp av fil-ID:t.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td>Mappa ID:t för filen som du vill hämta.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Read a record]
+
+Den här åtgärdsmodulen läser information om en post med hjälp av dess ID.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td> <p>Välj den typ av post som du vill skapa.</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Campaign]</p> </li> 
+     <li> <p>[!UICONTROL Company]</p> </li> 
+     <li> <p>[!UICONTROL Lead]</p> </li> 
+     <li> <p>[!UICONTROL List]</p> </li> 
+     <li> <p>[!UICONTROL Program]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td>Välj den information som du vill inkludera i utdatapaketet för den här modulen. Fälten är tillgängliga baserat på den [!UICONTROL Record Type] du har valt.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
+   <td>Ange eller mappa ID:t för objektet som du vill hämta information om.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Remove Leads from a List]
+
+Den här åtgärdsmodulen tar bort en eller flera leads från en lista med lead-ID:t.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List ID]</td> 
+   <td>Ange eller mappa ID:t för listan där du vill ta bort leads.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Lead IDs]</td> 
+   <td> <p>För varje lead som du vill ta bort från listan klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar sedan ID:t för det lead som du vill ta bort. Du kan lägga till upp till 300 leads för modulen som ska tas bort från listan. </p> <p>Klicka på kartväxeln för att mappa en befintlig samling leads som du vill ta bort från listan.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Schedule a Campaign]
+
+Den här åtgärdsmodulen schemalägger en befintlig kampanj för ett visst datum.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td>Ange eller mappa ID:t för kampanjen som du vill schemalägga.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Schedule for Date]</p> </td> 
+   <td>Välj det datum då du vill att kampanjen ska köras. Om fältet lämnas tomt körs kampanjen fem minuter efter att scenariot började.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Update a record]
 
 Den här åtgärdsmodulen uppdaterar en befintlig post med dess ID.
@@ -316,25 +465,6 @@ Den här åtgärdsmodulen uppdaterar en befintlig post med dess ID.
  </tbody> 
 </table>
 
-#### [!UICONTROL Download a File]
-
-Den här åtgärdsmodulen hämtar en fil med hjälp av fil-ID:t.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Mappa ID:t för filen som du vill hämta.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Upload a File]
 
 Den här åtgärdsmodulen överför en ny fil till [!UICONTROL Marketo].
@@ -358,136 +488,6 @@ Den här åtgärdsmodulen överför en ny fil till [!UICONTROL Marketo].
   <tr> 
    <td role="rowheader">[!UICONTROL Description]</td> 
    <td>Ange en beskrivning för den överförda filen.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Read a record]
-
-Den här åtgärdsmodulen läser information om en post med hjälp av dess ID.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Välj den typ av post som du vill skapa.</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Campaign]</p> </li> 
-     <li> <p>[!UICONTROL Company]</p> </li> 
-     <li> <p>[!UICONTROL Lead]</p> </li> 
-     <li> <p>[!UICONTROL List]</p> </li> 
-     <li> <p>[!UICONTROL Program]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td>Välj den information som du vill inkludera i utdatapaketet för den här modulen. Fälten är tillgängliga baserat på den [!UICONTROL Record Type] du har valt.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
-   <td>Ange eller mappa ID:t för objektet som du vill hämta information om.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add Leads to a List]
-
-Den här åtgärdsmodulen lägger till en eller flera leads till en lista med lead-ID:t.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List ID]</td> 
-   <td>Ange eller mappa ID:t för listan där du vill lägga till leads.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Lead IDs]</td> 
-   <td> <p>För varje lead som du vill lägga till i listan klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar sedan ID:t för det lead som du vill lägga till. Du kan lägga till upp till 300 leads för modulen som ska läggas till i listan.</p> <p>Klicka på kartväxeln för att mappa en befintlig samling leads som du vill lägga till i listan.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Remove Leads from a List]
-
-Den här åtgärdsmodulen tar bort en eller flera leads från en lista med lead-ID:t.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List ID]</td> 
-   <td>Ange eller mappa ID:t för listan där du vill ta bort leads.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Lead IDs]</td> 
-   <td> <p>För varje lead som du vill ta bort från listan klickar du på <b>[!UICONTROL Add]</b> och anger eller mappar sedan ID:t för det lead som du vill ta bort. Du kan lägga till upp till 300 leads för modulen som ska tas bort från listan. </p> <p>Klicka på kartväxeln för att mappa en befintlig samling leads som du vill ta bort från listan.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Schedule a Campaign]
-
-Den här åtgärdsmodulen schemalägger en befintlig kampanj för ett visst datum.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
-   <td>Ange eller mappa ID:t för kampanjen som du vill schemalägga.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Schedule for Date]</p> </td> 
-   <td>Välj det datum då du vill att kampanjen ska köras. Om fältet lämnas tomt körs kampanjen fem minuter efter att scenariot började.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Copy a Program]
-
-Den här åtgärdsmodulen gör en kopia av ett program med det befintliga programmets ID.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Marketo]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Marketo] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Existing Program ID]</td> 
-   <td>Ange eller mappa ID:t för programmet som du vill kopiera.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL New Program Name]</p> </td> 
-   <td> <p>Ange eller mappa ett namn för det nya programmet</p> <p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder ID]</td> 
-   <td>Ange eller mappa ID:t för mappen där du vill att det nya programmet ska placeras.</td> 
   </tr> 
  </tbody> 
 </table>

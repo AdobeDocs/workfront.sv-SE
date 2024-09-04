@@ -9,9 +9,9 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2240'
+source-wordcount: '2248'
 ht-degree: 0%
 
 ---
@@ -217,7 +217,7 @@ Den här utlösarmodulen startar ett scenario när ett objekt uppdateras i en ma
 
 ### Objekt
 
-* [[!UICONTROL Copy Item]](#copy-an-item)
+* [[!UICONTROL Copy an item]](#copy-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
 * [[!UICONTROL Get an Item]](#get-an-item)
@@ -651,6 +651,10 @@ Den här åtgärdsmodulen söker efter platser med en parameter som du anger.
 </table>
 
 ### Övriga
+
+* [Hämta ändringar](#get-changes)
+* [Göra ett API-anrop](#make-an-api-call)
+* [Se händelser](#watch-events)
 
 #### Hämta ändringar
 

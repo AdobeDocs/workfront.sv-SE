@@ -10,9 +10,9 @@ description: Med  [!DNL Adobe Experience Manager Assets] connector for [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1409'
 ht-degree: 0%
 
 ---
@@ -190,9 +190,18 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
+* [Kopiera en mapp eller resurs](#copy-a-folder-or-asset)
+* [Skapa en post](#create-a-record)
+* [Ta bort en mapp, resurs eller återgivning](#delete-a-folder-asset-or-rendition)
+* [Hämta en mapplista](#get-a-folder-listing)
+* [Göra ett anpassat API-anrop](#make-a-custom-api-call)
+* [Flytta en mapp eller resurs](#move-a-folder-or-asset)
+* [Uppdatera en post](#update-a-record)
+* [Överföra en resurs](#upload-an-asset)
+
 ### [!UICONTROL Copy a folder or asset]
 
-Den här åtgärdsmodulen kopierar en mapp eller en resurs till en annan plats i ditt Adobe Experience Manager Resurser-konto.
+Den här åtgärdsmodulen kopierar en mapp eller resurs till en annan plats på ditt Adobe Experience Manager Assets-konto.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +269,7 @@ Den här åtgärdsmodulen skapar en mapp eller en resurskommentar.
  </tbody> 
 </table>
 
-### [!UICONTROL Delete a record]
+### [!UICONTROL Delete a folder, asset, or rendition]
 
 Den här åtgärdsmodulen tar bort en mapp, en resurs eller en återgivning.
 

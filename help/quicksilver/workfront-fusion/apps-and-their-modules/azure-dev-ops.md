@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '1541'
 ht-degree: 0%
@@ -127,13 +127,13 @@ När du konfigurerar den här modulen visas följande fält.
 
 ### Åtgärder
 
-* [Anpassat API-anrop](#custom-api-call)
-* [Läs post](#read-record)
 * [Skapa en post](#create-a-record)
+* [Anpassat API-anrop](#custom-api-call)
+* [Hämta en bifogad fil](#download-an-attachment)
+* [Länka arbetsobjekt](#link-work-items)
+* [Läs post](#read-record)
 * [Uppdatera en arbetsuppgift](#update-a-work-item)
 * [[!UICONTROL Upload an attachment]](#upload-an-attachment)
-* [Hämta en bifogad fil](#download-an-attachment)
-* [Länka arbetsobjekt]([!UICONTROL #link-work-items])
 
 #### [!UICONTROL Custom API Call]
 
@@ -183,43 +183,6 @@ När du konfigurerar den här modulen visas följande fält.
  </tbody> 
 </table>
 
-#### [!UICONTROL Read record]
-
-Den här åtgärdsmodulen läser data från en enskild post i [!DNL Azure DevOps].
-
-Du anger postens ID.
-
-Modulen returnerar postens ID och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
-
-När du konfigurerar den här modulen visas följande fält.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Azure DevOps]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Azure DevOps] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record type]</td> 
-   <td> <p>Välj om du vill läsa ett projekt eller en arbetsuppgift</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Project]</strong>: Välj det projekt som du vill läsa.</p> </li> 
-     <li> <p><strong>[!UICONTROL Work item]</strong>: Välj det projekt som innehåller det arbetsobjekt som du vill läsa och välj sedan arbetsobjekttyp.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td>Välj den information som du vill inkludera i utdatapaketet för den här modulen. Vilka fält som är tillgängliga beror på arbetsobjekttypen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Ange eller mappa ID:t för den post som du vill läsa.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Create a record]
 
 Den här åtgärdsmodulen skapar ett nytt projekt eller en ny arbetsuppgift.
@@ -253,6 +216,99 @@ Modulen matar ut objekt-ID:t för det nya arbetsobjektet eller URL:en och status
        <li> <p><strong>[!UICONTROL Other fields]</strong>:I dessa fält anger du det värde som du vill att arbetsposten ska ha för en viss egenskap. Vilka fält som är tillgängliga beror på arbetsobjekttypen.</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Download an attachment]
+
+Den här åtgärdsmodulen hämtar en bifogad fil.
+
+Modulen returnerar filinnehållet i den bifogade filen.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Azure DevOps]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Azure DevOps] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
+   <td> <p>Ange eller mappa URL:en för den bifogade fil som du vill hämta.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Link work items]
+
+Den här åtgärdsmodulen länkar två arbetsobjekt och definierar relationen mellan dem.
+
+Modulen returnerar ID:t för huvudobjektet och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+
+När du konfigurerar den här modulen visas följande fält.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Azure DevOps]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Azure DevOps] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Work item ID]</td> 
+   <td>Ange eller mappa ID:t för det huvudsakliga arbetsobjekt som du vill länka ett annat arbetsobjekt till.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
+   <td>Ange eller mappa ID:t för arbetsuppgiften som du vill länka till huvudarbetsuppgiften.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Link Type]</td> 
+   <td> <p>Definiera relationen mellan arbetsobjekten som du vill länka.</p> <p>Mer information finns i <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Referens för länktyp</a> i [!UICONTROL Azure DevOps] -dokumentationen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Comment]</td> 
+   <td>Ange eller mappa texten i en kommentar. Detta är användbart för att förklara länkens resonemang eller avsikt.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Read record]
+
+Den här åtgärdsmodulen läser data från en enskild post i [!DNL Azure DevOps].
+
+Du anger postens ID.
+
+Modulen returnerar postens ID och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+
+När du konfigurerar den här modulen visas följande fält.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Azure DevOps]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Azure DevOps] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
+   <td> <p>Välj om du vill läsa ett projekt eller en arbetsuppgift</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Project]</strong>: Välj det projekt som du vill läsa.</p> </li> 
+     <li> <p><strong>[!UICONTROL Work item]</strong>: Välj det projekt som innehåller det arbetsobjekt som du vill läsa och välj sedan arbetsobjekttyp.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td>Välj den information som du vill inkludera i utdatapaketet för den här modulen. Vilka fält som är tillgängliga beror på arbetsobjekttypen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Ange eller mappa ID:t för den post som du vill läsa.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,62 +375,6 @@ Modulen returnerar den bifogade filens ID och en hämtnings-URL för den bifogad
   <tr> 
    <td role="rowheader">[!UICONTROL Source file] </td> 
    <td>Välj en källfil från en tidigare modul eller ange eller mappa källfilens namn och innehåll.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Download an attachment]
-
-Den här åtgärdsmodulen hämtar en bifogad fil.
-
-Modulen returnerar filinnehållet i den bifogade filen.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Azure DevOps]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Azure DevOps] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
-   <td> <p>Ange eller mappa URL:en för den bifogade fil som du vill hämta.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Link work items]
-
-Den här åtgärdsmodulen länkar två arbetsobjekt och definierar relationen mellan dem.
-
-Modulen returnerar ID:t för huvudobjektet och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
-
-När du konfigurerar den här modulen visas följande fält.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Azure DevOps]-konto till [!DNL Workfront Fusion] finns i <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Azure DevOps] till [!UICONTROL Workfront Fusion]</a> i den här artikeln.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Work item ID]</td> 
-   <td>Ange eller mappa ID:t för det huvudsakliga arbetsobjekt som du vill länka ett annat arbetsobjekt till.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
-   <td>Ange eller mappa ID:t för arbetsuppgiften som du vill länka till huvudarbetsuppgiften.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>Definiera relationen mellan arbetsobjekten som du vill länka.</p> <p>Mer information finns i <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Referens för länktyp</a> i [!UICONTROL Azure DevOps] -dokumentationen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Comment]</td> 
-   <td>Ange eller mappa texten i en kommentar. Detta är användbart för att förklara länkens resonemang eller avsikt.</td> 
   </tr> 
  </tbody> 
 </table>

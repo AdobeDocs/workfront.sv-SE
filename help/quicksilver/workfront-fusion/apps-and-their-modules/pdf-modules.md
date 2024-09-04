@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3222'
 ht-degree: 0%
@@ -150,8 +150,6 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Generate document]](#generate-document)
-* [[!UICONTROL Extract Text / Table]](#extract-text--table)
 * [[!UICONTROL Combine PDF files]](#combine-pdf-files)
 * [[!UICONTROL Compress PDF files]](#compress-pdf-files)
 * [[!UICONTROL Convert document to PDF file]](#convert-document-to-pdf-file)
@@ -159,6 +157,8 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 * [[!UICONTROL Convert image to PDF file]](#convert-image-to-pdf-file)
 * [[!UICONTROL Convert PDF to document]](#convert-pdf-to-document)
 * [[!UICONTROL Convert PDF to image]](#convert-pdf-to-image)
+* [[!UICONTROL Extract Text / Table]](#extract-text--table)
+* [[!UICONTROL Generate document]](#generate-document)
 * [[!UICONTROL Linearize a PDF file]](#linearize-a-pdf-file)
 * [[!UICONTROL OCR for PDF file]](#ocr-for-pdf-file)
 * [[!UICONTROL Page manipulation]](#page-manipulation)
@@ -167,127 +167,6 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 * [[!UICONTROL Protect PDF file]](#protect-pdf-file)
 * [[!UICONTROL Remove protection of a PDF file]](#remove-protection-of-a-pdf-file)
 * [Dela en PDF-fil](#split-a-pdf-file)
-
-### [!UICONTROL Generate document]
-
-Modulen [!UICONTROL Generate document] är ett kraftfullt sätt att skapa ett PDF som innehåller data som du väljer. Du kan formatera den med hjälp av en [!DNL Microsoft Word]-mall eller genom att ange data i JSON-format.
-
-Mer information om funktionen [!UICONTROL [!DNL Adobe PDF Services] Generate document] finns i [Översikt över dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) i [!DNL Adobe Document Services]-dokumentationen.
-
-* [Använd modulen [!UICONTROL Generate document] med en  [!DNL Microsoft Word] mall](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [Använd modulen [!UICONTROL Generate document] med JSON](#use-the-generate-document-module-with-json)
-
-#### Använd modulen [!UICONTROL Generate document] med en [!DNL Microsoft Word]-mall
-
-<!--
->[!NOTE]
->
->For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
->
->You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
--->
-
-Om du vill använda modulen [!UICONTROL Generate document] med en [!UICONTROL Microsoft Word]-mall måste du först skapa mallen. Sök efter&quot;Skapa en mall&quot; i dokumentationen för [!DNL Microsoft Office] om du vill ha anvisningar.
-
-Fyll i fälten i modulen [!UICONTROL Generate document] enligt följande:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Den här källfilen är [!DNL Microsoft Word ]-mallen som modulen använder för att generera det nya PDF.</p> <p>Vi rekommenderar att du skapar ett projekt i [!DNL Workfront] för de [!DNL Microsoft Word] -mallar som du använder i [!DNL Workfront Fusion]. Du kan sedan använda modulen [!DNL Workfront] &gt; [!UICONTROL Download document] för att hämta rätt mall till ditt scenario.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Output Format]</td> 
-   <td> <p>Välj format för det genererade dokumentet.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>Fyll i följande för varje värdetagg i mallen som du vill ersätta med text:</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>Ange en tangent. I mallen är nyckeln texten som visas i värdetaggen. Om du till exempel vill placera text i värdetaggen <code>&#123;&#123;name&#125;&#125;</code> anger du <code>name </code> i nyckelfältet.</p> </li> 
-     <li> <p>Värdetyp</p> <p>Ange om data i värdefältet är ett värde, ett objekt eller en array med objekt.</p> </li> 
-     <li> <p>[!UICONTROL Value]</p> <p>Ange eller mappa texten som du vill ska visas i det genererade dokumentet i stället för värdetaggen.</p> </li> 
-    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Använd modulen [!UICONTROL Generate document] med JSON
-
-Om du vill använda modulen [!UICONTROL Generate document] med JSON fyller du i fälten enligt följande:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Output Format]</td> 
-   <td> <p>Välj format för det genererade dokumentet.</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>Om du vill använda JSON i den här modulen måste du aktivera mappning för det här fältet.</p> <p>Ange eller mappa det JSON-objekt som dokumentet ska skapas från. </p> <p>Du kan skriva JSON direkt i det här fältet eller mappa JSON-utdata från en JSON-modul.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Extract Text / Table]
-
-Med den här åtgärdsmodulen kan du extrahera data från en PDF-fil. Modulen matar ut enskilda textelement, t.ex. ett stycke eller texten i en enda cell i en tabell.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Elements that should be extracted as JSON]</td> 
-   <td> 
-    <ul> 
-     <li> <p>[!UICONTROL Text]</p> </li> 
-     <li> <p>[!UICONTROL Tables]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Extract Bounding boxes?]</td> 
-   <td>Aktivera det här alternativet om du vill extrahera data om textens begränsningsram.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Include styling information for output?]</td> 
-   <td>Aktivera det här alternativet om du vill lägga till formatinformation i JSON-utdata.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### [!UICONTROL Combine PDF files]
 
@@ -545,6 +424,127 @@ En fil med namnet&quot;TestFile&quot; med 8 sidor ger till exempel 8 bilder med 
      <li>PNG</li> 
      <li>JPEG</li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Extract Text / Table]
+
+Med den här åtgärdsmodulen kan du extrahera data från en PDF-fil. Modulen matar ut enskilda textelement, t.ex. ett stycke eller texten i en enda cell i en tabell.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Elements that should be extracted as JSON]</td> 
+   <td> 
+    <ul> 
+     <li> <p>[!UICONTROL Text]</p> </li> 
+     <li> <p>[!UICONTROL Tables]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Extract Bounding boxes?]</td> 
+   <td>Aktivera det här alternativet om du vill extrahera data om textens begränsningsram.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Include styling information for output?]</td> 
+   <td>Aktivera det här alternativet om du vill lägga till formatinformation i JSON-utdata.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Generate document]
+
+Modulen [!UICONTROL Generate document] är ett kraftfullt sätt att skapa ett PDF som innehåller data som du väljer. Du kan formatera den med hjälp av en [!DNL Microsoft Word]-mall eller genom att ange data i JSON-format.
+
+Mer information om funktionen [!UICONTROL [!DNL Adobe PDF Services] Generate document] finns i [Översikt över dokumentgenerering](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) i [!DNL Adobe Document Services]-dokumentationen.
+
+* [Använd modulen [!UICONTROL Generate document] med en  [!DNL Microsoft Word] mall](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [Använd modulen [!UICONTROL Generate document] med JSON](#use-the-generate-document-module-with-json)
+
+#### Använd modulen [!UICONTROL Generate document] med en [!DNL Microsoft Word]-mall
+
+<!--
+>[!NOTE]
+>
+>For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
+>
+>You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
+-->
+
+Om du vill använda modulen [!UICONTROL Generate document] med en [!UICONTROL Microsoft Word]-mall måste du först skapa mallen. Sök efter&quot;Skapa en mall&quot; i dokumentationen för [!DNL Microsoft Office] om du vill ha anvisningar.
+
+Fyll i fälten i modulen [!UICONTROL Generate document] enligt följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source File]</td> 
+   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> <p>Den här källfilen är [!DNL Microsoft Word ]-mallen som modulen använder för att generera det nya PDF.</p> <p>Vi rekommenderar att du skapar ett projekt i [!DNL Workfront] för de [!DNL Microsoft Word] -mallar som du använder i [!DNL Workfront Fusion]. Du kan sedan använda modulen [!DNL Workfront] &gt; [!UICONTROL Download document] för att hämta rätt mall till ditt scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
+   <td> <p>Välj format för det genererade dokumentet.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>Fyll i följande för varje värdetagg i mallen som du vill ersätta med text:</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Key]</p> <p>Ange en tangent. I mallen är nyckeln texten som visas i värdetaggen. Om du till exempel vill placera text i värdetaggen <code>&#123;&#123;name&#125;&#125;</code> anger du <code>name </code> i nyckelfältet.</p> </li> 
+     <li> <p>Värdetyp</p> <p>Ange om data i värdefältet är ett värde, ett objekt eller en array med objekt.</p> </li> 
+     <li> <p>[!UICONTROL Value]</p> <p>Ange eller mappa texten som du vill ska visas i det genererade dokumentet i stället för värdetaggen.</p> </li> 
+    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Använd modulen [!UICONTROL Generate document] med JSON
+
+Om du vill använda modulen [!UICONTROL Generate document] med JSON fyller du i fälten enligt följande:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Markera anslutningen som ska användas för den här modulen.</p> Instruktioner om hur du skapar en anslutning till [!DNL Adobe PDF Services] finns i <a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >Skapa en anslutning till [!DNL Adobe PDF Services]</a> i den här artikeln. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source File]</td> 
+   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
+   <td> <p>Välj format för det genererade dokumentet.</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>Om du vill använda JSON i den här modulen måste du aktivera mappning för det här fältet.</p> <p>Ange eller mappa det JSON-objekt som dokumentet ska skapas från. </p> <p>Du kan skriva JSON direkt i det här fältet eller mappa JSON-utdata från en JSON-modul.</p> </td> 
   </tr> 
  </tbody> 
 </table>

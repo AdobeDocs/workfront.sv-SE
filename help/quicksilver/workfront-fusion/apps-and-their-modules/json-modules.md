@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion JSON-appen innehåller moduler som bearbetar
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -88,7 +88,7 @@ Om JSON-strängfältet innehåller en samling `{ ... }` är utdata ett enda pake
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ Om JSON-strängfältet innehåller arrayen `[ ... ]` är utdata en serie paket. 
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
-* [Sammanställd till JSON](#aggregate-to-json)
 * [Konvertera JSON till XML](#convert-json-to-xml)
 * [Tolka JSON](#parse-json)
 * [Skapa JSON](#create-json)
 * [Omforma JSON](#transform-json)
 
-### [!UICONTROL Aggregate to JSON]
+### Aggregatorer
+
+#### [!UICONTROL Aggregate to JSON]
 
 Den här aggregeringsmodulen aggregerar utdata från en tidigare modul till JSON.
 
@@ -162,7 +163,14 @@ Den här aggregeringsmodulen aggregerar utdata från en tidigare modul till JSON
  </tbody> 
 </table>
 
-### [!UICONTROL Convert JSON to XML]
+### Transformers
+
+* [Konvertera JSON till XML](#convert-json-to-xml)
+* [Skapa JSON](#create-json)
+* [Tolka JSON](#parse-json)
+* [Omforma JSON](#transform-json)
+
+#### [!UICONTROL Convert JSON to XML]
 
 Den här åtgärdsmodulen konverterar en JSON-sträng till XML.
 
@@ -177,7 +185,22 @@ Den här åtgärdsmodulen konverterar en JSON-sträng till XML.
  </tbody> 
 </table>
 
-### [!UICONTROL Parse JSON]
+#### [!UICONTROL Create JSON]
+
+Den här åtgärdsmodulen skapar JSON från en datastruktur.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Datastruktur</td> 
+   <td> <p>Välj den datastruktur som du vill använda för att skapa JSON. Mer information finns i <a href="#data-structure" class="MCXref xref">Datastruktur</a> i den här artikeln.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Parse JSON]
 
 Den här åtgärdsmodulen tolkar en JSON-sträng i en datastruktur, som gör att du kan komma åt data i JSON-strängen.
 
@@ -196,22 +219,7 @@ Den här åtgärdsmodulen tolkar en JSON-sträng i en datastruktur, som gör att
  </tbody> 
 </table>
 
-### [!UICONTROL Create JSON]
-
-Den här åtgärdsmodulen skapar JSON från en datastruktur.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Datastruktur</td> 
-   <td> <p>Välj den datastruktur som du vill använda för att skapa JSON. Mer information finns i <a href="#data-structure" class="MCXref xref">Datastruktur</a> i den här artikeln.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Transform JSON]
+#### [!UICONTROL Transform JSON]
 
 Den här åtgärdsmodulen omvandlar ett objekt till en json-sträng.
 
@@ -238,28 +246,27 @@ Den här åtgärdsmodulen omvandlar ett objekt till en json-sträng.
 >
 1. Anslut [!UICONTROL JSON] > [!UICONTROL Create JSON] efter modulen [!UICONTROL Array Aggregator]. Modulens konfiguration kräver en datastruktur som beskriver JSON-formatet. Klicka på **[!UICONTROL Add]** för att öppna datastrukturinställningarna. Det enklaste sättet att skapa den här datastrukturen är att generera den automatiskt från ett JSON-exempel. Klicka på **[!UICONTROL Generator]** och klistra in JSON-exemplet i fältet **[!UICONTROL Sample data]**:
 >
->     **Exempel:**
+**Exempel:**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. Klicka på **[!UICONTROL Save]**. Fältet [!UICONTROL Specification] i datastrukturen innehåller nu den genererade strukturen.
 1. Ändra namnet på datastrukturen till något mer specifikt och klicka på **[!UICONTROL Save]**. Ett fält som motsvarar rotarrayattributet visas som ett mappningsbart fält i JSON-modulens inställningar.

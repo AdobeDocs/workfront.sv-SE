@@ -9,7 +9,7 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 66cd6f7d231ab8442b08ddabefabc8e4069118d7
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '5804'
 ht-degree: 0%
@@ -147,6 +147,7 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 
 ![](assets/map-toggle-350x74.png)
+
 >[!NOTE]
 >
 >* Om du inte ser de mest aktuella fälten i en Workfront-modul kan det bero på problem med cachelagring. Vänta en timme och försök igen.

@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '1763'
 ht-degree: 0%
@@ -282,8 +282,8 @@ Denna utlösarmodul startar ett scenario när en post läggs till, uppdateras el
 ### Åtgärder
 
 * [[!UICONTROL Add issue to sprint]](#add-issue-to-sprint)
-* [[!UICONTROL Custom API Call]](#custom-api-call)
 * [[!UICONTROL Create a Record]](#create-a-record)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
 * [[!UICONTROL Delete a record]](#delete-a-record)
 * [[!UICONTROL Download an attachment]](#download-an-attachment)
 * [[!UICONTROL Read a record]](#read-a-record)

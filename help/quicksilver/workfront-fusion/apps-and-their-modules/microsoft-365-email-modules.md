@@ -9,7 +9,7 @@ description: I ett [!DNL Adobe Workfront Fusion] scenario kan du automatisera ar
 author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
-source-git-commit: a09116572d4f9101740fa976f1d334e99fac3010
+source-git-commit: 7e7294e52622a6b8164fc69bbb4be576cc113f63
 workflow-type: tm+mt
 source-wordcount: '2198'
 ht-degree: 0%
@@ -656,6 +656,7 @@ Den här modulen hämtar en lista med bilagor som tillhör det angivna meddeland
 ### Övriga
 
 * [[!UICONTROL Add an Attachment]](#add-an-attachment)
+  <!--Create and send a message-->
 * [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Add an Attachment]

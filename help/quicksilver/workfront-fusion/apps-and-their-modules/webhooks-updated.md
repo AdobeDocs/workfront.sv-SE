@@ -8,9 +8,9 @@ description: En webkrok är ett HTTP-anrop som aktiveras av en händelse. Du kan
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1322'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Du kan också följa stegen nedan för att skicka exempeldata via modulen [!UICO
 
    Webkrokens objekt är nu tillgängliga på mappningspanelen för användning med efterföljande moduler i scenariot.
 
-## Kö
+## Webkrok-kön
 
 Om en webkrok tar emot data och det inte finns något aktivt scenario som förväntar sig dessa data, lagras data i kön. När du har aktiverat scenariot bearbetas alla paket som väntar i kön sekventiellt.
 

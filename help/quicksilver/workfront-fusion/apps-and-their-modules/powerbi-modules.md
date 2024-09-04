@@ -10,9 +10,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
 workflow-type: tm+mt
-source-wordcount: '1986'
+source-wordcount: '2059'
 ht-degree: 0%
 
 ---
@@ -73,11 +73,23 @@ Om du ser kartknappen ovanför ett fält eller en funktion kan du använda den f
 
 ![](assets/map-toggle-350x74.png)
 
+* [Kontrollpaneler](#dashboards)
+* [Rapporter](#reports)
+* [Datauppsättning](#dataset)
+* [Appar](#apps)
+* [Övriga](#other)
+
 ### Kontrollpaneler
 
-#### [!UICONTROL List Dashboards]
+* [Skapa en instrumentpanel](#create-a-dashboard)
+* [Skaffa en instrumentpanel](#get-a-dashboard)
+* [Skaffa en instrumentpanel](#get-a-dashboard-tile)
+* [Visa panelpaneler](#list-dashboard-tiles)
+* [Listinstrumentpaneler](#list-dashboards)
 
-Den här sökmodulen hämtar en lista med instrumentpaneler.
+#### [!UICONTROL Create a Dashboard]
+
+Den här åtgärdsmodulen skapar en ny kontrollpanel.
 
 <table>
   <col/>
@@ -88,55 +100,14 @@ Den här sökmodulen hämtar en lista med instrumentpaneler.
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>
-        <p>Markera eller mappa ID:t för gruppen som äger de instrumentpaneler som du vill visa.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>Ange eller mappa ett namn för instrumentpanelen.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Markera eller mappa ID:t för den grupp som ska äga den nya instrumentpanelen.</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL List Dashboard Tiles]
-
-Den här sökmodulen hämtar en lista med instrumentpanelsrutor.
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
-    <td>
-      <p>Välj eller mappa alternativet för att välja den instrumentpanel vars rutor du vill visa.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
-    <td>
-      <p>Ange eller mappa ID:t för den instrumentpanel som innehåller de rutor som du vill visa.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Group ID]  </td>
-    <td>Markera eller mappa ID:t för gruppen som äger kontrollpanelerna som innehåller de paneler som du vill visa.</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Limit]  </td>
-    <td>
-      <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL Get a Dashboard]
@@ -205,34 +176,46 @@ Den här åtgärdsmodulen hämtar metadata för en angiven instrumentpanelspanel
   </tbody>
 </table>
 
-#### [!UICONTROL Create a Dashboard]
+#### [!UICONTROL List Dashboard Tiles]
 
-Den här åtgärdsmodulen skapar en ny kontrollpanel.
+Den här sökmodulen hämtar en lista med instrumentpanelsrutor.
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Ange eller mappa ett namn för instrumentpanelen.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Markera eller mappa ID:t för den grupp som ska äga den nya instrumentpanelen.</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
+    <td>
+      <p>Välj eller mappa alternativet för att välja den instrumentpanel vars rutor du vill visa.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
+    <td>
+      <p>Ange eller mappa ID:t för den instrumentpanel som innehåller de rutor som du vill visa.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Group ID]  </td>
+    <td>Markera eller mappa ID:t för gruppen som äger kontrollpanelerna som innehåller de paneler som du vill visa.</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Limit]  </td>
+    <td>
+      <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### Rapporter
+#### [!UICONTROL List Dashboards]
 
-#### [!UICONTROL List Reports]
-
-Den här sökmodulen hämtar en lista med rapporter.
+Den här sökmodulen hämtar en lista med instrumentpaneler.
 
 <table>
   <col/>
@@ -245,7 +228,7 @@ Den här sökmodulen hämtar en lista med rapporter.
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
       <td>
-        <p>Markera eller mappa ID:t för den grupp som äger de rapporter som du vill visa.</p>
+        <p>Markera eller mappa ID:t för gruppen som äger de instrumentpaneler som du vill visa.</p>
       </td>
     </tr>
     <tr>
@@ -257,36 +240,12 @@ Den här sökmodulen hämtar en lista med rapporter.
   </tbody>
 </table>
 
-#### [!UICONTROL Get a Report]
+### Rapporter
 
-Den här åtgärdsmodulen hämtar metadata för en angiven rapport.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
-      <td>
-        <p>Välj eller mappa alternativet för att välja den rapport som du vill hämta metadata för.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>Ange eller mappa ID:t för rapporten som du vill hämta metadata för.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Markera eller mappa ID:t för gruppen som äger rapporten som du vill hämta metadata för.</td>
-    </tr>
-  </tbody>
-</table>
+* [Kopiera en rapport](#copy-a-report)
+* [Ta bort en rapport](#delete-a-report)
+* [Hämta en rapport](#get-a-report)
+* [Listrapporter](#list-reports)
 
 #### [!UICONTROL Copy a Report]
 
@@ -354,36 +313,9 @@ Den här åtgärdsmodulen tar bort en rapport.
   </tbody>
 </table>
 
-### Datauppsättning
+#### [!UICONTROL Get a Report]
 
-#### [!UICONTROL List Datasets]
-
-Sökmodulen hämtar en lista med datauppsättningar.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Markera eller mappa ID:t för gruppen som äger rapporten som du vill hämta metadata för.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]</td>
-      <td>
-        <p>Ange eller mappa det maximala antalet poster som du vill att modulen ska [åtgärd] under varje körningscykel för scenario.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get a Dataset]
-
-Den här åtgärdsmodulen hämtar metadata för en angiven datauppsättning.
+Den här åtgärdsmodulen hämtar metadata för en angiven rapport.
 
 <table>
   <col/>
@@ -402,12 +334,132 @@ Den här åtgärdsmodulen hämtar metadata för en angiven datauppsättning.
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Ange eller mappa ID:t för den datauppsättning som du vill hämta metadata för.</p>
+        <p>Ange eller mappa ID:t för rapporten som du vill hämta metadata för.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Markera eller mappa ID:t för gruppen som äger den datauppsättning som du vill hämta metadata för.</td>
+      <td>Markera eller mappa ID:t för gruppen som äger rapporten som du vill hämta metadata för.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Reports]
+
+Den här sökmodulen hämtar en lista med rapporter.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>
+        <p>Markera eller mappa ID:t för den grupp som äger de rapporter som du vill visa.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td>
+        <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Datauppsättning
+
+* [Lägga till/ta bort rader i en datauppsättningstabell](#add-or-delete-rows-in-a-dataset-table)
+* [Skapa en datauppsättning](#create-a-dataset)
+* [Ta bort en datauppsättning](#delete-a-dataset)
+* [Hämta en datauppsättning](#get-a-dataset)
+* [Visa datauppsättningar](#list-datasets)
+* [Uppdatera en datauppsättning](#refresh-a-dataset)
+
+#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+
+Den här åtgärdsmodulen lägger till eller tar bort rader i en angiven push-datamängdstabell.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Enter a table]</td>
+      <td>Markera eller mappa alternativet för att välja den datauppsättning som innehåller tabellen som du vill justera.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Dataset ID]</td>
+      <td>Ange eller mappa ID:t för datauppsättningen som innehåller raderna som du vill lägga till eller ta bort.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td>
+        <p>Ange eller mappa namnet på den tabell som innehåller raderna som du vill lägga till eller ta bort.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Ange eller mappa ID:t för gruppen som äger datauppsättningen.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td>
+        <p>Markera eller mappa åtgärden som du vill utföra.</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Add rows]</p>
+          </li>
+          <li>
+            <p>[!UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td>
+        <p>Lägg till radfälten.</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL Key]</b>
+            </p>
+            <p>Ange eller mappa nyckelnamnet.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Field Type]</b>
+            </p>
+            <p>Markera eller mappa fälttypen:</p>
+            <ul>
+              <li>
+                <p>Boolean</p>
+              </li>
+              <li>
+                <p>Datum</p>
+              </li>
+              <li>
+                <p>Text</p>
+              </li>
+              <li>
+                <p>Nummer</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[!UICONTROL Value]</p>
+            <p>Ange eller mappa nyckelvärdet.</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -583,9 +635,9 @@ Den här åtgärdsmodulen skapar en ny datauppsättning.
   </tbody>
 </table>
 
-#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+#### [!UICONTROL Delete a Dataset]
 
-Den här åtgärdsmodulen lägger till eller tar bort rader i en angiven push-datamängdstabell.
+Den här åtgärdsmodulen tar bort en datauppsättning.
 
 <table>
   <col/>
@@ -596,71 +648,75 @@ Den här åtgärdsmodulen lägger till eller tar bort rader i en angiven push-da
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a table]</td>
-      <td>Markera eller mappa alternativet för att välja den datauppsättning som innehåller tabellen som du vill justera.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Dataset ID]</td>
-      <td>Ange eller mappa ID:t för datauppsättningen som innehåller raderna som du vill lägga till eller ta bort.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Ange eller mappa namnet på den tabell som innehåller raderna som du vill lägga till eller ta bort.</p>
+        <p>Markera eller mappa alternativet för att välja den datauppsättning som du vill ta bort.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>Ange eller mappa ID:t för den datauppsättning som du vill ta bort.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Ange eller mappa ID:t för gruppen som äger datauppsättningen.</td>
+      <td>Markera eller mappa ID:t för gruppen som äger den datauppsättning som du vill ta bort.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get a Dataset]
+
+Den här åtgärdsmodulen hämtar metadata för en angiven datauppsättning.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Markera eller mappa åtgärden som du vill utföra.</p>
-        <ul>
-          <li>
-            <p>[!UICONTROL Add rows]</p>
-          </li>
-          <li>
-            <p>[!UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>Välj eller mappa alternativet för att välja den rapport som du vill hämta metadata för.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Lägg till radfälten.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL Key]</b>
-            </p>
-            <p>Ange eller mappa nyckelnamnet.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Field Type]</b>
-            </p>
-            <p>Markera eller mappa fälttypen:</p>
-            <ul>
-              <li>
-                <p>Boolean</p>
-              </li>
-              <li>
-                <p>Datum</p>
-              </li>
-              <li>
-                <p>Text</p>
-              </li>
-              <li>
-                <p>Nummer</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[!UICONTROL Value]</p>
-            <p>Ange eller mappa nyckelvärdet.</p>
-          </li>
-        </ul>
+        <p>Ange eller mappa ID:t för den datauppsättning som du vill hämta metadata för.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Markera eller mappa ID:t för gruppen som äger den datauppsättning som du vill hämta metadata för.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Datasets]
+
+Sökmodulen hämtar en lista med datauppsättningar.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Markera eller mappa ID:t för gruppen som äger rapporten som du vill hämta metadata för.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>
+        <p>Ange eller mappa det maximala antalet poster som du vill att modulen ska [åtgärd] under varje körningscykel för scenario.</p>
       </td>
     </tr>
   </tbody>
@@ -716,9 +772,19 @@ Den här åtgärdsmodulen uppdaterar en angiven datauppsättning.
   </tbody>
 </table>
 
-#### [!UICONTROL Delete a Dataset]
+### Appar
 
-Den här åtgärdsmodulen tar bort en datauppsättning.
+* [Skaffa en app](#get-an-app)
+* [Skaffa en apps Dashboard](#get-an-apps-dashboard)
+* [Hämta en apprapport](#get-an-apps-report)
+* [Visa appens instrumentpaneler](#list-apps-dashboards)
+* [Visa apprapporter](#list-apps-reports)
+* [Listappar](#list-apps)
+* [Bevakade appar](#watch-apps)
+
+#### [!UICONTROL Get an App]
+
+Den här åtgärdsmodulen hämtar metadata för en angiven app.
 
 <table>
   <col/>
@@ -729,29 +795,44 @@ Den här åtgärdsmodulen tar bort en datauppsättning.
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Markera eller mappa alternativet för att välja den datauppsättning som du vill ta bort.</p>
+        <p>Markera eller mappa ID:t för det program du vill hämta.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get an App's Dashboard]
+
+Den här åtgärdsmodulen hämtar metadata för ett angivet programs kontrollpanel.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td>
+        <p>Markera eller mappa ID:t för programmet som innehåller den instrumentpanel som du vill hämta.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Ange eller mappa ID:t för den datauppsättning som du vill ta bort.</p>
+        <p>  Markera eller mappa ID:t för den kontrollpanel som du vill hämta.</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Markera eller mappa ID:t för gruppen som äger den datauppsättning som du vill ta bort.</td>
     </tr>
   </tbody>
 </table>
 
-### Appar
+#### [!UICONTROL Get an App's Report]
 
-#### [!UICONTROL Watch Apps]
-
-Den här utlösarmodulen startar ett scenario när en app uppdateras.
+Den här åtgärdsmodulen hämtar metadata för ett angivet programs rapport.
 
 <table>
   <col/>
@@ -762,9 +843,15 @@ Den här utlösarmodulen startar ett scenario när en app uppdateras.
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
+        <p>Markera eller mappa ID:t för programmet som innehåller rapporten som du vill hämta.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>  Markera eller mappa ID:t för rapporten som du vill hämta.</p>
       </td>
     </tr>
   </tbody>
@@ -781,31 +868,6 @@ Den här sökmodulen hämtar en lista över alla installerade program.
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL List App's Reports]
-
-Den här sökmodulen hämtar en lista med alla rapporter från den angivna appen.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]</td>
-      <td>Markera eller mappa ID:t för det program som du vill visa rapporter från.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -841,9 +903,9 @@ Den här sökmodulen hämtar en lista med instrumentpaneler från en angiven app
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App]
+#### [!UICONTROL List App's Reports]
 
-Den här åtgärdsmodulen hämtar metadata för en angiven app.
+Den här sökmodulen hämtar en lista med alla rapporter från den angivna appen.
 
 <table>
   <col/>
@@ -854,44 +916,21 @@ Den här åtgärdsmodulen hämtar metadata för en angiven app.
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL App ID]</td>
+      <td>Markera eller mappa ID:t för det program som du vill visa rapporter från.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Markera eller mappa ID:t för det program du vill hämta.</p>
+        <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App's Report]
+#### [!UICONTROL Watch Apps]
 
-Den här åtgärdsmodulen hämtar metadata för ett angivet programs rapport.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
-      <td>
-        <p>Markera eller mappa ID:t för programmet som innehåller rapporten som du vill hämta.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Markera eller mappa ID:t för rapporten som du vill hämta.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get an App's Dashboard]
-
-Den här åtgärdsmodulen hämtar metadata för ett angivet programs kontrollpanel.
+Den här utlösarmodulen startar ett scenario när en app uppdateras.
 
 <table>
   <col/>
@@ -902,15 +941,9 @@ Den här åtgärdsmodulen hämtar metadata för ett angivet programs kontrollpan
    <td> <p>Instruktioner om hur du ansluter ditt [!DNL Power BI]-konto till [!DNL Workfront Fusion] finns i <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Skapa en anslutning till Adobe [!DNL Workfront Fusion] - grundläggande instruktioner</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Markera eller mappa ID:t för programmet som innehåller den instrumentpanel som du vill hämta.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Markera eller mappa ID:t för den kontrollpanel som du vill hämta.</p>
+        <p>Ange eller mappa det maximala antal poster som du vill att modulen ska returnera under varje körningscykel för scenario.</p>
       </td>
     </tr>
   </tbody>
