@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,23 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Alternativet Markera alla är nu tillgängligt i layoutmallar</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>För att du enklare ska kunna visa och dölja fält med layoutmallar har kryssrutan Markera alla lagts till under Översikt och Ekonomi i detaljvyn i en layoutmall. Det här alternativet är tillgängligt när du har valt Projekt, Aktivitet, Utgåva, Portfolio eller Program under Anpassa vad användare ser.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 29 augusti 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 6 augusti 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Förbättringar av inloggningsfunktionen för Outlook-integrering</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Inloggningen för Outlook-integrering har strömlinjeformats så att alla kunder ser samma knapp för att logga in på Workfront oavsett om de är IMS-aktiverade eller inte. De efterföljande inloggningsstegen skiljer sig åt för IMS- och icke-IMS-instanser, men den inledande sidan är densamma för alla användare.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>

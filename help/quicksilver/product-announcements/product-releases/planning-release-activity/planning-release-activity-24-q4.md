@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -38,11 +38,23 @@ Mer information om funktioner som ingår i den här versionen finns i [Adobe Wor
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Exportera postinformation till PDF
+
+>[!NOTE]
+>
+>Förhandsversion: 3 september 2024; Produktion för snabb release: Med version 24.9 (12 september 2024); Produktion för kvartalsvis publicering: Med version 24.10 (oktober 2024)
+
+Nu kan du exportera en posts informationssida eller förhandsgranska till ett PDF-dokument.
+
+Före den här förbättringen kunde du bara exportera en posts informationsflik till en Word-fil (.docx).
+
+Mer information finns i [Exportera information för en post](/help/quicksilver/planning/records/export-the-record-page.md).
+
 ## Allmän tillgänglighet för Adobe Workfront Planning
 
 >[!NOTE]
 >
->Preview and Production release: 28 augusti 2024
+>Förhandsversion: 28 augusti 2024; Produktionsrelease för alla kunder: 28 augusti 2024
 
 Adobe Workfront Planning är ett nytt erbjudande från Adobe Workfront. Syftet med Workfront Planning är att ge en heltäckande inblick i en organisations operativa information och besvara viktiga affärsfrågor i varje fas av arbetshanteringens livscykel.
 
