@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,7 @@ ht-degree: 0%
 
 # Exportera information för en post
 
-Om du vill samarbeta effektivare med andra som kanske inte har ett Workfront-konto kan du exportera en posts information till ett Word-dokument och dela den med dem.
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+Om du vill samarbeta effektivare med andra som kanske inte har ett Workfront-konto kan du exportera en posts information till en fil och dela den med dem.
 
 ## Åtkomstkrav
 
@@ -54,7 +50,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Alla </p> 
-<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
@@ -150,16 +146,12 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 ## Att tänka på när du exporterar information om en post:
 
-* Du kan exportera information om en post till ett Word-dokument.
+* Du kan exportera en posts information till följande filformat:
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * PDF
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* Du kan exportera detaljsidan på en postsida. Du kan inte exportera fliken Anslutningar.
+* Du kan exportera fliken Detaljer på en postsida. Du kan inte exportera fliken Anslutningar.
 
 * Den exporterade filen bevarar postsidans layout, inklusive miniatyrbilderna och omslagsbilderna.
 
@@ -182,10 +174,15 @@ Posttypssidan öppnas och alla poster av den typen visas.
 
 1. Välj fliken **Detaljer**. Fliken Detaljer ska öppnas som standard.
 
-1. Klicka på ikonen **Exportera** ![](assets/export-icon-in-record-details-page.png) i förhandsgranskningen eller på postens sida.
+1. Klicka på ikonen **Exportera** ![](assets/export-icon-in-record-details-page.png) antingen i förhandsgranskningen eller på postens sida och klicka sedan på något av följande:
 
-   En Word-fil (.docx) laddas ned och sparas på datorn.
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   En Word-fil (.docx) eller en PDF-fil hämtas och sparas på datorn.
+
+   Namnet på den exporterade filen är det primära fältet i posten.
 
    ![](assets/exported-word-file.png)
 
-1. (Valfritt) Gå till den hämtade filen, öppna den och redigera den eller dela den med andra.
+1. (Valfritt) Gå till den hämtade filen, öppna den och redigera den (om det är en Word-fil) eller dela den med andra.

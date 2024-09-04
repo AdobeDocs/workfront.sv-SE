@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '7462'
+source-wordcount: '7446'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
+><span class="preview">I den här artikeln listas de funktioner som släpptes i den tidiga fasen av Workfront Planning, 2024, före den allmänna tillgänglighetsversionen den 28 augusti 2024.</span>
+>
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
 >Du måste köpa en Workfront Planning-plan, förutom en Workfront-plan, för att kunna komma åt och använda Workfront Planning-funktioner.
@@ -28,18 +30,16 @@ ht-degree: 0%
 >En översikt över Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-I den här artikeln listas de funktioner som lanserades till Workfront Planning under den tidiga åtkomstperioden 2024.
-
-De släppta funktionerna listas i den ordning de släpps, med den senaste först.
-
-Se även följande artiklar för fler funktioner som lanserats för Workfront Planning:
+Mer information om Workfront Planning finns i följande artiklar:
 
 * [Planeringsaktivitet för Adobe Workfront 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) för funktioner som släpptes under betaversionen under 2023.
 * [Aktivitet för lansering av Adobe Workfront Planning: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) för funktioner som för närvarande släpps på Workfront Planning, efter att det blev allmänt tillgängligt den 28 augusti 2024.
 
 ## Tidslinjen i Workfront Planning
 
-I följande tabell visas tidslinjen för lanseringen av Workfront Planning, med början i betaversionen 2023:
+<!-- this section is also duplicated in the 2023 release notes article-->
+
+I följande tabell visas tidslinjen för releasen av Workfront Planning:
 
 | Tid | Frigör |
 |--------------------|-----------------------------------------|

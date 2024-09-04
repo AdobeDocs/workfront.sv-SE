@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning*</p></td> 
    <td> 
 <p>Alla </p> 
-<p>Mer information om vad som ingår i varje Workfront Planning-plan finns i <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront priser och paketering</a>. </p> 
+<p>Kontakta din kontoansvarige på Workfront om du vill ha mer information om vad som ingår i respektive Workfront Planning-plan. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront</p></td> 
