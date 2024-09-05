@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: c815ce839e32cc060cd839272bc3d06938b4137a
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '736'
 ht-degree: 1%
 
 ---
@@ -327,7 +327,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>grupper</td> 
+   <td>grupper<p><b>OBS</b>: Det här fältet kan inte filtreras.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1857,7 +1857,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data</td> 
+   <td>data<p><b>OBS</b>: Det här fältet kan inte filtreras.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1907,7 +1907,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data</td> 
+   <td>data<p><b>OBS</b>: Det här fältet kan inte filtreras.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1927,7 +1927,7 @@ I följande tabell visas de fält som är tillgängliga för händelseprenumerat
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>fält</td> 
+   <td>fält<p><b>OBS</b>: Det här fältet kan inte filtreras.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 

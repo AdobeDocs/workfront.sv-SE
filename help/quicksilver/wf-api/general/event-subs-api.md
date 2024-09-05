@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 0%
 
 ---
@@ -452,6 +452,12 @@ En **UPDATE - TASK** -händelseprenumeration kan till exempel bara anges som utl
 * Att tillämpa flera filter på en prenumeration är en procedur som motsvarar att använda en logisk **AND** -operator.
 * Flera händelseprenumerationer kan användas på ett enda objekt så länge som en eller flera parametrar för händelseprenumerationsfält är olika för varje händelseteckning.
 * När flera händelseprenumerationer tilldelas till ett enda objekt kan alla händelseprenumerationer som är kopplade till det objektet returneras till en enda slutpunkt. Den här metoden kan användas som en motsvarande ersättning för den logiska operatorn **OR** som inte kan anges med filterparametrar.
+* Följande fält kan inte filtreras:
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### Använda jämförelseoperatorer
 
