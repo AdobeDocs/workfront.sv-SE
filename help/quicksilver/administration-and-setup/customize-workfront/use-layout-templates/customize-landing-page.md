@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 0%
 # Anpassa landningssidan med en layoutmall
 
 Som Adobe Workfront-administratör kan du använda en layoutmall för att ange det område som du vill att användarna ska se varje gång de loggar in på Workfront.
+
+Användare kan öppna något av följande:
+
+* Ett särskilt Workfront-område
+* En anpassad kontrollpanel.
 
 Mer information om hur du skapar layoutmallar finns i [Skapa och hantera layoutmallar](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,9 +67,38 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 1. Klicka på **Markera landningssida** i det övre navigeringsområdet **och markera sedan det område som du vill att användarna ska se när de loggar in.**
 
+   Välj bland följande områden eller lägg till en anpassad kontrollpanel:
+
+   * Analyser
+   * Kalendrar
+   * Kontrollpaneler
+   * Dokument
+   * Mål
+   * Startsida
+   * Mina uppdateringar
+   * Portfolio
+   * Program
+   * Projekt
+   * Rapporter
+   * Begäranden
+   * Resurser
+   * Scenarier
+   * Team
+   * Mallar
+   * Tidrapporter
+   * Användare
+   * Utkast
+   * Planering
+
    >[!IMPORTANT]
    >
-   >För att visa områdena Scenarier och Mål krävs ytterligare licenser. Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+   >För att visa områdena Scenarier, Mål och Planning krävs ytterligare licenser.
+   >
+   >* Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 1. Fortsätt att anpassa layoutmallen.
 

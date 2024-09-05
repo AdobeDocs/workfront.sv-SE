@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -64,11 +64,38 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Gör något av följande i listrutan som visas:
 
-   * Klicka på ett alternativ på huvudmenyn.
+   * Välj bland följande områden:
 
-     >[!IMPORTANT]
-     >
-     >För att visa områdena Scenarier och Mål krävs ytterligare licenser. Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md). Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+      * Analyser
+      * Kalendrar
+      * Kontrollpaneler
+      * Dokument
+      * Mål
+      * Startsida
+      * Mina uppdateringar
+      * Portfolio
+      * Program
+      * Projekt
+      * Rapporter
+      * Begäranden
+      * Resurser
+      * Scenarier
+      * Team
+      * Mallar
+      * Tidrapporter
+      * Användare
+      * Utkast
+      * Planering
+
+   >[!IMPORTANT]
+   >
+   >För att visa områdena Scenarier, Mål och Planning krävs ytterligare licenser.
+   >
+   >* Mer information om Workfront-mål finns i [Översikt över Adobe Workfront-mål](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    * Klicka på **Lägg till en instrumentpanel**, skriv en beskrivande **anpassad avsnittsrubrik** och lägg till instrumentpanelen.
 

@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
-
 # Exportera information för en post
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 Om du vill samarbeta effektivare med andra som kanske inte har ett Workfront-konto kan du exportera en posts information till en fil och dela den med dem.
 
@@ -149,7 +151,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 * Du kan exportera en posts information till följande filformat:
 
    * .docx Word
-   * PDF
+   * <span class="preview">.pdf</span>
 
 * Du kan exportera fliken Detaljer på en postsida. Du kan inte exportera fliken Anslutningar.
 
@@ -177,12 +179,18 @@ Posttypssidan öppnas och alla poster av den typen visas.
 1. Klicka på ikonen **Exportera** ![](assets/export-icon-in-record-details-page.png) antingen i förhandsgranskningen eller på postens sida och klicka sedan på något av följande:
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   En Word-fil (.docx) eller en PDF-fil hämtas och sparas på datorn.
+   En Word-fil (.docx) <span class="preview"> eller en PDF</span> hämtas och sparas på datorn.
 
    Namnet på den exporterade filen är det primära fältet i posten.
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    Ytterligare information som inte visas på sidan och som bara visas när du har klickat på Visa mer på fliken Detaljer visas inte i den exporterade PDF-filen. Endast den information som visas på sidan visas i den exporterade filen.
+
+
 1. (Valfritt) Gå till den hämtade filen, öppna den och redigera den (om det är en Word-fil) eller dela den med andra.
+

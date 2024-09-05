@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -216,7 +216,7 @@ Följande saker händer:
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.
    * Värdena för Workfront sökfält som är kopplade till Planning-posten tas också bort.
 
-## Ordna om fält i postens förhandsgranskning eller sida
+## Ordna om fält på postens flik Detaljer
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Följande saker händer:
 
 1. (Valfritt) Klicka på ikonen **Öppna på ny flik** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> i det övre högra hörnet av postens förhandsgranskning för att öppna postens sida på en ny flik.
 
-   Postsidan öppnas.
+   Fliken **Detaljer** i posten öppnas som standard.
 
    ![](assets/details-page.png)
 
-1. Klicka på ikonen **ta** ![](assets/grab-icon.png) till vänster om ett fältnamn i förhandsgranskningen eller på sidan för en post och dra och släpp den sedan på önskad plats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Klicka på ikonen **** till vänster om fältnamnet på fliken **Detaljer** på fliken Detaljer![](assets/grab-icon.png) och dra och släpp den på önskad plats. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    Den nya positionen för fältet uppdateras både i förhandsvisningen och på sidan med alla poster av samma typ för alla användare som visar posterna.
 

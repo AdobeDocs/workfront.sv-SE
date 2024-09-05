@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 0%
 
 ---
@@ -130,7 +131,17 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    Formuläret innehåller som standard följande information:
 
-   * Alla postfält som är tillgängliga i tabellvyn för den valda posttypen.
+   * Postfält som är tillgängliga i tabellvyn för den valda posttypen. <!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   Fält av följande typer visas inte i begärandeformuläret:
+     >
+     >    * Folk
+     >    * Kopplade fält (inkluderar anslutningar med Experience Manager-resurser)
+     >    * Anslutna sökfält
+     >    * Formel
+
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än.
    * Alla fält som är associerade med posttypen.
@@ -199,6 +210,3 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >
    >Det finns en indikation på att länken delas offentligt när så är fallet.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

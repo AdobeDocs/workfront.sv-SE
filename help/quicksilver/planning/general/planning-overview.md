@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1989'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
@@ -154,13 +154,13 @@ Följande funktioner är för närvarande tillgängliga i Workfront Planning:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-
-
 ## Aktivera Workfront Planning för användare i din Workfront-instans
 
-Organisationen måste registrera sig i Adobe Workfront Planning Program innan du får tillgång till dess funktioner. Din kontorepresentant bör ha gett dig information om registrering i detta program, om du är berättigad.
+När din organisation har köpt en licens för Workfront Planning måste följande finnas innan du kan komma åt Workfront Planning:
 
-Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+* Workfront-administratören måste tilldela dig till en layoutmall som innehåller Planering på huvudmenyn. Mer information finns i [Anpassa huvudmenyn med en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) och [Tilldela användare till en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+
+* Din Workfront-administratör måste tilldela dig en Workfront-licens och Workfront Planning-behörighet som gör att du kan visa eller skapa objekt i Workfront Planning. Mer information om hur du beviljar åtkomst till och aktiverar andra för att använda Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
 
 ## Workfront Planning - terminologi
 

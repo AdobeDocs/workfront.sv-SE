@@ -6,9 +6,9 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -22,15 +22,15 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln handlar om Adobe Workfront Planning, ett nytt erbjudande från Adobe Workfront.
 >
->Du måste ha följande för att få tillgång till Workfront Planning:
+>Ditt företag måste köpa ytterligare en licens för Workfront Planning för att få tillgång till dess funktioner.
 >
->* En ny plan och licens för Workfront. Workfront Planning finns inte för tidigare Workfront-planer eller -licenser.
->* Ytterligare licens för Workfront Planning.
->* Din organisations instans av Workfront måste integreras med Adobe Unified Experience.
+>Mer information får du av din kontoansvarige
 >
 >Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
 Det finns begränsningar för licens- och delningsbehörighet för att använda Adobe Workfront Planning.
+
+I den här artikeln beskrivs den åtkomst och de inställningar du behöver för att kunna använda funktionerna i Workfront Planning.
 
 ## Åtkomstkrav
 
@@ -112,7 +112,12 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutmall</p></td>
-   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller planeringsområdet på huvudmenyn och planeringsområdet för de objekt som kan ansluta till Workfront Planning: projekt, portföljer och program. </p> <p>Mer information finns i <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Anpassa huvudmenyn med en layoutmall</a> och <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Tilldela användare till en layoutmall</a>. </p>  
+   <td> <p>Alla användare, inklusive Workfront-administratörer, måste tilldelas en layoutmall som innehåller alternativet Planering i följande områden:</p>
+   <ul><li>Huvudmeny</li>
+   <li>Vänster panel med projekt, portfolior och program</li>
+   <li>Landningssida</li>
+   <li>Stift</li></ul>
+   <p>Mer information finns i <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Skapa och hantera layoutmallar</a>.</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## Dela planeringsområdet på huvudmenyn med andra
+## Dela planeringsområdet med en layoutmall
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-När organisationen har registrerats i Workfront Planning Program kan du lägga till Planning-området på Huvudmenyn för alla användare med hjälp av en layoutmall.
+När din organisation har köpt ytterligare en Workfront Planning-licens kan din systemadministratör lägga till Planning-alternativet i följande områden genom att ändra och tilldela dig till en layoutmall:
+
+* Huvudmeny
+* Landningssida
+* Panelen Vänster för projekt, portfolior och program
+* Stift
+
+Så här lägger du till Workfront Planning-områden i din Workfront-instans:
 
 1. Logga in på **Workfront** som Workfront-administratör.
 
-1. Lägg till ikonen **Planering** ![](assets/planning-icon.png) på **huvudmenyn** med en **layoutmall**.
+1. Gå till **Huvudmenyn** > **Inställningar** > **Gränssnitt** > **Layoutmallar** och öppna eller skapa en layoutmall.
 
-   Mer information finns i [Anpassa huvudmenyn med hjälp av en layoutmall](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+   Mer information om hur du anpassar en layoutmall finns i [Skapa och hantera layoutmallar](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 1. Tilldela layoutmallen till de användare som du vill ska ha tillgång till Workfront Planning.
 
