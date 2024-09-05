@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,15 @@ En lista över all dokumentation för kontrollpaneler på arbetsytan finns i [Ö
 
 **Beta-status**
 
-Canvas Dashboards är för närvarande i en offentlig betatestningsfas och kan därför ändras ofta. Se nedan för instruktioner om hur du anmäler dig till betaversionen.
+Kontrollpanelerna för arbetsytan är för närvarande i en sluten betatestningsfas och kan därför ändras ofta. Se nedan för instruktioner om hur du anmäler dig till betaversionen.
 
 ## Delta i betaversionen
+
+>[!IMPORTANT]
+>
+>Kontrollpanelerna för arbetsytan är för närvarande i en sluten betaversion och är därför endast tillgängliga för vissa organisationer. Vi fortsätter att bjuda in organisationer till betan direkt från en lista över dem som har uttryckt intresse. Du kan lägga till din organisation i väntelistan genom att skicka in [det här formuläret för Adobe-feedback](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Dessutom har företag som köpt Workfront Planning som en del av sitt paket fått betaåtkomst för att testa möjligheten till produktövergripande rapportering.
+>
+>Så småningom kommer vi att gå över till en öppen betaversion, där registreringsprocessen blir tillgänglig för alla organisationer.
 
 ### Registrera
 
@@ -33,11 +39,7 @@ Så här anmäler du dig till betaversionen:
 
 1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **Kontrollpaneler**.
 
-1. Klicka på betaknappen **Anslut till betaknappen för arbetsytans kontrollpaneler** i det övre högra hörnet på sidan.
-
-   >[!NOTE]
-   >
-   >Den här knappen är bara tillgänglig om din organisation har godkänts i den stängda betaversionen. När den öppna betaversionen börjar är den tillgänglig för alla organisationer.
+1. Klicka på betaknappen **Anslut till betaknappen för arbetsytans kontrollpaneler** i det övre högra hörnet på sidan. Observera att den här knappen endast är tillgänglig om din organisation har bjudits in till den stängda betaversionen.
 
 1. Läs villkoren och klicka sedan på **Acceptera**. Du är nu registrerad i betaversionen. Observera dock att det tar några minuter innan dina Workfront-data blir helt tillgängliga i Canvas Dashboards.
 
