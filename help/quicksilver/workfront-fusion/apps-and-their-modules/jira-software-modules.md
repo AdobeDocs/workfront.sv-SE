@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '1763'
+source-wordcount: '1778'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Om du vill ansluta [!DNL Jira Software] till [!DNL Workfront Fusion] måste du s
 1. I [!DNL Workfront Fusion] lägger du till en [!DNL Jira]-modul i ett scenario för att öppna rutan **[!UICONTROL Create a connection]**.
 1. Ange följande information:
 
-   * **[!UICONTROL Service URL]**
+   * **[!UICONTROL Service URL]:** Detta är den bas-URL som du använder för att komma åt ditt Jira-konto. Exempel: `yourorganization.atlassian.net`
    * **[!UICONTROL Username]**
    * **[!UICONTROL API token]:** Detta är den API-token som du skapade i avsnittet [Skapa en API-token i  [!DNL Jira]](#create-an-api-token-in-jira) i den här artikeln.
 
@@ -231,7 +231,7 @@ Om du vill hämta en privat nyckel för din [!DNL Workfront Fusion Jira]-anslutn
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Ange din [!DNL Jira]-instans-URL. </td> 
+      <td>Ange din [!DNL Jira]-instans-URL. Exempel: <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -378,9 +378,7 @@ När du konfigurerar den här modulen visas följande fält.
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Lägg till brödinnehållet för API-anropet i form av ett standard-JSON-objekt.</p> <p>Obs!  <p>När du använder villkorssatser som <code>if</code> i JSON placerar du citattecknen utanför villkorssatsen.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
