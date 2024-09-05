@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '793'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,7 @@ Du kan hantera vilken information användare kan visa och redigera för andra an
       <td> <p>Tillåter användare att göra följande för alla användare i Workfront:</p> 
        <ul> 
         <li>Redigera, ta bort eller inaktivera användaren</li> 
-        <li>Logga in som användare</li> 
+        <li>Logga in som användare<p><b>Obs!</b> Du kan inte logga in som någon användare som är systemadministratör.</p></li> 
         <li>Återställ användarens lösenord</li> 
        </ul> <p>Det här alternativet är inaktiverat som standard.</p> </td> 
      </tr> 

@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -357,7 +357,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
   </tr> 
   <tr> 
    <td>Redigera, ta bort, inaktivera, logga in som eller återställa lösenordet för alla användare</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>Obs!</b> Du kan inte logga in som någon användare som är systemadministratör.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ Användare med en planlicens har fullständig åtkomst till rapporter. Alla andr
   </tr> 
   <tr> 
    <td>Redigera, ta bort, inaktivera, logga in som eller återställa lösenordet för alla användare i en grupp som de administrerar</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>Obs!</b> Du kan inte logga in som någon användare som är systemadministratör.</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
