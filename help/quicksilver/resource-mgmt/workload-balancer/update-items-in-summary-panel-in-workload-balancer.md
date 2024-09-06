@@ -6,57 +6,61 @@ description: Du kan öppna panelen Sammanfattning i Utjämning av arbetsbelastni
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
 # Uppdatera arbetsobjekt i belastningsutjämnaren med hjälp av sammanfattningen
 
-{{highlighted-preview}}
-
 Du kan använda panelen Sammanfattning för en uppgift eller ett problem för att uppdatera viktig information för det objektet. i Utjämning av arbetsbelastning.
 
-Panelen Sammanfattning är tillgänglig för uppgifter och utgåvor i både Tilldelad och Ej tilldelad arbetsyta i Utjämning av arbetsbelastning.
+Panelen Sammanfattning är tillgänglig för uppgifter och problem i både arbetsytan Tilldelad och Ej tilldelad arbetsyta i Utjämning av arbetsbelastning.
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p> 
- </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
+       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande:</p> 
     <ul> 
-     <li> <p>Resurshantering</p> </li> 
-     <li> <p>Projekt</p> </li> 
-     <li> <p>Uppgifter</p> </li> 
-     <li> <p>Problem</p> </li> 
-    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+     <li>Resurshantering</li> 
+     <li>Projekt</li> 
+     <li>Uppgifter</li> 
+     <li>Problem</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute behörigheter eller högre för projekt, uppgifter och ärenden </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Contribute behörigheter eller högre för projekt, uppgifter och ärenden</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Uppdatera aktiviteter och problem på panelen Sammanfattning av arbetsbelastningsutjämning
 
@@ -82,15 +86,7 @@ Du måste ha följande:
 
    Panelen Sammanfattning öppnas till höger.
 
-   <div class="preview">
-
-   Exempel på panelen Sammanfattning i förhandsvisningsmiljön:
    ![Panelen Sammanfattning](assets/summary-panel-task-wb-new-comments.png)
-
-   </div>
-
-   Exempel på panelen Sammanfattning i produktionsmiljön:
-   ![Panelen Sammanfattning](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Ändra ett antal fält för arbetsuppgiften, ange en uppdatering eller navigera härifrån till andra områden i Workfront för att lägga till dokument eller annan information till arbetsposten.
 

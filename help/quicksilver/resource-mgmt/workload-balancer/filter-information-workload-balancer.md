@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Filtrera information i Utjämning av arbetsbelastning
+title: Filterinformation i Utjämning av arbetsbelastning
 description: För att effektivt hitta arbetsobjekt och fokusera på de användare eller objekt du hanterar rekommenderar vi att du använder filter i Utjämning av arbetsbelastning.
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2489'
+source-wordcount: '2462'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,9 @@ Den här artikeln innehåller information om filter i Utjämning av arbetsbelast
 
 ## Åtkomstkrav
 
-Du måste ha följande:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ Du måste ha följande:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
-   <td> <p>Alla planer</p> </td> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
+       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
-     <li> <p>Resurshantering</p> </li> 
-     <li> <p>Projekt</p> </li> 
-     <li> <p>Uppgifter</p> </li> 
-     <li> <p>Problem</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>Filter, vyer och grupperingar</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>Redigera åtkomst till filter, vyer och grupperingar när du skapar eller redigerar filter</span> </p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+     <li>Resurshantering</li> 
+     <li>Projekt</li> 
+     <li>Uppgifter</li> 
+     <li>Problem</li>
+     <li>Filter, vyer och grupperingar</li>
+    </ul>
+    <p>Redigera åtkomst till filter, vyer och grupperingar när du skapar eller redigerar filter </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
    <td> <p>Visa eller högre behörigheter för projekt, uppgifter, utgåvor</p>
    <p>Hantera behörigheter för de filter som du vill redigera eller ta bort</p>
-     </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Översikt över filter i Utjämning av arbetsbelastning
 

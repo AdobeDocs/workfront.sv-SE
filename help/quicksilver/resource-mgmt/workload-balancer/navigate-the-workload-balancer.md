@@ -6,9 +6,9 @@ description: Använd belastningsutjämnaren för att förstå tillgängligheten 
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
+source-wordcount: '4068'
 ht-degree: 0%
 
 ---
@@ -21,47 +21,9 @@ Utjämning av arbetsbelastning är tillgängligt i flera områden av Adobe Workf
 
 Mer information om var arbetsbelastningsutjämnaren finns finns i [Hitta arbetsbelastningsutjämnaren](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Åtkomstkrav
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -70,33 +32,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p>
-   <p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
+       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Visa eller öka åtkomsten till följande:</p> 
     <ul> 
-     <li> <p>Resurshantering</p> </li> 
-     <li> <p>Projekt</p> </li> 
-     <li> <p>Uppgifter</p> </li> 
-     <li> <p>Problem</p> </li> 
-    </ul> <p>Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+     <li>Resurshantering</li> 
+     <li>Projekt</li> 
+     <li>Uppgifter</li> 
+     <li>Problem</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Visa eller högre behörigheter för projekt, uppgifter och ärenden </p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Visa eller högre behörigheter för projekt, uppgifter och ärenden</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Att tänka på när du visar objekt i arbetsbelastningsutjämnaren
 
@@ -156,7 +122,8 @@ När du har valt de inställningar som du vill använda för vyn kommer arbetsbe
 
 Så här navigerar du i belastningsutjämnaren för flera projekt:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Workfront och klicka sedan på **Resurser**.
+{{step1-to-resourcing}}
+
 1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
 
    ![Utjämnare för arbetsbelastning](assets/nwe-balancer-global.png)
@@ -298,9 +265,9 @@ Arbetsytan Ej tilldelat visas inte som standard. Vi rekommenderar att du använd
      >Inställningen för att välja färgtema påverkar inte färgen på problemfälten. Problem visas alltid i ett fält med maronfärg.
 
      Välj bland följande:
-      * **Standard**: Fälten för alla projekt och deras arbetsobjekt visas i blått.
-      * **Projekt**: Fälten som är associerade med varje projekt och dess aktiviteter ändras beroende på projektets namn. Alla uppgifter som tillhör projektet visas i fält som matchar projektets färg. Projektstaplarna visas i en ljusare ton för att skilja dem från åtgärderna. Projektfälten innehåller också en projektikon när du väljer att inte visa tilldelningar.
-      * **Projektstatus**: Fälten som är associerade med varje projekt och dess arbetsobjekt ändras till färgen för projektets status.
+      * **Standard**: Staplarna för alla projekt och deras arbetsobjekt visas i blått.
+      * **Projekt**: Staplarna som är associerade med varje projekt och dess uppgifter ändras beroende på projektets namn. Alla aktiviteter som tillhör projektet visas i fält som matchar färgen på projektet. Projektfälten visas i en ljusare ton för att skilja dem från uppgifterna. Projektfälten innehåller också en projektikon när du väljer att inte visa allokeringar.
+      * **Projektstatus**: Staplarna som är associerade med varje projekt och dess arbetsobjekt ändras till färgen för projektets status.
 
         Projektstatusen är den som är associerad med projektgruppen. Om gruppen inte har gruppspecifika statusar är färgen på arbetsartikelfälten densamma som på projektstatus på systemnivå. Både systemet och anpassade statusar visas. Mer information om gruppstatus finns i [Skapa eller redigera en gruppstatus](../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
@@ -396,12 +363,12 @@ I stället för att visa tilldelningar i dag- eller veckonummer kan du visa dem 
 
 Du kan visa mer information om aktiviteterna och problemen i Utjämning av arbetsbelastning.
 
-1. Gå till Utjämning av arbetsbelastning i området Resurser, vilket beskrivs i avsnittet [Öppna Utjämning av arbetsbelastning för flera projekt i området Resurser](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
-1. Om du vill visa mer information på panelen Sammanfattning gör du något av följande:
+1. Åtkomst till Arbetsbelastningsutjämnaren i resursområdet, som beskrivs i avsnittet [Åtkomst till arbetsbelastningsutjämnaren för flera projekt i resursområdet](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
+1. Gör något av följande om du vill visa mer information på sammanfattningspanelen:
 
-   * Klicka på fältet för en uppgift eller ett problem för att öppna sammanfattningspanelen till höger.
-   * Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en uppgift eller ett problem för att öppna panelen Sammanfattning.
-   * Klicka på menyn **Mer** till höger om en uppgift eller ett problem och klicka sedan på **Öppna sammanfattning**.
+   * Klicka på fältet för en aktivitet eller ett problem för att öppna sammanfattningspanelen till höger.
+   * Klicka på ikonen **Öppna sammanfattning** ![](assets/summary-panel-icon.png) och klicka sedan på fältet för en aktivitet eller ett problem för att öppna sammanfattningspanelen.
+   * Klicka på menyn **Mer** till höger om en aktivitet eller ett problem och klicka sedan på **Öppna sammanfattning**.
 
    Information om hur du uppdaterar aktivitetsinformation i sammanfattningen i arbetsbelastningsutjämnaren finns i [Uppdatera arbetsobjekt i arbetsbelastningsutjämnaren med hjälp av sammanfattningen](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md).
 
@@ -433,9 +400,11 @@ Du kan visa mer information om aktiviteterna och problemen i Utjämning av arbet
 
 Att navigera i ett teams belastningsutjämnare påminner om hur du navigerar i belastningsutjämnaren för flera projekt. Mer information finns i avsnittet [Navigera i arbetsbelastningsutjämnaren för flera projekt](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) i den här artikeln.
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Team**.
+{{step1-to-team}}
+
 Sidan i ditt hemteam visas som standard.
-1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen. Arbetsbelastningsutjämnaren för ett team ska visas som standard.
+
+1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen.
 
    ![Utjämning av arbetsbelastning för ett team](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ Sidan i ditt hemteam visas som standard.
 
 ## Navigera i arbetsbelastningsutjämnaren för ett enskilt projekt
 
-1. Klicka på ikonen **Huvudmeny** ![Huvudmeny](assets/main-menu-icon.png) och klicka sedan på **Projekt**.
+{{step1-to-projects}}
+
 1. Klicka på namnet på ett projekt för att öppna projektsidan.
 1. Klicka på **Utjämning av arbetsbelastning** i den vänstra panelen. Du kan behöva klicka på **Visa mer** och sedan på **Utjämning av arbetsbelastning**.
 

@@ -6,22 +6,22 @@ description: Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer 
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
 
 # Tilldela arbete i belastningsutjämnaren genom att dra och släppa
 
-<!--remove production and preview preferences at release-->
-
 Du kan tilldela arbetsobjekt med Adobe Workfront Workload Balancer genom att dra och släppa arbetsobjekt till rätt användare.
 
 Allmän information om hur du tilldelar arbete till användare med hjälp av arbetsbelastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -30,35 +30,37 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera, om du vill tilldela arbete i arbetsbelastningsutjämnaren i resursområdet</p>
-   <p>Arbeta, för att tilldela arbete i belastningsutjämnaren för ett team eller projekt</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera att tilldela arbete i arbetsbelastningsutjämnaren i resursområdet:</br>
+       Arbeta, för att tilldela arbete i belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande:</p> 
     <ul> 
-     <li> <p>Resurshantering</p> </li> 
-     <li> <p>Projekt</p> </li> 
-     <li> <p>Uppgifter</p> </li> 
-     <li> <p>Problem</p> </li> 
-    </ul> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+     <li>Resurshantering</li> 
+     <li>Projekt</li> 
+     <li>Uppgifter</li> 
+     <li>Problem</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Tilldela ett objekt genom att dra och släppa
 

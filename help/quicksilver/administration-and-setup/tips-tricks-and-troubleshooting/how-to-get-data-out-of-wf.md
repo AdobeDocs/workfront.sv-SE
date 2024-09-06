@@ -9,14 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
-# Exportera historiska data från [!DNL Adobe Workfron]t: För och nackdelar
+# Exportera historiska data från [!DNL Adobe Workfront]: för- och nackdelar
 
 I den här artikeln förklaras för- och nackdelarna med fyra alternativ som du kan använda för att exportera historiska data från [!DNL Workfront].
 
@@ -32,11 +32,11 @@ I den här artikeln förklaras för- och nackdelarna med fyra alternativ som du 
 
 ## Begär en [!DNL Postgres]-datadumpfil från vårt databasteam
 
-Din kontoansvarige kan skicka en begäran till vårt databasteam om att exportera en databasdumpfil (.dmp [!DNL Postgres]) med dina data. Ytterligare en begäran kommer att skickas till vårt AOS-team för att hämta alla dina lagrade dokument.
+Du måste skicka en begäran till vårt kundsupportteam, som sedan skickar en begäran till vårt databasteam om att exportera en databasdumpfil (.dmp [!DNL Postgres] fil) med dina data. Ytterligare en begäran kommer att skickas till vårt NOC-team för att hämta alla dina lagrade dokument.
 
 * **Pros**: Du får hela din datainläsning, inklusive anpassade fält och dokument som lagras i systemet.
 
-* **Kon**: Databasfilen är svår att läsa: du kan inte läsa den här filen om du inte överför den till en [!DNL Postgres]-databas och återupprättar relationerna mellan tabellerna. Dokumenten lagras på en separat filserver och måste extraheras separat med en separat process av AOS-teamet. Då finns det ingen organisation för dokumenten och de hänvisas alla till av deras GUID.
+* **Kon**: Databasfilen är svår att läsa: du kan inte läsa den här filen om du inte överför den till en [!DNL Postgres]-databas och återupprättar relationerna mellan tabellerna. Dokumenten lagras på en separat filserver och måste extraheras separat med en separat process av NOC-teamet. Då finns det ingen organisation för dokumenten och de hänvisas alla till av deras GUID.
 
 * **Kostnad**: Det är en kostnad kopplad till den här hämtningen, beroende på hur lång tid det tar för teamet att skapa filen. Kontakta en återförsäljare för mer information eller för att komma igång.
 

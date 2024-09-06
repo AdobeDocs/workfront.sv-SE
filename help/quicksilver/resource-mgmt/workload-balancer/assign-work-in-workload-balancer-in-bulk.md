@@ -1,14 +1,14 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Tilldela flera arbeten med hjälp av belastningsutjämnaren
+title: Tilldela arbete gruppvis med hjälp av arbetsbelastningsutjämnaren
 description: Du kan tilldela resurser till flera uppgifter och flera problem samtidigt med Adobe Workfront Workload Balancer.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 0%
 
 <!--Audited: 07/2024-->
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
-
 Du kan tilldela resurser till flera uppgifter och flera problem samtidigt med Adobe Workfront Workload Balancer.
 
 Allmän information om hur du tilldelar arbete till användare med hjälp av arbetsbelastningsutjämnaren finns i [Översikt över hur du tilldelar arbete i belastningsutjämnaren](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
@@ -28,6 +24,8 @@ Allmän information om hur du tilldelar arbete till användare med hjälp av arb
 ## Åtkomstkrav
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Allmän information om hur du tilldelar arbete till användare med hjälp av arb
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> 
-   <p>Nytt: Standard</p>
-   <p>Aktuell:</p>
-   <ul>
-   <li><p>Planera, när du använder arbetsbelastningsutjämnaren i resursområdet</p></li>
-   <li><p>Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
+       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Åtkomstnivå</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande:</p> 
     <ul> 
-     <li> <p>Resurshantering</p> </li> 
-     <li> <p>Projekt</p> </li> 
-     <li> <p>Uppgifter</p> </li> 
-     <li> <p>Problem</p> </li> 
+     <li>Resurshantering</li> 
+     <li>Projekt</li> 
+     <li>Uppgifter</li> 
+     <li>Problem</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</p> </td> 
+   <td>Contribute behörigheter eller högre till projekt, uppgifter och ärenden som innehåller Skapa uppdrag</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -100,27 +93,27 @@ Allmän information om hur du tilldelar arbete till användare med hjälp av arb
 
 1. (Villkorligt) Om du använder Utjämning av arbetsbelastning från området Resurser eller för ett team expanderar du listrutan **Projekt: Namn** och använder filtermodifierarna för att välja det eller de projekt som du vill göra tilldelningar för. Du kan välja projekt efter namn (det här är standardalternativet) eller efter status.
 
-Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Projektnamnet är markerat som standard när du öppnar arbetsbelastningsutjämnaren för ett projekt.
+   >[!NOTE]
+   >
+   >Projektnamnet är markerat som standard när du öppnar arbetsbelastningsutjämnaren för ett projekt.
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Valfritt) Klicka på **Välj projektuppgifter** för att välja den eller de uppgifter som du vill tilldela till. Välj sedan aktiviteter efter namn (standardalternativet) eller Status i listrutan **Aktivitet: Namn** och använd filtermodifierarna för att söka efter specifika uppgifter.
 
-Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Mer information om Workfront filtermodifierare finns i [Filter och villkorsmodifierare](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
->[!NOTE]
->
->Du kan inte välja uppgifter med statusen Slutför.
+   >[!NOTE]
+   >
+   >Du kan inte välja uppgifter med statusen Slutför.
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->Lämna det här valet tomt om du vill göra grupptilldelningar för både ärenden och uppgifter.
+   >[!TIP]
+   >
+   >Lämna det här valet tomt om du vill göra grupptilldelningar för både ärenden och uppgifter.
 
 1. (Valfritt) Klicka på ikonen **Ta bort** ![](assets/delete.png) bredvid ett av de valda villkoren
 

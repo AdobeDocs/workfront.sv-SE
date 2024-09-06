@@ -2,15 +2,15 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Utjämning av arbetsbelastning
+title: "Utjämning av arbetsbelastning: artikelindex"
 description: Utjämning av arbetsbelastning är ett resursplaneringsverktyg i Adobe Workfront som gör att du kan tilldela uppgifter och utgåvor till dina personalresurser.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '168'
 ht-degree: 0%
 
 ---

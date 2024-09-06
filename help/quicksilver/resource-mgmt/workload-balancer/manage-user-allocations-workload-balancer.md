@@ -1,12 +1,12 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Hantera användarallokeringar i Utjämning av arbetsbelastning
+title: Hantera användarallokeringar i arbetsbelastningsutjämnaren
 description: Som resurshanterare kan du tilldela användare arbete och hantera deras dagliga, veckovisa eller månadsvisa tilldelningar från belastningsutjämnaren.
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Som resurshanterare kan du tilldela användare arbete och hantera deras dagliga,
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>
-   <p>När du använder Utjämning av arbetsbelastning i resursområdet behöver du:</p>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Planera</p>
-   <p>När du använder belastningsutjämnaren för ett team eller projekt behöver du:</p>
-   <p>Nytt: Standard</p>
-   <p>eller</p>
-   <p>Aktuell: Arbete</p>
- </td> 
-  </tr> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera när du använder belastningsutjämnaren för arbetsbelastning i resursområdet:</br>
+       Arbeta, när du använder belastningsutjämnaren för ett team eller projekt</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Åtkomstnivåkonfiguration</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Redigera åtkomst till följande:</p> 
     <ul> 
-     <li> <p>Resurshantering</p> </li> 
-     <li> <p>Projekt</p> </li> 
-     <li> <p>Uppgifter</p> </li> 
-     <li> <p>Problem</p> </li> 
-    </ul> </td> 
+     <li>Resurshantering</li> 
+     <li>Projekt</li> 
+     <li>Uppgifter</li> 
+     <li>Problem</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
