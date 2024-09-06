@@ -5,7 +5,7 @@ description: Det övre navigeringsfältet - som visas högst upp på skärmen i 
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
@@ -150,3 +150,4 @@ I den nedre delen av huvudmenyn finns följande:
   </tr> 
  </tbody> 
 </table>
+

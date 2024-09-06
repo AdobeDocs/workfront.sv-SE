@@ -2,12 +2,12 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när du använder användarvyn
+title: Visa tillgängliga, planerade och faktiska timmar eller FTE i resursplaneraren när användarvyn används
 description: Visa Tillgängliga, Planerade och Faktiska timmar eller Faktiska timmar i resursplaneraren när du använder användarvyn i Planering i den högra panelen, t.ex."Budgeteringsresurser i den högra panelen" eller"Hantera resurser i den högra panelen". eller behöver återanvändas från ett annat POV?!"
-author: Alina
+author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1739'
 ht-degree: 0%

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,17 @@ Mer information om datumbaserade jokertecken finns i [Generera rapporter med dat
 
 Ett API-jokertecken finns också i affärsreglerna. Du kan använda `$$ISAPI` för att utlösa regeln endast i gränssnittet eller endast i API:t.
 
+Jokertecknen `$$BEFORE_STATE` och `$$AFTER_STATE` används i uttryck för att komma åt objektets fältvärden före och efter redigeringar.
+
+* Dessa jokertecken är båda tillgängliga för redigeringsutlösaren. Standardläget för redigeringsutlösaren (om inget läge ingår i uttrycket) är `$$AFTER_STATE`.
+* Utlösaren för att skapa objekt tillåter bara `$$AFTER_STATE` eftersom det tidigare läget inte finns.
+* Borttagningsutlösaren för objekt tillåter bara `$$BEFORE_STATE` eftersom efterläget inte finns.
+
+
 Några enkla affärsregelscenarier är:
 
 * Användare kan inte lägga till nya utgifter under den sista veckan i februari. Den här formeln kan anges som: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Användare kan inte redigera ett projekt som har statusen Fullständigt. Den här formeln kan anges som: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Användare kan inte redigera projektnamnet för ett projekt med statusen Fullständigt. Den här formeln kan anges som: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 Ett scenario med kapslade IF-satser är:
 
