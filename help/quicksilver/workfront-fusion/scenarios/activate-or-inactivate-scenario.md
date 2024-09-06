@@ -7,9 +7,9 @@ description: I den här artikeln beskrivs varför aktiva eller inaktiverade scen
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Du kan arbeta med scenarier i ett aktivt eller inaktivt läge:
 
 * Ett inaktivt scenario körs bara när du kör det manuellt.
 
-  Detta är användbart när du bara vill köra scenariot vid vissa tillfällen.
+  Detta är användbart när du vill köra scenariot manuellt varje gång.
 
 Du kan när som helst aktivera eller inaktivera ett scenario beroende på hur du vill använda scenariot.
 
