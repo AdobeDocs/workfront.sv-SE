@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
+source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
 workflow-type: tm+mt
 source-wordcount: '1778'
 ht-degree: 0%
@@ -210,6 +210,7 @@ Om du vill hämta en privat nyckel för din [!DNL Workfront Fusion Jira]-anslutn
 >[!NOTE]
 >
 >Använd appen [!DNL Jira Server] för att ansluta till [!DNL Jira Server] eller [!DNL Jira Data Center].
+
 1. Klicka på **[!UICONTROL Add]** bredvid fältet [!UICONTROL connection] i någon [!DNL Jira Server]-modul i [!DNL Workfront Fusion].
 1. Fyll i följande fält i panelen [!UICONTROL Create a connection]:
 
