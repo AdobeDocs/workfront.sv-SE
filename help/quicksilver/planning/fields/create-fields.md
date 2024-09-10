@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 0%
@@ -247,7 +247,7 @@ Styckefält hämtar ytterligare alfanumerisk information om en post, som liknar 
 >
 >* Du kan ha högst 20 styckefält för en posttyp.
 >
->* Innehållet i ett styckefält kan innehålla upp till 100 000 tecken.
+>* Innehållet i ett styckefält kan innehålla upp till 10 000 tecken.
 >* Du kan använda RTF-formatering för att förbättra innehållet i styckefält när de visas i tabellvyn eller på detaljsidan för en post. Mer information finns i [Redigera poster](/help/quicksilver/planning/records/edit-records.md).
 >
 

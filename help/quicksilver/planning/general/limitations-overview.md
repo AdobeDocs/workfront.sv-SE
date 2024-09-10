@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
+exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 1%
 
 ---
-
 
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
@@ -34,7 +34,7 @@ I följande tabell visas gränserna för hur många objekt du kan skapa i Workfr
 | Antal poster för en instans av Workfront Planning | 500 000 för kunder med Planning-planen <br>2 miljoner för kunder med Planning Plus |
 | Antal fält för en posttyp eller taxonomi | 500 |
 | Antal tecken för ett textfält med en rad | 1 000 tecken |
-| Antal tecken för ett styckefält | 100 000 tecken |
+| Antal tecken för ett styckefält | 10 000 tecken |
 | Antal styckefält för en posttyp | 20 styckefält |
 | Storlek på fil som du kan klistra in i en posttypstabell | 1 MB |
 | Storlek på fil som du kan importera via API för en posttypstabell | 1,5 MB |
@@ -73,4 +73,3 @@ Information om priser och paketering för Workfront Planning finns i [Adobe Work
 <!--[!IMPORTANT]
 >
 >*This functionality has been temporarily removed and it will be available at a later date.-->
-

@@ -7,16 +7,18 @@ description: När du har skapat en mall kan du redigera information om malluppgi
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '2385'
+source-wordcount: '2409'
 ht-degree: 0%
 
 ---
 
 # Redigera en malluppgift
 
-När du har skapat en mall kan du redigera information om malluppgifterna. Den information som du uppdaterar för en malluppgift kopplas till projektuppgifter när du har använt mallen för att skapa ett projekt eller bifogat mallen till ett projekt.
+<!--Audited: 09/2024-->
+
+När du har skapat en mall kan du redigera informationen för malluppgifterna. Den information som du uppdaterar för en malluppgift kopplas till projektuppgifter när du har använt mallen för att skapa ett projekt eller bifogat mallen till ett projekt.
 
 Mer information om hur du skapar en mall finns i [Skapa en projektmall](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -28,6 +30,8 @@ Du kan redigera malluppgifter eller redigera malluppgifter samtidigt.
 
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -55,7 +59,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomstnivå du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förutsättningar
 
@@ -88,7 +94,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
    >[!TIP]
    >
-   >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta att redigera alla fält i rutan Redigera malluppgift nedan.
+   >Om du vill ha information om alla fält som visas i området Detaljer kan du fortsätta redigera alla fält med rutan Redigera malluppgift, som beskrivs nedan.
 
 1. (Villkorligt) Om du vill redigera all information om mallaktiviteten klickar du på menyn **Mer** ![](assets/qs-more-icon-on-an-object.png) bredvid namnet på mallaktiviteten och sedan på **Redigera**.
 
@@ -212,7 +218,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
 ### Ekonomi {#finance}
 
-1. Börja redigera en uppgift enligt beskrivningen ovan.
+1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Ekonomi**.
 
    ![edit_task_Finance.png](assets/edit-task-finance-350x216.png)
@@ -259,7 +265,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
 ### Inställningar {#settings}
 
-1. Börja redigera en uppgift enligt beskrivningen ovan.
+1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Inställningar**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -319,7 +325,7 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
 ### Uppdrag {#assignments}
 
-1. Börja redigera en uppgift enligt beskrivningen ovan.
+1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Uppdrag**.
 
    ![tilldelningar_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -343,14 +349,22 @@ Du kan redigera en malluppgift med området Redigera malluppgift eller Malluppgi
 
 ### Anpassad Forms {#custom-forms}
 
-Du kan definiera anpassade standardformulär som automatiskt ska kopplas till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du konfigurerar projektet så att det innehåller anpassade formulär för standarduppgifter finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
+Du kan definiera anpassade formulär som ska bifogas automatiskt som standard till uppgifter när uppgifterna läggs till i ett projekt. Mer information om hur du konfigurerar projektet så att det innehåller anpassade formulär för standarduppgifter finns i avsnittet Åtgärder i artikeln [Redigera projekt](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Börja redigera en uppgift enligt beskrivningen ovan. test
+Du kan också lägga till anpassade formulär till de framtida uppgifterna i ett projekt när projektet skapas från en mall genom att lägga till anpassade formulär till malluppgifterna.
+
+1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Anpassad Forms**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Markera det eller de anpassade formulär som du vill koppla till malluppgiften. Du måste skapa anpassade formulär innan de kan väljas i det här fältet. Endast aktiva anpassade formulär visas i listan. Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Du kan lägga till upp till tio anpassade formulär i en mallåtgärd. Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
+1. Markera det eller de anpassade formulär som du vill koppla till malluppgiften.
+
+   Du måste skapa anpassade formulär innan de kan väljas i det här fältet.
+Endast aktiva anpassade formulär visas i listan.
+Mer information om hur du skapar anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Du kan lägga till upp till tio anpassade formulär i en mallåtgärd.
+Formulären läggs automatiskt till i de uppgifter som skapas från mallen.
 1. (Villkorligt och valfritt) Om du har kopplat ett anpassat formulär till malluppgiften kan du redigera alla fält i formuläret. Du måste ange alla obligatoriska fält innan du kan spara malluppgiften.
 
    >[!NOTE]
@@ -368,14 +382,12 @@ Du kan definiera anpassade standardformulär som automatiskt ska kopplas till up
 
 ### Kommentar {#comment}
 
-1. Börja redigera en uppgift enligt beskrivningen ovan.
+1. Börja redigera en malluppgift enligt beskrivningen ovan.
 1. Klicka på **Kommentar**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Ange en kommentar som du vill visa i uppdateringsströmmen för malluppgiften i det tillgängliga fältet. Den här kommentaren är synlig för alla som har åtkomst till mallen och malluppgiften och tillgång till vyn Anteckningar.
 1. Klicka på **Spara ändringar**.
-
-   Ändringarna skickas för den här malluppgiften.
 
    När du eller någon annan användare skapar ett projekt från den här mallen används alla inställningar som du har tillämpat på malluppgifter som inställningar för projektuppgifterna.

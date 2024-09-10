@@ -1,25 +1,29 @@
 ---
-title: Portfolio Management overview
+title: Översikt över hanteringen av Portfolio
 product-area: portfolios
 navigation-topic: portfolios-overview
 description: Portfolio eller Project Portfolio Management (PPM) är processen att prioritera och hantera en lista med projekt för att uppnå specifika affärsmål. En portfölj är en samling projekt med gemensamma affärsmål.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '645'
 ht-degree: 0%
 
 ---
 
 # Portfolio Management overview
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## Översikt över hanteringen av projekt Portfolio (PPM)
 
-Portfolio eller Project Portfolio Management (PPM) är processen att prioritera och hantera en lista med projekt för att uppnå specifika affärsmål. En portfölj är således en samling projekt med gemensamma affärsmål. Resultatet av en effektiv PPM-metod gör att cheferna kan
+Portfolio eller Project Portfolio Management (PPM) är processen att prioritera och hantera en lista med projekt för att uppnå specifika affärsmål.
+
+I den här artikeln beskrivs de allmänna begreppen för portföljhantering. Allmän information om hanteringen av portföljer i Adobe Workfront finns i [Översikt över Portfolio i Adobe Workfront](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+
+En portfölj är en samling projekt med gemensamma affärsmål. Resultatet av en effektiv PPM-metod gör att cheferna kan
 
 * Identifiera alla projekt i en portfölj.
 * Förstå effekten av varje projekt på resurser, kostnader och intäkter.
@@ -40,12 +44,12 @@ Du kan prioritera dina projekt och se till att de är anpassade till dina verksa
 
 I följande diagram visas en översikt på hög nivå över PPM-processen i [!DNL Workfront]:
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [Projektförfrågan](#project-request)
 * [Projektgranskning](#project-review)
 * [Optimering för Portfolio](#portfolio-optimization)
-* [Resursplanering](#resource-planning)
+* [Resurshantering](#resource-management)
 * [Projektkörning](#project-execution)
 * [Postmortem för projekt](#project-postmortem)
 
@@ -59,7 +63,7 @@ Mer information om hur du skapar ett affärsärende och en projektförfrågan fi
 
 När du har skickat in projektbegäran granskar projektledaren eller ett ledningsgrupp den och avgör om du ska godkänna projektet eller inte. Om de godkänner projektet väljs projektet ut för ett företag som heter Project Portfolio.
 
-Mer information om portföljer finns i [Översikt över Portfolio i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Mer information om portföljer finns i [Översikt över Portfolio i [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md). Mer information om hur du godkänner ett affärsärende finns i [Godkänn ett affärsärende](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ### Optimering för Portfolio {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ När du har lagt till alla projekt i portföljen optimerar och prioriterar Portf
 
 Mer information om portföljoptimering finns i [Optimera projekt i Portfolio-optimering](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
-### Resursplanering {#resource-planning}
+### Resurshantering {#resource-management}
 
 Resurshanteraren ser till att rätt resurser tilldelas projekten tillsammans med optimering av portföljens prestanda och prioritering av projekten. De utvärderar tillgängligheten och allokeringen av resurserna med hjälp av de resurshanteringsverktyg som är tillgängliga i [!DNL Workfront].
 
@@ -79,7 +83,8 @@ Mer information om resurshantering finns i avsnittet [Hantera resurser](../../..
 
 När du har fått projektgodkännandet från Portfolio Manager och valideringen av resurserna från Resource Manager som projektägare kan du placera projektet i statusen [!UICONTROL Current] och dina användare kan påbörja arbetet för att slutföra projektet. Vi rekommenderar att du hämtar en baslinje för projektet i den här fasen, så att du får en referenspunkt för projektet i dess ursprungliga skick.
 
-Mer information om hur du hanterar projekt i [!DNL Workfront] finns i [Hantera projekt: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+Mer information om hur du hanterar projekt i [!DNL Workfront] finns i [Hantera projekt: artikelindex](../../../manage-work/projects/manage-projects/manage-projects-overview.md).
+
 Mer information om hur du skapar baslinjer för projekt finns i [Skapa projektbaslinjer](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Postmortem för projekt {#project-postmortem}
