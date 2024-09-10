@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2180'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Mer information om godkännanden som är kopplade till dokument eller korrektur 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-Du måste ha följande:
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ Du måste ha följande:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
-   <td> <p>Ny plan: Standard </p>
+   <td> <p>Nytt: Standard </p>
  <p>eller</p> 
-<p>Aktuell plan: Plan </p> 
+<p>Aktuell: Planera </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Om du är Workfront-administratör eller har administrativ åtkomst till godkännandeprocesser kan du skapa en godkännandeprocess på systemnivå eller en godkännandeprocess på gruppnivå för en viss grupp.</p> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Om du är systemadministratör eller har administrativ åtkomst till godkännandeprocesser kan du skapa en godkännandeprocess på systemnivå eller en godkännandeprocess på gruppnivå för en viss grupp.</p> 
    <p>Om du är gruppadministratör kan du skapa godkännandeprocesser på gruppnivå för grupper som du hanterar.</p> </td> 
   </tr> 
  </tbody> 

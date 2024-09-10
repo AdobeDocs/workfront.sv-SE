@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '523'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,43 @@ ht-degree: 0%
 # Lista objekt med en väntande godkännandeprocess som använder en viss status
 
 Om du försöker ta bort en status kan ett felmeddelande tala om för dig att den inte kan tas bort eftersom den befinner sig i minst en väntande godkännandeprocess i systemet. Du kan köra en rapport för att lista objekten där den befinner sig i en väntande godkännandeprocess och sedan bestämma vad du behöver göra för varje.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>
+     <p>Nytt: Standard</p>
+     <p>eller</p>
+     <p>Aktuell: Planera</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td><p>Redigera åtkomst till rapporter, instrumentpaneler och kalendrar</p><p>Redigera åtkomst till filter, vyer, grupperingar</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Objektbehörigheter</td> 
+   <td>Du får behörigheten Hantera för de rapporter du skapar.</td>
+  </tr>
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## I standardläge
 

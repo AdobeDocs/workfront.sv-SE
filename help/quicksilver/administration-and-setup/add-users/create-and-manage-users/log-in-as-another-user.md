@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '738'
 ht-degree: 0%
 
 ---
@@ -61,20 +61,20 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
    <td> <p>Nytt: Standard</p>
+   <p>eller</p>
    <p>Aktuell: Planera</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst. Mer information om den här åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> <p>Med en åtkomstnivå för Planering kan du logga in som en användare med en lägre licensnivå om inställningen <b>Användare</b> i åtkomstnivån har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två alternativen <b>Användaradministratör</b> aktiverat under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>Obs!</b> Om du har aktiverat alternativet Användare <b>Administratör (gruppanvändare)</b> måste du vara gruppadministratör för en grupp där användaren är medlem.</p> 
-   <p>Mer information om inställningen <b>Användare</b> på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </td> 
+   <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst.</p> <p>Med en standard- eller planerings- åtkomstnivå kan du logga in som en användare med en lägre licensnivå om inställningen <b>Användare</b> i åtkomstnivån har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två alternativen <b>Användaradministratör</b> aktiverat under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
+   <p><b>Obs!</b> Om du har aktiverat alternativet Användare <b>Administratör (gruppanvändare)</b> måste du vara gruppadministratör för en grupp där användaren är medlem.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
