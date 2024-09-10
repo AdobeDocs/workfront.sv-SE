@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 0%
@@ -80,7 +80,6 @@ Jokertecknen `$$BEFORE_STATE` och `$$AFTER_STATE` används i uttryck för att ko
 * Utlösaren för att skapa objekt tillåter bara `$$AFTER_STATE` eftersom det tidigare läget inte finns.
 * Borttagningsutlösaren för objekt tillåter bara `$$BEFORE_STATE` eftersom efterläget inte finns.
 
-
 Några enkla affärsregelscenarier är:
 
 * Användare kan inte lägga till nya utgifter under den sista veckan i februari. Den här formeln kan anges som: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ Användare kan inte redigera slutförda projekt och kan inte redigera projekt me
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

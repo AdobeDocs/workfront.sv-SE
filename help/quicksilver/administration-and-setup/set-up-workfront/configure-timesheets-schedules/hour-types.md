@@ -5,13 +5,13 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Hantera timtyper
 description: Du kan associera timtyper med timposterna. Timtyper är etiketter som du använder för att definiera timposterna.
-author: Alina
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '718'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,8 @@ Mer information om hur du loggar timmar och associerar dem med timtyper finns i 
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -60,18 +62,18 @@ Mer information om hur du loggar timmar och associerar dem med timtyper finns i 
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] licens</td> 
    <td> <p>Nytt: [!UICONTROL Standard]</p>
    <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Åtkomstnivå</td> 
-   <td> <p>Du måste vara en [!DNL Workfront]-administratör.</p> <p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

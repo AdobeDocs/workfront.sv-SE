@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '761'
 ht-degree: 1%
 
 ---
@@ -23,44 +23,53 @@ Mer information om hur du skapar ett nytt företag finns i [Skapa och redigera f
 
 ## Åtkomstkrav
 
-Du måste ha följande för att kunna hantera företag i [!DNL Workfront]:
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Workfront] plan*</p> </td> 
-   <td>[!UICONTROL Team] eller högre</td> 
+   <td role="rowheader"> <p>[!DNL Workfront] plan</p> </td> 
+   <td><p>Aktuell: [!UICONTROL Team] eller högre</p>
+   <p>eller</p>
+   <p>Nytt: Alla</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] licens*</p> </td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] licens</p> </td> 
+   <td><p>Aktuell: [!UICONTROL Plan]</p>
+   <p>eller</p>
+   <p>Nytt: [!UICONTROL Standard]</p>
+   </td> 
+  </tr>
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Åtkomstnivåkonfigurationer*</strong> </td> 
+   <td role="rowheader"><strong>Åtkomstnivåkonfigurationer</strong> </td> 
    <td> <p>Något av följande:</p> 
     <ul> 
-     <li> <p>Åtkomstnivån [!UICONTROL System Administrator], som gör att du kan redigera vilket företag som helst i systemet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
-     <li> <p>Administrativ åtkomst för att hantera företag, vilket gör att du kan redigera vilket företag som helst i systemet. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Bevilja användare administrativ åtkomst till vissa områden</a>.</p> </li> 
+     <li> <p>Åtkomstnivån [!UICONTROL System Administrator], som gör att du kan redigera vilket företag som helst i systemet.</p> </li> 
+     <li> <p>Administrativ åtkomst för att hantera företag, vilket gör att du kan redigera vilket företag som helst i systemet.</p> </li> 
     </ul> <p><b>OBS</b>:  
      <ul> 
       <li> <p>Du kan också hantera företag som är kopplade till en grupp där du har tilldelats som gruppadministratör.</p> </li> 
       <li> <p>Om du vill lägga till och ta bort användare från systemet [!DNL Workfront] måste du ha något av följande:</p> 
        <ul> 
-        <li> <p>Åtkomstnivån [!UICONTROL System Administrator]. Mer information finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Bevilja en användare fullständig administrativ åtkomst</a>. </p> </li> 
+        <li> <p>Åtkomstnivån [!UICONTROL System Administrator].</p> </li> 
         <li> <p>I din åtkomstnivå måste [!UICONTROL Edit] väljas för inställningen [!UICONTROL Users]. Dessutom måste alternativet [!UICONTROL Create] och minst ett av de två alternativen [!UICONTROL User Admin] aktiveras för inställningen [!UICONTROL Users], under [!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png">. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Om du använder alternativet [!UICONTROL User Admin (Group Users)] måste du vara gruppadministratör för en grupp där användaren är medlem.</p> </li> 
-       </ul> <p>Mer information om inställningen Användare på en åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Bevilja åtkomst till användare</a>.</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller vilka åtkomstnivåkonfigurationer du har.
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Hantera företagsmedlemskap
 
-1. Klicka på ikonen **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) i det övre högra hörnet av [!DNL Adobe Workfront] och klicka sedan på **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Klicka på **[!UICONTROL Companies]**.
 1. Klicka på företagets namn.
