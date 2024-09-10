@@ -6,9 +6,9 @@ description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adob
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
+source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ I tabellen beskrivs några funktioner som skiljer sig åt mellan de båda upplev
 | Navigeringen innehåller ett navigeringsområde på den översta nivån för [!DNL Adobe] produkter, [!DNL Adobe] meddelanden, hjälp och din användarprofil, förutom navigeringsfältet [!DNL Workfront] | Navigeringen innehåller endast navigeringsfältet [!DNL Workfront] |
 | Hjälpen är tillgänglig via [!UICONTROL Main Menu] och det övre navigeringsområdet | Hjälpen är tillgänglig via navigeringsfältet [!UICONTROL Main Menu] och [!DNL Workfront] |
 | Språkvisningsprogrammet öppnas på en ny flik | Språkvisningsprogrammet öppnas i Workfront |
+| Den URL som används för att komma åt Workfront är `experience.adobe.com` | Den URL som används för att komma åt Workfront är `(CompanyName).my.workfront.com` |
 
 {style="table-layout:auto"}
 

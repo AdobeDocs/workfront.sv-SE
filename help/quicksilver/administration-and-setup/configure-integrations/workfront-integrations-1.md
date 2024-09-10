@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1244'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,18 @@ Vi förstår att de tillgängliga inbyggda (inbyggda) integreringarna kanske int
      <p>Mer information och instruktioner finns i <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installera plugin-programmet [!DNL Adobe Workfront] för [!DNL Creative Cloud]-program</a></p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets och Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Skapa automatiskt mappar länkade mellan Workfront och Adobe Experience Manager 
+      <li>Synkronisera metadata för befintliga länkade resurser</p></li>
+      <li>Uppdatera automatiskt metatadata för portfolior, program, projekt, uppgifter, utgåvor och dokument när de ändras i Workfront.</li>
+      <li>Koppla smidigt samman flera Experience Manager Assets-arkiv med en Workfront-miljö eller flera Workfront-miljöer till en Experience Manager Assets-databas över olika företags-ID:n</li></ul>
+     <p>Mer information och instruktioner finns i <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Översikt över Adobe Experience Manager Assets-integreringar</a></p> 
+     </td>
+   <td><ul><li>Workfront måste finnas i Admin Console med ett tilldelat organisations-ID.</li><li>Workfront och Experience Manager Assets eller Assets Essentials måste tilldelas som produkt till användaren som konfigurerar integreringen.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
