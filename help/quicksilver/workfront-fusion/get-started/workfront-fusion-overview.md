@@ -8,9 +8,9 @@ description: Rollen för  [!DNL Adobe Workfront Fusion] är att automatisera pro
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: a866fec950343c73712f22a08e2e045e8b80dbd9
+source-git-commit: 600f5d41e1dbecf1f354805f7fc17bbcf2409aee
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '440'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,15 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
 ## Workfront Fusion - översikt
 
-Rollen för [!DNL Adobe Workfront Fusion] är att automatisera dina processer så att du kan koncentrera dig på nya uppgifter i stället för att upprepa samma uppgifter om och om igen. Det fungerar genom att länka åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar data automatiskt. Scenariot du skapar letar efter data i en app eller tjänst och bearbetar data för att ge det resultat du vill ha.
+Rollen för [!DNL Adobe Workfront Fusion] är att automatisera dina processer så att dina användare inte behöver lägga så mycket tid på rutinuppgifter. Det fungerar genom att länka åtgärder inom och mellan program och tjänster för att skapa ett scenario som överför och omvandlar data automatiskt. Scenariot du skapar letar efter data i en app eller tjänst och bearbetar data för att ge det resultat du vill ha.
 
-Ett scenario består av en serie moduler som anger hur data ska omvandlas i en app eller överföras mellan program och webbtjänster.
+Ett scenario i Workfront Fusion representerar ett specifikt arbetsflöde. I ett mycket enkelt scenario kan man till exempel se en viss Workfront-frågekö för förfrågningar och sedan automatiskt konvertera dessa förfrågningar till projekt med hjälp av en mall.
 
-Du placerar moduler från olika program och webbtjänster i ett scenario som utför en åtgärd. Med en [!DNL Workfront Fusion for Work Automation and Integration]-licens kan du till exempel skapa ett scenario som söker efter nya data i en app eller webbtjänst och sedan använder dessa data i en efterföljande modul i scenariot för att skapa ett visst resultat, till exempel för att skapa en ny post. När du har konfigurerat ett scenario kör [!DNL Workfront Fusion] uppgiften automatiskt åt dig.
+Scenarier kan byggas för att hantera mycket specifika situationer och användningsfall. Du kan använda filter för att ändra åtgärden baserat på datafält eller egenskaper, iterera genom filer eller data, spara data i ett datalager och använda dem i andra scenarier eller konfigurera ditt scenario på många andra sätt.
+
+Du kan också lägga till andra program än Workfront i ditt scenario. Fusion innehåller många dedikerade anslutningar för externa applikationer, bland annat applikationer från Adobe, Google, Microsoft och många andra. Om det inte finns någon dedikerad anslutning för ett program innehåller Fusion olika sätt att ansluta till en tjänst med ett offentligt API.
+
+Workfront Fusion innehåller även funktioner som stöder scenarier som mallar för att skapa scenarier, körningshistorik och felsökning.
 
 >[!NOTE]
 >
@@ -72,8 +76,12 @@ Du placerar moduler från olika program och webbtjänster i ett scenario som utf
 
 När du börjar arbeta med Workfront Fusion kan du få hjälp med följande resurser:
 
-* Mer information om tillgängliga [!DNL Workfront Fusion]-licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+* Utbildningsresurser för Workfront Fusion finns i [Workfront Fusion Training Overview](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
-* Mer information om scenarier finns i [Skapa ett scenario för praktikintegrering i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+* Information om hur du börjar skapa metodscenarier finns i [Skapa metodscenarier](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
-* Mer information om moduler finns i [Typer av moduler](../../workfront-fusion/modules/module-types.md).
+<!--
+
+* To learn more about how scenarios work, see, see [new article]().
+
+-->
