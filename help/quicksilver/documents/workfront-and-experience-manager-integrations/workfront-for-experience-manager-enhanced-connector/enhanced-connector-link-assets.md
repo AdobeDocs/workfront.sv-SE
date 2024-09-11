@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '582'
 ht-degree: 0%
 
 ---
+
 
 # Länka resurser och mappar med den förbättrade kopplingen
 
 Du kan länka en resurs eller mapp från Experience Manager Assets till ett Workfront-objekt som stöder dokument. Assets som skickas från Experience Manager Assets räknar inte med att bli din totala dokumentlagring i Workfront. Dokument som överförs och skickas från Workfront till Experience Manager Assets räknas med i det övergripande lagringsutrymmet.
 
+
+>[!NOTE]
+>
+>Excel-filer som är länkade via den utökade kopplingen kan inte förhandsgranskas i Workfront. Du måste hämta filen för att kunna komma åt den.
+
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
@@ -30,7 +38,9 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Begäran eller senare</p> </td> 
+   <td> <p>Aktuell: Begäran eller senare</p> 
+   eller
+   <p>Nytt: Medarbetare eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
@@ -48,6 +58,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 &#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
++++
 
 ## Förutsättningar
 
