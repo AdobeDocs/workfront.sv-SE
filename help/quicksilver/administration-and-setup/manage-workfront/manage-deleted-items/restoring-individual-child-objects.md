@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Återställ enskilda underordnade objekt
-description: I det här dokumentet beskrivs hur du kan få hjälp med att återställa enskilda underordnade objekt som har tagits bort från Adobe Workfront-produktions- eller förhandsvisningsmiljöer mindre än 30 dagar tidigare.
+description: I den här artikeln beskrivs hur du kan få hjälp med att återställa enskilda underordnade objekt som har tagits bort från Adobe Workfront-produktions- eller förhandsvisningsmiljöer mindre än 30 dagar tidigare.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
 
 # Återställ enskilda underordnade objekt
 
-I det här dokumentet beskrivs hur du kan få hjälp med att återställa enskilda underordnade objekt som har tagits bort från Adobe Workfront-produktions- eller förhandsvisningsmiljöer mindre än 30 dagar tidigare.
+I den här artikeln beskrivs hur du kan få hjälp med att återställa enskilda underordnade objekt som har tagits bort från Adobe Workfront-produktions- eller förhandsvisningsmiljöer mindre än 30 dagar tidigare.
 
 En Workfront-administratör kan återställa projekt, uppgifter, problem och dokument i varje Workfront-instans enligt beskrivningen i [Återställ borttagna objekt](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md). Men det är bara Workfront databasteam som kan återställa objekt som uppgifter, ärenden, dokument, anpassade formulär, timmar och anteckningar oberoende av deras överordnade objekt.
 
@@ -42,6 +42,39 @@ Mer information om underhållsfönstren för förhandsvisningens sandlådemiljö
 >[!IMPORTANT]
 >
 >Dokument är ett undantag från dessa återställningsmetoder. Du kan hämta dem manuellt från förhandsvisningsmiljön och överföra dem till produktionsmiljön igen. Om du vill ladda ned och överföra flera dokument samtidigt måste du begära en dataåterställning från Workfront.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td><p>Nytt: Standard</p>
+       <p>eller</p>
+       <p>Aktuell: Planera</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Information som behövs för en dataåterställning
 

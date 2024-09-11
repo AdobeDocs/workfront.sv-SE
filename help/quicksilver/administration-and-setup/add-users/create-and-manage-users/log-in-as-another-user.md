@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 0%
@@ -69,7 +69,7 @@ Du måste ha följande för att kunna utföra stegen i den här artikeln:
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Med åtkomstnivån Systemadministratör kan du logga in som vem som helst.</p> <p>Med en standard- eller planerings- åtkomstnivå kan du logga in som en användare med en lägre licensnivå om inställningen <b>Användare</b> i åtkomstnivån har konfigurerats till <b>Redigera</b> åtkomst, med <b>Skapa</b> och minst ett av de två alternativen <b>Användaradministratör</b> aktiverat under <b>Finjustera inställningarna</b> <img src="assets/gear-icon-in-access-levels.png">. </p> 
-   <p><b>Obs!</b> Om du har aktiverat alternativet Användare <b>Administratör (gruppanvändare)</b> måste du vara gruppadministratör för en grupp där användaren är medlem.</p></td> 
+   <p><b>Obs!</b> Om <b>Användaradministratör (gruppanvändare)</b> är aktiverat måste du vara gruppadministratör för en grupp där användaren är medlem.</p></td>
   </tr> 
  </tbody> 
 </table>

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
@@ -29,8 +29,6 @@ Du kan inte upprätta en anslutning till ADFS.
 >Om du upprättar en lyckad testanslutning och fortfarande har problem, kan du ha felaktiga attributmappningar eller problem med federations-ID:n. Kontakta kundsupporten med frågor.
 
 ## Åtkomstkrav
-
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
@@ -53,7 +51,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>

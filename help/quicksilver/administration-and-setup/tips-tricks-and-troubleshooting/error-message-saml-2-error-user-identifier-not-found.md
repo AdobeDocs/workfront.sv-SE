@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,6 @@ Anspråk på ADFS-servern är felaktiga.
 
 ## Åtkomstkrav
 
-Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
-
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
@@ -57,7 +55,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
-   <td>Du måste vara en [!DNL Workfront]-administratör. </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
