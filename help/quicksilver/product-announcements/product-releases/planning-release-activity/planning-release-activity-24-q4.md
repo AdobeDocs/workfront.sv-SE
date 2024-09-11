@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
+title: Adobe Workfront Planning Release Activity för version 24.10
 description: Detta är lanseringsaktiviteten för Adobe Workfront Planning-produkten för fjärde kvartalet 2024.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '450'
 ht-degree: 0%
 
 ---
-
 
 # Versionsaktivitet fjärde kvartalet 2024 för Adobe Workfront Planning
 
@@ -37,6 +37,22 @@ Mer information om funktioner som ingår i den här versionen finns i [Adobe Wor
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 En lista över alla funktioner som släppts för Adobe Workfront Planning efter den allmänna tillgänglighetsutgåvan den 28 augusti 2024 finns i [Adobe Workfront Planning Release Activity: artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Visningsalternativ för anslutna poster
+
+>[!NOTE]
+>
+>Förhandsversion: 9 september 2024; Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)
+
+Vi har omdesignat postutseendeområdet när vi kopplar posttyper. När du nu bestämmer hur de anslutna posterna ska visas i de anslutna fälten kan du välja bland följande alternativ:
+
+* Namn
+* Namn och bild
+* Bild
+
+Före den här förbättringen kan du markera eller avmarkera alternativet Titel för att visa namnen på posterna eller bara visa ikonen eller miniatyrbilden. Växlingsknappen Titel har tagits bort.
+
+Mer information finns i [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Exportera postinformation till PDF
 
@@ -67,4 +83,3 @@ Nedan följer några av huvudfunktionerna i Adobe Workfront Planning:
 * Koppla samman med objekttyper från andra system och skapa ett sammanhängande ramverk för alla era processer.
 
 Mer information om Workfront Planning finns i [Översikt över Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-

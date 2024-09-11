@@ -4,9 +4,9 @@ description: Förbättringar av fjärde kvartalet 2024 års rapport och kontroll
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
@@ -27,4 +27,4 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 Workfront Data Connect kommer att bli tillgängligt för kunder med en av de nya Workfront-planerna. Data Connect gör det möjligt för organisationer att få tillgång till sina data som en säker och skalbar datalinje, som kan analyseras och visualiseras med hjälp av verktyg för affärsintelligens eller lagras externt. Dessutom kan organisationer använda Data Connect för att visa dataanalyser som tidigare inte fanns tillgängliga, som tidsbaserad trendanalys, variabelmappning och analys av externa systemdata i kombination med Workfront-data.
 
-Kontakta din kontorepresentant för mer information om din aktuella Adobe Workfront-plan och hur du köper tillägg. Mer information om Workfront Data Connect finns i [Översikt över anpassade formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
+Kontakta din kontorepresentant för mer information om din aktuella Adobe Workfront-plan och hur du köper tillägg. Mer information om Workfront Data Connect finns i [Workfront Data Connect - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
