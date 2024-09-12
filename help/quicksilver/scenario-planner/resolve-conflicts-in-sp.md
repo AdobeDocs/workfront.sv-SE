@@ -6,9 +6,9 @@ description: När satsningarna hamnar i konflikt med varandra konkurrerar de om 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2070'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,10 @@ Detta kan inträffa i följande fall:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Aktuell: [!UICONTROL Business] eller högre</p>
-   <p>Nytt: Ultimate </p>
+   <td> <ul></li>
+   <li><p>Nytt: Ultimate </p></li>
+   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select eller Workfront Plan. </p>
+   <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -43,9 +45,11 @@ Detta kan inträffa i följande fall:
   </tr> 
   <tr> 
    <td>Produkt* </td> 
-   <td> 
-   <p>För nuvarande Workfront-planer: </p>
-   <p>Du måste köpa ytterligare en licens för [!DNL Adobe Workfront Scenario Planner] för att få tillgång till de funktioner som beskrivs i den här artikeln.</p> <p>Mer information om åtkomst och behörigheter för [!DNL Workfront Scenario Planner] finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst som behövs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>För nya Workfront-planer:</p><p> Adobe Workfront</li></p>
+   <li><p>För nuvarande Workfront-planer: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+
+<p>Mer information finns i <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Åtkomst krävs för att använda [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Åtkomstnivå </td> 

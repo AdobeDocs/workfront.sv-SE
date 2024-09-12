@@ -1,14 +1,14 @@
 ---
 title: Hantera tidslinjevyn
-description: Få åtkomst till och redigera poster i en tidslinjevy på posttypssidan för Adobe Workfront Planning. Anpassa tidslinjen med filter, grupperingar och inställningar. Använd funktionen Uppdelning för att visa kopplade poster.
+description: Få åtkomst till och redigera poster i en tidslinjevy på posttypssidan för Adobe Workfront Planning. I den här artikeln beskrivs hur du skapar en tidslinjevy och redigerar eller tar bort en befintlig. Anpassa tidslinjen med filter, grupperingar och inställningar. Använd funktionen Uppdelning för att visa kopplade poster.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 0%
 
 ---

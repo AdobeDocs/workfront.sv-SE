@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
@@ -38,29 +38,29 @@ När du har konfigurerat en layoutmall måste du tilldela den till användare f�
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 
-<table>
-  <tr>
-   <td><strong>Adobe Workfront-plan</strong>
-   </td>
-   <td>Alla
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Adobe Workfront-licens</strong>
-   </td>
-   <td>Plan
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Åtkomstnivåkonfigurationer</strong>
-   </td>
-   <td>Du måste vara Workfront eller gruppadministratör.
-<p>
-   </td>
-  </tr>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td>Alla</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td><p>Nytt: Standard</p>
+  <p> Aktuell: Planera</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i [Skapa eller ändra anpassade åtkomstnivåer](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

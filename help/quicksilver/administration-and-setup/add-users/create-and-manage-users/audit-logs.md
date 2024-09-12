@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Som Adobe Workfront-administratör kan du spåra användarändringar som utlösts i systemet under de senaste 90 dagarna med hjälp av granskningsloggar.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1530'
 ht-degree: 0%
 
 ---
@@ -65,10 +65,11 @@ Följande fält registreras i alla poster i granskningsloggen:
 ## Granskningsloggtyper och de åtgärder som utlöser dem
 
 * [Åtkomstnivå](#access-level)
+* [Affärsregler](#business-rules)
 * [Företag](#company)
 * [Villkor](#condition)
 * [Anpassat fält](#custom-field)
-* [Anpassad Forms](#custom-forms)
+* [Anpassat formulär](#custom-forms)
 * [Anpassat avsnitt](#custom-section)
 * [Växelkurs](#exchange-rate)
 * [Grupp](#group)
@@ -97,6 +98,21 @@ Systemet genererar en loggpost på åtkomstnivå när en användare utför någo
      >Systemet registrerar inte några behörighetsändringar i finansiella data eller inom följande åtkomsttyper: Visa och redigera.
      >
      >Om en användare t.ex. ändrar åtkomsttypen Planering från Visa till Redigera, visas inte information i den nedrullningsbara menyn Finjustera inställningarna.
+
+### Affärsregler
+
+Affärsreglerna är endast tillgängliga för kunder som har köpt en Ultimate Workfront-plan. Mer information finns i [Skapa och redigera affärsregler](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+Systemet genererar en loggpost för affärsregelgranskning när en användare gör något av följande:
+
+* Skapar en affärsregel
+* Redigerar en affärsregel:
+
+   * Byter namn på den
+   * Lägger till eller tar bort uttryck
+   * Ändrar en utlösare
+
+* Tar bort en affärsregel
 
 ### Företag {#company}
 
@@ -160,7 +176,7 @@ Systemet genererar en loggpost för anpassad fältgranskning när en användare 
 * Tar bort ett anpassat fält
 * Delar ett anpassat fält
 
-### Anpassad Forms {#custom-forms}
+### Eget formulär {#custom-form}
 
 Systemet genererar en anpassad Forms-granskningsloggpost när en användare utför någon av följande åtgärder:
 
@@ -241,7 +257,7 @@ Mer information om hur du konfigurerar jobbroller finns i [Skapa och hantera job
 Systemet genererar en inloggningsförsöksloggpost när en användare utför någon av följande åtgärder:
 
 * Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i Workfront (i en webbläsare och i mobilappen)
-* Loggar in, loggar ut eller misslyckas med ett inloggningsförsök i någon Workfront-integrering (som Workfront för Slack och Workfront för Salesforce)
+* Loggar in, loggar ut eller misslyckas med inloggningsförsök i Workfront-integrering (som Workfront för Slack och Workfront för Salesforce)
 * Loggar in eller loggar ut från Workfront API
 
 Inloggningsförsöksloggar registreras inte när en Workfront-administratör använder funktionen Logga in som.

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '977'
 ht-degree: 0%
 
 ---
@@ -49,16 +49,20 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td>Alla</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-licens</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront-licens*</td> 
+   <td><p>Nytt: Standard</p>
+  <p> Aktuell: Planera</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>För att kunna utföra dessa steg på systemnivå måste du ha åtkomstnivån Systemadministratör.
-Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <p><b>Obs!</b> Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de har angett ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +72,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 
 1. Klicka på nedpilen ![](assets/dropdown-arrow.png) under **Anpassa det som visas för användarna** och klicka sedan på **Hem och sammanfattning**.
 
-1. Klicka på den objekttyp (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning i listan som visas till vänster.
+1. Klicka i listan till vänster på objekttypen (**Åtgärder**, **Problem**, **Projekt**, **Dokument** eller **Dokumentversioner**) som du vill anpassa i Hem och Sammanfattning.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
         <li>Planerat slutförandedatum</li>
         <li>Bekräftelsedatum</li>
         <li>Skickat den</li>
-       </ul><p><b>Obs!</b> När det här alternativet är aktiverat flyttas förfallna arbetsobjekt till den sena grupperingen i hemarbetslistan baserat enbart på datum, inte tid.</p></td> 
+       </ul><p><b>OBS</b>:</p> <p> När det här alternativet är aktiverat flyttas arbetsobjekt som blivit förfallna till grupperingen Sent i hemarbetslista baserat enbart på datum, inte tid.</p></td> 
      </tr> 
     </tbody> 
    </table>

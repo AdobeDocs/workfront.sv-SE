@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
 
 # Om Adobe Workfront standardlayout
 
-Standardlayouten är placeringen av huvudmenyn ![](assets/main-menu-icon.png), den vänstra panelen och vyerna, grupperingarna och filtren innan en Adobe Workfront-administratör gör några ändringar med hjälp av en layoutmall.
+Standardlayouten är placeringen av huvudmenyn ![](assets/main-menu-icon.png) eller huvudmenyn ![](assets/lines-main-menu.png), om den är tillgänglig, den vänstra panelen och vyerna, grupperingarna och filtren innan en Adobe Workfront-administratör gör några ändringar med hjälp av en layoutmall.
 
 Information om hur en Workfront-administratör kan ändra en användares standardlayout genom att tilldela användaren en layoutmall finns i [Tilldela användare till en layoutmall](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -30,7 +30,7 @@ Information om hur en Workfront-administratör kan ändra en användares standar
 
 Varje användares standardlayout beror på åtkomstnivån. Vissa användare kanske inte ser vissa områden på huvudmenyn eller vissa alternativ på den vänstra panelen, beroende på vilken åtkomstnivå de har tilldelats.
 
-Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje åtkomstnivå som standard. Standardlandningsområdet för varje åtkomstnivå anges också:
+I följande tabell visas standardlandningsområdet och vilka vänsterpanelsobjekt som visas för varje åtkomstnivå:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
   <tr> 
    <th>Område</th> 
    <th> Vänster panelobjekt </th> 
-   <th> <p>Systemadministratör</p> </th> 
-   <th> <p>Planering</p> </th> 
+   <th> Systemadministratör</th> 
+   <th> Planering </th> 
    <th>Arbetare</th> 
    <th>Granskare</th> 
    <th>Begärande</th> 
@@ -150,7 +150,7 @@ Tabellen nedan visar vilka objekt i den vänstra panelen som visas för varje å
   </tr> 
   <tr> 
    <td rowspan="3"><strong>Begäranden</strong> </td> 
-   <td><strong>Ny begäran</strong> </td> 
+   <td>Ny begäran </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
