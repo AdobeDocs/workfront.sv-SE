@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
 
 # Återställa ett paket med miljökampanjer
 
-<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
+
 
 När du har installerat ett paket kan du återställa det. Detta tar bort de ändringar som paketet gjorde i målmiljön och återställer de berörda objekten till deras tidigare konfigurationer.
 
@@ -86,10 +87,3 @@ Om du vill veta om en specifik paketdistribution kan återställas bör du tänk
 
 1. (Valfritt) I området Förhandsvisa återställning kan du visa de ändringar som kommer att göras när distributionen återställs.
 1. Klicka på **Återställ** i skärmens övre högra hörn.
-
-
-
-
-
-
-
