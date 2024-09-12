@@ -6,9 +6,9 @@ description: Ett Portfolio är en samling projekt som konkurrerar om samma resur
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,7 @@ Du kan använda Portfolio för att gruppera projekt som tillhör samma produktli
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nytt: Alla</p>
-   <p>Aktuell:[!UICONTROL Business] eller högre</p> </td> 
+   <td> <p>Alla</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
@@ -53,6 +52,27 @@ Du kan använda Portfolio för att gruppera projekt som tillhör samma produktli
 *Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Olika sätt att skapa portföljer
+
+Du kan skapa portföljer i Workfront på något av följande sätt:
+
+* Skapa en portfölj från början i området Portfolio på huvudmenyn. I den här artikeln beskrivs hur du kan skapa en portfölj från grunden.
+
+* Importera en portfölj med hjälp av snabbstarter.
+
+  Som Workfront-administratör kan du importera portföljer med en snabbstart.
+
+  Mer information om hur du importerar data med hjälp av snabbstartsfunktioner i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+* Lägg till portföljer när du kopplar dem från en posttyp i Workfront Planning.
+
+  Du måste ha en ny Workfront-licens och en extra Workfront Planning-licens för Workfront Planning.
+
+  Mer information om åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+
+  Mer information om hur du skapar portföljer genom att lägga till dem i poster finns i avsnittet&quot;Skapa poster när du ansluter dem&quot; i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
+
 
 ## Skapa en portfölj
 

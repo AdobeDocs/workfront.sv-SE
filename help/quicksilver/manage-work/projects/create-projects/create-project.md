@@ -6,9 +6,9 @@ description: Ett projekt är en stor arbetsenhet i Adobe Workfront. Du kan skapa
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1295'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,22 @@ Du kan skapa ett projekt i Workfront på något av följande sätt:
 
   Mer information om hur du importerar projekt med hjälp av snabbstartsfunktioner finns i [Snabbstartscenario: enkla projekt- och uppgiftsimportförberedelser](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish är ett initiativ från ett scenario i Adobe Workfront Scenario Planner. Scenario Planner kräver ytterligare licens. Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera projekt i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish är ett initiativ från ett scenario i Adobe Workfront Scenario Planner.
+
+  Scenarioplaneraren kräver något av följande:
+
+   * En ytterligare licens för den nuvarande Workfront-licensstrukturen.
+   * En Ultimate-licens för den nya Workfront License-strukturen.
+
+  Mer information om Workfront Scenarioplan finns i [Översikt över scenarioplanen](../../../scenario-planner/scenario-planner-overview.md). Mer information om hur du skapar projekt från publiceringsinitiativ finns i [Uppdatera eller skapa projekt genom att publicera projekt i scenarioplanen](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Lägg till projekt när du kopplar dem från en posttyp i Workfront Planning. Du kan bara skapa projekt utan mallar från Workfront Planning.
+
+  Du måste ha en ny Workfront-licens och en extra Workfront Planning-licens för Workfront Planning.
+
+  Mer information om åtkomst till Workfront Planning finns i [Åtkomstöversikt](/help/quicksilver/planning/access/access-overview.md).
+
+  Mer information om hur du skapar projekt genom att lägga till dem i poster finns i avsnittet&quot;Skapa poster när du ansluter dem&quot; i artikeln [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 
 ## Förutsättningar
 

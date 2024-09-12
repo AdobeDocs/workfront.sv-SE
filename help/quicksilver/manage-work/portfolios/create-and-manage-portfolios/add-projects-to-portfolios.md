@@ -6,9 +6,9 @@ description: Vi rekommenderar att du lägger till projekt i portföljer när du 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,9 @@ Tänk på följande när du lägger till projekt i portföljer:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Nytt: Alla</p>
-   <p>Aktuell:[!UICONTROL Business] eller högre</p></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Alla</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 

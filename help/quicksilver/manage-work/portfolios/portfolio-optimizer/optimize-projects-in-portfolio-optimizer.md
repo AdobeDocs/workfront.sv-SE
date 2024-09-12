@@ -6,9 +6,9 @@ description: Du kan använda [!UICONTROL Portfolio Optimizer] för att prioriter
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Du kan använda [!UICONTROL Portfolio Optimizer] för att prioritera dina projek
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -26,25 +28,28 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> Alla</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licenser*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>Nytt: [!UICONTROL Standard] </p>
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] behörighet till projekt och Portfolio</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] behörighet till portföljen</p> <p>Contribute eller högre behörighet till projekten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav för Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Optimera projekt i Portfolio Optimizer
 

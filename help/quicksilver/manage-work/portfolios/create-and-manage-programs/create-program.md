@@ -6,9 +6,9 @@ description: Ett program representerar en samling projekt som delar en gemensam 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,18 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Olika sätt att skapa program
+
+Du kan skapa ett program i Workfront på något av följande sätt:
+
+* Skapa ett helt nytt program med början i Programområdet på huvudmenyn eller i Programdelen i en portfölj. I den här artikeln beskrivs hur du kan skapa ett program från grunden.
+
+* Importera ett program med hjälp av snabbstart.
+
+  Som Workfront-administratör kan du importera program med en snabbstart.
+
+  Mer information om hur du importerar data med hjälp av snabbstartsfunktioner i Workfront finns i [Importera data till Adobe Workfront med en snabbstartsmall](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## Skapa ett program
 

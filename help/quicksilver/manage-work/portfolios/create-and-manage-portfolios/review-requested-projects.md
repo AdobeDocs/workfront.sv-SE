@@ -6,9 +6,9 @@ description: Projektbegäranden visas som projekt med statusen [!UICONTROL Reque
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,8 @@ Du kan granska begärda projekt i följande områden i [!DNL Adobe Workfront]:
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -37,25 +39,27 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] eller högre</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td><p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>[!UICONTROL View] behörighet eller högre till Portfolio</p> <p>[!UICONTROL Edit] behörighet till projekt</p> <p>Obs! Om du fortfarande inte har åtkomst frågar du [!DNL Workfront]-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en [!DNL Workfront]-administratör kan ändra din åtkomstnivå finns i <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>[!UICONTROL View] behörighet eller högre till Portfolio</p> <p>[!UICONTROL Edit] behörighet till projekt</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektbehörigheter</td> 
-   <td> <p>[!UICONTROL View] behörigheter eller högre för portföljen</p> <p>[!UICONTROL Manage] behörigheter för projekten för att uppdatera deras status</p> <p>Mer information om hur du begär ytterligare åtkomst finns i <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Begär åtkomst till objekt </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] behörigheter eller högre för portföljen</p> <p>[!UICONTROL Manage] behörigheter för projekten för att uppdatera deras status</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Granska begärda projekt i en projektrapport
 

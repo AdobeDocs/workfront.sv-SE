@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2197'
 ht-degree: 0%
 
 ---
 
 
 # Koppla posttyper
+
+<span class="preview">Informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * En annan posttyp från den arbetsyta du valde
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * En posttyp från en annan arbetsyta som konfigurerats för anslutning från andra arbetsytor. Mer information finns i [Redigera posttyper](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * **Experience Manager Assets** från avsnittet **Adobe-program**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Uppdatera följande information:
 
@@ -221,7 +222,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      Det här alternativet är endast tillgängligt när du ansluter poster från två olika arbetsytor eller en post och ett Adobe Experience Manager-resursobjekt.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **Anslutningstyp**: Välj ett av följande alternativ för att ange hur många poster de kan ansluta till och från:
 
@@ -232,7 +233,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      Det här alternativet är endast tillgängligt när du ansluter poster från samma arbetsyta eller en post och en Workfront-objekttyp.
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -259,13 +260,21 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >
    >Workfront-administratören kan mappa Workfront Planning-fält till Experience Manager Assets-fält via metadatamappningen i Workfront. Mer information finns i [Konfigurera mappning av metadata för resurser mellan Adobe Workfront och Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till en post av typen Workfront Planning avmarkerar du reglaget **Titel** i området **Postutseende** om du inte vill att titeln för anslutna poster eller resurser ska visas i det länkade fältet. När du avmarkerar det här alternativet visas endast posternas miniatyrbilder i de länkade fälten. Poster utan miniatyrbild visar i stället en bildikon. Växlingsknappen är markerad som standard. Ett exempel på hur de anslutna posterna visas visas i området **Postutseende**.
+1. (Villkorligt) Om du har valt att ansluta till Experience Manager Assets eller till posttypen Workfront Planning väljer du något av följande alternativ i området **Postutseende**:
+
+   * <span class="preview">**Namn och bild**: Både namnet och miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet. Det här är standardalternativet. </span>
+   * <span class="preview">**Namn**: Endast namnet på de anslutna posterna visas i det anslutna postfältet.</span>
+   * <span class="preview">**Bild**: Endast miniatyrbilden eller ikonen för de anslutna posterna visas i det anslutna postfältet.</span>
+
+   Poster utan miniatyrbild visar istället posttypsikonen. Ett exempel på hur de anslutna posterna visas visas i området **Postutseende**.
 
    >[!TIP]
    >
    >    När du tillåter att flera poster länkas kan det hända att endast miniatyrbilden sparar utrymme i mindre områden, som i postvyer.
    >
-   >Titeln på en post är postens primära fält. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >Namnet på en post är det primära fältet i posten. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >
+   >Det går inte att välja ett postutseende när du väljer Workfront-objekttyper.
 
 1. Klicka på **Skapa**.
 
@@ -286,7 +295,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >    Alla som har behörighet att visa eller högre på arbetsytan kan visa informationen i de länkade fälten, oavsett behörighet eller åtkomstnivå i programmet för de länkade objekttyperna.
 
 
-1. (Valfritt) Klicka på **Hoppa över** om du inte vill lägga till fält från den länkade posten eller objekttypen. **Namn** eller **Titel** för den länkade posten är det enda synliga fältet i tabellvyn för den posttyp som du ansluter från.
+1. (Valfritt) Klicka på **Hoppa över** om du inte vill lägga till fält från den länkade posten eller objekttypen. Namnet eller det primära fältet för den länkade posten är det enda synliga fältet i tabellvyn för den posttyp som du ansluter från.
 
 1. (Valfritt och villkorligt) Om du väljer att länka ett tal, en valuta, en procentandel eller ett datumtypsfält, ska du också välja ett aggregeringsvärde som ska sammanfatta flera värden. Värdena för de länkade fälten visas antingen avgränsade med kommatecken eller som ett summerat värde enligt den aggregator du väljer, när användare markerar mer än en länkad post i det länkade postfältet.
 

@@ -6,7 +6,7 @@ title: Programöversikt i  [!DNL Adobe Workfront]
 description: Ett program är en samling projekt som har enhetliga egenskaper. Dessa projekt konkurrerar vanligtvis om samma resurser, budget eller tidskortplats. Programmen är en undergrupp av portföljer. Du kan associera projekt med program innan de läggs till i en portfölj.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 0%
@@ -34,12 +34,12 @@ Du måste ha följande åtkomst för att skapa och hantera portföljer:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Nytt: Alla</p>
-   <p>Aktuell:[!UICONTROL Business] eller högre</p> </td> 
+   <p>Aktuell: [!UICONTROL Business] eller högre</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] licens*</td> 
    <td> <p>Nytt: [!UICONTROL Standard]</p>
-   <p>Aktuell:[!UICONTROL Plan] </p> </td> 
+   <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
