@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ En lista över alla ändringar som är tillgängliga i den fjärde utgåvan av k
 
 >[!NOTE]
 >
->Förhandsversion: 18 juli 2024; Produktion för snabb release: Med version 24.9 (september 2024); Produktion för kvartalsvis version: Med version 24.10 (oktober 2024)
+>Förhandsversion: 18 juli 2024; Produktion för snabb release: Med version 24.9 (12 september 2024); Produktion för kvartalsvis publicering: Med version 24.10 (oktober 2024)
 
 Vi har uppdaterat sidan Inställningar > System > Inställningar till en mer modern design som är konsekvent med andra delar av Workfront.
 

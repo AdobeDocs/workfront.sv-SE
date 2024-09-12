@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Mer information om hur du använder en nyligen skapad anslutning med en extern p
 
 ## Åtkomstkrav
 
++++ Expandera om du vill visa åtkomstkraven.
+
 Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront</td> 
-   <td>TBD</td> 
+   <td><p>Ingår i följande planer:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Kan köpas som tillägg till följande planer:</p> 
+    <ul>
+        <li>Välj</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens</td> 
@@ -45,6 +57,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 </table>
 
 Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Skapa ett läsarkonto
 

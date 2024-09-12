@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 * [Förbättringar av korrektur](#proofing-enhancements)
 * [Förbättringar av rapporter och kontrollpaneler](#report-and-dashboard-enhancements)
 * [Andra förbättringar](#other-enhancements)
-
+* [Funktioner som snart ska tas bort från Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Administratörsförbättringar
 
@@ -78,6 +78,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Återställa kampanjer för miljöförbättringar</a></p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>För att göra miljökampanjen mer flexibel och enklare att använda har vi aktiverat återställningsfunktionen. Nu kan du återställa paket inom 24 timmar, så att du enklare kan återställa tidigare konfigurationer som har påverkats av ett paket för miljöbefordran.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -192,7 +193,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Mer relevanta smarta tilldelningar</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>Vi har ändrat den algoritm som Workfront använder för att beräkna och föreslå smarta tilldelningar för uppgifter. Den nya algoritmen används i följande områden i Workfront där du tilldelar en uppgift: uppgiftslistor, uppdragsområdet i uppgiftshuvudet, Hem och sammanfattningspanelen.</p>
                     </td>
                     <td><p><b>Tillgängligt på följande datum:</b></p>
@@ -362,6 +363,14 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
            </tbody>
         </table>
 
+### Funktioner som snart ska tas bort från Workfront
+
+Följande funktioner kommer snart att tas bort från Workfront:
+
+#### Borttagning av den gamla hemupplevelsen med 24.10
+
+Vi kommer officiellt att ta bort den gamla hemupplevelsen med version 24.10. Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen. Mer information om övergången, inklusive råd om vad användare och administratörer kan göra för att förbereda, finns i [Föråldrad startsida](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Meddelanden
 
 ### Workfront Fusion-förbättringar
@@ -399,11 +408,3 @@ Mer information om underhållsuppdateringar som gjordes i den fjärde utgåvan a
 ### Uppdateringar
 
 Upptäck de senaste uppdateringarna av utbildningsprogram, utbildningsvägar, videor och guider för varje Adobe Workfront-produktrelease. Mer information finns i avsnittet Nyheter på [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
-### Funktioner som snart ska tas bort från Workfront
-
-Följande funktioner kommer snart att tas bort från Workfront:
-
-#### Borttagning av den gamla hemupplevelsen med 24.10
-
-Vi kommer officiellt att ta bort den gamla hemupplevelsen med version 24.10. Vi rekommenderar att du börjar använda nya Home, som även i fortsättningen kommer att utökas med ytterligare funktioner innan borttagningen. Mer information om övergången, inklusive råd om vad användare och administratörer kan göra för att förbereda, finns i [Föråldrad startsida](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
