@@ -6,9 +6,9 @@ description: Vissa funktioner skiljer sig åt mellan  [!DNL Workfront]  och Adob
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
+source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,7 @@ I tabellen beskrivs några funktioner som skiljer sig åt mellan de båda upplev
 | Hjälpen är tillgänglig via [!UICONTROL Main Menu] och det övre navigeringsområdet | Hjälpen är tillgänglig via navigeringsfältet [!UICONTROL Main Menu] och [!DNL Workfront] |
 | Språkvisningsprogrammet öppnas på en ny flik | Språkvisningsprogrammet öppnas i Workfront |
 | Den URL som används för att komma åt Workfront är `experience.adobe.com` | Den URL som används för att komma åt Workfront är `(CompanyName).my.workfront.com` |
+| Datumformatet (t.ex. MM/DD/ÅÅÅ) baseras på webbläsarens inställningar | Datumformatet (t.ex. MM/DD/ÅÅÅÅ) baseras på språkinställningarna för enhetlig upplevelse. Om användaren inte har uppdaterat sina språkinställningar används `en-US`-inställningarna. |
 
 {style="table-layout:auto"}
 
