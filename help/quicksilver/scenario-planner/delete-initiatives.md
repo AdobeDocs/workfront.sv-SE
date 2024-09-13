@@ -6,9 +6,9 @@ description: Du kan ta bort initiativ för en plan som du har skapat eller för 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Du kan ta bort initiativ för en plan som du har skapat eller för en plan som n
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select eller Workfront Plan. </p>
+   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 

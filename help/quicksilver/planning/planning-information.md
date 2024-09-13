@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '612'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Här hittar du allmän information om nya Workfront Planning:
 * [Adobe Workfront Planning - översikt](/help/quicksilver/planning/general/planning-overview.md): En översikt på hög nivå över Adobe Workfront Planning, inklusive de termer och begrepp som är unika för den här lösningen. Vi rekommenderar att du börjar din resa med Workfront Planning här.
 * [Adobe Workfront Planning-objektbegränsningar - översikt](/help/quicksilver/planning/general/limitations-overview.md): En lista med begränsningar för antalet objekt som du kan skapa i Workfront Planning.
 * [Planeringsaktivitet för Adobe Workfront 2024](/help/quicksilver/planning/general/release-activity.md): En lista över alla funktioner som släpptes i början av Workfront Planning, 2024. Detta inkluderar länkar till tidigare versioner som har släppts sedan betaprogrammet Adobe Workfront Planning startades den 22 maj 2023.
+* [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md): En samling bästa praxis för användning av och vanliga frågor om Workfront Planning.
 
 ## Ytterligare funktioner för Workfront Planning
 

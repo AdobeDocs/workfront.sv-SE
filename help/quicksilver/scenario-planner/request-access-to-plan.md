@@ -7,9 +7,9 @@ description: Du kan begära åtkomst till en plan i Adobe Workfront Scenarioplan
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: c6c806f5d4f2514c40065835a8d412f725d55a44
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Du kan begära åtkomst till en plan i [!DNL Adobe Workfront Scenario Planner] n
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select eller Workfront Plan. </p>
+   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 

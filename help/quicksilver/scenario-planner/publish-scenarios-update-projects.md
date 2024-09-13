@@ -7,9 +7,9 @@ description: Du kan skapa projekt från befintliga initiativ och uppdatera proje
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Publicering av ett scenario från [!DNL Adobe Workfront Scenario Planner] ger f�
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select eller Workfront Plan. </p>
+   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 

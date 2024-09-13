@@ -7,9 +7,9 @@ description: Du kan dela en plan som du har skapat i Adobe Workfront Scenariopla
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '880'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Du kan dela en plan i [!DNL Adobe Workfront Scenario Planner] med andra använda
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select eller Workfront Plan. </p>
+   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 

@@ -1,10 +1,11 @@
 ---
 title: Adobe Workfront Planning Best Practices
 description: Som marknadsledare kan ni använda Adobe Workfront Planning för att organisera arbetet under hela marknadsföringscykeln för alla era team. Det här är några tips som vi rekommenderar när vi börjar med Workfront Planning.
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: ae10d35c61bf40c9e6f0422bd670b9733ad62aae
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 0%

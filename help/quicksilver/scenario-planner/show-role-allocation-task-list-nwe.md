@@ -6,9 +6,9 @@ description: När du har kopplat projekt och initiativ kan du hantera deras resu
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '640'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Allmän information om hur du förenar resurser mellan projekt och initiativ, in
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>Nytt: Ultimate </p></li>
-   <p>Scenarioplanen är inte tillgänglig för nya Workfront Select eller Workfront Plan. </p>
+   <p>Scenarioplanen är inte tillgänglig för de nya Workfront Select- eller Workfront Prime-planerna. </p>
    <li><p>Aktuell: [!UICONTROL Business] eller högre</p></ul>
    </td> 
   </tr> 
