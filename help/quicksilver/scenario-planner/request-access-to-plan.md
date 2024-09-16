@@ -7,7 +7,7 @@ description: Du kan begära åtkomst till en plan i Adobe Workfront Scenarioplan
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: c6c806f5d4f2514c40065835a8d412f725d55a44
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%
