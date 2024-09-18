@@ -5,9 +5,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7375a6ed1d0bdea3e6df3ef564c325e0cef65f98
 workflow-type: tm+mt
-source-wordcount: '73'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -27,3 +27,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Filterknappar visas inte i sidhuvuden](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [Ändra format för datum i  [!DNL Adobe Workfront]](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [Projekt jag arbetar med har oväntade resultat](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+* [Flera webbläsarflikar gör att Workfront loggar ut](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
