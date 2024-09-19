@@ -3,7 +3,7 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 0%
@@ -414,10 +414,10 @@ ht-degree: 0%
    * Meddelanden {#announcements}
       * [Meddelanden](product-announcements/announcements/announcements.md)
       * [Schema över funktioner som inte längre stöds](product-announcements/announcements/feature-removal-timeline.md)
+      * [Guide för föråldrad hemborttagning](product-announcements/announcements/legacy-home-deprecation.md)
       * [Frågor och svar om underhållsperioden](product-announcements/announcements/maintenance-window-faq.md)
       * [Ändringar som krävs för att lägga till korrektur i tillåtelselista](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [Avbeställ utskick från meddelandecentret i den nya Adobe Workfront-upplevelsen](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [Guide för föråldrad hemborttagning](product-announcements/announcements/legacy-home-deprecation.md)
       * Meddelandearkiv {#announcement-archive}
          * [Meddelandearkiv](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [Förbättringar av anpassade formulär](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)

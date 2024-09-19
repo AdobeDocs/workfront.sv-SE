@@ -5,9 +5,10 @@ title: Guide för föråldrad hemborttagning
 description: Den här sidan innehåller information om den kommande borttagningen av äldre Hem.
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Nästan, med undantag av:
 * Det går inte att visa tidsstämplar för objektets förfallodatum.
 
 * Det går för närvarande inte att visa datumet för implementeringen i uppdateringsflödet. Det finns dock en tillgänglig lösning: visa datumet för implementeringen i sidhuvudet genom att anpassa layoutmallen.
+* Godkännanden som jag har skickat stöds för närvarande inte i Nytt hem. Om du behöver den här funktionen kan du skicka in en kommentar här i följande inlägg från gemenskapen:
+   * [Lägg till widgeten&quot;Godkännanden jag har skickat&quot; i nytt hem](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [Lägg till&quot;Godkännanden som jag har skickat&quot; i det nya startfönstret](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++Hur styr jag vilka widgetar som användare har tillgång till i nya Hem?
