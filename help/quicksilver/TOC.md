@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
+source-git-commit: fd60ba9ec0643748da48171a6f5a9f6849c71b47
 workflow-type: tm+mt
-source-wordcount: '14404'
+source-wordcount: '14412'
 ht-degree: 0%
 
 ---
@@ -884,6 +884,7 @@ ht-degree: 0%
          * [Kom igång med Nytt hem](workfront-basics/using-home/new-home/get-started-with-new-home.md)
          * [Lägga till, redigera eller ta bort widgetar i Nytt hem](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
          * [Översikt över nya filter i widgeten Hem](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
+         * [Hantera ditt arbete med widgeten Mitt arbete](workfront-basics/using-home/new-home/my-work-widget.md)
       * Använd hemområdet {#use-home-area}
          * [Använda området Hem](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Kom igång med Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)

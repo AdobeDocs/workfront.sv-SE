@@ -5,9 +5,10 @@ title: Översikt över nya filter i widgeten Hem
 description: Du kan välja bland ett antal widgetar för att anpassa innehållet som visas på hemsidan. Dessa widgetar kan storleksändras och ordnas på hemsidan.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '742'
 ht-degree: 0%
 
 ---
@@ -19,6 +20,7 @@ Du kan använda filter på följande widgetar för att söka efter och ordna arb
 * [Mina projekt](#my-projects)
 * [Mina uppgifter](#my-tasks)
 * [Mina problem](#my-issues)
+* [Mitt arbete]
 
 ## Mina projekt
 
@@ -229,4 +231,52 @@ Du kan använda följande filter i widgeten Mina problem:
     <td>Ej tilldelad i min roll</td>
     <td>Visar alla problem som inte har tilldelats en primär användare men som har en tilldelad roll </td>
   </tr>
+</table>
+
+## Mitt arbete
+
+Du kan använda följande filter i widgeten Mitt arbete:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Arbetar på</td>
+      <td>Visar objekt som du arbetar med</td>
+    </tr>
+    <tr>
+      <td>Klar att börja</td>
+      <td>Visar objekt med 
+      <ul>
+      <li>Inga ofullständiga föregångare eller aktivitetsbegränsningar</li>
+      <li>Det planerade startdatumet har passerat eller är upp till två veckor i framtiden</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Inte klar</td>
+      <td>Visar objekt som har
+       <ul>
+      <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li>
+      eller
+      <li>Det planerade startdatumet är mer än två veckor i framtiden</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Begärd</td>
+      <td>Visar problem som du inte har börjat arbeta med</td>
+    </tr>
+    <tr>
+      <td>Delegerad av mig</td>
+      <td>Visar objekt som du har delegerat till andra användare</td>
+    </tr>
+    <tr>
+      <td>Delegerat till mig</td>
+      <td>Visar objekt som användare har delegerat till dig</td>
+    </tr>
+    <tr>
+      <td>Slutförd</td>
+      <td>Visar det arbete som utförts de senaste två veckorna. Det här filteralternativet inkluderar inte godkännanden.</td>
+    </tr>
+  </tbody>
 </table>
