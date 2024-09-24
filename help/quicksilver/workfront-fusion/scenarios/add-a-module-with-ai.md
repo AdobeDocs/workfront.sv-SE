@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Fusion AI kan för närvarande generera moduler som ansluter till följande prog
 * Adobe Firefly
 * Azure OpenAI
 * Microsoft Graph
-* Adobe Maestro
+* Adobe Workfront Planning
 * Adobe Analytics
 * Adobe PDF Services
 * Adobe Marketo
