@@ -6,9 +6,9 @@ description: Nya Home är en kraftfull ny funktion för att hantera ditt arbete.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
-source-git-commit: 60ff39c7a8c4736e1a176dd22bd0be5ab804223f
+source-git-commit: 233016ccc574118df705b857092d647767c05835
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,13 @@ Widgets är grunden för nya Home. Genom att lägga till widgetar på hemsidan k
 
 Mer information om hur du lägger till, flyttar, ändrar storlek på eller tar bort widgetar finns i [Lägg till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
-Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av den information de visar:
+Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av den information de visar:
 
 * **Mitt arbete**\
     Den här widgeten är en bra plats att börja på när du vill hantera en mängd olika typer av arbeten. Här visas alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Du kan klicka på knappen Arbeta på för att börja arbeta med ett objekt eller på knappen Klar för att markera det som färdigt. Du kan också uppdatera information (Status, Villkor, Procent färdigt) om uppgifter och problem, logga tid och lägga till uppdateringar från widgeten Mitt arbete.
+
+* **Vandrar**\
+    Visar alla ritytor som du har skapat eller har bjudits in att använda. Du kan också skapa en ny styrelse baserat på följande mallar: Grundläggande styrelse, Kanban-tavla, Perspektivanslagstavla, Dynamisk board
 
 * **Mina projekt**\
     Visar projekt som du äger eller projekt som du finns i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett projekt direkt från widgeten.
@@ -48,7 +51,7 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar problem som du har tilldelats i en lista. Du kan använda befintliga filter, vyer eller grupperingar för att anpassa listan eller skapa ett problem direkt från widgeten. Den här widgeten innehåller endast problem vars associerade projekt är inställda på Aktuell och inte slutförda projekt. Du kan även delegera dina ärenden medan du inte är på kontoret.
 
 * **Mina förfrågningar**\
-    Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningsrutan för en begäran.
+    Visar alla begäranden som du har skickat, ett filter som bara visar öppna begäranden och en knapp som öppnar sammanfattningspanelen för en begäran.
 
 * **Teamförfrågningar**\
     Visar alla väntande begäranden för team som du är i sorterad efter team, samt knappar som du kan använda för att tilldela en användare en förfrågan direkt eller för att arbeta med den själv.
@@ -57,10 +60,10 @@ Nedan finns de tio widgetarna som du kan välja bland, samt en sammanfattning av
     Visar alla väntande tilldelade eller delegerade godkännanden, en knapp för att delegera godkännanden och knappar för att fatta godkännandebeslut direkt i widgeten.
 
 * **Alla godkännanden**\
-        <span class="preview"> Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden.</span> <span style="color: #ff0000;">Den här funktionen är en del av en fasversion och är för närvarande endast tillgänglig för vissa kunder.</span>
+        Visar 2 diagram med information om genomsnittlig godkännandetid och beslut samt en lista över väntande och försenade godkännanden. <span style="color: #ff0000;">Den här funktionen är en del av en fasversion och är för närvarande endast tillgänglig för vissa kunder.</span>
 
 * **Meningar**\
-    Visar senaste kommentarstrådar från hela Workfront, ungefär som sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
+    Visar senaste kommentarstrådar från hela Workfront, som liknar sidan Mina uppdateringar. Du kan använda svarsknappen för att skapa ett svar i widgeten. Den här widgeten visar också kommentarer som gjorts för uppgifter och problem som du har tilldelats, som du har tilldelat en annan användare, som du äger, som du är den primära kontakten för eller som du har skapat, så länge som uppgiften eller utgåvan har uppdaterats de senaste 30 dagarna.
 
 * **Att göra**\
     Med den här unika widgeten kan du lägga till objekt i en personlig checklista som du kan redigera fritt. Att göra-uppgifter spåras som uppgifter i ditt personliga projekt och stannar i upp till två veckor efter att de har slutförts.

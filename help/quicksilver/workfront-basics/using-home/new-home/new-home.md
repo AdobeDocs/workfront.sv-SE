@@ -7,9 +7,9 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 255bdf57-f145-43e9-999b-e4d0d9acf0cd
-source-git-commit: 19fa39c174037a01c879eea1b33b8534eda2eed2
+source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
 workflow-type: tm+mt
-source-wordcount: '50'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -22,3 +22,4 @@ Det här avsnittet innehåller följande artiklar:
 * [Lägga till, redigera eller ta bort widgetar i Nytt hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 * [Översikt över nya filter i widgeten Hem](/help/quicksilver/workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
 * [Hantera ditt arbete med widgeten Mitt arbete](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)
+* [Gå från äldre startsida till ny startsida](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)

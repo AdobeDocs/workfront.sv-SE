@@ -5,9 +5,9 @@ title: Hantera ditt arbete med widgeten Mitt arbete
 description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Här kan du filtrera och ordna ditt arbete, logga tid, göra uppdateringar och markera arbetsobjekten som slutförda.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c96169186af3bc83b823ec8870173911cf546091
+source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -74,6 +74,7 @@ Du kan finjustera filtren Mitt arbete för att fokusera på specifika objekt i d
       <td>Visar objekt med 
       <ul>
       <li>Inga ofullständiga föregångare eller aktivitetsbegränsningar</li>
+      <p>och</p>
       <li>Det planerade startdatumet har passerat eller är upp till två veckor i framtiden</li>
       </ul>
       </td>
@@ -83,7 +84,7 @@ Du kan finjustera filtren Mitt arbete för att fokusera på specifika objekt i d
       <td>Visar objekt som har
        <ul>
       <li>Ofullständiga föregående aktiviteter eller aktivitetsbegränsningar som förhindrar att objektet bearbetas</li>
-      eller
+      <p>eller</p>
       <li>Det planerade startdatumet är mer än två veckor i framtiden</li>
       </ul>
        </td>
@@ -127,7 +128,7 @@ För förfallna objekt visas en varningsikon bredvid datumet. Workfront använde
 
 >[!TIP]
 >
->Om du vill skapa en lista som visar alla förfallna objekt högst upp i widgeten Mitt arbete sorterar du efter förfallodatum och använder ingen grupp.
+>Om du vill skapa en lista som visar alla förfallna objekt högst upp i widgeten Mitt arbete sorterar du efter förfallodatum och tillämpar ingen gruppering.
 
 
 ![](assets/sort-my-work-widget.png)
