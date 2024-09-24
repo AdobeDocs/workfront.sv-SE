@@ -5,7 +5,7 @@ title: Hantera ditt arbete med widgeten Mitt arbete
 description: Widgeten Mitt arbete visar alla dina tilldelade uppgifter, utgåvor och förfrågningar på ett och samma ställe. Här kan du filtrera och ordna ditt arbete, logga tid, göra uppdateringar och markera arbetsobjekten som slutförda.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 09dd8d24d021e8a25b3a7a63fe93d074f8a8ee0c
+source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
 workflow-type: tm+mt
 source-wordcount: '700'
 ht-degree: 0%
