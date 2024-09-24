@@ -5,9 +5,9 @@ title: Gå från äldre startsida till ny startsida
 description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versionen. Den här artikeln innehåller information om vilka funktioner som kommer att vara tillgängliga i det nya hemmet samt rekommendationer om hur du flyttar användare till det nya hemmet.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Nedan finns de 11 widgetarna som du kan välja bland, samt en sammanfattning av 
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### Visa widgetar tillgängliga för varje licenstyp
 
@@ -262,3 +262,17 @@ Vi rekommenderar administratörer:
 1. Tilldela om de andra användarna till layouten Ny hemsida.
 
 Om du gör detta så snart som möjligt får användarna tid att anpassa sig till den nya upplevelsen och anpassa sina nya hemsidor efter sina egna behov. Se [Ta bort, lägga till och ordna om widgetar i nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) för information om hur en användare kan anpassa widgetarna på sin egen nya Hem-sida.
+
+### Resurser för slutanvändare
+
+**Hjälpartiklar**
+
+* [Hantera ditt arbete med widgeten Mitt arbete](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Utbildning**
+
+* [Grundläggande om arbetare i Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>Det här är en kostnadsfri kurs, men du måste logga in och registrera dig för att få tillgång till den.
