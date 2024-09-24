@@ -8,9 +8,9 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
+source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '816'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,14 @@ När du har tilldelats en uppgift eller ett problem kan du använda en sammanhan
 
 Med hjälp av kontextknappen för att acceptera eller slutföra arbetsobjekt kan du låta Adobe Workfront uppdatera flera fält på objekten utan att behöva uppdatera dem manuellt.
 
+Knapparna Work On It (Arbeta på) och Done (Klar) är synliga för användare som har:
+
+* En standardlicens (ny) eller en plan- eller arbetslicens (aktuell)
+* Begränsad redigeringsåtkomst eller högre för uppgiften eller problemet
+
 ## Arbeta med knappnamnen och Klar
 
-Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan från kan du ändra namn med knappen Arbeta på den eller Klar, enligt följande scenarier: 
+Beroende på vilket område av Workfront du kommer åt uppgiften eller utgåvan från kan du ändra namn med knappen Arbeta på den eller Klar, enligt följande scenarier:
 
 * När uppgiften eller utgåvan först tilldelas dig och statusen är Ny visas knappen Arbeta på den.
 

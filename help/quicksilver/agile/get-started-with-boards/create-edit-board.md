@@ -6,9 +6,9 @@ description: Från kontrollpanelen [!UICONTROL boards] kan du skapa en ny panel 
 author: Lisa
 feature: Agile
 exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
-source-git-commit: efe636e14964cc8705839c9f534a9947327803d7
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '841'
 ht-degree: 0%
 
 ---
@@ -107,6 +107,8 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. På kontrollpanelen väljer du den panel som ska öppnas.
 1. Redigera styrelsen efter behov. Du kan klicka på styrelsens namn för att byta namn på det.
+
+   Om du vill synkronisera anslutna kort med Workfront och ta med dig nya uppgifter och problem till styrelsen eller inmatningskolumnen klickar du på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid styrelsens namn och väljer **[!UICONTROL Sync connected items]**.
 
    Mer information finns i [Lägga till eller ta bort medlemmar från en anslagstavla](../../agile/get-started-with-boards/add-members-to-board.md), [Hantera anslagstavlor](../../agile/get-started-with-boards/manage-board-columns.md) och [Lägga till ett kort på en anslagstavla](../../agile/get-started-with-boards/add-card-to-board.md).
 
