@@ -5,7 +5,7 @@ title: Gå från äldre startsida till ny startsida
 description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versionen. Den här artikeln innehåller information om vilka funktioner som kommer att vara tillgängliga i det nya hemmet samt rekommendationer om hur du flyttar användare till det nya hemmet.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 0%
