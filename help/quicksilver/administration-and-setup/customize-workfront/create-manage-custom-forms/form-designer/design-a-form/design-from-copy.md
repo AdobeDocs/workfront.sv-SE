@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -84,12 +84,12 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
    Om ett åtkomstalternativ för en avsnittsbrytning i det ursprungliga formuläret inte är kompatibelt med en objekttyp som du lägger till i den nya, uppmanas du att ändra alternativet.
 
 1. Markera formuläret som du just kopierade och klicka sedan på ![Redigera-ikonen](assets/edit-icon.png).
-1. Gör eventuella ändringar i formuläret enligt följande avsnitt i artikeln [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
+1. Gör eventuella ändringar i formuläret enligt följande avsnitt i artikeln [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md):
 
    * [Återanvända ett befintligt fält eller en befintlig widget som redan används i ett annat anpassat formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
       * [Lägg till textfält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
       * [Lägg till beräknade fält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
-      * [Lägg till alternativknappar, kryssrutegrupp och listrutor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
+      * [Lägga till alternativknappar, kryssrutegrupper och listrutor](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
       * [Lägg till rubriker och datumfält](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
       * [Lägga till bilder, PDF och videoklipp](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
       * [Lägg till Adobe XD-filer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)

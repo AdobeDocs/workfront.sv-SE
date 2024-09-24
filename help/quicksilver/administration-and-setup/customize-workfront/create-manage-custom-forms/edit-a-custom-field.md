@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
+source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '313'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Klicka på **Nytt anpassat fält**.
 1. I rutan som visas anger du den obligatoriska och valfria informationen för objektet som du lägger till.
 
-   Mer information finns i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka på **Skapa**.
 
@@ -77,6 +77,6 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 1. Markera det anpassade fältet, avsnittsbrytningen eller widgeten och klicka sedan på ![redigeringsikonen](assets/edit-icon.png).
 1. I rutan som visas ändrar du något av alternativen som är tillgängliga för objektet som du redigerar.
 
-   Mer information finns i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. När du är klar klickar du på **Redigera**.

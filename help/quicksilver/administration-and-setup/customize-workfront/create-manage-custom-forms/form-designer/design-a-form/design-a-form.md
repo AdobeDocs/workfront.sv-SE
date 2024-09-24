@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
+source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
 workflow-type: tm+mt
-source-wordcount: '5546'
+source-wordcount: '5541'
 ht-degree: 0%
 
 ---
@@ -152,7 +152,7 @@ Du kan lägga till flera olika textfält i ett anpassat formulär.
 +++ **Utöka för att visa beskrivningar av tillgängliga textfält**
 
 * **Textfält med en rad**: Tillåter användare att skriva en enda textrad i fältet.
-* **Textfält för stycke**: Tillåter användare att skriva flera rader med text i fältet.
+* **Styckefält**: Tillåter användare att skriva flera rader med text i fältet.
 * **Textfält med formatering**: Används för att skriva flera textrader i fältet och formatera texten med fet, kursiv, understrykning, punkter, numrering, hyperlänkar och blockcitattecken. En teckengräns på 15 000 tillåter mycket text och formatering.
 
   Den här anpassade fälttypen stöds inte i filter för listor och rapporter.
@@ -171,9 +171,9 @@ Lägga till ett textfält:
 
 1. Leta upp ett av följande textfält till vänster på skärmen och dra det till ett avsnitt på arbetsytan:
 
-   * Enkelradstext
-   * Stycketext
-   * Textfält med formatering
+   * Enkelradig text
+   * Stycke
+   * Text med formatering
    * Beskrivning
 
    ![](assets/drag-field-to-section.png)
@@ -192,7 +192,7 @@ Lägga till ett textfält:
    </td>
     <td><ul>
     <li>Enkelradig text</li>
-    <li>Stycketext</li>
+    <li>Stycke</li>
     <li>Text med formatering</li>
     <li>Beskrivning</li>
     </ul></td>
@@ -203,7 +203,7 @@ Lägga till ett textfält:
     <p>VIKTIGT: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p></td>
     <td><ul>
     <li>Enkelradig text</li>
-    <li>Stycketext</li>
+    <li>Stycke</li>
     <li>Text med formatering</li>
     </ul></td>
     </tr>
@@ -214,7 +214,7 @@ Lägga till ett textfält:
     </td>
     <td><ul>
     <li>Enkelradig text</li>
-    <li>Stycketext</li>
+    <li>Stycke</li>
     <li>Text med formatering</li>
     <li>Beskrivning</li>
     </ul></td>
@@ -226,7 +226,7 @@ Lägga till ett textfält:
     </td>
     <td><ul>
     <li>Enkelradig text</li>
-    <li>Stycketext</li>
+    <li>Stycke</li>
     <li>Text med formatering</li>
     </ul></td>
     </tr>
@@ -240,7 +240,7 @@ Lägga till ett textfält:
      </ul></p></td> </td>
     <td><ul>
     <li>Enkelradig text</li>
-    <li>Stycketext</li>
+    <li>Stycke</li>
     </ul></td>
     </tr>
     <tr>
@@ -248,7 +248,7 @@ Lägga till ett textfält:
     <td>Växla mellan textrutorna för en rad och ett stycke.</td>
     <td><ul>
     <li>Enkelradig text</li>
-    <li>Stycketext</li>
+    <li>Stycke</li>
     </ul></td>
     </tr>
     <tr>
@@ -286,8 +286,8 @@ Du kan lägga till alternativknappar, kryssrutegrupper, listrutor och flervalsli
 
 * **Alternativknappar**: Kräver att användare bara väljer ett alternativ.
 * **Kryssrutegrupp**: Tillåter användare att välja flera alternativ.
-* **Listruta**: Visar en lista med alternativ i listrutor.
-* **Flervalslistruta**: Tillåter användare att välja flera alternativ i en listruta.
+* **Listruta för enstaka val**: Visar en lista med alternativ i listrutor.
+* **Flervalsmeny**: Tillåter användare att välja flera alternativ i en listruta.
 
 +++
 
@@ -301,8 +301,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
 
    * Alternativknappar
    * Kryssrutegrupp
-   * Listruta
-   * Flervalsmeny
+   * Listruta med ett val
+   * Listruta för flera val
 
    ![Dra ett fält till arbetsytan](assets/drag-field-to-section.png)
 
@@ -321,8 +321,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
      <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -332,8 +332,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
      <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -344,8 +344,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -359,18 +359,18 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
      <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Visningstyp</td> 
-    <td>Växla mellan alternativknappar, kryssrutegrupper, listrutor och flervalslistrutor för fältet.</td> 
+    <td>Växla mellan alternativknappar, kryssrutegrupper, listrutor för enstaka val eller listrutor för flera val för fältet.</td> 
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -379,8 +379,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -404,8 +404,8 @@ Så här lägger du till alternativknappar, kryssrutegrupper och listrutor:
     <td><ul>
     <li>Alternativknappar</li>
     <li>Kryssrutegrupp</li>
-    <li>Listruta</li>
-    <li>Flervalsmeny</li>
+    <li>Listruta med ett val</li>
+    <li>Listruta för flera val</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -441,7 +441,7 @@ Du kan lägga till huvud- och datumfält i ett anpassat formulär.
    * Team
    * Mall
    * Företag
-* **Datumfält**: Visar en kalender där användare kan välja datum och tid.
+* **Datum**: Visar en kalender där användare kan välja datum och tid.
 
 +++
 
@@ -450,7 +450,7 @@ Så här lägger du till texthuvud- och datumfält:
 1. Leta upp ett av följande fält till vänster på skärmen och dra det till ett avsnitt på arbetsytan.
 
    * Typeahead
-   * Datumfält
+   * Datum
 
    ![](assets/drag-field-to-section.png)
 
@@ -468,7 +468,7 @@ Så här lägger du till texthuvud- och datumfält:
       <td> <p>(Obligatoriskt) Skriv en beskrivande etikett som ska visas ovanför det anpassade fältet. Du kan när som helst ändra etiketten.</p> <p><b>VIKTIGT</b>: Undvik att använda specialtecken i den här etiketten. De visas inte korrekt i rapporter. Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datumfält</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -477,7 +477,7 @@ Så här lägger du till texthuvud- och datumfält:
       <p>Mer information finns i <a href="design-a-form.md#notes-on-field-names-and-labels">Anteckningar om fältnamn och etiketter</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
-    <li>Datumfält</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -487,14 +487,14 @@ Så här lägger du till texthuvud- och datumfält:
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Datumfält</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Visa tid på dagen</td> 
       <td>Välj det här alternativet om du vill visa tiden på dagen tillsammans med datumet i fältet.</td> 
          <td><ul>
-    <li>Datumfält</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -532,7 +532,7 @@ Så här lägger du till texthuvud- och datumfält:
       <td>Välj det här alternativet om du vill att fältet ska vara obligatoriskt för att användaren ska kunna fylla i det anpassade formuläret. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datumfält</li>
+    <li>Datum</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -807,7 +807,7 @@ I den här tabellen visas de tillgängliga inbyggda fälten för specifika Workf
 
 +++
 
-1. På skärmens vänstra sida söker du efter **Inbyggt fält** och drar det till ett avsnitt på arbetsytan.
+1. På skärmens vänstra sida letar du reda på **Ursprunglig fältreferens** och drar den till ett avsnitt på arbetsytan.
 1. Konfigurera alternativen för det anpassade fältet till höger på skärmen:
 
    <table style="table-layout:auto"> 

@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8e6caabfaa347f0595657078e2d08ce70c0cb697
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -33,7 +33,7 @@ Du kan t.ex. bifoga ett anpassat formulär med namnet&quot;Marketing Content Res
 
 Formulärdesignern har en arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt. Du kan också dra och släppa fält i avsnitten när du utformar formuläret. Du kan ändra storlek på skärmens högra sida för att ge mer utrymme för fältalternativen.
 
-<span class="preview">Med en **Layout**-knapp (visas inte i den här bilden) kan du välja mellan två- eller trekolumnsarbetsytor. Knappen anger vilken layout som är markerad. Layouten med tre kolumner visar fältinställningarna i kolumnen längst till höger. I layouten med två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.</span>
+<span class="preview">Med en layoutknapp (visas inte i den här bilden) kan du välja mellan två eller tre kolumner i arbetsytan. Knappen anger vilken layout som är markerad. Layouten med tre kolumner visar fältinställningarna i kolumnen längst till höger. I layouten med två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.</span>
 
 Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -48,15 +48,15 @@ I ett anpassat formulär kan du skapa ytterligare fält som uppmanar användarna
 Du kan lägga till följande typer av anpassade fält i ett anpassat formulär i Workfront:
 
 * Enkelradig text
-* Stycketext
+* Stycke
 * Text med formatering
-* Listruta
+* Listruta med ett val
 * Flervalsmeny
 * Extern sökning
-* Ursprungligt fält
+* Ursprunglig fältreferens
 * Typeahead
 * Beräknat
-* Datumfält
+* Datum
 * Kryssrutegrupp
 * Alternativknappar
 * Beskrivning

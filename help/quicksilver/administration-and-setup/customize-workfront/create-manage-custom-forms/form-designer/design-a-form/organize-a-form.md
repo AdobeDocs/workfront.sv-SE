@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1300'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ De åtkomstinställningar som du väljer för ett avsnitt är direkt knutna till
 
 Mer information om behörigheter för objekt finns i [Översikt över delningsbehörigheter för objekt](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Mer information om anpassade fält och widgetar i anpassade formulär finns i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Mer information om anpassade fält och widgetar i anpassade formulär finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Skapa och konfigurera åtkomst för ett avsnitt i ett anpassat formulär
 
-1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, vilket beskrivs i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka på **Avsnittsbrytning** och dra den till önskad plats på arbetsytan.
 
@@ -147,7 +147,7 @@ Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokumen
 ## Placera anpassade fält och widgetar i ett anpassat formulär
 
 
-1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Börja skapa eller redigera ett anpassat formulär, enligt beskrivningen i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Om du vill placera anpassade fält och widgetar på samma rad drar du det ena bredvid det andra tills en linje visas mellan dem.
 
@@ -166,7 +166,7 @@ Om du lägger till en annan objekttyp i formuläret (Portfolio, Program, Dokumen
 
 ## Förhandsgranska ett anpassat formulär
 
-1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, enligt beskrivningen i [Designa ett formulär](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+1. Börja skapa eller redigera ett anpassat formulär och lägga till fält, vilket beskrivs i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicka på **Förhandsgranska** i det övre högra hörnet för att se hur formuläret kommer att se ut när det används och klicka sedan på **Avsluta förhandsgranskning** för att återgå till att redigera formuläret.
 
