@@ -6,16 +6,16 @@ description: Menyn [!UICONTROL Recents] finns i det övre navigeringsfältet. De
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '202'
 ht-degree: 0%
 
 ---
 
 # Visa senaste artiklar
 
-Menyn [!UICONTROL Recents] finns i det övre navigeringsfältet. Den här menyn innehåller nyligen visade projekt, rapporter, kontrollpaneler, uppgifter, problem med mera.
+Menyn [!UICONTROL Recents] finns i det övre navigeringsfältet. Den här menyn innehåller nyligen visade projekt, rapporter, kontrollpaneler, uppgifter, problem med mera. Endast objekt som har visats under de senaste två veckorna inkluderas, upp till tjugo per objekttyp, och visas i ordning för den senaste visningen.
 
 ## Åtkomstkrav
 

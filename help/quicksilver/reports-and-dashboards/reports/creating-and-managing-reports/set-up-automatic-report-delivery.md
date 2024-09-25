@@ -6,9 +6,9 @@ description: Schemalägg automatisk rapportleverans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1172'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Tid</p> </td> 
-      <td> <p>Välj den tid på dagen då leveransen ska skickas.</p> <p>Tips! Eftersom systeminläsningar kan påverka leveranstiderna för rapporter kan det finnas en fördröjning mellan den schemalagda tiden och den faktiska leveranstiden. Om du behöver en rapport som levereras vid en viss tidpunkt rekommenderar vi att leveransen schemaläggs före den tidpunkt då den behövs. Vi rekommenderar till exempel att leveransen schemaläggs en dag före det datum då den behövs.</p> </td> 
+      <td> <p>Välj den tid på dagen då leveransen ska skickas.</p> <p>Tips! Eftersom systeminläsningen kan påverka leveranstiderna för rapporter kan det uppstå en fördröjning på upp till 24 timmar mellan den schemalagda tiden och den faktiska leveranstiden. Om du behöver en rapport som levereras vid en viss tidpunkt rekommenderar vi att leveransen schemaläggs före den tidpunkt då den behövs. Vanligtvis rekommenderar vi att leveransen schemaläggs minst en dag före det datum då den behövs.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Upprepningar på</p> </td> 

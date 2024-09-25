@@ -6,9 +6,9 @@ description: Du kan dela ett korrekturdokument med interna och externa mottagare
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Det här alternativet skickar ett e-postmeddelande med en offentlig korrekturlä
 
 ## Ladda ned beviset
 
-Du kan hämta en kopia av korrekturdokumentet till din mobila enhet.
+Du kan hämta en kopia av korrekturdokumentet till din mobila enhet. Observera att du inte kan förhandsgranska videofiler, men du kan ändå hämta dem.
 
 1. Öppna dokumentets korrektur och välj **[!UICONTROL More]**-menyn ![Mer-menyn](assets/mobile-verticalmoremenu-20x33.png) i dokumentets övre högra hörn. Välj sedan **[!UICONTROL More]**.
 1. Välj **[!UICONTROL Download]**.
