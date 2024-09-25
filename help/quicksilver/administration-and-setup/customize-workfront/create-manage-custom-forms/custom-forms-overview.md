@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -92,4 +92,5 @@ Användare kan bifoga anpassade formulär till följande objekttyper:
 Mer information om hur du bifogar anpassade formulär till objekt finns i [Lägga till ett anpassat formulär till ett objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 Mer information om vad som händer med anpassade formulär när du konverterar ett objekt finns i [Överför anpassade formulärdata när du konverterar ett objekt](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+
 
