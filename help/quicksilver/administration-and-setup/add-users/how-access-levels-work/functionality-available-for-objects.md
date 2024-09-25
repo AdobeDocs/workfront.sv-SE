@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1612'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,8 @@ Det anger också vilka åtgärder Workfront-administratörer kan inaktivera elle
 | Uppdatera anpassade fält | ✓ |   |   |   |
 | Lägga till en godkännandeprocess | ✓ |   |   |   |
 | Godkänn ett projekt | ✓ | ✓ |   |   |
-| Lägg till dokument | ✓ | ✓ |   |   |
-| Lägg till utgåva | ✓ | ✓ |   |   |
+| Lägg till dokument | ✓ | ✓ | ✓ |   |
+| Lägg till utgåva | ✓ | ✓ | ✓ |   |
 | Lägga till uppgifter | ✓ |   |   |   |
 | Ge uppdateringar/kommentarer | ✓ | ✓ | ✓ |   |
 | Ändra status | ✓ |   |   |   |
