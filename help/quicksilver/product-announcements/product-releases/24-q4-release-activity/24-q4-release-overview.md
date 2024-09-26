@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
 workflow-type: tm+mt
-source-wordcount: '1606'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -103,16 +103,16 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p>Förhandsversion: 12 augusti 2024</p>
+                                <p><s>Förhandsversion: 12 augusti 2024</s></p>
                             </li>
                             <li>
-                                <p>Production for fast release: Med version 24.9 (12 september 2024)</p>
+                                <p>Production for fast release: Ej tillämpligt</p>
                             </li>
                             <li>
-                                <p>Produktionsrelease för alla kunder: TBD</p>
+                                <p>Produktionsrelease för alla kunder: Ej tillämpligt</p>
                             </li>
                         </ul>
-                        <p><i>Den här funktionen ingår i en fasad version och kommer att vara tillgänglig för ett begränsat antal kunder i september.</i></p>
+                        <p><i>Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas i framtida versioner.</i></p>
                     </td>
                 </tr>
            </tbody>
