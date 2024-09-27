@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
+source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -46,9 +46,9 @@ Mer information om hur du återställer ett miljökampanjpaket finns i [Återst�
 
 >[!NOTE]
 >
->Förhandsversion: 12 augusti 2024; Produktion för snabb release: Med version 24.9 (12 september 2024); Produktion för kvartalsvis publicering: TBD
+>Förhandsgranskningsversion: ~~12 augusti 2024~~; Produktion för snabb release: Ej tillämpligt; Produktion för kvartalsvis release: Ej tillämpligt
 >
->_Den här funktionen är en del av en fasversion och kommer att vara tillgänglig för ett begränsat antal kunder i september. Den kommer att finnas kvar i förhandsgranskningsmiljön under en längre tid medan vi samlar in feedback._
+>_Den här funktionen har tagits bort från förhandsgranskningen och kommer inte att släppas i framtida versioner._
 
 Med en layoutknapp i den anpassade formulärdesignern kan du välja mellan två- eller trekolumnsarbetsytor. Den ursprungliga formulärdesignern använder tre kolumner och fältinställningarna visas i kolumnen längst till höger. Om du markerar två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.
 
