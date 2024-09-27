@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
+source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
 workflow-type: tm+mt
 source-wordcount: '1953'
 ht-degree: 0%
@@ -577,4 +577,5 @@ Endast användare med en planlicens kan ha fullständig åtkomst till [utvalda o
 | Visa avsnittet Mållista i den vänstra panelen | ✓ | ✓ |
 | Visa avsnittet Diagram i den vänstra panelen | ✓ | ✓ |
 | Visa avsnittet Måljustering på den vänstra panelen | ✓ | ✓ |
+
 
