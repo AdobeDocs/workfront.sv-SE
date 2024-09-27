@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1953'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,10 @@ ht-degree: 0%
 I följande tabeller visas de funktioner som är tillgängliga för varje objekttyp på olika åtkomstnivåer.
 
 Det anger också vilka åtgärder Workfront-administratörer kan inaktivera eller aktivera med en åtkomstnivå.
+
+>[!NOTE]
+>
+>I den här artikeln beskrivs de funktioner som är tillgängliga för åtkomstnivåer i den aktuella Workfront-planmodellen. Information om vilka funktioner som är tillgängliga i den nya planmodellen finns i [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
 
 ## Projekt
 
