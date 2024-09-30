@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1731'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 
 * [Administratörsförbättringar](#administrator-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
 * [Förbättringar av korrektur](#proofing-enhancements)
 * [Förbättringar av rapporter och kontrollpaneler](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
            </tbody>
         </table>
 
+### Hemförbättringar
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Prioriteter: en enklare, smidigare och intuitiv Workfront-upplevelse för aktivitetsägare.</a></p>
+                        <p>Prioriteringarna ökar fokus och produktivitet och hjälper kunderna att uppnå mer på kortare tid.</p>
+                        <p>Med Prioriteringar får du:</p>
+                        <ul>
+                        <li>Hantera och prioritera rutinuppgifter: Ordna dag och vecka med konsoliderad navigering för bättre tydlighet</li>
+                        <li>Större produktivitet: Kom åt projektsammanhang och utför uppgifter snabbare med färre klick</li>
+                        <li>Personaliserade funktioner: Dra nytta av unika funktioner som utformats för uppgiftsägare</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: 17 oktober 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Projektförbättringar
 
 <table>
@@ -227,6 +270,23 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Korrigera problem med kopiera/klistra in för Desktop Proofing Viewer</a></p>
+                        <p>Vi har åtgärdat ett problem där innehåll klistras in felaktigt i uppdateringsavsnittet i Desktop Proofing Viewer.</p>
+                        <p>Ny version: 2.1.39</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 2 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Produktionsrelease för alla kunder: 2 oktober 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

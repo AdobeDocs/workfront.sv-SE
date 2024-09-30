@@ -3,9 +3,9 @@ user-guide-title: Användarhandbok om Workfront
 user-guide-description: Använd dokument, självstudiekurser och andra resurser för att lära dig hur du implementerar och använder Adobe Workfront effektivt i din organisation.
 role: User
 feature-set: Workfront
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '14419'
+source-wordcount: '14437'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 0%
          * [2024 Q4 Release - översikt](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024 Q4 Administratörsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024 Q4-integreringsförbättringar](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [2024 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [Förbättringar av korrektur för 2024 Q4](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [Förbättringar av Q4-rapporten och Dashboard 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -877,6 +878,9 @@ ht-degree: 0%
       * [Förstå navigeringen för en arbetslicensanvändare](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [Förstå navigeringen för en användare med en granskningslicens](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Översikt över Project-, Task- och Issue-datum i Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+   * Prioriteringar {#priorities}
+      * [Prioriteter: artikelindex](workfront-basics/priorities/priorities-toc.md)
+      * [Kom igång med prioriteringar](workfront-basics/priorities/get-started-with-priorities.md)
    * Hem {#home}
       * [Startsida](workfront-basics/using-home/home.md)
       * Nytt hem {#new-home}
@@ -888,6 +892,7 @@ ht-degree: 0%
       * Använd hemområdet {#use-home-area}
          * [Använda området Hem](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Gå från äldre startsida till ny startsida](workfront-basics/using-home/new-home/move-to-new-home.md)
+         * [Gå från äldre startsida till prioriteter](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [Kom igång med Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Visa objekt i arbetslista i hemområdet](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [Prioritera arbetet i hemområdet](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
