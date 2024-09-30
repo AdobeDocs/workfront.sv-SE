@@ -5,9 +5,9 @@ description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versione
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,7 @@ Grupperingar
 
 #### Delegera arbete
 
-Användarna kan inte delegera eller visa delegerat arbete i prioriteter just nu.
-
-Användare kan fortfarande delegera arbete från Nytt hem i följande widgetar:
+Användarna kan inte delegera eller visa delegerat arbete i prioriteter just nu. Men användare kan fortfarande delegera arbete från Nytt hem i följande widgetar:
 
 * Mitt arbete
 * Mina uppgifter
