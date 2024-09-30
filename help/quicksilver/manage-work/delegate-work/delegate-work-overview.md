@@ -7,9 +7,9 @@ description: När du planerar att vara borta från kontoret under en kort period
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '870'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Du kan delegera följande objekt i [!DNL Adobe Workfront]:
 
 * Uppgifter som tilldelats dig
 * Problem som du har tilldelats
-* Projekt, uppgifter, utgåvor, dokumentgodkännanden som du har tilldelats.
+* Projekt-, uppgifts- eller utfärdandegodkännanden som tilldelats dig.
 
 Den här artikeln innehåller allmän information om delegering av uppgifter och problem.
 
-Mer information om delegering av projekt-, uppgifts-, utgåva- och dokumentgodkännanden finns i [Delegera godkännandebegäran](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Mer information om hur du delegerar projekt-, uppgifts- och utfärdandegodkännanden finns i [Delegera godkännandebegäran](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 Mer information om hur du delegerar uppgifter och problem finns i [Delegera uppgifter och problem](../../manage-work/delegate-work/how-to-delegate-work.md).
 
@@ -43,6 +43,7 @@ Tänk på följande när du delegerar uppgifter och ärenden:
 * [!DNL Workfront]- eller gruppadministratören måste aktivera delegeringsinställningarna i området [!UICONTROL Setup] innan du kan delegera ditt arbete till andra.
 
   Mer information finns i [Konfigurera uppgifter och utgåvinställningar för hela systemet](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Du kan endast delegera uppgifter och utgåvor från området [!UICONTROL Home].
 * Det finns undantag för följande licenstyper:
 
