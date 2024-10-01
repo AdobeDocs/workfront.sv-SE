@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -18,10 +18,6 @@ ht-degree: 0%
 # Översikt över anpassade formulär
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Du kan skapa ett anpassat formulär som användare kan bifoga till ett Adobe Workfront-objekt. Användare som arbetar med objektet kan fylla i det anpassade formuläret för att ge information om objektet.
 
@@ -32,8 +28,6 @@ Du kan t.ex. bifoga ett anpassat formulär med namnet&quot;Marketing Content Res
 ## Skapa ett eget formulär
 
 Formulärdesignern har en arbetsyteliknande arbetsyta som gör att du kan visa fälten, arbetsytan och fältinställningarna samtidigt. Du kan också dra och släppa fält i avsnitten när du utformar formuläret. Du kan ändra storlek på skärmens högra sida för att ge mer utrymme för fältalternativen.
-
-<span class="preview">Med en layoutknapp (visas inte i den här bilden) kan du välja mellan två eller tre kolumner i arbetsytan. Knappen anger vilken layout som är markerad. Layouten med tre kolumner visar fältinställningarna i kolumnen längst till höger. I layouten med två kolumner visas fältinställningarna intill fältbiblioteket i kolumnen längst till vänster.</span>
 
 Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
