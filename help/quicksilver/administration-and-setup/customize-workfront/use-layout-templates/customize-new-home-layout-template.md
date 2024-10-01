@@ -8,28 +8,30 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: cf722e3dc021cf4302e9542fd65a0e5dd0043de5
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '808'
 ht-degree: 0%
 
 ---
 
 # Anpassa nytt hem med en layoutmall
 
-Du kan använda en layoutmall för att konfigurera vad användarna ser när de öppnar nya Hem.
+Du kan använda en layoutmall för att konfigurera vad användarna ser när de öppnar nya Hem första gången.
 
 Du kan konfigurera
 
-* Vilka widgetar som visas på arbetsytan som standard och deras layout på sidan
+* Vilka widgetar som visas på arbetsytan som standard
 * Vilken bakgrund är markerad
 * Specifika widgetinställningar, inklusive vilka filter och grupper som är tillgängliga för widgetarna Mina projekt, Mina uppgifter och Mina problem, samt deras standardvärden
 
 >[!IMPORTANT]
 >
->Administratörslayoutmallens val som beskrivs på den här sidan åsidosätter enskilda användares anpassningsalternativ.
->
->När ändringar i en layoutmall sparas ändras den nya startsidan för användare som använder den layoutmallen så att den matchar layoutmallen, och deras befintliga widgetval flyttas längst ned på sidan. Widgetar som valts av administratören kan flyttas och storleksändras av en användare, men de kan inte tas bort.
+>Slutanvändare kan ändra sin bakgrund och ordna om widgetar på sidan när layoutmallen har tillämpats. De kan inte ta bort widgetar som ingår i en Workfront-administratör.
+> <br>
+>Administratörer kan lägga till nya widgetar för användare. Om en användare redan har anpassat sin widgetordning eller bakgrundsurval ändras dock inte dessa anpassningar.
+
+
 
 Mer information om nya Hem finns i [Kom igång med nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -72,6 +74,8 @@ Om du vill utföra dem för en grupp måste du vara chef för den gruppen.</p> <
 +++
 
 ## Anpassa nytt hem med en layoutmall
+
+Så här anpassar du Nytt hem med en layoutmall:
 
 1. Börja arbeta med en layoutmall enligt beskrivningen i [Skapa och hantera layoutmallar](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
