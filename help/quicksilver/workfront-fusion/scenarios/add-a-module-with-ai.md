@@ -2,16 +2,16 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Generera en modul med AI
+title: Generera ett scenariosegment med AI
 description: Du kan ange en textfråga för att skapa en HTTP-modul som är konfigurerad för frågan.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ Textmeddelanden ska innehålla minst följande information:
 >Detta inkluderar programmet `Workfront Planning` och åtgärden `get field details`.
 >
 >Följande exempel är INTE korrekt:
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    Det här exemplet är felaktigt eftersom det innehåller mer än ett program
