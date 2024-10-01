@@ -8,9 +8,9 @@ description: Adobe Workfront Fusion kräver en Adobe Workfront Fusion-licens fö
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,10 @@ ht-degree: 0%
   <tr> 
    <td role="rowheader"> <p>Scenario</p> </td> 
    <td> <p>En serie automatiserade steg som skapats av användare, där varje steg representeras och utförs av en modul. Syftet med ett scenario är att flytta och hantera data.</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> Mer information finns i <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Skapa ett scenario i[!UICONTROL  Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Scenariosegment</p> </td> 
+   <td> <p> Ett avsnitt i ett scenario som består av en serie moduler som alla ansluter till samma program. Scenariosegment representerar ofta ett kort arbetsflöde i programmet.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Transaktioner</p> </td> 
