@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,11 @@ Mer information om typer av projektuppdateringar finns i [Översikt över projek
 1. Klicka på **[!UICONTROL Save]**.
 
    Tidslinjen för alla projekt i systemet beräknas om automatiskt baserat på uppdateringstypen för varje projekt.
+
+>[!IMPORTANT]
+>
+>I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering är nattomberäkningen inaktiverad och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox. Mer information finns i [Beräkna om projekttidslinjer](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
 
 ## Beräkna om tidslinjer för hela [!DNL Workfront]-instansen
 

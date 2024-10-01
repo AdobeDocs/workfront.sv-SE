@@ -6,9 +6,9 @@ description: Genom att beräkna om tidslinjer kan cheferna se hur olika faktorer
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '1058'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,11 @@ Som standard räknas projekttidslinjer om automatiskt varje dag när projektomf�
 
 * [Automatisk omberäkning av projekttidslinjer](#automatic-recalculation-of-project-timelines)
 * [Åtgärder som utlöser en automatisk omberäkning av projekttidslinjer](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
+
+
+>[!IMPORTANT]
+>
+>I sandlådemiljöerna Förhandsgranska och Anpassad uppdatering är nattomberäkningen inaktiverad och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för miljöerna Preview och Custom Refresh Sandbox.
 
 ### Automatisk omberäkning av projekttidslinjer {#automatic-recalculation-of-project-timelines}
 

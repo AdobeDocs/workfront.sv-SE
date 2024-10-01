@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1720'
 ht-degree: 0%
 
 ---
@@ -199,6 +199,16 @@ Mer information om hur du konfigurerar [!DNL Workfront] med enkel inloggning fin
 >[!NOTE]
 >
 >Detta är inte tillgängligt om din organisations [!DNL Workfront]-instans har aktiverats med Adobe IMS. Kontakta nätverks- eller IT-administratören om du behöver mer information.
+
+## Automatisk omberäkning av projekttidslinjer
+
+Genom att beräkna om tidslinjer kan chefer se hur krafter utanför projektet påverkar projektets tidslinje. Ett projekts tidslinje hänvisar till planerade och planerade datum för projektet.
+
+Som Workfront-administratör kan du konfigurera när Workfront automatiskt beräknar om projekttidslinjer. Workfront kan beräkna om projekttidslinjer antingen varje kväll eller när projektomfånget ändras, eller både och.
+
+Mer information finns i [Konfigurera tidslinjeomberäkningar för projekt](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+
+I sandlådemiljön för anpassad uppdatering är nattomberäkningen inaktiverad och projekttidslinjerna beräknas inte om automatiskt. Du måste beräkna om projekttidslinjen manuellt för sandlådemiljön för anpassad uppdatering. Mer information finns i [Beräkna om projekttidslinjer](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
 ## Avsedd användning och tillgänglighet
 
