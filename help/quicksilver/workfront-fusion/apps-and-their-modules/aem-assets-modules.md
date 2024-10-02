@@ -10,9 +10,9 @@ description: Med  [!DNL Adobe Experience Manager Assets] connector for [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -127,20 +127,28 @@ Så här skapar du en anslutning för dina [!DNL Adobe Experience Manager Assets
                   <td>Ange URL:en för din [!DNL Adobe Experience Manager]-instans. Ta inte med ett snedstreck <code>/</code> i slutet av URL:en.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Account details fill options]</td>
+                  <td>Välj om du vill ange JSON som beskriver din kontoinformation eller om du vill ange information manuellt.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Technical account details in JSON format]</td>
+                  <td>Om du anger JSON anger eller klistrar du in den JSON som beskriver din kontoinformation.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Ange det klient-ID som genererats i [!UICONTROL Server-to-server]-konfigurationen.</td>
+                  <td>Om du anger information manuellt anger du det klient-ID som genererats i [!UICONTROL Server-to-server]-konfigurationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Ange den klienthemlighet som genererades i [!UICONTROL Server-to-server]-konfigurationen.</td>
+                  <td>Om du anger information manuellt anger du den klienthemlighet som genererats i [!UICONTROL Server-to-server]-konfigurationen.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Ange ID för det tekniska kontot. Det här är fältet [!UICONTROL id] i JSON-filen för klientautentiseringsuppgifter.</td>
+                  <td>Om du anger information manuellt anger du ID för det tekniska kontot. Det här är fältet [!UICONTROL id] i JSON-filen för klientautentiseringsuppgifter.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Ange din organisations ID. Det här är fältet [!UICONTROL org] i JSON-filen för klientautentiseringsuppgifter.</td>
+                  <td class="">Ange organisationens ID om du anger information manuellt. Det här är fältet [!UICONTROL org] i JSON-filen för klientautentiseringsuppgifter.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
