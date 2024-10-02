@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '603'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,45 @@ Om du vill ansluta Data Connect-datasjön till en extern produkt måste du förs
 >När en post har lagts till i IP-tillåtelselista tillåts inte längre alla andra IP-adresser. Se till att du har angett alla IP-adresser som krävs - både för att skapa och läsa upplevelser i visualiseringsverktyget - innan du försöker använda verktyget. Annars kan du råka ut för ett fel med ogiltiga autentiseringsuppgifter.
 >
 >Om du inte har några IP-adresser i tillåtelselista men fortfarande har problem med att ansluta till ett BI-verktyg, kontrollerar du proxyserverkonfigurationen för BI-verktyget.
+
+## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkraven.
+
+Du måste ha följande åtkomst för att kunna utföra stegen i den här artikeln:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront</td> 
+   <td><p>Ingår i följande planer:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Kan köpas som tillägg till följande planer:</p> 
+    <ul>
+        <li>Välj</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect är inte tillgängligt för tidigare Workfront-planer.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-licens</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Du måste vara Workfront-administratör.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Lägg till IP-adresser i tillåtelselista
 

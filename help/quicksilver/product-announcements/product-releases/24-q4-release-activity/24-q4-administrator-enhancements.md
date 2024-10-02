@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Mer information finns i [Anpassa detaljvyn med hjälp av en layoutmall](/help/qu
 
 >[!NOTE]
 >
->Förhandsversion: 29 augusti 2024; Produktion för snabb release: Med version 24.9 (12 september 2024); Produktion för kvartalsvis publicering: Med version 24.10 (oktober 2024)
+>Förhandsversion: 29 augusti 2024; Produktion för snabb release: Med version 24.9 (12 september 2024); Produktion för kvartalsvis publicering: Med version 24.10 (17 oktober 2024)
 
 För att göra miljökampanjen mer flexibel och enklare att använda har vi aktiverat återställningsfunktionen. Nu kan du återställa paket inom 24 timmar, så att du enklare kan återställa tidigare konfigurationer som har påverkats av ett paket för miljöbefordran.
 

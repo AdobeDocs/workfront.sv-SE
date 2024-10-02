@@ -4,9 +4,9 @@ description: Förbättringar av startsidan för fjärde kvartalet 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ Den här sidan beskriver alla förbättringar av Home som gjorts i den fjärde u
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2024 finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
 ## Förenkla Workfront-upplevelsen för uppgiftsägare med prioriteringar
+
+>[!NOTE]
+>
+>Förhandsversion: 3 oktober 2024; Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024).
 
 Prioriteringarna: en enklare, smidigare och mer intuitiv Workfront-upplevelse för uppgiftsägare.
 

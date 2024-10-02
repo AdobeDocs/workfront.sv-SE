@@ -6,9 +6,9 @@ description: Syftet med kontrollpanelen är att ge snabb åtkomst till informati
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,6 @@ Syftet med kontrollpanelen är att ge snabb åtkomst till information. Du kan fy
 
   Mer information om hur du skapar rapporter finns i [Skapa en anpassad rapport](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Kalendrar
-
-  Mer information om hur du skapar kalendrar finns i [Kalendrar: artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * Externa sidor
 
   Mer information om hur du skapar externa sidor finns i [Bädda in en extern webbsida i en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -33,7 +29,7 @@ När du har skapat de här objekten och lagt till dem på en kontrollpanel kan d
 
 Ändringar som görs i en kontrollpanel påverkar alla användare som har tillgång till den kontrollpanelen.
 
-När du delar en kontrollpanel med användare delas även alla rapporter, kalendrar och externa sidor med samma användare.
+När du delar en kontrollpanel med användare delas även alla rapporter och externa sidor med samma användare.
 
 ## Åtkomstkrav
 
@@ -86,7 +82,7 @@ Mer information om hur du skapar instrumentpaneler finns i [Skapa en instrumentp
    * **Namn**: Redigera namnet på instrumentpanelen.
    * **Beskrivning**: Ange en beskrivning för instrumentpanelen.
 
-1. I avsnittet **Tillgängliga rapporter och kalendrar** börjar du skriva namnet på en rapport, kalender eller extern sida i fältet **Sök efter namn eller typ ...**. Dra sedan rapporten eller kalendern i layoutfönstret till höger.
+1. I avsnittet **Tillgängliga rapporter** börjar du skriva namnet på en rapport eller en extern sida i fältet **Sök efter namn eller typ ...** och drar och släpper sedan rapporten i layoutfönstret till höger.
 
    >[!NOTE]
    >

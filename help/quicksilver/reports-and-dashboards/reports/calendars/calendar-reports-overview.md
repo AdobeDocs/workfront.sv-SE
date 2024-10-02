@@ -7,9 +7,9 @@ description: En kalenderrapport är en dynamisk rapport som ger en visuell repre
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,3 @@ I varje kalenderrapport kan du skapa grupper med objekt som gör att du kan begr
 >[!NOTE]
 >
 >Om 504-fel visas när du kör en kalenderrapport har du förmodligen för många filter i rapporten. Om du minskar antalet filter kan rapporten köras.
-
-## Lägga till dina kalendrar på en instrumentpanel
-
-Du kan få snabb åtkomst till dina kalenderrapporter genom att visa dem på en kontrollpanel. Mer information om hur du lägger till en kalender på en kontrollpanel finns i [Redigera en kontrollpanel](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

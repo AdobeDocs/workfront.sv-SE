@@ -4,9 +4,9 @@ description: Förbättringar av fjärde kvartalet 2024 års rapport och kontroll
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '230'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ En lista över alla ändringar som är tillgängliga vid den här tidpunkten i d
 
 >[!NOTE]
 >
->Produktionsrelease för alla kunder: Med version 24.10 (oktober 2024)
+>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)
 >
 >_Endast tillgängligt för organisationer på en av de nya Adobe Workfront-planerna. Data Connect ingår i Ultimate-planen eller kan köpas som ett tillägg till Prime- och Select-planerna._
 

@@ -6,7 +6,7 @@ description: Du kan visa kalenderrapporter och händelseinformation som du har s
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
 source-wordcount: '670'
 ht-degree: 0%
@@ -54,14 +54,14 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
    Beroende på din åtkomstnivå kan följande kalendrar visas:
 
-   * Din [!DNL Adobe Workfront]-standardkalender\
+   * Din [!DNL Adobe Workfront]-standardkalender
 
      Workfront skapar en kalender för dig baserat på de projekt, uppgifter och utgåvor som har tilldelats dig eller som har tilldelats team, grupper eller roller som du har tilldelats.
-   * Kalendrar som du har skapat\
+   * Kalendrar som du har skapat
 
      Mer information om hur du skapar kalendrar finns i [Översikt över kalenderrapporter](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-   * Kalendrar som andra användare har delat med dig\
+   * Kalendrar som andra användare har delat med dig
 
      Mer information om att dela kalendrar finns i [[!UICONTROL Share a calendar]-rapporten](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 

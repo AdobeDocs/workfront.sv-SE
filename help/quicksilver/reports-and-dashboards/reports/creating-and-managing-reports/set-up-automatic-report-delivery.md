@@ -6,9 +6,9 @@ description: Schemalägg automatisk rapportleverans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1272'
 ht-degree: 0%
 
 ---
@@ -160,6 +160,12 @@ Så här schemalägger du en rapport för automatisk leverans eller redigerar el
    Rapporten visas i avsnittet **Upprepade leveranser** (i dialogrutan **Skicka rapport**) och skickas vid den schemalagda tidpunkten.
 
    Mer information om storleksbegränsningar som kan påverka rapportleveransen finns i avsnitten [Rapportleveransbegränsningar](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) och [Exportbegränsningar](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Schemalagda rapporter omfattas av en intern tidsgräns när de bearbetas för leverans. Om en rapport tar längre tid än gränsen som ska skickas får du ett meddelande och rapporten levereras inte längre oavsett eventuella återstående schemalagda leveranser. Om du vill fortsätta skicka rapporten försöker du först att minska rapportens storlek med hjälp av filter och vyer och sedan skapa en ny schemalagd leverans.
+>
+>Om du använder en schemalagd rapportleverans för att analysera Workfront-data via ett BI-verktyg rekommenderar vi att du använder Workfront Data Connect istället. Mer information finns i [Workfront Data Connect - översikt](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Valfritt) Så här tar du bort en schemalagd leverans:
 
