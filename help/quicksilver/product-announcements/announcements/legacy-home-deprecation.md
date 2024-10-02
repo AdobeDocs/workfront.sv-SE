@@ -6,9 +6,9 @@ description: Den här sidan innehåller information om den kommande borttagninge
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
+source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Vi rekommenderar administratörer:
 1. Tilldela om de andra användarna till den nya startsidans layout.
 
 Om du gör detta så snart som möjligt får användarna tid att anpassa sig till den nya upplevelsen och anpassa sina nya hemsidor efter sina egna behov. Se [Ta bort, lägga till och ordna om widgetar i nya Hem](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) för information om hur en användare kan anpassa widgetarna på sin egen nya Hem-sida.
+
+### Läs vad som finns i nya Home and Priority
+
+I följande artiklar finns information om vilka funktioner som är tillgängliga i nya Hem och Prioriteter:
+
+* [Gå från äldre startsida till ny startsida](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Gå från äldre startsida till prioriteter](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Följ hemupplevelsen när den utvecklas
 
