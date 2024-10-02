@@ -5,9 +5,9 @@ description: Prioriteringarna är en smidig, intuitiv upplevelse som är skrädd
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -182,6 +182,7 @@ Använd funktionen Fånga mig upp för att se vad du missade. Jag kommer att sam
 
 ## Överväganden
 
+* Workfront-administratörer kan för närvarande inte anpassa prioriteringar med hjälp av layoutmallen.
 * Att komma åt uppgifter i prioriteter är tillgängligt på flera flikar. Vi planerar att lägga till fler flikar i framtiden, som dokument, underaktiviteter, godkännanden osv. Meddela oss om att du behöver dessa objekt genom att skicka feedback med knappen **Ge feedback** .
 
 

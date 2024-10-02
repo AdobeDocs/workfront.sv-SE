@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 0%
@@ -173,7 +173,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Prioriteter: en enklare, smidigare och intuitiv Workfront-upplevelse för aktivitetsägare.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Prioriteringar: en enklare, smidigare och intuitiv Workfront-upplevelse för uppgiftsägare</a></p>
                         <p>Prioriteringarna ökar fokus och produktivitet och hjälper kunderna att uppnå mer på kortare tid.</p>
                         <p>Med Prioriteringar får du:</p>
                         <ul>
