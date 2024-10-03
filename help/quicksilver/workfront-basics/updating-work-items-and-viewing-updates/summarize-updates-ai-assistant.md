@@ -1,31 +1,24 @@
 ---
-title: Sammanfatta med hjälp av AI Assistant
-content-type: reference
-description: Du kan snabbt sammanfatta arbetsobjekt och dokument med funktionen Sammanfatta.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Sammanfatta uppdateringar med AI Assistant
+description: Uppdateringarna är av ett objekt och innehåller en knapp som använder AI Assistant för att sammanfatta uppdateringar.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
 
-# Sammanfatta med hjälp av AI Assistant
+# Sammanfatta uppdateringar med AI Assistant
+
+Workfront AI Assistant kan sammanfatta innehållet i uppdateringsströmmen så att du snabbt kan förstå kommentarerna och diskussionerna kring ett Workfront-objekt.
+
+Du kan använda knappen Sammanfatta innehåll för att generera en sammanfattning eller skriva en uppmaning i AI Assistant.
 
 <span class="preview">Den markerade informationen på den här sidan hänvisar till funktioner som ännu inte är allmänt tillgängliga. Den är bara tillgänglig i sandlådemiljön för förhandsgranskning.</span>
-
-Workfront AI Assistant kan sammanfatta vissa objekt och ge dig en översikt över objektets avsikt eller detaljer.
-
-Om du till exempel ber AI Assistant att sammanfatta ett projekt, returnerar det korta beskrivningar av projektets syfte och status, ger exempel på uppgifter som har slutförts och som fortfarande är väntande samt ger ytterligare information och anteckningar.
-
-AI Assistant kan sammanfatta följande objekt:
-
-* Projekt
-* Uppgifter
-* Problem
-* Dokument
 
 >[!NOTE]
 >
@@ -65,22 +58,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
   Mer information finns i [Förutsättningar för AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) i artikeln Översikt över AI Assistant.
 * Din Workfront-administratör måste ha aktiverat AI Assistant för din åtkomstnivå.
 
-  Mer information finns i [Aktivera eller inaktivera AI-assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Mer information finns i [Aktivera eller inaktivera AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).s
 
 <div class="preview">
 
-## Sammanfatta med knapparna Sammanfatta
+## Sammanfatta med knappen Sammanfatta innehåll
 
-Följande områden har knappar som genererar sammanfattningar med hjälp av AI Assistant:
+1. Navigera till den uppdateringsström som du vill sammanfatta.
+1. Klicka på knappen **Sammanfatta innehåll**.
 
-* Projekthuvud: Projektsammanfattning
-* Uppdateringsområde: Sammanfatta innehåll
-
-Så här använder du knappen Projektsammanfattning eller Sammanfatta innehåll:
-
-1. Klicka på knappen.
-
-   AI Assistant öppnas med en uppmaning om att sammanfatta projektet eller de senaste sju dagarnas kommentarer i uppdateringsflödet.
+   AI Assistant öppnas och du uppmanas att sammanfatta de senaste 7 dagarna med kommentarer i uppdateringsströmmen.
 
    Det kan ta en stund innan AI Assistant genererar sammanfattningen, beroende på hur stort eller komplext objektet är.
 
