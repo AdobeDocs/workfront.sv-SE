@@ -5,14 +5,14 @@ title: Sammanfatta projekt med AI Assistant
 description: Projekthuvudet innehåller en knapp som använder AI Assistant för att sammanfatta projekt.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
 
 ---
 
-# Sammanfatta uppdateringar med AI Assistant
+# Sammanfatta projekt med AI Assistant
 
 Workfront AI Assistant kan sammanfatta projekt så att du snabbt kan förstå projektinformation, t.ex. syfte och status, ge exempel på uppgifter som är slutförda och som fortfarande väntar samt ge ytterligare information och anteckningar.
 
