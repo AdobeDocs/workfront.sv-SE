@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '905'
 ht-degree: 0%
 
 ---
@@ -128,8 +128,12 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
       <td>Här kan du ange om användare ska se den nya hemupplevelsen som standard. När det här alternativet är aktiverat visas den nya hemupplevelsen som standard, men du kan fortfarande välja att aktivera eller inaktivera Nytt hem på individnivå. När det här alternativet är inaktiverat visas inte den banderoll som gör att användaren kan växla till Nytt hem, men användaren kan fortfarande navigera till sin nya hemsida genom att ange <code>/home/workspaces</code> manuellt i slutet av sin instans-URL. Den här inställningen är aktiverad som standard.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Aktivera arbetslistan Prioriteter </td> 
+      <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Testmiljöer</td> 
-      <td>Här kan du komma åt Workfront testmiljöer. Mer information finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Sandlådemiljön för Adobe Workfront Preview</a>.</p></td> 
+      <td>Här kan du komma åt Workfront testmiljöer. Mer information finns i <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Sandlådemiljön för Adobe Workfront Preview</a>.</p></td> 
     </tbody> 
    </table>
 

@@ -5,17 +5,15 @@ description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versione
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
 
 
 # Gå från äldre startsida till prioriteter
-
-<span class="preview">Prioriteringarna kommer att vara tillgängliga i förhandsgranskningen 2024-10-3</span>
 
 Äldre startsida tas bort från Workfront den 10/17 med Q4-versionen. Den här artikeln innehåller information om vilka funktioner som är tillgängliga i Prioriteter samt rekommendationer för Workfront-administratörer som flyttar användare till Prioriteter.
 

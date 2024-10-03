@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
+source-wordcount: '1006'
 ht-degree: 0%
 
 ---
 
 # Anpassa hem och sammanfattning med en layoutmall
+
+<span class="preview">Artikelns namn ändras till&quot;Anpassa panelen Sammanfattning med en layoutmall&quot; när äldre Hem tas bort från Workfront med Q4-versionen den 17 oktober. 2024.</span>
 
 Du kan använda en layoutmall för att konfigurera vad användare ser när de klickar på en uppgift eller ett problem i Hem och i Sammanfattning. Varje konfiguration som du gör enligt stegen nedan påverkar Hem- och Sammanfattningspanelen på samma sätt. Dessa anpassningar gäller inte för panelen Dokumentsammanfattning.
 

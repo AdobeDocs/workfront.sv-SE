@@ -5,17 +5,15 @@ description: Prioriteringarna är en smidig, intuitiv upplevelse som är skrädd
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
 
 
 # Kom igång med prioriteringar
-
-<span class="preview">Prioriteringarna kommer att vara tillgängliga i förhandsgranskningen 2024-10-3</span>
 
 Prioriteringarna är en smidig, intuitiv upplevelse som är skräddarsydd för uppgiftsägare. Prioriteringarna kommer att introduceras i faser, med början i arbetslistan.
 
@@ -118,6 +116,16 @@ I kalendervyn visas dina uppgifter och problem. Du kan välja mellan en dag-, ve
 ## Arbeta med uppgifter och problem
 
 I Prioriteter kan du uppdatera arbetsobjekten så att du håller dina uppgifter aktuella, loggar tid för att spåra arbetstiden korrekt, överför resurser utan att behöva navigera till ett projekt och lägga till snabblänkar för enkel åtkomst till resurser som du använder ofta.
+
+>[!NOTE]
+>
+>Light-, Review-, Contributor- och Requestor-licenser har begränsad tillgång till prioriteter. Mer information om hur dessa licenstyper kan samverka med uppgifter och problem finns i
+>
+>* [Åtkomst till objekt och områden via för nya licenser](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Tillgängliga funktioner för varje objekttyp för nya åtkomstnivåer](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Åtkomst till objekt och områden per licenstyp](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [Tillgängliga funktioner för varje objekttyp](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### Lägga till och visa uppdateringar
 
