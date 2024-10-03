@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,18 @@ ht-degree: 0%
 Den här sidan beskriver alla administratörsförbättringar som gjorts i den fjärde utgåvan av kvartal 2024 i förhandsvisningsmiljön. Dessa förbättringar kommer att göras tillgängliga i produktionsmiljön enligt vad som anges.
 
 En lista över alla ändringar som är tillgängliga vid den här tidpunkten i den fjärde utgåvan av kvartal 2024 finns i [Översikt över utgåvan fjärde kvartalet 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+
+## En räknare för anpassade formulär visar antalet fält
+
+>[!NOTE]
+>
+>Förhandsversion: 1 oktober 2024; Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)
+
+Anpassade formulär är begränsade till 500 fält. I lång form kan det vara svårt att veta hur många fält som finns i formuläret och om du närmar dig gränsen.
+
+En räknare har lagts till i anpassade formulär längst ned till vänster. Räknaren visar hur många fält som används i formuläret och den visas alltid när du rullar i formulärdesignern.
+
+Mer information finns i [Designa ett formulär med formulärdesignern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Alternativet Markera alla är nu tillgängligt i layoutmallar
 

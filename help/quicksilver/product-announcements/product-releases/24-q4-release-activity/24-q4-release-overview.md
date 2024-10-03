@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2017'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 ## Adobe Workfront-förbättringar
 
 * [Administratörsförbättringar](#administrator-enhancements)
+* [Förbättrad dokumenthantering](#document-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Hemförbättringar](#home-enhancements)
 * [Projektförbättringar](#project-enhancements)
@@ -46,8 +47,8 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
 ### Administratörsförbättringar
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td>
                         <p><span class="bold">Releasedatum</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">En räknare i anpassade formulär visar antalet fält</a></p>
+                        <p>Anpassade formulär är begränsade till 500 fält. I lång form kan det vara svårt att veta hur många fält som finns i formuläret och om du närmar dig gränsen. En räknare har lagts till i anpassade formulär längst ned till vänster. Räknaren visar hur många fält som används i formuläret och den visas alltid när du rullar i formulärdesignern.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 1 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Förbättrad dokumenthantering
+
+>[!IMPORTANT]
+>
+>De funktioner som listas i **Förbättringar av dokumenthanteringen** ingår i en fasversion och är bara tillgängliga för specifika kunder.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Funktion</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Releasedatum</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Visa dokumentets beslutsstatus direkt i dokumentlistan</a></p>
+                        <p>Nu kan du visa ett dokuments beslutsstatus direkt i dokumentlistan.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Lägg snabbt till tidigare granskare och godkännare i nya dokumentversioner</a></p>
+                        <p>Nu kan du snabbt lägga till granskare och godkännare från tidigare dokumentversioner.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### Integration enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Hemförbättringar
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### Projektförbättringar
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Förbättringar av korrektur
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Korrigera problem med kopiera/klistra in för Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Vi har åtgärdat ett problem där innehåll klistras in felaktigt i uppdateringsavsnittet i Desktop Proofing Viewer.</p>
                         <p>Ny version: 2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Förbättringar av rapporter och kontrollpaneler
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     <td><p><b>Tillgängligt på följande datum:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</span></p>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
                             </li>
                         </ul>
                         <p><i>Endast tillgängligt för organisationer som har en av de nya Adobe Workfront-planerna. Data Connect ingår i Ultimate-planen eller kan köpas som tillägg till Prime- och Select-planerna.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Andra förbättringar
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Sammanfatta projekt eller uppdateringar med ett klick</a></p>
+                        <p>För att det ska bli enklare att snabbt se högdagrar i ett projekt eller en uppdateringsström har vi lagt till knapparna Sammanfatta i dessa delar av Workfront. Nu kan du klicka på knappen för att generera en sammanfattning i AI-assistenten.</p><p>Tidigare användare kunde öppna AI Assistant och skriva in en uppmaning om att skapa en sammanfattning av projektet eller uppdateringsströmmen.</p>
+                    </td>
+                    <td><p><b>Tillgängligt på följande datum:</b></p>
+                        <ul>
+                            <li>
+                                <p>Förhandsversion: 3 oktober 2024</p>
+                            </li>
+                            <li>
+                                <p>Produktionsrelease för alla kunder: Med version 24.10 (17 oktober 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Allmän tillgänglighet för Adobe Workfront Planning</a></p>
@@ -421,7 +510,7 @@ Den här sidan innehåller information om funktioner som ingår i den fjärde ut
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Funktioner som snart ska tas bort från Workfront
 
