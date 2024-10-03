@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '797'
 ht-degree: 0%
 
 ---
@@ -110,14 +110,16 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 ## Att tänka på när det gäller planeringsavsnittet för Workfront-objekt
 
-* Workfront Planning-posttyper måste vara anslutna till Workfront objekttyper.
+Tänk på följande när du visar Workfront Planning-poster från Planning-delen av ett Workfront-objekt:
+
+* Workfront Planning-posttyper måste först anslutas till Workfront-objekttyper.
 
   Mer information finns i följande artiklar:
 
    * [Koppla posttyper](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Koppla poster](/help/quicksilver/planning/records/connect-records.md)
-* Du kan visa Planning-avsnittet i ett Workfront-objekt, även när det inte finns några poster kopplade till Workfront-objektet.
-* Du kan koppla planeringsposter till Workfront-objekt från Workfront, i planeringsavsnittet, när det finns minst en post kopplad till Workfront-objektet.
+* Du kan visa Planning-avsnittet från ett Workfront-objekt, även när det inte finns några poster kopplade till Workfront-objektet.
+* Förutom att ansluta Workfront-objekt från Planning-området i Workfront kan du ansluta Planning-poster med Workfront-objekt från Workfront från Planning-delen.
 
 ## Hantera poster i planeringsavsnittet
 
@@ -132,11 +134,15 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 1. Klicka på namnet på ett Workfront-objekt i det anslutna postfältet.
 Objektets sida öppnas i Workfront.
 
+   >[!NOTE]
+   >
+   >  Om du känner till ett Workfront-objekt som redan är anslutet till en Planning-post kan du navigera till Planning-avsnittet från Workfront-objektet.
+
 1. Klicka på **Planering** i den vänstra panelen.
 
    >[!NOTE]
    >
-   >   Workfront- eller gruppadministratören måste lägga till planeringsavsnittet i layoutmallen innan den visas för ett Worfront-projekt, en portfölj eller ett program.
+   >   Workfront- eller gruppadministratören måste lägga till planeringsavsnittet i layoutmallen innan den visas för ett Workfront-projekt, en portfölj eller ett program.
 
    Planeringsavsnittet visas med följande information:
 
@@ -152,7 +158,7 @@ Objektets sida öppnas i Workfront.
 1. Klicka på ett postkort om du vill visa mer information om posten. Postens förhandsvisningsruta visas.
 1. (Valfritt) Börja ändra fält i postens förhandsvisningsruta. Ändringarna sparas automatiskt.
 1. (Valfritt) Klicka på ikonen **Öppna på en ny flik** ![](assets/open-details-in-a-new-tab-icon.png) i det övre högra hörnet av förhandsvisningsrutan för att öppna postens informationssida. Postens informationssida öppnas i Workfront Planning.
-1. Håll muspekaren över ett postkort, klicka på ikonen för att koppla från post **-** och klicka sedan på **Koppla från**.
+1. (Valfritt) Hovra över ett postkort, klicka på ikonen för att koppla från post **-** och klicka sedan på **Koppla från**.
 Följande saker händer:
    * Posten är inte längre ansluten till Workfront-objektet.
    * Workfront-objektet tas också bort från postens anslutna fält från Workfront Planning.

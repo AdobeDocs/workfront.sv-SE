@@ -9,9 +9,9 @@ role: User, Admin
 hide: true
 hidefromtoc: true
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Vi planerar inte att återställa möjligheten att utföra de här åtgärderna 
 
 ## Finns det några planer på att kombinera kommentarerna och systemuppdateringarna?
 
-Det finns för närvarande inga planer på att tillhandahålla en kombinerad vy. Lämna gärna feedback och användningsexempel via Lämna feedback-knappen i appen eller skicka in förfrågningar i communityområdet Workfront Ideas, så att vi bättre kan förstå hur funktionaliteten kräver.
+Det finns för närvarande inga planer på att tillhandahålla en kombinerad vy. Kontakta supportteamet om det behövs, så att vi bättre kan förstå vad som krävs för funktionen.
 
 ## Återställer du funktionen att ångra en publicerad kommentar?
 
@@ -40,11 +40,11 @@ Vi har ersatt funktionen att ångra en publicerad kommentar med möjlighet att r
 
 ## Begränsas funktionaliteten att ta bort tråddeltagare till specifika licenstyper?
 
-Det finns för närvarande inga planer på att lägga till behörigheter eller åtkomstkontroller för vem som kan använda den nya funktionen. Lämna gärna feedback och användningsexempel via Lämna feedback-knappen i appen eller skicka in förfrågningar i communityområdet Workfront Ideas så att vi bättre kan förstå hur viktig den här funktionen är.
+Det finns för närvarande inga planer på att lägga till behörigheter eller åtkomstkontroller för vem som kan använda den nya funktionen. Kontakta supportteamet om det behövs så att vi bättre kan förstå hur viktig den här funktionen är.
 
 ## Finns det något sätt att styra vem som kan redigera kommentarer?
 
-Det finns för närvarande inga planer på att lägga till behörigheter eller åtkomstkontroller för vem som kan redigera kommentarer. Lämna gärna feedback och användningsexempel via Lämna feedback-knappen i appen eller skicka in förfrågningar i communityområdet Workfront Ideas så att vi bättre kan förstå hur viktig den här funktionen är.
+Det finns för närvarande inga planer på att lägga till behörigheter eller åtkomstkontroller för vem som kan redigera kommentarer. Kontakta supportteamet om det behövs så att vi bättre kan förstå hur viktig den här funktionen är.
 
 ## Går det att söka efter eller filtrera kommentarer?
 

@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
-
 
 # Översikt över anslutna poster
 
@@ -30,9 +30,9 @@ Mer information om hur du kan ansluta poster till varandra eller till ett annat 
 * Du kan bläddra bland och lägga till poster och objekt för den länkade posten och objekttyperna från de länkade postfälten.
 * Du kan lägga till fält (sökfält) för de länkade posttyperna i tabellen med den posttyp som du länkar från.
 
-  Du kan lägga till fält (uppslagsfält) för de posttyper som du länkar från i tabellen med den posttyp som du länkar till.
+  Du kan också lägga till fält (uppslagsfält) för de posttyper som du länkar från i tabellen med den posttyp som du länkar till.
 
-  Om du till exempel länkar posttypen för Produkt från posttypen för Campaign kan du visa produktfält för kampanjer samt kampanjfält för Produkter.
+  Om du till exempel länkar posttypen för Produkt från posttypen för Campaign kan du visa produktfält för kampanjer samt kampanjfält för produkter.
 * Du kan inte uppdatera värdena för uppslagsfält manuellt på de poster som du länkar från.
 
   Värdena för sökfälten fyller i den Workfront Planning-post som du länkar från automatiskt när de har uppdaterats på den ursprungliga posten eller objektet.
@@ -54,4 +54,3 @@ Du kan koppla poster till andra poster eller till objekt från andra program i f
 * Du kan koppla Workfront-objekt till Workfront Planning-poster i följande områden:
 
    * Under Planning för ett Workfront-objekt.
-

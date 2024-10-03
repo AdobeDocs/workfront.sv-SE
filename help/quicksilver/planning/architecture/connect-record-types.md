@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2196'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-Du kan koppla posttyper till varandra eller posttyper med objekttyper från andra program.
+Du kan ansluta posttyper till varandra eller koppla posttyper med objekttyper från andra program.
 
 I den här artikeln beskrivs hur du kan koppla två typer av Workfront Planning-poster, eller en Workfront Planning-posttyp, till ett objekt från ett annat program.
 
@@ -183,7 +183,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 1. I fältet **Posttyp** söker du efter en posttyp eller väljer något av följande:
 
-   * En annan posttyp från den arbetsyta du valde
+   * En annan posttyp från den aktuella arbetsytan
 
      <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
@@ -198,7 +198,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      >[!TIP]
      >
-     >Om det inte finns några posttyper som har konfigurerats för att ansluta från en annan arbetsyta visas inte arbetsyteavsnittet.
+     >Om det inte finns några posttyper som har konfigurerats för att ansluta från andra arbetsytor visas inte arbetsyteavsnittet.
 
 
    * Ett **projekt, Portfolio, program, företag** eller **grupp** från avsnittet **Workfront-objekttyper**.
@@ -218,7 +218,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    >Du kan ha flera anslutningar till samma post eller objekttyp. Om du inte redigerar namnet på det anslutna fältet lägger Workfront till en siffra efter namnet på den anslutna posten för att ange antalet anslutna posttyper med samma namn.
 
    * **Beskrivning**: Ytterligare information om det anslutna postfältet. Beskrivningen av ett fält visas när du hovrar över fältets kolumn i en tabell.
-   * **Tillåt flera poster**: Välj det här alternativet om du vill ange att användare kan lägga till flera poster när fältet för den länkade posttypen visas på de ursprungliga posterna. Detta är markerat som standard.
+   * **Tillåt flera poster**: Välj det här alternativet om du vill ange att du tillåter användare att lägga till flera poster när fältet för den länkade posttypen visas på de ursprungliga posterna. Detta är markerat som standard.
 
      Det här alternativet är endast tillgängligt när du ansluter poster från två olika arbetsytor eller en post och ett Adobe Experience Manager-resursobjekt.
 
@@ -237,7 +237,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      Mer information om anslutningstyper finns i [Översikt över anslutna posttyper](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-   * **Välj uppslagsfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på den post som du vill använda. Detta är markerat som standard.
+   * **Välj uppslagsfält**: Välj det här alternativet om du vill lägga till fält från den valda posttypen. Uppslagsfälten är fält som är kopplade till den post eller objekttyp som du länkar till. När du länkar dem visas information från posten eller objektet som du länkar till på posten som du länkar från. Detta är markerat som standard.
 
      >[!TIP]
      >
@@ -305,7 +305,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    * Posterna grupperas efter varje unik kombination av fältvärden
 
-   * Tidslinjevyn byggs utifrån det första datumvärdet.
+   * Tidslinjevyn byggs utifrån det första datumvärdet
 
    >[!IMPORTANT]
    >
@@ -331,7 +331,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    >[!NOTE]
    >
-   >Du kan till exempel länka produktposten (den länkade posten) från Campaign-posten (den ursprungliga posten) och ge den namnet&quot;Produktfält&quot;. Du kan också välja att länka produktpostens budgetfält från kampanjposten och kalla det&quot;Produktbudget&quot;. Om du tillät att välja flera poster i produktfältet kan du välja Produkt 1 med en budget på 100 000 och Produkt 2 med en budget på 110 000 och Produkt 3 med en budget på 100 000 USD. Du kan visa följande budgetinformation i det länkade fältet från den ursprungliga posten, beroende på vilken aggregator du väljer:
+   >Du kan till exempel länka produktposten (länkad post) från Campaign-posten (ursprungsposten) och ge den namnet&quot;Produktfält&quot;. Du kan också välja att länka produktpostens budgetfält från kampanjposten och kalla det&quot;Produktbudget&quot;. Om du tillät att välja flera poster i fältet&quot;Produkt&quot; kan du välja Produkt 1 med en budget på 100 000 och Produkt 2 med en budget på 110 000 och Produkt 3 med en budget på 100 000 dollar. Du kan visa följande budgetinformation i det länkade fältet från den ursprungliga posten, beroende på vilken aggregator du väljer:
    >
    >* **Ingen**: $100 000, $110 000, $100 000
    >* **MAX**: 110 000 USD
@@ -353,11 +353,11 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
      `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-     Om du till exempel har länkat en kampanjposttyp med en programposttyp och namngett det programlänkade postfältet&quot;Programinformation&quot;, väljer du att även visa programmets budgetfält i kampanjens tabellvy, får det länkade fältet automatiskt namnet `Budget (from Program information)` i kampanjens tabellvy.
+     Om du t.ex. har länkat en kampanjposttyp med en programposttyp och namngett det programlänkade postfältet&quot;Programinformation&quot;, markerat för att även visa programmets budgetfält i kampanjens tabellvy, får det länkade fältet automatiskt namnet `Budget (from Program information)` i kampanjens tabellvy.
 
    * När du länkar posttyper till varandra läggs ett länkat postfält också till i den posttyp som du länkar till. Namnet på det länkade postfältet på den länkade posttypen är namnet på den posttyp som du länkar från.
 
-     Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet för Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
+     Om du t.ex. länkar posttypen &quot;Produkt&quot; från posttypen &quot;Kampanj&quot; och namnger det anslutna fältet i Campaign &quot;Länkad produkt&quot;, skapas ett &quot;Kampanjlänkat&quot; postfält för posttypen Produkt.
 
      >[!TIP]
      >
@@ -365,7 +365,7 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 1. (Valfritt och villkorligt) Klicka på nedåtpilen i rubriken för de länkade postfälten i den ursprungliga posttypen eller i tabellvyn för den länkade posttypen och klicka sedan på något av följande:
 
-   * **Redigera fält**: Du kan uppdatera informationen om fältet **Namn** och **Beskrivning**.
+   * **Redigera fält**: Uppdatera informationen för fältet **Namn** och **Beskrivning**.
    * **Redigera sökfält**: Lägg till eller ta bort fält för den länkade posten.
 
    ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)

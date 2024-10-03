@@ -9,9 +9,9 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,8 @@ ht-degree: 0%
 >Betaprogrammet för den nya kommentarsupplevelsen inleddes i april 2023 och avslutades i oktober 2023, med versionen från oktober 2023.
 >
 >Sedan 11 april 2024 har alla funktioner för den nya kommentarsfunktionen varit tillgängliga i produktionsmiljön för alla kunder.
+>
+> Tidigare kommentarer har tagits bort från Workfront.
 
 ## Funktioner
 
@@ -47,7 +49,7 @@ Bland förbättringarna i den nya kommentarsfunktionen finns följande:
 * Realtidsindikator när nya kommentarer läggs till i ett objekt
 * Redigera kommentarer när de har skickats
 
-Följande funktioner har tagits bort eller kommer att tas bort från den nya funktionen:
+Följande funktioner har tagits bort från den nya versionen:
 
 * Kommentera en systemuppdatering. Tidigare har kommentarer som lagts till i systemuppdateringar importerats som skrivskyddade kommentarer på den nya fliken Systemaktivitet.
 * Möjlighet att redigera status, villkor, datum för genomförande och Procent färdigt när du kommenterar uppgifter och ärenden.
@@ -81,17 +83,14 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
   <tr>
    <td><strong>Funktion </strong>
    </td>
-   <td><strong>Finns i den gamla kommentarsfunktionen </strong>
+   <td><strong>Befintlig i gammal kommentarsfunktion </strong>
    </td>
    <td><strong>Finns i den nya kommentarsfunktionen </strong>
    </td>
-   <td><strong>Kommer att introduceras i den nya kommentarsfunktionen </strong>
+
+<td><strong>Introducerades i den nya kommentarsfunktionen </strong>
    </td>
-   <td><strong>När introduceras i den nya kommentarsfunktionen </strong>
-   </td>
-   <td><strong>Forskning </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Skapa/läsa/svara/ta bort kommentarer 
    </td>
@@ -99,13 +98,11 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>RTF (exklusive citat och känslolägesikoner)
    </td>
@@ -113,12 +110,10 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>RTF (blockcitattecken)
@@ -143,13 +135,10 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> 2 kv 2023
    </td>
-   <td> 2 kv 2023
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> Citatkommentarer
@@ -158,13 +147,10 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> 2 kv 2023
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Reagera på kommentarer (Gilla) 
    </td>
@@ -174,11 +160,8 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Bifoga bilder till kommentarer 
    </td>
@@ -186,13 +169,10 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Tagga personer i kommentarer 
    </td>
@@ -202,11 +182,8 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>Ta bort kopplade deltagare
    </td>
@@ -216,23 +193,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>Tagga automatiskt alla tråddeltagare
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Ångra publicering av en kommentar 
@@ -259,11 +222,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>Ersatt med redigeringskommentar 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Redigera kommentarer 
    </td>
@@ -289,11 +244,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Spara kommentarutkast när du navigerar bort från sidan 
    </td>
@@ -303,21 +254,13 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Se nya kommentarer i realtid (inklusive när en kommentar tas bort)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Kopiera trådlänk 
@@ -343,11 +282,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> Ersatt med länken Kopiera
    </td>
-   <td> 
-   </td>
    <td>2 kv 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Citattext 
    </td>
@@ -371,13 +302,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>2 kv 2023 
    </td>
-   <td>2 kv 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Kopiera brödtext 
    </td>
@@ -385,13 +312,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Sök i kommentarer 
    </td>
@@ -399,13 +322,10 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1 kv 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>Kopiera och klistra in bilder i en kommentar
@@ -414,13 +334,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1 kv 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Dra och släpp bilder i en kommentar
@@ -429,22 +345,14 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>1 kv 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Redigera eget formulär 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Svara på systemuppdateringar 
@@ -472,11 +376,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
    </td>
    <td> ✓
    </td>
-   <td> Kan släppas vid ett senare datum
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ Följande tabell visar vilka funktioner som kommer att vara tillgängliga i den 
 >Mer information om hur du hanterar uppdateringar för Workfront-objekt finns i [Uppdatera arbete](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-Nedan följer en planerad tidslinje med viktiga milstolpar för lanseringen av den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar.
+I följande information beskrivs tidslinjen med viktiga milstolpar för den nya kommentarsfunktionen i produktionsmiljön. Förutom milstolparna nedan kommer vi att fortsätta att förbättra kommentarsupplevelsen med mindre förbättringar.
 
-Mer information om funktionerna som släppts för den nya kommentarsfunktionen efter att betaperioden stängts finns i den aktuella versionsöversikten.
+Mer information om funktionerna som släppts för den nya kommentarsfunktionen efter att betaperioden stängts finns i den aktuella versionsöversikten. Mer information finns i [Produktreleaser](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 Här följer en planerad tidslinje för den nya kommentarsfunktionen:
 
 * Med version 23.2 (6 april 2023):
-   * Starta kommenteringsfunktionen i Beta
-   * Släpp den nya kommentarsfunktionen för mål (som den enda upplevelsen)
+   * Kommentarsupplevelsen som Beta ger upphov till i frågor
+   * Frisläppt den nya kommentarsfunktionen för mål (som den enda upplevelsen)
 * Med version 23.3 (20 juli 2023):
-   * Öppna kommenteringsfunktionen i Beta för projekt, uppgifter och dokument.
-   * Släpp den nya kommentarsfunktionen för kort i boardvyn (som den enda upplevelsen)
+   * Kommentarsupplevelsen i Beta för projekt, uppgifter och dokument har startats.
+   * Frisläppt den nya kommentarsupplevelsen för kort i kortområdet (som den enda upplevelsen)
 * Under den fjärde utgåvan av kvartal 2023 (begränsad utgåva, endast tillgänglig för kunder som väljer den snabba utgåvan):
-   * Släpp den nya kommentarsfunktionen för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
-   * Uppdatera kommentarfunktionerna i Beta för projekt, uppgifter, utgåvor och dokument så att de blir standardalternativet. &quot;Beta&quot;-etiketten har tagits bort.
+   * Frisläppt den nya kommentarsfunktionen för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen)
+   * Kommentarsupplevelsen i Beta för projekt, uppgifter, problem och dokument har uppdaterats så att den blir standardalternativet. &quot;Beta&quot;-etiketten har tagits bort.
 * Med den fjärde utgåvan för kvartal 2023 (23.10) (26 oktober 2023)
-   * Släpp den nya kommentarsfunktionen för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen) till alla kunder.
+   * Frisläppte den nya kommentarsfunktionen för mallar, malluppgifter, program, portfolior, team, användare och tidrapporter (som den enda upplevelsen) till alla kunder.
    * Gör den nya kommentarsfunktionen för projekt, uppgifter, utgåvor och dokument till standardalternativet.
 
   >[!IMPORTANT]
   >
-  >    Detta avslutar Beta-steget i den nya kommentarsfunktionen.
+  >    Detta avslutar Beta-steget i den nya kommenteringsupplevelsen.
 
-   * Gör alla funktioner som lanserats för den nya kommentarsupplevelsen från och med detta datum till en del av den aktuella vanliga månadsvisa och kvartalsvisa versionen.
+   * Alla funktioner som lanserats för den nya kommentarsupplevelsen börjar med den här datumdelen i den aktuella vanliga månadsvisa och kvartalsvisa versionen.
 * I slutet av 2023:
-   * Behåll den gamla kommentarsfunktionen som ett sekundärt alternativ för följande objekt: projekt, uppgifter, ärenden och dokument. Den nya kommentarsfunktionen är standardalternativet för alla användare för dessa objekt.
-   * Gör den nya kommentarsupplevelsen till den enda upplevelsen för alla andra objekt.
-
-  >[!NOTE]
-  >
-  >    Iterationer kommer även i fortsättningen att ha den gamla kommentarsfunktionen. Den nya kommentarfunktionen är inte tillgänglig för upprepningar.
+   * Behåll den gamla kommentarsfunktionen som ett sekundärt alternativ för följande objekt: projekt, uppgifter, utgåvor och dokument. Den nya kommentarsfunktionen är standardalternativet för alla användare för dessa objekt.
+   * De nya kommentarerna är den enda upplevelsen för alla andra objekt.
 
 * Med den andra utgåvan för kvartal 2024 (11 april 2024):
 
-  Ta bort alternativet att växla tillbaka till den gamla kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt.
+  Tog bort alternativet att växla tillbaka till den tidigare kommentarströmmen och göra den nya kommentarströmmen till den enda upplevelsen för alla objekt.
+
+* 3 oktober 2024:
+
+  Knappen Lämna feedback i uppdateringsområdet har tagits bort.
 
 ## Hitta den nya kommentarsfunktionen
 

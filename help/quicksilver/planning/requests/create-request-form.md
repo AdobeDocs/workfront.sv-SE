@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
+source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -146,17 +146,33 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än.
    * Alla fält som är associerade med posttypen.
 
-   Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
+     Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
 
 1. (Valfritt) Håll markören över fält i formuläret som du vill ta bort och klicka sedan på ikonen **x** för att ta bort dem. De läggs till på fliken **Fält** till vänster om formuläret.
 
    Ta till exempel bort fältet **Ämne** eftersom det inte visas i Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Klicka på ett fält och använd sedan kontrollerna till höger om formuläret för att definiera deras storlek, eller någon av följande information om fälten:
+1. Klicka på ett fält och använd sedan kontrollerna på den högra panelen i formuläret för att definiera deras storlek eller någon av följande information:
 
    * **Etikett**: Det här är namnet på fältet som det kommer att visas i begärandeformuläret. Detta ändrar inte postfältets namn.
    * **Instruktioner**: Lägg till mer information om fältet.
    * **Gör ett obligatoriskt fält**: När du väljer det här alternativet måste fältet ha ett värde. Annars kan formuläret inte skickas.
    * **Lägg till logik**: Definiera vilka villkor som måste uppfyllas för att fältet ska kunna visas eller döljas.
+
+   Fälttypen för varje fält visas längst upp på den högra panelen när du har valt fältet i formuläret. Namnen på fälttyperna i begärandeformuläret skiljer sig från namnen i tabellvyn. I följande tabell beskrivs skillnaderna mellan namnen på fälttyperna i tabellvyn och namnen på samma fält i posttypens frågeformulär:
+
+   | Workfront Planning, fälttyp | Formulärfälttyp för begäran |
+   |-------------------------------|-------------------------|
+   | Enkelradig text | Enkelradig text |
+   | Stycke | Text med formatering |
+   | Valuta, tal, procent | Enkelradig text |
+   | Enkelval | Listruta med ett val |
+   | Flera val | Listruta för flera val |
+   | Kryssruta | Kryssrutegrupp |
+
+   >[!NOTE]
+   >
+   >   Fältens format bevaras. Även om Valuta och Procent visas som enkelradiga textfält visas informationen i fälten som valuta och som ett procentvärde.
+
 
 1. (Valfritt) Klicka på fliken **Innehållselement** till vänster i formuläret och lägg till något av följande element:
 
