@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -62,8 +62,10 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Ange ett namn för paketet i fältet **Paketnamn**.
 1. Ange en beskrivning för det här paketet i fältet **Beskrivning**.
-1. Om du vill lägga till ett objekt i paketet klickar du på **Lägg till objekt** i den vänstra navigeringen och väljer den typ av objekt som du vill lägga till.
-1. Markera ett eller flera objekt i listan eller skriv namnet i sökfältet och markera objektet när det visas i listan. Du kan markera mer än ett objekt i listan.
+1. Om du vill lägga till ett objekt i paketet väljer du den typ av objekt som du vill lägga till i den vänstra navigeringen.
+1. Markera ett eller flera objekt i listan som visas, eller skriv namnet i sökfältet och markera objektet när det visas i listan. Du kan markera mer än ett objekt i listan.
+
+   Listan innehåller upp till 500 objekt av den valda objekttypen. Om du vill söka efter ett objekt som inte finns med i listan använder du sökfältet.
 1. Klicka på **Lägg till (X-objekt)** för att lägga till de markerade objekten i paketet.
 
    >[!INFO]
