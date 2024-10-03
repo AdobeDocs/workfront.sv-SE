@@ -9,9 +9,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
+source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -58,12 +58,12 @@ Fusion AI kan för närvarande generera moduler som ansluter till följande prog
 
    Klicka på ikonen Generera med AI ![Generera med AI](assets/generate-with-ai-icon-beta.png) längst ned på sidan för scenarieredigering.
 
-   AI Assistant-panelen öppnas.
+   AI-assistentpanelen öppnas.
 1. Skriv en textruta i rutan.
 
    Tips om uppmaningar finns i [Tips om hur du skapar textmeddelanden](#tips-for-creating-text-prompts) i den här artikeln.
 
-   Modulen eller uppsättningen moduler genereras.
+   AI Assistant genererar modulen eller moduluppsättningen.
 1. (Villkorligt) Lägg till API-token för programmet i modulerna om det behövs.
 1. Kontrollera modulerna för att se till att de är konfigurerade för rätt program och åtgärd.
 1. (Villkorligt) Om det genererade scenarioavsnittet inte är kopplat till ditt scenario drar du det till rätt plats.
