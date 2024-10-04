@@ -2,23 +2,29 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Visa ett scenarios körningshistorik i Adobe Workfront Fusion
+title: Visa ett scenario i Adobe Workfront Fusion
 description: Du kan visa information om alla körningar för ett scenario eller söka efter specifika data i alla körningar i scenariot.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
-# Visa ett scenarios körningshistorik i [!DNL Adobe Workfront Fusion]
+# Visa ett scenario i [!DNL Adobe Workfront Fusion]
 
-Du kan visa information om alla körningar för ett scenario eller söka efter specifika data i alla körningar i scenariot.
+Du kan visa information om händelser eller körningar i ett scenario eller söka efter specifika data i alla körningar i scenariot.
 
-Ett scenario körningshistorik visar alla körningar i ett scenario under de senaste 30 dagarna.
+En scenariokörning representerar en enda körning av scenariot.
+
+En scenariohändelse är en ändring av scenariot, till exempel redigering, aktivering eller inaktivering.
+
+>[!NOTE]
+>
+>Ett scenario historik visar alla händelser och körningar i ett scenario de senaste 30 dagarna.
 
 ## Åtkomstkrav
 
@@ -59,9 +65,9 @@ Kontakta [!DNL Workfront]-administratören om du vill ta reda på vilken plan, l
 
 Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe Workfront Fusion] licenser](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Visa alla körningar av ett scenario
+## Visa scenariohistorik
 
-### Visa historik för scenariokörning på sidan [!UICONTROL Scenario Detail]
+### Visa scenariohistorik på sidan [!UICONTROL Scenario Detail]
 
 1. Klicka på fliken **[!UICONTROL Scenario]** i den vänstra panelen och klicka sedan på scenariot.
 
@@ -69,9 +75,7 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
 
    Om du arbetar med scenariot i scenarioredigeraren klickar du på vänsterpilen ![](assets/exit-editing-arrow.png) i fönstrets övre vänstra hörn.
 
-1. Visa informationen i listan till höger.
-
-   Du kan också klicka för att se en helsidesvy av den här informationen. I helsidesvyn kan du filtrera historiken för att visa specifika körningar.
+1. Visa körningshistoriken på fliken **Historik** på panelen till höger.
 
    Följande information visas för varje körning av scenariot:
 
@@ -80,13 +84,16 @@ Mer information om [!DNL Adobe Workfront Fusion] licenser finns i [[!DNL Adobe W
    * Kör **[!UICONTROL Duration]**
    * Antal **[!UICONTROL Operations]**
    * Storlek på **[!UICONTROL Data Transfer]**
-   * Länka till **[!UICONTROL Details]**
 
->[!NOTE]
->
->Scenhistoriken visar ett **Bearbetningsemblem** bredvid scenarier som nyligen har körts, medan körningsinformationen skrivs till lagringen. Bearbetningen sker omedelbart efter att scenariot har körts. och bör inte vara längre än några minuter. Detaljer om scenariokörningen kanske inte visas när körningen bearbetas.
+   >[!NOTE]
+   >
+   >Scenhistoriken visar ett **Bearbetningsemblem** bredvid scenarier som nyligen har körts, medan körningsinformationen skrivs till lagringen. Bearbetningen sker omedelbart efter att scenariot har körts. och bör inte vara längre än några minuter. Detaljer om scenariokörningen kanske inte visas när körningen bearbetas.
 
-### Visa historik för scenariokörning på fliken [!UICONTROL History]
+1. Om du vill visa information om en viss scenariokörning klickar du på den körningen på den högra panelen.
+1. Om du vill visa händelser klickar du på fliken **Händelser** i panelen till höger.
+
+
+### Visa scenariohistorik på fliken [!UICONTROL History]
 
 Fliken [!UICONTROL History] visar fler detaljer än vad som är tillgängligt på sidan [!UICONTROL Scenario detail]. Du kan även filtrera och sortera körningarna på fliken [!UICONTROL History].
 
@@ -97,7 +104,7 @@ Fliken [!UICONTROL History] visar fler detaljer än vad som är tillgängligt p�
    Om du arbetar med scenariot i scenarioredigeraren klickar du på vänsterpilen ![](assets/exit-editing-arrow.png) i fönstrets övre vänstra hörn.
 
 1. Klicka på fliken **[!UICONTROL History]** i sidans övre vänstra hörn
-1. (Valfritt) Klicka på länken **[!UICONTROL Details]** om du vill ha detaljerad information om en vald scenariokörning, inklusive vilka paket som har bearbetats.
+1. (Valfritt) Om du vill ha detaljerad information om en vald scenariokörning, inklusive vilka paket som bearbetades, klickar du på knappen **[!UICONTROL Details]** på raden för den körningen.
 
    Mer information om att bearbeta paket finns i [Körningsflöde för scenarier i [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -106,6 +113,8 @@ Fliken [!UICONTROL History] visar fler detaljer än vad som är tillgängligt p�
    >* Länken [!UICONTROL details] är bara synlig om körningen har tillgängliga detaljer.
    >
    >* Scenhistoriken visar ett **Bearbetningshistorik** bredvid scenarier som nyligen har körts, medan körningsinformationen skrivs till lagringen. Bearbetningen sker omedelbart efter att scenariot har körts. och bör inte vara längre än några minuter. Detaljer om scenariokörningen kanske inte visas när körningen bearbetas.
+
+1. Aktivera växlingsknappen **Visa händelser** om du vill visa händelser.
 
 ## Filtrera historiken för scenariokörning
 
@@ -128,13 +137,7 @@ Du kan sortera körningshistoriken för scenarier.
 
 ## Sök i alla körningar av ett scenario
 
-1. Klicka på ikonen **[!UICONTROL Scenario]** ![](assets/scenarios-icon.png) i den vänstra panelen och klicka sedan på scenariot.
-
-   eller
-
-   Om du arbetar med scenariot i scenarioredigeraren klickar du på vänsterpilen ![](assets/exit-editing-arrow.png) i fönstrets övre vänstra hörn.
-
-1. Klicka på fliken **[!UICONTROL History]** i skärmens övre vänstra hörn.
+1. Öppna helsideshistoriken för ett scenario enligt beskrivningen i [Visa historik för scenariokörning på fliken [!UICONTROL History] ](#view-scenario-execution-history-on-the-history-tab) i den här artikeln.
 1. Klicka på **[!UICONTROL Fulltext search]** högst upp i listan över körningar.
 
    eller
