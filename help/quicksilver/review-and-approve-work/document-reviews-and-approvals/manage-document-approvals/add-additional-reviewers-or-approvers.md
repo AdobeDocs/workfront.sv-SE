@@ -6,9 +6,9 @@ description: Du kan lägga till ytterligare godkännare eller granskare i ett do
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -75,6 +75,10 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 1. Bläddra ned till avsnittet **Godkännanden** i rutan Dokumentsammanfattning, där alla befintliga godkännare och granskare listas. Om du vill lägga till en godkännare markerar du kryssrutan **Godkännare** och börjar sedan skriva i textrutan **Granskare**. Du kan lägga till Workfront-användare eller -team efter namn. Om du vill lägga till en granskare i stället avmarkerar du kryssrutan **Godkännare** innan du skriver.
 
 1. Upprepa föregående steg om du vill lägga till ytterligare godkännare eller granskare.
+
+## Lägga till fler granskningar och godkännare från en tidigare version
+
+Om du behöver godkänna en ny dokumentversion kan du enkelt lägga till
 
 <!--
 ## Add additional approvers or reviewers from Home

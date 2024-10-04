@@ -5,13 +5,13 @@ title: Använd godkännanden och korrektur av nya dokument tillsammans
 description: Du kan använda godkännanden av nya dokument med korrektur.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 8dc9df69bbce86f141ac451381fcc41a112ca0bc
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
+source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
-
 
 # Använd godkännanden och korrektur av nya dokument tillsammans
 
@@ -85,9 +85,9 @@ Lägga till en ny version:
 
 1. (Valfritt) Ange en tidsgräns för godkännandet. Användare och team meddelas via e-post 72 timmar, sedan 24 timmar före den angivna tidsgränsen.
 
-1. Om du vill lägga till en godkännare klickar du på knappen Godkännare och börjar skriva in ett användar- eller teamnamn.
+1. Om du vill lägga till en godkännare klickar du på knappen Godkännare och börjar skriva in ett användar- eller teamnamn, <span class="preview"> eller väljer en godkännare från den tidigare versionen.</span>
 
-1. Om du vill lägga till en granskare klickar du på knappen Granskare och börjar skriva in ett användar- eller teamnamn.
+1. Om du vill lägga till en granskare klickar du på knappen Granskare och börjar skriva in ett användar- eller teamnamn, <span class="preview"> eller väljer en granskare från den tidigare versionen. </span>
 
    ![](assets/add-approvers.png)
 
@@ -125,4 +125,3 @@ Så här granskar och godkänner du ett dokument:
    * **Behöver arbete**: Dokumentet behöver ändras och är inte klart att användas. När de angivna ändringarna har gjorts måste dokumentet överföras som en ny version och gå igenom en ny godkännandeomgång. Mer information om hur du överför en ny version finns i [Skapa en ny version efter behov](#create-a-new-version-as-needed) i den här artikeln.
 
 När du har fattat ett beslut meddelas dokumentägaren via e-post.
-
