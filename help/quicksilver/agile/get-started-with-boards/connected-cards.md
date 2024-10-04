@@ -6,9 +6,9 @@ description: Du kan lägga till ett kort på din anslagstavla som är kopplat ti
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
+source-git-commit: f8feca57e039e34c320f2b967c58c5fc0862f665
 workflow-type: tm+mt
-source-wordcount: '1362'
+source-wordcount: '1381'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ När någon av följande uppgifter uppdateras för kortet på en plats uppdatera
 * [!UICONTROL Subtasks]
 * [!UICONTROL Documents]
 
-Om du vill synkronisera anslutna kort med Workfront klickar du på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid kortnamnet och väljer **[!UICONTROL Sync connected items]**.
+Om du vill synkronisera anslutna kort med Workfront klickar du på **[!UICONTROL More]**-menyn ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) bredvid kortnamnet och väljer **[!UICONTROL Sync connected items]**. Arkiverade kort synkroniseras inte med Workfront-uppgifter och -problem. Om du återställer ett kort synkroniseras det igen.
 
 >[!NOTE]
 >

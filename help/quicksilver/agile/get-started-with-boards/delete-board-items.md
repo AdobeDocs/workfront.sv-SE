@@ -6,9 +6,9 @@ description: När du tar bort ett kort från en anslagstavla tas det bort perman
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '490'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Om du tar bort ett anslutet kort från en dynamisk anslagstavla visas det igen n
 När du tar bort ett anslutet kort från en annan korttyp som har en inloppskolonn, visas kortet igen i inloppskolonnen när du uppdaterar kortet om den anslutna aktiviteten eller utdraget inte har markerats som slutfört än. Mer information om inloppskolumner finns i [Lägga till en inloppskolumn på en anslagstavla](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 När du arkiverar ett kort skickas det till arkivet och du kan återställa det till styrelsen senare.
+
+Arkiverade kort synkroniseras inte med Workfront-uppgifter och -problem. Om du återställer ett kort synkroniseras det igen.
 
 ## Åtkomstkrav
 
@@ -71,7 +73,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 1. Om du vill återställa ett arkiverat kort klickar du på **[!UICONTROL More]**-menyn ![Mer-menyn](assets/more-icon-spectrum.png) på kortet och väljer **[!UICONTROL Restore]**.
 
-## Filtrera en anslagstavla för att visa arkiverade kort {#filter-a-board-to-show-archived-cards}
+## Filtrera en anslagstavla för att visa arkiverade kort
 
 Som standard visas bara aktiva kort på en anslagstavla. Du kan filtrera anslagstavlan så att även arkiverade kort visas.
 
