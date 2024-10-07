@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '5804'
+source-wordcount: '6020'
 ht-degree: 0%
 
 ---
@@ -744,7 +744,7 @@ Visa en lista över de [!DNL Workfront] objekttyper som du kan använda den här
 
 +++ **[!UICONTROL Upload Document]**
 
-Den här åtgärdsmodulen överför ett dokument till ett [!DNL Workfront]-objekt, till exempel ett projekt, en uppgift eller ett problem.
+Den här åtgärdsmodulen överför ett dokument till ett [!DNL Workfront]-objekt, till exempel ett projekt, en uppgift eller ett problem. Den här modulen överför dokumentet i segment, vilket gör överföringsprocessen smidigare för Workfront.
 
 Du anger platsen för dokumentet, filen som du vill överföra och ett valfritt nytt namn för filen.
 
@@ -767,6 +767,51 @@ När du konfigurerar den här modulen visas följande fält.
   <tr> 
    <td>[!UICONTROL Related Record Type]</td> 
    <td>Välj den typ av [!DNL Workfront]-post där du vill att modulen ska överföra dokumentet.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Beroende på vilken typ av relaterad post det är kan du behöva ange eller mappa ett mapp-ID.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Välj en källfil från en tidigare modul eller mappa källfilens namn och data.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Visa en lista över de [!DNL Workfront] objekttyper som du kan använda den här modulen för i [[!DNL Workfront] objekttyper som är tillgängliga för varje  [!DNL Workfront] modul](#workfront-object-types-available-for-each-workfront-module).
+
++++
+
++++ **[!UICONTROL Upload Document (Legacy)]**
+
+Den här åtgärdsmodulen överför ett dokument till ett [!DNL Workfront]-objekt, till exempel ett projekt, en uppgift eller ett problem. Hela dokumentet överförs samtidigt.
+
+Du anger platsen för dokumentet, filen som du vill överföra och ett valfritt nytt namn för filen.
+
+Modulen returnerar ID:t för dokumentet och eventuella associerade fält, tillsammans med eventuella anpassade fält och värden som anslutningen har åtkomst till. Du kan mappa den här informationen i efterföljande moduler i scenariot.
+
+När du konfigurerar den här modulen visas följande fält.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Instruktioner om hur du ansluter din [!DNL Workfront]-app till [!DNL Workfront Fusion] finns i <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Ansluta [!DNL Workfront] till [!DNL Workfront Fusion]</a> i den här artikeln.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Related Record ID]</td> 
+   <td>Ange det unika [!DNL Workfront]-ID:t för den post som du vill överföra dokumentet till.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Related Record Type]</td> 
+   <td>Välj den typ av [!DNL Workfront]-post där du vill att modulen ska överföra dokumentet.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Beroende på vilken typ av relaterad post det är kan du behöva ange eller mappa ett mapp-ID.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
