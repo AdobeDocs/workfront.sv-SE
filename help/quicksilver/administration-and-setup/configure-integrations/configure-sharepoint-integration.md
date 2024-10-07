@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1656'
+source-wordcount: '1689'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Den nya [!DNL SharePoint]-integreringen släpptes till produktion med version 22.3 (juli 2022.) Även om dina användare fortfarande kan komma åt dokument som är länkade via den äldre [!DNL SharePoint]-integreringen, måste de använda den nya [!DNL SharePoint]-integreringen för att länka dokument från SharePoint.
+>Den nya [!DNL SharePoint]-integreringen släpptes till produktion med version 22.3 (juli 2022.)
+>
+>* Dina användare kan fortfarande komma åt dokument som är länkade via den äldre [!DNL SharePoint]-integreringen, men de kan inte länka dokument genom den. de måste använda den nya [!DNL SharePoint]-integreringen för att länka dokument från SharePoint.
+>
+>* Om du inte har konfigurerat någon äldre SharePoint-integrering kan du inte lägga till den. Du måste använda den nya SharePoint-integreringen för att länka dokument till SharePoint.
 >
 >* Den nya SharePoint-integreringen kanske inte kräver konfigurering av en administratör och kan konfigureras av enskilda användare. För att övergången till den nya SharePoint-integreringen ska bli så smidig som möjligt måste Workfront-administratören göra några smärre ändringar i Workfront Setup-området.
 >

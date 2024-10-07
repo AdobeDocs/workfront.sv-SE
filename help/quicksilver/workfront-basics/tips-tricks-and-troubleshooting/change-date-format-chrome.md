@@ -6,7 +6,7 @@ title: Ändra format för datum i  [!DNL Adobe Workfront]
 description: Om du vill ändra datumformatet för datumen i [!DNL Adobe Workfront] måste du ändra språkinställningarna i webbläsaren.
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Du kan ändra datumformat i Workfront på följande sätt, beroende på vilka ä
   Om standardspråket i webbläsaren till exempel är *[!UICONTROL English (United States)]* visas datumen i följande format:
 
    * MM/DD/ÅÅÅ
-   * Mån DD, ÅÅÅ
+   * DD månad, ÅÅÅÅ
 
   Om du vill ändra språkinställningarna i [!DNL Chrome] eller någon annan webbläsare måste du ändra inställningarna för den webbläsaren. Stegen för att ändra en webbläsares inställningar varierar från webbläsare till webbläsare. Gå till [!UICONTROL Help], [!UICONTROL Preferences] eller [!UICONTROL Settings] i din webbläsare och lär dig hur du ändrar inställningarna.
 

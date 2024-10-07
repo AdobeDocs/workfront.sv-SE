@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
+source-wordcount: '3485'
 ht-degree: 0%
 
 ---
 
 # Konfigurerbar åtkomst till funktioner för varje objekttyp
 
-I den här artikeln förklaras vad du kan tillåta som Adobe Workfront-administratör för varje objekttyp, på varje åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av åtkomstnivå.
+När du konfigurerar en åtkomstnivå för din organisation kan du avgöra vilka specifika åtgärder som är tillgängliga för åtkomstnivån.
+
+I den här artikeln förklaras vilka alternativ en Adobe Workfront-administratör kan välja för varje objekttyp, på varje åtkomstnivå. Det förklarar också vilken standardkonfiguration som används för varje typ av åtkomstnivå.
+
+Om en Workfront-administratör till exempel väljer Visa för projekt på en viss åtkomstnivå kan användare med den åtkomstnivån bara visa projekt, inte redigera dem.
 
 Mer information om alla funktioner som är tillgängliga för en objekttyp på varje åtkomstnivå finns i [Tillgängliga funktioner för varje objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
