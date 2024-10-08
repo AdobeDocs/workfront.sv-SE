@@ -6,9 +6,9 @@ description: '[!UICONTROL Work List] i området [!UICONTROL Home] visar alla arb
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -94,6 +94,7 @@ Du kan filtrera objekt i [!UICONTROL Work List] om du bara vill visa vissa typer
         <p>Visar endast aktiviteter som är klara att startas. Båda följande programsatser måste vara sanna:</p> 
         <ul> 
          <li> <p>Aktiviteterna och deras föräldrar har inga föregående aktiviteter eller uppgiftsbegränsningar som hindrar dem från att arbeta.</p> </li> 
+         <li> <p>Alla föregående aktiviteter har slutförts.</p> </li> 
          <li> <p>[!UICONTROL Planned Start Date] av aktiviteterna har passerat eller upp till två veckor framåt.</p> </li> 
         </ul> 
        </div> </td> 

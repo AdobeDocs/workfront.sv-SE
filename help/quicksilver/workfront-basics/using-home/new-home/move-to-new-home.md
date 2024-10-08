@@ -5,9 +5,9 @@ title: Gå från äldre startsida till ny startsida
 description: Äldre startsida tas bort från Workfront den 10/17 med Q4-versionen. Den här artikeln innehåller information om vilka funktioner som kommer att vara tillgängliga i det nya hemmet samt rekommendationer om hur du flyttar användare till det nya hemmet.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 0%
 
 ---
@@ -271,6 +271,7 @@ Om du gör detta så snart som möjligt får användarna tid att anpassa sig til
 
 **Utbildning**
 
+* [Ta bort, lägga till och ordna om widgetar i självstudiekursen Hem](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Grundläggande om arbetare i Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
