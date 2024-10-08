@@ -6,14 +6,19 @@ description: Resurspooler är användarsamlingar som gör det enklare att hanter
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# Skapa resursgrupper
+# Skapa resursgrupper {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="Resursgrupper"
+>abstract="En resurspool är en samling användare som behövs samtidigt för att slutföra ett projekt. När du har skapat en resurspool kan du associera den med projekt och mallar."
 
 {{preview-and-fast-release-Q424}}
 
