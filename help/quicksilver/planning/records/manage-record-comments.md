@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '980'
 ht-degree: 0%
 
 ---
@@ -96,60 +96,6 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 +++
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
--->
-
 ## Att tänka på när du kommenterar en post
 
 * Du kan lägga till kommentarer och svar till poster i Workfront Planning, under Kommentarer i en post.
@@ -166,16 +112,11 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
 * Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får inga meddelanden i appen eller e-postmeddelanden om din uppdatering. <!--this might change??-->
 
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
+* Du kan tagga användare så att de uppmärksammas på en uppdatering. Taggade användare får ett meddelande i appen eller ett e-postmeddelande om din uppdatering.
 
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
+  >[!NOTE]
+  >
+  >   Endast användare från kunder som har gått med i Adobe Unified Experience får både ett meddelande i appen och ett e-postmeddelande. Information om hur du avgör om ditt företag använder Adobe Unified Experience finns i [Adobe Unified Experience för Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Du kan lägga till en uppdatering i poster och granska ändringshistoriken från följande områden i Workfront Planning:
 
@@ -211,54 +152,58 @@ Posttypssidan öppnas och alla poster av den typen visas.
 1. (Valfritt) Om du vill ångra eller göra om en ändring använder du följande kortkommandon:
    * CTRL + Z ( ⌘ + z för Mac) för att ångra en ändring
    * CTRL + Y ( ⌘+y för Mac) för att göra om en ändring
-1. (Valfritt) Lägg till **@** följt av namnet på en användare som ska tagga någon i uppdateringen.
+1. (Valfritt och villkorligt) Om din Workfront-instans är en del av Adobe Unified Experience lägger du till **@** följt av namnet på en användare som ska tagga någon i uppdateringen. Mer information finns i avsnittet [Att tänka på när du kommenterar en post](#considerations-about-commenting-on-a-record) i den här artikeln.
 
-   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet.
 
-1. (Valfritt) Använd alternativen i verktygsfältet RTF för att formatera texten, lägga till känslolägesikoner, länkar eller bilder till uppdateringen för att förbättra innehållet. Mer information finns i avsnittet&quot;Använd RTF i en Workfront-uppdatering&quot; i artikeln [Uppdateringsarbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Fortsätt lägga till kommentarer i posten.
 
-   >[!TIP]
-   >
-   >Om en annan användare skickar en kommentar till samma objekt som du uppdaterar finns det en röd linje med en ny indikator som informerar dig om de nyare kommentarerna.
-   >
-   >Indikatorn visas först när kommentaren har skickats för objektet, inte när kommentaren fortfarande är sammansatt.
-   >
-   >![](assets/new-line-indicator-comments.png)
+   Mer information om hur du uppdaterar objekt, inklusive Workfront Planning-poster, finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Klicka på **Skicka** för att lägga till uppdateringen till posten.
-1. (Valfritt) Om du vill redigera en kommentar klickar du på menyn **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och sedan på **Redigera**.
+<!--
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
+      >
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >
+      >![](assets/new-line-indicator-comments.png)
+
+1. Click **Submit** to add the update to the record. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
-   >Du kan bara redigera kommentaren inom 15 minuter från det att du skickat in den.
+   >You can edit your comment only within 15 minutes from submitting it.  
 
-1. Redigera informationen i kommentaren, lägg till eller ta bort bilder eller ta bort någon av de taggade användarna. En&quot;redigerad&quot; indikator läggs till till vänster om kommentaren.
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
+   
+      >[!TIP]
+      >
+      >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-   >[!TIP]
-   >
-   >Kommentarer från det aktuella året visar inte året i datumstämpeln. Om du hovrar över en tidsstämpel visas hela datumet, inklusive året.
-
-1. (Valfritt och villkorligt) Om du vill söka efter en befintlig kommentar börjar du skriva ett nyckelord i sökrutan i det övre högra hörnet av området **Kommentarer**.
+1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
 
    ![](assets/search-box-for-comments-area.png)
+     
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 
-1. (Valfritt) Klicka på **Svara** eller börja skriva en kommentar i området **Lägg till svar ...** för att svara på en befintlig kommentar och följ sedan steg 4-8 ovan. <!--(**************accurate??***********)-->
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
 
-1. (Villkorligt och valfritt) Om andra användare har lagt till kommentarer som visas utanför det synliga området i kommentarsavsnittet när du lade till dina kommentarer, klickar du på **Visa** i den **nya kommentarsbanderollen** längst ned på skärmen för att visa dessa kommentarer.
+    ![](assets/new-comments-banner-on-record.png)
 
-   ![](assets/new-comments-banner-on-record.png)
+    Additional comments display at the bottom of the screen.
+  
+1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
+1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
+1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
 
-   Ytterligare kommentarer visas längst ned på skärmen.
+    * **Copy link**: This copies a link to the comment to your clipboard.
+    * **Copy body text**: This copies the text of the comment to your clipboard.
+    * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-1. (Valfritt) Klicka på ikonen **Gilla** för att gilla en uppdatering eller bekräfta att du har läst den. Ikonen uppdateras med antalet gilla-markeringar.
-1. (Villkorligt och valfritt) Om du har tagit med ytterligare personer i kommentaren klickar du på avatarerna för de användare som ingår i uppdateringen för att visa en lista över de användare som kommentaren delas med.
-1. (Valfritt) Klicka på ikonen **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka på något av följande alternativ för att kopiera information från en kommentar:
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-   * **Kopiera länk**: Detta kopierar en länk till kommentaren till Urklipp.
-   * **Kopiera brödtext**: Detta kopierar texten i kommentaren till Urklipp.
-   * **Offertsvar**: Detta kopierar innehållet i din kommentar till ett nytt svar. Bilder inkluderas inte i det kopierade svaret.
-
-   Mer information finns i [Uppdatera arbete](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Valfritt) Klicka på ikonen **Mer** ![](assets/more-menu.png) i det övre högra hörnet av kommentaren och klicka sedan på **Ta bort** för att ta bort kommentaren.
 1. (Valfritt) Klicka på ikonen **Dölj kommentarer** ![](assets/hide-comments-icon.png) för att stänga den högra panelen.
 

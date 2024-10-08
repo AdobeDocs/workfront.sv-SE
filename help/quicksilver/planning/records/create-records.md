@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1512'
 ht-degree: 0%
 
 ---
@@ -23,13 +23,11 @@ I Adobe Workfront Planning är en post en instans av en posttyp.
 
 Du kan skapa poster genom att göra något av följande:
 
-* Lägga till poster från posttypsidan i tabellvyn
-* Kopiera och klistra in en lista med poster från en extern lista
-* Duplicera poster från en tabellvy
-* Skapa poster när du kopplar dem från andra poster
-* Skapa dem genom att skicka ett begärandeformulär till en posttyp
-
-I den här artikeln beskrivs hur du skapar poster.
+* [Lägga till poster från posttypsidan i tabellvyn](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Kopiera och klistra in en lista med poster från en extern lista](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Duplicera poster från en tabellvy](#create-records-by-duplicating-them)
+* [Skapa poster när du kopplar dem från andra poster](#create-records-as-you-connect-them)
+* [Skapa dem genom att skicka ett begärandeformulär till en posttyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 
 Mer information om hur du hanterar poster i tabell- och tidslinjevyer finns i följande artiklar:
 
@@ -106,62 +104,6 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 </table>
 
 *Mer information om Workfront åtkomstkrav finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
-
-<!--OLD info: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p>  
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
 
@@ -305,6 +247,15 @@ Så här skapar du poster när du kopplar dem från andra poster:
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Posten skapas och läggs till i det anslutna postfältet.
+
+   >[!IMPORTANT]
+   >
+   >* Du kan bara skapa projekt och portföljer i Workfront när du kopplar dem från en post.
+   >
+   >* Du kan inte skapa program, grupper eller företag när du kopplar dem från en post i Workfront Planning.
+   >
+   >* Du kan inte skapa ett projekt från en mall när du skapar projekt genom att koppla dem från en post. Du måste manuellt lägga till uppgifter och projektinformation eller en mall i det nya projektet när du har lagt till den i posten.
+
 1. (Valfritt) Gå till tabellvyn för den posttyp vars post du skapade. En ny post visas på den sista raden i vyn.
 1. (Valfritt) Börja lägga till information för den nya posten i tabellvyn
 eller

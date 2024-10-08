@@ -6,14 +6,16 @@ description: En timtyp är en etikett som du kan använda för att kategorisera 
 author: Alina
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 83827c24bd9157d2a4fb151e61c38cd6892a7c86
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1509'
 ht-degree: 0%
 
 ---
 
 # Definiera timtyper och tillgänglighet
+
+<!--Audited: 10/2024-->
 
 En timtyp är en etikett som du kan använda för att kategorisera tidsangivelser. Beroende på organisationens rapporteringskrav för timmar kan detta vara en viktig del av loggningstiden.
 
@@ -34,6 +36,8 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
 
 +++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
+Du måste ha följande åtkomst och behörigheter för att kunna utföra stegen som beskrivs i den här artikeln:
+
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -41,15 +45,17 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Planera eller högre</p> </td> 
+   <td> <p>Nytt: Standard</p> 
+   <p>Aktuell: Planera</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
    <td> <p>Systemadministratörsåtkomst för att definiera systemomfattande timtyper och för att redigera alla användare</p> </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill ta reda på vilken plan eller licenstyp du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,24 +78,32 @@ Systemadministratören avgör vilka projektspecifika timtyper som blir tillgäng
 Projektägaren avgör om alla timtyper som definieras på systemnivå är tillgängliga i projektet (och uppgifter och ärenden inom projektet) eller om bara en delmängd av dessa timtyper är tillgängliga.
 
 1. Gå till projektet där du vill fastställa tillgängligheten för timtyper.
-1. Klicka på menyn **Mer** bredvid aktivitetsnamnet och klicka sedan på **Redigera**.
+1. Klicka på menyn **Mer** bredvid projektnamnet i sidhuvudet och klicka sedan på **Redigera**.
+Rutan **Redigera projekt** öppnas.
 
-1. Klicka på **Redigera projekt**.
-1. Gå till alternativet **Filtertimtyper** i avsnittet **Inställningar**.
+1. Gå till inställningen **Filtertimtyper** i avsnittet **Projektinställningar**.
 
 1. Välj **Nej** om du vill göra alla projektspecifika timtyper tillgängliga i projektet.
 
    eller
 
-   Välj **Ja** om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i projektet. Välj sedan de timtyper som du vill göra tillgängliga. (Håll ned Skift om du vill markera flera timtyper.)
+   Välj **Ja** om du bara vill göra en delmängd av de projektspecifika timtyperna tillgängliga i projektet. Välj sedan de timtyper som du vill göra tillgängliga.
 
-   Om du väljer det här alternativet blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om uppgifter och problem i projektet). Om du väljer det här alternativet och inte väljer några timtyper visas endast allmänna timtyper.
+   Håll ned Skift om du vill markera flera timtyper.
 
-   Samma val måste göras på den enskilda användarnivån för att användaren ska kunna se dessa alternativ för timtyper i projektet.
+   >[!NOTE]
+   >
+   >   Tänk på följande:
+   >   
+   >   * Om du väljer **Ja** blir endast de timtyper som du väljer tillgängliga när du loggar timmar i projektet (eller om aktiviteter och problem i projektet).
+   >   
+   >   * Om du väljer **Ja** och inte väljer några timtyper visas endast allmänna timtyper.
+   >
+   >   * Samma val måste göras på den enskilda användarnivån för att användaren ska kunna se dessa alternativ för timtyper i projektet.
+   >
+   >   * När användarens standardtimtyp och ett projekt av typen Filtrerad timtyp matchar, väljs timtypen som standard vid loggningstid.
 
-   När användarens standardtimtyp och en projekts filtrerade timtyp matchar, väljs timtypen som standard vid loggningstid.
-
-1. Klicka på **Spara ändringar**.
+1. Klicka på **Spara**.
 
 ## Definiera tillgänglighet på användarnivå
 
@@ -99,12 +113,21 @@ Om du gör en timtyp tillgänglig på användarnivå enligt beskrivningen i det 
 
 Så här definierar du de timtyper som är tillgängliga för en användare:
 
-1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront.
+1. Klicka på ikonen **Huvudmeny** ![](assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront och klicka sedan på din avatar i det övre vänstra hörnet
 
-1. Klicka på din avatar i det övre vänstra hörnet.
+   eller
+
+   Klicka på ikonen **Huvudmeny** ![](assets/adobe-main-menu.png) i det övre högra hörnet, om den är tillgänglig, och klicka sedan på **Workfront-profil**.
+
 1. Klicka på menyn **Mer** bredvid användarnamnet och klicka sedan på **Redigera**.
 
-1. Endast en systemadministratör kan redigera andra användare. Om du har en planlicens kan du redigera timtyperna i din egen profil.
+   Rutan **Redigera person** öppnas.
+
+   >[!IMPORTANT]
+   >
+   >Endast en systemadministratör kan redigera andra användare. Om du har en planlicens kan du redigera timtyperna i din egen profil.
+
+
 1. I avsnittet **Resursplanering** gör du något av följande i listrutan **Tillgängliga timtyper**, beroende på vilka timtyper du vill göra tillgängliga när du loggar tid för ett projekt, en uppgift eller ett problem:
 
    * **Gör alla timtyper tillgängliga för användaren:** Markera alla timtyper.\
@@ -119,8 +142,7 @@ Så här definierar du de timtyper som är tillgängliga för en användare:
 
 1. Klicka på **Spara ändringar**.
 
-   När du loggar timmar i ett projekt, en uppgift eller ett ärende är de timtyper du väljer tillgängliga om samma timtyper har gjorts tillgängliga på projektnivå.
-
+   När du loggar timmar i ett projekt, en uppgift eller ett ärende blir de timtyper du väljer tillgängliga om samma timtyper har gjorts tillgängliga på projektnivå.
 
 ## Hur timtyper på användarnivå och projektnivå fungerar tillsammans
 

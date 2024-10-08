@@ -7,9 +7,9 @@ description: I uppdateringsavsnittet för ett objekt visas kommentarer som anvä
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1088'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,12 @@ Följande objekt har ett uppdateringsavsnitt där du kan lägga till kommentarer
 * Tidrapporter
 * Team
 * Mål
-* Kort i området Varv
 * Iterationer
+
+Följande objekt har områden där du kan lägga till kommentarer och granska systemuppdateringar:
+
+* Kort på anslagstavlor
+* Poster i Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,20 +124,24 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Översikt över uppdateringsavsnittet
+### Översikt över flikarna i uppdateringsavsnittet
 
 ![Uppdateringsavsnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * I uppdateringsavsnittet visas information på följande flikar:
 
    * **Kommentarer**: Visar kommentarer som gjorts av användare och svar på dessa kommentarer. Använd fliken Kommentarer för att lägga till nya kommentarer eller svara på befintliga kommentarer. Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
-   * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser på ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Alla svar som har gjorts på systemaktivitetsposter i den tidigare kommentarfunktionen fylls i på fliken Systemaktivitet som skrivskyddade. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+   * **Systemaktivitet**: Visar systemuppdateringar som är informationsmeddelanden som Workfront skapar för att registrera vissa händelser för ett objekt. Till exempel hämtas ändringar i status, namn eller anpassade fält med systemuppdateringar. Din Workfront- eller gruppadministratör kan aktivera systemuppdateringar för dina objekt. Alla svar som har gjorts på systemaktivitetsposter i den tidigare kommentarfunktionen fylls i på aktivitetsfliken i som skrivskyddade. Mer information finns i [Konfigurera systemuppdateringar](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
    * **Alla (skrivskyddade)**: Visar både användarkommentarer och systemaktivitetskommentarer på ett ställe. Det här är en flik som bara är för visning. Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en viss kommentar använder du länken från fliken Alla till fliken Kommentarer. Mer information om hur du uppdaterar objekt finns i [Uppdatera arbete](../updating-work-items-and-viewing-updates/update-work.md).
 
      >[!NOTE]
      >
      >Flikarna för kommentarer och systemaktivitet uppdateras i realtid. Du måste uppdatera fliken Alla om du vill visa de senaste uppdateringarna.
 
+
+### Likheter och skillnader mellan uppdateringsområdena för olika objekt
+
+Det finns skillnader mellan hur kommentarer och uppdateringar visas för olika objekt.
 
 * Följande objekt har liknande upplevelser på alla tre flikarna i uppdateringsavsnittet:
 
@@ -145,17 +153,30 @@ Depending on what objects you access the commenting experience for, you might fi
    * Användare
    * Tidrapporter
 
-* Följande objekt har ingen flik för systemaktivitet eller Alla, och upplevelsen på fliken Kommentarer matchar alla andra objekt:
+* Följande objekt har ingen aktivitetsflik för System eller en Alla-flik, och upplevelsen på fliken Kommentarer matchar alla andra objekt:
 
    * Team
    * Mall
    * Malluppgift
 
-* Följande objekt har ingen flik för systemaktivitet eller Alla, och upplevelsen på fliken Kommentarer skiljer sig från upplevelsen på alla andra objekt:
+* Följande objekt har ingen aktivitetsflik för System eller en Alla-flik, och upplevelsen på fliken Kommentarer skiljer sig från upplevelsen på alla andra objekt:
+
    * Iterationer
-   * Ad hoc-kort
+   * Ad hoc-kort i styrelserutan
 
      Mer information om uppdateringar på kort finns i [Lägga till ett ad hoc-kort till en anslagstavla](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+
+* Följande objekt har en aktivitetsflik i System och har ingen Alla-flik:
+
+   * Anslutna kort i området för anslagstavlor
+
+     Mer information finns i [Använda anslutna kort på kort](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+
+* Följande objekt har fliken Historik som ersätter fliken Systemaktivitet:
+
+   * Poster i Workfront Planning
+
+     Mer information finns i [Översikt över avsnittet Historik](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Följande objekt har ingen Alla-flik och upplevelsen på fliken Kommentarer matchar upplevelsen på de flesta objekt:
 

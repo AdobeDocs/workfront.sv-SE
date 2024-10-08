@@ -6,9 +6,9 @@ description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst 
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1416'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,12 @@ Din synlighet för objekt i Adobe Workfront beror på din åtkomst till den type
 
 >[!NOTE]
 >
->I den här artikeln beskrivs hur du kan begära behörigheter för alla objekt utom för planer i Adobe Workfront Scenario Planner. Mer information om hur du begär åtkomst till planer finns i [Begär åtkomst till en plan i scenarioplanen](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
+>I den här artikeln beskrivs hur du kan begära behörigheter för alla objekt utom följande:
+>
+>* Planerarplaner för scenarier i Adobe Workfront Scenario Planner. Mer information finns i [Begär åtkomst till en plan i scenarioplanen](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
+>
+>* Vyer och arbetsytor i Workfront Planning. Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
 
 Din Workfront-administratör konfigurerar din åtkomst till en typ av objekt på din åtkomstnivå. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -31,33 +36,7 @@ Du kan till exempel ha behörigheten Visa i ett projekt, men du måste lägga ti
 
 ## Åtkomstkrav
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna dela objekt:
 
@@ -66,23 +45,25 @@ Du måste ha följande för att kunna dela objekt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-plan*</td> 
+   <td role="rowheader">Adobe Workfront</td> 
    <td> <p>Alla </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licens*</td> 
-   <td> <p>Arbeta eller högre</p> </td> 
+   <td> <p>Nytt: Standard</p> 
+   <p>Aktuell: Arbete eller högre</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationer på åtkomstnivå*</td> 
-   <td> <p>Visa åtkomst eller högre till objekt som du begär behörighet till</p> <p><b>ANMÄRKNING</b>
-
-Om du fortfarande inte har åtkomst frågar du Workfront-administratören om de anger ytterligare begränsningar för din åtkomstnivå. Mer information om hur en Workfront-administratör kan ändra åtkomstnivån finns i <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Skapa eller ändra anpassade åtkomstnivåer</a>.</p> </td>
-</tr> 
+   <td role="rowheader">Konfigurationer på åtkomstnivå</td> 
+   <td> <p>Visa åtkomst eller högre till objekt som du begär behörighet till</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har.
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Förstå reglerna för standarddelning
 

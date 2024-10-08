@@ -6,9 +6,9 @@ description: Din Adobe Workfront-administratör ger användarna åtkomst till at
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1971'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,22 @@ Mer information om hur du delar alla andra objekt i Workfront finns i följande 
 * Mer information om dokumentmappar finns i [Dela en dokumentmapp](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 * Information om planer finns i [Dela en plan i scenarioplanen](../../scenario-planner/share-a-plan.md).
 
-  Detta kräver ytterligare en licens.
+  Workfront Scenario Planner kan kräva ytterligare licens.
 
-* Se [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md) för mer information. Detta kräver ytterligare en licens.
+* Se [Dela ett mål i Workfront-mål](../../workfront-goals/workfront-goals-settings/share-a-goal.md) för mer information.
+
+  Workfront Goals kan kräva ytterligare licens.
+
+* Information om Workfront Planning-objekt finns i följande artiklar:
+
+   * [Visa](/help/quicksilver/planning/access/share-views.md)
+   * [Dela arbetsytor](/help/quicksilver/planning/access/share-workspaces.md)
+
+  Workfront Planning kräver ytterligare licens.
 
 ## Åtkomstkrav
+
++++ Expandera om du vill visa åtkomstkrav för funktionerna i den här artikeln.
 
 Du måste ha följande för att kunna dela objekt:
 
@@ -85,7 +96,9 @@ Du måste ha följande för att kunna dela objekt:
  </tbody> 
 </table>
 
-*Kontakta Workfront-administratören om du vill veta vilken plan, licenstyp eller åtkomst du har. Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Dela ett projekt, en uppgift eller ett ärende från sidan
 
@@ -176,7 +189,7 @@ Du måste ha följande för att kunna dela objekt:
 
    Klicka på knappen **Dela** bredvid objektnamnet.
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    eller
 
@@ -186,20 +199,15 @@ Du måste ha följande för att kunna dela objekt:
 
    ![](assets/share-a-document-350x160.png)
 
-1. I rutan **Ge &lt; Objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
+1. I fältet **Ge &lt; Objektnamn > åtkomst till** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objektet med och klickar sedan på namnet när det visas i listrutan.
 
-   ![](assets/list-share-add-people.png){width="350"}
-
-   >[!TIP]
-   >
-   >Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >Om du har flera entiteter med liknande namn visas alla under deras typ. Namnen på enheterna visas i alfabetisk ordning. Den ordning i vilken enhetstyperna visas är dock slumpmässig.
+   >* Om du har flera entiteter med liknande namn visas alla under deras typ. Namnen på enheterna visas i alfabetisk ordning. Den ordning i vilken enhetstyperna visas är dock slumpmässig.
    >
+   >* Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
 
 1. (Valfritt) Upprepa steg 3 för varje användare, team, roll eller grupp som du vill ge åtkomst till objektet.
 
@@ -216,14 +224,12 @@ Du måste ha följande för att kunna dela objekt:
      >
      >Workfront-administratören eller objektskaparen kan ta bort behörigheter från dessa entiteter.
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. (Valfritt) Klicka på **Avancerade inställningar** om du vill konfigurera specifika behörigheter för objektet.
 
-   Visa, Hantera och Contribute har olika avancerade alternativ beroende på vilket objekt som är markerat.\
+   Behörigheterna Visa och Hantera har olika avancerade alternativ beroende på det markerade objektet.\
    Mer information om behörighetsnivåer finns i [Översikt över delningsbehörigheter för objekt](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Valfritt) Om du vill göra det här objektet tillgängligt för alla användare i systemet klickar du på ikonen **Kugga** ![](assets/gear-icon-settings-with-dn-arrow.jpg) och sedan på **Gör det synligt i hela systemet** i listrutan.
 
@@ -255,19 +261,20 @@ Du måste ha följande för att kunna dela objekt:
 
 1. Klicka i kryssrutan bredvid de objekt som du vill dela och klicka sedan på ikonen **Dela** ![](assets/share-icon.png) överst på sidan.
 
+   Rutan **&lt; Objekt > Åtkomst** öppnas.
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. I fönstret **&lt; Objekt > Åtkomst** visas börjar du skriva namnet på användaren, teamet, rollen, gruppen eller företaget som du vill dela objekten med i rutan **Redigera > Objektnamn > åtkomst för**. Klicka sedan på namnet när det visas i listrutan.
+1. I rutan **Redigera &lt; Objektnamn > åtkomst för** börjar du skriva namnet på den användare, det team, den roll, den grupp eller det företag som du vill dela objekten med och klickar sedan på namnet när det visas i listrutan.
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
-
-   >[!TIP]
+   >* Du kan bara dela ett objekt med aktiva användare, team, roller eller företag.
    >
-   >Om du har flera entiteter med liknande namn visas alla under deras typ. Namnen på enheterna visas i alfabetisk ordning. Den ordning i vilken enhetstyperna visas är dock slumpmässig.
+   >
+   >* Om du har flera entiteter med liknande namn visas alla under deras typ. Namnen på enheterna visas i alfabetisk ordning. Den ordning i vilken enhetstyperna visas är dock slumpmässig.
    >
 
 1. (Valfritt) Upprepa steg 3 för varje användare, team, roll eller grupp som du vill ge åtkomst till objekten.

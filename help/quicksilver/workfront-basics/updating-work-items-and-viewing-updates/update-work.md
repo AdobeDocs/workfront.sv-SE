@@ -6,9 +6,9 @@ description: Du kan lägga till en uppdatering för ett Adobe Workfront-objekt (
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3075'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,15 @@ ht-degree: 0%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-Du kan lägga till en uppdatering för ett Adobe Workfront-objekt för att informera andra om objektets förlopp. Mer information om vilka objekt du kan lägga till uppdateringar till i Workfront finns i [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Du kan lägga till en uppdatering till ett Adobe Workfront-objekt genom att lägga till en kommentar för att informera andra om objektets status eller förlopp, eller be om mer information eller ytterligare resurser.
 
-I den här artikeln beskrivs hur du kan kommentera och uppdatera information för projekt, uppgifter och ärenden. Användare som är tilldelade eller prenumererade till objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
+Mer information om vilka objekt du kan lägga till uppdateringar till i Workfront finns i [Översikt över uppdateringsavsnitt](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Att lägga till kommentarer till andra objekt liknar att uppdatera projekt, uppgifter och problem. Mer information om hur du kommenterar kort och mål finns i följande artiklar:
+I den här artikeln beskrivs hur du kan kommentera projekt, uppgifter och problem. Användare som har tilldelats eller prenumererar på objektet kan visa din uppdatering. Du kan också tagga användare så att de uppmärksammas på uppdateringen.
+
+Att lägga till kommentarer till andra Workfront-objekt liknar att uppdatera projekt, uppgifter och problem.
+
+Mer information om hur du kommenterar kort, mål och poster i Workfront Planning finns även i följande artiklar:
 
 * [Hantera målkommentarer i Adobe Workfront-mål](../../workfront-goals/goal-management/manage-goal-comments.md).
 
@@ -65,7 +69,7 @@ Att lägga till kommentarer till andra objekt liknar att uppdatera projekt, uppg
 
 * [Använd anslutna kort på ritytor](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 
-<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
+* [Hantera postkommentarer](/help/quicksilver/planning/records/manage-record-comments.md)
 
 ## Åtkomstkrav
 
@@ -84,7 +88,7 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
    <td> <p>Alla</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-licens</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-licens*</strong></td> 
    <td> 
    <p>Aktuell: Begär eller högre för utgåvor och dokument; Granska eller högre för alla andra objekt</p>
    <p>Nytt: Medarbetare eller högre för problem och dokument: Ljus eller högre för alla andra objekt</p> 
@@ -101,11 +105,11 @@ Du måste ha följande åtkomst för att kunna utföra stegen i den här artikel
  </tbody> 
 </table>
 
-Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Workfront-dokumentationen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Mer information finns i [Åtkomstkrav i Workfront-dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Att tänka på när du uppdaterar arbete
+## Att tänka på när du kommenterar objekt
 
 * Du kan lägga till kommentarer till de flesta objekt i Adobe Workfront under Uppdateringar. Mer information om vilka objekt som visar uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -234,23 +238,13 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Lägga till en uppdatering i en arbetsuppgift
+## Lägga till en kommentar i en arbetsuppgift
 
-I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter och problem. Det liknar att uppdatera de flesta andra objekt.
+I den här artikeln beskrivs hur du kan uppdatera projekt, uppgifter eller problem. Det liknar att uppdatera de flesta andra objekt.
 
-1. Leta reda på objektet som du vill uppdatera och klicka sedan på dess namn för att öppna objektets sida.
+1. Leta reda på objektet som du vill lägga till en kommentar i och klicka sedan på dess namn för att öppna objektets sida.
 1. Klicka på **Uppdateringar** i den vänstra panelen.
 Fliken **Kommentarer** är markerad som standard.
-
-   <!--
-   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
-
-      This enables the new commenting experience. 
-
-         >[!TIP]
-         >
-         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-   -->
 
 1. Börja skriva en kommentar i rutan **Ny kommentar**.
 
@@ -329,12 +323,12 @@ Fliken **Kommentarer** är markerad som standard.
    >
    >Du kan inte svara på kommentarer eller tagga andra användare i befintliga kommentarer på fliken Alla. Om du vill svara på en kommentar på fliken Alla klickar du på **Svara i kommentarer** för att öppna kommentaren på fliken Kommentarer.
 
-## Använda RTF i en Workfront-uppdatering{#use-rich-text-in-a-workfront-update}
+## Använda RTF i en Workfront-kommentar{#use-rich-text-in-a-workfront-comment}
 
-Du kan förbättra dina uppdateringar genom att använda RTF eller lägga till olika objekt i den, som känslolägesikoner, länkar eller bilder.
+Du kan förbättra dina kommentarer genom att använda RTF eller lägga till olika objekt i det, som känslolägesikoner, länkar eller bilder.
 
-1. Gå till området **Uppdateringar** för ett Workfront-objekt och börja skriva en kommentar.
-1. (Valfritt) Om du vill lägga till RTF-formatering i uppdateringen använder du alla attribut i verktygsfältet **RTF** när du skriver.
+1. Gå till området **Uppdateringar** för ett Workfront-objekt, öppna fliken **Kommentarer** och börja skriva en kommentar.
+1. (Valfritt) Om du vill lägga till RTF-formatering i kommentaren använder du alla attribut i verktygsfältet **RTF** när du skriver.
 
    ![](assets/rich-text-toolbar.png)
 
@@ -444,19 +438,17 @@ Du kan söka efter en kommentar eller ett svar i uppdateringsavsnittet för ett 
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Kopiera uppdateringar
+## Kopiera kommentarer
 
-Du kan kopiera en uppdatering på flera olika sätt.
+Du kan kopiera en kommentar på flera olika sätt.
 
-Du kan kopiera en länk till uppdateringen eller kopiera innehållet i en uppdatering för att använda den i en ny uppdatering.
+Du kan kopiera en länk till kommentaren eller kopiera innehållet i kommentaren för att använda den i en ny uppdatering.
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Kopiera en uppdatering <!--in the new commenting experience-->
-
-<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
+### Kopiera en kommentar
 
 Du kan kopiera information från en befintlig kommentar genom att göra något av följande:
 
@@ -466,11 +458,11 @@ Du kan kopiera information från en befintlig kommentar genom att göra något a
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
-#### Kopiera länk
+#### Kopiera länk till en kommentar
 
 Alternativet Kopiera länk kopierar kommentaren eller länken till Urklipp så att du kan dela kommentaren eller hela tråden med andra användare.
 
-1. Gå till den uppdatering vars länk du vill kopiera.
+1. Gå till kommentaren vars länk du vill kopiera.
 
 1. Klicka på menyn **Mer** och sedan på **Kopiera länk**.
 
@@ -484,16 +476,16 @@ Alternativet Kopiera länk kopierar kommentaren eller länken till Urklipp så a
 
 #### Kopiera brödtext
 
-Alternativet Kopiera brödtext kopierar texten från en specifik uppdatering till Urklipp.
+Alternativet Kopiera brödtext kopierar texten från en viss kommentar till Urklipp.
 
-1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Gå till kommentaren eller svaret som du vill kopiera.
 1. Klicka på menyn **Mer** och sedan på **Kopiera brödtext**.
 
 #### Offertsvar
 
 Alternativet Offertsvar kopierar den ursprungliga kommentaren till ett nytt svar som en blockcitat.
 
-1. Gå till den uppdatering eller det svar som du vill kopiera.
+1. Gå till kommentaren eller svaret som du vill kopiera.
 1. Klicka på menyn **Mer** och klicka sedan på **Offertsvar**.
 
    En ny kommentarsruta öppnas och det citerade svaret inkluderas i den nya kommentaren och markeras som ett blockcitat.
@@ -563,14 +555,16 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## Ta bort en uppdatering eller ett svar
+## Ta bort en kommentar eller ett svar
 
-Beroende på vilken åtkomst din Workfront-administratör ger kan du ta bort uppdateringar som du har lagt till på fliken Uppdateringar för ett objekt. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) i artikeln [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Beroende på vilken åtkomst din Workfront-administratör ger kan du ta bort kommentarer som du har lagt till i uppdateringsavsnittet för ett objekt.
+
+Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) i artikeln [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Ingen Workfront-användare (inklusive Workfront-administratören) kan ta bort uppdateringar som gjorts av en annan användare. Om en användares åtkomstnivå tillåter att användaren tar bort sina egna uppdateringar, kan Workfront-administratören logga in som den användaren och ta bort de uppdateringar han/hon har gjort. Mer information finns i [Skapa eller ändra anpassade åtkomstnivåer](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) och [Logga in som en annan användare](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-1. Gå till den uppdatering eller det svar som du vill ta bort.
-1. Klicka på menyn **Mer** bredvid den uppdatering eller det svar du vill ta bort och klicka sedan på **Ta bort**.
+1. Gå till kommentaren eller svaret som du vill ta bort.
+1. Klicka på menyn **Mer** bredvid kommentaren eller svaret som du vill ta bort och klicka sedan på **Ta bort**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -608,7 +602,7 @@ I uppdateringsavsnittet för ett Workfront-objekt visas två typer av informatio
    * Malluppgift
    * Ad hoc-kort
 
-Mer information om systemuppdateringar i uppdateringsavsnittet finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Mer information om användar- och systemuppdateringar och hur de visas i uppdateringsavsnittet för Workfront-objekt finns i [Översikt över uppdateringsavsnittet](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 
 <!--
