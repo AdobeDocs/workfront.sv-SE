@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6020'
+source-wordcount: '6060'
 ht-degree: 0%
 
 ---
@@ -324,6 +324,10 @@ Den här åtgärdsmodulen gör någon av följande konverteringar:
 * Konvertera problem till aktivitet
 * Konvertera aktivitet till projekt
 
+>[!NOTE]
+>
+>Från och med juli 2024 kan anpassade formulär inkluderas när ett objekt konverteras.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ Visa en lista över de [!DNL Workfront] objekttyper som du kan använda den här
 +++ **[!UICONTROL Misc Action]**
 
 Med den här åtgärdsmodulen kan du utföra åtgärder mot API:t.
+
+>[!NOTE]
+>
+>Från och med juli 2024 innehåller åtgärden `convertToProject` fältet `copyCategories`. När värdet är `TRUE` inkluderas alla anpassade formulär i projektet som utgåvan konverteras till.
 
 När du konfigurerar den här modulen visas följande fält.
 
