@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 0%
@@ -183,7 +183,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   Mer information finns i [Skapa arbetsytor](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Posttyp**: Objekttypen eller Workfront Planning.
+* **Posttyp**: Objekttypen för Workfront Planning.
 
   Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du skapa egna objekttyper i Workfront Planning.
 
@@ -199,7 +199,7 @@ Följande är de viktigaste Workfront Planning-objekten och -begreppen:
 
   När du har lagt till en posttyp på en arbetsyta kan du börja lägga till poster av den typen på posttypens sida.
 
-  Till exempel kan&quot;Campaign&quot; vara en posttyp och&quot;Sommarkampanj för EMEA&quot; är ett register över posttypen Campaign
+  Till exempel kan&quot;Campaign&quot; vara en posttyp och&quot;Sommarkampanj för EMEA&quot; är ett register över posttypen Campaign.
 
   Mer information finns i [Skapa poster](/help/quicksilver/planning/records/create-records.md).
 

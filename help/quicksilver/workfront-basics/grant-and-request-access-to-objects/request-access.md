@@ -6,9 +6,9 @@ description: Din synlighet för objekt i Adobe Workfront beror på din åtkomst 
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1421'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Din synlighet för objekt i Adobe Workfront beror på din åtkomst till den type
 >
 >* Planerarplaner för scenarier i Adobe Workfront Scenario Planner. Mer information finns i [Begär åtkomst till en plan i scenarioplanen](../../scenario-planner/request-access-to-plan.md). Detta kräver ytterligare en licens.
 >
->* Vyer och arbetsytor i Workfront Planning. Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+>* Vyer och arbetsytor i Workfront Planning. Mer information finns i [Översikt över delningsbehörigheter i Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Detta kräver ytterligare en licens.
 
 
 Din Workfront-administratör konfigurerar din åtkomst till en typ av objekt på din åtkomstnivå. Mer information finns i [Hur åtkomstnivåer och behörigheter fungerar tillsammans](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

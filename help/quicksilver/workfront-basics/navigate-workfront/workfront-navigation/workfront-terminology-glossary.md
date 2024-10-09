@@ -6,9 +6,9 @@ description: I  [!DNL Adobe Workfront] ordlistan visas termer som används ofta 
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '16806'
+source-wordcount: '17341'
 ht-degree: 0%
 
 ---
@@ -629,8 +629,37 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>I det här fältet visas det aktuella tillståndet för uppgifter, projekt eller utgåvor. Det här alternativet visar de senaste uppdateringarna som ägare av aktiviteter, projekt eller utgåvor har tillhandahållit i fältet [!UICONTROL Update Status], tillsammans med det nya villkoret.</p> <p>Kommentarer som gjorts för villkorsuppdateringar visas inte i kolumnen [!UICONTROL Condition Update]. Endast huvuduppdateringen visas.</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connected record types]</td> 
+   <td> <p>I Workfront Planning kan du skapa en anslutning mellan följande: </p>
+   <ul>
+   <li>Två posttyper</li>
+   <li>En posttyp och en Workfront-objekttyp</li>
+   <li>En posttyp och en Adobe Experience Manager-resurs</li></ul>
+   <p>När du ansluter posttyper kan du visa information från en post eller objekttyp på en annan posttyp.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Översikt över anslutna posttyper</a>  </p>
+  <p>Workfront Planning kräver ytterligare licens. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connected records]</td> 
+   <td> <p>När du har kopplat samman två posttyper i Workfront Planning kan du koppla två enskilda poster av den typen till varandra.  </p>
+   <p>När du ansluter poster kan du visa information från en post eller ett objekt från ett annat program på en annan post.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/planning/records/connected-records-overview.md">Översikt över anslutna poster</a>. </p>
+
+<p>Workfront Planning kräver ytterligare licens. </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Connections]</td> 
+   <td> <p>I Workfront Planning kan anslutningar referera till anslutna posttyper eller anslutna poster. Workfront Planning kräver ytterligare licens.</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Constraint Date]</td> 
    <td> <p>Om du använder en [!UICONTROL Task Constraint] som är knuten till ett specifikt datum, till exempel [!UICONTROL Must Start On], blir det datumet [!UICONTROL Constraint Date] för uppgiften.</p> <p>Följande uppgiftsbegränsningar uppdaterar fältet [!UICONTROL Constraint Date]:</p> 
     <ul> 
@@ -882,11 +911,11 @@ Följande tabell är en lista över vanliga termer i Adobe Workfront:
 
 <p>Mer information finns i <a href="../../../wf-api/general/api-explorer.md">API-utforskaren</a> och <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Textläge - översikt</a>.</p>
 
-<p>Som standard innehåller Workfront en uppsättning fält som definierar både objekt och deras information. Du kan också skapa anpassade fält för att definiera objekt, men du kan inte skapa anpassade objekt.</p> 
-   </td> 
-  </tr>
+<p>Som standard innehåller Workfront en uppsättning fält som definierar både objekt och deras information. Du kan också skapa anpassade fält för att definiera objekt, men du kan inte skapa anpassade objekt.</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>I Workfront Planning kan du skapa anpassade fält för alla posttyper. Workfront posttyper har ett mycket begränsat antal fält. Du måste skapa alla fält från grunden och associera dem med posttyper. Mer information finns i <a href="/help/quicksilver/planning/fields/fields-overview.md">Fältöversikt</a>. </p> <p>Workfront Planning kräver ytterligare licens. </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>Ett av huvudbyggstenarna i en rapport eller ett listelement som definierar vilken information som visas på skärmen. Mer information om rapportelement finns i <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Rapportera element: filter, vyer och grupperingar</a>.</p> <p>Filtret avgör vilka resultat som visas i en rapport eller på en [!DNL Workfront]-panel, som projekt, uppgifter eller problem.</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ Timposter kan ha någon av följande statusvärden i Workfront:
    <li><b>Fakturerad och godkänd</b>: timmarna har loggats, godkänts av projektägaren och faktureringspostens status har markerats som Fakturerad.</li>
    </ul>
 
-
 <p>När timmar är en del av en faktureringspost visar timstatusen om timarna har godkänts eller om faktureringsposten de tillhör har fakturerats. Timstatus för en timpost visas bara i en timlista eller rapport. </p>
 
 <p>Mer information om hur du lägger till timmar i faktureringsposter finns i avsnittet Lägg till timmar i faktureringsposter i artikeln <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Skapa faktureringsposter</a>.</p>
@@ -1043,8 +1071,6 @@ Timposter kan ha någon av följande statusvärden i Workfront:
 
 <p>Allmänna timmar som inte loggas direkt på arbetsobjekt visar inte timstatus. </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL Hour Type]</td> 
@@ -1248,6 +1274,14 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
    <td> <p>En del av [!UICONTROL Interface Setup] som tillåter länkning av anpassade filter, vyer och grupperingar till enskilda användare eller globalt till alla användare.</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Lookup fields]</td> 
+   <td> <p>När du har upprättat anslutningen mellan två posttyper i Workfront Planning och länkar samman enskilda poster, kan du referera till de länkade posternas fält i den post du ansluter från.</p>
+   <p>Om du till exempel kopplar en Campaign-posttyp till en Workfront Project-objekttyp kan du visa budgetfältet för anslutna projekt på kampanjposterna. Fältet Budgetprojekt är ett sökfält från projekt i en kampanj.</p> <p>Värdena för sökfält fylls i automatiskt på de poster som de är kopplade från.</p>
+   <p>Mer information finns i <a href="/help/quicksilver/planning/records/connected-records-overview.md">Översikt över anslutna poster</a>.</p>
+   <p>Workfront Planning kräver ytterligare licens.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL Ready]</td> 
    <td> <p>Det här fältet i en aktivitetsrapport anger om en [!UICONTROL Agile]-aktivitet har markerats som [!UICONTROL Ready] i efterloggen. Den här flaggan gäller bara för [!UICONTROL Agile] aktiviteter, som är uppgifter som tilldelats ett [!UICONTROL Agile]-team. </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p>I Workfront Planning är en post en unik instans av en posttyp.</p>
+<p>När du har lagt till en posttyp på en arbetsyta kan du börja lägga till poster av den typen på posttypens sida.</p>
+<p>Till exempel kan"Campaign" vara en posttyp och"Sommarkampanj för EMEA" är ett register över posttypen Campaign.</p>
+<p>Mer information om hur du skapar poster finns i <a href="/help/quicksilver/planning/records/create-records.md">Skapa poster</a>. </p> <p>Workfront Planning kräver ytterligare licens. </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL Record type]</td> 
+   <td> <p>Objekttypen för Workfront Planning.</p>
+<p>Till skillnad från Workfront, där objekttyperna är fördefinierade, kan du i Workfront Planning skapa egna objekttyper.Workfront Planning-objekttyper kallas posttyper.</p>
+<p>I Workfront har till exempel objekttyperna Program, Portfolio, Projekt, Uppgift eller Utgåva redan skapats.</p>
+<p>I Workfront Planning kan du skapa alla posttyper som passar organisationens arbetsflöden. Senare kan du definiera hur posttyperna relaterar till varandra eller formulärberoenden.</p> Mer information om hur du skapar posttyper finns i <a href="/help/quicksilver/planning/architecture/create-record-types.md">Skapa posttyper</a>. </p> <p>Workfront Planning kräver ytterligare licens. </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
    <td> <p>Ett fält som visas i rutan [!UICONTROL Task Details] eller [!UICONTROL Edit Task] för en överordnad för återkommande uppgifter. Det är den frekvens med vilken uppgifterna i återgivningen inträffar. Mer information om hur du skapar återkommande aktiviteter finns i <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Skapa återkommande aktiviteter</a>. </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ Timposter kan ha någon av följande statusvärden i Workfront:
   <tr> 
    <td>[!UICONTROL View]</td> 
    <td> <p>Vyer refererar till ett rapportelement som gör att du kan ändra kolumnerna i en rapport eller i en lista med objekt.</p> 
-   <p> Vyn hänvisar också till en användares rätt att endast visa information om ett objekt, beroende på åtkomstnivå eller behörighetsdelningsnivå för det objektet.</p> </td> 
+   <p> Vyn hänvisar också till en användares rätt att endast visa information om ett objekt, beroende på åtkomstnivå eller behörighetsdelningsnivå för det objektet.</p> 
+   <p>I Workfront Planning visas poster på posttypssidan i någon av följande vytyper:</p>
+   <ul><li>Tabell</li>
+   <li>Tidslinje</li>
+   <li>Kalender</li></ul>
+   <p>I Workfront Planning ingår de filter, grupperingar, sorteringar och andra inställningar som används på posterna på skärmen.</p> <p>Mer information finns i <a href="/help/quicksilver/planning/views/manage-record-views.md">Hantera postvyer</a>.</p>   
+   <p>Workfront Planning kräver ytterligare licens.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL View Icons]</td> 
@@ -2481,6 +2540,15 @@ Du måste använda den extra <code>[!UICONTROL usewidths=true]</code>-kodraden f
    <p>valueformat=HTML</p>
    </code>
     <p>Mer information om hur du använder textläge finns i <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Översikt över syntaxen i textläge</a>. </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>I Workfront Planning är en arbetsyta en samling posttyper som definierar den operativa livscykeln för en viss organisation. En arbetsyta är en arbetsyta i en organisationsenhet.</p>
+   <p>Workfront Planning kräver ytterligare licens. </p>
+   <p>Mer information finns i <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Skapa arbetsytor</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
