@@ -9,9 +9,9 @@ description: Du kan använda Adobe Workfront Fusion Adobe Workfront-kontakten f�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
+source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
 workflow-type: tm+mt
-source-wordcount: '6060'
+source-wordcount: '6123'
 ht-degree: 0%
 
 ---
@@ -138,6 +138,9 @@ Du kan skapa en anslutning till ditt [!DNL Workfront]-konto direkt inifrån en [
 >   Mer information om enkel inloggning finns i [Översikt över enkel inloggning [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 >   
 >* OAuth 2.0-anslutningar till API:t [!DNL Workfront] är inte längre beroende av API-nycklar.
+>* Om du vill skapa en anslutning till en Workfront Sandbox-miljö måste du skapa ett OAuth2-program i den miljön och sedan använda det klient-ID och klienthemlighet som genereras av det programmet i anslutningen.
+>
+>   Instruktioner om hur du skapar ett OAuth2-program i Workfront finns i [Skapa ett OAuth2-program med användarautentiseringsuppgifter (Authorization code flow)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) i artikeln Skapa OAuth2-program för Workfront-integreringar.
 
 ## [!DNL Workfront]-moduler och deras fält
 
