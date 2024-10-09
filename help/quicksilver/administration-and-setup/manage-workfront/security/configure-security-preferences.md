@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
      </tr>
      <tr> 
       <td role="rowheader">Aktivera arbetslistan Prioriteter </td> 
-      <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
+      <td>Gör att du kan välja att aktivera eller inaktivera arbetslistan Prioriteter för dina användare. Användarna kommer fortfarande att se Prioritetsikonerna i Workfront, men de kommer inte att ha tillgång till funktionerna. Mer information om prioriteringar finns i <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Kom igång med prioriteringar</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testmiljöer</td> 
