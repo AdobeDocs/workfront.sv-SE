@@ -1,7 +1,7 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: '2412'
 ht-degree: 0%
 
 ---
@@ -154,6 +154,10 @@ Så här konfigurerar du länkade mappar:
 >* Ersätt den med en bild som är anpassad för att illustrera organisationen. I det här fallet ser ikonen annorlunda ut än i den här artikeln.
 >* Ersätt den länkade sidan med en annan sida. I det här fallet klickar du på **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet på sidan, eller (om tillgängligt) klickar på **[!UICONTROL Main Menu]**-ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och sedan på **[!UICONTROL Home]**.
 >
+
+## Steg 1 - Komma igång med prioriteter - {#step1-to-priorities}
+
+1. Klicka på ikonen **[!UICONTROL Main Menu]** ![Huvudmeny](/help/_includes/assets/main-menu-icon.png) i det övre högra hörnet av Adobe Workfront, eller (om den är tillgänglig) klicka på **[!UICONTROL Main Menu]** -ikonen ![Huvudmeny](/help/_includes/assets/main-menu-icon-left-nav.png) i det övre vänstra hörnet och klicka sedan på **[!UICONTROL Priorities]**.
 
 <!-- Integrations -->
 

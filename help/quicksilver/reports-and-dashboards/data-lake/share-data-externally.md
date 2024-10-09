@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Upprätta en anslutning till Workfront Data Lake
-description: Med Workfront datasjön kan ni använda er organisations Workfront-data med populära affärsintelligensverktyg eller lagra dem i ett externt datalager.
+title: Upprätta en anslutning till Workfront Data Connect
+description: Med Workfront Data Connect kan ni använda företagets Workfront-data med verktyg för affärsintelligens eller lagra dem på ett externt datalager.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -103,16 +102,16 @@ Mer information om informationen i den här tabellen finns i [Åtkomstkrav i Wor
 
 ## Dela data med verktyg för affärsinformation
 
-Ett antal vanliga verktyg för affärsintelligens listas nedan. Länkarna tar dig till tjänstens dokumentationssajt för att lära dig mer om hur du ansluter till din datasjö.
+Ett antal vanliga verktyg för affärsintelligens listas nedan. Besök deras dokumentationssajter för att lära dig mer om hur du ansluter till din datasjön.
 
-* [Tablet PC](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Lagra data i ett externt datalager
 
-Ett antal vanliga datalager listas nedan. Länkarna tar dig till varje tjänsts dokumentationswebbplats där du kan lära dig mer om att ansluta till din datasjön.
+Ett antal vanliga datalager listas nedan. Gå till deras dokumentationssajter och läs mer om hur du ansluter till din datalinje.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift
