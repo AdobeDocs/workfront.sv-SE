@@ -8,9 +8,9 @@ description: Följande allmänna funktioner är tillgängliga på panelen för m
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -161,3 +161,8 @@ Hämtar endast de angivna nycklarna från objektet.
 >`pick(` Användare `;` lösenord `;` e-postadress `)`
 >
 >Returnerar en samling med endast användarens lösenord och e-postadress.
+
+## mergeCollections(collection1; collection2)
+
+Sammanfogar två samlingar genom att kombinera deras nyckelvärdepar. Om båda samlingarna innehåller samma nyckel skrivs värdet från den andra samlingen över från den första samlingen.
+

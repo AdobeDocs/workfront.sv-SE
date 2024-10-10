@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '724'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Eftersom Adobe Workfront kommunicerar med din organisations nätverk måste orga
 Detta uppnås genom en tillåtelselista, som i huvudsak är en lista över webbplatser som&quot;tillåts&quot; att skicka eller ta emot data via brandväggen. Platserna kan identifieras på ett av två sätt:
 
 * **IP-adress**: en serie siffror som 52.31.132.175
-* **Domän**: del av en URL, t.ex.&quot;den här domänen&quot; i www.thisdomain.com
+* **Domän**: del av en URL, till exempel `thisdomain` i `www.thisdomain.com`.
 
 Workfront använder specifika IP-adresser och domäner för webbkommunikation. Dessa måste läggas till i din organisations tillåtelselista innan du kan använda Workfront i din organisation.
 
