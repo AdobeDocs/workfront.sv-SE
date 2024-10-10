@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c2fa065045f434b3a761f4742ca496670bfd6b2
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1282'
 ht-degree: 0%
 
 ---
@@ -137,13 +137,15 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
      >
      >   Fält av följande typer visas inte i begärandeformuläret:
      >
-     >    * Folk
-     >    * Kopplade fält (inkluderar anslutningar med Experience Manager-resurser)
+     >    * Personer (inklusive Skapad av och Senast ändrad av)
+     >    * Kopplade fält (inkluderar anslutningar till Workfront och Experience Manager-resurser)
      >    * Anslutna sökfält
      >    * Formel
+     >    * Skapad den
+     >    * Senast ändrat den
 
    * **Standardavsnitt**: Det här är standardavsnittsbrytningen som Workfront tillämpar på begärandeformuläret. Det går inte att byta namn på eller ta bort standardavsnittet.
-   * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än.
+   * Fältet **Ämne**: Fältet som identifierar begäran i Workfront. Den här funktionen är inte tillgänglig än. Det går inte att redigera konfigurationen och värdet för ämnesfältet.
    * Alla fält som är associerade med posttypen.
 
      Fälten i begärandeformuläret är synliga för alla som skickar en begäran till den här posttypen.
@@ -158,21 +160,23 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
    * **Gör ett obligatoriskt fält**: När du väljer det här alternativet måste fältet ha ett värde. Annars kan formuläret inte skickas.
    * **Lägg till logik**: Definiera vilka villkor som måste uppfyllas för att fältet ska kunna visas eller döljas.
 
-   Fälttypen för varje fält visas längst upp på den högra panelen när du har valt fältet i formuläret. Namnen på fälttyperna i begärandeformuläret skiljer sig från namnen i tabellvyn. I följande tabell beskrivs skillnaderna mellan namnen på fälttyperna i tabellvyn och namnen på samma fält i posttypens frågeformulär:
-
-   | Workfront Planning, fälttyp | Formulärfälttyp för begäran |
-   |-------------------------------|-------------------------|
-   | Enkelradig text | Enkelradig text |
-   | Stycke | Text med formatering |
-   | Valuta, tal, procent | Enkelradig text |
-   | Enkelval | Listruta med ett val |
-   | Flera val | Listruta för flera val |
-   | Kryssruta | Kryssrutegrupp |
-
    >[!NOTE]
    >
-   >   Fältens format bevaras. Även om Valuta och Procent visas som enkelradiga textfält visas informationen i fälten som valuta och som ett procentvärde.
-
+   >   Fälttypen för varje fält visas längst upp på den högra panelen när du har valt fältet i formuläret.
+   >   
+   >
+   >   Tabellen nedan visar namnen på fälttyperna i tabellvyn och namnen på samma fält i posttypens frågeformulär. Formaten för varje fält matchar mellan tabellvyn och förfrågningsformuläret.
+   >
+   >   | Workfront Planning, fälttyp | Formulärfälttyp för begäran |
+   >   |-------------------------------|-------------------------|
+   >   | Enkelradig text | Enkelradig text |
+   >   | Stycke | Stycke |
+   >   | Valuta, tal, procent | Enkelradig text (formaten för dessa fält förblir valuta, tal och procent) |
+   >   | Enkelval | Enkelval |
+   >   | Flera val | Flera val |
+   >   | Kryssruta | Kryssruta |
+   >   | Datum | Datum |
+   >
 
 1. (Valfritt) Klicka på fliken **Innehållselement** till vänster i formuläret och lägg till något av följande element:
 

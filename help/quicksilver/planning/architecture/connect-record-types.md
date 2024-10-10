@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2222'
 ht-degree: 0%
 
 ---
@@ -268,13 +268,15 @@ Du måste ha följande för att kunna komma åt Workfront Planning:
 
    Poster utan miniatyrbild visar istället posttypsikonen. Ett exempel på hur de anslutna posterna visas visas i området **Postutseende**.
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    När du tillåter att flera poster länkas kan det hända att endast miniatyrbilden sparar utrymme i mindre områden, som i postvyer.
+   >* När du tillåter att flera poster länkas kan det hända att endast miniatyrbilden sparar utrymme i mindre områden, som i postvyer.
    >
-   >Namnet på en post är det primära fältet i posten. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >* Namnet på en post är det primära fältet i posten. Mer information finns i [Översikt över primärt fält](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >Det går inte att välja ett postutseende när du väljer Workfront-objekttyper.
+   >* Det går inte att välja ett postutseende när du väljer Workfront-objekttyper.
+   >
+   >* Det du väljer i utseendeområdet Post avgör hur posterna visas i anslutningar överallt i systemet, inklusive alla vyer och detaljsidor.
 
 1. Klicka på **Skapa**.
 
